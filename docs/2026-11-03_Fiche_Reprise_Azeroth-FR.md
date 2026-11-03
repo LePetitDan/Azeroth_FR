@@ -1,6 +1,18 @@
-# Fiche de reprise : Azeroth_FR (étape 2 terminée : essai 1 prêt)
+# Fiche de reprise : Azeroth_FR (données 0.2 faites : le français officiel de Blizzard est dans la source)
 
-*03/11/2026, mise à jour le soir après l'étape 2. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le soir après les données 0.2. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Données 0.2 (03/11, soir) : le français officiel de Blizzard dans la source unique
+
+- **Source** : `patch-frFR-3.MPQ`, trouvé dans l'atelier de l'ancien projet (`D:\AscensionFR\WorkFlow\sources\`, lu avec l'accord de Dan, en lecture seule) : une archive Blizzard 3.3.5a frFR (build 12340). L'anglais de référence Blizzard est `patch-enUS-3.MPQ` du client de Dan. Inventaire et provenance des 988 fichiers : `collecte/donnees/officiel_frFR/inventaire_sources.tsv`. Écartés : `GlueStrings_frFR.lua` (retouché), `packfr_sorts.json` (pack tiers).
+- **Règle tenue** : français de Blizzard repris seulement si l'anglais du client CoA est identique à celui de Blizzard pour le même numéro ou la même clé.
+- **Ajouts** : interface 7 739 textes officiels (« Lié quand ramassé », « Quête acceptée : %s »…) ; nouvelle famille `sorts_standard.tsv` (93 294 officiels) ; 507 sorts de classes officiels ; 7 nouvelles familles de DBC (factions, races, sous-classes d'objets, compétences, ensembles, suffixes, courriers, rencontres) et `zones.tsv` élargie (sous-zones, lieux intérieurs, points de carte, points de vol, canaux) : 12 150 officiels.
+- **Sorts** : anglais de référence = `patch-T`. Aucun anglais des sorts de classes ne change (le `Spell.dbc` d'Ascension est identique pour eux).
+- **Quêtes** : `outils/quetes_cata.py` repère les « officiels » d'AzerothCore qui traduisent Cataclysm (157 lignes, 146 quêtes, dont la 783) ou qui sont de l'anglais (1 243) : à revoir. La base TrinityCore (TDB) a le même français qu'AzerothCore (31 883 sur 31 933) : elle ne comble que 10 textes, et n'a pas les 6 009 textes de demande et de récompense.
+- **Vocabulaire** : décisions 1 à 8 et 10 appliquées (Worldforged et Ascended en anglais, « forgé par le sang » accordé, préfixes, Clé, Magnétite élémentaire, tableau d'appel, Gardien/Rôdeur/Cultiste, Essence de talent). Point 9 (étiquettes) : en attente du test en jeu.
+- **Lignes officielles signalées** (familles de l'add-on) : 5 950 → 1 672 ; la mise en forme ($B, retours à la ligne) est acceptée, les vrais désaccords non.
+- **Bilan** : 1 416 887 lignes ; affichables et contrôlées 1 080 929 → 1 193 916 ; contrôle 0 bloquant ; import reproductible ; banc d'essai conforme. Rapport : `docs/2026-11-03_Rapport_Donnees-0.2.md`.
+- **À faire ensuite** : l'add-on 0.2 doit lire les nouvelles familles (sorts, zones, factions…) ; relire les 157 quêtes de Cataclysm ; vérifier aussi dialogues, cris et livres officiels ; hauts faits officiels (`Achievement.dbc` frFR) ; test des étiquettes en jeu.
 
 ## Étape 2 terminée (03/11, soir) : l'essai 1, add-on 0.1.0
 
@@ -49,12 +61,12 @@
   - « Choc de flammes » s'est affiché dans l'infobulle : la traduction à l'affichage par numéro marche.
 - **Étape 2 terminée** (`docs/2026-11-03_Rapport_Etape2-essai1.md`) : add-on Azeroth_FR 0.1.0 (zip de 15 Mo, 941 610 lignes embarquées). Il traduit à l'affichage les quêtes, dialogues, objets, créatures, cris et livres. Le paquet PTRXML met en français 6 034 textes d'interface. Les sorts et talents ne sont pas encore traduits.
 - **Essai 1 installé chez Dan le 03/11** (`essais/2026-11-03_essai1/INSTALLATION.md`) ; les tests 1 et 3 ont été retirés. En attente des 8 vérifications de Dan.
-- **À faire ensuite** :
-  - appliquer les 10 décisions de vocabulaire ;
-  - rebaser l'anglais des sorts du client sur `patch-T` ;
-  - traiter les 5 950 lignes officielles signalées par le contrôle (surtout des livres), laissées en anglais ;
-  - écrire le module sorts et talents ;
-  - traiter les lignes fixes des infobulles (« Binds when picked up »…). Pour revenir en arrière, il suffit de supprimer ces dossiers.
+- **À faire ensuite** (état au 03/11 au soir) :
+  - ~~appliquer les 10 décisions de vocabulaire~~ : fait (données 0.2), sauf les étiquettes ;
+  - ~~rebaser l'anglais des sorts du client sur `patch-T`~~ : fait ;
+  - ~~traiter les 5 950 lignes officielles signalées~~ : 1 672 restent bloquées (vrais désaccords) ;
+  - écrire le module sorts et talents (add-on 0.2) ;
+  - ~~traiter les lignes fixes des infobulles~~ : elles sont dans l'interface officielle (`interface.tsv`), reste à les poser en jeu. Pour revenir en arrière, il suffit de supprimer ces dossiers.
 - Le 03/11 vers 18 h, à la demande de Duff (chef d'équipe CoA Core), Dan a publié la proposition dans un sujet du salon Discord **#suggestions** : « French localization (Azeroth_FR) – multi-language support collaboration », tags General, In-Game et Launcher. Le sujet pose 6 questions : approche multilingue, locale forcée en enUS, pérennité de PTRXML, vrais numéros de sorts, LuaDBC, distribution par le lanceur. En attente de réponse.
 - Le 03/11 au soir, Dan a déplacé la conversation dans un projet claude.ai dédié, « Azeroth_FR ».
 

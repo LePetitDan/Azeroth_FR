@@ -31,7 +31,7 @@ Ascended (reste en anglais)	{D}Ascended{F}	{D}[Aa]scensionnée?s?{F}|{D}Ascendan
 Keystone→Clé	^Keystone: |Mythic(?:al)? Keystone|Keystone (?:Teleporter|Container|Dungeon)	(?i)cl[ée]f? de voûte|pierre angulaire|{D}Keystone{F}			Décision n° 4 de Dan (03/11/2026) : Keystone (Mythique+) = « Clé » ; « Clé : donjon (N) »
 Elemental Lodestone→Magnétite élémentaire	Elemental Lodestone	(?i)lodestone|pierre d.aimant			Décision n° 5 de Dan (03/11/2026)
 Call Board→tableau d'appel	(?i)call ?board	(?i)tableau des appels|panneau d.appels?|tableau d'appels|(?<!KEYWORD:)Call ?Board			Décision n° 6 de Dan (03/11/2026) : « tableau d'appel » (« Tableau d'appel » en début de phrase) ; [KEYWORD:Call Board] reste tel quel
-classes Gardien, Rôdeur, Cultiste	\[(?:Guardian|Ranger|Cultist)\]	\[(?:Guardian|Ranger|Cultist|Forestier|Sectateur)\]			Décision n° 7 de Dan (03/11/2026) : Gardien, Rôdeur, Cultiste (pas Forestier ni Sectateur) ; « Rôdeur » des créatures officielles (Prowler) n'est pas concerné
+classes Gardien, Rôdeur, Cultiste	\[(?:Guardian|Ranger|Cultist)\]	\[[^\]]{0,20}(?:Guardian|Ranger|Cultist|Forestier|Sectateur)\]			Décision n° 7 de Dan (03/11/2026) : Gardien, Rôdeur, Cultiste (pas Forestier ni Sectateur) ; « Rôdeur » des créatures officielles (Prowler) n'est pas concerné
 Talent Essence→Essence de talent	Talent Essence	Talent Essence			Décision n° 10 de Dan (03/11/2026)
 préfixe Parchemin mystique	^Mystic Scroll: 	^(?!Parchemin mystique : )			Décision n° 8 de Dan (03/11/2026) : préfixe validé, espace insécable avant les deux-points
 préfixe Parchemin Worldforged	^Worldforged Scroll: 	^(?!Parchemin Worldforged : )			Décisions n° 2 et 8 de Dan (03/11/2026)
