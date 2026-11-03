@@ -24,3 +24,26 @@ classe CoA restée en anglais	{D}(?:Barbarian|Witch Doctor|Witch Hunter|Stormbri
 mot-à-mot (Sacré X, Ombre X…)	^(?:\|c[0-9A-Fa-f]{8})?(?:Holy|Shadow|Arcane|Frost|Fel|Unholy) 	^(?:\|c[0-9A-Fa-f]{8})?(?:Sacré|Ombre|Arcanes|Givre|Gangre|Impie) (?:Tome\b|[A-ZÉ][a-zé]+)			Mot-à-mot de traduction automatique
 apostrophe droite		’			Convention : apostrophe droite (')
 majuscule accentuée		\bE(?:clair|chec|tendard|lémentaire|nergie|preuve|pée)s?\b			Le projet accentue les majuscules (Éclair, Échec…)
+# Données 0.2 : décisions de vocabulaire de Dan du 03/11/2026 (glossaire/DECISIONS_VOCABULAIRE.md, points 1 à 8 et 10)
+Bloodforged→forgé par le sang	{D}Bloodforged{F}	(?i){D}forge-?sang|{D}sang-?forgée?s?{F}|{D}sangui-?forgée?s?{F}|{D}Bloodforged{F}			Décision n° 1 de Dan (03/11/2026) : « forgé par le sang », accordé ; l'étiquette @…@ reste à part (point 9)
+Worldforged (reste en anglais)	{D}Worldforged{F}	(?i){D}monde-?forgée?s?{F}|{D}forge-monde{F}|{D}forgée?s?-monde{F}|{D}forgée?s? par le monde{F}			Décision n° 2 de Dan (03/11/2026) : « Worldforged » reste en anglais, invariable
+Ascended (reste en anglais)	{D}Ascended{F}	{D}[Aa]scensionnée?s?{F}|{D}Ascendante?s?{F}|{D}Élevée?s?{F}|{D}Élue?s?{F}			Décision n° 3 de Dan (03/11/2026) : « Ascended » reste en anglais, invariable
+Keystone→Clé	^Keystone: |Mythic(?:al)? Keystone|Keystone (?:Teleporter|Container|Dungeon)	(?i)cl[ée]f? de voûte|pierre angulaire|{D}Keystone{F}			Décision n° 4 de Dan (03/11/2026) : Keystone (Mythique+) = « Clé » ; « Clé : donjon (N) »
+Elemental Lodestone→Magnétite élémentaire	Elemental Lodestone	(?i)lodestone|pierre d.aimant			Décision n° 5 de Dan (03/11/2026)
+Call Board→tableau d'appel	(?i)call ?board	(?i)tableau des appels|panneau d.appels?|tableau d'appels|(?<!KEYWORD:)Call ?Board			Décision n° 6 de Dan (03/11/2026) : « tableau d'appel » (« Tableau d'appel » en début de phrase) ; [KEYWORD:Call Board] reste tel quel
+classes Gardien, Rôdeur, Cultiste	\[(?:Guardian|Ranger|Cultist)\]	\[(?:Guardian|Ranger|Cultist|Forestier|Sectateur)\]			Décision n° 7 de Dan (03/11/2026) : Gardien, Rôdeur, Cultiste (pas Forestier ni Sectateur) ; « Rôdeur » des créatures officielles (Prowler) n'est pas concerné
+Talent Essence→Essence de talent	Talent Essence	Talent Essence			Décision n° 10 de Dan (03/11/2026)
+préfixe Parchemin mystique	^Mystic Scroll: 	^(?!Parchemin mystique : )			Décision n° 8 de Dan (03/11/2026) : préfixe validé, espace insécable avant les deux-points
+préfixe Parchemin Worldforged	^Worldforged Scroll: 	^(?!Parchemin Worldforged : )			Décisions n° 2 et 8 de Dan (03/11/2026)
+préfixe Carte de compétence	^Skill Card - 	^(?!Carte de compétence - )			Décision n° 8 de Dan (03/11/2026)
+préfixe Carte de compétence dorée	^Golden Skill Card - 	^(?!Carte de compétence dorée - )			Décision n° 8 de Dan (03/11/2026)
+préfixe Carte de compétence chanceuse	^Lucky Skill Card - 	^(?!Carte de compétence chanceuse - )			Décision n° 8 de Dan (03/11/2026)
+préfixe Magnétite élémentaire	^Elemental Lodestone: 	^(?!Magnétite élémentaire : )			Décisions n° 5 et 8 de Dan (03/11/2026)
+préfixe Cor de guerre draconique	^Draconic Warhorn: 	^(?!Cor de guerre draconique : )			Décision n° 8 de Dan (03/11/2026)
+préfixe Enchantement aléatoire	^Random Enchantment: 	^(?!Enchantement aléatoire : )			Décision n° 8 de Dan (03/11/2026)
+préfixe Sifflet du maître des bêtes	^Beastmaster's Whistle: 	^(?!Sifflet du maître des bêtes : )			Décision n° 8 de Dan (03/11/2026)
+préfixe Incarnation	^Incarnation: 	^(?!Incarnation : )			Décision n° 8 de Dan (03/11/2026)
+préfixe Pierre de retraite	^Stone of Retreat: 	^(?!Pierre de retraite : )			Décision n° 8 de Dan (03/11/2026)
+préfixe Vélin imbibé de sang	^Blood Soaked Vellum: 	^(?!Vélin imbibé de sang : )			Décision n° 8 de Dan (03/11/2026)
+préfixe Clé (Mythique+)	^Keystone: 	^(?!Clé : )			Décisions n° 4 et 8 de Dan (03/11/2026) : « Clé : donjon (N) »
+préfixe Tome du <classe> <Spécialité>	^[A-Z][a-z]+(?: [A-Z][a-z]+)? (?:Warrior|Paladin|Hunter|Rogue|Priest|Death Knight|Shaman|Mage|Warlock|Druid) Tome: 	^(?!Tome du (?:guerrier|paladin|chasseur|voleur|prêtre|chevalier de la mort|chaman|mage|démoniste|druide) [A-ZÉ][^ :]* : )			Décision n° 8 de Dan (03/11/2026) : « Tome du paladin Sacré : X », spécialisations officielles

@@ -52,6 +52,20 @@ FAUX = [
     ("Storm clouds gathered.", "Des nuages ​​orageux se sont formés.", 'caractere_invisible'),
     ("Very well. Before we head down there, take a moment to prepare yourself, $n.", "Très bien, $n.", 'trop_court'),
     ("Elixir of Fortitude", "", 'vide'),                                                      # machine sans francais
+    # Donnees 0.2 : decisions de vocabulaire de Dan du 03/11/2026
+    ("Worldforged Scroll: Storm of Swords", "Parchemin mondeforgé\u00a0: Tempête d'épées", 'glossaire:Worldforged (reste en anglais)'),
+    ("Obtain any Worldforged Enchantment", "Obtenez n'importe quel enchantement forge-monde", 'glossaire:Worldforged (reste en anglais)'),
+    ("Defeat all bosses on Ascended difficulty.", "Battez tous les boss en difficulté Ascensionné.", 'glossaire:Ascended (reste en anglais)'),
+    ("[Ranger] Ironman - High-Risk", "[Forestier] Ironman - Haut risque", 'glossaire:classes Gardien, Rôdeur, Cultiste'),
+    ("[Cultist] Ironman - High-Risk", "[Sectateur] Ironman - Haut risque", 'glossaire:classes Gardien, Rôdeur, Cultiste'),
+    ("Bloodforged Archer's Crossbow", "Arbalète d'archer forge-sang", 'glossaire:Bloodforged→forgé par le sang'),
+    ("Bloodforged Archer's Crossbow", "Arbalète d'archer Bloodforged", 'glossaire:Bloodforged→forgé par le sang'),
+    ("Keystone: The Black Morass (2)", "Clé de voûte\u00a0: Le Noir marécage (2)", 'glossaire:Keystone→Clé'),
+    ("Elemental Lodestone: Riftwater Elemental", "Lodestone élémentaire\u00a0: Élémentaire de la Faille", 'glossaire:Elemental Lodestone→Magnétite élémentaire'),
+    ("Complete any Call Board Daily Quest.", "Terminez une quête journalière du tableau des appels.", "glossaire:Call Board→tableau d'appel"),
+    ("You have unspent |cffffd100[Talent Essence]|r.", "Vous avez de la |cffffd100[Talent Essence]|r non dépensée.", 'glossaire:Talent Essence→Essence de talent'),
+    ("Mystic Scroll: Viscera", "Parchemin Mystique : Viscères", 'glossaire:préfixe Parchemin mystique'),
+    ("Holy Paladin Tome: Cleanse", "Tome Paladin Sacré\u00a0: Purification", 'glossaire:préfixe Tome du <classe> <Spécialité>'),
 ]
 
 # VRAIS CAS : doivent passer
@@ -70,6 +84,16 @@ VRAIS = [
     ("Speak with the guard in Stormwind.", "Parlez au garde à Hurlevent."),
     ("Travel to Ironforge.", "Rendez-vous à Forgefer."),
     ("Robes of Endless Raiding", "Robes de raid sans fin"),
+    # Donnees 0.2 : decisions de vocabulaire
+    ("Worldforged Scroll: Storm of Swords", "Parchemin Worldforged\u00a0: Tempête d'épées"),
+    ("Prowler", "Rôdeur"),                                                                   # creature officielle : pas la classe
+    ("[Ranger] Ironman - High-Risk", "[Rôdeur] Ironman - Haut risque"),
+    ("Bloodforged Archer's Crossbow", "Arbalète d'archer forgée par le sang"),
+    ("@|cFFCC0000Bloodforged|r@Strong armor", "@|cFFCC0000Bloodforged|r@Armure solide"),      # etiquette : hors glossaire (point 9)
+    ("Keystone: The Black Morass (2)", "Clé\u00a0: Le Noir marécage (2)"),
+    ("Complete any Call Board Daily Quest.", "Terminez une quête journalière du tableau d'appel."),
+    ("Holy Paladin Tome: Cleanse", "Tome du paladin Sacré\u00a0: Purification"),
+    ("Mysterious Keystone", "Clé de voûte mystérieuse"),                                     # archéologie : pas la Clé mythique
 ]
 
 
