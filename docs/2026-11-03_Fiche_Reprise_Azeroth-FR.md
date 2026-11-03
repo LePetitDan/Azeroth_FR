@@ -1,8 +1,8 @@
-# Fiche de reprise : Azeroth_FR (add-on 0.2 prêt, essai 2 à installer chez Dan)
+# Fiche de reprise : Azeroth_FR (essai 2, add-on 0.2, installé chez Dan : en attente de ses captures)
 
 *03/11/2026, mise à jour le soir après l'add-on 0.2. À lire avant de reprendre le chantier dans une nouvelle conversation.*
 
-## Add-on 0.2 (03/11, soir) : prêt pour l'essai 2, pas encore installé
+## Add-on 0.2 (03/11, soir) : essai 2 installé chez Dan
 
 - **Branche** `addon-0.2` fusionnée dans `main` (commit `6a6df4b`) après les données 0.2. Contrôle 0 bloquant, 45 faux cas sur 45 refusés, banc hors jeu 106 vérifications sur 106.
 - **Zip** : `dist/Azeroth_FR-0.2.0.zip`, 18,2 Mo, sha256 `f40cb667a5407fbc3127b2e565e7c1cb4fadbdea6f531533eb648c75c7566867` ; 16 add-ons et `PTRXML` (11 891 textes d'interface, français officiel de Blizzard).
@@ -11,7 +11,8 @@
 - **Mémoire** (banc) : 20,7 Mo à la connexion ; +8 Mo au premier survol d'un sort ; pire cas 145,5 Mo.
 - **Notice** : `docs/ESSAI2_installer.md` (10 vérifications). **Rapport** : `docs/2026-11-03_Rapport_Addon-0.2.md`.
 - **Questions ouvertes pour Dan** : `$c` en minuscules dans le français ; étiquettes après `/azfr etiquettes` ; « Équipé : » seulement sur les lignes visibles ; messages du centre de l'écran.
-- **Prochaine étape** : accord de Dan pour installer l'essai 2 (retirer l'essai 1, copier le zip dans `D:\Wow_Core`), puis ses captures.
+- **Installé le 03/11 au soir avec l'accord de Dan** : essai 1 retiré (`Interface\PTRXML` et les 12 dossiers `Azeroth_FR…`), 0.2.0 copiée dans `D:\Wow_Core` (58 fichiers, 67,8 Mo, empreintes identiques au zip). Rien d'autre n'a été touché.
+- **Prochaine étape** : les captures de Dan sur les 10 vérifications de la notice, puis un `RESULTAT.md` de l'essai 2.
 
 ## Données 0.2 (03/11, soir) : le français officiel de Blizzard dans la source unique
 

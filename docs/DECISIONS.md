@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 03/11/2026 | Essai 2 (add-on 0.2.0) installé dans `D:\Wow_Core` à la place de l'essai 1 | Accord de Dan ; essai 1 retiré, aucun autre fichier du jeu touché |
 | 03/11/2026 | Données 0.2 : le contrôle accepte, sur une ligne **officielle** (hors interface), les écarts de mise en forme d'un texte correspondant ($B, retours à la ligne, espaces) et un officiel identique à l'anglais ; nombres, `$n`/`$c`/`$r`, `$g` retiré restent bloqués | Question ouverte de l'étape 2 : 5 950 lignes officielles laissées en anglais par l'add-on, 1 672 après |
 | 03/11/2026 | Données 0.2 : un texte de quête « officiel » qui traduit un autre texte (Cataclysm) ou qui n'est pas du français passe `a_revoir`, la raison en note (`outils/quetes_cata.py`) ; remplacé par TDB seulement si TDB a un autre français pour le même anglais et qu'il passe le contrôle | Essai 1 : quête 783 ; 1 403 lignes repérées |
 | 03/11/2026 | Données 0.2 : sorts standard dans une famille à part (`textes/client/sorts_standard.tsv`) ; anglais de référence de tous les sorts du client = `Spell.dbc` de CoA (`patch-T`) | Test 3 : `patch-T` est le `Spell.dbc` actif |
