@@ -1,7 +1,8 @@
 -- ============================================================================
 -- Azeroth_FR : dialogues des PNJ.
 -- Texte d'accueil (npc_text), options de dialogue, titres des quetes proposees, accueil
--- des maitres de classe. Par texte anglais, variables $n $g $r $c reconstituees.
+-- des maitres de classe, nom du PNJ en tete de la fenetre (UnitName("npc"), par le numero de
+-- la creature tire de son GUID). Par texte anglais, variables $n $g $r $c reconstituees.
 -- ============================================================================
 local A = AzerothFR
 local match = string.match
@@ -35,6 +36,7 @@ end
 
 local function TraduireGossip()
     if not A.Actif() then return end
+    if A.TraduireNomPNJ then A.TraduireNomPNJ(GossipFrameNpcNameText, { "npc" }) end
     local zone = GossipGreetingText
     local texte = zone and zone:GetText()
     if texte and texte ~= "" and not A.DejaEcrit(zone, texte) then

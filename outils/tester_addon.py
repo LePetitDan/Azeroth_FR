@@ -3,11 +3,16 @@
 
 Usage (depuis la racine du depot, apres outils/fabriquer.py) :
     python3 -I outils/tester_addon.py
-Il choisit des exemples connus dans `textes/` (quetes, objets, creatures, dialogues avec $n et $g,
-cris des PNJ, livres…), calcule ce que le client anglais AFFICHE (variables deja remplacees par le jeu)
-et le francais ATTENDU, puis lance `lua5.1 outils/banc_addon.lua`, qui charge le vrai code de l'add-on
-avec de fausses fonctions WoW et verifie chaque cas. Il verifie aussi le paquet PTRXML.
-Resultat : work/etape2/banc_resultat.txt ; code de sortie 0 si tout est conforme.
+Il choisit des exemples connus dans `textes/` (quetes, objectifs, suivi, discussion, noms, sorts, objets,
+creatures, dialogues, cris, livres…), calcule ce que le client anglais AFFICHE (variables deja remplacees par
+le jeu) et le francais ATTENDU (recalcule ici, sans regarder le Lua), puis lance `lua5.1 outils/banc_addon.lua`,
+qui charge le vrai code de l'add-on avec de fausses fonctions WoW et verifie chaque cas. Il verifie aussi le
+paquet PTRXML.
+
+Quand la source n'a pas encore de description de sort AFFICHABLE avec des nombres, le banc INJECTE une ligne
+reelle a l'etat `a_revoir` (modele anglais + proposition francaise) sous un numero fictif : c'est un essai du
+mecanisme d'alignement, jamais une donnee embarquee dans l'add-on. Le resultat le dit.
+Resultat : work/etape2/banc_resultat.txt (copie dans work/addon02/) ; code de sortie 0 si tout est conforme.
 """
 import os
 import re
@@ -25,17 +30,20 @@ import fabriquer as F  # noqa: E402
 
 DIST = os.path.join(K.RACINE, 'dist', 'Interface')
 TRAVAIL = os.path.join(K.RACINE, 'work', 'etape2')
+TRAVAIL2 = os.path.join(K.RACINE, 'work', 'addon02')
 JOUEUR = {'nom': 'Thalwyn', 'race': 'Night Elf', 'classe': 'Warrior'}   # personnage fictif du banc
 RACE_FR = F.RACES_OFFICIELLES['Night Elf']
 CIBLE = 'Elandra'                                                          # autre personnage fictif
 
 K.charger_lexique()
 REGLES, NOMS = C.charger_regles(), C.charger_noms()
-CLASSE_FR = 'Guerrier'
+NOTES = []          # remarques du banc (donnees injectees, cas absents de la source…)
 
 
 def lire(rel):
     p = os.path.join(K.TEXTES, *rel.split('/'))
+    if not os.path.exists(p):
+        return []
     fs = K.fichiers_textes(p) if os.path.isdir(p) else [p]
     out = []
     for f in fs:
@@ -47,23 +55,31 @@ def passe(l):
     return l[K.I_ETAT] in K.ETATS_AFFICHES and not C.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], REGLES, NOMS, l[K.I_TYPE])
 
 
-def afficher_en(en, genre='m', nom=None):
-    """Ce que le client anglais affiche : variables deja remplacees."""
+def minuscule1(s):
+    return s[:1].lower() + s[1:] if s else s
+
+
+CLASSES_FR = {l[K.I_EN]: l[K.I_FR] for l in lire('client/talents.tsv') if l[K.I_TYPE] == 'classe' and passe(l)}
+
+
+def afficher_en(en, genre='m', nom=None, classe=None):
+    """Ce que le client anglais affiche : variables deja remplacees ($c en minuscules : « young stormbringer »)."""
     t = F.RX_G.sub(lambda m: m.group(1) if genre == 'm' else m.group(2), en)
     t = re.sub(r'\$[Bb]', '\n', t)
     t = re.sub(r'\$[Nn]', lambda m: nom or JOUEUR['nom'], t)
     t = re.sub(r'\$[Rr]', JOUEUR['race'], t)
-    t = re.sub(r'\$[Cc]', JOUEUR['classe'], t)
+    t = re.sub(r'\$[Cc]', (classe or JOUEUR['classe']).lower(), t)
     return t
 
 
-def rendre_fr(fr, genre='m', nom=None):
+def rendre_fr(fr, genre='m', nom=None, classe=None):
     """Le francais attendu a l'ecran (reecrit ici sans regarder le Lua)."""
     t = re.sub(r'\$[Bb]', '\n', fr)
     t = re.sub(r'\$[Gg]([^:;]*):([^;]*);', lambda m: m.group(1) if genre == 'm' else m.group(2), t)
     t = re.sub(r'\$[Nn]', lambda m: nom or JOUEUR['nom'], t)
     t = re.sub(r'\$[Rr]', RACE_FR[1] if genre == 'f' else RACE_FR[0], t)
-    t = re.sub(r'\$[Cc]', CLASSE_FR, t)
+    cl = classe or JOUEUR['classe']
+    t = re.sub(r'\$[Cc]', lambda m: minuscule1(CLASSES_FR.get(cl, cl.lower())) if cl in CLASSES_FR else cl.lower(), t)
 
     def elision(m):
         c = m.group(1)
@@ -77,21 +93,117 @@ def uniques(lignes, cond):
     return [l for l in lignes if nb[l[K.I_EN]] == 1 and cond(l) and passe(l)]
 
 
-def lua_cas(d):
-    parts = []
-    for k, v in d.items():
-        if isinstance(v, (list, tuple)):
-            val = '{' + ','.join(F.lua_chaine(x).decode('utf-8') for x in v) + '}'
-        elif isinstance(v, int):
-            val = str(v)
-        else:
-            val = F.lua_chaine(v).decode('utf-8')
-        parts.append('%s=%s' % (k, val))
-    return '{' + ', '.join(parts) + '}'
+def lua_val(v):
+    if isinstance(v, bool):
+        return 'true' if v else 'false'
+    if isinstance(v, int):
+        return str(v)
+    if isinstance(v, (list, tuple)):
+        return '{' + ','.join(lua_val(x) for x in v) + '}'
+    if isinstance(v, dict):
+        return '{' + ','.join('[%s]=%s' % (lua_val(k), lua_val(x)) for k, x in v.items()) + '}'
+    if v is None:
+        return 'nil'
+    return F.lua_chaine(v).decode('utf-8')
+
+
+def guid(i):
+    return '0xF130%06X000042' % int(i)
+
+
+# ---------------------------------------------------------------------------
+# Sorts : valeurs que le client calculerait, et rendu attendu (meme francisation que Sorts.lua)
+# ---------------------------------------------------------------------------
+RX_TOK = re.compile(r'\$(\d*)([smotadhuxeSMOTADHUXE])(\d?)')
+VALEURS = {'s': '15', 'm': '12', 'o': '40', 't': '3', 'a': '8', 'd': '6 sec', 'h': '10', 'u': '5', 'x': '3', 'e': '2'}
+UNITES_FR = {'sec': 'sec', 'min': 'min', 'seconds': 'secondes', 'second': 'seconde', 'hour': 'heure', 'hours': 'heures'}
+
+
+def valeur_tok(m):
+    """Une valeur DIFFERENTE par variable ($s1 = 15, $s2 = 25, $12345s1 = 17…), pour que l'alignement ne puisse pas
+    reussir par hasard en melangeant deux variables."""
+    v = VALEURS[m.group(2).lower()]
+    rang = int(m.group(3) or 1) - 1 + (2 if m.group(1) else 0)
+    if v[0].isdigit() and ' ' not in v:
+        return str(int(v) + 10 * rang)
+    if ' ' in v:
+        n, u = v.split(' ', 1)
+        return '%d %s' % (int(n) + rang, u)
+    return v
+
+
+def modele_simple(en):
+    """Vrai si toutes les variables du modele sont des formes simples ($s1, $d, $12345o2…)."""
+    if '$' not in en or re.search(r'[@{}]|\$\?|\$[/*<]|\$[GgLl]', en):
+        return False
+    return all(RX_TOK.fullmatch(t) for t in re.findall(r'\$\d*[A-Za-z]+\d?', en))
+
+
+def remplir(modele, francais=False):
+    t = RX_TOK.sub(valeur_tok, modele)
+    if francais:
+        t = re.sub(r'(\d)\s+to\s+(\d)', r'\1 à \2', t)
+    return t
+
+
+def choisir_sort_injecte():
+    """Une vraie description de sort a nombres ($s1…), a l'etat a_revoir (proposition non adoptee) : sert a
+    essayer le mecanisme quand la source n'a encore aucune description affichable."""
+    for rel in ('client/sorts_classes.tsv', 'client/talents.tsv'):
+        par_id = {}
+        for l in lire(rel):
+            if l[K.I_TYPE] == 'sort':
+                par_id.setdefault(l[K.I_ID], {})[l[K.I_CHAMP]] = l
+        candidats = []
+        for i, d in sorted(par_id.items(), key=lambda x: int(x[0])):
+            ds, n = d.get('Description'), d.get('Name')
+            if not ds or not n or not ds[K.I_FR] or not n[K.I_FR]:
+                continue
+            en, fr = ds[K.I_EN], ds[K.I_FR]
+            if not (40 < len(en) < 220) or '\n' in en or not modele_simple(en):
+                continue
+            toks_en = sorted(re.findall(r'\$\d*[A-Za-z]\d?', en))
+            toks_fr = sorted(re.findall(r'\$\d*[A-Za-z]\d?', fr))
+            if toks_en != toks_fr or len(toks_en) < 2 or not modele_simple(fr):
+                continue
+            if F.squelette_modele(en) is None:
+                continue
+            # de preference une duree ($d) et deux valeurs differentes : le cas le plus exigeant
+            score = (2 if re.search(r'\$\d*d', en) else 0) + len(set(toks_en))
+            candidats.append((-score, int(i), n, ds))
+        if candidats:
+            candidats.sort(key=lambda x: (x[0], x[1]))
+            return candidats[0][1:]
+    return None
+
+
+def choisir_sort_affichable():
+    """Une description de sort AFFICHABLE a nombres, s'il y en a dans la source (sorts_standard…)."""
+    for rel in K.fichiers_textes():
+        r = os.path.relpath(rel, K.TEXTES).replace('\\', '/')
+        if r in F.HORS_GENERIQUE or r.startswith('serveur/objets/'):
+            continue
+        par_id = {}
+        for l in K.lire_tsv(rel)[0]:
+            if F.est_sort(l[K.I_TYPE], l[K.I_CHAMP]):
+                par_id.setdefault(l[K.I_ID], {})[l[K.I_CHAMP].lower()] = l
+        for i, d in sorted(par_id.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 0):
+            ds, n = d.get('description'), d.get('name')
+            if ds and n and passe(ds) and passe(n) and modele_simple(ds[K.I_EN]) and 40 < len(ds[K.I_EN]) < 220 \
+                    and modele_simple(ds[K.I_FR]) and F.squelette_modele(ds[K.I_EN]) \
+                    and sorted(re.findall(r'\$\d*[A-Za-z]\d?', ds[K.I_EN])) == \
+                    sorted(re.findall(r'\$\d*[A-Za-z]\d?', ds[K.I_FR])) and n[K.I_FR] != n[K.I_EN]:
+                return int(i), n, ds
+    return None
 
 
 def choisir_cas():
-    cas = []
+    cas, globales, injections = [], {}, []
+    inter = {l[K.I_ID]: l for l in lire('client/interface.tsv')}
+    for cle, _, _ in F.GABARITS:
+        if cle in inter:
+            globales[cle] = inter[cle][K.I_EN]          # le client pose ses textes anglais
+
     q = lire('serveur/quetes.tsv')
     # 1. description avec $N et $B
     l = next(l for l in uniques(q, lambda l: l[K.I_CHAMP] == 'QuestDescription' and '$N' in l[K.I_EN] and '$B' in l[K.I_EN]
@@ -105,30 +217,37 @@ def choisir_cas():
                                  and not F.RX_VAR_INCONNUE.search(F.RX_G.sub('', l[K.I_EN]))))
     cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'quête %s : $g et $c, personnage féminin' % l[K.I_ID], 'sexe': 3,
                 'anglais': afficher_en(l[K.I_EN], 'f'), 'attendu': rendre_fr(l[K.I_FR], 'f')})
-    # 3-5. progression, recompense, objectifs
+    # 3. « young $c » : classe en minuscules (Stormbringer, classe de Dan) — correction 1 de l'essai 1
+    l = next(l for l in uniques(q, lambda l: l[K.I_CHAMP] == 'QuestDescription' and re.search(r'young \$c', l[K.I_EN], re.I)
+                                 and not re.search(r'\$[gr]', l[K.I_EN], re.I) and re.search(r'\$c', l[K.I_FR], re.I)))
+    cas.append({'quoi': 'texte', 'famille': 'quetes', 'classe': 'Stormbringer',
+                'nom': 'quête %s : « young stormbringer » ($c en minuscules) -> « %s »' % (
+                    l[K.I_ID], minuscule1(CLASSES_FR.get('Stormbringer', 'stormbringer'))),
+                'anglais': afficher_en(l[K.I_EN], classe='Stormbringer'), 'attendu': rendre_fr(l[K.I_FR], classe='Stormbringer')})
+    # 4-6. progression, recompense, objectifs
     for typ, champ, quoi in (('quete_demande', 'CompletionText', 'progression'), ('quete_recompense', 'RewardText', 'récompense'),
                              ('quete', 'LogDescription', 'objectifs')):
         l = next(l for l in uniques(q, lambda l, t=typ, c=champ: l[K.I_TYPE] == t and l[K.I_CHAMP] == c and len(l[K.I_EN]) > 40
                                      and '$' not in l[K.I_EN]))
         cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'quête %s : %s' % (l[K.I_ID], quoi),
                     'anglais': afficher_en(l[K.I_EN]), 'attendu': rendre_fr(l[K.I_FR])})
-    # 6-7. titre par numero (et refus si l'anglais affiche a change)
+    # 7-8. titre par numero (et refus si l'anglais affiche a change)
     titres = [l for l in q if l[K.I_CHAMP] == 'LogTitle']
     l = next(l for l in uniques(titres, lambda l: l[K.I_ETAT] == 'officiel'))
-    cas.append({'quoi': 'titre_id', 'nom': 'quête %s : titre par numéro' % l[K.I_ID], 'id': int(l[K.I_ID]),
+    cas.append({'quoi': 'titre_id', 'nom': 'quête %s : titre par numéro (journal)' % l[K.I_ID], 'id': int(l[K.I_ID]),
                 'anglais': l[K.I_EN], 'attendu': l[K.I_FR]})
     cas.append({'quoi': 'titre_id', 'nom': 'quête %s : anglais changé par le serveur -> reste en anglais' % l[K.I_ID],
                 'id': int(l[K.I_ID]), 'anglais': l[K.I_EN] + ' (v2)'})
-    # 8. titre ambigu (homonymes aux francais differents) : pas de traduction par texte
+    # 9. titre ambigu (homonymes aux francais differents) : pas de traduction par texte seul
     par_en = {}
     for t in titres:
         if t[K.I_ETAT] == 'officiel' and passe(t):
             par_en.setdefault(t[K.I_EN], set()).add(t[K.I_FR])
     amb = sorted(en for en, frs in par_en.items() if len(frs) > 1 and re.fullmatch(r"[A-Z][A-Za-z' \-]+", en)
-                 and 'UNUSED' not in en.upper() and 'TEST' not in en.upper())[0]
-    cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'titre homonyme « %s » : reste en anglais sans numéro' % amb,
-                'anglais': amb})
-    # 9. fenetre de quete complete (titre, description, objectifs), par texte
+                 and 'UNUSED' not in en.upper() and 'TEST' not in en.upper())
+    cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'titre homonyme « %s » : reste en anglais sans numéro' % amb[0],
+                'anglais': amb[0]})
+    # 10. fenetre de quete complete (titre, description, objectifs), par texte
     par_id = {}
     for x in q:
         if x[K.I_TYPE] == 'quete':
@@ -139,20 +258,38 @@ def choisir_cas():
         if all(c in d for c in ('LogTitle', 'QuestDescription', 'LogDescription')) and all(passe(d[c]) for c in d) \
                 and nb_titres[d['LogTitle'][K.I_EN]] == 1 and nb_desc[d['QuestDescription'][K.I_EN]] == 1 \
                 and nb_desc[d['LogDescription'][K.I_EN]] == 1 and '$' not in d['LogDescription'][K.I_EN] \
-                and '$N' in d['QuestDescription'][K.I_EN] and '$g' not in d['QuestDescription'][K.I_EN].lower():
+                and '$N' in d['QuestDescription'][K.I_EN] and '$g' not in d['QuestDescription'][K.I_EN].lower() \
+                and '$c' not in d['QuestDescription'][K.I_EN].lower():
             cas.append({'quoi': 'fenetre_quete', 'nom': 'fenêtre de quête %s (titre, description, objectifs)' % i,
                         'titre': d['LogTitle'][K.I_EN], 'titre_attendu': d['LogTitle'][K.I_FR],
                         'description': afficher_en(d['QuestDescription'][K.I_EN]),
                         'description_attendue': rendre_fr(d['QuestDescription'][K.I_FR]),
                         'objectifs': d['LogDescription'][K.I_EN], 'objectifs_attendus': d['LogDescription'][K.I_FR]})
             break
-    # 10. salut d'un donneur de quetes
+    # 11. fenetre de quete d'un PNJ, titre HOMONYME : la quete est retrouvee par son titre PUIS sa description
+    for en in amb:
+        ids = [i for i, d in par_id.items() if 'LogTitle' in d and d['LogTitle'][K.I_EN] == en]
+        for i in ids:
+            d = par_id[i]
+            ds = d.get('QuestDescription')
+            if ds and passe(ds) and passe(d['LogTitle']) and nb_desc[ds[K.I_EN]] == 1 \
+                    and not F.RX_VAR_INCONNUE.search(F.RX_G.sub('', ds[K.I_EN])) and not re.search(r'\$[gcr]', ds[K.I_EN], re.I):
+                cas.append({'quoi': 'fenetre_quete',
+                            'nom': 'fenêtre de quête %s, titre homonyme « %s » (%d quêtes) : retrouvée par sa description'
+                                   % (i, en, len(ids)),
+                            'titre': en, 'titre_attendu': d['LogTitle'][K.I_FR],
+                            'description': afficher_en(ds[K.I_EN]), 'description_attendue': rendre_fr(ds[K.I_FR])})
+                break
+        else:
+            continue
+        break
+    # 12. salut d'un donneur de quetes
     l = next(iter(uniques(q, lambda l: l[K.I_TYPE] == 'salut_quete' and '$' not in l[K.I_EN])), None)
     if l:
         cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'salut du donneur de quêtes %s' % l[K.I_ID],
                     'anglais': l[K.I_EN], 'attendu': rendre_fr(l[K.I_FR])})
 
-    # creatures : nom + sous-titre par GUID ; objectif « X slain: 0/8 » ; suivi
+    # creatures
     cr = lire('serveur/creatures.tsv')
     par_c = {}
     for x in cr:
@@ -166,18 +303,45 @@ def choisir_cas():
             if 'name' in d and 'subname' in d and passe(d['name']) and passe(d['subname'])
             and d['name'][K.I_FR] != d['name'][K.I_EN] and d['subname'][K.I_FR] != d['subname'][K.I_EN]]
     i, d = c_ok[len(c_ok) // 3]
-    cas.append({'quoi': 'creature', 'nom': 'créature %s : nom et sous-titre par GUID' % i,
-                'guid': '0xF130%06X000042' % int(i), 'anglais': d['name'][K.I_EN],
-                'lignes': [d['name'][K.I_EN], d['subname'][K.I_EN], 'Level 30 Humanoid'],
-                'attendu': d['name'][K.I_FR], 'sous_titre_attendu': d['subname'][K.I_FR]})
-    nom = next(x for x in cr if x[K.I_CHAMP] == 'name' and noms_uniques[x[K.I_EN]] == 1 and passe(x)
-               and len(fr_par_nom.get(x[K.I_EN], ())) == 1 and x[K.I_FR] != x[K.I_EN] and int(x[K.I_ID]) > 1000)
-    cas.append({'quoi': 'objectif', 'nom': 'objectif « %s slain: 3/8 »' % nom[K.I_EN],
-                'anglais': '%s slain: 3/8' % nom[K.I_EN], 'attendu': '%s tué(s) : 3/8' % nom[K.I_FR]})
-    cas.append({'quoi': 'suivi', 'nom': 'suivi des objectifs « - %s slain: 0/8 »' % nom[K.I_EN],
-                'anglais': ' - %s slain: 0/8' % nom[K.I_EN], 'attendu': ' - %s tué(s) : 0/8' % nom[K.I_FR]})
+    noms_f = [l for l in lire('serveur/divers.tsv') + lire('client/factions.tsv')
+              if 'faction' in l[K.I_TYPE] and l[K.I_CHAMP].lower() == 'name' and passe(l) and l[K.I_FR] != l[K.I_EN]]
+    fac = next((l for l in noms_f if l[K.I_EN] == 'Stormwind'), noms_f[0] if noms_f else None)
+    c = {'quoi': 'creature', 'nom': 'créature %s : nom et sous-titre par GUID' % i, 'guid': guid(i),
+         'anglais': d['name'][K.I_EN], 'lignes': [d['name'][K.I_EN], d['subname'][K.I_EN], 'Level 30 Humanoid'],
+         'attendu': d['name'][K.I_FR], 'sous_titre_attendu': d['subname'][K.I_FR]}
+    if fac:
+        c['nom'] += ', et ligne de faction « %s »' % fac[K.I_EN]
+        c['lignes'].append(fac[K.I_EN])
+        c['faction_attendue'], c['ligne_faction'] = fac[K.I_FR], 4
+    cas.append(c)
+    # Kobold Vermin (Comte-du-Nord, quete 7) si possible
+    nom = next((x for x in cr if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Kobold Vermin' and passe(x)
+                and len(fr_par_nom.get(x[K.I_EN], ())) == 1), None) or \
+        next(x for x in cr if x[K.I_CHAMP] == 'name' and noms_uniques[x[K.I_EN]] == 1 and passe(x)
+             and len(fr_par_nom.get(x[K.I_EN], ())) == 1 and x[K.I_FR] != x[K.I_EN] and int(x[K.I_ID]) > 1000)
+    ne, nf = nom[K.I_EN], nom[K.I_FR]
+    cas.append({'quoi': 'objectif', 'nom': 'objectif, forme Blizzard « %s slain: 3/8 »' % ne,
+                'anglais': '%s slain: 3/8' % ne, 'attendu': '%s tué(s) : 3/8' % nf})
+    cas.append({'quoi': 'objectif', 'nom': 'objectif, forme de ce client « 0/8 %s slain »' % ne,
+                'anglais': '0/8 %s slain' % ne, 'attendu': '0/8 %s tué(s)' % nf})
+    cas.append({'quoi': 'objectif', 'nom': 'objectif sans « slain » (QuestInfo_GetObjectivesText) « 0/8 %s »' % ne,
+                'anglais': '0/8 %s' % ne, 'attendu': '0/8 %s' % nf})
+    cas.append({'quoi': 'objectif', 'nom': 'objectif rempli, fenêtre « %s slain: 8/8 (Complete) »' % ne,
+                'anglais': '%s slain: 8/8 (Complete)' % ne, 'attendu': '%s tué(s) : 8/8 (Complete)' % nf})
+    cas.append({'quoi': 'suivi', 'nom': 'suivi des objectifs, ancienne forme « - %s slain: 0/8 »' % ne,
+                'anglais': ' - %s slain: 0/8' % ne, 'attendu': ' - %s tué(s) : 0/8' % nf})
+    cas.append({'quoi': 'cible', 'nom': 'cadre de la cible : « %s »' % ne, 'anglais': ne, 'guid': guid(nom[K.I_ID]),
+                'attendu': nf})
+    # suivi : titre francais sur deux lignes (quete 7 « Kobold Camp Cleanup ») + objectif compte d'abord
+    tq = next((t for t in titres if t[K.I_ID] == '7' and passe(t)), None)
+    if not tq:
+        tq = next(t for t in uniques(titres, lambda t: len(t[K.I_FR]) * 6.5 > 192 > len(t[K.I_EN]) * 6.5))
+    cas.append({'quoi': 'suivi_hauteur',
+                'nom': 'suivi : quête %s « %s » -> titre français sur deux lignes, objectif compte d\'abord' % (tq[K.I_ID], tq[K.I_EN]),
+                'id': int(tq[K.I_ID]), 'titre_en': tq[K.I_EN], 'titre_fr': tq[K.I_FR],
+                'objectif_en': '%s slain: 0/8' % ne, 'objectif_fr': '0/8 %s tué(s)' % nf})
 
-    # objets : nom + description ; etiquette @Mythic N@ ; nom change par le serveur
+    # objets : nom + description ; etiquettes ; nom change par le serveur ; objectif d'objet
     ob = lire('serveur/objets/objets_0000000-0199999.tsv')
     par_o = {}
     for x in ob:
@@ -211,23 +375,54 @@ def choisir_cas():
     cas.append({'quoi': 'objet', 'nom': 'objet %s : nom changé par le serveur -> reste en anglais' % i, 'id': int(i),
                 'anglais': d['name'][K.I_EN] + ' of Doom', 'lignes': [d['name'][K.I_EN] + ' of Doom'],
                 'attendu': d['name'][K.I_EN] + ' of Doom'})
+    io_, do_ = o_ok[len(o_ok) // 4]
+    cas.append({'quoi': 'objectif', 'nom': 'objectif d\'objet, forme de ce client « 2/10 %s »' % do_['name'][K.I_EN],
+                'anglais': '2/10 %s' % do_['name'][K.I_EN], 'attendu': '2/10 %s' % do_['name'][K.I_FR],
+                'objet_cache': [int(io_), do_['name'][K.I_EN]]})
+    # ensemble d'objets dans l'infobulle
+    ens = next((l for l in lire('serveur/ensembles_objets.tsv') if passe(l) and l[K.I_FR] != l[K.I_EN]), None)
+    if ens:
+        i, d = o_ok[len(o_ok) // 5]
+        cas.append({'quoi': 'objet', 'nom': 'objet %s : ligne d\'ensemble « %s (0/5) »' % (i, ens[K.I_EN]), 'id': int(i),
+                    'anglais': d['name'][K.I_EN], 'lignes': [d['name'][K.I_EN], 'Soulbound', '%s (0/5)' % ens[K.I_EN]],
+                    'attendu': d['name'][K.I_FR], 'ligne_description': 3, 'description_attendue': '%s (0/5)' % ens[K.I_FR]})
 
-    # dialogues : accueil avec $N, option
+    # /azfr etiquettes : trois objets reels du serveur (le rendu de l'etiquette par le client est imite)
+    objets_eti, attendus_eti = {}, []
+    tous_objets = {}
+    for x in lire('serveur/objets'):
+        if int(x[K.I_ID]) in dict(F.OBJETS_ETIQUETTES):
+            tous_objets.setdefault(int(x[K.I_ID]), {})[x[K.I_CHAMP]] = x
+    for oid, quoi in F.OBJETS_ETIQUETTES:
+        d = tous_objets[oid]
+        n, ds = d['name'], d['description']
+        objets_eti[oid] = {'nom': n[K.I_EN], 'lignes': [n[K.I_EN], '"%s"' % ds[K.I_EN]]}
+        nfr = n[K.I_FR] if passe(n) and n[K.I_FR] != n[K.I_EN] else n[K.I_EN]
+        dfr = {'Mythic 5': '"@Mythique 5@"', 'Heroic Raid': '"@Raid héroïque@"',
+               'Bloodforged': '"@|cFFCC0000forgé par le sang|r@"'}[quoi]
+        attendus_eti.append([nfr, dfr])
+    cas.append({'quoi': 'etiquettes', 'nom': '/azfr etiquettes', 'objets': objets_eti, 'attendus': attendus_eti})
+
+    # dialogues : accueil avec $N, option, nom du PNJ en tete
     dl = lire('serveur/dialogues.tsv')
     acc = next(l for l in uniques(dl, lambda l: l[K.I_TYPE] == 'dialogue_pnj' and '$N' in l[K.I_EN]
                                    and '$n' in l[K.I_FR].lower() and not re.search(r'\$[gcr]', l[K.I_EN], re.I)))
     opt = next(l for l in uniques(dl, lambda l: l[K.I_TYPE] == 'option_dialogue' and l[K.I_CHAMP] == 'OptionText'
                                    and '$' not in l[K.I_EN] and len(l[K.I_EN]) > 15 and l[K.I_FR] != l[K.I_EN]
                                    and not re.fullmatch(r'[A-Z0-9_]+', l[K.I_EN])))
-    cas.append({'quoi': 'gossip', 'nom': 'dialogue %s ($N) et option %s' % (acc[K.I_ID], opt[K.I_ID]),
-                'accueil': afficher_en(acc[K.I_EN]), 'accueil_attendu': rendre_fr(acc[K.I_FR]),
-                'option': opt[K.I_EN], 'option_attendue': opt[K.I_FR]})
+    pnj = next((par_c[x] for x in par_c if par_c[x].get('name') and par_c[x]['name'][K.I_EN] == 'Deputy Willem'
+                and passe(par_c[x]['name'])), None) or c_ok[0][1]
+    cas.append({'quoi': 'gossip', 'nom': 'dialogue %s ($N), option %s, PNJ « %s » en tête' % (
+        acc[K.I_ID], opt[K.I_ID], pnj['name'][K.I_EN]),
+        'accueil': afficher_en(acc[K.I_EN]), 'accueil_attendu': rendre_fr(acc[K.I_FR]),
+        'option': opt[K.I_EN], 'option_attendue': opt[K.I_FR],
+        'pnj': pnj['name'][K.I_EN], 'guid': guid(pnj['name'][K.I_ID]), 'pnj_attendu': pnj['name'][K.I_FR]})
     g = next(l for l in uniques(dl, lambda l: l[K.I_TYPE] == 'dialogue_pnj' and re.search(r'\$g', l[K.I_EN], re.I)
                                  and '$g' in l[K.I_FR].lower() and not F.RX_VAR_INCONNUE.search(F.RX_G.sub('', l[K.I_EN]))))
     cas.append({'quoi': 'texte', 'famille': 'dialogues', 'nom': 'dialogue %s : $g, personnage féminin' % g[K.I_ID], 'sexe': 3,
                 'anglais': afficher_en(g[K.I_EN], 'f'), 'attendu': rendre_fr(g[K.I_FR], 'f')})
 
-    # cris : replique avec $n adressee a un AUTRE personnage ; emote avec %s et nom du PNJ
+    # cris
     bc = lire('serveur/broadcast_cris.tsv')
     cri = next(l for l in uniques(bc, lambda l: l[K.I_TYPE] == 'broadcast_text' and '$n' in l[K.I_EN].lower()
                                    and '$n' in l[K.I_FR].lower() and not re.search(r'\$[gcrb]', l[K.I_EN], re.I)
@@ -237,8 +432,8 @@ def choisir_cas():
                 'attendu': rendre_fr(cri[K.I_FR], nom=CIBLE)})
     emo = next(l for l in uniques(bc, lambda l: l[K.I_TYPE] == 'broadcast_text' and l[K.I_EN].startswith('%s ')
                                    and '$' not in l[K.I_EN] and len(l[K.I_EN]) > 20))
-    cas.append({'quoi': 'cri', 'evenement': 'CHAT_MSG_MONSTER_EMOTE', 'nom': 'emote %s (%%s) et nom du PNJ « %s »' % (emo[K.I_ID], nom[K.I_EN]),
-                'anglais': emo[K.I_EN], 'emetteur': nom[K.I_EN], 'attendu': emo[K.I_FR], 'emetteur_attendu': nom[K.I_FR]})
+    cas.append({'quoi': 'cri', 'evenement': 'CHAT_MSG_MONSTER_EMOTE', 'nom': 'emote %s (%%s) et nom du PNJ « %s »' % (emo[K.I_ID], ne),
+                'anglais': emo[K.I_EN], 'emetteur': ne, 'attendu': emo[K.I_FR], 'emetteur_attendu': nf})
     tc = next(l for l in uniques(bc, lambda l: l[K.I_TYPE] == 'texte_creature' and '$' not in l[K.I_EN] and len(l[K.I_EN]) > 30))
     cas.append({'quoi': 'cri', 'evenement': 'CHAT_MSG_MONSTER_SAY', 'nom': 'parole de PNJ %s (creature_text)' % tc[K.I_ID],
                 'anglais': tc[K.I_EN], 'emetteur': 'Zzz Inconnu', 'attendu': tc[K.I_FR]})
@@ -251,10 +446,126 @@ def choisir_cas():
     if co:
         cas.append({'quoi': 'texte', 'famille': 'pages', 'nom': 'objet du courrier de haut fait %s' % co[K.I_ID],
                     'anglais': co[K.I_EN], 'attendu': co[K.I_FR]})
-    # texte inconnu
     cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'texte inconnu -> reste en anglais',
                 'anglais': 'This sentence is not in any table, adventurer.'})
-    return cas
+
+    # ---- discussion : messages systeme (correction 3) ----
+    t783 = next((t for t in titres if t[K.I_ID] == '783' and passe(t)), None) or \
+        next(t for t in uniques(titres, lambda t: t[K.I_ETAT] == 'officiel'))
+    te, tf = t783[K.I_EN], t783[K.I_FR]
+    g_acc = globales.get('ERR_QUEST_ACCEPTED_S', 'Quest accepted: %s')
+    g_fin = globales.get('ERR_QUEST_COMPLETE_S', '%s completed.')
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s »' % (g_acc % te),
+                'message': g_acc % te, 'attendu': g_acc % tf})
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s »' % (g_fin % te),
+                'message': g_fin % te, 'attendu': g_fin % tf})
+    t2 = next(t for t in uniques(titres, lambda t: t[K.I_ETAT] == 'officiel' and t[K.I_ID] != t783[K.I_ID] and "'" not in t[K.I_EN]))
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM',
+                'nom': 'discussion « %s », gabarit déjà passé en français par PTRXML (gabarit simulé par le banc)' % (g_acc % t2[K.I_EN]),
+                'message': g_acc % t2[K.I_EN], 'attendu': 'Quête acceptée : %s' % t2[K.I_FR],
+                'globales': {'ERR_QUEST_ACCEPTED_S': 'Quête acceptée : %s'}})
+    g_xp = globales.get('ERR_QUEST_REWARD_EXP_I', 'Experience gained: %d.')
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s » : rien à traduire, inchangé' % (g_xp % 55),
+                'message': g_xp % 55, 'attendu': g_xp % 55})
+    g_kill = globales.get('COMBATLOG_XPGAIN_FIRSTPERSON', '%s dies, you gain %d experience.')
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_COMBAT_XP_GAIN', 'nom': 'discussion « %s »' % (g_kill % (ne, 45)),
+                'message': g_kill % (ne, 45), 'attendu': g_kill % (nf, 45)})
+    if fac:
+        g_rep = globales.get('FACTION_STANDING_INCREASED', 'Reputation with %s increased by %d.')
+        cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_COMBAT_FACTION_CHANGE',
+                    'nom': 'discussion « %s » (faction)' % (g_rep % (fac[K.I_EN], 55)),
+                    'message': g_rep % (fac[K.I_EN], 55), 'attendu': g_rep % (fac[K.I_FR], 55)})
+    i, d = o_ok[len(o_ok) // 2]
+    lien_en = '|cffffffff|Hitem:%s:0:0:0:0:0:0:0:0|h[%s]|h|r' % (i, d['name'][K.I_EN])
+    lien_fr = '|cffffffff|Hitem:%s:0:0:0:0:0:0:0:0|h[%s]|h|r' % (i, d['name'][K.I_FR])
+    g_loot = globales.get('LOOT_ITEM_SELF', 'You receive loot: %s.')
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_LOOT', 'nom': 'discussion, butin « %s » (lien d\'objet)' % (g_loot % ('[' + d['name'][K.I_EN] + ']')),
+                'message': g_loot % lien_en, 'attendu': g_loot % lien_fr})
+    # ---- zones (correction 4) ----
+    zs = {l[K.I_EN]: l for l in lire('client/zones.tsv') if passe(l) and l[K.I_FR] != l[K.I_EN]}
+    zn = zs.get('Northshire Valley') or next(iter(zs.values()))
+    ze = zs.get('Elwynn Forest') or zn
+    cas.append({'quoi': 'minicarte', 'nom': 'minicarte « %s »' % zn[K.I_EN], 'anglais': zn[K.I_EN], 'attendu': zn[K.I_FR]})
+    cas.append({'quoi': 'journal_entete', 'nom': 'en-tête du journal « %s »' % ze[K.I_EN], 'anglais': ze[K.I_EN], 'attendu': ze[K.I_FR]})
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_CHANNEL_NOTICE', 'champ': 4,
+                'nom': 'canal « 1. General - %s »' % zn[K.I_EN], 'message': 'YOU_JOINED',
+                'arg4': '1. General - %s' % zn[K.I_EN], 'attendu': '1. General - %s' % zn[K.I_FR]})
+    g_dec = globales.get('ERR_ZONE_EXPLORED_XP', 'Discovered %s: %d experience gained')
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s »' % (g_dec % (ze[K.I_EN], 30)),
+                'message': g_dec % (ze[K.I_EN], 30), 'attendu': g_dec % (ze[K.I_FR], 30)})
+
+    # ---- sorts (correction 5) ----
+    sorts = {}
+    for rel in ('client/sorts_classes.tsv', 'client/talents.tsv'):
+        for l in lire(rel):
+            if l[K.I_TYPE] == 'sort':
+                sorts.setdefault(l[K.I_ID], {})[l[K.I_CHAMP]] = l
+    s_nom = [(i, d) for i, d in sorted(sorts.items(), key=lambda x: int(x[0]))
+             if 'Name' in d and passe(d['Name']) and d['Name'][K.I_FR] != d['Name'][K.I_EN]]
+    i, d = next(((i, d) for i, d in s_nom if 'Rank' in d and passe(d['Rank'])), s_nom[0])
+    rang = d.get('Rank')
+    cas.append({'quoi': 'sort_barre', 'nom': 'barre d\'action : sort %s « %s » (4e valeur de GetActionInfo)' % (i, d['Name'][K.I_EN]),
+                'id': int(i), 'anglais': d['Name'][K.I_EN], 'rang': rang[K.I_EN] if rang else None,
+                'lignes': [d['Name'][K.I_EN], 'Instant'], 'droites': [rang[K.I_EN]] if rang and passe(rang) else None,
+                'attendu': d['Name'][K.I_FR], 'rang_attendu': rang[K.I_FR] if rang and passe(rang) else None})
+    i2, d2 = s_nom[len(s_nom) // 2]
+    cas.append({'quoi': 'grimoire', 'nom': 'grimoire : bouton du sort %s « %s » (GetSpellLink)' % (i2, d2['Name'][K.I_EN]),
+                'id': int(i2), 'anglais': d2['Name'][K.I_EN], 'attendu': d2['Name'][K.I_FR]})
+    cas.append({'quoi': 'sort_grimoire_bulle', 'nom': 'grimoire : infobulle du sort %s (GameTooltip:SetSpell)' % i2,
+                'id': int(i2), 'anglais': d2['Name'][K.I_EN], 'lignes': [d2['Name'][K.I_EN], 'Instant cast'],
+                'attendu': d2['Name'][K.I_FR]})
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'lien de sort dans la discussion « [%s] »' % d2['Name'][K.I_EN],
+                'message': 'Link: |cff71d5ff|Hspell:%s|h[%s]|h|r' % (i2, d2['Name'][K.I_EN]),
+                'attendu': 'Link: |cff71d5ff|Hspell:%s|h[%s]|h|r' % (i2, d2['Name'][K.I_FR])})
+    # description a nombres : de la source si elle en a d'affichables, sinon injectee (a_revoir reelle)
+    choix = choisir_sort_affichable()
+    injecte = False
+    if not choix:
+        choix = choisir_sort_injecte()
+        injecte = True
+    sid, n, ds = choix
+    en_t, fr_t = ds[K.I_EN], ds[K.I_FR]
+    nom_en, nom_fr = n[K.I_EN], n[K.I_FR]
+    if injecte:
+        fid = 990000000 + sid
+        NOTES.append('Sorts : aucune description de sort à nombres n\'est encore AFFICHABLE dans textes/ (toutes '
+                     'a_revoir ou a_traduire). Le banc a injecté la ligne réelle %s (a_revoir) sous le numéro fictif %d '
+                     'pour essayer le mécanisme d\'alignement ; elle n\'est pas embarquée dans l\'add-on.' % (sid, fid))
+        rec = [nom_fr, F.empreintes(nom_en)[0], False, 0, [fr_t, en_t], False]
+        injections.append({'famille': 'sorts', 'nom': 'S', 'sorte': 'id', 'nb': 512, 'cle': fid,
+                           'valeur': F.lua_valeur(rec).decode('utf-8')})
+        sq = F.squelette_modele(en_t)
+        k, h2 = F.cle_texte(sq)
+        injections.append({'famille': 'sorts_index', 'nom': 'SK', 'sorte': 'texte', 'nb': 1, 'cle': k, 'h2': h2,
+                           'valeur': '{%d}' % fid})
+        sid = fid
+    aff_en, att_fr = remplir(en_t), remplir(fr_t, True)
+    etiq = ' [ligne a_revoir injectée]' if injecte else ''
+    cas.append({'quoi': 'sort_bulle', 'nom': 'infobulle de sort %s avec nombres (GetSpell, 3e valeur)%s' % (sid, etiq),
+                'id': sid, 'anglais': nom_en, 'lignes': [nom_en, '40 yd range', aff_en],
+                'attendu': nom_fr, 'ligne_description': 3, 'description_attendue': att_fr})
+    cas.append({'quoi': 'aura', 'nom': 'aura %s (11e valeur d\'UnitAura)%s' % (sid, etiq), 'id': sid, 'anglais': nom_en,
+                'lignes': [nom_en, aff_en, '5 min remaining'], 'attendu': nom_fr, 'ligne_description': 2,
+                'description_attendue': att_fr})
+    io2, do2 = o_ok[len(o_ok) // 6]
+    g_use = globales.get('ITEM_SPELL_TRIGGER_ONUSE', 'Use:')
+    cas.append({'quoi': 'objet', 'nom': 'objet %s : ligne « %s » retrouvée par le sort de l\'objet (GetItemSpell)%s' % (io2, g_use, etiq),
+                'id': int(io2), 'anglais': do2['name'][K.I_EN], 'sort_objet': sid,
+                'lignes': [do2['name'][K.I_EN], 'Binds when picked up', '%s %s' % (g_use, aff_en)],
+                'attendu': do2['name'][K.I_FR], 'ligne_description': 3, 'description_attendue': '%s %s' % (g_use, att_fr)})
+    io3, do3 = o_ok[len(o_ok) // 7]
+    g_equip = globales.get('ITEM_SPELL_TRIGGER_ONEQUIP', 'Equip:')
+    cas.append({'quoi': 'objet', 'nom': 'objet %s : ligne « %s » retrouvée par le texte anglais (index par squelette)%s' % (io3, g_equip, etiq),
+                'id': int(io3), 'anglais': do3['name'][K.I_EN],
+                'lignes': [do3['name'][K.I_EN], 'Soulbound', '%s %s' % (g_equip, aff_en)],
+                'attendu': do3['name'][K.I_FR], 'ligne_description': 3, 'description_attendue': '%s %s' % (g_equip, att_fr)})
+    # squelette : meme calcul en Python et en Lua
+    textes = [aff_en, 'Restores 1,500 health over 18.5 sec.  Must remain seated while eating.',
+              'Deals 15 to 20 Fire damage every 3 seconds for 1 min.', '|cff00ff00Increases attack power by 28.|r',
+              'Inflicts 6 days of pain, 10% more.']
+    cas.append({'quoi': 'squelette', 'nom': 'squelette d\'un texte de sort : même calcul en Python et en Lua (%d textes)' % len(textes),
+                'textes': textes, 'attendus': [F.squelette(t) for t in textes]})
+    return cas, globales, injections
 
 
 def tester_ptrxml(lua, out):
@@ -290,12 +601,16 @@ def main():
     if not os.path.isdir(DIST):
         raise SystemExit('ERREUR : dist/ absent, lancer d\'abord outils/fabriquer.py')
     os.makedirs(TRAVAIL, exist_ok=True)
-    cas = choisir_cas()
+    os.makedirs(TRAVAIL2, exist_ok=True)
+    cas, globales, injections = choisir_cas()
     p = os.path.join(TRAVAIL, 'banc_cas.lua')
     with open(p, 'w', encoding='utf-8') as f:
-        f.write('-- cas generes par outils/tester_addon.py\nCAS_LISTE = {\n')
+        f.write('-- cas generes par outils/tester_addon.py\n')
+        f.write('GLOBALES = %s\n' % lua_val(globales))
+        f.write('INJECTIONS = {\n%s}\n' % ''.join(lua_val(i) + ',\n' for i in injections))
+        f.write('CAS_LISTE = {\n')
         for c in cas:
-            f.write(lua_cas(c) + ',\n')
+            f.write(lua_val(c) + ',\n')
         f.write('}\n')
     r = subprocess.run([lua, os.path.join(ICI, 'banc_addon.lua'), DIST, p], capture_output=True, text=True)
     sortie = [r.stdout.rstrip()]
@@ -303,9 +618,12 @@ def main():
         sortie.append('ERREURS LUA :\n' + r.stderr)
     ok = r.returncode == 0
     ok = tester_ptrxml(lua, sortie) and ok
+    for n in NOTES:
+        sortie.append('NOTE  ' + n)
     texte = '\n'.join(sortie) + '\n\n%d exemples tirés de textes/. RÉSULTAT : %s\n' % (len(cas), 'conforme' if ok else 'NON CONFORME')
-    with open(os.path.join(TRAVAIL, 'banc_resultat.txt'), 'w', encoding='utf-8') as f:
-        f.write(texte)
+    for d in (TRAVAIL, TRAVAIL2):
+        with open(os.path.join(d, 'banc_resultat.txt'), 'w', encoding='utf-8') as f:
+            f.write(texte)
     print(texte)
     return 0 if ok else 1
 
