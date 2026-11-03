@@ -66,6 +66,8 @@ FAMILLES = [
      'Client : sorts des talents CoA (Spell.dbc), arbres de talents, noms des classes'),
     ('hauts_faits', 'client/hauts_faits.tsv', ('haut_fait', 'haut_fait_categorie'), 'Client : hauts faits et catégories'),
     ('zones', 'client/zones.tsv', ('zone', 'carte', 'carte_monde'), 'Client : zones, cartes et instances, cartes du monde'),
+    ('interface', 'client/interface.tsv', ('chaine_interface',),
+     "Client : textes d'interface (GlobalStrings.dbc), écrans d'avant-jeu et jeu ; id = nom de la variable"),
 ]
 TRANCHES_OBJETS = [(0, 199999), (200000, 399999), (400000, 999999), (1000000, 1999999), (2000000, None)]
 

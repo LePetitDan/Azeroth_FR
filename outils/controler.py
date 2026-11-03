@@ -37,7 +37,7 @@ SOURCES_CONNUES = {'', 'blizzard_frFR', 'archive_ascensionfr', 'release_3.5.1', 
 
 def raison_courte(r):
     """Regroupe les refus pour le rapport : « glossaire:<regle> » garde sa regle, « nom_officiel:… » est regroupe."""
-    return r.split(':')[0] + (':' + r.split(':', 1)[1] if r.startswith('glossaire:') else '')
+    return r.split(':')[0] + (':' + r.split(':', 1)[1] if r.startswith(('glossaire:', 'interface:')) else '')
 
 
 def verifier_format(chemin, lignes, erreurs, vues, fmt, exemples):
@@ -105,7 +105,7 @@ def main():
                 total[etat] += 1
                 if not l[K.I_FR] and etat not in K.ETATS_AFFICHES:
                     continue
-                refus = C.controle(l[K.I_EN], l[K.I_FR], etat, regles, noms)
+                refus = C.controle(l[K.I_EN], l[K.I_FR], etat, regles, noms, l[K.I_TYPE])
                 if not refus:
                     continue
                 niveau = 'SIGNALE' if etat == 'officiel' else ('BLOQUANT' if etat in K.ETATS_AFFICHES else 'INFO')

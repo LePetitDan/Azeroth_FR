@@ -22,6 +22,10 @@ Refus possibles (une ligne peut en cumuler plusieurs) :
 - mot_a_mot               : « Sacré Tome », « Ombre X »…
 - glossaire:<regle>       : terme tranche non respecte (glossaire/regles_controle.tsv)
 - nom_officiel:<en>→<fr>  : nom propre officiel reste en anglais (glossaire/noms_officiels.tsv)
+- interface:<raison>      : textes d'interface seulement (type chaine_interface), controle strict :
+                            memes codes de format a la meme position, memes retours a la ligne (\\n, |n),
+                            memes balises, memes $mots, mots-cles entre guillemets gardes (« "DELETE" »),
+                            memes espaces en debut et en fin
 """
 import os
 import re
@@ -208,16 +212,74 @@ def controle_glossaire(en, fr, etat, regles, noms):
     return r
 
 
-def controle(en, fr, etat='machine', regles=(), noms=None):
+# ---------------------------------------------------------------------------
+# Controle STRICT des textes d'interface (type `chaine_interface`, GlobalStrings.dbc).
+# Ces textes sont lus par le code du jeu (format(), comparaisons, mises en page) :
+# une cle qui echoue reste en anglais.
+# ---------------------------------------------------------------------------
+TYPES_INTERFACE = ('chaine_interface',)
+_PRINTF = re.compile(r"%(?:(\d+)\$)?([-+0# ]*\d*(?:\.\d+)?)(l?[sdiufxXcgeEoq])")
+_DOLLAR = re.compile(r"\$[A-Za-z]+")
+_BALISE = re.compile(r"<[^<>\n]{1,200}>")
+_MOT_CLE = re.compile(r'"([A-Z][A-Z0-9_]{1,})"')
+
+
+def specs_printf(t):
+    """Codes printf par position : {position: spec}. Renvoie None si numerotes et non numerotes sont melanges."""
+    t = t.replace('%%', '')
+    pos, numerotes, nus = {}, 0, 0
+    for m in _PRINTF.finditer(t):
+        if m.group(1):
+            numerotes += 1
+            p = int(m.group(1))
+        else:
+            nus += 1
+            p = nus
+        spec = m.group(2) + m.group(3)
+        if pos.get(p, spec) != spec:
+            return None
+        pos[p] = spec
+    if numerotes and nus:
+        return None
+    return pos
+
+
+def controle_interface(en, fr):
+    """Controles stricts propres aux textes d'interface. en, fr : textes bruts (pas de normalisation)."""
+    r = []
+    se, sf = specs_printf(en), specs_printf(fr)
+    if se is None or sf is None or se != sf:
+        r.append('interface:format')
+    if en.count('\n') != fr.count('\n') or en.count('\r') != fr.count('\r') or en.count('|n') != fr.count('|n'):
+        r.append('interface:retours_a_la_ligne')
+    if en.count('\\') != fr.count('\\'):
+        r.append('interface:barres_obliques')
+    if sorted(_DOLLAR.findall(en)) != sorted(_DOLLAR.findall(fr)):
+        r.append('interface:variables_dollar')
+    if sorted(_BALISE.findall(en)) != sorted(_BALISE.findall(fr)):
+        r.append('interface:balises')
+    for mot in _MOT_CLE.findall(en):
+        if fr.count('"%s"' % mot) != en.count('"%s"' % mot):
+            r.append('interface:mot_cle')
+            break
+    if (en[:1].isspace() != fr[:1].isspace()) or (en[-1:].isspace() != fr[-1:].isspace()):
+        r.append('interface:espaces_bords')
+    return r
+
+
+def controle(en, fr, etat='machine', regles=(), noms=None, type_=None):
     """Renvoie la liste des raisons de refus (vide = accepte).
 
     - etat officiel : controles de structure seulement (la regle-mere : l'officiel gagne) ;
     - etats machine, relu, a_revoir : structure + glossaire + noms officiels ;
-    - a_traduire / technique sans francais : rien a controler.
+    - a_traduire / technique sans francais : rien a controler ;
+    - type `chaine_interface` : en plus, le controle strict de controle_interface().
     """
     if not fr or not fr.strip():
         return ['vide'] if etat in K.ETATS_AFFICHES else []
     r = controle_structure(en, fr)
+    if type_ in TYPES_INTERFACE:
+        r += controle_interface(en, fr)
     if etat != 'officiel':
         r += controle_glossaire(en, fr, etat, regles, noms)
     return r

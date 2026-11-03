@@ -118,8 +118,8 @@ class Importeur:
         if famille:
             self.famille[k] = famille
 
-    def controle(self, en, fr, etat):
-        return C.controle(en, fr, etat, self.regles, self.noms)
+    def controle(self, en, fr, etat, type_=None):
+        return C.controle(en, fr, etat, self.regles, self.noms, type_)
 
     # ------------------------------------------------------------------
     # 1. Lignes relues existantes
@@ -442,6 +442,88 @@ class Importeur:
                   % (len(tal_dbc), len(self.talents - tal_dbc)))
 
     # ------------------------------------------------------------------
+    # 3 bis. Client : textes d'interface (GlobalStrings.dbc), etape 2
+    # ------------------------------------------------------------------
+    def importer_interface(self):
+        """Une ligne par cle de GlobalStrings.dbc (type chaine_interface, id = nom de la variable).
+
+        Le francais n'est repris qu'avec la preuve d'un anglais identique :
+        - l'ancien fichier des ecrans de connexion d'AscensionFR (release 3.5.1, francais donne pour
+          officiel Blizzard sur les cles standard) : cle identique ET (anglais standard 3.3.5 identique
+          OU archive « cle + anglais identiques ») ; jamais si l'archive a note un autre anglais ;
+        - l'archive (interface_maison, gisement_brut, fenetres_perso, libelles) : « cle + anglais
+          identiques » ou « anglais identique » (rapprochement du rapport client).
+        Les cles techniques (commandes, mots a taper, formats de date, chemins, jetons…) restent en anglais.
+        """
+        vues = Counter()
+        n = 0
+        for r in lire_csv_xz('client', 'interface_en.csv.xz'):
+            if not r['fichier'].endswith('GlobalStrings.dbc'):
+                continue
+            n += 1
+            cle_v, en = r['cle'], r['texte_en']
+            vues[cle_v] += 1
+            sous = '' if vues[cle_v] == 1 else str(vues[cle_v])
+            note = 'GlobalStrings.dbc (%s), %s, %s' % (r['source'], r['contexte'], {
+                'standard_335_identique': 'anglais standard 3.3.5', 'standard_335_modifie': 'anglais 3.3.5 modifié',
+                'propre_ascension_coa': 'texte propre à Ascension/CoA'}.get(r['anglais_standard_335'], r['anglais_standard_335']))
+            l = ['chaine_interface', cle_v, sous, 'texte', en, K.empreinte(en), '', 'a_traduire', '', note]
+            tech = technique_interface(cle_v, en)
+            if tech:
+                l[K.I_ETAT] = 'technique'
+                l[K.I_NOTE] = joindre(note, 'technique=' + tech)
+                self.ajouter(l)
+                self.cr['interface_technique:' + tech.split(' ')[0]] += 1
+                continue
+            rap = r['rapprochement_archive']
+            cands = []
+            glue, arch = r['fr_ancien_glue_ascensionfr'], r['fr_archive']
+            if glue and 'anglais différent' not in rap and (
+                    r['anglais_standard_335'] == 'standard_335_identique' or rap == 'clé + anglais identiques'):
+                cands.append((glue, 'release_3.5.1', 'ancien fichier des écrans de connexion d\'AscensionFR (release 3.5.1), '
+                              'clé identique, %s' % ('anglais standard 3.3.5' if r['anglais_standard_335'] == 'standard_335_identique'
+                                                     else 'anglais prouvé par l\'archive')))
+            if arch and rap in ('clé + anglais identiques', 'anglais identique'):
+                cands.append((arch, 'archive_ascensionfr', 'archive AscensionFR, ' + rap))
+            choisi = None
+            refus_vus = []
+            for fr, src, preuve in cands:
+                fr2, faites = self.corriger(en, fr)
+                if faites and not self.controle(en, fr2, 'machine', 'chaine_interface'):
+                    fr = fr2
+                else:
+                    faites = []
+                refus = self.controle(en, fr, 'machine', 'chaine_interface')
+                if not refus:
+                    choisi = (fr, src, preuve, faites)
+                    break
+                refus_vus.append((fr, src, preuve, refus))
+            if choisi:
+                fr, src, preuve, faites = choisi
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'machine', src
+                autres = [c for c in cands if c[0] != fr]
+                l[K.I_NOTE] = joindre(note, preuve,
+                                      'correction mécanique du glossaire : ' + ', '.join(faites) if faites else '',
+                                      'autre proposition (%s) : %s' % (autres[0][1], cite(autres[0][0])) if autres else '')
+                self.cr['interface_machine:' + src] += 1
+            elif refus_vus:
+                fr, src, preuve, refus = refus_vus[0]
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'a_revoir', src
+                l[K.I_NOTE] = joindre(note, preuve, 'refusée au contrôle d\'entrée : ' + ', '.join(refus))
+                self.cr['interface_a_revoir_controle'] += 1
+                self.ex('interface_refus', l)
+            elif glue or arch:
+                l[K.I_FR], l[K.I_ETAT] = (arch or glue), 'a_revoir'
+                l[K.I_SRC] = 'archive_ascensionfr' if arch else 'release_3.5.1'
+                l[K.I_NOTE] = joindre(note, 'proposition sans preuve d\'anglais identique (%s)' % (rap or 'ancien fichier '
+                                                                                               'des écrans de connexion, anglais non prouvé'))
+                self.cr['interface_a_revoir_sans_preuve'] += 1
+            else:
+                self.cr['interface_a_traduire'] += 1
+            self.ajouter(l)
+        K.journal('import : interface, %d clés de GlobalStrings.dbc' % n)
+
+    # ------------------------------------------------------------------
     # 4-5. Corrections mecaniques puis controle d'entree des lignes machine
     # ------------------------------------------------------------------
     def charger_corrections(self):
@@ -479,10 +561,10 @@ class Importeur:
         for k, l in self.lignes.items():
             if l[K.I_ETAT] != 'machine':
                 continue
-            en = l[K.I_EN]
+            en, typ = l[K.I_EN], l[K.I_TYPE]
             fr, faites = self.corriger(en, l[K.I_FR])
             if faites:
-                if not self.controle(en, fr, 'machine'):
+                if not self.controle(en, fr, 'machine', typ):
                     l[K.I_FR] = fr
                     l[K.I_NOTE] = joindre(l[K.I_NOTE], 'correction mécanique du glossaire : ' + ', '.join(faites))
                     for n in faites:
@@ -491,7 +573,7 @@ class Importeur:
                 else:
                     for n in faites:
                         cpt['correction_annulee_controle:' + n] += 1
-            refus = self.controle(l[K.I_EN], l[K.I_FR], 'machine')
+            refus = self.controle(l[K.I_EN], l[K.I_FR], 'machine', typ)
             if refus:
                 l[K.I_ETAT] = 'a_revoir'
                 l[K.I_NOTE] = joindre(l[K.I_NOTE], 'refusée au contrôle d\'entrée de l\'étape 1 : ' + ', '.join(refus))
