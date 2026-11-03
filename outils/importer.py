@@ -66,6 +66,53 @@ CHAMP_ORDRE = ['LogTitle', 'LogDescription', 'QuestDescription', 'AreaDescriptio
 RANG_CHAMP = {c: i for i, c in enumerate(CHAMP_ORDRE)}
 
 
+# Textes d'interface qui restent TOUJOURS en anglais (etat technique) : valeurs lues ou comparees par
+# le code du jeu, ou pieges payes par AscensionFR (Modules/InterfaceUI.lua de l'archive). Dans le doute,
+# la cle reste en anglais.
+INTERFACE_CLES_TECHNIQUES = {
+    'DELETE_ITEM_CONFIRM_STRING': 'mot à taper pour détruire un objet (comparé par le code)',
+    'UNITNAME_SUMMON_TITLE1': 'motif analysé par les add-ons de combat',
+    'LARGE_NUMBER_SEPERATOR': 'séparateur des nombres',
+    'DECIMAL_SEPERATOR': 'séparateur décimal',
+    'ITEM_SPELL_TRIGGER_ONEQUIP': 'le client cache des lignes d\'objet en reconnaissant « Equip: » en anglais (piège AscensionFR du 18/07/2026)',
+}
+INTERFACE_MOTIFS_TECHNIQUES = [
+    (re.compile(r'^SLASH_'), 'commande /…'),
+    (re.compile(r'_CMD\d*$'), 'commande d\'émote'),
+    (re.compile(r'CONFIRM_STRING$'), 'mot à taper (comparé par le code)'),
+    (re.compile(r'^UNITNAME_SUMMON_TITLE'), 'motif analysé par les add-ons de combat'),
+]
+_URL_OU_MAIL = re.compile(r'https?://|www\.|[\w.+-]+@[\w-]+\.[a-z]{2,}', re.I)
+_CHEMIN = re.compile(r'\.(?:ttf|blp|tga|mp3|wav|ogg|m2|txt)\b', re.I)
+
+
+def technique_interface(cle_v, en):
+    """Raison pour laquelle un texte d'interface reste en anglais, ou ''."""
+    if cle_v in INTERFACE_CLES_TECHNIQUES:
+        return 'clé ' + INTERFACE_CLES_TECHNIQUES[cle_v]
+    for rx, raison in INTERFACE_MOTIFS_TECHNIQUES:
+        if rx.search(cle_v):
+            return 'clé ' + raison
+    t = en.strip()
+    if not re.search(r'[A-Za-z]{2}', K.denuder(t)):
+        return 'vide_ou_sans_mot'
+    if t.startswith('/'):
+        return 'commande'
+    if _URL_OU_MAIL.search(t):
+        return 'adresse_web'
+    if _CHEMIN.search(re.sub(r'\|T[^|]*\|t', '', t)):
+        return 'chemin_de_fichier'
+    if re.fullmatch(r'[A-Z][A-Z0-9_\-]+', t):
+        return 'jeton_en_majuscules'
+    if re.search(r'%[^%]', t.replace('%%', '')) and C.specs_printf(t) is not None:
+        reste = C._PRINTF.sub('', t.replace('%%', ''))
+        if '%' in reste:
+            return 'format_de_date_ou_inconnu'
+    if C.specs_printf(t) is None:
+        return 'format_mixte'
+    return ''
+
+
 def lire_csv_xz(*chemin):
     with lzma.open(os.path.join(D, *chemin), 'rt', encoding='utf-8', newline='') as f:
         yield from csv.DictReader(f)
@@ -667,6 +714,7 @@ def main():
     imp.charger_relus()
     imp.importer_serveur()
     imp.importer_client()
+    imp.importer_interface()
     imp.corriger_et_controler()
     imp.fusionner_relus()
     tailles = imp.ecrire(ecrire)
