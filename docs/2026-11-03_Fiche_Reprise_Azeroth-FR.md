@@ -1,6 +1,17 @@
-# Fiche de reprise : Azeroth_FR (étape 1 terminée)
+# Fiche de reprise : Azeroth_FR (étape 2 terminée : essai 1 prêt)
 
-*03/11/2026, mise à jour le soir après l'étape 1. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le soir après l'étape 2. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Étape 2 terminée (03/11, soir) : l'essai 1, add-on 0.1.0
+
+- **Fabrication** : `python3 -I outils/fabriquer.py` lit `textes/` et produit `dist/Azeroth_FR-0.1.0.zip` (15 Mo, 56 Mo décompressés ; `dist/` n'est pas dans git). Seules les lignes `officiel`, `machine`, `relu` qui repassent le contrôle d'entrée sont embarquées.
+- **Contenu** : l'add-on `Azeroth_FR` (affichage seulement, aucune variable du jeu écrite, tout sous `pcall`, commande `/azfr on|off|version|stats`) et 11 add-ons de données chargés à la demande : quêtes, dialogues, créatures, cris, livres (à la connexion, 19 Mo) et 6 tranches d'objets (à la demande, ~6 Mo chacune). 941 610 lignes, 491 209 objets, 31 918 créatures.
+- **Interface** : nouvelle famille `textes/client/interface.tsv` (14 356 clés de `GlobalStrings.dbc`, 6 167 affichables, 1 677 techniques laissées en anglais) ; 6 034 textes passent en français par `Interface\PTRXML`, chacun seulement si l'anglais du client est celui attendu. Contrôle strict d'interface ajouté (9 faux cas refusés).
+- **Vérifications** : constantes comptées (au plus 15 905 par fonction), `luac5.1 -p` sur les 34 fichiers, 4 635 morceaux compilés avec `lua5.1` ; banc hors jeu `outils/tester_addon.py` : 25 exemples réels, 45 vérifications sur 45 ; contrôleur 0 bloquant.
+- **Étiquettes `@…@`** : l'essai n'en traduit que trois (Mythique N, Raid héroïque, Forgé par le sang) pour que Dan regarde leur affichage (question 9).
+- **Rien n'est installé chez Dan.** Notice : `docs/ESSAI1_installer.md` (installation, 8 vérifications, retrait). Rapport : `docs/2026-11-03_Rapport_Etape2-essai1.md`.
+- **Questions ouvertes** : embarquer les 5 950 lignes officielles « signalées » (écarts de variables ou de retours à la ligne, sans danger pour l'add-on ; 832 pages de livres) ? ajouter une règle de vouvoiement (≈ 45 textes d'interface tutoient) ?
+- **Prochaine étape** : test de Dan en jeu ; passe d'application des décisions de vocabulaire, puis reconstruction de l'add-on.
 
 ## Étape 1 terminée (03/11, soir) : la source unique
 
@@ -32,6 +43,10 @@
   - Les vrais numéros de sorts sont donnés par la 4e valeur de `GetActionInfo` (barre), par `GetSpellLink` (grimoire), par la 3e valeur de `GameTooltip:GetSpell()` (infobulles) et par la 11e valeur d'`UnitAura` (auras).
   - Les sorts se traduiront donc à l'affichage, par numéro.
 - **Test 3** installé le 03/11 avec l'accord de Dan (`Interface\AddOns\AzerothFR_Test3`) : diagnostic en lecture seule ; `/azfr3 essai` affiche « Choc de flammes » dans une infobulle. L'add-on du test 2 a été retiré à la demande de Dan.
+- **Test 3 réussi** (`essais/2026-11-03_test3-LuaDBC-sorts/RESULTAT.md`) :
+  - vrais numéros de sorts confirmés ;
+  - **le Spell.dbc actif sur Rexxar est celui de CoA (`patch-T`)**, il faut donc rebaser l'anglais des sorts du client sur `patch-T` ;
+  - « Choc de flammes » s'est affiché dans l'infobulle : la traduction à l'affichage par numéro marche.
 - Installés chez Dan : `Interface\PTRXML` (test 1) et `Interface\AddOns\AzerothFR_Test3`. Pour revenir en arrière, il suffit de supprimer ces dossiers.
 - Le 03/11 vers 18 h, à la demande de Duff (chef d'équipe CoA Core), Dan a publié la proposition dans un sujet du salon Discord **#suggestions** : « French localization (Azeroth_FR) – multi-language support collaboration », tags General, In-Game et Launcher. Le sujet pose 6 questions : approche multilingue, locale forcée en enUS, pérennité de PTRXML, vrais numéros de sorts, LuaDBC, distribution par le lanceur. En attente de réponse.
 - Le 03/11 au soir, Dan a déplacé la conversation dans un projet claude.ai dédié, « Azeroth_FR ».
