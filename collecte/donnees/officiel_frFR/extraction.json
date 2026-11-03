@@ -1,0 +1,475 @@
+{
+ "composant_frFR": "<componentinfo format=\"1\">\n    <component name=\"wow-frfr\" version=\"12340\" />\n</componentinfo>",
+ "comptes": {
+  "dbc:AreaPOI": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 847,
+   "enregistrements_enUS": 738,
+   "enregistrements_frFR": 738,
+   "textes_coa": 1174,
+   "textes_enUS": 1000,
+   "textes_frFR": 1000
+  },
+  "dbc:AreaTable": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 2849,
+   "enregistrements_enUS": 2307,
+   "enregistrements_frFR": 2307,
+   "textes_coa": 2848,
+   "textes_enUS": 2307,
+   "textes_frFR": 2307
+  },
+  "dbc:ChatChannels": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 7,
+   "enregistrements_enUS": 6,
+   "enregistrements_frFR": 6,
+   "textes_coa": 12,
+   "textes_enUS": 12,
+   "textes_frFR": 12
+  },
+  "dbc:ChrClasses": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 32,
+   "enregistrements_enUS": 10,
+   "enregistrements_frFR": 10,
+   "textes_coa": 31,
+   "textes_enUS": 10,
+   "textes_frFR": 28
+  },
+  "dbc:ChrRaces": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 42,
+   "enregistrements_enUS": 21,
+   "enregistrements_frFR": 21,
+   "textes_coa": 44,
+   "textes_enUS": 21,
+   "textes_frFR": 63
+  },
+  "dbc:DungeonEncounter": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 2080,
+   "enregistrements_enUS": 612,
+   "enregistrements_frFR": 612,
+   "textes_coa": 2077,
+   "textes_enUS": 612,
+   "textes_frFR": 612
+  },
+  "dbc:Faction": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 417,
+   "enregistrements_enUS": 401,
+   "enregistrements_frFR": 401,
+   "textes_coa": 501,
+   "textes_enUS": 483,
+   "textes_frFR": 483
+  },
+  "dbc:ItemRandomSuffix": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 275,
+   "enregistrements_enUS": 95,
+   "enregistrements_frFR": 95,
+   "textes_coa": 267,
+   "textes_enUS": 90,
+   "textes_frFR": 90
+  },
+  "dbc:ItemSet": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 2348,
+   "enregistrements_enUS": 509,
+   "enregistrements_frFR": 509,
+   "textes_coa": 2346,
+   "textes_enUS": 509,
+   "textes_frFR": 509
+  },
+  "dbc:ItemSubClass": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 121,
+   "enregistrements_enUS": 119,
+   "enregistrements_frFR": 119,
+   "textes_coa": 161,
+   "textes_enUS": 162,
+   "textes_frFR": 162
+  },
+  "dbc:MailTemplate": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 208,
+   "enregistrements_enUS": 207,
+   "enregistrements_frFR": 207,
+   "textes_coa": 312,
+   "textes_enUS": 310,
+   "textes_frFR": 310
+  },
+  "dbc:Map": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 374,
+   "enregistrements_enUS": 135,
+   "enregistrements_frFR": 135,
+   "textes_coa": 408,
+   "textes_enUS": 149,
+   "textes_frFR": 149
+  },
+  "dbc:SkillLine": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 872,
+   "enregistrements_enUS": 150,
+   "enregistrements_frFR": 150,
+   "textes_coa": 901,
+   "textes_enUS": 198,
+   "textes_frFR": 198
+  },
+  "dbc:Spell": {
+   "archive_coa": "patch-T",
+   "enregistrements_coa": 209510,
+   "enregistrements_enUS": 49839,
+   "enregistrements_frFR": 49839,
+   "textes_coa": 529294,
+   "textes_enUS": 103075,
+   "textes_frFR": 103074
+  },
+  "dbc:TaxiNodes": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 401,
+   "enregistrements_enUS": 364,
+   "enregistrements_frFR": 364,
+   "textes_coa": 394,
+   "textes_enUS": 358,
+   "textes_frFR": 358
+  },
+  "dbc:WMOAreaTable": {
+   "archive_coa": "patch-M",
+   "enregistrements_coa": 24195,
+   "enregistrements_enUS": 22550,
+   "enregistrements_frFR": 22550,
+   "textes_coa": 4535,
+   "textes_enUS": 3680,
+   "textes_frFR": 3678
+  },
+  "interface:GlobalStrings.lua": {
+   "cles_enUS": 8999,
+   "cles_frFR": 8999,
+   "communes": 8999
+  },
+  "interface:GlueStrings.lua": {
+   "cles_enUS": 874,
+   "cles_frFR": 874,
+   "communes": 874
+  },
+  "tdb:quete": {
+   "anglais": 9464,
+   "frFR": 9456
+  },
+  "tdb:quete_demande": {
+   "anglais": 7734,
+   "frFR": 8
+  },
+  "tdb:quete_recompense": {
+   "anglais": 8496,
+   "frFR": 36
+  }
+ },
+ "fichiers": {
+  "coa/DBFilesClient\\AreaPOI.dbc": {
+   "archive": "patch-M",
+   "octets": 191929,
+   "sha256": "f1cc9b829786444f8ebb25a6ee52f64573b42fccaf1d4a43eb1c9cb2e856c239"
+  },
+  "coa/DBFilesClient\\AreaTable.dbc": {
+   "archive": "patch-M",
+   "octets": 451248,
+   "sha256": "696a8fa876b55503217827d92ddb48c57078ab9cfde8af3c46023a1f7b15c8ec"
+  },
+  "coa/DBFilesClient\\ChatChannels.dbc": {
+   "archive": "patch-M",
+   "octets": 1135,
+   "sha256": "b44af7aa0be962d956f7e9b9a4c16c4cb6253dc1a5e1fc71a2047553a712390c"
+  },
+  "coa/DBFilesClient\\ChrClasses.dbc": {
+   "archive": "patch-M",
+   "octets": 8294,
+   "sha256": "a29a9ecf7fc5952b5738a4946383371c252e21e4cf108decf2aa19344a9f2517"
+  },
+  "coa/DBFilesClient\\ChrRaces.dbc": {
+   "archive": "patch-M",
+   "octets": 12291,
+   "sha256": "6310e9f9ba70700612409610a619e47c089313c112ff882980e9228fe981f8c4"
+  },
+  "coa/DBFilesClient\\DungeonEncounter.dbc": {
+   "archive": "patch-M",
+   "octets": 200727,
+   "sha256": "f02642f3a02302f8b6d965a2ab3c0adb4f5b73117c6e0ece04bbb2c0facdded9"
+  },
+  "coa/DBFilesClient\\Faction.dbc": {
+   "archive": "patch-M",
+   "octets": 113034,
+   "sha256": "58e03b45ca65ddfe7e08599c7386183a37e9c57bd5db0c063df067cbb426ae3f"
+  },
+  "coa/DBFilesClient\\ItemRandomSuffix.dbc": {
+   "archive": "patch-M",
+   "octets": 37735,
+   "sha256": "7f6d762abdab76b57a1084b7e0df4fb9f83c56ee6dee7f20e8f7def8aa783ac1"
+  },
+  "coa/DBFilesClient\\ItemSet.dbc": {
+   "archive": "patch-M",
+   "octets": 539281,
+   "sha256": "77b5885390404b81f8714e9f1982195e29b5490c6ff2777260c4d79e9bdfe236"
+  },
+  "coa/DBFilesClient\\ItemSubClass.dbc": {
+   "archive": "patch-M",
+   "octets": 22563,
+   "sha256": "a7350f8cc4590008b456bbdd6562f9d8f8ecff7b0dd9cc472c8b38821be4e195"
+  },
+  "coa/DBFilesClient\\MailTemplate.dbc": {
+   "archive": "patch-M",
+   "octets": 64579,
+   "sha256": "390967508302df421c96c392df9b8fd97ab31bc83593742a1e6bfbfc9b86123d"
+  },
+  "coa/DBFilesClient\\Map.dbc": {
+   "archive": "patch-M",
+   "octets": 113315,
+   "sha256": "04a4d696b53a65e3579f6329af9c1948dd865cf05cb6dd5df8def68897b8d328"
+  },
+  "coa/DBFilesClient\\SkillLine.dbc": {
+   "archive": "patch-M",
+   "octets": 210211,
+   "sha256": "ab69d16132fa1457b3c014e5d37b9d34dfd734ed14ee9380ca8eb0aa045a2dfa"
+  },
+  "coa/DBFilesClient\\Spell.dbc": {
+   "archive": "patch-T",
+   "octets": 209501336,
+   "sha256": "d3dd607291d2d6793f72c7b13537f94fd7748d40a79a326db6a8b4cb2ed41068"
+  },
+  "coa/DBFilesClient\\TaxiNodes.dbc": {
+   "archive": "patch-M",
+   "octets": 51127,
+   "sha256": "4fa184e3986cc19616a361693ed6d21e4ef8ee2579f49f9fc3741c7cd3d05a5a"
+  },
+  "coa/DBFilesClient\\WMOAreaTable.dbc": {
+   "archive": "patch-M",
+   "octets": 2727847,
+   "sha256": "74c80ffedb51f7203c91b26668a270c18a4c36d30c1a5a6037ac91db0902ec7b"
+  },
+  "enUS/DBFilesClient\\AreaPOI.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 167242,
+   "sha256": "ff0b639b0fc7b96c18035c46156fe23b344a89fcbecaeae908173cd8eadc77fa",
+   "xz": 16076
+  },
+  "enUS/DBFilesClient\\AreaTable.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 366962,
+   "sha256": "eb4bcfa77b03aed853c4783ac260a4259970effaad5b8a74d868783b4dbdc44e",
+   "xz": 28808
+  },
+  "enUS/DBFilesClient\\ChatChannels.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 1046,
+   "sha256": "4088979141d38b6f413b62a28ffe61b53d0484becb75d6d73e747c54c889ddaf",
+   "xz": 232
+  },
+  "enUS/DBFilesClient\\ChrClasses.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 2580,
+   "sha256": "5b2bfc7dab577f48cafe86db1d6148515569507b273f0c95b5ae86713ff5b3e2",
+   "xz": 348
+  },
+  "enUS/DBFilesClient\\ChrRaces.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 6201,
+   "sha256": "3d3e1443e8e97b1810275a45bc3f0588c83d876d04121401cc5adaa02f507bcd",
+   "xz": 728
+  },
+  "enUS/DBFilesClient\\DungeonEncounter.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 63033,
+   "sha256": "af174dff3933fc5263be204f6ccfa9388dfb7f19ad54563ae65e1a1a1aa95e73",
+   "xz": 6416
+  },
+  "enUS/DBFilesClient\\Faction.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 108787,
+   "sha256": "74563a2735f5523613c2cc88de97c8bee96c01c174b4f5fbb3d85db1e20c0ad1",
+   "xz": 9704
+  },
+  "enUS/DBFilesClient\\ItemRandomSuffix.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 13084,
+   "sha256": "1a1c061c5b27970dc6e1680d6e448d51e89bfbc99f5ef88056eca93d44e9ba5e",
+   "xz": 1756
+  },
+  "enUS/DBFilesClient\\ItemSet.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 118552,
+   "sha256": "28c285ea7cab86b74c06ad30138c62c26d5ea5303f1fd2bccb9b3285a95d3467",
+   "xz": 10420
+  },
+  "enUS/DBFilesClient\\ItemSubClass.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 22190,
+   "sha256": "ed037619b6277fb2b05c3cf05233b19687a4004427d5e63a12d038804bc8b0e5",
+   "xz": 1444
+  },
+  "enUS/DBFilesClient\\MailTemplate.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 64321,
+   "sha256": "672d4e835e9016e1581a41c763d5d62b100b6bd23ed572d491b6b2690bbe237a",
+   "xz": 11092
+  },
+  "enUS/DBFilesClient\\Map.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 43226,
+   "sha256": "261bd7c2c9dbdba1f2966ca21106673ed722c2e3681d227f1eed261b6ce870d5",
+   "xz": 5148
+  },
+  "enUS/DBFilesClient\\SkillLine.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 38771,
+   "sha256": "276824940b7a38e1639e974571e5cb1ad0a1ecbaf3d7d14ebf02ab0294edcadb",
+   "xz": 2808
+  },
+  "enUS/DBFilesClient\\Spell.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 48967121,
+   "sha256": "d5cce1a83550dcfa9eb2f0251dbb11fd24c272534b2b1a9b230924a44d817ab3",
+   "xz": 1368624
+  },
+  "enUS/DBFilesClient\\TaxiNodes.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 46504,
+   "sha256": "ba2d0c16985a5e561afa8424e1dc826ead6c8db425af127490c5f58d45429b7f",
+   "xz": 8924
+  },
+  "enUS/DBFilesClient\\WMOAreaTable.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 2540951,
+   "sha256": "ba36633b10518d438ce5af207f1b10278019505026aba7364a142362eecfbeca",
+   "xz": 72876
+  },
+  "enUS/Interface\\FrameXML\\GlobalStrings.lua": {
+   "archive": "patch-enUS-3",
+   "octets": 504342,
+   "sha256": "cc26f14e77720023c5b6e9ca25321b7cbfd49333faed8facc8b9f9083a5632a7",
+   "xz": 107588
+  },
+  "enUS/Interface\\GlueXML\\GlueStrings.lua": {
+   "archive": "patch-enUS-3",
+   "octets": 77670,
+   "sha256": "cb23e488305fe2f3573283b2931ecdbb5fefd08b3b8e30b86d5b646c2cd05532",
+   "xz": 19648
+  },
+  "frFR/DBFilesClient\\AreaPOI.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 169205,
+   "sha256": "6d36ac31bd0f034e46c72e985d798454873e3f7fb0f49d78999e5468780f38e4",
+   "xz": 16892
+  },
+  "frFR/DBFilesClient\\AreaTable.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 373705,
+   "sha256": "7eea08474ce8a72413c84847471bfd4f7d8a913877323570bdc9dd131d10a15b",
+   "xz": 30892
+  },
+  "frFR/DBFilesClient\\ChatChannels.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 1075,
+   "sha256": "2a2ddb9eb76ada82f29328efd5cb35c02c2566774d6637021c894fb43d2c49df",
+   "xz": 244
+  },
+  "frFR/DBFilesClient\\ChrClasses.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 2657,
+   "sha256": "95a407e58556de822037789bf87798ff57dcd38ac919e3c1a575c0a7c03a4dc3",
+   "xz": 436
+  },
+  "frFR/DBFilesClient\\ChrRaces.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 6417,
+   "sha256": "4f2ae76910ecb8d9954dd533c992d43577f097b5cca663dbb43e9ba907b91389",
+   "xz": 944
+  },
+  "frFR/DBFilesClient\\DungeonEncounter.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 63660,
+   "sha256": "166d68cab52f9b97777dedccc3220885e9718489807a59174333403a5541033e",
+   "xz": 6752
+  },
+  "frFR/DBFilesClient\\Faction.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 111376,
+   "sha256": "d1d8161db6f81ea4f5ca37707684da4318aefefecb10aac9dcedf075a3b93a1d",
+   "xz": 10648
+  },
+  "frFR/DBFilesClient\\ItemRandomSuffix.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 13086,
+   "sha256": "2a992821391ab3dacd497004b37ac894822f925f42eb0aa5e9c45cb654bce0b6",
+   "xz": 1988
+  },
+  "frFR/DBFilesClient\\ItemSet.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 121851,
+   "sha256": "50a9fbe4beebb5cd737e352d1929e69ae9a0503d489ce9128a04c5c9bd078277",
+   "xz": 11184
+  },
+  "frFR/DBFilesClient\\ItemSubClass.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 22413,
+   "sha256": "327ea07871eeb49b7f1f369d78255f799adb7143d3973a614e3df38cead52c6a",
+   "xz": 1548
+  },
+  "frFR/DBFilesClient\\MailTemplate.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 70258,
+   "sha256": "58ad0b441f655fb77c5d293a740b2eef29896531eae5f929e3db953a26e7525d",
+   "xz": 12792
+  },
+  "frFR/DBFilesClient\\Map.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 44271,
+   "sha256": "1b5dd0bb4bc7dee190f1c2ca524b649b4cd334932c6e8771fdf76c90e60157b6",
+   "xz": 5680
+  },
+  "frFR/DBFilesClient\\SkillLine.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 40178,
+   "sha256": "80d5585c8c01a02924af60ffce5a4849ea9351b9eebf5d51e389539b51fbe1ae",
+   "xz": 3128
+  },
+  "frFR/DBFilesClient\\Spell.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 49573054,
+   "sha256": "8c3d14515b2e4dbd512f50fcb6920de9f599d7a1d10529cfb867141e09aad92d",
+   "xz": 1417844
+  },
+  "frFR/DBFilesClient\\TaxiNodes.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 49027,
+   "sha256": "63a096b629298cdd254687658947c3b3ac8b40b483de012a8a5194aa0467cb1a",
+   "xz": 9564
+  },
+  "frFR/DBFilesClient\\WMOAreaTable.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 2544033,
+   "sha256": "e76d8c7a5da6508371bf5ab04f613ea0f88ba9c45ce5347767ef78febc3b9c87",
+   "xz": 73704
+  },
+  "frFR/Interface\\FrameXML\\GlobalStrings.lua": {
+   "archive": "patch-frFR-3",
+   "octets": 562481,
+   "sha256": "b64b7857740575a8948a5da2ab19ca09cbd4b81257d8b5b4dd42993b9469d1f8",
+   "xz": 116924
+  },
+  "frFR/Interface\\GlueXML\\GlueStrings.lua": {
+   "archive": "patch-frFR-3",
+   "octets": 89816,
+   "sha256": "69bd798e859ea833adb8beccb494df0b7a1ab926aac1774a67b936a6c7f21e45",
+   "xz": 21728
+  },
+  "tdb": {
+   "chemin": "TDB_full_world_335.25101_2025_10_21.sql",
+   "octets": 292616788,
+   "sha256": "e72c0105ca27779ea3b08792b247210a44d9004fc6ab55cd1b0099d3b10779a9"
+  }
+ },
+ "spell_coa_archive": "patch-T"
+}
