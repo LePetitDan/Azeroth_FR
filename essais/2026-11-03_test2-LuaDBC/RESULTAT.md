@@ -12,4 +12,4 @@ Add-on `AzerothFR_Diag` installé dans `D:\Wow_Core\Interface\AddOns\`. Dan est 
 - Retrouver la façon d'appeler `LuaDBC` en lisant `Extensions.dll` (désassemblage), puis préparer un test 3 en mémoire seulement (sans écrire de fichier).
 - Comprendre la correspondance boutons ↔ sorts du client CoA.
 
-L'add-on de diagnostic reste installé pour l'instant. Pour l'enlever : supprimer `Interface\AddOns\AzerothFR_Diag`.
+**Retiré du jeu de Dan le 03/11/2026, avec son accord** : le test 3 le remplace.
