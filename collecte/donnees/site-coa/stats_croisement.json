@@ -1,0 +1,992 @@
+{
+ "boutique:description_objet": {
+  "textes_distincts": 145,
+  "mots_distincts_total": 2723,
+  "occurrences": 183,
+  "archive": {
+   "exact": 116,
+   "squelette": 8,
+   "aucun": 18,
+   "propre": 3
+  },
+  "archive_mots": {
+   "exact": 1734,
+   "squelette": 280,
+   "aucun": 608,
+   "propre": 101
+  },
+  "amorce": {
+   "exact": 131,
+   "aucun": 7,
+   "squelette": 7
+  },
+  "amorce_mots": {
+   "exact": 2098,
+   "aucun": 364,
+   "squelette": 261
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 118,
+   "a_revoir": 5,
+   "a_traduire": 8
+  },
+  "archive_type_si_trouve": {
+   "objet.description": 117,
+   "sort.description": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 14,
+  "ni_archive_ni_amorce_exact_propre_mots": 625
+ },
+ "boutique:nom_objet": {
+  "textes_distincts": 242,
+  "mots_distincts_total": 970,
+  "occurrences": 246,
+  "archive": {
+   "exact": 216,
+   "aucun": 26
+  },
+  "archive_mots": {
+   "exact": 886,
+   "aucun": 84
+  },
+  "amorce": {
+   "exact": 242
+  },
+  "amorce_mots": {
+   "exact": 970
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 186,
+   "officiel": 16,
+   "a_revoir": 32,
+   "a_traduire": 8
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 115,
+   "objet.nom": 101
+  },
+  "ni_archive_ni_amorce_exact_propre": 0,
+  "ni_archive_ni_amorce_exact_propre_mots": 0
+ },
+ "game-data:achievements": {
+  "textes_distincts": 11,
+  "mots_distincts_total": 22,
+  "occurrences": 11,
+  "archive": {
+   "aucun": 3,
+   "squelette": 6,
+   "exact": 2
+  },
+  "archive_mots": {
+   "aucun": 6,
+   "squelette": 12,
+   "exact": 4
+  },
+  "amorce": {
+   "aucun": 3,
+   "squelette": 7,
+   "exact": 1
+  },
+  "amorce_mots": {
+   "aucun": 6,
+   "squelette": 14,
+   "exact": 2
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 1
+  },
+  "archive_type_si_trouve": {
+   "interface.texte": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 8,
+  "ni_archive_ni_amorce_exact_propre_mots": 16
+ },
+ "game-data:bonding": {
+  "textes_distincts": 4,
+  "mots_distincts_total": 12,
+  "occurrences": 4,
+  "archive": {
+   "aucun": 4
+  },
+  "archive_mots": {
+   "aucun": 12
+  },
+  "amorce": {
+   "aucun": 4
+  },
+  "amorce_mots": {
+   "aucun": 12
+  },
+  "amorce_etat_si_trouve": {},
+  "archive_type_si_trouve": {},
+  "ni_archive_ni_amorce_exact_propre": 4,
+  "ni_archive_ni_amorce_exact_propre_mots": 12
+ },
+ "game-data:classes": {
+  "textes_distincts": 32,
+  "mots_distincts_total": 38,
+  "occurrences": 32,
+  "archive": {
+   "exact": 32
+  },
+  "archive_mots": {
+   "exact": 38
+  },
+  "amorce": {
+   "exact": 31,
+   "aucun": 1
+  },
+  "amorce_mots": {
+   "exact": 37,
+   "aucun": 1
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 17,
+   "officiel": 14
+  },
+  "archive_type_si_trouve": {
+   "libelle_interface.texte": 14,
+   "interface.texte": 10,
+   "sort.nom": 7,
+   "creature.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 0,
+  "ni_archive_ni_amorce_exact_propre_mots": 0
+ },
+ "game-data:equipStats": {
+  "textes_distincts": 29,
+  "mots_distincts_total": 195,
+  "occurrences": 29,
+  "archive": {
+   "aucun": 29
+  },
+  "archive_mots": {
+   "aucun": 195
+  },
+  "amorce": {
+   "aucun": 29
+  },
+  "amorce_mots": {
+   "aucun": 195
+  },
+  "amorce_etat_si_trouve": {},
+  "archive_type_si_trouve": {},
+  "ni_archive_ni_amorce_exact_propre": 29,
+  "ni_archive_ni_amorce_exact_propre_mots": 195
+ },
+ "game-data:factions": {
+  "textes_distincts": 73,
+  "mots_distincts_total": 150,
+  "occurrences": 73,
+  "archive": {
+   "aucun": 58,
+   "exact": 15
+  },
+  "archive_mots": {
+   "aucun": 126,
+   "exact": 24
+  },
+  "amorce": {
+   "aucun": 35,
+   "exact": 37,
+   "squelette": 1
+  },
+  "amorce_mots": {
+   "aucun": 79,
+   "exact": 69,
+   "squelette": 2
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 34,
+   "machine_archive": 2,
+   "a_traduire": 1
+  },
+  "archive_type_si_trouve": {
+   "point_de_vol.nom": 8,
+   "objet_monde.nom": 2,
+   "zone.nom": 2,
+   "sort.nom": 1,
+   "fete.nom": 1,
+   "creature.sous_titre": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 34,
+  "ni_archive_ni_amorce_exact_propre_mots": 77
+ },
+ "game-data:inventoryTypes": {
+  "textes_distincts": 24,
+  "mots_distincts_total": 28,
+  "occurrences": 27,
+  "archive": {
+   "aucun": 19,
+   "exact": 5
+  },
+  "archive_mots": {
+   "aucun": 23,
+   "exact": 5
+  },
+  "amorce": {
+   "exact": 4,
+   "aucun": 20
+  },
+  "amorce_mots": {
+   "exact": 4,
+   "aucun": 24
+  },
+  "amorce_etat_si_trouve": {
+   "a_traduire": 1,
+   "machine_archive": 2,
+   "officiel": 1
+  },
+  "archive_type_si_trouve": {
+   "interface.texte": 3,
+   "sort.nom": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 17,
+  "ni_archive_ni_amorce_exact_propre_mots": 21
+ },
+ "game-data:itemSubclasses": {
+  "textes_distincts": 23,
+  "mots_distincts_total": 25,
+  "occurrences": 26,
+  "archive": {
+   "exact": 21,
+   "aucun": 2
+  },
+  "archive_mots": {
+   "exact": 23,
+   "aucun": 2
+  },
+  "amorce": {
+   "exact": 13,
+   "aucun": 10
+  },
+  "amorce_mots": {
+   "exact": 15,
+   "aucun": 10
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 12,
+   "a_traduire": 1
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 11,
+   "libelle_interface.texte": 7,
+   "objet.nom": 2,
+   "interface.texte": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 2,
+  "ni_archive_ni_amorce_exact_propre_mots": 2
+ },
+ "game-data:powers": {
+  "textes_distincts": 5,
+  "mots_distincts_total": 6,
+  "occurrences": 5,
+  "archive": {
+   "exact": 4,
+   "aucun": 1
+  },
+  "archive_mots": {
+   "exact": 5,
+   "aucun": 1
+  },
+  "amorce": {
+   "aucun": 4,
+   "exact": 1
+  },
+  "amorce_mots": {
+   "aucun": 5,
+   "exact": 1
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 1
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 4
+  },
+  "ni_archive_ni_amorce_exact_propre": 1,
+  "ni_archive_ni_amorce_exact_propre_mots": 1
+ },
+ "game-data:primaryStats": {
+  "textes_distincts": 7,
+  "mots_distincts_total": 7,
+  "occurrences": 7,
+  "archive": {
+   "exact": 6,
+   "aucun": 1
+  },
+  "archive_mots": {
+   "exact": 6,
+   "aucun": 1
+  },
+  "amorce": {
+   "aucun": 5,
+   "exact": 1,
+   "squelette": 1
+  },
+  "amorce_mots": {
+   "aucun": 5,
+   "exact": 1,
+   "squelette": 1
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 1
+  },
+  "archive_type_si_trouve": {
+   "interface.texte": 5,
+   "sort.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 1,
+  "ni_archive_ni_amorce_exact_propre_mots": 1
+ },
+ "game-data:races": {
+  "textes_distincts": 32,
+  "mots_distincts_total": 44,
+  "occurrences": 42,
+  "archive": {
+   "exact": 13,
+   "aucun": 19
+  },
+  "archive_mots": {
+   "exact": 17,
+   "aucun": 27
+  },
+  "amorce": {
+   "exact": 10,
+   "aucun": 22
+  },
+  "amorce_mots": {
+   "exact": 14,
+   "aucun": 30
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 9,
+   "machine_archive": 1
+  },
+  "archive_type_si_trouve": {
+   "libelle_interface.texte": 12,
+   "sort.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 15,
+  "ni_archive_ni_amorce_exact_propre_mots": 21
+ },
+ "game-data:reputationRanks": {
+  "textes_distincts": 8,
+  "mots_distincts_total": 8,
+  "occurrences": 8,
+  "archive": {
+   "aucun": 7,
+   "exact": 1
+  },
+  "archive_mots": {
+   "aucun": 7,
+   "exact": 1
+  },
+  "amorce": {
+   "exact": 8
+  },
+  "amorce_mots": {
+   "exact": 8
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 4,
+   "a_traduire": 4
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 0,
+  "ni_archive_ni_amorce_exact_propre_mots": 0
+ },
+ "game-data:schools": {
+  "textes_distincts": 7,
+  "mots_distincts_total": 7,
+  "occurrences": 7,
+  "archive": {
+   "exact": 5,
+   "aucun": 2
+  },
+  "archive_mots": {
+   "exact": 5,
+   "aucun": 2
+  },
+  "amorce": {
+   "aucun": 5,
+   "exact": 2
+  },
+  "amorce_mots": {
+   "aucun": 5,
+   "exact": 2
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 2
+  },
+  "archive_type_si_trouve": {
+   "libelle_interface.texte": 2,
+   "sort.nom": 2,
+   "objet_monde.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 2,
+  "ni_archive_ni_amorce_exact_propre_mots": 2
+ },
+ "game-data:skills": {
+  "textes_distincts": 15,
+  "mots_distincts_total": 16,
+  "occurrences": 15,
+  "archive": {
+   "exact": 15
+  },
+  "archive_mots": {
+   "exact": 16
+  },
+  "amorce": {
+   "exact": 15
+  },
+  "amorce_mots": {
+   "exact": 16
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 15
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 14,
+   "libelle_interface.texte": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 0,
+  "ni_archive_ni_amorce_exact_propre_mots": 0
+ },
+ "game-data:slots": {
+  "textes_distincts": 17,
+  "mots_distincts_total": 19,
+  "occurrences": 19,
+  "archive": {
+   "aucun": 15,
+   "exact": 2
+  },
+  "archive_mots": {
+   "aucun": 17,
+   "exact": 2
+  },
+  "amorce": {
+   "exact": 3,
+   "aucun": 14
+  },
+  "amorce_mots": {
+   "exact": 3,
+   "aucun": 16
+  },
+  "amorce_etat_si_trouve": {
+   "a_traduire": 1,
+   "machine_archive": 2
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 1,
+   "interface.texte": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 13,
+  "ni_archive_ni_amorce_exact_propre_mots": 15
+ },
+ "game-data:socketColors": {
+  "textes_distincts": 5,
+  "mots_distincts_total": 5,
+  "occurrences": 5,
+  "archive": {
+   "exact": 5
+  },
+  "archive_mots": {
+   "exact": 5
+  },
+  "amorce": {
+   "exact": 2,
+   "aucun": 3
+  },
+  "amorce_mots": {
+   "exact": 2,
+   "aucun": 3
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 2
+  },
+  "archive_type_si_trouve": {
+   "libelle_interface.texte": 3,
+   "interface.texte": 1,
+   "sort.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 0,
+  "ni_archive_ni_amorce_exact_propre_mots": 0
+ },
+ "game-data:spellTriggers": {
+  "textes_distincts": 3,
+  "mots_distincts_total": 5,
+  "occurrences": 3,
+  "archive": {
+   "aucun": 3
+  },
+  "archive_mots": {
+   "aucun": 5
+  },
+  "amorce": {
+   "aucun": 3
+  },
+  "amorce_mots": {
+   "aucun": 5
+  },
+  "amorce_etat_si_trouve": {},
+  "archive_type_si_trouve": {},
+  "ni_archive_ni_amorce_exact_propre": 3,
+  "ni_archive_ni_amorce_exact_propre_mots": 5
+ },
+ "game-data:zones": {
+  "textes_distincts": 376,
+  "mots_distincts_total": 829,
+  "occurrences": 414,
+  "archive": {
+   "aucun": 77,
+   "exact": 299
+  },
+  "archive_mots": {
+   "aucun": 140,
+   "exact": 689
+  },
+  "amorce": {
+   "aucun": 266,
+   "exact": 108,
+   "squelette": 1,
+   "propre": 1
+  },
+  "amorce_mots": {
+   "aucun": 637,
+   "exact": 190,
+   "squelette": 1,
+   "propre": 1
+  },
+  "amorce_etat_si_trouve": {
+   "officiel": 99,
+   "a_traduire": 6,
+   "machine_archive": 4
+  },
+  "archive_type_si_trouve": {
+   "zone.nom": 202,
+   "point_de_vol.nom": 38,
+   "interface.texte": 32,
+   "objet_monde.nom": 8,
+   "sort.nom": 7,
+   "zone.nom_interieur": 4,
+   "dialogue_pnj.texte": 2,
+   "dialogue_option.texte": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 58,
+  "ni_archive_ni_amorce_exact_propre_mots": 117
+ },
+ "talents:description_arbre": {
+  "textes_distincts": 70,
+  "mots_distincts_total": 1268,
+  "occurrences": 70,
+  "archive": {
+   "exact": 70
+  },
+  "archive_mots": {
+   "exact": 1268
+  },
+  "amorce": {
+   "aucun": 70
+  },
+  "amorce_mots": {
+   "aucun": 1268
+  },
+  "amorce_etat_si_trouve": {},
+  "archive_type_si_trouve": {
+   "specialisation.description": 70
+  },
+  "ni_archive_ni_amorce_exact_propre": 0,
+  "ni_archive_ni_amorce_exact_propre_mots": 0
+ },
+ "talents:description_talent": {
+  "textes_distincts": 3895,
+  "mots_distincts_total": 76421,
+  "occurrences": 3929,
+  "archive": {
+   "squelette": 2247,
+   "aucun": 1474,
+   "exact": 120,
+   "propre": 54
+  },
+  "archive_mots": {
+   "squelette": 45130,
+   "aucun": 28664,
+   "exact": 1538,
+   "propre": 1089
+  },
+  "amorce": {
+   "aucun": 3874,
+   "exact": 1,
+   "squelette": 20
+  },
+  "amorce_mots": {
+   "aucun": 75946,
+   "exact": 31,
+   "squelette": 444
+  },
+  "amorce_etat_si_trouve": {
+   "a_revoir": 1
+  },
+  "archive_type_si_trouve": {
+   "sort.description": 174
+  },
+  "ni_archive_ni_amorce_exact_propre": 3720,
+  "ni_archive_ni_amorce_exact_propre_mots": 73763
+ },
+ "talents:infobulle_sort_bdd": {
+  "textes_distincts": 4318,
+  "mots_distincts_total": 88570,
+  "occurrences": 5291,
+  "archive": {
+   "aucun": 1571,
+   "squelette": 2572,
+   "propre": 166,
+   "exact": 9
+  },
+  "archive_mots": {
+   "aucun": 31835,
+   "squelette": 54083,
+   "propre": 2520,
+   "exact": 132
+  },
+  "amorce": {
+   "aucun": 4297,
+   "exact": 1,
+   "squelette": 20
+  },
+  "amorce_mots": {
+   "aucun": 88095,
+   "exact": 31,
+   "squelette": 444
+  },
+  "amorce_etat_si_trouve": {
+   "a_revoir": 1
+  },
+  "archive_type_si_trouve": {
+   "sort.description": 175
+  },
+  "ni_archive_ni_amorce_exact_propre": 4142,
+  "ni_archive_ni_amorce_exact_propre_mots": 85887
+ },
+ "talents:nom_arbre": {
+  "textes_distincts": 91,
+  "mots_distincts_total": 100,
+  "occurrences": 91,
+  "archive": {
+   "exact": 82,
+   "aucun": 9
+  },
+  "archive_mots": {
+   "exact": 91,
+   "aucun": 9
+  },
+  "amorce": {
+   "exact": 27,
+   "aucun": 64
+  },
+  "amorce_mots": {
+   "exact": 32,
+   "aucun": 68
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 18,
+   "officiel": 9
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 37,
+   "specialisation.nom_arbre": 28,
+   "libelle_interface.texte": 13,
+   "objet.nom": 2,
+   "creature.nom": 1,
+   "interface.texte": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 8,
+  "ni_archive_ni_amorce_exact_propre_mots": 8
+ },
+ "talents:nom_sort_bdd": {
+  "textes_distincts": 3518,
+  "mots_distincts_total": 7128,
+  "occurrences": 5291,
+  "archive": {
+   "exact": 3482,
+   "aucun": 36
+  },
+  "archive_mots": {
+   "exact": 7074,
+   "aucun": 54
+  },
+  "amorce": {
+   "aucun": 3262,
+   "exact": 251,
+   "squelette": 5
+  },
+  "amorce_mots": {
+   "aucun": 6652,
+   "exact": 462,
+   "squelette": 14
+  },
+  "amorce_etat_si_trouve": {
+   "a_traduire": 11,
+   "machine_archive": 106,
+   "officiel": 131,
+   "a_revoir": 3
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 3471,
+   "objet.nom": 4,
+   "quete.titre": 4,
+   "interface.texte": 1,
+   "creature.nom": 1,
+   "objet_monde.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 31,
+  "ni_archive_ni_amorce_exact_propre_mots": 49
+ },
+ "talents:nom_talent": {
+  "textes_distincts": 3517,
+  "mots_distincts_total": 7126,
+  "occurrences": 3616,
+  "archive": {
+   "exact": 3481,
+   "aucun": 36
+  },
+  "archive_mots": {
+   "exact": 7072,
+   "aucun": 54
+  },
+  "amorce": {
+   "aucun": 3261,
+   "exact": 251,
+   "squelette": 5
+  },
+  "amorce_mots": {
+   "aucun": 6650,
+   "exact": 462,
+   "squelette": 14
+  },
+  "amorce_etat_si_trouve": {
+   "a_traduire": 11,
+   "machine_archive": 106,
+   "officiel": 131,
+   "a_revoir": 3
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 3470,
+   "objet.nom": 4,
+   "quete.titre": 4,
+   "interface.texte": 1,
+   "creature.nom": 1,
+   "objet_monde.nom": 1
+  },
+  "ni_archive_ni_amorce_exact_propre": 31,
+  "ni_archive_ni_amorce_exact_propre_mots": 49
+ },
+ "TOTAL_talents_et_sorts": {
+  "textes_distincts": 15409,
+  "mots_distincts_total": 180613,
+  "occurrences": 18288,
+  "archive": {
+   "exact": 7244,
+   "squelette": 4819,
+   "aucun": 3126,
+   "propre": 220
+  },
+  "archive_mots": {
+   "exact": 17175,
+   "squelette": 99213,
+   "aucun": 60616,
+   "propre": 3609
+  },
+  "amorce": {
+   "aucun": 14828,
+   "exact": 531,
+   "squelette": 50
+  },
+  "amorce_mots": {
+   "aucun": 178679,
+   "exact": 1018,
+   "squelette": 916
+  },
+  "amorce_etat_si_trouve": {
+   "a_revoir": 8,
+   "machine_archive": 230,
+   "officiel": 271,
+   "a_traduire": 22
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 6978,
+   "sort.description": 349,
+   "specialisation.description": 70,
+   "specialisation.nom_arbre": 28,
+   "libelle_interface.texte": 13,
+   "objet.nom": 10,
+   "quete.titre": 8,
+   "creature.nom": 3
+  },
+  "ni_archive_ni_amorce_exact_propre": 7932,
+  "ni_archive_ni_amorce_exact_propre_mots": 159756
+ },
+ "TOTAL_talents_hors_bdd": {
+  "textes_distincts": 7573,
+  "mots_distincts_total": 84915,
+  "occurrences": 7706,
+  "archive": {
+   "exact": 3753,
+   "squelette": 2247,
+   "aucun": 1519,
+   "propre": 54
+  },
+  "archive_mots": {
+   "exact": 9969,
+   "squelette": 45130,
+   "aucun": 28727,
+   "propre": 1089
+  },
+  "amorce": {
+   "aucun": 7269,
+   "exact": 279,
+   "squelette": 25
+  },
+  "amorce_mots": {
+   "aucun": 83932,
+   "exact": 525,
+   "squelette": 458
+  },
+  "amorce_etat_si_trouve": {
+   "a_revoir": 4,
+   "machine_archive": 124,
+   "officiel": 140,
+   "a_traduire": 11
+  },
+  "archive_type_si_trouve": {
+   "sort.nom": 3507,
+   "sort.description": 174,
+   "specialisation.description": 70,
+   "specialisation.nom_arbre": 28,
+   "libelle_interface.texte": 13,
+   "objet.nom": 6,
+   "quete.titre": 4,
+   "creature.nom": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 3759,
+  "ni_archive_ni_amorce_exact_propre_mots": 73820
+ },
+ "TOTAL_game_data_client": {
+  "textes_distincts": 440,
+  "mots_distincts_total": 911,
+  "occurrences": 488,
+  "archive": {
+   "exact": 344,
+   "aucun": 96
+  },
+  "archive_mots": {
+   "exact": 744,
+   "aucun": 167
+  },
+  "amorce": {
+   "exact": 149,
+   "aucun": 289,
+   "squelette": 1,
+   "propre": 1
+  },
+  "amorce_mots": {
+   "exact": 241,
+   "aucun": 668,
+   "squelette": 1,
+   "propre": 1
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 22,
+   "officiel": 122,
+   "a_traduire": 6
+  },
+  "archive_type_si_trouve": {
+   "zone.nom": 202,
+   "interface.texte": 42,
+   "point_de_vol.nom": 38,
+   "libelle_interface.texte": 26,
+   "sort.nom": 15,
+   "objet_monde.nom": 8,
+   "zone.nom_interieur": 4,
+   "dialogue_pnj.texte": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 73,
+  "ni_archive_ni_amorce_exact_propre_mots": 138
+ },
+ "TOTAL_boutique": {
+  "textes_distincts": 387,
+  "mots_distincts_total": 3693,
+  "occurrences": 429,
+  "archive": {
+   "exact": 332,
+   "squelette": 8,
+   "aucun": 44,
+   "propre": 3
+  },
+  "archive_mots": {
+   "exact": 2620,
+   "squelette": 280,
+   "aucun": 692,
+   "propre": 101
+  },
+  "amorce": {
+   "exact": 373,
+   "aucun": 7,
+   "squelette": 7
+  },
+  "amorce_mots": {
+   "exact": 3068,
+   "aucun": 364,
+   "squelette": 261
+  },
+  "amorce_etat_si_trouve": {
+   "machine_archive": 304,
+   "a_revoir": 37,
+   "a_traduire": 16,
+   "officiel": 16
+  },
+  "archive_type_si_trouve": {
+   "objet.description": 117,
+   "sort.nom": 115,
+   "objet.nom": 101,
+   "sort.description": 2
+  },
+  "ni_archive_ni_amorce_exact_propre": 14,
+  "ni_archive_ni_amorce_exact_propre_mots": 625
+ },
+ "talents_textes_distincts_toutes_categories": 10963,
+ "talents_mots_distincts_toutes_categories": 156407,
+ "par_numero": {
+  "talent|coa_description_sort_client": 71,
+  "talent|archive_id_sort": 64,
+  "talent|sort_dbc_serveur": 2,
+  "boutique|objet": 246
+ },
+ "par_numero_controles": {
+  "archive_id_sort|anglais absent de l archive pour ce numero": 64,
+  "coa_description_sort_client|{\"Description\": \"different\"}": 35,
+  "coa_description_sort_client|{\"Description\": \"meme_squelette\"}": 34,
+  "coa_description_sort_client|{\"Description\": \"meme_squelette\", \"ToolTip\": \"different\"}": 1,
+  "sort_dbc_serveur|{\"nom\": \"identique\", \"Description\": \"meme_squelette\"}": 1,
+  "coa_description_sort_client|{\"Description\": \"identique\", \"ToolTip\": \"different\"}": 1,
+  "sort_dbc_serveur|{\"nom\": \"identique\", \"Description\": \"different\"}": 1
+ },
+ "boutique_controles": {
+  "{\"nom\": \"identique\", \"description\": \"identique\"}": 169,
+  "{\"nom\": \"identique\"}": 63,
+  "{\"nom\": \"identique\", \"description\": \"different\"}": 14
+ },
+ "variables_dans_textes_site": {
+  "description_talent_avec_dollar": 5,
+  "description_talent_total": 3929,
+  "description_talent_avec_couleur": 2980,
+  "infobulle_bdd_avec_dollar": 5,
+  "infobulle_bdd_total": 5291,
+  "infobulle_bdd_avec_couleur": 59,
+  "description_talent_avec_X": 482,
+  "infobulle_bdd_avec_X": 1540,
+  "description_talent_avec_marqueur_@": 1
+ }
+}

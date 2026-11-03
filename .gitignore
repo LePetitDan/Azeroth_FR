@@ -1,0 +1,14 @@
+# Fichiers de travail
+work/
+travail/
+*.pkl
+__pycache__/
+*.pyc
+
+# Bases générées de l'add-on (elles vont dans le zip de release, jamais dans le dépôt)
+addon/**/DB/
+dist/
+
+# Systèmes
+.DS_Store
+Thumbs.db
