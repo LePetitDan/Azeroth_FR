@@ -15,6 +15,21 @@
 - **Ce qui attend Dan** : `glossaire/A_TRANCHER.md`, 10 questions à une lettre (Bloodforged 39 440 lignes, préfixes 1 459 lignes, étiquettes `@…@`, Ascended, Keystone, Call Board, Elemental Lodestone, Worldforged, classes Guardian/Ranger/Cultist, Talent Essence).
 - **Prochaine étape** : après les décisions de Dan, relancer l'import ; puis **étape 2**, le premier add-on (format de lecture : lignes `officiel`, `machine`, `relu`).
 
+## Le jeu de Dan et les premiers tests (03/11, nuit)
+
+- **Installation** : `D:\Wow_Core` sur le PC maison (43 Go, client « Project Descension », build 12340, langue enUS). Dan a donné l'accès en lecture et écriture à ce dossier pour la session. Le jeu est en anglais, sans aucun choix de langue.
+- **Analyse du client** : `docs/collecte/2026-11-03_Rapport_Client-CoA.md`.
+  - Les fichiers `.loc` sont des restes d'Ascension, que le jeu n'utilise pas : piste abandonnée.
+  - L'interface est dans `GlobalStrings.dbc` (14 356 textes).
+  - Le lanceur ne touche à rien sous `Interface\`.
+- **Test 1, PTRXML : réussi.** Le jeu charge `Interface\PTRXML\PTR.xml` avant le jeu et en jeu. Les boutons de l'écran des personnages se sont affichés en français. Le code qui y est chargé est « sûr » pour le jeu : remplacer là les textes d'interface ne provoque pas de blocage. C'est la voie pour les écrans d'avant-jeu et l'interface. Voir `essais/2026-11-03_test-PTRXML/RESULTAT.md`.
+- **Test 2, diagnostic LuaDBC : fait.**
+  - `LuaDBC` existe, avec 9 fonctions dont `SetLocalizedString`, mais on ne sait pas encore comment l'appeler.
+  - Les boutons de la barre d'action renvoient des numéros de sorts trompeurs (1, 18, 20) : il faut comprendre comment le client CoA associe boutons et sorts.
+  - Voir `essais/2026-11-03_test2-LuaDBC/RESULTAT.md`.
+- Les deux tests restent installés chez Dan (`Interface\PTRXML`, `Interface\AddOns\AzerothFR_Diag`). Pour revenir en arrière, il suffit de supprimer ces deux dossiers.
+- Le 03/11 au soir, Dan a déplacé la conversation dans un projet claude.ai dédié, « Azeroth_FR ».
+
 ## Le projet en une phrase
 Azeroth_FR est la relance, reconstruite proprement, de la traduction française de l'ancien AscensionFR (archivé le 04-05/09/2026). La cible est **Conquest of AzerothCore** (royaume Rexxar), puis les serveurs dérivés (ArdenWoW…).
 
@@ -65,7 +80,7 @@ Les rapports sont dans `Perso/Azeroth_FR/collecte/` : `2026-11-03_Rapport_Ascens
 
 ## Questions ouvertes pour Dan
 1. ~~Dépôt privé~~ : fait.
-2. Un client Conquest of AzerothCore est-il installé sur le PC maison ? Si oui, où ? Il sert aux tests en jeu et à l'interface.
+2. ~~Client installé~~ : oui, dans `D:\Wow_Core`.
 3. Vocabulaire à trancher : présenté dans `glossaire/A_TRANCHER.md` (10 questions, recommandations incluses). Rien n'est appliqué avant la réponse de Dan.
 4. Données personnelles encore publiques dans la release 3.5.1 d'AscensionFR et dans l'archive (808 annonces nominatives, 39 liens personnels). Décision de Dan, tâche dans Priorités (échéance 10/11). **Rien n'est modifié sans son accord.**
 
