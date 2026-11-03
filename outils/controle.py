@@ -9,7 +9,7 @@ Refus possibles (une ligne peut en cumuler plusieurs) :
 - bouche_trou             : « [NOM DE L'ARTICLE MANQUANT] », « TODO », « ??? »…
 - reponse_ia              : bavardage d'assistant (« Bien sûr, je peux vous aider… »)
 - caractere_invisible     : espace de largeur nulle (U+200B…) absente de l'anglais
-- exclu_<famille>         : URL, adresse, presse-papiers, classement, journal de combat
+- exclu_<famille>         : adresse web ou mail AJOUTEE par le francais, presse-papiers, classement, lien de joueur
 - variables               : $n $N $g…; $B $b $r $c $C %s %d %u ${…} $s1… differents
                             (le francais peut AJOUTER des $g d'accord, jamais en retirer)
 - pourcent_nu             : un « % » isole dans une chaine de format (fait planter le client)
@@ -128,28 +128,32 @@ MOT_A_MOT = re.compile(r"^(?:\|c[0-9A-Fa-f]{8})?(Sacré|Ombre|Arcanes|Givre|Gang
 MOT_A_MOT_EN = re.compile(r"^(?:\|c[0-9A-Fa-f]{8})?(Holy|Shadow|Arcane|Frost|Fel|Unholy) ")
 
 
+FORMAT_PRINTF = re.compile(r"%(?:\d+\$)?[-+0#]?\d*(?:\.\d+)?[sdiufxc]")
+
+
 def pourcents_nus(t):
-    """« % » qui ne sont ni un code de format (%s, %d…) ni un « %% »."""
-    return K.TOK.sub('', t.replace('%%', '')).count('%')
+    """« % » qui ne sont ni un code de format (%s, %d…) ni un « %% » : dans une chaine de format,
+    « 20 % de » serait lu comme le code « % d » et ferait planter le client."""
+    return FORMAT_PRINTF.sub('', t.replace('%%', '')).count('%')
 
 
 REPONSE_IA = re.compile(
-    r"je peux vous aider|Voici (?:la|une|le) (?:traduction|texte)|Here is the translation|I can help|as an AI|"
-    r"en tant qu'(?:IA|intelligence artificielle|assistant)|nom d'utilisateur ou (?:un )?pseudo|"
-    r"^(?:Bien sûr|Certainement|D'accord)[ ,!]|ne se tradui(?:t|sent) (?:généralement )?pas", re.I)
+    r"je peux vous aider avec (?:ça|cela)|Voici (?:la|une) traduction|Here is the translation|"
+    r"en tant qu'(?:IA|intelligence artificielle)|as an AI language model|nom d'utilisateur ou (?:un )?pseudo|"
+    r"ne se tradui(?:t|sent) (?:généralement )?pas|traduction (?:française|en français) (?:de|du|est)\s*:", re.I)
 INVISIBLES = re.compile('[\u200b\u200c\u200d\u2060\ufeff]')
 
 
 def controle_structure(en, fr):
     """Controles qui ne dependent pas du glossaire. en, fr : textes bruts."""
     r = []
-    if K.est_bouche_trou_fr(fr):
+    if K.nb_bouche_trous(fr) > K.nb_bouche_trous(en):
         r.append('bouche_trou')
-    if REPONSE_IA.search(fr) and not REPONSE_IA.search(en):
+    if len(REPONSE_IA.findall(fr)) > len(REPONSE_IA.findall(en)):
         r.append('reponse_ia')
     if len(INVISIBLES.findall(fr)) > len(INVISIBLES.findall(en)):
         r.append('caractere_invisible')
-    fe = K.famille_exclue(en, fr)
+    fe = K.famille_exclue_relative(en, fr)
     if fe:
         r.append('exclu_' + fe)
     en_n, fr_n = K.norm(en), K.norm(fr)

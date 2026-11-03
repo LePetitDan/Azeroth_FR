@@ -198,7 +198,7 @@ TOK = re.compile(
     r"|\$<[a-zA-Z]+>"                   # $<mult>
     r"|\$\d+[a-zA-Z]\d*"                # $12345s1
     r"|\$[a-zA-Z]\d*"                   # $n $N $B $b $c $r $s1 $d ...
-    r"|%(?:\d+\$)?[-+0#]?\d*(?:\.\d+)?[sdiufx](?![a-zA-ZÀ-ÿ])"
+    r"|%(?:\d+\$)?[-+0#]?\d*(?:\.\d+)?(?:s|[diufx](?![a-zA-ZÀ-ÿ]))"
     r"|\{\d*\}"                         # format C++ {}
 )
 COUL = re.compile(r"\|c[0-9A-Fa-f]{8}")
@@ -236,8 +236,12 @@ def codes(t):
     return +c
 
 
+GRAMMAIRE = re.compile(r"\|[1-4](?:-\d+)?")          # |2 (elision « de »), |4…:…; (pluriel) du client
+
+
 def denuder(t):
     """Retire codes et variables pour ne garder que le texte lisible."""
+    t = GRAMMAIRE.sub(' ', t)
     t = TOK.sub(' ', t)
     t = COUL.sub(' ', t)
     t = re.sub(r"\|H[^|]*\|h|\|h|\|r|\|T[^|]*\|t", ' ', t)
@@ -275,23 +279,45 @@ PLACEHOLDERS_EN = {
 }
 BOUCHE_TROUS_FR = {"[NOM DE L'ARTICLE MANQUANT]", "***Nom non disponible***"}
 RE_BOUCHE_TROU = re.compile(
-    r"^Z: élément généré par DBCtoDB|ARTICLE MANQUANT|^\*\*\*Nom non|^apparence en double$"
-    r"|\[MISSING ITEM NAME\]|Z:DBCtoDB|\bTODO\b|\bFIXME\b|\bA TRADUIRE\b|\bÀ TRADUIRE\b|^\?\?+$|^XXX+$|\[PH\]|^Lorem ipsum",
-    re.I)
+    r"^Z: élément généré par DBCtoDB|ARTICLE MANQUANT|^\*\*\*Nom non|\[MISSING ITEM NAME\]|Z:DBCtoDB"
+    r"|\bTODO\b|\bFIXME\b|\bA TRADUIRE\b|\bÀ TRADUIRE\b|^\?\?+$|^XXX+$|\[PH\]|^Lorem ipsum")
+RE_BOUCHE_TROU_I = re.compile(r"^apparence en double$|^duplicate appearance$", re.I)
+
+
+def nb_bouche_trous(t):
+    t = t.strip()
+    return (t in BOUCHE_TROUS_FR) + len(RE_BOUCHE_TROU.findall(t)) + bool(RE_BOUCHE_TROU_I.search(t))
 
 
 def est_bouche_trou_fr(fr):
-    f = fr.strip()
-    return f in BOUCHE_TROUS_FR or bool(RE_BOUCHE_TROU.search(f))
+    return nb_bouche_trous(fr) > 0
 
 
-URL = re.compile(r"https?://|www\.|discord(?:app)?\.(?:gg|com)|twitch\.tv|youtu\.?be|kick\.com|tiktok\.com|\.com/|\.gg/", re.I)
+URL = re.compile(r"https?://|(?<![A-Za-z])www\.[a-z0-9]|discord(?:app)?\.(?:gg|com)|twitch\.tv|youtu\.?be|kick\.com|tiktok\.com|\.com/|\.gg/", re.I)
 CLASSEMENT = re.compile(r"\[(?:RACE|VOID|WONKA|Duck Hunt|VORTEX)\]")
 ADRESSE_MAIL = re.compile(r"[\w.+-]+@[\w-]+\.[a-z]{2,}", re.I)
 
 
+def famille_exclue_relative(en, fr):
+    """Pour le controle : refuse ce que le FRANCAIS ajoute (une adresse web d'un texte officiel du jeu
+    reste permise si l'anglais la porte deja) ; presse-papiers, classements et liens de joueurs, toujours."""
+    if len(URL.findall(fr)) > len(URL.findall(en)):
+        return 'url'
+    if len(ADRESSE_MAIL.findall(fr)) > len(ADRESSE_MAIL.findall(en)):
+        return 'adresse_mail'
+    for t in (en, fr):
+        if 'Copied to Clipboard' in t or 'Copié dans le presse-papiers' in t or 'Copié dans le Presse-papiers' in t:
+            return 'presse_papiers'
+        if CLASSEMENT.search(t):
+            return 'classement'
+        if '|Hplayer:' in t:
+            return 'lien_joueur'
+    return ''
+
+
 def famille_exclue(en, fr=''):
-    """Donnees personnelles ou familles exclues (URL, presse-papiers, classements, journaux de combat)."""
+    """Filtre d'IMPORT (donnees personnelles ou familles exclues : URL, presse-papiers, classements,
+    journaux de combat) : la paire est ecartee si l'un des deux textes en porte."""
     for t in (en, fr):
         if not t:
             continue
