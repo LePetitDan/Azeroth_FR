@@ -450,7 +450,7 @@ def ecrire_donnees(dossier, prefixe, tables, version, quoi, bilan):
 
     for t in tables:
         ms = t.morceaux()
-        bilan['tables'][t.famille + '.' + t.nom] = {
+        bilan['tables'][os.path.basename(dossier) + ':' + t.nom] = {
             'entrees': len(t.entrees), 'seaux': len(ms), 'sorte': t.sorte,
             'constantes_max_par_morceau': max((m[2] for m in ms), default=0),
             'octets_morceaux': sum(len(m[1]) for m in ms)}

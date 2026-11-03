@@ -17,7 +17,8 @@
 
 1. **Ferme le jeu et le lanceur.**
 2. **Supprime** le dossier du test 1 : `D:\Wow_Core\Interface\PTRXML`.
-   *(Le dossier du test 2, `Interface\AddOns\AzerothFR_Diag`, peut rester : il ne gêne pas.)*
+   *(Le dossier du test 3, `Interface\AddOns\AzerothFR_Test3`, peut rester : il ne gêne pas, sa commande est
+   `/azfr3`. Celui du test 2 a déjà été retiré.)*
 3. **Ouvre le zip.** Il contient un seul dossier, `Interface`. **Copie ce dossier `Interface` dans
    `D:\Wow_Core\`** et accepte de fusionner les dossiers. Tu dois obtenir :
    - `D:\Wow_Core\Interface\PTRXML\PTR.xml` et `AzerothFR_Interface.lua` ;
@@ -70,7 +71,8 @@ Fais une capture d'écran à chaque point, même quand tout va bien.
 
 1. Ferme le jeu.
 2. Supprime le dossier `D:\Wow_Core\Interface\PTRXML`.
-3. Supprime les 12 dossiers `D:\Wow_Core\Interface\AddOns\Azeroth_FR` et `Azeroth_FR_…`.
+3. Supprime les 12 dossiers `D:\Wow_Core\Interface\AddOns\Azeroth_FR` et `Azeroth_FR_…` (le dossier
+   `AzerothFR_Test3`, sans tiret bas, est celui du test 3 : il se retire à part).
 4. *(Facultatif)* Les réglages de l'add-on sont dans `D:\Wow_Core\WTF\Account\<ton compte>\SavedVariables\Azeroth_FR.lua` :
    tu peux le supprimer aussi.
 

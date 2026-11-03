@@ -11,8 +11,9 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 - ✅ **Collecte terminée** : textes du serveur CoA Core, archive AscensionFR, croisement des deux, AscensionDB, site coa-development.org. Voir `docs/`.
 - ✅ **Premier contact avec l'équipe CoA Core** : ils étudient une prise en charge multilingue et accueillent le projet favorablement.
 - ✅ **Étape 1 : la source unique** (03/11/2026). `textes/` : 1 287 785 lignes, dont 84 % déjà affichables (officiel Blizzard 514 080, machine contrôlée 566 859). Glossaire CoA, lexique de 33 217 noms officiels, contrôle d'entrée vu refuser 32 faux cas sur 32. Rapport : `docs/2026-11-03_Rapport_Etape1-source-unique.md`.
-- ⏳ **Dan** : trancher les 10 termes de `glossaire/A_TRANCHER.md` (Bloodforged débloque 39 440 lignes).
-- ⏳ **Étape 2** : premier add-on à tester en jeu.
+- ✅ **Dan a tranché les 10 termes** (`glossaire/DECISIONS_VOCABULAIRE.md`) ; leur application à `textes/` est une passe dédiée, à venir. Les étiquettes `@…@` attendent le test en jeu.
+- ✅ **Étape 2 : l'essai 1 (add-on 0.1.0)** (03/11/2026). `python3 -I outils/fabriquer.py` produit `dist/Azeroth_FR-0.1.0.zip` (15 Mo) : quêtes, dialogues, objets, créatures, cris des PNJ, livres, plus 6 034 textes d'interface par `Interface\PTRXML`. Banc hors jeu : 45 vérifications sur 45. Rapport : `docs/2026-11-03_Rapport_Etape2-essai1.md` ; notice : `docs/ESSAI1_installer.md`.
+- ⏳ **Dan** : installer et tester l'essai 1 (8 vérifications, dont les étiquettes).
 
 ## Organisation
 
@@ -23,8 +24,9 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 | `collecte/scripts/` | Scripts de collecte, de croisement et de l'étape 1, relançables |
 | `collecte/donnees/` | Résultats de la collecte, compressés (`.xz`) : instantané du 03/11/2026 |
 | `textes/` | **La source unique** : un fichier TSV par famille (`serveur/`, `client/`), colonnes `type`, `id`, `sous_id`, `champ`, `en`, `en_empreinte`, `fr`, `etat`, `source`, `note` |
-| `outils/` | `importer.py`, `controler.py` (+ `test_controler.py`), `stats.py`, `noms_officiels.py` ; `fabriquer` viendra à l'étape 2 |
-| `addon/` *(à venir)* | Le code de l'add-on, sans données (les bases sont générées au moment du zip) |
+| `outils/` | `importer.py`, `controler.py` (+ `test_controler.py`), `stats.py`, `noms_officiels.py`, `fabriquer.py` (l'add-on), `tester_addon.py` + `banc_addon.lua` (banc hors jeu) |
+| `addon/` | Le code de l'add-on (`Azeroth_FR/`) et du paquet d'interface (`PTRXML/`), sans données ; `VERSION` |
+| `dist/` *(ignoré par git)* | Ce que fabrique `fabriquer.py` : `Interface/…` prêt à copier, le zip, `fabrication.json` |
 
 ### La source unique en deux lignes
 
@@ -40,6 +42,8 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 | `python3 -I outils/test_controler.py` | Vérifie que le contrôle refuse bien ses 32 faux cas |
 | `python3 -I outils/stats.py` | Avancement par famille et par état |
 | `python3 -I outils/noms_officiels.py` | Reconstruit `glossaire/noms_officiels.tsv` |
+| `python3 -I outils/fabriquer.py` | Fabrique l'add-on et le paquet PTRXML dans `dist/` (~2 min, Lua 5.1 nécessaire pour la vérification) |
+| `python3 -I outils/tester_addon.py` | Banc d'essai hors jeu de l'add-on fabriqué (20 s) |
 
 ## Principes
 
