@@ -163,13 +163,26 @@ local A = AzerothFR
 noter(type(A) == "table" and A.VERSION ~= nil, "coeur charge", "version " .. tostring(A and A.VERSION))
 noter(type(SlashCmdList.AZFR) == "function" and SLASH_AZFR1 == "/azfr", "commande /azfr enregistree")
 
+for _, f in ipairs(A.FAMILLES) do
+    if f.auto then
+        collectgarbage("collect")
+        local m, c0 = collectgarbage("count"), os.clock()
+        LoadAddOn(f.addon)
+        local d = (os.clock() - c0) * 1000
+        collectgarbage("collect")
+        MESURES_FAMILLES = MESURES_FAMILLES or {}
+        MESURES_FAMILLES[f.famille] = { charge = (collectgarbage("count") - m) / 1024, ms = d }
+    end
+end
 local t0 = os.clock()
 Declencher("PLAYER_LOGIN")
 local duree = (os.clock() - t0) * 1000
 collectgarbage("collect")
 local mem1 = collectgarbage("count")
-print(string.format("MESURE  connexion : familles auto chargees en %.0f ms ; memoire Lua %.1f Mo (avant : %.1f Mo)",
-    duree, mem1 / 1024, mem0 / 1024))
+local total_ms = 0
+for _, m in pairs(MESURES_FAMILLES or {}) do total_ms = total_ms + m.ms end
+print(string.format("MESURE  connexion : familles auto chargees en %.0f ms au total ; memoire Lua %.1f Mo (avant : %.1f Mo)",
+    total_ms + duree, mem1 / 1024, mem0 / 1024))
 for _, f in ipairs(A.FAMILLES) do
     if f.auto then noter(A.Charges[f.addon] == true, "famille chargee : " .. f.addon) end
 end
@@ -263,20 +276,30 @@ noter(A.Erreurs == 0, "aucune erreur evitee pendant les cas", A.DerniereErreur)
 local ok = pcall(A.Proteger("essai", function() error("boum") end))
 noter(ok and A.Erreurs == 1, "erreur dans un crochet : comptee, jamais visible")
 
--- Memoire : tout compile (pire cas) pour les familles chargees a la connexion.
-collectgarbage("collect")
-local avant = collectgarbage("count")
-local n = 0
-for famille, tables in pairs(A.Tables) do
+-- Memoire par famille : chargee (morceaux non compiles) puis tout compile (pire cas : le joueur
+-- aurait vu tous les textes de la famille).
+local function ToutCompiler(tables)
+    local n = 0
     for nom, t in pairs(tables) do
         local seaux = {}
         for s in pairs(t.morceaux) do seaux[#seaux + 1] = s end
         for _, s in ipairs(seaux) do t:Seau(s); n = n + 1 end
     end
+    return n
+end
+for _, f in ipairs(A.FAMILLES) do
+    local m = MESURES_FAMILLES and MESURES_FAMILLES[f.famille]
+    if m and A.Tables[f.famille] then
+        collectgarbage("collect")
+        local avant = collectgarbage("count")
+        local n = ToutCompiler(A.Tables[f.famille])
+        collectgarbage("collect")
+        print(string.format("MESURE  famille %-10s : chargee +%.1f Mo en %.0f ms ; tout compile : +%.1f Mo de plus (%d seaux)",
+            f.famille, m.charge, m.ms, (collectgarbage("count") - avant) / 1024, n))
+    end
 end
 collectgarbage("collect")
-print(string.format("MESURE  pire cas : %d seaux compiles en plus ; memoire Lua %.1f Mo (au lieu de %.1f Mo)",
-    n, collectgarbage("count") / 1024, avant / 1024))
+print(string.format("MESURE  familles de la connexion entierement compilees : memoire Lua %.1f Mo", collectgarbage("count") / 1024))
 
 -- Tranches d'objets : chacune chargee seule, memoire et duree.
 for _, f in ipairs(A.FAMILLES) do
@@ -284,13 +307,17 @@ for _, f in ipairs(A.FAMILLES) do
         collectgarbage("collect")
         local m0, c0 = collectgarbage("count"), os.clock()
         LoadAddOn(f.addon)
+        local d = (os.clock() - c0) * 1000
         collectgarbage("collect")
-        print(string.format("MESURE  %s (objets %d a %d) : +%.1f Mo, %.0f ms", f.addon, f.debut, f.fin,
-            (collectgarbage("count") - m0) / 1024, (os.clock() - c0) * 1000))
+        local m1 = collectgarbage("count")
+        local n = ToutCompiler({ O = A.Tables.objets.O })
+        collectgarbage("collect")
+        print(string.format("MESURE  %s (objets %d a %d) : chargee +%.1f Mo en %.0f ms",
+            f.addon, f.debut, f.fin, (m1 - m0) / 1024, d))
     end
 end
 collectgarbage("collect")
-print(string.format("MESURE  tout charge (sans compilation des objets) : memoire Lua %.1f Mo", collectgarbage("count") / 1024))
+print(string.format("MESURE  pire cas, tout charge et tout compile : memoire Lua %.1f Mo", collectgarbage("count") / 1024))
 
 print(string.format("\nBANC : %d OK, %d KO", resultats.ok, resultats.ko))
 os.exit(resultats.ko == 0 and 0 or 1)

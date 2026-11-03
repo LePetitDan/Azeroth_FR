@@ -73,7 +73,8 @@ A.Ecrits = setmetatable({}, { __mode = "k" })
 function A.Ecrire(zone, texte)
     if not zone or not texte then return false end
     zone:SetText(texte)
-    A.Ecrits[zone] = zone:GetText()
+    -- (la page des livres est un SimpleHTML : selon le client, il n'a pas toujours GetText)
+    A.Ecrits[zone] = (type(zone.GetText) == "function" and zone:GetText()) or texte
     A.Compteurs.traduits = A.Compteurs.traduits + 1
     return true
 end

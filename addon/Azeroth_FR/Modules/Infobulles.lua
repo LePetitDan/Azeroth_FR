@@ -2,8 +2,9 @@
 -- Azeroth_FR : infobulles d'objets (nom, description) et de creatures (nom, sous-titre).
 -- Par numero : lien de l'objet, numero de creature tire du GUID. Le francais n'est pose
 -- que si l'anglais affiche est bien celui qu'on a traduit (empreinte).
--- Les lignes fixes (« Lie quand ramasse », « Niveau 10 requis »…) viennent des textes
--- d'interface : c'est le paquet PTRXML qui les met en francais, pas l'add-on.
+-- Les lignes fixes (« Binds when picked up », « Requires Level 10 »…) viennent des textes
+-- d'interface : c'est le paquet PTRXML qui les mettra en francais, pas l'add-on. Dans
+-- l'essai 1 elles restent en anglais (pas encore de francais prouve dans la source).
 -- ============================================================================
 local A = AzerothFR
 local match, sub, len = string.match, string.sub, string.len
