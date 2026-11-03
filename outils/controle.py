@@ -148,8 +148,13 @@ REPONSE_IA = re.compile(
 INVISIBLES = re.compile('[\u200b\u200c\u200d\u2060\ufeff]')
 
 
-def controle_structure(en, fr):
-    """Controles qui ne dependent pas du glossaire. en, fr : textes bruts."""
+def controle_structure(en, fr, souple=False):
+    """Controles qui ne dependent pas du glossaire. en, fr : textes bruts.
+
+    souple=True (lignes officielles hors interface, donnees 0.2) : les ecarts de MISE EN FORME d'un texte officiel
+    correspondant sont acceptes : paragraphes $B en plus ou en moins, retours a la ligne, espaces ; un officiel
+    identique a l'anglais aussi (choix de Blizzard, rien a afficher). Le reste (nombres, $n $c $r, $g retire, %s,
+    codes couleur, anglais majoritaire…) reste un vrai desaccord."""
     r = []
     if K.nb_bouche_trous(fr) > K.nb_bouche_trous(en):
         r.append('bouche_trou')
@@ -167,6 +172,8 @@ def controle_structure(en, fr):
             if jf[k] < je[k]:
                 r.append('variables')
                 break
+        elif souple and k == '$b':
+            continue
         elif je[k] != jf[k]:
             r.append('variables')
             break
@@ -175,13 +182,14 @@ def controle_structure(en, fr):
             r.append('pourcent_nu')
     if K.codes(en_n) != K.codes(fr_n):
         r.append('codes_couleur_liens')
-    if en_n.count('\n') != fr_n.count('\n'):
+    if en_n.count('\n') != fr_n.count('\n') and not souple:
         r.append('sauts_de_ligne')
     if K.nombres(en_n) != K.nombres(fr_n):
         r.append('nombres')
     n, n_en = K.part_anglaise(fr_n)
     if fr_n == en_n and n_en >= 1:
-        r.append('reste_en_anglais')
+        if not souple:                  # officiel identique a l'anglais : choix de Blizzard (« Blizzard », « Paladin »), rien a afficher
+            r.append('reste_en_anglais')
     else:
         nu = K.denuder(K.ETI.sub(' ', fr_n))
         ne, nf = len(EN_STOP.findall(nu)), len(FR_STOP.findall(nu))
@@ -272,14 +280,15 @@ def controle_interface(en, fr):
 def controle(en, fr, etat='machine', regles=(), noms=None, type_=None):
     """Renvoie la liste des raisons de refus (vide = accepte).
 
-    - etat officiel : controles de structure seulement (la regle-mere : l'officiel gagne) ;
+    - etat officiel : controles de structure seulement (la regle-mere : l'officiel gagne), en mode souple : les
+      ecarts de mise en forme ($B, retours a la ligne, espaces) d'un texte officiel sont acceptes (donnees 0.2) ;
     - etats machine, relu, a_revoir : structure + glossaire + noms officiels ;
     - a_traduire / technique sans francais : rien a controler ;
     - type `chaine_interface` : en plus, le controle strict de controle_interface().
     """
     if not fr or not fr.strip():
         return ['vide'] if etat in K.ETATS_AFFICHES else []
-    r = controle_structure(en, fr)
+    r = controle_structure(en, fr, souple=(etat == 'officiel' and type_ not in TYPES_INTERFACE))
     if type_ in TYPES_INTERFACE:
         r += controle_interface(en, fr)
     if etat != 'officiel':

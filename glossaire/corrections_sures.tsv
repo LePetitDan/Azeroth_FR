@@ -34,7 +34,7 @@ Tableau d'appel (Tableau des appels)	(?i)call ?board	\bTableau des appels\b|\bPa
 tableau d'appel (tableau des appels)	(?i)call ?board	\btableau des appels\b|\bpanneau d'appels?\b|\btableau d'appels\b	tableau d'appel
 tableau d'appel (Call Board resté)	(?i)call ?board	(?<!KEYWORD:)\bCall ?Board\b	tableau d'appel
 Essence de talent	Talent Essence	\bTalent Essence\b	Essence de talent
-Rôdeur (classe)	\[Ranger\]	\[(?:Forestier|Ranger)\]	[Rôdeur]
+Rôdeur (classe)	\[Ranger\]	\[(?:Forestier|Ranger|Power Ranger)\]	[Rôdeur]
 Cultiste (classe)	\[Cultist\]	\[(?:Sectateur|Cultist)\]	[Cultiste]
 Gardien (classe)	\[Guardian\]	\[Guardian\]	[Gardien]
 Clé (Mythique+) : clé de voûte	Mythic(?:al)? Keystone|Keystone (?:Teleporter|Container)	\b[Cc]l[ée]f? de voûte\b	clé

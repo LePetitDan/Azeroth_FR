@@ -45,6 +45,7 @@ import commun as K  # noqa: E402
 import controle as C  # noqa: E402
 import officiel as O  # noqa: E402
 import vocabulaire as V  # noqa: E402
+import quetes_cata as Q  # noqa: E402
 
 csv.field_size_limit(1 << 30)
 D = K.COLLECTE
@@ -290,6 +291,84 @@ class Importeur:
                 parts.append('anglais que traduisait l\'archive : ' + cite(h['texte_en_archive']))
             l[K.I_NOTE] = joindre(l[K.I_NOTE], *parts)
             self.cr['a_revoir_indice_en_note'] += 1
+
+    # ------------------------------------------------------------------
+    # 2 bis. Donnees 0.2 : qualite des quetes « officielles » (textes de Cataclysm), TDB en second avis
+    # ------------------------------------------------------------------
+    TYPES_QUETES = ('quete', 'quete_demande', 'quete_recompense')
+
+    def verifier_quetes(self):
+        """Le francais « officiel » des quetes (AzerothCore, releve sur des clients recents) peut traduire le texte de
+        Cataclysm et non l'anglais WotLK de CoA (quete 783). outils/quetes_cata.py repere ces lignes : elles passent
+        a_revoir (raison en note), sauf si la base TrinityCore TDB a un francais different pour le meme anglais, qui
+        passe le controle : il les remplace (source trinitycore_frFR). Les textes sans francais sont combles par TDB
+        quand l'anglais de TDB est identique a celui de CoA."""
+        tdb = O.tdb_quetes()
+        noms = []
+        with open(os.path.join(K.GLOSSAIRE, 'noms_officiels.tsv'), encoding='utf-8') as f:
+            tete = None
+            for ligne in f:
+                p = ligne.rstrip('\n').split('\t')
+                if tete is None:
+                    tete = {c: j for j, c in enumerate(p)}
+                    continue
+                if p[tete['controle']] == 'oui':
+                    noms.append((K.desechapper(p[tete['en']]), K.desechapper(p[tete['fr']])))
+        off = [l for l in self.lignes.values() if l[K.I_TYPE] in self.TYPES_QUETES and l[K.I_ETAT] == 'officiel']
+        vus, avec = Counter(), Counter()                  # noms gardés tels quels en français (« Thrall », « McBride »)
+        for l in off:
+            en_nu, fr = Q._nu(l[K.I_EN]), l[K.I_FR]
+            for w in set(Q.MOT_NOM.findall(en_nu)):
+                vus[w] += 1
+                if w in fr:
+                    avec[w] += 1
+        gardes = {w for w, n in vus.items() if n >= 5 and avec[w] >= 0.95 * n and w.lower() not in K.EN_SEUL}
+        det = Q.Detecteur(noms, gardes)
+        self.detecteur_quetes = det
+        for l in off:
+            if l[K.I_CHAMP] == 'LogTitle':
+                continue
+            k = (l[K.I_TYPE], l[K.I_ID], l[K.I_CHAMP])
+            t = tdb.get(k)
+            fr_tdb = t[1] if t and t[1] and O.meme_anglais(t[0], l[K.I_EN]) else None
+            r = det.signaux(l[K.I_EN], l[K.I_FR], l[K.I_CHAMP], fr_tdb)
+            if not det.douteux(r):
+                continue
+            self.cr['quetes_officiel_douteux'] += 1
+            cat = 'pas_du_francais' if any(x.startswith('pas_du_francais') for x in r) else 'cataclysm_probable'
+            self.cr['quetes_officiel_douteux:' + cat] += 1
+            if fr_tdb and K.norm(fr_tdb) != K.norm(l[K.I_FR]) and not det.douteux(det.signaux(l[K.I_EN], fr_tdb, l[K.I_CHAMP])) \
+                    and not C.controle_structure(l[K.I_EN], fr_tdb):
+                ancien = l[K.I_FR]
+                l[K.I_FR], l[K.I_SRC] = fr_tdb, 'trinitycore_frFR'
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], 'français d\'AzerothCore douteux (%s) : remplacé par celui de la base TrinityCore '
+                                                   'TDB 335.25101 (même anglais) ; ancien : %s' % (', '.join(r), cite(ancien)))
+                self.cr['quetes_officiel_remplace_par_tdb'] += 1
+                continue
+            l[K.I_ETAT] = 'a_revoir'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], ('le « français officiel » d\'AzerothCore n\'est pas une traduction de ce texte '
+                                                if cat == 'pas_du_francais' else
+                                                'le « français officiel » d\'AzerothCore traduit sans doute un autre texte '
+                                                '(Cataclysm ou plus récent), pas l\'anglais WotLK de CoA ')
+                                  + '(contrôle des quêtes, données 0.2 : %s)' % ', '.join(r))
+            self.ex('quete_douteuse:' + cat, l, 8)
+        # quêtes standard sans français : TDB, si l'anglais de TDB est celui de CoA
+        for l in self.lignes.values():
+            if l[K.I_TYPE] not in self.TYPES_QUETES or l[K.I_ETAT] != 'a_traduire':
+                continue
+            t = tdb.get((l[K.I_TYPE], l[K.I_ID], l[K.I_CHAMP]))
+            if not (t and t[1] and O.meme_anglais(t[0], l[K.I_EN])):
+                continue
+            r = det.signaux(l[K.I_EN], t[1], l[K.I_CHAMP])
+            refus = C.controle_structure(l[K.I_EN], t[1])
+            if det.douteux(r) or refus:
+                self.cr['quetes_tdb_refuse'] += 1
+                continue
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = t[1], 'officiel', 'trinitycore_frFR'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'français de la base TrinityCore TDB 335.25101 (relevé client %s), même anglais que CoA'
+                                  % (t[2] or '?'))
+            self.cr['quetes_comblees_par_tdb:' + l[K.I_TYPE]] += 1
+        K.journal('import : quêtes officielles %s' % {k: v for k, v in self.cr.items() if k.startswith('quetes_')})
 
     # ------------------------------------------------------------------
     # 3. Client
@@ -963,6 +1042,7 @@ def main():
     imp = Importeur()
     imp.charger_relus()
     imp.importer_serveur()
+    imp.verifier_quetes()
     imp.importer_client()
     imp.importer_sorts_standard()
     imp.importer_dbc()
