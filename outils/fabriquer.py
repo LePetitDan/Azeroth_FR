@@ -12,10 +12,18 @@ Options :
 Ce qu'il fait :
 1. Lit `textes/` et ne garde que les lignes `officiel`, `machine` et `relu`. Chaque ligne repasse le
    controle d'entree (outils/controle.py) : une ligne qui echoue reste en anglais (elle n'est pas embarquee).
-2. Etiquettes `@…@` (decision de Dan : trancher apres un test en jeu) : l'essai 1 n'en traduit que TROIS
-   (Mythic N, Heroic Raid, Bloodforged) ; toutes les autres sont remises en anglais dans le francais embarque.
+2. Etiquettes `@…@` (decision de Dan : trancher apres un test en jeu) : l'essai n'en traduit que TROIS
+   (Mythic N, Heroic Raid, Bloodforged -> « forgé par le sang ») ; toutes les autres sont remises en anglais.
 3. Range les textes par famille, au format « paresseux » (voir plus bas), dans des add-ons LoadOnDemand :
    dist/Interface/AddOns/Azeroth_FR_<Famille>/ ; le coeur (addon/Azeroth_FR/) est copie a cote.
+   Familles fixes : quetes, dialogues, creatures, cris, pages, objets (par tranches de numeros).
+   Familles GENERIQUES (0.2) : tout autre fichier de `textes/` est lu ligne par ligne et range selon son
+   `type` et son `champ`, sans changer de format :
+     - sorts (types `sort…`, champs Name/Rank/Description/ToolTip/AuraDescription) : table par numero,
+       decoupee en tranches (Azeroth_FR_SortsNN), plus un index par « squelette » du texte anglais ;
+     - noms (factions, zones, competences, classes, races, sous-classes d'objets, ensembles…) : une table
+       par domaine, par texte anglais exact (Azeroth_FR_Noms).
+   Ainsi `textes/client/sorts_standard.tsv`, `factions.tsv`, `classes_races.tsv`… sont pris d'office.
 4. Fabrique le paquet `dist/Interface/PTRXML/` (textes d'interface, charge par le jeu lui-meme).
 5. Compte les constantes de chaque fichier a l'ecriture (jamais plus de 200 000, limite Lua 5.1 : 262 143),
    verifie chaque fichier avec `luac5.1 -p` et compile chaque morceau paresseux avec `lua5.1`.
@@ -26,11 +34,13 @@ seau) ; le premier acces a une cle compile son seau (loadstring) et jette le mor
 memoire compilee que ce que le joueur a vraiment vu, et chaque fichier ne compte qu'une constante par seau.
 
 Deux sortes de tables :
-- par NUMERO (objets, creatures, titres de quetes) : seau = numero // 512 ;
-- par TEXTE ANGLAIS (dialogues, quetes, cris, pages) : la cle est une empreinte de 51 bits de l'anglais
-  « canonique » (variables $n $r $c remplacees par des marqueurs, $g developpe au masculin et au feminin,
-  $b en retour a la ligne, espaces resserres). L'anglais lui-meme n'est pas embarque. Le jeu calcule la
-  meme empreinte sur le texte affiche (meme fonction, en Lua, dans Azeroth_FR/Core.lua).
+- par NUMERO (objets, creatures, quetes, sorts) : seau = numero // 512 ;
+- par TEXTE ANGLAIS (dialogues, quetes, cris, pages, noms) : la cle est une empreinte de 51 bits de
+  l'anglais « canonique » (variables $n $r $c remplacees par des marqueurs, $g developpe au masculin et au
+  feminin, $b en retour a la ligne, espaces resserres). L'anglais lui-meme n'est pas embarque. Le jeu
+  calcule la meme empreinte sur le texte affiche (meme fonction, en Lua, dans Azeroth_FR/Core.lua).
+Exception voulue : les descriptions de sorts A NOMBRES gardent leur modele anglais ($s1, $d…), seul moyen
+de retrouver les nombres calcules par le client (alignement, comme l'ancien AscensionFR).
 """
 import hashlib
 import json
@@ -56,6 +66,7 @@ MAX_CONSTANTES = 200000          # par fichier (limite reelle de Lua 5.1 : 262 1
 TAILLE_FICHIER = 3 * 1024 * 1024  # un fichier de donnees ne depasse pas ~3 Mo
 SEAU_ID = 512                    # numeros par seau
 CLES_PAR_SEAU_TEXTE = 256        # cles par seau (tables par texte)
+SORTS_AUTO_MAX = 4 * 1024 * 1024  # sorts charges a la connexion si leurs donnees font moins de 4 Mo
 
 # ---------------------------------------------------------------------------
 # Empreinte (IDENTIQUE a AzerothFR.Empreinte dans addon/Azeroth_FR/Core.lua)
@@ -112,13 +123,54 @@ def formes_canoniques(en):
 
 
 # ---------------------------------------------------------------------------
-# Etiquettes @…@ : trois seulement sont traduites dans l'essai 1 (decision de Dan : tester en jeu)
+# Textes de sorts : forme « plate » et « squelette » (IDENTIQUES a A.Plat / A.Squelette en Lua)
+# ---------------------------------------------------------------------------
+RX_COUL = re.compile(r'\|c[0-9A-Fa-f]{8}')
+RX_BLANCS = re.compile(r'[ \t\n\r\f\v]+')      # meme ensemble que %s du Lua (locale C)
+UNITES_SQ = r'(?:seconds|second|secs|sec|minutes|minute|mins|min|hours|hour|hrs|hr|days|day)'
+RX_UNITE = re.compile(r'#[ \t\n\r\f\v]*' + UNITES_SQ + r'(?![A-Za-z])')
+RX_A = re.compile(r'#[ \t\n\r\f\v]+to[ \t\n\r\f\v]+#')
+# Variables d'un modele de sort (meme liste de motifs que MOTIFS_VARIABLE dans Modules/Sorts.lua)
+RX_VAR_SORT = re.compile(r'\$\{[^{}]*\}|\$[/*+\-]\d+;\d*[A-Za-z]\d*|\$<[A-Za-z]+>|\$@[A-Za-z]+\d*|'
+                         r'\$\d+[A-Za-z]\d*|\$[A-Za-z]{1,4}\*\d+(?:\.\d+)?|\$[A-Za-z]\d*|\$\d+')
+
+
+def plat(t):
+    t = RX_COUL.sub('', t).replace('|r', '')
+    return RX_BLANCS.sub(' ', t).strip(' ')
+
+
+def squelette(t):
+    """Squelette d'un texte de sort AFFICHE : nombres -> #, durees et plages resserrees, espaces resserres."""
+    t = RX_COUL.sub('', t).replace('|r', '')
+    t = re.sub(r'\d+', '#', t)
+    while True:
+        t2 = t.replace('#.#', '#').replace('#,#', '#')
+        if t2 == t:
+            break
+        t = t2
+    t = RX_A.sub('#', t)
+    t = RX_UNITE.sub('#', t)
+    return RX_BLANCS.sub(' ', t).strip(' ')
+
+
+def squelette_modele(en):
+    """Squelette d'un MODELE anglais (variables -> #) ; None si le modele a des formes non previsibles."""
+    if re.search(r'\$\?|\$[LlGg][^;]*;|@', en):
+        return None
+    return squelette(RX_VAR_SORT.sub('#', en))
+
+
+# ---------------------------------------------------------------------------
+# Etiquettes @…@ : trois seulement sont traduites dans l'essai (decision de Dan : tester en jeu)
 # ---------------------------------------------------------------------------
 ETIQUETTES_ESSAI = [
     (re.compile(r'^@Mythic (\d+)@$'), r'@Mythique \1@'),
     (re.compile(r'^@Heroic Raid@$'), '@Raid héroïque@'),
-    (re.compile(r'^@\|cFFCC0000Bloodforged\|r@$'), '@|cFFCC0000Forgé par le sang|r@'),
+    (re.compile(r'^@\|cFFCC0000Bloodforged\|r@$'), '@|cFFCC0000forgé par le sang|r@'),
 ]
+# Objets reels du serveur portant chacun une des trois etiquettes (commande /azfr etiquettes)
+OBJETS_ETIQUETTES = [(46425, 'Mythic 5'), (100067, 'Heroic Raid'), (100038, 'Bloodforged')]
 
 
 def etiquette_essai(tag_en):
@@ -151,6 +203,53 @@ def normaliser_etiquettes(en, fr, cpt):
 
 
 # ---------------------------------------------------------------------------
+# Gabarits d'interface utiles a l'add-on (messages de la discussion, objectifs, prefixes d'objets).
+# (cle GlobalStrings, nature de chaque argument dans l'ordre, evenements de discussion)
+# Natures : q titre de quete, b nom d'objectif, f faction, c creature, z zone, o objet, s sort, k competence,
+#           a somme d'argent, r rang de reputation, j joueur (laisse tel quel), n nombre ou texte laisse tel quel.
+# L'anglais et le francais viennent de textes/client/interface.tsv ; le francais seulement s'il est affichable.
+# ---------------------------------------------------------------------------
+GABARITS = [
+    ('ERR_QUEST_ACCEPTED_S', 'q', 'SYSTEM'), ('ERR_QUEST_COMPLETE_S', 'q', 'SYSTEM'),
+    ('ERR_QUEST_FAILED_S', 'q', 'SYSTEM'), ('ERR_QUEST_OBJECTIVE_COMPLETE_S', 'b', 'SYSTEM'),
+    ('ERR_QUEST_REWARD_EXP_I', 'n', 'SYSTEM'), ('ERR_QUEST_REWARD_MONEY_S', 'a', 'SYSTEM'),
+    ('ERR_QUEST_REWARD_ITEM_S', 'o', 'SYSTEM'), ('ERR_QUEST_REWARD_ITEM_MULT_IS', 'no', 'SYSTEM'),
+    ('ERR_LEARN_SPELL_S', 's', 'SYSTEM'), ('ERR_LEARN_ABILITY_S', 's', 'SYSTEM'),
+    ('ERR_LEARN_RECIPE_S', 's', 'SYSTEM'), ('ERR_SKILL_GAINED_S', 'k', 'SYSTEM'),
+    ('ERR_SKILL_UP_SI', 'kn', 'SYSTEM SKILL'), ('SKILL_RANK_UP', 'kn', 'SKILL SYSTEM'),
+    ('ERR_ZONE_EXPLORED', 'z', 'SYSTEM'), ('ERR_ZONE_EXPLORED_XP', 'zn', 'SYSTEM'),
+    ('ERR_DEATHBIND_SUCCESS_S', 'z', 'SYSTEM'), ('ERR_NEWTAXIPATH', '', 'SYSTEM'),
+    ('ERR_QUEST_UNKNOWN_COMPLETE', '', 'SYSTEM'), ('LEVEL_UP', 'n', 'SYSTEM'),
+    ('ERR_EXHAUSTION_RESTED', '', 'SYSTEM'), ('ERR_EXHAUSTION_NORMAL', '', 'SYSTEM'),
+    ('FACTION_STANDING_INCREASED', 'fn', 'COMBAT_FACTION_CHANGE SYSTEM'),
+    ('FACTION_STANDING_DECREASED', 'fn', 'COMBAT_FACTION_CHANGE SYSTEM'),
+    ('FACTION_STANDING_CHANGED', 'rf', 'COMBAT_FACTION_CHANGE SYSTEM'),
+    ('COMBATLOG_XPGAIN_FIRSTPERSON', 'cn', 'COMBAT_XP_GAIN'),
+    ('COMBATLOG_XPGAIN_FIRSTPERSON_GROUP', 'cnn', 'COMBAT_XP_GAIN'),
+    ('COMBATLOG_XPGAIN_FIRSTPERSON_RAID', 'cnn', 'COMBAT_XP_GAIN'),
+    ('COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED', 'n', 'COMBAT_XP_GAIN'),
+    ('COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED_GROUP', 'nn', 'COMBAT_XP_GAIN'),
+    ('COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED_RAID', 'nn', 'COMBAT_XP_GAIN'),
+    ('COMBATLOG_XPGAIN_QUEST', 'nnn', 'COMBAT_XP_GAIN'),
+] + [('COMBATLOG_XPGAIN_EXHAUSTION%d%s' % (i, s), 'cnnn' + ('n' if s else ''), 'COMBAT_XP_GAIN')
+     for i in (1, 2, 4, 5) for s in ('', '_GROUP', '_RAID')] + [
+    ('COMBATLOG_HONORGAIN', 'cnn', 'COMBAT_HONOR_GAIN'),
+    ('LOOT_ITEM_SELF', 'o', 'LOOT'), ('LOOT_ITEM_SELF_MULTIPLE', 'on', 'LOOT'),
+    ('LOOT_ITEM_PUSHED_SELF', 'o', 'LOOT'), ('LOOT_ITEM_PUSHED_SELF_MULTIPLE', 'on', 'LOOT'),
+    ('LOOT_ITEM_CREATED_SELF', 'o', 'LOOT'), ('LOOT_ITEM_CREATED_SELF_MULTIPLE', 'on', 'LOOT'),
+    ('LOOT_ITEM', 'jo', 'LOOT'), ('LOOT_ITEM_MULTIPLE', 'jon', 'LOOT'), ('LOOT_ROLL_WON', 'jo', 'LOOT'),
+    ('TRADESKILL_LOG_FIRSTPERSON', 'o', 'TRADESKILLS'),
+    ('YOU_LOOT_MONEY', 'a', 'MONEY'), ('LOOT_MONEY_SPLIT', 'a', 'MONEY'),
+    ('GOLD_AMOUNT', 'n', 'argent'), ('SILVER_AMOUNT', 'n', 'argent'), ('COPPER_AMOUNT', 'n', 'argent'),
+    ('QUEST_MONSTERS_KILLED', 'bnn', 'objectif'), ('QUEST_ITEMS_NEEDED', 'bnn', 'objectif'),
+    ('QUEST_OBJECTS_FOUND', 'bnn', 'objectif'), ('QUEST_PLAYERS_KILLED', 'nn', 'objectif'),
+    ('QUEST_FACTION_NEEDED', 'frr', 'objectif'), ('COMPLETE', '', 'objectif'), ('QUEST_DASH', '', 'objectif'),
+    ('ITEM_SPELL_TRIGGER_ONUSE', '', 'prefixe'), ('ITEM_SPELL_TRIGGER_ONEQUIP', '', 'prefixe'),
+    ('ITEM_SPELL_TRIGGER_ONPROC', '', 'prefixe'), ('ITEM_SET_NAME', 'enn', 'objet'),
+] + [('FACTION_STANDING_LABEL%d%s' % (i, s), '', 'etiquette') for i in range(1, 9) for s in ('', '_FEMALE')]
+
+
+# ---------------------------------------------------------------------------
 # Ecriture Lua
 # ---------------------------------------------------------------------------
 def lua_chaine(s):
@@ -177,12 +276,14 @@ def lua_chaine(s):
 def lua_valeur(v):
     if v is None or v is False:
         return b'false'
-    if isinstance(v, bool):
+    if v is True:
         return b'true'
     if isinstance(v, int):
         return str(v).encode()
     if isinstance(v, (list, tuple)):
         return b'{' + b','.join(lua_valeur(x) for x in v) + b'}'
+    if isinstance(v, dict):
+        return b'{' + b','.join(b'[' + lua_valeur(k) + b']=' + lua_valeur(x) for k, x in sorted(v.items())) + b'}'
     return lua_chaine(v)
 
 
@@ -202,7 +303,7 @@ def constantes_morceau(entrees):
         if isinstance(v, (list, tuple)):
             for x in v:
                 ajouter(x)
-        elif v is not None and v is not False:
+        elif v is not None and v is not False and v is not True:
             vus.add(v)
     for k, v in entrees:
         vus.add(k)
@@ -218,6 +319,12 @@ class Table:
         self.entrees = {}
         self.seaux_texte = {}       # cle -> seau (tables par texte)
         self.nb_seaux = 1
+
+    def ajouter_cle(self, texte, valeur):
+        k, h2 = cle_texte(texte)
+        self.seaux_texte[k] = h2
+        self.entrees[k] = valeur
+        return k
 
     def morceaux(self):
         seaux = defaultdict(list)
@@ -247,7 +354,24 @@ FAMILLES_ADDON = [
     ('pages', ['serveur/pages_courriers.tsv'], 'Livres et courriers', True),
     ('objets', ['serveur/objets'], 'Objets', False),
 ]
+# Fichiers jamais lus par la partie generique : deja traites ci-dessus, l'interface (PTRXML), ou hors du
+# champ de l'add-on (hauts faits, messages techniques du serveur, objets du monde).
+HORS_GENERIQUE = {'serveur/quetes.tsv', 'serveur/dialogues.tsv', 'serveur/creatures.tsv',
+                  'serveur/broadcast_cris.tsv', 'serveur/pages_courriers.tsv', 'client/interface.tsv',
+                  'client/hauts_faits.tsv', 'serveur/messages_serveur.tsv', 'serveur/cpp_en_dur.tsv',
+                  'serveur/manastorm.tsv', 'serveur/objets_monde.tsv'}
+CHAMPS_SORT = {'name': 'n', 'rank': 'r', 'description': 'd', 'tooltip': 't', 'auradescription': 't'}
+CHAMPS_NOM = re.compile(r'^(name|nom|title|titre|area_name|label|libelle)(_?(female|feminin|f|m|male|masculin))?\d*$',
+                        re.I)
+# domaine d'un nom : premier mot trouve dans le type, puis dans le nom du fichier
+DOMAINES = [('sous_classe', 'sous_classe'), ('subclass', 'sous_classe'), ('faction', 'faction'),
+            ('competence', 'competence'), ('skill', 'competence'), ('ensemble', 'ensemble'),
+            ('zone', 'zone'), ('carte', 'zone'), ('area', 'zone'), ('point_interet', 'zone'), ('wmo', 'zone'),
+            ('classe', 'classe'), ('class', 'classe'), ('race', 'race')]
+TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe': 'NSC', 'ensemble': 'NE',
+               'classe': 'NCL', 'race': 'NRA', 'divers': 'NX', 'rang': 'RG'}
 CHAMPS_QUETE_TITRE = ('LogTitle',)
+TYPES_QUETE_ID = ('quete', 'quete_demande', 'quete_recompense')
 PRIO = {'relu': 3, 'officiel': 2, 'machine': 1}
 GENRE_PREFIXE = {'m': '\x02', 'f': '\x03'}
 
@@ -261,12 +385,31 @@ RACES_OFFICIELLES = {
 }
 
 
+def domaine_nom(rel, typ):
+    for cible in (typ.lower(), os.path.basename(rel).lower()):
+        for mot, dom in DOMAINES:
+            if mot in cible:
+                return dom
+    return 'divers'
+
+
+def est_feminin(champ):
+    return bool(re.search(r'(female|feminin|_f)\d*$', champ, re.I))
+
+
+def est_sort(typ, champ):
+    """Types « sort », « sort_standard », « sort_dbc_serveur », « coa_description_sort_client »…"""
+    return 'sort' in typ.lower() and champ.lower() in CHAMPS_SORT
+
+
 class Fabrique:
     def __init__(self, version):
         self.version = version
         self.cpt = defaultdict(Counter)        # famille -> compteurs
         self.refus = defaultdict(Counter)      # famille -> raisons de refus
         self.textes = defaultdict(set)         # famille -> anglais distincts embarques
+        self.classes, self.classes_f = {}, {}
+        self.races = {k: list(v) for k, v in RACES_OFFICIELLES.items()}
         K.charger_lexique()
         self.regles = C.charger_regles()
         self.noms = C.charger_noms()
@@ -301,16 +444,19 @@ class Fabrique:
 
     # -- tables par texte --------------------------------------------------
     def ajouter_texte(self, table, en, fr, etat, cands, titre=False):
+        """Renvoie la liste des cles ajoutees (vide si le texte n'est pas reconnaissable par l'add-on)."""
         formes = formes_canoniques(en)
         if not formes or RX_VAR_INCONNUE.search(RX_G.sub('', fr)):
             self.cpt[table.famille]['variable_non_geree'] += 1
-            return False
+            return []
+        cles = []
         for forme, genre in formes:
             k, h2 = cle_texte(forme)
             table.seaux_texte[k] = h2
             val = (GENRE_PREFIXE[genre] + fr) if genre else fr
             cands[k].append((PRIO[etat], val, titre))
-        return True
+            cles.append(k)
+        return cles
 
     def resoudre(self, table, cands):
         """Une cle -> une valeur : la meilleure priorite ; a egalite la plus frequente.
@@ -328,12 +474,10 @@ class Fabrique:
             table.entrees[k] = meilleurs.most_common(1)[0][0]
 
     # -- familles ----------------------------------------------------------
-    def famille_texte(self, famille, rels, nom_table, types_champs=None):
+    def famille_texte(self, famille, rels, nom_table):
         t = Table(famille, nom_table, 'texte')
         cands = defaultdict(list)
         for l, fr in self.lignes(famille, rels):
-            if types_champs and (l[K.I_TYPE], l[K.I_CHAMP]) not in types_champs and l[K.I_TYPE] not in types_champs:
-                continue
             if self.ajouter_texte(t, l[K.I_EN], fr, l[K.I_ETAT], cands):
                 self.cpt[famille]['lignes_embarquees'] += 1
                 self.textes[famille].add(l[K.I_EN])
@@ -341,18 +485,38 @@ class Fabrique:
         return [t]
 
     def famille_quetes(self):
+        """QT : texte -> francais ; QI : numero -> {titre fr, empreinte du titre anglais, cles des textes de la
+        quete} ; QN : titre anglais -> numeros des quetes de ce titre (fenetre de quete : pas de numero)."""
         qt = Table('quetes', 'QT', 'texte')
         qi = Table('quetes', 'QI', 'id')
+        qn = Table('quetes', 'QN', 'texte')
         cands = defaultdict(list)
+        titres_fr, cles_quete = {}, defaultdict(list)
         for l, fr in self.lignes('quetes', FAMILLES_ADDON[0][1]):
             titre = l[K.I_TYPE] == 'quete' and l[K.I_CHAMP] in CHAMPS_QUETE_TITRE
-            if self.ajouter_texte(qt, l[K.I_EN], fr, l[K.I_ETAT], cands, titre):
+            cles = self.ajouter_texte(qt, l[K.I_EN], fr, l[K.I_ETAT], cands, titre)
+            if cles:
                 self.cpt['quetes']['lignes_embarquees'] += 1
                 self.textes['quetes'].add(l[K.I_EN])
-                if titre:
-                    qi.entrees[int(l[K.I_ID])] = [fr, empreintes(l[K.I_EN])[0]]
+                if l[K.I_TYPE] in TYPES_QUETE_ID:
+                    cles_quete[int(l[K.I_ID])].extend(cles)
+            if titre:
+                titres_fr[int(l[K.I_ID])] = fr
         self.resoudre(qt, cands)
-        return [qt, qi]
+        # titres anglais de toutes les quetes (meme sans francais : le numero sert aux autres textes)
+        ls, _ = K.lire_tsv(os.path.join(K.TEXTES, 'serveur', 'quetes.tsv'))
+        par_titre = defaultdict(list)
+        for l in ls:
+            if l[K.I_TYPE] == 'quete' and l[K.I_CHAMP] in CHAMPS_QUETE_TITRE and l[K.I_EN]:
+                i = int(l[K.I_ID])
+                if i in titres_fr or i in cles_quete:
+                    cles = sorted(set(cles_quete.get(i, [])))
+                    qi.entrees[i] = [titres_fr.get(i, False), empreintes(l[K.I_EN])[0], cles]
+                    par_titre[canon(l[K.I_EN])].append(i)
+        for t, ids in par_titre.items():
+            qn.ajouter_cle(t, sorted(ids))
+        self.cpt['quetes']['titres_homonymes'] = sum(1 for ids in par_titre.values() if len(ids) > 1)
+        return [qt, qi, qn]
 
     def famille_creatures(self):
         c = Table('creatures', 'C', 'id')
@@ -396,12 +560,108 @@ class Fabrique:
             o.entrees[i] = r if r[2] is not False else r[:2]
         return [o]
 
-    def classes(self):
-        out = {}
-        for l, fr in self.lignes('classes', ['client/talents.tsv']):
-            if l[K.I_TYPE] == 'classe' and l[K.I_CHAMP] == 'name':
-                out[l[K.I_EN]] = fr
-        return out
+    # -- partie generique : sorts et noms ----------------------------------
+    def generique(self):
+        """Lit tous les autres fichiers de textes/ ; renvoie (table des sorts, index des sorts, tables de noms)."""
+        sorts = defaultdict(lambda: {'n': None, 'r': None, 'd': [], 't': []})
+        noms = defaultdict(lambda: defaultdict(list))      # domaine -> anglais -> [(prio, fr)]
+        noms_f = defaultdict(lambda: defaultdict(list))
+        fichiers = []
+        for f in K.fichiers_textes():
+            rel = os.path.relpath(f, K.TEXTES).replace('\\', '/')
+            if rel in HORS_GENERIQUE or rel.startswith('serveur/objets/'):
+                continue
+            fichiers.append(rel)
+        self.fichiers_generiques = fichiers
+        for rel in fichiers:
+            fam = os.path.splitext(os.path.basename(rel))[0]
+            for l, fr in self.lignes(fam, [rel]):
+                typ, champ, en = l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN]
+                prio = PRIO[l[K.I_ETAT]]
+                if est_sort(typ, champ):
+                    try:
+                        i = int(l[K.I_ID])
+                    except ValueError:
+                        self.cpt[fam]['sort_sans_numero'] += 1
+                        continue
+                    quoi = CHAMPS_SORT[champ.lower()]
+                    s = sorts[i]
+                    if quoi in ('n', 'r'):
+                        if s[quoi] is None or prio > s[quoi][0]:
+                            s[quoi] = (prio, fr, en)
+                        if quoi == 'r':
+                            noms['rang'][en].append((prio, fr))
+                    else:
+                        if all(v[2] != en for v in s[quoi]):
+                            s[quoi].append((prio, fr, en))
+                    self.cpt[fam]['lignes_embarquees'] += 1
+                    self.cpt['sorts']['lignes_embarquees'] += 1
+                    self.textes['sorts'].add(en)
+                elif CHAMPS_NOM.match(champ) and len(en) <= 120 and '\n' not in en and '$' not in en:
+                    dom = domaine_nom(rel, typ)
+                    (noms_f if est_feminin(champ) else noms)[dom][en].append((prio, fr))
+                    self.cpt[fam]['lignes_embarquees'] += 1
+                    self.cpt['noms']['lignes_embarquees_' + dom] += 1
+                    self.textes['noms'].add(en)
+                else:
+                    self.cpt[fam]['ignoree_champ_' + champ] += 1
+        # -- noms : une table par domaine --
+        tables_noms = []
+        for dom in sorted(set(noms) | set(noms_f)):
+            t = Table('noms', TABLES_NOMS[dom], 'texte')
+            for en, cs in noms[dom].items():
+                t.ajouter_cle(en, max(cs)[1])
+            tables_noms.append(t)
+            for en, cs in noms_f[dom].items():
+                fr = max(cs)[1]
+                if dom == 'classe':
+                    self.classes_f[en] = fr
+                elif dom == 'race':
+                    self.races.setdefault(en, [fr, fr])[1] = fr
+            if dom == 'classe':
+                for en, cs in noms[dom].items():
+                    self.classes[en] = max(cs)[1]
+            elif dom == 'race':
+                for en, cs in noms[dom].items():
+                    fr = max(cs)[1]
+                    r = self.races.setdefault(en, [fr, fr])
+                    r[0] = fr
+                    if en not in noms_f['race'] and en not in RACES_OFFICIELLES:
+                        r[1] = fr
+            self.cpt['noms']['entrees_' + dom] = len(t.entrees)
+        # -- sorts : par numero ; index par squelette --
+        s_tab = Table('sorts', 'S', 'id')
+        index = defaultdict(list)
+        sk = Table('sorts_index', 'SK', 'texte')
+
+        def modele(en):
+            """Le modele anglais n'est garde que s'il porte des variables, des marqueurs ou des nombres ;
+            sinon son empreinte suffit (verification par texte exact)."""
+            if re.search(r'[$@\d]', en):
+                return en
+            return empreintes(plat(en))[0]
+
+        for i, s in sorted(sorts.items()):
+            n = s['n']
+            r = s['r']
+            ds, ts = [], []
+            for quoi, out in (('d', ds), ('t', ts)):
+                for _, fr, en in sorted(s[quoi], key=lambda v: -v[0])[:2]:
+                    out += [fr, modele(en)]
+                    sq = squelette_modele(en)
+                    if sq and len(sq) >= 12 and i not in index[sq] and len(index[sq]) < 4:
+                        index[sq].append(i)
+            s_tab.entrees[i] = [n[1] if n else False, empreintes(n[2])[0] if n else 0,
+                                r[1] if r else False, empreintes(r[2])[0] if r else 0,
+                                ds or False, ts or False]
+            self.cpt['sorts']['noms' if n else 'sans_nom'] += 1
+            if ds:
+                self.cpt['sorts']['avec_description'] += 1
+        for sq, ids in index.items():
+            sk.ajouter_cle(sq, ids)
+        self.cpt['sorts']['entrees'] = len(s_tab.entrees)
+        self.cpt['sorts']['index_squelettes'] = len(sk.entrees)
+        return s_tab, sk, tables_noms
 
     def interface(self):
         out = []
@@ -487,19 +747,41 @@ def ecrire_toc(dossier, nom_addon, titre, notes, version, fichiers, lod=True, de
         f.write('\n'.join(lignes) + '\n')
 
 
-def tranches_objets(table, max_octets=TAILLE_FICHIER * 2):
-    """Decoupe la table des objets en tranches de numeros CONTIGUES (un add-on par tranche, ~6 Mo au plus)."""
+def tranches(table, max_octets=TAILLE_FICHIER * 2):
+    """Decoupe une table par numero en tranches de numeros CONTIGUES (un add-on par tranche, ~6 Mo au plus)."""
     ms = table.morceaux()
-    tranches, cur, taille = [], [], 0
+    out, cur, taille = [], [], 0
     for m in ms:
         if cur and taille + len(m[1]) > max_octets:
-            tranches.append(cur)
+            out.append(cur)
             cur, taille = [], 0
         cur.append(m)
         taille += len(m[1])
     if cur:
-        tranches.append(cur)
-    return tranches
+        out.append(cur)
+    return out
+
+
+def ecrire_tranches(addons, famille, prefixe_addon, titre, table, version, bilan, auto):
+    """Un add-on par tranche de numeros ; renvoie les entrees de A.FAMILLES."""
+    out = []
+    for i, tr in enumerate(tranches(table), 1):
+        debut = tr[0][0] * SEAU_ID
+        fin = (tr[-1][0] + 1) * SEAU_ID - 1
+        nom_addon = '%s%02d' % (prefixe_addon, i)
+        sous = Table(table.famille, table.nom, 'id')
+        for s, _, _, _ in tr:
+            for k in range(s * SEAU_ID, (s + 1) * SEAU_ID):
+                if k in table.entrees:
+                    sous.entrees[k] = table.entrees[k]
+        d = os.path.join(addons, nom_addon)
+        fs = ecrire_donnees(d, 'Donnees', [sous], version, '%s %d à %d' % (famille, debut, fin), bilan)
+        ecrire_toc(d, nom_addon, 'Azeroth_FR - %s %d à %d (données)' % (titre, debut, fin),
+                   '%s (chargé à la demande par Azeroth_FR)' % titre, version, fs)
+        bilan['tranches'].append({'famille': famille, 'addon': nom_addon, 'debut': debut, 'fin': fin,
+                                  'entrees': len(sous.entrees)})
+        out.append({'famille': famille, 'addon': nom_addon, 'auto': auto, 'debut': debut, 'fin': fin})
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -555,7 +837,7 @@ def verifier_lua(racine, bilan):
             r = subprocess.run([luac, '-p', p], capture_output=True, text=True)
             if r.returncode != 0:
                 raise SystemExit('ERREUR luac5.1 -p : %s\n%s' % (rel, r.stderr))
-            # constantes reelles de la fonction principale (luac -l)
+            # constantes reelles de chaque fonction (luac -l)
             r = subprocess.run([luac, '-l', '-p', p], capture_output=True, text=True)
             m = re.search(r'(\d+) constants?', r.stdout)
             consts = int(m.group(1)) if m else -1
@@ -564,6 +846,7 @@ def verifier_lua(racine, bilan):
                 raise SystemExit('ERREUR : %s a une fonction de %d constantes (> %d)' % (rel, maxc, MAX_CONSTANTES))
             info = bilan['fichiers'].setdefault(os.path.join(*rel.split('/')[-2:]), {})
             info['constantes_luac'] = consts
+            info['constantes_luac_max_fonction'] = maxc
             if '/Azeroth_FR_' in '/' + rel and os.path.basename(p).startswith('Donnees'):
                 r = subprocess.run([lua, verif, p], capture_output=True, text=True)
                 if r.returncode != 0:
@@ -572,6 +855,7 @@ def verifier_lua(racine, bilan):
                 info['morceaux_compiles'] = int(nm)
                 info['entrees_compilees'] = int(ne)
             n += 1
+    bilan['fichiers_lua_verifies'] = n
     K.journal('fabrique : %d fichiers Lua vérifiés avec luac5.1 -p (et morceaux compilés avec lua5.1)' % n,
               os.path.join(TRAVAIL, 'journal.txt'))
 
@@ -606,6 +890,23 @@ def journal(msg):
     K.journal(msg, os.path.join(TRAVAIL, 'journal.txt'))
 
 
+def gabarits_lua(fab, inter_fr):
+    """A.GABARITS : cle -> {anglais, francais ou false, natures des arguments, evenements}."""
+    ls, _ = K.lire_tsv(os.path.join(K.TEXTES, 'client', 'interface.tsv'))
+    en_par_cle = {l[K.I_ID]: l[K.I_EN] for l in ls}
+    out = []
+    for cle, natures, evs in GABARITS:
+        en = en_par_cle.get(cle)
+        if en is None:
+            fab.cpt['gabarits']['absent_de_l_interface'] += 1
+            continue
+        fr = inter_fr.get(cle, False)
+        fab.cpt['gabarits']['avec_francais' if fr else 'sans_francais'] += 1
+        out.append(b'{' + b','.join([b'cle=' + lua_chaine(cle), b'en=' + lua_chaine(en), b'fr=' + lua_valeur(fr),
+                                     b't=' + lua_chaine(natures), b'ev=' + lua_chaine(evs)]) + b'}')
+    return b'A.GABARITS = {\n' + b',\n'.join(out) + b'\n}\n'
+
+
 def main():
     args = sys.argv[1:]
     version = lire_version()
@@ -616,7 +917,7 @@ def main():
     journal('fabrique : début, version %s' % version)
     fab = Fabrique(version)
     bilan = {'version': version, 'date': time.strftime('%Y-%m-%d %H:%M'), 'familles': {}, 'tables': {}, 'fichiers': {},
-             'objets_tranches': []}
+             'tranches': []}
 
     if os.path.isdir(DIST):
         shutil.rmtree(DIST)
@@ -639,23 +940,9 @@ def main():
         elif famille == 'pages':
             tables = fab.famille_texte(famille, rels, 'PT')
         if famille == 'objets':
-            o = tables[0]
-            for i, tr in enumerate(tranches_objets(o), 1):
-                debut = tr[0][0] * SEAU_ID
-                fin = (tr[-1][0] + 1) * SEAU_ID - 1
-                nom_addon = 'Azeroth_FR_Objets%02d' % i
-                sous = Table('objets', 'O', 'id')
-                for s, _, _, _ in tr:
-                    for k in range(s * SEAU_ID, (s + 1) * SEAU_ID):
-                        if k in o.entrees:
-                            sous.entrees[k] = o.entrees[k]
-                d = os.path.join(addons, nom_addon)
-                fs = ecrire_donnees(d, 'Donnees', [sous], version, 'objets %d à %d' % (debut, fin), bilan)
-                ecrire_toc(d, nom_addon, 'Azeroth_FR - Objets %d à %d (données)' % (debut, fin),
-                           'Noms et descriptions des objets (chargé à la demande par Azeroth_FR)', version, fs)
-                bilan['objets_tranches'].append({'addon': nom_addon, 'debut': debut, 'fin': fin, 'objets': len(sous.entrees)})
-                familles_lua.append({'famille': 'objets', 'addon': nom_addon, 'auto': False, 'debut': debut, 'fin': fin})
-            bilan['tables']['objets.O_total'] = {'entrees': len(o.entrees)}
+            familles_lua += ecrire_tranches(addons, 'objets', 'Azeroth_FR_Objets', 'Objets', tables[0], version,
+                                            bilan, False)
+            bilan['tables']['objets.O_total'] = {'entrees': len(tables[0].entrees)}
         else:
             nom_addon = 'Azeroth_FR_' + famille.capitalize()
             d = os.path.join(addons, nom_addon)
@@ -667,10 +954,41 @@ def main():
                                       'textes_anglais_distincts': len(fab.textes[famille])}
         journal('fabrique : %s : %s' % (famille, dict(fab.cpt[famille])))
 
-    # -- coeur : fichier genere (version, familles, tranches, races, classes) --
-    classes = fab.classes()
-    bilan['familles']['classes'] = {'compteurs': dict(fab.cpt['classes']), 'noms': len(classes)}
-    genere = [entete_lua(version, 'réglages générés (familles, tranches d\'objets, noms de races et de classes)'),
+    # -- partie generique : noms et sorts --
+    journal('fabrique : familles génériques (sorts, noms)')
+    s_tab, sk, tables_noms = fab.generique()
+    bilan['fichiers_generiques'] = fab.fichiers_generiques
+    if tables_noms:
+        d = os.path.join(addons, 'Azeroth_FR_Noms')
+        fs = ecrire_donnees(d, 'Donnees', tables_noms, version, 'noms (factions, zones, compétences…)', bilan)
+        ecrire_toc(d, 'Azeroth_FR_Noms', 'Azeroth_FR - Noms (données)',
+                   'Factions, zones, compétences, classes, ensembles (chargé par Azeroth_FR)', version, fs)
+        familles_lua.append({'famille': 'noms', 'addon': 'Azeroth_FR_Noms', 'auto': True})
+    taille_sorts = sum(len(m[1]) for m in s_tab.morceaux())
+    if s_tab.entrees:
+        familles_lua += ecrire_tranches(addons, 'sorts', 'Azeroth_FR_Sorts', 'Sorts', s_tab, version, bilan,
+                                        taille_sorts < SORTS_AUTO_MAX)
+    if sk.entrees:
+        d = os.path.join(addons, 'Azeroth_FR_SortsIndex')
+        fs = ecrire_donnees(d, 'Donnees', [sk], version, 'index des sorts par texte anglais', bilan)
+        ecrire_toc(d, 'Azeroth_FR_SortsIndex', 'Azeroth_FR - Index des sorts (données)',
+                   'Lignes « Use: » des objets : sort retrouvé par son texte (chargé à la demande)', version, fs)
+        familles_lua.append({'famille': 'sorts_index', 'addon': 'Azeroth_FR_SortsIndex', 'auto': False})
+    for fam in ('sorts', 'noms'):
+        bilan['familles'][fam] = {'compteurs': dict(fab.cpt[fam]), 'textes_anglais_distincts': len(fab.textes[fam])}
+    bilan['familles']['sorts']['octets_donnees'] = taille_sorts
+    for rel in fab.fichiers_generiques:
+        fam = os.path.splitext(os.path.basename(rel))[0]
+        bilan['familles']['fichier:' + rel] = {'compteurs': dict(fab.cpt[fam]), 'refus_controle': dict(fab.refus[fam])}
+    journal('fabrique : sorts %s ; noms %s' % (dict(fab.cpt['sorts']), dict(fab.cpt['noms'])))
+
+    # -- PTRXML : textes d'interface (lu avant le coeur : les gabarits en ont besoin) --
+    inter = fab.interface()
+    inter_fr = {k: fr for k, _, fr in inter}
+
+    # -- coeur : fichier genere (version, familles, tranches, races, classes, gabarits) --
+    bilan['familles']['classes'] = {'noms': len(fab.classes), 'noms_feminins': len(fab.classes_f)}
+    genere = [entete_lua(version, 'réglages générés (familles, tranches, noms de races et de classes, gabarits)'),
               b'local A = AzerothFR\nif type(A) ~= "table" then return end\n',
               b'A.VERSION = ' + lua_chaine(version) + b'\n',
               b'A.DATE_FABRICATION = ' + lua_chaine(bilan['date']) + b'\n',
@@ -681,12 +999,15 @@ def main():
                       + ((b',debut=' + str(f['debut']).encode() + b',fin=' + str(f['fin']).encode()) if 'debut' in f else b'')
                       + b'},\n')
     genere.append(b'}\n')
-    genere.append(b'A.RACES = ' + lua_table_simple({k: list(v) for k, v in RACES_OFFICIELLES.items()}) + b'\n')
-    genere.append(b'A.CLASSES = ' + lua_table_simple(classes) + b'\n')
+    genere.append(b'A.RACES = ' + lua_table_simple(fab.races) + b'\n')
+    genere.append(b'A.CLASSES = ' + lua_table_simple(fab.classes) + b'\n')
+    genere.append(b'A.CLASSES_F = ' + lua_table_simple(fab.classes_f) + b'\n')
+    genere.append(b'A.TABLES_NOMS = ' + lua_table_simple(TABLES_NOMS) + b'\n')
+    genere.append(b'A.OBJETS_ETIQUETTES = ' + lua_valeur([[i, n] for i, n in OBJETS_ETIQUETTES]) + b'\n')
+    genere.append(gabarits_lua(fab, inter_fr))
+    bilan['familles']['gabarits'] = {'compteurs': dict(fab.cpt['gabarits'])}
     copier_coeur(os.path.join(addons, 'Azeroth_FR'), version, b''.join(genere))
 
-    # -- PTRXML : textes d'interface --
-    inter = fab.interface()
     bilan['familles']['interface'] = {'compteurs': dict(fab.cpt['interface']), 'refus_controle': dict(fab.refus['interface']),
                                       'cles_embarquees': len(inter)}
     ptr = os.path.join(DIST, 'Interface', 'PTRXML')

@@ -1,10 +1,12 @@
 -- ============================================================================
 -- Azeroth_FR : la commande /azfr.
---   /azfr on       active l'affichage en francais
---   /azfr off      le coupe (le jeu reste en anglais ; les fenetres deja ouvertes gardent leur
---                  texte jusqu'a leur prochain affichage)
---   /azfr version  version de l'add-on et du paquet d'interface (PTRXML)
---   /azfr stats    familles chargees, memoire, nombre de traductions, erreurs evitees
+--   /azfr on          active l'affichage en francais
+--   /azfr off         le coupe (le jeu reste en anglais ; les fenetres deja ouvertes gardent leur
+--                     texte jusqu'a leur prochain affichage)
+--   /azfr version     version de l'add-on et du paquet d'interface (PTRXML)
+--   /azfr stats       familles chargees, memoire, nombre de traductions, erreurs evitees
+--   /azfr etiquettes  trois infobulles d'objets reels du serveur portant les etiquettes de
+--                     l'essai (Mythic N, Heroic Raid, Bloodforged), pour juger leur affichage
 -- ============================================================================
 local A = AzerothFR
 local format = string.format
@@ -27,8 +29,10 @@ local function Version()
 end
 
 local function Stats()
-    A.Message(format("affichage %s ; %d textes posés en français, %d recherches ; erreurs évitées : %d.",
-        A.Actif() and "ACTIF" or "COUPÉ", A.Compteurs.traduits, A.Compteurs.recherches, A.Erreurs))
+    local c = A.Compteurs
+    A.Message(format("affichage %s ; %d textes posés en français, %d recherches ; %d messages de discussion, %d infobulles de sorts, %d lignes du suivi rehaussées ; erreurs évitées : %d.",
+        A.Actif() and "ACTIF" or "COUPÉ", c.traduits, c.recherches, c.discussion or 0, c.sorts or 0,
+        c.suivi_hauteur or 0, A.Erreurs))
     if A.DerniereErreur then A.Message("dernière erreur évitée : " .. A.DerniereErreur) end
     if type(UpdateAddOnMemoryUsage) == "function" then pcall(UpdateAddOnMemoryUsage) end
     local total = 0
@@ -52,15 +56,79 @@ local function Stats()
     end
     for famille, tables in pairs(A.Tables) do
         for nom, t in pairs(tables) do
-            A.Message(format("  table %s.%s : %d seaux compilés sur %d", famille, nom, t.compiles, t.compiles + (function()
-                local n = 0
-                for _ in pairs(t.morceaux) do n = n + 1 end
-                return n
-            end)()))
+            local reste = 0
+            for _ in pairs(t.morceaux) do reste = reste + 1 end
+            A.Message(format("  table %s.%s : %d seaux compilés sur %d", famille, nom, t.compiles, t.compiles + reste))
         end
     end
     A.Message(format("mémoire : add-ons Azeroth_FR %s ; toute l'interface %s.", Ko(total), Ko(collectgarbage("count"))))
 end
+
+-- ----------------------------------------------------------------------------
+-- /azfr etiquettes : trois infobulles d'essai (nos propres cadres, nommes AzerothFR_Etiquette1…3).
+-- Si un objet n'est pas encore dans le cache du client, le jeu le demande au serveur et
+-- l'infobulle reste vide ou incomplete : l'add-on refait l'essai une fois, 2 secondes plus tard ;
+-- sinon, retaper la commande (deuxieme essai).
+-- ----------------------------------------------------------------------------
+local bulles = {}
+local minuteur = CreateFrame("Frame")
+minuteur:Hide()
+
+local function Bulle(i)
+    local b = bulles[i]
+    if not b then
+        b = CreateFrame("GameTooltip", "AzerothFR_Etiquette" .. i, UIParent, "GameTooltipTemplate")
+        bulles[i] = b
+    end
+    return b
+end
+
+local function Brut(t) return (string.gsub(t, "|", "||")) end
+
+local function AfficherEtiquettes(relance)
+    local manquants = 0
+    for i, o in ipairs(A.OBJETS_ETIQUETTES or {}) do
+        local id, quoi = o[1], o[2]
+        local b = Bulle(i)
+        b:SetOwner(UIParent, "ANCHOR_NONE")
+        b:ClearAllPoints()
+        b:SetPoint("TOP", UIParent, "TOP", -280 + (i - 1) * 280, -120)
+        b:SetHyperlink(format("item:%d:0:0:0:0:0:0:0", id))
+        local enCache = type(GetItemInfo) == "function" and GetItemInfo(id) ~= nil
+        local n = b:NumLines()
+        if not enCache or n == 0 then manquants = manquants + 1 end
+        if not relance or enCache then
+            A.Message(format("étiquette « %s », objet %d : %s, %d lignes affichées par le jeu (avant traduction) :",
+                quoi, id, enCache and "dans le cache" or "PAS encore dans le cache", n))
+            for k = 1, n do
+                local l = _G[b:GetName() .. "TextLeft" .. k]
+                local t = l and l:GetText()
+                if t and t ~= "" then A.Message(format("   %d : %s", k, Brut(t))) end
+            end
+        end
+        if A.SurObjet then pcall(A.SurObjet, b) end
+        b:Show()
+    end
+    minuteur.attente, minuteur.relance = 0, (manquants > 0 and not relance)
+    minuteur:Show()
+    if manquants > 0 and not relance then
+        A.Message(format("%d objet(s) pas encore connus du client : nouvel essai dans 2 secondes (sinon retapez /azfr etiquettes).", manquants))
+    end
+end
+
+minuteur:SetScript("OnUpdate", A.Proteger("etiquettes.minuteur", function(self, ecoule)
+    self.attente = (self.attente or 0) + (ecoule or 0)
+    if self.relance and self.attente >= 2 then
+        self.relance = false
+        AfficherEtiquettes(true)
+        return
+    end
+    if self.attente >= 60 then
+        for _, b in pairs(bulles) do b:Hide() end
+        self:Hide()
+    end
+end))
+A.AfficherEtiquettes = AfficherEtiquettes
 
 local function Commande(msg)
     local ok, err = pcall(function()
@@ -77,8 +145,10 @@ local function Commande(msg)
             Version()
         elseif msg == "stats" then
             Stats()
+        elseif msg == "etiquettes" or msg == "étiquettes" then
+            AfficherEtiquettes(false)
         else
-            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats")
+            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr etiquettes")
         end
     end)
     if not ok then A.NoterErreur("/azfr", err) end
