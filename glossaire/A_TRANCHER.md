@@ -1,5 +1,8 @@
 # À trancher par Dan
 
+> **Tranché par Dan le 03/11/2026** : voir `glossaire/DECISIONS_VOCABULAIRE.md`. Seule la question 9 (étiquettes) attend encore un test en jeu.
+
+
 *03/11/2026. Termes propres à CoA sans décision. Rien de tout ça n'est appliqué tant que Dan n'a pas
 tranché. Chaque chiffre vient d'un comptage dans `textes/` (script
 `collecte/scripts/etape1/mesurer_a_trancher.py`). Formes comptées dans les lignes « machine » et les
