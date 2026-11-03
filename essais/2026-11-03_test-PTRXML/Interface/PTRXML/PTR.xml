@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Test Azeroth_FR (réversible). Le client réclame ce fichier (Logs\GlueXML.log :
+         « Couldn't open Interface\PTRXML\PTR.xml ») et le charge au début des écrans
+         de connexion ET au début de l'interface en jeu.
+         Pour tout annuler : supprimer le dossier Interface\PTRXML. -->
+    <Script file="Test_FR.lua"/>
+</Ui>
