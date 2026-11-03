@@ -23,9 +23,10 @@ if ICI not in sys.path:
 import commun as K  # noqa: E402
 
 # Ordre de priorite propose pour la suite (ce que les joueurs lisent le plus d'abord)
-PRIORITE = ['quetes', 'sorts_classes', 'talents', 'dialogues', 'broadcast_cris', 'creatures', 'objets',
-            'sorts_serveur', 'manastorm', 'messages_serveur', 'cpp_en_dur', 'objets_monde', 'pages_courriers',
-            'hauts_faits', 'zones', 'ensembles_objets', 'divers_serveur', 'orphelins']
+PRIORITE = ['quetes', 'sorts_classes', 'talents', 'sorts_serveur', 'zones',          # lu a chaque minute
+            'dialogues', 'broadcast_cris', 'creatures', 'objets', 'objets_monde',          # lu tres souvent
+            'manastorm', 'messages_serveur', 'cpp_en_dur', 'pages_courriers', 'hauts_faits',
+            'ensembles_objets', 'divers_serveur', 'orphelins']
 
 
 def mesurer(fichiers):

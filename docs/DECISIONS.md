@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 03/11/2026 | Format de la source unique : un TSV UTF-8 par famille (`textes/`), colonnes `type, id, sous_id, champ, en, en_empreinte, fr, etat, source, note`, clé `type + id + sous_id + champ` (jamais l'anglais), aucun fichier au-dessus de 45 Mo, lignes officielles incluses ; tout français d'archive sur les sorts et talents des classes en `a_revoir`, jamais en `machine` | Consigne de l'étape 1 ; le serveur force l'anglais pour le client Ascension, l'add-on affichera donc aussi l'officiel |
 | 03/11/2026 | Dépôt privé `LePetitDan/Azeroth_FR` créé ; Claude prend tout en charge | Dan : « Charge-toi de tout » |
 | 03/11/2026 | Première réponse de l'équipe CoA Core (Discord) : « we would very much appreciate it! we are exploring options for multi lang support so something like this would be very useful » | La source unique doit pouvoir produire à la fois l'add-on et les données au format du serveur (tables `*_locale`) |
 | 03/11/2026 | Tous les sorts et talents des classes sont relus ou retraduits ; l'archive ne sert que d'indice | Erreurs réelles dans l'archive (« Crushing le terre », « Balançoire sacrée », « Worgen » → « Naga ») |

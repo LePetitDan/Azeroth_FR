@@ -6,6 +6,8 @@ Dan (LePetitDan) dirige et valide ; il ne code pas : ne jamais lui demander d'é
 - `docs/2026-11-03_Fiche_Reprise_Azeroth-FR.md` : où on en est, les décisions de Dan, les questions ouvertes.
 - `docs/DECISIONS.md` : le journal des arbitrages. On y ajoute une ligne datée à chaque décision.
 - `docs/2026-11-03_Synthese_Azeroth-FR-etat-des-lieux-et-plan.md` : les chiffres et le plan par étapes.
+- `docs/2026-11-03_Rapport_Etape1-source-unique.md` et `README.md` : la source unique `textes/`, ses outils et ce qui reste.
+- `glossaire/GLOSSAIRE.md` (version CoA) et `glossaire/A_TRANCHER.md` (questions en attente de Dan).
 
 ## Garde-fous
 - On ne reprend une traduction que si **l'anglais est prouvé identique**, jamais par numéro seul. C'est l'erreur la plus chère de l'ancien projet.
@@ -17,6 +19,7 @@ Dan (LePetitDan) dirige et valide ; il ne code pas : ne jamais lui demander d'é
 - **Avant le passage en public** : retirer de l'historique les vidages anglais bruts des textes du client (AscensionDB, `collecte/donnees/ascensiondb/`, `site-coa/`). Ce sont des textes du jeu sans licence ; on les garde comme référence de travail privée.
 - Aucun secret dans le code. Les dépôts publics `AscensionFR`, `AscensionFR-Textes` et `ascensionfr-archive` ne sont pas modifiés sans l'accord de Dan.
 - Les gros chantiers (construction de la source, traduction par lots) se font par étapes, avec un journal et des résultats écrits au fur et à mesure.
+- **La source unique** : `textes/` se reconstruit avec `python3 -I outils/importer.py` et se vérifie avec `outils/controler.py` (0 bloquant exigé) et `outils/test_controler.py`. Une ligne corrigée à la main prend l'état `relu` (l'import la protège). Aucune décision de vocabulaire non tranchée n'est appliquée.
 
 ## Sources
 - Serveur : `Conquest-of-AzerothCore/azerothcore-wotlk-coa` (GPL-2.0), commit `042b38a4` du 02/11/2026 pour la collecte.

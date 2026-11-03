@@ -10,7 +10,8 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 
 - ✅ **Collecte terminée** : textes du serveur CoA Core, archive AscensionFR, croisement des deux, AscensionDB, site coa-development.org. Voir `docs/`.
 - ✅ **Premier contact avec l'équipe CoA Core** : ils étudient une prise en charge multilingue et accueillent le projet favorablement.
-- ⏳ **Étape 1** : construire la source unique de traduction et le glossaire adapté à CoA.
+- ✅ **Étape 1 : la source unique** (03/11/2026). `textes/` : 1 287 785 lignes, dont 84 % déjà affichables (officiel Blizzard 514 080, machine contrôlée 566 859). Glossaire CoA, lexique de 33 217 noms officiels, contrôle d'entrée vu refuser 32 faux cas sur 32. Rapport : `docs/2026-11-03_Rapport_Etape1-source-unique.md`.
+- ⏳ **Dan** : trancher les 10 termes de `glossaire/A_TRANCHER.md` (Bloodforged débloque 39 440 lignes).
 - ⏳ **Étape 2** : premier add-on à tester en jeu.
 
 ## Organisation
@@ -18,12 +19,27 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 | Dossier | Contenu |
 |---|---|
 | `docs/` | Synthèse, fiche de reprise, journal des décisions, rapports de collecte |
-| `glossaire/` | Glossaire hérité d'AscensionFR (à adapter à CoA) et listes de faux connus (`filtres/`) |
-| `collecte/scripts/` | Scripts de collecte et de croisement, relançables |
+| `glossaire/` | `GLOSSAIRE.md` (version CoA), règles contrôlées, corrections sûres, `noms_officiels.tsv`, `A_TRANCHER.md` ; le glossaire hérité d'AscensionFR et ses filtres (`filtres/`) |
+| `collecte/scripts/` | Scripts de collecte, de croisement et de l'étape 1, relançables |
 | `collecte/donnees/` | Résultats de la collecte, compressés (`.xz`) : instantané du 03/11/2026 |
-| `textes/` *(à venir)* | **La source unique** : un fichier TSV par famille (`id`, `champ`, `en`, `en_empreinte`, `fr`, `etat`, `source`) |
-| `outils/` *(à venir)* | `importer`, `controler`, `fabriquer` |
+| `textes/` | **La source unique** : un fichier TSV par famille (`serveur/`, `client/`), colonnes `type`, `id`, `sous_id`, `champ`, `en`, `en_empreinte`, `fr`, `etat`, `source`, `note` |
+| `outils/` | `importer.py`, `controler.py` (+ `test_controler.py`), `stats.py`, `noms_officiels.py` ; `fabriquer` viendra à l'étape 2 |
 | `addon/` *(à venir)* | Le code de l'add-on, sans données (les bases sont générées au moment du zip) |
+
+### La source unique en deux lignes
+
+- **Une ligne = un texte du jeu**, repéré par `type + id + sous_id + champ` (jamais par l'anglais). `etat` dit d'où vient le français : `officiel` (Blizzard), `machine` (archive, contrôlée), `relu`, `a_revoir` (une proposition existe, non adoptée), `a_traduire`, `technique` (reste en anglais).
+- **Pour corriger une ligne** : mettre le français dans `fr`, `relu` dans `etat`. L'import suivant la protège ; si l'anglais du serveur change, elle repasse `a_revoir` avec l'ancien français en note.
+
+### Les outils (depuis la racine du dépôt ; sous Windows `py -I` au lieu de `python3 -I`)
+
+| Commande | Effet |
+|---|---|
+| `python3 -I outils/importer.py` | Reconstruit `textes/` depuis `collecte/` (~2 min) |
+| `python3 -I outils/controler.py` | Contrôle d'entrée de toute la source, rapport dans `work/etape1/` (~2 min) |
+| `python3 -I outils/test_controler.py` | Vérifie que le contrôle refuse bien ses 32 faux cas |
+| `python3 -I outils/stats.py` | Avancement par famille et par état |
+| `python3 -I outils/noms_officiels.py` | Reconstruit `glossaire/noms_officiels.tsv` |
 
 ## Principes
 

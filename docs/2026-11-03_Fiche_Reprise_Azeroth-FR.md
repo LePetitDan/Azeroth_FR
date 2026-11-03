@@ -1,6 +1,19 @@
-# Fiche de reprise : Azeroth_FR (collecte terminée)
+# Fiche de reprise : Azeroth_FR (étape 1 terminée)
 
-*03/11/2026. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le soir après l'étape 1. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Étape 1 terminée (03/11, soir) : la source unique
+
+- **`textes/`** (dépôt privé `LePetitDan/Azeroth_FR`) : 21 fichiers TSV, **1 287 785 lignes** (serveur 1 210 645, client 77 140). **84 % affichables** : officiel Blizzard 514 080, machine contrôlée 566 859. À revoir 51 174, à traduire 89 411, technique 66 261.
+- **Reste** : à traduire 23 464 textes distincts / 327 042 mots ; à relire 35 121 / 243 126. Priorité : quêtes (7 886 textes à traduire), sorts des classes et talents (11 547 propositions à relire un par un), sorts serveur, zones.
+- **Outils** (`outils/`) : `importer.py` (protège les lignes `relu`), `controler.py`, `test_controler.py` (32 faux cas sur 32 refusés), `stats.py`, `noms_officiels.py`. Python standard, Windows et Linux.
+- **Contrôle** : 0 ligne bloquante. Il a trouvé 1 397 traductions machine qui laissaient un nom officiel en anglais (« Molten Core », « Duskwood ») : passées à revoir, forme officielle en note.
+- **AscensionDB** : 2 812 reprises sûres entrées en machine (246 refusées au contrôle) ; 15 441 noms condamnés par l'archive restés à revoir, proposition en note.
+- **Client** : sorts des 21 classes CoA, talents, hauts faits, zones. Aucun français d'archive sur les sorts et talents de classe n'est en machine (17 247 lignes à revoir) ; seuls 107 noms officiels Blizzard et le modèle « Rang N » passent.
+- **Glossaire** : `glossaire/GLOSSAIRE.md` (version CoA), `noms_officiels.tsv` (33 217 noms officiels), `regles_controle.tsv`, `corrections_sures.tsv` (991 corrections mécaniques appliquées).
+- **Rapport** : `docs/2026-11-03_Rapport_Etape1-source-unique.md`.
+- **Ce qui attend Dan** : `glossaire/A_TRANCHER.md`, 10 questions à une lettre (Bloodforged 39 440 lignes, préfixes 1 459 lignes, étiquettes `@…@`, Ascended, Keystone, Call Board, Elemental Lodestone, Worldforged, classes Guardian/Ranger/Cultist, Talent Essence).
+- **Prochaine étape** : après les décisions de Dan, relancer l'import ; puis **étape 2**, le premier add-on (format de lecture : lignes `officiel`, `machine`, `relu`).
 
 ## Le projet en une phrase
 Azeroth_FR est la relance, reconstruite proprement, de la traduction française de l'ancien AscensionFR (archivé le 04-05/09/2026). La cible est **Conquest of AzerothCore** (royaume Rexxar), puis les serveurs dérivés (ArdenWoW…).
@@ -22,7 +35,7 @@ Azeroth_FR est la relance, reconstruite proprement, de la traduction française 
 ## Où on en est
 - ✅ Les quatre analyses : serveurs, textes de CoA Core, archive AscensionFR, croisement. La synthèse est dans `Perso/Azeroth_FR/2026-11-03_Synthese_Azeroth-FR-etat-des-lieux-et-plan.md`, les rapports détaillés dans `Perso/Azeroth_FR/collecte/`.
 - Résultat clé : 86 % des 1 210 645 lignes de texte du serveur ont déjà un français (officiel 42 %, machine 43 %). Le reste réel est d'environ 16 100 textes distincts, soit 268 500 mots.
-- ⏳ Prochaine étape : **étape 0** (dépôt privé `Azeroth_FR`), puis **étape 1** (source unique en TSV + glossaire adapté + outils) et **étape 2** (premier add-on, essai 1).
+- ✅ Étape 0 (dépôt privé) et étape 1 (source unique, glossaire CoA, outils) faites. ⏳ **Étape 2** : premier add-on, essai 1.
 
 ## Sources complémentaires analysées (03/11, soir)
 Les rapports sont dans `Perso/Azeroth_FR/collecte/` : `2026-11-03_Rapport_AscensionDB.md` et `2026-11-03_Rapport_Site-coa-development.md`.
@@ -48,12 +61,12 @@ Les rapports sont dans `Perso/Azeroth_FR/collecte/` : `2026-11-03_Rapport_Ascens
 ## Avancement du soir (03/11)
 - **Dépôt privé `LePetitDan/Azeroth_FR` créé** par Claude, avec l'accord de Dan (« Charge-toi de tout »). Il contient les rapports, le glossaire hérité, les filtres, les scripts et l'instantané compressé des données. **C'est désormais la référence**, avant l'espace de travail temporaire.
 - **Réponse de l'équipe CoA Core** sur Discord : « we would very much appreciate it! we are exploring options for multi lang support so something like this would be very useful ». Conséquence : la source unique doit produire à la fois l'add-on et les données au format du serveur (tables `*_locale`). Une réponse de suivi a été préparée pour Dan.
-- **Étape 1 lancée** : construction de la source unique (`textes/`), du glossaire CoA et des outils.
+- **Étape 1 lancée puis terminée** le soir même (voir en tête de fiche).
 
 ## Questions ouvertes pour Dan
 1. ~~Dépôt privé~~ : fait.
 2. Un client Conquest of AzerothCore est-il installé sur le PC maison ? Si oui, où ? Il sert aux tests en jeu et à l'interface.
-3. Vocabulaire à trancher : **Bloodforged** (39 059 lignes bloquées), **Worldforged**, **Elemental Lodestone**, et les préfixes `Tome:`, `Mystic Scroll:`. Je présenterai les options au moment de l'étape 1.
+3. Vocabulaire à trancher : présenté dans `glossaire/A_TRANCHER.md` (10 questions, recommandations incluses). Rien n'est appliqué avant la réponse de Dan.
 4. Données personnelles encore publiques dans la release 3.5.1 d'AscensionFR et dans l'archive (808 annonces nominatives, 39 liens personnels). Décision de Dan, tâche dans Priorités (échéance 10/11). **Rien n'est modifié sans son accord.**
 
 ## Où sont les fichiers
