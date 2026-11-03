@@ -47,7 +47,14 @@
   - vrais numéros de sorts confirmés ;
   - **le Spell.dbc actif sur Rexxar est celui de CoA (`patch-T`)**, il faut donc rebaser l'anglais des sorts du client sur `patch-T` ;
   - « Choc de flammes » s'est affiché dans l'infobulle : la traduction à l'affichage par numéro marche.
-- Installés chez Dan : `Interface\PTRXML` (test 1) et `Interface\AddOns\AzerothFR_Test3`. Pour revenir en arrière, il suffit de supprimer ces dossiers.
+- **Étape 2 terminée** (`docs/2026-11-03_Rapport_Etape2-essai1.md`) : add-on Azeroth_FR 0.1.0 (zip de 15 Mo, 941 610 lignes embarquées). Il traduit à l'affichage les quêtes, dialogues, objets, créatures, cris et livres. Le paquet PTRXML met en français 6 034 textes d'interface. Les sorts et talents ne sont pas encore traduits.
+- **Essai 1 installé chez Dan le 03/11** (`essais/2026-11-03_essai1/INSTALLATION.md`) ; les tests 1 et 3 ont été retirés. En attente des 8 vérifications de Dan.
+- **À faire ensuite** :
+  - appliquer les 10 décisions de vocabulaire ;
+  - rebaser l'anglais des sorts du client sur `patch-T` ;
+  - traiter les 5 950 lignes officielles signalées par le contrôle (surtout des livres), laissées en anglais ;
+  - écrire le module sorts et talents ;
+  - traiter les lignes fixes des infobulles (« Binds when picked up »…). Pour revenir en arrière, il suffit de supprimer ces dossiers.
 - Le 03/11 vers 18 h, à la demande de Duff (chef d'équipe CoA Core), Dan a publié la proposition dans un sujet du salon Discord **#suggestions** : « French localization (Azeroth_FR) – multi-language support collaboration », tags General, In-Game et Launcher. Le sujet pose 6 questions : approche multilingue, locale forcée en enUS, pérennité de PTRXML, vrais numéros de sorts, LuaDBC, distribution par le lanceur. En attente de réponse.
 - Le 03/11 au soir, Dan a déplacé la conversation dans un projet claude.ai dédié, « Azeroth_FR ».
 
