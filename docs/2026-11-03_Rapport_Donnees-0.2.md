@@ -272,11 +272,15 @@ officiels, **1 965** à la fin.
   la proposition de Blizzard).
 - **Bloodforged** : 1 543 noms machine mal construits (« Bloodforged » au milieu du nom) passent à revoir ; 706 noms
   sans accord sûr ne sont pas composés.
+- **Codes de grammaire du client français** : 173 textes officiels d'interface utilisent `|2` (élision de « de » :
+  « Réputation auprès |2 %s augmentée… »). Le client enUS rend `|4` (pluriels anglais) ; **à vérifier en jeu** qu'il
+  rend aussi `|2`, sinon le paquet PTRXML doit le résoudre lui-même, comme l'add-on le fait déjà pour les quêtes.
 - **Interface** : 112 français officiels refusés par le contrôle strict restent à revoir ; 4 396 clés propres à CoA
   restent en traduction machine de l'archive ; « Sell Price: » n'est pas dans le `GlobalStrings.dbc` de CoA.
 - **Hauts faits** : `Achievement.dbc` frFR existe dans `patch-frFR-3.MPQ` mais n'est pas encore utilisé.
 - **L'add-on** : les nouvelles familles (`sorts_standard`, `factions`, `zones` élargies, `races`…) ne sont pas encore
-  lues par `outils/fabriquer.py` (chantier de l'add-on 0.2).
+  lues par `outils/fabriquer.py` (chantier de l'add-on 0.2). L'add-on 0.1 se fabrique toujours avec les nouvelles
+  données (vérifié : 57,6 Mo, zip 15,5 Mo, `luac5.1` sur les 34 fichiers).
 - **Avant le passage en public** : retirer de l'historique `collecte/donnees/officiel_frFR/` et
   `collecte/donnees/client/` (fichiers de Blizzard et du client, sans licence de redistribution).
 
