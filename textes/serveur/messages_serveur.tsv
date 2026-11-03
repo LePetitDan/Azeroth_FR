@@ -1,0 +1,1329 @@
+type	id	sous_id	champ	en	en_empreinte	fr	etat	source	note
+message_serveur	1		content_default	You should select a character or a creature.	becdb9dc2ebb		a_traduire		
+message_serveur	2		content_default	You should select a creature.	a594bda61f66		a_traduire		
+message_serveur	3		content_default	[SERVER] {}	74631d1e4203		a_traduire		
+message_serveur	4		content_default	|cffff0000[Event Message]: {}|r	2ba0802b63a8		a_traduire		
+message_serveur	5		content_default	There is no help for that command	3349d2fc8eb9		a_traduire		
+message_serveur	6		content_default	Command '{}' does not exist	fcd75eda2a2c		a_traduire		
+message_serveur	7		content_default	Subcommand '{}{}{}' is ambiguous:	ffc93b6d89b4		a_traduire		
+message_serveur	8		content_default	Possible subcommands:	8afd9c0b1bd7		a_traduire		
+message_serveur	9		content_default	Commands available to you:	32a6f2e9ba12		a_traduire		
+message_serveur	10		content_default	Incorrect syntax.	607dd8e47c5d		a_traduire		
+message_serveur	11		content_default	Your account level is: {}	05dc28b0200e		a_traduire		
+message_serveur	12		content_default	Active connections: {} (max: {}) Queued connections: {} (max: {})	a89476857657		a_traduire		
+message_serveur	13		content_default	Server uptime: {}	eb2421b6abae		a_traduire		
+message_serveur	14		content_default	Player saved.	3383ccdf6f8a		a_traduire		
+message_serveur	15		content_default	All players saved.	27d554cf6a18		a_traduire		
+message_serveur	16		content_default	There are the following active GMs on this server:	b46fdd250727		a_traduire		
+message_serveur	17		content_default	There are no GMs currently logged in on this server.	72068e469c1e		a_traduire		
+message_serveur	18		content_default	Cannot do that while flying.	fc5d7f488fe6		a_traduire		
+message_serveur	19		content_default	Update time diff: {}.	5bf241f8a78f		a_traduire		
+message_serveur	20		content_default	Time left until shutdown/restart: {}	4f9996c58d54		a_traduire		
+message_serveur	21		content_default	{} is flying command failed.	d8b9876667fa		a_traduire		
+message_serveur	22		content_default	You are not mounted so you can't dismount.	96845d3a7ee2		a_traduire		
+message_serveur	23		content_default	Cannot do that while fighting.	013fd00b4005		a_traduire		
+message_serveur	24		content_default	You used it recently.	af245ae16aa2		a_traduire		
+message_serveur	25		content_default	Password not changed (unknown error)!	aa5f01589b4e		a_traduire		
+message_serveur	26		content_default	The password was changed	858db8ed5cab		a_traduire		
+message_serveur	27		content_default	The old password is wrong	ca7165d4031f		a_traduire		
+message_serveur	28		content_default	Your account is now locked.	79c3eae70054		a_traduire		
+message_serveur	29		content_default	Your account is now unlocked.	6c4c8e6d227e		a_traduire		
+message_serveur	30		content_default	, rank 	e1cf5ffb1063		a_traduire		
+message_serveur	31		content_default	 [known]	45c5f0d7c2e4		a_traduire		
+message_serveur	32		content_default	 [learn]	5aeca8750966		a_traduire		
+message_serveur	33		content_default	 [passive]	c8605abc4634		a_traduire		
+message_serveur	34		content_default	 [talent]	dbfa43620f11		a_traduire		
+message_serveur	35		content_default	 [active]	96cb2105b73c		a_traduire		
+message_serveur	36		content_default	 [complete]	19716bab56dd		a_traduire		
+message_serveur	37		content_default	 (offline)	42b0c4734b53	 (hors ligne)	officiel	blizzard_frFR	niveau=meme_champ
+message_serveur	38		content_default	on	db3d405b1067		a_traduire		
+message_serveur	39		content_default	off	da7a68734367		a_traduire		
+message_serveur	40		content_default	You are: {}	882b4cebd98f		a_traduire		
+message_serveur	41		content_default	visible	223883960405		a_traduire		
+message_serveur	42		content_default	invisible	6ccc38e42cac		a_traduire		
+message_serveur	43		content_default	done	e5fd9cfe0e80		a_traduire		
+message_serveur	44		content_default	You	905cb326c779		a_traduire		
+message_serveur	45		content_default	 <unknown> 	1db4de35c369		a_traduire		
+message_serveur	46		content_default	<error>	c60e76219521		a_traduire		
+message_serveur	47		content_default	<non-existing character>	08f96355289a		a_traduire		
+message_serveur	48		content_default	UNKNOWN	25ba44ec3b39		a_traduire		
+message_serveur	49		content_default	You must be at least level {} to enter.	0fa1ce68bb90		a_traduire		
+message_serveur	50		content_default	You must be at least level {} and have item {} to enter.	f3821d1d08f4		a_traduire		
+message_serveur	51		content_default	Hello! Ready for some training?	e1e3152b3f8c		a_traduire		
+message_serveur	52		content_default	Invalid item count ({}) for item {}	b8066583e672		a_traduire		
+message_serveur	53		content_default	Mail can't have more {} item stacks	5323f3abb19c		a_traduire		
+message_serveur	54		content_default	The new passwords do not match	c18ef3226ba7		a_traduire		
+message_serveur	55		content_default	Your password can't be longer than 16 characters (client limit), password not changed!	cf1806547619	Le mot de passe ne doit pas dépasser 16 caractères (limitation technique du client), le mot de passe n'a pas été changé!	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	56		content_default	Current Message of the day:	ccc57994028c		a_traduire		
+message_serveur	57		content_default	Using World DB: {}	e19ae713edc7		a_traduire		
+message_serveur	58		content_default	Using script library: {}	5878f74afa09		a_traduire		
+message_serveur	59		content_default	Using creature EventAI: {}	371c432a50d5		a_traduire		
+message_serveur	60		content_default	Online players: {} (max: {})	98e94147cbd8		a_traduire		
+message_serveur	61		content_default	Up to {} expansion allowed now.	3554e0be57f5		a_traduire		
+message_serveur	62		content_default	One on more parameters have incorrect values	a3a2a9178f2c		a_traduire		
+message_serveur	63		content_default	Wrong parameter id: {}, does not exist	cac2f8f68ea6		a_traduire		
+message_serveur	64		content_default	Wrong parameter realmId: {}	96219e60678b		a_traduire		
+message_serveur	65		content_default	Account {} ({}) granted permissions:	405d7868d833		a_traduire		
+message_serveur	66		content_default	Account {} ({}) denied permissions:	eee8ee137b56		a_traduire		
+message_serveur	67		content_default	Account {} ({}) inherited permissions by sec level {} ({}):	6e5f3d7fa8e8		a_traduire		
+message_serveur	68		content_default	Permissions:	587f23494ec1		a_traduire		
+message_serveur	69		content_default	Linked permissions:	737f217fdbef		a_traduire		
+message_serveur	70		content_default	Empty List	0701dae6240c		a_traduire		
+message_serveur	71		content_default	- {} ({})	65e48730a035		technique		technique=sans_lettre
+message_serveur	72		content_default	Could not grant permission {} ({}) realmId {}. Account {} ({}) already has that permission	26cfea065090		a_traduire		
+message_serveur	73		content_default	Could not grant permission {} ({}) realmId {}. Account {} ({}) has that permission in deny list	cbfec1d5ee9a		a_traduire		
+message_serveur	74		content_default	Granted permission {} ({}) realmId {} to account {} ({})	51b598bd50a8		a_traduire		
+message_serveur	75		content_default	Could not deny permission {} ({}) realmId {}. Account {} ({}) already has that permission	42f771e700da		a_traduire		
+message_serveur	76		content_default	Could not deny permission {} ({}) realmId {}. Account {} ({}) has that permission in grant list	4c11b5f0892e		a_traduire		
+message_serveur	77		content_default	Denied permission {} ({}) realmId {} to account {} ({})	6099bfcba114		a_traduire		
+message_serveur	78		content_default	Revoked permission {} ({}) realmId {} to account {} ({})	52e31689514f		a_traduire		
+message_serveur	79		content_default	Could not revoke permission {} ({}) realmId {}. Account {} ({}) does not have that permission	36a3eb059a79		a_traduire		
+message_serveur	80		content_default	BattleGround victories in the last 7 days\nAlliance: {}\nHorde: {}	6e36c7e908fe		a_traduire		
+message_serveur	81		content_default	BattleGround scores storing is disabled!	879401787f9b		a_traduire		
+message_serveur	82		content_default	{}: {}	bffc77254dfe		technique		technique=sans_lettre
+message_serveur	83		content_default	Syntax: .rbac account list $account\nList granted, denied, and inherited permissions for the account.	3ae16be7a4b9		a_traduire		
+message_serveur	84		content_default	Syntax: .rbac account grant $account $permissionId [$realmId]\nGrant a permission to the account. Optional realmId (-1 = all realms).	a340365a49f3		a_traduire		
+message_serveur	85		content_default	Syntax: .rbac account deny $account $permissionId [$realmId]\nDeny a permission for the account. Optional realmId (-1 = all realms).	46d8aea72617		a_traduire		
+message_serveur	86		content_default	Syntax: .rbac account revoke $account $permissionId [$realmId]\nRevoke a previously granted or denied permission. Optional realmId (-1 = all realms).	3b596777d595		a_traduire		
+message_serveur	87		content_default	UNKNOWN_ERROR	441df26b52f8		a_traduire		
+message_serveur	88		content_default	Two-factor authentication commands are not properly setup.	a49a0b8ffba9		a_traduire		
+message_serveur	89		content_default	Two-factor authentication is already enabled for this account.	9a99768b6725		a_traduire		
+message_serveur	90		content_default	Invalid two-factor authentication token specified.	7a96c75b00e3		a_traduire		
+message_serveur	91		content_default	In order to complete setup, you'll need to set up the device you'll be using as your second factor.\nYour 2FA key: {}\nAdd the key to an authenticator app, such as the free and open source FreeOTP (https://freeotp.github.io/), with these settings:\n- Type: Time-based (TOTP)\n- Digits: 6\n- Algorithm: SHA1\n- Interval: 30 seconds\nOnce you have set up your device, confirm by running .account 2fa setup <token> with the generated token.	922f4afc094b		a_traduire		
+message_serveur	92		content_default	Two-factor authentication has been successfully set up.	bfb7d008d214		a_traduire		
+message_serveur	93		content_default	Two-factor authentication is not enabled for this account.	0a9a748877b2		a_traduire		
+message_serveur	94		content_default	To remove two-factor authentication, please specify a fresh two-factor token from your authentication device.	486a8c88ec8c		a_traduire		
+message_serveur	95		content_default	Two-factor authentication has been successfully disabled.	6e69d57b7a7b		a_traduire		
+message_serveur	96		content_default	The guild name '{}' is already taken	7efe8cc371e5		a_traduire		
+message_serveur	97		content_default	Changed guild name '{}' to '{}'	d293b0da2e4f		a_traduire		
+message_serveur	98		content_default	'{}' already exists as character name, choose another one	81a8638c570c		a_traduire		
+message_serveur	99		content_default	Player '{}' forced rename to '{}'	8736af3cdbbe		a_traduire		
+message_serveur	100		content_default	Global notify: 	6286b7f24be0		a_traduire		
+message_serveur	101		content_default	Map: {} ({}) Zone: {} ({}) Area: {} ({}) Phase: {}\nX: {} Y: {} Z: {} Orientation: {}\ngrid[{},{}]cell[{},{}] InstanceID: {}\n ZoneX: {} ZoneY: {}\nGroundZ: {} FloorZ: {} Have height data (Map: {} VMap: {} MMap: {})	22fb22e5f75d		a_traduire		
+message_serveur	102		content_default	{} is already being teleported.	8fc2f16d2769		a_traduire		
+message_serveur	103		content_default	You can summon a player to your instance only if he is in your party with you as leader.	753fa60f808c		a_traduire		
+message_serveur	104		content_default	You cannot go to the player's instance because you are in a party now.	dbc97b8d99cd		a_traduire		
+message_serveur	105		content_default	You can go to the player's instance while not being in his party only if your GM mode is on.	92a1b5ad4f97		a_traduire		
+message_serveur	106		content_default	You can not go to player {} from instance to instance.	8a15d0f11dae		a_traduire		
+message_serveur	107		content_default	You can not summon player {} from instance to instance.	4d0307ebc456		a_traduire		
+message_serveur	108		content_default	You are summoning {}{}.	da4a4a094dec		a_traduire		
+message_serveur	109		content_default	You are being summoned by {}.	7f00ef2da418		a_traduire		
+message_serveur	110		content_default	You are teleporting {}{} to {}.	97cbdf28b805		a_traduire		
+message_serveur	111		content_default	You are being teleported by {}.	0f06868e41bf		a_traduire		
+message_serveur	112		content_default	Player ({}) does not exist.	5b4f3422af3f		a_traduire		
+message_serveur	113		content_default	Appearing at {}'s location.	07eaadda3225		a_traduire		
+message_serveur	114		content_default	{} is appearing to your location.	2ac9701939b1		a_traduire		
+message_serveur	115		content_default	Incorrect values.	20e3775f2f39		a_traduire		
+message_serveur	116		content_default	No character selected.	3520e9d48620		a_traduire		
+message_serveur	117		content_default	{} is not in a group.	5786a4a3d2e1		a_traduire		
+message_serveur	118		content_default	You changed HP of {} to {}/{}.	f82904153865		a_traduire		
+message_serveur	119		content_default	{} changed your HP to {}/{}.	3d3b8cffcac4		a_traduire		
+message_serveur	120		content_default	You changed MANA of {} to {}/{}.	04d4078a49e9		a_traduire		
+message_serveur	121		content_default	{} changed your MANA to {}/{}.	00d2e31d67e0		a_traduire		
+message_serveur	122		content_default	You changed ENERGY of {} to {}/{}.	14344017ab0e		a_traduire		
+message_serveur	123		content_default	{} changed your ENERGY to {}/{}.	3a934b36696a		a_traduire		
+message_serveur	124		content_default	Current energy: {}	a22f3e10dad3		a_traduire		
+message_serveur	125		content_default	You changed rage of {} to {}/{}.	9bf11488b721		a_traduire		
+message_serveur	126		content_default	{} changed your rage to {}/{}.	c33428723a69		a_traduire		
+message_serveur	127		content_default	You changed level of {} to {}.	5edb267e044c		a_traduire		
+message_serveur	128		content_default	GUID {}, faction is {}, flags is {}, npcflag is {}, DY flag is {}	a5eae63930a1		a_traduire		
+message_serveur	129		content_default	Wrong faction: {} (not found in factiontemplate.dbc).	562d6eb3b21a		a_traduire		
+message_serveur	130		content_default	You changed GUID={} 's Faction to {}, flags to {}, npcflag to {}, dyflag to {}.	ab7facc25063		a_traduire		
+message_serveur	131		content_default	You changed the spellflatid={}, val= {}, mark ={} to {}.	4a1d8ebf1b91		a_traduire		
+message_serveur	132		content_default	{} changed your spellflatid={}, val= {}, mark ={}.	596283620585		a_traduire		
+message_serveur	133		content_default	{} has access to all taxi nodes now (until logout).	6511acdcb265		a_traduire		
+message_serveur	134		content_default	{} has no more access to all taxi nodes now (only visited accessible).	e57f25f7b829		a_traduire		
+message_serveur	135		content_default	{} has given you access to all taxi nodes (until logout).	e59738375c56		a_traduire		
+message_serveur	136		content_default	{} has removed access to all taxi nodes (only visited still accessible).	9541d2633516		a_traduire		
+message_serveur	137		content_default	You set all speeds to {} from normal of {}.	e00d28d8e87b		a_traduire		
+message_serveur	138		content_default	{} set all your speeds to {} from normal.	105673b12e7d		a_traduire		
+message_serveur	139		content_default	You set the speed to {} from normal of {}.	c094bd916b5c		a_traduire		
+message_serveur	140		content_default	{} set your speed to {} from normal.	3b67a67ae9cf		a_traduire		
+message_serveur	141		content_default	You set the swim speed to {} from normal of {}.	be50d05eae28		a_traduire		
+message_serveur	142		content_default	{} set your swim speed to {} from normal.	40ed7c7c7c02		a_traduire		
+message_serveur	143		content_default	You set the backwards run speed to {} from normal of {}.	57c1c0918251		a_traduire		
+message_serveur	144		content_default	{} set your backwards run speed to {} from normal.	3c0f14cbee69		a_traduire		
+message_serveur	145		content_default	You set the fly speed to {} from normal of {}.	cac953c17306		a_traduire		
+message_serveur	146		content_default	{} set your fly speed to {} from normal.	f93dc676fb2e		a_traduire		
+message_serveur	147		content_default	You set the size {} of {}.	b6ac889f4b94		a_traduire		
+message_serveur	148		content_default	{} set your size to {}.	fec1e6f2609d		a_traduire		
+message_serveur	149		content_default	There is no such mount.	3bb6f7592946		a_traduire		
+message_serveur	150		content_default	You give a mount to {}.	9cade5c159ca		a_traduire		
+message_serveur	151		content_default	{} gave you a mount.	4dea9386a903		a_traduire		
+message_serveur	152		content_default	USER1: {}, ADD: {}, DIF: {}\n	a1d2caf1b20e		a_traduire		
+message_serveur	153		content_default	You take all copper of {}.	b66e543ea3a0		a_traduire		
+message_serveur	154		content_default	{} took you all of your copper.	66f8b14b1fbb		a_traduire		
+message_serveur	155		content_default	You take {} copper from {}.	3c77a08dda22		a_traduire		
+message_serveur	156		content_default	{} took {} copper from you.	8c16aa6d3273		a_traduire		
+message_serveur	157		content_default	You give {} copper to {}.	4f43cf4583cd		a_traduire		
+message_serveur	158		content_default	{} gave you {} copper.	3abf53282f3e		a_traduire		
+message_serveur	159		content_default	You hear sound {}.	a6df226590ad		a_traduire		
+message_serveur	160		content_default	USER2: {}, ADD: {}, RESULT: {}\n	f5840403b217		a_traduire		
+message_serveur	161		content_default	Removed bit {} in field {}.	6722743b91de		a_traduire		
+message_serveur	162		content_default	Set bit {} in field {}.	cca9c8801370		a_traduire		
+message_serveur	163		content_default	Teleport location table is empty!	253f7240dce8		a_traduire		
+message_serveur	164		content_default	Teleport location not found!	1092c0799e5c		a_traduire		
+message_serveur	165		content_default	Requires search parameter.	06b6c8d5904f		a_traduire		
+message_serveur	166		content_default	There are no teleport locations matching your request.	36240d482abc		a_traduire		
+message_serveur	167		content_default	This name is reserved, choose another one	2951b513d08f		a_traduire		
+message_serveur	168		content_default	Locations found are:\n{}	30ea3fc48245		a_traduire		
+message_serveur	169		content_default	Mail sent to {}	14ee16a6af94		a_traduire		
+message_serveur	170		content_default	You try to hear sound {} but it doesn't exist.	9217e3c19aab		a_traduire		
+message_serveur	171		content_default	You can't teleport self to self!	e648d3a247a2		a_traduire		
+message_serveur	172		content_default	server console command	80c50466cde6		a_traduire		
+message_serveur	173		content_default	You changed runic power of {} to {}/{}.	dc81df03c3be		a_traduire		
+message_serveur	174		content_default	{} changed your runic power to {}/{}.	c8b6eeb1257b		a_traduire		
+message_serveur	175		content_default	Liquid level: {}, ground: {}, type: {}, flags {}, status: {}.	9c5dfd7184cf		a_traduire		
+message_serveur	176		content_default	Invalid gameobject type, must be a destructible building.	7150fedc79eb		a_traduire		
+message_serveur	177		content_default	Gameobject {} (GUID: {}) damaged {} (actual health: {}).	c48efb15b89c		a_traduire		
+message_serveur	178		content_default	grid[{},{}]cell[{},{}] InstanceID: {}\n ZoneX: {} ZoneY: {}\nGroundZ: {} FloorZ: {} Have height data (Map: {} VMap: {} MMap: {})	771c258d06c8		a_traduire		
+message_serveur	179		content_default	| AccountFlags:	1c80ab8b55b3		a_traduire		
+message_serveur	186		content_default	TransMapID: {} TransOffsetX: {} TransOffsetY: {} TransOffsetZ: {} TransOffsetO: {} (Transport ID: {} {})	833f2e9f74e1		a_traduire		
+message_serveur	187		content_default	This name is profane, choose another one	7402a159d829		a_traduire		
+message_serveur	188		content_default	The provided two-factor authentication secret is too long.	f200c5565782		a_traduire		
+message_serveur	189		content_default	The provided two-factor authentication secret is not valid.	519a4d8caf8f		a_traduire		
+message_serveur	190		content_default	Successfully enabled two-factor authentication for '{}' with the specified secret.	d9ca16e5fa7d		a_traduire		
+message_serveur	191		content_default	|- {}	8ed3787bf5fd		technique		technique=sans_lettre
+message_serveur	192		content_default	|- {} ...	dba270dc1e28		technique		technique=sans_lettre
+message_serveur	193		content_default	Subcommand '{}{}{}' does not exist.	4372e9931cdd		a_traduire		
+message_serveur	194		content_default	Command '{}' is ambiguous:	9ada849a6323		a_traduire		
+message_serveur	195		content_default	### USAGE: .{} ...	4ba5885ba795		a_traduire		
+message_serveur	196		content_default	There is no detailed usage information associated with '{}'.\nThis should never occur for stock AzerothCore commands - if it does, report this as a bug.	62ad383e57f3		a_traduire		
+message_serveur	197		content_default	Recover id: {} | Item: {} ({}) | Count: {}	5af3332be8af		a_traduire		
+message_serveur	198		content_default	Player has no recoverable items	cc07f50d88d8		a_traduire		
+message_serveur	199		content_default	Player has no recoverable item with id {}	e20b04f62736		a_traduire		
+message_serveur	200		content_default	No selection.	b20ccf2f86bb		a_traduire		
+message_serveur	201		content_default	Object GUID is: {}	270bab2da744		a_traduire		
+message_serveur	202		content_default	The name was too long by {} characters.	39ba5b74a095		a_traduire		
+message_serveur	203		content_default	Error, name can only contain characters A-Z and a-z.	d74d128243b9		a_traduire		
+message_serveur	204		content_default	The subname was too long by {} characters.	16e38a0219cf		a_traduire		
+message_serveur	205		content_default	Not yet implemented	bacad9cd4530		a_traduire		
+message_serveur	206		content_default	Item '{}' '{}' added to list with maxcount '{}' and incrtime '{}' and extendedcost '{}'	c17de5b07a60		a_traduire		
+message_serveur	207		content_default	Item '{}' not found in database.	1c89aaf63eb2		a_traduire		
+message_serveur	208		content_default	Item '{}' '{}' deleted from vendor list	f95c600cfe3b		a_traduire		
+message_serveur	209		content_default	Item '{}' not found in vendor list.	aae01b79e355		a_traduire		
+message_serveur	210		content_default	Item '{}' (with extended cost {}) already in vendor list.	faa9866a43ec		a_traduire		
+message_serveur	211		content_default	Spells of {} reset.	f59949ea0fc7		a_traduire		
+message_serveur	212		content_default	Spells of {} will reset at next login.	da835378cc03		a_traduire		
+message_serveur	213		content_default	Talents of {} reset.	3ed3cbbf1db4		a_traduire		
+message_serveur	214		content_default	Talents of {} will reset at next login.	f410ab781765		a_traduire		
+message_serveur	215		content_default	Your spells have been reset.	75fcf0dda683		a_traduire		
+message_serveur	216		content_default	Your talents have been reset.	834a348e6040		a_traduire		
+message_serveur	217		content_default	Unknown case '{}' for .resetall command. Type full correct case name.	ec3924689fc2		a_traduire		
+message_serveur	218		content_default	Spells will reset for all players at login. Strongly recommend re-login!	df5a44ae2ef3		a_traduire		
+message_serveur	219		content_default	Talents will reset for all players at login. Strongly recommend re-login!	ac8ade97183e		a_traduire		
+message_serveur	220		content_default	Creature (GUID: {}) No waypoint found.	b876bd7475b9		a_traduire		
+message_serveur	221		content_default	Creature (GUID: {}) Last waypoint not found.	563131534c02		a_traduire		
+message_serveur	222		content_default	Creature (GUID: {}) No waypoint found - used 'wpguid'. Now trying to find it by its position...	eadf8f274533		a_traduire		
+message_serveur	223		content_default	No waypoint information was found for Creature (GUID: {}). Make sure 'wp show on' command was properly executed.	9ded1f45c110		a_traduire		
+message_serveur	224		content_default	Selected creature is ignored - provided GUID is used	4a551576324a		a_traduire		
+message_serveur	225		content_default	Creature (GUID: {}) not found	7c8bdbfe0973		a_traduire		
+message_serveur	226		content_default	You must select a visual waypoint.	623d65cedf3a		a_traduire		
+message_serveur	227		content_default	No visual waypoints found	9852e918dc2c		a_traduire		
+message_serveur	228		content_default	Could not create visual waypoint with creatureID: {}	171ec8131576		a_traduire		
+message_serveur	229		content_default	All visual waypoints removed	cc2ff28648a6		a_traduire		
+message_serveur	230		content_default	Could not create waypoint-creature with ID: {}	0756e16eb9b4		a_traduire		
+message_serveur	231		content_default	No GUID provided.	50a79784c31b		a_traduire		
+message_serveur	232		content_default	No waypoint number provided.	017b915930ad		a_traduire		
+message_serveur	233		content_default	Argument required for '{}'.	5fcb7347a339		a_traduire		
+message_serveur	234		content_default	Waypoint {} added to GUID: {}	b44371b40173		a_traduire		
+message_serveur	235		content_default	Waypoint {} added.	acce5f8b2f04		a_traduire		
+message_serveur	236		content_default	Waypoint changed.	7a248a90334e		a_traduire		
+message_serveur	237		content_default	Waypoint {} modified.	1dabe7944d5c		a_traduire		
+message_serveur	238		content_default	WP export successfull.	ed7d4133eb92		a_traduire		
+message_serveur	239		content_default	No waypoints found inside the database.	54af2de35038		a_traduire		
+message_serveur	240		content_default	File imported.	7fa65556d785		a_traduire		
+message_serveur	241		content_default	Waypoint removed.	b381c430ffae		a_traduire		
+message_serveur	242		content_default	Warning: Could not delete WP from the world with ID: {}	2d630c343cd6		a_traduire		
+message_serveur	243		content_default	This happens if the waypoint is too far away from your char.	1e14ef41fc62		a_traduire		
+message_serveur	244		content_default	The WP is deleted from the database, but not from the world here.	4cf8942bf5ae		a_traduire		
+message_serveur	245		content_default	They will disappear after a server restart.	a5cd3fa0fffa		a_traduire		
+message_serveur	246		content_default	Waypoint {}: Info for creature: {}, GUID: {}	19d757443f6f		a_traduire		
+message_serveur	247		content_default	Waittime: {}	bc8f08ec68e8		a_traduire		
+message_serveur	248		content_default	Model {}: {}	1e80c3220ffd		a_traduire		
+message_serveur	249		content_default	Emote: {}	0f789b5c8f39		a_traduire		
+message_serveur	250		content_default	Spell: {}	0014d689820d		a_traduire		
+message_serveur	251		content_default	Text{} (ID: {}): {}	569e125c5c93		a_traduire		
+message_serveur	252		content_default	AIScript: {}	e89876276a75		a_traduire		
+message_serveur	253		content_default	Forced rename for player {} will be requested at next login.	345e6c84eb3e		a_traduire		
+message_serveur	254		content_default	Forced rename for player {} (GUID #{}) will be requested at next login.	67205c7808ef		a_traduire		
+message_serveur	255		content_default	Waypoint-Creature (GUID: {}) Not found	aaa79b81fce7		a_traduire		
+message_serveur	256		content_default	Could not find NPC...	d76366c7325b		a_traduire		
+message_serveur	257		content_default	Creature movement type set to '{}', waypoints removed (if any).	444f7a3c2ee1		a_traduire		
+message_serveur	258		content_default	Creature movement type set to '{}', waypoints were not removed.	930d54a8795f		a_traduire		
+message_serveur	259		content_default	Incorrect value, use on or off	de0bbf82d9fb		a_traduire		
+message_serveur	260		content_default	Value saved.	396121517f6b		a_traduire		
+message_serveur	261		content_default	Value saved, you may need to rejoin or clean your client cache.	584e03faafb0		a_traduire		
+message_serveur	262		content_default	Areatrigger ID {} not found!	accc8012863f		a_traduire		
+message_serveur	263		content_default	Target map or coordinates is invalid (X: {} Y: {} MapId: {})	b189a0264d4c		a_traduire		
+message_serveur	264		content_default	Zone coordinates is invalid (X: {} Y: {} AreaId: {})	829b2a611921		a_traduire		
+message_serveur	265		content_default	Zone {} ({}) is part of instanceable map {} ({})	d7e63998f2d9		a_traduire		
+message_serveur	266		content_default	Nothing found!	3aca50fd0851		a_traduire		
+message_serveur	267		content_default	Object not found!	5c408a01faed		a_traduire		
+message_serveur	268		content_default	Creature not found!	8231af021b19		a_traduire		
+message_serveur	269		content_default	Warning: Mob found more than once - you will be teleported to the first one found in DB.	3c3cb7443423		a_traduire		
+message_serveur	270		content_default	Creature Removed	bf6320fe1317		a_traduire		
+message_serveur	271		content_default	Creature moved.	2e5c5fc8c160		a_traduire		
+message_serveur	272		content_default	Creature (GUID:{}) must be on the same map as player!	f4429bed48bc		a_traduire		
+message_serveur	273		content_default	Game Object (GUID: {}) not found	3ebf9f66e24c		a_traduire		
+message_serveur	274		content_default	Game Object (GUID: {}) has references in not found creature {} GO list, can't be deleted.	26bb72d5d63a		a_traduire		
+message_serveur	275		content_default	Game Object (GUID: {}) removed	5ea74c8b811c		a_traduire		
+message_serveur	276		content_default	Game Object |cffffffff|Hgameobject:{}|h[{}]|h|r (GUID: {}) turned	e461e6b61a04		a_traduire		
+message_serveur	277		content_default	Game Object |cffffffff|Hgameobject:{}|h[{}]|h|r (GUID: {}) moved	15e5964c455c		a_traduire		
+message_serveur	278		content_default	You must select a vendor	509a35f836ec		a_traduire		
+message_serveur	279		content_default	You must send id for item	c0cf3438961b		a_traduire		
+message_serveur	280		content_default	Vendor has too many items (max 128)	c50c6cbe9461		a_traduire		
+message_serveur	281		content_default	You can't kick self, logout instead	12355805b4eb		a_traduire		
+message_serveur	282		content_default	Player {} kicked.	605c39c93d64		a_traduire		
+message_serveur	283		content_default	{} has disabled {}'s chat for {}, effective at the player's next login. Reason: {}.	f4bab79d45e6		a_traduire		
+message_serveur	284		content_default	Accepting Whisper: {}	7a277587808f		a_traduire		
+message_serveur	285		content_default	Accepting Whisper: ON	3051ad02cb64		a_traduire		
+message_serveur	286		content_default	Accepting Whisper: OFF	f77e0d7292e3		a_traduire		
+message_serveur	287		content_default	Creature (GUID: {}) not found	7c8bdbfe0973		a_traduire		
+message_serveur	288		content_default	Cannot go to spawn {} as only {} exist	5ac5fc22f977		a_traduire		
+message_serveur	289		content_default	New ticket from {}	baaabfb60563		a_traduire		
+message_serveur	290		content_default	Ticket of {} (Last updated: {}):\n{}	53b4bdcc4ae1		a_traduire		
+message_serveur	291		content_default	New ticket show: ON	4154c69ffb4c		a_traduire		
+message_serveur	292		content_default	New ticket show: OFF	d1085276aec9		a_traduire		
+message_serveur	293		content_default	Ticket {} doesn't exist	26c18b6450cc		a_traduire		
+message_serveur	294		content_default	All tickets deleted.	14ef126708b5		a_traduire		
+message_serveur	295		content_default	Character {} ticket deleted.	ce187f851a8a		a_traduire		
+message_serveur	296		content_default	Ticket deleted.	a7a6b92f49a7		a_traduire		
+message_serveur	297		content_default	Wander distance changed to: {}	b18ac715f143		a_traduire		
+message_serveur	298		content_default	Spawn time changed to: {}	37f8d6320a18		a_traduire		
+message_serveur	299		content_default	The honor of {} was set to {}!	27dd489db76d		a_traduire		
+message_serveur	300		content_default	Your chat has been disabled for {}. By: {}, Reason: {}.	01038b23e7dd		a_traduire		
+message_serveur	301		content_default	{} has disabled {}'s chat for {}. Reason: {}.	327d4b3c946a		a_traduire		
+message_serveur	302		content_default	Player's chat is already enabled.	3bc624d7d957		a_traduire		
+message_serveur	303		content_default	Your chat has been enabled.	ba8616efe772		a_traduire		
+message_serveur	304		content_default	You have enabled {}'s chat.	26d0e9b3a922		a_traduire		
+message_serveur	305		content_default	Faction {} ({}) reputation of {} was set to {}!	7675b9b14d5e		a_traduire		
+message_serveur	306		content_default	The arena points of {} was set to {}!	9d94b5b8edba		a_traduire		
+message_serveur	307		content_default	No faction found!	a02432434d0a		a_traduire		
+message_serveur	308		content_default	Faction {} unknown!	b31de1236acc		a_traduire		
+message_serveur	309		content_default	Invalid parameter {}	50c7bf392459		a_traduire		
+message_serveur	310		content_default	delta must be between 0 and {} (inclusive)	95bf232a3730		a_traduire		
+message_serveur	311		content_default	{} - |cffffffff|Hfaction:{}|h[{}]|h|r	9ea1b4a63080		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	312		content_default	 [visible]	93f338126981		a_traduire		
+message_serveur	313		content_default	 [at war]	b3dcb11e079d		a_traduire		
+message_serveur	314		content_default	 [peace forced]	d851902dd28c		a_traduire		
+message_serveur	315		content_default	 [hidden]	78bc8b904186		a_traduire		
+message_serveur	316		content_default	 [invisible forced]	c7f0f892a148		a_traduire		
+message_serveur	317		content_default	 [inactive]	ab355c7fb822		a_traduire		
+message_serveur	318		content_default	Hated	a255e3e11711		a_traduire		
+message_serveur	319		content_default	Hostile	49ce5de18c09		a_traduire		
+message_serveur	320		content_default	Unfriendly	c65cdef3def4		a_traduire		
+message_serveur	321		content_default	Neutral	4bd291394543		a_traduire		
+message_serveur	322		content_default	Friendly	bf567dc78702	Amical.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	323		content_default	Honored	42f0ea81d2e0	Honoré.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	324		content_default	Revered	5375b85cf721	Révéré.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	325		content_default	Exalted	6b862bb20a4a	Exalté.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	326		content_default	Faction {} ({}) can't have reputation.	860cd8b1fc3b		a_traduire		
+message_serveur	327		content_default	 [no reputation]	9f705bf42f46		a_traduire		
+message_serveur	328		content_default	Characters at account {} (Id: {})	0b163b5f2a06		a_traduire		
+message_serveur	329		content_default	  {} (GUID {})	b380fee3f801		a_traduire		
+message_serveur	330		content_default	No players found!	82870b3a58e3		a_traduire		
+message_serveur	331		content_default	Extended item cost {} not exist	8c7f4d72bf72		a_traduire		
+message_serveur	332		content_default	GM mode is ON	02773bfe27b4		a_traduire		
+message_serveur	333		content_default	GM mode is OFF	ffcc10f28b62		a_traduire		
+message_serveur	334		content_default	GM Chat Badge is ON	1aad32022454		a_traduire		
+message_serveur	335		content_default	GM Chat Badge is OFF	d74ef57e9b1b		a_traduire		
+message_serveur	336		content_default	You repair all {}'s items.	8129b38c179e		a_traduire		
+message_serveur	337		content_default	All your items repaired by {}.	9573efd944c9		a_traduire		
+message_serveur	338		content_default	You set waterwalk mode {} for {}.	528b8c857fb5		a_traduire		
+message_serveur	339		content_default	Your waterwalk mode {} by {}.	1a4f1d14d2a8		a_traduire		
+message_serveur	340		content_default	{} is now following you.	dad253f2b401		a_traduire		
+message_serveur	341		content_default	{} is not following you.	b70bd00f7c01		a_traduire		
+message_serveur	342		content_default	{} is now not following you.	c4e7c1a7c89a		a_traduire		
+message_serveur	343		content_default	Creature (Entry: {}) cannot be tamed.	dfa8865f9661		a_traduire		
+message_serveur	344		content_default	You already have pet.	83a875caebf8		a_traduire		
+message_serveur	345		content_default	Forced customize for player {} will be requested at next login.	20eba4e3098b		a_traduire		
+message_serveur	346		content_default	Forced customize for player {} (GUID #{}) will be requested at next login.	b6324cea7b70		a_traduire		
+message_serveur	347		content_default	TaxiNode ID {} not found!	5da5ec30e421		a_traduire		
+message_serveur	348		content_default	Game Object (Entry: {}) have invalid data and can't be spawned	eb7cfb9c53d6		a_traduire		
+message_serveur	349		content_default	{} (idx:{}) - |cffffffff|Htitle:{}|h[{} {}]|h|r {} {} 	44f586e82ee5		a_traduire		
+message_serveur	350		content_default	{} (idx:{}) - [{} {}] {} {} 	8becc1747a39		a_traduire		
+message_serveur	351		content_default	No titles found!	bcbb2954aec1		a_traduire		
+message_serveur	352		content_default	Invalid title id: {}	b907245cd1e9		a_traduire		
+message_serveur	353		content_default	Title {} ({}) added to known titles list for player {}.	1be1bac6c4a5		a_traduire		
+message_serveur	354		content_default	Title {} ({}) removed from known titles list for player {}.	1e245614b680		a_traduire		
+message_serveur	355		content_default	Title {} ({}) set as current seelcted title for player {}.	e5eca51bfc31		a_traduire		
+message_serveur	356		content_default	Current selected title for player {} reset as not known now.	6d27d576d6a8		a_traduire		
+message_serveur	357		content_default	Cheat Command Status:	68eba2945db4		a_traduire		
+message_serveur	358		content_default	Godmode: {}.	2df60cfa4713		a_traduire		
+message_serveur	359		content_default	Casttime: {}.	ff9901b18139		a_traduire		
+message_serveur	360		content_default	Cooldown: {}.	6499e129b9d1		a_traduire		
+message_serveur	361		content_default	Power: {}.	e466e7c813f4		a_traduire		
+message_serveur	362		content_default	Waterwalk: {}.	e7d6e590553d		a_traduire		
+message_serveur	363		content_default	Player {} cannot whisper you any longer.	cf1488d85512		a_traduire		
+message_serveur	364		content_default	Taxinodes: {}.	ae764b860457		a_traduire		
+message_serveur	365		content_default	|cffffffff{}|r equipped items deleted for {}	a8190d9c366b	|cffffffff{}|r objets équipés supprimés pour {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	366		content_default	|cffffffff{}|r items in equipped bags deleted for {}	13715e2b2f8f	|cffffffff{}|r objets supprimés dans les sacs de {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	367		content_default	|cffffffff{}|r items in bank deleted for {}	79858bb6246a	|cffffffff{}|r objets supprimés de la banque de {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	368		content_default	|cffffffff{}|r keys in keyring deleted for {}	f9402b1f90e7	|cffffffff{}|r objets supprimés du porte-clés de {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	369		content_default	|cffffffff{}|r currencies deleted for {}	c34974c8dea2	|cffffffff{}|r types de monnaies supprimées l'inventaire de {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	370		content_default	|cffffffff{}|r items in vendors buyback deleted for {}	a3672a3c12b4	|cffffffff{}|r objets supprimés dans l'onglet rachat des vendeurs pour {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	371		content_default	All items were deleted for {} :\n|cffffffff{}|r items equipped\n|cffffffff{}|r items in bags\n|cffffffff{}|r items in bank\n|cffffffff{}|r keys in keyring\n|cffffffff{}|r currency types\n|cffffffff{}|r items in vendor buyback	0689fa4203be	Tous les objets de {} ont été supprimés :\n|cffffffff{}|r objet équipés\n|cffffffff{}|r objets dans les sacs\n|cffffffff{}|r objets en banque\n|cffffffff{}|r clés dans le porte-clés\n|cffffffff{}|r types de monnaies\n|cffffffff{}|r objets dans l'onglet rachat des vendeurs	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	372		content_default	All items were deleted for {} (bags included):\n|cffffffff{}|r equipped\n|cffffffff{}|r items in bags\n|cffffffff{}|r items in bank\n|cffffffff{}|r keys in keyring\n|cffffffff{}|r currency types\n|cffffffff{}|r items in vendor buyback\n|cffffffff{}|r standard bags\n|cffffffff{}|r bank bags	1af8dd63a242	Tous les objets de {} ont été supprimés (sacs y-compris):\n|cffffffff{}|r objet équipés\n|cffffffff{}|r objets dans les sacs\n|cffffffff{}|r objets en banque\n|cffffffff{}|r clés dans le porte-clés\n|cffffffff{}|r types de monnaies\n|cffffffff{}|r objets dans l'onglet rachat des vendeurs\n|cffffffff{}|r sacs standard\n|cffffffff{}|r sacs de banque	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	373		content_default	Target unit does not have aura {}!	8b0a32fa6e79		a_traduire		
+message_serveur	374		content_default	No stack amount specified!	21c7ed01b37d		a_traduire		
+message_serveur	375		content_default	Spell {} cannot have stacks!	7361cce25050		a_traduire		
+message_serveur	400		content_default	|cffff0000[System Message]:|rScripts reloaded	ed8ca965a09c		a_traduire		
+message_serveur	401		content_default	You change security level of account {} to {}.	dc2f82d5cb80		a_traduire		
+message_serveur	402		content_default	{} changed your security level to {}.	d0dc574135ad		a_traduire		
+message_serveur	403		content_default	You have low security level for this.	c6820e93db41		a_traduire		
+message_serveur	404		content_default	Creature movement disabled.	41ff97c0a69a		a_traduire		
+message_serveur	405		content_default	Creature movement enabled.	b2848faefc97		a_traduire		
+message_serveur	406		content_default	Weather can't be changed for this zone.	5189eec135e0		a_traduire		
+message_serveur	407		content_default	Weather system disabled at server.	f25309f59da0		a_traduire		
+message_serveur	408		content_default	{} is banned for {}. Reason: {}.	5dffcdcfc4b0		a_traduire		
+message_serveur	409		content_default	{} is banned permanently. Reason: {}.	4531a3b6b82b		a_traduire		
+message_serveur	410		content_default	{} {} not found	cefeb65c63fc		a_traduire		
+message_serveur	411		content_default	{} unbanned.	d773bc2fd5c3		a_traduire		
+message_serveur	412		content_default	There was an error removing the ban on {}.	1dc28dde7379		a_traduire		
+message_serveur	413		content_default	Account not exist: {}	2bceab3ce92f		a_traduire		
+message_serveur	414		content_default	There is no such character. Remember that the names are cAsE SeNSITivE!	0814823297cf		a_traduire		
+message_serveur	415		content_default	There is no such IP in banlist.	d9bb8be84a45		a_traduire		
+message_serveur	416		content_default	Account {} has never been banned	4b9b787d2ac4		a_traduire		
+message_serveur	417		content_default	Ban history for account {}:	1e4727ca3962		a_traduire		
+message_serveur	418		content_default	Ban Date: {} Bantime: {} Still active: {}  Reason: {} Set by: {}	08236db1faa3		a_traduire		
+message_serveur	419		content_default	Inf.	dceb8b51bf9b		a_traduire		
+message_serveur	420		content_default	Never	80c3052d33cc		a_traduire		
+message_serveur	421		content_default	Yes	5397e0583f14		a_traduire		
+message_serveur	422		content_default	No	816c52fd2bdd		a_traduire		
+message_serveur	423		content_default	IP: {}\nBan Date: {}\nUnban Date: {}\nRemaining: {}\nReason: {}\nSet by: {}	c0a0ac15e3a2		a_traduire		
+message_serveur	424		content_default	There is no matching IPban.	f3a7ceb580f6		a_traduire		
+message_serveur	425		content_default	There is no matching account.	f7496a6626ef		a_traduire		
+message_serveur	426		content_default	There is no banned account owning a character matching this part.	4ac0f9250a36		a_traduire		
+message_serveur	427		content_default	The following IPs match your pattern:	77818fa9a10b		a_traduire		
+message_serveur	428		content_default	The following accounts match your query:	805988619f7d		a_traduire		
+message_serveur	429		content_default	You learned many spells/skills.	201e7f296d09		a_traduire		
+message_serveur	430		content_default	You learned all spells for class.	a11cdf9f10c7		a_traduire		
+message_serveur	431		content_default	You learned all talents for class.	ab5c8704239f		a_traduire		
+message_serveur	432		content_default	You learned all languages.	d30ea91e2be7		a_traduire		
+message_serveur	433		content_default	You learned all craft skills and recipes.	91aeda2fa33a		a_traduire		
+message_serveur	434		content_default	Could not find '{}'	58c1276c4dfe		a_traduire		
+message_serveur	435		content_default	Invalid item id: {}	d3d2d45f5b2f		a_traduire		
+message_serveur	436		content_default	No items found!	f2f62c460fe1		a_traduire		
+message_serveur	437		content_default	Invalid gameobject id: {}	084911d7e859		a_traduire		
+message_serveur	438		content_default	Found items {}: {} ( inventory {} mail {} auction {} guild {})	6319e632a759		a_traduire		
+message_serveur	439		content_default	Found gameobjects {}: {} 	22c1436ad834		a_traduire		
+message_serveur	440		content_default	Invalid creature id: {}	8af25a758c0f		a_traduire		
+message_serveur	441		content_default	Found creatures {}: {} 	4323a70c2c84		a_traduire		
+message_serveur	442		content_default	No area found!	67939b4235da		a_traduire		
+message_serveur	443		content_default	No item sets found!	9b8b582d9bdf		a_traduire		
+message_serveur	444		content_default	No skills found!	ee7854e37ed9		a_traduire		
+message_serveur	445		content_default	No spells found!	839c5c08bcc6		a_traduire		
+message_serveur	446		content_default	No quests found!	6eca127c3814		a_traduire		
+message_serveur	447		content_default	No creatures found!	98b58435c14d		a_traduire		
+message_serveur	448		content_default	No gameobjects found!	8eebdcc82d58		a_traduire		
+message_serveur	449		content_default	Graveyard #{} doesn't exist.	c0dad01e40e8		a_traduire		
+message_serveur	450		content_default	Graveyard #{} already linked to zone #{} (current).	0c130c91f24d		a_traduire		
+message_serveur	451		content_default	Graveyard #{} linked to zone #{} (current).	763889b941c1		a_traduire		
+message_serveur	452		content_default	Graveyard #{} can't be linked to subzone or not existed zone #{} (internal error).	46aa7d55977f		a_traduire		
+message_serveur	453		content_default	Ban time remaining: {}, Banned by: {}, Reason: {}	698a9c274045		a_traduire		
+message_serveur	454		content_default	No faction in Graveyard with id= #{} , fix your DB	af3a120cc7eb		a_traduire		
+message_serveur	455		content_default	invalid team, please fix database	0b5d6a1e4a36		a_traduire		
+message_serveur	456		content_default	any	c5fe0200d1c7		a_traduire		
+message_serveur	457		content_default	alliance	b73730cf341c		a_traduire		
+message_serveur	458		content_default	horde	7be4ccb0a4ee		a_traduire		
+message_serveur	459		content_default	Graveyard #{} (faction: {}) is nearest from linked to zone #{}.	810f2d4b7169		a_traduire		
+message_serveur	460		content_default	Zone #{} doesn't have linked graveyards.	5425b9f1d548		a_traduire		
+message_serveur	461		content_default	Zone #{} doesn't have linked graveyards for faction: {}.	39670677062e		a_traduire		
+message_serveur	462		content_default	Teleport location already exists!	0e85a7adcccb		a_traduire		
+message_serveur	463		content_default	Teleport location added.	d3dcbd15bb83		a_traduire		
+message_serveur	464		content_default	Teleport location NOT added: database error.	ff55c06892e3		a_traduire		
+message_serveur	465		content_default	Teleport location deleted.	1fa1d585b14e		a_traduire		
+message_serveur	466		content_default	No taxinodes found!	35d55d03418e		a_traduire		
+message_serveur	467		content_default	Target unit has {} auras:	2b974679fece		a_traduire		
+message_serveur	468		content_default	id: {} {} effmask: {} charges: {} stack: {} slot {} duration: {} maxduration: {} {} {} caster: {} guid: {}	1d1f661369b1		a_traduire		
+message_serveur	469		content_default	Target unit has {} auras of type {}:	b53c12b4b0ff		a_traduire		
+message_serveur	470		content_default	id: {} eff: {} amount: {}	6107b10af614		a_traduire		
+message_serveur	471		content_default	Quest {} not found.	0c6dddeaa7ea		a_traduire		
+message_serveur	472		content_default	Quest {} started from item. For correct work, please, add item to inventory and start quest in normal way: .additem {}	8f078c064c2a		a_traduire		
+message_serveur	473		content_default	Quest {} ({}) removed.	6d0e6b1e11b4		a_traduire		
+message_serveur	474		content_default	Quest {} ({}) rewarded.	d2cafbab621e		a_traduire		
+message_serveur	475		content_default	Quest {} ({}) completed.	7601545ff38a		a_traduire		
+message_serveur	476		content_default	Quest {} ({}) is already active.	f127546ed097		a_traduire		
+message_serveur	477		content_default	{}'s Fly Mode {}	dcb32f329121		a_traduire		
+message_serveur	478		content_default	Opcode {} sent to {}	4c3761e55474		a_traduire		
+message_serveur	479		content_default	Character loaded successfully!	b78c81bedbd7		a_traduire		
+message_serveur	480		content_default	Failed to load the character!	dca4730038a4		a_traduire		
+message_serveur	481		content_default	Character dumped successfully!	8231bcff84df		a_traduire		
+message_serveur	482		content_default	Character dump failed!	0c439e0ef27b		a_traduire		
+message_serveur	483		content_default	Spell {} broken and not allowed to cast or learn!	43dcdc14c1f8		a_traduire		
+message_serveur	484		content_default	Skill {} ({}) for player {} set to {} and current maximum set to {} (without permanent (talent) bonuses).	0b6dff2b612a		a_traduire		
+message_serveur	485		content_default	Player {} must have skill {} ({}) before using this command.	2361daa475a3		a_traduire		
+message_serveur	486		content_default	Invalid skill id ({})	a0fd843e916c		a_traduire		
+message_serveur	487		content_default	You learned default GM spells/skills.	4cf67f06a2fd		a_traduire		
+message_serveur	488		content_default	You already know that spell.	9fbd1c8bee8b	Vous connaissez déjà ce sort.	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	489		content_default	Target({}) already know that spell.	453b1e3fee6b		a_traduire		
+message_serveur	490		content_default	{} doesn't know that spell.	4d3d0778098c		a_traduire		
+message_serveur	491		content_default	You already forgot that spell.	90365645fc34		a_traduire		
+message_serveur	492		content_default	All spell cooldowns removed for {}.	bda05bc401af		a_traduire		
+message_serveur	493		content_default	Spell {} cooldown removed for {}.	f2bcd8ed6f14		a_traduire		
+message_serveur	494		content_default	Command : Additem, itemId = {}, amount = {}	6b531b92ec25		a_traduire		
+message_serveur	495		content_default	Command : Additemset, itemsetId = {}	c48f1bde6ec5		a_traduire		
+message_serveur	496		content_default	Removed itemID = {}, amount = {} from {}	0c730a36980b		a_traduire		
+message_serveur	497		content_default	Cannot create item '{}' (amount: {})	1b7321247e2f		a_traduire		
+message_serveur	498		content_default	You need to provide a guild name!	40c3a86f06f5		a_traduire		
+message_serveur	499		content_default	Player not found!	2404778c43b4		a_traduire		
+message_serveur	500		content_default	Player already has a guild!	24e4e2567499		a_traduire		
+message_serveur	501		content_default	Guild not created! (already exists?)	5ac821f6f4fd		a_traduire		
+message_serveur	502		content_default	No items from itemset '{}' found.	b1bfb8bce67a		a_traduire		
+message_serveur	503		content_default	The distance is: (3D) {} (2D) {} (Exact 3D) {} (Exact 2D) {} yards.	cb2f68744985		a_traduire		
+message_serveur	504		content_default	Item '{}' '{}' Item Slot {}	5400d8460759		a_traduire		
+message_serveur	505		content_default	Item '{}' doesn't exist.	49943198f9a4		a_traduire		
+message_serveur	506		content_default	Item '{}' '{}' Added to Slot {}	36c6678999bb		a_traduire		
+message_serveur	507		content_default	Item save failed!	c1d870d09185		a_traduire		
+message_serveur	508		content_default	{} - owner: {} (guid: {} account: {} ) {}	23bbeac57098		a_traduire		
+message_serveur	509		content_default	{} - sender: {} (guid: {} account: {} ) receiver: {} (guid: {} account: {} ) {}	0eaf3b993f64		a_traduire		
+message_serveur	510		content_default	{} - owner: {} (guid: {} account: {} ) {}	23bbeac57098		a_traduire		
+message_serveur	511		content_default	Wrong link type!	6a7377852ba1		a_traduire		
+message_serveur	512		content_default	{} - |c{}|Hitem:{}:0:0:0:0:0:0:0:0|h[{}]|h|r 	2b7ba9243029		a_traduire		
+message_serveur	513		content_default	{} - |cffffffff|Hquest:{}:{}|h[{}]|h|r {}	1884ebc22511		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	514		content_default	{} - |cffffffff|Hcreature_entry:{}|h[{}]|h|r 	5566dfcbda68		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	515		content_default	{} - (entry: {}) |cffffffff|Hcreature:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r	b181fb9aa86c		a_traduire		
+message_serveur	516		content_default	{} - |cffffffff|Hgameobject_entry:{}|h[{}]|h|r 	61e607eee577		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	517		content_default	{} (Entry: {}) - |cffffffff|Hgameobject:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r 	0c4daf08fad3		a_traduire		
+message_serveur	518		content_default	{} - |cffffffff|Hitemset:{}|h[{} {}]|h|r 	418fb5cdd135		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	519		content_default	|cffffffff|Htele:{}|h[{}]|h|r 	db79a92275fd		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	520		content_default	{} - |cffffffff|Hspell:{}|h[{}]|h|r 	0752c097c26f		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	521		content_default	{} - |cffffffff|Hskill:{}|h[{} {}]|h|r {} {}	154033e039b3		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	522		content_default	Game Object (Entry: {}) not found	6ac02543e77c		a_traduire		
+message_serveur	523		content_default	>> Game Object {} (GUID: {}) at {} {} {}. Orientation {}.	3a236cf6fdd8		a_traduire		
+message_serveur	524		content_default	Selected object:\n|cffffffff|Hgameobject:{}|h[{}]|h|r GUID: {} ID: {}\nX: {} Y: {} Z: {} MapId: {}\nOrientation: {}\nPhasemask {}	088964db6424		a_traduire		
+message_serveur	525		content_default	>> Add Game Object '{}' ({}) (GUID: {}) added at '{} {} {}'.	8905f3088b9d		a_traduire		
+message_serveur	526		content_default	{} (lowguid: {}) movement generators stack:	d1f8d47b5a82		a_traduire		
+message_serveur	527		content_default	   Idle	a410d5940f69		a_traduire		
+message_serveur	528		content_default	   Random	b034fdee8e55		a_traduire		
+message_serveur	529		content_default	   Waypoint	e2dfce21e7e0		a_traduire		
+message_serveur	530		content_default	   Animal random	e128572e1f42		a_traduire		
+message_serveur	531		content_default	   Confused	5a959b34f9d4		a_traduire		
+message_serveur	532		content_default	   Targeted to player {} (lowguid {})	65c662d2a754		a_traduire		
+message_serveur	533		content_default	   Targeted to creature {} (lowguid {})	9fe90e8b2759		a_traduire		
+message_serveur	534		content_default	   Targeted to <NULL>	49ce3699adc2		a_traduire		
+message_serveur	535		content_default	   Home movement to (X:{} Y:{} Z:{})	973dc8e20c24		a_traduire		
+message_serveur	536		content_default	   Home movement used for player?!?	2204d9f2e681		a_traduire		
+message_serveur	537		content_default	   Taxi flight	4156bc1599c7		a_traduire		
+message_serveur	538		content_default	   Unknown movement generator ({})	f2f7cc5f2068		a_traduire		
+message_serveur	539		content_default	Player selected NPC\nDB GUID: {}, current GUID: {}.\nCurrent Entry: {} of ({}, {}, {}).\nDisplayID: {} (Native: {}).\nFaction: {}.\nnpcFlags: {}.	6c05e5f68fdd	PNJ sélectionné par le joueur\nGUID en base: {}, GUID actuel: {}.\nEntry actuel: {} de ({}, {}, {}).\nDisplayID: {} (Natif: {}).\nFaction: {}.\nnpcFlags: {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	540		content_default	Level: {}.	1cf78d578851		a_traduire		
+message_serveur	541		content_default	Health (base): {}. (max): {}. (current): {}.	51b841e704c2		a_traduire		
+message_serveur	542		content_default	Unit Flags: {}.\nUnit Flags 2: {}.\nDynamic Flags: {}.\nFaction Template: {}.	a72de5f36857		a_traduire		
+message_serveur	543		content_default	Loot: {} Pickpocket: {} Skinning: {}	1cd69958c1a3		a_traduire		
+message_serveur	544		content_default	Position: {} {} {}.	feafc2feaf59		a_traduire		
+message_serveur	545		content_default	* is vendor ({})	27c7e028819b		a_traduire		
+message_serveur	546		content_default	* is trainer ({})	df2bfed9815b		a_traduire		
+message_serveur	547		content_default	InstanceID: {}	c312cc8aa265		a_traduire		
+message_serveur	548		content_default	Player{} {} (guid: {}) Account: {} (id: {}) Email: {} GMLevel: {} Last IP: {} Last login: {} Latency: {}ms	0e6cf7addcf0		a_traduire		
+message_serveur	549		content_default	Race: {} Class: {} Played time: {} Level: {} Money: {}g{}s{}c	103c60f0479a		a_traduire		
+message_serveur	550		content_default	Mute time remaining: {}, By: {}, Reason: {}	9d940a0cc9f8		a_traduire		
+message_serveur	551		content_default	{} has explored all zones now.	eae6d784f2b7		a_traduire		
+message_serveur	552		content_default	{} has no more explored zones.	7ebae365e73b		a_traduire		
+message_serveur	553		content_default	{} has explored all zones for you.	98fe2ace2fa4		a_traduire		
+message_serveur	554		content_default	{} has hidden all zones from you.	e3ec698c687e		a_traduire		
+message_serveur	555		content_default	SetData performed on [GUID: {}, entry: {}, name: {}] Field: {}, Data: {}, with {}	8b41852f30e5		a_traduire		
+message_serveur	556		content_default	Found near creatures (distance {}): {} 	1a2748b9ee4d		a_traduire		
+message_serveur	557		content_default	{} level up you to ({})	0a36ad87c53b		a_traduire		
+message_serveur	558		content_default	{} level down you to ({})	f2826f363451		a_traduire		
+message_serveur	559		content_default	{} reset your level progress.	aa79b8ba4722		a_traduire		
+message_serveur	560		content_default	The area has been set as explored.	39372d79e90a		a_traduire		
+message_serveur	561		content_default	The area has been set as not explored.	c1e1706cbd5b		a_traduire		
+message_serveur	562		content_default	GUID={} 's updateIndex: {}, value:  {}.	bccd27f664ac		a_traduire		
+message_serveur	563		content_default	You change GUID={} 's UpdateIndex: {} value to {}.	606a47cf4be7		a_traduire		
+message_serveur	564		content_default	The value index {} is too big to {}(count: {}).	25e29c043ae3		a_traduire		
+message_serveur	565		content_default	Set {} uint32 Value:[OPCODE]:{} [VALUE]:{}	4c8c61774585		a_traduire		
+message_serveur	566		content_default	You Set {} Field:{} to uint32 Value: {}	51b220917500		a_traduire		
+message_serveur	567		content_default	Set {} float Value:[OPCODE]:{} [VALUE]:{}	71597a00e885		a_traduire		
+message_serveur	568		content_default	You Set {} Field:{} to float Value: {}	18c026ee9b26		a_traduire		
+message_serveur	569		content_default	Get {} uint32 Value:[OPCODE]:{} [VALUE]:{}	3eb930f1f33c		a_traduire		
+message_serveur	570		content_default	The uint32 value of {} in {} is: {}	3141db48d6b0		a_traduire		
+message_serveur	571		content_default	Get {} float Value:[OPCODE]:{} [VALUE]:{}	8f3b8d15b8c3		a_traduire		
+message_serveur	572		content_default	The float of {} value in {} is: {}	0a6af64f8546		a_traduire		
+message_serveur	573		content_default	.Set32Bit:[OPCODE]:{} [VALUE]:{}	a65815a16a25		a_traduire		
+message_serveur	574		content_default	You set Bit of Field:{} to Value: {}	cd5bc90f87ed		a_traduire		
+message_serveur	575		content_default	.Mod32Value:[OPCODE]:{} [VALUE]:{}	3f860cd88449		a_traduire		
+message_serveur	576		content_default	You modified the value of Field:{} to Value: {}	5cabfdb509c9		a_traduire		
+message_serveur	577		content_default	You are now invisible.	ac7bbf3d2672		a_traduire		
+message_serveur	578		content_default	You are now visible.	806558a6219f		a_traduire		
+message_serveur	579		content_default	Selected player or creature not have victim.	9fc2c23b6f04		a_traduire		
+message_serveur	580		content_default	Player {} learned all default spells for race/class and completed quests rewarded spells.	0575ea8a7bd5		a_traduire		
+message_serveur	581		content_default	Found near gameobjects (distance {}): {} 	d61dad322dbc		a_traduire		
+message_serveur	582		content_default	SpawnTime: Full:{} Remain:{}	53533531484c		a_traduire		
+message_serveur	583		content_default	{} - |cffffffff|Hgameevent:{}|h[{}]|h|r{}	2a2ef6efdc72		technique		technique=marqueurs_ou_variables_seuls
+message_serveur	584		content_default	No event found!	9bbe44c57240		a_traduire		
+message_serveur	585		content_default	Event not exist!	70497d939f2d		a_traduire		
+message_serveur	586		content_default	Event {}: {}{}\nStart: {} End: {} Occurence: {} Length: {}\nNext state change: {}	def8a4449c68		a_traduire		
+message_serveur	587		content_default	Event {} ({}) is already active!	5328552e3695		a_traduire		
+message_serveur	588		content_default	Event {} ({}) is not active!	d76cda9b299f		a_traduire		
+message_serveur	589		content_default	   Point movement to (X:{} Y:{} Z:{})	46f3cad76e01		a_traduire		
+message_serveur	590		content_default	   Fear movement	f5850a6b60ba		a_traduire		
+message_serveur	591		content_default	   Distract movement	fb15071b2c44		a_traduire		
+message_serveur	592		content_default	You have learned all spells in craft: {}	22229c0822d4		a_traduire		
+message_serveur	593		content_default	Currently Banned Accounts:	bbc2c627c502		a_traduire		
+message_serveur	594		content_default	|    Account    |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	f2dfe427e5b7		a_traduire		
+message_serveur	595		content_default	Currently Banned IPs:	bee017776dee		a_traduire		
+message_serveur	596		content_default	|      IP       |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	0dbdbf98c0f2		a_traduire		
+message_serveur	597		content_default	Current gamemasters:	b74b7dc44e5a		a_traduire		
+message_serveur	598		content_default	|    Account    |  GM  |	cf42d1d14622		a_traduire		
+message_serveur	599		content_default	No gamemasters.	3f0f0cb7ddc6		a_traduire		
+message_serveur	600		content_default	Event {} ({}) is started	22e7d6354257		a_traduire		
+message_serveur	601		content_default	Event {} ({}) is stopped	72001cf8b58d		a_traduire		
+message_serveur	602		content_default	 [rewarded]	9495a97c5521		a_traduire		
+message_serveur	603		content_default	Do Action performed on [GUID: {}, entry: {}, name: {}] Action: {}	cfabaa0d5859		a_traduire		
+message_serveur	705		content_default	You must wait {} before speaking again.	809d67899b71		a_traduire		
+message_serveur	706		content_default	This item(s) have problems with equipping/storing in inventory.	bba150b415ed		a_traduire		
+message_serveur	707		content_default	{} does not wish to be disturbed: {}	c51ae1578912		a_traduire		
+message_serveur	708		content_default	{} is Away from Keyboard: {}	4b0a21c15e80		a_traduire		
+message_serveur	709		content_default	Do not Disturb	687d3796e681		a_traduire		
+message_serveur	710		content_default	Away from Keyboard	c2f276d6e05d		a_traduire		
+message_serveur	711		content_default	Queue status for {} (Lvl: {} to {})\nQueued alliances: {} (Need at least {} more)\nQueued hordes: {} (Need at least {} more)	3eb378e0934d		a_traduire		
+message_serveur	712		content_default	|cffff0000[BG Queue Announcer]:|r {} -- [{}-{}] [{}/{}]|r	6badd24b464d		a_traduire		
+message_serveur	713		content_default	Queue status for {} (skirmish {}) (Lvl: {} to {})\nQueued: {} (Need at least {} more)	53eead6d74e9		a_traduire		
+message_serveur	714		content_default	Map: {}, Area: {}, Zone: {}, Phase: {}	77d90109b142		a_traduire		
+message_serveur	715		content_default	You don't meet Battleground level requirements	e61a85524b02		a_traduire		
+message_serveur	716		content_default	Map: {}, Area: {}	c538af9d2de7		a_traduire		
+message_serveur	717		content_default	|cffff0000[BG Queue Announcer]:|r {} -- [{}-{}] Started!|r	5e862281c1a2		a_traduire		
+message_serveur	718		content_default	|cffff0000[Arena Queue Announcer]:|r {} -- Joined : {}x{} : {}|r	f942534c7086	|cffff0000[Annonce File d'Attente Arène]:|r {} -- Rejoint : {}x{} : {}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	719		content_default	|cffff0000[Arena Queue Announcer]:|r {} -- Exited : {}x{} : {}|r	c2ac55991d5b	|cffff0000[Annonce File d'Attente Arène]:|r {} -- Quitté : {}x{} : {}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	720		content_default	Your group is too large for this battleground. Please regroup to join.	fd101fbe8992		a_traduire		
+message_serveur	721		content_default	Your group is too large for this arena. Please regroup to join.	ba3475a20844		a_traduire		
+message_serveur	722		content_default	Your group has members not in your arena team. Please regroup to join.	443cd7d977a0		a_traduire		
+message_serveur	723		content_default	Your group does not have enough players to join this match.	b10abe6e6ee9		a_traduire		
+message_serveur	726		content_default	|cffff0000[Arena Queue]:|r {} (skirmish {}) -- [{}-{}] [{}/{}]|r	dbe4fa716748		a_traduire		
+message_serveur	727		content_default	Your group has an offline member. Please remove him before joining.	8c4a438591dc		a_traduire		
+message_serveur	728		content_default	Your group has players from the opposing faction. You can't join the battleground as a group.	005d15578bda		a_traduire		
+message_serveur	729		content_default	Your group has players from different battleground brakets. You can't join as group.	9010331c8122		a_traduire		
+message_serveur	730		content_default	Someone in your party is already in this battleground queue. (S)he must leave it before joining as group.	c9a611eec1a3		a_traduire		
+message_serveur	731		content_default	Someone in your party is Deserter. You can't join as group.	e8aa97f412cd		a_traduire		
+message_serveur	732		content_default	Someone in your party is already in three battleground queues. You cannot join as group.	e9ca8c36cbbc		a_traduire		
+message_serveur	733		content_default	You cannot teleport to a battleground or arena map.	068c255140fa		a_traduire		
+message_serveur	734		content_default	You cannot summon players to a battleground or arena map.	2431fe5552a1		a_traduire		
+message_serveur	735		content_default	You must be in GM mode to teleport to a player in a battleground.	a0c0818ef76d		a_traduire		
+message_serveur	736		content_default	You cannot teleport to a battleground from another battleground. Please leave the current battleground first.	2ac0badfcc0d		a_traduire		
+message_serveur	737		content_default	Arenas are set to 1v1 for debugging. So, don't join as group.	c2255f839c71		a_traduire		
+message_serveur	738		content_default	Arenas are set to normal playercount.	72d49eaa8107		a_traduire		
+message_serveur	739		content_default	Battlegrounds are set to 1v0 for debugging.	6d5062611661		a_traduire		
+message_serveur	740		content_default	Battlegrounds are set to normal playercount.	876169459bc2		a_traduire		
+message_serveur	741		content_default	Flushing Arena points based on team ratings, this may take a few minutes. Please stand by...	ce833b32e306		a_traduire		
+message_serveur	742		content_default	Distributing arena points to players...	f873d6762505		a_traduire		
+message_serveur	743		content_default	Finished setting arena points for online players.	53ea9985fa5a		a_traduire		
+message_serveur	744		content_default	Modifying played count, arena points etc. for loaded arena teams, sending updated stats to online players...	9b0199bc2da1		a_traduire		
+message_serveur	745		content_default	Modification done.	70cce6f95aba		a_traduire		
+message_serveur	746		content_default	Done flushing Arena points.	e9520a4e70c1		a_traduire		
+message_serveur	747		content_default	This Battleground has been disabled. You can't join the queue.	646bcae75ae2		a_traduire		
+message_serveur	748		content_default	Arenas have been disabled. You can't join the queue.	a3ea0bb83f91		a_traduire		
+message_serveur	749		content_default	| OS: {} - Latency: {} ms	061931c8203e		a_traduire		
+message_serveur	750		content_default	Not enough players. This game will close in {} mins.	2848b8e202a3		a_traduire		
+message_serveur	751		content_default	Not enough players. This game will close in {} seconds.	1c3e373b4131		a_traduire		
+message_serveur	752		content_default	| Last IP: {} (Locked: {})	602957d28e01		a_traduire		
+message_serveur	773		content_default	|cffff0000[Arena Queue Announcer]:|r {} -- Joined : {}x{}|r	394bea0a9072	|cffff0000[Annonce File d'Attente Arène]:|r {} -- Rejoint : {}x{}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	774		content_default	|cffff0000[Arena Queue Announcer]:|r {} -- Exited : {}x{}|r	1ef9bc88a3d9	|cffff0000[Annonce File d'Attente Arène]:|r {} -- Quitté : {}x{}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	775		content_default	|cffff0000[Arena Queue Announcer]:|r Joined : {}x{} : {}|r	ec6d6d07aab1	|cffff0000[Annonce File d'Attente Arène]:|r Rejoint : {}x{} : {}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	776		content_default	|cffff0000[Arena Queue Announcer]:|r Exited : {}x{} : {}|r	1128539e389b	|cffff0000[Annonce File d'Attente Arène]:|r Quitté : {}x{} : {}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	777		content_default	|cffff0000[Arena Queue Announcer]:|r Joined : {}x{}|r	273173445689	|cffff0000[Annonce File d'Attente Arène]:|r Rejoint : {}x{}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	778		content_default	|cffff0000[Arena Queue Announcer]:|r Exited : {}x{}|r	3af8472dc425	|cffff0000[Annonce File d'Attente Arène]:|r Quitté : {}x{}|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	785		content_default	Arena testing turned {}	0e3a5c6c4864		a_traduire		
+message_serveur	786		content_default	|cffff0000[Automatic]:|r	777458d144e7		a_traduire		
+message_serveur	787		content_default	|cffffff00[|c1f40af20Announce by|r |cffff0000{}|cffffff00]:|r {}|r	6eec6b4e3454		a_traduire		
+message_serveur	800		content_default	Invalid name	bb1826ee4d8e		a_traduire		
+message_serveur	801		content_default	You do not have enough gold	ae18334329fd		a_traduire		
+message_serveur	802		content_default	You do not have enough free slots	157a78f6ceed		a_traduire		
+message_serveur	803		content_default	Your partner does not have enough free bag slots	77c8d19c2293		a_traduire		
+message_serveur	804		content_default	You do not have permission to perform that function	807368f65fb8		a_traduire		
+message_serveur	805		content_default	Unknown language	e4f2add9e4a5		a_traduire		
+message_serveur	806		content_default	You don't know that language	e41bb40fa91f		a_traduire		
+message_serveur	807		content_default	Please provide character name	5b535a2ef196		a_traduire		
+message_serveur	808		content_default	Player {} not found or offline	67b4f30e7a32		a_traduire		
+message_serveur	809		content_default	Account for character {} not found	577113913a4d		a_traduire		
+message_serveur	811		content_default	Guild Master	5b140610d68a	Maître de guilde	machine	release_3.5.1	fichier=release:DB_Communaute.lua;famille=prose
+message_serveur	812		content_default	Officer	f58330ab22f6		a_traduire		
+message_serveur	813		content_default	Veteran	4146a9880174		a_traduire		
+message_serveur	814		content_default	Member	6853c98a6f43		a_traduire		
+message_serveur	815		content_default	Initiate	fd4e81918202		a_traduire		
+message_serveur	816		content_default	Warning: You've entered a no-fly zone and are about to be dismounted!	3de4d2151272	Alerte : vous venez de pénétrer dans une zone de survol interdit. Vous allez être $gdésarçonné:désarçonnée; !	officiel	blizzard_frFR	niveau=meme_groupe;attention_variables_differentes
+message_serveur	817		content_default	Entry {} not found in creature_template table.	6225c4721a93		a_traduire		
+message_serveur	818		content_default	Entry {} not found in sCreatureStorage. Possible new line in creature_template, but you can not add new creatures without restarting. Only modifing is allowed.	624cdeda9f84		a_traduire		
+message_serveur	819		content_default	City	4271627f4f0b		a_traduire		
+message_serveur	820		content_default	* has gossip ({})	5e44bf76bdaa		a_traduire		
+message_serveur	821		content_default	* is quest giver ({})	d550bb240d71		a_traduire		
+message_serveur	822		content_default	* is class trainer ({})	198fb0c97fb1		a_traduire		
+message_serveur	823		content_default	* is profession trainer({})	234e1ebeecda		a_traduire		
+message_serveur	824		content_default	* is ammo vendor ({})	077813a9b0be		a_traduire		
+message_serveur	825		content_default	* is food vendor({})	492fc5864b21		a_traduire		
+message_serveur	826		content_default	* is poison vendor ({})	afce3e36ecbe		a_traduire		
+message_serveur	827		content_default	* is reagent vendor ({})	95df0eac6f01		a_traduire		
+message_serveur	828		content_default	* can repair ({})	246cacba21f5		a_traduire		
+message_serveur	829		content_default	* is flight master ({})	a72b6a4c5075		a_traduire		
+message_serveur	830		content_default	* is spirit healer ({})	ac1e0c3a4fcd		a_traduire		
+message_serveur	831		content_default	* is spirit guide ({})	248bde9620b4		a_traduire		
+message_serveur	832		content_default	* is innkeeper ({})	462b529b058e		a_traduire		
+message_serveur	833		content_default	* is banker ({})	fabe1af520c2		a_traduire		
+message_serveur	834		content_default	* is petitioner ({})	6d06d6c4c09f		a_traduire		
+message_serveur	835		content_default	* is tabard designer ({})	d6c690ed4d8e		a_traduire		
+message_serveur	836		content_default	* is battle master ({})	d5c5598833ad		a_traduire		
+message_serveur	837		content_default	* is auctioneer ({})	6c5fdd75183f		a_traduire		
+message_serveur	838		content_default	* is stable master ({})	4bc3676798d9		a_traduire		
+message_serveur	839		content_default	* is guild banker ({})	c7e574b818e4		a_traduire		
+message_serveur	840		content_default	* has spell click ({})	dc95a32d8ffa		a_traduire		
+message_serveur	841		content_default	* is mailbox ({})	60a869f6f4cb		a_traduire		
+message_serveur	842		content_default	* is player vehicle ({})	02244d457ba3		a_traduire		
+message_serveur	843		content_default	| Level: {} ({}/{} XP ({} XP left))	6992933997de		a_traduire		
+message_serveur	844		content_default	| Race: {} {}, {}	fd4529a596a7		a_traduire		
+message_serveur	845		content_default	| Alive ?: {}	1db918470e6b		a_traduire		
+message_serveur	846		content_default	| Phase: {}	a923fad06ccd		a_traduire		
+message_serveur	847		content_default	| Money: {}g{}s{}c	1e43a5071e71		a_traduire		
+message_serveur	848		content_default	| Map: {}, Zone: {}	9bb7be7752e4		a_traduire		
+message_serveur	849		content_default	| Guild: {} (ID: {})	0f688ac94b89		a_traduire		
+message_serveur	850		content_default	|-- Rank: {}	ec824cb3c7f7		a_traduire		
+message_serveur	851		content_default	|-- Note: {}	7ee00f684561		a_traduire		
+message_serveur	852		content_default	|-- O. Note: {}	b9eeff89f918		a_traduire		
+message_serveur	853		content_default	| Played time: {}	4472a290c9f3		a_traduire		
+message_serveur	854		content_default	| Mails: {} Read/{} Total	44f4c77b7f20		a_traduire		
+message_serveur	855		content_default	Male	3f3a489c72de		a_traduire		
+message_serveur	856		content_default	Female	b7c17e97d3d6		a_traduire		
+message_serveur	857		content_default	Arena team [{}] not found	99b25cf0daaa		a_traduire		
+message_serveur	858		content_default	There is already an arena team named "{}"	dcb562f0e4d2		a_traduire		
+message_serveur	859		content_default	{} is already in an arena team of that size	42aeecc70f37		a_traduire		
+message_serveur	860		content_default	Arena Team In Combat	dac6b6b5d7af		a_traduire		
+message_serveur	861		content_default	Arena with name: "{}" or silmilar not found	77a443e2eba2		a_traduire		
+message_serveur	862		content_default	[{}] not member of the team "{}"	3b378ba0ebf3		a_traduire		
+message_serveur	863		content_default	[{}] already capitan in the team "{}"	5e2fff54cece		a_traduire		
+message_serveur	864		content_default	New ArenaTeam created [Name: "{}"][Id: {}][Type: {}][Captain GUID: {}]	7873dc874109		a_traduire		
+message_serveur	865		content_default	Arena team Name: "{}"[Id: {}] disbanded	4505fb892641		a_traduire		
+message_serveur	866		content_default	Arena team [Id: {}] change from "{}" to "{}"	c9fa760553ad		a_traduire		
+message_serveur	867		content_default	Arena team Name: "{}"[Id: {}] change capitan from[{}] to [{}]	69dbfee9095f		a_traduire		
+message_serveur	868		content_default	Arena team: "{}"[{}] - Rating: {} - Type: {}x{}	c6803bcf0571		a_traduire		
+message_serveur	869		content_default	Name:"{}"[guid:{}] - PR: {} - {}	672e34ba446d		a_traduire		
+message_serveur	870		content_default	|"{}"[ID:{}]({}x{})|	9b1f6b6f88fd		a_traduire		
+message_serveur	871		content_default	| Level: {}	f4143dc6006f		a_traduire		
+message_serveur	872		content_default	Entered email is not equal to registration email, check input	eaa3215a2a5a		a_traduire		
+message_serveur	873		content_default	The new emails do not match	4477dff140b7		a_traduire		
+message_serveur	874		content_default	The email was changed	5c208616677a		a_traduire		
+message_serveur	875		content_default	Your email can't be longer than 255 characters, email not changed!	5bad39bebcb1		a_traduire		
+message_serveur	876		content_default	Email not changed (unknown error)!	02347ae636fc		a_traduire		
+message_serveur	877		content_default	Email change unnecessary, new email is equal to old email	405e856ec803		a_traduire		
+message_serveur	878		content_default	Your email is: {}	b9868971c20b		a_traduire		
+message_serveur	879		content_default	| Registration Email: {} - Email: {}	01658f264822		a_traduire		
+message_serveur	880		content_default	Security Level: {}	fe148620bc75		a_traduire		
+message_serveur	881		content_default	You require an email to change your password.	9751f5f6b2d0		a_traduire		
+message_serveur	882		content_default	To enter, you must complete the following quest(s):	9b733ff07899		a_traduire		
+message_serveur	883		content_default	To enter, you must complete the following achievement(s):	579c5a242c53		a_traduire		
+message_serveur	884		content_default	To enter, you must have the following item(s) in your inventory:	284189117f21		a_traduire		
+message_serveur	885		content_default	- Note:	4213a560441c		a_traduire		
+message_serveur	886		content_default	You cannot enter. Access requirements not met.	481fe4854c3f		a_traduire		
+message_serveur	887		content_default	To be able to enter, your equipment's average item level must be superior or equal to {}. Your current equipment's average ilevel is: {}.	b1ede746f790		a_traduire		
+message_serveur	888		content_default	You must be below level {} to enter.	371544957aad		a_traduire		
+message_serveur	889		content_default	To enter, the group leader ({}) must have completed the following quest(s):	6c05be6828f6		a_traduire		
+message_serveur	890		content_default	To enter, the group leader ({}) must have completed the following achievement(s):	9f1c6a19efee		a_traduire		
+message_serveur	891		content_default	To enter, the group leader ({}) must have the following item(s) in his/her inventory:	e3e2ae8e79db		a_traduire		
+message_serveur	1000		content_default	Exiting daemon...	eb7a56b44ead		a_traduire		
+message_serveur	1001		content_default	Account deleted: {}	1e77adf334cc		a_traduire		
+message_serveur	1002		content_default	Account {} NOT deleted (probably sql file format was updated)	e7a4a9c50bcf		a_traduire		
+message_serveur	1003		content_default	Account {} NOT deleted (unknown error)	bc753fdd0f48		a_traduire		
+message_serveur	1004		content_default	Account created: {}	437cd9e56275		a_traduire		
+message_serveur	1005		content_default	Account name can't be longer than 17 characters (client limit), account not created!	5ba637b0bb27	Le nom de compte ne doit pas dépasser 17 caractères (limitation technique du client), le compte n'a pas été créé!	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	1006		content_default	Account with this name already exist!	657876a6218f		a_traduire		
+message_serveur	1007		content_default	Account {} NOT created (probably sql file format was updated)	3b643e3d219a		a_traduire		
+message_serveur	1008		content_default	Account {} NOT created (unknown error)	99138abf35ee		a_traduire		
+message_serveur	1009		content_default	Player {} (Guid: {}) Account {} (Id: {}) deleted.	90f728680155		a_traduire		
+message_serveur	1010		content_default	-[         Account][   Character][             IP][Map][Zone][Exp][GMLev]-	5077c911e6f6		a_traduire		
+message_serveur	1011		content_default	|<Error>        | {} |<Error>          |<Er>| <Error>   |	d7c8ba5675b7		a_traduire		
+message_serveur	1012		content_default	-==================================================================-	924d796e9ae5		technique		technique=sans_lettre
+message_serveur	1013		content_default	-[{}][{}][{}][{}][{}][{}][{}]-	c87de7ca1533		technique		technique=sans_lettre
+message_serveur	1014		content_default	No online players.	16d00a499aca		a_traduire		
+message_serveur	1015		content_default	-======================== Characters Online =======================-	d19ca235ef0c		a_traduire		
+message_serveur	1016		content_default	| GUID       | Name                 | Level | Account                      | Delete Date         |	852e8563ab04		a_traduire		
+message_serveur	1017		content_default	| {} | {} | {} | {} ({}) | {} |	7c28a3902d88		technique		technique=sans_lettre
+message_serveur	1018		content_default	==================================================================================================	41abb2b12fa3		technique		technique=sans_lettre
+message_serveur	1019		content_default	No characters found.	9fb1c35c5107		a_traduire		
+message_serveur	1020		content_default	Restoring the following characters:	5dad5615a41f		a_traduire		
+message_serveur	1021		content_default	Deleting the following characters:	50eb4bdd8c9d		a_traduire		
+message_serveur	1022		content_default	ERROR: You can only assign a new name if you have only selected a single character!	374bcd128529		a_traduire		
+message_serveur	1023		content_default	Character '{}' (GUID: {} Account {}) can't be restored: account not exist!	c0a0d4b12ae0		a_traduire		
+message_serveur	1024		content_default	Character '{}' (GUID: {} Account {}) can't be restored: account character list full!	050d377cb6ee		a_traduire		
+message_serveur	1025		content_default	Character '{}' (GUID: {} Account {}) can't be restored: new name already used!	7f8c72e43e52		a_traduire		
+message_serveur	1026		content_default	GUID: {} Name: {} Level: {} Account: {} ({}) Date: {}	5b5dfab49c02		a_traduire		
+message_serveur	1027		content_default	SQL driver query logging enabled.	366c10a50633		a_traduire		
+message_serveur	1028		content_default	SQL driver query logging disabled.	58fd0831379a		a_traduire		
+message_serveur	1031		content_default	An account password can NOT be longer than 16 characters (client limit). Account NOT created.	9d9ff2252b5a		a_traduire		
+message_serveur	1100		content_default	Account {} (Id: {}) have up to {} expansion allowed now.	c2e58672a015		a_traduire		
+message_serveur	1101		content_default	Message of the day in realm {} and locale {} changed to:\r {}	4938db2e832b		a_traduire		
+message_serveur	1102		content_default	Message sent to {}: {}	7c01a1616438		a_traduire		
+message_serveur	1103		content_default	{} - {} {}	19551a25914a		technique		technique=sans_lettre
+message_serveur	1104		content_default	{} - {}	a51612746da6		technique		technique=sans_lettre
+message_serveur	1105		content_default	{} - {}	a51612746da6		technique		technique=sans_lettre
+message_serveur	1106		content_default	{} - {} {}	19551a25914a		technique		technique=sans_lettre
+message_serveur	1107		content_default	{} - {}	a51612746da6		technique		technique=sans_lettre
+message_serveur	1108		content_default	{} - {} {}	19551a25914a		technique		technique=sans_lettre
+message_serveur	1109		content_default	{} - {} {} {} {}	def9eab5116c		technique		technique=sans_lettre
+message_serveur	1110		content_default	{} - {} X:{} Y:{} Z:{} MapId:{}	bdd8101fdb7f		a_traduire		
+message_serveur	1111		content_default	{} - {} X:{} Y:{} Z:{} MapId:{}	bdd8101fdb7f		a_traduire		
+message_serveur	1112		content_default	Failed to open file: {}	546d88eb19f6		a_traduire		
+message_serveur	1113		content_default	Account {} ({}) have max amount allowed characters (client limit)	ec31130532d3		a_traduire		
+message_serveur	1114		content_default	Dump file have broken data!	505b218f2a1d		a_traduire		
+message_serveur	1115		content_default	Invalid character name!	17f2ec3a407b		a_traduire		
+message_serveur	1116		content_default	Invalid character guid!	93250f82e99a		a_traduire		
+message_serveur	1117		content_default	Character guid {} in use!	a2a82c75b678		a_traduire		
+message_serveur	1118		content_default	{} - guild: {} (guid: {}) {}	53dab685694c		a_traduire		
+message_serveur	1119		content_default	You must use male or female as gender.	4338ff0bfc86		a_traduire		
+message_serveur	1120		content_default	You change gender of {} to {}.	d663ca0336c1		a_traduire		
+message_serveur	1121		content_default	Your gender changed to {} by {}.	548d967ebf0a		a_traduire		
+message_serveur	1122		content_default	({}/{} +perm {} +temp {})	e59d67b6162c		a_traduire		
+message_serveur	1123		content_default	Not pet found	c4a720ad12a7		a_traduire		
+message_serveur	1124		content_default	Wrong pet type	56e6a15f80d1		a_traduire		
+message_serveur	1125		content_default	Your pet learned all talents	e844b5fcd5d9		a_traduire		
+message_serveur	1126		content_default	Your pet talents have been reset.	decf5f25fb03		a_traduire		
+message_serveur	1127		content_default	Talents of {}'s pet reset.	6e08087e21a5		a_traduire		
+message_serveur	1128		content_default	{} - |cffffffff|Htaxinode:{}|h[{} {}]|h|r (Map:{} X:{} Y:{} Z:{})	70a51b6af6e5		a_traduire		
+message_serveur	1129		content_default	{} - {} {} (Map:{} X:{} Y:{} Z:{})	ff5ed9c2d528		a_traduire		
+message_serveur	1130		content_default	Can't dump deleted characters,aborting.	908e479fa4f1		a_traduire		
+message_serveur	1131		content_default	The following characters match your query:	3e360075a6ed		a_traduire		
+message_serveur	1132		content_default	Currently Banned Characters:	18e2dc8ecc90		a_traduire		
+message_serveur	1133		content_default	|   Character   |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	69dea1742d69		a_traduire		
+message_serveur	1134		content_default	Sending tickets is allowed.	7ddc2039e2e7		a_traduire		
+message_serveur	1135		content_default	Sending tickets is not allowed.	12bf68e9a5f1		a_traduire		
+message_serveur	1136		content_default	Character {} has never been banned!	80b4016fb2e0		a_traduire		
+message_serveur	1137		content_default	Dev mode is ON	c51a60a7c46e		a_traduire		
+message_serveur	1138		content_default	Dev mode is OFF	a5eeb55eb3ce		a_traduire		
+message_serveur	1139		content_default	   Follow player {} (lowguid {})	80fa7bc39ac1		a_traduire		
+message_serveur	1140		content_default	   Follow creature {} (lowguid {})	164b6c6a6563		a_traduire		
+message_serveur	1141		content_default	   Follow <NULL>	5cfb6698abf6		a_traduire		
+message_serveur	1142		content_default	   Effect movement	abf0e22d161f		a_traduire		
+message_serveur	1143		content_default	Target's moveFlags: {}, moveFlagsExtra: {}.	697cb2b09035		a_traduire		
+message_serveur	1144		content_default	Target's moveFlags set to: {}, moveFlagsExtra to: {}	1fc5520aab6b		a_traduire		
+message_serveur	1145		content_default	{} is already in a group!	5cb7cf7a405c		a_traduire		
+message_serveur	1146		content_default	{} joined {}'s group.	d1a42e72b1f4		a_traduire		
+message_serveur	1147		content_default	{} is not in a group!	803136e79950		a_traduire		
+message_serveur	1148		content_default	Group is full!	22163a65485c		a_traduire		
+message_serveur	1149		content_default	Group type: {} and consists of {} players.	64fa70ded1af		a_traduire		
+message_serveur	1150		content_default	Name: {} ({}),\n\n Zone: {}, Phase: {}, GUID: {}, Flags: {}, Roles: {}	84953678125d		a_traduire		
+message_serveur	1151		content_default	Mail List Info: # of mails: {}, Player: {}({})	1531277d3912		a_traduire		
+message_serveur	1152		content_default	Mail Id: {} Title: "{}" Money: {}g{}s{}c	41134a6a07c8		a_traduire		
+message_serveur	1153		content_default	Sender: {}({}),\n\n Receiver: {}({})	d3e0bc53ebf7		a_traduire		
+message_serveur	1154		content_default	Time deliver: {}, Time expire: {}	685ff5a64ee4		a_traduire		
+message_serveur	1155		content_default	Item: {}[Entry:{} Guid:{} Count:{}]	5bd35ae2cb6d		a_traduire		
+message_serveur	1156		content_default	Mail List Info: No mail found for this character.	f824b8189edd		a_traduire		
+message_serveur	1157		content_default	All configs are reloaded from the configuration file(s).	884d027367a3		a_traduire		
+message_serveur	1158		content_default	==========================================================	50ee4fba30df		technique		technique=sans_lettre
+message_serveur	1159		content_default	|--------------------------------------------------------|	12b2e8e57a8f		technique		technique=sans_lettre
+message_serveur	1160		content_default	|            | Alliance |  Horde   | Neutral  |  Total   |	361a2d559e8c		a_traduire		
+message_serveur	1161		content_default	          Alliance/Horde/Neutral/Total	8a522b6f1cfe		a_traduire		
+message_serveur	1162		content_default	| {} | {} | {} | {} | {} |	6a67540505b0		technique		technique=sans_lettre
+message_serveur	1163		content_default	{} = {} / {} / {} / {}	a7459552c147		technique		technique=sans_lettre
+message_serveur	1164		content_default	Count	66e12969c225		a_traduire		
+message_serveur	1165		content_default	Item Ratio	1fec7666a616		a_traduire		
+message_serveur	1166		content_default	|            | Alliance |   Horde  | Neutral  |  Amount  |	ce8fb281f6fc		a_traduire		
+message_serveur	1167		content_default	          Alliance/Horde/Neutral/Amount	4d630cbe94c7		a_traduire		
+message_serveur	1168		content_default	Gray	4f9beff18cc6		a_traduire		
+message_serveur	1169		content_default	White	37619fc13053		a_traduire		
+message_serveur	1170		content_default	Green	933bf21afdd5	Verte	machine	archive_ascensionfr	fichier=libelles.json;famille=interface
+message_serveur	1171		content_default	Blue	7d44bc449c2a	Bleue	machine	archive_ascensionfr	fichier=libelles.json;famille=interface;variantes_fr=2
+message_serveur	1172		content_default	Purple	32576f4fedc0	Violette	machine	archive_ascensionfr	fichier=libelles.json;famille=interface
+message_serveur	1173		content_default	Orange	09fb6aaba794		a_traduire		
+message_serveur	1174		content_default	Yellow	3526f607bcd4	Jaune	machine	archive_ascensionfr	fichier=libelles.json;famille=interface
+message_serveur	1175		content_default	Amount of {} items is set to {}.	4d5f4b245016		a_traduire		
+message_serveur	1176		content_default	Items ratio for {} is set to {}.	7b193aa45871		a_traduire		
+message_serveur	1177		content_default	Displaying Guild Details for {} (Id: {})	7d41a95ee6f3		a_traduire		
+message_serveur	1178		content_default	| Guild Master: {} (GUID: {})	0230e207a0fb		a_traduire		
+message_serveur	1179		content_default	| Guild Creation Date: {}	ccfb84ea09d4		a_traduire		
+message_serveur	1180		content_default	| Guild Members: {}	80d3a139da77		a_traduire		
+message_serveur	1181		content_default	| Guild Bank: {} gold	0e7faf1f2dff		a_traduire		
+message_serveur	1182		content_default	| Guild MOTD: {}	cdbb9cd9bb4a		a_traduire		
+message_serveur	1183		content_default	| Guild Information: {}	b6fe99393732		a_traduire		
+message_serveur	1184		content_default	| Guild Ranks:	f920b069f8f0		a_traduire		
+message_serveur	1185		content_default	| {} - {}	1882a4a5a9b4		technique		technique=sans_lettre
+message_serveur	1186		content_default	Beastmaster mode is {}	5411ef5977b4		a_traduire		
+message_serveur	1200		content_default	You try to view cinematic {} but it doesn't exist.	a7fef4cfecd1		a_traduire		
+message_serveur	1201		content_default	You try to view movie {} but it doesn't exist.	87c1eeaf2769		a_traduire		
+message_serveur	1202		content_default	Areatrigger debugging turned on.	6ec44e971f14		a_traduire		
+message_serveur	1203		content_default	Areatrigger debugging turned off.	3eacaa3e5f0b		a_traduire		
+message_serveur	1204		content_default	You have reached areatrigger {}.	81317c046855		a_traduire		
+message_serveur	1331		content_default	The Frostwolf General is Dead!	e525e3b19e16		a_traduire		
+message_serveur	1332		content_default	The Stormpike General is Dead!	417cc2f8146b		a_traduire		
+message_serveur	1334		content_default	Your ticket has been closed.	f650f69d187a		a_traduire		
+message_serveur	1335		content_default	You received a ticket response.	c47bc6c28771		a_traduire		
+message_serveur	1500		content_default	Either:	c8078d924b19		a_traduire		
+message_serveur	1501		content_default	Or:    	e356920462ee		a_traduire		
+message_serveur	1502		content_default	Value '{}' is not valid for type {}.	36fadaa87a31		a_traduire		
+message_serveur	1503		content_default	Invalid UTF-8 sequences found in string.	22d85ab492e6		a_traduire		
+message_serveur	1504		content_default	Provided link has invalid link data.	c5c0b5467423		a_traduire		
+message_serveur	1505		content_default	Account '{}' does not exist.	2295870f0bc8		a_traduire		
+message_serveur	1506		content_default	Account ID {} does not exist.	5fdd58a0fbbd		a_traduire		
+message_serveur	1507		content_default	{} does not exist.	ec0044cad314		a_traduire		
+message_serveur	1508		content_default	Character '{}' does not exist.	5f9172211a65		a_traduire		
+message_serveur	1509		content_default	'{}' is not a valid character name.	1b7f79f7c2b5		a_traduire		
+message_serveur	1510		content_default	Achievement ID {} does not exist.	f9dd3ac00fa1		a_traduire		
+message_serveur	1511		content_default	Teleport location {} does not exist.	8f3409ddd203		a_traduire		
+message_serveur	1512		content_default	Teleport location '{}' does not exist.	ab4f2de7c1c3		a_traduire		
+message_serveur	1513		content_default	Item ID {} does not exist.	eda25f4281e5		a_traduire		
+message_serveur	1514		content_default	Spell ID {} does not exist.	0d45cca986a8		a_traduire		
+message_serveur	1515		content_default	Expected '{}', got '{}' instead.	f20824a08f37		a_traduire		
+message_serveur	1516		content_default	Quest ID {} does not exist	424176a5e536		a_traduire		
+message_serveur	2000		content_default	|cff00ff00New ticket from|r|cffff00ff {}.|r |cff00ff00Ticket entry:|r|cffff00ff {}.|r	eaab45dbcad4		a_traduire		
+message_serveur	2001		content_default	|cff00ff00Character|r|cffff00ff {} |r|cff00ff00edited his/her ticket:|r|cffff00ff {}.|r	a430b9261019		a_traduire		
+message_serveur	2002		content_default	|cff00ff00Character|r|cffff00ff {} |r|cff00ff00abandoned ticket entry:|r|cffff00ff {}.|r	6774f642b45b		a_traduire		
+message_serveur	2003		content_default	|cff00ff00Closed by|r:|cff00ccff {}|r 	a1047f9c9d40		a_traduire		
+message_serveur	2004		content_default	|cff00ff00Deleted by|r:|cff00ccff {}|r 	f33bbcc36bf1		a_traduire		
+message_serveur	2005		content_default	Ticket not found.	ee570b659eba		a_traduire		
+message_serveur	2006		content_default	Please close ticket before deleting it permanently.	04fa40268b19		a_traduire		
+message_serveur	2007		content_default	Ticket {} is already assigned.	2e40c4e42f6f		a_traduire		
+message_serveur	2008		content_default	{} Tickets succesfully reloaded from the database.	34548953c62b		a_traduire		
+message_serveur	2009		content_default	Showing list of open tickets.	0516ade978de		a_traduire		
+message_serveur	2010		content_default	Showing list of open tickets whose creator is online.	497c25c118a7		a_traduire		
+message_serveur	2011		content_default	Showing list of closed tickets.	6496f3b2b828		a_traduire		
+message_serveur	2012		content_default	Invalid name specified. Name should be that of an online Gamemaster.	634098c427fe		a_traduire		
+message_serveur	2013		content_default	This ticket is already assigned to yourself. To unassign use .ticket unassign {} and then reassign.	5a071b2ea43d		a_traduire		
+message_serveur	2014		content_default	Ticket {} is not assigned, you cannot unassign it.	43f0b0424dd4		a_traduire		
+message_serveur	2015		content_default	You cannot unassign tickets from staffmembers with a higher security level than yourself.	6f766037cd19		a_traduire		
+message_serveur	2016		content_default	Cannot close ticket {}, it is assigned to another GM.	67da9f281f5f		a_traduire		
+message_serveur	2017		content_default	|cffaaffaaTicket|r:|cffaaccff {}.|r 	9807bf290599		a_traduire		
+message_serveur	2018		content_default	|cff00ff00Created by|r:|cff00ccff {}|r 	fa874307d4a7		a_traduire		
+message_serveur	2019		content_default	|cff00ff00Last change|r:|cff00ccff {} ago|r 	0db6c41a6f07		a_traduire		
+message_serveur	2020		content_default	|cff00ff00Assigned to|r:|cff00ccff {}|r 	c3731a248294		a_traduire		
+message_serveur	2021		content_default	|cff00ff00Unassigned by|r:|cff00ccff {}|r 	234152ba9ecd		a_traduire		
+message_serveur	2022		content_default	|cff00ff00Ticket Message|r: [{}]|r	427a97085516		a_traduire		
+message_serveur	2023		content_default	|cff00ff00GM Comment|r: [{}]|r	162dba5ba1b6		a_traduire		
+message_serveur	2024		content_default	|cff00ccff{}|r |cff00ff00Added comment|r: [{}]|r	d18ad850a58a		a_traduire		
+message_serveur	2025		content_default	|cff00ff00Created|r:|cff00ccff {} ago|r 	5670c6fc8b04		a_traduire		
+message_serveur	2027		content_default	There are pending open tickets, please close them first!	039585489f82		a_traduire		
+message_serveur	2028		content_default	All closed tickets were deleted and counter is reseted to |cffff00ff 1|r	026b539f6586		a_traduire		
+message_serveur	2029		content_default	|cff00ff00Ticket Response|r: [{}]|r	41b84d6e2576		a_traduire		
+message_serveur	2030		content_default	|cff00ff00Completed by|r:|cff00ccff {}|r	1589bc23f661		a_traduire		
+message_serveur	2031		content_default	|cff00ff00Response Appended|r:|cff00ccff [{}]|r	e770b95d5639		a_traduire		
+message_serveur	2032		content_default	|cff00ff00Response deleted by|r:|cff00ccff {}|r	16ebd7dff2fd		a_traduire		
+message_serveur	5000		content_default	You froze player {}.	ac8dfd635da7		a_traduire		
+message_serveur	5001		content_default	It might be amusing but no... you cant freeze yourself!	9f51fa3d92af		a_traduire		
+message_serveur	5002		content_default	Invalid input check the name of target.	00180ece32bc		a_traduire		
+message_serveur	5003		content_default	You unfroze player {}.	c26e338681af		a_traduire		
+message_serveur	5004		content_default	There are no frozen players.	d966cf3de05b		a_traduire		
+message_serveur	5005		content_default	Following players are frozen on the server:	41c3265d9bbd		a_traduire		
+message_serveur	5006		content_default	- {}	70f4af4c5597		technique		technique=sans_lettre
+message_serveur	5007		content_default	You must be in a raid group to enter this instance.	8891b2f907fd		a_traduire		
+message_serveur	5008		content_default	This instance is closed.	6ff3b276e93d		a_traduire		
+message_serveur	5009		content_default	Sound {} Played to server	d9aa5a8f55f6		a_traduire		
+message_serveur	5010		content_default	linkGUID: {}, Entry: {} ({})	971cd8813fe3		a_traduire		
+message_serveur	5011		content_default	You can't teleport self to self!	e648d3a247a2		a_traduire		
+message_serveur	5012		content_default	No maps found!	11ab92ae5f6d		a_traduire		
+message_serveur	5013		content_default	[Continent]	fdca220c1564		a_traduire		
+message_serveur	5014		content_default	[Instance]	f37c40dee844		a_traduire		
+message_serveur	5015		content_default	[Battleground]	910e1e857a5c		a_traduire		
+message_serveur	5016		content_default	[Arena]	d0073661fde5		a_traduire		
+message_serveur	5017		content_default	[Raid]	b48add9e150d		a_traduire		
+message_serveur	5020		content_default	Phasemask: {}	b9178f2b41fc		a_traduire		
+message_serveur	5021		content_default	Armor: {}	280d02eca098		a_traduire		
+message_serveur	5022		content_default	Granting ownership to first person that joins the channel "{}": Enabled.	342790b903ef		a_traduire		
+message_serveur	5023		content_default	Granting ownership to first person that joins the channel "{}": Disabled.	d8a687fc3460		a_traduire		
+message_serveur	5024		content_default	Entry: {}	e1a2ffd75fe8		a_traduire		
+message_serveur	5025		content_default	Type: {}	96366a5d77c0		a_traduire		
+message_serveur	5026		content_default	DisplayID: {}	b02d4d59f0af		a_traduire		
+message_serveur	5027		content_default	Name: {}	22b443a075db		a_traduire		
+message_serveur	5028		content_default	Lootid: {}	6bebe523c527		a_traduire		
+message_serveur	5029		content_default	Result limit reached (max results: {})	aa1be40ccf65		a_traduire		
+message_serveur	5031		content_default	AIName: {} ScriptName: {}	646290e2d37c		a_traduire		
+message_serveur	5032		content_default	No battleground found!	5c49503a58b7		a_traduire		
+message_serveur	5033		content_default	No achievement criteria found!	8f641c804031		a_traduire		
+message_serveur	5034		content_default	No outdoor PvP found!	de09dfbb2569		a_traduire		
+message_serveur	5036		content_default	EquipmentId: {} (Original: {}).	a2f01e392076		a_traduire		
+message_serveur	5037		content_default	MechanicImmuneMask: {}	5e9a98a96ebf		a_traduire		
+message_serveur	5038		content_default	Unit Flags: {}	4a7a8e17413d		a_traduire		
+message_serveur	5039		content_default	Console	9f3341d3710b		a_traduire		
+message_serveur	5040		content_default	Character	ee9946c82d4a		a_traduire		
+message_serveur	5041		content_default	Permanently	667103f5ba81		a_traduire		
+message_serveur	5042		content_default	You are outdoors.	71d6cf8d0acf		a_traduire		
+message_serveur	5043		content_default	You are indoors.	24dba42a9f40		a_traduire		
+message_serveur	5044		content_default	no VMAP available for area info	1447db731d87		a_traduire		
+message_serveur	5045		content_default	Map: {} | ID: {} | perm: {} | extended: {} | diff: {} | canReset: {} | TTR: {}	3bd5faeea8ea		a_traduire		
+message_serveur	5046		content_default	Player binds: {}	920459116cd3		a_traduire		
+message_serveur	5047		content_default	Group binds: {}	d41411d266fa		a_traduire		
+message_serveur	5048		content_default	Unbinding map: {} inst: {} perm: {} diff: {} canReset: {} TTR: {}	0c45a52859bc		a_traduire		
+message_serveur	5049		content_default	Instances unbound: {}	e0c12c935652		a_traduire		
+message_serveur	5050		content_default	Instances loaded: {}	c2e64475cace		a_traduire		
+message_serveur	5051		content_default	Players in instances: {}	ba7419d7dcbc		a_traduire		
+message_serveur	5052		content_default	Instance saves: {}	1bde26804dac		a_traduire		
+message_serveur	5053		content_default	Players bound: {}	848ea3c457bd		a_traduire		
+message_serveur	5054		content_default	Groups bound: {}	fb846bac3d81		a_traduire		
+message_serveur	5055		content_default	Map is not a dungeon.	5bae438c64a5		a_traduire		
+message_serveur	5056		content_default	Map has no instance data.	237133d2930e		a_traduire		
+message_serveur	5057		content_default	Boss id {} state is now set to {} ({}).	d171f398f646		a_traduire		
+message_serveur	5058		content_default	Boss id {} ({}) state is {} ({}).	b154c5bd8a78		a_traduire		
+message_serveur	5059		content_default	Mutes for account: {}	8559b1e2b540		a_traduire		
+message_serveur	5060		content_default	No mutes for account: {}	434a778f6e30		a_traduire		
+message_serveur	5061		content_default	Mute Date: {} Mutetime: {} mins. Reason: {} Set by: {}	8131943dd2ae		a_traduire		
+message_serveur	5062		content_default	SpellSchoolImmuneMask: {}	862acca441a3		a_traduire		
+message_serveur	5063		content_default	Displaying cached info for character: \n|- Name: {} (Guid: {}) \n|- Account: {} \n|- Class: {} \n|- Race: {} \n|- Gender: {} \n|- Level: {} \n|- Mail Count: {} \n|- Guild: {} \n|- Group ID: {} \n|- ArenaTeam 2x2: {} \n|- ArenaTeam 3x3: {} \n|- ArenaTeam 5x5: {}	db1666a0b7c3		a_traduire		
+message_serveur	5064		content_default	Cached data for character {} ({}) has been cleared.	27f4d4b0fb17		a_traduire		
+message_serveur	5065		content_default	Cached data for character {} ({}) has been refreshed.	9feb6f71f004		a_traduire		
+message_serveur	5066		content_default	Cache not found for character {}	9da3cc210c24		a_traduire		
+message_serveur	5067		content_default	Quest {} ({}) added.	3fe7009cb476		a_traduire		
+message_serveur	5068		content_default	Quest {} ({}) not found in quest log.	f6988f831224		a_traduire		
+message_serveur	5069		content_default	The quest must be active and complete before rewarding	a516f52ee255		a_traduire		
+message_serveur	5070		content_default	The command is disabled by config	11b6a7c91299		a_traduire		
+message_serveur	5071		content_default	The extendedcost entry provided does not exist.	cec7bf3ae5cb		a_traduire		
+message_serveur	5072		content_default	Refunding {} ({}) would send the target over the honor points limit (limit: {}, current honor: {}, honor to be refunded: {}).	970b46cedc31		a_traduire		
+message_serveur	5073		content_default	An attempt of refunding your item {} has failed because it would put you over the honor points limit.	63bd3fd1590d		a_traduire		
+message_serveur	5074		content_default	Item {} ({}) was refunded, restoring {} honor points.	4f731acb5ddd		a_traduire		
+message_serveur	5075		content_default	Refunding {} ({}) would send the target over the arena points limit (limit: {}, current arena points: {}, arena points to be refunded: {}).	20c2d3ae4341		a_traduire		
+message_serveur	5076		content_default	An attempt of refunding your item {} has failed because it would put you over the arena points limit.	f54cd26f7589		a_traduire		
+message_serveur	5077		content_default	Item {} ({}) was refunded, restoring {} arena points.	38c5e1165db5		a_traduire		
+message_serveur	5078		content_default	Item not found in the character's inventory (bank included)	1decd13b507a		a_traduire		
+message_serveur	5079		content_default	You must be at least level {} to disable autobroadcast messages.	b8949b5b76e0		a_traduire		
+message_serveur	5080		content_default	You are now receiving global {} messages.	e6055d99c8dd		a_traduire		
+message_serveur	5081		content_default	You will no longer receive global {} messages.	636aec35507a		a_traduire		
+message_serveur	5082		content_default	Incorrect syntax. Specify either 'starter' or 'ender'.	75b2ea86f116		a_traduire		
+message_serveur	5083		content_default	Character {} ({}) moved from account {} ({}) to account {} ({}).	1da2cd2499d9		a_traduire		
+message_serveur	5084		content_default	Spell cast failed! SpellCastResult returned: {} ({}).	99fc511a32cb		a_traduire		
+message_serveur	5085		content_default	Object {} (entry :{} guid: {}) respawned!	1565af25db5a		a_traduire		
+message_serveur	5086		content_default	No doors found within range ({} yards).	aa91ad2678ee		a_traduire		
+message_serveur	5087		content_default	Door {} (Entry: {}) opened!	ab92bc7cf11a		a_traduire		
+message_serveur	5088		content_default	Quest: {} ({}) \nStatus: {}	04bff33704cd		a_traduire		
+message_serveur	5089		content_default	Quest {} cannot be taken. Reasons:	631012614af0		a_traduire		
+message_serveur	5090		content_default	  - Quest is disabled.	3e9149eaa425		a_traduire		
+message_serveur	5091		content_default	  - Quest has already been taken or completed.	d6628e2dce00		a_traduire		
+message_serveur	5092		content_default	  - Class requirement not met.	5ce9c0caa528		a_traduire		
+message_serveur	5093		content_default	  - Race requirement not met.	66620975d558		a_traduire		
+message_serveur	5094		content_default	  - Player level too low (required: {}).	37a431570758		a_traduire		
+message_serveur	5095		content_default	  - Player level too high (max: {}).	e3924e9588e2		a_traduire		
+message_serveur	5096		content_default	  - Skill requirement not met.	2cca89a5ca52		a_traduire		
+message_serveur	5097		content_default	  - Reputation requirement not met.	be0a2c72969f		a_traduire		
+message_serveur	5098		content_default	  - Previous quest in chain not completed.	f434efb746ff		a_traduire		
+message_serveur	5099		content_default	  - Already on a timed quest.	e4893535383a		a_traduire		
+message_serveur	5100		content_default	  - Exclusive group quest conflict.	8b110d53c653		a_traduire		
+message_serveur	5101		content_default	  - Next quest in chain already started.	8fdb0f135f58		a_traduire		
+message_serveur	5102		content_default	  - Previous chain quest still active.	aa56d1c6175d		a_traduire		
+message_serveur	5103		content_default	  - Breadcrumb quest conflict.	233e165d1e14		a_traduire		
+message_serveur	5104		content_default	  - Daily quest not available today.	c8d6bdb964c2		a_traduire		
+message_serveur	5105		content_default	  - Weekly quest already completed this week.	c72f501c855b		a_traduire		
+message_serveur	5106		content_default	  - Monthly quest already completed this month.	88091a08def4		a_traduire		
+message_serveur	5107		content_default	  - Seasonal quest already completed this season.	2895ff6f1f47		a_traduire		
+message_serveur	5108		content_default	  - Condition requirements not met:	6602a4acd2a6		a_traduire		
+message_serveur	5109		content_default	  - Quest log is full.	22fb5bd0632b		a_traduire		
+message_serveur	5110		content_default	    - Condition not met: type {} value1: {} value2: {} value3: {}	1cdb0dee401a		a_traduire		
+message_serveur	5111		content_default	Battlefield {} not found.	85bf47ecd693	Champ de bataille {} introuvable.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5112		content_default	Battlefield {} battle started.	e2c93f7de81f	La bataille du champ de bataille {} a commencé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5113		content_default	Battlefield {} battle stopped.	a34f4aac0eca	La bataille du champ de bataille {} a été arrêtée.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5114		content_default	Battlefield {} factions switched.	348a9330d5ef	Les factions du champ de bataille {} ont été échangées.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5115		content_default	Battlefield {} timer set to {} seconds.	c87d9a2aaea4	Le minuteur du champ de bataille {} a été réglé à {} secondes.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5116		content_default	Battlefield {} enabled.	a4e6fadae77e	Champ de bataille {} activé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5117		content_default	Battlefield {} disabled.	99de18330e24	Champ de bataille {} désactivé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5118		content_default	Honor points have been reset for all players.	c14a634895a9		a_traduire		
+message_serveur	5119		content_default	Arena points have been reset for all players.	12d8b7844212		a_traduire		
+message_serveur	5120		content_default	Battlefield [{}] | WAR IN PROGRESS | Timer: {}s	767abf2e6437	Champ de bataille [{}] | GUERRE EN COURS | Minuterie : {}s	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5121		content_default	Battlefield [{}] | Waiting for battle | Timer: {}s	880d223c7a05	Champ de bataille [{}] | En attente de bataille | Minuterie : {}s	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5122		content_default	=== {} | Queue: {} | Invited: {} | War: {} ===	52a9048c9303	=== {} | File : {} | Invités : {} | En guerre : {} ===	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5123		content_default	  [Q] {}	b30adb13e9f1		a_traduire		
+message_serveur	5124		content_default	  [I] {} ({}s)	9fbc1db249b3		a_traduire		
+message_serveur	5125		content_default	  [W] {}	f6f13f556ae6		a_traduire		
+message_serveur	5126		content_default	Autobroadcast entries:	0e4265b778b4	Entrées d'annonce automatique :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5127		content_default	  ID: {} | Weight: {} | Text: {}	7eaaaec4fcef	  ID : {} | Poids : {} | Texte : {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5128		content_default	No autobroadcast entries found.	05b4f2875abd	Aucune entrée d'annonce automatique trouvée.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5129		content_default	Autobroadcast entry added with ID {}.	7484edbfc9d3	Entrée d'annonce automatique ajoutée avec l'ID {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5130		content_default	Autobroadcast entry #{} removed.	2287ccf5c4fb	Entrée d'annonce automatique #{} supprimée.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5131		content_default	Autobroadcast entry #{} not found.	ff1c93578cdb	Entrée d'annonce automatique #{} introuvable.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5132		content_default	Autobroadcast locale '{}' added for entry #{}.	e94cea71980d	Localisation '{}' ajoutée pour l'entrée d'annonce automatique #{}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5133		content_default	    Locale: {} | Text: {}	320c326f39b9	    Langue : {} | Texte : {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5134		content_default	Invalid locale. Valid locales: enUS, koKR, frFR, deDE, zhCN, zhTW, esES, esMX, ruRU.	eea20de32d73	Langue invalide. Langues valides : enUS, koKR, frFR, deDE, zhCN, zhTW, esES, esMX, ruRU.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5135		content_default	Mail list for player {}:	62e33759ae5d	Liste des courriers du joueur {} :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5136		content_default	  ID: {} | Type: {} | Stationery: {} | Template: {} | Sender: {} ({}) | Receiver: {} | Expires: {} | Delivered: {} | Money: {} | COD: {} | Flags: {} | Items: {}	4db7cb0c86a9	  ID : {} | Type : {} | Papeterie : {} | Modèle : {} | Expéditeur : {} ({}) | Destinataire : {} | Expiration : {} | Livré : {} | Argent : {} | Remboursement : {} | Drapeaux : {} | Objets : {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5137		content_default	No mail found for player {}.	c8be7795fc34	Aucun courrier trouvé pour le joueur {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5138		content_default	Mail #{} returned to sender for player {}.	30c7ef7601b1	Courrier #{} renvoyé à l'expéditeur pour le joueur {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5139		content_default	Mail #{} not found.	9b1e20b84bfa	Courrier #{} introuvable.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5140		content_default	Only normal mail can be returned.	7865ed7a733e	Seul le courrier normal peut être renvoyé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5141		content_default	Mail has no valid sender to return to.	80d1ff288a61	Le courrier n'a pas d'expéditeur valide.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5142		content_default	Mail has already been returned.	ce5243321d43	Ce courrier a déjà été renvoyé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5143		content_default	A script hook prevented this mail from being returned.	d39f2af57024	Un hook de script a empêché le renvoi de ce courrier.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5144		content_default	|cffff0000Unable to send emote because your message contained reserved words.|r	389f4be7009d	|cffff0000Impossible d'envoyer l'emote car votre message contient des mots réservés.|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5145		content_default	|cffff0000Unable to send message because your message contained reserved words.|r	c0365e8fd79b	|cffff0000Impossible d'envoyer le message car votre message contient des mots réservés.|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	5146		content_default	|cffff0000Unable to send yell because your message contained reserved words.|r	ba1ae23376a3	|cffff0000Impossible d'envoyer le cri car votre message contient des mots réservés.|r	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	6604		content_default	You cannot say, yell or emote until you become level {}.	b337220c830a		a_traduire		
+message_serveur	6605		content_default	You cannot whisper until you become level {}.	4b92a4f7a9e8		a_traduire		
+message_serveur	6606		content_default	You cannot write to channels until you become level {}.	d7f1f52faf51		a_traduire		
+message_serveur	6607		content_default	You cannot use auction until you become level {}.	22d7900aefb9		a_traduire		
+message_serveur	6608		content_default	You cannot write tickets until you become level {}.	dafdac0c3e17		a_traduire		
+message_serveur	6609		content_default	You cannot trade until you become level {}.	8e950f0b9295		a_traduire		
+message_serveur	6610		content_default	You cannot trade with characters lower than level {}.	ecdcd2bf0d84		a_traduire		
+message_serveur	6611		content_default	You cannot send mail until you become level {}.	fa6a4e8b9f61		a_traduire		
+message_serveur	6612		content_default	You cannot send mail to characters lower than level {}.	06ee330bf08e		a_traduire		
+message_serveur	6613		content_default	|cfff00000[GM Announcement]: {}|r	4f6aab0134c7		a_traduire		
+message_serveur	6614		content_default	Notification to GM's - 	7a1aff6ddfdf		a_traduire		
+message_serveur	6615		content_default	|cffffff00[|c1f40af20GM Announce by|r |cffff0000{}|cffffff00]:|r {}|r	355d318b1649		a_traduire		
+message_serveur	6616		content_default	Silence is ON for {}	d2903b49d131		a_traduire		
+message_serveur	6617		content_default	GM Spectator is ON	c370ac6034bf		a_traduire		
+message_serveur	6618		content_default	GM Spectator is OFF	f669b28a133e		a_traduire		
+message_serveur	7523		content_default	WORLD: Denying connections.	8e7c9fac3001		a_traduire		
+message_serveur	7524		content_default	WORLD: Accepting connections.	f30f5f97c1ab		a_traduire		
+message_serveur	9980		content_default	Player name: {}, State: {}, Dungeons: {} ({}),\n\n Roles: {}, Comment: {}	040daa20f401		a_traduire		
+message_serveur	9981		content_default	LfgGroup?: {}, State: {}, Dungeon: {}	963262a1b319		a_traduire		
+message_serveur	9982		content_default	Not in group	d60647c9fa25		a_traduire		
+message_serveur	9983		content_default	Queues cleared	564cb4821eef		a_traduire		
+message_serveur	9984		content_default	Lfg options: {}	ac762a16d27b		a_traduire		
+message_serveur	9985		content_default	Lfg options changed	226273cb7e10		a_traduire		
+message_serveur	9986		content_default	None	6eef6648406c	Aucun	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	9987		content_default	Role check	e108bb66dd54		a_traduire		
+message_serveur	9988		content_default	Queued	6a599877d753		a_traduire		
+message_serveur	9989		content_default	Proposal	929017ada05a		a_traduire		
+message_serveur	9990		content_default	Vote kick	8316f3746839		a_traduire		
+message_serveur	9991		content_default	In dungeon	ef47fc91c9b3		a_traduire		
+message_serveur	9992		content_default	Finished dungeon	d55657d29a39		a_traduire		
+message_serveur	9993		content_default	Raid browser	2b2ef1e18ef4		a_traduire		
+message_serveur	9994		content_default	Tank	0ba4d1aee6f2	Tank	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	9995		content_default	Healer	6cad85d7f7dc	Soigneur	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	9996		content_default	Dps	e774934e0952		a_traduire		
+message_serveur	9997		content_default	Leader	e26c936bbeca		a_traduire		
+message_serveur	9998		content_default	None	6eef6648406c	Aucun	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	9999		content_default	Error	7f2f6a15cf8d	Erreur	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	10001		content_default	The Horde has taken The Overlook!	e47eb5e4aa43		a_traduire		
+message_serveur	10002		content_default	The Alliance has taken The Overlook!	92f0b13b6891		a_traduire		
+message_serveur	10003		content_default	The Horde has taken The Stadium!	b5cbf683fc10		a_traduire		
+message_serveur	10004		content_default	The Alliance has taken The Stadium!	15ac90b01210		a_traduire		
+message_serveur	10005		content_default	The Horde has taken Broken Hill!	0be4069029db		a_traduire		
+message_serveur	10006		content_default	The Alliance has taken Broken Hill!	d443ea136795		a_traduire		
+message_serveur	10007		content_default	The Horde lost The Overlook!	dd2a7b560454		a_traduire		
+message_serveur	10008		content_default	The Alliance lost The Overlook!	5d2b9a0a0d40		a_traduire		
+message_serveur	10009		content_default	The Horde lost The Stadium!	e32a31966923		a_traduire		
+message_serveur	10010		content_default	The Alliance lost The Stadium!	49d5f0c9cbb8		a_traduire		
+message_serveur	10011		content_default	The Horde lost Broken Hill!	fbf2cd907bd6		a_traduire		
+message_serveur	10012		content_default	The Alliance lost Broken Hill!	5745bc980fff		a_traduire		
+message_serveur	10013		content_default	The Horde has taken the West Beacon!	1c38cd20eb8b		a_traduire		
+message_serveur	10014		content_default	The Alliance has taken the West Beacon!	f55f94652eaa		a_traduire		
+message_serveur	10015		content_default	The Horde has taken the East Beacon!	4a820d784957		a_traduire		
+message_serveur	10016		content_default	The Alliance has taken the East Beacon!	2f782f758405		a_traduire		
+message_serveur	10017		content_default	The Horde has captured the Twin Spire Graveyard!	1847cfb13d12		a_traduire		
+message_serveur	10018		content_default	The Alliance has captured the Twin Spire Graveyard!	d2b667800a85		a_traduire		
+message_serveur	10019		content_default	The Horde lost the West Beacon!	26f76f4a1182		a_traduire		
+message_serveur	10020		content_default	The Alliance lost the West Beacon!	6385725a9609		a_traduire		
+message_serveur	10021		content_default	The Horde lost the East Beacon!	9f1380e72f46		a_traduire		
+message_serveur	10022		content_default	The Alliance lost the East Beacon!	d4a943047104		a_traduire		
+message_serveur	10023		content_default	The Horde lost the Twin Spire Graveyard!	a92fc7843363		a_traduire		
+message_serveur	10024		content_default	The Alliance lost the Twin Spire Graveyard!	3a9ca006f24d		a_traduire		
+message_serveur	10025		content_default	The Horde has captured Halaa!	cd9b27c58694		a_traduire		
+message_serveur	10026		content_default	The Alliance has captured Halaa!	a564e0196e74		a_traduire		
+message_serveur	10027		content_default	The Horde lost Halaa!	0e2c33564a8c		a_traduire		
+message_serveur	10028		content_default	The Alliance lost Halaa!	6398bfae43af		a_traduire		
+message_serveur	10029		content_default	The Horde has taken a Spirit Tower!	a1c9bcd6a927		a_traduire		
+message_serveur	10030		content_default	The Alliance has taken a Spirit Tower!	0a75827be33f		a_traduire		
+message_serveur	10031		content_default	The Horde lost a Spirit Tower!	7229b0e4fbb8		a_traduire		
+message_serveur	10032		content_default	The Alliance lost a Spirit Tower!	66a11b4edbe5		a_traduire		
+message_serveur	10033		content_default	The Horde has taken the Northpass Tower!	711cb41ca476		a_traduire		
+message_serveur	10034		content_default	The Alliance has taken the Northpass Tower!	c2d795870d4e		a_traduire		
+message_serveur	10035		content_default	The Horde has taken the Eastwall Tower!	e9a10c393ba8		a_traduire		
+message_serveur	10036		content_default	The Alliance has taken the Eastwall Tower!	ffa83c10fe22		a_traduire		
+message_serveur	10037		content_default	The Horde has taken the Crown Guard Tower!	22d03c106fb0		a_traduire		
+message_serveur	10038		content_default	The Alliance has taken the Crown Guard Tower!	20134a8ae2b6		a_traduire		
+message_serveur	10039		content_default	The Horde has taken the Plaguewood Tower!	9e7eaaf07c8b		a_traduire		
+message_serveur	10040		content_default	The Alliance has taken the Plaguewood Tower!	341ba7d2842d		a_traduire		
+message_serveur	10041		content_default	The Horde lost the Northpass Tower!	aca62501d47d		a_traduire		
+message_serveur	10042		content_default	The Alliance lost the Northpass Tower!	e49947a1ab44		a_traduire		
+message_serveur	10043		content_default	The Horde lost the Eastwall Tower!	20f1ac4aba4f		a_traduire		
+message_serveur	10044		content_default	The Alliance lost the Eastwall Tower!	310171e5ff88		a_traduire		
+message_serveur	10045		content_default	The Horde lost the Crown Guard Tower!	f7ceca63eff9		a_traduire		
+message_serveur	10046		content_default	The Alliance lost the Crown Guard Tower!	a8ee00dedfe2		a_traduire		
+message_serveur	10047		content_default	The Horde lost the Plaguewood Tower!	38131173ffaa		a_traduire		
+message_serveur	10048		content_default	The Alliance lost the Plaguewood Tower!	300a00a61738		a_traduire		
+message_serveur	10049		content_default	The Horde has collected 200 silithyst!	613b17e3aec2		a_traduire		
+message_serveur	10050		content_default	The Alliance has collected 200 silithyst!	a855589ae3ef		a_traduire		
+message_serveur	10051		content_default	Take me to Northpass Tower.	ae64a4d6419c	Emmenez-moi à la tour du Col du nord.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10052		content_default	Take me to Eastwall Tower.	a05afb097a2b	Emmenez-moi à la tour du Mur d’est.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10053		content_default	Take me to Crown Guard Tower.	c2f20a6edbd1	Emmenez-moi à la tour de garde de la couronne.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10054		content_default	Give me the flag, I'll take it to the central beacon for the glory of the Alliance!	d694755e1697		a_traduire		
+message_serveur	10055		content_default	Give me the flag, I'll take it to the central beacon for the glory of the Horde!	b43aa8a386d7		a_traduire		
+message_serveur	10056		content_default	The battle for Strand of the Ancients begins in 2 minutes.	15d890a4c659		a_traduire		
+message_serveur	10057		content_default	The battle for Strand of the Ancients begins in 1 minute.	89abfabe2399		a_traduire		
+message_serveur	10058		content_default	The battle for Strand of the Ancients begins in 30 seconds. Prepare yourselves!.	87c7a5375a1f		a_traduire		
+message_serveur	10059		content_default	Let the battle for Strand of the Ancients begin!	ada58f93092e		a_traduire		
+message_serveur	10060		content_default	The {} is under attack!	c06037d0c8d6		a_traduire		
+message_serveur	10061		content_default	The {} was destroyed!	262de206d1f1		a_traduire		
+message_serveur	10062		content_default	Round 1 -  finished!	e2aec8a4b3a3		a_traduire		
+message_serveur	10063		content_default	The Alliance captured the titan portal!	0e914df04ac5	L'Alliance a pris le portail des titans !	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10064		content_default	The Horde captured the titan portal!	72da7812fe72	La Horde a pris le portail des titans !	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10065		content_default	Round 2 of the Battle for the Strand of the Ancients begins in 1 minute.	bde3d4f1d5cb	Deuxième manche de la bataille du rivage des Anciens dans 1 minute.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10066		content_default	Round 2 begins in 30 seconds. Prepare yourselves!	f01559c819d8		a_traduire		
+message_serveur	10067		content_default	The chamber has been breached! The titan relic is vulnerable!	28a5e3e44fd7	La salle est envahie ! La relique des titans est vulnérable !	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	10068		content_default	The Alliance captured the South Graveyard!	47e4572e7826		a_traduire		
+message_serveur	10069		content_default	The Alliance captured the West Graveyard!	b0bf5a189d68		a_traduire		
+message_serveur	10070		content_default	The Alliance captured the East Graveyard!	d881d7b5faa0		a_traduire		
+message_serveur	10071		content_default	The Horde captured the South Graveyard!	093cf2c4ec6a		a_traduire		
+message_serveur	10072		content_default	The Horde captured the West Graveyard!	0da3b3fc75ad		a_traduire		
+message_serveur	10073		content_default	The Horde captured the East Graveyard!	81ea589feb2d		a_traduire		
+message_serveur	10074		content_default	Halaa is defenseless!	e08f60a33ad1		a_traduire		
+message_serveur	11000		content_default	|cffffff00[|c00077766Autobroadcast|cffffff00]: |cFFF222FF{}|r	53753eec19fb		a_traduire		
+message_serveur	11001		content_default	You have not chosen -1 or the current realmID that you are on.	b34a5124a398		a_traduire		
+message_serveur	11002		content_default	Server: {} has kicked {}, reason: {}	f094d5aa7d43		a_traduire		
+message_serveur	11003		content_default	Server: {} has muted {} for {}, reason: {}	46135a3041a9		a_traduire		
+message_serveur	11004		content_default	Server: {} has banned character {} for {}, reason: {}	be9f566d8d2d		a_traduire		
+message_serveur	11005		content_default	Server: {} has banned character {} permanetly, reason: {}	83180b39c73d		a_traduire		
+message_serveur	11006		content_default	Server: {} has banned account {} for {}, reason: {}	589671b993d4		a_traduire		
+message_serveur	11007		content_default	Server: {} has banned account {} permanetly, reason: {}	f17e1d6f4e0a		a_traduire		
+message_serveur	11008		content_default	Movement type: {}	714c3581cdf5		a_traduire		
+message_serveur	11009		content_default	Flags Extra: {}	01a8807662f7		a_traduire		
+message_serveur	11010		content_default	You didn't get kicked out of the instance even if Player::CheckInstanceLoginValid() returned false and without .gm on flag	93908cdb9057		a_traduire		
+message_serveur	11011		content_default	VisualizeBoundary warning: No interior point of the creature's boundary could be found - check if you have mutually exclusive boundaries!	466eb2e283ff		a_traduire		
+message_serveur	11012		content_default	VisualizeBoundary error: Creature movement is unbounded	b0cf7a6c5057		a_traduire		
+message_serveur	11013		content_default	VisualizeBoundary warning: Reached fail-safe flood boundary - check is your boundary is unbounded!	e2f22a6ba003		a_traduire		
+message_serveur	11014		content_default	You are already locked to {}.	a6e4952d0ca3		a_traduire		
+message_serveur	11015		content_default	This creature does not have an active CreatureAI assigned to it.	40a22105c2a9		a_traduire		
+message_serveur	11016		content_default	Select a player or player pet.	b624b105efe8		a_traduire		
+message_serveur	11017		content_default	Server: {} has banned ip {} for {}, reason: {}	3dd66f519fe6		a_traduire		
+message_serveur	11018		content_default	Server: {} has banned ip {} permanetly, reason: {}	ff709182054c		a_traduire		
+message_serveur	11019		content_default	LFG dungeon cooldowns cleared for all players.	7e80c23f8fd3		a_traduire		
+message_serveur	11020		content_default	Realm security level set to {}. Only accounts with this level or higher may log in.	6ed38ba51ad4	Niveau de sécurité du royaume défini sur {}. Seuls les comptes de ce niveau ou supérieur peuvent se connecter.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	11021		content_default	Security level must be between {} (player) and {} (administrator).	b31f2d7b9ec9	Le niveau de sécurité doit être compris entre {} (joueur) et {} (administrateur).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	11022		content_default	Minimum account security level to log in: {}.	b185cb4c2441	Niveau de sécurité de compte minimum pour se connecter : {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	12050		content_default	{} has been captured by {} 	6e4770fb6a09		a_traduire		
+message_serveur	12051		content_default	{} is under attack by {}	559fd4ea4ee3		a_traduire		
+message_serveur	12052		content_default	The Broken Temple siege workshop	1106a63de202		a_traduire		
+message_serveur	12053		content_default	Eastspark siege workshop	855ad8d08a02		a_traduire		
+message_serveur	12054		content_default	Westspark siege workshop	965997ade328		a_traduire		
+message_serveur	12055		content_default	The Sunken Ring siege workshop	b74f13f8d75e		a_traduire		
+message_serveur	12056		content_default	Horde	cf9229c9c2bb	Horde	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	12057		content_default	Alliance	a21193c4a51e	Alliance	machine	archive_ascensionfr	fichier=gisement_brut.json;famille=interface
+message_serveur	12058		content_default	The battle for Wintergrasp is about to begin!	1d6afd60a357		a_traduire		
+message_serveur	12059		content_default	You have reached Rank 1: Corporal	99c47bd44297	Vous avez atteint le premier grade : caporal.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	12060		content_default	You have reached Rank 2: First Lieutenant	24a19502ca9c	Vous avez atteint le deuxième grade : premier lieutenant.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	12061		content_default	The south-eastern keep tower	bd50d9011dc9		a_traduire		
+message_serveur	12062		content_default	The north-eastern keep tower	8af26b134aba		a_traduire		
+message_serveur	12063		content_default	The south-western keep tower	16af4b1e2b0b		a_traduire		
+message_serveur	12064		content_default	The north-western keep tower	5ddebf76af08		a_traduire		
+message_serveur	12065		content_default	{} has been damaged !	eab46837b456		a_traduire		
+message_serveur	12066		content_default	{} has been destroyed!	f42d905e7fe0		a_traduire		
+message_serveur	12067		content_default	The battle for Wintergrasp begin!	05347f302b6d		a_traduire		
+message_serveur	12068		content_default	{} has successfully defended the Wintergrasp fortress!	b1ff123f391d		a_traduire		
+message_serveur	12069		content_default	The southern tower	45d8cf3d0165		a_traduire		
+message_serveur	12070		content_default	The eastern tower	c726ce89a94f		a_traduire		
+message_serveur	12071		content_default	The western tower	e031fb6e2975		a_traduire		
+message_serveur	12072		content_default	The Wintergrasp fortress has been captured by {} !	5871e1b6f491		a_traduire		
+message_serveur	20070		content_default	Guide me to the Fortress Graveyard.	3ca7beb382a1	Montrez-moi où est le cimetière de la forteresse.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20071		content_default	Guide me to the Sunken Ring Graveyard.	2a5696140bdf	Montrez-moi où est le cimetière de l'arène engloutie.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20072		content_default	Guide me to the Broken Temple Graveyard.	cd5d6a05fd95	Montrez-moi où est le cimetière du temple Brisé.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20073		content_default	Guide me to the Westspark Graveyard.	4f9891acc311	Montrez-moi où est le cimetière d'Ouestincelle.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20074		content_default	Guide me to the Eastspark Graveyard.	29cf99dee40e	Montrez-moi où est le cimetière d'Estincelle.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20075		content_default	Guide me back to the Horde landing camp.	f28011ad387e	Ramenez-moi au camp d'arrivée de la Horde.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20076		content_default	Guide me back to the Alliance landing camp.	4d41089cde73	Ramenez-moi au camp d'arrivée de l'Alliance.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20077		content_default	Queue for Wintergrasp.	4f4fa21b698f	Se mettre dans la file pour le Joug-d'hiver.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	20078		content_default	|cffff0000[Wintergrasp]:|r Battle started!|r	f59ecca1e889		a_traduire		
+message_serveur	28634		content_default	These tracks must belong to Shango.	8885b0f1a188	Ces traces doivent être celles de Shango.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	28635		content_default	These aren't Shango's tracks.	e66c23beddbd	Ce ne sont pas les traces de Shango.	officiel	blizzard_frFR	niveau=meme_groupe
+message_serveur	30000		content_default	Speaking is allowed after playing for at least {}. You may use party and guild chat.	fc3fb8d566bf		a_traduire		
+message_serveur	30077		content_default	Toggle Instant Flight	21388529b581		a_traduire		
+message_serveur	30078		content_default	Instant Flight ON	ef8c10ac252e		a_traduire		
+message_serveur	30079		content_default	Instant Flight OFF	2c9090526b61		a_traduire		
+message_serveur	30080		content_default	The file 'opcode.txt' is missing in the server working directory.	e1bb828d26f2		a_traduire		
+message_serveur	30081		content_default	{} does not have itemID = {}, thus cannot be removed.	208e3d2abe7c		a_traduire		
+message_serveur	30082		content_default	{} does not have that many of itemID = {}, thus none were removed.	a55688ba9547		a_traduire		
+message_serveur	30083		content_default	You cannot share quests while in a Battleground.	3be9ade69ded		a_traduire		
+message_serveur	30084		content_default	You cannot start a Ready Check while in a Battlground.	8d28616360b3		a_traduire		
+message_serveur	30085		content_default	Battleground Debugging is already enabled in the config, thus you are unable to enable/disable it with command.	d881e0dbf8ba		a_traduire		
+message_serveur	30086		content_default	Arena Debugging is already enabled in the config, thus you are unable to enable/disable it with command.	104d810b832c		a_traduire		
+message_serveur	30096		content_default	LFG is set to 1 player queue for debugging.	fbb000067701		a_traduire		
+message_serveur	30097		content_default	LFG is set to normal queue.	b49cf813aba0		a_traduire		
+message_serveur	30098		content_default	LFG Debugging is already enabled in the config, thus you are unable to enable/disable it with command.	7689cbd7c712		a_traduire		
+message_serveur	30099		content_default	Simulating loot for {} "{}" (ID: {})	f4c024974c2f	Simulation du butin pour {} "{}" (ID: {})	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30100		content_default	  [{}] x{} - {} ({}, RandProp: {}, RandSuffix: {})	a1f5e407edfb	  [{}] x{} - {} ({}, PropAléa: {}, SuffAléa: {})	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30101		content_default	  [{}] x{} - {} ({}) [Quest]	f269b19354f1	  [{}] x{} - {} ({}) [Quête]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30102		content_default	Gold: {} copper ({}g {}s {}c)	7eda4dc5058a	Or: {} cuivre ({}po {}pa {}pc)	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30103		content_default	No loot generated.	106ce4e4ac45	Aucun butin généré.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30104		content_default	Invalid loot type "{}". Valid: creature, gameobject, fishing, item, pickpocketing, skinning, disenchant, prospecting, milling, spell, reference, mail, player	11e4b296d6a7	Type de butin invalide "{}". Valides: creature, gameobject, fishing, item, pickpocketing, skinning, disenchant, prospecting, milling, spell, reference, mail, player	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30105		content_default	No loot template found for {} ID {}.	076594767db3	Aucun modèle de butin trouvé pour {} ID {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30106		content_default	Simulating loot for {} "{}" (ID: {}) - {} iterations	38666c05ce5d	Simulation du butin pour {} "{}" (ID: {}) - {} itérations	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30107		content_default	  [{}] x{} - {} ({}) - dropped {}/{} ({}.{}%)	68a04f612a4d	  [{}] x{} - {} ({}) - obtenu {}/{} ({}.{}%)	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30108		content_default	  [{}] x{} - {} ({}) [Quest] - dropped {}/{} ({}.{}%)	bf38a0099f34	  [{}] x{} - {} ({}) [Quête] - obtenu {}/{} ({}.{}%)	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30109		content_default	Gold avg: {} copper ({}g {}s {}c) over {} iterations	d1661ffcf6a2	Or moy: {} cuivre ({}po {}pa {}pc) sur {} itérations	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30110		content_default	=== Faction/Race Change Debug for {} (GUID: {}) ===	4ca0024b91dc	=== Débogage changement de faction/race pour {} (GUID : {}) ===	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30111		content_default	  Faction change flag: SET [OK]	9b87c9a3230b	  Flag changement de faction : ACTIVÉ [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30112		content_default	  Race change flag: SET [OK]	15b43607d20c	  Flag changement de race : ACTIVÉ [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30113		content_default	  Change flag: NEITHER faction nor race change flag is set [FAIL]	44d626f3caae	  Flag de changement : NI faction NI race n'est activé [ÉCHEC]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30114		content_default	  Guild: member of "{}" - must leave before faction change [FAIL]	b063fbd2e85b	  Guilde : membre de "{}" - doit quitter avant le changement de faction [ÉCHEC]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30115		content_default	  Guild: not in a guild or cross-faction guilds enabled [OK]	59ad5603610a	  Guilde : pas dans une guilde ou guildes cross-faction activées [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30116		content_default	  Arena captain: is captain of an arena team - must transfer or disband [FAIL]	26a2368bb5eb	  Capitaine d'arène : est capitaine d'une équipe d'arène - doit transférer ou dissoudre [ÉCHEC]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30117		content_default	  Arena captain: not a captain [OK]	e8a0f03bd1a0	  Capitaine d'arène : n'est pas capitaine [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30118		content_default	  Mail: {} message(s) in mailbox - must clear mail [FAIL]	f0ff7cb801bf	  Courrier : {} message(s) dans la boîte - doit vider le courrier [ÉCHEC]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30119		content_default	  Mail: mailbox is empty [OK]	33cd1266a6cc	  Courrier : boîte aux lettres vide [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30120		content_default	  Auctions: has active auctions or bids - must clear auctions [FAIL]	b7c225b5782d	  Enchères : a des enchères ou offres actives - doit supprimer les enchères [ÉCHEC]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30121		content_default	  Auctions: no active auctions or bids [OK]	626da2bd8dfd	  Enchères : aucune enchère ni offre active [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30122		content_default	  Gold: {} copper, exceeds limit of {} copper [FAIL]	39e4ed159011	  Or : {} cuivres, dépasse la limite de {} cuivres [ÉCHEC]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30123		content_default	  Gold: {} copper (limit: {} copper) [OK]	baaaec7c7209	  Or : {} cuivres (limite : {} cuivres) [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30124		content_default	  Gold: {} copper (no limit configured) [OK]	b7168445308c	  Or : {} cuivres (aucune limite configurée) [OK]	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30125		content_default	  Guild/Arena/Mail/Auction checks: N/A (faction change not requested, only applies to faction change)	036d5ad2cefe	  Vérifications guilde/arène/courrier/enchères : N/A (changement de faction non demandé, applicable uniquement au changement de faction)	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30126		content_default	Achievement {} ({}) added to player {}.	934b39032f24	Le haut fait {} ({}) a été ajouté au joueur {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	30127		content_default	Achievement {} ({}) will be added to player {} on next login.	93886058dc69	Le haut fait {} ({}) sera ajouté au joueur {} à la prochaine connexion.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35400		content_default	| Player {} {} (guid: {})	e2915cc725fd		a_traduire		
+message_serveur	35401		content_default	| GM Mode active, Phase: -1	e1aeb89d6898		a_traduire		
+message_serveur	35402		content_default	|-- Banned: (Type: {}, Reason: {}, Time: {}, By: {})	d42e4f6635ca		a_traduire		
+message_serveur	35403		content_default	|-- Muted: (Reason: {}, Time: {}, By: {})	485e9f673d2b		a_traduire		
+message_serveur	35404		content_default	| Account: {} (ID: {}),\n\n GMLevel: {}	09bbe887e091		a_traduire		
+message_serveur	35405		content_default	| Last Login: {} (Failed Logins: {})	ed08db008de5		a_traduire		
+message_serveur	35406		content_default	| Registration Email: {} - Email: {}	01658f264822		a_traduire		
+message_serveur	35407		content_default	No reason given.	1d485182adab		a_traduire		
+message_serveur	35408		content_default	<unauthorized>	77bad60fdc10		a_traduire		
+message_serveur	35409		content_default	| Map: {}, Zone: {}, Area: {}	7922f9fef1ff		a_traduire		
+message_serveur	35410		content_default	| Online for: {}	424fa0349609	| Online depuis : {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35411		content_default	Cannot manually spawn system group {} ({}).	272fbf61973e	Impossible de faire apparaître manuellement le groupe système {} ({}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35412		content_default	Spawn group {} ({}) spawned successfully.	093f290c6a79	Le groupe d'apparition {} ({}) a été créé avec succès.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35413		content_default	Failed to spawn group {} ({}).	bc5261ffbb51	Échec de l'apparition du groupe {} ({}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35414		content_default	Cannot manually despawn system group {} ({}).	cd456fc3b7d4	Impossible de retirer manuellement le groupe système {} ({}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35415		content_default	Spawn group {} ({}) despawned successfully.	ac2646148ed9	Le groupe d'apparition {} ({}) a été retiré avec succès.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35416		content_default	Failed to despawn group {} ({}).	eb615781bcde	Échec du retrait du groupe {} ({}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35419		content_default	Pending creature respawns on map {} (instance {}):	f212c61171f2	Réapparitions de créatures en attente sur la carte {} (instance {}) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35420		content_default	  DB GUID: {} - {} ({}) - {}s	af90d9615e2a	  DB GUID : {} - {} ({}) - {}s	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35421		content_default	Pending gameobject respawns:	08209c88d50d	Réapparitions de game objects en attente :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35422		content_default	  DB GUID: {} - {} ({}) - {}s	af90d9615e2a	  DB GUID : {} - {} ({}) - {}s	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35423		content_default	  ... and more (limited to 50)	b7929475ffb8	  ... et plus (limité à 50)	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35424		content_default	Spawn group {} not found.	f9c13c728b11	Groupe d'apparition {} introuvable.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35425		content_default	Pool {} does not exist.	19077d6d8f03	Le pool {} n'existe pas.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35426		content_default	=== Pool {} | {} | max active: {} | spawned: {} ===	564a479437ed	=== Pool {} | {} | max actifs : {} | apparus : {} ===	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35427		content_default	  {} ({} total):	62c6b4273289	  {} ({} au total) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35428		content_default	    [{}] GUID {} | {} (entry {}) | map {} ({}, {}, {})	e80b7eba3617	    [{}] GUID {} | {} (entrée {}) | carte {} ({}, {}, {})	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35429		content_default	  Sub-pools ({} total):	c4c5b1e0d56f	  Sous-pools ({} au total) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35430		content_default	    [{}] Pool {} | {}	c978cbea8cf2	    [{}] Pool {} | {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35431		content_default	{} (GUID {}) is in pool {}. Status: {}	f38f77ed24cf	{} (GUID {}) est dans le pool {}. Statut : {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35432		content_default	{} (GUID {}) is not in any pool.	cc1a5a5302bb	{} (GUID {}) n'est dans aucun pool.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35433		content_default	  Use '.pool info {}' for full details.	a28d601283ac	  Utilisez '.pool info {}' pour les détails complets.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35434		content_default	No creature selected and no nearby gameobject found. Target a creature or stand near a gameobject.	7b62ac03a879	Aucune créature sélectionnée et aucun objet de jeu à proximité. Ciblez une créature ou approchez-vous d'un objet de jeu.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35435		content_default	Pets owned by {} ({}):	c350349c234f	Familiers de {} ({}) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35436		content_default	  PetNumber: {} | Slot: {} | Entry: {} ({}) | Name: {} | Level: {} | Type: {}	b566a27804a9	  N° Familier : {} | Emplacement : {} | Entrée : {} ({}) | Nom : {} | Niveau : {} | Type : {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35437		content_default	Player {} ({}) has no pets.	af0c377c608f	Le joueur {} ({}) n'a aucun familier.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35438		content_default	No pet with PetNumber {0} found for player {1} ({2}).	9bb5eaf0b9e2	Aucun familier avec le N° {0} trouvé pour le joueur {1} ({2}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35439		content_default	Deleted pet {0} ({1}, entry {2} - {3}) from player {4} ({5}).	0fdc98dfc96d	Familier {0} ({1}, entrée {2} - {3}) supprimé du joueur {4} ({5}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35440		content_default	Showing only first 50 results. Please use a more specific search string.	7f8b69b64794	Affichage des 50 premiers résultats uniquement. Veuillez utiliser une chaîne de recherche plus spécifique.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35441		content_default	No creature with spawn GUID {} found.	81f50709b3b0	Aucune créature avec le GUID d'apparition {} trouvée.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35442		content_default	Map {} is not currently loaded.	7c6af964be6c	La carte {} n'est pas actuellement chargée.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35443		content_default	Creature (spawn GUID {}, entry {}) is already alive.	845eb989f97a	La créature (GUID d'apparition {}, entrée {}) est déjà en vie.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35444		content_default	Creature (spawn GUID {}, entry {}) queued for respawn.	fd97c1728583	La créature (GUID d'apparition {}, entrée {}) est mise en file d'attente pour réapparition.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35445		content_default	Gameobject (spawn GUID {}, entry {}) is already active.	526af4ae92a4	L'objet de jeu (GUID d'apparition {}, entrée {}) est déjà actif.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35446		content_default	Gameobject (spawn GUID {}, entry {}) queued for respawn.	4fb688ac558d	L'objet de jeu (GUID d'apparition {}, entrée {}) est mis en file d'attente pour réapparition.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35447		content_default	A map ID is required when using this command from the console.	c3720caff126	Un ID de carte est requis lors de l'utilisation de cette commande depuis la console.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35448		content_default	No gameobject with spawn GUID {} found.	af83c06dca61	Aucun objet de jeu avec le GUID d'apparition {} trouvé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35449		content_default	No creature template with entry {} found.	211fcefe1d08	Aucun modèle de créature avec l'entrée {} trouvé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35450		content_default	No gameobject template with entry {} found.	818f864181d6	Aucun modèle d'objet de jeu avec l'entrée {} trouvé.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35451		content_default	Queued {} creature spawn(s) with entry {} for respawn on this map.	2d351cba8431	{} apparition(s) de créature avec l'entrée {} mise(s) en file d'attente pour réapparition sur cette carte.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35452		content_default	Queued {} gameobject spawn(s) with entry {} for respawn on this map.	6f15080fb8e9	{} apparition(s) d'objet de jeu avec l'entrée {} mise(s) en file d'attente pour réapparition sur cette carte.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35453		content_default	Invalid pet name: {}.	a7ce58418ec0	Nom de familier invalide : {}.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35454		content_default	Renamed pet {0} ({1} -> {2}) for player {3} ({4}).	9bff8f4782c7	Familier {0} renommé ({1} -> {2}) pour le joueur {3} ({4}).	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35455		content_default	A Wintergrasp battle is in progress. The scheduled server maintenance has been postponed.	1ecb30d6a0eb	Une bataille du Joug-d'hiver est en cours. La maintenance programmée du serveur a été reportée.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35456		content_default	{} is not dead, or its corpse contains no loot.	ed0c2dae4f8e	{} n'est pas mort, ou son cadavre ne contient aucun butin.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35457		content_default	Loot for {} (Entry: {}):	aee63c6ce9eb	Butin de {} (ID : {}) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35458		content_default	Money: {}g {}s {}c	5d7217844ec5	Argent : {}po {}pa {}pc	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35459		content_default	Items ({}):	a5f6efe60f23	Objets ({}) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35460		content_default	    {}x |c{:08x}|Hitem:{}:0:0:0:0:0:0:0:0|h[{}]|h|r (Entry: {})	1bb646178b20	    {}x |c{:08x}|Hitem:{}:0:0:0:0:0:0:0:0|h[{}]|h|r (ID : {})	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35461		content_default	Quest items ({}):	e3d025e307ee	Objets de quête ({}) :	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35462		content_default	Accepting Group Invites: {}	955b609212a7		a_traduire		
+message_serveur	35463		content_default	Accepting Group Invites: ON	aa2ee5c9877d		a_traduire		
+message_serveur	35464		content_default	Accepting Group Invites: OFF	d22b20389692		a_traduire		
+message_serveur	35465		content_default	Account flags set on {} ({}):	91105b62cfc2		a_traduire		
+message_serveur	35466		content_default	Account {} ({}) has no flags set.	c00fec92971e		a_traduire		
+message_serveur	35467		content_default	Unknown account flag: {}. Use a symbolic name (e.g. ACCOUNT_FLAG_TRIAL or TRIAL).	52416077f083		a_traduire		
+message_serveur	35468		content_default	ACCOUNT_FLAG_GM is managed automatically and cannot be changed manually.	537b9bd14fff		a_traduire		
+message_serveur	35469		content_default	Added {} to account {} ({}).	5d07d1c5b5d8		a_traduire		
+message_serveur	35470		content_default	Removed {} from account {} ({}).	95ffa592deca		a_traduire		
+message_serveur	35471		content_default	| Created: {}	bd0a47b3b593	| Créé le: {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35472		content_default	| Expansion: {}	ee2cd138a17e	| Extension: {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35473		content_default	| Locked to country: {}	644669dab0df	| Verrouillé au pays: {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35474		content_default	|-- Banned: (Reason: {}, Time: {}, By: {})	5cdc8d01672d	|-- Banni: (Raison: {}, Temps: {}, Par: {})	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35475		content_default	| Characters on this realm: {}	29d298f997c9	| Personnages sur ce royaume: {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35476		content_default	|-- {}{} (GUID: {}) - Level {} {} {}	21bd36c71037	|-- {}{} (GUID: {}) - Niveau {} {} {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35477		content_default	| No characters on this realm.	408c6484c74b	| Aucun personnage sur ce royaume.	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35478		content_default	| Current IP: {}	7c1d93fa8b8f	| IP actuelle: {}	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35479		content_default	 (offline)	42b0c4734b53	 (hors ligne)	officiel	blizzard_frFR	acore_string.locale_frFR
+message_serveur	35480		content_default	Spell charges: {}.	a6d061c28a91		a_traduire		
+message_serveur	991475		content_default	JASPERRRRR!!!	6df1af582843		a_traduire		

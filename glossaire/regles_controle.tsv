@@ -1,0 +1,26 @@
+# Règles du glossaire vérifiées par outils/controler.py. Fichier lu tel quel (pas d'échappement).
+# {D} et {F} = début et fin de mot, y compris collé à un code couleur (|cFF…Mot, |rMot). (?i) en tête = sans casse.
+# etats vide = machine, relu, a_revoir. Les lignes officielles ne sont jamais soumises au glossaire (règle-mère).
+regle	garde_en	interdit_fr	sauf	etats	explication
+Stormwind→Hurlevent	{D}Stormwind{F}	{D}Stormwind{F}			Nom officiel : Hurlevent
+Booty Bay→Baie-du-Butin	{D}Booty Bay{F}	{D}Booty Bay{F}			Nom officiel : Baie-du-Butin
+Stranglethorn→Strangleronce	{D}Stranglethorn{F}	{D}Stranglethorn{F}			Nom officiel : Strangleronce
+Darkmoon→Sombrelune	{D}Darkmoon{F}	{D}Darkmoon{F}			Nom officiel : Sombrelune (Foire de Sombrelune)
+Warsong Gulch→Goulet des Warsong	{D}Warsong Gulch{F}	{D}Warsong Gulch{F}			Nom officiel : Goulet des Warsong
+Arathi Basin→bassin Arathi	{D}Arathi Basin{F}	(?i)bassin d'Arathi|Arathi Basin			Nom officiel de la locale serveur, sans apostrophe
+PvP/PvE (pas JcJ/JcE)		{D}Jc[JE]{F}			Décision contre l'officiel : on écrit PvP / PvE
+stack→charge (pas cumul)	(?i){D}stacks?{F}	(?i){D}cumuls?{F}			Le nom « stack » se traduit « charge » ; le verbe « se cumule » reste correct
+Draft (pas brouillon)	(?i){D}(?:re)?draft	(?i){D}brouillons?{F}	(?i)Abyssal Draft		Nom de la mécanique : Draft ; verbe : composer
+realm→royaume (pas domaine)	(?i){D}realms?{F}	(?i){D}domaines?{F}			realm = royaume
+Wildwood→bois sauvage	{D}Wildwood{F}	(?i){D}(?:Wildwood|Forestwood|bois de forêt|bois tendre|bois forestier){F}			Arbitré par AscensionFR, jamais appliqué
+Manastorm→Tempête de mana	(?<!Millhouse ){D}Manastorm{F}	(?<!Millhouse ){D}Manastorm{F}|Tempête de mana du moulin			Tempête de mana (féminin) ; Millhouse Manastorm est un personnage, inchangé
+Starcaller→Mande-étoiles	{D}Starcaller	(?i)Héraut stellaire|Appelant des étoiles|{D}Starcaller			Titre officiel Blizzard
+Felsworn→Gangrelige	{D}Felsworn	(?i)Assermentée? du Gangre|{D}Felsworn			Aligné sur l'officiel (Gangrelige de Xavian)
+Light Lash→Fouet de Lumière	{D}Light Lash{F}	(?i)Cils (?:légers|clairs)			Contresens corrigé (lash = coup de fouet)
+Mystic Enchant→Enchantement mystique	{D}Mystic Enchant	{D}Mystic Enchant			Terme tranché
+Skill Card→Carte de compétence	{D}Skill Card	{D}Skill Card			Terme tranché
+Ability Essence→Essence d'aptitude	{D}Ability Essence{F}	{D}Ability Essence{F}			Terme tranché
+classe CoA restée en anglais	{D}(?:Barbarian|Witch Doctor|Witch Hunter|Stormbringer|Knight of Xoroth|Templar|Bloodmage|Chronomancer|Necromancer|Pyromancer|Sun Cleric|Tinker|Venomancer|Reaper|Primalist|Runemaster){F}	{D}(?:Barbarian|Witch Doctor|Witch Hunter|Stormbringer|Knight of Xoroth|Templar|Bloodmage|Chronomancer|Necromancer|Pyromancer|Sun Cleric|Tinker|Venomancer|Reaper|Primalist|Runemaster){F}			Noms de classes tranchés (glossaire, section Classes)
+mot-à-mot (Sacré X, Ombre X…)	^(?:\|c[0-9A-Fa-f]{8})?(?:Holy|Shadow|Arcane|Frost|Fel|Unholy) 	^(?:\|c[0-9A-Fa-f]{8})?(?:Sacré|Ombre|Arcanes|Givre|Gangre|Impie) (?:Tome\b|[A-ZÉ][a-zé]+)			Mot-à-mot de traduction automatique
+apostrophe droite		’			Convention : apostrophe droite (')
+majuscule accentuée		\bE(?:clair|chec|tendard|lémentaire|nergie|preuve|pée)s?\b			Le projet accentue les majuscules (Éclair, Échec…)

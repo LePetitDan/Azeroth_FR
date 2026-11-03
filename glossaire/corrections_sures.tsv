@@ -1,0 +1,20 @@
+# Corrections mécaniques et sûres du glossaire déjà tranché, appliquées par outils/importer.py
+# aux seules lignes « machine » (jamais aux lignes officielles ni relues). Une correction n'est gardée
+# que si le contrôle d'entrée passe ensuite. Fichier lu tel quel ; {D}/{F} = début/fin de mot.
+# Volontairement absents (pas mécaniques, voir glossaire/GLOSSAIRE.md) : Manastorm (article « la »), Wildwood,
+# Mystic Enchant, « cumul », « Stormwind City », « l'auberge Booty Bay », « Darkmoon Faire ».
+regle	garde_en	motif_fr	remplacement
+caractères invisibles		[\u200b\u200c\u200d\u2060\ufeff]	
+apostrophe droite		’	'
+Éclair		\bEclair(?=s?\b)	Éclair
+Échec		\bEchec(?=s?\b)	Échec
+Étendard		\bEtendard(?=s?\b)	Étendard
+Élémentaire		\bElémentaire(?=s?\b)	Élémentaire
+Énergie		\bEnergie(?=s?\b)	Énergie
+Épreuve		\bEpreuve(?=s?\b)	Épreuve
+Épée		\bEpée(?=s?\b)	Épée
+JcJ→PvP		{D}JcJ{F}	PvP
+JcE→PvE		{D}JcE{F}	PvE
+Stormwind→Hurlevent	{D}Stormwind{F}	(?<!Hurlevent \()(?<!Hurlevent\(){D}Stormwind{F}	Hurlevent
+Booty Bay→Baie-du-Butin	{D}Booty Bay{F}	(?<!auberge ){D}Booty Bay{F}	Baie-du-Butin
+Darkmoon→Sombrelune	{D}Darkmoon{F}	{D}Darkmoon{F}(?! Faire)	Sombrelune

@@ -1,0 +1,579 @@
+type	id	sous_id	champ	en	en_empreinte	fr	etat	source	note
+difficulte_carte_dbc_serveur	757		Message	Mythic Difficulty requires you to be level 80.	9a8368b8962b		a_traduire		
+difficulte_carte_dbc_serveur	758		Message	Mythic Difficulty requires you to be level 80.	9a8368b8962b		a_traduire		
+faction_dbc_serveur	87		Name	Bloodsail Buccaneers	4987a6df42cb	La Voile sanglante	machine	release_3.5.1	fichier=release:DB_Guichets.lua;famille=prose
+faction_dbc_serveur	87		Description	These bloodthirsty corsairs are the bane of many a merchant in the high seas.  Sworn enemies of Booty Bay.	4d4a8bd3228d	Ennemis jurés de Baie-du-Butin, ces corsaires assoiffés de sang sont la plaie des nombreux marchands qui naviguent en haute mer.	machine	release_3.5.1	fichier=release:DB_Guichets.lua;famille=prose
+point_interet	1		Name	Lion's Pride Inn	56e9bf6dc55d	L'auberge de la Fierté du Lion	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	2		Name	Zaldimar Wefhellt	0b6183526158	Zaldimar Wefhellt	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	3		Name	Brother Wilhelm	32209b8cfe4a	Frère Wilhelm	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	4		Name	Priestess Josetta	3abefabae862	Prêtresse Josetta	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	5		Name	Keryn Sylvius	ff6bc084af7d	Keryn Sylvius	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	6		Name	Maximillian Crowe	f8f3a68486e8	Maximillian Crowe	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	7		Name	Lyria Du Lac	5d9884b06345	Lyria Du Lac	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	8		Name	Alchemist Mallory	7b19d6f22aec	Alchimiste Mallory	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	9		Name	Smith Argus	e2a22bbf1140	Argus le forgeron	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	10		Name	Tomas	5fad2aa041dd	Tomas	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	11		Name	Michelle Belle	2d6f6ad6e49d	Michelle Belle	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	12		Name	Lee Brown	920bbeea2460	Lee Brown	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	13		Name	Stormwind Inscription	a445529f6360	Calligraphies de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	14		Name	Adele Fielder	699080d18970	Adele Fielder	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	15		Name	Helene Peltskinner	7b3bac0c7e07	Helene Tannepeau	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	16		Name	Eldrin	a7a91e094ebb	Eldrin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	17		Name	Erma	ad79bb5ec134	Erma	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	18		Name	Stormwind Auction House	463ab0a6cfaf	Autel des ventes de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	19		Name	Stormwind Bank	279fb6c6237c	Banque de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	20		Name	Stormwind Harbor	b0b4ca91ad94	Port de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	21		Name	The Deeprun Tram	306389d11d05	Le Tram des profondeurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	22		Name	The Gilded Rose	cdb36f1ce512	La Rose dorée	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	23		Name	Stormwind Gryphon Master	eb246801e304	Maître des griffons de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	24		Name	Stormwind Visitor's Center	363912eb088f	Centre d'accueil des visiteurs de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	25		Name	Stormwind Locksmith	9234688ef840	Serrurier de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	26		Name	Jenova Stoneshield	d1fd3839e8c4	Jenova Targe-pierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	27		Name	Woo Ping	c3226308ed6f	Woo Ping	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	28		Name	Champions' Hall	c2f46cedf0d1	Hall des Champions	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	29		Name	Battlemasters Stormwind	af34d0d63b26	Maîtres de guerre de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	30		Name	Stormwind Barber	515f693e4b9b	Coiffeur de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	31		Name	Stormwind Inscription	a445529f6360	Calligraphies de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	32		Name	The Park	e50973a1c510	Le Parc	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	33		Name	Hunter Lodge	ad4d1e88b876	Gîte des chasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	34		Name	Wizard's Sanctum	00dda0db7c6f	Sanctuaire du Sorcier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	35		Name	Cathedral Of Light	22d82061554c	Chapelle de la Lumière	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	36		Name	Stormwind - Rogue House	014b085dcc15	Hurlevent - Maison des voleurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	37		Name	Farseer Umbrua	6dddb7b0ffd5	Long-voyante Umbrua	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	38		Name	The Slaughtered Lamb	2c06e61b2669	L'Agneau assassiné	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	39		Name	Stormwind Barracks	ff44815f09c9	Caserne de Hurlevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	40		Name	Alchemy Needs	019f98c74271	Tout pour l'alchimiste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	41		Name	Therum Deepforge	aec3a41bf5c2	Therum Forge-profonde	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	42		Name	Pig and Whistle Tavern	8d285e625e51	Taverne du Cochon siffleur	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	43		Name	Lucan Cordell	936c20567b75	Lucan Cordell	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	44		Name	Lilliam Sparkspindle	d55e87d4cc66	Lilliam Fusétincelle	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	45		Name	Shaina Fuller	22e1377a209a	Shaina Fuller	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	46		Name	Arnold Leland	e4682b842bfc	Arnold Leland	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	47		Name	The Protective Hide	40ee64879e38	Au cuir protecteur	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	48		Name	Gelman Stonehand	fd9d64c2be47	Gelman Main-de-pierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	49		Name	Duncan's Textiles	95832e9d6a9b	Textiles Duncan	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	50		Name	Ironforge Auction House	e2d937610fb9	Hôtel des ventes de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	51		Name	The Vault	71fe01415678	Le Caveau	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	52		Name	Deeprun Tram	b97caf10b4a3	Tram des profondeurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	53		Name	Ironforge Gryphon Master	65f6e655eb85	Maître des griffons de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	54		Name	Ironforge Visitor's Center	5afd68244b6f	Centre des Visiteurs de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	55		Name	Stonefire Tavern	aa820f9b7b51	La taverne de Brûlepierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	56		Name	Ironforge Mailbox	d2aaab2a3f65	Boîte aux lettres de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	57		Name	Ulbrek Firehand	653e4ab58688	Ulbrek Brasemain	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	58		Name	Bixi and Buliwyf	ece6a6cc5312	Bixi et Buliwyf	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	59		Name	Battlemasters Ironforge	82a2d208184b	Maîtres de guerre de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	60		Name	Ironforge Barber	59bbef4c7c10	Coiffeuse de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	61		Name	Hall of Arms	088756f510a4	Hall des Armes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	62		Name	Hall of Mysteries	57af6f62015a	Hall des Mystères	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	63		Name	Ironforge Rogue Trainer	9841a6e171fa	Maître des voleurs de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	64		Name	Ironforge Warlock Trainer	7b79e1acb591	Maître des démonistes de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	65		Name	Ironforge Shaman Trainer	0880509e997e	Maître des chamans de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	66		Name	Berryfizz's Potions and Mixed Drinks	55ababba379e	Potions et mixtures de Baiedesbulles	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	67		Name	The Great Forge	1c9a6496e848	La Grande Forge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	68		Name	The Bronze Kettle	7ec32fa6e391	La Bouilloire de bronze	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	69		Name	Thistlefuzz Arcanery	eb8de979b858	Arcanes de Duvechardon	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	70		Name	Ironforge Physician	76525dd1aefa	Médecin de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	71		Name	Traveling Fisherman	fedb500eecfb	Pêcheur itinérant	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	72		Name	Ironforge Inscription	784363e58141	Calligraphies de Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	73		Name	Finespindle's Leather Goods	7c5e35a1ffb4	Cuirs de Finfuseau	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	74		Name	Deepmountain Mining Guild	6d56c2ad4842	Guilde des mineurs de la montagne profonde	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	75		Name	Stonebrow's Clothier	d7a18ed3afc1	Vêtements de Front-de-pierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	76		Name	Thunderbrew Distillery	562e835e57ed	Distillerie de Tonnebière	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	77		Name	Shelby Stoneflint	48b2882a1f59	Shelby Pierre-à-feu	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	78		Name	Grif Wildheart	68364a6f88c0	Grif Cœur-sauvage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	79		Name	Magis Sparkmantle	b52bf3c06313	Magis Mantincelle	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	80		Name	Azar Stronghammer	c9a392366701	Azar Fortmartel	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	81		Name	Maxan Anvol	241b52087829	Maxan Anvol	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	82		Name	Hogral Bakkan	5234dcbb5d36	Hogral Bakkan	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	83		Name	Gimrizz Shadowcog	116bd1b3b924	Gimrizz Sombrouage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	84		Name	Granis Swiftaxe	c8a12890913d	Granis Vivehache	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	85		Name	Tognus Flintfire	c44623128ce6	Tognus Flammesilex	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	86		Name	Gremlock Pilsnor	532c0a2a301f	Gremlock Pilsnor	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	87		Name	Thamner Pol	4ac8d9c53a91	Thamner Pol	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	88		Name	Paxton Ganter	d16be9009501	Paxton Ganter	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	89		Name	Darnassus Auction House	84b3bbc9bcc9	Autel des ventes de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	90		Name	Darnassus Bank	8735abf4e141	Banque de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	91		Name	Darnassus Hippogryph Master	a324d282cc3f	Maître des hippogriffes de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	92		Name	Darnassus Guild Master	9e1d4815888a	Maître des guildes de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	93		Name	Darnassus Inn	d7138005193b	Auberge de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	94		Name	Darnassus Mailbox	03840c708bfe	Boîte aux lettres de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	95		Name	Alassin	6b7ef5974f40	Alassin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	96		Name	Ilyenia Moonfire	e175098886ef	Ilyenia Lunéclat	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	97		Name	Battlemasters Darnassus	b15f65686dc5	Maîtres de guerre de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	98		Name	Darnassus Druid Trainer	153f5a11e6ff	Maître des druides de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	99		Name	Darnassus Hunter Trainer	90a3bcaa9454	Maître des chasseurs de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	100		Name	Darnassus Rogue Trainer	238d0adacb6d	Maître des voleurs de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	101		Name	Warrior's Terrace	75fc66d82b26	La terrasse des guerriers	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	102		Name	Darnassus Alchemy Trainer	de9daa088025	Maître des alchimistes de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	103		Name	Darnassus Cooking Trainer	be63d971a611	Maître des cuisiniers de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	104		Name	Darnassus Enchanting Trainer	fbfed8dd77cd	Maître des enchanteurs de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	105		Name	Darnassus First Aid Trainer	94fdf1845b25	Maître des sécouristes de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	106		Name	Darnassus Fishing Trainer	4a9a7b1e97a9	Maître des pêcheurs de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	107		Name	Darnassus Inscription	a92f74316ec0	Calligraphies de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	108		Name	Darnassus Leatherworking Trainer	91b5adf69d27	Maître des travailleurs du cuir de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	109		Name	Darnassus Skinning Trainer	81b5398999f6	Maître des dépeceurs de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	110		Name	Darnassus Tailor	d838ce54c96d	Tailleur de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	111		Name	Dolanaar Inn	3f5d105cf194	Auberge de Dolanaar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	112		Name	Seriadne	ce91c80c1d68	Seriadne	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	113		Name	Kal	e73536295bc9	Kal	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	114		Name	Dazalar	ec4d1b57cb6f	Dazalar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	115		Name	Laurna Morninglight	cd139aece5f2	Laurna Clairematin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	116		Name	Jannok Breezesong	a496eb2b8e5b	Jannok Chantebrise	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	117		Name	Kyra Windblade	b50e5baa8b55	Kyra Lamevent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	118		Name	Cyndra Kindwhisper	655ae1a0e797	Cyndra Murmegent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	119		Name	Zarrin	e4b0b20adfd7	Zarrin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	120		Name	Alanna Raveneye	53ef6e3b27ca	Alanna Oeil-de-corbeau	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	121		Name	Byancie	920efcc1ddfe	Byancie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	122		Name	Malorne Bladeleaf	2dbb44945cbb	Malorne Feuillelame	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	123		Name	Nadyia Maneweaver	59508a9b99ea	Nadyia Tissecrin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	124		Name	Radnaal Maneweaver	ad5c4ffaa57f	Radnaal Tissecrin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	125		Name	Nadyia Maneweaver	59508a9b99ea	Nadyia Tissecrin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	126		Name	Dalaran Eastern Sewer Entrance	5352f908b5e8	Entrée Est des Égouts de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	127		Name	Dalaran Western Sewer Entrance	cc4173b86aa9	Entrée Ouest des Égouts de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	128		Name	Dalaran Well	ba2e3eaff35d	Puit de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	129		Name	Dalaran Silver Enclave	eddbca301ce7	Enclave Argentée de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	130		Name	Dalaran Sunreaver's Sanctuary	3b2121311d16	Sanctuaire des Saccages-Soleil de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	131		Name	Dalaran Northern Bank	d9d825e2d33f	Banque Nord de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	132		Name	Dalaran Southern Bank	7561e78c2576	Banque Sud de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	133		Name	Dalaran Barber	bf875bd97cf6	Coiffeuse de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	134		Name	Dalaran Flight Master	d70022806261	Maître de Vol de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	135		Name	Dalaran Visitor Center	6b77d22081fe	Centre d'Accueil des Visiteurs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	136		Name	Dalaran Inn	6a8ac761855b	Auberge de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	137		Name	Dalaran Alliance Inn	6d112f234f8e	Auberge de l'Alliance de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	138		Name	Dalaran Horde Inn	b906ccf9d4e9	Auberge de la Horde de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	139		Name	Dalaran Locksmith	7626f1ad79f4	Serrurier de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	140		Name	Dalaran Krasus' Landing	a674942a603f	Aire de Krasus de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	141		Name	Dalaran Violet Citadel	3e5f11d5c397	Citadelle Pourpre de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	142		Name	Dalaran Violet Hold	fe47ff0bfcf1	Fort Pourpre de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	143		Name	Dalaran Trade District	5f580da1030b	Quartier des Commerçants de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	144		Name	Dalaran Antonidas Memorial	6f9599b3abc5	Monument à Antonidus de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	145		Name	Dalaran Runeweaver Square	341facea081c	Place de Tisserune de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	146		Name	Dalaran Eventide	ec214c324b45	Le Brunant de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	147		Name	Dalaran Cemetary	be79f3476efc	Cimetière de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	148		Name	Dalaran Inscription Trainer	126b90c67666	Maître des calligraphes de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	149		Name	Dalaran Stable Master	a7fc2f101e88	Maître des écuries de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	150		Name	Dalaran Mage Trainer	4c3b0b4b1e90	Maître des mages de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	151		Name	Dalaran Alchemy Trainer	2bf367445444	Maître des alchimistes de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	152		Name	Dalaran Blacksmithing Trainer	abfdf25c1887	Maître des forgerons de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	153		Name	Dalaran Enchanting Trainer	9096999ed383	Maître des enchanteurs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	154		Name	Dalaran Engineering Trainer	c93821edf1ac	Maître des ingénieurs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	155		Name	Dalaran First Aid Trainer	89234cd13985	Maître des secouristes de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	156		Name	Dalaran Fishing Fountain	fe05d8068e3a	Fontaine de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	157		Name	Dalaran Herbalism Trainer	1593f6a8c88b	Maître des herboristes de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	158		Name	Dalaran Jewelcrafting Trainer	588add98db81	Maître des joailliers de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	159		Name	Dalaran Leatherworking Trainer	43f5290ca58a	Maître des travailleurs du cuir de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	160		Name	Dalaran Mining Trainer	2b4cbbe4864f	Maître des mineurs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	161		Name	Dalaran Skinning Trainer	dd5213e07aad	Maître des dépeceurs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	162		Name	Dalaran Tailoring Trainer	77096ba2a64a	Maître des tailleurs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	163		Name	Dalaran Cloth Armor & Clothing	bcbcf770d03f	Armures d'étoffes et de fourrures de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	164		Name	Dalaran Flowers	8cb4ec517197	Fleuriste de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	165		Name	Dalaran Fruit Vendor	4567466060aa	Vendeur de fruits de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	166		Name	Dalaran General & Trade Store	275575fa0cce	Fournitures générales de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	167		Name	Dalaran Pet Store	94acaaa661a3	Animalerie de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	168		Name	Dalaran Pie, Pastry & Cake	0d119ad6b87a	Tartes, patisseries et gateaux de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	169		Name	Dalaran Reagents	06d1187b1c8d	Réactifs de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	170		Name	Dalaran Toy Store	2f45175986da	Marchand de jouets de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	171		Name	Dalaran Trinkets	31eab47919dc	Bijoux de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	172		Name	Dalaran Melee Weapons	871589979e5e	Armes de mélée de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	173		Name	Dalaran Ranged Weapons	dc756d32fd39	Armes de jets de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	174		Name	Dalaran Staves & Wands	40662dec4c0d	Bâtons et baguettes de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	175		Name	Dalaran Wine & Cheese	1079420ca24a	Vins et fromages de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	176		Name	Bank of Orgrimmar	e7adb091494b	Banque d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	177		Name	The Sky Tower	f215fd22626f	Tour des Cieux	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	178		Name	Horde Embassy	4b434cb9cf39	Ambassade de la Horde	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	179		Name	Orgrimmar Inn	43f26371dd7f	Auberge d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	180		Name	Orgrimmar Mailbox	e2c7c8bf5987	Boîte aux lettres d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	181		Name	Orgrimmar Auction House	a2dcaa745ba1	Autel des ventes d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	182		Name	Orgrimmar Eastern Zeppelin Tower	42d439a75033	Tour des Zeppelins Est d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	183		Name	Orgrimmar Western Zeppelin Tower	1e9893542d24	Tour des Zeppelins Ouest d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	184		Name	Sayoc & Hanashi	2b91793f55c6	Sayoc & Hanashi	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	185		Name	Xon'cha	d4e0967f041e	Xon'cha	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	186		Name	Hall of Legends	245cbeeade1b	Hall des Légendes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	187		Name	Battlemasters Orgrimmar	33ca95c21fba	Maître de guerre d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	188		Name	Orgrimmar Barber	4a9aaba5d8a4	Coiffeuse d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	189		Name	Orgrimmar Inscription	68382429b11e	Calligraphe d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	190		Name	Exodar, Auctioneer	ae8549c5b036	Exodar, Maison des enchères	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	191		Name	Exodar, bank	d846f441eb5f	Exodar, Banque	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	192		Name	Exodar, Hippogryph Master	1b7aa3c0aac0	Exodar, Maître des Griffons	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	193		Name	Exodar, Guild Master	f161ee57d28a	Exodar, Maître des guildes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	194		Name	Exodar, Inn	c8f8ae8414e8	Exodar, Auberge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	195		Name	Exodar, Mailbox	8c23775f2369	Exodar, Boîte aux lettres	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	196		Name	Exodar, Stable Master	dd1e7401f17e	Exodar, Maître des étables	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	197		Name	Exodar, Weapon Master	ca104bfa9bbe	Exodar, Maître des armes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	198		Name	Exodar, Druid Trainer	c65f2aae0e09	Exodar, Maître des Druides	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	199		Name	Exodar, Hunter Trainers	cf1a716a8dc5	Exodar, Maître des Chasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	200		Name	Exodar, Mage Trainers	64c1767bddef	Exodar, Maître des Mages	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	201		Name	Exodar, Paladin Trainers	0ade702e819e	Exodar, Maître des Paladins	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	202		Name	Exodar, Priest Trainers	f94637abf5a8	Exodar, Maître des Prêtres	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	203		Name	Exodar, Shaman Trainer	06d119c05ba9	Exodar, Maître des Chamans	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	204		Name	Exodar, Warrior Trainers	a686b28466ad	Exodar, Maître des Guerriers	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	205		Name	Exodar, Alchemist Trainers	883a26240933	Exodar, Maître des Alchismistes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	206		Name	Exodar, Blacksmithing Trainers	892cb0b8a860	Exodar, Maître des Forgerons	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	207		Name	Exodar, Enchanters	128774e66a8a	Exodar, Enchantement	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	208		Name	Exodar, Engineering	e70206e7a207	Exodar, Ingénierie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	209		Name	Exodar, First Aid Trainer	ac5e6574de2a	Exodar, Secourisme	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	210		Name	Exodar, Fishing Trainer	4e0973b88661	Exodar, Pêche	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	211		Name	Exodar, Herbalist Trainer	393f4fb26d6a	Exodar, Herboristerie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	212		Name	Exodar Inscription	1874f765e559	Exodar, Calligraphie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	213		Name	Exodar, Jewelcrafters	d58ca857a159	Exodar, Joaillerie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	214		Name	Exodar, Leatherworking	3c972cea66c2	Exodar, Travail du Cuir	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	215		Name	Exodar, Mining Trainers	3711967670c6	Exodar, Minage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	216		Name	Exodar, Skinning Trainer	506ea7ddc95d	Exodar, Dépeçage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	217		Name	Exodar, Tailors	4069905d1bff	Exodar, Couture	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	218		Name	Exodar, Cook	9e75f5bdef22	Exodar, Cuisinier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	219		Name	Azure Watch, Innkeeper	f7803131365b	Le Guet d'Azur, Auberge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	220		Name	Azure Watch, Stable Master	52b48f3fcd3e	Le Guet d'Azur, Maître des étables	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	221		Name	Azure Watch, Hunter Trainer	d2bd3fd5a052	Le Guet d'Azur, Maître des Chasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	222		Name	Azure Watch, Mage Trainer	6f1292951010	Le Guet d'Azur, Maître des Mages	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	223		Name	Azure Watch, Paladin Trainer	3b8ad74389dd	Le Guet d'Azur, Maître des Paladins	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	224		Name	Azure Watch, Priest Trainer	7d1aed610d44	Le Guet d'Azur, Maître des Prêtres	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	225		Name	Azure Watch, Shaman Trainer	cb1153885394	Le Guet d'Azur, Maître des Chamans	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	226		Name	Azure Watch, Warrior Trainer	7998ab4bc7bb	Le Guet d'Azur, Maître des Guerriers	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	227		Name	Azure Watch, Alchemist	a5793a1bb74c	Le Guet d'Azur, Alchimiste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	228		Name	Odesyus' Landing, Blacksmith	8c72a04c01d1	Point d'accostage d’Odesyus, Forge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	229		Name	Odesyus' Landing, Cook	fab3b424de06	Point d'accostage d’Odesyus, Cuisinier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	230		Name	Azure Watch, Engineering Trainer	20e2ae35c067	Le Guet d'Azur, Maître des ingénieurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	231		Name	Azure Watch, First Aid Trainer	147c9134f1b9	Le Guet d'Azur, Maître des sécouristes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	232		Name	Ammen Ford, Fisherwoman	752179980714	Gué d'Ammen, pêcheuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	233		Name	Azure Watch, Herbalist	f2d6fbf14979	Le Guet d'Azur, Herboriste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	234		Name	Stillpine Hold, Leatherworker	be5e39c614f2	Repaire des Calmepins, Travailleur du cuir	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	235		Name	Azure Watch, Mining Trainer	f10915b78626	Le Guet d'Azur, Maître des mineurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	236		Name	Stillpine Hold, Skinner	96d83a858518	Repaire des Calmepins, Dépeceur	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	237		Name	Odesyus' Landing, Tailor	bfb804fb717d	Point d'accostage d’Odesyus, Tailleur	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	238		Name	Dalaran Leather & Mail Armor	af015e761d6d	Amures en cuir et maille de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	239		Name	Dalaran Plate Armor & Shields	727c0d2e910d	Amures et boucliers en plaque de Dalaran	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	240		Name	Shattrath Cantina	61af31a3d6c2	La cantine de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	241		Name	Shattrath Bank Scryer	1325b3d2c266	Banque de Shattrath des Clairvoyants	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	242		Name	Shattrath Inn Scryer	33cf9f35ca09	L'Auberge de Shattrath des Clairvoyants	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	243		Name	Shattrath Taxi	de36c51edf86	Les Taxis de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	244		Name	Shattrath Stable Aldor	8bd076d57807	Etables de Shattrath des Aldor	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	245		Name	Shattrath Stable Scryer	5d0968ce923d	Etables de Shattrath des Clairvoyants	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	246		Name	Shattrath Battlemasters Alliance	3fb59b4d98ff	Maîtres de Guerre de Shattrath de l'Alliance	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	247		Name	Shattrath Battlemasters Horde	e12e08a22ad5	Maîtres de Guerre de Shattrath de la Horde	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	248		Name	Shattrath Alchemist	33cb6f37631c	Alchimiste de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	249		Name	Shattrath Armor/Weapon Crafter	37c075df393e	Forgeron d'armures et d'armes de Shattrath)	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	250		Name	Shattrath Cook	bf52de759530	Cuisinier de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	251		Name	Shattrath Enchanters	386c9d52e1ea	Enchanteur de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	252		Name	Shattrath First Aid	a5bf68d7038a	Secouriste de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	253		Name	Shattrath Jewelcrafter	8329d8c60c2b	Joaillier de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	254		Name	Shattrath Leatherworker	1ba8d30652c1	Travailleur du Cuir de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	255		Name	Shattrath Skinner	8851be390bf4	Dépeceur de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	256		Name	Shattrath Mana Loom	bb3650e0468e	Puits de mana de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	257		Name	Shattrath Alchemy Lab	9e5da8fe7978	Laboratoire d'Alchimie de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	258		Name	Scryer Gem Vendor	424abec9a762	Vendeur de gemmmes Clairvoyant	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	259		Name	Aldor Gem Vendor	7b155147d523	Vendeur de gemmmes Aldor	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	260		Name	Shattrath Bank Aldor	59cae23e8dc4	Banque Aldor de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	261		Name	Shattrath Inn Aldor	810cac0d6cf7	Auberge Aldor de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	262		Name	Shattrath Arena Battlemasters	322111d8f38d	Maître d'arène de Shattrath	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	263		Name	Exodar, Battlemasters	d28edcd35320	Exodar, Maîtres de Guerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	264		Name	Arena Battlemaster Exodar	7fdd505230bb	Exodar, Maître d'arène	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	265		Name	Darnassus Mage Trainer	4e860071d53d	Maître des Mages de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	266		Name	Darnassus Paladin Trainer	057add06133d	Maître des Paladins de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	267		Name	Temple of the Moon	68b681234ca2	Temple de la Lune	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	268		Name	Darnassus Herbalism Trainer	46e403db305d	Herboristerie de Darnassus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	269		Name	Herbalist Pomeroy	c0804e03e97a	Herboriste Pomeroy	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	270		Name	Dalaran Sewer Arena	6f7e12111a54	Arène des égouts de Dalaran 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	271		Name	Dalaran Sewer Bank	c62c547bff74	Banque des égouts de Dalaran 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	272		Name	Dalaran Sewer Inn	242b48bf95b3	Auberge des égouts de Dalaran 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	273		Name	Dalaran Sewer Tunnel	c26e1599a2e0	Tunnel des égouts de Dalaran 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	274		Name	Dalaran Sewer Vendors	5d555b2ecc47	Vendeurs des égouts de Dalaran 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	275		Name	Thunder Bluff Bank	1acd222fa6b2	Banque des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	276		Name	Wind Rider Roost	62e4a79cabb4	Perchoir du Coursier du vent	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	277		Name	Thunder Bluff Civic Information	b4785074abf3	Centre d'information civique des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	278		Name	Thunder Bluff Inn	b374aa7edf08	Auberge des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	279		Name	Thunder Bluff Mailbox	15507d748468	Boite à lettre des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	280		Name	Thunder Bluff Auction house	86763e41afb9	Hôtel des ventes des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	281		Name	Ansekhwa	328872d6008e	Ansekhwa	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	282		Name	Bulrug	aa03d8aeeff7	Bulrug	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	283		Name	Battlemasters Thunder Bluff	2bf498288d5d	Maîtres de Guerre des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	284		Name	Thunder Bluff Zeppelin	dc797afb4cc5	Zeppelin des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	285		Name	Hall of Elders	aa317ee20698	Hall des Anciens	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	286		Name	Hunter's Hall	6075d4aa4cb1	Hall des chasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	287		Name	Pools of Vision	f6c5ba3cea2c	Le bassin des Visions	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	288		Name	Hall of Spirits	ee5b877d9aaf	Hall des ésprits	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	289		Name	Bena's Alchemy	d2fdc497d24b	Alchimie de Bena	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	290		Name	Karn's Smithy	e70a2407b65d	Forge de Karn	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	291		Name	Aska's Kitchen	b91fd95cd876	Cuisine d'Aska	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	292		Name	Dawnstrider Enchanters	55381abc0125	Enchanteurs Aube-Glorieuse 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	293		Name	Spiritual Healing	ce44dfcea491	Soins spirituels	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	294		Name	Mountaintop Bait & Tackle	722db02666ef	Appâts & équipement du sommet	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	295		Name	Holistic Herbalism	79edbe24b01d	Herboristerie holistique	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	296		Name	Thunder Bluff Inscription	6021a84be0d1	Calligraphe des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	297		Name	Thunder Bluff Armorers	e2a79b34091f	Armurerie des Pitons-du-Tonnerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	298		Name	Stonehoof Geology	5a2cde83ad76	Géologie de Sabot-de-Pierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	299		Name	Mooranta	e8456f1813e6	Mooranta	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	300		Name	Orgrimmar Hunter's Hall	61d50017eef3	Hall des Chasseurs d'Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	301		Name	Darkbriar Lodge	c1e049afcf90	pavillon de Buissombre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	302		Name	Spirit Lodge	7e68d343bd5a	Autel des esprits	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	303		Name	Thrall's Fortress	f2eb4230a742	Forteresse de Thrall	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	304		Name	Shadowswift Brotherhood	533db9f4b500	Confrérie Ombrevive	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	305		Name	Darkfire Enclave	698573cd6915	Enclave de Sombrefeu	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	306		Name	Hall of the Brave	f1b11cc7ebf9	Hall des braves	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	307		Name	Yelmak's Alchemy and Potions	1105876a4751	Chez Yelmak. Alchimie et potions	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	308		Name	The Burning Anvil	5daf09218831	L'Enclume ardente	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	309		Name	Borstan's Firepit	329122ac8b7f	Fosse à feu de Borstan	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	310		Name	Godan's Runeworks	6848be914f1a	Runes de Godan	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	311		Name	Nogg's Machine Shop	8c86b4ed772f	Atelier de Nogg	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	312		Name	Survival of the Fittest	8f0e788a8b96	La survie du plus fort	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	313		Name	Lumak's Fishing	f16f48210b84	Articles de pêche de Lumak	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	314		Name	Jandi's Arboretum	3632e6407c2b	Arboretum de Jandi	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	315		Name	Red Canyon Mining	91c8cf2a1867	Mine du Canyon rouge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	316		Name	Kodohide Leatherworkers	481b1964e2d2	Artisans du cuir kodo	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	317		Name	Magar's Cloth Goods	89a0b2de271e	Les étoffes de Magar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	318		Name	Undercity Auction House	786431c39f8c	Hôtel des ventes de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	319		Name	Undercity Bank	d6c600a3aecd	Banque de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	320		Name	Undercity Barber	5cfcd09e1fbd	Coiffeur de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	321		Name	Undercity Bat Handler	9db5300ef827	Eleveur de chauves-souris de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	322		Name	Battlemasters Undercity	3c927a70af76	Maître de Guerre de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	323		Name	Undercity Guild Master	4d0a29f457d2	Maître des guildes de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	324		Name	Undercity Inn	94d56452bf51	Auberge de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	325		Name	Undercity Locksmith	9bd6e1696abd	Serrurier de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	326		Name	Undercity Mailbox	62b31b803c5e	Boite à lettre de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	327		Name	Anya Maulray	eff2538dfb73	Anya Maulray	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	328		Name	Archibald	5ffe772c6bdf	Archibald	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	329		Name	Undercity Zeppelin	a42e0fe8ef29	Zeppelin de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	330		Name	Champion Cyssa Dawnrose	3a933c4f85cf	Championne Cyssa Auberose	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	331		Name	Undercity Mage Trainers	b691ca488672	Maîtres des Mages de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	332		Name	Undercity Priest Trainers	0a9a1c4f45af	Maîtres des Prêtres de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	333		Name	Undercity Rogue Trainers	0df0a25ce3fa	Maîtres des Voleurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	334		Name	Undercity Warlock Trainers	643270f02477	Maîtres des Démonistes de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	335		Name	Undercity Warrior Trainers	66a849c84379	Maîtres des Guerriers de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	336		Name	The Apothecarium	0f3009721300	L'Apothicarium	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	337		Name	Undercity Blacksmithing Trainer	db6af3749ee4	Maître des Forgerons de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	338		Name	Undercity Cooking Trainer	50517974d151	Maître des Cuisiniers de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	339		Name	Undercity Enchanting Trainer	fb4b12939b34	Maître des Enchanteurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	340		Name	Undercity Engineering Trainer	3964c47f9de3	Maître des Ingénieurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	341		Name	Undercity First Aid Trainer	b4599161d26f	Maître des Sécouristes de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	342		Name	Undercity Fishing Trainer	ca7831037cca	Maître des Pêcheurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	343		Name	Undercity Herbalism Trainer	aaee5c63f51b	Maître des Herboristes de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	344		Name	Undercity Inscription	12743bcf66b4	Maître des Calligraphes de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	345		Name	Undercity Leatherworking Trainer	4aea5c613801	Maître des Travailleurs du cuir de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	346		Name	Undercity Skinning Trainer	29e90029ac1f	Maître des Dépeceurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	347		Name	Undercity Mining Trainer	33357df0c4b1	Maître des Mineurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	348		Name	Undercity Tailoring Trainer	ed5a6f70a914	Maître des Tailleurs de Fossoyeuse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	349		Name	Silvermoon City, Auction House	0f61a6f1ccd9	Lune-d'argent, Hôtel des ventes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	350		Name	Silvermoon City, Auction House	0f61a6f1ccd9	Lune-d'argent, Hôtel des ventes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	351		Name	Silvermoon City, Bank	5717b3f56136	Lune-d'argent, Banque	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	352		Name	Silvermoon City, Bank	5717b3f56136	Lune-d'argent, Banque	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	353		Name	Silvermoon City, Flight Master	5ddb890826bc	Lune-d'argent, Maître de vol	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	354		Name	Silvermoon City, Guild House	d3f5b47bbf86	Lune-d'argent, Guilde	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	355		Name	Silvermoon City, Inn	991791fbec2b	Lune-d'argent, Auberge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	356		Name	Silvermoon City, Inn	991791fbec2b	Lune-d'argent, Auberge	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	357		Name	Silvermoon City, Mailbox	0a980f1d9378	Lune-d'argent, Boite aux lettres	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	358		Name	Silvermoon City, Stable Master	8cca67f62803	Lune-d'argent, Maître des écuries	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	359		Name	Silvermoon City, Weapon Master	91107386c46c	Lune-d'argent, Maître des armes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	360		Name	Silvermoon City, Battlemasters	46ed34f0062d	Lune-d'argent, Maître de Guerre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	361		Name	Silvermoon City, Druid Trainer	bfbb3b01b349	Lune-d'argent, Maître des Druides	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	362		Name	Silvermoon City, Hunter Trainer	a6adb2d6d121	Lune-d'argent, Maître des  Chasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	363		Name	Silvermoon City, Mage Trainer	4d35ec0e275b	Lune-d'argent, Maître des  Mages	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	364		Name	Silvermoon City, Paladin Trainer	8bea8bd1e051	Lune-d'argent, Maître des  Paladins	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	365		Name	Silvermoon City, Priest Trainer	9a24d39f2872	Lune-d'argent, Maître des  Prêtres	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	366		Name	Silvermoon City, Rogue Trainer	590c39c5b47c	Lune-d'argent, Maître des  Voleurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	367		Name	Silvermoon City, Warlock Trainers	c1ffb4e31687	Lune-d'argent, Maître des  Démonistes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	368		Name	Silvermoon City, Alchemy	b7de455d4fef	Lune-d'argent, Alchimiste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	369		Name	Silvermoon City, Blacksmithing	832ce8466b78	Lune-d'argent, Forgeron	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	370		Name	Silvermoon City, Cooking	1e9df6fb9835	Lune-d'argent, Cuisinier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	371		Name	Silvermoon City, Enchanting	726982b92253	Lune-d'argent, Enchantement	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	372		Name	Silvermoon City, Engineering	47f66efed220	Lune-d'argent, Ingénierie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	373		Name	Silvermoon City, First Aid	e643963819ed	Lune-d'argent, Secourisme	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	374		Name	Silvermoon City, Fishing	85038c2d2191	Lune-d'argent, Pêche	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	375		Name	Silvermoon City, Herbalism	003c04511c83	Lune-d'argent, Herboristerie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	376		Name	Silvermoon City Inscription	c97825857874	Lune-d'argent, Calligraphie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	377		Name	Silvermoon City, Jewelcrafting	17dd0e035db7	Lune-d'argent, Joaillerie	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	378		Name	Silvermoon City, Leatherworking	7f912047c61e	Lune-d'argent, Travail du Cuir	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	379		Name	Silvermoon City, Mining	638b02f235b8	Lune-d'argent, Minage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	380		Name	Silvermoon City, Skinning	914bab350ada	Lune-d'argent, Dépeçage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	381		Name	Silvermoon City, Tailoring	f59c409c1a2f	Lune-d'argent, Couture	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	382		Name	Silvermoon City, Mana Loom	6120f3c90383	Lune-d'argent, Puit de Mana	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	383		Name	Falconwing Square, Innkeeper	a5a5cdc77a5f	Place de l'Épervier, l'Aubergiste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	384		Name	Falconwing Square, Stable Master	193945500cd9	Place de l'Épervier, Maître des écuries	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	385		Name	Falconwing Square, Hunter Trainer	42ffdf43b4f7	Place de l'Épervier, Maître des Chasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	386		Name	Falconwing Square, Mage Trainer	939e77677367	Place de l'Épervier, Maître des Mages	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	387		Name	Falconwing Square, Paladin Trainer	5b4f1eade0b0	Place de l'Épervier, Maître des Paladins	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	388		Name	Falconwing Square, Priest Trainer	0b8220d9439e	Place de l'Épervier, Maître des Prêtres	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	389		Name	Falconwing Square, Rogue Trainer	ea0ae67079ad	Place de l'Épervier, Maître des Voleurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	390		Name	Falconwing Square, Warlock Trainer	33eb2f2c0d7b	Place de l'Épervier, Maître des Démonistes	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	391		Name	Saltheril's Haven, Alchemist	38a557854736	Havre de Saltheril, Alchimiste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	392		Name	Farstrider Retreat, Blacksmith	6732a4521ab0	La Retraite des pérégrins, Forgeron	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	393		Name	Falconwing Square, Cook	cbf505dad0dd	la place de l'Epervier, Cuisinier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	394		Name	Saltheril's Haven, Enchanter	4df4955b9239	Havre de Saltheril, Enchanteur	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	395		Name	Falconwing Square, First Aid Trainer	64d5b502bbb1	la place de l'Epervier, Secourisme	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	396		Name	Saltheril's Haven, Herbalist	5c44545e99df	Havre de Saltheril, Herboriste	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	397		Name	Falconwing Square, Jewelcrafter	fe1b4d4a51c5	la place de l'Epervier, Joaillier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	398		Name	Eversong Woods, Leatherworker	23285b670db4	Bois des Chants éternels, Travailleur du cuir	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	399		Name	Eversong Woods, Skinner	cf02ac2922cf	Bois des Chants éternels, Dépeceur	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	400		Name	Saltheril's Haven, Tailor	bc267af0eb6e	Havre de Saltheril, Couturier	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	401		Name	Springspindle's Gadgets	6686a43cbd97	Gadjets de Fuseressort	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	402		Name	Yarr Hammerstone	8b99027c59b3	Yarr Martèlepierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	403		Name	Razor Hill Inn	6e499d7f6b0a	Auberge de Tranchecolline	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	404		Name	Shoja'my	ce40d6502d84	Shoja'my 	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	405		Name	Thotar	17f62f127db4	Thotar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	406		Name	Un'Thuwa	ccfc227ed86b	Un'Thuwa	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	407		Name	Tai'jin	89c6e27c72fa	Tai'jin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	408		Name	Kaplak	11ead7ce3a75	Kaplak	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	409		Name	Swart	b0f0b58d1281	Swart	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	410		Name	Dhugru Gorelust	8b2914470ace	Dhugru Soif-de-carnage	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	411		Name	Tarshaw Jaggedscar	46bc2cde5fc1	Tarshaw Salbalafre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	412		Name	Miao'zan	bce068dcdbe7	Miao'zan	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	413		Name	Dwukk	817938d38f11	Dwukk	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	414		Name	Mukdrak	2650e775a0ea	Mukdrak	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	415		Name	Rawrk	0fcbe1541fc6	Rawrk	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	416		Name	Lau'Tiki	e47e4d40dbbb	Lau'Tiki	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	417		Name	Mishiki	4375e9dcd27d	Mishiki	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	418		Name	Krunn	c9544ff3fc01	Krunn	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	419		Name	Bloodhoof Village Inn	948e16a73d97	Auberge du Sabot-de-Sang	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	420		Name	Seikwa	fcaf4c5211e8	Seikwa	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	421		Name	Gennia Runetotem	b98bf1d824e2	Gennia Totem-Runique	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	422		Name	Yaw Sharpmane	bee63d88aa18	Yaw Crin-Tranchant	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	423		Name	Narm Skychaser	73d601b68f1a	Narm Chasse-le-Ciel	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	424		Name	Krang Stonehoof	7d86ddcb8ecd	Krang Sabot-de-Pierre	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	425		Name	Pyall Silentstride	96a6c180117d	Pyall Sabots-Feutrés	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	426		Name	Vira Younghoof	2b22f301f40e	Vira Jeune-Sabot	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	427		Name	Uthan Stillwater	315765789fe2	Uthan Eau-Plate	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	428		Name	Chaw Stronghide	27d2daa7a1df	Chaw Cuir-Solide	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	429		Name	Yonn Deepcut	a5deb177712b	Yonn Entaille-Profonde	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	430		Name	Gallows' End Tavern	da6d08eadf1a	La Taverne du pendu	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	431		Name	Gallows' End Tavern	da6d08eadf1a	La Taverne du pendu	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	432		Name	Morganus	999874aef187	Morganus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	433		Name	Cain Firesong	7e909c4bbf2e	Cain Chantefeu	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	434		Name	Dark Cleric Beryl	400a35e7a785	Sombre clerc Beryl	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	435		Name	Marion Call	929487c4222d	Marion Call	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	436		Name	Rupert Boch	5774cb51750e	Rupert Boch	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	437		Name	Austil de Mon	cb5f5aab3836	Austil de Mon	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	438		Name	Carolai Anise	a813461c9d9e	Carolai Anise	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	439		Name	Vance Undergloom	758148afd69e	Vance Tristefosse	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	440		Name	Nurse Neela	ee8f3d192278	Infirmière Neela	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	441		Name	Clyde Kellen	6f4c25b4c8cb	Clyde Kellen	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	442		Name	Faruza	f3826a876ae9	Faruza	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	443		Name	Shelene Rhobart	2452a93c2a99	Shelene Rhobart	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	444		Name	Rand Rhobart	998ef64c352a	Rand Rhobart	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	445		Name	Bowen Brisboise	198b4aa7bdca	Bowen Brisboise	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	446		Name	Gallows' End Tavern	da6d08eadf1a	La Taverne du pendu	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	447		Name	Morganus	999874aef187	Morganus	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	448		Name	Brewfest Souvenirs	1e1f0aab3cf7	Souvenirs de la fête des brasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	449		Name	Brewfest Ram Racing	0fa3c140f306	Bélier de course de la fête des brasseurs	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	450		Name	Brew of the Month Club, Ironforge	f812000f5c21	Le club de la Bière du mois, Forgefer	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	451		Name	Goblin Brewfest Souvenirs	49ef166abe56	Souvenirs de la fête des brasseurs Goblin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	452		Name	Goblin Brewfest Ram Racing	2501b4ee623c	Bélier de course de la fête des brasseurs Goblin	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	453		Name	Brew of the Month Club, Orgrimmar	cd755adc4e82	Le club de la Bière du mois, Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
+point_interet	1000		Name	First Wave	efb4ef15b427		a_traduire		
+point_interet	1001		Name	Second Wave	ac682c5145d2		a_traduire		
+point_interet	1002		Name	Third Wave	376e21d60893		a_traduire		
+point_interet	1003		Name	Forth Wave	2bafb6639c5e		a_traduire		
+point_interet	1004		Name	Meathook	e7433eea924c	Grancrochet	officiel	blizzard_frFR	niveau=meme_groupe
+point_interet	1005		Name	Sixth Wave	313f46b57e7c		a_traduire		
+point_interet	1006		Name	Seventh Wave	47c133b922e5		a_traduire		
+point_interet	1007		Name	Eight Wave	1b7522eafe3d		a_traduire		
+point_interet	1008		Name	Nineth Wave	7a13eaa17091		a_traduire		
+point_interet	1009		Name	Salramm the Fleshcrafter	71769c6489c5	Salramm le Façonneur de chair	officiel	blizzard_frFR	niveau=meme_groupe
+point_interet	9321000		Name	Stormwind Barbarian Trainer	c313c90d7ff1		a_traduire		
+point_interet	9321001		Name	Stormwind Guardian Trainer	83ce296c570c		a_traduire		
+point_interet	9321002		Name	Stormwind Templar Trainer	fc56987974db		a_traduire		
+point_interet	9321003		Name	Stormwind Sun Cleric Trainer	3fed472e96ff		a_traduire		
+point_interet	9321004		Name	Stormwind Witch Doctor Trainer	ace665edd556		a_traduire		
+point_interet	9321005		Name	Stormwind Witch Hunter Trainer	10f46aa4cee6		a_traduire		
+point_interet	9321006		Name	Stormwind Stormbringer Trainer	49a2205e7b8b		a_traduire		
+point_interet	9321007		Name	Stormwind Bloodmage Trainer	c12069ea6aa7		a_traduire		
+point_interet	9321008		Name	Stormwind Ranger Trainer	913f89c096a9		a_traduire		
+point_interet	9321009		Name	Stormwind Chronomancer Trainer	6f462402cd1a		a_traduire		
+point_interet	9321010		Name	Stormwind Necromancer Trainer	188254fc7ee1		a_traduire		
+point_interet	9321011		Name	Stormwind Pyromancer Trainer	2f8692ad89fd		a_traduire		
+point_interet	9321012		Name	Stormwind Cultist Trainer	b66faf8cf4a6		a_traduire		
+point_interet	9321013		Name	Stormwind Tinker Trainer	547714f93c87		a_traduire		
+point_interet	9321014		Name	Stormwind Reaper Trainer	fd193362fbe0		a_traduire		
+point_interet	9321015		Name	Stormwind Runemaster Trainer	c62791c842f2		a_traduire		
+point_interet	9321020		Name	Ironforge Barbarian Trainer	f782c8f24e89		a_traduire		
+point_interet	9321021		Name	Ironforge Guardian Trainer	3a4d057c0243		a_traduire		
+point_interet	9321022		Name	Ironforge Primalist Trainer	0193232c3d79		a_traduire		
+point_interet	9321023		Name	Ironforge Templar Trainer	8f0f71414a4d		a_traduire		
+point_interet	9321024		Name	Ironforge Sun Cleric Trainer	5fce1ab9fe0d		a_traduire		
+point_interet	9321025		Name	Ironforge Necromancer Trainer	c03cd84193cf		a_traduire		
+point_interet	9321026		Name	Ironforge Cultist Trainer	bde1fffcac80		a_traduire		
+point_interet	9321027		Name	Ironforge Tinker Trainer	091ec802cd8a		a_traduire		
+point_interet	9321028		Name	Ironforge Pyromancer Trainer	921822cabee9		a_traduire		
+point_interet	9321029		Name	Ironforge Stormbringer Trainer	fd36107304d0		a_traduire		
+point_interet	9321030		Name	Ironforge Runemaster Trainer	6d7aa812e52c		a_traduire		
+point_interet	9321040		Name	Darnassus Felsworn Trainer	f8b947b14bf9		a_traduire		
+point_interet	9321041		Name	Darnassus Knight of Xoroth Trainer	70bc5d6131aa		a_traduire		
+point_interet	9321042		Name	Darnassus Ranger Trainer	af4266e72c8a		a_traduire		
+point_interet	9321043		Name	Darnassus Templar Trainer	7320529b817b		a_traduire		
+point_interet	9321044		Name	Darnassus Starcaller Trainer	5c81bac34778		a_traduire		
+point_interet	9321045		Name	Darnassus Chronomancer Trainer	8b7d148bbad4		a_traduire		
+point_interet	9321046		Name	Darnassus Stormbringer Trainer	cac4be6c1796		a_traduire		
+point_interet	9321047		Name	Darnassus Primalist Trainer	a0d63c21d357		a_traduire		
+point_interet	9321048		Name	Darnassus Cultist Trainer	ae824f227a72		a_traduire		
+point_interet	9321049		Name	Darnassus Reaper Trainer	98444ae83e29		a_traduire		
+point_interet	9321050		Name	Darnassus Bloodmage Trainer	075dcc7b2e58		a_traduire		
+point_interet	9321051		Name	Darnassus Tinker Trainer	a2a0edc3af28		a_traduire		
+point_interet	9321052		Name	Darnassus Runemaster Trainer	fdb1ab3de2c8		a_traduire		
+point_interet	9321060		Name	Exodar Felsworn Trainer	9a717fb3dc39		a_traduire		
+point_interet	9321061		Name	Exodar Stormbringer Trainer	39064c8b32d2		a_traduire		
+point_interet	9321062		Name	Exodar Knight of Xoroth Trainer	6e9379e9b363		a_traduire		
+point_interet	9321063		Name	Exodar Guardian Trainer	2602f6173407		a_traduire		
+point_interet	9321064		Name	Exodar Templar Trainer	48154deba118		a_traduire		
+point_interet	9321065		Name	Exodar Chronomancer Trainer	4594320d8025		a_traduire		
+point_interet	9321066		Name	Exodar Necromancer Trainer	9297717fb4b3		a_traduire		
+point_interet	9321067		Name	Exodar Pyromancer Trainer	8dacedf768d8		a_traduire		
+point_interet	9321068		Name	Exodar Cultist Trainer	94857ecc6a69		a_traduire		
+point_interet	9321069		Name	Exodar Starcaller Trainer	8bb27a94756e		a_traduire		
+point_interet	9321070		Name	Exodar Tinker Trainer	6049753d4534		a_traduire		
+point_interet	9321071		Name	Exodar Reaper Trainer	7f5e608a5f93		a_traduire		
+point_interet	9321072		Name	Exodar Primalist Trainer	1578ff6eb750		a_traduire		
+point_interet	9321073		Name	Exodar Runemaster Trainer	ec17e5e4da24		a_traduire		
+point_interet	9321080		Name	Orgrimmar Barbarian Trainer	96b2bbb28585		a_traduire		
+point_interet	9321081		Name	Orgrimmar Guardian Trainer	38d2d7677df9		a_traduire		
+point_interet	9321082		Name	Orgrimmar Ranger Trainer	b4b9f837ca54		a_traduire		
+point_interet	9321083		Name	Orgrimmar Tinker Trainer	7f5c021d6113		a_traduire		
+point_interet	9321084		Name	Orgrimmar Knight of Xoroth Trainer	b0a577eab42c		a_traduire		
+point_interet	9321085		Name	Orgrimmar Necromancer Trainer	4d687b8542ab		a_traduire		
+point_interet	9321086		Name	Orgrimmar Felsworn Trainer	0acea41abb23		a_traduire		
+point_interet	9321087		Name	Orgrimmar Cultist Trainer	41ddd19bf434		a_traduire		
+point_interet	9321088		Name	Orgrimmar Witch Doctor Trainer	2bd2ca9d6d3d		a_traduire		
+point_interet	9321089		Name	Orgrimmar Venomancer Trainer	a250a3766f34		a_traduire		
+point_interet	9321090		Name	Orgrimmar Stormbringer Trainer	40f1c5086de8		a_traduire		
+point_interet	9321091		Name	Orgrimmar Primalist Trainer	289f47e42ea1		a_traduire		
+point_interet	9321092		Name	Orgrimmar Pyromancer Trainer	bfc297075d76		a_traduire		
+point_interet	9321093		Name	Orgrimmar Bloodmage Trainer	4ef0a037299e		a_traduire		
+point_interet	9321094		Name	Orgrimmar Runemaster Trainer	3c5c899a4d2f		a_traduire		
+point_interet	9321100		Name	Undercity Felsworn Trainer	6e785dd48c33		a_traduire		
+point_interet	9321101		Name	Undercity Necromancer Trainer	499110d558ea		a_traduire		
+point_interet	9321102		Name	Undercity Chronomancer Trainer	bcd50e188d5e		a_traduire		
+point_interet	9321103		Name	Undercity Bloodmage Trainer	a70f358dcc75		a_traduire		
+point_interet	9321104		Name	Undercity Runemaster Trainer	d0d0b3eaf755		a_traduire		
+point_interet	9321105		Name	Undercity Pyromancer Trainer	388bd867037e		a_traduire		
+point_interet	9321106		Name	Undercity Guardian Trainer	a32f2e4df50a		a_traduire		
+point_interet	9321107		Name	Undercity Knight of Xoroth Trainer	15b3d6ee1efe		a_traduire		
+point_interet	9321108		Name	Undercity Templar Trainer	d678f46d4d45		a_traduire		
+point_interet	9321109		Name	Undercity Starcaller Trainer	daf66ed2dff9		a_traduire		
+point_interet	9321110		Name	Undercity Cultist Trainer	9239b256a6d9		a_traduire		
+point_interet	9321111		Name	Undercity Sun Cleric Trainer	f0d2ce1143af		a_traduire		
+point_interet	9321112		Name	Undercity Reaper Trainer	b2652d18db0f		a_traduire		
+point_interet	9321113		Name	Undercity Ranger Trainer	c81ad4a952ab		a_traduire		
+point_interet	9321114		Name	Undercity Witch Hunter Trainer	280327f1e64e		a_traduire		
+point_interet	9321115		Name	Undercity Stormbringer Trainer	9132e13e030c		a_traduire		
+point_interet	9321116		Name	Undercity Tinker Trainer	935319c88cfb		a_traduire		
+point_interet	9321117		Name	Undercity Barbarian Trainer	6c2e2d7ae0bc		a_traduire		
+point_interet	9321120		Name	Thunder Bluff Barbarian Trainer	b47f94e0e18f		a_traduire		
+point_interet	9321121		Name	Thunder Bluff Guardian Trainer	1906c6474896		a_traduire		
+point_interet	9321122		Name	Thunder Bluff Primalist Trainer	dc2285e77bf5		a_traduire		
+point_interet	9321123		Name	Thunder Bluff Starcaller Trainer	7d194698ac9d		a_traduire		
+point_interet	9321124		Name	Thunder Bluff Sun Cleric Trainer	7cd8ecbaa9c1		a_traduire		
+point_interet	9321125		Name	Thunder Bluff Runemaster Trainer	9f21379ef15b		a_traduire		
+point_interet	9321126		Name	Thunder Bluff Cultist Trainer	1d007d2e6251		a_traduire		
+point_interet	9321140		Name	Silvermoon City Felsworn Trainer	5aa73c9d52f5		a_traduire		
+point_interet	9321141		Name	Silvermoon City Stormbringer Trainer	f81d4221ac3d		a_traduire		
+point_interet	9321142		Name	Silvermoon City Knight of Xoroth Trainer	8d9f846e7d58		a_traduire		
+point_interet	9321143		Name	Silvermoon City Guardian Trainer	c0a7f4d4c3a3		a_traduire		
+point_interet	9321144		Name	Silvermoon City Templar Trainer	fc9d8cd5eaf9		a_traduire		
+point_interet	9321145		Name	Silvermoon City Bloodmage Trainer	efe3de561e12		a_traduire		
+point_interet	9321146		Name	Silvermoon City Ranger Trainer	8a39ca7b2d5c		a_traduire		
+point_interet	9321147		Name	Silvermoon City Chronomancer Trainer	2533373d47d8		a_traduire		
+point_interet	9321148		Name	Silvermoon City Necromancer Trainer	631aa1a479b6		a_traduire		
+point_interet	9321149		Name	Silvermoon City Pyromancer Trainer	173e581cb38c		a_traduire		
+point_interet	9321150		Name	Silvermoon City Cultist Trainer	d14b5137f52e		a_traduire		
+point_interet	9321151		Name	Silvermoon City Starcaller Trainer	8a3d333b3aa2		a_traduire		
+point_interet	9321152		Name	Silvermoon City Runemaster Trainer	861ea1ccc968		a_traduire		
+point_interet	9321153		Name	Silvermoon City Sun Cleric Trainer	c48fc09f92b6		a_traduire		
+point_interet	9321154		Name	Silvermoon City Tinker Trainer	fb546e06ea82		a_traduire		
+point_interet	9321155		Name	Silvermoon City Reaper Trainer	7d92832c3ad9		a_traduire		
+point_interet	9321160		Name	Kharanos Reaper Trainer	be34f65cb91b		a_traduire		
