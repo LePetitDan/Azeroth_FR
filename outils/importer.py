@@ -43,6 +43,7 @@ if ICI not in sys.path:
     sys.path.insert(0, ICI)
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
+import officiel as O  # noqa: E402
 
 csv.field_size_limit(1 << 30)
 D = K.COLLECTE
@@ -56,6 +57,8 @@ CLASSES_COA = {  # glossaire herite, section « Classes et specialisations »
     'Bloodmage': 'Mage de sang', 'Chronomancer': 'Chronomancien', 'Necromancer': 'Nécromancien', 'Pyromancer': 'Pyromancien',
     'Starcaller': 'Mande-étoiles', 'Sun Cleric': 'Clerc du soleil', 'Tinker': 'Bricoleur', 'Venomancer': 'Vénomancien',
     'Reaper': 'Faucheur', 'Primalist': 'Primaliste', 'Runemaster': 'Maître des runes',
+    # décision de vocabulaire n° 7 de Dan (03/11/2026) : les formes de l'ancien projet, pas celles de Blizzard
+    'Guardian': 'Gardien', 'Ranger': 'Rôdeur', 'Cultist': 'Cultiste',
 }
 CHAMP_ORDRE = ['LogTitle', 'LogDescription', 'QuestDescription', 'AreaDescription', 'QuestCompletionLog',
                'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4', 'CompletionText', 'RewardText',
@@ -149,6 +152,14 @@ class Importeur:
         self.noms = C.charger_noms()
         self.talents = set()
         self.charger_corrections()
+        self.off_interface = O.interface()
+        self.off_sorts = O.sorts()
+        self.off_dbc = O.dbc()
+        self.coa_sorts = O.sorts_coa()
+        self.coa_dbc = O.dbc_coa()
+        K.journal('import : sources officielles frFR : %d clés d\'interface, %d textes de sorts, %d textes de DBC ; '
+                  'client CoA : %d textes de sorts (patch-T), %d textes de DBC'
+                  % (len(self.off_interface), len(self.off_sorts), len(self.off_dbc), len(self.coa_sorts), len(self.coa_dbc)))
         K.journal('import : %d mots anglais, %d règles de glossaire, %d corrections sûres, %d noms officiels contrôlés'
                   % (len(K.EN_SEUL), len(self.regles), len(self.corrections), self.noms.n))
 
@@ -421,7 +432,104 @@ class Importeur:
                                   'correction mécanique du glossaire : ' + ', '.join(faites) if faites else '')
         return l
 
+    # ------------------------------------------------------------------
+    # Donnees 0.2 : sorts des classes et des talents rebases sur patch-T ; sorts standard
+    # ------------------------------------------------------------------
+    TECHNIQUE_SORT = re.compile(r'\b(?:DND|NYI|UNUSED|TEST|Test|PH|QA|DEBUG|Debug)\b|\(OLD\)|^zz|[Dd]ummy|Trigger|Bunny|'
+                                r'\[[^\]]*\]|^Copy of\b', re.S)
+
+    def officialiser_sort(self, l, i, champ, en, note_base):
+        """Le francais officiel du Spell.dbc frFR (patch-frFR-3) si l'anglais du sort dans le Spell.dbc actif
+        de CoA (patch-T) est identique a l'anglais Blizzard du meme numero. Renvoie True si adopte."""
+        b = self.off_sorts.get((i, champ))
+        if not (b and b[1] and O.meme_anglais(en, b[0])):
+            return False
+        ancien = l[K.I_FR] if l[K.I_FR] and l[K.I_FR] != b[1] else ''
+        l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = b[1], 'officiel', 'blizzard_frFR'
+        l[K.I_NOTE] = joindre(note_base, 'Spell.dbc frFR officiel (patch-frFR-3, client 3.3.5a) : anglais de patch-T '
+                                         'identique à celui de Blizzard (patch-enUS-3) au même numéro',
+                              'ancienne proposition (archive) : ' + cite(ancien) if ancien else '')
+        return True
+
+    def importer_sorts_classes(self, sorts_asc):
+        """Sorts des 21 classes CoA et des talents : l'anglais de reference est celui du Spell.dbc ACTIF de CoA
+        (patch-T, test 3 du 03/11/2026), et non plus celui du Spell.dbc d'Ascension. Une ligne dont l'anglais
+        change repasse a_revoir, l'ancien francais en note."""
+        ids = {}
+        for (i, champ), r in sorts_asc.items():
+            ids[i] = 'talents' if i in self.talents else 'sorts_classes'
+        ids_t = {i for (i, _) in self.coa_sorts}
+        cles = set(sorts_asc)
+        for i in ids:
+            if i in ids_t:
+                for champ in ('Name', 'Rank', 'Description', 'ToolTip'):
+                    if (i, champ) in self.coa_sorts and (i, champ) not in self.sorts_serveur_ids:
+                        cles.add((i, champ))
+        self.ids_sorts_classes = set(ids)
+        for (i, champ) in sorted(cles, key=lambda x: (int(x[0]), x[1])):
+            fam = ids[i]
+            r = sorts_asc.get((i, champ))
+            en_asc = r['texte_en'] if r else None
+            note = ('Spell.dbc de CoA (patch-T)' if i in ids_t else 'Spell.dbc d\'Ascension (été 2026), sort absent du Spell.dbc de CoA (patch-T)') + \
+                   (' ; sort de talent CoA (coa-development.org)' if fam == 'talents' else ' ; sort de classe CoA')
+            if i in ids_t:
+                en = self.coa_sorts.get((i, champ))
+                if en is None:
+                    self.cr['client_sort_champ_vide_dans_patchT'] += 1
+                    continue
+            else:
+                en = en_asc
+            tech = r['technique'] if (r and en_asc == en) else ''
+            fam_fr = 'nom_sort' if champ in ('Name', 'Rank') else 'desc_sort'
+            l = self.ligne_client('sort', i, champ, en, tech, note, fam_fr, 'sort_classe')
+            if en_asc is not None and not O.meme_anglais(en_asc, en):
+                self.cr['client_sort_anglais_rebase_patchT'] += 1
+                ancien = self.ligne_client('sort', i, champ, en_asc, r['technique'], note, fam_fr, 'sort_classe')
+                if self.officialiser_sort(l, i, champ, en, note):
+                    pass
+                elif l[K.I_ETAT] in ('a_traduire', 'technique') and ancien[K.I_FR]:
+                    l[K.I_ETAT], l[K.I_FR], l[K.I_SRC] = 'a_revoir', '', ancien[K.I_SRC]
+                    l[K.I_NOTE] = joindre(note, 'anglais modifié par CoA (patch-T) ; ancien anglais (Ascension) : %s ; '
+                                                'ancien français proposé : %s' % (cite(en_asc, 2000), cite(ancien[K.I_FR], 2000)))
+                    self.cr['client_sort_anglais_change_vers_a_revoir'] += 1
+                else:
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'anglais de patch-T, différent de celui d\'Ascension : ' + cite(en_asc))
+            elif en_asc is None:
+                self.cr['client_sort_champ_ajoute_patchT'] += 1
+                self.officialiser_sort(l, i, champ, en, note)
+            else:
+                self.officialiser_sort(l, i, champ, en, note)
+            self.ajouter(l, fam)
+            self.cr['client_%s_%s' % (fam, l[K.I_ETAT])] += 1
+        K.journal('import : sorts des classes et talents rebasés sur patch-T (%d sorts)' % len(ids))
+
+    def importer_sorts_standard(self):
+        """Sorts standard (numeros du Spell.dbc 3.3.5a de Blizzard, hors sorts des classes CoA) : textes du
+        Spell.dbc actif de CoA (patch-T) ; officiel si l'anglais est identique a celui de Blizzard."""
+        ids_b = {i for (i, _) in self.off_sorts}
+        for (i, champ), en in sorted(self.coa_sorts.items(), key=lambda x: (int(x[0][0]), x[0][1])):
+            if i not in ids_b or i in self.ids_sorts_classes or (i, champ) in self.sorts_serveur_ids:
+                continue
+            l = ['sort', i, '', champ, en, K.empreinte(en), '', 'a_traduire', '', 'Spell.dbc de CoA (patch-T) ; sort standard']
+            if self.officialiser_sort(l, i, champ, en, l[K.I_NOTE]):
+                pass
+            else:
+                b = self.off_sorts.get((i, champ))
+                if self.TECHNIQUE_SORT.search(en) or (champ == 'Name' and self.TECHNIQUE_SORT.search(self.coa_sorts.get((i, 'Name'), ''))):
+                    l[K.I_ETAT] = 'technique'
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'technique=sort de test ou interne')
+                elif b and b[1]:
+                    l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = b[1], 'a_revoir', 'blizzard_frFR'
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'anglais modifié par CoA : le français officiel traduit l\'anglais '
+                                                       'Blizzard %s' % cite(b[0]))
+                else:
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'texte ajouté par CoA à un sort standard')
+            self.ajouter(l, 'sorts_standard')
+            self.cr['client_sorts_standard_' + l[K.I_ETAT]] += 1
+        K.journal('import : sorts standard terminés')
+
     def importer_client(self):
+        self.zones_exil = {}
         self.charger_francais_client()
         arbres = {}
         for r in lire_csv_xz('site-coa', 'talents_classes_en.csv.xz'):
@@ -430,6 +538,8 @@ class Importeur:
             if r['champ'] in ('nom_arbre', 'description_arbre'):
                 arbres[(r['id'], 'nom' if r['champ'] == 'nom_arbre' else 'description')] = r
         tal_dbc = set()
+        sorts_asc = {}            # (id, champ) -> ligne du Spell.dbc d'Ascension (sorts des classes et des talents CoA)
+        self.sorts_serveur_ids = set()
         for r in lire_csv_xz('ascensiondb', 'textes_client_en.csv.xz'):
             t = r['type']
             if t == 'sort':
@@ -440,21 +550,19 @@ class Importeur:
                     continue
                 if r['serveur_coa_core'].startswith('meme_id'):
                     self.cr['client_sort_remplace_par_serveur'] += 1
+                    self.sorts_serveur_ids.add((r['id'], r['champ']))
                     continue
                 if talent:
                     tal_dbc.add(r['id'])
-                fam = 'talents' if talent else 'sorts_classes'
-                note = 'Spell.dbc d\'Ascension (été 2026)' + (' ; sort de talent CoA (coa-development.org)' if talent else ' ; sort de classe CoA')
-                l = self.ligne_client('sort', r['id'], r['champ'], r['texte_en'], r['technique'], note,
-                                      'nom_sort' if r['champ'] in ('Name', 'Rank') else 'desc_sort', 'sort_classe')
-                self.ajouter(l, fam)
-                self.cr['client_%s_%s' % (fam, l[K.I_ETAT])] += 1
+                sorts_asc[(r['id'], r['champ'])] = r
             elif t in ('haut_fait', 'haut_fait_categorie'):
                 l = self.ligne_client(t, r['id'], r['champ'], r['texte_en'], r['technique'], 'base db.exil.es (site CoA)',
                                       'hauts_faits', 'machine')
                 self.ajouter(l)
                 self.cr['client_hauts_faits_' + l[K.I_ETAT]] += 1
-            elif t in ('zone', 'carte', 'carte_monde'):
+            elif t in ('zone', 'carte'):
+                self.zones_exil[(t, r['id'], r['champ'])] = r      # remplacées par les DBC du client CoA (importer_dbc)
+            elif t == 'carte_monde':
                 l = self.ligne_client(t, r['id'], r['champ'], r['texte_en'], r['technique'], 'base db.exil.es (site CoA)',
                                       'lieu', 'zone')
                 self.ajouter(l)
@@ -463,9 +571,25 @@ class Importeur:
                 l = [t, r['id'], '', r['champ'], r['texte_en'], K.empreinte(r['texte_en']), '', 'a_traduire', '',
                      'base db.exil.es (ChrClasses du client)']
                 fr = CLASSES_COA.get(K.norm(r['texte_en']))
+                b = self.off_dbc.get(('ChrClasses', r['id'], 'name'))
+                if b and b[1] and O.meme_anglais(b[0], r['texte_en']) and int(r['id']) < 12:
+                    l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = b[1], 'officiel', 'blizzard_frFR'
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'ChrClasses.dbc frFR officiel (patch-frFR-3), même anglais')
+                    self.ajouter(l, 'talents')
+                    self.cr['client_classes_officiel'] += 1
+                    for g in ('name_female', 'name_male'):        # formes accordées, pour $c et l'infobulle
+                        bg = self.off_dbc.get(('ChrClasses', r['id'], g))
+                        if bg and bg[1]:
+                            self.ajouter([t, r['id'], '', g, r['texte_en'], K.empreinte(r['texte_en']), bg[1], 'officiel',
+                                          'blizzard_frFR', 'ChrClasses.dbc frFR officiel (patch-frFR-3) : forme %s ; '
+                                          'anglais du nom, identique' % ('féminine' if g == 'name_female' else 'masculine')],
+                                         'talents')
+                            self.cr['client_classes_officiel'] += 1
+                    continue
                 if fr and int(r['id']) >= 12:
                     l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'machine', 'glossaire'
-                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'nom de classe CoA tranché (glossaire hérité d\'AscensionFR)')
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'nom de classe CoA tranché (glossaire hérité d\'AscensionFR ; '
+                                                       'Guardian, Ranger, Cultist : décision de Dan du 03/11/2026)')
                 else:
                     l = self.ligne_client(t, r['id'], r['champ'], r['texte_en'], '', l[K.I_NOTE], 'interface', 'machine')
                     if int(r['id']) >= 12 and l[K.I_ETAT] == 'machine':
@@ -478,6 +602,7 @@ class Importeur:
                                       'arbre_nom', 'sort_classe')
                 self.ajouter(l, 'talents')
                 self.cr['client_arbres_' + l[K.I_ETAT]] += 1
+        self.importer_sorts_classes(sorts_asc)
         for (i, champ), r in sorted(arbres.items()):
             note = 'arbre « %s » (%s) de la classe %s, numéro du site coa-development.org' % (r['arbre'], r['type_arbre'], r['classe'])
             l = self.ligne_client('arbre_coa', i, champ, r['texte_en'], '', note,
@@ -487,6 +612,94 @@ class Importeur:
         self.cr['client_talents_sans_texte_spell_dbc'] = len(self.talents - tal_dbc)
         K.journal('import : client terminé (%d sorts de talents dans le Spell.dbc, %d sans texte client propre)'
                   % (len(tal_dbc), len(self.talents - tal_dbc)))
+
+    # ------------------------------------------------------------------
+    # Donnees 0.2 : DBC du client CoA (factions, zones, races, competences…), officiel quand l'anglais correspond
+    # ------------------------------------------------------------------
+    DBC_TYPES = {
+        'Faction': ('faction', 'factions'), 'AreaTable': ('zone', 'zones'), 'Map': ('carte', 'zones'),
+        'WMOAreaTable': ('zone_interieure', 'zones'), 'AreaPOI': ('point_carte', 'zones'), 'TaxiNodes': ('point_vol', 'zones'),
+        'ChatChannels': ('canal', 'zones'), 'ChrRaces': ('race', 'races'), 'ItemSubClass': ('sous_classe_objet', 'sous_classes_objets'),
+        'SkillLine': ('competence', 'competences'), 'ItemSet': ('ensemble_objets_client', 'ensembles_objets_client'),
+        'ItemRandomSuffix': ('suffixe_objet', 'suffixes_objets'), 'MailTemplate': ('courrier', 'courriers'),
+        'DungeonEncounter': ('rencontre_donjon', 'rencontres_donjon'),
+    }
+    GROUPE_LIEU = ('AreaTable', 'WMOAreaTable', 'AreaPOI', 'Map', 'TaxiNodes')
+    TECHNIQUE_DBC = re.compile(r'\b(?:DND|NYI|UNUSED|TEST|QA|DEBUG)\b|^zz|\[PH\]|\bunused\b', re.I)
+
+    def importer_dbc(self):
+        """Une ligne par texte des DBC effectifs du client CoA (patch-M, sinon archives de langue). Francais officiel :
+        - par numero : meme numero et meme anglais que le DBC Blizzard 3.3.5a (patch-enUS-3), francais de patch-frFR-3 ;
+        - sinon par texte : le meme anglais a un seul francais officiel dans le meme DBC (zones : dans tous les
+          DBC de lieux), comme la regle « texte identique » des quetes."""
+        par_texte = defaultdict(set)
+        for (dbc, i, champ), (en, fr) in self.off_dbc.items():
+            if en and fr:
+                g = 'lieu' if dbc in self.GROUPE_LIEU else dbc
+                par_texte[(g, champ, K.norm(en))].add(fr)
+        coa_ids = defaultdict(set)
+        accord = Counter()
+        for (dbc, i, champ), (arch, en) in sorted(self.coa_dbc.items(), key=lambda x: (x[0][0], self._cle_num(x[0][1]), x[0][2])):
+            if dbc not in self.DBC_TYPES:          # ChrClasses : noms de classes dans talents.tsv (type classe)
+                continue
+            typ, fam = self.DBC_TYPES[dbc]
+            coa_ids[typ].add(i)
+            note = '%s.dbc du client CoA (%s)' % (dbc, arch)
+            l = [typ, i, '', champ, en, K.empreinte(en), '', 'a_traduire', '', note]
+            b = self.off_dbc.get((dbc, i, champ))
+            g = 'lieu' if dbc in self.GROUPE_LIEU else dbc
+            frs = par_texte.get((g, champ, K.norm(en)), set())
+            if b and b[1] and O.meme_anglais(en, b[0]):
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = b[1], 'officiel', 'blizzard_frFR'
+                l[K.I_NOTE] = joindre(note, '%s.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard' % dbc)
+                quoi = 'par_numero'
+            elif len(frs) == 1:
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = next(iter(frs)), 'officiel', 'blizzard_frFR'
+                l[K.I_NOTE] = joindre(note, '%s frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte'
+                                      % ('DBC de lieux' if g == 'lieu' else dbc + '.dbc'))
+                quoi = 'par_texte'
+            elif self.TECHNIQUE_DBC.search(en):
+                l[K.I_ETAT] = 'technique'
+                l[K.I_NOTE] = joindre(note, 'technique=texte de test ou interne')
+                quoi = 'technique'
+            elif typ in ('zone', 'carte'):
+                l = self.ligne_client(typ, i, champ, en, '', note, 'lieu', 'zone')
+                if l[K.I_ETAT] == 'officiel':          # « officiel » de l'outil d'AscensionFR, sans preuve Blizzard
+                    l[K.I_ETAT], l[K.I_SRC] = 'machine', 'archive_ascensionfr'
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'donné pour officiel par AscensionFR, absent du client frFR de Blizzard : classé machine')
+                    if self.controle(en, l[K.I_FR], 'machine', typ):
+                        l[K.I_ETAT] = 'a_revoir'
+                quoi = 'archive_' + l[K.I_ETAT]
+            else:
+                quoi = 'a_traduire'
+            if typ in ('zone', 'carte') and l[K.I_ETAT] == 'officiel':
+                ex = self.zones_exil.get((typ, i, champ))
+                if ex is not None:
+                    vieux = self.ligne_client(typ, i, champ, ex['texte_en'], '', '', 'lieu', 'zone')
+                    if vieux[K.I_ETAT] == 'officiel':
+                        accord['zones_ascensionfr_officiel_' + ('identique' if vieux[K.I_FR] == l[K.I_FR] else 'different')] += 1
+                        if vieux[K.I_FR] != l[K.I_FR]:
+                            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'ancienne forme d\'AscensionFR : ' + cite(vieux[K.I_FR]))
+            self.ajouter(l, fam)
+            self.cr['dbc_%s_%s' % (typ, quoi)] += 1
+            # formes feminine et masculine des races (le DBC enUS ne les a pas : l'anglais est celui du nom)
+            if dbc == 'ChrRaces' and champ == 'name' and quoi == 'par_numero':
+                for gch in ('name_female', 'name_male'):
+                    bg = self.off_dbc.get(('ChrRaces', i, gch))
+                    if bg and bg[1] and (dbc, i, gch) not in self.coa_dbc:
+                        self.ajouter([typ, i, '', gch, en, K.empreinte(en), bg[1], 'officiel', 'blizzard_frFR',
+                                      'ChrRaces.dbc frFR officiel (patch-frFR-3) : forme %s ; anglais du nom, identique'
+                                      % ('féminine' if gch == 'name_female' else 'masculine')], fam)
+                        self.cr['dbc_race_par_numero'] += 1
+        disparues = [k for k in self.zones_exil if k[1] not in coa_ids[k[0]]]
+        self.cr['zones_exil_absentes_du_client_coa'] = len(disparues)
+        self.cr.update(accord)
+        K.journal('import : DBC du client CoA (%d textes) ; zones db.exil.es absentes du client : %d ; %s'
+                  % (len(self.coa_dbc), len(disparues), dict(accord)))
+
+    @staticmethod
+    def _cle_num(i):
+        return tuple(int(p) for p in i.split('-')) if re.fullmatch(r'\d+(?:-\d+)*', i) else (10 ** 9,)
 
     # ------------------------------------------------------------------
     # 3 bis. Client : textes d'interface (GlobalStrings.dbc), etape 2
@@ -523,8 +736,34 @@ class Importeur:
                 self.cr['interface_technique:' + tech.split(' ')[0]] += 1
                 continue
             rap = r['rapprochement_archive']
-            cands = []
             glue, arch = r['fr_ancien_glue_ascensionfr'], r['fr_archive']
+            # Données 0.2 : le français OFFICIEL de Blizzard (GlobalStrings.lua / GlueStrings.lua du client 3.3.5a
+            # frFR) d'abord, si l'anglais du client CoA est exactement celui de Blizzard pour la même clé.
+            off = self.off_interface.get(cle_v, [])
+            if 'glue' in r['contexte']:
+                off = sorted(off, key=lambda x: x[0] != 'GlueStrings.lua')
+            off = [o for o in off if o[2] and o[1] == en]
+            if off:
+                fichier, _, fr = off[0]
+                preuve = ('français officiel Blizzard (%s du client 3.3.5a frFR, patch-frFR-3.MPQ), anglais identique à '
+                          'celui de Blizzard (patch-enUS-3) pour la même clé' % fichier)
+                ancien = arch or glue
+                refus = self.controle(en, fr, 'officiel', 'chaine_interface')
+                if not refus:
+                    l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'officiel', 'blizzard_frFR'
+                    l[K.I_NOTE] = joindre(note, preuve, 'ancienne proposition de l\'archive : ' + cite(ancien)
+                                          if ancien and ancien != fr else '')
+                    self.cr['interface_officiel:' + fichier] += 1
+                    if ancien and ancien != fr:
+                        self.cr['interface_officiel_remplace_archive'] += 1
+                else:
+                    l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'a_revoir', 'blizzard_frFR'
+                    l[K.I_NOTE] = joindre(note, preuve, 'refusé au contrôle strict d\'interface : ' + ', '.join(refus))
+                    self.cr['interface_officiel_refuse_controle'] += 1
+                    self.ex('interface_officiel_refuse', l)
+                self.ajouter(l)
+                continue
+            cands = []
             if glue and 'anglais différent' not in rap and (
                     r['anglais_standard_335'] == 'standard_335_identique' or rap == 'clé + anglais identiques'):
                 cands.append((glue, 'release_3.5.1', 'ancien fichier des écrans de connexion d\'AscensionFR (release 3.5.1), '
@@ -660,7 +899,7 @@ class Importeur:
             return f
         t = l[K.I_TYPE]
         for fam, _, types, _ in K.FAMILLES:
-            if t in types and fam not in ('sorts_classes', 'talents'):
+            if t in types and fam not in ('sorts_classes', 'talents', 'sorts_standard'):
                 return fam
         raise SystemExit('ERREUR : type sans famille : %s' % t)
 
@@ -714,6 +953,8 @@ def main():
     imp.charger_relus()
     imp.importer_serveur()
     imp.importer_client()
+    imp.importer_sorts_standard()
+    imp.importer_dbc()
     imp.importer_interface()
     imp.corriger_et_controler()
     imp.fusionner_relus()

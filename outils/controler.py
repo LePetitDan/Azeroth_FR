@@ -32,7 +32,7 @@ if ICI not in sys.path:
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
 
-SOURCES_CONNUES = {'', 'blizzard_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire'}
+SOURCES_CONNUES = {'', 'blizzard_frFR', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire'}
 
 
 def raison_courte(r):
