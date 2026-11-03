@@ -1,6 +1,8 @@
 # Décisions de vocabulaire de Dan (03/11/2026)
 
-Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire dans la conversation. **À appliquer à `textes/`** dans une passe dédiée : règles du contrôleur, corrections mécaniques, réimport, puis reconstruction de l'add-on. Ces lignes seront ensuite reportées dans `docs/DECISIONS.md`.
+Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire dans la conversation.
+
+> **Appliquées le 03/11/2026 (données 0.2)**, sauf le point 9 (étiquettes `@…@`, en attente d'un test en jeu) : règles dans `glossaire/regles_controle.tsv`, substitutions sûres dans `glossaire/corrections_sures.tsv`, accord de « forgé par le sang » et préfixes dans `outils/vocabulaire.py`. Reportées dans `docs/DECISIONS.md`. Bilan chiffré : `docs/2026-11-03_Rapport_Donnees-0.2.md`.
 
 | # | Anglais | Décision de Dan | Recommandation proposée | Ce que ça implique |
 |---|---|---|---|---|

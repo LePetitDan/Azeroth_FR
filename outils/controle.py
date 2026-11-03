@@ -196,6 +196,8 @@ def controle_structure(en, fr):
 
 def controle_glossaire(en, fr, etat, regles, noms):
     r = []
+    # les etiquettes @…@ sont hors glossaire : leur traduction attend un test en jeu (decision n° 9 de Dan)
+    en, fr = K.ETI.sub(' ', en), K.ETI.sub(' ', fr)
     en_nu, fr_nu = K.denuder(en), K.denuder(fr)
     for g in regles:
         if etat not in g.etats:

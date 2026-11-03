@@ -44,6 +44,7 @@ if ICI not in sys.path:
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
 import officiel as O  # noqa: E402
+import vocabulaire as V  # noqa: E402
 
 csv.field_size_limit(1 << 30)
 D = K.COLLECTE
@@ -842,6 +843,16 @@ class Importeur:
                     faites.append(nom)
         return fr, faites
 
+    def appliquer_vocabulaire(self):
+        """Decisions de vocabulaire de Dan du 03/11/2026 qui ne sont pas des substitutions simples (outils/vocabulaire.py)."""
+        v = V.Vocabulaire(self.lignes, self.off_sorts)
+        v.appliquer()
+        for k, n in v.cr.items():
+            self.cr['vocabulaire:' + k] += n
+        for k, e in v.exemples.items():
+            self.exemples['vocabulaire:' + k] = e
+        K.journal('import : décisions de vocabulaire %s' % dict(v.cr))
+
     def corriger_et_controler(self):
         cpt = Counter()
         for k, l in self.lignes.items():
@@ -956,6 +967,7 @@ def main():
     imp.importer_sorts_standard()
     imp.importer_dbc()
     imp.importer_interface()
+    imp.appliquer_vocabulaire()
     imp.corriger_et_controler()
     imp.fusionner_relus()
     tailles = imp.ecrire(ecrire)

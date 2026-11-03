@@ -37098,7 +37098,7 @@ creature	79032		name	Horde Balloon	43e4243858eb	Ballon de la Horde	machine	archi
 creature	79033		name	Unstable Lightwell	3cadfee29988	Puits de lumière instable	officiel	blizzard_frFR	niveau=meme_champ
 creature	79034		name	Tyrael's Charger	d47a70b9b321	Destrier de Tyraël	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	79037		name	Skibble	028132bbe740	Skibble	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	79054		name	Prestigious Bloodforged Courser	f8decc821386	Coursier prestigieux de Forge-Sang	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
+creature	79054		name	Prestigious Bloodforged Courser	f8decc821386	Coursier prestigieux de Forge-Sang	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : glossaire:Bloodforged→forgé par le sang
 creature	79055		name	Lil' Chromaggus	9af57ceb04fa	Petit Chromaggus	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	79056		name	Crimson Skyblazer	02e4b0b8f806	Blazer céleste cramoisi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	79059		name	Darkmoon Dirigible	367ba51dcdb9	Dirigeable de Sombrelune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38860,7 +38860,7 @@ creature	164067		name	Sister Sarah	627c5adff0d1	Sœur Sarah	machine	archive_asce
 creature	164068		name	Exhausted Refugee	033a5ea762d7	Réfugié épuisé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164069		name	Exhausted Refugee	033a5ea762d7	Réfugié épuisé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164070		name	Soldier Rulven	090aa42a059c	Soldat Rulven	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	164071		name	Alta’zin the Ascended	b3cac69d4353	Alta'zin l'Élu	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
+creature	164071		name	Alta’zin the Ascended	b3cac69d4353	Alta'zin l'Ascended	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite, Ascended : Élu
 creature	164072		name	Graysky Soldier	8bc2b31984db	Soldat Graysky	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164073		name	Frostmane Ambusher	8c8e1a860c5b	Embusqué crin-de-givre	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164074		name	Scaidern Ealdir	fcde857802ef	Scaidern Ealdir	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
