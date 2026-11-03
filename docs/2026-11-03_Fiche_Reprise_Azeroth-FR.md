@@ -45,9 +45,14 @@ Les rapports sont dans `Perso/Azeroth_FR/collecte/` : `2026-11-03_Rapport_Ascens
 - Aucune mention de traduction ou de langue sur le site. Le changelog a un flux RSS, exploitable pour la veille.
 - Population : 14 963 personnages ; Rexxar est le seul royaume live.
 
+## Avancement du soir (03/11)
+- **Dépôt privé `LePetitDan/Azeroth_FR` créé** par Claude, avec l'accord de Dan (« Charge-toi de tout »). Il contient les rapports, le glossaire hérité, les filtres, les scripts et l'instantané compressé des données. **C'est désormais la référence**, avant l'espace de travail temporaire.
+- **Réponse de l'équipe CoA Core** sur Discord : « we would very much appreciate it! we are exploring options for multi lang support so something like this would be very useful ». Conséquence : la source unique doit produire à la fois l'add-on et les données au format du serveur (tables `*_locale`). Une réponse de suivi a été préparée pour Dan.
+- **Étape 1 lancée** : construction de la source unique (`textes/`), du glossaire CoA et des outils.
+
 ## Questions ouvertes pour Dan
-1. Créer le dépôt privé `LePetitDan/Azeroth_FR` : Dan le crée, ou il me laisse le faire.
-2. Un client Conquest of AzerothCore est-il installé sur le PC maison ? Si oui, où ? Il sert aux tests et à l'extraction des sorts, talents et interface.
+1. ~~Dépôt privé~~ : fait.
+2. Un client Conquest of AzerothCore est-il installé sur le PC maison ? Si oui, où ? Il sert aux tests en jeu et à l'interface.
 3. Vocabulaire à trancher : **Bloodforged** (39 059 lignes bloquées), **Worldforged**, **Elemental Lodestone**, et les préfixes `Tome:`, `Mystic Scroll:`. Je présenterai les options au moment de l'étape 1.
 4. Données personnelles encore publiques dans la release 3.5.1 d'AscensionFR et dans l'archive (808 annonces nominatives, 39 liens personnels). Décision de Dan, tâche dans Priorités (échéance 10/11). **Rien n'est modifié sans son accord.**
 
