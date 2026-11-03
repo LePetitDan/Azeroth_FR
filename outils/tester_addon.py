@@ -109,7 +109,7 @@ def afficher_en(en, genre='m', nom=None, classe=None):
 def rendre_fr(fr, genre='m', nom=None, classe=None):
     """Le francais attendu a l'ecran (reecrit ici sans regarder le Lua)."""
     t = re.sub(r'\$[Bb]', '\n', fr)
-    t = re.sub(r'\$[Gg]([^:;]*):([^;]*);', lambda m: m.group(1) if genre == 'm' else m.group(2), t)
+    t = re.sub(r'\$[Gg]([^:;]*):([^:;]*)[^;]*;', lambda m: m.group(1) if genre == 'm' else m.group(2), t)
     t = re.sub(r'\$[Nn]', lambda m: nom or JOUEUR['nom'], t)
     t = re.sub(r'\$[Rr]', RACE_FR[1] if genre == 'f' else RACE_FR[0], t)
     cl = classe or JOUEUR['classe']
@@ -118,8 +118,14 @@ def rendre_fr(fr, genre='m', nom=None, classe=None):
 
     def elision(m):
         c = m.group(1)
-        return ("d'" if (c.lower() in 'aeiouyh' or ord(c) >= 0xC0) else 'de ') + c
+        return ("d'" if (c.lower() in 'aeiouy' or ord(c) >= 0xC0) else 'de ') + c
     return re.sub(r'\|2 ?(\S)', elision, t)
+
+
+def elision(t):
+    """« |2 mot » -> « de mot » / « d'mot » (devant une voyelle), comme l'add-on."""
+    return re.sub(r'\|2 ?(\S)', lambda m: ("d'" if (m.group(1).lower() in 'aeiouy' or ord(m.group(1)) >= 0xC0)
+                                            else 'de ') + m.group(1), t)
 
 
 def uniques(lignes, cond):
@@ -272,6 +278,15 @@ def choisir_cas():
                 'nom': 'quête %s : « young stormbringer » ($c en minuscules) -> « %s »' % (
                     l[K.I_ID], minuscule1(CLASSES_FR.get('Stormbringer', 'stormbringer'))),
                 'anglais': afficher_en(l[K.I_EN], classe='Stormbringer'), 'attendu': rendre_fr(l[K.I_FR], classe='Stormbringer')})
+    # 3 bis. « $gun:une:c; » (3e forme dans certains textes officiels), personnage feminin
+    l = next(iter(uniques(q, lambda l: l[K.I_CHAMP] == 'QuestDescription' and re.search(r'\$g[^;:]*:[^;:]*:[^;]*;', l[K.I_FR], re.I)
+                          and not re.search(r'\$[r]', l[K.I_EN], re.I)
+                          and not F.RX_VAR_INCONNUE.search(F.RX_G.sub('', l[K.I_EN])))), None)
+    if l:
+        cas.append({'quoi': 'texte', 'famille': 'quetes', 'classe': 'Stormbringer', 'sexe': 3,
+                    'nom': 'quête %s : forme « $gun:une:c; » du français officiel, personnage féminin' % l[K.I_ID],
+                    'anglais': afficher_en(l[K.I_EN], 'f', classe='Stormbringer'),
+                    'attendu': rendre_fr(l[K.I_FR], 'f', classe='Stormbringer')})
     # 4-6. progression, recompense, objectifs
     for typ, champ, quoi in (('quete_demande', 'CompletionText', 'progression'), ('quete_recompense', 'RewardText', 'récompense'),
                              ('quete', 'LogDescription', 'objectifs')):
@@ -520,7 +535,7 @@ def choisir_cas():
         en, cur = en_inter.get(cle), globales.get(cle)
         if not en:
             return
-        attendu = cur % args_fr
+        attendu = elision(cur % args_fr)
         cas.append({'quoi': 'discussion', 'evenement': evenement, 'nom': nom or 'discussion « %s »' % (en % args_en),
                     'message': en % args_en, 'attendu': attendu})
         if deux_formes and cur != en:
@@ -621,6 +636,33 @@ def choisir_cas():
                 'id': int(io3), 'anglais': do3['name'][K.I_EN],
                 'lignes': [do3['name'][K.I_EN], 'Soulbound', '%s %s' % (g_equip, aff_en)],
                 'attendu': do3['name'][K.I_FR], 'ligne_description': 3, 'description_attendue': '%s %s' % (g_equip, att_fr)})
+    # objets de depart reels : « Tough Jerky » (sort 433) et la pierre de foyer (sort 8690, $z = le lieu)
+    std = {}
+    for l in lire('client/sorts_standard.tsv'):
+        if l[K.I_ID] in ('433', '8690'):
+            std.setdefault(l[K.I_ID], {})[l[K.I_CHAMP]] = l
+    tous = {}
+    for x in lire('serveur/objets/objets_0000000-0199999.tsv'):
+        if x[K.I_ID] in ('117', '6948'):
+            tous.setdefault(x[K.I_ID], {})[x[K.I_CHAMP]] = x
+    zab = zs.get('Northshire Abbey')
+    for oid, sid_r, vals, par_objet in (('117', '433', {'$o1': '61', '$d': '18 sec'}, True),
+                                        ('117', '433', {'$o1': '61', '$d': '18 sec'}, False),
+                                        ('6948', '8690', {'$z': zab[K.I_EN] if zab else 'Northshire Abbey'}, True)):
+        ds = std.get(sid_r, {}).get('Description')
+        no = tous.get(oid, {}).get('name')
+        if not ds or not no or not passe(ds):
+            continue
+        aff, att = ds[K.I_EN], ds[K.I_FR]
+        for k, v in vals.items():
+            aff = aff.replace(k, v)
+            att = att.replace(k, (zab[K.I_FR] if (k == '$z' and zab) else v))
+        nom_fr = no[K.I_FR] if passe(no) and no[K.I_FR] != no[K.I_EN] else no[K.I_EN]
+        cas.append({'quoi': 'objet', 'nom': 'objet %s « %s » : ligne « %s » (sort %s, %s)' % (
+            oid, no[K.I_EN], g_use_en, sid_r, 'par l\'objet' if par_objet else 'par le texte anglais'),
+            'id': int(oid), 'anglais': no[K.I_EN], 'sort_objet': int(sid_r) if par_objet else None,
+            'lignes': [no[K.I_EN], 'Soulbound', '%s %s' % (g_use_en, aff)], 'attendu': nom_fr,
+            'ligne_description': 3, 'description_attendue': '%s %s' % (g_use, att)})
     # squelette : meme calcul en Python et en Lua
     textes = [aff_en, 'Restores 1,500 health over 18.5 sec.  Must remain seated while eating.',
               'Deals 15 to 20 Fire damage every 3 seconds for 1 min.', '|cff00ff00Increases attack power by 28.|r',

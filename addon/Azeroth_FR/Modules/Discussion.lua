@@ -160,7 +160,10 @@ local function TraduireMessage(evenement, message)
                 end
             end
             if not change then return nil end
-            return A.Formater(cur, args)
+            local r = A.Formater(cur, args)
+            -- « Réputation auprès |2 %s » : l'elision du client francais, faite ici
+            if A.Elision then r = A.Elision(r) end
+            return r
         end
     end
     local t = A.TraduireLiens(message)

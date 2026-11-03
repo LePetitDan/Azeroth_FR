@@ -251,6 +251,8 @@ local function Appliquer(modele_fr, valeurs, conds, ordre, rangs)
                 end
             end
             if val == nil then return nil end
+            -- $z : le lieu de la pierre de foyer (« Northshire Abbey ») -> nom de zone francais
+            if match(nue, "^%$%d*[zZ]$") and A.NomZone then val = A.NomZone(val) or val end
             out[#out + 1] = Unites(val)
         end
     end

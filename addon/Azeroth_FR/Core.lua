@@ -381,9 +381,10 @@ local function NomClasse(classeEN, genre)
 end
 A.NomClasse = NomClasse
 
--- « |2 mot » : elision du client francais (« de » / « d' »), faite ici.
-local VOYELLES = { a = true, e = true, i = true, o = true, u = true, y = true, h = true,
-    A = true, E = true, I = true, O = true, U = true, Y = true, H = true }
+-- « |2 mot » : elision du client francais (« de » / « d' »), faite ici (le client anglais ne la fait
+-- pas). Devant une voyelle seulement : « de Hurlevent », « d'Ironforge ».
+local VOYELLES = { a = true, e = true, i = true, o = true, u = true, y = true,
+    A = true, E = true, I = true, O = true, U = true, Y = true }
 local function Elision(fr)
     if not find(fr, "|2", 1, true) then return fr end
     return (gsub(fr, "|2 ?(%S)", function(c)
@@ -403,7 +404,8 @@ function A.Rendre(fr, nom)
     if b1 == 2 then genre = "m"; fr = sub(fr, 2) elseif b1 == 3 then genre = "f"; fr = sub(fr, 2) end
     if not find(fr, "$", 1, true) and not find(fr, "|2", 1, true) then return fr end
     fr = gsub(fr, "%$[Bb]", "\n")
-    fr = gsub(fr, "%$[Gg]([^:;]*):([^;]*);", function(m, f)
+    -- $gmasculin:féminin; (certains textes officiels ont une 3e forme, « $gun:une:c; », ignoree ici)
+    fr = gsub(fr, "%$[Gg]([^:;]*):([^:;]*)[^;]*;", function(m, f)
         if genre == "f" then return f end
         return m
     end)
@@ -413,6 +415,7 @@ function A.Rendre(fr, nom)
     fr = gsub(fr, "%$[Cc]", function() return NomClasse(j.classe, genre) end)
     return Elision(fr)
 end
+A.Elision = Elision
 
 -- ----------------------------------------------------------------------------
 -- Recherche par texte anglais (tables QT, DT, CT, PT) avec memoire des resultats
