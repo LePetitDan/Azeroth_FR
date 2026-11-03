@@ -1,0 +1,24 @@
+-- Charge par Interface\PTRXML\PTR.xml, au tout debut des ecrans de connexion ET de l'interface en jeu.
+-- Pour chaque texte d'interface : la valeur n'est remplacee par le francais QUE si elle vaut exactement
+-- l'anglais attendu. Une cle absente de ce client, ou dont l'anglais a change, garde le texte du client.
+-- Rien d'autre n'est fait ici. Pour tout annuler : supprimer le dossier Interface\PTRXML.
+local ok, err = pcall(function()
+    local D = {
+@DONNEES@
+    }
+    local G = _G
+    local remplaces, ignores = 0, 0
+    for i = 1, #D, 3 do
+        local cle, en, fr = D[i], D[i + 1], D[i + 2]
+        if G[cle] == en then
+            G[cle] = fr
+            remplaces = remplaces + 1
+        else
+            ignores = ignores + 1
+        end
+    end
+    AzerothFR_Interface = { version = "@VERSION@", remplaces = remplaces, ignores = ignores }
+end)
+if not ok then
+    AzerothFR_Interface = { version = "@VERSION@", erreur = tostring(err) }
+end

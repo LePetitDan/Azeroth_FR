@@ -1,0 +1,16 @@
+## Interface: 30300
+## Title: Azeroth_FR
+## Notes: Traduction française de Conquest of AzerothCore (essai @VERSION@) : quêtes, dialogues, objets, créatures, cris des PNJ, livres. Commande /azfr
+## Author: Dan (LePetitDan) & Claude
+## Version: @VERSION@
+## SavedVariables: AzerothFR_Reglages
+
+Core.lua
+Genere.lua
+Modules\Quetes.lua
+Modules\Dialogues.lua
+Modules\Infobulles.lua
+Modules\Cris.lua
+Modules\Pages.lua
+Modules\Sorts.lua
+Modules\Commande.lua

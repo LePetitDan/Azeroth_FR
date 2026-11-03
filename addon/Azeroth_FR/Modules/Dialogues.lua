@@ -1,0 +1,71 @@
+-- ============================================================================
+-- Azeroth_FR : dialogues des PNJ.
+-- Texte d'accueil (npc_text), options de dialogue, titres des quetes proposees, accueil
+-- des maitres de classe. Par texte anglais, variables $n $g $r $c reconstituees.
+-- ============================================================================
+local A = AzerothFR
+local match = string.match
+local P = A.Proteger
+
+local function DT() return A.TableDe("dialogues", "DT") end
+
+function A.TexteDialogue(texte)
+    return A.Traduire(DT(), texte)
+end
+
+-- Bouton de dialogue : option (table des dialogues) ou titre de quete (avec couleur).
+local function TraduireBouton(bouton)
+    local texte = bouton:GetText()
+    if not texte or texte == "" or A.DejaEcrit(bouton, texte) then return end
+    local fr = A.TexteDialogue(texte)
+    if not fr then
+        local couleur, nu = match(texte, "^(|c%x%x%x%x%x%x%x%x)(.-)|r$")
+        if nu and nu ~= "" then
+            local fr2 = A.TexteDialogue(nu) or (A.TitreQuete and A.TitreQuete(nu))
+            if fr2 then fr = couleur .. fr2 .. "|r" end
+        end
+    end
+    if not fr and A.TitreQuete then fr = A.TitreQuete(texte) end
+    if fr and fr ~= texte then
+        A.Ecrire(bouton, fr)
+        -- meme mise en page que le jeu (hauteur selon le texte)
+        if type(GossipResize) == "function" then pcall(GossipResize, bouton) end
+    end
+end
+
+local function TraduireGossip()
+    if not A.Actif() then return end
+    local zone = GossipGreetingText
+    local texte = zone and zone:GetText()
+    if texte and texte ~= "" and not A.DejaEcrit(zone, texte) then
+        local fr = A.TexteDialogue(texte)
+        if fr then A.Ecrire(zone, fr) end
+    end
+    for i = 1, 32 do
+        local bouton = _G["GossipTitleButton" .. i]
+        if not bouton then break end
+        if bouton:IsShown() then TraduireBouton(bouton) end
+    end
+end
+
+if type(GossipFrameUpdate) == "function" then
+    hooksecurefunc("GossipFrameUpdate", P("GossipFrameUpdate", TraduireGossip))
+end
+
+-- Accueil des maitres de classe et de metier (fenetre chargee a la demande par le jeu).
+local f = CreateFrame("Frame")
+f:RegisterEvent("GOSSIP_SHOW")
+f:RegisterEvent("TRAINER_SHOW")
+f:SetScript("OnEvent", P("Dialogues.OnEvent", function(self, evenement)
+    if not A.Actif() then return end
+    if evenement == "GOSSIP_SHOW" then
+        TraduireGossip()
+    elseif evenement == "TRAINER_SHOW" then
+        local zone = ClassTrainerGreetingText
+        local texte = zone and zone:GetText()
+        if texte and texte ~= "" then
+            local fr = A.TexteDialogue(texte)
+            if fr then A.Ecrire(zone, fr) end
+        end
+    end
+end))
