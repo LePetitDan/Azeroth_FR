@@ -1,6 +1,17 @@
-# Fiche de reprise : Azeroth_FR (données 0.2 faites : le français officiel de Blizzard est dans la source)
+# Fiche de reprise : Azeroth_FR (add-on 0.2 prêt, essai 2 à installer chez Dan)
 
-*03/11/2026, mise à jour le soir après les données 0.2. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le soir après l'add-on 0.2. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Add-on 0.2 (03/11, soir) : prêt pour l'essai 2, pas encore installé
+
+- **Branche** `addon-0.2` fusionnée dans `main` (commit `6a6df4b`) après les données 0.2. Contrôle 0 bloquant, 45 faux cas sur 45 refusés, banc hors jeu 106 vérifications sur 106.
+- **Zip** : `dist/Azeroth_FR-0.2.0.zip`, 18,2 Mo, sha256 `f40cb667a5407fbc3127b2e565e7c1cb4fadbdea6f531533eb648c75c7566867` ; 16 add-ons et `PTRXML` (11 891 textes d'interface, français officiel de Blizzard).
+- **Corrige l'essai 1** : quêtes retrouvées par titre puis par texte (`$c` en minuscules) ; suivi « 0/8 X slain » traduit et sans chevauchement ; 87 gabarits de messages de la discussion ; noms (en-têtes, cible, ligne de faction, minicarte, zones, carte, journal) ; module des sorts (barre, grimoire, infobulles, auras, lignes « Use: », nombres réalignés) ; élision `|2` faite par l'add-on dans la discussion ; `$g` à trois formes ; commande `/azfr etiquettes`.
+- **Limites connues** : noms au-dessus des têtes (moteur du jeu) ; messages du centre de l'écran ; « Equip: » ; sorts des classes CoA en anglais tant qu'ils ne sont pas relus ; description de « Menace intérieure » en anglais (seul français = Cataclysm) ; 98 textes d'interface officiels (surtout le journal de combat) contiennent `|2` : à vérifier en jeu (point 5 de la notice).
+- **Mémoire** (banc) : 20,7 Mo à la connexion ; +8 Mo au premier survol d'un sort ; pire cas 145,5 Mo.
+- **Notice** : `docs/ESSAI2_installer.md` (10 vérifications). **Rapport** : `docs/2026-11-03_Rapport_Addon-0.2.md`.
+- **Questions ouvertes pour Dan** : `$c` en minuscules dans le français ; étiquettes après `/azfr etiquettes` ; « Équipé : » seulement sur les lignes visibles ; messages du centre de l'écran.
+- **Prochaine étape** : accord de Dan pour installer l'essai 2 (retirer l'essai 1, copier le zip dans `D:\Wow_Core`), puis ses captures.
 
 ## Données 0.2 (03/11, soir) : le français officiel de Blizzard dans la source unique
 

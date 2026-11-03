@@ -11,11 +11,12 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 - ✅ **Collecte terminée** : textes du serveur CoA Core, archive AscensionFR, croisement des deux, AscensionDB, site coa-development.org. Voir `docs/`.
 - ✅ **Premier contact avec l'équipe CoA Core** : ils étudient une prise en charge multilingue et accueillent le projet favorablement.
 - ✅ **Étape 1 : la source unique** (03/11/2026). `textes/` : 1 287 785 lignes, dont 84 % déjà affichables (officiel Blizzard 514 080, machine contrôlée 566 859). Glossaire CoA, lexique de 33 217 noms officiels, contrôle d'entrée vu refuser 32 faux cas sur 32. Rapport : `docs/2026-11-03_Rapport_Etape1-source-unique.md`.
-- ✅ **Dan a tranché les 10 termes** (`glossaire/DECISIONS_VOCABULAIRE.md`) ; leur application à `textes/` est une passe dédiée, à venir. Les étiquettes `@…@` attendent le test en jeu.
+- ✅ **Dan a tranché les 10 termes** (`glossaire/DECISIONS_VOCABULAIRE.md`) ; appliqués aux données 0.2 (sauf les étiquettes `@…@`, qui attendent le test en jeu).
 - ✅ **Étape 2 : l'essai 1 (add-on 0.1.0)** (03/11/2026). `python3 -I outils/fabriquer.py` produit `dist/Azeroth_FR-0.1.0.zip` (15 Mo) : quêtes, dialogues, objets, créatures, cris des PNJ, livres, plus 6 034 textes d'interface par `Interface\PTRXML`. Banc hors jeu : 45 vérifications sur 45. Rapport : `docs/2026-11-03_Rapport_Etape2-essai1.md` ; notice : `docs/ESSAI1_installer.md`.
 - ✅ **Essai 1 testé en jeu par Dan** (`essais/2026-11-03_essai1/RESULTAT.md`) : dialogues, titres de quête, objets, PNJ en français ; le reste noté.
 - ✅ **Données 0.2** (03/11/2026) : le français **officiel de Blizzard** (`patch-frFR-3.MPQ`, client 3.3.5a frFR) entre dans la source, toujours avec la preuve « même anglais ». Interface 7 739 textes officiels, sorts standard 93 294 (nouvelle famille `sorts_standard`), zones, factions, races, compétences, ensembles, courriers, rencontres 12 150. 157 textes de quête de Cataclysm et 1 243 « traductions » en anglais repérés et passés à revoir. Décisions de vocabulaire 1 à 8 et 10 appliquées. Lignes affichables contrôlées : 1 080 929 → 1 193 916. Rapport : `docs/2026-11-03_Rapport_Donnees-0.2.md`.
-- ⏳ **Add-on 0.2** (chantier parallèle) : lire les nouvelles familles et les sorts.
+- ✅ **Add-on 0.2.0** (03/11/2026) : quêtes retrouvées par titre et par texte, suivi des objectifs, messages de la discussion, noms (cible, faction, zones, carte), module des sorts (barre, grimoire, infobulles, auras, lignes « Use: »), 11 891 textes d'interface officiels par `PTRXML`, commande `/azfr etiquettes`. Zip 18,2 Mo, banc 106 vérifications sur 106. Rapport : `docs/2026-11-03_Rapport_Addon-0.2.md` ; notice : `docs/ESSAI2_installer.md`.
+- ⏳ **Dan** : installer et tester l'essai 2 (10 vérifications, dont les étiquettes et le code `|2`).
 
 ## Organisation
 
