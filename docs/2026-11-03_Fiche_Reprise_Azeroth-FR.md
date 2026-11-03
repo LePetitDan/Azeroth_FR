@@ -28,6 +28,7 @@
   - Les boutons de la barre d'action renvoient des numéros de sorts trompeurs (1, 18, 20) : il faut comprendre comment le client CoA associe boutons et sorts.
   - Voir `essais/2026-11-03_test2-LuaDBC/RESULTAT.md`.
 - Les deux tests restent installés chez Dan (`Interface\PTRXML`, `Interface\AddOns\AzerothFR_Diag`). Pour revenir en arrière, il suffit de supprimer ces deux dossiers.
+- Le 03/11 vers 18 h, à la demande de Duff (chef d'équipe CoA Core), Dan a publié la proposition dans un sujet du salon Discord **#suggestions** : « French localization (Azeroth_FR) – multi-language support collaboration », tags General, In-Game et Launcher. Le sujet pose 6 questions : approche multilingue, locale forcée en enUS, pérennité de PTRXML, vrais numéros de sorts, LuaDBC, distribution par le lanceur. En attente de réponse.
 - Le 03/11 au soir, Dan a déplacé la conversation dans un projet claude.ai dédié, « Azeroth_FR ».
 
 ## Le projet en une phrase
