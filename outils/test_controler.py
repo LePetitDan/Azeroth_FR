@@ -15,6 +15,7 @@ if ICI not in sys.path:
     sys.path.insert(0, ICI)
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
+import quetes_cata as Q  # noqa: E402
 
 # (anglais, francais propose, raison attendue)  -- FAUX CAS : doivent etre refuses
 FAUX = [
@@ -141,6 +142,63 @@ def tester_interface(regles, noms):
     return bons == len(FAUX_INTERFACE) and passes == len(VRAIS_INTERFACE) and hors
 
 
+# Donnees 0.2 : textes de quete « officiels » qui ne traduisent pas l'anglais WotLK (cas reels de quetes.tsv)
+QUETES_FAUSSES = [   # (champ, anglais WotLK de CoA, francais « officiel » d'AzerothCore, raison attendue)
+    ('QuestDescription', "I hope you strapped your belt on tight, young $c, because there is work to do here in Northshire.$B$B"
+     "And I don't mean farming.$B$BThe Stormwind guards are hard pressed to keep the peace here, with so many of us in distant "
+     "lands and so many threats pressing close.  And so we're enlisting the aid of anyone willing to defend their home.  And their "
+     "alliance.$B$BIf you're here to answer the call, then speak with my superior, Marshal McBride.  He's inside the abbey behind me.",
+     "Nous sommes dans une situation épouvantable, jeune $c. Aile de mort et ses armées crépusculaires ont lancé une attaque "
+     "d’envergure sur Azeroth. Le roi a appelé tous les citoyens valides à participer à la défense.$B$BLes gardes de Hurlevent ont "
+     "du mal à maintenir la paix… Trop d’entre nous sont partis au loin, et il y a trop de menaces proches. Nous acceptons l’aide de "
+     "tous ceux qui veulent défendre leurs foyers.$B$BSi vous êtes là pour répondre à l’appel, allez voir mon supérieur, le maréchal "
+     "McBride. Il est à l’extérieur de l’abbaye.", 'repere_cataclysm'),                                         # quête 783
+    ('LogDescription', "Kill 8 Kobold Vermin, then return to Marshal McBride.",
+     "Tuez 6 Vermines kobolds, puis revenez voir le Maréchal McBride.", 'nombres_objectif'),                     # quête 7
+    ('LogDescription', "Take the Head of Onyxia to Thrall in Orgrimmar.",
+     "Apportez la Tête d’Onyxia à Garrosh à Orgrimmar.", 'repere_cataclysm'),                                    # quête 7490
+    ('LogDescription', "Hemet Nesingwary Jr. wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.",
+     "Chassez Téthis.", 'longueur'),                                                                             # quête 197
+    ('RewardText', "Thank you so much, $N! Poor Old Blanchy will be so happy!",
+     "Thank you so much, &lt;name&gt;! &nbsp;Poor Old Blanchy will be so happy!", 'pas_du_francais'),            # quête 151
+]
+QUETES_BONNES = [
+    ('QuestDescription', "Gnolls, brutish creatures with no decent business in these lands, have been seen along the borders of "
+     "Elwynn Forest.  A large pack of them, many more than we can handle, has been seen in the area.",
+     "Des gnolls, des animaux brutaux qui n'ont rien à faire ici, ont été aperçus à la lisière de la forêt d'Elwynn. C'est un très "
+     "grand groupe, bien trop nombreux pour nous, qui a été vu dans la région."),
+    ('LogDescription', "Chef Breanna of Lakeshire wants five pieces of Tough Condor Meat.",
+     "Le chef Breanna de Comté-du-Lac vous a demandé 5 morceaux de Viande de condor coriace."),
+    ('LogDescription', "Kill Ulag the Cleaver, then speak with Deathguard Dillinger.",
+     "Tuer Ulag le Fendeur, puis parler au Nécrogarde Dillinger."),
+    ('LogDescription', "Bring twenty-four Robo-mechanical Guts and a Wildvine to Shoni in Stormwind.",
+     "Apportez 24 Entrailles mécaniques de robot et 1 Sauvageonne à Shoni, à Hurlevent."),
+    ('QuestDescription', "$C, I know these tuskarr will ask you to do many favors for them.$B$BThe upheaval in the land is great.",
+     "$C, je sais que ces roharts vous sollicitent beaucoup.$B$BLe cataclysme qui frappe ces terres est grand."),
+]
+
+
+def tester_quetes():
+    noms = [('Marshal McBride', 'Maréchal McBride'), ('Kobold Vermin', 'Vermine kobold'), ('Elwynn Forest', "Forêt d'Elwynn"),
+            ('Stormwind', 'Hurlevent'), ('Lakeshire', 'Comté-du-Lac'), ('Stranglethorn', 'Strangleronce'),
+            ('Hemet Nesingwary Jr.', 'Hemet Nesingwary Jr.'), ('Deathguard Dillinger', 'Nécrogarde Dillinger')]
+    d = Q.Detecteur(noms, {'McBride', 'Thrall', 'Nesingwary', 'Breanna'})
+    bons = 0
+    for champ, en, fr, attendu in QUETES_FAUSSES:
+        r = d.signaux(en, fr, champ)
+        vu = d.douteux(r) and any(x.startswith(attendu) for x in r)
+        bons += vu
+        print('%s  quête « officielle » douteuse repérée : %-18s -> %s' % ('OK' if vu else 'KO', attendu, ', '.join(r) or 'ACCEPTÉE !'))
+    passes = 0
+    for champ, en, fr in QUETES_BONNES:
+        r = d.signaux(en, fr, champ)
+        ok = not d.douteux(r)
+        passes += ok
+        print('%s  bonne traduction de quête acceptée : %s' % ('OK' if ok else 'KO', fr[:60] if ok else '%s -> %s' % (fr[:60], r)))
+    print('Quêtes : faux cas repérés %d/%d ; vrais cas acceptés %d/%d' % (bons, len(QUETES_FAUSSES), passes, len(QUETES_BONNES)))
+    return bons == len(QUETES_FAUSSES) and passes == len(QUETES_BONNES)
+
+
 def tester_format():
     """Echappement reversible, lecture/ecriture, detection d'une empreinte fausse et d'une cle en double."""
     ok = True
@@ -185,10 +243,20 @@ def main():
     off_ok = (C.controle("Enter the PvP zone.", "Entrez dans la zone JcJ.", 'officiel', regles, noms) == []
               and 'variables' in C.controle("Greetings, $n.", "Salutations.", 'officiel', regles, noms))
     print('%s  ligne officielle : glossaire non appliqué, structure vérifiée' % ('OK' if off_ok else 'KO'))
+    # donnees 0.2 : un texte officiel correspondant peut differer par la mise en forme ($B, retours a la ligne), pas plus
+    souple = (C.controle("Hello $n.$B$BGo now.", "Bonjour, $n. Partez.", 'officiel', regles, noms) == []
+              and C.controle("Line one\nLine two", "Ligne un ligne deux", 'officiel', regles, noms) == []
+              and 'variables' in C.controle("Hello $n.$B$BGo now.", "Bonjour, $n. Partez.", 'machine', regles, noms)
+              and 'nombres' in C.controle("Kill 8 kobolds.$B$BGo.", "Tuez 6 kobolds. Partez.", 'officiel', regles, noms)
+              and 'variables' in C.controle("Hello $n.$B$BGo now.", "Bonjour. Partez.", 'officiel', regles, noms)
+              and 'interface:retours_a_la_ligne' in C.controle("A\nB", "A B", 'officiel', regles, noms, 'chaine_interface'))
+    print('%s  ligne officielle : $B et retours à la ligne tolérés, nombres et $n non, interface stricte' % ('OK' if souple else 'KO'))
+    off_ok = off_ok and souple
     fmt = tester_format()
     inter = tester_interface(regles, noms)
+    quetes = tester_quetes()
     print('\nFaux cas refusés : %d/%d ; vrais cas acceptés : %d/%d' % (bons, len(FAUX), passes, len(VRAIS)))
-    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter
+    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter and quetes
     print('RÉSULTAT : %s' % ('conforme' if tout else 'NON CONFORME'))
     return 0 if tout else 1
 
