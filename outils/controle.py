@@ -94,12 +94,12 @@ class Noms:
     def verifier(self, en_nu, fr_nu):
         """en_nu, fr_nu : textes denudes. Renvoie la liste des noms restes en anglais."""
         out = []
-        cand = set(re.findall(r"[A-Z][A-Za-z'\-]+", fr_nu))
+        cand = sorted(set(re.findall(r"[A-Z][A-Za-z'\-]+", fr_nu)))      # ordre stable : notes identiques d'un import a l'autre
         for w in cand:
             for en, fr, rx in self.par_premier.get(w, ()):
                 if rx.search(fr_nu) and rx.search(en_nu) and fr.lower() not in fr_nu.lower():
                     out.append('%s→%s' % (en, fr))
-        return out
+        return sorted(set(out))
 
 
 def charger_noms(chemin=None):
