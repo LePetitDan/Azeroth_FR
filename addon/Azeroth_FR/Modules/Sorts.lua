@@ -636,14 +636,18 @@ end
 A.TraduireGrimoire = TraduireGrimoire
 
 local guetteur = CreateFrame("Frame")
-local cumul = 0
+local cumul, ouvert = 0, false
 guetteur:SetScript("OnUpdate", P("Sorts.grimoire", function(_, ecoule)
     cumul = cumul + (ecoule or 0)
     if cumul < 0.2 then return end
     cumul = 0
-    if (AscensionSpellbookFrame and AscensionSpellbookFrame:IsShown()) or (SpellBookFrame and SpellBookFrame:IsShown()) then
+    local visible = (AscensionSpellbookFrame and AscensionSpellbookFrame:IsShown()) or (SpellBookFrame and SpellBookFrame:IsShown())
+    if visible then
+        -- a chaque ouverture, on recherche les boutons (les pages du grimoire peuvent etre creees plus tard)
+        if not ouvert then boutons_grimoire = nil end
         TraduireGrimoire()
     end
+    ouvert = visible and true or false
 end))
 
 -- Liens de sort dans la discussion : « |Hspell:2120|h[Flamestrike]|h » -> nom francais.
