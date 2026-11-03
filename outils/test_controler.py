@@ -73,6 +73,50 @@ VRAIS = [
 ]
 
 
+# Textes d'interface (type chaine_interface) : controle STRICT en plus. FAUX CAS : doivent etre refuses
+FAUX_INTERFACE = [
+    ("%s gives %d gold.", "%d pièces d'or données par %s.", 'interface:format'),               # ordre des %s/%d inverse
+    ("Level %d %s", "%2$s de niveau %1$s", 'interface:format'),                               # %d devenu %s
+    ("Line one\nLine two", "Ligne un\nLigne deux\n", 'interface:retours_a_la_ligne'),           # \n ajoute
+    ("Extra Damage|n+%d%%", "Dégâts en plus +%d%%", 'interface:retours_a_la_ligne'),           # |n perdu
+    ("Do you want to destroy %s?\n\nType \"DELETE\" into the field to confirm.",
+     "Voulez-vous détruire %s ?\n\nTapez \"EFFACER\" pour confirmer.", 'interface:mot_cle'),   # mot a taper change
+    ("$source hits $dest.", "$dest touche $spell.", 'interface:variables_dollar'),              # jeton de combat change
+    ("<html><body><p align=\"CENTER\">Busy.</p></body></html>",
+     "<html><body><p>Occupé.</p></body></html>", 'interface:balises'),                         # balise modifiee
+    ("Say: ", "Dire :", 'interface:espaces_bords'),                                             # espace final perdu
+    ("Logs\\WoWChatLog.txt", "Journaux", 'interface:barres_obliques'),                          # chemin perdu
+]
+# VRAIS CAS d'interface : doivent passer
+VRAIS_INTERFACE = [
+    ("%s has %d gold.", "%1$s a %2$d pièces d'or."),
+    ("%s gives %d gold to %s.", "%3$s reçoit %2$d pièces d'or de %1$s."),
+    ("Do you want to destroy %s?\n\nType \"DELETE\" into the field to confirm.",
+     "Voulez-vous détruire %s ?\n\nTapez \"DELETE\" dans le champ pour confirmer."),
+    ("Say: ", "Dire : "),
+    ("Enter World", "Entrer dans le monde"),
+]
+
+
+def tester_interface(regles, noms):
+    bons = 0
+    for en, fr, attendu in FAUX_INTERFACE:
+        r = C.controle(en, fr, 'machine', regles, noms, 'chaine_interface')
+        vu = attendu in r
+        bons += vu
+        print('%s  faux cas d\'interface refusé : %-30s -> %s' % ('OK' if vu else 'KO', attendu, ', '.join(r) or 'ACCEPTÉ !'))
+    passes = 0
+    for en, fr in VRAIS_INTERFACE:
+        r = C.controle(en, fr, 'machine', regles, noms, 'chaine_interface')
+        passes += not r
+        print('%s  vrai cas d\'interface accepté : %s' % ('OK' if not r else 'KO', fr if not r else '%s -> %s' % (fr, r)))
+    # le controle strict ne s'applique qu'aux textes d'interface
+    hors = not any(x.startswith('interface:') for x in C.controle("Say: ", "Dire :", 'machine', regles, noms, 'quete'))
+    print('%s  contrôle strict réservé au type chaine_interface' % ('OK' if hors else 'KO'))
+    print('Interface : faux cas refusés %d/%d ; vrais cas acceptés %d/%d' % (bons, len(FAUX_INTERFACE), passes, len(VRAIS_INTERFACE)))
+    return bons == len(FAUX_INTERFACE) and passes == len(VRAIS_INTERFACE) and hors
+
+
 def tester_format():
     """Echappement reversible, lecture/ecriture, detection d'une empreinte fausse et d'une cle en double."""
     ok = True
@@ -118,8 +162,9 @@ def main():
               and 'variables' in C.controle("Greetings, $n.", "Salutations.", 'officiel', regles, noms))
     print('%s  ligne officielle : glossaire non appliqué, structure vérifiée' % ('OK' if off_ok else 'KO'))
     fmt = tester_format()
+    inter = tester_interface(regles, noms)
     print('\nFaux cas refusés : %d/%d ; vrais cas acceptés : %d/%d' % (bons, len(FAUX), passes, len(VRAIS)))
-    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt
+    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter
     print('RÉSULTAT : %s' % ('conforme' if tout else 'NON CONFORME'))
     return 0 if tout else 1
 

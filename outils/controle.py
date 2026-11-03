@@ -254,7 +254,7 @@ def controle_interface(en, fr):
         r.append('interface:retours_a_la_ligne')
     if en.count('\\') != fr.count('\\'):
         r.append('interface:barres_obliques')
-    if sorted(_DOLLAR.findall(en)) != sorted(_DOLLAR.findall(fr)):
+    if sorted(_DOLLAR.findall(_PRINTF.sub('', en))) != sorted(_DOLLAR.findall(_PRINTF.sub('', fr))):
         r.append('interface:variables_dollar')
     if sorted(_BALISE.findall(en)) != sorted(_BALISE.findall(fr)):
         r.append('interface:balises')
