@@ -351,25 +351,26 @@ FAMILLES_ADDON = [
     ('dialogues', ['serveur/dialogues.tsv'], 'Dialogues des PNJ', True),
     ('creatures', ['serveur/creatures.tsv'], 'Créatures', True),
     ('cris', ['serveur/broadcast_cris.tsv'], 'Cris et paroles des PNJ', True),
-    ('pages', ['serveur/pages_courriers.tsv'], 'Livres et courriers', True),
+    ('pages', ['serveur/pages_courriers.tsv', 'client/courriers.tsv'], 'Livres et courriers', True),
     ('objets', ['serveur/objets'], 'Objets', False),
 ]
 # Fichiers jamais lus par la partie generique : deja traites ci-dessus, l'interface (PTRXML), ou hors du
 # champ de l'add-on (hauts faits, messages techniques du serveur, objets du monde).
 HORS_GENERIQUE = {'serveur/quetes.tsv', 'serveur/dialogues.tsv', 'serveur/creatures.tsv',
-                  'serveur/broadcast_cris.tsv', 'serveur/pages_courriers.tsv', 'client/interface.tsv',
+                  'serveur/broadcast_cris.tsv', 'serveur/pages_courriers.tsv', 'client/courriers.tsv',
+                  'client/interface.tsv',
                   'client/hauts_faits.tsv', 'serveur/messages_serveur.tsv', 'serveur/cpp_en_dur.tsv',
                   'serveur/manastorm.tsv', 'serveur/objets_monde.tsv'}
 CHAMPS_SORT = {'name': 'n', 'rank': 'r', 'description': 'd', 'tooltip': 't', 'auradescription': 't'}
 CHAMPS_NOM = re.compile(r'^(name|nom|title|titre|area_name|label|libelle)(_?(female|feminin|f|m|male|masculin))?\d*$',
                         re.I)
 # domaine d'un nom : premier mot trouve dans le type, puis dans le nom du fichier
-DOMAINES = [('sous_classe', 'sous_classe'), ('subclass', 'sous_classe'), ('faction', 'faction'),
+DOMAINES = [('sous_classe', 'sous_classe'), ('subclass', 'sous_classe'), ('suffixe', 'suffixe'), ('faction', 'faction'),
             ('competence', 'competence'), ('skill', 'competence'), ('ensemble', 'ensemble'),
             ('zone', 'zone'), ('carte', 'zone'), ('area', 'zone'), ('point_interet', 'zone'), ('wmo', 'zone'),
             ('classe', 'classe'), ('class', 'classe'), ('race', 'race')]
 TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe': 'NSC', 'ensemble': 'NE',
-               'classe': 'NCL', 'race': 'NRA', 'divers': 'NX', 'rang': 'RG'}
+               'classe': 'NCL', 'race': 'NRA', 'divers': 'NX', 'rang': 'RG', 'suffixe': 'NSU'}
 CHAMPS_QUETE_TITRE = ('LogTitle',)
 TYPES_QUETE_ID = ('quete', 'quete_demande', 'quete_recompense')
 PRIO = {'relu': 3, 'officiel': 2, 'machine': 1}
@@ -417,6 +418,9 @@ class Fabrique:
     def lignes(self, famille, rels):
         for rel in rels:
             p = os.path.join(K.TEXTES, *rel.split('/'))
+            if not os.path.exists(p):
+                self.cpt[famille]['fichier_absent:' + rel] += 1
+                continue
             fichiers = K.fichiers_textes(p) if os.path.isdir(p) else [p]
             for f in fichiers:
                 ls, err = K.lire_tsv(f)

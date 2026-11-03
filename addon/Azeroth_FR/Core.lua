@@ -301,6 +301,25 @@ function A.Objet(id)
     return A.ParId("objets", "O", id)
 end
 
+-- Nom francais d'un objet tel qu'affiche : le nom anglais doit etre celui qu'on a traduit ;
+-- un suffixe aleatoire (« Ring of the Bear ») est traduit a part (« Anneau de l'ours »).
+function A.NomObjetAffiche(id, nomEN)
+    local o = A.Objet(id)
+    if type(o) ~= "table" or not o[1] or type(nomEN) ~= "string" then return nil end
+    if A.H1(nomEN) == o[2] then return o[1] end
+    local pos = 1
+    while true do
+        local d = find(nomEN, " of ", pos, true)
+        if not d then return nil end
+        if A.H1(sub(nomEN, 1, d - 1)) == o[2] then
+            local suffixe = A.Nom("suffixe", sub(nomEN, d + 1))
+            if suffixe then return o[1] .. " " .. suffixe end
+            return nil
+        end
+        pos = d + 1
+    end
+end
+
 function A.Sort(id)
     return A.ParId("sorts", "S", id)
 end

@@ -70,9 +70,8 @@ local function SurObjet(bulle)
     if type(o) == "table" then
         local l1 = Ligne(bulle, 1)
         local t1 = l1 and l1:GetText()
-        if o[1] and nomEN and t1 == nomEN and A.H1(nomEN) == o[2] then
-            l1:SetText(o[1]); modifie = true
-        end
+        local fr = t1 and nomEN and t1 == nomEN and A.NomObjetAffiche(id, nomEN)
+        if fr then l1:SetText(fr); modifie = true end
         if o[3] then
             for i = 2, n do
                 local l = Ligne(bulle, i)

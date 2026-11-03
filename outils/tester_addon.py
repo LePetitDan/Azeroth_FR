@@ -59,7 +59,41 @@ def minuscule1(s):
     return s[:1].lower() + s[1:] if s else s
 
 
-CLASSES_FR = {l[K.I_EN]: l[K.I_FR] for l in lire('client/talents.tsv') if l[K.I_TYPE] == 'classe' and passe(l)}
+def fr_interface(l):
+    """Francais d'un texte d'interface s'il est affichable (ce que PTRXML pose en jeu), sinon None."""
+    if l and passe(l) and l[K.I_FR] and l[K.I_FR] != l[K.I_EN]:
+        return l[K.I_FR]
+    return None
+
+
+BLANCS = ' \t\n\r\f\v'
+
+
+def inverser(texte):
+    """WatchFrame_ReverseQuestObjective du client (le compte passe devant), puis bords nettoyes comme l'add-on."""
+    m = re.match(r'(.*):[ \t\n\r\f\v](.*)', texte, re.S)
+    if m:
+        texte = m.group(2) + ' ' + m.group(1)
+    return texte.strip(BLANCS + '\xa0')
+
+
+def classes_source():
+    """Noms de classes (masculin, feminin) comme les range fabriquer.py (domaine « classe » des familles generiques)."""
+    m, f = {}, {}
+    for chemin in K.fichiers_textes():
+        rel = os.path.relpath(chemin, K.TEXTES).replace('\\', '/')
+        if rel in F.HORS_GENERIQUE or rel.startswith('serveur/objets/'):
+            continue
+        for l in K.lire_tsv(chemin)[0]:
+            if F.est_sort(l[K.I_TYPE], l[K.I_CHAMP]) or not F.CHAMPS_NOM.match(l[K.I_CHAMP]):
+                continue
+            if F.domaine_nom(rel, l[K.I_TYPE]) == 'classe' and passe(l) and l[K.I_FR] != l[K.I_EN]:
+                cible = f if F.est_feminin(l[K.I_CHAMP]) else m
+                cible.setdefault(l[K.I_EN], []).append((F.PRIO[l[K.I_ETAT]], l[K.I_FR]))
+    return {k: max(v)[1] for k, v in m.items()}, {k: max(v)[1] for k, v in f.items()}
+
+
+CLASSES_FR, CLASSES_FR_F = classes_source()
 
 
 def afficher_en(en, genre='m', nom=None, classe=None):
@@ -79,7 +113,8 @@ def rendre_fr(fr, genre='m', nom=None, classe=None):
     t = re.sub(r'\$[Nn]', lambda m: nom or JOUEUR['nom'], t)
     t = re.sub(r'\$[Rr]', RACE_FR[1] if genre == 'f' else RACE_FR[0], t)
     cl = classe or JOUEUR['classe']
-    t = re.sub(r'\$[Cc]', lambda m: minuscule1(CLASSES_FR.get(cl, cl.lower())) if cl in CLASSES_FR else cl.lower(), t)
+    nom_cl = (genre == 'f' and CLASSES_FR_F.get(cl)) or CLASSES_FR.get(cl)
+    t = re.sub(r'\$[Cc]', lambda m: minuscule1(nom_cl) if nom_cl else cl.lower(), t)
 
     def elision(m):
         c = m.group(1)
@@ -179,6 +214,7 @@ def choisir_sort_injecte():
 
 def choisir_sort_affichable():
     """Une description de sort AFFICHABLE a nombres, s'il y en a dans la source (sorts_standard…)."""
+    meilleurs = []
     for rel in K.fichiers_textes():
         r = os.path.relpath(rel, K.TEXTES).replace('\\', '/')
         if r in F.HORS_GENERIQUE or r.startswith('serveur/objets/'):
@@ -193,16 +229,28 @@ def choisir_sort_affichable():
                     and modele_simple(ds[K.I_FR]) and F.squelette_modele(ds[K.I_EN]) \
                     and sorted(re.findall(r'\$\d*[A-Za-z]\d?', ds[K.I_EN])) == \
                     sorted(re.findall(r'\$\d*[A-Za-z]\d?', ds[K.I_FR])) and n[K.I_FR] != n[K.I_EN]:
-                return int(i), n, ds
+                toks = set(re.findall(r'\$\d*[A-Za-z]\d?', ds[K.I_EN]))
+                # de preference : une duree ($d) ET au moins deux valeurs differentes (« 15 », « 25 »)
+                score = (2 if any(re.fullmatch(r'\$\d*d', t) for t in toks) else 0) + min(len(toks), 3)
+                meilleurs.append((-score, int(i), n, ds))
+    if meilleurs:
+        meilleurs.sort(key=lambda x: (x[0], x[1]))
+        return meilleurs[0][1:]
     return None
 
 
 def choisir_cas():
     cas, globales, injections = [], {}, []
     inter = {l[K.I_ID]: l for l in lire('client/interface.tsv')}
+    en_inter = {}
     for cle, _, _ in F.GABARITS:
         if cle in inter:
-            globales[cle] = inter[cle][K.I_EN]          # le client pose ses textes anglais
+            en_inter[cle] = inter[cle][K.I_EN]
+            # etat du jeu APRES PTRXML : le francais de la source s'il est affichable, sinon l'anglais du client
+            globales[cle] = fr_interface(inter[cle]) or inter[cle][K.I_EN]
+    g_tue = fr_interface(inter.get('QUEST_MONSTERS_KILLED')) or '%s tué(s) : %d/%d'
+    g_obj = fr_interface(inter.get('QUEST_ITEMS_NEEDED')) or '%s : %d/%d'
+    complete = globales.get('COMPLETE', 'Complete')
 
     q = lire('serveur/quetes.tsv')
     # 1. description avec $N et $B
@@ -321,15 +369,15 @@ def choisir_cas():
              and len(fr_par_nom.get(x[K.I_EN], ())) == 1 and x[K.I_FR] != x[K.I_EN] and int(x[K.I_ID]) > 1000)
     ne, nf = nom[K.I_EN], nom[K.I_FR]
     cas.append({'quoi': 'objectif', 'nom': 'objectif, forme Blizzard « %s slain: 3/8 »' % ne,
-                'anglais': '%s slain: 3/8' % ne, 'attendu': '%s tué(s) : 3/8' % nf})
+                'anglais': '%s slain: 3/8' % ne, 'attendu': g_tue % (nf, 3, 8)})
     cas.append({'quoi': 'objectif', 'nom': 'objectif, forme de ce client « 0/8 %s slain »' % ne,
-                'anglais': '0/8 %s slain' % ne, 'attendu': '0/8 %s tué(s)' % nf})
+                'anglais': '0/8 %s slain' % ne, 'attendu': inverser(g_tue % (nf, 0, 8))})
     cas.append({'quoi': 'objectif', 'nom': 'objectif sans « slain » (QuestInfo_GetObjectivesText) « 0/8 %s »' % ne,
-                'anglais': '0/8 %s' % ne, 'attendu': '0/8 %s' % nf})
+                'anglais': '0/8 %s' % ne, 'attendu': inverser(g_obj % (nf, 0, 8))})
     cas.append({'quoi': 'objectif', 'nom': 'objectif rempli, fenêtre « %s slain: 8/8 (Complete) »' % ne,
-                'anglais': '%s slain: 8/8 (Complete)' % ne, 'attendu': '%s tué(s) : 8/8 (Complete)' % nf})
+                'anglais': '%s slain: 8/8 (Complete)' % ne, 'attendu': (g_tue % (nf, 8, 8)) + ' (%s)' % complete})
     cas.append({'quoi': 'suivi', 'nom': 'suivi des objectifs, ancienne forme « - %s slain: 0/8 »' % ne,
-                'anglais': ' - %s slain: 0/8' % ne, 'attendu': ' - %s tué(s) : 0/8' % nf})
+                'anglais': ' - %s slain: 0/8' % ne, 'attendu': ' - ' + g_tue % (nf, 0, 8)})
     cas.append({'quoi': 'cible', 'nom': 'cadre de la cible : « %s »' % ne, 'anglais': ne, 'guid': guid(nom[K.I_ID]),
                 'attendu': nf})
     # suivi : titre francais sur deux lignes (quete 7 « Kobold Camp Cleanup ») + objectif compte d'abord
@@ -339,7 +387,7 @@ def choisir_cas():
     cas.append({'quoi': 'suivi_hauteur',
                 'nom': 'suivi : quête %s « %s » -> titre français sur deux lignes, objectif compte d\'abord' % (tq[K.I_ID], tq[K.I_EN]),
                 'id': int(tq[K.I_ID]), 'titre_en': tq[K.I_EN], 'titre_fr': tq[K.I_FR],
-                'objectif_en': '%s slain: 0/8' % ne, 'objectif_fr': '0/8 %s tué(s)' % nf})
+                'objectif_en': '%s slain: 0/8' % ne, 'objectif_fr': inverser(g_tue % (nf, 0, 8))})
 
     # objets : nom + description ; etiquettes ; nom change par le serveur ; objectif d'objet
     ob = lire('serveur/objets/objets_0000000-0199999.tsv')
@@ -377,7 +425,7 @@ def choisir_cas():
                 'attendu': d['name'][K.I_EN] + ' of Doom'})
     io_, do_ = o_ok[len(o_ok) // 4]
     cas.append({'quoi': 'objectif', 'nom': 'objectif d\'objet, forme de ce client « 2/10 %s »' % do_['name'][K.I_EN],
-                'anglais': '2/10 %s' % do_['name'][K.I_EN], 'attendu': '2/10 %s' % do_['name'][K.I_FR],
+                'anglais': '2/10 %s' % do_['name'][K.I_EN], 'attendu': inverser(g_obj % (do_['name'][K.I_FR], 2, 10)),
                 'objet_cache': [int(io_), do_['name'][K.I_EN]]})
     # ensemble d'objets dans l'infobulle
     ens = next((l for l in lire('serveur/ensembles_objets.tsv') if passe(l) and l[K.I_FR] != l[K.I_EN]), None)
@@ -386,6 +434,16 @@ def choisir_cas():
         cas.append({'quoi': 'objet', 'nom': 'objet %s : ligne d\'ensemble « %s (0/5) »' % (i, ens[K.I_EN]), 'id': int(i),
                     'anglais': d['name'][K.I_EN], 'lignes': [d['name'][K.I_EN], 'Soulbound', '%s (0/5)' % ens[K.I_EN]],
                     'attendu': d['name'][K.I_FR], 'ligne_description': 3, 'description_attendue': '%s (0/5)' % ens[K.I_FR]})
+
+    # nom avec suffixe aleatoire (« Ring of the Bear » -> « Anneau de l'ours »)
+    sufs = [l for l in lire('client/suffixes_objets.tsv') if passe(l) and l[K.I_EN].startswith('of ') and l[K.I_FR] != l[K.I_EN]]
+    suf = next((l for l in sufs if l[K.I_EN] == 'of the Bear'), sufs[0] if sufs else None)
+    if suf:
+        i, d = next((i, d) for i, d in o_ok[len(o_ok) // 8:] if ' of ' not in d['name'][K.I_EN])
+        cas.append({'quoi': 'objet', 'nom': 'objet %s : nom avec suffixe aléatoire « %s %s »' % (i, d['name'][K.I_EN], suf[K.I_EN]),
+                    'id': int(i), 'anglais': d['name'][K.I_EN] + ' ' + suf[K.I_EN],
+                    'lignes': [d['name'][K.I_EN] + ' ' + suf[K.I_EN], 'Binds when equipped'],
+                    'attendu': d['name'][K.I_FR] + ' ' + suf[K.I_FR]})
 
     # /azfr etiquettes : trois objets reels du serveur (le rendu de l'etiquette par le client est imite)
     objets_eti, attendus_eti = {}, []
@@ -446,6 +504,11 @@ def choisir_cas():
     if co:
         cas.append({'quoi': 'texte', 'famille': 'pages', 'nom': 'objet du courrier de haut fait %s' % co[K.I_ID],
                     'anglais': co[K.I_EN], 'attendu': co[K.I_FR]})
+    cour = next(iter(uniques(lire('client/courriers.tsv'), lambda l: l[K.I_CHAMP] == 'subject' and '$' not in l[K.I_EN]
+                             and l[K.I_FR] != l[K.I_EN])), None)
+    if cour:
+        cas.append({'quoi': 'texte', 'famille': 'pages', 'nom': 'objet du courrier du jeu %s (MailTemplate du client)' % cour[K.I_ID],
+                    'anglais': cour[K.I_EN], 'attendu': cour[K.I_FR]})
     cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'texte inconnu -> reste en anglais',
                 'anglais': 'This sentence is not in any table, adventurer.'})
 
@@ -453,34 +516,34 @@ def choisir_cas():
     t783 = next((t for t in titres if t[K.I_ID] == '783' and passe(t)), None) or \
         next(t for t in uniques(titres, lambda t: t[K.I_ETAT] == 'officiel'))
     te, tf = t783[K.I_EN], t783[K.I_FR]
-    g_acc = globales.get('ERR_QUEST_ACCEPTED_S', 'Quest accepted: %s')
-    g_fin = globales.get('ERR_QUEST_COMPLETE_S', '%s completed.')
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s »' % (g_acc % te),
-                'message': g_acc % te, 'attendu': g_acc % tf})
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s »' % (g_fin % te),
-                'message': g_fin % te, 'attendu': g_fin % tf})
-    t2 = next(t for t in uniques(titres, lambda t: t[K.I_ETAT] == 'officiel' and t[K.I_ID] != t783[K.I_ID] and "'" not in t[K.I_EN]))
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM',
-                'nom': 'discussion « %s », gabarit déjà passé en français par PTRXML (gabarit simulé par le banc)' % (g_acc % t2[K.I_EN]),
-                'message': g_acc % t2[K.I_EN], 'attendu': 'Quête acceptée : %s' % t2[K.I_FR],
-                'globales': {'ERR_QUEST_ACCEPTED_S': 'Quête acceptée : %s'}})
-    g_xp = globales.get('ERR_QUEST_REWARD_EXP_I', 'Experience gained: %d.')
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s » : rien à traduire, inchangé' % (g_xp % 55),
-                'message': g_xp % 55, 'attendu': g_xp % 55})
-    g_kill = globales.get('COMBATLOG_XPGAIN_FIRSTPERSON', '%s dies, you gain %d experience.')
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_COMBAT_XP_GAIN', 'nom': 'discussion « %s »' % (g_kill % (ne, 45)),
-                'message': g_kill % (ne, 45), 'attendu': g_kill % (nf, 45)})
+    def discussion(evenement, cle, args_en, args_fr, nom=None, deux_formes=True):
+        en, cur = en_inter.get(cle), globales.get(cle)
+        if not en:
+            return
+        attendu = cur % args_fr
+        cas.append({'quoi': 'discussion', 'evenement': evenement, 'nom': nom or 'discussion « %s »' % (en % args_en),
+                    'message': en % args_en, 'attendu': attendu})
+        if deux_formes and cur != en:
+            cas.append({'quoi': 'discussion', 'evenement': evenement,
+                        'nom': (nom or 'discussion « %s »' % (cur % args_en)) + ', gabarit déjà en français (PTRXML)',
+                        'message': cur % args_en, 'attendu': attendu})
+    discussion('CHAT_MSG_SYSTEM', 'ERR_QUEST_ACCEPTED_S', (te,), (tf,))
+    discussion('CHAT_MSG_SYSTEM', 'ERR_QUEST_COMPLETE_S', (te,), (tf,))
+    discussion('CHAT_MSG_SYSTEM', 'ERR_QUEST_REWARD_EXP_I', (55,), (55,), deux_formes=False)
+    discussion('CHAT_MSG_COMBAT_XP_GAIN', 'COMBATLOG_XPGAIN_FIRSTPERSON', (ne, 45), (nf, 45))
     if fac:
-        g_rep = globales.get('FACTION_STANDING_INCREASED', 'Reputation with %s increased by %d.')
-        cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_COMBAT_FACTION_CHANGE',
-                    'nom': 'discussion « %s » (faction)' % (g_rep % (fac[K.I_EN], 55)),
-                    'message': g_rep % (fac[K.I_EN], 55), 'attendu': g_rep % (fac[K.I_FR], 55)})
+        discussion('CHAT_MSG_COMBAT_FACTION_CHANGE', 'FACTION_STANDING_INCREASED', (fac[K.I_EN], 55), (fac[K.I_FR], 55),
+                   nom='discussion « %s » (faction)' % (en_inter.get('FACTION_STANDING_INCREASED', '%s %d') % (fac[K.I_EN], 55)))
     i, d = o_ok[len(o_ok) // 2]
     lien_en = '|cffffffff|Hitem:%s:0:0:0:0:0:0:0:0|h[%s]|h|r' % (i, d['name'][K.I_EN])
     lien_fr = '|cffffffff|Hitem:%s:0:0:0:0:0:0:0:0|h[%s]|h|r' % (i, d['name'][K.I_FR])
-    g_loot = globales.get('LOOT_ITEM_SELF', 'You receive loot: %s.')
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_LOOT', 'nom': 'discussion, butin « %s » (lien d\'objet)' % (g_loot % ('[' + d['name'][K.I_EN] + ']')),
-                'message': g_loot % lien_en, 'attendu': g_loot % lien_fr})
+    discussion('CHAT_MSG_LOOT', 'LOOT_ITEM_SELF', (lien_en,), (lien_fr,),
+               nom='discussion, butin « %s » (lien d\'objet)' % (en_inter.get('LOOT_ITEM_SELF', '%s') % ('[' + d['name'][K.I_EN] + ']')),
+               deux_formes=False)
+    if 'YOU_LOOT_MONEY' in en_inter and 'COPPER_AMOUNT' in en_inter:
+        discussion('CHAT_MSG_MONEY', 'YOU_LOOT_MONEY', (en_inter['COPPER_AMOUNT'] % 5,), (globales['COPPER_AMOUNT'] % 5,),
+                   nom='discussion, argent « %s »' % (en_inter['YOU_LOOT_MONEY'] % (en_inter['COPPER_AMOUNT'] % 5)),
+                   deux_formes=False)
     # ---- zones (correction 4) ----
     zs = {l[K.I_EN]: l for l in lire('client/zones.tsv') if passe(l) and l[K.I_FR] != l[K.I_EN]}
     zn = zs.get('Northshire Valley') or next(iter(zs.values()))
@@ -490,9 +553,7 @@ def choisir_cas():
     cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_CHANNEL_NOTICE', 'champ': 4,
                 'nom': 'canal « 1. General - %s »' % zn[K.I_EN], 'message': 'YOU_JOINED',
                 'arg4': '1. General - %s' % zn[K.I_EN], 'attendu': '1. General - %s' % zn[K.I_FR]})
-    g_dec = globales.get('ERR_ZONE_EXPLORED_XP', 'Discovered %s: %d experience gained')
-    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s »' % (g_dec % (ze[K.I_EN], 30)),
-                'message': g_dec % (ze[K.I_EN], 30), 'attendu': g_dec % (ze[K.I_FR], 30)})
+    discussion('CHAT_MSG_SYSTEM', 'ERR_ZONE_EXPLORED_XP', (ze[K.I_EN], 30), (ze[K.I_FR], 30), deux_formes=False)
 
     # ---- sorts (correction 5) ----
     sorts = {}
@@ -548,10 +609,11 @@ def choisir_cas():
                 'lignes': [nom_en, aff_en, '5 min remaining'], 'attendu': nom_fr, 'ligne_description': 2,
                 'description_attendue': att_fr})
     io2, do2 = o_ok[len(o_ok) // 6]
-    g_use = globales.get('ITEM_SPELL_TRIGGER_ONUSE', 'Use:')
-    cas.append({'quoi': 'objet', 'nom': 'objet %s : ligne « %s » retrouvée par le sort de l\'objet (GetItemSpell)%s' % (io2, g_use, etiq),
+    g_use_en = en_inter.get('ITEM_SPELL_TRIGGER_ONUSE', 'Use:')
+    g_use = globales.get('ITEM_SPELL_TRIGGER_ONUSE', g_use_en)
+    cas.append({'quoi': 'objet', 'nom': 'objet %s : ligne « %s » retrouvée par le sort de l\'objet (GetItemSpell)%s' % (io2, g_use_en, etiq),
                 'id': int(io2), 'anglais': do2['name'][K.I_EN], 'sort_objet': sid,
-                'lignes': [do2['name'][K.I_EN], 'Binds when picked up', '%s %s' % (g_use, aff_en)],
+                'lignes': [do2['name'][K.I_EN], 'Binds when picked up', '%s %s' % (g_use_en, aff_en)],
                 'attendu': do2['name'][K.I_FR], 'ligne_description': 3, 'description_attendue': '%s %s' % (g_use, att_fr)})
     io3, do3 = o_ok[len(o_ok) // 7]
     g_equip = globales.get('ITEM_SPELL_TRIGGER_ONEQUIP', 'Equip:')
@@ -570,7 +632,7 @@ def choisir_cas():
 
 def tester_ptrxml(lua, out):
     """Execute le vrai AzerothFR_Interface.lua avec quelques globales anglaises."""
-    lignes = [l for l in lire('client/interface.tsv') if passe(l)]
+    lignes = [l for l in lire('client/interface.tsv') if passe(l) and l[K.I_FR] != l[K.I_EN]]
     ex = lignes[:3]
     script = ['ENTER_WORLD_TEST_INEXISTANTE = nil']
     for l in ex:

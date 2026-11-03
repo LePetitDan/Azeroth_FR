@@ -155,7 +155,13 @@ local function Inverser(texte)
 end
 A.InverserObjectif = Inverser
 
-local function Nettoyer(s) return (match(s, "^%s*(.-)%s*$")) end
+-- Bords : espaces et espaces insecables (« tué\194\160: » des gabarits francais officiels).
+local function Nettoyer(s)
+    s = match(s, "^%s*(.-)%s*$")
+    while sub(s, -2) == "\194\160" do s = match(sub(s, 1, -3), "^(.-)%s*$") end
+    while sub(s, 1, 2) == "\194\160" do s = match(sub(s, 3), "^%s*(.-)$") end
+    return s
+end
 
 local function FormesAnglaises(cle)
     local out, g = {}, Gabarit(cle)

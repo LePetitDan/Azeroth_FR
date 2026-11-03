@@ -26,9 +26,8 @@ function A.TraduireLiens(texte)
     if type(texte) ~= "string" or not find(texte, "|H", 1, true) then return texte end
     if find(texte, "|Hitem:", 1, true) then
         texte = gsub(texte, "(|Hitem:(%d+)[^|]*|h%[)(.-)(%]|h)", function(debut, id, nom, fin)
-            local o = A.Objet(tonumber(id))
-            if type(o) == "table" and o[1] and A.H1(nom) == o[2] then return debut .. o[1] .. fin end
-            return debut .. nom .. fin
+            local fr = A.NomObjetAffiche(tonumber(id), nom)
+            return debut .. (fr or nom) .. fin
         end)
     end
     if find(texte, "|Hquest:", 1, true) then

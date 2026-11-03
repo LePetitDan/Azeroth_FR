@@ -328,6 +328,20 @@ for _, f in ipairs(A.FAMILLES) do
     if f.auto then noter(A.Charges[f.addon] == true, "famille chargee : " .. f.addon) end
 end
 
+-- Sorts et index des sorts : charges a la demande en jeu (premiere infobulle de sort, premiere ligne
+-- « Use: ») ; ici mesures a part, avant les cas, par A.ChargerAddon comme dans le jeu.
+for _, f in ipairs(A.FAMILLES) do
+    if f.famille == "sorts" or f.famille == "sorts_index" then
+        collectgarbage("collect")
+        local m0, c0 = collectgarbage("count"), os.clock()
+        A.ChargerAddon(f.addon)
+        local d = (os.clock() - c0) * 1000
+        collectgarbage("collect")
+        print(string.format("MESURE  %s (%s%s) : chargee a la demande +%.1f Mo en %.0f ms", f.addon, f.famille,
+            f.debut and string.format(" %d a %d", f.debut, f.fin) or "", (collectgarbage("count") - m0) / 1024, d))
+    end
+end
+
 -- Donnees d'essai injectees par le banc (jamais embarquees) : voir tester_addon.py.
 local function Injecter(inj)
     local fam = A.Tables[inj.famille]
