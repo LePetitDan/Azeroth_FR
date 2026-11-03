@@ -1,0 +1,6 @@
+# La source unique est en LF, partout (Windows compris)
+*.tsv text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.xz binary
+*.gz binary
