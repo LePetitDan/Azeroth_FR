@@ -21,7 +21,7 @@ Refus possibles (une ligne peut en cumuler plusieurs) :
 - trop_court              : francais beaucoup plus court (mauvais appariement probable)
 - mot_a_mot               : « Sacré Tome », « Ombre X »…
 - glossaire:<regle>       : terme tranche non respecte (glossaire/regles_controle.tsv)
-- nom_officiel:<anglais>  : nom propre officiel reste en anglais (glossaire/noms_officiels.tsv)
+- nom_officiel:<en>→<fr>  : nom propre officiel reste en anglais (glossaire/noms_officiels.tsv)
 """
 import os
 import re
@@ -98,7 +98,7 @@ class Noms:
         for w in cand:
             for en, fr, rx in self.par_premier.get(w, ()):
                 if rx.search(fr_nu) and rx.search(en_nu) and fr.lower() not in fr_nu.lower():
-                    out.append(en)
+                    out.append('%s→%s' % (en, fr))
         return out
 
 

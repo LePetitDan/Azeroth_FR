@@ -4331,7 +4331,7 @@ objet_monde	90217		castBarCaption	Looting	9cfc1fc8f618	Ramassage du butin	machin
 objet_monde	90218		name	Large Kodo Bone	19602efdf414	Grand os de Kodo	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90219		name	Stolen Tauren Cloak	010b8147cb55	Cape de Tauren volée	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90220		name	Ancestor's Axe	c98fb41c2653	Hache de l'ancêtre	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	90221		name	Stolen Red Cloud Mesa Supplies	a440822d6769	Fournitures volées de Red Cloud Mesa	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	90221		name	Stolen Red Cloud Mesa Supplies	a440822d6769	Fournitures volées de Red Cloud Mesa	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Red Cloud Mesa→Mesa de Nuage rouge
 objet_monde	90223		name	Glinting Kobold Corpse	6400690aeda7	Cadavre de Kobold scintillant	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90224		name	Riverpaw Pack Chieftain's Lunch	c153efc5a1de	Déjeuner du chef de la meute Riverpaw	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90225		name	Riverpaw Pack Second in Command's Lunch	c36dab72cf0e	Déjeuner du Commandant en second du Pack Riverpaw	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -4342,7 +4342,7 @@ objet_monde	90233		name	Lexicon of Azora - Part I: Mage Inscriptions	b994e468448
 objet_monde	90234		name	Lexicon of Azora - Part II: Warlock Rituals	fca92e9e51ba	Lexique d'Azora - Partie II : Rituels de Démoniste	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90235		name	Dockmaster's Stolen Supplies	7eb7d8400825	Fournitures volées du maître des quais	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90236		name	Thunder Falls Enchanted Branches	693260864931		a_revoir		D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Branches enchantées de Thunder Falls »
-objet_monde	90237		name	Thunder Falls Finest Gun Selection	2dd4b03d1601	Sélection des meilleures armes à feu de Thunder Falls	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	90237		name	Thunder Falls Finest Gun Selection	2dd4b03d1601	Sélection des meilleures armes à feu de Thunder Falls	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Thunder Falls→Chutes du Tonnerre
 objet_monde	90238		name	Loop of the Sly Rogue	258ff1a65061	Boucle du voleur sournois	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90239		name	The One Candle	b948250f140d	La seule bougie	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90240		name	Quel'Thalas Sunken Treasure Chest	dcda5fc9ebdd	Coffre au trésor englouti de Quel'Thalas	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -4426,12 +4426,12 @@ objet_monde	90330		name	Ravenclaw Bone Necklace	d6af0d4e8348	Collier d'os de Ser
 objet_monde	90331		name	Bristleback Staff	5735d40d2f45	Bâton à dos hérissé	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90332		name	Thornmantle Quills	a2205dac9faf	Plumes de Mantépine	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90336		name	Brambleblade Blade	74ed7b9bc821	Lame de la lame de ronce	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	90338		name	Venture Co. Unique Concoction	ddd425735da0	Venture Co. Concoction unique	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	90338		name	Venture Co. Unique Concoction	ddd425735da0	Venture Co. Concoction unique	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Venture Co.→KapitalRisk
 objet_monde	90339		name	Fallen Hardwood Plank	a46023d44c6a	Planche de bois dur tombée	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90340		name	Long Fishing Spear	63f232ad2b4f	Lance de pêche longue	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90341		name	Snaggle's Engage Whistle	a88397186535	Sifflet d'engagement de Snaggle	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90342		name	Matriarch Windfury Claw	0252ac8b080a	Griffe de la matriarche Furie-des-Vent	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	90345		name	Venture Co. Ring	098f975f7f86	Bague Venture Co.	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	90345		name	Venture Co. Ring	098f975f7f86	Bague Venture Co.	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Venture Co.→KapitalRisk
 objet_monde	90346		name	Discarded Wagon Wheel	4c9c1a6a61d3	Roue de chariot abandonnée	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90347		name	Interloper's Loop	85585fc4b563	Boucle de l'intrus	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90348		name	Wood Pile	5c598a1f36cb	Pile de bois	officiel	blizzard_frFR	niveau=meme_champ
@@ -4821,7 +4821,7 @@ objet_monde	95744		name	The Wrangler	29c555fdac58	Le Wrangler	machine	archive_as
 objet_monde	95745		name	Kurzen Officer's Trunk	f3c9dadb55d3	Malle d'officier Kurzen	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	95746		name	Kurzen Eviscerator	0d78856437a5	Éviscérateur Kurzen	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	95747		name	Crystallized Shield	0c51f6580c65	Bouclier cristallisé	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	95748		name	Venture Co. Gear	263adc097780	Équipement Venture Co.	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	95748		name	Venture Co. Gear	263adc097780	Équipement Venture Co.	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Venture Co.→KapitalRisk
 objet_monde	95749		name	Splinter Guard	2b578f3cf503	Garde-éclats	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	95750		name	Loose Gear	679289342261	Équipement lâche	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	95751		name	Fifth Staff of Mosh'Ogg Circle	07e12df87edd	Cinquième bâton du cercle Mosh'Ogg	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -5177,10 +5177,10 @@ objet_monde	97135		name	Useless Racing Parts	2e360f6fdd11	Pièces de course inut
 objet_monde	97136		name	Needlewind Crossbow	68643b856beb	Arbalète à vent aiguille	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97137		name	Lost Shipment	2721123e1a7a	Envoi perdu	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97379		name	Floating Books RPG Prop	254296c5d941	Livres flottants RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97392		name	Mage Tower Floating Book RPG Prop	02afb852a102	Mage Tower Livre flottant RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	97392		name	Mage Tower Floating Book RPG Prop	02afb852a102	Mage Tower Livre flottant RPG Prop	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Mage Tower→Tour des mages
 objet_monde	97394		name	Magic Banner RPG Prop	c0e1f669b9af	Prop de RPG de bannière magique	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97395		name	Arcane Prison RPG Prop	22144a2f713a	Accessoire RPG de prison arcanique	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97396		name	Blue Rune Circle Large RPG Prop	c092413ddfb9	Grand accessoire RPG Blue Rune Circle	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	97396		name	Blue Rune Circle Large RPG Prop	c092413ddfb9	Grand accessoire RPG Blue Rune Circle	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Rune Circle→Cercle de runes
 objet_monde	97397		name	Human Townhall Commander Desk Level 3 RPG Prop	5d3f2c6c3d72	Human Townhall Commander Desk Niveau 3 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97398		name	General Medium Chair RPG Prop	51603b070687	Accessoire RPG de chaise moyenne générale	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97399		name	Human Inn Table Small 2 RPG Prop	53da78fa1e69	Human Inn Table Petit 2 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -5239,7 +5239,7 @@ objet_monde	97498		name	Inn Bench RPG Prop	cb70da704a75	Accessoire RPG de banc d
 objet_monde	97499		name	Rogue Lockpicking Junk 1 RPG Prop	a78b3064f088		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Rogue Lockpicking Junk 1 RPG Prop »
 objet_monde	97500		name	Rogue Smokebomb Crate 3 RPG Prop	5e28126f2aa4	Rogue Smokebomb Crate 3 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97501		name	Rogue Poison Case 1 RPG Prop	131a24f09b49	Rogue Poison Case 1 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97502		name	Rogue Poison Vial RPG Prop	e2cc76d7c564	Accessoire RPG Rogue Poison Vial	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	97502		name	Rogue Poison Vial RPG Prop	e2cc76d7c564	Accessoire RPG Rogue Poison Vial	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Poison Vial→Fiole de poison
 objet_monde	97503		name	Rogue Poison Case 3 RPG Prop	edcf280b0d69	Rogue Poison Case 3 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97504		name	Rogue Poison Case 2 RPG Prop	cf09b2bdfb77	Rogue Poison Case 2 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97505		name	Human Pulley Crates RPG Prop	0c3b3c4984a1	Caisses à poulie humaine RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -21975,7 +21975,7 @@ objet_monde	244619		name	Loch Modan Tree	ba91834d727f	Arbre du Loch Modan	machin
 objet_monde	244619		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	244620		name	Dun Morogh Tree	d5271fb5c441	Arbre Dun Morogh	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	244620		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
-objet_monde	244621		name	Hillsbrad Tree	55d654b4b43f	Arbre d'Hillsbrad	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	244621		name	Hillsbrad Tree	55d654b4b43f	Arbre d'Hillsbrad	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Hillsbrad→Hautebrande
 objet_monde	244621		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	244622		name	Hinterland Tree	20b26e1f7129	Arbre de l'arrière-pays	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
 objet_monde	244622		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
@@ -22164,7 +22164,7 @@ objet_monde	254363		name	Mire Leaves	160347ad6c28	Feuilles de marais	machine	arc
 objet_monde	254364		name	Fallow Basket	bc9d8b4fe824	Panier en jachère	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254365		name	Half-Buried Crate	bcbdf23995a6	Caisse à moitié enterrée	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254366		name	Lantern of Endless Sorrow	329fcd5ac362	Lanterne du chagrin sans fin	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	254367		name	Sorrowmurk Shrine Barrel	6890b258fa3b	Tonneau du sanctuaire Sorrowmurk	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	254367		name	Sorrowmurk Shrine Barrel	6890b258fa3b	Tonneau du sanctuaire Sorrowmurk	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Sorrowmurk→Noirchagrin
 objet_monde	254368		name	Holy Atal'ai Band	8e264ac75f10	Groupe Holy Atal'ai	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254369		name	Spear of Emerald	19815ee0310d	Lance d'Émeraude	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254370		name	Icon of Blood	b22311e46e37	Icône de sang	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22284,7 +22284,7 @@ objet_monde	254550		name	Improvised Murloc Hammer	80c67f015dd6	Marteau Murloc im
 objet_monde	254551		name	Free Book	577087644a4c	Livre gratuit	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254553		name	Wooden Staff	d92a14ca3b14	Bâton en bois	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254554		name	Abandoned Totem	6cb76ffef2d5	Totem abandonné	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	254555		name	Venture Co. Warning	c7fe8cbadb3d	Avertissement de Venture Co.	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	254555		name	Venture Co. Warning	c7fe8cbadb3d	Avertissement de Venture Co.	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Venture Co.→KapitalRisk
 objet_monde	254556		name	Silithid Scale	0948ff0bc3a0	Écaille de silithide	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254557		name	Giant Gnomish Staff	886ed6d4d0ad	Bâton Gnome Géant	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254558		name	Fisherman's Longbow	475a15ec7c6f	Arc long du pêcheur	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22301,7 +22301,7 @@ objet_monde	254573		name	Sunken Stash	781b80379305	Cachette engloutie	machine	ar
 objet_monde	254574		name	Fallen Hero	9510ef14bcf2	Héros déchu	officiel	blizzard_frFR	niveau=meme_groupe
 objet_monde	254575		name	Elven Shoulderpads	2bc7942852d8	Épaulettes elfiques	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254577		name	Zazera's Wand	2c78e5f1eb73	Baguette de Zazera	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	254578		name	Dire Maul Belt	658d9fef0417	Ceinture Dire Maul	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	254578		name	Dire Maul Belt	658d9fef0417	Ceinture Dire Maul	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Dire Maul→Hache-tripes
 objet_monde	254580		name	Abandoned Barrel	52c6ce0db770	Baril abandonné	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254581		name	Runic Belt	012a04abc2f0	Ceinture runique	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254582		name	Theramore Equipment	2277759f9d40	Équipement Theramore	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua

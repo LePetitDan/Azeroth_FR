@@ -46,7 +46,7 @@ FAUX = [
     ("Learn the ways of the Templar.", "Apprenez les voies du Templar.", 'glossaire:classe CoA restée en anglais'),
     ("Lightning Bolt", "Eclair", 'glossaire:majuscule accentuée'),
     ("The rogue's dagger", "La dague du voleur’", 'glossaire:apostrophe droite'),
-    ("Travel to Ironforge and speak with the king.", "Rendez-vous à Ironforge et parlez au roi.", 'nom_officiel:Ironforge'),
+    ("Travel to Ironforge and speak with the king.", "Rendez-vous à Ironforge et parlez au roi.", 'nom_officiel:Ironforge→Forgefer'),
     ("Visit our realm.", "Visitez https://exemple.invalid notre royaume.", 'exclu_url'),
     ("Dragonhawk", "Bien sûr, je peux vous aider avec ça. Il semble que ce soit un nom d'utilisateur ou un pseudo.", 'reponse_ia'),
     ("Storm clouds gathered.", "Des nuages ​​orageux se sont formés.", 'caractere_invisible'),
