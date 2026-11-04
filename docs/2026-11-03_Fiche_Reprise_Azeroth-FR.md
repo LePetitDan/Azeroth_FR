@@ -4,10 +4,11 @@
 
 ## Données 0.4 (04/11) : décisions de vocabulaire 12 à 14 appliquées
 
-- **Branche** `donnees-0.4` (partie de `main` `a1bece6`), données seulement : pas de nouveau zip, l'add-on reste en 0.3.0 (refabriqué pour vérifier : banc 152/152). Deux imports identiques ; contrôle 0 bloquant ; test du contrôle conforme (+ 9 faux cas du modèle officiel).
+- **Branche** `donnees-0.4` fusionnée dans `main` (`489c751`), données seulement : pas de nouveau zip, l'add-on reste en 0.3.0 (refabriqué pour vérifier : banc 152/152). Deux imports identiques ; contrôle 0 bloquant ; test du contrôle conforme (+ 9 faux cas du modèle officiel).
 - **Étiquettes** (point 12) : Fabuleux, Supérieur, Raffiné, Chef-d'œuvre, Prestigieux, Sanguin, Boss mondial héroïque (+ « : Marche-funeste », « : Seigneur funeste Kazzak »), « Raid : Naxxramas - N joueurs » : 11 101 étiquettes d'objets de plus en français. **Tier N** (point 13) : statut `anglais`.
 - **Enchantements CoA** (point 14) : `outils/modele_officiel.py` ; 5 476 noms sur 11 246 en `machine`, source `modele_officiel` ; le contrôle refait le calcul. Seuls les 514 noms sur une ligne sont embarqués par `fabriquer.py` : les 4 962 gemmes à plusieurs lignes et la recherche des noms colorés sont à régler dans l'add-on 0.4, après un essai en jeu.
 - **Hauts faits** « Essai du Croisé » (9) : « Épreuve de raid - L'épreuve du croisé niveau : N », état `relu`.
+- **À reprendre dans l'add-on 0.4** (après les captures de l'essai 3) : embarquer les gemmes à plusieurs lignes et chercher les noms colorés ; règle de contrôle « français réduit à un nombre » (173 noms de hauts faits `machine` réduits à « 1 », par exemple « Adventurer Mode Level: 1 ») ; une vingtaine d'autres lignes du Croisé sans la forme officielle « L'épreuve du croisé ».
 - **Questions restantes** (`glossaire/A_TRANCHER.md`) : 11h, 11j, 11l, 11m (autres raids « Raid: X - N Player »), 12a (4 modèles à deux français, 1 390 noms), 12b (formes CoA sans modèle). **Rapport** : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
 
 ## Add-on 0.3 (04/11) : les retours de l'essai 2, essai 3 installé
