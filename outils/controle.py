@@ -272,7 +272,10 @@ def controle_interface(en, fr):
         if fr.count('"%s"' % mot) != en.count('"%s"' % mot):
             r.append('interface:mot_cle')
             break
-    if (en[:1].isspace() != fr[:1].isspace()) or (en[-1:].isspace() != fr[-1:].isspace()):
+    # (une espace INSECABLE finale est permise quand l'anglais finit par une lettre : le client ajoute lui-meme la
+    # ponctuation, format("%s:", SELL_PRICE) -> « Prix de vente : » ; une espace ordinaire reste refusee)
+    fin_fr = fr[-1:].isspace() and not (fr[-1:] == '\u00a0' and en[-1:].isalpha())
+    if (en[:1].isspace() != fr[:1].isspace()) or (en[-1:].isspace() != fin_fr):
         r.append('interface:espaces_bords')
     return r
 

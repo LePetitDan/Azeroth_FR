@@ -67,6 +67,9 @@ FAUX = [
     ("You have unspent |cffffd100[Talent Essence]|r.", "Vous avez de la |cffffd100[Talent Essence]|r non dépensée.", 'glossaire:Talent Essence→Essence de talent'),
     ("Mystic Scroll: Viscera", "Parchemin Mystique : Viscères", 'glossaire:préfixe Parchemin mystique'),
     ("Holy Paladin Tome: Cleanse", "Tome Paladin Sacré\u00a0: Purification", 'glossaire:préfixe Tome du <classe> <Spécialité>'),
+    # Add-on 0.3 : decision n° 11 de Dan (04/11/2026), Trial = Epreuve
+    ("Trial Architect", "Architecte d'essai", 'glossaire:Trial→Épreuve (pas essai)'),
+    ("Trial not found.", "Essai introuvable.", 'glossaire:Trial→Épreuve (pas essai)'),
 ]
 
 # VRAIS CAS : doivent passer
@@ -95,6 +98,9 @@ VRAIS = [
     ("Complete any Call Board Daily Quest.", "Terminez une quête journalière du tableau d'appel."),
     ("Holy Paladin Tome: Cleanse", "Tome du paladin Sacré\u00a0: Purification"),
     ("Mysterious Keystone", "Clé de voûte mystérieuse"),                                     # archéologie : pas la Clé mythique
+    ("Trial Architect", "Architecte d'épreuves"),
+    ("Trial accounts cannot yell.", "Les comptes d'essai ne peuvent pas crier."),            # compte d'essai : pas concerne
+    ("He waits for a trial.", "Il attend son procès."),                                      # proces (justice) : pas concerne
 ]
 
 
@@ -110,6 +116,8 @@ FAUX_INTERFACE = [
     ("<html><body><p align=\"CENTER\">Busy.</p></body></html>",
      "<html><body><p>Occupé.</p></body></html>", 'interface:balises'),                         # balise modifiee
     ("Say: ", "Dire :", 'interface:espaces_bords'),                                             # espace final perdu
+    ("Sell Price", "Prix de vente ", 'interface:espaces_bords'),                                # espace ORDINAIRE ajoutee
+    ("Sell Price", "\u00a0Prix de vente", 'interface:espaces_bords'),                          # insecable en tete
     ("Logs\\WoWChatLog.txt", "Journaux", 'interface:barres_obliques'),                          # chemin perdu
 ]
 # VRAIS CAS d'interface : doivent passer
@@ -120,6 +128,7 @@ VRAIS_INTERFACE = [
      "Voulez-vous détruire %s ?\n\nTapez \"DELETE\" dans le champ pour confirmer."),
     ("Say: ", "Dire : "),
     ("Enter World", "Entrer dans le monde"),
+    ("Sell Price", "Prix de vente\u00a0"),             # insecable finale : le client ajoute « : » (format("%s:", SELL_PRICE))
 ]
 
 

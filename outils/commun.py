@@ -80,6 +80,10 @@ FAMILLES = [
     ('suffixes_objets', 'client/suffixes_objets.tsv', ('suffixe_objet',), "Client : suffixes aléatoires d'objets (ItemRandomSuffix.dbc)"),
     ('courriers', 'client/courriers.tsv', ('courrier',), 'Client : modèles de courriers (MailTemplate.dbc) : objet, corps'),
     ('rencontres_donjon', 'client/rencontres_donjon.tsv', ('rencontre_donjon',), 'Client : rencontres de donjon (DungeonEncounter.dbc)'),
+    ('enchantements', 'client/enchantements.tsv', ('enchantement',),
+     "Client : noms d'enchantements (SpellItemEnchantment.dbc) : bonus de sertissage, gemmes, enchantements d'objets"),
+    ('sorts_coa', 'client/sorts_coa.tsv', ('sort',),
+     'Client : sorts propres à CoA hors classes (Spell.dbc de CoA, patch-T) : puissance PvE et PvP des objets'),
     ('interface', 'client/interface.tsv', ('chaine_interface',),
      "Client : textes d'interface (GlobalStrings.dbc), écrans d'avant-jeu et jeu ; id = nom de la variable"),
 ]

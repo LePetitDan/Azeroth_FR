@@ -67,6 +67,8 @@ DBCS = {
     'ItemRandomSuffix': [('name', 1)],
     'MailTemplate': [('subject', 1), ('body', 18)],
     'DungeonEncounter': [('name', 5)],
+    # add-on 0.3 : noms d'enchantements (bonus de sertissage, gemmes, enchantements : « +5 Attack Power »)
+    'SpellItemEnchantment': [('name', 14)],
 }
 CLE_SPECIALE = {'ItemSubClass': lambda r: '%d-%d' % (r[0], r[1])}      # pas d'identifiant propre : classe-sous-classe
 ARCHIVES_COA = ['patch-T', 'patch-S', 'patch-M', 'patch-B']             # ordre de priorité (la première gagne)

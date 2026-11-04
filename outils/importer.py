@@ -608,6 +608,44 @@ class Importeur:
             self.cr['client_sorts_standard_' + l[K.I_ETAT]] += 1
         K.journal('import : sorts standard terminés')
 
+    # ------------------------------------------------------------------
+    # Add-on 0.3 : sorts propres a CoA qui portent la puissance PvE / PvP des objets
+    # ------------------------------------------------------------------
+    RX_PUISSANCE_NOM = re.compile(r'^(PvE|PvP) Power \(\+(\d+)\)$')
+    RX_PUISSANCE_TXT = re.compile(r'^Increases (PvE|PvP) Power by (\d+)\.$')
+
+    def importer_sorts_coa_puissance(self):
+        """Sorts 101600-101799 du Spell.dbc de CoA (patch-T) : « PvE Power (+N) », « Increases PvE Power by N. ».
+        Ce sont les lignes « Increases PvE Power by 38. » des infobulles d'objets. Français sur le modèle officiel des
+        statistiques d'objets (« Augmente la puissance d'attaque de %d. », ITEM_MOD_ATTACK_POWER) ; PvE et PvP restent
+        tels quels (glossaire) : « Augmente la puissance PvE de N. ». État machine, source « modele » (comme « Rang N »)."""
+        ids_b = {i for (i, _) in self.off_sorts}
+        n = 0
+        for (i, champ), en in sorted(self.coa_sorts.items(), key=lambda x: (int(x[0][0]), x[0][1])):
+            if i in ids_b or i in self.ids_sorts_classes or champ not in ('Name', 'Description', 'ToolTip'):
+                continue
+            m = (self.RX_PUISSANCE_NOM if champ == 'Name' else self.RX_PUISSANCE_TXT).match(en)
+            if not m:
+                continue
+            quoi, nombre = m.groups()
+            if champ == 'Name':
+                fr = 'Puissance %s (+%s)' % (quoi, nombre)
+                modele = 'nom sur le modèle de PVE_POWER_LABEL / PVP_POWER_LABEL (« Puissance PvE »)'
+            else:
+                fr = 'Augmente la puissance %s de %s.' % (quoi, nombre)
+                modele = ('modèle officiel des statistiques d\'objets « Augmente la puissance d\'attaque de %d. » '
+                          '(ITEM_MOD_ATTACK_POWER) ; PvE/PvP gardés (glossaire)')
+            l = ['sort', i, '', champ, en, K.empreinte(en), fr, 'machine', 'modele',
+                 joindre('Spell.dbc de CoA (patch-T) ; sort propre à CoA (puissance %s des objets)' % quoi, modele)]
+            refus = self.controle(en, fr, 'machine', 'sort')
+            if refus:
+                l[K.I_ETAT] = 'a_revoir'
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], 'refusé au contrôle : ' + ', '.join(refus))
+            self.ajouter(l, 'sorts_coa')
+            self.cr['client_sorts_coa_puissance_' + l[K.I_ETAT]] += 1
+            n += 1
+        K.journal('import : sorts CoA de puissance PvE/PvP : %d textes' % n)
+
     def importer_client(self):
         self.zones_exil = {}
         self.charger_francais_client()
@@ -703,6 +741,7 @@ class Importeur:
         'SkillLine': ('competence', 'competences'), 'ItemSet': ('ensemble_objets_client', 'ensembles_objets_client'),
         'ItemRandomSuffix': ('suffixe_objet', 'suffixes_objets'), 'MailTemplate': ('courrier', 'courriers'),
         'DungeonEncounter': ('rencontre_donjon', 'rencontres_donjon'),
+        'SpellItemEnchantment': ('enchantement', 'enchantements'),
     }
     GROUPE_LIEU = ('AreaTable', 'WMOAreaTable', 'AreaPOI', 'Map', 'TaxiNodes')
     TECHNIQUE_DBC = re.compile(r'\b(?:DND|NYI|UNUSED|TEST|QA|DEBUG)\b|^zz|\[PH\]|\bunused\b', re.I)
@@ -989,7 +1028,7 @@ class Importeur:
             return f
         t = l[K.I_TYPE]
         for fam, _, types, _ in K.FAMILLES:
-            if t in types and fam not in ('sorts_classes', 'talents', 'sorts_standard'):
+            if t in types and fam not in ('sorts_classes', 'talents', 'sorts_standard', 'sorts_coa'):
                 return fam
         raise SystemExit('ERREUR : type sans famille : %s' % t)
 
@@ -1045,6 +1084,7 @@ def main():
     imp.verifier_quetes()
     imp.importer_client()
     imp.importer_sorts_standard()
+    imp.importer_sorts_coa_puissance()
     imp.importer_dbc()
     imp.importer_interface()
     imp.appliquer_vocabulaire()

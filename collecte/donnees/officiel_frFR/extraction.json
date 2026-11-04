@@ -127,6 +127,15 @@
    "textes_enUS": 103075,
    "textes_frFR": 103074
   },
+  "dbc:SpellItemEnchantment": {
+   "archive_coa": "patch-S",
+   "enregistrements_coa": 18035,
+   "enregistrements_enUS": 2656,
+   "enregistrements_frFR": 2656,
+   "textes_coa": 13790,
+   "textes_enUS": 2655,
+   "textes_frFR": 2655
+  },
   "dbc:TaxiNodes": {
    "archive_coa": "patch-M",
    "enregistrements_coa": 401,
@@ -239,6 +248,11 @@
    "octets": 209501336,
    "sha256": "d3dd607291d2d6793f72c7b13537f94fd7748d40a79a326db6a8b4cb2ed41068"
   },
+  "coa/DBFilesClient\\SpellItemEnchantment.dbc": {
+   "archive": "patch-S",
+   "octets": 3056457,
+   "sha256": "da85ddff6cb70b91f295910a6b203d50690a38f2fb0be64edcc561927f07b5b0"
+  },
   "coa/DBFilesClient\\TaxiNodes.dbc": {
    "archive": "patch-M",
    "octets": 51127,
@@ -332,6 +346,12 @@
    "octets": 48967121,
    "sha256": "d5cce1a83550dcfa9eb2f0251dbb11fd24c272534b2b1a9b230924a44d817ab3",
    "xz": 1368624
+  },
+  "enUS/DBFilesClient\\SpellItemEnchantment.dbc": {
+   "archive": "patch-enUS-3",
+   "octets": 451214,
+   "sha256": "6c8e8c7d6bc2030500a0687a2975e7f81eb1dc2a1da6939f7ddc64e55ce964de",
+   "xz": 21572
   },
   "enUS/DBFilesClient\\TaxiNodes.dbc": {
    "archive": "patch-enUS-3",
@@ -440,6 +460,12 @@
    "octets": 49573054,
    "sha256": "8c3d14515b2e4dbd512f50fcb6920de9f599d7a1d10529cfb867141e09aad92d",
    "xz": 1417844
+  },
+  "frFR/DBFilesClient\\SpellItemEnchantment.dbc": {
+   "archive": "patch-frFR-3",
+   "octets": 470705,
+   "sha256": "2794f07cd0eb7a5efb238ea561c7c0a0c8c8ce3309ae1e02505744f49e1a372e",
+   "xz": 22736
   },
   "frFR/DBFilesClient\\TaxiNodes.dbc": {
    "archive": "patch-frFR-3",

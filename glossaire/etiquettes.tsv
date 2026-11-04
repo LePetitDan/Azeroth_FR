@@ -1,0 +1,75 @@
+# Table UNIQUE des étiquettes @…@ des objets (décision 9 de Dan, 04/11/2026). Lue par outils/fabriquer.py
+# (descriptions d'objets) et embarquée dans l'add-on (ligne colorée sous le nom). Fichier lu tel quel.
+# Colonne etiquette_en : le texte entre les @, SANS les codes couleur (ils sont gardés tels quels) ;
+# {N} = un nombre. statut : traduit (décision de Dan), officiel (nom officiel prouvé), anglais (décision :
+# reste en anglais), a_trancher (sans décision : reste en anglais, voir A_TRANCHER.md), technique (n'y touche pas).
+# Une étiquette absente de la table reste en anglais.
+etiquette_en	etiquette_fr	statut	preuve
+Mythic {N}	Mythique {N}	traduit	décision 9 de Dan (04/11/2026)
+Mythic	Mythique	traduit	décision 9 de Dan (04/11/2026)
+Heroic Raid	Raid héroïque	traduit	décision 9 de Dan (04/11/2026)
+Mythic Raid	Raid mythique	traduit	décision 9 de Dan (04/11/2026)
+Heroic Dungeon	Donjon héroïque	traduit	décision 9 de Dan (04/11/2026)
+Mythic Dungeon	Donjon mythique	traduit	décision 9 de Dan (04/11/2026)
+Bloodforged	Forgé par le sang	traduit	décision 9 de Dan (04/11/2026) et décision 1 (majuscule en tête de ligne)
+Heroic Bloodforged	Forgé par le sang héroïque	traduit	décision 9 de Dan (04/11/2026) et décision 1
+Ascended Raid	Raid Ascended	traduit	décision 9 de Dan (04/11/2026) ; Ascended reste en anglais (décision 3)
+Heroic	Héroïque	officiel	ITEM_HEROIC et PLAYER_DIFFICULTY2 : « Heroic » → « Héroïque » (GlobalStrings.lua frFR officiel)
+Worldforged		anglais	décision 2 de Dan : Worldforged reste en anglais
+Ascended {N}		anglais	décision 3 de Dan : Ascended reste en anglais
+QA		technique	marque technique du serveur
+re:{N}:{N}		technique	marque technique du client (enchantement aléatoire)
+s:{N}:{N}		technique	marque technique du client (sort)
+Ascended Molten Core	Cœur du Magma Ascended	officiel	Ascended reste en anglais (décision 3) ; nom officiel prouvé : « Molten Core » → « Cœur du Magma » (zone, textes/client/zones.tsv)
+Heroic Molten Core	Cœur du Magma héroïque	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Molten Core » → « Cœur du Magma » (zone, textes/client/zones.tsv)
+Mythic Molten Core	Cœur du Magma mythique	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Molten Core » → « Cœur du Magma » (zone, textes/client/zones.tsv)
+Ascended Naxxramas	Naxxramas Ascended	officiel	Ascended reste en anglais (décision 3) ; nom officiel prouvé : « Naxxramas » → « Naxxramas » (zone, textes/client/zones.tsv)
+Heroic Naxxramas	Naxxramas héroïque	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Naxxramas » → « Naxxramas » (zone, textes/client/zones.tsv)
+Mythic Naxxramas	Naxxramas mythique	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Naxxramas » → « Naxxramas » (zone, textes/client/zones.tsv)
+Ascended Blackwing Lair	Repaire de l'Aile noire Ascended	officiel	Ascended reste en anglais (décision 3) ; nom officiel prouvé : « Blackwing Lair » → « Repaire de l'Aile noire » (zone, textes/client/zones.tsv)
+Heroic Blackwing Lair	Repaire de l'Aile noire héroïque	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Blackwing Lair » → « Repaire de l'Aile noire » (zone, textes/client/zones.tsv)
+Mythic Blackwing Lair	Repaire de l'Aile noire mythique	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Blackwing Lair » → « Repaire de l'Aile noire » (zone, textes/client/zones.tsv)
+Ascended Zul'Gurub	Zul'Gurub Ascended	officiel	Ascended reste en anglais (décision 3) ; nom officiel prouvé : « Zul'Gurub » → « Zul'Gurub » (zone, textes/client/zones.tsv)
+Heroic Zul'Gurub	Zul'Gurub héroïque	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Zul'Gurub » → « Zul'Gurub » (zone, textes/client/zones.tsv)
+Mythic Zul'Gurub	Zul'Gurub mythique	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Zul'Gurub » → « Zul'Gurub » (zone, textes/client/zones.tsv)
+Ascended Ruins of Ahn'Qiraj	Ruines d'Ahn'Qiraj Ascended	officiel	Ascended reste en anglais (décision 3) ; nom officiel prouvé : « Ruins of Ahn'Qiraj » → « Ruines d'Ahn'Qiraj » (zone, textes/client/zones.tsv)
+Heroic Ruins of Ahn'Qiraj	Ruines d'Ahn'Qiraj héroïques	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Ruins of Ahn'Qiraj » → « Ruines d'Ahn'Qiraj » (zone, textes/client/zones.tsv)
+Mythic Ruins of Ahn'Qiraj	Ruines d'Ahn'Qiraj mythiques	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Ruins of Ahn'Qiraj » → « Ruines d'Ahn'Qiraj » (zone, textes/client/zones.tsv)
+Ascended Onyxia	Onyxia Ascended	officiel	Ascended reste en anglais (décision 3) ; nom officiel prouvé : « Onyxia » → « Onyxia » (rencontre_donjon, textes/client/rencontres_donjon.tsv)
+Heroic Onyxia	Onyxia héroïque	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Onyxia » → « Onyxia » (rencontre_donjon, textes/client/rencontres_donjon.tsv)
+Mythic Onyxia	Onyxia mythique	officiel	décision 9 de Dan (04/11/2026) ; nom officiel prouvé : « Onyxia » → « Onyxia » (rencontre_donjon, textes/client/rencontres_donjon.tsv)
+Mythic Dungeon: The Culling of Stratholme	Donjon mythique : L'Épuration de Stratholme	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « The Culling of Stratholme » → « L'Épuration de Stratholme » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Utgarde Pinnacle	Donjon mythique : Cime d'Utgarde	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Utgarde Pinnacle » → « Cime d'Utgarde » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Halls of Lightning	Donjon mythique : Les salles de Foudre	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Halls of Lightning » → « Les salles de Foudre » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Gundrak	Donjon mythique : Gundrak	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Gundrak » → « Gundrak » (zone, textes/client/zones.tsv)
+Mythic Dungeon: The Nexus	Donjon mythique : Le Nexus	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « The Nexus » → « Le Nexus » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Drak'Tharon Keep	Donjon mythique : Donjon de Drak'Tharon	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Drak'Tharon Keep » → « Donjon de Drak'Tharon » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Halls of Stone	Donjon mythique : Les salles de Pierre	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Halls of Stone » → « Les salles de Pierre » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Gundrak	Donjon héroïque : Gundrak	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Gundrak » → « Gundrak » (zone, textes/client/zones.tsv)
+Heroic Dungeon: The Violet Hold	Donjon héroïque : Le fort Pourpre	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « The Violet Hold » → « Le fort Pourpre » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Utgarde Keep	Donjon mythique : Donjon d'Utgarde	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Utgarde Keep » → « Donjon d'Utgarde » (zone, textes/client/zones.tsv)
+Mythic Dungeon: Azjol-Nerub	Donjon mythique : Azjol-Nérub	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « Azjol-Nerub » → « Azjol-Nérub » (zone, textes/client/zones.tsv)
+Heroic Dungeon: The Nexus	Donjon héroïque : Le Nexus	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « The Nexus » → « Le Nexus » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Utgarde Pinnacle	Donjon héroïque : Cime d'Utgarde	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Utgarde Pinnacle » → « Cime d'Utgarde » (zone, textes/client/zones.tsv)
+Mythic Dungeon: The Oculus	Donjon mythique : L'Oculus	officiel	décision 9 de Dan (04/11/2026) (« Mythic Dungeon ») ; nom officiel prouvé : « The Oculus » → « L'Oculus » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Halls of Stone	Donjon héroïque : Les salles de Pierre	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Halls of Stone » → « Les salles de Pierre » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Drak'Tharon Keep	Donjon héroïque : Donjon de Drak'Tharon	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Drak'Tharon Keep » → « Donjon de Drak'Tharon » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Halls of Lightning	Donjon héroïque : Les salles de Foudre	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Halls of Lightning » → « Les salles de Foudre » (zone, textes/client/zones.tsv)
+Heroic Dungeon: The Culling of Stratholme	Donjon héroïque : L'Épuration de Stratholme	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « The Culling of Stratholme » → « L'Épuration de Stratholme » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Utgarde Keep	Donjon héroïque : Donjon d'Utgarde	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Utgarde Keep » → « Donjon d'Utgarde » (zone, textes/client/zones.tsv)
+Heroic Dungeon: The Oculus	Donjon héroïque : L'Oculus	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « The Oculus » → « L'Oculus » (zone, textes/client/zones.tsv)
+Heroic Dungeon: Azjol-Nerub	Donjon héroïque : Azjol-Nérub	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Azjol-Nerub » → « Azjol-Nérub » (zone, textes/client/zones.tsv)
+Fabled		a_trancher	terme sans décision, reste en anglais ; proposition : Légendaire ? (à ne pas confondre avec la qualité « Légendaire » officielle) ou « Fabuleux »
+Superior		a_trancher	terme sans décision, reste en anglais ; proposition : « Supérieur » (qualité « Supérieure » officielle pour les objets bleus)
+Refined		a_trancher	terme sans décision, reste en anglais ; proposition : « Raffiné »
+Masterwork		a_trancher	terme sans décision, reste en anglais ; proposition : « Chef-d'œuvre »
+Prestigious		a_trancher	terme sans décision, reste en anglais ; proposition : « Prestigieux »
+Sanguine		a_trancher	terme sans décision, reste en anglais ; proposition : « Sanguin »
+Tier {N}		a_trancher	terme sans décision, reste en anglais ; proposition : « Palier {N} » (Blizzard dit « Tier » dans ses textes de raid : à décider)
+Raid: Naxxramas - {N} Player		a_trancher	terme sans décision, reste en anglais ; proposition : « Raid : Naxxramas - {N} joueurs » (RAID_DIFFICULTY : « 10 joueurs », « 25 joueurs » officiels)
+Heroic World Boss		a_trancher	terme sans décision, reste en anglais ; proposition : « Boss mondial héroïque »
+Ascended Temple of Ahn'Qiraj		a_trancher	nom de lieu sans anglais officiel identique (« Temple of Ahn'Qiraj ») : reste en anglais
+Heroic Temple of Ahn'Qiraj		a_trancher	nom de lieu sans anglais officiel identique (« Temple of Ahn'Qiraj ») : reste en anglais
+Mythic Temple of Ahn'Qiraj		a_trancher	nom de lieu sans anglais officiel identique (« Temple of Ahn'Qiraj ») : reste en anglais
+Mythic Dungeon: Ahn'kahet, the Old Kingdom		a_trancher	nom de lieu sans anglais officiel identique (« Ahn'kahet, the Old Kingdom ») : reste en anglais
+Heroic Dungeon: Ahn'kahet, the Old Kingdom		a_trancher	nom de lieu sans anglais officiel identique (« Ahn'kahet, the Old Kingdom ») : reste en anglais
