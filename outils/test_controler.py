@@ -15,6 +15,7 @@ if ICI not in sys.path:
     sys.path.insert(0, ICI)
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
+import modele_officiel as MO  # noqa: E402
 import quetes_cata as Q  # noqa: E402
 
 # (anglais, francais propose, raison attendue)  -- FAUX CAS : doivent etre refuses
@@ -208,6 +209,64 @@ def tester_quetes():
     return bons == len(QUETES_FAUSSES) and passes == len(QUETES_BONNES)
 
 
+# Donnees 0.4 : decision n° 14 de Dan (04/11/2026), modele officiel des enchantements propres a CoA. Les modeles sont
+# appris de ces paires officielles (comme les lignes officielles de textes/client/enchantements.tsv).
+OFFICIELS_ENCHANTEMENTS = [
+    ("+10 Attack Power", "+10 à la puissance d'attaque"), ("+20 Attack Power", "+20 à la puissance d'attaque"),
+    ("+7 Strength", "+7 Force"), ("+12 Strength", "+12 Force"), ("+1 Strength", "+1 Force"),
+    ("+9 Stamina", "+9 Endurance"), ("+5 Agility and +6 Stamina", "+5 Agilité et +6 Endurance"),
+    ("+3 Agility and +4 Stamina", "+3 Agilité et +4 Endurance"), ("+4 Agility", "+4 Agilité"),
+    ("+4 Mana every 5 seconds", "+4 points de mana toutes les 5 secondes"),
+    ("+12 Hit Rating", "+12 au score de toucher"), ("+15 Hit Rating", "+15 aux score de toucher"),   # deux francais
+]
+# (anglais CoA, francais propose, raison attendue) -- FAUX CAS : doivent etre refuses
+FAUX_MODELE = [
+    ("+5 Attack Power", "+6 à la puissance d'attaque", 'modele_officiel:different_du_modele'),     # nombre change
+    ("+5 Attack Power", "+5 de pouvoir d'attaque", 'modele_officiel:different_du_modele'),         # francais invente
+    ("+5 Arcane Bananas", "+5 aux bananes des arcanes", 'modele_officiel:sans_modele'),            # gabarit invente
+    ("+8 Hit Rating", "+8 au score de toucher", 'modele_officiel:ambigu'),                         # deux francais officiels
+    ("+1 Mana every 5 seconds", "+1 points de mana toutes les 5 secondes",
+     'modele_officiel:accord_non_prouve'),                                                          # « 1 points » : accord
+    ("+2.5 Strength", "+2.5 Force", 'modele_officiel:nombre_decimal'),                              # separateur non prouve
+    ("+5 Agility and +6 Spirit", "+5 Agilité et +6 Esprit", 'modele_officiel:partie:sans_modele'),  # une partie sans modele
+    ("|cffabf1bc+8 Strength\r\n+9 Stamina|r", "|cffabf1bc+8 Force +9 Endurance|r",
+     'modele_officiel:different_du_modele'),                                                        # retour a la ligne perdu
+]
+VRAIS_MODELE = [
+    ("+5 Attack Power", "+5 à la puissance d'attaque"),
+    ("+1 Attack Power", "+1 à la puissance d'attaque"),                 # accord absent mais rien ne s'accorde
+    ("+3 Mana every 5 seconds", "+3 points de mana toutes les 5 secondes"),
+    ("+8 Strength and +9 Stamina", "+8 Force et +9 Endurance"),         # deux modeles, liant « and » -> « et » atteste
+    ("|cffabf1bc+8 Strength\r\n+9 Stamina\r\n+2 Agility|r", "|cffabf1bc+8 Force\r\n+9 Endurance\r\n+2 Agilité|r"),
+    ("+4 Strength\r\n+5 Attack Power|r", "+4 Force\r\n+5 à la puissance d'attaque|r"),
+]
+
+
+def tester_modele_officiel(regles, noms):
+    mo = MO.Modeles()
+    for en, fr in OFFICIELS_ENCHANTEMENTS:
+        mo.apprendre(en, fr)
+    mo.finir()
+    bons = 0
+    for en, fr, attendu in FAUX_MODELE:
+        r = mo.controle(en, fr) + C.controle(en, fr, 'machine', regles, noms, 'enchantement')
+        vu = attendu in r
+        bons += vu
+        print('%s  faux cas du modèle officiel refusé : %-40s -> %s' % ('OK' if vu else 'KO', attendu, ', '.join(r) or 'ACCEPTÉ !'))
+    passes = 0
+    for en, fr in VRAIS_MODELE:
+        r = mo.controle(en, fr) + C.controle(en, fr, 'machine', regles, noms, 'enchantement')
+        passes += not r
+        vu_fr = fr.replace('\r', '\\r').replace('\n', '\\n')
+        print('%s  vrai cas du modèle officiel accepté : %s' % ('OK' if not r else 'KO', vu_fr if not r else '%s -> %s' % (vu_fr, r)))
+    # le controle general voit aussi le nombre change, sans le modele
+    nb = 'nombres' in C.controle("+5 Attack Power", "+6 à la puissance d'attaque", 'machine', regles, noms, 'enchantement')
+    print('%s  nombre changé vu aussi par le contrôle général' % ('OK' if nb else 'KO'))
+    print('Modèle officiel : faux cas refusés %d/%d ; vrais cas acceptés %d/%d'
+          % (bons, len(FAUX_MODELE), passes, len(VRAIS_MODELE)))
+    return bons == len(FAUX_MODELE) and passes == len(VRAIS_MODELE) and nb
+
+
 def tester_format():
     """Echappement reversible, lecture/ecriture, detection d'une empreinte fausse et d'une cle en double."""
     ok = True
@@ -264,8 +323,9 @@ def main():
     fmt = tester_format()
     inter = tester_interface(regles, noms)
     quetes = tester_quetes()
+    modele = tester_modele_officiel(regles, noms)
     print('\nFaux cas refusés : %d/%d ; vrais cas acceptés : %d/%d' % (bons, len(FAUX), passes, len(VRAIS)))
-    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter and quetes
+    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter and quetes and modele
     print('RÉSULTAT : %s' % ('conforme' if tout else 'NON CONFORME'))
     return 0 if tout else 1
 

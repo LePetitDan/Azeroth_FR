@@ -24,6 +24,8 @@ Ce que fait l'import, dans l'ordre :
    sur les lignes `machine` ; une correction n'est gardee que si le controle passe ensuite.
 5. Controle d'entree (outils/controle.py) : une ligne `machine` qui echoue passe `a_revoir`
    avec la raison dans `note` (son francais reste dans `fr` comme proposition).
+5 bis. Noms d'enchantements propres a CoA (decision n° 14 de Dan, 04/11/2026) : francais du modele officiel de
+   Blizzard, au nombre pres, regles strictes de outils/modele_officiel.py (etat machine, source modele_officiel).
 6. Ecrit un fichier TSV par famille (objets decoupes par tranches fixes), verifie qu'aucun
    fichier ne depasse 45 Mo, et ecrit le resume dans work/etape1/import_resume.json.
 
@@ -46,6 +48,7 @@ import controle as C  # noqa: E402
 import officiel as O  # noqa: E402
 import vocabulaire as V  # noqa: E402
 import quetes_cata as Q  # noqa: E402
+import modele_officiel as MO  # noqa: E402
 
 csv.field_size_limit(1 << 30)
 D = K.COLLECTE
@@ -1000,6 +1003,46 @@ class Importeur:
         K.journal('import : corrections et contrôle %s' % dict(cpt))
 
     # ------------------------------------------------------------------
+    # Donnees 0.4 : enchantements propres a CoA, modele officiel (decision n° 14 de Dan, 04/11/2026)
+    # ------------------------------------------------------------------
+    def importer_enchantements_modele(self):
+        """Noms d'enchantements CoA sans francais officiel (`a_traduire`) : francais du modele officiel de Blizzard pris
+        sur les noms officiels de meme forme, au nombre pres (regles strictes : outils/modele_officiel.py). Fait APRES
+        les corrections du glossaire (rien ne retouche ce francais) ; le controle d'entree passe quand meme. Etat
+        machine, source modele_officiel, gabarits en note."""
+        mo = MO.Modeles()
+        ench = sorted((l for l in self.lignes.values() if l[K.I_TYPE] == 'enchantement'), key=tri)
+        for l in ench:
+            if l[K.I_ETAT] == 'officiel':
+                mo.apprendre(l[K.I_EN], l[K.I_FR])
+        mo.finir()
+        self.cr.update({'enchantement_modele:' + k: v for k, v in mo.cr.items()})
+        if ' and ' in mo.liant:
+            fr_li, n, total = mo.liant[' and ']
+            self.cr['enchantement_modele:liant_and_atteste'] = n
+        for l in ench:
+            if l[K.I_ETAT] != 'a_traduire':
+                continue
+            fr, info = mo.traduire(l[K.I_EN])
+            if fr is None:
+                self.cr['enchantement_modele_reste_anglais:' + info] += 1
+                continue
+            note = 'modèle officiel (décision n° 14 de Dan, 04/11/2026) : ' + ' ; '.join(info)
+            refus = self.controle(l[K.I_EN], fr, 'machine', l[K.I_TYPE]) + mo.controle(l[K.I_EN], fr)
+            if refus:
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'a_revoir', MO.SOURCE
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], note, 'refusé au contrôle d\'entrée : ' + ', '.join(refus))
+                self.cr['enchantement_modele_refuse_controle'] += 1
+                self.ex('enchantement_modele_refuse', l)
+                continue
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'machine', MO.SOURCE
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], note)
+            self.cr['enchantement_modele_machine:' + ('plusieurs_lignes' if MO.SAUTS.search(l[K.I_EN]) else 'une_ligne')] += 1
+            self.ex('enchantement_modele_machine', l, 10)
+        K.journal('import : enchantements CoA par le modèle officiel %s'
+                  % {k: v for k, v in sorted(self.cr.items()) if k.startswith('enchantement_modele')})
+
+    # ------------------------------------------------------------------
     # 1 bis. Fusion avec les lignes relues
     # ------------------------------------------------------------------
     def fusionner_relus(self):
@@ -1089,6 +1132,7 @@ def main():
     imp.importer_interface()
     imp.appliquer_vocabulaire()
     imp.corriger_et_controler()
+    imp.importer_enchantements_modele()
     imp.fusionner_relus()
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)

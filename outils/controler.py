@@ -14,6 +14,9 @@ Il ne corrige RIEN : il lit, compare chaque francais a son anglais et ecrit un r
    empreinte = hachage de l'anglais, ligne a_traduire/technique sans francais.
 2. Contenu (outils/controle.py) : variables, codes couleur/liens/icones/marqueurs, retours a la
    ligne, nombres, bouche-trous, anglais reste, glossaire tranche, noms propres officiels.
+3. Lignes `machine` de source `modele_officiel` (enchantements CoA, decision n° 14 de Dan) : le francais doit etre
+   exactement celui du modele officiel, reappris des lignes officielles de textes/client/enchantements.tsv
+   (outils/modele_officiel.py) ; sinon BLOQUANT.
 
 Lecture du verdict :
 - BLOQUANT : erreur de format, ou refus sur une ligne officiel/machine/relu SANS officiel
@@ -31,13 +34,15 @@ if ICI not in sys.path:
     sys.path.insert(0, ICI)
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
+import modele_officiel as MO  # noqa: E402
 
-SOURCES_CONNUES = {'', 'blizzard_frFR', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire'}
+SOURCES_CONNUES = {'', 'blizzard_frFR', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire',
+                   MO.SOURCE}
 
 
 def raison_courte(r):
     """Regroupe les refus pour le rapport : « glossaire:<regle> » garde sa regle, « nom_officiel:… » est regroupe."""
-    return r.split(':')[0] + (':' + r.split(':', 1)[1] if r.startswith(('glossaire:', 'interface:')) else '')
+    return r.split(':')[0] + (':' + r.split(':', 1)[1] if r.startswith(('glossaire:', 'interface:', 'modele_officiel:')) else '')
 
 
 def verifier_format(chemin, lignes, erreurs, vues, fmt, exemples):
@@ -84,7 +89,12 @@ def main():
     K.charger_lexique()
     regles = C.charger_regles()
     noms = C.charger_noms()
-    K.journal('controle : %d fichiers, %d règles, %d noms officiels contrôlés' % (len(fichiers), len(regles), noms.n))
+    # decision n° 14 (donnees 0.4) : une ligne machine « modele_officiel » doit etre exactement le modele officiel,
+    # reappris ici des lignes officielles de textes/client/enchantements.tsv
+    p_ench = os.path.join(K.TEXTES, 'client', 'enchantements.tsv')
+    modeles = MO.charger(p_ench) if os.path.exists(p_ench) else MO.Modeles()
+    K.journal('controle : %d fichiers, %d règles, %d noms officiels contrôlés, %d gabarits d\'enchantements officiels'
+              % (len(fichiers), len(regles), noms.n, len(modeles.table)))
 
     vues, fmt = {}, Counter()
     exemples = defaultdict(list)
@@ -106,6 +116,8 @@ def main():
                 if not l[K.I_FR] and etat not in K.ETATS_AFFICHES:
                     continue
                 refus = C.controle(l[K.I_EN], l[K.I_FR], etat, regles, noms, l[K.I_TYPE])
+                if l[K.I_SRC] == MO.SOURCE and etat == 'machine':
+                    refus += modeles.controle(l[K.I_EN], l[K.I_FR])
                 if not refus:
                     continue
                 niveau = 'SIGNALE' if etat == 'officiel' else ('BLOQUANT' if etat in K.ETATS_AFFICHES else 'INFO')
