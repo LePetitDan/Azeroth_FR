@@ -14,5 +14,11 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 | 6 | Call Board | **tableau d'appel** (« Tableau d'appel » en début de phrase) | Tableau des appels | La forme de l'archive |
 | 7 | Classes Guardian, Ranger, Cultist | **Gardien, Rôdeur, Cultiste** | Gardien, Forestier, Sectateur | Les formes proches de l'ancien projet, et non celles de Blizzard. « Rôdeur » existe aussi dans des noms de créatures officiels (*Prowler*) : ne pas confondre dans les contrôles |
 | 8 | Préfixes d'objets | **formes en usage validées** | idem | « Parchemin mystique : X », « Carte de compétence - X » (dorée, chanceuse), « Tome du paladin Sacré : X » (spécialisations officielles), « Sifflet du maître des bêtes : X », « Cor de guerre draconique : X », « Enchantement aléatoire : X », « Incarnation : X », « Pierre de retraite : X », « Vélin imbibé de sang : X », « Magnétite élémentaire : X » ; 1 459 lignes remplies |
-| 9 | Étiquettes `@…@` | **décider après un test en jeu** | idem | Le premier add-on en traduit 3 ; Dan regarde |
+| 9 | Étiquettes `@…@` | **traduire** (décidé le 04/11/2026 après l'essai 2 : le jeu les affiche sur une ligne à part, en couleur, sous le nom, sans les `@`) | traduire | « Mythique 5 », « Raid héroïque », « Forgé par le sang », « Donjon mythique »… ; Worldforged et Ascended restent en anglais (points 2 et 3) ; noms de raids et de donjons sous leur nom officiel ; un terme nouveau sans décision (Fabled, Superior, Refined, Masterwork, Prestigious, Tier…) reste en anglais et part dans `A_TRANCHER.md` |
 | 10 | Talent Essence | **Essence de talent** | idem | 1 ligne |
+
+## Ajouts du 04/11/2026
+
+| # | Anglais | Décision de Dan | Ce que ça implique |
+|---|---|---|---|
+| 11 | *Trial*, *Trials* (fenêtre des épreuves de CoA : Hardcore, Adventure Mode…) | **Épreuve** partout | « Épreuves », « Architecte d'épreuves », « Créateur d'épreuves ». Ne concerne pas les textes officiels de Blizzard sur le *compte d'essai* (*trial account*) |

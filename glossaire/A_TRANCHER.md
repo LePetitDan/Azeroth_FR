@@ -1,6 +1,6 @@
 # À trancher par Dan
 
-> **Tranché par Dan le 03/11/2026** : voir `glossaire/DECISIONS_VOCABULAIRE.md`. Seule la question 9 (étiquettes) attend encore un test en jeu.
+> **Tranché par Dan le 03/11/2026** : voir `glossaire/DECISIONS_VOCABULAIRE.md`. La question 9 (étiquettes) est tranchée le 04/11/2026 après l'essai 2 : **traduire**.
 
 
 *03/11/2026. Termes propres à CoA sans décision. Rien de tout ça n'est appliqué tant que Dan n'a pas

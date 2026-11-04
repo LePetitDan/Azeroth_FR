@@ -4,6 +4,9 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 04/11/2026 | Vocabulaire, point 11 : *Trial* (épreuves de CoA) = « Épreuve » partout : « Épreuves », « Architecte d'épreuves », « Créateur d'épreuves » | Décision de Dan ; le *compte d'essai* officiel de Blizzard n'est pas concerné |
+| 04/11/2026 | Vocabulaire, point 9 : étiquettes `@…@` **traduites** (« Mythique 5 », « Raid héroïque », « Forgé par le sang »…) ; Worldforged et Ascended restent en anglais ; termes nouveaux sans décision laissés en anglais et ajoutés à `A_TRANCHER.md` | Décision de Dan après l'essai 2 : le jeu affiche l'étiquette sur une ligne à part, en couleur, sans les `@` |
+| 04/11/2026 | Infobulles : « Equip: » affiché « Équipé : » (texte de la ligne, en dernier, sans toucher à la clé d'interface) ; « Sell Price » relu en « Prix de vente » | Exigence de Dan sur l'interface ; la clé `ITEM_SPELL_TRIGGER_ONEQUIP` reste `technique` dans `PTRXML` |
 | 03/11/2026 | Essai 2 (add-on 0.2.0) installé dans `D:\Wow_Core` à la place de l'essai 1 | Accord de Dan ; essai 1 retiré, aucun autre fichier du jeu touché |
 | 03/11/2026 | Données 0.2 : le contrôle accepte, sur une ligne **officielle** (hors interface), les écarts de mise en forme d'un texte correspondant ($B, retours à la ligne, espaces) et un officiel identique à l'anglais ; nombres, `$n`/`$c`/`$r`, `$g` retiré restent bloqués | Question ouverte de l'étape 2 : 5 950 lignes officielles laissées en anglais par l'add-on, 1 672 après |
 | 03/11/2026 | Données 0.2 : un texte de quête « officiel » qui traduit un autre texte (Cataclysm) ou qui n'est pas du français passe `a_revoir`, la raison en note (`outils/quetes_cata.py`) ; remplacé par TDB seulement si TDB a un autre français pour le même anglais et qu'il passe le contrôle | Essai 1 : quête 783 ; 1 403 lignes repérées |
