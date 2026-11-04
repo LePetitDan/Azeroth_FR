@@ -19,6 +19,8 @@ Refus possibles (une ligne peut en cumuler plusieurs) :
 - reste_en_anglais        : francais identique a l'anglais alors que l'anglais est une phrase
 - majoritairement_anglais : francais surtout compose de mots anglais
 - trop_court              : francais beaucoup plus court (mauvais appariement probable)
+- nombre_seul             : (add-on 0.4) francais reduit a un nombre (« 1 ») alors que l'anglais contient des mots
+                            (« Adventurer Mode Level: 1 ») : 173 noms de hauts faits machine de la release 3.5.1
 - mot_a_mot               : « Sacré Tome », « Ombre X »…
 - glossaire:<regle>       : terme tranche non respecte (glossaire/regles_controle.tsv)
 - nom_officiel:<en>→<fr>  : nom propre officiel reste en anglais (glossaire/noms_officiels.tsv)
@@ -148,6 +150,12 @@ REPONSE_IA = re.compile(
 INVISIBLES = re.compile('[\u200b\u200c\u200d\u2060\ufeff]')
 
 
+# Add-on 0.4 : un francais qui n'est qu'un nombre (avec ponctuation) alors que l'anglais a des mots.
+NOMBRE_SEUL = re.compile(r'[\s\d.,:;+\-%/()#x\u00d7]*\d[\s\d.,:;+\-%/()#x\u00d7]*')
+MOT_EN = re.compile(r'[A-Za-z]{2,}')
+_COUL_NU = re.compile(r'\|c[0-9A-Fa-f]{8}|\|r')
+
+
 def controle_structure(en, fr, souple=False):
     """Controles qui ne dependent pas du glossaire. en, fr : textes bruts.
 
@@ -199,6 +207,8 @@ def controle_structure(en, fr, souple=False):
         r.append('mot_a_mot')
     if len(en_n) > 60 and len(fr_n) < 0.45 * len(en_n):
         r.append('trop_court')
+    if NOMBRE_SEUL.fullmatch(_COUL_NU.sub('', fr_n).strip()) and MOT_EN.search(_COUL_NU.sub('', en_n)):
+        r.append('nombre_seul')
     return r
 
 

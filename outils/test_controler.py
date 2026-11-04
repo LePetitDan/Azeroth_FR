@@ -71,6 +71,15 @@ FAUX = [
     # Add-on 0.3 : decision n° 11 de Dan (04/11/2026), Trial = Epreuve
     ("Trial Architect", "Architecte d'essai", 'glossaire:Trial→Épreuve (pas essai)'),
     ("Trial not found.", "Essai introuvable.", 'glossaire:Trial→Épreuve (pas essai)'),
+    # Add-on 0.4 : francais reduit a un nombre (173 hauts faits machine de la release 3.5.1)
+    ("Adventurer Mode Level: 1", "1", 'nombre_seul'),
+    ("Realm First! Adventurer Mode Level: 12", "12", 'nombre_seul'),
+    ("|cff00ff00Raid Trial - Naxxramas level: 3|r", "|cff00ff003|r", 'nombre_seul'),
+    # Add-on 0.4 : decisions n° 15 et 16 de Dan (04/11/2026)
+    ("Woodworking Gloves", "Gants de travail du bois", 'glossaire:Woodworking→Menuiserie'),
+    ("Woodcutting Trainer", "Formateur en coupe de bois", 'glossaire:Woodcutting→Bûcheronnage'),
+    ("Woodcutting Expert", "Expert en abattage de bois", 'glossaire:Woodcutting→Bûcheronnage'),
+    ("Woodcutting", "Coupe du bois", 'glossaire:Woodcutting→Bûcheronnage'),
 ]
 
 # VRAIS CAS : doivent passer
@@ -102,6 +111,12 @@ VRAIS = [
     ("Trial Architect", "Architecte d'épreuves"),
     ("Trial accounts cannot yell.", "Les comptes d'essai ne peuvent pas crier."),            # compte d'essai : pas concerne
     ("He waits for a trial.", "Il attend son procès."),                                      # proces (justice) : pas concerne
+    # Add-on 0.4
+    ("15", "15"),                                                                            # nombre seul des deux cotes
+    ("Level 12", "Niveau 12"),
+    ("Woodworking Gloves", "Gants de menuiserie"),
+    ("Woodcutting Trainer", "Formateur en bûcheronnage"),
+    ("Skeletal Woodcutter", "Bûcheron squelettique"),                                        # le bucheron (creature) : pas le metier
 ]
 
 

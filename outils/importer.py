@@ -65,6 +65,18 @@ CLASSES_COA = {  # glossaire herite, section « Classes et specialisations »
     # décision de vocabulaire n° 7 de Dan (03/11/2026) : les formes de l'ancien projet, pas celles de Blizzard
     'Guardian': 'Gardien', 'Ranger': 'Rôdeur', 'Cultist': 'Cultiste',
 }
+# Decision de vocabulaire n° 17 de Dan (04/11/2026) : classes CoA accordees au feminin, comme Blizzard (Guerriere,
+# Chasseresse). Invariables : Barbare, Gangrelige, Porte-tempete, Mage de sang, Cultiste, Mande-etoiles, Clerc du soleil,
+# Primaliste ; Chevalier de Xoroth reste invariable comme l'officiel « Chevalier de la mort » du client 3.3.5.
+CLASSES_COA_F = {
+    'Hero': 'Héroïne', 'Witch Doctor': 'Féticheuse', 'Witch Hunter': 'Chasseuse de sorcières', 'Guardian': 'Gardienne',
+    'Templar': 'Templière', 'Ranger': 'Rôdeuse', 'Chronomancer': 'Chronomancienne', 'Necromancer': 'Nécromancienne',
+    'Pyromancer': 'Pyromancienne', 'Tinker': 'Bricoleuse', 'Venomancer': 'Vénomancienne', 'Reaper': 'Faucheuse',
+    'Runemaster': 'Maîtresse des runes',
+    'Barbarian': 'Barbare', 'Felsworn': 'Gangrelige', 'Stormbringer': 'Porte-tempête', 'Bloodmage': 'Mage de sang',
+    'Cultist': 'Cultiste', 'Starcaller': 'Mande-étoiles', 'Sun Cleric': 'Clerc du soleil', 'Primalist': 'Primaliste',
+    'Knight of Xoroth': 'Chevalier de Xoroth',
+}
 CHAMP_ORDRE = ['LogTitle', 'LogDescription', 'QuestDescription', 'AreaDescription', 'QuestCompletionLog',
                'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4', 'CompletionText', 'RewardText',
                'Greeting', 'name', 'subname', 'castBarCaption', 'description', 'Name', 'NameSubtext', 'Rank',
@@ -718,6 +730,13 @@ class Importeur:
                         l[K.I_NOTE] = joindre(l[K.I_NOTE], 'classe CoA sans décision de glossaire : voir glossaire/A_TRANCHER.md')
                 self.ajouter(l, 'talents')
                 self.cr['client_classes_' + l[K.I_ETAT]] += 1
+                # forme feminine (decision n° 17 de Dan) : seulement si le masculin est affichable
+                ff = CLASSES_COA_F.get(K.norm(r['texte_en']))
+                if ff and r['champ'] == 'name' and l[K.I_ETAT] in ('machine', 'relu') and l[K.I_FR]:
+                    self.ajouter([t, r['id'], '', 'name_female', r['texte_en'], K.empreinte(r['texte_en']), ff, 'machine',
+                                  'glossaire', 'forme féminine, décision de vocabulaire n° 17 de Dan (04/11/2026) ; '
+                                  'masculin : ' + l[K.I_FR] + (' (invariable)' if ff == l[K.I_FR] else '')], 'talents')
+                    self.cr['client_classes_feminin_decision17'] += 1
             elif t == 'arbre_talents':
                 l = self.ligne_client(t, r['id'], r['champ'], r['texte_en'], r['technique'], 'base db.exil.es (TalentTab)',
                                       'arbre_nom', 'sort_classe')
