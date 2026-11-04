@@ -6,7 +6,7 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 
 > **Dépôt privé** jusqu'à une version fonctionnelle et testée, puis public.
 
-## État (03/11/2026)
+## État (04/11/2026)
 
 - ✅ **Collecte terminée** : textes du serveur CoA Core, archive AscensionFR, croisement des deux, AscensionDB, site coa-development.org. Voir `docs/`.
 - ✅ **Premier contact avec l'équipe CoA Core** : ils étudient une prise en charge multilingue et accueillent le projet favorablement.
@@ -16,14 +16,16 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 - ✅ **Essai 1 testé en jeu par Dan** (`essais/2026-11-03_essai1/RESULTAT.md`) : dialogues, titres de quête, objets, PNJ en français ; le reste noté.
 - ✅ **Données 0.2** (03/11/2026) : le français **officiel de Blizzard** (`patch-frFR-3.MPQ`, client 3.3.5a frFR) entre dans la source, toujours avec la preuve « même anglais ». Interface 7 739 textes officiels, sorts standard 93 294 (nouvelle famille `sorts_standard`), zones, factions, races, compétences, ensembles, courriers, rencontres 12 150. 157 textes de quête de Cataclysm et 1 243 « traductions » en anglais repérés et passés à revoir. Décisions de vocabulaire 1 à 8 et 10 appliquées. Lignes affichables contrôlées : 1 080 929 → 1 193 916. Rapport : `docs/2026-11-03_Rapport_Donnees-0.2.md`.
 - ✅ **Add-on 0.2.0** (03/11/2026) : quêtes retrouvées par titre et par texte, suivi des objectifs, messages de la discussion, noms (cible, faction, zones, carte), module des sorts (barre, grimoire, infobulles, auras, lignes « Use: »), 11 891 textes d'interface officiels par `PTRXML`, commande `/azfr etiquettes`. Zip 18,2 Mo, banc 106 vérifications sur 106. Rapport : `docs/2026-11-03_Rapport_Addon-0.2.md` ; notice : `docs/ESSAI2_installer.md`.
-- ⏳ **Dan** : tester l'essai 2, installé le 03/11 (10 vérifications, dont les étiquettes et le code `|2`).
+- ✅ **Essai 2 testé en jeu par Dan** (`essais/2026-11-04_essai2/RESULTAT.md`) ; décisions du 04/11 : étiquettes traduites, *Trial* = « Épreuve », « Équipé : » et « Prix de vente : ».
+- ✅ **Add-on 0.3.0** (04/11/2026, branche `addon-0.3`) : branchements audités sur le FrameXML réel du client CoA (minicarte corrigée), titres de quête homonymes, étiquettes traduites par une table unique (`glossaire/etiquettes.tsv`), infobulles d'objets (Équipé, Prix de vente, sous-classes, enchantements officiels, puissance PvE/PvP), rangs des sorts, bulles des PNJ, messages du centre de l'écran. Zip 17,6 Mo, 15 add-ons ; banc 152 vérifications sur 152 ; contrôle 0 bloquant. Rapport : `docs/2026-11-04_Rapport_Addon-0.3.md` ; notice : `docs/ESSAI3_installer.md`.
+- ⏳ **Dan** : installer et tester l'essai 3 (15 vérifications) ; trancher les questions 11 et 12 de `glossaire/A_TRANCHER.md`.
 
 ## Organisation
 
 | Dossier | Contenu |
 |---|---|
 | `docs/` | Synthèse, fiche de reprise, journal des décisions, rapports de collecte |
-| `glossaire/` | `GLOSSAIRE.md` (version CoA), règles contrôlées, corrections sûres, `noms_officiels.tsv`, `A_TRANCHER.md` ; le glossaire hérité d'AscensionFR et ses filtres (`filtres/`) |
+| `glossaire/` | `GLOSSAIRE.md` (version CoA), règles contrôlées, corrections sûres, `noms_officiels.tsv`, `etiquettes.tsv` (table unique des étiquettes `@…@`), `A_TRANCHER.md` ; le glossaire hérité d'AscensionFR et ses filtres (`filtres/`) |
 | `collecte/scripts/` | Scripts de collecte, de croisement et de l'étape 1, relançables |
 | `collecte/donnees/` | Résultats de la collecte, compressés (`.xz`) : instantané du 03/11/2026 |
 | `textes/` | **La source unique** : un fichier TSV par famille (`serveur/`, `client/`), colonnes `type`, `id`, `sous_id`, `champ`, `en`, `en_empreinte`, `fr`, `etat`, `source`, `note` |
@@ -43,11 +45,11 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 | `sh collecte/scripts/officiel_frFR/lancer.sh` | Relit les sources officielles frFR (Blizzard), l'anglais du client CoA et la base TrinityCore (~5 min) |
 | `python3 -I outils/importer.py` | Reconstruit `textes/` depuis `collecte/` (~2 min 30) |
 | `python3 -I outils/controler.py` | Contrôle d'entrée de toute la source, rapport dans `work/etape1/` (~2 min) |
-| `python3 -I outils/test_controler.py` | Vérifie que le contrôle refuse bien ses faux cas (45, + 9 d'interface, + 5 quêtes de Cataclysm) et accepte les vrais |
+| `python3 -I outils/test_controler.py` | Vérifie que le contrôle refuse bien ses faux cas (47, + 11 d'interface, + 5 quêtes de Cataclysm) et accepte les vrais |
 | `python3 -I outils/stats.py` | Avancement par famille et par état |
 | `python3 -I outils/noms_officiels.py` | Reconstruit `glossaire/noms_officiels.tsv` |
 | `python3 -I outils/fabriquer.py` | Fabrique l'add-on et le paquet PTRXML dans `dist/` (~2 min, Lua 5.1 nécessaire pour la vérification) |
-| `python3 -I outils/tester_addon.py` | Banc d'essai hors jeu de l'add-on fabriqué (20 s) |
+| `python3 -I outils/tester_addon.py` | Banc d'essai hors jeu de l'add-on fabriqué (~40 s), résultat dans `work/addon03/` |
 
 ## Principes
 

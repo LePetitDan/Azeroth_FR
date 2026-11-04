@@ -1,6 +1,9 @@
 # À trancher par Dan
 
 > **Tranché par Dan le 03/11/2026** : voir `glossaire/DECISIONS_VOCABULAIRE.md`. La question 9 (étiquettes) est tranchée le 04/11/2026 après l'essai 2 : **traduire**.
+>
+> **Nouvelles questions du 04/11/2026 (add-on 0.3)** : en fin de fichier, « 11. Étiquettes sans décision » et
+> « 12. Enchantements propres à CoA ». En attendant, tout y reste en anglais.
 
 
 *03/11/2026. Termes propres à CoA sans décision. Rien de tout ça n'est appliqué tant que Dan n'a pas
@@ -176,3 +179,48 @@ Une ligne. Son pendant *Ability Essence* est tranché (« Essence d'aptitude »)
 *Après décision : j'ajoute une ligne datée dans `docs/DECISIONS.md`, la règle dans
 `glossaire/regles_controle.tsv` (contrôle) et, si elle est mécanique, dans
 `glossaire/corrections_sures.tsv` ; puis je relance l'import.*
+
+---
+
+## 11. Étiquettes `@…@` sans décision (04/11/2026, add-on 0.3)
+
+Le point 9 est tranché (« traduire »), mais seulement pour les termes décidés ou officiels : la table unique
+`glossaire/etiquettes.tsv` (49 lignes) en traduit 148 différentes (Mythique N, Raid héroïque, Forgé par le sang, noms officiels des raids
+et des donjons…), soit **292 735 lignes d'objets**. Les termes ci-dessous **restent en anglais** tant que tu
+n'as pas tranché. « Lignes » = descriptions d'objets qui portent l'étiquette.
+
+| # | Étiquette (telle qu'elle s'affiche) | Lignes | Proposition |
+|---|---|---:|---|
+| 11a | **Fabled** | 3 840 | « Fabuleux » (éviter « Légendaire », qui est déjà une qualité officielle) |
+| 11b | **Superior** | 1 955 | « Supérieur » (la qualité officielle des objets bleus est « Supérieure ») |
+| 11c | **Refined** | 1 811 | « Raffiné » |
+| 11d | **Masterwork** | 1 725 | « Chef-d'œuvre » |
+| 11e | **Prestigious** (aussi en doré) | 1 155 | « Prestigieux » |
+| 11f | **Tier N** (Tier 1 à Tier 25) | 625 | garder « Tier N » (usage des joueurs) ou « Palier N » |
+| 11g | **Raid: Naxxramas - 10 Player / 25 Player** | 379 | « Raid : Naxxramas - 10 joueurs » (« 10 joueurs », « 25 joueurs » sont officiels) |
+| 11h | **Heroic / Mythic / Ascended Temple of Ahn'Qiraj** | 627 | « Temple d'Ahn'Qiraj héroïque / mythique / Ascended » : le nom officiel existe, mais pour l'anglais « Ahn'Qiraj Temple » (pas « Temple of Ahn'Qiraj ») ; à valider |
+| 11i | **Sanguine** (rouge) | 206 | « Sanguin » |
+| 11j | **Heroic / Mythic Dungeon: Ahn'kahet, the Old Kingdom** | 63 | « Donjon héroïque : Ahn'kahet : l'Ancien royaume » (officiel pour « Ahn'kahet: The Old Kingdom », ponctuation différente) |
+| 11k | **Heroic World Boss** (et « : Doomwalker », « : Doom Lord Kazzak ») | 10 | « Boss mondial héroïque » |
+| 11l | **Non classées** : 1 106 étiquettes rares | 7 514 | voir ci-dessous |
+
+Les 1 106 étiquettes rares, par famille :
+- **classes** dans des descriptions à plusieurs étiquettes (`@|cffC79C6EWarrior|r@`, Druid, Mage…) : noms officiels (« Guerrier »…) ;
+- **apparences et familles de créatures** (Skeleton, Wolf, Zombie, Spider, Satyr, Cat, Bear, Raptor…) : noms officiels des familles de créatures ;
+- **couleurs** (Green, Purple, Blue, Red, Yellow) : « Vert », « Violet », « Bleu », « Rouge », « Jaune » ;
+- **extensions et modes** (The Burning Crusade, Classic, Felforged, Frozen Reach, Karazhan Crypts Mythic…) : « The Burning Crusade » est aussi le nom officiel français ; les autres à décider ;
+- variantes techniques (« Bloodforged - Fixed », « Heroic Raid - Unfixed », « Heroic Quest: … ») : laisser en anglais.
+
+Les marques techniques (`QA`, `re:N:N`, `s:N:N`) ne sont jamais traduites.
+
+## 12. Enchantements propres à CoA (04/11/2026, add-on 0.3)
+
+Les noms d'enchantements (bonus de sertissage, gemmes, enchantements d'objets) viennent maintenant du français
+officiel de Blizzard (`SpellItemEnchantment.dbc` frFR) : 2 542 noms, quand l'anglais de CoA est identique.
+**11 246 noms propres à CoA n'ont pas de français officiel** et restent en anglais, par exemple
+« Bonus de sertissage : +5 Attack Power » (Blizzard n'a que « +10 Attack Power » → « +10 à la puissance
+d'attaque »).
+
+**Proposition** : appliquer le modèle officiel aux nombres manquants (« +5 Attack Power » → « +5 à la
+puissance d'attaque », « +12 Stamina » → « +12 Endurance »…), sur les seuls modèles dont Blizzard donne
+déjà le français. Rien n'est fait sans ton accord.
