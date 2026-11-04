@@ -1,10 +1,10 @@
-# Fiche de reprise : Azeroth_FR (essai 3, add-on 0.3 prêt, pas encore installé)
+# Fiche de reprise : Azeroth_FR (essai 3, add-on 0.3, installé chez Dan le 04/11 : en attente de ses captures)
 
 *03/11/2026, mise à jour le 04/11 après l'add-on 0.3. À lire avant de reprendre le chantier dans une nouvelle conversation.*
 
-## Add-on 0.3 (04/11) : les retours de l'essai 2, essai 3 prêt
+## Add-on 0.3 (04/11) : les retours de l'essai 2, essai 3 installé
 
-- **Branche** `addon-0.3` (partie de `main` `bbe5364`), à fusionner par le coordinateur. Contrôle 0 bloquant ; test du contrôle 47/47 faux cas refusés ; deux imports successifs identiques ; banc hors jeu **80 exemples, 152 vérifications sur 152**.
+- **Branche** `addon-0.3` fusionnée dans `main` (`bb7fa5c`). Contrôle 0 bloquant ; test du contrôle 47/47 faux cas refusés ; deux imports successifs identiques ; banc hors jeu **80 exemples, 152 vérifications sur 152**.
 - **Zip** : `dist/Azeroth_FR-0.3.0.zip`, 17,6 Mo, **15 add-ons** (Objets01 à 05) et `PTRXML` (11 892 textes). sha256 `30ed71973f1efcd2786770bd6d0c77d3d99a431b243c6944453090cf9f2ea48b`.
 - **Le problème de fond** : l'add-on 0.2 suivait le FrameXML de Blizzard ; le client CoA charge celui de `patch-B`. Audit de chaque branchement (tableau dans le rapport) : minicarte et infobulles d'essai corrigées, trois branchements complétés.
 - **Corrige l'essai 2** : minicarte ; « Kobold Camp Cleanup » (quête de test 14032 écartée à la fabrication ; discussion par le journal) ; `/azfr etiquettes` ; « Prix de vente : » ; « Équipé : » ; sous-classes à droite ; enchantements officiels ; « Augmente la puissance PvE de N. » ; « Passif » ; **bulles des PNJ** et **messages du centre de l'écran** (nouveaux).
@@ -12,8 +12,9 @@
 - **Données** : 2 nouvelles familles, `client/enchantements.tsv` (`SpellItemEnchantment.dbc`, 2 542 officiels) et `client/sorts_coa.tsv` (puissance PvE/PvP, 649 lignes) ; premières lignes `relu` de la source (41).
 - **Limites** : onglets « General »/« Combat Log » non touchés ; 85 titres homonymes encore ambigus dans la liste d'un PNJ ; enchantements CoA sans officiel (« +5 Attack Power ») ; prose CoA à traduire.
 - **Notice** : `docs/ESSAI3_installer.md` (15 vérifications, dont celles jamais faites : rendre une quête, butin, viande séchée et pierre de foyer, Combat Log et `|2`, `/azfr stats`, sorts en combat). **Rapport** : `docs/2026-11-04_Rapport_Addon-0.3.md`.
-- **Questions pour Dan** : `glossaire/A_TRANCHER.md` points 11 (étiquettes sans décision : Fabled, Superior, Refined, Masterwork, Prestigious, Tier N…) et 12 (modèle officiel pour les enchantements CoA) ; 9 hauts faits « Essai du Croisé » à retraduire.
-- **Prochaine étape** : fusion dans `main`, installation de l'essai 3 (avec l'accord de Dan), ses captures.
+- **Réponses de Dan du 04/11** (`DECISIONS_VOCABULAIRE.md`, points 12 à 14) : étiquettes Fabuleux, Supérieur, Raffiné, Chef-d'œuvre, Prestigieux, Sanguin, Boss mondial héroïque, « Raid : Naxxramas - N joueurs » validées ; « Tier N » gardé ; modèle officiel des enchantements appliqué aux autres nombres. **À appliquer dans la version suivante** (pas dans l'essai 3). Restent ouverts : 11h, 11j, 11l ; 9 hauts faits « Essai du Croisé » à retraduire.
+- **Installé le 04/11 avec l'accord de Dan** : essai 2 retiré (`PTRXML` et 16 dossiers), 0.3.0 copiée dans `D:\Wow_Core` (57 fichiers, 62,5 Mo, empreintes identiques au zip).
+- **Prochaine étape** : les captures de Dan sur les 15 vérifications de la notice, puis `essais/…_essai3/RESULTAT.md`.
 
 ## Add-on 0.2 (03/11, soir) : essai 2 installé chez Dan
 

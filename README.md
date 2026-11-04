@@ -18,7 +18,7 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 - ✅ **Add-on 0.2.0** (03/11/2026) : quêtes retrouvées par titre et par texte, suivi des objectifs, messages de la discussion, noms (cible, faction, zones, carte), module des sorts (barre, grimoire, infobulles, auras, lignes « Use: »), 11 891 textes d'interface officiels par `PTRXML`, commande `/azfr etiquettes`. Zip 18,2 Mo, banc 106 vérifications sur 106. Rapport : `docs/2026-11-03_Rapport_Addon-0.2.md` ; notice : `docs/ESSAI2_installer.md`.
 - ✅ **Essai 2 testé en jeu par Dan** (`essais/2026-11-04_essai2/RESULTAT.md`) ; décisions du 04/11 : étiquettes traduites, *Trial* = « Épreuve », « Équipé : » et « Prix de vente : ».
 - ✅ **Add-on 0.3.0** (04/11/2026, branche `addon-0.3`) : branchements audités sur le FrameXML réel du client CoA (minicarte corrigée), titres de quête homonymes, étiquettes traduites par une table unique (`glossaire/etiquettes.tsv`), infobulles d'objets (Équipé, Prix de vente, sous-classes, enchantements officiels, puissance PvE/PvP), rangs des sorts, bulles des PNJ, messages du centre de l'écran. Zip 17,6 Mo, 15 add-ons ; banc 152 vérifications sur 152 ; contrôle 0 bloquant. Rapport : `docs/2026-11-04_Rapport_Addon-0.3.md` ; notice : `docs/ESSAI3_installer.md`.
-- ⏳ **Dan** : installer et tester l'essai 3 (15 vérifications) ; trancher les questions 11 et 12 de `glossaire/A_TRANCHER.md`.
+- ⏳ **Dan** : tester l'essai 3, installé le 04/11 (15 vérifications). Questions 11 et 12 de `glossaire/A_TRANCHER.md` tranchées le 04/11 (sauf 11h, 11j, 11l), à appliquer dans la version suivante.
 
 ## Organisation
 

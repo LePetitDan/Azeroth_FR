@@ -2,6 +2,8 @@
 
 > **Tranché par Dan le 03/11/2026** : voir `glossaire/DECISIONS_VOCABULAIRE.md`. La question 9 (étiquettes) est tranchée le 04/11/2026 après l'essai 2 : **traduire**.
 >
+> **04/11/2026, réponses de Dan** : 11a à 11e, 11g, 11i et 11k validés tels que proposés ; 11f « Tier N » gardé en anglais ; 12 modèle officiel appliqué. Restent ouverts : 11h, 11j, 11l. Voir `DECISIONS_VOCABULAIRE.md` (points 12 à 14).
+>
 > **Nouvelles questions du 04/11/2026 (add-on 0.3)** : en fin de fichier, « 11. Étiquettes sans décision » et
 > « 12. Enchantements propres à CoA ». En attendant, tout y reste en anglais.
 

@@ -4,6 +4,10 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 04/11/2026 | Essai 3 (add-on 0.3.0) installé dans `D:\Wow_Core` à la place de l'essai 2 | Accord de Dan ; essai 2 retiré, aucun autre fichier du jeu touché |
+| 04/11/2026 | Vocabulaire, point 14 : enchantements et bonus de gemmes propres à CoA = modèle officiel de Blizzard appliqué aux autres nombres (« +5 à la puissance d'attaque ») | Décision de Dan ; seulement les modèles déjà traduits par Blizzard |
+| 04/11/2026 | Vocabulaire, point 13 : « Tier N » reste en anglais | Décision de Dan |
+| 04/11/2026 | Vocabulaire, point 12 : étiquettes Fabuleux, Supérieur, Raffiné, Chef-d'œuvre, Prestigieux, Sanguin, Boss mondial héroïque, « Raid : Naxxramas - N joueurs » | Décision de Dan ; 11h, 11j et 11l de `A_TRANCHER.md` restent ouverts |
 | 04/11/2026 | Add-on 0.3 : tout branchement de l'add-on est vérifié contre le FrameXML **réellement chargé** par le client CoA (`patch-B` d'abord, puis `patch-enUS-3`, `-2`, `patch-enUS`, `locale-enUS`) ; une fonction liée par `function="…"` dans un XML est accrochée par `HookScript` sur son cadre | Essai 2 : `Minimap_Update` est capturée par `MinimapCluster` (patch-B), le crochet sur son nom ne s'exécutait jamais ; tableau de l'audit dans `docs/2026-11-04_Rapport_Addon-0.3.md` |
 | 04/11/2026 | Minicarte : `MinimapCluster:HookScript("OnEvent")`, crochet `Minimap_SetTooltip` (appelée par son nom), changements de zone, `PLAYER_ENTERING_WORLD` et une fois après le chargement des noms | Le texte est posé au chargement de l'interface, avant les données |
 | 04/11/2026 | Titres de quête homonymes : à la fabrication, les quêtes de test ou abandonnées (marqueurs dans le titre anglais ou français) sont écartées si une autre porte le même titre ; dans la discussion, le titre passe par le journal des quêtes (numéro), puis `TitreParId` | « Kobold Camp Cleanup » (quêtes 7 et 14032 « test de programmation ») ; 1 titre résolu, 85 restent ambigus (vraies quêtes différentes) |

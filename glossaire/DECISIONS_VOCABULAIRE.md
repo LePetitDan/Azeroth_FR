@@ -22,3 +22,6 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 | # | Anglais | Décision de Dan | Ce que ça implique |
 |---|---|---|---|
 | 11 | *Trial*, *Trials* (fenêtre des épreuves de CoA : Hardcore, Adventure Mode…) | **Épreuve** partout | « Épreuves », « Architecte d'épreuves », « Créateur d'épreuves ». Ne concerne pas les textes officiels de Blizzard sur le *compte d'essai* (*trial account*) |
+| 12 | Étiquettes CoA (question 11 de `A_TRANCHER.md`, en partie) : *Fabled*, *Superior*, *Refined*, *Masterwork*, *Prestigious*, *Sanguine*, *Heroic World Boss*, *Raid: Naxxramas - N Player* | **validées** : « Fabuleux », « Supérieur », « Raffiné », « Chef-d'œuvre », « Prestigieux », « Sanguin », « Boss mondial héroïque », « Raid : Naxxramas - N joueurs » | Couleurs gardées. Restent ouverts : 11h (Temple of Ahn'Qiraj), 11j (Ahn'kahet, the Old Kingdom), 11l (étiquettes rares) |
+| 13 | *Tier N* (étiquette des ensembles) | **garder « Tier N »** | Terme invariable, comme Worldforged |
+| 14 | Enchantements et bonus de gemmes propres à CoA (question 12) | **appliquer le modèle officiel** aux autres nombres | « +5 Attack Power » → « +5 à la puissance d'attaque », seulement sur les modèles que Blizzard a déjà traduits |
