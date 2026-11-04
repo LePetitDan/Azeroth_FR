@@ -19,6 +19,8 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 
 ## Ajouts du 04/11/2026
 
+> **Points 11 à 14 appliqués** : 11 dans l'add-on 0.3 ; 12 à 14 dans les données 0.4 (`glossaire/etiquettes.tsv`, `outils/modele_officiel.py`). Bilan : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
+
 | # | Anglais | Décision de Dan | Ce que ça implique |
 |---|---|---|---|
 | 11 | *Trial*, *Trials* (fenêtre des épreuves de CoA : Hardcore, Adventure Mode…) | **Épreuve** partout | « Épreuves », « Architecte d'épreuves », « Créateur d'épreuves ». Ne concerne pas les textes officiels de Blizzard sur le *compte d'essai* (*trial account*) |

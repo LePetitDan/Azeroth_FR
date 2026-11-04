@@ -1,6 +1,14 @@
-# Fiche de reprise : Azeroth_FR (essai 3, add-on 0.3, installé chez Dan le 04/11 : en attente de ses captures)
+# Fiche de reprise : Azeroth_FR (essai 3, add-on 0.3, installé chez Dan le 04/11 : en attente de ses captures ; données 0.4 prêtes)
 
-*03/11/2026, mise à jour le 04/11 après l'add-on 0.3. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le 04/11 après l'add-on 0.3 et les données 0.4. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Données 0.4 (04/11) : décisions de vocabulaire 12 à 14 appliquées
+
+- **Branche** `donnees-0.4` (partie de `main` `a1bece6`), données seulement : pas de nouveau zip, l'add-on reste en 0.3.0 (refabriqué pour vérifier : banc 152/152). Deux imports identiques ; contrôle 0 bloquant ; test du contrôle conforme (+ 9 faux cas du modèle officiel).
+- **Étiquettes** (point 12) : Fabuleux, Supérieur, Raffiné, Chef-d'œuvre, Prestigieux, Sanguin, Boss mondial héroïque (+ « : Marche-funeste », « : Seigneur funeste Kazzak »), « Raid : Naxxramas - N joueurs » : 11 101 étiquettes d'objets de plus en français. **Tier N** (point 13) : statut `anglais`.
+- **Enchantements CoA** (point 14) : `outils/modele_officiel.py` ; 5 476 noms sur 11 246 en `machine`, source `modele_officiel` ; le contrôle refait le calcul. Seuls les 514 noms sur une ligne sont embarqués par `fabriquer.py` : les 4 962 gemmes à plusieurs lignes et la recherche des noms colorés sont à régler dans l'add-on 0.4, après un essai en jeu.
+- **Hauts faits** « Essai du Croisé » (9) : « Épreuve de raid - L'épreuve du croisé niveau : N », état `relu`.
+- **Questions restantes** (`glossaire/A_TRANCHER.md`) : 11h, 11j, 11l, 11m (autres raids « Raid: X - N Player »), 12a (4 modèles à deux français, 1 390 noms), 12b (formes CoA sans modèle). **Rapport** : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
 
 ## Add-on 0.3 (04/11) : les retours de l'essai 2, essai 3 installé
 

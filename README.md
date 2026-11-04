@@ -18,7 +18,8 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 - ✅ **Add-on 0.2.0** (03/11/2026) : quêtes retrouvées par titre et par texte, suivi des objectifs, messages de la discussion, noms (cible, faction, zones, carte), module des sorts (barre, grimoire, infobulles, auras, lignes « Use: »), 11 891 textes d'interface officiels par `PTRXML`, commande `/azfr etiquettes`. Zip 18,2 Mo, banc 106 vérifications sur 106. Rapport : `docs/2026-11-03_Rapport_Addon-0.2.md` ; notice : `docs/ESSAI2_installer.md`.
 - ✅ **Essai 2 testé en jeu par Dan** (`essais/2026-11-04_essai2/RESULTAT.md`) ; décisions du 04/11 : étiquettes traduites, *Trial* = « Épreuve », « Équipé : » et « Prix de vente : ».
 - ✅ **Add-on 0.3.0** (04/11/2026, branche `addon-0.3`) : branchements audités sur le FrameXML réel du client CoA (minicarte corrigée), titres de quête homonymes, étiquettes traduites par une table unique (`glossaire/etiquettes.tsv`), infobulles d'objets (Équipé, Prix de vente, sous-classes, enchantements officiels, puissance PvE/PvP), rangs des sorts, bulles des PNJ, messages du centre de l'écran. Zip 17,6 Mo, 15 add-ons ; banc 152 vérifications sur 152 ; contrôle 0 bloquant. Rapport : `docs/2026-11-04_Rapport_Addon-0.3.md` ; notice : `docs/ESSAI3_installer.md`.
-- ⏳ **Dan** : tester l'essai 3, installé le 04/11 (15 vérifications). Questions 11 et 12 de `glossaire/A_TRANCHER.md` tranchées le 04/11 (sauf 11h, 11j, 11l), à appliquer dans la version suivante.
+- ✅ **Données 0.4** (04/11/2026, branche `donnees-0.4`) : décisions de vocabulaire 12 à 14 appliquées. Étiquettes Fabuleux, Supérieur, Raffiné, Chef-d'œuvre, Prestigieux, Sanguin, Boss mondial héroïque, « Raid : Naxxramas - N joueurs » (11 101 étiquettes d'objets de plus en français) ; « Tier N » en anglais ; 5 476 noms d'enchantements CoA par le **modèle officiel** de Blizzard (`outils/modele_officiel.py`, recalculé par le contrôle) ; 9 hauts faits « L'épreuve du croisé ». Contrôle 0 bloquant, banc 152/152. Rapport : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
+- ⏳ **Dan** : tester l'essai 3, installé le 04/11 (15 vérifications). Questions restantes de `glossaire/A_TRANCHER.md` : 11h, 11j, 11l, 11m, 12a, 12b.
 
 ## Organisation
 
@@ -29,7 +30,7 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 | `collecte/scripts/` | Scripts de collecte, de croisement et de l'étape 1, relançables |
 | `collecte/donnees/` | Résultats de la collecte, compressés (`.xz`) : instantané du 03/11/2026 |
 | `textes/` | **La source unique** : un fichier TSV par famille (`serveur/`, `client/`), colonnes `type`, `id`, `sous_id`, `champ`, `en`, `en_empreinte`, `fr`, `etat`, `source`, `note` |
-| `outils/` | `importer.py`, `controler.py` (+ `test_controler.py`), `stats.py`, `noms_officiels.py`, `officiel.py` (lecture des sources officielles), `vocabulaire.py` (décisions de vocabulaire), `quetes_cata.py` (quêtes de Cataclysm), `fabriquer.py` (l'add-on), `tester_addon.py` + `banc_addon.lua` (banc hors jeu) |
+| `outils/` | `importer.py`, `controler.py` (+ `test_controler.py`), `stats.py`, `noms_officiels.py`, `officiel.py` (lecture des sources officielles), `vocabulaire.py` (décisions de vocabulaire), `modele_officiel.py` (modèle officiel des enchantements CoA), `quetes_cata.py` (quêtes de Cataclysm), `fabriquer.py` (l'add-on), `tester_addon.py` + `banc_addon.lua` (banc hors jeu) |
 | `addon/` | Le code de l'add-on (`Azeroth_FR/`) et du paquet d'interface (`PTRXML/`), sans données ; `VERSION` |
 | `dist/` *(ignoré par git)* | Ce que fabrique `fabriquer.py` : `Interface/…` prêt à copier, le zip, `fabrication.json` |
 
