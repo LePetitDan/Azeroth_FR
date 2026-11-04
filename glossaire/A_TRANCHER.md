@@ -115,6 +115,8 @@ Blizzard n'a aucun nom de cette forme : le modèle ne peut pas s'appliquer. Les 
 
 ## 18. Métier CoA « Bushcraft » (1 nom)
 
+> **Tranché par Dan le 04/11/2026 : « Survie »** (point 18 de `DECISIONS_VOCABULAIRE.md`).
+
 Le livre des métiers de CoA (onglet « Métiers » du grimoire) montre tous les métiers. Depuis l'add-on 0.4, leurs noms
 sont en français (« Forge », « Alchimie », « Menuiserie », « Bûcheronnage »…), sauf **Bushcraft** : c'est un métier
 propre à CoA (compétence 505 de `SkillLine.dbc`), sans nom chez Blizzard et sans décision. Il reste en anglais.

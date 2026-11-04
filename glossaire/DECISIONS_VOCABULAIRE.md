@@ -32,3 +32,4 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 | 15 | *Woodworking* (métier CoA) | **Menuiserie** | Choix de Dan (plutôt que « Travail du bois ») |
 | 16 | *Woodcutting* (métier de récolte CoA) | **Bûcheronnage** | « Coupe du bois » de l'ancien projet repasse à « Bûcheronnage » |
 | 17 | Classes CoA au féminin | **accorder**, comme Blizzard (Guerrière, Chasseresse) | Formes appliquées : Héroïne, Féticheuse, Chasseuse de sorcières, Gardienne, Templière, Rôdeuse, Chronomancienne, Nécromancienne, Pyromancienne, Bricoleuse, Vénomancienne, Faucheuse, Maîtresse des runes. Invariables : Barbare, Gangrelige, Porte-tempête, Mage de sang, Cultiste, Mande-étoiles, Clerc du soleil, Primaliste ; Chevalier de Xoroth reste invariable comme l'officiel « Chevalier de la mort » du client 3.3.5 |
+| 18 | *Bushcraft* (métier CoA, compétence 505) | **Survie** | À appliquer dans la version suivante (l'essai 4 l'affiche encore en anglais) |

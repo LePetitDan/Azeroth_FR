@@ -1,6 +1,13 @@
-# Fiche de reprise : Azeroth_FR (essai 4, add-on 0.4.0, prêt à installer : l'action bloquée d'abord)
+# Fiche de reprise : Azeroth_FR (essai 4, add-on 0.4, installé chez Dan le 04/11 : en attente de ses captures)
 
 *03/11/2026, mise à jour le 04/11 au soir après l'add-on 0.4. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Essai 4 installé (04/11, soir)
+
+- Add-on 0.4.0 (`main` `ccc0921`) installé avec l'accord de Dan : essai 3 retiré (`PTRXML` et 15 dossiers), 16 dossiers et `PTRXML` copiés (62 fichiers, empreintes identiques au zip, sha256 `b33431c5…`).
+- **À surveiller en priorité** : l'action bloquée de l'essai 3 (cause non trouvée ; diagnostic dans l'add-on, `/azfr stats`, `/azfr erreurs`, interrupteurs `/azfr bulles|centre|plaques off`).
+- Décision 18 de Dan (*Bushcraft* = « Survie ») à appliquer dans la version suivante.
+- Prochaine étape : captures de l'essai 4 (`docs/ESSAI4_installer.md`), puis `essais/…_essai4/RESULTAT.md`.
 
 ## Add-on 0.4 (04/11, soir) : l'action bloquée de l'essai 3 et les retours en jeu
 
