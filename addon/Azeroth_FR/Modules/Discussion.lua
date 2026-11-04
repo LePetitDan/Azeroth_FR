@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : messages systeme dans la discussion (version 0.2).
+-- Azeroth_FR : messages systeme dans la discussion (version 0.3 : titre de quete par le journal).
 -- « Quest accepted: A Threat Within », « A Threat Within completed. », « Experience gained:
 -- 55. », « Reputation with Stormwind increased by 55. », butin, argent, competences…
 --
@@ -43,15 +43,22 @@ end
 -- ----------------------------------------------------------------------------
 -- Traduction d'un morceau selon sa nature (voir GABARITS dans outils/fabriquer.py).
 -- ----------------------------------------------------------------------------
+-- Titre de quete d'un message (« Quête acceptée : %s », « %s terminée. ») : par le JOURNAL des
+-- quetes d'abord (titre -> numero par la 9e valeur de GetQuestLogTitle ou GetQuestLink -> titre
+-- francais verifie par TitreParId), puis par le texte (titres homonymes resolus a la fabrication).
 local function TitreQuete(x)
+    local id = A.IdQueteParTitreJournal and A.IdQueteParTitreJournal(x)
+    local fr = id and A.TitreParId(id, x)
+    if fr then return fr end
     local corr = A.CorrespondancesJournal and A.CorrespondancesJournal()
-    local fr = corr and corr[x]
+    fr = corr and corr[x]
     if fr then return fr end
     fr = A.TexteQuete and A.TexteQuete(x)
     if fr then return fr end
-    local id = A.QueteParTitre and A.QueteParTitre(x)
+    id = A.QueteParTitre and A.QueteParTitre(x)
     return id and A.TitreParId(id, x)
 end
+A.TitreQueteMessage = TitreQuete
 
 local function Objet(x)
     if find(x, "|H", 1, true) then

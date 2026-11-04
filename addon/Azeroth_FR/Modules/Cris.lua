@@ -3,8 +3,8 @@
 -- Filtres de messages CHAT_MSG_MONSTER_* : le texte (par texte anglais, $n reconstitue
 -- avec le nom du joueur ou celui de la cible de la replique) et le nom du PNJ qui parle.
 -- Un filtre ne modifie que ce qui s'affiche dans la fenetre de discussion.
--- Limites : les bulles au-dessus des PNJ et les emotes de boss au centre de l'ecran
--- restent en anglais dans l'essai 1.
+-- Les bulles au-dessus des PNJ : Modules/Bulles.lua (memes tables). Les emotes de boss au centre de
+-- l'ecran (RaidBossEmoteFrame) restent en anglais.
 -- ============================================================================
 local A = AzerothFR
 local P = A.Proteger

@@ -54,20 +54,40 @@ if type(GossipFrameUpdate) == "function" then
     hooksecurefunc("GossipFrameUpdate", P("GossipFrameUpdate", TraduireGossip))
 end
 
--- Accueil des maitres de classe et de metier (fenetre chargee a la demande par le jeu).
+-- Accueil des maitres de classe et de metier (Blizzard_TrainerUI, charge a la demande par le jeu).
+-- ClassTrainerFrame_Update repose le texte anglais a chaque mise a jour (TRAINER_UPDATE) : on
+-- l'accroche des que l'add-on du jeu est charge (appele par son nom global dans ce client).
+local function TraduireMaitre()
+    if not A.Actif() then return end
+    local zone = ClassTrainerGreetingText
+    local texte = zone and zone:GetText()
+    if texte and texte ~= "" and not A.DejaEcrit(zone, texte) then
+        local fr = A.TexteDialogue(texte)
+        if fr then A.Ecrire(zone, fr) end
+    end
+end
+local maitre_accroche = false
+local function AccrocherMaitre()
+    if maitre_accroche or type(ClassTrainerFrame_Update) ~= "function" then return end
+    maitre_accroche = true
+    hooksecurefunc("ClassTrainerFrame_Update", P("ClassTrainerFrame_Update", TraduireMaitre))
+end
+
 local f = CreateFrame("Frame")
 f:RegisterEvent("GOSSIP_SHOW")
 f:RegisterEvent("TRAINER_SHOW")
-f:SetScript("OnEvent", P("Dialogues.OnEvent", function(self, evenement)
+f:RegisterEvent("ADDON_LOADED")
+f:SetScript("OnEvent", P("Dialogues.OnEvent", function(self, evenement, nom)
+    if evenement == "ADDON_LOADED" then
+        if nom == "Blizzard_TrainerUI" then AccrocherMaitre() end
+        return
+    end
     if not A.Actif() then return end
     if evenement == "GOSSIP_SHOW" then
         TraduireGossip()
     elseif evenement == "TRAINER_SHOW" then
-        local zone = ClassTrainerGreetingText
-        local texte = zone and zone:GetText()
-        if texte and texte ~= "" then
-            local fr = A.TexteDialogue(texte)
-            if fr then A.Ecrire(zone, fr) end
-        end
+        AccrocherMaitre()
+        TraduireMaitre()
     end
 end))
+AccrocherMaitre()

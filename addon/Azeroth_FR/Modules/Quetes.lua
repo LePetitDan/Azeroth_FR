@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : quetes (version 0.2).
+-- Azeroth_FR : quetes (version 0.3 : titres homonymes, anglais d'origine des zones deja traduites).
 -- Fenetre de quete (detail, progression, recompense), journal des quetes, suivi des
 -- objectifs, accueil des donneurs de quetes. Affichage seulement.
 --
@@ -223,10 +223,27 @@ end
 -- ----------------------------------------------------------------------------
 local corr_journal, corr_a_refaire = {}, true
 
+-- Numero d'une quete du journal : 9e valeur de GetQuestLogTitle (ce client la donne), sinon le
+-- lien GetQuestLink.
 local function IdJournal(i)
     local id = select(9, GetQuestLogTitle(i))
     if type(id) == "number" and id > 0 then return id end
     return A.IdDepuisLien(GetQuestLink and GetQuestLink(i), "quest")
+end
+
+-- Titres anglais vus dans le journal -> numeros (garde la memoire d'une quete rendue : « %s
+-- terminée. » arrive quand elle a deja quitte le journal). Petite table, videe si elle grossit.
+local titres_vus, n_titres_vus = {}, 0
+local function NoterTitreVu(titre, id)
+    if not titre or not id then return end
+    local deja = titres_vus[titre]
+    if deja == nil then
+        n_titres_vus = n_titres_vus + 1
+        if n_titres_vus > 400 then titres_vus, n_titres_vus = {}, 1 end
+        titres_vus[titre] = id
+    elseif deja ~= id then
+        titres_vus[titre] = false             -- deux quetes du journal portent ce titre : ambigu
+    end
 end
 
 local function CorrespondancesJournal()
@@ -234,6 +251,7 @@ local function CorrespondancesJournal()
     corr_a_refaire = false
     local corr = {}
     if type(GetNumQuestLogEntries) == "function" then
+        local vus = {}
         for i = 1, (GetNumQuestLogEntries() or 0) do
             local titre, _, _, _, entete = GetQuestLogTitle(i)
             if titre and titre ~= "" then
@@ -242,6 +260,11 @@ local function CorrespondancesJournal()
                     fr = A.Nom("zone", titre) or A.Nom("divers", titre)
                 else
                     local id = IdJournal(i)
+                    if id then
+                        if vus[titre] and vus[titre] ~= id then titres_vus[titre] = false end
+                        vus[titre] = id
+                        NoterTitreVu(titre, id)
+                    end
                     fr = (id and A.TitreParId(id, titre)) or A.TexteQuete(titre)
                 end
                 if fr then corr[titre] = fr end
@@ -253,6 +276,31 @@ local function CorrespondancesJournal()
 end
 A.CorrespondancesJournal = CorrespondancesJournal
 function A.JournalAChange() corr_a_refaire = true end
+
+-- Numero de la quete du journal qui porte ce titre anglais (journal relu a chaque appel : « Quête
+-- acceptée : %s » peut arriver avant QUEST_LOG_UPDATE), sinon le dernier numero vu pour ce titre.
+-- nil si deux quetes du journal ont ce titre.
+function A.IdQueteParTitreJournal(titre)
+    if type(titre) ~= "string" or titre == "" then return nil end
+    local trouve
+    if type(GetNumQuestLogEntries) == "function" then
+        for i = 1, (GetNumQuestLogEntries() or 0) do
+            local t, _, _, _, entete = GetQuestLogTitle(i)
+            if t == titre and not entete then
+                local id = IdJournal(i)
+                if id then
+                    if trouve and trouve ~= id then return nil end
+                    trouve = id
+                    NoterTitreVu(titre, id)
+                end
+            end
+        end
+    end
+    if trouve then return trouve end
+    local vu = titres_vus[titre]
+    if vu then return vu end
+    return nil
+end
 
 -- Une zone de texte de quete : titre, texte long ou objectif.
 local function TraduireZone(zone, corr, id)
@@ -288,9 +336,9 @@ local ZONES_QUETE = { "QuestInfoDescriptionText", "QuestInfoObjectivesText", "Qu
     "QuestProgressTitleText", "QuestProgressText" }
 local ZONES_TITRE = { "QuestInfoTitleHeader", "QuestInfoTitleText" }
 
+-- Texte ANGLAIS d'une zone de la fenetre (si l'add-on l'a deja traduite, l'anglais remplace).
 local function Texte(nom)
-    local z = _G[nom]
-    return z and z.GetText and z:GetText()
+    return A.TexteAnglais(_G[nom])
 end
 
 local function NomsRecompenses(journal)

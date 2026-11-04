@@ -96,10 +96,22 @@ local function NouvelleZone(texte)
 end
 
 local evenements = {}       -- evenement -> liste de cadres
+TOUS_CADRES = {}
 local function NouveauCadre(nom)
     local c = { scripts = {}, crochets = {}, visible = false, regions = {}, enfants = {}, hauteur = 16 }
-    function c:RegisterEvent(e) evenements[e] = evenements[e] or {}; table.insert(evenements[e], self) end
-    function c:UnregisterEvent() end
+    table.insert(TOUS_CADRES, c)
+    function c:RegisterEvent(e)
+        evenements[e] = evenements[e] or {}
+        for _, x in ipairs(evenements[e]) do if x == self then return end end
+        table.insert(evenements[e], self)
+    end
+    function c:UnregisterEvent(e)
+        for i, x in ipairs(evenements[e] or {}) do if x == self then table.remove(evenements[e], i); return end end
+    end
+    function c:IsEventRegistered(e)
+        for _, x in ipairs(evenements[e] or {}) do if x == self then return true end end
+        return false
+    end
     function c:UnregisterAllEvents() end
     function c:SetScript(k, f) self.scripts[k] = f end
     function c:GetScript(k) return self.scripts[k] end
@@ -111,6 +123,7 @@ local function NouveauCadre(nom)
     function c:GetRegions() return unpack(self.regions) end
     function c:GetChildren() return unpack(self.enfants) end
     function c:GetName() return nom end
+    function c:GetNumChildren() return #self.enfants end
     function c:SetHeight(h) self.hauteur = h end
     function c:GetHeight() return self.hauteur end
     function c:SetPoint() end
@@ -148,8 +161,13 @@ local function NouvelleBulle(nom)
     function b:SetHyperlink(lien)
         local id = tonumber(string.match(lien, "item:(%d+)"))
         local o = id and OBJETS_BANC[id]
-        if o then self:Effacer(o.lignes, { o.nom, LienObjet(id, o.nom) }) else self:Effacer({}) end
+        if o then
+            self:Effacer(o.lignes, { o.nom, LienObjet(id, o.nom) }, nil, nil, o.droites)
+            self:Declencher("OnTooltipSetItem")
+        else self:Effacer({}) end
     end
+    -- GameTooltip_OnLoad du client CoA accroche OnTooltipSetItem AVANT tout add-on
+    b:HookScript("OnTooltipSetItem", function(self) GameTooltip_ItemVersionReplacer(self) end)
     local function DepuisSort(self, s)
         if s then
             self:Effacer(s.lignes, nil, nil, { s.nom, s.rang or "", s.id }, s.droites)
@@ -166,6 +184,29 @@ local function NouvelleBulle(nom)
     function b:SetUnitDebuff(unite, index) self:SetUnitAura(unite, index, "HARMFUL") end
     return b
 end
+-- Copie de GameTooltip_ItemVersionReplacer du client CoA (patch-B, Interface\FrameXML\GameTooltip.lua) :
+-- la ligne « "@X@reste" » devient « "reste" » (ou vide), X remplace la ligne qui commence par ITEM_HEROIC.
+function GameTooltip_ItemVersionReplacer(tooltip)
+    local numLines = tooltip:NumLines()
+    local name = tooltip:GetName()
+    if not name or numLines < 2 then return end
+    local version, replaceLocation
+    for i = numLines, 1, -1 do
+        local line = _G[name .. "TextLeft" .. i]
+        local text = line and line:GetText()
+        if text and string.len(text) > 0 then
+            if string.sub(text, 1, 2) == "\"@" then
+                local desc
+                version, desc = string.match(text, "@(.+)@(.-)\"")
+                desc = desc and string.len(desc) > 0 and "\"" .. desc .. "\"" or ""
+                line:SetText(desc)
+            elseif string.sub(text, 1, string.len(ITEM_HEROIC or "Heroic")) == (ITEM_HEROIC or "Heroic") then
+                replaceLocation = i
+            end
+        end
+    end
+    if version and replaceLocation then _G[name .. "TextLeft" .. replaceLocation]:SetText(version) end
+end
 GameTooltip = NouvelleBulle("GameTooltip")
 ItemRefTooltip = NouvelleBulle("ItemRefTooltip")
 UIParent = NouveauCadre("UIParent")
@@ -174,9 +215,22 @@ function CreateFrame(genre, nom, parent, modele)
     return NouveauCadre(nom)
 end
 
-local function Declencher(e, ...)
-    for _, c in ipairs(evenements[e] or {}) do
+-- Comme le jeu : chaque cadre inscrit recoit l'evenement (dans l'ordre d'inscription) ; son script, puis
+-- les crochets HookScript("OnEvent").
+function Declencher(e, ...)
+    local liste = {}
+    for i, c in ipairs(evenements[e] or {}) do liste[i] = c end
+    for _, c in ipairs(liste) do
         if c.scripts.OnEvent then c.scripts.OnEvent(c, e, ...) end
+        for _, f in ipairs(c.crochets.OnEvent or {}) do f(c, e, ...) end
+    end
+end
+-- n images de dt secondes : OnUpdate de chaque cadre visible
+function Images(n, dt)
+    for _ = 1, n do
+        for _, c in ipairs(TOUS_CADRES) do
+            if c.visible and c.scripts.OnUpdate then c.scripts.OnUpdate(c, dt) end
+        end
     end
 end
 
@@ -256,8 +310,38 @@ function UnitFrame_Update(self) self.name:SetText(GetUnitName(self.unit)) end
 function UnitFrame_OnEvent(self, event) end
 MinimapZoneText, MinimapZoneTextButton = NouvelleZone(""), NouveauCadre("MinimapZoneTextButton")
 function GetMinimapZoneText() return ZONE_MINICARTE end
-function Minimap_Update() MinimapZoneText:SetText(GetMinimapZoneText()) end
-function Minimap_SetTooltip() end
+-- Comme le client CoA (patch-B, Minimap.lua/.xml) : Minimap_Update appelle Minimap_SetTooltip par son nom
+-- global ; MinimapCluster a <OnEvent function="Minimap_Update"/> : la fonction est CAPTUREE au chargement
+-- (le crochet pose sur le nom global ne la voit pas).
+function Minimap_Update() MinimapZoneText:SetText(GetMinimapZoneText()); Minimap_SetTooltip(nil, nil) end
+function Minimap_SetTooltip(pvpType, factionName) end
+MinimapCluster = NouveauCadre("MinimapCluster")
+MinimapCluster.scripts.OnEvent = Minimap_Update
+for _, e in ipairs({ "ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "ZONE_CHANGED_NEW_AREA" }) do MinimapCluster:RegisterEvent(e) end
+-- Comme le client CoA (patch-B, UIErrorsFrame.lua) : UI_INFO_MESSAGE jaune, UI_ERROR_MESSAGE rouge.
+UIErrorsFrame = NouveauCadre("UIErrorsFrame")
+MESSAGES_CENTRE = {}
+function UIErrorsFrame:AddMessage(t, r, g, b, id) table.insert(MESSAGES_CENTRE, { t, r, g, b, id }) end
+function UIErrorsFrame_OnEvent(self, event, ...)
+    local arg1, arg2, arg3, arg4 = ...
+    if event == "SYSMSG" then self:AddMessage(arg1, arg2, arg3, arg4, 1.0)
+    elseif event == "UI_INFO_MESSAGE" then self:AddMessage(arg1, 1.0, 1.0, 0.0, 1.0)
+    elseif event == "UI_ERROR_MESSAGE" then self:AddMessage(arg1, 1.0, 0.1, 0.1, 1.0) end
+end
+UIErrorsFrame.scripts.OnEvent = function(self, event, ...) UIErrorsFrame_OnEvent(self, event, ...) end
+for _, e in ipairs({ "SYSMSG", "UI_INFO_MESSAGE", "UI_ERROR_MESSAGE" }) do UIErrorsFrame:RegisterEvent(e) end
+-- Bulles : enfants sans nom de WorldFrame (une plaque de nom, puis les bulles creees par les cas)
+WorldFrame = NouveauCadre("WorldFrame")
+local plaque = NouveauCadre(nil)
+plaque.regions = { NouvelleZone("Kobold Vermin") }
+WorldFrame.enfants = { plaque }
+function NouvelleBulleDeDialogue(texte)
+    local b = NouveauCadre(nil)
+    b.visible = true
+    b.regions = { NouvelleZone(texte) }
+    table.insert(WorldFrame.enfants, b)
+    return b
+end
 ZoneTextFrame, SubZoneTextFrame = NouveauCadre("ZoneTextFrame"), NouveauCadre("SubZoneTextFrame")
 ZoneTextString, SubZoneTextString = NouvelleZone(""), NouvelleZone("")
 WorldMapButton, WorldMapFrameAreaLabel = NouveauCadre("WorldMapButton"), NouvelleZone("")
@@ -400,13 +484,19 @@ for _, c in ipairs(CAS_LISTE) do
         if c.objet_cache then OBJETS_BANC[c.objet_cache[1]] = { nom = c.objet_cache[2], lignes = {} } end
         egal(c.nom, A.TraduireObjectif(c.anglais), c.attendu)
     elseif c.quoi == "objet" then
-        GameTooltip:Effacer(c.lignes, { c.anglais, LienObjet(c.id, c.anglais) })
+        GameTooltip:Effacer(c.lignes, { c.anglais, LienObjet(c.id, c.anglais) }, nil, nil, c.droites)
         if c.sort_objet then ITEM_SPELLS[c.id] = { "x", c.sort_objet } else ITEM_SPELLS[c.id] = nil end
         GameTooltip:Declencher("OnTooltipSetItem")
         egal(c.nom .. " (nom)", GameTooltip.lignes[1]:GetText(), c.attendu)
         if c.description_attendue then
             egal(c.nom .. " (ligne " .. c.ligne_description .. ")", GameTooltip.lignes[c.ligne_description]:GetText(),
                 c.description_attendue)
+        end
+        for _, x in ipairs(c.lignes_attendues or {}) do
+            egal(c.nom .. " (ligne " .. x[1] .. ", " .. x[3] .. ")", GameTooltip.lignes[x[1]]:GetText(), x[2])
+        end
+        for _, x in ipairs(c.droites_attendues or {}) do
+            egal(c.nom .. " (à droite, ligne " .. x[1] .. ")", _G["GameTooltipTextRight" .. x[1]]:GetText(), x[2])
         end
     elseif c.quoi == "creature" then
         UNITES.mouseover = { nom = c.anglais, guid = c.guid }
@@ -458,9 +548,11 @@ for _, c in ipairs(CAS_LISTE) do
         Declencher("ITEM_TEXT_READY")
         egal(c.nom, ItemTextPageText:GetText(), c.attendu)
     elseif c.quoi == "discussion" then
+        if c.journal then JOURNAL = c.journal; A.JournalAChange() end
         local args = { c.message, c.emetteur or "", "", c.arg4 or "", "", "", 0, 0, "", 0, 0, nil }
         local r = Filtrer(c.evenement, args)
         egal(c.nom, r and r[c.champ or 1], c.attendu)
+        if c.journal then JOURNAL = {}; A.JournalAChange() end
     elseif c.quoi == "journal_entete" then
         JOURNAL = { { titre = c.anglais, entete = 1 } }
         A.JournalAChange()
@@ -468,9 +560,16 @@ for _, c in ipairs(CAS_LISTE) do
         JOURNAL = {}
         A.JournalAChange()
     elseif c.quoi == "minicarte" then
+        -- evenement de zone : le script CAPTURE de MinimapCluster pose l'anglais, nos branchements passent apres
         ZONE_MINICARTE = c.anglais
-        Minimap_Update()
-        egal(c.nom, MinimapZoneText:GetText(), c.attendu)
+        MinimapZoneText:SetText("")
+        Declencher("ZONE_CHANGED")
+        egal(c.nom .. " (ZONE_CHANGED, Minimap_Update capturée par MinimapCluster)", MinimapZoneText:GetText(), c.attendu)
+        -- texte pose au chargement de l'interface, avant les donnees : traduit a l'entree en jeu
+        A.Ecrits = setmetatable({}, { __mode = "k" })
+        MinimapZoneText:SetText(c.anglais)
+        Declencher("PLAYER_ENTERING_WORLD")
+        egal(c.nom .. " (PLAYER_ENTERING_WORLD)", MinimapZoneText:GetText(), c.attendu)
     elseif c.quoi == "cible" then
         UNITES.target = { nom = c.anglais, guid = c.guid }
         UnitFrame_Update(TargetFrame)
@@ -512,12 +611,70 @@ for _, c in ipairs(CAS_LISTE) do
         noter(ok, c.nom)
     elseif c.quoi == "etiquettes" then
         for id, o in pairs(c.objets) do OBJETS_BANC[tonumber(id)] = o end
+        local avant = #messages
         SlashCmdList.AZFR("etiquettes")
         for i, attendu in ipairs(c.attendus) do
             local b = _G["AzerothFR_Etiquette" .. i]
             egal(c.nom .. " (objet " .. i .. ", nom)", b and b.lignes[1] and b.lignes[1]:GetText(), attendu[1])
-            egal(c.nom .. " (objet " .. i .. ", étiquette)", b and b.lignes[2] and b.lignes[2]:GetText(), attendu[2])
+            egal(c.nom .. " (objet " .. i .. ", ligne d'étiquette)", b and b.lignes[2] and b.lignes[2]:GetText(), attendu[2])
         end
+        local brutes = 0
+        for k = avant + 1, #messages do
+            if string.find(messages[k], "lignes affichées par le jeu", 1, true) then brutes = brutes + 1 end
+        end
+        noter(brutes == #c.attendus, c.nom .. " (lignes brutes affichées une fois par objet, après le remplissage)",
+            brutes .. " annonces")
+        -- l'objet arrive plus tard du serveur : le jeu remplit l'infobulle et declenche OnTooltipSetItem
+        local b = _G["AzerothFR_Etiquette1"]
+        b:Effacer(c.objets[c.premier].lignes, { c.objets[c.premier].nom, LienObjet(c.premier, c.objets[c.premier].nom) })
+        b:Declencher("OnTooltipSetItem")
+        egal(c.nom .. " (objet arrivé plus tard : OnTooltipSetItem accroché)", b.lignes[2]:GetText(), c.attendus[1][2])
+    elseif c.quoi == "bulle" then
+        local avant = WorldFrame.enfants[1].regions[1]:GetText()
+        Declencher(c.evenement, c.anglais, c.emetteur, "", "", c.cible or "")
+        local bulle = NouvelleBulleDeDialogue(c.anglais)       -- le moteur cree la bulle a l'image suivante
+        Images(4, 0.05)
+        egal(c.nom, bulle.regions[1]:GetText(), c.attendu)
+        egal(c.nom .. " (plaque de nom intacte)", WorldFrame.enfants[1].regions[1]:GetText(), avant)
+        local autre = NouvelleBulleDeDialogue("Some other words.")
+        Images(40, 0.05)
+        egal(c.nom .. " (autre bulle intacte, recherche bornée)", autre.regions[1]:GetText(), "Some other words.")
+    elseif c.quoi == "centre" then
+        MESSAGES_CENTRE = {}
+        Declencher(c.evenement, c.anglais)
+        local m = MESSAGES_CENTRE[1]
+        egal(c.nom .. " (un seul message)", #MESSAGES_CENTRE, 1)
+        egal(c.nom, m and m[1], c.attendu)
+        egal(c.nom .. " (couleur et argument comme UIErrorsFrame_OnEvent)", m and table.concat({ m[2], m[3], m[4], m[5] }, ","),
+            table.concat(c.couleur, ","))
+        if c.essai_off then
+            SlashCmdList.AZFR("off")
+            MESSAGES_CENTRE = {}
+            Declencher(c.evenement, c.anglais)
+            egal(c.nom .. " (/azfr off : le jeu reprend la main, anglais)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.anglais)
+            egal(c.nom .. " (/azfr off : un seul message)", #MESSAGES_CENTRE, 1)
+            SlashCmdList.AZFR("on")
+            MESSAGES_CENTRE = {}
+            Declencher(c.evenement, c.anglais)
+            egal(c.nom .. " (/azfr on : de nouveau en français)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.attendu)
+        end
+    elseif c.quoi == "fenetre_quete_detail" then
+        -- comme QuestFrameDetailPanel_OnShow : QuestInfo_Display deux fois (DETAIL1 : titre et description ;
+        -- DETAIL2 : objectifs), la description est deja en francais au second appel
+        QuestInfoFrame.questLog = false
+        QuestInfoTitleHeader:SetText(c.titre); QuestInfoDescriptionText:SetText(c.description)
+        QuestInfoObjectivesText:SetText("")
+        QuestInfo_Display()
+        QuestInfoObjectivesText:SetText(c.objectifs or "")
+        QuestInfo_Display()
+        egal(c.nom .. " (en-tête)", QuestInfoTitleHeader:GetText(), c.titre_attendu)
+        egal(c.nom .. " (description)", QuestInfoDescriptionText:GetText(), c.description_attendue)
+    elseif c.quoi == "gossip_quete" then
+        UNITES.npc = nil
+        GossipGreetingText:SetText("")
+        GossipTitleButton1:SetText(c.anglais)
+        GossipFrameUpdate()
+        egal(c.nom, GossipTitleButton1:GetText(), c.attendu)
     end
     for k, v in pairs(sauve) do _G[k] = v end
 end

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : le coeur de l'add-on (version 0.2).
+-- Azeroth_FR : le coeur de l'add-on (version 0.3).
 --
 -- PRINCIPE : AFFICHAGE SEULEMENT. Le jeu affiche son texte anglais ; l'add-on le
 -- reconnait et pose le francais par-dessus, dans le cadre affiche (FontString:SetText,
@@ -73,9 +73,14 @@ end
 -- Ce que l'add-on a lui-meme ecrit dans une zone de texte (table a cles faibles : rien n'est
 -- ajoute aux objets du jeu).
 A.Ecrits = setmetatable({}, { __mode = "k" })
+-- L'anglais que l'add-on a remplace dans chaque zone (sert a reconnaitre une quete meme quand sa
+-- description est deja en francais : le jeu appelle QuestInfo_Display deux fois de suite).
+A.Originaux = setmetatable({}, { __mode = "k" })
 
 function A.Ecrire(zone, texte)
     if not zone or not texte then return false end
+    local avant = type(zone.GetText) == "function" and zone:GetText() or nil
+    if avant and avant ~= A.Ecrits[zone] then A.Originaux[zone] = avant end
     zone:SetText(texte)
     -- (la page des livres est un SimpleHTML : selon le client, il n'a pas toujours GetText)
     A.Ecrits[zone] = (type(zone.GetText) == "function" and zone:GetText()) or texte
@@ -85,6 +90,14 @@ end
 
 function A.DejaEcrit(zone, texte)
     return A.Ecrits[zone] ~= nil and A.Ecrits[zone] == texte
+end
+
+-- Texte ANGLAIS d'une zone : celui du jeu, ou, si la zone montre notre francais, l'anglais remplace.
+function A.TexteAnglais(zone)
+    if not zone or type(zone.GetText) ~= "function" then return nil end
+    local t = zone:GetText()
+    if t and A.DejaEcrit(zone, t) and A.Originaux[zone] then return A.Originaux[zone] end
+    return t
 end
 
 -- ----------------------------------------------------------------------------
@@ -602,8 +615,15 @@ end
 -- Demarrage : lecture du joueur et chargement des familles « auto » pendant l'ecran
 -- de chargement ; les add-ons mis en attente pendant un combat sont charges apres.
 -- ----------------------------------------------------------------------------
+-- A.AuDemarrage : fonctions lancees une fois les familles « auto » chargees (PLAYER_LOGIN) ;
+-- A.AEntreeEnJeu : a chaque entree en jeu (PLAYER_ENTERING_WORLD : connexion, ecran de chargement).
+A.AuDemarrage = A.AuDemarrage or {}
+A.AEntreeEnJeu = A.AEntreeEnJeu or {}
+-- A.QuandActivation : fonctions(actif) appelees par /azfr on et /azfr off.
+A.QuandActivation = A.QuandActivation or {}
 local demarrage = CreateFrame("Frame")
 demarrage:RegisterEvent("PLAYER_LOGIN")
+demarrage:RegisterEvent("PLAYER_ENTERING_WORLD")
 demarrage:RegisterEvent("PLAYER_REGEN_ENABLED")
 demarrage:SetScript("OnEvent", A.Proteger("demarrage", function(self, evenement)
     if evenement == "PLAYER_LOGIN" then
@@ -614,8 +634,14 @@ demarrage:SetScript("OnEvent", A.Proteger("demarrage", function(self, evenement)
             if f.auto then A.ChargerAddon(f.addon) end
         end
         A.MemoireAuDemarrage = collectgarbage("count") - avant
-        if type(A.AuDemarrage) == "table" then
-            for _, fn in ipairs(A.AuDemarrage) do pcall(fn) end
+        for _, fn in ipairs(A.AuDemarrage) do
+            local ok, err = pcall(fn)
+            if not ok then NoterErreur("au démarrage", err) end
+        end
+    elseif evenement == "PLAYER_ENTERING_WORLD" then
+        for _, fn in ipairs(A.AEntreeEnJeu) do
+            local ok, err = pcall(fn)
+            if not ok then NoterErreur("entrée en jeu", err) end
         end
     elseif evenement == "PLAYER_REGEN_ENABLED" then
         for addon in pairs(A.EnAttente) do

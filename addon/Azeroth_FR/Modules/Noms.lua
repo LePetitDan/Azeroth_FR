@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : noms affiches dans l'interface (version 0.2).
+-- Azeroth_FR : noms affiches dans l'interface (version 0.3 : minicarte rebranchee sur MinimapCluster).
 -- - cadres d'unite : cible, focalisation, cible de la cible, boss (nom de la creature par le
 --   numero tire de son GUID, verifie par l'empreinte du nom anglais) ;
 -- - zones : minicarte (texte et infobulle), grand texte de zone a l'arrivee, carte du monde
@@ -65,30 +65,50 @@ end
 
 -- ----------------------------------------------------------------------------
 -- Minicarte : nom de la zone et son infobulle.
+-- Le client CoA (patch-B, Minimap.xml) relie l'evenement par <OnEvent function="Minimap_Update"/>
+-- sur MinimapCluster : la fonction est CAPTUREE au chargement, un crochet pose sur le nom global
+-- Minimap_Update ne s'execute jamais (essai 2 : « Northshire Valley »). Branchements retenus :
+--   - MinimapCluster:HookScript("OnEvent") : passe apres le script du cadre, quel qu'il soit ;
+--   - Minimap_SetTooltip, appele par son NOM GLOBAL a la fin de Minimap_Update et au survol ;
+--   - notre propre cadre : PLAYER_ENTERING_WORLD et changements de zone, et une fois apres le
+--     chargement de la famille « noms » (le texte a ete pose au chargement de l'interface, avant).
 -- ----------------------------------------------------------------------------
-if type(Minimap_Update) == "function" then
-    hooksecurefunc("Minimap_Update", P("Minimap_Update", function()
-        if A.Actif() then TraduireZoneTexte(MinimapZoneText) end
-    end))
+local function TraduireBulleMinicarte()
+    if not GameTooltip or not MinimapZoneTextButton or not GameTooltip:IsOwned(MinimapZoneTextButton) then return end
+    local modifie = false
+    for i = 1, GameTooltip:NumLines() do
+        local l = _G["GameTooltipTextLeft" .. i]
+        local t = l and l:GetText()
+        local fr = t and NomZone(t)
+        if fr and fr ~= t then l:SetText(fr); modifie = true end
+    end
+    if modifie then GameTooltip:Show() end
+end
+
+local function TraduireMinicarte()
+    if not A.Actif() then return end
+    TraduireZoneTexte(MinimapZoneText)
+    TraduireBulleMinicarte()
+end
+A.TraduireMinicarte = TraduireMinicarte
+
+if MinimapCluster and MinimapCluster.HookScript then
+    MinimapCluster:HookScript("OnEvent", P("MinimapCluster.OnEvent", TraduireMinicarte))
 end
 if type(Minimap_SetTooltip) == "function" then
-    hooksecurefunc("Minimap_SetTooltip", P("Minimap_SetTooltip", function()
-        if not A.Actif() or not GameTooltip or not MinimapZoneTextButton then return end
-        if not GameTooltip:IsOwned(MinimapZoneTextButton) then return end
-        local modifie = false
-        for i = 1, GameTooltip:NumLines() do
-            local l = _G["GameTooltipTextLeft" .. i]
-            local t = l and l:GetText()
-            local fr = t and NomZone(t)
-            if fr and fr ~= t then l:SetText(fr); modifie = true end
-        end
-        if modifie then GameTooltip:Show() end
-    end))
+    hooksecurefunc("Minimap_SetTooltip", P("Minimap_SetTooltip", TraduireMinicarte))
 end
+local guetteurZone = CreateFrame("Frame")
+for _, e in ipairs({ "ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "ZONE_CHANGED_NEW_AREA" }) do guetteurZone:RegisterEvent(e) end
+guetteurZone:SetScript("OnEvent", P("Noms.zone", TraduireMinicarte))
+table.insert(A.AuDemarrage, TraduireMinicarte)
+table.insert(A.AEntreeEnJeu, TraduireMinicarte)
 
 -- ----------------------------------------------------------------------------
 -- Grand texte de zone (a l'arrivee dans une zone ou une sous-zone).
 -- ----------------------------------------------------------------------------
+-- ZoneText_OnEvent (lie par function= sur ZoneTextFrame) pose ZoneTextString ET SubZoneTextString ;
+-- SubZoneTextFrame n'a pas d'evenement : le crochet utile est celui de ZoneTextFrame.
 local function TraduireTexteDeZone()
     if not A.Actif() then return end
     TraduireZoneTexte(ZoneTextString)
@@ -97,9 +117,7 @@ end
 if ZoneTextFrame and ZoneTextFrame.HookScript then
     ZoneTextFrame:HookScript("OnEvent", P("ZoneText", TraduireTexteDeZone))
 end
-if SubZoneTextFrame and SubZoneTextFrame.HookScript then
-    SubZoneTextFrame:HookScript("OnEvent", P("SubZoneText", TraduireTexteDeZone))
-end
+table.insert(A.AEntreeEnJeu, TraduireTexteDeZone)
 
 -- ----------------------------------------------------------------------------
 -- Carte du monde : nom de la zone survolee (pose a chaque image par WorldMapButton_OnUpdate),

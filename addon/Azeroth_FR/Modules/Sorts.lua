@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : sorts (version 0.2). Nom, rang et description en francais, A L'AFFICHAGE
+-- Azeroth_FR : sorts (version 0.3 ; rangs de tous les sorts, lignes de puissance PvE/PvP). Nom, rang et description en francais, A L'AFFICHAGE
 -- SEULEMENT, par le VRAI numero du sort (analyse du 03/11/2026, test 3 confirme en jeu) :
 --   - infobulle de sort      : 3e valeur de GameTooltip:GetSpell()      (OnTooltipSetSpell)
 --   - barre d'action         : 4e valeur de GetActionInfo(case)          (GameTooltip:SetAction)
@@ -403,6 +403,11 @@ end
 local function RangSort(s, rangEN)
     if type(rangEN) ~= "string" or rangEN == "" then return nil end
     if type(s) == "table" and s[3] and A.H1(rangEN) == s[4] then return s[3] end
+    local e1, coeur, e2 = match(rangEN, "^(|c%x%x%x%x%x%x%x%x)(.-)(|r)$")
+    if coeur then
+        local fr = A.Nom("rang", coeur)
+        return fr and (e1 .. fr .. e2)
+    end
     return A.Nom("rang", rangEN)
 end
 A.RangSort = RangSort
@@ -419,18 +424,27 @@ local en_cours = false
 function A.TraduireBulleSort(bulle, id)
     if en_cours or not A.Actif() or type(id) ~= "number" or not bulle then return false end
     local s = A.Sort(id)
-    if type(s) ~= "table" then return false end
     local modifie = false
-    local l1 = Ligne(bulle, 1)
-    local t1 = l1 and l1:GetText()
-    if t1 and s[1] and not A.DejaEcrit(l1, t1) and A.H1(SansCouleurs(t1)) == s[2] then
-        A.Ecrire(l1, s[1]); modifie = true
-    end
+    -- Le RANG est traduit pour TOUS les sorts, CoA compris, meme sans donnees pour ce sort : « Passive »,
+    -- « Racial », « Racial Passive »… sont des textes de rang (table RG), pas des noms.
     local r1 = Ligne(bulle, 1, "TextRight")
     local tr = r1 and r1:IsShown() and r1:GetText()
     if tr and tr ~= "" and not A.DejaEcrit(r1, tr) then
         local fr = RangSort(s, tr)
         if fr and fr ~= tr then A.Ecrire(r1, fr); modifie = true end
+    end
+    if type(s) ~= "table" then
+        if modifie and bulle:IsShown() then
+            en_cours = true
+            pcall(bulle.Show, bulle)
+            en_cours = false
+        end
+        return modifie
+    end
+    local l1 = Ligne(bulle, 1)
+    local t1 = l1 and l1:GetText()
+    if t1 and s[1] and not A.DejaEcrit(l1, t1) and A.H1(SansCouleurs(t1)) == s[2] then
+        A.Ecrire(l1, s[1]); modifie = true
     end
     if type(s[5]) == "table" or type(s[6]) == "table" then
         for i = 2, bulle:NumLines() do
@@ -560,6 +574,9 @@ function A.TrouverCorpsEffet(corps, idObjet)
     return nil
 end
 
+-- Lignes d'effets : « Use: … », « Equip: … », « Chance on hit: … », et les lignes de statistiques que le
+-- client montre SANS prefixe (CoA : « Increases PvE Power by 38. », sorts 101600-101799) : le sort dont le
+-- texte anglais a la meme forme, verifie par l'alignement (jamais un francais sans l'anglais prouve).
 function A.TraduireEffetsObjet(bulle, idObjet, cachees)
     if not A.Actif() then return false end
     local modifie = false
@@ -567,12 +584,19 @@ function A.TraduireEffetsObjet(bulle, idObjet, cachees)
         local l = Ligne(bulle, i)
         local t = l and not (cachees and cachees[i]) and l:GetText()
         if t and t ~= "" and not A.DejaEcrit(l, t) then
+            local vu = false
             for _, p in ipairs(Prefixes()) do
                 if sub(t, 1, len(p.m)) == p.m then
+                    vu = true
                     local fr = A.TraduireCorpsEffet(sub(t, len(p.m) + 1), idObjet)
                     if fr then A.Ecrire(l, p.f .. fr); modifie = true end
                     break
                 end
+            end
+            if not vu and sub(t, 1, 10) == "Increases " then
+                local e1, coeur, e2 = A.Enrobage(t)
+                local fr = A.TraduireCorpsEffet(coeur, nil)
+                if fr then A.Ecrire(l, e1 .. fr .. e2); modifie = true end
             end
         end
     end
@@ -600,10 +624,10 @@ local function TraduireBoutonGrimoire(b, case, livre)
     if not case or not livre or not b:IsShown() or type(GetSpellLink) ~= "function" then return end
     local id = A.IdDepuisLien(GetSpellLink(case, livre), "spell")
     local s = id and A.Sort(id)
-    if type(s) ~= "table" then return end
     local nom, sous = b.SpellName, b.SubSpellName
     local t = nom and nom:GetText()
-    if t and t ~= "" and s[1] and not A.DejaEcrit(nom, t) and A.H1(t) == s[2] then A.Ecrire(nom, s[1]) end
+    if type(s) == "table" and t and t ~= "" and s[1] and not A.DejaEcrit(nom, t) and A.H1(t) == s[2] then A.Ecrire(nom, s[1]) end
+    -- le rang, pour tous les sorts (meme sans donnees : « Passive » -> « Passif »)
     local r = sous and sous:GetText()
     if r and r ~= "" and not A.DejaEcrit(sous, r) then
         local fr = RangSort(s, r)
