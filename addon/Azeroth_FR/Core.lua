@@ -83,7 +83,7 @@ end
 -- quand ils agissent).
 function A.Proteger(nom, fn, sansTrace)
     return function(...)
-        if not sansTrace then A.Trace(nom) end
+        if not sansTrace then pcall(A.Trace, nom) end
         local ok, err = pcall(fn, ...)
         if not ok then NoterErreur(nom, err) end
     end

@@ -1,6 +1,16 @@
-# Fiche de reprise : Azeroth_FR (essai 3, add-on 0.3, installé chez Dan le 04/11 : en attente de ses captures ; données 0.4 prêtes)
+# Fiche de reprise : Azeroth_FR (essai 4, add-on 0.4.0, prêt à installer : l'action bloquée d'abord)
 
-*03/11/2026, mise à jour le 04/11 après l'add-on 0.3 et les données 0.4. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le 04/11 au soir après l'add-on 0.4. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Add-on 0.4 (04/11, soir) : l'action bloquée de l'essai 3 et les retours en jeu
+
+- **Branche** `addon-0.4` (partie de `main` `20b304a`), à fusionner après lecture. Zip `dist/Azeroth_FR-0.4.0.zip` (18,0 Mo, sha256 `b33431c5e4049502628576376f701064cb6a99d1b907d15315ad5423d71ce18b`), **16 add-ons** (+ `Azeroth_FR_HautsFaits`) et `PTRXML`. Banc **101 exemples, 219 vérifications**, plus `PTRXML` et l'écran de création : conforme. Deux imports identiques ; contrôle 0 bloquant ; test du contrôle 54/54 et 31/31.
+- **Action bloquée (essai 3)** : **non élucidée**, non reproductible hors jeu ; aucune fonction protégée appelée par l'add-on d'après le code CoA lu. Hypothèses et preuves : rapport § 1.3 (les bulles coïncident dans le temps). Fait : **diagnostic** (`Modules/Diagnostic.lua` : événements de blocage en lecture seule, fil d'Ariane des modules, annonce unique, `/azfr stats`, 5 derniers gardés dans `AzerothFR_Reglages.blocages`), **`/azfr erreurs`** (lecture seule de `ERROR_HANDLER_DATABASE`), **interrupteurs** `/azfr bulles|centre|plaques on|off`, **rien de redimensionné en combat**, bulles non cherchées en combat, plus d'appel à `GossipResize` ni `SpellBook_GetSpellID`.
+- **Retours traités** : marchand (achat, rachat), butin, panneau des quêtes de la carte (« 0/8 Vermine kobold tué »), pierre de foyer (`$z` et double espace), plaques de nom (`NAME_PLATE_UNIT_ADDED`, GUID + empreinte), création de personnage (dans `PTRXML`, races officielles m/f, classes au féminin), livre des métiers, barre d'incantation, « … a accompli le haut fait … », gemmes CoA sur plusieurs lignes et noms colorés.
+- **Pas faisable** : types de créatures (`CreatureType.dbc` frFR absent de `patch-frFR-3.MPQ` : il faudrait `locale-frFR.MPQ`) ; texte de progression de la quête 7 (aucun français) ; « Help Me Choose » (pas de français).
+- **Données** : règle `nombre_seul` (173 hauts faits à revoir) ; décisions 15 à 17 appliquées ; `RACE_SELECTED_TEXT` relu (« Race » et non « Course ») ; question 18 (*Bushcraft*) ajoutée à `A_TRANCHER.md`.
+- **Notice** : `docs/ESSAI4_installer.md` (supprimer les 15 dossiers et `PTRXML` de l'essai 3 ; 16 vérifications, l'action bloquée d'abord). **Rapport** : `docs/2026-11-04_Rapport_Addon-0.4.md`.
+- **Prochaine étape** : l'essai 4 chez Dan ; si le blocage revient, la ligne « action bloquée » (add-on, fonction, fil d'Ariane) dira la cause.
 
 ## Données 0.4 (04/11) : décisions de vocabulaire 12 à 14 appliquées
 

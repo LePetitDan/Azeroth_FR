@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : messages systeme dans la discussion (version 0.3 : titre de quete par le journal).
+-- Azeroth_FR : messages systeme dans la discussion (version 0.4 : hauts faits accomplis).
 -- « Quest accepted: A Threat Within », « A Threat Within completed. », « Experience gained:
 -- 55. », « Reputation with Stormwind increased by 55. », butin, argent, competences…
 --
@@ -37,7 +37,24 @@ function A.TraduireLiens(texte)
         end)
     end
     if A.TraduireLiensSort then texte = A.TraduireLiensSort(texte) end
+    -- 0.4 : |Hachievement:N:…|h[Nom]|h (table des hauts faits, chargee a la demande ; empreinte de l'anglais)
+    if find(texte, "|Hachievement:", 1, true) then
+        texte = gsub(texte, "(|Hachievement:(%d+)[^|]*|h%[)(.-)(%]|h)", function(debut, id, nom, fin)
+            local fr = A.NomHautFait(tonumber(id), nom)
+            return debut .. (fr or nom) .. fin
+        end)
+    end
     return texte
+end
+
+-- Nom francais d'un haut fait par numero, verifie par l'empreinte du nom anglais affiche.
+function A.NomHautFait(id, nomEN)
+    if type(id) ~= "number" then return nil end
+    local t = A.TableDe("hauts_faits", "HF")
+    local r = t and t:ParId(id)
+    if type(r) ~= "table" or not r[1] then return nil end
+    if nomEN and A.H1(nomEN) ~= r[2] then return nil end
+    return r[1]
 end
 
 -- ----------------------------------------------------------------------------
@@ -198,7 +215,7 @@ A.TraduitDiscussion = Traduit
 -- Filtre : (cadre, evenement, message, emetteur, …11 arguments) -> false, nouveaux arguments.
 local function Filtre(self, evenement, message, ...)
     if not A.Actif() or type(message) ~= "string" or message == "" then return false end
-    A.Trace("filtre discussion")
+    pcall(A.Trace, "filtre discussion")
     local r = Traduit(evenement, message)
     if r then return false, r, ... end
     return false
@@ -222,7 +239,9 @@ if type(ChatFrame_AddMessageEventFilter) == "function" then
         -- liens seulement
         "CHAT_MSG_SAY", "CHAT_MSG_YELL", "CHAT_MSG_PARTY", "CHAT_MSG_PARTY_LEADER", "CHAT_MSG_RAID",
         "CHAT_MSG_RAID_LEADER", "CHAT_MSG_GUILD", "CHAT_MSG_OFFICER", "CHAT_MSG_WHISPER", "CHAT_MSG_WHISPER_INFORM",
-        "CHAT_MSG_CHANNEL", "CHAT_MSG_BATTLEGROUND", "CHAT_MSG_BATTLEGROUND_LEADER" }) do
+        "CHAT_MSG_CHANNEL", "CHAT_MSG_BATTLEGROUND", "CHAT_MSG_BATTLEGROUND_LEADER",
+        -- 0.4 : « %s has earned the achievement [X]! » (joueur, guilde)
+        "CHAT_MSG_ACHIEVEMENT", "CHAT_MSG_GUILD_ACHIEVEMENT" }) do
         ChatFrame_AddMessageEventFilter(e, Filtre)
     end
     ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL_NOTICE", FiltreCanal)

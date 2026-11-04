@@ -230,6 +230,7 @@ local function IdJournal(i)
     if type(id) == "number" and id > 0 then return id end
     return A.IdDepuisLien(GetQuestLink and GetQuestLink(i), "quest")
 end
+A.IdJournal = IdJournal
 
 -- Titres anglais vus dans le journal -> numeros (garde la memoire d'une quete rendue : « %s
 -- terminée. » arrive quand elle a deja quitte le journal). Petite table, videe si elle grossit.

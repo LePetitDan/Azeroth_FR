@@ -20,6 +20,8 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 ## Ajouts du 04/11/2026
 
 > **Points 11 à 14 appliqués** : 11 dans l'add-on 0.3 ; 12 à 14 dans les données 0.4 (`glossaire/etiquettes.tsv`, `outils/modele_officiel.py`). Bilan : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
+>
+> **Points 15 à 17 appliqués** (add-on 0.4) : compétences 757 et 732, sort 13977860 en `relu` ; règles « Woodworking→Menuiserie » et « Woodcutting→Bûcheronnage » (`regles_controle.tsv`), 11 corrections sûres (`corrections_sures.tsv`) ; 22 formes féminines des classes (`outils/importer.py`, `CLASSES_COA_F`). Bilan : `docs/2026-11-04_Rapport_Addon-0.4.md`.
 
 | # | Anglais | Décision de Dan | Ce que ça implique |
 |---|---|---|---|

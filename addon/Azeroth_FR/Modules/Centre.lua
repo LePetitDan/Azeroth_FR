@@ -73,7 +73,7 @@ A.CentrePrendre, A.CentreRendre = Prendre, Rendre
 function A.CentrePris() return pris end
 
 cadre:SetScript("OnEvent", function(self, evenement, message, ...)
-    A.Trace("Centre.OnEvent")
+    pcall(A.Trace, "Centre.OnEvent")
     local ok, err = pcall(function()
         local fr = A.ModuleActif("centre") and Traduire(message) or nil
         if fr then A.Compteurs.centre = A.Compteurs.centre + 1 end

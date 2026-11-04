@@ -26,7 +26,7 @@ A.TraduireCri = TraduireCri
 -- Arguments d'un message : texte, emetteur, langue, canal, cible ($n), … (3.3.5)
 local function Filtre(self, evenement, message, emetteur, ...)
     if not A.Actif() then return false end
-    A.Trace("filtre cris")
+    pcall(A.Trace, "filtre cris")
     local ok, nouveau, nouvelEmetteur = pcall(TraduireCri, message, emetteur, (select(3, ...)))
     if not ok then
         A.NoterErreur("filtre " .. tostring(evenement), nouveau)

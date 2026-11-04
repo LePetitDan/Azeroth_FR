@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : noms affiches dans l'interface (version 0.3 : minicarte rebranchee sur MinimapCluster).
+-- Azeroth_FR : noms affiches dans l'interface (version 0.4 ; depuis la 0.3 : minicarte rebranchee sur MinimapCluster).
 -- - cadres d'unite : cible, focalisation, cible de la cible, boss (nom de la creature par le
 --   numero tire de son GUID, verifie par l'empreinte du nom anglais) ;
 -- - zones : minicarte (texte et infobulle), grand texte de zone a l'arrivee, carte du monde

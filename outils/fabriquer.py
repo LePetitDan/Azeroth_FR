@@ -338,6 +338,10 @@ GABARITS = [
 ] + [('COMBATLOG_XPGAIN_EXHAUSTION%d%s' % (i, s), 'cnnn' + ('n' if s else ''), 'COMBAT_XP_GAIN')
      for i in (1, 2, 4, 5) for s in ('', '_GROUP', '_RAID')] + [
     ('COMBATLOG_HONORGAIN', 'cnn', 'COMBAT_HONOR_GAIN'),
+    # add-on 0.4 : « %s has earned the achievement %s! » (le premier %s reste « %s » : la fenetre de discussion y met le
+    # nom du personnage) ; meme gabarit pour la variante de guilde (CHAT_MSG_GUILD_ACHIEVEMENT)
+    ('ACHIEVEMENT_BROADCAST', 'xs', 'ACHIEVEMENT GUILD_ACHIEVEMENT'),
+    ('ACHIEVEMENT_BROADCAST_SELF', 's', 'ACHIEVEMENT GUILD_ACHIEVEMENT SYSTEM'),
     ('LOOT_ITEM_SELF', 'o', 'LOOT'), ('LOOT_ITEM_SELF_MULTIPLE', 'on', 'LOOT'),
     ('LOOT_ITEM_PUSHED_SELF', 'o', 'LOOT'), ('LOOT_ITEM_PUSHED_SELF_MULTIPLE', 'on', 'LOOT'),
     ('LOOT_ITEM_CREATED_SELF', 'o', 'LOOT'), ('LOOT_ITEM_CREATED_SELF_MULTIPLE', 'on', 'LOOT'),
@@ -473,9 +477,12 @@ CHAMPS_NOM = re.compile(r'^(name|nom|title|titre|area_name|label|libelle)(_?(fem
 DOMAINES = [('enchantement', 'enchantement'), ('sous_classe', 'sous_classe'), ('subclass', 'sous_classe'), ('suffixe', 'suffixe'), ('faction', 'faction'),
             ('competence', 'competence'), ('skill', 'competence'), ('ensemble', 'ensemble'),
             ('zone', 'zone'), ('carte', 'zone'), ('area', 'zone'), ('point_interet', 'zone'), ('wmo', 'zone'),
-            ('classe', 'classe'), ('class', 'classe'), ('race', 'race')]
+            ('classe', 'classe'), ('class', 'classe'), ('race', 'race'), ('type_creature', 'type_creature')]
 TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe': 'NSC', 'ensemble': 'NE',
-               'classe': 'NCL', 'race': 'NRA', 'divers': 'NX', 'rang': 'RG', 'suffixe': 'NSU', 'enchantement': 'NEN'}
+               'classe': 'NCL', 'race': 'NRA', 'divers': 'NX', 'rang': 'RG', 'suffixe': 'NSU', 'enchantement': 'NEN',
+               # add-on 0.4 : types de creatures (« Beast » -> « Bete ») : table vide tant que CreatureType.dbc frFR
+               # officiel manque a la source (absent de patch-frFR-3.MPQ)
+               'type_creature': 'NTC'}
 # Domaines ou un meme anglais aux francais differents n'est PAS embarque (ambigu : l'anglais reste)
 DOMAINES_STRICTS = {'enchantement'}
 CHAMPS_QUETE_TITRE = ('LogTitle',)
@@ -491,6 +498,47 @@ RACES_OFFICIELLES = {
     'Tauren': ('Tauren', 'Taurène'), 'Gnome': ('Gnome', 'Gnome'), 'Troll': ('Troll', 'Trollesse'),
     'Blood Elf': ('Elfe de sang', 'Elfe de sang'), 'Draenei': ('Draeneï', 'Draeneï'),
 }
+
+
+RX_ENROBAGE = re.compile(r'^(\|c[0-9A-Fa-f]{8})(.*)\|r$', re.S)
+
+
+def formes_enchantement(en, fr):
+    """Formes d'un nom d'enchantement que le client peut afficher : [(anglais, francais, nature)].
+    - telle quelle (une ligne) ;
+    - retours a la ligne normalises (\r\n -> \n) ;
+    - sans la couleur exterieure « |cffxxxxxx…|r » (l'add-on cherche la ligne sans elle : A.Enrobage), ou sans le
+      « |r » final seul ;
+    - chaque ligne d'un nom sur plusieurs lignes (gemmes CoA : un bonus par ligne), si les deux textes ont le meme
+      nombre de lignes. Une forme qui aurait deux francais est ecartee a la resolution (domaine strict)."""
+    out = []
+
+    def nl(t):
+        return t.replace('\r\n', '\n').replace('\r', '\n')
+
+    def ajouter(e, f, quoi):
+        if e and f and e != f and '\n' not in e:
+            out.append((e, f, quoi))
+        elif e and f and e != f:
+            out.append((e, f, quoi + '_plusieurs_lignes'))
+
+    if '\r' not in en and '\n' not in en:
+        ajouter(en, fr, 'brute')
+    else:
+        ajouter(nl(en), nl(fr), 'normalisee')
+    coeur_en, coeur_fr = en, fr
+    me, mf = RX_ENROBAGE.match(en), RX_ENROBAGE.match(fr)
+    if me and mf and me.group(1) == mf.group(1):
+        coeur_en, coeur_fr = me.group(2), mf.group(2)
+        ajouter(nl(coeur_en), nl(coeur_fr), 'sans_couleur')
+    elif en.endswith('|r') and fr.endswith('|r') and not en.startswith('|c'):
+        coeur_en, coeur_fr = en[:-2], fr[:-2]
+        ajouter(nl(coeur_en), nl(coeur_fr), 'sans_fin_couleur')
+    le, lf = nl(coeur_en).split('\n'), nl(coeur_fr).split('\n')
+    if len(le) > 1 and len(le) == len(lf):
+        for e, f in zip(le, lf):
+            ajouter(e.strip(), f.strip(), 'ligne')
+    return out
 
 
 def domaine_nom(rel, typ):
@@ -712,6 +760,24 @@ class Fabrique:
             o.entrees[i] = r if r[2] is not False else r[:2]
         return [o]
 
+    def famille_hauts_faits(self):
+        """Add-on 0.4 : noms des hauts faits (HF : numero -> {francais, empreinte de l'anglais}), pour le lien du
+        message « %s has earned the achievement [X]! » ; le nom n'est pose que si l'anglais affiche est celui de la
+        source (empreinte). Les descriptions et recompenses ne sont pas embarquees (fenetre des hauts faits : plus tard)."""
+        hf = Table('hauts_faits', 'HF', 'id')
+        for l, fr in self.lignes('hauts_faits', ['client/hauts_faits.tsv']):
+            if l[K.I_TYPE] != 'haut_fait' or l[K.I_CHAMP] != 'name':
+                self.cpt['hauts_faits']['hors_noms'] += 1
+                continue
+            try:
+                i = int(l[K.I_ID])
+            except ValueError:
+                continue
+            hf.entrees[i] = [fr, empreintes(l[K.I_EN])[0]]
+            self.cpt['hauts_faits']['lignes_embarquees'] += 1
+            self.textes['hauts_faits'].add(l[K.I_EN])
+        return [hf]
+
     # -- partie generique : sorts et noms ----------------------------------
     def generique(self):
         """Lit tous les autres fichiers de textes/ ; renvoie (table des sorts, index des sorts, tables de noms)."""
@@ -749,6 +815,18 @@ class Fabrique:
                     self.cpt[fam]['lignes_embarquees'] += 1
                     self.cpt['sorts']['lignes_embarquees'] += 1
                     self.textes['sorts'].add(en)
+                elif CHAMPS_NOM.match(champ) and domaine_nom(rel, typ) == 'enchantement' and '$' not in en \
+                        and len(en) <= 400:
+                    # add-on 0.4 : noms d'enchantements sur plusieurs lignes (gemmes CoA) et noms colores : on range
+                    # aussi les formes que le client peut afficher (sans couleur exterieure, retours a la ligne
+                    # normalises, chaque ligne a part)
+                    formes = formes_enchantement(en, fr)
+                    for en_f, fr_f, quoi in formes:
+                        noms['enchantement'][en_f].append((prio, fr_f))
+                        self.cpt['noms']['enchantement_forme_' + quoi] += 1
+                    self.cpt[fam]['lignes_embarquees'] += 1
+                    self.cpt['noms']['lignes_embarquees_enchantement'] += 1
+                    self.textes['noms'].add(en)
                 elif CHAMPS_NOM.match(champ) and len(en) <= 120 and '\n' not in en and '$' not in en:
                     dom = domaine_nom(rel, typ)
                     (noms_f if est_feminin(champ) else noms)[dom][en].append((prio, fr))
@@ -1179,7 +1257,15 @@ def main():
         ecrire_toc(d, 'Azeroth_FR_SortsIndex', 'Azeroth_FR - Index des sorts (données)',
                    'Lignes « Use: » des objets : sort retrouvé par son texte (chargé à la demande)', version, fs)
         familles_lua.append({'famille': 'sorts_index', 'addon': 'Azeroth_FR_SortsIndex', 'auto': False})
-    for fam in ('sorts', 'noms'):
+    # -- add-on 0.4 : noms des hauts faits (charges a la demande, au premier message de haut fait) --
+    hf = fab.famille_hauts_faits()
+    if hf[0].entrees:
+        d = os.path.join(addons, 'Azeroth_FR_HautsFaits')
+        fs = ecrire_donnees(d, 'Donnees', hf, version, 'noms des hauts faits', bilan)
+        ecrire_toc(d, 'Azeroth_FR_HautsFaits', 'Azeroth_FR - Hauts faits (données)',
+                   'Noms des hauts faits pour la discussion (chargé à la demande par Azeroth_FR)', version, fs)
+        familles_lua.append({'famille': 'hauts_faits', 'addon': 'Azeroth_FR_HautsFaits', 'auto': False})
+    for fam in ('sorts', 'noms', 'hauts_faits'):
         bilan['familles'][fam] = {'compteurs': dict(fab.cpt[fam]), 'textes_anglais_distincts': len(fab.textes[fam])}
     bilan['familles']['sorts']['octets_donnees'] = taille_sorts
     for rel in fab.fichiers_generiques:
@@ -1226,8 +1312,15 @@ def main():
     n_const = len(set(x for t in inter for x in t)) + 40
     if n_const > MAX_CONSTANTES:
         raise SystemExit('ERREUR : AzerothFR_Interface.lua aurait %d constantes' % n_const)
+    # add-on 0.4 : ecran de creation de personnage (avant-jeu, ou seul PTRXML tourne) : noms des races (officiels,
+    # masculin et feminin) et des classes (source ; feminin decide, point 17), par anglais exact
+    races_glue = {en: [v[0], v[1]] for en, v in fab.races.items() if v and v[0] and v[1] and (v[0] != en or v[1] != en)}
+    classes_glue = {en: [fr, fab.classes_f.get(en, fr)] for en, fr in fab.classes.items()}
+    bilan['familles']['creation_personnage'] = {'races': len(races_glue), 'classes': len(classes_glue),
+                                                'classes_feminin': sum(1 for en in classes_glue if en in fab.classes_f)}
     contenu = (entete_lua(version, 'textes d\'interface en français (%d clés)' % len(inter))
-               + modele.replace(b'@VERSION@', version.encode()).replace(b'@DONNEES@', donnees))
+               + modele.replace(b'@VERSION@', version.encode()).replace(b'@DONNEES@', donnees)
+               .replace(b'@RACES@', lua_valeur(races_glue)).replace(b'@CLASSES@', lua_valeur(classes_glue)))
     with open(os.path.join(ptr, 'AzerothFR_Interface.lua'), 'wb') as f:
         f.write(contenu)
     bilan['fichiers']['PTRXML/AzerothFR_Interface.lua'] = {'octets': len(contenu), 'constantes_calculees': n_const}

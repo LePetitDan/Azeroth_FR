@@ -35,9 +35,9 @@ end
 
 local function Stats()
     local c = A.Compteurs
-    A.Message(format("affichage %s ; %d textes posés en français, %d recherches ; %d messages de discussion, %d infobulles de sorts, %d lignes du suivi rehaussées, %d bulles, %d messages du centre (%s) ; erreurs évitées : %d.",
+    A.Message(format("affichage %s ; %d textes posés en français, %d recherches ; %d messages de discussion, %d infobulles de sorts, %d lignes du suivi rehaussées (%d laissées en anglais pendant un combat), %d bulles (%d laissées en anglais pendant un combat), %d plaques de nom, %d messages du centre (%s) ; erreurs évitées : %d.",
         A.Actif() and "ACTIF" or "COUPÉ", c.traduits, c.recherches, c.discussion or 0, c.sorts or 0,
-        c.suivi_hauteur or 0, c.bulles or 0, c.centre or 0,
+        c.suivi_hauteur or 0, c.suivi_combat or 0, c.bulles or 0, c.bulles_combat or 0, c.plaques or 0, c.centre or 0,
         A.CentrePris and (A.CentrePris() and "pris en charge" or (A.CentreEnPanne and "rendus au jeu après une erreur" or "laissés au jeu")) or "?",
         A.Erreurs))
     if A.DerniereErreur then A.Message("dernière erreur évitée : " .. A.DerniereErreur) end

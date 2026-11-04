@@ -74,12 +74,14 @@ local MOTIFS_VARIABLE = {
 
 local function Echapper(t) return (gsub(t, "([%^%$%(%)%%%.%[%]%*%+%-%?])", "%%%1")) end
 
--- Litteral avec espaces de tete et de queue souples ; un separateur tout blanc reste exige.
+-- Litteral avec espaces de tete et de queue souples ; un separateur tout blanc reste exige. 0.4 : les suites
+-- d'espaces INTERIEURES sont souples aussi (« $z.  Speak to an Innkeeper » : double espace du DBC, que le
+-- client peut afficher simple).
 local function Souple(litteral)
     if litteral == "" then return "" end
     if find(litteral, "^%s*$") then return "%s+" end
     local coeur = match(litteral, "^%s*(.-)%s*$")
-    local motif = Echapper(coeur)
+    local motif = gsub(Echapper(coeur), "%s+", "%%s+")
     if find(litteral, "^%s") then motif = "%s*" .. motif end
     if find(litteral, "%s$") then motif = motif .. "%s*" end
     return motif
@@ -540,11 +542,21 @@ local function Prefixes()
     return out
 end
 
--- Le sort dont le texte anglais a la meme forme (index par squelette, charge a la demande).
+-- Le sort dont le texte anglais a la meme forme (index par squelette, charge a la demande). 0.4 : un texte qui
+-- contient le lieu de la pierre de foyer ($z, « Returns you to Elwynn Forest. ») est aussi cherche avec ce lieu
+-- remplace par une valeur (le squelette du modele a « # » a la place de $z) ; la description est ensuite verifiee
+-- par l'alignement complet, et $z traduit par le nom de zone.
 local function SortsParTexte(corps)
     local sk = A.TableDe("sorts_index", "SK")
     local ids = sk and sk:ParTexte(A.Squelette(corps))
     if type(ids) == "table" then return ids end
+    if sk and type(GetBindLocation) == "function" then
+        local ok, lieu = pcall(GetBindLocation)
+        if ok and type(lieu) == "string" and lieu ~= "" and find(corps, lieu, 1, true) then
+            ids = sk:ParTexte(A.Squelette((gsub(corps, A.Echapper(lieu), "1"))))
+            if type(ids) == "table" then return ids end
+        end
+    end
     return {}
 end
 
@@ -610,6 +622,7 @@ end
 -- GetSpellLink(case, livre). Repasse 5 fois par seconde, grimoire ouvert seulement.
 -- ----------------------------------------------------------------------------
 local boutons_grimoire
+local metiers_nouveaux = true
 
 local function ChercherBoutons(cadre, profondeur, out)
     if not cadre or profondeur > 5 or type(cadre.GetChildren) ~= "function" then return end
@@ -644,6 +657,9 @@ local function TraduireGrimoire()
             ChercherBoutons(cadre, 0, boutons_grimoire)
         end
         for _, b in ipairs(boutons_grimoire) do TraduireBoutonGrimoire(b, b.spell, b.bookType) end
+        -- 0.4 : livre des metiers (Modules/Fenetres.lua)
+        if A.TraduireMetiers then A.TraduireMetiers(cadre, metiers_nouveaux) end
+        metiers_nouveaux = false
     end
     -- 0.4 : plus d'appel a SpellBook_GetSpellID (fonction du jeu appelee par l'add-on) : dans le client CoA
     -- (patch-B, SpellBookFrame.lua) c'est une fonction VIDE et le grimoire standard n'est pas utilise.
@@ -660,11 +676,35 @@ guetteur:SetScript("OnUpdate", P("Sorts.grimoire", function(_, ecoule)
     if visible then
         A.Trace("Sorts.grimoire")
         -- a chaque ouverture, on recherche les boutons (les pages du grimoire peuvent etre creees plus tard)
-        if not ouvert then boutons_grimoire = nil end
+        if not ouvert then boutons_grimoire = nil; metiers_nouveaux = true end
         TraduireGrimoire()
     end
     ouvert = visible and true or false
 end, true))
+
+-- ----------------------------------------------------------------------------
+-- 0.4 : barre d'incantation du joueur. CastingBarFrameTemplate (patch-enUS, CastingBarFrame.xml) appelle
+-- CastingBarFrame_OnEvent PAR SON NOM (<OnEvent> en ligne) ; patch-B, CastingBarFrame.lua : au debut d'un sort
+-- ou d'une canalisation, barText:SetText(text) avec le nom anglais (UnitCastingInfo, sans numero de sort). Le
+-- numero vient de GetSpellLink(nom) (sorts du grimoire du joueur) ; le francais n'est pose que si l'empreinte
+-- du nom anglais affiche est celle du sort traduit (A.NomSort). Une zone de texte d'un cadre non protege.
+-- ----------------------------------------------------------------------------
+local EVENEMENTS_BARRE = { UNIT_SPELLCAST_START = true, UNIT_SPELLCAST_CHANNEL_START = true, PLAYER_ENTERING_WORLD = true }
+function A.TraduireBarreIncantation(barre, evenement)
+    if not A.Actif() or not barre or barre ~= CastingBarFrame or not EVENEMENTS_BARRE[evenement] then return end
+    local zone = CastingBarFrameText
+    local t = zone and zone:GetText()
+    if not t or t == "" or A.DejaEcrit(zone, t) or type(GetSpellLink) ~= "function" then return end
+    local ok, lien = pcall(GetSpellLink, t)
+    local id = ok and A.IdDepuisLien(lien, "spell")
+    local fr = id and A.NomSort(id, t)
+    if fr and fr ~= t then A.Ecrire(zone, fr) end
+end
+if type(CastingBarFrame_OnEvent) == "function" then
+    hooksecurefunc("CastingBarFrame_OnEvent", P("CastingBarFrame_OnEvent", function(barre, evenement)
+        A.TraduireBarreIncantation(barre, evenement)
+    end))
+end
 
 -- Liens de sort dans la discussion : « |Hspell:2120|h[Flamestrike]|h » -> nom francais.
 function A.TraduireLiensSort(texte)

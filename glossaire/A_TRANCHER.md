@@ -6,7 +6,7 @@
 >
 > En attendant ta réponse, **tout ce qui suit reste en anglais** en jeu.
 
-*Mis à jour le 04/11/2026 (données 0.4). Chaque chiffre vient d'un comptage dans `textes/` : « lignes » =
+*Mis à jour le 04/11/2026 (add-on 0.4 : question 18 ajoutée). Chaque chiffre vient d'un comptage dans `textes/` : « lignes » =
 descriptions d'objets qui portent l'étiquette ; « noms » = noms d'enchantements CoA.*
 
 **Pour répondre** : une lettre par ligne suffit (ex. « 11h A, 11j A, 11m A, 12a A, 12b B »).
@@ -23,6 +23,7 @@ descriptions d'objets qui portent l'étiquette ; « noms » = noms d'enchantemen
 | 11m | « Raid: The Obsidian Sanctum / Eye of Eternity - N Player », « Heroic Raid: Naxxramas - 10 Player » | 79 lignes | A : même modèle que Naxxramas |
 | 12a | Enchantements : 4 modèles que Blizzard traduit de deux façons | 1 390 noms | A : la forme majoritaire de Blizzard |
 | 12b | Enchantements : formes propres à CoA sans aucun modèle officiel | 1 697 bonus (7 formes) | B : traduire au chantier de traduction |
+| 18 | Métier CoA *Bushcraft* (livre des métiers, essai 3) | 1 nom (compétence 505) | à toi de choisir, voir plus bas |
 
 ---
 
@@ -111,3 +112,17 @@ Blizzard n'a aucun nom de cette forme : le modèle ne peut pas s'appliquer. Les 
 | A. Adopter les formes proches ci-dessus quand il y en a une | |
 | **B. Les traduire au chantier de traduction**, relues une à une | Pas de forme inventée sans toi |
 | C. Garder l'anglais | |
+
+## 18. Métier CoA « Bushcraft » (1 nom)
+
+Le livre des métiers de CoA (onglet « Métiers » du grimoire) montre tous les métiers. Depuis l'add-on 0.4, leurs noms
+sont en français (« Forge », « Alchimie », « Menuiserie », « Bûcheronnage »…), sauf **Bushcraft** : c'est un métier
+propre à CoA (compétence 505 de `SkillLine.dbc`), sans nom chez Blizzard et sans décision. Il reste en anglais.
+
+| Option | |
+|---|---|
+| A. « Survie » | court, proche de l'esprit du métier (vivre de la nature) |
+| B. « Art de la brousse » | plus proche du mot anglais |
+| C. Garder « Bushcraft » en anglais | comme Worldforged |
+| D. Autre (à ta guise) | |
+

@@ -825,6 +825,129 @@ def choisir_cas():
             att = elision(globales['ERR_QUEST_ACCEPTED_S'] % t7[K.I_FR])
             cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM', 'nom': 'discussion « %s » par le journal (numéro 7)' % m_en,
                         'message': m_en, 'attendu': att, 'journal': [{'titre': t7[K.I_EN], 'id': 7}]})
+    # ---- add-on 0.4 : retours de l'essai 3 (cas reels) ----
+    obj = {}
+    for rel in ('serveur/objets/objets_0000000-0199999.tsv',):
+        for x in lire(rel):
+            if x[K.I_CHAMP] == 'name' and x[K.I_EN] in ('Tarnished Chain Vest', 'Ruined Pelt', 'Hearthstone', 'Linen Cloth',
+                                                         'Light Leather', 'Malachite') and passe(x):
+                obj[x[K.I_EN]] = (int(x[K.I_ID]), x[K.I_FR])
+    if 'Tarnished Chain Vest' in obj and 'Ruined Pelt' in obj and 'Linen Cloth' in obj:
+        def o(nom):
+            return {'id': obj[nom][0], 'nom': nom, 'attendu': obj[nom][1]}
+        autre = {'id': obj['Linen Cloth'][0], 'nom': 'Linen Cloth of the Monkey', 'attendu': 'Linen Cloth of the Monkey'}
+        cas.append({'quoi': 'marchand', 'nom': 'marchand : achat et rachat (« Tarnished Chain Vest », essai 3)',
+                    'achat': [o('Tarnished Chain Vest'), o('Linen Cloth')], 'rachat': [o('Ruined Pelt')]})
+        cas.append({'quoi': 'butin', 'nom': 'fenêtre de butin (« Ruined Pelt », essai 3) ; nom changé par le serveur : anglais',
+                    'objets': [o('Ruined Pelt'), {'id': obj['Tarnished Chain Vest'][0], 'nom': 'Tarnished Chain Vest X',
+                                                  'attendu': 'Tarnished Chain Vest X'}]})
+    else:
+        NOTES.append('objets de l\'essai 3 (Tarnished Chain Vest, Ruined Pelt, Linen Cloth) introuvables : cas marchand et butin absents')
+    # carte du monde : quete 7, objectif « 0/8 Kobold Vermin tue » (gabarit francais du jeu, retourne)
+    if t7:
+        obj_fr_jeu = g_tue.replace('%s', ne, 1).replace('%d', '0', 1).replace('%d', '8', 1)
+        cas.append({'quoi': 'carte', 'nom': 'carte du monde, panneau des quêtes : quête 7 et « 0/8 %s tué »' % ne,
+                    'id': 7, 'titre_en': t7[K.I_EN], 'titre_attendu': t7[K.I_FR],
+                    'objectifs': [obj_fr_jeu], 'objectifs_attendus': inverser(g_tue % (nf, 0, 8)) + '|n'})
+        fin = d7.get('QuestCompletionLog')
+        if fin and passe(fin):
+            cas.append({'quoi': 'carte', 'nom': 'carte du monde : quête 7 terminée (texte de fin)', 'id': 7,
+                        'titre_en': t7[K.I_EN], 'titre_attendu': t7[K.I_FR], 'termine': True,
+                        'texte_fin': afficher_en(fin[K.I_EN]), 'objectifs_attendus': rendre_fr(fin[K.I_FR])})
+    # texte de progression : la quete 7 n'a pas de francais (a_traduire) ; une quete qui en a un
+    dem = [x for x in q if x[K.I_TYPE] == 'quete_demande' and x[K.I_CHAMP] == 'CompletionText']
+    d7p = next((x for x in dem if x[K.I_ID] == '7'), None)
+    if d7p is not None:
+        NOTES.append('texte de progression de la quête 7 : état « %s » (aucun français dans la source : ni AzerothCore, ni TDB '
+                     'n\'ont les textes de demande ; reste en anglais)' % d7p[K.I_ETAT])
+    nb_dem = Counter(x[K.I_EN] for x in dem)
+    dp = next((x for x in dem if passe(x) and '$' not in x[K.I_EN] and nb_dem[x[K.I_EN]] == 1 and x[K.I_FR] != x[K.I_EN]), None)
+    if dp:
+        cas.append({'quoi': 'progression', 'nom': 'texte de progression (QUEST_PROGRESS) de la quête %s' % dp[K.I_ID],
+                    'anglais': dp[K.I_EN], 'attendu': dp[K.I_FR]})
+    # pierre de foyer : « Use: Returns you to $z.  Speak to an Innkeeper… » (sort 8690, $z = lieu du foyer)
+    hs = [x for x in lire('client/sorts_standard.tsv') if x[K.I_ID] == '8690' and x[K.I_CHAMP] == 'Description']
+    zn_abb = next((x for x in lire('client/zones.tsv') if x[K.I_EN] == 'Northshire Abbey' and passe(x)), None)
+    if hs and passe(hs[0]) and 'Hearthstone' in obj and zn_abb:
+        g_use = globales.get('ITEM_SPELL_TRIGGER_ONUSE', 'Use:')
+        for espace, quoi in (('  ', 'double espace du DBC'), (' ', 'espace simple')):
+            corps_en = hs[0][K.I_EN].replace('$z', 'Northshire Abbey').replace('  ', espace)
+            cas.append({'quoi': 'pierre_de_foyer', 'nom': 'pierre de foyer 6948 : ligne « Utiliser : » du sort 8690 ($z = « Northshire Abbey », %s)' % quoi,
+                        'id': obj['Hearthstone'][0], 'anglais': 'Hearthstone', 'attendu': obj['Hearthstone'][1],
+                        'lieu': 'Northshire Abbey', 'ligne': 3,
+                        'lignes': ['Hearthstone', 'Soulbound', g_use + ' ' + corps_en],
+                        'ligne_attendue': g_use + ' ' + hs[0][K.I_FR].replace('$z', zn_abb[K.I_FR])})
+    else:
+        NOTES.append('pierre de foyer : sort 8690, objet 6948 ou zone « Northshire Abbey » sans français affichable')
+    # barre d'incantation : sort standard 133 « Fireball »
+    fb = next((x for x in lire('client/sorts_standard.tsv') if x[K.I_ID] == '133' and x[K.I_CHAMP] == 'Name' and passe(x)), None)
+    if fb:
+        cas.append({'quoi': 'barre', 'nom': 'barre d\'incantation : « %s » (GetSpellLink par le nom, empreinte)' % fb[K.I_EN],
+                    'id': 133, 'anglais': fb[K.I_EN], 'attendu': fb[K.I_FR], 'inconnu': 'Shock'})
+    # haut fait accompli : « %s has earned the achievement [Path to Ascension: Power of Professions]! » (essai 3)
+    hfx = next((x for x in lire('client/hauts_faits.tsv') if x[K.I_TYPE] == 'haut_fait' and x[K.I_ID] == '87250'
+                and x[K.I_CHAMP] == 'name' and passe(x)), None)
+    if hfx and 'ACHIEVEMENT_BROADCAST' in inter:
+        lien_en = '|cffffff00|Hachievement:87250:0000000000000042:1:11:4:26:4294967295:4294967295:4294967295:4294967295|h[%s]|h|r' % hfx[K.I_EN]
+        lien_fr = lien_en.replace('[%s]' % hfx[K.I_EN], '[%s]' % hfx[K.I_FR])
+        g_hf = fr_interface(inter['ACHIEVEMENT_BROADCAST']) or inter['ACHIEVEMENT_BROADCAST'][K.I_EN]
+        globales['ACHIEVEMENT_BROADCAST'] = g_hf
+        for ev in ('CHAT_MSG_ACHIEVEMENT', 'CHAT_MSG_GUILD_ACHIEVEMENT'):
+            cas.append({'quoi': 'discussion', 'evenement': ev,
+                        'nom': '%s : « %%s has earned the achievement [%s]! »' % (ev, hfx[K.I_EN]),
+                        'message': inter['ACHIEVEMENT_BROADCAST'][K.I_EN].replace('%s', '\x00', 1).replace('%s', lien_en, 1)
+                        .replace('\x00', '%s'),
+                        'attendu': g_hf.replace('%s', '\x00', 1).replace('%s', lien_fr, 1).replace('\x00', '%s')})
+    else:
+        NOTES.append('haut fait 87250 sans nom affichable : cas du message de haut fait absent')
+    # enchantements : bonus de sertissage « +5 Attack Power » (essai 3), gemme CoA sur plusieurs lignes, nom colore
+    en_ench = {x[K.I_ID]: x for x in lire('client/enchantements.tsv') if x[K.I_CHAMP] == 'name'}
+    g_sb = globales.get('ITEM_SOCKET_BONUS', 'Socket Bonus: %s')
+    lignes_e, att_e = ['Objet d\'essai', 'Soulbound'], []
+    if '700033' in en_ench and passe(en_ench['700033']):
+        lignes_e.append(g_sb.replace('%s', en_ench['700033'][K.I_EN]))
+        att_e.append([len(lignes_e), g_sb.replace('%s', en_ench['700033'][K.I_FR]), 'bonus de sertissage « +5 Attack Power »'])
+    for eid, quoi in (('792524', 'gemme CoA sur trois lignes, colorée'), ('432', 'nom coloré « |cff0066ff+12 Spell Power|r »')):
+        x = en_ench.get(eid)
+        if x and passe(x):
+            lignes_e.append(x[K.I_EN].replace('\r\n', '\n'))
+            att_e.append([len(lignes_e), x[K.I_FR].replace('\r\n', '\n'), quoi])
+    x = en_ench.get('792524')
+    if x and passe(x):
+        for le, lf in zip(re.sub(r'^\|c[0-9a-fA-F]{8}|\|r$', '', x[K.I_EN]).split('\r\n'), re.sub(r'^\|c[0-9a-fA-F]{8}|\|r$', '', x[K.I_FR]).split('\r\n')):
+            lignes_e.append(le)
+            att_e.append([len(lignes_e), lf, 'une ligne de la gemme « %s »' % le])
+    if att_e:
+        cas.append({'quoi': 'objet', 'nom': 'enchantements 0.4 (sertissage, gemme sur plusieurs lignes, couleur)', 'id': 9999901,
+                    'anglais': 'Objet d\'essai', 'attendu': 'Objet d\'essai', 'lignes': lignes_e, 'lignes_attendues': att_e})
+    # type de creature : MECANISME seulement (CreatureType.dbc frFR absent des sources officielles : rien d'embarque)
+    if g_tue and inter.get('TOOLTIP_UNIT_LEVEL_CLASS'):
+        g_niv = fr_interface(inter['TOOLTIP_UNIT_LEVEL_CLASS']) or inter['TOOLTIP_UNIT_LEVEL_CLASS'][K.I_EN]
+        globales['TOOLTIP_UNIT_LEVEL_CLASS'] = g_niv
+        k, h2 = F.cle_texte('Beast')
+        injections.append({'famille': 'noms', 'nom': 'NTC', 'sorte': 'texte', 'nb': 1, 'cle': k, 'h2': h2,
+                           'valeur': F.lua_chaine('Bête (essai)').decode('utf-8')})
+        ligne_en = g_niv.replace('%2$s', 'Beast').replace('%1$s', '1')
+        cas.append({'quoi': 'type_creature', 'nom': 'type de créature dans « %s » (mécanisme ; donnée injectée par le banc, '
+                    'aucune donnée officielle embarquée)' % ligne_en, 'anglais': ne, 'guid': guid(nom[K.I_ID]), 'type_en': 'Beast',
+                    'lignes': [ne, ligne_en], 'attendu': g_niv.replace('%2$s', 'Bête (essai)').replace('%1$s', '1')})
+        NOTES.append('type de créature : CreatureType.dbc frFR absent des sources officielles (patch-frFR-3.MPQ) ; le banc INJECTE '
+                     '« Beast » -> « Bête (essai) » pour éprouver le mécanisme, rien n\'est embarqué')
+    # plaques de nom : Kobold Vermin par GUID, plaque reutilisee, cadre protege, joueur, /azfr plaques off|on
+    autre = next((x for x in cr if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Timber Wolf' and passe(x)), None) or \
+        next(x for x in cr if x[K.I_CHAMP] == 'name' and passe(x) and x[K.I_FR] != x[K.I_EN] and x[K.I_EN] != ne
+             and int(x[K.I_ID]) > 1000)
+    cas.append({'quoi': 'plaques', 'nom': 'plaques de nom : « %s » (GUID et empreinte)' % ne, 'anglais': ne, 'guid': guid(nom[K.I_ID]),
+                'attendu': nf, 'autre_en': autre[K.I_EN], 'autre_guid': guid(autre[K.I_ID]), 'autre_attendu': autre[K.I_FR]})
+    # metiers (livre des metiers de CoA) : Forge (officiel), Menuiserie (decision 15), rang « Apprentice »
+    comp = {x[K.I_EN]: x for x in lire('client/competences.tsv') if x[K.I_CHAMP] == 'name' and passe(x)}
+    rg_app = next((x for x in lire('client/sorts_standard.tsv') if x[K.I_CHAMP] == 'Rank' and x[K.I_EN] == 'Apprentice' and passe(x)), None)
+    for m in ('Blacksmithing', 'Woodworking', 'Woodcutting'):
+        if m in comp:
+            c_ = {'quoi': 'metier', 'nom': 'livre des métiers : « %s »' % m, 'anglais': m, 'attendu': comp[m][K.I_FR]}
+            if rg_app and m == 'Blacksmithing':
+                c_.update({'rang': 'Apprentice', 'rang_attendu': rg_app[K.I_FR], 'nom': c_['nom'] + ', rang « Apprentice »'})
+            cas.append(c_)
     # squelette : meme calcul en Python et en Lua
     textes = [aff_en, 'Restores 1,500 health over 18.5 sec.  Must remain seated while eating.',
               'Deals 15 to 20 Fire damage every 3 seconds for 1 min.', '|cff00ff00Increases attack power by 28.|r',
@@ -860,6 +983,88 @@ def tester_ptrxml(lua, out):
     return ok
 
 
+def tester_creation(lua, out):
+    """Add-on 0.4 : ecran de creation de personnage (avant-jeu). Execute le vrai AzerothFR_Interface.lua dans un faux
+    environnement d'avant-jeu (GetNumCharacters present, UnitName absent) imitant le GlueXML de CoA (patch-B,
+    CharacterCreate.lua) : boutons de races (.Text), boutons de classes (texte coupe avant le dernier mot), titres des
+    fiches, ligne de navigation RACE_SELECTED_TEXT, titre de l'infobulle ; homme puis femme. Verifie aussi qu'en jeu
+    (UnitName present) rien n'est cree."""
+    rf = {'Human': F.RACES_OFFICIELLES['Human'], 'Night Elf': F.RACES_OFFICIELLES['Night Elf']}
+    cl = {}
+    for en in ('Witch Doctor', 'Witch Hunter', 'Cultist', 'Warrior', 'Knight of Xoroth'):
+        if en in CLASSES_FR:
+            cl[en] = (CLASSES_FR[en], CLASSES_FR_F.get(en, CLASSES_FR[en]))
+    def coupe(t):
+        return re.sub(r' ([^ ]*)$', r'\n\1', t, count=1)
+    inter = {l[K.I_ID]: l for l in lire('client/interface.tsv')}
+    rst = fr_interface(inter.get('RACE_SELECTED_TEXT')) or 'Selected Race:\n|cffFFFFFF%s|r'
+    L = lambda x: F.lua_chaine(x).decode('utf-8')
+    script = ['GetNumCharacters = function() return 1 end', 'UnitName = nil', 'SEXE = 2',
+              'function GetSelectedSex() return SEXE end', 'CADRES = {}',
+              'function CreateFrame() local f = { scripts = {} } function f:SetScript(k, fn) self.scripts[k] = fn end '
+              'table.insert(CADRES, f) return f end',
+              'function Zone(t) local z = { t = t } function z:GetText() return self.t end function z:SetText(x) self.t = x end return z end',
+              'function Bouton(t) local b = { Text = Zone(t), shown = true } function b:IsShown() return self.shown end '
+              'function b:GetFontString() return self.Text end return b end',
+              'function Cadre(kids) local c = { kids = kids or {}, shown = true } function c:GetChildren() return unpack(self.kids) end '
+              'function c:IsShown() return self.shown end return c end',
+              'CharacterCreate = Cadre()', 'RACE_SELECTED_TEXT = %s' % L(rst)]
+    races = ['Human', 'Night Elf', 'Vulpera']
+    for i, r in enumerate(races, 1):
+        script.append('CharCreateRaceButton%d = Bouton(%s)' % (i, L(r)))
+    classes = list(cl) + ['Spiritmage']
+    script.append('LIGNE = Cadre({%s})' % ','.join('Bouton(%s)' % L(coupe(c)) for c in classes))
+    script.append('CharCreateClassFrame = Cadre({ LIGNE })')
+    script.append('CharCreateRaceInfoFrame = { title = Zone("Human") }')
+    script.append('CharCreateClassInfoFrame = { title = Zone("Witch Hunter") }')
+    script.append('NAV = Bouton(string.format(RACE_SELECTED_TEXT, "Human"))')
+    script.append('CharacterCreateNavigationFrame = Cadre({ NAV })')
+    script.append('GlueTooltip = Cadre()')
+    script.append('GlueTooltipTextLeft1 = Zone("|cffC41F3BWitch Hunter|r")')
+    script.append('dofile(%s)' % L(os.path.join(DIST, 'PTRXML', 'AzerothFR_Interface.lua')))
+    script.append('assert(#CADRES == 1, "cadre de relecture non cree")')
+    script.append('local function Passe() CADRES[1].scripts.OnUpdate(CADRES[1], 0.25) end')
+    verifs = []
+
+    def egal(expr, attendu, quoi):
+        verifs.append('assert(%s == %s, %s .. " : " .. tostring(%s))' % (expr, L(attendu), L(quoi), expr))
+    script.append('Passe()')
+    for sexe, k in ((2, 0), (3, 1)):
+        if sexe == 3:
+            verifs.append('SEXE = 3')
+            verifs.append('Passe()')
+        egal('CharCreateRaceButton1.Text:GetText()', rf['Human'][k], 'race Human (sexe %d)' % sexe)
+        egal('CharCreateRaceButton2.Text:GetText()', rf['Night Elf'][k], 'race Night Elf (sexe %d)' % sexe)
+        egal('CharCreateRaceButton3.Text:GetText()', 'Vulpera', 'race sans français : anglais')
+        for i, c in enumerate(classes, 1):
+            att = coupe(cl[c][k]) if c in cl and ' ' in c else (cl[c][k] if c in cl else c)
+            if c in cl and ' ' in c and ' ' not in cl[c][k]:
+                att = cl[c][k]
+            egal('LIGNE.kids[%d].Text:GetText()' % i, att, 'classe %s (sexe %d)' % (c, sexe))
+        egal('CharCreateRaceInfoFrame.title:GetText()', rf['Human'][k], 'titre de la fiche de race (sexe %d)' % sexe)
+        if 'Witch Hunter' in cl:
+            egal('CharCreateClassInfoFrame.title:GetText()', cl['Witch Hunter'][k], 'titre de la fiche de classe (sexe %d)' % sexe)
+            egal('GlueTooltipTextLeft1:GetText()', '|cffC41F3B%s|r' % cl['Witch Hunter'][k], 'infobulle de classe colorée (sexe %d)' % sexe)
+        if sexe == 2:
+            egal('NAV.Text:GetText()', rst % rf['Human'][k], 'navigation « race choisie »')
+    verifs.append('assert(AzerothFR_Interface.erreur_creation == nil, tostring(AzerothFR_Interface.erreur_creation))')
+    verifs.append('print("CREATION : " .. tostring(AzerothFR_Interface.creation_poses) .. " textes posés")')
+    # en jeu : rien
+    verifs.append('CADRES = {} UnitName = function() return "x" end')
+    verifs.append('dofile(%s)' % L(os.path.join(DIST, 'PTRXML', 'AzerothFR_Interface.lua')))
+    verifs.append('assert(#CADRES == 0, "en jeu, la relecture de l ecran de creation ne doit pas exister")')
+    p = os.path.join(TRAVAIL, 'banc_creation.lua')
+    with open(p, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(script + verifs) + '\n')
+    r = subprocess.run([lua, p], capture_output=True, text=True)
+    ok = r.returncode == 0
+    out.append(('OK  ' if ok else 'KO  ') + 'création de personnage (avant-jeu, PTRXML) : races %s, classes %s, homme puis femme, '
+               'fiches, navigation, infobulle ; rien en jeu' % (', '.join(races), ', '.join(classes))
+               + ('' if ok else '\n' + r.stderr))
+    out.append(r.stdout.strip())
+    return ok
+
+
 def main():
     lua = F.trouver('lua5.1', 'lua51', 'lua5.1.exe', 'lua51.exe')
     if not lua:
@@ -884,6 +1089,7 @@ def main():
         sortie.append('ERREURS LUA :\n' + r.stderr)
     ok = r.returncode == 0
     ok = tester_ptrxml(lua, sortie) and ok
+    ok = tester_creation(lua, sortie) and ok
     for n in NOTES:
         sortie.append('NOTE  ' + n)
     texte = '\n'.join(sortie) + '\n\n%d exemples tirés de textes/. RÉSULTAT : %s\n' % (len(cas), 'conforme' if ok else 'NON CONFORME')

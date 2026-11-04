@@ -57,6 +57,11 @@ function GetActionInfo(case)
     if a then return "spell", 3, "spell", a.id end
 end
 function GetSpellLink(case, livre)
+    if type(case) == "string" then
+        local id = SORTS_PAR_NOM[case]
+        if id then return "|cff71d5ff|Hspell:" .. id .. "|h[" .. case .. "]|h|r" end
+        return nil
+    end
     local g = GRIMOIRE[case]
     if g then return "|cff71d5ff|Hspell:" .. g.id .. "|h[" .. g.nom .. "]|h|r" end
 end
@@ -97,6 +102,7 @@ local function NouvelleZone(texte)
     function z:SetPoint() end
     function z:ClearAllPoints() end
     function z:SetAlphaGradient() end
+    function z:GetParent() return self.parent end
     return z
 end
 
@@ -124,7 +130,8 @@ local function NouveauCadre(nom)
     function c:IsShown() return self.visible end
     function c:Show() self.visible = true end
     function c:Hide() self.visible = false end
-    function c:IsProtected() return false end
+    function c:IsProtected() return self.protege or false end
+    function c:GetFontString() return self.fs end
     function c:GetRegions() return unpack(self.regions) end
     function c:GetChildren() return unpack(self.enfants) end
     function c:GetName() return nom end
@@ -366,7 +373,88 @@ AscensionSpellbookFrame = NouveauCadre("AscensionSpellbookFrame")
 local boutonGrimoire = NouveauCadre("AscensionSpellbookFrameSpellButton1")
 boutonGrimoire.SpellName, boutonGrimoire.SubSpellName = NouvelleZone(""), NouvelleZone("")
 boutonGrimoire.visible = true
-AscensionSpellbookFrame.enfants = { boutonGrimoire }
+local boutonMetier = NouveauCadre(nil)            -- livre des metiers (Ascension_ProfessionBook.lua, bouton securise)
+boutonMetier.fs, boutonMetier.Rank, boutonMetier.skillID, boutonMetier.visible = NouvelleZone(""), NouvelleZone(""), 164, true
+BOUTON_METIER = boutonMetier
+AscensionSpellbookFrame.enfants = { boutonGrimoire, boutonMetier }
+
+-- ---- add-on 0.4 : fenetres imitant le client CoA (patch-B / patch-enUS-3) ----
+-- Marchand (MerchantFrame.lua) : MerchantFrame_Update -> noms anglais des objets de la page ou du rachat.
+MERCHANT_ITEMS_PER_PAGE, MARCHAND, RACHAT = 10, {}, {}
+MerchantFrame = NouveauCadre("MerchantFrame")
+MerchantFrame.selectedTab, MerchantFrame.page = 1, 1
+for i = 1, 12 do _G["MerchantItem" .. i .. "Name"] = NouvelleZone("") end
+MerchantBuyBackItemName = NouvelleZone("")
+function GetMerchantItemLink(index) local o = MARCHAND[index]; return o and LienObjet(o.id, o.nom) end
+function GetBuybackItemLink(index) local o = RACHAT[index]; return o and LienObjet(o.id, o.nom) end
+function GetNumBuybackItems() return #RACHAT end
+function MerchantFrame_Update()
+    if MerchantFrame.selectedTab == 1 then
+        for i = 1, MERCHANT_ITEMS_PER_PAGE do
+            local o = MARCHAND[(MerchantFrame.page - 1) * MERCHANT_ITEMS_PER_PAGE + i]
+            _G["MerchantItem" .. i .. "Name"]:SetText(o and o.nom or "")
+        end
+        local d = RACHAT[#RACHAT]
+        MerchantBuyBackItemName:SetText(d and d.nom or "")
+    else
+        for i = 1, 12 do local o = RACHAT[i]; _G["MerchantItem" .. i .. "Name"]:SetText(o and o.nom or "") end
+    end
+end
+-- Butin (LootFrame.lua de patch-enUS-3) : LootFrame_UpdateButton(index) pose le nom et button.slot.
+BUTIN = {}
+for i = 1, 4 do
+    local b = NouveauCadre("LootButton" .. i)
+    _G["LootButton" .. i .. "Text"] = NouvelleZone("")
+end
+function GetLootSlotLink(slot) local o = BUTIN[slot]; return o and LienObjet(o.id, o.nom) end
+function LootFrame_UpdateButton(index)
+    local b, o = _G["LootButton" .. index], BUTIN[index]
+    if o then _G["LootButton" .. index .. "Text"]:SetText(o.nom); b.slot = index; b:Show() else b:Hide() end
+end
+-- Carte du monde (WorldMapFrame.lua de patch-B) : panneau des quetes, objectifs retournes, separes par |n.
+WorldMapFrame = NouveauCadre("WorldMapFrame")
+QUESTFRAME_PADDING, QUESTFRAME_MINHEIGHT, QUEST_DASH = 19, 34, "- "
+local function CadreQueteCarte(nom)
+    local q = NouveauCadre(nom)
+    q.title, q.objectives, q.dashes = NouvelleZone(""), NouvelleZone(""), NouvelleZone("")
+    q.title:SetWidth(240); q.objectives:SetWidth(230)
+    q.lineHeight, q.lineSpacing = 13, 0
+    return q
+end
+WorldMapQuestFrame0, WorldMapQuestFrame1 = CadreQueteCarte("WorldMapQuestFrame0"), CadreQueteCarte("WorldMapQuestFrame1")
+CARTE_QUETE = nil
+function WorldMapFrame_UpdateQuests()
+    local c = CARTE_QUETE
+    if not c then WorldMapFrame.numQuests = 0; return 0 end
+    local q = WorldMapQuestFrame1
+    q.questLogIndex, q.completed = c.index, c.termine
+    q.title:SetText(c.titre)
+    if c.termine then q.objectives:SetText(c.texte_fin) else
+        local t = ""
+        for _, o in ipairs(c.objectifs) do t = t .. WatchFrame_ReverseQuestObjective(o) .. "|n" end
+        q.objectives:SetText(t)
+    end
+    q:SetHeight(math.max(q.title:GetHeight() + q.objectives:GetHeight() + QUESTFRAME_PADDING, QUESTFRAME_MINHEIGHT))
+    q:Show()
+    WorldMapFrame.numQuests = 1
+    return 1
+end
+-- Barre d'incantation (CastingBarFrame.lua de patch-B) : barText:SetText(nom anglais) au debut du sort.
+CastingBarFrame, CastingBarFrameText = NouveauCadre("CastingBarFrame"), NouvelleZone("")
+CastingBarFrame.unit = "player"
+SORT_EN_COURS = nil
+function CastingBarFrame_OnEvent(self, event, unit)
+    if unit ~= self.unit then return end
+    if event == "UNIT_SPELLCAST_START" then CastingBarFrameText:SetText(SORT_EN_COURS) end
+end
+SORTS_PAR_NOM = {}
+-- Pierre de foyer : lieu du foyer ($z)
+function GetBindLocation() return LIEU_FOYER end
+-- Types de creatures : UnitCreatureType (anglais, client enUS)
+function UnitCreatureType(u) return UNITES[u] and UNITES[u].type end
+-- Plaques de nom (C_NamePlateManager.lua de patch-B) : GetNamePlateForUnit(unite) -> plaque ; nom en zone de texte.
+PLAQUES = {}
+function GetNamePlateForUnit(u) return PLAQUES[u] end
 
 -- LoadAddOn : lit le .toc de l'add-on et charge ses fichiers dans l'ordre.
 local charges = {}
@@ -789,6 +877,132 @@ for _, c in ipairs(CAS_LISTE) do
         Declencher(c.evenement, c.anglais)
         egal(c.nom .. " (on : français)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.attendu)
         egal(c.nom .. " (on : un seul message)", #MESSAGES_CENTRE, 1)
+    elseif c.quoi == "marchand" then
+        MARCHAND, RACHAT = {}, {}
+        for i, o in ipairs(c.achat) do MARCHAND[i] = o end
+        for i, o in ipairs(c.rachat) do RACHAT[i] = o end
+        MerchantFrame.visible, MerchantFrame.selectedTab, MerchantFrame.page = true, 1, 1
+        MerchantFrame_Update()
+        for i, o in ipairs(c.achat) do
+            egal(c.nom .. " (achat " .. i .. ")", _G["MerchantItem" .. i .. "Name"]:GetText(), o.attendu)
+        end
+        egal(c.nom .. " (dernier objet vendu)", MerchantBuyBackItemName:GetText(), c.rachat[#c.rachat].attendu)
+        MerchantFrame.selectedTab = 2
+        MerchantFrame_Update()
+        for i, o in ipairs(c.rachat) do
+            egal(c.nom .. " (rachat " .. i .. ")", _G["MerchantItem" .. i .. "Name"]:GetText(), o.attendu)
+        end
+        MerchantFrame.visible = false
+    elseif c.quoi == "butin" then
+        BUTIN = {}
+        for i, o in ipairs(c.objets) do BUTIN[i] = o end
+        for i = 1, 4 do LootFrame_UpdateButton(i) end
+        for i, o in ipairs(c.objets) do egal(c.nom .. " (emplacement " .. i .. ")", _G["LootButton" .. i .. "Text"]:GetText(), o.attendu) end
+    elseif c.quoi == "carte" then
+        JOURNAL = { { titre = c.titre_en, id = c.id } }
+        A.JournalAChange()
+        WorldMapFrame.visible = true
+        CARTE_QUETE = { index = 1, titre = c.titre_en, objectifs = c.objectifs, termine = c.termine, texte_fin = c.texte_fin }
+        WorldMapFrame_UpdateQuests()
+        egal(c.nom .. " (titre)", WorldMapQuestFrame1.title:GetText(), c.titre_attendu)
+        egal(c.nom .. " (objectifs)", WorldMapQuestFrame1.objectives:GetText(), c.objectifs_attendus)
+        if not c.termine then
+            noter(string.find(WorldMapQuestFrame1.dashes:GetText() or "", QUEST_DASH or "-", 1, true) == 1, c.nom .. " (tirets recalculés)",
+                WorldMapQuestFrame1.dashes:GetText())
+        end
+        noter(WorldMapQuestFrame1:GetHeight() >= WorldMapQuestFrame1.title:GetHeight() + WorldMapQuestFrame1.objectives:GetHeight(),
+            c.nom .. " (hauteur du cadre refaite avec le français)")
+        -- en combat : rien n'est fait ; repris a la fin du combat
+        EN_COMBAT = true
+        WorldMapFrame_UpdateQuests()
+        egal(c.nom .. " (en combat : laissé en anglais)", WorldMapQuestFrame1.title:GetText(), c.titre_en)
+        EN_COMBAT = false
+        Declencher("PLAYER_REGEN_ENABLED")
+        egal(c.nom .. " (après le combat : français)", WorldMapQuestFrame1.title:GetText(), c.titre_attendu)
+        WorldMapFrame.visible = false
+        CARTE_QUETE = nil
+        JOURNAL = {}
+        A.JournalAChange()
+    elseif c.quoi == "progression" then
+        QuestProgressTitleText:SetText(""); QuestProgressText:SetText(c.anglais)
+        Declencher("QUEST_PROGRESS")
+        egal(c.nom, QuestProgressText:GetText(), c.attendu)
+    elseif c.quoi == "barre" then
+        SORTS_PAR_NOM[c.anglais] = c.id
+        SORT_EN_COURS = c.anglais
+        CastingBarFrame_OnEvent(CastingBarFrame, "UNIT_SPELLCAST_START", "player")
+        egal(c.nom, CastingBarFrameText:GetText(), c.attendu)
+        SORT_EN_COURS = c.inconnu
+        CastingBarFrame_OnEvent(CastingBarFrame, "UNIT_SPELLCAST_START", "player")
+        egal(c.nom .. " (sort hors du grimoire : anglais)", CastingBarFrameText:GetText(), c.inconnu)
+    elseif c.quoi == "pierre_de_foyer" then
+        LIEU_FOYER = c.lieu
+        GameTooltip:Effacer(c.lignes, { c.anglais, LienObjet(c.id, c.anglais) })
+        ITEM_SPELLS[c.id] = nil
+        GameTooltip:Declencher("OnTooltipSetItem")
+        egal(c.nom .. " (nom)", GameTooltip.lignes[1]:GetText(), c.attendu)
+        egal(c.nom .. " (ligne Utiliser)", GameTooltip.lignes[c.ligne]:GetText(), c.ligne_attendue)
+        LIEU_FOYER = nil
+    elseif c.quoi == "type_creature" then
+        UNITES.mouseover = { nom = c.anglais, guid = c.guid, type = c.type_en }
+        GameTooltip:Effacer(c.lignes, nil, "mouseover")
+        GameTooltip:Declencher("OnTooltipSetUnit")
+        egal(c.nom, GameTooltip.lignes[2]:GetText(), c.attendu)
+    elseif c.quoi == "plaques" then
+        local function Plaque(nom_affiche, protege)
+            local p = NouveauCadre(nil)
+            local z = NouvelleZone(nom_affiche)
+            p.regions, p.enfants, p.protege, p.visible = { z }, { NouveauCadre(nil) }, protege, true
+            z.parent = p
+            return p, z
+        end
+        UNITES.nameplate1 = { nom = c.anglais, guid = c.guid }
+        local p1, z1 = Plaque(c.anglais)
+        PLAQUES.nameplate1 = p1
+        Declencher("NAME_PLATE_UNIT_ADDED", "nameplate1")
+        egal(c.nom .. " (arrivée de la plaque)", z1:GetText(), c.attendu)
+        -- plaque reutilisee : le client remet l'anglais d'une autre creature, puis de la premiere
+        UNITES.nameplate1 = { nom = c.autre_en, guid = c.autre_guid }
+        z1:SetText(c.autre_en)
+        Declencher("NAME_PLATE_UNIT_REMOVED", "nameplate1")
+        Declencher("NAME_PLATE_UNIT_ADDED", "nameplate1")
+        egal(c.nom .. " (plaque réutilisée : autre créature)", z1:GetText(), c.autre_attendu)
+        z1:SetText(c.autre_en)                         -- le client remet l'anglais (mise a jour du nom)
+        Images(8, 0.05)
+        egal(c.nom .. " (anglais remis par le client : repris au passage suivant)", z1:GetText(), c.autre_attendu)
+        -- cadre protege : jamais touche
+        UNITES.nameplate2 = { nom = c.anglais, guid = c.guid }
+        local p2, z2 = Plaque(c.anglais, true)
+        PLAQUES.nameplate2 = p2
+        Declencher("NAME_PLATE_UNIT_ADDED", "nameplate2")
+        egal(c.nom .. " (cadre protégé : intact)", z2:GetText(), c.anglais)
+        -- un joueur : jamais
+        UNITES.nameplate3 = { nom = "Thalwyn", guid = "0x0000000000000042", joueur = true }
+        local p3, z3 = Plaque("Thalwyn")
+        PLAQUES.nameplate3 = p3
+        Declencher("NAME_PLATE_UNIT_ADDED", "nameplate3")
+        egal(c.nom .. " (joueur : intact)", z3:GetText(), "Thalwyn")
+        -- /azfr plaques off : rien
+        SlashCmdList.AZFR("plaques off")
+        UNITES.nameplate4 = { nom = c.anglais, guid = c.guid }
+        local p4, z4 = Plaque(c.anglais)
+        PLAQUES.nameplate4 = p4
+        Declencher("NAME_PLATE_UNIT_ADDED", "nameplate4")
+        egal(c.nom .. " (/azfr plaques off : anglais)", z4:GetText(), c.anglais)
+        SlashCmdList.AZFR("plaques on")
+        Images(8, 0.05)
+        egal(c.nom .. " (/azfr plaques on : repris)", z4:GetText(), c.attendu)
+        for k in pairs(PLAQUES) do PLAQUES[k] = nil end
+        for _, u in ipairs({ "nameplate1", "nameplate2", "nameplate3", "nameplate4" }) do
+            UNITES[u] = nil; Declencher("NAME_PLATE_UNIT_REMOVED", u)
+        end
+    elseif c.quoi == "metier" then
+        BOUTON_METIER.fs:SetText(c.anglais); BOUTON_METIER.Rank:SetText(c.rang or "")
+        AscensionSpellbookFrame.visible = true
+        A.TraduireGrimoire()
+        AscensionSpellbookFrame.visible = false
+        egal(c.nom .. " (nom)", BOUTON_METIER.fs:GetText(), c.attendu)
+        if c.rang_attendu then egal(c.nom .. " (rang)", BOUTON_METIER.Rank:GetText(), c.rang_attendu) end
     elseif c.quoi == "fenetre_quete_detail" then
         -- comme QuestFrameDetailPanel_OnShow : QuestInfo_Display deux fois (DETAIL1 : titre et description ;
         -- DETAIL2 : objectifs), la description est deja en francais au second appel

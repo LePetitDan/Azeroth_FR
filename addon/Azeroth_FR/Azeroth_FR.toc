@@ -1,6 +1,6 @@
 ## Interface: 30300
 ## Title: Azeroth_FR
-## Notes: Traduction française de Conquest of AzerothCore (essai @VERSION@) : quêtes, suivi, dialogues, objets, créatures, cris et bulles des PNJ, livres, messages de la discussion et du centre de l'écran, noms de zones et de factions, sorts. Commande /azfr
+## Notes: Traduction française de Conquest of AzerothCore (essai @VERSION@) : quêtes, suivi, dialogues, objets, créatures, cris et bulles des PNJ, livres, messages de la discussion et du centre de l'écran, noms de zones et de factions, sorts, marchand, butin, carte, métiers, plaques de nom. Commande /azfr
 ## Author: Dan (LePetitDan) & Claude
 ## Version: @VERSION@
 ## SavedVariables: AzerothFR_Reglages
@@ -15,6 +15,8 @@ Modules\Cris.lua
 Modules\Pages.lua
 Modules\Sorts.lua
 Modules\Noms.lua
+Modules\Fenetres.lua
+Modules\Plaques.lua
 Modules\Discussion.lua
 Modules\Bulles.lua
 Modules\Centre.lua

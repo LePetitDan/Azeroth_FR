@@ -1,5 +1,6 @@
 -- ============================================================================
--- Azeroth_FR : infobulles d'objets et de creatures (version 0.3).
+-- Azeroth_FR : infobulles d'objets et de creatures (version 0.4 : enchantements sur plusieurs lignes et colores,
+-- type de creature).
 -- Objets : nom, description, etiquette @…@, ensemble, bonus de sertissage et enchantements, colonne de
 -- droite (sous-classe : « Mace », « Mail »), lignes « Use: » / « Equip: » (descriptions de sorts,
 -- Modules/Sorts.lua), puis, EN DERNIER, le prefixe « Equip: » affiche « Équipé : ».
@@ -72,8 +73,18 @@ A.EtiquetteAffichee = EtiquetteAffichee
 -- Gabarits d'une ligne (« Socket Bonus: %s », « Enchanted: %s ») : forme actuelle du jeu (francaise si
 -- PTRXML l'a posee) ou anglaise ; le morceau est un nom d'enchantement officiel (SpellItemEnchantment.dbc).
 -- ----------------------------------------------------------------------------
+-- 0.4 : noms sur plusieurs lignes (gemmes CoA : « +8 Strength\r\n+9 Stamina ») : la table range la forme aux
+-- retours a la ligne normalises (\n), sans la couleur exterieure, et chaque ligne a part (outils/fabriquer.py,
+-- formes_enchantement) ; on cherche la ligne telle quelle, puis normalisee.
 local function Enchantement(x)
-    return A.Nom("enchantement", x)
+    if type(x) ~= "string" or x == "" then return nil end
+    local fr = A.Nom("enchantement", x)
+    if fr then return fr end
+    if find(x, "\r", 1, true) then
+        local n = gsub(gsub(x, "\r\n", "\n"), "\r", "\n")
+        return A.Nom("enchantement", n)
+    end
+    return nil
 end
 A.NomEnchantement = Enchantement
 
@@ -268,6 +279,10 @@ local function SurUnite(bulle)
             if fr and fr ~= t then l:SetText(fr); modifie = true end
         end
     end
+    -- 0.4 : type de creature dans la ligne de niveau (« Beast niveau 1 », gabarit TOOLTIP_UNIT_LEVEL_CLASS du jeu,
+    -- deja en francais par PTRXML) : UnitCreatureType rend l'anglais ; le francais vient de la table des types
+    -- (CreatureType.dbc frFR officiel), seulement si l'argument lu dans la ligne est exactement ce type.
+    if A.TraduireTypeCreature and A.TraduireTypeCreature(bulle, unite) then modifie = true end
     if modifie then
         A.Compteurs.traduits = A.Compteurs.traduits + 1
         if bulle:IsShown() and not A.EstProtege(bulle) then
@@ -278,6 +293,34 @@ local function SurUnite(bulle)
     end
 end
 A.SurUnite = SurUnite
+
+local GABARITS_NIVEAU = { "TOOLTIP_UNIT_LEVEL_CLASS_TYPE", "TOOLTIP_UNIT_LEVEL_CLASS" }
+function A.TraduireTypeCreature(bulle, unite)
+    if type(UnitCreatureType) ~= "function" then return false end
+    local typeEN = UnitCreatureType(unite)
+    local typeFR = typeEN and A.Nom("type_creature", typeEN)
+    if not typeFR or typeFR == typeEN then return false end
+    for i = 2, bulle:NumLines() do
+        local l = Ligne(bulle, i)
+        local t = l and l:GetText()
+        if t and find(t, typeEN, 1, true) then
+            for _, cle in ipairs(GABARITS_NIVEAU) do
+                local g = A.Gabarit and A.Gabarit(cle)
+                for _, modele in ipairs({ _G[cle], g and g.en }) do
+                    if type(modele) == "string" and modele ~= "" then
+                        local args = A.LireGabarit(modele, t)
+                        if args and args[2] == typeEN then
+                            args[2] = typeFR
+                            l:SetText(A.Formater(modele, args))
+                            return true
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return false
+end
 
 -- ----------------------------------------------------------------------------
 -- Branchements (HookScript : on passe APRES le jeu, et apres le crochet du client CoA, sans rien remplacer)
