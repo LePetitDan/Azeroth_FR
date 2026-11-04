@@ -25,7 +25,8 @@ Regles (strictes) :
 5. Seuls les nombres changent. Un nombre decimal reste en anglais (separateur decimal non prouve).
 6. Plusieurs bonus dans un meme nom (« +5 Agility and +6 Stamina ») : chaque partie doit avoir son modele et le
    liant « and » un francais officiel atteste, appris des noms officiels « A and B » dont les deux parties ont un
-   modele : la forme la plus frequente si elle fait au moins 90 % des cas (« et »).
+   modele : la forme la plus frequente si elle fait au moins 90 % des cas (« et »). Seule la forme attestee a deux
+   parties passe : « A and B and C » (aucun nom officiel) reste en anglais.
 7. Ce qui n'est pas un mot est garde tel quel : les codes couleur qui enrobent le nom (|cff…|r, ou un |r final
    seul) et les retours a la ligne entre bonus (« +8 Strength\\r\\n+9 Stamina » : une ligne par bonus, chaque
    ligne traduite par son modele).
@@ -185,7 +186,7 @@ class Modeles:
             for li in LIANTS:
                 if li not in m:
                     continue
-                if li not in self.liant:
+                if li not in self.liant or m.count(li) != 1:     # forme attestee : « A and B », deux parties
                     raison = 'liant_non_atteste'
                     break
                 bouts = [self.partie(x) for x in m.split(li)]

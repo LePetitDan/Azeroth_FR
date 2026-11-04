@@ -229,6 +229,8 @@ FAUX_MODELE = [
      'modele_officiel:accord_non_prouve'),                                                          # « 1 points » : accord
     ("+2.5 Strength", "+2.5 Force", 'modele_officiel:nombre_decimal'),                              # separateur non prouve
     ("+5 Agility and +6 Spirit", "+5 Agilité et +6 Esprit", 'modele_officiel:partie:sans_modele'),  # une partie sans modele
+    ("+8 Strength and +9 Stamina and +2 Agility", "+8 Force et +9 Endurance et +2 Agilité",
+     'modele_officiel:liant_non_atteste'),                                                          # trois parties : non atteste
     ("|cffabf1bc+8 Strength\r\n+9 Stamina|r", "|cffabf1bc+8 Force +9 Endurance|r",
      'modele_officiel:different_du_modele'),                                                        # retour a la ligne perdu
 ]
