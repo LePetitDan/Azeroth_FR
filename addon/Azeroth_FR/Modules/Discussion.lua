@@ -198,6 +198,7 @@ A.TraduitDiscussion = Traduit
 -- Filtre : (cadre, evenement, message, emetteur, …11 arguments) -> false, nouveaux arguments.
 local function Filtre(self, evenement, message, ...)
     if not A.Actif() or type(message) ~= "string" or message == "" then return false end
+    A.Trace("filtre discussion")
     local r = Traduit(evenement, message)
     if r then return false, r, ... end
     return false

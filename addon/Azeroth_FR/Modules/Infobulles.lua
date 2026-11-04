@@ -208,7 +208,7 @@ local function SurObjet(bulle)
     end
     if modifie then
         A.Compteurs.traduits = A.Compteurs.traduits + 1
-        if bulle:IsShown() then
+        if bulle:IsShown() and not A.EstProtege(bulle) then
             en_cours = true
             pcall(bulle.Show, bulle)
             en_cours = false
@@ -270,7 +270,7 @@ local function SurUnite(bulle)
     end
     if modifie then
         A.Compteurs.traduits = A.Compteurs.traduits + 1
-        if bulle:IsShown() then
+        if bulle:IsShown() and not A.EstProtege(bulle) then
             en_cours = true
             pcall(bulle.Show, bulle)
             en_cours = false

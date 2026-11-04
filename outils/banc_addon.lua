@@ -21,7 +21,11 @@ end
 -- Faux environnement WoW
 -- ----------------------------------------------------------------------------
 function debugprofilestop() return os.clock() * 1000 end
-function InCombatLockdown() return false end
+EN_COMBAT = false
+function InCombatLockdown() return EN_COMBAT end
+function GetTime() return os.clock() end
+date = os.date
+function debugstack(debut, n1, n2) return "Interface\\FrameXML\\Banc.lua:1: in function <Banc>\n[C]: ?\n" end
 function GetLocale() return "enUS" end
 function strtrim(s) return (string.match(s, "^%s*(.-)%s*$")) end
 
@@ -85,6 +89,7 @@ local function NouvelleZone(texte)
         return n * 13
     end
     function z:GetTextHeight() return 12 end
+    function z:GetStringWidth() return Longueur(self.texte) * 6.5 end
     function z:SetTextColor() end
     function z:SetFontFlags() end
     function z:SetFontObject() end
@@ -124,7 +129,11 @@ local function NouveauCadre(nom)
     function c:GetChildren() return unpack(self.enfants) end
     function c:GetName() return nom end
     function c:GetNumChildren() return #self.enfants end
-    function c:SetHeight(h) self.hauteur = h end
+    function c:SetHeight(h)
+        if EN_COMBAT and SUIVI_GARDE then SUIVI_GARDE.hauteurs_en_combat = SUIVI_GARDE.hauteurs_en_combat + 1 end
+        self.hauteur = h
+    end
+    function c:IsMouseEnabled() return self.souris or false end
     function c:GetHeight() return self.hauteur end
     function c:SetPoint() end
     function c:ClearAllPoints() end
@@ -289,6 +298,11 @@ local function NouvelleLigneSuivi(i)
 end
 WatchFrameLine1, WatchFrameLine2 = NouvelleLigneSuivi(1), NouvelleLigneSuivi(2)
 function WatchFrame_SetLine(line, anchor, verticalOffset, isHeader, text, dash, hasItem, isComplete)
+    local garde = SUIVI_GARDE; SUIVI_GARDE = nil          -- (les hauteurs posees par le JEU ne comptent pas)
+    WatchFrame_SetLine_Jeu(line, text, dash, isComplete)
+    SUIVI_GARDE = garde
+end
+function WatchFrame_SetLine_Jeu(line, text, dash, isComplete)
     line.text:SetText(text)
     line.text:SetWidth(WATCHFRAME_MAXLINEWIDTH - (dash == 1 and 12 or 0))
     if line.text:GetHeight() > WATCHFRAME_LINEHEIGHT then
@@ -334,6 +348,7 @@ for _, e in ipairs({ "SYSMSG", "UI_INFO_MESSAGE", "UI_ERROR_MESSAGE" }) do UIErr
 WorldFrame = NouveauCadre("WorldFrame")
 local plaque = NouveauCadre(nil)
 plaque.regions = { NouvelleZone("Kobold Vermin") }
+plaque.enfants = { NouveauCadre(nil) }           -- une plaque de nom a des enfants (barre de vie…)
 WorldFrame.enfants = { plaque }
 function NouvelleBulleDeDialogue(texte)
     local b = NouveauCadre(nil)
@@ -658,6 +673,122 @@ for _, c in ipairs(CAS_LISTE) do
             Declencher(c.evenement, c.anglais)
             egal(c.nom .. " (/azfr on : de nouveau en français)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.attendu)
         end
+    elseif c.quoi == "bulle_combat" then
+        EN_COMBAT = true
+        local n0 = A.Compteurs.bulles
+        Declencher(c.evenement, c.anglais, c.emetteur, "", "", "")
+        local bulle = NouvelleBulleDeDialogue(c.anglais)
+        Images(4, 0.05)
+        egal(c.nom, bulle.regions[1]:GetText(), c.anglais)
+        egal(c.nom .. " (aucune bulle posée)", A.Compteurs.bulles, n0)
+        EN_COMBAT = false
+        -- hors combat, /azfr bulles off : rien ; /azfr bulles on : en francais
+        SlashCmdList.AZFR("bulles off")
+        Declencher(c.evenement, c.anglais, c.emetteur, "", "", "")
+        local b2 = NouvelleBulleDeDialogue(c.anglais)
+        Images(4, 0.05)
+        egal(c.nom .. " (/azfr bulles off : anglais)", b2.regions[1]:GetText(), c.anglais)
+        SlashCmdList.AZFR("bulles on")
+        -- (les bulles precedentes ont disparu, comme en jeu)
+        for k = #WorldFrame.enfants, 1, -1 do
+            if WorldFrame.enfants[k] == bulle or WorldFrame.enfants[k] == b2 then table.remove(WorldFrame.enfants, k) end
+        end
+        Declencher(c.evenement, c.anglais, c.emetteur, "", "", "")
+        local b3 = NouvelleBulleDeDialogue(c.anglais)
+        Images(4, 0.05)
+        egal(c.nom .. " (/azfr bulles on : français)", b3.regions[1]:GetText(), c.attendu)
+    elseif c.quoi == "blocage" then
+        local avant = #messages
+        EN_COMBAT = true
+        for _, f in ipairs(filtres.CHAT_MSG_MONSTER_SAY or {}) do f(nil, "CHAT_MSG_MONSTER_SAY", c.anglais, c.emetteur, "", "", "") end
+        Declencher("CHAT_MSG_MONSTER_SAY", c.anglais, c.emetteur, "", "", "")
+        Declencher("ADDON_ACTION_BLOCKED", c.addon, c.fonction)
+        EN_COMBAT = false
+        local annonce
+        for k = avant + 1, #messages do
+            if string.find(messages[k], "action bloquée", 1, true) then annonce = messages[k] end
+        end
+        noter(annonce ~= nil, c.nom .. " (annoncé dans la discussion)", annonce)
+        noter(annonce and string.find(annonce, c.addon, 1, true) and string.find(annonce, c.fonction, 1, true)
+            and string.find(annonce, "EN COMBAT", 1, true) and true or false, c.nom .. " (add-on, fonction, combat)")
+        noter(annonce and string.find(annonce, "filtre cris", 1, true) and string.find(annonce, "Bulles.OnEvent", 1, true)
+            and true or false, c.nom .. " (fil d'Ariane : derniers modules de l'add-on)")
+        egal(c.nom .. " (gardé pour la session suivante)", type(AzerothFR_Reglages.blocages) == "table"
+            and #AzerothFR_Reglages.blocages, 1)
+        local n1 = #messages
+        Declencher("ADDON_ACTION_FORBIDDEN", c.addon, "CastSpellByName()")
+        local deux = 0
+        for k = n1 + 1, #messages do if string.find(messages[k], "action bloquée", 1, true) then deux = deux + 1 end end
+        egal(c.nom .. " (annoncé une seule fois par session)", deux, 0)
+        egal(c.nom .. " (deux blocages notés)", #A.Blocages, 2)
+        local n2 = #messages
+        SlashCmdList.AZFR("stats")
+        local vus = 0
+        for k = n2 + 1, #messages do
+            if string.find(messages[k], "ADDON_ACTION_BLOCKED", 1, true) or string.find(messages[k], "ADDON_ACTION_FORBIDDEN", 1, true) then vus = vus + 1 end
+        end
+        egal(c.nom .. " (/azfr stats les montre)", vus, 2)
+    elseif c.quoi == "erreurs_jeu" then
+        ERROR_HANDLER_DATABASE = { errors = { current = {
+            { message = "AddOn 'Azeroth_FR' prevented the call of the secure function 'UNKNOWN()'.", stack = "Interface\\SharedXML\\ErrorHandler\\ErrorHandler.lua:350: in function <x>", time = "2026/11/04 21:12:03", counter = 1 },
+            { message = "Interface\\FrameXML\\Truc.lua:12: attempt to index a nil value\nsuite", stack = "a\nb\nc\nd", time = "2026/11/04 21:13:00", counter = 3 },
+        }, previous = {} } }
+        local function Copie(t) if type(t) ~= "table" then return t end local r = {} for k, v in pairs(t) do r[k] = Copie(v) end return r end
+        local function Pareil(a, b)
+            if type(a) ~= type(b) then return false end
+            if type(a) ~= "table" then return a == b end
+            for k, v in pairs(a) do if not Pareil(v, b[k]) then return false end end
+            for k in pairs(b) do if a[k] == nil then return false end end
+            return true
+        end
+        local avant_db = Copie(ERROR_HANDLER_DATABASE)
+        local avant = #messages
+        SlashCmdList.AZFR("erreurs")
+        local vu1, vu2 = false, false
+        for k = avant + 1, #messages do
+            if string.find(messages[k], "prevented the call of the secure function", 1, true) then vu1 = true end
+            if string.find(messages[k], "x3", 1, true) and string.find(messages[k], "attempt to index", 1, true) then vu2 = true end
+        end
+        noter(vu1 and vu2, c.nom .. " (dernières entrées affichées)")
+        noter(Pareil(avant_db, ERROR_HANDLER_DATABASE), c.nom .. " (rien d'écrit dans la base du jeu)")
+        ERROR_HANDLER_DATABASE = { errors = { current = {}, previous = { { message = "ancienne", time = "x", counter = 1 } } } }
+        avant = #messages
+        SlashCmdList.AZFR("erreurs")
+        local vu3 = false
+        for k = avant + 1, #messages do if string.find(messages[k], "session précédente", 1, true) then vu3 = true end end
+        noter(vu3, c.nom .. " (session précédente si la session en cours n'en a pas)")
+        ERROR_HANDLER_DATABASE = nil
+    elseif c.quoi == "suivi_combat" then
+        JOURNAL = { { titre = c.titre_en, id = c.id } }
+        A.JournalAChange()
+        local l1 = WatchFrameLine1
+        l1:Reset()
+        WATCHFRAME_QUESTLINES = { l1 }
+        SUIVI_GARDE = { hauteurs_en_combat = 0 }
+        EN_COMBAT = true
+        WatchFrame_SetLine(l1, nil, -10, true, c.titre_en, 0, nil, false)
+        egal(c.nom .. " (en combat : anglais gardé)", l1.text:GetText(), c.titre_en)
+        egal(c.nom .. " (en combat : aucune hauteur changée par l'add-on)", SUIVI_GARDE.hauteurs_en_combat, 0)
+        EN_COMBAT = false
+        Declencher("PLAYER_REGEN_ENABLED")
+        egal(c.nom .. " (après le combat : français)", l1.text:GetText(), c.titre_fr)
+        noter(l1:GetHeight() >= l1.text:GetHeight(), c.nom .. " (après le combat : ligne rehaussée)",
+            string.format("%d px pour %d px de texte", l1:GetHeight(), l1.text:GetHeight()))
+        SUIVI_GARDE = nil
+        WATCHFRAME_QUESTLINES = {}
+        JOURNAL = {}
+        A.JournalAChange()
+    elseif c.quoi == "centre_interrupteur" then
+        SlashCmdList.AZFR("centre off")
+        MESSAGES_CENTRE = {}
+        Declencher(c.evenement, c.anglais)
+        egal(c.nom .. " (off : le jeu affiche l'anglais, une fois)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.anglais)
+        egal(c.nom .. " (off : un seul message)", #MESSAGES_CENTRE, 1)
+        SlashCmdList.AZFR("centre on")
+        MESSAGES_CENTRE = {}
+        Declencher(c.evenement, c.anglais)
+        egal(c.nom .. " (on : français)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.attendu)
+        egal(c.nom .. " (on : un seul message)", #MESSAGES_CENTRE, 1)
     elseif c.quoi == "fenetre_quete_detail" then
         -- comme QuestFrameDetailPanel_OnShow : QuestInfo_Display deux fois (DETAIL1 : titre et description ;
         -- DETAIL2 : objectifs), la description est deja en francais au second appel

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : sorts (version 0.3 ; rangs de tous les sorts, lignes de puissance PvE/PvP). Nom, rang et description en francais, A L'AFFICHAGE
+-- Azeroth_FR : sorts (version 0.4 ; barre d'incantation ; rangs de tous les sorts, lignes de puissance PvE/PvP). Nom, rang et description en francais, A L'AFFICHAGE
 -- SEULEMENT, par le VRAI numero du sort (analyse du 03/11/2026, test 3 confirme en jeu) :
 --   - infobulle de sort      : 3e valeur de GameTooltip:GetSpell()      (OnTooltipSetSpell)
 --   - barre d'action         : 4e valeur de GetActionInfo(case)          (GameTooltip:SetAction)
@@ -434,7 +434,7 @@ function A.TraduireBulleSort(bulle, id)
         if fr and fr ~= tr then A.Ecrire(r1, fr); modifie = true end
     end
     if type(s) ~= "table" then
-        if modifie and bulle:IsShown() then
+        if modifie and bulle:IsShown() and not A.EstProtege(bulle) then
             en_cours = true
             pcall(bulle.Show, bulle)
             en_cours = false
@@ -458,7 +458,7 @@ function A.TraduireBulleSort(bulle, id)
     end
     if modifie then
         A.Compteurs.sorts = A.Compteurs.sorts + 1
-        if bulle:IsShown() then
+        if bulle:IsShown() and not A.EstProtege(bulle) then
             en_cours = true
             pcall(bulle.Show, bulle)
             en_cours = false
@@ -645,17 +645,8 @@ local function TraduireGrimoire()
         end
         for _, b in ipairs(boutons_grimoire) do TraduireBoutonGrimoire(b, b.spell, b.bookType) end
     end
-    -- grimoire standard 3.3.5 (si le client l'affiche)
-    if SpellBookFrame and SpellBookFrame:IsShown() and type(SpellBook_GetSpellID) == "function" then
-        for i = 1, 12 do
-            local b = _G["SpellButton" .. i]
-            if b then
-                local nom, sous = _G["SpellButton" .. i .. "SpellName"], _G["SpellButton" .. i .. "SubSpellName"]
-                local faux = { SpellName = nom, SubSpellName = sous, IsShown = function() return b:IsShown() end }
-                TraduireBoutonGrimoire(faux, SpellBook_GetSpellID(b:GetID()), SpellBookFrame.bookType)
-            end
-        end
-    end
+    -- 0.4 : plus d'appel a SpellBook_GetSpellID (fonction du jeu appelee par l'add-on) : dans le client CoA
+    -- (patch-B, SpellBookFrame.lua) c'est une fonction VIDE et le grimoire standard n'est pas utilise.
 end
 A.TraduireGrimoire = TraduireGrimoire
 
@@ -665,14 +656,15 @@ guetteur:SetScript("OnUpdate", P("Sorts.grimoire", function(_, ecoule)
     cumul = cumul + (ecoule or 0)
     if cumul < 0.2 then return end
     cumul = 0
-    local visible = (AscensionSpellbookFrame and AscensionSpellbookFrame:IsShown()) or (SpellBookFrame and SpellBookFrame:IsShown())
+    local visible = AscensionSpellbookFrame and AscensionSpellbookFrame:IsShown()
     if visible then
+        A.Trace("Sorts.grimoire")
         -- a chaque ouverture, on recherche les boutons (les pages du grimoire peuvent etre creees plus tard)
         if not ouvert then boutons_grimoire = nil end
         TraduireGrimoire()
     end
     ouvert = visible and true or false
-end))
+end, true))
 
 -- Liens de sort dans la discussion : « |Hspell:2120|h[Flamestrike]|h » -> nom francais.
 function A.TraduireLiensSort(texte)

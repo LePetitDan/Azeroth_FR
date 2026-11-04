@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : quetes (version 0.3 : titres homonymes, anglais d'origine des zones deja traduites).
+-- Azeroth_FR : quetes (version 0.4 : suivi sans redimensionnement en combat, texte de progression).
 -- Fenetre de quete (detail, progression, recompense), journal des quetes, suivi des
 -- objectifs, accueil des donneurs de quetes. Affichage seulement.
 --
@@ -470,8 +470,9 @@ local function ArmerPulsation()
         cumul = cumul + (ecoule or 0)
         if cumul < 0.2 then return end
         cumul = 0
+        A.Trace("Quetes.journal")
         TraduireJournal()
-    end))
+    end, true))
 end
 ArmerPulsation()
 
@@ -485,8 +486,15 @@ ArmerPulsation()
 -- (hooksecurefunc : le jeu n'est pas modifie), on pose le francais, puis on refait le calcul
 -- de hauteur du jeu avec le texte francais. Les lignes suivantes sont ancrees au bas de
 -- celle-ci : elles descendent d'elles-memes. Ces lignes sont de simples cadres (non proteges) ;
--- le bouton d'objet de quete n'est pas un bouton securise dans ce client. Valable en combat.
+-- le bouton d'objet de quete n'est pas un bouton securise dans ce client (patch-B, WatchFrame.xml :
+-- WatchFrameItemButtonTemplate est un simple Button).
+-- 0.4 (action bloquee de l'essai 3) : PENDANT UN COMBAT, ou si la ligne est protegee (IsProtected : un
+-- cadre securise y serait ancre), on ne change plus aucune hauteur : on ne pose que le texte, et seulement
+-- s'il tient dans la place deja reservee par le jeu ; sinon la ligne reste en anglais et elle est reprise
+-- a la fin du combat (A.ApresCombat).
 -- ----------------------------------------------------------------------------
+local suivi_a_refaire = false
+
 local function AjusterHauteur(ligne, terminee)
     local t = ligne.text
     if not t or type(t.GetHeight) ~= "function" or type(ligne.SetHeight) ~= "function" then return end
@@ -508,6 +516,17 @@ local function AjusterHauteur(ligne, terminee)
 end
 A.AjusterHauteurSuivi = AjusterHauteur
 
+-- Le texte tient-il dans la place deja reservee par le jeu (sans rien redimensionner) ?
+local function TientSansRedimensionner(ligne, zone)
+    local largeur = type(zone.GetWidth) == "function" and zone:GetWidth() or 0
+    local w = type(zone.GetStringWidth) == "function" and zone:GetStringWidth() or nil
+    if not w or not largeur or largeur <= 0 then return false end
+    local LH = WATCHFRAME_LINEHEIGHT or 16
+    local MLH = WATCHFRAME_MULTIPLE_LINEHEIGHT or 29
+    local lignes = ((ligne:GetHeight() or LH) >= MLH - 0.5) and 2 or 1
+    return w <= largeur * lignes * 0.95
+end
+
 local function TraduireLigneSuivi(ligne, estTitre, terminee)
     local zone = ligne and ligne.text
     if not zone or not zone.GetText then return end
@@ -520,7 +539,17 @@ local function TraduireLigneSuivi(ligne, estTitre, terminee)
     end
     if fr and fr ~= texte then
         A.Ecrire(zone, fr)
-        AjusterHauteur(ligne, terminee)
+        if A.EnCombat() or A.EstProtege(ligne) then
+            -- texte seulement : s'il deborde, l'anglais revient jusqu'a la fin du combat
+            if not TientSansRedimensionner(ligne, zone) then
+                zone:SetText(texte)
+                A.Ecrits[zone] = nil
+                suivi_a_refaire = true
+                A.Compteurs.suivi_combat = (A.Compteurs.suivi_combat or 0) + 1
+            end
+        else
+            AjusterHauteur(ligne, terminee)
+        end
     end
 end
 
@@ -551,3 +580,10 @@ A.TraduireSuivi = TraduireSuivi
 if type(WatchFrame_Update) == "function" then
     hooksecurefunc("WatchFrame_Update", P("WatchFrame_Update", TraduireSuivi))
 end
+-- fin du combat : les lignes laissees en anglais (trop longues pour leur place) sont reprises
+table.insert(A.ApresCombat, function()
+    if suivi_a_refaire then
+        suivi_a_refaire = false
+        TraduireSuivi()
+    end
+end)

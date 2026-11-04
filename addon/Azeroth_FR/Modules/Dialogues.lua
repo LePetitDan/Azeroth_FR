@@ -29,8 +29,13 @@ local function TraduireBouton(bouton)
     if not fr and A.TitreQuete then fr = A.TitreQuete(texte) end
     if fr and fr ~= texte then
         A.Ecrire(bouton, fr)
-        -- meme mise en page que le jeu (hauteur selon le texte)
-        if type(GossipResize) == "function" then pcall(GossipResize, bouton) end
+        -- meme mise en page que le jeu (hauteur selon le texte). 0.4 : on n'appelle plus GossipResize du jeu
+        -- (une fonction du jeu appelee par l'add-on s'execute « entachee ») ; on fait ici exactement ce qu'elle
+        -- fait dans le client CoA (patch-B, GossipFrame.lua : SetHeight(GetTextHeight() + 2)), hors combat et
+        -- seulement sur un bouton non protege.
+        if not A.EnCombat() and not A.EstProtege(bouton) and type(bouton.GetTextHeight) == "function" then
+            bouton:SetHeight(bouton:GetTextHeight() + 2)
+        end
     end
 end
 

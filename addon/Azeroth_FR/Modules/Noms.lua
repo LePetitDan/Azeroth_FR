@@ -132,7 +132,7 @@ local function TraduireCarte()
 end
 A.TraduireCarte = TraduireCarte
 if WorldMapButton and WorldMapButton.HookScript then
-    WorldMapButton:HookScript("OnUpdate", P("WorldMapButton.OnUpdate", function() TraduireZoneTexte(WorldMapFrameAreaLabel) end))
+    WorldMapButton:HookScript("OnUpdate", P("WorldMapButton.OnUpdate", function() TraduireZoneTexte(WorldMapFrameAreaLabel) end, true))
 end
 for _, fn in ipairs({ "WorldMapFrame_SetMapName", "WorldMapZoneDropDown_Update", "WorldMapContinentsDropDown_Update" }) do
     if type(_G[fn]) == "function" then hooksecurefunc(fn, P(fn, TraduireCarte)) end

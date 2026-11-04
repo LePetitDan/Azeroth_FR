@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : messages du centre de l'ecran (version 0.3).
+-- Azeroth_FR : messages du centre de l'ecran (version 0.4 : interrupteur /azfr centre on|off, fil d'Ariane).
 -- « Kobold Vermin slain: 1/8 », « Quest accepted: … » (UI_INFO_MESSAGE), et les erreurs (UI_ERROR_MESSAGE)
 -- quand un francais officiel existe.
 --
@@ -17,6 +17,9 @@
 -- (des)enregistrer un evenement et y ajouter un message ne change aucune variable du jeu et ne passe par
 -- aucun code securise : aucun blocage possible, meme en combat. En cas d'erreur, ou avec /azfr off, le jeu
 -- reprend la main (UIErrorsFrame:RegisterEvent) ; un message en cours est rendu tel quel.
+-- 0.4 : le client CoA fait lui-meme la meme chose (ChatFrame.lua de patch-B : /ui_errors_off et /ui_errors_on
+-- (des)inscrivent UI_ERROR_MESSAGE sur UIErrorsFrame) ; /azfr centre off rend les deux evenements au jeu pour
+-- isoler ce module si une action bloquee revient.
 -- ============================================================================
 local A = AzerothFR
 local P = A.Proteger
@@ -70,8 +73,9 @@ A.CentrePrendre, A.CentreRendre = Prendre, Rendre
 function A.CentrePris() return pris end
 
 cadre:SetScript("OnEvent", function(self, evenement, message, ...)
+    A.Trace("Centre.OnEvent")
     local ok, err = pcall(function()
-        local fr = A.Actif() and Traduire(message) or nil
+        local fr = A.ModuleActif("centre") and Traduire(message) or nil
         if fr then A.Compteurs.centre = A.Compteurs.centre + 1 end
         Afficher(evenement, fr or message)
     end)
@@ -84,10 +88,14 @@ cadre:SetScript("OnEvent", function(self, evenement, message, ...)
     end
 end)
 
--- /azfr on et /azfr off (Modules/Commande.lua) ; prise en main au chargement de l'add-on.
+-- /azfr on et /azfr off, /azfr centre on|off (Modules/Commande.lua) ; prise en main au chargement de l'add-on.
 table.insert(A.QuandActivation, function(actif)
+    if actif and A.ModuleActif("centre") then Prendre() else Rendre() end
+end)
+table.insert(A.QuandModule, function(module, actif)
+    if module ~= "centre" then return end
     if actif then Prendre() else Rendre() end
 end)
-local ok, err = pcall(function() if A.Actif() then Prendre() end end)
+local ok, err = pcall(function() if A.ModuleActif("centre") then Prendre() end end)
 if not ok then A.NoterErreur("messages du centre (prise)", err) end
-table.insert(A.AuDemarrage, function() if A.Actif() then Prendre() else Rendre() end end)
+table.insert(A.AuDemarrage, function() if A.ModuleActif("centre") then Prendre() else Rendre() end end)

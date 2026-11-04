@@ -12,7 +12,7 @@ paquet PTRXML.
 Quand la source n'a pas encore de description de sort AFFICHABLE avec des nombres, le banc INJECTE une ligne
 reelle a l'etat `a_revoir` (modele anglais + proposition francaise) sous un numero fictif : c'est un essai du
 mecanisme d'alignement, jamais une donnee embarquee dans l'add-on. Le resultat le dit.
-Resultat : work/addon03/banc_resultat.txt ; code de sortie 0 si tout est conforme.
+Resultat : work/addon04/banc_resultat.txt ; code de sortie 0 si tout est conforme.
 """
 import os
 import re
@@ -30,8 +30,8 @@ import fabriquer as F  # noqa: E402
 import officiel as O  # noqa: E402
 
 DIST = os.path.join(K.RACINE, 'dist', 'Interface')
-TRAVAIL = os.path.join(K.RACINE, 'work', 'addon03')
-TRAVAIL2 = os.path.join(K.RACINE, 'work', 'addon03')
+TRAVAIL = os.path.join(K.RACINE, 'work', 'addon04')
+TRAVAIL2 = os.path.join(K.RACINE, 'work', 'addon04')
 JOUEUR = {'nom': 'Thalwyn', 'race': 'Night Elf', 'classe': 'Warrior'}   # personnage fictif du banc
 RACE_FR = F.RACES_OFFICIELLES['Night Elf']
 CIBLE = 'Elandra'                                                          # autre personnage fictif
@@ -778,7 +778,24 @@ def choisir_cas():
     cas.append({'quoi': 'bulle', 'evenement': 'CHAT_MSG_MONSTER_YELL', 'nom': 'bulle de PNJ (MONSTER_YELL, $n = un autre personnage) %s' % cri[K.I_ID],
                 'anglais': afficher_en(cri[K.I_EN], nom=CIBLE), 'cible': CIBLE, 'emetteur': 'Zzz Inconnu',
                 'attendu': rendre_fr(cri[K.I_FR], nom=CIBLE)})
+    # ---- add-on 0.4 : action bloquee (essai 3) ----
+    # bulle en combat : rien n'est fait (la replique reste en francais dans la discussion) ; /azfr bulles off|on
+    cas.append({'quoi': 'bulle_combat', 'evenement': 'CHAT_MSG_MONSTER_SAY',
+                'nom': 'bulle de PNJ %s en combat : laissée en anglais (aucune recherche dans WorldFrame)' % tc[K.I_ID],
+                'anglais': tc[K.I_EN], 'emetteur': 'Zzz Inconnu', 'attendu': tc[K.I_FR]})
+    # simulation de l'action bloquee : parole de PNJ en combat, puis ADDON_ACTION_BLOCKED
+    cas.append({'quoi': 'blocage', 'nom': 'ADDON_ACTION_BLOCKED simulé en combat juste après une parole de PNJ',
+                'anglais': tc[K.I_EN], 'emetteur': 'Kobold Worker', 'addon': 'Azeroth_FR', 'fonction': 'UNKNOWN()'})
+    # /azfr erreurs : lecture seule du gestionnaire d'erreurs de CoA
+    cas.append({'quoi': 'erreurs_jeu', 'nom': '/azfr erreurs : lecture seule de ERROR_HANDLER_DATABASE'})
+    # suivi en combat : un titre francais trop long n'est pas pose (aucune hauteur changee) ; repris apres le combat
+    cas.append({'quoi': 'suivi_combat',
+                'nom': 'suivi en combat : quête %s, titre français trop long laissé en anglais, repris après le combat' % tq[K.I_ID],
+                'id': int(tq[K.I_ID]), 'titre_en': tq[K.I_EN], 'titre_fr': tq[K.I_FR]})
     # messages du centre de l'ecran
+    cas.append({'quoi': 'centre_interrupteur', 'evenement': 'UI_INFO_MESSAGE',
+                'nom': '/azfr centre off|on : « %s slain: 1/8 »' % ne,
+                'anglais': '%s slain: 1/8' % ne, 'attendu': g_tue % (nf, 1, 8)})
     cas.append({'quoi': 'centre', 'evenement': 'UI_INFO_MESSAGE', 'nom': 'centre de l\'écran « %s slain: 1/8 »' % ne,
                 'anglais': '%s slain: 1/8' % ne, 'attendu': g_tue % (nf, 1, 8), 'couleur': ['1', '1', '0', '1'],
                 'essai_off': True})

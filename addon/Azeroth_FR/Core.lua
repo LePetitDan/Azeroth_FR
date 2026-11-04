@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : le coeur de l'add-on (version 0.3).
+-- Azeroth_FR : le coeur de l'add-on (version 0.4 : fil d'Ariane des modules, interrupteurs par module).
 --
 -- PRINCIPE : AFFICHAGE SEULEMENT. Le jeu affiche son texte anglais ; l'add-on le
 -- reconnait et pose le francais par-dessus, dans le cadre affiche (FontString:SetText,
@@ -50,9 +50,40 @@ local function NoterErreur(nom, err)
 end
 A.NoterErreur = NoterErreur
 
--- Enveloppe une fonction appelee par le jeu (crochet, evenement) : jamais d'erreur visible.
-function A.Proteger(nom, fn)
+local function Chrono()
+    if type(debugprofilestop) == "function" then return debugprofilestop() end
+    return 0
+end
+A.Chrono = Chrono
+
+function A.EnCombat()
+    return type(InCombatLockdown) == "function" and InCombatLockdown() and true or false
+end
+
+-- Fil d'Ariane (0.4) : les derniers modules de l'add-on qui ont tourne, le plus recent d'abord (nom, heure
+-- en millisecondes, nombre d'appels consecutifs, en combat ou non). Sert au diagnostic d'une action bloquee
+-- (Modules/Diagnostic.lua) : on sait ce que l'add-on faisait juste avant. Petit et borne (12 entrees).
+A.Fil = {}
+local FIL_MAX = 12
+function A.Trace(nom)
+    local fil = A.Fil
+    local t = Chrono()
+    local der = fil[1]
+    if der and der.nom == nom then
+        der.t = t; der.n = der.n + 1
+        if not der.combat then der.combat = A.EnCombat() end
+        return
+    end
+    table.insert(fil, 1, { nom = nom, t = t, n = 1, combat = A.EnCombat() })
+    if #fil > FIL_MAX then fil[#fil] = nil end
+end
+
+-- Enveloppe une fonction appelee par le jeu (crochet, evenement) : jamais d'erreur visible. Le passage est
+-- note dans le fil d'Ariane, sauf pour les guetteurs appeles a chaque image (sansTrace : ils se notent eux-memes
+-- quand ils agissent).
+function A.Proteger(nom, fn, sansTrace)
     return function(...)
+        if not sansTrace then A.Trace(nom) end
         local ok, err = pcall(fn, ...)
         if not ok then NoterErreur(nom, err) end
     end
@@ -60,6 +91,14 @@ end
 
 function A.Actif()
     return not (type(AzerothFR_Reglages) == "table" and AzerothFR_Reglages.inactif)
+end
+
+-- Interrupteurs par module (0.4) : /azfr bulles off, /azfr centre off, /azfr plaques off… (reglage du joueur,
+-- garde d'une session a l'autre). Un module coupe ne fait plus rien ; le reste de l'add-on continue.
+function A.ModuleActif(nom)
+    if not A.Actif() then return false end
+    local r = AzerothFR_Reglages
+    return not (type(r) == "table" and type(r.coupes) == "table" and r.coupes[nom])
 end
 
 -- Un cadre protege ne doit jamais etre parcouru ni modifie (seules ses zones de texte peuvent
@@ -258,11 +297,6 @@ end
 -- ----------------------------------------------------------------------------
 -- Chargement des add-ons de donnees
 -- ----------------------------------------------------------------------------
-local function Chrono()
-    if type(debugprofilestop) == "function" then return debugprofilestop() end
-    return 0
-end
-
 function A.ChargerAddon(addon)
     local etat = A.Charges[addon]
     if etat ~= nil then return etat end
@@ -270,6 +304,7 @@ function A.ChargerAddon(addon)
         A.EnAttente[addon] = true       -- jamais de gros chargement en plein combat
         return false
     end
+    A.Trace("chargement " .. tostring(addon))
     local t0 = Chrono()
     local ok, charge, raison = pcall(LoadAddOn, addon)
     A.DureesChargement[addon] = Chrono() - t0
@@ -621,6 +656,10 @@ A.AuDemarrage = A.AuDemarrage or {}
 A.AEntreeEnJeu = A.AEntreeEnJeu or {}
 -- A.QuandActivation : fonctions(actif) appelees par /azfr on et /azfr off.
 A.QuandActivation = A.QuandActivation or {}
+-- A.QuandModule : fonctions(module, actif) appelees par /azfr <module> on|off.
+A.QuandModule = A.QuandModule or {}
+-- A.ApresCombat : fonctions lancees a la fin d'un combat (PLAYER_REGEN_ENABLED).
+A.ApresCombat = A.ApresCombat or {}
 local demarrage = CreateFrame("Frame")
 demarrage:RegisterEvent("PLAYER_LOGIN")
 demarrage:RegisterEvent("PLAYER_ENTERING_WORLD")
@@ -647,6 +686,11 @@ demarrage:SetScript("OnEvent", A.Proteger("demarrage", function(self, evenement)
         for addon in pairs(A.EnAttente) do
             A.EnAttente[addon] = nil
             A.ChargerAddon(addon)
+        end
+        -- (0.4) ce qui a ete laisse en anglais pendant le combat pour ne rien redimensionner (suivi…)
+        for _, fn in ipairs(A.ApresCombat) do
+            local ok, err = pcall(fn)
+            if not ok then NoterErreur("après le combat", err) end
         end
     end
 end))

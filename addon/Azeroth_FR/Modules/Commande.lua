@@ -7,6 +7,11 @@
 --   /azfr stats       familles chargees, memoire, nombre de traductions, erreurs evitees
 --   /azfr etiquettes  trois infobulles d'objets reels du serveur portant des etiquettes (Mythic N,
 --                     Heroic Raid, Bloodforged) : lignes brutes du jeu dans la discussion, puis traduction
+--                     (hors combat seulement)
+--   /azfr erreurs     (0.4) dernieres erreurs notees par le gestionnaire d'erreurs de CoA, en lecture seule
+--   /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off
+--                     (0.4) coupe ou remet un module (bulles des PNJ, messages du centre de l'ecran, plaques de
+--                     nom) pour isoler la cause d'une action bloquee ; le reglage est garde
 -- ============================================================================
 local A = AzerothFR
 local format = string.format
@@ -36,6 +41,12 @@ local function Stats()
         A.CentrePris and (A.CentrePris() and "pris en charge" or (A.CentreEnPanne and "rendus au jeu après une erreur" or "laissés au jeu")) or "?",
         A.Erreurs))
     if A.DerniereErreur then A.Message("dernière erreur évitée : " .. A.DerniereErreur) end
+    local coupes = {}
+    for _, m in ipairs({ "bulles", "centre", "plaques" }) do
+        if not A.ModuleActif(m) and A.Actif() then coupes[#coupes + 1] = m end
+    end
+    if #coupes > 0 then A.Message("modules coupés (/azfr <module> on pour les remettre) : " .. table.concat(coupes, ", ")) end
+    if A.StatsBlocages then A.StatsBlocages() end
     if type(UpdateAddOnMemoryUsage) == "function" then pcall(UpdateAddOnMemoryUsage) end
     local total = 0
     local noms = { "Azeroth_FR" }
@@ -113,6 +124,10 @@ local function Bulle(i)
 end
 
 local function AfficherEtiquettes(relance)
+    if A.EnCombat() then
+        if not relance then A.Message("/azfr etiquettes : pas pendant un combat (réessayez après).") end
+        return
+    end
     local manquants = 0
     for i, o in ipairs(A.OBJETS_ETIQUETTES or {}) do
         local id, quoi = o[1], o[2]
@@ -152,7 +167,7 @@ minuteur:SetScript("OnUpdate", A.Proteger("etiquettes.minuteur", function(self, 
         for _, b in pairs(bulles) do b:Hide() end
         self:Hide()
     end
-end))
+end, true))
 A.AfficherEtiquettes = AfficherEtiquettes
 
 local function Activation(actif)
@@ -162,10 +177,33 @@ local function Activation(actif)
     end
 end
 
+-- Modules qu'on peut couper un par un (A.ModuleActif) ; noms affiches.
+local MODULES = { bulles = "bulles des PNJ", centre = "messages du centre de l'écran", plaques = "plaques de nom" }
+
+local function Interrupteur(module, etat)
+    if type(AzerothFR_Reglages) ~= "table" then AzerothFR_Reglages = {} end
+    if type(AzerothFR_Reglages.coupes) ~= "table" then AzerothFR_Reglages.coupes = {} end
+    if etat == "off" then
+        AzerothFR_Reglages.coupes[module] = true
+    elseif etat == "on" then
+        AzerothFR_Reglages.coupes[module] = nil
+    end
+    for _, fn in ipairs(A.QuandModule or {}) do
+        local ok, err = pcall(fn, module, A.ModuleActif(module))
+        if not ok then A.NoterErreur("/azfr " .. module, err) end
+    end
+    A.Message(format("%s : %s.", MODULES[module], A.ModuleActif(module) and "ACTIF" or "COUPÉ"))
+end
+
 local function Commande(msg)
     local ok, err = pcall(function()
         msg = string.lower(string.match(msg or "", "^%s*(.-)%s*$") or "")
-        if msg == "on" then
+        local module, etat = string.match(msg, "^(%a+)%s*(%a*)$")
+        if module and MODULES[module] and (etat == "on" or etat == "off" or etat == "") then
+            Interrupteur(module, etat)
+        elseif msg == "erreurs" then
+            if A.ListerErreursJeu then A.ListerErreursJeu(5) end
+        elseif msg == "on" then
             if type(AzerothFR_Reglages) ~= "table" then AzerothFR_Reglages = {} end
             AzerothFR_Reglages.inactif = nil
             Activation(true)
@@ -182,7 +220,7 @@ local function Commande(msg)
         elseif msg == "etiquettes" or msg == "étiquettes" then
             AfficherEtiquettes(false)
         else
-            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr etiquettes")
+            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
         end
     end)
     if not ok then A.NoterErreur("/azfr", err) end

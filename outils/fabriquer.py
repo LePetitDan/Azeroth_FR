@@ -63,7 +63,7 @@ import controle as C  # noqa: E402
 
 DIST = os.path.join(K.RACINE, 'dist')
 ADDON_SRC = os.path.join(K.RACINE, 'addon')
-TRAVAIL = os.path.join(K.RACINE, 'work', 'addon03')
+TRAVAIL = os.path.join(K.RACINE, 'work', 'addon04')
 MAX_CONSTANTES = 200000          # par fichier (limite reelle de Lua 5.1 : 262 143)
 TAILLE_FICHIER = 3 * 1024 * 1024  # un fichier de donnees ne depasse pas ~3 Mo
 SEAU_ID = 512                    # numeros par seau
