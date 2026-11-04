@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 04/11/2026 | Points 12 et 13 appliqués (données 0.4) dans `glossaire/etiquettes.tsv` : « Fabuleux », « Supérieur », « Raffiné », « Chef-d'œuvre », « Prestigieux » (aussi doré), « Sanguin », « Boss mondial héroïque » (statut `traduit`) ; « Raid : Naxxramas - N joueurs » (motif à nombre) ; « Boss mondial héroïque : Marche-funeste » et « … : Seigneur funeste Kazzak » (statut `officiel`) ; « Tier N » statut `anglais` | Décisions 12 et 13 de Dan ; couleurs gardées ; noms prouvés (créatures 17711 et 18728, officiel Blizzard) ; 11 081 étiquettes d'objets de plus en français ; 11h (Temple of Ahn'Qiraj), 11j (Ahn'kahet, the Old Kingdom), 11l (étiquettes rares) restent en anglais |
 | 04/11/2026 | Essai 3 (add-on 0.3.0) installé dans `D:\Wow_Core` à la place de l'essai 2 | Accord de Dan ; essai 2 retiré, aucun autre fichier du jeu touché |
 | 04/11/2026 | Vocabulaire, point 14 : enchantements et bonus de gemmes propres à CoA = modèle officiel de Blizzard appliqué aux autres nombres (« +5 à la puissance d'attaque ») | Décision de Dan ; seulement les modèles déjà traduits par Blizzard |
 | 04/11/2026 | Vocabulaire, point 13 : « Tier N » reste en anglais | Décision de Dan |

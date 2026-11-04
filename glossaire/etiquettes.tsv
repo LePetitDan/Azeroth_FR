@@ -59,15 +59,17 @@ Heroic Dungeon: The Culling of Stratholme	Donjon héroïque : L'Épuration de S
 Heroic Dungeon: Utgarde Keep	Donjon héroïque : Donjon d'Utgarde	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Utgarde Keep » → « Donjon d'Utgarde » (zone, textes/client/zones.tsv)
 Heroic Dungeon: The Oculus	Donjon héroïque : L'Oculus	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « The Oculus » → « L'Oculus » (zone, textes/client/zones.tsv)
 Heroic Dungeon: Azjol-Nerub	Donjon héroïque : Azjol-Nérub	officiel	décision 9 de Dan (04/11/2026) (« Heroic Dungeon ») ; nom officiel prouvé : « Azjol-Nerub » → « Azjol-Nérub » (zone, textes/client/zones.tsv)
-Fabled		a_trancher	terme sans décision, reste en anglais ; proposition : Légendaire ? (à ne pas confondre avec la qualité « Légendaire » officielle) ou « Fabuleux »
-Superior		a_trancher	terme sans décision, reste en anglais ; proposition : « Supérieur » (qualité « Supérieure » officielle pour les objets bleus)
-Refined		a_trancher	terme sans décision, reste en anglais ; proposition : « Raffiné »
-Masterwork		a_trancher	terme sans décision, reste en anglais ; proposition : « Chef-d'œuvre »
-Prestigious		a_trancher	terme sans décision, reste en anglais ; proposition : « Prestigieux »
-Sanguine		a_trancher	terme sans décision, reste en anglais ; proposition : « Sanguin »
-Tier {N}		a_trancher	terme sans décision, reste en anglais ; proposition : « Palier {N} » (Blizzard dit « Tier » dans ses textes de raid : à décider)
-Raid: Naxxramas - {N} Player		a_trancher	terme sans décision, reste en anglais ; proposition : « Raid : Naxxramas - {N} joueurs » (RAID_DIFFICULTY : « 10 joueurs », « 25 joueurs » officiels)
-Heroic World Boss		a_trancher	terme sans décision, reste en anglais ; proposition : « Boss mondial héroïque »
+Fabled	Fabuleux	traduit	décision 12 de Dan (04/11/2026)
+Superior	Supérieur	traduit	décision 12 de Dan (04/11/2026)
+Refined	Raffiné	traduit	décision 12 de Dan (04/11/2026)
+Masterwork	Chef-d'œuvre	traduit	décision 12 de Dan (04/11/2026)
+Prestigious	Prestigieux	traduit	décision 12 de Dan (04/11/2026) ; aussi la forme dorée (|cffFFD700…|r, couleur gardée)
+Sanguine	Sanguin	traduit	décision 12 de Dan (04/11/2026) ; couleur rouge gardée
+Tier {N}		anglais	décision 13 de Dan (04/11/2026) : « Tier N » reste en anglais (terme invariable, comme Worldforged)
+Raid: Naxxramas - {N} Player	Raid : Naxxramas - {N} joueurs	traduit	décision 12 de Dan (04/11/2026) ; « Naxxramas » officiel (zone 3456, carte 533, textes/client/zones.tsv) ; « 10 Player » → « 10 joueurs », « 25 Player » → « 25 joueurs » (RAID_DIFFICULTY1, RAID_DIFFICULTY2, GlobalStrings.lua frFR officiel)
+Heroic World Boss	Boss mondial héroïque	traduit	décision 12 de Dan (04/11/2026)
+Heroic World Boss: Doomwalker	Boss mondial héroïque : Marche-funeste	officiel	décision 12 de Dan (04/11/2026) (« Heroic World Boss ») ; nom officiel prouvé : « Doomwalker » → « Marche-funeste » (créature 17711, textes/serveur/creatures.tsv, blizzard_frFR)
+Heroic World Boss: Doom Lord Kazzak	Boss mondial héroïque : Seigneur funeste Kazzak	officiel	décision 12 de Dan (04/11/2026) (« Heroic World Boss ») ; nom officiel prouvé : « Doom Lord Kazzak » → « Seigneur funeste Kazzak » (créature 18728, textes/serveur/creatures.tsv, blizzard_frFR)
 Ascended Temple of Ahn'Qiraj		a_trancher	nom de lieu sans anglais officiel identique (« Temple of Ahn'Qiraj ») : reste en anglais
 Heroic Temple of Ahn'Qiraj		a_trancher	nom de lieu sans anglais officiel identique (« Temple of Ahn'Qiraj ») : reste en anglais
 Mythic Temple of Ahn'Qiraj		a_trancher	nom de lieu sans anglais officiel identique (« Temple of Ahn'Qiraj ») : reste en anglais
