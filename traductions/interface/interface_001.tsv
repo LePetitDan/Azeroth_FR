@@ -5,13 +5,17 @@ chaine_interface	ACTION_SPELL_AURA_BROKEN_DEBUFF_FULL_TEXT		texte	033d9bf69d30	%
 chaine_interface	ACTION_SPELL_AURA_BROKEN_SPELL_BUFF_FULL_TEXT		texte	6132f0d30a93	%1$s brise %2$s %4$s avec %5$s.	lot interface_001
 chaine_interface	ACTION_SPELL_AURA_BROKEN_SPELL_DEBUFF_FULL_TEXT		texte	6132f0d30a93	%1$s brise %2$s %4$s avec %5$s.	lot interface_001
 chaine_interface	ACTION_SPELL_DRAIN_FULL_TEXT_NO_SOURCE		texte	3ec5f5aa4c83	%2$s draine %9$s %8$s |2 %4$s.	lot interface_001
+chaine_interface	ADDON_INTERFACE_VERSION		texte	041f427861df	Périmé\n\nAscension est basé sur World of Warcraft 3.3.5. Les add-ons des versions ultérieures du jeu ne sont pas pris en charge et ne fonctionneront probablement pas.	lot interface_001
 chaine_interface	ADDON_UPDATE_AVAILABLE		texte	783c8d8a66fb	Nouvelle version disponible\n	lot interface_001
 chaine_interface	ADD_IGNORE_LABEL		texte	1c9697c4fa88	Indiquez le nom du joueur à ignorer\nou\nfaites Clic-Maj sur un nom dans la fenêtre de discussion :	lot interface_001
 chaine_interface	ADD_MUTE_LABEL		texte	b19d43e03a5a	Indiquez le nom du joueur à rendre muet\nou\nfaites Clic-Maj sur un nom dans la fenêtre de discussion :	lot interface_001
+chaine_interface	ARENA_PETITION_LEADER_INSTRUCTIONS		texte	65ac5f643a69	Sélectionnez un personnage que vous souhaitez inviter et cliquez sur <Demander signature>. Pour créer l'équipe, rendez-vous au registre des arènes lorsque vous aurez rassemblé le nombre requis de signatures.	lot interface_001 ; officiel (anglais voisin)
+chaine_interface	ARENA_PETITION_MEMBER_INSTRUCTIONS		texte	fe461e95d8d4	Cliquez sur <Signer la charte> pour devenir membre fondateur de cette équipe d'arène.	lot interface_001 ; officiel (anglais voisin)
 chaine_interface	ARENA_TEAM_LEAD_IN		texte	b5dacaaf554b	Allez voir un maître d'arène pour fonder une nouvelle équipe d'arène.	lot interface_001
 chaine_interface	ARENA_TEAM_RANK		texte	210b90bd3f09	Classement de l'équipe : 	lot interface_001
 chaine_interface	AUCTION_PRICE_TOOLTIP_TEXT		texte	c3aabbb39d65	Définissez le prix à l'unité ou le prix total de la pile d'objets. 	lot interface_001
 chaine_interface	AUTO_POPUP_DRAFT		texte	10a7c86d10ee	Ouvrir le Draft automatiquement en montant de niveau	lot interface_001
+chaine_interface	BATTLEFIELD_IN_BATTLEFIELD		texte	0d49c58a8d32	Vous êtes dans %s\n|cffffffff<Clic gauche pour afficher le score>\n<Clic-Maj pour voir la carte locale>|r	lot interface_001 ; officiel (anglais voisin)
 chaine_interface	BATTLENET_UNAVAILABLE_ALERT		texte	39e9f24a8379	Le service Battle.net est actuellement indisponible.|n|nVos amis (nom réel) ne seront pas affichés. Vous ne pourrez pas envoyer ni recevoir de nouvelles demandes d'ami. Il pourra être nécessaire de redémarrer le jeu pour réactiver cette fonctionnalité.	lot interface_001
 chaine_interface	BINDING_NAME_TOGGLERAIDTAB		texte	a8e6ed1138d6	Ouvrir/fermer le panneau de raid	lot interface_001
 chaine_interface	BINDING_NAME_TOGGLETALENTS		texte	6b3e718de1ef	Ouvrir/fermer l'Avancement du personnage	lot interface_001
@@ -19,7 +23,10 @@ chaine_interface	BLOCK_TRAILER		texte	573cba3fa4f1	(%d bloqué)	lot interface_00
 chaine_interface	BLOODELF_DISABLED		texte	609e15fec7f6	Elfe de sang\nNécessite d'avoir l'extension The Burning Crusade	lot interface_001
 chaine_interface	BONUS_BUTTON_RANDOM_BG_DESC		texte	cced0a9083bf	Affrontez la faction ennemie sur un champ de bataille aléatoire.	lot interface_001
 chaine_interface	BONUS_BUTTON_RANDOM_BRAWL_DESC		texte	d1fb9b3f66a1	Affrontez la faction ennemie dans une bagarre de champ de bataille aléatoire.	lot interface_001
+chaine_interface	BUILD_CREATOR_ACTIVATE_BUILD_DRAFT		texte	4ea7996c6f1f	Ceci activera un |cffffd100build en vedette|r.\n\nLes |cffffd100builds en vedette|r apprennent automatiquement les Enchantements mystiques, talents et capacités au fil de votre progression.\nUne fois le niveau maximum atteint, vous pourrez passer à une puissante version PvE ou PvP de ce build, ou le personnaliser à votre guise !\n\nVous |cffff0000ne pourrez pas changer de spécialisation|r avant d'atteindre le niveau |cffffd100%d|r ou de désactiver votre |cffffd100build en vedette|r !\n\nLes |cffffd100builds en vedette|r peuvent être désactivés à tout moment dans l'Architecte de héros. 	lot interface_001
+chaine_interface	BUILD_CREATOR_FEATURED_HINT		texte	85563bb3b611	Les builds en vedette appliquent automatiquement capacités, talents et Enchantements mystiques au fil de votre progression.\n\nTous les builds en vedette se classent parmi les 1% offrant les meilleures performances : c'est la condition pour être mis en vedette.\n\nUn build en vedette ne peut être activé qu'avant le niveau 10.	lot interface_001
 chaine_interface	BUILD_CREATOR_FINISH_PICKING_ENCHANTS		texte	206b3afaf3a5	Choisissez les Enchantements mystiques à ajouter à votre build	lot interface_001
+chaine_interface	BUILD_DRAFT_TROPHY_ELIGIBLE_TOOLTIP		texte	995a0c24353a	Atteindre le niveau maximum avec ce build vous rapportera un |cffff8000[Build Master's Trophy]|r|n|cff00ff00<Cliquez pour ouvrir la boutique de récompenses du maître des builds>|r	lot interface_001 ; nom d'objet entre crochets laissé en anglais tant que l'objet 1297306 n'a pas de nom français validé
 chaine_interface	BUILD_EDITOR_CATEGORY_BUILDDRAFT		texte	580355a6afa4	Draft de build (mis en vedette)	lot interface_001
 chaine_interface	BUILD_FILTER_ROLE_DAMAGE		texte	7bf6d1d3a58a	Dégâts	lot interface_001
 chaine_interface	CALENDAR_SIGNUP		texte	2ba4023df482	S'inscrire	lot interface_001
@@ -37,14 +44,20 @@ chaine_interface	CA_WCMR_NO_MATCHING_UNLEARNS		texte	8cbe9db02b3c	Vous avez des 
 chaine_interface	CHALLENGE_START_NOT_PRESTIGE		texte	ca23cea465b3	Vous ne pouvez pas activer ce défi après avoir obtenu un prestige.	lot interface_001
 chaine_interface	CHALLENGE_START_OUTSIDE_INTERACTION		texte	83be6bcd9e1f	Vous avez interagi d'une manière ou d'une autre avec un autre joueur.	lot interface_001
 chaine_interface	CHALLENGE_START_RULE_BROKEN		texte	d0e294ff2c9c	Vous n'avez pas respecté une restriction de ce défi.	lot interface_001
+chaine_interface	CHANGE_SPEC_BUILD_DRAFT		texte	1a178ce2330e	|cffffd100Attention :|r passer à cette spécialisation remplacera vos |cffc942fdEnchantements mystiques|r par les |cffc942fdEnchantements mystiques|r du |cffffd100Draft de build|r !\n\nVous pourrez réappliquer vos |cffc942fdEnchantements mystiques|r gratuitement.\n\nVous pouvez aussi utiliser un |cffe6cc80[Parchemin de spécialisation : Enchantements mystiques]|r pour sauvegarder votre configuration d'enchantements actuelle !	lot interface_001
 chaine_interface	CHAT_BN_CONVERSATION_SEND		texte	7745e11342b3	[%d. Conversation] : 	lot interface_001
+chaine_interface	CHAT_FLAG_AFK		texte	81c82aba76b2	<Absent>	lot interface_001 ; officiel
+chaine_interface	CHAT_FLAG_DND		texte	f4827342da64	<Occupé>	lot interface_001 ; officiel
+chaine_interface	CHAT_FLAG_GM		texte	3ccc10548846	<MJ>	lot interface_001 ; officiel
 chaine_interface	CHAT_GUILD_INVITE_SEND		texte	7c98b449843a	Inviter dans la guilde : 	lot interface_001
 chaine_interface	CHAT_GUILD_LEADER_SEND		texte	35d6453b3db7	Nommer chef de guilde : 	lot interface_001
 chaine_interface	CHAT_GUILD_MOTD_SEND		texte	cfb9519a33f6	MDJ de la guilde : 	lot interface_001
 chaine_interface	CHAT_GUILD_PROMOTE_SEND		texte	61c57736e70d	Promouvoir	lot interface_001
 chaine_interface	CHAT_GUILD_UNINVITE_SEND		texte	baafa42e1291	Renvoyer de la guilde : 	lot interface_001
 chaine_interface	CHAT_HELP_TEXT_LINE1		texte	6fccd3270ff7	Commandes de messagerie : 	lot interface_001
+chaine_interface	CHAT_INDELAY_USAGE		texte	c71c95900f20	Utilisation : /in <délai> [nom] <commande de discussion> (le nom est facultatif)	lot interface_001
 chaine_interface	CHAT_INVITE_SEND		texte	b136609f0684	Inviter	lot interface_001
+chaine_interface	CHAT_JOIN_HELP		texte	23a6819b0c34	Tapez /join <nom du canal> [mot de passe] pour créer le canal ou le rejoindre.	lot interface_001 ; officiel, mais la commande reste /join (SLASH_JOIN du client anglais)
 chaine_interface	CHAT_PROMOTE_SEND		texte	61c57736e70d	Promouvoir	lot interface_001
 chaine_interface	CHAT_SUSPENDED_NOTICE		texte	a95f96726ba2	Quitte le canal : |Hchannel:%d|h[%s]|h 	lot interface_001
 chaine_interface	CHAT_UNINVITE_SEND		texte	5f29f579a194	Annuler l'invitation	lot interface_001
@@ -118,6 +131,7 @@ chaine_interface	CLASS_INFO_GUARDIAN4		texte	bae84f5bf6e1	- Utilise l'Énergie c
 chaine_interface	CLICK_TO_LAUNCH_ADDON_URL		texte	5aacd312ecfa	Cliquer pour lancer le site des add-ons\n	lot interface_001
 chaine_interface	COA_RESET_RESOURCE_ELEMENTS		texte	b5a921e43414	Réinitialiser les éléments de ressources	lot interface_001
 chaine_interface	COMBAT_TEXT_ARENA_POINTS_GAINED		texte	cb7d33368fda	Points de conquête %s	lot interface_001
+chaine_interface	COMBAT_TEXT_COMBO_POINTS		texte	f0e940933a6f	<%d |4point:points; de combo>	lot interface_001 ; officiel
 chaine_interface	CONFIRM_CHAR_DELETE_INSTRUCTIONS		texte	d3207c3fb6a2	Tapez "DELETE" dans le champ pour confirmer.	lot interface_001
 chaine_interface	CONFIRM_HIGH_COST_ITEM		texte	03f63d75763c	Voulez-vous vraiment acheter %s pour le montant suivant ?|n|n|cffff0000Cet objet ne pourra être ni rendu ni remboursé une fois acheté !|r	lot interface_001
 chaine_interface	CONFIRM_RESET		texte	ad8905f34b1b	\nVoulez-vous vraiment réinitialiser ?	lot interface_001
@@ -130,9 +144,18 @@ chaine_interface	CREDITS_WOW_LK		texte	9c6d90bf80a8	Générique de l'extension L
 chaine_interface	CROWD_CONTROL_MECHANIC_DAZED		texte	9283bc727235	Hébété	lot interface_001
 chaine_interface	CROWD_CONTROL_MECHANIC_STUNNED		texte	96129a87100d	Étourdi	lot interface_001
 chaine_interface	CRUSHING_TRAILER		texte	0112f6e584a9	(écrase)	lot interface_001
+chaine_interface	CR_CRIT_MELEE_TOOLTIP		texte	5bfd955844bb	Score crit. %d (+%.2f%% de critique)\n\nLes chances de critique dépendent principalement du |cffFFFFFFscore de critique|r, de l'|cffFFFFFFAgilité|r et légèrement de l'|cffFFFFFFIntelligence|r	lot interface_001
+chaine_interface	CR_CRIT_RANGED_TOOLTIP		texte	5bfd955844bb	Score crit. %d (+%.2f%% de critique)\n\nLes chances de critique dépendent principalement du |cffFFFFFFscore de critique|r, de l'|cffFFFFFFAgilité|r et légèrement de l'|cffFFFFFFIntelligence|r	lot interface_001
+chaine_interface	CR_EXPERTISE_TOOLTIP		texte	17f13f0f2db1	Diminue les chances d'être esquivé ou paré de %s\n\nScore d'expertise %d (+%d en expertise)	lot interface_001
+chaine_interface	CR_HIT_MELEE_OFF_HAND_TOOLTIP		texte	ee0bacf07846	Augmente vos chances de toucher en mêlée avec votre main gauche une cible de niveau %d de %s\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un boss de raid avec votre arme de main gauche.\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un joueur avec votre arme de main gauche.\n\n|cff00ff00Ceci ne concerne que les attaques automatiques de la main gauche. Votre score de toucher normal s'applique aux capacités.|r	lot interface_001
+chaine_interface	CR_HIT_MELEE_TOOLTIP		texte	351c67b997a9	Augmente vos chances de toucher en mêlée une cible de niveau %d de %s\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un boss de raid.\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un joueur	lot interface_001
+chaine_interface	CR_HIT_RANGED_TOOLTIP		texte	16133115ea26	Augmente vos chances de toucher une cible de niveau %d avec une attaque à distance de %s\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un boss de raid.\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un joueur	lot interface_001
+chaine_interface	CR_HIT_SPELL_TOOLTIP		texte	3b676a800bd6	Augmente les chances que vos sorts touchent une cible de niveau %d de %s\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un boss de raid.\n\n%.2f%% de chances de toucher sont nécessaires pour ne jamais rater un joueur	lot interface_001
 chaine_interface	DAMAGE_SCHOOL7		texte	5f0a4cd330d6	Arcanes	lot interface_001
 chaine_interface	DAMAGE_TIP_HOTKEY		texte	695ee8abeb96	Appuyez sur |cffFFFF00(%s)|r pour lancer |cff71d5ff[%s]|r	lot interface_001
 chaine_interface	DEFAULT_STATDEFENSE_TOOLTIP		texte	76c1dac72042	Score de défense %d (+%d Défense)|nAugmente vos chances d'esquiver, bloquer et parer de %.2f%%|nRéduit la probabilité que vous soyez touché et que vous subissiez des coups critiques de %.2f%%|n|cff888888(avant les rendements décroissants)|r	lot interface_001
+chaine_interface	DELETE_BUILD_CONFIRM		texte	e96bb71742ed	Voulez-vous supprimer [%s] ?\n\nTapez "DELETE" dans le champ pour confirmer.	lot interface_001
+chaine_interface	DELETE_GOOD_ITEM		texte	762f428fa9ac	Voulez-vous détruire %s ?\n\nTapez "DELETE" dans le champ pour confirmer.	lot interface_001
 chaine_interface	DISABLE_SPELLVISUAL_TRANSMOG_TOOLTIP		texte	750bdc442e36	Masque pour vous les transmogrifications de sorts de tous les joueurs.	lot interface_001
 chaine_interface	DISPLAY_LABEL		texte	268d0e4df757	Affichage|TInterface\OptionsFrame\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|t	lot interface_001
 chaine_interface	DRAENEI_DISABLED		texte	0cfb4a2bc637	Draeneï\nNécessite d'avoir l'extension The Burning Crusade	lot interface_001
@@ -140,6 +163,8 @@ chaine_interface	DRAFT_CANCEL_HOF_CONFIRM		texte	f60985a34a9d	Voulez-vous vraime
 chaine_interface	DRAFT_HINT_DRAFT_MODE		texte	f9b491b776b2	Mode Draft	lot interface_001
 chaine_interface	DRAFT_OPTIONS_LABEL		texte	1b6786c94dc2	Options du Draft|TInterface\OptionsFrame\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|t	lot interface_001
 chaine_interface	DRAFT_OPTIONS_SUBTEXT		texte	5db131fd7bd5	Configurez divers paramètres des modes Draft et Draft de build.	lot interface_001
+chaine_interface	DRAFT_UNLEARN_ADDITIONAL_SPELLS		texte	ed2cdda97b91	\n\nVous désapprendrez également :\n	lot interface_001
+chaine_interface	DRAFT_UNLEARN_INCREASE_CHANCE		texte	344304295371	\n\nDésapprendre cette capacité augmentera grandement vos chances d'obtenir des sorts de type %s lors de vos prochains Drafts.	lot interface_001
 chaine_interface	DUNGEONS_BUTTON		texte	e58f7f889902	Activités	lot interface_001
 chaine_interface	DUNGEON_DIFFICULTY3		texte	7564e5824ffa	5 joueurs (mythique)	lot interface_001
 chaine_interface	DUNGEON_FLOOR_SHADOWLABYRINTH1		texte	84d7344f473d	Labyrinthe des ombres	lot interface_001
@@ -148,10 +173,13 @@ chaine_interface	DUNGEON_FLOOR_STORMWINDSEWERS2		texte	0d53eb8523ea	Étage secon
 chaine_interface	DUNGEON_FLOOR_STORMWINDSEWERS3		texte	63eb93a20635	Égouts des égouts	lot interface_001
 chaine_interface	DUNGEON_FLOOR_ULDUAR0		texte	27053d871720	Le Grand abord	lot interface_001
 chaine_interface	EFFECTS_LABEL		texte	ab255c27aec8	Graphismes	lot interface_001
+chaine_interface	ENABLE_AUTO_LEARN_TOOLTIP		texte	66ef876ee979	Active l'apprentissage automatique des sorts et des talents lors de l'activation de ce build.\n\nCela écrasera toutes les modifications que vous avez apportées ou apporterez à ce build. 	lot interface_001
 chaine_interface	ENCHANT_COLLECTION_APPLY_COLLECTION_REFORGE		texte	b5f951f88100	Voulez-vous vraiment activer ces enchantements ?\n	lot interface_001
 chaine_interface	ENCHANT_COLLECTION_APPLY_COLLECTION_REFORGE_WARN		texte	1bf112ffe8c5	|cffff0000Vous n'avez pas collecté un ou plusieurs des enchantements que vous êtes sur le point d'écraser !|r\nVoulez-vous vraiment activer ces enchantements ?\n	lot interface_001
+chaine_interface	ENCHANT_COLLECTION_DISENCHANT_ITEM		texte	d6d4e7de455a	Voulez-vous vraiment enregistrer dans la collection\n%s ?\n\n|cffFF0000(CELA DÉTRUIRA L'OBJET DE VOS SACS)|r.\n\n	lot interface_001
 chaine_interface	ENCHANT_COLLECTION_DISENCHANT_SLOT		texte	0dc6a22cd649	Voulez-vous vraiment enregistrer dans la collection\n%s ?\n	lot interface_001
 chaine_interface	ENCHANT_COLLECTION_SCROLL_COLLECTION_REFORGE_DIALOGUE		texte	b2c4bb8c9674	Voulez-vous vraiment appliquer\n%s\nà\n%s ?\n	lot interface_001
 chaine_interface	ENCHANT_CONDITION_AND		texte	97e2118f062c	et 	lot interface_001
 chaine_interface	ERR_ARENA_NO_TEAM_II		texte	cf68c55b1e7b	Vous ne faites pas partie d'une équipe d'arène en %dc%d.	lot interface_001
+chaine_interface	ERR_COMMAND_NEEDS_TARGET		texte	9ce0700d5bfb	Vous devez indiquer une cible : /<commande> <nom de la cible>	lot interface_001 ; officiel
 chaine_interface	ERR_DLL_LINE6		texte	1af24d1efbc2	Une fois cela fait, ou si vous n'avez pas d'antivirus, |cff00CCFFfermez le jeu|r et lancez |cff00CCFFRéparer le client|r depuis le lanceur. 	lot interface_001
