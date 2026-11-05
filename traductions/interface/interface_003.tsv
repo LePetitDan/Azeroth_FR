@@ -1,0 +1,124 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+chaine_interface	NPE_NORTHSHIRE_INTRO8_TEXT		texte	454708e34cb1	Terminez la quête\n[QUEST:7]\nen éliminant [KEYWORD:8] [NPC:Vermines kobolds]	lot interface_003
+chaine_interface	NPE_QUEST1_COMPLETIONS_COLDRIDGEQUEST1		texte	4fea580de0a2	Retournez voir |cffFFFF00Sten Rudebras|r et rendez votre quête	lot interface_003
+chaine_interface	NPE_QUEST1_COMPLETIONS_NARCHEQUEST1		texte	985f2eade0d9	Retournez voir |cffFFFF00Grull Vent-du-faucon|r et rendez votre quête	lot interface_003
+chaine_interface	NPE_QUEST1_COMPLETIONS_SUNSTRIDERQUEST1		texte	280ce49ab1e0	Retournez voir |cffFFFF00Magistrice Erona|r et rendez votre quête.	lot interface_003
+chaine_interface	NPE_QUEST_GIVERS_COLDRIDGEQUEST1		texte	af714560a5df	|cffffd100Parlez|r à Sten Rudebras	lot interface_003
+chaine_interface	NPE_QUEST_GIVERS_NARCHEQUEST1		texte	785a024f4ccf	|cffffd100Parlez|r à Grull Vent-du-faucon	lot interface_003
+chaine_interface	NPE_QUEST_GIVERS_SHADOWGRAVEQUEST1		texte	7d094f928caf	|cffffd100Parlez|r au Fossoyeur Mordo	lot interface_003
+chaine_interface	NPE_SUNSTRIDER_INTRO6_TEXT		texte	a388e839f823	Terminez la quête\n[QUEST:8325]\nen [ACTION:tuant]\n[KEYWORD:8] [NPC:Wyrms de mana]	lot interface_003
+chaine_interface	NPE_VALLEY_OF_TRIALS_INTRO8_TEXT		texte	e111a58e2762	Terminez la quête\n[QUEST:788]\nen éliminant [KEYWORD:10] [NPC:Sangliers tachetés]	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_ASSIST_CAST		texte	5ff3e39a4f6e	Si vous ciblez une unité amicale, tente de lancer automatiquement les sorts offensifs sur la cible de votre cible.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_LOOT_ALT_KEY		texte	5d2e31a0d7ae	Utilisez la touche "ALT" pour fouiller quand "Fouille automatique" est cochée, et pour fouiller automatiquement quand elle ne l'est pas.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_LOOT_CTRL_KEY		texte	0337500557a7	Utilisez la touche "CTRL" pour fouiller quand "Fouille automatique" est cochée, et pour fouiller automatiquement quand elle ne l'est pas.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_LOOT_SHIFT_KEY		texte	65a4c3a0ebf4	Utilisez la touche "SHIFT" (Maj) pour fouiller quand "Fouille automatique" est cochée, et pour fouiller automatiquement quand elle ne l'est pas.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_SELF_CAST_ALT_KEY		texte	743a19296654	Utilisez la touche "ALT" pour lancer des sorts bénéfiques sur vous-même, même si un ennemi est ciblé ou s'il n'y a pas de cible.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_SELF_CAST_CTRL_KEY		texte	4cd6fdb823e8	Utilisez la touche "CTRL" pour lancer des sorts bénéfiques sur vous-même, même si un ennemi est ciblé ou s'il n'y a pas de cible.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_AUTO_SELF_CAST_SHIFT_KEY		texte	55824f15f10d	Utilisez la touche "SHIFT" (Maj) pour lancer des sorts bénéfiques sur vous-même, même si un ennemi est ciblé ou s'il n'y a pas de cible.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_CLICKCAMERA_SMART		texte	4b8717ea076a	Configure la caméra pour qu'elle suive votre personnage après un bref délai lorsque vous changez de direction en mode Cliquer pour déplacer. (Mode recommandé)	lot interface_003
+chaine_interface	OPTION_TOOLTIP_COMBAT_TEXT_SHOW_COMBAT_STATE		texte	1b44a9398df0	Affiche un message quand vous entrez en combat ou en sortez.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_ENABLE_SPELL_ACTIVATION_OVERLAY		texte	a0d7cc5d689b	Active la mise en surbrillance des boutons de sort et affiche des alertes au centre de l'écran lors de certains événements importants. 	lot interface_003
+chaine_interface	OPTION_TOOLTIP_FOCUS_CAST_ALT_KEY		texte	63ece356123a	Utilisez la touche "ALT" pour lancer des sorts ciblés sur votre cible de focalisation.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_FOCUS_CAST_CTRL_KEY		texte	54cb4575c546	Utilisez la touche "CTRL" pour lancer des sorts ciblés sur votre cible de focalisation.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_FOCUS_CAST_SHIFT_KEY		texte	c9d7e979f6eb	Utilisez la touche "SHIFT" (Maj) pour lancer des sorts ciblés sur votre cible de focalisation.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_NAMEPLATE_DISTANCE		texte	b6e44b249987	Définit la distance à laquelle les barres d'info apparaissent au-dessus des unités.	lot interface_003
+chaine_interface	OPTION_TOOLTIP_NAMEPLATE_INTERSECT_OPACITY		texte	66c6ea7329c4	Définit la transparence des barres d'info qui ne sont pas dans votre ligne de vue. 	lot interface_003
+chaine_interface	OPTION_TOOLTIP_SELECTION_CIRCLE_MODE		texte	29f80758edd1	Si cette option est activée, la surbrillance de votre cible actuelle prend la taille de la portée d'attaque de votre cible. 	lot interface_003
+chaine_interface	OPTION_TOOLTIP_SELECTION_CIRCLE_OPACITY		texte	9ff31c5f7ad8	Règle l'opacité de la surbrillance autour de votre cible actuelle 	lot interface_003
+chaine_interface	OPTION_TOOLTIP_SHOW_TARGET_CASTBAR_IN_V_KEY		texte	4359a7b36fcb	Si une barre d'info est affichée, indique ce que l'unité est en train d'incanter.	lot interface_003
+chaine_interface	PETTAME_TOOMANY		texte	eed5ae90de88	Vous avez déjà un familier	lot interface_003
+chaine_interface	PLAYTIME_TIRED		texte	5eac9bb102de	Vous êtes connecté depuis plus de 3 heures. Vous ne recevrez plus que 1/2 de l'argent et de l'expérience pendant cette période. Votre état de repos sera réinitialisé après %d heures hors ligne. Allez vous reposer.	lot interface_003
+chaine_interface	PLAYTIME_TIRED_ABILITY		texte	ef6b632d7797	Vous êtes connecté depuis plus de 3 heures. Vous ne pouvez pas effectuer cette action pendant cette période. Votre état de repos sera réinitialisé après %d heures hors ligne. Allez vous reposer.	lot interface_003
+chaine_interface	POI_DRAFT_VENDOR		texte	62565d46f09a	Services de Joker, de Draft et de Cartes de compétence	lot interface_003
+chaine_interface	PRESTIGE_UI_POPUP_CLEAR_HOF_STEP_1		texte	52c96edce7fa	Cette action va |cffFF0000SUPPRIMER|r les Mains du destin de votre inventaire et de votre banque.|nLes Mains du destin détruites ainsi ne seront |cffff0000pas|r prises en compte dans votre rachat au prochain prestige.|nVoulez-vous vraiment supprimer ces objets ? 	lot interface_003
+chaine_interface	PRESTIGE_UI_POPUP_CLEAR_HOF_STEP_1_SOF		texte	90b608746ff5	Cette action va |cffFF0000SUPPRIMER|r de votre inventaire et de votre banque :|cffFF0000|n|n|TInterfaceIconsInv_custom_scrollofunlearning_seasonal.blp:18:18:0:-2|t Parchemins de fortune|n|TInterfaceIcons\trade_archaeology_apexisscroll.blp:18:18:0:-2|t Coffrets de fortune|n|TInterfaceIconsINV_Chest_Awakening.blp:18:18:0:-2|t Caches bonus de la Tempête de mana|r|nLes objets détruits ainsi ne seront |cffff0000pas|r pris en compte dans votre rachat au prochain prestige.|n|n|rVoulez-vous vraiment supprimer ces objets ? 	lot interface_003
+chaine_interface	PRESTIGE_UI_REACH_LEVEL		texte	7fe2d0de6c4b	Atteignez le niveau %i ou plus	lot interface_003
+chaine_interface	PRESTIGE_UI_STEP_1_TEXT		texte	96ecea61ccd8	Atteignez le niveau %i ou plus	lot interface_003
+chaine_interface	PRIMARY_STAT_3_NAME_COA		texte	e8d4bafc56e1	Intelligence	lot interface_003
+chaine_interface	PROFESSION_CONFIRMATION1		texte	012240504f65	Vous ne pouvez connaître que deux métiers sans codex d'artisan. Voulez-vous apprendre |cffffd200%s|r ?	lot interface_003
+chaine_interface	PROFESSION_CONFIRMATION2		texte	012240504f65	Vous ne pouvez connaître que deux métiers sans codex d'artisan. Voulez-vous apprendre |cffffd200%s|r ?	lot interface_003
+chaine_interface	PVPBATTLEGROUND_WINTERGRASPTIMER_CANNOT_QUEUE		texte	382d2fd89039	|cffffffffVous ne pouvez pas rejoindre la file d'attente pour Joug-d'hiver|npour l'instant. Vous pourrez vous y inscrire|npeu avant le début de la bataille.|r	lot interface_003
+chaine_interface	PVP_POWER_TOOLTIP3		texte	7f0f3e8e9989	\n|cff00d1ffUniquement en Haut risque dans le monde ouvert :	lot interface_003
+chaine_interface	RAID_DIFFICULTY1		texte	39e470aa0553	Normal (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY2		texte	7a42ab6f081e	Héroïque (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY3		texte	88799d52caef	Mythique (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY4		texte	0deb69a53e85	Ascended (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY_10PLAYER		texte	39e470aa0553	Normal (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY_10PLAYER_HEROIC		texte	88799d52caef	Mythique (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY_25PLAYER		texte	7a42ab6f081e	Héroïque (10-25 joueurs)	lot interface_003
+chaine_interface	RAID_DIFFICULTY_25PLAYER_HEROIC		texte	0deb69a53e85	Ascended (10-25 joueurs)	lot interface_003
+chaine_interface	REALM_BANK_BUY_TEXT		texte	4dffb4a990f7	Achetez un |cffe6cc80|Hitem:1180485:0:0:0:0:0:0:0:0:0:0:0:0|h[Bon d'onglet de banque du royaume]|h|r	lot interface_003
+chaine_interface	REPUTATION_AT_WAR_DESCRIPTION		texte	5acb3de49648	Détermine la manière dont vous interagissez avec les membres de cette faction. Si « En guerre » est coché, votre comportement par défaut sera de les attaquer. Si ce n'est pas coché, vous ne pourrez pas les attaquer.	lot interface_003
+chaine_interface	RESET_ALL_SPELLS		texte	2ef5dbf80822	Réinitialiser toutes les capacités	lot interface_003
+chaine_interface	RESET_ALL_TALENTS		texte	ae98645e9722	Réinitialiser tous les talents	lot interface_003
+chaine_interface	RESET_INSTANCES		texte	73512d8cb42e	Réinitialiser les instances	lot interface_003
+chaine_interface	RESET_KNOWN_ABILITIES		texte	48f93973064c	Réinitialiser toutes les capacités	lot interface_003
+chaine_interface	RESET_KNOWN_ABILITIES_DESC		texte	fcdfa54b8ee0	Vous pouvez réinitialiser contre de l'or ou |cffFFFFFF1x|TInterface\Icons\inv_custom_abilitypurge.blp:13:13|t Purge de capacités|r.\r\n\r\nVous avez |cffFFFFFFx%i |TInterface\Icons\inv_custom_abilitypurge.blp:13:13|t Purge de capacités|r.	lot interface_003
+chaine_interface	RESET_KNOWN_TALENTS		texte	7c5ff9b09083	Réinitialiser tous les talents	lot interface_003
+chaine_interface	RESET_KNOWN_TALENTS_DESC		texte	ed9c86eeeb6d	Vous pouvez réinitialiser contre de l'or ou |cffFFFFFF1x|TInterface\Icons\inv_custom_talentpurge.blp:13:13|t Purge de talents|r.\r\n\r\nVous avez |cffFFFFFFx%i |TInterface\Icons\inv_custom_talentpurge.blp:13:13|t Purge de talents|r.	lot interface_003
+chaine_interface	RESILIENCE_TOOLTIP		texte	40f6e9ea331d	Réduit de %.2f%% tous les dégâts infligés par les joueurs, leurs familiers et leurs serviteurs.	lot interface_003
+chaine_interface	RESIST_TRAILER		texte	783ad8fc97c4	(%d résiste)	lot interface_003
+chaine_interface	RESOLUTION_LABEL		texte	574ff9b0c49c	Affichage	lot interface_003
+chaine_interface	RESURRECT_CLOSEST_CITY		texte	481d26e82e12	Ville la plus proche	lot interface_003
+chaine_interface	RESURRECT_CLOSEST_TOWN		texte	25f2056f79b6	Village le plus proche	lot interface_003
+chaine_interface	RE_APPLY_LEGENDARY_LIMIT		texte	872a3924ee27	Vous avez déjà un enchantement légendaire actif. 1 seul peut être actif à la fois.	lot interface_003
+chaine_interface	RE_APPLY_STACK_LIMIT		texte	cff33dbb8cda	Vous avez déjà atteint le nombre maximal de charges autorisé pour cet enchantement.	lot interface_003
+chaine_interface	RE_COLLECTION_REFORGE_LEGENDARY_LIMIT		texte	872a3924ee27	Vous avez déjà un enchantement légendaire actif. 1 seul peut être actif à la fois.	lot interface_003
+chaine_interface	RE_EQUIP_LEGENDARY_LIMIT		texte	370f955b8e61	Vous avez déjà un enchantement légendaire équipé. 1 seul peut être actif à la fois.	lot interface_003
+chaine_interface	RE_PRESET_SET_ACTIVE_BUILD_DRAFT		texte	cb94d29efa88	Définir la spécialisation d'Enchantements mystiques active sur les enchantements du Draft de build.	lot interface_003
+chaine_interface	SHOW_NUMERIC_THREAT		texte	2de088d22067	Afficher les pourcentages de menace	lot interface_003
+chaine_interface	SKILL_POINTS_TOOLTIP		texte	ca43d9e101d2	Les points de compétence servent à apprendre des compétences\nspécialisées auprès de différents maîtres dans le monde.	lot interface_003
+chaine_interface	SKIP_DRAFT_CONFIRMATION		texte	e6ed2141b5e5	Ignorer la confirmation du Draft	lot interface_003
+chaine_interface	SPELL_FAILED_EQUIPPED_ITEM_CLASS_MAINHAND		texte	57e64efc8019	Doit avoir équipé en main droite : %s	lot interface_003
+chaine_interface	SPELL_FAILED_EQUIPPED_ITEM_CLASS_OFFHAND		texte	361a62ee6eb9	Doit avoir équipé en main gauche : %s	lot interface_003
+chaine_interface	SPELL_FAILED_PARTIAL_PLAYTIME		texte	8f9fb3b9cefc	Vous ne pouvez pas faire ça. Vous êtes connecté depuis plus de 3 heures.	lot interface_003
+chaine_interface	SPELL_SET_SHOW_DRAFT		texte	34814fb72e9f	Carte du mode Draft de build	lot interface_003
+chaine_interface	SPELL_USE_ALL_FOCUS		texte	3af2e98d6b1d	Utilise 100% focalisation	lot interface_003
+chaine_interface	SPIRIT_TOOLTIP		texte	17dcbf84775e	Augmente la vitesse de récupération des points de vie et de mana. L'Esprit influe\nsur la vitesse de récupération des points de vie et de mana de tous les\npersonnages, en combat et hors combat.	lot interface_003
+chaine_interface	STAT_ATTACK_POWER		texte	96702132823b	Augmente la puissance d'attaque de %d\n	lot interface_003
+chaine_interface	STRENGTH_TOOLTIP		texte	b07bc8050b39	Augmente votre puissance d'attaque et vos dégâts par seconde. La Force\nn'influe pas du tout sur les chances de coup critique. La Force n'augmente\npas vos chances de bloquer, mais la quantité de dégâts bloqués quand vous\ny parvenez. Cette quantité dépend en partie de la Force (et pour\nl'autre partie de votre bouclier).	lot interface_003
+chaine_interface	STRING_SCHOOL_FLAMESTRIKE		texte	0e1867488926	Frappe-feu	lot interface_003
+chaine_interface	TALENT_SPEC_ACTIVATE		texte	47f109d529da	Choisir cette spécialisation	lot interface_003
+chaine_interface	TOGGLE_BATTLEFIELDMINIMAP_TOOLTIP		texte	f97a544cb984	Afficher/masquer la carte de la zone en jeu. Raccourci : Maj-M	lot interface_003
+chaine_interface	TOGGLE_DRAFT_ALREADY_ACTIVE		texte	20d5c4af9078	Le Draft est déjà actif !	lot interface_003
+chaine_interface	TOGGLE_DRAFT_ALREADY_INACTIVE		texte	473ccf03bf29	Le Draft est déjà inactif !	lot interface_003
+chaine_interface	TOGGLE_DRAFT_CARDS		texte	3bd61f971ae7	Afficher/masquer les cartes de Draft	lot interface_003
+chaine_interface	TOGGLE_DRAFT_DISABLED		texte	bed3795f3670	Le Draft n'est pas disponible pour le moment.	lot interface_003
+chaine_interface	TOGGLE_FEL_COMMUTATION_ALREADY_ACTIVE		texte	a74dd8fdc878	La Commutation gangrenée est déjà active.	lot interface_003
+chaine_interface	TOGGLE_FEL_COMMUTATION_ALREADY_INACTIVE		texte	7cf44abe4810	La Commutation gangrenée est déjà désactivée.	lot interface_003
+chaine_interface	TOGGLE_FEL_COMMUTATION_OK_ACTIVATED		texte	cd40f307b030	Commutation gangrenée activée. Vos objets équipés sont désormais assurés !	lot interface_003
+chaine_interface	TOGGLE_FEL_COMMUTATION_OK_DISABLED		texte	999302eed9c2	Commutation gangrenée désactivée. Vos objets équipés ne sont plus assurés !	lot interface_003
+chaine_interface	TOGGLE_WILDCARD_ROLL_TOOLTIP		texte	f5f378e37c3b	Vous avez un tirage de Joker prêt. Cliquez pour tirer.	lot interface_003
+chaine_interface	TOOLTIP_ARENA_POINTS		texte	3c6fc61bf88f	On gagne des points de conquête en remportant des combats d'arène. Vous pouvez échanger ces points contre de fabuleuses récompenses !	lot interface_003
+chaine_interface	TOOLTIP_GAMEMODE10_TITLE		texte	319f056c4fd1	À propos du mode Draft de build	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_1_5_0		texte	58ae178c8a60	Trouvez de l'équipement |cffcc0e00forgé par le sang|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_1_5_1		texte	58ae178c8a60	Trouvez de l'équipement |cffcc0e00forgé par le sang|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_1_5_2		texte	58ae178c8a60	Trouvez de l'équipement |cffcc0e00forgé par le sang|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_2_3_0		texte	5c6cc7bb6514	La Commutation gangrenée protège vos objets équipés	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_2_3_1		texte	5c6cc7bb6514	La Commutation gangrenée protège vos objets équipés	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_2_3_2		texte	5c6cc7bb6514	La Commutation gangrenée protège vos objets équipés	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_2_5_0		texte	58ae178c8a60	Trouvez de l'équipement |cffcc0e00forgé par le sang|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_2_5_1		texte	58ae178c8a60	Trouvez de l'équipement |cffcc0e00forgé par le sang|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_2_5_2		texte	58ae178c8a60	Trouvez de l'équipement |cffcc0e00forgé par le sang|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_3_3_0		texte	699d84861dc7	La Commutation gangrenée protège vos objets équipés, |cffFF2222mais coûte 3 fois plus cher !|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_3_3_1		texte	699d84861dc7	La Commutation gangrenée protège vos objets équipés, |cffFF2222mais coûte 3 fois plus cher !|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_3_3_2		texte	699d84861dc7	La Commutation gangrenée protège vos objets équipés, |cffFF2222mais coûte 3 fois plus cher !|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_3_5_0		texte	4c75e8c9ac7b	Trouvez de l'équipement |cffcc0e00forgé par le sang|r |cffa335eehéroïque|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_3_5_1		texte	4c75e8c9ac7b	Trouvez de l'équipement |cffcc0e00forgé par le sang|r |cffa335eehéroïque|r	lot interface_003
+chaine_interface	TOOLTIP_HIGH_RISK_TIER_3_5_2		texte	4c75e8c9ac7b	Trouvez de l'équipement |cffcc0e00forgé par le sang|r |cffa335eehéroïque|r	lot interface_003
+chaine_interface	TUTORIAL1		texte	67ecc3d3b386	Acceptez des quêtes en parlant aux donneurs de quêtes. Ils sont signalés par un point d'exclamation au-dessus de leur tête.|n|nPour leur parler, approchez-vous et faites un |cffffd200clic droit|r sur eux.	lot interface_003
+chaine_interface	TUTORIAL14		texte	b7dcba8341e7	Vous pouvez aller voir les maîtres de classe pour apprendre de nouvelles compétences. Faites un |cffffd200clic droit|r sur un maître pour lui parler.|n|nOn trouve des maîtres dans de nombreuses villes, et toujours dans votre zone de départ. Il vous faudra peut-être chercher un peu pour trouver le vôtre.	lot interface_003
+chaine_interface	TUTORIAL15		texte	cbb4abeacbab	Vous pouvez placer des sorts et des capacités dans votre barre d'action en cliquant sur le |cffffd200bouton Grimoire et techniques|r en bas au centre de l'écran (raccourci : P), puis en faisant glisser l'icône de la capacité dans votre barre d'action.|n|nVous pouvez accéder aux améliorations de votre personnage en appuyant sur N et en choisissant Avancement du personnage.	lot interface_003
+chaine_interface	TUTORIAL16		texte	8c467e7f11ee	Vous pouvez consulter votre réputation auprès des différentes factions du monde dans l'onglet Réputation.|n|nCliquez sur le |cffffd200bouton Infos personnage|r (raccourci : C) pour trouver l'onglet Réputation.	lot interface_003
+chaine_interface	TUTORIAL19		texte	37f02233b752	C'est une autre personne réelle qui incarne un personnage. Vous le reconnaissez à son nom bleu au-dessus de sa tête. Vous pouvez lui parler en appuyant sur Entrée et en tapant un message. Appuyez sur Entrée pour l'envoyer.	lot interface_003
+chaine_interface	TUTORIAL2		texte	4e7df7b01cc7	Utilisez les touches Z, Q, S et D pour déplacer votre personnage.	lot interface_003
+chaine_interface	TUTORIAL20		texte	e1fcb855d95e	|cffffd200Faites un clic droit|r sur un objet dans la fenêtre du marchand pour l'acheter si vous avez assez d'argent.|n|nQuand la fenêtre du marchand est ouverte, un clic droit sur un objet de votre sac le vend.|n|n Si vous vendez un objet par erreur, vous pouvez le racheter dans l'onglet « Rachat »	lot interface_003
+chaine_interface	TUTORIAL21		texte	cb520a9c4a24	Vous pouvez consulter vos quêtes en cours en cliquant sur le |cffffd200bouton Journal de quêtes|r (raccourci : L) en bas au centre de votre écran.|n|nVous pouvez voir où se déroulent les quêtes en cliquant sur le |cffffd200bouton Carte du monde|r en haut à droite de votre écran.	lot interface_003
+chaine_interface	TUTORIAL22		texte	57c4e20bac84	Si vous avez apprécié de jouer avec un autre joueur, ajoutez-le à votre liste d'amis ! Cliquez sur le |cffffd200bouton Social|r (raccourci : O) et ajoutez-le à votre liste d'amis.|n|nVous ne pouvez ajouter que des amis de votre royaume.	lot interface_003
+chaine_interface	TUTORIAL23		texte	7dd331c1bdb3	Vous pouvez envoyer un message en appuyant sur Entrée, en tapant votre message, puis en appuyant de nouveau sur Entrée. Les joueurs proches entendront ce que vous dites. Pour parler dans les canaux généraux, tapez /1, /2 ou /3.	lot interface_003
+chaine_interface	TUTORIAL24		texte	e88431d5e394	Pour vous équiper d'objets, cliquez d'abord sur le |cffffd200bouton Infos personnage|r (raccourci : C) en bas de l'écran, puis sur le |cffffd200bouton Sac à dos|r (raccourci : B) en bas à droite de votre écran.|n|nIl suffit ensuite de faire glisser un objet équipable de votre sac sur votre personnage.	lot interface_003
+chaine_interface	TUTORIAL26		texte	1fc72ea761a3	Vous êtes reposé(e). L'état reposé vous confère un bonus temporaire d'expérience quand vous tuez des monstres. Vous l'obtenez près des auberges ou dans les villes.	lot interface_003
+chaine_interface	TUTORIAL3		texte	8cb594e223dc	Vous pouvez faire tourner votre personnage en |cffffd200maintenant le bouton droit de la souris enfoncé|r et en déplaçant la souris.|n|nVous pouvez regarder autour de vous en maintenant le bouton gauche de la souris enfoncé et en déplaçant la souris.	lot interface_003
+chaine_interface	TUTORIAL4		texte	53d79f4d9a72	|cffffd200Faites un clic droit|r sur les personnages amicaux pour leur parler.|n|nVous devrez peut-être vous rapprocher d'eux avant de pouvoir faire un clic droit.	lot interface_003
+chaine_interface	TUTORIAL42		texte	7334930561ef	Pour commencer, vous devriez accepter une |cffffd200quête|r.|n|nIl y a un donneur de quête juste devant vous. Les astuces du didacticiel vous aideront tout au long du chemin.|n|nSi vous avez encore des questions, notre site propose un wiki où vous pourrez en apprendre davantage sur Ascension !	lot interface_003
+chaine_interface	TUTORIAL46		texte	2ae8c4d7df96	Vous avez rejoint un groupe de raid : un groupe dont la limite est portée à 40 membres, mais généralement entre 10 et 25. Les groupes de raid sont nécessaires pour entrer dans les donjons les plus difficiles ou vaincre les ennemis les plus puissants, généralement à haut niveau.|n|n|cffff2020Dans un groupe de raid, vous ne progresserez pas dans la plupart des quêtes. Pour quitter un groupe de raid, faites un clic droit sur le portrait de votre personnage et choisissez Quitter le groupe.|r	lot interface_003
