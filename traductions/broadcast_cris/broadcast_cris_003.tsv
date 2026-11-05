@@ -1,0 +1,430 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+texte_creature	164006	0-0	Text	82cb434c0161	Cherchez le capitaine Amros Dhagor à Dunshire, à l'ouest d'ici. Présentez-vous comme $gun envoyé:une envoyée; de Graysky.	lot broadcast_cris_003
+texte_creature	164006	1-0	Text	27bc81dd93c0	Vous trouverez le sergent Windhelm à l'avant-poste de Graysky, sur la Voie royale. C'est un homme d'un... certain tempérament. Ne prenez pas ses paroles à cœur.	lot broadcast_cris_003
+texte_creature	164006	2-0	Text	1530a51d2937	Même si Cresthairn a son propre bailli, les habitants se tournent vers le père Elroth quand ils cherchent conseil ou réconfort. C'est un homme de bon jugement. Quelle que soit la cause de son inquiétude, prenez-la au sérieux.	lot broadcast_cris_003
+texte_creature	164006	3-0	Text	5a5cbe7ce02d	Les portes de ce château vous resteront ouvertes, maintenant et à jamais. Qu'on le sache : je vous fais $gchevalier:chevalière; de Graysky.	lot broadcast_cris_003
+texte_creature	164007	0-0	Text	45aaedae84c5	Faites attention sur la route, d'accord ? Je viens à peine de vous rencontrer, alors ce n'est pas que je tienne tant que ça à vous, mais la cargaison a de la valeur. Et Scadeald est si dangereux... regardez où vous mettez les pieds !	lot broadcast_cris_003
+texte_creature	164010	0-0	Text	526e6fe3344d	Vous trouverez la mine en suivant le sentier qui monte dans la montagne. La discrétion est votre meilleure arme contre les gnolls ; quand ils attaquent en meute, ils sont mortels.	lot broadcast_cris_003
+texte_creature	164010	1-0	Text	dd3f5fe38eac	Vous êtes... $gsûr:sûre; ? Il est rare de voir des gnolls aussi loin au nord, mais les provinces du sud ont l'habitude d'avoir affaire à eux. Et je n'ai jamais entendu parler d'une malédiction pareille.	lot broadcast_cris_003
+texte_creature	164010	2-0	Text	15e9fba3f303	Une sorcière ? Ce que vous avez en courage, vous le manquez en bon sens : tout le monde à Scadeald sait qu'on ne peut pas faire confiance aux sorcières. Elle aurait très bien pu les maudire elle-même !	lot broadcast_cris_003
+texte_creature	164011	0-0	Text	5df33f4584a9	Nous sommes en guerre ; faire preuve de pitié envers l'ennemi est un acte de trahison. Tirez votre épée et rengainez votre morale. Achevez-les tous. Exterminez les trolls.	lot broadcast_cris_003
+texte_creature	164012	0-0	Text	39d422876c61	Quel foutu gâchis. La nouvelle va finir par se répandre, tôt ou tard. Et alors... que la Lumière nous vienne en aide !	lot broadcast_cris_003
+texte_creature	164012	1-0	Text	503f34f12f00	Suivez cette piste jusqu'à la mine et fouillez l'endroit de fond en comble. Il doit bien rester des survivants dans ces galeries. Je refuse de croire que les Ealdir ont réussi à les enlever jusqu'au dernier.	lot broadcast_cris_003
+texte_creature	164012	2-0	Text	a51a59bf1cfb	Voilà. J'ai marqué le camp de Laurelin et Telperion sur votre carte.	lot broadcast_cris_003
+texte_creature	164013	0-0	Text	399fd1d91b13	Oh, bienvenue. Je crains qu'il n'y ait pas de sermon aujourd'hui. À vrai dire, je ne célébrerai pas la messe avant un certain temps.	lot broadcast_cris_003
+texte_creature	164013	1-0	Text	ef5189a54104	L'escalier des cryptes est là-bas, à ma gauche. Soyez $gprudent:prudente; en bas. Vous y trouverez des morts-vivants... mais il se peut qu'il y ait pire encore.	lot broadcast_cris_003
+texte_creature	164014	0-0	Text	fbc0256b147d	L'abbaye suspendue de Hallowind est le lieu le plus sacré de tout Scadeald, et l'un des lieux de pèlerinage les plus importants du royaume. Cela va sans dire, mais quand vous vous présenterez au père Amrod, montrez-lui le respect qui lui est dû.	lot broadcast_cris_003
+texte_creature	164017	0-0	Text	d81c15eee2aa	Avancez avec prudence au cours de votre voyage.	lot broadcast_cris_003
+texte_creature	164020	0-0	Text	403b8d51b013	T'as du tabac dans ces sacs ?	lot broadcast_cris_003
+texte_creature	164020	0-1	Text	fa2f20dea90e	Ce marchand a déjà payé... maintenant, c'est votre tour !	lot broadcast_cris_003
+texte_creature	164020	0-2	Text	e07cb4f7c2f2	Le roi ne regarde pas vers le nord.	lot broadcast_cris_003
+texte_creature	164020	0-3	Text	68aac06e3643	Les Défias, c'est de la rigolade à côté de nous.	lot broadcast_cris_003
+texte_creature	164021	0-0	Text	e72f7a6ecd76	Encore un héros qui s'est écarté de la route.	lot broadcast_cris_003
+texte_creature	164021	0-1	Text	c1062216f784	Que faites-vous ici ?	lot broadcast_cris_003 ; officiel (quetes/quete_demande/2744)
+texte_creature	164021	0-2	Text	7dc9196b42e6	Ni ealdir ni du royaume. Libres !	lot broadcast_cris_003
+texte_creature	164021	0-3	Text	9b85afc66e1c	Il n'y a aucun roi qui compte, ici !	lot broadcast_cris_003
+texte_creature	164022	0-0	Text	061cc9680782	Tant qu'il y aura des murlocs dans le lac, j'aurai beau lancer ma ligne autant de fois que je veux...	lot broadcast_cris_003
+texte_creature	164026	0-0	Text	525d3ee3dbab	Ah, et n'ouvrez pas encore la flasque !	lot broadcast_cris_003
+texte_creature	164032	0-0	Text	2b89206f9423	Cet homme ; enfin, ce qu'il en reste : Alto Bilberg. Je le connais, vous savez ? Il y a bien des années, quand sa fille est tombée malade, il est venu ici m'accuser de l'avoir ensorcelée. Il a menacé de réduire ma cabane en cendres.	lot broadcast_cris_003
+texte_creature	164032	1-0	Text	0eedcfa4bb91	Alors je vous le redemande : pourquoi devrais-je les aider ? Parce que c'est ce qui est « juste » ? J'ai appris il y a longtemps à ne pas me laisser guider par ce qui est juste, mais par ce qui est intéressant.	lot broadcast_cris_003
+texte_creature	164032	2-0	Text	4ea034897364	Cherchez les farfadets parmi les fleurs. Secouez-les un bon coup, et ils apparaîtront en un clin d'œil pour vous empoisonner l'existence. Vous verrez à quel point ils sont « amusants ».	lot broadcast_cris_003
+texte_creature	164032	3-0	Text	299a406018ac	Les Trois Sœurs, hein ? Peu les ont vues ; pour beaucoup, elles ne sont guère plus qu'une légende. N'ayez crainte, je vous donnerai ma bénédiction. Si vous n'y laissez pas la vie, j'espère que vous aurez un mot gentil pour moi devant elles.	lot broadcast_cris_003
+texte_creature	164032	4-0	Text	bc5b31f6f2ab	Je crois que quelqu'un pourrait vous aider. Il sera difficile de la rejoindre, mais vous avez déjà montré que vous étiez $gprêt:prête; à risquer votre peau pour ces gens. Écoutez bien :	lot broadcast_cris_003
+texte_creature	164033	0-0	Text	425ce6539a09	Amusez-vous bien avec les Trois Sœurs !	lot broadcast_cris_003
+texte_creature	164033	0-1	Text	ccb4b50114ec	Imbécile ! J'ai appris mon art auprès de Cathbad en personne !	lot broadcast_cris_003
+texte_creature	164033	0-2	Text	0ddc7c6ef31a	Votre sang fertilisera ces terres.	lot broadcast_cris_003
+texte_creature	164033	0-3	Text	93a6d4b21007	Vous avez donc choisi la mort.	lot broadcast_cris_003
+texte_creature	164033	0-4	Text	3275d46f2444	Esprits, je vous dédie cette mort !	lot broadcast_cris_003
+texte_creature	164034	0-0	Text	dc99ae4fb8c9	Un vrai gourmand se doit de goûter le très célèbre gâteau de Dunshire !	lot broadcast_cris_003
+texte_creature	164034	1-0	Text	b213cfdc6f45	Demandez beaucoup de lait à l'aubergiste Miralda ! On en a besoin pour le gâteau !	lot broadcast_cris_003
+texte_creature	164034	2-0	Text	6f67c121fe36	J'ai juste besoin d'un peu de temps pour cuire la tourte. Patience, patience !	lot broadcast_cris_003
+texte_creature	164034	3-0	Text	bb3985268fba	Et voilà ! La tourte de Dunshire est prête.	lot broadcast_cris_003
+texte_creature	164035	0-0	Text	0490153711c9	Tournez la manivelle de toutes vos forces ! Ne vous arrêtez pas !	lot broadcast_cris_003
+texte_creature	164035	1-0	Text	e6881bbe17a7	C'est ça ! La farine sort parfaitement.	lot broadcast_cris_003
+texte_creature	164035	2-0	Text	0be1cbe35a64	Merveilleux ! Même une forte bourrasque ne ferait pas mieux.	lot broadcast_cris_003
+texte_creature	164035	3-0	Text	bf6d2ed2e636	Vous avez fait tourner ce moulin comme une douzaine de bœufs ! Maintenant, régalez-vous de la tourte !	lot broadcast_cris_003
+texte_creature	164037	0-0	Text	aba4d3d65212	N'oubliez pas : allez voir Haldin Greensong au Sanctuaire. Et dites-lui que vous venez de ma part.	lot broadcast_cris_003
+texte_creature	164044	0-0	Text	38c9f5058386	Oh, Noghan. Il vaut presque mieux que tu n'aies pas vécu assez longtemps pour voir un fils mourir de la main de l'autre.	lot broadcast_cris_003
+texte_creature	164045	0-0	Text	9bc4c4ac708b	Maudits soyez-vous ! Maudits soyez-vous tous, jusqu'au dernier !	lot broadcast_cris_003
+texte_creature	164045	1-0	Text	7987a3472668	Je l'ai tué. Oui. J'ai tué mon frère. Ce traître... il est mieux mort.	lot broadcast_cris_003
+texte_creature	164045	2-0	Text	9202810d01a6	Allez-y. Je pense qu'il me faudra un moment avant de retourner à Cresthairn. J'attendrai que les choses se calment.	lot broadcast_cris_003
+texte_creature	164048	0-0	Text	a85c0cf8606c	Eh bien, qu'avons-nous là ? Croyez-vous vraiment pouvoir me voler le titre de chef d'Ealdmaine ? Ha !	lot broadcast_cris_003
+texte_creature	164048	1-0	Text	d82c3294c662	Vous servirez de leçon aux autres.	lot broadcast_cris_003
+texte_creature	164048	2-0	Text	0f593c7a2012	Je vous ferai écorcher. La sorcière me coudra un pagne avec votre peau !	lot broadcast_cris_003
+texte_creature	164048	3-0	Text	0092db3ac330	Oh, Esprits... ayez pitié... de mon... âme...	lot broadcast_cris_003
+texte_creature	164049	1-0	Text	d1b4a7d0ed03	Reculez ! Vous avez perdu la tête ?	lot broadcast_cris_003
+texte_creature	164049	1-2	Text	659321e2adc2	Ça va vous coûter cher.	lot broadcast_cris_003
+texte_creature	164049	1-3	Text	d43fd5ab451c	Si vous voulez vous entraîner, trouvez un aspirant !	lot broadcast_cris_003
+texte_creature	164050	0-0	Text	7b5614d50eb4	Psst ! Oui, vous ! Venez ici !	lot broadcast_cris_003
+texte_creature	164050	1-0	Text	2e8169ec8b09	Faites-moi voir. Bien, bien. Ça passera. Pensez juste à garder un air renfrogné. Ces Ealdir ont tout le temps cette tête-là.	lot broadcast_cris_003
+texte_creature	164055	0-0	Text	f814c5f89751	Merci... Argh !	lot broadcast_cris_003
+texte_creature	164056	0-0	Text	f814c5f89751	Merci... Argh !	lot broadcast_cris_003
+texte_creature	164060	0-0	Text	1aaa6de96904	Et par pitié, regardez où vous mettez les pieds là-dedans ! La dernière chose dont j'ai besoin, c'est de devoir sauver votre peau en plus de mes propres tâches.	lot broadcast_cris_003
+texte_creature	164060	1-0	Text	9a29a17f0397	Il faudra longtemps aux trolls pour se remettre du coup que vous leur avez porté à Zuramunda. Plus jamais ils n'oseront nous sous-estimer.	lot broadcast_cris_003
+texte_creature	164060	2-0	Text	aed752c3cb67	Les otages que vous avez libérés se sont réfugiés dans la vieille tour de guet. Allez les voir et assurez-vous qu'ils sont en sécurité.	lot broadcast_cris_003
+texte_creature	164061	0-0	Text	19209806f970	La princesse a des alliés puissants...	lot broadcast_cris_003
+texte_creature	164061	0-1	Text	de537de8eee8	Pour Mexitla !	lot broadcast_cris_003
+texte_creature	164061	0-10	Text	05464d302939	On va tous vous tuer. En commençant par vous !	lot broadcast_cris_003
+texte_creature	164061	0-11	Text	0b06341b07ef	Vot' mort nous rapproche des Jours de gloire !	lot broadcast_cris_003
+texte_creature	164061	0-12	Text	bf876dc32c6b	Qu'est-ce qui vous a fait croire que vous pouviez me battre ?	lot broadcast_cris_003
+texte_creature	164061	0-13	Text	f9a91e080102	Pas de pitié !	lot broadcast_cris_003 ; officiel (quetes/quete/13233)
+texte_creature	164061	0-14	Text	06175844d571	J'en ai tué des dizaines comme vous... pourquoi vous abandonnez pas, tout simplement ?	lot broadcast_cris_003
+texte_creature	164061	0-15	Text	e036127d18dc	Victoire pour Mexitla !	lot broadcast_cris_003
+texte_creature	164061	0-16	Text	c6fdc871b02e	J'vais tout manger ! Les os compris !	lot broadcast_cris_003
+texte_creature	164061	0-17	Text	9f226268e82d	J'ai pas peur de vous !	lot broadcast_cris_003
+texte_creature	164061	0-18	Text	2c874155c676	Ces terres sont à nous !	lot broadcast_cris_003
+texte_creature	164061	0-19	Text	38a5af32b472	Vous allez payer pour ce que vos ancêtres nous ont volé !	lot broadcast_cris_003
+texte_creature	164061	0-2	Text	a95ff018e7d9	Vos enfants vont grandir orphelins...	lot broadcast_cris_003
+texte_creature	164061	0-3	Text	f5e829fde402	Pour les Crins-de-givre !	lot broadcast_cris_003
+texte_creature	164061	0-4	Text	98379b9d4253	J'parie que vous avez bon goût... laissez-moi goûter !	lot broadcast_cris_003
+texte_creature	164061	0-5	Text	72f3c2b05104	J'ai la bénédiction des loas !	lot broadcast_cris_003
+texte_creature	164061	0-6	Text	20850e17208b	J'laisserai pas de corps sur lequel vos proches pourront pleurer...	lot broadcast_cris_003
+texte_creature	164061	0-7	Text	8fe1fc39adde	Pour l'Ancien Empire !	lot broadcast_cris_003
+texte_creature	164061	0-8	Text	0bbe92c2edde	Druk'thar perdure !	lot broadcast_cris_003
+texte_creature	164061	1-0	Text	6b94536d2777	Un souci de moins.	lot broadcast_cris_003
+texte_creature	164062	0-0	Text	19209806f970	La princesse a des alliés puissants...	lot broadcast_cris_003
+texte_creature	164062	0-1	Text	de537de8eee8	Pour Mexitla !	lot broadcast_cris_003
+texte_creature	164062	0-10	Text	05464d302939	On va tous vous tuer. En commençant par vous !	lot broadcast_cris_003
+texte_creature	164062	0-11	Text	0b06341b07ef	Vot' mort nous rapproche des Jours de gloire !	lot broadcast_cris_003
+texte_creature	164062	0-12	Text	bf876dc32c6b	Qu'est-ce qui vous a fait croire que vous pouviez me battre ?	lot broadcast_cris_003
+texte_creature	164062	0-13	Text	f9a91e080102	Pas de pitié !	lot broadcast_cris_003 ; officiel (quetes/quete/13233)
+texte_creature	164062	0-14	Text	06175844d571	J'en ai tué des dizaines comme vous... pourquoi vous abandonnez pas, tout simplement ?	lot broadcast_cris_003
+texte_creature	164062	0-15	Text	e036127d18dc	Victoire pour Mexitla !	lot broadcast_cris_003
+texte_creature	164062	0-16	Text	c6fdc871b02e	J'vais tout manger ! Les os compris !	lot broadcast_cris_003
+texte_creature	164062	0-17	Text	9f226268e82d	J'ai pas peur de vous !	lot broadcast_cris_003
+texte_creature	164062	0-18	Text	2c874155c676	Ces terres sont à nous !	lot broadcast_cris_003
+texte_creature	164062	0-19	Text	38a5af32b472	Vous allez payer pour ce que vos ancêtres nous ont volé !	lot broadcast_cris_003
+texte_creature	164062	0-2	Text	a95ff018e7d9	Vos enfants vont grandir orphelins...	lot broadcast_cris_003
+texte_creature	164062	0-3	Text	f5e829fde402	Pour les Crins-de-givre !	lot broadcast_cris_003
+texte_creature	164062	0-4	Text	98379b9d4253	J'parie que vous avez bon goût... laissez-moi goûter !	lot broadcast_cris_003
+texte_creature	164062	0-5	Text	72f3c2b05104	J'ai la bénédiction des loas !	lot broadcast_cris_003
+texte_creature	164062	0-6	Text	20850e17208b	J'laisserai pas de corps sur lequel vos proches pourront pleurer...	lot broadcast_cris_003
+texte_creature	164062	0-7	Text	8fe1fc39adde	Pour l'Ancien Empire !	lot broadcast_cris_003
+texte_creature	164062	0-8	Text	0bbe92c2edde	Druk'thar perdure !	lot broadcast_cris_003
+texte_creature	164062	1-0	Text	6b94536d2777	Un souci de moins.	lot broadcast_cris_003
+texte_creature	164063	0-0	Text	19209806f970	La princesse a des alliés puissants...	lot broadcast_cris_003
+texte_creature	164063	0-1	Text	de537de8eee8	Pour Mexitla !	lot broadcast_cris_003
+texte_creature	164063	0-10	Text	05464d302939	On va tous vous tuer. En commençant par vous !	lot broadcast_cris_003
+texte_creature	164063	0-11	Text	0b06341b07ef	Vot' mort nous rapproche des Jours de gloire !	lot broadcast_cris_003
+texte_creature	164063	0-12	Text	bf876dc32c6b	Qu'est-ce qui vous a fait croire que vous pouviez me battre ?	lot broadcast_cris_003
+texte_creature	164063	0-13	Text	f9a91e080102	Pas de pitié !	lot broadcast_cris_003 ; officiel (quetes/quete/13233)
+texte_creature	164063	0-14	Text	06175844d571	J'en ai tué des dizaines comme vous... pourquoi vous abandonnez pas, tout simplement ?	lot broadcast_cris_003
+texte_creature	164063	0-15	Text	e036127d18dc	Victoire pour Mexitla !	lot broadcast_cris_003
+texte_creature	164063	0-16	Text	c6fdc871b02e	J'vais tout manger ! Les os compris !	lot broadcast_cris_003
+texte_creature	164063	0-17	Text	9f226268e82d	J'ai pas peur de vous !	lot broadcast_cris_003
+texte_creature	164063	0-18	Text	2c874155c676	Ces terres sont à nous !	lot broadcast_cris_003
+texte_creature	164063	0-19	Text	38a5af32b472	Vous allez payer pour ce que vos ancêtres nous ont volé !	lot broadcast_cris_003
+texte_creature	164063	0-2	Text	a95ff018e7d9	Vos enfants vont grandir orphelins...	lot broadcast_cris_003
+texte_creature	164063	0-3	Text	f5e829fde402	Pour les Crins-de-givre !	lot broadcast_cris_003
+texte_creature	164063	0-4	Text	98379b9d4253	J'parie que vous avez bon goût... laissez-moi goûter !	lot broadcast_cris_003
+texte_creature	164063	0-5	Text	72f3c2b05104	J'ai la bénédiction des loas !	lot broadcast_cris_003
+texte_creature	164063	0-6	Text	20850e17208b	J'laisserai pas de corps sur lequel vos proches pourront pleurer...	lot broadcast_cris_003
+texte_creature	164063	0-7	Text	8fe1fc39adde	Pour l'Ancien Empire !	lot broadcast_cris_003
+texte_creature	164063	0-8	Text	0bbe92c2edde	Druk'thar perdure !	lot broadcast_cris_003
+texte_creature	164063	1-0	Text	6b94536d2777	Un souci de moins.	lot broadcast_cris_003
+texte_creature	164064	0-0	Text	77ec3b11fe2e	Vous n'êtes pas l'un d'eux. Vous n'êtes pas l'un d'eux !	lot broadcast_cris_003
+texte_creature	164064	0-1	Text	b78432c4ad95	Ils en ont tué tellement... Ils en ont mangé tellement... !	lot broadcast_cris_003
+texte_creature	164064	1-0	Text	8b3848f9d457	Bénie soit la Lumière !	lot broadcast_cris_003
+texte_creature	164064	1-1	Text	4f1a41094a10	Est-ce que... est-ce que vous les avez tués ? On peut sortir sans danger ?	lot broadcast_cris_003
+texte_creature	164064	1-2	Text	da1273483df2	Vous m'avez sauvé d'un sort pire que la mort...	lot broadcast_cris_003
+texte_creature	164064	2-0	Text	a86cc83833a5	J'ai cru... que j'allais pourrir là-dedans... Merci.	lot broadcast_cris_003
+texte_creature	164064	2-1	Text	3ecddb52e68f	Je peux... Je peux me débrouiller seul à partir d'ici... je crois... Ah ! Merci...	lot broadcast_cris_003
+texte_creature	164064	2-2	Text	722db5a3b35d	Il y en a d'autres comme moi. Des dizaines de captifs...	lot broadcast_cris_003
+texte_creature	164064	2-3	Text	cfbfcb0203a9	Ne vous arrêtez pas avant d'avoir tué le dernier de ces sauvages...	lot broadcast_cris_003
+texte_creature	164065	0-0	Text	32f8cd46a661	Agramor se cache au plus profond de la grotte. Tranchez-lui la tête une fois que vous l'aurez achevé. Les supérieurs voudront des preuves avant d'impliquer la Horde dans cette affaire. Une accusation pareille... ça change tout.	lot broadcast_cris_003
+texte_creature	164066	0-0	Text	a041dc597b21	Vous êtes $gallé:allée; trop loin. Je dois vous tuer, j'en suis désolé. Battez-vous avec honneur, et vous avez ma parole que je ne les laisserai pas se repaître de votre corps.	lot broadcast_cris_003
+texte_creature	164066	1-0	Text	e1edf9d0bd64	Vous vous battez bien ! Vos chefs ont de la chance de vous avoir à leurs côtés.	lot broadcast_cris_003
+texte_creature	164066	2-0	Text	fc8dbc4470a3	Ha ! J'aurai besoin d'un féticheur après ce combat.	lot broadcast_cris_003
+texte_creature	164066	3-0	Text	2f125dd23199	Une mort... avec honneur. Mais...	lot broadcast_cris_003
+texte_creature	164067	0-0	Text	ef086b274ed1	Montrez-nous le chemin, je vous en prie. Car nul n'est orphelin quand la Lumière l'étreint.	lot broadcast_cris_003
+texte_creature	164071	0-0	Text	4949d0faf791	J'en ai tué tellement comme vous... vous commencez à m'ennuyer !	lot broadcast_cris_003
+texte_creature	164071	1-0	Text	5aa5a9165d01	Combien j'en ai tué ? J'ai arrêté de compter depuis longtemps...	lot broadcast_cris_003
+texte_creature	164071	1-1	Text	0923b4ff392d	J'suis de sang royal. Vous, vous êtes que d'la racaille.	lot broadcast_cris_003
+texte_creature	164071	1-2	Text	910d42730389	Vous vous battez bien, pour des choses aussi maigrichonnes !	lot broadcast_cris_003
+texte_creature	164071	1-3	Text	829dbfac0688	Tu t'amuses, Zelezak ?	lot broadcast_cris_003
+texte_creature	164071	1-4	Text	9b9b23be278b	J'suis repu, mais si vous insistez... Zelezak a toujours faim !	lot broadcast_cris_003
+texte_creature	164071	2-0	Text	c05fc9405d70	Mexitla, ma princesse... J't'ai fait défaut...	lot broadcast_cris_003
+texte_creature	164071	2-1	Text	551bec4930d5	À la fin, vous verrez... le pont va s'effondrer sous le poids de tant de corps...	lot broadcast_cris_003
+texte_creature	164071	3-0	Text	211f1475f415	Faites demi-tour tant que vous l'pouvez encore ! Les nains sont nos vrais ennemis. Vous pouvez garder Scadeald si vous y tenez tant...	lot broadcast_cris_003
+texte_creature	164074	0-0	Text	9f3bfa8c6d0c	Les Esprits sourient à notre cause !	lot broadcast_cris_003
+texte_creature	164074	0-1	Text	74aa2c6e5982	Pour les Esprits !	lot broadcast_cris_003
+texte_creature	164074	0-2	Text	482809a533be	Des fleuves de sang couleront.	lot broadcast_cris_003
+texte_creature	164074	0-3	Text	354aa21d6a33	Racaille des villes.	lot broadcast_cris_003
+texte_creature	164074	0-4	Text	3c51b61dfcc5	Liberté pour Scadeald !	lot broadcast_cris_003
+texte_creature	164074	0-5	Text	8d7b2ac4f7d8	La Sorcière prendra vos enfants !	lot broadcast_cris_003
+texte_creature	164074	0-6	Text	75a2d34956de	Mort au Royaume !	lot broadcast_cris_003
+texte_creature	164074	0-7	Text	d8b991f3f7e8	Vous êtes tous des intrus sur notre terre.	lot broadcast_cris_003
+texte_creature	164074	0-8	Text	b51a365d8a74	Victoire pour les Ealdir !	lot broadcast_cris_003
+texte_creature	164074	0-9	Text	8045829ae4ec	Scadeald sera libre !	lot broadcast_cris_003
+texte_creature	164075	0-0	Text	83a058263a81	Ha ! Cette catin de Graysky vous a $genvoyé:envoyée; à la mort.	lot broadcast_cris_003
+texte_creature	164075	1-0	Text	81c88d435407	Je jetterai vos os aux chiens !	lot broadcast_cris_003
+texte_creature	164075	1-1	Text	215b71755ff3	Je planterai votre tête sur une pique !	lot broadcast_cris_003
+texte_creature	164075	1-2	Text	5cc323e45a8d	Tout ça... pour une simple goutte de sang ?	lot broadcast_cris_003
+texte_creature	164075	2-0	Text	0d76fb873bf9	Quand on croit en une cause... on ne meurt jamais vraiment...	lot broadcast_cris_003
+texte_creature	164076	0-0	Text	9f3bfa8c6d0c	Les Esprits sourient à notre cause !	lot broadcast_cris_003
+texte_creature	164076	0-1	Text	74aa2c6e5982	Pour les Esprits !	lot broadcast_cris_003
+texte_creature	164076	0-2	Text	482809a533be	Des fleuves de sang couleront.	lot broadcast_cris_003
+texte_creature	164076	0-3	Text	354aa21d6a33	Racaille des villes.	lot broadcast_cris_003
+texte_creature	164076	0-4	Text	3c51b61dfcc5	Liberté pour Scadeald !	lot broadcast_cris_003
+texte_creature	164076	0-5	Text	8d7b2ac4f7d8	La Sorcière prendra vos enfants !	lot broadcast_cris_003
+texte_creature	164076	0-6	Text	75a2d34956de	Mort au Royaume !	lot broadcast_cris_003
+texte_creature	164076	0-7	Text	d8b991f3f7e8	Vous êtes tous des intrus sur notre terre.	lot broadcast_cris_003
+texte_creature	164076	0-8	Text	b51a365d8a74	Victoire pour les Ealdir !	lot broadcast_cris_003
+texte_creature	164076	0-9	Text	8045829ae4ec	Scadeald sera libre !	lot broadcast_cris_003
+texte_creature	164077	0-0	Text	bbebaeed329b	Venez me chercher, si vous en avez le cran !	lot broadcast_cris_003
+texte_creature	164077	1-0	Text	d50a3b8fb25a	Je vous arracherai le cœur de la poitrine tant qu'il battra encore. Ma gueule ensanglantée sera la dernière chose que vous verrez.	lot broadcast_cris_003
+texte_creature	164077	1-1	Text	f41d76ffbacc	Racaille de mercenaire !	lot broadcast_cris_003
+texte_creature	164077	2-0	Text	b2e3ca21316e	Vous n'êtes qu'un... vulgaire mercenaire...	lot broadcast_cris_003
+texte_creature	164079	0-0	Text	02c008549030	Je dis toujours qu'un dieu a dû les assembler à l'envers : la moitié du haut n'aurait pas dû être un aigle, mais un lion, vu comme ils mangent !	lot broadcast_cris_003
+texte_creature	164079	1-0	Text	f5b2f27c7240	En tant qu'expert dans le domaine, croyez-moi sur parole : il ne faudra pas longtemps avant que ces griffons vous prennent en affection. D'ailleurs...	lot broadcast_cris_003
+texte_creature	164081	0-0	Text	425ce6539a09	Amusez-vous bien avec les Trois Sœurs !	lot broadcast_cris_003
+texte_creature	164081	0-1	Text	ccb4b50114ec	Imbécile ! J'ai appris mon art auprès de Cathbad en personne !	lot broadcast_cris_003
+texte_creature	164081	0-2	Text	0ddc7c6ef31a	Votre sang fertilisera ces terres.	lot broadcast_cris_003
+texte_creature	164081	0-3	Text	93a6d4b21007	Vous avez donc choisi la mort.	lot broadcast_cris_003
+texte_creature	164081	0-4	Text	3275d46f2444	Esprits, je vous dédie cette mort !	lot broadcast_cris_003
+texte_creature	164161	0-0	Text	e144b15a271d	Un hurlement sauvage résonne tout près. %s apparaît	lot broadcast_cris_003
+texte_creature	164172	0-0	Text	37aca8a3e558	Hestwin dit que la pâte doit « respirer sa propre magie »...	lot broadcast_cris_003
+texte_creature	164172	1-0	Text	fde780293cd9	Je crois qu'il aime juste vous faire attendre quand vous avez faim.	lot broadcast_cris_003
+texte_creature	164172	2-0	Text	1dc968870221	Mais honnêtement, l'attente en vaut la peine.	lot broadcast_cris_003
+texte_creature	164196	0-0	Text	a840541f14ea	Comprenez bien ceci : il n'est point de Bien sans Vérité, ni de Vérité sans Révélation. L'homme est faillible, et ses sens ne sont que mirages.	lot broadcast_cris_003
+texte_creature	164196	1-0	Text	205925a37a8c	Si noble que soit votre cœur, si votre lame obéit à un mensonge, vous ne servez pas la Lumière, mais l'Ombre. Hors de la Vérité, toute vertu n'est qu'un péché déguisé.	lot broadcast_cris_003
+texte_creature	164196	2-0	Text	be795cde55c5	N'ayez crainte, $gmon fils:ma fille; : la faiblesse aussi est un péché. Et il n'y a aucune honte à châtier les pécheurs. La Lumière n'a pas besoin de lâches pour ambassadeurs.	lot broadcast_cris_003
+texte_creature	164196	3-0	Text	c6c39f56757e	Que la Lumière guide vos pas, $gmon fils:ma fille;. Et que ces abominations apprennent à craindre votre juste courroux.	lot broadcast_cris_003
+texte_creature	164196	4-0	Text	d9a9ed197422	Ah, $gle voilà:la voilà; ! L'instrument de la Lumière. Son arme de justice. Vous les avez exterminés, n'est-ce pas ? Sinon, vous ne seriez pas $grevenu:revenue;.	lot broadcast_cris_003
+texte_creature	164197	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164197	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164197	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164197	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164197	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164197	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164197	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164197	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164197	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164198	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164198	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164198	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164198	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164198	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164198	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164198	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164198	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164198	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164199	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164199	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164199	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164199	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164199	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164199	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164199	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164199	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164199	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164200	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164200	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164200	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164200	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164200	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164200	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164200	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164200	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164200	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164201	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164201	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164201	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164201	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164201	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164201	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164201	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164201	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164201	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164202	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164202	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164202	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164202	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164202	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164202	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164202	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164202	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164202	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164203	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164203	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164203	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164203	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164203	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164203	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164203	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164203	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164203	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164204	0-0	Text	bd2d0ffab598	Je n'ai pas été à la hauteur de ce que la Lumière attend de moi.	lot broadcast_cris_003
+texte_creature	164204	0-1	Text	347231386034	J'ai peur d'avoir tout donné... et ce n'est toujours pas assez.	lot broadcast_cris_003
+texte_creature	164204	1-0	Text	f223fc628920	Je ne laisserai pas ma foi vaciller.	lot broadcast_cris_003
+texte_creature	164204	1-1	Text	398dc6529741	Aujourd'hui, je me souviendrai pourquoi j'ai juré de servir.	lot broadcast_cris_003
+texte_creature	164204	1-2	Text	8424f757b684	Je ne peux pas faillir à mon serment !	lot broadcast_cris_003
+texte_creature	164204	1-3	Text	ab26a3e807ef	Que ma lame parle pour mon serment !	lot broadcast_cris_003
+texte_creature	164204	1-4	Text	10a0437dce3d	Vous verrez si ma dévotion suffit !	lot broadcast_cris_003
+texte_creature	164204	2-0	Text	957659f5582c	Je rachèterai cet échec. Je vous le promets.	lot broadcast_cris_003
+texte_creature	164204	2-1	Text	b7eb212d4f85	Que la Lumière me pardonne.	lot broadcast_cris_003
+texte_creature	164205	0-0	Text	8b2726f1bd20	Arrière, monstre ! J'ai encore la force de... ! Ah, oh. Argh ! Vous... vous n'êtes pas un trogg.	lot broadcast_cris_003
+texte_creature	164205	1-0	Text	c071cf18a677	Tuez-les... tuez-les tous... ces bêtes répugnantes. Cette parodie d'êtres vivants. Vengez mes camarades tombés !	lot broadcast_cris_003
+texte_creature	164206	0-0	Text	73106bd81232	Conformément à la justice du roi, votre sentence est la mort.	lot broadcast_cris_003
+texte_creature	164206	0-1	Text	1eb83339b729	Goûtez à l'hospitalité de Grimepit !	lot broadcast_cris_003
+texte_creature	164206	0-2	Text	2cb923e6eae2	Les croisés que nous avons tués vous attendent dans l'Ombreterre.	lot broadcast_cris_003
+texte_creature	164206	0-3	Text	eefb7a334749	Des intrus ! Sonnez l'alarme !	lot broadcast_cris_003
+texte_creature	164206	1-0	Text	ed1d017296b6	Mais... ma famille...	lot broadcast_cris_003
+texte_creature	164206	1-1	Text	6b334b53367f	Ne tuez pas... les petits...	lot broadcast_cris_003
+texte_creature	164206	1-2	Text	56da97f5af9c	C'est vous... l'envahisseur...	lot broadcast_cris_003
+texte_creature	164206	1-3	Text	4ca15e0e6822	Moi aussi... j'avais... des rêves...	lot broadcast_cris_003
+texte_creature	164210	0-0	Text	305a889cb7cf	Vous n'êtes que des voyous, vous le savez ? Et pire encore : des voleurs !	lot broadcast_cris_003
+texte_creature	164210	1-0	Text	7ae171355295	Même si les notes sont ambiguës, le journal mentionne quelque chose à propos du puits et d'une grotte sous le manoir. Ça vaudrait peut-être le coup d'aller voir.	lot broadcast_cris_003
+texte_creature	164211	0-0	Text	1e0c10ffbb5a	Et nous, je crois, avons été clairs sur la nôtre, seigneur Darengar.	lot broadcast_cris_003
+texte_creature	164211	1-0	Text	36e7a3507098	Même s'il y avait unanimité, ce conseil ne peut pas simplement faire marcher l'armée sur Scadeald sans le consentement de la maison Coldmere.	lot broadcast_cris_003
+texte_creature	164211	2-0	Text	c96d90778e60	Vous perdez votre temps à vous tromper de cible, seigneur Darengar. Nos lois existent pour une raison. La séance est levée.	lot broadcast_cris_003
+texte_creature	164212	0-0	Text	f7ad1e9afb4e	Et n'oubliez pas que ce sont les Coldmere, et non vous, qui gouvernent Scadeald.	lot broadcast_cris_003
+texte_creature	164221	0-0	Text	4fde1b2387db	Attendez ! Moi ami ! Ami ! Ranger arme, oui ?	lot broadcast_cris_003
+texte_creature	164226	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164226	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164227	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164227	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164228	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164228	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164229	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164229	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164230	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164230	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164231	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164231	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164232	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164232	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164233	0-0	Text	12c991f67423	Ha ! Vous vous battez comme un boutiquier !	lot broadcast_cris_003
+texte_creature	164233	0-1	Text	4e4e67c6474a	Et moi, je vous défie de survivre à ce combat !	lot broadcast_cris_003
+texte_creature	164235	0-0	Text	bdb87b3d5ddc	Ralda vit dans la maison au bord du lac. Apportez-lui la nourriture, s'il vous plaît.	lot broadcast_cris_003
+texte_creature	164236	0-0	Text	d5dbd79daee1	Dorothy... ? Oh...	lot broadcast_cris_003
+texte_creature	164236	1-0	Text	1b908901f3be	Les murlocs ont emmené ma petite Dorothy !	lot broadcast_cris_003
+texte_creature	164236	2-0	Text	59c8d05433c7	Le moindre indice sur l'endroit où se trouve ma fille me suffirait...	lot broadcast_cris_003
+texte_creature	164236	3-0	Text	e0bf5fe45feb	Ce sont les kobolds qui ont pris Dorothy ! C'étaient eux !	lot broadcast_cris_003
+texte_creature	164236	4-0	Text	c09ac3cb745f	Vous avez trouvé ma fille ?! Des indices ?	lot broadcast_cris_003
+texte_creature	164238	0-0	Text	f1713894b629	Ralda... Oh, Ralda !	lot broadcast_cris_003
+texte_creature	164238	1-0	Text	272c3ed07887	Elle vous a fait courir partout, n'est-ce pas ? Les murlocs, les kobolds... Elle n'est plus la même depuis... Dorothy.	lot broadcast_cris_003
+texte_creature	164238	2-0	Text	ad4b1290dbc1	Dorothy n'a pas disparu. Personne ne l'a enlevée. Elle est morte il y a quelques mois... elle s'est noyée. C'était un accident, un moment d'inattention, mais Ralda... elle n'a pas pu vivre avec la culpabilité. Et la culpabilité l'a brisée.	lot broadcast_cris_003
+texte_creature	164238	3-0	Text	7b67804f6c82	Parfois, elle se persuade que Dorothy est encore en vie. D'autres fois, elle se recroqueville près de sa tombe et dort à la belle étoile. J'irai la retrouver dès que mon devoir me le permettra.	lot broadcast_cris_003
+texte_creature	164238	4-0	Text	780529219719	Je suis désolé... Désolé qu'elle vous ait $gentraîné:entraînée; là-dedans.	lot broadcast_cris_003
+texte_creature	164238	5-0	Text	a62e14436830	Descendez l'escalier jusqu'à la cave et cherchez une trappe dans le sol. Elle coince parfois ; n'ayez pas peur de tirer un bon coup dessus.	lot broadcast_cris_003
+texte_creature	164243	0-0	Text	237cad34e363	Les orcs nous tournent le dos. Ils ont le dos large, généreux... qui ne demande qu'à être poignardé. Saisissez l'occasion.	lot broadcast_cris_003
+texte_creature	164247	0-0	Text	3d22423bea00	Pour Kerebor !	lot broadcast_cris_003
+texte_creature	164247	0-1	Text	7fab26143faa	Je ferai un trophée de votre crâne.	lot broadcast_cris_003
+texte_creature	164247	0-2	Text	b04b16ca9400	Okma´ka !	lot broadcast_cris_003
+texte_creature	164247	0-3	Text	a7200dce8604	Racaille bleue !	lot broadcast_cris_003
+texte_creature	164247	0-4	Text	b5711aa44b36	Vermine !	lot broadcast_cris_003
+texte_creature	164247	0-5	Text	ac2dc914ef7e	Quelqu'un comme vous n'a aucune chance contre moi !	lot broadcast_cris_003
+texte_creature	164247	0-6	Text	f61d2f2756d2	Montrez-moi votre sang !	lot broadcast_cris_003
+texte_creature	164247	0-7	Text	c2bc86bffece	Nous vous tuerons tous. Même vos enfants...	lot broadcast_cris_003
+texte_creature	164248	0-0	Text	b0de6e8585d8	Vous connaissez le proverbe ? « N'allez pas chercher conseil auprès des elfes, car ils vous diront à la fois non et oui. » Méfiez-vous quand vous traitez avec eux !	lot broadcast_cris_003
+texte_creature	164252	0-0	Text	11dc62769b63	Une fois l'amphore remplie, retournez à la forteresse. Cette eau enchantée peut refermer la plus infâme des blessures et guérir la plus pernicieuse des maladies ; dispensez-la avec mesure.	lot broadcast_cris_003
+texte_creature	164253	0-1	Text	b04b16ca9400	Okma´ka !	lot broadcast_cris_003
+texte_creature	164253	0-2	Text	3d22423bea00	Pour Kerebor !	lot broadcast_cris_003
+texte_creature	164253	0-3	Text	1eafbb0f69e1	J'espère que vous tiendrez plus longtemps que le dernier. Ne vous pissez pas dessus !	lot broadcast_cris_003
+texte_creature	164253	0-4	Text	7fab26143faa	Je ferai un trophée de votre crâne.	lot broadcast_cris_003
+texte_creature	164253	0-5	Text	c2bc86bffece	Nous vous tuerons tous. Même vos enfants...	lot broadcast_cris_003
+texte_creature	164253	0-6	Text	ac2dc914ef7e	Quelqu'un comme vous n'a aucune chance contre moi !	lot broadcast_cris_003
+texte_creature	164253	0-7	Text	660488ea360c	Lok-tar !	lot broadcast_cris_003
+texte_creature	164253	0-8	Text	b5711aa44b36	Vermine !	lot broadcast_cris_003
+texte_creature	164254	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164254	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164254	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164254	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164254	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164255	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164255	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164255	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164255	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164255	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164256	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164256	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164256	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164256	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164256	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164257	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164257	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164257	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164257	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164257	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164258	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164258	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164258	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164258	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164258	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164259	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164259	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164259	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164259	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164259	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164260	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164260	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164260	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164260	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164260	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164261	0-0	Text	7c66834f8bed	Attendez, attendez ! C'est vous qui commencez, ou moi ?	lot broadcast_cris_003
+texte_creature	164261	1-0	Text	c178b37ba2b8	L'épée est peut-être jolie et tout, mais moi, j'ai l'habitude du râteau. Et croyez-moi, je me battrais mieux avec un râteau qu'avec ça !	lot broadcast_cris_003
+texte_creature	164261	1-1	Text	f9a909fa61d6	Pourquoi ils nous ont recrutés si loin s'ils vous ont déjà ici ?	lot broadcast_cris_003
+texte_creature	164261	2-0	Text	b5a61407a314	Je pourrai peut-être encore être utile à la cause après cette humiliation... comme chair à canon.	lot broadcast_cris_003
+texte_creature	164261	2-1	Text	bc6256ca6520	Je crois... je crois que l'envie de me battre m'a quitté.	lot broadcast_cris_003
+texte_creature	164262	0-0	Text	14f7d80685f5	Un conseil de vétéran : grimpez sur la tour de siège en ruine pour vous glisser dans Kerebor. Si vous tenez à rester $gdiscret:discrète;, bien sûr.	lot broadcast_cris_003
+texte_creature	164270	0-1	Text	f61d2f2756d2	Montrez-moi votre sang !	lot broadcast_cris_003
+texte_creature	164270	0-2	Text	c2bc86bffece	Nous vous tuerons tous. Même vos enfants...	lot broadcast_cris_003
+texte_creature	164270	0-3	Text	a7200dce8604	Racaille bleue !	lot broadcast_cris_003
+texte_creature	164270	0-4	Text	660488ea360c	Lok-tar !	lot broadcast_cris_003
+texte_creature	164270	0-5	Text	ac2dc914ef7e	Quelqu'un comme vous n'a aucune chance contre moi !	lot broadcast_cris_003
+texte_creature	164270	0-6	Text	b5711aa44b36	Vermine !	lot broadcast_cris_003
+texte_creature	164270	0-7	Text	b04b16ca9400	Okma´ka !	lot broadcast_cris_003
+texte_creature	164270	0-8	Text	1eafbb0f69e1	J'espère que vous tiendrez plus longtemps que le dernier. Ne vous pissez pas dessus !	lot broadcast_cris_003
+texte_creature	164271	0-0	Text	a7200dce8604	Racaille bleue !	lot broadcast_cris_003
+texte_creature	164271	0-1	Text	1eafbb0f69e1	J'espère que vous tiendrez plus longtemps que le dernier. Ne vous pissez pas dessus !	lot broadcast_cris_003
+texte_creature	164271	0-2	Text	7fab26143faa	Je ferai un trophée de votre crâne.	lot broadcast_cris_003
+texte_creature	164271	0-3	Text	f61d2f2756d2	Montrez-moi votre sang !	lot broadcast_cris_003
+texte_creature	164271	0-4	Text	3d22423bea00	Pour Kerebor !	lot broadcast_cris_003
+texte_creature	164317	0-0	Text	74aa2c6e5982	Pour les Esprits !	lot broadcast_cris_003
+texte_creature	164317	0-1	Text	354aa21d6a33	Racaille des villes.	lot broadcast_cris_003
+texte_creature	164317	0-2	Text	9f3bfa8c6d0c	Les Esprits sourient à notre cause !	lot broadcast_cris_003
+texte_creature	164317	0-3	Text	b51a365d8a74	Victoire pour les Ealdir !	lot broadcast_cris_003
+texte_creature	164317	0-4	Text	d8b991f3f7e8	Vous êtes tous des intrus sur notre terre.	lot broadcast_cris_003
+texte_creature	164317	0-5	Text	482809a533be	Des fleuves de sang couleront.	lot broadcast_cris_003
+texte_creature	164317	0-6	Text	8d7b2ac4f7d8	La Sorcière prendra vos enfants !	lot broadcast_cris_003
+texte_creature	164317	0-7	Text	75a2d34956de	Mort au Royaume !	lot broadcast_cris_003
+texte_creature	164341	0-0	Text	482809a533be	Des fleuves de sang couleront.	lot broadcast_cris_003
+texte_creature	164341	0-1	Text	75a2d34956de	Mort au Royaume !	lot broadcast_cris_003
+texte_creature	164341	0-2	Text	d8b991f3f7e8	Vous êtes tous des intrus sur notre terre.	lot broadcast_cris_003
+texte_creature	164341	0-3	Text	74aa2c6e5982	Pour les Esprits !	lot broadcast_cris_003
+texte_creature	164341	0-4	Text	8d7b2ac4f7d8	La Sorcière prendra vos enfants !	lot broadcast_cris_003
+texte_creature	164341	0-5	Text	3c51b61dfcc5	Liberté pour Scadeald !	lot broadcast_cris_003
+texte_creature	164341	0-6	Text	354aa21d6a33	Racaille des villes.	lot broadcast_cris_003
+texte_creature	164341	0-7	Text	8045829ae4ec	Scadeald sera libre !	lot broadcast_cris_003
+texte_creature	164341	0-8	Text	b51a365d8a74	Victoire pour les Ealdir !	lot broadcast_cris_003
+texte_creature	164341	0-9	Text	9f3bfa8c6d0c	Les Esprits sourient à notre cause !	lot broadcast_cris_003
+texte_creature	164431	0-0	Text	6b94536d2777	Un souci de moins.	lot broadcast_cris_003
+texte_creature	164431	0-1	Text	f5e829fde402	Pour les Crins-de-givre !	lot broadcast_cris_003
+texte_creature	164431	0-2	Text	9f226268e82d	J'ai pas peur de vous !	lot broadcast_cris_003
+texte_creature	164431	0-3	Text	0b06341b07ef	Vot' mort nous rapproche des Jours de gloire !	lot broadcast_cris_003
+texte_creature	164431	0-4	Text	20850e17208b	J'laisserai pas de corps sur lequel vos proches pourront pleurer...	lot broadcast_cris_003
+texte_creature	164431	0-5	Text	05464d302939	On va tous vous tuer. En commençant par vous !	lot broadcast_cris_003
+texte_creature	164431	0-6	Text	bf876dc32c6b	Qu'est-ce qui vous a fait croire que vous pouviez me battre ?	lot broadcast_cris_003
+texte_creature	164431	0-7	Text	38a5af32b472	Vous allez payer pour ce que vos ancêtres nous ont volé !	lot broadcast_cris_003
+texte_creature	164431	0-8	Text	2c874155c676	Ces terres sont à nous !	lot broadcast_cris_003
+texte_creature	164438	0-0	Text	19209806f970	La princesse a des alliés puissants...	lot broadcast_cris_003
+texte_creature	164438	0-1	Text	de537de8eee8	Pour Mexitla !	lot broadcast_cris_003
+texte_creature	164438	0-10	Text	05464d302939	On va tous vous tuer. En commençant par vous !	lot broadcast_cris_003
+texte_creature	164438	0-11	Text	0b06341b07ef	Vot' mort nous rapproche des Jours de gloire !	lot broadcast_cris_003
+texte_creature	164438	0-12	Text	bf876dc32c6b	Qu'est-ce qui vous a fait croire que vous pouviez me battre ?	lot broadcast_cris_003
+texte_creature	164438	0-13	Text	f9a91e080102	Pas de pitié !	lot broadcast_cris_003 ; officiel (quetes/quete/13233)
+texte_creature	164438	0-14	Text	06175844d571	J'en ai tué des dizaines comme vous... pourquoi vous abandonnez pas, tout simplement ?	lot broadcast_cris_003
+texte_creature	164438	0-15	Text	e036127d18dc	Victoire pour Mexitla !	lot broadcast_cris_003
+texte_creature	164438	0-16	Text	c6fdc871b02e	J'vais tout manger ! Les os compris !	lot broadcast_cris_003
+texte_creature	164438	0-17	Text	9f226268e82d	J'ai pas peur de vous !	lot broadcast_cris_003
+texte_creature	164438	0-18	Text	2c874155c676	Ces terres sont à nous !	lot broadcast_cris_003
+texte_creature	164438	0-19	Text	38a5af32b472	Vous allez payer pour ce que vos ancêtres nous ont volé !	lot broadcast_cris_003
+texte_creature	164438	0-2	Text	a95ff018e7d9	Vos enfants vont grandir orphelins...	lot broadcast_cris_003
+texte_creature	164438	0-3	Text	f5e829fde402	Pour les Crins-de-givre !	lot broadcast_cris_003
+texte_creature	164438	0-4	Text	98379b9d4253	J'parie que vous avez bon goût... laissez-moi goûter !	lot broadcast_cris_003
+texte_creature	164438	0-5	Text	72f3c2b05104	J'ai la bénédiction des loas !	lot broadcast_cris_003
+texte_creature	164438	0-6	Text	20850e17208b	J'laisserai pas de corps sur lequel vos proches pourront pleurer...	lot broadcast_cris_003
+texte_creature	164438	0-7	Text	8fe1fc39adde	Pour l'Ancien Empire !	lot broadcast_cris_003
+texte_creature	164438	0-8	Text	0bbe92c2edde	Druk'thar perdure !	lot broadcast_cris_003
+texte_creature	164438	1-0	Text	6b94536d2777	Un souci de moins.	lot broadcast_cris_003
