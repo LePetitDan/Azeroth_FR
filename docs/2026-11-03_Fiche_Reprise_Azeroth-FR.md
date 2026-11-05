@@ -1,6 +1,13 @@
-# Fiche de reprise : Azeroth_FR (add-on 0.5 prêt : essai 5 à installer chez Dan)
+# Fiche de reprise : Azeroth_FR (essai 5, add-on 0.5, installé chez Dan le 05/11 : en attente de ses captures)
 
 *03/11/2026, mise à jour le 05/11 après l'add-on 0.5. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Essai 5 installé (05/11)
+
+- Add-on 0.5.0 (`main`, branche `addon-0.5` fusionnée) installé avec l'accord de Dan : essai 4 retiré, 16 dossiers et `PTRXML` copiés (62 fichiers, empreintes identiques au zip, sha256 `c74c5530…`).
+- Décision 19 de Dan (descriptions `CLASS_*_FEMALE` au masculin générique) à appliquer dans la version suivante.
+- Le nom du personnage de Dan est sorti de `essais/2026-11-05_essai4/RESULTAT.md` ; il reste dans l'historique (à purger avant le passage en public, voir `CLAUDE.md`).
+- Prochaine étape : captures de l'essai 5 (`docs/ESSAI5_installer.md`), puis `essais/…_essai5/RESULTAT.md`.
 
 ## Add-on 0.5 (05/11) : les retours de l'essai 4
 

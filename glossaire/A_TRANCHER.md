@@ -132,6 +132,8 @@ propre à CoA (compétence 505 de `SkillLine.dbc`), sans nom chez Blizzard et sa
 
 ## 19. Description de classe dans l'infobulle des boutons (création de personnage)
 
+> **Tranché par Dan le 05/11/2026 : B, tout au masculin générique** (point 19 de `DECISIONS_VOCABULAIRE.md`).
+
 > Posée le 05/11/2026 (add-on 0.5, essai 4 n° 3). **Rien n'est appliqué** tant que tu n'as pas choisi.
 
 À l'essai 4, en **Homme**, l'infobulle du bouton Porte-tempête disait « Les Porte-tempête sont des **maîtresses
