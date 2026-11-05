@@ -1,0 +1,334 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	582591		Description	43cc699ae600	Vous ne faites plus qu'un avec le Vide, ce qui vous empêche de mourir pendant $d ou jusqu'à ce que vous subissiez des dégâts égaux à 100% au maximum de votre total de points de vie.\r\n\r\nÀ la fin de l'effet, vous régénérez instantanément des points de vie à hauteur de $s1% des dégâts subis pendant qu'il était actif.	lot talents_014
+sort	582591		ToolTip	3514e8597cd5	Vous embrassez le Vide. Vous empêche de mourir pendant $d ou jusqu'à ce que vous subissiez des dégâts égaux à 100% au maximum de votre total de points de vie.\r\n\r\nÀ la fin de l'effet, vous régénérez instantanément des points de vie à hauteur de 50% des dégâts subis pendant qu'|cffffffffEmbrasser le Vide|r était actif.	lot talents_014
+sort	582832		Description	4b036bc37a35	Vos coups critiques en mêlée augmentent votre hâte et vos soins prodigués de $582837s1% par charge. Cumulable jusqu'à $582837u fois. Dure $582837d.	lot talents_014
+sort	582832		Name	22b9e9915b5b	Cœur pur	lot talents_014
+sort	582832		ToolTip	23358e7816c5	Les soins critiques d'|cFFFFFFFFIllumination|r ont $h% de chances d'appliquer |cFFFFFFFFRayon de soleil|r et d'en accélérer les effets périodiques de $\1000;s1 sec.	lot talents_014
+sort	582836		Description	eba444c62814	Augmente de $s1% les chances de coup critique de |cFFFFFFFFLame de l'Empire|r et réduit son coût en mana de $s2%.	lot talents_014
+sort	582836		Name	07b5c15e474b	Tranchant abyssal	lot talents_014
+sort	582855		Description	b0826731c749	|cFF66DDFFPassif de niveau 50|r\r\nAjoute $s1% aux bonus conférés par vos charges d'|cff8fff7aAvantage|r.	lot talents_014
+sort	582855		Name	70ffefd6ce4f	Tireur d'élite	lot talents_014
+sort	582855		ToolTip	430ebc80be9b	 et augmente de ${$w2}% les dégâts bonus que |cFFFFFFFFTir dentelé|r tire de la puissance d'attaque à distance.	lot talents_014
+sort	582856		Description	eba444c62814	Augmente de $s1% les chances de coup critique de |cFFFFFFFFLame de l'Empire|r et réduit son coût en mana de $s2%.	lot talents_014
+sort	582856		Name	07b5c15e474b	Tranchant abyssal	lot talents_014
+sort	582901		Description	09438b6d4b7c	Les blocages réussis infligent désormais ${$573212m1*$<scalingbp>+$AP*0.05} points de dégâts physiques à l'attaquant, selon votre score de défense. Cet effet ne peut se produire qu'une fois par seconde.	lot talents_014
+sort	582901		Name	c6b40b4993cf	Représailles	lot talents_014
+sort	582933		Description	d101e3d868be	Augmente votre maximum d'énergie de $s1 et les dégâts de |cFFFFFFFFPulvérisation|r et de |cffffffffLarge balayage|r de $s2%.	lot talents_014
+sort	582933		Name	bba2c69539a2	Vaillant défenseur	lot talents_014
+sort	582937		Description	8df80c2bbc21	Les coups critiques de vos techniques de mêlée rendent désormais gratuite votre prochaine |cffffffffPulvérisation|r lancée dans les $583027d, et elle inflige $583027s2% de dégâts supplémentaires.	lot talents_014
+sort	582937		Name	b0874d32c318	Vaillant chevalier	lot talents_014
+sort	583245		Description	c45862cfe6da	Tant qu'|cffffffffIncarnation du chaos|r est active, votre |cffffffffDissolution de la réalité|r inflige $s1% de dégâts supplémentaires et réplique $s2% supplémentaires \r\n\r\nDe plus, les dégâts périodiques infligés réduisent désormais le temps de recharge d'|cffffffffIncarnation du chaos|r de $/1000;583258S1 sec.	lot talents_014
+sort	583245		Name	243e045f7862	Temps chaotique	lot talents_014
+sort	583248		Description	a3a37d75d84b	Votre |cffffffffÉclat chromatique|r a désormais $h% de chances de frapper à nouveau sans déclencher de temps de recharge.	lot talents_014
+sort	583248		Name	bee64ac5df5d	Déchirure d'éon	lot talents_014
+sort	592008		Description	4e99cb346703	Toutes les $t1 sec., votre prochaine |cffffffffDiscordance|r lancée dans les $542728d est instantanée.	lot talents_014
+sort	592008		Name	fa054a183304	Chronologique	lot talents_014
+sort	602220		Description	227a0ec53295	Boit un puissant breuvage vaudou qui plonge votre corps dans une immobilité mortelle pendant $d au maximum, ce qui vous fait feindre la mort et peut pousser les ennemis à vous ignorer. 	lot talents_014
+sort	602220		Name	ae34f5d1ac6c	Breuvage de mort	lot talents_014
+sort	602220		ToolTip	61fae39277df	Feint la mort.	lot talents_014
+sort	620067		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	620067		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	620067		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
+sort	620068		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	620068		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	620068		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
+sort	620069		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	620069		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	620069		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
+sort	620070		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	620070		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	620070		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
+sort	620071		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	620071		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	620071		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
+sort	620072		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	620072		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	620072		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
+sort	630900		Description	08fbda95b163	Augmente de $s1 le nombre de fois que les |cff66ff66Marques de la couvée|r peuvent se cumuler.	lot talents_014
+sort	630900		Name	2e5e7b5fae40	Morsure venimeuse	lot talents_014
+sort	630932		Description	c360b9414d18	Votre |cffffffffEntrave soyeuse|r a désormais 2 charges et un temps de recharge de 25 sec., et inflige davantage de dégâts.@s:504706:0@	lot talents_014
+sort	630932		Name	8b506b063855	Fouisseur	lot talents_014
+sort	630934		Description	e43017eb1c55	Après avoir utilisé |cffffffffFond-visage|r, votre prochain |cffffffffFaiseur de veuves|r lancé dans les $631226d inflige désormais $631226s1% de dégâts supplémentaires et frappe 2 ennemis proches supplémentaires.	lot talents_014
+sort	630934		Name	0c53f0bf160f	Bile corrosive	lot talents_014
+sort	638403		Name	2fe206b92ea7	Dépravation	lot talents_014
+sort	645435		Description	c9722b4022d2	Frappe un ennemi $?s706672[7][5] fois en $d, chaque coup infligeant ${$645437m3*$<scalingbp>}% (${($645437m3*$<scalingbp>)*0.8}% contre les joueurs) des dégâts de l'arme sous forme de dégâts de Nature, selon le niveau.\r\n\r\nPendant que vous frappez votre cible, vos chances d'esquiver sont augmentées de $645440s2%, mais vous ne pouvez utiliser aucun sort ni aucune technique.	lot talents_014
+sort	645435		Name	08a7c28a28b9	Ouragan	lot talents_014
+sort	653239		Description	8831877ac925	Ajoute une |cffffffffAugmentation stimulante|r à votre fusil pendant 1 heure, ce qui fait que vos techniques de soins directs rendent aussi à $?s705780[5][3] alliés proches au maximum $653240s1% du montant soigné.\r\n\r\nCes soins peuvent être critiques.	lot talents_014
+sort	653239		Name	23f22879371b	Augmentation stimulante	lot talents_014
+sort	653245		Description	95788e9294d4	Ajoute une |cffffffffAugmentation traçante|r à votre fusil pendant 1 heure, ce qui fait que vos attaques à distance marquent les ennemis pendant $653247d. Cumulable $653247u fois. À la fin de l'effet, ils explosent et subissent ${$653247m3*$<scalingbp>+$RAP*0.08+$spfi*.15} points de dégâts de Feu, augmentés selon le nombre de charges.\r\n\r\nLes ennemis marqués ne peuvent pas passer en camouflage ni devenir invisibles pendant $653252d.\r\n\r\n@ext:Additional applications do not refresh the duration.:ext@	lot talents_014
+sort	653245		Name	a6a9e968ebcd	Augmentation traçante	lot talents_014
+sort	680196		Description	cef557071b82	Projette à longue portée une décharge d'électricité qui rend ${$m1+0+$BH*1.5} points de vie à un allié.\r\n\r\nBénéficie des modificateurs de |cffffffffTir réparateur|r.	lot talents_014
+sort	680196		Name	b20d280801bf	Zap !	lot talents_014
+sort	680199		Description	2ba0e7148b15	|cffffffffEncorner|r vous rend désormais 50% des dégâts infligés en 3 sec. et vous confère une charge de |cffffffffRepu|r pendant $680203d.\r\n\r\nÀ 3 charges, votre prochain $?s800710[|cffffffffGourdin de soufre|r][|cffffffffSectionner|r] consomme les charges pour drainer 200% supplémentaires de ses dégâts infligés sur $680204i ennemis au maximum à moins de $680204a1 mètres.\r\n\r\nDe plus, $?s800710[|cffffffffGourdin de soufre|r][|cffffffffSectionner|r] frappe désormais une fois de plus au bout de 1 sec., mais son temps de recharge est augmenté de $?s800710[12 sec.][2].	lot talents_014
+sort	680199		Name	e43a699abff7	Repu	lot talents_014
+sort	680200		Description	ba3ae7142a9a	Augmente de $s1% les dégâts d'|cffffffffExplosion de bombe collante|r et des techniques de |cffffffffMéca-armure|r.	lot talents_014
+sort	680200		Name	6314a8db37b1	Synergie mécanique	lot talents_014
+sort	680212		Description	9f12a4aff25c	Votre |cFFFFFFFFLame de la gardienne|r lance désormais 2 lames supplémentaires sur la cible, qui infligent ${$680214m1+$680214ppl1+$SP*0.245} points de dégâts de Frappe-sort.	lot talents_014
+sort	680212		Name	0602d8d3465b	Précision de la gardienne	lot talents_014
+sort	680212		ToolTip	05437ab30157	Augmente la portée de |cFFFFFFFFLame de la gardienne|r de ${$w1} mètres et lui fait lancer 2 lames supplémentaires sur la cible, qui infligent $680214s1 points de dégâts de Frappe-sort.	lot talents_014
+sort	680215		Description	e2c42028c96d	Après avoir utilisé |cffffffffÉtoile filante|r, votre prochaine |cFFFFFFFFFrappe céleste|r, |cFFFFFFFFFracture stellaire|r ou attaque automatique met fin à l'effet et inflige ${$805006m1*$<scalingbp>+$SP*0.2875+$AP*0.05} points de dégâts des Arcanes, augmentés selon la distance parcourue.	lot talents_014
+sort	680215		Name	fd841c7c65b0	Charge lunaire	lot talents_014
+sort	680216		Description	5144a1420de1	Lancer |cffffffffDéchaîner la pestilence|r vous retire désormais tous les effets affectant le déplacement actifs.	lot talents_014
+sort	680216		Name	1507f4c32585	Brise-enfer	lot talents_014
+sort	680216		ToolTip	397e1c88f632	|cffffffffCri infernal|r retire désormais tous les effets d'immobilisation et de ralentissement actifs.	lot talents_014
+sort	680233		Description	6c9ff18b7e10	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre score de coup critique d'un montant égal à $s1% de votre Intelligence et votre expertise d'un montant égal à $s2% de votre Intelligence.	lot talents_014
+sort	680233		Name	fec8f0b23582	Discipline de Maiev	lot talents_014
+sort	680233		ToolTip	77d58a2b741e	Augmente les chances de coup critique d'un montant égal à ${$w1}% de l'Intelligence.	lot talents_014
+sort	680236		Description	c2c31d68c7b3	Projette une salve d'ombre depuis votre mousquet, qui frappe les ennemis devant vous, leur inflige ${$m1+0} points de dégâts d'Ombre et repousse toutes les cibles touchées.	lot talents_014
+sort	680236		Name	3eab0e1a3e97	Répulsion	lot talents_014
+sort	680236		ToolTip	281bbd1b2d0a	Subit ${$w2} points de dégâts d'Ombre toutes les $t2 sec.	lot talents_014
+sort	680238		Description	c65248765486	Place au sol un piège ténébreux pendant $d, qui maudit le premier ennemi qui s'en approche ainsi que $681179i ennemis au maximum à moins de $681179a1 mètres, ce qui les étourdit pendant $681179d et leur inflige ${($681177d*1000/$681177T1)*($681177m1+$681177ppl1+$AP*0.34)} points de dégâts d'Ombre en $681177d.	lot talents_014
+sort	680238		Name	e32af9afab5d	Piège d'ombre	lot talents_014
+sort	680247		Description	4b85875b6ac6	Augmente de $s1% les dégâts de |cffffffffTir sextuple|r et réduit sa canalisation de 0,5 sec.	lot talents_014
+sort	680247		Name	83b68eb65ee6	Aube basse	lot talents_014
+sort	680253		Description	df6e08719337	Augmente de $s1% la durée de vos |cffffffffPièges|R.	lot talents_014
+sort	680253		Name	ae931a95d0da	Carte Piège	lot talents_014
+sort	680255		Description	97b4fb372b62	Les dégâts critiques d'Ombre infligés par vous et vos |cffffffffChiens des ombres|r sont augmentés de $s1%, mais le coût de vos sorts et techniques est augmenté de $s2%.\r\n\r\nDe plus, votre |cffffffffDégaine éclair|r inflige désormais toujours un coup critique.	lot talents_014
+sort	680255		Name	457eb4192fac	Pacte avec le diable	lot talents_014
+sort	680270		Description	c2c31d68c7b3	Projette une salve d'ombre depuis votre mousquet, qui frappe les ennemis devant vous, leur inflige ${$m1+0} points de dégâts d'Ombre et repousse toutes les cibles touchées.	lot talents_014
+sort	680270		Name	3eab0e1a3e97	Répulsion	lot talents_014
+sort	680270		ToolTip	281bbd1b2d0a	Subit ${$w2} points de dégâts d'Ombre toutes les $t2 sec.	lot talents_014
+sort	680271		Description	c2c31d68c7b3	Projette une salve d'ombre depuis votre mousquet, qui frappe les ennemis devant vous, leur inflige ${$m1+0} points de dégâts d'Ombre et repousse toutes les cibles touchées.	lot talents_014
+sort	680271		Name	3eab0e1a3e97	Répulsion	lot talents_014
+sort	680271		ToolTip	281bbd1b2d0a	Subit ${$w2} points de dégâts d'Ombre toutes les $t2 sec.	lot talents_014
+sort	680272		Description	c2c31d68c7b3	Projette une salve d'ombre depuis votre mousquet, qui frappe les ennemis devant vous, leur inflige ${$m1+0} points de dégâts d'Ombre et repousse toutes les cibles touchées.	lot talents_014
+sort	680272		Name	3eab0e1a3e97	Répulsion	lot talents_014
+sort	680272		ToolTip	281bbd1b2d0a	Subit ${$w2} points de dégâts d'Ombre toutes les $t2 sec.	lot talents_014
+sort	680273		Description	c2c31d68c7b3	Projette une salve d'ombre depuis votre mousquet, qui frappe les ennemis devant vous, leur inflige ${$m1+0} points de dégâts d'Ombre et repousse toutes les cibles touchées.	lot talents_014
+sort	680273		Name	3eab0e1a3e97	Répulsion	lot talents_014
+sort	680273		ToolTip	281bbd1b2d0a	Subit ${$w2} points de dégâts d'Ombre toutes les $t2 sec.	lot talents_014
+sort	680276		Description	beec40349f69	Pendant $d, vos attaques automatiques en mêlée infligent $s1% des dégâts infligés sous forme de dégâts de Nature supplémentaires et réduisent les soins reçus par votre cible de $520571s2% pendant $520571d. Cumulable $520571u fois.\r\n\r\nDurée augmentée de $/1000;804329s2 sec. pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_014
+sort	680276		Name	7953f1e8b254	Lames déloyales	lot talents_014
+sort	680276		ToolTip	6f9e6dd3e7b8	Les attaques automatiques infligent des dégâts supplémentaires et réduisent les soins reçus par la cible.	lot talents_014
+sort	680322		Description	4a7ae3c1a37c	Augmente de $s1% les chances de coup critique de |cffffffffDamnation|r contre les morts-vivants et les démons.	lot talents_014
+sort	680322		Name	ad9899dea621	Carreau ensorcelé	lot talents_014
+sort	680323		Description	81ec5d0ea541	Votre |cFFFFFFFFPlaie-des-sorcières|r inflige désormais la totalité de ses dégâts sur une période raccourcie de $/1000;s1 sec.	lot talents_014
+sort	680323		Name	9a6ee6647c4c	Rapide	lot talents_014
+sort	680326		Description	64fb3fc09df5	Augmente vos dégâts critiques physiques à distance de $s1%.	lot talents_014
+sort	680326		Name	761473b201d8	Sans-cœur	lot talents_014
+sort	680327		Description	64fb3fc09df5	Augmente vos dégâts critiques physiques à distance de $s1%.	lot talents_014
+sort	680327		Name	761473b201d8	Sans-cœur	lot talents_014
+sort	680331		Description	bf65c5e0beec	Augmente de $s1% les chances de coup critique de |cffffffffCarreau cherche-cœur|r.	lot talents_014
+sort	680331		Name	78ea71fb9b26	Un seul tir	lot talents_014
+sort	680337		Description	7c630d8c1c8b	Prend une forme renforcée pendant $d, ce qui génère $/10;359505s1 points de puissance runique et augmente votre armure et vos chances de parer de $s3%.	lot talents_014
+sort	680337		Name	9230ffd92748	Forme renforcée	lot talents_014
+sort	680337		ToolTip	04e7973a4ba6	Armure augmentée de ${$w1}%. Chances de parer augmentées de ${$w3}%.	lot talents_014
+sort	680373		Description	cfa91ccef8c6	Subir des dégâts physiques vous rend désormais des points de vie à hauteur de $s1% des dégâts infligés. Cet effet ne peut se produire qu'une fois par seconde.	lot talents_014
+sort	680373		Name	1825db23ae41	Sursis	lot talents_014
+sort	680377		Description	f26b6260b92f	Votre |cffffffffFaille|r garantit désormais un coup critique à votre prochain |cffffffffMarteau du crépuscule|r.	lot talents_014
+sort	680377		Name	145894102ee4	Lame divine	lot talents_014
+sort	680378		Description	e4588e3a6bf1	Vous gagnez instantanément 5 charges d'|cffffffffIncantation de flammes|r, puis vous imprégnez tous les alliés proches de feu magique, ce qui augmente leur vitesse de déplacement de $s1% pendant $d.\r\n\r\nSous l'effet de |cffffffffCœur de braise|R, les dégâts directs infligés par les alliés infligent ${$680366m1*$<scalingbp>+$spfi*.35} points de dégâts de Feu supplémentaires.\r\n@s:804301:0@	lot talents_014
+sort	680378		Name	a10ca05cc04e	Cœur de braise	lot talents_014
+sort	680378		ToolTip	3d951452182b	Vitesse de déplacement augmentée de ${$w1}%. Les dégâts directs infligés infligent $680366s1 points de dégâts de Feu supplémentaires.	lot talents_014
+sort	680384		Description	1aabfb382d6d	Augmente les dégâts de |cffffffffDéflagration d'ombre|r de $s1% et ceux de |cffffffffPlaie-des-sorcières|r de $s2%.	lot talents_014
+sort	680384		Name	7a3c2d329da3	Expert en arbalète	lot talents_014
+sort	680388		Description	604169b41626	Active une |cffffffffGarde fétide|r sur vous et vos serviteurs morts-vivants pendant $d.\r\n\r\nTant qu'elle est active, $s1% de vos dégâts infligés vous soignent, vous et vos serviteurs, répartis équitablement entre eux, et les soins reçus sont augmentés de $s2%.\r\n\r\n@ext:Only 1 |cffffffffWard|r can be active at a time.:ext@	lot talents_014
+sort	680388		Name	05c975c53fba	Garde fétide	lot talents_014
+sort	680388		ToolTip	4fa8524fb8ef	Soins reçus augmentés de ${$W2}% et ${$W1}% de vos dégâts infligés vous soignent, vous et vos serviteurs, répartis équitablement entre eux.	lot talents_014
+sort	680395		Description	69ae8c492f50	|cFF66DDFFPassif de niveau 10|r\r\nVos attaques automatiques ont désormais $h% de chances de vous conférer |cffffffffRéplique|r.@s:301086:0@	lot talents_014
+sort	680395		Name	aa4d9897fa2b	Géant des montagnes	lot talents_014
+sort	680397		Name	de5b75e06927	Coups disciplinés	lot talents_014
+sort	680399		Description	a6cc53fc09b6	Augmente de $s1% les soins de |cffffffffBénédiction|r et lui fait dissiper $525052s2 effet de poison et de maladie.	lot talents_014
+sort	680399		Name	77e9057ad15f	Esprit discipliné	lot talents_014
+sort	680404		Description	b2de862c1753	Augmente votre Endurance de $s1% et permet à |cffffffffRage de la terre|r de se cumuler 1 fois de plus.	lot talents_014
+sort	680404		Name	c868d044e622	Thane de la montagne	lot talents_014
+sort	680405		Description	d2010c724a4d	Augmente de $s1% les dégâts de |cffffffffMarteau de la montagne|r.	lot talents_014
+sort	680405		Name	6ed30554c4fc	Tout est un clou	lot talents_014
+sort	680406		Description	f942ba8b2779	|cFF66DDFFPassif de niveau 40|r\r\nAtteindre 5 charges de |cffffffffRage de la terre|r vous confère désormais |cffffffffAppel de la montagne|r.@s:680472:0@	lot talents_014
+sort	680406		Name	5fab8a0f6fa5	Appel de la montagne	lot talents_014
+sort	680408		Description	ab873d4ccebe	Augmente de $s2% l'armure conférée par |cffffffffBarrière rocheuse|r, qui réduit désormais aussi le coût de vos sorts et techniques de $s1% pendant sa durée.	lot talents_014
+sort	680408		Name	7705c4bafc48	Barrière forgée par la terre	lot talents_014
+sort	680409		Description	8f0e071ecb58	Augmente de $s1% les chances de déclencher |cffffffffSonner|r et augmente votre expertise de $s2.	lot talents_014
+sort	680409		Name	76def5661bd2	Labourer la terre	lot talents_014
+sort	680410		Description	b07f0b4aab44	Vos attaques automatiques réduisent désormais le temps de recharge de |cffffffffMarteau de la montagne|r et de |cffffffffRuée primordiale|r de $/1000;680411s1 sec.	lot talents_014
+sort	680410		Name	285fea094cbc	Conseils du thane	lot talents_014
+sort	680412		Description	40fcf9da8f4a	Les dégâts infligés par |cffffffffBarrage de géodes|r ou par les |CffffffffGéodes|r génèrent désormais davantage de menace et ont $h% de chances d'ajouter 1 charge à une |cffffffffBarrière rocheuse|r active et de prolonger sa durée de $/1000;520134s2 sec.	lot talents_014
+sort	680412		Name	010bb9234fb6	Fureur de la Terre-mère	lot talents_014
+sort	680413		Description	8d49ca050a0b	Augmente de $/10;s2 la rage générée par |cffffffffImpact sismique|r et de $/10;s1 celle générée par |cffffffffPointe sismique|r.	lot talents_014
+sort	680413		Name	5d7357f9a8c7	Efficacité sismique	lot talents_014
+sort	680415		Description	01b8886677e8	Augmente de $s1% l'efficacité de |cFFFFFFFFBénédiction de la tortue|r et de |cffffffffRage de la terre|r.	lot talents_014
+sort	680415		Name	06165e29ee18	Lié à la pierre	lot talents_014
+sort	680419		Description	6f5b32987613	Lancer |cffffffffGriffe sauvage|r et des techniques |cffffffffsismiques|r a désormais $h% de chances de recharger une charge de |cffffffffSecousse|r.	lot talents_014
+sort	680419		Name	23a26a5987e9	Façonneur de séismes	lot talents_014
+sort	680421		Description	6e50ea9b874b	Vous devenez un avatar de la terre, ce qui augmente vos dégâts infligés et réduit vos dégâts subis de $s1%, et augmente votre hâte en mêlée de $s2% pendant $d.\r\n\r\nInsensible aux étourdissements, aux immobilisations et aux ralentissements pendant la durée de l'effet.\r\n\r\nUtilisable en étant $gétourdi:étourdie;.	lot talents_014
+sort	680421		Name	846567f4e3a8	Avatar tellurique	lot talents_014
+sort	680421		ToolTip	8c5424064894	Dégâts infligés augmentés de ${$w1}%, dégâts subis réduits de ${$w1}% et hâte en mêlée augmentée de ${$w2}%.	lot talents_014
+sort	680424		Description	3768958953bd	Augmente de $s2% l'efficacité d'|cFFFFFFFFAvatar tellurique|r.	lot talents_014
+sort	680424		Name	adca9b27ada7	Héritage des Barbe-de-bronze	lot talents_014
+sort	680439		Description	15be0e81a7eb	Chaque charge de |cffc6a36aFaçonnage de la terre|r augmente désormais vos dégâts critiques infligés de $s1%.	lot talents_014
+sort	680439		Name	ee76b93320d6	Bénédiction de Therazane	lot talents_014
+sort	680442		Description	ecf1f9a3aea4	Envoie une secousse à travers la terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques, plus $o2 en $d. Les dégâts sont lents au début et augmentent avec le temps.\r\n\r\nLes dégâts infligés génèrent $/10;681280s1 points de rage. \r\n\r\nGénère 2 charges de |cffc6a36aFaçonnage de la terre|r.\r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_014
+sort	680444		Description	469ec0d09f13	Générer du |cffc6a36aFaçonnage de la terre|r ou lancer |cffffffffÉclat de pierre|r a désormais $h% de chances de réinitialiser le temps de recharge de vos techniques |cffffffffsismiques|r.	lot talents_014
+sort	680446		Description	44a7ed1c464a	Augmente de $s1% la vitesse de déplacement conférée par |cffffffffRoche roulante|r.	lot talents_014
+sort	680446		Name	7ce62c3a8c11	Élan roulant	lot talents_014
+sort	680451		Description	18d883c5f542	Vos coups critiques infligeant des dégâts physiques ou de Nature infligent désormais $s1% des dégâts infligés sous forme de dégâts de Feu supplémentaires à la cible et aux ennemis proches.	lot talents_014
+sort	680451		Name	1a3237f85250	Explosion volcanique	lot talents_014
+sort	680451		ToolTip	1f4ef514bc0b	Immobilisé.$?s560325[ Ne peut pas recevoir de soins.][]	lot talents_014
+sort	680452		Description	00bef65824ba	Générer du |cffc6a36aFaçonnage de la terre|r à 10 charges ou plus vous confère désormais |cffffffffRêve|r.@s:578255:0@	lot talents_014
+sort	680452		Name	ceee0a13f843	Rêve	lot talents_014
+sort	680453		Description	51ff8e0a56d2	Augmente de $s1% la portée de vos sorts de Géomancie et de $s2 mètres celle des sorts |cFFFFFFFFsismiques|r.	lot talents_014
+sort	680453		Name	f8c5af7b1502	Regard de Therazane	lot talents_014
+sort	680458		Description	51ff8e0a56d2	Augmente de $s1% la portée de vos sorts de Géomancie et de $s2 mètres celle des sorts |cFFFFFFFFsismiques|r.	lot talents_014
+sort	680458		Name	f8c5af7b1502	Regard de Therazane	lot talents_014
+sort	680469		Description	a403e2c950f8	Tant que vous êtes sous |cFFFFFFFFDérobade|r, vous gagnez une charge de |cFFFFFFFFTir à l'arc magistral|r toutes les $T1 sec.@s:680471:0@	lot talents_014
+sort	680469		Name	4b3a9de2024f	Tir à l'arc magistral	lot talents_014
+sort	680470		Description	813614dae80e	Consommer de l'|cff8fff7aAvantage|r a désormais $803401s1% de chances par charge d'|cFFFFFFFFAvantage|r dépensée de vous rendre $807318s1 points de focalisation.	lot talents_014
+sort	680470		Name	76c1124ad70a	Concentration du tireur d'élite	lot talents_014
+sort	680476		Description	2c5adc474f09	Augmente de $s1% la hâte des sorts de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente votre hâte des sorts de $s2%.	lot talents_014
+sort	680476		Name	3e04ec91b6bd	Ferveur en fusion	lot talents_014
+sort	680487		Description	3b8c08ff79c0	Réduit le temps de recharge de votre |cffffffffNé du Vide|r de $/1000;s1 sec. et augmente sa durée de $/1000;s2 sec.	lot talents_014
+sort	680487		Name	279929298b23	Ombrefiel	lot talents_014
+sort	680492		Description	212963ee4c7f	Les attaques qui devraient vous tuer vous rendent à la place $680493s1% de votre maximum de points de vie et augmentent les dégâts de |cffffffffLame de Noctis|r de $680493s2% pendant $680493d.\r\n\r\nCet effet ne peut se produire qu'une fois toutes les 2 min.	lot talents_014
+sort	680492		Name	10dae09ae448	Corps à corps	lot talents_014
+sort	680494		Description	663adebc8ac2	Explose d'énergie ténébreuse, ce qui inflige ${$m1+0+$sps*.5+$AP*.2} points de dégâts d'Ombre à $i ennemis proches au maximum$?s680503[, leur applique |cffffffffMarque de l'ombre|r][] et vous rend $681339s1% de votre maximum de points de vie.\r\n\r\nChaque cible touchée rate à coup sûr sa prochaine occurrence de dégâts dans les $d.	lot talents_014
+sort	680494		Name	94404b4df894	Flétrissure sorcière	lot talents_014
+sort	680494		ToolTip	1108e49e7815	Votre prochaine occurrence de dégâts rate à coup sûr.	lot talents_014
+sort	680496		Description	72dc5935ac2c	Les dégâts infligés par |cffffffffLame de l'aube|r sont désormais augmentés de $s2% pour chaque charge de |cffffffffCoup de pommeau|r sur la cible.	lot talents_014
+sort	680496		Name	d010163f51df	Rempart des ténèbres	lot talents_014
+sort	680497		Description	4d9496f77581	|cFF66DDFFPassif de niveau 50|r\r\nÉviter des dégâts ou infliger des dégâts avec vos attaques automatiques a désormais $h% de chances de vous conférer |cffffffffChevalier de l'aube|r.@s:681390:0@	lot talents_014
+sort	680497		Name	5a3102860f5f	Chevalier de l'aube	lot talents_014
+sort	680498		Description	adb20521533f	Maudit un ennemi, ce qui lui inflige ${$680499m1+$680499ppl1+$sps*.192+$AP*.146} points de dégâts d'Ombre toutes les $680499t1 sec., et vous applique |cffffffffSerment ténébreux|r, qui réduit tous les dégâts subis de $680505s1% pendant $680505d.\r\n\r\nVotre prochaine |cffffffffProfanation|r lancée dans les $d vous rend désormais $680511s1% de votre maximum de points de vie et de mana.	lot talents_014
+sort	680498		Name	43a1d7dc5ba8	Sceau du chevalier	lot talents_014
+sort	680498		ToolTip	70b6c1abddf4	Votre prochaine |cffffffffProfanation|r vous rend désormais $680511s1% supplémentaires de votre maximum de points de vie et de mana.	lot talents_014
+sort	680500		Description	0c53725f1281	Augmente de $s2% les dégâts critiques de votre |cffffffffMarteau du crépuscule|R et de votre |cffffffffChoc surnaturel|r.	lot talents_014
+sort	680500		Name	f6ae76824fce	Étreinte de l'oubli	lot talents_014
+sort	680503		Description	a3aa3cc7d550	Augmente de $s1% les dégâts de |cffffffffMarque de l'ombre|r et de |cffffffffLame de l'aube|r, et votre score de toucher d'un montant égal à $s2% de votre Agilité.	lot talents_014
+sort	680503		Name	038b0d7b4491	Ordre de l'ombre	lot talents_014
+sort	680504		Description	fdd60d1cc64e	Tant que vous avez moins de 75% de votre maximum de points de vie, |cffffffffLame de l'aube|r augmente désormais de $680495s1% les chances de coup critique de |cffffffffLame de Noctis|r pendant $680495d.	lot talents_014
+sort	680504		Name	c15be439c086	Immortel	lot talents_014
+sort	680508		Description	c17fceba3695	Augmente vos dégâts magiques infligés de $s1%, et |cFFFFFFFFMarteau du crépuscule|r augmente désormais de $572046s1% les dégâts des sorts subis par la cible pendant $572046d.	lot talents_014
+sort	680508		Name	d77e86bc7f25	Toucher du Vide	lot talents_014
+sort	680513		Description	402de7a5c16c	Boire un |cffffffffTonique|r transforme votre |cffffffffLame de l'aube|r en puissants sorts offensifs aux effets uniques pendant $681499d, selon le dernier |cFFFFFFFFTonique|r consommé.@s:681788:0@@s:684330:0@@s:685020:0@@s:686020:0@\r\n\r\n@ext:Does not work with |cffffffffHoly Water Tonic|r.:ext@	lot talents_014
+sort	680513		Name	de5ee5afbf88	Secret de Colline-aux-Corbeaux	lot talents_014
+sort	680514		Description	549f6477fb79	Augmente de $s1% vos chances de coup critique avec les sorts d'Ombre et vos dégâts d'Ombre infligés, et votre expertise de $s3.	lot talents_014
+sort	680514		Name	bcc878b22cc8	Société secrète	lot talents_014
+sort	680516		Description	d4d3552c8c6f	Les dégâts directs de vos techniques appliquent désormais |cffffffffMarque de l'ombre|r aux ennemis.@s:680517:0@	lot talents_014
+sort	680516		Name	5506c268e601	Marque de l'ombre	lot talents_014
+sort	680518		Description	2293551ecb75	Profane $i ennemis au maximum devant vous, ce qui inflige les dégâts de l'arme plus ${$m1+0} sous forme de dégâts d'Ombre, en traversant les résistances.\r\n\r\nUtilisable uniquement après avoir évité une attaque.	lot talents_014
+sort	680518		Name	2b38b642d668	Profanation	lot talents_014
+sort	680521		Description	74f647d930df	Attire à vous tous les ennemis proches, ce qui leur inflige ${$680522m2+$680522ppl2+$sps*.55+$AP*.15} points de dégâts d'Ombre et les provoque pendant $680522d.	lot talents_014
+sort	680521		Name	fb312e12bda0	Chaînes des ténèbres	lot talents_014
+sort	680523		Description	65b365dd3c43	Supprime le coût en rage de |cffffffffFrappe de garde|r et augmente de $s2% les dégâts infligés par |cffffffffMarche du Roi noir|r.	lot talents_014
+sort	680523		Name	99b8b72899af	Garde noire	lot talents_014
+sort	680525		Description	e7dff5f4d6f7	Augmente de $s1% l'armure conférée par vos pièces en mailles.	lot talents_014
+sort	680525		Name	5c4b84d50801	Chevalerie ténébreuse	lot talents_014
+sort	680525		ToolTip	4ffe74894e8c	|cffffffffCoup de pommeau|r vous rend désormais $680526s1% de votre maximum de points de vie et |cffffffffProfanation|r vous rend ${$w2}% supplémentaires.	lot talents_014
+sort	680528		Description	6d4378df1c68	Les dégâts infligés par |cffffffffLame de l'aube|r infligent désormais $s2% supplémentaires des dégâts infligés sous forme de dégâts de Crépuscule toutes les $680532t1 sec. pendant $680532d.@s:680517:0@	lot talents_014
+sort	680528		Name	235994b0ec3d	Destructeur du mal	lot talents_014
+sort	680529		Description	53eaf3ab87db	Augmente vos dégâts physiques infligés et vos chances de parer de $s1%.	lot talents_014
+sort	680529		Name	1eef996c2330	Entraînement au combat	lot talents_014
+sort	680530		Description	f5c7710caa5e	Les dégâts infligés par |cffffffffLame de l'aube|r augmentent désormais vos points de vie de 15% des dégâts infligés pendant $524669d. Cumulable $524669u fois.	lot talents_014
+sort	680530		Name	ce6cd2f0380b	Lame du mal-né	lot talents_014
+sort	680537		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	680537		Name	78d7103a319e	Pieu	lot talents_014
+sort	680538		Description	f1219aa9cea4	Les dégâts infligés par |cffffffffLame du crépuscule|r ont désormais $h% de chances de réduire de $680539s1% le coût en mana de votre prochain |cffffffffTranchant du purificateur|r. Cet effet a 25% de chances de ne pas être consommé par |cffffffffTranchant du purificateur|r.	lot talents_014
+sort	680538		Name	c0e281706d0c	Porteur de Lumière	lot talents_014
+sort	680540		Description	5177c0dda39f	|cFF66DDFFPassif de niveau 40|r\r\nLancer |cffffffffTranchant du purificateur|r ou |cffffffffJugement ardent|r vous permet désormais d'utiliser |cffffffffPieu|r dans les $681295d, quel que soit le pourcentage de points de vie de la cible.	lot talents_014
+sort	680540		Name	6fd80501e0f8	Arrête-cœur	lot talents_014
+sort	680542		Description	055f92d98ff4	Augmente de $s1 le nombre de prochaines attaques qui confèrent |cffff7a24Flammes du péché|r grâce à |cffffffffLueur de torche|r.	lot talents_014
+sort	680542		Name	412223301b76	Mangeur de péchés	lot talents_014
+sort	680544		Description	e24ae0a02216	Les attaques automatiques de votre main droite appliquent désormais une charge de |cFFFFFFFFPureté|r à la cible, ce qui augmente de $681413s1% par charge les dégâts de Feu et du Sacré que vous lui infligez. Cumulable 6 fois.\r\n\r\nLes attaques automatiques de votre main gauche appliquent désormais une charge de |cFFFFFFFFPerfidie|r à la cible, ce qui augmente de $681523s1% par charge les dégâts d'Ombre et physiques que vous lui infligez. Cumulable 6 fois.\r\n\r\n|cFFFFFFFFLueur de torche|r peut désormais consommer ces charges pour infliger ${$681415m1+$681415ppl1+$sph*.25+$AP*.45} points de dégâts de Flamme sacrée ou de Frappe-ombre à la cible.	lot talents_014
+sort	680544		Name	8110b8673fcb	Pureté et perfidie	lot talents_014
+sort	680555		Description	bb7f5c62449e	Augmente votre valeur de blocage de $s1%.\r\n\r\nTant que vous avez plus de 60 points de |cffcfa6ffFolie|r, la valeur de cet effet est doublée.	lot talents_014
+sort	680555		Name	16f6adfa1324	Bouclier renforcé par le Vide	lot talents_014
+sort	680557		Description	f547338ac345	|cFF66DDFFPassif de niveau 40|r\r\n|cFFFFFFFFCuirassé|r vous dépouille désormais de votre forme mortelle et vous transforme en monstruosité du Vide, ce qui réduit vos dégâts subis de $680556s3%	lot talents_014
+sort	680557		Name	dbb53926dfd3	Force de l'Empire noir	lot talents_014
+sort	680558		Description	2bb2e22a669e	Augmente vos chances de bloquer de $s2%, plus $680608s1% supplémentaires tant que vous avez plus de 40 points de |cffcfa6ffFolie|r.	lot talents_014
+sort	680558		Name	f1f8241542ed	Rempart d'Y'shaarj	lot talents_014
+sort	680569		Description	34aa97899cf8	Augmente votre puissance d'attaque de 2 pour chaque tranche de ${($m1*$m2)*2} points d'armure que vous avez.	lot talents_014
+sort	680569		Name	d551b172f029	Armure maligne	lot talents_014
+sort	680570		Description	1aede2bc904c	Augmente vos chances de bloquer de $s2%, et lancer |cffffffffGarde abyssale|r augmente désormais vos chances de blocage critique de $680571s1% pendant $680571d.	lot talents_014
+sort	680570		Name	a02f66ac65d9	Tolérance au Vide	lot talents_014
+sort	680574		Description	0046c1b285fa	Vos blocages réussis ont désormais $s2% de chances d'être des blocages critiques, qui bloquent deux fois la quantité normale.\r\n\r\nCet effet est doublé tant que vous avez plus de 60 points de |cffcfa6ffFolie|r.	lot talents_014
+sort	680574		Name	bf899d2610c1	Symbiose ténébreuse	lot talents_014
+sort	680575		Name	130bcecfef3d	Augmentation du Vide	lot talents_014
+sort	680579		Description	679c967408f3	Augmente votre score de coup critique selon vos scores de parade et d'esquive.\r\n\r\nDe plus, les coups critiques réduisent désormais le temps de recharge de |cffffffffChute de l'effroi|r et de |cffffffffCuirassé|r de $/1000;681475s1 sec.	lot talents_014
+sort	680579		Name	4804d1737fc7	Effroyable	lot talents_014
+sort	680581		Description	fa406c4f17c0	Infliger des dégâts avec |cFFFFFFFFLancer de bouclier crépusculaire|r vous rend désormais $680581s1% des dégâts infligés sous forme de points de vie.	lot talents_014
+sort	680581		Name	643d460c9743	Général d'Y'shaarj	lot talents_014
+sort	680599		Description	ea05a59f69fa	Vos coups critiques physiques directs confèrent désormais |cffffffffRequinquage|r aux alliés.\r\n\r\nDe plus, |cffffffffLame de l'aube|r inflige désormais toujours un coup critique contre les morts-vivants et les démons.@s:1257670:0@	lot talents_014
+sort	680599		Name	b307e9b31c77	Prévoyance	lot talents_014
+sort	680600		Description	3095c825ee0e	Augmente de $s1% les dégâts de |cffffffffMarteau du crépuscule|r et de |cffffffffHeurt entropique|r, qui génèrent désormais une grande quantité de menace.	lot talents_014
+sort	680600		Name	1df1ba313a20	Force surnaturelle	lot talents_014
+sort	680600		ToolTip	5a888c99ac3e	Les dégâts infligés par votre |cffffffffPrésence d'Y'shaarj|r appliquent désormais aussi |cffffffffFierté vacillante|r.@s:804534:0@	lot talents_014
+sort	680607		Description	d01db6082d44	Votre |cffffffffLancer de bouclier crépusculaire|r touche désormais un ennemi supplémentaire par tranche de 20 points de |cffcfa6ffFolie|r que vous avez. 	lot talents_014
+sort	680607		Name	adb6eb2bc281	Pensées rebondissantes	lot talents_014
+sort	680609		Description	6b1eac78f839	Les dégâts infligés par |cFFFFFFFFLame de l'Empire|r et |cFFFFFFFFHeurt entropique|r sont désormais augmentés selon votre score de défense.	lot talents_014
+sort	680609		Name	999e762e45f4	Frappes du Vide	lot talents_014
+sort	680611		Description	549f6477fb79	Augmente de $s1% vos chances de coup critique avec les sorts d'Ombre et vos dégâts d'Ombre infligés, et votre expertise de $s3.	lot talents_014
+sort	680611		Name	bcc878b22cc8	Société secrète	lot talents_014
+sort	680612		Description	eeb114991802	Frappe un ennemi, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0}, selon votre score de parade, et vous rend ${$574336m1}% des dégâts infligés sous forme de points de vie. 	lot talents_014
+sort	680612		Name	6f2038d73f40	Lame de Noctis	lot talents_014
+sort	680613		Description	eeb114991802	Frappe un ennemi, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0}, selon votre score de parade, et vous rend ${$574336m1}% des dégâts infligés sous forme de points de vie. 	lot talents_014
+sort	680613		Name	6f2038d73f40	Lame de Noctis	lot talents_014
+sort	680614		Description	eeb114991802	Frappe un ennemi, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0}, selon votre score de parade, et vous rend ${$574336m1}% des dégâts infligés sous forme de points de vie. 	lot talents_014
+sort	680614		Name	6f2038d73f40	Lame de Noctis	lot talents_014
+sort	680615		Description	eeb114991802	Frappe un ennemi, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0}, selon votre score de parade, et vous rend ${$574336m1}% des dégâts infligés sous forme de points de vie. 	lot talents_014
+sort	680615		Name	6f2038d73f40	Lame de Noctis	lot talents_014
+sort	680618		Description	a5db6ac6a8a6	Augmente de $s1% vos chances de coup critique avec les sorts et techniques du Sacré contre les ennemis qui ont plus de 80% de leurs points de vie.	lot talents_014
+sort	680618		Name	9e9215fc1f11	Don du soleil	lot talents_014
+sort	681207		Description	2293551ecb75	Profane $i ennemis au maximum devant vous, ce qui inflige les dégâts de l'arme plus ${$m1+0} sous forme de dégâts d'Ombre, en traversant les résistances.\r\n\r\nUtilisable uniquement après avoir évité une attaque.	lot talents_014
+sort	681207		Name	2b38b642d668	Profanation	lot talents_014
+sort	681208		Description	2293551ecb75	Profane $i ennemis au maximum devant vous, ce qui inflige les dégâts de l'arme plus ${$m1+0} sous forme de dégâts d'Ombre, en traversant les résistances.\r\n\r\nUtilisable uniquement après avoir évité une attaque.	lot talents_014
+sort	681208		Name	2b38b642d668	Profanation	lot talents_014
+sort	681209		Description	2293551ecb75	Profane $i ennemis au maximum devant vous, ce qui inflige les dégâts de l'arme plus ${$m1+0} sous forme de dégâts d'Ombre, en traversant les résistances.\r\n\r\nUtilisable uniquement après avoir évité une attaque.	lot talents_014
+sort	681209		Name	2b38b642d668	Profanation	lot talents_014
+sort	681210		Description	2293551ecb75	Profane $i ennemis au maximum devant vous, ce qui inflige les dégâts de l'arme plus ${$m1+0} sous forme de dégâts d'Ombre, en traversant les résistances.\r\n\r\nUtilisable uniquement après avoir évité une attaque.	lot talents_014
+sort	681210		Name	2b38b642d668	Profanation	lot talents_014
+sort	681211		Description	2293551ecb75	Profane $i ennemis au maximum devant vous, ce qui inflige les dégâts de l'arme plus ${$m1+0} sous forme de dégâts d'Ombre, en traversant les résistances.\r\n\r\nUtilisable uniquement après avoir évité une attaque.	lot talents_014
+sort	681211		Name	2b38b642d668	Profanation	lot talents_014
+sort	681218		Description	663adebc8ac2	Explose d'énergie ténébreuse, ce qui inflige ${$m1+0+$sps*.5+$AP*.2} points de dégâts d'Ombre à $i ennemis proches au maximum$?s680503[, leur applique |cffffffffMarque de l'ombre|r][] et vous rend $681339s1% de votre maximum de points de vie.\r\n\r\nChaque cible touchée rate à coup sûr sa prochaine occurrence de dégâts dans les $d.	lot talents_014
+sort	681218		Name	94404b4df894	Flétrissure sorcière	lot talents_014
+sort	681218		ToolTip	1108e49e7815	Votre prochaine occurrence de dégâts rate à coup sûr.	lot talents_014
+sort	681219		Description	663adebc8ac2	Explose d'énergie ténébreuse, ce qui inflige ${$m1+0+$sps*.5+$AP*.2} points de dégâts d'Ombre à $i ennemis proches au maximum$?s680503[, leur applique |cffffffffMarque de l'ombre|r][] et vous rend $681339s1% de votre maximum de points de vie.\r\n\r\nChaque cible touchée rate à coup sûr sa prochaine occurrence de dégâts dans les $d.	lot talents_014
+sort	681219		Name	94404b4df894	Flétrissure sorcière	lot talents_014
+sort	681219		ToolTip	1108e49e7815	Votre prochaine occurrence de dégâts rate à coup sûr.	lot talents_014
+sort	681220		Description	663adebc8ac2	Explose d'énergie ténébreuse, ce qui inflige ${$m1+0+$sps*.5+$AP*.2} points de dégâts d'Ombre à $i ennemis proches au maximum$?s680503[, leur applique |cffffffffMarque de l'ombre|r][] et vous rend $681339s1% de votre maximum de points de vie.\r\n\r\nChaque cible touchée rate à coup sûr sa prochaine occurrence de dégâts dans les $d.	lot talents_014
+sort	681220		Name	94404b4df894	Flétrissure sorcière	lot talents_014
+sort	681220		ToolTip	1108e49e7815	Votre prochaine occurrence de dégâts rate à coup sûr.	lot talents_014
+sort	681221		Description	663adebc8ac2	Explose d'énergie ténébreuse, ce qui inflige ${$m1+0+$sps*.5+$AP*.2} points de dégâts d'Ombre à $i ennemis proches au maximum$?s680503[, leur applique |cffffffffMarque de l'ombre|r][] et vous rend $681339s1% de votre maximum de points de vie.\r\n\r\nChaque cible touchée rate à coup sûr sa prochaine occurrence de dégâts dans les $d.	lot talents_014
+sort	681221		Name	94404b4df894	Flétrissure sorcière	lot talents_014
+sort	681221		ToolTip	1108e49e7815	Votre prochaine occurrence de dégâts rate à coup sûr.	lot talents_014
+sort	681296		Description	cef557071b82	Projette à longue portée une décharge d'électricité qui rend ${$m1+0+$BH*1.5} points de vie à un allié.\r\n\r\nBénéficie des modificateurs de |cffffffffTir réparateur|r.	lot talents_014
+sort	681296		Name	b20d280801bf	Zap !	lot talents_014
+sort	681297		Description	cef557071b82	Projette à longue portée une décharge d'électricité qui rend ${$m1+0+$BH*1.5} points de vie à un allié.\r\n\r\nBénéficie des modificateurs de |cffffffffTir réparateur|r.	lot talents_014
+sort	681297		Name	b20d280801bf	Zap !	lot talents_014
+sort	681298		Description	cef557071b82	Projette à longue portée une décharge d'électricité qui rend ${$m1+0+$BH*1.5} points de vie à un allié.\r\n\r\nBénéficie des modificateurs de |cffffffffTir réparateur|r.	lot talents_014
+sort	681298		Name	b20d280801bf	Zap !	lot talents_014
+sort	681347		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	681347		Name	78d7103a319e	Pieu	lot talents_014
+sort	681348		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	681348		Name	78d7103a319e	Pieu	lot talents_014
+sort	681349		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	681349		Name	78d7103a319e	Pieu	lot talents_014
+sort	681350		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	681350		Name	78d7103a319e	Pieu	lot talents_014
+sort	681351		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	681351		Name	78d7103a319e	Pieu	lot talents_014
+sort	681352		Description	76a202b87927	Enfonce un pieu dans la poitrine d'un ennemi blessé, ce qui inflige ${$m1+0+$AP*.675} points de dégâts physiques en ignorant l'armure de l'ennemi.\r\n\r\nConfère |cffff7a24Flammes du péché|r et augmente sa durée de $/1000;803710s2 sec.\r\n\r\nUtilisable uniquement sur un ennemi qui a 35% de ses points de vie ou moins.	lot talents_014
+sort	681352		Name	78d7103a319e	Pieu	lot talents_014
+sort	681375		Description	8f0e071ecb58	Augmente de $s1% les chances de déclencher |cffffffffSonner|r et augmente votre expertise de $s2.	lot talents_014
+sort	681375		Name	76def5661bd2	Labourer la terre	lot talents_014
+sort	681425		ToolTip	5a888c99ac3e	Les dégâts infligés par votre |cffffffffPrésence d'Y'shaarj|r appliquent désormais aussi |cffffffffFierté vacillante|r.@s:804534:0@	lot talents_014
+sort	681479		Name	c868d044e622	Thane de la montagne	lot talents_014
+sort	681480		Description	18d883c5f542	Vos coups critiques infligeant des dégâts physiques ou de Nature infligent désormais $s1% des dégâts infligés sous forme de dégâts de Feu supplémentaires à la cible et aux ennemis proches.	lot talents_014
+sort	681480		Name	1a3237f85250	Explosion volcanique	lot talents_014
+sort	681480		ToolTip	1f4ef514bc0b	Immobilisé.$?s560325[ Ne peut pas recevoir de soins.][]	lot talents_014
+sort	681482		Description	ba3ae7142a9a	Augmente de $s1% les dégâts d'|cffffffffExplosion de bombe collante|r et des techniques de |cffffffffMéca-armure|r.	lot talents_014
+sort	681482		Name	6314a8db37b1	Synergie mécanique	lot talents_014
+sort	681483		Name	77e9057ad15f	Esprit discipliné	lot talents_014
+sort	681484		Description	53eaf3ab87db	Augmente vos dégâts physiques infligés et vos chances de parer de $s1%.	lot talents_014
+sort	681484		Name	1eef996c2330	Entraînement au combat	lot talents_014
+sort	681486		Description	a3aa3cc7d550	Augmente de $s1% les dégâts de |cffffffffMarque de l'ombre|r et de |cffffffffLame de l'aube|r, et votre score de toucher d'un montant égal à $s2% de votre Agilité.	lot talents_014
+sort	681486		Name	038b0d7b4491	Ordre de l'ombre	lot talents_014
+sort	681490		Description	1aabfb382d6d	Augmente les dégâts de |cffffffffDéflagration d'ombre|r de $s1% et ceux de |cffffffffPlaie-des-sorcières|r de $s2%.	lot talents_014
+sort	681490		Name	7a3c2d329da3	Expert en arbalète	lot talents_014
+sort	681540		Description	663adebc8ac2	Explose d'énergie ténébreuse, ce qui inflige ${$m1+0+$sps*.5+$AP*.2} points de dégâts d'Ombre à $i ennemis proches au maximum$?s680503[, leur applique |cffffffffMarque de l'ombre|r][] et vous rend $681339s1% de votre maximum de points de vie.\r\n\r\nChaque cible touchée rate à coup sûr sa prochaine occurrence de dégâts dans les $d.	lot talents_014
+sort	681540		Name	94404b4df894	Flétrissure sorcière	lot talents_014
+sort	681540		ToolTip	1108e49e7815	Votre prochaine occurrence de dégâts rate à coup sûr.	lot talents_014
+sort	706320		Name	1eef996c2330	Entraînement au combat	lot talents_014
+sort	802280		Description	eeb114991802	Frappe un ennemi, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0}, selon votre score de parade, et vous rend ${$574336m1}% des dégâts infligés sous forme de points de vie. 	lot talents_014
+sort	802280		Name	6f2038d73f40	Lame de Noctis	lot talents_014
+sort	804982		Description	c914391b17a1	Flétrit la vie d'un ennemi avec un poison infâme, ce qui lui inflige $o1 points de dégâts de Nature en $d.	lot talents_014
+sort	804982		Name	0bdf4ad42b50	Flétrir	lot talents_014
+sort	804982		ToolTip	2efa40cb5423	${$w1} points de dégâts de Nature toutes les $t1 secondes.	lot talents_014
