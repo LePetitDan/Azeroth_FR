@@ -1,6 +1,6 @@
 {
- "cree": "2026-11-05 19:56",
- "mots_max": 4000,
+ "cree": "2026-11-05 20:22",
+ "mots_max": 2500,
  "textes_max": 300,
  "etats": [
   "a_traduire",
@@ -76,7 +76,43 @@
     "quetes_062",
     "quetes_063",
     "quetes_064",
-    "quetes_065"
+    "quetes_065",
+    "quetes_066",
+    "quetes_067",
+    "quetes_068",
+    "quetes_069",
+    "quetes_070",
+    "quetes_071",
+    "quetes_072",
+    "quetes_073",
+    "quetes_074",
+    "quetes_075",
+    "quetes_076",
+    "quetes_077",
+    "quetes_078",
+    "quetes_079",
+    "quetes_080",
+    "quetes_081",
+    "quetes_082",
+    "quetes_083",
+    "quetes_084",
+    "quetes_085",
+    "quetes_086",
+    "quetes_087",
+    "quetes_088",
+    "quetes_089",
+    "quetes_090",
+    "quetes_091",
+    "quetes_092",
+    "quetes_093",
+    "quetes_094",
+    "quetes_095",
+    "quetes_096",
+    "quetes_097",
+    "quetes_098",
+    "quetes_099",
+    "quetes_100",
+    "quetes_101"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -196,7 +232,9 @@
    "lots": [
     "dialogues_001",
     "dialogues_002",
-    "dialogues_003"
+    "dialogues_003",
+    "dialogues_004",
+    "dialogues_005"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -208,7 +246,9 @@
    "lots": [
     "broadcast_cris_001",
     "broadcast_cris_002",
-    "broadcast_cris_003"
+    "broadcast_cris_003",
+    "broadcast_cris_004",
+    "broadcast_cris_005"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -220,7 +260,9 @@
    "lots": [
     "pages_courriers_001",
     "pages_courriers_002",
-    "pages_courriers_003"
+    "pages_courriers_003",
+    "pages_courriers_004",
+    "pages_courriers_005"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -276,7 +318,11 @@
     "sorts_serveur_009",
     "sorts_serveur_010",
     "sorts_serveur_011",
-    "sorts_serveur_012"
+    "sorts_serveur_012",
+    "sorts_serveur_013",
+    "sorts_serveur_014",
+    "sorts_serveur_015",
+    "sorts_serveur_016"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -317,7 +363,11 @@
     "sorts_classes_019",
     "sorts_classes_020",
     "sorts_classes_021",
-    "sorts_classes_022"
+    "sorts_classes_022",
+    "sorts_classes_023",
+    "sorts_classes_024",
+    "sorts_classes_025",
+    "sorts_classes_026"
    ],
    "techniques_probables": 2,
    "bloque": ""
@@ -354,7 +404,14 @@
     "talents_025",
     "talents_026",
     "talents_027",
-    "talents_028"
+    "talents_028",
+    "talents_029",
+    "talents_030",
+    "talents_031",
+    "talents_032",
+    "talents_033",
+    "talents_034",
+    "talents_035"
    ],
    "techniques_probables": 45,
    "bloque": ""
@@ -382,7 +439,8 @@
     "hauts_faits_016",
     "hauts_faits_017",
     "hauts_faits_018",
-    "hauts_faits_019"
+    "hauts_faits_019",
+    "hauts_faits_020"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -428,7 +486,22 @@
     "sorts_standard_022",
     "sorts_standard_023",
     "sorts_standard_024",
-    "sorts_standard_025"
+    "sorts_standard_025",
+    "sorts_standard_026",
+    "sorts_standard_027",
+    "sorts_standard_028",
+    "sorts_standard_029",
+    "sorts_standard_030",
+    "sorts_standard_031",
+    "sorts_standard_032",
+    "sorts_standard_033",
+    "sorts_standard_034",
+    "sorts_standard_035",
+    "sorts_standard_036",
+    "sorts_standard_037",
+    "sorts_standard_038",
+    "sorts_standard_039",
+    "sorts_standard_040"
    ],
    "techniques_probables": 2,
    "bloque": ""
@@ -547,7 +620,9 @@
    "mots": 7684,
    "lots": [
     "interface_001",
-    "interface_002"
+    "interface_002",
+    "interface_003",
+    "interface_004"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -562,40 +637,40 @@
     "",
     "ObjectiveText1"
    ],
-   "textes": 147,
-   "lignes": 154,
-   "mots": 4015,
-   "plage": "quêtes n° 1 à 263",
+   "textes": 86,
+   "lignes": 91,
+   "mots": 2502,
+   "plage": "quêtes n° 1 à 187",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_002": {
    "famille": "quetes",
    "debut": [
-    "salut_quete",
-    "264",
-    "0",
-    "Greeting"
+    "quete",
+    "188",
+    "",
+    "LogDescription"
    ],
-   "textes": 189,
-   "lignes": 193,
-   "mots": 4065,
-   "plage": "quêtes n° 264 à 876",
+   "textes": 103,
+   "lignes": 106,
+   "mots": 2472,
+   "plage": "quêtes n° 188 à 363",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_003": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "877",
+    "quete_demande",
+    "372",
     "",
-    "ObjectiveText1"
+    "CompletionText"
    ],
-   "textes": 175,
-   "lignes": 201,
-   "mots": 3987,
-   "plage": "quêtes n° 877 à 1116",
+   "textes": 116,
+   "lignes": 119,
+   "mots": 2476,
+   "plage": "quêtes n° 372 à 835",
    "chantier": "A",
    "bloque": ""
   },
@@ -603,59 +678,59 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "1118",
+    "837",
     "",
     "CompletionText"
    ],
-   "textes": 146,
-   "lignes": 211,
-   "mots": 3941,
-   "plage": "quêtes n° 1118 à 1428",
+   "textes": 117,
+   "lignes": 125,
+   "mots": 2511,
+   "plage": "quêtes n° 837 à 968",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_005": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "1434",
+    "quete",
+    "971",
     "",
-    "CompletionText"
+    "QuestCompletionLog"
    ],
-   "textes": 92,
-   "lignes": 98,
-   "mots": 4007,
-   "plage": "quêtes n° 1434 à 1599",
+   "textes": 109,
+   "lignes": 127,
+   "mots": 2532,
+   "plage": "quêtes n° 971 à 1136",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_006": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "1618",
+    "quete",
+    "1138",
     "",
-    "CompletionText"
+    "QuestCompletionLog"
    ],
-   "textes": 108,
-   "lignes": 113,
-   "mots": 3973,
-   "plage": "quêtes n° 1618 à 1821",
+   "textes": 81,
+   "lignes": 143,
+   "mots": 2483,
+   "plage": "quêtes n° 1138 à 1321",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_007": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "1822",
+    "quete_demande",
+    "1324",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 143,
-   "lignes": 154,
-   "mots": 3992,
-   "plage": "quêtes n° 1822 à 2278",
+   "textes": 84,
+   "lignes": 88,
+   "mots": 2497,
+   "plage": "quêtes n° 1324 à 1501",
    "chantier": "A",
    "bloque": ""
   },
@@ -663,14 +738,14 @@
    "famille": "quetes",
    "debut": [
     "quete_recompense",
-    "2281",
+    "1502",
     "",
     "RewardText"
    ],
-   "textes": 141,
-   "lignes": 158,
-   "mots": 3973,
-   "plage": "quêtes n° 2281 à 2854",
+   "textes": 53,
+   "lignes": 58,
+   "mots": 2542,
+   "plage": "quêtes n° 1502 à 1599",
    "chantier": "A",
    "bloque": ""
   },
@@ -678,29 +753,29 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "2855",
+    "1618",
     "",
     "CompletionText"
    ],
-   "textes": 104,
-   "lignes": 117,
-   "mots": 4084,
-   "plage": "quêtes n° 2855 à 3101",
+   "textes": 72,
+   "lignes": 75,
+   "mots": 2426,
+   "plage": "quêtes n° 1618 à 1779",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_010": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "3102",
+    "quete_recompense",
+    "1780",
     "",
-    "CompletionText"
+    "RewardText"
    ],
-   "textes": 119,
-   "lignes": 139,
-   "mots": 3948,
-   "plage": "quêtes n° 3102 à 3702",
+   "textes": 73,
+   "lignes": 75,
+   "mots": 2544,
+   "plage": "quêtes n° 1780 à 1884",
    "chantier": "A",
    "bloque": ""
   },
@@ -708,29 +783,29 @@
    "famille": "quetes",
    "debut": [
     "quete_recompense",
-    "3721",
+    "1885",
     "",
     "RewardText"
    ],
-   "textes": 150,
-   "lignes": 201,
-   "mots": 4000,
-   "plage": "quêtes n° 3721 à 4452",
+   "textes": 88,
+   "lignes": 99,
+   "mots": 2504,
+   "plage": "quêtes n° 1885 à 2204",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_012": {
    "famille": "quetes",
    "debut": [
-    "salut_quete",
-    "4453",
-    "0",
-    "Greeting"
+    "quete_demande",
+    "2205",
+    "",
+    "CompletionText"
    ],
-   "textes": 103,
-   "lignes": 113,
-   "mots": 3997,
-   "plage": "quêtes n° 4453 à 4806",
+   "textes": 92,
+   "lignes": 101,
+   "mots": 2542,
+   "plage": "quêtes n° 2205 à 2609",
    "chantier": "A",
    "bloque": ""
   },
@@ -738,14 +813,14 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "4807",
+    "2623",
     "",
     "CompletionText"
    ],
-   "textes": 131,
-   "lignes": 148,
-   "mots": 3994,
-   "plage": "quêtes n° 4807 à 5166",
+   "textes": 77,
+   "lignes": 85,
+   "mots": 2478,
+   "plage": "quêtes n° 2623 à 2859",
    "chantier": "A",
    "bloque": ""
   },
@@ -753,59 +828,59 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "5167",
+    "2860",
     "",
     "CompletionText"
    ],
-   "textes": 124,
-   "lignes": 144,
-   "mots": 4001,
-   "plage": "quêtes n° 5167 à 5543",
+   "textes": 79,
+   "lignes": 92,
+   "mots": 2537,
+   "plage": "quêtes n° 2860 à 3086",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_015": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "5561",
+    "quete_demande",
+    "3087",
     "",
-    "LogDescription"
+    "CompletionText"
    ],
-   "textes": 118,
-   "lignes": 156,
-   "mots": 3948,
-   "plage": "quêtes n° 5561 à 6085",
+   "textes": 52,
+   "lignes": 52,
+   "mots": 2483,
+   "plage": "quêtes n° 3087 à 3374",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_016": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "6086",
+    "quete_demande",
+    "3375",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 140,
-   "lignes": 147,
-   "mots": 3967,
-   "plage": "quêtes n° 6086 à 6627",
+   "textes": 82,
+   "lignes": 102,
+   "mots": 2456,
+   "plage": "quêtes n° 3375 à 3702",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_017": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "6628",
+    "quete_recompense",
+    "3721",
     "",
-    "CompletionText"
+    "RewardText"
    ],
-   "textes": 145,
-   "lignes": 174,
-   "mots": 4022,
-   "plage": "quêtes n° 6628 à 7508",
+   "textes": 86,
+   "lignes": 129,
+   "mots": 2527,
+   "plage": "quêtes n° 3721 à 4126",
    "chantier": "A",
    "bloque": ""
   },
@@ -813,14 +888,14 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "7509",
+    "4132",
     "",
     "CompletionText"
    ],
-   "textes": 121,
-   "lignes": 179,
-   "mots": 3959,
-   "plage": "quêtes n° 7509 à 7796",
+   "textes": 93,
+   "lignes": 102,
+   "mots": 2567,
+   "plage": "quêtes n° 4132 à 4509",
    "chantier": "A",
    "bloque": ""
   },
@@ -828,44 +903,44 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "7802",
+    "4511",
     "",
     "CompletionText"
    ],
-   "textes": 92,
-   "lignes": 128,
-   "mots": 4013,
-   "plage": "quêtes n° 7802 à 8048",
+   "textes": 65,
+   "lignes": 68,
+   "mots": 2507,
+   "plage": "quêtes n° 4511 à 4788",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_020": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "8049",
-    "",
-    "RewardText"
+    "salut_quete",
+    "4792",
+    "0",
+    "Greeting"
    ],
-   "textes": 112,
-   "lignes": 170,
-   "mots": 3974,
-   "plage": "quêtes n° 8049 à 8144",
+   "textes": 79,
+   "lignes": 88,
+   "mots": 2532,
+   "plage": "quêtes n° 4792 à 5061",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_021": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "8145",
+    "quete_demande",
+    "5063",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 132,
-   "lignes": 172,
-   "mots": 4004,
-   "plage": "quêtes n° 8145 à 8363",
+   "textes": 80,
+   "lignes": 99,
+   "mots": 2477,
+   "plage": "quêtes n° 5063 à 5223",
    "chantier": "A",
    "bloque": ""
   },
@@ -873,119 +948,119 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "8364",
+    "5232",
     "",
     "CompletionText"
    ],
-   "textes": 127,
-   "lignes": 182,
-   "mots": 4017,
-   "plage": "quêtes n° 8364 à 8528",
+   "textes": 84,
+   "lignes": 98,
+   "mots": 2501,
+   "plage": "quêtes n° 5232 à 5519",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_023": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "8529",
+    "quete_demande",
+    "5521",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 107,
-   "lignes": 253,
-   "mots": 3996,
-   "plage": "quêtes n° 8529 à 8636",
+   "textes": 62,
+   "lignes": 76,
+   "mots": 2502,
+   "plage": "quêtes n° 5521 à 5721",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_024": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "8642",
+    "quete_demande",
+    "5723",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 147,
-   "lignes": 334,
-   "mots": 4002,
-   "plage": "quêtes n° 8642 à 8947",
+   "textes": 82,
+   "lignes": 107,
+   "mots": 2497,
+   "plage": "quêtes n° 5723 à 6088",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_025": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "8948",
+    "quete_recompense",
+    "6089",
     "",
-    "CompletionText"
+    "RewardText"
    ],
-   "textes": 154,
-   "lignes": 278,
-   "mots": 3991,
-   "plage": "quêtes n° 8948 à 9109",
+   "textes": 86,
+   "lignes": 89,
+   "mots": 2466,
+   "plage": "quêtes n° 6089 à 6504",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_026": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "9110",
+    "quete_demande",
+    "6521",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 159,
-   "lignes": 219,
-   "mots": 4010,
-   "plage": "quêtes n° 9110 à 9338",
+   "textes": 84,
+   "lignes": 88,
+   "mots": 2484,
+   "plage": "quêtes n° 6521 à 6845",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_027": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "9339",
+    "quete_demande",
+    "6846",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 190,
-   "lignes": 203,
-   "mots": 4009,
-   "plage": "quêtes n° 9339 à 9680",
+   "textes": 98,
+   "lignes": 106,
+   "mots": 2510,
+   "plage": "quêtes n° 6846 à 7463",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_028": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "9681",
+    "quete_demande",
+    "7481",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 204,
-   "lignes": 221,
-   "mots": 4008,
-   "plage": "quêtes n° 9681 à 9981",
+   "textes": 79,
+   "lignes": 100,
+   "mots": 2538,
+   "plage": "quêtes n° 7481 à 7647",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_029": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "9982",
+    "quete_demande",
+    "7648",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 263,
-   "lignes": 308,
-   "mots": 4003,
-   "plage": "quêtes n° 9982 à 10419",
+   "textes": 64,
+   "lignes": 126,
+   "mots": 2495,
+   "plage": "quêtes n° 7648 à 7822",
    "chantier": "A",
    "bloque": ""
   },
@@ -993,419 +1068,419 @@
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "10421",
+    "7828",
     "",
     "CompletionText"
    ],
-   "textes": 237,
-   "lignes": 277,
-   "mots": 4005,
-   "plage": "quêtes n° 10421 à 10861",
+   "textes": 57,
+   "lignes": 84,
+   "mots": 2476,
+   "plage": "quêtes n° 7828 à 7930",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_031": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "10864",
+    "quete_recompense",
+    "7934",
     "",
-    "ObjectiveText1"
+    "RewardText"
    ],
-   "textes": 169,
-   "lignes": 187,
-   "mots": 3986,
-   "plage": "quêtes n° 10864 à 11108",
+   "textes": 72,
+   "lignes": 77,
+   "mots": 2491,
+   "plage": "quêtes n° 7934 à 8072",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_032": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "11109",
+    "quete_demande",
+    "8073",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 254,
-   "lignes": 310,
-   "mots": 3999,
-   "plage": "quêtes n° 11109 à 11488",
+   "textes": 68,
+   "lignes": 126,
+   "mots": 2454,
+   "plage": "quêtes n° 8073 à 8146",
    "chantier": "A",
    "bloque": ""
   },
   "quetes_033": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "11489",
+    "quete_demande",
+    "8147",
     "",
-    "ObjectiveText1"
+    "CompletionText"
    ],
-   "textes": 300,
-   "lignes": 334,
-   "mots": 2182,
-   "plage": "quêtes n° 11489 à 11913",
-   "chantier": "B",
+   "textes": 70,
+   "lignes": 94,
+   "mots": 2497,
+   "plage": "quêtes n° 8147 à 8274",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_034": {
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "11917",
+    "8280",
     "",
     "CompletionText"
    ],
-   "textes": 301,
-   "lignes": 467,
-   "mots": 2894,
-   "plage": "quêtes n° 11917 à 12478",
-   "chantier": "B",
+   "textes": 108,
+   "lignes": 150,
+   "mots": 2451,
+   "plage": "quêtes n° 8280 à 8467",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_035": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "12481",
+    "quete_demande",
+    "8469",
     "",
-    "ObjectiveText1"
+    "CompletionText"
    ],
-   "textes": 300,
-   "lignes": 332,
-   "mots": 3048,
-   "plage": "quêtes n° 12481 à 12915",
-   "chantier": "B",
+   "textes": 69,
+   "lignes": 98,
+   "mots": 2534,
+   "plage": "quêtes n° 8469 à 8523",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_036": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "12916",
+    "quete_demande",
+    "8524",
     "",
-    "ObjectiveText1"
+    "CompletionText"
    ],
-   "textes": 300,
-   "lignes": 355,
-   "mots": 2623,
-   "plage": "quêtes n° 12916 à 13321",
-   "chantier": "B",
+   "textes": 74,
+   "lignes": 179,
+   "mots": 2491,
+   "plage": "quêtes n° 8524 à 8589",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_037": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "13323",
+    "quete_demande",
+    "8590",
     "",
-    "ObjectiveText1"
+    "CompletionText"
    ],
-   "textes": 272,
-   "lignes": 455,
-   "mots": 3944,
-   "plage": "quêtes n° 13323 à 14227",
-   "chantier": "B",
+   "textes": 68,
+   "lignes": 155,
+   "mots": 2456,
+   "plage": "quêtes n° 8590 à 8741",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_038": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "14228",
+    "quete_demande",
+    "8742",
     "",
-    "QuestDescription"
+    "CompletionText"
    ],
-   "textes": 109,
-   "lignes": 124,
-   "mots": 4000,
-   "plage": "quêtes n° 14228 à 18109",
-   "chantier": "B",
+   "textes": 80,
+   "lignes": 158,
+   "mots": 2485,
+   "plage": "quêtes n° 8742 à 8879",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_039": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "20438",
+    "quete_recompense",
+    "8880",
     "",
-    "CompletionText"
+    "RewardText"
    ],
-   "textes": 184,
-   "lignes": 316,
-   "mots": 3954,
-   "plage": "quêtes n° 20438 à 25415",
-   "chantier": "B",
+   "textes": 74,
+   "lignes": 170,
+   "mots": 2471,
+   "plage": "quêtes n° 8880 à 8986",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_040": {
    "famille": "quetes",
    "debut": [
     "quete_recompense",
-    "25417",
+    "8987",
     "",
     "RewardText"
    ],
-   "textes": 110,
-   "lignes": 112,
-   "mots": 4011,
-   "plage": "quêtes n° 25417 à 52001",
-   "chantier": "B",
+   "textes": 122,
+   "lignes": 213,
+   "mots": 2492,
+   "plage": "quêtes n° 8987 à 9110",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_041": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "52002",
+    "quete_recompense",
+    "9111",
     "",
-    "CompletionText"
+    "RewardText"
    ],
-   "textes": 55,
-   "lignes": 60,
-   "mots": 4121,
-   "plage": "quêtes n° 52002 à 53005",
-   "chantier": "B",
+   "textes": 113,
+   "lignes": 166,
+   "mots": 2438,
+   "plage": "quêtes n° 9111 à 9257",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_042": {
    "famille": "quetes",
    "debut": [
     "quete_demande",
-    "53006",
+    "9259",
     "",
     "CompletionText"
    ],
-   "textes": 56,
-   "lignes": 66,
-   "mots": 4099,
-   "plage": "quêtes n° 53006 à 55101",
-   "chantier": "B",
+   "textes": 93,
+   "lignes": 100,
+   "mots": 2537,
+   "plage": "quêtes n° 9259 à 9446",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_043": {
    "famille": "quetes",
    "debut": [
-    "quete_demande",
-    "55102",
+    "quete",
+    "9447",
     "",
-    "CompletionText"
+    "ObjectiveText1"
    ],
-   "textes": 104,
-   "lignes": 119,
-   "mots": 4012,
-   "plage": "quêtes n° 55102 à 175010",
-   "chantier": "B",
+   "textes": 116,
+   "lignes": 122,
+   "mots": 2511,
+   "plage": "quêtes n° 9447 à 9637",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_044": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "175011",
+    "quete_demande",
+    "9642",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 95,
-   "lignes": 95,
-   "mots": 4048,
-   "plage": "quêtes n° 175011 à 175089",
-   "chantier": "B",
+   "textes": 122,
+   "lignes": 130,
+   "mots": 2513,
+   "plage": "quêtes n° 9642 à 9811",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_045": {
    "famille": "quetes",
    "debut": [
-    "quete_recompense",
-    "175090",
+    "quete_demande",
+    "9812",
     "",
-    "RewardText"
+    "CompletionText"
    ],
-   "textes": 88,
-   "lignes": 88,
-   "mots": 3945,
-   "plage": "quêtes n° 175090 à 175208",
-   "chantier": "B",
+   "textes": 131,
+   "lignes": 148,
+   "mots": 2490,
+   "plage": "quêtes n° 9812 à 10015",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_046": {
    "famille": "quetes",
    "debut": [
     "quete_recompense",
-    "175323",
+    "10017",
     "",
     "RewardText"
    ],
-   "textes": 129,
-   "lignes": 275,
-   "mots": 4061,
-   "plage": "quêtes n° 175323 à 200020",
-   "chantier": "B",
+   "textes": 184,
+   "lignes": 220,
+   "mots": 2507,
+   "plage": "quêtes n° 10017 à 10323",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_047": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "200021",
+    "quete_demande",
+    "10326",
     "",
-    "LogTitle"
+    "CompletionText"
    ],
-   "textes": 108,
-   "lignes": 206,
-   "mots": 4080,
-   "plage": "quêtes n° 200021 à 200058",
-   "chantier": "B",
+   "textes": 153,
+   "lignes": 181,
+   "mots": 2484,
+   "plage": "quêtes n° 10326 à 10619",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_048": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "200060",
+    "quete_demande",
+    "10620",
     "",
-    "QuestDescription"
+    "CompletionText"
    ],
-   "textes": 90,
-   "lignes": 164,
-   "mots": 4088,
-   "plage": "quêtes n° 200060 à 200106",
-   "chantier": "B",
+   "textes": 133,
+   "lignes": 153,
+   "mots": 2495,
+   "plage": "quêtes n° 10620 à 10855",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_049": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "200107",
+    "quete_demande",
+    "10856",
     "",
-    "LogDescription"
+    "CompletionText"
    ],
-   "textes": 82,
-   "lignes": 145,
-   "mots": 4022,
-   "plage": "quêtes n° 200107 à 200167",
-   "chantier": "B",
+   "textes": 124,
+   "lignes": 130,
+   "mots": 2498,
+   "plage": "quêtes n° 10856 à 11010",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_050": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "200168",
+    "quete_recompense",
+    "11011",
     "",
-    "LogDescription"
+    "RewardText"
    ],
-   "textes": 74,
-   "lignes": 74,
-   "mots": 4179,
-   "plage": "quêtes n° 200168 à 254056",
-   "chantier": "B",
+   "textes": 117,
+   "lignes": 141,
+   "mots": 2503,
+   "plage": "quêtes n° 11011 à 11219",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_051": {
    "famille": "quetes",
    "debut": [
     "quete",
-    "254057",
+    "11221",
     "",
-    "QuestDescription"
+    "ObjectiveText1"
    ],
-   "textes": 103,
-   "lignes": 108,
-   "mots": 3966,
-   "plage": "quêtes n° 254057 à 255068",
-   "chantier": "B",
+   "textes": 166,
+   "lignes": 207,
+   "mots": 2486,
+   "plage": "quêtes n° 11221 à 11429",
+   "chantier": "A",
    "bloque": ""
   },
   "quetes_052": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "255069",
+    "quete_demande",
+    "11432",
     "",
-    "QuestDescription"
+    "CompletionText"
    ],
-   "textes": 104,
-   "lignes": 197,
-   "mots": 4032,
-   "plage": "quêtes n° 255069 à 580189",
+   "textes": 289,
+   "lignes": 326,
+   "mots": 2435,
+   "plage": "quêtes n° 11432 à 11862",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_053": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "580190",
+    "quete_recompense",
+    "11864",
     "",
-    "QuestDescription"
+    "RewardText"
    ],
-   "textes": 251,
-   "lignes": 355,
-   "mots": 4063,
-   "plage": "quêtes n° 580190 à 650147",
+   "textes": 270,
+   "lignes": 430,
+   "mots": 2450,
+   "plage": "quêtes n° 11864 à 12292",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_054": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "650148",
+    "quete_recompense",
+    "12295",
     "",
-    "LogDescription"
+    "RewardText"
    ],
-   "textes": 109,
-   "lignes": 471,
-   "mots": 3997,
-   "plage": "quêtes n° 650148 à 980115",
+   "textes": 255,
+   "lignes": 280,
+   "mots": 2505,
+   "plage": "quêtes n° 12295 à 12734",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_055": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "980120",
+    "quete_demande",
+    "12735",
     "",
-    "LogTitle"
+    "CompletionText"
    ],
-   "textes": 136,
-   "lignes": 141,
-   "mots": 3997,
-   "plage": "quêtes n° 980120 à 999913",
+   "textes": 255,
+   "lignes": 270,
+   "mots": 2506,
+   "plage": "quêtes n° 12735 à 13137",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_056": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "999914",
+    "quete_recompense",
+    "13141",
     "",
-    "QuestDescription"
+    "RewardText"
    ],
-   "textes": 107,
-   "lignes": 108,
-   "mots": 3975,
-   "plage": "quêtes n° 999914 à 1660036",
+   "textes": 263,
+   "lignes": 383,
+   "mots": 2422,
+   "plage": "quêtes n° 13141 à 13724",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_057": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "1660037",
+    "quete_recompense",
+    "13737",
     "",
-    "QuestDescription"
+    "RewardText"
    ],
-   "textes": 130,
-   "lignes": 193,
-   "mots": 4010,
-   "plage": "quêtes n° 1660037 à 8200172",
+   "textes": 156,
+   "lignes": 270,
+   "mots": 2501,
+   "plage": "quêtes n° 13737 à 14221",
    "chantier": "B",
    "bloque": ""
   },
@@ -1413,44 +1488,44 @@
    "famille": "quetes",
    "debut": [
     "quete",
-    "8200173",
+    "14222",
     "",
-    "LogTitle"
+    "LogDescription"
    ],
-   "textes": 141,
-   "lignes": 141,
-   "mots": 4048,
-   "plage": "quêtes n° 8200173 à 8200220",
+   "textes": 59,
+   "lignes": 71,
+   "mots": 2533,
+   "plage": "quêtes n° 14222 à 14457",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_059": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "8200221",
+    "quete_demande",
+    "14483",
     "",
-    "LogTitle"
+    "CompletionText"
    ],
-   "textes": 141,
-   "lignes": 141,
-   "mots": 4061,
-   "plage": "quêtes n° 8200221 à 8200267",
+   "textes": 91,
+   "lignes": 109,
+   "mots": 2491,
+   "plage": "quêtes n° 14483 à 24545",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_060": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "8200268",
+    "quete_recompense",
+    "24547",
     "",
-    "LogTitle"
+    "RewardText"
    ],
-   "textes": 138,
-   "lignes": 138,
-   "mots": 4044,
-   "plage": "quêtes n° 8200268 à 8200314",
+   "textes": 102,
+   "lignes": 216,
+   "mots": 2511,
+   "plage": "quêtes n° 24547 à 25212",
    "chantier": "B",
    "bloque": ""
   },
@@ -1458,44 +1533,44 @@
    "famille": "quetes",
    "debut": [
     "quete",
-    "8200315",
+    "25228",
     "",
-    "LogTitle"
+    "ObjectiveText1"
    ],
-   "textes": 138,
-   "lignes": 138,
-   "mots": 4044,
-   "plage": "quêtes n° 8200315 à 8200360",
+   "textes": 104,
+   "lignes": 111,
+   "mots": 2537,
+   "plage": "quêtes n° 25228 à 49987",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_062": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "8200361",
+    "quete_demande",
+    "49988",
     "",
-    "LogTitle"
+    "CompletionText"
    ],
-   "textes": 138,
-   "lignes": 138,
-   "mots": 4061,
-   "plage": "quêtes n° 8200361 à 8200406",
+   "textes": 59,
+   "lignes": 59,
+   "mots": 2634,
+   "plage": "quêtes n° 49988 à 52003",
    "chantier": "B",
    "bloque": ""
   },
   "quetes_063": {
    "famille": "quetes",
    "debut": [
-    "quete",
-    "8200407",
+    "quete_demande",
+    "52004",
     "",
-    "LogTitle"
+    "CompletionText"
    ],
-   "textes": 137,
-   "lignes": 138,
-   "mots": 4075,
-   "plage": "quêtes n° 8200407 à 8200453",
+   "textes": 39,
+   "lignes": 43,
+   "mots": 2651,
+   "plage": "quêtes n° 52004 à 53001",
    "chantier": "B",
    "bloque": ""
   },
@@ -1503,14 +1578,14 @@
    "famille": "quetes",
    "debut": [
     "quete",
-    "8200455",
+    "53002",
     "",
-    "LogTitle"
+    "QuestDescription"
    ],
-   "textes": 160,
-   "lignes": 170,
-   "mots": 4016,
-   "plage": "quêtes n° 8200455 à 9302226",
+   "textes": 29,
+   "lignes": 33,
+   "mots": 2548,
+   "plage": "quêtes n° 53002 à 53010",
    "chantier": "B",
    "bloque": ""
   },
@@ -1518,14 +1593,554 @@
    "famille": "quetes",
    "debut": [
     "quete",
-    "9302228",
+    "53011",
+    "",
+    "LogDescription"
+   ],
+   "textes": 37,
+   "lignes": 44,
+   "mots": 2581,
+   "plage": "quêtes n° 53011 à 55100",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_066": {
+   "famille": "quetes",
+   "debut": [
+    "quete_demande",
+    "55101",
+    "",
+    "CompletionText"
+   ],
+   "textes": 75,
+   "lignes": 84,
+   "mots": 2508,
+   "plage": "quêtes n° 55101 à 149186",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_067": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "149187",
+    "",
+    "LogDescription"
+   ],
+   "textes": 52,
+   "lignes": 58,
+   "mots": 2498,
+   "plage": "quêtes n° 149187 à 175022",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_068": {
+   "famille": "quetes",
+   "debut": [
+    "quete_recompense",
+    "175023",
+    "",
+    "RewardText"
+   ],
+   "textes": 60,
+   "lignes": 60,
+   "mots": 2513,
+   "plage": "quêtes n° 175023 à 175076",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_069": {
+   "famille": "quetes",
+   "debut": [
+    "quete_recompense",
+    "175077",
+    "",
+    "RewardText"
+   ],
+   "textes": 52,
+   "lignes": 52,
+   "mots": 2466,
+   "plage": "quêtes n° 175077 à 175121",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_070": {
+   "famille": "quetes",
+   "debut": [
+    "quete_recompense",
+    "175123",
+    "",
+    "RewardText"
+   ],
+   "textes": 58,
+   "lignes": 58,
+   "mots": 2527,
+   "plage": "quêtes n° 175123 à 175328",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_071": {
+   "famille": "quetes",
+   "debut": [
+    "quete_demande",
+    "175330",
+    "",
+    "CompletionText"
+   ],
+   "textes": 92,
+   "lignes": 230,
+   "mots": 2528,
+   "plage": "quêtes n° 175330 à 200005",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_072": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "200007",
+    "",
+    "ObjectiveText1"
+   ],
+   "textes": 63,
+   "lignes": 84,
+   "mots": 2481,
+   "plage": "quêtes n° 200007 à 200028",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_073": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "200029",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 70,
+   "lignes": 145,
+   "mots": 2584,
+   "plage": "quêtes n° 200029 à 200055",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_074": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "200058",
     "",
     "LogTitle"
    ],
-   "textes": 32,
-   "lignes": 38,
-   "mots": 1027,
-   "plage": "quêtes n° 9302228 à 9302431",
+   "textes": 51,
+   "lignes": 94,
+   "mots": 2574,
+   "plage": "quêtes n° 200058 à 200083",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_075": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "200086",
+    "",
+    "LogTitle"
+   ],
+   "textes": 53,
+   "lignes": 102,
+   "mots": 2429,
+   "plage": "quêtes n° 200086 à 200112",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_076": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "200113",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 55,
+   "lignes": 101,
+   "mots": 2582,
+   "plage": "quêtes n° 200113 à 200161",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_077": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "200162",
+    "",
+    "LogDescription"
+   ],
+   "textes": 43,
+   "lignes": 52,
+   "mots": 2591,
+   "plage": "quêtes n° 200162 à 254008",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_078": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "254009",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 51,
+   "lignes": 51,
+   "mots": 2491,
+   "plage": "quêtes n° 254009 à 254057",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_079": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "254059",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 46,
+   "lignes": 51,
+   "mots": 2474,
+   "plage": "quêtes n° 254059 à 254089",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_080": {
+   "famille": "quetes",
+   "debut": [
+    "quete_recompense",
+    "254091",
+    "",
+    "RewardText"
+   ],
+   "textes": 88,
+   "lignes": 89,
+   "mots": 2558,
+   "plage": "quêtes n° 254091 à 255116",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_081": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "255117",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 66,
+   "lignes": 158,
+   "mots": 2537,
+   "plage": "quêtes n° 255117 à 580187",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_082": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "580188",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 202,
+   "lignes": 292,
+   "mots": 2513,
+   "plage": "quêtes n° 580188 à 580297",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_083": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "580298",
+    "",
+    "LogTitle"
+   ],
+   "textes": 70,
+   "lignes": 87,
+   "mots": 2633,
+   "plage": "quêtes n° 580298 à 650151",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_084": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "650152",
+    "",
+    "LogDescription"
+   ],
+   "textes": 74,
+   "lignes": 431,
+   "mots": 2579,
+   "plage": "quêtes n° 650152 à 980105",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_085": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "980106",
+    "",
+    "LogTitle"
+   ],
+   "textes": 86,
+   "lignes": 92,
+   "mots": 2538,
+   "plage": "quêtes n° 980106 à 980242",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_086": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "980243",
+    "",
+    "LogTitle"
+   ],
+   "textes": 84,
+   "lignes": 85,
+   "mots": 2498,
+   "plage": "quêtes n° 980243 à 1005309",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_087": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "1005345",
+    "",
+    "LogTitle"
+   ],
+   "textes": 64,
+   "lignes": 64,
+   "mots": 2455,
+   "plage": "quêtes n° 1005345 à 1660023",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_088": {
+   "famille": "quetes",
+   "debut": [
+    "quete_recompense",
+    "1660024",
+    "",
+    "RewardText"
+   ],
+   "textes": 70,
+   "lignes": 71,
+   "mots": 2565,
+   "plage": "quêtes n° 1660024 à 1660059",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_089": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "1660060",
+    "",
+    "QuestDescription"
+   ],
+   "textes": 90,
+   "lignes": 153,
+   "mots": 2541,
+   "plage": "quêtes n° 1660060 à 8200173",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_090": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200174",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2512,
+   "plage": "quêtes n° 8200174 à 8200203",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_091": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200204",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2495,
+   "plage": "quêtes n° 8200204 à 8200232",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_092": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200233",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2504,
+   "plage": "quêtes n° 8200233 à 8200261",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_093": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200262",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2550,
+   "plage": "quêtes n° 8200262 à 8200291",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_094": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200292",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2545,
+   "plage": "quêtes n° 8200292 à 8200320",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_095": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200321",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2546,
+   "plage": "quêtes n° 8200321 à 8200349",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_096": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200350",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2548,
+   "plage": "quêtes n° 8200350 à 8200378",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_097": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200379",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2578,
+   "plage": "quêtes n° 8200379 à 8200407",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_098": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200408",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 88,
+   "mots": 2558,
+   "plage": "quêtes n° 8200408 à 8200437",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_099": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "8200438",
+    "",
+    "LogTitle"
+   ],
+   "textes": 87,
+   "lignes": 87,
+   "mots": 2561,
+   "plage": "quêtes n° 8200438 à 9302116",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_100": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "9302117",
+    "",
+    "LogTitle"
+   ],
+   "textes": 105,
+   "lignes": 112,
+   "mots": 2518,
+   "plage": "quêtes n° 9302117 à 9302223",
+   "chantier": "B",
+   "bloque": ""
+  },
+  "quetes_101": {
+   "famille": "quetes",
+   "debut": [
+    "quete",
+    "9302224",
+    "",
+    "LogTitle"
+   ],
+   "textes": 47,
+   "lignes": 56,
+   "mots": 1386,
+   "plage": "quêtes n° 9302224 à 9302431",
    "chantier": "B",
    "bloque": ""
   },
@@ -2392,10 +3007,10 @@
     "",
     "name"
    ],
-   "textes": 300,
-   "lignes": 351,
-   "mots": 2748,
-   "plage": "objet 967522 à 1002404",
+   "textes": 250,
+   "lignes": 301,
+   "mots": 2496,
+   "plage": "objet 967522 à 1002244",
    "chantier": "E",
    "bloque": ""
   },
@@ -2403,14 +3018,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "1002405",
+    "1002245",
     "",
     "name"
    ],
    "textes": 300,
    "lignes": 302,
-   "mots": 1587,
-   "plage": "objet 1002405 à 1010267",
+   "mots": 1582,
+   "plage": "objet 1002245 à 1008236",
    "chantier": "E",
    "bloque": ""
   },
@@ -2418,14 +3033,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "1010309",
+    "1008244",
     "",
     "name"
    ],
-   "textes": 300,
-   "lignes": 370,
-   "mots": 2750,
-   "plage": "objet 1010309 à 2013480",
+   "textes": 299,
+   "lignes": 367,
+   "mots": 2494,
+   "plage": "objet 1008244 à 1615001",
    "chantier": "E",
    "bloque": ""
   },
@@ -2433,14 +3048,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "2020202",
+    "1615002",
     "",
-    "name"
+    "description"
    ],
    "textes": 300,
-   "lignes": 303,
-   "mots": 1023,
-   "plage": "objet 2020202 à 2089249",
+   "lignes": 304,
+   "mots": 1382,
+   "plage": "objet 1615002 à 2080541",
    "chantier": "E",
    "bloque": ""
   },
@@ -2448,14 +3063,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "2089250",
+    "2080581",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 344,
-   "mots": 1961,
-   "plage": "objet 2089250 à 2100951",
+   "lignes": 342,
+   "mots": 1841,
+   "plage": "objet 2080581 à 2100789",
    "chantier": "E",
    "bloque": ""
   },
@@ -2463,14 +3078,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "2100952",
+    "2100790",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 300,
-   "mots": 1677,
-   "plage": "objet 2100952 à 2102260",
+   "lignes": 303,
+   "mots": 1690,
+   "plage": "objet 2100790 à 2102060",
    "chantier": "E",
    "bloque": ""
   },
@@ -2478,14 +3093,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "2102261",
+    "2102076",
     "",
     "name"
    ],
-   "textes": 300,
-   "lignes": 354,
-   "mots": 2940,
-   "plage": "objet 2102261 à 6016539",
+   "textes": 200,
+   "lignes": 214,
+   "mots": 2473,
+   "plage": "objet 2102076 à 3722460",
    "chantier": "E",
    "bloque": ""
   },
@@ -2493,14 +3108,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "6016540",
+    "3722461",
     "",
-    "name"
+    "description"
    ],
    "textes": 300,
-   "lignes": 438,
-   "mots": 1450,
-   "plage": "objet 6016540 à 6041027",
+   "lignes": 440,
+   "mots": 1502,
+   "plage": "objet 3722461 à 6029002",
    "chantier": "E",
    "bloque": ""
   },
@@ -2508,14 +3123,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "6041036",
+    "6029003",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 501,
-   "mots": 1380,
-   "plage": "objet 6041036 à 6086337",
+   "lignes": 417,
+   "mots": 1360,
+   "plage": "objet 6029003 à 6050843",
    "chantier": "E",
    "bloque": ""
   },
@@ -2523,14 +3138,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "6086342",
+    "6050844",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 340,
-   "mots": 1362,
-   "plage": "objet 6086342 à 6861924",
+   "lignes": 459,
+   "mots": 1446,
+   "plage": "objet 6050844 à 6860163",
    "chantier": "E",
    "bloque": ""
   },
@@ -2538,14 +3153,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "6861928",
+    "6860164",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 2188,
-   "mots": 2240,
-   "plage": "objet 6861928 à 9701571",
+   "lignes": 315,
+   "mots": 1477,
+   "plage": "objet 6860164 à 9302127",
    "chantier": "E",
    "bloque": ""
   },
@@ -2553,14 +3168,14 @@
    "famille": "objets",
    "debut": [
     "objet",
-    "9701572",
+    "9302128",
     "",
-    "description"
+    "name"
    ],
-   "textes": 144,
-   "lignes": 4340,
-   "mots": 999,
-   "plage": "objet 9701572 à 9707008",
+   "textes": 295,
+   "lignes": 6367,
+   "mots": 2374,
+   "plage": "objet 9302128 à 9707008",
    "chantier": "E",
    "bloque": ""
   },
@@ -2632,10 +3247,10 @@
     "0",
     "text0_0"
    ],
-   "textes": 92,
-   "lignes": 171,
-   "mots": 3982,
-   "plage": "dialogue_pnj 22 à 115558",
+   "textes": 70,
+   "lignes": 128,
+   "mots": 2489,
+   "plage": "dialogue_pnj 22 à 60073",
    "chantier": "D",
    "bloque": ""
   },
@@ -2643,14 +3258,14 @@
    "famille": "dialogues",
    "debut": [
     "dialogue_pnj",
-    "115564",
+    "60075",
     "0",
     "text0_0"
    ],
-   "textes": 138,
-   "lignes": 265,
-   "mots": 3988,
-   "plage": "dialogue_pnj 115564 à 1200440",
+   "textes": 55,
+   "lignes": 99,
+   "mots": 2492,
+   "plage": "dialogue_pnj 60075 à 930027",
    "chantier": "D",
    "bloque": ""
   },
@@ -2658,14 +3273,44 @@
    "famille": "dialogues",
    "debut": [
     "dialogue_pnj",
-    "1200446",
+    "930028",
     "0",
     "text0_0"
    ],
-   "textes": 239,
-   "lignes": 473,
-   "mots": 3291,
-   "plage": "dialogue_pnj 1200446 à formateur 900033",
+   "textes": 100,
+   "lignes": 200,
+   "mots": 2487,
+   "plage": "dialogue_pnj 930028 à 932519",
+   "chantier": "D",
+   "bloque": ""
+  },
+  "dialogues_004": {
+   "famille": "dialogues",
+   "debut": [
+    "dialogue_pnj",
+    "932520",
+    "0",
+    "text0_0"
+   ],
+   "textes": 78,
+   "lignes": 178,
+   "mots": 2505,
+   "plage": "dialogue_pnj 932520 à option_dialogue 21269",
+   "chantier": "D",
+   "bloque": ""
+  },
+  "dialogues_005": {
+   "famille": "dialogues",
+   "debut": [
+    "option_dialogue",
+    "21270",
+    "3",
+    "OptionText"
+   ],
+   "textes": 166,
+   "lignes": 304,
+   "mots": 1288,
+   "plage": "option_dialogue 21270 à formateur 900033",
    "chantier": "D",
    "bloque": ""
   },
@@ -2677,10 +3322,10 @@
     "1-0",
     "Text"
    ],
-   "textes": 300,
-   "lignes": 326,
-   "mots": 2763,
-   "plage": "texte_creature 38 à 29620",
+   "textes": 272,
+   "lignes": 298,
+   "mots": 2505,
+   "plage": "texte_creature 38 à 27992",
    "chantier": "D",
    "bloque": ""
   },
@@ -2688,14 +3333,14 @@
    "famille": "broadcast_cris",
    "debut": [
     "texte_creature",
-    "30142",
-    "1-0",
+    "28070",
+    "0-2",
     "Text"
    ],
-   "textes": 305,
-   "lignes": 428,
-   "mots": 3775,
-   "plage": "texte_creature 30142 à 164071",
+   "textes": 227,
+   "lignes": 275,
+   "mots": 2549,
+   "plage": "texte_creature 28070 à 164005",
    "chantier": "D",
    "bloque": ""
   },
@@ -2703,14 +3348,44 @@
    "famille": "broadcast_cris",
    "debut": [
     "texte_creature",
-    "164074",
+    "164006",
     "0-0",
     "Text"
    ],
-   "textes": 261,
-   "lignes": 435,
-   "mots": 3750,
-   "plage": "texte_creature 164074 à 9916212",
+   "textes": 195,
+   "lignes": 429,
+   "mots": 2499,
+   "plage": "texte_creature 164006 à 164262",
+   "chantier": "D",
+   "bloque": ""
+  },
+  "broadcast_cris_004": {
+   "famille": "broadcast_cris",
+   "debut": [
+    "texte_creature",
+    "164265",
+    "0-0",
+    "Text"
+   ],
+   "textes": 146,
+   "lignes": 159,
+   "mots": 2487,
+   "plage": "texte_creature 164265 à 776786",
+   "chantier": "D",
+   "bloque": ""
+  },
+  "broadcast_cris_005": {
+   "famille": "broadcast_cris",
+   "debut": [
+    "texte_creature",
+    "776787",
+    "0-0",
+    "Text"
+   ],
+   "textes": 26,
+   "lignes": 28,
+   "mots": 248,
+   "plage": "texte_creature 776787 à 9916212",
    "chantier": "D",
    "bloque": ""
   },
@@ -2722,10 +3397,10 @@
     "",
     "Text"
    ],
-   "textes": 59,
-   "lignes": 59,
-   "mots": 3971,
-   "plage": "page 1001 à 8008",
+   "textes": 38,
+   "lignes": 38,
+   "mots": 2440,
+   "plage": "page 1001 à 7002",
    "chantier": "F",
    "bloque": ""
   },
@@ -2733,14 +3408,14 @@
    "famille": "pages_courriers",
    "debut": [
     "page",
-    "8009",
+    "7003",
     "",
     "Text"
    ],
-   "textes": 64,
-   "lignes": 64,
-   "mots": 3994,
-   "plage": "page 8009 à 931223",
+   "textes": 41,
+   "lignes": 41,
+   "mots": 2455,
+   "plage": "page 7003 à 11112",
    "chantier": "F",
    "bloque": ""
   },
@@ -2748,14 +3423,44 @@
    "famille": "pages_courriers",
    "debut": [
     "page",
-    "931224",
+    "15000",
     "",
     "Text"
    ],
-   "textes": 41,
-   "lignes": 48,
-   "mots": 2024,
-   "plage": "page 931224 à haut_fait_courrier 4785",
+   "textes": 37,
+   "lignes": 37,
+   "mots": 2500,
+   "plage": "page 15000 à 931132",
+   "chantier": "F",
+   "bloque": ""
+  },
+  "pages_courriers_004": {
+   "famille": "pages_courriers",
+   "debut": [
+    "page",
+    "931214",
+    "",
+    "Text"
+   ],
+   "textes": 46,
+   "lignes": 53,
+   "mots": 2537,
+   "plage": "page 931214 à haut_fait_courrier 4784",
+   "chantier": "F",
+   "bloque": ""
+  },
+  "pages_courriers_005": {
+   "famille": "pages_courriers",
+   "debut": [
+    "haut_fait_courrier",
+    "4785",
+    "",
+    "Subject"
+   ],
+   "textes": 2,
+   "lignes": 2,
+   "mots": 57,
+   "plage": "haut_fait_courrier 4785 à 4785",
    "chantier": "F",
    "bloque": ""
   },
@@ -2902,10 +3607,10 @@
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 2865,
-   "mots": 3226,
-   "plage": "sort_dbc_serveur 9720016 à 9722601",
+   "textes": 224,
+   "lignes": 2284,
+   "mots": 2490,
+   "plage": "sort_dbc_serveur 9720016 à 9721519",
    "chantier": "G",
    "bloque": ""
   },
@@ -2913,14 +3618,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "sort_dbc_serveur",
-    "9722901",
+    "9721520",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 5420,
-   "mots": 2820,
-   "plage": "sort_dbc_serveur 9722901 à coa_description_sort_client 50281",
+   "textes": 274,
+   "lignes": 5811,
+   "mots": 2493,
+   "plage": "sort_dbc_serveur 9721520 à coa_description_sort_client 30174",
    "chantier": "G",
    "bloque": ""
   },
@@ -2928,14 +3633,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "50869",
+    "30829",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 405,
-   "mots": 3147,
-   "plage": "coa_description_sort_client 50869 à 94783",
+   "textes": 229,
+   "lignes": 368,
+   "mots": 2498,
+   "plage": "coa_description_sort_client 30829 à 79035",
    "chantier": "G",
    "bloque": ""
   },
@@ -2943,14 +3648,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "94784",
+    "79040",
     "",
     "Description"
    ],
-   "textes": 277,
-   "lignes": 317,
-   "mots": 3990,
-   "plage": "coa_description_sort_client 94784 à 286996",
+   "textes": 247,
+   "lignes": 337,
+   "mots": 2496,
+   "plage": "coa_description_sort_client 79040 à 286754",
    "chantier": "G",
    "bloque": ""
   },
@@ -2958,14 +3663,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "286997",
+    "286755",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 303,
-   "mots": 3588,
-   "plage": "coa_description_sort_client 286997 à 287481",
+   "textes": 154,
+   "lignes": 157,
+   "mots": 2500,
+   "plage": "coa_description_sort_client 286755 à 286923",
    "chantier": "G",
    "bloque": ""
   },
@@ -2973,14 +3678,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "287482",
+    "286924",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 401,
-   "mots": 3440,
-   "plage": "coa_description_sort_client 287482 à 364290",
+   "textes": 189,
+   "lignes": 191,
+   "mots": 2499,
+   "plage": "coa_description_sort_client 286924 à 287241",
    "chantier": "G",
    "bloque": ""
   },
@@ -2988,14 +3693,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "364291",
+    "287242",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 508,
-   "mots": 3232,
-   "plage": "coa_description_sort_client 364291 à 498723",
+   "textes": 215,
+   "lignes": 217,
+   "mots": 2492,
+   "plage": "coa_description_sort_client 287242 à 287558",
    "chantier": "G",
    "bloque": ""
   },
@@ -3003,14 +3708,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "498727",
+    "287559",
     "",
     "Description"
    ],
-   "textes": 297,
-   "lignes": 768,
-   "mots": 3984,
-   "plage": "coa_description_sort_client 498727 à 704772",
+   "textes": 223,
+   "lignes": 303,
+   "mots": 2498,
+   "plage": "coa_description_sort_client 287559 à 364247",
    "chantier": "G",
    "bloque": ""
   },
@@ -3018,14 +3723,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "704823",
+    "364248",
     "",
     "Description"
    ],
-   "textes": 271,
-   "lignes": 407,
-   "mots": 3992,
-   "plage": "coa_description_sort_client 704823 à 928889",
+   "textes": 235,
+   "lignes": 439,
+   "mots": 2493,
+   "plage": "coa_description_sort_client 364248 à 365241",
    "chantier": "G",
    "bloque": ""
   },
@@ -3033,14 +3738,14 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "929761",
+    "365242",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 475,
-   "mots": 3354,
-   "plage": "coa_description_sort_client 929761 à 1625506",
+   "textes": 237,
+   "lignes": 508,
+   "mots": 2495,
+   "plage": "coa_description_sort_client 365242 à 500168",
    "chantier": "G",
    "bloque": ""
   },
@@ -3048,14 +3753,74 @@
    "famille": "sorts_serveur",
    "debut": [
     "coa_description_sort_client",
-    "1625507",
+    "500170",
     "",
     "Description"
    ],
-   "textes": 212,
-   "lignes": 405,
-   "mots": 2129,
-   "plage": "coa_description_sort_client 1625507 à 13977843",
+   "textes": 149,
+   "lignes": 374,
+   "mots": 2516,
+   "plage": "coa_description_sort_client 500170 à 704823",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_serveur_013": {
+   "famille": "sorts_serveur",
+   "debut": [
+    "coa_description_sort_client",
+    "705298",
+    "",
+    "Description"
+   ],
+   "textes": 149,
+   "lignes": 197,
+   "mots": 2492,
+   "plage": "coa_description_sort_client 705298 à 900106",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_serveur_014": {
+   "famille": "sorts_serveur",
+   "debut": [
+    "coa_description_sort_client",
+    "900107",
+    "",
+    "Description"
+   ],
+   "textes": 205,
+   "lignes": 348,
+   "mots": 2495,
+   "plage": "coa_description_sort_client 900107 à 977206",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_serveur_015": {
+   "famille": "sorts_serveur",
+   "debut": [
+    "coa_description_sort_client",
+    "977207",
+    "",
+    "Description"
+   ],
+   "textes": 229,
+   "lignes": 369,
+   "mots": 2495,
+   "plage": "coa_description_sort_client 977207 à 1701554",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_serveur_016": {
+   "famille": "sorts_serveur",
+   "debut": [
+    "coa_description_sort_client",
+    "1701555",
+    "",
+    "Description"
+   ],
+   "textes": 198,
+   "lignes": 371,
+   "mots": 1950,
+   "plage": "coa_description_sort_client 1701555 à 13977843",
    "chantier": "G",
    "bloque": ""
   },
@@ -3157,10 +3922,10 @@
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 476,
-   "mots": 3281,
-   "plage": "sort 500074 à 501075",
+   "textes": 238,
+   "lignes": 389,
+   "mots": 2534,
+   "plage": "sort 500074 à 500732",
    "chantier": "C",
    "bloque": ""
   },
@@ -3168,14 +3933,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "501134",
+    "500735",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 538,
-   "mots": 3384,
-   "plage": "sort 501134 à 520043",
+   "textes": 227,
+   "lignes": 444,
+   "mots": 2529,
+   "plage": "sort 500735 à 503106",
    "chantier": "C",
    "bloque": ""
   },
@@ -3183,14 +3948,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "520046",
+    "503127",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 638,
-   "mots": 2793,
-   "plage": "sort 520046 à 574303",
+   "textes": 251,
+   "lignes": 484,
+   "mots": 2503,
+   "plage": "sort 503127 à 534803",
    "chantier": "C",
    "bloque": ""
   },
@@ -3198,14 +3963,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "574360",
+    "535505",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 372,
-   "mots": 2950,
-   "plage": "sort 574360 à 704704",
+   "textes": 259,
+   "lignes": 453,
+   "mots": 2545,
+   "plage": "sort 535505 à 681056",
    "chantier": "C",
    "bloque": ""
   },
@@ -3213,14 +3978,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "704705",
+    "699760",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 316,
-   "mots": 2535,
-   "plage": "sort 704705 à 705182",
+   "textes": 251,
+   "lignes": 278,
+   "mots": 2502,
+   "plage": "sort 699760 à 704728",
    "chantier": "C",
    "bloque": ""
   },
@@ -3228,14 +3993,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "705189",
+    "704730",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 318,
-   "mots": 2513,
-   "plage": "sort 705189 à 705670",
+   "textes": 294,
+   "lignes": 310,
+   "mots": 2508,
+   "plage": "sort 704730 à 705199",
    "chantier": "C",
    "bloque": ""
   },
@@ -3243,14 +4008,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "705673",
+    "705200",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 310,
-   "mots": 2613,
-   "plage": "sort 705673 à 706126",
+   "textes": 301,
+   "lignes": 319,
+   "mots": 2500,
+   "plage": "sort 705200 à 705688",
    "chantier": "C",
    "bloque": ""
   },
@@ -3258,14 +4023,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "706127",
+    "705697",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 364,
-   "mots": 2870,
-   "plage": "sort 706127 à 800269",
+   "textes": 291,
+   "lignes": 300,
+   "mots": 2528,
+   "plage": "sort 705697 à 706135",
    "chantier": "C",
    "bloque": ""
   },
@@ -3273,14 +4038,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "800270",
+    "706136",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 338,
-   "mots": 3203,
-   "plage": "sort 800270 à 801233",
+   "textes": 269,
+   "lignes": 332,
+   "mots": 2521,
+   "plage": "sort 706136 à 800218",
    "chantier": "C",
    "bloque": ""
   },
@@ -3288,14 +4053,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "801242",
+    "800233",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 324,
-   "mots": 3564,
-   "plage": "sort 801242 à 801957",
+   "textes": 244,
+   "lignes": 280,
+   "mots": 2510,
+   "plage": "sort 800233 à 800946",
    "chantier": "C",
    "bloque": ""
   },
@@ -3303,14 +4068,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "801967",
+    "800950",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 363,
-   "mots": 3763,
-   "plage": "sort 801967 à 803889",
+   "textes": 197,
+   "lignes": 205,
+   "mots": 2509,
+   "plage": "sort 800950 à 801564",
    "chantier": "C",
    "bloque": ""
   },
@@ -3318,14 +4083,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "803895",
+    "801568",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 308,
-   "mots": 3644,
-   "plage": "sort 803895 à 804700",
+   "textes": 212,
+   "lignes": 230,
+   "mots": 2507,
+   "plage": "sort 801568 à 802001",
    "chantier": "C",
    "bloque": ""
   },
@@ -3333,14 +4098,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "804702",
+    "802008",
     "",
-    "Name"
+    "Description"
    ],
-   "textes": 301,
-   "lignes": 314,
-   "mots": 3247,
-   "plage": "sort 804702 à 805309",
+   "textes": 210,
+   "lignes": 248,
+   "mots": 2548,
+   "plage": "sort 802008 à 803183",
    "chantier": "C",
    "bloque": ""
   },
@@ -3348,14 +4113,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "805312",
+    "803193",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 312,
-   "mots": 3318,
-   "plage": "sort 805312 à 806151",
+   "textes": 207,
+   "lignes": 233,
+   "mots": 2537,
+   "plage": "sort 803193 à 804295",
    "chantier": "C",
    "bloque": ""
   },
@@ -3363,14 +4128,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "806156",
+    "804331",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 323,
-   "mots": 2347,
-   "plage": "sort 806156 à 900949",
+   "textes": 216,
+   "lignes": 225,
+   "mots": 2536,
+   "plage": "sort 804331 à 804781",
    "chantier": "C",
    "bloque": ""
   },
@@ -3378,14 +4143,14 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "900950",
+    "804782",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 625,
-   "mots": 1165,
-   "plage": "sort 900950 à 1347236",
+   "textes": 238,
+   "lignes": 246,
+   "mots": 2500,
+   "plage": "sort 804782 à 805304",
    "chantier": "C",
    "bloque": ""
   },
@@ -3393,14 +4158,74 @@
    "famille": "sorts_classes",
    "debut": [
     "sort",
-    "1347237",
+    "805309",
     "",
     "Name"
    ],
-   "textes": 258,
-   "lignes": 451,
-   "mots": 763,
-   "plage": "sort 1347237 à 13977877",
+   "textes": 219,
+   "lignes": 230,
+   "mots": 2527,
+   "plage": "sort 805309 à 805798",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "sorts_classes_023": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "805802",
+    "",
+    "Name"
+   ],
+   "textes": 242,
+   "lignes": 257,
+   "mots": 2529,
+   "plage": "sort 805802 à 807682",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "sorts_classes_024": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "807727",
+    "",
+    "Name"
+   ],
+   "textes": 300,
+   "lignes": 542,
+   "mots": 1267,
+   "plage": "sort 807727 à 997141",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "sorts_classes_025": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "997802",
+    "",
+    "Name"
+   ],
+   "textes": 300,
+   "lignes": 473,
+   "mots": 1048,
+   "plage": "sort 997802 à 9934100",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "sorts_classes_026": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "9934101",
+    "",
+    "Name"
+   ],
+   "textes": 101,
+   "lignes": 212,
+   "mots": 265,
+   "plage": "sort 9934101 à 13977877",
    "chantier": "C",
    "bloque": ""
   },
@@ -3412,10 +4237,10 @@
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 3238,
-   "mots": 3435,
-   "plage": "sort 92081 à 300313",
+   "textes": 196,
+   "lignes": 3021,
+   "mots": 2498,
+   "plage": "sort 92081 à 289130",
    "chantier": "C",
    "bloque": ""
   },
@@ -3423,14 +4248,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "300314",
+    "289131",
     "",
-    "Name"
+    "Description"
    ],
-   "textes": 301,
-   "lignes": 392,
-   "mots": 2738,
-   "plage": "sort 300314 à 300755",
+   "textes": 277,
+   "lignes": 434,
+   "mots": 2526,
+   "plage": "sort 289131 à 300542",
    "chantier": "C",
    "bloque": ""
   },
@@ -3438,14 +4263,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "300757",
+    "300543",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 414,
-   "mots": 2791,
-   "plage": "sort 300757 à 365178",
+   "textes": 270,
+   "lignes": 370,
+   "mots": 2496,
+   "plage": "sort 300543 à 301149",
    "chantier": "C",
    "bloque": ""
   },
@@ -3453,14 +4278,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "365179",
+    "301175",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 981,
-   "mots": 3797,
-   "plage": "sort 365179 à 502213",
+   "textes": 262,
+   "lignes": 536,
+   "mots": 2509,
+   "plage": "sort 301175 à 500259",
    "chantier": "C",
    "bloque": ""
   },
@@ -3468,14 +4293,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "502295",
+    "500261",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 768,
-   "mots": 3284,
-   "plage": "sort 502295 à 504252",
+   "textes": 181,
+   "lignes": 531,
+   "mots": 2522,
+   "plage": "sort 500261 à 501772",
    "chantier": "C",
    "bloque": ""
   },
@@ -3483,14 +4308,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "504254",
+    "501836",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 489,
-   "mots": 2960,
-   "plage": "sort 504254 à 520236",
+   "textes": 210,
+   "lignes": 729,
+   "mots": 2524,
+   "plage": "sort 501836 à 503895",
    "chantier": "C",
    "bloque": ""
   },
@@ -3498,14 +4323,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "520237",
+    "503913",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 379,
-   "mots": 3163,
-   "plage": "sort 520237 à 524922",
+   "textes": 266,
+   "lignes": 430,
+   "mots": 2524,
+   "plage": "sort 503913 à 504786",
    "chantier": "C",
    "bloque": ""
   },
@@ -3513,14 +4338,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "524932",
+    "504798",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 410,
-   "mots": 2998,
-   "plage": "sort 524932 à 560440",
+   "textes": 237,
+   "lignes": 386,
+   "mots": 2499,
+   "plage": "sort 504798 à 520534",
    "chantier": "C",
    "bloque": ""
   },
@@ -3528,14 +4353,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "560441",
+    "520539",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 409,
-   "mots": 2974,
-   "plage": "sort 560441 à 561127",
+   "textes": 248,
+   "lignes": 269,
+   "mots": 2510,
+   "plage": "sort 520539 à 525065",
    "chantier": "C",
    "bloque": ""
   },
@@ -3543,14 +4368,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "561138",
+    "525307",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 606,
-   "mots": 2978,
-   "plage": "sort 561138 à 573035",
+   "textes": 246,
+   "lignes": 340,
+   "mots": 2500,
+   "plage": "sort 525307 à 560412",
    "chantier": "C",
    "bloque": ""
   },
@@ -3558,14 +4383,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "573036",
+    "560419",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 507,
-   "mots": 3234,
-   "plage": "sort 573036 à 680498",
+   "textes": 254,
+   "lignes": 365,
+   "mots": 2508,
+   "plage": "sort 560419 à 560919",
    "chantier": "C",
    "bloque": ""
   },
@@ -3573,14 +4398,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "680500",
+    "560924",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 380,
-   "mots": 3017,
-   "plage": "sort 680500 à 681052",
+   "textes": 268,
+   "lignes": 478,
+   "mots": 2514,
+   "plage": "sort 560924 à 572330",
    "chantier": "C",
    "bloque": ""
   },
@@ -3588,14 +4413,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "681054",
+    "572340",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 412,
-   "mots": 3037,
-   "plage": "sort 681054 à 704497",
+   "textes": 231,
+   "lignes": 477,
+   "mots": 2462,
+   "plage": "sort 572340 à 582589",
    "chantier": "C",
    "bloque": ""
   },
@@ -3603,14 +4428,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "704500",
+    "582591",
     "",
-    "Name"
+    "Description"
    ],
-   "textes": 301,
-   "lignes": 378,
-   "mots": 2686,
-   "plage": "sort 704500 à 704881",
+   "textes": 229,
+   "lignes": 335,
+   "mots": 2512,
+   "plage": "sort 582591 à 680618",
    "chantier": "C",
    "bloque": ""
   },
@@ -3618,14 +4443,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "704884",
+    "680619",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 397,
-   "mots": 2792,
-   "plage": "sort 704884 à 705268",
+   "textes": 261,
+   "lignes": 324,
+   "mots": 2528,
+   "plage": "sort 680619 à 681095",
    "chantier": "C",
    "bloque": ""
   },
@@ -3633,14 +4458,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "705271",
+    "681097",
     "",
-    "Name"
+    "Description"
    ],
-   "textes": 301,
-   "lignes": 353,
-   "mots": 2604,
-   "plage": "sort 705271 à 705605",
+   "textes": 242,
+   "lignes": 329,
+   "mots": 2507,
+   "plage": "sort 681097 à 704423",
    "chantier": "C",
    "bloque": ""
   },
@@ -3648,14 +4473,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "705609",
+    "704434",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 352,
-   "mots": 2844,
-   "plage": "sort 705609 à 705998",
+   "textes": 281,
+   "lignes": 349,
+   "mots": 2505,
+   "plage": "sort 704434 à 704815",
    "chantier": "C",
    "bloque": ""
   },
@@ -3663,14 +4488,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "705999",
+    "704816",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 354,
-   "mots": 2927,
-   "plage": "sort 705999 à 706502",
+   "textes": 266,
+   "lignes": 358,
+   "mots": 2512,
+   "plage": "sort 704816 à 705156",
    "chantier": "C",
    "bloque": ""
   },
@@ -3678,14 +4503,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "706514",
+    "705158",
     "",
-    "Description"
+    "Name"
    ],
-   "textes": 300,
-   "lignes": 354,
-   "mots": 2787,
-   "plage": "sort 706514 à 707249",
+   "textes": 296,
+   "lignes": 355,
+   "mots": 2508,
+   "plage": "sort 705158 à 705519",
    "chantier": "C",
    "bloque": ""
   },
@@ -3693,14 +4518,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "707252",
+    "705520",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 323,
-   "mots": 2807,
-   "plage": "sort 707252 à 707873",
+   "textes": 273,
+   "lignes": 324,
+   "mots": 2502,
+   "plage": "sort 705520 à 705846",
    "chantier": "C",
    "bloque": ""
   },
@@ -3708,14 +4533,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "707876",
+    "705848",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 389,
-   "mots": 3585,
-   "plage": "sort 707876 à 801135",
+   "textes": 251,
+   "lignes": 286,
+   "mots": 2502,
+   "plage": "sort 705848 à 706174",
    "chantier": "C",
    "bloque": ""
   },
@@ -3723,14 +4548,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "801143",
+    "706176",
     "",
     "Name"
    ],
-   "textes": 294,
-   "lignes": 437,
-   "mots": 4015,
-   "plage": "sort 801143 à 802290",
+   "textes": 264,
+   "lignes": 300,
+   "mots": 2516,
+   "plage": "sort 706176 à 706683",
    "chantier": "C",
    "bloque": ""
   },
@@ -3738,14 +4563,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "802295",
+    "706695",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 418,
-   "mots": 3502,
-   "plage": "sort 802295 à 804232",
+   "textes": 268,
+   "lignes": 322,
+   "mots": 2502,
+   "plage": "sort 706695 à 707395",
    "chantier": "C",
    "bloque": ""
   },
@@ -3753,14 +4578,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "804247",
+    "707398",
     "",
     "Name"
    ],
-   "textes": 301,
-   "lignes": 382,
-   "mots": 3556,
-   "plage": "sort 804247 à 805104",
+   "textes": 266,
+   "lignes": 296,
+   "mots": 2508,
+   "plage": "sort 707398 à 712435",
    "chantier": "C",
    "bloque": ""
   },
@@ -3768,14 +4593,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "805105",
+    "712437",
     "",
-    "Name"
+    "Description"
    ],
-   "textes": 300,
-   "lignes": 419,
-   "mots": 3651,
-   "plage": "sort 805105 à 805810",
+   "textes": 210,
+   "lignes": 275,
+   "mots": 2506,
+   "plage": "sort 712437 à 800878",
    "chantier": "C",
    "bloque": ""
   },
@@ -3783,14 +4608,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "805811",
+    "800882",
     "",
-    "Name"
+    "ToolTip"
    ],
-   "textes": 300,
-   "lignes": 438,
-   "mots": 3480,
-   "plage": "sort 805811 à 806698",
+   "textes": 185,
+   "lignes": 257,
+   "mots": 2527,
+   "plage": "sort 800882 à 801801",
    "chantier": "C",
    "bloque": ""
   },
@@ -3798,14 +4623,14 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "806699",
+    "801821",
     "",
     "Name"
    ],
-   "textes": 300,
-   "lignes": 330,
-   "mots": 3583,
-   "plage": "sort 806699 à 808009",
+   "textes": 196,
+   "lignes": 285,
+   "mots": 2533,
+   "plage": "sort 801821 à 802602",
    "chantier": "C",
    "bloque": ""
   },
@@ -3813,14 +4638,119 @@
    "famille": "talents",
    "debut": [
     "sort",
-    "808082",
+    "802610",
     "",
     "Name"
    ],
-   "textes": 170,
-   "lignes": 180,
-   "mots": 1496,
-   "plage": "sort 808082 à arbre_talents 453",
+   "textes": 212,
+   "lignes": 298,
+   "mots": 2518,
+   "plage": "sort 802610 à 804047",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_029": {
+   "famille": "talents",
+   "debut": [
+    "sort",
+    "804051",
+    "",
+    "Name"
+   ],
+   "textes": 218,
+   "lignes": 273,
+   "mots": 2528,
+   "plage": "sort 804051 à 804737",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_030": {
+   "famille": "talents",
+   "debut": [
+    "sort",
+    "804739",
+    "",
+    "Name"
+   ],
+   "textes": 215,
+   "lignes": 269,
+   "mots": 2512,
+   "plage": "sort 804739 à 805248",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_031": {
+   "famille": "talents",
+   "debut": [
+    "sort",
+    "805249",
+    "",
+    "Name"
+   ],
+   "textes": 206,
+   "lignes": 321,
+   "mots": 2503,
+   "plage": "sort 805249 à 805770",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_032": {
+   "famille": "talents",
+   "debut": [
+    "sort",
+    "805773",
+    "",
+    "Description"
+   ],
+   "textes": 201,
+   "lignes": 294,
+   "mots": 2507,
+   "plage": "sort 805773 à 806292",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_033": {
+   "famille": "talents",
+   "debut": [
+    "sort",
+    "806293",
+    "",
+    "Name"
+   ],
+   "textes": 218,
+   "lignes": 279,
+   "mots": 2504,
+   "plage": "sort 806293 à 807271",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_034": {
+   "famille": "talents",
+   "debut": [
+    "sort",
+    "807272",
+    "",
+    "Description"
+   ],
+   "textes": 208,
+   "lignes": 228,
+   "mots": 2515,
+   "plage": "sort 807272 à 1397742",
+   "chantier": "C",
+   "bloque": ""
+  },
+  "talents_035": {
+   "famille": "talents",
+   "debut": [
+    "arbre_coa",
+    "2",
+    "",
+    "description"
+   ],
+   "textes": 162,
+   "lignes": 166,
+   "mots": 1374,
+   "plage": "arbre_coa 2 à arbre_talents 453",
    "chantier": "C",
    "bloque": ""
   },
@@ -3862,10 +4792,10 @@
     "",
     "name"
    ],
-   "textes": 300,
-   "lignes": 523,
-   "mots": 3159,
-   "plage": "haut_fait 8333 à 10147",
+   "textes": 270,
+   "lignes": 493,
+   "mots": 2480,
+   "plage": "haut_fait 8333 à 10110",
    "chantier": "H",
    "bloque": ""
   },
@@ -3873,14 +4803,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "10149",
+    "10111",
     "",
-    "name"
+    "description"
    ],
-   "textes": 300,
-   "lignes": 375,
-   "mots": 3295,
-   "plage": "haut_fait 10149 à 12501",
+   "textes": 128,
+   "lignes": 193,
+   "mots": 2499,
+   "plage": "haut_fait 10111 à 10831",
    "chantier": "H",
    "bloque": ""
   },
@@ -3888,14 +4818,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "12505",
+    "10834",
     "",
-    "description"
+    "name"
    ],
    "textes": 300,
-   "lignes": 330,
-   "mots": 1285,
-   "plage": "haut_fait 12505 à 13856",
+   "lignes": 331,
+   "mots": 1870,
+   "plage": "haut_fait 10834 à 13182",
    "chantier": "H",
    "bloque": ""
   },
@@ -3903,14 +4833,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "13857",
+    "13187",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 300,
-   "mots": 2133,
-   "plage": "haut_fait 13857 à 14523",
+   "lignes": 309,
+   "mots": 1473,
+   "plage": "haut_fait 13187 à 14223",
    "chantier": "H",
    "bloque": ""
   },
@@ -3918,14 +4848,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "14524",
+    "14224",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 304,
-   "mots": 2199,
-   "plage": "haut_fait 14524 à 16214",
+   "lignes": 300,
+   "mots": 2240,
+   "plage": "haut_fait 14224 à 14655",
    "chantier": "H",
    "bloque": ""
   },
@@ -3933,14 +4863,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "16219",
+    "14656",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 399,
-   "mots": 2657,
-   "plage": "haut_fait 16219 à 19261",
+   "lignes": 403,
+   "mots": 2141,
+   "plage": "haut_fait 14656 à 18253",
    "chantier": "H",
    "bloque": ""
   },
@@ -3948,14 +4878,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "19262",
+    "18256",
     "",
-    "description"
+    "name"
    ],
-   "textes": 300,
-   "lignes": 864,
-   "mots": 3898,
-   "plage": "haut_fait 19262 à 22139",
+   "textes": 234,
+   "lignes": 234,
+   "mots": 2491,
+   "plage": "haut_fait 18256 à 19293",
    "chantier": "H",
    "bloque": ""
   },
@@ -3963,14 +4893,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "22140",
+    "19294",
     "",
-    "name"
+    "description"
    ],
-   "textes": 300,
-   "lignes": 943,
-   "mots": 2332,
-   "plage": "haut_fait 22140 à 40342",
+   "textes": 216,
+   "lignes": 780,
+   "mots": 2494,
+   "plage": "haut_fait 19294 à 21126",
    "chantier": "H",
    "bloque": ""
   },
@@ -3978,14 +4908,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "40344",
+    "21127",
     "",
-    "name"
+    "description"
    ],
-   "textes": 300,
-   "lignes": 302,
-   "mots": 1744,
-   "plage": "haut_fait 40344 à 41782",
+   "textes": 252,
+   "lignes": 266,
+   "mots": 2494,
+   "plage": "haut_fait 21127 à 29394",
    "chantier": "H",
    "bloque": ""
   },
@@ -3993,14 +4923,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "41783",
+    "29396",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 304,
-   "mots": 1663,
-   "plage": "haut_fait 41783 à 61139",
+   "lignes": 931,
+   "mots": 1914,
+   "plage": "haut_fait 29396 à 41052",
    "chantier": "H",
    "bloque": ""
   },
@@ -4008,14 +4938,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "61147",
+    "41053",
     "",
-    "name"
+    "reward"
    ],
    "textes": 300,
-   "lignes": 320,
-   "mots": 1959,
-   "plage": "haut_fait 61147 à 86000",
+   "lignes": 300,
+   "mots": 1764,
+   "plage": "haut_fait 41053 à 47018",
    "chantier": "H",
    "bloque": ""
   },
@@ -4023,14 +4953,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "86002",
+    "47019",
     "",
-    "description"
+    "name"
    ],
    "textes": 300,
-   "lignes": 314,
-   "mots": 1779,
-   "plage": "haut_fait 86002 à 86507",
+   "lignes": 304,
+   "mots": 1850,
+   "plage": "haut_fait 47019 à 64186",
    "chantier": "H",
    "bloque": ""
   },
@@ -4038,14 +4968,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "86511",
+    "64187",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 311,
-   "mots": 2101,
-   "plage": "haut_fait 86511 à 104015",
+   "lignes": 334,
+   "mots": 1818,
+   "plage": "haut_fait 64187 à 86172",
    "chantier": "H",
    "bloque": ""
   },
@@ -4053,14 +4983,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "104017",
+    "86173",
     "",
-    "name"
+    "description"
    ],
    "textes": 300,
-   "lignes": 314,
-   "mots": 1617,
-   "plage": "haut_fait 104017 à 120842",
+   "lignes": 310,
+   "mots": 2034,
+   "plage": "haut_fait 86173 à 90160",
    "chantier": "H",
    "bloque": ""
   },
@@ -4068,14 +4998,14 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "120845",
+    "90163",
     "",
-    "name"
+    "reward"
    ],
    "textes": 300,
-   "lignes": 490,
-   "mots": 1892,
-   "plage": "haut_fait 120845 à 321233",
+   "lignes": 301,
+   "mots": 1797,
+   "plage": "haut_fait 90163 à 120481",
    "chantier": "H",
    "bloque": ""
   },
@@ -4083,29 +5013,44 @@
    "famille": "hauts_faits",
    "debut": [
     "haut_fait",
-    "321234",
+    "120482",
     "",
     "name"
    ],
    "textes": 300,
-   "lignes": 305,
-   "mots": 1898,
-   "plage": "haut_fait 321234 à haut_fait_categorie 126",
+   "lignes": 504,
+   "mots": 1634,
+   "plage": "haut_fait 120482 à 320604",
    "chantier": "H",
    "bloque": ""
   },
   "hauts_faits_019": {
    "famille": "hauts_faits",
    "debut": [
-    "haut_fait_categorie",
-    "127",
+    "haut_fait",
+    "320605",
     "",
     "name"
    ],
-   "textes": 156,
-   "lignes": 204,
-   "mots": 278,
-   "plage": "haut_fait_categorie 127 à 80025",
+   "textes": 300,
+   "lignes": 300,
+   "mots": 2023,
+   "plage": "haut_fait 320605 à 321824",
+   "chantier": "H",
+   "bloque": ""
+  },
+  "hauts_faits_020": {
+   "famille": "hauts_faits",
+   "debut": [
+    "haut_fait",
+    "321878",
+    "",
+    "name"
+   ],
+   "textes": 256,
+   "lignes": 309,
+   "mots": 873,
+   "plage": "haut_fait 321878 à haut_fait_categorie 80025",
    "chantier": "H",
    "bloque": ""
   },
@@ -4162,10 +5107,10 @@
     "",
     "Name"
    ],
-   "textes": 186,
-   "lignes": 929,
-   "mots": 3979,
-   "plage": "sort 4 à 2824",
+   "textes": 111,
+   "lignes": 488,
+   "mots": 2478,
+   "plage": "sort 4 à 1243",
    "chantier": "G",
    "bloque": ""
   },
@@ -4173,14 +5118,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "2825",
+    "1329",
     "",
     "Description"
    ],
-   "textes": 220,
-   "lignes": 629,
-   "mots": 3989,
-   "plage": "sort 2825 à 8089",
+   "textes": 142,
+   "lignes": 591,
+   "mots": 2504,
+   "plage": "sort 1329 à 4511",
    "chantier": "G",
    "bloque": ""
   },
@@ -4188,14 +5133,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "8134",
+    "4955",
     "",
-    "Description"
+    "ToolTip"
    ],
-   "textes": 180,
-   "lignes": 362,
-   "mots": 3993,
-   "plage": "sort 8134 à 11337",
+   "textes": 131,
+   "lignes": 430,
+   "mots": 2492,
+   "plage": "sort 4955 à 7786",
    "chantier": "G",
    "bloque": ""
   },
@@ -4203,14 +5148,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "11338",
+    "7793",
     "",
     "Description"
    ],
-   "textes": 203,
-   "lignes": 302,
-   "mots": 3998,
-   "plage": "sort 11338 à 13698",
+   "textes": 119,
+   "lignes": 199,
+   "mots": 2457,
+   "plage": "sort 7793 à 10427",
    "chantier": "G",
    "bloque": ""
   },
@@ -4218,14 +5163,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "13700",
+    "10428",
     "",
     "Description"
    ],
-   "textes": 190,
-   "lignes": 325,
-   "mots": 3966,
-   "plage": "sort 13700 à 15332",
+   "textes": 105,
+   "lignes": 245,
+   "mots": 2488,
+   "plage": "sort 10428 à 11730",
    "chantier": "G",
    "bloque": ""
   },
@@ -4233,14 +5178,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "15335",
+    "11784",
     "",
     "Description"
    ],
-   "textes": 205,
-   "lignes": 316,
-   "mots": 3982,
-   "plage": "sort 15335 à 16897",
+   "textes": 117,
+   "lignes": 200,
+   "mots": 2495,
+   "plage": "sort 11784 à 13048",
    "chantier": "G",
    "bloque": ""
   },
@@ -4248,14 +5193,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "16909",
+    "13159",
     "",
     "Description"
    ],
-   "textes": 201,
-   "lignes": 338,
-   "mots": 3994,
-   "plage": "sort 16909 à 19461",
+   "textes": 143,
+   "lignes": 185,
+   "mots": 2494,
+   "plage": "sort 13159 à 14128",
    "chantier": "G",
    "bloque": ""
   },
@@ -4263,14 +5208,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "19464",
+    "14138",
     "",
     "Description"
    ],
-   "textes": 173,
-   "lignes": 298,
-   "mots": 4008,
-   "plage": "sort 19464 à 20500",
+   "textes": 110,
+   "lignes": 208,
+   "mots": 2496,
+   "plage": "sort 14138 à 15331",
    "chantier": "G",
    "bloque": ""
   },
@@ -4278,14 +5223,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "20501",
+    "15332",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 420,
-   "mots": 3760,
-   "plage": "sort 20501 à 23619",
+   "textes": 116,
+   "lignes": 190,
+   "mots": 2476,
+   "plage": "sort 15332 à 16304",
    "chantier": "G",
    "bloque": ""
   },
@@ -4293,14 +5238,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "23691",
+    "16305",
     "",
     "Description"
    ],
-   "textes": 221,
-   "lignes": 417,
-   "mots": 3997,
-   "plage": "sort 23691 à 25574",
+   "textes": 125,
+   "lignes": 191,
+   "mots": 2500,
+   "plage": "sort 16305 à 17108",
    "chantier": "G",
    "bloque": ""
   },
@@ -4308,14 +5253,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "25645",
+    "17116",
     "",
-    "Description"
+    "Name"
    ],
-   "textes": 226,
-   "lignes": 290,
-   "mots": 3999,
-   "plage": "sort 25645 à 28017",
+   "textes": 142,
+   "lignes": 217,
+   "mots": 2478,
+   "plage": "sort 17116 à 18972",
    "chantier": "G",
    "bloque": ""
   },
@@ -4323,14 +5268,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "28062",
+    "19028",
     "",
     "Description"
    ],
-   "textes": 265,
-   "lignes": 355,
-   "mots": 3991,
-   "plage": "sort 28062 à 29961",
+   "textes": 119,
+   "lignes": 209,
+   "mots": 2492,
+   "plage": "sort 19028 à 20045",
    "chantier": "G",
    "bloque": ""
   },
@@ -4338,14 +5283,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "29963",
+    "20049",
     "",
     "Description"
    ],
-   "textes": 199,
-   "lignes": 251,
-   "mots": 3983,
-   "plage": "sort 29963 à 31552",
+   "textes": 96,
+   "lignes": 166,
+   "mots": 2467,
+   "plage": "sort 20049 à 20755",
    "chantier": "G",
    "bloque": ""
   },
@@ -4353,14 +5298,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "31569",
+    "20756",
     "",
     "Description"
    ],
-   "textes": 177,
-   "lignes": 259,
-   "mots": 3965,
-   "plage": "sort 31569 à 33215",
+   "textes": 201,
+   "lignes": 302,
+   "mots": 2493,
+   "plage": "sort 20756 à 23262",
    "chantier": "G",
    "bloque": ""
   },
@@ -4368,14 +5313,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "33221",
+    "23308",
     "",
     "Description"
    ],
-   "textes": 188,
-   "lignes": 262,
-   "mots": 3985,
-   "plage": "sort 33221 à 34860",
+   "textes": 164,
+   "lignes": 214,
+   "mots": 2460,
+   "plage": "sort 23308 à 24392",
    "chantier": "G",
    "bloque": ""
   },
@@ -4383,14 +5328,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "34879",
+    "24398",
     "",
     "Description"
    ],
-   "textes": 300,
-   "lignes": 369,
-   "mots": 3972,
-   "plage": "sort 34879 à 38357",
+   "textes": 146,
+   "lignes": 311,
+   "mots": 2503,
+   "plage": "sort 24398 à 25771",
    "chantier": "G",
    "bloque": ""
   },
@@ -4398,14 +5343,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "38390",
+    "25778",
     "",
-    "Name"
+    "Description"
    ],
-   "textes": 254,
-   "lignes": 370,
-   "mots": 3967,
-   "plage": "sort 38390 à 44470",
+   "textes": 140,
+   "lignes": 171,
+   "mots": 2499,
+   "plage": "sort 25778 à 27260",
    "chantier": "G",
    "bloque": ""
   },
@@ -4413,14 +5358,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "44471",
+    "27275",
     "",
     "Description"
    ],
-   "textes": 187,
-   "lignes": 293,
-   "mots": 3987,
-   "plage": "sort 44471 à 47564",
+   "textes": 148,
+   "lignes": 196,
+   "mots": 2528,
+   "plage": "sort 27275 à 28834",
    "chantier": "G",
    "bloque": ""
   },
@@ -4428,14 +5373,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "47567",
+    "28835",
     "",
-    "Description"
+    "Name"
    ],
-   "textes": 153,
-   "lignes": 239,
-   "mots": 3974,
-   "plage": "sort 47567 à 49455",
+   "textes": 168,
+   "lignes": 233,
+   "mots": 2503,
+   "plage": "sort 28835 à 29880",
    "chantier": "G",
    "bloque": ""
   },
@@ -4443,14 +5388,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "49467",
+    "29881",
     "",
-    "Description"
+    "ToolTip"
    ],
-   "textes": 165,
-   "lignes": 244,
-   "mots": 3962,
-   "plage": "sort 49467 à 52129",
+   "textes": 135,
+   "lignes": 173,
+   "mots": 2471,
+   "plage": "sort 29881 à 30664",
    "chantier": "G",
    "bloque": ""
   },
@@ -4458,14 +5403,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "52131",
+    "30665",
     "",
     "Description"
    ],
-   "textes": 149,
-   "lignes": 222,
-   "mots": 3997,
-   "plage": "sort 52131 à 54347",
+   "textes": 114,
+   "lignes": 152,
+   "mots": 2469,
+   "plage": "sort 30665 à 31674",
    "chantier": "G",
    "bloque": ""
   },
@@ -4473,14 +5418,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "54378",
+    "31675",
     "",
     "Description"
    ],
-   "textes": 217,
-   "lignes": 255,
-   "mots": 3995,
-   "plage": "sort 54378 à 56814",
+   "textes": 107,
+   "lignes": 158,
+   "mots": 2473,
+   "plage": "sort 31675 à 32645",
    "chantier": "G",
    "bloque": ""
   },
@@ -4488,14 +5433,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "56815",
+    "32682",
     "",
     "Description"
    ],
-   "textes": 153,
-   "lignes": 206,
-   "mots": 3993,
-   "plage": "sort 56815 à 59887",
+   "textes": 129,
+   "lignes": 186,
+   "mots": 2490,
+   "plage": "sort 32682 à 34003",
    "chantier": "G",
    "bloque": ""
   },
@@ -4503,14 +5448,14 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "59888",
+    "34004",
     "",
     "Description"
    ],
-   "textes": 194,
-   "lignes": 229,
-   "mots": 3972,
-   "plage": "sort 59888 à 63562",
+   "textes": 110,
+   "lignes": 144,
+   "mots": 2472,
+   "plage": "sort 34004 à 34914",
    "chantier": "G",
    "bloque": ""
   },
@@ -4518,14 +5463,239 @@
    "famille": "sorts_standard",
    "debut": [
     "sort",
-    "63611",
+    "34916",
     "",
     "Description"
    ],
-   "textes": 189,
-   "lignes": 276,
-   "mots": 3727,
-   "plage": "sort 63611 à 75461",
+   "textes": 179,
+   "lignes": 231,
+   "mots": 2515,
+   "plage": "sort 34916 à 37381",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_026": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "37384",
+    "",
+    "Description"
+   ],
+   "textes": 204,
+   "lignes": 229,
+   "mots": 2496,
+   "plage": "sort 37384 à 39144",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_027": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "39221",
+    "",
+    "ToolTip"
+   ],
+   "textes": 159,
+   "lignes": 262,
+   "mots": 2474,
+   "plage": "sort 39221 à 44401",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_028": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "44404",
+    "",
+    "Description"
+   ],
+   "textes": 123,
+   "lignes": 186,
+   "mots": 2463,
+   "plage": "sort 44404 à 46573",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_029": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "46578",
+    "",
+    "Description"
+   ],
+   "textes": 94,
+   "lignes": 149,
+   "mots": 2472,
+   "plage": "sort 46578 à 47878",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_030": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "47884",
+    "",
+    "Description"
+   ],
+   "textes": 94,
+   "lignes": 138,
+   "mots": 2466,
+   "plage": "sort 47884 à 49011",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_031": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "49012",
+    "",
+    "Description"
+   ],
+   "textes": 120,
+   "lignes": 194,
+   "mots": 2491,
+   "plage": "sort 49012 à 51099",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_032": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "51123",
+    "",
+    "Description"
+   ],
+   "textes": 84,
+   "lignes": 122,
+   "mots": 2480,
+   "plage": "sort 51123 à 52134",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_033": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "52136",
+    "",
+    "Description"
+   ],
+   "textes": 92,
+   "lignes": 138,
+   "mots": 2454,
+   "plage": "sort 52136 à 53569",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_034": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "53576",
+    "",
+    "Description"
+   ],
+   "textes": 104,
+   "lignes": 133,
+   "mots": 2491,
+   "plage": "sort 53576 à 54828",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_035": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "54831",
+    "",
+    "Description"
+   ],
+   "textes": 134,
+   "lignes": 157,
+   "mots": 2487,
+   "plage": "sort 54831 à 56369",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_036": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "56377",
+    "",
+    "Description"
+   ],
+   "textes": 113,
+   "lignes": 161,
+   "mots": 2491,
+   "plage": "sort 56377 à 58356",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_037": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "58363",
+    "",
+    "Description"
+   ],
+   "textes": 98,
+   "lignes": 122,
+   "mots": 2499,
+   "plage": "sort 58363 à 60345",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_038": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "60346",
+    "",
+    "ToolTip"
+   ],
+   "textes": 125,
+   "lignes": 143,
+   "mots": 2461,
+   "plage": "sort 60346 à 63094",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_039": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "63108",
+    "",
+    "Description"
+   ],
+   "textes": 99,
+   "lignes": 117,
+   "mots": 2498,
+   "plage": "sort 63108 à 65156",
+   "chantier": "G",
+   "bloque": ""
+  },
+  "sorts_standard_040": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "65182",
+    "",
+    "Description"
+   ],
+   "textes": 135,
+   "lignes": 215,
+   "mots": 2219,
+   "plage": "sort 65182 à 75461",
    "chantier": "G",
    "bloque": ""
   },
@@ -4822,10 +5992,10 @@
     "",
     "texte"
    ],
-   "textes": 286,
-   "lignes": 312,
-   "mots": 3973,
-   "plage": "chaine_interface ABSORB_TRAILER à MINIMAP_TRACKING_DREAM_LIKE_MIKOLON",
+   "textes": 194,
+   "lignes": 211,
+   "mots": 2489,
+   "plage": "chaine_interface ABSORB_TRAILER à ERR_INVITED_TO_GUILD_SSS",
    "chantier": "F",
    "bloque": ""
   },
@@ -4833,14 +6003,44 @@
    "famille": "interface",
    "debut": [
     "chaine_interface",
-    "MINIMAP_TRACKING_DREAM_LIKE_MIKOLON_DESC",
+    "ERR_MAIL_REACHED_CAP",
     "",
     "texte"
    ],
-   "textes": 212,
-   "lignes": 231,
-   "mots": 3711,
-   "plage": "chaine_interface MINIMAP_TRACKING_DREAM_LIKE_MIKOLON_DESC à WORLD_PVP_QUEUED",
+   "textes": 137,
+   "lignes": 147,
+   "mots": 2479,
+   "plage": "chaine_interface ERR_MAIL_REACHED_CAP à NPE_GENERIC_CA2_ALLOC2_TEXT",
+   "chantier": "F",
+   "bloque": ""
+  },
+  "interface_003": {
+   "famille": "interface",
+   "debut": [
+    "chaine_interface",
+    "NPE_LOOT_BLUE_MYSTIC_ENCHANT1_TEXT",
+    "",
+    "texte"
+   ],
+   "textes": 148,
+   "lignes": 165,
+   "mots": 2493,
+   "plage": "chaine_interface NPE_LOOT_BLUE_MYSTIC_ENCHANT1_TEXT à TUTORIAL46",
+   "chantier": "F",
+   "bloque": ""
+  },
+  "interface_004": {
+   "famille": "interface",
+   "debut": [
+    "chaine_interface",
+    "TUTORIAL55",
+    "",
+    "texte"
+   ],
+   "textes": 19,
+   "lignes": 20,
+   "mots": 223,
+   "plage": "chaine_interface TUTORIAL55 à WORLD_PVP_QUEUED",
    "chantier": "F",
    "bloque": ""
   }
@@ -4885,20 +6085,7 @@
     "quetes_029",
     "quetes_030",
     "quetes_031",
-    "quetes_032"
-   ],
-   "textes": 4743,
-   "mots": 127890,
-   "mots_bloques": 0
-  },
-  {
-   "id": "B",
-   "nom": "Quêtes, seconde plage",
-   "priorite": 1,
-   "familles": [
-    "quetes"
-   ],
-   "lots": [
+    "quetes_032",
     "quetes_033",
     "quetes_034",
     "quetes_035",
@@ -4917,7 +6104,20 @@
     "quetes_048",
     "quetes_049",
     "quetes_050",
-    "quetes_051",
+    "quetes_051"
+   ],
+   "textes": 4720,
+   "mots": 127348,
+   "mots_bloques": 0
+  },
+  {
+   "id": "B",
+   "nom": "Quêtes, seconde plage",
+   "priorite": 1,
+   "familles": [
+    "quetes"
+   ],
+   "lots": [
     "quetes_052",
     "quetes_053",
     "quetes_054",
@@ -4931,10 +6131,46 @@
     "quetes_062",
     "quetes_063",
     "quetes_064",
-    "quetes_065"
+    "quetes_065",
+    "quetes_066",
+    "quetes_067",
+    "quetes_068",
+    "quetes_069",
+    "quetes_070",
+    "quetes_071",
+    "quetes_072",
+    "quetes_073",
+    "quetes_074",
+    "quetes_075",
+    "quetes_076",
+    "quetes_077",
+    "quetes_078",
+    "quetes_079",
+    "quetes_080",
+    "quetes_081",
+    "quetes_082",
+    "quetes_083",
+    "quetes_084",
+    "quetes_085",
+    "quetes_086",
+    "quetes_087",
+    "quetes_088",
+    "quetes_089",
+    "quetes_090",
+    "quetes_091",
+    "quetes_092",
+    "quetes_093",
+    "quetes_094",
+    "quetes_095",
+    "quetes_096",
+    "quetes_097",
+    "quetes_098",
+    "quetes_099",
+    "quetes_100",
+    "quetes_101"
    ],
-   "textes": 4722,
-   "mots": 124727,
+   "textes": 4745,
+   "mots": 125269,
    "mots_bloques": 0
   },
   {
@@ -4974,6 +6210,13 @@
     "talents_026",
     "talents_027",
     "talents_028",
+    "talents_029",
+    "talents_030",
+    "talents_031",
+    "talents_032",
+    "talents_033",
+    "talents_034",
+    "talents_035",
     "sorts_classes_001",
     "sorts_classes_002",
     "sorts_classes_003",
@@ -4995,7 +6238,11 @@
     "sorts_classes_019",
     "sorts_classes_020",
     "sorts_classes_021",
-    "sorts_classes_022"
+    "sorts_classes_022",
+    "sorts_classes_023",
+    "sorts_classes_024",
+    "sorts_classes_025",
+    "sorts_classes_026"
    ],
    "textes": 14843,
    "mots": 140365,
@@ -5022,9 +6269,13 @@
     "dialogues_001",
     "dialogues_002",
     "dialogues_003",
+    "dialogues_004",
+    "dialogues_005",
     "broadcast_cris_001",
     "broadcast_cris_002",
     "broadcast_cris_003",
+    "broadcast_cris_004",
+    "broadcast_cris_005",
     "objets_monde_001",
     "objets_monde_002",
     "objets_monde_003",
@@ -5137,6 +6388,8 @@
    "lots": [
     "interface_001",
     "interface_002",
+    "interface_003",
+    "interface_004",
     "races_001",
     "factions_001",
     "competences_001",
@@ -5151,6 +6404,8 @@
     "pages_courriers_001",
     "pages_courriers_002",
     "pages_courriers_003",
+    "pages_courriers_004",
+    "pages_courriers_005",
     "manastorm_001",
     "manastorm_002",
     "messages_serveur_001",
@@ -5188,6 +6443,10 @@
     "sorts_serveur_010",
     "sorts_serveur_011",
     "sorts_serveur_012",
+    "sorts_serveur_013",
+    "sorts_serveur_014",
+    "sorts_serveur_015",
+    "sorts_serveur_016",
     "sorts_standard_001",
     "sorts_standard_002",
     "sorts_standard_003",
@@ -5212,7 +6471,22 @@
     "sorts_standard_022",
     "sorts_standard_023",
     "sorts_standard_024",
-    "sorts_standard_025"
+    "sorts_standard_025",
+    "sorts_standard_026",
+    "sorts_standard_027",
+    "sorts_standard_028",
+    "sorts_standard_029",
+    "sorts_standard_030",
+    "sorts_standard_031",
+    "sorts_standard_032",
+    "sorts_standard_033",
+    "sorts_standard_034",
+    "sorts_standard_035",
+    "sorts_standard_036",
+    "sorts_standard_037",
+    "sorts_standard_038",
+    "sorts_standard_039",
+    "sorts_standard_040"
    ],
    "textes": 8552,
    "mots": 137685,
@@ -5246,6 +6520,7 @@
     "hauts_faits_017",
     "hauts_faits_018",
     "hauts_faits_019",
+    "hauts_faits_020",
     "enchantements_001",
     "enchantements_002",
     "enchantements_003",

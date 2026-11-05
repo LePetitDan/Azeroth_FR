@@ -1,20 +1,20 @@
 # Plan des chantiers de traduction
 
-*Écrit par `python3 -I outils/lots.py plan` le 2026-11-05 19:56 (lots d'environ 4 000 mots anglais, 300 textes au plus ; états a_traduire, a_revoir). Chiffres en textes distincts et en mots anglais (sans variables ni codes), lignes techniques probables exclues. Le plan est fixe : les noms et les plages des lots ne bougent plus ; `lots.py etat` donne l'avancement.*
+*Écrit par `python3 -I outils/lots.py plan` le 2026-11-05 20:22 (lots d'environ 2 500 mots anglais, 300 textes au plus ; états a_traduire, a_revoir). Chiffres en textes distincts et en mots anglais (sans variables ni codes), lignes techniques probables exclues. Le plan est fixe : les noms et les plages des lots ne bougent plus ; `lots.py etat` donne l'avancement.*
 
 ## Les chantiers (un agent chacun, aucun fichier commun)
 
 | Chantier | Priorité | Familles | Lots | Textes | Mots | Plage |
 |---|---:|---|---:|---:|---:|---|
-| **A** Quêtes, première plage | 1 | quetes | 32 | 4 743 | 127 890 | quêtes n° 1 à 11488 |
-| **B** Quêtes, seconde plage | 1 | quetes | 33 | 4 722 | 124 727 | quêtes n° 11489 à 9302431 |
-| **C** Sorts des classes et talents | 2 | talents, sorts_classes | 50 | 14 843 | 140 365 | familles entières |
-| **D** Monde : PNJ, dialogues, cris, objets du monde, zones | 3 | zones, creatures, dialogues, broadcast_cris, objets_monde | 16 | 3 763 | 28 152 | familles entières |
+| **A** Quêtes, première plage | 1 | quetes | 51 | 4 720 | 127 348 | quêtes n° 1 à 11429 |
+| **B** Quêtes, seconde plage | 1 | quetes | 50 | 4 745 | 125 269 | quêtes n° 11432 à 9302431 |
+| **C** Sorts des classes et talents | 2 | talents, sorts_classes | 61 | 14 843 | 140 365 | familles entières |
+| **D** Monde : PNJ, dialogues, cris, objets du monde, zones | 3 | zones, creatures, dialogues, broadcast_cris, objets_monde | 20 | 3 763 | 28 152 | familles entières |
 | **E** Objets | 4 | objets | 66 | 19 644 | 81 186 | familles entières |
-| **F** Interface et textes divers | 5 | interface, races, factions, competences, sous_classes_objets, ensembles_objets_client, ensembles_objets, suffixes_objets, courriers, pages_courriers, manastorm, messages_serveur, cpp_en_dur, divers_serveur, rencontres_donjon | 26 | 4 802 | 38 370 | familles entières |
-| **G** Sorts du serveur et sorts standard à revoir | 6 | sorts_serveur, sorts_standard, sorts_coa | 37 | 8 552 | 137 685 | familles entières |
-| **H** Hauts faits (et enchantements sans modèle, en attente) | 7 | hauts_faits, enchantements | 26 | 5 557 | 40 569 (+10 067 mots en attente) | familles entières |
-| **Total** | | | 286 | 66 626 | 718 944 | |
+| **F** Interface et textes divers | 5 | interface, races, factions, competences, sous_classes_objets, ensembles_objets_client, ensembles_objets, suffixes_objets, courriers, pages_courriers, manastorm, messages_serveur, cpp_en_dur, divers_serveur, rencontres_donjon | 30 | 4 802 | 38 370 | familles entières |
+| **G** Sorts du serveur et sorts standard à revoir | 6 | sorts_serveur, sorts_standard, sorts_coa | 56 | 8 552 | 137 685 | familles entières |
+| **H** Hauts faits (et enchantements sans modèle, en attente) | 7 | hauts_faits, enchantements | 27 | 5 557 | 40 569 (+10 067 mots en attente) | familles entières |
+| **Total** | | | 361 | 66 626 | 718 944 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -24,23 +24,23 @@
 
 | Famille | Chantier | Textes | Lignes | Mots | Lots | Techniques probables (exclues) |
 |---|---|---:|---:|---:|---:|---:|
-| quetes | A, B | 9 465 | 12 444 | 252 617 | 65 | 0 |
+| quetes | A, B | 9 465 | 12 444 | 252 617 | 101 | 0 |
 | creatures | D | 661 | 689 | 1 992 | 3 | 23 |
 | objets | E | 19 644 | 28 806 | 81 186 | 66 | 3 |
 | objets_monde | D | 953 | 1 086 | 2 389 | 4 | 0 |
-| dialogues | D | 469 | 909 | 11 261 | 3 | 0 |
-| broadcast_cris | D | 866 | 1 189 | 10 288 | 3 | 0 |
-| pages_courriers | F | 164 | 171 | 9 989 | 3 | 0 |
+| dialogues | D | 469 | 909 | 11 261 | 5 | 0 |
+| broadcast_cris | D | 866 | 1 189 | 10 288 | 5 | 0 |
+| pages_courriers | F | 164 | 171 | 9 989 | 5 | 0 |
 | messages_serveur | F | 1 110 | 1 115 | 5 983 | 4 | 0 |
 | manastorm | F | 436 | 582 | 2 867 | 2 | 0 |
 | cpp_en_dur | F | 501 | 541 | 3 868 | 2 | 2 |
-| sorts_serveur | G | 3 457 | 16 632 | 38 550 | 12 | 0 |
+| sorts_serveur | G | 3 457 | 16 632 | 38 550 | 16 | 0 |
 | divers_serveur | F | 120 | 121 | 398 | 1 | 0 |
-| sorts_classes | C | 6 569 | 9 561 | 53 644 | 22 | 2 |
-| talents | C | 8 274 | 14 889 | 86 721 | 28 | 45 |
-| hauts_faits | H | 5 557 | 8 219 | 40 569 | 19 | 0 |
+| sorts_classes | C | 6 569 | 9 561 | 53 644 | 26 | 2 |
+| talents | C | 8 274 | 14 889 | 86 721 | 35 | 45 |
+| hauts_faits | H | 5 557 | 8 219 | 40 569 | 20 | 0 |
 | zones | D | 814 | 1 244 | 2 222 | 3 | 0 |
-| sorts_standard | G | 5 095 | 8 456 | 99 135 | 25 | 2 |
+| sorts_standard | G | 5 095 | 8 456 | 99 135 | 40 | 2 |
 | factions | F | 18 | 18 | 91 | 1 | 0 |
 | races | F | 11 | 13 | 17 | 1 | 0 |
 | sous_classes_objets | F | 1 | 2 | 2 | 1 | 0 |
@@ -50,7 +50,7 @@
 | courriers | F | 14 | 14 | 789 | 1 | 0 |
 | rencontres_donjon | F | 172 | 503 | 377 | 1 | 0 |
 | enchantements | H | 2 025 | 3 503 | 10 067 | 7 | 2 267 |
-| interface | F | 498 | 543 | 7 684 | 2 | 0 |
+| interface | F | 498 | 543 | 7 684 | 4 | 0 |
 
 ## Les lots
 
@@ -58,131 +58,178 @@
 
 | Lot | Plage | Textes | Lignes | Mots |
 |---|---|---:|---:|---:|
-| `quetes_001` | quêtes n° 1 à 263 | 147 | 154 | 4015 |
-| `quetes_002` | quêtes n° 264 à 876 | 189 | 193 | 4065 |
-| `quetes_003` | quêtes n° 877 à 1116 | 175 | 201 | 3987 |
-| `quetes_004` | quêtes n° 1118 à 1428 | 146 | 211 | 3941 |
-| `quetes_005` | quêtes n° 1434 à 1599 | 92 | 98 | 4007 |
-| `quetes_006` | quêtes n° 1618 à 1821 | 108 | 113 | 3973 |
-| `quetes_007` | quêtes n° 1822 à 2278 | 143 | 154 | 3992 |
-| `quetes_008` | quêtes n° 2281 à 2854 | 141 | 158 | 3973 |
-| `quetes_009` | quêtes n° 2855 à 3101 | 104 | 117 | 4084 |
-| `quetes_010` | quêtes n° 3102 à 3702 | 119 | 139 | 3948 |
-| `quetes_011` | quêtes n° 3721 à 4452 | 150 | 201 | 4000 |
-| `quetes_012` | quêtes n° 4453 à 4806 | 103 | 113 | 3997 |
-| `quetes_013` | quêtes n° 4807 à 5166 | 131 | 148 | 3994 |
-| `quetes_014` | quêtes n° 5167 à 5543 | 124 | 144 | 4001 |
-| `quetes_015` | quêtes n° 5561 à 6085 | 118 | 156 | 3948 |
-| `quetes_016` | quêtes n° 6086 à 6627 | 140 | 147 | 3967 |
-| `quetes_017` | quêtes n° 6628 à 7508 | 145 | 174 | 4022 |
-| `quetes_018` | quêtes n° 7509 à 7796 | 121 | 179 | 3959 |
-| `quetes_019` | quêtes n° 7802 à 8048 | 92 | 128 | 4013 |
-| `quetes_020` | quêtes n° 8049 à 8144 | 112 | 170 | 3974 |
-| `quetes_021` | quêtes n° 8145 à 8363 | 132 | 172 | 4004 |
-| `quetes_022` | quêtes n° 8364 à 8528 | 127 | 182 | 4017 |
-| `quetes_023` | quêtes n° 8529 à 8636 | 107 | 253 | 3996 |
-| `quetes_024` | quêtes n° 8642 à 8947 | 147 | 334 | 4002 |
-| `quetes_025` | quêtes n° 8948 à 9109 | 154 | 278 | 3991 |
-| `quetes_026` | quêtes n° 9110 à 9338 | 159 | 219 | 4010 |
-| `quetes_027` | quêtes n° 9339 à 9680 | 190 | 203 | 4009 |
-| `quetes_028` | quêtes n° 9681 à 9981 | 204 | 221 | 4008 |
-| `quetes_029` | quêtes n° 9982 à 10419 | 263 | 308 | 4003 |
-| `quetes_030` | quêtes n° 10421 à 10861 | 237 | 277 | 4005 |
-| `quetes_031` | quêtes n° 10864 à 11108 | 169 | 187 | 3986 |
-| `quetes_032` | quêtes n° 11109 à 11488 | 254 | 310 | 3999 |
+| `quetes_001` | quêtes n° 1 à 187 | 86 | 91 | 2502 |
+| `quetes_002` | quêtes n° 188 à 363 | 103 | 106 | 2472 |
+| `quetes_003` | quêtes n° 372 à 835 | 116 | 119 | 2476 |
+| `quetes_004` | quêtes n° 837 à 968 | 117 | 125 | 2511 |
+| `quetes_005` | quêtes n° 971 à 1136 | 109 | 127 | 2532 |
+| `quetes_006` | quêtes n° 1138 à 1321 | 81 | 143 | 2483 |
+| `quetes_007` | quêtes n° 1324 à 1501 | 84 | 88 | 2497 |
+| `quetes_008` | quêtes n° 1502 à 1599 | 53 | 58 | 2542 |
+| `quetes_009` | quêtes n° 1618 à 1779 | 72 | 75 | 2426 |
+| `quetes_010` | quêtes n° 1780 à 1884 | 73 | 75 | 2544 |
+| `quetes_011` | quêtes n° 1885 à 2204 | 88 | 99 | 2504 |
+| `quetes_012` | quêtes n° 2205 à 2609 | 92 | 101 | 2542 |
+| `quetes_013` | quêtes n° 2623 à 2859 | 77 | 85 | 2478 |
+| `quetes_014` | quêtes n° 2860 à 3086 | 79 | 92 | 2537 |
+| `quetes_015` | quêtes n° 3087 à 3374 | 52 | 52 | 2483 |
+| `quetes_016` | quêtes n° 3375 à 3702 | 82 | 102 | 2456 |
+| `quetes_017` | quêtes n° 3721 à 4126 | 86 | 129 | 2527 |
+| `quetes_018` | quêtes n° 4132 à 4509 | 93 | 102 | 2567 |
+| `quetes_019` | quêtes n° 4511 à 4788 | 65 | 68 | 2507 |
+| `quetes_020` | quêtes n° 4792 à 5061 | 79 | 88 | 2532 |
+| `quetes_021` | quêtes n° 5063 à 5223 | 80 | 99 | 2477 |
+| `quetes_022` | quêtes n° 5232 à 5519 | 84 | 98 | 2501 |
+| `quetes_023` | quêtes n° 5521 à 5721 | 62 | 76 | 2502 |
+| `quetes_024` | quêtes n° 5723 à 6088 | 82 | 107 | 2497 |
+| `quetes_025` | quêtes n° 6089 à 6504 | 86 | 89 | 2466 |
+| `quetes_026` | quêtes n° 6521 à 6845 | 84 | 88 | 2484 |
+| `quetes_027` | quêtes n° 6846 à 7463 | 98 | 106 | 2510 |
+| `quetes_028` | quêtes n° 7481 à 7647 | 79 | 100 | 2538 |
+| `quetes_029` | quêtes n° 7648 à 7822 | 64 | 126 | 2495 |
+| `quetes_030` | quêtes n° 7828 à 7930 | 57 | 84 | 2476 |
+| `quetes_031` | quêtes n° 7934 à 8072 | 72 | 77 | 2491 |
+| `quetes_032` | quêtes n° 8073 à 8146 | 68 | 126 | 2454 |
+| `quetes_033` | quêtes n° 8147 à 8274 | 70 | 94 | 2497 |
+| `quetes_034` | quêtes n° 8280 à 8467 | 108 | 150 | 2451 |
+| `quetes_035` | quêtes n° 8469 à 8523 | 69 | 98 | 2534 |
+| `quetes_036` | quêtes n° 8524 à 8589 | 74 | 179 | 2491 |
+| `quetes_037` | quêtes n° 8590 à 8741 | 68 | 155 | 2456 |
+| `quetes_038` | quêtes n° 8742 à 8879 | 80 | 158 | 2485 |
+| `quetes_039` | quêtes n° 8880 à 8986 | 74 | 170 | 2471 |
+| `quetes_040` | quêtes n° 8987 à 9110 | 122 | 213 | 2492 |
+| `quetes_041` | quêtes n° 9111 à 9257 | 113 | 166 | 2438 |
+| `quetes_042` | quêtes n° 9259 à 9446 | 93 | 100 | 2537 |
+| `quetes_043` | quêtes n° 9447 à 9637 | 116 | 122 | 2511 |
+| `quetes_044` | quêtes n° 9642 à 9811 | 122 | 130 | 2513 |
+| `quetes_045` | quêtes n° 9812 à 10015 | 131 | 148 | 2490 |
+| `quetes_046` | quêtes n° 10017 à 10323 | 184 | 220 | 2507 |
+| `quetes_047` | quêtes n° 10326 à 10619 | 153 | 181 | 2484 |
+| `quetes_048` | quêtes n° 10620 à 10855 | 133 | 153 | 2495 |
+| `quetes_049` | quêtes n° 10856 à 11010 | 124 | 130 | 2498 |
+| `quetes_050` | quêtes n° 11011 à 11219 | 117 | 141 | 2503 |
+| `quetes_051` | quêtes n° 11221 à 11429 | 166 | 207 | 2486 |
 
 ### Chantier B : Quêtes, seconde plage
 
 | Lot | Plage | Textes | Lignes | Mots |
 |---|---|---:|---:|---:|
-| `quetes_033` | quêtes n° 11489 à 11913 | 300 | 334 | 2182 |
-| `quetes_034` | quêtes n° 11917 à 12478 | 301 | 467 | 2894 |
-| `quetes_035` | quêtes n° 12481 à 12915 | 300 | 332 | 3048 |
-| `quetes_036` | quêtes n° 12916 à 13321 | 300 | 355 | 2623 |
-| `quetes_037` | quêtes n° 13323 à 14227 | 272 | 455 | 3944 |
-| `quetes_038` | quêtes n° 14228 à 18109 | 109 | 124 | 4000 |
-| `quetes_039` | quêtes n° 20438 à 25415 | 184 | 316 | 3954 |
-| `quetes_040` | quêtes n° 25417 à 52001 | 110 | 112 | 4011 |
-| `quetes_041` | quêtes n° 52002 à 53005 | 55 | 60 | 4121 |
-| `quetes_042` | quêtes n° 53006 à 55101 | 56 | 66 | 4099 |
-| `quetes_043` | quêtes n° 55102 à 175010 | 104 | 119 | 4012 |
-| `quetes_044` | quêtes n° 175011 à 175089 | 95 | 95 | 4048 |
-| `quetes_045` | quêtes n° 175090 à 175208 | 88 | 88 | 3945 |
-| `quetes_046` | quêtes n° 175323 à 200020 | 129 | 275 | 4061 |
-| `quetes_047` | quêtes n° 200021 à 200058 | 108 | 206 | 4080 |
-| `quetes_048` | quêtes n° 200060 à 200106 | 90 | 164 | 4088 |
-| `quetes_049` | quêtes n° 200107 à 200167 | 82 | 145 | 4022 |
-| `quetes_050` | quêtes n° 200168 à 254056 | 74 | 74 | 4179 |
-| `quetes_051` | quêtes n° 254057 à 255068 | 103 | 108 | 3966 |
-| `quetes_052` | quêtes n° 255069 à 580189 | 104 | 197 | 4032 |
-| `quetes_053` | quêtes n° 580190 à 650147 | 251 | 355 | 4063 |
-| `quetes_054` | quêtes n° 650148 à 980115 | 109 | 471 | 3997 |
-| `quetes_055` | quêtes n° 980120 à 999913 | 136 | 141 | 3997 |
-| `quetes_056` | quêtes n° 999914 à 1660036 | 107 | 108 | 3975 |
-| `quetes_057` | quêtes n° 1660037 à 8200172 | 130 | 193 | 4010 |
-| `quetes_058` | quêtes n° 8200173 à 8200220 | 141 | 141 | 4048 |
-| `quetes_059` | quêtes n° 8200221 à 8200267 | 141 | 141 | 4061 |
-| `quetes_060` | quêtes n° 8200268 à 8200314 | 138 | 138 | 4044 |
-| `quetes_061` | quêtes n° 8200315 à 8200360 | 138 | 138 | 4044 |
-| `quetes_062` | quêtes n° 8200361 à 8200406 | 138 | 138 | 4061 |
-| `quetes_063` | quêtes n° 8200407 à 8200453 | 137 | 138 | 4075 |
-| `quetes_064` | quêtes n° 8200455 à 9302226 | 160 | 170 | 4016 |
-| `quetes_065` | quêtes n° 9302228 à 9302431 | 32 | 38 | 1027 |
+| `quetes_052` | quêtes n° 11432 à 11862 | 289 | 326 | 2435 |
+| `quetes_053` | quêtes n° 11864 à 12292 | 270 | 430 | 2450 |
+| `quetes_054` | quêtes n° 12295 à 12734 | 255 | 280 | 2505 |
+| `quetes_055` | quêtes n° 12735 à 13137 | 255 | 270 | 2506 |
+| `quetes_056` | quêtes n° 13141 à 13724 | 263 | 383 | 2422 |
+| `quetes_057` | quêtes n° 13737 à 14221 | 156 | 270 | 2501 |
+| `quetes_058` | quêtes n° 14222 à 14457 | 59 | 71 | 2533 |
+| `quetes_059` | quêtes n° 14483 à 24545 | 91 | 109 | 2491 |
+| `quetes_060` | quêtes n° 24547 à 25212 | 102 | 216 | 2511 |
+| `quetes_061` | quêtes n° 25228 à 49987 | 104 | 111 | 2537 |
+| `quetes_062` | quêtes n° 49988 à 52003 | 59 | 59 | 2634 |
+| `quetes_063` | quêtes n° 52004 à 53001 | 39 | 43 | 2651 |
+| `quetes_064` | quêtes n° 53002 à 53010 | 29 | 33 | 2548 |
+| `quetes_065` | quêtes n° 53011 à 55100 | 37 | 44 | 2581 |
+| `quetes_066` | quêtes n° 55101 à 149186 | 75 | 84 | 2508 |
+| `quetes_067` | quêtes n° 149187 à 175022 | 52 | 58 | 2498 |
+| `quetes_068` | quêtes n° 175023 à 175076 | 60 | 60 | 2513 |
+| `quetes_069` | quêtes n° 175077 à 175121 | 52 | 52 | 2466 |
+| `quetes_070` | quêtes n° 175123 à 175328 | 58 | 58 | 2527 |
+| `quetes_071` | quêtes n° 175330 à 200005 | 92 | 230 | 2528 |
+| `quetes_072` | quêtes n° 200007 à 200028 | 63 | 84 | 2481 |
+| `quetes_073` | quêtes n° 200029 à 200055 | 70 | 145 | 2584 |
+| `quetes_074` | quêtes n° 200058 à 200083 | 51 | 94 | 2574 |
+| `quetes_075` | quêtes n° 200086 à 200112 | 53 | 102 | 2429 |
+| `quetes_076` | quêtes n° 200113 à 200161 | 55 | 101 | 2582 |
+| `quetes_077` | quêtes n° 200162 à 254008 | 43 | 52 | 2591 |
+| `quetes_078` | quêtes n° 254009 à 254057 | 51 | 51 | 2491 |
+| `quetes_079` | quêtes n° 254059 à 254089 | 46 | 51 | 2474 |
+| `quetes_080` | quêtes n° 254091 à 255116 | 88 | 89 | 2558 |
+| `quetes_081` | quêtes n° 255117 à 580187 | 66 | 158 | 2537 |
+| `quetes_082` | quêtes n° 580188 à 580297 | 202 | 292 | 2513 |
+| `quetes_083` | quêtes n° 580298 à 650151 | 70 | 87 | 2633 |
+| `quetes_084` | quêtes n° 650152 à 980105 | 74 | 431 | 2579 |
+| `quetes_085` | quêtes n° 980106 à 980242 | 86 | 92 | 2538 |
+| `quetes_086` | quêtes n° 980243 à 1005309 | 84 | 85 | 2498 |
+| `quetes_087` | quêtes n° 1005345 à 1660023 | 64 | 64 | 2455 |
+| `quetes_088` | quêtes n° 1660024 à 1660059 | 70 | 71 | 2565 |
+| `quetes_089` | quêtes n° 1660060 à 8200173 | 90 | 153 | 2541 |
+| `quetes_090` | quêtes n° 8200174 à 8200203 | 87 | 87 | 2512 |
+| `quetes_091` | quêtes n° 8200204 à 8200232 | 87 | 87 | 2495 |
+| `quetes_092` | quêtes n° 8200233 à 8200261 | 87 | 87 | 2504 |
+| `quetes_093` | quêtes n° 8200262 à 8200291 | 87 | 87 | 2550 |
+| `quetes_094` | quêtes n° 8200292 à 8200320 | 87 | 87 | 2545 |
+| `quetes_095` | quêtes n° 8200321 à 8200349 | 87 | 87 | 2546 |
+| `quetes_096` | quêtes n° 8200350 à 8200378 | 87 | 87 | 2548 |
+| `quetes_097` | quêtes n° 8200379 à 8200407 | 87 | 87 | 2578 |
+| `quetes_098` | quêtes n° 8200408 à 8200437 | 87 | 88 | 2558 |
+| `quetes_099` | quêtes n° 8200438 à 9302116 | 87 | 87 | 2561 |
+| `quetes_100` | quêtes n° 9302117 à 9302223 | 105 | 112 | 2518 |
+| `quetes_101` | quêtes n° 9302224 à 9302431 | 47 | 56 | 1386 |
 
 ### Chantier C : Sorts des classes et talents
 
 | Lot | Plage | Textes | Lignes | Mots |
 |---|---|---:|---:|---:|
-| `talents_001` | sort 92081 à 300313 | 300 | 3238 | 3435 |
-| `talents_002` | sort 300314 à 300755 | 301 | 392 | 2738 |
-| `talents_003` | sort 300757 à 365178 | 300 | 414 | 2791 |
-| `talents_004` | sort 365179 à 502213 | 300 | 981 | 3797 |
-| `talents_005` | sort 502295 à 504252 | 300 | 768 | 3284 |
-| `talents_006` | sort 504254 à 520236 | 301 | 489 | 2960 |
-| `talents_007` | sort 520237 à 524922 | 301 | 379 | 3163 |
-| `talents_008` | sort 524932 à 560440 | 300 | 410 | 2998 |
-| `talents_009` | sort 560441 à 561127 | 301 | 409 | 2974 |
-| `talents_010` | sort 561138 à 573035 | 300 | 606 | 2978 |
-| `talents_011` | sort 573036 à 680498 | 301 | 507 | 3234 |
-| `talents_012` | sort 680500 à 681052 | 301 | 380 | 3017 |
-| `talents_013` | sort 681054 à 704497 | 300 | 412 | 3037 |
-| `talents_014` | sort 704500 à 704881 | 301 | 378 | 2686 |
-| `talents_015` | sort 704884 à 705268 | 300 | 397 | 2792 |
-| `talents_016` | sort 705271 à 705605 | 301 | 353 | 2604 |
-| `talents_017` | sort 705609 à 705998 | 300 | 352 | 2844 |
-| `talents_018` | sort 705999 à 706502 | 300 | 354 | 2927 |
-| `talents_019` | sort 706514 à 707249 | 300 | 354 | 2787 |
-| `talents_020` | sort 707252 à 707873 | 300 | 323 | 2807 |
-| `talents_021` | sort 707876 à 801135 | 301 | 389 | 3585 |
-| `talents_022` | sort 801143 à 802290 | 294 | 437 | 4015 |
-| `talents_023` | sort 802295 à 804232 | 300 | 418 | 3502 |
-| `talents_024` | sort 804247 à 805104 | 301 | 382 | 3556 |
-| `talents_025` | sort 805105 à 805810 | 300 | 419 | 3651 |
-| `talents_026` | sort 805811 à 806698 | 300 | 438 | 3480 |
-| `talents_027` | sort 806699 à 808009 | 300 | 330 | 3583 |
-| `talents_028` | sort 808082 à arbre_talents 453 | 170 | 180 | 1496 |
+| `talents_001` | sort 92081 à 289130 | 196 | 3021 | 2498 |
+| `talents_002` | sort 289131 à 300542 | 277 | 434 | 2526 |
+| `talents_003` | sort 300543 à 301149 | 270 | 370 | 2496 |
+| `talents_004` | sort 301175 à 500259 | 262 | 536 | 2509 |
+| `talents_005` | sort 500261 à 501772 | 181 | 531 | 2522 |
+| `talents_006` | sort 501836 à 503895 | 210 | 729 | 2524 |
+| `talents_007` | sort 503913 à 504786 | 266 | 430 | 2524 |
+| `talents_008` | sort 504798 à 520534 | 237 | 386 | 2499 |
+| `talents_009` | sort 520539 à 525065 | 248 | 269 | 2510 |
+| `talents_010` | sort 525307 à 560412 | 246 | 340 | 2500 |
+| `talents_011` | sort 560419 à 560919 | 254 | 365 | 2508 |
+| `talents_012` | sort 560924 à 572330 | 268 | 478 | 2514 |
+| `talents_013` | sort 572340 à 582589 | 231 | 477 | 2462 |
+| `talents_014` | sort 582591 à 680618 | 229 | 335 | 2512 |
+| `talents_015` | sort 680619 à 681095 | 261 | 324 | 2528 |
+| `talents_016` | sort 681097 à 704423 | 242 | 329 | 2507 |
+| `talents_017` | sort 704434 à 704815 | 281 | 349 | 2505 |
+| `talents_018` | sort 704816 à 705156 | 266 | 358 | 2512 |
+| `talents_019` | sort 705158 à 705519 | 296 | 355 | 2508 |
+| `talents_020` | sort 705520 à 705846 | 273 | 324 | 2502 |
+| `talents_021` | sort 705848 à 706174 | 251 | 286 | 2502 |
+| `talents_022` | sort 706176 à 706683 | 264 | 300 | 2516 |
+| `talents_023` | sort 706695 à 707395 | 268 | 322 | 2502 |
+| `talents_024` | sort 707398 à 712435 | 266 | 296 | 2508 |
+| `talents_025` | sort 712437 à 800878 | 210 | 275 | 2506 |
+| `talents_026` | sort 800882 à 801801 | 185 | 257 | 2527 |
+| `talents_027` | sort 801821 à 802602 | 196 | 285 | 2533 |
+| `talents_028` | sort 802610 à 804047 | 212 | 298 | 2518 |
+| `talents_029` | sort 804051 à 804737 | 218 | 273 | 2528 |
+| `talents_030` | sort 804739 à 805248 | 215 | 269 | 2512 |
+| `talents_031` | sort 805249 à 805770 | 206 | 321 | 2503 |
+| `talents_032` | sort 805773 à 806292 | 201 | 294 | 2507 |
+| `talents_033` | sort 806293 à 807271 | 218 | 279 | 2504 |
+| `talents_034` | sort 807272 à 1397742 | 208 | 228 | 2515 |
+| `talents_035` | arbre_coa 2 à arbre_talents 453 | 162 | 166 | 1374 |
 | `sorts_classes_001` | sort 75 à 286771 | 300 | 458 | 1291 |
 | `sorts_classes_002` | sort 286772 à 287177 | 300 | 301 | 1046 |
 | `sorts_classes_003` | sort 287178 à 287641 | 300 | 302 | 1025 |
 | `sorts_classes_004` | sort 287642 à 365207 | 300 | 1065 | 951 |
 | `sorts_classes_005` | sort 365208 à 500073 | 302 | 745 | 1378 |
-| `sorts_classes_006` | sort 500074 à 501075 | 301 | 476 | 3281 |
-| `sorts_classes_007` | sort 501134 à 520043 | 301 | 538 | 3384 |
-| `sorts_classes_008` | sort 520046 à 574303 | 300 | 638 | 2793 |
-| `sorts_classes_009` | sort 574360 à 704704 | 300 | 372 | 2950 |
-| `sorts_classes_010` | sort 704705 à 705182 | 300 | 316 | 2535 |
-| `sorts_classes_011` | sort 705189 à 705670 | 301 | 318 | 2513 |
-| `sorts_classes_012` | sort 705673 à 706126 | 300 | 310 | 2613 |
-| `sorts_classes_013` | sort 706127 à 800269 | 300 | 364 | 2870 |
-| `sorts_classes_014` | sort 800270 à 801233 | 301 | 338 | 3203 |
-| `sorts_classes_015` | sort 801242 à 801957 | 301 | 324 | 3564 |
-| `sorts_classes_016` | sort 801967 à 803889 | 301 | 363 | 3763 |
-| `sorts_classes_017` | sort 803895 à 804700 | 301 | 308 | 3644 |
-| `sorts_classes_018` | sort 804702 à 805309 | 301 | 314 | 3247 |
-| `sorts_classes_019` | sort 805312 à 806151 | 301 | 312 | 3318 |
-| `sorts_classes_020` | sort 806156 à 900949 | 300 | 323 | 2347 |
-| `sorts_classes_021` | sort 900950 à 1347236 | 300 | 625 | 1165 |
-| `sorts_classes_022` | sort 1347237 à 13977877 | 258 | 451 | 763 |
+| `sorts_classes_006` | sort 500074 à 500732 | 238 | 389 | 2534 |
+| `sorts_classes_007` | sort 500735 à 503106 | 227 | 444 | 2529 |
+| `sorts_classes_008` | sort 503127 à 534803 | 251 | 484 | 2503 |
+| `sorts_classes_009` | sort 535505 à 681056 | 259 | 453 | 2545 |
+| `sorts_classes_010` | sort 699760 à 704728 | 251 | 278 | 2502 |
+| `sorts_classes_011` | sort 704730 à 705199 | 294 | 310 | 2508 |
+| `sorts_classes_012` | sort 705200 à 705688 | 301 | 319 | 2500 |
+| `sorts_classes_013` | sort 705697 à 706135 | 291 | 300 | 2528 |
+| `sorts_classes_014` | sort 706136 à 800218 | 269 | 332 | 2521 |
+| `sorts_classes_015` | sort 800233 à 800946 | 244 | 280 | 2510 |
+| `sorts_classes_016` | sort 800950 à 801564 | 197 | 205 | 2509 |
+| `sorts_classes_017` | sort 801568 à 802001 | 212 | 230 | 2507 |
+| `sorts_classes_018` | sort 802008 à 803183 | 210 | 248 | 2548 |
+| `sorts_classes_019` | sort 803193 à 804295 | 207 | 233 | 2537 |
+| `sorts_classes_020` | sort 804331 à 804781 | 216 | 225 | 2536 |
+| `sorts_classes_021` | sort 804782 à 805304 | 238 | 246 | 2500 |
+| `sorts_classes_022` | sort 805309 à 805798 | 219 | 230 | 2527 |
+| `sorts_classes_023` | sort 805802 à 807682 | 242 | 257 | 2529 |
+| `sorts_classes_024` | sort 807727 à 997141 | 300 | 542 | 1267 |
+| `sorts_classes_025` | sort 997802 à 9934100 | 300 | 473 | 1048 |
+| `sorts_classes_026` | sort 9934101 à 13977877 | 101 | 212 | 265 |
 
 ### Chantier D : Monde : PNJ, dialogues, cris, objets du monde, zones
 
@@ -194,12 +241,16 @@
 | `creatures_001` | creature 1 à 56332 | 300 | 305 | 1103 |
 | `creatures_002` | creature 64627 à 9300575 | 300 | 306 | 755 |
 | `creatures_003` | creature 9300576 à 11000187 | 61 | 78 | 134 |
-| `dialogues_001` | dialogue_pnj 22 à 115558 | 92 | 171 | 3982 |
-| `dialogues_002` | dialogue_pnj 115564 à 1200440 | 138 | 265 | 3988 |
-| `dialogues_003` | dialogue_pnj 1200446 à formateur 900033 | 239 | 473 | 3291 |
-| `broadcast_cris_001` | texte_creature 38 à 29620 | 300 | 326 | 2763 |
-| `broadcast_cris_002` | texte_creature 30142 à 164071 | 305 | 428 | 3775 |
-| `broadcast_cris_003` | texte_creature 164074 à 9916212 | 261 | 435 | 3750 |
+| `dialogues_001` | dialogue_pnj 22 à 60073 | 70 | 128 | 2489 |
+| `dialogues_002` | dialogue_pnj 60075 à 930027 | 55 | 99 | 2492 |
+| `dialogues_003` | dialogue_pnj 930028 à 932519 | 100 | 200 | 2487 |
+| `dialogues_004` | dialogue_pnj 932520 à option_dialogue 21269 | 78 | 178 | 2505 |
+| `dialogues_005` | option_dialogue 21270 à formateur 900033 | 166 | 304 | 1288 |
+| `broadcast_cris_001` | texte_creature 38 à 27992 | 272 | 298 | 2505 |
+| `broadcast_cris_002` | texte_creature 28070 à 164005 | 227 | 275 | 2549 |
+| `broadcast_cris_003` | texte_creature 164006 à 164262 | 195 | 429 | 2499 |
+| `broadcast_cris_004` | texte_creature 164265 à 776786 | 146 | 159 | 2487 |
+| `broadcast_cris_005` | texte_creature 776787 à 9916212 | 26 | 28 | 248 |
 | `objets_monde_001` | objet_monde 30 à 19341 | 300 | 327 | 677 |
 | `objets_monde_002` | objet_monde 19342 à 181074 | 300 | 353 | 704 |
 | `objets_monde_003` | objet_monde 181167 à 2300628 | 300 | 329 | 866 |
@@ -263,25 +314,27 @@
 | `objets_052` | objet 559449 à 559921 | 300 | 301 | 972 |
 | `objets_053` | objet 559924 à 600021 | 300 | 300 | 875 |
 | `objets_054` | objet 601102 à 967333 | 300 | 316 | 1568 |
-| `objets_055` | objet 967522 à 1002404 | 300 | 351 | 2748 |
-| `objets_056` | objet 1002405 à 1010267 | 300 | 302 | 1587 |
-| `objets_057` | objet 1010309 à 2013480 | 300 | 370 | 2750 |
-| `objets_058` | objet 2020202 à 2089249 | 300 | 303 | 1023 |
-| `objets_059` | objet 2089250 à 2100951 | 300 | 344 | 1961 |
-| `objets_060` | objet 2100952 à 2102260 | 300 | 300 | 1677 |
-| `objets_061` | objet 2102261 à 6016539 | 300 | 354 | 2940 |
-| `objets_062` | objet 6016540 à 6041027 | 300 | 438 | 1450 |
-| `objets_063` | objet 6041036 à 6086337 | 300 | 501 | 1380 |
-| `objets_064` | objet 6086342 à 6861924 | 300 | 340 | 1362 |
-| `objets_065` | objet 6861928 à 9701571 | 300 | 2188 | 2240 |
-| `objets_066` | objet 9701572 à 9707008 | 144 | 4340 | 999 |
+| `objets_055` | objet 967522 à 1002244 | 250 | 301 | 2496 |
+| `objets_056` | objet 1002245 à 1008236 | 300 | 302 | 1582 |
+| `objets_057` | objet 1008244 à 1615001 | 299 | 367 | 2494 |
+| `objets_058` | objet 1615002 à 2080541 | 300 | 304 | 1382 |
+| `objets_059` | objet 2080581 à 2100789 | 300 | 342 | 1841 |
+| `objets_060` | objet 2100790 à 2102060 | 300 | 303 | 1690 |
+| `objets_061` | objet 2102076 à 3722460 | 200 | 214 | 2473 |
+| `objets_062` | objet 3722461 à 6029002 | 300 | 440 | 1502 |
+| `objets_063` | objet 6029003 à 6050843 | 300 | 417 | 1360 |
+| `objets_064` | objet 6050844 à 6860163 | 300 | 459 | 1446 |
+| `objets_065` | objet 6860164 à 9302127 | 300 | 315 | 1477 |
+| `objets_066` | objet 9302128 à 9707008 | 295 | 6367 | 2374 |
 
 ### Chantier F : Interface et textes divers
 
 | Lot | Plage | Textes | Lignes | Mots |
 |---|---|---:|---:|---:|
-| `interface_001` | chaine_interface ABSORB_TRAILER à MINIMAP_TRACKING_DREAM_LIKE_MIKOLON | 286 | 312 | 3973 |
-| `interface_002` | chaine_interface MINIMAP_TRACKING_DREAM_LIKE_MIKOLON_DESC à WORLD_PVP_QUEUED | 212 | 231 | 3711 |
+| `interface_001` | chaine_interface ABSORB_TRAILER à ERR_INVITED_TO_GUILD_SSS | 194 | 211 | 2489 |
+| `interface_002` | chaine_interface ERR_MAIL_REACHED_CAP à NPE_GENERIC_CA2_ALLOC2_TEXT | 137 | 147 | 2479 |
+| `interface_003` | chaine_interface NPE_LOOT_BLUE_MYSTIC_ENCHANT1_TEXT à TUTORIAL46 | 148 | 165 | 2493 |
+| `interface_004` | chaine_interface TUTORIAL55 à WORLD_PVP_QUEUED | 19 | 20 | 223 |
 | `races_001` | race 12 à 63 | 11 | 13 | 17 |
 | `factions_001` | faction 112 à 2248 | 18 | 18 | 91 |
 | `competences_001` | competence 2 à 935 | 300 | 432 | 1410 |
@@ -293,9 +346,11 @@
 | `ensembles_objets_client_004` | ensemble_objets_client 60807 à 62002 | 255 | 257 | 971 |
 | `suffixes_objets_001` | suffixe_objet 104 à 279 | 156 | 156 | 495 |
 | `courriers_001` | courrier 272 à 292 | 14 | 14 | 789 |
-| `pages_courriers_001` | page 1001 à 8008 | 59 | 59 | 3971 |
-| `pages_courriers_002` | page 8009 à 931223 | 64 | 64 | 3994 |
-| `pages_courriers_003` | page 931224 à haut_fait_courrier 4785 | 41 | 48 | 2024 |
+| `pages_courriers_001` | page 1001 à 7002 | 38 | 38 | 2440 |
+| `pages_courriers_002` | page 7003 à 11112 | 41 | 41 | 2455 |
+| `pages_courriers_003` | page 15000 à 931132 | 37 | 37 | 2500 |
+| `pages_courriers_004` | page 931214 à haut_fait_courrier 4784 | 46 | 53 | 2537 |
+| `pages_courriers_005` | haut_fait_courrier 4785 à 4785 | 2 | 2 | 57 |
 | `manastorm_001` | coa_manastorm_message 1 à 426 | 301 | 344 | 1892 |
 | `manastorm_002` | coa_manastorm_message 440 à 1206 | 135 | 238 | 975 |
 | `messages_serveur_001` | message_serveur 1 à 314 | 300 | 302 | 1768 |
@@ -312,42 +367,61 @@
 | Lot | Plage | Textes | Lignes | Mots |
 |---|---|---:|---:|---:|
 | `sorts_serveur_001` | sort_dbc_serveur 22352 à 9720015 | 300 | 4358 | 1648 |
-| `sorts_serveur_002` | sort_dbc_serveur 9720016 à 9722601 | 300 | 2865 | 3226 |
-| `sorts_serveur_003` | sort_dbc_serveur 9722901 à coa_description_sort_client 50281 | 300 | 5420 | 2820 |
-| `sorts_serveur_004` | coa_description_sort_client 50869 à 94783 | 300 | 405 | 3147 |
-| `sorts_serveur_005` | coa_description_sort_client 94784 à 286996 | 277 | 317 | 3990 |
-| `sorts_serveur_006` | coa_description_sort_client 286997 à 287481 | 300 | 303 | 3588 |
-| `sorts_serveur_007` | coa_description_sort_client 287482 à 364290 | 300 | 401 | 3440 |
-| `sorts_serveur_008` | coa_description_sort_client 364291 à 498723 | 300 | 508 | 3232 |
-| `sorts_serveur_009` | coa_description_sort_client 498727 à 704772 | 297 | 768 | 3984 |
-| `sorts_serveur_010` | coa_description_sort_client 704823 à 928889 | 271 | 407 | 3992 |
-| `sorts_serveur_011` | coa_description_sort_client 929761 à 1625506 | 300 | 475 | 3354 |
-| `sorts_serveur_012` | coa_description_sort_client 1625507 à 13977843 | 212 | 405 | 2129 |
-| `sorts_standard_001` | sort 4 à 2824 | 186 | 929 | 3979 |
-| `sorts_standard_002` | sort 2825 à 8089 | 220 | 629 | 3989 |
-| `sorts_standard_003` | sort 8134 à 11337 | 180 | 362 | 3993 |
-| `sorts_standard_004` | sort 11338 à 13698 | 203 | 302 | 3998 |
-| `sorts_standard_005` | sort 13700 à 15332 | 190 | 325 | 3966 |
-| `sorts_standard_006` | sort 15335 à 16897 | 205 | 316 | 3982 |
-| `sorts_standard_007` | sort 16909 à 19461 | 201 | 338 | 3994 |
-| `sorts_standard_008` | sort 19464 à 20500 | 173 | 298 | 4008 |
-| `sorts_standard_009` | sort 20501 à 23619 | 300 | 420 | 3760 |
-| `sorts_standard_010` | sort 23691 à 25574 | 221 | 417 | 3997 |
-| `sorts_standard_011` | sort 25645 à 28017 | 226 | 290 | 3999 |
-| `sorts_standard_012` | sort 28062 à 29961 | 265 | 355 | 3991 |
-| `sorts_standard_013` | sort 29963 à 31552 | 199 | 251 | 3983 |
-| `sorts_standard_014` | sort 31569 à 33215 | 177 | 259 | 3965 |
-| `sorts_standard_015` | sort 33221 à 34860 | 188 | 262 | 3985 |
-| `sorts_standard_016` | sort 34879 à 38357 | 300 | 369 | 3972 |
-| `sorts_standard_017` | sort 38390 à 44470 | 254 | 370 | 3967 |
-| `sorts_standard_018` | sort 44471 à 47564 | 187 | 293 | 3987 |
-| `sorts_standard_019` | sort 47567 à 49455 | 153 | 239 | 3974 |
-| `sorts_standard_020` | sort 49467 à 52129 | 165 | 244 | 3962 |
-| `sorts_standard_021` | sort 52131 à 54347 | 149 | 222 | 3997 |
-| `sorts_standard_022` | sort 54378 à 56814 | 217 | 255 | 3995 |
-| `sorts_standard_023` | sort 56815 à 59887 | 153 | 206 | 3993 |
-| `sorts_standard_024` | sort 59888 à 63562 | 194 | 229 | 3972 |
-| `sorts_standard_025` | sort 63611 à 75461 | 189 | 276 | 3727 |
+| `sorts_serveur_002` | sort_dbc_serveur 9720016 à 9721519 | 224 | 2284 | 2490 |
+| `sorts_serveur_003` | sort_dbc_serveur 9721520 à coa_description_sort_client 30174 | 274 | 5811 | 2493 |
+| `sorts_serveur_004` | coa_description_sort_client 30829 à 79035 | 229 | 368 | 2498 |
+| `sorts_serveur_005` | coa_description_sort_client 79040 à 286754 | 247 | 337 | 2496 |
+| `sorts_serveur_006` | coa_description_sort_client 286755 à 286923 | 154 | 157 | 2500 |
+| `sorts_serveur_007` | coa_description_sort_client 286924 à 287241 | 189 | 191 | 2499 |
+| `sorts_serveur_008` | coa_description_sort_client 287242 à 287558 | 215 | 217 | 2492 |
+| `sorts_serveur_009` | coa_description_sort_client 287559 à 364247 | 223 | 303 | 2498 |
+| `sorts_serveur_010` | coa_description_sort_client 364248 à 365241 | 235 | 439 | 2493 |
+| `sorts_serveur_011` | coa_description_sort_client 365242 à 500168 | 237 | 508 | 2495 |
+| `sorts_serveur_012` | coa_description_sort_client 500170 à 704823 | 149 | 374 | 2516 |
+| `sorts_serveur_013` | coa_description_sort_client 705298 à 900106 | 149 | 197 | 2492 |
+| `sorts_serveur_014` | coa_description_sort_client 900107 à 977206 | 205 | 348 | 2495 |
+| `sorts_serveur_015` | coa_description_sort_client 977207 à 1701554 | 229 | 369 | 2495 |
+| `sorts_serveur_016` | coa_description_sort_client 1701555 à 13977843 | 198 | 371 | 1950 |
+| `sorts_standard_001` | sort 4 à 1243 | 111 | 488 | 2478 |
+| `sorts_standard_002` | sort 1329 à 4511 | 142 | 591 | 2504 |
+| `sorts_standard_003` | sort 4955 à 7786 | 131 | 430 | 2492 |
+| `sorts_standard_004` | sort 7793 à 10427 | 119 | 199 | 2457 |
+| `sorts_standard_005` | sort 10428 à 11730 | 105 | 245 | 2488 |
+| `sorts_standard_006` | sort 11784 à 13048 | 117 | 200 | 2495 |
+| `sorts_standard_007` | sort 13159 à 14128 | 143 | 185 | 2494 |
+| `sorts_standard_008` | sort 14138 à 15331 | 110 | 208 | 2496 |
+| `sorts_standard_009` | sort 15332 à 16304 | 116 | 190 | 2476 |
+| `sorts_standard_010` | sort 16305 à 17108 | 125 | 191 | 2500 |
+| `sorts_standard_011` | sort 17116 à 18972 | 142 | 217 | 2478 |
+| `sorts_standard_012` | sort 19028 à 20045 | 119 | 209 | 2492 |
+| `sorts_standard_013` | sort 20049 à 20755 | 96 | 166 | 2467 |
+| `sorts_standard_014` | sort 20756 à 23262 | 201 | 302 | 2493 |
+| `sorts_standard_015` | sort 23308 à 24392 | 164 | 214 | 2460 |
+| `sorts_standard_016` | sort 24398 à 25771 | 146 | 311 | 2503 |
+| `sorts_standard_017` | sort 25778 à 27260 | 140 | 171 | 2499 |
+| `sorts_standard_018` | sort 27275 à 28834 | 148 | 196 | 2528 |
+| `sorts_standard_019` | sort 28835 à 29880 | 168 | 233 | 2503 |
+| `sorts_standard_020` | sort 29881 à 30664 | 135 | 173 | 2471 |
+| `sorts_standard_021` | sort 30665 à 31674 | 114 | 152 | 2469 |
+| `sorts_standard_022` | sort 31675 à 32645 | 107 | 158 | 2473 |
+| `sorts_standard_023` | sort 32682 à 34003 | 129 | 186 | 2490 |
+| `sorts_standard_024` | sort 34004 à 34914 | 110 | 144 | 2472 |
+| `sorts_standard_025` | sort 34916 à 37381 | 179 | 231 | 2515 |
+| `sorts_standard_026` | sort 37384 à 39144 | 204 | 229 | 2496 |
+| `sorts_standard_027` | sort 39221 à 44401 | 159 | 262 | 2474 |
+| `sorts_standard_028` | sort 44404 à 46573 | 123 | 186 | 2463 |
+| `sorts_standard_029` | sort 46578 à 47878 | 94 | 149 | 2472 |
+| `sorts_standard_030` | sort 47884 à 49011 | 94 | 138 | 2466 |
+| `sorts_standard_031` | sort 49012 à 51099 | 120 | 194 | 2491 |
+| `sorts_standard_032` | sort 51123 à 52134 | 84 | 122 | 2480 |
+| `sorts_standard_033` | sort 52136 à 53569 | 92 | 138 | 2454 |
+| `sorts_standard_034` | sort 53576 à 54828 | 104 | 133 | 2491 |
+| `sorts_standard_035` | sort 54831 à 56369 | 134 | 157 | 2487 |
+| `sorts_standard_036` | sort 56377 à 58356 | 113 | 161 | 2491 |
+| `sorts_standard_037` | sort 58363 à 60345 | 98 | 122 | 2499 |
+| `sorts_standard_038` | sort 60346 à 63094 | 125 | 143 | 2461 |
+| `sorts_standard_039` | sort 63108 à 65156 | 99 | 117 | 2498 |
+| `sorts_standard_040` | sort 65182 à 75461 | 135 | 215 | 2219 |
 
 ### Chantier H : Hauts faits (et enchantements sans modèle, en attente)
 
@@ -355,23 +429,24 @@
 |---|---|---:|---:|---:|
 | `hauts_faits_001` | haut_fait 3 à 5325 | 300 | 402 | 2420 |
 | `hauts_faits_002` | haut_fait 5326 à 8332 | 301 | 915 | 2260 |
-| `hauts_faits_003` | haut_fait 8333 à 10147 | 300 | 523 | 3159 |
-| `hauts_faits_004` | haut_fait 10149 à 12501 | 300 | 375 | 3295 |
-| `hauts_faits_005` | haut_fait 12505 à 13856 | 300 | 330 | 1285 |
-| `hauts_faits_006` | haut_fait 13857 à 14523 | 300 | 300 | 2133 |
-| `hauts_faits_007` | haut_fait 14524 à 16214 | 300 | 304 | 2199 |
-| `hauts_faits_008` | haut_fait 16219 à 19261 | 300 | 399 | 2657 |
-| `hauts_faits_009` | haut_fait 19262 à 22139 | 300 | 864 | 3898 |
-| `hauts_faits_010` | haut_fait 22140 à 40342 | 300 | 943 | 2332 |
-| `hauts_faits_011` | haut_fait 40344 à 41782 | 300 | 302 | 1744 |
-| `hauts_faits_012` | haut_fait 41783 à 61139 | 300 | 304 | 1663 |
-| `hauts_faits_013` | haut_fait 61147 à 86000 | 300 | 320 | 1959 |
-| `hauts_faits_014` | haut_fait 86002 à 86507 | 300 | 314 | 1779 |
-| `hauts_faits_015` | haut_fait 86511 à 104015 | 300 | 311 | 2101 |
-| `hauts_faits_016` | haut_fait 104017 à 120842 | 300 | 314 | 1617 |
-| `hauts_faits_017` | haut_fait 120845 à 321233 | 300 | 490 | 1892 |
-| `hauts_faits_018` | haut_fait 321234 à haut_fait_categorie 126 | 300 | 305 | 1898 |
-| `hauts_faits_019` | haut_fait_categorie 127 à 80025 | 156 | 204 | 278 |
+| `hauts_faits_003` | haut_fait 8333 à 10110 | 270 | 493 | 2480 |
+| `hauts_faits_004` | haut_fait 10111 à 10831 | 128 | 193 | 2499 |
+| `hauts_faits_005` | haut_fait 10834 à 13182 | 300 | 331 | 1870 |
+| `hauts_faits_006` | haut_fait 13187 à 14223 | 300 | 309 | 1473 |
+| `hauts_faits_007` | haut_fait 14224 à 14655 | 300 | 300 | 2240 |
+| `hauts_faits_008` | haut_fait 14656 à 18253 | 300 | 403 | 2141 |
+| `hauts_faits_009` | haut_fait 18256 à 19293 | 234 | 234 | 2491 |
+| `hauts_faits_010` | haut_fait 19294 à 21126 | 216 | 780 | 2494 |
+| `hauts_faits_011` | haut_fait 21127 à 29394 | 252 | 266 | 2494 |
+| `hauts_faits_012` | haut_fait 29396 à 41052 | 300 | 931 | 1914 |
+| `hauts_faits_013` | haut_fait 41053 à 47018 | 300 | 300 | 1764 |
+| `hauts_faits_014` | haut_fait 47019 à 64186 | 300 | 304 | 1850 |
+| `hauts_faits_015` | haut_fait 64187 à 86172 | 300 | 334 | 1818 |
+| `hauts_faits_016` | haut_fait 86173 à 90160 | 300 | 310 | 2034 |
+| `hauts_faits_017` | haut_fait 90163 à 120481 | 300 | 301 | 1797 |
+| `hauts_faits_018` | haut_fait 120482 à 320604 | 300 | 504 | 1634 |
+| `hauts_faits_019` | haut_fait 320605 à 321824 | 300 | 300 | 2023 |
+| `hauts_faits_020` | haut_fait 321878 à haut_fait_categorie 80025 | 256 | 309 | 873 |
 | `enchantements_001` (bloqué) | enchantement 23 à 2259 | 300 | 361 | 1436 |
 | `enchantements_002` (bloqué) | enchantement 2260 à 9999 | 300 | 345 | 2044 |
 | `enchantements_003` (bloqué) | enchantement 10000 à 785134 | 300 | 540 | 1433 |
