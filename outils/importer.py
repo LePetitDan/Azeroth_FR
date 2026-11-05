@@ -26,6 +26,10 @@ Ce que fait l'import, dans l'ordre :
    avec la raison dans `note` (son francais reste dans `fr` comme proposition).
 5 bis. Noms d'enchantements propres a CoA (decision n° 14 de Dan, 04/11/2026) : francais du modele officiel de
    Blizzard, au nombre pres, regles strictes de outils/modele_officiel.py (etat machine, source modele_officiel).
+6 bis. Fusion des lignes relues (etape 1), puis de la COUCHE DES TRADUCTIONS DE CLAUDE (atelier du 05/11/2026,
+   `traductions/<famille>/<lot>.tsv`, outils/couche.py) : jamais sur officiel, relu ni technique ; empreinte de
+   l'anglais identique et controle d'entree passe -> machine, source claude ; anglais change -> a_revoir avec
+   l'ancien francais de Claude en note ; refusee -> etat d'avant, refus dans work/etape1/couche_refus.tsv.
 6. Ecrit un fichier TSV par famille (objets decoupes par tranches fixes), verifie qu'aucun
    fichier ne depasse 45 Mo, et ecrit le resume dans work/etape1/import_resume.json.
 
@@ -49,6 +53,7 @@ import officiel as O  # noqa: E402
 import vocabulaire as V  # noqa: E402
 import quetes_cata as Q  # noqa: E402
 import modele_officiel as MO  # noqa: E402
+import couche as CO  # noqa: E402
 
 csv.field_size_limit(1 << 30)
 D = K.COLLECTE
@@ -1108,6 +1113,42 @@ class Importeur:
         self.cr['relu_orphelin'] = len(self.orphelins)
 
     # ------------------------------------------------------------------
+    # 7. Atelier de traduction (05/11/2026) : la couche des traductions de Claude (`traductions/`)
+    # ------------------------------------------------------------------
+    def appliquer_couche(self):
+        """Fusionne `traductions/<famille>/<lot>.tsv` (outils/couche.py) APRES tout le reste, relus compris : une
+        traduction de Claude ne remplace jamais une ligne officiel, relu ou technique ; elle s'applique sur une ligne
+        a_traduire ou a_revoir (ou machine de l'archive pour les sorts et talents des classes) si l'empreinte de
+        l'anglais est la meme et si le controle d'entree passe (etat machine, source claude). Anglais change : la ligne
+        passe a_revoir, l'ancien francais de Claude en note. Refusee : la ligne reste a son etat d'avant."""
+        couche, doublons, erreurs = CO.lire_couche()
+        if erreurs:
+            raise SystemExit('ERREUR : couche des traductions mal formée : %s' % erreurs[:5])
+        cr, refus, perimees, orphelines = CO.appliquer(
+            self.lignes, self.famille_de, couche,
+            lambda en, fr, typ, i: self.controle(en, fr, 'machine', typ, i))
+        cr['doublon_ecarte'] = len(doublons)
+        for k, n in cr.items():
+            self.cr['couche_claude:' + k] += n
+        self.cr['couche_claude:lignes_lues'] = len(couche)
+        os.makedirs(K.TRAVAIL, exist_ok=True)
+        with open(os.path.join(K.TRAVAIL, 'couche_refus.tsv'), 'w', encoding='utf-8', newline='\n') as f:
+            f.write('quoi\tfichier\ttype\tid\tsous_id\tchamp\traisons\ten\tfr\n')
+            for k, rel, r, en, fr in refus:
+                f.write('\t'.join(['refusee', rel] + [K.echapper(x) for x in k] + [', '.join(r), K.echapper(en), K.echapper(fr)]) + '\n')
+            for k, rel in perimees:
+                f.write('\t'.join(['perimee', rel] + [K.echapper(x) for x in k] + ['anglais modifié', '', '']) + '\n')
+            for k, rel in orphelines:
+                f.write('\t'.join(['orpheline', rel] + [K.echapper(x) for x in k] + ['clé absente de textes/', '', '']) + '\n')
+            for k, garde, ecarte in doublons:
+                f.write('\t'.join(['doublon', ecarte] + [K.echapper(x) for x in k] + ['déjà dans ' + garde, '', '']) + '\n')
+        for k, rel, r, en, fr in refus[:10]:
+            self.exemples['couche_claude_refus'].append({'cle': '/'.join(k), 'fichier': rel, 'raisons': r,
+                                                         'en': en[:160], 'fr': fr[:160]})
+        K.journal('import : couche des traductions de Claude, %d lignes lues ; %s ; refus dans %s'
+                  % (len(couche), dict(cr), os.path.join(K.TRAVAIL, 'couche_refus.tsv')))
+
+    # ------------------------------------------------------------------
     # 6. Ecriture
     # ------------------------------------------------------------------
     def famille_de(self, k, l):
@@ -1179,6 +1220,7 @@ def main():
     imp.corriger_et_controler()
     imp.importer_enchantements_modele()
     imp.fusionner_relus()
+    imp.appliquer_couche()
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

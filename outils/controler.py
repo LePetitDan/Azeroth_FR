@@ -17,6 +17,14 @@ Il ne corrige RIEN : il lit, compare chaque francais a son anglais et ecrit un r
 3. Lignes `machine` de source `modele_officiel` (enchantements CoA, decision n° 14 de Dan) : le francais doit etre
    exactement celui du modele officiel, reappris des lignes officielles de textes/client/enchantements.tsv
    (outils/modele_officiel.py) ; sinon BLOQUANT.
+4. La couche des traductions de Claude (`traductions/`, outils/couche.py, atelier du 05/11/2026) :
+   - fichier mal forme, de plus de 45 Mo, ou cle en double dans la couche : BLOQUANT (format) ;
+   - chaque ligne de la couche est comparee a `textes/` : appliquee, refusee au controle (nommee, avec ses raisons),
+     anglais modifie depuis la traduction, cle absente, ligne protegee (officiel, relu, technique) ; liste complete
+     dans work/etape1/couche_controle.tsv. Une ligne refusee n'est pas affichee (elle est restee a son etat d'avant) :
+     niveau COUCHE, non bloquant, mais nommee dans le rapport ;
+   - une ligne `machine` de source `claude` dans `textes/` sans la meme ligne dans la couche : SIGNALE (l'import
+     suivant la ferait disparaitre).
 
 Lecture du verdict :
 - BLOQUANT : erreur de format, ou refus sur une ligne officiel/machine/relu SANS officiel
@@ -35,9 +43,10 @@ if ICI not in sys.path:
 import commun as K  # noqa: E402
 import controle as C  # noqa: E402
 import modele_officiel as MO  # noqa: E402
+import couche as CO  # noqa: E402
 
 SOURCES_CONNUES = {'', 'blizzard_frFR', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire',
-                   MO.SOURCE}
+                   MO.SOURCE, CO.SOURCE}
 
 
 def raison_courte(r):
@@ -96,8 +105,19 @@ def main():
     K.journal('controle : %d fichiers, %d règles, %d noms officiels contrôlés, %d gabarits d\'enchantements officiels'
               % (len(fichiers), len(regles), noms.n, len(modeles.table)))
 
+    # atelier du 05/11/2026 : la couche des traductions de Claude
+    couche, doublons_c, erreurs_c = CO.lire_couche()
+    vus_couche = {}                     # cle -> (ligne de textes/, famille) pour les cles de la couche
+    claude_textes = {}                  # cle -> ligne machine/claude de textes/
+
     vues, fmt = {}, Counter()
     exemples = defaultdict(list)
+    for rel_c, n, e in erreurs_c:
+        fmt['couche_mal_formee'] += 1
+        exemples['format:couche_mal_formee'].append('%s ligne %d : %s' % (rel_c, n, e))
+    for k, garde, ecarte in doublons_c:
+        fmt['couche_cle_en_double'] += 1
+        exemples['format:couche_cle_en_double'].append('%s : %s (déjà dans %s)' % (ecarte, '/'.join(k), garde))
     par_niveau = {'BLOQUANT': Counter(), 'SIGNALE': Counter(), 'INFO': Counter()}
     lignes_niveau = Counter()
     par_famille = defaultdict(Counter)
@@ -113,6 +133,11 @@ def main():
             for l in lignes:
                 etat = l[K.I_ETAT]
                 total[etat] += 1
+                kc = (l[K.I_TYPE], l[K.I_ID], l[K.I_SOUS], l[K.I_CHAMP])
+                if kc in couche:
+                    vus_couche[kc] = (l, fam)
+                if l[K.I_SRC] == CO.SOURCE and etat == 'machine':
+                    claude_textes[kc] = l
                 if not l[K.I_FR] and etat not in K.ETATS_AFFICHES:
                     continue
                 refus = C.controle(l[K.I_EN], l[K.I_FR], etat, regles, noms, l[K.I_TYPE], l[K.I_ID])
@@ -130,6 +155,52 @@ def main():
                 fr_out.write('\t'.join([niveau, rel] + [K.echapper(x) for x in l[:4]] +
                                        [etat, ', '.join(refus), K.echapper(l[K.I_EN]), K.echapper(l[K.I_FR])]) + '\n')
             K.journal('controle : %-50s %8d lignes' % (rel, len(lignes)))
+
+    # la couche des traductions de Claude, ligne par ligne, contre textes/
+    etat_couche = Counter()
+    refus_couche = []
+    chemin_cc = os.path.join(os.path.dirname(os.path.abspath(refus_tsv)), 'couche_controle.tsv')
+    with open(chemin_cc, 'w', encoding='utf-8', newline='\n') as f_cc:
+        f_cc.write('verdict\tfichier\ttype\tid\tsous_id\tchamp\traisons\ten\tfr\n')
+        for k in sorted(couche):
+            fam_c, rel_c, t = couche[k]
+            vu = vus_couche.get(k)
+            raisons = []
+            if vu is None:
+                verdict = 'orpheline'
+                raisons = ['clé absente de textes/']
+                en = ''
+            else:
+                l, fam = vu
+                en = l[K.I_EN]
+                ok, pourquoi = CO.eligible(l, fam)
+                if l[K.I_ETAT] == 'machine' and l[K.I_SRC] == CO.SOURCE and l[K.I_FR] == t[5] and l[K.I_EMP] == t[4]:
+                    verdict = 'appliquee'
+                elif t[4] != l[K.I_EMP]:
+                    verdict = 'anglais_modifie'
+                    raisons = ['empreinte %s, anglais actuel %s' % (t[4], l[K.I_EMP])]
+                elif not ok:
+                    verdict = 'protegee'
+                    raisons = [pourquoi]
+                else:
+                    raisons = C.controle(en, t[5], 'machine', regles, noms, l[K.I_TYPE], l[K.I_ID])
+                    verdict = 'refusee' if raisons else 'non_importee'
+                    if not raisons:
+                        raisons = ['lancez outils/importer.py']
+            etat_couche[verdict] += 1
+            if verdict != 'appliquee':
+                f_cc.write('\t'.join([verdict, rel_c] + [K.echapper(x) for x in k] +
+                                     [', '.join(raisons), K.echapper(en), K.echapper(t[5])]) + '\n')
+                if verdict == 'refusee' and len(refus_couche) < 50:
+                    refus_couche.append((rel_c, '/'.join(k), raisons, en, t[5]))
+        for k, l in sorted(claude_textes.items()):
+            t = couche.get(k)
+            if t is None or t[2][5] != l[K.I_FR]:
+                fmt['claude_sans_couche (signalé)'] += 1
+                etat_couche['textes_sans_couche'] += 1
+                f_cc.write('\t'.join(['textes_sans_couche', ''] + [K.echapper(x) for x in k] +
+                                     ['ligne machine/claude de textes/ absente de la couche', K.echapper(l[K.I_EN]),
+                                      K.echapper(l[K.I_FR])]) + '\n')
 
     bloquant_format = sum(v for k, v in fmt.items() if '(signalé)' not in k)
     out = []
@@ -170,6 +241,28 @@ def main():
                 out.append('- `%s` %s : EN « %s » / FR « %s »' % (r, k, en.replace('\n', '\\n').replace('|', '¦'),
                                                                  fr.replace('\n', '\\n').replace('|', '¦')))
         out.append('\n</details>\n')
+    out.append('## Couche des traductions de Claude (`traductions/`)\n')
+    out.append('%d lignes dans %d fichiers.\n' % (len(couche), len(CO.fichiers_couche())))
+    out.append('| Verdict | Lignes | Sens |')
+    out.append('|---|---:|---|')
+    sens = {'appliquee': 'dans textes/ en machine, source claude',
+            'refusee': 'refusée au contrôle d\'entrée : la ligne de textes/ est restée à son état d\'avant',
+            'anglais_modifie': 'l\'anglais a changé depuis la traduction : ligne à revoir',
+            'protegee': 'ligne officielle, relue ou technique : jamais remplacée',
+            'orpheline': 'clé absente de textes/',
+            'non_importee': 'acceptable, mais textes/ ne l\'a pas encore : relancer l\'import',
+            'textes_sans_couche': 'ligne machine/claude de textes/ sans la même ligne dans la couche (signalé)'}
+    for v in ('appliquee', 'refusee', 'anglais_modifie', 'protegee', 'orpheline', 'non_importee', 'textes_sans_couche'):
+        out.append('| %s | %d | %s |' % (v, etat_couche[v], sens[v]))
+    out.append('')
+    if refus_couche:
+        out.append('Lignes refusées (les 50 premières) :\n')
+        for rel_c, k, raisons, en, fr in refus_couche:
+            out.append('- `%s` %s : %s ; EN « %s » / FR « %s »' % (rel_c, k, ', '.join(raisons),
+                                                                  en[:140].replace('\n', '\\n').replace('|', '¦'),
+                                                                  fr[:140].replace('\n', '\\n').replace('|', '¦')))
+        out.append('')
+    out.append('Détail : `%s`.\n' % os.path.relpath(chemin_cc, K.RACINE).replace('\\', '/'))
     out.append('## Par famille\n')
     out.append('| Famille | Bloquant | Signalé | Info |')
     out.append('|---|---:|---:|---:|')
@@ -180,8 +273,9 @@ def main():
     os.makedirs(os.path.dirname(os.path.abspath(rapport)), exist_ok=True)
     with open(rapport, 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(out) + '\n')
-    K.journal('controle : format %s ; bloquant %d, signalé %d, info %d ; rapport %s'
-              % (dict(fmt), lignes_niveau['BLOQUANT'], lignes_niveau['SIGNALE'], lignes_niveau['INFO'], rapport))
+    K.journal('controle : format %s ; bloquant %d, signalé %d, info %d ; couche des traductions de Claude %s ; rapport %s'
+              % (dict(fmt), lignes_niveau['BLOQUANT'], lignes_niveau['SIGNALE'], lignes_niveau['INFO'], dict(etat_couche),
+                 rapport))
     return 1 if (bloquant_format or lignes_niveau['BLOQUANT']) else 0
 
 

@@ -1,0 +1,127 @@
+# Termes du glossaire et des décisions de Dan, signalés aux agents de traduction par `outils/lots.py extraire`.
+# Fichier lu tel quel (pas d'échappement). Repris de GLOSSAIRE.md (sections 1 à 3 et classes), DECISIONS_VOCABULAIRE.md
+# (1 à 19) et A_TRANCHER.md (questions ouvertes : « garder l'anglais »). Ce fichier n'ajoute aucune décision.
+# motif_en : expression régulière Python ; vide = le terme anglais en mot entier, sensible à la casse ; (?i) en tête = sans casse.
+# Le contrôle d'entrée (glossaire/regles_controle.tsv) refuse déjà une partie de ces termes mal rendus.
+en	motif_en	fr	origine	remarque
+Manastorm	(?<!Millhouse )\bManastorm\b	Tempête de mana	glossaire 1	Féminin : « le Manastorm » → « la Tempête de mana »
+Millhouse Manastorm		Millhouse Manastorm	glossaire 1	Personnage (gnome de l'Arcatraz) : inchangé
+Skill Card		Carte de compétence	glossaire 1, décision 8	« Skill Card - X » → « Carte de compétence - X »
+Golden Skill Card		Carte de compétence dorée	glossaire 1, décision 8
+Lucky Skill Card		Carte de compétence chanceuse	glossaire 1, décision 8
+Mystic Enchant	\bMystic Enchant(?:ment)?s?\b	Enchantement mystique	glossaire 1
+Mystic Scroll:		Parchemin mystique :	décision 8	Espace insécable avant les deux-points
+Ability Essence		Essence d'aptitude	glossaire 1
+Talent Essence		Essence de talent	décision 10
+Draft	(?<!Abyssal )\b[Dd]raft(?:s|ed|ing)?\b	Draft (nom de la mécanique) ; composer (verbe)	glossaire 1	« redraft » → recomposer ; ne pas confondre avec Abyssal Draft
+Abyssal Draft		Souffle abyssal	glossaire 1	Réactif d'artisanat (courant d'air), sans rapport avec le Draft
+Static	\bStatic\b	Statique (la ressource, avec majuscule)	glossaire 1	Seulement la ressource (« Génère 20 Statique ») ; l'adjectif reste un adjectif
+Wildcard		Joker	glossaire 1
+Realm Bound	(?i)\brealm ?bound\b	lié au royaume	glossaire 1	Distinct de Soulbound → « lié »
+Soulbound	(?i)\bsoulbound\b	lié	glossaire 1
+Keeper's Scroll		Parchemin du gardien	glossaire 1
+Azzar Faire	\b(?:Azzar Faire|Faire Azzar)\b	Foire d'Azzar	glossaire 1	Les deux ordres anglais existent
+Wildwood		bois sauvage	glossaire 1	« Wrangler Wildwood » est un nom : vérifier
+Barbarian	\bBarbarians?\b	Barbare (féminin : Barbare)	classes CoA	Classe : minuscule dans une phrase (« les barbares »), comme l'officiel (« les paladins »)
+Witch Doctor	\bWitch Doctors?\b	Féticheur (féminin : Féticheuse)	classes CoA, décision 17
+Felsworn		Gangrelige (invariable)	classes CoA	Formes refusées : « Assermenté du Gangre »
+Witch Hunter	\bWitch Hunters?\b	Chasseur de sorcières (féminin : Chasseuse de sorcières)	classes CoA, décision 17
+Stormbringer	\bStormbringers?\b	Porte-tempête (invariable)	classes CoA
+Knight of Xoroth	\bKnights? of Xoroth\b	Chevalier de Xoroth (invariable)	classes CoA, décision 17	Comme l'officiel « Chevalier de la mort »
+Templar	\bTemplars?\b	Templier (féminin : Templière)	classes CoA, décision 17
+Bloodmage	\bBloodmages?\b	Mage de sang (invariable)	classes CoA
+Chronomancer	\bChronomancers?\b	Chronomancien (féminin : Chronomancienne)	classes CoA, décision 17
+Necromancer	\bNecromancers?\b	Nécromancien (féminin : Nécromancienne)	classes CoA, décision 17
+Pyromancer	\bPyromancers?\b	Pyromancien (féminin : Pyromancienne)	classes CoA, décision 17
+Starcaller	\bStarcallers?\b	Mande-étoiles (invariable)	classes CoA	Titre officiel ; formes refusées : « Appelant des étoiles », « Héraut stellaire »
+Sun Cleric	\bSun Clerics?\b	Clerc du soleil (invariable)	classes CoA
+Tinker	\bTinkers?\b	Bricoleur (féminin : Bricoleuse)	classes CoA, décision 17
+Venomancer	\bVenomancers?\b	Vénomancien (féminin : Vénomancienne)	classes CoA, décision 17
+Reaper	\bReapers?\b	Faucheur (féminin : Faucheuse)	classes CoA, décision 17	Vérifier que c'est la classe (pas une créature)
+Primalist	\bPrimalists?\b	Primaliste (invariable)	classes CoA
+Runemaster	\bRunemasters?\b	Maître des runes (féminin : Maîtresse des runes)	classes CoA, décision 17
+Guardian	\bGuardians?\b	Gardien (féminin : Gardienne)	décision 7	Classe CoA ; « Guardian » d'un nom officiel (« Guardian Elixir ») suit l'officiel
+Ranger	\bRangers?\b	Rôdeur (féminin : Rôdeuse)	décision 7	Classe CoA (pas Forestier) ; « Rôdeur » des créatures officielles traduit Prowler
+Cultist	\bCultists?\b	Cultiste (invariable)	décision 7	Classe CoA (pas Sectateur) ; un cultiste qui n'est pas la classe suit l'officiel
+Hero	\bHero\b	Héros (féminin : Héroïne)	décision 17	Seulement la classe CoA « Hero »
+Runic Power	(?i)\brunic power\b	Puissance runique	glossaire 2
+Spell Power	(?i)\bspell power\b	puissance des sorts	glossaire 2
+Attack Power	(?i)\battack power\b	puissance d'attaque	glossaire 2
+Critical Strike	(?i)\bcritical strikes?\b	coup critique (« Critique » comme nom de statistique)	glossaire 2, officiel	Officiel : « score de coup critique »
+Damage Dealer	(?i)\bdamage dealers?\b	Attaquant	glossaire 2
+Healer	(?i)\bhealers?\b	Soigneur	glossaire 2
+Focus	\bFocus\b	Focalisation	glossaire 2	La ressource ; pas « se concentrer »
+Energy	\bEnergy\b	Énergie	glossaire 2
+Stamina	\bStamina\b	Endurance	glossaire 2
+Spirit	\bSpirit\b	Esprit	glossaire 2
+Strength	\bStrength\b	Force	glossaire 2
+Agility	\bAgility\b	Agilité	glossaire 2
+Intellect	\bIntellect\b	Intelligence	glossaire 2
+Holy	\bHoly\b	Sacré	glossaire 2	« dégâts du Sacré », « magie du Sacré »
+Shadow	\bShadow\b	Ombre	glossaire 2	« dégâts d'Ombre »
+Frost	\bFrost\b	Givre	glossaire 2	« dégâts de Givre »
+Fire	\bFire\b	Feu	officiel (lexique_sorts)	« dégâts de Feu »
+Nature	\bNature\b	Nature	officiel (lexique_sorts)	« dégâts de Nature »
+Arcane	\bArcane\b	Arcanes	glossaire 2	« dégâts des Arcanes », « résistance aux Arcanes »
+Physical	\bPhysical\b	physiques	officiel (lexique_sorts)	« dégâts physiques »
+Fel	\bFel\b	Gangre	glossaire 2	
+Felfury		Gangrefurie	glossaire 2
+Demonfire		Feu démoniaque	glossaire 2
+Hellfire Imp	\bHellfire Imps?\b	lutin gouffre-feu (lutins gouffre-feu)	glossaire 2
+Hellfire Form		Forme gouffre-feu	glossaire 2
+Armor	\b[Aa]rmor\b	Armure	glossaire 2
+Plate	\b[Pp]late\b	Plaques / plaques	glossaire 2	Le type d'armure
+Mail	\b[Mm]ail\b	Mailles / mailles	glossaire 2	Le type d'armure (« mail » minuscule n'est pas un courrier)
+Haste	\b[Hh]aste\b	Hâte / hâte	glossaire 2
+Resilience	\bResilience\b	Résilience	glossaire 2
+spell pushback	(?i)\bspell pushback\b	retard d'incantation	glossaire 2
+near you	(?i)\bnear you\b	près de vous	glossaire 2
+feared	(?i)\bfeared\b	apeuré	glossaire 2
+stack	(?i)\bstacks?\b	charge (nom) ; se cumule (verbe)	glossaire 3	« cumul » refusé par le contrôle
+stacking up to	(?i)\bstacking up to\b	se cumule jusqu'à	glossaire 2
+Stormwind		Hurlevent	glossaire 3
+Booty Bay		Baie-du-Butin	glossaire 3
+Stranglethorn		Strangleronce	glossaire 3
+Darkmoon		Sombrelune	glossaire 3
+Warsong Gulch		Goulet des Warsong	glossaire 3	« de Warsong Gulch » → « du Goulet des Warsong »
+Arathi Basin		bassin Arathi	glossaire 3	Sans apostrophe, sans majuscule forcée
+Dreadnought	\bDreadn[ao]ughts?\b	Cuirassé	glossaire 3
+Light Lash		Fouet de Lumière	glossaire 3
+Unleash	\bUnleash(?:es|ed)?\b	Déchaînement : (nom en tête) ; Déchaînez / Déchaîner (verbe)	glossaire 3	Vérifier la fonction du mot
+realm	(?i)\brealms?\b	royaume	glossaire 3	Pas « domaine »
+nameplate	(?i)\bnameplates?\b	barre d'info	glossaire 3
+Food Crate		Caisse de nourriture	glossaire 3
+Casting	\bCasting\b	Incantation (nom, interface) ; lancer (verbe)	glossaire 3
+PvP	\bPv[PE]\b	PvP / PvE	glossaire 3	Jamais JcJ / JcE (décision contre l'officiel)
+Build:	\bBuild:	Construire :	glossaire 3 (registre)
+Mechsuit	(?i)\bmechsuits?\b	méca-armure	glossaire 3 (registre)
+Tithe	(?i)\btithes?\b	dîme	glossaire 3 (registre)
+Eldritch	(?i)\beldritch\b	surnaturel	glossaire 3 (registre)
+Primal	\bPrimal\b	primordial	glossaire 3 (registre)
+Aeon	(?i)\baeons?\b	éon	glossaire 3 (registre)
+Rush	(?i)\brush\b	ruée (mouvement) ; afflux (de sang)	glossaire 3 (registre)
+Bloodforged		forgé par le sang (accordé : forgée, forgés, forgées)	décision 1	Dans une étiquette @…@ : ne rien toucher (table des étiquettes)
+Worldforged		Worldforged (reste en anglais, invariable)	décision 2	« Parchemin Worldforged : X »
+Ascended		Ascended (reste en anglais, invariable)	décision 3	« Raid Ascended » : place à vérifier au cas par cas
+Keystone	\bKeystones?\b	Clé (Mythique+)	décision 4	« Clé : donjon (N) » ; les clés d'archéologie et de Karazhan ne sont pas concernées
+Elemental Lodestone		Magnétite élémentaire	décision 5
+Call Board	(?i)\bcall ?boards?\b	tableau d'appel (« Tableau d'appel » en début de phrase)	décision 6	[KEYWORD:Call Board] reste tel quel
+Worldforged Scroll:		Parchemin Worldforged :	décisions 2 et 8
+Draconic Warhorn:		Cor de guerre draconique :	décision 8
+Random Enchantment:		Enchantement aléatoire :	décision 8
+Beastmaster's Whistle:		Sifflet du maître des bêtes :	décision 8
+Incarnation:		Incarnation :	décision 8
+Stone of Retreat:		Pierre de retraite :	décision 8
+Blood Soaked Vellum:		Vélin imbibé de sang :	décision 8
+Tome:	\b[A-Z][a-z]+(?: [A-Z][a-z]+)? (?:Warrior|Paladin|Hunter|Rogue|Priest|Death Knight|Shaman|Mage|Warlock|Druid) Tome:	Tome du <classe> <Spécialité> : X	décision 8	Spécialités officielles (TalentTab frFR) : « Tome du paladin Sacré : X »
+Trial	(?i)\btrials?\b	Épreuve (épreuves de CoA)	décision 11	« Architecte d'épreuves » ; le compte d'essai (trial account) n'est pas concerné
+Tier	\bTier \d+\b	Tier N (reste en anglais)	décision 13
+Woodworking	(?i)\bwoodworking\b	Menuiserie	décision 15
+Woodcutting	(?i)\bwoodcutting\b	Bûcheronnage	décision 16
+Bushcraft	(?i)\bbushcraft\b	Survie	décision 18
+@étiquette@	@(?![a-z]{1,4}:[\d:-]+@)[^@\n]{1,80}@	(ne rien changer entre les @)	décisions 9, 12, 13	Les étiquettes sont traduites par glossaire/etiquettes.tsv, pas dans le texte : recopier l'étiquette telle quelle
+Temple of Ahn'Qiraj	\bTemple of Ahn'Qiraj\b	(anglais : question ouverte 11h)	A_TRANCHER 11h	Dans une étiquette : garder l'anglais tant que Dan n'a pas tranché
+Ahn'kahet, the Old Kingdom		(anglais : question ouverte 11j)	A_TRANCHER 11j	Garder l'anglais tant que Dan n'a pas tranché
+Raid: The Obsidian Sanctum	\b(?:Raid: The Obsidian Sanctum|Raid: Eye of Eternity|(?:Heroic|Mythic|Ascended) Raid: Naxxramas)\b	(anglais : question ouverte 11m)	A_TRANCHER 11m	Format d'étiquette « Raid: X - N Player » : garder l'anglais
+Hit Rating (enchantement)	^\+\d+ (?:Hit Rating|Mana|Health|to All Stats)$	(anglais : question ouverte 12a)	A_TRANCHER 12a	Nom d'enchantement CoA à deux formes officielles : garder l'anglais
+per 5 sec (enchantement)	^\+\d+ (?:Mana per 5 sec|Health per 5 sec|Spell Damage|Spell Healing|Shield Block Value)\b|^Increases \w+ spell power by \d+\.$	(anglais : question ouverte 12b)	A_TRANCHER 12b	Nom d'enchantement CoA sans modèle officiel : garder l'anglais
