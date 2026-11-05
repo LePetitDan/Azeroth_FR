@@ -1,6 +1,7 @@
 -- ============================================================================
--- Azeroth_FR : fenetres du jeu (version 0.4) : marchand (achat et rachat), fenetre de butin, panneau des
--- quetes de la carte du monde, livre des metiers de CoA.
+-- Azeroth_FR : fenetres du jeu (version 0.5) : marchand (achat et rachat), fenetre de butin, panneau des
+-- quetes de la carte du monde, livre des metiers de CoA ; (0.5) en-tetes des fenetres de PNJ (marchand, banque,
+-- maitre de classe, taxi, tabard) et infobulle des points de quete de la carte.
 -- Chaque branchement est verifie contre le code que le client CoA charge vraiment (04/11/2026) :
 --   - MerchantFrame_Update (patch-B, MerchantFrame.lua) : appelee PAR SON NOM par MerchantFrame_OnEvent,
 --     MerchantFrame_OnShow et les boutons de page ; elle appelle MerchantFrame_UpdateMerchantInfo ou
@@ -13,6 +14,24 @@
 --   - livre des metiers (patch-B, Ascension_Spellbook/Ascension_ProfessionBook.lua) : boutons SECURISES
 --     (SecureActionButton_OnLoad) ; le nom vient de ProfessionUtil.GetProfessionByID -> GetSkillInfo ; on ne
 --     touche qu'au texte de leur zone de texte (GetFontString) et de leur rang (.Rank), hors combat.
+-- (0.5, verifie le 05/11/2026 contre le code charge par le client CoA) :
+--   - en-tete du marchand : MerchantFrame_UpdateMerchantInfo (patch-B, MerchantFrame.lua l. 85) pose
+--     MerchantNameText:SetText(UnitName("NPC")) ; elle est appelee par son nom par MerchantFrame_Update (notre crochet
+--     passe apres). Onglet Rachat : MERCHANT_BUYBACK (texte d'interface, PTRXML) ;
+--   - banque : BankFrame_OnEvent (patch-B, BankFrame.lua l. 149 ; liee par <OnEvent function=…> dans BankFrame.xml de
+--     patch-enUS-3, donc CAPTUREE) : BankFrame:HookScript("OnEvent"), BANKFRAME_OPENED -> BankFrameTitleText ;
+--   - taxi : TaxiFrame_OnEvent (patch-enUS, TaxiFrame.lua l. 30 ; function= dans TaxiFrame.xml de patch-enUS-2) :
+--     TaxiFrame:HookScript("OnEvent"), TAXIMAP_OPENED -> TaxiMerchant ;
+--   - tabard : TabardFrame_OnEvent (locale-enUS, TabardFrame.lua l. 29 ; function= dans TabardFrame.xml de
+--     patch-enUS) : TabardFrame:HookScript("OnEvent"), OPEN_TABARD_FRAME -> TabardFrameNameText ;
+--   - maitre de classe : ClassTrainerFrame_Update (patch-B, AddOns/Blizzard_TrainerUI, charge a la demande, l. 81)
+--     pose ClassTrainerNameText ; appelee par son nom (ClassTrainerFrame_OnEvent, TRAINER_UPDATE) : crochet pose
+--     au chargement de l'add-on Blizzard_TrainerUI ;
+--   - infobulle d'un point de quete de la carte : WorldMapQuestPOI_SetTooltip (patch-B, WorldMapFrame.lua l. 2235),
+--     appelee par son nom par WorldMapQuestPOI_OnEnter et WorldMapBlobFrame_OnUpdate (a chaque image, souris sur la
+--     zone de la quete) : titre (GetQuestLogTitle), puis « - » + objectif retourne ou texte de fin.
+-- Nom du PNJ : celui de la creature (numero tire du GUID de l'unite « npc », empreinte du nom anglais), pose
+-- seulement si le texte de la zone est EXACTEMENT ce nom anglais (A.TraduireNomPNJ, comme la fenetre de quete).
 -- Noms d'objets : par le numero tire du lien (GetMerchantItemLink, GetBuybackItemLink, GetLootSlotLink), le
 -- francais n'est pose que si l'anglais affiche a l'empreinte de l'anglais traduit (A.NomObjetAffiche).
 -- ============================================================================
@@ -41,6 +60,7 @@ A.NomObjetZone = NomObjetZone
 local function TraduireMarchand()
     if not A.Actif() or not MerchantFrame or not MerchantFrame:IsShown() then return end
     local achat = MerchantFrame.selectedTab == 1
+    if achat and A.TraduireNomPNJ then A.TraduireNomPNJ(MerchantNameText, { "npc" }) end
     local parPage = MERCHANT_ITEMS_PER_PAGE or 10
     local page = MerchantFrame.page or 1
     for i = 1, 12 do
@@ -67,6 +87,46 @@ A.TraduireMarchand = TraduireMarchand
 if type(MerchantFrame_Update) == "function" then
     hooksecurefunc("MerchantFrame_Update", P("MerchantFrame_Update", TraduireMarchand))
 end
+
+-- ----------------------------------------------------------------------------
+-- (0.5) En-tetes des fenetres de PNJ : banque, taxi, tabard (cadres dont le script OnEvent est capture par le XML :
+-- on passe apres lui, HookScript), maitre de classe (add-on du jeu charge a la demande).
+-- ----------------------------------------------------------------------------
+local ENTETES = {
+    { cadre = "BankFrame", evenement = "BANKFRAME_OPENED", zone = "BankFrameTitleText" },
+    { cadre = "TaxiFrame", evenement = "TAXIMAP_OPENED", zone = "TaxiMerchant" },
+    { cadre = "TabardFrame", evenement = "OPEN_TABARD_FRAME", zone = "TabardFrameNameText" },
+}
+for _, e in ipairs(ENTETES) do
+    local cadre = _G[e.cadre]
+    if cadre and type(cadre.HookScript) == "function" then
+        cadre:HookScript("OnEvent", P(e.cadre .. ".OnEvent", function(_, evenement)
+            if evenement == e.evenement and A.Actif() and A.TraduireNomPNJ then
+                A.TraduireNomPNJ(_G[e.zone], { "npc" })
+            end
+        end))
+    end
+end
+A.ENTETES_PNJ = ENTETES
+
+local function TraduireMaitreDeClasse()
+    if A.Actif() and A.TraduireNomPNJ then A.TraduireNomPNJ(ClassTrainerNameText, { "npc" }) end
+end
+local maitre_branche = false
+local function BrancherMaitreDeClasse()
+    if maitre_branche or type(ClassTrainerFrame_Update) ~= "function" then return end
+    maitre_branche = true
+    hooksecurefunc("ClassTrainerFrame_Update", P("ClassTrainerFrame_Update", TraduireMaitreDeClasse))
+end
+BrancherMaitreDeClasse()
+local guetteurTrainer = CreateFrame("Frame")
+guetteurTrainer:RegisterEvent("ADDON_LOADED")
+guetteurTrainer:SetScript("OnEvent", P("Fenetres.ADDON_LOADED", function(self, _, nom)
+    if nom == "Blizzard_TrainerUI" then
+        BrancherMaitreDeClasse()
+        self:UnregisterEvent("ADDON_LOADED")
+    end
+end))
 
 -- ----------------------------------------------------------------------------
 -- Fenetre de butin
@@ -174,6 +234,52 @@ table.insert(A.ApresCombat, function()
         TraduireQuetesCarte()
     end
 end)
+
+-- (0.5) Infobulle d'un point de quete (WorldMapTooltip) : refaite par le jeu a chaque image tant que la souris est
+-- sur la zone de la quete ; les lignes deja traduites sont gardees en memoire (texte anglais -> francais).
+local memo_bulle, n_memo_bulle = {}, 0
+local function LigneBulleCarte(t)
+    local m = memo_bulle[t]
+    if m ~= nil then return m or nil end
+    local fr = A.TraduireObjectif(t) or false
+    n_memo_bulle = n_memo_bulle + 1
+    if n_memo_bulle > 200 then memo_bulle, n_memo_bulle = {}, 0 end
+    memo_bulle[t] = fr
+    return fr or nil
+end
+
+local function TraduireBulleCarte(poi, indexJournal)
+    if not A.Actif() then return end
+    local bulle = WorldMapTooltip
+    if not bulle or type(bulle.GetName) ~= "function" or not bulle:GetName() then return end
+    local nom = bulle:GetName()
+    local modifie = false
+    -- (SetText direct, comme les autres infobulles : le jeu reecrit l'anglais a chaque image)
+    local l1 = _G[nom .. "TextLeft1"]
+    local t = l1 and l1:GetText()
+    if t and t ~= "" then
+        local id = indexJournal and A.IdJournal and A.IdJournal(indexJournal)
+        local fr = (id and A.TitreParId(id, t)) or (A.TitreQuete and A.TitreQuete(t))
+        if fr and fr ~= t then l1:SetText(fr); modifie = true end
+    end
+    for i = 2, bulle:NumLines() do
+        local l = _G[nom .. "TextLeft" .. i]
+        local tx = l and l:GetText()
+        if tx and tx ~= "" then
+            local fr = LigneBulleCarte(tx)
+            if fr and fr ~= tx then l:SetText(fr); modifie = true end
+        end
+    end
+    if modifie then
+        A.Trace("WorldMapQuestPOI_SetTooltip")
+        if bulle:IsShown() and not A.EstProtege(bulle) then pcall(bulle.Show, bulle) end
+    end
+end
+A.TraduireBulleCarte = TraduireBulleCarte
+if type(WorldMapQuestPOI_SetTooltip) == "function" then
+    -- (appelee a chaque image : pas de fil d'Ariane a chaque appel, seulement quand une ligne change)
+    hooksecurefunc("WorldMapQuestPOI_SetTooltip", P("WorldMapQuestPOI_SetTooltip", TraduireBulleCarte, true))
+end
 
 -- ----------------------------------------------------------------------------
 -- Livre des metiers de CoA (onglet « Métiers » du grimoire) : nom officiel du metier (SkillLine frFR, table des

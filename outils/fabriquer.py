@@ -482,9 +482,14 @@ TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe':
                'classe': 'NCL', 'race': 'NRA', 'divers': 'NX', 'rang': 'RG', 'suffixe': 'NSU', 'enchantement': 'NEN',
                # add-on 0.4 : types de creatures (« Beast » -> « Bete ») : table vide tant que CreatureType.dbc frFR
                # officiel manque a la source (absent de patch-frFR-3.MPQ)
-               'type_creature': 'NTC'}
+               'type_creature': 'NTC',
+               # add-on 0.5 : noms des objets demandes par les quetes (objectifs « 0/8 Red Burlap Bandana »), seulement
+               # quand le francais est sans ambiguite (un seul francais affichable pour cet anglais, tous objets confondus)
+               'objet_quete': 'NOQ'}
 # Domaines ou un meme anglais aux francais differents n'est PAS embarque (ambigu : l'anglais reste)
-DOMAINES_STRICTS = {'enchantement'}
+DOMAINES_STRICTS = {'enchantement', 'objet_quete'}
+# add-on 0.5 : objets demandes ou ramasses pour les quetes (quest_template de la base CoA reconstruite, numeros seulement)
+OBJETS_QUETES_CSV = os.path.join(K.COLLECTE, 'coa-core', 'quetes_objets_requis.csv.xz')
 CHAMPS_QUETE_TITRE = ('LogTitle',)
 TYPES_QUETE_ID = ('quete', 'quete_demande', 'quete_recompense')
 PRIO = {'relu': 3, 'officiel': 2, 'machine': 1}
@@ -567,6 +572,7 @@ class Fabrique:
         self.classes, self.classes_f = {}, {}
         self.homonymes = {'resolus': [], 'ambigus': []}     # titres de quetes homonymes (journal)
         self.races = {k: list(v) for k, v in RACES_OFFICIELLES.items()}
+        self.noms_extra = defaultdict(lambda: defaultdict(list))     # add-on 0.5 : domaine -> anglais -> [(prio, fr)]
         K.charger_lexique()
         self.regles = C.charger_regles()
         self.noms = C.charger_noms()
@@ -734,11 +740,14 @@ class Fabrique:
     def famille_objets(self):
         o = Table('objets', 'O', 'id')
         recs = defaultdict(lambda: [False, 0, False, 0])
+        fr_par_nom, prio_nom = defaultdict(set), {}
         for l, fr in self.lignes('objets', FAMILLES_ADDON[5][1]):
             i = int(l[K.I_ID])
             h = empreintes(l[K.I_EN])[0]
             if l[K.I_CHAMP] == 'name':
                 recs[i][0], recs[i][1] = fr, h
+                fr_par_nom[l[K.I_EN]].add(fr)
+                prio_nom[i] = (PRIO[l[K.I_ETAT]], l[K.I_EN], fr)
             elif l[K.I_CHAMP] == 'description':
                 # Description « @X@reste » : le client montre X sur la ligne « Heroic » (table des etiquettes) et
                 # seulement « "reste" » sur la ligne de description : on embarque le reste, verifie sur son anglais.
@@ -758,7 +767,40 @@ class Fabrique:
             self.textes['objets'].add(l[K.I_EN])
         for i, r in recs.items():
             o.entrees[i] = r if r[2] is not False else r[:2]
+        self.objets_quetes(fr_par_nom, prio_nom)
         return [o]
+
+    def objets_quetes(self, fr_par_nom, prio_nom):
+        """Add-on 0.5 : noms des objets demandes (ou a ramasser) par une quete, pour les objectifs « 0/8 Red Burlap
+        Bandana » (suivi, journal, carte) : le client donne le NOM, pas le numero. Un nom n'est embarque que si l'objet de
+        la quete a un francais affichable et que cet anglais n'a qu'UN francais affichable, tous objets confondus."""
+        import csv
+        import lzma
+        c = self.cpt['objets_quetes']
+        if not os.path.exists(OBJETS_QUETES_CSV):
+            c['fichier_absent'] += 1
+            return
+        ids = set()
+        with lzma.open(OBJETS_QUETES_CSV, 'rt', encoding='utf-8') as f:
+            for r in csv.DictReader(f):
+                ids.add(int(r['objet']))
+        c['objets_de_quetes'] = len(ids)
+        vus = set()
+        for i in sorted(ids):
+            if i not in prio_nom:
+                c['sans_francais_affichable'] += 1
+                continue
+            prio, en, fr = prio_nom[i]
+            if en in vus:
+                continue
+            vus.add(en)
+            if len(fr_par_nom[en]) > 1:
+                c['nom_ambigu'] += 1
+                continue
+            if fr == en:
+                continue
+            self.noms_extra['objet_quete'][en].append((prio, fr))
+            c['noms_embarques'] += 1
 
     def famille_hauts_faits(self):
         """Add-on 0.4 : noms des hauts faits (HF : numero -> {francais, empreinte de l'anglais}), pour le lien du
@@ -837,6 +879,9 @@ class Fabrique:
                     self.cpt[fam]['ignoree_champ_' + champ] += 1
         # -- noms : une table par domaine --
         tables_noms = []
+        for dom, d in self.noms_extra.items():          # add-on 0.5 : objets des quetes (famille_objets)
+            for en, lst in d.items():
+                noms[dom][en].extend(lst)
         for dom in sorted(set(noms) | set(noms_f)):
             t = Table('noms', TABLES_NOMS[dom], 'texte')
             for en, cs in noms[dom].items():
@@ -1265,7 +1310,7 @@ def main():
         ecrire_toc(d, 'Azeroth_FR_HautsFaits', 'Azeroth_FR - Hauts faits (données)',
                    'Noms des hauts faits pour la discussion (chargé à la demande par Azeroth_FR)', version, fs)
         familles_lua.append({'famille': 'hauts_faits', 'addon': 'Azeroth_FR_HautsFaits', 'auto': False})
-    for fam in ('sorts', 'noms', 'hauts_faits'):
+    for fam in ('sorts', 'noms', 'hauts_faits', 'objets_quetes'):
         bilan['familles'][fam] = {'compteurs': dict(fab.cpt[fam]), 'textes_anglais_distincts': len(fab.textes[fam])}
     bilan['familles']['sorts']['octets_donnees'] = taille_sorts
     for rel in fab.fichiers_generiques:

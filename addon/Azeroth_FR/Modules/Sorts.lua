@@ -1,5 +1,6 @@
 -- ============================================================================
--- Azeroth_FR : sorts (version 0.4 ; barre d'incantation ; rangs de tous les sorts, lignes de puissance PvE/PvP). Nom, rang et description en francais, A L'AFFICHAGE
+-- Azeroth_FR : sorts (version 0.5 : lieu $z de la pierre de foyer retrouve sans GetBindLocation ; 0.4 : barre d'incantation ;
+-- rangs de tous les sorts, lignes de puissance PvE/PvP). Nom, rang et description en francais, A L'AFFICHAGE
 -- SEULEMENT, par le VRAI numero du sort (analyse du 03/11/2026, test 3 confirme en jeu) :
 --   - infobulle de sort      : 3e valeur de GameTooltip:GetSpell()      (OnTooltipSetSpell)
 --   - barre d'action         : 4e valeur de GetActionInfo(case)          (GameTooltip:SetAction)
@@ -542,22 +543,62 @@ local function Prefixes()
     return out
 end
 
--- Le sort dont le texte anglais a la meme forme (index par squelette, charge a la demande). 0.4 : un texte qui
--- contient le lieu de la pierre de foyer ($z, « Returns you to Elwynn Forest. ») est aussi cherche avec ce lieu
--- remplace par une valeur (le squelette du modele a « # » a la place de $z) ; la description est ensuite verifiee
--- par l'alignement complet, et $z traduit par le nom de zone.
-local function SortsParTexte(corps)
-    local sk = A.TableDe("sorts_index", "SK")
-    local ids = sk and sk:ParTexte(A.Squelette(corps))
-    if type(ids) == "table" then return ids end
-    if sk and type(GetBindLocation) == "function" then
-        local ok, lieu = pcall(GetBindLocation)
-        if ok and type(lieu) == "string" and lieu ~= "" and find(corps, lieu, 1, true) then
-            ids = sk:ParTexte(A.Squelette((gsub(corps, A.Echapper(lieu), "1"))))
-            if type(ids) == "table" then return ids end
+-- Morceaux d'un texte qui peuvent etre un NOM DE LIEU : suites de mots a majuscule (« Elwynn Forest », « Valley of
+-- Trials », « The Crossroads »), reliees par des espaces seulement (une ponctuation coupe la suite), petits mots de
+-- liaison permis au milieu (of, the, de, du…). Renvoie les positions { debut, fin }, de la plus longue a la plus courte.
+local LIAISONS = { ["of"] = true, ["the"] = true, ["de"] = true, ["du"] = true, ["des"] = true, ["la"] = true, ["le"] = true }
+local function SuitesMajuscules(t)
+    local mots = {}
+    for d, mot, f in string.gmatch(t, "()([%w'%-]+)()") do mots[#mots + 1] = { d, f - 1, mot } end
+    local out = {}
+    local i = 1
+    while i <= #mots do
+        if find(mots[i][3], "^%u") then
+            local j, fin = i, i
+            while j < #mots and find(sub(t, mots[j][2] + 1, mots[j + 1][1] - 1), "^ +$") do
+                local m = mots[j + 1][3]
+                if find(m, "^%u") then fin = j + 1 elseif not LIAISONS[m] then break end
+                j = j + 1
+            end
+            out[#out + 1] = { mots[i][1], mots[fin][2] }
+            i = fin + 1
+        else
+            i = i + 1
         end
     end
-    return {}
+    table.sort(out, function(a, b) return (a[2] - a[1]) > (b[2] - b[1]) end)
+    return out
+end
+A.SuitesMajuscules = SuitesMajuscules
+
+-- Le sort dont le texte anglais a la meme forme (index par squelette, charge a la demande). Un texte qui contient
+-- le lieu de la pierre de foyer ($z) est aussi cherche avec ce lieu remplace par une valeur (le squelette du modele
+-- a « # » a la place de $z) ; la description est ensuite verifiee par l'alignement complet (litteraux du modele
+-- exacts autour du lieu), et $z traduit par le nom de zone.
+--   0.4 : le lieu donne par GetBindLocation() ;
+--   0.5 : essai 4, « Returns you to Elwynn Forest. » restait en anglais : le $z affiche par le client n'est pas
+--         forcement le texte de GetBindLocation() (zone ou sous-zone du foyer). On essaie donc aussi chaque suite de
+--         mots a majuscule du texte (« Elwynn Forest »), sans dependre de GetBindLocation.
+-- Renvoie la liste des sorts candidats, et false si l'index n'a pas pu etre lu (charge plus tard : pas de memoire).
+local function SortsParTexte(corps)
+    local sk = A.TableDe("sorts_index", "SK")
+    if not sk then return {}, false end
+    local ids = sk:ParTexte(A.Squelette(corps))
+    if type(ids) == "table" then return ids, true end
+    local essais = {}
+    if type(GetBindLocation) == "function" then
+        local ok, lieu = pcall(GetBindLocation)
+        if ok and type(lieu) == "string" and lieu ~= "" then
+            local d, f = find(corps, lieu, 1, true)
+            if d then essais[1] = { d, f } end
+        end
+    end
+    for _, p in ipairs(SuitesMajuscules(corps)) do essais[#essais + 1] = p end
+    for _, p in ipairs(essais) do
+        ids = sk:ParTexte(A.Squelette(sub(corps, 1, p[1] - 1) .. "1" .. sub(corps, p[2] + 1)))
+        if type(ids) == "table" then return ids, true end
+    end
+    return {}, true
 end
 
 local memo_effets, n_effets = {}, 0
@@ -565,25 +606,34 @@ function A.TraduireCorpsEffet(corps, idObjet)
     local k = tostring(idObjet) .. "\0" .. corps
     local m = memo_effets[k]
     if m ~= nil then return m or nil end
-    local fr, id = A.TrouverCorpsEffet(corps, idObjet)
-    n_effets = n_effets + 1
-    if n_effets > 300 then memo_effets, n_effets = {}, 0 end
-    memo_effets[k] = fr or false
+    local fr, id, complet = A.TrouverCorpsEffet(corps, idObjet)
+    -- (0.5) un echec n'est garde en memoire que si les donnees ont pu etre lues (index et tranches de sorts) : un
+    -- premier survol en combat (chargement remis a la fin du combat) ne condamne plus la ligne pour la session
+    if fr or complet then
+        n_effets = n_effets + 1
+        if n_effets > 300 then memo_effets, n_effets = {}, 0 end
+        memo_effets[k] = fr or false
+    end
     return fr, id
 end
 
+-- Renvoie le francais, le numero du sort, et si la recherche a pu lire toutes ses donnees.
 function A.TrouverCorpsEffet(corps, idObjet)
     local essais = {}
     if idObjet and type(GetItemSpell) == "function" then
+        -- (3.3.5 : GetItemSpell rend nom et rang ; certains clients rendent le numero en 2e valeur)
         local ok, _, idSort = pcall(GetItemSpell, idObjet)
         if ok and type(idSort) == "number" then essais[#essais + 1] = idSort end
     end
-    for _, id in ipairs(SortsParTexte(corps)) do essais[#essais + 1] = id end
+    local ids, lu = SortsParTexte(corps)
+    for _, id in ipairs(ids) do essais[#essais + 1] = id end
+    local complet = lu
     for _, id in ipairs(essais) do
+        if type(A.Sort(id)) ~= "table" and A.EnCombat() then complet = false end
         local fr = A.DescriptionSort(id, corps)
-        if fr then return fr, id end
+        if fr then return fr, id, true end
     end
-    return nil
+    return nil, nil, complet and not A.EnCombat()
 end
 
 -- Lignes d'effets : « Use: … », « Equip: … », « Chance on hit: … », et les lignes de statistiques que le

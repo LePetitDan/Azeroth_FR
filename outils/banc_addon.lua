@@ -31,14 +31,15 @@ function strtrim(s) return (string.match(s, "^%s*(.-)%s*$")) end
 
 JOUEUR = { nom = "Thalwyn", race = "Night Elf", classe = "Warrior", sexe = 2 }
 UNITES = {}
-function UnitName(u) if u == "player" then return JOUEUR.nom end return UNITES[u] and UNITES[u].nom end
+-- (les unites du jeu ne tiennent pas compte de la casse : UnitName("NPC") = UnitName("npc"))
+function UnitName(u) u = u and string.lower(u); if u == "player" then return JOUEUR.nom end return UNITES[u] and UNITES[u].nom end
 function GetUnitName(u) return UnitName(u) end
 function UnitRace(u) return JOUEUR.race end
 function UnitClass(u) return JOUEUR.classe end
 function UnitSex(u) return JOUEUR.sexe end
-function UnitIsPlayer(u) return u == "player" or (UNITES[u] and UNITES[u].joueur) or false end
-function UnitExists(u) return u == "player" or UNITES[u] ~= nil end
-function UnitGUID(u) return UNITES[u] and UNITES[u].guid end
+function UnitIsPlayer(u) u = u and string.lower(u); return u == "player" or (UNITES[u] and UNITES[u].joueur) or false end
+function UnitExists(u) u = u and string.lower(u); return u == "player" or UNITES[u] ~= nil end
+function UnitGUID(u) u = u and string.lower(u); return UNITES[u] and UNITES[u].guid end
 
 OBJETS_BANC, ITEM_SPELLS, ACTIONS, GRIMOIRE, AURAS = {}, {}, {}, {}, {}
 local function LienObjet(id, nom) return "|cffffffff|Hitem:" .. id .. ":0:0:0:0:0:0:0:0|h[" .. nom .. "]|h|r" end
@@ -385,11 +386,15 @@ MerchantFrame = NouveauCadre("MerchantFrame")
 MerchantFrame.selectedTab, MerchantFrame.page = 1, 1
 for i = 1, 12 do _G["MerchantItem" .. i .. "Name"] = NouvelleZone("") end
 MerchantBuyBackItemName = NouvelleZone("")
+MerchantNameText = NouvelleZone("Merchant Name")
 function GetMerchantItemLink(index) local o = MARCHAND[index]; return o and LienObjet(o.id, o.nom) end
 function GetBuybackItemLink(index) local o = RACHAT[index]; return o and LienObjet(o.id, o.nom) end
 function GetNumBuybackItems() return #RACHAT end
+-- (0.5) comme patch-B : MerchantFrame_UpdateMerchantInfo pose l'en-tete MerchantNameText:SetText(UnitName("NPC")),
+-- MerchantFrame_UpdateBuybackInfo pose MERCHANT_BUYBACK
 function MerchantFrame_Update()
     if MerchantFrame.selectedTab == 1 then
+        MerchantNameText:SetText(UnitName("NPC"))
         for i = 1, MERCHANT_ITEMS_PER_PAGE do
             local o = MARCHAND[(MerchantFrame.page - 1) * MERCHANT_ITEMS_PER_PAGE + i]
             _G["MerchantItem" .. i .. "Name"]:SetText(o and o.nom or "")
@@ -397,8 +402,38 @@ function MerchantFrame_Update()
         local d = RACHAT[#RACHAT]
         MerchantBuyBackItemName:SetText(d and d.nom or "")
     else
+        MerchantNameText:SetText(MERCHANT_BUYBACK or "Merchant Buyback")
         for i = 1, 12 do local o = RACHAT[i]; _G["MerchantItem" .. i .. "Name"]:SetText(o and o.nom or "") end
     end
+end
+-- (0.5) Banque, taxi, tabard : script OnEvent lie par function= dans le XML (capture), qui pose le nom du PNJ.
+for _, x in ipairs({ { "BankFrame", "BANKFRAME_OPENED", "BankFrameTitleText" }, { "TaxiFrame", "TAXIMAP_OPENED", "TaxiMerchant" },
+    { "TabardFrame", "OPEN_TABARD_FRAME", "TabardFrameNameText" } }) do
+    local cadre = NouveauCadre(x[1])
+    _G[x[3]] = NouvelleZone("")
+    cadre.scripts.OnEvent = function(self, event) if event == x[2] then _G[x[3]]:SetText(UnitName("npc")) end end
+    cadre:RegisterEvent(x[2])
+end
+-- (0.5) Carte du monde, infobulle d'un point de quete (patch-B, WorldMapFrame.lua : WorldMapQuestPOI_SetTooltip)
+WorldMapTooltip = NouvelleBulle("WorldMapTooltip")
+function WorldMapTooltip:SetText(t) self:Effacer({ t }) end
+function WorldMapFrame_ReverseQuestObjective(text)
+    local _, _, a1, a2 = string.find(text, "(.*):%s(.*)")
+    if a1 and a2 then return a2 .. " " .. a1 end
+    return text
+end
+POI_OBJECTIFS = {}
+function GetNumQuestLeaderBoards(i) return #POI_OBJECTIFS end
+function GetQuestLogLeaderBoard(k, i) return POI_OBJECTIFS[k], "item", false end
+function GetNumQuestItemDrops(i) return 0 end
+function WorldMapQuestPOI_SetTooltip(poiButton, questLogIndex, numObjectives)
+    local title = GetQuestLogTitle(questLogIndex)
+    WorldMapTooltip:SetText(title)
+    for k = 1, GetNumQuestLeaderBoards(questLogIndex) do
+        local text, _, finished = GetQuestLogLeaderBoard(k, questLogIndex)
+        if text and not finished then WorldMapTooltip:AddLine("- " .. WorldMapFrame_ReverseQuestObjective(text), 1, 1, 1, 1) end
+    end
+    WorldMapTooltip:Show()
 end
 -- Butin (LootFrame.lua de patch-enUS-3) : LootFrame_UpdateButton(index) pose le nom et button.slot.
 BUTIN = {}
@@ -878,6 +913,7 @@ for _, c in ipairs(CAS_LISTE) do
         egal(c.nom .. " (on : français)", MESSAGES_CENTRE[1] and MESSAGES_CENTRE[1][1], c.attendu)
         egal(c.nom .. " (on : un seul message)", #MESSAGES_CENTRE, 1)
     elseif c.quoi == "marchand" then
+        UNITES.npc = c.pnj and { nom = c.pnj.nom, guid = c.pnj.guid } or nil
         MARCHAND, RACHAT = {}, {}
         for i, o in ipairs(c.achat) do MARCHAND[i] = o end
         for i, o in ipairs(c.rachat) do RACHAT[i] = o end
@@ -887,12 +923,16 @@ for _, c in ipairs(CAS_LISTE) do
             egal(c.nom .. " (achat " .. i .. ")", _G["MerchantItem" .. i .. "Name"]:GetText(), o.attendu)
         end
         egal(c.nom .. " (dernier objet vendu)", MerchantBuyBackItemName:GetText(), c.rachat[#c.rachat].attendu)
+        if c.pnj then egal(c.nom .. " (en-tête : nom du PNJ)", MerchantNameText:GetText(), c.pnj.attendu) end
         MerchantFrame.selectedTab = 2
         MerchantFrame_Update()
         for i, o in ipairs(c.rachat) do
             egal(c.nom .. " (rachat " .. i .. ")", _G["MerchantItem" .. i .. "Name"]:GetText(), o.attendu)
         end
+        if c.pnj then egal(c.nom .. " (en-tête de l'onglet Rachat : texte d'interface intact)", MerchantNameText:GetText(),
+            MERCHANT_BUYBACK or "Merchant Buyback") end
         MerchantFrame.visible = false
+        UNITES.npc = nil
     elseif c.quoi == "butin" then
         BUTIN = {}
         for i, o in ipairs(c.objets) do BUTIN[i] = o end
@@ -938,7 +978,7 @@ for _, c in ipairs(CAS_LISTE) do
     elseif c.quoi == "pierre_de_foyer" then
         LIEU_FOYER = c.lieu
         GameTooltip:Effacer(c.lignes, { c.anglais, LienObjet(c.id, c.anglais) })
-        ITEM_SPELLS[c.id] = nil
+        ITEM_SPELLS[c.id] = c.item_spell           -- (0.5) 3.3.5 : GetItemSpell rend nom et rang, pas le numero
         GameTooltip:Declencher("OnTooltipSetItem")
         egal(c.nom .. " (nom)", GameTooltip.lignes[1]:GetText(), c.attendu)
         egal(c.nom .. " (ligne Utiliser)", GameTooltip.lignes[c.ligne]:GetText(), c.ligne_attendue)
@@ -1014,6 +1054,65 @@ for _, c in ipairs(CAS_LISTE) do
         QuestInfo_Display()
         egal(c.nom .. " (en-tête)", QuestInfoTitleHeader:GetText(), c.titre_attendu)
         egal(c.nom .. " (description)", QuestInfoDescriptionText:GetText(), c.description_attendue)
+    elseif c.quoi == "entete_pnj" then
+        UNITES.npc = { nom = c.anglais, guid = c.guid }
+        if c.fenetre == "maitre" then
+            -- Blizzard_TrainerUI (patch-B) : add-on du jeu charge a la demande ; ClassTrainerFrame_Update pose l'en-tete
+            if not ClassTrainerNameText then
+                ClassTrainerNameText = NouvelleZone("")
+                function ClassTrainerFrame_Update() ClassTrainerNameText:SetText(UnitName("npc")) end
+                Declencher("ADDON_LOADED", "Blizzard_TrainerUI")
+            end
+            ClassTrainerFrame_Update()
+            egal(c.nom, ClassTrainerNameText:GetText(), c.attendu)
+        else
+            Declencher(c.evenement)
+            egal(c.nom, _G[c.zone]:GetText(), c.attendu)
+        end
+        UNITES.npc = { nom = c.anglais .. " Jr.", guid = c.guid }
+        if c.fenetre == "maitre" then ClassTrainerFrame_Update() else Declencher(c.evenement) end
+        egal(c.nom .. " (nom changé par le serveur : anglais)", c.fenetre == "maitre" and ClassTrainerNameText:GetText()
+            or _G[c.zone]:GetText(), c.anglais .. " Jr.")
+        UNITES.npc = nil
+    elseif c.quoi == "bulle_carte" then
+        JOURNAL = { { titre = c.titre_en, id = c.id } }
+        A.JournalAChange()
+        POI_OBJECTIFS = c.objectifs
+        for k = 1, 3 do                                   -- le jeu refait l'infobulle a chaque image
+            WorldMapQuestPOI_SetTooltip(nil, 1)
+        end
+        egal(c.nom .. " (titre)", WorldMapTooltip.lignes[1]:GetText(), c.titre_attendu)
+        for k, att in ipairs(c.lignes_attendues) do
+            egal(c.nom .. " (ligne " .. (k + 1) .. ")", WorldMapTooltip.lignes[k + 1] and WorldMapTooltip.lignes[k + 1]:GetText(), att)
+        end
+        POI_OBJECTIFS = {}
+        JOURNAL = {}
+        A.JournalAChange()
+    elseif c.quoi == "memoire" then
+        -- comme le client CoA (GarbageCollectionUtil.lua) : UpdateAddOnMemoryUsage ne fait rien tant que
+        -- allowAddonMemoryUsage vaut 0, et GetAddOnMemoryUsage rend alors 0
+        local CVAR = "0"
+        local MEM = {}
+        function GetCVar(n) if n == "allowAddonMemoryUsage" then return CVAR end end
+        function UpdateAddOnMemoryUsage() if CVAR == "1" then MEM.Azeroth_FR = 2048 end end
+        function GetAddOnMemoryUsage(n) return MEM[n] or 0 end
+        local function Stats()
+            local avant = #messages
+            SlashCmdList.AZFR("stats")
+            for k = avant + 1, #messages do
+                if string.find(messages[k], "mémoire : add-ons Azeroth_FR", 1, true) then return messages[k] end
+            end
+        end
+        local m1 = Stats()
+        noter(m1 and string.find(m1, "MESURE APPROCHÉE", 1, true) and not string.find(m1, "Azeroth_FR 0 Ko", 1, true) and true or false,
+            c.nom .. " (option du client à 0 : repli sur collectgarbage, dit comme tel)", m1)
+        local n = m1 and tonumber(string.match(m1, "≈ (%d+) Ko"))
+        noter(n ~= nil and n > 0, c.nom .. " (estimation non nulle)", n and (n .. " Ko") or nil)
+        CVAR = "1"
+        local m2 = Stats()
+        noter(m2 and string.find(m2, "2048 Ko (mesure du jeu", 1, true) and true or false,
+            c.nom .. " (option du client à 1 : UpdateAddOnMemoryUsage puis GetAddOnMemoryUsage)", m2)
+        GetCVar, UpdateAddOnMemoryUsage, GetAddOnMemoryUsage = nil, nil, nil
     elseif c.quoi == "gossip_quete" then
         UNITES.npc = nil
         GossipGreetingText:SetText("")

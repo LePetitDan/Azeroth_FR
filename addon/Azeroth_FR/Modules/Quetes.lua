@@ -1,5 +1,6 @@
 -- ============================================================================
--- Azeroth_FR : quetes (version 0.4 : suivi sans redimensionnement en combat, texte de progression).
+-- Azeroth_FR : quetes (version 0.5 : objectifs d'objets par le nom d'objet de quete sans ambiguite ;
+-- 0.4 : suivi sans redimensionnement en combat, texte de progression).
 -- Fenetre de quete (detail, progression, recompense), journal des quetes, suivi des
 -- objectifs, accueil des donneurs de quetes. Affichage seulement.
 --
@@ -121,6 +122,10 @@ local function NomObjectif(nom)
         local o = id and A.Objet(id)
         if type(o) == "table" and o[1] and A.H1(nom) == o[2] then return o[1] end
     end
+    -- (0.5) objet demande par une quete mais absent du cache du client (« 0/8 Red Burlap Bandana » : on n'en a
+    -- encore aucun) : nom d'objet de quete sans ambiguite (un seul francais pour cet anglais, table NOQ)
+    fr = A.Nom("objet_quete", nom)
+    if fr then return fr end
     return nil
 end
 A.NomObjectif = NomObjectif

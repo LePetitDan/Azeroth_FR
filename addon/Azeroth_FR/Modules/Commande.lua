@@ -4,7 +4,8 @@
 --   /azfr off         le coupe (le jeu reste en anglais ; les fenetres deja ouvertes gardent leur
 --                     texte jusqu'a leur prochain affichage)
 --   /azfr version     version de l'add-on et du paquet d'interface (PTRXML)
---   /azfr stats       familles chargees, memoire, nombre de traductions, erreurs evitees
+--   /azfr stats       familles chargees, memoire (0.5 : mesure du jeu, ou repli approche par collectgarbage,
+--                     dit comme tel), nombre de traductions, erreurs evitees
 --   /azfr etiquettes  trois infobulles d'objets reels du serveur portant des etiquettes (Mythic N,
 --                     Heroic Raid, Bloodforged) : lignes brutes du jeu dans la discussion, puis traduction
 --                     (hors combat seulement)
@@ -47,25 +48,38 @@ local function Stats()
     end
     if #coupes > 0 then A.Message("modules coupés (/azfr <module> on pour les remettre) : " .. table.concat(coupes, ", ")) end
     if A.StatsBlocages then A.StatsBlocages() end
+    -- (0.5) Memoire. Essai 4 : « add-ons Azeroth_FR 0 Ko ». Le client CoA (patch-B, SharedXML/Util/
+    -- GarbageCollectionUtil.lua) remplace UpdateAddOnMemoryUsage par une enveloppe qui ne fait RIEN tant que le reglage
+    -- « allowAddonMemoryUsage » vaut 0 : GetAddOnMemoryUsage rend alors 0. On demande la mise a jour, on lit chaque
+    -- add-on Azeroth_FR ; si tout vaut 0, repli sur collectgarbage("count") mesure autour de nos chargements et des
+    -- compilations de nos tables (approche : ce n'est pas une mesure par add-on). On le dit. Aucun reglage n'est change.
+    local permis = type(GetCVar) == "function" and GetCVar("allowAddonMemoryUsage")
     if type(UpdateAddOnMemoryUsage) == "function" then pcall(UpdateAddOnMemoryUsage) end
     local total = 0
     local noms = { "Azeroth_FR" }
     for _, f in ipairs(A.FAMILLES or {}) do noms[#noms + 1] = f.addon end
+    local lignes = {}
     for _, addon in ipairs(noms) do
         local etat = A.Charges[addon]
         if addon == "Azeroth_FR" or etat ~= nil then
             local mem = 0
             if type(GetAddOnMemoryUsage) == "function" then
                 local ok, m = pcall(GetAddOnMemoryUsage, addon)
-                if ok and m then mem = m end
+                if ok and type(m) == "number" then mem = m end
             end
             total = total + mem
-            local d = A.DureesChargement[addon]
-            A.Message(format("  %s : %s%s%s", addon,
-                (addon == "Azeroth_FR" or etat) and "chargé" or ("NON chargé (" .. tostring(A.RaisonsEchec[addon]) .. ")"),
-                mem > 0 and (", " .. Ko(mem)) or "",
-                d and format(", %.0f ms", d) or ""))
+            lignes[#lignes + 1] = { addon, etat, mem }
         end
+    end
+    local repli = total <= 0
+    for _, x in ipairs(lignes) do
+        local addon, etat, mem = x[1], x[2], x[3]
+        local d = A.DureesChargement[addon]
+        local approx = repli and A.MemoireChargement and A.MemoireChargement[addon]
+        A.Message(format("  %s : %s%s%s", addon,
+            (addon == "Azeroth_FR" or etat) and "chargé" or ("NON chargé (" .. tostring(A.RaisonsEchec[addon]) .. ")"),
+            (mem > 0 and (", " .. Ko(mem))) or (approx and approx > 0 and (", ≈ " .. Ko(approx) .. " au chargement")) or "",
+            d and format(", %.0f ms", d) or ""))
     end
     for famille, tables in pairs(A.Tables) do
         for nom, t in pairs(tables) do
@@ -74,7 +88,18 @@ local function Stats()
             A.Message(format("  table %s.%s : %d seaux compilés sur %d", famille, nom, t.compiles, t.compiles + reste))
         end
     end
-    A.Message(format("mémoire : add-ons Azeroth_FR %s ; toute l'interface %s.", Ko(total), Ko(collectgarbage("count"))))
+    local tout = collectgarbage("count")
+    if not repli then
+        A.Message(format("mémoire : add-ons Azeroth_FR %s (mesure du jeu, par add-on) ; toute l'interface %s.", Ko(total), Ko(tout)))
+    else
+        local charge = 0
+        for _, v in pairs(A.MemoireChargement or {}) do charge = charge + v end
+        local estimation = charge + (A.MemoireSeaux or 0)
+        A.Message(format("mémoire : add-ons Azeroth_FR ≈ %s (MESURE APPROCHÉE : %s au chargement des données + %s de "
+            .. "tables compilées, par collectgarbage ; le client CoA ne mesure la mémoire par add-on que si son option "
+            .. "« allowAddonMemoryUsage » est active, ici %s) ; toute l'interface %s.",
+            Ko(estimation), Ko(charge), Ko(A.MemoireSeaux or 0), tostring(permis or "?"), Ko(tout)))
+    end
 end
 
 -- ----------------------------------------------------------------------------

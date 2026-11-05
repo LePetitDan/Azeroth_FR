@@ -1,5 +1,6 @@
 -- ============================================================================
--- Azeroth_FR : le coeur de l'add-on (version 0.4 : fil d'Ariane des modules, interrupteurs par module).
+-- Azeroth_FR : le coeur de l'add-on (version 0.5 : memoire mesuree par collectgarbage autour des chargements ;
+-- 0.4 : fil d'Ariane des modules, interrupteurs par module).
 --
 -- PRINCIPE : AFFICHAGE SEULEMENT. Le jeu affiche son texte anglais ; l'add-on le
 -- reconnait et pose le francais par-dessus, dans le cadre affiche (FontString:SetText,
@@ -38,6 +39,8 @@ A.DerniereErreur = nil
 A.Charges = {}                  -- add-on de donnees -> true (charge) / false (echec)
 A.RaisonsEchec = {}
 A.DureesChargement = {}         -- add-on -> millisecondes
+A.MemoireChargement = {}        -- (0.5) add-on -> Ko gagnes pendant son chargement (collectgarbage, approche)
+A.MemoireSeaux = 0              -- (0.5) Ko gagnes pendant la compilation des seaux (approche)
 A.EnAttente = {}                -- add-ons a charger apres le combat
 A.Compteurs = { traduits = 0, recherches = 0, discussion = 0, sorts = 0, suivi_hauteur = 0 }
 
@@ -242,6 +245,7 @@ function Paresseuse:Seau(s)
     if not src then return nil end
     self.morceaux[s] = nil              -- un seau ne se compile qu'une fois
     local tbl
+    local m0 = collectgarbage("count")
     local f = loadstring("return {" .. src .. "}")
     if f then
         local ok, t = pcall(f)
@@ -254,6 +258,8 @@ function Paresseuse:Seau(s)
     end
     self.seaux[s] = tbl
     self.compiles = self.compiles + 1
+    local dm = collectgarbage("count") - m0
+    if dm > 0 then A.MemoireSeaux = A.MemoireSeaux + dm end
     return tbl
 end
 
@@ -306,8 +312,10 @@ function A.ChargerAddon(addon)
     end
     A.Trace("chargement " .. tostring(addon))
     local t0 = Chrono()
+    local m0 = collectgarbage("count")
     local ok, charge, raison = pcall(LoadAddOn, addon)
     A.DureesChargement[addon] = Chrono() - t0
+    A.MemoireChargement[addon] = math.max(0, collectgarbage("count") - m0)
     A.Charges[addon] = (ok and charge) and true or false
     A.EnAttente[addon] = nil
     if not A.Charges[addon] then

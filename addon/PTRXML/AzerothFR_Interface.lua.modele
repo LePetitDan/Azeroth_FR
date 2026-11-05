@@ -34,6 +34,12 @@ end
 -- Affichage seulement : on ne change que le texte d'une zone de texte ; aucune variable ni fonction du jeu n'est
 -- touchee. Tout est sous pcall ; a la premiere erreur, la relecture s'arrete pour la session (rien ne bloque
 -- la connexion). En jeu, ce bloc ne fait rien.
+-- (0.5) Noms de classes coupes (essai 4 : « Nécromancie… », « Pyromancien… », « Chronomanci… ») : la zone du nom
+-- d'un bouton de classe a une largeur fixe (CharCreateClassButtonTemplate : 104 px, GameFontNormalSmall) et un mot
+-- seul ne passe pas a la ligne. Si le texte pose ne tient pas (largeur mesuree comparee a GetWidth), la police de
+-- CETTE zone seulement est reduite par paliers de 0,5 point, jamais sous 70 % de sa taille d'origine ; la taille
+-- d'origine revient des que le texte de la zone change. Si le client change lui-meme la police (SetFontObject a
+-- l'activation ou la desactivation du bouton), sa nouvelle taille devient l'origine.
 -- ----------------------------------------------------------------------------------------------------------------
 local ok2, err2 = pcall(function()
     if type(GetNumCharacters) ~= "function" or type(UnitName) == "function" or type(CreateFrame) ~= "function" then
@@ -44,6 +50,10 @@ local ok2, err2 = pcall(function()
     local gsub, match, sub = string.gsub, string.match, string.sub
     local ecrits = setmetatable({}, { __mode = "k" })       -- zone -> { en = anglais, fr = francais pose }
     local n_poses = 0
+    local tailles = setmetatable({}, { __mode = "k" })      -- (0.5) zone -> { police, taille, drapeaux, texte, posee }
+    local n_reduits = 0
+    local f = CreateFrame("Frame")
+    local mesure                                            -- (0.5) zone de texte a nous, pour mesurer chaque ligne
 
     local function Femme()
         return type(GetSelectedSex) == "function" and GetSelectedSex() == 3
@@ -84,6 +94,61 @@ local ok2, err2 = pcall(function()
         ecrits[zone] = { en = en, fr = fr }
     end
 
+    -- (0.5) Largeur du texte : celle de la zone pour une ligne ; pour un nom coupe en deux lignes, la plus large des
+    -- lignes, mesuree sur notre propre zone de texte a la meme police.
+    local function Largeur(zone, texte, police, taille, drapeaux)
+        if not string.find(texte, "\n", 1, true) then return zone:GetStringWidth() end
+        if not mesure then
+            mesure = f:CreateFontString(nil, "ARTWORK")
+            mesure:Hide()
+        end
+        mesure:SetFont(police, taille, drapeaux)
+        local w = 0
+        for ligne in string.gmatch(texte, "[^\n]+") do
+            mesure:SetText(ligne)
+            local l = mesure:GetStringWidth() or 0
+            if l > w then w = l end
+        end
+        return w
+    end
+
+    local function Ajuster(zone)
+        if type(zone.GetFont) ~= "function" or type(zone.SetFont) ~= "function" or type(zone.GetWidth) ~= "function"
+            or type(zone.GetStringWidth) ~= "function" then return end
+        local texte = zone:GetText()
+        if not texte or texte == "" then return end
+        local police, taille, drapeaux = zone:GetFont()
+        if type(police) ~= "string" or type(taille) ~= "number" or taille <= 0 then return end
+        local t = tailles[zone]
+        if t then
+            if police ~= t.police or math.abs(taille - t.posee) > 0.01 then
+                tailles[zone] = nil                         -- le client a change la police : nouvelle origine
+            elseif texte ~= t.texte then
+                zone:SetFont(t.police, t.taille, t.drapeaux)    -- le texte a change : taille d'origine
+                taille = t.taille
+                tailles[zone] = nil
+            else
+                return                                      -- deja ajustee pour ce texte
+            end
+        end
+        local e = ecrits[zone]
+        if not e or e.fr ~= texte then return end          -- seulement un nom francais pose par nous
+        local largeur = zone:GetWidth()
+        if type(largeur) ~= "number" or largeur <= 0 then return end
+        if Largeur(zone, texte, police, taille, drapeaux) <= largeur + 0.5 then return end
+        local origine, sz = taille, taille
+        local mini = origine * 0.7
+        while sz - 0.5 >= mini - 0.001 do
+            sz = sz - 0.5
+            zone:SetFont(police, sz, drapeaux)
+            if Largeur(zone, texte, police, sz, drapeaux) <= largeur + 0.5 then break end
+        end
+        if sz < origine then
+            tailles[zone] = { police = police, taille = origine, drapeaux = drapeaux, texte = texte, posee = sz }
+            n_reduits = n_reduits + 1
+        end
+    end
+
     -- Boutons de classes : tous les boutons a cocher sous CharCreateClassFrame (lignes du client, guide des classes).
     local function Classes(cadre, profondeur)
         if not cadre or profondeur > 4 or type(cadre.GetChildren) ~= "function" then return end
@@ -92,6 +157,7 @@ local ok2, err2 = pcall(function()
             local b = enfants[i]
             if type(b) == "table" and b.Text and type(b.IsShown) == "function" and b:IsShown() then
                 Poser(b.Text, CLASSES, true)
+                Ajuster(b.Text)
             end
             Classes(b, profondeur + 1)
         end
@@ -142,7 +208,6 @@ local ok2, err2 = pcall(function()
         end
     end
 
-    local f = CreateFrame("Frame")
     local cumul = 0
     f:SetScript("OnUpdate", function(self, ecoule)
         cumul = cumul + (ecoule or 0)
@@ -154,6 +219,7 @@ local ok2, err2 = pcall(function()
             if type(AzerothFR_Interface) == "table" then AzerothFR_Interface.erreur_creation = tostring(e) end
         elseif type(AzerothFR_Interface) == "table" then
             AzerothFR_Interface.creation_poses = n_poses
+            AzerothFR_Interface.creation_reduits = n_reduits
         end
     end)
 end)

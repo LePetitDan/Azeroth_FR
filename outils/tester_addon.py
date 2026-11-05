@@ -12,7 +12,7 @@ paquet PTRXML.
 Quand la source n'a pas encore de description de sort AFFICHABLE avec des nombres, le banc INJECTE une ligne
 reelle a l'etat `a_revoir` (modele anglais + proposition francaise) sous un numero fictif : c'est un essai du
 mecanisme d'alignement, jamais une donnee embarquee dans l'add-on. Le resultat le dit.
-Resultat : work/addon04/banc_resultat.txt ; code de sortie 0 si tout est conforme.
+Resultat : work/addon05/banc_resultat.txt ; code de sortie 0 si tout est conforme.
 """
 import os
 import re
@@ -30,8 +30,8 @@ import fabriquer as F  # noqa: E402
 import officiel as O  # noqa: E402
 
 DIST = os.path.join(K.RACINE, 'dist', 'Interface')
-TRAVAIL = os.path.join(K.RACINE, 'work', 'addon04')
-TRAVAIL2 = os.path.join(K.RACINE, 'work', 'addon04')
+TRAVAIL = os.path.join(K.RACINE, 'work', 'addon05')
+TRAVAIL2 = os.path.join(K.RACINE, 'work', 'addon05')
 JOUEUR = {'nom': 'Thalwyn', 'race': 'Night Elf', 'classe': 'Warrior'}   # personnage fictif du banc
 RACE_FR = F.RACES_OFFICIELLES['Night Elf']
 CIBLE = 'Elandra'                                                          # autre personnage fictif
@@ -942,7 +942,7 @@ def choisir_cas():
     # metiers (livre des metiers de CoA) : Forge (officiel), Menuiserie (decision 15), rang « Apprentice »
     comp = {x[K.I_EN]: x for x in lire('client/competences.tsv') if x[K.I_CHAMP] == 'name' and passe(x)}
     rg_app = next((x for x in lire('client/sorts_standard.tsv') if x[K.I_CHAMP] == 'Rank' and x[K.I_EN] == 'Apprentice' and passe(x)), None)
-    for m in ('Blacksmithing', 'Woodworking', 'Woodcutting'):
+    for m in ('Blacksmithing', 'Woodworking', 'Woodcutting', 'Bushcraft'):     # (0.5) Bushcraft = Survie, décision 18
         if m in comp:
             c_ = {'quoi': 'metier', 'nom': 'livre des métiers : « %s »' % m, 'anglais': m, 'attendu': comp[m][K.I_FR]}
             if rg_app and m == 'Blacksmithing':
@@ -954,7 +954,80 @@ def choisir_cas():
               'Inflicts 6 days of pain, 10% more.']
     cas.append({'quoi': 'squelette', 'nom': 'squelette d\'un texte de sort : même calcul en Python et en Lua (%d textes)' % len(textes),
                 'textes': textes, 'attendus': [F.squelette(t) for t in textes]})
+    cas += cas_essai4(globales, g_obj, cr, obj)
     return cas, globales, injections
+
+
+def cas_essai4(globales, g_obj, cr, obj):
+    """Add-on 0.5 : un cas reel par retour de l'essai 4, avec le texte exact vu en jeu (le nom du personnage de Dan est
+    remplace par le personnage fictif du banc)."""
+    cas = []
+    noms = {}
+    for x in cr:
+        if x[K.I_CHAMP] == 'name' and passe(x) and x[K.I_FR] != x[K.I_EN]:
+            noms.setdefault(x[K.I_EN], x)
+    # 3. en-tete du marchand « Brother Danil » ; « Sturdy Throwing Knife » (objet 28979, a revoir) reste en anglais
+    danil = noms.get('Brother Danil')
+    stk = [x for x in lire('serveur/objets/objets_0000000-0199999.tsv') if x[K.I_ID] == '28979' and x[K.I_CHAMP] == 'name']
+    if danil and 'Linen Cloth' in obj:
+        achat = [{'id': obj['Linen Cloth'][0], 'nom': 'Linen Cloth', 'attendu': obj['Linen Cloth'][1]}]
+        if stk and not passe(stk[0]):
+            achat.append({'id': 28979, 'nom': 'Sturdy Throwing Knife', 'attendu': 'Sturdy Throwing Knife'})
+        cas.append({'quoi': 'marchand', 'nom': 'essai 4 n° 5 et 6 : en-tête du marchand « Brother Danil » ; « Sturdy Throwing Knife » '
+                    '(à revoir, sans français) reste en anglais', 'pnj': {'nom': 'Brother Danil', 'guid': guid(danil[K.I_ID]),
+                                                                          'attendu': danil[K.I_FR]},
+                    'achat': achat, 'rachat': [achat[0]]})
+    else:
+        NOTES.append('essai 4 : « Brother Danil » ou « Linen Cloth » sans français affichable : cas du marchand absent')
+    for fen, en, ev, zone in (('banque', 'Olivia Burnside', 'BANKFRAME_OPENED', 'BankFrameTitleText'),
+                              ('taxi', 'Dungar Longdrink', 'TAXIMAP_OPENED', 'TaxiMerchant'),
+                              ('tabard', 'Lyesa Steelbrow', 'OPEN_TABARD_FRAME', 'TabardFrameNameText'),
+                              ('maitre', 'Brother Sammuel', None, 'ClassTrainerNameText')):
+        x = noms.get(en)
+        if not x:
+            NOTES.append('essai 4 : %s (%s) sans français affichable : cas absent' % (en, fen))
+            continue
+        cas.append({'quoi': 'entete_pnj', 'fenetre': fen, 'nom': 'en-tête de la fenêtre %s : « %s »' % (
+            {'banque': 'de banque', 'taxi': 'de vol (taxi)', 'tabard': 'du tabard', 'maitre': 'du maître de classe'}[fen], en),
+            'anglais': en, 'guid': guid(x[K.I_ID]), 'attendu': x[K.I_FR], 'evenement': ev, 'zone': zone})
+    # 4. pierre de foyer : le texte EXACT de l'essai 4 (« Elwynn Forest », double espace du DBC) alors que GetBindLocation
+    # rend autre chose, et GetItemSpell a la mode 3.3.5 (nom et rang, pas de numero)
+    hs = [x for x in lire('client/sorts_standard.tsv') if x[K.I_ID] == '8690' and x[K.I_CHAMP] == 'Description']
+    zel = next((x for x in lire('client/zones.tsv') if x[K.I_TYPE] == 'zone' and x[K.I_ID] == '12' and passe(x)), None)
+    if hs and passe(hs[0]) and 'Hearthstone' in obj and zel:
+        g_use = globales.get('ITEM_SPELL_TRIGGER_ONUSE', 'Use:')
+        corps_en = hs[0][K.I_EN].replace('$z', 'Elwynn Forest')
+        for lieu, quoi in (('Northshire Valley', 'GetBindLocation rend « Northshire Valley »'), (None, 'GetBindLocation vide')):
+            cas.append({'quoi': 'pierre_de_foyer', 'nom': 'essai 4 n° 7 : pierre de foyer, « %s Returns you to Elwynn Forest.  Speak to an '
+                        'Innkeeper… » (%s ; GetItemSpell rend « Hearthstone », « »)' % (g_use, quoi),
+                        'id': obj['Hearthstone'][0], 'anglais': 'Hearthstone', 'attendu': obj['Hearthstone'][1],
+                        'lieu': lieu, 'ligne': 4, 'item_spell': ['Hearthstone', ''],
+                        'lignes': ['Hearthstone', 'Soulbound', 'Unique', g_use + ' ' + corps_en],
+                        'ligne_attendue': g_use + ' ' + hs[0][K.I_FR].replace('$z', zel[K.I_FR])})
+    else:
+        NOTES.append('essai 4 : pierre de foyer (sort 8690, zone 12) sans français affichable : cas absent')
+    # 5 et 6. objectif d'objet « 0/8 Red Burlap Bandana » (objet 752, PAS dans le cache du client) : suivi, journal, panneau
+    # de la carte, infobulle du point de quete (« Brotherhood of Thieves / 0/8 Red Burlap Bandana »)
+    rb = [x for x in lire('serveur/objets/objets_0000000-0199999.tsv') if x[K.I_ID] == '752' and x[K.I_CHAMP] == 'name']
+    t18 = next((x for x in lire('serveur/quetes.tsv') if x[K.I_TYPE] == 'quete' and x[K.I_ID] == '18'
+                and x[K.I_CHAMP] == 'LogTitle' and passe(x)), None)
+    if rb and passe(rb[0]) and t18:
+        ren, rfr = rb[0][K.I_EN], rb[0][K.I_FR]
+        cas.append({'quoi': 'suivi', 'nom': 'essai 4 n° 8 : suivi « 0/8 %s » (objet absent du cache : nom d\'objet de quête)' % ren,
+                    'anglais': '0/8 %s' % ren, 'attendu': inverser(g_obj % (rfr, 0, 8))})
+        cas.append({'quoi': 'objectif', 'nom': 'essai 4 n° 8 : journal « %s: 0/8 »' % ren,
+                    'anglais': '%s: 0/8' % ren, 'attendu': g_obj % (rfr, 0, 8)})
+        cas.append({'quoi': 'carte', 'nom': 'essai 4 n° 8 : panneau des quêtes de la carte, quête 18 et « 0/8 %s »' % ren,
+                    'id': 18, 'titre_en': t18[K.I_EN], 'titre_attendu': t18[K.I_FR],
+                    'objectifs': ['%s: 0/8' % ren], 'objectifs_attendus': inverser(g_obj % (rfr, 0, 8)) + '|n'})
+        cas.append({'quoi': 'bulle_carte', 'nom': 'essai 4 n° 9 : infobulle du point de quête « %s / 0/8 %s »' % (t18[K.I_EN], ren),
+                    'id': 18, 'titre_en': t18[K.I_EN], 'titre_attendu': t18[K.I_FR], 'objectifs': ['%s: 0/8' % ren],
+                    'lignes_attendues': ['- ' + inverser(g_obj % (rfr, 0, 8))]})
+    else:
+        NOTES.append('essai 4 : objet 752 ou quête 18 sans français affichable : cas des objectifs d\'objets absents')
+    # 7. /azfr stats : « mémoire : add-ons Azeroth_FR 0 Ko »
+    cas.append({'quoi': 'memoire', 'nom': 'essai 4 n° 10 : /azfr stats, mémoire (client CoA : UpdateAddOnMemoryUsage bloqué)'})
+    return cas
 
 
 def tester_ptrxml(lua, out):
@@ -983,6 +1056,111 @@ def tester_ptrxml(lua, out):
     return ok
 
 
+JOURNAL_COMBAT_LUA = r"""
+-- format() du client : arguments numerotes « %1$s » (le Lua 5.1 du banc ne les connait pas)
+local function F(fmt, ...)
+    local a = { ... }
+    if string.find(fmt, "%%%d+%$") then
+        return (string.gsub(fmt, "%%(%d+)%$[sd]", function(i) return tostring(a[tonumber(i)]) end))
+    end
+    return string.format(fmt, ...)
+end
+-- « |2 » : elision du client (« de » / « d' »), aussi derriere les codes de couleur et de lien (essai 4 : « souffre de Shock »)
+local VOY = { a = 1, e = 1, i = 1, o = 1, u = 1, y = 1, A = 1, E = 1, I = 1, O = 1, U = 1, Y = 1 }
+local function Elision(t)
+    local out, pos = {}, 1
+    while true do
+        local d = string.find(t, "|2 ", pos, true)
+        if not d then out[#out + 1] = string.sub(t, pos); break end
+        out[#out + 1] = string.sub(t, pos, d - 1)
+        local k = d + 3
+        while true do
+            local _, f = string.find(t, "^|c%x%x%x%x%x%x%x%x", k)
+            if not f then _, f = string.find(t, "^|H.-|h", k) end
+            if not f then break end
+            k = f + 1
+        end
+        local c = string.sub(t, k, k)
+        out[#out + 1] = (VOY[c] or (string.byte(c) or 0) >= 195) and "d'" or "de "
+        pos = d + 3
+    end
+    return table.concat(out)
+end
+local function Visible(t)
+    t = string.gsub(t, "|c%x%x%x%x%x%x%x%x", ""); t = string.gsub(t, "|r", "")
+    t = string.gsub(t, "|H.-|h", ""); t = string.gsub(t, "|h", "")
+    return t
+end
+-- CombatLog_OnEvent de CoA (patch-B, Blizzard_CombatLog.lua), mode « texte complet », noms colores, sans accolades
+function Ligne(event, source, sguid, dest, dguid, spellId, spellName, amount)
+    local nameIsNotSpell = false
+    if string.sub(event, 1, 5) == "SWING" then spellName = ACTION_SWING; nameIsNotSpell = true end
+    local formatString = _G["ACTION_" .. event .. "_FULL_TEXT"]
+    local sourceNameStr, destNameStr = source, dest
+    if source and spellName and _G["ACTION_" .. event .. "_POSSESSIVE"] == "1" then
+        sourceNameStr = F(TEXT_MODE_A_STRING_POSSESSIVE, sourceNameStr)
+    end
+    sourceNameStr = "|cffc41f3b" .. sourceNameStr .. "|r"
+    destNameStr = "|cff00ff00" .. destNameStr .. "|r"
+    local spellNameStr = "|cffffff00" .. spellName .. "|r"
+    local sourceString = F(TEXT_MODE_A_STRING_SOURCE_UNIT, "", sguid, source, sourceNameStr)
+    local spellString = nameIsNotSpell and F(TEXT_MODE_A_STRING_ACTION, event, spellNameStr)
+        or F(TEXT_MODE_A_STRING_SPELL, spellId, event, spellNameStr, spellId)
+    local actionString = F(TEXT_MODE_A_STRING_ACTION, event, _G["ACTION_" .. event] or event)
+    local destString = F(TEXT_MODE_A_STRING_DEST_UNIT, "", dguid, dest, destNameStr)
+    local final = F(formatString, sourceString, spellString, actionString, destString, amount or "", "", "", "", amount or "")
+    final = string.gsub(final, " [ ]+", " ")
+    final = string.gsub(final, " ([.,])", "%1")
+    return final
+end
+function Lu(t) return Visible(Elision(t)) end
+"""
+
+
+def tester_journal_combat(lua, out):
+    """Add-on 0.5 (essai 4 n° 1) : journal de combat. Le vrai AzerothFR_Interface.lua pose les textes d'interface de la
+    source ; le banc refait ensuite ce que fait CombatLog_OnEvent de CoA (patch-B, mode « texte complet ») et la
+    resolution de « |2 » par le client, sur les deux lignes vues a l'essai 4 (le nom du personnage de Dan est remplace
+    par le personnage fictif du banc). Les noms de creatures et de sorts viennent du moteur : ils restent en anglais."""
+    inter = {l[K.I_ID]: l for l in lire('client/interface.tsv')}
+    cles = ['TEXT_MODE_A_STRING_POSSESSIVE', 'TEXT_MODE_A_STRING_POSSESSIVE_STRING', 'TEXT_MODE_A_STRING_1',
+            'COMBAT_LOG_UNIT_YOU_ENABLED', 'ACTION_SWING_DAMAGE_FULL_TEXT', 'ACTION_SPELL_AURA_REMOVED_DEBUFF_FULL_TEXT',
+            'ACTION_SWING_DAMAGE_POSSESSIVE', 'ACTION_SPELL_AURA_REMOVED_DEBUFF_POSSESSIVE', 'TEXT_MODE_A_STRING_SOURCE_UNIT',
+            'TEXT_MODE_A_STRING_DEST_UNIT', 'TEXT_MODE_A_STRING_SPELL', 'TEXT_MODE_A_STRING_ACTION', 'ACTION_SWING',
+            'ACTION_SWING_DAMAGE', 'ACTION_SPELL_AURA_REMOVED_DEBUFF']
+    manque = [c for c in cles if c not in inter]
+    if manque:
+        out.append('KO  journal de combat : clés absentes de la source : %s' % ', '.join(manque))
+        return False
+    L = lambda x: F.lua_chaine(x).decode('utf-8')
+    script = ['%s = %s' % (c, L(inter[c][K.I_EN])) for c in cles]
+    script.append('dofile(%s)' % L(os.path.join(DIST, 'PTRXML', 'AzerothFR_Interface.lua')))
+    script.append(JOURNAL_COMBAT_LUA)
+    attendus = [
+        ('ligne « Le coup Timber Wolf\'s touche … » (SWING_DAMAGE)',
+         'Lu(Ligne("SWING_DAMAGE", "Timber Wolf", "0xF130000001F4000A", "Thalwyn", "0x0000000000000042", nil, nil, 5))',
+         'Le coup de Timber Wolf touche Thalwyn pour 5.'),
+        ('ligne « Shock Thalwyn\'s disparaît de Timber Wolf. » (SPELL_AURA_REMOVED_DEBUFF)',
+         'Lu(Ligne("SPELL_AURA_REMOVED_DEBUFF", "Thalwyn", "0x0000000000000042", "Timber Wolf", "0xF130000001F4000A", 8042, "Shock"))',
+         'Shock de Thalwyn disparaît de Timber Wolf.'),
+        ('drapeau COMBAT_LOG_UNIT_YOU_ENABLED (officiel « 0 »)', 'COMBAT_LOG_UNIT_YOU_ENABLED', '0'),
+        ('ordre des morceaux TEXT_MODE_A_STRING_1 (officiel)', 'TEXT_MODE_A_STRING_1', '%1$s %3$s %2$s %4$s %5$s. %6$s'),
+        ('TEXT_MODE_A_STRING_POSSESSIVE_STRING (lu par aucun code du client) : anglais gardé', 'TEXT_MODE_A_STRING_POSSESSIVE_STRING', "'s"),
+    ]
+    for quoi, expr, att in attendus:
+        script.append('do local v = %s; if v ~= %s then print("KO  journal de combat : %s\\n      obtenu  : " .. tostring(v) .. '
+                      '"\\n      attendu : " .. %s); ECHEC = true else print("OK  journal de combat : %s -> " .. v) end end'
+                      % (expr, L(att), quoi.replace('"', "'"), L(att), quoi.replace('"', "'")))
+    script.append('if ECHEC then os.exit(1) end')
+    p = os.path.join(TRAVAIL, 'banc_journal_combat.lua')
+    with open(p, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(script) + '\n')
+    r = subprocess.run([lua, p], capture_output=True, text=True)
+    ok = r.returncode == 0
+    out.append(r.stdout.strip() + ('' if ok else '\n' + r.stderr))
+    return ok
+
+
 def tester_creation(lua, out):
     """Add-on 0.4 : ecran de creation de personnage (avant-jeu). Execute le vrai AzerothFR_Interface.lua dans un faux
     environnement d'avant-jeu (GetNumCharacters present, UnitName absent) imitant le GlueXML de CoA (patch-B,
@@ -991,7 +1169,8 @@ def tester_creation(lua, out):
     (UnitName present) rien n'est cree."""
     rf = {'Human': F.RACES_OFFICIELLES['Human'], 'Night Elf': F.RACES_OFFICIELLES['Night Elf']}
     cl = {}
-    for en in ('Witch Doctor', 'Witch Hunter', 'Cultist', 'Warrior', 'Knight of Xoroth'):
+    for en in ('Witch Doctor', 'Witch Hunter', 'Cultist', 'Warrior', 'Knight of Xoroth',
+               'Necromancer', 'Chronomancer', 'Pyromancer', 'Venomancer'):     # (0.5) noms coupes a l'essai 4
         if en in CLASSES_FR:
             cl[en] = (CLASSES_FR[en], CLASSES_FR_F.get(en, CLASSES_FR[en]))
     def coupe(t):
@@ -999,12 +1178,22 @@ def tester_creation(lua, out):
     inter = {l[K.I_ID]: l for l in lire('client/interface.tsv')}
     rst = fr_interface(inter.get('RACE_SELECTED_TEXT')) or 'Selected Race:\n|cffFFFFFF%s|r'
     L = lambda x: F.lua_chaine(x).decode('utf-8')
-    script = ['GetNumCharacters = function() return 1 end', 'UnitName = nil', 'SEXE = 2',
+    # (0.5) zones de texte avec police : largeur du texte = caracteres x taille x 0,75 (mesure de tout le texte, retours a la
+    # ligne compris : un nom sur deux lignes mesure ainsi serait faux, l'add-on doit mesurer chaque ligne) ; boutons de
+    # classes larges de 104 px (CharCreateClassButtonTemplate), police d'origine 12 (GameFontNormal, OnEnable)
+    script = ['GetNumCharacters = function() return 1 end', 'UnitName = nil', 'SEXE = 2', 'SEX_MALE = 2',
               'function GetSelectedSex() return SEXE end', 'CADRES = {}',
+              'function Zone(t, largeur) local z = { t = t, police = "Fonts\\\\FRIZQT__.TTF", taille = 12, drapeaux = "", largeur = largeur or 0 } '
+              'function z:GetText() return self.t end function z:SetText(x) self.t = x end '
+              'function z:GetFont() return self.police, self.taille, self.drapeaux end '
+              'function z:SetFont(p, t, d) self.police, self.taille, self.drapeaux = p, t, d end '
+              'function z:SetFontObject(o) self.taille = o end function z:GetWidth() return self.largeur end '
+              'function z:Hide() end '
+              'function z:GetStringWidth() local s = string.gsub(self.t or "", "[\\128-\\191]", "") return #s * self.taille * 0.75 end '
+              'return z end',
               'function CreateFrame() local f = { scripts = {} } function f:SetScript(k, fn) self.scripts[k] = fn end '
-              'table.insert(CADRES, f) return f end',
-              'function Zone(t) local z = { t = t } function z:GetText() return self.t end function z:SetText(x) self.t = x end return z end',
-              'function Bouton(t) local b = { Text = Zone(t), shown = true } function b:IsShown() return self.shown end '
+              'function f:CreateFontString() return Zone("") end table.insert(CADRES, f) return f end',
+              'function Bouton(t, largeur) local b = { Text = Zone(t, largeur), shown = true } function b:IsShown() return self.shown end '
               'function b:GetFontString() return self.Text end return b end',
               'function Cadre(kids) local c = { kids = kids or {}, shown = true } function c:GetChildren() return unpack(self.kids) end '
               'function c:IsShown() return self.shown end return c end',
@@ -1013,7 +1202,14 @@ def tester_creation(lua, out):
     for i, r in enumerate(races, 1):
         script.append('CharCreateRaceButton%d = Bouton(%s)' % (i, L(r)))
     classes = list(cl) + ['Spiritmage']
-    script.append('LIGNE = Cadre({%s})' % ','.join('Bouton(%s)' % L(coupe(c)) for c in classes))
+    script.append('LIGNE = Cadre({%s})' % ','.join('Bouton(%s, 104)' % L(coupe(c)) for c in classes))
+    # (0.5) description de classe : GetFlavorText de CoA (patch-B, CharacterCreate.lua l. 2288), copie exacte
+    fl = {k: inter[k] for k in ('CLASS_STORMBRINGER', 'CLASS_STORMBRINGER_FEMALE') if k in inter}
+    for k, l in fl.items():
+        script.append('%s = %s' % (k, L(l[K.I_EN])))
+    script.append('function GetFlavorText(tagname, sex) local primary, secondary if ( sex == SEX_MALE ) then primary = "" '
+                  'secondary = "_FEMALE" else primary = "_FEMALE" secondary = "" end local text = _G[tagname..primary] '
+                  'if ( (text == nil) or (text == "") ) then text = _G[tagname..secondary] end return text end')
     script.append('CharCreateClassFrame = Cadre({ LIGNE })')
     script.append('CharCreateRaceInfoFrame = { title = Zone("Human") }')
     script.append('CharCreateClassInfoFrame = { title = Zone("Witch Hunter") }')
@@ -1047,8 +1243,56 @@ def tester_creation(lua, out):
             egal('GlueTooltipTextLeft1:GetText()', '|cffC41F3B%s|r' % cl['Witch Hunter'][k], 'infobulle de classe colorée (sexe %d)' % sexe)
         if sexe == 2:
             egal('NAV.Text:GetText()', rst % rf['Human'][k], 'navigation « race choisie »')
+    # (0.5) noms trop larges : police reduite par paliers, jamais sous 70 %, taille d'origine quand le texte change
+    idx = {c: i for i, c in enumerate(classes, 1)}
+
+    def tient(i, quoi):
+        verifs.append('do local z = LIGNE.kids[%d].Text local w = 0 for l in string.gmatch(z.t, "[^\\n]+") do '
+                      'local n = #(string.gsub(l, "[\\128-\\191]", "")) * z.taille * 0.75 if n > w then w = n end end '
+                      'assert(w <= 104.5 and z.taille >= 8.4 and z.taille < 12, %s .. " : taille " .. z.taille .. ", largeur " .. w) end'
+                      % (i, L(quoi)))
+    # (sexe 3 : derniere passe ci-dessus)
+    for c in ('Necromancer', 'Chronomancer', 'Pyromancer', 'Venomancer'):
+        if c in cl and len(cl[c][1]) * 12 * 0.75 > 104:
+            tient(idx[c], 'nom coupé à l\'essai 4, féminin « %s » : police réduite, tient dans 104 px' % cl[c][1])
+    if 'Witch Hunter' in cl:
+        verifs.append('assert(LIGNE.kids[%d].Text.taille == 11.5, "nom sur deux lignes : chaque ligne mesurée (« %s ») : " '
+                      '.. LIGNE.kids[%d].Text.taille)' % (idx['Witch Hunter'], coupe(cl['Witch Hunter'][1]).replace('\n', ' / '),
+                                                          idx['Witch Hunter']))
+    if 'Cultist' in cl:
+        verifs.append('assert(LIGNE.kids[%d].Text.taille == 12, "nom court (« %s ») : taille d\'origine")' % (idx['Cultist'], cl['Cultist'][1]))
+    if 'Necromancer' in cl:
+        i = idx['Necromancer']
+        # le client remet l'anglais (changement de sexe) : taille d'origine, puis nouveau calcul pour le masculin
+        verifs.append('SEXE = 2 LIGNE.kids[%d].Text:SetText("Necromancer") Passe()' % i)
+        verifs.append('assert(LIGNE.kids[%d].Text.t == %s, "masculin pose")' % (i, L(cl['Necromancer'][0])))
+        att = 12.0
+        while len(cl['Necromancer'][0]) * att * 0.75 > 104 and att - 0.5 >= 8.4:
+            att -= 0.5
+        verifs.append('assert(LIGNE.kids[%d].Text.taille == %s, "texte changé (homme) : taille d\'origine puis %s : " .. '
+                      'LIGNE.kids[%d].Text.taille)' % (i, att, att, i))
+        # le client change lui-meme la police (SetFontObject a l'activation du bouton) : nouvelle origine
+        verifs.append('LIGNE.kids[%d].Text:SetFontObject(10) Passe()' % i)
+        verifs.append('assert(LIGNE.kids[%d].Text.taille == 10, "police changée par le client : gardée (le nom tient) : " .. '
+                      'LIGNE.kids[%d].Text.taille)' % (i, i))
+        # zone tres etroite : jamais sous 70 % de la taille d'origine
+        verifs.append('LIGNE.kids[%d].Text:SetFontObject(12) LIGNE.kids[%d].Text.largeur = 50 Passe()' % (i, i))
+        verifs.append('assert(LIGNE.kids[%d].Text.taille == 8.5, "plancher de 70 %% (8,4 pour 12) : " .. LIGNE.kids[%d].Text.taille)'
+                      % (i, i))
+        verifs.append('LIGNE.kids[%d].Text.largeur = 104' % i)
+    verifs.append('assert((AzerothFR_Interface.creation_reduits or 0) > 0, "compte des noms réduits")')
+    # (0.5) description de la classe dans l'infobulle du bouton : le client appelle GetFlavorText("CLASS_X", "MALE") ;
+    # "MALE" n'est pas SEX_MALE (2) : il lit TOUJOURS la cle feminine d'abord (CharacterCreate.lua l. 2994)
+    if len(fl) == 2 and all(passe(l) for l in fl.values()):
+        fm, ff = fl['CLASS_STORMBRINGER'][K.I_FR], fl['CLASS_STORMBRINGER_FEMALE'][K.I_FR]
+        verifs.append('assert(GetFlavorText("CLASS_STORMBRINGER", "MALE") == %s, "infobulle du bouton : clé féminine lue même pour un homme")'
+                      % L(ff))
+        verifs.append('assert(GetFlavorText("CLASS_STORMBRINGER", 2) == %s, "fiche de classe (GetSelectedSex) : clé masculine pour un homme")'
+                      % L(fm))
+        verifs.append('print("CREATION : infobulle de classe, homme : " .. string.sub(GetFlavorText("CLASS_STORMBRINGER", "MALE"), 1, 60) .. "…")')
     verifs.append('assert(AzerothFR_Interface.erreur_creation == nil, tostring(AzerothFR_Interface.erreur_creation))')
-    verifs.append('print("CREATION : " .. tostring(AzerothFR_Interface.creation_poses) .. " textes posés")')
+    verifs.append('print("CREATION : " .. tostring(AzerothFR_Interface.creation_poses) .. " textes posés, " .. '
+                  'tostring(AzerothFR_Interface.creation_reduits) .. " polices réduites")')
     # en jeu : rien
     verifs.append('CADRES = {} UnitName = function() return "x" end')
     verifs.append('dofile(%s)' % L(os.path.join(DIST, 'PTRXML', 'AzerothFR_Interface.lua')))
@@ -1059,7 +1303,9 @@ def tester_creation(lua, out):
     r = subprocess.run([lua, p], capture_output=True, text=True)
     ok = r.returncode == 0
     out.append(('OK  ' if ok else 'KO  ') + 'création de personnage (avant-jeu, PTRXML) : races %s, classes %s, homme puis femme, '
-               'fiches, navigation, infobulle ; rien en jeu' % (', '.join(races), ', '.join(classes))
+               'fiches, navigation, infobulle ; (0.5) noms trop larges réduits (≥ 70 %%), taille d\'origine au changement de '
+               'texte, police du client respectée ; description : clé féminine lue par le client ; rien en jeu'
+               % (', '.join(races), ', '.join(classes))
                + ('' if ok else '\n' + r.stderr))
     out.append(r.stdout.strip())
     return ok
@@ -1090,6 +1336,7 @@ def main():
     ok = r.returncode == 0
     ok = tester_ptrxml(lua, sortie) and ok
     ok = tester_creation(lua, sortie) and ok
+    ok = tester_journal_combat(lua, sortie) and ok
     for n in NOTES:
         sortie.append('NOTE  ' + n)
     texte = '\n'.join(sortie) + '\n\n%d exemples tirés de textes/. RÉSULTAT : %s\n' % (len(cas), 'conforme' if ok else 'NON CONFORME')
