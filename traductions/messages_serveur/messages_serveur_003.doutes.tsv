@@ -1,0 +1,29 @@
+type	id	sous_id	champ	en_empreinte	genre	raison	en
+message_serveur	870		content_default	9b1f6b6f88fd	garder_anglais	format technique sans texte	|"{}"[ID:{}]({}x{})|
+message_serveur	1010		content_default	5077c911e6f6	garder_anglais	en-tête de tableau aligné (MJ)	-[         Account][   Character][             IP][Map][Zone][Exp][GMLev]-
+message_serveur	1011		content_default	d7c8ba5675b7	garder_anglais	ligne de tableau alignée (MJ)	|<Error>        | {} |<Error>          |<Er>| <Error>   |
+message_serveur	1016		content_default	852e8563ab04	garder_anglais	en-tête de tableau aligné (MJ)	| GUID       | Name                 | Level | Account                      | Delete Date         |
+message_serveur	1110		content_default	bdd8101fdb7f	garder_anglais	format technique sans texte	{} - {} X:{} Y:{} Z:{} MapId:{}
+message_serveur	1111		content_default	bdd8101fdb7f	garder_anglais	format technique sans texte	{} - {} X:{} Y:{} Z:{} MapId:{}
+message_serveur	1122		content_default	e59d67b6162c	garder_anglais	format technique sans texte	({}/{} +perm {} +temp {})
+message_serveur	1128		content_default	70a51b6af6e5	garder_anglais	format technique de lien (MJ)	{} - |cffffffff|Htaxinode:{}|h[{} {}]|h|r (Map:{} X:{} Y:{} Z:{})
+message_serveur	1129		content_default	ff5ed9c2d528	garder_anglais	format technique sans texte	{} - {} {} (Map:{} X:{} Y:{} Z:{})
+message_serveur	1133		content_default	69dea1742d69	garder_anglais	en-tête de tableau aligné (MJ)	|   Character   |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |
+message_serveur	1143		content_default	697cb2b09035	garder_anglais	sortie technique de débogage (MJ)	Target's moveFlags: {}, moveFlagsExtra: {}.
+message_serveur	1144		content_default	1fc5520aab6b	garder_anglais	sortie technique de débogage (MJ)	Target's moveFlags set to: {}, moveFlagsExtra to: {}
+message_serveur	1160		content_default	361a2d559e8c	garder_anglais	en-tête de tableau aligné (MJ)	|            | Alliance |  Horde   | Neutral  |  Total   |
+message_serveur	1161		content_default	8a522b6f1cfe	garder_anglais	en-tête de tableau aligné (MJ)	          Alliance/Horde/Neutral/Total
+message_serveur	1166		content_default	ce8fb281f6fc	garder_anglais	en-tête de tableau aligné (MJ)	|            | Alliance |   Horde  | Neutral  |  Amount  |
+message_serveur	1167		content_default	4d630cbe94c7	garder_anglais	en-tête de tableau aligné (MJ)	          Alliance/Horde/Neutral/Amount
+message_serveur	1173		content_default	09fb6aaba794	garder_anglais	identique en français (« Orange »)	Orange
+message_serveur	5010		content_default	971cd8813fe3	garder_anglais	sortie technique de débogage (MJ)	linkGUID: {}, Entry: {} ({})
+message_serveur	5013		content_default	fdca220c1564	garder_anglais	identique en français (« [Continent] »)	[Continent]
+message_serveur	5014		content_default	f37c40dee844	garder_anglais	identique en français (« [Instance] »)	[Instance]
+message_serveur	5017		content_default	b48add9e150d	garder_anglais	identique en français (« [Raid] »)	[Raid]
+message_serveur	5031		content_default	646290e2d37c	garder_anglais	sortie technique de débogage (MJ)	AIName: {} ScriptName: {}
+message_serveur	5036		content_default	a2f01e392076	garder_anglais	sortie technique de débogage (MJ)	EquipmentId: {} (Original: {}).
+message_serveur	5037		content_default	5e9a98a96ebf	garder_anglais	sortie technique de débogage (MJ)	MechanicImmuneMask: {}
+message_serveur	5039		content_default	9f3341d3710b	garder_anglais	identique en français (« Console »)	Console
+message_serveur	5045		content_default	3bd5faeea8ea	garder_anglais	sortie technique de débogage (MJ)	Map: {} | ID: {} | perm: {} | extended: {} | diff: {} | canReset: {} | TTR: {}
+message_serveur	5048		content_default	0c45a52859bc	garder_anglais	sortie technique de débogage (MJ)	Unbinding map: {} inst: {} perm: {} diff: {} canReset: {} TTR: {}
+message_serveur	5062		content_default	862acca441a3	garder_anglais	sortie technique de débogage (MJ)	SpellSchoolImmuneMask: {}
