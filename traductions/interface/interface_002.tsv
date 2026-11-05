@@ -1,0 +1,88 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+chaine_interface	ERR_MAIL_REACHED_CAP		texte	03c137979939	Vous avez atteint le nombre maximal de destinataires différents, ou la boîte aux lettres du destinataire est pleine	lot interface_002
+chaine_interface	ERR_NAME_PROFANE		texte	fda2dbf31f65	Ce nom contient des termes injurieux ou est réservé. Tapez un autre nom.	lot interface_002
+chaine_interface	ERR_RAID_YOU_JOINED		texte	0309d31c17b0	Vous avez rejoint un groupe de raid. |cffff2020(Dans un raid, vous ne pouvez pas progresser dans la plupart des quêtes hors raid.)|r	lot interface_002
+chaine_interface	EVENT_HR_ACTIVE		texte	689b35e42a29	\n|cff22FF22Cet événement est actif !	lot interface_002
+chaine_interface	FEL_COMMUTATION		texte	566ce6bb34d2	Commutation gangrenée	lot interface_002
+chaine_interface	FEL_COMMUTATION_DESC		texte	dfb768def199	Le montant d'or perdu si vous mourez en Haut risque. Ce coût augmente à mesure que vous vous équipez d'objets plus puissants. Si vous ne pouvez pas payer ce coût de Commutation gangrenée, vous perdrez à la place une partie de votre équipement porté. L'équipement lié ainsi perdu devient définitivement forgé par le sang.	lot interface_002
+chaine_interface	FEL_COMMUTATION_NOT_ACTIVE		texte	e6812c88049f	La Commutation gangrenée n'est pas active !|nVous pourriez perdre de l'équipement si vous mourez !	lot interface_002
+chaine_interface	FERAL_DRUID_ITEM_AP		texte	892ab468bb90	Augmente la puissance d'attaque de %d seulement en forme de félin, d'ours et d'ours redoutable.	lot interface_002
+chaine_interface	FIND_A_GROUP	2	texte	4bd5e2d3a29d	Trouver un groupe	lot interface_002
+chaine_interface	FRIENDS_LIST_REALM		texte	a33d69066f14	Royaume :	lot interface_002
+chaine_interface	FRIENDS_LIST_ZONE		texte	3b8280644c63	Région :	lot interface_002
+chaine_interface	GAMEMODE0		texte	b6c6977bb672	Choix libre	lot interface_002
+chaine_interface	GLANCING_TRAILER		texte	517363789fac	(érafle)	lot interface_002
+chaine_interface	GM_TICKET_STATUS_CLOSED		texte	88d86b7721d5	Fermé	lot interface_002
+chaine_interface	GM_TICKET_STATUS_LOCKED		texte	a798882f1c31	Verrouillé	lot interface_002
+chaine_interface	GM_TICKET_STATUS_OPEN		texte	cf9b77061f7b	Ouvert	lot interface_002
+chaine_interface	GUILDCONTROL_OPTION3		texte	0539067c2383	Écoute canal officiers	lot interface_002
+chaine_interface	GUILDCONTROL_OPTION4		texte	5ab64bca718b	Parole canal officiers	lot interface_002
+chaine_interface	HELPFRAME_GMTALK_ISSUE1		texte	37c975a0f4fa	Le système de mentors est une fonctionnalité d'Ascension qui permet aux nouveaux héros de trouver rapidement des vétérans prêts à leur faire découvrir le jeu. Si vous voyez un héros avec un drapeau vert au-dessus de la tête, vous pouvez être sûr qu'il est prêt à répondre à vos questions, à vous aider et à vous épauler.	lot interface_002
+chaine_interface	HELPFRAME_GMTALK_ISSUE1_HEADER		texte	4018330c24ef	Le système de mentors	lot interface_002
+chaine_interface	HELPFRAME_GMTALK_ISSUE2_HEADER		texte	4cd2a368ee3c	Parcourir le wiki d'Ascension	lot interface_002
+chaine_interface	HELPFRAME_GMTALK_ISSUE3		texte	084cbbc565c2	Rejoignez le Discord d'Ascension pour toute autre question. De nombreux joueurs et membres de l'équipe se feront un plaisir de répondre à vos questions ! Vous pouvez aussi contacter un maître de jeu par ce biais si vous ne parvenez pas à entrer en jeu, quelle qu'en soit la raison !	lot interface_002
+chaine_interface	HELPFRAME_GMTALK_ISSUE3_HEADER		texte	31d3d2c4adab	Serveur Discord de la communauté	lot interface_002
+chaine_interface	HELPFRAME_STUCK_TEXT1		texte	dbf40653e49c	Si votre personnage est bloqué, vous pouvez utiliser l'une des options ci-dessous pour le libérer.	lot interface_002
+chaine_interface	HELP_PLATE_MYSTIC_ENCHANT_MAIN		texte	c5bb9ff2bb36	Cliquez pour en savoir plus sur l'interface des Enchantements mystiques	lot interface_002
+chaine_interface	HIGH_RISK		texte	51a36b9661f4	Haut risque	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TEXT1		texte	2b94ea89af4e	Les joueurs que vous tuez en combat PvP dans le monde ouvert peuvent laisser tomber de l'or et un coffre contenant leur butin, et vous aussi. Les champs de bataille et les arènes restent sûrs.	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TEXT1_REALM_16		texte	5d32e3a8ff78	Active le PvP mondial Haut risque et accorde +15% en expérience dans le monde ouvert.|n|nÀ la mort, vous perdez votre équipement porté, ou de l'or si la Commutation gangrenée est active, ainsi que les objets non liés de vos sacs. L'équipement lié porté que vous perdez devient définitivement forgé par le sang.	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TEXT1_REALM_29		texte	c4b80a1be591	Active le PvP mondial Haut risque.|n|n À la mort, vous perdez votre équipement porté ou l'or de la Commutation gangrenée, ainsi que les objets non liés de vos sacs. L'équipement lié porté que vous perdez devient définitivement forgé par le sang.	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TEXT2		texte	970b72fa1586	Tentez de ramasser des objets de donjon |cff0070ddrares|r et |cffa335eeépiques|r forgés par le sang partout dans le monde !\nPlus votre niveau d'objet est élevé, meilleures sont les récompenses !	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TEXT2_REALM_16		texte	f3c3112e6682	Obtenez de l'équipement forgé par le sang sur les créatures dès le niveau 15.|n|nAu niveau maximum, cherchez de l'équipement forgé par le sang héroïque et des Marques de guerre sur les monstres rares, dans les nids de bêtes et les caches dissimulées.	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TEXT2_REALM_29		texte	a5b5758752d0	Obtenez de l'équipement forgé par le sang sur les créatures dès le niveau 15.|n|n Au niveau maximum, cherchez de l'équipement forgé par le sang héroïque et des Marques de guerre sur les monstres rares, dans les nids de bêtes et les caches dissimulées.	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TITLE1_REALM_16		texte	51a36b9661f4	Haut risque	lot interface_002
+chaine_interface	HIGH_RISK_PVP_TITLE1_REALM_29		texte	51a36b9661f4	Haut risque	lot interface_002
+chaine_interface	HIGH_RISK_TOOLTIP_LINE2		texte	dedef568a827	Trouvez de l'équipement forgé par le sang sur les créatures	lot interface_002
+chaine_interface	HOF_BUTTON		texte	9c89b0ed1ac2	Obtenez des récompenses pour\r\n|TInterface\Icons\Mail_GMIcon.blp:16:16:0:0|t|cffFFFFFF%i|r Marques d'Ascension	lot interface_002
+chaine_interface	INSTANCE_POI_REGRET_CHASM		texte	1705795ed16e	Gouffre du Regret	lot interface_002
+chaine_interface	INTELLECT_TOOLTIP		texte	de47850b85f8	Augmente vos points de mana et vos chances d'infliger un coup critique\navec vos sorts. L'Intelligence augmente aussi vos chances\nde faire progresser vos compétences de mêlée. (Elle n'a cependant\naucun effet sur les métiers.)	lot interface_002
+chaine_interface	IRON_SOUL_CONFIRM		texte	201113713432	Voulez-vous vraiment utiliser votre âme de fer ?\n|cffffd100Vous n'avez droit qu'à 1 âme de fer pour tout votre compte !|r	lot interface_002
+chaine_interface	ITEM_BIND_TO_ACCOUNT		texte	1a8dda102d17	Lié au royaume	lot interface_002
+chaine_interface	ITEM_MOD_FERAL_ATTACK_POWER		texte	892ab468bb90	Augmente la puissance d'attaque de %d seulement en forme de félin, d'ours et d'ours redoutable.	lot interface_002
+chaine_interface	ITEM_REQ_ARENA_RATING_3V3		texte	afc4bbbefab1	Nécessite une cote d'arène personnelle et en équipe de %d|nen arène de 2c2 ou 3c3	lot interface_002
+chaine_interface	ITEM_REQ_ARENA_RATING_5V5		texte	9d7b8459d1a9	Nécessite une cote d'arène personnelle et en équipe de %d|nen arène de 3c3	lot interface_002
+chaine_interface	ITEM_RESIST_SINGLE		texte	90a2c6ed6808	%c%d à la résistance %s	lot interface_002
+chaine_interface	ITEM_SUBCLASS_2_9		texte	4e7d8c7849f1	Obsolète	lot interface_002
+chaine_interface	ITEM_SUBCLASS_4_5		texte	2f688ffb1581	Targes	lot interface_002
+chaine_interface	ITEM_SUBCLASS_4_6		texte	31fe17191e29	Boucliers	lot interface_002
+chaine_interface	ITEM_SUBCLASS_9_4		texte	f9d4eee16f77	Forge	lot interface_002
+chaine_interface	I_ACCEPT		texte	331cd3c31b39	J'accepte	lot interface_002
+chaine_interface	LEAVE_BUILD_DRAFT		texte	127c6a58140b	Quitter le mode Draft de build	lot interface_002
+chaine_interface	LEAVE_THE_MANASTORM_CONFIRM		texte	cecb4c890a92	Voulez-vous vraiment quitter la Tempête de mana ? 	lot interface_002
+chaine_interface	LFD_RANDOM_REWARD_EXPLANATION1		texte	b101244f6d10	Les donjons aléatoires que vous terminez vous rapportent :	lot interface_002
+chaine_interface	LFD_RANDOM_REWARD_EXPLANATION2		texte	b101244f6d10	Les donjons aléatoires que vous terminez vous rapportent :	lot interface_002
+chaine_interface	MACROFRAME_CHAR_LIMIT		texte	6c13045a8880	%d/511 caractères utilisés	lot interface_002
+chaine_interface	MANASTORM_SPELL_LOADOUT_MISSING		texte	1d91da4cf5cc	Vous avez des sorts de la Tempête de mana disponibles, mais vous n'avez pas rempli tous vos emplacements actifs.|n|nVoulez-vous vraiment entrer dans la Tempête de mana ? 	lot interface_002
+chaine_interface	MERCHANT_ARENA_POINTS		texte	bd722302f299	%d points de conquête	lot interface_002
+chaine_interface	MINIMAP_TRACKING_AZZAR_FAIRE_ENTRACE		texte	f017e982fe81	Portail de la Foire d'Azzar	lot interface_002
+chaine_interface	MINIMAP_TRACKING_AZZAR_FAIRE_ENTRACE_DESC		texte	3e85ad1e01e7	Un petit campement bâti autour du portail menant à la Glorieuse Foire d'Azzar	lot interface_002
+chaine_interface	MINIMAP_TRACKING_DREAM_LIKE_AZGA_DESC		texte	6589391ae038	Azga le Furtif n'avait jamais été une liche redoutable ni un chef charismatique. Mais une rencontre fatidique avec une braise ardente allait changer à jamais son destin, lui conférant le pouvoir qu'il convoitait depuis si longtemps, ce pouvoir qui lui avait si souvent été refusé. Dans la frénésie enivrante qui s'ensuivit, il terrassa ses pairs nécromanciens et s'empara d'Astaroth l'Indésirable, l'une des dernières nécropoles du Fléau encore debout.\r\n\r\nPourtant, Azga en veut toujours plus, poussé par une peur tenace : une vérité mélancolique que nul, pas même lui, ne comprend tout à fait.	lot interface_002
+chaine_interface	MINIMAP_TRACKING_DREAM_LIKE_MIKOLON_DESC		texte	b593373eb39a	Mikolon l'Infecté résidait autrefois entre les formidables murailles d'Ulduar, jusqu'à ce que le destin, ou peut-être une force obscure aux origines plus sinistres, le pousse à quitter le sanctuaire de ses salles de pierre pour s'aventurer dans l'inconnu. C'est là que Mikolon rencontra une braise, et cette braise, un éclat de titan, usurpa sa volonté même.\r\n\r\nDésormais, Mikolon est incapable de distinguer l'ami de l'ennemi, Azeroth de Kalathor. De retour à Ulduar, son esprit est dévoré par un unique et inébranlable dessein : annoncer la venue de l'Étreinte de Sargeras, quel qu'en soit le prix. Après avoir emprisonné les autres Gardiens dans la forteresse, Mikolon s'emploie à forger une redoutable armée digne des ordres du dieu fou.	lot interface_002
+chaine_interface	MINIMAP_TRACKING_DREAM_LIKE_ZALAKKAR_DESC		texte	79333f2e273d	Zalakkar le Fendu, un captif autrefois condamné pour ses croyances blasphématoires, trouva la liberté dans la chute de l'empire drakkari. Lorsque les premières braises s'abattirent sur le Norfendre, il comprit que ses visions prophétiques disaient vrai. Transformé, Zalakkar devint un guide pour les trolls drakkari, le regard tourné vers un avenir de grandeur :\n\r\nZul'Drak renaîtra, soutenue par deux piliers : la puissance inégalée des braises et le sacrifice solennel d'innombrables vies. Dans la vision de Zalakkar, la gloire du passé sera reconquise, forgeant un nouveau destin pour les Drakkari parmi les cendres de leur antique culture.	lot interface_002
+chaine_interface	MINIMAP_TRACKING_MANASTORM		texte	b540361f0de7	Milhouse Tempête-de-mana	lot interface_002 ; nom officiel du PNJ (le glossaire dit « Millhouse Manastorm inchangé »)
+chaine_interface	MINIMAP_TRACKING_ZEPPELIN_DESC_DTW		texte	a562e456a523	Destination : les Pitons du Tonnerre et la Toundra Boréenne	lot interface_002
+chaine_interface	MINIMAP_TRACKING_ZEPPELIN_DESC_STV		texte	54c340eae7c9	Destination : Vallée de Strangleronce	lot interface_002
+chaine_interface	MINIMAP_TRACKING_ZEPPELIN_DESC_TG		texte	a8116632fbd7	Destination : Portes de Fossoyeuse	lot interface_002
+chaine_interface	MODIFY		texte	9fe408e12dc6	Modifier	lot interface_002
+chaine_interface	MORE_INFO		texte	3c25ce154a91	Plus...	lot interface_002
+chaine_interface	MOVIE_RECORDING_FRAMERATE_TOOLTIP		texte	1a8e8c146129	Modifie le taux de rafraîchissement de la vidéo. Si vous choisissez un taux fixe, le rafraîchissement du jeu sera limité à cette valeur pendant l'enregistrement. Réduisez-le pour améliorer les performances.	lot interface_002
+chaine_interface	MOVIE_RECORDING_MJPEG_TOOLTIP		texte	168530ef09c6	Ce codec est plus rapide que H.264 pour la compression, mais le fichier généré sera plus volumineux.	lot interface_002
+chaine_interface	MOVIE_RECORDING_RECORDING		texte	eca6b4b7e9ec	Temps d'enregistrement :	lot interface_002
+chaine_interface	MYSTIC_ENCHANT_QUALITY2_DESC		texte	630e0b25835d	Peu commun	lot interface_002
+chaine_interface	MYTHIC_PLUS_COMPLETE_A_KEYSTONE		texte	a857a0b0a6e1	Terminez un donjon à Clé !	lot interface_002
+chaine_interface	MYTHIC_PLUS_DUNGEONS_EXPANSION1		texte	92025dadaca0	Donjons de l'extension Burning Crusade	lot interface_002
+chaine_interface	MY_SPECS_TAB		texte	7b4379a60050	Spés	lot interface_002
+chaine_interface	MY_SPECS_TAB_TITLE		texte	e6e6a1cdf4ed	Spécialisations	lot interface_002
+chaine_interface	NAMEPLATE_DISTANCE		texte	f71290903de5	Portée des barres d'info	lot interface_002
+chaine_interface	NEWBIE_TOOLTIP_FIRST_AVAILABLE		texte	710ad3fa16c6	Vous place dans la file d'attente pour entrer dans le premier champ de bataille disponible. Si vous choisissez "Premier disponible" et qu'un autre membre du groupe entre sur un champ de bataille "Premier disponible", votre choix passera à ce champ de bataille.	lot interface_002
+chaine_interface	NEWBIE_TOOLTIP_HELP		texte	702f450efc13	Accéder à la Base de connaissances en ligne ou parler à un Maître de jeu (MJ) de votre problème.	lot interface_002
+chaine_interface	NEWBIE_TOOLTIP_LFGPARENT		texte	95c289d08d35	Rejoignez ou créez un groupe, ou utilisez la recherche automatique pour jouer avec d'autres joueurs à diverses activités : donjons, champs de bataille ou arènes.	lot interface_002
+chaine_interface	NEXT_CACHE_ITEM_LEVEL_GOAL		texte	09fec03488f5	Votre prochaine Cache du tableau d'appel se débloque au niveau d'objet : |cffffd100%s|r.	lot interface_002
+chaine_interface	NEXT_SPELL_ROLL_LIMIT_TOOLTIP		texte	235ccd14ae61	Chaque fois que cette barre est remplie, vous pourrez utiliser 5 Parchemins de fortune supplémentaires en tirage rapide.|n|nChaque Parchemin de fortune utilisé remplit cette barre. 	lot interface_002
+chaine_interface	NEXT_TALENT_ROLL_LIMIT_TOOLTIP		texte	f0594e544746	Chaque fois que cette barre est remplie, vous pourrez utiliser 5 Parchemins de fortune : talents supplémentaires en tirage rapide.|n|nChaque Parchemin de fortune : talents utilisé remplit cette barre. 	lot interface_002
+chaine_interface	NO_RISK_PVP_TEXT1_REALM_16		texte	817abd587b1a	Active le PvP mondial et accorde +10% en expérience dans le monde ouvert.|n|nAttaquez les autres joueurs en mode Guerre et en Haut risque. Aucune perte à la mort.|n|nActivez le mode Mercenaire pour activer, si vous le souhaitez, le PvP libre pour tous.	lot interface_002
+chaine_interface	PLAYER_TICKET_STATUS_CLOSED		texte	88d86b7721d5	Fermé	lot interface_002
+chaine_interface	PLAYER_TICKET_STATUS_LOCKED		texte	a798882f1c31	Verrouillé	lot interface_002
+chaine_interface	PLAYER_TICKET_STATUS_OPEN		texte	cf9b77061f7b	Ouvert	lot interface_002
+chaine_interface	TOOLTIP_HIGH_RISK_1		texte	51a36b9661f4	Haut risque	lot interface_002

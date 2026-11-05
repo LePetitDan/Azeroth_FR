@@ -1,0 +1,157 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+chaine_interface	ABSORB_TRAILER		texte	1b45738510ce	(%d absorbé)	lot interface_001
+chaine_interface	ACTION_SPELL_AURA_BROKEN_BUFF_FULL_TEXT		texte	033d9bf69d30	%1$s brise %2$s %4$s.	lot interface_001
+chaine_interface	ACTION_SPELL_AURA_BROKEN_DEBUFF_FULL_TEXT		texte	033d9bf69d30	%1$s brise %2$s %4$s.	lot interface_001
+chaine_interface	ACTION_SPELL_AURA_BROKEN_SPELL_BUFF_FULL_TEXT		texte	6132f0d30a93	%1$s brise %2$s %4$s avec %5$s.	lot interface_001
+chaine_interface	ACTION_SPELL_AURA_BROKEN_SPELL_DEBUFF_FULL_TEXT		texte	6132f0d30a93	%1$s brise %2$s %4$s avec %5$s.	lot interface_001
+chaine_interface	ACTION_SPELL_DRAIN_FULL_TEXT_NO_SOURCE		texte	3ec5f5aa4c83	%2$s draine %9$s %8$s |2 %4$s.	lot interface_001
+chaine_interface	ADDON_UPDATE_AVAILABLE		texte	783c8d8a66fb	Nouvelle version disponible\n	lot interface_001
+chaine_interface	ADD_IGNORE_LABEL		texte	1c9697c4fa88	Indiquez le nom du joueur à ignorer\nou\nfaites Clic-Maj sur un nom dans la fenêtre de discussion :	lot interface_001
+chaine_interface	ADD_MUTE_LABEL		texte	b19d43e03a5a	Indiquez le nom du joueur à rendre muet\nou\nfaites Clic-Maj sur un nom dans la fenêtre de discussion :	lot interface_001
+chaine_interface	ARENA_TEAM_LEAD_IN		texte	b5dacaaf554b	Allez voir un maître d'arène pour fonder une nouvelle équipe d'arène.	lot interface_001
+chaine_interface	ARENA_TEAM_RANK		texte	210b90bd3f09	Classement de l'équipe : 	lot interface_001
+chaine_interface	AUCTION_PRICE_TOOLTIP_TEXT		texte	c3aabbb39d65	Définissez le prix à l'unité ou le prix total de la pile d'objets. 	lot interface_001
+chaine_interface	AUTO_POPUP_DRAFT		texte	10a7c86d10ee	Ouvrir le Draft automatiquement en montant de niveau	lot interface_001
+chaine_interface	BATTLENET_UNAVAILABLE_ALERT		texte	39e9f24a8379	Le service Battle.net est actuellement indisponible.|n|nVos amis (nom réel) ne seront pas affichés. Vous ne pourrez pas envoyer ni recevoir de nouvelles demandes d'ami. Il pourra être nécessaire de redémarrer le jeu pour réactiver cette fonctionnalité.	lot interface_001
+chaine_interface	BINDING_NAME_TOGGLERAIDTAB		texte	a8e6ed1138d6	Ouvrir/fermer le panneau de raid	lot interface_001
+chaine_interface	BINDING_NAME_TOGGLETALENTS		texte	6b3e718de1ef	Ouvrir/fermer l'Avancement du personnage	lot interface_001
+chaine_interface	BLOCK_TRAILER		texte	573cba3fa4f1	(%d bloqué)	lot interface_001
+chaine_interface	BLOODELF_DISABLED		texte	609e15fec7f6	Elfe de sang\nNécessite d'avoir l'extension The Burning Crusade	lot interface_001
+chaine_interface	BONUS_BUTTON_RANDOM_BG_DESC		texte	cced0a9083bf	Affrontez la faction ennemie sur un champ de bataille aléatoire.	lot interface_001
+chaine_interface	BONUS_BUTTON_RANDOM_BRAWL_DESC		texte	d1fb9b3f66a1	Affrontez la faction ennemie dans une bagarre de champ de bataille aléatoire.	lot interface_001
+chaine_interface	BUILD_CREATOR_FINISH_PICKING_ENCHANTS		texte	206b3afaf3a5	Choisissez les Enchantements mystiques à ajouter à votre build	lot interface_001
+chaine_interface	BUILD_EDITOR_CATEGORY_BUILDDRAFT		texte	580355a6afa4	Draft de build (mis en vedette)	lot interface_001
+chaine_interface	BUILD_FILTER_ROLE_DAMAGE		texte	7bf6d1d3a58a	Dégâts	lot interface_001
+chaine_interface	CALENDAR_SIGNUP		texte	2ba4023df482	S'inscrire	lot interface_001
+chaine_interface	CALLBOARD_UI_HIGHRISK		texte	85c16ffe50d3	Risque élevé	lot interface_001
+chaine_interface	CA_LEARN_DEPRECATED		texte	527600bf0272	Obsolète	lot interface_001
+chaine_interface	CA_LEARN_UNKNOWN		texte	1213fad41fab	Erreur inconnue	lot interface_001
+chaine_interface	CA_PURGE_ABILITIES_UNKNOWN		texte	1213fad41fab	Erreur inconnue	lot interface_001
+chaine_interface	CA_PURGE_TALENTS_UNKNOWN		texte	1213fad41fab	Erreur inconnue	lot interface_001
+chaine_interface	CA_UNLEARN_UNKNOWN		texte	1213fad41fab	Erreur inconnue	lot interface_001
+chaine_interface	CA_UPDATE_ENTRIES_BAD_ENTRY		texte	30c58272b558	Tentative de modification de %s, une entrée d'Avancement du personnage invalide. Essayez de mettre à jour votre client.	lot interface_001
+chaine_interface	CA_UPDATE_ENTRIES_MISSING_TOKENS		texte	4417a079c47a	Impossible de payer ces modifications.|nVous n'avez pas assez de Runes d'Ascension ou d'or.	lot interface_001
+chaine_interface	CA_UPDATE_ENTRIES_NO_BUILD		texte	cf93c0300e5a	Les données de votre Avancement du personnage sont corrompues.	lot interface_001
+chaine_interface	CA_UPDATE_ENTRIES_NO_DIFF		texte	775ddf3fcc4a	Votre build n'a aucune modification en attente	lot interface_001
+chaine_interface	CA_WCMR_NO_MATCHING_UNLEARNS		texte	8cbe9db02b3c	Vous avez des capacités ou des talents dans votre liste souhaitée|nmais aucune capacité ni aucun talent dans votre liste à désapprendre.	lot interface_001
+chaine_interface	CHALLENGE_START_NOT_PRESTIGE		texte	ca23cea465b3	Vous ne pouvez pas activer ce défi après avoir obtenu un prestige.	lot interface_001
+chaine_interface	CHALLENGE_START_OUTSIDE_INTERACTION		texte	83be6bcd9e1f	Vous avez interagi d'une manière ou d'une autre avec un autre joueur.	lot interface_001
+chaine_interface	CHALLENGE_START_RULE_BROKEN		texte	d0e294ff2c9c	Vous n'avez pas respecté une restriction de ce défi.	lot interface_001
+chaine_interface	CHAT_BN_CONVERSATION_SEND		texte	7745e11342b3	[%d. Conversation] : 	lot interface_001
+chaine_interface	CHAT_GUILD_INVITE_SEND		texte	7c98b449843a	Inviter dans la guilde : 	lot interface_001
+chaine_interface	CHAT_GUILD_LEADER_SEND		texte	35d6453b3db7	Nommer chef de guilde : 	lot interface_001
+chaine_interface	CHAT_GUILD_MOTD_SEND		texte	cfb9519a33f6	MDJ de la guilde : 	lot interface_001
+chaine_interface	CHAT_GUILD_PROMOTE_SEND		texte	61c57736e70d	Promouvoir	lot interface_001
+chaine_interface	CHAT_GUILD_UNINVITE_SEND		texte	baafa42e1291	Renvoyer de la guilde : 	lot interface_001
+chaine_interface	CHAT_HELP_TEXT_LINE1		texte	6fccd3270ff7	Commandes de messagerie : 	lot interface_001
+chaine_interface	CHAT_INVITE_SEND		texte	b136609f0684	Inviter	lot interface_001
+chaine_interface	CHAT_PROMOTE_SEND		texte	61c57736e70d	Promouvoir	lot interface_001
+chaine_interface	CHAT_SUSPENDED_NOTICE		texte	a95f96726ba2	Quitte le canal : |Hchannel:%d|h[%s]|h 	lot interface_001
+chaine_interface	CHAT_UNINVITE_SEND		texte	5f29f579a194	Annuler l'invitation	lot interface_001
+chaine_interface	CHAT_WINDOWS_COUNT		texte	7a123c304d61	%d fenêtres de discussion	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_BARBARIAN0		texte	97d8a37bd0ad	Brutalité : Mutilez vos ennemis en combattant téméraire à deux mains, taillant dans leurs rangs avec rage tandis que vous les décapitez.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_BARBARIAN2		texte	6308d95b4897	Héritage : Buvez des bières de concert avec votre ancêtre pour remonter le moral de vos camarades, leur apportant force et courage.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CHRONOMANCER0		texte	6b11b9a0ad43	Infini : Des énergies chaotiques déchaînées vous parcourent. Apprenez à les canaliser à dessein pour anéantir vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CHRONOMANCER1		texte	d2b9c9ad6d7f	Temps : Parcourez les éons pour renforcer vos soins et envoyez des ondes à travers le temps pour annuler les dégâts subis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CHRONOMANCER2		texte	6dc6b37da6b1	Artificier : Utilisez de puissantes technologies magiques et des baguettes pour neutraliser et éliminer vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CULTIST0		texte	681dcf084e4b	Hérétique : Protégez vos alliés grâce à de puissantes faveurs, et combattez et soignez au corps à corps sous l'influence de Yogg-Saron.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CULTIST1		texte	24cef97ab9ea	Corruption : Lancez de puissants sorts surnaturels et canalisez le pouvoir de C'Thun pour invoquer des tentacules et déchaîner une magie noire qui anéantit vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CULTIST2		texte	676a2f46f142	Lame divine : Canalisez la puissance de N'Zoth dans votre lame, faites vôtre sa force et devenez un colosse ténébreux lié au Vide.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_CULTIST3		texte	444dc9fe9d42	Cuirassé : Devenez un défenseur d'Y'Shaarj, recevez sa bénédiction et ignorez les blessures graves grâce à des boucliers absorbants et à des capacités de bouclier.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_DEMONHUNTER0		texte	f6ded7e051b5	Massacre : Entrez et sortez du combat avec une vitesse et des réflexes sans égal, abattant vos ennemis d'une succession d'attaques rapides.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_DEMONHUNTER1		texte	3b04cfff45c7	Infernal : Maniez le pouvoir de la magie gangrenée et lancez de puissants sorts pour anéantir vos ennemis à distance.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_DEMONHUNTER2		texte	e2dc80e33457	Tyran : Devenez un tank redoutable imprégné de Gangre, axé sur l'autonomie et les dégâts de zone.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_FLESHWARDEN0		texte	cd127571984a	Gouffre-feu : Alternez de puissants sorts et taillez vos ennemis en pièces avec une Lame infernale pour déchaîner une pluie de feu infernal en fusion sur des groupes d'ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_FLESHWARDEN1		texte	2402b940110e	Défi : Défiez ceux qui oseraient vous provoquer en invoquant des démons infernaux qui vous servent de chair à canon et encaissent les dégâts à votre place et à celle de vos alliés.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_FLESHWARDEN2		texte	5a3d43b5889b	Guerre : Massacrez vos ennemis de brutales frappes à deux mains, déchirant leurs chairs tandis que vous accumulez des charges de Deathfire pour alimenter de puissantes capacités.\r\n	lot interface_001 ; terme CoA sans décision : Deathfire (ressource du Chevalier de Xoroth), laissé en anglais
+chaine_interface	CLASS_COMBAT_STYLE_GUARDIAN0		texte	81950f458a7e	Gladiateur : Faites étalage de vos talents dans l'arène en percutant vos ennemis de votre bouclier et en les neutralisant tactiquement avec des filets pour marcher vers la victoire ultime.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_GUARDIAN1		texte	f84444c799fa	Inspiration : Jouez des ballades et plantez des bannières à la gloire de la force pour renforcer vos alliés.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_GUARDIAN2		texte	fec7bb759d1b	Avant-garde : Bloquez au moment précis pour atténuer les dégâts et devenez une forteresse sur pattes.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_MONK1		texte	89b895b00b4b	Zélote : Éliminez vos ennemis d'une rafale de frappes rapides tout en enchaînant de puissants combos.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_MONK2		texte	b8a292868df2	Croisé : Taillez vos ennemis en pièces et faites tournoyer votre lame pour infliger d'énormes dégâts de zone tout en déchaînant de puissants combos.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_NECROMANCER0		texte	88b40e023ad4	Mort : Répandez diverses maladies sur vos ennemis et ordonnez aux morts de tourmenter tous ceux qui se dressent devant vous.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_NECROMANCER2		texte	b3dcb955281d	Animation : Déchaînez une immense horde d'animés et de morts-vivants relevés, et contrôlez-la activement en la pliant à votre volonté pour détruire vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PROPHET0		texte	a2cab00e69d5	Robustesse : Devenez un scarabée fortifié, doté d'une énorme quantité de points de vie et d'un exosquelette régénérant pour défendre et mener vos alliés.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PROPHET1		texte	d5a169c9f0a7	Traque : Incarnez une furtive forme d'araignée capable d'empoisonner vos ennemis et de les lacérer de vos griffes depuis les ombres pour une mort rapide.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PROPHET2		texte	30d713509727	Tisse-pourriture : Tissez ensemble d'infâmes poisons pour infliger d'énormes dégâts sur la durée à vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PROPHET3		texte	2505b877f504	Vizir : Soignez vos alliés sur la durée grâce aux bénédictions de Shadra et offrez-leur de puissants boucliers d'absorption.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PYROMANCER0		texte	022875e644ac	Incinération : Réduisez vos ennemis en cendres en combinant dégâts directs et effets de dégâts sur la durée.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PYROMANCER1		texte	3703327e9da0	Tisse-flammes : Soignez vos alliés par la magie du feu et cautérisez leurs blessures, en mêlant les soins à vos capacités offensives.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_PYROMANCER2		texte	29d00ae07b3a	Draconique : Accumulez des charges de souffle avec des sorts à courte portée, puis libérez de puissants souffles pour éliminer vos cibles en déflagrations ardentes.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_RANGER0		texte	2e8c4edf23ef	Tir à l'arc : Déchaînez de puissantes attaques à distance sur vos ennemis et équipez divers carquois qui confèrent des effets supplémentaires à vos attaques.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_RANGER1		texte	6723dbe16291	Brigand : Devenez un duelliste furtif maniant deux armes, spécialisé dans le combat rapproché et les armes enduites de poison.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_RANGER2		texte	f8961bc92ec9	Pérégrin : Endossez le rôle d'un général des rôdeurs, lâchez tactiquement des faucons de guerre sur vos ennemis tout en renforçant vos alliés avec divers cors de guerre.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_REAPER0		texte	6c2531b94c20	Âme : Imprégnez vos armes, assassinez vos cibles prioritaires sous camouflage en maniant deux armes et bannissez-les dans l'Ombreterre.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_REAPER1		texte	99a85ba75775	Moisson : Volez la force vitale de vos ennemis et dépensez-la pour les frapper de puissantes attaques à deux mains.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_REAPER2		texte	17f684d71e75	Domination : Fortifiez-vous des âmes de vos ennemis pour détourner les attaques puissantes et absorber leur force vitale.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SONOFARUGAL0		texte	0a6ce30582d2	Tisse-chair : Canalisez votre vitalité pour soigner vos alliés grâce à de puissants Rituels de sang tout en blessant vos ennemis à distance, en suturant leurs plaies et en les soutenant de votre magie.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SONOFARUGAL1		texte	30ad5e9f768b	Sanguin : Dépensez votre force vitale pour alimenter une dévastatrice magie du sang qui vide vos ennemis de leur sang, et siphonnez-le pour vous renforcer.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SONOFARUGAL2		texte	c63a9832bbad	Maudit : Passez sans cesse du corps à corps au combat à distance en exploitant une forme maudite pour détruire vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SPIRITMAGE1		texte	31c758749a0c	Glyphique : Acquérez des glyphes et projetez-les de vous à vos ennemis par votre magie pour déchaîner de puissants effets en redoutable lanceur de sorts runiques.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SPIRITMAGE2		texte	18a3204a8687	Lamefaille : Maîtrisez l'art de la lame et déchaînez de puissants sorts élémentaires sur vos ennemis sous camouflage, avec des outils de contrôle uniques et une grande mobilité.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_STARCALLER0		texte	9f0c09ca8485	Sentinelle : Canalisez le pouvoir de la déesse Élune à travers votre arc, abattant vos ennemis de loin avec des flèches enchantées.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_STARCALLER1		texte	1373d4f692a6	Gardien : Puisez dans vos réserves de mana pour imprégner vos attaques de mêlée de la puissance des étoiles, en équilibrant votre mana pour déclencher des capacités dévastatrices.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_STARCALLER2		texte	a172804bfa8c	Prêtre de la lune : Exploitez le pouvoir de la lune elle-même en vous accordant aux différents Cycles lunaires pour amplifier vos soins.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_STARCALLER3		texte	72a24be970c2	Garde lunaire : Convertissez votre mana en puissantes capacités défensives pour faire face à d'énormes dégâts, en renforçant votre bouclier pour prévenir les dégâts.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_STORMBRINGER0		texte	80c80ca037ac	Maelström : Mêlez magie de l'eau et de la foudre pour électrocuter et noyer vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_STORMBRINGER2		texte	4f4b69b68f1a	Vent : Invoquez un élémentaire d'air et déchaînez de violentes rafales de vent capables de projeter vos ennemis au loin.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SUNCLERIC0		texte	006f3a7209e9	Piété : Concentrez les énergies du soleil pour infliger de dévastateurs dégâts du Sacré et de Feu à distance.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SUNCLERIC1		texte	a5d820e06bbc	Bénédictions : Soignez vos alliés grâce au pouvoir de votre dévotion au Soleil, en les bénissant de votre Guidance pour les protéger des afflictions.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SUNCLERIC2		texte	9d4a0c7d89e2	Valkyrie : Imprégnez 2 armes à deux mains du pouvoir du soleil, frappant vos ennemis de dégâts du Sacré et les châtiant d'une fureur solaire.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_SUNCLERIC3		texte	2c1b8ab07b5f	Séraphin : Renforcez votre bouclier d'énergies solaires, baignant de flammes purificatrices les ennemis qui vous frappent tandis que vous protégez les faibles.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_TINKER0		texte	cbe1773c0922	Mécanique : Commandez votre Assistant mécanique, construisez des tourelles de sentinelle et rassemblez du Scrap pour alimenter votre méca-armure et déclencher de puissantes attaques.\r\n	lot interface_001 ; terme CoA sans décision : Scrap (ressource du Bricoleur, question 20), laissé en anglais
+chaine_interface	CLASS_COMBAT_STYLE_TINKER1		texte	184e231765fd	Invention : Soignez vos alliés avec votre Tir réparateur et utilisez des gadgets comme les nanorobots et les balises pour choisir avec discernement qui soigner et comment.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_TINKER2		texte	0224cca14e1d	Démolition : Infligez des dégâts à un rythme effréné grâce à une rafale de coups de feu, d'explosifs et de roquettes. \r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WILDWALKER0		texte	dcacc0a25cc9	Gardien du bosquet : Soutenez vos alliés et infligez des dégâts à vos ennemis au corps à corps, en générant de la rage pour vous alimenter.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WILDWALKER1		texte	956518fc453b	Arpenteur sauvage : Combattez aux côtés d'un familier spirituel que vous apprivoisez vous-même dans les contrées sauvages d'Azeroth.\r\n	lot interface_001 ; Wildwalker (spécialisation du Primaliste) : « Arpenteur sauvage » proposé, aucun nom existant
+chaine_interface	CLASS_COMBAT_STYLE_WILDWALKER2		texte	678495ef8d08	Roi de la montagne : Défendez vos alliés telle une force de la nature inébranlable, infligeant des dégâts de zone par des séismes et vous protégeant par la puissance de la terre.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WILDWALKER3		texte	01fbbf277113	Géomancie : Façonnez la terre, faites surgir des pierres du sol et projetez un barrage de rochers sur vos ennemis à distance.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHDOCTOR0		texte	fab430fde7e4	Chasse des ombres : Équipez une arme à distance et embrassez la magie de Bwonsamdi en décochant flèches d'ombre et glaives sur vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHDOCTOR1		texte	3fbc92b8671e	Vaudou : Ensorcelez et maudissez vos ennemis pour infliger des dégâts sur la durée, et décimez-les par une puissante magie vaudou.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHDOCTOR2		texte	50dcb97d23e2	Brassage : Combinez différents ingrédients dans votre fiole pour soigner et soutenir vos alliés d'une manière unique et captivante.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHHUNTER0		texte	2449e5dab33e	Lance-carreaux : Déchaînez à un rythme effréné des volées de carreaux d'arbalète pour abattre rapidement vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHHUNTER1		texte	22d0592dbf00	Maître-chien : Devenez maître des Ombredogues et pulvérisez rapidement vos ennemis avec votre arme à feu.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHHUNTER2		texte	cf2194e46a1f	Inquisition : Maniez deux armes ardentes et alternez entre Pureté et Vilenie pour choisir la façon dont vous détruisez vos ennemis.\r\n	lot interface_001
+chaine_interface	CLASS_COMBAT_STYLE_WITCHHUNTER3		texte	124bfcaa41a7	Chevalier noir : Protégez vos alliés avec une arme à deux mains qui détourne les attaques et vole la vie de vos ennemis, et buvez des toniques pour renforcer votre détermination.\r\n	lot interface_001
+chaine_interface	CLASS_INFO_BARBARIAN4		texte	307ba74be42d	- Utilise l'Énergie comme ressource.	lot interface_001
+chaine_interface	CLASS_INFO_GUARDIAN4		texte	bae84f5bf6e1	- Utilise l'Énergie comme ressource.	lot interface_001
+chaine_interface	CLICK_TO_LAUNCH_ADDON_URL		texte	5aacd312ecfa	Cliquer pour lancer le site des add-ons\n	lot interface_001
+chaine_interface	COA_RESET_RESOURCE_ELEMENTS		texte	b5a921e43414	Réinitialiser les éléments de ressources	lot interface_001
+chaine_interface	COMBAT_TEXT_ARENA_POINTS_GAINED		texte	cb7d33368fda	Points de conquête %s	lot interface_001
+chaine_interface	CONFIRM_CHAR_DELETE_INSTRUCTIONS		texte	d3207c3fb6a2	Tapez "DELETE" dans le champ pour confirmer.	lot interface_001
+chaine_interface	CONFIRM_HIGH_COST_ITEM		texte	03f63d75763c	Voulez-vous vraiment acheter %s pour le montant suivant ?|n|n|cffff0000Cet objet ne pourra être ni rendu ni remboursé une fois acheté !|r	lot interface_001
+chaine_interface	CONFIRM_RESET		texte	ad8905f34b1b	\nVoulez-vous vraiment réinitialiser ?	lot interface_001
+chaine_interface	CONFIRM_RESET_POINTS		texte	9db3e2bcddec	La réinitialisation des points investis nécessiterait :\n	lot interface_001
+chaine_interface	CONFIRM_SWAP_S		texte	cba20393d083	Vous échangez %s contre un autre sort. Choisissez une nouvelle capacité ou un nouveau talent|nCliquez sur le bouton rouge d'annulation en bas si vous souhaitez arrêter.	lot interface_001
+chaine_interface	CONFIRM_XP_LOSS		texte	73a4754376dc	Si vous trouvez votre cadavre, vous pouvez ressusciter sans pénalité. Si je vous ressuscite, tous vos objets subiront une pénalité allant jusqu'à 25%% de durabilité (qu'ils soient équipés ou dans l'inventaire).	lot interface_001
+chaine_interface	CONFIRM_XP_LOSS_AGAIN_NO_SICKNESS		texte	f496175e5ccb	Souvenez-vous, si vous trouvez votre cadavre vous ne subissez pas de pénalité. Voulez-vous vraiment que vos objets subissent jusqu'à 25% de dégâts de durabilité ?	lot interface_001
+chaine_interface	CREDITS_WOW_BC		texte	ea49e2517d7b	Générique de l'extension Burning Crusade	lot interface_001
+chaine_interface	CREDITS_WOW_LK		texte	9c6d90bf80a8	Générique de l'extension Lich King	lot interface_001
+chaine_interface	CROWD_CONTROL_MECHANIC_DAZED		texte	9283bc727235	Hébété	lot interface_001
+chaine_interface	CROWD_CONTROL_MECHANIC_STUNNED		texte	96129a87100d	Étourdi	lot interface_001
+chaine_interface	CRUSHING_TRAILER		texte	0112f6e584a9	(écrase)	lot interface_001
+chaine_interface	DAMAGE_SCHOOL7		texte	5f0a4cd330d6	Arcanes	lot interface_001
+chaine_interface	DAMAGE_TIP_HOTKEY		texte	695ee8abeb96	Appuyez sur |cffFFFF00(%s)|r pour lancer |cff71d5ff[%s]|r	lot interface_001
+chaine_interface	DEFAULT_STATDEFENSE_TOOLTIP		texte	76c1dac72042	Score de défense %d (+%d Défense)|nAugmente vos chances d'esquiver, bloquer et parer de %.2f%%|nRéduit la probabilité que vous soyez touché et que vous subissiez des coups critiques de %.2f%%|n|cff888888(avant les rendements décroissants)|r	lot interface_001
+chaine_interface	DISABLE_SPELLVISUAL_TRANSMOG_TOOLTIP		texte	750bdc442e36	Masque pour vous les transmogrifications de sorts de tous les joueurs.	lot interface_001
+chaine_interface	DISPLAY_LABEL		texte	268d0e4df757	Affichage|TInterface\OptionsFrame\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|t	lot interface_001
+chaine_interface	DRAENEI_DISABLED		texte	0cfb4a2bc637	Draeneï\nNécessite d'avoir l'extension The Burning Crusade	lot interface_001
+chaine_interface	DRAFT_CANCEL_HOF_CONFIRM		texte	f60985a34a9d	Voulez-vous vraiment mettre fin à cette Main du destin ?\nLa Main du destin sera |cffFF0000retirée|r et vous |cffFF0000ne gagnerez ni ne perdrez|r aucun sort.	lot interface_001
+chaine_interface	DRAFT_HINT_DRAFT_MODE		texte	f9b491b776b2	Mode Draft	lot interface_001
+chaine_interface	DRAFT_OPTIONS_LABEL		texte	1b6786c94dc2	Options du Draft|TInterface\OptionsFrame\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|t	lot interface_001
+chaine_interface	DRAFT_OPTIONS_SUBTEXT		texte	5db131fd7bd5	Configurez divers paramètres des modes Draft et Draft de build.	lot interface_001
+chaine_interface	DUNGEONS_BUTTON		texte	e58f7f889902	Activités	lot interface_001
+chaine_interface	DUNGEON_DIFFICULTY3		texte	7564e5824ffa	5 joueurs (mythique)	lot interface_001
+chaine_interface	DUNGEON_FLOOR_SHADOWLABYRINTH1		texte	84d7344f473d	Labyrinthe des ombres	lot interface_001
+chaine_interface	DUNGEON_FLOOR_STORMWINDSEWERS1		texte	e8b51ae8a0ad	Étage principal	lot interface_001
+chaine_interface	DUNGEON_FLOOR_STORMWINDSEWERS2		texte	0d53eb8523ea	Étage secondaire	lot interface_001
+chaine_interface	DUNGEON_FLOOR_STORMWINDSEWERS3		texte	63eb93a20635	Égouts des égouts	lot interface_001
+chaine_interface	DUNGEON_FLOOR_ULDUAR0		texte	27053d871720	Le Grand abord	lot interface_001
+chaine_interface	EFFECTS_LABEL		texte	ab255c27aec8	Graphismes	lot interface_001
+chaine_interface	ENCHANT_COLLECTION_APPLY_COLLECTION_REFORGE		texte	b5f951f88100	Voulez-vous vraiment activer ces enchantements ?\n	lot interface_001
+chaine_interface	ENCHANT_COLLECTION_APPLY_COLLECTION_REFORGE_WARN		texte	1bf112ffe8c5	|cffff0000Vous n'avez pas collecté un ou plusieurs des enchantements que vous êtes sur le point d'écraser !|r\nVoulez-vous vraiment activer ces enchantements ?\n	lot interface_001
+chaine_interface	ENCHANT_COLLECTION_DISENCHANT_SLOT		texte	0dc6a22cd649	Voulez-vous vraiment enregistrer dans la collection\n%s ?\n	lot interface_001
+chaine_interface	ENCHANT_COLLECTION_SCROLL_COLLECTION_REFORGE_DIALOGUE		texte	b2c4bb8c9674	Voulez-vous vraiment appliquer\n%s\nà\n%s ?\n	lot interface_001
+chaine_interface	ENCHANT_CONDITION_AND		texte	97e2118f062c	et 	lot interface_001
+chaine_interface	ERR_ARENA_NO_TEAM_II		texte	cf68c55b1e7b	Vous ne faites pas partie d'une équipe d'arène en %dc%d.	lot interface_001
+chaine_interface	ERR_DLL_LINE6		texte	1af24d1efbc2	Une fois cela fait, ou si vous n'avez pas d'antivirus, |cff00CCFFfermez le jeu|r et lancez |cff00CCFFRéparer le client|r depuis le lanceur. 	lot interface_001
