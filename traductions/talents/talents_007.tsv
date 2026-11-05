@@ -2,7 +2,7 @@ type	id	sous_id	champ	en_empreinte	fr	note
 sort	503913		Description	b362b290a287	|cFF66DDFFPassif de niveau 40|r\r\nAugmente votre score de coup critique des sorts d'un montant égal à $s1% de votre Esprit.	lot talents_007
 sort	503913		Name	2dbe4c8c114c	Foi ardente	lot talents_007
 sort	503913		ToolTip	b4147ae0457b	Les soins de |cffffffffGardien de la lanterne|r ont 25% de chances d'appliquer un bouclier qui absorbe ${$503914m1+$503914ppl1+$SPI*.0.25} points de dégâts, selon votre Esprit.	lot talents_007
-sort	503915		Description	9235194d111a	Consommer une |cffff7f7fEmber|r réduit désormais de $806783s1% le temps d'incantation de votre prochain |cffffffffCœur de cendres|r ou |cffffffffAttiser|r pendant $806783d. Cumulable $806783u fois.	lot talents_007
+sort	503915		Description	9235194d111a	Consommer une |cffff7f7fBraise|r réduit désormais de $806783s1% le temps d'incantation de votre prochain |cffffffffCœur de cendres|r ou |cffffffffAttiser|r pendant $806783d. Cumulable $806783u fois.	lot talents_007
 sort	503915		Name	733bd2874ac7	Tissage du sage	lot talents_007
 sort	503918		Description	802dd6f8f9d7	Lancer |cffffffffBaume vert|r vous rend désormais aussi $504797s1% de votre mana de base.	lot talents_007
 sort	503918		Name	c0ad82ac018c	Ritualiste	lot talents_007
@@ -30,9 +30,9 @@ sort	504006		Description	a941739bef76	|cffffffffTir de feu stellaire|r augmente 
 sort	504006		Name	3c75da708d0e	En chasse	lot talents_007
 sort	504008		Description	3477fdca22bf	Réduit de $s1% le temps de recharge de |cffffffffTir handicapant|r et de |cffffffffGraine explosive|R.	lot talents_007
 sort	504008		Name	7eea8233125a	Débrouillard	lot talents_007
-sort	504011		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504011		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504011		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
-sort	504012		Description	3bb0354f52b1	Générer des |cFFFFFFFFReaped Souls|r déclenche désormais |cFFFFFFFFMoisson d'âmes|r. @s:573050:0@	lot talents_007
+sort	504012		Description	3bb0354f52b1	Générer des |cFFFFFFFFÂmes moissonnées|r déclenche désormais |cFFFFFFFFMoisson d'âmes|r. @s:573050:0@	lot talents_007
 sort	504012		Name	33e11539290a	Moisson d'âmes	lot talents_007
 sort	504037		Description	d77beeaa42be	Réduit le coût de |cffffffffMoisson du corbeau|r de $/10;s1 points de puissance runique et le temps de recharge de |cFFFFFFFFReliquaire des Perdus|r de $/1000;s2 sec. 	lot talents_007
 sort	504037		Name	7868b99bbc86	Sombre destin	lot talents_007
@@ -42,19 +42,19 @@ sort	504050		Description	55484d709372	Ordonne à votre |cffffffffColosse putréf
 sort	504050		Name	123f3f8a8d5f	Commandement : Souillure	lot talents_007
 sort	504070		Description	da9efac29773	Augmente de $s1% le bonus de dégâts des sorts appliqué à |cFFFFFFFFBrûlure de l'aube|r et de $s2% celui de |cFFFFFFFFFlamboiement solaire|r.	lot talents_007
 sort	504070		Name	01c95267dd29	Grâce	lot talents_007
-sort	504071		Description	5072f5ec7485	Augmente de $s1% le drain de |cFFFFFFFFFestin vampirique|r.\r\n\r\nConsommer au moins 9 charges de |cffffffffThirst|r avec |cffffffffCroc vampirique|r prolonge désormais de $/1000;561152s1 sec. la durée de |CffffffffTransgression|r.	lot talents_007
+sort	504071		Description	5072f5ec7485	Augmente de $s1% le drain de |cFFFFFFFFFestin vampirique|r.\r\n\r\nConsommer au moins 9 charges de |cffffffffSoif|r avec |cffffffffCroc vampirique|r prolonge désormais de $/1000;561152s1 sec. la durée de |CffffffffTransgression|r.	lot talents_007
 sort	504071		Name	07bb3139c896	Torture	lot talents_007
 sort	504088		Description	f89a2e8e9b25	Quand |cffffffffLiquéfaction|r prend fin, vous drainez désormais ${$806311m1+$806311ppl1+$SP*1} points de vie aux ennemis proches.	lot talents_007
 sort	504088		Name	2eabe11d3cf3	Bassins vampiriques	lot talents_007
-sort	504093		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	504093		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	504093		Name	1cb569dd5016	Croc vampirique	lot talents_007
-sort	504094		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	504094		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	504094		Name	1cb569dd5016	Croc vampirique	lot talents_007
-sort	504095		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	504095		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	504095		Name	1cb569dd5016	Croc vampirique	lot talents_007
-sort	504096		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	504096		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	504096		Name	1cb569dd5016	Croc vampirique	lot talents_007
-sort	504097		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	504097		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	504097		Name	1cb569dd5016	Croc vampirique	lot talents_007
 sort	504098		Description	43ea18fbd276	Vos dégâts et soins périodiques ont $h% de chances de réduire de $504137s1% le coût de votre prochaine |cffffffffGuérison sanguine|r pendant $504137d.	lot talents_007
 sort	504098		Name	8ae2a36fd7a4	Sutures saturantes	lot talents_007
@@ -131,7 +131,7 @@ sort	504241		Description	64697b55b1f9	Augmente vos dégâts des sorts d'un monta
 sort	504241		Name	513564b7132d	Rage	lot talents_007
 sort	504248		Description	845f7c34b114	Réduit de $s1% le coût en mana de |cffffffffParangon|r, |cffffffffÉlu de la Lumière|r et |cffffffffJour du jugement|r.	lot talents_007
 sort	504248		Name	b3be71de8599	Conquête sacrée	lot talents_007
-sort	504252		Description	0c80821ec76a	|cFF66DDFFPassif de niveau 40|r\r\nChaque charge de |cffffffffThirst|r augmente désormais vos chances de coup critique de $s1%.	lot talents_007
+sort	504252		Description	0c80821ec76a	|cFF66DDFFPassif de niveau 40|r\r\nChaque charge de |cffffffffSoif|r augmente désormais vos chances de coup critique de $s1%.	lot talents_007
 sort	504252		Name	a4fbbc93c5c9	Abandon téméraire	lot talents_007
 sort	504254		Description	a3f69ea61d4f	Augmente de $s2% votre pénétration d'armure et les dégâts des sorts qui coûtent des points de vie.	lot talents_007
 sort	504254		Name	12d64485b78d	À peine humain	lot talents_007
@@ -208,16 +208,16 @@ sort	504361		Description	4f1f41e7c2c2	Vos coups critiques nuisibles prolongent d
 sort	504361		Name	297f047818e9	Traumatisme septique	lot talents_007
 sort	504375		Description	a454813df5e7	Les coups critiques de |cFFFFFFFFCroc venimeux|r et de |cFFFFFFFFDard nérubien|r infligent désormais instantanément $s1% de leurs dégâts directs sous forme de dégâts de Nature supplémentaires.\r\n\r\nLes dégâts ainsi infligés ont $h% de chances de prolonger la durée de |cFFFFFFFFCroc putride|r de $/1000;504795s1 sec.	lot talents_007
 sort	504375		Name	48d866f82d61	Neurotoxines mortelles	lot talents_007
-sort	504380		Description	c5b414a70a1b	|cffff7f7fGénère 30 Heat|r\r\nProtège un allié avec de la lave en fusion, ce qui absorbe ${$SPFI*0.55+$m1+0} points de dégâts. Tant que l'effet est actif, ses attaquants subissent ${$m2+0+$spi*0.1} points de dégâts de Feu chaque fois qu'ils lui infligent des dégâts. Dure $d.	lot talents_007
+sort	504380		Description	c5b414a70a1b	|cffff7f7fGénère 30 points de Chaleur|r\r\nProtège un allié avec de la lave en fusion, ce qui absorbe ${$SPFI*0.55+$m1+0} points de dégâts. Tant que l'effet est actif, ses attaquants subissent ${$m2+0+$spi*0.1} points de dégâts de Feu chaque fois qu'ils lui infligent des dégâts. Dure $d.	lot talents_007
 sort	504383		Description	e33c87ea0da4	Réduit le temps de recharge de |cFFFFFFFFBélier|r de $/1000;s1 sec. et ses chances de coup critique de $s2%.	lot talents_007
 sort	504383		Name	3d6d0ff2f389	Avec honneur	lot talents_007
 sort	504385		Description	53f5a091422a	Lancer $?s505344[|cFFFFFFFFBallade du conquérant|r][|cffffffffPulvérisation|r] ou |cffffffffBélier|r a désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffBélier|r.	lot talents_007
 sort	504385		Name	13a3a25adaa3	Brise-garde	lot talents_007
 sort	504393		Description	736d1b9a8f28	Augmente de $s1% les chances de coup critique de toutes les techniques de |cFFFFFFFFForme de scarabée|r.	lot talents_007
 sort	504393		Name	50fdcdf5b370	Armes naturelles	lot talents_007
-sort	504394		Description	34a99a54b383	Consommer des |cffff7f7fEmbers|r réduit désormais de $572807s1% le temps de recharge d'|cFFFFFFFFÉclat de lave|r et de |cffffffffPilier de flammes|r.	lot talents_007
+sort	504394		Description	34a99a54b383	Consommer des |cffff7f7fBraises|r réduit désormais de $572807s1% le temps de recharge d'|cFFFFFFFFÉclat de lave|r et de |cffffffffPilier de flammes|r.	lot talents_007
 sort	504394		Name	6f6f97cc2ddb	Incinération rapide	lot talents_007
-sort	504397		Description	9134a95e4fa5	Chaque charge de |cffff7f7fHeat|r augmente désormais de $s1% les dégâts infligés par |cFFFFFFFFBond du dragon|r.	lot talents_007
+sort	504397		Description	9134a95e4fa5	Chaque charge de |cffff7f7fChaleur|r augmente désormais de $s1% les dégâts infligés par |cFFFFFFFFBond du dragon|r.	lot talents_007
 sort	504397		Name	de7298dc4251	Bénédiction des Terres de Feu	lot talents_007
 sort	504400		Description	7ad1457dcd15	Augmente de $s1% la rage générée par vos dégâts infligés.	lot talents_007
 sort	504400		Name	54fa6386d9e8	Charme de Pendo	lot talents_007
@@ -257,43 +257,43 @@ sort	504503		Description	ea0a50f90aed	Augmente votre valeur de blocage de $s1% e
 sort	504503		Name	b22a8fa0bc52	Combat tactique	lot talents_007
 sort	504523		Description	deb205c706bc	Quand vous êtes dans votre |cffffffffMéca-armure|r, les dégâts infligés par votre |cffffffffTir de ferraille|r et votre |cffffffffDynamite de fortune|r appliquent désormais |cffffffffFlamme vivante|r à la cible.@s:504521:0@	lot talents_007
 sort	504523		Name	ecec9b74901b	Jets de flammes	lot talents_007
-sort	504525		Description	270eb7d18e58	Augmente vos chances de coup critique de $s2%, et vos coups critiques à distance ont $h% de chances de générer 3 |cffc7c7c7Scrap|r.	lot talents_007
+sort	504525		Description	270eb7d18e58	Augmente vos chances de coup critique de $s2%, et vos coups critiques à distance ont $h% de chances de générer 3 points de |cffc7c7c7Ferraille|r.	lot talents_007
 sort	504525		Name	09eb2379e734	Maître des rouages	lot talents_007
-sort	504527		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 Scrap|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
+sort	504527		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 points de Ferraille|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
 sort	504527		Name	adb4265b48d9	Dynamite de fortune	lot talents_007
 sort	504527		ToolTip	19fed6265e51	Dégâts des techniques |cffffffffCoup de clé|r et |cffffffffMéca-armure|r du bricoleur augmentés de ${$w2}%.	lot talents_007
 sort	504530		Description	4a62b0b3e8a9	Augmente de $s1% les dégâts de |cffffffffBélier|r et de |cffffffffLarge balayage|r.	lot talents_007
 sort	504531		Description	a8b434d5f694	Vos dégâts de mêlée réduisent désormais le temps de recharge de votre |cffffffffChevalerie|r de $/1000;504146s1 sec.	lot talents_007
 sort	504531		Name	c29791e587c9	Élan	lot talents_007
-sort	504532		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504532		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504532		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
-sort	504533		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504533		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504533		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
-sort	504534		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504534		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504534		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
-sort	504535		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504535		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504535		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
-sort	504536		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504536		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504536		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
-sort	504537		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffSoul Fragment|r, jusqu'à un maximum de 3.	lot talents_007
+sort	504537		Description	ca6f0cd1168f	Frappe tous les ennemis proches, ce qui leur inflige $s1% des dégâts de l'arme plus ${$m2+0}.\r\n\r\nLes dégâts infligés moissonnent un |cffffffffFragment d'âme|r, jusqu'à un maximum de 3.	lot talents_007
 sort	504537		Name	e4c497cdb228	Moisson du corbeau	lot talents_007
 sort	504560		Description	fcb4b65654b5	Augmente vos dégâts critiques de $s1%.	lot talents_007
 sort	504560		Name	e595102ff9ac	Spectre cramoisi	lot talents_007
 sort	504561		Description	433e0988d992	Déclencher |cffffffffZélotisme|r vous rend désormais aussi ${$504809m1*$<scalingbp>+$SP*0.06} points de vie.@s:801450:0@	lot talents_007
 sort	504561		Name	88417ee1c265	Formation de prêtre	lot talents_007
-sort	504589		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 Scrap|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
+sort	504589		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 points de Ferraille|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
 sort	504589		Name	adb4265b48d9	Dynamite de fortune	lot talents_007
 sort	504589		ToolTip	19fed6265e51	Dégâts des techniques |cffffffffCoup de clé|r et |cffffffffMéca-armure|r du bricoleur augmentés de ${$w2}%.	lot talents_007
-sort	504590		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 Scrap|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
+sort	504590		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 points de Ferraille|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
 sort	504590		Name	adb4265b48d9	Dynamite de fortune	lot talents_007
 sort	504590		ToolTip	19fed6265e51	Dégâts des techniques |cffffffffCoup de clé|r et |cffffffffMéca-armure|r du bricoleur augmentés de ${$w2}%.	lot talents_007
-sort	504591		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 Scrap|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
+sort	504591		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 points de Ferraille|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
 sort	504591		Name	adb4265b48d9	Dynamite de fortune	lot talents_007
 sort	504591		ToolTip	19fed6265e51	Dégâts des techniques |cffffffffCoup de clé|r et |cffffffffMéca-armure|r du bricoleur augmentés de ${$w2}%.	lot talents_007
-sort	504592		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 Scrap|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
+sort	504592		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 points de Ferraille|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
 sort	504592		Name	adb4265b48d9	Dynamite de fortune	lot talents_007
 sort	504592		ToolTip	19fed6265e51	Dégâts des techniques |cffffffffCoup de clé|r et |cffffffffMéca-armure|r du bricoleur augmentés de ${$w2}%.	lot talents_007
-sort	504593		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 Scrap|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
+sort	504593		Description	48becf845dee	|cffffffff2 charges, recharge de 8 sec.|R\r\n|cffc7c7c7Génère 10 points de Ferraille|r\r\nCharge de la dynamite dans votre fusil et la tire sur un ennemi, ce qui inflige $s3% des dégâts de l'arme à distance plus ${$m1+0} sous forme de dégâts de Feu.\r\n\r\nUtilisable en mouvement.	lot talents_007
 sort	504593		Name	adb4265b48d9	Dynamite de fortune	lot talents_007
 sort	504593		ToolTip	19fed6265e51	Dégâts des techniques |cffffffffCoup de clé|r et |cffffffffMéca-armure|r du bricoleur augmentés de ${$w2}%.	lot talents_007
 sort	504602		Description	39db28554868	|cFF66DDFFPassif de niveau 30|r\r\nLancer |cffffffffVagues du temps|r vous confère désormais |cffffffffRéalité distordue|r pendant $504603d.\r\n@s:504603:0@	lot talents_007
@@ -312,7 +312,7 @@ sort	504645		Description	73d94ed24f29	Les dégâts infligés par |cFFFFFFFFProfa
 sort	504645		Name	c12a25f99e13	Intention malfaisante	lot talents_007
 sort	504677		Description	de4bc488a19a	Réduit le temps de recharge de |cffffffffCarreau fouisseur|r de $/1000;s1 sec.	lot talents_007
 sort	504677		Name	156aa9ce4a3d	Renégat du Bois de la Pénombre	lot talents_007
-sort	504694		Description	183a3f0b7347	Augmente de $s1% les chances de coup critique et les dégâts critiques des |cff66ccffScattered Stars|r consommées.	lot talents_007
+sort	504694		Description	183a3f0b7347	Augmente de $s1% les chances de coup critique et les dégâts critiques des |cff66ccffÉtoiles éparpillées|r consommées.	lot talents_007
 sort	504694		Name	579f858edf25	Bourse de poussière d'étoile	lot talents_007
 sort	504704		Description	92e36bdddf9e	Augmente de $s1% les dégâts critiques infligés par |cffffffffBaiser de la veuve|r, |cFFFFFFFFFaiseur de veuves|r et |cFFFFFFFFCroc venimeux|r contre les cibles |cff00ff00empoisonnées|r.	lot talents_007
 sort	504704		Name	20e646b9ab27	Baiser mortel	lot talents_007
@@ -334,7 +334,7 @@ sort	504730		Description	5b01c8651af9	Augmente de $s1% les dégâts critiques de
 sort	504730		Name	7b8c02f3e231	Légionnaire	lot talents_007
 sort	504732		Description	82f7c07e35c4	Les dégâts physiques infligés ou subis ont désormais $h% de chances de déchaîner |cffffffffÉpines|r sur un ennemi.@s:504784:0@	lot talents_007
 sort	504732		Name	7ae2a0cd241e	Épines	lot talents_007
-sort	504733		Description	356319d039b1	|cFF66DDFFPassif de niveau 50|r\r\nVos soins effectifs critiques génèrent désormais 10 |cffff7f7fHeat|r.	lot talents_007
+sort	504733		Description	356319d039b1	|cFF66DDFFPassif de niveau 50|r\r\nVos soins effectifs critiques génèrent désormais 10 points de |cffff7f7fChaleur|r.	lot talents_007
 sort	504733		Name	cb192c1a4643	Passion ardente	lot talents_007
 sort	504733		ToolTip	9d297c174ea5	Les soins de |cffffffffGardien de la lanterne|r ont 25% de chances d'appliquer un bouclier qui absorbe ${$503914m1+$503914ppl1+$SPI*.2} points de dégâts, selon votre Esprit.	lot talents_007
 sort	504734		Description	9835385de5ad	Augmente de $s1% la portée de vos sorts de Piété et réduit de $s2% la menace qu'ils génèrent.	lot talents_007
@@ -346,7 +346,7 @@ sort	504736		Name	aace2e3259e0	Tissage de venin	lot talents_007
 sort	504742		Name	4eaa46bdeecb	Angoisse	lot talents_007
 sort	504750		Description	7b44ac3ef436	|cFF66DDFFPassif de niveau 20|r\r\nLes dégâts infligés par |cffffffffÉcho de Nozdormu|r et |cffffffffFlammes de Neltharion|r ont désormais $h% de chances de se répéter à hauteur de $s1% des dégâts infligés.\r\n\r\nLes dégâts ainsi infligés peuvent déclencher cet effet jusqu'à 3 fois de plus.	lot talents_007
 sort	504750		Name	2fc073f722b4	Aspect du temps	lot talents_007
-sort	504754		Description	d21ac6e692a3	Les dégâts infligés par |cFFFFFFFFBond du dragon|r génèrent désormais 10 |cffff7f7fHeat|r.	lot talents_007
+sort	504754		Description	d21ac6e692a3	Les dégâts infligés par |cFFFFFFFFBond du dragon|r génèrent désormais 10 points de |cffff7f7fChaleur|r.	lot talents_007
 sort	504754		Name	65e5592ce370	Échauffé	lot talents_007
 sort	504758		Description	12f0c6498d62	Votre |cffffffffÉclair de sang|r vous rend désormais des points de vie à hauteur de $s1% supplémentaires des dégâts infligés.	lot talents_007
 sort	504758		Name	04e48e7a970c	Hématome	lot talents_007
@@ -396,9 +396,9 @@ sort	504896		Description	12f0c6498d62	Votre |cffffffffÉclair de sang|r vous ren
 sort	504896		Name	04e48e7a970c	Hématome	lot talents_007
 sort	504898		Description	bf0ca616bbce	Augmente vos chances de coup critique de $s1%.	lot talents_007
 sort	504898		Name	6946492e4db2	Bénédiction des crocs	lot talents_007
-sort	553271		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	553271		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	553271		Name	1cb569dd5016	Croc vampirique	lot talents_007
-sort	553272		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	553272		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	553272		Name	1cb569dd5016	Croc vampirique	lot talents_007
 sort	560452		Description	bf0ca616bbce	Augmente vos chances de coup critique de $s1%.	lot talents_007
 sort	560889		Description	bf0ca616bbce	Augmente vos chances de coup critique de $s1%.	lot talents_007
@@ -425,7 +425,7 @@ sort	705980		Name	3dba95c23d9c	Alacrité	lot talents_007
 sort	707212		Name	64e79f15db5a	Secrets de la jungle	lot talents_007
 sort	707848		Name	01c95267dd29	Grâce	lot talents_007
 sort	712477		Name	01c95267dd29	Grâce	lot talents_007
-sort	804726		Description	52d3773973bc	|cffffffffDépense les charges de Thirst|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffThirst|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffThirst|r.	lot talents_007
+sort	804726		Description	52d3773973bc	|cffffffffDépense les charges de Soif|r\r\nVole ${$m1+0+$SP*0.34} points de vie à un ennemi.\r\n\r\nDégâts augmentés de $680753s3% par charge de |cffffffffSoif|r. \r\n\r\nSupprime |cffffffffInsatiable|r et les charges de |cffffffffSoif|r.	lot talents_007
 sort	804726		Name	1cb569dd5016	Croc vampirique	lot talents_007
 sort	805933		Name	72899ad93352	Veuve noire	lot talents_007
 sort	806727		ToolTip	e21fd3619289	$gAttiré:Attirée; vers le lanceur.	lot talents_007

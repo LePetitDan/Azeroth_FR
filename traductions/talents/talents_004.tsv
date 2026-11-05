@@ -2,11 +2,11 @@ type	id	sous_id	champ	en_empreinte	fr	note
 arbre_coa	32		nom	5f777b24b35c	Chasse aux têtes	lot talents_004
 sort	301175		Description	6b397c3eaa2d	Lancer |cFFFFFFFFEsprit en bouteille|r vous confère désormais |cFFFFFFFFEsprit|r.@s:561136:0@\r\n\r\n@ifknown:500950:De plus, canaliser |cFFFFFFFFRayon de mojo|r fait affecter à |cFFFFFFFFEsprit en bouteille|r ${$m2-1} alliés supplémentaires proches de la cible principale.:ifknown@	lot talents_004
 sort	301175		Name	4d6b35066fc4	L'esprit sort de la bouteille	lot talents_004
-sort	301180		Description	eb2894d9a90b	|cFF66DDFFPassif de niveau 30|r\r\nLes coups critiques de |cffffffffMarteau du crépuscule|r vous rendent désormais 10 |cffcfa6ffInsanity|r.	lot talents_004
+sort	301180		Description	eb2894d9a90b	|cFF66DDFFPassif de niveau 30|r\r\nLes coups critiques de |cffffffffMarteau du crépuscule|r vous rendent désormais 10 points de |cffcfa6ffFolie|r.	lot talents_004
 sort	301180		Name	d9948f18b227	Appel du crépuscule	lot talents_004
-sort	301181		Description	de5b000782fa	Tant que vous avez plus de 60 |cffcfa6ffInsanity|r, votre hâte est augmentée de $572859s1%.	lot talents_004
+sort	301181		Description	de5b000782fa	Tant que vous avez plus de 60 points de |cffcfa6ffFolie|r, votre hâte est augmentée de $572859s1%.	lot talents_004
 sort	301181		Name	030e96cef390	Incantations rapides	lot talents_004
-sort	301182		Description	c94e85ac8e98	Tant que vous avez plus de 80 |cffcfa6ffInsanity|r, la valeur de votre |cFFFFFFFFBouclier de vide|r est augmentée de $572758s2%.	lot talents_004
+sort	301182		Description	c94e85ac8e98	Tant que vous avez plus de 80 points de |cffcfa6ffFolie|r, la valeur de votre |cFFFFFFFFBouclier de vide|r est augmentée de $572758s2%.	lot talents_004
 sort	301182		Name	444daea9d8d5	Rempart d'ombre	lot talents_004
 sort	301183		Description	cc5849423e2f	Une technique de mêlée sur 3 que vous utilisez rend votre prochaine |cffffffffGuérison surnaturelle|r instantanée et réduit son coût en mana de $301186s2%.	lot talents_004
 sort	301183		Name	eefee3be79c1	Puissance malveillante	lot talents_004
@@ -65,7 +65,7 @@ sort	301278		Description	120992068b88	Soulève la terre en ligne devant vous ave
 sort	301279		Description	120992068b88	Soulève la terre en ligne devant vous avec une fureur en fusion, ce qui inflige ${$m1+0+$AP*.22+$STA*.5} points de dégâts physiques aux ennemis et vous confère |cffffffffRage du thane|r et |cffffffffRéplique|r.@s:804124:0@@s:301086:0@\r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_004
 sort	301280		Description	a615a5e6d4ed	Supprime le coût en rage de |cffffffffMorsure du rylak|r.	lot talents_004
 sort	301280		Name	7f0eeb48fc11	Rage sauvage	lot talents_004
-sort	301286		Description	e29d9ce437e9	Augmente de $s1% les dégâts critiques de vos sorts qui consomment des |cffff7f7fEmber|r.	lot talents_004
+sort	301286		Description	e29d9ce437e9	Augmente de $s1% les dégâts critiques de vos sorts qui consomment des |cffff7f7fBraises|r.	lot talents_004
 sort	301286		Name	00258be3232f	Incendiaire	lot talents_004
 sort	301287		Description	a6a518d154e1	Chaque |cff32cd32Gangrefurie|r active augmente désormais votre hâte de $s1%.	lot talents_004
 sort	301287		Name	7167a69f7c84	Cœur gangrené	lot talents_004
@@ -128,7 +128,7 @@ sort	301817		Description	18560c98686a	Augmente votre mana d'un montant égal à 
 sort	301974		Name	5b6878d2d8f5	Flamme intérieure	lot talents_004
 sort	301984		Description	7d3a70ba3f19	Augmente votre puissance d'attaque et votre maximum de mana de $s1%.	lot talents_004
 sort	301984		Name	c7bfcd3afcb1	Étreinte de Yogg-Saron	lot talents_004
-sort	301986		Description	08b99f6f8571	Pendant la durée de |cffffffffFaux spectrale|r, les dégâts de |cffffffffFrappe de l'âme|r sont augmentés de $s1%.\r\n\r\nDe plus, générer une |cff5ee2ffReaped Soul|r a désormais $h% de chances d'invoquer une |cffffffffFaux spectrale|r qui combat à vos côtés pendant 10 sec.	lot talents_004
+sort	301986		Description	08b99f6f8571	Pendant la durée de |cffffffffFaux spectrale|r, les dégâts de |cffffffffFrappe de l'âme|r sont augmentés de $s1%.\r\n\r\nDe plus, générer une |cff5ee2ffÂme moissonnée|r a désormais $h% de chances d'invoquer une |cffffffffFaux spectrale|r qui combat à vos côtés pendant 10 sec.	lot talents_004
 sort	301986		Name	4334717c4c61	Moisson des esprits	lot talents_004
 sort	302015		Description	8d7900c84a75	Lancer |cFFFFFFFFRegard de C'Thun|r a désormais $h% de chances de pousser vos |cFFFFFFFFTentacules|r à frapper l'ennemi d'une énergie surnaturelle, qui inflige ${$573311m1+$573311ppl1+$sps*0.225+$AP*0.1} points de dégâts d'Ombre.	lot talents_004
 sort	302015		Name	1ae80470778f	Commandement surnaturel	lot talents_004
@@ -145,9 +145,9 @@ sort	302548		Name	3e59b85bb96f	Malédiction des enfers	lot talents_004
 sort	302549		Description	f47b6a326d28	Réduit les dégâts que vous subissez de $s1% et augmente votre Endurance de $s2%.	lot talents_004
 sort	302549		Name	53186168e7fb	Plaques de feu démoniaque	lot talents_004
 sort	302549		ToolTip	5e44dbac1903	Réduit les dégâts subis de ${$w1}% et augmente l'Endurance de ${$w2}%.	lot talents_004
-sort	302568		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique |cff66ccffScattered Stars|r.\r\n\r\nConsommer une |cff66ccffScattered Star|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
+sort	302568		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique des |cff66ccffÉtoiles éparpillées|r.\r\n\r\nConsommer une |cff66ccffÉtoile éparpillée|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
 sort	302568		Name	e3728c20e718	Appel stellaire	lot talents_004
-sort	302569		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique |cff66ccffScattered Stars|r.\r\n\r\nConsommer une |cff66ccffScattered Star|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
+sort	302569		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique des |cff66ccffÉtoiles éparpillées|r.\r\n\r\nConsommer une |cff66ccffÉtoile éparpillée|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
 sort	302569		Name	e3728c20e718	Appel stellaire	lot talents_004
 sort	302581		Description	40d65b31d559	Chaque charge de |cffffffffSang de démon|r augmente aussi votre armure de $s1%.	lot talents_004
 sort	302581		Name	237bf3b9c9ff	Peau de démon	lot talents_004
@@ -172,7 +172,7 @@ sort	365055		Name	9b4611f9ec74	Balayage brutal	lot talents_004
 sort	365056		Description	6f4fa2ca27f7	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}, les renverse brièvement et les étourdit pendant $504875d.	lot talents_004
 sort	365058		Description	1f84d3fe3393	Frappe un ennemi d'une magie runique glaciale, ce qui inflige $?s707654[${$cond($gt($spfr, $spa), $m1+0+$spfr*1.65, $m1+0+$spa*1.65)}][${$cond($gt($spfr, $spa), $m1+0+$spfr*.65, $m1+0+$spa*.65)}] points de dégâts de Givre et applique |cFFFFFFFFFusion glaciale|r. @s:803225:0@	lot talents_004
 sort	365058		Name	a84fb0c8bfa5	Déflagration glaciale	lot talents_004
-sort	365178		Description	4c31dd1f8f75	|cffcfa6ffGénère 10 Insanity|r\r\nFlétrit un ennemi, ce qui lui inflige $o1 points de dégâts d'Ombre en $d. Chaque occurrence de dégâts réduit les soins périodiques qu'il reçoit de $706913s1%, cumulable jusqu'à $?s301317[8][$706913u] fois.	lot talents_004
+sort	365178		Description	4c31dd1f8f75	|cffcfa6ffGénère 10 points de Folie|r\r\nFlétrit un ennemi, ce qui lui inflige $o1 points de dégâts d'Ombre en $d. Chaque occurrence de dégâts réduit les soins périodiques qu'il reçoit de $706913s1%, cumulable jusqu'à $?s301317[8][$706913u] fois.	lot talents_004
 sort	365178		Name	98becc1376b4	Flétrissure ténébreuse	lot talents_004
 sort	365178		ToolTip	7da60ea7ba57	Inflige ${$w1} points de dégâts d'Ombre toutes les $t1 sec. Chaque effet périodique réduit les soins périodiques reçus.	lot talents_004
 sort	365179		Description	ac01f45e5cf8	Protège un allié avec un bouclier qui absorbe ${$m1+$SP*2} points de dégâts pendant $d et applique |cffffffffEsprit tourmenté|r.\r\n@s:805801:0@	lot talents_004
@@ -214,10 +214,10 @@ sort	500067		Name	1acffd8b478f	Monstruosité gangrenée	lot talents_004
 sort	500069		Description	7fc12906a57d	Augmente de $s1% vos chances de toucher avec tous les sorts et attaques, ainsi que celles des membres du groupe et du raid.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_004
 sort	500069		Name	f5ac6cae05d9	Ciel dégagé	lot talents_004
 sort	500069		ToolTip	c15042243c11	Chances de toucher augmentées de ${$w1}%.	lot talents_004
-sort	500071		Description	af27bbd9cfa8	Tire sur la gorge d'un ennemi une flèche enduite de toxine, qui inflige ${$m1+0+$RAP*0.360687} points de dégâts de Nature et le réduit au silence pendant $500616d.\r\n\r\nDurée augmentée de $/1000;704337S1 sec. par charge d'|cff8fff7aAdvantage|r.	lot talents_004
+sort	500071		Description	af27bbd9cfa8	Tire sur la gorge d'un ennemi une flèche enduite de toxine, qui inflige ${$m1+0+$RAP*0.360687} points de dégâts de Nature et le réduit au silence pendant $500616d.\r\n\r\nDurée augmentée de $/1000;704337S1 sec. par charge d'|cff8fff7aAvantage|r.	lot talents_004
 sort	500071		Name	bb103774ab21	Flèche neurotoxique	lot talents_004
 sort	500071		ToolTip	0654d113b33b	Réduit au silence.	lot talents_004
-sort	500075		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	500075		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	500075		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	500075		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
 sort	500085		Description	c133c1bac4ce	Fonce dans la direction où vous vous déplacez$?s681156[, ce qui vous rend $681155s1% de votre maximum de mana][]. La distance dépend de la vitesse de déplacement.\r\n\r\nInutilisable quand vous êtes $gimmobilisé:immobilisée;.	lot talents_004
@@ -241,7 +241,7 @@ sort	500121		ToolTip	dbc29c661342	Chances de coup critique des sorts augmentées
 sort	500124		Description	cd708fe63952	Hurle dans l'âme des ennemis proches, ce qui leur inflige ${$m1+0+$AP*0.285} points de dégâts d'Ombre et réduit leur vitesse de déplacement de $s2% pendant $d.	lot talents_004
 sort	500124		Name	bd48cd03227e	Hurlement du chasseur nocturne	lot talents_004
 sort	500124		ToolTip	4654d2010246	Vitesse de déplacement réduite de ${$w2}%. 	lot talents_004
-sort	500135		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	500135		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	500135		Name	3df1a8a24cd0	Météore	lot talents_004
 sort	500146		Description	32da1c57bf4d	Frappe un ennemi d'une lumière brûlante, ce qui inflige ${$m1+0+$spfi*0.765222} points de dégâts de Feu.	lot talents_004
 sort	500146		Name	b3ff8a44b31c	Brûlure de l'aube	lot talents_004
@@ -249,7 +249,7 @@ sort	500147		Description	dd8bb2d38fd8	|cffffffff2 charges, recharge de 10 sec.|r
 sort	500147		Name	77a7e004fc54	Point du jour	lot talents_004
 sort	500154		Description	725a35790f8b	Frappe un ennemi de la puissance du soleil, ce qui inflige ${$m1+0+$sph*1} points de dégâts du Sacré et réduit sa puissance d'attaque de ${-($572050m1+$572050ppl1)} pendant $572050d.	lot talents_004
 sort	500154		Name	726a0a28c8aa	Déflagration d'Horusath	lot talents_004
-sort	500166		Description	45d36f00631d	Augmente de $s1% les chances de coup critique des sorts qui consomment des |cffff7f7fEmber|r.	lot talents_004
+sort	500166		Description	45d36f00631d	Augmente de $s1% les chances de coup critique des sorts qui consomment des |cffff7f7fBraises|r.	lot talents_004
 sort	500166		Name	98b2e821297a	Pyromane	lot talents_004
 sort	500167		Description	277d1d29f350	Augmente de $s1% l'efficacité de vos effets d'absorption.	lot talents_004
 sort	500167		Name	4dbb9a11c5fc	Esprit de feu	lot talents_004
@@ -283,13 +283,13 @@ sort	500259		Name	d3064f43aebc	Bannière de célérité	lot talents_004
 sort	500580		ToolTip	c15042243c11	Chances de toucher augmentées de ${$w1}%.	lot talents_004
 sort	500644		Description	277d1d29f350	Augmente de $s1% l'efficacité de vos effets d'absorption.	lot talents_004
 sort	500644		Name	4dbb9a11c5fc	Esprit de feu	lot talents_004
-sort	500649		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	500649		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	500649		Name	3df1a8a24cd0	Météore	lot talents_004
-sort	500650		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	500650		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	500650		Name	3df1a8a24cd0	Météore	lot talents_004
-sort	500651		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	500651		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	500651		Name	3df1a8a24cd0	Météore	lot talents_004
-sort	500652		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	500652		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	500652		Name	3df1a8a24cd0	Météore	lot talents_004
 sort	500715		Description	ac01f45e5cf8	Protège un allié avec un bouclier qui absorbe ${$m1+$SP*2} points de dégâts pendant $d et applique |cffffffffEsprit tourmenté|r.\r\n@s:805801:0@	lot talents_004
 sort	500715		Name	48a51c0bb3b6	Bouclier de vide	lot talents_004
@@ -360,9 +360,9 @@ sort	501681		ToolTip	4654d2010246	Vitesse de déplacement réduite de ${$w2}%. 	
 sort	501682		Description	cd708fe63952	Hurle dans l'âme des ennemis proches, ce qui leur inflige ${$m1+0+$AP*0.285} points de dégâts d'Ombre et réduit leur vitesse de déplacement de $s2% pendant $d.	lot talents_004
 sort	501682		Name	bd48cd03227e	Hurlement du chasseur nocturne	lot talents_004
 sort	501682		ToolTip	4654d2010246	Vitesse de déplacement réduite de ${$w2}%. 	lot talents_004
-sort	502055		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	502055		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	502055		Name	3df1a8a24cd0	Météore	lot talents_004
-sort	502056		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 Heat|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
+sort	502056		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	502056		Name	3df1a8a24cd0	Météore	lot talents_004
 sort	502213		Name	98becc1376b4	Flétrissure ténébreuse	lot talents_004
 sort	502214		Name	98becc1376b4	Flétrissure ténébreuse	lot talents_004
@@ -380,9 +380,9 @@ sort	502245		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot talents
 sort	502247		Description	ac01f45e5cf8	Protège un allié avec un bouclier qui absorbe ${$m1+$SP*2} points de dégâts pendant $d et applique |cffffffffEsprit tourmenté|r.\r\n@s:805801:0@	lot talents_004
 sort	502247		Name	48a51c0bb3b6	Bouclier de vide	lot talents_004
 sort	502247		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot talents_004
-sort	502316		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique |cff66ccffScattered Stars|r.\r\n\r\nConsommer une |cff66ccffScattered Star|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
+sort	502316		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique des |cff66ccffÉtoiles éparpillées|r.\r\n\r\nConsommer une |cff66ccffÉtoile éparpillée|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
 sort	502316		Name	e3728c20e718	Appel stellaire	lot talents_004
-sort	502317		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique |cff66ccffScattered Stars|r.\r\n\r\nConsommer une |cff66ccffScattered Star|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
+sort	502317		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique des |cff66ccffÉtoiles éparpillées|r.\r\n\r\nConsommer une |cff66ccffÉtoile éparpillée|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
 sort	502317		Name	e3728c20e718	Appel stellaire	lot talents_004
 sort	502366		Description	32da1c57bf4d	Frappe un ennemi d'une lumière brûlante, ce qui inflige ${$m1+0+$spfi*0.765222} points de dégâts de Feu.	lot talents_004
 sort	502366		Name	b3ff8a44b31c	Brûlure de l'aube	lot talents_004
@@ -463,22 +463,22 @@ sort	505228		ToolTip	c15042243c11	Chances de toucher augmentées de ${$w1}%.	lot
 sort	554406		Description	32da1c57bf4d	Frappe un ennemi d'une lumière brûlante, ce qui inflige ${$m1+0+$spfi*0.765222} points de dégâts de Feu.	lot talents_004
 sort	554406		Name	b3ff8a44b31c	Brûlure de l'aube	lot talents_004
 sort	560116		ToolTip	0654d113b33b	Réduit au silence.	lot talents_004
-sort	572108		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	572108		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	572108		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	572108		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
-sort	572109		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	572109		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	572109		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	572109		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
-sort	572110		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	572110		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	572110		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	572110		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
-sort	572111		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	572111		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	572111		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	572111		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
-sort	572112		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	572112		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	572112		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	572112		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
-sort	572113		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAdvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
+sort	572113		Description	5923332b2455	Tire avec précision sur un ennemi à grande distance, ce qui inflige ${$m1+$RAP*0.485} points de dégâts physiques.\r\n\r\nDégâts augmentés pour chaque charge d'|cff8fff7aAvantage|r.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_004
 sort	572113		Name	5a589c309cff	Tir de précision	lot talents_004
 sort	572113		ToolTip	1623563d5a05	Chances de subir un coup critique augmentées de $560813s1%.	lot talents_004
 sort	572796		Description	725a35790f8b	Frappe un ennemi de la puissance du soleil, ce qui inflige ${$m1+0+$sph*1} points de dégâts du Sacré et réduit sa puissance d'attaque de ${-($572050m1+$572050ppl1)} pendant $572050d.	lot talents_004
@@ -511,7 +511,7 @@ sort	707714		ToolTip	0654d113b33b	Réduit au silence.	lot talents_004
 sort	707715		ToolTip	0654d113b33b	Réduit au silence.	lot talents_004
 sort	800081		ToolTip	0654d113b33b	Réduit au silence.	lot talents_004
 sort	800446		Name	98becc1376b4	Flétrissure ténébreuse	lot talents_004
-sort	800497		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique |cff66ccffScattered Stars|r.\r\n\r\nConsommer une |cff66ccffScattered Star|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
+sort	800497		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique des |cff66ccffÉtoiles éparpillées|r.\r\n\r\nConsommer une |cff66ccffÉtoile éparpillée|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
 sort	800497		Name	e3728c20e718	Appel stellaire	lot talents_004
 sort	803195		Name	b07621e6b8a1	Poison pointe-venin	lot talents_004
 sort	803195		ToolTip	a01e1a8c3be0	Vitesse d'attaque réduite de $572058s1%.	lot talents_004

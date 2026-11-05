@@ -8,7 +8,7 @@ sort	300553		Description	cb298c6439c7	Augmente de $s1% l'armure conférée par v
 sort	300553		Name	677e2d7f91fb	Protecteur des âmes	lot talents_003
 sort	300560		Description	7c7014dfdd18	Augmente de $s1% l'armure conférée par vos objets en mailles et en plaques et réduit de $s2% les chances des sorts de vous toucher.	lot talents_003
 sort	300560		Name	a6094aa453ec	Chevalier d'effroi	lot talents_003
-sort	300565		Description	f60a8ab7c2c4	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, infliger des dégâts directs a désormais $h% de chances de générer un |cffffffffSoul Fragment|r.	lot talents_003
+sort	300565		Description	f60a8ab7c2c4	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, infliger des dégâts directs a désormais $h% de chances de générer un |cffffffffFragment d'âme|r.	lot talents_003
 sort	300565		Name	57d66d9b60c9	Vision des âmes	lot talents_003
 sort	300565		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
 sort	300569		Description	2f48736cf451	Tant que |cFFFFFFFFÂmes tourmentées|r est actif sur vous, votre vitesse d'attaque en mêlée est augmentée de $572300s1% et votre |cFFFFFFFFSillage d'effroi|r coûte $/10;572300s2 points de puissance runique de moins.	lot talents_003
@@ -127,12 +127,12 @@ sort	300744		Description	7fb883442d24	Traverser des alliés avec |cffffffffRuée
 sort	300744		Name	6fe3b8a80040	Course instinctive	lot talents_003
 sort	300748		Description	4c3f8e785168	Augmente de $s1% votre maximum de points de vie et celui de vos invocations.	lot talents_003
 sort	300748		Name	24149ff14398	Hordes massives	lot talents_003
-sort	300751		Description	802a291a82db	Chaque |cffff7f7fEmber|r active réduit désormais de $s1% le temps d'incantation de |cffffffffExploser|r.	lot talents_003
+sort	300751		Description	802a291a82db	Chaque |cffff7f7fBraise|r active réduit désormais de $s1% le temps d'incantation de |cffffffffExploser|r.	lot talents_003
 sort	300751		Name	4bc7268c5cf2	Puissance résiduelle	lot talents_003
 sort	300751		ToolTip	42d766fe84ad	|cffffffffSouffle d'Ysera|r augmente désormais de $504487s1% tous les dégâts de Feu subis par la cible pendant $504487d.	lot talents_003
 sort	300753		Description	e27084a6e132	Tant que |cffffffffHéraut des profondeurs|r est actif, le temps de recharge de votre |cffffffffRituel interdit|r s'écoule plus vite.	lot talents_003
 sort	300753		Name	27c93d9cfafc	Lame des profondeurs	lot talents_003
-sort	300755		Description	7c978ae70551	|cFF66DDFFPassif de niveau 10|r\r\nVos coups critiques directs génèrent désormais 20 |cffff7f7fHeat|r supplémentaires.\r\n\r\nVous gagnez de l'Intelligence à hauteur de 100% de votre score de coup critique.	lot talents_003
+sort	300755		Description	7c978ae70551	|cFF66DDFFPassif de niveau 10|r\r\nVos coups critiques directs génèrent désormais 20 points de |cffff7f7fChaleur|r supplémentaires.\r\n\r\nVous gagnez de l'Intelligence à hauteur de 100% de votre score de coup critique.	lot talents_003
 sort	300755		Name	4aff3bf5ad8f	Tranchant du dragon	lot talents_003
 sort	300757		Description	9da102199d9e	Augmente vos chances de coup critique de $s2%, et vos coups critiques avec des sorts de Feu augmentent désormais de $504843s1% les chances de l'ennemi de subir un coup critique des sorts pendant $504843d.	lot talents_003
 sort	300757		Name	03a6e2d7baf3	Point de fusion	lot talents_003
@@ -210,7 +210,7 @@ sort	300944		Name	02632a2db2fe	Puissance runique	lot talents_003
 sort	300944		ToolTip	6ac165950ebd	Dégâts infligés augmentés de ${$w1}%.	lot talents_003
 sort	300945		Description	672bf70aa5e6	Augmente l'armure de vos serviteurs morts-vivants de ${$m1+$ppl1}, selon votre niveau.	lot talents_003
 sort	300945		Name	acd7785a7547	Armure plaquée de cobalt	lot talents_003
-sort	300956		Description	cdb320c2facc	Augmente de $s1% les dégâts et les soins de vos sorts qui consomment des |cffff7f7fEmber|r.	lot talents_003
+sort	300956		Description	cdb320c2facc	Augmente de $s1% les dégâts et les soins de vos sorts qui consomment des |cffff7f7fBraises|r.	lot talents_003
 sort	300956		Name	77954b4b6690	Cadeau d'Alexstrasza	lot talents_003
 sort	300957		Description	c205dbe85129	Augmente de $s1% la hâte des sorts de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente votre hâte des sorts de $s2%.	lot talents_003
 sort	300957		Name	21e6522f668e	Sombre présence	lot talents_003
@@ -244,7 +244,7 @@ sort	300972		Name	7881bf71d2de	Champion	lot talents_003
 sort	300974		Description	3faf01bda26c	Réduit de $s1% les dégâts subis par tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, réduit de $s2% vos chances d'être $gtouché:touchée; par des sorts.	lot talents_003
 sort	300974		Name	284a0a6981a3	Blindage enchanté	lot talents_003
 sort	300974		ToolTip	04f9a572adc3	Dégâts subis réduits de ${$w1}%.	lot talents_003
-sort	300975		Description	f71c07ee2b4a	Vos coups critiques infligeant des dégâts génèrent désormais 10 |cffff7f7fHeat|r et vous rendent $504878s1% de votre mana de base.	lot talents_003
+sort	300975		Description	f71c07ee2b4a	Vos coups critiques infligeant des dégâts génèrent désormais 10 points de |cffff7f7fChaleur|r et vous rendent $504878s1% de votre mana de base.	lot talents_003
 sort	300975		Name	690b4497446f	En cendres	lot talents_003
 sort	300978		Description	6fc0335ec287	|cFF66DDFFPassif de niveau 40|r\r\nVos coups critiques en mêlée drainent désormais ${$560589m1*$<scalingbp>+$STA*0.3} points de vie de la cible, selon votre Endurance.	lot talents_003
 sort	300978		Name	dbfb5f2492fd	Blessures enrageantes	lot talents_003
@@ -257,11 +257,11 @@ sort	300986		Description	88eb5499d8a9	Réduit de $s1% la durée des effets de sa
 sort	300986		Name	d06952e2cc31	Adrénaline	lot talents_003
 sort	300989		Description	7fb4d0d33f6e	Augmente de $s1% les dégâts de |cffffffffLance lunaire|r.	lot talents_003
 sort	300989		Name	cdddba2fe9c7	Anomalie lunaire	lot talents_003
-sort	300992		Description	e32272ccab14	Bloquer les attaques ennemies applique désormais |cff66ccffScattered Stars|r à l'attaquant.	lot talents_003
+sort	300992		Description	e32272ccab14	Bloquer les attaques ennemies applique désormais des |cff66ccffÉtoiles éparpillées|r à l'attaquant.	lot talents_003
 sort	300992		Name	a796e9cb0c48	Nébuleuse	lot talents_003
 sort	300994		Description	73b0858335dc	Réduit de $s1 le coût en énergie de |cffffffffFrappe céleste|r et de |cffffffffFlèche lunaire|r.	lot talents_003
 sort	300994		Name	a64357b34557	Projection astrale	lot talents_003
-sort	300994		ToolTip	3b2105a1b8de	Confère à vos attaques automatiques en mêlée et à distance $h% de chances d'appliquer |cff66ccffScattered Stars|r.@s:804378@	lot talents_003
+sort	300994		ToolTip	3b2105a1b8de	Confère à vos attaques automatiques en mêlée et à distance $h% de chances d'appliquer des |cff66ccffÉtoiles éparpillées|r.@s:804378@	lot talents_003
 sort	300995		Description	0353e308f3ce	Augmente de $s1% le bonus de soins appliqué à |cFFFFFFFFÉclaboussure de puits de lune|r et à |cFFFFFFFFFlot d'argent|r, ainsi que les soins prodigués par |cFFFFFFFFAspect de la déesse|r.	lot talents_003
 sort	300995		Name	b84eb7387b92	Guide des phases	lot talents_003
 sort	301008		Description	02893cbed5f5	Augmente la durée de |cffffffffSuppression psychique|r de $/1000;s1 sec. et celle de |cffffffffDévastation surnaturelle|r de $/1000;s2 sec.	lot talents_003

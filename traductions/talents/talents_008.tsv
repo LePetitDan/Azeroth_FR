@@ -73,7 +73,7 @@ sort	520015		Description	a069b09e1c52	|cffffffffParchemin de magie|r augmente d�
 sort	520015		Name	58e67dbef2db	Maître des glyphes	lot talents_008
 sort	520017		Description	1126baeaad4d	|cffffffffLame d'argent|r a désormais $h% de chances de frapper une fois de plus.	lot talents_008
 sort	520017		Name	455f08dee0d9	Écho de la Lumière	lot talents_008
-sort	520019		Description	dbdceec1cef4	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Ember|r\r\nCrée un pyroclasme qui consomme instantanément vos effets |cffff4500En feu|r sur une cible pour infliger deux fois le total des dégâts périodiques, plus ${$PL*35} à ${$PL*35+$PL*2} points de dégâts supplémentaires en $520826d, en traversant les effets d'absorption et les résistances.	lot talents_008
+sort	520019		Description	dbdceec1cef4	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Braise|r\r\nCrée un pyroclasme qui consomme instantanément vos effets |cffff4500En feu|r sur une cible pour infliger deux fois le total des dégâts périodiques, plus ${$PL*35} à ${$PL*35+$PL*2} points de dégâts supplémentaires en $520826d, en traversant les effets d'absorption et les résistances.	lot talents_008
 sort	520019		Name	3b86a291608a	Pyroclasme	lot talents_008
 sort	520022		Description	05343c2f2706	|cffffffffTir de ferraille|r et les techniques de |cFFFFFFFFMéca-armure|r confèrent désormais à votre |CffffffffTourelle de garde|R une charge de |CffffffffMaître technicien|r, cumulable $578323u fois.\r\n\r\nÀ $578323u charges, votre |cffffffffTourelle de garde|r déchaîne un rayon qui inflige ${$578335m1+$578335ppl1+$spfi*.75+$AP*.4} points de dégâts de Feu sur une ligne de $578335a1 mètres, en traversant les invulnérabilités.	lot talents_008
 sort	520022		Name	095a4df28ff7	Maître technicien	lot talents_008
@@ -91,7 +91,7 @@ sort	520045		Name	56e41be52c9a	Convergence de l'infini	lot talents_008
 sort	520045		ToolTip	f035099506f7	Augmente de ${$w2}% les soins prodigués par votre |cffffffffProtecteur de bronze|r et réduit de ${$w3}% les dégâts qu'il subit.	lot talents_008
 sort	520054		Description	0bb01609446a	Augmente vos chances de coup critique de $520768s1% pendant $520768d après avoir quitté |cffffffffVoile runique|r.	lot talents_008
 sort	520054		Name	55e271f5be80	Primordialisme	lot talents_008
-sort	520056		Description	e24bb800b388	Les coups critiques de |cffffffffComplainte|r génèrent désormais 10 points de puissance runique.\r\n\r\nLes coups critiques de |cffffffffMeurtre|r génèrent désormais 1 |cff5ee2ffReaped Soul|r supplémentaire.	lot talents_008
+sort	520056		Description	e24bb800b388	Les coups critiques de |cffffffffComplainte|r génèrent désormais 10 points de puissance runique.\r\n\r\nLes coups critiques de |cffffffffMeurtre|r génèrent désormais 1 |cff5ee2ffÂme moissonnée|r supplémentaire.	lot talents_008
 sort	520056		Name	62c032d181c9	Générateur d'âmes	lot talents_008
 sort	520056		ToolTip	b79a392ee43f	Augmente de ${$w1}% les dégâts infligés par |cFFFFFFFFComplainte|r.	lot talents_008
 sort	520062		Description	1558cae2fc46	Épuise votre rage pour tirer un puissant carreau qui inflige $s1% des dégâts de l'arme plus ${$m2+$ppl1} points de dégâts du Crépuscule, et convertit chaque point de rage en dégâts supplémentaires.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_008
@@ -164,7 +164,7 @@ sort	520217		Name	d082ef9501b9	Damnation	lot talents_008
 sort	520218		Description	1283e545923e	S'élance dans les airs, ce qui inflige $520220s3 points de dégâts de Feu, fait reculer les ennemis à moins de $520220a1 mètres et les hébète pendant $/1000;520868s1 sec.\r\n\r\nÀ l'atterrissage, inflige $520219s2 points de dégâts de Feu, fait reculer les ennemis à moins de $520219a1 mètres et les hébète pendant $/1000;520868s1 sec.	lot talents_008
 sort	520218		Name	a3cbcb8e06ca	Cataclysme	lot talents_008
 sort	520218		ToolTip	0c1f657f78b5	À l'atterrissage, inflige $520219s2 points de dégâts de Feu et fait reculer les ennemis à moins de $520219a1 mètres.	lot talents_008
-sort	520227		Description	c26ad26b8539	|cff8fff7aGénère 2 Advantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
+sort	520227		Description	c26ad26b8539	|cff8fff7aGénère 2 charges d'Avantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
 sort	520227		Name	fc93d7fceead	Tir fatal	lot talents_008
 sort	520229		Description	40e4934f677e	Devient dur comme la pierre, ce qui réduit vos dégâts physiques subis de $s1% pendant $d.\r\n\r\nUtilisable sous l'effet d'un étourdissement.	lot talents_008
 sort	520229		Name	8449ff3d11ac	Résolution de granit	lot talents_008
@@ -223,7 +223,7 @@ sort	520371		Description	62c024df91e7	Augmente de $s1% tous les dégâts inflig�
 sort	520371		Name	e6ce444eb31f	Présence de la mort	lot talents_008
 sort	520372		Description	bfcd958238cc	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, vos coups critiques physiques augmentent désormais de $520542s1% les dégâts physiques subis par la cible pendant $520542d.	lot talents_008
 sort	520372		Name	e06f72719bd4	Volonté du conquérant	lot talents_008
-sort	520381		Description	bfec302a155e	Générer des points de |cffff7f7fHeat|r réduit désormais de $520824s1% le temps de recharge d'|cffffffffInvocation draconique|r et d'|cffffffffEssence de Malygos|r. \r\n\r\nCet effet ne peut se produire qu'une fois par seconde.	lot talents_008
+sort	520381		Description	bfec302a155e	Générer des points de |cffff7f7fChaleur|r réduit désormais de $520824s1% le temps de recharge d'|cffffffffInvocation draconique|r et d'|cffffffffEssence de Malygos|r. \r\n\r\nCet effet ne peut se produire qu'une fois par seconde.	lot talents_008
 sort	520381		Name	d4da88d279dd	Magie noire	lot talents_008
 sort	520386		Description	ba9794c6f2d3	Vos attaques à la baguette réduisent désormais la puissance d'attaque de l'ennemi de ${-($300157m1+$300157ppl1)} pendant $300157d.	lot talents_008
 sort	520386		Name	f1cb45212f3d	Érosion des armements	lot talents_008
@@ -347,13 +347,13 @@ sort	572897		Description	ef1d9aa1fd9e	Déchaîne une puissante vague de sang, ce
 sort	572897		Name	8affa8effd70	Crève-cœur	lot talents_008
 sort	572898		Description	ef1d9aa1fd9e	Déchaîne une puissante vague de sang, ce qui inflige ${$m1+0+$sps*0.5+$spi*1} points de dégâts d'Ombre à un ennemi et rend ${$m3+0+$BH*.3+$spi*1} points de vie à $520315i alliés à moins de $520315a1 mètres de la cible.\r\n\r\n|cFFE53935Surpuissant|r : augmente de $s2 la puissance d'attaque ou la puissance des sorts des membres de votre groupe et de votre raid pendant $807563d, plus ${$807687m1+$807687ppl1} supplémentaires pour vous, selon le niveau.	lot talents_008
 sort	572898		Name	8affa8effd70	Crève-cœur	lot talents_008
-sort	573243		Description	c26ad26b8539	|cff8fff7aGénère 2 Advantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
+sort	573243		Description	c26ad26b8539	|cff8fff7aGénère 2 charges d'Avantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
 sort	573243		Name	fc93d7fceead	Tir fatal	lot talents_008
-sort	573244		Description	c26ad26b8539	|cff8fff7aGénère 2 Advantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
+sort	573244		Description	c26ad26b8539	|cff8fff7aGénère 2 charges d'Avantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
 sort	573244		Name	fc93d7fceead	Tir fatal	lot talents_008
-sort	573245		Description	c26ad26b8539	|cff8fff7aGénère 2 Advantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
+sort	573245		Description	c26ad26b8539	|cff8fff7aGénère 2 charges d'Avantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
 sort	573245		Name	fc93d7fceead	Tir fatal	lot talents_008
-sort	573246		Description	c26ad26b8539	|cff8fff7aGénère 2 Advantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
+sort	573246		Description	c26ad26b8539	|cff8fff7aGénère 2 charges d'Avantage|r\r\nTire une puissante flèche sur la cible, ce qui inflige $s2% des dégâts de l'arme à distance plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 20% de ses points de vie.	lot talents_008
 sort	573246		Name	fc93d7fceead	Tir fatal	lot talents_008
 sort	574319		Description	4f701d688485	Déchaîne une série de tirs dévastateurs qui infligent ${($d*1000/$T1)*($m1+0+$RAP*0.15)} points de dégâts physiques en $d.	lot talents_008
 sort	574319		Name	365f6f755e0c	Plaie-des-sorcières	lot talents_008
