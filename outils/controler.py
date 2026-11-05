@@ -115,7 +115,7 @@ def main():
                 total[etat] += 1
                 if not l[K.I_FR] and etat not in K.ETATS_AFFICHES:
                     continue
-                refus = C.controle(l[K.I_EN], l[K.I_FR], etat, regles, noms, l[K.I_TYPE])
+                refus = C.controle(l[K.I_EN], l[K.I_FR], etat, regles, noms, l[K.I_TYPE], l[K.I_ID])
                 if l[K.I_SRC] == MO.SOURCE and etat == 'machine':
                     refus += modeles.controle(l[K.I_EN], l[K.I_FR])
                 if not refus:

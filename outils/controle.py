@@ -290,17 +290,26 @@ def controle_interface(en, fr):
     return r
 
 
-def controle(en, fr, etat='machine', regles=(), noms=None, type_=None):
+# Add-on 0.5 : DRAPEAUX d'interface (« 0 » / « 1 ») dont le francais officiel differe de l'anglais et que le code du client
+# CoA compare (Blizzard_CombatLog.lua de patch-B : COMBAT_LOG_UNIT_YOU_ENABLED == "1"). Sur ces cles seulement, et
+# seulement de « 0 » a « 1 » ou l'inverse, l'ecart de nombre n'est pas un refus. Toute autre cle reste au controle strict.
+DRAPEAUX_INTERFACE = {'COMBAT_LOG_UNIT_YOU_ENABLED'}
+
+
+def controle(en, fr, etat='machine', regles=(), noms=None, type_=None, cle=None):
     """Renvoie la liste des raisons de refus (vide = accepte).
 
     - etat officiel : controles de structure seulement (la regle-mere : l'officiel gagne), en mode souple : les
       ecarts de mise en forme ($B, retours a la ligne, espaces) d'un texte officiel sont acceptes (donnees 0.2) ;
     - etats machine, relu, a_revoir : structure + glossaire + noms officiels ;
     - a_traduire / technique sans francais : rien a controler ;
-    - type `chaine_interface` : en plus, le controle strict de controle_interface().
+    - type `chaine_interface` : en plus, le controle strict de controle_interface() ;
+    - cle (add-on 0.5) : le nom de la cle d'interface ; seuls les drapeaux de DRAPEAUX_INTERFACE passent de « 1 » a « 0 ».
     """
     if not fr or not fr.strip():
         return ['vide'] if etat in K.ETATS_AFFICHES else []
+    if type_ in TYPES_INTERFACE and cle in DRAPEAUX_INTERFACE and en in ('0', '1') and fr in ('0', '1'):
+        return []
     r = controle_structure(en, fr, souple=(etat == 'officiel' and type_ not in TYPES_INTERFACE))
     if type_ in TYPES_INTERFACE:
         r += controle_interface(en, fr)

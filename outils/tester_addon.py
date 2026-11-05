@@ -60,7 +60,7 @@ def lire(rel):
 
 
 def passe(l):
-    return l[K.I_ETAT] in K.ETATS_AFFICHES and not C.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], REGLES, NOMS, l[K.I_TYPE])
+    return l[K.I_ETAT] in K.ETATS_AFFICHES and not C.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], REGLES, NOMS, l[K.I_TYPE], l[K.I_ID])
 
 
 def minuscule1(s):

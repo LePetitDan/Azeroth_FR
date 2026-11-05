@@ -102,6 +102,20 @@ INTERFACE_MOTIFS_TECHNIQUES = [
     (re.compile(r'CONFIRM_STRING$'), 'mot à taper (comparé par le code)'),
     (re.compile(r'^UNITNAME_SUMMON_TITLE'), 'motif analysé par les add-ons de combat'),
 ]
+# Add-on 0.5 (essai 4, « Le coup Timber Wolf's touche… ») : formes du JOURNAL DE COMBAT. Ces cles seraient
+# « techniques » (sans mot, ou drapeau) ; elles prennent le francais officiel de Blizzard quand il differe de l'anglais
+# ET que le code du client CoA (patch-B, AddOns/Blizzard_CombatLog/Blizzard_CombatLog.lua, chargee a la demande)
+# s'en sert comme texte ou comme drapeau. Verifie le 05/11/2026 : toutes les autres cles techniques lues par ce
+# fichier (ACTION_*_POSSESSIVE « 0 »/« 1 », TEXT_MODE_A_STRING_2/3, …) ont un officiel identique a l'anglais ;
+# TEXT_MODE_A_STRING_POSSESSIVE_STRING (« 's » / « |2  ») differe mais n'est lu par aucun code du client.
+INTERFACE_JOURNAL_COMBAT = {
+    'TEXT_MODE_A_STRING_POSSESSIVE': 'possessif du journal de combat, Blizzard_CombatLog.lua (patch-B) l. 2926 et 2931 : '
+                                     'format(TEXT_MODE_A_STRING_POSSESSIVE, nom) ; « |2 » résolu par le client (essai 4)',
+    'TEXT_MODE_A_STRING_1': 'ordre des morceaux du journal de combat, Blizzard_CombatLog.lua (patch-B) l. 2206 et 2665 '
+                            '(formatString hors mode « texte complet »)',
+    'COMBAT_LOG_UNIT_YOU_ENABLED': 'drapeau du journal de combat, Blizzard_CombatLog.lua (patch-B) l. 1497 et 2901 '
+                                   '(comparé à "1" : « Vous » à la place du nom du joueur)',
+}
 _URL_OU_MAIL = re.compile(r'https?://|www\.|[\w.+-]+@[\w-]+\.[a-z]{2,}', re.I)
 _CHEMIN = re.compile(r'\.(?:ttf|blp|tga|mp3|wav|ogg|m2|txt)\b', re.I)
 
@@ -193,8 +207,8 @@ class Importeur:
         if famille:
             self.famille[k] = famille
 
-    def controle(self, en, fr, etat, type_=None):
-        return C.controle(en, fr, etat, self.regles, self.noms, type_)
+    def controle(self, en, fr, etat, type_=None, cle=None):
+        return C.controle(en, fr, etat, self.regles, self.noms, type_, cle)
 
     # ------------------------------------------------------------------
     # 1. Lignes relues existantes
@@ -870,6 +884,18 @@ class Importeur:
                 'propre_ascension_coa': 'texte propre à Ascension/CoA'}.get(r['anglais_standard_335'], r['anglais_standard_335']))
             l = ['chaine_interface', cle_v, sous, 'texte', en, K.empreinte(en), '', 'a_traduire', '', note]
             tech = technique_interface(cle_v, en)
+            if cle_v in INTERFACE_JOURNAL_COMBAT:
+                # add-on 0.5 : forme du journal de combat, officiel si l'anglais est celui de Blizzard et le francais differe
+                off = [o for o in self.off_interface.get(cle_v, []) if o[0] == 'GlobalStrings.lua' and o[1] == en
+                       and o[2] and o[2] != en]
+                if off and not self.controle(en, off[0][2], 'officiel', 'chaine_interface', cle_v):
+                    l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = off[0][2], 'officiel', 'blizzard_frFR'
+                    l[K.I_NOTE] = joindre(note, 'français officiel Blizzard (GlobalStrings.lua du client 3.3.5a frFR, '
+                                          'patch-frFR-3.MPQ), anglais identique à celui de Blizzard (patch-enUS-3) pour la '
+                                          'même clé', 'clé technique utilisée par le client : ' + INTERFACE_JOURNAL_COMBAT[cle_v])
+                    self.ajouter(l)
+                    self.cr['interface_officiel:journal_de_combat'] += 1
+                    continue
             if tech:
                 l[K.I_ETAT] = 'technique'
                 l[K.I_NOTE] = joindre(note, 'technique=' + tech)

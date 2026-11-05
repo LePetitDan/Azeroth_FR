@@ -80,6 +80,11 @@ FAUX = [
     ("Woodcutting Trainer", "Formateur en coupe de bois", 'glossaire:Woodcutting→Bûcheronnage'),
     ("Woodcutting Expert", "Expert en abattage de bois", 'glossaire:Woodcutting→Bûcheronnage'),
     ("Woodcutting", "Coupe du bois", 'glossaire:Woodcutting→Bûcheronnage'),
+    # Add-on 0.5 : decision n° 18 de Dan (04/11/2026), Bushcraft = Survie
+    ("Bushcraft Glider", "Planeur Bushcraft", 'glossaire:Bushcraft→Survie'),
+    ("Skill Card - Bushcraft", "Carte de compétence - Bushcraft", 'glossaire:Bushcraft→Survie'),
+    ("Rangers are capable of mastering the Bushcraft skill.", "Les rôdeurs sont capables de maîtriser la compétence Art de la survie.",
+     'glossaire:Bushcraft→Survie'),
 ]
 
 # VRAIS CAS : doivent passer
@@ -117,6 +122,9 @@ VRAIS = [
     ("Woodworking Gloves", "Gants de menuiserie"),
     ("Woodcutting Trainer", "Formateur en bûcheronnage"),
     ("Skeletal Woodcutter", "Bûcheron squelettique"),                                        # le bucheron (creature) : pas le metier
+    # Add-on 0.5
+    ("Skill Card - Bushcraft", "Carte de compétence - Survie"),
+    ("Survival Skills", "Techniques de survie"),                                              # « survie » sans Bushcraft : libre
 ]
 
 
@@ -135,6 +143,10 @@ FAUX_INTERFACE = [
     ("Sell Price", "Prix de vente ", 'interface:espaces_bords'),                                # espace ORDINAIRE ajoutee
     ("Sell Price", "\u00a0Prix de vente", 'interface:espaces_bords'),                          # insecable en tete
     ("Logs\\WoWChatLog.txt", "Journaux", 'interface:barres_obliques'),                          # chemin perdu
+    # Add-on 0.5 : un drapeau « 1 » -> « 0 » n'est permis que sur les cles de DRAPEAUX_INTERFACE (journal de combat)
+    ("1", "0", 'nombres', 'ACTION_SWING_DAMAGE_POSSESSIVE'),
+    ("1", "0", 'nombres', None),
+    ("1", "oui", 'nombres', 'COMBAT_LOG_UNIT_YOU_ENABLED'),                                        # pas un drapeau
 ]
 # VRAIS CAS d'interface : doivent passer
 VRAIS_INTERFACE = [
@@ -145,19 +157,27 @@ VRAIS_INTERFACE = [
     ("Say: ", "Dire : "),
     ("Enter World", "Entrer dans le monde"),
     ("Sell Price", "Prix de vente\u00a0"),             # insecable finale : le client ajoute « : » (format("%s:", SELL_PRICE))
+    # Add-on 0.5 : formes du journal de combat (officiel Blizzard)
+    ("%s's", "|2 %s", 'TEXT_MODE_A_STRING_POSSESSIVE'),
+    ("%s %s %s %s %s. %s", "%1$s %3$s %2$s %4$s %5$s. %6$s", 'TEXT_MODE_A_STRING_1'),
+    ("1", "0", 'COMBAT_LOG_UNIT_YOU_ENABLED'),
 ]
 
 
 def tester_interface(regles, noms):
     bons = 0
-    for en, fr, attendu in FAUX_INTERFACE:
-        r = C.controle(en, fr, 'machine', regles, noms, 'chaine_interface')
+    for cas in FAUX_INTERFACE:
+        en, fr, attendu = cas[:3]
+        cle = cas[3] if len(cas) > 3 else None
+        r = C.controle(en, fr, 'machine', regles, noms, 'chaine_interface', cle)
         vu = attendu in r
         bons += vu
         print('%s  faux cas d\'interface refusé : %-30s -> %s' % ('OK' if vu else 'KO', attendu, ', '.join(r) or 'ACCEPTÉ !'))
     passes = 0
-    for en, fr in VRAIS_INTERFACE:
-        r = C.controle(en, fr, 'machine', regles, noms, 'chaine_interface')
+    for cas in VRAIS_INTERFACE:
+        en, fr = cas[:2]
+        cle = cas[2] if len(cas) > 2 else None
+        r = C.controle(en, fr, 'machine', regles, noms, 'chaine_interface', cle)
         passes += not r
         print('%s  vrai cas d\'interface accepté : %s' % ('OK' if not r else 'KO', fr if not r else '%s -> %s' % (fr, r)))
     # le controle strict ne s'applique qu'aux textes d'interface

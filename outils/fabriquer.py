@@ -587,7 +587,7 @@ class Fabrique:
                     if l[K.I_ETAT] not in K.ETATS_AFFICHES:
                         self.cpt[famille]['non_affichable_' + l[K.I_ETAT]] += 1
                         continue
-                    refus = C.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], self.regles, self.noms, l[K.I_TYPE])
+                    refus = C.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], self.regles, self.noms, l[K.I_TYPE], l[K.I_ID])
                     if refus:
                         self.cpt[famille]['refusee_controle_' + l[K.I_ETAT]] += 1
                         for r in set(x.split(':')[0] if x.startswith('nom_officiel') else x for x in refus):
