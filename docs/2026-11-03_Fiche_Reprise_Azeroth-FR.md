@@ -1,6 +1,19 @@
-# Fiche de reprise : Azeroth_FR (essai 4, add-on 0.4, installé chez Dan le 04/11 : en attente de ses captures)
+# Fiche de reprise : Azeroth_FR (add-on 0.5 prêt : essai 5 à installer chez Dan)
 
-*03/11/2026, mise à jour le 04/11 au soir après l'add-on 0.4. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+*03/11/2026, mise à jour le 05/11 après l'add-on 0.5. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Add-on 0.5 (05/11) : les retours de l'essai 4
+
+- **Essai 4** (captures de Dan du 05/11, `essais/2026-11-05_essai4/RESULTAT.md`) : **plus d'action bloquée** (diagnostic gardé), `|2` résolu par le client, races et classes au féminin, plaques, métiers, cible ; 13 points à corriger.
+- **Branche** `addon-0.5` (partie de `main` `2f1c733`), à fusionner après lecture. Zip `dist/Azeroth_FR-0.5.0.zip` (18,1 Mo, sha256 `c74c5530b5eec4cae22a5f4fc5f78f24fe87dc55c961a3a418d7ac01ced5e5a1`), 16 add-ons et `PTRXML` (11 895 textes). Banc **114 exemples, 251 vérifications**, plus `PTRXML`, l'écran de création et le journal de combat : conforme. Deux imports identiques ; contrôle 0 bloquant ; test du contrôle 57/57, 33/33, interface 14/14, 9/9.
+- **Journal de combat** : 3 clés techniques passées en officiel (`TEXT_MODE_A_STRING_POSSESSIVE` « |2 %s », `TEXT_MODE_A_STRING_1`, `COMBAT_LOG_UNIT_YOU_ENABLED` « 0 ») ; « Le coup de Timber Wolf touche… ». **Noms des créatures et des sorts : en anglais**, aucune voie sûre à l'affichage (rapport § 1.3).
+- **Création** : nom de classe trop large → police réduite (≥ 70 %). « Maîtresses sorcières » pour un homme : **défaut du client CoA** (`GetFlavorText(…, "MALE")` lit toujours la clé féminine dans l'infobulle du bouton) ; nos textes sont justes ; **question 19** pour Dan.
+- **En-têtes des PNJ** (marchand, banque, taxi, tabard, maître de classe) ; **pierre de foyer** (le `$z` affiché n'est pas `GetBindLocation()` : suites de mots à majuscule essayées) ; **objectifs d'objets** (table `NOQ`, 4 820 noms d'objets de quêtes sans ambiguïté, collecte `quetes_objets_requis.csv.xz`) ; **infobulle des points de quête** de la carte ; **mémoire de `/azfr stats`** (le client CoA bloque la mesure : repli approché, dit comme tel).
+- **Données** : décision 18 appliquée (« Survie », 6 lignes relues, règle de contrôle) ; « Sturdy Throwing Knife » sans nom officiel (reste en anglais).
+- **Annonces du serveur** (épreuves, file des champs de bataille, zones de test) : origine trouvée, ~1 journée de travail estimée, rien codé (rapport § 10).
+- **Notice** : `docs/ESSAI5_installer.md` (supprimer les 16 dossiers et `PTRXML` de l'essai 4 ; parcours dans Comté-du-Nord en 16 points, dont ce qui n'a jamais été vérifié). **Rapport** : `docs/2026-11-05_Rapport_Addon-0.5.md`.
+- **Prochaine étape** : installer l'essai 5 (accord de Dan), puis ses captures et `essais/…_essai5/RESULTAT.md`.
+
 
 ## Essai 4 installé (04/11, soir)
 

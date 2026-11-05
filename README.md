@@ -6,7 +6,7 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 
 > **Dépôt privé** jusqu'à une version fonctionnelle et testée, puis public.
 
-## État (04/11/2026, soir)
+## État (05/11/2026)
 
 - ✅ **Collecte terminée** : textes du serveur CoA Core, archive AscensionFR, croisement des deux, AscensionDB, site coa-development.org. Voir `docs/`.
 - ✅ **Premier contact avec l'équipe CoA Core** : ils étudient une prise en charge multilingue et accueillent le projet favorablement.
@@ -21,7 +21,9 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 - ✅ **Données 0.4** (04/11/2026, branche `donnees-0.4`) : décisions de vocabulaire 12 à 14 appliquées. Étiquettes Fabuleux, Supérieur, Raffiné, Chef-d'œuvre, Prestigieux, Sanguin, Boss mondial héroïque, « Raid : Naxxramas - N joueurs » (11 101 étiquettes d'objets de plus en français) ; « Tier N » en anglais ; 5 476 noms d'enchantements CoA par le **modèle officiel** de Blizzard (`outils/modele_officiel.py`, recalculé par le contrôle) ; 9 hauts faits « L'épreuve du croisé ». Contrôle 0 bloquant, banc 152/152. Rapport : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
 - ✅ **Essai 3 testé en jeu par Dan** (`essais/2026-11-04_essai3/RESULTAT.md`) : minicarte, titre homonyme, centre de l'écran, étiquettes, « Équipé : » corrigés ; une **action bloquée** en combat ; décisions 15 à 17 (Menuiserie, Bûcheronnage, classes au féminin).
 - ✅ **Add-on 0.4.0** (04/11/2026, branche `addon-0.4`) : diagnostic des actions bloquées (`/azfr stats`, `/azfr erreurs`, interrupteurs `/azfr bulles|centre|plaques on|off`), rien de redimensionné en combat ; marchand, butin, panneau des quêtes de la carte, pierre de foyer, plaques de nom, écran de création de personnage (races et classes, au féminin), métiers, barre d'incantation, hauts faits, gemmes CoA sur plusieurs lignes ; règle de contrôle « nombre seul ». Rapport : `docs/2026-11-04_Rapport_Addon-0.4.md` ; notice : `docs/ESSAI4_installer.md`.
-- ⏳ **Dan** : tester l'essai 4, installé le 04/11 (16 vérifications, l'action bloquée d'abord). Questions de `glossaire/A_TRANCHER.md` : 11h, 11j, 11l, 11m, 12a, 12b ; 18 tranchée (« Survie »), à appliquer.
+- ✅ **Essai 4 testé en jeu par Dan** (`essais/2026-11-05_essai4/RESULTAT.md`) : plus d'action bloquée, `|2` résolu par le client, races et classes au féminin, plaques, métiers ; 13 points à corriger.
+- ✅ **Add-on 0.5.0** (05/11/2026, branche `addon-0.5`) : journal de combat à la grammaire officielle (« Le coup de Timber Wolf… » ; les noms restent en anglais : pas de voie sûre), noms de classes trop longs réduits à la création, en-têtes des PNJ (marchand, banque, taxi, tabard, maître de classe), pierre de foyer (cause trouvée), objectifs d'objets (« 0/8 Masque rouge », table de 4 820 noms d'objets de quêtes) et infobulle des points de quête de la carte, mémoire de `/azfr stats`, Bushcraft = « Survie ». Zip 18,1 Mo ; banc 114 exemples, 251 vérifications ; contrôle 0 bloquant. Rapport : `docs/2026-11-05_Rapport_Addon-0.5.md` ; notice : `docs/ESSAI5_installer.md`.
+- ⏳ **Dan** : installer et tester l'essai 5 (parcours dans Comté-du-Nord). Questions de `glossaire/A_TRANCHER.md` : 11h, 11j, 11l, 11m, 12a, 12b, **19** (description de classe : le client lit toujours la clé féminine).
 
 ## Organisation
 
@@ -46,13 +48,14 @@ Le projet reconstruit proprement **AscensionFR**, l'add-on de traduction de LePe
 | Commande | Effet |
 |---|---|
 | `sh collecte/scripts/officiel_frFR/lancer.sh` | Relit les sources officielles frFR (Blizzard), l'anglais du client CoA et la base TrinityCore (~5 min) |
-| `python3 -I outils/importer.py` | Reconstruit `textes/` depuis `collecte/` (~2 min 30) |
+| `python3 -I outils/importer.py` | Reconstruit `textes/` depuis `collecte/` (~4 min) |
 | `python3 -I outils/controler.py` | Contrôle d'entrée de toute la source, rapport dans `work/etape1/` (~2 min) |
-| `python3 -I outils/test_controler.py` | Vérifie que le contrôle refuse bien ses faux cas (54, + 11 d'interface, + 5 quêtes de Cataclysm, + 9 du modèle officiel) et accepte les vrais |
+| `python3 -I outils/test_controler.py` | Vérifie que le contrôle refuse bien ses faux cas (57, + 14 d'interface, + 5 quêtes de Cataclysm, + 9 du modèle officiel) et accepte les vrais |
 | `python3 -I outils/stats.py` | Avancement par famille et par état |
 | `python3 -I outils/noms_officiels.py` | Reconstruit `glossaire/noms_officiels.tsv` |
 | `python3 -I outils/fabriquer.py` | Fabrique l'add-on et le paquet PTRXML dans `dist/` (~2 min, Lua 5.1 nécessaire pour la vérification) |
-| `python3 -I outils/tester_addon.py` | Banc d'essai hors jeu de l'add-on fabriqué (~45 s), résultat dans `work/addon04/` |
+| `python3 -I outils/tester_addon.py` | Banc d'essai hors jeu de l'add-on fabriqué (~50 s), résultat dans `work/addon05/` |
+| `python3 -I collecte/scripts/coa-core/export_objets_quetes.py <sortie.csv>` | Objets demandés par les quêtes (base CoA reconstruite, numéros seulement), pour les objectifs d'objets |
 
 ## Principes
 

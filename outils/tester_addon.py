@@ -1282,7 +1282,7 @@ def tester_creation(lua, out):
         verifs.append('LIGNE.kids[%d].Text.largeur = 104' % i)
     verifs.append('assert((AzerothFR_Interface.creation_reduits or 0) > 0, "compte des noms réduits")')
     # (0.5) description de la classe dans l'infobulle du bouton : le client appelle GetFlavorText("CLASS_X", "MALE") ;
-    # "MALE" n'est pas SEX_MALE (2) : il lit TOUJOURS la cle feminine d'abord (CharacterCreate.lua l. 2994)
+    # "MALE" n'est pas SEX_MALE (2) : il lit TOUJOURS la cle feminine d'abord (CharacterCreate.lua l. 2995)
     if len(fl) == 2 and all(passe(l) for l in fl.values()):
         fm, ff = fl['CLASS_STORMBRINGER'][K.I_FR], fl['CLASS_STORMBRINGER_FEMALE'][K.I_FR]
         verifs.append('assert(GetFlavorText("CLASS_STORMBRINGER", "MALE") == %s, "infobulle du bouton : clé féminine lue même pour un homme")'

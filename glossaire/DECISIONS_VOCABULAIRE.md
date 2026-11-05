@@ -21,6 +21,8 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 
 > **Points 11 à 14 appliqués** : 11 dans l'add-on 0.3 ; 12 à 14 dans les données 0.4 (`glossaire/etiquettes.tsv`, `outils/modele_officiel.py`). Bilan : `docs/2026-11-04_Rapport_Donnees-0.4.md`.
 >
+> **Point 18 appliqué** (add-on 0.5) : voir la ligne 18 et `docs/2026-11-05_Rapport_Addon-0.5.md`.
+>
 > **Points 15 à 17 appliqués** (add-on 0.4) : compétences 757 et 732, sort 13977860 en `relu` ; règles « Woodworking→Menuiserie » et « Woodcutting→Bûcheronnage » (`regles_controle.tsv`), 11 corrections sûres (`corrections_sures.tsv`) ; 22 formes féminines des classes (`outils/importer.py`, `CLASSES_COA_F`). Bilan : `docs/2026-11-04_Rapport_Addon-0.4.md`.
 
 | # | Anglais | Décision de Dan | Ce que ça implique |
@@ -32,4 +34,4 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 | 15 | *Woodworking* (métier CoA) | **Menuiserie** | Choix de Dan (plutôt que « Travail du bois ») |
 | 16 | *Woodcutting* (métier de récolte CoA) | **Bûcheronnage** | « Coupe du bois » de l'ancien projet repasse à « Bûcheronnage » |
 | 17 | Classes CoA au féminin | **accorder**, comme Blizzard (Guerrière, Chasseresse) | Formes appliquées : Héroïne, Féticheuse, Chasseuse de sorcières, Gardienne, Templière, Rôdeuse, Chronomancienne, Nécromancienne, Pyromancienne, Bricoleuse, Vénomancienne, Faucheuse, Maîtresse des runes. Invariables : Barbare, Gangrelige, Porte-tempête, Mage de sang, Cultiste, Mande-étoiles, Clerc du soleil, Primaliste ; Chevalier de Xoroth reste invariable comme l'officiel « Chevalier de la mort » du client 3.3.5 |
-| 18 | *Bushcraft* (métier CoA, compétence 505) | **Survie** | À appliquer dans la version suivante (l'essai 4 l'affiche encore en anglais) |
+| 18 | *Bushcraft* (métier CoA, compétence 505) | **Survie** | **Appliqué dans l'add-on 0.5** (05/11/2026) : compétence 505, sort 800267, deux cartes de compétence et `CLASS_RANGER(_FEMALE)` en `relu` ; règle de contrôle « Bushcraft→Survie » (« Planeur Bushcraft » passe à revoir) |

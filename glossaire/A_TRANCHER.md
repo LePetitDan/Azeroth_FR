@@ -6,7 +6,7 @@
 >
 > En attendant ta réponse, **tout ce qui suit reste en anglais** en jeu.
 
-*Mis à jour le 04/11/2026 (add-on 0.4 : question 18 ajoutée). Chaque chiffre vient d'un comptage dans `textes/` : « lignes » =
+*Mis à jour le 05/11/2026 (add-on 0.5 : question 19 ajoutée, 18 appliquée). Chaque chiffre vient d'un comptage dans `textes/` : « lignes » =
 descriptions d'objets qui portent l'étiquette ; « noms » = noms d'enchantements CoA.*
 
 **Pour répondre** : une lettre par ligne suffit (ex. « 11h A, 11j A, 11m A, 12a A, 12b B »).
@@ -23,7 +23,8 @@ descriptions d'objets qui portent l'étiquette ; « noms » = noms d'enchantemen
 | 11m | « Raid: The Obsidian Sanctum / Eye of Eternity - N Player », « Heroic Raid: Naxxramas - 10 Player » | 79 lignes | A : même modèle que Naxxramas |
 | 12a | Enchantements : 4 modèles que Blizzard traduit de deux façons | 1 390 noms | A : la forme majoritaire de Blizzard |
 | 12b | Enchantements : formes propres à CoA sans aucun modèle officiel | 1 697 bonus (7 formes) | B : traduire au chantier de traduction |
-| 18 | Métier CoA *Bushcraft* (livre des métiers, essai 3) | 1 nom (compétence 505) | à toi de choisir, voir plus bas |
+| 18 | ~~Métier CoA *Bushcraft*~~ : tranché le 04/11 (« Survie »), appliqué dans l'add-on 0.5 | — | — |
+| 19 | Description de classe dans l'infobulle des boutons de création (le client lit toujours la clé féminine) | 8 descriptions | C : signaler à l'équipe CoA Core |
 
 ---
 
@@ -128,3 +129,23 @@ propre à CoA (compétence 505 de `SkillLine.dbc`), sans nom chez Blizzard et sa
 | C. Garder « Bushcraft » en anglais | comme Worldforged |
 | D. Autre (à ta guise) | |
 
+
+## 19. Description de classe dans l'infobulle des boutons (création de personnage)
+
+> Posée le 05/11/2026 (add-on 0.5, essai 4 n° 3). **Rien n'est appliqué** tant que tu n'as pas choisi.
+
+À l'essai 4, en **Homme**, l'infobulle du bouton Porte-tempête disait « Les Porte-tempête sont des **maîtresses
+sorcières** ». Ce n'est pas une erreur de nos textes : le client CoA lit **toujours** la description féminine dans
+cette infobulle (`CharacterCreate.lua` de patch-B, l. 2995 : `GetFlavorText(…, "MALE")` au lieu du sexe choisi ; en
+anglais les deux textes sont identiques, personne ne l'a vu). La fiche de classe, elle, suit le sexe choisi.
+
+Huit descriptions féminines de la source sont accordées au féminin (Mande-étoiles ×2, Porte-tempête, Appelante des
+marées, Bricoleuse, Primaliste, Féticheuse, Chasseuse de sorcières) ; un homme les voit donc au féminin dans
+l'infobulle. Les 16 autres sont au masculin générique, comme Blizzard le fait pour ses propres classes (ses
+descriptions féminines sont identiques aux masculines).
+
+| Option | |
+|---|---|
+| A. Laisser ainsi | Un homme voit le féminin dans l'infobulle (8 classes) ; la fiche est juste |
+| B. Mettre les 8 descriptions féminines au masculin générique, comme Blizzard | Plus de féminin dans l'infobulle pour un homme ; une femme lit aussi le masculin générique dans sa fiche |
+| **C. Signaler le défaut à l'équipe CoA Core** (un mot à changer dans leur code), et laisser A en attendant | Recommandé : corrige la cause, rien à défaire chez nous |
