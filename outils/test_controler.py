@@ -3,6 +3,8 @@
 
 Usage : python3 -I outils/test_controler.py
 Chaque faux cas doit etre refuse avec la raison attendue ; chaque vrai cas doit passer.
+Atelier du 05/11/2026 : la couche des traductions de Claude (tester_couche) : empreinte perimee, ligne officielle,
+relue ou technique, variable perdue, nombre change, machine hors sorts et talents, cle absente : jamais appliques.
 Le format TSV (echappement, empreinte, cle en double) est teste aussi.
 Code de sortie : 0 si tout est conforme, 1 sinon.
 """
@@ -304,6 +306,111 @@ def tester_modele_officiel(regles, noms):
     return bons == len(FAUX_MODELE) and passes == len(VRAIS_MODELE) and nb
 
 
+def tester_couche(regles, noms):
+    """Atelier du 05/11/2026 : la couche des traductions de Claude (outils/couche.py), telle qu'importer.py la fusionne.
+    FAUX CAS (ne doivent jamais etre appliques) : empreinte perimee, ligne officielle, ligne relue, ligne technique,
+    variable perdue, machine d'une autre famille que les sorts et talents, cle absente. VRAIS CAS : a_traduire,
+    a_revoir, machine de l'archive sur un talent."""
+    import couche as CO
+
+    def ligne(t, i, champ, en, fr, etat, src=''):
+        return [t, i, '', champ, en, K.empreinte(en), fr, etat, src, 'note']
+
+    def entree(l, fr, emp=None):
+        return ('quetes', 'traductions/test/essai.tsv', list(l[:4]) + [emp or l[K.I_EMP], fr, 'lot essai'])
+
+    en_q = "Greetings, $N. Kill 8 kobolds."
+    cas = [   # (nom, ligne de textes/, francais de Claude, empreinte de la couche ou None, famille, verdict attendu)
+        ('empreinte périmée (anglais changé)', ligne('quete', '1', 'QuestDescription', en_q, '', 'a_traduire'),
+         "Salutations, $n. Tuez 8 kobolds.", K.empreinte("Greetings, $N. Kill 6 kobolds."), 'quetes', 'perimee'),
+        ('tentative sur une ligne officielle', ligne('quete', '2', 'QuestDescription', en_q, "Salutations, $n. Tuez 8 kobolds.",
+                                                     'officiel', 'blizzard_frFR'),
+         "Bonjour, $n. Tuez 8 kobolds.", None, 'quetes', 'non_eligible'),
+        ('tentative sur une ligne relue', ligne('quete', '3', 'QuestDescription', en_q, "Salutations, $n. Tuez 8 kobolds.",
+                                                'relu', 'relecture_dan'),
+         "Bonjour, $n. Tuez 8 kobolds.", None, 'quetes', 'non_eligible'),
+        ('tentative sur une ligne technique', ligne('quete', '4', 'LogTitle', '[PH] test', '', 'technique'),
+         "[PH] essai", None, 'quetes', 'non_eligible'),
+        ('variable perdue ($N)', ligne('quete', '5', 'QuestDescription', en_q, '', 'a_traduire'),
+         "Salutations. Tuez 8 kobolds.", None, 'quetes', 'refusee'),
+        ('nombre changé', ligne('quete', '6', 'QuestDescription', en_q, '', 'a_revoir', 'archive_ascensionfr'),
+         "Salutations, $n. Tuez 6 kobolds.", None, 'quetes', 'refusee'),
+        ('machine de l\'archive hors sorts et talents', ligne('objet', '7', 'name', 'Ancient Relic', 'Relique antique', 'machine',
+                                                             'archive_ascensionfr'),
+         "Relique ancienne", None, 'objets', 'non_eligible'),
+        ('vrai cas : a_traduire', ligne('quete', '8', 'QuestDescription', en_q, '', 'a_traduire'),
+         "Salutations, $n. Tuez 8 kobolds.", None, 'quetes', 'appliquee'),
+        ('vrai cas : a_revoir (proposition de l\'archive remplacée)', ligne('quete', '9', 'QuestDescription', en_q,
+                                                                           "Salut $n. Tue 8 kobolds.", 'a_revoir', 'archive_ascensionfr'),
+         "Salutations, $n. Tuez 8 kobolds.", None, 'quetes', 'appliquee'),
+        ('vrai cas : machine de l\'archive sur un talent', ligne('sort', '10', 'Name', 'Excessive Power', 'Pouvoir excessif',
+                                                               'machine', 'archive_ascensionfr'),
+         "Puissance excessive", None, 'talents', 'appliquee'),
+    ]
+    lignes, couche, famille = {}, {}, {}
+    for nom, l, fr, emp, fam, _ in cas:
+        k = tuple(l[:4])
+        lignes[k] = l
+        famille[k] = fam
+        couche[k] = entree(l, fr, emp)
+    couche[('quete', '999', '', 'LogTitle')] = ('quetes', 'traductions/test/essai.tsv',
+                                                ['quete', '999', '', 'LogTitle', K.empreinte('Lost'), 'Perdu', ''])
+    avant = {k: list(l) for k, l in lignes.items()}
+    cr, refus, perimees, orphelines = CO.appliquer(
+        lignes, lambda k, l: famille[k], couche,
+        lambda en, fr, typ, i: C.controle(en, fr, 'machine', regles, noms, typ, i))
+    refus_cles = {k: r for k, _, r, _, _ in refus}
+    perim_cles = {k for k, _ in perimees}
+    ok = True
+    for nom, l, fr, emp, fam, attendu in cas:
+        k = tuple(l[:4])
+        apres = lignes[k]
+        if attendu == 'appliquee':
+            vu = apres[K.I_ETAT] == 'machine' and apres[K.I_SRC] == CO.SOURCE and apres[K.I_FR] == fr
+        elif attendu == 'perimee':
+            vu = k in perim_cles and apres[K.I_ETAT] == 'a_revoir' and fr in apres[K.I_NOTE] and apres[K.I_SRC] != CO.SOURCE
+        elif attendu == 'non_eligible':
+            vu = k in refus_cles and apres == avant[k]
+        else:   # refusee : etat d'avant, refus nomme
+            vu = k in refus_cles and apres == avant[k] and refus_cles[k] != ['']
+        ok = ok and vu
+        print('%s  couche : %-48s -> %s' % ('OK' if vu else 'KO', nom, ', '.join(refus_cles.get(k, [])) or
+                                          ('à revoir, ancien français en note' if k in perim_cles else apres[K.I_ETAT])))
+    orph = [k for k, _ in orphelines] == [('quete', '999', '', 'LogTitle')]
+    print('%s  couche : clé absente de textes/ comptée orpheline, rien d\'écrit' % ('OK' if orph else 'KO'))
+    # deux fusions successives sur les memes lignes reconstruites donnent le meme resultat (import idempotent)
+    l2 = {k: list(l) for k, l in avant.items()}
+    l3 = {k: list(l) for k, l in avant.items()}
+    for x in (l2, l3):
+        CO.appliquer(x, lambda k, l: famille[k], couche, lambda en, fr, typ, i: C.controle(en, fr, 'machine', regles, noms, typ, i))
+    idem = l2 == l3 == lignes
+    print('%s  couche : deux fusions successives identiques' % ('OK' if idem else 'KO'))
+    # controles et typographie de l'atelier (outils/lots.py integrer)
+    import lots as LO
+    nb = ' '
+    norm_ok = (LO.normaliser("Hello!", "Bonjour !") == 'Bonjour' + nb + '!'
+               and LO.normaliser("It's", "C’est") == "C'est"
+               and LO.normaliser("A \"b\"", "Un « b »") == 'Un «' + nb + 'b' + nb + '»'
+               and LO.normaliser("Say: ", "Dire : ") == 'Dire' + nb + ': '
+               and LO.normaliser("Done.", " Fait. ") == 'Fait.')
+    print('%s  atelier : typographie posée par l\'outil (insécable, apostrophe droite, bords)' % ('OK' if norm_ok else 'KO'))
+    faux_atelier = [("Thanks, $N!", "Merci, $N!", 'atelier:typographie'),
+                    ("Line\r\nTwo", "Ligne\nDeux", 'atelier:retours_chariot'),
+                    ("$?s1[Yes][No]", "$?s1[Oui] Non", 'atelier:crochets'),
+                    ("One. Two.", "Un.  Deux.", 'atelier:double_espace')]
+    at_ok = True
+    for en, fr, attendu in faux_atelier:
+        r = LO.controle_strict(en, fr, 'quete')
+        vu = any(x.startswith(attendu) for x in r)
+        at_ok = at_ok and vu
+        print('%s  atelier : faux cas refusé : %-26s -> %s' % ('OK' if vu else 'KO', attendu, ', '.join(r) or 'ACCEPTÉ !'))
+    vrai = not LO.controle_strict("Thanks, $N! $gLad:Lass;?", "Merci, $N" + nb + "! $gmon gars:ma fille;" + nb + "?", 'quete')
+    print('%s  atelier : vrai cas accepté ($g et insécable)' % ('OK' if vrai else 'KO'))
+    tout = ok and orph and idem and norm_ok and at_ok and vrai
+    print('Couche : %d cas, %s' % (len(cas), 'conformes' if tout else 'NON CONFORMES'))
+    return tout
+
+
 def tester_format():
     """Echappement reversible, lecture/ecriture, detection d'une empreinte fausse et d'une cle en double."""
     ok = True
@@ -361,8 +468,9 @@ def main():
     inter = tester_interface(regles, noms)
     quetes = tester_quetes()
     modele = tester_modele_officiel(regles, noms)
+    couche = tester_couche(regles, noms)
     print('\nFaux cas refusés : %d/%d ; vrais cas acceptés : %d/%d' % (bons, len(FAUX), passes, len(VRAIS)))
-    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter and quetes and modele
+    tout = bons == len(FAUX) and passes == len(VRAIS) and off_ok and fmt and inter and quetes and modele and couche
     print('RÉSULTAT : %s' % ('conforme' if tout else 'NON CONFORME'))
     return 0 if tout else 1
 

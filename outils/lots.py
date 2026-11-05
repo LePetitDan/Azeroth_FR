@@ -428,12 +428,15 @@ class Aides:
                 if tete is None:
                     tete = {x: i for i, x in enumerate(c)}
                     continue
-                if c[tete['controle']] != 'oui':
-                    continue
                 en, fr = K.desechapper(c[tete['en']]), K.desechapper(c[tete['fr']])
+                controle = c[tete['controle']] == 'oui'
+                # controle « oui » (refuse s'il reste en anglais) ; plus, en indice, les lieux et les noms de plusieurs mots
+                # dont le francais differe (« Westfall » -> « Marche de l'Ouest », que le controle ne verifie pas)
+                if not controle and not (fr.lower() != en.lower() and (c[tete['categorie']] == 'lieu' or len(en.split()) >= 2)):
+                    continue
                 if en.split():
                     # le nom, ou son pluriel anglais en -s (« Defias Trappers », « Harvest Watchers »)
-                    self.noms[en.split()[0]].append((en, fr, re.compile(C.DEBUT + re.escape(en) + '(s?)' + C.FIN)))
+                    self.noms[en.split()[0]].append((en, fr, re.compile(C.DEBUT + re.escape(en) + '(s?)' + C.FIN), controle))
         self.termes = []
         p = os.path.join(K.GLOSSAIRE, 'termes_traduction.tsv')
         with open(p, encoding='utf-8') as f:
@@ -522,13 +525,15 @@ class Aides:
         nu = K.denuder(K.ETI.sub(' ', en))
         out, vus = [], set()
         for w in sorted(set(re.findall(r"[A-Z][A-Za-z'\-]+", nu))):
-            for n_en, n_fr, rx in self.noms.get(w, ()):
+            for n_en, n_fr, rx, controle in self.noms.get(w, ()):
                 m = rx.search(nu) if n_en not in vus else None
                 if m:
                     vus.add(n_en)
                     d = {'en': n_en, 'fr': n_fr}
                     if m.group(1):
                         d['vu_au_pluriel'] = True
+                    if not controle:
+                        d['non_controle'] = True
                     out.append(d)
         # le nom le plus long d'abord (« Marshal McBride » avant « McBride »)
         return sorted(out, key=lambda x: -len(x['en']))[:25]
@@ -627,6 +632,9 @@ def indices(lignes, anciennes):
         if not fr or fr in vus:
             continue
         vus.add(fr)
+        n, n_en = K.part_anglaise(fr)
+        if '&lt;' in fr or '&nbsp;' in fr or (n_en >= 2 and n_en * 2 > n) or K.norm(fr) == K.norm(l[K.I_EN]):
+            continue                          # « officiel » qui n'est pas du francais : aucun indice
         src, etat = l[K.I_SRC] or 'inconnue', l[K.I_ETAT]
         if src == 'blizzard_frFR' and etat == 'a_revoir':
             o = 'officiel_autre_anglais'        # officiel de Blizzard pour un AUTRE anglais (voir la note)
@@ -765,7 +773,25 @@ def lot_du_plan(plan, nom):
     return fam, debut, fin, d
 
 
+def mettre_de_cote(chemin):
+    """Un lot reextrait est renumerote : si une reponse <lot>.fr.jsonl existe deja, la paire (lot, reponse, cles) est
+    renommee <lot>.<horodatage>.* pour rester integrable (integrer --lot <lot>.<horodatage>.jsonl) sans jamais
+    melanger les numeros. Renvoie le nouveau nom de la reponse, ou ''."""
+    base = re.sub(r'\.jsonl$', '', chemin)
+    if not os.path.exists(base + '.fr.jsonl'):
+        return ''
+    h = time.strftime('%Y%m%d-%H%M%S')
+    for suf in ('.jsonl', '.fr.jsonl', '.cles.json', '.fr.refus.jsonl'):
+        if os.path.exists(base + suf):
+            os.replace(base + suf, '%s.%s%s' % (base, h, suf))
+    return '%s.%s.fr.jsonl' % (base, h)
+
+
 def ecrire_lot_jsonl(chemin, entete, entrees, F, aides):
+    ancien = mettre_de_cote(chemin)
+    if ancien:
+        print('ATTENTION : une réponse existait pour ce lot ; l\'ancienne paire est mise de côté : %s '
+              '(à intégrer avec --lot %s si elle n\'a pas été intégrée)' % (ancien, ancien.replace('.fr.jsonl', '.jsonl')))
     ctxs = Contextes(F)
     numeros = {}
     for n, e in enumerate(entrees, 1):
@@ -941,8 +967,8 @@ def controle_strict(en, fr, typ):
         r.append('atelier:retours_chariot (\\r\\n de l\'anglais à garder tels quels)')
     if (en.count('[') != fr.count('[') or en.count(']') != fr.count(']')) and typ not in C.TYPES_INTERFACE:
         r.append('atelier:crochets (mêmes [ ] que l\'anglais)')
-    sans_g = re.sub(r'\$[gGlL][^;$]*;|\|4[^;]*;', '', fr)
-    if _COLLE.search(K.denuder(sans_g)):
+    sans_g = re.sub(r'\$[gGlL][^;$]*;|\|4[^;]*;|\|H[^|]*\|h|https?://\S+', '', fr)
+    if _COLLE.search(sans_g):                     # texte brut : « $N! » est colle aussi
         r.append('atelier:typographie (espace avant « ! » et « ? »)')
     if '  ' in fr.replace('\n', ' ') and '  ' not in en:
         r.append('atelier:double_espace')
@@ -972,6 +998,7 @@ def cmd_integrer(args):
         raise SystemExit('Usage : lots.py integrer <reponse>.fr.jsonl [--lot <lot>.jsonl]')
     rep = pos[0]
     lot_p = opt(args, '--lot') or re.sub(r'\.fr\.jsonl$', '.jsonl', rep)
+    # recommande : chaque reponse porte l'empreinte du texte (copiee du lot) ; integrer la verifie
     if lot_p == rep or not os.path.exists(lot_p):
         raise SystemExit('ERREUR : lot d\'origine introuvable (%s) : --lot <lot>.jsonl' % lot_p)
     lot_l, err = lire_jsonl(lot_p)
@@ -1181,7 +1208,7 @@ def cmd_doutes(args):
                     L.append('| `%s` | %s | %s | %s |' % ('/'.join(k), p[5], p[6].replace('|', '¦'),
                                                          p[7][:160].replace('|', '¦').replace('\n', ' ')))
                 L.append('')
-    L.insert(4, 'Total : %d doutes, %d « garder l\'anglais ».\n' % (total['doute'], total['garder_anglais']))
+    L.insert(4, 'Total : %d doute(s), %d « garder l\'anglais ».\n' % (total['doute'], total['garder_anglais']))
     os.makedirs(TRAD, exist_ok=True)
     with open(os.path.join(TRAD, 'DOUTES.md'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(L) + '\n')

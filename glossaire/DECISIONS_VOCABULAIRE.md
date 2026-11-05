@@ -23,6 +23,8 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 >
 > **Point 18 appliqué** (add-on 0.5) : voir la ligne 18 et `docs/2026-11-05_Rapport_Addon-0.5.md`.
 >
+> **Point 19 appliqué** (atelier de traduction, 05/11/2026) : 9 descriptions `CLASS_*_FEMALE` au masculin générique, état `relu` (les 8 listées et Clerc du soleil). Bilan : `docs/2026-11-05_Rapport_Atelier-traduction.md`.
+>
 > **Points 15 à 17 appliqués** (add-on 0.4) : compétences 757 et 732, sort 13977860 en `relu` ; règles « Woodworking→Menuiserie » et « Woodcutting→Bûcheronnage » (`regles_controle.tsv`), 11 corrections sûres (`corrections_sures.tsv`) ; 22 formes féminines des classes (`outils/importer.py`, `CLASSES_COA_F`). Bilan : `docs/2026-11-04_Rapport_Addon-0.4.md`.
 
 | # | Anglais | Décision de Dan | Ce que ça implique |
@@ -35,4 +37,4 @@ Réponses de Dan aux 10 questions de `A_TRANCHER.md`, données par questionnaire
 | 16 | *Woodcutting* (métier de récolte CoA) | **Bûcheronnage** | « Coupe du bois » de l'ancien projet repasse à « Bûcheronnage » |
 | 17 | Classes CoA au féminin | **accorder**, comme Blizzard (Guerrière, Chasseresse) | Formes appliquées : Héroïne, Féticheuse, Chasseuse de sorcières, Gardienne, Templière, Rôdeuse, Chronomancienne, Nécromancienne, Pyromancienne, Bricoleuse, Vénomancienne, Faucheuse, Maîtresse des runes. Invariables : Barbare, Gangrelige, Porte-tempête, Mage de sang, Cultiste, Mande-étoiles, Clerc du soleil, Primaliste ; Chevalier de Xoroth reste invariable comme l'officiel « Chevalier de la mort » du client 3.3.5 |
 | 18 | *Bushcraft* (métier CoA, compétence 505) | **Survie** | **Appliqué dans l'add-on 0.5** (05/11/2026) : compétence 505, sort 800267, deux cartes de compétence et `CLASS_RANGER(_FEMALE)` en `relu` ; règle de contrôle « Bushcraft→Survie » (« Planeur Bushcraft » passe à revoir) |
-| 19 | Descriptions de classes `CLASS_*_FEMALE` (le client CoA les montre aussi aux hommes dans l'infobulle de création) | **tout au masculin générique**, comme Blizzard | Les 8 descriptions féminines accordées au féminin (Mande-étoiles ×2, Porte-tempête, Appelante des marées, Bricoleuse, Primaliste, Féticheuse, Chasseuse de sorcières) passent au masculin générique, en `relu` ; à appliquer dans la version suivante |
+| 19 | Descriptions de classes `CLASS_*_FEMALE` (le client CoA les montre aussi aux hommes dans l'infobulle de création) | **tout au masculin générique**, comme Blizzard | **Appliqué le 05/11/2026** (atelier de traduction) : les 8 descriptions féminines accordées au féminin (Mande-étoiles ×2, Porte-tempête, Appelante des marées, Bricoleuse, Primaliste, Féticheuse, Chasseuse de sorcières), plus Clerc du soleil (« leurs alliées »), reprennent le texte masculin (anglais identique), en `relu` |

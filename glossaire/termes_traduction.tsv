@@ -125,3 +125,15 @@ Ahn'kahet, the Old Kingdom		(anglais : question ouverte 11j)	A_TRANCHER 11j	Gard
 Raid: The Obsidian Sanctum	\b(?:Raid: The Obsidian Sanctum|Raid: Eye of Eternity|(?:Heroic|Mythic|Ascended) Raid: Naxxramas)\b	(anglais : question ouverte 11m)	A_TRANCHER 11m	Format d'étiquette « Raid: X - N Player » : garder l'anglais
 Hit Rating (enchantement)	^\+\d+ (?:Hit Rating|Mana|Health|to All Stats)$	(anglais : question ouverte 12a)	A_TRANCHER 12a	Nom d'enchantement CoA à deux formes officielles : garder l'anglais
 per 5 sec (enchantement)	^\+\d+ (?:Mana per 5 sec|Health per 5 sec|Spell Damage|Spell Healing|Shield Block Value)\b|^Increases \w+ spell power by \d+\.$	(anglais : question ouverte 12b)	A_TRANCHER 12b	Nom d'enchantement CoA sans modèle officiel : garder l'anglais
+Reaped Soul	\bReaped Souls?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision : laisser l'anglais dans la phrase, noter un doute (une fois)
+Ember	\bEmbers?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision (vérifier que ce n'est pas un nom de sort ou de PNJ)
+Insanity	\bInsanity\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision
+Heat	\bHeat\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision
+Brood Mark	\bBrood Marks?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Marque CoA sans décision
+Scattered Star	\bScattered Stars?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision
+Advantage	\bAdvantage\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision (avec majuscule seulement)
+Scrap	\bScrap\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision (avec majuscule seulement)
+Motivation	\bMotivation\b	(anglais : question ouverte 20)	A_TRANCHER 20	Mécanique CoA sans décision
+Thirst	\bThirst(?: Stacks?)?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Mécanique CoA sans décision
+Soul Fragment	\bSoul Fragments?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision
+Void Rune	\bVoid Runes?\b	(anglais : question ouverte 20)	A_TRANCHER 20	Ressource CoA sans décision

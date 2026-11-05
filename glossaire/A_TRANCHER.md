@@ -6,7 +6,7 @@
 >
 > En attendant ta réponse, **tout ce qui suit reste en anglais** en jeu.
 
-*Mis à jour le 05/11/2026 (add-on 0.5 : question 19 ajoutée, 18 appliquée). Chaque chiffre vient d'un comptage dans `textes/` : « lignes » =
+*Mis à jour le 05/11/2026 (add-on 0.5 : question 19 ajoutée, 18 appliquée ; atelier de traduction : 19 appliquée). Chaque chiffre vient d'un comptage dans `textes/` : « lignes » =
 descriptions d'objets qui portent l'étiquette ; « noms » = noms d'enchantements CoA.*
 
 **Pour répondre** : une lettre par ligne suffit (ex. « 11h A, 11j A, 11m A, 12a A, 12b B »).
@@ -24,7 +24,8 @@ descriptions d'objets qui portent l'étiquette ; « noms » = noms d'enchantemen
 | 12a | Enchantements : 4 modèles que Blizzard traduit de deux façons | 1 390 noms | A : la forme majoritaire de Blizzard |
 | 12b | Enchantements : formes propres à CoA sans aucun modèle officiel | 1 697 bonus (7 formes) | B : traduire au chantier de traduction |
 | 18 | ~~Métier CoA *Bushcraft*~~ : tranché le 04/11 (« Survie »), appliqué dans l'add-on 0.5 | — | — |
-| 19 | Description de classe dans l'infobulle des boutons de création (le client lit toujours la clé féminine) | 8 descriptions | C : signaler à l'équipe CoA Core |
+| 19 | ~~Description de classe dans l'infobulle des boutons de création~~ : tranché le 05/11 (B, masculin générique), appliqué le 05/11 (9 descriptions) | — | — |
+| 20 | Ressources et mécaniques des classes CoA sans nom français (*Heat*, *Insanity*, *Ember*, *Reaped Souls*…) | ~400 textes de sorts et talents | une forme par terme ; en attendant, l'anglais reste dans la phrase |
 
 ---
 
@@ -133,6 +134,7 @@ propre à CoA (compétence 505 de `SkillLine.dbc`), sans nom chez Blizzard et sa
 ## 19. Description de classe dans l'infobulle des boutons (création de personnage)
 
 > **Tranché par Dan le 05/11/2026 : B, tout au masculin générique** (point 19 de `DECISIONS_VOCABULAIRE.md`).
+> **Appliqué le 05/11/2026** (atelier de traduction) : les 8 descriptions, plus Clerc du soleil (« leurs alliées »), en `relu`.
 
 > Posée le 05/11/2026 (add-on 0.5, essai 4 n° 3). **Rien n'est appliqué** tant que tu n'as pas choisi.
 
@@ -151,3 +153,36 @@ descriptions féminines sont identiques aux masculines).
 | A. Laisser ainsi | Un homme voit le féminin dans l'infobulle (8 classes) ; la fiche est juste |
 | B. Mettre les 8 descriptions féminines au masculin générique, comme Blizzard | Plus de féminin dans l'infobulle pour un homme ; une femme lit aussi le masculin générique dans sa fiche |
 | **C. Signaler le défaut à l'équipe CoA Core** (un mot à changer dans leur code), et laisser A en attendant | Recommandé : corrige la cause, rien à défaire chez nous |
+
+
+## 20. Ressources et mécaniques des classes CoA (atelier de traduction, 05/11/2026)
+
+> Posée le 05/11/2026. **Rien n'est appliqué** : en attendant, les agents laissent le terme en anglais dans la phrase
+> traduite (« Génère 50 Heat ») et le notent en doute ; une correction sûre le remplacera partout quand tu auras choisi.
+
+Termes comptés dans les sorts et talents à traduire (« Generates / Consumes / Applies / Requires N X ») :
+
+| Terme | Textes | Exemple | Piste (à ton choix) |
+|---|---:|---|---|
+| Reaped Soul(s) | 73 | « Generates 3 Reaped Souls » (Faucheur) | « Âme(s) moissonnée(s) » |
+| Ember | 48 | « Consumes 1 Ember » | « Braise » |
+| Insanity | 35 | « Generates 10 Insanity » | « Folie » |
+| Heat | 35 (+24 « Heat Per… ») | « Generates 50 Heat » | « Chaleur » |
+| Brood Mark(s) | 44 | « Applies 1 Brood Mark » | « Marque de la couvée » |
+| Scattered Star(s) | 46 | « Consumes Scattered Stars » | « Étoiles éparpillées » |
+| Advantage | 25 | « Generates 2 Advantage » | « Avantage » |
+| Scrap | 10 | « Generates 10 Scrap » | « Ferraille » |
+| Motivation | 9 | « Grants Motivation » | « Motivation » |
+| Thirst (Stacks) | 8 | « Expends Thirst Stacks » | « Soif » (« charges de Soif ») |
+| Soul Fragment(s) | 11 | « Generates 2 Soul Fragments » | « Fragment(s) d'âme » |
+| Void Rune(s) | 3 | « Consumes All Void Runes » | « Rune(s) du Vide » |
+
+Déjà tranchés et appliqués par les agents : *Static* = Statique, *Felfury* = Gangrefurie, *Demonfire* = Feu démoniaque,
+*Runic Power* = Puissance runique, *Rage*, *Focus* = Focalisation. Les formes (*Mortal Form*, *Spider Form*,
+*Line Formation*…) sont des noms de sorts : les agents les traduisent comme tout nom de sort.
+
+| Option | |
+|---|---|
+| A. Valider les pistes ci-dessus (ou les corriger terme par terme) | Les agents les emploient tout de suite ; une correction sûre remplace l'anglais déjà laissé |
+| B. Garder ces termes en anglais, comme Worldforged | Rien à faire |
+
