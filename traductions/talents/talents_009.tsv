@@ -1,0 +1,270 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	520539		Description	4da159530a44	Vos attaques en mêlée ont désormais $h% de chances de vous rendre des points de vie à hauteur de $s1% des dégâts infligés et d'augmenter de $524684s1% les dégâts de votre prochaine |cFFFFFFFFFrappe ancestrale|r.	lot talents_009
+sort	520539		Name	4e2693802066	Frappes revigorantes	lot talents_009
+sort	520546		Description	5ddc9919fe3c	Augmente votre hâte des sorts de $s1%.	lot talents_009
+sort	520546		Name	2f668c64aeab	Cracheur de flammes	lot talents_009
+sort	520548		Description	21355d7f74c6	Augmente vos dégâts magiques infligés de $s1% et votre pénétration d'armure de $s2%.	lot talents_009
+sort	520548		Name	9a70a2b377fd	Carreaux enchantés	lot talents_009
+sort	520574		Description	a832e00b92c4	Augmente vos chances de coup critique de $s1% et votre régénération de focalisation de $s2%.	lot talents_009
+sort	520574		Name	13ac96cad272	Banditisme	lot talents_009
+sort	520578		Description	446d931970d7	Déborde de vitalité, ce qui dissipe tous les effets nocifs qui vous affectent et augmente votre vitesse de déplacement de $s1% pendant $d.\r\n\r\nUtilisable sous camouflage.	lot talents_009
+sort	520578		Name	eda5f9630403	Poussée d'adrénaline	lot talents_009
+sort	520578		ToolTip	0a65d2019f40	Vitesse de déplacement augmentée de ${$w1}%	lot talents_009
+sort	520581		Description	2439e02d355e	Augmente de $s1% les dégâts critiques d'|cffffffffAttaque de flanc|r.	lot talents_009
+sort	520581		Name	14557f3876e7	Sans pitié	lot talents_009
+sort	520585		Description	e6096a83e935	Dissipe instantanément tous les effets de ralentissement des alliés à moins de $a1 mètres et les transforme en buisson, ce qui les camoufle pendant $524613d.	lot talents_009
+sort	520585		Name	0d29da51d24c	Déguisement naturel	lot talents_009
+sort	520585		ToolTip	5c03fc219663	$gCamouflé:Camouflée; et $gdéguisé:déguisée;.	lot talents_009
+sort	520586		Description	913083fe8644	|cFFFFFFFFFrappe du faucon|r et |cffffffffCri de bataille|r augmentent désormais votre vitesse de déplacement de $520597s1% pendant $520597d.	lot talents_009
+sort	520586		Name	a65ce1e8e4c3	Guide du faucon	lot talents_009
+sort	520590		Description	df78e69a24c6	|cffffffffDraine $521450s1% du maximum de mana|r\r\n|cffffffff2 charges, recharge de 18 sec.|r\r\n|cff66ccffConsomme les Scattered Stars|r\r\nTire sur votre cible et les ennemis proches d'elle, ce qui inflige les dégâts de l'arme à distance plus ${$POWER1*0.03+$spa*0.185+$562319m2} points de dégâts des Arcanes, selon votre maximum de mana.\r\n@s:804716:0@	lot talents_009
+sort	520590		Name	fc82a22e456d	Tir assuré	lot talents_009
+sort	520592		Description	331320b55bfb	Supprime le coût en énergie de votre |cffffffffPlaie-de-gangre|r et de votre |cffffffffBrûlure de mana|r, et votre |cffffffffBrûlure de mana|r frappe désormais 4 ennemis supplémentaires proches de la cible principale.	lot talents_009
+sort	520592		Name	5fc2f525d3d0	Faveur d'Illidan	lot talents_009
+sort	520593		Description	6bb2cdf86e65	Augmente de $s2% les dégâts de |cFFFFFFFFPlaie-des-sorcières|r et lui permet de toucher un ennemi proche supplémentaire.	lot talents_009
+sort	520608		Description	a99828130d5f	|cffffffffGuerrier de l'aube|r augmente désormais aussi de $s1% les dégâts et les chances de coup critique de votre prochaine |cffffffffLame d'argent|r.	lot talents_009
+sort	520608		Name	61f0795d04d5	Entraînement de défense contre le Fléau	lot talents_009
+sort	520615		Description	e86aa9bb505b	Augmente votre régénération de focalisation de $s1%.	lot talents_009
+sort	520621		Description	e679c73eb0c3	Vos |cffffffffFaucons de guerre|r et vos |cffffffffFaucons-dragons|r vous confèrent désormais une charge de |cffffffffCoordination|r quand ils infligent des dégâts.\r\n@s:520622:0@	lot talents_009
+sort	520621		Name	ffb26168922f	Coordination	lot talents_009
+sort	520621		ToolTip	f78fa7a09dd9	Les dégâts infligés confèrent 1 charge de Coordination au grand-marcheur.	lot talents_009
+sort	520628		Description	f17449701559	Libère jusqu'à $i alliés proches à moins de $a1 mètres de vous pendant $d : ils deviennent insensibles aux immobilisations et aux ralentissements, et leurs coups critiques augmentent leur vitesse de déplacement de $520629s1% pendant $520629d.	lot talents_009
+sort	520628		Name	51833174746e	Liberté	lot talents_009
+sort	520628		ToolTip	7f259958971a	Insensible aux immobilisations et aux ralentissements ; vos coups critiques augmentent votre vitesse de déplacement de $520629s1% pendant $520629d.	lot talents_009
+sort	520639		Description	3879faa07715	|cFFFF9800Aube|r confère désormais un effet supplémentaire selon votre spécialisation.$?s800586[@s:520641:0@][]$?s500207[@s:520644:0@][]$?s500209[@s:520645:0@][]$?s680627[@s:520646:0@][]	lot talents_009
+sort	520639		Name	56ba522125f8	Bénédiction de Nysoni	lot talents_009
+sort	520647		Description	9eb076dee75e	Place un cercle sacré de $a1 mètres à l'emplacement ciblé pendant $d. Les alliés qui se tiennent à l'intérieur reportent sur le lanceur $560347s1% de tous les dégâts qu'ils subissent et récupèrent ${$520648m1+$SP*0.425+$AP*0.125} points de vie toutes les $T1 sec.\r\n\r\n@ext:Les dégâts qui font passer le lanceur sous 10% de son maximum de points de vie mettent fin à l'effet.:ext@	lot talents_009
+sort	520647		Name	d89f6c3bc09f	Cercle de bravoure	lot talents_009
+sort	520647		ToolTip	d75a46982bf5	30% des dégâts subis sont reportés sur le clerc du soleil. Rend des points de vie toutes les $t1 sec.	lot talents_009
+sort	520650		Description	05c2a8f13887	Lancer |cFFFFFFFFBélier|r fait désormais infliger à vos 3 prochaines attaques en mêlée ${$520651m1+$AP*0.1} points de dégâts magiques supplémentaires pendant $520651d.	lot talents_009
+sort	520650		Name	9ae29b00619e	Réverbérations	lot talents_009
+sort	520670		Description	75cff7983e55	Votre prochain |cffffffffCarreau cherche-cœur|r lancé dans les $d inflige $s1% de dégâts supplémentaires et ne déclenche pas de temps de recharge.\r\n\r\nQuand cet effet est consommé, vous gagnez $524602s1% de vitesse de déplacement pendant $524602d.	lot talents_009
+sort	520670		Name	3dd6f7cbbcf3	Carreau et ruée	lot talents_009
+sort	520670		ToolTip	3b9992dd4b0b	Votre prochain |cffffffffCarreau cherche-cœur|r lancé dans les $d inflige ${$w1}% de dégâts supplémentaires et ne déclenche pas de temps de recharge.\r\n\r\nQuand cet effet est consommé, vous gagnez $524602s1% de vitesse de déplacement pendant $524602d.	lot talents_009
+sort	520682		Description	80dbe80bb944	Votre |cFFFFFFFFVoile ténébreux|r produit désormais son effet $s1% plus vite.	lot talents_009
+sort	520682		Name	a8c053e1c046	Récits de malheur	lot talents_009
+sort	520686		Description	99f3f87dbd6c	Votre |cffffffffMéca-armure : Combustion|r a désormais $s1% de chances de coup critique supplémentaires et $s2% de dégâts critiques supplémentaires.	lot talents_009
+sort	520686		Name	e7fa411e5ea2	Canons antiaériens	lot talents_009
+sort	520737		Description	3d05fdf331d8	|cffffffffDraine $521450s1% du maximum de mana|r\r\n|cffffffff2 charges, recharge de 18 sec.|r\r\n|cff66ccffConsomme les Scattered Stars|r\r\nTire sur votre cible et les ennemis proches d'elle, ce qui inflige les dégâts de l'arme à distance plus ${$POWER1*0.03+$spa*0.185+$562320m2} points de dégâts des Arcanes, selon votre maximum de mana.\r\n@s:804716:0@	lot talents_009
+sort	520737		Name	fc82a22e456d	Tir assuré	lot talents_009
+sort	520738		Description	7e452d70bc64	|cffffffffDraine $521450s1% du maximum de mana|r\r\n|cffffffff2 charges, recharge de 18 sec.|r\r\n|cff66ccffConsomme les Scattered Stars|r\r\nTire sur votre cible et les ennemis proches d'elle, ce qui inflige les dégâts de l'arme à distance plus ${$POWER1*0.03+$spa*0.185+$562321m2} points de dégâts des Arcanes, selon votre maximum de mana.\r\n@s:804716:0@	lot talents_009
+sort	520738		Name	fc82a22e456d	Tir assuré	lot talents_009
+sort	520739		Description	afc9ad2689ae	|cffffffffDraine $521450s1% du maximum de mana|r\r\n|cffffffff2 charges, recharge de 18 sec.|r\r\n|cff66ccffConsomme les Scattered Stars|r\r\nTire sur votre cible et les ennemis proches d'elle, ce qui inflige les dégâts de l'arme à distance plus ${$POWER1*0.03+$spa*0.185+$562322m2} points de dégâts des Arcanes, selon votre maximum de mana.\r\n@s:804716:0@	lot talents_009
+sort	520739		Name	fc82a22e456d	Tir assuré	lot talents_009
+sort	520753		Description	daece70d32cd	Génère instantanément 5 charges d'|cff8fff7aAdvantage|r et vous permet de voir les ennemis camouflés proches pendant $520791d.\r\n\r\nUtilisable sous camouflage.	lot talents_009
+sort	520753		Name	5209edc42ae7	Faux-semblant	lot talents_009
+sort	520753		ToolTip	0b3986a02196	Révèle les ennemis camouflés proches.	lot talents_009
+sort	520755		Description	4965cde94fd3	Réduit le temps de recharge de |cffffffffPoing des Anciens|r de $/1000;520757s1 sec. chaque fois que vous utilisez |cffffffffLame runique|r ou |cffffffffDéflagration primordiale|r.	lot talents_009
+sort	520755		Name	96b644f4a404	Guerrier ancien	lot talents_009
+sort	520770		Description	5ce82acf3773	Permet aux dégâts périodiques de |cffffffffBrasier|r d'être critiques.\r\n\r\nDe plus, les dégâts infligés par |cffffffffÉcho de Nozdormu|r ou |cffffffffAspect du temps|r ont désormais $h% de chances de garantir un coup critique à votre prochain |cffffffffBrasier|r lancé dans les $520927d et d'augmenter de $520927s2% ses dégâts critiques et de $520927s3% sa durée.	lot talents_009
+sort	520770		Name	6e121a0e3bf9	Aspect de l'éternité	lot talents_009
+sort	520780		Description	e56b39e7fa18	Réduit de $s1% la durée des effets de maladie.	lot talents_009
+sort	520780		Name	08e8fb616d52	Inversion de l'entropie	lot talents_009
+sort	520783		Description	d9123b633b5d	Tuer un ennemi qui rapporte de l'expérience ou de l'honneur invoque désormais un |cffffffffFaucon de guerre|r qui vous aide au combat pendant $807119d. Cet effet ne peut se produire qu'une fois toutes les 4 sec.	lot talents_009
+sort	520783		Name	2738b3a38cf3	Piqué du faucon	lot talents_009
+sort	520783		ToolTip	deba3e3f9c75	|cffffffffCri de bataille|r invoque désormais un |cffffffffFaucon de guerre|r qui vous aide au combat pendant $807119d.	lot talents_009
+sort	520800		Description	955dfdb4b8c4	Réduit le temps d'incantation de |cffffffffBaguette d'artificier|r de $/1000;S1 sec.	lot talents_009
+sort	520800		Name	36d7aa75384b	Échos de bronze	lot talents_009
+sort	520804		Description	4f5a8dac2d65	Réduit de $s1 le coût en focalisation de |cffffffffDard toxique|r.	lot talents_009
+sort	520804		Name	7309fc6bb4ba	Focalisation sanglante	lot talents_009
+sort	520805		Description	fac7d1058ada	Réduit de $s2 le coût en énergie de |cffffffffRuée chaotique|r, et lancer $?s520853[|cffffffffGangretorpille|r][|cFFFFFFFFRuée chaotique|r] vous rend désormais ${$520806m1+$520806ppl1+$STA*0.2+$AP*.33} points de vie.	lot talents_009
+sort	520805		Name	ef4b778fe5ef	Cicatrices du passé	lot talents_009
+sort	520809		Description	75adb9f61377	Réduit de 0,25 sec. le temps d'incantation de votre |cffffffffMéca-armure : Combustion|r et augmente ses dégâts de $s3%.	lot talents_009
+sort	520809		Name	0c83b2fd19ae	Canons turbo	lot talents_009
+sort	520810		Description	25982da6665d	Réduit le temps de recharge de |cffffffffVoile ténébreux|r de $/1000;s1 sec.	lot talents_009
+sort	520810		Name	8189da465c6f	Destin corrompu	lot talents_009
+sort	520811		Description	6af7a4eacfd1	Augmente de $s1% les dégâts de Feu que vous et vos invocations infligez.	lot talents_009
+sort	520811		Name	775abd4ce3b6	Fabricant de bombes	lot talents_009
+sort	520812		Description	38c0fd73c896	Une |cffffffffLame d'argent|r sur 2 vous confère désormais |cffffffffSerment : Rétribution|r.@s:804924:0@	lot talents_009
+sort	520812		Name	4cb0dd6c9138	Secrets écarlates	lot talents_009
+sort	520817		Description	ad2e81fb99cb	Votre |CffffffffDouble entaille|r et votre |cffffffffGangredéchirure|r ont désormais $h% de chances de générer 1 point de |cff32cd32Gangrefurie|r supplémentaire.	lot talents_009
+sort	520817		Name	a8db58aac8c8	Vengeance	lot talents_009
+sort	520831		Description	14f43a8f26db	Canaliser |cffffffffDécoupe|r jusqu'au bout vous rend désormais 1 point de |cff32cd32Gangrefurie|r.	lot talents_009
+sort	520831		Name	59df79076bb9	Rituels annihilans	lot talents_009
+sort	520831		ToolTip	08b5da3da67a	Puissance du seigneur des abîmes	lot talents_009
+sort	520833		Description	5d92ed316992	Les coups critiques de |cffffffffChâtiment de Sargeron|r vous rendent désormais 1 point de |cff32cd32Gangrefurie|r.\r\n\r\nDe plus, |cffffffffChâtiment de Sargeron|r inflige désormais $s2% de dégâts supplémentaires aux ennemis qui ont plus de 75% de leur maximum de points de vie.	lot talents_009
+sort	520833		Name	26315bf7650f	Prophète de malheur	lot talents_009
+sort	520834		Description	9f1dd736162c	Augmente la durée de |cffffffffCri de bataille|r et réduit le temps de recharge de |cffffffffGraine explosive|r de $/1000;s1 sec.	lot talents_009
+sort	520834		Name	c8b91fa5ecf4	Charognard	lot talents_009
+sort	520835		Name	02b0936100af	Présence du champion	lot talents_009
+sort	520851		Description	dcfb017fa33b	|cFF66DDFFPassif de niveau 30|r\r\nAugmente votre puissance d'attaque d'un montant égal à $s1% de votre Intelligence.	lot talents_009
+sort	520851		Name	d7bf3a06ebe2	Arbalétrier	lot talents_009
+sort	520853		Description	6f3dc38f8380	Transforme votre |cffffffffRuée chaotique|r en |cffffffffGangretorpille|r.@s:500610:0@	lot talents_009
+sort	520853		Name	c3ebcaff453d	Gangretorpille	lot talents_009
+sort	520854		Description	b799d9d2c054	Réduit le temps de recharge de |cffffffffGarde temporelle|r de $/1000;s1 sec.	lot talents_009
+sort	520854		Name	eb270ff33da3	Procrastination	lot talents_009
+sort	520854		ToolTip	afbb3bb61c69	Réduit le temps de recharge de Gagner du temps de $/1000;s1 sec.	lot talents_009
+sort	520855		Description	884f171e5173	Transforme instantanément tous les ennemis en bébés, ce qui les empêche d'agir pendant $d (8 sec. contre les joueurs) ; les dégâts infligés interrompent cet effet. \r\n\r\nTant qu'ils sont transformés en bébés, les ennemis régénèrent rapidement leurs points de vie. \r\n\r\nBénéficie des modificateurs d'|cffffffffInfantilisation|r.	lot talents_009
+sort	520855		Name	551001c6fbbf	Infantilisation de masse	lot talents_009
+sort	520855		ToolTip	46e8c73f15d7	Ne peut pas attaquer ni lancer de sorts.	lot talents_009
+sort	520875		Description	9394b7b1f6b5	Vos dégâts et soins périodiques ont désormais $h% de chances d'augmenter votre hâte de $520936s1% pendant $520936d et de conférer |cffffffffRequinquage|r aux alliés.@s:1257670:0@	lot talents_009
+sort	520875		Name	7c7eec440620	Rétro-ingénierie	lot talents_009
+sort	520878		Description	e86aa9bb505b	Augmente votre régénération de focalisation de $s1%.	lot talents_009
+sort	520879		Description	a832e00b92c4	Augmente vos chances de coup critique de $s1% et votre régénération de focalisation de $s2%.	lot talents_009
+sort	520879		Name	13ac96cad272	Banditisme	lot talents_009
+sort	520884		Description	0d50ecf4cc32	Les dégâts infligés par |cffffffffExploser|r sont désormais augmentés de 15% pour chacun de vos effets périodiques de pyromancien sur la cible.	lot talents_009
+sort	520884		Name	687127caddc3	Combustion	lot talents_009
+sort	520885		Description	7903d01ea5ee	Réduit de $s1 le coût en énergie de |cffffffffDouble entaille|r et de |cffffffffFracasser|r.	lot talents_009
+sort	520885		Name	c34b11a2c883	Légionnaire ardent	lot talents_009
+sort	520917		Description	1372cb38fe5c	Tant que |cffffffffPoings de terre|r est actif, les coups critiques de |cffffffffGravure d'arme : Terre|r vous font frapper deux fois lors de votre prochaine attaque automatique.	lot talents_009
+sort	520917		Name	384541be72e5	Savant de pierre	lot talents_009
+sort	520922		Description	3ea15300d7bb	|cffffffffChronostase|r ralentit désormais la vitesse de déplacement de votre cible de $s1% supplémentaires.	lot talents_009
+sort	520922		Name	77d4a5d1f1f5	Dissonance temporelle	lot talents_009
+sort	520923		Description	ff2caf9cd952	Augmente de $s1% l'efficacité de vos sorts de |cFFFFFFFFSagesse|r.	lot talents_009
+sort	520923		Name	9b61d1740f3f	L'esprit domine la matière	lot talents_009
+sort	520925		Description	d51784ec00ca	|cffffffffFlèche sylvestre|r fait désormais apparaître une rare |cffffffffFleur de rêve|r rouge à un endroit aléatoire près de vous pendant $521222d.\r\n\r\nLes coups critiques appliquent une charge de |cffffffffPétales|r aux |cffffffffFleurs de rêve|r rouges. @s:521220:0@	lot talents_009
+sort	520925		Name	1fb578ee5423	Gardien des pétales	lot talents_009
+sort	520925		ToolTip	d51784ec00ca	|cffffffffFlèche sylvestre|r fait désormais apparaître une rare |cffffffffFleur de rêve|r rouge à un endroit aléatoire près de vous pendant $521222d.\r\n\r\nLes coups critiques appliquent une charge de |cffffffffPétales|r aux |cffffffffFleurs de rêve|r rouges. @s:521220:0@	lot talents_009
+sort	520937		Description	f262be5538af	Transforme votre |cffffffffExploser|r en |cffffffffÉcho de Nozdormu|r.@s:802174:0@	lot talents_009
+sort	520937		Name	3653f1125e24	Écho de Nozdormu	lot talents_009
+sort	521211		Description	e0feefd5604d	Votre |CffffffffZénith|R dispose désormais de 2 charges.@s:712389:0@	lot talents_009
+sort	521211		Name	0fec4f06fc04	Échos de l'éternité	lot talents_009
+sort	521219		Description	c1575457e184	Votre |cffffffffGravure d'arme : Feu|r explose désormais au bout de 2 sec. et ses dégâts critiques sont augmentés de $s2%.	lot talents_009
+sort	521219		Name	fb371dc041c6	Runes explosives	lot talents_009
+sort	523712		Description	37a21b887b1a	Infliger des dégâts avec |cffffffffZélotisme|r applique désormais |cffffffffPénitence de fer|r à la cible, ce qui augmente de $523713s1% les dégâts physiques qu'elle subit de votre part pendant $523713d. Cumulable $523713u fois.	lot talents_009
+sort	523712		Name	4bb84b3f260f	Pénitence de fer	lot talents_009
+sort	523727		Description	8409d1e7ed31	Augmente de $s1% les chances de coup critique de votre |cffffffffÉclair de sang|r, de vos |cffffffffÉclats de sang|r et de votre |cffffffffAssaut aortique|r.	lot talents_009
+sort	523727		Name	7d4da06e5181	Expédition cramoisie	lot talents_009
+sort	524600		Description	8e212fd96796	Émet une aura pendant $520084d : les joueurs alliés infligent ${$RAP*0.35} points de dégâts supplémentaires sous forme de dégâts de Frappe-tempête quand ils infligent des dégâts directs.\r\n\r\nApplique |cFFFFFFFFÉpuisement|r, qui vous empêche de bénéficier d'effets similaires pendant $573255d.	lot talents_009
+sort	524600		Name	83adab61b7fa	Aura de commandement	lot talents_009
+sort	524620		Description	1bee99beedff	Les dégâts infligés par |cffffffffCondamnation|r ont désormais $h% de chances de consacrer le sol autour de vous d'une ferveur sacrée, ce qui inflige ${$524619m1*$<scalingbp>+$sph*0.225+$AP*.1} points de dégâts du Sacré aux ennemis proches.	lot talents_009
+sort	524620		Name	ef4a1fd8f506	Pulvérisant	lot talents_009
+sort	524638		Description	fa146f16996f	|cFFFFFFFFFlèche lunaire|r vous rend $s1% supplémentaires de votre maximum de mana.\r\n\r\nDe plus, le temps d'incantation de |cffffffffFlèche lunaire|r et de |cffffffffTir de chasseresse|r est réduit de $s2%.	lot talents_009
+sort	524638		Name	19c836f4c441	Ishnu-alah	lot talents_009
+sort	524642		Description	656f7d947689	Les dégâts infligés par les |cff66ccffScattered Stars|r ont désormais $h% de chances de recharger une charge de |cffffffffTir assuré|r.	lot talents_009
+sort	524642		Name	28c2585a528e	Flèches guidées par les étoiles	lot talents_009
+sort	524654		Description	bfa4ea310529	Votre |cffffffffPerce-crâne|r et votre |cffffffffAssaut|r utilisés avec 5 charges d'|cff8fff7aAdvantage|r prolongent désormais de $/1000;524653s1 sec. la durée de |cffffffffLames déloyales|r.	lot talents_009
+sort	524654		Name	7e893da334d5	Secret du tailleur de pierre	lot talents_009
+sort	524677		Description	c173c1c6f96f	Réduit le temps de recharge global de |cffffffffGriffe sauvage|r de 0,$/10;s1 sec.	lot talents_009
+sort	524677		Name	2079d54d1c12	Sauvage dans l'âme	lot talents_009
+sort	524687		Description	3a6f1e22fb6e	Augmente de $s1% les dégâts de |cFFFFFFFFBarrage de glace|r.	lot talents_009
+sort	524687		Name	34964f8c09da	Glaçons perçants	lot talents_009
+sort	524694		Description	b743d5f6382e	Les coups critiques de |cffffffffBélier|r ont désormais $h% de chances de frapper à nouveau pour $s1% des dégâts infligés.	lot talents_009
+sort	524694		Name	a456b3fa5350	Guerrier vaillant	lot talents_009
+sort	524697		Description	7073a0225250	Augmente de $s1% les chances de déclencher |cffffffffRequinquage|r avec |cffffffffGravure d'arme : Eau|r et de $s2% le mana rendu par |cffffffffTatouages runiques : Eau|r.	lot talents_009
+sort	524697		Name	971fb21cb5dc	Rivières vives	lot talents_009
+sort	524735		Description	33d3b57978a4	Utiliser |cffffffffFaucher|r transforme désormais votre |cffffffffFaucher|r en |cffffffffBattage|r pendant 10 sec.\r\n@s:505170:0@	lot talents_009
+sort	524735		Name	f388357e55eb	Ombre rouge	lot talents_009
+sort	524739		Description	c4e99d1f4cc4	Cible un ennemi et s'élance dans les airs. Après un court délai, vous le frappez d'une immense force sacrée, ce qui inflige ${$524740m1+$524740ppl1+$sph*1+$AP*1} points de dégâts du Sacré à $524740i ennemis au maximum à moins de $524740a1 mètres et réduit de $520842s1% leurs dégâts et soins prodigués pendant $520842d.\r\n\r\nLes dégâts infligés traversent toutes les immunités, résistances et effets d'absorption des dégâts.\r\n\r\nBénéficie des modificateurs de |cffffffffChâtier|r.	lot talents_009
+sort	524739		Name	312ea572b1bd	Courroux de Norgannon	lot talents_009
+sort	524739		ToolTip	927bf0fe28c5	Insensible aux sorts et techniques nuisibles.	lot talents_009
+sort	524747		Description	6e0dc58a6036	Réduit le temps de recharge de |cffffffffForce divine|r de $/1000;s1 sec.	lot talents_009
+sort	524747		Name	6b97ef3b7fa0	Croisé sacré	lot talents_009
+sort	524765		Description	7c04942694e7	Soigner avec |cffffffffBénédiction|r augmente de $524766s1% les soins de votre prochaine |cffffffffBénédiction|r pendant $524766d.	lot talents_009
+sort	524765		Name	c907d390495b	Guidance de la Lumière	lot talents_009
+sort	524767		Description	90d46a49e23f	Augmente de $s1% les chances de coup critique de |cffffffffFrappe titanesque|r.	lot talents_009
+sort	524767		Name	1170d055e274	Jugement des dieux	lot talents_009
+sort	524804		Description	85526c3e3e3d	Réduit le temps de recharge d'|cffffffffÉtreinte de l'Empire|r de $/1000;s1 sec.	lot talents_009
+sort	524804		Name	5a91e123c5db	Vide bouillonnant	lot talents_009
+sort	524812		Description	ef073b4cc00d	Chaque fois que vous utilisez |cffffffffBond|r, vous laissez désormais tomber sous vous des chausse-trapes qui durent $525054d.	lot talents_009
+sort	524812		Name	b7f0d71725fe	Renégat	lot talents_009
+sort	524818		Description	d4a428c27654	Quand vous êtes $gétourdi:étourdie;, les dégâts que vous subissez sont réduits de $524819s1% pendant $524819d.	lot talents_009
+sort	524818		Name	b677484607b9	Écailles de dragon	lot talents_009
+sort	524822		Description	1cad6d27096d	Augmente de $s1% l'efficacité de |cffffffffSerment : Fente vertueuse|r.	lot talents_009
+sort	524822		Name	c2e88915ff95	Lame radieuse	lot talents_009
+sort	524831		Description	812f8b037c2e	Les coups critiques de |cffffffffTir réflexe|r ou de |cffffffffFrappe du faucon|r réduisent désormais de $503647s1% le temps d'incantation et le coût de votre prochaine technique qui consomme des charges d'|cff8fff7aAdvantage|r pendant $503647d. Cumulable $503647u fois.	lot talents_009
+sort	524831		Name	b24200f485c0	Enfiler l'aiguille	lot talents_009
+sort	524834		Description	9ae800962d03	|cFF66DDFFPassif de niveau 30|r\r\nVous apprend |cffffffffSurcharger|r, et vos |cffffffffBalises|r disposent désormais d'effets de |cffffffffSurcharger|r, qui s'activent quand vous les soignez avec |cffffffffTir réparateur|r ou utilisez |cffffffffSurcharger|r.@s:524835:0@\r\n\r\nUne |cffffffffBalise|r active ne peut être |cffffffffSurchargée|r qu'une fois.	lot talents_009
+sort	524834		Name	22327e60221e	Charge des balises	lot talents_009
+sort	524853		Description	f06d762b6bb7	|cffd480ffSort de Distorsion|r\r\nCrée une tempête temporelle autour d'un ennemi, qui lui inflige ainsi qu'à $i ennemis proches au maximum ${($d*1000/$T1)*($m1+0+$SP*0.12)} points de dégâts des Arcanes en $d. \r\n\r\nDurée augmentée de $/1000;807711s1 sec. pour chaque |cffffffffFragment d'écho|r consommé. 	lot talents_009
+sort	524853		Name	446459f2d21c	Collision d'arcs	lot talents_009
+sort	524853		ToolTip	577be43eef26	Inflige ${$w1} points de dégâts divins aux ennemis à moins de $a1 mètres.	lot talents_009
+sort	524854		Description	410eb1f780ce	Un voile de magie noire vous entoure en permanence, ce qui augmente de $s1% la puissance d'attaque des membres du groupe et du raid à moins de $a1 mètres. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, réduit de $s3% les dégâts d'Ombre que vous subissez.	lot talents_009
+sort	524854		Name	3c74fc45f5ce	Voilé de ténèbres	lot talents_009
+sort	524854		ToolTip	ad230fa4e173	Puissance d'attaque augmentée de ${$w1}%.	lot talents_009
+sort	524856		Description	b6af8f1549de	Augmente de $s1% l'efficacité de vos sorts |cFFFFFFFFAccélérer|r et |cFFFFFFFFDécélérer|r.	lot talents_009
+sort	524856		Name	249f2d8c43ca	Aiguilles du temps	lot talents_009
+sort	524864		Description	3c55efb7f3d8	|cffffffffDérobade|r ne réduit plus votre vitesse de déplacement et vous rend désormais $524863s1% de votre maximum de points de vie toutes les $t1 sec.	lot talents_009
+sort	524864		Name	6564a705038f	Habitant des forêts	lot talents_009
+sort	524865		Description	fa0dead2e863	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nVous gorgez de magie du sang, ce qui vous fait entrer pendant $d dans une |cffa966f0Forme maudite|r nettement améliorée et transforme votre |cffffffffMorsure sanglante|r en |cffffffffGueule cramoisie|r, mais draine vos points de vie sur la durée.\r\n\r\nTant que l'effet est actif, toutes les $t3 sec., vous maudissez les ennemis à moins de $a3 mètres en leur appliquant |cffffffffHématome|r pendant $803392d.@s:803392:0@	lot talents_009
+sort	524865		Name	b078457371c8	Étreinte finale	lot talents_009
+sort	524865		ToolTip	f3556235b972	Étreinte des ténèbres. \r\n\r\nTant que l'effet est actif, toutes les $t3 sec., vous maudissez les ennemis à moins de $a3 mètres en leur appliquant |cffffffffHématome|r pendant $803392d.	lot talents_009
+sort	524867		Description	9366eb522f07	Votre |cFFFFFFFFTir de chasse|r inflige désormais $s1% de dégâts supplémentaires pour chaque cible suivante sur laquelle il ricoche.	lot talents_009
+sort	524867		Name	fb68b58ba39d	Chasse de précision	lot talents_009
+sort	524870		Description	3b2a2924ec94	Tire une flèche enflammée qui inflige ${$m1+0+$RAP*0.27} points de dégâts de Feu à un ennemi et à $i ennemis au maximum à moins de $a1 mètres, et fait infliger à vos 3 prochaines techniques directes qui consomment des charges d'|cff8fff7aAdvantage|r $524869s1% de leurs dégâts aux ennemis proches.\r\n\r\nDégâts directs augmentés de $801429s3% par charge d'|cff8fff7aAdvantage|r.	lot talents_009
+sort	524870		Name	635e78d86ce6	Tir incendiaire	lot talents_009
+sort	524870		ToolTip	59f5fa128214	Mise en joue.	lot talents_009
+sort	524873		Description	6f7bc8f6e74a	Vos dégâts physiques directs ont désormais $h% de chances de vous permettre d'utiliser |cffffffffTir fatal|r quels que soient les points de vie de la cible pendant $524872d.	lot talents_009
+sort	524873		Name	7c60bfb9d6ef	Silencieux, mais mortel	lot talents_009
+sort	524875		Description	e7401a390c43	|cffffffffTrait flamboyant|r augmente désormais de $524874s1% les dégâts des |CffffffffTraits flamboyants|r suivants pendant $524874d. Cumulable $524874u fois.\r\n\r\n|cffffffffFlammes de Neltharion|r et |cFFFFFFFFExploser|r augmentent désormais de $572625s1% les dégâts des |cFFFFFFFFExploser|r ou |cffffffffFlammes de Neltharion|r suivants pendant $572625d. Cumulable $572625u fois.	lot talents_009
+sort	524875		Name	f8cc58705eb9	Coulée pyroclastique	lot talents_009
+sort	524876		Description	111c123c4d1d	Lance un bouclier maudit qui inflige ${$m1+$AP*0.09+$SP*0.23} points de dégâts d'Ombre à $x1 ennemis au maximum, réduits de ${($f1-1)*100* -1}% à chaque rebond.\r\n\r\nDégâts augmentés de $500706s1% par charge d'|cffcfa6ffInsanity|r.	lot talents_009
+sort	524877		Description	62f93a8c91e2	Toutes les 1 sec. tant que |cffffffffMain de Yogg-Saron|r est active, vous déclenchez désormais une |cFFFFFFFFRévélation horrifique|r sur la cible et générez 5 |cffcfa6ffInsanity|r.@s:704473:0@	lot talents_009
+sort	524877		Name	8ff02a7049a2	Révélations horrifiques	lot talents_009
+sort	524879		Description	b8995d8c63e5	|cFFFFFFFFSatiété|r régénère désormais aussi $s1% de mana supplémentaire à chaque effet périodique et n'augmente plus les dégâts subis pendant la canalisation.	lot talents_009
+sort	524879		Name	7cf5f7483ccb	Faim du Vide	lot talents_009
+sort	524885		Description	a1c5ed966e80	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre score de blocage d'un montant égal à $s1% de votre Force.	lot talents_009
+sort	524885		Name	ebe4f02357d7	Entraînement au bouclier	lot talents_009
+sort	524887		Description	5adbe9d6a4ce	Les dégâts infligés par |cffffffffLame de l'Empire|r rendent désormais à l'allié qui a le moins de points de vie $s1% des dégâts infligés plus ${($500748m1+$500748ppl1+$BH*0.4+$AP*.1)*0.5} points de vie.	lot talents_009
+sort	524887		Name	70c7f369127d	Lame de Yogg-Saron	lot talents_009
+sort	524897		Description	8d15a1fab37d	Explose de feu infernal, ce qui inflige ${$m2+0+$STR*0.25+$spfi*.5+$AP*.1} points de dégâts de Feu aux ennemis proches, appelle des |cffffffffDiablotins des Flammes infernales|r à votre aide pendant $d et génère $/10;s3 points de rage.\r\n\r\nInflige davantage de dégâts et augmente de $704217s2 le nombre de diablotins invoqués pour chaque |cffff9933Feu démoniaque|r consommé.	lot talents_009
+sort	524897		Name	f871fb53aaa5	Implosion	lot talents_009
+sort	524907		Description	90895d1f82ca	Fait se condenser au-dessus de vous un puissant orbe sanguin, qui rend ${($524907d*1000/$524907t1)*($524906m1+$524906ppl1+$bh*0.1125+$SPI*0.45+$STA*0.35)} points de vie en $524907d à $524906i alliés au maximum à moins de $524906a1 mètres.\r\n\r\nGénère 2 charges de |cFFE53935Vitalité accumulée|r, et $/10;t3 points de rage toutes les $t3 sec.\r\n\r\n@ext:Healing scales with Stamina and Spirit:ext@	lot talents_009
+sort	524907		Name	6587febc8b40	Hémoglobe	lot talents_009
+sort	524907		ToolTip	1fbd0f386aac	Rend des points de vie aux alliés proches. Génère 2 charges de |cFFE53935Vitalité accumulée|r et $/10;s2 points de rage toutes les $t1 sec.	lot talents_009
+sort	524913		Description	74f029c3065e	Vos 5 prochains (1 contre les joueurs) |cffffffffPreneur de crânes|r ou |cffffffffPorteguerre|r infligent un coup critique garanti avec 100% (25% contre les joueurs) de dégâts supplémentaires. Dure $d.	lot talents_009
+sort	524913		Name	7a127811f725	Décimation	lot talents_009
+sort	524913		ToolTip	60286dfe3f98	Votre prochain |cffffffffPreneur de crânes|r ou |cffffffffPorteguerre|r inflige un coup critique garanti et des dégâts accrus.	lot talents_009
+sort	524920		Description	bda44997348c	Embrase votre arme : chacun de vos coups critiques en mêlée projette un feu brûlant qui inflige ${$524919m2+$524919ppl2+$AP*0.325} points de dégâts de Feu en ligne, et votre pénétration d'armure est augmentée de $s2% tant que l'effet est actif. Dure $n attaques.\r\n\r\nDure 1 attaque de plus par |cffff9933Feu démoniaque|r consommé.	lot talents_009
+sort	524920		Name	f0a092384f4f	Lame ardente	lot talents_009
+sort	524920		ToolTip	cba974394e3c	Projette des lignes de feu brûlant. Pénétration d'armure augmentée de $s2%.	lot talents_009
+sort	524922		Description	ae9e0b4bb360	Générer des charges de |cffffffffSang de démon|r génère désormais $/10;s1 points de rage supplémentaires.	lot talents_009
+sort	524922		Name	a20cf5a0735e	Rage démoniaque	lot talents_009
+sort	524932		Description	1cd2b4d1c470	Vos attaques automatiques ont désormais $h% de chances de frapper une fois de plus et de réduire de $572714s1% les chances de toucher de votre cible pendant $572714d.	lot talents_009
+sort	524932		Name	abdd4096d1e2	Frappes valeureuses	lot talents_009
+sort	524939		Description	e1799cb74b41	|cFFFFFFFFFrappe de l'âme|r inflige désormais ${$STR*0.3} points de dégâts supplémentaires, selon votre Force.	lot talents_009
+sort	524939		Name	cd6643d6d099	Volonté du Geôlier	lot talents_009
+sort	524945		Description	d80edd385e8b	Lancer |cffffffffÉcho brisé|r prolonge désormais de $/1000;524944s1 sec. la durée de votre |cffffffffÉmetteur de flux|r.\r\n\r\nNe peut pas dépasser la durée maximale.	lot talents_009
+sort	524945		Name	a608cce0c342	Tricher avec le temps	lot talents_009
+sort	524947		Description	515a45ae854d	Utiliser $?s520853[|cffffffffGangretorpille|r][|cFFFFFFFFRuée chaotique|r] augmente de $525027s1% la prochaine occurrence de dégâts directs d'un sort ou d'une technique dans les $525027d.	lot talents_009
+sort	524947		Name	35e35ee111b6	Marque du chaos	lot talents_009
+sort	524950		Description	6f982ff007e9	Augmente de $s1% les dégâts de votre |cffffffffFléau du chaos|r et de votre |cffffffffRuine|r.	lot talents_009
+sort	524952		Description	353c05c80141	Envoie des manuscriptions qui enveloppent un ennemi et les ennemis autour de lui, ce qui leur inflige ${($525302d*1000/$525302t1)*($525302m1+$525302ppl1+$SP*0.38)} points de dégâts des Arcanes en $d.\r\n\r\nQuand vous lancez cette technique, vous gagnez |cffffffffTranscription|r pendant $525609d.\r\n@s:525609:0@	lot talents_009
+sort	524952		Name	4598510cf6b6	Manuscription	lot talents_009
+sort	524954		Description	ad0265e2e8e2	Les coups critiques de |cffffffffCourroux torrentiel|r font désormais apparaître un |cffffffffÉlémentaire d'eau électrifié|r qui vous aide au combat pendant $/1000;573451s1 sec.\r\n\r\nQuand un |cFFFFFFFFÉlémentaire d'eau électrifié|r se dissipe, le temps de recharge de votre |cFFFFFFFFNoyade|r est réduit de $/1000;573442S1 sec.	lot talents_009
+sort	524954		Name	ab551586cad8	Électricité statique	lot talents_009
+sort	524970		Description	802cd573ce04	Les coups critiques de |cFFFFFFFFDamnation|r vous rendent désormais $/10;524815s1 points de rage.	lot talents_009
+sort	524970		Name	69dc0e4d5398	Poursuite sans fin	lot talents_009
+sort	524971		Description	06a520f7509b	|cffffffffToucher apaisant|r dissipe désormais un effet de poison et de maladie supplémentaire.	lot talents_009
+sort	524971		Name	8dad7b76c14d	Toucher réparateur	lot talents_009
+sort	524971		ToolTip	000e9208ee8a	 et dissiper un effet magique avec |cffffffffToucher neutralisant|r vous rend désormais $525015s1% de votre maximum de points de vie.	lot talents_009
+sort	524979		Description	f91278d03f47	Les dégâts infligés par les |cffffffffTourelles de garde|r ont désormais $801811h% de chances d'infliger ${$706700m1*$<scalingbp>+$AP*.2} points de dégâts de Nature supplémentaires et d'augmenter de $573269s1% les chances de coup critique de la tourelle, cumulable $573269u fois, pendant $573269d.	lot talents_009
+sort	524979		Name	24ad87a32c63	Amélioration de tourelle Z-15	lot talents_009
+sort	524979		ToolTip	d31f7670625d	Les dégâts infligés par les |cffffffffTourelles de garde|r ont désormais $801811h% de chances d'infliger ${$706700m1+$706700ppl1} points de dégâts de Nature supplémentaires et d'augmenter de $573269s1% les chances de coup critique de la tourelle, cumulable $573269u fois, pendant $573269d.	lot talents_009
+sort	525001		Description	ead24805b96f	Maudit un ennemi : le prochain sort qu'il lance dans les $d lui est renvoyé.	lot talents_009
+sort	525001		Name	b11839423c56	Plaie-de-gangre	lot talents_009
+sort	525001		ToolTip	fefc8b3f92c1	Le prochain sort que vous lancez vous sera renvoyé.	lot talents_009
+sort	525018		Description	52c688e644c6	Réduit le temps de recharge de |cFFFFFFFFCataclysme|r de $/1000;s1 sec.	lot talents_009
+sort	525018		Name	27da78720df9	Intention ardente	lot talents_009
+sort	525019		Description	9c48673c8127	Supprime le temps d'incantation de votre |cffffffffCorruption de l'esprit|r.	lot talents_009
+sort	525019		Name	3c992ea2f1bf	Contempler l'abîme	lot talents_009
+sort	525019		ToolTip	a8690ff185c9	Lancer |cFFFFFFFFBouclier de vide|r réduit désormais le temps de recharge d'|cFFFFFFFFHallucination|r de $/1000;525061s1 sec.	lot talents_009
+sort	525024		Description	bf85c7ff0966	Votre |cffffffffForce divine|r frappe désormais 2 ennemis supplémentaires proches de la cible principale.	lot talents_009
+sort	525024		Name	52e1a021e4c5	Juge écarlate	lot talents_009
+sort	525039		Description	bf140e29623d	Fouille les débris proches, ce qui vous fait gagner 10 |cffc7c7c7Scrap|r et ${$m2+0} points de mana toutes les $t2 sec. pendant $d.\r\n\r\nInutilisable en combat.	lot talents_009
+sort	525039		Name	2b85adc5a2d2	Ferrailleur	lot talents_009
+sort	525048		Description	f4ab45169f76	Augmente de $s1% les dégâts de |cffffffffTir fatal|r.	lot talents_009
+sort	525048		Name	4fe8b746fa86	Un tir, une victime	lot talents_009
+sort	525049		Description	5e4226ecea27	Votre |cffffffffCorruption de l'esprit|r applique désormais aussi |cffffffffDégénérescence mentale|r aux ennemis proches.@s:560714:0@	lot talents_009
+sort	525049		Name	74e6f0e66565	Hurlements surnaturels	lot talents_009
+sort	525059		Description	028a5b8bf82e	Réduit de $s1% le retard d'incantation dû aux attaques infligeant des dégâts et augmente de $s2% la résistance au retard conférée par |cFFFFFFFFÉlévation de Thaurissan|r.	lot talents_009
+sort	525059		Name	67041c36bc68	Tempérament ardent	lot talents_009
+sort	525060		Description	06c622941216	Augmente de $s2% les chances de |cffffffffBouclier de vide|r de résister aux effets de dissipation sur les alliés, et il renvoie désormais aussi $s1% des dégâts absorbés.	lot talents_009
+sort	525060		Name	6ffedae024f0	Reflet cristallin	lot talents_009
+sort	525065		Description	feb2adb1ac85	Crée un sceau déformé qui détourne de vous les forces hostiles : vous déviez tous les sorts et techniques pendant $d, mais ne pouvez ni attaquer ni lancer de sorts.\r\n\r\nLes lanceurs de sorts dont la magie est déviée sont réduits au silence pendant $525066d.	lot talents_009
+sort	525065		Name	3e13fe87506b	Sceau perverti	lot talents_009
+sort	525065		ToolTip	ada0d747de71	Dévie les sorts. Les ennemis déviés sont aussi réduits au silence pendant $525066d.	lot talents_009
+sort	525078		Description	5adbe9d6a4ce	Les dégâts infligés par |cffffffffLame de l'Empire|r rendent désormais à l'allié qui a le moins de points de vie $s1% des dégâts infligés plus ${($500748m1+$500748ppl1+$BH*0.4+$AP*.1)*0.5} points de vie.	lot talents_009
+sort	525078		Name	70c7f369127d	Lame de Yogg-Saron	lot talents_009
+sort	525079		Description	6f982ff007e9	Augmente de $s1% les dégâts de votre |cffffffffFléau du chaos|r et de votre |cffffffffRuine|r.	lot talents_009
+sort	525080		Description	1cad6d27096d	Augmente de $s1% l'efficacité de |cffffffffSerment : Fente vertueuse|r.	lot talents_009
+sort	525080		Name	c2e88915ff95	Lame radieuse	lot talents_009
+sort	560615		Description	5ddc9919fe3c	Augmente votre hâte des sorts de $s1%.	lot talents_009
+sort	560616		Description	5ddc9919fe3c	Augmente votre hâte des sorts de $s1%.	lot talents_009
+sort	560727		Description	5ddc9919fe3c	Augmente votre hâte des sorts de $s1%.	lot talents_009
+sort	680836		Description	5ddc9919fe3c	Augmente votre hâte des sorts de $s1%.	lot talents_009
+sort	680836		Name	2f668c64aeab	Cracheur de flammes	lot talents_009
+sort	704193		Name	7a127811f725	Décimation	lot talents_009
+sort	704660		Name	14557f3876e7	Sans pitié	lot talents_009
+sort	704880		Name	26315bf7650f	Prophète de malheur	lot talents_009
+sort	802669		Name	9b61d1740f3f	L'esprit domine la matière	lot talents_009
