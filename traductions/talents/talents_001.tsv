@@ -1,0 +1,460 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+arbre_coa	67		nom	e0d784bd6b2c	Garde lunaire	lot talents_001
+arbre_coa	68		nom	638479c473ad	Prêtre de la lune	lot talents_001
+arbre_coa	86		nom	2bf4f7801d20	Lame des failles	lot talents_001
+sort	92100		Description	7a483fa19663	|cFF66DDFFPassif de niveau 10|r\r\nDouble les dégâts de base de l'arme infligés par |cffffffffFrappe infernale|r et augmente de $s2% les dégâts de tous vos coups critiques.	lot talents_001
+sort	92100		Name	c42a22895d8a	Broyeur	lot talents_001
+sort	92101		Description	42c758e8abf2	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffInvocation : Diablotin supérieur|r et augmente votre expertise de $s3.\r\n@s:520661:0@	lot talents_001
+sort	92101		Name	7e338cd20b0a	Diablotin supérieur	lot talents_001
+sort	92104		Description	eb1397890703	|cFF66DDFFPassif de niveau 10|r\r\nVos blocages réussis ont désormais $h% de chances d'invoquer 1 |cffffffffDiablotin des Flammes infernales|r qui vous aide au combat pendant $805966d. Cet effet ne peut se produire qu'une fois toutes les 3 sec.\r\n\r\nDe plus, augmente votre total de points de vie de $706935s1% par charge de |cffffffffSang de démon|r.	lot talents_001
+sort	92104		Name	30ab5683c65d	Targe de soufre	lot talents_001
+sort	92105		Description	593d49b8b794	|cFF66DDFFPassif de niveau 10|r\r\nLes dégâts que vous subissez sont réduits de $807728s1% tant que |cffffffffFormation en tour|r ou |cffffffffFormation en ligne|r est active.\r\n\r\nDe plus, la menace générée par vos dégâts physiques est fortement augmentée tant que |cffffffffFormation en tour|r ou |cffffffffFormation en ligne|r est active.	lot talents_001
+sort	92105		Name	68aac3d255c3	Vocation du fantassin	lot talents_001
+sort	92106		Description	2b2a2b917418	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffBélier|r vous confère désormais une charge de |cffffffffGloire|r pendant $802302d.\r\n\r\nÀ 3 charges, votre prochain |cffffffffBélier|r dans les $802303d inflige $802303s1% de dégâts supplémentaires.	lot talents_001
+sort	92106		Name	d552072367b8	Gloire	lot talents_001
+sort	92107		Description	b29c87947f36	|cFF66DDFFPassif de niveau 10|r\r\nLancer des |cffffffffBallades|r vous confère désormais |cFFFFFFFFTempo|r, cumulable $560514u fois. \r\n\r\nÀ 3 charges de |cFFFFFFFFTempo|r, vous les consommez pour déclencher un |cffffffffSon de la guerre|r, qui frappe tous les ennemis à moins de $572612a1 mètres et leur inflige ${$572612m1*$<scalingbp>+$AP*0.127449} points de dégâts magiques.@s:560514:0@	lot talents_001
+sort	92107		Name	899658e27a6c	Tempo	lot talents_001
+sort	92108		Description	b563b394fc0d	|cFF66DDFFPassif de niveau 10|r\r\nVos attaques automatiques de la main gauche déclenchent désormais |cFFFFFFFFZélotisme|r.@s:801450:0@	lot talents_001
+sort	92108		Name	7c1dc0429aee	Zélotisme	lot talents_001
+sort	92109		Description	63d2066f3ae7	|cFF66DDFFPassif de niveau 10|r\r\nVous différez désormais 40% des dégâts directs que vous subissez : vous les subissez à la place en $803237d.\r\n\r\nDe plus, vous ne consommez plus vos |cFFFFFFFFSerments|r avec les |cFFFFFFFFBrise-serments|r.	lot talents_001
+sort	92109		Name	146394f42e7e	Tenir son serment	lot talents_001
+sort	92111		Description	3103f6d81dff	|cFF66DDFFPassif de niveau 10|r\r\nVos dégâts directs ont désormais $520007h% de chances de frapper un ennemi avec |cffffffffPlaie-du-Fléau|r, qui inflige $801832s2% des dégâts de l'arme plus ${$801832m1*$<scalingbp>+$SP*.25+$AP*.25} points de dégâts de Flamme sacrée supplémentaires.\r\n\r\nCet effet est toujours critique contre les morts-vivants.	lot talents_001
+sort	92111		Name	d4fd392414fe	Plaie-du-Fléau	lot talents_001
+sort	92112		Description	28b26da97252	|cFF66DDFFPassif de niveau 10|r\r\nLes sorts qui coûtent des points de vie vous confèrent désormais |cffffffffThirst|r.\r\n\r\nÀ $706613u charges, vous devenez |cffffffffInsatiable|r, ce qui réduit vos dégâts infligés de $706663s1% toutes les $706621t1 sec. jusqu'à la fin de |cffffffffThirst|r.\r\n@s:706613:0@	lot talents_001
+sort	92113		Description	3c1ab56a811e	|cFF66DDFFPassif de niveau 10|r\r\nVos sorts de dégâts de |cffffffffForme mortelle|r peuvent désormais être lancés en mouvement.	lot talents_001
+sort	92113		Name	a71eb2388b93	Déchaîné	lot talents_001
+sort	92114		Description	a8f439ca2e21	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffMalédiction éternelle|r et vous permet de manier une arme dans chaque main.@s:800157:0@	lot talents_001
+sort	92114		Name	21b1b823681d	Malédiction éternelle	lot talents_001
+sort	92115		Description	beb011e7e58b	|cFF66DDFFPassif de niveau 10|r\r\nAugmente de $500022s1% les dégâts et la fréquence des dégâts de |cffffffffDard toxique|r.\r\n\r\nVos techniques à distance ignorent désormais $s3% de l'armure des cibles |cff00ff00empoisonnées|r.	lot talents_001
+sort	92115		Name	9e1f39d4ae8a	Tirailleur	lot talents_001
+sort	92116		Description	9e291bae4724	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffFrappe sauvage|r génère désormais 1 |cff8fff7aAdvantage|r supplémentaire.\r\n\r\nSupprime la portée minimale de vos techniques à distance.	lot talents_001
+sort	92116		Name	8c9507b276f8	Ravageur	lot talents_001
+sort	92116		ToolTip	357bce736023	Supprime la portée minimale de vos techniques à distance.	lot talents_001
+sort	92117		Description	1c43b4ab34d1	|cFF66DDFFPassif de niveau 10|r\r\nVos coups critiques infligeant des dégâts font désormais apparaître une |cFFFFFFFFFleur de rêve|r verte à un endroit aléatoire à moins de 15 mètres de vous. @s:561005:0@Cet effet ne peut se produire qu'une fois par seconde.	lot talents_001
+sort	92117		Name	d60ca0e4db5d	Fleurs de rêve	lot talents_001
+sort	92117		ToolTip	59704ddaffeb	Les |cffffffffCors|r permettent désormais d'utiliser |cffffffffDard toxique|r comme si vous étiez sous l'effet de |cffffffffDérobade|r ; ils réduisent sa durée de $300851s1% et augmentent ses dégâts de $300851s3% pendant $300851d.\r\n\r\nDe plus, les dégâts périodiques de votre |cffffffffDard toxique|r peuvent désormais être critiques.	lot talents_001
+sort	92118		Description	848d938c56ba	|cFF66DDFFPassif de niveau 10|r\r\nLancer des sorts de dégâts réduit désormais le temps de recharge de vos sorts de dégâts de $528312s1% de leur temps de recharge restant.	lot talents_001
+sort	92119		Description	bd778f575254	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffÉon de résilience|r.@s:806291:0@	lot talents_001
+sort	92119		Name	85621bf066da	Éon de résilience	lot talents_001
+sort	92120		Description	36316b83bfff	|cFF66DDFFPassif de niveau 10|r\r\n|cffffffffBaguette du temps|r génère désormais un |cffffffffFragment d'écho|r, qui sert à déchaîner les sorts de |cffd480ffDistorsion|r et de |cFFC49A6CContinuum|r.\r\n\r\n|cffffffffDécomposition|r devient un sort de |cffd480ffDistorsion|r, dont les dégâts augmentent selon le nombre de |cffffffffFragments d'écho|r que vous possédez.	lot talents_001
+sort	92120		Name	5c5dae2c97e1	Fragments d'écho	lot talents_001
+sort	92121		Description	4044a205873e	|cFF66DDFFPassif de niveau 10|r\r\nLes dégâts infligés par |cffffffffEssaim de la crypte|r appliquent désormais 1 charge de |cffffffffPeste de la crypte|r, et |cffffffffGivre-liche|r en applique 2.@s:570131:0@	lot talents_001
+sort	92121		Name	600e3c452df6	Peste de la crypte	lot talents_001
+sort	92122		Description	f3ccb4806389	|cFF66DDFFPassif de niveau 10|r\r\nLancer un sort a désormais $h% de chances de vous conférer |cffffffffGuerriers de la toundra|r.@s:707421:0@	lot talents_001
+sort	92122		Name	84ece03a3834	Guerriers de la toundra	lot talents_001
+sort	92123		Description	c2edcc01c35d	|cFF66DDFFPassif de niveau 10|r\r\nAugmente de $s3 votre maximum de |cFFFFFFFFForce vitale|r.	lot talents_001
+sort	92123		Name	2fbf0c57f696	Adepte de l'invocation	lot talents_001
+sort	92124		Description	b553ccb634f1	Les dégâts infligés par |cffffffffÉclat de lave|r appliquent désormais |cffffffffInfernus|r, qui inflige une |cffff4500Brûlure|r aux ennemis : ${($706874d*1000/$706874T1)*($706874m1*$<scalingbp>+$SP*.2)} points de dégâts de Feu supplémentaires en $706874d.	lot talents_001
+sort	92124		Name	7c133ec41081	Infernus	lot talents_001
+sort	92126		Description	84b56d2d8968	|cFF66DDFFPassif de niveau 10|r\r\nQuand vous subissez des dégâts qui devraient vous tuer, vous êtes $gtransformé:transformée; en |cFFFFFFFFEsprit du phénix|r pendant $573220d.\r\n\r\nPendant la transformation, vos sorts ne coûtent pas de mana et votre Esprit est augmenté de $573220s1%. À la fin de l'effet, vous renaissez. Cet effet ne peut se produire qu'une fois toutes les 10 min.	lot talents_001
+sort	92126		Name	adb176e4a3cd	Esprit du phénix	lot talents_001
+sort	92128		Description	a714e97a7766	|cFF66DDFFPassif de niveau 30|r\r\nVous apprend |cffffffffAspect draconique|r.@s:802117:0@	lot talents_001
+sort	92128		Name	c8de7099cd1c	Aspect draconique	lot talents_001
+sort	92129		Description	14595ba84d1c	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffRegard de C'Thun|r gagne désormais ${$m1+0} points de dégâts et de soins de base supplémentaires.	lot talents_001
+sort	92129		Name	0d27e1cd161c	Oblitération	lot talents_001
+sort	92130		Description	f4b0482fe90f	Les dégâts infligés ont $805606h% de chances de vous conférer |cffffffffMurmures corrupteurs|r.\r\n@s:706725:0@	lot talents_001
+sort	92130		Name	d1c17e810fae	Murmures corrupteurs	lot talents_001
+sort	92131		Description	161c07c3fb55	|cFF66DDFFPassif de niveau 10|r\r\nAtteindre 100 |cffcfa6ffInsanity|r ne provoque plus de |cFFFFFFFFDémence totale|r.\r\n\r\nVous apprend |cffffffffHéraut des profondeurs|r.@s:520326:0@	lot talents_001
+sort	92131		Name	d4a8da91753b	Héraut des profondeurs	lot talents_001
+sort	92132		Description	71992d4f4453	|cFF66DDFFPassif de niveau 10|r\r\nVous gagnez désormais de l'Intelligence à hauteur de votre Force, et votre maximum de points de vie augmente en plus de 10% de votre maximum de mana.	lot talents_001
+sort	92132		Name	e0d784bd6b2c	Garde lunaire	lot talents_001
+sort	92133		Description	6bbc168ebdc3	|cFF66DDFFPassif de niveau 10|r\r\nAugmente votre score de hâte d'un montant égal à 8% de votre Intelligence.	lot talents_001
+sort	92133		Name	25370587404f	Entraînement de chasseresse	lot talents_001
+sort	92134		Description	75693e43e6c9	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffTir de chasseresse|r a désormais un effet d'|cffffffffÉclipse lunaire|r.\r\n\r\n|cFFFFFFFFTir de chasseresse|r : applique 2 |cff66ccffScattered Stars|r supplémentaires.	lot talents_001
+sort	92134		Name	638479c473ad	Prêtre de la lune	lot talents_001
+sort	92135		Description	937c9442a3ca	|cFF66DDFFPassif de niveau 10|r\r\nAprès avoir activé |cFFFF9800Aube|r, lancer un sort du Sacré vous confère |cffffffffSoleil levant|r et lancer un sort de Feu vous confère |cffffffffSoleil couchant|r.\r\n\r\nPasser en |cffffffffSoleil levant|r ou en |cffffffffSoleil couchant|r vous empêche de passer dans l'autre état jusqu'à ce que vous passiez dans le suivant.\r\n@s:500477:0@\r\n@s:500511:0@	lot talents_001
+sort	92135		Name	e3e8fd2adf9f	Soleil levant et couchant	lot talents_001
+sort	92136		Description	d8e9f6e8d03d	|cFF66DDFFPassif de niveau 10|r\r\nAccomplir votre |cFFFFFFFFVœu|r déchaîne désormais |cffffffffLumière solaire|r, qui rend ${$704911m1+$BH*0.15} points de vie à $704911i alliés au maximum dans un rayon de $704911a1 mètres, en priorité ceux qui ont le moins de points de vie.	lot talents_001
+sort	92136		Name	bf7a6a331c97	Lumière solaire	lot talents_001
+sort	92137		Description	3cd131588a05	|cFF66DDFFPassif de niveau 10|r\r\nÉviter une attaque a désormais $h% de chances de vous conférer |cffffffffPrésence angélique|r.@s:800722:0@	lot talents_001
+sort	92137		Name	20da51c5a7f7	Présence angélique	lot talents_001
+sort	92138		Description	98e99c66a12a	|cFF66DDFFPassif de niveau 10|r\r\nInfliger des dégâts de Feu directs applique désormais |cFFFFFFFFNapalm|r à votre cible.@s:805315:0@	lot talents_001
+sort	92138		Name	96f41ee0ab83	Napalm	lot talents_001
+sort	92140		Description	4e36e932cfd6	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffConstruire : ZIGGI-6K|r.@s:524840:0@	lot talents_001
+sort	92140		Name	5978b2fddb15	Construire : ZIGGI-6K	lot talents_001
+sort	92141		Description	8eb7cb61bdd9	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffConstruire : Méca-armure|r.\r\n\r\nVous pouvez désormais générer |cffc7c7c7Scrap|r pour construire votre |cFFFFFFFFMéca-armure|r, et |cffffffffTir de ferraille|r et |cffffffffBombe collante|r génèrent désormais |cffc7c7c7Scrap|r. @s:801384:0@	lot talents_001
+sort	92141		Name	fe8ca6aa647c	Construire : Méca-armure	lot talents_001
+sort	92142		Description	972a73bdc78f	|cFF66DDFFPassif de niveau 10|r\r\nVos dégâts directs ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffCroc du serpent|r, de vous conférer |cffffffffLiche putride|r et de conférer |cffffffffRequinquage|r à vos alliés.@s:706032:0@@s:1257670:0@	lot talents_001
+sort	92142		Name	07de87a47ca8	Liche putride	lot talents_001
+sort	92143		Description	3fe3c2185f79	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffCroc venimeux|r applique désormais une |cff66ff66Brood Mark|r, cumulable $804972u fois. Certaines techniques les consomment pour obtenir un effet supplémentaire.	lot talents_001
+sort	92144		Description	a18277922d71	|cFF66DDFFPassif de niveau 10|r\r\nLes attaques hostiles contre vous ont désormais $805098h% de chances de vous conférer une charge de |cff66ff66Chair à vif|r.\r\n@s:805095:0@	lot talents_001
+sort	92144		Name	94cec898147e	Chair à vif	lot talents_001
+sort	92145		Description	aff3df1ad1c7	|cFF66DDFFPassif de niveau 10|r\r\nVous récupérez désormais des points de vie à hauteur de $500283s1% de tous les dégâts que vous infligez.	lot talents_001
+sort	92145		Name	b5738492875c	Moissonneur	lot talents_001
+sort	92146		Description	94bf9f893f23	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffDéchirure d'âme|r applique désormais aussi |cffffffffÂme affaiblie|r, qui augmente de $803433s1% les dégâts d'Ombre et de Givre que la cible subit de votre part.	lot talents_001
+sort	92146		Name	5e6611bf096e	Âmes affaiblies	lot talents_001
+sort	92147		Description	2979199724fb	|cFF66DDFFPassif de niveau 10|r\r\nConsommer |cFFFFFFFFInfusion d'âme|r réduit désormais le temps de recharge de |cFFFFFFFFÂmes tourmentées|r de $/1000;504558s1 sec.	lot talents_001
+sort	92147		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	92148		Description	c495fee2f278	|cFF66DDFFPassif de niveau 10|r\r\nVous pouvez désormais apprivoiser les bêtes d'Azeroth pour qu'elles vous accompagnent.\r\n@ext:@s:574301:0@:ext@\r\n	lot talents_001
+sort	92148		Name	ad544abfc4b0	Maître des esprits de bête	lot talents_001
+sort	92149		Description	b3b05286141b	|cFF66DDFFPassif de niveau 10|r\r\nLancer |cffffffffBarrage de géodes|r et vos techniques |cffffffffsismiques|r génère désormais |cffc6a36aFaçonnage de la terre|r.@s:680441:0@\r\n	lot talents_001
+sort	92149		Name	ddddb3aae195	Façonnage de la terre	lot talents_001
+sort	92150		Description	959945e16c61	|cFF66DDFFPassif de niveau 10|r\r\nTous vos dégâts de mêlée et vos soins ont désormais $92150h% de chances de vous conférer |cffffffffRéplique|r pendant $301086d.@s:301086:0@	lot talents_001
+sort	92150		Name	be16d794e08c	Entraînement du bosquet	lot talents_001
+sort	92152		Description	a5ce836765a9	|cFF66DDFFPassif de niveau 10|r\r\nUtiliser |cffffffffDécharge élémentaire|r et |cffffffffDéflagration primordiale|r vous confère désormais |cffffffffGlyphe de givre|r. \r\n\r\n@s:520090:0@@ext: Les glyphes peuvent être déchaînés par |cFFFFFFFFRuine glyphique|r ou |cFFFFFFFFThaumaturgie|r.:ext@	lot talents_001
+sort	92152		Name	c60037f17306	Glyphe de givre	lot talents_001
+sort	92153		Description	a5c546f5e06e	|cFF66DDFFPassif de niveau 10|r\r\n|cffffffffLame runique|r frappe désormais votre cible une fois de plus, pour $500462s1% des dégâts infligés avec votre arme de main gauche.	lot talents_001
+sort	92153		Name	a8d33e28e80a	Poings de puissance	lot talents_001
+sort	92154		Description	b9a0da811b4a	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cFFFFFFFFDéflagration primordiale|r et votre |cFFFFFFFFFeu couvant|r rechargent désormais une charge de |cFFFFFFFFLame runique|r.\r\n\r\nDe plus, une |cffffffffLame runique|r sur 3 rend désormais ${$500466m1+$500466ppl1+$AP*.3} points de mana, montant augmenté de $802645s3% tant que |cffffffffTatouages runiques : Eau|r est actif.	lot talents_001
+sort	92154		Name	2bf4f7801d20	Lame des failles	lot talents_001
+sort	139778		Description	e4a42f63fd93	Vos attaques et techniques à distance directes ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffAppel du maître-chien|r.	lot talents_001
+sort	139778		Name	9fb88f9f6d5d	Expulsion du mal	lot talents_001
+sort	200749		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	255275		Description	75c5800038fb	Canalise pendant $d en annonçant la fin du monde à tous les ennemis proches : leur retire instantanément tous les effets magiques bénéfiques, et réduit de $255276s1% vos dégâts subis ainsi que leur hâte et leur vitesse de déplacement pendant la canalisation.\r\n\r\nPendant la canalisation, les ennemis proches sont aussi frappés par |cffffffffCieux apocalyptiques|r.\r\n\r\nÀ la fin de l'effet, vous poussez un cri terrifiant qui applique |cffffffffCorruption de l'esprit|r aux ennemis proches.	lot talents_001
+sort	255275		Name	8f3028077b04	Heure du crépuscule	lot talents_001
+sort	255275		ToolTip	f7ea4fd12651	Canalisation. Dégâts subis réduits de ${$w1}%.\r\n\r\nLes ennemis proches sont frappés par Cieux apocalyptiques. À la fin de l'effet, vous corromprez l'esprit des ennemis proches.	lot talents_001
+sort	280050		Description	6de1ce2fb378	Augmente de $s1% l'efficacité de vos effets d'absorption des dégâts.	lot talents_001
+sort	280050		Name	0b6e5551caab	Protection ténébreuse	lot talents_001
+sort	280051		Description	6de1ce2fb378	Augmente de $s1% l'efficacité de vos effets d'absorption des dégâts.	lot talents_001
+sort	280051		Name	0b6e5551caab	Protection ténébreuse	lot talents_001
+sort	280070		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280070		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280070		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280071		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280071		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280071		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280072		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280072		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280072		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280073		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280073		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280073		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280074		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280074		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280074		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280075		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280075		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280075		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280076		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280076		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280076		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280077		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280077		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280077		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280078		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280078		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280078		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280079		Description	83dc38031ffa	@req:84867@\r\n|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nPsalmodie un rituel interdit qui place sur tous les alliés proches un bouclier absorbant ${$m1+$BH*.2} points de dégâts pendant $d. 	lot talents_001
+sort	280079		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	280079		ToolTip	b521e447ed00	Absorbe ${$W1} points de dégâts.	lot talents_001
+sort	280545		Description	0dfc8752dfc4	|cFFFFFFFFCe sort appartient à la classe |r|cFFFF300FPyromancien|r\r\n\r\nBondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	280545		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	280545		ToolTip	c8052cd0d1fa	Bondit vers l'emplacement ciblé, inflige des dégâts de Feu et ralentit les ennemis proches.	lot talents_001
+sort	280546		Description	bba2084fb9f8	Bondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	280546		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	280546		ToolTip	c8052cd0d1fa	Bondit vers l'emplacement ciblé, inflige des dégâts de Feu et ralentit les ennemis proches.	lot talents_001
+sort	280547		Description	bba2084fb9f8	Bondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	280547		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	280547		ToolTip	c8052cd0d1fa	Bondit vers l'emplacement ciblé, inflige des dégâts de Feu et ralentit les ennemis proches.	lot talents_001
+sort	280548		Description	bba2084fb9f8	Bondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	280548		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	280548		ToolTip	c8052cd0d1fa	Bondit vers l'emplacement ciblé, inflige des dégâts de Feu et ralentit les ennemis proches.	lot talents_001
+sort	280549		Description	bba2084fb9f8	Bondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	280549		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	280549		ToolTip	c8052cd0d1fa	Bondit vers l'emplacement ciblé, inflige des dégâts de Feu et ralentit les ennemis proches.	lot talents_001
+sort	280550		Description	bba2084fb9f8	Bondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	280550		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	280550		ToolTip	c8052cd0d1fa	Bondit vers l'emplacement ciblé, inflige des dégâts de Feu et ralentit les ennemis proches.	lot talents_001
+sort	280860		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280860		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280860		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280861		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280861		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280861		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280862		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280862		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280862		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280863		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280863		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280863		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280864		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280864		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280864		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280865		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280865		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280865		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280866		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280866		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280866		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280867		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280867		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280867		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	280868		Description	d741a4f1e406	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nRend rapidement $o1 points de vie à un allié en $d.\r\n\r\n$?s705957[Au bout de $t2 sec.,][À la fin de l'effet,] le baume cherche un autre allié proche, celui qui a le moins de points de vie, et lui rend ${$m2+$ppl2+$SP*0.1+$AP*0.05} points de vie. 	lot talents_001
+sort	280868		Name	461b533df2a5	Baume vert	lot talents_001
+sort	280875		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280875		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280876		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280876		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280877		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280877		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280878		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280878		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280879		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280879		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280880		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280880		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280881		Description	81661e6a6eca	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCrée autour de vous une onde sismique d'eau curative, qui rend ${$m1+0+$SP*0.1+$AP*0.05} points de vie à $i alliés au maximum et inflige ${$m2+0+$SP*0.1+$AP*0.05} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.  \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	280881		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	280885		Description	a196d6a9f734	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\n|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280886		Description	123c497f78ab	|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280887		Description	123c497f78ab	|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280888		Description	123c497f78ab	|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280889		Description	123c497f78ab	|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280890		Description	123c497f78ab	|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280891		Description	123c497f78ab	|cffffffff2 charges, recharge de 8 sec.|r\r\nFrappe le sol du pied, ce qui inflige les dégâts de l'arme plus ${$m3+0+$spn*.2+$AP*.1} points de dégâts de Nature aux ennemis à moins de $a1 mètres et réduit leur hâte en mêlée et à distance de $280892s1% pendant $280892d.	lot talents_001
+sort	280940		Description	967779502ebf	|cFFFFFFFFCe sort appartient à la classe |r|cFFF58CBAClerc du soleil|r\r\n\r\nÉmet une puissante lumière sacrée dans un rayon de $a1 mètres, qui inflige ${$m1+0+$sph*0.9+$AP*0.050575} points de dégâts du Sacré à tous les ennemis proches. \r\n\r\nCette technique inflige toujours un coup critique aux morts-vivants et aux démons.	lot talents_001
+sort	280940		Name	787304b8592a	Nova solaire	lot talents_001
+sort	280941		Description	967779502ebf	|cFFFFFFFFCe sort appartient à la classe |r|cFFF58CBAClerc du soleil|r\r\n\r\nÉmet une puissante lumière sacrée dans un rayon de $a1 mètres, qui inflige ${$m1+0+$sph*0.9+$AP*0.050575} points de dégâts du Sacré à tous les ennemis proches. \r\n\r\nCette technique inflige toujours un coup critique aux morts-vivants et aux démons.	lot talents_001
+sort	280941		Name	787304b8592a	Nova solaire	lot talents_001
+sort	280942		Description	967779502ebf	|cFFFFFFFFCe sort appartient à la classe |r|cFFF58CBAClerc du soleil|r\r\n\r\nÉmet une puissante lumière sacrée dans un rayon de $a1 mètres, qui inflige ${$m1+0+$sph*0.9+$AP*0.050575} points de dégâts du Sacré à tous les ennemis proches. \r\n\r\nCette technique inflige toujours un coup critique aux morts-vivants et aux démons.	lot talents_001
+sort	280942		Name	787304b8592a	Nova solaire	lot talents_001
+sort	280990		Description	19f79f426207	|cFFFFFFFFCe sort appartient à la classe |r|cFFCC9900Mage de sang|r\r\n\r\nLacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280990		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280991		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280991		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280992		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280992		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280993		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280993		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280994		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280994		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280995		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280995		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280996		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280996		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	280997		Description	fa7ef3c99328	Lacère un ennemi et lui inflige $s2% des dégâts de l'arme plus ${$m1+0}.\r\n\r\nSi vous êtes derrière l'ennemi ou s'il saigne, inflige $280998s1% de dégâts d'Ombre supplémentaires pour chaque condition remplie. Si l'ennemi a moins de 35% de ses points de vie, inflige $280998s2% de dégâts d'Ombre supplémentaires.	lot talents_001
+sort	280997		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	281060		Description	bd99f7186625	|cFFFFFFFFCe sort appartient à la classe |r|cFFFF300FPyromancien|r\r\n\r\nInvoque autour de vous un bouclier de magma et de feu qui absorbe ${$m1+0+$spfi*2} points de dégâts. Dure $d.	lot talents_001
+sort	281060		Name	7d2c85148321	Carapace volcanique	lot talents_001
+sort	281060		ToolTip	cc5f7ca80796	Absorbe les dégâts.	lot talents_001
+sort	281061		Description	354501281085	Invoque autour de vous un bouclier de magma et de feu qui absorbe ${$m1+0+$spfi*2} points de dégâts. Dure $d.	lot talents_001
+sort	281061		Name	7d2c85148321	Carapace volcanique	lot talents_001
+sort	281061		ToolTip	cc5f7ca80796	Absorbe les dégâts.	lot talents_001
+sort	281062		Description	354501281085	Invoque autour de vous un bouclier de magma et de feu qui absorbe ${$m1+0+$spfi*2} points de dégâts. Dure $d.	lot talents_001
+sort	281062		Name	7d2c85148321	Carapace volcanique	lot talents_001
+sort	281062		ToolTip	cc5f7ca80796	Absorbe les dégâts.	lot talents_001
+sort	281063		Description	354501281085	Invoque autour de vous un bouclier de magma et de feu qui absorbe ${$m1+0+$spfi*2} points de dégâts. Dure $d.	lot talents_001
+sort	281063		Name	7d2c85148321	Carapace volcanique	lot talents_001
+sort	281063		ToolTip	cc5f7ca80796	Absorbe les dégâts.	lot talents_001
+sort	281064		Description	354501281085	Invoque autour de vous un bouclier de magma et de feu qui absorbe ${$m1+0+$spfi*2} points de dégâts. Dure $d.	lot talents_001
+sort	281064		Name	7d2c85148321	Carapace volcanique	lot talents_001
+sort	281064		ToolTip	cc5f7ca80796	Absorbe les dégâts.	lot talents_001
+sort	281070		Description	d2f6fe98541a	|cFFFFFFFFCe sort appartient à la classe |r|cFFFF300FPyromancien|r\r\n\r\nCrée un pilier de lave sous un ennemi, qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.\r\n\r\nInflige ${$m2+0+$spfi*0.34364} points de dégâts de Feu supplémentaires aux ennemis proches de la cible principale.	lot talents_001
+sort	281070		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	281071		Description	de619805371e	Crée un pilier de lave sous un ennemi, qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.\r\n\r\nInflige ${$m2+0+$spfi*0.34364} points de dégâts de Feu supplémentaires aux ennemis proches de la cible principale.	lot talents_001
+sort	281071		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	281072		Description	de619805371e	Crée un pilier de lave sous un ennemi, qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.\r\n\r\nInflige ${$m2+0+$spfi*0.34364} points de dégâts de Feu supplémentaires aux ennemis proches de la cible principale.	lot talents_001
+sort	281072		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	281073		Description	de619805371e	Crée un pilier de lave sous un ennemi, qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.\r\n\r\nInflige ${$m2+0+$spfi*0.34364} points de dégâts de Feu supplémentaires aux ennemis proches de la cible principale.	lot talents_001
+sort	281073		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	281074		Description	de619805371e	Crée un pilier de lave sous un ennemi, qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.\r\n\r\nInflige ${$m2+0+$spfi*0.34364} points de dégâts de Feu supplémentaires aux ennemis proches de la cible principale.	lot talents_001
+sort	281074		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	281075		Description	de619805371e	Crée un pilier de lave sous un ennemi, qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.\r\n\r\nInflige ${$m2+0+$spfi*0.34364} points de dégâts de Feu supplémentaires aux ennemis proches de la cible principale.	lot talents_001
+sort	281075		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	281080		Description	16d7a12658cc	|cFFFFFFFFCe sort appartient à la classe |r|cFFFF300FPyromancien|r\r\n\r\nFait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281080		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281081		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281081		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281082		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281082		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281083		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281083		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281084		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281084		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281085		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281085		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281086		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281086		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281087		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281087		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281088		Description	a2ea3bc88572	Fait pleuvoir des traînées de feu sur un ennemi et sur $x1 ennemis au maximum à moins de $a1 mètres de lui, ce qui inflige ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot talents_001
+sort	281088		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	281090		Description	352dbd6f7324	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.12+$AP*0.08} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $281097t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$281099m1*$<scalingbp>+$spn*.2} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281090		Name	67b782e4b825	Spore	lot talents_001
+sort	281090		ToolTip	c2a45c05399b	Inflige ${$w1} points de dégâts d'Ombre toutes les $t1 sec.	lot talents_001
+sort	281091		Description	36ac6ee814be	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.2+$AP*0.13} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $807153t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$504543m1*$<scalingbp>+$spn*.25} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281091		Name	67b782e4b825	Spore	lot talents_001
+sort	281092		Description	36ac6ee814be	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.2+$AP*0.13} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $807153t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$504543m1*$<scalingbp>+$spn*.25} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281092		Name	67b782e4b825	Spore	lot talents_001
+sort	281093		Description	36ac6ee814be	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.2+$AP*0.13} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $807153t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$504543m1*$<scalingbp>+$spn*.25} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281093		Name	67b782e4b825	Spore	lot talents_001
+sort	281094		Description	36ac6ee814be	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.2+$AP*0.13} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $807153t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$504543m1*$<scalingbp>+$spn*.25} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281094		Name	67b782e4b825	Spore	lot talents_001
+sort	281095		Description	36ac6ee814be	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.2+$AP*0.13} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $807153t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$504543m1*$<scalingbp>+$spn*.25} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281095		Name	67b782e4b825	Spore	lot talents_001
+sort	281096		Description	36ac6ee814be	|cFFFFFFFFCe sort appartient à la classe |r|cFF00FF99Vénomancien|r\r\n\r\nInjecte des spores parasites à un ennemi, ce qui inflige ${$m2+0+$spn*.2+$AP*0.13} points de dégâts d'Ombre, plus $o1 points de dégâts supplémentaires en $d.\r\n\r\nAu bout de $807153t1 sec., fait pousser sous la cible un |cffffffffChampignon|r qui explose au bout de 2 sec. et inflige ${$504543m1*$<scalingbp>+$spn*.25} points de dégâts de Nature aux ennemis proches.	lot talents_001
+sort	281096		Name	67b782e4b825	Spore	lot talents_001
+sort	281220		Description	f1a7a7e96c91	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nCharge au secours d'un allié, lui rend ${$m2+0+$SP*0.2} points de vie et inflige ${$m3+0+$SP*0.2} points de dégâts de Nature aux ennemis à moins de $a3 mètres de lui.	lot talents_001
+sort	281220		Name	b6102abc9068	Charge spirituelle	lot talents_001
+sort	281221		Description	ddae3d8d361c	Charge au secours d'un allié, lui rend ${$m2+0+$BH*0.2+$AP*.2} points de vie et inflige ${$m3+0+$BH*0.2+$AP*.2} points de dégâts de Nature aux ennemis à moins de $a3 mètres de lui.	lot talents_001
+sort	281221		Name	b6102abc9068	Charge spirituelle	lot talents_001
+sort	281222		Description	ddae3d8d361c	Charge au secours d'un allié, lui rend ${$m2+0+$BH*0.2+$AP*.2} points de vie et inflige ${$m3+0+$BH*0.2+$AP*.2} points de dégâts de Nature aux ennemis à moins de $a3 mètres de lui.	lot talents_001
+sort	281222		Name	b6102abc9068	Charge spirituelle	lot talents_001
+sort	281223		Description	ddae3d8d361c	Charge au secours d'un allié, lui rend ${$m2+0+$BH*0.2+$AP*.2} points de vie et inflige ${$m3+0+$BH*0.2+$AP*.2} points de dégâts de Nature aux ennemis à moins de $a3 mètres de lui.	lot talents_001
+sort	281223		Name	b6102abc9068	Charge spirituelle	lot talents_001
+sort	281224		Description	ddae3d8d361c	Charge au secours d'un allié, lui rend ${$m2+0+$BH*0.2+$AP*.2} points de vie et inflige ${$m3+0+$BH*0.2+$AP*.2} points de dégâts de Nature aux ennemis à moins de $a3 mètres de lui.	lot talents_001
+sort	281224		Name	b6102abc9068	Charge spirituelle	lot talents_001
+sort	281240		Description	0b84eb617504	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nEnvoie une secousse à travers le sol vers un ennemi, ce qui inflige ${$m1+0+$spn*0.1875+$AP*0.1875} points de dégâts physiques, plus $o2 points de dégâts supplémentaires en $d. Les dégâts sont faibles au début, puis augmentent avec le temps. \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	281240		Name	7423d2f5bbae	Tremblement sismique	lot talents_001
+sort	281240		ToolTip	58b788b02c2c	Inflige des dégâts physiques croissants sur la durée.	lot talents_001
+sort	281241		Description	5268bb2f67bc	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nEnvoie une secousse à travers le sol vers un ennemi, ce qui inflige ${$m1+0+$spn*0.25+$AP*0.25} points de dégâts physiques, plus $o2 points de dégâts supplémentaires en $d. Les dégâts sont faibles au début, puis augmentent avec le temps. \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	281241		Name	7423d2f5bbae	Tremblement sismique	lot talents_001
+sort	281241		ToolTip	58b788b02c2c	Inflige des dégâts physiques croissants sur la durée.	lot talents_001
+sort	281242		Description	5268bb2f67bc	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nEnvoie une secousse à travers le sol vers un ennemi, ce qui inflige ${$m1+0+$spn*0.25+$AP*0.25} points de dégâts physiques, plus $o2 points de dégâts supplémentaires en $d. Les dégâts sont faibles au début, puis augmentent avec le temps. \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	281242		Name	7423d2f5bbae	Tremblement sismique	lot talents_001
+sort	281242		ToolTip	58b788b02c2c	Inflige des dégâts physiques croissants sur la durée.	lot talents_001
+sort	281243		Description	5268bb2f67bc	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nEnvoie une secousse à travers le sol vers un ennemi, ce qui inflige ${$m1+0+$spn*0.25+$AP*0.25} points de dégâts physiques, plus $o2 points de dégâts supplémentaires en $d. Les dégâts sont faibles au début, puis augmentent avec le temps. \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	281243		Name	7423d2f5bbae	Tremblement sismique	lot talents_001
+sort	281243		ToolTip	58b788b02c2c	Inflige des dégâts physiques croissants sur la durée.	lot talents_001
+sort	281244		Description	5268bb2f67bc	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nEnvoie une secousse à travers le sol vers un ennemi, ce qui inflige ${$m1+0+$spn*0.25+$AP*0.25} points de dégâts physiques, plus $o2 points de dégâts supplémentaires en $d. Les dégâts sont faibles au début, puis augmentent avec le temps. \r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_001
+sort	281244		Name	7423d2f5bbae	Tremblement sismique	lot talents_001
+sort	281244		ToolTip	58b788b02c2c	Inflige des dégâts physiques croissants sur la durée.	lot talents_001
+sort	281270		Description	27aa6f86fb65	|cFFFFFFFFCe sort appartient à la classe |r|cFFA3A3A3Bricoleur|r\r\n\r\nLance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281270		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281271		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281271		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281272		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281272		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281273		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281273		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281274		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281274		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281275		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281275		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281276		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281276		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	281277		Description	fed195fcc9e1	Lance une bombe sur un ennemi, ce qui inflige ${$m1+0+$RAP*.3+$spfi*.5} points de dégâts de Feu et réduit son armure de $281278s1% pendant $281278d. Cumulable $281278u fois.	lot talents_001
+sort	281277		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	288990		Description	006f80c5cdda	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nMarque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288990		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288991		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288991		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288992		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288992		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288993		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288993		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288994		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288994		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288995		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288995		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288996		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288996		Name	2525220c6f09	Marque runique	lot talents_001
+sort	288997		Description	f84290110924	Marque un ennemi au fer, ce qui inflige ${$m1+0+$AP*.26} points de dégâts de Feu avec chaque arme et marque l'ennemi pendant $288999d.@s:288999:0@	lot talents_001
+sort	288997		Name	2525220c6f09	Marque runique	lot talents_001
+sort	289030		Description	0e610c30cba6	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nFrappe rapidement un ennemi et lui inflige $s2% des dégâts de l'arme sous forme de dégâts d'Ombre, en lui retirant $s3 effet magique bénéfique.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_001
+sort	289030		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	289031		Description	0e610c30cba6	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nFrappe rapidement un ennemi et lui inflige $s2% des dégâts de l'arme sous forme de dégâts d'Ombre, en lui retirant $s3 effet magique bénéfique.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_001
+sort	289031		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	289032		Description	0e610c30cba6	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nFrappe rapidement un ennemi et lui inflige $s2% des dégâts de l'arme sous forme de dégâts d'Ombre, en lui retirant $s3 effet magique bénéfique.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_001
+sort	289032		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	289033		Description	0e610c30cba6	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nFrappe rapidement un ennemi et lui inflige $s2% des dégâts de l'arme sous forme de dégâts d'Ombre, en lui retirant $s3 effet magique bénéfique.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_001
+sort	289033		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	289034		Description	0e610c30cba6	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nFrappe rapidement un ennemi et lui inflige $s2% des dégâts de l'arme sous forme de dégâts d'Ombre, en lui retirant $s3 effet magique bénéfique.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_001
+sort	289034		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	289035		Description	0e610c30cba6	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nFrappe rapidement un ennemi et lui inflige $s2% des dégâts de l'arme sous forme de dégâts d'Ombre, en lui retirant $s3 effet magique bénéfique.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_001
+sort	289035		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	289050		Description	991b1833f68f	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.3} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289050		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289051		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289051		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289052		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289052		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289053		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289053		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289054		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289054		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289055		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289055		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289056		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289056		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289057		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289057		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289058		Description	d45e7c19b5b5	|cFFFFFFFFCe sort appartient à la classe |r|cFF0D2ED6Primaliste|r\r\n\r\nDéchaîne un énorme globe de terre sur un ennemi, ce qui inflige ${$m1+0+$spn*0.6} points de dégâts physiques et réduit son armure de $289059S1% pendant $/1000;S2 sec.\r\n\r\nTraverse les effets d'absorption, de déviation et de renvoi.	lot talents_001
+sort	289058		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	289080		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289080		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289081		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289081		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289082		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289082		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289083		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289083		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289084		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289084		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289085		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289085		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289086		Description	fa0cbf4c4ac3	|cFFFFFFFFCe sort appartient à la classe |r|cFFF2E699Maître des runes|r\r\n\r\nTaillade devant vous avec une fureur glaciale, ce qui inflige ${$m2+0+$AP*0.1+$SP*0.1} points de dégâts de Givre à $i ennemis proches au maximum, plus ${$m2+0+$AP*0.1+$SP*0.1} toutes les $t2 sec. pendant $d. \r\n\r\nLes ennemis touchés par la frappe initiale sont gelés sur place pendant $289087d.	lot talents_001
+sort	289086		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	289130		Description	bdb394e5e72e	|cFFFFFFFFCe sort appartient à la classe |r|cFFE0C7FFCultiste|r\r\n\r\nLance un bouclier maudit qui inflige ${$m1+0} points de dégâts d'Ombre à $x1 ennemis au maximum, réduits de ${($f1-1)*100* -1}% à chaque rebond.	lot talents_001
+sort	289130		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	289131		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	289132		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	289133		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	289134		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	289135		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	289136		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	501174		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501175		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501176		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501177		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501178		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501179		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501180		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501181		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	501344		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501345		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501346		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501347		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501348		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501349		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501350		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501351		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501352		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501353		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501354		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	501355		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	502951		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	502952		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	502953		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	502954		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	502955		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	502956		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	502957		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	524876		Name	6eb30b60d00a	Lancer de bouclier crépusculaire	lot talents_001
+sort	570733		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	573059		ToolTip	59704ddaffeb	Les |cffffffffCors|r permettent désormais d'utiliser |cffffffffDard toxique|r comme si vous étiez sous l'effet de |cffffffffDérobade|r ; ils réduisent sa durée de $300851s1% et augmentent ses dégâts de $300851s3% pendant $300851d.\r\n\r\nDe plus, les dégâts périodiques de votre |cffffffffDard toxique|r peuvent désormais être critiques.	lot talents_001
+sort	582308		Description	6de1ce2fb378	Augmente de $s1% l'efficacité de vos effets d'absorption des dégâts.	lot talents_001
+sort	680442		Name	7423d2f5bbae	Tremblement sismique	lot talents_001
+sort	680442		ToolTip	58b788b02c2c	Inflige des dégâts physiques croissants sur la durée.	lot talents_001
+sort	680621		Name	787304b8592a	Nova solaire	lot talents_001
+sort	681119		Name	3ae8edf34ab1	Déferlante tellurique	lot talents_001
+sort	706181		Description	6de1ce2fb378	Augmente de $s1% l'efficacité de vos effets d'absorption des dégâts.	lot talents_001
+sort	706181		Name	0b6e5551caab	Protection ténébreuse	lot talents_001
+sort	706894		Name	0d27e1cd161c	Oblitération	lot talents_001
+sort	712299		Name	2525220c6f09	Marque runique	lot talents_001
+sort	800105		Name	28306a2d0a46	Rituel interdit	lot talents_001
+sort	800144		Description	ddae3d8d361c	Charge au secours d'un allié, lui rend ${$m2+0+$BH*0.2+$AP*.2} points de vie et inflige ${$m3+0+$BH*0.2+$AP*.2} points de dégâts de Nature aux ennemis à moins de $a3 mètres de lui.	lot talents_001
+sort	800144		Name	b6102abc9068	Charge spirituelle	lot talents_001
+sort	800162		Name	3622319c2dcb	Tourmenteur	lot talents_001
+sort	800490		Name	e870aafcd6c6	Saccage	lot talents_001
+sort	800899		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	800902		Name	461b533df2a5	Baume vert	lot talents_001
+sort	800902		ToolTip	de9096364797	Rend ${$m1+$ppl1} points de vie toutes les $t1 sec.	lot talents_001
+sort	801005		Name	690e6a8deffe	Lancer de bombe	lot talents_001
+sort	801104		ToolTip	5a409e048542	Inflige des dégâts de Givre toutes les $t2 sec.	lot talents_001
+sort	801481		Name	d552072367b8	Gloire	lot talents_001
+sort	801905		Name	d4a988ab59b9	Chute de flammes	lot talents_001
+sort	802087		Name	bf1850b2d376	Mauvais juju	lot talents_001
+sort	803817		Name	c42a22895d8a	Broyeur	lot talents_001
+sort	804983		Name	67b782e4b825	Spore	lot talents_001
+sort	804983		ToolTip	c2a45c05399b	Inflige ${$w1} points de dégâts d'Ombre toutes les $t1 sec.	lot talents_001
+sort	805462		Name	373cfe1320b3	Onde sismique	lot talents_001
+sort	805477		Name	7d2c85148321	Carapace volcanique	lot talents_001
+sort	805496		Name	9552c32c7ede	Pilier de flammes	lot talents_001
+sort	805796		Name	a8d33e28e80a	Poings de puissance	lot talents_001
+sort	806222		Name	921e77ed0850	Frappe du Néant	lot talents_001
+sort	806611		Description	bba2084fb9f8	Bondit vers l'emplacement ciblé et s'écrase au sol, ce qui inflige ${$m1+0+$spfi*.3} points de dégâts de Feu à $i ennemis proches au maximum.	lot talents_001
+sort	806611		Name	a7a527beb25e	Bond du dragon	lot talents_001
+sort	807172		Name	899658e27a6c	Tempo	lot talents_001
+sort	807183		Name	c42a22895d8a	Broyeur	lot talents_001
+sort	807875		Name	c42a22895d8a	Broyeur	lot talents_001

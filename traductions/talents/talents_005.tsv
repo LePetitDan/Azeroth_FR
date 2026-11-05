@@ -1,0 +1,519 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	500261		Description	48401bebd60e	Fixe une |cffffffffBannière de conquête|r dans votre dos, ce qui augmente de $500264s1% les chances de coup critique des membres du groupe et du raid à moins de $500264a1 mètres.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_005
+sort	500261		Name	3ef51c60bec7	Bannière de conquête	lot talents_005
+sort	500263		Name	03b5b37caa74	Étendard de ralliement	lot talents_005
+sort	500270		Description	b684b699bf45	Marque votre position actuelle d'une rune d'écho pendant $d.\r\n\r\nÀ la fin de l'effet ou quand vous réactivez la technique, vous vous téléportez à la position marquée et récupérez ${$500272m1+$500272ppl1+$AP*1.5} points de vie.	lot talents_005
+sort	500270		Name	87a20127c527	Rune d'écho	lot talents_005
+sort	500270		ToolTip	4a3898ac97ec	Vous serez $gtéléporté:téléportée; à la position marquée à la fin de l'effet. 	lot talents_005
+sort	500286		Description	2433c98323b4	|cFF66DDFFPassif de niveau 30|r\r\nÉviter une attaque a désormais $h% de chances de moissonner un |cffffffffSoul Fragment|r sur l'attaquant.	lot talents_005
+sort	500286		Name	f44093e08a48	Glissement d'âme	lot talents_005
+sort	500287		Description	84217eefd4eb	Lance une dague enchantée droit devant vous. Quand vous réactivez la technique, vous vous téléportez instantanément jusqu'à la dague et infligez ${$500495m1+$500495ppl1+$SP*.44+$AP*.2} points de dégâts élémentaires aux ennemis proches.\r\n\r\nUtilisable sous camouflage.	lot talents_005
+sort	500287		Name	0c011736ac0d	Dague de distorsion	lot talents_005
+sort	500287		ToolTip	f69f6b415c88	Lance une dague magique à 30 mètres devant vous. \r\n\r\nRéactivez cette technique pour vous téléporter jusqu'à elle et infliger à votre arrivée ${$500495m1+$500495ppl1+$AP*.2+$SP*.44} points de dégâts élémentaires à tous les ennemis autour de vous.\r\n\r\nUtilisable sous camouflage.	lot talents_005
+sort	500294		Description	9af570b39816	|cffffffffFracas totémique|r et |cffffffffMorsure du rylak|r font désormais saigner les ennemis, ce qui leur inflige ${$560313m1*$<scalingbp>+$AP*0.045} points de dégâts en $560313d. Cumulable 2 fois.	lot talents_005
+sort	500294		Name	2f92ad76bd80	Mis en lambeaux	lot talents_005
+sort	500296		Description	a93a2e505594	Crée une |cffffffffGravure de puissance|r sous vous pendant $d, qui augmente de $s1% les dégâts magiques infligés et de $s2% les chances de coup critique de $i alliés au maximum qui se tiennent dans la zone.	lot talents_005
+sort	500296		Name	287fb046c566	Gravure de puissance	lot talents_005
+sort	500296		ToolTip	ea71e7d23c99	Chances de coup critique augmentées de ${$w2}%. Dégâts magiques augmentés de ${$w1}%.	lot talents_005
+sort	500302		Description	e4ff31b8b951	Dissiper un effet de poison ou de maladie avec |cffffffffToucher apaisant|r vous rend désormais $525015s1% de votre maximum de points de vie.	lot talents_005
+sort	500302		Name	43c1f0f9364f	Volonté d'émeraude	lot talents_005
+sort	500302		ToolTip	6ca2727150dd	Désarmé.	lot talents_005
+sort	500329		Description	cba04d427d16	Réanime une |cffffffffGargouille|r tombée qui vous aide au combat ; elle occupe 3 points de |cffffffffForce vitale|r. \r\n\r\n|cff90ee90Commandement|r : crache de la bile nécrotique sur un ennemi, ce qui inflige ${$707598m1+$707598ppl1+$SP*0.65} points de dégâts de Peste, augmentés de 50% pour chacune de vos maladies sur la cible.	lot talents_005
+sort	500329		Name	a7cb58e4c266	Réanimation : Gargouille	lot talents_005
+sort	500331		Description	6864a2ef88aa	Réanime un |cffffffffMage squelette|r qui vous aide au combat ; il occupe $?s807937[1][2] points de |cffffffffForce vitale|r.\r\n\r\n|cff90ee90Commandement|r : déchaîne de la glace sur votre cible et les ennemis à moins de $801513a1 mètres, ce qui inflige ${$801513m1+$801513ppl1+$spfr*.8} points de dégâts de Givre.	lot talents_005
+sort	500331		Name	73e078ec2de2	Réanimation : Mage squelette	lot talents_005
+sort	500335		Description	ca8339e6e9cc	Réanime une |cffffffffAbomination|r qui vous aide au combat ; elle occupe 3 points de |cffffffffForce vitale|r.\r\n\r\nElle est entourée d'un nuage de maladie qui inflige ${$802353m1+$802353ppl1+$SP*0.25} points de dégâts de Nature aux ennemis quand ils infligent des dégâts et réduit leur vitesse d'attaque de $578319s1% pendant $578319d.\r\n\r\n|cff90ee90Commandement|r : déchaîne instantanément un nuage de maladie renforcé autour d'elle.	lot talents_005
+sort	500335		Name	5d59b737e2cc	Réanimation : Abomination	lot talents_005
+sort	500338		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	500338		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	500338		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	500342		Description	63c647b762bb	Pendant $d, vos maladies mutent et deviennent plus rapidement mortelles : celles que vous appliquez pendant ce temps ont des effets périodiques $s1% plus rapides.	lot talents_005
+sort	500342		Name	13bcc5c25bae	Mutation	lot talents_005
+sort	500342		ToolTip	23564ed49eef	La fréquence des effets périodiques de vos maladies de nécromancien est augmentée de ${$w1}%.	lot talents_005
+sort	500359		Name	09dc425e8edb	Ruée de la faux	lot talents_005
+sort	500359		ToolTip	7b72af2aeea7	Insensible à Ruée de la faux.	lot talents_005
+sort	500373		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500373		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500429		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500429		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500430		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500430		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500431		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500431		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500432		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500432		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500433		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500433		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500434		Description	306a83416f0d	|cff5ee2ffGénère 1 Reaped Soul|r\r\nAnéantit un ennemi avec votre faux, ce qui inflige $s2% des dégâts de l'arme plus $s1.\r\n\r\nUtilisable uniquement sur un ennemi qui a moins de 35% de ses points de vie.	lot talents_005
+sort	500434		Name	5dd359c432c6	Massacre	lot talents_005
+sort	500445		Description	209c470a8e81	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre score de coup critique des sorts d'un montant égal à $s1% de votre Agilité et votre score de toucher des sorts de $s2% de votre Agilité.\r\n\r\nDe plus, vous gagnez désormais de la pénétration des sorts à hauteur de votre score de pénétration d'armure.	lot talents_005
+sort	500445		Name	49e0f618c58d	Puissance interdite	lot talents_005
+sort	500464		Description	1374a1e9a55c	Inscrit une rune défensive sous vous dans un rayon de $a1 mètres et invoque une barrière : les alliés dans ce rayon subissent $s1% de dégâts magiques en moins. Dure $d.	lot talents_005
+sort	500464		Name	84adee2bd925	Rune de garde	lot talents_005
+sort	500464		ToolTip	af20a266b39e	Dégâts magiques subis réduits de ${$w1}%.	lot talents_005
+sort	500472		Description	cf007ed00f5e	Le temps de recharge de vos |cffffffffLancer de potion|r et |cffffffffPotion éclaboussante|r est réinitialisé, et leur prochaine utilisation dans les $d applique |cffffffffChardon de la jungle|r aux alliés affectés.\r\n\r\nRemplace instantanément vos |cffffffffIngrédients|r par |cffffffffChampignons de la jungle|r et |cffffffffChardon sanglant|r.\r\n@ext:@s:500508:0@:ext@	lot talents_005
+sort	500472		Name	12772e6f9933	Mojo : Chardon de la jungle	lot talents_005
+sort	500472		ToolTip	d902dda517e6	Lancer de potion et Potion éclaboussante appliquent désormais Chardon de la jungle.	lot talents_005
+sort	500476		Description	4ad92ee7b717	Tant que |cffffffffGravure d'arme : Feu|r est active, votre |cffffffffDécharge élémentaire|r inflige désormais $s1% de dégâts supplémentaires sous forme de dégâts de Feu, et vos chances de déclencher |CffffffffGravure d'arme : Feu|r sont augmentées de $500475s2%.	lot talents_005
+sort	500476		Name	54309a10181f	Gravure brûlée	lot talents_005
+sort	500476		ToolTip	9f1179ee33ed	Tant que |cffffffffGravure d'arme : Feu|r est active, |cffffffffDécharge élémentaire|r inflige désormais ${$w1}% de dégâts de Feu supplémentaires, et vos chances de déclencher |CffffffffMarque de feu|r sont augmentées de $500475s2%.	lot talents_005
+sort	500483		Description	cb26a3c707a5	Crée $?s561100[2][1] |cffffffffÂme$?s561100[s tourmentées][ tourmentée]|r et génère de la puissance runique pour chaque |cff5ee2ffReaped Soul|r active.\r\n\r\nConsomme les |cff5ee2ffReaped Souls|r et |cff5ee2ffInfusion d'âme|r.\r\n@s:500481:0@	lot talents_005
+sort	500483		Name	7006c1cfa6c1	Âmes tourmentées	lot talents_005
+sort	500484		Description	6077094a381b	Invoque 1 |cffffffffFaux spectrale|r pour chaque |cff5ee2ffReaped Soul|r active ; elles attaquent un ennemi proche pendant $d.$?s301986[ Pendant cette durée, les dégâts infligés par |cffffffffFrappe de l'âme|r sont augmentés de $301986s1%.][]\r\n\r\nFrapper des ennemis avec |cffffffffFrappe de l'âme|r pousse la |cFFFFFFFFFaux spectrale|r à attaquer cet ennemi et 5 ennemis proches. \r\n\r\nConsomme les |cff5ee2ffReaped Souls|r et |cff5ee2ffInfusion d'âme|r.\r\n\r\n@ext:La menace générée par la |cFFFFFFFFFaux spectrale|r est redirigée vers le faucheur.:ext@	lot talents_005
+sort	500484		Name	2cdcf2b502dd	Faux spectrale	lot talents_005
+sort	500484		ToolTip	0872d0ae36ad	Une faux spectrale combat à vos côtés.$?s301986[ Les dégâts infligés par Frappe de l'âme sont augmentés de $301986s1%.][]	lot talents_005
+sort	500501		Description	ef7efde0e8a6	Applique une marque runique à un ennemi pendant $d, qui accumule 50% des dégâts que vous infligez et les déchaîne au bout de $d sous forme de dégâts élémentaires.\r\n\r\nQuand elle inflige des dégâts, elle déclenche votre |cffffffffGravure d'arme|r.	lot talents_005
+sort	500501		Name	17b30f8a9fe5	Genèse	lot talents_005
+sort	500501		ToolTip	fe53608f5163	Accumulation de dégâts.	lot talents_005
+sort	500535		Description	617dfcdb7779	Construit une |cFFFFFFFFBombe araignée|r qui court immédiatement vers votre cible et explose, ce qui inflige ${$801982m1+$801982ppl1+$RAP*.18+$SP*0.18} points de dégâts de Feu dans un rayon de $801982a1 mètres.\r\n\r\nUtiliser |cFFFFFFFFTir de ferraille|r redirige les |cffffffffBombes araignées|r vers votre nouvelle cible.	lot talents_005
+sort	500535		Name	94ca5ede8564	Construire : Bombe araignée	lot talents_005
+sort	500535		ToolTip	ac5bd19ed20c	Une bombe araignée vous poursuit.	lot talents_005
+sort	500542		Description	e9a225111abe	|cFF66DDFFPassif de niveau 40|r\r\nAugmente votre score de coup critique d'un montant égal à $s2% de votre Force.\r\n\r\nDe plus, augmente de $s1% votre pénétration d'armure contre les ennemis qui ont moins de 35% de leurs points de vie.	lot talents_005
+sort	500551		Description	be6a44f26934	Les coups critiques de |cFFFFFFFFPreneur de crânes|r augmentent désormais la hâte de votre |cFFFFFFFFDiablotin supérieur|r de $500552s1% pendant $500552d.	lot talents_005
+sort	500551		Name	3dc0a0a49f9b	Rituels des Flammes infernales	lot talents_005
+sort	500567		Description	71fad34ee26a	|cFF66DDFFPassif de niveau 50|r\r\nUn |cffffffffPourfendeur des ténèbres|r ou une |cffffffffDéflagration d'ombre|r sur 5 transforme désormais votre |cffffffffDégaine éclair|r en |cffffffffTir sextuple|r.@s:807364:0@	lot talents_005
+sort	500567		Name	345f72908b1a	Tir sextuple	lot talents_005
+sort	500572		Description	52fed4a4c1a6	Lancer des sorts de |cff90ee90Commandement|r sur un ennemi applique désormais |cFFFFFFFFPeste de la crypte|r à $500573i ennemis proches de la cible principale.	lot talents_005
+sort	500572		Name	4336f1c8b05d	Explosion de crypte	lot talents_005
+sort	500578		Description	f63f1a36402c	Les dégâts de Feu infligés par votre |cffffffffDiablotin supérieur|r ont désormais $500578h% de chances de vous renforcer, ce qui augmente vos dégâts infligés de $500605s1% pendant $500605d.	lot talents_005
+sort	500578		Name	9136fed8c049	Partenaires dans les flammes	lot talents_005
+sort	500580		Description	0063e6655e18	Les dégâts infligés par votre |cffffffffÉlémentaire d'air|r vous font désormais générer 2 points de |cffcc99ffStatique|r.	lot talents_005
+sort	500580		Name	3fab24edc15f	Lien de la tempête	lot talents_005
+sort	500582		Description	8df352a1baec	Augmente de $s1% l'efficacité d'|cFFFFFFFFAspect de la déesse|r.	lot talents_005
+sort	500582		Name	90649c0b0b71	Que la déesse veille	lot talents_005
+sort	500584		Description	d4bc36913727	|cFF66DDFFPassif de niveau 50|r\r\nAugmente de $s1% les soins prodigués par |cFFFFFFFFMoisson - Passif de niveau 10|r, et vous trouver dans vos |cffffffffTerres de moisson|r augmente cet effet de $s2% supplémentaires.	lot talents_005
+sort	500584		Name	886ecc513b9b	Ceci est mon domaine	lot talents_005
+sort	500600		Description	bbc3df93e1a4	|cffffffff3 charges, recharge de 10 sec.|r\r\nConstruit un |cFFFFFFFFDrone incendiaire|r qui vole vers votre cible en larguant une bombe sur son chemin et explose à l'atterrissage, ce qui inflige ${$500601m1*$<scalingbp>+$RAP*.175+$spfi*.45} points de dégâts de Feu dans un rayon de $500601a1 mètres et laisse au sol de l'huile pendant $500753d, qui ralentit de $500753s1% les ennemis qui s'y trouvent.	lot talents_005
+sort	500600		Name	d54167eb3ae2	Construire : Drone incendiaire	lot talents_005
+sort	500608		Description	9709fb0b9706	Réduit le temps de recharge de vos |cffffffffAspects|r de $/1000;s1 sec.	lot talents_005
+sort	500608		Name	f2f0f7d66411	Chargé d'étoiles	lot talents_005
+sort	500615		Description	354b66a2ad12	Provoque un éboulement sur votre cible, ce qui interrompt l'incantation en cours et empêche de lancer tout sort de la même école pendant $d.\r\n\r\nInterrompre une cible avec succès génère 1 charge de |cffc6a36aFaçonnage de la terre|r.	lot talents_005
+sort	500615		Name	e5f360c0e712	Éboulement	lot talents_005
+sort	500615		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	500617		Description	e5ddab803f83	Frappe un ennemi à la gorge, ce qui interrompt l'incantation en cours et empêche de lancer tout sort de cette école de magie pendant $d.	lot talents_005
+sort	500617		Name	7d05bb4e5345	Coup à la gorge	lot talents_005
+sort	500617		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	500671		Description	fa8e76385d61	Disparaît, ce qui vous fait entrer dans un camouflage amélioré pendant $560269d et applique |cffffffffVoile runique|r.	lot talents_005
+sort	500671		Name	ada78e8e6a6f	Déphasage	lot talents_005
+sort	500671		ToolTip	8e0a911ca6d3	Voile runique amélioré.	lot talents_005
+sort	500678		Description	ee3cce229231	Médite pendant $d, ce qui vous rend $s1% de votre maximum de points de vie toutes les $T1 sec. et réduit les dégâts subis de $s2%.\r\n\r\nChaque seconde, vous supprimez aussi 1 effet de maladie qui vous affecte. \r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot talents_005
+sort	500678		Name	71e7f9ec87ac	Testament de robustesse	lot talents_005
+sort	500678		ToolTip	d7f84b6677b5	Méditation : vous régénérez ${$w1}% de votre maximum de points de vie toutes les $t1 sec. Dégâts subis réduits de ${$w2}%.\r\n\r\nChaque effet périodique supprime 1 effet de maladie.	lot talents_005
+sort	500692		Name	1e6a242b7935	Roche roulante	lot talents_005
+sort	500692		ToolTip	6bb8bb75006e	Vous ne pouvez pas lancer de sorts ni utiliser de techniques, mais votre vitesse de déplacement est augmentée de ${$w2}% et vous êtes insensible aux effets de contrôle des foules.	lot talents_005
+sort	500694		Description	8e6608fd3c82	Explose de puissance sacrée, ce qui inflige ${$803153m1+$803153ppl1+$AP*0.25+$sph*.25} points de dégâts du Sacré et déclenche |cffffffffZélotisme|r toutes les $t3 sec. sur les ennemis proches pendant $d.@s:801450:0@\r\n\r\nTant que l'effet est actif, le coût en énergie de votre sort |cffffffffGardien du temple|r est réduit de $s1%.	lot talents_005
+sort	500694		Name	3fa8f2f5c39f	Force de Golganneth	lot talents_005
+sort	500694		ToolTip	7fbb140794ed	Inflige ${$803153m1+$803153ppl1+$AP*.4+$SP*.25} points de dégâts physiques toutes les $t3 sec. aux ennemis proches pendant $d.\r\n\r\nTant que l'effet est actif, le coût en énergie de votre sort |cffffffffGardien du temple|r est réduit.	lot talents_005
+sort	500696		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	500696		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	500704		Description	60f7280d7f61	Téléporte un ennemi jusqu'à vous et réduit sa vitesse de déplacement de $804533s1% pendant $804533d. 	lot talents_005
+sort	500704		Name	9c04db4ae6d6	Étreinte de l'Empire	lot talents_005
+sort	500712		Description	33861df72cf7	|cffcfa6ffGénère 20 Insanity|r\r\nMaudit un ennemi, ce qui lui inflige instantanément ${$m1+0+$sp*1.5} points de dégâts d'Ombre, plus ${$354191m1+$354191ppl1+$sps*1} points de dégâts d'Ombre supplémentaires au bout de $d.	lot talents_005
+sort	500712		ToolTip	f2c93254d870	Dégâts d'Ombre subis de la part du lanceur augmentés de ${$w2}%. À l'expiration, des dégâts d'Ombre supplémentaires sont infligés.	lot talents_005
+sort	500714		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	500714		Name	e4909c001650	Malveillance	lot talents_005
+sort	500719		Description	202ce4361b25	Réduit de $s2% le temps de recharge de |cffffffffRayon d'oblitération|r, qui applique désormais |cFFFFFFFFDémence|r à toutes les cibles touchées. \r\n@s:804369:0@\r\n	lot talents_005
+sort	500719		Name	cb12dbb30049	Aperçu de la folie	lot talents_005
+sort	500721		Description	e3a3db23caad	|cffffffff3 charges, recharge de 30 sec.|r\r\nImprègne un allié d'énergie ténébreuse, qui lui rend $s1 points de vie la prochaine fois qu'il subit des dégâts. Quand le soin se produit, Infusion ténébreuse est consommée et s'étend aux deux membres du groupe ou du raid proches qui ont le moins de points de vie. Chaque infusion secondaire soigne quand elle se déclenche, puis s'étend à trois alliés proches.	lot talents_005
+sort	500721		Name	17ba71fcd3d5	Infusion ténébreuse	lot talents_005
+sort	500721		ToolTip	9758cd5542f0	Rend $s1 points de vie quand vous subissez des dégâts, puis s'étend à 2 alliés proches.	lot talents_005
+sort	500751		Description	f4b7ec5de037	Vous lie à un allié pendant $d : vous subissez à sa place $s3% de tous les dégâts qu'il subit, et $300295s1% de tous les dégâts que vous infligez sont convertis en soins pour lui.\r\n\r\nNe peut être appliqué qu'à 1 allié à la fois.	lot talents_005
+sort	500751		Name	9af26ecf647a	Pacte abyssal	lot talents_005
+sort	500751		ToolTip	e76fdfd0fc21	$s3% des dégâts subis le sont par le lanceur à la place. 20% de tous les dégâts infligés par l'hérétique sont convertis en soins pour cette cible.	lot talents_005
+sort	500764		Description	ed358fae1979	Ordonne à votre familier de bondir sur une courte distance vers votre cible, ce qui interrompt l'incantation en cours et empêche de lancer tout sort de cette école pendant $d.	lot talents_005
+sort	500764		Name	a68ed54eaa3a	Prise à la gorge	lot talents_005
+sort	500764		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	500767		Description	202ce4361b25	Réduit de $s2% le temps de recharge de |cffffffffRayon d'oblitération|r, qui applique désormais |cFFFFFFFFDémence|r à toutes les cibles touchées. \r\n@s:804369:0@\r\n	lot talents_005
+sort	500767		Name	cb12dbb30049	Aperçu de la folie	lot talents_005
+sort	500768		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	500768		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	500769		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	500769		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	500770		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	500770		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	500771		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	500771		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	500915		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	500918		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	500918		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	500928		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	500928		Name	f85869e89d67	Volt	lot talents_005
+sort	500928		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	500933		Description	77387713dac2	Crée un |cFFFFFFFFPhylactère|r près de vous pendant $d.\r\n\r\nQuand vous subissez des dégâts qui feraient passer vos points de vie sous 10%, vous devenez une |cFFFFFFFFOmbre|r, protégée de toutes les attaques physiques et de tous les sorts, mais pendant ce temps vous ne pouvez ni attaquer ni lancer de sorts.\r\n\r\nAtteindre votre |cFFFFFFFFPhylactère|r dans cet état vous ressuscite avec $500802s2% de votre maximum de points de vie. Si vous ne l'atteignez pas à temps, vous mourez.	lot talents_005
+sort	500933		Name	bd67a62aea80	Phylactère	lot talents_005
+sort	500937		Description	6f29eda47283	|cffffffffFracas totémique|r applique désormais |cffffffffImpact totémique|r à un ennemi pendant $547213d.\r\n\r\nÀ la fin de l'effet, si vous êtes à moins de 5 mètres de la cible, vous lui lancez gratuitement |cffffffffFracas totémique|r.	lot talents_005
+sort	500937		Name	27c0817201c8	Échos totémiques	lot talents_005
+sort	500940		Description	d7cd0f98c653	Ordonne à votre familier de déchiqueter $i ennemis au maximum à moins de $504669a1 mètres, ce qui les fait saigner et leur inflige ${($504669d*1000/$504669t1)*($504669m1+$504669ppl1+$AP*0.05)} points de dégâts physiques en $504669d.	lot talents_005
+sort	500940		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	500947		Name	300644ee38fb	Reptation	lot talents_005
+sort	500947		ToolTip	17751cbdf0c5	Vitesse de déplacement augmentée de ${$w1}%. Les sorts offensifs et les attaques à distance ont $806295s1% de chances en moins de vous toucher.	lot talents_005
+sort	500950		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	500950		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	500950		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	500952		Description	fac3b327515d	Transforme les ennemis à l'emplacement ciblé en grenouilles : ils ne peuvent plus attaquer ni lancer de sorts, et leur vitesse de déplacement est réduite de $s3% pendant $d (8 sec. contre les joueurs). Un ennemi transformé en grenouille est considéré comme une bête.\r\n\r\nSi une cible subit des dégâts, l'effet peut être interrompu.	lot talents_005
+sort	500952		Name	f3eaaa6676ec	Amphibimorphose	lot talents_005
+sort	500952		ToolTip	8dd893b70acd	Métamorphosé. Bête. Ne peut pas attaquer ni lancer de sorts. Vitesse de déplacement réduite de ${$w3}%.	lot talents_005
+sort	500957		Description	bd5d78322663	Pose un |cffffffffGardien guérisseur|r près de vous pendant $d, qui rend ${$805403m1+$805403ppl1+$SP*0.185+$RAP*0.08} points de vie à 8 alliés proches à moins de $500955a1 mètres toutes les $500956T1 sec.\r\n\r\n@ext:Can only have 1 |cffffffffWard|r active at a time.:ext@	lot talents_005
+sort	500962		Description	701d637a958c	Imprègne votre |cffffffffChaudron|r d'|cffffffffEau cristalline|r pendant $d : les membres du groupe et du raid à moins de $a1 mètres reçoivent un bouclier égal à 20% des soins qu'ils reçoivent, pendant $547574d.\r\n\r\nSeule 1 |cffffffffBase|r peut être active à la fois.	lot talents_005
+sort	500962		Name	8956dc11b601	Base : Eau cristalline	lot talents_005
+sort	500962		ToolTip	40afb3a6602f	Recevoir des soins vous protège d'un bouclier égal à 20% des soins reçus.	lot talents_005
+sort	500971		Description	00cdf900cd8d	Réanime une |cffffffffGoule|r qui vous aide au combat ; elle occupe 1 point de |cffffffffForce vitale|r. \r\n\r\nSes attaques automatiques vous rendent ${$707000m1+$707000ppl1+(($INT*0.504)+($SP*0.504))*0.07} points de vie.\r\n\r\n|cff90ee90Commandement|r : expulse une peste sangsue qui frappe $801514i ennemis proches au maximum, ce qui inflige ${(($INT*0.28+$SP*0.28)*0.2+($INT*0.504+$SP*0.504)*0.2)+$801514m1} points de dégâts de Peste et vous rend ${$801514m3+$801514ppl3+$SP*0.22+$INT*.50} points de vie pour chaque |cffffffffGoule|r.	lot talents_005
+sort	500971		Name	761f91ba92e6	Réanimation : Goule	lot talents_005
+sort	500981		Description	f1eacde889e5	Vous transforme en |cFFFFFFFFLiche|r : vous devenez un mort-vivant et vos dégâts de Givre infligés sont augmentés de $s2%.\r\n\r\nTant que l'effet est actif, vous générez $/10;s1 points de puissance runique toutes les $t1 sec.\r\n\r\n@ext:While Undead, you are immune to fear, sleep, and charm effects.:ext@	lot talents_005
+sort	500981		Name	b5e5c6885f55	Forme de liche	lot talents_005
+sort	500981		ToolTip	8a0e6413cb21	Mort-vivant. Dégâts de Givre augmentés de $S2%.\r\n\r\nGénère $/10;s1 points de puissance runique toutes les $t1 sec.	lot talents_005
+sort	500984		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	500984		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	500989		Description	af5990e76fb3	Réanime un |cffffffffColosse putréfié|r qui vous aide au combat ; il occupe 3 points de |cffffffffForce vitale|r. \r\n\r\nTant qu'il est actif, $520376s1% de tous les dégâts subis par le lanceur sont subis par le |cffffffffColosse putréfié|r.\r\n\r\n|cff90ee90Commandement|r : déchaîne une puissante attaque qui inflige les dégâts de l'arme plus ${$505229m2+$505229ppl2} à tous les ennemis devant lui.	lot talents_005
+sort	500989		Name	768b3ec032b6	Réanimation : Colosse putréfié	lot talents_005
+sort	500995		Description	17f5d4ad1463	Déchaîne un cri de guerre à glacer le sang, ce qui augmente de $s1% la vitesse d'attaque en mêlée et à distance et de ${$m2+0} la puissance d'attaque des membres du groupe et du raid à moins de $a1 mètres pendant $d.\r\n\r\nLes alliés ne peuvent plus bénéficier de ce sort pendant $572126d.	lot talents_005
+sort	500995		Name	d6aac83b64d7	Cri de guerre	lot talents_005
+sort	500995		ToolTip	84a0e536557c	Vitesse d'attaque en mêlée et à distance augmentée de ${$w1}%, puissance d'attaque augmentée de ${$w2}.	lot talents_005
+sort	501004		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501005		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501006		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501007		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501008		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501009		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501010		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501011		Description	58f28ae75639	Écrase les ennemis dans un cône devant vous, ce qui inflige $s1% des dégâts de l'arme plus ${$m3+0}$?s807183[][, et les étourdit pendant $504875d].	lot talents_005
+sort	501057		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501057		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501058		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501058		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501059		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501059		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501060		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501060		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501061		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501061		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501062		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501062		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501063		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501063		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501064		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501064		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501065		Description	72330fd99fbb	|cffffffffNécessite d'être $genragé:enragée;|r\r\nRugit avec une ferveur ancestrale, ce qui vous rend ${$m1+0+$AP*0.5} points de vie$?s92083[ et 1 charge de |cffffffffNiveau de remplissage|r][].	lot talents_005
+sort	501065		Name	d58de7893c44	Rugissement ancestral	lot talents_005
+sort	501114		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	501114		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	501114		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	501115		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	501115		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	501115		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	501116		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	501116		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	501116		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	501117		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	501117		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	501117		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	501118		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	501118		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	501118		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	501132		Description	18ccb6d9014d	Augmente de $s1% la fréquence et le coût de |cffffffffTourment de Taldaram|r.	lot talents_005
+sort	501132		Name	7013a6679f04	Semeur de peur	lot talents_005
+sort	501136		Description	efb2159a0e6c	Vous devenez invisible pendant $d : vous gagnez 5 |cFFFFFFFFEsprits|r, laissez une copie de vous-même derrière vous et réduisez votre menace chaque seconde. Infliger des dégâts directs ou prodiguer des soins directs met fin à cet effet.\r\n\r\nTant que vous êtes invisible, vous ne voyez que les autres cibles invisibles et celles qui peuvent voir l'invisible.	lot talents_005
+sort	501136		Name	18535f0cf0aa	Mirage	lot talents_005
+sort	501136		ToolTip	ad14d02d0189	Invisible. Votre menace est réduite périodiquement.	lot talents_005
+sort	501270		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	501270		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	501270		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	501271		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	501271		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	501271		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	501272		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	501272		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	501272		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	501292		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501292		Name	c6e31145c428	Ruine	lot talents_005
+sort	501292		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501293		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501293		Name	c6e31145c428	Ruine	lot talents_005
+sort	501293		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501294		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501294		Name	c6e31145c428	Ruine	lot talents_005
+sort	501294		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501295		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501295		Name	c6e31145c428	Ruine	lot talents_005
+sort	501295		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501296		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501296		Name	c6e31145c428	Ruine	lot talents_005
+sort	501296		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501297		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501297		Name	c6e31145c428	Ruine	lot talents_005
+sort	501297		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501298		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501298		Name	c6e31145c428	Ruine	lot talents_005
+sort	501298		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501299		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	501299		Name	c6e31145c428	Ruine	lot talents_005
+sort	501299		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	501344		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501344		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501345		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501345		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501346		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501346		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501347		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501347		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501348		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501348		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501349		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501349		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501350		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501350		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501351		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501351		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501352		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501352		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501353		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501353		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501354		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501354		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501355		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	501355		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	501380		Description	f6841624d62e	Expose les fautes les plus sombres d'un ennemi, ce qui le stupéfie pendant $d (8 sec. contre les joueurs).\r\n\r\nSubir des dégâts met fin à cet effet. Utilisable uniquement sur les humanoïdes, les démons et les morts-vivants.\r\n\r\n@ext:You can only have 1 |CffffffffBrand|r on an enemy at a time|r.:ext@	lot talents_005
+sort	501380		Name	848b57c493d8	Marque de l'indigne	lot talents_005
+sort	501380		ToolTip	3d2cd33789a5	Stupéfié.	lot talents_005
+sort	501403		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501403		Name	f85869e89d67	Volt	lot talents_005
+sort	501403		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501404		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501404		Name	f85869e89d67	Volt	lot talents_005
+sort	501404		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501405		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501405		Name	f85869e89d67	Volt	lot talents_005
+sort	501405		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501406		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501406		Name	f85869e89d67	Volt	lot talents_005
+sort	501406		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501407		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501407		Name	f85869e89d67	Volt	lot talents_005
+sort	501407		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501408		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501408		Name	f85869e89d67	Volt	lot talents_005
+sort	501408		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501409		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501409		Name	f85869e89d67	Volt	lot talents_005
+sort	501409		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501410		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501410		Name	f85869e89d67	Volt	lot talents_005
+sort	501410		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501411		Description	935f391388e0	Fait passer la foudre dans un ennemi, ce qui lui inflige ${($d*1000/$T1)*($m1+0+$spn*.19)} points de dégâts de Nature en $d et le ralentit de $500936s1%.\r\n\r\nGénère 2 points de |cffcc99ffStatique|r à chaque effet périodique.	lot talents_005
+sort	501411		Name	f85869e89d67	Volt	lot talents_005
+sort	501411		ToolTip	43270612b2d7	${$w1} points de dégâts de Nature toutes les $t1 sec.	lot talents_005
+sort	501433		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	501433		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	501434		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	501434		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	501435		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	501435		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	501436		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	501436		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	501437		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	501437		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	501438		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	501438		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	501439		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	501439		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	501440		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	501440		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	501441		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	501441		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	501562		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	501562		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	501562		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	501563		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	501563		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	501563		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	501564		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	501564		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	501564		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	501565		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	501565		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	501565		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	501566		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	501566		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	501566		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	501589		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	501589		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	501590		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	501590		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	501591		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	501591		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	501592		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	501592		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	501593		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	501593		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	501623		Description	e282e70132ad	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nForme un lien de sang qui rend ${$m1+0+$SP*0.35+$SPI*0.25} points de vie à une cible alliée et lui applique |cffffffffRituels de sang|r, puis rebondit sur $i alliés proches au maximum, avec des soins réduits à chaque cible touchée.@s:706624:0@	lot talents_005
+sort	501623		Name	7ee91906b3d3	Liturgie ténébreuse	lot talents_005
+sort	501624		Description	e282e70132ad	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nForme un lien de sang qui rend ${$m1+0+$SP*0.35+$SPI*0.25} points de vie à une cible alliée et lui applique |cffffffffRituels de sang|r, puis rebondit sur $i alliés proches au maximum, avec des soins réduits à chaque cible touchée.@s:706624:0@	lot talents_005
+sort	501624		Name	7ee91906b3d3	Liturgie ténébreuse	lot talents_005
+sort	501772		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501772		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501772		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501773		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501773		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501773		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501774		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501774		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501774		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501775		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501775		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501775		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501776		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501776		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501776		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501777		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501777		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501777		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501778		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	501778		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	501778		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	501855		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501855		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501855		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	501856		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501856		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501856		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	501857		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501857		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501857		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	501858		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501858		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501858		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	501859		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501859		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501859		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	501860		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501860		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501860		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	501861		Description	d4588e951836	Inflige une maladie à un ennemi, ce qui lui inflige ${$m1+0+$sps*0.11055} points de dégâts de Peste et génère de la puissance runique toutes les $t1 sec. pendant $d.\r\n\r\n@ext:Periodic damage dealt by this can critically strike.:ext@	lot talents_005
+sort	501861		Name	f2a867af0e0f	Chair aux vers	lot talents_005
+sort	501861		ToolTip	b57fff0da4ea	${$w1} points de dégâts de Peste toutes les $t1 sec.	lot talents_005
+sort	502235		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502235		Name	e4909c001650	Malveillance	lot talents_005
+sort	502236		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502236		Name	e4909c001650	Malveillance	lot talents_005
+sort	502237		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502237		Name	e4909c001650	Malveillance	lot talents_005
+sort	502238		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502238		Name	e4909c001650	Malveillance	lot talents_005
+sort	502239		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502239		Name	e4909c001650	Malveillance	lot talents_005
+sort	502240		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502240		Name	e4909c001650	Malveillance	lot talents_005
+sort	502241		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502241		Name	e4909c001650	Malveillance	lot talents_005
+sort	502242		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502242		Name	e4909c001650	Malveillance	lot talents_005
+sort	502243		Description	4f1d909de3c4	|cffcfa6ffGénère 10 Insanity|r\r\nFrappe un ennemi d'une force surnaturelle, ce qui inflige ${$m1+0+$AP*0.1+$SP*.52} points de dégâts d'Ombre et applique |cffffffffSang noir|r à $804113i alliés proches, qui récupèrent ${$m2+0+$AP*0.1} points de vie toutes les $804153t1 sec. pendant $804153D.\r\n\r\nUtilisable en mouvement.	lot talents_005
+sort	502243		Name	e4909c001650	Malveillance	lot talents_005
+sort	502723		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	502723		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	502724		Description	ebc4ca02bebb	$?s92148[Vous et votre familier foncez][Fonce] de $a2 mètres en avant à travers les ennemis en ligne, ce qui inflige ${$m3+0} points de dégâts de Nature.\r\n\r\nGénère $/10;s1 points de rage.	lot talents_005
+sort	502724		Name	b1cf40faa88a	Ruée primordiale	lot talents_005
+sort	502725		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502726		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502727		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502728		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502729		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502730		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502731		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502732		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	502733		Name	df6571710a65	Déchiquetage primordial	lot talents_005
+sort	503088		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	503088		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	503089		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	503089		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	503090		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	503090		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	503091		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	503091		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	503092		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	503092		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	503093		Description	5a76977c460a	Projette une lance en ligne droite devant vous sur $a1 mètres, ce qui inflige $s3% des dégâts de l'arme à distance plus $s1, avec des dégâts réduits à chaque ennemi touché.\r\n\r\nAu point d'impact, la lance se brise et inflige ${$255846m2+$255846ppl2+$RAP*0.15} points de dégâts physiques aux ennemis proches.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_005
+sort	503093		Name	6e7ebbab17fb	Lance empaleuse	lot talents_005
+sort	503611		Description	e282e70132ad	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nForme un lien de sang qui rend ${$m1+0+$SP*0.35+$SPI*0.25} points de vie à une cible alliée et lui applique |cffffffffRituels de sang|r, puis rebondit sur $i alliés proches au maximum, avec des soins réduits à chaque cible touchée.@s:706624:0@	lot talents_005
+sort	503611		Name	7ee91906b3d3	Liturgie ténébreuse	lot talents_005
+sort	503612		Description	e282e70132ad	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nForme un lien de sang qui rend ${$m1+0+$SP*0.35+$SPI*0.25} points de vie à une cible alliée et lui applique |cffffffffRituels de sang|r, puis rebondit sur $i alliés proches au maximum, avec des soins réduits à chaque cible touchée.@s:706624:0@	lot talents_005
+sort	503612		Name	7ee91906b3d3	Liturgie ténébreuse	lot talents_005
+sort	504846		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	511109		ToolTip	6ca2727150dd	Désarmé.	lot talents_005
+sort	561310		ToolTip	6ca2727150dd	Désarmé.	lot talents_005
+sort	567518		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	567518		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	567519		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	567519		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	567520		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	567520		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	570248		Description	e3a3db23caad	|cffffffff3 charges, recharge de 30 sec.|r\r\nImprègne un allié d'énergie ténébreuse, qui lui rend $s1 points de vie la prochaine fois qu'il subit des dégâts. Quand le soin se produit, Infusion ténébreuse est consommée et s'étend aux deux membres du groupe ou du raid proches qui ont le moins de points de vie. Chaque infusion secondaire soigne quand elle se déclenche, puis s'étend à trois alliés proches.	lot talents_005
+sort	570248		Name	17ba71fcd3d5	Infusion ténébreuse	lot talents_005
+sort	570248		ToolTip	9758cd5542f0	Rend $s1 points de vie quand vous subissez des dégâts, puis s'étend à 2 alliés proches.	lot talents_005
+sort	570249		Description	e3a3db23caad	|cffffffff3 charges, recharge de 30 sec.|r\r\nImprègne un allié d'énergie ténébreuse, qui lui rend $s1 points de vie la prochaine fois qu'il subit des dégâts. Quand le soin se produit, Infusion ténébreuse est consommée et s'étend aux deux membres du groupe ou du raid proches qui ont le moins de points de vie. Chaque infusion secondaire soigne quand elle se déclenche, puis s'étend à trois alliés proches.	lot talents_005
+sort	570249		Name	17ba71fcd3d5	Infusion ténébreuse	lot talents_005
+sort	570249		ToolTip	9758cd5542f0	Rend $s1 points de vie quand vous subissez des dégâts, puis s'étend à 2 alliés proches.	lot talents_005
+sort	570250		Description	e3a3db23caad	|cffffffff3 charges, recharge de 30 sec.|r\r\nImprègne un allié d'énergie ténébreuse, qui lui rend $s1 points de vie la prochaine fois qu'il subit des dégâts. Quand le soin se produit, Infusion ténébreuse est consommée et s'étend aux deux membres du groupe ou du raid proches qui ont le moins de points de vie. Chaque infusion secondaire soigne quand elle se déclenche, puis s'étend à trois alliés proches.	lot talents_005
+sort	570250		Name	17ba71fcd3d5	Infusion ténébreuse	lot talents_005
+sort	570250		ToolTip	9758cd5542f0	Rend $s1 points de vie quand vous subissez des dégâts, puis s'étend à 2 alliés proches.	lot talents_005
+sort	570251		Description	e3a3db23caad	|cffffffff3 charges, recharge de 30 sec.|r\r\nImprègne un allié d'énergie ténébreuse, qui lui rend $s1 points de vie la prochaine fois qu'il subit des dégâts. Quand le soin se produit, Infusion ténébreuse est consommée et s'étend aux deux membres du groupe ou du raid proches qui ont le moins de points de vie. Chaque infusion secondaire soigne quand elle se déclenche, puis s'étend à trois alliés proches.	lot talents_005
+sort	570251		Name	17ba71fcd3d5	Infusion ténébreuse	lot talents_005
+sort	570251		ToolTip	9758cd5542f0	Rend $s1 points de vie quand vous subissez des dégâts, puis s'étend à 2 alliés proches.	lot talents_005
+sort	570252		Description	e3a3db23caad	|cffffffff3 charges, recharge de 30 sec.|r\r\nImprègne un allié d'énergie ténébreuse, qui lui rend $s1 points de vie la prochaine fois qu'il subit des dégâts. Quand le soin se produit, Infusion ténébreuse est consommée et s'étend aux deux membres du groupe ou du raid proches qui ont le moins de points de vie. Chaque infusion secondaire soigne quand elle se déclenche, puis s'étend à trois alliés proches.	lot talents_005
+sort	570252		Name	17ba71fcd3d5	Infusion ténébreuse	lot talents_005
+sort	570252		ToolTip	9758cd5542f0	Rend $s1 points de vie quand vous subissez des dégâts, puis s'étend à 2 alliés proches.	lot talents_005
+sort	572021		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	572021		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	572021		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	572027		Description	aad3cb4501aa	Déchaîne un |cFFFFFFFFBrise-serment|r dominateur, qui inflige ${$m1+0+$AP*0.45+$SP*0.45} points de dégâts physiques, augmentés de $807764s1% pour chaque déclenchement de |cffffffffZélotisme|r pendant votre |cffffffffChaîne de serment|r.\r\n\r\nConsomme vos |cffffffffSerments|r et inflige des dégâts supplémentaires pour chacun d'eux.	lot talents_005
+sort	572027		Name	b4480d19f10d	Soulèvement vertueux	lot talents_005
+sort	572027		ToolTip	ef8007ae0bc7	Récemment touché par Soulèvement vertueux !	lot talents_005
+sort	572575		Description	e282e70132ad	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nForme un lien de sang qui rend ${$m1+0+$SP*0.35+$SPI*0.25} points de vie à une cible alliée et lui applique |cffffffffRituels de sang|r, puis rebondit sur $i alliés proches au maximum, avec des soins réduits à chaque cible touchée.@s:706624:0@	lot talents_005
+sort	572575		Name	7ee91906b3d3	Liturgie ténébreuse	lot talents_005
+sort	572577		Description	d53924e08ad9	Transmet du mojo à un allié, ce qui lui rend ${$m1+0+$SP*0.1073} points de vie toutes les $T1 sec. pendant $d.\r\n\r\nChaque fois que Rayon de mojo soigne une cible, une nouvelle branche pousse. Chaque nouvelle branche soigne immédiatement puis continue de soigner. Chaque branche qui pousse vous coûte de plus en plus de mana.\r\n\r\nPendant la canalisation, vous pouvez lancer instantanément |cFFFFFFFFLancer de potion|r, |cFFFFFFFFPotion éclaboussante|r et |cFFFFFFFFEsprit en bouteille|r, pour un coût augmenté de $573288s1%.\r\n\r\n@ext:This spell is unaffected by haste modifiers.:ext@	lot talents_005
+sort	572577		Name	1a186ac55eca	Rayon de mojo	lot talents_005
+sort	572577		ToolTip	2e223a0e5dc3	Rend ${$w1} points de vie toutes les $t1 sec. Chaque soin a 100% de chances de faire pousser une liane vers l'allié proche qui a le moins de points de vie et qui n'est pas déjà ciblé.	lot talents_005
+sort	572615		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	572615		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	572615		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	572616		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	572616		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	572616		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	572617		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	572617		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	572617		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	573324		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	573324		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	582303		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	582303		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	582304		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	582304		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	704235		ToolTip	6ca2727150dd	Désarmé.	lot talents_005
+sort	705962		Name	17b30f8a9fe5	Genèse	lot talents_005
+sort	800162		Description	6578b10378c9	Tire un carreau mortel qui inflige ${$cond($gt($sps, $sph), $m3+0+$sps*.175, $m3+0+$sph*.175)} points de dégâts du Crépuscule plus ${($d*1000/$T1)*($m1+0+$RAP*.295)} en $d.	lot talents_005
+sort	800162		ToolTip	4e360a8e384d	Dégâts d'Ombre toutes les $t1 sec.	lot talents_005
+sort	800203		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	800207		Description	b32ba4eea3ea	Vous entoure de flammes pendant $d au maximum, ce qui inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	800207		Name	b7a7cb8056f4	Aura d'immolation	lot talents_005
+sort	800207		ToolTip	b4df68a609ce	Inflige ${$w1} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot talents_005
+sort	800781		Description	e282e70132ad	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nForme un lien de sang qui rend ${$m1+0+$SP*0.35+$SPI*0.25} points de vie à une cible alliée et lui applique |cffffffffRituels de sang|r, puis rebondit sur $i alliés proches au maximum, avec des soins réduits à chaque cible touchée.@s:706624:0@	lot talents_005
+sort	800781		Name	7ee91906b3d3	Liturgie ténébreuse	lot talents_005
+sort	800857		Description	33a6e967fca6	Accélère le processus naturel de guérison du corps, ce qui rend ${(($d*1000/$T1)*($m1+0+$bh*0.23))*((100+$887010ppl3)/100)} points de vie à la cible en $d.$?s706249[\r\n\r\nAugmente de $570152s1% les soins prodigués à un allié.][]	lot talents_005
+sort	800857		Name	621ca9aee85e	Récupération accélérée	lot talents_005
+sort	800857		ToolTip	18548dce44de	$?s706249[Soins reçus augmentés de $570152s1%. ][]Rend ${$w1} points de vie toutes les $t1 sec. pendant $d.	lot talents_005
+sort	801446		Description	8aef1cd356b0	Frappe un ennemi avec zèle, ce qui inflige ${$m1+0+$AP*0.285+$SP*0.75} points de dégâts physiques, déclenche |cffffffffZélotisme|r et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos techniques qui infligent des dégâts ont $805332s1% de chances de déclencher |cffffffffZélotisme|r.\r\n@s:801450:0@	lot talents_005
+sort	801847		Description	cd47d282b7b2	|cffcc99ffÉpuise toute la Statique|r\r\nFait tomber un terrible rayon de foudre sur un ennemi, ce qui lui inflige ${$m1+0+$spn*1.2} points de dégâts de Nature et l'étourdit pendant $570339d.\r\n\r\nDégâts et temps d'incantation augmentés selon votre niveau de |cffcc99ffStatique|r.	lot talents_005
+sort	801847		Name	5e48d7a6d5c4	Bras de Thorim	lot talents_005
+sort	801851		Description	ce5eead8a752	Projette des éclairs sur un ennemi, ce qui inflige ${$m1+$sp*0.49} points de dégâts de Nature et rebondit sur ${$x1} ennemis au maximum.\r\n\r\nGénère 5 points de |cffcc99ffStatique|r pour chaque ennemi touché.	lot talents_005
+sort	801851		Name	21774f25825c	Fourche d'éclairs	lot talents_005
+sort	801895		Description	d70f7838768f	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nAbat la ruine sur un ennemi, ce qui lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*1, $m1+0+$sps*1.32)} points de dégâts d'Ombreflamme et traverse tous les effets d'absorption.\r\n\r\n|cff32cd32Démon intérieur|r : inflige 30% de dégâts supplémentaires en $805748d.	lot talents_005
+sort	801895		Name	c6e31145c428	Ruine	lot talents_005
+sort	801895		ToolTip	bb44bd20202a	Absorbe des soins.	lot talents_005
+sort	802278		ToolTip	af20a266b39e	Dégâts magiques subis réduits de ${$w1}%.	lot talents_005
+sort	802792		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	803115		ToolTip	6ca2727150dd	Désarmé.	lot talents_005
+sort	804056		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
+sort	804057		ToolTip	6ca2727150dd	Désarmé.	lot talents_005
+sort	805198		Name	c6e31145c428	Ruine	lot talents_005
+sort	805248		ToolTip	4bb6e83d0f78	Puissance d'attaque réduite.	lot talents_005
+sort	806099		ToolTip	4fdf1a0caf1e	Interrompu.	lot talents_005
