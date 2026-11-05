@@ -970,7 +970,7 @@ def controle_strict(en, fr, typ):
     sans_g = re.sub(r'\$[gGlL][^;$]*;|\|4[^;]*;|\|H[^|]*\|h|https?://\S+', '', fr)
     if _COLLE.search(sans_g):                     # texte brut : « $N! » est colle aussi
         r.append('atelier:typographie (espace avant « ! » et « ? »)')
-    if '  ' in fr.replace('\n', ' ') and '  ' not in en:
+    if '  ' in fr.replace('\r', '').replace('\n', ' ') and '  ' not in en.replace('\r', '').replace('\n', ' '):
         r.append('atelier:double_espace')
     if re.search(r'\bJe suis une IA\b|\btraduction automatique\b|\bTranslator\b|\bTODO\b', fr):
         r.append('atelier:texte_parasite')

@@ -157,6 +157,8 @@ descriptions féminines sont identiques aux masculines).
 
 ## 20. Ressources et mécaniques des classes CoA (atelier de traduction, 05/11/2026)
 
+> **Tranché par Dan le 05/11/2026 : A, toutes les pistes validées** (point 20 de `DECISIONS_VOCABULAIRE.md`).
+
 > Posée le 05/11/2026. **Rien n'est appliqué** : en attendant, les agents laissent le terme en anglais dans la phrase
 > traduite (« Génère 50 Heat ») et le notent en doute ; une correction sûre le remplacera partout quand tu auras choisi.
 

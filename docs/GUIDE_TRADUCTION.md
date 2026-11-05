@@ -166,6 +166,8 @@ les crochets), les marqueurs du client `@s:805813:0@`. Le client remplace `$d` p
 
 ### 3.5 Les termes propres à CoA sans décision
 
+> **05/11/2026 : la question 20 est tranchée** (décision 20 de `DECISIONS_VOCABULAIRE.md`) : Chaleur, Folie, Braise, Âmes moissonnées, Marque de la couvée, Étoiles éparpillées, Avantage, Ferraille, Motivation, Soif, Fragments d'âme, Runes du Vide. Les lots les donnent dans `termes`. La règle ci-dessous reste valable pour tout **autre** terme CoA sans décision.
+
 Une ressource ou une mécanique propre à CoA qui revient partout et n'est ni dans le glossaire ni chez Blizzard
 (*Heat*, *Insanity*, *Ember*, *Reaped Souls*, *Advantage*, *Brood Mark*, *Scattered Stars*, *Thirst*… : liste et
 pistes dans la question 20 de `glossaire/A_TRANCHER.md` ; le lot les signale dans `termes`) **n'est pas tranchée par

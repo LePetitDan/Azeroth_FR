@@ -103,7 +103,11 @@ class Noms:
         cand = sorted(set(re.findall(r"[A-Z][A-Za-z'\-]+", fr_nu)))      # ordre stable : notes identiques d'un import a l'autre
         for w in cand:
             for en, fr, rx in self.par_premier.get(w, ()):
-                if rx.search(fr_nu) and rx.search(en_nu) and fr.lower() not in fr_nu.lower():
+                # apostrophes courbe et droite equivalentes : « Zul’Drak » officiel = « Zul'Drak » (le projet ecrit droit)
+                fr_a = fr.replace('\u2019', "'").lower()
+                if fr_a == en.replace('\u2019', "'").lower():
+                    continue
+                if rx.search(fr_nu) and rx.search(en_nu) and fr_a not in fr_nu.replace('\u2019', "'").lower():
                     out.append('%s→%s' % (en, fr))
         return sorted(set(out))
 
@@ -241,6 +245,7 @@ TYPES_INTERFACE = ('chaine_interface',)
 _PRINTF = re.compile(r"%(?:(\d+)\$)?([-+0# ]*\d*(?:\.\d+)?)(l?[sdiufxXcgeEoq])")
 _DOLLAR = re.compile(r"\$[A-Za-z]+")
 _BALISE = re.compile(r"<[^<>\n]{1,200}>")
+_BALISE_HTML = re.compile(r"</?(?:html|body|head|p|br|h[1-6]|a|img|b|i|u|font|center|ul|li|table|tr|td|span|div)\b[^<>]*>", re.I)
 _MOT_CLE = re.compile(r'"([A-Z][A-Z0-9_]{1,})"')
 
 
@@ -276,7 +281,10 @@ def controle_interface(en, fr):
         r.append('interface:barres_obliques')
     if sorted(_DOLLAR.findall(_PRINTF.sub('', en))) != sorted(_DOLLAR.findall(_PRINTF.sub('', fr))):
         r.append('interface:variables_dollar')
-    if sorted(_BALISE.findall(en)) != sorted(_BALISE.findall(fr)):
+    # balises de balisage (HTML : <p>, <a href=...>, <br/>…) identiques ; balises de texte (<Away>, <Right Click to Open>)
+    # traduisibles, en meme nombre (l'officiel de Blizzard les traduit : « <Absent> »)
+    be, bf = _BALISE.findall(en), _BALISE.findall(fr)
+    if sorted(b for b in be if _BALISE_HTML.match(b)) != sorted(b for b in bf if _BALISE_HTML.match(b)) or len(be) != len(bf):
         r.append('interface:balises')
     for mot in _MOT_CLE.findall(en):
         if fr.count('"%s"' % mot) != en.count('"%s"' % mot):
