@@ -1,0 +1,431 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	4955		ToolTip	c621e837097d	Les dégâts physiques infligés sont augmentés de $s3%.\nVitesse de déplacement réduite de $s1%.\nTemps entre les attaques augmenté de $s2%.	lot sorts_standard_003
+sort	4987		Description	8a1724f97681	Purifie une cible alliée en supprimant 1 effet de poison, 1 effet de maladie et 1 effet de magie.	lot sorts_standard_003
+sort	5024		Description	5df25137b196	Augmente votre vitesse de course de ${$PL*1}% pendant $d, mais vous inflige un nombre de points de dégâts égal à 60% de vos points de vie maximum et draine 60% de votre mana maximum en 10 secondes.	lot sorts_standard_003
+sort	5115		Description	fd5a1a56f0c5	Augmente la vitesse d'attaque et de déplacement des alliés qui se trouvent à proximité de $s1% pendant $d.	lot sorts_standard_003
+sort	5115		ToolTip	7fe5b7fc2731	Vitesse d'attaque augmentée de $s1%.\nVitesse de déplacement augmentée de $s2%.	lot sorts_standard_003
+sort	5116		Description	8a8668be283d	Un tir qui inflige $s2% des dégâts de l'arme et hébète la cible, ce qui réduit sa vitesse de déplacement de $s1% pendant $d.	lot sorts_standard_003
+sort	5118		Description	5799e72e7f82	Vous adoptez les qualités du guépard, ce qui augmente votre vitesse de déplacement de $s1%. Tout coup reçu vous hébète pendant $15571d. \r\n\r\n@ext:Only one Aspect can be active at a time.:ext@	lot sorts_standard_003
+sort	5137		Description	834d5cfdb16f	Inflige 10 points de dégâts d'Ombre à un ennemi après $t1 sec.	lot sorts_standard_003
+sort	5171		Description	543a8ff41ca6	Coup de grâce qui augmente la vitesse d'attaque en mêlée de $s2%. La durée dépend du nombre de points de combo :\r\n   1 point : ${$d+3*1} secondes\r\n   2 points : ${$d+3*2} secondes\r\n   3 points : ${$d+3*3} secondes\r\n   4 points : ${$d+3*4} secondes\r\n   5 points : ${$d+3*5} secondes\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@ 	lot sorts_standard_003
+sort	5215		Description	284539062afc	Permet au druide de se déplacer de façon furtive, mais réduit votre vitesse de déplacement de $s2%. Dure $d.	lot sorts_standard_003
+sort	5217		Description	eaa3f225ac97	Ajoute $s1 points de dégâts à vos attaques et augmente les dégâts infligés de $s2% pendant $d.	lot sorts_standard_003
+sort	5217		ToolTip	e27034c307fe	Dégâts augmentés de $s2% et vos attaques infligent $s1 points de dégâts supplémentaires.	lot sorts_standard_003
+sort	5221		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	5225		Description	e6ed583a985a	Les humanoïdes des environs apparaissent sur la minicarte. Un seul type de Pistage peut être actif à la fois.	lot sorts_standard_003
+sort	5225		Name	6f3faeed207e	Pistage des humanoïdes (forme de félin)	lot sorts_standard_003
+sort	5229		ToolTip	506b090db067	Gagne $/10;s1 points de rage par seconde. Armure de base réduite.	lot sorts_standard_003
+sort	5232		Description	2e82a40ced38	Augmente de $s1 l'Armure et de $s2 toutes les caractéristiques de la cible alliée pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	5234		Description	5e4f57681528	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et toutes ses résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	5246		Description	c808a2171ea4	Le lanceur de sorts pousse un cri qui oblige jusqu'à $5246i ennemis se trouvant à moins de $5246a2 mètres à se recroqueviller sous l'effet de la peur pendant $d. L'ennemi ciblé ne peut se déplacer tant qu'il est recroquevillé.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5246		ToolTip	43387efbb268	Intimidé. Dégâts physiques subis augmentés de $20511s2%.	lot sorts_standard_003
+sort	5277		Description	97dbcce31ff1	Augmente vos chances d'esquiver de $s1% et réduit de $s1% la probabilité que les attaques à distance vous touchent. Dure $d. \r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5277		ToolTip	771801065081	Chances d'esquiver augmentées de $s1% et probabilité d'être touché par les attaques à distance réduite de $s1%.	lot sorts_standard_003
+sort	5308		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	5374		Description	5542e21e0320	Attaque instantanément avec les deux armes et inflige 135% des dégâts des armes plus $5374s1 points de dégâts supplémentaires avec chacune d'elles. Les dégâts sont augmentés de 10% contre les cibles empoisonnées. Vous gagnez 2 points de combo.	lot sorts_standard_003
+sort	5384		Description	8e38203e4eaf	Vous feignez la mort pour que vos ennemis vous ignorent. Les boss de raid ne sont pas dupes, mais rester en mort feinte finit par les tromper. Dure $d au maximum.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5394		Description	c5563d3acb5e	Invoque aux pieds du lanceur de sorts un Totem guérisseur qui dispose de $s1 points de vie et dure $d. Il rend à tous les membres du groupe se trouvant à moins de $52041a1 mètres $5672s1 points de vie toutes les $5672t1 secondes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5406		Description	3df585c3ee22	Rend ${$PL*4.9412} points de mana.	lot sorts_standard_003
+sort	5484		Description	7c3a91034a9b	Un hurlement qui oblige $i ennemis se trouvant dans un rayon de $a1 mètres à fuir de terreur pendant $d. Si une cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_003
+sort	5487		Description	20500b1e51ec	Vous adoptez la forme d'ours.\r\n\r\nAugmente la puissance d'attaque en mêlée de $1178s3, la valeur d'armure apportée par les objets en tissu et en cuir de $1178s1% et l'Endurance de $1178s2%. \r\n\r\nVous apprend |cFFFFFFFFGrondement|r.	lot sorts_standard_003
+sort	5487		ToolTip	fb2172299596	Augmente la puissance d'attaque en mêlée de 30, la valeur d'armure apportée par les objets en tissu et en cuir de $1178s1% et l'Endurance de $1178s2%.	lot sorts_standard_003
+sort	5500		Description	4ed1f02d1c8d	Les démons des environs apparaissent sur la minicarte et les dégâts infligés aux démons sont augmentés de 1%. Un seul type de Pistage peut être actif à la fois.	lot sorts_standard_003
+sort	5502		Description	7cd0f95d4d07	Les morts-vivants des environs apparaissent sur la minicarte et les dégâts infligés aux morts-vivants sont augmentés de 1%. Un seul type de Pistage peut être actif à la fois.	lot sorts_standard_003
+sort	5568		Description	b6a9793460f1	Inflige $s1% des dégâts de l'arme aux ennemis proches.	lot sorts_standard_003
+sort	5570		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	5570		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	5675		Description	373bd0ba5b77	Invoque aux pieds du lanceur de sorts un Totem Fontaine de mana, qui dispose de $s1 points de vie et dure $d. Il rend $5677s1 points de mana toutes les 5 secondes aux membres du groupe et du raid qui se trouvent à moins de $52031a1 mètres.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5676		Description	493b98d70616	Inflige une douleur brûlante à la cible ennemie qui subit $s1 points de dégâts de Feu. Génère un niveau élevé de menace.	lot sorts_standard_003
+sort	5697		ToolTip	63e3279fddfe	Respiration aquatique et vitesse de nage augmentée.	lot sorts_standard_003
+sort	5699		Description	cde93515a011	Crée une Pierre de soins que vous pouvez utiliser pour récupérer instantanément $5720s1 points de vie.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5730		Description	1631e9bb548b	Invoque aux pieds du lanceur de sorts un Totem de griffes de pierre qui dispose de $s1 points de vie pendant $d. Il provoque toutes les créatures dans un rayon de $5729a1 mètres pour attirer leurs attaques. Les ennemis qui attaquent le Totem de griffes de pierre ont $5728h% de chances d'être étourdis pendant $39796d. Le Totem de griffes de pierre protège également tous vos totems en leur permettant d'absorber $55328s1 points de dégâts.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	5740		Description	bab793d67494	Invoque une pluie de feu qui brûle les ennemis dans la zone d'effet et inflige ${$42223m1*8} points de dégâts de Feu en $d.	lot sorts_standard_003
+sort	5760		Description	84de97820d4a	Enduit une arme de poison durant 2 heures.\nChaque coup a $5761h% de chances d'empoisonner l'ennemi et d'augmenter le temps d'incantation de la cible de $5760s1% pendant $5760d.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	5761		Description	84de97820d4a	Enduit une arme de poison durant 2 heures.\nChaque coup a $5761h% de chances d'empoisonner l'ennemi et d'augmenter le temps d'incantation de la cible de $5760s1% pendant $5760d.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	5782		Description	a6aabf63dd16	Effraie l'ennemi et l'oblige à s'enfuir pendant $d au maximum. @ext:(6 seconds on players).:ext@ Si la cible subit des dégâts, l'effet peut être interrompu. Le nombre de cibles effrayées à la fois est limité à 1.	lot sorts_standard_003
+sort	5857		Name	b68d2946f197	Flammes infernales	lot sorts_standard_003
+sort	5917		Description	783b49e21570	Réduit les chances de la cible de toucher de $s1% pendant $d.	lot sorts_standard_003
+sort	5923		Description	a2db97a78b87	Augmente les chances de coup critique de vos sorts et techniques du Sacré de $s1%.	lot sorts_standard_003
+sort	5924		Description	a2db97a78b87	Augmente les chances de coup critique de vos sorts et techniques du Sacré de $s1%.	lot sorts_standard_003
+sort	5925		Description	a2db97a78b87	Augmente les chances de coup critique de vos sorts et techniques du Sacré de $s1%.	lot sorts_standard_003
+sort	5926		Description	a2db97a78b87	Augmente les chances de coup critique de vos sorts et techniques du Sacré de $s1%.	lot sorts_standard_003
+sort	5938		Description	bcaff21033f3	Exécute une attaque instantanée de la main gauche qui administre automatiquement le poison de votre arme en main gauche à la cible. Les armes plus lentes nécessitent plus d'Énergie. Kriss ne peut pas être critique. Vous gagnez 1 point de combo.	lot sorts_standard_003
+sort	5940		Description	aaad88aa5216	Exécute une attaque instantanée de la main gauche qui administre automatiquement le poison de votre arme en main gauche à la cible. Les armes plus lentes nécessitent plus d'Énergie. Vous gagnez 1 point de combo.	lot sorts_standard_003
+sort	5952		Description	a2f3c3aa4ae7	Réduit le coût en énergie de Shuriken Toss de $s3. \r\n\r\nAugmente la portée de Shuriken Toss, Lancer et Lancer mortel de $s1 mètres. \r\n\r\nVotre Lancer mortel a $h% de chances d'interrompre la cible pendant $51680d.	lot sorts_standard_003 ; nom de sort de classe CoA sans français : Shuriken Toss (proposition « Lancer de shuriken »), laissé en anglais en attendant l'harmonisation
+sort	6063		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	6064		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	6117		Description	ecfec339202e	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre mana de continuer à se régénérer, à $s2% de la vitesse de récupération normale, pendant l'incantation de sorts. Dure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@	lot sorts_standard_003
+sort	6117		ToolTip	b75e53893847	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre régénération de mana de se poursuivre à $s2% de la vitesse normale pendant les incantations de sorts. Durée de tous les effets magiques néfastes réduite de $s3%. Le mage ne peut bénéficier que d'un seul type de sort d'armure à la fois. Dure $d.	lot sorts_standard_003
+sort	6136		Description	24a58dba116a	Réduit la vitesse de déplacement d'un attaquant de $s1% et sa vitesse d'attaque de $s2%.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	6141		Description	79ca6a2ff870	Des éclats de givre s'abattent sur la zone ciblée et infligent ${$42209m1*8*$<mult>} points de dégâts de Givre en $10d.	lot sorts_standard_003
+sort	6143		Description	7d120d8a6a7c	Absorbe $s1 points de dégâts de Givre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6196		Description	46289f848c22	Déplace le point de vue du lanceur à l'endroit sélectionné. Dure $d. Utilisable uniquement en extérieur.\n\n@ext:This ability is usable while shapeshifted. Not usable in High-Risk.:ext@	lot sorts_standard_003
+sort	6197		Description	c1ddb3996668	Zoome dans le champ de vision du chasseur. Ne fonctionne qu'en extérieur. Dure $d.\n\n@ext:This ability is usable while shapeshifted. Not usable in High-Risk.:ext@	lot sorts_standard_003
+sort	6201		Description	52be7f9dc1ad	Crée une Pierre de soins mineure que vous pouvez utiliser pour récupérer instantanément $6262s1 points de vie.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6202		Description	41d66be83b2a	Crée une Pierre de soins inférieure que vous pouvez utiliser pour récupérer instantanément $6263s1 points de vie.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6213		Description	1bf8d701815f	Effraie l'ennemi et l'oblige à s'enfuir pendant $d au maximum (6 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu. Le nombre de cibles effrayées à la fois est limité à 1.	lot sorts_standard_003
+sort	6215		Description	1bf8d701815f	Effraie l'ennemi et l'oblige à s'enfuir pendant $d au maximum (6 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu. Le nombre de cibles effrayées à la fois est limité à 1.	lot sorts_standard_003
+sort	6219		Description	041f3f24880e	Invoque une pluie de feu qui brûle les ennemis dans la zone d'effet et inflige ${$42224m1*8} points de dégâts de Feu en $d.	lot sorts_standard_003
+sort	6229		Description	9411d45f5b45	Absorbe $s1 points de dégâts d'Ombre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6251		Description	b1a0367d6b2e	Invoque un canon qui tire sur les ennemis proches.	lot sorts_standard_003
+sort	6268		Description	32f162e1f380	Augmente la vitesse de déplacement du lanceur de sorts de $s1% pendant $d et ses dégâts de $s2% lors de sa première attaque.	lot sorts_standard_003
+sort	6268		ToolTip	6ad4e26631fa	Vitesse de déplacement augmentée de $s1%.\nInflige $s2% de dégâts supplémentaires lors de la première attaque.	lot sorts_standard_003
+sort	6307		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	6343		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	6346		Description	f6dcf014ed91	Protège la cible alliée contre les effets de peur et d'horreur. Le prochain effet de peur utilisé sur la cible échoue, mais dissipe la protection. Dure $d.	lot sorts_standard_003
+sort	6346		ToolTip	f161e94e0cb6	$gProtégé:Protégée; contre les effets de peur et d'horreur.	lot sorts_standard_003
+sort	6353		Description	ae454a97bcef	Brûle l'âme de l'ennemi et lui inflige ${$m1+0+$sp*0.69+$ap*0.45} points de dégâts de Feu.	lot sorts_standard_003
+sort	6358		Description	e4a211a6df13	Séduit la cible et l'empêche de faire quoi que ce soit pendant $d au maximum (6 secondes contre les joueurs). Si la cible subit des dégâts, l'effet est annulé. 	lot sorts_standard_003
+sort	6360		Description	b52617a72c8e	Apaise la cible, ce qui augmente les probabilités qu'elle attaque autre chose et réduit sa vitesse d'attaque en mêlée de $s2% pendant $d.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	6360		ToolTip	fecf1d100b7b	Vitesse d'attaque en mêlée réduite de $s2%.	lot sorts_standard_003
+sort	6363		Description	696ea1f9f5fa	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il reste $d et attaque à plusieurs reprises un ennemi qui se trouve dans un rayon de $6350r1 mètres, lui infligeant $6350s1 points de dégâts de Feu.\r\n\r\nCette technique est utilisable en étant transformé.	lot sorts_standard_003
+sort	6364		Description	c1e2a88a5e8d	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il reste $d et attaque à plusieurs reprises un ennemi qui se trouve dans un rayon de $6351r1 mètres, lui infligeant $6351s1 points de dégâts de Feu.\r\n\r\nCette technique est utilisable en étant transformé.	lot sorts_standard_003
+sort	6365		Description	7d4f283663ee	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il reste $d et attaque à plusieurs reprises un ennemi qui se trouve dans un rayon de $6352r1 mètres, lui infligeant $6352s1 points de dégâts de Feu.\r\n\r\nCette technique est utilisable en étant transformé.	lot sorts_standard_003
+sort	6366		Description	3c28ac7b02bb	Lorsqu'elle est appliquée sur l'arme cible, elle augmente les dégâts infligés par les sorts de 1% et le score de coup critique des sorts de $55146s3. Cet effet dure 2 heures. \r\n\r\nVous ne pouvez bénéficier que d'un seul enchantement d'arme de démoniste à la fois.	lot sorts_standard_003
+sort	6375		Description	1490ca5b25b7	Invoque aux pieds du lanceur de sorts un Totem guérisseur qui dispose de $s1 points de vie et dure $d. Il rend à tous les membres du groupe se trouvant à moins de $52048a1 mètres $6371s1 points de vie toutes les $6371t1 secondes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6377		Description	7ff5485bcd84	Invoque aux pieds du lanceur de sorts un Totem guérisseur qui dispose de $s1 points de vie et dure $d. Il rend à tous les membres du groupe se trouvant à moins de $52048a1 mètres $6372s1 points de vie toutes les $6372t1 secondes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6390		Description	1e2df0034eca	Invoque aux pieds du lanceur de sorts un Totem de griffes de pierre qui dispose de $s1 points de vie pendant $d. Il provoque toutes les créatures dans un rayon de $6393a1 mètres pour attirer leurs attaques. Les ennemis qui attaquent le Totem de griffes de pierre ont $6397h% de chances d'être étourdis pendant $39796d. Le Totem de griffes de pierre protège également tous vos totems en leur permettant d'absorber $55329s1 points de dégâts.\r\r@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6391		Description	762b453ac284	Invoque aux pieds du lanceur de sorts un Totem de griffes de pierre qui dispose de $s1 points de vie pendant $d. Il provoque toutes les créatures dans un rayon de $6394a1 mètres pour attirer leurs attaques. Les ennemis qui attaquent le Totem de griffes de pierre ont $6398h% de chances d'être étourdis pendant $39796d. Le Totem de griffes de pierre protège également tous vos totems en leur permettant d'absorber $55330s1 points de dégâts.\r\r@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6392		Description	9bf550ac4d2e	Invoque aux pieds du lanceur de sorts un Totem de griffes de pierre qui dispose de $s1 points de vie pendant $d. Il provoque toutes les créatures dans un rayon de $6395a1 mètres pour attirer leurs attaques. Les ennemis qui attaquent le Totem de griffes de pierre ont $6399h% de chances d'être étourdis pendant $39796d. Le Totem de griffes de pierre protège également tous vos totems en leur permettant d'absorber $55332s1 points de dégâts.\r\r@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	6495		Description	a3433cc723c2	Invoque à vos pieds un Totem Sentinelle immobile. Il a $s1 points de vie et reste pendant $d. Il vous permet de visualiser clairement les environs et vous avertit si des ennemis l'attaquent. Cliquez avec le bouton droit sur l'amélioration pour basculer de la vision du totem à celle du chaman et inversement.\n\nCette technique est utilisable en étant transformé.	lot sorts_standard_003
+sort	6507		Description	b08f32bb06e7	Augmente les dégâts physiques infligés par les membres du groupe proches pendant $d	lot sorts_standard_003
+sort	6507		ToolTip	6e0f7a8c3ec0	Les dégâts physiques infligés sont augmentés de $s1%	lot sorts_standard_003
+sort	6552		Description	9dfbcc4ea84e	Assène une volée de coups à la cible, interrompt l'incantation en cours et empêche le lancement des sorts de cette école de magie pendant $d.\r\n\r\n@ext:This ability shares a cooldown with other interrupts.:ext@	lot sorts_standard_003
+sort	6572		Description	d9bc061d8e06	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	6574		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	6576		ToolTip	eff3e97357b3	Apeuré.	lot sorts_standard_003
+sort	6647		Description	898b0950b76d	Un poison à effet rapide qui inflige 31 points de dégâts à la cible.	lot sorts_standard_003
+sort	6724		Description	e78d6d28528c	Confère l'immunité aux sorts et aux dégâts pendant $d. Ce sort ne fonctionne pas pour les personnages de niveau supérieur à 40.	lot sorts_standard_003
+sort	6727		ToolTip	2984fbe03e4b	Subit $s1 points de dégâts de poison toutes les 0,5 sec.	lot sorts_standard_003
+sort	6756		Description	2e82a40ced38	Augmente de $s1 l'Armure et de $s2 toutes les caractéristiques de la cible alliée pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	6774		Description	82d518ebac4f	Coup de grâce qui augmente la vitesse d'attaque en mêlée de $s2%. La durée dépend du nombre de points de combo :\r\n   1 point : ${$d+3*1} secondes\r\n   2 points : ${$d+3*2} secondes\r\n   3 points : ${$d+3*3} secondes\r\n   4 points : ${$d+3*4} secondes\r\n   5 points : ${$d+3*5} secondes\r\n\r\nCette technique est utilisable en étant transformé. 	lot sorts_standard_003
+sort	6785		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	6787		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	6789		Description	78ea0745ee3b	Oblige la cible ennemie à fuir, horrifiée, pendant $d et lui inflige $s1 points de dégâts d'Ombre. Le lanceur de sorts reçoit un montant de points de vie égal à ${100*$e1}% des dégâts infligés.	lot sorts_standard_003
+sort	6793		Description	eaa3f225ac97	Ajoute $s1 points de dégâts à vos attaques et augmente les dégâts infligés de $s2% pendant $d.	lot sorts_standard_003
+sort	6793		ToolTip	e27034c307fe	Dégâts augmentés de $s2% et vos attaques infligent $s1 points de dégâts supplémentaires.	lot sorts_standard_003
+sort	6795		Description	44df920d0e4f	Provoque la cible et la force à vous attaquer. Aucun effet si la cible est déjà en train de vous attaquer.\n\nPartage son temps de recharge avec les autres techniques de provocation à cible unique et avec Trait provocateur.\n\n|cffFFFFFFCe sort ne peut pas rater.|r	lot sorts_standard_003
+sort	6800		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	6807		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	6808		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	6809		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	6864		ToolTip	a60677d40639	Les dégâts physiques infligés sont augmentés de $s1%.\nVitesse de déplacement réduite de $s3%.	lot sorts_standard_003
+sort	6902		ToolTip	90a5cc93e08f	Vous fait éternuer !	lot sorts_standard_003
+sort	6909		ToolTip	49e0b7cd56c6	$h% de chances de subir $6910s1 points de dégâts lorsque vous attaquez.	lot sorts_standard_003
+sort	6921		ToolTip	8fabe744292c	Vitesse de déplacement augmentée de $s1%.\nLes dégâts physiques infligés sont augmentés de $s2%	lot sorts_standard_003
+sort	6940		Description	ee0442f46b47	Place une Main sur un membre du groupe ou du raid. Elle transfère $s1% des points de dégâts subis au lanceur de sorts. Dure $d ou jusqu'à ce que le lanceur ait transféré $m2% de son maximum de points de vie.	lot sorts_standard_003
+sort	6950		Description	ee5a35d51bd3	Réduit l'Armure d'un ennemi de $s1% pendant $d. Tant que la cible est affectée par cet effet, elle ne peut pas se camoufler ou devenir invisible.	lot sorts_standard_003
+sort	6950		ToolTip	7067ac0d1ae5	Armure réduite de $s1%.\nImpossible d'utiliser Camouflage ou Invisibilité.	lot sorts_standard_003
+sort	6951		Description	ef522b533d18	Réduit la Force d'un ennemi de -2 pendant $d.	lot sorts_standard_003
+sort	7102		Description	874585e20a43	Augmente le temps entre les attaques d'un ennemi de -33% et son temps d'incantation de -25%. De plus, la cible a $h% de chances de contaminer un de ses alliés lorsqu'elle est touchée. Dure $d.	lot sorts_standard_003
+sort	7125		Description	1923c5122e61	Inflige 17 points de dégâts de Nature à un ennemi toutes les $t1 sec. Draine aussi 20 points de mana toutes les $t2 sec. et les transfère au lanceur de sorts. Dure $d.	lot sorts_standard_003
+sort	7216		Description	f3b96c188452	Attache une Pointe de Fer à votre bouclier qui inflige des dégâts chaque fois que vous l'utilisez pour bloquer un coup. Nécessite le niveau 20 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_003
+sort	7218		Description	0773de73274d	Fixe un contrepoids à une épée à deux mains, une masse à deux mains, une hache à deux mains ou à une arme d'hast, ce qui augmente de ${$80316ppl1+$80316m1} le score de hâte de son porteur. Nécessite le niveau 20 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_003
+sort	7218		Name	c27becc30ddf	Contrepoids	lot sorts_standard_003
+sort	7220		Description	74151d910c6e	Attache une chaîne à votre arme, ce qui réduit de 30% la durée des effets de désarmement. Ne se cumule pas avec d'autres effets similaires. Nécessite le niveau 20 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_003
+sort	7230		Description	1c332aceef61	Absorbe $s1 points de dégâts de Feu. Dure $d.	lot sorts_standard_003
+sort	7231		Description	1c332aceef61	Absorbe $s1 points de dégâts de Feu. Dure $d.	lot sorts_standard_003
+sort	7232		Description	1c332aceef61	Absorbe $s1 points de dégâts de Feu. Dure $d.	lot sorts_standard_003
+sort	7233		Description	1c332aceef61	Absorbe $s1 points de dégâts de Feu. Dure $d.	lot sorts_standard_003
+sort	7234		Description	1c332aceef61	Absorbe $s1 points de dégâts de Feu. Dure $d.	lot sorts_standard_003
+sort	7235		Description	8b28518bdc36	Absorbe $s1 points de dégâts d'Ombre. Dure $d.	lot sorts_standard_003
+sort	7241		Description	8b28518bdc36	Absorbe $s1 points de dégâts d'Ombre. Dure $d.	lot sorts_standard_003
+sort	7242		Description	8b28518bdc36	Absorbe $s1 points de dégâts d'Ombre. Dure $d.	lot sorts_standard_003
+sort	7243		Description	8b28518bdc36	Absorbe $s1 points de dégâts d'Ombre. Dure $d.	lot sorts_standard_003
+sort	7244		Description	8b28518bdc36	Absorbe $s1 points de dégâts d'Ombre. Dure $d.	lot sorts_standard_003
+sort	7245		Description	91a96591afae	Absorbe $s1 points de dégâts du Sacré. Dure $d.	lot sorts_standard_003
+sort	7246		Description	91a96591afae	Absorbe $s1 points de dégâts du Sacré. Dure $d.	lot sorts_standard_003
+sort	7247		Description	91a96591afae	Absorbe $s1 points de dégâts du Sacré. Dure $d.	lot sorts_standard_003
+sort	7248		Description	91a96591afae	Absorbe $s1 points de dégâts du Sacré. Dure $d.	lot sorts_standard_003
+sort	7249		Description	91a96591afae	Absorbe $s1 points de dégâts du Sacré. Dure $d.	lot sorts_standard_003
+sort	7250		Description	28a4b2847135	Absorbe $s1 points de dégâts de Nature. Dure $d.	lot sorts_standard_003
+sort	7251		Description	28a4b2847135	Absorbe $s1 points de dégâts de Nature. Dure $d.	lot sorts_standard_003
+sort	7252		Description	28a4b2847135	Absorbe $s1 points de dégâts de Nature. Dure $d.	lot sorts_standard_003
+sort	7253		Description	28a4b2847135	Absorbe $s1 points de dégâts de Nature. Dure $d.	lot sorts_standard_003
+sort	7254		Description	28a4b2847135	Absorbe $s1 points de dégâts de Nature. Dure $d.	lot sorts_standard_003
+sort	7294		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	7302		Description	7c3a23ac06d4	Augmente l'Armure de $s1 et la résistance au Givre de $s3.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $7321s1% et le temps entre ses attaques augmenté de $7321s2% pendant $7321d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@  	lot sorts_standard_003
+sort	7302		ToolTip	f3b9fe20b899	Augmente l'Armure de ${$w1} et la résistance au Givre de $s3, et peut ralentir les attaquants.	lot sorts_standard_003
+sort	7320		Description	7c3a23ac06d4	Augmente l'Armure de $s1 et la résistance au Givre de $s3.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $7321s1% et le temps entre ses attaques augmenté de $7321s2% pendant $7321d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@  	lot sorts_standard_003
+sort	7320		ToolTip	f3b9fe20b899	Augmente l'Armure de ${$w1} et la résistance au Givre de $s3, et peut ralentir les attaquants.	lot sorts_standard_003
+sort	7321		Description	890137c11e17	Réduit la vitesse de déplacement d'un attaquant de $s1% et sa vitesse d'attaque de $s2%.\r\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	7353		Description	ac229742c81c	Augmente votre Esprit de 4.	lot sorts_standard_003
+sort	7358		Description	9eba06cec1aa	Augmente votre Esprit de 8.	lot sorts_standard_003
+sort	7379		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	7384		Description	50b14abaa017	Déclenche une attaque fulgurante instantanée sur un ennemi et lui inflige $s1% des dégâts de l'arme. Ne peut être utilisée qu'une fois que la cible a esquivé. Fulgurance ne peut pas être bloquée, esquivée ou parée.	lot sorts_standard_003
+sort	7386		Description	986c306bd23c	Fracasse l'armure de la cible et la réduit de $s1% par attaque Fracasser armure portée. Génère un niveau élevé de menace. La menace est augmentée par la puissance d'attaque. Peut être appliqué jusqu'à 5 fois. Dure $58567d.\r\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	7443		Description	675a29a2ddc9	Enchante de manière permanente une pièce d'armure de torse. Cette dernière augmente les points de mana de ${$80315m1+$80315ppl1}.	lot sorts_standard_003
+sort	7711		Name	c07bfba19fde	Vengeur ardent	lot sorts_standard_003
+sort	7744		Description	98a46b7e44ae	Annule tous les effets de Charme, de Peur et de Sommeil.\n\nPartage un temps de recharge de 30 secondes avec les bijoux PvP.	lot sorts_standard_003
+sort	7766		Description	626a1bba142f	Enchante de manière permanente des brassards. Ces derniers augmentent l'Esprit de ${$80320m1+$80320ppl1}.	lot sorts_standard_003
+sort	7776		Description	b3c59c5b11d1	Enchante de manière permanente une pièce d'armure de torse. Cette dernière augmente les points de mana de ${$80321m1+$80321ppl1}.	lot sorts_standard_003
+sort	7782		Description	75f99d49541c	Enchante de manière permanente des brassards. Ces derniers augmentent la Force de ${$80323m1+$80323ppl1}.	lot sorts_standard_003
+sort	7786		Description	7344e520edf1	Enchante de manière permanente une arme de mêlée. Cette dernière inflige ${$7784m1+$7784ppl1} points de dégâts supplémentaires aux bêtes.	lot sorts_standard_003
+sort	7804		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	7805		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	7813		ToolTip	fecf1d100b7b	Vitesse d'attaque en mêlée réduite de $s2%.	lot sorts_standard_003
+sort	8198		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	8204		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	8205		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	8260		ToolTip	6ad4e26631fa	Vitesse de déplacement augmentée de $s1%.\nInflige $s2% de dégâts supplémentaires lors de la première attaque.	lot sorts_standard_003
+sort	8365		ToolTip	6e0f7a8c3ec0	Les dégâts physiques infligés sont augmentés de $s1%	lot sorts_standard_003
+sort	8417		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	8418		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	8907		Description	5e4f57681528	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et toutes ses résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	8972		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	8992		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	9745		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	9752		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	9829		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	9830		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	9830		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	9845		Description	eaa3f225ac97	Ajoute $s1 points de dégâts à vos attaques et augmente les dégâts infligés de $s2% pendant $d.	lot sorts_standard_003
+sort	9845		ToolTip	e27034c307fe	Dégâts augmentés de $s2% et vos attaques infligent $s1 points de dégâts supplémentaires.	lot sorts_standard_003
+sort	9846		Description	eaa3f225ac97	Ajoute $s1 points de dégâts à vos attaques et augmente les dégâts infligés de $s2% pendant $d.	lot sorts_standard_003
+sort	9846		ToolTip	e27034c307fe	Dégâts augmentés de $s2% et vos attaques infligent $s1 points de dégâts supplémentaires.	lot sorts_standard_003
+sort	9849		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	9850		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	9866		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	9867		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	9867		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	9880		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	9881		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	9884		Description	5e4f57681528	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et toutes ses résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	9885		Description	5e4f57681528	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et toutes ses résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	9894		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	10161		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	10211		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	10219		Description	7c3a23ac06d4	Augmente l'Armure de $s1 et la résistance au Givre de $s3.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $7321s1% et le temps entre ses attaques augmenté de $7321s2% pendant $7321d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@  	lot sorts_standard_003
+sort	10219		ToolTip	f3b9fe20b899	Augmente l'Armure de ${$w1} et la résistance au Givre de $s3, et peut ralentir les attaquants.	lot sorts_standard_003
+sort	10220		Description	7c3a23ac06d4	Augmente l'Armure de $s1 et la résistance au Givre de $s3.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $7321s1% et le temps entre ses attaques augmenté de $7321s2% pendant $7321d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@  	lot sorts_standard_003
+sort	10220		ToolTip	f3b9fe20b899	Augmente l'Armure de ${$w1} et la résistance au Givre de $s3, et peut ralentir les attaquants.	lot sorts_standard_003
+sort	10273		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	10298		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	10299		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	10300		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	10301		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	10605		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	11580		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	11581		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	11600		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	11601		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	11605		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	11681		Name	b68d2946f197	Flammes infernales	lot sorts_standard_003
+sort	11682		Name	b68d2946f197	Flammes infernales	lot sorts_standard_003
+sort	11712		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	11713		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	11739		Description	9411d45f5b45	Absorbe $s1 points de dégâts d'Ombre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	11740		Description	9411d45f5b45	Absorbe $s1 points de dégâts d'Ombre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	11766		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	11767		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	11784		ToolTip	fecf1d100b7b	Vitesse d'attaque en mêlée réduite de $s2%.	lot sorts_standard_003
+sort	11785		ToolTip	fecf1d100b7b	Vitesse d'attaque en mêlée réduite de $s2%.	lot sorts_standard_003
+sort	13021		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	14321		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	14322		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	16891		Description	8b28518bdc36	Absorbe $s1 points de dégâts d'Ombre. Dure $d.	lot sorts_standard_003
+sort	16892		Description	91a96591afae	Absorbe $s1 points de dégâts du Sacré. Dure $d.	lot sorts_standard_003
+sort	16893		Description	28a4b2847135	Absorbe $s1 points de dégâts de Nature. Dure $d.	lot sorts_standard_003
+sort	16894		Description	1c332aceef61	Absorbe $s1 points de dégâts de Feu. Dure $d.	lot sorts_standard_003
+sort	17924		Description	ae454a97bcef	Brûle l'âme de l'ennemi et lui inflige ${$m1+0+$sp*0.69+$ap*0.45} points de dégâts de Feu.	lot sorts_standard_003
+sort	17925		Description	78ea0745ee3b	Oblige la cible ennemie à fuir, horrifiée, pendant $d et lui inflige $s1 points de dégâts d'Ombre. Le lanceur de sorts reçoit un montant de points de vie égal à ${100*$e1}% des dégâts infligés.	lot sorts_standard_003
+sort	17926		Description	78ea0745ee3b	Oblige la cible ennemie à fuir, horrifiée, pendant $d et lui inflige $s1 points de dégâts d'Ombre. Le lanceur de sorts reçoit un montant de points de vie égal à ${100*$e1}% des dégâts infligés.	lot sorts_standard_003
+sort	18870		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	18871		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	19242		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	19243		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	19878		Description	4ed1f02d1c8d	Les démons des environs apparaissent sur la minicarte et les dégâts infligés aux démons sont augmentés de 1%. Un seul type de Pistage peut être actif à la fois.	lot sorts_standard_003
+sort	19883		Description	e6ed583a985a	Les humanoïdes des environs apparaissent sur la minicarte. Un seul type de Pistage peut être actif à la fois.	lot sorts_standard_003
+sort	20658		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	20660		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	20661		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	20662		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	20662		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	20923		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	20924		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	22782		Description	ecfec339202e	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre mana de continuer à se régénérer, à $s2% de la vitesse de récupération normale, pendant l'incantation de sorts. Dure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@	lot sorts_standard_003
+sort	22782		ToolTip	b75e53893847	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre régénération de mana de se poursuivre à $s2% de la vitesse normale pendant les incantations de sorts. Durée de tous les effets magiques néfastes réduite de $s3%. Le mage ne peut bénéficier que d'un seul type de sort d'armure à la fois. Dure $d.	lot sorts_standard_003
+sort	22783		Description	ecfec339202e	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre mana de continuer à se régénérer, à $s2% de la vitesse de récupération normale, pendant l'incantation de sorts. Dure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@	lot sorts_standard_003
+sort	22783		ToolTip	b75e53893847	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre régénération de mana de se poursuivre à $s2% de la vitesse normale pendant les incantations de sorts. Durée de tous les effets magiques néfastes réduite de $s3%. Le mage ne peut bénéficier que d'un seul type de sort d'armure à la fois. Dure $d.	lot sorts_standard_003
+sort	22828		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	22829		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	24974		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	24974		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	24975		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	24975		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	24976		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	24976		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	24977		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	24977		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	24977		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	25234		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	25234		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	25236		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	25241		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	25248		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	25264		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	25269		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	25288		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	25308		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	25316		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	25439		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	25829		Description	a2db97a78b87	Augmente les chances de coup critique de vos sorts et techniques du Sacré de $s1%.	lot sorts_standard_003
+sort	26669		Description	97dbcce31ff1	Augmente vos chances d'esquiver de $s1% et réduit de $s1% la probabilité que les attaques à distance vous touchent. Dure $d. \r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	26983		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	26990		Description	5e4f57681528	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et toutes ses résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	26996		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	27001		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	27001		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	27002		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	27003		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	27005		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	27005		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	27013		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	27013		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	27013		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	27087		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	27124		Description	7c3a23ac06d4	Augmente l'Armure de $s1 et la résistance au Givre de $s3.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $7321s1% et le temps entre ses attaques augmenté de $7321s2% pendant $7321d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@  	lot sorts_standard_003
+sort	27124		ToolTip	f3b9fe20b899	Augmente l'Armure de ${$w1} et la résistance au Givre de $s3, et peut ralentir les attaquants.	lot sorts_standard_003
+sort	27125		Description	ecfec339202e	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre mana de continuer à se régénérer, à $s2% de la vitesse de récupération normale, pendant l'incantation de sorts. Dure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@	lot sorts_standard_003
+sort	27125		ToolTip	b75e53893847	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre régénération de mana de se poursuivre à $s2% de la vitesse normale pendant les incantations de sorts. Durée de tous les effets magiques néfastes réduite de $s3%. Le mage ne peut bénéficier que d'un seul type de sort d'armure à la fois. Dure $d.	lot sorts_standard_003
+sort	27133		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	27134		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	27139		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	27150		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	27211		Description	ae454a97bcef	Brûle l'âme de l'ennemi et lui inflige ${$m1+0+$sp*0.69+$ap*0.45} points de dégâts de Feu.	lot sorts_standard_003
+sort	27214		Name	b68d2946f197	Flammes infernales	lot sorts_standard_003
+sort	27223		Description	78ea0745ee3b	Oblige la cible ennemie à fuir, horrifiée, pendant $d et lui inflige $s1 points de dégâts d'Ombre. Le lanceur de sorts reçoit un montant de points de vie égal à ${100*$e1}% des dégâts infligés.	lot sorts_standard_003
+sort	27268		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	27576		Description	5542e21e0320	Attaque instantanément avec les deux armes et inflige 135% des dégâts des armes plus $5374s1 points de dégâts supplémentaires avec chacune d'elles. Les dégâts sont augmentés de 10% contre les cibles empoisonnées. Vous gagnez 2 points de combo.	lot sorts_standard_003
+sort	28610		Description	9411d45f5b45	Absorbe $s1 points de dégâts d'Ombre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	30016		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	30022		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	30330		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	30357		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	30545		Description	ae454a97bcef	Brûle l'âme de l'ennemi et lui inflige ${$m1+0+$sp*0.69+$ap*0.45} points de dégâts de Feu.	lot sorts_standard_003
+sort	30545		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	33043		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	33072		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	33073		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	33074		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	33405		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	33982		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	33986		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	34412		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	34413		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	34416		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	34417		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	34418		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	34419		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	34866		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	36916		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	42894		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	42896		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	42913		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	42914		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	42949		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	43008		Description	7c3a23ac06d4	Augmente l'Armure de $s1 et la résistance au Givre de $s3.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $7321s1% et le temps entre ses attaques augmenté de $7321s2% pendant $7321d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@  	lot sorts_standard_003
+sort	43008		ToolTip	f3b9fe20b899	Augmente l'Armure de ${$w1} et la résistance au Givre de $s3, et peut ralentir les attaquants.	lot sorts_standard_003
+sort	43023		Description	ecfec339202e	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre mana de continuer à se régénérer, à $s2% de la vitesse de récupération normale, pendant l'incantation de sorts. Dure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@	lot sorts_standard_003
+sort	43023		ToolTip	b75e53893847	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre régénération de mana de se poursuivre à $s2% de la vitesse normale pendant les incantations de sorts. Durée de tous les effets magiques néfastes réduite de $s3%. Le mage ne peut bénéficier que d'un seul type de sort d'armure à la fois. Dure $d.	lot sorts_standard_003
+sort	43024		Description	ecfec339202e	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre mana de continuer à se régénérer, à $s2% de la vitesse de récupération normale, pendant l'incantation de sorts. Dure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@	lot sorts_standard_003
+sort	43024		ToolTip	b75e53893847	Augmente de $s1 votre résistance à toutes les écoles de magie et permet à votre régénération de mana de se poursuivre à $s2% de la vitesse normale pendant les incantations de sorts. Durée de tous les effets magiques néfastes réduite de $s3%. Le mage ne peut bénéficier que d'un seul type de sort d'armure à la fois. Dure $d.	lot sorts_standard_003
+sort	44208		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	45301		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	45302		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	47470		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	47471		Description	45a5b0e36201	Tentative pour achever un ennemi blessé. Inflige ${$m1+($AP+$SP)*0.3} points de dégâts et convertit chaque point de rage supplémentaire en $*10;F1 points de dégâts supplémentaires (jusqu'à un coût maximum de 30 points de rage). Ne peut être utilisée que sur les ennemis qui disposent de moins de 20% de leurs points de vie.	lot sorts_standard_003
+sort	47501		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	47502		Description	27814f69077a	Foudroie les ennemis qui se trouvent à proximité, ce qui leur inflige $s1 points de dégâts et augmente le temps entre leurs attaques de $s2% pendant $d. Cette technique génère de la menace supplémentaire.	lot sorts_standard_003
+sort	47610		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	47822		Name	b68d2946f197	Flammes infernales	lot sorts_standard_003
+sort	47824		Description	ae454a97bcef	Brûle l'âme de l'ennemi et lui inflige ${$m1+0+$sp*0.69+$ap*0.45} points de dégâts de Feu.	lot sorts_standard_003
+sort	47824		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	47825		Description	ae454a97bcef	Brûle l'âme de l'ennemi et lui inflige ${$m1+0+$sp*0.69+$ap*0.45} points de dégâts de Feu.	lot sorts_standard_003
+sort	47834		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	47836		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	47843		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	47847		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	47859		Description	78ea0745ee3b	Oblige la cible ennemie à fuir, horrifiée, pendant $d et lui inflige $s1 points de dégâts d'Ombre. Le lanceur de sorts reçoit un montant de points de vie égal à ${100*$e1}% des dégâts infligés.	lot sorts_standard_003
+sort	47860		Description	78ea0745ee3b	Oblige la cible ennemie à fuir, horrifiée, pendant $d et lui inflige $s1 points de dégâts d'Ombre. Le lanceur de sorts reçoit un montant de points de vie égal à ${100*$e1}% des dégâts infligés.	lot sorts_standard_003
+sort	47890		Description	9411d45f5b45	Absorbe $s1 points de dégâts d'Ombre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	47891		Description	9411d45f5b45	Absorbe $s1 points de dégâts d'Ombre. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_003
+sort	47982		Description	7d68c5da414d	Augmente de $s1 les points de vie des membres du groupe et du raid.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_003
+sort	48088		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48113		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48120		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48158		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48160		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48444		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48446		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48468		Description	09d05037b0ad	La cible ennemie est assaillie par des insectes. Ses chances de toucher sont réduites de $5572s2% et elle subit $o1 points de dégâts de Nature en $d.	lot sorts_standard_003
+sort	48468		ToolTip	26b8e634dd2d	Inflige $s1 points de dégâts de Nature toutes les $t1 sec. Chances de toucher réduites de $5572s2%.	lot sorts_standard_003
+sort	48469		Description	5e4f57681528	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et toutes ses résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_003
+sort	48479		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	48480		Description	9703fd71cd03	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée, et génère un niveau élevé de menace. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Mutiler.	lot sorts_standard_003
+sort	48571		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	48572		Description	02e65dc47269	Met la cible en lambeaux et inflige $s3% des points de dégâts plus $s1 à la cible. Il faut se trouver derrière la cible. Vous gagnez $s2 $lpoint:points; de combo. Les effets qui augmentent les dégâts de saignement augmentent également les dégâts de Lambeau.	lot sorts_standard_003
+sort	48573		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48578		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	48579		Description	49124de01b71	Ravage la cible et lui inflige $s2% des dégâts plus ${$m1*$m2/100}. Vous devez rôder et être derrière la cible. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_003
+sort	48660		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48674		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48816		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48820		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48822		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48824		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48827		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48951		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48952		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	48998		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	48999		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	49284		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	49892		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	49896		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	49936		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	49937		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	49939		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	49940		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	49999		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	50212		Description	eaa3f225ac97	Ajoute $s1 points de dégâts à vos attaques et augmente les dégâts infligés de $s2% pendant $d.	lot sorts_standard_003
+sort	50212		ToolTip	e27034c307fe	Dégâts augmentés de $s2% et vos attaques infligent $s1 points de dégâts supplémentaires.	lot sorts_standard_003
+sort	50213		Description	eaa3f225ac97	Ajoute $s1 points de dégâts à vos attaques et augmente les dégâts infligés de $s2% pendant $d.	lot sorts_standard_003
+sort	50213		ToolTip	e27034c307fe	Dégâts augmentés de $s2% et vos attaques infligent $s1 points de dégâts supplémentaires.	lot sorts_standard_003
+sort	51300		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	51325		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	51326		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	51411		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	51419		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	51423		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	51424		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	51679		Description	a2f3c3aa4ae7	Réduit le coût en énergie de Shuriken Toss de $s3. \r\n\r\nAugmente la portée de Shuriken Toss, Lancer et Lancer mortel de $s1 mètres. \r\n\r\nVotre Lancer mortel a $h% de chances d'interrompre la cible pendant $51680d.	lot sorts_standard_003 ; nom de sort de classe CoA sans français : Shuriken Toss (proposition « Lancer de shuriken »), laissé en anglais en attendant l'harmonisation
+sort	52983		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	52986		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	52998		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	53001		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	53005		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	53190		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	53195		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	53198		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	53201		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	53227		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	53251		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	53339		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	54043		Description	e7f99f1ce5fc	Inflige $s1 points de dégâts du Sacré à tout ennemi qui frappe un membre du groupe ou du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_003
+sort	55261		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	55262		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	55268		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	55270		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	55271		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	56707		Description	874585e20a43	Augmente le temps entre les attaques d'un ennemi de -33% et son temps d'incantation de -25%. De plus, la cible a $h% de chances de contaminer un de ses alliés lorsqu'elle est touchée. Dure $d.	lot sorts_standard_003
+sort	57823		Description	39616058fe95	Contre-attaque instantanément l'ennemi et lui inflige de ${$m1+$AP*0.190} à ${$M1+$AP*0.190} points de dégâts. Vengeance n'est utilisable qu'après le blocage, l'esquive ou la parade d'une attaque par le guerrier.	lot sorts_standard_003
+sort	57993		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	59092		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	59159		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	59164		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	59172		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	60053		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	61384		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	63671		Rank	59a1f8e2a5ca	Rang 6	lot sorts_standard_003
+sort	63672		Rank	23e74c29b76e	Rang 7	lot sorts_standard_003
+sort	65459		Description	ac229742c81c	Augmente votre Esprit de 4.	lot sorts_standard_003
