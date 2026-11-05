@@ -72,6 +72,7 @@ sort	555737		Name	748b71c8d837	Mélangeur temporel	lot talents_010
 sort	555737		ToolTip	ebc8c69bb665	Les soins d'|cFFFFFFFFInversion des blessures|r prolongent de $/1000;524680s1 sec. la durée de |cFFFFFFFFRécupération accélérée|r sur la cible.	lot talents_010
 sort	555738		Description	bcc7b794b805	Fait tournoyer vos glaives pendant $d, ce qui augmente votre vitesse de déplacement de $s2% et inflige $806095s1% des dégâts de l'arme toutes les $t1 sec. avec vos deux armes à tous les ennemis proches.\r\n\r\nVous êtes insensible aux effets affectant le déplacement et de perte de contrôle.	lot talents_010
 sort	555738		Name	e4ef15333286	Fureur déchaînée	lot talents_010
+sort	555738		ToolTip	b4dc6f611ea5	Vitesse de déplacement augmentée de ${$w2}%. Frappe les ennemis proches.\n\nVous êtes insensible aux effets affectant le déplacement et de perte de contrôle.	lot talents_010
 sort	557325		Description	5a778bcd1f50	Se téléporte jusqu'à un ennemi, invoque un leurre sous lui et le marque pendant $d. Lui infliger des dégâts en mêlée ajoute une charge à cet effet, jusqu'à $u charges.\r\n\r\nRéactiver cette technique dans les $557326d inflige ${$557328m1+$AP*.55} points de dégâts physiques à votre cible, augmentés de $s3% par charge sur la cible, puis vous téléporte jusqu'à votre leurre.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_010
 sort	557325		Name	f2458ebdb4fb	Déjouer	lot talents_010
 sort	557325		ToolTip	bbfb4637a546	Marqué par le brigand. Les charges supplémentaires augmentent les dégâts subis quand cette technique est réactivée.	lot talents_010
@@ -159,6 +160,7 @@ sort	560154		Description	5d10efeec97b	|cffffffffÉclat de pierre|r a désormais 
 sort	560154		Name	e62777660dc6	Glissement de terrain	lot talents_010
 sort	560156		Description	eaff07024c80	|cFF66DDFFPassif de niveau 50|r\r\nPermet aux dégâts périodiques de |cffffffffTremblement sismique|r, d'|cffffffffImpact sismique|r et de |cffffffffSéisme|r d'être critiques.	lot talents_010
 sort	560156		Name	8d5b3dea9529	Bénédiction de Therazane	lot talents_010
+sort	560157		Description	b46293052daf	Les attaques qui devraient vous tuer vous reforment à la place dans la pierre, ce qui vous rend $560179s1% de votre maximum de points de vie et réduit vos dégâts physiques subis de $560179s2% pendant $560179d.\n\nCet effet ne peut se produire qu'une fois toutes les 2 min.	lot talents_010
 sort	560157		Name	ef39c00e7fb5	Bénédiction de la Terre-Mère	lot talents_010
 sort	560158		Description	af0687de5157	Augmente votre maximum de points de vie de $s1%.	lot talents_010
 sort	560158		Name	70d254886f5a	Froid comme la pierre	lot talents_010
@@ -227,6 +229,7 @@ sort	560283		Name	48da9586fdbb	Sables de vie	lot talents_010
 sort	560284		Description	50b4fcb0fd9c	Fait tomber du ciel un infernal par une magie grotesque, ce qui inflige ${$m2+0+$spfi*1.05} points de dégâts de Feu aux ennemis dans la zone, les horrifie pendant $d et fait apparaître un |cFFFFFFFFInfernal|r qui combat à vos côtés pendant $572163d.\r\n\r\n|cff32cd32Démon intérieur|r : dure $/1000;807421s3 sec. de plus.	lot talents_010
 sort	560284		Name	007ab7a6986f	Infernal	lot talents_010
 sort	560284		ToolTip	aa861fa08993	Horrifié.	lot talents_010
+sort	560286		Description	8935f5312f86	Vos coups critiques en mêlée augmentent désormais de $560288s1% l'efficacité des effets de saignement sur la cible pendant $560288d.\n\nNe se cumule pas avec des effets similaires.	lot talents_010
 sort	560286		Name	32ddae1c4707	Lacérations	lot talents_010
 sort	560298		Description	523375e172e8	Tant que votre |cffffffffBarrière rocheuse|R est active, le coût en rage de |cffffffffMain de la Terre-Mère|r est réduit de $s1%.	lot talents_010
 sort	560298		Name	d903e0033768	Protection de la Terre-Mère	lot talents_010

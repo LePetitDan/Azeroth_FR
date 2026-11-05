@@ -131,6 +131,7 @@ sort	502498		Description	d7ac09d67f64	Fait rayonner de votre bouclier une lumiè
 sort	502498		Name	c1f15d9bb1ed	Aube naissante	lot talents_006
 sort	502499		Description	d7ac09d67f64	Fait rayonner de votre bouclier une lumière sacrée sur les ennemis devant vous, ce qui inflige ${$m1+0+$SP*0.25+$AP*0.1} points de dégâts de Feu-sacré, selon votre valeur de blocage.	lot talents_006
 sort	502499		Name	c1f15d9bb1ed	Aube naissante	lot talents_006
+sort	502537		Description	4871db3c62fe	Envoie des |cffffffffNanorobots|r à un allié$?s705804:[ qui réduisent tous les dégâts périodiques qu'il subit de $502537s2% et][] qui lui retirent $s1 effet$?s705804:[s][] de poison et de maladie toutes les $t1 sec. pendant $d au maximum.\n\n|cffffffffNanorobots purificateurs|r ne peut être envoyé que sur 1 cible à la fois et ne peut pas être dissipé.	lot talents_006
 sort	502537		Name	530d6293566d	Nanorobots purificateurs	lot talents_006
 sort	502537		ToolTip	038a1e3970b1	Retire ${$w1} effet de poison et de maladie toutes les $t1 sec.	lot talents_006
 sort	502552		Description	fc4e2188188f	Envoie des |cffffffffNanorobots|r à un allié, ce qui lui rend $o1 points de vie en $d.\r\n\r\n|cffffffffReconstruction par nanorobots|r ne peut être envoyée que sur 1 cible à la fois et ne peut pas être dissipée.	lot talents_006
@@ -541,6 +542,7 @@ sort	503717		Description	c127ff69d1f8	|cFFFFFFFFPointe sismique|r fait désormai
 sort	503717		Name	bb026160a291	Carnage sauvage	lot talents_006
 sort	503718		Description	bb32bb835c66	Soigner efficacement des alliés avec |cFFFFFFFFMarteau de vie|r ou |cFFFFFFFFMain de la Terre-Mère|r a désormais $h% de chances d'appliquer |cFFFFFFFFImprégné de puissance|r.@s:503719:0@	lot talents_006
 sort	503718		Name	de1c79e8796c	Imprégné de puissance	lot talents_006
+sort	503721		Description	3a58638f5949	Marque un emplacement comme votre |cffffffffBosquet|r pendant $505208d.\n\r\nLes alliés qui s'y trouvent gagnent $505208s3% de vitesse de déplacement et récupèrent ${$505208m1+$505208ppl1+$AP*.25} points de vie toutes les $505208t1 sec., et 1 effet de poison et de maladie leur est retiré.\r\n\nLes ennemis qui s'y trouvent sont ralentis de $504824s3%, subissent ${$504824m1+$504824ppl1+$AP*.45} points de dégâts de Nature toutes les $504824t2 sec. et sont immobilisés pendant $504825d.	lot talents_006
 sort	503721		Name	8ec0958ffec7	Gardien du bosquet	lot talents_006
 sort	503721		ToolTip	328ad37f7aee	Croissance réparatrice affecte jusqu'à ${$w2} cibles de plus. Chances de coup critique augmentées de ${$w3}%.	lot talents_006
 sort	503727		Description	ad8526a5ef4f	Recueillir un |cffffffffEsprit|r vous rend désormais instantanément $705941s1% de votre maximum de mana.	lot talents_006

@@ -210,6 +210,7 @@ sort	520296		Description	02df9c202f4c	|cFF66DDFFPassif de niveau 50|r\r\n|cfffff
 sort	520296		Name	abb32a47c46e	Chevalier de l'Apocalypse	lot talents_008
 sort	520314		Description	ef1d9aa1fd9e	Déchaîne une puissante vague de sang, ce qui inflige ${$m1+0+$sps*0.5+$spi*1} points de dégâts d'Ombre à un ennemi et rend ${$m3+0+$BH*.3+$spi*1} points de vie à $520315i alliés à moins de $520315a1 mètres de la cible.\r\n\r\n|cFFE53935Surpuissant|r : augmente de $s2 la puissance d'attaque ou la puissance des sorts des membres de votre groupe et de votre raid pendant $807563d, plus ${$807687m1+$807687ppl1} supplémentaires pour vous, selon le niveau.	lot talents_008
 sort	520314		Name	8affa8effd70	Crève-cœur	lot talents_008
+sort	520345		Description	a4fb498accfd	Canalise un bouclier d'énergies du Vide sur un allié : vous et lui absorbez ${$520346m1+$520346ppl1+$bh*1+$AP*.25} points de dégâts, cumulable $520346u fois, toutes les $t1 sec. pendant $d.\n\nÀ la fin de l'effet, si le bouclier tient, vous vous téléportez jusqu'à lui.\n\nPendant la canalisation, vous êtes insensible aux étourdissements et aux silences. Ne peut pas être utilisé sur vous-même.	lot talents_008
 sort	520345		Name	270b7073a40b	Voile ténébreux	lot talents_008
 sort	520345		ToolTip	a4b39a52e8a9	Canalise sur un allié pour le protéger d'un bouclier. Si le bouclier tient jusqu'à la fin de l'effet, vous vous téléportez jusqu'à lui.	lot talents_008
 sort	520353		Description	8ae9e0b750ca	Votre |cffffffffInstinct|r augmente désormais aussi votre score de coup critique d'un montant égal à $s1% de votre Agilité.	lot talents_008
@@ -218,6 +219,7 @@ sort	520359		Description	9575280dab96	Tournoie en frappant avec vos deux armes, 
 sort	520359		Name	75951c6bcb94	Justice	lot talents_008
 sort	520369		Description	66cbb07130c0	Augmente vos chances d'esquiver et de parer de $s1% et réduit les chances des ennemis de vous détecter quand vous êtes $gcamouflé:camouflée;.	lot talents_008
 sort	520369		Name	900aa998d355	Flou	lot talents_008
+sort	520371		Description	62c024df91e7	Augmente de $s1% tous les dégâts infligés par les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_008
 sort	520371		Name	e6ce444eb31f	Présence de la mort	lot talents_008
 sort	520372		Description	bfcd958238cc	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, vos coups critiques physiques augmentent désormais de $520542s1% les dégâts physiques subis par la cible pendant $520542d.	lot talents_008
 sort	520372		Name	e06f72719bd4	Volonté du conquérant	lot talents_008
@@ -232,6 +234,7 @@ sort	520402		Description	5632f03e40d0	Immobilise les ennemis en ligne pendant $5
 sort	520402		Name	24276d752eb6	La mort venue d'en haut	lot talents_008
 sort	520405		Description	60f7250e8111	Les dégâts infligés par vos |cFFFFFFFFTentacules|r réduisent le temps de recharge d'|cFFFFFFFFObélisque surnaturel|r de $/1000;520872s1 sec.\n\r\nDe plus, augmente de $s1% l'efficacité d'|cFFFFFFFFObélisque surnaturel|r.	lot talents_008
 sort	520405		Name	fa7e51d0da1a	Domination crépusculaire	lot talents_008
+sort	520405		ToolTip	0ed716cae362	Réduit le temps de recharge de |cFFFFFFFFTentacule des Dieux très anciens|r de $/1000;s2 sec.\n\nAugmente de ${$w1}% supplémentaires les dégâts de vos |cFFFFFFFFTentacules|r tant que votre |cFFFFFFFFObélisque surnaturel|r est actif.	lot talents_008
 sort	520442		Description	2eca558c9eab	Augmente de $s1% les dégâts critiques de |cffffffffSoulèvement vertueux|r.	lot talents_008
 sort	520442		Name	4dd167a307f7	Soulèvement !	lot talents_008
 sort	520445		Description	462eae831448	Fixe un dispositif de réanimation sur l'allié ciblé pendant $d.\r\n\r\nQuand la cible devrait mourir, elle récupère à la place $524780s1% de son maximum de points de vie.	lot talents_008
@@ -259,8 +262,10 @@ sort	520485		Name	368ac3fe29ef	Magnitude 10	lot talents_008
 sort	520488		Description	e7d8bf3b4f3a	Place la résolution de Neltharion sur tous les membres du groupe, ce qui les protège contre la peur. Le prochain effet de peur utilisé contre la cible échoue et consume la protection.  Dure $d.	lot talents_008
 sort	520488		Name	506ed3f042c5	Résolution de Neltharion	lot talents_008
 sort	520488		ToolTip	20542d32a40f	Supprime les effets de peur, de charme et de sommeil des alliés proches.	lot talents_008
+sort	520492		Description	9c851eb83fb1	Fait enrager tous les alliés proches, ce qui augmente leur hâte de $s1% pendant $d.\n\nAprès avoir été affectés par ce sort, les alliés ne peuvent plus bénéficier d'effets similaires pendant $804457d.	lot talents_008
 sort	520492		Name	c095734e905e	Frénésie	lot talents_008
 sort	520492		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
+sort	520493		Description	374186f7000d	Fait enrager les alliés à moins de $a1 mètres, ce qui augmente leur hâte de $s1% pendant $d.\n\nAprès avoir été affectés par ce sort, les alliés ne peuvent plus bénéficier d'effets similaires pendant $804457d.	lot talents_008
 sort	520493		Name	b1bae0e43251	Soif écarlate	lot talents_008
 sort	520493		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
 sort	520524		Description	3f1924963020	Augmente de $s1% vos chances de coup critique avec l'explosion de |cffffffffMarque runique|r.	lot talents_008
@@ -295,6 +300,7 @@ sort	520747		Description	9575280dab96	Tournoie en frappant avec vos deux armes, 
 sort	520747		Name	75951c6bcb94	Justice	lot talents_008
 sort	520748		Description	9575280dab96	Tournoie en frappant avec vos deux armes, ce qui inflige $524857s1% des dégâts de l'arme plus ${$524857m2+$spfi*0.2} à $i ennemis au maximum à moins de $a1 mètres.\r\n\r\nLe coup de votre main droite inflige des dégâts physiques et celui de votre main gauche des dégâts de Feu.	lot talents_008
 sort	520748		Name	75951c6bcb94	Justice	lot talents_008
+sort	520835		Description	9c851eb83fb1	Fait enrager tous les alliés proches, ce qui augmente leur hâte de $s1% pendant $d.\n\nAprès avoir été affectés par ce sort, les alliés ne peuvent plus bénéficier d'effets similaires pendant $804457d.	lot talents_008
 sort	520835		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
 sort	520836		Description	ef1d9aa1fd9e	Déchaîne une puissante vague de sang, ce qui inflige ${$m1+0+$sps*0.5+$spi*1} points de dégâts d'Ombre à un ennemi et rend ${$m3+0+$BH*.3+$spi*1} points de vie à $520315i alliés à moins de $520315a1 mètres de la cible.\r\n\r\n|cFFE53935Surpuissant|r : augmente de $s2 la puissance d'attaque ou la puissance des sorts des membres de votre groupe et de votre raid pendant $807563d, plus ${$807687m1+$807687ppl1} supplémentaires pour vous, selon le niveau.	lot talents_008
 sort	520836		Name	8affa8effd70	Crève-cœur	lot talents_008
@@ -370,10 +376,12 @@ sort	800165		Name	365f6f755e0c	Plaie-des-sorcières	lot talents_008
 sort	801179		Description	2195cb404c25	Déchaîne l'effet de votre |cffffffffGlyphe|r actif sur un ennemi et lui inflige ${$m1+0+$SP*1} points de dégâts élémentaires.	lot talents_008
 sort	801179		Name	21c011081e66	Ruine glyphique	lot talents_008
 sort	804035		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
+sort	804456		Description	9c851eb83fb1	Fait enrager tous les alliés proches, ce qui augmente leur hâte de $s1% pendant $d.\n\nAprès avoir été affectés par ce sort, les alliés ne peuvent plus bénéficier d'effets similaires pendant $804457d.	lot talents_008
 sort	804456		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
 sort	804550		Description	a3f0a6c837a6	Frappe un ennemi d'une déflagration qui inflige ${$m1+0+$spa*.41+$AP*0.1} points de dégâts des Arcanes et déchaîne l'effet de votre |cffffffffGlyphe|r actif.	lot talents_008
 sort	804550		Name	fc8873d34f72	Thaumaturgie	lot talents_008
 sort	806149		Name	d082ef9501b9	Damnation	lot talents_008
 sort	806360		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
+sort	807560		Description	9c851eb83fb1	Fait enrager tous les alliés proches, ce qui augmente leur hâte de $s1% pendant $d.\n\nAprès avoir été affectés par ce sort, les alliés ne peuvent plus bénéficier d'effets similaires pendant $804457d.	lot talents_008
 sort	807560		ToolTip	bf903b322658	Hâte augmentée de ${$w1}%.	lot talents_008
 sort	807925		Name	d082ef9501b9	Damnation	lot talents_008

@@ -103,6 +103,7 @@ sort	301318		Description	9aee6da7ae94	Augmente de $s1% le montant de base absorb
 sort	301318		Name	3b7fb1ff22b5	Étreinte du cyclone	lot talents_004
 sort	301322		Description	b90bb47ef212	Réduit de $s1% le coût en mana de vos |cffffffffNanorobots|r, qui durent désormais $/1000;s2 sec. de plus.	lot talents_004
 sort	301322		Name	8bd417a680b0	Amélioration J27	lot talents_004
+sort	301322		ToolTip	1d33c7e6727d	|cffffffffBarrière de nanorobots|r augmente la vitesse de déplacement de ${$w1}% et confère |cffffffffVitesse cybernétique|r, qui augmente la vitesse de déplacement de $560773s1% pendant $560773d. \n\nCet effet ne peut se produire qu'une fois toutes les 10 sec.	lot talents_004
 sort	301333		Description	c291eb803949	Augmente de $s1% le ralentissement infligé par |cffffffffGivre-liche|r.	lot talents_004
 sort	301333		Name	5dd1d0270351	Vents du Norfendre	lot talents_004
 sort	301338		Description	e8f5f308fcda	Réduit de $s1% le coût en mana de vos |cffffffffPièges|r et de vos |cffffffffMarques|r.	lot talents_004
@@ -236,6 +237,7 @@ sort	500118		Description	614fb851d97c	Frappe un ennemi d'une magie runique glaci
 sort	500118		Name	a84fb0c8bfa5	Déflagration glaciale	lot talents_004
 sort	500121		Description	0a4caf3d4f82	Augmente vos chances de coup critique des sorts de $s2% pendant $d.\r\n\r\nTant que l'effet est actif, les dégâts de votre |cffffffffRuine glyphique|r et de votre |cffffffffDéflagration primordiale|r sont augmentés de $s1%.	lot talents_004
 sort	500121		Name	806cde84316c	Œil du spectateur	lot talents_004
+sort	500121		ToolTip	dbc29c661342	Chances de coup critique des sorts augmentées de ${$w2}%.\r\n\nLes dégâts de votre |cffffffffRuine glyphique|r et de votre |cffffffffDéflagration primordiale|r sont augmentés de ${$w1}%.	lot talents_004
 sort	500124		Description	cd708fe63952	Hurle dans l'âme des ennemis proches, ce qui leur inflige ${$m1+0+$AP*0.285} points de dégâts d'Ombre et réduit leur vitesse de déplacement de $s2% pendant $d.	lot talents_004
 sort	500124		Name	bd48cd03227e	Hurlement du chasseur nocturne	lot talents_004
 sort	500124		ToolTip	4654d2010246	Vitesse de déplacement réduite de ${$w2}%. 	lot talents_004

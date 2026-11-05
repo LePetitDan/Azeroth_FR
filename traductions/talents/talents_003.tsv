@@ -166,6 +166,7 @@ sort	300860		Name	42179f2863e6	Force à l'unisson	lot talents_003
 sort	300867		Description	1b66636a06c6	|cffffffffOnde sismique|r augmente désormais la vitesse de déplacement des alliés affectés de $300868s1% pendant $300868d.	lot talents_003
 sort	300867		Name	05fcd01d604f	Surfer sur la vague	lot talents_003
 sort	300867		ToolTip	07c3e9b7559e	|cffffffffVague primordiale|r augmente désormais aussi la vitesse de déplacement des alliés affectés de $300868s1% pendant $300868d.	lot talents_003
+sort	300871		Description	5fcc81a95767	Augmente de $s1% la puissance d'attaque des membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.\r\n\r\nDe plus, les points de vie et de mana rendus par vos |cFFFFFFFFEsprits|r le sont $s3% plus souvent.	lot talents_003
 sort	300871		Name	9e396aa1eb6d	Force des loas	lot talents_003
 sort	300871		ToolTip	505a7fc8ea2a	Puissance d'attaque augmentée de ${$w1}%.	lot talents_003
 sort	300872		Description	0b3e9f4b1628	Augmente de $s1% la hâte en mêlée et à distance des membres du groupe et du raid à moins de $a1 mètres. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente de $s3% les dégâts que vous infligez aux morts-vivants et aux démons.	lot talents_003
@@ -174,13 +175,16 @@ sort	300872		ToolTip	762147a7ff70	Hâte en mêlée et à distance augmentée de 
 sort	300873		Description	e4b298a2e625	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente vos chances de coup critique de $s2%.	lot talents_003
 sort	300873		Name	b50474fb136f	Pierre d'infinité	lot talents_003
 sort	300873		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
+sort	300876		Description	a9f40302a892	Augmente de $s1% la hâte en mêlée et à distance des membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	300876		Name	bede88bea47f	La Bénédiction d'Elune	lot talents_003
 sort	300876		ToolTip	f5346936b8fa	Hâte en mêlée et à distance augmentée de ${$w1}%.	lot talents_003
+sort	300877		Description	3b9dab19c9c0	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.\r\n\r\nDe plus, chaque soin non critique augmente désormais vos chances de coup critique de $560788s1%, cumulable $560788u fois, jusqu'à votre prochain soin critique effectif.	lot talents_003
 sort	300877		Name	a130ba0fb24c	Réglage de précision	lot talents_003
 sort	300877		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
 sort	300879		Description	fad792dd376c	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente de $s2% les dégâts que vous infligez aux humanoïdes.	lot talents_003
 sort	300879		Name	d14dff131d8b	Chasseur d'hommes	lot talents_003
 sort	300879		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
+sort	300889		Description	87c2b6b6ad3f	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	300889		Name	7d5803d26a12	Moissonneur de sang	lot talents_003
 sort	300889		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
 sort	300897		Description	94d8c90db00a	Les dégâts infligés par |cffffffffPerce-crâne|r sont augmentés de 30% contre les cibles |cff00ff00empoisonnées|r.	lot talents_003
@@ -219,8 +223,10 @@ sort	300959		Name	e0b7f7ec46eb	Lien fongique	lot talents_003
 sort	300959		ToolTip	e43e46a5a8d8	Hâte des sorts augmentée de ${$w1}%.	lot talents_003
 sort	300960		Description	47c17c198f91	Augmente de $s1% les chances de coup critique de |cffffffffChair aux vers|r contre les ennemis qui ont moins de 35% de leur maximum de points de vie.	lot talents_003
 sort	300960		Name	88efef8d3bd8	Crypte rampante	lot talents_003
+sort	300961		Description	66f310183eea	Augmente de $s1% tous les dégâts infligés par les membres du groupe et du raid, et de $s2% vos dégâts de Givre.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	300961		Name	6b322d4e5171	Conducteur en chef	lot talents_003
 sort	300961		ToolTip	6ac165950ebd	Dégâts infligés augmentés de ${$w1}%.	lot talents_003
+sort	300963		Description	af8e0cba0595	Augmente de $s1% tous les dégâts infligés par les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	300963		Name	afb5a73b9d93	Porte-enfer	lot talents_003
 sort	300963		ToolTip	6ac165950ebd	Dégâts infligés augmentés de ${$w1}%.	lot talents_003
 sort	300965		Description	8f45981f0bd9	Appliquer |cffffffffPeste de la crypte|r prolonge désormais de $/1000;301337s1 sec. la durée de |cffffffffChair aux vers|r sur la cible.	lot talents_003
@@ -244,6 +250,7 @@ sort	300978		Description	6fc0335ec287	|cFF66DDFFPassif de niveau 40|r\r\nVos cou
 sort	300978		Name	dbfb5f2492fd	Blessures enrageantes	lot talents_003
 sort	300982		Description	6ed370638b2f	Augmente de $s1% la durée de |cFFFFFFFFGriffe putride|r et de |cffffffffChoc hypovolémique|r.	lot talents_003
 sort	300982		Name	31c826a37f2b	Frappes maudites	lot talents_003
+sort	300983		Description	ba48acf2cf61	Crée sous vous un cercle de $a1 mètres pendant $d. Les ennemis qui restent à l'intérieur gagnent |cffffffffPéril|r toutes les $T1 sec.\r\n @s:524610:0@	lot talents_003
 sort	300983		Name	9933938fa4dc	Arène glorieuse	lot talents_003
 sort	300983		ToolTip	0c0a7683f9f5	À 5 charges de Péril, vous êtes $gétourdi:étourdie;.	lot talents_003
 sort	300986		Description	88eb5499d8a9	Réduit de $s1% la durée des effets de saignement, d'immobilisation et de ralentissement qui vous affectent.	lot talents_003
@@ -309,6 +316,7 @@ sort	301363		Description	6ed370638b2f	Augmente de $s1% la durée de |cFFFFFFFFGr
 sort	301363		Name	31c826a37f2b	Frappes maudites	lot talents_003
 sort	301364		Description	965f570b68ae	Augmente de $s1% les dégâts de |cffffffffVenin de flétrissure|r.	lot talents_003
 sort	301364		Name	c12295a65be5	Vénomage	lot talents_003
+sort	301974		Description	87c2b6b6ad3f	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	301974		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
 sort	503707		ToolTip	762147a7ff70	Hâte en mêlée et à distance augmentée de ${$w1}%.	lot talents_003
 sort	503738		ToolTip	6ac165950ebd	Dégâts infligés augmentés de ${$w1}%.	lot talents_003
@@ -328,8 +336,10 @@ sort	560542		ToolTip	762147a7ff70	Hâte en mêlée et à distance augmentée de 
 sort	560545		ToolTip	6ac165950ebd	Dégâts infligés augmentés de ${$w1}%.	lot talents_003
 sort	560549		ToolTip	762147a7ff70	Hâte en mêlée et à distance augmentée de ${$w1}%.	lot talents_003
 sort	560550		ToolTip	505a7fc8ea2a	Puissance d'attaque augmentée de ${$w1}%.	lot talents_003
+sort	560568		Description	87c2b6b6ad3f	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	560568		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
 sort	560593		ToolTip	505a7fc8ea2a	Puissance d'attaque augmentée de ${$w1}%.	lot talents_003
+sort	680709		Description	87c2b6b6ad3f	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid.\n\nNe se cumule pas avec des effets similaires.	lot talents_003
 sort	680709		ToolTip	a064dabd31bd	Chances de coup critique augmentées de ${$w1}%.	lot talents_003
 sort	681407		Name	bede88bea47f	La Bénédiction d'Elune	lot talents_003
 sort	685028		Description	5c24e2df1fe2	Vous émettez désormais une aura qui augmente l'armure des membres du groupe et du raid de ${$m1}.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_003

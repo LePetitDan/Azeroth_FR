@@ -21,6 +21,7 @@ sort	92109		Name	146394f42e7e	Tenir son serment	lot talents_001
 sort	92111		Description	3103f6d81dff	|cFF66DDFFPassif de niveau 10|r\r\nVos dégâts directs ont désormais $520007h% de chances de frapper un ennemi avec |cffffffffPlaie-du-Fléau|r, qui inflige $801832s2% des dégâts de l'arme plus ${$801832m1*$<scalingbp>+$SP*.25+$AP*.25} points de dégâts de Flamme sacrée supplémentaires.\r\n\r\nCet effet est toujours critique contre les morts-vivants.	lot talents_001
 sort	92111		Name	d4fd392414fe	Plaie-du-Fléau	lot talents_001
 sort	92112		Description	28b26da97252	|cFF66DDFFPassif de niveau 10|r\r\nLes sorts qui coûtent des points de vie vous confèrent désormais |cffffffffThirst|r.\r\n\r\nÀ $706613u charges, vous devenez |cffffffffInsatiable|r, ce qui réduit vos dégâts infligés de $706663s1% toutes les $706621t1 sec. jusqu'à la fin de |cffffffffThirst|r.\r\n@s:706613:0@	lot talents_001
+sort	92112		Name	5282dc904aa5	Soif	lot talents_001
 sort	92113		Description	3c1ab56a811e	|cFF66DDFFPassif de niveau 10|r\r\nVos sorts de dégâts de |cffffffffForme mortelle|r peuvent désormais être lancés en mouvement.	lot talents_001
 sort	92113		Name	a71eb2388b93	Déchaîné	lot talents_001
 sort	92114		Description	a8f439ca2e21	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffMalédiction éternelle|r et vous permet de manier une arme dans chaque main.@s:800157:0@	lot talents_001
@@ -77,6 +78,7 @@ sort	92141		Name	fe8ca6aa647c	Construire : Méca-armure	lot talents_001
 sort	92142		Description	972a73bdc78f	|cFF66DDFFPassif de niveau 10|r\r\nVos dégâts directs ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffCroc du serpent|r, de vous conférer |cffffffffLiche putride|r et de conférer |cffffffffRequinquage|r à vos alliés.@s:706032:0@@s:1257670:0@	lot talents_001
 sort	92142		Name	07de87a47ca8	Liche putride	lot talents_001
 sort	92143		Description	3fe3c2185f79	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffCroc venimeux|r applique désormais une |cff66ff66Brood Mark|r, cumulable $804972u fois. Certaines techniques les consomment pour obtenir un effet supplémentaire.	lot talents_001
+sort	92143		Name	6df7392b1fa9	Marques de la couvée	lot talents_001
 sort	92144		Description	a18277922d71	|cFF66DDFFPassif de niveau 10|r\r\nLes attaques hostiles contre vous ont désormais $805098h% de chances de vous conférer une charge de |cff66ff66Chair à vif|r.\r\n@s:805095:0@	lot talents_001
 sort	92144		Name	94cec898147e	Chair à vif	lot talents_001
 sort	92145		Description	aff3df1ad1c7	|cFF66DDFFPassif de niveau 10|r\r\nVous récupérez désormais des points de vie à hauteur de $500283s1% de tous les dégâts que vous infligez.	lot talents_001
@@ -99,6 +101,7 @@ sort	92154		Description	b9a0da811b4a	|cFF66DDFFPassif de niveau 10|r\r\nVotre |c
 sort	92154		Name	2bf4f7801d20	Lame des failles	lot talents_001
 sort	139778		Description	e4a42f63fd93	Vos attaques et techniques à distance directes ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffAppel du maître-chien|r.	lot talents_001
 sort	139778		Name	9fb88f9f6d5d	Expulsion du mal	lot talents_001
+sort	200749		Description	4f33af6ea318	Projette un éclair de magie noire sur un ennemi, qui inflige ${$m1+$ppl1+$SP*0.876543+$SPI*1} points de dégâts d'Ombre, selon votre Esprit.\n\nSi la cible subit |cffffffffMaléfice de malveillance|r, l'éclair réduit aussi de $802926s2% les soins qu'elle reçoit pendant $802926d.	lot talents_001
 sort	200749		Name	bf1850b2d376	Mauvais juju	lot talents_001
 sort	255275		Description	75c5800038fb	Canalise pendant $d en annonçant la fin du monde à tous les ennemis proches : leur retire instantanément tous les effets magiques bénéfiques, et réduit de $255276s1% vos dégâts subis ainsi que leur hâte et leur vitesse de déplacement pendant la canalisation.\r\n\r\nPendant la canalisation, les ennemis proches sont aussi frappés par |cffffffffCieux apocalyptiques|r.\r\n\r\nÀ la fin de l'effet, vous poussez un cri terrifiant qui applique |cffffffffCorruption de l'esprit|r aux ennemis proches.	lot talents_001
 sort	255275		Name	8f3028077b04	Heure du crépuscule	lot talents_001
