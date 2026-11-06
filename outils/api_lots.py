@@ -23,7 +23,8 @@ LOTS_PY = os.path.join(RACINE, 'outils', 'lots.py')
 MODELES = {'sonnet': 'claude-sonnet-5-5', 'opus': 'claude-opus-5-5'}
 # 06/11/2026, choix de Dan apres l'essai : Sonnet partout, reflexion courte (budget 50 $ ; Opus ~8 fois plus cher).
 MODELE_PAR_CHANTIER = {}
-REFLEXION = {'type': 'enabled', 'budget_tokens': 2048}
+REFLEXION = {'type': 'adaptive'}          # 5.5 : « enabled » refusé ; l'effort règle la longueur
+EFFORT = 'low'
 RELANCES_MAX = 2
 
 
@@ -88,7 +89,7 @@ def requete(custom_id, modele, systeme, contenu, max_tokens=32000):
     return {'custom_id': custom_id,
             'params': {'model': MODELES[modele], 'max_tokens': max_tokens,
                        'system': [{'type': 'text', 'text': systeme, 'cache_control': {'type': 'ephemeral'}}],
-                       'thinking': REFLEXION,
+                       'thinking': REFLEXION, 'output_config': {'effort': EFFORT},
                        'messages': [{'role': 'user', 'content': contenu}]}}
 
 
