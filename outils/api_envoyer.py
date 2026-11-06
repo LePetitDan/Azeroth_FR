@@ -5,9 +5,12 @@ La cle API est lue dans la variable d'environnement ANTHROPIC_API_KEY (ou, sous 
 utilisateur du registre). Elle n'est JAMAIS affichee, ecrite ni envoyee ailleurs qu'a api.anthropic.com.
 Bibliotheque standard seulement.
 
-  python api_envoyer.py soumettre requetes.jsonl   -> envoie le lot, garde son numero dans etat.json
-  python api_envoyer.py suivre                     -> etat du dernier envoi ; s'il est fini, ecrit resultats.jsonl
+  python api_envoyer.py soumettre requetes_X.jsonl -> envoie le lot, garde son numero dans etat.json
+  python api_envoyer.py suivre                     -> etat des envois en cours ; chaque envoi fini ecrit resultats_X.jsonl
   python api_envoyer.py budget                     -> depense estimee depuis le debut (plafond : PLAFOND_USD)
+
+Avant d'envoyer, la depense deja estimee + les envois en cours + le nouvel envoi (COUT_MAX_REQUETE par requete,
+estimation haute) doivent rester sous le plafond.
 """
 import json
 import os
@@ -20,6 +23,7 @@ PLAFOND_USD = 50.0
 # la vraie depense se lit dans la Console. Ils ne servent qu'a s'arreter avant le plafond.
 PRIX = {'claude-opus-5-5': (15.0, 75.0), 'claude-sonnet-5-5': (3.0, 15.0)}
 REMISE_DIFFERE = 0.5
+COUT_MAX_REQUETE = 0.25    # estimation haute d'un lot (mesure : environ 0,19 $ avec Sonnet, reflexion courte)
 ICI = os.path.dirname(os.path.abspath(__file__))
 ETAT = os.path.join(ICI, 'etat.json')
 
@@ -69,6 +73,13 @@ def soumettre(chemin):
         reqs = [json.loads(l) for l in f if l.strip()]
     if not reqs:
         sys.exit('aucune requête')
+    if any(d['fichier'] == os.path.basename(chemin) for d in e['envois']):
+        sys.exit('%s a déjà été envoyé : rien envoyé' % os.path.basename(chemin))
+    en_cours = sum(d['requetes'] for d in e['envois'] if not d.get('fini')) * COUT_MAX_REQUETE
+    prevu = e['depense_estimee'] + en_cours + len(reqs) * COUT_MAX_REQUETE
+    if prevu > PLAFOND_USD:
+        sys.exit('dépasserait le plafond : %.2f $ déjà estimés + %.2f $ en cours + %.2f $ pour cet envoi > %.0f $ : '
+                 'rien envoyé' % (e['depense_estimee'], en_cours, len(reqs) * COUT_MAX_REQUETE, PLAFOND_USD))
     r = appel(API, {'requests': reqs})
     e['envois'].append({'id': r['id'], 'fichier': os.path.basename(chemin), 'requetes': len(reqs), 'fini': False})
     ecrire_etat(e)
@@ -79,13 +90,22 @@ def suivre():
     e = etat()
     if not e['envois']:
         sys.exit('aucun envoi')
-    d = e['envois'][-1]
+    en_cours = [d for d in e['envois'] if not d.get('fini')]
+    if not en_cours:
+        print('aucun envoi en cours (dernier : %s, fini)' % e['envois'][-1]['id'])
+    for d in en_cours:
+        suivre_un(e, d)
+
+
+def suivre_un(e, d):
     r = appel('%s/%s' % (API, d['id']))
-    print('envoi %s : %s %s' % (d['id'], r.get('processing_status'), json.dumps(r.get('request_counts'))))
-    if r.get('processing_status') != 'ended' or d.get('fini'):
+    print('envoi %s (%s) : %s %s' % (d['id'], d['fichier'], r.get('processing_status'),
+                                     json.dumps(r.get('request_counts'))))
+    if r.get('processing_status') != 'ended':
         return
     b = appel(r['results_url'], brut=True)
-    sortie = os.path.join(ICI, 'resultats.jsonl')
+    nom = d['fichier'][len('requetes_'):] if d['fichier'].startswith('requetes_') else d['fichier']
+    sortie = os.path.join(ICI, 'resultats_' + nom)
     with open(sortie, 'wb') as f:
         f.write(b)
     cout = 0.0
