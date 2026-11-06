@@ -1198,7 +1198,7 @@ def tester_creation(lua, out):
               'function Cadre(kids) local c = { kids = kids or {}, shown = true } function c:GetChildren() return unpack(self.kids) end '
               'function c:IsShown() return self.shown end return c end',
               'CharacterCreate = Cadre()', 'RACE_SELECTED_TEXT = %s' % L(rst)]
-    races = ['Human', 'Night Elf', 'Vulpera']
+    races = ['Human', 'Night Elf', 'Zzrace']   # 3e race : nom absent de la source (avant 0.6 : « Vulpera », traduit depuis)
     for i, r in enumerate(races, 1):
         script.append('CharCreateRaceButton%d = Bouton(%s)' % (i, L(r)))
     classes = list(cl) + ['Spiritmage']
@@ -1231,7 +1231,7 @@ def tester_creation(lua, out):
             verifs.append('Passe()')
         egal('CharCreateRaceButton1.Text:GetText()', rf['Human'][k], 'race Human (sexe %d)' % sexe)
         egal('CharCreateRaceButton2.Text:GetText()', rf['Night Elf'][k], 'race Night Elf (sexe %d)' % sexe)
-        egal('CharCreateRaceButton3.Text:GetText()', 'Vulpera', 'race sans français : anglais')
+        egal('CharCreateRaceButton3.Text:GetText()', 'Zzrace', 'race sans français : anglais')
         for i, c in enumerate(classes, 1):
             att = coupe(cl[c][k]) if c in cl and ' ' in c else (cl[c][k] if c in cl else c)
             if c in cl and ' ' in c and ' ' not in cl[c][k]:

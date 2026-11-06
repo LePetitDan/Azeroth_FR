@@ -679,7 +679,7 @@ creature	787		name	Skeletal Healer	3f0fc840141d	Soigneur squelette	officiel	bliz
 creature	789		name	Kimberly Hiett	2e4bdac5b275	Kimberly Hiett	officiel	blizzard_frFR	creature_template_locale
 creature	789		subname	Fletcher	5848320aab6a	Fabricante d'arcs	officiel	blizzard_frFR	creature_template_locale
 creature	790		name	Karen Taylor	e224905b3c2a	Karen Taylor	officiel	blizzard_frFR	creature_template_locale
-creature	790		subname	Mining and Smithing Supplies	c51573dcc099		a_revoir		officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Fournitures minières & de forgeron » | anglais que traduisait l'archive : « Blacksmithing & Mining Supplies »
+creature	790		subname	Mining and Smithing Supplies	c51573dcc099	Fournitures minières & de forgeron	machine	claude	officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Fournitures minières & de forgeron » | anglais que traduisait l'archive : « Blacksmithing & Mining Supplies » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001 ; même ordre de sens que l'officiel « Blacksmithing & Mining Supplies » (créature 12044)
 creature	791		name	Lindsay Ashlock	cc108b03448d	Lindsay Bouclebise	officiel	blizzard_frFR	creature_template_locale
 creature	791		subname	General Supplies	47ae01c17500	Fournitures générales	officiel	blizzard_frFR	creature_template_locale
 creature	793		name	Kara Adams	5ac30e220866	Kara Adams	officiel	blizzard_frFR	creature_template_locale
@@ -1553,7 +1553,7 @@ creature	1499		name	Magistrate Sevren	2d288ffe600d	Magistrat Sevren	officiel	bli
 creature	1500		name	Coleman Farthing	a0722cff86b5	Coleman Farthing	machine	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release
 creature	1501		name	Mindless Zombie	d6a10604b9cd	Zombie décérébré	officiel	blizzard_frFR	creature_template_locale
 creature	1502		name	Wretched Ghoul	0c03390f85bf	Goule déshéritée	officiel	blizzard_frFR	creature_template_locale
-creature	1503		name	Wretched Zombie	8d01a0da5190		a_traduire		
+creature	1503		name	Wretched Zombie	8d01a0da5190	Zombie misérable	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	1504		name	Young Night Web Spider	062cbd0420bf	Jeune Tisse-nuit	officiel	blizzard_frFR	creature_template_locale
 creature	1505		name	Night Web Spider	6be84f687e39	Araignée Tisse-nuit	officiel	blizzard_frFR	creature_template_locale
 creature	1506		name	Scarlet Convert	ad321297e0ee	Converti écarlate	officiel	blizzard_frFR	creature_template_locale
@@ -1738,7 +1738,7 @@ creature	1676		subname	Engineering Trainer	51700467930d	Maître des ingénieurs	
 creature	1677		name	[UNUSED] Curtis Ashlock	620f1d116265	[INUTILISÉ] Curtis Bouclebise	officiel	blizzard_frFR	creature_template_locale
 creature	1677		subname	Cook	de24a2eb3bf3	Cuisinier	officiel	blizzard_frFR	creature_template_locale
 creature	1678		name	Vernon Hale	884184e4af77	Vernon Hale	officiel	blizzard_frFR	creature_template_locale
-creature	1678		subname	Bait and Tackle Supplier	af1fa2d5f864		a_revoir		officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Fournitures de pêche » | anglais que traduisait l'archive : « Fishing Supplies »
+creature	1678		subname	Bait and Tackle Supplier	af1fa2d5f864	Fournitures de pêche	machine	claude	officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Fournitures de pêche » | anglais que traduisait l'archive : « Fishing Supplies » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001 ; l'officiel de « Fishing Supplies », même métier
 creature	1679		name	Avarus Kharag	933ee8784bbb	Avarus Kharag	machine	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release
 creature	1680		name	Matthew Hooper	2fa2db7620db	Matthew Hooper	officiel	blizzard_frFR	creature_template_locale
 creature	1680		subname	Fishing Trainer	4f02a7153a7c	Maître des pêcheurs	officiel	blizzard_frFR	creature_template_locale
@@ -1862,20 +1862,20 @@ creature	1782		name	Moonrage Darksoul	f0fc0bac582c	Ténébreux Ragelune	officiel
 creature	1783		name	Skeletal Flayer	333b89b4a09c	Ecorcheur Squelette	officiel	blizzard_frFR	creature_template_locale
 creature	1784		name	Skeletal Sorcerer	f8ef17415561	Ensorceleur squelette	officiel	blizzard_frFR	creature_template_locale
 creature	1785		name	Skeletal Terror	5a28064bc3a4	Terreur Squelette	officiel	blizzard_frFR	creature_template_locale
-creature	1786		name	Skeletal Aberration	bc35fafe52ca		a_traduire		
+creature	1786		name	Skeletal Aberration	bc35fafe52ca	Aberration squelettique	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	1787		name	Skeletal Executioner	1469a2e0a0c7	Bourreau Squelette	officiel	blizzard_frFR	creature_template_locale
 creature	1788		name	Skeletal Warlord	f503607b85b8	Chef de guerre Squelette	officiel	blizzard_frFR	creature_template_locale
 creature	1789		name	Skeletal Acolyte	b45c36d6c86c	Acolyte Squelette	officiel	blizzard_frFR	creature_template_locale
-creature	1790		name	Corpse Eater	92e655b8f42e		a_traduire		
+creature	1790		name	Corpse Eater	92e655b8f42e	Charognard	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001 ; officiel : « Atal'ai Corpse Eater » = « Charognard atal'ai »
 creature	1791		name	Slavering Ghoul	fc928e6d7c99	Goule écumante	officiel	blizzard_frFR	creature_template_locale
-creature	1792		name	Hissing Ghoul	8daeea278b18		a_traduire		
+creature	1792		name	Hissing Ghoul	8daeea278b18	Goule sifflante	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	1793		name	Rotting Ghoul	02ec02639fa1	Goule purulente	officiel	blizzard_frFR	creature_template_locale
 creature	1794		name	Soulless Ghoul	3c65fddfa1df	Goule dévastée	officiel	blizzard_frFR	creature_template_locale
 creature	1795		name	Searing Ghoul	03805ab55b6a	Goule incendiaire	officiel	blizzard_frFR	creature_template_locale
 creature	1796		name	Freezing Ghoul	30038aaf06be	Goule glaciale	officiel	blizzard_frFR	creature_template_locale
 creature	1797		name	Giant Grizzled Bear	cc5f64c7dbd7	Vieil ours géant	officiel	blizzard_frFR	creature_template_locale
 creature	1798		name	Tortured Soul	b037bbcd0ca9	Ame torturée	officiel	blizzard_frFR	creature_template_locale
-creature	1799		name	Lost Wraith	0b9334887387		a_traduire		
+creature	1799		name	Lost Wraith	0b9334887387	Âme en peine perdue	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	1800		name	Cold Wraith	0ef6043fd917	Ame en peine froide	officiel	blizzard_frFR	creature_template_locale
 creature	1801		name	Blood Wraith	4e90ef6c65de	Ame en peine sanglante	officiel	blizzard_frFR	creature_template_locale
 creature	1802		name	Hungering Wraith	af016f653cc0	Ame en peine affamée	officiel	blizzard_frFR	creature_template_locale
@@ -1895,9 +1895,9 @@ creature	1819		name	Foulmaw Hydra	253dc71fe6a0	Hydre Vilegueule	officiel	blizzar
 creature	1820		name	Elder Foulmaw Hydra	9de3def186a7	Ancienne hydre Vilegueule	officiel	blizzard_frFR	creature_template_locale
 creature	1821		name	Carrion Lurker	cb768473a953	Rôdeuse putride	officiel	blizzard_frFR	creature_template_locale
 creature	1822		name	Venom Mist Lurker	73af82ebed19	Rôdeuse venimeuse des brumes	officiel	blizzard_frFR	creature_template_locale
-creature	1823		name	Giant Venom Mist Lurker	065cb908ae93		a_traduire		
+creature	1823		name	Giant Venom Mist Lurker	065cb908ae93	Rôdeuse venimeuse des brumes géante	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	1824		name	Plague Lurker	50f9e6f7e3b8	Rôdeuse pestilentielle	officiel	blizzard_frFR	creature_template_locale
-creature	1825		name	Giant Plague Lurker	918e46e41141		a_traduire		
+creature	1825		name	Giant Plague Lurker	918e46e41141	Rôdeuse pestilentielle géante	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	1826		name	Scarlet Mage	b3665884022a	Mage écarlate	officiel	blizzard_frFR	creature_template_locale
 creature	1827		name	Scarlet Sentinel	1f4b483dff18	Sentinelle écarlate	officiel	blizzard_frFR	creature_template_locale
 creature	1831		name	Scarlet Hunter	35e0ef56fa1d	Chasseur écarlate	officiel	blizzard_frFR	creature_template_locale
@@ -3701,7 +3701,7 @@ creature	3336		name	Takrin Pathseeker	9f059bf0a892	Takrin Cherchevoie	officiel	b
 creature	3337		name	Kargal Battlescar	8b3e71c56dbf	Kargal Balafre-glorieuse	officiel	blizzard_frFR	creature_template_locale
 creature	3338		name	Sergra Darkthorn	d5c0e3c6667a	Sergra Sombreronce	officiel	blizzard_frFR	creature_template_locale
 creature	3339		name	Captain Thalo'thas Brightsun	17b37f09cdd6	Capitaine Thalo'thas Brillesoleil	officiel	blizzard_frFR	creature_template_locale
-creature	3340		name	Mandrik Wife	192efaf370d5		a_traduire		
+creature	3340		name	Mandrik Wife	192efaf370d5	Épouse de Mandrik	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	3341		name	Gann Stonespire	7c0c57e16eb1	Gann Cime-de-pierre	officiel	blizzard_frFR	creature_template_locale
 creature	3342		name	Shan'ti	09c4e246c573	Shan'ti	officiel	blizzard_frFR	creature_template_locale
 creature	3342		subname	Fruit Vendor	e8288df4dbda	Marchande de fruits	officiel	blizzard_frFR	creature_template_locale
@@ -4772,7 +4772,7 @@ creature	4215		subname	Rogue Trainer	c385e1b01c11	Maître des voleurs	officiel	b
 creature	4216		name	Chardryn	ba4759940d4f	Chardryn	machine	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release
 creature	4216		subname	Herbalism Supplies	2193c832d036	Fournitures d'herboriste	officiel	blizzard_frFR	creature_template_locale
 creature	4217		name	Mathrengyl Bearwalker	bdb9409fdff5	Mathrengyl Pasdelours	officiel	blizzard_frFR	creature_template_locale
-creature	4217		subname	Primalist	9fa7d67a08cc		a_revoir		officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Maître des druides » | anglais que traduisait l'archive : « Druid Trainer »
+creature	4217		subname	Primalist	9fa7d67a08cc	Primaliste	machine	claude	officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Maître des druides » | anglais que traduisait l'archive : « Druid Trainer » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	4218		name	Denatharion	2a98557b81d8	Denatharion	officiel	blizzard_frFR	creature_template_locale
 creature	4218		subname	Druid Trainer	38a2feabd2cb	Maître des druides	officiel	blizzard_frFR	creature_template_locale
 creature	4219		name	Fylerian Nightwing	2ae580e8541f	Fylerian Ailenuit	officiel	blizzard_frFR	creature_template_locale
@@ -5050,7 +5050,7 @@ creature	4467		name	Vilebranch Soothsayer	95fb65a11d80	Devin vilebranche	officie
 creature	4468		name	Jade Sludge	8b241146ab71	Limace de jade	officiel	blizzard_frFR	creature_template_locale
 creature	4469		name	Emerald Ooze	42314770cbd6	Limon émeraude	officiel	blizzard_frFR	creature_template_locale
 creature	4472		name	Haunting Vision	185ee52479fc	Vision cauchemardesque	officiel	blizzard_frFR	creature_template_locale
-creature	4473		name	Skeletal Adept	facd1c03402d		a_traduire		
+creature	4473		name	Skeletal Adept	facd1c03402d	Adepte squelette	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	4474		name	Rotting Cadaver	5173ed3a394b	Cadavre pourrissant	officiel	blizzard_frFR	creature_template_locale
 creature	4475		name	Blighted Zombie	a15379ffb9d9	Zombie corrompu	officiel	blizzard_frFR	creature_template_locale
 creature	4476		name	Screaming Haunt	0c3dd232c1f4	Terreur hurlante	officiel	blizzard_frFR	creature_template_locale
@@ -6266,7 +6266,7 @@ creature	5616		name	Wastewander Thief	34a488e8bf57	Larron Bat-le-désert	officie
 creature	5617		name	Wastewander Shadow Mage	e5a0fc214208	Mage de l'ombre Bat-le-désert	officiel	blizzard_frFR	creature_template_locale
 creature	5618		name	Wastewander Bandit	2b967011bb32	Bandit Bat-le-désert	officiel	blizzard_frFR	creature_template_locale
 creature	5620		name	Bartender Wental	c4d1564e42a8	Wental le tavernier	officiel	blizzard_frFR	creature_template_locale
-creature	5620		subname	Food and Drinks	859027e8e180		a_revoir		officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Nourriture & boissons » | anglais que traduisait l'archive : « Food & Drink »
+creature	5620		subname	Food and Drinks	859027e8e180	Nourriture & boissons	machine	claude	officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Nourriture & boissons » | anglais que traduisait l'archive : « Food & Drink » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	5621		name	Timmy	80e12ba00345	Timmy	machine	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release
 creature	5622		name	Ongeku	cfcb5ef13c49	Ongeku	officiel	blizzard_frFR	niveau=meme_groupe
 creature	5623		name	Wastewander Assassin	b5a49a85510b	Assassin Bat-le-désert	officiel	blizzard_frFR	creature_template_locale
@@ -7603,7 +7603,7 @@ creature	7553		name	Great Horned Owl	2563ebd8cac6	Grande chouette cornue	officie
 creature	7554		name	Snowy Owl	f82531793e8c	Chouette blanche	officiel	blizzard_frFR	creature_template_locale
 creature	7555		name	Hawk Owl	9e82af934c44	Chouette-faucon	officiel	blizzard_frFR	creature_template_locale
 creature	7556		name	Eagle Owl	d058035c1b45	Grand-duc	officiel	blizzard_frFR	creature_template_locale
-creature	7557		name	Prarie Dog	e77caee0dbbe		a_traduire		
+creature	7557		name	Prarie Dog	e77caee0dbbe	Chien de prairie	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	7558		name	Cottontail Rabbit	25d34915f312	Lapin	officiel	blizzard_frFR	creature_template_locale
 creature	7559		name	Spotted Rabbit	61306b76dfa5	Lapin tacheté	officiel	blizzard_frFR	creature_template_locale
 creature	7560		name	Snowshoe Rabbit	9b70b59dde5f	Lapin patte-blanche	officiel	blizzard_frFR	creature_template_locale
@@ -8373,7 +8373,7 @@ creature	8931		subname	Innkeeper	0f7753941a45	Aubergiste	officiel	blizzard_frFR	
 creature	8932		name	Borer Beetle	a60447f94451	Hanneton perceur	officiel	blizzard_frFR	creature_template_locale
 creature	8933		name	Cave Creeper	fa743c798f47	Rampant des cavernes	officiel	blizzard_frFR	creature_template_locale
 creature	8934		name	Christopher Hewen	027e2de342d0	Christopher Hewen	officiel	blizzard_frFR	creature_template_locale
-creature	8934		subname	General Trade Goods Vendor	3f380fd72fa3		a_revoir		officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Fournitures d'artisanat » | anglais que traduisait l'archive : « Trade Supplies »
+creature	8934		subname	General Trade Goods Vendor	3f380fd72fa3	Marchand de fournitures générales et d'artisanat	machine	claude	officiel_decale_ecarte(anglais modifie par CoA);D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Fournitures d'artisanat » | anglais que traduisait l'archive : « Trade Supplies » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	8935		name	Paladin 20 AlternateHighDamage	6eb30d99330e	Paladin 20 NombreuxDégâtsAlternatifs	officiel	blizzard_frFR	creature_template_locale
 creature	8937		name	Pet Bomb	d8f3a7789ad5	Familier explosif	officiel	blizzard_frFR	creature_template_locale
 creature	8956		name	Angerclaw Bear	4887af6584aa	Ours de la griffe colérique	officiel	blizzard_frFR	creature_template_locale
@@ -8396,7 +8396,7 @@ creature	8982		name	Ironhand Guardian	f6b97be824ed	Gardien Main-de-fer	officiel	
 creature	8983		name	Golem Lord Argelmach	509789b5c45a	Seigneur golem Argelmach	officiel	blizzard_frFR	creature_template_locale
 creature	8996		name	Voidwalker Minion	6039f33e17cb	Sbire marcheur du Vide	officiel	blizzard_frFR	creature_template_locale
 creature	8997		name	Gershala Nightwhisper	5911befe260c	Gershala Murmenuit	officiel	blizzard_frFR	creature_template_locale
-creature	8999		name	Innkeeper Sentinel Hill	97ae1f8ef63a		a_traduire		
+creature	8999		name	Innkeeper Sentinel Hill	97ae1f8ef63a	Aubergiste de la Colline des sentinelles	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	8999		subname	Innkeeper	0f7753941a45	Aubergiste	officiel	blizzard_frFR	niveau=meme_champ
 creature	9016		name	Bael'Gar	024abca704cf	Bael'Gar	machine	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release
 creature	9017		name	Lord Incendius	3bb0067b45a6	Seigneur Incendius	officiel	blizzard_frFR	creature_template_locale
@@ -8461,7 +8461,7 @@ creature	9085		subname	Kargath Expeditionary Force	fdb4863c2274	Corps expéditio
 creature	9086		name	Grunt Gargal	ece501d5f57e	Grunt Gargal	officiel	blizzard_frFR	creature_template_locale
 creature	9086		subname	Kargath Expeditionary Force	fdb4863c2274	Corps expéditionnaire de Kargath	officiel	blizzard_frFR	creature_template_locale
 creature	9087		name	Bashana Runetotem	1649b329b494	Bashana Totem-runique	officiel	blizzard_frFR	creature_template_locale
-creature	9095		name	Northshire Guard Justin	e618357f59b7		a_traduire		
+creature	9095		name	Northshire Guard Justin	e618357f59b7	Justin, garde de Comté-du-nord	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	9096		name	Rage Talon Dragonspawn	36699b6c52af	Draconide de la Griffe enragée	officiel	blizzard_frFR	creature_template_locale
 creature	9097		name	Scarshield Legionnaire	9f44b230312d	Légionnaire du Bouclier balafré	officiel	blizzard_frFR	creature_template_locale
 creature	9097		subname	Scarshield Legion	b3d5cc45e844	Légion du Bouclier balafré	officiel	blizzard_frFR	creature_template_locale
@@ -17287,7 +17287,7 @@ creature	19925		name	Miglik Blotstrom	334a931b73fb	Miglik Strontache	officiel	bl
 creature	19925		subname	Arena Battlemaster	bc81a038dcca	Maître de guerre de l'arène	officiel	blizzard_frFR	creature_template_locale
 creature	19926		name	Spellreaver Marathelle	24ec17c45b64	Saccage-sort Marathelle	officiel	blizzard_frFR	creature_template_locale
 creature	19927		name	Time Watcher Transform	db1acc33f3f1	Transformation du veilleur du temps	officiel	blizzard_frFR	creature_template_locale
-creature	19928		name	Laj (Arcane)	593163d6dc91	Laj (Arcane)	a_revoir	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release | refusée au contrôle d'entrée de l'étape 1 : reste_en_anglais
+creature	19928		name	Laj (Arcane)	593163d6dc91	Laj (Arcanes)	machine	claude	fichier=release:DB_Creatures.lua;preuve_anglais=release | refusée au contrôle d'entrée de l'étape 1 : reste_en_anglais | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001 | ancienne proposition (a_revoir) : « Laj (Arcane) »
 creature	19929		name	Laj (Fire)	96763a8440c2	Laj (Feu)	officiel	blizzard_frFR	creature_template_locale
 creature	19930		name	Laj (Frost)	f9867473756c	Laj (Givre)	officiel	blizzard_frFR	creature_template_locale
 creature	19931		name	Laj (Nature)	5098960d9b88	Laj (Nature)	machine	release_3.5.1	fichier=release:DB_Creatures.lua;preuve_anglais=release
@@ -17364,25 +17364,25 @@ creature	19997		name	Bladespire Enforcer	0f10278400a1	Massacreur de Flèchelame	
 creature	19998		name	Bladespire Shaman	43170e19b4ee	Chaman de Flèchelame	officiel	blizzard_frFR	creature_template_locale
 creature	19999		name	Astralan Spell-Thief	4560892d2983	Voleur de sort astralan	officiel	blizzard_frFR	creature_template_locale
 creature	20000		name	Alexander!	cc6fe61fe383	Kanrethad	officiel	blizzard_frFR	creature_template_locale
-creature	20001		name	Mountain Lion Mother	e66e30cda112		a_traduire		
+creature	20001		name	Mountain Lion Mother	e66e30cda112	Mère lion des montagnes	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20002		name	Hurlog Horde	1f2456ea688a		a_traduire		
 creature	20002		subname	Warsong Gulch Battlemaster	cf035c9bbc83	Maître de guerre du goulet des Chanteguerres	officiel	blizzard_frFR	niveau=meme_champ
 creature	20003		name	Blade's Edge Kneel Target 01	0c4aaaa66394	Cible à genoux des Tranchantes 01	officiel	blizzard_frFR	creature_template_locale
 creature	20010		name	Illiyana Moonblaze	9a66146f8a21	Illiyana Braselune	officiel	blizzard_frFR	niveau=meme_champ
-creature	20010		subname	Silverwing Supply Officer (Neutral)	08ba29d14f8a		a_traduire		
+creature	20010		subname	Silverwing Supply Officer (Neutral)	08ba29d14f8a	Officier de ravitaillement d'Aile-argent (neutre)	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20011		name	Illiyana Moonblaze	9a66146f8a21	Illiyana Braselune	officiel	blizzard_frFR	niveau=meme_champ
-creature	20011		subname	Silverwing Supply Officer (Friendly)	05e795c70d27		a_traduire		
+creature	20011		subname	Silverwing Supply Officer (Friendly)	05e795c70d27	Officier de ravitaillement d'Aile-argent (amical)	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20012		name	Illiyana Moonblaze	9a66146f8a21	Illiyana Braselune	officiel	blizzard_frFR	niveau=meme_champ
-creature	20012		subname	Silverwing Supply Officer (Honored)	7f69c97944eb		a_traduire		
+creature	20012		subname	Silverwing Supply Officer (Honored)	7f69c97944eb	Officier de ravitaillement d'Aile-argent (honoré)	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20013		name	Illiyana Moonblaze	9a66146f8a21	Illiyana Braselune	officiel	blizzard_frFR	niveau=meme_champ
-creature	20013		subname	Silverwing Supply Officer (Revered)	f772f57bb98c		a_traduire		
+creature	20013		subname	Silverwing Supply Officer (Revered)	f772f57bb98c	Officier de ravitaillement d'Aile-argent (révéré)	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20014		name	Illiyana Moonblaze	9a66146f8a21	Illiyana Braselune	officiel	blizzard_frFR	niveau=meme_champ
-creature	20014		subname	Silverwing Supply Officer (Exalted)	a96635565bee		a_traduire		
+creature	20014		subname	Silverwing Supply Officer (Exalted)	a96635565bee	Officier de ravitaillement d'Aile-argent (exalté)	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20019		name	Astralan Bandit	b835fc2140b2	Bandit astralan	officiel	blizzard_frFR	creature_template_locale
 creature	20020		name	Astralan Arcanist	357b1f6204de	Arcaniste astralan	officiel	blizzard_frFR	creature_template_locale
 creature	20021		name	Nether Whelp	3bf4097aa2c0	Rejeton du Néant	officiel	blizzard_frFR	creature_template_locale
 creature	20022		name	Kelm Hargunth	c3f7fbd6e5af	Kelm Hargunth	officiel	blizzard_frFR	niveau=meme_champ
-creature	20022		subname	Warsong Supply Officer (Honored)	c8b938bbf059		a_traduire		
+creature	20022		subname	Warsong Supply Officer (Honored)	c8b938bbf059	Officier de ravitaillement Chanteguerre (honoré)	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	20023		name	Blade's Edge Kneel Target 02	41181d3011b4	Cible à genoux des Tranchantes 02	officiel	blizzard_frFR	creature_template_locale
 creature	20024		name	Blade's Edge Kneel Target 03	1f336cd301e2	Cible à genoux des Tranchantes 03	officiel	blizzard_frFR	creature_template_locale
 creature	20025		name	Sable Jaguar Specimen	0f945083cf9f	Spécimen de jaguar sable	officiel	blizzard_frFR	creature_template_locale
@@ -18941,7 +18941,7 @@ creature	21440		name	Tempest Keep Prison Boss Pod Target	357e4f99ab2d	Cellule ci
 creature	21441		name	Station Sharpshooter	42dc6e0c4630	Tireur d'élite du poste	officiel	blizzard_frFR	creature_template_locale
 creature	21443		name	Bone Wastes - Orb Waypoint 01	b03cc3142758	Désert des Ossements - Point de passage de l'orbe 01	officiel	blizzard_frFR	creature_template_locale
 creature	21444		name	Tempixx Finagler	1b106ea1815c		a_traduire		
-creature	21444		subname	Temporary Karazhan Key Vendor	ea79ea895f11		a_traduire		
+creature	21444		subname	Temporary Karazhan Key Vendor	ea79ea895f11	Vendeur temporaire de clés de Karazhan	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	21445		name	Bone Wastes - White Nether Orb	b47ff6546b6d	Désert des Ossements - Orbe du Néant blanc	officiel	blizzard_frFR	creature_template_locale
 creature	21446		name	Bladespire Evil Spirit	83d8434e0985	Esprit maléfique de Flèchelame	officiel	blizzard_frFR	creature_template_locale
 creature	21447		name	Blade's Edge - Toshley's - Def Gun Attack Origin	0538d7870793		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Blade's Edge - Toshley's - Def Gun Attack Origin »
@@ -20177,9 +20177,9 @@ creature	22601		name	[PH] Alliance Tower Lieutenant (1)	400110f5cc45		technique	
 creature	22602		name	[PH] Horde Herald (1)	568c207a8d74		technique		technique=nom_technique
 creature	22603		name	[PH] Horde Tower Lieutenant (1)	fda2463adbae		technique		technique=nom_technique
 creature	22604		name	Alterac Yeti (1)	b5e9a936c5a4	Yéti d'Alterac (1)	machine	modele	modele=suffixe_numerique(base:officiel)
-creature	22605		name	Captain Balinda Stonehearth (1)	1fff8b97a3af		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Capitaine Balinda Foyer de Pierre » | anglais que traduisait l'archive : « Captain Balinda Stonehearth »
+creature	22605		name	Captain Balinda Stonehearth (1)	1fff8b97a3af	Capitaine Balinda Gîtepierre (1)	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Capitaine Balinda Foyer de Pierre » | anglais que traduisait l'archive : « Captain Balinda Stonehearth » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	22605		subname	Stormpike Captain	5fd0096e2cdb	Capitaine foudrepique	officiel	blizzard_frFR	niveau=meme_champ
-creature	22606		name	Captain Galvangar (1)	6d8150875e5b		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Capitaine Galvangar » | anglais que traduisait l'archive : « Captain Galvangar »
+creature	22606		name	Captain Galvangar (1)	6d8150875e5b	Capitaine Galvangar (1)	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Capitaine Galvangar » | anglais que traduisait l'archive : « Captain Galvangar » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	22606		subname	Frostwolf Captain	e1cbc3d603ac	Capitaine loup-de-givre	officiel	blizzard_frFR	niveau=meme_champ
 creature	22607		name	Champion Commando (1)	22be4663e714	Commando champion (1)	machine	modele	modele=suffixe_numerique(base:officiel)
 creature	22608		name	Champion Defender (1)	8761a27229ba	Défenseur champion (1)	machine	modele	modele=suffixe_numerique(base:officiel)
@@ -28457,7 +28457,7 @@ creature	30116		subname	Kirin Tor	f4472392f2e4	Kirin Tor	officiel	blizzard_frFR	
 creature	30117		name	Archmage Modera	906579d8e670	Archimage Modera	officiel	blizzard_frFR	creature_template_locale
 creature	30117		subname	Kirin Tor	f4472392f2e4	Kirin Tor	officiel	blizzard_frFR	creature_template_locale
 creature	30118		name	Portal (Malygos)	686b214b96bc	Portail (Malygos)	officiel	blizzard_frFR	creature_template_locale
-creature	30119		name	Burly Frost Giant	d0c659bff9dc		a_traduire		
+creature	30119		name	Burly Frost Giant	d0c659bff9dc	Géant du givre costaud	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	30120		name	Seething Revenant	b01cfb92d85d	Revenant vengeur	officiel	blizzard_frFR	creature_template_locale
 creature	30121		name	Frost Giant Stormherald	f72c902de1b2	Héraut de la tempête géant du givre	officiel	blizzard_frFR	creature_template_locale
 creature	30122		name	Storm Peaks Anvil Bunny	2eb980cea7b6		technique		technique=nom_technique
@@ -29682,7 +29682,7 @@ creature	31224		subname	Sapph's Steed	475625fc515a	Monture de Saph	officiel	bliz
 creature	31225		name	Plaguehoof	6caa0cfa59ad	Sabot-de-peste	officiel	blizzard_frFR	creature_template_locale
 creature	31225		subname	Rokir's Steed	a8f154f6de45	Monture de Rokir	officiel	blizzard_frFR	creature_template_locale
 creature	31226		name	Lumbering Atrocity	91abd08716ac	Atrocité chancelante	officiel	blizzard_frFR	creature_template_locale
-creature	31227		name	Death Knight Warhorse	8b4b76661904		a_traduire		
+creature	31227		name	Death Knight Warhorse	8b4b76661904	Cheval de guerre de chevalier de la mort	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	31228		name	Grove Walker	1de2546006d4	Marcheur du bosquet	officiel	blizzard_frFR	creature_template_locale
 creature	31229		name	Ancient Watcher	87236059f43f	Gardien ancien	officiel	blizzard_frFR	creature_template_locale
 creature	31230		name	Forlorn Dryad	8a4f425989a0	Dryade lugubre	officiel	blizzard_frFR	creature_template_locale
@@ -30190,7 +30190,7 @@ creature	31692		name	Reanimated Abomination	9ad8a599b36c	Abomination réanimée	
 creature	31693		name	Stormforged Saboteur	7e623a6d7483	Saboteur forge-foudre	officiel	blizzard_frFR	creature_template_locale
 creature	31694		name	Azure Drake Mount	12959679d324	Drake azur	officiel	blizzard_frFR	creature_template_locale
 creature	31695		name	Blue Drake Mount	944863897c23	Drake bleu	officiel	blizzard_frFR	creature_template_locale
-creature	31696		name	Bronze Drake	775c8beb92de		a_traduire		
+creature	31696		name	Bronze Drake	775c8beb92de	Drake de bronze	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	31697		name	Red Drake	15c4cef281d6	Drake rouge	officiel	blizzard_frFR	creature_template_locale
 creature	31698		name	Twilight Drake Mount	adaa89d33ef1	Drake crépusculaire	officiel	blizzard_frFR	creature_template_locale
 creature	31699		name	Black Polar Bear Mount	f757b95d8f95	Ours polaire noir	officiel	blizzard_frFR	creature_template_locale
@@ -35857,7 +35857,7 @@ creature	42003		name	World First Nightbane	0f91164ce6e7	Premier fléau nocturne 
 creature	42004		name	World First Magtheridon Ascended	d5cd362db71a	Première ascension mondiale de Magtheridon	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	42005		name	World First Zul'Jin (Ascended 10 Player)	4c47817db76f	Première mondiale Zul'Jin (10 joueurs élevés)	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	42006		name	World First Lady Vashj Ascended (10 Player)	a34c88e14c9c	La Première Dame du monde Vashj est élevée (10 joueurs)	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	42007		name	World First Kael'thas Sunstrider (Ascended 10)	c604b68d42b2	Première mondiale Kael'thas Sunstrider (Ascended 10)	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Kael'thas Sunstrider→Kael'thas Haut-Soleil
+creature	42007		name	World First Kael'thas Sunstrider (Ascended 10)	c604b68d42b2	Premier mondial : Kael'thas Haut-Soleil (Ascended 10)	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Kael'thas Sunstrider→Kael'thas Haut-Soleil | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001 | ancienne proposition (a_revoir) : « Première mondiale Kael'thas Sunstrider (Ascended 10) »
 creature	42008		name	World First Archimonde	bfc010e8e0ca	Première mondiale Archimonde	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	42009		name	World First Illidan Stormrage	a9af8cd16d66	Première mondiale Illidan Hurlorage	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	42010		name	World First Kil'Jaeden	39b9e70c1b86	Kil'Jaeden, première mondiale	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -36859,7 +36859,7 @@ creature	50106		name	Spirit Idol	be04081b9a2c	Idole spirituelle	machine	archive_
 creature	50108		name	Stasis Ward	49fb91d48fe3	Salle de stase	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	50115		name	Decaying Colossus	a98422e6f850	Colosse putréfié	officiel	blizzard_frFR	niveau=meme_champ
 creature	50116		name	Serene Idol	e7e737338fd2	Idole sereine	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	50117		name	Dark Idol	103c50dc6d26		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Idole de la frénésie » | anglais que traduisait l'archive : « Frenzy Idol »
+creature	50117		name	Dark Idol	103c50dc6d26	Idole sombre	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Idole de la frénésie » | anglais que traduisait l'archive : « Frenzy Idol » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	50118		name	Swift Idol	c346737deaea	Idole rapide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	50119		name	Shadow Effigy	f0f342bf1c66	Effigie de l'Ombre	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	50120		name	Hexing Effigy	35cd91d79c14	Effigie maléfique	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -36925,7 +36925,7 @@ creature	50295		name	Amanda the Reaver	113fe9833c3d	Amanda la pilleuse	machine	a
 creature	50295		subname	Barbarian Trainer	3345e4f0109e	Entraîneur de barbares	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	50296		name	Rol'joku	60fb77423602	Rol'joku	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	50296		subname	Witch Doctor Trainer	7a2569145dcc	Formateur de sorciers	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	50298		name	Eldritch Ritual	522c91c903c9		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Pierre rituelle » | anglais que traduisait l'archive : « Ritual Stone »
+creature	50298		name	Eldritch Ritual	522c91c903c9	Rituel surnaturel	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Pierre rituelle » | anglais que traduisait l'archive : « Ritual Stone » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	50300		name	Destructo-Bot	e42d81571740	Destructo-Bot	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	50301		name	Hellfire Imp	e1ca69622743	Diablotin des Flammes infernales	officiel	blizzard_frFR	niveau=meme_champ
 creature	50303		name	Rotling	39f25d1f4ef2	Rotling	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -36980,7 +36980,7 @@ creature	51105		name	Viper Ward	064a0838944d	Quartier des vipères	machine	archi
 creature	51204		name	Oil Spill Pylon	3ddb92c88a5e	Pylône de déversement d'hydrocarbures	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	51265		name	Honored Ancestor	3255a626ede4	Ancêtre honoré	officiel	blizzard_frFR	niveau=meme_champ
 creature	51275		name	Rotting Frost Giant	5e49adfcd225	Géant du givre pourrissant	officiel	blizzard_frFR	niveau=meme_champ
-creature	51320		name	Fel Infernal	38803b85f424		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Infernal » | anglais que traduisait l'archive : « Infernal »
+creature	51320		name	Fel Infernal	38803b85f424	Infernal gangrené	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Infernal » | anglais que traduisait l'archive : « Infernal » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	51323		name	Chains of Xoroth	4c4a98f285aa	Chaînes de Xoroth	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	51335		name	Warpdagger	0c011736ac0d	Dague dimensionnelle	officiel	blizzard_frFR	niveau=meme_groupe
 creature	51601		name	Moonkin Hatchling	81449964a980	Nouveau-né Moonkin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -36988,7 +36988,7 @@ creature	51635		name	Scooter the Snail	f32fcf6295f6	Scooter l'escargot	machine	a
 creature	51649		name	Moonkin Hatchling	81449964a980	Nouveau-né Moonkin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	52036		name	Noise Box	a8f6883333b3	Boîte à bruit	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	52121		name	Brood Egg	a15fc1685e2b	Oeuf de couvain	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	52258		name	Firestorm	348df31c8341		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Tornade ardente » | anglais que traduisait l'archive : « Fiery Tornado »
+creature	52258		name	Firestorm	348df31c8341	Tempête de feu	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Tornade ardente » | anglais que traduisait l'archive : « Fiery Tornado » | traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	52393		name	Dragonhawk	4e95deaa78af	Faucon-dragon	officiel	blizzard_frFR	niveau=meme_champ
 creature	52808		name	Wildshape	4551a9e8775a		a_traduire		
 creature	52809		name	Ash'adar, Harbinger of Dusk	3c1b007edc5a	Ash'adar, messager du crépuscule	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -37011,7 +37011,7 @@ creature	54906		name	Baixue	d13cdb1b249b	Baixue	machine	archive_ascensionfr	fich
 creature	54907		name	Cindara	b97b3aa08b9d	Cindara	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	55036		name	Shield Beacon	a2397ae77fe4	Balise de bouclier	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	55117		name	Jungle Idol	86a2b9b788df	Idole de la jungle	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	55332		name	Accursed Form	ed34d9b610c5		a_traduire		
+creature	55332		name	Accursed Form	ed34d9b610c5	Forme maudite	machine	claude	traduction de Claude (traductions/creatures/creatures_001.tsv) | lot creatures_001
 creature	55367		name	Darkmoon Zeppelin	5da802bbcf24	Zeppelin de Sombrelune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	56031		name	Darkmoon Cub	34eab5326f8c	Petit de Sombrelune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	56036		name	Shield Beacon	a2397ae77fe4	Balise de bouclier	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -37071,7 +37071,7 @@ creature	70131		name	Wottle	b07eecd88a36	Wottle	machine	archive_ascensionfr	fich
 creature	70132		name	Dottle	800f770c3606	Pointillé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	70524		name	Golden Primal Direhorn	b80ab89280dc	Direcorne primordial doré	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	70525		name	Crimson Primal Direhorn	7dc6fa49cc50	Navrecorne primordial cramoisi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	73427		name	Harlequin's Book of Ascension	a2831e53173f		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Le Livre de l'Ascension d'Arlequin » | anglais que traduisait l'archive : « Harlequin’s Book of Ascension »
+creature	73427		name	Harlequin's Book of Ascension	a2831e53173f	Livre de l'Ascension de Harlequin	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Le Livre de l'Ascension d'Arlequin » | anglais que traduisait l'archive : « Harlequin’s Book of Ascension » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	75115		name	Book of Ascension	b5fb136761d6	Livre de l'Ascension	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	75118		name	Beginner's Book of Ascension	d76762bbbbfe	Livre de l'Ascension pour débutants	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	75119		name	Verdant Book of Ascension	ab7406a12b36	Livre verdoyant de l'Ascension	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -37098,12 +37098,12 @@ creature	79032		name	Horde Balloon	43e4243858eb	Ballon de la Horde	machine	archi
 creature	79033		name	Unstable Lightwell	3cadfee29988	Puits de lumière instable	officiel	blizzard_frFR	niveau=meme_champ
 creature	79034		name	Tyrael's Charger	d47a70b9b321	Destrier de Tyraël	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	79037		name	Skibble	028132bbe740	Skibble	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	79054		name	Prestigious Bloodforged Courser	f8decc821386	Coursier prestigieux de Forge-Sang	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : glossaire:Bloodforged→forgé par le sang
+creature	79054		name	Prestigious Bloodforged Courser	f8decc821386	Coursier prestigieux forgé par le sang	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : glossaire:Bloodforged→forgé par le sang | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 | ancienne proposition (a_revoir) : « Coursier prestigieux de Forge-Sang »
 creature	79055		name	Lil' Chromaggus	9af57ceb04fa	Petit Chromaggus	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	79056		name	Crimson Skyblazer	02e4b0b8f806	Blazer céleste cramoisi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	79059		name	Darkmoon Dirigible	367ba51dcdb9	Dirigeable de Sombrelune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80027		name	Duel Victory Credit	d1b442022b87		a_traduire		
-creature	80051		name	Lil' Al'ar	7ec17d5718a2		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Lil' Al'ar »
+creature	80051		name	Lil' Al'ar	7ec17d5718a2	Mini Al'ar	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Lil' Al'ar » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; modèle officiel « Lil' K.T. » = « Mini K.T. »
 creature	80054		name	Reborn Book of Ascension	0dfdbce05508	Livre de l'Ascension renaissant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80061		name	Ameer Greatluck	ecadb4c9286e	Ameer bonne chance	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80061		subname	Ethereal Recovery Services	5fd946cfd597	Services de récupération éthérés	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -37143,7 +37143,7 @@ creature	80476		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_
 creature	80477		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_frFR	niveau=meme_champ
 creature	80478		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_frFR	niveau=meme_champ
 creature	80479		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_frFR	niveau=meme_champ
-creature	80480		name	Atal'ai Totem VI	c7e46599dae0	Atal'ai Totem VI	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Atal'ai Totem→Totem atal'ai
+creature	80480		name	Atal'ai Totem VI	c7e46599dae0	Totem atal'ai VI	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Atal'ai Totem→Totem atal'ai | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 | ancienne proposition (a_revoir) : « Atal'ai Totem VI »
 creature	80481		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_frFR	niveau=meme_champ
 creature	80482		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_frFR	niveau=meme_champ
 creature	80483		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_frFR	niveau=meme_champ
@@ -37151,7 +37151,7 @@ creature	80484		name	Atal'ai Totem	270dcf78e67a	Totem atal'ai	officiel	blizzard_
 creature	80486		name	Dark Iron Land Mine	f9cc92f9bd67	Mine sombrefer	officiel	blizzard_frFR	niveau=meme_champ
 creature	80530		name	Biletooth Gnasher	8cea858bf281	Grinceur à dents bilentaires	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80539		name	Goldilocks	df59c384baa1	Boucles d'Or	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	80539		subname	Gallywix's Lottery	37d76ed5e196		a_traduire		
+creature	80539		subname	Gallywix's Lottery	37d76ed5e196	Loterie de Gallywix	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	80540		name	Trade Prince Gallywix	92c284bd1678	Prince marchand Gallywix	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80540		subname	Leader of the Bilgewater Cartel	568af9e7a013	Chef du cartel Baille-Fonds	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80541		name	Goldilocks	df59c384baa1	Boucle d'or	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -37169,7 +37169,7 @@ creature	80890		name	Challenger's Book of Ascension	2fed45c3808a	Livre de l'Asce
 creature	80894		name	Water Source	3555a6020f0f	Source d'eau	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80899		name	Fel Pup	1dc152a2a964	Chiot gangrené	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80910		name	The Manastorm	8e8fe8ac71bc	La Tempête Mana	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	80911		name	Voice of Millhouse Manastorm	602442711cc5	Voix de Millhouse Manastorm	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Millhouse Manastorm→Milhouse Tempête-de-mana
+creature	80911		name	Voice of Millhouse Manastorm	602442711cc5	Voix de Milhouse Tempête-de-mana	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Millhouse Manastorm→Milhouse Tempête-de-mana | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom officiel du personnage (créature 3.3.5) | ancienne proposition (a_revoir) : « Voix de Millhouse Manastorm »
 creature	80913		name	Bonestorm	98509621a88e	Tempête d'os	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80914		name	Mushroom	aa146572cac4	Champignon	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	80916		name	Creeping Frost	a2dac94700e0	Rampant Givre	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -37200,7 +37200,7 @@ creature	81080		name	Sir Snips	5a18fb7bab9f	Monsieur Snips	machine	archive_ascen
 creature	81081		name	Bucketshell	85dc980af437	Coquille de seau	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	81095		name	Baby Crawg	dc0420e2725e	Bébé Crawg	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	81371		name	Undercity Plaguebat	385e2cc9b77e	Chauve-souris pestiférée de Fossoyeuse	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	85031		name	Lil Wa'zoo	99ad2539ee98		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Lil Wa'zoo »
+creature	85031		name	Lil Wa'zoo	99ad2539ee98	Mini Wa'zoo	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Lil Wa'zoo » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; modèle officiel « Lil' K.T. » = « Mini K.T. »
 creature	85031		subname	Suspicious Kobold	a2620786e7d6	Kobold suspect	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	89000		name	Void Borne Core Pup	2a053300f727	Chiot du noyau du Vide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	89525		name	Ethereal Might	bdf3410d8a11	Puissance éthérée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -37255,7 +37255,7 @@ creature	100011		name	Burns	b1389325b4f4	Brûlot	officiel	blizzard_frFR	niveau=m
 creature	100016		name	Troll Berserker	fdc22dc54d1a	Berserker troll	officiel	blizzard_frFR	niveau=meme_champ
 creature	100037		name	Soulhound	a9cdc80d0ffa	Chien d'âme	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	100100		name	Gruff Swiftbite	53f283da71c1	Gruff Mord-vite	officiel	blizzard_frFR	niveau=meme_champ
-creature	100209		name	Bandit Support	07a4fe0b376c		a_traduire		
+creature	100209		name	Bandit Support	07a4fe0b376c	Bandit de soutien	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	100219		name	Frostbitten Elderhorn	71f5dc50bfcc	Corne de sureau gelée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	100222		name	Misty Fox	22925fc3765a	Renard brumeux	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	100223		name	Royalfang Widow	8892d7c2bd9d	Veuve Croc Royal	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38364,45 +38364,45 @@ creature	137355		name	Scott Burnside	4edd71909076	Scott Burnside	machine	archive
 creature	137355		subname	Banker	b23d732c1c11	Banquier	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
 creature	137356		name	Thomas Burnside	71c199a1ac80	Thomas Burnside	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	137356		subname	Banker	b23d732c1c11	Banquier	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
-creature	137397		name	Drakkari War Leopard	1ccb1c6d5d71		a_traduire		
-creature	137398		name	Sapphire War Leopard	af3813f0dc3f		a_traduire		
-creature	137399		name	Amethyst War Leopard	9b36c6bd86b6		a_traduire		
-creature	137400		name	Ivory War Leopard	8d3f85901d6e		a_traduire		
-creature	137401		name	Shadow War Leopard	f121cd416d9a		a_traduire		
-creature	137402		name	Umber War Leopard	782afaeac349		a_traduire		
-creature	137403		name	Grimfang War Leopard	1bd03ec42cff		a_traduire		
-creature	137404		name	Nightspot War Leopard	513cb22e73f5		a_traduire		
-creature	137405		name	Dustfang War Leopard	ec92b852dc0f		a_traduire		
-creature	137406		name	Stormhide War Leopard	35ad98755d9d		a_traduire		
-creature	137407		name	Frostshade War Leopard	a1d3f9a2df9b		a_traduire		
-creature	137408		name	Emberfang War Leopard	037791bcc17d		a_traduire		
-creature	137409		name	Venomhide War Leopard	239ac155e985		a_traduire		
-creature	137410		name	Blighted War Leopard	06482d82bc75		a_traduire		
-creature	137411		name	Wounded Blightfang	82b69598d387		a_traduire		
-creature	137427		name	War Prowler	e969ae3f0e80		a_traduire		
-creature	137428		name	Cobalt Glacier Prowler	f1536117e78c		a_traduire		
-creature	137429		name	Mystic Void Prowler	24144f95620a		a_traduire		
-creature	137430		name	Ivory Battle Prowler	916328334218		a_traduire		
-creature	137431		name	Nightshade Prowler	5c34e97f7ee2		a_traduire		
-creature	137432		name	Earthfury Prowler	5d5bbc7f81e4		a_traduire		
-creature	137433		name	Obsidian Prowler	36b85fd0636e		a_traduire		
-creature	137434		name	Shadowspot Prowler	2516623638e3		a_traduire		
-creature	137435		name	Ashsand Prowler	2bbb0b9a6b49		a_traduire		
-creature	137436		name	Ironstorm Prowler	52416a8a74b3		a_traduire		
-creature	137437		name	Mistfrost Prowler	846433998528		a_traduire		
-creature	137438		name	Bloodfire Prowler	9d4fba897818		a_traduire		
+creature	137397		name	Drakkari War Leopard	1ccb1c6d5d71	Léopard de guerre drakkari	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137398		name	Sapphire War Leopard	af3813f0dc3f	Léopard de guerre saphir	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137399		name	Amethyst War Leopard	9b36c6bd86b6	Léopard de guerre améthyste	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137400		name	Ivory War Leopard	8d3f85901d6e	Léopard de guerre ivoire	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137401		name	Shadow War Leopard	f121cd416d9a	Léopard de guerre de l'ombre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137402		name	Umber War Leopard	782afaeac349	Léopard de guerre terre d'ombre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137403		name	Grimfang War Leopard	1bd03ec42cff	Léopard de guerre Grimfang	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé, comme l'archive
+creature	137404		name	Nightspot War Leopard	513cb22e73f5	Léopard de guerre Nightspot	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137405		name	Dustfang War Leopard	ec92b852dc0f	Léopard de guerre Dustfang	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137406		name	Stormhide War Leopard	35ad98755d9d	Léopard de guerre Stormhide	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137407		name	Frostshade War Leopard	a1d3f9a2df9b	Léopard de guerre Frostshade	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137408		name	Emberfang War Leopard	037791bcc17d	Léopard de guerre Emberfang	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137409		name	Venomhide War Leopard	239ac155e985	Léopard de guerre peau-de-venin	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; officiel « Venomhide Ravasaur » = « Ravasaure peau-de-venin »
+creature	137410		name	Blighted War Leopard	06482d82bc75	Léopard de guerre chancreux	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137411		name	Wounded Blightfang	82b69598d387	Blightfang blessé	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137427		name	War Prowler	e969ae3f0e80	Rôdeur de guerre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; Prowler = Rôdeur chez Blizzard (créatures)
+creature	137428		name	Cobalt Glacier Prowler	f1536117e78c	Rôdeur des glaciers de cobalt	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137429		name	Mystic Void Prowler	24144f95620a	Rôdeur du Vide mystique	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137430		name	Ivory Battle Prowler	916328334218	Rôdeur de bataille ivoire	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137431		name	Nightshade Prowler	5c34e97f7ee2	Rôdeur Nightshade	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137432		name	Earthfury Prowler	5d5bbc7f81e4	Rôdeur Rageterre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; Earthfury = Rageterre (officiel, ensembles)
+creature	137433		name	Obsidian Prowler	36b85fd0636e	Rôdeur d'obsidienne	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137434		name	Shadowspot Prowler	2516623638e3	Rôdeur Shadowspot	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137435		name	Ashsand Prowler	2bbb0b9a6b49	Rôdeur Ashsand	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137436		name	Ironstorm Prowler	52416a8a74b3	Rôdeur Ironstorm	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137437		name	Mistfrost Prowler	846433998528	Rôdeur Mistfrost	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137438		name	Bloodfire Prowler	9d4fba897818	Rôdeur Bloodfire	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
 creature	137439		name	Ruin Vile Prowler	ad7d39f49f4f		a_traduire		
-creature	137440		name	Blight-Infested Prowler	767e23e3c707		a_traduire		
-creature	137441		name	Battle-Scarred Prowler	6efb92e50ba2		a_traduire		
-creature	137446		name	Glacierfang War Leopard	437108ddba9b		a_traduire		
-creature	137448		name	Frostbite Prowler	233efaed717d		a_traduire		
+creature	137440		name	Blight-Infested Prowler	767e23e3c707	Rôdeur infesté par le chancre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137441		name	Battle-Scarred Prowler	6efb92e50ba2	Rôdeur marqué par les combats	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	137446		name	Glacierfang War Leopard	437108ddba9b	Léopard de guerre Glacierfang	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	137448		name	Frostbite Prowler	233efaed717d	Rôdeur Frostbite	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
 creature	139981		name	Scribe's Kooky Quill	6e0e3630020b	Plume farfelue du scribe	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	148911		name	Seraph's Hilt	e1a8daf62c90	Poignée de Séraphin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	157000		name	Guard Jacob	1c1004970212	Garde Jacob	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	157002		name	Farmer Demont	cc3ac2ac2ac9	Fermier Démont	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	160000		name	Wild Flower	73bbc3b199ff	Fleur sauvage	officiel	blizzard_frFR	niveau=meme_champ
 creature	160001		name	Blooming Shot Flower spawner	8eadcdcf8737		a_revoir		D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Générateur de fleurs Blooming Shot »
-creature	161579		name	Storm Elemental	d1b19f8b322c		a_traduire		
+creature	161579		name	Storm Elemental	d1b19f8b322c	Élémentaire de tempête	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	161700		name	Bianca Spada	8597cba78e17	Bianca Spada	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161701		name	Moroi Spada	275c8cd24f95	Moroï Spada	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161701		subname	Seminarian of Northshire Abbey	8f7ec4c9ec1b	Séminariste de l'abbaye de Northshire	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38469,10 +38469,10 @@ creature	161772		name	Radiant Fanatic	1bb93831aecf	Fanatique radieux	machine	arc
 creature	161773		name	Radiant Guard	b7d75da0d3b7	Garde Radieuse	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161775		name	His Radiant Majesty	20546e7bc686	Sa Majesté Radieuse	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161776		name	Radiant Slime	e5c72492ba02	Boue radieuse	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	161778		name	Radiant One	dd7eb5d9901e		a_traduire		
-creature	161779		name	Radiant One	dd7eb5d9901e		a_traduire		
-creature	161780		name	Radiant One	dd7eb5d9901e		a_traduire		
-creature	161781		name	Radiant One	dd7eb5d9901e		a_traduire		
+creature	161778		name	Radiant One	dd7eb5d9901e	Être radieux	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	161779		name	Radiant One	dd7eb5d9901e	Être radieux	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	161780		name	Radiant One	dd7eb5d9901e	Être radieux	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	161781		name	Radiant One	dd7eb5d9901e	Être radieux	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	161782		name	Fallen Aspirant	8ad99f2c67b1	Aspirant déchu	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161783		name	Aberrant Flesh Remnant	2e16e7775c91	Reste de chair aberrante	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161784		name	Elydna Wingstroke	f93b88a6cb53	Coup d'aile d'Elydna	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38489,7 +38489,7 @@ creature	161795		name	Sinister Spider	591238be557e	Araignée sinistre	machine	ar
 creature	161797		name	[KC] Speak with Lady Aegya	f1a6344057b3		technique		technique=nom_technique
 creature	161798		name	[KC] Sanctified flesh offered	333244f133b9		technique		technique=nom_technique
 creature	161799		name	[KC] Flesh sanctified at the Moonwell	7f4b20ac7d2f		technique		technique=nom_technique
-creature	161800		name	Magical barrier crossed	b04dce4a88f8		a_traduire		
+creature	161800		name	Magical barrier crossed	b04dce4a88f8	Barrière magique franchie	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	161803		name	Zeb'Goro Denizen	a55140a082ae	Habitant de Zeb'Goro	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161804		name	Zeb'Goro Denizen	a55140a082ae	Habitant de Zeb'Goro	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161805		name	Guker	3549e2212766	Guker	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38508,15 +38508,15 @@ creature	161818		name	Morriga Hollowhoof	881004a968bf	Morriga Sabot-Creux	machin
 creature	161819		name	Sage Nauchol	56ac64fb5c53	Sage Nauchol	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161820		name	Redna	136d9b8d2796	Redna	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161820		subname	Radiance Town Exile	903c3431d170	Exil de la ville de Radiance	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	161821		name	Report delivered to Esgramor	942f33a69974		a_traduire		
+creature	161821		name	Report delivered to Esgramor	942f33a69974	Rapport remis à Esgramor	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	161822		name	[KC] Hard Basin discovered	d3fe04be5bff		technique		technique=nom_technique
 creature	161823		name	[KC] Ask Nauchol to dress you in the disguise	f4f9b5836533		technique		technique=nom_technique
 creature	161824		name	[KC] 161824	db099a9bf970		technique		technique=nom_technique
 creature	161825		name	[KC] 161825	7eaece08e86d		technique		technique=nom_technique
 creature	161826		name	[KC] 161826	c1aaf24f97f7		technique		technique=nom_technique
 creature	161827		name	Zeb'Goro Guard	9233a786c168	Garde Zeb'Goro	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
-creature	161829		name	Grimtotem Disguise	18012356b99b		a_traduire		
-creature	161830		name	Grimtotem Disguise	18012356b99b		a_traduire		
+creature	161829		name	Grimtotem Disguise	18012356b99b	Déguisement totem-sinistre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	161830		name	Grimtotem Disguise	18012356b99b	Déguisement totem-sinistre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	161831		name	K'eru	32a1ae742ad3	K'eru	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161832		name	Rotting Flesh Spawn	3f5e00c99bb0	Apparition de chair pourrie	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161833		name	Techla'Tu, The Gatekeeper	ceffc5a7d4c9	Techla'Tu, le gardien	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38661,7 +38661,7 @@ creature	162803		name	Lady Agria Spada	c50e1223004c	Dame Agria Spada	machine	arc
 creature	162805		name	Clara the Mad	bcdd9ac7e53e	Clara la folle	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	162806		name	Aliscar Lend	57f0a5af6c4f	Prêter Aliscar	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	162807		name	Harvend Thorm	55557309cab7	Harvend Thorm	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	162807		subname	Mayor of Goldshire	6ba57ffb5e69	Maire de Goldshire	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Goldshire→Comté-de-l’or
+creature	162807		subname	Mayor of Goldshire	6ba57ffb5e69	Maire de Comté-de-l'Or	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Goldshire→Comté-de-l’or | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 | ancienne proposition (a_revoir) : « Maire de Goldshire »
 creature	162808		name	Thalira Conacher	d56481e9b9ea	Thalira Conacher	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	162809		name	Rowena	a5d55e5a11e4	Rowena	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	162810		name	Isolde	d869657a27b9	Isolde	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -39179,7 +39179,7 @@ creature	164392		name	General Baugwolf	4d07b63931d4	Général Baugwolf	machine	a
 creature	164393		name	Mekgineer Naudin Screwdriver	4f929809d680	Tournevis Mekgénieur Naudin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164394		name	Frosty Crab	a7382d47c9a1	Crabe glacé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164395		name	High Mekgineer Dolrix	51d3e6bb0160	Haut Mekgénieur Dolrix	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	164396		name	Metantenna Alarm-o-bot	428679cb46e8		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Metantenna Alarm-o-bot »
+creature	164396		name	Metantenna Alarm-o-bot	428679cb46e8	Robot d'alarme de Metantenna	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Metantenna Alarm-o-bot » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; officiel « Alarm-o-Bot » = « Robot d'alarme »
 creature	164397		name	Metantenna Mekgineer	058ace7254ef	Metantenna Mekgénieur	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164398		name	Antennasplitter Trogg	021477d1a757	Séparateur d'antenne Trogg	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	164399		name	Sardragar	b5f5a8329dbb	Sardragar	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -39584,7 +39584,7 @@ creature	165630		subname	Blacksmithing Supplies	fa1c2171dc7f	Fournitures de forg
 creature	165631		name	Gimrik Stonedelve	1793d06c6845		a_traduire		
 creature	165631		subname	Mining Trainer	ec3695283897	Maître des mineurs	officiel	blizzard_frFR	niveau=meme_champ
 creature	165632		name	Ulfgar Kazadbrew	5f80d3b50f89		a_traduire		
-creature	165632		subname	Brewmaster	82a62778794a		a_traduire		
+creature	165632		subname	Brewmaster	82a62778794a	Maître brasseur	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	165633		name	Callum Titanus	630037fd648f		a_traduire		
 creature	165633		subname	Clothier	34a2918228b1	Couturière	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
 creature	170001		name	Ironclad War Wolf	4606ea6a6540	Loup de guerre blindé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -39606,7 +39606,7 @@ creature	179539		name	Cogsworth	f703009134de	Cogsworth	machine	archive_ascension
 creature	179539		subname	Manastorm Gadget Vendor	4d009db90e86	Vendeur de gadgets de la Tempête de mana	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	179820		name	Q-9759 Trigger Barrel Bomb	127299f33674	Traqueur de la damnation	officiel	blizzard_frFR	creature_template_locale
 creature	180066		name	Risen Student	a2368d535969	Étudiant ressuscité	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	180237		name	Buzzing Saw Blade	c6eefaeee0d8		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Lame de scie pour déchiqueteuse » | anglais que traduisait l'archive : « Shredder Saw Blade »
+creature	180237		name	Buzzing Saw Blade	c6eefaeee0d8	Lame de scie vrombissante	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Lame de scie pour déchiqueteuse » | anglais que traduisait l'archive : « Shredder Saw Blade » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	180238		name	Buster Call Marker	0c0e31276912		a_traduire		
 creature	180642		name	Magmadar's Right Head	f17c488efdb4	Tête droite de Magmadar	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	180643		name	Magmadar's Left Head	124d756f203c	Tête gauche de Magmadar	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -40578,9 +40578,9 @@ creature	236296		name	Apothecary Hummel	2cb3663177b6	Apothicaire Hummel	officiel
 creature	236296		subname	Crown Chemical Co.	0544574196a7	Cie de Chimie La Royale	officiel	blizzard_frFR	niveau=meme_champ
 creature	236885		name	Crown Apothecary	25259a50adaf	Apothicaire de La Royale	officiel	blizzard_frFR	niveau=meme_champ
 creature	237022		name	Gnomish "Eco-Friendly" Plane	bffaa3598b8d	Avion gnome "écologique"	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	250042		name	Herald of the Depths	d4a8da91753b		a_traduire		
-creature	250043		name	Strength of the Black Empire	dbb53926dfd3		a_traduire		
-creature	250044		name	Faceless Monstrosity	f0c7dc301c28		a_traduire		
+creature	250042		name	Herald of the Depths	d4a8da91753b	Héraut des profondeurs	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	250043		name	Strength of the Black Empire	dbb53926dfd3	Force de l'Empire noir	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	250044		name	Faceless Monstrosity	f0c7dc301c28	Monstruosité sans-visage	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	250305		name	Spectral Scythe	2cdcf2b502dd	Faux spectrale	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	254000		name	Efry Cogspark	255d1320f8b3	Efry Cogspark	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	254002		name	Mountaineer Tagnur	c6f4eb26c307	Tagnur, l'alpiniste	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -40615,7 +40615,7 @@ creature	254515		name	Kelivex Autumnvale	cb1d1f5910ea	Kelivex Vallée d'Automne	
 creature	254517		name	Captain Taveir	c6f6e5c903b3	Capitaine Taveir	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	254575		name	Takan Velor	776e0e62c775		a_traduire		
 creature	254584		name	Mallek the Tormented	e8d58f3c2580	Mallek le Tourmenté	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	254609		name	Docile Mystwood Lasher	adf8904e756e	Lasher docile de Mystwood	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Mystwood→Bois brumeux
+creature	254609		name	Docile Mystwood Lasher	adf8904e756e	Flagellant docile du Bois brumeux	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Mystwood→Bois brumeux | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 | ancienne proposition (a_revoir) : « Lasher docile de Mystwood »
 creature	254610		name	Joyous Kitten	f9b4eba141fa	Chaton joyeux	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	254677		name	Friendly Sludgemonster	867343d12a21	Monstre de boue amical	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	254678		name	Unbottled Oozeling	3977811a4ae2	Suintant sans bouteille	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -40631,10 +40631,10 @@ creature	254939		name	Duskdrinker	b5635a2424c4	Buveur du crépuscule	machine	arc
 creature	254941		name	Lowfang	bf3cc176cd4a		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « "Bas Croc" » | anglais que traduisait l'archive : « "Lowfang" »
 creature	254945		name	Deathscreech	2a824cacad08		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « "Cri de mort" » | anglais que traduisait l'archive : « "Deathscreech" »
 creature	254947		name	The Masher	6a47eaf9e5a7		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « "Le Masher" » | anglais que traduisait l'archive : « "The Masher" »
-creature	254956		name	Concoction Tested on Skeletons	63184d5a781e		a_traduire		
-creature	254957		name	Concoction Tested on Zombies	e687c329b63a		a_traduire		
-creature	254958		name	Concoction Tested on Banshees	ec7de26d7ec4		a_traduire		
-creature	254959		name	Unusual Subject Tested	850ad7807c1b		a_traduire		
+creature	254956		name	Concoction Tested on Skeletons	63184d5a781e	Concoction testée sur des squelettes	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	254957		name	Concoction Tested on Zombies	e687c329b63a	Concoction testée sur des zombies	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	254958		name	Concoction Tested on Banshees	ec7de26d7ec4	Concoction testée sur des banshees	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	254959		name	Unusual Subject Tested	850ad7807c1b	Sujet inhabituel testé	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	254969		name	Servant of Azora	d482f72d05a0	Serviteur d'Azora	officiel	blizzard_frFR	niveau=meme_champ
 creature	254971		name	Archmage Minervia	f774fd0acb27	Archimage Minervia	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	254976		name	Sah'kihnu	9c142822a319	Sah'kihnu	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -40739,18 +40739,18 @@ creature	262988		name	Vol’zeen	7a2875a01093	Vol'zeen	machine	archive_ascension
 creature	262999		name	Inquisitorial Confessor Konrad	476894a9d50e	Confesseur inquisitorial Konrad	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	263813		name	Darkandle Kobold	25d50563cf87	Kobold Darkandle	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	265154		name	Bella	d9cef0a28d12	Bella	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	267700		name	Adorned Black Stallion	fbb05d96ec09		a_traduire		
-creature	267701		name	Adorned Bay Stallion	2315a1388fad		a_traduire		
-creature	267702		name	Adorned Chestnut Stallion	6143b68d506c		a_traduire		
-creature	267703		name	Adorned Grey Stallion	062f43471e7b		a_traduire		
-creature	267704		name	Adorned Palomino Stallion	e83faf3bb2f1		a_traduire		
-creature	267705		name	Adorned Pale Stallion	baf550459deb		a_traduire		
-creature	267706		name	Adorned Piebald Stallion	7b8893208ac6		a_traduire		
-creature	267707		name	Adorned Pinto Stallion	fa373d3e9c02		a_traduire		
-creature	267708		name	Adorned Dark Bay Stallion	c39402ba01b4		a_traduire		
-creature	267709		name	Adorned White Stallion	411711a4e621		a_traduire		
-creature	267710		name	Adorned Undead Stallion	bb0906e9606e		a_traduire		
-creature	267749		name	Scadeald Riding Gryphon	253ad6ec0fb6		a_traduire		
+creature	267700		name	Adorned Black Stallion	fbb05d96ec09	Étalon noir orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267701		name	Adorned Bay Stallion	2315a1388fad	Étalon bai orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267702		name	Adorned Chestnut Stallion	6143b68d506c	Étalon alezan orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267703		name	Adorned Grey Stallion	062f43471e7b	Étalon gris orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267704		name	Adorned Palomino Stallion	e83faf3bb2f1	Étalon palomino orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267705		name	Adorned Pale Stallion	baf550459deb	Étalon pâle orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267706		name	Adorned Piebald Stallion	7b8893208ac6	Étalon pie orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267707		name	Adorned Pinto Stallion	fa373d3e9c02	Étalon pinto orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267708		name	Adorned Dark Bay Stallion	c39402ba01b4	Étalon bai foncé orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267709		name	Adorned White Stallion	411711a4e621	Étalon blanc orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267710		name	Adorned Undead Stallion	bb0906e9606e	Étalon mort-vivant orné	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	267749		name	Scadeald Riding Gryphon	253ad6ec0fb6	Griffon de monte de Scadeald	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	280066		name	Risen Student	a2368d535969	Étudiant ressuscité	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	280642		name	Magmadar's Right Head	f17c488efdb4	Tête droite de Magmadar	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	280643		name	Magmadar's Left Head	124d756f203c	Tête gauche de Magmadar	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -40759,14 +40759,14 @@ creature	292026		name	Son of Flame	46b2d2b9b650	Fils de Flamme	machine	archive_a
 creature	292027		name	Greater Son of Flame	b0e2d356fa58	Grand Fils de la Flamme	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	292028		name	Unstable Son of Flame	8dc96b026fde	Fils de Flamme instable	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	292328		name	Summoned Greater Fire Nova Totem	5e22ca27a8a1	Invocation du totem Nova de feu supérieur	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	299222		name	Suspicious Creature	e5b13dad6ace		a_traduire		
+creature	299222		name	Suspicious Creature	e5b13dad6ace	Créature suspecte	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	299223		name	Zipi	babcc8519ed0	Zipi	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	299223		subname	The Bully	22a97a1be7c6	L'intimidateur	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	299224		name	Scorpid Stalker	592deca049f1		a_traduire		
-creature	299225		name	Unfathomably Lazy Peon	fbede40ef23f		a_traduire		
-creature	299226		name	Crazed Undead	cbbd85557c7c		a_traduire		
-creature	299227		name	Satyr Trickster	9c29df2d6122		a_traduire		
-creature	299232		name	Undead Monstrosity	6c64c4e93bae		a_traduire		
+creature	299224		name	Scorpid Stalker	592deca049f1	Traqueur scorpide	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	299225		name	Unfathomably Lazy Peon	fbede40ef23f	Péon incroyablement fainéant	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	299226		name	Crazed Undead	cbbd85557c7c	Mort-vivant fou	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	299227		name	Satyr Trickster	9c29df2d6122	Entourloupeur satyre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	299232		name	Undead Monstrosity	6c64c4e93bae	Monstruosité morte-vivante	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	299235		name	Brother Sammuel	3090f37604cd	Frère Sammuel	officiel	blizzard_frFR	niveau=meme_champ
 creature	299236		name	Bromos Grummner	f75d470c034f	Bromos Grummneur	officiel	blizzard_frFR	niveau=meme_champ
 creature	299237		name	Alyissia	88c50e3ad95a	Alyissia	officiel	blizzard_frFR	niveau=meme_champ
@@ -40778,7 +40778,7 @@ creature	299326		name	Kali	d2e94d6ea5bb		a_traduire
 creature	299327		name	Alanor	1be8dd90f8d7		a_traduire		
 creature	299328		name	Gok	73f13b721cf9		a_traduire		
 creature	299329		name	Jediyah	8eea6caf6557		a_traduire		
-creature	299333		name	Witch	f4b9dd7d1ec8		a_traduire		
+creature	299333		name	Witch	f4b9dd7d1ec8	Sorcière	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	300099		name	Box	239ca5767afa	Boîte	officiel	blizzard_frFR	niveau=meme_champ
 creature	300099		subname	Suspicious Crate	e0d4d0099399	Caisse suspecte	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	300148		name	Spirited Scarlet Steed	859e22791b37	Cheval écarlate fougueux	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -40797,7 +40797,7 @@ creature	304100		name	Lesser Water Elemental	fcefd288b414	Elémentaire d'eau inf
 creature	306017		name	Summoned Magma Totem	99013e0bb0c1	Totem de magma invoqué	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	306066		name	Summoned Earthgrab Totem	8868b6e5be18	Totem de saisie de terre invoqué	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	310184		name	Onyxia	fe725339950f	Onyxia	machine	release_3.5.1	fichier=fichier=release:DB_Creatures.lua;preuve_anglais=release;famille=id;propage_depuis_B
-creature	310189		name	Molten Blood	43bd2de06293		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Sang fondu (3) » | anglais que traduisait l'archive : « Molten Blood (3) »
+creature	310189		name	Molten Blood	43bd2de06293	Sang en fusion	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Sang fondu (3) » | anglais que traduisait l'archive : « Molten Blood (3) » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	310189		subname	Onyxia	fe725339950f	Onyxie	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	310603		name	Electrified Water Elemental	41d7a4278c07	Élémentaire d'eau électrifié	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	310659		name	Spirit of Bwonsamdi	60d101f1ba41	Esprit de Bwonsamdi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41046,9 +41046,9 @@ creature	371658		name	Felsteel Wonka	76a064588225	Wonka en gangracier	machine	ar
 creature	371659		name	Armored Horde Wonka	c9000a811f20	Horde blindée Wonka	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371660		name	Gizmo's Wonka	0055a367d9db	Wonka de Gizmo	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371661		name	Insignia Red Wonka	038922c318b3		a_traduire		
-creature	371662		name	Cyan Winged Wonka	2c2d0e8d9d0c		a_traduire		
-creature	371663		name	Purple Winged Wonka	8205fcba41fa		a_traduire		
-creature	371664		name	Orange Winged Wonka	6c0d8b838644		a_traduire		
+creature	371662		name	Cyan Winged Wonka	2c2d0e8d9d0c	Wonka ailé cyan	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	371663		name	Purple Winged Wonka	8205fcba41fa	Wonka ailé violet	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	371664		name	Orange Winged Wonka	6c0d8b838644	Wonka ailé orange	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371665		name	R.D. 01 X-treme Rocket	b7fe028d0ce5	R.D.01 X-treme Rocket	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371666		name	G.L.D. 02 X-treme Rocket	13149ef4371d	G.L.D. 02 Fusée X-treme	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371667		name	B.L. 03 X-treme Rocket	cd11ca9bc097	B.L. 03 Fusée X-treme	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41063,7 +41063,7 @@ creature	371675		name	Chestnut Duck	c20b1a26118e	Canard alezan	machine	archive_a
 creature	371676		name	Verdant River Duck	8baf862d35c5	Canard de rivière verdoyant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371677		name	Sea Foam Duck	ead648e6b2fb	Canard à l'écume de mer	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371678		name	Sunray Duck	8fadb069de6d	Canard rayon de soleil	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371679		name	Lucky Lunar Rocket	81613e791f3c		a_traduire		
+creature	371679		name	Lucky Lunar Rocket	81613e791f3c	Fusée lunaire porte-bonheur	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371680		name	Sapphire Rocket	a9a293c8b426	Fusée Saphir	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371681		name	Emerald Rocket	bc6ee105e623	Fusée émeraude	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371682		name	Cute Pink Rocket	33874b0de9c9	Jolie fusée rose	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41081,9 +41081,9 @@ creature	371693		name	Flame Toy Train	85c66897bad2	Train jouet flamme	machine	ar
 creature	371694		name	Sunshine Toy Train	aa9b2b83c974	Train jouet soleil	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371695		name	Bubblegum Toy Train	bb8cd6190f95	Train jouet Bubblegum	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371696		name	Coal Toy Train	9d2fd48747a9	Train jouet au charbon	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371697		name	Skittering Shadowfang	7f0952edb8d3		a_traduire		
+creature	371697		name	Skittering Shadowfang	7f0952edb8d3	Ombrecroc grouillant	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371698		name	Black Skittering Shadowfang	c1419e170e75	Croc d'Ombre grinçant noir	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371699		name	Scarlet Skittering Shadowfang	564e40620b9c		a_traduire		
+creature	371699		name	Scarlet Skittering Shadowfang	564e40620b9c	Ombrecroc grouillant écarlate	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371700		name	Beloved Raptor of an Ancient King	a9ca3f63c831	Raptor bien-aimé d'un ancien roi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371701		name	Azzar Faire Bear	719944139341	Azzar Faire Ours	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371702		name	Gizmo Insignia Hat	81d6888ebca8	Chapeau Gizmo Insigne	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41097,11 +41097,11 @@ creature	371719		name	Shiny Tidewater Pincer	c293a93819f2	Pince à marée brilla
 creature	371720		name	Tidewater Pincer	11a1fbd2e0ef	Pince à marée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371722		name	Ebony Spiteful Frog	b3c01e5284d9	Grenouille méchante en ébène	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371723		name	Cerulean Spiteful Frog	48488506dc9b	Grenouille méchante céruléenne	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371724		name	Lemon Spiteful Frog	1c0115375698		a_traduire		
-creature	371725		name	Verdant Spiteful Frog	ac8ccd568fa7		a_traduire		
+creature	371724		name	Lemon Spiteful Frog	1c0115375698	Grenouille malveillante citron	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	371725		name	Verdant Spiteful Frog	ac8ccd568fa7	Grenouille malveillante verdoyante	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371726		name	Amber Spiteful Frog	bc746ef5bb1a	Grenouille méchante ambrée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371727		name	Crimson Spiteful Frog	27b9ed3a61ca	Grenouille malveillante cramoisie	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371728		name	Jumping Faire Robot Talkin	2b6b0ca85d9d		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Jumping Faire Robot Talkin »
+creature	371728		name	Jumping Faire Robot Talkin	2b6b0ca85d9d	Robot sauteur bavard de la Foire	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Jumping Faire Robot Talkin » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371729		name	Jumping Azzar Robot Talkin	b2e81932bf67	Le robot sautant Azzar parle	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371730		name	Azzar Faire Anti-gravity Office	e275720f31eb	Foire d'Azzar Bureau Anti-gravité	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371731		name	Refined Anti-gravity Office	ab489327f8ee	Bureau anti-gravité raffiné	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41112,11 +41112,11 @@ creature	371871		name	Pale Carnivarus Cutting	9b40bba1d468	Coupe de Carnivarus p
 creature	371872		name	Azure Carnivarus Cutting	bdcd302351b6	Coupe Carnivarus Azur	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371873		name	Crimson Carnivarus Cutting	7edbff4285a2	Coupe de Carnivarus cramoisi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371874		name	Goblin Tricycle	4b6aeed3c29c	Tricycle gobelin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371875		name	Turbo-Charged Goblin Tricycle	8ae85493794a		a_traduire		
+creature	371875		name	Turbo-Charged Goblin Tricycle	8ae85493794a	Tricycle gobelin turbocompressé	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371876		name	Goblin Racing Pod	a3a3225c9247	Pod de course gobelin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371877		name	Treasure-Extractor G-774	1cc3d8944bae	Extracteur de Trésor G-774	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371878		name	Great Treasure-Extractor G-3000	37f1445a0a41	Grand Extracteur de Trésors G-3000	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371879		name	Turbo Racer “Time Is Gold”	61b189565e27		a_traduire		
+creature	371879		name	Turbo Racer “Time Is Gold”	61b189565e27	Bolide turbo « Le temps, c'est de l'or »	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371880		name	Herbaceous Floral Snail	6033e82f2438	Escargot floral herbacé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371881		name	Albino Floral Snail	55a5fe4300eb	Escargot floral albinos	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371882		name	Twilight Floral Snail	a4a70fecdf03	Escargot Floral Crépuscule	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41127,7 +41127,7 @@ creature	371888		name	Golden Spectral Duck	2e4051c06c32	Canard spectral doré	ma
 creature	371891		name	Goblin Super Sonic Reactor	d8d41ceb8ccb	Réacteur super sonique gobelin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371892		name	Black Goblin Aerial Propulsor	5e29cb57992a	Propulseur aérien du gobelin noir	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371893		name	Red Goblin Aerial Propulsor	5ba63e31f807	Propulseur aérien du gobelin rouge	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	371894		name	Blue Goblin Aerial Propulsor	02ea29612602		a_revoir		D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Propulseur aérien Blue Goblin »
+creature	371894		name	Blue Goblin Aerial Propulsor	02ea29612602	Propulseur aérien gobelin bleu	machine	claude	D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Propulseur aérien Blue Goblin » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	371895		name	Green Goblin Aerial Propulsor	f292519c9f84	Propulseur aérien Green Goblin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371896		name	Yellow Goblin Aerial Propulsor	058e6008a95f	Propulseur aérien gobelin jaune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	371897		name	Discarded Aerial Attraction: Series X	bbab04f3706a	Attraction aérienne abandonnée : série X	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41148,9 +41148,9 @@ creature	373274		name	Blue Faire Toadlet	cd10d6c053a3	Crapaud de la Faire Bleue	
 creature	373286		name	Green Pocket Rocket	47ee103f77f9	Fusée de poche verte	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	373287		name	Crimson Pocket Rocket	f71919def932	Fusée de poche cramoisie	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	373288		name	Mechanical Parrot Chick	3f6c33c3e2d8	Poussin perroquet mécanique	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	373418		name	Fel Engine	74d37dca0fe4		a_revoir		D=refuse_qc:mot_a_mot | indice de l'archive (refuse_qc:mot_a_mot, 1 candidat) : « Gangre Moteur »
-creature	373561		name	Green Winged Wonka	8a7f744cd412		a_traduire		
-creature	373562		name	Yellow Winged Wonka	8f6e06ace8fe		a_traduire		
+creature	373418		name	Fel Engine	74d37dca0fe4	Moteur gangrené	machine	claude	D=refuse_qc:mot_a_mot | indice de l'archive (refuse_qc:mot_a_mot, 1 candidat) : « Gangre Moteur » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	373561		name	Green Winged Wonka	8a7f744cd412	Wonka ailé vert	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	373562		name	Yellow Winged Wonka	8f6e06ace8fe	Wonka ailé jaune	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	373563		name	Green Wonka Hatchling	14c7efd2ebc3	Nouveau-né Wonka vert	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	373564		name	Yellow Wonka Hatchling	aaa2ea721cad	Nouveau-né Wonka jaune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	376518		name	Brass Mechanized Hand	74f693fe2e24	Main mécanisée en laiton	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41165,25 +41165,25 @@ creature	377942		name	Conduit	2c3d680a580b		a_traduire
 creature	378831		name	Undead Warhorse	cd6818ed104a	Cheval de guerre mort-vivant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	378832		name	Undead Charger	0635cb49fb35	Chargeur mort-vivant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379125		name	Void Rat	b6f3f26b1414	Rat du Vide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379126		name	Mutant Void Rat	8b420a6374f7		a_traduire		
-creature	379127		name	Void Lab Rat	3ff0706b71d3		a_traduire		
+creature	379126		name	Mutant Void Rat	8b420a6374f7	Rat du Vide mutant	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379127		name	Void Lab Rat	3ff0706b71d3	Rat de laboratoire du Vide	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	379128		name	Subjugated Chimeric Embryo	1532898d9764	Embryon Chimérique Subjugué	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379129		name	Subjugated Altered Chimeric Embryo	16d1f8d1220e	Embryon chimérique modifié subjugué	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379130		name	Subjugated Toxic Chimeric Embryo	cf48ed2c6404	Embryon chimérique toxique subjugué	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379153		name	Black Faire Nestling	9ac2411e9931	Nid de foire noire	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379154		name	Brown Faire Nestling	224a0dc0076b		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Brown Faire Nestling »
-creature	379155		name	Green Faire Nestling	655efb90668e		a_traduire		
-creature	379156		name	Pink Faire Nestling	53703aaeea2a		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Pink Faire Nestling »
+creature	379154		name	Brown Faire Nestling	224a0dc0076b	Oisillon de la Foire brun	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Brown Faire Nestling » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379155		name	Green Faire Nestling	655efb90668e	Oisillon de la Foire vert	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379156		name	Pink Faire Nestling	53703aaeea2a	Oisillon de la Foire rose	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Pink Faire Nestling » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	379157		name	Yellow Faire Nestling	f97855269921	Faire jaune niché	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379158		name	Mech Faire Nestling	c503f5d55d04	Mech Faire Niché	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379159		name	White Faire Nestling	20a7922fb310	Faire blanche nichée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379350		name	Unstable Black Rocket-Missile	3504410af183	Missile-fusée noir instable	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379351		name	Unstable Blue Rocket-Missile	1da24d693387		a_traduire		
+creature	379351		name	Unstable Blue Rocket-Missile	1da24d693387	Missile-fusée bleu instable	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	379352		name	Unstable Green Rocket-Missile	5be434f4b2ab	Fusée-missile verte instable	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379353		name	Unstable Purple Rocket-Missile	284d1a3a4adb	Missile-fusée violet instable	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379354		name	Unstable Red Rocket-Missile	6d503ff23cde		a_traduire		
+creature	379354		name	Unstable Red Rocket-Missile	6d503ff23cde	Missile-fusée rouge instable	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	379355		name	Unstable Yellow Rocket-Missile	d92f81738098	Missile-fusée jaune instable	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379356		name	Faire Firecracker	277c1f54e604		a_traduire		
+creature	379356		name	Faire Firecracker	277c1f54e604	Pétard de la Foire	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	379357		name	Encapsulated Void Orb	9b30f40c1f20	Orbe du Vide encapsulé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379358		name	Void Combat Airship	395e45e683bd	Dirigeable de combat du Vide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379359		name	Luxurious Goblin Combat Cruiser	dc47b599aae6	Luxueux croiseur de combat gobelin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41214,7 +41214,7 @@ creature	379470		name	Void Charger	14535be4183a	Chargeur du Vide	machine	archive
 creature	379471		name	Felsteel Arachnid	f650a3687b5c	Arachnide de gangracier	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379472		name	Wrathful Felsteel Arachnid	86ff2b0bba98	Arachnide de Gangracier courroucé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379473		name	Felslate Basilisk	a936ce75bcb2	Basilic gangreschiste	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379474		name	Fel Raven	a621c5f81398		a_revoir		D=refuse_qc:mot_a_mot | indice de l'archive (refuse_qc:mot_a_mot, 1 candidat) : « Gangre Corbeau »
+creature	379474		name	Fel Raven	a621c5f81398	Corbeau gangrené	machine	claude	D=refuse_qc:mot_a_mot | indice de l'archive (refuse_qc:mot_a_mot, 1 candidat) : « Gangre Corbeau » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	379483		name	Voidbound Wyvern	7ed18a7d2745	Wyverne liée au Vide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379484		name	Voidbound Bat	2a33c1708e1e	Chauve-souris liée au vide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379485		name	Voidbound Hippogryph	6b6c544a670a	Hippogriffe lié au Vide	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41224,23 +41224,23 @@ creature	379488		name	Armored Voidborne Noctivagant	66c004453cf3	Noctivagant bli
 creature	379489		name	Armored Voidwing	0aaacc0cdd32	Aile du Vide blindée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379492		name	Lightcharger	ac7a2c441581	Chargeur de lumière	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	379493		name	Darkwell Phoenix	98ae0b2644b1	Phénix de Darkwell	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	379983		name	Spiritborne Moose	9d33e1d5accd		a_traduire		
-creature	379984		name	Spiritborne Wolf	53e58daac851		a_traduire		
-creature	379985		name	Spiritborne Spider	b52d682f8b97		a_traduire		
-creature	379986		name	Rootbound Beast	829d3c42b333		a_traduire		
-creature	379987		name	Dark Rootbound Beast	fd0c1274b057		a_traduire		
-creature	379988		name	Pale Rootbound Beast	a032d0ac69d9		a_traduire		
-creature	379989		name	Dark Iron Armored Yak	de732ad9005f		a_traduire		
-creature	379991		name	Goat of Winter	36f323af23ba		a_traduire		
-creature	379992		name	Midnight Black Stallion	cf68180bf9a0		a_traduire		
-creature	379993		name	Bay Stallion	289dbaf52ff1		a_traduire		
-creature	379994		name	Chestnut Stallion	4608918eafda		a_traduire		
-creature	379995		name	Grey Stallion	c62bdaa835a6	[PH] équitationhorsescadeald_grey	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : bouche_trou
-creature	379996		name	Palomino Stallion	ba2818244a33		a_traduire		
-creature	379997		name	Pale Stallion	fa00e260bb91		a_traduire		
-creature	379998		name	Piebald Stallion	dfd03ceb7354		a_traduire		
-creature	379999		name	Pinto Stallion	e7c81d3c2ee5		a_traduire		
-creature	380000		name	Dark Bay Stallion	32afac2996bd		a_traduire		
+creature	379983		name	Spiritborne Moose	9d33e1d5accd	Élan né des esprits	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379984		name	Spiritborne Wolf	53e58daac851	Loup né des esprits	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379985		name	Spiritborne Spider	b52d682f8b97	Araignée née des esprits	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379986		name	Rootbound Beast	829d3c42b333	Bête enracinée	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379987		name	Dark Rootbound Beast	fd0c1274b057	Bête enracinée sombre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379988		name	Pale Rootbound Beast	a032d0ac69d9	Bête enracinée pâle	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379989		name	Dark Iron Armored Yak	de732ad9005f	Yack cuirassé sombrefer	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379991		name	Goat of Winter	36f323af23ba	Chèvre de l'hiver	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379992		name	Midnight Black Stallion	cf68180bf9a0	Étalon noir de minuit	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379993		name	Bay Stallion	289dbaf52ff1	Étalon bai	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379994		name	Chestnut Stallion	4608918eafda	Étalon alezan	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379995		name	Grey Stallion	c62bdaa835a6	Étalon gris	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : bouche_trou | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 | ancienne proposition (a_revoir) : « [PH] équitationhorsescadeald_grey »
+creature	379996		name	Palomino Stallion	ba2818244a33	Étalon palomino	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379997		name	Pale Stallion	fa00e260bb91	Étalon pâle	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379998		name	Piebald Stallion	dfd03ceb7354	Étalon pie	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	379999		name	Pinto Stallion	e7c81d3c2ee5	Étalon pinto	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	380000		name	Dark Bay Stallion	32afac2996bd	Étalon bai foncé	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	380001		name	White Stallion	8cfcf4a3bdcf	Cheval (étalon blanc)	officiel	blizzard_frFR	niveau=meme_champ
 creature	380002		name	Undead Stallion	66806ba9e381	Étalon mort-vivant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	380003		name	Ancient Spiritwalker	13ace9c3f9ac	Ancien marcheur des esprits	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41250,15 +41250,15 @@ creature	392026		name	Son of Flame	46b2d2b9b650	Fils de Flamme	machine	archive_a
 creature	392027		name	Greater Son of Flame	b0e2d356fa58	Grand Fils de la Flamme	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	392028		name	Unstable Son of Flame	8dc96b026fde	Fils de Flamme instable	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	392328		name	Summoned Greater Fire Nova Totem	5e22ca27a8a1	Invocation du totem Nova de feu supérieur	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	397771		name	Manifestation of Y'Shaarj	a4c94a614d38		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Manifestation de Sha » | anglais que traduisait l'archive : « Manifestation of Sha »
+creature	397771		name	Manifestation of Y'Shaarj	a4c94a614d38	Manifestation d'Y'Shaarj	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Manifestation de Sha » | anglais que traduisait l'archive : « Manifestation of Sha » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	399223		name	Zipi	babcc8519ed0	Zipi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	399223		subname	The Bully	22a97a1be7c6	L'intimidateur	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	399300		name	Shadowed Spiritreaver	00478f536ade		a_traduire		
 creature	399301		name	Deathly Spiritreaver	91a7dfd24fbb		a_traduire		
 creature	399302		name	Wrathful Spiritreaver	d070f31e5588		a_traduire		
-creature	399303		name	Shadowburn Minecart	688c7c7e67d2		a_traduire		
-creature	399304		name	Emberdeep Minecart	ad256af519f5		a_traduire		
-creature	399305		name	Titan-Delver Minecart	f506947a3fa9		a_traduire		
+creature	399303		name	Shadowburn Minecart	688c7c7e67d2	Wagonnet Shadowburn	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	399304		name	Emberdeep Minecart	ad256af519f5	Wagonnet Emberdeep	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
+creature	399305		name	Titan-Delver Minecart	f506947a3fa9	Wagonnet Titan-Delver	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; nom composé de CoA gardé
 creature	400000		name	Romus the Redeemer	07d89deea25e	Romus le Rédempteur	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	400000		subname	Commendation Exchange	0b4ba94c3edd	Échange de félicitations	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	400982		name	Backswimmer Timbertooth	8d3b7cec9d06	Timbertooth, nageur arrière	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41273,7 +41273,7 @@ creature	403949		name	Jade, Bright Foreseer	9670fdea695e	Jade, brillante prévis
 creature	403950		name	Nephrite, Embercurrent Strider	c10556194166	Néphrite, marcheur braise	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	403951		name	Jin, Verdant Wavechaser	d12fac28a1ab	Jin, chasseur de vagues verdoyant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	404525		name	Silvershine Sentinel	c170c3628c1c	Sentinelle éclat d'argent	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	404528		name	Greater Earth Guardian	7b32d91c8f06		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Gardien de la Grande Terre invoqué » | anglais que traduisait l'archive : « Summoned Greater Earth Guardian »
+creature	404528		name	Greater Earth Guardian	7b32d91c8f06	Gardien de terre supérieur	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Gardien de la Grande Terre invoqué » | anglais que traduisait l'archive : « Summoned Greater Earth Guardian » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	407656		name	Golden Armored Storm Gryphon	958313b3997c	Griffon de tempête en armure dorée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	407658		name	Dark Armored Storm Gryphon	56ad4389b935	Griffon de tempête en armure sombre	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	407659		name	Silver Armored Storm Gryphon	94c7c2cc3c64	Griffon de tempête en armure argentée	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41284,13 +41284,13 @@ creature	416000		subname	Mythic Items	8d4300638158	Objets mythiques	machine	arch
 creature	420969		name	Sassy Sproutling	4fc47665c529	Germination impertinente	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	420972		name	Mischievous Meadow	f6aac6cb8b33	Prairie espiègle	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	420974		name	Radiant Rosebud	9489f5a9ae4f	Bouton de rose radieux	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	421460		name	Natural Disguise	0d29da51d24c		a_traduire		
+creature	421460		name	Natural Disguise	0d29da51d24c	Déguisement naturel	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	421493		name	Incarnation: Unleashed Golden Saberon	ae4efadede83	Incarnation : Saberon doré déchaîné	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	424379		name	Yellow Amani War Bear	48d7c6a2fc60	Ours de guerre Amani jaune	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	430306		name	Sacrolash	c9b51dc80f35	Sacrolash	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	430308		name	Sacro'lythess	ebc58660a4bf	Sacro'lythess	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	437807		name	Malevolent Drone	d2db123df6dd	Drone malveillant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	444914		name	Foul Invocation	f7a1610db186		a_traduire		
+creature	444914		name	Foul Invocation	f7a1610db186	Invocation infâme	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	445303		name	Learn Novice Riding Credit	1458db0fe81a		a_traduire		
 creature	445304		name	Furious Gilded Treant Pacified Credit	4459b99a5bb0		a_traduire		
 creature	449216		name	Winter Wilderling	51100d834d62	Sauvage d'hiver	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41319,7 +41319,7 @@ creature	449347		name	Galric Olim	15b7a120bb30	Galric Olim	machine	archive_ascen
 creature	449347		subname	Destiny Weaver	385fbc318285	Tisserand du Destin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	449350		name	Tav’ral	6b8f40eacd4a	Tav'ral	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	449350		subname	Destiny Weaver	385fbc318285	Tisserand du Destin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	449351		name	Magistrix Belanor	6586490bbb3a		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Magistrix Belanor »
+creature	449351		name	Magistrix Belanor	6586490bbb3a	Magistrice Belanor	machine	claude	D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Magistrix Belanor » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	449351		subname	Destiny Weaver	385fbc318285	Tisserand du Destin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	449352		name	Thrainnor Galestrom	bae7ce4802a7	Thrainnor Galestrom	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	449352		subname	Destiny Weaver	385fbc318285	Tisserand du Destin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41351,7 +41351,7 @@ creature	455343		name	Half-Devoured Protector	30ebbc7ebd32	Protecteur à moitié
 creature	455343		subname	The People's Militia	4d741be8da2a	Milice du peuple	officiel	blizzard_frFR	niveau=meme_champ
 creature	457771		name	Battle Turret X-13	5821a0601f90	Tourelle de combat X-13	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	457772		name	Battle Turret X-13	5821a0601f90	Tourelle de combat X-13	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	462071		name	Hemostasis	7cb775410510		a_traduire		
+creature	462071		name	Hemostasis	7cb775410510	Hémostase	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	467073		name	Spider Bomb Factory	78bcf6cec6d7	Usine de bombes araignées	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	480510		name	Tiny Amani Elite War Bear	e35e28a2758a	Petit ours de guerre d'élite Amani	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	480511		name	Tiny Amani Elite War Bear	e35e28a2758a	Petit ours de guerre d'élite Amani	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41640,7 +41640,7 @@ creature	522106		name	Spirit Link Idol	107c401e40e0	Idole de lien spirituel	mach
 creature	522923		name	Skeletal Warrior	13cd335d632b	Guerrier squelette	officiel	blizzard_frFR	niveau=meme_champ
 creature	523032		name	Zombie	490b32463c2e	Zombi	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	524379		name	Green Amani War Bear	fcbcc7b02271	Ours de guerre Amani vert	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	533030		name	Apocalyptic Skies	4cc86641e448		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Portail du Vide » | anglais que traduisait l'archive : « Void Portal »
+creature	533030		name	Apocalyptic Skies	4cc86641e448	Cieux apocalyptiques	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Portail du Vide » | anglais que traduisait l'archive : « Void Portal » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	542064		name	Tombstone	319f97a76ed4	Pierre tombale	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	542065		name	Risen Ghoul	b2c84c126164	Goule ressuscitée	officiel	blizzard_frFR	niveau=meme_champ
 creature	542311		name	Mordok Charstone	4fcb388b09d3	Pierre de Charmordok	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41842,7 +41842,7 @@ creature	650341		name	Surellion Trueshot	8499b7acc509	Tir réel de Surellion	mac
 creature	650341		subname	Ranger Trainer	50a79a7056d8	Entraîneur de Rangers	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	650342		name	Threllin the Bearded	0b7994dcb579	Threllin le barbu	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	650342		subname	Primalist Trainer	073bf8800e96	Entraîneur primaliste	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	650688		name	Apothecary Kelan	df5e244cc13b		a_traduire		
+creature	650688		name	Apothecary Kelan	df5e244cc13b	Apothicaire Kelan	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	650688		subname	Venomancer Trainer	5f0b38392874	Entraîneur de Venomanciens	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	663025		name	Manastorm Meteor Dummy	205dc7004a1b	Tempête de mana Météore factice	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	663026		name	Shards of Magic	ac70f4c0a635	Éclats de magie	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41887,7 +41887,7 @@ creature	699754		name	Warmongering Gladiator's Felblood Gronnling	f107b37bbc88	G
 creature	699755		name	Wild Gladiator's Felblood Gronnling	36f85c590681	Gronnling gangre-sang du gladiateur sauvage	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	713002		name	Renthar	cdb85497016b	Renthar	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	721111		name	Cookie	e4f81994fed0	Macaron	officiel	blizzard_frFR	niveau=meme_champ
-creature	735821		name	Lich Form	b5e5c6885f55		a_traduire		
+creature	735821		name	Lich Form	b5e5c6885f55	Forme de liche	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	741719		name	Naj'iri	8e51466ec85e	Naj'iri	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	741722		name	Martin Lesterfield	6ee37f8c187c	Martin Lesterfield	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	741722		subname	Scrolls and Oddities	fd9e3b386c87	Parchemins et bizarreries	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -41981,7 +41981,7 @@ creature	840000		name	Uncanny Likeness	0d58193c290f	Ressemblance étrange	machin
 creature	840002		name	Spirit of Life	aaa6cbffeec4	Esprit de vie	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	840004		name	Rift Clone	c88108a62be3	Clone de la Faille	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	840025		name	Hallucination	a978d8e92c5f	Hallucination	machine	release_3.5.1	fichier=fichier=release:DB_Creatures.lua;preuve_anglais=release;famille=id;propage_depuis_B
-creature	840028		name	Heavy Spider Bomb	0505d98aef8f		a_traduire		
+creature	840028		name	Heavy Spider Bomb	0505d98aef8f	Bombe-araignée lourde	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	840031		name	Shadow Trickster Summon	f77532cb3b02		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Clone d'ombre » | anglais que traduisait l'archive : « Shadow Clone »
 creature	840033		name	Water Nova	d3407c062e57	Eau Nova	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	840034		name	Ursol's Vortex	74a8c707b258	Le Vortex d'Ursol	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -42003,7 +42003,7 @@ creature	840078		name	Divine Star	e096c78bc11c	Étoile divine	machine	archive_as
 creature	840079		name	Grappling Hook	199021f6e8fb	Grappin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	840081		name	Binding Shot dummy spawn	ec568757b458		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Tir de liaison » | anglais que traduisait l'archive : « Binding Shot »
 creature	840082		name	Ravager	8c9507b276f8	Ravageuse	officiel	blizzard_frFR	niveau=meme_groupe
-creature	840091		name	Stampede	c88bcbc33271		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Gestionnaire de bousculade » | anglais que traduisait l'archive : « Stampede Handler »
+creature	840091		name	Stampede	c88bcbc33271	Ruée	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Gestionnaire de bousculade » | anglais que traduisait l'archive : « Stampede Handler » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; officiel (sort « Stampede »)
 creature	840100		name	Shadow Trickster Summon	f77532cb3b02		a_traduire		
 creature	840133		name	Water Nova	d3407c062e57	Eau Nova	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	840189		name	War Banner	754f8b03d339	Bannière de guerre	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42011,30 +42011,30 @@ creature	841000		name	Cloudburst Totem	8c6bbf955d9c	Totem d'averse	machine	archi
 creature	841091		name	Stampede Handler	f7bb1c2478a9	Gestionnaire de bousculade	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	841103		name	Eye beam aoe	214b4365f61b		a_traduire		
 creature	841104		name	Drakhacrisp aoe	807f8115817d	Drakhacrisp aoe	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	841213		name	Ghost Form	e53e1a48f54d		a_traduire		
+creature	841213		name	Ghost Form	e53e1a48f54d	Forme fantôme	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	842005		name	World First Zul'Jin (Ascended 25 Player)	bcd91471935f	Première mondiale Zul'Jin (25 joueurs élevés)	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	842007		name	World First Kael'thas Sunstrider (Ascended 25)	a189bdd73a48	Première mondiale Kael'thas Sunstrider (Ascended 25)	a_revoir	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Kael'thas Sunstrider→Kael'thas Haut-Soleil
+creature	842007		name	World First Kael'thas Sunstrider (Ascended 25)	a189bdd73a48	Premier mondial : Kael'thas Haut-Soleil (Ascended 25)	machine	claude	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Kael'thas Sunstrider→Kael'thas Haut-Soleil | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 | ancienne proposition (a_revoir) : « Première mondiale Kael'thas Sunstrider (Ascended 25) »
 creature	842009		name	World First Illidan Stormrage	a9af8cd16d66	Première mondiale Illidan Hurlorage	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	842010		name	World First Kil'Jaeden	39b9e70c1b86	Kil'Jaeden, première mondiale	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	850000		name	Spectral Reaper	88fd1d5089ff	Faucheur spectral	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	855350		name	Wild Imp	8c109af3c068	Lutin sauvage	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	855352		name	Hand of Gul'dan	62e9c542f772		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Lutin sauvage » | anglais que traduisait l'archive : « Wild Imp »
+creature	855352		name	Hand of Gul'dan	62e9c542f772	Main de Gul'dan	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Lutin sauvage » | anglais que traduisait l'archive : « Wild Imp » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	866924		name	Demonic Gladiator's Storm Dragon	b0d1208218cf	Dragon des tempêtes du gladiateur démoniaque	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	900001		name	Prestige Daily Credit: Max Level Reached	6758766d6bfe		a_traduire		
-creature	900002		name	Prestige Daily Credit: Battlegrounds Completed	ec96c03e050d		a_traduire		
-creature	900003		name	Prestige Daily Credit: Dungeons Completed	bd93146b1477		a_traduire		
-creature	900004		name	Prestige Daily Credit: Daily Quests Completed	7cb49e1aba11		a_traduire		
+creature	900001		name	Prestige Daily Credit: Max Level Reached	6758766d6bfe	Crédit quotidien de prestige : niveau maximum atteint	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	900002		name	Prestige Daily Credit: Battlegrounds Completed	ec96c03e050d	Crédit quotidien de prestige : champs de bataille terminés	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	900003		name	Prestige Daily Credit: Dungeons Completed	bd93146b1477	Crédit quotidien de prestige : donjons terminés	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	900004		name	Prestige Daily Credit: Daily Quests Completed	7cb49e1aba11	Crédit quotidien de prestige : quêtes journalières terminées	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	900007		name	Tiraxis	dbf8aa2774d7	Tiraxis	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	900007		subname	The Ethereal Bazaar	cd4fd5a247c2	Le bazar éthéré	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	900017		name	Esyra	4acbe91efaef	Ésyra	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	900017		subname	Apprentice of Azora	62f7d44f50fa	Apprenti d'Azora	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	900025		name	Manastorm Heart	7e8fd4206a42		a_traduire		
-creature	900026		name	Manastorm Treasure Keeper	58bff60999e3		a_traduire		
-creature	900027		name	Empty Heart Container	a33b1c631cb2		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Jouet de guérison Tempête de mana » | anglais que traduisait l'archive : « Manastorm Heal Toy »
+creature	900025		name	Manastorm Heart	7e8fd4206a42	Cœur de la Tempête de mana	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	900026		name	Manastorm Treasure Keeper	58bff60999e3	Gardien du trésor de la Tempête de mana	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	900027		name	Empty Heart Container	a33b1c631cb2	Réceptacle de cœur vide	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Jouet de guérison Tempête de mana » | anglais que traduisait l'archive : « Manastorm Heal Toy » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	901519		name	Angry Spider	861013560cd4	Araignée en colère	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	901521		name	Echo of Aessina	28158b3cc675	Écho d'Aessina	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	903581		name	Petrification Totem	e97beffb9c01	Totem de Pétrification	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	914505		name	Xorothian Warsteed	5d7b26eb91d3		a_traduire		
+creature	914505		name	Xorothian Warsteed	5d7b26eb91d3	Destrier de guerre xorothien	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	915318		name	Felreaver Deathcycle	0f0a4f6dfee4	Cycle mortel des saccageurs gangrenés	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	915319		name	Flamereaver Deathcycle	6255841602bd	Cycle de mort de Flamereaver	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	915320		name	Shadowreaver Deathcycle	634cdfc27c89	Cycle de mort de Shadowreaver	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -42043,13 +42043,13 @@ creature	915322		name	Worldreaver Deathcycle	86326fd9971c	Cycle de mort de World
 creature	915323		name	Emberback Plodder	b01940c2add1	Travailleur à braises	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	915324		name	Gloomshell Plodder	21ceb3128d1f	Travailleur de Gloomshell	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	922442		name	Chicken	baaa18844b8d	Poulet	officiel	blizzard_frFR	niveau=meme_champ
-creature	940029		name	Flare Strike	659452807307		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Frappe météore » | anglais que traduisait l'archive : « Meteor Strike »
+creature	940029		name	Flare Strike	659452807307	Frappe flamboyante	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Frappe météore » | anglais que traduisait l'archive : « Meteor Strike » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	942100		name	World First Lady Vashj Ascended (25 Player)	eb15d2ecfb46	La Première Dame du monde Vashj est élevée (25 joueurs)	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	942101		name	Wildcard World First Lady Vashj Ascended (10 Player)	51788cd62299		a_traduire		
-creature	942102		name	Wildcard World First Lady Vashj Ascended (25 Player)	638d51698663		a_traduire		
+creature	942101		name	Wildcard World First Lady Vashj Ascended (10 Player)	51788cd62299	Joker : premier mondial, Dame Vashj Ascended (10 joueurs)	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	942102		name	Wildcard World First Lady Vashj Ascended (25 Player)	638d51698663	Joker : premier mondial, Dame Vashj Ascended (25 joueurs)	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	960124		name	Lightwell	9f5e48085ede	Puits de lumière	officiel	blizzard_frFR	niveau=meme_champ
 creature	988501		name	Unleashed Book of Ascension	0ce78cfe45a8	Livre de l'Ascension déchaîné	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	990782		name	Chromie - Experience Items	4ef40bb8fb1e		a_traduire		
+creature	990782		name	Chromie - Experience Items	4ef40bb8fb1e	Chromie - Objets d'expérience	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	991474		name	Meria Crastlor	4e0d3ce44193	Meria Crastlor	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	991474		subname	Mage Adept	cb811a3f34ec	Mage adepte	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	991475		name	Jasper Gilleon	62a78350bf73	Jasper Gilleon	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -42073,7 +42073,7 @@ creature	991485		name	Tharok Windhoof	1cf42a7d7d4b	Tharok Sabot-vent	machine	arc
 creature	991515		name	Lenore the Hoarder	36405986c3ff	Lenore la collectionneuse	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	991516		name	Suspicious Guard	de7f4bd96427	Garde suspect	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	991518		name	Vince McOrc	bded2f6b74a5	Vince McOrc	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	994310		name	Crow of the Cache	4aa8753e8859		a_traduire		
+creature	994310		name	Crow of the Cache	4aa8753e8859	Corbeau de la cache	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	996114		name	Agent Serina Vale	1d2ca1ab0184		a_traduire		
 creature	996115		name	Agent Serina Vale	1d2ca1ab0184		a_traduire		
 creature	996119		name	Defias Sentry	66a80dee0bca	Sentinelle défias	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -42211,7 +42211,7 @@ creature	1414502		name	Mar'toge	9e15d8e31191	Mar'toge	machine	archive_ascensionf
 creature	1414502		subname	Mark of Triumph Exchange	d2328bcaeda5	Échange de Marque de Triomphe	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	1414503		name	Markus	da649486d19f	Marc	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	1414503		subname	Mark of Triumph Exchange	d2328bcaeda5	Échange de Marque de Triomphe	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	1436401		name	Alter Time	0f1d084670de		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Modifier le déclencheur de temps » | anglais que traduisait l'archive : « Alter Time Trigger »
+creature	1436401		name	Alter Time	0f1d084670de	Altération du temps	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Modifier le déclencheur de temps » | anglais que traduisait l'archive : « Alter Time Trigger » | traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	2110009		name	Cloudburst Totem	8c6bbf955d9c	Totem d'averse	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	2110014		name	Frozen Orb	73b6b2b13e26	Orbe gelé	officiel	blizzard_frFR	niveau=meme_champ
 creature	2304510		name	Windwalk Totem	39fb431ddf40	Totem de marche-vent	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -42231,43 +42231,43 @@ creature	3333313		name	Animated Blood	44b9eedb3aae	Sang animé	machine	archive_a
 creature	3460602		name	Frost Sphere (2)	5e0cfa85fb5c	Sphère de givre (2)	machine	modele	modele=suffixe_numerique(base:officiel)
 creature	3460603		name	Frost Sphere (3)	1a8819fc0a7f	Sphère de givre (3)	machine	modele	modele=suffixe_numerique(base:officiel)
 creature	4078281		name	Raging Zephyr	3660d61ccbd8	Zéphyr enragé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	7086920		name	Scribe's Quirky Quill	dd6285fb76ff		a_traduire		
-creature	9300100		name	Defias Blood Wizard	f4d6a75c26cf		a_traduire		
+creature	7086920		name	Scribe's Quirky Quill	dd6285fb76ff	Plume excentrique du scribe	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	9300100		name	Defias Blood Wizard	f4d6a75c26cf	Sorcier de sang défias	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300101		name	Scorch	490f74a28bb3	Brûleur	officiel	blizzard_frFR	niveau=meme_champ
 creature	9300102		name	Jo	3b2345afe414		a_traduire		
-creature	9300102		subname	Owen's Falcon	854b21faec05		a_traduire		
-creature	9300103		name	Old Man Jenkins	e38592304bf5		a_traduire		
-creature	9300104		name	Old Agatha	dc7813a52a98		a_traduire		
-creature	9300150		name	Yiro the Vanquisher	05a5bd1b2a20		a_traduire		
+creature	9300102		subname	Owen's Falcon	854b21faec05	Faucon d'Owen	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	9300103		name	Old Man Jenkins	e38592304bf5	Vieux Jenkins	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	9300104		name	Old Agatha	dc7813a52a98	Vieille Agatha	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
+creature	9300150		name	Yiro the Vanquisher	05a5bd1b2a20	Yiro le Vainqueur	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300150		subname	Witch Hunter Trainer	580fe554e317	Entraîneur de chasseurs de sorcières	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300151		name	Zipak Cogweight	1f2478df14df		a_traduire		
 creature	9300151		subname	Reaper Trainer	982508aa5539	Entraîneur de faucheurs	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300152		name	Talos	69ac8a73ed1f		a_traduire		
-creature	9300152		subname	Baruhr's Falcon	e72ce9fb276e		a_traduire		
+creature	9300152		subname	Baruhr's Falcon	e72ce9fb276e	Faucon de Baruhr	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300153		name	Scorch	490f74a28bb3	Brûleur	officiel	blizzard_frFR	niveau=meme_champ
 creature	9300154		name	Gyrothor Turbospark	aae929f7d87c		a_traduire		
 creature	9300155		name	Hulda Frostwhisper	9552d8d501b6		a_traduire		
-creature	9300200		name	Omogulg the Truthbearer	b6bed38ce5ec		a_traduire		
+creature	9300200		name	Omogulg the Truthbearer	b6bed38ce5ec	Omogulg le Porte-vérité	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300200		subname	Templar Trainer	656ea6c0e68b	Entraîneur des Templiers	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300201		name	Pangajo Sunseer	3de28031c1d1		a_traduire		
 creature	9300201		subname	Sun Cleric Trainer	5639b026ac20	Formateur Clerc du Soleil	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300202		name	Beaky	91de5375d9f2		a_traduire		
 creature	9300203		name	Hi'bi Ja'min	8e0aab8e9cd4		a_traduire		
-creature	9300204		name	Mysterious Troll	da549a09efe9		a_traduire		
+creature	9300204		name	Mysterious Troll	da549a09efe9	Troll mystérieux	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300205		name	Scorch	490f74a28bb3	Brûleur	officiel	blizzard_frFR	niveau=meme_champ
-creature	9300206		name	Old Brokthar	adec53418402		a_traduire		
+creature	9300206		name	Old Brokthar	adec53418402	Vieux Brokthar	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300250		name	Brallmular	c817faaf606d		a_traduire		
 creature	9300250		subname	Knight of Xoroth Trainer	997a3f3d4223	Entraîneur du Chevalier de Xoroth	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300251		name	Shadow-Walker Voss	6caba3a7b1a8		a_traduire		
 creature	9300251		subname	Witch Doctor Trainer	7a2569145dcc	Formateur de sorciers	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300252		name	Suspicious Blood Elf	61e8ceaac50a		a_traduire		
+creature	9300252		name	Suspicious Blood Elf	61e8ceaac50a	Elfe de sang suspect	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300253		name	Felo	865fccfad45f		a_traduire		
 creature	9300254		name	Scorch	490f74a28bb3	Brûleur	officiel	blizzard_frFR	niveau=meme_champ
 creature	9300255		name	Dalin Soft	8fe19c9562cb		a_traduire		
 creature	9300256		name	Agatha Harlow	aff6fb4b49eb		a_traduire		
 creature	9300257		name	Mortimer	58225b19f899		a_traduire		
 creature	9300259		name	Aberrant Progeny	c609882509b6	Progéniture aberrante	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300260		name	Hidden Statue	5a098bc3d16c		a_traduire		
+creature	9300260		name	Hidden Statue	5a098bc3d16c	Statue cachée	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300261		name	[KC] Cain Remains	cc2e4ae958be		technique		technique=nom_technique
 creature	9300300		name	Jax Dawnsoar	53f6300c55bd		a_traduire		
 creature	9300300		subname	Templar Trainer	656ea6c0e68b	Entraîneur des Templiers	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42277,24 +42277,24 @@ creature	9300302		name	Keed	b6406cc5281d		a_traduire
 creature	9300303		name	Scorch	490f74a28bb3	Brûleur	officiel	blizzard_frFR	niveau=meme_champ
 creature	9300350		name	Exodite Telusaara	57c3459a7170		a_traduire		
 creature	9300350		subname	Sun Cleric Trainer	5639b026ac20	Formateur Clerc du Soleil	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300351		name	Suspicious Night Elf	bdbd10fbae7c		a_traduire		
+creature	9300351		name	Suspicious Night Elf	bdbd10fbae7c	Elfe de la nuit suspect	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300352		name	Brim	3cdba3860632		a_traduire		
-creature	9300352		subname	Hydriel's Falcon	3f56effd79cc		a_traduire		
+creature	9300352		subname	Hydriel's Falcon	3f56effd79cc	Faucon d'Hydriel	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300353		name	Thalador	054918e35332		a_traduire		
-creature	9300354		name	Wandering Herbalist	7c0852e01c27		a_traduire		
+creature	9300354		name	Wandering Herbalist	7c0852e01c27	Herboriste errant	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300414		name	Seraath	820b2200fa4e		a_traduire		
 creature	9300414		subname	Felsworn Trainer	dd70a8c8b8cf	Maître Gangrelige	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300416		name	Asheer Skyvoice	2867e75e3282		a_traduire		
 creature	9300416		subname	Stormbringer Trainer	8ea2797a60ea	Entraîneur des porteurs de tempête	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300417		name	Kuroth the Oathless	d3af34a65613		a_traduire		
+creature	9300417		name	Kuroth the Oathless	d3af34a65613	Kuroth le Sans-serment	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300417		subname	Knight of Xoroth Trainer	997a3f3d4223	Entraîneur du Chevalier de Xoroth	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300418		name	Defender Taroon	12094225c3ae		a_traduire		
+creature	9300418		name	Defender Taroon	12094225c3ae	Défenseur Taroon	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300418		subname	Guardian Trainer	06d80acb5e82	Entraîneur de gardiens	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300419		name	Vindicator Oroshar	a95c92755bda		a_traduire		
+creature	9300419		name	Vindicator Oroshar	a95c92755bda	Redresseur de torts Oroshar	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300419		subname	Templar Trainer	656ea6c0e68b	Entraîneur des Templiers	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300422		name	Seer Ohraan	7797ad51623c		a_traduire		
+creature	9300422		name	Seer Ohraan	7797ad51623c	Voyant Ohraan	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300422		subname	Chronomancer Trainer	0086721d5a4c	Entraîneur de chronomancien	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300423		name	Ossiruun of the Auchenai	781a57013b51		a_traduire		
+creature	9300423		name	Ossiruun of the Auchenai	781a57013b51	Ossiruun des Auchenaï	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300423		subname	Necromancer Trainer	77d2bb0d12fd	Entraîneur de nécromancien	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300424		name	Pyraal	c65d57b35443		a_traduire		
 creature	9300424		subname	Pyromancer Trainer	97a79d9b947f	Entraîneur de pyromancien	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42302,7 +42302,7 @@ creature	9300425		name	Mazhaara	cdc2253b6d57		a_traduire
 creature	9300425		subname	Cultist Trainer	f96157f371e0	Entraîneur de Cultiste	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300426		name	Astraan	35941f474e59		a_traduire		
 creature	9300426		subname	Starcaller Trainer	c5ef71238382	Entraîneur des invocateurs d'étoiles	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300428		name	Artificer Bolaan	5f8fc7d2e8ab		a_traduire		
+creature	9300428		name	Artificer Bolaan	5f8fc7d2e8ab	Artificier Bolaan	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300428		subname	Tinker Trainer	5d791ff87fc9	Entraîneur de bricoleurs	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300430		name	Sorashii the Silent	5cc8a0c49120		a_traduire		
 creature	9300430		subname	Reaper Trainer	982508aa5539	Entraîneur de faucheurs	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42350,9 +42350,9 @@ creature	9300517		name	Vorathaan Ashmantle	9dc96c2b49b3		a_traduire
 creature	9300517		subname	Knight of Xoroth Trainer	997a3f3d4223	Entraîneur du Chevalier de Xoroth	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300518		name	Warden Iruvaa	1a26c743030a		a_traduire		
 creature	9300518		subname	Guardian Trainer	06d80acb5e82	Entraîneur de gardiens	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300519		name	Lightwarden Moraala	5bc76667fb41		a_traduire		
+creature	9300519		name	Lightwarden Moraala	5bc76667fb41	Gardelumière Moraala	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; officiel « Adyen the Lightwarden » = « Adyen le Gardelumière »
 creature	9300519		subname	Templar Trainer	656ea6c0e68b	Entraîneur des Templiers	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300522		name	Archivist Tolaara	8c94449d0bdd		a_traduire		
+creature	9300522		name	Archivist Tolaara	8c94449d0bdd	Archiviste Tolaara	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300522		subname	Chronomancer Trainer	0086721d5a4c	Entraîneur de chronomancien	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300523		name	Soulbinder Kaarun	d93cd8ab33a2		a_traduire		
 creature	9300523		subname	Necromancer Trainer	77d2bb0d12fd	Entraîneur de nécromancien	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42362,9 +42362,9 @@ creature	9300525		name	Nyrosha the Veiled	e2093eb75314		a_traduire
 creature	9300525		subname	Cultist Trainer	f96157f371e0	Entraîneur de Cultiste	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300526		name	Starseer Naliima	645faba80e35		a_traduire		
 creature	9300526		subname	Starcaller Trainer	c5ef71238382	Entraîneur des invocateurs d'étoiles	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300528		name	Technician Draalon	a9617b170e22		a_traduire		
+creature	9300528		name	Technician Draalon	a9617b170e22	Technicien Draalon	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002
 creature	9300528		subname	Tinker Trainer	5d791ff87fc9	Entraîneur de bricoleurs	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9300530		name	Morvaal the Grim	0661d4809521		a_traduire		
+creature	9300530		name	Morvaal the Grim	0661d4809521	Morvaal le Macabre	machine	claude	traduction de Claude (traductions/creatures/creatures_002.tsv) | lot creatures_002 ; officiel « the Grim » = « le Macabre » (Longbraid the Grim)
 creature	9300530		subname	Reaper Trainer	982508aa5539	Entraîneur de faucheurs	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300531		name	Wildkeeper Oraana	9ad88e789d9f		a_traduire		
 creature	9300531		subname	Primalist Trainer	073bf8800e96	Entraîneur primaliste	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42402,36 +42402,36 @@ creature	9300580		name	Dathren Duskmourn	985ea53a14ba		a_traduire
 creature	9300580		subname	Reaper Trainer	982508aa5539	Entraîneur de faucheurs	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9300582		name	Ithrien Glyphwarden	a34afdb4950b		a_traduire		
 creature	9300582		subname	Runemaster Trainer	501f32240880	Entraîneur de maître des runes	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9303000		name	Caravan Harness	25f4fff5884a		a_traduire		
+creature	9303000		name	Caravan Harness	25f4fff5884a	Harnais de caravane	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9303001		name	Pack Kodo	0cfc29b08ae3	Kodo de bât	officiel	blizzard_frFR	niveau=meme_champ
-creature	9303002		name	Kodo Carcass	f617598e5d21		a_traduire		
-creature	9303635		name	Shadowblood	d1984731f305		a_traduire		
-creature	9303636		name	Healing Totem	e9055a075519		a_traduire		
+creature	9303002		name	Kodo Carcass	f617598e5d21	Carcasse de kodo	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9303635		name	Shadowblood	d1984731f305	Sang-d'ombre	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003 ; nom de créature CoA ; à défaut de contexte, nom traduit comme un nom de sort
+creature	9303636		name	Healing Totem	e9055a075519	Totem de guérison	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9303637		name	Orcamania Ring	2ad2942299ee		a_traduire		
 creature	9312001		name	Fizzlebolt Gearwhistle	9b26e611ec0e		a_traduire		
-creature	9312001		subname	Gnomeregan Salvage Engineer	3f9cb5d304e3		a_traduire		
+creature	9312001		subname	Gnomeregan Salvage Engineer	3f9cb5d304e3	Ingénieur récupérateur de Gnomeregan	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9312002		name	Grizzik Scrapsnatch	0eda7569936f		a_traduire		
-creature	9312002		subname	Bilgewater Cartel Inventor	0939224668ba		a_traduire		
-creature	9312003		name	Haywire Lootbot Prototype	52b97341ce3b		a_traduire		
+creature	9312002		subname	Bilgewater Cartel Inventor	0939224668ba	Inventeur du cartel Baille-Fonds	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003 ; officiel : « Bilgewater Cartel » = « cartel Baille-Fonds » (broadcast 38376)
+creature	9312003		name	Haywire Lootbot Prototype	52b97341ce3b	Prototype de robot-butin détraqué	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9370001		name	Road to De Other Side Ambush Trigger	2a41c1fb3889		technique		technique=nom_technique
 creature	9370002		name	Interstitial Wanderer	d908d5ac533c	Vagabond interstitiel	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
-creature	9370003		name	Bats	4ffae2ebb579		a_traduire		
-creature	9370010		name	Chimeric Egg	8fc2f48c8312		a_traduire		
+creature	9370003		name	Bats	4ffae2ebb579	Chauves-souris	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9370010		name	Chimeric Egg	8fc2f48c8312	Œuf chimérique	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9780012		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
 creature	9780012		subname	Runes of Ascension	42f1dfe37dc0	Runes d'Ascension	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	9780020		name	Orb of Corruption	c89b0218f3af		a_traduire		
-creature	9780021		name	Shadow Clone	831061baa5d5		a_traduire		
+creature	9780020		name	Orb of Corruption	c89b0218f3af	Orbe de corruption	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9780021		name	Shadow Clone	831061baa5d5	Clone d'ombre	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9780021		subname	Stolen Soul	e783548d8b60	Ame volée	officiel	blizzard_frFR	niveau=meme_type
 creature	9780022		name	Heart of Hakkar	f89138bfef97	Coeur d'Hakkar	officiel	blizzard_frFR	niveau=meme_champ
-creature	9780023		name	Sandreaver Broodling	4adc64dc3d52		a_traduire		
-creature	9780024		name	Nightmare Murloc	a76cecc01a67		a_traduire		
-creature	9780025		name	Nightmare Spider	b506041254fe		a_traduire		
-creature	9780026		name	Nightmare Bee	9065f647aade		a_traduire		
-creature	9780027		name	Nightmare Cat	f887d965a745		a_traduire		
-creature	9780028		name	Nightmarish Monstrosity	3a4a9b89c6a5		a_traduire		
+creature	9780023		name	Sandreaver Broodling	4adc64dc3d52	Rejeton ravage-sable	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003 ; Broodling = Rejeton (officiel)
+creature	9780024		name	Nightmare Murloc	a76cecc01a67	Murloc cauchemardesque	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9780025		name	Nightmare Spider	b506041254fe	Araignée cauchemardesque	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9780026		name	Nightmare Bee	9065f647aade	Abeille cauchemardesque	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9780027		name	Nightmare Cat	f887d965a745	Chat cauchemardesque	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9780028		name	Nightmarish Monstrosity	3a4a9b89c6a5	Monstruosité cauchemardesque	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9780029		name	Trut-K'hahn	b6639f2f632a		a_traduire		
-creature	9780030		name	Trut-K'hahn's Flock	9a6fd06f7a7f		a_traduire		
-creature	9780031		name	Feather Storm	4f0d07771d5e		a_traduire		
+creature	9780030		name	Trut-K'hahn's Flock	9a6fd06f7a7f	Nuée de Trut-K'hahn	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9780031		name	Feather Storm	4f0d07771d5e	Tempête de plumes	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9780600		name	Cannonball Target	549a10ae2d5d		a_traduire		
 creature	9780710		name	Walking Bomb	6aec4a39160d	Bombe ambulante	officiel	blizzard_frFR	niveau=meme_champ
 creature	9780711		name	Walking Bomb	6aec4a39160d	Bombe ambulante	officiel	blizzard_frFR	niveau=meme_champ
@@ -42442,68 +42442,68 @@ creature	9780722		name	Crimson Rifleman	0b11d0e7a18c	Fusilier cramoisi	officiel	
 creature	9781000		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
 creature	9781000		subname	General Goods	7f25fd0d423e	Fournitures générales	officiel	blizzard_frFR	niveau=meme_champ
 creature	9781001		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781001		subname	Heirlooms	3ba4d810dee5		a_traduire		
+creature	9781001		subname	Heirlooms	3ba4d810dee5	Héritages	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781002		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781002		subname	Mystic Scrolls: Warrior	0499d706102c		a_traduire		
+creature	9781002		subname	Mystic Scrolls: Warrior	0499d706102c	Parchemins mystiques : guerrier	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781003		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781003		subname	Mystic Scrolls: Paladin	43e8acac6b64		a_traduire		
+creature	9781003		subname	Mystic Scrolls: Paladin	43e8acac6b64	Parchemins mystiques : paladin	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781004		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781004		subname	Mystic Scrolls: Hunter	5ef51b55347f		a_traduire		
+creature	9781004		subname	Mystic Scrolls: Hunter	5ef51b55347f	Parchemins mystiques : chasseur	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781005		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781005		subname	Mystic Scrolls: Rogue	e155f826af3e		a_traduire		
+creature	9781005		subname	Mystic Scrolls: Rogue	e155f826af3e	Parchemins mystiques : voleur	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781006		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781006		subname	Mystic Scrolls: Priest	6301d90762f1		a_traduire		
+creature	9781006		subname	Mystic Scrolls: Priest	6301d90762f1	Parchemins mystiques : prêtre	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781007		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781007		subname	Mystic Scrolls: Death Knight	1a0247c04835		a_traduire		
+creature	9781007		subname	Mystic Scrolls: Death Knight	1a0247c04835	Parchemins mystiques : chevalier de la mort	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781008		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781008		subname	Mystic Scrolls: Shaman	42c6d6c3b4ac		a_traduire		
+creature	9781008		subname	Mystic Scrolls: Shaman	42c6d6c3b4ac	Parchemins mystiques : chaman	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781009		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781009		subname	Mystic Scrolls: Mage	e86238897d9f		a_traduire		
+creature	9781009		subname	Mystic Scrolls: Mage	e86238897d9f	Parchemins mystiques : mage	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781010		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781010		subname	Mystic Scrolls: Warlock	1c5e3d3cd68c		a_traduire		
+creature	9781010		subname	Mystic Scrolls: Warlock	1c5e3d3cd68c	Parchemins mystiques : démoniste	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781011		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781011		subname	Mystic Scrolls: Druid	2a5e505cd3a0		a_traduire		
+creature	9781011		subname	Mystic Scrolls: Druid	2a5e505cd3a0	Parchemins mystiques : druide	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781012		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781012		subname	Altars	3416c8a249dc		a_traduire		
+creature	9781012		subname	Altars	3416c8a249dc	Autels	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781013		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781013		subname	Mystic Scrolls: Warrior	0499d706102c		a_traduire		
+creature	9781013		subname	Mystic Scrolls: Warrior	0499d706102c	Parchemins mystiques : guerrier	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781014		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781014		subname	Mystic Scrolls: Paladin	43e8acac6b64		a_traduire		
+creature	9781014		subname	Mystic Scrolls: Paladin	43e8acac6b64	Parchemins mystiques : paladin	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781015		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781015		subname	Mystic Scrolls: Hunter	5ef51b55347f		a_traduire		
+creature	9781015		subname	Mystic Scrolls: Hunter	5ef51b55347f	Parchemins mystiques : chasseur	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781016		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781016		subname	Mystic Scrolls: Rogue	e155f826af3e		a_traduire		
+creature	9781016		subname	Mystic Scrolls: Rogue	e155f826af3e	Parchemins mystiques : voleur	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781017		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781017		subname	Mystic Scrolls: Priest	6301d90762f1		a_traduire		
+creature	9781017		subname	Mystic Scrolls: Priest	6301d90762f1	Parchemins mystiques : prêtre	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781018		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781018		subname	Mystic Scrolls: Shaman	42c6d6c3b4ac		a_traduire		
+creature	9781018		subname	Mystic Scrolls: Shaman	42c6d6c3b4ac	Parchemins mystiques : chaman	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781019		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781019		subname	Mystic Scrolls: Mage	e86238897d9f		a_traduire		
+creature	9781019		subname	Mystic Scrolls: Mage	e86238897d9f	Parchemins mystiques : mage	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781020		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781020		subname	Mystic Scrolls: Warlock	1c5e3d3cd68c		a_traduire		
+creature	9781020		subname	Mystic Scrolls: Warlock	1c5e3d3cd68c	Parchemins mystiques : démoniste	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9781021		name	Guardian of Time	d5500a6b49ab	Gardien du Temps	officiel	blizzard_frFR	niveau=meme_champ
-creature	9781021		subname	Mystic Scrolls: Druid	2a5e505cd3a0		a_traduire		
+creature	9781021		subname	Mystic Scrolls: Druid	2a5e505cd3a0	Parchemins mystiques : druide	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916113		name	Torvald Greyfeather	afbed2a2e67e		a_traduire		
-creature	9916113		subname	Huntmaster	84c63797976f		a_traduire		
+creature	9916113		subname	Huntmaster	84c63797976f	Maître de chasse	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916114		name	Zul'khar	2a721dbaa4a3		a_traduire		
-creature	9916114		subname	Huntmaster	84c63797976f		a_traduire		
+creature	9916114		subname	Huntmaster	84c63797976f	Maître de chasse	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916202		name	Spirit Wolf	407e5a4a1089	Esprit du loup	officiel	blizzard_frFR	niveau=meme_champ
-creature	9916211		name	Stormfang Spirit Wolf	302c9296c095		a_traduire		
+creature	9916211		name	Stormfang Spirit Wolf	302c9296c095	Esprit du loup Stormfang	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003 ; nom propre CoA « Stormfang » gardé (créature 9916212)
 creature	9916212		name	Stormfang	26d153cb2b61		a_traduire		
-creature	9916212		subname	The Crackling Fury	2ff001461fc9		a_traduire		
+creature	9916212		subname	The Crackling Fury	2ff001461fc9	La Fureur crépitante	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916213		name	Vaelthara	0d8dfd662563		a_traduire		
-creature	9916213		subname	The Scarred Matriarch	f4d9ffdfbbc5		a_traduire		
+creature	9916213		subname	The Scarred Matriarch	f4d9ffdfbbc5	La Matriarche balafrée	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916214		name	Nytharos	39a7d787d939		a_traduire		
-creature	9916214		subname	The Drowned Oracle	caad99923897		a_traduire		
-creature	9916215		name	Spitelash Attendant	a1a2936d29c6		a_traduire		
-creature	9916216		name	Waterspout	23f094139a24		a_traduire		
-creature	9916217		name	Tidal Bulwark	c9330a364eb1		a_traduire		
+creature	9916214		subname	The Drowned Oracle	caad99923897	L'Oracle noyé	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9916215		name	Spitelash Attendant	a1a2936d29c6	Serviteur Fouette-bile	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9916216		name	Waterspout	23f094139a24	Trombe	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
+creature	9916217		name	Tidal Bulwark	c9330a364eb1	Rempart des marées	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916222		name	Stormfang	26d153cb2b61		a_traduire		
-creature	9916222		subname	The Crackling Fury	2ff001461fc9		a_traduire		
+creature	9916222		subname	The Crackling Fury	2ff001461fc9	La Fureur crépitante	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916223		name	Vaelthara	0d8dfd662563		a_traduire		
-creature	9916223		subname	The Scarred Matriarch	f4d9ffdfbbc5		a_traduire		
+creature	9916223		subname	The Scarred Matriarch	f4d9ffdfbbc5	La Matriarche balafrée	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9916224		name	Nytharos	39a7d787d939		a_traduire		
-creature	9916224		subname	The Drowned Oracle	caad99923897		a_traduire		
+creature	9916224		subname	The Drowned Oracle	caad99923897	L'Oracle noyé	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9920070		name	Ealdir Ambusher	bb72bfb506bc	Embuscade d'Ealdir	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9920071		name	Jagged Cave Ealdir	6b07aff55440	Ealdir de la grotte déchiquetée	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9920072		name	Graysky Guard	e7a534ddabad	Garde Graysky	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
@@ -42511,11 +42511,11 @@ creature	9920073		name	Graysky Guard	e7a534ddabad	Garde Graysky	machine	archive_
 creature	9920074		name	Graysky Royal Guard	2251c898f09d	Garde royale Graysky	machine	archive_ascensionfr	fichier=fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua;famille=id;propage_depuis_B
 creature	9920210		name	[KC] Logs tossed into the fire	7e899d5d4fd3		technique		technique=nom_technique
 creature	9920211		name	Ealdmaine Caverns Quest Offer	1c185848384c		a_traduire		
-creature	9975000		name	Bloodsail Logbook	93b5d62f2265		a_traduire		
+creature	9975000		name	Bloodsail Logbook	93b5d62f2265	Journal de bord de la Voile sanglante	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	9990001		name	Teri Glozilk	f42d9cd20c7e	Teri Glozilk	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	9990001		subname	War Games	6781e3b0edc5	Jeux de guerre	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	9990150		name	Healing Dummy	ae981a14ccfd		a_traduire		
-creature	9990150		subname	Heal me!	5dd95fafc488		a_traduire		
+creature	9990150		subname	Heal me!	5dd95fafc488	Soignez-moi !	machine	claude	traduction de Claude (traductions/creatures/creatures_003.tsv) | lot creatures_003
 creature	10111375		name	Felflame Talbuk	8df219701811	Talbuk gangreflamme	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	10111377		name	Treasure Keeper	87d38ade4c40	Gardien du trésor	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	10111378		name	Pit Lord's Eye	fae81fbd5bff	Oeil du seigneur des fosses	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua

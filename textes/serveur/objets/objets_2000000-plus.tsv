@@ -8993,7 +8993,7 @@ objet	2068595		name	Shattered Realm Legplates	046f94eb4c91	Cuissards du Royaume 
 objet	2068596		name	Madcap Miner Legguards	956bde1d2d41	Garde-jambes de mineur Madcap	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2068597		name	Icebound Wastewalker Leggings	8557609f6dbe	Jambières de marcheur des déchets lié par les glaces	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2068598		name	Mudsoaked Leggings	154a029aea3f	Jambières imbibées de boue	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	2068599		name	Vigilant Leggings of Zabra'jin	dd05f2a7ffef	Jambières vigilantes de Zabra'jin	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Zabra'jin→Zabra’jin
+objet	2068599		name	Vigilant Leggings of Zabra'jin	dd05f2a7ffef	Jambières vigilantes de Zabra'jin	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2068600		name	Legplates of Draenei Heritage	e923cd96d198	Cuissards de l'héritage draeneï	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2068601		name	Legplates of Unyielding Duty	70c4147c7205	Cuissards du devoir inflexible	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2068602		name	Legguards of the Allerian Protector	1c8638e6e425	Garde-jambes du protecteur allérien	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
@@ -9519,7 +9519,7 @@ objet	2069132		name	Mason's Leather Leggings	562838afea55	Jambières en cuir de 
 objet	2069133		name	Legguards of the Zealot	02c876f0edca	Garde-jambes du Zélote	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2069134		name	Legguards of Fanaticism	a1731fa8f01a	Garde-jambes du fanatisme	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2069135		name	Legwraps of the Feathered Crusade	977c76c76926	Jambières de la croisade à plumes	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	2069136		name	Icecarved Leggings of Zul'Drak	155c68b68ba7	Jambières sculptées dans la glace de Zul'Drak	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Zul'Drak→Zul’Drak
+objet	2069136		name	Icecarved Leggings of Zul'Drak	155c68b68ba7	Jambières sculptées dans la glace de Zul'Drak	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2069137		name	Frostsoul Protector's Leggings	6b34e889818c	Jambières du protecteur d'âme de givre	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2069138		name	Despairing Stride Leggings	7757e8e69efc	Foulée désespérée Legging	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2069139		name	Glacial Refuge Leggings	73329356f416	Jambières du refuge glaciaire	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
@@ -12563,7 +12563,7 @@ objet	2072245		name	Grip of the Covert Operative	5620f789c5f5	Emprise de l'agent
 objet	2072246		name	Cadence Gauntlets	f4c9306f2716	Gantelets de cadence	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2072247		name	Wraithbind Grips	f52a268f3ee9	Poignées de lien spectral	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2072248		name	Resilient Handguards	84d265e6402d	Protège-mains résilients	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	2072249		name	Hammerfall Gauntlets	80d889006e58	Gantelets d'Hammerfall	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Hammerfall→Trépas-d'Orgrim
+objet	2072249		name	Hammerfall Gauntlets	80d889006e58	Gantelets de Trépas-d'Orgrim	machine	claude	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Hammerfall→Trépas-d'Orgrim | traduction de Claude (traductions/objets/objets_013.tsv) | lot objets_013 | ancienne proposition (a_revoir) : « Gantelets d'Hammerfall »
 objet	2072250		name	Gauntlets of the Forsworn	60087a4a3b69	Gantelets des Parjures	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2072251		name	Whispering Handguards	244b81675b9c	Garde-mains chuchotants	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2072253		name	Bewitched Grips	7428d333cd68	Poignées ensorcelées	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
@@ -13647,7 +13647,7 @@ objet	2073504		name	Grips of Loa's Resolve	43de4213e49f	Poignes de la détermina
 objet	2073505		name	Hexweaver's Grips	ddf07b4de630	Poignes du tisseur de maléfices	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2073506		name	Gloves of the Sable Conjuror	0b9c1eff30d5	Gants de l'invocateur de sable	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2073507		name	Gloves of Redemptive Touch	9ff12ab6f548	Gants du toucher rédempteur	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	2073508		name	Gauntlets of Zul'Drak	c1a888ef28b7	Gantelets de Zul'Drak	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Zul'Drak→Zul’Drak
+objet	2073508		name	Gauntlets of Zul'Drak	c1a888ef28b7	Gantelets de Zul'Drak	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2073509		name	Flamegrip Gauntlets	e87248b7dffd	Gantelets Flamegrip	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2073510		name	Bearclaw Grips	db56ed5c3d71	Poignées griffe d'ours	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2073512		name	Bloodstained Grips of Sacrifice	3f4eb0f88f69	Poignées de sacrifice tachées de sang	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
@@ -44640,7 +44640,7 @@ objet	3022864		name	Blood Guard's Leather Grips	d835c7ae2c98	Poignes de garde de
 objet	3022864		description	@Prestigious@	ae876b23b669	@Prestigieux@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	3022865		name	Blood Guard's Dreadweave Handwraps	27871d3f5040	Protège-mains de garde de sang en tisse-effroi	officiel	blizzard_frFR	niveau=meme_champ
 objet	3022865		description	@Prestigious@	ae876b23b669	@Prestigieux@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
-objet	3022867		name	Blood Guard's Linked Vices	fcd8b567d041		a_traduire		archive_refusee=majoritairement_anglais
+objet	3022867		name	Blood Guard's Linked Vices	fcd8b567d041	Cestes rivetés de garde de sang	machine	claude	archive_refusee=majoritairement_anglais | traduction de Claude (traductions/objets/objets_002.tsv) | lot objets_002
 objet	3022867		description	@Prestigious@	ae876b23b669	@Prestigieux@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	3022868		name	Blood Guard's Plate Gauntlets	dcf6f2a7d85b	Gantelets de garde de sang en plaques	officiel	blizzard_frFR	niveau=meme_champ
 objet	3022868		description	@Prestigious@	ae876b23b669	@Prestigieux@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
@@ -61820,7 +61820,7 @@ objet	5570157		name	Lightforged Elementium Hammer (Backsheath)	b41c78f4c0bf		a_r
 objet	5670050		name	Expert Throwing Axe	dd4f400a73ed	Hache de lancer experte	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	5671121		name	Cache of the Flamekeeper	3cb448376adf	Cache du Gardien des Flammes	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	5671230		name	Cache of the Frostwalker	e204141b80ff	Cache du marche-givre	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	5671230		description	A Cosmetic set meant to be used with Transmogrification. You can see what Cosmetic Sets look like in the Vanity Collection. These can be obtained from other players, the auctionhouse, or the lost shop.	e2d00566ce76		a_traduire		
+objet	5671230		description	A Cosmetic set meant to be used with Transmogrification. You can see what Cosmetic Sets look like in the Vanity Collection. These can be obtained from other players, the auctionhouse, or the lost shop.	e2d00566ce76	Un ensemble cosmétique destiné à la transmogrification. Vous pouvez voir l'apparence des ensembles cosmétiques dans la collection Vanity. Ils s'obtiennent auprès d'autres joueurs, à l'hôtel des ventes ou à la boutique.	machine	claude	traduction de Claude (traductions/objets/objets_002.tsv) | lot objets_002 ; « Vanity » (collection CoA) gardé en anglais, sans décision ; « lost shop » rendu par « la boutique »
 objet	5744001		name	Pawned Darkshire Monocle	db9acbf32f63	Monocle de Darkshire mis en gage	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Darkshire→Sombre-comté
 objet	5744001		description	Once owned by the Mayor of Darkshire.	b409677b61d0	Autrefois propriété du maire de Darkshire.	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Darkshire→Sombre-comté
 objet	5777139		name	Devastated Worldshard (Backsheath)	5bb541b859c9		a_revoir		D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « Éclat du monde dévasté (Gaine arrière) »
@@ -76422,7 +76422,7 @@ objet	6033640		name	Bloodforged Fury	05f1ac2bc3f6	Fureur forgée par le sang	mac
 objet	6033640		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_traduire		archive_refusee=reste_en_anglais
 objet	6033641		name	Bloodforged Onslaught Plate Gloves	10cabb41d7f5	Assaut forgé par le sang plaques Gants	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6033641		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_revoir		archive_refusee=reste_en_anglais;D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « @|cFFCC0000Bloodforged|r@ »
-objet	6033642		name	Bloodforged Onslaught Plate Helmet	3d5c973fb5b7		a_revoir		archive_refusee=majoritairement_anglais;D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « Casque Bloodforged Onslaught plaques »
+objet	6033642		name	Bloodforged Onslaught Plate Helmet	3d5c973fb5b7	Casque d'assaut en plaques forgé par le sang	machine	claude	archive_refusee=majoritairement_anglais;D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « Casque Bloodforged Onslaught plaques » | traduction de Claude (traductions/objets/objets_013.tsv) | lot objets_013
 objet	6033642		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_revoir		archive_refusee=reste_en_anglais;D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « @|cFFCC0000Bloodforged|r@ »
 objet	6033643		name	Bloodforged Onslaught Plate Hauberk	2013af47e0b0	Assaut forgé par le sang plaques Haubert	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6033643		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_revoir		archive_refusee=reste_en_anglais;D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « @|cFFCC0000Bloodforged|r@ »
@@ -78200,7 +78200,7 @@ objet	6035581		name	Bloodforged Rocket Boots Xtreme Lite	f1fbb8936add	Bottes de 
 objet	6035581		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_traduire		archive_refusee=reste_en_anglais
 objet	6035583		name	Bloodforged Witch Doctor's Wildstaff	2707f0279850	Bâton sauvage de Bloodforged Féticheur	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : glossaire:Bloodforged→forgé par le sang
 objet	6035583		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_traduire		archive_refusee=reste_en_anglais
-objet	6035584		name	Bloodforged Embroidered Gown of Zul'Drak	b6df4f46f82e	Robe brodée forgée par le sang de Zul'Drak	a_revoir	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Zul'Drak→Zul’Drak
+objet	6035584		name	Bloodforged Embroidered Gown of Zul'Drak	b6df4f46f82e	Robe brodée forgée par le sang de Zul'Drak	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6035584		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_traduire		archive_refusee=reste_en_anglais
 objet	6035585		name	Bloodforged Cannibal's Legguards	a24cd3e472ab	Garde-jambes du cannibale forgé par le sang	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6035585		description	@|cFFCC0000Bloodforged|r@	c68b9dd4f773		a_traduire		archive_refusee=reste_en_anglais
@@ -124289,7 +124289,7 @@ objet	6333640		name	Bloodforged Fury	05f1ac2bc3f6	Fureur forgée par le sang	mac
 objet	6333640		description	@|cFFCC0000Heroic Bloodforged|r@	f46e8818e599	@|cFFCC0000Héroïque Bloodforged|r@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	6333641		name	Bloodforged Onslaught Plate Gloves	10cabb41d7f5	Assaut forgé par le sang plaques Gants	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6333641		description	@|cFFCC0000Heroic Bloodforged|r@	f46e8818e599	@|cFFCC0000Héroïque Bloodforged|r@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
-objet	6333642		name	Bloodforged Onslaught Plate Helmet	3d5c973fb5b7		a_traduire	modele	archive_refusee=majoritairement_anglais;modele=Bloodforged X;base_en=Onslaught Plate Helmet;base_fr=Assaut plaques Casque;base_source=archive_texte
+objet	6333642		name	Bloodforged Onslaught Plate Helmet	3d5c973fb5b7	Casque d'assaut en plaques forgé par le sang	machine	claude	archive_refusee=majoritairement_anglais;modele=Bloodforged X;base_en=Onslaught Plate Helmet;base_fr=Assaut plaques Casque;base_source=archive_texte | traduction de Claude (traductions/objets/objets_013.tsv) | lot objets_013
 objet	6333642		description	@|cFFCC0000Heroic Bloodforged|r@	f46e8818e599	@|cFFCC0000Héroïque Bloodforged|r@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	6333643		name	Bloodforged Onslaught Plate Hauberk	2013af47e0b0	Assaut forgé par le sang plaques Haubert	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6333643		description	@|cFFCC0000Heroic Bloodforged|r@	f46e8818e599	@|cFFCC0000Héroïque Bloodforged|r@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
@@ -126003,7 +126003,7 @@ objet	6498631		description	@|cFFCC0000Heroic Bloodforged|r@	f46e8818e599	@|cFFCC
 objet	6498855		name	Bloodforged Deathbone Helm	a9dffe652215	Heaume d'os de mort forgé par le sang	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6498855		description	@|cFFCC0000Heroic Bloodforged|r@	f46e8818e599	@|cFFCC0000Héroïque Bloodforged|r@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	6499549		name	Battleplate of the Highlord	996383fe335d	Plaque de bataille du généralissime	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	6499549		description	A Cosmetic set meant to be used with Transmogrification. You can see what Cosmetic Sets look like in the Vanity Collection. These can be obtained from other players, the auctionhouse, or the lost shop.	e2d00566ce76		a_traduire		
+objet	6499549		description	A Cosmetic set meant to be used with Transmogrification. You can see what Cosmetic Sets look like in the Vanity Collection. These can be obtained from other players, the auctionhouse, or the lost shop.	e2d00566ce76	Un ensemble cosmétique destiné à la transmogrification. Vous pouvez voir l'apparence des ensembles cosmétiques dans la collection Vanity. Ils s'obtiennent auprès d'autres joueurs, à l'hôtel des ventes ou à la boutique.	machine	claude	traduction de Claude (traductions/objets/objets_002.tsv) | lot objets_002 ; « Vanity » (collection CoA) gardé en anglais, sans décision ; « lost shop » rendu par « la boutique »
 objet	6500000		name	Bloodforged Sanctified Ymirjar Lord's Handguards	eb4444d1ef4f	Garde-mains du seigneur Ymirjar sanctifiés forgés par le sang	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	6500000		description	@Ascended Raid@	51a86fd44945	@Raid Ascended@	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet | correction mécanique du glossaire : Ascended : Ascensionné
 objet	6500001		name	Bloodforged Belt of Broken Bones	12c00689eccf	Ceinture des os brisés forgée par le sang	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
@@ -136925,7 +136925,7 @@ objet	8210181		name	Sinful Gladiator's Plate Vestments (Golden)	69b44f1d23bb	Vê
 objet	8210182		name	Sinful Gladiator's Plate Vestments (Steely)	47022e10ea2e	Vêtements plaques du gladiateur pécheur (Acier)	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	8210183		name	Sinful Gladiator's Plate Vestments (Sturdy)	f4b0c7fabf1c	Vêtements plaques du gladiateur pécheur (robustes)	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	8210184		name	Steelguard Plate	1d427c6e4abc	Garde d'acier plaques	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	8210184		description	A Cosmetic set meant to be used with Transmogrification. You can see what Cosmetic Sets look like in the Vanity Collection. These can be obtained from other players, the auctionhouse, or the lost shop.	e2d00566ce76		a_revoir		D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « Un ensemble cosmétique destiné à être utilisé avec la transmogrification. Vous pouvez voir à quoi ressemblent les coffrets cosmétiques dans la collection Vanity. Ceux-ci peuvent être obtenus auprès d'autres joueurs, de la maison de vente aux enchères ou de la boutique Ascension. »
+objet	8210184		description	A Cosmetic set meant to be used with Transmogrification. You can see what Cosmetic Sets look like in the Vanity Collection. These can be obtained from other players, the auctionhouse, or the lost shop.	e2d00566ce76	Un ensemble cosmétique destiné à la transmogrification. Vous pouvez voir l'apparence des ensembles cosmétiques dans la collection Vanity. Ils s'obtiennent auprès d'autres joueurs, à l'hôtel des ventes ou à la boutique.	machine	claude	D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « Un ensemble cosmétique destiné à être utilisé avec la transmogrification. Vous pouvez voir à quoi ressemblent les coffrets cosmétiques dans la collection Vanity. Ceux-ci peuvent être obtenus auprès d'autres joueurs, de la maison de vente aux enchères ou de la boutique Ascension. » | traduction de Claude (traductions/objets/objets_002.tsv) | lot objets_002 ; « Vanity » (collection CoA) gardé en anglais, sans décision ; « lost shop » rendu par « la boutique »
 objet	8210185		name	Sinful Gladiator's Bastard Blade	ca81a5ecd3a6	Lame bâtarde du gladiateur pécheur	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	8210190		name	Sinful Gladiator's Plate Shoulderpad (Left) 	91c7f45c9dfb	Épaulière plaques du gladiateur pécheur (gauche)	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	8210191		name	Challenger's Greatsword	52eaed6d4e96	Espadon de challenger	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
@@ -137184,7 +137184,7 @@ objet	9200601		name	Blood Scroll	962f59c85c6c	Parchemin de sang	machine	archive_
 objet	9200601		description	A dark scroll stained with ancient blood, radiating malevolent power and crimson magic.	b2b9a4bc39fd	Un parchemin sombre taché de sang ancien, irradiant un pouvoir malveillant et une magie cramoisie.	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	9200602		name	Void Manuscript	6d6b764e85c8	Manuscrit vide	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	9200602		description	A tattered manuscript covered in symbols that seem to writhe and shift when observed.	240846a530ab	Un manuscrit en lambeaux couvert de symboles qui semblent se tordre et bouger lorsqu'on les observe.	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
-objet	9200603		name	Fel Contract	e5496a91a9ca		a_traduire		archive_refusee=mot_a_mot
+objet	9200603		name	Fel Contract	e5496a91a9ca	Contrat gangrené	machine	claude	archive_refusee=mot_a_mot | traduction de Claude (traductions/objets/objets_004.tsv) | lot objets_004
 objet	9200603		description	A demonic contract wreathed in green flames, its infernal script burning with unholy purpose.	481796520c91	Un contrat démoniaque enveloppé de flammes vertes, son écriture infernale brûlant dans un but impie.	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
 objet	9200604		name	Ward Tablet	66e81ab80840	Tablette de service	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	9200604		description	A steel tablet inscribed with protective wards, radiating defensive magic that persists beyond death.	a972d6ab9f71	Une tablette d'acier portant des protections, irradiant une magie défensive qui persiste au-delà de la mort.	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
