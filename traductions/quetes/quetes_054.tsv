@@ -96,6 +96,8 @@ quete	12652		ObjectiveText1	6e7e30a1d29d	Goules putréfiées nourries	lot quetes
 quete	12659		ObjectiveText1	3a47692318b2	Trolls de Heb'Drakkar scalpés	lot quetes_054
 quete	12660		ObjectiveText1	099da9353795	Explosifs instables détruits	lot quetes_054
 quete	12661		ObjectiveText1	43f9439d6355	Tâche du Suzerain Drakuru accomplie	lot quetes_054
+quete	12663		ObjectiveText1	4771907e2351	Visite de Zul'Drak terminée	lot quetes_054
+quete	12664		ObjectiveText1	4771907e2351	Visite de Zul'Drak terminée	lot quetes_054
 quete	12668		ObjectiveText1	f162f187e5bd	Trolls tués près d'une Fontaine d'âmes	lot quetes_054
 quete	12669		ObjectiveText1	4cee8b92fd5e	Tâche de Drakuru accomplie	lot quetes_054
 quete	12669		ObjectiveText2	27240dfe3566	Chaudrons de chancre dilués	lot quetes_054
@@ -198,6 +200,7 @@ quete_demande	12561		CompletionText	35294f0f3c78	Ne me faites pas perdre mon tem
 quete_demande	12562		CompletionText	1592203b273f	Si je puis me permettre, vous devriez peut-être vous occuper de quelques autres lieurs d'eau drakkari.	lot quetes_054
 quete_demande	12563		CompletionText	942aa0e93261	Quelles nouvelles de nos postes, $r ?	lot quetes_054
 quete_demande	12564		CompletionText	21a685d76b32	Avez-vous récolté les pavots aquatiques, $n ?	lot quetes_054
+quete_demande	12567		CompletionText	7ed08c4deed6	<Le visage de pierre de Zim'Abwa vous transperce l'âme.$B$BZim'Abwa est satisfait, mais il veut que vous lui témoigniez davantage de reconnaissance et de respect en lui apportant d'autres offrandes drakkari.$B$BIl vous récompensera en retour.>	lot quetes_054
 quete_demande	12570		CompletionText	0257c441fb25	Qui vous ? Vous pue les hommes-chiots.	lot quetes_054
 quete_demande	12571		CompletionText	4ac83925505e	<Le Haut-oracle Soo-pape semble regarder à travers vous.>	lot quetes_054
 quete_demande	12573		CompletionText	74c5127f4800	Hommes-chiots gentils maintenant ?	lot quetes_054
@@ -216,6 +219,7 @@ quete_demande	12606		CompletionText	524065e0de25	Avez-vous libéré nos soldats 
 quete_demande	12607		CompletionText	c27db4a3be11	Tout est réglé ?	lot quetes_054
 quete_demande	12609		CompletionText	02cbd615564b	Avez-vous récupéré les composants dont j'ai besoin, $c ?	lot quetes_054
 quete_demande	12614		CompletionText	61f8545a51df	Eh bien, vous êtes en vie. Comment ça s'est passé ?	lot quetes_054
+quete_demande	12618		CompletionText	0397c83574cd	<Zim'Torga vous observe, impassible. Elle se demande si vous cherchez à conserver ses bénédictions en lui présentant d'autres offrandes drakkari en son honneur.>	lot quetes_054
 quete_demande	12620		CompletionText	ef264cbc40eb	Avez-vous réglé le problème des sectateurs, $N ?	lot quetes_054
 quete_demande	12621		CompletionText	be9261835dff	Nous avons peu de temps. Le Fléau se prépare pour un ultime assaut.	lot quetes_054
 quete_demande	12627		CompletionText	5436b8c09f2c	Je n'arrive toujours pas à établir le contact. Le rituel des hommes-médecine est toujours intact.$B$BRetournez là-bas, je vous prie, et perturbez chacun de leurs chaudrons.	lot quetes_054
@@ -227,6 +231,7 @@ quete_demande	12643		CompletionText	bb323d658ded	Avez-vous apporté les composan
 quete_demande	12645		CompletionText	71e7bc2b9e45	Ne me faites pas attendre, $N. Quels sont les résultats ?	lot quetes_054
 quete_demande	12647		CompletionText	048b1acf55cf	Si vous ne mettez pas bientôt fin à mes souffrances, $N, tout pourrait être perdu.	lot quetes_054
 quete_demande	12652		CompletionText	4317b0b5c32f	Z'avez nourri les goules ?	lot quetes_054
+quete_demande	12656		CompletionText	eac12000bb3f	<Zim'Rhuk est à la fois impressionné et frustré que vous ayez une fois de plus réussi à échapper à ses gardiens. Du moins pour l'instant.>$B$B<Déposez les offrandes devant lui, et il vous accordera de nouveau sa bénédiction.>	lot quetes_054
 quete_demande	12659		CompletionText	0c3b85ecf5e4	Ahunae, il sait que $N, $gil:elle; a pas pu scalper autant d'Heb'Drakkar si vite.	lot quetes_054
 quete_demande	12661		CompletionText	b100b0962a57	Avez-vous gagné la confiance de leur commandant, $N ?	lot quetes_054
 quete_demande	12662		CompletionText	106d83dd0b61	Il n'est pas mort. Je l'entends encore hurler d'ici !	lot quetes_054
@@ -265,9 +270,12 @@ quete_recompense	12491		RewardText	d3bbaccddb16	C'est la boisson de Coren Navreb
 quete_recompense	12492		RewardText	3910a958dd23	Ah, alors Navrebière a fini par présenter sa bière. Quel dommage qu'il ait dû mourir pour ça...$B$BBah. Cul sec, hein ?	lot quetes_054
 quete_recompense	12507		RewardText	1d3028c22b98	C'est le mojo des dieux sauvages, $c !$B$BCe n'est pas bon du tout !	lot quetes_054
 quete_recompense	12555		RewardText	93fe3cef24a7	Youpi ! Vous êtes $gle meilleur:la meilleure;, $N !$B$BJe n'avais vraiment pas envie de me faire asperger de trucs du Fléau, ça, c'est sûr ! J'imagine que ces stupides nérubiens vont avoir du mal à répandre leur mal, maintenant !$B$BEt si je vous donnais un petit quelque chose pour m'avoir sauvé la peau ?	lot quetes_054
+quete_recompense	12567		RewardText	2833324de251	<Vous sentez l'approbation de Zim'Abwa. D'une manière ou d'une autre, vous savez que Zim'Abwa veut davantage de tributs !>	lot quetes_054
 quete_recompense	12582		RewardText	e0e33f7130ef	Moi sait vous pas traître comme autres dit. Nous chasse ensemble... Moi connaît vous mieux que eux tous. Merci de sauver moi.$b$bPeut-être drôle... Moi pas grand ami des grosses-langues... mais même moi un peu triste pour grosse-langue mourir comme ça... Combat loyal beaucoup mieux... Eux combat assez bien, eux mérite combat loyal.$b$bVous veut être $gami:amie; avec Frénécœur encore ? Moi pense pouvoir convaincre eux que vous sauve moi et bien eu les grosses-langues. Mais moi veut pas vous fait moi passer pour idiot, alors vous sûr ?	lot quetes_054
 quete_recompense	12604		RewardText	1c986d43705c	Vous avez bouclé cette patrouille en un temps excellent. Il semblerait que vous puissiez nous être utile, après tout.$b$bComme promis, voici un petit supplément pour vos efforts.$b$bContinuez comme ça, $N.$b$bRompez. 	lot quetes_054
 quete_recompense	12618		RewardText	c9b888fbd483	<La Mère de la prospérité rayonne d'approbation à votre égard.>	lot quetes_054
 quete_recompense	12643		RewardText	7d1758edd443	<Stefan passe en revue les infâmes composants.>$b$bEh bien, c'est loin d'être parfait, mais il faudra faire avec.$b$bMaintenant, accrochez-vous, $c. C'est là que ça devient intéressant...	lot quetes_054
+quete_recompense	12656		RewardText	3306981247cd	<Zim'Rhuk impose à votre esprit l'image de l'un de ses gardiens qui vous écrase sous son pied. Peut-être devriez-vous tenter d'apaiser Zim'Rhuk avec d'autres offrandes.>	lot quetes_054
+quete_recompense	12669		RewardText	cef4287f832f	Beau travail, $N !$b$bEn diluant ces chaudrons, vous sauvez des vies, mais vous ralentissez aussi la progression du Fléau dans la région.$b$bMaintenant, venez me raconter ce que vous avez appris de la stratégie de Drakuru à Zul'Drak.	lot quetes_054
 quete_recompense	12689		RewardText	8d445bb14dad	Salut ! Vraiment content revoir vous !$b$bMoi savait nous amis. Moi savait ! Vous bon ami. Pas juste pour nous, mais pour tous les Oracles.$b$bMoi a vu vous bien taper l'homme-chiot ! Chose morte-vivante a dit lui votre ami avant ? Moi savait pas ça. Mais vous fini avec hommes-chiots, hein ? Juste ami des Oracles maintenant ?$b$bMoi sait vous choisit bien ! Merci de sauver nous ! Merci, merci !	lot quetes_054
 quete_recompense	12711		RewardText	f2fb676cd1b8	Sur la boîte aux lettres se trouvent plusieurs lettres et parchemins illisibles. Inutiles...$B$BPeut-être devriez-vous regarder à l'intérieur ?	lot quetes_054
