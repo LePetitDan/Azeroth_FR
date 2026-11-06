@@ -79,6 +79,8 @@ def extraire(nom):
     if r.returncode != 0:
         raise SystemExit('extraction de %s : %s' % (nom, r.stderr[-500:]))
     p = os.path.join(RACINE, 'work', 'lots', famille_du_lot(nom), nom + '.jsonl')
+    if not os.path.exists(p):          # rien à extraire (lot déjà traité : tout gardé ou en doute)
+        return p, [], 0
     with open(p, encoding='utf-8') as f:
         lignes = [l for l in f.read().split('\n') if l.strip()]
     textes = [l for l in lignes[1:] if l.startswith('{"n"')]
