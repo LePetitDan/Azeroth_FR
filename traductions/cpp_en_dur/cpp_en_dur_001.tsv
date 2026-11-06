@@ -1,0 +1,298 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+cpp_en_dur	modules/mod-cfbg/src/CFBG.cpp	1202	PSendSysMessage	065234d22d1c	CFBG {} (niveaux : {} - {}). Inscrits : {}/{}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/CFBG_SC.cpp	213	PSendSysMessage	1acd291e8183	Les groupes de champ de bataille sont limités à {} joueurs.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	45	SendSysMessage	868b1c828d66	La sélection de race est actuellement désactivée.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	60	SendSysMessage	2adcd75551e9	Race indisponible pour votre faction.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	67	SendSysMessage	3e7240420033	Race indisponible pour votre classe.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	74	SendSysMessage	bceda98185ed	Les modèles d'elfe de la nuit sont indisponibles : le modèle féminin manque et le modèle masculin fait planter le client.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	81	SendSysMessage	39bece70a800	Les modèles féminins sont indisponibles pour les races suivantes : troll, nain.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	92	SendSysMessage	21fd95658b5b	Race indisponible. La race choisie pour le CFBG est désormais aléatoire. Vous prendrez l'apparence d'une race au hasard en entrant dans un champ de bataille dans l'équipe adverse.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	96	PSendSysMessage	1c6bd476304b	Race choisie pour le CFBG : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	137	PSendSysMessage	00a8d5de7d52	=== Débogage CFBG : {} ===	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	138	PSendSysMessage	a372b344f8ce	  GUID : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	145	PSendSysMessage	8c58ad136e76	    D'origine  {:<8}  (race {})	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	147	PSendSysMessage	09acfeeebaab	    Actuelle   {:<8}  (race {})	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	149	PSendSysMessage	7c8b8b4f3bbb	    Équipe en CB  {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	150	PSendSysMessage	40a7ffa318fc	    Apparence  {} (actuelle) / {} (d'origine)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	155	SendSysMessage	018ad5cffd75	  État	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	156	PSendSysMessage	1471707da111	    Simulé             {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	157	PSendSysMessage	57dd1b744dc6	    Faction d'origine  {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	158	PSendSysMessage	655f9352e07f	    En champ de bataille {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	159	PSendSysMessage	09115af262f9	    Classe / Sexe      {} / {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	161	PSendSysMessage	b3e94d0263f1	    Race préférée      {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	162	PSendSysMessage	f437d20eb43c	    Oubli joueurs CB   {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	168	SendSysMessage	bb1f5ee8447e	  Enregistrement simulé	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	190	SendSysMessage	80e46127401e	  Joug-d'hiver	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	191	PSendSysMessage	bbd97f1445a3	    Zone de Joug-d'hiver {} (zone {})	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	195	SendSysMessage	351c3e0cd2a3	    Temps de guerre  s.o. (aucun champ de bataille de Joug-d'hiver)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	199	PSendSysMessage	4ca925b96716	    Temps de guerre  {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	208	SendSysMessage	2cbde8a658e7	    Présence du joueur dans les listes :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	210	PSendSysMessage	ff3882517f86	      File d'attente  {}        {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	211	PSendSysMessage	b3956ee4046f	      Invités         {}        {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	212	PSendSysMessage	60f29f119805	      En guerre       {}        {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	265	SendSysMessage	51a0155b7bdb	  Anomalies : aucune	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	269	PSendSysMessage	28fdb3208574	  Anomalies ({}) :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	340	SendSysMessage	2d20a0386334	  Alliance : {} dans la zone, {} en guerre / {} max.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	342	SendSysMessage	e353f2350f16	  Horde :    {} dans la zone, {} en guerre / {} max.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	403	SendSysMessage	32bd0d5c2624	Le mode Aventure ne peut pas changer pendant un combat, une rencontre, la mort, un vol, un effet de contrôle ou une téléportation. Votre groupe et vos familiers doivent aussi être hors combat.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	421	PSendSysMessage	348c914bb28d	Défi {} introuvable.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	427	PSendSysMessage	585327e1099c	{} n'a aucune récompense.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	436	PSendSysMessage	8a1f155dfeb1	{} est déjà actif.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	444	PSendSysMessage	e07e672c082a	Vous avez déjà un défi actif incompatible ({}).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	453	PSendSysMessage	b6820332b1f3	{} nécessite un évènement du jeu qui n'est pas actif.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	460	PSendSysMessage	926707785267	Impossible de commencer {} : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	470	PSendSysMessage	a6220d078ffd	Vous devez quitter votre groupe avant de commencer {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	480	PSendSysMessage	25f878cea5a4	{} nécessite d'être en Haut risque.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	490	PSendSysMessage	f82f6fd8df8c	{} nécessite d'avoir obtenu un prestige.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	498	PSendSysMessage	fa93faa358db	Vous avez déjà échoué à un défi et ne pouvez pas en commencer un autre.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	505	PSendSysMessage	0c2f037816cf	Vous avez déjà échoué à {} et ne pouvez pas le retenter.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	517	PSendSysMessage	7fc21a7b5452	Vous avez déjà terminé cette épreuve ({}).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	554	PSendSysMessage	dafecf37731c	Vous avez été retiré du groupe : il exige désormais le même ensemble de défis.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	610	SendSysMessage	722bee398488	Choisissez un niveau de mode Aventure inférieur, au moins 1.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	617	SendSysMessage	2db38038e68f	Impossible d'abaisser une épreuve personnalisée ou de choisir un niveau de mode Aventure déjà terminé.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	635	PSendSysMessage	3a0ffd712c5a	Mode Aventure abaissé au niveau {}. La difficulté et les récompenses utilisent désormais ce niveau.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Lifecycle.cpp	2076	PSendSysMessage	7946021a474d	Votre défi {} a échoué.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	2983	PSendSysMessage	0987b42a3830	{} débloqué grâce au défi {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3004	PSendSysMessage	70ed31178214	Conditions du défi {} ({}) :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3008	PSendSysMessage	712b8756c879	  (aucune)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3019	PSendSysMessage	fbf4e8d756d2	  => OK (activable)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3049	PSendSysMessage	e5cf1b790104	CHALLENGES_SYNC (0x59B) envoyé pour le défi {} niveau {} au groupe de {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3061	PSendSysMessage	eee1bea992c1	{} définition(s) de défi rechargée(s) depuis la base de données.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3090	PSendSysMessage	424fe2d98ee1	Mode de jeu {} {} pour {}.activédésactivé	lot cpp_en_dur_001 ; chaîne recollée par l'extraction : format « Mode de jeu {} {} pour {}. » + arguments « activé » / « désactivé »
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3150	PSendSysMessage	e0807b50f5ed	Récompenses du défi {} niveau {} ({} entrées) :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3164	PSendSysMessage	ac9365c54bf3	Liste seulement (aucun joueur en ligne ; usage : .coa reward <id> [niveau] [joueur]).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3168	PSendSysMessage	e5787fd0fa9e	Remis à {} (vérifiez la boîte aux lettres / les hauts faits).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3189	PSendSysMessage	01e380f9f802	E2E : réinitialisez '{}' avant de lancer l'épreuve {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3195	PSendSysMessage	8ac377b78717	Épreuve E2E {} ({}) : planifiée, intervalle {} ms. Surveillez le client.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3218	PSendSysMessage	bab1b812d74b	E2E verrou de niveau {} ({}) : planifié, intervalle {} ms. Surveillez le client.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3226	PSendSysMessage	db0a24263710	E2E fatigue {} ({}) : planifié, intervalle {} ms. Surveillez le client.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3254	PSendSysMessage	9f34aaed1f54	E2E(miss) : réinitialisez '{}' avant de lancer l'épreuve {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3258	PSendSysMessage	151483f49c08	E2E miss {} ({}) : planifié, intervalle {} ms. Surveillez le client.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3338	PSendSysMessage	7e3d440948ff	Indicateur de condition '{}' défini pour {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3343	PSendSysMessage	fa12c8139337	Indicateur de condition '{}' effacé pour {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3379	PSendSysMessage	f2b7b0f3717c	Audit des règles terminé pour {} (vérifiez la discussion ou le journal pour les divergences).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3395	PSendSysMessage	83392d1ca12e	Audit des définitions terminé pour {} (vérifiez la discussion ou le journal pour les divergences).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3463	PSendSysMessage	6fa0e3d6b789	Réinitialisation complète (ALL) pour {} : niveau 1, 0 argent, aucun état CoA, réparations, sorts/talents/compétences désappris, journal de quêtes vidé.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3470	PSendSysMessage	de8e8e21aae3	État des défis réinitialisé pour {} (niveau/argent/objets conservés).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3501	PSendSysMessage	a113a2ff20b5	{} a désormais le PRESTIGE (aura {}).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3506	PSendSysMessage	2be016598b75	{} n'a plus de prestige.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Scripts.cpp	3533	PSendSysMessage	051958147f14	Type environnemental {} ({} brut) appliqué à {} : {} appliqué(s).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Trials.cpp	571	PSendSysMessage	b3a612d962d3	Une épreuve ne peut pas combiner deux défis mutuellement exclusifs ({} et {}).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-challenges/src/CoA.Challenges.Trials.cpp	722	PSendSysMessage	5832ec4479d8	Cette épreuve combine deux défis mutuellement exclusifs ({} et {}).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	809	AddGossipItemFor	939910832013	Quelles sont les règles ?	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	810	AddGossipItemFor	7c0d598beb71	Qui a gagné récemment ?	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	984	PSendSysMessage	e09b51c68b9d	{}po{}pa{}pc remboursés par courrier à {} personnage(s) ; {} destinataire(s) supprimé(s) ignoré(s).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1044	SendSysMessage	a0aed31f4230	.lottery advertise : fait crier immédiatement à Gallywix une annonce aléatoire de la loterie, même si les annonces automatiques sont désactivées. La session doit être en cours.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1046	SendSysMessage	457daf2a6ee8	.lottery refund *|<nom> : rembourse par courrier les tickets payés de la session en cours et les retire ; les tickets de la maison restent et la session continue.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1048	SendSysMessage	e17f8980641e	.lottery info [nom] : durée actuelle/temps restant, tickets de la maison, cagnotte et les 10 plus gros détenteurs de tickets ; avec un nom, affiche les tickets de ce personnage.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1050	SendSysMessage	a53ebe74495a	.lottery enable : reprend une session en pause ou lance une session configurée. .lottery disable : met le compte à rebours en pause et cache les PNJ de la loterie.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1052	SendSysMessage	4c0fc78232d8	.lottery start [durée] [fakeTickets] [bonusItemId] : ne démarre que si aucune session n'existe. La durée s'exprime en secondes ou en Ns/Nm/Nh/Nd/Nw (de 60 secondes à 365 jours) ; les valeurs omises suivent la configuration ; objet 0 = aucun.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1056	SendSysMessage	a9e0f439f619	.lottery stop : rembourse tous les tickets payés de la session en cours, annule la session et désactive la loterie. .lottery restart : rembourse et annule, puis lance une nouvelle session activée aux conditions configurées.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1058	SendSysMessage	0f585253705e	.lottery draw [nom] : effectue le tirage immédiatement, en choisissant éventuellement le gagnant. Un non-participant désigné reçoit un ticket offert qui ajoute 10po à la cagnotte ; une nouvelle session configurée commence.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1095	PSendSysMessage	962b8d316cf6	{} a 0 ticket ; il n'y a aucune session en cours.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1097	SendSysMessage	f6a53f2ce714	Loterie arrêtée ; aucune session en cours.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1107	PSendSysMessage	7532b9bc5482	{} a {} tickets dans la session {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1112	PSendSysMessage	08f3813667d8	Session de loterie {} : {}. Durée {}s ({}j {}h {}m) ; restant {}s ({}j {}h {}m {}s).en pauseen cours	lot cpp_en_dur_001 ; chaîne recollée par l'extraction : format + arguments « en pause » / « en cours »
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1117	PSendSysMessage	87f94cd675d5	Tickets de la maison : {}. Cagnotte : {}po{}pa{}pc. Objet bonus : {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1122	PSendSysMessage	0599d3b58bf2	{}. {} : {} tickets, {}po{}pa{}pc payés.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1125	SendSysMessage	168c2024ad48	Aucun ticket acheté par des personnages.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1154	SendSysMessage	c9b33df5d1a9	Loterie activée ; compte à rebours repris.Loterie désactivée ; compte à rebours en pause.	lot cpp_en_dur_001 ; deux messages recollés par l'extraction
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1201	PSendSysMessage	49166b2e09b5	Session de loterie {} lancée : {}s, {} tickets de la maison, objet bonus {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1249	SendSysMessage	6fcd4efd5df1	Loterie relancée aux conditions configurées.Loterie arrêtée et désactivée.	lot cpp_en_dur_001 ; deux messages recollés par l'extraction
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1274	SendSysMessage	cad17f0e1d59	Gallywix a fait la promotion de la loterie dans toute la zone.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1292	PSendSysMessage	d617cff6db33	Tirage effectué ; la session configurée {} est en cours.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1312	SendSysMessage	49232a60d71c	La loterie est actuellement indisponible.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1339	SendSysMessage	5c23dc7ca314	La session a changé. Veuillez choisir à nouveau vos tickets.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1351	SendSysMessage	b43a14ccb3bd	Il vous faut plus d'or, ou cet achat dépasse le plafond de la loterie.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-lottery/src/CoALottery.cpp	1376	SendSysMessage	35d43cf739d1	L'achat a échoué. Votre or vous a été rendu.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	340	PSendSysMessage	f5d0ad0f4b0b	Mythique+ : vos sacs sont pleins, {} x l'objet {} a été perdu.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	798	PSendSysMessage	be29f57d56c3	Vous avez reçu {} pièces mythiques bonus pour une première réussite, car le porteur de la Clé a débloqué pour la première fois un nouveau niveau mythique maximal.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	806	PSendSysMessage	3c21ec0aa4ce	Vous avez obtenu {} pièces mythiques sur {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1018	PSendSysMessage	0dec53711f0f	Mythique+ : clé améliorée de +{}, désormais au niveau {}.Mythique+ : temps écoulé, la clé reste au niveau {}.	lot cpp_en_dur_001 ; deux messages recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1157	PSendSysMessage	9de546d4849c	Mythique+ {} +{} : affixes {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1175	PSendSysMessage	b440cbeaca62	Mythique+ : {}{}{} 	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1607	SendSysMessage	e3d44c8a52b5	Mythique+ : vous avez reçu une Clé mythique.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1700	PSendSysMessage	b440cbeaca62	Mythique+ : {}{}{} 	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1755	PSendSysMessage	c47fc7493190	Vous avez ouvert {} caches mythiques sur {} cette semaine.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1765	SendSysMessage	109fd1dff5a8	La cache est vide.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1785	PSendSysMessage	6e7c7dde3b4e	Caches mythiques ouvertes cette semaine : {} / {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1981	PSendSysMessage	c1e72baeaea0	Il vous faut {} pièces mythiques.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	1997	SendSysMessage	814d286b4927	Seuls les objets Mythique 1 et supérieurs peuvent être recyclés.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2004	PSendSysMessage	720f965de9a0	Vous avez atteint le plafond hebdomadaire de {} pièces mythiques.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2091	AddGossipItemFor	e4f3df1da3de	inv_legion_chest_legionfallCaches mythiques ouvertes : {} / {}	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2093	AddGossipItemFor	ec8c4975e324	timelesscoinPièces mythiques obtenues : {} / {}	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2095	AddGossipItemFor	4024608b00ea	inv_relics_hourglassNiveau mythique maximal terminé : {}\\n	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2103	AddGossipItemFor	2cf4bfd713ae	inv__faction_championsofazerothAcheter des objets	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2104	AddGossipItemFor	b1f2b5f067ad	garrison_greenarmorupgradeAméliorer des objets	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2109	AddGossipItemFor	104938b996d0	garrison_purplearmorupgradeAméliorer les objets au niveau maximal ({})Améliorer {} objets en Mythique {} pour {} pièces mythiques ?	lot cpp_en_dur_001 ; icône + libellé + texte de confirmation recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2111	AddGossipItemFor	e0b022c7c6ac	INV_Misc_Dice_01Tirer au sort votre Clé mythiqueTirer au sort le donjon de votre Clé mythique ?	lot cpp_en_dur_001 ; icône + libellé + texte de confirmation recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2113	AddGossipItemFor	952f67d67ddc	misc_arrowdownRétrograder la CléBaisser votre Clé mythique d'un niveau ?	lot cpp_en_dur_001 ; icône + libellé + texte de confirmation recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2115	AddGossipItemFor	0e597ccecf2a	inv_enchant_alchemistcauldronRecycler des objets	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2141	AddGossipItemFor	b803464c2926	{} ({})Améliorer {} en {} pour {} pièces mythiques ?	lot cpp_en_dur_001 ; libellé + texte de confirmation recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2157	AddGossipItemFor	5cf7028538ec	INV_Misc_Bag_07Vous pouvez recycler des objets EN MASSE en me les vendant.	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2166	AddGossipItemFor	5baa4cc7049c	{} ({})Voulez-vous vraiment recycler votre {} ({}) ? Cette opération est irréversible, mais elle vous rapportera {} pièce(s) mythique(s).	lot cpp_en_dur_001 ; libellé + texte de confirmation recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2225	SendSysMessage	a0cecb5c2272	Vous n'avez pas de Clé mythique.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2246	SendSysMessage	5a7d9edda91c	Vous n'avez aucune Clé mythique au-dessus du niveau 1.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2263	AddGossipItemFor	2c33d46c0dc3	pvecurrency-valorMarque de triomphe	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2264	AddGossipItemFor	6a381305d4c3	pvecurrency-valorObjets de donjon héroïque	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2380	SendSysMessage	894d435f59d5	Les Aubaines mythiques ne fonctionnent que dans un donjon à Clé mythique.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2776	SendSysMessage	645521d727d0	Utilisez d'abord votre clé.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2790	SendSysMessage	8b065cd93935	Aucun donjon à clé en cours dans cette instance.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2797	PSendSysMessage	c60f3524c4eb	Semaine {}, affixes : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2798	PSendSysMessage	4c3c76b90410	Forces : {} dans cette aile, chaque élimination x{:.2f}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2807	PSendSysMessage	94547d6d3113	Semaine {} +{} : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2817	PSendSysMessage	27d54d529ac4	Semaine d'affixes Mythique+ : {}{} (calendrier) (forcée)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2827	PSendSysMessage	dff7925b6cde	Mythique+ : {} clé(s) détruite(s).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2838	SendSysMessage	13ab1fa9df6a	Aucune clé pour ce donjon et ce niveau.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2842	PSendSysMessage	bda0b57b1690	Clé {} donnée.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2852	SendSysMessage	02f17d118ebe	Sélectionnez une créature.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2857	PSendSysMessage	20e3f8129a0b	{} ({}) : {} forces ennemies ({})coa_mythic_forcespar défaut	lot cpp_en_dur_001 ; arguments « coa_mythic_forces » / « default » recollés par l'extraction
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2899	PSendSysMessage	df12ba72470e	Niveau mythique maximal terminé par {} : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2914	SendSysMessage	a201e373d039	Aucune partie Mythique+ n'est en cours à cet endroit.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2918	PSendSysMessage	8335f3dac94a	Mythique+ : {} s sur {} s écoulées.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2931	SendSysMessage	a0cecb5c2272	Vous n'avez pas de Clé mythique.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2940	SendSysMessage	0663c13b2cd5	Aucun autre donjon n'a de clé à ce niveau.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2945	PSendSysMessage	9f940c6f7cb0	Mythique+ : votre clé est désormais {} +{}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2958	PSendSysMessage	35f34c3147bd	Point A du champion fixé à {:.1f} {:.1f} {:.1f}. Marchez jusqu'au point B et utilisez .mythic setchampionpos 2.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2967	SendSysMessage	6fb88151eea5	Fixez d'abord le point A sur cette carte : .mythic setchampionpos 1	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2983	PSendSysMessage	48a76fef56c9	Chemin de champion {} enregistré ({:.0f} m). La carte {} compte désormais {} chemin(s) de champion.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	2996	SendSysMessage	adec1fbf9b8d	Aucun chemin de champion sur cette carte.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	3009	PSendSysMessage	407d237ae2af	Chemin de champion {} : {:.0f} m de long, à {:.0f} m	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	3023	PSendSysMessage	bd1831494e1d	Mythique+ : {} champion(s) placé(s).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	3031	PSendSysMessage	c6da662db5f9	Chemin de champion {} supprimé.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-mythic-plus/src/MythicPlus.cpp	3040	SendSysMessage	2125f289e0fd	Données Mythique+ rechargées.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-prestige/src/CoAPrestige.cpp	565	SendSysMessage	ec8412a45aab	Chromie ne trouve pas où votre voyage a commencé.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-prestige/src/CoAPrestige.cpp	632	SendSysMessage	5523e704b693	La magie de Chromie a vacillé et votre prestige n'a pas pu être enregistré. Contactez un maître de jeu.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-prestige/src/CoAPrestige.cpp	639	PSendSysMessage	2bf056a0b5d8	Chromie remonte le temps. Prestige {} : atteignez de nouveau le niveau {} pour débloquer votre spécialisation.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-prestige/src/CoAPrestige.cpp	642	SendSysMessage	100a5e1e9c9a	Votre équipement porté et les éventuelles récompenses de Prestige en surplus ont été envoyés dans votre boîte aux lettres.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-prestige/src/CoAPrestige.cpp	705	PSendSysMessage	a343012a151a	Prestige {} terminé : votre spécialisation est débloquée.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-prestige/src/CoAPrestige.cpp	762	AddGossipItemFor	d7fe437fead8	La quête de prestige du jour est 	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-coa-raid-difficulty/src/boss_grilek_coa.cpp	111	TextEmote	efe56978249b	Gri'lek a les yeux rivés sur !	lot cpp_en_dur_001 ; le nom de la cible s'insère avant « ! » (concaténation dans le code)
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	174	PSendSysMessage	fdc8546bd8b1	|cffffd100Codex de l'artisan|r : un nouvel |cff40ff40emplacement de métier principal|r est débloqué.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	180	SendAreaTriggerMessage	12dd3a7ea526	|cffffd100Nouvel emplacement de métier|r |cff40ff40débloqué|r	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	512	SendSysMessage	ebeb7069c8f8	Aucun personnage de ce nom.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	521	SendSysMessage	db88d0d79877	Indiquez un personnage : .codex status <nom>	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	533	PSendSysMessage	f5bbb24037f4	Codex de l'artisan - {} (GUID {}) :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	534	PSendSysMessage	c8119a32bde3	  emplacements de codex débloqués : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	535	PSendSysMessage	13a20f975995	  limite : {} métiers principaux ({} de base + {} débloqués)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	537	PSendSysMessage	f49b4d5dc903	  métiers appris : {}, encore libres : {}, plafond : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	541	SendSysMessage	3be7cc9db3ab	  (hors ligne ; les nombres appris/libres seront ceux de sa prochaine connexion)	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	553	SendSysMessage	ebeb7069c8f8	Aucun personnage de ce nom.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	572	PSendSysMessage	06a0a2b57028	{} a désormais {} emplacement(s) débloqué(s) : {} métiers principaux au total.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	587	SendSysMessage	ebeb7069c8f8	Aucun personnage de ce nom.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-craftsmans-codex/src/craftsmans_codex.cpp	596	PSendSysMessage	4eea48e0dd7d	{} revient à {} métier(s) principal(aux).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-destiny-weaver/src/destiny_weaver.cpp	175	AddGossipItemFor	71c601a8cbcc	Bonus d'expérience !	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-destiny-weaver/src/destiny_weaver.cpp	180	AddGossipItemFor	5627c0790d82	Mise à niveau du monde ouvert !	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	311	PSendSysMessage	208996e96f38	Ce serveur applique un taux d'XP de |cff4CFF00{}|r. Tapez |cff4CFF00.xp|r pour changer le vôtre.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	381	SendSysMessage	e2df1d656ed1	Le choix de votre propre taux d'XP est désactivé sur ce royaume ; demandez à un maître de jeu.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	394	PSendSysMessage	430653bc8f44	Votre taux d'XP est désormais |cff4CFF00{}|r, enregistré pour ce personnage.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	411	PSendSysMessage	b90f2e894e93	Votre taux d'XP suit désormais celui du royaume : |cff4CFF00{}|r.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	425	PSendSysMessage	d07c58809168	Votre taux d'XP : |cff4CFF00{}|r ({}).votre propre choixle taux du royaume	lot cpp_en_dur_001 ; chaîne recollée par l'extraction : format + arguments « votre propre choix » / « le taux du royaume »
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	429	PSendSysMessage	0f273b825bd5	Le taux du royaume est de {}. |cff4CFF00.xp default|r le suit de nouveau.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	432	PSendSysMessage	29316ad1d657	Choisissez le vôtre avec {}..xp	lot cpp_en_dur_001 ; argument « .xp » recollé par l'extraction
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	457	PSendSysMessage	1194b6e7b3ef	Le taux du royaume est revenu à |cff4CFF00x1|r : aucun bonus n'est appliqué.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	460	PSendSysMessage	8af64b09be20	Le taux du royaume est désormais de |cff4CFF00{}|r.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	464	PSendSysMessage	1c6e27bff6a2	Enregistré dans {}. Les personnages qui ont leur propre choix le conservent.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	467	PSendSysMessage	898dd53be7fc	Impossible d'écrire {} ; le changement dure jusqu'au prochain redémarrage.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	482	PSendSysMessage	15098d808b15	Taux d'XP du royaume : |cff4CFF00{}|r (la valeur par défaut de tout personnage sans choix propre).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-dynamic-xp/src/dynamicxp.cpp	485	PSendSysMessage	6a7add00b9a8	Modifiez-le avec {}..xp realm	lot cpp_en_dur_001 ; argument « .xp realm » (commande) recollé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarCaches.cpp	108	PSendSysMessage	09fae9b62e88	Cette cache est vide. Prévenez un administrateur.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarCaches.cpp	153	PSendSysMessage	09fae9b62e88	Cette cache est vide. Prévenez un administrateur.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	50	AddGossipItemFor	94fe9586f8bb	Spell_Shadow_TeleportExplorer le bazar	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	52	AddGossipItemFor	0cc43324be22	inv_legion_chest_legionfallCaches perdues	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	54	AddGossipItemFor	f44f8b3eb72e	inv_chest_awakeningObjets pratiques	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	56	AddGossipItemFor	0e9e27960c86	inv_misc_scrollrolled02cConsommables	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	58	AddGossipItemFor	54298e775a35	inv_sword_39Objets d'héritage	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	60	AddGossipItemFor	00859a18498a	inv_item_stonenPierres de retraite	lot cpp_en_dur_001 ; nom d'icône recollé devant le libellé par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	62	AddGossipItemFor	8f24649fcf57	Comment obtenir des jetons de bazar ?	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	123	AddGossipItemFor	b52b36b7269f	Retour	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	186	PSendSysMessage	4be94f0158e6	Le bazar éthéré est désactivé.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	190	PSendSysMessage	9c77af971b9b	Bazar éthéré : rotation effectuée, {} objets en stock.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	199	PSendSysMessage	2bd8bf65aeb5	Bazar éthéré : {} objets en stock.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	200	PSendSysMessage	81ef508e5f0e	Réserve : {} bon marché, {} moyens, {} chers.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	205	PSendSysMessage	5f2a1bee1e63	Prochaine rotation dans {} minutes.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarScripts.cpp	207	PSendSysMessage	784ac9eb2d2e	La prochaine rotation est due.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/EtherealBazaarSetCaches.cpp	80	PSendSysMessage	09fae9b62e88	Cette cache est vide. Prévenez un administrateur.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	188	PSendSysMessage	a234445d3d5c	Groot Coin : attributions {}, échange {}.activéesdésactivéesactivédésactivé	lot cpp_en_dur_001 ; chaîne recollée par l'extraction : format + arguments enabled/disabled (deux fois)
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	192	PSendSysMessage	2af06d214600	Objets : pièce {} (affichage {}), jeton de bazar {}. Patch d'objet du client enregistré : {}.ouinon	lot cpp_en_dur_001 ; arguments yes/no recollés par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	195	PSendSysMessage	f12fca7f2233	Attributions externes (groot_coin_award_queue) : {}, interrogées toutes les {} s.activéesdésactivées	lot cpp_en_dur_001 ; arguments on/off recollés par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	197	PSendSysMessage	3e969e8e70ff	En attente : {} attribution(s) ({} de la file d'attente).	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	200	PSendSysMessage	a55491e3f16d	Échange bloqué : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	203	PSendSysMessage	b7b2231b8b1f	Échec de la vérification au démarrage : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	205	PSendSysMessage	1076b46fde5a	Rapprochement nécessaire : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	216	PSendSysMessage	2d3fda49f9ea	Aucune attribution de Groot Coin pour {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	220	PSendSysMessage	d02caf6c943e	Attributions de Groot Coin pour {} (les plus récentes d'abord) :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	227	PSendSysMessage	44da91d61c7c	{} | {} | {} pièce(s) | {} | par le compte {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	242	PSendSysMessage	195f96e9aa46	Attribution {} : {}, {} pièce(s), créée le {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	244	PSendSysMessage	80e6dc44d641	Compte destinataire {} personnage {} ; émise par le compte {} personnage {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	246	PSendSysMessage	12043e72a4fe	Raison : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	247	PSendSysMessage	95b2374e4e88	Référence : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	249	PSendSysMessage	17bb22affca7	Aucune ligne de livraison.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	251	PSendSysMessage	194ddb14af27	Courrier {} portant la pile de pièces {} : {}.encore dans la boîte aux lettresréclamé, renvoyé, supprimé ou expiré	lot cpp_en_dur_001 ; arguments recollés par l'extraction
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	261	PSendSysMessage	823a8366e148	Échange {} : compte {} personnage {} le {}, {} pièce(s) -> {} jeton(s) à {} par pièce, {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoin.cpp	267	PSendSysMessage	b6655cc87c32	Aucune attribution ni aucun échange de Groot Coin {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	75	AddGossipItemFor	60353786ef92	Échanger {} contre {} jetons de bazar ?	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	92	AddGossipItemFor	75ea9ec0f4f2	Retour.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	185	SendSysMessage	d2d8ea6f5eee	Les attributions de Groot Coin nécessitent un personnage de l'équipe en jeu.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	190	SendSysMessage	f8a9e8a54287	Les attributions de Groot Coin sont désactivées. Voir .groot status.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	195	SendSysMessage	1ef4852ec972	Les attributions de Groot Coin nécessitent le niveau de sécurité Maître de jeu.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	208	PSendSysMessage	343a9ccb2755	Le montant doit être un nombre entier de 1 à {}, et le ticket, le simple numéro d'un ticket de jealous-sound/azerothcore-wotlk-coa.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	215	PSendSysMessage	2683f5b8dcc5	Une raison (jusqu'à {} caractères) et une référence d'attribution (jusqu'à {}) sont requises.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	233	PSendSysMessage	e527c29793e8	Groot Coin : attribution de {} pièce(s) à {} pour le ticket #{}...	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	242	PSendSysMessage	9af0099db1d7	Usage : .groot history <personnage> [nombre jusqu'à {}]	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	249	PSendSysMessage	9af0099db1d7	Usage : .groot history <personnage> [nombre jusqu'à {}]	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-ethereal-bazaar/src/GrootCoinScripts.cpp	261	SendSysMessage	3c7d9ffe6c02	Usage : .groot inspect <id d'attribution ou d'échange>	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-hero-call-board/src/HeroCallBoard.cpp	230	AddGossipItemFor	6ad383fb6a69	Quêtes PvE	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-hero-call-board/src/HeroCallBoard.cpp	231	AddGossipItemFor	4e5633fc41ec	Quêtes de métier	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-hero-call-board/src/HeroCallBoard.cpp	232	AddGossipItemFor	cf3b2e62fde1	Quêtes PvP	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-hero-call-board/src/HeroCallBoard.cpp	234	AddGossipItemFor	f0660d8764bd	Quêtes Haut risque	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-hero-call-board/src/HeroCallBoard.cpp	279	AddGossipItemFor	24f096b221f9	Retour	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/Manastorm.cpp	964	SendSysMessage	674e9a8c6d9b	Tempête de mana : profondeur de départ invalide.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/Manastorm.cpp	979	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/Manastorm.cpp	1002	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/Manastorm.cpp	1199	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCacheLoot.cpp	571	SendSystemMessage	d47426232247	Les récompenses de cette cache sont indisponibles. La cache n'a pas été consommée.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	115	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	149	PSendSysMessage	58e854634f74	Tempête de mana : le point d'apparition {} est sur la carte {}, mais le segment {} utilise la carte {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	162	PSendSysMessage	9a2211b9138d	Tempête de mana : la créature d'entrée {} est l'objectif fixe du segment {} et ne peut pas servir de point d'apparition aléatoire d'ennemis mineurs ni de source de réserve.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	204	PSendSysMessage	3ae82ebb206d	Tempête de mana : {} {} pour segment={} spawn={} entry={} name='{}'.activédésactivé	lot cpp_en_dur_001 ; arguments enabled/disabled recollés par l'extraction
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	392	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	396	PSendSysMessage	ed78b9990045	Tempête de mana : partie Phase-2A préparée. Téléportation vers le segment {} dans l'instance {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	434	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	441	PSendSysMessage	db692cf3f3ee	Tempête de mana : profondeur {} lancée de force (FORCE) pour la conception ou le débogage. Segment={} instance={}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	507	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	532	SendSysMessage	212a5ed79563	Profondeurs accessibles : aucune.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	552	PSendSysMessage	e71e8b1078b1	Profondeurs accessibles (la plus haute d'abord) : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	576	SendSysMessage	30a3254162b3	Tempête de mana : vous ne participez à aucune partie active.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	600	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	604	SendSysMessage	2634ad6340d0	Tempête de mana : partie arrêtée.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	708	PSendSysMessage	9d986124fd29	Tempête de mana : le point d'apparition {} n'a aucun rôle défini pour le segment {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	761	PSendSysMessage	a237c010b86d	Tempête de mana : le segment {} n'a aucun rôle de point d'apparition défini.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	768	PSendSysMessage	173c526a9eb7	Points d'apparition définis de la Tempête de mana pour le segment {} :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	798	PSendSysMessage	b75e6927b846	Tempête de mana : la réserve de créatures {} n'est pas chargée ou activée.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	857	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	891	PSendSysMessage	58e854634f74	Tempête de mana : le point d'apparition {} est sur la carte {}, mais le segment {} utilise la carte {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	905	PSendSysMessage	2058f8b314ba	Tempête de mana : la créature d'entrée {} est le boss objectif du segment {} et ne peut pas être aussi un point d'apparition de la route des Liens chaotiques.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	942	PSendSysMessage	828f26b3f529	Tempête de mana : le point d'apparition {} est déjà un Lien chaotique pour le segment {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	974	PSendSysMessage	a3a495c72c55	Tempête de mana : candidat de Lien chaotique ajouté | segment={} spawn={} entry={} name='{}' | candidates={} requiredBossLinks={}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1006	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1046	PSendSysMessage	552eb743b103	Tempête de mana : le point d'apparition {} n'est pas enregistré dans le segment {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1068	PSendSysMessage	b1dc9c2825db	Tempête de mana : le point d'apparition {} n'est pas un candidat de Lien chaotique activé pour le segment {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1088	PSendSysMessage	f33858655cbc	Tempête de mana : impossible de retirer ce candidat. Le segment {} exige {} rupture(s) de Lien du boss, mais le retrait ne laisserait que {} candidat(s). Abaissez d'abord le nombre de Liens requis avec `.manastorm link stacks {} <count>`.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1136	PSendSysMessage	484534f63d06	Tempête de mana : candidat de Lien chaotique retiré | segment={} spawn={} entry={} | candidates={} requiredBossLinks={}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1159	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1181	PSendSysMessage	6348f6c28949	Tempête de mana : route des Liens chaotiques du segment {} (map={}, candidates={}, requiredBossLinks={}) :	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1191	SendSysMessage	57755f9af2d1	  Aucun point d'apparition de Lien chaotique configuré.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1235	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1244	PSendSysMessage	6e37ebdc0c49	Tempête de mana : le segment {} exige encore {} rupture(s) de Lien du boss. Réglez d'abord ses charges de Lien à 0 avec `.manastorm link stacks {} 0` avant de retirer tous les candidats de la route.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1284	PSendSysMessage	8ef4201c7e10	Tempête de mana : {} point(s) d'apparition candidat(s) de Lien chaotique retiré(s) du segment {}. requiredBossLinks=0.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1312	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1332	PSendSysMessage	69dcb0eb6de7	Tempête de mana : le segment {} n'a que {} candidat(s) de Lien chaotique configuré(s) ; le nombre de Liens du boss requis ne peut donc pas être fixé à {}.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1353	PSendSysMessage	83ad4a02a8b3	Tempête de mana : le segment {} a désormais {} candidat(s) configuré(s) et exige la mort de {} candidat(s) pour retirer tous les Liens chaotiques du boss.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1386	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1510	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1577	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1646	PSendSysMessage	73855c15f3ba	Tempête de mana : le segment {} n'existe pas.	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1790	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1829	PSendSysMessage	e20de27d8178	Tempête de mana : {}	lot cpp_en_dur_001
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	887	AddGossipItemFor	b52b36b7269f	Retour	lot cpp_en_dur_001

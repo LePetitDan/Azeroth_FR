@@ -1,0 +1,209 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+message_serveur	5076		content_default	f54cd26f7589	Le remboursement de votre objet {} a échoué : il vous ferait dépasser la limite de points d'arène.	lot messages_serveur_004
+message_serveur	5077		content_default	38c5e1165db5	L'objet {} ({}) a été remboursé : {} points d'arène vous sont rendus.	lot messages_serveur_004
+message_serveur	5078		content_default	1decd13b507a	Objet introuvable dans l'inventaire du personnage (banque comprise)	lot messages_serveur_004
+message_serveur	5079		content_default	b8949b5b76e0	Vous devez être au moins de niveau {} pour désactiver les annonces automatiques.	lot messages_serveur_004
+message_serveur	5080		content_default	e6055d99c8dd	Vous recevez désormais les messages globaux {}.	lot messages_serveur_004
+message_serveur	5081		content_default	636aec35507a	Vous ne recevrez plus les messages globaux {}.	lot messages_serveur_004
+message_serveur	5082		content_default	75b2ea86f116	Syntaxe incorrecte. Indiquez 'starter' ou 'ender'.	lot messages_serveur_004
+message_serveur	5083		content_default	1da2cd2499d9	Personnage {} ({}) déplacé du compte {} ({}) vers le compte {} ({}).	lot messages_serveur_004
+message_serveur	5084		content_default	99fc511a32cb	Échec du lancement du sort ! SpellCastResult a renvoyé : {} ({}).	lot messages_serveur_004
+message_serveur	5085		content_default	1565af25db5a	Objet {} (entrée : {} GUID : {}) réapparu !	lot messages_serveur_004
+message_serveur	5086		content_default	aa91ad2678ee	Aucune porte trouvée à portée ({} mètres).	lot messages_serveur_004
+message_serveur	5087		content_default	ab92bc7cf11a	Porte {} (entrée : {}) ouverte !	lot messages_serveur_004
+message_serveur	5088		content_default	04bff33704cd	Quête : {} ({}) \nStatut : {}	lot messages_serveur_004
+message_serveur	5089		content_default	631012614af0	La quête {} ne peut pas être prise. Raisons :	lot messages_serveur_004
+message_serveur	5090		content_default	3e9149eaa425	  - La quête est désactivée.	lot messages_serveur_004
+message_serveur	5091		content_default	d6628e2dce00	  - La quête a déjà été prise ou terminée.	lot messages_serveur_004
+message_serveur	5092		content_default	5ce9c0caa528	  - Condition de classe non remplie.	lot messages_serveur_004
+message_serveur	5093		content_default	66620975d558	  - Condition de race non remplie.	lot messages_serveur_004
+message_serveur	5094		content_default	37a431570758	  - Niveau du joueur trop bas (requis : {}).	lot messages_serveur_004
+message_serveur	5095		content_default	e3924e9588e2	  - Niveau du joueur trop élevé (max. : {}).	lot messages_serveur_004
+message_serveur	5096		content_default	2cca89a5ca52	  - Condition de compétence non remplie.	lot messages_serveur_004
+message_serveur	5097		content_default	be0a2c72969f	  - Condition de réputation non remplie.	lot messages_serveur_004
+message_serveur	5098		content_default	f434efb746ff	  - Quête précédente de la suite non terminée.	lot messages_serveur_004
+message_serveur	5099		content_default	e4893535383a	  - Une quête à durée limitée est déjà en cours.	lot messages_serveur_004
+message_serveur	5100		content_default	8b110d53c653	  - Conflit avec une quête du même groupe exclusif.	lot messages_serveur_004
+message_serveur	5101		content_default	8fdb0f135f58	  - Quête suivante de la suite déjà commencée.	lot messages_serveur_004
+message_serveur	5102		content_default	aa56d1c6175d	  - Quête précédente de la suite encore en cours.	lot messages_serveur_004
+message_serveur	5103		content_default	233e165d1e14	  - Conflit avec une quête d'introduction.	lot messages_serveur_004
+message_serveur	5104		content_default	c8d6bdb964c2	  - Quête journalière indisponible aujourd'hui.	lot messages_serveur_004
+message_serveur	5105		content_default	c72f501c855b	  - Quête hebdomadaire déjà terminée cette semaine.	lot messages_serveur_004
+message_serveur	5106		content_default	88091a08def4	  - Quête mensuelle déjà terminée ce mois-ci.	lot messages_serveur_004
+message_serveur	5107		content_default	2895ff6f1f47	  - Quête saisonnière déjà terminée cette saison.	lot messages_serveur_004
+message_serveur	5108		content_default	6602a4acd2a6	  - Conditions non remplies :	lot messages_serveur_004
+message_serveur	5109		content_default	22fb5bd0632b	  - Le journal de quêtes est plein.	lot messages_serveur_004
+message_serveur	5110		content_default	1cdb0dee401a	    - Condition non remplie : type {} valeur1 : {} valeur2 : {} valeur3 : {}	lot messages_serveur_004
+message_serveur	5118		content_default	c14a634895a9	Les points d'honneur ont été remis à zéro pour tous les joueurs.	lot messages_serveur_004
+message_serveur	5119		content_default	12d8b7844212	Les points d'arène ont été remis à zéro pour tous les joueurs.	lot messages_serveur_004
+message_serveur	6604		content_default	b337220c830a	Vous ne pouvez pas dire, crier ni faire d'emote avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6605		content_default	4b92a4f7a9e8	Vous ne pouvez pas chuchoter avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6606		content_default	d7f1f52faf51	Vous ne pouvez pas écrire dans les canaux avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6607		content_default	22d7900aefb9	Vous ne pouvez pas utiliser l'hôtel des ventes avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6608		content_default	dafdac0c3e17	Vous ne pouvez pas envoyer de requête aux MJ avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6609		content_default	8e950f0b9295	Vous ne pouvez pas faire d'échange avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6610		content_default	ecdcd2bf0d84	Vous ne pouvez pas faire d'échange avec des personnages de niveau inférieur à {}.	lot messages_serveur_004
+message_serveur	6611		content_default	fa6a4e8b9f61	Vous ne pouvez pas envoyer de courrier avant d'atteindre le niveau {}.	lot messages_serveur_004
+message_serveur	6612		content_default	06ee330bf08e	Vous ne pouvez pas envoyer de courrier à des personnages de niveau inférieur à {}.	lot messages_serveur_004
+message_serveur	6613		content_default	4f6aab0134c7	|cfff00000[Annonce des MJ] : {}|r	lot messages_serveur_004
+message_serveur	6614		content_default	7a1aff6ddfdf	Notification aux MJ - 	lot messages_serveur_004
+message_serveur	6615		content_default	355d318b1649	|cffffff00[|c1f40af20Annonce du MJ|r |cffff0000{}|cffffff00] :|r {}|r	lot messages_serveur_004
+message_serveur	6616		content_default	d2903b49d131	Silence activé pour {}	lot messages_serveur_004
+message_serveur	6617		content_default	c370ac6034bf	Mode spectateur MJ activé	lot messages_serveur_004
+message_serveur	6618		content_default	f669b28a133e	Mode spectateur MJ désactivé	lot messages_serveur_004
+message_serveur	7523		content_default	8e7c9fac3001	MONDE : connexions refusées.	lot messages_serveur_004
+message_serveur	7524		content_default	f30f5f97c1ab	MONDE : connexions acceptées.	lot messages_serveur_004
+message_serveur	9980		content_default	040daa20f401	Nom du joueur : {}, État : {}, Donjons : {} ({}),\n\n Rôles : {}, Commentaire : {}	lot messages_serveur_004
+message_serveur	9981		content_default	963262a1b319	Groupe RdG ? : {}, État : {}, Donjon : {}	lot messages_serveur_004
+message_serveur	9982		content_default	d60647c9fa25	Pas en groupe	lot messages_serveur_004
+message_serveur	9983		content_default	564cb4821eef	Files d'attente vidées	lot messages_serveur_004
+message_serveur	9984		content_default	ac762a16d27b	Options RdG : {}	lot messages_serveur_004
+message_serveur	9985		content_default	226273cb7e10	Options RdG modifiées	lot messages_serveur_004
+message_serveur	9987		content_default	e108bb66dd54	Vérification des rôles	lot messages_serveur_004
+message_serveur	9988		content_default	6a599877d753	En file d'attente	lot messages_serveur_004
+message_serveur	9989		content_default	929017ada05a	Proposition	lot messages_serveur_004
+message_serveur	9990		content_default	8316f3746839	Exclusion par vote	lot messages_serveur_004
+message_serveur	9991		content_default	ef47fc91c9b3	Dans le donjon	lot messages_serveur_004
+message_serveur	9992		content_default	d55657d29a39	Donjon terminé	lot messages_serveur_004
+message_serveur	9993		content_default	2b2ef1e18ef4	Recherche de raid	lot messages_serveur_004
+message_serveur	9996		content_default	e774934e0952	Dégâts	lot messages_serveur_004
+message_serveur	9997		content_default	e26c936bbeca	Chef	lot messages_serveur_004
+message_serveur	10001		content_default	e47eb5e4aa43	La Horde a pris le Surplomb !	lot messages_serveur_004
+message_serveur	10002		content_default	92f0b13b6891	L'Alliance a pris le Surplomb !	lot messages_serveur_004
+message_serveur	10003		content_default	b5cbf683fc10	La Horde a pris le Stade !	lot messages_serveur_004
+message_serveur	10004		content_default	15ac90b01210	L'Alliance a pris le Stade !	lot messages_serveur_004
+message_serveur	10005		content_default	0be4069029db	La Horde a pris la Colline brisée !	lot messages_serveur_004
+message_serveur	10006		content_default	d443ea136795	L'Alliance a pris la Colline brisée !	lot messages_serveur_004
+message_serveur	10007		content_default	dd2a7b560454	La Horde a perdu le Surplomb !	lot messages_serveur_004
+message_serveur	10008		content_default	5d2b9a0a0d40	L'Alliance a perdu le Surplomb !	lot messages_serveur_004
+message_serveur	10009		content_default	e32a31966923	La Horde a perdu le Stade !	lot messages_serveur_004
+message_serveur	10010		content_default	49d5f0c9cbb8	L'Alliance a perdu le Stade !	lot messages_serveur_004
+message_serveur	10011		content_default	fbf2cd907bd6	La Horde a perdu la Colline brisée !	lot messages_serveur_004
+message_serveur	10012		content_default	5745bc980fff	L'Alliance a perdu la Colline brisée !	lot messages_serveur_004
+message_serveur	10013		content_default	1c38cd20eb8b	La Horde s'est emparée de la balise ouest !	lot messages_serveur_004
+message_serveur	10014		content_default	f55f94652eaa	L'Alliance s'est emparée de la balise ouest !	lot messages_serveur_004
+message_serveur	10015		content_default	4a820d784957	La Horde s'est emparée de la balise est !	lot messages_serveur_004
+message_serveur	10016		content_default	2f782f758405	L'Alliance s'est emparée de la balise est !	lot messages_serveur_004
+message_serveur	10017		content_default	1847cfb13d12	La Horde s'est emparée du cimetière des Flèches jumelles !	lot messages_serveur_004
+message_serveur	10018		content_default	d2b667800a85	L'Alliance s'est emparée du cimetière des Flèches jumelles !	lot messages_serveur_004
+message_serveur	10019		content_default	26f76f4a1182	La Horde a perdu la balise ouest !	lot messages_serveur_004
+message_serveur	10020		content_default	6385725a9609	L'Alliance a perdu la balise ouest !	lot messages_serveur_004
+message_serveur	10021		content_default	9f1380e72f46	La Horde a perdu la balise est !	lot messages_serveur_004
+message_serveur	10022		content_default	d4a943047104	L'Alliance a perdu la balise est !	lot messages_serveur_004
+message_serveur	10023		content_default	a92fc7843363	La Horde a perdu le cimetière des Flèches jumelles !	lot messages_serveur_004
+message_serveur	10024		content_default	3a9ca006f24d	L'Alliance a perdu le cimetière des Flèches jumelles !	lot messages_serveur_004
+message_serveur	10025		content_default	cd9b27c58694	La Horde s'est emparée de Halaa !	lot messages_serveur_004
+message_serveur	10026		content_default	a564e0196e74	L'Alliance s'est emparée de Halaa !	lot messages_serveur_004
+message_serveur	10027		content_default	0e2c33564a8c	La Horde a perdu Halaa !	lot messages_serveur_004
+message_serveur	10028		content_default	6398bfae43af	L'Alliance a perdu Halaa !	lot messages_serveur_004
+message_serveur	10029		content_default	a1c9bcd6a927	La Horde a pris une Tour des esprits !	lot messages_serveur_004
+message_serveur	10030		content_default	0a75827be33f	L'Alliance a pris une Tour des esprits !	lot messages_serveur_004
+message_serveur	10031		content_default	7229b0e4fbb8	La Horde a perdu une Tour des esprits !	lot messages_serveur_004
+message_serveur	10032		content_default	66a11b4edbe5	L'Alliance a perdu une Tour des esprits !	lot messages_serveur_004
+message_serveur	10033		content_default	711cb41ca476	La Horde a pris la tour du Col du nord !	lot messages_serveur_004
+message_serveur	10034		content_default	c2d795870d4e	L'Alliance a pris la tour du Col du nord !	lot messages_serveur_004
+message_serveur	10035		content_default	e9a10c393ba8	La Horde a pris la tour du Mur d'est !	lot messages_serveur_004
+message_serveur	10036		content_default	ffa83c10fe22	L'Alliance a pris la tour du Mur d'est !	lot messages_serveur_004
+message_serveur	10037		content_default	22d03c106fb0	La Horde a pris la tour de garde de la couronne !	lot messages_serveur_004
+message_serveur	10038		content_default	20134a8ae2b6	L'Alliance a pris la tour de garde de la couronne !	lot messages_serveur_004
+message_serveur	10039		content_default	9e7eaaf07c8b	La Horde a pris la tour de Pestebois !	lot messages_serveur_004
+message_serveur	10040		content_default	341ba7d2842d	L'Alliance a pris la tour de Pestebois !	lot messages_serveur_004
+message_serveur	10041		content_default	aca62501d47d	La Horde a perdu la tour du Col du nord !	lot messages_serveur_004
+message_serveur	10042		content_default	e49947a1ab44	L'Alliance a perdu la tour du Col du nord !	lot messages_serveur_004
+message_serveur	10043		content_default	20f1ac4aba4f	La Horde a perdu la tour du Mur d'est !	lot messages_serveur_004
+message_serveur	10044		content_default	310171e5ff88	L'Alliance a perdu la tour du Mur d'est !	lot messages_serveur_004
+message_serveur	10045		content_default	f7ceca63eff9	La Horde a perdu la tour de garde de la couronne !	lot messages_serveur_004
+message_serveur	10046		content_default	a8ee00dedfe2	L'Alliance a perdu la tour de garde de la couronne !	lot messages_serveur_004
+message_serveur	10047		content_default	38131173ffaa	La Horde a perdu la tour de Pestebois !	lot messages_serveur_004
+message_serveur	10048		content_default	300a00a61738	L'Alliance a perdu la tour de Pestebois !	lot messages_serveur_004
+message_serveur	10049		content_default	613b17e3aec2	La Horde a rassemblé 200 silithystes !	lot messages_serveur_004
+message_serveur	10050		content_default	a855589ae3ef	L'Alliance a rassemblé 200 silithystes !	lot messages_serveur_004
+message_serveur	10054		content_default	d694755e1697	Donnez-moi le drapeau, je l'apporterai à la balise centrale pour la gloire de l'Alliance !	lot messages_serveur_004
+message_serveur	10055		content_default	b43aa8a386d7	Donnez-moi le drapeau, je l'apporterai à la balise centrale pour la gloire de la Horde !	lot messages_serveur_004
+message_serveur	10056		content_default	15d890a4c659	La bataille du rivage des Anciens commence dans 2 minutes.	lot messages_serveur_004
+message_serveur	10057		content_default	89abfabe2399	La bataille du rivage des Anciens commence dans 1 minute.	lot messages_serveur_004
+message_serveur	10058		content_default	87c7a5375a1f	La bataille du rivage des Anciens commence dans 30 secondes. Préparez-vous !	lot messages_serveur_004
+message_serveur	10059		content_default	ada58f93092e	Que la bataille du rivage des Anciens commence !	lot messages_serveur_004
+message_serveur	10060		content_default	c06037d0c8d6	La {} est attaquée !	lot messages_serveur_004 ; {} = nom d'une porte (ou de la Chambre des anciennes reliques) du Rivage des Anciens, toutes féminines en français
+message_serveur	10061		content_default	262de206d1f1	La {} a été détruite !	lot messages_serveur_004 ; {} = nom d'une porte du Rivage des Anciens (féminin)
+message_serveur	10062		content_default	e2aec8a4b3a3	Manche 1 - terminée !	lot messages_serveur_004
+message_serveur	10066		content_default	f01559c819d8	Début de la manche 2 dans 30 secondes. Préparez-vous !	lot messages_serveur_004
+message_serveur	10068		content_default	47e4572e7826	L'Alliance s'est emparée du cimetière sud !	lot messages_serveur_004
+message_serveur	10069		content_default	b0bf5a189d68	L'Alliance s'est emparée du cimetière ouest !	lot messages_serveur_004
+message_serveur	10070		content_default	d881d7b5faa0	L'Alliance s'est emparée du cimetière est !	lot messages_serveur_004
+message_serveur	10071		content_default	093cf2c4ec6a	La Horde s'est emparée du cimetière sud !	lot messages_serveur_004
+message_serveur	10072		content_default	0da3b3fc75ad	La Horde s'est emparée du cimetière ouest !	lot messages_serveur_004
+message_serveur	10073		content_default	81ea589feb2d	La Horde s'est emparée du cimetière est !	lot messages_serveur_004
+message_serveur	10074		content_default	e08f60a33ad1	Halaa est sans défense !	lot messages_serveur_004
+message_serveur	11000		content_default	53753eec19fb	|cffffff00[|c00077766Annonce automatique|cffffff00] : |cFFF222FF{}|r	lot messages_serveur_004
+message_serveur	11001		content_default	b34a5124a398	Vous n'avez choisi ni -1 ni l'ID du royaume sur lequel vous êtes.	lot messages_serveur_004
+message_serveur	11002		content_default	f094d5aa7d43	Serveur : {} a expulsé {}, raison : {}	lot messages_serveur_004
+message_serveur	11003		content_default	46135a3041a9	Serveur : {} a réduit {} au silence pour {}, raison : {}	lot messages_serveur_004
+message_serveur	11004		content_default	be9f566d8d2d	Serveur : {} a banni le personnage {} pour {}, raison : {}	lot messages_serveur_004
+message_serveur	11005		content_default	83180b39c73d	Serveur : {} a banni le personnage {} définitivement, raison : {}	lot messages_serveur_004
+message_serveur	11006		content_default	589671b993d4	Serveur : {} a banni le compte {} pour {}, raison : {}	lot messages_serveur_004
+message_serveur	11007		content_default	f17e1d6f4e0a	Serveur : {} a banni le compte {} définitivement, raison : {}	lot messages_serveur_004
+message_serveur	11008		content_default	714c3581cdf5	Type de déplacement : {}	lot messages_serveur_004
+message_serveur	11010		content_default	93908cdb9057	Vous n'avez pas été expulsé de l'instance, alors que Player::CheckInstanceLoginValid() a renvoyé false et que .gm on n'est pas activé	lot messages_serveur_004
+message_serveur	11011		content_default	466eb2e283ff	Avertissement VisualizeBoundary : aucun point intérieur de la limite de la créature n'a été trouvé - vérifiez si vous avez des limites mutuellement exclusives !	lot messages_serveur_004
+message_serveur	11012		content_default	b0cf7a6c5057	Erreur VisualizeBoundary : le déplacement de la créature n'est pas limité	lot messages_serveur_004
+message_serveur	11013		content_default	e2f22a6ba003	Avertissement VisualizeBoundary : limite de sécurité du remplissage atteinte - vérifiez si votre limite n'est pas ouverte !	lot messages_serveur_004
+message_serveur	11014		content_default	a6e4952d0ca3	Vous avez déjà un verrouillage d'instance pour {}.	lot messages_serveur_004
+message_serveur	11015		content_default	40a22105c2a9	Aucune CreatureAI active n'est attribuée à cette créature.	lot messages_serveur_004
+message_serveur	11016		content_default	b624b105efe8	Sélectionnez un joueur ou le familier d'un joueur.	lot messages_serveur_004
+message_serveur	11017		content_default	3dd66f519fe6	Serveur : {} a banni l'IP {} pour {}, raison : {}	lot messages_serveur_004
+message_serveur	11018		content_default	ff709182054c	Serveur : {} a banni l'IP {} définitivement, raison : {}	lot messages_serveur_004
+message_serveur	11019		content_default	7e80c23f8fd3	Temps de recharge des donjons de la RdG réinitialisés pour tous les joueurs.	lot messages_serveur_004
+message_serveur	12050		content_default	6e4770fb6a09	{} a été pris par la faction {} 	lot messages_serveur_004 ; {} = atelier de siège de Joug-d'hiver (masculin), puis « Horde » ou « Alliance » sans article (messages 12056 et 12057)
+message_serveur	12051		content_default	559fd4ea4ee3	{} est attaqué par la faction {}	lot messages_serveur_004 ; {} = atelier de siège de Joug-d'hiver (masculin), puis « Horde » ou « Alliance » sans article
+message_serveur	12052		content_default	1106a63de202	L'atelier de siège du temple brisé	lot messages_serveur_004 ; forme des annonces officielles de Joug-d'hiver
+message_serveur	12053		content_default	855ad8d08a02	L'atelier de siège de l'Estincelle	lot messages_serveur_004 ; forme des annonces officielles de Joug-d'hiver
+message_serveur	12054		content_default	965997ade328	L'atelier de siège de l'Ouestincelle	lot messages_serveur_004 ; forme des annonces officielles de Joug-d'hiver
+message_serveur	12055		content_default	b74f13f8d75e	L'atelier de siège de l'arène engloutie	lot messages_serveur_004 ; forme des annonces officielles de Joug-d'hiver
+message_serveur	12058		content_default	1d6afd60a357	La bataille de Joug-d'hiver est sur le point de commencer !	lot messages_serveur_004
+message_serveur	12061		content_default	bd50d9011dc9	La tour du donjon sud-est	lot messages_serveur_004
+message_serveur	12062		content_default	8af26b134aba	La tour du donjon nord-est	lot messages_serveur_004
+message_serveur	12063		content_default	16af4b1e2b0b	La tour du donjon sud-ouest	lot messages_serveur_004
+message_serveur	12064		content_default	5ddebf76af08	La tour du donjon nord-ouest	lot messages_serveur_004
+message_serveur	12065		content_default	eab46837b456	{} est endommagée !	lot messages_serveur_004 ; {} = une tour de Joug-d'hiver (féminin)
+message_serveur	12066		content_default	f42d905e7fe0	{} est détruite !	lot messages_serveur_004 ; {} = une tour de Joug-d'hiver (féminin)
+message_serveur	12067		content_default	05347f302b6d	La bataille de Joug-d'hiver commence !	lot messages_serveur_004
+message_serveur	12068		content_default	b1ff123f391d	La faction {} a défendu avec succès la forteresse de Joug-d'hiver !	lot messages_serveur_004 ; {} = « Horde » ou « Alliance » sans article
+message_serveur	12069		content_default	45d8cf3d0165	La tour sud	lot messages_serveur_004
+message_serveur	12070		content_default	c726ce89a94f	La tour est	lot messages_serveur_004
+message_serveur	12071		content_default	e031fb6e2975	La tour ouest	lot messages_serveur_004
+message_serveur	12072		content_default	5871e1b6f491	La forteresse de Joug-d'hiver a été prise par la faction {} !	lot messages_serveur_004 ; {} = « Horde » ou « Alliance » sans article
+message_serveur	20078		content_default	f59ecca1e889	|cffff0000[Joug-d'hiver] :|r La bataille a commencé !|r	lot messages_serveur_004
+message_serveur	30000		content_default	fc3fb8d566bf	Vous pourrez parler après avoir joué au moins {}. Vous pouvez utiliser les discussions de groupe et de guilde.	lot messages_serveur_004
+message_serveur	30077		content_default	21388529b581	Activer ou désactiver le vol instantané	lot messages_serveur_004
+message_serveur	30078		content_default	ef8c10ac252e	Vol instantané activé	lot messages_serveur_004
+message_serveur	30079		content_default	2c9090526b61	Vol instantané désactivé	lot messages_serveur_004
+message_serveur	30080		content_default	e1bb828d26f2	Le fichier 'opcode.txt' est introuvable dans le répertoire de travail du serveur.	lot messages_serveur_004
+message_serveur	30081		content_default	208e3d2abe7c	{} n'a pas l'objet itemID = {}, il ne peut donc pas être retiré.	lot messages_serveur_004
+message_serveur	30082		content_default	a55688ba9547	{} n'a pas autant d'exemplaires de l'objet itemID = {}, aucun n'a donc été retiré.	lot messages_serveur_004
+message_serveur	30083		content_default	3be9ade69ded	Vous ne pouvez pas partager de quêtes sur un champ de bataille.	lot messages_serveur_004
+message_serveur	30084		content_default	8d28616360b3	Vous ne pouvez pas faire l'appel sur un champ de bataille.	lot messages_serveur_004
+message_serveur	30085		content_default	d881e0dbf8ba	Le débogage des champs de bataille est déjà activé dans la configuration : vous ne pouvez donc pas l'activer ni le désactiver par commande.	lot messages_serveur_004
+message_serveur	30086		content_default	104d810b832c	Le débogage des arènes est déjà activé dans la configuration : vous ne pouvez donc pas l'activer ni le désactiver par commande.	lot messages_serveur_004
+message_serveur	30096		content_default	fbb000067701	La RdG est réglée sur une file d'attente à 1 joueur pour le débogage.	lot messages_serveur_004
+message_serveur	30097		content_default	b49cf813aba0	La RdG est réglée sur la file d'attente normale.	lot messages_serveur_004
+message_serveur	30098		content_default	7689cbd7c712	Le débogage de la RdG est déjà activé dans la configuration : vous ne pouvez donc pas l'activer ni le désactiver par commande.	lot messages_serveur_004
+message_serveur	35400		content_default	e2915cc725fd	| Joueur {} {} (GUID : {})	lot messages_serveur_004
+message_serveur	35401		content_default	e1aeb89d6898	| Mode MJ actif, phase : -1	lot messages_serveur_004
+message_serveur	35402		content_default	d42e4f6635ca	|-- Banni : (type : {}, raison : {}, durée : {}, par : {})	lot messages_serveur_004
+message_serveur	35403		content_default	485e9f673d2b	|-- Réduit au silence : (raison : {}, durée : {}, par : {})	lot messages_serveur_004
+message_serveur	35404		content_default	09bbe887e091	| Compte : {} (ID : {}),\n\n Niveau MJ : {}	lot messages_serveur_004
+message_serveur	35405		content_default	ed08db008de5	| Dernière connexion : {} (connexions échouées : {})	lot messages_serveur_004
+message_serveur	35407		content_default	1d485182adab	Aucune raison donnée.	lot messages_serveur_004
+message_serveur	35408		content_default	77bad60fdc10	<non autorisé>	lot messages_serveur_004
+message_serveur	35409		content_default	7922f9fef1ff	| Carte : {}, Zone : {}, Sous-zone : {}	lot messages_serveur_004
+message_serveur	35462		content_default	955b609212a7	Accepte les invitations de groupe : {}	lot messages_serveur_004
+message_serveur	35463		content_default	aa2ee5c9877d	Accepte les invitations de groupe : OUI	lot messages_serveur_004
+message_serveur	35464		content_default	d22b20389692	Accepte les invitations de groupe : NON	lot messages_serveur_004
+message_serveur	35465		content_default	91105b62cfc2	Indicateurs définis sur le compte {} ({}) :	lot messages_serveur_004
+message_serveur	35466		content_default	c00fec92971e	Le compte {} ({}) n'a aucun indicateur défini.	lot messages_serveur_004
+message_serveur	35467		content_default	52416077f083	Indicateur de compte inconnu : {}. Utilisez un nom symbolique (par ex. ACCOUNT_FLAG_TRIAL ou TRIAL).	lot messages_serveur_004
+message_serveur	35468		content_default	537b9bd14fff	ACCOUNT_FLAG_GM est géré automatiquement et ne peut pas être modifié à la main.	lot messages_serveur_004
+message_serveur	35469		content_default	5d07d1c5b5d8	{} ajouté au compte {} ({}).	lot messages_serveur_004
+message_serveur	35470		content_default	95ffa592deca	{} retiré du compte {} ({}).	lot messages_serveur_004
+message_serveur	35480		content_default	a6d061c28a91	Charges du sort : {}.	lot messages_serveur_004
