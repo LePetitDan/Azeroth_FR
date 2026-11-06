@@ -1,0 +1,286 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	705848		Description	012710a43f55	|cFF66DDFFPassif de niveau 30|r\r\nLes soins prodigués par |cffffffffBreuvage du loa|r appliquent désormais un renforcement aléatoire à l'allié ciblé.\r\n@ext:@s:802207:0@:ext@\r\n@ext:@s:802208:0@:ext@\r\n@ext:@s:802215:0@:ext@\r\n@ext:@s:802216:0@:ext@	lot talents_021
+sort	705848		Name	f777c4f35c77	Bénédiction du loa	lot talents_021
+sort	705850		Description	bef7d33ee1da	Le temps de recharge de votre |cffffffffLancer de potion|r et de votre |cffffffffPotion éclaboussante|r est réinitialisé, et la prochaine utilisation dans les $d applique désormais |cffffffffFish Bones|r aux alliés affectés.\r\n\r\nChange instantanément vos |cffffffffIngrédients|r en |cffffffffHuile de poisson|r et |cffffffffOs de grenouille|r.\r\n@ext:@s:500594:0@:ext@	lot talents_021
+sort	705850		Name	bcd11a56647c	Mojo : Arêtes de poisson	lot talents_021
+sort	705850		ToolTip	76d01c9c7310	Lancer de potion et Potion éclaboussante appliquent désormais Fish Bones.	lot talents_021
+sort	705851		Description	4a190c5dddda	Le temps de recharge de votre |cffffffffLancer de potion|r et de votre |cffffffffPotion éclaboussante|r est réinitialisé, et la prochaine utilisation dans les $d applique désormais |cffffffffFrog Shrooms|r aux alliés affectés.\r\n\r\nChange instantanément vos |cffffffffIngrédients|r en |cffffffffChampignons de la jungle|r et |cffffffffOs de grenouille|r.\r\n@ext:@s:500509:0@:ext@	lot talents_021
+sort	705851		Name	66ac06a05e04	Mojo : Champignons-grenouilles	lot talents_021
+sort	705851		ToolTip	b952f9ea5e9a	Potion éclaboussante et Lancer de potion appliquent désormais Frog Shrooms	lot talents_021
+sort	705856		Description	671944044959	Augmente de $s1% les soins de vos |cffffffffChampignons de la jungle|r issus de votre |cffffffffChaudron|r.	lot talents_021
+sort	705856		Name	dcee086ada05	Ingrédients frais	lot talents_021
+sort	705859		Description	59de2a22e18b	Les |cffffffffChampignons de la jungle|r lancés depuis votre |cffffffffChaudron|r soignent désormais $s1% de plus, mais soignent $s2 cibles de moins.	lot talents_021
+sort	705859		Name	16763926dc77	Explosions de la jungle	lot talents_021
+sort	705864		Description	fda700f8053d	Pendant $d, l'efficacité de tous les effets du |cffffffffChaudron|r et des |cffffffffIngrédients|r est augmentée de $s1% et vous pouvez lancer |cffffffffEsprit en bouteille|r en vous déplaçant.	lot talents_021
+sort	705864		Name	3904af3a4e3d	Maître mixologue	lot talents_021
+sort	705864		ToolTip	89db98af5fa1	Augmente l'efficacité de tous les effets du |cffffffffChaudron|r et des |cffffffffIngrédients|r de ${$w1}% et vous permet de lancer |cffffffffEsprit en bouteille|r en vous déplaçant.	lot talents_021
+sort	705870		Name	e184db1743aa	Base : Sang de bête	lot talents_021
+sort	705870		ToolTip	fcb2ac8cc5a8	Dégâts subis étalés.	lot talents_021
+sort	705871		Description	8290bd4d29ce	Les dégâts et les soins infligés ont désormais $h% de chances de réduire de $503693s1% le coût de votre prochain sort ou aptitude pendant $503693d.	lot talents_021
+sort	705871		Name	71af57ce73d2	Folie du mojo	lot talents_021
+sort	705876		Description	e70188f9059a	Permet à |cFFFFFFFFPoison cruel|r de se cumuler une fois de plus.	lot talents_021
+sort	705876		Name	25de887156ee	Poison de scarabée	lot talents_021
+sort	705877		Description	6cc26e1a4d84	Augmente de $s1% vos chances de coup critique et réduit de $s2% la menace générée par vos sorts vaudous.	lot talents_021
+sort	705877		Name	903cea23c7d5	Style de Strangleronce	lot talents_021
+sort	705880		Description	936b78646f4a	Réduit de $s1% le coût en mana de vos |cffffffffGardes|r, |cffffffffIdoles|r et |cffffffffEffigies|r.	lot talents_021
+sort	705880		Name	f0b57cd878df	Chercheur	lot talents_021
+sort	705894		Description	617b131da17e	Augmente de $s2% les dégâts infligés par |cffffffffFlèche maléfique|r et |cFFFFFFFFÉclipse spirituelle|r pour chaque |cffffffffEsprit|r actif sur vous.	lot talents_021
+sort	705894		Name	63285edda891	Dévoreur d'âmes	lot talents_021
+sort	705899		Description	7b7e4e65fd29	Réduit de $s1% le temps de recharge de toutes les |cffffffffGardes|r, |cffffffffIdoles|r et |cffffffffEffigies|R.	lot talents_021
+sort	705899		Name	e88a004010d8	Hâté	lot talents_021
+sort	705899		ToolTip	8a60bcfb1f42	Réduit de ${$w1}% le temps de recharge de toutes les |cffffffffGardes|r.	lot talents_021
+sort	705901		Description	92185f010d18	Vos |cffffffffGardes mimétiques|r lancent désormais aussi |cffffffffMauvais juju|r, et lancer |cffffffffMauvais juju|r réduit désormais de $/1000;504607S1 sec le temps de recharge des |cffffffffMarionnettes d'ombre|r.	lot talents_021
+sort	705901		Name	d163be5dbe97	Vaudou déchaîné	lot talents_021
+sort	705902		Description	cce626a6da12	Augmente de $s1% les dégâts de |cffffffffMaléfice de malveillance|r et de $/1000;s2 sec la durée des |cffffffffGuignes|r.	lot talents_021
+sort	705902		Name	1d5376814378	Malveillance de Zalazane	lot talents_021
+sort	705902		ToolTip	b8bf9cd281b6	Augmente de ${$w1}% les dégâts et l'efficacité des |cffffffffGuignes|r et des |cffffffffMaléfices|r.	lot talents_021
+sort	705903		Description	4fbc5c7902a6	Augmente de $s1% votre mana maximum et réduit de $s2% le coût en mana des sorts et aptitudes.	lot talents_021
+sort	705903		Name	92d4a4d7605c	Ratatiné	lot talents_021
+sort	705903		ToolTip	85ba6c6f3ca7	Augmente le mana maximum de ${$w1}% et réduit le coût des sorts de ${$w2}%.	lot talents_021
+sort	705904		Description	4fbc5c7902a6	Augmente de $s1% votre mana maximum et réduit de $s2% le coût en mana des sorts et aptitudes.	lot talents_021
+sort	705904		Name	92d4a4d7605c	Ratatiné	lot talents_021
+sort	705904		ToolTip	85ba6c6f3ca7	Augmente le mana maximum de ${$w1}% et réduit le coût des sorts de ${$w2}%.	lot talents_021
+sort	705906		Description	1298b1b47ba1	Transforme |cffffffffÉlixir panacée|r en |cffffffffÉlixir panacée de masse|r.@s:706555:0@	lot talents_021
+sort	705906		Name	638194421e96	Pour les loas !	lot talents_021
+sort	705906		ToolTip	8a9ddd85cb68	|cffffffffArmée du loa|r accorde à tous les alliés un bienfait selon votre |cffffffffDévotion|r actuelle.@s:804641@@s:804642@@s:804643@@s:804644@	lot talents_021
+sort	705907		Description	4abf771e412f	Augmente de $s1% les dégâts infligés par |cffffffffVoile des ténèbres|r.	lot talents_021
+sort	705907		Name	30d7675bd40e	Communion avec les loas	lot talents_021
+sort	705909		Description	1c8bedebed31	|cffffffffGrand méchant vaudou|r ne réduit désormais les dégâts infligés que de $s1% et réduit les dégâts subis de $s3% supplémentaires.	lot talents_021
+sort	705909		Name	bf1ae5575f23	Valse manchote	lot talents_021
+sort	705909		ToolTip	269cad044437	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffDanse des loas|r.	lot talents_021
+sort	705910		Description	32e4ea8c71a9	Quand |cffffffffMauvais juju|r est utilisé sur des ennemis affectés par |cffffffffFils du marionnettiste|r, il frappe une fois de plus toutes les $706898T1 sec, pour 30% des dégâts infligés en $706898d, sous forme de dégâts de Nature.	lot talents_021
+sort	705910		Name	884e7cf358d5	Fils vaudous	lot talents_021
+sort	705910		ToolTip	32e4ea8c71a9	Quand |cffffffffMauvais juju|r est utilisé sur des ennemis affectés par |cffffffffFils du marionnettiste|r, il frappe une fois de plus toutes les $706898T1 sec, pour 30% des dégâts infligés en $706898d, sous forme de dégâts de Nature.	lot talents_021
+sort	705911		Description	408303ae875f	Permet à $s2% de votre récupération de mana de se poursuivre pendant l'incantation et réduit de $s1% le retard d'incantation subi lors d'attaques qui infligent des dégâts.	lot talents_021
+sort	705911		Name	fc2bef727411	Traditions spirituelles	lot talents_021
+sort	705911		ToolTip	8302627ef84c	Augmente votre Esprit de ${$w1}% et permet à ${$w2}% de la récupération de mana de se poursuivre pendant l'incantation.	lot talents_021
+sort	705912		Description	5ca0279e9df3	Invoquer votre |cffffffffGolem de guerre|r augmente désormais votre hâte aux sorts de $705913s1% pendant $705913d.\r\n\r\nDe plus, les dégâts périodiques de |cffffffffMaléfice de malveillance|r et les dégâts des |cffffffffMarionnettes d'ombre|r réduisent de $/1000;707333S1 sec le temps de recharge de |cffffffffGolem de guerre|r.	lot talents_021
+sort	705912		Name	60e13996e2c5	Golems malveillants	lot talents_021
+sort	705912		ToolTip	364a698bfa64	Invoquer votre |cffffffffGolem de guerre drakkari|r augmente désormais votre hâte aux sorts de $705913s1% pendant $705913d.	lot talents_021
+sort	705916		Description	d924d36a7e32	|cffffffffVoix de Bwonsamdi|r augmente désormais votre Esprit de $s1%.	lot talents_021
+sort	705916		Name	bed40fb0bc2b	Le prix du pouvoir	lot talents_021
+sort	705916		ToolTip	ad7b0af7ed3c	|cffffffffVoix de Bwonsamdi|r augmente de ${$w1}% les dégâts d'Ombre que vous infligez tant qu'elle est active.	lot talents_021
+sort	705917		Description	26c255cbf01c	Les dégâts infligés par |cffffffffÉruption d'ombre|r et |cffffffffFeu maléfique|r augmentent désormais de $503706s1% les chances que les ennemis subissent un coup critique, pendant $503706d.	lot talents_021
+sort	705917		Name	f20100af43a1	Esprit creux	lot talents_021
+sort	705917		ToolTip	795e9975fca8	Augmente de ${$w2}% les chances de coup critique et les dégâts critiques de |cffffffffCourroux maléfique|r.	lot talents_021
+sort	705921		Name	8115702a8275	Renforcement alchimique	lot talents_021
+sort	705921		ToolTip	fceb90cb5033	Augmente la hâte aux sorts de ${$w1}% et les chances de coup critique de ${$w2}%.	lot talents_021
+sort	705922		Description	0c4b04e838db	Réduit de $/1000;S1 sec le temps d'incantation de |cFFFFFFFFCourroux maléfique|r et de |cFFFFFFFFMauvais juju|r.	lot talents_021
+sort	705922		Name	b3ec68d9a6c8	Magie noire	lot talents_021
+sort	705925		Description	08d9b4dba713	Les dégâts périodiques infligés ont désormais $h% de chances d'augmenter de $705926s1% la hâte de vos |cffffffffGardes serpents|r pendant $705926d, cumulable jusqu'à $705926u fois.	lot talents_021
+sort	705925		Name	96e03d2e6a91	Berserker	lot talents_021
+sort	705928		Description	0b1959ecec90	Votre |cffffffffFlèche maléfique|r inflige désormais $s2% de ses dégâts en plus toutes les $705929t1 sec pendant $705929d, sous forme de dégâts de Nature.	lot talents_021
+sort	705928		Name	16455e171666	Ruse du serpent	lot talents_021
+sort	705936		Description	ddaaaa167fe5	Augmente de $s1% votre Agilité et vos dégâts de Nature et d'Ombre infligés.	lot talents_021
+sort	705936		Name	0d2dec792937	Force du loa	lot talents_021
+sort	705936		ToolTip	69861dd5c9dd	Augmente la puissance d'attaque de ${$w1}% et les dégâts de |cffffffffFrappe du chasseur d'ombre|r de ${$w2}%.	lot talents_021
+sort	705937		Description	ddaaaa167fe5	Augmente de $s1% votre Agilité et vos dégâts de Nature et d'Ombre infligés.	lot talents_021
+sort	705937		Name	0d2dec792937	Force du loa	lot talents_021
+sort	705937		ToolTip	69861dd5c9dd	Augmente la puissance d'attaque de ${$w1}% et les dégâts de |cffffffffFrappe du chasseur d'ombre|r de ${$w2}%.	lot talents_021
+sort	705939		Description	65f2188e039f	Augmente de $/1000;s1 sec le temps de recharge d'|cffffffffAppel de Sseratus|r, mais augmente de $s2 le nombre de |cffffffffGardes serpents|r qu'il invoque.	lot talents_021
+sort	705939		Name	c9f6dc34aa8a	Dresseur de serpents	lot talents_021
+sort	705939		ToolTip	94ccb5681897	Augmente de $/1000;s1 sec le temps de recharge de |cffffffffGarde serpent de masse|r, mais augmente de ${$w2} le nombre de serpents qu'elle invoque.	lot talents_021
+sort	705942		Description	30021b2b01d2	Tant que |cffffffffTraqueur de l'ombre|r ou |cffffffffMirage|r est actif, vous gagnez désormais une charge de |cffffffffFaim vaudoue|r toutes les $807214T2 sec.@s:807213:0@	lot talents_021
+sort	705942		Name	d5a55a8b2246	Faim vaudoue	lot talents_021
+sort	705948		Description	f3085b4c3ade	Lancer |cffffffffÉclipse spirituelle|r avec 5 |cffffffffEsprits|r réinitialise désormais le temps de recharge de |CFFFFFFFFSpirit Glaive|r et garantit un coup critique à votre prochain lancer dans les $707326d.\r\n\r\nLes |CFFFFFFFFSpirit Glaives|r utilisés ainsi réduisent de $/1000;712372s1 sec le temps de recharge de |cffffffffTraqueur de l'ombre|r.	lot talents_021
+sort	705948		Name	ba948cc8038f	Un prix à payer	lot talents_021
+sort	705948		ToolTip	1242d79ffa3b	Augmente de ${$w1}% l'efficacité des sorts |cffffffffBwonsamdi|r et |cffffffffBethekk|r.	lot talents_021
+sort	705949		Description	6af0b6756b8f	Réduit de $s3% le coût des sorts de changement de forme.	lot talents_021
+sort	705949		Name	2a74eed5eb33	Mue	lot talents_021
+sort	705957		Description	880d6fc01f42	Double la durée, le temps de recharge et les soins de |cffffffffBaume vert|r.\r\n\r\nDe plus, il cherche désormais un autre allié proche à soigner toutes les 6 sec, au lieu de le faire à la fin de la durée.	lot talents_021
+sort	705957		Name	22ec01a76c52	Livre de Shadra	lot talents_021
+sort	705959		Description	983490561fff	|cffffffffBrise-ruche|r consomme désormais $/1000;803202s2 sec de la durée de |cffffffffPoison de pointe venimeuse|r pour projeter une vase toxique, infligeant ${$803202m1} points de dégâts de Nature à $803202i ennemis situés à moins de $803202a1 mètres.	lot talents_021
+sort	705959		Name	bed3a7f80337	Expulsion toxique	lot talents_021
+sort	705959		ToolTip	9085021a5ed4	|cffffffffBrise-ruche|r consomme $/1000;803202s2 sec de la durée de votre |cffffffffPoison de pointe venimeuse|r pour projeter une vase toxique, infligeant $803202s1 points de dégâts de Nature aux ennemis situés à moins de $803202a1 mètres.	lot talents_021
+sort	705961		Description	2742262969b8	Chaque fois que vous subissez des dégâts magiques, les dégâts subis de cette école de magie sont réduits de $503989s1% pendant $503989d.\n\nNe peut se produire qu'une fois toutes les 30 sec par école de magie.	lot talents_021
+sort	705961		Name	c6979ef09fca	Carapace runique	lot talents_021
+sort	705961		ToolTip	eb8d51622e13	Chaque fois que vous subissez des dégâts de Feu, de Nature, d'Ombre ou de Givre, tous les dégâts subis de ce type de magie sont réduits de $503989s1% pendant $503989d.	lot talents_021
+sort	705962		Description	f2071749909c	Augmente votre hâte de $s2%.	lot talents_021
+sort	705966		Description	ac45175de70b	Augmente votre armure totale de $s1%.\r\n\r\nDe plus, tant que la forme |cffffffffAraignée|r ou |cffffffffScarabée|r est active, vos attaques ne peuvent être ni parées ni esquivées.	lot talents_021
+sort	705966		Name	d1c9d7ec6dc4	Carapace renforcée	lot talents_021
+sort	705967		Description	3a8629dc09be	Quand une charge de |cff66ff66Chair à vif|r est appliquée, vous êtes désormais soigné de $s1% de vos points de vie maximum.	lot talents_021
+sort	705967		Name	3353f685c9c4	Charme de protection	lot talents_021
+sort	705969		Description	d5a19278e226	Esquiver une attaque génère désormais $/10;572909s1 points de Rage.	lot talents_021
+sort	705969		Name	4f9eade3cb4c	Agitation	lot talents_021
+sort	705970		Description	1883fce97b98	|cFF66DDFFPassif de niveau 20|r\r\nAugmente de $s1% tous les attributs principaux sous |cffffffffForme de scarabée|r.\r\n\r\nDe plus, augmente votre score de toucher de $s2% de tous les attributs principaux.	lot talents_021
+sort	705970		Name	56a5fdf39648	Carapace magique	lot talents_021
+sort	705973		Description	5a7d390812a2	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRuée chitineuse|r et augmente ses dégâts de $s2%.	lot talents_021
+sort	705973		Name	a5f0d36fc938	Afflux chitineux	lot talents_021
+sort	705975		Description	1e9b261617e6	Augmente de $s1% l'efficacité de vos |cFFFFFFFFVenins|r.	lot talents_021
+sort	705975		Name	7d6bd4e33c06	Vénomique	lot talents_021
+sort	705980		Description	3b80261331c5	Les dégâts infligés par |cffffffffRuée chitineuse|r augmentent désormais de $561230s1% vos chances d'esquive pendant $561230d, cumulable $561230u fois.	lot talents_021
+sort	705982		Description	c4f7ddd1ca3b	Les coups critiques de |cffffffffRuée chitineuse|r, |cFFFFFFFFImpact de carapace|r et |cFFFFFFFFBrise-ruche|r appliquent désormais |cffffffffPoison cruel|r.@s:705985:0@	lot talents_021
+sort	705982		Name	89465f5c8793	Poison cruel	lot talents_021
+sort	705991		Description	52716d002c7a	Permet à |cff66ff66Chair à vif|r de se cumuler $s1 fois de plus et d'augmenter de $s2% de moins vos dégâts physiques subis.	lot talents_021
+sort	705991		Name	51b20d268964	Incassable	lot talents_021
+sort	705993		Description	f25a52251ced	Les dégâts et les soins efficaces infligés ont désormais $h% de chances de vous accorder |cffffffffGrimoire d'Ahn'kahet|r pendant $504341d.@s:504341:0@	lot talents_021
+sort	705993		Name	692058c2f690	Grimoire d'Ahn'kahet	lot talents_021
+sort	705996		Description	6c24a35f6a73	Augmente de $s1% l'efficacité de vos |cFFFFFFFFPhéromones|r et de $s2% leur durée.	lot talents_021
+sort	705996		Name	7da0b3ab0b04	Phéromones fortifiantes	lot talents_021
+sort	705998		Description	b5f00b5199c4	Les dégâts directs subis ont désormais $h% de chances de créer une flaque de |cffffffffBave de scarabée|r sous l'ennemi.@s:704347:0@\r\n\r\nNe peut se produire qu'une fois toutes les 3 sec.	lot talents_021
+sort	705998		Name	a857b99d32d6	Visqueux	lot talents_021
+sort	705999		Description	900c7c690e8b	Réduit de $/10;s1 la Rage drainée par |cFFFFFFFFRégénération de carapace|r.	lot talents_021
+sort	705999		Name	6e763c4c0eff	Carapace reconstructrice	lot talents_021
+sort	706001		Description	7b4a089d90b7	|cffffffffImpact de carapace|r crée désormais une flaque de |cffffffffBave de scarabée|r sous chaque ennemi touché.@s:704347:0@	lot talents_021
+sort	706001		Name	7d74534496cf	Dards visqueux	lot talents_021
+sort	706002		Description	52c47281ddc4	Augmente de $s1% vos points de vie maximum et vos chances d'esquive.	lot talents_021
+sort	706002		Name	e1027ac87efc	Exosquelette renforcé	lot talents_021
+sort	706005		Description	4ce470d9b29d	|cffffffffDard vil|r génère $/10;s1 points de Rage et le coût de |cffffffffBrise-ruche|r est réduit de $/10;s2.	lot talents_021
+sort	706005		Name	65ab8860eba8	Furie vile	lot talents_021
+sort	706005		ToolTip	4ce470d9b29d	|cffffffffDard vil|r génère $/10;s1 points de Rage et le coût de |cffffffffBrise-ruche|r est réduit de $/10;s2.	lot talents_021
+sort	706006		Description	2d077736becd	Réduit de $/10;s1 le coût en Rage de |cffffffffBrise-ruche|r et de |cFFFFFFFFImpact de carapace|r et augmente de $s2% vos chances de toucher.	lot talents_021
+sort	706006		Name	65ab8860eba8	Furie vile	lot talents_021
+sort	706007		Description	81309328fcf1	|cffffffffCroc du serpent|r augmente désormais de $572767s1% les dégâts des |cFFFFFFFFCrocs du serpent|r suivants pendant $572767d, cumulable jusqu'à $572767u fois.	lot talents_021
+sort	706007		Name	9681ba786b06	Une fosse aux serpents	lot talents_021
+sort	706007		ToolTip	bb0a2f457d29	|cffffffffCroc du serpent|r augmente les dégâts d'|cFFFFFFFFAnneaux du serpent|r pendant $572767d, cumulable jusqu'à $572767u fois.	lot talents_021
+sort	706009		Description	2366ed7dedb7	Augmente de $s1% les soins de |cffffffffPrière de Shadra|r, |cffffffffBaume vert|r et |cFFFFFFFFAlcahest|r.	lot talents_021
+sort	706009		Name	8483adf72c06	Dons généreux	lot talents_021
+sort	706010		Description	2366ed7dedb7	Augmente de $s1% les soins de |cffffffffPrière de Shadra|r, |cffffffffBaume vert|r et |cFFFFFFFFAlcahest|r.	lot talents_021
+sort	706010		Name	8483adf72c06	Dons généreux	lot talents_021
+sort	706012		Description	7800f5970c3c	Votre |cffffffffFlétrir|r frappe désormais un ennemi proche de plus.	lot talents_021
+sort	706012		Name	02b282daa95e	Dépérissement	lot talents_021
+sort	706014		Description	50191d586170	Les alliés affectés par |cffffffffBaume de Shadra|r ont désormais $800903s1% de chances supplémentaires de résister aux effets de poison et de malédiction.	lot talents_021
+sort	706014		Name	417fea4c3fbe	Veille de la veuve	lot talents_021
+sort	706015		Description	4f1d1dc986eb	Augmente de $s1% vos soins prodigués aux alliés ayant moins de 35% de leurs points de vie ou |cff00ff00empoisonnés|r.	lot talents_021
+sort	706015		Name	027c780ea22e	Glandes à venin	lot talents_021
+sort	706015		ToolTip	2edc43ed1d68	Augmente le mana maximum de ${$w1}% et les chances de coup critique de ${$w2}%.	lot talents_021
+sort	706016		Description	22d07203268d	Permet à tous les soins critiques d'augmenter de $706017s1% les soins périodiques que la cible reçoit de vous pendant $706017d.	lot talents_021
+sort	706016		Name	82a99411bb49	Culte	lot talents_021
+sort	706016		ToolTip	5ca78a52ef73	Permet aux soins critiques d'augmenter de $706017s1% les soins périodiques que la cible reçoit de vous pendant $706017d.	lot talents_021
+sort	706018		Description	7002ce26f254	Les soins directs prodigués ont désormais $h% de chances de vous accorder 5 sec d'|cffffffffAmulette du seigneur serpent|r.@s:800914:0@ @ext: If |cFFFFFFFFSerpent Lord's Amulet|r is already active, triggering this will instead extend its duration by 5 seconds. This cannot extend it past its maximum duration.:ext@	lot talents_021
+sort	706018		Name	2bc7297b23a7	Rituel du seigneur serpent	lot talents_021
+sort	706021		Description	13788cc77f28	Augmente de $s1% vos chances de coup critique et vos soins critiques pendant $d et rend instantanément $706022s1% de votre mana maximum, mais consomme toutes les charges de |cffffffffGuérison mycélienne|r sur tous les alliés proches.\r\n\r\nTant que l'effet est actif, tous les coups critiques périodiques soignent de $s3% supplémentaires des soins prodigués.	lot talents_021
+sort	706021		Name	11ca8e085dd3	Reconstitution mycélienne	lot talents_021
+sort	706021		ToolTip	de571a73e4f6	Augmente de ${$w1}% vos chances de coup critique et vos soins critiques.\r\n\r\nTous les coups critiques périodiques soignent de ${$w3}% supplémentaires des soins prodigués.	lot talents_021
+sort	706023		Description	505a46e05464	|cFF66DDFFPassif de niveau 40|r\r\n|cffffffffMycose|r est désormais améliorée selon votre |cffffffffVenin|r actuellement actif.\r\n\r\n|cffffffffVenin débilitant|r : réduit de $s1% le temps d'incantation.\r\n\r\n|cffffffffVenin de flétrissure|r : prolonge de $/1000;706454s1 sec la durée de |cffffffffSpore|r sur la cible.\r\n\r\n|cffffffffVenin adrénal|r : frappe $s3 cible proche de plus.	lot talents_021
+sort	706023		Name	d131d309c4bb	Venins enivrants	lot talents_021
+sort	706025		Description	5d6a1a10d6c7	Augmente de $s1% les dégâts d'|cffffffffÉclair de venin|r et de $s2% ses chances de coup critique.	lot talents_021
+sort	706025		Name	0cf90a55a4b3	Éclair d'acide	lot talents_021
+sort	706026		Description	c53612970281	Sous |cFFFFFFFFRôder|r, et pendant 4 sec après l'avoir quitté, vous infligez $707358s1% de dégâts en plus.	lot talents_021
+sort	706026		Name	42668bd9cb09	Infestation parasitaire	lot talents_021
+sort	706027		Description	391e941284d7	Réduit de $s1% le coût de tous les sorts et aptitudes.	lot talents_021
+sort	706027		Name	4dde262115f2	Expert en vénomancie	lot talents_021
+sort	706030		Description	84b1583036d7	Les dégâts périodiques infligés ont désormais $h% de chances de réduire de 20% du temps de recharge restant celui de |cffffffffCroc du serpent|r et d'|cffffffffAssaillant fongique|r.	lot talents_021
+sort	706030		Name	4c2baf5fd372	Infestation	lot talents_021
+sort	706030		ToolTip	ee83515141a5	Augmente de ${$w1}% le bonus de dégâts des coups critiques périodiques.	lot talents_021
+sort	706033		Description	ecf8deef8165	Augmente de $s1% les chances de coup critique de |cffffffffCroc venimeux|r et de |cffffffffDard nérubien|r.	lot talents_021
+sort	706033		Name	6253b432e42d	Gloire à Shadra !	lot talents_021
+sort	706035		Description	02d03c70a842	Les coups critiques ont désormais $h% de chances d'augmenter de $504211s1% les soins de votre prochaine |cffffffffPrière de Shadra|r et de la rendre instantanée pendant $504211d.\r\n\r\nNe peut se produire qu'une fois toutes les 5 sec.	lot talents_021
+sort	706035		Name	227a99626314	Stratégie surprise	lot talents_021
+sort	706035		ToolTip	dfbf5e902816	|cffffffffToiles oppressantes|r fait en sorte que votre prochain |cffffffffCroc venimeux|r étourdisse pendant $802851d.	lot talents_021
+sort	706036		Description	9523e583932b	Les dégâts périodiques infligés ont désormais $h% de chances de générer une |cff66ff66Marque de la couvée|r.	lot talents_021
+sort	706036		Name	d647dc5e50ad	Crocs vils	lot talents_021
+sort	706038		Description	79d6321a87b5	Augmente de $s1% le coefficient de puissance des sorts de |cffffffffVenin flétrissant|r.	lot talents_021
+sort	706038		Name	285454c5a0ab	Flétri	lot talents_021
+sort	706040		Description	210d0b626d16	Augmente de $s1% les dégâts critiques de |cFFFFFFFFDiscordance|r et d'|cFFFFFFFFÉclat chromatique|r.	lot talents_021
+sort	706040		Name	2eb17b041f41	Fracas de l'infini	lot talents_021
+sort	706046		Description	c906090965d2	Votre |cffffffffDécomposition|R inflige désormais $s1% de dégâts en plus et applique |cffffffffÉrosion magique|r à la cible, augmentant de $570060s1% les chances des attaquants de la toucher avec des sorts pendant $570060d.	lot talents_021
+sort	706046		Name	f46951ba6255	Érosion magique	lot talents_021
+sort	706053		Description	96f2bfded9e9	Réduit de $/1000;S1 sec le temps d'incantation d'|cffffffffInversion des blessures|r.	lot talents_021
+sort	706053		Name	75a09edbc08d	Inversion des blessures améliorée	lot talents_021
+sort	706055		Description	20edb4bf6466	Réduit de $s1% le temps de canalisation de votre |cffffffffTemps mort !|r.	lot talents_021
+sort	706055		Name	09ad7ab8d82b	Temps accéléré	lot talents_021
+sort	706055		ToolTip	e6dec914a3a1	Réduit de ${$w1}% le temps de canalisation de votre |cffffffffTemps mort !|r.	lot talents_021
+sort	706059		Description	054c22c48787	Votre |cffffffffÉclat chromatique|r et vos |cffffffffPointes d'anomalie|r infligent désormais $s1% de leurs dégâts en plus, sous forme de dégâts chromatiques, à tous les ennemis proches.	lot talents_021
+sort	706059		Name	729472dc8a6d	Chaos changeant	lot talents_021
+sort	706063		Description	7b2c0bcb3560	Réduit de $/1000;s1 sec le temps de recharge de votre |cffffffffBombe à gravité|r, et son explosion survient $/1000;s2 sec plus tôt.	lot talents_021
+sort	706063		Name	fe79f1a48fca	Présage du chaos	lot talents_021
+sort	706063		ToolTip	46af83452fb3	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe à gravité|r, et l'explosion survient 3 sec plus tôt.	lot talents_021
+sort	706071		Description	9f6cc24806bf	Augmente de $s1% les dégâts et les dégâts critiques de votre |cffffffffÉcho brisé|r.	lot talents_021
+sort	706071		Name	5afd2ea11d19	Hyperbaguette	lot talents_021
+sort	706071		ToolTip	87ce7d39090b	Augmente de ${$w1}% les dégâts d'|cffffffffEmpower Wand: Expulso|r.	lot talents_021
+sort	706076		Description	bbb7b44061f0	Lancer |cffffffffDiscordance|r rend désormais votre prochaine |cffffffffBaguette d'artificier|r instantanée pendant $520168d et lui fait générer un |cFFFFFFFFFragment d'écho|r supplémentaire.	lot talents_021
+sort	706076		Name	37e7052ed2ca	Pointage effectué	lot talents_021
+sort	706077		Description	5d1616cf2113	Augmente de $/1000;S2 sec la durée des sorts |cFFC49A6CContinuum|r pour chaque |cFFFFFFFFFragment d'écho|r consommé.	lot talents_021
+sort	706077		Name	feb63cf61792	Incantations domptées	lot talents_021
+sort	706079		Description	e3615b198198	Lancer |cFFFFFFFFBaguette d'artificier|r ou |cFFFFFFFFCanon de cristal|r a désormais $h% de chances de réduire de $/1000;570084s1 sec le temps de recharge de |cFFFFFFFFPrécipiter|r. 	lot talents_021
+sort	706083		Description	887f0e0001a7	Tous les membres du groupe et du raid ne font plus qu'un et se partagent équitablement 25% de tous les dégâts qu'ils subissent pendant $d, jusqu'à un maximum de 100% de leurs points de vie totaux.\r\n\r\nÀ la fin de la durée, tous les alliés affectés sont soignés d'un montant égal au total des dégâts partagés, réparti équitablement entre eux.	lot talents_021
+sort	706083		Name	e7d30cc9fb25	Le vaste infini	lot talents_021
+sort	706084		Description	975c216ba5bd	Augmente de $s1% vos chances de résister aux effets de ralentissement de déplacement.	lot talents_021
+sort	706084		Name	85ecb6044e7b	Surcharge d'entropie	lot talents_021
+sort	706085		Description	c0e63ea36c4a	Permet à $s1% de votre récupération de mana de se poursuivre en combat.	lot talents_021
+sort	706085		Name	1c295a8aa571	Chance	lot talents_021
+sort	706085		ToolTip	9a70e126023d	Permet à ${$w1}% de votre récupération de mana de se poursuivre pendant l'incantation.	lot talents_021
+sort	706096		Description	44c3f414cd5c	Vos coups critiques de dégâts et de soins réduisent désormais de $/1000;706783s1 sec le temps de recharge restant d'|cffffffffOndulation|r. 	lot talents_021
+sort	706096		Name	841c21fed9ef	Une ondulation dans le temps	lot talents_021
+sort	706098		Description	cbfe3eb95d3d	Quand vous lancez |cffffffffÉpoque|r, vous lancez désormais son rang connu le plus élevé, à $s1% d'efficacité, sur un maximum de $542725i autres alliés affectés par |cffffffffRécupération accélérée|r.	lot talents_021
+sort	706098		Name	b8badf5096d2	Récupération épique	lot talents_021
+sort	706098		ToolTip	084a717f5a50	Lance votre rang connu le plus élevé d'|cffffffffÉpoque|r, à $s1% d'efficacité, sur un maximum de $542725i autres alliés affectés par |cffffffffRécupération accélérée|r.	lot talents_021
+sort	706099		Description	ee4cea79d666	Tant que |cffffffffPrécipiter|r est actif, les temps de recharge de |cffffffffDivergence dimensionnelle|r, d'|cffffffffAnomalie temporelle|r et de |cffffffffTemporal Focus|r sont réduits de $707312s1% toutes les $712371t1 sec.	lot talents_021
+sort	706099		Name	e5ecbb563a4a	L'effet Bieko	lot talents_021
+sort	706100		Description	6b7d1a352795	Augmente de $s1% les dégâts infligés par |cffffffffBombe à gravité|r.	lot talents_021
+sort	706100		Name	7f79838efe57	Charme de puissance	lot talents_021
+sort	706102		Description	ca16ca7868eb	Chaque charge de |cffffffffSables du temps|r augmente désormais aussi de $s1% les soins de votre |cffffffffÉpoque|r.	lot talents_021
+sort	706102		Name	9966bbd35911	Datation au carbone	lot talents_021
+sort	706107		Description	a192534deeea	Tant que |cffffffffPrécipiter|r est actif, l'allié a désormais $803382h% de chances, lorsqu'il inflige des dégâts, de frapper la cible une fois de plus pour $803382s1% des dégâts infligés.	lot talents_021
+sort	706107		Name	a06482a9d37c	Défaiseur de réalités	lot talents_021
+sort	706114		Description	884a87b4c39d	|cFF66DDFFPassif de niveau 20|r\r\nAugmente vos dégâts de sorts de $s1% de votre Esprit et votre score de toucher des sorts de $s3% de votre Esprit.	lot talents_021
+sort	706114		Name	fc0d09beeed7	Don du vol draconique infini	lot talents_021
+sort	706121		Description	a6b8b06b9a00	|cFFFFFFFFNoyau de singularité|r augmente désormais de $s2% les dégâts d'|cFFFFFFFFÉcho brisé|r tant qu'il est actif et permet à |cFFFFFFFFÉcho brisé|r de déclencher ses dégâts.	lot talents_021
+sort	706121		Name	a8b991090396	Propulseur à impulsion	lot talents_021
+sort	706122		Description	9ec479cee2ed	Augmente de $s1% l'efficacité de vos |cffffffffFragments d'écho|r.	lot talents_021
+sort	706122		Name	0546b5209f5c	Destin concentré	lot talents_021
+sort	706128		Description	5b04d575f2e6	Supprime le temps de recharge de |cffffffffBouclier infini|r.	lot talents_021
+sort	706128		Name	0219fd54bd58	Infinité	lot talents_021
+sort	706130		Description	f3a3e0050e89	Votre |cffffffffCanon de cristal|r frappe désormais $s1 ennemis proches de plus.	lot talents_021
+sort	706130		Name	5b9a222b27be	Temps fractionné	lot talents_021
+sort	706130		ToolTip	64308233ec99	|cFFFFFFFFBaguette du temps|r applique désormais |cFFFFFFFFTemps fractionné|r à l'ennemi. @s:555730:0@	lot talents_021
+sort	706131		Description	00128abc8c99	Tant que |cffffffffSables infinis|r est actif, le coût en mana de vos sorts et aptitudes est réduit de $s1% par charge.	lot talents_021
+sort	706131		Name	31a7253b13a3	Intemporel	lot talents_021
+sort	706133		Description	43c37711f881	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffChronoverre instable|r.	lot talents_021
+sort	706133		Name	2378979ad757	Tordeur de destin	lot talents_021
+sort	706134		Description	69070708e8e9	Chaque lancer de |cFFFFFFFFRenforcement de la trame temporelle|r prolonge désormais |cFFFFFFFFRécupération accélérée|r de $/1000;s1 sec supplémentaires, et la durée maximale dont |cFFFFFFFFRenforcement de la trame temporelle|r peut prolonger |cFFFFFFFFRécupération accélérée|r est augmentée de $/1000;s2 sec.	lot talents_021
+sort	706134		Name	2a489a16fbb7	Chroniqueur	lot talents_021
+sort	706137		Description	3778f7d83a1d	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRonceraie|r.	lot talents_021
+sort	706137		Name	b4fc459f10ff	Gardien du bosquet	lot talents_021
+sort	706137		ToolTip	d70c71080875	|cFFFFFFFFMain de la Terre-Mère|r  augmente de $573234s1% les chances de coup critique de |cFFFFFFFFCroissance réparatrice|r, cumulable jusqu'à $573234u fois.	lot talents_021
+sort	706138		Description	8667a1ac4016	Les dégâts et les soins des sorts |cFFFFFFFFsismiques|r ont désormais $h% de chances de réduire de $/1000;681357s1 sec le temps de recharge de tous les sorts |cffffffffsismiques|r.	lot talents_021
+sort	706138		Name	e041cbfaf2f3	Guidage de la terre	lot talents_021
+sort	706148		Description	bfb324427139	Tant que vous êtes dans votre |cffffffffRonceraie|r, le temps de recharge de vos aptitudes |cffffffffsismiques|r est réduit de $807120s2%.\r\n\r\nDe plus, la durée de |cffffffffRonceraie|r est doublée.	lot talents_021
+sort	706148		Name	c2b77d8ace09	Soigneur du bosquet	lot talents_021
+sort	706150		Description	34347ae30738	Augmente de $s1% vos soins prodigués et reçus.	lot talents_021
+sort	706150		Name	15bea94c058b	Appel de la nature	lot talents_021
+sort	706153		Description	e7353699f944	Augmente de $s1% les chances de coup critique de |cffffffffFracas totémique|r.	lot talents_021
+sort	706159		Description	7285bc995195	|cFF66DDFFPassif de niveau 20|r\r\nGénérer du |cffc6a36aFaçonnage de la terre|r a désormais $h% de chances de transformer votre prochain |cffffffffBarrage de géodes|r dans les $807048d en |cffffffffLance lithique|r.@s:681251:0@	lot talents_021
+sort	706159		Name	ad9eb73cca21	Lance lithique	lot talents_021
+sort	706160		Description	8ee3766cc781	Votre |cffffffffDéferlante tellurique|r consomme désormais toutes les charges de |cffffffffFaçonnage de la terre|r pour actualiser la durée de |cffffffffForme de golem|r et vous accorde |cffffffffTerre pesante|r pour chaque charge de |cFFFFFFFFFaçonnage de la terre|r consommée.@s:560142:0@	lot talents_021
+sort	706160		Name	7c9a01e0976e	Terre pesante	lot talents_021
+sort	706160		ToolTip	a1e38b0a7d4a	Les dégâts infligés par |cffffffffBarrage de géodes|r et les |cffffffffGéodes|r réduisent de $/1000;560142s1 sec le temps de recharge de |cffffffffCœur d'Azeroth|r.	lot talents_021
+sort	706161		Description	6cde9f9f3cb7	Augmente de $s1% vos chances de parade et d'esquive et de $s3% l'apport d'Armure de vos pièces de mailles et de plaques.	lot talents_021
+sort	706161		Name	be5c6a354cc3	Forme inflexible	lot talents_021
+sort	706161		ToolTip	9d4382cb5841	Augmente la valeur de blocage de ${$w1}% et l'Endurance de ${$w2}%.	lot talents_021
+sort	706162		Description	230608727647	Augmente votre Armure de $s1% de votre Intelligence et réduit de $s2% vos dégâts subis.	lot talents_021
+sort	706162		Name	aa2d5357ba44	Peau de pierre	lot talents_021
+sort	706162		ToolTip	9d4382cb5841	Augmente la valeur de blocage de ${$w1}% et l'Endurance de ${$w2}%.	lot talents_021
+sort	706165		Description	1d1247f9b7d6	Votre |cFFFFFFFFRuée primordiale|r génère désormais $/10;s1 points de Rage supplémentaires.	lot talents_021
+sort	706165		Name	5c640c6a6591	Fureur des éléments	lot talents_021
+sort	706165		ToolTip	55769fcd04d8	Augmente de $/10;s1 la Rage générée par |cFFFFFFFFCharge primordiale|r et génère passivement $/10;s2 points de Rage toutes les $t2 sec.	lot talents_021
+sort	706167		Description	c40c1ee7fb32	Chaque fois que vous êtes touché par un effet d'immobilisation, d'étourdissement ou d'incapacitation, vous êtes désormais instantanément soigné de $707806s1% de vos points de vie maximum.	lot talents_021
+sort	706167		Name	07d231766d6c	Efficacité naturelle	lot talents_021
+sort	706171		Description	66d7208e23af	Les coups critiques des aptitudes qui infligent des dégâts physiques génèrent désormais $/10;560970s1 points de Rage.	lot talents_021
+sort	706171		Name	9d349a9c3f09	Frappes primordiales	lot talents_021
+sort	706174		Description	0be58dda8b3a	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffÉruption|r et fait infliger $s2% de dégâts en plus aux |cFFFFFFFFGéodes de magma|r contre les ennemis ayant plus de 75% de leurs points de vie.	lot talents_021
+sort	706174		Name	ac0e7d11337d	Magmatisme	lot talents_021
+sort	706543		ToolTip	fceb90cb5033	Augmente la hâte aux sorts de ${$w1}% et les chances de coup critique de ${$w2}%.	lot talents_021
+sort	706577		ToolTip	fceb90cb5033	Augmente la hâte aux sorts de ${$w1}% et les chances de coup critique de ${$w2}%.	lot talents_021
+sort	707560		ToolTip	d70c71080875	|cFFFFFFFFMain de la Terre-Mère|r  augmente de $573234s1% les chances de coup critique de |cFFFFFFFFCroissance réparatrice|r, cumulable jusqu'à $573234u fois.	lot talents_021
+sort	707807		Name	15bea94c058b	Appel de la nature	lot talents_021
+sort	707808		Description	6cde9f9f3cb7	Augmente de $s1% vos chances de parade et d'esquive et de $s3% l'apport d'Armure de vos pièces de mailles et de plaques.	lot talents_021
+sort	707808		Name	be5c6a354cc3	Forme inflexible	lot talents_021
+sort	707808		ToolTip	9d4382cb5841	Augmente la valeur de blocage de ${$w1}% et l'Endurance de ${$w2}%.	lot talents_021
+sort	707809		Description	230608727647	Augmente votre Armure de $s1% de votre Intelligence et réduit de $s2% vos dégâts subis.	lot talents_021
+sort	707809		Name	aa2d5357ba44	Peau de pierre	lot talents_021
+sort	707809		ToolTip	9d4382cb5841	Augmente la valeur de blocage de ${$w1}% et l'Endurance de ${$w2}%.	lot talents_021
+sort	707811		Description	e7353699f944	Augmente de $s1% les chances de coup critique de |cffffffffFracas totémique|r.	lot talents_021
+sort	707828		Description	c0e63ea36c4a	Permet à $s1% de votre récupération de mana de se poursuivre en combat.	lot talents_021
+sort	707828		Name	1c295a8aa571	Chance	lot talents_021
+sort	707828		ToolTip	9a70e126023d	Permet à ${$w1}% de votre récupération de mana de se poursuivre pendant l'incantation.	lot talents_021
+sort	707858		Description	671944044959	Augmente de $s1% les soins de vos |cffffffffChampignons de la jungle|r issus de votre |cffffffffChaudron|r.	lot talents_021
+sort	707858		Name	dcee086ada05	Ingrédients frais	lot talents_021
+sort	707870		Description	5d6a1a10d6c7	Augmente de $s1% les dégâts d'|cffffffffÉclair de venin|r et de $s2% ses chances de coup critique.	lot talents_021
+sort	707870		Name	0cf90a55a4b3	Éclair d'acide	lot talents_021
+sort	707873		Name	e1027ac87efc	Exosquelette renforcé	lot talents_021
+sort	707874		Description	2d077736becd	Réduit de $/10;s1 le coût en Rage de |cffffffffBrise-ruche|r et de |cFFFFFFFFImpact de carapace|r et augmente de $s2% vos chances de toucher.	lot talents_021
+sort	707874		Name	65ab8860eba8	Furie vile	lot talents_021
+sort	712480		Description	5d6a1a10d6c7	Augmente de $s1% les dégâts d'|cffffffffÉclair de venin|r et de $s2% ses chances de coup critique.	lot talents_021
+sort	712480		Name	0cf90a55a4b3	Éclair d'acide	lot talents_021

@@ -1,0 +1,302 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	20756		Description	94fd8f7a6b23	Crée une Pierre d'âme supérieure. Elle peut être utilisée pour renfermer l'âme d'une cible. Si la cible meurt alors que son âme est enfermée, elle pourra être rappelée à la vie avec -1600 points de vie et $20760q1 points de mana.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.	lot sorts_standard_014
+sort	20757		Description	35b3d630871a	Crée une Pierre d'âme majeure. Elle peut être utilisée pour renfermer l'âme d'une cible. Si la cible meurt alors que son âme est enfermée, elle pourra être rappelée à la vie avec -2200 points de vie et $20761q1 points de mana.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.	lot sorts_standard_014
+sort	20793		ToolTip	5def667883c9	Dégâts de Feu toutes les $t2 secondes.	lot sorts_standard_014
+sort	20847		Description	b679b09fe8fd	Lorsque vous êtes touché en combat, vous avez 1% de chances d'augmenter l'Armure de tous les membres du groupe de ${$PL*3+50} pendant $18946d.	lot sorts_standard_014
+sort	20869		Description	fb6b3001a73e	Frappe une cible et lui inflige ${$PL*4.1111} points de dégâts de Givre.	lot sorts_standard_014
+sort	20883		Description	3a591b081ac4	Frappe une cible et lui inflige ${$ppl1} points de dégâts des Arcanes.	lot sorts_standard_014
+sort	20895		Description	7ec6d6b033a7	Tant que votre familier est actif, vous et votre familier retrouvez $24529s1% du total de vos points de vie toutes les $24529t1 sec.\r\n\r\nAugmente les soins reçus par vous et votre familier de $24529s2%. @ext:This effect does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	20900		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	20901		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	20902		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	20903		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	20904		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	20911		Description	b8165b35553e	Place une Bénédiction sur la cible alliée qui réduit les dégâts subis de $67480s1% et augmente la Force et l'Endurance de $s2% pendant $d. \r\n\r\nDe plus, quand la cible bloque, pare ou esquive une attaque de mêlée, elle gagne $57319s1% de son mana de base.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_standard_014
+sort	20911		ToolTip	b0349156a94b	Dégâts subis réduits de $67480s1%, Force et Endurance augmentées de $s2%. \r\n\r\nLes attaques de mêlée bloquées, parées et esquivées rendent $57319s1% du mana de base.	lot sorts_standard_014
+sort	20925		Description	75ae49025126	Augmente les chances de bloquer de $s1% pendant $d. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. 8 charges.	lot sorts_standard_014
+sort	20925		ToolTip	f72b9521e7cd	Chances de bloquer augmentées de $s1%. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. $n charges.	lot sorts_standard_014
+sort	20927		Description	75ae49025126	Augmente les chances de bloquer de $s1% pendant $d. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. 8 charges.	lot sorts_standard_014
+sort	20927		ToolTip	f72b9521e7cd	Chances de bloquer augmentées de $s1%. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. $n charges.	lot sorts_standard_014
+sort	20928		Description	75ae49025126	Augmente les chances de bloquer de $s1% pendant $d. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. 8 charges.	lot sorts_standard_014
+sort	20928		ToolTip	f72b9521e7cd	Chances de bloquer augmentées de $s1%. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. $n charges.	lot sorts_standard_014
+sort	20969		Description	60c4e7762054	Rend ${$PL*0.0889} points de vie toutes les $t1 sec.	lot sorts_standard_014
+sort	21012		Description	6ad664fc0a9e	Augmente de $s1% les dégâts que vous infligez avec les attaques de la main gauche.	lot sorts_standard_014
+sort	21056		Description	a1a69ed53e6a	Draine $s1 points de mana toutes les $t secondes.\nExplose lorsqu'il ne peut plus drainer de mana.	lot sorts_standard_014
+sort	21058		Description	8c3b98704698	Explose et inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	21084		Description	aaedae7bdf91	Vous imprègne d'un esprit saint pendant $21084d. Chaque attaque automatique de la main droite et chaque technique de mêlée du paladin inflige ${1+$MWS*(0.0085*$AP+0.072*$SPH)} points de dégâts du Sacré supplémentaires. Un seul Sceau peut être actif à la fois.\n\nLibérer l'énergie de ce Sceau inflige ${1+0.2*$AP+0.32*$SPH} points de dégâts du Sacré à un ennemi.	lot sorts_standard_014
+sort	21084		ToolTip	aa7228a47978	Les attaques automatiques de la main droite et les techniques de mêlée du paladin infligent ${1+$MWS*(0.0085*$AP+0.072*$SPH)} points de dégâts du Sacré supplémentaires.	lot sorts_standard_014
+sort	21098		Description	2bf10ad52edc	Frappe les ennemis proches avec de la glace et leur inflige $s1 points de dégâts, augmente le temps entre leurs attaques de $s2% et réduit leur vitesse de déplacement de $s3%. Cumulable jusqu'à 3 fois.	lot sorts_standard_014
+sort	21151		Description	0714913bf520	Lance un éclair d'ombre sur l'ennemi. Il lui inflige de ${$m1+0.15*$SPS} à ${$M1+0.15*$SPS} points de dégâts d'Ombre et réduit toutes ses caractéristiques de $s2 pendant $d.	lot sorts_standard_014
+sort	21158		Description	cfe89671a4e1	Explose et inflige $s1 points de dégâts de Feu à tous les ennemis se trouvant à moins de 100 mètres.	lot sorts_standard_014
+sort	21162		Description	edf0c0b0d36e	Projette une boule ardente qui inflige ${$SP*0.2+$AP*0.15+$m1} points de dégâts de Feu et ${($SP*0.025+$AP*0.0156+$m2)*5} points de dégâts supplémentaires en $d.	lot sorts_standard_014
+sort	21162		Name	c4666321700f	Main de Ragnaros	lot sorts_standard_014
+sort	21162		ToolTip	c12631afabd9	${($SP*0.025+$AP*0.0156+$m2)} points de dégâts de Feu toutes les $t2 sec.	lot sorts_standard_014
+sort	21165		Description	9ecc99622122	Augmente votre score de hâte de $s1 pendant $d.	lot sorts_standard_014
+sort	21165		ToolTip	32950391ef27	Score de hâte augmenté de $s1.	lot sorts_standard_014
+sort	21170		Description	deb5836f9d65	Vole de ${$m1+0.14*$SPS+0.03*$AP} à ${$M1+0.14*$SPS+0.03*$AP} points de vie à la cible ennemie.	lot sorts_standard_014
+sort	21170		Name	f1bfd02a2462	Frappe-ténèbres	lot sorts_standard_014
+sort	21179		Description	b813fde2b21b	Frappe jusqu'à 3 cibles et leur inflige de ${$PL*1.2+0.03*$SPN+0.03*$AP} à ${$PL*1.2+0.03*$SPN+0.14*$AP} points de dégâts de Nature. Chaque cible après la première subit moins de dégâts.	lot sorts_standard_014
+sort	21179		Name	3dcaacf976ee	Frappe-tonnerre	lot sorts_standard_014
+sort	21181		Rank	9c2a6e4809ae	Normal	lot sorts_standard_014
+sort	21183		Description	b139b8a2f77c	En plus des effets normaux, vos sorts de Jugement augmentent aussi de $20335s1% les chances de coup critique de tous les sorts et attaques effectués contre cette cible.\nNe se cumule pas avec les effets similaires.	lot sorts_standard_014
+sort	21183		ToolTip	391c7b2ef73e	Augmente de $s1% les chances de coup critique de tous les sorts et attaques effectués contre la cible.	lot sorts_standard_014
+sort	21184		Description	9a9067f71c62	Effet désactivé.	lot sorts_standard_014
+sort	21341		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	21341		Rank	cd3a8742431d	Kazzak	lot sorts_standard_014
+sort	21341		ToolTip	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	21551		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21552		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21553		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21562		Description	d5766760a6a3	La puissance imprègne les membres du groupe et du raid et augmente leur Endurance de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21564		Description	d5766760a6a3	La puissance imprègne les membres du groupe et du raid et augmente leur Endurance de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21737		Description	7b38cc79905a	Fixé !	lot sorts_standard_014
+sort	21737		Name	7b38cc79905a	Fixé !	lot sorts_standard_014
+sort	21737		ToolTip	771abc8e0ac3	Se fixe sur vous et vous repousse périodiquement au loin, réduisant votre agressivité.\n	lot sorts_standard_014
+sort	21741		Description	5c57351296fd	Augmente votre puissance des sorts totale de $s1.	lot sorts_standard_014
+sort	21741		Name	bd75c11b76f7	Puissance des sorts démoniaque	lot sorts_standard_014
+sort	21747		Description	39caa6fae33e	Infliger des dégâts a $h% de chances d'infliger ${$21403m1+$AP*0.24+$SP*0.3} points de dégâts magiques à votre ennemi.	lot sorts_standard_014
+sort	21747		Name	30fa89062bb0	Ensemble de 6 pièces Tier 1 du paladin (dégâts)	lot sorts_standard_014
+sort	21838		Description	3f921806100f	Génère un point de rage supplémentaire chaque fois que vous subissez des dégâts directs, et votre valeur de blocage est augmentée de $s2.	lot sorts_standard_014
+sort	21849		Description	efd9c69276ae	Fait bénéficier du Don du fauve tous les membres du groupe et du raid, ce qui augmente leur armure de $s1, toutes leurs caractéristiques de $s2 et toutes leurs résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21850		Description	efd9c69276ae	Fait bénéficier du Don du fauve tous les membres du groupe et du raid, ce qui augmente leur armure de $s1, toutes leurs caractéristiques de $s2 et toutes leurs résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	21853		Description	8bf74755f658	Vous gagnez un score de coup critique égal à $s1% de votre Esprit. 	lot sorts_standard_014
+sort	21853		Name	f5b8f5916ee0	Ensemble de 5 pièces Tier 2 du prêtre	lot sorts_standard_014
+sort	21871		Description	1a65f2bcafa9	Soigner efficacement une cible a une chance d'augmenter votre score de hâte de 50 pendant 10 secondes.	lot sorts_standard_014
+sort	21871		Name	23d4c49826d9	Ensemble de 8 pièces Tier 2 du druide	lot sorts_standard_014
+sort	21872		Description	263f019c2803	Tant que votre mana est supérieur à 75%, vos soins effectifs sont augmentés de $821873s1%.	lot sorts_standard_014
+sort	21872		Name	3ef7c51377d9	Ensemble de 5 pièces Tier 2 du druide	lot sorts_standard_014
+sort	21874		Description	80773d740c6e	Augmente de $s1% votre vitesse d'attaque en mêlée et à distance.	lot sorts_standard_014
+sort	21874		Name	6b44b501baeb	Ensemble de 3 pièces Tier 1 du voleur	lot sorts_standard_014
+sort	21879		Description	b3dcc6f434e3	Augmente votre score de coup critique de $s1.	lot sorts_standard_014
+sort	21879		Name	1c5cf6564c47	Ensemble de 3 pièces Tier 2 du mage	lot sorts_standard_014
+sort	21890		Description	654d2bd67098	Score de toucher augmenté de $s1.	lot sorts_standard_014
+sort	21890		Name	86cec707e7ad	Ensemble de 3 pièces Tier 2 du guerrier (tank)	lot sorts_standard_014
+sort	21894		Description	87c62a47e15f	Augmente votre Esprit de $s1.	lot sorts_standard_014
+sort	21894		Name	42069d0dae7f	Ensemble de 3 pièces Tier 2 du druide	lot sorts_standard_014
+sort	21895		Description	80a7cf1e3cad	Augmente votre total d'Intelligence de $s1%.	lot sorts_standard_014
+sort	21895		Name	95eeb2636a1b	Intelligence augmentée	lot sorts_standard_014
+sort	21899		Description	7f085914ae66	Augmente votre score de hâte de $s1.	lot sorts_standard_014
+sort	21899		Name	b2b35060eb10	Ensemble de 3 pièces Tier 2 du chaman	lot sorts_standard_014
+sort	21922		Description	9c2f6da4be42	Les dégâts périodiques augmentent les dégâts des sorts de $822013s1 pendant $822013d. Cumulable jusqu'à $822013u fois.	lot sorts_standard_014
+sort	21922		Name	4ed13e894906	Ensemble de 5 pièces Tier 2 du démoniste	lot sorts_standard_014
+sort	21928		Description	2eea97e46006	Les attaques qui infligent des dégâts ont une chance d'augmenter votre score de coup critique de $909091s3 et votre puissance d'attaque de $909091s1.	lot sorts_standard_014
+sort	21928		Name	c0c34a792e57	Ensemble de 5 pièces Tier 2 du chasseur	lot sorts_standard_014
+sort	21931		Description	205980457f62	Enchante de manière permanente une arme de mêlée pour augmenter la puissance des sorts de Givre de ${$21930m1+$21930ppl1}. Niveau 20 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_014
+sort	21949		Description	fafe6141d842	Blesse la cible. Elle saigne et subit ${$m1} points de dégâts en $d.	lot sorts_standard_014
+sort	21949		ToolTip	a3629748fa3d	Saigne et subit des dégâts toutes les $t1 sec.	lot sorts_standard_014
+sort	21951		Description	08a3e5fe8244	Rend ${$PL*1.0208} points de mana.	lot sorts_standard_014
+sort	21952		Description	e448f6be76f8	Empoisonne la cible et lui inflige ${$PL*0.1739} points de dégâts de Nature toutes les $t1 sec. pendant $d.	lot sorts_standard_014
+sort	21961		Description	7a9bb0cba6c6	Blesse la cible et lui inflige $s1 points de dégâts. Vos attaques ignorent désormais $s2% de l'Armure de la cible.	lot sorts_standard_014
+sort	21961		ToolTip	296147235a70	Subit des dégâts.\r\nVos attaques ignorent désormais $s2% de l'Armure de la cible.	lot sorts_standard_014
+sort	21973		Description	47af3fa3aa0b	Augmente votre puissance de soins d'une valeur égale à $s1% de votre Esprit.	lot sorts_standard_014
+sort	21973		Name	25f58b365c41	Prophétie de l'esprit	lot sorts_standard_014
+sort	21975		Description	f9fc9b7899b9	Réduit de $s1% le coût des sorts et des techniques.	lot sorts_standard_014
+sort	21975		Name	6e2f4edb5c55	Ensemble de 5 pièces Tier 1 du voleur	lot sorts_standard_014
+sort	21978		Description	69271261fe5b	Lorsque vous lancez un sort de dégâts directs, vous avez une chance d'infliger ${$27860M1+$PL*2} points de dégâts d'Ombre et de vous rendre ${$27860M1+$PL*2} points de mana.	lot sorts_standard_014
+sort	21991		Description	7f7380e3a671	Lorsque vous êtes touché en combat, inflige ${$SP*0.01+$AP*0.01+$21993m1} points de dégâts de Nature à l'attaquant. (1 sec. de recharge)	lot sorts_standard_014
+sort	21991		ToolTip	8c0fca3fab2f	Inflige ${$SP*0.01+$AP*0.01+$21993m1} points de dégâts de Nature à l'attaquant.	lot sorts_standard_014
+sort	21992		Description	c047a76f54f7	Frappe votre ennemi par la foudre, qui lui inflige ${$SP*0.225+$AP*0.1462+$m2} points de dégâts de Nature avant de passer à d'autres ennemis proches. Chaque rebond réduit de $s1 la résistance à la Nature de la victime touchée. Affecte $x1 cibles. Votre cible principale est également engloutie par un cyclone, qui ralentit sa vitesse d'attaque de $27648s1% pendant $d.	lot sorts_standard_014
+sort	22007		Description	895a024ea19a	Les coups critiques des sorts ont $h% de chances d'augmenter de $22013s1% vos dégâts de coup critique pendant 6 secondes.	lot sorts_standard_014
+sort	22007		Name	f85a3f61df34	Ensemble de 8 pièces Tier 2 du mage	lot sorts_standard_014
+sort	22008		ToolTip	6d38d4b56c23	Votre prochain sort direct de mage est instantané.	lot sorts_standard_014
+sort	22010		Description	8c2442ffee4e	Vos sorts de soins directs avec temps d'incantation appliquent désormais un effet de soins sur la durée à la cible, qui augmente aussi de 3% les soins que vous lui prodiguez. Cet effet ne peut se produire plus d'une fois toutes les 5 secondes.	lot sorts_standard_014
+sort	22010		Name	4c180c6d26b2	Ensemble de 8 pièces Tier 2 du prêtre	lot sorts_standard_014
+sort	22067		Name	d327b7aedc2c	Renvoi - Azuregos	lot sorts_standard_014
+sort	22247		ToolTip	845be56daf5e	Vitesse de déplacement réduite de $s1%.\nTemps entre les attaques augmenté de $s2%.	lot sorts_standard_014
+sort	22275		Description	0909d53f1368	Invoque un pilier de feu qui brûle tous les ennemis se trouvant dans la zone sélectionnée et leur inflige $s1 points de dégâts de Feu, puis $s2 points de dégâts de Feu supplémentaires toutes les $t2 sec. pendant $d.	lot sorts_standard_014
+sort	22275		ToolTip	a07201008c04	$s2 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_014
+sort	22277		Name	41b823375e30	Bouclier élémentaire : Feu	lot sorts_standard_014
+sort	22277		ToolTip	0a2c4b88288a	Dégâts de Feu subis augmentés de $s2%.\n\nDégâts subis de toutes les autres formes de magie réduits de $s1%.	lot sorts_standard_014
+sort	22278		Name	5959b854b0b6	Bouclier élémentaire : Givre	lot sorts_standard_014
+sort	22278		ToolTip	c47e64db1bf7	Dégâts de Givre subis augmentés de $s2%.\n\nDégâts subis de toutes les autres formes de magie réduits de $s1%.	lot sorts_standard_014
+sort	22279		Name	cf005c474eca	Bouclier élémentaire : Ombre	lot sorts_standard_014
+sort	22279		ToolTip	c4849b3fbb4a	Dégâts d'Ombre subis augmentés de $s2%.\n\nDégâts subis de toutes les autres formes de magie réduits de $s1%.	lot sorts_standard_014
+sort	22280		Name	dd6f1961384e	Bouclier élémentaire : Nature	lot sorts_standard_014
+sort	22280		ToolTip	37a78d0508b1	Dégâts de Nature subis augmentés de $s2%.\n\nDégâts subis de toutes les autres formes de magie réduits de $s1%.	lot sorts_standard_014
+sort	22281		Name	f38d614f8a8b	Bouclier élémentaire : Arcanes	lot sorts_standard_014
+sort	22281		ToolTip	ab726ad4144a	Dégâts des Arcanes subis augmentés de $s2%.\n\nDégâts subis de toutes les autres formes de magie réduits de $s1%.	lot sorts_standard_014
+sort	22284		Description	2058dfa11af4	Inflige $s1 points de dégâts de Feu toutes les $t1 sec.	lot sorts_standard_014
+sort	22284		ToolTip	2058dfa11af4	Inflige $s1 points de dégâts de Feu toutes les $t1 sec.	lot sorts_standard_014
+sort	22289		Description	3e955acb7111	Endormi.	lot sorts_standard_014
+sort	22289		ToolTip	3e955acb7111	Endormi.	lot sorts_standard_014
+sort	22290		Description	98d0d5483f88	Inflige $s2 points de dégâts de Givre et réduit la vitesse de déplacement de la cible de $s1% pendant $d.	lot sorts_standard_014
+sort	22290		ToolTip	3cb35562a34b	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_014
+sort	22291		Description	f055b40616bc	Pris dans une tempête de sable !\nInflige des dégâts aux alliés proches.\nIncapable de se déplacer.	lot sorts_standard_014
+sort	22291		ToolTip	f055b40616bc	Pris dans une tempête de sable !\nInflige des dégâts aux alliés proches.\nIncapable de se déplacer.	lot sorts_standard_014
+sort	22311		Description	195a631b7ee2	Inflige $s1% de dégâts des Arcanes aux ennemis proches.	lot sorts_standard_014
+sort	22311		ToolTip	195a631b7ee2	Inflige $s1% de dégâts des Arcanes aux ennemis proches.	lot sorts_standard_014
+sort	22312		Description	6b74f6ab989d	Inflige $s1 points de dégâts d'Ombre à la cible et absorbe les $s2 prochains points de soins reçus par la cible. Dure 10 secondes.	lot sorts_standard_014
+sort	22312		ToolTip	879d1e6412ce	Absorbe $s2 points de soins.	lot sorts_standard_014
+sort	22335		Description	b70ed69aa6e0	Jette une bouteille de poison sur la cible, créant une flaque de poison à l'emplacement de la cible.	lot sorts_standard_014
+sort	22335		Name	34bbb16b80fc	Bouteille de poison	lot sorts_standard_014
+sort	22336		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	22371		Description	466b5cdc0fd3	Réduit de $s1% les dégâts magiques infligés par la cible pendant $d.	lot sorts_standard_014
+sort	22371		ToolTip	b33203f18a95	Les dégâts magiques infligés sont réduits de $s1%.	lot sorts_standard_014
+sort	22412		Description	6a32a6be85e0	Empoisonne la cible et lui inflige $s1 points de dégâts de Nature toutes les $t1 secondes. Dure $d. Cumulable jusqu'à 100 fois.	lot sorts_standard_014
+sort	22412		ToolTip	36e2789be7de	$s1 points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_standard_014
+sort	22423		Description	2edddfda87fc	Brûle instantanément un ennemi et lui inflige $s1 points de dégâts de Feu, puis $s2 points de dégâts de Feu supplémentaires toutes les $t2 sec. pendant $d.	lot sorts_standard_014
+sort	22423		ToolTip	a07201008c04	$s2 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_014
+sort	22424		Description	83e33f540684	Libère une vague de flammes qui inflige $s1 points de dégâts de Feu aux ennemis proches et réduit leur vitesse de déplacement de $s2% pendant $d.	lot sorts_standard_014
+sort	22424		ToolTip	ba1969587c1e	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_014
+sort	22433		Description	19c8ca13f4d3	Inflige $s1 points de dégâts de Feu à un ennemi et augmente de $s2% les dégâts de Feu qu'il subit pendant $d.	lot sorts_standard_014
+sort	22433		ToolTip	decaafeede9f	Les dégâts de Feu subis sont augmentés de $s2%.	lot sorts_standard_014
+sort	22436		ToolTip	5573f6aaed10	Baigne les alliés proches de flammes.\n\nInflige $s1 points de dégâts de Feu lorsqu'ils sont attaqués.	lot sorts_standard_014
+sort	22438		Description	42def27109bd	Inflige des dégâts à la cible et aux alliés proches lorsqu'elle est touchée en mêlée.	lot sorts_standard_014
+sort	22438		ToolTip	42def27109bd	Inflige des dégâts à la cible et aux alliés proches lorsqu'elle est touchée en mêlée.	lot sorts_standard_014
+sort	22439		Description	f9504ea8c1ac	Inflige $s1 points de dégâts de Feu à soi-même et aux alliés proches lorsque vous êtes touché en mêlée.	lot sorts_standard_014
+sort	22439		ToolTip	f9504ea8c1ac	Inflige $s1 points de dégâts de Feu à soi-même et aux alliés proches lorsque vous êtes touché en mêlée.	lot sorts_standard_014
+sort	22458		Description	c18107508bac	Rend $s1% de leurs points de vie maximum à tous les dragonnets proches.	lot sorts_standard_014
+sort	22539		Description	3e048bafd728	Inflige $s1 points de dégâts d'Ombre aux ennemis qui se trouvent dans un cône devant le lanceur de sorts et enveloppe toutes les cibles dans la Flamme d'ombre.	lot sorts_standard_014
+sort	22568		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	22570		Description	ff6149c2b41d	Coup de grâce qui inflige des dégâts et frappe la cible d'incapacité. Inflige plus de dégâts et dure plus longtemps par point de combo :\n   1 point : ${$b1*1+$m1+$mw}-${$b1*1+$M1+$MW} points de dégâts, 1 sec.\n   2 points : ${$b1*2+$m1+$mw}-${$b1*2+$M1+$MW} points de dégâts, 2 sec.\n   3 points : ${$b1*3+$m1+$mw}-${$b1*3+$M1+$MW} points de dégâts, 3 sec.\n   4 points : ${$b1*4+$m1+$mw}-${$b1*4+$M1+$MW} points de dégâts, 4 sec.\n   5 points : ${$b1*5+$m1+$mw}-${$b1*5+$M1+$MW} points de dégâts, 5 sec.\r\n\r\nLes incantations d'une victime non-joueur sont également interrompues pendant $32747d. \r\n\r\nTous les dégâts infligés interrompent l'effet d'incapacité.\r\n\r\n@ext:Does not break from periodic damage.:ext@	lot sorts_standard_014
+sort	22570		ToolTip	3d2cd33789a5	Frappé d'incapacité.	lot sorts_standard_014
+sort	22593		Description	419a37d6fe6c	Ajoute de manière permanente 5 à la résistance au Feu d'un objet placé sur les épaules.	lot sorts_standard_014
+sort	22594		Description	fdc9dee2d75c	Ajoute de manière permanente 5 à la résistance au Givre d'un objet placé sur les épaules.	lot sorts_standard_014
+sort	22596		Description	5545a13f1f7f	Ajoute de manière permanente 5 à la résistance à l'Ombre d'un objet placé sur les épaules.	lot sorts_standard_014
+sort	22597		Description	822bce1e0cbd	Ajoute de manière permanente 5 à la résistance à la Nature d'un objet placé sur les épaules.	lot sorts_standard_014
+sort	22598		Description	8d0e829bce65	Ajoute de manière permanente 5 à la résistance aux Arcanes d'un objet placé sur les épaules.	lot sorts_standard_014
+sort	22599		Description	9d2df0c7a75a	Ajoute de manière permanente 5 à la résistance à toutes les écoles de magie d'un objet placé sur les épaules.	lot sorts_standard_014
+sort	22639		Description	e28381f4402b	Ralentit le mouvement de l'ennemi de $s2% et provoque une hémorragie qui lui fait perdre $o1 points de vie en $d.	lot sorts_standard_014
+sort	22648		Description	6cefc1130a28	$h% de chances, sur un coup critique en mêlée, d'appeler l'esprit d'Eskhandar qui vous protègera au combat pendant $22649d. Cela ne peut pas se produire plus d'une fois toutes les 75 secondes.	lot sorts_standard_014
+sort	22662		ToolTip	8434eb6e6367	$s2 points de dégâts de Nature infligés toutes les $t2 sec.\nCaractéristiques réduites de $s3.\n	lot sorts_standard_014
+sort	22663		ToolTip	99153b131766	Nefarian est invulnérable ; en le harcelant davantage et en vainquant ses sbires, peut-être baissera-t-il sa garde...	lot sorts_standard_014
+sort	22667		Description	676ba3b89802	Utilise la ruse de l'Aile de mort pour charmer la cible, qui attaque les ennemis de Nefarian pendant $d.	lot sorts_standard_014
+sort	22677		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	22678		Name	5e97d58da8e7	Horrifier	lot sorts_standard_014
+sort	22678		ToolTip	aa861fa08993	Horrifié.	lot sorts_standard_014
+sort	22682		ToolTip	3a65d3f458de	$s1 points de dégâts d'Ombre subis par seconde.	lot sorts_standard_014
+sort	22685		ToolTip	b0c8aba54917	Augmente la Défense de 349.	lot sorts_standard_014
+sort	22686		ToolTip	aa861fa08993	Horrifié.	lot sorts_standard_014
+sort	22710		ToolTip	e995248c4826	Dégâts infligés augmentés de $s1%.\nVitesse d'incantation augmentée de $s3%.	lot sorts_standard_014
+sort	22713		Description	4e114a0acdb0	Augmente de $s2% les dégâts subis par les lanceurs de sorts lors des Rafales de flammes suivantes.	lot sorts_standard_014
+sort	22713		ToolTip	86a0c9906dd8	Dégâts subis des Rafales de flammes suivantes du lanceur augmentés de $s2%.	lot sorts_standard_014
+sort	22725		Description	f0d7273fcba7	Ajoute de manière permanente ${$80415m1+$80415ppl1} au score de défense d'un objet porté sur le torse, les jambes, les mains ou les pieds. Niveau 50 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_014
+sort	22738		Description	2229232e67df	Augmente de 0,5 sec. la durée de l'étourdissement de votre Interception.	lot sorts_standard_014
+sort	22749		Description	d8f626f225ce	Enchante de manière permanente une arme de mêlée pour augmenter la puissance des sorts de ${$33027m1+$floor($33027ppl1)}. Niveau 58 ou supérieur requis pour bénéficier de cet effet.\r\n	lot sorts_standard_014
+sort	22749		Name	31a759781b72	Ench. d'arme (Puissance des sorts)	lot sorts_standard_014
+sort	22750		Description	1a901148685f	Enchante de manière permanente une arme de mêlée pour augmenter la puissance des sorts de ${$833027m1+$833027ppl1}. Niveau 58 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_014
+sort	22750		Name	31a759781b72	Ench. d'arme (Puissance des sorts)	lot sorts_standard_014
+sort	22756		Description	014efbb151fb	Augmente de 28 le score de coup critique d'une arme de mêlée pendant 1 heure. Niveau 58 requis. Ne peut être appliquée sur des objets d'un niveau supérieur à 165.	lot sorts_standard_014
+sort	22779		Description	8a6ad8381a54	Fixe de manière permanente une lunette sur un arc ou une arme à feu, augmentant son score de toucher à distance de ${$80416m1+$80416ppl1}. Niveau 50 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_014
+sort	22812		Description	22191233c3ae	La peau du lanceur devient aussi dure que de l'écorce. Tous les dégâts subis sont réduits de $S2%. Durant la protection, les attaques infligeant des dégâts ne provoquent pas de délai dans l'incantation des sorts. Dure $d.\r\n\r\n@ext:This spell is usable while stunned, frozen, incapacitated, feared or asleep.:ext@ \r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_014
+sort	22812		ToolTip	73f5e8ca5e58	Tous les dégâts subis sont réduits de $S2%. Durant la protection, les attaques infligeant des dégâts ne provoquent pas de délai dans l'incantation des sorts.	lot sorts_standard_014
+sort	22817		Description	d637e0e97e3c	Puissance d'attaque augmentée de 200.	lot sorts_standard_014
+sort	22818		Description	9cf48701ca18	Augmente l'Endurance globale de 15%.	lot sorts_standard_014
+sort	22827		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	22828		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	22829		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	22840		Description	56673fb36d6f	Ajoute de manière permanente 10 au score de hâte d'une pièce d'armure de jambes ou de tête.	lot sorts_standard_014
+sort	22844		Description	6e966941ce38	Ajoute de manière permanente 8 à la puissance des sorts d'une pièce d'armure de jambes ou de tête.	lot sorts_standard_014
+sort	22846		Description	e37d8d0fe46f	Ajoute de manière permanente 12 au score d'esquive d'une pièce d'armure de jambes ou de tête.	lot sorts_standard_014
+sort	22859		Description	7ae08dbf7a37	Inflige $s1% des dégâts de l'arme aux ennemis devant le lanceur et blesse les cibles, réduisant l'efficacité de tous les soins de $s2% pendant $d.	lot sorts_standard_014
+sort	22886		Description	03f0f9360ff1	Charge un ennemi, le repousse et lui inflige $s3% des dégâts de l'arme.	lot sorts_standard_014
+sort	22887		Description	2df2b5ec6643	Lance une arme sur un ennemi et lui inflige $s1% des dégâts de l'arme.	lot sorts_standard_014
+sort	22888		Description	bc405b7160b8	Augmente de $s1 le score de coup critique des cibles, de $s2 leur puissance d'attaque et de $222030s1 leur puissance des sorts pendant 2 heures.	lot sorts_standard_014
+sort	22888		ToolTip	350104985b3f	Score de coup critique augmenté de $s1.\nPuissance d'attaque augmentée de $s2.\nDégâts et soins des sorts augmentés de $222030s1.\nNe peut pas être utilisé dans le raid sorti le plus récemment.	lot sorts_standard_014
+sort	22911		Description	d2f216ed1a3e	Charge un ennemi, inflige $s2% des dégâts de l'arme et étourdit l'adversaire pendant $d.	lot sorts_standard_014
+sort	22917		Description	61b152b1b3b3	Adopte une Forme d'Ombre qui augmente les dégâts d'Ombre infligés de $s2% et réduit les dégâts physiques subis de $s1%. Forme d'Ombre dure jusqu'à annulation.	lot sorts_standard_014
+sort	22917		ToolTip	a38e284f7373	Les dégâts d'Ombre infligés sont augmentés de $s2%.\nLes dégâts physiques subis sont réduits de $s1%.	lot sorts_standard_014
+sort	22924		Description	fb170bbcfd02	Inflige des dégâts de Nature aux ennemis proches et les immobilise pendant $d.	lot sorts_standard_014
+sort	22959		Description	b0996688fc25	Vos sorts de Brûlure ont une chance de rendre votre cible vulnérable aux dégâts des sorts, ce qui augmente les chances de coup critique des sorts contre cette cible.\nNe se cumule pas avec les effets similaires.	lot sorts_standard_014
+sort	22979		Description	c59a6e5dd147	Baigne tous les ennemis dans la Flamme d'ombre.	lot sorts_standard_014
+sort	23023		Description	4aaea638f068	Immole un ennemi, lui inflige $o1 points de dégâts de Feu en $d et le plonge dans un état de panique. Pendant que la cible est affectée, les flammes brûlent aussi périodiquement ses alliés proches.	lot sorts_standard_014
+sort	23028		Description	25aee8198e35	Apporte l'illumination à tous les membres du groupe et du raid, augmentant leur Intelligence de $s1 et leur puissance des sorts de $s2 pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	23044		Description	64d38ec90a4a	Augmente de $s1% les soins prodigués par votre sort Soins rapides.	lot sorts_standard_014
+sort	23044		Name	1daf9630680d	Augmentation des soins de Soins rapides	lot sorts_standard_014
+sort	23048		Description	53667e1dd5b9	Augmente votre maximum d'Énergie de $s1.	lot sorts_standard_014
+sort	23048		Name	c76c0376e76d	Maximum d'Énergie augmenté	lot sorts_standard_014
+sort	23061		Description	c90cb79298c2	Relance un nœud d'énergie défaillant pendant le Rituel de l'invocation supérieure.	lot sorts_standard_014
+sort	23135		Description	2604f657c51d	Lancez la balle à un joueur allié. S'il a une place de libre dans un de ses sacs, il l'attrapera !	lot sorts_standard_014
+sort	23151		Description	741da884e359	Crée une Bénédiction quand il est combiné avec l'Œil de l'ombre et l'Écharde de Nordrassil.	lot sorts_standard_014
+sort	23151		Rank	befc06dde963	(Normal)	lot sorts_standard_014
+sort	23153		Description	d8b37434fd7b	Vitesse d'incantation réduite de $s2%.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23153		ToolTip	d8b37434fd7b	Vitesse d'incantation réduite de $s2%.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23154		Description	9ff7d0f2e4e3	Réduit de $s1% les soins reçus par la cible et la menace qu'elle génère.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23154		ToolTip	9ff7d0f2e4e3	Réduit de $s1% les soins reçus par la cible et la menace qu'elle génère.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23155		Description	19114af26cf6	Inflige chaque seconde des dégâts de Feu égaux à $s1% des points de vie maximum et augmente de $s2% la menace générée par la cible.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nSi la cible meurt, Chromaggus récupère des points de vie.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23155		ToolTip	506465d03343	Inflige chaque seconde des dégâts de Feu égaux à $s1% des points de vie maximum et augmente de $s2% la menace générée par la cible.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nSi la cible meurt, Chromaggus récupère des points de vie.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.\n	lot sorts_standard_014
+sort	23158		Description	b0fbcc63d086	Réduit de $/1000;s1 sec. le temps de recharge de votre Tir multiple.	lot sorts_standard_014
+sort	23158		Name	b557a144ee09	Temps de recharge de Tir multiple réduit	lot sorts_standard_014
+sort	23168		Description	5639efab3b50	Rend $s1% des points de vie maximum.	lot sorts_standard_014
+sort	23168		ToolTip	5639efab3b50	Rend $s1% des points de vie maximum.	lot sorts_standard_014
+sort	23169		Description	06873aec8617	Réduit de $s1% la puissance d'attaque en mêlée et à distance. \n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23169		ToolTip	06873aec8617	Réduit de $s1% la puissance d'attaque en mêlée et à distance. \n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23170		Description	d1cda647d2ac	Fige périodiquement la cible dans le temps pendant $23171d.\n\nPeut être retiré avec le Sable du sablier.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23170		ToolTip	d1cda647d2ac	Fige périodiquement la cible dans le temps pendant $23171d.\n\nPeut être retiré avec le Sable du sablier.\n\nAugmente tous les dégâts infligés de $s3%. Cet effet est multiplicatif.\n\nQuelque chose de terrifiant se produira si toutes les Afflictions de l'espèce sont combinées.	lot sorts_standard_014
+sort	23171		Description	e5b5e8562bb5	Figé dans le temps.	lot sorts_standard_014
+sort	23171		ToolTip	e5b5e8562bb5	Figé dans le temps.	lot sorts_standard_014
+sort	23174		Description	6625608537b6	La combinaison de magies draconiques a transformé la cible en Drakônide chromatique.\n\nTous les dégâts sont augmentés de $s2%.\nSoins reçus réduits de $s3%.	lot sorts_standard_014
+sort	23174		ToolTip	73cc8c3c4b6b	Vous avez muté !\n\nLa combinaison de magies draconiques vous a transformé en Drakônide chromatique.\n\nTous les dégâts sont augmentés de $s2%.\nSoins reçus réduits de $s3%.	lot sorts_standard_014
+sort	23187		Description	e36f08202aa8	Inflige $s1 points de dégâts de Givre à tous les ennemis et réduit de $s2% la vitesse d'attaque en mêlée et à distance des cibles situées dans un cône devant le lanceur pendant $d.	lot sorts_standard_014
+sort	23192		Description	cc0a7041811a	Forme Rhok'delar, l'arc long des Gardiens anciens, quand il est combiné avec un Bâton gravé de runes anciennes.	lot sorts_standard_014
+sort	23194		Description	cc0a7041811a	Forme Rhok'delar, l'arc long des Gardiens anciens, quand il est combiné avec un Bâton gravé de runes anciennes.	lot sorts_standard_014
+sort	23194		Rank	45e118d0563e	Normal	lot sorts_standard_014
+sort	23218		Description	582ca91e647b	Augmente votre vitesse de déplacement de $s1% lorsque vous êtes en forme d'ours, de félin ou de voyage. Ne fonctionne qu'en extérieur.	lot sorts_standard_014
+sort	23262		ToolTip	a8b51dd71fcd	Puissance d'attaque en mêlée réduite de $s1%.	lot sorts_standard_014
+sort	23331		ToolTip	ba1969587c1e	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_014
+sort	23545		Name	95eeb2636a1b	Intelligence augmentée	lot sorts_standard_014
+sort	23554		Description	7f085914ae66	Augmente votre score de hâte de $s1.	lot sorts_standard_014
+sort	23559		Description	80773d740c6e	Augmente de $s1% votre vitesse d'attaque en mêlée et à distance.	lot sorts_standard_014
+sort	24097		ToolTip	36e2789be7de	$s1 points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_standard_014
+sort	24248		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	24479		Description	87c62a47e15f	Augmente votre Esprit de $s1.	lot sorts_standard_014
+sort	24611		ToolTip	a07201008c04	$s2 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_014
+sort	24612		Description	0909d53f1368	Invoque un pilier de feu qui brûle tous les ennemis se trouvant dans la zone sélectionnée et leur inflige $s1 points de dégâts de Feu, puis $s2 points de dégâts de Feu supplémentaires toutes les $t2 sec. pendant $d.	lot sorts_standard_014
+sort	24612		ToolTip	a07201008c04	$s2 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_014
+sort	25248		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	25392		Description	d5766760a6a3	La puissance imprègne les membres du groupe et du raid et augmente leur Endurance de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	26991		Description	efd9c69276ae	Fait bénéficier du Don du fauve tous les membres du groupe et du raid, ce qui augmente leur armure de $s1, toutes leurs caractéristiques de $s2 et toutes leurs résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	27065		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	27179		Description	75ae49025126	Augmente les chances de bloquer de $s1% pendant $d. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. 8 charges.	lot sorts_standard_014
+sort	27179		ToolTip	f72b9521e7cd	Chances de bloquer augmentées de $s1%. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. $n charges.	lot sorts_standard_014
+sort	27831		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	29317		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	29563		ToolTip	a07201008c04	$s2 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_014
+sort	29618		ToolTip	decaafeede9f	Les dégâts de Feu subis sont augmentés de $s2%.	lot sorts_standard_014
+sort	29666		ToolTip	3cb35562a34b	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_014
+sort	29717		ToolTip	3cb35562a34b	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_014
+sort	29924		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	29927		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	30330		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	30510		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	30708		ToolTip	391c7b2ef73e	Augmente de $s1% les chances de coup critique de tous les sorts et attaques effectués contre la cible.	lot sorts_standard_014
+sort	31018		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	31036		ToolTip	32950391ef27	Score de hâte augmenté de $s1.	lot sorts_standard_014
+sort	32961		Description	8c3b98704698	Explose et inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	34775		Rank	45e118d0563e	Normal	lot sorts_standard_014
+sort	37297		Description	87c62a47e15f	Augmente votre Esprit de $s1.	lot sorts_standard_014
+sort	37344		ToolTip	b3dcc6f434e3	Augmente votre score de coup critique de $s1.	lot sorts_standard_014
+sort	38234		ToolTip	3cb35562a34b	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_014
+sort	38585		ToolTip	a07201008c04	$s2 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_014
+sort	38617		ToolTip	3cb35562a34b	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_014
+sort	38628		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	38718		Description	36e2789be7de	$s1 points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_standard_014
+sort	38904		Description	2df2b5ec6643	Lance une arme sur un ennemi et lui inflige $s1% des dégâts de l'arme.	lot sorts_standard_014
+sort	39029		ToolTip	36e2789be7de	$s1 points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_standard_014
+sort	39060		Description	2df2b5ec6643	Lance une arme sur un ennemi et lui inflige $s1% des dégâts de l'arme.	lot sorts_standard_014
+sort	39062		ToolTip	3cb35562a34b	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_014
+sort	39175		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	41782		Description	2eea97e46006	Les attaques qui infligent des dégâts ont une chance d'augmenter votre score de coup critique de $909091s3 et votre puissance d'attaque de $909091s1.	lot sorts_standard_014
+sort	47485		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	47486		Description	335f070fa23c	Une attaque vicieuse qui inflige $s3% des dégâts de l'arme plus $s2 et blesse la cible, réduisant l'efficacité de tous les soins de $s1% pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	48162		Description	d5766760a6a3	La puissance imprègne les membres du groupe et du raid et augmente leur Endurance de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	48470		Description	efd9c69276ae	Fait bénéficier du Don du fauve tous les membres du groupe et du raid, ce qui augmente leur armure de $s1, toutes leurs caractéristiques de $s2 et toutes leurs résistances de $s3 pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	48576		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	48577		Description	858876bc731b	Coup de grâce qui inflige des dégâts par point de combo et convertit chaque point d'énergie supplémentaire @ext:(jusqu'à un maximum de $s2 points d'énergie supplémentaires):ext@ en ${$f1+$AP/410}.1 points de dégâts supplémentaires.\n   1 point : ${$m1+$b1*1+0.07*$AP}-${$M1+$b1*1+0.07*$AP} points de dégâts\n   2 points : ${$m1+$b1*2+0.14*$AP}-${$M1+$b1*2+0.14*$AP} points de dégâts\n   3 points : ${$m1+$b1*3+0.21*$AP}-${$M1+$b1*3+0.21*$AP} points de dégâts\n   4 points : ${$m1+$b1*4+0.28*$AP}-${$M1+$b1*4+0.28*$AP} points de dégâts\n   5 points : ${$m1+$b1*5+0.35*$AP}-${$M1+$b1*5+0.35*$AP} points de dégâts	lot sorts_standard_014
+sort	48951		Description	75ae49025126	Augmente les chances de bloquer de $s1% pendant $d. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. 8 charges.	lot sorts_standard_014
+sort	48951		ToolTip	f72b9521e7cd	Chances de bloquer augmentées de $s1%. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. $n charges.	lot sorts_standard_014
+sort	48952		Description	75ae49025126	Augmente les chances de bloquer de $s1% pendant $d. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. 8 charges.	lot sorts_standard_014
+sort	48952		ToolTip	f72b9521e7cd	Chances de bloquer augmentées de $s1%. Chaque blocage dépense une charge et inflige $s3 points de dégâts du Sacré à l'attaquant. $n charges.	lot sorts_standard_014
+sort	49049		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	49050		Description	dfb2abefd59f	Un tir précis qui inflige $s3% des dégâts de l'arme plus ${$RAP*0.20+$m1} et réduit les soins reçus par cette cible de $s2%. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_014
+sort	49802		Description	ff6149c2b41d	Coup de grâce qui inflige des dégâts et frappe la cible d'incapacité. Inflige plus de dégâts et dure plus longtemps par point de combo :\n   1 point : ${$b1*1+$m1+$mw}-${$b1*1+$M1+$MW} points de dégâts, 1 sec.\n   2 points : ${$b1*2+$m1+$mw}-${$b1*2+$M1+$MW} points de dégâts, 2 sec.\n   3 points : ${$b1*3+$m1+$mw}-${$b1*3+$M1+$MW} points de dégâts, 3 sec.\n   4 points : ${$b1*4+$m1+$mw}-${$b1*4+$M1+$MW} points de dégâts, 4 sec.\n   5 points : ${$b1*5+$m1+$mw}-${$b1*5+$M1+$MW} points de dégâts, 5 sec.\r\n\r\nLes incantations d'une victime non-joueur sont également interrompues pendant $32747d. \r\n\r\nTous les dégâts infligés interrompent l'effet d'incapacité.\r\n\r\n@ext:Does not break from periodic damage.:ext@	lot sorts_standard_014
+sort	49802		ToolTip	3d2cd33789a5	Frappé d'incapacité.	lot sorts_standard_014
+sort	54105		Description	36e2789be7de	$s1 points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_standard_014
+sort	54105		ToolTip	36e2789be7de	$s1 points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_standard_014
+sort	54498		ToolTip	391c7b2ef73e	Augmente de $s1% les chances de coup critique de tous les sorts et attaques effectués contre la cible.	lot sorts_standard_014
+sort	54499		ToolTip	391c7b2ef73e	Augmente de $s1% les chances de coup critique de tous les sorts et attaques effectués contre la cible.	lot sorts_standard_014
+sort	55638		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	55851		Description	828e718b687f	Lance des projectiles de magie noire qui infligent $s1 points de dégâts d'Ombre aux ennemis proches.	lot sorts_standard_014
+sort	56405		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	57374		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014
+sort	57464		Description	d0872392a0ba	Lance un éclair de magie noire sur un ennemi et lui inflige $s1 points de dégâts d'Ombre.	lot sorts_standard_014

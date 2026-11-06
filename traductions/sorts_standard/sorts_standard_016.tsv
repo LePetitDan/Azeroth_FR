@@ -1,0 +1,293 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	24398		Description	b884eca3f259	Le lanceur est entouré de $24398n globes d'eau, ce qui lui rend $24398s2 points de mana toutes les 5 secondes. S'il est touché par une attaque en mêlée ou à distance ou par un sort, il reçoit $23575s1 points de mana. Un globe d'eau est ainsi dépensé. Un seul globe peut s'activer toutes les quelques secondes. Dure $24398d.	lot sorts_standard_016
+sort	24407		Description	2238b11fee89	Déclenche une attaque fulgurante, instantanée sur un ennemi et lui inflige $s1% des dégâts de l'arme en plus. Ne peut être utilisée qu'une fois que la cible a esquivé. Fulgurance ne peut pas être bloquée, esquivée ou parée.	lot sorts_standard_016
+sort	24423		Description	f9521c1901cb	Frappe un seul ennemi, lui infligeant $s1 points de dégâts, et diminue de $s2 la puissance d'attaque en mêlée de tous les ennemis à portée de combat. L'effet dure $d.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24425		Description	aa5d8fde89e8	Augmente toutes les caractéristiques de $s1 pendant $d. 	lot sorts_standard_016
+sort	24425		ToolTip	39c122073c2f	Toutes les caractéristiques sont augmentées de $s1.	lot sorts_standard_016
+sort	24427		Description	fde301ba73cc	Rend ${$PL*0.16} points de vie toutes les $t2 sec. et augmente votre Force de ${$PL*1.48}. Dure $d.	lot sorts_standard_016
+sort	24431		Description	c380dbca7369	Frapper un ennemi dont les points de vie sont supérieurs à 75% a $h% de chances d'augmenter votre Force de $41885s1 et votre armure de $41885s2% de votre Force pendant 8 secondes.	lot sorts_standard_016
+sort	24437		Description	6f1d99e75838	Draine $s1 points de vie aux ennemis qui se trouvent à proximité et rend au lanceur de sorts jusqu'à 10 fois le montant de points de vie volés.	lot sorts_standard_016
+sort	24438		Description	302efdc0eece	Augmente de $s1% les dégâts physiques des alliés qui se trouvent à proximité pendant $d.	lot sorts_standard_016
+sort	24438		ToolTip	0b25bcd382ff	Dégâts physiques augmentés de $s1%.	lot sorts_standard_016
+sort	24450		Name	c37c547b5448	Rôder (Familier)	lot sorts_standard_016
+sort	24452		Name	c37c547b5448	Rôder (Familier)	lot sorts_standard_016
+sort	24453		Name	c37c547b5448	Rôder (Familier)	lot sorts_standard_016
+sort	24456		Description	56f293e57c1b	Augmente la Force et l'Endurance de $s1.	lot sorts_standard_016
+sort	24457		Description	33b33b3cf32f	Augmente votre armure de $s1 et votre puissance d'attaque de $s2.	lot sorts_standard_016
+sort	24460		Description	1431a1ec7b47	Augmente vos dégâts des sorts de $s1% de votre Endurance.	lot sorts_standard_016
+sort	24461		Description	3bb478da7c7e	Augmente vos chances de coup critique de $s1%.	lot sorts_standard_016
+sort	24462		Description	b31f0092c20b	Vos coups critiques avec les sorts ont $h% de chances d'augmenter la puissance de vos sorts de $41659s1 et de vous rendre $41659o2 points de mana en $41659d. Cet effet ne peut se produire plus d'une fois toutes les 35 secondes.	lot sorts_standard_016
+sort	24465		Description	13f5dfa1ff9f	Augmente vos chances de coup critique de $s1%.	lot sorts_standard_016
+sort	24467		Description	391bd95815f3	Les coups critiques en mêlée et à distance ont $h% de chances d'augmenter votre puissance d'attaque en mêlée et à distance de $41831s1 pendant $41831d secondes. Cet effet ne peut se produire plus d'une fois toutes les 20 secondes.	lot sorts_standard_016
+sort	24469		Description	d08e2b94b992	Hâte en mêlée et à distance augmentée de $s1%.	lot sorts_standard_016
+sort	24471		Description	e848cc2406b1	Vous infligez $s1% de dégâts supplémentaires aux cibles dont les points de vie sont inférieurs à 35%.	lot sorts_standard_016
+sort	24480		Description	ec9e83d377f8	Vos incantations ont $h% de chances de vous octroyer $41776s1 de score de hâte pendant $41776d. Cet effet ne peut se produire plus d'une fois toutes les 15 secondes.	lot sorts_standard_016
+sort	24483		Description	544f65acdcb3	 Augmente votre score de coup critique de $s1% de votre Esprit.	lot sorts_standard_016
+sort	24486		Description	405cc6ec2adc	Augmente de $s1% les dégâts infligés par les sorts périodiques.	lot sorts_standard_016
+sort	24487		Description	b510935cbdf0	Vos dégâts périodiques ont $h% de chances de vous octroyer 20% de chances de coup critique supplémentaires pour votre prochain sort. Cet effet ne peut se produire plus d'une fois toutes les 15 secondes.	lot sorts_standard_016
+sort	24489		Description	391e941284d7	Réduit de $s1% le coût de tous les sorts et de toutes les aptitudes.	lot sorts_standard_016
+sort	24491		Description	bbe0366d4834	Augmente de $s1% le bonus de dégâts des coups critiques de vos sorts.	lot sorts_standard_016
+sort	24574		Description	2002b798cc32	Augmente votre armure de ${$24575m1*20} et votre score de défense de ${$24575m2*20} pendant $d. Chaque fois que vous subissez des dégâts en mêlée ou à distance, ce bonus est réduit de $24575s1 en armure et de $24575s2 en score de défense.	lot sorts_standard_016
+sort	24577		Description	d6f1b59f6e2c	Frappe un seul ennemi, lui infligeant $s1 points de dégâts, et diminue de $s2 la puissance d'attaque en mêlée de tous les ennemis à portée de combat. L'effet dure $d. \nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24578		Description	d6f1b59f6e2c	Frappe un seul ennemi, lui infligeant $s1 points de dégâts, et diminue de $s2 la puissance d'attaque en mêlée de tous les ennemis à portée de combat. L'effet dure $d. \nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24579		Description	d6f1b59f6e2c	Frappe un seul ennemi, lui infligeant $s1 points de dégâts, et diminue de $s2 la puissance d'attaque en mêlée de tous les ennemis à portée de combat. L'effet dure $d. \nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24596		Description	3359af8956fe	Vous vous sentez bizarre...\n\nChances d'esquiver réduites de $s1%.\nChances de toucher réduites de $s3%.	lot sorts_standard_016
+sort	24596		ToolTip	3359af8956fe	Vous vous sentez bizarre...\n\nChances d'esquiver réduites de $s1%.\nChances de toucher réduites de $s3%.	lot sorts_standard_016
+sort	24604		Description	f200bd2b687c	Augmente de $s1 la puissance d'attaque du loup et celle de son maître pendant $d.	lot sorts_standard_016
+sort	24604		ToolTip	8a38d32d596f	Puissance d'attaque augmentée.	lot sorts_standard_016
+sort	24610		Description	11275f15c71c	Augmente le score de toucher de $s1 pendant $d.	lot sorts_standard_016
+sort	24610		ToolTip	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	24611		Description	6fa5f48ae894	Inflige $s1 points de dégâts de Feu à un ennemi et le brûle pour $s2 points de dégâts de Feu supplémentaires toutes les $t2 secondes pendant $d. Cumulable jusqu'à 10 fois.	lot sorts_standard_016
+sort	24614		Description	984577c651e2	Le lanceur de sorts inflige périodiquement des dégâts d'Ombre aux ennemis qui se trouvent à proximité.	lot sorts_standard_016
+sort	24614		ToolTip	c378e776994c	Inflige des dégâts périodiques aux ennemis qui se trouvent à proximité et réduit leur vitesse de déplacement.	lot sorts_standard_016
+sort	24618		Description	4ecbb3c31458	Draine $o1 points de vie à un ennemi en $d et les transfère au lanceur de sorts, qui reçoit 10 fois le montant drainé en soins.	lot sorts_standard_016
+sort	24619		Description	f6e13ff3e6e6	Consume l'essence de l'âme d'un ennemi et l'envoie dans le royaume du Sang.	lot sorts_standard_016
+sort	24619		ToolTip	af269692cc48	Banni dans le royaume du Sang.	lot sorts_standard_016
+sort	24646		Description	d086f3468350	Augmente les dégâts infligés, mais réduit la vitesse de déplacement de $s2% pendant $d.	lot sorts_standard_016
+sort	24658		Description	6bbd190aa147	Augmente la puissance de vos sorts de 200 pendant $d. Les sorts et les attaques réduisent la puissance des sorts de 10.	lot sorts_standard_016
+sort	24661		Description	fe78ee7ecd0f	Augmente votre puissance d'attaque en mêlée et à distance de 160 pendant $d. Chaque fois que vous touchez une cible, ce bonus est réduit de 8.	lot sorts_standard_016
+sort	24662		ToolTip	d4aacfc5faa6	Puissance d'attaque augmentée de $s1.	lot sorts_standard_016
+sort	24672		Description	ba8d971a4b0d	Augmente la vitesse d'attaque d'un allié de $s1% pendant $d, mais lui inflige aussi des dégâts d'Ombre équivalant à $s2% de ses points de vie maximum toutes les $t2 sec.	lot sorts_standard_016
+sort	24672		ToolTip	9d3999ea761e	Vitesse d'attaque augmentée de $s1%.\nDégâts équivalant à $s2% des points de vie maximum infligés toutes les $t2 sec.	lot sorts_standard_016
+sort	24673		Description	b338a5d3a577	Augmente de $s1% les dégâts physiques subis par un ennemi pendant $d.	lot sorts_standard_016
+sort	24673		ToolTip	7b5f9102affe	Les dégâts physiques subis sont augmentés de $s1%.	lot sorts_standard_016
+sort	24689		ToolTip	f3f088b49f44	Vitesse d'attaque augmentée de $s1%.\nDégâts physiques augmentés de $s2%.	lot sorts_standard_016
+sort	24694		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	24697		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	24752		Description	dc3d6d9e0e96	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et réduit de $s3% les dégâts des sorts subis pendant $d.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24804		Description	032dc3be16ff	Lethon consume l'esprit. Rend $s1 points de vie.	lot sorts_standard_016
+sort	24811		Description	e6f0ab2b4d69	Lethon a arraché votre esprit de votre corps.	lot sorts_standard_016
+sort	24811		ToolTip	e6f0ab2b4d69	Lethon a arraché votre esprit de votre corps.	lot sorts_standard_016
+sort	24854		Description	647337086ee1	Invoque aux pieds du lanceur de sorts un Totem Fontaine de mana qui dispose de ${$PL*0.08} points de vie et dure $d. Il rend $24853s1 points de mana toutes les $24853t1 secondes aux membres du groupe qui se trouvent à moins de $24853a1 mètres.	lot sorts_standard_016
+sort	24858		Description	54e73b30972a	Augmente de $24905s1% la valeur d'armure apportée par les objets en tissu et en cuir, et réduit de $69366s1% les dégâts subis lors d'un étourdissement. Vos sorts de dégâts directs ont $24905h% de chances de régénérer $53506s1% de votre total de mana.\r\n\nTous les membres du groupe et du raid bénéficient de $24907s1% de chances supplémentaires d'obtenir un coup critique avec les sorts. @ext:Does not stack with similar effects.:ext@\n\n@ext:Casting any healing spell will take you out of Moonkin Form.:ext@	lot sorts_standard_016
+sort	24858		ToolTip	13b97d3abcc1	La valeur d'armure apportée par les objets en tissu et en cuir est augmentée de $24905s1%, les dégâts subis lors d'un étourdissement sont réduits de $69366s1%. De plus, les coups critiques avec les sorts à cible unique ont une chance de régénérer instantanément $53506s1% de votre total de mana. Le sélénien ne peut pas lancer de sorts de soins sous cette forme.	lot sorts_standard_016
+sort	24865		Description	bd84bd7341c1	Augmente votre score de coup critique et votre score de coup critique des sorts de ${$PL*0.82}. Dure $d.	lot sorts_standard_016
+sort	24866		Description	9b97d719925d	Augmente votre vitesse de déplacement de $s1% en forme de félin.\r\n\r\nAugmente vos chances d'esquiver de $24864s1% en forme de félin, d'ours et d'ours redoutable.	lot sorts_standard_016
+sort	24907		Description	7aaf57607cc3	Augmente de $s1% les chances d'obtenir un coup critique avec les sorts.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24907		Rank	84944f198d40	Passif	lot sorts_standard_016
+sort	24907		ToolTip	e4684e2020c6	Augmente de $s1% les chances d'obtenir un coup critique avec les sorts.	lot sorts_standard_016
+sort	24928		Description	d71f4c293e2b	Infecte un ennemi pendant $d, ce qui lui inflige $s1 points de dégâts de Nature toutes les $t1 sec.	lot sorts_standard_016
+sort	24928		ToolTip	ead1122a6d73	Subit $s1 points de dégâts de Nature toutes les $t1 sec.	lot sorts_standard_016
+sort	24929		Description	827ec85648e0	Inflige $s1 points de dégâts de Nature aux alliés qui se trouvent à moins de 10 mètres.	lot sorts_standard_016
+sort	24932		Description	ce32d879f659	Pendant qu'il est en forme de félin, d'ours ou d'ours redoutable, le Chef de la meute augmente de $24932s1% les chances d'obtenir un coup critique avec les attaques à distance et en mêlée de tous les membres du groupe et du raid se trouvant à moins de $24932a1 mètres.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	24932		ToolTip	88bf0363a55c	Augmente de $s1% les chances d'obtenir un coup critique avec les attaques à distance et en mêlée.	lot sorts_standard_016
+sort	24994		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	25051		Description	91304dd1b073	Entaille l'armure d'un ennemi et la réduit de $s1% par attaque Fracasser armure. Peut être appliqué jusqu'à 10 fois. Dure $d.	lot sorts_standard_016
+sort	25072		Description	3bf717874d8a	Enchante de manière permanente des gants pour augmenter de ${$25063m1+$25063ppl1}% la menace générée par tous les sorts et attaques. Nécessite le niveau 60 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25073		Description	8233b97221a1	Enchante de manière permanente des gants pour augmenter la puissance des sorts d'Ombre de ${$25064m1+$25064ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25074		Description	02a583302d7a	Enchante de manière permanente des gants pour augmenter la puissance des sorts de Givre de ${$25066m1+$25066ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25078		Description	ad7a5db737de	Enchante de manière permanente des gants pour augmenter la puissance des sorts de Feu de ${$25065m1+$25065ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25079		Description	873059525e9d	Enchante de manière permanente des gants pour augmenter la puissance des sorts de ${$80424m1+$80424ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25080		Description	d77499bd0d6b	Enchante de manière permanente des gants pour augmenter l'Agilité de ${$80420m1+$80420ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25081		Description	861ee8c750f9	Enchante de manière permanente une cape pour augmenter la résistance au Feu de ${$80425m1+$80425ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25082		Description	c3e9dbf067f0	Enchante de manière permanente une cape pour augmenter la résistance à la Nature de ${$80426m1+$80426ppl1}. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25083		Description	a40af8ff8e42	Enchante de manière permanente une cape pour améliorer le camouflage. Nécessite le niveau 58 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25084		Description	da1eb4d0c50f	Enchante de manière permanente une cape pour réduire de ${$25070m1+$25070ppl1}% la menace générée par tous les sorts et attaques. Nécessite le niveau 30 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25086		Description	57398bb2df77	Enchante de manière permanente une cape pour augmenter le score d'esquive de ${$80427m1+$80427ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_016
+sort	25122		Description	21c8ebdfb174	Lorsqu'elle est appliquée sur l'arme cible, elle augmente la puissance des sorts de 36 et le score de coup critique de 14. Dure 1 heure. Nécessite le niveau 58. Ne peut être appliquée sur des objets d'un niveau supérieur à 165.	lot sorts_standard_016
+sort	25123		Description	1b2e35e25bba	Lorsqu'elle est appliquée sur l'arme cible, elle rend 16 points de mana au lanceur de sorts toutes les 5 secondes et augmente la puissance des sorts de 28. Dure 1 heure. Ne peut être appliquée sur des objets d'un niveau supérieur à 165. Nécessite le niveau 58.	lot sorts_standard_016
+sort	25161		Description	c599784032a3	Les vents du désert infligent $s3 points de dégâts de Nature aux ennemis qui se trouvent à moins de 16 mètres. La vitesse de déplacement des ennemis proches du vortex est réduite de $s1%. Les ennemis qui se trouvent dans l'œil de la tempête sont réduits au silence.	lot sorts_standard_016
+sort	25161		ToolTip	70b4f4507f4a	Inflige $s3 points de dégâts de Nature par seconde.\n\nLa vitesse de déplacement des ennemis proches de la tempête est réduite de $s1%.\n\nLes ennemis qui se trouvent dans l'œil de la tempête sont réduits au silence.	lot sorts_standard_016
+sort	25174		Description	72a6e1b27612	Inflige $s1% des dégâts de l'arme à un ennemi et à ses alliés les plus proches, et affecte jusqu'à $x1 cibles. Les coups réduisent aussi l'armure de $s2%. Cumulable jusqu'à 10 fois.	lot sorts_standard_016
+sort	25187		Description	de983b500821	Vitesse de déplacement réduite de $s1%.\nDégâts équivalant à $s2% des points de vie maximum infligés toutes les $t2 secondes.\n\nAugmente les dégâts subis en provenance des Piqûres de la Ruche'Zara.	lot sorts_standard_016
+sort	25187		ToolTip	de983b500821	Vitesse de déplacement réduite de $s1%.\nDégâts équivalant à $s2% des points de vie maximum infligés toutes les $t2 secondes.\n\nAugmente les dégâts subis en provenance des Piqûres de la Ruche'Zara.	lot sorts_standard_016
+sort	25203		Description	4178442e87e4	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25210		Rank	1c92735a2914	Rang 13	lot sorts_standard_016
+sort	25213		Rank	786cfa3d3dc7	Rang 14	lot sorts_standard_016
+sort	25228		Description	b9e00c7f3854	Une fois activé, $s1% de tous les dégâts subis par le maître sont subis à sa place par ce familier lié par le Lien spirituel. Ces dégâts ne peuvent être évités. Dure aussi longtemps que le familier est actif, contrôlé et se trouve à moins de $a1 mètres de son maître.	lot sorts_standard_016
+sort	25228		ToolTip	ceae603bc16f	$s1% des dégâts subis par le maître sont subis à sa place par ce familier lié par le Lien spirituel.	lot sorts_standard_016
+sort	25264		ToolTip	c8ddb1b054e8	Temps entre les attaques augmenté de $s2%.	lot sorts_standard_016
+sort	25295		Description	4712b4ba5306	Mord la cible et lui inflige ${$RAP*0.3+$m1*$d/3} points de dégâts de Nature en $d.	lot sorts_standard_016
+sort	25296		Description	86696fd3cdfe	Le chasseur adopte les qualités du faucon. Il augmente la puissance de ses attaques à distance de $s1. Vous ne pouvez activer qu'un seul aspect à la fois.	lot sorts_standard_016
+sort	25314		Rank	2ba23bee8024	Rang 12	lot sorts_standard_016
+sort	25329		Description	9d0216e036c4	Provoque une explosion de lumière sacrée autour du lanceur de sorts. Elle inflige $25331s1 points de dégâts du Sacré à toutes les cibles ennemies dans un rayon de $25331a1 mètres et rend $25329s1 points de vie à tous les membres du groupe dans un rayon de $25329a1 mètres. Ces effets ne modifient pas le niveau de menace.	lot sorts_standard_016
+sort	25331		Description	947ae8fea4e9	Provoque une explosion de lumière sacrée autour du lanceur de sorts. Elle inflige $25331s1 points de dégâts du Sacré à toutes les cibles ennemies dans un rayon de $25331a1 mètres et rend $25329s1 points de vie à tous les membres du groupe dans un rayon de $25329a1 mètres. Ces effets ne modifient pas le niveau de menace.	lot sorts_standard_016
+sort	25349		Description	ebe97195fdb3	Enduit une arme de poison durant 2 heures.\nChaque coup a $25351h% de chances d'empoisonner l'ennemi et de lui infliger ${$25349m1*4+0.06*$AP} points de dégâts de Nature en $25349d. Cumulable jusqu'à 5 fois sur la même cible.	lot sorts_standard_016
+sort	25351		Description	2daa684b1d22	Enduit une arme de poison durant 2 heures.\nChaque coup a $25351h% de chances d'empoisonner l'ennemi et de lui infliger ${($25349m1+0.03*$AP)*4} points de dégâts de Nature en $25349d. Cumulable jusqu'à 5 fois sur la même cible. Lorsqu'il a été cumulé 5 fois, chaque application de Poison mortel entraîne également l'application du poison sur l'autre arme du voleur.	lot sorts_standard_016
+sort	25361		Description	df38cdbbc7b7	Invoque aux pieds du lanceur de sorts un Totem de force de la Terre qui dispose de $s1 points de vie. Il augmente de $25362s2 la Force et l'Agilité de tous les membres du groupe ou du raid qui se trouvent dans un rayon de $25362a1 mètres autour de lui. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25424		Description	5ecc9c4feb6f	Tire sur un ennemi un trait de poison qui lui inflige $s1 points de dégâts de Nature, puis $s2 points de dégâts de Nature supplémentaires toutes les $t2 sec. pendant $d.	lot sorts_standard_016
+sort	25424		ToolTip	9b2797b0cd89	Inflige $s2 points de dégâts de Nature toutes les $t2 sec.	lot sorts_standard_016
+sort	25431		Description	0bbb396118e3	Une vague d'énergie sacrée emplit le lanceur de sorts. Elle augmente l'armure de $s1 et la puissance des sorts de $s2. Chaque attaque en mêlée ou à distance infligeant des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_016
+sort	25464		ToolTip	500b7338a478	Vitesse de déplacement réduite de $s1%.	lot sorts_standard_016
+sort	25469		Description	640147db7672	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26371s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d.\r\n\r\nUn seul Bouclier élémentaire peut être actif sur l'Héroïne ou le Héros à la fois.	lot sorts_standard_016
+sort	25472		Description	c92d68dc234f	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26372s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d.\r\n\r\nUn seul Bouclier élémentaire peut être actif sur l'Héroïne ou le Héros à la fois.	lot sorts_standard_016
+sort	25500		Description	3601cdbc6a2a	Imprègne votre arme de givre. Chaque coup a une chance d'infliger $965995s1 points de dégâts de Givre supplémentaires et de réduire de $965999s1% la vitesse de déplacement de la cible pendant $965999d. Cet effet dure 2 heures.	lot sorts_standard_016
+sort	25508		Description	102221affaa6	Invoque un Totem de peau de pierre aux pieds du lanceur de sorts. Il dispose de $s1 points de vie et protège les membres du groupe ou du raid qui se trouvent dans un rayon de $25506a1 mètres autour de lui en augmentant leur armure de $25506s1. Dure $d.\r\rCette aptitude peut être utilisée sous forme changeforme.	lot sorts_standard_016
+sort	25509		Description	52627773c4a5	Invoque un Totem de peau de pierre aux pieds du lanceur de sorts. Il dispose de $s1 points de vie et protège les membres du groupe ou du raid qui se trouvent dans un rayon de $25507a1 mètres autour de lui en augmentant leur armure de $25507s1. Dure $d.\r\rCette aptitude peut être utilisée sous forme changeforme.	lot sorts_standard_016
+sort	25525		Description	eee7396628d4	Invoque un Totem de griffes de pierre qui dispose de $s1 points de vie aux pieds du lanceur de sorts pendant $d. Il provoque les créatures se trouvant dans un rayon de $25512a1 mètres pour attirer leurs attaques. Les ennemis qui attaquent le Totem de griffes de pierre ont $25513h% de chances d'être étourdis pendant $39796d. Le Totem de griffes de pierre protège également tous vos totems en leur permettant d'absorber $55278s1 points de dégâts.\r\rCette aptitude peut être utilisée sous forme changeforme.	lot sorts_standard_016
+sort	25528		Description	6056667f6458	Invoque aux pieds du lanceur de sorts un Totem de force de la Terre qui dispose de $s1 points de vie. Il augmente de $25527s2 la Force et l'Agilité de tous les membres du groupe ou du raid qui se trouvent dans un rayon de $25527a1 mètres autour de lui. Dure $d.\r\r\n@ext:Does not stack with other similar effects.:ext@\r\r@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25533		Description	2ecc77e6fb4c	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il dure $d et attaque à répétition un ennemi qui se trouve dans un rayon de $25530r1 mètres, lui infligeant $25530s1 points de dégâts de Feu.\r\n\r\nCette aptitude peut être utilisée sous forme changeforme.	lot sorts_standard_016
+sort	25546		Description	6ad891ac5e17	Le totem de feu actif projette une vague de flammes, ce qui inflige $25535s1 points de dégâts de Feu aux ennemis se trouvant à moins de $25535a1 mètres du totem.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25547		Description	8a085384b55f	Le totem de feu actif projette une vague de flammes, ce qui inflige $25537s1 points de dégâts de Feu aux ennemis se trouvant à moins de $25537a1 mètres du totem.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25550		Description	1af37b16a9f0	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$8190d-1} sec. Il dispose de $8190s1 points de vie et inflige $s1 points de dégâts de Feu toutes les $25551t1 secondes aux créatures situées dans une zone de $a1 mètres de rayon.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25552		Description	90d3084204c5	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$d-1} sec. Il dispose de $s1 points de vie et inflige $25550s1 points de dégâts de Feu toutes les $25551t1 secondes aux créatures situées dans une zone de $25550a1 mètres de rayon.\r\rCette aptitude peut être utilisée sous forme changeforme.	lot sorts_standard_016
+sort	25557		Description	f20dc947aed2	Invoque un Totem Langue de feu aux pieds du lanceur de sorts. Il dispose de $s1 points de vie. L'Intelligence des membres du groupe ou du raid qui se trouvent à moins de $52113a1 mètres du totem est augmentée de $52113s1 et la puissance de leurs sorts de $52113s2. Dure $d.\r\r\n@ext:Does not stack with other similar effects.:ext@\r\r@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25560		Description	2b3b1273b58d	Invoque un Totem de résistance au Givre qui dispose de $s1 points de vie aux pieds du lanceur de sorts pendant $d. Le totem augmente de $25559s1 la résistance au Givre des membres du groupe ou du raid s'ils se trouvent à moins de $25559a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25563		Description	b8e309858cc8	Invoque un Totem de résistance au Feu qui dispose de $s1 points de vie aux pieds du lanceur de sorts pendant $d. Il augmente de $25562s1 la résistance au Feu des membres du groupe ou du raid qui se trouvent dans un rayon de $25562a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25567		Description	1c915854cae8	Invoque aux pieds du lanceur de sorts un Totem guérisseur qui dispose de $s1 points de vie et dure $d. Il rend $25566s1 points de vie toutes les $25566t1 secondes aux membres du groupe se trouvant à moins de $52048a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25570		Description	40728ce960b8	Invoque aux pieds du lanceur de sorts un Totem Fontaine de mana qui dispose de $s1 points de vie et dure $d. Il rend $25569s1 points de mana toutes les 5 secondes à tous les membres du groupe et du raid qui se trouvent à moins de $52036a1 mètres.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25574		Description	13e736f3108d	Invoque un Totem de résistance à la Nature qui dispose de $s1 points de vie aux pieds du lanceur de sorts pendant $d. Il augmente de $25573s1 la résistance à la Nature des membres du groupe ou du raid qui se trouvent dans un rayon de $25573a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_016
+sort	25645		Description	39f8c587373f	Inflige $s1 points de dégâts de Nature à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_016
+sort	25646		Description	1f3c910d55fe	Un coup puissant frappe la cible et diminue l'efficacité des sorts de soins de $s1%. Dure $d. Cumulable jusqu'à 10 fois.	lot sorts_standard_016
+sort	25660		Description	3bfe1680af2e	Rend $o1 points de vie en $d. Vous devez rester assis pendant que vous mangez. Si vous passez au moins 10 secondes à manger, vous serez bien nourri et gagnerez 25 points d'Endurance pendant $25661d.	lot sorts_standard_016
+sort	25671		Description	acb4a1607afc	Draine $s1 points de mana par seconde aux ennemis qui se trouvent à proximité.	lot sorts_standard_016
+sort	25671		ToolTip	acb4a1607afc	Draine $s1 points de mana par seconde aux ennemis qui se trouvent à proximité.	lot sorts_standard_016
+sort	25685		Description	48e87e47f90e	Génère $s2% de mana par seconde.\n\nDégâts subis réduits de $s3%.	lot sorts_standard_016
+sort	25685		ToolTip	48e87e47f90e	Génère $s2% de mana par seconde.\n\nDégâts subis réduits de $s3%.	lot sorts_standard_016
+sort	25768		ToolTip	7b53c5c0257d	Pénétration des sorts augmentée de $s1.	lot sorts_standard_016
+sort	25771		Description	324d3685f027	Une fois protégée, la cible ne peut plus être protégée par Bouclier divin ou Main de protection, ni être ciblée par Imposition des mains, pendant $25771d.	lot sorts_standard_016
+sort	25771		ToolTip	5586065415c7	Ne peut être protégé par Bouclier divin ou Main de protection, ni ciblé par Imposition des mains.	lot sorts_standard_016
+sort	26153		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	27044		Description	86696fd3cdfe	Le chasseur adopte les qualités du faucon. Il augmente la puissance de ses attaques à distance de $s1. Vous ne pouvez activer qu'un seul aspect à la fois.	lot sorts_standard_016
+sort	27051		Description	d6f1b59f6e2c	Frappe un seul ennemi, lui infligeant $s1 points de dégâts, et diminue de $s2 la puissance d'attaque en mêlée de tous les ennemis à portée de combat. L'effet dure $d. \nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	27648		ToolTip	c8ddb1b054e8	Temps entre les attaques augmenté de $s2%.	lot sorts_standard_016
+sort	28154		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	28717		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	29306		Description	b338a5d3a577	Augmente de $s1% les dégâts physiques subis par un ennemi pendant $d.	lot sorts_standard_016
+sort	29306		ToolTip	7b5f9102affe	Les dégâts physiques subis sont augmentés de $s1%.	lot sorts_standard_016
+sort	29801		ToolTip	88bf0363a55c	Augmente de $s1% les chances d'obtenir un coup critique avec les attaques à distance et en mêlée.	lot sorts_standard_016
+sort	31206		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	32359		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	32585		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33032		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33033		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33034		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33035		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33036		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33037		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33038		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33039		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33107		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33108		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33112		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33113		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33114		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33115		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33116		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33117		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33119		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33120		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33135		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33176		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33177		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33178		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33179		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33180		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33181		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33183		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33184		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33185		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33187		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33188		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33327		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	33372		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	34383		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	34617		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	35135		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	35875		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	35876		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	36072		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	36386		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	36423		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	36429		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	37951		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	38185		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	38655		ToolTip	9b2797b0cd89	Inflige $s2 points de dégâts de Nature toutes les $t2 sec.	lot sorts_standard_016
+sort	38703		Rank	2ba23bee8024	Rang 12	lot sorts_standard_016
+sort	38704		Rank	2ba23bee8024	Rang 12	lot sorts_standard_016
+sort	39233		Description	dc3d6d9e0e96	Augmente l'Armure de la cible alliée de $s1, toutes ses caractéristiques de $s2 et réduit de $s3% les dégâts des sorts subis pendant $d.\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	40168		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	40256		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	41730		Description	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	41739		Description	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	41874		Description	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	41974		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	42085		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	42116		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	42121		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	42843		Rank	1c92735a2914	Rang 13	lot sorts_standard_016
+sort	42844		Rank	1c92735a2914	Rang 13	lot sorts_standard_016
+sort	42845		Rank	786cfa3d3dc7	Rang 14	lot sorts_standard_016
+sort	42846		Rank	786cfa3d3dc7	Rang 14	lot sorts_standard_016
+sort	43204		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	43454		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44074		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44076		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44758		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44887		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44888		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44889		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44890		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44891		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44892		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44893		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44894		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44895		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44896		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44897		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44898		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44899		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44900		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44901		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44902		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44903		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44904		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44905		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44906		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44907		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44908		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44909		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44910		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44911		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44912		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44913		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44914		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44915		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44916		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	44917		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	45480		ToolTip	d4aacfc5faa6	Puissance d'attaque augmentée de $s1.	lot sorts_standard_016
+sort	45783		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	46053		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	46698		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	46746		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	46784		ToolTip	d4aacfc5faa6	Puissance d'attaque augmentée de $s1.	lot sorts_standard_016
+sort	47124		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	47501		ToolTip	c8ddb1b054e8	Temps entre les attaques augmenté de $s2%.	lot sorts_standard_016
+sort	47502		ToolTip	c8ddb1b054e8	Temps entre les attaques augmenté de $s2%.	lot sorts_standard_016
+sort	48012		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	48040		Description	0bbb396118e3	Une vague d'énergie sacrée emplit le lanceur de sorts. Elle augmente l'armure de $s1 et la puissance des sorts de $s2. Chaque attaque en mêlée ou à distance infligeant des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_016
+sort	48168		Description	0bbb396118e3	Une vague d'énergie sacrée emplit le lanceur de sorts. Elle augmente l'armure de $s1 et la puissance des sorts de $s2. Chaque attaque en mêlée ou à distance infligeant des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_016
+sort	48270		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	49585		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	49856		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	49921		Rank	2ba23bee8024	Rang 12	lot sorts_standard_016
+sort	49930		Rank	2ba23bee8024	Rang 12	lot sorts_standard_016
+sort	50017		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	50018		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	51466		ToolTip	e4684e2020c6	Augmente de $s1% les chances d'obtenir un coup critique avec les sorts.	lot sorts_standard_016
+sort	51470		ToolTip	e4684e2020c6	Augmente de $s1% les chances d'obtenir un coup critique avec les sorts.	lot sorts_standard_016
+sort	51693		ToolTip	c8ddb1b054e8	Temps entre les attaques augmenté de $s2%.	lot sorts_standard_016
+sort	52181		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	52808		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	53471		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	54163		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	55487		Description	d6f1b59f6e2c	Frappe un seul ennemi, lui infligeant $s1 points de dégâts, et diminue de $s2 la puissance d'attaque en mêlée de tous les ennemis à portée de combat. L'effet dure $d. \nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_016
+sort	56412		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	56413		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	56415		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	56417		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	56419		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	56421		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	61317		Description	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	61435		Description	3bc8cf194b5c	Augmente de $s1 la puissance d'attaque pour les formes de félin, d'ours et d'ours redoutable uniquement.	lot sorts_standard_016
+sort	61671		Description	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	61671		ToolTip	3c70feeca64e	Augmente le score de toucher de $s1.	lot sorts_standard_016
+sort	64491		Description	f200bd2b687c	Augmente de $s1 la puissance d'attaque du loup et celle de son maître pendant $d.	lot sorts_standard_016
+sort	64491		ToolTip	8a38d32d596f	Puissance d'attaque augmentée.	lot sorts_standard_016
+sort	64492		Description	f200bd2b687c	Augmente de $s1 la puissance d'attaque du loup et celle de son maître pendant $d.	lot sorts_standard_016
+sort	64492		ToolTip	8a38d32d596f	Puissance d'attaque augmentée.	lot sorts_standard_016
+sort	64493		Description	f200bd2b687c	Augmente de $s1 la puissance d'attaque du loup et celle de son maître pendant $d.	lot sorts_standard_016
+sort	64493		ToolTip	8a38d32d596f	Puissance d'attaque augmentée.	lot sorts_standard_016
+sort	64494		ToolTip	8a38d32d596f	Puissance d'attaque augmentée.	lot sorts_standard_016
+sort	64495		ToolTip	8a38d32d596f	Puissance d'attaque augmentée.	lot sorts_standard_016
+sort	69167		ToolTip	0b25bcd382ff	Dégâts physiques augmentés de $s1%.	lot sorts_standard_016

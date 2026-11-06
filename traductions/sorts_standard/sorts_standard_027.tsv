@@ -1,0 +1,231 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	39221		ToolTip	9d037f254529	Commence l'attaque contre le portail dimensionnel. Lance un boulet de gangrecanon naturalisé sur le portail dimensionnel, ce qui l'endommage. Un portail dimensionnel est détruit au bout de sept tirs.	lot sorts_standard_027
+sort	39222		ToolTip	a4356b8bc416	Lance un jet de flammes naturalisées sur les diablotins gangrenés et les molosses du Vide instables, ce qui leur inflige des dégâts.	lot sorts_standard_027
+sort	39228		Description	5562862b9e11	Réduit de $s2 les dégâts de chaque attaque, pour un total de points de dégâts absorbés de $s1 au maximum. Dure $d. Considérablement réduit en dehors des instances.	lot sorts_standard_027
+sort	39309		Description	f11061a7e415	Lance un éclair de magie noire sur son hôte et lui inflige des dégâts d'Ombre égaux à $s1% de ses points de vie maximum.	lot sorts_standard_027
+sort	39372		Description	c759b2325a54	Vos dégâts de Givre et d'Ombre vous rendent un montant de points de vie égal à $s1% des dégâts infligés.\r\n\r\nAugmente de $s2% les dégâts de Givre et d'Ombre infligés.	lot sorts_standard_027
+sort	39373		Description	87163e780ff9	Vos dégâts de Givre et d'Ombre vous rendent un montant de points de vie égal à $39372s1% des dégâts infligés.\r\n	lot sorts_standard_027
+sort	39373		ToolTip	87163e780ff9	Vos dégâts de Givre et d'Ombre vous rendent un montant de points de vie égal à $39372s1% des dégâts infligés.\r\n	lot sorts_standard_027
+sort	39409		Name	5633737f9f0b	QAEnchantement de brassards +6 Mana 5 sec	lot sorts_standard_027
+sort	39437		Description	44278928c43b	Vos sorts d'Ombre de dégâts directs ont une chance de vous conférer un bonus de $37378s1 aux dégâts de Feu pendant $37378d.	lot sorts_standard_027
+sort	39437		Name	cd388434fd81	Ombreflamme	lot sorts_standard_027
+sort	39437		ToolTip	44278928c43b	Vos sorts d'Ombre de dégâts directs ont une chance de vous conférer un bonus de $37378s1 aux dégâts de Feu pendant $37378d.	lot sorts_standard_027
+sort	39438		Description	aaa86865ebd9	Chaque fois que vous infligez des dégâts en mêlée ou à distance à un adversaire, vous gagnez 6 points de puissance d'attaque pendant les 10 prochaines sec., cumulable jusqu'à 12 fois. Chaque fois que vous atteignez un adversaire avec un sort néfaste, vous gagnez 8 points de puissance des sorts pendant les 10 prochaines sec., cumulable jusqu'à 6 fois.	lot sorts_standard_027
+sort	39442		Description	81a71e426825	Chaque fois que l'une de vos attaques de dégâts directs ne fait pas de coup critique, vous gagnez $39443s1 points de score de coup critique et $39443s2 points de dégâts des sorts pendant les 10 prochaines sec. Cet effet se dissipe quand vous infligez un coup critique.	lot sorts_standard_027
+sort	39443		ToolTip	a4f045e11300	Score de coup critique augmenté de $s1. Dégâts des sorts augmentés de $s2.	lot sorts_standard_027
+sort	39444		Description	6855b78c1e2e	Lorsque vous êtes touché par une attaque de mêlée, vous avez $h% de chances d'infliger $39445s1 points de dégâts du Sacré à votre attaquant.	lot sorts_standard_027
+sort	39588		Description	27751dc0038b	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il dure $d et attaque à répétition 3 ennemis se trouvant dans un rayon de $39593r1 mètres, leur infligeant $39593s1 points de dégâts de Feu.\r\rCette technique est utilisable sous une forme animale.	lot sorts_standard_027
+sort	39949		ToolTip	7f7e1cdc8ccf	Augmente la vitesse de vol de ${$w2}%.	lot sorts_standard_027
+sort	39957		Description	06c3c687b8b1	Augmente de $s1% les dégâts de vos coups critiques.	lot sorts_standard_027
+sort	39957		Name	345b9c6cea5e	Bonus aux dégâts critiques augmenté de 3%	lot sorts_standard_027
+sort	40075		Description	2303d704f2e8	La cible subit 5% de dégâts toutes les $t3 secondes.	lot sorts_standard_027
+sort	40120		Description	26d257aafe08	Vous adoptez la forme de vol rapide, ce qui augmente votre vitesse de déplacement de $40121s2% et vous permet de voler. Inutilisable en combat. Vous ne pouvez utiliser cette forme qu'en Outreterre ou en Norfendre.	lot sorts_standard_027
+sort	40392		Description	af3acbfecc5e	Contre-attaque instantanément un ennemi et lui inflige $s1% des dégâts de l'arme. Vengeance ne fonctionne qu'après un blocage, une esquive ou une parade.	lot sorts_standard_027
+sort	40396		ToolTip	e48deb136e93	Vous êtes gavé d'énergie gangrenée. \r\n\r\nScore de hâte augmenté de $s1.	lot sorts_standard_027
+sort	40530		Name	36f85481102c	Panier de pique-nique	lot sorts_standard_027
+sort	40563		ToolTip	92e4e5453891	Étourdi pendant $d.	lot sorts_standard_027
+sort	40567		Description	e9849e6d2c91	Augmente l'Agilité de $40577s1, la puissance d'attaque de $40577s2 et l'Endurance de $40577s3 pendant $40577d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40568		Description	7d8e1624b34e	Augmente l'Intelligence de $40582s1, l'Endurance de $40582s3, et donne $40582s2 points de mana toutes les 5 sec. pendant $40582d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40572		Description	ef911c3f8fd7	Augmente l'Agilité de $40580s1, la Force de $40580s2 et l'Endurance de $40580s3 pendant $40580d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40573		Description	a5ca9500b733	Augmente l'Intelligence de $40586s1, l'Endurance de $40586s3 et la puissance des sorts de $40586s2 pendant $40586d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40575		Description	1738263552b6	Augmente le score de coup critique de $40587s1, la Force de $40587s2 et l'Endurance de $40587s3 pendant $40587d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40576		Description	47fe67969686	Augmente l'Intelligence de $40588s1, l'Endurance de $40588s3 et la puissance des sorts de $40588s2 pendant $40588d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40577		Description	2498a866d69a	Augmente l'Agilité de $s1, la puissance d'attaque de $s2 et l'Endurance de $s3 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40577		ToolTip	57c7742991a9	Agilité augmentée de $s1, puissance d'attaque de $s2 et Endurance de $s3.  \r\n\r\nCompte à la fois comme un Elixir de bataille et du Gardien.\r\n\r\nNe fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40580		Description	cc3dbdf97a2c	Augmente l'Agilité de $s1, la Force de $s2 et l'Endurance de $s3 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40580		ToolTip	26f1f2958f8e	Agilité augmentée de $s1, Force de $s2 et Endurance de $s3.\r\n\r\nCompte à la fois comme un Elixir de bataille et du Gardien.\r\n\r\nNe fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40582		Description	4254a05afa60	Augmente l'Intelligence de $s1, l'Endurance de $s3, et donne $s2 points de mana toutes les 5 sec. pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40582		ToolTip	840c0882e764	Intelligence augmentée de $s1 et Endurance de $s3. Donne $s2 points de mana toutes les 5 sec.\r\n\r\nCompte à la fois comme un Elixir de bataille et du Gardien.\r\n\r\nNe fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40586		Description	3ee98b965c25	Augmente l'Intelligence de $s1, l'Endurance de $s3 et la puissance des sorts de $s2 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40586		ToolTip	4571a7a761cb	Intelligence augmentée de $s1, Endurance de $s3 et puissance des sorts de $s2.\r\n\r\nCompte à la fois comme un Elixir de bataille et du Gardien.\r\n\r\nNe fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40587		Description	6f451cb9b464	Augmente le score de coup critique de $s1, la Force de $s2 et l'Endurance de $s3 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40587		ToolTip	e7193f15c6e8	Score de coup critique augmenté de $s1, Force de $s2 et Endurance de $s3.\r\n\r\nCompte à la fois comme un Elixir de bataille et du Gardien.\r\n\r\nNe fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40588		Description	3ee98b965c25	Augmente l'Intelligence de $s1, l'Endurance de $s3 et la puissance des sorts de $s2 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Vous ne pouvez bénéficier des effets que d'un seul flacon à la fois. Cet effet persiste après la mort, mais ne fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40588		ToolTip	4571a7a761cb	Intelligence augmentée de $s1, Endurance de $s3 et puissance des sorts de $s2.\r\n\r\nCompte à la fois comme un Elixir de bataille et du Gardien.\r\n\r\nNe fonctionne que sur les plateaux des Tranchantes et dans le Repaire de Gruul.	lot sorts_standard_027
+sort	40691		Description	875dd310e304	Réduit de 5% la durée des étourdissements.	lot sorts_standard_027
+sort	40694		Name	570ed1a46ccf	Piège de la cage - Invoquer un objet de jeu	lot sorts_standard_027
+sort	40744		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40747		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40748		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40749		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40752		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40753		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40754		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40755		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40756		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40757		Description	1933659642c1	Imprègne cet objet de la puissance de 50 Éclats apogides pour activer sa puissance véritable.	lot sorts_standard_027
+sort	40884		Name	f9acdd972028	Captation de vie	lot sorts_standard_027
+sort	41171		Description	53ef06d6be0e	Inflige $s1 points de dégâts d'Ombre à la cible et la afflige, lui infligeant $s2 points de dégâts d'Ombre toutes les $t2 secondes. Invoque un squelette si la cible meurt.	lot sorts_standard_027
+sort	41434		Description	03640fc7ea85	Vos attaques de mêlée ont une chance d'augmenter votre score de hâte en mêlée de $41435s1 pendant $41435d1.	lot sorts_standard_027
+sort	41605		Description	c2e819a0fe85	Augmente la régénération de mana de $s1 points toutes les 5 secondes et la puissance des soins de $s2 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.	lot sorts_standard_027
+sort	41608		Description	c783d3f3a6c9	Augmente la puissance d'attaque de $41606s1 pendant $41606d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41608		ToolTip	90cbc8347c9a	Puissance d'attaque augmentée de $41606s1.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41609		Description	e05100cb0016	Augmente les points de vie maximum de $s1 et le score de défense de 10 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41609		ToolTip	d41ac649d09f	Augmente les points de vie de $s1 et le score de défense de 10.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41610		Description	a9b73b1c6632	Augmente la régénération de mana de $41605s1 points toutes les 5 secondes et la puissance des soins de $41605s2 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41610		ToolTip	ec40c506d152	Régénération du mana augmentée de $s1 toutes les 5 secondes.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41611		Description	47fe4b336be8	Augmente les dégâts infligés par les sorts et effets magiques de $s1 au maximum pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41611		ToolTip	a15692f1823b	Dégâts des sorts augmentés de $s1 au maximum.\n\nActif seulement dans les raids d'Outreterre.	lot sorts_standard_027
+sort	41638		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41639		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41640		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41648		Description	150bb6f6aed6	Vos techniques de mêlée infligeant des dégâts ont une chance d'infliger 30% de votre puissance des sorts en dégâts du Sacré supplémentaires.	lot sorts_standard_027
+sort	41652		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41653		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41655		Name	c9bd671cab3c	Dégâts des armes +4	lot sorts_standard_027
+sort	41656		Description	d194104ef028	Augmente votre Intelligence de $s1.	lot sorts_standard_027
+sort	41659		Description	69fb3a3bda88	Rend $s1 points de mana toutes les 5 sec. et augmente votre puissance des sorts de $s2.	lot sorts_standard_027
+sort	41659		Name	93c05328589d	Régénération du mana et puissance des sorts augmentées	lot sorts_standard_027
+sort	41688		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41691		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41692		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41694		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41696		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41699		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41700		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41702		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41704		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41706		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41708		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41710		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41712		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41714		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41716		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41730		Name	6b244d18bb5a	Score de toucher	lot sorts_standard_027
+sort	41734		Name	1c300baf4997	Courroux du démoniaque	lot sorts_standard_027
+sort	41734		ToolTip	d5e9624ca633	Chances de coup critique augmentées de $s1% pour votre prochain sort.	lot sorts_standard_027
+sort	41739		Name	6b244d18bb5a	Score de toucher	lot sorts_standard_027
+sort	41754		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41754		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41756		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41756		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41757		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41757		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41759		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41759		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41761		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41761		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41764		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41764		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41765		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41765		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41767		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41767		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41774		Description	46eee78c3dcc	Votre Présage de clarté augmente aussi de $s1% les dégâts ou les soins de votre prochain sort.	lot sorts_standard_027
+sort	41774		Name	18b17424d234	Dégâts de Presque de clarté	lot sorts_standard_027
+sort	41776		Name	e05e495c15be	Bénédiction de Harupex	lot sorts_standard_027
+sort	41776		ToolTip	578a0837d212	Votre score de hâte est augmenté de $s1.	lot sorts_standard_027
+sort	41777		Name	d7aeb695d37b	Dégâts des sorts augmentés de 18	lot sorts_standard_027
+sort	41782		Name	69d40ed64089	Ensemble de paladin Tier 2 (5 pièces)	lot sorts_standard_027
+sort	41784		Name	a690c94ff97d	Critique augmenté 28	lot sorts_standard_027
+sort	41786		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41788		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41791		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41792		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41794		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41797		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41798		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41801		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41802		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41804		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41806		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41809		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41810		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41812		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41814		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41816		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41831		Name	8f3665aaf9c6	Vengeance du prédateur	lot sorts_standard_027
+sort	41831		ToolTip	8220714d93de	Puissance d'attaque en mêlée et à distance augmentée de $s1.	lot sorts_standard_027
+sort	41848		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41849		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41851		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41852		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41853		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41855		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41865		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41866		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41867		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41868		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41874		Name	6b244d18bb5a	Score de toucher	lot sorts_standard_027
+sort	41885		Description	8523a9fc756c	Augmente votre score de blocage de $s1 et votre puissance d'attaque de $s2.	lot sorts_standard_027
+sort	41885		Name	87f27fe4a0f7	Défense du vindicateur	lot sorts_standard_027
+sort	41885		ToolTip	1a7d5a76b1af	Votre Force est augmentée de $s1 et votre Armure de 20% de votre Force.	lot sorts_standard_027
+sort	41886		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41886		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41887		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41887		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41896		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41896		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41898		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41898		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41899		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41899		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41901		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41901		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41903		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41903		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41906		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41906		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	41908		Description	0d27d3f4b46d	+$s1 de Résilience.	lot sorts_standard_027
+sort	41908		Name	1a49b6cf6a33	Résilience augmentée 20	lot sorts_standard_027
+sort	42083		Description	84cdecbf0973	10% de chances sur coup critique d'augmenter votre puissance d'attaque de $42084s1 pendant 10 sec. (45 sec. de recharge)	lot sorts_standard_027
+sort	42138		Description	0d768e9ea19a	Augmente de 10% l'expérience gagnée. Dure $d.	lot sorts_standard_027
+sort	42170		Description	d16717cb7d5e	Inflige $s1 points de dégâts de Feu aux alliés proches et les désoriente pendant $d.	lot sorts_standard_027
+sort	42170		ToolTip	bd6599490bc5	Désorienté.	lot sorts_standard_027
+sort	42234		Description	a133b030b3b5	Tire en continu une salve de munitions sur la zone ciblée et inflige ${$RAP*0.1+$42234m1} points de dégâts des Arcanes aux cibles ennemies se trouvant à moins de $a1 mètres toutes les ${$1510d/6}.2 $Lseconde:secondes; pendant $1510d.	lot sorts_standard_027
+sort	42292		Description	4773b28735a2	Dissipe tous les effets affectant le déplacement, les désarmements, les silences et tous les effets qui provoquent une perte du contrôle de votre personnage.	lot sorts_standard_027
+sort	42463		Description	96923f0be27e	Imprègne le paladin de puissance sacrée et permet aux attaques d'appliquer Vengeance sacrée, qui inflige ${(0.0066*$SPH+0.0125*$AP)*6} points de dégâts du Sacré supplémentaires en $31803d. Vengeance sacrée peut se cumuler jusqu'à $31803u fois. Lorsqu'elle a été cumulée $31803u fois, chacune de vos attaques automatiques de la main droite et des techniques de mêlée du paladin inflige des dégâts du Sacré supplémentaires. Un seul Sceau peut être actif sur le paladin à la fois. Dure $d.\n\nLibérez l'énergie de ce Sceau pour infliger ${1+0.33*$SPH+0.13*$AP} points de dégâts du Sacré à un ennemi, augmentés de 10% par application de Vengeance sacrée sur la cible.	lot sorts_standard_027
+sort	42514		Description	2249a0ca86bc	Augmente les dégâts subis de 10% pendant $d.	lot sorts_standard_027
+sort	42587		Description	9cf2413aff5a	Inflige $s1% des dégâts de l'arme à tous les ennemis dans un cône devant le lanceur de sorts.	lot sorts_standard_027
+sort	42620		Description	58104df40e2f	Enchante de manière permanente une arme de mêlée pour augmenter l'Agilité de ${$80474m1+$80474ppl1}. Nécessite le niveau 35 ou supérieur pour profiter de ce bonus.	lot sorts_standard_027
+sort	42650		Description	8fc94ccf9da5	Invoque une légion entière de goules qui combattent à vos côtés pendant $d. Les goules envahiront la zone, narguant et combattant tout ce qu'elles pourront. Pendant que vous canalisez Armée des morts, vos dégâts subis sont réduits d'un montant égal à la somme de vos chances d'esquive et de parade.	lot sorts_standard_027
+sort	42687		Description	acb4b8dc3386	Attache une chaîne à votre arme, ce qui réduit de $43588s1% la durée des effets de désarmement et augmente de 15 votre score de parade. Ne se cumule pas avec d'autres effets similaires. Nécessite le niveau 60 ou supérieur pour profiter de ce bonus.	lot sorts_standard_027
+sort	42702		ToolTip	9c4b4d749cd6	Force réduite de $s1%.\nVitesse de déplacement réduite de $s2%.	lot sorts_standard_027
+sort	42929		ToolTip	c0c3d01b73aa	Augmente la vitesse de ${$w2}%.	lot sorts_standard_027
+sort	42939		Description	c9dfaa71f848	Des éclats de givre s'abattent sur la zone ciblée et infligent ${$42208m1*8*$<mult>} points de dégâts de Givre en $10d.	lot sorts_standard_027
+sort	42940		Description	c9dfaa71f848	Des éclats de givre s'abattent sur la zone ciblée et infligent ${$42208m1*8*$<mult>} points de dégâts de Givre en $10d.	lot sorts_standard_027
+sort	42974		Description	12057f57a7b0	Enchante de manière permanente une arme de mêlée pour vous conférer de temps en temps ${$42976m1+$42976pp1} de score de pénétration d'armure. Une seule instance de cet effet peut être active à la fois. Nécessite le niveau 35 ou supérieur pour profiter de ce bonus.	lot sorts_standard_027
+sort	42976		Description	c89069b45aa8	Vous avez ${$m1+0} de score de pénétration d'armure supplémentaire pendant $d.	lot sorts_standard_027
+sort	42985		Description	b63bcdb3f8c1	Invoque un saphir de mana que vous pouvez utiliser pour récupérer instantanément $42987s1 points de mana. 3 charges.	lot sorts_standard_027
+sort	43043		Description	73d735a55524	Inflige $43043s1 points de dégâts de Feu lorsque vous êtes touché, augmente vos chances de réussir un coup critique avec les sorts de $43045s3% de votre Esprit et réduit de $43045s2% la probabilité que vous soyez touché par un coup critique. Vous ne pouvez bénéficier que d'un seul type de sort d'armure à la fois sur le mage. Dure $43045d.	lot sorts_standard_027
+sort	43044		Description	cc143df38c69	Inflige $43044s1 points de dégâts de Feu lorsque vous êtes touché, augmente vos chances de réussir un coup critique avec les sorts de $43046s3% de votre Esprit et réduit de $43046s2% la probabilité que vous soyez touché par un coup critique. Vous ne pouvez bénéficier que d'un seul type de sort d'armure à la fois sur le mage. Dure $43046d.	lot sorts_standard_027
+sort	43045		Description	1bac2c2d3efc	Inflige ${$43043m1+$43043ppl1} points de dégâts de Feu lorsque vous êtes touché.\r\n\r\nAugmente votre score de coup critique de $s3% de votre Esprit.\r\n\r\nRéduit de $S2% la probabilité que vous subissiez un coup critique.  \r\n\r\nDure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@ 	lot sorts_standard_027
+sort	43045		ToolTip	f5cf552f196e	Inflige ${$43043m1+$43043ppl1} points de dégâts de Feu aux attaquants. Probabilité de subir un coup critique réduite de $s2%. Score de coup critique augmenté de ${$w3}% de l'Esprit.	lot sorts_standard_027
+sort	43046		Description	3db569acc4aa	Inflige ${$43044m1+$43044ppl1} points de dégâts de Feu lorsque vous êtes touché.\r\n\r\nAugmente votre score de coup critique de $s3% de votre Esprit.\r\n\r\nRéduit de $S2% la probabilité que vous subissiez un coup critique.  \r\n\r\nDure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@ 	lot sorts_standard_027
+sort	43046		ToolTip	c0ee2e9754d9	Inflige ${$43044m1+$43044ppl1} points de dégâts de Feu aux attaquants. Probabilité de subir un coup critique réduite de $s2%. Score de coup critique augmenté de ${$w3}% de l'Esprit.	lot sorts_standard_027
+sort	43142		Description	f062ac8bb587	Transforme le lanceur de sorts.	lot sorts_standard_027
+sort	43265		Description	99f58844c4f9	Corrompt le sol dans la zone ciblée, infligeant ${$m1+($SP+$AP)*0.0475} points de dégâts d'Ombre pour chaque sec. que passent les cibles dans la zone pendant $d. @ext:This ability produces a high amount of threat.:ext@	lot sorts_standard_027
+sort	43338		Description	a6738b1c242d	Réduit de $s1% le coût en mana de vos sorts de Horion du chaman.	lot sorts_standard_027
+sort	43354		Description	a4efc75f41f8	Gèle une spore morte dans la clairière Tordue.	lot sorts_standard_027
+sort	43505		ToolTip	282a71063617	Inflige des dégâts de Nature toutes les $t1 sec.	lot sorts_standard_027
+sort	43732		Description	a8e2c6e4810f	Délivre une grenouille forestière du maléfice amani à Zul'Aman.\n\n|cffff0000Retiré de l'inventaire en quittant Zul'Aman !|r	lot sorts_standard_027
+sort	43737		Description	f67c57e6857a	Votre technique Mutilation a une chance de conférer $43738s1 d'Agilité pendant $43738d. (10 sec. de recharge)	lot sorts_standard_027
+sort	43739		Description	e698fdb6a5b2	Votre technique Éclat lunaire a une chance de conférer $43740s1 de puissance des sorts pendant $43740d. (30 sec. de recharge)	lot sorts_standard_027
+sort	43741		Description	417eefa2f092	Votre sort Lumière sacrée rend $43742s1 points de mana toutes les 5 sec. pendant $43742d. (30 sec. de recharge)	lot sorts_standard_027
+sort	43745		Description	0fddcfbe2bae	Vos Jugements ont 50% de chances de conférer $43747s1 aux dégâts des sorts Sacrés pendant $43747d.	lot sorts_standard_027
+sort	43747		ToolTip	d854b373a843	Dégâts des sorts Sacrés augmentés de $s1.	lot sorts_standard_027
+sort	43748		Description	521e046dab93	Vos sorts de Horion du chaman ont 25% de chances de conférer $43749s1 de puissance d'attaque pendant $43749d.	lot sorts_standard_027
+sort	43750		Description	b589e9ae244e	Votre sort Éclair a une chance de conférer $43751s1 de score de hâte pendant $43751d. (30 sec. de recharge)	lot sorts_standard_027
+sort	43837		Description	ef0f2d29ba4c	Chances de coup critique des soins augmentées de $s1%.\nSoins prodigués augmentés de $s1%. \nLes soins non critiques consomment cet effet.	lot sorts_standard_027
+sort	43837		ToolTip	ef0f2d29ba4c	Chances de coup critique des soins augmentées de $s1%.\nSoins prodigués augmentés de $s1%. \nLes soins non critiques consomment cet effet.	lot sorts_standard_027
+sort	43987		Description	a600e0615d58	Entame un rituel qui fait apparaître une table de rafraîchissements. Les membres du raid peuvent cliquer sur la table pour obtenir des Biscuits de manne invoqués. La table reste en place pendant $43985d ou 50 charges. Nécessite la présence du lanceur de sort et de 2 autres membres du groupe pour mener le rituel à son terme. Pour participer, tous les joueurs doivent cliquer-droit sur le portail à rafraîchissements et ne plus bouger jusqu'à la fin du rituel.	lot sorts_standard_027
+sort	44137		Description	27c9d7437796	Tire sur l'ennemi une puissante roquette qui inflige $44138s1 points de dégâts et l'étourdit pendant $44138d. Attention au recul...	lot sorts_standard_027
+sort	44373		Description	a0a383864b77	Tente de marcher à travers les ombres et de réapparaître derrière votre ennemi, et augmente votre vitesse de déplacement de $36554s3% pendant $36554d. Les dégâts de votre prochaine technique de voleur à dégâts directs sont augmentés de $36563s2% et la menace générée est réduite de $44373s1%. Dure $36563d.	lot sorts_standard_027
+sort	44378		Description	292bc10da06c	Réduit de $s1% le temps de recharge de vos sorts Présence spirituelle, Pouvoir des arcanes, Orbe des arcanes, Altération du temps et Invisibilité.\r\n\r\nRéduit de $/1000;s2 secondes le temps de recharge d'Évocation.	lot sorts_standard_027
+sort	44379		Description	292bc10da06c	Réduit de $s1% le temps de recharge de vos sorts Présence spirituelle, Pouvoir des arcanes, Orbe des arcanes, Altération du temps et Invisibilité.\r\n\r\nRéduit de $/1000;s2 secondes le temps de recharge d'Évocation.	lot sorts_standard_027
+sort	44383		Description	7739476ce77a	Enchante de manière permanente un bouclier pour augmenter la Résilience de ${$80475m1+$80475ppl1}. Nécessite le niveau 35 ou supérieur pour profiter de ce bonus.	lot sorts_standard_027
+sort	44393		Name	17b83dc27489	Son de la cloche d'alarme de Baie-du-Butin	lot sorts_standard_027
+sort	44394		Description	82b320184c23	Lorsque votre Bouclier de mana, Gardien de givre, Gardien de feu, Gardien des arcanes, Barrière de glace ou Barrière des arcanes absorbe des dégâts, les dégâts de vos sorts sont augmentés de $s1% du montant absorbé pendant $44413d.\r\n\r\nCet effet est doublé dans la Barrière forgée par le mana.	lot sorts_standard_027
+sort	44395		Description	82b320184c23	Lorsque votre Bouclier de mana, Gardien de givre, Gardien de feu, Gardien des arcanes, Barrière de glace ou Barrière des arcanes absorbe des dégâts, les dégâts de vos sorts sont augmentés de $s1% du montant absorbé pendant $44413d.\r\n\r\nCet effet est doublé dans la Barrière forgée par le mana.	lot sorts_standard_027
+sort	44396		Description	82b320184c23	Lorsque votre Bouclier de mana, Gardien de givre, Gardien de feu, Gardien des arcanes, Barrière de glace ou Barrière des arcanes absorbe des dégâts, les dégâts de vos sorts sont augmentés de $s1% du montant absorbé pendant $44413d.\r\n\r\nCet effet est doublé dans la Barrière forgée par le mana.	lot sorts_standard_027
+sort	44397		Description	566345a94eb5	Augmente votre total d'Esprit de $s1%.\n\n|cFFAAAAAABonus de pierre angulaire : vos dégâts des sorts sont augmentés de $44399s2% de votre Esprit.|r	lot sorts_standard_027
+sort	44398		Description	b9c3981ea16f	Augmente votre total d'Esprit de $s1%.\n\n|cFFAAAAAABonus de pierre angulaire : vos dégâts des sorts sont augmentés de $44399s2% de votre Esprit.\n|r	lot sorts_standard_027
+sort	44399		Description	15b16a0ba64b	Augmente votre total d'Esprit de $s1%.\n\nBonus de pierre angulaire : vos dégâts des sorts sont augmentés de $44399s2% de votre Esprit.	lot sorts_standard_027
+sort	44400		Description	2aae29c3234a	Augmente de $s1% votre hâte des sorts.	lot sorts_standard_027
+sort	44401		Description	d2d7af591a3e	Réduit de $/1000;S1 sec. la durée de canalisation de votre prochain sort Projectiles des arcanes, réduit le coût en mana de $s3% et les projectiles sont tirés toutes les 0,4 sec. Dure $d.	lot sorts_standard_027
+sort	44401		ToolTip	3cd4a954b9f2	Réduit de $/1000;S1 sec. la durée de canalisation de votre prochain sort Projectiles des arcanes, réduit le coût en mana de $s3% et les projectiles sont tirés toutes les 0,4 sec.	lot sorts_standard_027
+sort	44402		Description	2aae29c3234a	Augmente de $s1% votre hâte des sorts.	lot sorts_standard_027
+sort	44403		Description	2aae29c3234a	Augmente de $s1% votre hâte des sorts.	lot sorts_standard_027
+sort	44797		Name	345b9c6cea5e	Bonus aux dégâts critiques augmenté de 3%	lot sorts_standard_027
+sort	46980		ToolTip	c0c3d01b73aa	Augmente la vitesse de ${$w2}%.	lot sorts_standard_027
+sort	61317		Name	6b244d18bb5a	Score de toucher	lot sorts_standard_027

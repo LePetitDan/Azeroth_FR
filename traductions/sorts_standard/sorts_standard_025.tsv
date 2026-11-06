@@ -1,0 +1,191 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	34916		Description	1a6d1b7c0c17	Inflige $o2 points de dégâts d'Ombre en $d à votre cible. Quand Attaque mentale inflige des dégâts à la cible, vous gagnez |cFFFFFFFFRequinquage|r. \r\n\r\nSi Toucher vampirique est dissipé, il inflige $*8;s2 points de dégâts à la cible affligée.\n\r\n@s:57669:0@	lot sorts_standard_025
+sort	34917		Description	1a6d1b7c0c17	Inflige $o2 points de dégâts d'Ombre en $d à votre cible. Quand Attaque mentale inflige des dégâts à la cible, vous gagnez |cFFFFFFFFRequinquage|r. \r\n\r\nSi Toucher vampirique est dissipé, il inflige $*8;s2 points de dégâts à la cible affligée.\n\r\n@s:57669:0@	lot sorts_standard_025
+sort	34935		Description	b62d74d4add2	Augmente vos chances de coup critique de $s2%.\r\n\r\nVous avez $h% de chances, quand vous êtes touché par une attaque physique, de réduire de $34936s1% le temps d'incantation de votre prochain sort Trait de l'ombre ou Incinérer. Cet effet dure $34936d.\r\n\r\n@ext:Cannot occur more than once every 8 seconds.:ext@	lot sorts_standard_025
+sort	34938		Description	24d210e317d8	Augmente vos chances de coup critique de $s2%.\r\n\r\nVous avez $h% de chances, quand vous êtes touché par une attaque physique, de réduire de $34936s1% le temps d'incantation de votre prochain sort Trait de l'ombre ou Incinérer. Cet effet dure $34936d.\r\n\r\n@ext:Cannot occur more than once every 8 seconds.:ext@	lot sorts_standard_025
+sort	34939		Description	24d210e317d8	Augmente vos chances de coup critique de $s2%.\r\n\r\nVous avez $h% de chances, quand vous êtes touché par une attaque physique, de réduire de $34936s1% le temps d'incantation de votre prochain sort Trait de l'ombre ou Incinérer. Cet effet dure $34936d.\r\n\r\n@ext:Cannot occur more than once every 8 seconds.:ext@	lot sorts_standard_025
+sort	34948		Description	a9ece9302a18	Réduit de $/1000;984492S1 secondes le temps de recharge de votre technique Tir rapide. \r\n\r\nQuand vous tuez un adversaire qui rapporte de l'expérience ou de l'honneur, vos deux prochains Visée, Tir des arcanes ou Tir de la chimère infligent $35098s1% de dégâts supplémentaires.	lot sorts_standard_025
+sort	34949		Description	3ac5fa27fc5a	Réduit de $/1000;984493S1 secondes le temps de recharge de votre technique Tir rapide. \r\n\r\nQuand vous tuez un adversaire qui rapporte de l'expérience ou de l'honneur, vos deux prochains Visée, Tir des arcanes ou Tir de la chimère infligent $35099s1% de dégâts supplémentaires.	lot sorts_standard_025
+sort	34950		Description	6800f236d4cd	Vos coups critiques à distance et de mêlée font générer $34952s1 points de focalisation à votre bête apprivoisée.\r\n\r\nLes morts-vivants dominés, les démons asservis ou les draconiens apprivoisés génèrent $34952s2 points d'énergie. \r\n\r\n@ext:This effect cannot occur more than once every 2 seconds.:ext@	lot sorts_standard_025
+sort	34952		Description	29df3613e7b2	Vos coups critiques à distance et de mêlée font générer $34952s1 points de focalisation à votre familier apprivoisé. Cet effet ne peut se produire plus d'une fois toutes les 2 sec.	lot sorts_standard_025
+sort	34953		Description	3ee145e2c6ff	Vos coups critiques à distance font générer $34953s1 points de focalisation à votre familier apprivoisé.	lot sorts_standard_025
+sort	34954		Description	4ca5ab3c129e	Vos coups critiques à distance et de mêlée font générer $34953s1 points de focalisation à votre bête apprivoisée.\r\n\r\nLes morts-vivants dominés, les démons asservis ou les draconiens apprivoisés génèrent $34953s2 points d'énergie. \r\n\r\n@ext:This effect cannot occur more than once every 2 seconds.:ext@	lot sorts_standard_025
+sort	35004		Description	4f28e5e22c34	Rend malade un ennemi pendant $d et augmente les dégâts qu'il subit de 350. Inflige des dégâts de Nature à un ennemi toutes les $t1 sec. pendant $d. La cible malade risque de contaminer un de ses alliés proches.	lot sorts_standard_025
+sort	35029		Description	ff08097fd704	Tous les dégâts que vous et votre familier infligez sont augmentés de $s1% tant que votre familier est actif, et les chances de coup critique des techniques spéciales de votre bête apprivoisée sont augmentées de $s2% tant qu'Ordre de tuer est actif.	lot sorts_standard_025
+sort	35030		Description	ff08097fd704	Tous les dégâts que vous et votre familier infligez sont augmentés de $s1% tant que votre familier est actif, et les chances de coup critique des techniques spéciales de votre bête apprivoisée sont augmentées de $s2% tant qu'Ordre de tuer est actif.	lot sorts_standard_025
+sort	35098		Description	c31954b2cb5b	Les dégâts de votre prochain Visée, Tir des arcanes, Tir mortel ou Tir de la chimère sont augmentés de $s1%.	lot sorts_standard_025
+sort	35098		ToolTip	c31954b2cb5b	Les dégâts de votre prochain Visée, Tir des arcanes, Tir mortel ou Tir de la chimère sont augmentés de $s1%.	lot sorts_standard_025
+sort	35099		Description	c31954b2cb5b	Les dégâts de votre prochain Visée, Tir des arcanes, Tir mortel ou Tir de la chimère sont augmentés de $s1%.	lot sorts_standard_025
+sort	35099		ToolTip	c31954b2cb5b	Les dégâts de votre prochain Visée, Tir des arcanes, Tir mortel ou Tir de la chimère sont augmentés de $s1%.	lot sorts_standard_025
+sort	35100		Description	33ae65078874	Vos attaques réussies avec Tir de la chimère et Flèches multiples ont $h% de chances d'hébéter la cible pendant $35101d.	lot sorts_standard_025
+sort	35102		Description	33ae65078874	Vos attaques réussies avec Tir de la chimère et Flèches multiples ont $h% de chances d'hébéter la cible pendant $35101d.	lot sorts_standard_025
+sort	35104		Description	2ca6a8f6546c	Augmente de $s1% les chances de coup critique de vos techniques Tir rapide, Flèches multiples et Visée.\r\n\r\nRéduit de $s2% les interruptions causées par les attaques infligeant des dégâts pendant que vous canalisez Salve.	lot sorts_standard_025
+sort	35110		Description	2ca6a8f6546c	Augmente de $s1% les chances de coup critique de vos techniques Tir rapide, Flèches multiples et Visée.\r\n\r\nRéduit de $s2% les interruptions causées par les attaques infligeant des dégâts pendant que vous canalisez Salve.	lot sorts_standard_025
+sort	35111		Description	2ca6a8f6546c	Augmente de $s1% les chances de coup critique de vos techniques Tir rapide, Flèches multiples et Visée.\r\n\r\nRéduit de $s2% les interruptions causées par les attaques infligeant des dégâts pendant que vous canalisez Salve.	lot sorts_standard_025
+sort	35200		Description	3b90fed262a8	Transformation en roc pendant $d, augmente l'armure et les points de vie, et permet l'utilisation de diverses techniques d'ours.	lot sorts_standard_025
+sort	35200		ToolTip	a4ce3698e57e	Transformé en roc.\nArmure et points de vie augmentés.	lot sorts_standard_025
+sort	35207		ToolTip	856c054e5f03	Rend des points de vie toutes les $t1 secondes.	lot sorts_standard_025
+sort	35355		Description	16a27217afc4	Ajoute de manière permanente 15 au score d'esquive d'un objet d'épaule.\n\nSi vous enchantez cet objet, il vous sera lié.	lot sorts_standard_025
+sort	35363		Description	0ea52b515fac	Augmente de $s1% les chances de coup critique de vos sorts Colère, Feu stellaire, Pluie d'étoiles, Eruption stellaire, Nourrir et Toucher guérisseur.	lot sorts_standard_025
+sort	35364		Description	0ea52b515fac	Augmente de $s1% les chances de coup critique de vos sorts Colère, Feu stellaire, Pluie d'étoiles, Eruption stellaire, Nourrir et Toucher guérisseur.	lot sorts_standard_025
+sort	35387		Description	ca113b442eec	Crache du poison sur un ennemi et lui inflige $o1 points de dégâts de Nature en $d.	lot sorts_standard_025
+sort	35389		Description	ca113b442eec	Crache du poison sur un ennemi et lui inflige $o1 points de dégâts de Nature en $d.	lot sorts_standard_025
+sort	35392		Description	ca113b442eec	Crache du poison sur un ennemi et lui inflige $o1 points de dégâts de Nature en $d.	lot sorts_standard_025
+sort	35396		Description	149701a1fa71	Augmente de $965981s1% vos chances de coup critique avec tous les sorts et attaques.\r\n\r\nAugmente de $s2% les dégâts infligés par Exorcisme, Frappe du croisé et Sentence d'exécution. 	lot sorts_standard_025
+sort	35397		Description	bb781777f0eb	Augmente de $965982s1% vos chances de coup critique avec tous les sorts et attaques.\r\n\r\nAugmente de $s2% les dégâts infligés par Exorcisme, Frappe du croisé et Sentence d'exécution. 	lot sorts_standard_025
+sort	35415		Description	16a46853bc72	Augmente de manière permanente de 8 la résistance à l'Ombre d'un objet porté sur le torse, les jambes, les mains ou les pieds. Nécessite le niveau 65 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35416		Description	e7ff5d61025a	Augmente de manière permanente de 8 la résistance au Feu d'un objet porté sur le torse, les jambes, les mains ou les pieds. Nécessite le niveau 65 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35418		Description	50c639fb881b	Augmente de manière permanente de 8 la résistance au Givre d'un objet porté sur le torse, les jambes, les mains ou les pieds. Nécessite le niveau 65 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35419		Description	55f9db45d625	Augmente de manière permanente de 8 la résistance à la Nature d'un objet porté sur le torse, les jambes, les mains ou les pieds. Nécessite le niveau 65 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35420		Description	0b2f2ae39f0a	Augmente de manière permanente de 8 la résistance aux Arcanes d'un objet porté sur le torse, les jambes, les mains ou les pieds. Nécessite le niveau 65 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35446		Description	843ad85bc9b5	Augmente de $s1% les dégâts infligés par votre technique Frappe mortelle, réduit son temps de recharge de $/1000;S2 sec. et augmente de $s3% l'effet de réduction des soins.	lot sorts_standard_025
+sort	35448		Description	843ad85bc9b5	Augmente de $s1% les dégâts infligés par votre technique Frappe mortelle, réduit son temps de recharge de $/1000;S2 sec. et augmente de $s3% l'effet de réduction des soins.	lot sorts_standard_025
+sort	35449		Description	843ad85bc9b5	Augmente de $s1% les dégâts infligés par votre technique Frappe mortelle, réduit son temps de recharge de $/1000;S2 sec. et augmente de $s3% l'effet de réduction des soins.	lot sorts_standard_025
+sort	35488		Description	84434504d868	Fixe de façon permanente une pièce d'armure en peau de cobra sur un pantalon, ce qui augmente la puissance d'attaque de ${$80469m1+$80469ppl1} et le score de coup critique de ${$80469m2+$80469ppl2}. Nécessite le niveau 60 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35489		Description	87b7bdc67e33	Fixe de façon permanente une pièce d'armure en cuir-fourchu sur un pantalon, ce qui augmente l'Endurance de ${$80470m1+$80470ppl1} et l'Agilité de ${$80470m2+$80470ppl2}. Nécessite le niveau 60 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35490		Description	97113f8b4a81	Fixe de façon permanente une pièce d'armure de cobra du Néant sur un pantalon, ce qui augmente la puissance d'attaque de ${$80471m2+$80471ppl2} et le score de coup critique de ${$80471m1+$80471m1}. Nécessite le niveau 60 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35495		Description	1cc3ef3805f6	Fixe de façon permanente une pièce d'armure de faille du Néant sur un pantalon, ce qui augmente l'Endurance de ${$80472m1+$80472m1} et l'Agilité de ${$80472m2+$80472ppl2}. Nécessite le niveau 60 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_025
+sort	35541		Description	008df70470d7	Confère à vos attaques de mêlée avec la main gauche réussies $h% de chances de générer $35548s1 points d'énergie.	lot sorts_standard_025
+sort	35545		Description	7fc3bba68aea	Confère à vos attaques de mêlée avec la main gauche réussies $35550h% de chances de générer $35545s1 points d'énergie.\n\n|cFFAAAAAABonus de sommet : le dernier rang de ce talent permet à vos attaques de mêlée avec la main gauche réussies de réduire de 1 seconde le temps de recharge de Déluge de lames.|r	lot sorts_standard_025
+sort	35550		Description	008df70470d7	Confère à vos attaques de mêlée avec la main gauche réussies $h% de chances de générer $35548s1 points d'énergie.	lot sorts_standard_025
+sort	35551		Description	008df70470d7	Confère à vos attaques de mêlée avec la main gauche réussies $h% de chances de générer $35548s1 points d'énergie.	lot sorts_standard_025
+sort	35578		Description	a20a1b20620f	Vos coups critiques avec les sorts infligent désormais 180% des dégâts. \r\n\r\n@ext:This does not stack with other similar effects.:ext@\n\n|cFFAAAAAABonus de sommet : infliger des dégâts critiques directs avec un sort alors que votre mana est inférieur à 50% puise dans une puissance brute, ce qui rend 1% de votre mana total chaque seconde et augmente vos dégâts magiques de $835584s3% et vos dégâts des Arcanes de $835584s2% supplémentaires. Cet effet dure $835584d et ne peut se produire plus d'une fois toutes les 30 secondes.|r	lot sorts_standard_025
+sort	35581		Description	58b0e425371d	Vos coups critiques avec les sorts infligent désormais 185% des dégâts. \r\n\r\n@ext:This does not stack with other similar effects.:ext@\n\n|cFFAAAAAABonus de sommet : infliger des dégâts critiques directs avec un sort alors que votre mana est inférieur à 50% puise dans une puissance brute, ce qui rend 1% de votre mana total chaque seconde et augmente vos dégâts magiques de $835584s3% et vos dégâts des Arcanes de $835584s2% supplémentaires. Cet effet dure $835584d et ne peut se produire plus d'une fois toutes les 30 secondes.|r	lot sorts_standard_025
+sort	35696		ToolTip	b515bf1e0673	Augmente la puissance des sorts du Maître de ${$w1}.	lot sorts_standard_025
+sort	35924		ToolTip	aa90f0d54700	Inflige périodiquement des dégâts aux ennemis proches.	lot sorts_standard_025
+sort	35953		Description	ec8fd3e88688	Inflige $s1% des dégâts de l'arme sous forme de dégâts d'Ombre à un ennemi et à ses alliés les plus proches, affecte jusqu'à $x1 cibles.	lot sorts_standard_025
+sort	36032		Description	8cbeb969ae87	Frappe la cible avec de l'énergie et lui inflige des dégâts des Arcanes. Chaque fois que vous lancez Déflagration des arcanes, les dégâts de tous les sorts des Arcanes sont augmentés de $36032s1%, et le coût en mana de Déflagration des arcanes augmente de $36032s2%. Effet cumulable jusqu'à $36032u fois. Dure $36032d.	lot sorts_standard_025
+sort	36100		Name	803e7ed4f108	Frappe vorace	lot sorts_standard_025
+sort	36111		Description	909364eec6cc	Augmente votre score de coup critique de $s1 pendant $d. (1 ppm) (45 sec. de recharge)	lot sorts_standard_025
+sort	36111		ToolTip	7f454a08c023	Score de coup critique augmenté de $s1.	lot sorts_standard_025
+sort	36152		Description	1e8187d58760	Frappe un ennemi avec un éclair et lui inflige $s1 points de dégâts de Nature.	lot sorts_standard_025
+sort	36173		Description	049f2e70779f	Maudit un ennemi pendant $d et lui confère $h% de chances de rendre $36174s1 points de vie à sa cible quand il subit des dégâts physiques.	lot sorts_standard_025
+sort	36173		ToolTip	3ec53e3d1f7a	Chances de soigner la cible ennemie quand elle subit des dégâts physiques.	lot sorts_standard_025
+sort	36240		Description	7efea236d468	Déclenche une avalanche de pierres et de débris sur la zone ciblée et inflige $s1 points de dégâts physiques toutes les $t1 secondes pendant $d.	lot sorts_standard_025
+sort	36295		Name	ac19943bbed0	Rayon du loup/ours piégé	lot sorts_standard_025
+sort	36308		Name	2d1683d7f697	Rayon de balayage	lot sorts_standard_025
+sort	36348		ToolTip	856c054e5f03	Rend des points de vie toutes les $t1 secondes.	lot sorts_standard_025
+sort	36406		ToolTip	c73e0341183a	Inflige des dégâts de Feu aux ennemis qui se trouvent dans un cône devant le lanceur de sorts.	lot sorts_standard_025
+sort	36472		ToolTip	e8c579453e71	Rend des points de vie toutes les $t1 secondes.	lot sorts_standard_025
+sort	36473		ToolTip	6d57ec9cdee9	Dégâts toutes les $t1 $lsecondes:secondes;.	lot sorts_standard_025
+sort	36554		Description	47ec8a0fabd5	Tente de marcher à travers les ombres et de réapparaître derrière votre ennemi, et augmente la vitesse de déplacement de $36554s3% pendant $36554d.\r\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_025
+sort	36563		Description	9cb74bdd5d5b	Tente de marcher à travers les ombres et de réapparaître derrière votre ennemi, et augmente la vitesse de déplacement de $36554s3% pendant $36554d. La menace générée par votre prochaine technique de voleur est réduite de $44373s1%. Dure $36563d.	lot sorts_standard_025
+sort	36563		ToolTip	33f8994a9473	Menace générée par votre prochaine technique réduite de $44373s1%.	lot sorts_standard_025
+sort	36613		Description	a3ecc7cb8d9f	Le chasseur et les membres de son groupe se trouvant dans un rayon de $a1 mètres adoptent les qualités d'une meute de guépards, ce qui augmente la vitesse de déplacement de 30%. Si un membre de la meute subit des dégâts, il est hébété pendant $15571d. Vous ne pouvez activer qu'un seul aspect à la fois.	lot sorts_standard_025
+sort	36678		Description	9e3310b1ed1d	Soigne une cible alliée et lui rend $s1% de ses points de vie.	lot sorts_standard_025
+sort	36679		ToolTip	29540ea84fd8	Soigné de $s1% des points de vie maximum toutes les $t1 sec.\n\nNe peut pas être volé par vol de sort.	lot sorts_standard_025
+sort	36706		Description	6340ca13cb80	Inflige $s1 points de dégâts physiques aux ennemis proches, augmente le temps entre leurs attaques de $s3% et réduit leur vitesse de déplacement de $s2% pendant $d.	lot sorts_standard_025
+sort	36720		Description	8290467fe04e	Le phénix consume lentement ses propres points de vie pour blesser les ennemis proches. À sa mort, il explose, achevant son cycle de vie, et crée un œuf pour renaître.	lot sorts_standard_025
+sort	36720		ToolTip	8290467fe04e	Le phénix consume lentement ses propres points de vie pour blesser les ennemis proches. À sa mort, il explose, achevant son cycle de vie, et crée un œuf pour renaître.	lot sorts_standard_025
+sort	36837		Description	8dffda8c35f7	Inflige $s1 points de dégâts de Feu divisés à part égale entre tous les ennemis se trouvant à moins de $a1 mètres du cratère d'impact.	lot sorts_standard_025
+sort	36907		ToolTip	bafb28dcae13	Augmente la résistance au Feu et inflige des dégâts de Feu à l'attaquant quand vous êtes touché.	lot sorts_standard_025
+sort	36936		Description	b22cf0fa9d8f	Vos totems retournent à la terre et vous recevez $s1% du mana nécessaire pour lancer chacun des totems détruits par Rappel totémique.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_025
+sort	36974		Description	46184838e557	Empoisonne l'ennemi et réduit de $s2% tous les effets de soins utilisés sur lui pendant $d.	lot sorts_standard_025
+sort	36974		ToolTip	c22438360625	Effets des soins réduits de $s2%.	lot sorts_standard_025
+sort	37023		Description	43749720154d	Vitesse d'attaque augmentée de $s1% pendant $d.	lot sorts_standard_025
+sort	37023		ToolTip	0613383f4a58	Vitesse d'attaque augmentée de $s1%.	lot sorts_standard_025
+sort	37059		Description	531233ddd38d	Brûle les ennemis proches et leur inflige $37060s1 points de dégâts de Feu toutes les $t1 secondes.	lot sorts_standard_025
+sort	37066		Description	1bce72933959	Inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d quand vous attaquez depuis la furtivité. Cumulable jusqu'à 2 fois.	lot sorts_standard_025
+sort	37091		Description	1e82f4c6e7ec	Inflige $s2 points de dégâts physiques aux ennemis proches.	lot sorts_standard_025
+sort	37098		Description	f7744a61d115	Bombarde la cible et les alliés proches de fragments d'os et invoque par là même 10 squelettes.	lot sorts_standard_025
+sort	37116		Description	6db679f55ef3	Vous confère $16958h% de chances de gagner $/10;16959s1 points de rage supplémentaires chaque fois que vous réussissez un coup critique en forme d'ours et d'ours redoutable.\r\n\r\nVos coups critiques obtenus avec les techniques de la forme de félin qui ajoutent des points de combo ont 50% de chances d'ajouter un point de combo supplémentaire.	lot sorts_standard_025
+sort	37117		Description	302f2740bb9a	Vous confère $16961h% de chances de gagner $/10;16959s1 points de rage supplémentaires chaque fois que vous réussissez un coup critique en forme d'ours et d'ours redoutable.\r\n\r\nVos coups critiques obtenus avec les techniques de la forme de félin qui ajoutent des points de combo ont 100% de chances d'ajouter un point de combo supplémentaire.	lot sorts_standard_025
+sort	37138		Description	8e7e61fe2eaf	Lance un trait d'eau sur un ennemi et lui inflige $s1 points de dégâts de Givre, et augmente de $s2% les dégâts de Givre subis par la cible pendant $d. Cumulable jusqu'à 100 fois.	lot sorts_standard_025
+sort	37138		ToolTip	d8fe78dc12ed	Dégâts de Givre subis augmentés de $s2%.	lot sorts_standard_025
+sort	37167		Description	46c6512480b5	Augmente vos chances de toucher de 3%.	lot sorts_standard_025
+sort	37169		Description	abfebb223091	Vos coups critiques en mêlée augmentent votre score de coup critique de $414520s1, cumulable jusqu'à 20 fois. Cet effet dure 4 secondes.	lot sorts_standard_025
+sort	37169		Rank	bb71deb29d6c	Voleur	lot sorts_standard_025
+sort	37170		Description	49733e3220ed	Utiliser un coup final a une chance d'empoisonner mortellement la cible, ce qui augmente de 10% (5% contre les joueurs) les dégâts que vous lui infligez et lui inflige des dégâts de Nature en 8 secondes. 	lot sorts_standard_025
+sort	37170		Rank	bb71deb29d6c	Voleur	lot sorts_standard_025
+sort	37182		Description	078b9292a5c7	Augmente votre Intelligence de $s1%.	lot sorts_standard_025
+sort	37184		Description	48b588fc6f56	Augmente de $s1% les dégâts infligés par votre Sceau de piété ou votre Sceau de vengeance.	lot sorts_standard_025
+sort	37185		Description	ca9d1207e6a0	Augmente de $s1% les dégâts infligés par votre Bouclier du vertueux.	lot sorts_standard_025
+sort	37186		Description	ae5f67edbf34	Augmente votre puissance des sorts et votre puissance d'attaque de $s1.	lot sorts_standard_025
+sort	37187		Description	ebc36fd79b92	Triple l'effet de votre bonus de sommet de Conviction.|r	lot sorts_standard_025
+sort	37188		Description	4a21f36dcb64	Augmente de 4% vos chances de coup critique avec les sorts tant que votre mana est supérieur à 75%.	lot sorts_standard_025
+sort	37188		Rank	fc632d9696aa	Paladin Sacré	lot sorts_standard_025
+sort	37189		Description	64354bfcfa5b	Vos soins critiques directs ont une chance d'augmenter de $43837s1% vos soins prodigués et vos chances d'effet critique pour votre prochain soin. Les soins critiques ne consomment pas l'effet. Dure au maximum $43837d et ne peut se produire plus d'une fois toutes les 12 secondes.	lot sorts_standard_025
+sort	37189		Rank	fc632d9696aa	Paladin Sacré	lot sorts_standard_025
+sort	37190		Description	44adf837f39e	Esquiver complètement une attaque a une chance d'augmenter de 8% pendant 6 secondes la menace générée par vos dégâts magiques.	lot sorts_standard_025
+sort	37190		Rank	d82d2ae464c5	Paladin Protection	lot sorts_standard_025
+sort	37191		Description	591f34af454a	Infliger des dégâts magiques a une chance de brûler votre cible avec des dégâts du Sacré à forte menace et de réduire de 5% les dégâts physiques que vous subissez des 3 prochaines attaques. Cet effet ne peut se produire plus d'une fois toutes les 10 secondes.	lot sorts_standard_025
+sort	37191		Rank	d82d2ae464c5	Paladin Protection	lot sorts_standard_025
+sort	37194		Description	068ef26d511f	Augmente vos dégâts des sorts de $s1% de votre Force.	lot sorts_standard_025
+sort	37194		Rank	74ddb3a0b869	Paladin Vindicte	lot sorts_standard_025
+sort	37195		Description	59fe3d5b4736	Vos sorts et techniques de dégâts magiques ont une chance de condamner la cible, ce qui inflige des dégâts magiques (selon le modificateur d'école le plus élevé) et augmente votre Force de 10% pendant 10 secondes. Cet effet ne peut se produire plus d'une fois toutes les 15 secondes.	lot sorts_standard_025
+sort	37195		Rank	8366443a8650	Vindicte	lot sorts_standard_025
+sort	37196		Description	03c00c55f115	Force augmentée de 10% pendant 10 secondes.	lot sorts_standard_025
+sort	37196		Rank	1b9f4ad0386d	Bonus de l'ensemble de 4 pièces	lot sorts_standard_025
+sort	37196		ToolTip	03c00c55f115	Force augmentée de 10% pendant 10 secondes.	lot sorts_standard_025
+sort	37207		Description	3aec6714faae	Augmente de 4% les chances de coup critique de Chaîne d'éclairs.	lot sorts_standard_025
+sort	37207		ToolTip	3aec6714faae	Augmente de 4% les chances de coup critique de Chaîne d'éclairs.	lot sorts_standard_025
+sort	37208		Description	c67bcd150481	Vous lancez votre hache pour tenter de décapiter votre cible et lui infligez ${$AP*0.1+$m1} points de dégâts.	lot sorts_standard_025
+sort	37210		Description	1ed671c79908	Régénère un montant de mana égal à $s1% de votre Intelligence toutes les 5 secondes, même pendant l'incantation.	lot sorts_standard_025
+sort	37212		Description	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_standard_025
+sort	37223		Description	fdf3a974a58e	Augmente votre score de toucher de $s1% de votre Agilité.	lot sorts_standard_025
+sort	37224		Description	de25304abd02	Augmente de $s1% les dégâts physiques que vous infligez et de $s2% vos chances de coup critique avec les sorts.	lot sorts_standard_025
+sort	37225		Description	43996a4140b3	Augmente votre score de coup critique des sorts de $s1% de votre Intelligence.	lot sorts_standard_025
+sort	37225		Rank	874757b7bddf	Bonus de l'ensemble de 2 pièces Restauration	lot sorts_standard_025
+sort	37227		Description	0726b810d5c5	Vos soins non critiques augmentent de $414502s1% l'effet de votre prochain soin critique, cumulable jusqu'à 3 fois. Cet effet ne peut pas se déclencher sur les soins excédentaires complets.	lot sorts_standard_025
+sort	37227		Rank	41590e8e283f	Restauration	lot sorts_standard_025
+sort	37227		ToolTip	0726b810d5c5	Vos soins non critiques augmentent de $414502s1% l'effet de votre prochain soin critique, cumulable jusqu'à 3 fois. Cet effet ne peut pas se déclencher sur les soins excédentaires complets.	lot sorts_standard_025
+sort	37228		Description	ba46680c597f	Augmente de $s1% le bonus de dégâts de vos coups critiques avec les sorts.	lot sorts_standard_025
+sort	37237		Description	25f98eb94876	Vos coups critiques directs avec les sorts ont une chance de déclencher un Écho élémentaire, qui inflige des dégâts élémentaires à la cible. Si ces dégâts sont critiques, vous gagnez 6% de dégâts des sorts pendant 5 secondes.\n\nLes dégâts élémentaires combinent les écoles de magie de Nature, de Givre et de Feu, et profitent du meilleur modificateur de l'une ou l'autre école.	lot sorts_standard_025
+sort	37238		Description	98af5d256ca0	Inflige $s1 points de dégâts.	lot sorts_standard_025
+sort	37238		Name	a2401ffb279c	Écho élémentaire	lot sorts_standard_025
+sort	37238		Rank	e8d22cf93097	Bonus de l'ensemble de 4 pièces	lot sorts_standard_025
+sort	37238		ToolTip	98af5d256ca0	Inflige $s1 points de dégâts.	lot sorts_standard_025
+sort	37239		Description	0d9c20b25552	Augmente votre score de toucher de $s2% de votre Agilité.	lot sorts_standard_025
+sort	37239		Rank	7e2dbb1dc144	Chaman Amélioration	lot sorts_standard_025
+sort	37240		Description	491b13392543	Agilité augmentée de $s1%.	lot sorts_standard_025
+sort	37240		Rank	e8d22cf93097	Bonus de l'ensemble de 4 pièces	lot sorts_standard_025
+sort	37240		ToolTip	491b13392543	Agilité augmentée de $s1%.	lot sorts_standard_025
+sort	37241		Rank	7e2dbb1dc144	Chaman Amélioration	lot sorts_standard_025
+sort	37247		Description	960c6d7f834d	Vos sorts ont 15% de chances de rendre $37243s1 points de mana. (45 sec. de recharge)	lot sorts_standard_025
+sort	37284		ToolTip	eb20595a7bab	Inflige des dégâts égaux à $s1% des points de vie maximum toutes les $t1 sec.\n\nRéduit au silence.\nPacifié.	lot sorts_standard_025
+sort	37292		Description	a26c3e9edc20	Réduit de ${$m1/-1000} sec. le temps de recharge de votre technique Célérité naturelle.	lot sorts_standard_025
+sort	37299		Description	8d379082c8d8	Augmente votre puissance d'attaque de $s1.	lot sorts_standard_025
+sort	37311		Description	54cef7e241c3	Vos attaques et techniques de mêlée ont une chance de générer $37310s1 points d'énergie supplémentaires.	lot sorts_standard_025
+sort	37313		Description	c147cf12ba7e	Augmente de 3% vos soins prodigués aux cibles ayant moins de 75% de leurs points de vie.	lot sorts_standard_025
+sort	37313		Rank	41590e8e283f	Restauration	lot sorts_standard_025
+sort	37314		Description	dc580ab44f0f	Quand vous ramenez une cible à pleine santé avec un soin périodique, vous avez une chance d'augmenter votre Esprit de $414501s1% et votre puissance de soins de $414501s2% de votre Esprit pendant $414501d. Cet effet ne peut se produire que toutes les 20 secondes.	lot sorts_standard_025
+sort	37314		Rank	e8d22cf93097	Bonus de l'ensemble de 4 pièces	lot sorts_standard_025
+sort	37315		Description	68c6669358f1	Augmente votre score de coup critique de 3% de votre Agilité.	lot sorts_standard_025
+sort	37315		Rank	434dede246e1	Farouche	lot sorts_standard_025
+sort	37324		Description	91c48638dafc	Vous infligez 6% de dégâts des sorts supplémentaires aux cibles ayant plus de 75% de leurs points de vie.	lot sorts_standard_025
+sort	37324		Rank	90eef613042c	Équilibre	lot sorts_standard_025
+sort	37327		Description	7a987643b190	Vos coups critiques de sorts non périodiques ont une chance d'augmenter vos dégâts des sorts de 15% de votre Esprit. Vos sorts non périodiques non critiques ont une chance d'augmenter votre score de coup critique de 15% de votre Esprit. Les deux effets partagent un temps de recharge de 10 secondes et durent 12 secondes.	lot sorts_standard_025
+sort	37327		Rank	90eef613042c	Équilibre	lot sorts_standard_025
+sort	37333		Description	42bb415aafac	Si votre caractéristique principale est l'Agilité, vous gagnez 30% de votre Force en score de coup critique. Si votre caractéristique principale est la Force, vous gagnez 40% de votre Agilité en puissance d'attaque.	lot sorts_standard_025
+sort	37333		Rank	434dede246e1	Farouche	lot sorts_standard_025
+sort	37336		Description	ebd14d56e08c	Vos sorts et attaques directs ont une chance de vous conférer $37344s1 de score de coup critique pendant $37344d. Le changement de forme modifie cet effet selon la forme que vous avez adoptée. (40 sec. de recharge interne)	lot sorts_standard_025
+sort	37342		Description	baea1eb6ef51	Augmente de $s1 la puissance de vos sorts de soins.	lot sorts_standard_025
+sort	37342		ToolTip	baea1eb6ef51	Augmente de $s1 la puissance de vos sorts de soins.	lot sorts_standard_025
+sort	37343		Description	2394d985c410	Augmente vos dégâts des sorts de $s1.	lot sorts_standard_025
+sort	37343		ToolTip	2394d985c410	Augmente vos dégâts des sorts de $s1.	lot sorts_standard_025
+sort	37362		Description	08598543659d	Augmente de ${$m1+0} la puissance d'attaque lorsque vous combattez les démons et les morts-vivants.	lot sorts_standard_025
+sort	37362		ToolTip	43bd05294ec0	Augmente de ${$m1} la puissance d'attaque lorsque vous combattez les démons et les morts-vivants.	lot sorts_standard_025
+sort	37363		Description	efdcf010caca	Inflige $s1% des dégâts de l'arme aux ennemis proches et les repousse.	lot sorts_standard_025
+sort	37377		Description	514c2edadfe2	Vos sorts de Feu à dégâts directs ont une chance de vous conférer $37378s1 points de dégâts d'Ombre supplémentaires pendant $37378d.	lot sorts_standard_025
+sort	37377		ToolTip	514c2edadfe2	Vos sorts de Feu à dégâts directs ont une chance de vous conférer $37378s1 points de dégâts d'Ombre supplémentaires pendant $37378d.	lot sorts_standard_025
+sort	37378		Description	86e3f5cf2cec	Vos sorts de Feu à dégâts directs ont une chance de vous conférer $37378s1 de puissance des sorts de Feu $37378d.	lot sorts_standard_025
+sort	37379		Description	ed716c674d11	Vos sorts d'Ombre à dégâts directs ont une chance de vous conférer $s1 de puissance des sorts d'Ombre pendant $d.	lot sorts_standard_025
+sort	37380		Description	658a01fb1fa4	Augmente de ${$m1/1000} sec. la durée de votre Corruption.	lot sorts_standard_025
+sort	37381		Description	43a1e86d3786	Augmente de $s1 vos dégâts des sorts d'Ombre et de $s2% vos chances de coup critique avec les sorts de Feu.	lot sorts_standard_025
+sort	38919		ToolTip	856c054e5f03	Rend des points de vie toutes les $t1 secondes.	lot sorts_standard_025
+sort	39009		ToolTip	3ec53e3d1f7a	Chances de soigner la cible ennemie quand elle subit des dégâts physiques.	lot sorts_standard_025
+sort	39065		Description	1e8187d58760	Frappe un ennemi avec un éclair et lui inflige $s1 points de dégâts de Nature.	lot sorts_standard_025
+sort	41657		Description	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_standard_025
+sort	45428		Description	7f454a08c023	Score de coup critique augmenté de $s1.	lot sorts_standard_025
+sort	45428		ToolTip	7f454a08c023	Score de coup critique augmenté de $s1.	lot sorts_standard_025
+sort	45429		Description	7f454a08c023	Score de coup critique augmenté de $s1.	lot sorts_standard_025
+sort	45429		ToolTip	7f454a08c023	Score de coup critique augmenté de $s1.	lot sorts_standard_025
+sort	48159		Description	1a6d1b7c0c17	Inflige $o2 points de dégâts d'Ombre en $d à votre cible. Quand Attaque mentale inflige des dégâts à la cible, vous gagnez |cFFFFFFFFRequinquage|r. \r\n\r\nSi Toucher vampirique est dissipé, il inflige $*8;s2 points de dégâts à la cible affligée.\n\r\n@s:57669:0@	lot sorts_standard_025
+sort	48160		Description	1a6d1b7c0c17	Inflige $o2 points de dégâts d'Ombre en $d à votre cible. Quand Attaque mentale inflige des dégâts à la cible, vous gagnez |cFFFFFFFFRequinquage|r. \r\n\r\nSi Toucher vampirique est dissipé, il inflige $*8;s2 points de dégâts à la cible affligée.\n\r\n@s:57669:0@	lot sorts_standard_025
+sort	52895		ToolTip	856c054e5f03	Rend des points de vie toutes les $t1 secondes.	lot sorts_standard_025
+sort	52940		ToolTip	856c054e5f03	Rend des points de vie toutes les $t1 secondes.	lot sorts_standard_025
+sort	55555		Description	ca113b442eec	Crache du poison sur un ennemi et lui inflige $o1 points de dégâts de Nature en $d.	lot sorts_standard_025
+sort	55556		Description	ca113b442eec	Crache du poison sur un ennemi et lui inflige $o1 points de dégâts de Nature en $d.	lot sorts_standard_025
+sort	55557		Description	ca113b442eec	Crache du poison sur un ennemi et lui inflige $o1 points de dégâts de Nature en $d.	lot sorts_standard_025
+sort	56408		ToolTip	c22438360625	Effets des soins réduits de $s2%.	lot sorts_standard_025
+sort	61992		Rank	e8d22cf93097	Bonus de l'ensemble de 4 pièces	lot sorts_standard_025

@@ -66,8 +66,10 @@ sort	705240		Name	8822be55a6a4	Fureur profonde	lot talents_019
 sort	705242		Description	c39d766e51ae	|cFF66DDFFPassif de niveau 20|r\r\n|cffffffffNé dans le sang|r augmente désormais aussi vos dégâts infligés de $s1% et sa durée est augmentée de $/1000;s2 sec.	lot talents_019
 sort	705250		Description	b694f5e26687	Augmente votre Agilité de $s1% et vos chances de toucher de $s2%.	lot talents_019
 sort	705250		Name	855ba5a153ab	Paladin martial	lot talents_019
+sort	705250		ToolTip	8f92631db290	Les |cffffffffManœuvres de serment|r suivantes d'une chaîne infligent ${$w1}% de dégâts supplémentaires jusqu'à la fin de la chaîne.	lot talents_019
 sort	705251		Description	b694f5e26687	Augmente votre Agilité de $s1% et vos chances de toucher de $s2%.	lot talents_019
 sort	705251		Name	855ba5a153ab	Paladin martial	lot talents_019
+sort	705251		ToolTip	8f92631db290	Les |cffffffffManœuvres de serment|r suivantes d'une chaîne infligent ${$w1}% de dégâts supplémentaires jusqu'à la fin de la chaîne.	lot talents_019
 sort	705253		Description	53b9e8d575fe	Augmente de $s1% les chances de déclencher |cffffffffPlaie-du-Fléau|r et de $s2% vos chances de toucher.	lot talents_019
 sort	705253		Name	4f4b1d18ae90	Focalisation pure	lot talents_019
 sort	705255		Description	6f46e1013131	Les dégâts infligés par |cffffffffPlaie-du-Fléau|r augmentent désormais de $803372s2% les dégâts de |cffffffffLame d'argent|r pendant $803372d, cumulable $803372u fois.	lot talents_019
@@ -162,6 +164,7 @@ sort	705341		Name	222656b87dc5	Frappe calculée	lot talents_019
 sort	705343		Description	9fc6afa8e1bd	Vos $?s92107[ |cFFFFFFFF][|cffffffffPulvérisations|r et ]|cffffffffBéliers|r ignorent désormais $s1% de l'armure de la cible.	lot talents_019
 sort	705345		Description	1b53c1d87ca8	Votre |cffffffffCoup puissant|r vous fait désormais émettre une aura pendant $802894d, qui réduit de $802894s1% tous les dégâts subis par les membres du groupe.	lot talents_019
 sort	705345		Name	a88a40c4edb3	Puissance de l'avant-garde	lot talents_019
+sort	705346		Description	44d13a620ff7	Lancer |cffffffffLever le bouclier|r et |cFFFFFFFFCoup puissant|r prolonge désormais de $/1000;705347s1 sec la durée de votre |cffffffffSe préparer|r.\r\n\r\n@ext:|cFFFFFFFFBrace|r cannot be extended beyond it's maximum duration.:ext@	lot talents_019
 sort	705346		Name	fee8621a7df8	Impact puissant	lot talents_019
 sort	705350		Description	5cb9612a8d40	Déclencher un |cFFFFFFFFSon de la guerre|r augmente désormais de $552780s1% les dégâts de votre prochain |cFFFFFFFFBélier|r pendant $552780d.	lot talents_019
 sort	705350		Name	a363be3e7a8d	Joueur de flûte	lot talents_019
@@ -214,6 +217,7 @@ sort	705404		ToolTip	10ec155159df	|cffffffffBrume mortelle|r augmente désormais
 sort	705406		Description	44e9ae393bc2	Vos |cFFFFFFFFÂmes tourmentées|r ont désormais $s1% de chances de ne pas consommer de charge lors des dégâts subis. 	lot talents_019
 sort	705406		Name	45d8ad9a4ede	Vie exploitée	lot talents_019
 sort	705406		ToolTip	d6be788fe700	|cFFFFFFFFÂmes tourmentées|r a ${$w1}% de chances de ne pas consommer de charge lors des dégâts subis.	lot talents_019
+sort	705409		Name	6743becafbef	Soif dévorante	lot talents_019
 sort	705410		Description	589e3475b928	Augmente de $/1000;s1 sec la durée de |cFFFFFFFFDéchirure d'âme|r.	lot talents_019
 sort	705410		Name	229ff2ea95b8	Hanteur	lot talents_019
 sort	705413		Description	d31a64ce45f6	Crée une terre de récolte à l'endroit ciblé pendant $d ; les ennemis à l'intérieur voient leur hâte en mêlée et à distance et leur vitesse de déplacement réduites de $s1%\r\n\r\nPendant cette durée, les ennemis qui tentent de sortir de la terre de récolte sont ramenés vers son centre.	lot talents_019

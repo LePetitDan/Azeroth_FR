@@ -115,9 +115,11 @@ sort	704613		Description	1e0c07eab59e	Augmente de $s1 le nombre d'effets magique
 sort	704613		Name	3d97cdfd29bc	Démon de la magie	lot talents_017
 sort	704621		Description	0b5c1f289e4f	Augmente la durée de |cffffffffHémostase|r de $/1000;s1 sec.	lot talents_017
 sort	704621		Name	df578e5aaa29	Proie facile	lot talents_017
+sort	704623		Description	84191b4270de	Les membres du groupe et du raid à proximité reçoivent $s1% de soins supplémentaires. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente de $s2% les points de vie drainés par |cffffffffÉclair de sang|r.	lot talents_017
 sort	704623		Name	ab2d8b467de6	Ombres revigorantes	lot talents_017
 sort	704624		Description	2bbc8606b096	Les attaques automatiques contre une cible qui saigne infectent désormais la blessure, augmentant de $707867s1% ses chances de subir un coup critique de votre part pendant $707867d, cumulable $707867u fois.	lot talents_017
 sort	704624		Name	a9e7409cfaec	Infection	lot talents_017
+sort	704625		Description	25045fd42449	Lancer |cffffffffÉclair de sang|r ou |cffffffffMorsure sanglante|r réduit désormais le temps de recharge de votre |cffffffffPacte de sang|r de $/1000;804205S1 sec.	lot talents_017
 sort	704625		Name	17dc5208a3ea	Enrobé de ténèbres	lot talents_017
 sort	704626		Description	03b3f19bc5d0	Les dégâts physiques subis réduisent désormais de ${($556233m1+$AP*0.2)} les dégâts physiques subis lors de la prochaine attaque dans les $556233d.	lot talents_017
 sort	704626		Name	9a9acf61a850	Pelage épais	lot talents_017
@@ -132,6 +134,7 @@ sort	704635		Description	471d77c90a6b	Augmente l'efficacité des |cFFFFFFFFOffra
 sort	704635		Name	b3e95d6232ae	Manipulateur de sang	lot talents_017
 sort	704636		Description	c0eed1c2e130	Donne à votre |cFFFFFFFFPlaie de sang|r $s1% de chances de fournir ses bienfaits sans être consommée.	lot talents_017
 sort	704636		Name	1d461f453382	Seigneur de sang	lot talents_017
+sort	704641		Description	37826c9cd30f	Votre |cFFFFFFFFÉclair de sang|r inflige à coup sûr un coup critique aux ennemis affectés par |cffffffffTourment de Taldaram|r.	lot talents_017
 sort	704641		Name	80357fb37b1d	Ordre du prince de sang	lot talents_017
 sort	704642		Description	bb054dd97243	Augmente de $s1% les dégâts d'Ombre que vous infligez et de $s2% vos chances de toucher.	lot talents_017
 sort	704642		Name	69052978881f	Perfidie d'Atherann	lot talents_017
@@ -140,12 +143,14 @@ sort	704643		Name	69052978881f	Perfidie d'Atherann	lot talents_017
 sort	704643		ToolTip	678b17036eaa	Augmente les dégâts de |cffffffffAngoisse d'Atherann|r de ${$w1}% et le bonus de dégâts de vos coups critiques des sorts de ${$w2}%.	lot talents_017
 sort	704644		Description	4fd952f64c4a	Augmente de $s1% la hâte des sorts de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, lorsqu'une |cffa966f0Forme maudite|r est active, vos temps de recharge globaux sont réduits de $804845s3%.	lot talents_017
 sort	704644		Name	19498f42373e	Frénésie sombre	lot talents_017
+sort	704646		Description	e3ede038f869	Votre |cFFFFFFFFÉclair de sang|r actualise désormais la durée de |cffffffffTourment de Taldaram|r.	lot talents_017
 sort	704646		Name	cd2a0358bf46	Nuée de mouches	lot talents_017
 sort	704652		Description	6ae488fad746	|cFF66DDFFPassif de niveau 40|r\r\nLes coups critiques physiques réduisent désormais de $/1000;807358s1 sec le temps de recharge de |cFFFFFFFFAssaut aortique|r et vous confèrent |cffffffffImplacable|r.@s:807357:0@	lot talents_017
 sort	704653		Description	e1012ba49dd8	Lorsque vous vous fendez sur un ennemi avec |cffffffffFente|r, vous le frappez désormais 3 fois avec des attaques automatiques.	lot talents_017
 sort	704653		Name	23daf66bd9ea	Intention cruelle	lot talents_017
 sort	704654		Description	76164ccc313e	Les coups critiques directs de capacité augmentent désormais de $504166s1% vos chances de coup critique et vos dégâts critiques avec les sorts et capacités pendant ${$504166d-1} sec, cumulable jusqu'à $504166u fois.\r\n\r\nChaque coup critique supplémentaire augmente cet effet de $504166s1% de plus, mais réduit sa durée de $/1000;504166s3 sec.	lot talents_017
 sort	704654		Name	ad9611da7834	Ultra-instinct	lot talents_017
+sort	704659		Description	ec547265d038	Votre |cffffffffÉclatement veineux|r a désormais $h% de chances de ne pas déclencher de temps de recharge une fois lancé.\r\n\r\nVotre |cffffffffÉclair de sang|r a désormais $707447h% de chances de rembourser la moitié de son coût en Rage une fois lancé.	lot talents_017
 sort	704659		Name	5958e4fbf341	Chasseur de la nuit	lot talents_017
 sort	704660		Description	4947d8af2ea3	Permet à votre |cFFFFFFFFPelage épais|r d'affecter un coup supplémentaire.	lot talents_017
 sort	704661		Description	020da94b1b3c	|cFF66DDFFPassif de niveau 30|r\r\nTant que vous êtes sous |cFFFFFFFFMalédiction éternelle|r, vous gagnez désormais $s1% de puissance d'attaque supplémentaire grâce à l'Agilité et à la Force.	lot talents_017
@@ -168,6 +173,7 @@ sort	704682		Name	5d2ac51cfadc	Prodige de l'invocation	lot talents_017
 sort	704690		Description	cde372c5ecbc	Chaque point de Rage augmente désormais de $/1000;S1% les chances de coup critique d'|cffffffffEclatement veineux|r et de |cffffffffSaccage|r, jusqu'à un maximum de 50%.	lot talents_017
 sort	704690		Name	26dc498a1da4	Instinct de tueur	lot talents_017
 sort	704692		Description	05f705fc2fe0	Lorsque vous utilisez |cffffffffTourment de Taldaram|r sur un humanoïde ou une bête, son sang est désormais corrompu, ce qui augmente de $532623s1% les dégâts que vous lui infligez.	lot talents_017
+sort	704692		Name	07881a7d302c	Sang vicié	lot talents_017
 sort	704701		Description	4b64158af131	Lancer des sorts |cff90ee90Commandement|r vous confère désormais une charge de |cffffffffRoi-sous-la-montagne|r pendant $302516d.\r\n\r\nÀ 10 charges, le temps de recharge de$?s805032[][ |cffffffffAnimer : spectre d'os|r,]$?s805044[][ |cffffffffAnimer : roi des tombes|r] ou |cffffffffAnimer : père de la peste|r est réduit au hasard de $/1000;302517s1 sec et vous animez un |cffffffffZombie supérieur|r pendant $525380d.	lot talents_017
 sort	704701		Name	4ac587157e3a	Roi-sous-la-montagne	lot talents_017
 sort	704713		Description	df4f5a1e7f83	Réduit de $/10;s1 le coût en Puissance runique de vos sorts |cff90ee90Commandement|r.	lot talents_017
@@ -253,6 +259,7 @@ sort	704790		Description	77a657b3b3b2	Réduit de $s1% le temps de recharge de |c
 sort	704790		ToolTip	54261aa8fd03	Augmente de ${$w2}% les dégâts de |cffffffffLame de la gardienne|r et réduit de ${$w1}% son temps de recharge.	lot talents_017
 sort	704792		Name	4488fa650141	Vigueur de l'explosion stellaire	lot talents_017
 sort	704793		Description	d0c928b7016b	Augmente de $s1% l'efficacité d'|cFFFFFFFFEclipse de fureur|r.	lot talents_017
+sort	704793		Name	5b415818bc14	Éclipse de fureur améliorée	lot talents_017
 sort	704794		Description	36780d3e2efb	Augmente de $s2% les dégâts d'|cffffffffEnchaînement céleste|r et lui permet d'affecter $s1 ennemis supplémentaires.	lot talents_017
 sort	704794		Name	6d31db11ade1	Explosion de pulsar	lot talents_017
 sort	704794		ToolTip	29147920930e	Permet à |cffffffffVengeance d'Élune|r d'affecter ${$w1} ennemis supplémentaires et augmente ses dégâts de ${$w2}%.	lot talents_017

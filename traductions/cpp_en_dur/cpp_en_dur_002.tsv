@@ -159,6 +159,7 @@ cpp_en_dur	src/server/coa/CoAGameObjectScale.cpp	166	PSendSysMessage	6dd4230e736
 cpp_en_dur	src/server/coa/CoALfgStartPoint.cpp	36	PSendSysMessage	2f159d62717a	Merci ! Votre point de départ pour {} a été enregistré comme suggestion.	lot cpp_en_dur_002
 cpp_en_dur	src/server/coa/CoALfgStartPoint.cpp	55	PSendSysMessage	8fd552b1c526	Recherche de donjon : {} commence désormais ici ({} difficultés).	lot cpp_en_dur_002
 cpp_en_dur	src/server/coa/CoAPlayerTicket.cpp	492	SendSysMessage	7a9b7823a1b4	Aucun ticket de joueur.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoAPlayerTicket.cpp	496	PSendSysMessage	fa72674102e0	#{} [{}] {} - {}{}, {} messages{} (en ligne)	lot cpp_en_dur_002
 cpp_en_dur	src/server/coa/CoAPlayerTicket.cpp	509	PSendSysMessage	e61bbc5ae3b2	De {} (compte {}), concerne {}, priorité {}, catégorie {}{}	lot cpp_en_dur_002
 cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	183	SendWorldText	841f3f239bf5	{}{} est maintenant une zone de test : {}. Aidez-nous à trouver des bogues et faites-nous part de vos retours !{}	lot cpp_en_dur_002
 cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	230	SendWorldText	6caf815f2ef0	{}{} n'est plus une zone de test. Merci d'avoir testé !	lot cpp_en_dur_002

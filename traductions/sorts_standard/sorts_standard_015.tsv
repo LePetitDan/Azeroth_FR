@@ -1,0 +1,215 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	23308		Description	eda96c3688d5	Inflige $s1 points de dégâts de Feu à tous les ennemis et incinère les cibles dans un cône devant le lanceur de sorts. Inflige $s2 points de dégâts de Feu supplémentaires toutes les $t2 sec. pendant $d.	lot sorts_standard_015
+sort	23308		ToolTip	8c5efd74b1b2	$s2 points de dégâts de Feu subis chaque seconde.	lot sorts_standard_015
+sort	23310		Description	4ddd942ad961	Inflige $s1 points de dégâts des Arcanes à tous les ennemis et fige dans le temps les ennemis situés dans un cône devant le lanceur de sorts, les étourdissant pendant $d.	lot sorts_standard_015
+sort	23310		ToolTip	9e0c85d02f31	Figé dans le temps !	lot sorts_standard_015
+sort	23313		Description	1be1b4cc046a	Inflige $s1 points de dégâts de Nature à tous les ennemis et réduit de $s2% l'armure de toutes les cibles situées dans un cône devant le lanceur de sorts pendant $d.	lot sorts_standard_015
+sort	23315		Description	7d05c8db9657	Inflige $s1 points de dégâts d'Ombre à tous les ennemis et plonge la zone dans les ombres : les $s2 prochains points de soins reçus par toutes les cibles affectées sont absorbés.	lot sorts_standard_015
+sort	23315		Name	28b22606cf80	Ombre dévorante	lot sorts_standard_015
+sort	23316		Description	d09335639f79	Absorbe $s1 points de soins et inflige $s3 points de dégâts d'Ombre aux alliés proches au bout de $t2 sec.\n\nDisparaît quand $s1 points de soins ont été absorbés.	lot sorts_standard_015
+sort	23316		Name	28b22606cf80	Ombre dévorante	lot sorts_standard_015
+sort	23316		ToolTip	d09335639f79	Absorbe $s1 points de soins et inflige $s3 points de dégâts d'Ombre aux alliés proches au bout de $t2 sec.\n\nDisparaît quand $s1 points de soins ont été absorbés.	lot sorts_standard_015
+sort	23331		Description	c67b999db158	Libère une vague de flammes qui inflige $s1 points de dégâts de Feu aux ennemis proches, les repousse et réduit leur vitesse de déplacement de $s2% pendant $d.	lot sorts_standard_015
+sort	23333		Description	f182ea376d25	Vous portez le drapeau de la Horde.	lot sorts_standard_015
+sort	23333		Name	07f8802e90b0	Drapeau de la Horde	lot sorts_standard_015
+sort	23335		Description	1d91798392ea	Vous portez le drapeau de l'Alliance.	lot sorts_standard_015
+sort	23335		Name	fa42d83a345d	Drapeau de l'Alliance	lot sorts_standard_015
+sort	23340		Description	c4b14cb0f6ad	Quand la cible subit des dégâts en mêlée, Rochébène récupère des points de vie.	lot sorts_standard_015
+sort	23340		ToolTip	c4b14cb0f6ad	Quand la cible subit des dégâts en mêlée, Rochébène récupère des points de vie.	lot sorts_standard_015
+sort	23341		Description	366c5bc7f467	Inflige $s1 points de dégâts de Feu à tous les ennemis et augmente de $s2% les dégâts de Feu qu'ils subissent pendant $d.	lot sorts_standard_015
+sort	23341		ToolTip	685628635c50	Dégâts de Feu subis augmentés de $s2%.	lot sorts_standard_015
+sort	23342		Description	d46ff6811710	Vitesse d'attaque et de déplacement augmentées de $s2%.\n\nApplique périodiquement Immolation à la cible. Cet effet a un temps de recharge de deux secondes.	lot sorts_standard_015
+sort	23342		ToolTip	d46ff6811710	Vitesse d'attaque et de déplacement augmentées de $s2%.\n\nApplique périodiquement Immolation à la cible. Cet effet a un temps de recharge de deux secondes.	lot sorts_standard_015
+sort	23394		Description	22a1a410e025	Rend des points de vie à Rochébène.	lot sorts_standard_015
+sort	23461		Description	c2fd9ac9990c	Inflige $s1 points de dégâts de Feu aux ennemis situés dans un cône devant le lanceur de sorts, puis $s2 points de dégâts de Feu supplémentaires toutes les $t2 sec. pendant $d. Cumulable jusqu'à 5 fois.	lot sorts_standard_015
+sort	23478		Description	8270f3db19d1	Inflige $s1 points de dégâts de Feu aux alliés proches.	lot sorts_standard_015
+sort	23511		Description	546d267ee9a3	Réduit les dégâts physiques des ennemis proches pendant $d.	lot sorts_standard_015
+sort	23513		Description	d4169b04d26a	La bénédiction d'Alexstrasza est appliquée à tous les alliés proches.\n\nDégâts infligés augmentés de $s2%.\nSoins prodigués augmentés de $s3%.	lot sorts_standard_015
+sort	23513		ToolTip	aef76b244e79	Béni par l'Essence des Rouges.\n\nDégâts infligés augmentés de $s2%.\nSoins prodigués augmentés de $s3%.\n	lot sorts_standard_015
+sort	23537		Description	96e5601064bc	Augmente la vitesse d'attaque du lanceur de sorts de $s2% et les dégâts physiques qu'il inflige de $s1% pendant $d.	lot sorts_standard_015
+sort	23545		Description	cc6b75bed4d5	Augmente votre puissance des sorts de $s2% de votre Intelligence.	lot sorts_standard_015
+sort	23548		Name	d267e1c73717	Tier 2 Guerrier blocage 8 pièces	lot sorts_standard_015
+sort	23549		Description	5f153d5896db	Augmente la durée de Puissance des arcanes de $/1000;S1 sec. et réduit sa consommation de mana de $s2%.	lot sorts_standard_015
+sort	23549		Name	1f35334357fb	Tier 2 Mage 5 pièces	lot sorts_standard_015
+sort	23550		Description	3370f212caee	Les soins directs non critiques augmentent de $802504s1% les soins de votre prochain soin critique. Cumulable jusqu'à $802504u fois.	lot sorts_standard_015
+sort	23550		Name	6bd3c2f93de7	T1 Prophétie soins 6 pièces	lot sorts_standard_015
+sort	23551		Description	f7d26d3d5bfe	Vos sorts de soins avec temps d'incantation ont 25% de chances d'augmenter de $823551s1% vos chances de coup critique avec les sorts pendant $823551d. Cet effet ne peut se produire plus d'une fois toutes les 5 secondes.	lot sorts_standard_015
+sort	23551		Name	210d2f1320e2	Tier 2 Chaman 8 pièces	lot sorts_standard_015
+sort	23552		ToolTip	26a5324b2a59	Inflige $s1 points de dégâts de Nature à l'attaquant lorsqu'il touche et augmente de $s2% les chances d'effet critique du lanceur sur la cible.  $n charges.	lot sorts_standard_015
+sort	23553		Description	9f5794e17679	Dégâts contre les cibles ayant plus de 75% de leurs points de vie augmentés de $s1%.	lot sorts_standard_015
+sort	23553		Name	1002d9b56548	T1 Démoniste 6 pièces	lot sorts_standard_015
+sort	23554		Name	3ceb5818aff1	Hâte améliorée	lot sorts_standard_015
+sort	23555		Description	e2e1d3fd0cdc	Infliger des dégâts à une cible ayant moins de 35% de ses points de vie augmente votre score de hâte de 60 pendant 10 secondes.	lot sorts_standard_015
+sort	23555		Name	73840509f62a	Tier 2 Démoniste 8 pièces	lot sorts_standard_015
+sort	23556		Description	5d329000d984	Augmente votre puissance de soins de $s1% de votre Esprit.	lot sorts_standard_015
+sort	23556		Name	74c30e17cfdb	Tier 1 Druide soigneur 6 pièces	lot sorts_standard_015
+sort	23557		Description	d670ecb82f7c	Augmente votre total d'Esprit de 5%.	lot sorts_standard_015
+sort	23557		Name	0d9d005bb380	Esprit amélioré	lot sorts_standard_015
+sort	23558		Description	b979b46a0700	Infliger un coup critique avec des sorts et des techniques augmente votre puissance d'attaque de $822025s1 pendant $822025d sec. Cumulable jusqu'à $822025u fois.	lot sorts_standard_015
+sort	23558		Name	a504968b004e	Tier 2 Voleur 5 pièces	lot sorts_standard_015
+sort	23559		Name	87a9774d202d	Tier 2 Chasseur 3 pièces	lot sorts_standard_015
+sort	23560		Description	bda55bb19d17	Augmente votre Agilité de $s1%.	lot sorts_standard_015
+sort	23560		Name	d1580ed09ffc	T1 Chasseur 3 pièces	lot sorts_standard_015
+sort	23561		Description	917de5ce7d6f	Augmente de $s1% la valeur d'armure de votre bouclier équipé et de $s2% vos chances de bloquer.	lot sorts_standard_015
+sort	23563		Description	2dcb277e1ccb	Augmente de 2 la puissance d'attaque pour chaque tranche de 150 points d'armure.	lot sorts_standard_015
+sort	23563		Name	4de590a03ae6	Tier 2 Guerrier tank 5 pièces	lot sorts_standard_015
+sort	23564		Description	cc31de4d6259	Augmente votre total de Force de $s1%.	lot sorts_standard_015
+sort	23564		Name	1dc13b8ef257	Ensemble Porteloi 3 pièces.	lot sorts_standard_015
+sort	23565		Description	edd9df729447	Augmente votre puissance d'attaque de $s1 et votre puissance des sorts de $s2.	lot sorts_standard_015
+sort	23565		Name	af46d120dc59	Tier 2 Paladin 3 pièces	lot sorts_standard_015
+sort	23566		Description	58cc2c245102	Les coups critiques à distance vous confèrent $21404s1 points de score de coup critique et de puissance d'attaque pendant $21404d. Cet effet ne peut se produire plus d'une fois toutes les 5 secondes.	lot sorts_standard_015
+sort	23566		Name	3139c7198a37	T1 Chasseur 6 pièces	lot sorts_standard_015
+sort	23570		Description	da6c5c107709	Infliger un coup critique avec un sort de dégâts ou de soins directs a 20% de chances d'augmenter votre puissance des sorts de $822026s1 pendant $822026d. Cet effet ne peut se produire qu'une fois toutes les 18 secondes.	lot sorts_standard_015
+sort	23570		Name	cde6ced9c45c	Tier 2 Chaman 5 pièces	lot sorts_standard_015
+sort	23572		Description	acf7d9010e51	Lancer des sorts de soins de Nature a $h% de chances de vous rendre un montant de mana égal à 35% du coût de base du sort.	lot sorts_standard_015
+sort	23573		Description	2eaeb216a762	Vos sorts de soins déclenchent désormais un soin supplémentaire sur un allié proche, équivalent à $s1% des soins d'origine.	lot sorts_standard_015
+sort	23573		Name	86dfd15dde44	T1 Soigneur Furie-terrestre 8 pièces	lot sorts_standard_015
+sort	23577		Description	112efaf6da04	Augmente de $s1% les dégâts du lanceur de sorts.	lot sorts_standard_015
+sort	23577		Name	b263acbb4c6f	Faiblesse ciblée	lot sorts_standard_015
+sort	23577		ToolTip	112efaf6da04	Augmente de $s1% les dégâts du lanceur de sorts.	lot sorts_standard_015
+sort	23578		Description	eda1eb286333	Chaque fois que vous infligez des dégâts, vous avez une chance d'appliquer un effet de Faiblesse ciblée à la cible. Faiblesse ciblée augmente de $23577s1% tous les dégâts que vous et votre familier infligez à la cible pendant $23577d. 	lot sorts_standard_015
+sort	23578		Name	b972b542d076	Tier 2 Chasseur 8 pièces	lot sorts_standard_015
+sort	23580		ToolTip	46b90ab1a56f	Inflige $s2 points de dégâts de Nature toutes les 2 sec.	lot sorts_standard_015
+sort	23581		Description	781219cdf5b1	Vos dégâts de mêlée ont une chance d'infliger $23580s1 points de dégâts de Nature à la cible et $23580s2 points de dégâts de Nature supplémentaires toutes les 10.5 sec. pendant 9 secondes.	lot sorts_standard_015
+sort	23581		Name	a0060a124147	Tier 2 Voleur 8 pièces	lot sorts_standard_015
+sort	23582		Description	1c1c3ea8bb66	Vos attaques ont une chance de frapper la cible pour ${$23583m1+$23583ppl1+($SP+$AP)*0.4} points de dégâts. Cet effet ne peut se produire plus d'une fois toutes les 8 secondes.	lot sorts_standard_015
+sort	23582		Name	1c93b01c8554	T1 Voleur 8 pièces	lot sorts_standard_015
+sort	23583		Name	02baab300f7b	Massacre nocturne	lot sorts_standard_015
+sort	23583		ToolTip	9f94c86a4796	Saigne.	lot sorts_standard_015
+sort	23584		Description	93bc1b796386	Augmente votre pénétration d'armure de $s1% et vos chances de toucher de $s2%.\n\n|cFFAAAAAABonus de palier : toute la menace générée est réduite de $957339S1%. Cet effet de palier ne se cumule pas avec les effets de palier similaires.|r	lot sorts_standard_015
+sort	23584		Name	1335096d406f	Spécialisation Arme secondaire	lot sorts_standard_015
+sort	23585		Description	93bc1b796386	Augmente votre pénétration d'armure de $s1% et vos chances de toucher de $s2%.\n\n|cFFAAAAAABonus de palier : toute la menace générée est réduite de $957339S1%. Cet effet de palier ne se cumule pas avec les effets de palier similaires.|r	lot sorts_standard_015
+sort	23585		Name	1335096d406f	Spécialisation Arme secondaire	lot sorts_standard_015
+sort	23586		Description	c2c3923527e4	Augmente votre pénétration d'armure de $s1% et vos chances de toucher de $s2%.\n\nBonus de palier : toute la menace générée est réduite de $957339S1%. Cet effet de palier ne se cumule pas avec les effets de palier similaires	lot sorts_standard_015
+sort	23586		Name	1335096d406f	Spécialisation Arme secondaire	lot sorts_standard_015
+sort	23587		Description	a6ff2678ca16	Augmente votre vitesse d'attaque de $s1% et vos chances de toucher avec les sorts et les techniques de $s2%.\n\n|cFFAAAAAABonus de palier : toute la menace générée est réduite de $957339S1%. Cet effet de palier ne se cumule pas avec les effets de palier similaires.|r	lot sorts_standard_015
+sort	23587		Name	1335096d406f	Spécialisation Arme secondaire	lot sorts_standard_015
+sort	23588		Description	a6ff2678ca16	Augmente votre vitesse d'attaque de $s1% et vos chances de toucher avec les sorts et les techniques de $s2%.\n\n|cFFAAAAAABonus de palier : toute la menace générée est réduite de $957339S1%. Cet effet de palier ne se cumule pas avec les effets de palier similaires.|r	lot sorts_standard_015
+sort	23588		Name	1335096d406f	Spécialisation Arme secondaire	lot sorts_standard_015
+sort	23591		Description	ead014fe582e	Vos sorts et techniques de dégâts directs ont 20% de chances de frapper la cible avec vengeance, infligeant des dégâts magiques.	lot sorts_standard_015
+sort	23591		Name	0c4c1cd01673	Tier 2 Paladin 8 pièces	lot sorts_standard_015
+sort	23605		Description	6ac93e251bb7	Dégâts des sorts subis par la cible augmentés de 10% pendant $d. Peut échouer contre les cibles de niveau supérieur à 60.	lot sorts_standard_015
+sort	23605		ToolTip	0af034cc3640	Augmente de 10% les dégâts des sorts subis.	lot sorts_standard_015
+sort	23619		Description	7e0e1774d028	Inflige $s1% des points de vie maximum en dégâts chaque seconde jusqu'à la mort de la cible.\n\nConsommer la corruption met fin à cet effet.	lot sorts_standard_015
+sort	23619		ToolTip	7e0e1774d028	Inflige $s1% des points de vie maximum en dégâts chaque seconde jusqu'à la mort de la cible.\n\nConsommer la corruption met fin à cet effet.	lot sorts_standard_015
+sort	23691		Description	4103b2dc27ce	Génère $/10;23691s1 points de rage.	lot sorts_standard_015
+sort	23695		Description	882f97db8342	Augmente de $s1% les dégâts de votre Brise-genou.\n\nBonus de palier : votre technique Brise-genou immobilise la cible pendant $23694d. Cet effet ne peut se produire plus d'une fois toutes les 10 sec.	lot sorts_standard_015
+sort	23782		Description	4fc0b5267057	Augmente votre maximum de points de vie de 2000 pendant 20 sec. Quand les effets se dissipent, vous perdez les points de vie maximum supplémentaires.	lot sorts_standard_015
+sort	23782		ToolTip	441c1ebf96dd	Maximum de points de vie augmenté de 2000.	lot sorts_standard_015
+sort	23785		Description	b67d6a300618	Fait bénéficier le démoniste et le démon invoqué d'un effet aussi longtemps que le démon est actif.\n\nDiablotin - Augmente vos dégâts de Feu de $23759s1%, et augmente les chances d'effet critique de vos sorts de Feu de $23759s2%.\n\nMarcheur du Vide - Réduit les dégâts physiques subis de $23760s1%.\n\nSuccube - Augmente vos dégâts d'Ombre de $23761s1%, et augmente les chances d'effet critique de vos sorts d'Ombre de $23761s2%.\n\nChasseur corrompu - Réduit tous les dégâts des sorts subis de $23762s1%.\n\nGangregarde - Augmente tous les dégâts infligés de $35702s1%, et réduit tous les dégâts subis de $35702s2%.\n\nDémons asservis - Augmente tous les dégâts infligés de $92629s1%, et réduit tous les dégâts subis de $92629s2%.	lot sorts_standard_015
+sort	23799		Description	52c14c3a4f07	Enchante de manière permanente une arme de mêlée, qui augmente la Force de ${$80419m1+$80419ppl1}. Niveau 50 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_015
+sort	23800		Description	9651473c97c5	Enchante de manière permanente une arme de mêlée, qui augmente l'Agilité de ${$80420m1+$80420ppl1}. Niveau 50 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_015
+sort	23801		Description	ca748b7be45c	Enchante de manière permanente des brassards, qui rendent ${$80421m1+$80421ppl1} points de mana toutes les 5 sec. Niveau 58 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_015
+sort	23802		Description	f884258e76a6	Enchante de manière permanente des brassards, qui augmentent la puissance des sorts de ${$80602m1+$80602ppl1}. Niveau 58 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_015
+sort	23803		Description	2cb8429e46fe	Enchante de manière permanente une arme de mêlée, qui augmente l'Esprit de ${$80422m1+$80422ppl1}. Niveau 58 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_015
+sort	23804		Description	d91ae4867422	Enchante de manière permanente une arme de mêlée, qui augmente l'Intelligence de ${$80423m1+$80423ppl1}. Niveau 58 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_015
+sort	23822		Description	3b239dbba59b	Fait bénéficier le démoniste et le démon invoqué d'un effet aussi longtemps que le démon est actif.\n\nDiablotin - Augmente vos dégâts de Feu de $23826s1%, et augmente les chances d'effet critique de vos sorts de Feu de $23826s2%.\n\nMarcheur du Vide - Réduit les dégâts physiques subis de $23841s1%.\n\nSuccube - Augmente vos dégâts d'Ombre de $23833s1%, et augmente les chances d'effet critique de vos sorts d'Ombre de $23833s2%.\n\nChasseur corrompu - Réduit tous les dégâts des sorts subis de $23837s1%.\n\nGangregarde - Augmente tous les dégâts infligés de $35703s1%, et réduit tous les dégâts subis de $35703s2%.\n\nDémons asservis - Augmente tous les dégâts infligés de $92630s1%, et réduit tous les dégâts subis de $92630s2%.	lot sorts_standard_015
+sort	23823		Description	7640f09649ff	Fait bénéficier le démoniste et le démon invoqué d'un effet aussi longtemps que le démon est actif.\n\nDiablotin - Augmente vos dégâts de Feu de $23827s1%, et augmente les chances d'effet critique de vos sorts de Feu de $23827s2%.\n\nMarcheur du Vide - Réduit les dégâts physiques subis de $23842s1%.\n\nSuccube - Augmente vos dégâts d'Ombre de $23834s1%, et augmente les chances d'effet critique de vos sorts d'Ombre de $23834s2%.\n\nChasseur corrompu - Réduit tous les dégâts des sorts subis de $23838s1%.\n\nGangregarde - Augmente tous les dégâts infligés de $35704s1%, et réduit tous les dégâts subis de $35704s2%.\n\nDémons asservis - Augmente tous les dégâts infligés de $92631s1%, et réduit tous les dégâts subis de $92631s2%.	lot sorts_standard_015
+sort	23824		Description	0ee15f81be90	Fait bénéficier le démoniste et le démon invoqué d'un effet aussi longtemps que le démon est actif.\n\nDiablotin - Augmente vos dégâts de Feu de $23828s1%, et augmente les chances d'effet critique de vos sorts de Feu de $23828s2%.\n\nMarcheur du Vide - Réduit les dégâts physiques subis de $23843s1%.\n\nSuccube - Augmente vos dégâts d'Ombre de $23835s1%, et augmente les chances d'effet critique de vos sorts d'Ombre de $23835s2%.\n\nChasseur corrompu - Réduit tous les dégâts des sorts subis de $23839s1%.\n\nGangregarde - Augmente tous les dégâts infligés de $35705s1%, et réduit tous les dégâts subis de $35705s2%.\n\nDémons asservis - Augmente tous les dégâts infligés de $92632s1%, et réduit tous les dégâts subis de $92632s2%.	lot sorts_standard_015
+sort	23825		Description	ca70feb4f682	Fait bénéficier le démoniste et le démon invoqué d'un effet aussi longtemps que le démon est actif.\n\nDiablotin - Augmente vos dégâts de Feu de $23829s1%, et augmente les chances d'effet critique de vos sorts de Feu de $23829s2%.\n\nMarcheur du Vide - Réduit les dégâts physiques subis de $23844s1%.\n\nSuccube - Augmente vos dégâts d'Ombre de $23836s1%, et augmente les chances d'effet critique de vos sorts d'Ombre de $23836s2%.\n\nChasseur corrompu - Réduit tous les dégâts des sorts subis de $23840s1%.\n\nGangregarde - Augmente tous les dégâts infligés de $35706s1%, et réduit tous les dégâts subis de $35706s2%.\n\nDémons asservis - Augmente tous les dégâts infligés de $92633s1%, et réduit tous les dégâts subis de $92633s2%.	lot sorts_standard_015
+sort	23858		Description	80006991dbcb	Provoque une explosion de lumière divine qui inflige $s1 points de dégâts du Sacré aux ennemis proches et rend $s2% de leur maximum de points de vie aux alliés proches.	lot sorts_standard_015
+sort	23860		Description	d54b2d2113ac	Consume un ennemi dans les flammes, le brûlant pour $s1 points de dégâts de Feu et lui infligeant $s2 points de dégâts de Feu supplémentaires toutes les $t2 sec. pendant $d.	lot sorts_standard_015
+sort	23860		ToolTip	05a3cca00908	$s1 points de dégâts de Feu infligés toutes les $t2 sec.	lot sorts_standard_015
+sort	23862		Description	112abf5b41cf	Crache du poison sur un ennemi et lui inflige $s1 points de dégâts de Nature, puis $s2 points de dégâts de Nature supplémentaires toutes les $t2 sec. pendant $d. Cumulable jusqu'à 3 fois.	lot sorts_standard_015
+sort	23862		ToolTip	be0584e21f2e	$s2 points de dégâts de Nature infligés toutes les $t2 sec.	lot sorts_standard_015
+sort	23881		Description	71a64b1f2221	Attaque instantanément la cible et lui inflige ${$AP*$m1/100} points de dégâts. Chaque saignement que vous appliquez augmente de 8% les dégâts de Sanguinaire, jusqu'à un maximum de 40%. De plus, les $23885n prochaines attaques de mêlée réussies rendent $m2% du maximum de points de vie. Cet effet dure $23885d. @ext:Damage is based on your attack power.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_015
+sort	23895		Description	9c4d93808cde	Rend $s1 points de vie à un allié toutes les $t1 sec. pendant $d.\n\nNe peut pas être volé par vol de sort.	lot sorts_standard_015
+sort	23895		ToolTip	a6055f4772d8	$s1 points de vie rendus toutes les $t1 sec.\n\nNe peut pas être volé par vol de sort.	lot sorts_standard_015
+sort	23918		Description	03e2de474332	Inflige $s1% des dégâts de l'arme aux ennemis proches et les empêche de lancer des sorts pendant $d.	lot sorts_standard_015
+sort	23918		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_standard_015
+sort	23920		Description	c372c3d1a475	Vous levez votre bouclier et renvoyez le prochain sort lancé sur vous. Dure $d.	lot sorts_standard_015
+sort	23922		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	23923		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	23924		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	23925		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	23952		Description	056a66e5a1b9	Prononce un mot des ténèbres qui inflige $s1 points de dégâts d'Ombre à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_015
+sort	23953		Description	fd36b9823aef	Inflige $s1 points de dégâts d'Ombre à un ennemi et réduit sa vitesse de déplacement de $s2% pendant $d. Fouet mental se propage à d'autres cibles proches, jusqu'à un maximum de 5.	lot sorts_standard_015
+sort	23953		ToolTip	48df5f6c1aec	$s1 points de dégâts d'Ombre infligés toutes les secondes pendant $d.\n\nVitesse de déplacement réduite de $s2%.	lot sorts_standard_015
+sort	23979		Description	4b9df0c46525	Lance un éclair de puissance sacrée sur un ennemi, lui infligeant $s1 points de dégâts du Sacré, puis rebondit sur d'autres cibles proches à moins de 10 mètres, les dégâts augmentant de 20% à chaque rebond. Affecte jusqu'à $x1 cibles.	lot sorts_standard_015
+sort	23989		Description	aaadea214635	Quand elle est activée, cette technique met immédiatement fin au temps de recharge de vos autres techniques de chasseur, sauf Courroux bestial.	lot sorts_standard_015
+sort	24002		ToolTip	e71740ccbd17	Temps entre les attaques augmenté de $s1%.\nRéduit la vitesse de déplacement de $s2%.\nVous avez sommeil...	lot sorts_standard_015
+sort	24003		ToolTip	e71740ccbd17	Temps entre les attaques augmenté de $s1%.\nRéduit la vitesse de déplacement de $s2%.\nVous avez sommeil...	lot sorts_standard_015
+sort	24011		Description	6cd1d8acb71f	Crache du poison sur un ennemi et lui inflige $s1 points de dégâts de Nature, puis $s2 points de dégâts supplémentaires toutes les $t2 sec. pendant $d. Cumulable jusqu'à 3 fois.	lot sorts_standard_015
+sort	24011		ToolTip	be0584e21f2e	$s2 points de dégâts de Nature infligés toutes les $t2 sec.	lot sorts_standard_015
+sort	24016		Description	68d873eb9fdf	Inflige $s1% des dégâts de l'arme à un ennemi, mais seulement en attaquant par derrière.	lot sorts_standard_015
+sort	24018		Description	b9b73d61df83	Attaque tous les ennemis proches dans un tourbillon d'acier.	lot sorts_standard_015
+sort	24018		ToolTip	b9b73d61df83	Attaque tous les ennemis proches dans un tourbillon d'acier.	lot sorts_standard_015
+sort	24021		Description	aca1514ebf85	Crée une coquille d'anti-magie autour du lanceur de sorts, réduisant de $s1% les dégâts magiques qu'il subit pendant $d.	lot sorts_standard_015
+sort	24021		ToolTip	556bebeac213	Dégâts magiques subis réduits de $s1%.	lot sorts_standard_015
+sort	24022		Description	13dd8291ef1b	Provoque une explosion de lumière divine qui rend $s2% de leur maximum de points de vie aux alliés proches et les débarrasse des effets négatifs.	lot sorts_standard_015
+sort	24023		Description	dc88f33368d7	Charge un ennemi, lui infligeant $s2% des dégâts de l'arme et l'étourdissant pendant $d.	lot sorts_standard_015
+sort	24024		Description	3267f2269c8d	Inflige $s1 points de dégâts de Feu à tous les ennemis se trouvant à moins de $a1 mètres, tuant le lanceur de sorts dans l'opération.	lot sorts_standard_015
+sort	24048		Description	2e378c3dd675	Inflige $s1% des dégâts de l'arme aux ennemis proches et les envoie à terre pendant $d.	lot sorts_standard_015
+sort	24097		Description	fcb72bd5a313	Inflige $s1 points de dégâts de Nature à un ennemi toutes les $t1 sec. pendant $d. Cumulable jusqu'à 10 fois.	lot sorts_standard_015
+sort	24099		Description	ff35725a32db	Tire du poison sur les ennemis proches, leur infligeant $s2 points de dégâts de Nature toutes les $t2 sec. pendant $d.	lot sorts_standard_015
+sort	24099		ToolTip	e316ec8d5554	$s1 points de dégâts de Nature infligés toutes les $t2 sec.	lot sorts_standard_015
+sort	24109		Description	76c4a98a5f31	Grandit jusqu'à une taille énorme.\n\nDégâts augmentés de $s1%.\nDégâts de zone subis réduits de $s3%.	lot sorts_standard_015
+sort	24109		ToolTip	76c4a98a5f31	Grandit jusqu'à une taille énorme.\n\nDégâts augmentés de $s1%.\nDégâts de zone subis réduits de $s3%.	lot sorts_standard_015
+sort	24110		Description	63ce0110fe4e	Enserre les ennemis proches dans des toiles, les immobilisant sur place et les rendant incapables d'agir pendant $d.	lot sorts_standard_015
+sort	24110		ToolTip	e1a29de740ec	Incapable de se déplacer.\nRéduit au silence.\nPacifié.	lot sorts_standard_015
+sort	24132		Description	7fb3b4dfa841	Une piqûre qui endort la cible pendant $d. Tout point de dégâts subi annule l'effet. Quand la cible se réveille, la Piqûre inflige $24134o1 points de dégâts de Nature en $24134d. Une seule Piqûre par chasseur peut être active sur la cible en même temps.	lot sorts_standard_015
+sort	24133		Description	db3acb4437b2	Une piqûre qui endort la cible pendant $d. Tout point de dégâts subi annule l'effet. Quand la cible se réveille, la Piqûre inflige $24135o1 points de dégâts de Nature en $24135d. Une seule Piqûre par chasseur peut être active sur la cible en même temps.	lot sorts_standard_015
+sort	24149		Description	50ce49dd34c9	Ajoute de manière permanente 10 points d'Endurance, 10 points au score de défense et 30 points à la valeur de blocage à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24160		Description	341ad575ec83	Ajoute de manière permanente 10 points d'Endurance, 10 points au score de défense et 12 points de puissance des sorts à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24161		Description	f04680e2cd1c	Ajoute de manière permanente $24153s1 à la puissance d'attaque, $24153s2 à l'Endurance et $24153s3 au score d'expertise à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24162		Description	cbe6ef969794	Ajoute de manière permanente 24 à la puissance d'attaque, 10 à l'Endurance et 10 au score de toucher à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24163		Description	dffe6c433e8a	Ajoute de manière permanente 15 points d'Intelligence et 13 points de puissance des sorts à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24164		Description	8c5115039138	Ajoute de manière permanente 18 à la puissance des sorts et 8 au score de toucher à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24165		Description	18b22a7dde7c	Ajoute de manière permanente 10 points d'Endurance et 18 points de puissance des sorts à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24167		Description	91b5ce1dc6d7	Ajoute de manière permanente 10 à l'Endurance, 15 points de puissance des sorts et 10 points de mana toutes les 5 sec. à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24168		Description	7a9b410b5d6c	Ajoute de manière permanente 10 à l'Endurance, 10 à l'Intelligence et 12 points de puissance des sorts à une pièce d'armure de jambes ou de tête.	lot sorts_standard_015
+sort	24189		Description	a5f315d0b576	Inflige $s1% des dégâts de l'arme à tous les ennemis proches et les repousse.	lot sorts_standard_015
+sort	24193		Description	dc88f33368d7	Charge un ennemi, lui infligeant $s2% des dégâts de l'arme et l'étourdissant pendant $d.	lot sorts_standard_015
+sort	24201		Name	271d2ef1bdc2	Création de la Rune de l'Aube	lot sorts_standard_015
+sort	24208		Description	258afed2d797	Fait appel à la magie du Sacré pour rendre $s1 points de vie à un allié.	lot sorts_standard_015
+sort	24212		Description	056a66e5a1b9	Prononce un mot des ténèbres qui inflige $s1 points de dégâts d'Ombre à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_015
+sort	24213		Description	67480c2d1d08	Inflige $s1% des dégâts de l'arme et étourdit la cible et ses alliés proches pendant $d. 	lot sorts_standard_015
+sort	24239		Description	a33041487fa0	Projette un marteau qui inflige de ${$m1+0.286*$SPH+0.286*$AP} à ${$M1+0.286*$SPH+0.286*$AP} points de dégâts du Sacré à un ennemi. Utilisable seulement sur les ennemis qui ne disposent que de 20% ou moins de leurs points de vie.	lot sorts_standard_015
+sort	24255		ToolTip	32e730f6a21f	Puissance d'attaque en mêlée augmentée de $s1. Puissance d'attaque à distance augmentée de $s2.	lot sorts_standard_015
+sort	24274		Description	a33041487fa0	Projette un marteau qui inflige de ${$m1+0.286*$SPH+0.286*$AP} à ${$M1+0.286*$SPH+0.286*$AP} points de dégâts du Sacré à un ennemi. Utilisable seulement sur les ennemis qui ne disposent que de 20% ou moins de leurs points de vie.	lot sorts_standard_015
+sort	24275		Description	a33041487fa0	Projette un marteau qui inflige de ${$m1+0.286*$SPH+0.286*$AP} à ${$M1+0.286*$SPH+0.286*$AP} points de dégâts du Sacré à un ennemi. Utilisable seulement sur les ennemis qui ne disposent que de 20% ou moins de leurs points de vie.	lot sorts_standard_015
+sort	24300		Description	9e557ac04aab	Draine $o1 points de vie à un ennemi en $d, les transférant au lanceur de sorts, qui est soigné de 10 fois la quantité drainée.	lot sorts_standard_015
+sort	24306		Description	4b5ca99e29ff	Confère la capacité de voir les Illusions de Jin'do et renforce vos attaques contre ceux qui marchent de l'autre côté.\n\nInflige $s1 points de dégâts toutes les $t1 sec.\n\nVos yeux piquent...	lot sorts_standard_015
+sort	24306		ToolTip	7b75c9b90aa5	Inflige $s1 points de dégâts toutes les $t1 sec.\n\nDégâts contre les morts-vivants augmentés de 100%.\n\nVos yeux piquent alors que vous commencez à comprendre le monde sous un autre angle...	lot sorts_standard_015
+sort	24316		Description	9c4d13066f89	Tente de décapiter la cible, la faisant saigner de $s1% de ses points de vie maximum toutes les $t1 sec. pendant $d.	lot sorts_standard_015
+sort	24316		ToolTip	3609d98b1ef9	$s1% des points de vie maximum infligés en dégâts chaque seconde.	lot sorts_standard_015
+sort	24317		Description	99acb2b9f964	Entaille l'armure d'un ennemi et la réduit de $s1%. Cumulable jusqu'à 10 fois. Dure $d.	lot sorts_standard_015
+sort	24318		Description	96e5601064bc	Augmente la vitesse d'attaque du lanceur de sorts de $s2% et les dégâts physiques qu'il inflige de $s1% pendant $d.	lot sorts_standard_015
+sort	24322		Description	935f4e2b9d35	Hakkar vous draine votre sang, vous infligeant $s1% de vos points de vie maximum en dégâts par seconde.	lot sorts_standard_015
+sort	24322		ToolTip	40d32afd634f	Hakkar vous draine votre sang, vous infligeant $s1% de vos points de vie maximum en dégâts par seconde.\n	lot sorts_standard_015
+sort	24323		Description	6377bf183016	Hakkar vous draine votre sang, vous infligeant $s2% de vos points de vie maximum en dégâts par seconde.\n\nVotre sang est empoisonné !\n\nInflige $s1 points de dégâts de Nature par seconde à Hakkar.	lot sorts_standard_015
+sort	24323		ToolTip	6377bf183016	Hakkar vous draine votre sang, vous infligeant $s2% de vos points de vie maximum en dégâts par seconde.\n\nVotre sang est empoisonné !\n\nInflige $s1 points de dégâts de Nature par seconde à Hakkar.	lot sorts_standard_015
+sort	24328		Description	3c59531e1611	Le sang vicié de Hakkar coule dans vos veines, vous infligeant $s1 points de dégâts d'Ombre toutes les $t1 sec. pendant $d.\n\nQuand l'effet se dissipe, une flaque de sang vicié se forme sous vos pieds.	lot sorts_standard_015
+sort	24328		ToolTip	3c59531e1611	Le sang vicié de Hakkar coule dans vos veines, vous infligeant $s1 points de dégâts d'Ombre toutes les $t1 sec. pendant $d.\n\nQuand l'effet se dissipe, une flaque de sang vicié se forme sous vos pieds.	lot sorts_standard_015
+sort	24332		Description	e967f4fcaa2e	Lacère la cible, lui infligeant $s1% des dégâts de l'arme et $o2 points de dégâts supplémentaires en $d.	lot sorts_standard_015
+sort	24333		Description	e27c46fd1e05	Inflige $s1% des dégâts de l'arme à un ennemi et l'étourdit pendant $d.	lot sorts_standard_015
+sort	24335		Description	4c562fa83d8b	Une piqûre qui endort la cible pendant $d. Tout point de dégâts subi annule l'effet.	lot sorts_standard_015
+sort	24352		Description	fa8a0aef481a	Augmente votre puissance d'attaque de ${$PL*2.98} et votre score de toucher de ${$PL*0.38}. L'effet dure $d.	lot sorts_standard_015
+sort	24354		Description	ffda306c764c	Augmente la puissance des sorts de ${$PL*2} pendant $d.	lot sorts_standard_015
+sort	24375		Description	63a2e59eee8f	Étourdit les ennemis proches.	lot sorts_standard_015
+sort	24389		Description	d275b9fa1ceb	Rend ${$m1} points de mana et augmente de ${$PL*1.98} la puissance des sorts de votre prochain sort de Feu. L'effet dure $d.	lot sorts_standard_015
+sort	24392		Description	2989cd5020c1	Vos sorts d'Éclair de givre ont ${$PL*0.1}% de chances de vous rendre ${$PL*0.98} points de mana quand vous les lancez.	lot sorts_standard_015
+sort	24408		Description	dc88f33368d7	Charge un ennemi, lui infligeant $s2% des dégâts de l'arme et l'étourdissant pendant $d.	lot sorts_standard_015
+sort	25258		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	25497		Description	112abf5b41cf	Crache du poison sur un ennemi et lui inflige $s1 points de dégâts de Nature, puis $s2 points de dégâts de Nature supplémentaires toutes les $t2 sec. pendant $d. Cumulable jusqu'à 3 fois.	lot sorts_standard_015
+sort	25497		ToolTip	be0584e21f2e	$s2 points de dégâts de Nature infligés toutes les $t2 sec.	lot sorts_standard_015
+sort	26527		Description	96e5601064bc	Augmente la vitesse d'attaque du lanceur de sorts de $s2% et les dégâts physiques qu'il inflige de $s1% pendant $d.	lot sorts_standard_015
+sort	27180		Description	a33041487fa0	Projette un marteau qui inflige de ${$m1+0.286*$SPH+0.286*$AP} à ${$M1+0.286*$SPH+0.286*$AP} points de dégâts du Sacré à un ennemi. Utilisable seulement sur les ennemis qui ne disposent que de 20% ou moins de leurs points de vie.	lot sorts_standard_015
+sort	28883		Description	4b9df0c46525	Lance un éclair de puissance sacrée sur un ennemi, lui infligeant $s1 points de dégâts du Sacré, puis rebondit sur d'autres cibles proches à moins de 10 mètres, les dégâts augmentant de 20% à chaque rebond. Affecte jusqu'à $x1 cibles.	lot sorts_standard_015
+sort	29904		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_standard_015
+sort	30356		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	30643		Description	258afed2d797	Fait appel à la magie du Sacré pour rendre $s1 points de vie à un allié.	lot sorts_standard_015
+sort	30854		Description	056a66e5a1b9	Prononce un mot des ténèbres qui inflige $s1 points de dégâts d'Ombre à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_015
+sort	32445		Description	4b9df0c46525	Lance un éclair de puissance sacrée sur un ennemi, lui infligeant $s1 points de dégâts du Sacré, puis rebondit sur d'autres cibles proches à moins de 10 mètres, les dégâts augmentant de 20% à chaque rebond. Affecte jusqu'à $x1 cibles.	lot sorts_standard_015
+sort	32592		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_standard_015
+sort	33144		Description	258afed2d797	Fait appel à la magie du Sacré pour rendre $s1 points de vie à un allié.	lot sorts_standard_015
+sort	34441		Description	056a66e5a1b9	Prononce un mot des ténèbres qui inflige $s1 points de dégâts d'Ombre à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_015
+sort	37564		Description	5d329000d984	Augmente votre puissance de soins de $s1% de votre Esprit.	lot sorts_standard_015
+sort	38461		Description	dc88f33368d7	Charge un ennemi, lui infligeant $s2% des dégâts de l'arme et l'étourdissant pendant $d.	lot sorts_standard_015
+sort	38924		ToolTip	be0584e21f2e	$s2 points de dégâts de Nature infligés toutes les $t2 sec.	lot sorts_standard_015
+sort	38947		Description	96e5601064bc	Augmente la vitesse d'attaque du lanceur de sorts de $s2% et les dégâts physiques qu'il inflige de $s1% pendant $d.	lot sorts_standard_015
+sort	47487		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	47488		Description	1ec30b759633	Donne un coup de bouclier à la cible, infligeant $s2 points de dégâts modifiés par votre valeur de blocage, et dissipe $823922s1 effet de magie sur la cible. Génère un niveau élevé de menace.	lot sorts_standard_015
+sort	48805		Description	a33041487fa0	Projette un marteau qui inflige de ${$m1+0.286*$SPH+0.286*$AP} à ${$M1+0.286*$SPH+0.286*$AP} points de dégâts du Sacré à un ennemi. Utilisable seulement sur les ennemis qui ne disposent que de 20% ou moins de leurs points de vie.	lot sorts_standard_015
+sort	48806		Description	a33041487fa0	Projette un marteau qui inflige de ${$m1+0.286*$SPH+0.286*$AP} à ${$M1+0.286*$SPH+0.286*$AP} points de dégâts du Sacré à un ennemi. Utilisable seulement sur les ennemis qui ne disposent que de 20% ou moins de leurs points de vie.	lot sorts_standard_015
+sort	54701		Description	96e5601064bc	Augmente la vitesse d'attaque du lanceur de sorts de $s2% et les dégâts physiques qu'il inflige de $s1% pendant $d.	lot sorts_standard_015

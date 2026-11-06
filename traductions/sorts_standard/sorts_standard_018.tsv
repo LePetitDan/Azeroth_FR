@@ -1,0 +1,195 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	27275		Description	5006ccea4967	Apaise la cible, augmentant les probabilités qu'elle attaque autre chose et réduisant la vitesse d'attaque en mêlée de $s2% pendant $d. Plus efficace que Baiser apaisant (Rang 4).\nNe se cumule pas avec d'autres effets similaires.	lot sorts_standard_018
+sort	27291		Description	893fefd5ef97	Invoque le bâton d'Ombre du Seigneur Valthalak	lot sorts_standard_018
+sort	27291		ToolTip	893fefd5ef97	Invoque le bâton d'Ombre du Seigneur Valthalak	lot sorts_standard_018
+sort	27521		Description	fd99b70a2614	$h% de chances de rendre $32848s1 points de mana lors d'un lancer de sort non périodique réussi.	lot sorts_standard_018
+sort	27539		Description	e55ff3763bc9	Lorsque vous êtes victime d'un sort de dégâts non périodique, vous avez $h% de chances d'obtenir un bouclier contre les sorts pendant $27533d qui absorbe $27533s1 points de dégâts de cette école. Cet effet ne peut se produire plus d'une fois toutes les 10 sec.	lot sorts_standard_018
+sort	27578		ToolTip	4f868ac71190	Augmente les dégâts physiques infligés de $s1%.	lot sorts_standard_018
+sort	27579		Description	afb8651dfcbd	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\nNe se cumule pas avec d'autres effets similaires.	lot sorts_standard_018
+sort	27675		Description	6689479359ed	Augmente la puissance de vos sorts de ${$m1+0} pendant $d.	lot sorts_standard_018
+sort	27681		Description	857868723124	La puissance imprègne les membres du groupe et du raid de la cible et augmente leur Esprit de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_018
+sort	27688		Description	ca72f4171e79	Absorbe les dégâts.\n$s2 points de dégâts infligés aux adversaires qui l'attaquent en mêlée ou à distance.\n$s2 points de dégâts infligés aux lanceurs de sorts.	lot sorts_standard_018
+sort	27774		Description	82e32ef01921	Une chance, lorsque vous lancez un sort de dégâts directs ou de soins, d'augmenter la puissance de vos sorts de $27775s1 pendant $27775d.	lot sorts_standard_018
+sort	27789		Description	2d6efba8595c	Augmente de $s1 mètres la portée de vos sorts de dégâts à canalisation ou à temps d'incantation. \r\n\r\n@ext:This does not stack with other similar effects.:ext@\r\n\r\nAugmente de $s2% le rayon de vos sorts Prière de soins, Nova sacrée, Hymne divin et Cercle de soins.\n\n|cFFAAAAAABonus de couronnement : soigner ou blesser directement une cible située à plus de 20 mètres de vous a $827790h% de chances de vous rendre $827792s1% de votre mana manquant en $827791d. Cet effet ne peut se produire plus d'une fois toutes les 15 sec.|r	lot sorts_standard_018
+sort	27790		Description	2d6efba8595c	Augmente de $s1 mètres la portée de vos sorts de dégâts à canalisation ou à temps d'incantation. \r\n\r\n@ext:This does not stack with other similar effects.:ext@\r\n\r\nAugmente de $s2% le rayon de vos sorts Prière de soins, Nova sacrée, Hymne divin et Cercle de soins.\n\n|cFFAAAAAABonus de couronnement : soigner ou blesser directement une cible située à plus de 20 mètres de vous a $827790h% de chances de vous rendre $827792s1% de votre mana manquant en $827791d. Cet effet ne peut se produire plus d'une fois toutes les 15 sec.|r	lot sorts_standard_018
+sort	27797		Description	0240b98e9bff	Réduit de $s1% le temps de recharge de Réincarnation.	lot sorts_standard_018
+sort	27799		Description	9546b46bc76c	Provoque une explosion de lumière sacrée autour du lanceur de sorts. Elle inflige $27799s1 points de dégâts du Sacré à toutes les cibles ennemies dans un rayon de $27799a1 mètres et rend $27803s1 points de vie à tous les membres du groupe dans un rayon de $27803a1 mètres. Ces effets ne modifient pas le niveau de menace. 	lot sorts_standard_018
+sort	27800		Description	70b1a82eaffd	Provoque une explosion de lumière sacrée autour du lanceur de sorts. Elle inflige $27800s1 points de dégâts du Sacré à toutes les cibles ennemies dans un rayon de $27800a1 mètres et rend $27804s1 points de vie à tous les membres du groupe dans un rayon de $27804a1 mètres. Ces effets ne modifient pas le niveau de menace. 	lot sorts_standard_018
+sort	27801		Description	16ad02b02d60	Provoque une explosion de lumière sacrée autour du lanceur de sorts. Elle inflige $27801s1 points de dégâts du Sacré à toutes les cibles ennemies dans un rayon de $27801a1 mètres et rend $27805s1 points de vie à tous les membres du groupe dans un rayon de $27805a1 mètres. Ces effets ne modifient pas le niveau de menace. 	lot sorts_standard_018
+sort	27807		Description	46063c7a5740	Inflige $s2 points de dégâts de Nature et $s1 points de dégâts supplémentaires toutes les $t2 sec. aux ennemis qui se trouvent dans une zone en forme de cône devant le lanceur de sorts. La résistance à la Nature est réduite de $s3. Dure $d.	lot sorts_standard_018
+sort	27808		Description	1d2ac2129870	Étourdit la cible et lui inflige un montant de dégâts de Givre égal à $s2% de son maximum de points de vie toutes les secondes pendant 4 sec.	lot sorts_standard_018
+sort	27811		Description	10fd664c72b7	Après avoir subi un coup critique, vous vous soignez de $s1% des dégâts subis en $27818d. Les coups critiques supplémentaires subis pendant l'effet augmentent les soins reçus.\n\n|cFFAAAAAABonus de couronnement : lorsque Rétablissement béni est actif, le temps de recharge de votre Prière du désespoir est trois fois plus rapide.|r	lot sorts_standard_018
+sort	27815		Description	10fd664c72b7	Après avoir subi un coup critique, vous vous soignez de $s1% des dégâts subis en $27818d. Les coups critiques supplémentaires subis pendant l'effet augmentent les soins reçus.\n\n|cFFAAAAAABonus de couronnement : lorsque Rétablissement béni est actif, le temps de recharge de votre Prière du désespoir est trois fois plus rapide.|r	lot sorts_standard_018
+sort	27816		Description	a9a2c58bb86c	Après avoir subi un coup critique, vous vous soignez de $s1% des dégâts subis en $27818d. Les coups critiques supplémentaires subis pendant l'effet augmentent les soins reçus.\n\nBonus de couronnement : lorsque Rétablissement béni est actif, le temps de recharge de votre Prière du désespoir est trois fois plus rapide.	lot sorts_standard_018
+sort	27825		Description	f417c7b84b56	Inflige $s2% des dégâts de l'arme aux ennemis proches et augmente de $s3% les dégâts d'Ombre qu'ils subissent pendant $d. Cumulable jusqu'à 5 fois.	lot sorts_standard_018
+sort	27825		ToolTip	8e990e2821f8	Dégâts subis des effets d'Ombre augmentés de $s3%.	lot sorts_standard_018
+sort	27837		Description	b75289804c3d	Enchante de manière permanente une arme de mêlée à deux mains pour augmenter l'Agilité de ${$80428m1+$80428ppl1}. Nécessite le niveau 50 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27841		Description	e6a5ff4e1cec	La puissance sacrée envahit le corps de la cible et augmente son Esprit de $s1 pendant $d.\nNe se cumule pas avec d'autres effets similaires.	lot sorts_standard_018
+sort	27847		Description	6d07ddb2a75e	Augmente de $s1% les chances de coup critique de votre Horion sacré et de votre Éclair lumineux.	lot sorts_standard_018
+sort	27847		Name	4944f4d6bc34	Bonus d'Éclair lumineux et de Horion sacré	lot sorts_standard_018
+sort	27850		Description	93114dee2460	Augmente de ${$m1+0} l'Armure due à votre Aura de dévotion.	lot sorts_standard_018
+sort	27851		Description	582610917054	Augmente les dégâts de vos techniques Griffe et Griffure de ${$PL*0.3654}.	lot sorts_standard_018
+sort	27853		Description	8df5d1a34b35	Augmente la puissance de votre sort Récupération de ${$m1+$ppl1}.	lot sorts_standard_018
+sort	27853		Name	c04cc952cb69	Idole de récupération	lot sorts_standard_018
+sort	27855		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	27859		Description	a9ff4e5f7f8e	Augmente de ${$PL*0.5577} les dégâts de base infligés par Horion de terre, Horion de flammes et Horion de givre.	lot sorts_standard_018
+sort	27860		Description	b512a1a62a9a	Inflige ${$PL*2} points de dégâts d'Ombre et vous rend ${$PL*2} points de mana.	lot sorts_standard_018
+sort	27891		Description	134cedb66b9d	Inflige $s1 points de dégâts de Nature à un ennemi et augmente de $s2% les dégâts de Nature qu'il subit pendant $d.	lot sorts_standard_018
+sort	27891		ToolTip	33fcf0ffd6c2	Les dégâts de Nature subis sont augmentés de $s2%.	lot sorts_standard_018
+sort	27899		Description	728746727aa1	Enchante de manière permanente des brassards pour augmenter la Force de ${$80429m1+$80429ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27900		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	27901		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	27902		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	27903		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	27904		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	27905		Description	1083c099f0b4	Enchante de manière permanente des brassards pour augmenter toutes les caractéristiques de 4. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27906		Description	1108cf6630f0	Enchante de manière permanente des brassards pour augmenter le score de défense de ${$80430m1+$80430ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27911		Description	a98681fa2ff4	Enchante de manière permanente des brassards pour augmenter la puissance des sorts de ${$80432m1+$80432ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27913		Description	13bbbe24fd06	Enchante de manière permanente des brassards pour rendre ${$80445m1+$80445ppl1} points de mana toutes les 5 secondes. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27914		Description	4a6afc11cab3	Enchante de manière permanente des brassards pour augmenter l'Endurance de ${$80431m1+$80431ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27917		Description	a98681fa2ff4	Enchante de manière permanente des brassards pour augmenter la puissance des sorts de ${$80432m1+$80432ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27920		Description	b7a7f1e998a7	Enchante de manière permanente un anneau pour augmenter les dégâts physiques de ${$26597m1+$26597ppl1}.  Seuls les anneaux de l'enchanteur peuvent être enchantés, et enchanter un anneau le lie à vous. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27924		Description	7e50f62870f7	Enchante de manière permanente un anneau pour augmenter la puissance des sorts de ${$80458m1+$80458ppl1}.  Seuls les anneaux de l'enchanteur peuvent être enchantés, et enchanter un anneau le lie à vous. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27926		Description	e4b6e2022cdb	Enchante de manière permanente un anneau pour augmenter la puissance des sorts de ${$80459m1+$80459ppl1}.  Seuls les anneaux de l'enchanteur peuvent être enchantés, et enchanter un anneau le lie à vous. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27927		Description	c4ca14c3ba96	Enchante de manière permanente un anneau pour augmenter toutes les caractéristiques de ${$19988m1+$19988ppl1}.  Seuls les anneaux de l'enchanteur peuvent être enchantés, et enchanter un anneau le lie à vous. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27944		Description	343a711c6119	Enchante de manière permanente un bouclier, ce qui augmente de 36 la valeur de blocage. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27945		Description	6f66e7038da0	Enchante de manière permanente un bouclier pour augmenter l'Intelligence de ${$80433m1+$80433ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27946		Description	fff38dc9f26d	Enchante de manière permanente un bouclier pour augmenter le score de blocage de ${$80434m1+$80434ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27947		Description	76fc1c940d86	Enchante de manière permanente un bouclier pour augmenter toutes les résistances de ${$44691m1+$44691ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27948		Description	ed2498449077	Enchante de manière permanente des bottes pour rendre ${$80435m1+$80435ppl1} points de vie et de mana toutes les 5 secondes. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27950		Description	158a1d10e31a	Enchante de manière permanente des bottes pour augmenter l'Endurance de ${$80431m1+$80431ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27951		Description	c41dcb1f45c5	Enchante de manière permanente des bottes pour augmenter l'Agilité de ${$80436m1+$80436ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27954		Description	daf59e592dbe	Enchante de manière permanente des bottes pour augmenter les scores de coup critique et de toucher de ${$80437m1+$80437ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27957		Description	5560a00439c5	Enchante de manière permanente une pièce d'armure portée sur le torse pour donner +150 points de vie. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27958		Description	e88023e57db4	Enchante de manière permanente une pièce d'armure de torse pour augmenter le mana de ${$80478m1+$80478ppl1}. Nécessite le niveau 60 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27959		Name	8d5b219a561c	8 au score d'expertise	lot sorts_standard_018
+sort	27960		Description	1c1e3b699978	Enchante de manière permanente une pièce d'armure de torse pour augmenter toutes les caractéristiques de ${$44692m1+$44692ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27961		Description	c70bc7401c42	Enchante de manière permanente une cape pour donner 120 points d'armure supplémentaires. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27962		Description	42b31027621e	Enchante de manière permanente une cape pour augmenter toutes les résistances de ${$27963m1+$27963ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27967		Description	2c6e7e104ae2	Enchante de manière permanente une arme de mêlée pour augmenter ses dégâts de 7. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27968		Description	f93300a25880	Enchante de manière permanente une arme de mêlée pour augmenter l'Intelligence de ${$80440m1+$80440ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27971		Description	ab7f3bf70aad	Enchante de manière permanente une arme de mêlée à deux mains pour augmenter la puissance d'attaque de ${$80441m1+$80441ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27972		Description	2e61efc2b626	Enchante de manière permanente une arme de mêlée pour augmenter la Force de ${$80442m1+$80442ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27975		Description	c8bc2a75269d	Enchante de manière permanente une arme de mêlée pour augmenter les dégâts des sorts de ${$80443m1+$80443ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27975		Name	5d9f85b65243	Ench. d'arme (Puissance des sorts majeure)	lot sorts_standard_018
+sort	27977		Description	7331d985567d	Enchante de manière permanente une arme de mêlée à deux mains pour augmenter l'Agilité de ${$80444m1+$80444ppl1}. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27979		Description	d88c6097b248	Augmente de ${$m1+$pp1} la puissance des sorts de Feu et des Arcanes.	lot sorts_standard_018
+sort	27980		Description	28bbb791682e	Augmente de ${$M1+$PPL1} la puissance des sorts d'Ombre et de Givre.	lot sorts_standard_018
+sort	27980		Name	70e9ee74079e	Augmente les dégâts d'Ombre/de Givre de 50	lot sorts_standard_018
+sort	27981		Description	080509893f8a	Enchante de manière permanente une arme de mêlée pour augmenter de ${27979m1+$27979ppl1} la puissance des sorts de Feu et des Arcanes. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27982		Description	8235738c8ec1	Enchante de manière permanente une arme de mêlée pour augmenter de ${$27980m1+$27980ppl1} la puissance des sorts de Givre et d'Ombre. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27984		Description	cc9e00df4283	Enchante de manière permanente une arme de mêlée pour augmenter de temps en temps l'Agilité de ${$28093m1+$28093ppl1} et légèrement la vitesse d'attaque. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	27989		Description	811346671c73	Libère une vague explosive de magie qui inflige $s1 points de dégâts des Arcanes aux ennemis qui se trouvent à proximité.	lot sorts_standard_018
+sort	27993		Description	248608ed81be	Inflige $s1 points de dégâts physiques aux ennemis proches et les étourdit pendant $d.	lot sorts_standard_018
+sort	28003		Description	2d3642de1130	Enchante de manière permanente une arme de mêlée pour que vos sorts rendent parfois ${$27996m1+$27996ppl1} points de mana aux membres du groupe proches. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	28004		Description	6c783c0da296	Enchante de manière permanente une arme de mêlée pour rendre de temps en temps de ${$28005m1+$28005ppl1} à 300 points de vie aux membres du groupe proches quand vous frappez en mêlée. Nécessite le niveau 35 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_018
+sort	28013		Description	4a9c37d5d680	Lorsqu'elle est appliquée sur l'arme cible, elle rend 14 points de mana au lanceur de sorts toutes les 5 secondes. Dure 1 heure. Nécessite un objet de niveau 35 ou supérieur.	lot sorts_standard_018
+sort	28017		Description	b919a4e96daf	Lorsqu'elle est appliquée sur l'arme cible, elle augmente la puissance des sorts de 42. Dure 1 heure. Ne peut être appliquée sur des objets d'un niveau supérieur à 180.	lot sorts_standard_018
+sort	28062		Description	5bcc8b2b0476	Inflige $s1 points de dégâts de Nature aux cibles alliées proches porteuses d'un effet Charge négative et les repousse.	lot sorts_standard_018
+sort	28085		Description	bafd7f89191e	Inflige $s1 points de dégâts de Nature aux cibles alliées proches porteuses d'un effet Charge positive et les repousse.	lot sorts_standard_018
+sort	28093		Description	580eb4756178	Une chance d'augmenter l'Agilité de ${$m1+0} et d'augmenter légèrement la vitesse d'attaque pendant $d.	lot sorts_standard_018
+sort	28093		ToolTip	e434e2188985	Une chance d'augmenter l'Agilité de ${$m1+$ppl1} et d'augmenter légèrement la vitesse d'attaque pendant $d.	lot sorts_standard_018
+sort	28142		Description	9605e6b2f112	Augmente de $s1 le score de coup critique de tous les membres du raid se trouvant à moins de $a1 mètres.\n\nLa puissance de cet effet est réduite de 5% pour chaque niveau au-delà du niveau 60.	lot sorts_standard_018
+sort	28142		Name	51d630e2bfb3	Précision du Gardien	lot sorts_standard_018
+sort	28142		ToolTip	01bc9f2ba7df	Augmente le score de coup critique de $s1.	lot sorts_standard_018
+sort	28143		Description	9b34e812e382	Augmente de $s1 la puissance des sorts de tous les membres du raid se trouvant à moins de $a1 mètres.\n\nLa puissance de cet effet est réduite de 5% pour chaque niveau au-delà du niveau 60.	lot sorts_standard_018
+sort	28144		Description	4d003d6b41d5	Augmente de $s1 le score de hâte de tous les membres du raid se trouvant à moins de $a1 mètres.\n\nLa puissance de cet effet est réduite de 5% pour chaque niveau au-delà du niveau 60.	lot sorts_standard_018
+sort	28144		Name	4e611f1f068c	Célérité du Gardien	lot sorts_standard_018
+sort	28145		Description	c4c96c90c599	Augmente de $s1 la puissance d'attaque de tous les membres du raid se trouvant à moins de $a1 mètres.\n\nLa puissance de cet effet est réduite de 5% pour chaque niveau au-delà du niveau 60.	lot sorts_standard_018
+sort	28145		Name	b2b0185536a1	Courroux du Gardien	lot sorts_standard_018
+sort	28145		ToolTip	a9c7919e11f6	Augmente de $s1 la puissance d'attaque.	lot sorts_standard_018
+sort	28148		Description	40d1cfe37b02	Crée un portail qui téléporte à Karazhan les membres du groupe qui l'empruntent. Le portail dure jusqu'à $d. L'invocation de ce portail consomme entièrement le mana du lanceur.	lot sorts_standard_018
+sort	28153		Description	36fd7974671c	Une nuée pestilentielle inflige $s1 points de dégâts à tous les ennemis dans un rayon de 8 mètres toutes les $28156t1 sec.	lot sorts_standard_018
+sort	28153		Name	99d5abdbe9d1	Brume gazeuse	lot sorts_standard_018
+sort	28156		Name	99d5abdbe9d1	Brume gazeuse	lot sorts_standard_018
+sort	28156		ToolTip	f01c6cad03c8	Une nuée pestilentielle inflige $28153s1 points de dégâts aux cibles ennemies proches toutes les $t1 sec.	lot sorts_standard_018
+sort	28157		Description	2139a02b1bd7	De la gelée est projetée et inflige $s1 points de dégâts de Nature aux ennemis se trouvant devant Grobbulus. Les ennemis touchés par Projection de gelée invoquent une Gelée polluée et leur armure est réduite de $s2%. Dure $d.	lot sorts_standard_018
+sort	28167		Description	637753fc3ab9	Un éclair frappe un ennemi et lui inflige $s1 points de dégâts de Nature, puis rebondit sur un autre ennemi proche. Ce sort affecte jusqu'à $x1 cibles et inflige des points de dégâts de Nature plus importants à chaque cible.	lot sorts_standard_018
+sort	28172		Description	29b2952f1c28	Lorsqu'elle est appliquée sur l'arme cible, elle augmente les dégâts infligés par les sorts périodiques de $55189s1% et le score de hâte des sorts de $55189s3. Cet effet dure 2 heures.\r\n\r\nVous ne pouvez bénéficier que d'un seul enchantement d'arme de démoniste à la fois.	lot sorts_standard_018
+sort	28176		Description	84f59c393910	Vous entoure d'énergie gangrenée, augmentant la puissance des sorts de $s3 plus $s1% de votre Esprit. \r\nRend $s2% de votre maximum de points de vie toutes les 5 sec. \r\n\r\n@ext:Only one Armor spell can be active at a time. Lasts $d.:ext@	lot sorts_standard_018
+sort	28189		Description	84f59c393910	Vous entoure d'énergie gangrenée, augmentant la puissance des sorts de $s3 plus $s1% de votre Esprit. \r\nRend $s2% de votre maximum de points de vie toutes les 5 sec. \r\n\r\n@ext:Only one Armor spell can be active at a time. Lasts $d.:ext@	lot sorts_standard_018
+sort	28200		Description	23b08d00a164	Vos 5 prochains sorts de dégâts ou de soins lancés dans les 20 secondes vous donneront un bonus de 40 à la puissance des sorts, cumulable jusqu'à 5 fois. Cet effet disparaît après 6 sorts de dégâts ou de soins, ou après 20 secondes, selon ce qui se produit en premier.	lot sorts_standard_018
+sort	28271		Description	7ad4e8645b2e	@req:118@\r\nTransforme l'ennemi en mouton et le force à errer dans les environs pendant $d. au maximum (8 secondes sur les joueurs). Pendant qu'il erre, le mouton ne peut ni attaquer, ni lancer de sorts mais il récupère très rapidement. Tous les dégâts retransforment la cible en sa forme normale. Vous ne pouvez transformer qu'une cible à la fois. Ne fonctionne que sur les bêtes, les humanoïdes et les bestioles.	lot sorts_standard_018
+sort	28272		Description	c11dfe848eb2	@req:118@\nTransforme l'ennemi en cochon et le force à errer dans les environs pendant $d. au maximum. Pendant qu'il erre, le cochon ne peut ni attaquer, ni lancer de sorts mais il récupère très rapidement. Tous les dégâts retransforment la cible en sa forme normale. Vous ne pouvez transformer qu'une cible à la fois. Ne fonctionne que sur les bêtes, les humanoïdes et les bestioles.	lot sorts_standard_018
+sort	28299		Description	9d6b1a827720	Inflige $s1 points de dégâts de Nature à la cible ennemie et jusqu'à 5 alliés proches, augmentant de $s2% les dégâts de Nature qu'ils subissent pendant $d. Cumulable jusqu'à 100 fois.	lot sorts_standard_018
+sort	28299		ToolTip	f326f5aa0380	Dégâts de Nature subis augmentés de $s1%.	lot sorts_standard_018
+sort	28308		Description	653c1f1e5b79	Inflige $s1% des dégâts de l'arme à la cible menaçante ayant le plus de points de vie à portée de mêlée.	lot sorts_standard_018
+sort	28340		Description	66846b088fa1	Le lanceur de sorts inflige automatiquement $28341s1 points de dégâts d'Ombre toutes les $t1 sec. aux ennemis proches. L'aura est active jusqu'à annulation.	lot sorts_standard_018
+sort	28340		ToolTip	58cd09a3743a	Inflige automatiquement $28341s1 points de dégâts d'Ombre toutes les $t1 sec. aux ennemis proches.	lot sorts_standard_018
+sort	28371		Description	22df8d9b5bae	Vitesse d'attaque augmentée de $s1% pendant $d.	lot sorts_standard_018
+sort	28371		ToolTip	89c54e904cb7	Vitesse d'attaque augmentée de $s1%.	lot sorts_standard_018
+sort	28410		ToolTip	f557df961777	Charmé.\nDégâts augmentés de $s2%.\nPoints de vie augmentés de $s3%.	lot sorts_standard_018
+sort	28468		Description	53b1e974d937	Augmente de $s1% les dégâts physiques infligés par le lanceur de sorts et de $s3% sa vitesse d'attaque pendant $d.	lot sorts_standard_018
+sort	28468		ToolTip	93730d669792	Les dégâts physiques infligés sont augmentés de $s1%.\nVitesse d'attaque augmentée de $s3%.	lot sorts_standard_018
+sort	28478		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	28479		Description	acf673111535	Inflige $s1 points de dégâts de Givre aux ennemis proches et réduit leur vitesse de déplacement de $s2% pendant $d.	lot sorts_standard_018
+sort	28479		Name	1a010019eeac	Volée d'éclairs de givre	lot sorts_standard_018
+sort	28479		ToolTip	f6a931401191	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	28506		Description	156f727eac51	Augmente la Force de $s2 et les points de vie de $s1 pendant $d.	lot sorts_standard_018
+sort	28506		ToolTip	59418175a928	Force augmentée de $s2 et points de vie augmentés de $s1.	lot sorts_standard_018
+sort	28514		Name	773b205ddf0f	Élixir de renforcement	lot sorts_standard_018
+sort	28519		Description	fa55af4daf95	Augmente la régénération du mana de $s1 points toutes les 5 secondes et la puissance de soins de $s2 pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.	lot sorts_standard_018
+sort	28519		ToolTip	83ddd0f709eb	Régénération du mana augmentée de $s1 toutes les 5 secondes et puissance de soins augmentée de $s2.	lot sorts_standard_018
+sort	28521		Description	fb791b36d20c	Augmente de $s1 au maximum les dégâts des sorts des Arcanes, du Sacré et de Nature pendant $d. Compte à la fois comme un Elixir de bataille et du Gardien. Cet effet persiste après la mort.	lot sorts_standard_018
+sort	28521		ToolTip	1542e4036a29	Dégâts des sorts des Arcanes, du Sacré et de Nature augmentés de $s1.	lot sorts_standard_018
+sort	28522		Description	6153613194f4	Enferme la cible dans un bloc de glace compact, ce qui l'étourdit et repousse les alliés proches.	lot sorts_standard_018
+sort	28542		Description	2ed3dbf2e446	Draine $s1 points de vie et rend à Sapphiron $*10;s1 points de vie toutes les $t1 sec. pendant $d.	lot sorts_standard_018
+sort	28574		Description	d768d7100f71	Augmente votre Armure d'un montant égal à $s1% de votre Intelligence. \r\n\r\nCet effet est doublé tant que Barrière forgée par le mana est active.\n\n|cFFAAAAAABonus de couronnement : l'Armure apportée par vos objets est augmentée de $54659s2% tant que Barrière forgée par le mana est active.|r	lot sorts_standard_018
+sort	28622		Description	e4d63e735487	Une toile s'enroule fermement autour de la cible, l'étourdissant et lui infligeant des dégâts de Nature égaux à $s2% de son maximum de points de vie toutes les $t2 sec. jusqu'à destruction de l'entoilage.	lot sorts_standard_018
+sort	28622		ToolTip	1284d2def154	Étourdi.\nInflige des dégâts égaux à $s2% du maximum de points de vie toutes les $t2 sec.	lot sorts_standard_018
+sort	28679		Description	284d48f3d09b	Réduit de $s1% les dégâts infligés.	lot sorts_standard_018
+sort	28679		ToolTip	284d48f3d09b	Réduit de $s1% les dégâts infligés.	lot sorts_standard_018
+sort	28744		Description	bd555acc1f46	Votre lancement initial et chaque récupération de Rétablissement augmentent de 50 au maximum les points de vie maximum de votre cible, cumulable jusqu'à 7 fois.	lot sorts_standard_018
+sort	28776		Description	2c90618994b6	Réduit les soins de $s1% pendant $d. Cumulable jusqu'à 10 fois.	lot sorts_standard_018
+sort	28780		Description	9c154b3fe1a2	Augmente de $s2 la puissance des sorts des 5 prochains sorts ou aptitudes pendant $d.	lot sorts_standard_018
+sort	28783		Description	aa206c8d026d	Des épines transpercent le sol puis se dressent, infligeant $s1% des dégâts de l'arme à tous les ennemis sur leur trajet et les étourdissant pendant $d.	lot sorts_standard_018
+sort	28798		Description	c911f8fc09f1	Augmente la vitesse d'attaque du lanceur de sorts de $s2% et les dégâts physiques qu'il inflige de $s1% pendant $d.\n\nCumulable jusqu'à 10 fois.	lot sorts_standard_018
+sort	28798		ToolTip	8cbddf1b70e2	Les dégâts physiques infligés sont augmentés de $s1%.\nVitesse d'attaque augmentée de $s2%.\n\nCumulable jusqu'à 10 fois.	lot sorts_standard_018
+sort	28800		Description	c2f58143075d	À utiliser sur une Rune de givre à l'intérieur de Naxxramas pour la libérer.	lot sorts_standard_018
+sort	28800		ToolTip	c2f58143075d	À utiliser sur une Rune de givre à l'intérieur de Naxxramas pour la libérer.	lot sorts_standard_018
+sort	28801		Description	fc521ddef2f4	Une gelée dégoûtante enveloppe la cible, réduisant toutes ses caractéristiques de $s1% et lui infligeant des dégâts de Nature égaux à $s2% de vos points de vie totaux toutes les $t2 sec.	lot sorts_standard_018
+sort	28801		ToolTip	8120c08b6636	Toutes les caractéristiques sont réduites de $s1%.\nInflige des dégâts de Nature égaux à $s2% de vos points de vie totaux toutes les $t2 sec.\nL'effet de ce sort ne se cumule pas avec les autres affaiblissements de gelée.	lot sorts_standard_018
+sort	28832		Description	de51502490f2	Inflige $s3 points de dégâts de Feu aux ennemis proches.\n\nAugmente de $s2% les dégâts de Feu subis.\n\nAugmente de $s1% tous les dégâts infligés au Porte-cendres. Dure $d. Cumulable jusqu'à 100 fois.	lot sorts_standard_018
+sort	28832		Name	f38706f70c0b	Marque de flamme	lot sorts_standard_018
+sort	28832		ToolTip	b8179fd69ec2	Augmente de $s2% les dégâts de Feu subis.\n\nAugmente de $s1% tous les dégâts infligés au Porte-cendres.	lot sorts_standard_018
+sort	28833		Description	ebfbc8ceac2b	Inflige $s3 points de dégâts d'Ombre aux ennemis proches.\n\nAugmente de $s2% les dégâts d'Ombre subis.\n\nAugmente de $s1% tous les dégâts infligés au Cavalier rouge de la guerre. Dure $d. Cumulable jusqu'à 100 fois.	lot sorts_standard_018
+sort	28833		Name	564159b16ce3	Marque de l'ombre	lot sorts_standard_018
+sort	28833		ToolTip	9b5b4431b59f	Augmente de $s2% les dégâts d'Ombre subis.\n\nAugmente de $s1% tous vos dégâts infligés au Cavalier rouge de la guerre.	lot sorts_standard_018
+sort	28834		Description	9bd80be3e243	Inflige $s3 points de dégâts de Givre aux ennemis proches.\n\nAugmente de $s2% les dégâts de Givre subis.\n\nAugmente de $s1% tous les dégâts infligés au Cavalier blanc de la conquête. Dure $d. Cumulable jusqu'à 100 fois.	lot sorts_standard_018
+sort	28834		Name	aef180e54568	Marque de givre	lot sorts_standard_018
+sort	28834		ToolTip	3e21ef5d0570	Augmente de $s2% les dégâts de Givre subis.\n\nAugmente de $s1% tous les dégâts infligés au Cavalier blanc de la conquête.	lot sorts_standard_018
+sort	28856		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	29954		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	31012		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	31667		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	31668		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	31669		Description	69b51bc7bb42	Réduit de $s1% tous les dégâts magiques subis.	lot sorts_standard_018
+sort	32064		ToolTip	4f868ac71190	Augmente les dégâts physiques infligés de $s1%.	lot sorts_standard_018
+sort	32401		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	32999		Description	857868723124	La puissance imprègne les membres du groupe et du raid de la cible et augmente leur Esprit de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_018
+sort	33061		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	38232		ToolTip	4f868ac71190	Augmente les dégâts physiques infligés de $s1%.	lot sorts_standard_018
+sort	38644		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	38645		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	38664		Description	89c54e904cb7	Vitesse d'attaque augmentée de $s1%.	lot sorts_standard_018
+sort	39031		Description	89c54e904cb7	Vitesse d'attaque augmentée de $s1%.	lot sorts_standard_018
+sort	39031		ToolTip	89c54e904cb7	Vitesse d'attaque augmentée de $s1%.	lot sorts_standard_018
+sort	39064		ToolTip	9c390e209073	Vitesse de déplacement réduite de $s2%.	lot sorts_standard_018
+sort	47892		Description	84f59c393910	Vous entoure d'énergie gangrenée, augmentant la puissance des sorts de $s3 plus $s1% de votre Esprit. \r\nRend $s2% de votre maximum de points de vie toutes les 5 sec. \r\n\r\n@ext:Only one Armor spell can be active at a time. Lasts $d.:ext@	lot sorts_standard_018
+sort	47893		Description	84f59c393910	Vous entoure d'énergie gangrenée, augmentant la puissance des sorts de $s3 plus $s1% de votre Esprit. \r\nRend $s2% de votre maximum de points de vie toutes les 5 sec. \r\n\r\n@ext:Only one Armor spell can be active at a time. Lasts $d.:ext@	lot sorts_standard_018
+sort	48074		Description	857868723124	La puissance imprègne les membres du groupe et du raid de la cible et augmente leur Esprit de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_018
+sort	49676		ToolTip	4f868ac71190	Augmente les dégâts physiques infligés de $s1%.	lot sorts_standard_018
+sort	49724		ToolTip	4f868ac71190	Augmente les dégâts physiques infligés de $s1%.	lot sorts_standard_018
+sort	54326		Description	46063c7a5740	Inflige $s2 points de dégâts de Nature et $s1 points de dégâts supplémentaires toutes les $t2 sec. aux ennemis qui se trouvent dans une zone en forme de cône devant le lanceur de sorts. La résistance à la Nature est réduite de $s3. Dure $d.	lot sorts_standard_018
+sort	54331		Description	134cedb66b9d	Inflige $s1 points de dégâts de Nature à un ennemi et augmente de $s2% les dégâts de Nature qu'il subit pendant $d.	lot sorts_standard_018
+sort	54331		ToolTip	33fcf0ffd6c2	Les dégâts de Nature subis sont augmentés de $s2%.	lot sorts_standard_018
+sort	54890		Description	811346671c73	Libère une vague explosive de magie qui inflige $s1 points de dégâts des Arcanes aux ennemis qui se trouvent à proximité.	lot sorts_standard_018
+sort	55188		Description	29b2952f1c28	Lorsqu'elle est appliquée sur l'arme cible, elle augmente les dégâts infligés par les sorts périodiques de $55189s1% et le score de hâte des sorts de $55189s3. Cet effet dure 2 heures.\r\n\r\nVous ne pouvez bénéficier que d'un seul enchantement d'arme de démoniste à la fois.	lot sorts_standard_018
+sort	56407		Description	811346671c73	Libère une vague explosive de magie qui inflige $s1 points de dégâts des Arcanes aux ennemis qui se trouvent à proximité.	lot sorts_standard_018
+sort	60556		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	60557		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	60558		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	60559		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	60560		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	60562		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
+sort	60657		Description	280239da9952	Augmente de $s1 le montant de base des soins de Vague de soins inférieurs.	lot sorts_standard_018
