@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 06/11/2026 | Vocabulaire, points 22 à 28 : lieux CoA entièrement descriptifs seulement ; noms post-3.3.5 par leur officiel récent ; *Realm First!* aligné sur Blizzard ; petites propositions D/H adoptées, « Newcomers » en anglais ; enchantements 12a (forme majoritaire) et 12b (traduits) ; « Chasseur de trésor : X » | Décisions de Dan pendant le chantier de traduction |
 | 05/11/2026 | Vocabulaire, points 20 et 21 : ressources des classes CoA (Chaleur, Folie, Braise, Âmes moissonnées, Marque de la couvée, Étoiles éparpillées, Avantage, Ferraille, Motivation, Soif, Fragments d'âme, Runes du Vide) ; *Level N Passive* = « Passif de niveau N » | Décisions de Dan pendant le chantier de traduction |
 | 05/11/2026 | Traduction : couche `traductions/` (état `machine`, source `claude`), 8 chantiers parallèles par famille ; contrôle corrigé (apostrophe courbe des noms officiels, retours à la ligne doubles, balises de texte `<…>` traduisibles, balises HTML identiques) | Premiers lots : faux refus repérés par les agents |
 | 05/11/2026 | Quête 98 : le français officiel de `CompletionText` contenait le nom d'un personnage à la place de `$N` ; corrigé à la main (`relu`) | Données personnelles |

@@ -93,8 +93,7 @@ CHANTIERS = [
 CHANTIERS_QUETES = ('A', 'B')
 # Familles en attente d'une decision de Dan : leurs lots sont au plan mais BLOQUES (aucune decision non tranchee
 # n'est appliquee). Enchantements CoA sans modele officiel : A_TRANCHER.md, questions 12a et 12b.
-BLOQUEES = {'enchantements': 'questions 12a et 12b de glossaire/A_TRANCHER.md (formes d\'enchantements sans modèle officiel '
-                             'unique) : rien à traduire tant que Dan n\'a pas tranché'}
+BLOQUEES = {}   # 06/11/2026 : questions 12a et 12b tranchées par Dan (décisions 26 et 27)
 
 # Textes techniques probables (tests, bouche-trous) : jamais extraits (ils restent en anglais)
 CLES_MONTREES = 3          # cles montrees dans le lot ; toutes sont dans <lot>.cles.json

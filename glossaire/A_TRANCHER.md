@@ -79,6 +79,8 @@ B : garder l'anglais.
 
 ## 12a. Enchantements : 4 modèles que Blizzard traduit de deux façons (1 390 noms)
 
+> **Tranché par Dan le 06/11/2026 : A, forme majoritaire** (point 26).
+
 Ta décision 14 s'applique seulement aux modèles **sans ambiguïté** (un seul français de Blizzard pour une même forme
 anglaise). Quatre formes très courantes ont deux français chez Blizzard ; les noms CoA qui les contiennent restent en
 anglais :
@@ -96,6 +98,8 @@ anglais :
 | B. Garder l'anglais | |
 
 ## 12b. Enchantements : formes propres à CoA sans aucun modèle officiel
+
+> **Tranché par Dan le 06/11/2026 : B, traduits au chantier** (point 27).
 
 Blizzard n'a aucun nom de cette forme : le modèle ne peut pas s'appliquer. Les plus fréquentes (en nombre de bonus) :
 

@@ -123,8 +123,8 @@ Bushcraft	(?i)\bbushcraft\b	Survie	décision 18
 Temple of Ahn'Qiraj	\bTemple of Ahn'Qiraj\b	(anglais : question ouverte 11h)	A_TRANCHER 11h	Dans une étiquette : garder l'anglais tant que Dan n'a pas tranché
 Ahn'kahet, the Old Kingdom		(anglais : question ouverte 11j)	A_TRANCHER 11j	Garder l'anglais tant que Dan n'a pas tranché
 Raid: The Obsidian Sanctum	\b(?:Raid: The Obsidian Sanctum|Raid: Eye of Eternity|(?:Heroic|Mythic|Ascended) Raid: Naxxramas)\b	(anglais : question ouverte 11m)	A_TRANCHER 11m	Format d'étiquette « Raid: X - N Player » : garder l'anglais
-Hit Rating (enchantement)	^\+\d+ (?:Hit Rating|Mana|Health|to All Stats)$	(anglais : question ouverte 12a)	A_TRANCHER 12a	Nom d'enchantement CoA à deux formes officielles : garder l'anglais
-per 5 sec (enchantement)	^\+\d+ (?:Mana per 5 sec|Health per 5 sec|Spell Damage|Spell Healing|Shield Block Value)\b|^Increases \w+ spell power by \d+\.$	(anglais : question ouverte 12b)	A_TRANCHER 12b	Nom d'enchantement CoA sans modèle officiel : garder l'anglais
+Hit Rating (enchantement)	^\+\d+ (?:Hit Rating|Mana|Health|to All Stats)$	forme majoritaire de Blizzard : « +N au score de toucher », « +N points de mana », « +N points de vie », « +N à toutes les caractéristiques »	décision 26	Nom d'enchantement CoA
+per 5 sec (enchantement)	^\+\d+ (?:Mana per 5 sec|Health per 5 sec|Spell Damage|Spell Healing|Shield Block Value)\b|^Increases \w+ spell power by \d+\.$	à traduire au plus près des formes officielles voisines (« N points de mana toutes les 5 sec. »)	décision 27	Nom d'enchantement CoA sans modèle officiel
 Reaped Soul	\bReaped Souls?\b	Âme moissonnée (pluriel : Âmes moissonnées)	décision 20	Ressource ou mécanique de classe CoA (décision de Dan du 05/11) ; vérifier que ce n'est pas un nom de sort, de PNJ ou de lieu
 Ember	\bEmbers?\b	Braise (pluriel : Braises)	décision 20	Ressource ou mécanique de classe CoA (décision de Dan du 05/11) ; vérifier que ce n'est pas un nom de sort, de PNJ ou de lieu
 Insanity	\bInsanity\b	Folie	décision 20	Ressource ou mécanique de classe CoA (décision de Dan du 05/11) ; vérifier que ce n'est pas un nom de sort, de PNJ ou de lieu
@@ -139,3 +139,5 @@ Soul Fragment	\bSoul Fragments?\b	Fragment d'âme (pluriel : Fragments d'âme)	d
 Void Rune	\bVoid Runes?\b	Rune du Vide (pluriel : Runes du Vide)	décision 20	Ressource ou mécanique de classe CoA (décision de Dan du 05/11) ; vérifier que ce n'est pas un nom de sort, de PNJ ou de lieu
 
 Level N Passive	\bLevel \d+ Passive\b	Passif de niveau N	décision 21	Nom de talent CoA : « Passif de niveau 10 »
+
+Treasure Hunter	\bTreasure Hunter\b	Chasseur de trésor (« Chasseur de trésor : X »)	décision 28	Mode PvP à haut risque de CoA
