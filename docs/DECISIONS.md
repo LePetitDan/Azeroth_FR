@@ -4,6 +4,8 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 06/11/2026 | Add-on 0.7.0 installé dans `D:\Wow_Core` (la 0.6 n'a jamais été installée) ; Dan autorise à dépasser le plafond de 50 $ d'API pour Erydal : environ 2 $ pour ses textes serveur, le `Spell.dbc` de son `patch-ZZ` seulement après un tri avec Shyro | Dan, le soir du 06/11 |
+| 06/11/2026 | Erydal : copie de la base du monde `coa_world` lue par un compte à part (lecture), exportée dans `D:\Erydal_FR` par HeidiSQL ; fichiers d'Erydal privés, jamais dans le dépôt | Dan et Shyro ; données de Shyro |
 | 06/11/2026 | Suite de la traduction par l'API Anthropic (envois différés, -50 %) sur les crédits API de Dan, avec la clé déjà présente sur son PC (jamais lue ni écrite par Claude) ; plafond 50 $ ; Opus 5.5 pour les sorts et talents (C, G), Sonnet 5.5 pour le reste ; mêmes lots et même contrôle d'entrée que les agents ; essai sur 2 lots d'abord | Décision de Dan : préserver son quota d'utilisation |
 | 06/11/2026 | Vocabulaire, points 22 à 28 : lieux CoA entièrement descriptifs seulement ; noms post-3.3.5 par leur officiel récent ; *Realm First!* aligné sur Blizzard ; petites propositions D/H adoptées, « Newcomers » en anglais ; enchantements 12a (forme majoritaire) et 12b (traduits) ; « Chasseur de trésor : X » | Décisions de Dan pendant le chantier de traduction |
 | 05/11/2026 | Vocabulaire, points 20 et 21 : ressources des classes CoA (Chaleur, Folie, Braise, Âmes moissonnées, Marque de la couvée, Étoiles éparpillées, Avantage, Ferraille, Motivation, Soif, Fragments d'âme, Runes du Vide) ; *Level N Passive* = « Passif de niveau N » | Décisions de Dan pendant le chantier de traduction |
