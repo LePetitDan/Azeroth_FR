@@ -20,14 +20,15 @@ sort	92109		Description	63d2066f3ae7	|cFF66DDFFPassif de niveau 10|r\r\nVous dif
 sort	92109		Name	146394f42e7e	Tenir son serment	lot talents_001
 sort	92111		Description	3103f6d81dff	|cFF66DDFFPassif de niveau 10|r\r\nVos dégâts directs ont désormais $520007h% de chances de frapper un ennemi avec |cffffffffPlaie-du-Fléau|r, qui inflige $801832s2% des dégâts de l'arme plus ${$801832m1*$<scalingbp>+$SP*.25+$AP*.25} points de dégâts de Flamme sacrée supplémentaires.\r\n\r\nCet effet est toujours critique contre les morts-vivants.	lot talents_001
 sort	92111		Name	d4fd392414fe	Plaie-du-Fléau	lot talents_001
-sort	92112		Description	28b26da97252	|cFF66DDFFPassif de niveau 10|r\r\nLes sorts qui coûtent des points de vie vous confèrent désormais |cffffffffThirst|r.\r\n\r\nÀ $706613u charges, vous devenez |cffffffffInsatiable|r, ce qui réduit vos dégâts infligés de $706663s1% toutes les $706621t1 sec. jusqu'à la fin de |cffffffffThirst|r.\r\n@s:706613:0@	lot talents_001
+sort	92112		Description	28b26da97252	|cFF66DDFFPassif de niveau 10|r\r\nLes sorts qui coûtent des points de vie vous confèrent désormais |cffffffffSoif|r.\r\n\r\nÀ $706613u charges, vous devenez |cffffffffInsatiable|r, ce qui réduit vos dégâts infligés de $706663s1% toutes les $706621t1 sec. jusqu'à la fin de |cffffffffSoif|r.\r\n@s:706613:0@	lot talents_001
+sort	92112		Name	5282dc904aa5	Soif	lot talents_001
 sort	92113		Description	3c1ab56a811e	|cFF66DDFFPassif de niveau 10|r\r\nVos sorts de dégâts de |cffffffffForme mortelle|r peuvent désormais être lancés en mouvement.	lot talents_001
 sort	92113		Name	a71eb2388b93	Déchaîné	lot talents_001
 sort	92114		Description	a8f439ca2e21	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffMalédiction éternelle|r et vous permet de manier une arme dans chaque main.@s:800157:0@	lot talents_001
 sort	92114		Name	21b1b823681d	Malédiction éternelle	lot talents_001
 sort	92115		Description	beb011e7e58b	|cFF66DDFFPassif de niveau 10|r\r\nAugmente de $500022s1% les dégâts et la fréquence des dégâts de |cffffffffDard toxique|r.\r\n\r\nVos techniques à distance ignorent désormais $s3% de l'armure des cibles |cff00ff00empoisonnées|r.	lot talents_001
 sort	92115		Name	9e1f39d4ae8a	Tirailleur	lot talents_001
-sort	92116		Description	9e291bae4724	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffFrappe sauvage|r génère désormais 1 |cff8fff7aAdvantage|r supplémentaire.\r\n\r\nSupprime la portée minimale de vos techniques à distance.	lot talents_001
+sort	92116		Description	9e291bae4724	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffFrappe sauvage|r génère désormais 1 charge d'|cff8fff7aAvantage|r supplémentaire.\r\n\r\nSupprime la portée minimale de vos techniques à distance.	lot talents_001
 sort	92116		Name	8c9507b276f8	Ravageur	lot talents_001
 sort	92116		ToolTip	357bce736023	Supprime la portée minimale de vos techniques à distance.	lot talents_001
 sort	92117		Description	1c43b4ab34d1	|cFF66DDFFPassif de niveau 10|r\r\nVos coups critiques infligeant des dégâts font désormais apparaître une |cFFFFFFFFFleur de rêve|r verte à un endroit aléatoire à moins de 15 mètres de vous. @s:561005:0@Cet effet ne peut se produire qu'une fois par seconde.	lot talents_001
@@ -54,13 +55,13 @@ sort	92129		Description	14595ba84d1c	|cFF66DDFFPassif de niveau 10|r\r\nVotre |c
 sort	92129		Name	0d27e1cd161c	Oblitération	lot talents_001
 sort	92130		Description	f4b0482fe90f	Les dégâts infligés ont $805606h% de chances de vous conférer |cffffffffMurmures corrupteurs|r.\r\n@s:706725:0@	lot talents_001
 sort	92130		Name	d1c17e810fae	Murmures corrupteurs	lot talents_001
-sort	92131		Description	161c07c3fb55	|cFF66DDFFPassif de niveau 10|r\r\nAtteindre 100 |cffcfa6ffInsanity|r ne provoque plus de |cFFFFFFFFDémence totale|r.\r\n\r\nVous apprend |cffffffffHéraut des profondeurs|r.@s:520326:0@	lot talents_001
+sort	92131		Description	161c07c3fb55	|cFF66DDFFPassif de niveau 10|r\r\nAtteindre 100 points de |cffcfa6ffFolie|r ne provoque plus de |cFFFFFFFFDémence totale|r.\r\n\r\nVous apprend |cffffffffHéraut des profondeurs|r.@s:520326:0@	lot talents_001
 sort	92131		Name	d4a8da91753b	Héraut des profondeurs	lot talents_001
 sort	92132		Description	71992d4f4453	|cFF66DDFFPassif de niveau 10|r\r\nVous gagnez désormais de l'Intelligence à hauteur de votre Force, et votre maximum de points de vie augmente en plus de 10% de votre maximum de mana.	lot talents_001
 sort	92132		Name	e0d784bd6b2c	Garde lunaire	lot talents_001
 sort	92133		Description	6bbc168ebdc3	|cFF66DDFFPassif de niveau 10|r\r\nAugmente votre score de hâte d'un montant égal à 8% de votre Intelligence.	lot talents_001
 sort	92133		Name	25370587404f	Entraînement de chasseresse	lot talents_001
-sort	92134		Description	75693e43e6c9	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffTir de chasseresse|r a désormais un effet d'|cffffffffÉclipse lunaire|r.\r\n\r\n|cFFFFFFFFTir de chasseresse|r : applique 2 |cff66ccffScattered Stars|r supplémentaires.	lot talents_001
+sort	92134		Description	75693e43e6c9	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffTir de chasseresse|r a désormais un effet d'|cffffffffÉclipse lunaire|r.\r\n\r\n|cFFFFFFFFTir de chasseresse|r : applique 2 |cff66ccffÉtoiles éparpillées|r supplémentaires.	lot talents_001
 sort	92134		Name	638479c473ad	Prêtre de la lune	lot talents_001
 sort	92135		Description	937c9442a3ca	|cFF66DDFFPassif de niveau 10|r\r\nAprès avoir activé |cFFFF9800Aube|r, lancer un sort du Sacré vous confère |cffffffffSoleil levant|r et lancer un sort de Feu vous confère |cffffffffSoleil couchant|r.\r\n\r\nPasser en |cffffffffSoleil levant|r ou en |cffffffffSoleil couchant|r vous empêche de passer dans l'autre état jusqu'à ce que vous passiez dans le suivant.\r\n@s:500477:0@\r\n@s:500511:0@	lot talents_001
 sort	92135		Name	e3e8fd2adf9f	Soleil levant et couchant	lot talents_001
@@ -72,11 +73,12 @@ sort	92138		Description	98e99c66a12a	|cFF66DDFFPassif de niveau 10|r\r\nInfliger
 sort	92138		Name	96f41ee0ab83	Napalm	lot talents_001
 sort	92140		Description	4e36e932cfd6	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffConstruire : ZIGGI-6K|r.@s:524840:0@	lot talents_001
 sort	92140		Name	5978b2fddb15	Construire : ZIGGI-6K	lot talents_001
-sort	92141		Description	8eb7cb61bdd9	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffConstruire : Méca-armure|r.\r\n\r\nVous pouvez désormais générer |cffc7c7c7Scrap|r pour construire votre |cFFFFFFFFMéca-armure|r, et |cffffffffTir de ferraille|r et |cffffffffBombe collante|r génèrent désormais |cffc7c7c7Scrap|r. @s:801384:0@	lot talents_001
+sort	92141		Description	8eb7cb61bdd9	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffConstruire : Méca-armure|r.\r\n\r\nVous pouvez désormais générer de la |cffc7c7c7Ferraille|r pour construire votre |cFFFFFFFFMéca-armure|r, et |cffffffffTir de ferraille|r et |cffffffffBombe collante|r génèrent désormais de la |cffc7c7c7Ferraille|r. @s:801384:0@	lot talents_001
 sort	92141		Name	fe8ca6aa647c	Construire : Méca-armure	lot talents_001
 sort	92142		Description	972a73bdc78f	|cFF66DDFFPassif de niveau 10|r\r\nVos dégâts directs ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffCroc du serpent|r, de vous conférer |cffffffffLiche putride|r et de conférer |cffffffffRequinquage|r à vos alliés.@s:706032:0@@s:1257670:0@	lot talents_001
 sort	92142		Name	07de87a47ca8	Liche putride	lot talents_001
-sort	92143		Description	3fe3c2185f79	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffCroc venimeux|r applique désormais une |cff66ff66Brood Mark|r, cumulable $804972u fois. Certaines techniques les consomment pour obtenir un effet supplémentaire.	lot talents_001
+sort	92143		Description	3fe3c2185f79	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffCroc venimeux|r applique désormais une |cff66ff66Marque de la couvée|r, cumulable $804972u fois. Certaines techniques les consomment pour obtenir un effet supplémentaire.	lot talents_001
+sort	92143		Name	6df7392b1fa9	Marques de la couvée	lot talents_001
 sort	92144		Description	a18277922d71	|cFF66DDFFPassif de niveau 10|r\r\nLes attaques hostiles contre vous ont désormais $805098h% de chances de vous conférer une charge de |cff66ff66Chair à vif|r.\r\n@s:805095:0@	lot talents_001
 sort	92144		Name	94cec898147e	Chair à vif	lot talents_001
 sort	92145		Description	aff3df1ad1c7	|cFF66DDFFPassif de niveau 10|r\r\nVous récupérez désormais des points de vie à hauteur de $500283s1% de tous les dégâts que vous infligez.	lot talents_001
@@ -99,6 +101,7 @@ sort	92154		Description	b9a0da811b4a	|cFF66DDFFPassif de niveau 10|r\r\nVotre |c
 sort	92154		Name	2bf4f7801d20	Lame des failles	lot talents_001
 sort	139778		Description	e4a42f63fd93	Vos attaques et techniques à distance directes ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffAppel du maître-chien|r.	lot talents_001
 sort	139778		Name	9fb88f9f6d5d	Expulsion du mal	lot talents_001
+sort	200749		Description	4f33af6ea318	Projette un éclair de magie noire sur un ennemi, qui inflige ${$m1+$ppl1+$SP*0.876543+$SPI*1} points de dégâts d'Ombre, selon votre Esprit.\n\nSi la cible subit |cffffffffMaléfice de malveillance|r, l'éclair réduit aussi de $802926s2% les soins qu'elle reçoit pendant $802926d.	lot talents_001
 sort	200749		Name	bf1850b2d376	Mauvais juju	lot talents_001
 sort	255275		Description	75c5800038fb	Canalise pendant $d en annonçant la fin du monde à tous les ennemis proches : leur retire instantanément tous les effets magiques bénéfiques, et réduit de $255276s1% vos dégâts subis ainsi que leur hâte et leur vitesse de déplacement pendant la canalisation.\r\n\r\nPendant la canalisation, les ennemis proches sont aussi frappés par |cffffffffCieux apocalyptiques|r.\r\n\r\nÀ la fin de l'effet, vous poussez un cri terrifiant qui applique |cffffffffCorruption de l'esprit|r aux ennemis proches.	lot talents_001
 sort	255275		Name	8f3028077b04	Heure du crépuscule	lot talents_001

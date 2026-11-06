@@ -10,7 +10,7 @@ sort	525600		Name	0b85ebb371f4	Armée des morts	lot talents_010
 sort	527023		Description	e5351255ddd1	Vous et les membres de votre groupe sautez sur un destrier divin, ce qui augmente leur vitesse de déplacement de $527272s2% et leur fait piétiner les ennemis proches, qui subissent ${$527270m3+$527270ppl3+$AP*.2+$sph*.4} points de dégâts du Sacré toutes les $527270t3 sec. pendant $d.\r\n\r\nTant que l'effet est actif, lancer des sorts ne vous fait pas descendre de monture, ni vos alliés. Utilisable uniquement en extérieur.	lot talents_010
 sort	527023		Name	22cf04351651	Charge divine	lot talents_010
 sort	527023		ToolTip	1fe7b0b70f39	Vitesse de déplacement augmentée de $527272s2%. Inflige des dégâts du Sacré aux ennemis proches.	lot talents_010
-sort	527268		Description	0de93b18ca9c	Tant que vous avez plus de 60 |cffcfa6ffInsanity|r, votre |cFFFFFFFFFrappe du Néant|r, votre |cffffffffRegard de C'Thun|r et votre |cffffffffChoc surnaturel|r gagnent $573272s1% de chances de coup critique supplémentaires.	lot talents_010
+sort	527268		Description	0de93b18ca9c	Tant que vous avez plus de 60 points de |cffcfa6ffFolie|r, votre |cFFFFFFFFFrappe du Néant|r, votre |cffffffffRegard de C'Thun|r et votre |cffffffffChoc surnaturel|r gagnent $573272s1% de chances de coup critique supplémentaires.	lot talents_010
 sort	527268		Name	414d58c7cea1	Instiller la peur	lot talents_010
 sort	531126		Description	3466434cc5b9	Chaque |cffffffffArcher squelette|r actif augmente désormais votre hâte de $805025s3%.	lot talents_010
 sort	531126		Name	799b0f224df0	Disciple du Fléau	lot talents_010
@@ -37,25 +37,25 @@ sort	537212		Description	5ff7626059d4	Votre |cffffffffPoigne sismique|r immobili
 sort	537212		Name	8727ad5d467c	Brise-échine	lot talents_010
 sort	538441		Description	039ab5f94358	Vos dégâts périodiques ont désormais $h% de chances de vous conférer |cFFFFFFFFÉruption|r pendant $/1000;538442s1 sec.	lot talents_010
 sort	538441		Name	448bac576c13	Flammes du seigneur du Feu	lot talents_010
-sort	547202		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547202		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547202		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547202		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
-sort	547203		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547203		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547203		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547203		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
-sort	547204		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547204		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547204		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547204		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
-sort	547205		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547205		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547205		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547205		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
-sort	547206		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547206		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547206		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547206		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
-sort	547207		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547207		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547207		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547207		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
-sort	547208		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	547208		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	547208		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	547208		ToolTip	62963052e913	Marqué.$?s560813[ Le rôdeur a $560813s1% de chances supplémentaires d'infliger un coup critique physique à cette cible.][]	lot talents_010
 sort	547214		Description	1eaf1814d3ba	Augmente de $s1% le mana rendu par |cffffffffVœu de grâce|r, et |cffffffffDéflagration d'Horusath|r interrompt la cible pendant $547217d.	lot talents_010
@@ -72,6 +72,7 @@ sort	555737		Name	748b71c8d837	Mélangeur temporel	lot talents_010
 sort	555737		ToolTip	ebc8c69bb665	Les soins d'|cFFFFFFFFInversion des blessures|r prolongent de $/1000;524680s1 sec. la durée de |cFFFFFFFFRécupération accélérée|r sur la cible.	lot talents_010
 sort	555738		Description	bcc7b794b805	Fait tournoyer vos glaives pendant $d, ce qui augmente votre vitesse de déplacement de $s2% et inflige $806095s1% des dégâts de l'arme toutes les $t1 sec. avec vos deux armes à tous les ennemis proches.\r\n\r\nVous êtes insensible aux effets affectant le déplacement et de perte de contrôle.	lot talents_010
 sort	555738		Name	e4ef15333286	Fureur déchaînée	lot talents_010
+sort	555738		ToolTip	b4dc6f611ea5	Vitesse de déplacement augmentée de ${$w2}%. Frappe les ennemis proches.\n\nVous êtes insensible aux effets affectant le déplacement et de perte de contrôle.	lot talents_010
 sort	557325		Description	5a778bcd1f50	Se téléporte jusqu'à un ennemi, invoque un leurre sous lui et le marque pendant $d. Lui infliger des dégâts en mêlée ajoute une charge à cet effet, jusqu'à $u charges.\r\n\r\nRéactiver cette technique dans les $557326d inflige ${$557328m1+$AP*.55} points de dégâts physiques à votre cible, augmentés de $s3% par charge sur la cible, puis vous téléporte jusqu'à votre leurre.\r\n\r\nUtilisable sous |cffffffffDérobade|r.	lot talents_010
 sort	557325		Name	f2458ebdb4fb	Déjouer	lot talents_010
 sort	557325		ToolTip	bbfb4637a546	Marqué par le brigand. Les charges supplémentaires augmentent les dégâts subis quand cette technique est réactivée.	lot talents_010
@@ -129,7 +130,7 @@ sort	560095		Name	15a2bb4ea144	Rempart séraphique	lot talents_010
 sort	560095		ToolTip	d80989e94a48	Valeur de blocage augmentée de ${$w1}%.	lot talents_010
 sort	560096		Description	554184c2baa8	Augmente de $567572s1% la hâte en mêlée et à distance de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nLes dégâts de vos attaques automatiques réduisent le temps de recharge des sorts de |cFFFFFFFFLibram|r de $/1000;560097S1 sec.	lot talents_010
 sort	560096		Name	b0a924d5b93b	Dévotion de Khaz'goroth	lot talents_010
-sort	560109		Description	add1f939d00e	|cffcfa6ffGénère 10 Insanity|r\r\nCorrompt l'esprit d'un ennemi et répand la démence, ce qui le pétrifie de peur sur place pendant $d (8 sec. contre les joueurs) et rebondit sur 2 ennemis proches au maximum$?s525049[ en leur appliquant |cffffffffDégénérescence mentale|r@s:560714:0@][].\r\n\r\nSubir des dégâts peut mettre fin à cet effet.	lot talents_010
+sort	560109		Description	add1f939d00e	|cffcfa6ffGénère 10 points de Folie|r\r\nCorrompt l'esprit d'un ennemi et répand la démence, ce qui le pétrifie de peur sur place pendant $d (8 sec. contre les joueurs) et rebondit sur 2 ennemis proches au maximum$?s525049[ en leur appliquant |cffffffffDégénérescence mentale|r@s:560714:0@][].\r\n\r\nSubir des dégâts peut mettre fin à cet effet.	lot talents_010
 sort	560109		Name	1e6741d2c0a9	Corruption de l'esprit	lot talents_010
 sort	560109		ToolTip	eff3e97357b3	Apeuré.	lot talents_010
 sort	560111		Description	548d5ce98133	Lancer |cffffffffDéflagration d'Horusath|r réinitialise désormais le temps de recharge d'|cffffffffExécution glorieuse|r.	lot talents_010
@@ -159,6 +160,7 @@ sort	560154		Description	5d10efeec97b	|cffffffffÉclat de pierre|r a désormais 
 sort	560154		Name	e62777660dc6	Glissement de terrain	lot talents_010
 sort	560156		Description	eaff07024c80	|cFF66DDFFPassif de niveau 50|r\r\nPermet aux dégâts périodiques de |cffffffffTremblement sismique|r, d'|cffffffffImpact sismique|r et de |cffffffffSéisme|r d'être critiques.	lot talents_010
 sort	560156		Name	8d5b3dea9529	Bénédiction de Therazane	lot talents_010
+sort	560157		Description	b46293052daf	Les attaques qui devraient vous tuer vous reforment à la place dans la pierre, ce qui vous rend $560179s1% de votre maximum de points de vie et réduit vos dégâts physiques subis de $560179s2% pendant $560179d.\n\nCet effet ne peut se produire qu'une fois toutes les 2 min.	lot talents_010
 sort	560157		Name	ef39c00e7fb5	Bénédiction de la Terre-Mère	lot talents_010
 sort	560158		Description	af0687de5157	Augmente votre maximum de points de vie de $s1%.	lot talents_010
 sort	560158		Name	70d254886f5a	Froid comme la pierre	lot talents_010
@@ -193,7 +195,7 @@ sort	560247		ToolTip	c74fdd4bafbf	Draine les points de vie des ennemis proches.	
 sort	560248		Description	1aa138da554e	Fait jaillir des pointes du sol qui empalent tous les ennemis sur une ligne de $a1 mètres, ce qui leur inflige ${$m1+0+$sps*0.510714} points de dégâts d'Ombre et les étourdit pendant $520663d.	lot talents_010
 sort	560248		Name	29fea1529978	Empaler	lot talents_010
 sort	560248		ToolTip	cf4e7c10f8de	Étourdi.	lot talents_010
-sort	560249		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	560249		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	560249		Name	27218d903e95	Calamité de Keleseth	lot talents_010
 sort	560250		Description	845109484b01	Augmente de $s1% les dégâts de |CffffffffVengeance de Valanar|r et de |cffffffffTourment de Taldaram|r.	lot talents_010
 sort	560250		Name	282397ac0966	Banquet de sang	lot talents_010
@@ -227,6 +229,7 @@ sort	560283		Name	48da9586fdbb	Sables de vie	lot talents_010
 sort	560284		Description	50b4fcb0fd9c	Fait tomber du ciel un infernal par une magie grotesque, ce qui inflige ${$m2+0+$spfi*1.05} points de dégâts de Feu aux ennemis dans la zone, les horrifie pendant $d et fait apparaître un |cFFFFFFFFInfernal|r qui combat à vos côtés pendant $572163d.\r\n\r\n|cff32cd32Démon intérieur|r : dure $/1000;807421s3 sec. de plus.	lot talents_010
 sort	560284		Name	007ab7a6986f	Infernal	lot talents_010
 sort	560284		ToolTip	aa861fa08993	Horrifié.	lot talents_010
+sort	560286		Description	8935f5312f86	Vos coups critiques en mêlée augmentent désormais de $560288s1% l'efficacité des effets de saignement sur la cible pendant $560288d.\n\nNe se cumule pas avec des effets similaires.	lot talents_010
 sort	560286		Name	32ddae1c4707	Lacérations	lot talents_010
 sort	560298		Description	523375e172e8	Tant que votre |cffffffffBarrière rocheuse|R est active, le coût en rage de |cffffffffMain de la Terre-Mère|r est réduit de $s1%.	lot talents_010
 sort	560298		Name	d903e0033768	Protection de la Terre-Mère	lot talents_010
@@ -238,7 +241,7 @@ sort	560305		Description	5f4423ff15e3	Le temps de recharge de votre |cffffffffCh
 sort	560305		Name	20c9a40b8d79	Poursuite verdoyante	lot talents_010
 sort	560310		Description	7980b2bb2fb7	Activer un |cffffffffÉon|r augmente désormais de $560311s1% votre régénération de mana due à l'Esprit pendant $560311d.	lot talents_010
 sort	560310		Name	5bf14679e948	À travers les éons	lot talents_010
-sort	560315		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	560315		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	560315		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
 sort	560319		Description	556c2cd16abc	Augmente vos chances d'esquiver de $s1%.	lot talents_010
 sort	560319		Name	57c9499dace0	Divination céleste	lot talents_010
@@ -246,7 +249,7 @@ sort	560320		Description	fac6ba63373a	Vos attaques en mêlée ont désormais $h%
 sort	560320		Name	da910dff640a	Chercheur du Vide	lot talents_010
 sort	560321		Description	36390c986ea8	Crée un |cffffffffObélisque surnaturel|r sous vous pendant $560322d : tant que vous êtes à proximité, les dégâts de vos |cffffffffTentacules|r sont augmentés de $560322s1% et la vitesse de déplacement de vos alliés de $560322s3%.	lot talents_010
 sort	560321		Name	8bd2f388e0d2	Obélisque surnaturel	lot talents_010
-sort	560339		Description	03a767aeb398	Votre |cffffffffAdepte des bois|r et votre |cFFFFFFFFDérobade|r déclenchent désormais un temps de recharge réduit de $s1% pour chaque charge d'|cff8fff7aAdvantage|r active au moment de l'incantation.	lot talents_010
+sort	560339		Description	03a767aeb398	Votre |cffffffffAdepte des bois|r et votre |cFFFFFFFFDérobade|r déclenchent désormais un temps de recharge réduit de $s1% pour chaque charge d'|cff8fff7aAvantage|r active au moment de l'incantation.	lot talents_010
 sort	560339		Name	1388cb8baec0	Rusé	lot talents_010
 sort	560340		Description	d6fe4dbb5b8a	Augmente vos dégâts infligés de $705046s1% pendant $705046d après avoir quitté |cffffffffDérobade|r.	lot talents_010
 sort	560340		Name	d1c1e5478e3e	Personnage insaisissable	lot talents_010
@@ -263,23 +266,23 @@ sort	560397		Description	e28cd33c6ed1	Vos coups critiques avec |cFFFFFFFFÉpoque
 sort	560397		Name	731423c03b6c	Cadence du temps	lot talents_010
 sort	560410		Description	5f89ec7af749	Réduit le coût en énergie de vos |CffffffffFormations|r et augmente leur efficacité de $s2%.	lot talents_010
 sort	560410		Name	56549c5d1877	La Tour verte	lot talents_010
-sort	560412		Description	08000bc34c1e	Lancer |cffffffffFoulée spectrale|r génère désormais 1 |cff5ee2ffReaped Soul|r.	lot talents_010
+sort	560412		Description	08000bc34c1e	Lancer |cffffffffFoulée spectrale|r génère désormais 1 |cff5ee2ffÂme moissonnée|r.	lot talents_010
 sort	560412		Name	9b9d9eb2a555	Entre les ombres	lot talents_010
-sort	561027		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561027		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561027		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
-sort	561028		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561028		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561028		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
-sort	561029		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561029		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561029		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
-sort	561175		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561175		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561175		Name	27218d903e95	Calamité de Keleseth	lot talents_010
-sort	561176		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561176		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561176		Name	27218d903e95	Calamité de Keleseth	lot talents_010
-sort	561177		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561177		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561177		Name	27218d903e95	Calamité de Keleseth	lot talents_010
-sort	561178		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561178		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561178		Name	27218d903e95	Calamité de Keleseth	lot talents_010
-sort	561179		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	561179		Description	bd6488a03b69	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nPlie le sang dans une zone, ce qui inflige ${$m1+0+$sps*0.69} points de dégâts d'Ombre aux ennemis.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	561179		Name	27218d903e95	Calamité de Keleseth	lot talents_010
 sort	561328		ToolTip	958971f404b4	Supprime le temps d'incantation de |cffffffffRegard furieux|r et réduit son temps de recharge de $/1000;s1 sec.	lot talents_010
 sort	561335		Description	69a6a3c69201	Augmente de $s1% la quantité de mana, et désormais de points de vie, conférée par point d'Intelligence.	lot talents_010
@@ -294,11 +297,11 @@ sort	561349		Description	ac346fd049d3	Augmente de $s1% les dégâts de |cfffffff
 sort	561349		Name	4211e3695e2f	Étreinte du serpent	lot talents_010
 sort	561350		Description	bf70ede34e23	Augmente de $s1% les chances de coup critique et les dégâts critiques de |cffffffffFeu couvant|r et de |cffffffffDéflagration primordiale|r contre les cibles |cff3399ffgelées|r.	lot talents_010
 sort	561350		Name	26bd1ab1082e	Spectre de glace	lot talents_010
-sort	572793		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	572793		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	572793		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
-sort	572794		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	572794		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	572794		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
-sort	572795		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffThirst|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
+sort	572795		Description	a3849eb7aa04	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nLance un puissant trait de sang sur un ennemi, ce qui inflige ${$m1+$sp*1.2775} points de dégâts d'Ombre.\r\n\r\nChaque charge de |cffffffffSoif|r réduit le temps d'incantation de cette technique et augmente ses dégâts.	lot talents_010
 sort	572795		Name	2f366a26687b	Vengeance de Valanar	lot talents_010
 sort	573044		Name	32ddae1c4707	Lacérations	lot talents_010
 sort	574314		Name	f409dcce68a8	Troglodyte	lot talents_010
@@ -319,7 +322,7 @@ sort	706926		Description	43a7ecb18296	Vous rendez désormais à l'allié affect�
 sort	706926		Name	855d90026edc	Fanion de l'ombre	lot talents_010
 sort	801074		ToolTip	eff3e97357b3	Apeuré.	lot talents_010
 sort	801135		ToolTip	cf4e7c10f8de	Étourdi.	lot talents_010
-sort	801191		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAdvantage|r pour chaque ennemi touché.	lot talents_010
+sort	801191		Description	c5920ad6a03a	Tire un projectile qui ricoche entre $x1 ennemis et inflige à chacun les dégâts de l'arme à distance plus $s1.\r\n\r\nGénère 1 charge d'|cff8fff7aAvantage|r pour chaque ennemi touché.	lot talents_010
 sort	801191		Name	d03658bac4b5	Tir de chasse	lot talents_010
 sort	802139		ToolTip	cf4e7c10f8de	Étourdi.	lot talents_010
 sort	803684		ToolTip	eff3e97357b3	Apeuré.	lot talents_010
