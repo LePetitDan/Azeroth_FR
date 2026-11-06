@@ -1,0 +1,245 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	10428		Description	790b78dec362	Invoque aux pieds du lanceur de sorts un Totem de griffes de pierre qui dispose de $s1 points de vie pendant $d. Il provoque toutes les créatures dans un rayon de $10424a1 mètres pour attirer leurs attaques. Les ennemis qui attaquent le Totem de griffes de pierre ont $10426h% de chances d'être étourdis pendant $39796d. Le Totem de griffes de pierre protège également tous vos totems en leur permettant d'absorber $55335s1 points de dégâts.\r\rCette technique est utilisable en étant transformé.	lot sorts_standard_005
+sort	10431		Description	15c289243b09	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26370s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d.\r\n\r\nUn seul Bouclier élémentaire peut être actif sur le héros à la fois.	lot sorts_standard_005
+sort	10432		Description	d9095b5aae0f	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26363s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d.\r\n\r\nUn seul Bouclier élémentaire peut être actif sur le héros à la fois.	lot sorts_standard_005
+sort	10437		Description	a870cd07467e	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il dure $d et attaque à plusieurs reprises un ennemi qui se trouve dans un rayon de $10435r1 mètres, lui infligeant $10435s1 points de dégâts de Feu.\r\n\r\nCette technique est utilisable en étant transformé.	lot sorts_standard_005
+sort	10438		Description	516d1381bde9	Invoque à vos pieds un Totem incendiaire qui dispose de $s1 points de vie. Il dure $d et attaque à plusieurs reprises un ennemi qui se trouve dans un rayon de $10436r1 mètres, lui infligeant $10436s1 points de dégâts de Feu.\r\n\r\nCette technique est utilisable en étant transformé.	lot sorts_standard_005
+sort	10442		Description	d0536f98e369	Invoque aux pieds du lanceur de sorts un Totem de force de la Terre qui dispose de $s1 points de vie. Il augmente de $10441s2 la Force et l'Agilité de tous les membres du groupe ou du raid qui se trouvent dans un rayon de $10441a1 mètres autour de lui. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10456		Description	3dd531327e92	Imprègne votre arme de givre, ce qui augmente la puissance des sorts de Givre de $965992s2. Chaque coup a une chance d'infliger $965992s1 points de dégâts de Givre supplémentaires et de réduire de $10458s1% la vitesse de déplacement de la cible pendant $10458d. Cet effet dure 2 heures.	lot sorts_standard_005
+sort	10462		Description	ec7201cad67f	Invoque aux pieds du lanceur de sorts un Totem guérisseur qui dispose de $s1 points de vie et dure $d. Il rend à tous les membres du groupe se trouvant à moins de $52048a1 mètres $10460s1 points de vie toutes les $10460t1 secondes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10463		Description	b7fe6c8b15f4	Invoque aux pieds du lanceur de sorts un Totem guérisseur qui dispose de $s1 points de vie et dure $d. Il rend à tous les membres du groupe se trouvant à moins de $52049a1 mètres $10461s1 points de vie toutes les $10461t1 secondes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10478		Description	7d2ab8b3d624	Invoque un Totem de résistance au Givre qui dispose de $s1 points de vie aux pieds du lanceur de sorts pendant $d. Le totem augmente de $10476s1 la résistance au Givre des membres du groupe ou du raid s'ils se trouvent dans un rayon de $10476a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10479		Description	466077edb5b1	Invoque un Totem de résistance au Givre qui dispose de $s1 points de vie aux pieds du lanceur de sorts pendant $d. Le totem augmente de $10477s1 la résistance au Givre des membres du groupe ou du raid s'ils se trouvent dans un rayon de $10477a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10495		Description	2544751ae112	Invoque aux pieds du lanceur de sorts un Totem Fontaine de mana, qui dispose de $s1 points de vie et dure $d. Il rend $10491s1 points de mana toutes les 5 secondes aux membres du groupe et du raid qui se trouvent à moins de $52033a1 mètres.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10496		Description	535c25f1a030	Invoque aux pieds du lanceur de sorts un Totem Fontaine de mana, qui dispose de $s1 points de vie et dure $d. Il rend $10493s1 points de mana toutes les 5 secondes aux membres du groupe et du raid qui se trouvent à moins de $52034a1 mètres.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10497		Description	a9c1ad38dc4b	Invoque aux pieds du lanceur de sorts un Totem Fontaine de mana, qui dispose de $s1 points de vie et dure $d. Il rend $10494s1 points de mana toutes les 5 secondes aux membres du groupe et du raid qui se trouvent à moins de $52035a1 mètres.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10525		Name	480b4dad37d2	Espauliers durcis du scorpide	lot sorts_standard_005
+sort	10526		Description	d98f39bbf727	Invoque un Totem Langue de feu aux pieds du lanceur de sorts. Il dispose de $s1 points de vie. Les membres du groupe ou du raid qui se trouvent à moins de $52111a1 mètres du totem voient leur Intelligence augmentée de $52111s1 et leur puissance des sorts augmentée de $52111s2. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10537		Description	449b7423af81	Invoque aux pieds du lanceur de sorts un Totem de résistance au Feu pendant $d. Il dispose de $s1 points de vie et augmente de $10534s1 la résistance au Feu des membres du groupe ou du raid qui se trouvent dans un rayon de $10534a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10538		Description	2c9462373ccf	Invoque aux pieds du lanceur de sorts un Totem de résistance au Feu pendant $d. Il dispose de $s1 points de vie et augmente de $10535s1 la résistance au Feu des membres du groupe ou du raid qui se trouvent dans un rayon de $10535a1 mètres.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10579		Description	3c108b99fc5e	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$8190d-1} sec. Il dispose de $8190s1 points de vie et inflige $s1 points de dégâts de Feu toutes les $10582t1 secondes aux créatures situées dans une zone de $a1 mètres de rayon.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10580		Description	8fc5b50a6dcf	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$8190d-1} sec. Il dispose de $8190s1 points de vie et inflige $s1 points de dégâts de Feu toutes les $10583t1 secondes aux créatures situées dans une zone de $a1 mètres de rayon.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10581		Description	998e70cf17da	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$8190d-1} sec. Il dispose de $8190s1 points de vie et inflige $s1 points de dégâts de Feu toutes les $10584t1 secondes aux créatures situées dans une zone de $a1 mètres de rayon.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10585		Description	4b2aa2012577	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$d-1} sec. Il dispose de $s1 points de vie et inflige $10579s1 points de dégâts de Feu toutes les $10582t1 secondes aux créatures situées dans une zone de $10579a1 mètres de rayon.\r\rCette technique est utilisable en étant transformé.	lot sorts_standard_005
+sort	10586		Description	5b501bb114b4	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$d-1} sec. Il dispose de $s1 points de vie et inflige $10580s1 points de dégâts de Feu toutes les $10583t1 secondes aux créatures situées dans une zone de $10580a1 mètres de rayon.\r\rCette technique est utilisable en étant transformé.	lot sorts_standard_005
+sort	10587		Description	b3b7a2654c0d	Invoque un Totem de magma aux pieds du lanceur de sorts pendant ${$d-1} sec. Il dispose de $s1 points de vie et inflige $10581s1 points de dégâts de Feu toutes les $10584t1 secondes aux créatures situées dans une zone de $10581a1 mètres de rayon.\r\rCette technique est utilisable en étant transformé.	lot sorts_standard_005
+sort	10595		Description	09eba9aab6f8	Invoque aux pieds du lanceur de sorts pendant $d un Totem de résistance à la Nature qui dispose de $s1 points de vie et qui augmente de $10596s1 la résistance à la Nature des membres du groupe ou du raid dans une zone de $10596a1 mètres de rayon.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10600		Description	cb46fdd63613	Invoque aux pieds du lanceur de sorts pendant $d un Totem de résistance à la Nature qui dispose de $s1 points de vie et qui augmente de $10598s1 la résistance à la Nature des membres du groupe ou du raid dans une zone de $10598a1 mètres de rayon.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10601		Description	0a2caaec9733	Invoque aux pieds du lanceur de sorts pendant $d un Totem de résistance à la Nature qui dispose de $s1 points de vie et qui augmente de $10599s1 la résistance à la Nature des membres du groupe ou du raid dans une zone de $10599a1 mètres de rayon.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	10651		ToolTip	27cc054b15a3	Affligé par la malédiction de l'Œil de Paleth !\nLes dégâts physiques infligés sont réduits de $s1%\nVitesse d'incantation réduite de $s2%.	lot sorts_standard_005
+sort	10653		ToolTip	27cc054b15a3	Affligé par la malédiction de l'Œil de Paleth !\nLes dégâts physiques infligés sont réduits de $s1%\nVitesse d'incantation réduite de $s2%.	lot sorts_standard_005
+sort	10670		ToolTip	7584bd7b0fee	Augmente la Force de $s1. Élixir de bataille.	lot sorts_standard_005
+sort	10671		ToolTip	67cea7442e9e	Augmente l'Endurance de $s1. Élixir du Gardien.	lot sorts_standard_005
+sort	10672		ToolTip	33185b4e0a91	Augmente l'Agilité de $s1. Élixir de bataille.	lot sorts_standard_005
+sort	10690		ToolTip	364c75188fb9	Augmente l'Intelligence de $s1. Élixir du Gardien.	lot sorts_standard_005
+sort	10691		ToolTip	3b140cb3e3cf	Augmente l'Esprit de $s1. Élixir du Gardien.	lot sorts_standard_005
+sort	10732		Description	19c1ce3f66ad	Accélère la vitesse d'attaque des alliés mécaniques proches de $s2% et augmente les dégâts physiques qu'ils infligent de $s1% pendant $d.	lot sorts_standard_005
+sort	10732		ToolTip	44a05d6094a2	Les dégâts physiques infligés sont augmentés de $s1%\nVitesse d'attaque augmentée de $s2%.	lot sorts_standard_005
+sort	10794		Description	cccc81a63646	Utilisez la « Pierre de lien » à portée pour tuer le serviteur !	lot sorts_standard_005
+sort	10794		ToolTip	cccc81a63646	Utilisez la « Pierre de lien » à portée pour tuer le serviteur !	lot sorts_standard_005
+sort	10952		Description	0474ea663fbb	Une vague d'énergie sacrée emplit le lanceur de sorts et augmente son Armure de $s1 et sa puissance des sorts de 10. Chaque attaque en mêlée ou à distance qui lui inflige des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_005
+sort	10952		ToolTip	0a74a99fb836	Augmente l'Armure de $s1 et la puissance des sorts de $s2.	lot sorts_standard_005
+sort	10963		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	10964		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	10965		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	10966		Description	96b11f4aa7d7	Inflige $s1% des dégâts de l'arme à un ennemi et le projette en l'air.	lot sorts_standard_005
+sort	10968		Description	c2cf6586ef2c	Réduit la puissance d'attaque des ennemis proches pendant $d.	lot sorts_standard_005
+sort	10968		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	11069		Description	caba2b54308b	Augmente de $s1% les chances de coup critique de Boule de feu.	lot sorts_standard_005
+sort	11070		Description	cc6f34013864	Augmente de $s1% les dégâts d'Éclair de givre et de Javelot de glace.	lot sorts_standard_005
+sort	11071		Description	09c2c4b8a8a7	Les dégâts de Givre directs que vous infligez ont $h% de chances de geler la cible pendant $12494d.	lot sorts_standard_005
+sort	11082		Description	dd65750c5640	Inflige $s1 points de dégâts de Nature à tous les ennemis qui se trouvent autour du lanceur de sorts. Les ennemis touchés subissent $s2% de dégâts de Nature supplémentaires pendant $d, cumulable jusqu'à 10 fois.	lot sorts_standard_005
+sort	11082		ToolTip	7bd5f3c967ee	Dégâts de Nature subis augmentés de $s2%	lot sorts_standard_005
+sort	11083		Description	99c20da080fc	Augmente vos chances de coup critique de $s2%.\r\n\r\nRéduit de $s1% le retard d'incantation subi à cause des attaques infligeant des dégâts. 	lot sorts_standard_005
+sort	11094		Description	9ca8d91f2917	Réduit le temps de recharge de Gardien de feu, Gardien de givre, Arcane Ward et Gardien de l'ombre de $/1000;s2 sec.\r\n\r\nVos sorts Gardien de feu, Gardien de givre, Arcane Ward et Gardien de l'ombre ont 50% de chances de renvoyer les sorts de l'école contre laquelle ils protègent pendant $949389d. 	lot sorts_standard_005 ; nom de sort de classe CoA sans français : Arcane Ward (proposition « Gardien des arcanes », sur le modèle de Gardien de feu), laissé en anglais
+sort	11095		Description	7743a87ce416	Augmente vos chances de coup critique avec Brûlure, Boule de feu et Éclair de givrefeu de $s2% supplémentaires.\r\n\r\nVotre sort Brûlure a $h% de chances de rendre votre cible vulnérable aux dégâts des sorts, ce qui augmente les chances de coup critique des sorts contre cette cible de $22959s1% pendant $22959d.\r\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_005
+sort	11100		Description	239005394fc2	Augmente la portée de vos sorts de dégâts de $s1 mètres. @ext:This does not stack with other similar effects.:ext@ 	lot sorts_standard_005
+sort	11103		Description	0a2aae305f72	Vos sorts de dégâts directs ont $h% de chances, et votre Météore $12359h% de chances, de permettre à votre prochain Trait de feu d'étourdir la cible pendant $12355d	lot sorts_standard_005
+sort	11108		Description	ffbb3f528adf	Augmente de $s1% les chances de coup critique de vos sorts Choc de flammes, Explosion pyrotechnique, Vague explosive, Souffle du dragon, Bombe vivante, Météore, Blizzard et Explosion des arcanes.	lot sorts_standard_005
+sort	11115		Description	1f80da068491	Augmente de $s1% les chances de coup critique de vos sorts et techniques de Feu.	lot sorts_standard_005
+sort	11119		Description	9b64dbf70149	Les coups critiques de vos sorts et techniques de Feu à dégâts directs enflamment la cible, ce qui lui inflige un montant de dégâts supplémentaire égal à $s1% des dégâts du sort ou de la technique déclencheur en 4 secondes.	lot sorts_standard_005
+sort	11120		Description	9b64dbf70149	Les coups critiques de vos sorts et techniques de Feu à dégâts directs enflamment la cible, ce qui lui inflige un montant de dégâts supplémentaire égal à $s1% des dégâts du sort ou de la technique déclencheur en 4 secondes.	lot sorts_standard_005
+sort	11124		Description	abfe2975701c	Augmente tous les dégâts infligés de $s2%.\r\n\r\nAugmente vos dégâts de Feu infligés de ${$m1-$m2}%.	lot sorts_standard_005
+sort	11129		Description	922b28eb6fa0	Lorsqu'il est activé, ce sort augmente votre bonus aux dégâts des coups critiques avec les sorts et techniques de dégâts de Feu de $s1%, et chaque fois que vous touchez avec des dégâts de Feu, vous augmentez vos chances de coup critique avec les dégâts de Feu de $28682s1%. Cet effet dure jusqu'à ce que vous ayez infligé $11129n coups critiques de Feu non périodiques.	lot sorts_standard_005
+sort	11130		Description	91e22c278e50	Inflige $s1% des dégâts de l'arme aux ennemis proches et les fait tomber à la renverse.	lot sorts_standard_005
+sort	11151		Description	a662ccd4bdd0	Augmente tous les dégâts de Givre que vous infligez de $s1%.	lot sorts_standard_005
+sort	11160		Description	7bc2768a3eda	Réduit de $s1% le coût en mana de vos sorts et techniques de Givre et réduit de $s2% la menace qu'ils génèrent.\n\n|cFFAAAAAACapstone Bonus : tuer un ennemi qui rapporte de l'expérience ou de l'honneur avec des dégâts de Givre vous rend 12% de votre mana.|r	lot sorts_standard_005 ; terme CoA sans décision : Capstone Bonus (bonus du dernier rang des talents CoA ; proposition « Bonus de clé de voûte »), laissé en anglais
+sort	11170		Description	02cab7710f8c	Augmente de $s1% les chances de coup critique de vos sorts et techniques directs contre les cibles gelées.	lot sorts_standard_005
+sort	11175		Description	6dcdc06f2352	Augmente de $/1000;S1 sec la durée des effets de ralentissement de vos sorts Cône de froid, Éclair de givre, Armure de glace et Horion de givre, réduit la vitesse de la cible de $s2% supplémentaires et réduit les soins qu'elle reçoit de $s3%.	lot sorts_standard_005
+sort	11185		Description	24239f31c4c3	Ajoute un effet d'engourdissement à votre Blizzard. Il réduit la vitesse de déplacement de la cible de $12484s1%. Dure $12484d. \r\n\r\nRéduit le coût en mana de Blizzard de $S2% et son intervalle périodique de $S3%.	lot sorts_standard_005
+sort	11189		Description	7d1656647232	Augmente de $s1% l'armure et les résistances octroyées par vos sorts Armure de givre et Armure de glace. \r\n\r\nGardien de givre, Gardien de feu, Gardien de l'ombre et Arcane Ward ont $s2% de chances d'annuler les dégâts subis du sort et de rendre un montant de mana égal aux dégâts évités.	lot sorts_standard_005 ; nom de sort de classe CoA sans français : Arcane Ward (proposition « Gardien des arcanes », sur le modèle de Gardien de feu), laissé en anglais
+sort	11207		Description	daf42674923c	Les coups critiques de vos sorts infligent désormais 180% des dégâts. \r\n\r\n@ext:This does not stack with other similar effects.:ext@\n\n|cFFAAAAAACapstone Bonus : le dernier rang de ce talent augmente les dégâts contre les cibles gelées de $815049s2%.|r	lot sorts_standard_005 ; terme CoA sans décision : Capstone Bonus (bonus du dernier rang des talents CoA ; proposition « Bonus de clé de voûte »), laissé en anglais
+sort	11210		Description	25870555101c	Réduit de $s2% les chances que vos sorts de mage bénéfiques et vos effets de dégâts sur la durée soient dissipés.\r\n\r\nRéduit de $s1% la menace générée par vos sorts des Arcanes.	lot sorts_standard_005
+sort	11213		Description	c3f4dc79bbd9	Vous confère $h% de chances d'entrer dans un état d'Idées claires après avoir utilisé un sort ou une technique de dégâts magiques.\r\n\r\nL'état d'Idées claires réduit le coût en mana, en énergie ou en rage de votre prochain sort de $/1;12536s1%.	lot sorts_standard_005
+sort	11222		Description	4ad2da5bb300	Augmente votre hâte de $s1%.	lot sorts_standard_005
+sort	11222		Name	3dba95c23d9c	Alacrité	lot sorts_standard_005
+sort	11232		Description	2fc7cb819a9c	Augmente votre total d'Intelligence de $s1% et vos chances de coup critique avec les sorts de $s2%. \r\n\r\nLa durée d'Alter Time est augmentée de 0,66 sec.\n\n|cFFAAAAAACapstone Bonus : réduit le temps de recharge global d'Alter Time de 100%.|r	lot sorts_standard_005 ; nom de sort de classe CoA sans français : Alter Time (proposition « Distorsion temporelle »), laissé en anglais ; terme CoA sans décision : Capstone Bonus (bonus du dernier rang des talents CoA ; proposition « Bonus de clé de voûte »), laissé en anglais
+sort	11237		Description	08138df61fd8	Augmente vos chances de toucher de $s3%.\r\n\r\nRéduit de $s1% le retard d'incantation subi à cause des attaques infligeant des dégâts. \r\n\r\nRéduit le coût en mana de vos sorts de mage des Arcanes de $S2%.	lot sorts_standard_005
+sort	11242		Description	3145f133467f	Augmente de $s1% les dégâts de vos sorts Explosion des arcanes, Déflagration des arcanes, Barrage des arcanes, Orbe des arcanes, Vague explosive, Trait de feu, Brûlure, Explosion pyrotechnique, Javelot de glace et Cône de froid.	lot sorts_standard_005
+sort	11247		Description	93cbf3689d1f	Augmente de $s2 mètres la portée de vos sorts de mage des Arcanes et de $s1% les effets de vos sorts Amplification de la magie et Atténuation de la magie.	lot sorts_standard_005
+sort	11252		Description	9a3be0df2558	Augmente de $s2% les résistances conférées par Armure du mage.\r\n\r\nRéduit de $s1% le mana perdu par point de dégâts reçu lorsque Bouclier de mana est actif.\r\n\r\n|cFFAAAAAACapstone Bonus : sous Mana-forged Barrier, lorsque l'épuisement complet de Bouclier de mana fait passer votre mana sous $12604s2%, vous récupérez $12610s1% de votre maximum de mana chaque seconde pendant $12604d.|r	lot sorts_standard_005 ; nom de sort de classe CoA sans français : Mana-forged Barrier, laissé en anglais ; terme CoA sans décision : Capstone Bonus (bonus du dernier rang des talents CoA ; proposition « Bonus de clé de voûte »), laissé en anglais
+sort	11314		Description	86846ee314ec	Votre Totem de feu actif projette une vague de flammes, ce qui inflige $11306s1 points de dégâts de Feu aux ennemis se trouvant à moins de $11306a1 mètres du totem.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	11315		Description	a7c3235743b3	Votre Totem de feu actif projette une vague de flammes, ce qui inflige $11307s1 points de dégâts de Feu aux ennemis se trouvant à moins de $11307a1 mètres du totem.\r\n\r\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	11319		ToolTip	41b806f2fe3a	Permet de marcher sur l'eau. Tout point de dégâts subi annule l'effet. Élixir du Gardien.	lot sorts_standard_005
+sort	11335		Description	9b315703a499	Enduit une arme de poison durant 2 heures.\nChaque coup a $11338h% de chances d'empoisonner l'ennemi et de lui infliger instantanément ${$11335m1+0.069*$AP} points de dégâts de Nature.	lot sorts_standard_005
+sort	11336		Description	a0199ec2ecbd	Enduit une arme de poison durant 2 heures.\nChaque coup a $11339h% de chances d'empoisonner l'ennemi et de lui infliger instantanément ${$11336m1+0.069*$AP} points de dégâts de Nature.	lot sorts_standard_005
+sort	11337		Description	c0752546d375	Enduit une arme de poison durant 2 heures.\nChaque coup a $11340h% de chances d'empoisonner l'ennemi et de lui infliger instantanément ${$11337m1+0.069*$AP} points de dégâts de Nature.	lot sorts_standard_005
+sort	11338		Description	25387c1acc05	Enduit une arme de mêlée ou à distance de poison durant 2 heures.\nChaque coup a une chance d'empoisonner l'ennemi et de lui infliger instantanément ${$11335m1+0.1*$AP} points de dégâts de Nature. 	lot sorts_standard_005
+sort	11339		Description	baf243892c9c	Enduit une arme de mêlée ou à distance de poison durant 2 heures.\nChaque coup a une chance d'empoisonner l'ennemi et de lui infliger instantanément ${$11336m1+0.1*$AP} points de dégâts de Nature. 	lot sorts_standard_005
+sort	11340		Description	a7545df40164	Enduit une arme de mêlée ou à distance de poison durant 2 heures.\nChaque coup a une chance d'empoisonner l'ennemi et de lui infliger instantanément ${$11337m1+0.1*$AP} points de dégâts de Nature. 	lot sorts_standard_005
+sort	11353		Description	a28fbb802ffd	Enduit une arme de poison durant 2 heures.\nChaque coup a $11355h% de chances d'empoisonner l'ennemi et de lui infliger ${$11353m1*4+0.06*$AP} points de dégâts de Nature en $11353d. Cumulable jusqu'à 5 fois sur une seule cible.	lot sorts_standard_005
+sort	11354		Description	c37e1749f16a	Enduit une arme de poison durant 2 heures.\nChaque coup a $11356h% de chances d'empoisonner l'ennemi et de lui infliger ${$11354m1*4+0.06*$AP} points de dégâts de Nature en $11354d. Cumulable jusqu'à 5 fois sur une seule cible.	lot sorts_standard_005
+sort	11355		Description	afc488ec88f0	Enduit une arme de poison durant 2 heures.\nChaque coup a $11355h% de chances d'empoisonner l'ennemi et de lui infliger ${($11353m1+0.03*$AP)*4} points de dégâts de Nature en $11353d. Cumulable jusqu'à 5 fois sur une seule cible. Lorsqu'il a été cumulé 5 fois, chaque application de Poison mortel entraîne également l'application du poison sur l'autre arme du voleur.	lot sorts_standard_005
+sort	11356		Description	a3bdd3e742a2	Enduit une arme de poison durant 2 heures.\nChaque coup a $11356h% de chances d'empoisonner l'ennemi et de lui infliger ${($11354m1+0.03*$AP)*4} points de dégâts de Nature en $11354d. Cumulable jusqu'à 5 fois sur une seule cible. Lorsqu'il a été cumulé 5 fois, chaque application de Poison mortel entraîne également l'application du poison sur l'autre arme du voleur.	lot sorts_standard_005
+sort	11367		Description	1f80da068491	Augmente de $s1% les chances de coup critique de vos sorts et techniques de Feu.	lot sorts_standard_005
+sort	11368		Description	1f80da068491	Augmente de $s1% les chances de coup critique de vos sorts et techniques de Feu.	lot sorts_standard_005
+sort	11416		Description	519bde482118	@req:818045@\nCrée un portail qui téléporte les membres du groupe qui l'empruntent à Forgefer.	lot sorts_standard_005
+sort	11417		Description	c5236d42bd86	@req:818045@\nCrée un portail qui téléporte les membres du groupe qui l'empruntent à Orgrimmar.	lot sorts_standard_005
+sort	11418		Description	4b130d5bc02d	@req:818045@\nCrée un portail qui téléporte les membres du groupe qui l'empruntent à Fossoyeuse.	lot sorts_standard_005
+sort	11419		Description	503b92a5587a	@req:818045@\nCrée un portail qui téléporte les membres du groupe qui l'empruntent à Darnassus.	lot sorts_standard_005
+sort	11420		Description	0e7dee62e6e9	@req:818045@\nCrée un portail qui téléporte les membres du groupe qui l'empruntent aux Pitons du Tonnerre.	lot sorts_standard_005
+sort	11428		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	11434		Description	854e606a3e05	Fait retentir le gong de Zul'Farrak	lot sorts_standard_005
+sort	11442		ToolTip	f65a0c57f629	Dégâts d'Ombre infligés toutes les $t1 sec.\n Mana drainé toutes les $t2 sec.	lot sorts_standard_005
+sort	11657		Description	99f84d24f0a8	Protège le porteur contre les dégâts physiques et absorbe de ${$m1+$PL*1} à ${$M1+$PL*1} points de dégâts. Dure $d.	lot sorts_standard_005
+sort	11677		Description	145003e0f995	Invoque une pluie de feu qui brûle les ennemis dans la zone d'effet et inflige ${$42225m1*8} points de dégâts de Feu en $d.	lot sorts_standard_005
+sort	11678		Description	72580e2faf2d	Invoque une pluie de feu qui brûle les ennemis dans la zone d'effet et inflige ${$42226m1*8} points de dégâts de Feu en $d.	lot sorts_standard_005
+sort	11683		Description	c2d2ab8c1b44	Enflamme la zone qui entoure le lanceur de sorts, ce qui inflige $11683s2 points de dégâts de Feu périodiques à $glui-même:elle-même; et $11681s1 points de dégâts de Feu périodiques à tous les ennemis proches toutes les $11683t2 sec. Dure $11683d.	lot sorts_standard_005
+sort	11684		Description	9cc97d9f91a2	Enflamme la zone qui entoure le lanceur de sorts, ce qui inflige $11684s2 points de dégâts de Feu périodiques à $glui-même:elle-même; et $11682s1 points de dégâts de Feu périodiques à tous les ennemis proches toutes les $11684t2 sec. Dure $11684d.	lot sorts_standard_005
+sort	11729		Description	3f661bef78d4	Crée une Pierre de soins supérieure que vous pouvez utiliser pour récupérer instantanément $5723s1 points de vie.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	11730		Description	aba618a5fc69	Crée une Pierre de soins majeure que vous pouvez utiliser pour récupérer instantanément $11732s1 points de vie.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_005
+sort	12338		Description	caba2b54308b	Augmente de $s1% les chances de coup critique de Boule de feu.	lot sorts_standard_005
+sort	12339		Description	caba2b54308b	Augmente de $s1% les chances de coup critique de Boule de feu.	lot sorts_standard_005
+sort	12349		Description	ffbb3f528adf	Augmente de $s1% les chances de coup critique de vos sorts Choc de flammes, Explosion pyrotechnique, Vague explosive, Souffle du dragon, Bombe vivante, Météore, Blizzard et Explosion des arcanes.	lot sorts_standard_005
+sort	12350		Description	ffbb3f528adf	Augmente de $s1% les chances de coup critique de vos sorts Choc de flammes, Explosion pyrotechnique, Vague explosive, Souffle du dragon, Bombe vivante, Météore, Blizzard et Explosion des arcanes.	lot sorts_standard_005
+sort	12351		Description	99c20da080fc	Augmente vos chances de coup critique de $s2%.\r\n\r\nRéduit de $s1% le retard d'incantation subi à cause des attaques infligeant des dégâts. 	lot sorts_standard_005
+sort	12378		Description	abfe2975701c	Augmente tous les dégâts infligés de $s2%.\r\n\r\nAugmente vos dégâts de Feu infligés de ${$m1-$m2}%.	lot sorts_standard_005
+sort	12398		Description	abfe2975701c	Augmente tous les dégâts infligés de $s2%.\r\n\r\nAugmente vos dégâts de Feu infligés de ${$m1-$m2}%.	lot sorts_standard_005
+sort	12463		Description	08138df61fd8	Augmente vos chances de toucher de $s3%.\r\n\r\nRéduit de $s1% le retard d'incantation subi à cause des attaques infligeant des dégâts. \r\n\r\nRéduit le coût en mana de vos sorts de mage des Arcanes de $S2%.	lot sorts_standard_005
+sort	12467		Description	3145f133467f	Augmente de $s1% les dégâts de vos sorts Explosion des arcanes, Déflagration des arcanes, Barrage des arcanes, Orbe des arcanes, Vague explosive, Trait de feu, Brûlure, Explosion pyrotechnique, Javelot de glace et Cône de froid.	lot sorts_standard_005
+sort	12469		Description	3145f133467f	Augmente de $s1% les dégâts de vos sorts Explosion des arcanes, Déflagration des arcanes, Barrage des arcanes, Orbe des arcanes, Vague explosive, Trait de feu, Brûlure, Explosion pyrotechnique, Javelot de glace et Cône de froid.	lot sorts_standard_005
+sort	12473		Description	cc6f34013864	Augmente de $s1% les dégâts d'Éclair de givre et de Javelot de glace.	lot sorts_standard_005
+sort	12496		Description	09c2c4b8a8a7	Les dégâts de Givre directs que vous infligez ont $h% de chances de geler la cible pendant $12494d.	lot sorts_standard_005
+sort	12497		Description	09c2c4b8a8a7	Les dégâts de Givre directs que vous infligez ont $h% de chances de geler la cible pendant $12494d.	lot sorts_standard_005
+sort	12518		Description	7bc2768a3eda	Réduit de $s1% le coût en mana de vos sorts et techniques de Givre et réduit de $s2% la menace qu'ils génèrent.\n\n|cFFAAAAAACapstone Bonus : tuer un ennemi qui rapporte de l'expérience ou de l'honneur avec des dégâts de Givre vous rend 12% de votre mana.|r	lot sorts_standard_005 ; terme CoA sans décision : Capstone Bonus (bonus du dernier rang des talents CoA ; proposition « Bonus de clé de voûte »), laissé en anglais
+sort	12569		Description	6dcdc06f2352	Augmente de $/1000;S1 sec la durée des effets de ralentissement de vos sorts Cône de froid, Éclair de givre, Armure de glace et Horion de givre, réduit la vitesse de la cible de $s2% supplémentaires et réduit les soins qu'elle reçoit de $s3%.	lot sorts_standard_005
+sort	12571		Description	6dcdc06f2352	Augmente de $/1000;S1 sec la durée des effets de ralentissement de vos sorts Cône de froid, Éclair de givre, Armure de glace et Horion de givre, réduit la vitesse de la cible de $s2% supplémentaires et réduit les soins qu'elle reçoit de $s3%.	lot sorts_standard_005
+sort	12574		Description	c3f4dc79bbd9	Vous confère $h% de chances d'entrer dans un état d'Idées claires après avoir utilisé un sort ou une technique de dégâts magiques.\r\n\r\nL'état d'Idées claires réduit le coût en mana, en énergie ou en rage de votre prochain sort de $/1;12536s1%.	lot sorts_standard_005
+sort	12575		Description	c3f4dc79bbd9	Vous confère $h% de chances d'entrer dans un état d'Idées claires après avoir utilisé un sort ou une technique de dégâts magiques.\r\n\r\nL'état d'Idées claires réduit le coût en mana, en énergie ou en rage de votre prochain sort de $/1;12536s1%.	lot sorts_standard_005
+sort	12592		Description	25870555101c	Réduit de $s2% les chances que vos sorts de mage bénéfiques et vos effets de dégâts sur la durée soient dissipés.\r\n\r\nRéduit de $s1% la menace générée par vos sorts des Arcanes.	lot sorts_standard_005
+sort	12606		Description	93cbf3689d1f	Augmente de $s2 mètres la portée de vos sorts de mage des Arcanes et de $s1% les effets de vos sorts Amplification de la magie et Atténuation de la magie.	lot sorts_standard_005
+sort	12795		ToolTip	44a05d6094a2	Les dégâts physiques infligés sont augmentés de $s1%\nVitesse d'attaque augmentée de $s2%.	lot sorts_standard_005
+sort	12839		Name	3dba95c23d9c	Alacrité	lot sorts_standard_005
+sort	12840		Name	3dba95c23d9c	Alacrité	lot sorts_standard_005
+sort	12846		Description	9b64dbf70149	Les coups critiques de vos sorts et techniques de Feu à dégâts directs enflamment la cible, ce qui lui inflige un montant de dégâts supplémentaire égal à $s1% des dégâts du sort ou de la technique déclencheur en 4 secondes.	lot sorts_standard_005
+sort	12847		Description	9b64dbf70149	Les coups critiques de vos sorts et techniques de Feu à dégâts directs enflamment la cible, ce qui lui inflige un montant de dégâts supplémentaire égal à $s1% des dégâts du sort ou de la technique déclencheur en 4 secondes.	lot sorts_standard_005
+sort	12848		Description	9b64dbf70149	Les coups critiques de vos sorts et techniques de Feu à dégâts directs enflamment la cible, ce qui lui inflige un montant de dégâts supplémentaire égal à $s1% des dégâts du sort ou de la technique déclencheur en 4 secondes.	lot sorts_standard_005
+sort	12872		Description	7743a87ce416	Augmente vos chances de coup critique avec Brûlure, Boule de feu et Éclair de givrefeu de $s2% supplémentaires.\r\n\r\nVotre sort Brûlure a $h% de chances de rendre votre cible vulnérable aux dégâts des sorts, ce qui augmente les chances de coup critique des sorts contre cette cible de $22959s1% pendant $22959d.\r\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_005
+sort	12873		Description	7743a87ce416	Augmente vos chances de coup critique avec Brûlure, Boule de feu et Éclair de givrefeu de $s2% supplémentaires.\r\n\r\nVotre sort Brûlure a $h% de chances de rendre votre cible vulnérable aux dégâts des sorts, ce qui augmente les chances de coup critique des sorts contre cette cible de $22959s1% pendant $22959d.\r\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_005
+sort	12952		Description	a662ccd4bdd0	Augmente tous les dégâts de Givre que vous infligez de $s1%.	lot sorts_standard_005
+sort	12953		Description	a662ccd4bdd0	Augmente tous les dégâts de Givre que vous infligez de $s1%.	lot sorts_standard_005
+sort	12982		Description	02cab7710f8c	Augmente de $s1% les chances de coup critique de vos sorts et techniques directs contre les cibles gelées.	lot sorts_standard_005
+sort	12983		Description	02cab7710f8c	Augmente de $s1% les chances de coup critique de vos sorts et techniques directs contre les cibles gelées.	lot sorts_standard_005
+sort	13730		Description	c2cf6586ef2c	Réduit la puissance d'attaque des ennemis proches pendant $d.	lot sorts_standard_005
+sort	15727		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	15971		Description	c2cf6586ef2c	Réduit la puissance d'attaque des ennemis proches pendant $d.	lot sorts_standard_005
+sort	15971		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	16763		Description	cc6f34013864	Augmente de $s1% les dégâts d'Éclair de givre et de Javelot de glace.	lot sorts_standard_005
+sort	16790		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	19128		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	20276		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	20753		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	24248		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	24482		Description	4ad2da5bb300	Augmente votre hâte de $s1%.	lot sorts_standard_005
+sort	25345		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	25346		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	25431		ToolTip	0a74a99fb836	Augmente l'Armure de $s1 et la puissance des sorts de $s2.	lot sorts_standard_005
+sort	26527		ToolTip	44a05d6094a2	Les dégâts physiques infligés sont augmentés de $s1%\nVitesse d'attaque augmentée de $s2%.	lot sorts_standard_005
+sort	27008		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	27044		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	27075		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	27076		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	27551		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	28332		Description	7d1656647232	Augmente de $s1% l'armure et les résistances octroyées par vos sorts Armure de givre et Armure de glace. \r\n\r\nGardien de givre, Gardien de feu, Gardien de l'ombre et Arcane Ward ont $s2% de chances d'annuler les dégâts subis du sort et de rendre un montant de mana égal aux dégâts évités.	lot sorts_standard_005 ; nom de sort de classe CoA sans français : Arcane Ward (proposition « Gardien des arcanes », sur le modèle de Gardien de feu), laissé en anglais
+sort	28497		ToolTip	33185b4e0a91	Augmente l'Agilité de $s1. Élixir de bataille.	lot sorts_standard_005
+sort	29584		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	30546		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	31274		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	31390		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	31610		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	35011		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	35783		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	37592		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	38699		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	38700		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	42931		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	42944		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	42945		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	43039		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	44532		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	46183		Name	842f16965886	Frappe étourdissante	lot sorts_standard_005
+sort	47470		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	47471		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	47474		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	47475		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	47486		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	47498		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	47826		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	47827		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	47837		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	47838		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	47863		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	47864		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48172		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48173		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48563		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48564		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48565		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48566		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48567		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48568		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48569		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48570		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48571		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48572		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48576		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	48577		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	48579		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48664		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48665		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48666		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48818		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	48819		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49269		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49270		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49271		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49799		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49800		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	49894		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49895		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49904		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49909		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49918		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49919		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49920		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	49923		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49924		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49927		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	49928		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	49929		Rank	8eb987dc7c30	Rang 11	lot sorts_standard_005
+sort	51328		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	52974		Description	c2cf6586ef2c	Réduit la puissance d'attaque des ennemis proches pendant $d.	lot sorts_standard_005
+sort	52974		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	52985		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	52988		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	53000		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	53003		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	53007		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	57623		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	59613		Description	c2cf6586ef2c	Réduit la puissance d'attaque des ennemis proches pendant $d.	lot sorts_standard_005
+sort	59613		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005
+sort	60347		ToolTip	364c75188fb9	Augmente l'Intelligence de $s1. Élixir du Gardien.	lot sorts_standard_005
+sort	61300		Rank	79eec23b5229	Rang 9	lot sorts_standard_005
+sort	61301		Rank	adce5f0d6682	Rang 10	lot sorts_standard_005
+sort	69565		Description	c2cf6586ef2c	Réduit la puissance d'attaque des ennemis proches pendant $d.	lot sorts_standard_005
+sort	69565		ToolTip	97f07391d94c	Puissance d'attaque réduite de $s1.	lot sorts_standard_005

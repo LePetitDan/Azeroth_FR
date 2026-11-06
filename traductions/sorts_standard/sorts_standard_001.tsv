@@ -1,0 +1,488 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	4		Description	99bf9cd0e88f	Vous confère de la force.	lot sorts_standard_001
+sort	4		Name	24d3e4fdd9a8	Force	lot sorts_standard_001
+sort	4		ToolTip	99bf9cd0e88f	Vous confère de la force.	lot sorts_standard_001
+sort	17		Description	356ae377e518	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	17		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	53		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	56		Description	0eb7e5939f24	Étourdit un monstre pendant $d.	lot sorts_standard_001
+sort	56		ToolTip	95738d8c1dce	Étourdi. N'affecte pas les joueurs.	lot sorts_standard_001
+sort	67		Description	178dc05aa487	Puissance d'attaque réduite de ${4.5*$PL-3} (selon le niveau).\nNe se cumule pas avec les autres effets similaires.	lot sorts_standard_001
+sort	71		Description	459ea5d42888	Augmente considérablement la menace générée.\r\n\r\nAugmente votre Armure de $s3% et réduit les dégâts subis de $7376S1%.\r\n\r\nLes dégâts infligés et les soins prodigués sont réduits de $7376S2%. \r\n\r\nVous apprend |cFFFFFFFFProvocation|r.	lot sorts_standard_001
+sort	72		Description	8965d03edfd4	Frappe la cible avec votre bouclier, ce qui l'hébète et interrompt l'incantation en cours ; le lancement des sorts de cette école est impossible pendant $d. \r\n\r\n@ext:This ability shares a cooldown with other interrupts.:ext@	lot sorts_standard_001
+sort	99		Description	d6ed9917433b	Le druide rugit et réduit la puissance d'attaque des ennemis proches de $s1. Dure $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	99		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	100		Description	859713025cc4	Charge un ennemi, génère $/10;s2 points de rage et l'immobilise pendant $7922d.\n\nCette technique est utilisable en étant transformé.	lot sorts_standard_001
+sort	100		ToolTip	248aafb4ed7e	Immobilisé.	lot sorts_standard_001
+sort	118		Description	e0f1a9b4bc23	Transforme l'ennemi en mouton et le force à errer dans les environs pendant $d au maximum. Le mouton ne peut ni attaquer, ni lancer de sorts mais il récupère très rapidement. \r\n\r\nSi la cible subit des dégâts, elle retrouve sa forme normale. \r\n\r\n@ext:Only one target can be polymorphed at a time. Only works on Beasts, Humanoids and Critters.:ext@\r\n\r\n@ext:8 second duration on players:ext@	lot sorts_standard_001
+sort	122		Description	217a23899702	Frappe les ennemis qui se trouvent à proximité du lanceur de sorts, leur inflige de ${$m1*$<mult>} à ${$M1*$<mult>} points de dégâts de Givre et les gèle sur place pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	126		Description	22f82efe480e	Invoque un Oeil de Kilrogg à travers lequel vous pouvez voir. L'oeil se déplace rapidement, mais il est très fragile.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	130		Description	f4ae506a59bc	Ralentit la vitesse de chute de la cible alliée membre du groupe ou du raid pendant $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	131		Description	d50175c4718e	Permet à la cible de respirer sous l'eau pendant $d et augmente sa vitesse de nage de 20%.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	131		ToolTip	127f0db7499d	Capable de respirer sous l'eau, vitesse de nage augmentée.	lot sorts_standard_001
+sort	132		Description	1fdbcc029551	Permet à une cible alliée de détecter l'invisibilité inférieure pendant $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	168		Description	b641c9c24a1c	Augmente l'Armure de $s1.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $6136s1% et le temps entre ses attaques augmenté de $6136s2% pendant $6136d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@	lot sorts_standard_001
+sort	168		ToolTip	e6aafe84a7f2	Augmente l'Armure de ${$w1} et peut ralentir les attaquants.	lot sorts_standard_001
+sort	324		Description	7ba56e1cc73d	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26364s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d. \r\n\r\nUn seul Bouclier élémentaire peut être actif sur le héros à la fois.	lot sorts_standard_001
+sort	325		Description	3221f7a60b02	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26365s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d. \r\n\r\nUn seul Bouclier élémentaire peut être actif sur le héros à la fois.	lot sorts_standard_001
+sort	339		Description	bf63daad5b41	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d. @ext:(8 seconds on players).:ext@ \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	355		Description	e2931ff44702	Provoque la cible et la force à vous attaquer. Aucun effet si la cible est déjà en train de vous attaquer.\n\nPartage son temps de recharge avec les autres techniques de provocation à cible unique et avec Trait provocateur.	lot sorts_standard_001
+sort	421		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	430		Description	805dc393b293	Rend ${($m2+0)/5*18} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	430		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	431		Description	c1a4553cbdbb	Rend ${($m2+0)/5*21} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	431		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	432		Description	22105e116236	Rend ${($m2+0)/5*24} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	432		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	453		Description	d2f932d92f0a	Apaise la cible, ce qui réduit de $s1 mètres la distance à laquelle elle vous attaque. N'affecte que les cibles humanoïdes. Dure $d.	lot sorts_standard_001
+sort	465		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	465		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	469		Description	825437d6ea35	Augmente de $s1 le maximum de points de vie de tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. Dure $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	475		Name	5f5c5ad71d66	Dissipation de la malédiction	lot sorts_standard_001
+sort	498		Description	f297c6f7db41	Réduit tous les dégâts subis de $s2% pendant $d.\r\n\r\nNe peut être utilisé moins de $61987d après Courroux vengeur.\r\n\r\nUne fois protégée, la cible ne peut plus être ciblée par Protection divine, Bouclier divin, Main de protection ou Imposition des mains pendant $25771d. \n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	543		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	546		Description	87191017827c	Permet à une cible alliée de marcher sur l'eau pendant $d. Tout point de dégâts subi annule l'effet.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	586		Description	56cbaf6a78c3	Vous disparaissez, réduisant temporairement toute votre menace pendant $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	586		ToolTip	f6c2e32c8bea	Niveau de menace réduit et durée des effets d'étourdissement réduite de 30%.	lot sorts_standard_001
+sort	588		Description	c094e7a6d052	Une vague d'énergie sacrée emplit le lanceur de sorts et augmente son Armure de $s1. Chaque attaque en mêlée ou à distance qui lui inflige des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_001
+sort	592		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	592		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	600		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	600		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	602		Description	c094e7a6d052	Une vague d'énergie sacrée emplit le lanceur de sorts et augmente son Armure de $s1. Chaque attaque en mêlée ou à distance qui lui inflige des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_001
+sort	603		Description	4e6af4cb4a84	Maudit la cible et lui inflige $s1 points de dégâts d'Ombre au bout de $d. Si cette attaque tue une cible rapportant de l'expérience ou de l'honneur, un garde funeste sera invoqué. \r\n\r\n@ext:Cannot be cast on players.:ext@	lot sorts_standard_001
+sort	604		Description	e6cb2243cfdb	Atténue la magie utilisée contre le membre du groupe ciblé. Les dégâts magiques qu'il subit sont réduits de $s1% et les sorts de soins de $s2%. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	604		ToolTip	2a0f99fab219	Réduit les dégâts magiques subis de $s1% et les soins de $s2%.	lot sorts_standard_001
+sort	605		Description	b016182bdfbc	Contrôle l'esprit d'un humanoïde de niveau ${$PL} ou inférieur et augmente le temps entre ses attaques de $s3%. Dure $d au maximum.	lot sorts_standard_001
+sort	605		ToolTip	a7f86a2d5667	Charmé. Temps entre les attaques augmenté de $s3%.	lot sorts_standard_001
+sort	633		Description	01198f603635	Rend à une cible alliée un montant de points de vie égal à $s1% de votre maximum de points de vie. La cible ne peut plus être ciblée par Bouclier divin, Main de protection, Protection divine ou Imposition des mains pendant $25771d.\r\n\r\nNe peut pas être utilisée moins de $61987d après Courroux vengeur.	lot sorts_standard_001
+sort	642		Description	f2b0cff0842b	Vous protège de tous les dégâts et de tous les sorts pendant $d, mais réduit vos dégâts de $s1%. \n\nUne fois protégée, la cible ne peut plus être ciblée par Bouclier divin, Main de protection, Protection divine ou Imposition des mains pendant $25771d. 	lot sorts_standard_001
+sort	642		ToolTip	2cf7c544a3e4	Insensible à toutes les attaques et à tous les sorts, mais les soins que vous prodiguez et les dégâts que vous infligez sont réduits de $s1%.	lot sorts_standard_001
+sort	643		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	643		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	676		Description	decdaa7ddc9c	Désarme l'ennemi en lui retirant ses armes, son bouclier ou un autre équipement pendant $d.	lot sorts_standard_001
+sort	687		Description	5dde255e8414	Protège le lanceur de sorts en augmentant son Armure de $s1 et les soins reçus de $s2%.\r\n\r\n@ext:Does not stack with other similar effects.:ext@ \r\n\r\n@ext:Lasts $d.:ext@\r\n	lot sorts_standard_001
+sort	687		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	693		Description	49aa3710f4cd	Crée une Pierre d'âme mineure. La Pierre d'âme peut être utilisée pour emprisonner l'âme d'une cible. Si la cible meurt alors que son âme est enfermée, elle pourra être rappelée à la vie avec $3026s1 points de vie et $3026q1 points de mana.\n\nLes objets invoqués disparaissent si vous quittez le jeu plus de 15 minutes.	lot sorts_standard_001
+sort	694		Description	6599a77fda73	Une attaque injurieuse qui inflige les dégâts de l'arme, génère une menace modérée et force la cible à focaliser ses attaques sur vous pendant $d.	lot sorts_standard_001
+sort	696		Description	593031db9bc2	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%. \r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@ 	lot sorts_standard_001
+sort	696		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	698		Description	f1da05939bf2	Entame un rituel qui crée un portail d'invocation. Celui-ci peut être utilisé par 2 membres du groupe ou du raid pour invoquer un membre du groupe ou du raid ciblé. \r\n\r\nLe rituel nécessite la présence du lanceur de sorts et de 2 autres membres du groupe ou du raid pour être mené à son terme. \r\n\r\nPour y prendre part, tous les joueurs doivent être hors combat, cliquer avec le bouton droit de la souris sur le portail et ne pas bouger tant que le rituel n'est pas terminé. \r\n\r\n@ext: Cannot be used in High-Risk mode:ext@	lot sorts_standard_001
+sort	702		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	702		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	703		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	706		Description	0e52a5ff62a1	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%.\r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@	lot sorts_standard_001
+sort	706		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	710		Description	1dc05969c404	Bannit la cible ennemie. Elle ne peut rien faire mais elle est invulnérable pendant $d au maximum. Vous ne pouvez bannir qu'une seule cible à la fois. Si vous lancez Bannir sur une cible bannie, le sort sera annulé. Ne fonctionne que sur les démons et les élémentaires.\r\n\r\n@ext:Lasts 6 seconds on players.:ext@	lot sorts_standard_001
+sort	724		Description	01d5f632b564	Crée un Puits de lumière sacré.\r\n\r\nLe Puits de lumière tente chaque seconde de rendre ${(($PL-20)*14.667)+ 290} points de vie à un membre du groupe ou du raid se trouvant à moins de 20 mètres et dont les points de vie sont inférieurs à 50%.\r\n\r\nLe Puits de lumière dure 30 secondes ou jusqu'à ce qu'il ait soigné 10 fois.	lot sorts_standard_001
+sort	740		Description	327589c1f08d	Rend à tous les membres du groupe proches ${$44203m1+$SP*0.2+$AP*0.004} points de vie toutes les $t2 secondes pendant $d. Le lanceur de sorts doit canaliser le sort pendant toute sa durée, sinon celui-ci s'interrompt.	lot sorts_standard_001
+sort	740		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	759		Description	0a90271240a9	Invoque une agate de mana que vous pouvez utiliser pour récupérer instantanément $5405s1 points de mana. 3 charges.	lot sorts_standard_001
+sort	768		Description	523f4d4846c8	Adopte la forme de félin, ce qui augmente la puissance d'attaque en mêlée de ${$PL*1} plus 25% de l'Agilité. Permet d'utiliser diverses techniques de félin.\n\r\n	lot sorts_standard_001
+sort	768		ToolTip	2ad28552ff6d	Augmente la puissance d'attaque en mêlée de ${$PL*1} plus 25% de l'Agilité. 	lot sorts_standard_001
+sort	770		Description	a0352d13ae27	Réduit l'Armure de la cible de $s1% pendant $d @ext:(20 seconds on players).:ext@ Tant qu'elle est affectée, la cible ne peut pas se camoufler ni devenir invisible.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	772		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	781		Description	1b0af8f40c3f	Vous tentez de vous désengager du combat en faisant un bond en arrière.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	783		Description	812deb1635d2	Adopte la forme de voyage, qui augmente la vitesse de déplacement de $5419s1%. Protège aussi le lanceur de sorts des effets de métamorphose. Utilisable uniquement en extérieur.\n\nLa transformation libère le lanceur de sorts des effets qui le ralentissent et des métamorphoses.	lot sorts_standard_001
+sort	785		ToolTip	ea5e152723e5	Charmé.\nDégâts réduits de $s2%.\nIncantation instantanée des sorts.\nToutes les résistances sont augmentées de $2313s2.\nVitesse de déplacement augmentée de $2313s3%.	lot sorts_standard_001
+sort	822		Description	6edd11e0ed90	Réduit de $s1% les dégâts subis par les sorts.	lot sorts_standard_001
+sort	865		Description	217a23899702	Frappe les ennemis qui se trouvent à proximité du lanceur de sorts, leur inflige de ${$m1*$<mult>} à ${$M1*$<mult>} points de dégâts de Givre et les gèle sur place pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	879		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	883		Description	7823afde75c1	Invoque votre familier apprivoisé auprès de vous.\n\nCette technique est utilisable en étant transformé.	lot sorts_standard_001
+sort	905		Description	d18faa20fa32	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26366s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d.\r\n\r\nUn seul Bouclier élémentaire peut être actif sur le héros à la fois.	lot sorts_standard_001
+sort	921		Description	71490fafd519	Fouille les poches de la cible pour lui dérober du butin !	lot sorts_standard_001
+sort	930		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	930		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	945		Description	f908d1238782	Le lanceur est entouré de $n boules de foudre. S'il est touché par une attaque en mêlée ou à distance ou par un sort, l'attaquant subit $26367s1 points de dégâts de Nature. Une boule de foudre est alors consommée. Une seule boule peut exploser toutes les 3 secondes. Dure $d.\r\n\r\nUn seul Bouclier élémentaire peut être actif sur le héros à la fois.	lot sorts_standard_001
+sort	974		Description	33cc1711d93d	Protège la cible avec un bouclier de terre. Dure $d ou $n charges. \r\n\r\nLes attaques rendent $<heal> points de vie à la cible protégée @ext:(increased by 25% against monsters):ext@ et réduisent de $s2% le temps d'incantation ou de canalisation perdu quand elle subit des dégâts. \r\n\r\n@ext:This effect can only occur once every 3 seconds.:ext@\r\n\r\n@ext:Earth Shield can only be placed on one target at a time.:ext@	lot sorts_standard_001
+sort	974		ToolTip	99702a244450	Réduit de $s2% le temps d'incantation ou de canalisation perdu lorsque des dégâts sont subis, et les attaques rendent $s1 points de vie à la cible protégée (doublés contre les monstres). 	lot sorts_standard_001
+sort	980		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	996		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	1002		Description	53c83e14eb04	Vous prenez le contrôle direct de votre familier et vous voyez à travers ses yeux pendant $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	1006		Description	c094e7a6d052	Une vague d'énergie sacrée emplit le lanceur de sorts et augmente son Armure de $s1. Chaque attaque en mêlée ou à distance qui lui inflige des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_001
+sort	1008		Description	35429009578e	Amplifie les effets de la magie utilisée contre le membre du groupe ciblé. Augmente de $s1% les dégâts magiques qu'il subit et de $s2% les effets des sorts de soins. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	1008		ToolTip	04df8605892d	Augmente les dégâts magiques subis de $s1% et les soins de $s2%.	lot sorts_standard_001
+sort	1014		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	1014		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	1022		Description	63bd2a3a640f	Un membre du groupe ou du raid ciblé est protégé contre toutes les attaques physiques et les effets d'interruption et de silence pendant $d, mais il ne peut pas attaquer ou utiliser de techniques physiques pendant ce laps de temps. Supprime également les effets d'étourdissement lors de l'utilisation.\n\nUne fois protégée, la cible ne peut plus être ciblée par Bouclier divin, Main de protection, Protection divine ou Imposition des mains pendant $25771d.\r\n\r\nNe peut être utilisé moins de $61987d après Courroux vengeur.	lot sorts_standard_001
+sort	1022		ToolTip	47d26f98c124	Insensible aux attaques physiques et aux effets d'interruption et de silence. Ne peut attaquer ou utiliser des techniques physiques.	lot sorts_standard_001
+sort	1032		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	1032		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	1038		ToolTip	ca93802b8b33	Diminue le total de menace de ${$W1}% à chaque seconde.	lot sorts_standard_001
+sort	1044		Description	b437151558c3	Place une Main sur une cible alliée qui lui confère une immunité aux effets d'immobilisation et de ralentissement pendant $d.	lot sorts_standard_001
+sort	1062		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	1064		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	1066		Description	c6aec3cbbccb	Adopte la forme aquatique, qui augmente la vitesse de nage de $5421s1% et permet de respirer sous l'eau. Protège aussi le lanceur de sorts des effets de métamorphose.	lot sorts_standard_001
+sort	1079		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	1086		Description	0e52a5ff62a1	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%.\r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@	lot sorts_standard_001
+sort	1086		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	1098		Description	1bc55ca77011	Asservit le démon ciblé de niveau $m1 ou inférieur et le contraint à vous obéir. Tant que le démon est asservi, le temps entre ses attaques est augmenté de $s2% et sa vitesse d'incantation est réduite de $s3%. Dure $d au maximum.	lot sorts_standard_001
+sort	1098		Name	e14ef3dd3c60	Démon asservi temporaire	lot sorts_standard_001
+sort	1108		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	1108		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	1120		Description	6a82b919f8d1	Draine l'âme de la cible et lui inflige $o1 points de dégâts d'Ombre en $d. Inflige quatre fois plus de dégâts aux cibles dont les points de vie sont à 25% ou moins.\r\n\r\nSi la cible meurt pendant qu'elle est drainée et qu'elle rapporte de l'expérience ou de l'honneur, le lanceur de sorts gagne un Fragment d'âme. Chaque fois que Drain d'âme inflige des dégâts à la cible, il a également une chance de générer un Fragment d'âme. Les Fragments d'âme sont nécessaires pour d'autres sorts.\r\n\r\n@ext:Deals three times damage to players.:ext@	lot sorts_standard_001
+sort	1120		ToolTip	cd7955f56eec	$s1 points de dégâts d'Ombre toutes les $t1 secondes. \n	lot sorts_standard_001
+sort	1122		Description	5add446809ba	Invoque un météore provenant du Néant distordu. Il inflige $22699s1 points de dégâts de Feu et étourdit tous les ennemis présents dans la zone pendant $20310d. Un Infernal apparaît dans le cratère, sous les ordres du lanceur de sorts pendant $20882d.	lot sorts_standard_001
+sort	1126		Description	3a23c4e38080	Augmente de $s1 l'armure de la cible alliée pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	1130		Description	806cd32c361e	Appose la Marque du chasseur sur la cible, ce qui augmente de $s2 la puissance d'attaque à distance de tous ceux qui attaquent cette cible.\r\n\r\nLa cible marquée reste toujours visible pour le chasseur, même si elle se camoufle ou devient invisible, et elle apparaît sur la minicarte. Dure $d.	lot sorts_standard_001
+sort	1133		Description	fa41ace0df9e	Rend ${($m2+0)/5*27} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	1133		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	1135		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	1135		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	1137		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	1137		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	1139		Description	bae4487eec13	Augmente le temps entre les attaques de la cible de ${$abs($ppl1)}% pendant $d.	lot sorts_standard_001
+sort	1160		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	1160		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	1243		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	1244		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	1245		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	1735		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	1823		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	1824		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	2054		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	2589		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	2590		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	2591		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	2791		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	3029		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	3747		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	3747		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	5144		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	5145		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	5195		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	5196		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	5614		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	5615		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	6065		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	6065		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	6066		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	6066		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	6131		Description	217a23899702	Frappe les ennemis qui se trouvent à proximité du lanceur de sorts, leur inflige de ${$m1*$<mult>} à ${$M1*$<mult>} points de dégâts de Givre et les gèle sur place pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	6178		Description	859713025cc4	Charge un ennemi, génère $/10;s2 points de rage et l'immobilise pendant $7922d.\n\nCette technique est utilisable en étant transformé.	lot sorts_standard_001
+sort	6190		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	6190		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	6205		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	6205		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	6217		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	6217		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	6546		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	6547		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	6548		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	6787		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	6800		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	7128		Description	c094e7a6d052	Une vague d'énergie sacrée emplit le lanceur de sorts et augmente son Armure de $s1. Chaque attaque en mêlée ou à distance qui lui inflige des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_001
+sort	7269		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	7270		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	7300		Description	b641c9c24a1c	Augmente l'Armure de $s1.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $6136s1% et le temps entre ses attaques augmenté de $6136s2% pendant $6136d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@	lot sorts_standard_001
+sort	7300		ToolTip	e6aafe84a7f2	Augmente l'Armure de ${$w1} et peut ralentir les attaquants.	lot sorts_standard_001
+sort	7301		Description	b641c9c24a1c	Augmente l'Armure de $s1.\r\n\r\nSi un ennemi frappe le lanceur de sorts, sa vitesse de déplacement peut être réduite de $6136s1% et le temps entre ses attaques augmenté de $6136s2% pendant $6136d. \r\nDure $d.\r\n\r\n@ext:Does not stack with other similar effects. Only one type of Mage armor spell can be active at any time.:ext@	lot sorts_standard_001
+sort	7301		ToolTip	e6aafe84a7f2	Augmente l'Armure de ${$w1} et peut ralentir les attaquants.	lot sorts_standard_001
+sort	7646		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	7646		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	8288		Description	6a82b919f8d1	Draine l'âme de la cible et lui inflige $o1 points de dégâts d'Ombre en $d. Inflige quatre fois plus de dégâts aux cibles dont les points de vie sont à 25% ou moins.\r\n\r\nSi la cible meurt pendant qu'elle est drainée et qu'elle rapporte de l'expérience ou de l'honneur, le lanceur de sorts gagne un Fragment d'âme. Chaque fois que Drain d'âme inflige des dégâts à la cible, il a également une chance de générer un Fragment d'âme. Les Fragments d'âme sont nécessaires pour d'autres sorts.\r\n\r\n@ext:Deals three times damage to players.:ext@	lot sorts_standard_001
+sort	8289		Description	6a82b919f8d1	Draine l'âme de la cible et lui inflige $o1 points de dégâts d'Ombre en $d. Inflige quatre fois plus de dégâts aux cibles dont les points de vie sont à 25% ou moins.\r\n\r\nSi la cible meurt pendant qu'elle est drainée et qu'elle rapporte de l'expérience ou de l'honneur, le lanceur de sorts gagne un Fragment d'âme. Chaque fois que Drain d'âme inflige des dégâts à la cible, il a également une chance de générer un Fragment d'âme. Les Fragments d'âme sont nécessaires pour d'autres sorts.\r\n\r\n@ext:Deals three times damage to players.:ext@	lot sorts_standard_001
+sort	8289		ToolTip	cd7955f56eec	$s1 points de dégâts d'Ombre toutes les $t1 secondes. \n	lot sorts_standard_001
+sort	8457		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	8458		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	8492		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	8631		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	8632		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	8633		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	8721		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	8820		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	8918		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	8918		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	8992		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	9490		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	9492		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	9492		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	9493		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	9747		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	9752		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	9785		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	9852		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	9853		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	9862		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	9862		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	9863		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	9894		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	9896		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	9898		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	10159		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	10223		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	10225		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	10230		Description	217a23899702	Frappe les ennemis qui se trouvent à proximité du lanceur de sorts, leur inflige de ${$m1*$<mult>} à ${$M1*$<mult>} points de dégâts de Givre et les gèle sur place pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	10250		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	10250		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	10290		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	10290		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	10291		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	10291		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	10292		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	10292		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	10293		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	10293		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	10312		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	10313		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	10314		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	10605		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	10622		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	10623		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	10898		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	10898		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	10899		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	10899		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	10900		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	10900		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	10901		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	10901		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	10937		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	10938		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	10951		Description	c094e7a6d052	Une vague d'énergie sacrée emplit le lanceur de sorts et augmente son Armure de $s1. Chaque attaque en mêlée ou à distance qui lui inflige des dégâts consomme une charge. Dure $d ou jusqu'à ce que $n charges soient consommées.	lot sorts_standard_001
+sort	10960		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	11279		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	11280		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	11281		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	11289		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	11290		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	11554		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	11554		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	11555		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	11555		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	11556		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	11556		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	11572		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	11573		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	11574		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	11578		Description	859713025cc4	Charge un ennemi, génère $/10;s2 points de rage et l'immobilise pendant $7922d.\n\nCette technique est utilisable en étant transformé.	lot sorts_standard_001
+sort	11675		Description	6a82b919f8d1	Draine l'âme de la cible et lui inflige $o1 points de dégâts d'Ombre en $d. Inflige quatre fois plus de dégâts aux cibles dont les points de vie sont à 25% ou moins.\r\n\r\nSi la cible meurt pendant qu'elle est drainée et qu'elle rapporte de l'expérience ou de l'honneur, le lanceur de sorts gagne un Fragment d'âme. Chaque fois que Drain d'âme inflige des dégâts à la cible, il a également une chance de générer un Fragment d'âme. Les Fragments d'âme sont nécessaires pour d'autres sorts.\r\n\r\n@ext:Deals three times damage to players.:ext@	lot sorts_standard_001
+sort	11675		ToolTip	cd7955f56eec	$s1 points de dégâts d'Ombre toutes les $t1 secondes. \n	lot sorts_standard_001
+sort	11707		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	11707		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	11708		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	11708		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	11711		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	11712		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	11713		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	11725		Description	1bc55ca77011	Asservit le démon ciblé de niveau $m1 ou inférieur et le contraint à vous obéir. Tant que le démon est asservi, le temps entre ses attaques est augmenté de $s2% et sa vitesse d'incantation est réduite de $s3%. Dure $d au maximum.	lot sorts_standard_001
+sort	11725		Name	e14ef3dd3c60	Démon asservi temporaire	lot sorts_standard_001
+sort	11726		Description	1bc55ca77011	Asservit le démon ciblé de niveau $m1 ou inférieur et le contraint à vous obéir. Tant que le démon est asservi, le temps entre ses attaques est augmenté de $s2% et sa vitesse d'incantation est réduite de $s3%. Dure $d au maximum.	lot sorts_standard_001
+sort	11726		Name	e14ef3dd3c60	Démon asservi temporaire	lot sorts_standard_001
+sort	11733		Description	593031db9bc2	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%. \r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@ 	lot sorts_standard_001
+sort	11733		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	11734		Description	593031db9bc2	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%. \r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@ 	lot sorts_standard_001
+sort	11734		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	11735		Description	593031db9bc2	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%. \r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@ 	lot sorts_standard_001
+sort	11735		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	12824		Description	e0f1a9b4bc23	Transforme l'ennemi en mouton et le force à errer dans les environs pendant $d au maximum. Le mouton ne peut ni attaquer, ni lancer de sorts mais il récupère très rapidement. \r\n\r\nSi la cible subit des dégâts, elle retrouve sa forme normale. \r\n\r\n@ext:Only one target can be polymorphed at a time. Only works on Beasts, Humanoids and Critters.:ext@\r\n\r\n@ext:8 second duration on players:ext@	lot sorts_standard_001
+sort	12825		Description	e0f1a9b4bc23	Transforme l'ennemi en mouton et le force à errer dans les environs pendant $d au maximum. Le mouton ne peut ni attaquer, ni lancer de sorts mais il récupère très rapidement. \r\n\r\nSi la cible subit des dégâts, elle retrouve sa forme normale. \r\n\r\n@ext:Only one target can be polymorphed at a time. Only works on Beasts, Humanoids and Critters.:ext@\r\n\r\n@ext:8 second duration on players:ext@	lot sorts_standard_001
+sort	12826		Description	e0f1a9b4bc23	Transforme l'ennemi en mouton et le force à errer dans les environs pendant $d au maximum. Le mouton ne peut ni attaquer, ni lancer de sorts mais il récupère très rapidement. \r\n\r\nSi la cible subit des dégâts, elle retrouve sa forme normale. \r\n\r\n@ext:Only one target can be polymorphed at a time. Only works on Beasts, Humanoids and Critters.:ext@\r\n\r\n@ext:8 second duration on players:ext@	lot sorts_standard_001
+sort	13018		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	13019		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	13031		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	13032		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	13897		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	14269		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	14270		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	14318		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	14319		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	14323		Description	806cd32c361e	Appose la Marque du chasseur sur la cible, ce qui augmente de $s2 la puissance d'attaque à distance de tous ceux qui attaquent cette cible.\r\n\r\nLa cible marquée reste toujours visible pour le chasseur, même si elle se camoufle ou devient invisible, et elle apparaît sur la minicarte. Dure $d.	lot sorts_standard_001
+sort	14324		Description	806cd32c361e	Appose la Marque du chasseur sur la cible, ce qui augmente de $s2 la puissance d'attaque à distance de tous ceux qui attaquent cette cible.\r\n\r\nLa cible marquée reste toujours visible pour le chasseur, même si elle se camoufle ou devient invisible, et elle apparaît sur la minicarte. Dure $d.	lot sorts_standard_001
+sort	14325		Description	806cd32c361e	Appose la Marque du chasseur sur la cible, ce qui augmente de $s2 la puissance d'attaque à distance de tous ceux qui attaquent cette cible.\r\n\r\nLa cible marquée reste toujours visible pour le chasseur, même si elle se camoufle ou devient invisible, et elle apparaît sur la minicarte. Dure $d.	lot sorts_standard_001
+sort	17347		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	17348		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	17924		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	18647		Description	1dc05969c404	Bannit la cible ennemie. Elle ne peut rien faire mais elle est invulnérable pendant $d au maximum. Vous ne pouvez bannir qu'une seule cible à la fois. Si vous lancez Bannir sur une cible bannie, le sort sera annulé. Ne fonctionne que sur les démons et les élémentaires.\r\n\r\n@ext:Lasts 6 seconds on players.:ext@	lot sorts_standard_001
+sort	18867		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	18868		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	18937		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	18938		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	19238		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	19240		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	20004		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	20006		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20116		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	20331		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20332		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20658		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20660		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	20882		Name	e14ef3dd3c60	Démon asservi temporaire	lot sorts_standard_001
+sort	20909		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20910		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	20927		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20928		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	20929		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	20930		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	21551		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	21552		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	22734		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	22734		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	24974		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	24975		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	25202		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	25202		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	25203		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	25208		Description	77bb0215ef08	Blesse la cible et la fait saigner, ce qui lui inflige $o1 points de dégâts plus ${0.2*5*(($MWB+$mwb)/2+$AP/14*$MWS)} points de dégâts supplémentaires (en fonction des dégâts de l'arme) en $d.\r\n\r\nSi vous maniez une seule arme à deux mains, ces dégâts périodiques peuvent être critiques.	lot sorts_standard_001
+sort	25217		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	25217		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	25218		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	25218		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	25300		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	25389		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	25422		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	25423		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	25439		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	25442		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	25902		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	25903		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	25911		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	25913		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	26839		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	26863		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	26884		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	26983		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	26989		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	26998		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	27008		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	27088		Description	217a23899702	Frappe les ennemis qui se trouvent à proximité du lanceur de sorts, leur inflige de ${$m1*$<mult>} à ${$M1*$<mult>} points de dégâts de Givre et les gèle sur place pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	27089		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	27089		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	27128		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	27138		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	27149		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	27149		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	27217		Description	6a82b919f8d1	Draine l'âme de la cible et lui inflige $o1 points de dégâts d'Ombre en $d. Inflige quatre fois plus de dégâts aux cibles dont les points de vie sont à 25% ou moins.\r\n\r\nSi la cible meurt pendant qu'elle est drainée et qu'elle rapporte de l'expérience ou de l'honneur, le lanceur de sorts gagne un Fragment d'âme. Chaque fois que Drain d'âme inflige des dégâts à la cible, il a également une chance de générer un Fragment d'âme. Les Fragments d'âme sont nécessaires pour d'autres sorts.\r\n\r\n@ext:Deals three times damage to players.:ext@	lot sorts_standard_001
+sort	27217		ToolTip	cd7955f56eec	$s1 points de dégâts d'Ombre toutes les $t1 secondes. \n	lot sorts_standard_001
+sort	27218		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	27224		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	27224		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	27260		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	27870		Description	01d5f632b564	Crée un Puits de lumière sacré.\r\n\r\nLe Puits de lumière tente chaque seconde de rendre ${(($PL-20)*14.667)+ 290} points de vie à un membre du groupe ou du raid se trouvant à moins de 20 mètres et dont les points de vie sont inférieurs à 50%.\r\n\r\nLe Puits de lumière dure 30 secondes ou jusqu'à ce qu'il ait soigné 10 fois.	lot sorts_standard_001
+sort	27871		Description	01d5f632b564	Crée un Puits de lumière sacré.\r\n\r\nLe Puits de lumière tente chaque seconde de rendre ${(($PL-20)*14.667)+ 290} points de vie à un membre du groupe ou du raid se trouvant à moins de 20 mètres et dont les points de vie sont inférieurs à 50%.\r\n\r\nLe Puits de lumière dure 30 secondes ou jusqu'à ce qu'il ait soigné 10 fois.	lot sorts_standard_001
+sort	28275		Description	01d5f632b564	Crée un Puits de lumière sacré.\r\n\r\nLe Puits de lumière tente chaque seconde de rendre ${(($PL-20)*14.667)+ 290} points de vie à un membre du groupe ou du raid se trouvant à moins de 20 mètres et dont les points de vie sont inférieurs à 50%.\r\n\r\nLe Puits de lumière dure 30 secondes ou jusqu'à ce qu'il ait soigné 10 fois.	lot sorts_standard_001
+sort	30197		ToolTip	248aafb4ed7e	Immobilisé.	lot sorts_standard_001
+sort	30404		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	30405		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	30413		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	30414		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	30909		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	30909		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	30910		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	32593		Description	33cc1711d93d	Protège la cible avec un bouclier de terre. Dure $d ou $n charges. \r\n\r\nLes attaques rendent $<heal> points de vie à la cible protégée @ext:(increased by 25% against monsters):ext@ et réduisent de $s2% le temps d'incantation ou de canalisation perdu quand elle subit des dégâts. \r\n\r\n@ext:This effect can only occur once every 3 seconds.:ext@\r\n\r\n@ext:Earth Shield can only be placed on one target at a time.:ext@	lot sorts_standard_001
+sort	32593		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	32594		Description	33cc1711d93d	Protège la cible avec un bouclier de terre. Dure $d ou $n charges. \r\n\r\nLes attaques rendent $<heal> points de vie à la cible protégée @ext:(increased by 25% against monsters):ext@ et réduisent de $s2% le temps d'incantation ou de canalisation perdu quand elle subit des dégâts. \r\n\r\n@ext:This effect can only occur once every 3 seconds.:ext@\r\n\r\n@ext:Earth Shield can only be placed on one target at a time.:ext@	lot sorts_standard_001
+sort	32594		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	32684		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	32699		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	32700		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	32996		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	33041		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	34291		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	34291		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	34863		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	34864		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	34916		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	34917		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	36591		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	42917		Description	217a23899702	Frappe les ennemis qui se trouvent à proximité du lanceur de sorts, leur inflige de ${$m1*$<mult>} à ${$M1*$<mult>} points de dégâts de Givre et les gèle sur place pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect.:ext@	lot sorts_standard_001
+sort	42955		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	42956		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	43010		Description	6602b12d0707	Absorbe $s1 points de dégâts de Feu. Dure $d.\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	43182		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	43182		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	43183		Description	78e1604c6c71	Rend ${($m2+0)/5*30} points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_standard_001
+sort	43183		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	43987		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	44205		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	44206		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	44780		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	45298		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	45299		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	47200		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	47203		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	47437		Description	41cd7bfcf10c	Réduit de $s1 la puissance d'attaque de tous les ennemis se trouvant dans un rayon de $a1 mètres pendant $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	47437		ToolTip	4f3c060b00b2	Réduit de $s1 la puissance d'attaque.	lot sorts_standard_001
+sort	47439		Description	825437d6ea35	Augmente de $s1 le maximum de points de vie de tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. Dure $d.\r\n\n@ext:Does not stack with other similar effects.:ext@\n\n@ext:This ability is usable while shapeshifted.:ext@	lot sorts_standard_001
+sort	47753		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	47793		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	47855		Description	6a82b919f8d1	Draine l'âme de la cible et lui inflige $o1 points de dégâts d'Ombre en $d. Inflige quatre fois plus de dégâts aux cibles dont les points de vie sont à 25% ou moins.\r\n\r\nSi la cible meurt pendant qu'elle est drainée et qu'elle rapporte de l'expérience ou de l'honneur, le lanceur de sorts gagne un Fragment d'âme. Chaque fois que Drain d'âme inflige des dégâts à la cible, il a également une chance de générer un Fragment d'âme. Les Fragments d'âme sont nécessaires pour d'autres sorts.\r\n\r\n@ext:Deals three times damage to players.:ext@	lot sorts_standard_001
+sort	47855		ToolTip	cd7955f56eec	$s1 points de dégâts d'Ombre toutes les $t1 secondes. \n	lot sorts_standard_001
+sort	47863		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	47864		Description	31b5c2bb6e77	Afflige la cible d'une Malédiction d'agonie qui lui inflige $o1 points de dégâts d'Ombre en $d. Les dégâts sont progressifs et sont plus importants avec le temps. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.	lot sorts_standard_001
+sort	47889		Description	593031db9bc2	Protège le lanceur de sorts en augmentant son Armure de $s1. \nAugmente aussi les soins reçus de $s2%. \r\n@ext:Does not stack with other similar effects.:ext@ \r\nDure $d.\r\n\n@ext:Only one type of Armor spell can be active on the Warlock at any time.:ext@ 	lot sorts_standard_001
+sort	47889		ToolTip	ea1fb74960e0	Augmente l'Armure de ${$w1} et les soins reçus de ${$w2}%.	lot sorts_standard_001
+sort	47995		ToolTip	248aafb4ed7e	Immobilisé.	lot sorts_standard_001
+sort	48065		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	48065		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	48066		Description	fbd5e63a339c	Puise dans l'âme de la cible alliée pour la protéger et absorbe ${$m1+0.21*$SP} points de dégâts. Dure $d. Tant que le bouclier est actif, l'incantation des sorts n'est pas interrompue par les dégâts subis. Après usage, la cible ne peut plus profiter de cette protection pendant $6788d.	lot sorts_standard_001
+sort	48066		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot sorts_standard_001
+sort	48086		Description	01d5f632b564	Crée un Puits de lumière sacré.\r\n\r\nLe Puits de lumière tente chaque seconde de rendre ${(($PL-20)*14.667)+ 290} points de vie à un membre du groupe ou du raid se trouvant à moins de 20 mètres et dont les points de vie sont inférieurs à 50%.\r\n\r\nLe Puits de lumière dure 30 secondes ou jusqu'à ce qu'il ait soigné 10 fois.	lot sorts_standard_001
+sort	48087		Description	01d5f632b564	Crée un Puits de lumière sacré.\r\n\r\nLe Puits de lumière tente chaque seconde de rendre ${(($PL-20)*14.667)+ 290} points de vie à un membre du groupe ou du raid se trouvant à moins de 20 mètres et dont les points de vie sont inférieurs à 50%.\r\n\r\nLe Puits de lumière dure 30 secondes ou jusqu'à ce qu'il ait soigné 10 fois.	lot sorts_standard_001
+sort	48161		Description	7f38dd84461b	La cible est imprégnée de puissance, son Endurance augmente de $s1 pendant $d.\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	48446		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	48447		ToolTip	b3c9167ab8a6	Rend $s1 points de vie aux membres du groupe proches toutes les $t2 secondes.	lot sorts_standard_001
+sort	48450		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	48559		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	48560		ToolTip	c463180242ec	Réduit la puissance d'attaque de $s1.	lot sorts_standard_001
+sort	48656		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	48657		Description	e18524dd58b8	Attaque sournoisement la cible et lui inflige $m2% des dégâts de l'arme plus $m1. Il faut être derrière la cible. Requiert une dague en main droite. Vous gagnez $s3 $lpoint:points; de combo.	lot sorts_standard_001
+sort	48675		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	48676		Description	513f9204b6be	Lorsque vous attaquez en étant camouflé, inflige $s1 points de dégâts à un ennemi toutes les $t1 sec. pendant $d et le réduit au silence pendant $1330d.\nVous gagnez $s2 point de combo.	lot sorts_standard_001
+sort	48800		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	48801		Description	3214cba91a86	Inflige de ${$m1+0.14*$SPH+0.24*$AP} à ${$M1+0.14*$SPH+0.24*$AP} points de dégâts du Sacré à une cible ennemie. Exorcisme est toujours critique contre les morts-vivants et les démons, et les étourdit aussi pendant $900879d.	lot sorts_standard_001
+sort	48941		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	48941		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	48942		Description	4c0f237f0648	Confère $s1 points d'Armure supplémentaires à tous les membres du groupe et du raid se trouvant à moins de $a1 mètres. \r\n\r\n@ext:Players may only have one Aura on them per Paladin at any one time.:ext@	lot sorts_standard_001
+sort	48942		ToolTip	6c6fa7b89227	Augmente l'Armure de ${$w1}.	lot sorts_standard_001
+sort	49270		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	49271		Description	f5a4b6d275ed	Lance un éclair sur un ennemi qui inflige $s1 points de dégâts de Nature et rebondit ensuite sur les ennemis proches. Chaque rebond inflige 30% de points de dégâts en moins. Le sort frappe $x1 cibles au total.	lot sorts_standard_001
+sort	49283		Description	33cc1711d93d	Protège la cible avec un bouclier de terre. Dure $d ou $n charges. \r\n\r\nLes attaques rendent $<heal> points de vie à la cible protégée @ext:(increased by 25% against monsters):ext@ et réduisent de $s2% le temps d'incantation ou de canalisation perdu quand elle subit des dégâts. \r\n\r\n@ext:This effect can only occur once every 3 seconds.:ext@\r\n\r\n@ext:Earth Shield can only be placed on one target at a time.:ext@	lot sorts_standard_001
+sort	49284		Description	33cc1711d93d	Protège la cible avec un bouclier de terre. Dure $d ou $n charges. \r\n\r\nLes attaques rendent $<heal> points de vie à la cible protégée @ext:(increased by 25% against monsters):ext@ et réduisent de $s2% le temps d'incantation ou de canalisation perdu quand elle subit des dégâts. \r\n\r\n@ext:This effect can only occur once every 3 seconds.:ext@\r\n\r\n@ext:Earth Shield can only be placed on one target at a time.:ext@	lot sorts_standard_001
+sort	49472		ToolTip	a0e4e6c5beaa	Rend ${($m2+$ppl2)/5} points de mana par seconde.	lot sorts_standard_001
+sort	49799		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	49800		Description	d3ca0fb77d4e	Coup de grâce qui inflige des dégâts sur la durée. Les dégâts augmentent en fonction des points de combo :\r\n   1 point : ${($m1+$b1*1+0.0128*($AP+$SP)*1)*$<dur>} points de dégâts en $d\r\n   2 points : ${($m1+$b1*2+0.0128*($AP+$SP)*2)*$<dur>} points de dégâts en $d\r\n   3 points : ${($m1+$b1*3+0.0128*($AP+$SP)*3)*$<dur>} points de dégâts en $d\r\n   4 points : ${($m1+$b1*4+0.0128*($AP+$SP)*4)*$<dur>} points de dégâts en $d\r\n   5 points : ${($m1+$b1*5+0.0128*($AP+$SP)*5)*$<dur>} points de dégâts en $d	lot sorts_standard_001
+sort	50511		Description	339ee345ea7c	La puissance d'attaque de la cible est réduite de $s1 et son armure de $s2% pendant $d. La cible ne peut être victime que d'une malédiction par démoniste présent à la fois.\n\n@ext:Does not stack with other similar effects.:ext@	lot sorts_standard_001
+sort	50511		ToolTip	18da22555fac	Puissance d'attaque réduite de $s1 et armure réduite de $s2%.	lot sorts_standard_001
+sort	51409		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	51416		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	51417		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53188		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53191		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53196		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53199		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53223		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	53225		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53248		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	53308		Description	ef13a10bc52a	Immobilise la cible sur place et lui inflige $o2 points de dégâts de Nature en $d (8 secondes contre les joueurs). Si la cible subit des dégâts, l'effet peut être interrompu.	lot sorts_standard_001
+sort	53338		Description	806cd32c361e	Appose la Marque du chasseur sur la cible, ce qui augmente de $s2 la puissance d'attaque à distance de tous ceux qui attaquent cette cible.\r\n\r\nLa cible marquée reste toujours visible pour le chasseur, même si elle se camoufle ou devient invisible, et elle apparaît sur la minicarte. Dure $d.	lot sorts_standard_001
+sort	54277		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	55258		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	55259		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	55359		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	55361		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	55458		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	55459		Description	d587be54087d	Rend $s1 points de vie à la cible alliée, puis soigne d'autres alliés proches. Si le sort est lancé sur un membre du groupe, il ne soignera que des membres du groupe. Chaque nouveau soin perd ${($f1-1)*100* -1}% d'efficacité. Soigne $x1 cibles au total.	lot sorts_standard_001
+sort	57662		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	57663		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	57720		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	57721		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	58659		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	58887		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	59156		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	59161		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	59170		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	60043		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	60051		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	60185		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	60187		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	61191		Description	1bc55ca77011	Asservit le démon ciblé de niveau $m1 ou inférieur et le contraint à vous obéir. Tant que le démon est asservi, le temps entre ses attaques est augmenté de $s2% et sa vitesse d'incantation est réduite de $s3%. Dure $d au maximum.	lot sorts_standard_001
+sort	61191		Name	e14ef3dd3c60	Démon asservi temporaire	lot sorts_standard_001
+sort	61346		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	61388		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	61390		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	61847		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	63506		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	63668		Rank	f3705687a883	Rang 3	lot sorts_standard_001
+sort	63669		Rank	7ed3005bef63	Rang 4	lot sorts_standard_001
+sort	75447		Rank	f3705687a883	Rang 3	lot sorts_standard_001
