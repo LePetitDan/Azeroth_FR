@@ -255,13 +255,17 @@ OFFICIELS_ENCHANTEMENTS = [
     ("+3 Agility and +4 Stamina", "+3 Agilité et +4 Endurance"), ("+4 Agility", "+4 Agilité"),
     ("+4 Mana every 5 seconds", "+4 points de mana toutes les 5 secondes"),
     ("+12 Hit Rating", "+12 au score de toucher"), ("+15 Hit Rating", "+15 aux score de toucher"),   # deux francais
+    ("+20 Hit Rating", "+20 au score de toucher"),                     # « au score » majoritaire (decision n° 26)
+    ("+10 Damage", "+10 points de dégâts"), ("+12 Damage", "+12 points de dégâts"),
+    ("+5 Damage", "+5 aux dégâts"),                                    # deux francais, gabarit hors decision n° 26
 ]
 # (anglais CoA, francais propose, raison attendue) -- FAUX CAS : doivent etre refuses
 FAUX_MODELE = [
     ("+5 Attack Power", "+6 à la puissance d'attaque", 'modele_officiel:different_du_modele'),     # nombre change
     ("+5 Attack Power", "+5 de pouvoir d'attaque", 'modele_officiel:different_du_modele'),         # francais invente
     ("+5 Arcane Bananas", "+5 aux bananes des arcanes", 'modele_officiel:sans_modele'),            # gabarit invente
-    ("+8 Hit Rating", "+8 au score de toucher", 'modele_officiel:ambigu'),                         # deux francais officiels
+    ("+8 Damage", "+8 points de dégâts", 'modele_officiel:ambigu'),                               # deux francais officiels
+    ("+8 Hit Rating", "+8 aux score de toucher", 'modele_officiel:different_du_modele'),          # forme minoritaire (n° 26)
     ("+1 Mana every 5 seconds", "+1 points de mana toutes les 5 secondes",
      'modele_officiel:accord_non_prouve'),                                                          # « 1 points » : accord
     ("+2.5 Strength", "+2.5 Force", 'modele_officiel:nombre_decimal'),                              # separateur non prouve
@@ -273,6 +277,7 @@ FAUX_MODELE = [
 ]
 VRAIS_MODELE = [
     ("+5 Attack Power", "+5 à la puissance d'attaque"),
+    ("+8 Hit Rating", "+8 au score de toucher"),                        # forme majoritaire (decision n° 26)
     ("+1 Attack Power", "+1 à la puissance d'attaque"),                 # accord absent mais rien ne s'accorde
     ("+3 Mana every 5 seconds", "+3 points de mana toutes les 5 secondes"),
     ("+8 Strength and +9 Stamina", "+8 Force et +9 Endurance"),         # deux modeles, liant « and » -> « et » atteste

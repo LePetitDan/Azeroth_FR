@@ -17,8 +17,12 @@ Regles (strictes) :
    (« +1 point de dégâts » / « +2 points de dégâts »).
 3. Sans ambiguite : un seul francais pour un meme gabarit anglais (et un meme accord). Seules les differences
    d'espaces comptent pour une meme forme (« +10 Force » / « + 10 Force », espace insecable) ; la plus frequente
-   est gardee. Deux formes vraiment differentes (« au score de toucher » / « aux score de toucher ») : pas de
-   modele, l'anglais reste.
+   est gardee. Deux formes vraiment differentes : pas de modele, l'anglais reste.
+   Exception, decision n° 26 de Dan (06/11/2026, question 12a) : les QUATRE gabarits de MAJORITAIRES, et eux
+   seuls, prennent la forme majoritaire de Blizzard (« +N au score de toucher » 60 noms contre « aux score de
+   toucher » 3 ; « +N points de mana » ; « +N points de vie », a egalite, comme « points de mana » ; « +N a toutes
+   les caracteristiques »). La forme retenue doit rester majoritaire (ou a egalite) dans l'officiel, sinon
+   l'anglais reste.
 4. Accord absent de l'officiel (« +1 … » quand Blizzard n'a que « +10 … ») : accepte seulement si rien ne s'accorde
    avec le nombre dans le francais : chaque nombre suit « + » (ou ouvre le texte) et precede « à », « au », « aux »,
    « % » ou un mot a majuscule (« +1 à la puissance d'attaque », « +1 Force »). Sinon l'anglais reste.
@@ -45,6 +49,14 @@ PART_LIANT_MIN = 0.9
 _INVARIANT_AVANT = re.compile(r'(?:^|\+)$')
 _INVARIANT_APRES = re.compile(r'^(?: (?:à|au|aux) | [A-ZÀ-Ý]|%)')
 SOURCE = 'modele_officiel'
+# Decision n° 26 de Dan (06/11/2026, question 12a) : gabarit anglais -> forme francaise retenue (aux espaces pres,
+# voir forme_espaces), pour ces quatre gabarits que Blizzard traduit de deux facons. Aucun autre gabarit ambigu.
+MAJORITAIRES = {
+    '+{#} Hit Rating': '+{0} au score de toucher',
+    '+{#} Mana': '+{0} points de mana',
+    '+{#} Health': '+{0} points de vie',
+    '+{#} to All Stats': '+{0} à toutes les caractéristiques',
+}
 
 
 def accord(nombre):
@@ -143,16 +155,25 @@ class Modeles:
         for a in sorted(d):
             if a == acc or not par_accord:
                 c.update(d[a])
-        formes = set(forme_espaces(gfr) for gfr in c)
+        formes = Counter()
+        for gfr, n in c.items():
+            formes[forme_espaces(gfr)] += n
+        majoritaire = ''
         if len(formes) > 1:
-            return None, 'ambigu' if par_accord else 'accord_non_prouve'
+            retenue = MAJORITAIRES.get(g)      # decision n° 26 : ces quatre gabarits seulement
+            if retenue is None or formes.get(retenue, 0) < max(formes.values()):
+                return None, 'ambigu' if par_accord else 'accord_non_prouve'
+            autres = sum(formes.values()) - formes[retenue]
+            c = Counter({x: n for x, n in c.items() if forme_espaces(x) == retenue})
+            majoritaire = ' ; forme majoritaire (décision n° 26 de Dan), %d autre%s nom%s officiel%s écarté%s' % (
+                autres, *(('s',) * 4 if autres > 1 else ('',) * 4))
         gfr, n = sorted(c.items(), key=lambda x: (-x[1], x[0]))[0]
         if not par_accord and not invariant(gfr):
             return None, 'accord_non_prouve'
         en_ex, fr_ex = self.exemple[(g, gfr)]
-        preuve = '%s → %s (%d nom%s officiel%s, ex. %s → %s%s)' % (
+        preuve = '%s → %s (%d nom%s officiel%s, ex. %s → %s%s%s)' % (
             cite(g), cite(gfr), sum(c.values()), 's' if sum(c.values()) > 1 else '', 's' if sum(c.values()) > 1 else '',
-            cite(en_ex), cite(fr_ex), '' if par_accord else ' ; rien ne s\'accorde avec le nombre')
+            cite(en_ex), cite(fr_ex), majoritaire, '' if par_accord else ' ; rien ne s\'accorde avec le nombre')
         return gfr, preuve
 
     def partie(self, t):
