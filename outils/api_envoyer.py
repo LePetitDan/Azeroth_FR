@@ -9,8 +9,8 @@ Bibliotheque standard seulement.
   python api_envoyer.py suivre                     -> etat des envois en cours ; chaque envoi fini ecrit resultats_X.jsonl
   python api_envoyer.py budget                     -> depense estimee depuis le debut (plafond : PLAFOND_USD)
 
-Avant d'envoyer, la depense deja estimee + les envois en cours + le nouvel envoi (COUT_MAX_REQUETE par requete,
-estimation haute) doivent rester sous le plafond.
+Avant d'envoyer, la depense deja estimee + les envois en cours + le nouvel envoi (estimation haute selon la taille
+du texte envoye) doivent rester sous le plafond.
 """
 import json
 import os
@@ -23,7 +23,16 @@ PLAFOND_USD = 50.0
 # la vraie depense se lit dans la Console. Ils ne servent qu'a s'arreter avant le plafond.
 PRIX = {'claude-opus-5-5': (15.0, 75.0), 'claude-sonnet-5-5': (3.0, 15.0)}
 REMISE_DIFFERE = 0.5
-COUT_MAX_REQUETE = 0.25    # estimation haute d'un lot (mesure : environ 0,19 $ avec Sonnet, reflexion courte)
+# Estimation haute d'une requete selon la taille du texte envoye : mesure sur 168 lots (vague 3) = 1,43 $ par million
+# de caracteres en mediane, 3,5 au pire pour les toutes petites relances ; on compte 2 $ + 0,01 $ fixe par requete.
+COUT_PAR_MCAR = 2.0
+COUT_FIXE = 0.01
+
+
+def estimation(req):
+    n = sum(len(m['content']) if isinstance(m['content'], str) else len(json.dumps(m['content']))
+            for m in req['params']['messages'])
+    return COUT_FIXE + COUT_PAR_MCAR * n / 1e6
 ICI = os.path.dirname(os.path.abspath(__file__))
 ETAT = os.path.join(ICI, 'etat.json')
 
@@ -75,15 +84,18 @@ def soumettre(chemin):
         sys.exit('aucune requête')
     if any(d['fichier'] == os.path.basename(chemin) for d in e['envois']):
         sys.exit('%s a déjà été envoyé : rien envoyé' % os.path.basename(chemin))
-    en_cours = sum(d['requetes'] for d in e['envois'] if not d.get('fini')) * COUT_MAX_REQUETE
-    prevu = e['depense_estimee'] + en_cours + len(reqs) * COUT_MAX_REQUETE
+    en_cours = sum(d.get('estimation', d['requetes'] * 0.25) for d in e['envois'] if not d.get('fini'))
+    cet_envoi = sum(estimation(q) for q in reqs)
+    prevu = e['depense_estimee'] + en_cours + cet_envoi
     if prevu > PLAFOND_USD:
         sys.exit('dépasserait le plafond : %.2f $ déjà estimés + %.2f $ en cours + %.2f $ pour cet envoi > %.0f $ : '
-                 'rien envoyé' % (e['depense_estimee'], en_cours, len(reqs) * COUT_MAX_REQUETE, PLAFOND_USD))
+                 'rien envoyé' % (e['depense_estimee'], en_cours, cet_envoi, PLAFOND_USD))
     r = appel(API, {'requests': reqs})
-    e['envois'].append({'id': r['id'], 'fichier': os.path.basename(chemin), 'requetes': len(reqs), 'fini': False})
+    e['envois'].append({'id': r['id'], 'fichier': os.path.basename(chemin), 'requetes': len(reqs), 'fini': False,
+                        'estimation': round(cet_envoi, 2)})
     ecrire_etat(e)
-    print('envoyé : %d requêtes, envoi %s, état %s' % (len(reqs), r['id'], r.get('processing_status')))
+    print('envoyé : %d requêtes, envoi %s, état %s ; estimation haute %.2f $ (total au plus %.2f $ / %.0f $)'
+          % (len(reqs), r['id'], r.get('processing_status'), cet_envoi, prevu, PLAFOND_USD))
 
 
 def suivre():
