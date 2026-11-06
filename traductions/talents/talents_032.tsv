@@ -100,6 +100,7 @@ sort	806116		Name	47d04d770b30	Dualité de la Lumière	lot talents_032
 sort	806116		ToolTip	ff0808e9afb2	Vos coups critiques de Feu augmentent de $806117s1% les dégâts ou les soins de votre prochain sort du Sacré.	lot talents_032
 sort	806123		Description	838c13a84699	Pendant $d, vos alliés reçoivent $s2% de soins en plus et leurs dégâts directs les font désormais lancer |cffffffffIllumination|r. Ne peut se produire qu'une fois toutes les 3 sec.@s:502429:0@	lot talents_032
 sort	806123		Name	d02b5506eea4	Vigueur solaire	lot talents_032
+sort	806123		ToolTip	e647ad2bb4aa	Les alliés reçoivent ${$w2}% de soins en plus et leurs dégâts directs les font désormais lancer |cffffffffIlluminationr sur eux-mêmes. Ne peut se produire qu'une fois toutes les 3 sec.	lot talents_032
 sort	806124		Description	bd72a0c12599	|cffcc99ffÉpuise 40 points de Statique|r\r\nEnveloppe les membres du groupe et du raid à moins de $a1 mètres d'une brume magique, ce qui augmente de $s1 leur puissance d'attaque ou des sorts pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_032
 sort	806124		Name	ab4cac20932c	Aérodynamique	lot talents_032
 sort	806125		Description	ecaf56982592	Tente de drainer les forces vitales d'un ennemi, absorbant ${$m2+0+$AP*0.310294} points de vie, interrompant son incantation et l'empêchant de lancer tout sort de la même école pendant $d.	lot talents_032
@@ -177,6 +178,7 @@ sort	806235		Description	af550d5e3908	Les coups critiques directs des aptitudes 
 sort	806235		Name	eba6a54f7ecb	Horion gangrené	lot talents_032
 sort	806250		Description	fb5fd894b4d1	Appliquez-vous un sombre présent pendant $d : votre prochain |cffffffffMarteau du crépuscule|r inflige $s1% supplémentaires de ses dégâts sous forme de dégâts d'Ombre.\r\n\r\nCrée une faille qui absorbe les prochains ${$807854m1+$807854ppl1+$AP*1.5} points de soins reçus par les ennemis qui s'y trouvent et réduit de $807216s2% leurs soins périodiques reçus pendant $807216d tant qu'ils restent à l'intérieur.	lot talents_032
 sort	806250		Name	38fa60633a4e	Faille	lot talents_032
+sort	806250		ToolTip	1ba42663680a	Votre prochain |cffffffffMarteau du crépuscule|r inflige ${$w1}% supplémentaires de ses dégâts sous forme de dégâts d'Ombre et crée une faille.	lot talents_032
 sort	806264		Description	9b449e47d2d8	|cFF66DDFFPassif de niveau 50|r\r\nAugmente votre puissance d'attaque d'un montant égal à 2,5 fois votre score de coup critique des sorts.	lot talents_032
 sort	806264		Name	fdf5e117edd2	Puissance de Yogg-Saron	lot talents_032
 sort	806266		Description	cba981b45dd9	Votre |cffffffffŒil surnaturel|r affecte désormais 1 incantation supplémentaire.	lot talents_032

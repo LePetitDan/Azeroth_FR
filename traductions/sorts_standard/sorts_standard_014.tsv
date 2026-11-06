@@ -98,6 +98,7 @@ sort	21991		ToolTip	8c0fca3fab2f	Inflige ${$SP*0.01+$AP*0.01+$21993m1} points de
 sort	21992		Description	c047a76f54f7	Frappe votre ennemi par la foudre, qui lui inflige ${$SP*0.225+$AP*0.1462+$m2} points de dégâts de Nature avant de passer à d'autres ennemis proches. Chaque rebond réduit de $s1 la résistance à la Nature de la victime touchée. Affecte $x1 cibles. Votre cible principale est également engloutie par un cyclone, qui ralentit sa vitesse d'attaque de $27648s1% pendant $d.	lot sorts_standard_014
 sort	22007		Description	895a024ea19a	Les coups critiques des sorts ont $h% de chances d'augmenter de $22013s1% vos dégâts de coup critique pendant 6 secondes.	lot sorts_standard_014
 sort	22007		Name	f85a3f61df34	Ensemble de 8 pièces Tier 2 du mage	lot sorts_standard_014
+sort	22008		Description	988730b800c3	Après avoir lancé Projectiles des arcanes, Boule de feu ou Éclair de givre, vous avez une chance que votre prochain sort direct de mage dont le temps d'incantation est inférieur à 10 secondes soit instantané.	lot sorts_standard_014
 sort	22008		ToolTip	6d38d4b56c23	Votre prochain sort direct de mage est instantané.	lot sorts_standard_014
 sort	22010		Description	8c2442ffee4e	Vos sorts de soins directs avec temps d'incantation appliquent désormais un effet de soins sur la durée à la cible, qui augmente aussi de 3% les soins que vous lui prodiguez. Cet effet ne peut se produire plus d'une fois toutes les 5 secondes.	lot sorts_standard_014
 sort	22010		Name	4c180c6d26b2	Ensemble de 8 pièces Tier 2 du prêtre	lot sorts_standard_014

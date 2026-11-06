@@ -102,6 +102,7 @@ sort	800330		Name	771e079947b8	Golem de guerre	lot talents_025
 sort	800347		Description	bcc1f1d5f1a0	Lance une trousse de soins à un allié, lui rendant ${($d*1000/$T1)*($m1+$SP*.2)} points de vie en $d et dissipant tous les effets de saignement, de poison et de maladie.	lot talents_025
 sort	800349		Description	10c50e5d24af	Améliore les |cffffffffTourelles de garde|r proches en |cffffffffTourelle à grenades en fusion|r pendant $706692d.@s:706692:0@	lot talents_025
 sort	800349		Name	6457b55e1239	Amélioration !	lot talents_025
+sort	800352		Description	f59dcf54840d	Augmente la durée des |cffffffffFléaux|r et réduit leur coût en Énergie de $s1%.	lot talents_025
 sort	800352		Name	1c25c53e5375	Étreinte du mal	lot talents_025
 sort	800352		ToolTip	8cac805dc6b5	Lancer |cff32cd32Démon intérieur|r rembourse désormais 1 point de |cff32cd32Gangrefurie|r toutes les 1 sec pendant 6 sec.	lot talents_025
 sort	800355		Description	34698983eeed	Canalise un rayon de magie gangrenée sur un ennemi, ralentissant sa vitesse de déplacement de $800833s1% pendant $d et lui infligeant ${$cond($gt($spfi, $sps), $m2+0+$spfi*0.85, $m2+0+$sps*0.85)} points de dégâts de Flamme d'ombre à la fin de la durée.\r\n\r\nPendant la durée, vous pouvez lancer instantanément |cffffffffBoule de feu gangrenée|r et |cffffffffRuine|r pendant la canalisation, et elles rendent leur coût.	lot talents_025
@@ -175,6 +176,7 @@ sort	800758		Description	d038a9ec1515	Augmente de $s1% les dégâts de |cfffffff
 sort	800758		Name	b46fcc07cc27	Destruction glyphique	lot talents_025
 sort	800764		Description	7e6e94a898ed	Vous invoquez l'esprit d'An'she pour générer instantanément 10 points de |cFFFF9800Puissance solaire|r et rembourser $504722s1% de votre mana maximum.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSolar Invocation|r spells.:ext@	lot talents_025
 sort	800764		Name	0c85756ee3e2	Invocation solaire : conquête	lot talents_025
+sort	800766		Description	210856a26c7a	Lancer des sorts |cffffffffHurlement|r augmente désormais les dégâts infligés et réduit les dégâts subis par les membres du groupe proches de $504157s1% pendant $504157d.	lot talents_025
 sort	800766		Name	9d0f34c23bbf	Hurlements d'enragement	lot talents_025
 sort	800776		Description	70bdd4cdc514	Condamne un ennemi, lui infligeant ${($704120d*1000/$704120t2)*($704120m2+$704120ppl2+$sps*0.193333)} points de dégâts d'Ombre en $704120d et augmentant de $704120s1% les dégâts qu'il subit de vos 5 prochains sorts de dégâts directs.	lot talents_025
 sort	800776		Name	c1e656e1fb82	Malédiction	lot talents_025

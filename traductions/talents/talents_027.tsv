@@ -42,6 +42,7 @@ sort	801961		Name	9234aa34e7c1	Puissance de la lune de sang	lot talents_027
 sort	801962		Description	1760e1d6096c	Active votre détermination éternelle pendant $d : vous entrez dans une frénésie bestiale qui augmente de $s3% votre vitesse d'attaque en mêlée, vos points de vie maximum et les soins reçus.	lot talents_027
 sort	801962		Name	08b0ca10c443	Détermination éternelle	lot talents_027
 sort	801962		ToolTip	826b72962034	Augmente votre vitesse d'attaque de $s1%, vos points de vie maximum de $s2% et les soins reçus de $s3%.	lot talents_027
+sort	801963		Description	a70c8a1a0cd4	Lancer des aptitudes |cffa966f0Forme maudite|r a désormais $h% de chances de générer 1 |cffffffffÉclat de sang|r pendant $505349d, jusqu'à 8.\r\n\r\nInfliger des dégâts avec |cffffffffÉclair de sang|r lance 1 |cffffffffÉclat de sang|r, qui inflige ${$504115m1+$AP*0.05+$SP*.1} points de dégâts d'Ombre magique à votre cible.	lot talents_027
 sort	801968		Description	379c1d4021c1	|cFF66DDFFPassif de niveau 50|r\r\nAugmente vos points de vie maximum de $s2% et, tant que vous êtes transformé en monstruosité du Vide, vos dégâts infligés sont également augmentés de $s1%.	lot talents_027
 sort	801968		Name	7d2c1c5b56ee	Bénédiction d'Y'Shaarj	lot talents_027
 sort	801975		Description	a968bcf63105	|cFFFFFFFFTir de chasseresse|r et |cFFFFFFFFAppel stellaire|r appliquent désormais une charge supplémentaire d'|cff66ccffÉtoiles éparpillées|r, et la portée de vos attaques à distance passe à 50 mètres pendant $d.	lot talents_027
@@ -115,6 +116,7 @@ sort	802139		Description	c564abc56d5a	Alimente une lanterne avec vos |cffff7a24F
 sort	802139		Name	7a28def84f77	Lanterne du tueur de ténèbres	lot talents_027
 sort	802140		Description	713ac6042604	Juge un ennemi et lui inflige, ainsi qu'aux ennemis proches, ${$m1+0+$AP*0.4+$spfi*1} points de dégâts de Feu.\r\n\r\nAccorde |cffff7a24Flammes du péché|r ou en augmente la durée de $/1000;803503s2 sec.	lot talents_027
 sort	802140		Name	290cd1833505	Jugement ardent	lot talents_027
+sort	802161		Description	2f6b9982aabc	Vous déplace de $802145a1 mètres vers l'avant à la vitesse de la lumière et supprime tous les effets d'immobilisation.\r\n\r\nLaisse derrière vous un |cffffffffPortail du soleil|r pendant $d : les alliés peuvent interagir avec lui pour se téléporter de la même distance vers l'avant. Les alliés ne peuvent utiliser |CffffffffPortail du soleil|r qu'une fois toutes les $802148d.	lot talents_027
 sort	802161		Name	939e3546f356	Portail du soleil	lot talents_027
 sort	802164		Description	4865dcbc7366	Consommer des |cffff7f7fBraises|r a désormais $h% de chances de déclencher |cffffffffCourroux du dragon|r sur tous les ennemis affectés par |cffffffffBrasier|r.	lot talents_027
 sort	802164		Name	9a53506ddc12	Rage draconique	lot talents_027

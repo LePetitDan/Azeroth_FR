@@ -67,6 +67,7 @@ sort	37640		Description	179bc1690172	Attaque les ennemis proches dans un tourbil
 sort	37641		Description	f8cf8f9ecd64	Attaque les ennemis proches dans un tourbillon d'acier qui inflige $s1% des dégâts de l'arme chaque seconde et fait saigner les ennemis pour des dégâts supplémentaires chaque seconde. Cumulable jusqu'à 100 fois.	lot sorts_standard_026
 sort	37656		Name	623275cb4feb	Souvenir de Tyrande	lot sorts_standard_026
 sort	37656		ToolTip	48eb91612ab6	Esprit augmenté de $s1.	lot sorts_standard_026
+sort	37657		Description	90b21ad25782	Vous gagnez une Charge électrique chaque fois que vous réussissez un coup critique avec un sort de dégâts. Quand vous atteignez $s1 Charges électriques, elles sont libérées et lancent un Éclair qui inflige ${$SP*0.05+$37661m1} points de dégâts de Nature. La Charge électrique ne peut être gagnée plus d'une fois toutes les 2,5 sec.	lot sorts_standard_026
 sort	37660		Description	81e908ec3821	Tourbillonne, infligeant $37363s1% des dégâts de l'arme aux ennemis proches et les repoussant.	lot sorts_standard_026
 sort	37660		ToolTip	81e908ec3821	Tourbillonne, infligeant $37363s1% des dégâts de l'arme aux ennemis proches et les repoussant.	lot sorts_standard_026
 sort	37661		Description	e6598f15ed1f	Lance un éclair de foudre sur la cible et lui inflige ${$SP*0.05+$m1} points de dégâts de Nature.	lot sorts_standard_026
@@ -74,6 +75,7 @@ sort	37661		Name	04a2f77ef1bd	Foudre capturée	lot sorts_standard_026
 sort	37705		Description	455979faffef	Chaque sort de soins que vous lancez a $h% de chances de réduire de $37706s1 points de mana le coût de votre prochain sort de soins lancé dans les $37706d.	lot sorts_standard_026
 sort	37709		ToolTip	4b8f166af807	Points de vie rendus toutes les $t1 sec.	lot sorts_standard_026
 sort	37730		Description	29b0544780eb	Une crête d'eau gelée asperge les cibles situées devant le lanceur de sorts et leur inflige $s1 points de dégâts de Givre.	lot sorts_standard_026
+sort	37740		Description	2231e2a3f208	Réduit le coût en mana d'Éclair de $S1%.	lot sorts_standard_026
 sort	37742		Description	08b15187111d	Augmente votre valeur de blocage de $s1 tant que Bouclier sacré est actif.	lot sorts_standard_026
 sort	37764		Description	b0831bd35ea5	Piétine le sol, infligeant $s1% des dégâts de l'arme à tous les ennemis et les jetant à terre.	lot sorts_standard_026
 sort	37850		Description	bb972a9bf9c2	Envoie un ennemi dans un Tombeau aquatique.	lot sorts_standard_026
@@ -132,8 +134,10 @@ sort	38357		ToolTip	5e21bb0af20a	Gelé profondément.	lot sorts_standard_026
 sort	38390		Description	c4f818c6dbb7	Augmente de $s1% les chances de coup critique de vos techniques Tir des arcanes, Chimère, Tir explosif, Tir assuré, Attaque du raptor et Morsure de la mangouste.	lot sorts_standard_026
 sort	38390		Name	2115902c5f5d	Bonus de l'ensemble de 2 pièces Traqueur de Gronn	lot sorts_standard_026
 sort	38393		Description	b7fdb4c329cc	Augmente de $s1% les chances de coup critique de vos techniques Feu de l'âme, Trait de l'ombre, Incinérer, Immolation, Corruption et Brûlure de l'ombre.	lot sorts_standard_026
+sort	38397		Description	1939d61974b8	Augmente de $s1% les chances de coup critique de vos sorts Boule de feu, Explosion des arcanes, Projectiles des arcanes et Éclair de givre.	lot sorts_standard_026
 sort	38397		Name	0fbc3a29300c	Bonus de l'ensemble de 4 pièces Tirisfal de mage T5	lot sorts_standard_026
 sort	38411		Description	c5cba3169b8a	Augmente de $s1% les soins prodigués par vos Soins supérieurs.	lot sorts_standard_026
+sort	38425		Description	4fde82adbc8e	Votre Éclair lumineux gagne $s1% supplémentaires de vos effets de soins bonus.	lot sorts_standard_026
 sort	38434		Description	148efb9a2e0e	Vos sorts Salve de guérison, Vague de soins inférieurs, Vague de soins et Remous coûtent $s1% de mana en moins.	lot sorts_standard_026
 sort	38434		Name	6774808eaef8	Bonus de l'ensemble de 2 pièces Brisé-ciel	lot sorts_standard_026
 sort	38435		Description	95694aec9a77	Augmente de $s1% les points de vie rendus par vos sorts Salve de guérison, Vague de soins inférieurs, Vague de soins et Remous.	lot sorts_standard_026

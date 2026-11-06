@@ -4,6 +4,9 @@ sort	28835		Name	a42fa102b1f2	Marque de lumière ardente	lot sorts_standard_019
 sort	28835		ToolTip	5383b47cbe5c	Augmente les dégâts du Sacré subis de $s2%.\n\nAugmente de $s1% tous les dégâts infligés au Cavalier noir de la Famine.	lot sorts_standard_019
 sort	28836		Description	3164d6685434	Combinée aux marques individuelles de chacun des quatre cavaliers, elle vous permet d'infliger des dégâts d'Ombre supplémentaires.	lot sorts_standard_019
 sort	28836		ToolTip	3164d6685434	Combinée aux marques individuelles de chacun des quatre cavaliers, elle vous permet d'infliger des dégâts d'Ombre supplémentaires.	lot sorts_standard_019
+sort	28851		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	28853		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	28857		Description	91c0d158413c	Augmente de $s1 les dégâts de base infligés par Chaîne d'éclairs et Éclair.	lot sorts_standard_019
 sort	28865		Description	73534281822d	Inflige $s1 points de dégâts d'Ombre à tous les ennemis dans la zone de vide.	lot sorts_standard_019
 sort	28996		Description	60e1e9837604	Réduit de $s1% tous les dégâts de Feu, de Givre et de Nature subis.\r\n\r\nRéduit de $s2% tous les dégâts subis par votre élémentaire lié et augmente sa menace de 50%.	lot sorts_standard_019
 sort	28997		Description	4c54db57ef2a	Réduit de $s1% tous les dégâts de Feu, de Givre et de Nature subis.\r\n\r\nRéduit de $s2% tous les dégâts subis par votre élémentaire lié et augmente sa menace de 100%.	lot sorts_standard_019
@@ -86,6 +89,7 @@ sort	29439		Description	3248dba6fe71	Augmente vos chances de toucher de $s1%.\r\
 sort	29440		Description	3248dba6fe71	Augmente vos chances de toucher de $s1%.\r\n\r\nRéduit de $s1% le coût en mana des sorts.	lot sorts_standard_019
 sort	29441		Description	30387206c590	Augmente toutes les résistances de 0,25 par niveau.\r\n \r\nTous les sorts qui vous infligent des dégâts ont $h% de chances de vous rendre $29442s1% de votre total de mana. Temps de recharge de 6 sec.	lot sorts_standard_019
 sort	29444		Description	5e8d88419ea2	Augmente toutes les résistances de 0,5 par niveau.\r\n\r\nTous les sorts qui vous infligent des dégâts ont $h% de chances de vous rendre $29446s1% de votre total de mana. Temps de recharge de 6 sec.	lot sorts_standard_019
+sort	29447		Description	be82ffc0593c	Vos techniques Éclair de givre, Boule de feu, Éclair de givrefeu, Explosion pyrotechnique, Projectiles des arcanes, Déflagration des arcanes et Barrage des arcanes infligent $s1% de dégâts supplémentaires aux cibles affectées par un ralentissement de déplacement ou de vitesse d'attaque.	lot sorts_standard_019
 sort	29454		Description	f414df091214	Attache une Pointe de gangracier à votre bouclier qui inflige de 26 à 38 points de dégâts chaque fois que vous l'utilisez pour bloquer un coup. Niveau 60 ou supérieur requis pour bénéficier de cet effet.	lot sorts_standard_019
 sort	29467		Description	47b941d07651	Ajoute de manière permanente 15 points de puissance des sorts et 14 au score de coup critique à un objet d'épaule.	lot sorts_standard_019
 sort	29475		Description	3d4dd22de569	Enchante de manière permanente un objet d'épaule pour augmenter la puissance des sorts de 16 et rendre 6 points de mana toutes les 5 sec.	lot sorts_standard_019
@@ -205,6 +209,8 @@ sort	29956		Description	cc5156c703e4	Lance un projectile magique sur un ennemi e
 sort	30165		ToolTip	00a2b68e5719	Augmente de $s1% vos chances d'obtenir un coup critique avec les attaques de mêlée et à distance.	lot sorts_standard_019
 sort	30324		Description	b6e03116d72a	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée et génère un niveau élevé de menace.	lot sorts_standard_019
 sort	31779		Description	61facfc97d61	Inflige 100% des dégâts de l'arme à un ennemi et à ses alliés les plus proches, affectant jusqu'à $x1 cibles.	lot sorts_standard_019
+sort	32403		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	34230		Description	91c0d158413c	Augmente de $s1 les dégâts de base infligés par Chaîne d'éclairs et Éclair.	lot sorts_standard_019
 sort	36679		Description	6a1b3695673a	Rend $s1% des points de vie maximum à un allié toutes les $t1 sec. pendant $d.\n\nNe peut pas être volé.	lot sorts_standard_019
 sort	37662		Description	26b048f6f6ec	Inflige $s1 points de dégâts physiques à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_019
 sort	38234		Description	85b0dfaa25e7	Inflige $s2 points de dégâts de Givre à un ennemi et réduit sa vitesse de déplacement de $s1% pendant $d.	lot sorts_standard_019
@@ -212,5 +218,17 @@ sort	38580		Description	f1b718b9dfcf	Fait appel à la magie du Sacré pour rendr
 sort	39061		Description	26b048f6f6ec	Inflige $s1 points de dégâts physiques à un ennemi toutes les $t1 sec. pendant $d.	lot sorts_standard_019
 sort	39061		ToolTip	55fdbbcbdf8b	$s1 points de dégâts physiques infligés toutes les $t1 sec.	lot sorts_standard_019
 sort	39062		Description	85b0dfaa25e7	Inflige $s2 points de dégâts de Givre à un ennemi et réduit sa vitesse de déplacement de $s1% pendant $d.	lot sorts_standard_019
+sort	41040		Description	91c0d158413c	Augmente de $s1 les dégâts de base infligés par Chaîne d'éclairs et Éclair.	lot sorts_standard_019
 sort	47449		Description	b6e03116d72a	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée et génère un niveau élevé de menace.	lot sorts_standard_019
 sort	47450		Description	b6e03116d72a	Une attaque puissante qui augmente de $s1 les points de dégâts infligés en mêlée et génère un niveau élevé de menace.	lot sorts_standard_019
+sort	55339		Description	be82ffc0593c	Vos techniques Éclair de givre, Boule de feu, Éclair de givrefeu, Explosion pyrotechnique, Projectiles des arcanes, Déflagration des arcanes et Barrage des arcanes infligent $s1% de dégâts supplémentaires aux cibles affectées par un ralentissement de déplacement ou de vitesse d'attaque.	lot sorts_standard_019
+sort	55340		Description	be82ffc0593c	Vos techniques Éclair de givre, Boule de feu, Éclair de givrefeu, Explosion pyrotechnique, Projectiles des arcanes, Déflagration des arcanes et Barrage des arcanes infligent $s1% de dégâts supplémentaires aux cibles affectées par un ralentissement de déplacement ou de vitesse d'attaque.	lot sorts_standard_019
+sort	60638		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60648		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60656		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60659		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60661		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60662		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60664		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019
+sort	60772		Description	91c0d158413c	Augmente de $s1 les dégâts de base infligés par Chaîne d'éclairs et Éclair.	lot sorts_standard_019
+sort	60800		Description	178fecef94ba	Augmente de $s1 les points de vie de base rendus par Éclair lumineux.	lot sorts_standard_019

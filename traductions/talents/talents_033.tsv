@@ -147,6 +147,7 @@ sort	806762		Description	a845660441b2	|cffffffffFrappe aérienne|r crée désorm
 sort	806762		Name	fd71970e5a28	Dépravation gobeline	lot talents_033
 sort	806768		Description	fdf9b878ea5a	Votre |cffffffffOmbre du Vide|r se cumule désormais $s1 fois supplémentaire.	lot talents_033
 sort	806768		Name	92c0b578177b	Livre de N'Zoth	lot talents_033
+sort	806779		Name	e2ddd8ef0020	Offrande d'Executus	lot talents_033
 sort	806795		Description	d2faf8cbb956	Réduit de $s1% tous les dégâts de Feu, de Nature, de Givre et des Arcanes subis.	lot talents_033
 sort	806795		Name	27f9367f45f6	Gravures mystiques	lot talents_033
 sort	806795		ToolTip	20541ff173c8	Réduit de ${$w1}% tous les dégâts de Feu, de Nature, de Givre et des Arcanes subis.	lot talents_033
@@ -164,6 +165,7 @@ sort	806957		Description	958bf0294567	Les dégâts périodiques infligés génè
 sort	806957		Name	ed9133795636	Coup-de-poing américain	lot talents_033
 sort	806973		Description	a0c4dd0b328c	Tant que vous avez des dagues équipées, les coups critiques directs sur des ennemis ayant moins de 35% de leurs points de vie ont désormais une chance de vous permettre d'utiliser vos aptitudes comme si vous étiez sous |cffffffffDérobade|r pendant $806974d.	lot talents_033
 sort	806973		Name	44456f78eb67	Désigné pour mourir	lot talents_033
+sort	806978		Description	72c49c71461c	Un coup critique sur 2 avec |cffffffffPerce-crâne|r ou |cffffffffAssaut|r dans les $684329d transforme désormais votre prochain |cffffffffAssaut|r dans les $681787d en |cffffffffCoup en traître|r. @s:681235:0@	lot talents_033
 sort	806980		Description	7552b3105f38	Abat un courroux sacré sur un ennemi, lui infligeant ${$m1+0+$SP*.55+$AP*.25} points de dégâts du Sacré à menace élevée et augmentant de $572067s1% les dégâts de sorts qu'il subit pendant $572067d.	lot talents_033
 sort	806980		Name	7d2db058447a	Courroux du justicier	lot talents_033
 sort	806984		Description	0ece7b4ce0d8	Après activation de |CffffffffZénith|r, inflige ${$806997m1*$<scalingbp>+$AP*.33} points de dégâts élémentaires à votre cible et augmente de $807379s2% les dégâts infligés par votre |cffffffffMarque runique|r et vos |cffffffffGravures d'arme|r pendant $807379d.	lot talents_033

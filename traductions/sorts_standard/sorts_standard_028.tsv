@@ -35,8 +35,17 @@ sort	44544		Description	21ddc6712320	Donne à vos effets d'engourdissement des s
 sort	44544		ToolTip	a11a4da35692	Vos $s1 prochains sorts de mage agissent sur la cible comme si elle était gelée.	lot sorts_standard_028
 sort	44545		Description	82732317193b	Quand vous infligez des dégâts directs de Givre avec un sort, vous avez $h% de chances d'obtenir |cFFFFFFFFDoigts de givre|r.\r\n@s:74396:0@\r\n@ext:Ice Lance cannot trigger this effect.:ext@	lot sorts_standard_028
 sort	44545		ToolTip	d9754d6b30df	Vos sorts de dégâts directs de Givre ont $h% de chances de conférer Doigts de givre.	lot sorts_standard_028
+sort	44546		Description	cb94e6e679d2	Infliger des dégâts directs de Givre a $h% de chances de rendre votre prochain sort Boule de feu ou Éclair de givrefeu instantané et sans coût en mana.\r\n\r\nLes dégâts infligés par vos sorts Projectiles des arcanes et Éclair de givre sont augmentés de $s3% sur les cibles affectées par votre effet Boule de feu.	lot sorts_standard_028
+sort	44548		Description	cb94e6e679d2	Infliger des dégâts directs de Givre a $h% de chances de rendre votre prochain sort Boule de feu ou Éclair de givrefeu instantané et sans coût en mana.\r\n\r\nLes dégâts infligés par vos sorts Projectiles des arcanes et Éclair de givre sont augmentés de $s3% sur les cibles affectées par votre effet Boule de feu.	lot sorts_standard_028
+sort	44549		Description	cb94e6e679d2	Infliger des dégâts directs de Givre a $h% de chances de rendre votre prochain sort Boule de feu ou Éclair de givrefeu instantané et sans coût en mana.\r\n\r\nLes dégâts infligés par vos sorts Projectiles des arcanes et Éclair de givre sont augmentés de $s3% sur les cibles affectées par votre effet Boule de feu.	lot sorts_standard_028
 sort	44555		Description	2e200c784f51	Enchante de manière permanente des brassards pour ajouter +16 à l'Intelligence. Nécessite d'être au moins de niveau 60 pour bénéficier de cet effet.	lot sorts_standard_028
 sort	44556		Description	e33555255eaf	Enchante de manière permanente une cape pour augmenter la résistance au Feu de ${$80382m1+$80382ppl1}. Nécessite d'être au moins de niveau 60 pour bénéficier de cet effet.	lot sorts_standard_028
+sort	44557		Description	5c8ee6eaaa95	Augmente de $/1000;s1 sec. la durée de votre sort Invocation d'un élémentaire d'eau.\r\n\r\nVotre sort Éclair de givre a $h% de chances de conférer Requinquage. @ext:This effect can only occur once every $m2 sec.:ext@\r\n\r\n@s:57669:0@	lot sorts_standard_028
+sort	44560		Description	5c8ee6eaaa95	Augmente de $/1000;s1 sec. la durée de votre sort Invocation d'un élémentaire d'eau.\r\n\r\nVotre sort Éclair de givre a $h% de chances de conférer Requinquage. @ext:This effect can only occur once every $m2 sec.:ext@\r\n\r\n@s:57669:0@	lot sorts_standard_028
+sort	44561		Description	5c8ee6eaaa95	Augmente de $/1000;s1 sec. la durée de votre sort Invocation d'un élémentaire d'eau.\r\n\r\nVotre sort Éclair de givre a $h% de chances de conférer Requinquage. @ext:This effect can only occur once every $m2 sec.:ext@\r\n\r\n@s:57669:0@	lot sorts_standard_028
+sort	44566		Description	5f5b07f2f386	Augmente tous les dégâts infligés de $s1%.\r\n\r\nRéduit de $s2% supplémentaires la vitesse de déplacement des cibles affectées par Éclair de givre, Cône de froid et Orbe gelé.\n\n|cFFAAAAAABonus de palier ultime : vos incantations d'Éclair de givre et de Javelot de glace contre des monstres réduisent de 2 sec. le temps de recharge de votre Congélation et de 1 sec. celui d'Orbe gelé.|r	lot sorts_standard_028
+sort	44567		Description	5f5b07f2f386	Augmente tous les dégâts infligés de $s1%.\r\n\r\nRéduit de $s2% supplémentaires la vitesse de déplacement des cibles affectées par Éclair de givre, Cône de froid et Orbe gelé.\n\n|cFFAAAAAABonus de palier ultime : vos incantations d'Éclair de givre et de Javelot de glace contre des monstres réduisent de 2 sec. le temps de recharge de votre Congélation et de 1 sec. celui d'Orbe gelé.|r	lot sorts_standard_028
+sort	44568		Description	06596300c330	Augmente tous les dégâts infligés de $s1%.\r\n\r\nRéduit de $s2% supplémentaires la vitesse de déplacement des cibles affectées par Éclair de givre, Cône de froid et Orbe gelé.\n\nBonus de palier ultime : vos incantations d'Éclair de givre et de Javelot de glace contre des monstres réduisent de 2 sec. le temps de recharge de votre Congélation et de 1 sec. celui d'Orbe gelé.	lot sorts_standard_028
 sort	44570		Description	d3083f95c8aa	Augmente de $s1% les dégâts infligés par vos sorts de Givre et réduit de $s2% supplémentaires la vitesse de déplacement de toutes les cibles transies.	lot sorts_standard_028
 sort	44571		Description	d3083f95c8aa	Augmente de $s1% les dégâts infligés par vos sorts de Givre et réduit de $s2% supplémentaires la vitesse de déplacement de toutes les cibles transies.	lot sorts_standard_028
 sort	44572		Description	0924d7a660b5	Etourdit la cible pendant $844572d. Utilisable uniquement sur les cibles gelées. Inflige de ${$71757m1+$SP*1.0715+$AP*0.357} à ${$71757M1+$SP*1.0715+$AP*0.357} points de dégâts aux monstres insensibles de manière permanente aux étourdissements.	lot sorts_standard_028
@@ -91,6 +100,18 @@ sort	45242		Description	8433da41b827	Après avoir subi un coup critique, vous b�
 sort	45242		ToolTip	3413c6ae0182	Effets des soins augmentés de $s2%.\r\nDégâts subis réduits de $S1%.	lot sorts_standard_028
 sort	45243		Description	332c599f57bd	Augmente de $s2% vos chances d'effet critique avec les sorts,\n\n|cFFAAAAAABonus de palier ultime : vous bénéficiez de l'effet Volonté focalisée chaque fois que vous subissez un coup critique, ce qui augmente de $45242s2% les soins reçus et réduit de $45242S1% les dégâts subis. Cet effet est cumulable jusqu'à $45242u fois et dure $45242d.|r	lot sorts_standard_028
 sort	45244		Description	a509a4e15046	Augmente de $s2% vos chances d'effet critique avec les sorts,\n\nBonus de palier ultime : vous bénéficiez de l'effet Volonté focalisée chaque fois que vous subissez un coup critique, ce qui augmente de $45242s2% les soins reçus et réduit de $45242S1% les dégâts subis. Cet effet est cumulable jusqu'à $45242u fois et dure $45242d.	lot sorts_standard_028
+sort	45284		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45286		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45287		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45288		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45289		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45290		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45291		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45292		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45293		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45294		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45295		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	45296		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
 sort	45297		Name	b9312eb32960	Chaîne d'éclairs (Surcharge de foudre)	lot sorts_standard_028
 sort	45298		Name	b9312eb32960	Chaîne d'éclairs (Surcharge de foudre)	lot sorts_standard_028
 sort	45299		Name	b9312eb32960	Chaîne d'éclairs (Surcharge de foudre)	lot sorts_standard_028
@@ -147,6 +168,8 @@ sort	46361		ToolTip	47cfcf723f92	Pris au filet !	lot sorts_standard_028
 sort	46483		Description	404ab31d7429	Rend malade un ennemi pendant $d. Il subit des dégâts de Nature toutes les $t1 sec. pendant $d. La cible malade a $h de chances de contaminer un de ses alliés proches.	lot sorts_standard_028
 sort	46573		Description	e14c6a458637	Téléporte le lanceur de sorts 100 mètres vers l'avant, à moins qu'un objet se trouve sur son chemin. Le lanceur de sorts est libéré de tout emprisonnement.	lot sorts_standard_028
 sort	46780		ToolTip	df2df49d4e23	Score d'esquive augmenté de $s1.	lot sorts_standard_028
+sort	49239		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
+sort	49240		Name	01716beb8515	Éclair (Surcharge de foudre)	lot sorts_standard_028
 sort	49268		Name	b9312eb32960	Chaîne d'éclairs (Surcharge de foudre)	lot sorts_standard_028
 sort	49269		Name	b9312eb32960	Chaîne d'éclairs (Surcharge de foudre)	lot sorts_standard_028
 sort	49896		Description	84a4cf60b8f4	Glace la cible, lui inflige de ${$m1+($SP+$AP)*0.1} à ${$M1+($SP+$AP)*0.1} points de dégâts de Givre et lui fait contracter la Fièvre de givre, une maladie qui inflige des dégâts périodiques et réduit la vitesse d'attaque en mêlée et à distance de $55139s2% pendant $55095d. Menace très élevée en Présence de givre.	lot sorts_standard_028

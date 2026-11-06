@@ -11,6 +11,7 @@ sort	807281		Description	a4af302d9eb3	Charge un puissant carreau qui inflige $s2
 sort	807282		Description	a4af302d9eb3	Charge un puissant carreau qui inflige $s2% des dégâts de l'arme à distance plus ${$m1+0+$RAP*0.4+$sps*0.3} à un ennemi et réduit les soins qu'il reçoit de $807316s1% pendant $807316d.\r\n\r\nGénère de la Rage selon les dégâts infligés.	lot talents_034
 sort	807283		Description	a4af302d9eb3	Charge un puissant carreau qui inflige $s2% des dégâts de l'arme à distance plus ${$m1+0+$RAP*0.4+$sps*0.3} à un ennemi et réduit les soins qu'il reçoit de $807316s1% pendant $807316d.\r\n\r\nGénère de la Rage selon les dégâts infligés.	lot talents_034
 sort	807284		Description	a4af302d9eb3	Charge un puissant carreau qui inflige $s2% des dégâts de l'arme à distance plus ${$m1+0+$RAP*0.4+$sps*0.3} à un ennemi et réduit les soins qu'il reçoit de $807316s1% pendant $807316d.\r\n\r\nGénère de la Rage selon les dégâts infligés.	lot talents_034
+sort	807292		Description	b86104ae48de	Augmente de $s1% les chances de coup critique de |cffffffffGuérison sanguine|r et d'|cffffffffÉclair de sang|r.	lot talents_034
 sort	807292		Name	ad4ea7c85673	Rejeton sanguin	lot talents_034
 sort	807296		Description	76417a5dc5e0	|cFF66DDFFPassif de niveau 40|r\r\nAugmente vos dégâts critiques des sorts de $s2% et les chances de coup critique de |cffffffffMauvais juju|r de $s1% pour chaque |cFFFFFFFFEsprit|r actif sur vous.	lot talents_034
 sort	807296		Name	e8579b5c69e8	Esprits du juju	lot talents_034
@@ -70,6 +71,7 @@ sort	807487		Description	9ef55787146a	|cFF66DDFFPassif de niveau 50|r\r\nLorsque
 sort	807487		Name	236ee4fee405	Le chasseur et le chassé	lot talents_034
 sort	807488		Description	a7f761add6bc	Infliger des dégâts avec |cFFFFFFFFAssaut aortique|r lance désormais 1 |cffffffffÉclat de sang|r qui inflige ${$504115m1+$504115ppl1+$AP*0.15+$SP*.35} points de dégâts d'Ombre magique à votre cible.	lot talents_034
 sort	807488		Name	34cecc68eb1f	Inhumain	lot talents_034
+sort	807489		Description	3ae9767178b4	Votre |cffffffffÉclair de sang|r draine désormais $s1% de points de vie en plus, mais coûte désormais $/10;s2 Rage supplémentaires.	lot talents_034
 sort	807489		Name	13b10177f329	Grimoire sangsue	lot talents_034
 sort	807490		Description	cf197cc5c6b9	Chaque charge de |cFFE53935Vitalité accumulée|r augmente désormais votre Esprit de $s1%.	lot talents_034
 sort	807490		Name	f67f167c4b64	Orbes organiques	lot talents_034
@@ -100,6 +102,7 @@ sort	807512		Description	e5147769250a	|cFF66DDFFPassif de niveau 30|r\r\nVotre |
 sort	807512		Name	46852ef7a37f	Murmures de C'Thun	lot talents_034
 sort	807531		Description	bf9b68192dd3	Les soins efficaces d'|CffffffffAugmentation stimulante|r réduisent désormais de $/1000;653255s1 sec le temps de recharge de |cffffffffTrousse de soins|r.	lot talents_034
 sort	807531		Name	7e13b1262595	Kit de stimulants	lot talents_034
+sort	807544		Description	533ebd52390b	Augmente de $s1% le facteur de puissance des sorts de |cffffffffDéflagration de lune de sang|r, |cffffffffTourment de Taldaram|r et |cffffffffÉclair de sang|r.	lot talents_034
 sort	807544		Name	516d4fda2e1c	La coupe déborde	lot talents_034
 sort	807558		Description	fc5e3980b524	Frapper un ennemi avec des sorts |cffffffffsismiques|r inflige désormais ${$807558m1*$<scalingbp>+$AP*0.08} points de dégâts de Givre supplémentaires, réduit toutes les résistances de ${-($803514m1+$803514ppl1)} et augmente de $803514s2% les dégâts magiques qu'il subit pendant $803514d.	lot talents_034
 sort	807558		Name	94b71731446e	Trempe	lot talents_034
@@ -112,6 +115,7 @@ sort	807578		Description	3d5ae92e6263	Augmente de $/1000;s2 sec la durée d'|cff
 sort	807578		Name	7f29e533daab	Fusion du chaos	lot talents_034
 sort	807587		Description	e0ed426af205	Transforme vos |cffffffffFlammes de Xoroth|r en |cffffffffSoufflet infernal|r.@s:520292:0@	lot talents_034
 sort	807587		Name	137463d2e00e	Soufflet infernal	lot talents_034
+sort	807588		Description	2c72b77c6825	Votre |cffffffffBaguette du temps|R a désormais $h% de chances de réinitialiser son propre temps de recharge.	lot talents_034
 sort	807588		Name	6e0ebdb05b11	Convergence temporelle	lot talents_034
 sort	807589		Description	137b3529d118	|cFF66DDFFPassif de niveau 50|r\r\nAugmente vos dégâts critiques de $s1%.	lot talents_034
 sort	807589		Name	9998a35d5b98	Intuition	lot talents_034

@@ -73,6 +73,7 @@ sort	705581		ToolTip	42fdd83f1530	Les dégâts magiques directs vous rendent ${$
 sort	705583		Description	a60139c86580	Les aptitudes nécessitant |cFFFFFFFFVoile runique|r peuvent être utilisées pendant $/1000;520759s2 sec et n'ont pas de temps d'incantation après la rupture de |cFFFFFFFFVoile runique|r.	lot talents_020
 sort	705583		Name	8ef0131d9f37	Évasion runique	lot talents_020
 sort	705583		ToolTip	19254692c577	Les aptitudes nécessitant Voile runique peuvent être utilisées pendant $520759d après la rupture de Voile runique.	lot talents_020
+sort	705586		Description	8e889aa0e3dd	Après avoir utilisé un |cffffffffSceau de paume|r, la durée de vos effets de contrôle est augmentée de $706525s1%.\r\n\r\nRéduit de $/1000;S2 sec le temps d'incantation de tous les |cffffffffSceaux de paume|r et augmente de $s3% la durée des bonus de vos |cffffffffSceaux de paume|r.	lot talents_020
 sort	705586		Name	7eba12aa0843	Sigilliste	lot talents_020
 sort	705586		ToolTip	e245d6736760	|cffffffffConvergence|r accorde désormais une charge supplémentaire.	lot talents_020
 sort	705592		Description	36bf43441748	Augmente de $/1000;s1 sec la durée de |cffffffffRune de glace|r et de l'effet d'étourdissement de |cffffffffSceau de paume : Terre|r.	lot talents_020
@@ -258,6 +259,8 @@ sort	705811		Description	e3c8ea32c0d2	Tous les alliés proches reçoivent $s1% d
 sort	705811		Name	b1e992bf8646	Reviviscence cybernétique	lot talents_020
 sort	705815		Description	fb2b8bc0a636	|cFF66DDFFPassif de niveau 20|r\r\nLes dégâts de Feu infligés ont $h% de chances de vous accorder |cffffffffÉtincelant et prêt !|r.@s:537247:0@	lot talents_020
 sort	705815		Name	ba90eeb24a0d	Étincelant et prêt !	lot talents_020
+sort	705817		Description	6838824c10ad	Les dégâts ou les soins infligés par votre familier ou vos invocations vous rendent désormais des points de vie égaux à $s1% de la valeur. \r\n\r\nDe plus, les dégâts directs ou les soins que vous prodiguez rendent désormais à votre familier des points de vie et de mana égaux à $707698s1% de la valeur. \r\n\r\nChacun de ces effets ne peut se produire qu'une fois par sec.	lot talents_020
+sort	705817		Name	f1ae801c1430	Technologie autosuffisante	lot talents_020
 sort	705820		Description	02c5b6d68695	Les coups critiques de Feu réduisent désormais de $/1000;705821s1 sec le temps de recharge restant de |cffffffffRocadier|r.	lot talents_020
 sort	705820		Name	556057aafa21	Propulseur-fusée	lot talents_020
 sort	705825		Description	1f7b93ccd0f0	Augmente l'Agilité et l'Intelligence de $s1%.	lot talents_020

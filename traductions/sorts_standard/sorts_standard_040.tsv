@@ -18,6 +18,7 @@ sort	66093		Description	849015b066f3	Rend $s1 points de vie toutes les secondes,
 sort	66093		ToolTip	849015b066f3	Rend $s1 points de vie toutes les secondes, puis $67954s1 points de vie lorsque l'effet prend fin ou est dissipé.	lot sorts_standard_040
 sort	66183		Description	ff4c93195303	Inonde les ennemis de flammes, infligeant $67446s1 points de dégâts de Feu aux cibles se trouvant devant l'engin de siège à moins de $67446a1 mètres.	lot sorts_standard_040
 sort	66186		Description	4c0a632c2d71	Tire une boule de napalm qui inflige $67444s1 points de dégâts de Feu à tous les ennemis se trouvant à moins de $67444a1 mètres de l'impact. De plus, les cibles seront couvertes de napalm, ce qui leur infligera $67444s2 points de dégâts de Feu par seconde pendant $67444d.	lot sorts_standard_040
+sort	66188		Description	55447b7f41ae	Une attaque mortelle qui inflige $s2% des dégâts de l'arme tenue en main gauche plus un bonus et rend au chevalier de la mort un montant de points de vie égal à $F% de $Ghses:ses; points de vie maximum pour chacune de $Ghses:ses; maladies sur la cible.	lot sorts_standard_040
 sort	66188		Name	6b6c1cfe51dc	Frappe de mort (main gauche)	lot sorts_standard_040
 sort	66191		Description	4b71bb77ac04	Lorsque vous maniez deux armes, vos Frappes de mort, Anéantissements, Frappes de peste, Frappes runiques, Frappes de sang et Frappes de givre ont $s1% de chances d'infliger aussi des dégâts avec votre arme en main gauche.	lot sorts_standard_040
 sort	66192		Description	4b71bb77ac04	Lorsque vous maniez deux armes, vos Frappes de mort, Anéantissements, Frappes de peste, Frappes runiques, Frappes de sang et Frappes de givre ont $s1% de chances d'infliger aussi des dégâts avec votre arme en main gauche.	lot sorts_standard_040
@@ -42,9 +43,13 @@ sort	66655		Description	f1c812bd3454	Tire un obus de canon qui inflige $66655s1 
 sort	66808		Description	3f8e5a7ab4f8	Les attaques infligent des dégâts partagés également avec une autre cible proche se trouvant à moins de 10 mètres de la cible principale.	lot sorts_standard_040
 sort	66808		ToolTip	3f8e5a7ab4f8	Les attaques infligent des dégâts partagés également avec une autre cible proche se trouvant à moins de 10 mètres de la cible principale.	lot sorts_standard_040
 sort	66923		Description	5f413f199aaf	Frappe instantanément l'ennemi et lui inflige $s1% des dégâts de l'arme en main droite.	lot sorts_standard_040
+sort	66950		Description	55447b7f41ae	Une attaque mortelle qui inflige $s2% des dégâts de l'arme tenue en main gauche plus un bonus et rend au chevalier de la mort un montant de points de vie égal à $F% de $Ghses:ses; points de vie maximum pour chacune de $Ghses:ses; maladies sur la cible.	lot sorts_standard_040
 sort	66950		Name	6b6c1cfe51dc	Frappe de mort (main gauche)	lot sorts_standard_040
+sort	66951		Description	55447b7f41ae	Une attaque mortelle qui inflige $s2% des dégâts de l'arme tenue en main gauche plus un bonus et rend au chevalier de la mort un montant de points de vie égal à $F% de $Ghses:ses; points de vie maximum pour chacune de $Ghses:ses; maladies sur la cible.	lot sorts_standard_040
 sort	66951		Name	6b6c1cfe51dc	Frappe de mort (main gauche)	lot sorts_standard_040
+sort	66952		Description	55447b7f41ae	Une attaque mortelle qui inflige $s2% des dégâts de l'arme tenue en main gauche plus un bonus et rend au chevalier de la mort un montant de points de vie égal à $F% de $Ghses:ses; points de vie maximum pour chacune de $Ghses:ses; maladies sur la cible.	lot sorts_standard_040
 sort	66952		Name	6b6c1cfe51dc	Frappe de mort (main gauche)	lot sorts_standard_040
+sort	66953		Description	55447b7f41ae	Une attaque mortelle qui inflige $s2% des dégâts de l'arme tenue en main gauche plus un bonus et rend au chevalier de la mort un montant de points de vie égal à $F% de $Ghses:ses; points de vie maximum pour chacune de $Ghses:ses; maladies sur la cible.	lot sorts_standard_040
 sort	66953		Name	6b6c1cfe51dc	Frappe de mort (main gauche)	lot sorts_standard_040
 sort	66958		Description	89bbd59f2379	Frappe instantanément l'ennemi et lui inflige $s2% des dégâts de l'arme en main gauche plus un bonus sous forme de dégâts de Givre.	lot sorts_standard_040
 sort	66958		Name	848ad48588cf	Frappe de givre (main gauche)	lot sorts_standard_040
