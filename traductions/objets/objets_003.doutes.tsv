@@ -1,5 +1,4 @@
 type	id	sous_id	champ	en_empreinte	genre	raison	en
-objet	34519		description	1e6e26d809f9	doute	bug de l'outil (atelier:double_espace : lots.py remplace les \\n du français par des espaces, pas ceux de l'anglais, donc « \\n\\n » est toujours refusé) ; proposition : « Vous apprend à invoquer et à renvoyer le Cochon argenté.\\n\\nIl s'agit d'un compagnon non combattant. »	Teaches you how to summon and dismiss Silver Pig.\n\nThis is a non-combat companion.
 objet	37295		name	02cf63197dc8	garder_anglais	nom de travail technique des développeurs	HF28 Cloth Spell Head4
 objet	37536		name	5f9717a03e1d	garder_anglais	nom de travail technique des développeurs	BT57 Fast Mace2
 objet	37974		name	ee0a43042919	garder_anglais	nom de travail technique des développeurs	DB52 Spell Cloak2 
@@ -8,7 +7,6 @@ objet	38140		name	1abdd76a86af	garder_anglais	nom de travail technique des déve
 objet	38204		name	9ce9f59b86a6	garder_anglais	nom de travail technique des développeurs	DB38 Spell Wand2
 objet	41911		name	441bfbfea345	garder_anglais	nom de travail technique des développeurs	LK Honor 5 Caster DPS Bracers
 objet	42083		name	d443d905c84d	garder_anglais	nom de travail technique des développeurs	LK Honor 5 Caster DPS Crit Cloak
-objet	43517		description	8d65ae5f1943	doute	bug de l'outil (atelier:double_espace : lots.py remplace les \\n du français par des espaces, pas ceux de l'anglais, donc « \\n\\n » est toujours refusé) ; proposition : « \\n\\nIl s'agit d'un compagnon non combattant. »	\n\nThis is a non-combat companion.
 objet	44662		name	455be253a0c4	garder_anglais	nom de travail technique des développeurs (« HEAL 25P »)	HEAL 25P Life-Binder's Locket
 objet	44831		name	cf0e63e13de9	garder_anglais	langue murloc, intraduisible	Mmrgrg glm Nuubs
 objet	46325		name	03f7cf46a15f	garder_anglais	nom de mascotte propre à CoA, gardé	Withers
@@ -29,7 +27,6 @@ objet	46662		name	c6a8b37dc9d8	garder_anglais	nom de mascotte propre à CoA, gar
 objet	46851		name	efadd2d46d66	garder_anglais	nom de mascotte en langage bébé (jeu de mots), intraduisible	Wittle Waptor
 objet	46853		name	a94aa9af5e68	garder_anglais	nom en langage bébé (jeu de mots), intraduisible	Waptor Twap
 objet	49040		name	71e7df9d76fb	garder_anglais	nom propre, identique en français	Jeeves
-objet	49664		description	14380158357d	doute	bug de l'outil (atelier:double_espace : lots.py remplace les \\n du français par des espaces, pas ceux de l'anglais, donc « \\n\\n » est toujours refusé) ; proposition : « Vous apprend à invoquer et à renvoyer le Tigre zipao.\\n\\nIl s'agit d'un compagnon non combattant. »	Teaches you how to summon and dismiss Zipao Tiger.\n\nThis is a non-combat companion.
 objet	50733		description	53ae34eecdcc	garder_anglais	langue thalassienne après l'étiquette, rien à traduire	@Ascended Raid@Thalas'din belore.
 objet	244831		name	cf0e63e13de9	garder_anglais	langue murloc, intraduisible	Mmrgrg glm Nuubs
 objet	320416		name	02cf63197dc8	garder_anglais	nom de travail technique des développeurs	HF28 Cloth Spell Head4
