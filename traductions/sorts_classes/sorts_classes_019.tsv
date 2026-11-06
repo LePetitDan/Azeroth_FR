@@ -1,0 +1,228 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	803193		Description	e4a0daedd0d2	Transperce un ennemi avec votre patte avant et lui inflige ${$m1+0+$spn*.35+$AP*0.15} points de dégâts de Nature.$?s705959[\r\n\r\nConsomme $/1000;803202s2 sec de la durée de |cffffffffPoison de pointe venimeuse|r pour infliger $803202s1 points de dégâts de Nature aux ennemis proches.][]	lot sorts_classes_019
+sort	803193		Name	ca1fa7eac1f1	Brise-ruche	lot sorts_classes_019
+sort	803194		Description	389d92a045c4	Déchaîne une corrosion toxique qui augmente de $s1% les dégâts de Nature subis par la cible pendant $d.	lot sorts_classes_019
+sort	803194		Name	408df9cd4493	Corrosion	lot sorts_classes_019
+sort	803194		ToolTip	121c21329c42	Dégâts de Nature subis augmentés de ${$w1}%.	lot sorts_classes_019
+sort	803198		Description	b99a298a50fa	Fracasse un ennemi et jusqu'à $x ennemis avec votre griffe et inflige ${$m1+0} points de dégâts de Nature, en fonction de votre Endurance.\r\n\r\nGénère $/10;800001s3 Rage.	lot sorts_classes_019
+sort	803198		Name	7841f28d8269	Coup de griffe	lot sorts_classes_019
+sort	803199		Description	c49cd3b0fb82	Écrase votre corps contre le sol et inflige ${$m1+0+$AP*0.140625+$spn*.2} points de dégâts de Nature aux ennemis situés à moins de $a1 mètres.	lot sorts_classes_019
+sort	803199		Name	2bb5a3cccbc0	Impact de carapace	lot sorts_classes_019
+sort	803201		Description	a9bcdf1426cb	Place une flaque toxique sur le sol pendant $d, |cffff4500Embrasant|r instantanément les ennemis à l'intérieur pour ${$m3+0} points de dégâts de Nature.\r\n\r\nLes ennemis dans la flaque subissent ${$m1+0} points de dégâts de Nature toutes les $t1 sec et leur vitesse de déplacement est réduite de $803218s1%.$?s705991[\r\n\r\nLes alliés dans la flaque reçoivent $802355s1 points de vie toutes les $802355t1 sec et subissent $802355s2% de soins en plus.][]	lot sorts_classes_019
+sort	803201		Name	9dc01af1c27e	Boue toxique	lot sorts_classes_019
+sort	803201		ToolTip	2c880fae718c	${$w1} points de dégâts de Nature infligés toutes les $t1 sec.	lot sorts_classes_019
+sort	803203		Description	e3561a70aa2f	Lance des traits de poison sur tous les ennemis situés à moins de $a1 m qui se trouvent dans la flaque créée par |cffffffffBoue toxique|r et inflige $s1 points de dégâts de Nature aux ennemis affectés.	lot sorts_classes_019
+sort	803203		Name	9b61ed07ab7e	Lance-toxines	lot sorts_classes_019
+sort	803205		Description	67f5850f84be	Pendant $d, vous générez $801272s1% supplémentaires de votre Rage maximale lorsque vous subissez des dégâts.\r\n\r\nLorsque cet effet prend fin, vous êtes soigné en fonction de votre Agilité et de votre Intelligence.	lot sorts_classes_019
+sort	803205		Name	8aa58d9a9247	Rage toxique	lot sorts_classes_019
+sort	803205		ToolTip	f0a424d19bf1	Subir des dégâts génère de la Rage supplémentaire.	lot sorts_classes_019
+sort	803334		Description	276d65d82a82	Incinère un ennemi avec des flammes infernales et réduit son Armure de $704217s1% par |cffff9933Feu démoniaque|r consommé$?s680900[ et augmente les dégâts qu'il subit de votre |cffffffffLame de Xoroth|r et de vos |cffffffffFlammes de Xoroth|r de $680900s1%][] pendant $d.	lot sorts_classes_019
+sort	803334		ToolTip	7221db00525d	Armure réduite de ${$W1}%. 	lot sorts_classes_019
+sort	803339		Description	4924c08fc0a2	Prenez une |cFFFFFFFFPrésence|r impie : les dégâts infligés ont $h% de chances d'augmenter votre hâte de $803340s1% pendant $803340d.\r\n\r\n@ext:You may only have 1 |cFFFFFFFFPresence|r active at a time. :ext@	lot sorts_classes_019
+sort	803339		Name	424480b608da	Présence de C'Thun	lot sorts_classes_019
+sort	803339		ToolTip	b7f16d7b4fa5	A une chance d'augmenter votre hâte de $803340s1% pendant $803340d.	lot sorts_classes_019
+sort	803343		Name	4a7e117d4122	Pacte du pourfendeur	lot sorts_classes_019
+sort	803372		Name	c87c9853309a	Frappes divines	lot sorts_classes_019
+sort	803417		Description	dc78787e103f	Augmente vos chances de coup critique de $s1%, mais augmente les dégâts que vous subissez de $s3%.	lot sorts_classes_019
+sort	803417		Name	d2127f7fd55b	Formation d'assaut	lot sorts_classes_019
+sort	803417		ToolTip	73c55842f4a1	Augmente vos chances de coup critique de ${$w1}%, mais augmente les dégâts que vous subissez de ${$w3}%.	lot sorts_classes_019
+sort	803436		Description	13813ca93076	Construit un |cffffffffAssistant mécanique|r qui accompagne le bricoleur jusqu'à son renvoi.	lot sorts_classes_019
+sort	803436		Name	5be273f24374	Construire : assistant mécanique	lot sorts_classes_019
+sort	803489		Description	ecc665a51ca2	Les dégâts ou soins directs de vos aptitudes génèrent 2 |cFFFF9800Puissance solaire|r et infligent ou rendent $s2% supplémentaires.\r\n\r\n|cffffffffAccomplissement|r : double les dégâts ou les soins effectués.\r\n\r\n@ext:Only 1 |cffffffffVow|r can be active at a time.:ext@	lot sorts_classes_019
+sort	803489		Name	c0a0038370a0	Vœu de radiance	lot sorts_classes_019
+sort	803489		ToolTip	8472b5bb7d00	Les dégâts ou soins directs infligent ou rendent ${$w2}% supplémentaires en dégâts ou soins de flamme sacrée.	lot sorts_classes_019
+sort	803491		Description	671fbdc446de	Les dégâts ou soins directs de vos aptitudes génèrent 1 |cFFFF9800Puissance solaire|r et ricochent sur $803492s1 cibles proches supplémentaires, avec une valeur moindre par cible touchée.\r\n\r\n|cffffffffAccomplissement|r : double le nombre de cibles touchées.\r\n\r\n@ext:Only 1 |cffffffffVow|r can be active at a time.:ext@	lot sorts_classes_019
+sort	803491		Name	318c4867774f	Vœu de l'aube	lot sorts_classes_019
+sort	803491		ToolTip	48b3860af4c3	Les dégâts ou soins directs génèrent de la Puissance solaire et ricochent sur les ennemis proches.	lot sorts_classes_019
+sort	803588		Description	5e5dca607dec	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ce sort ne peut être lancé lorsque vous êtes en combat.	lot sorts_classes_019
+sort	803589		Description	5e5dca607dec	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ce sort ne peut être lancé lorsque vous êtes en combat.	lot sorts_classes_019
+sort	803649		Description	32e1fbc38723	Bénit un allié du pouvoir d'Al'ar et lui rend $s1 points de mana toutes les 5 sec.	lot sorts_classes_019
+sort	803649		Name	4d1b0bf379b9	Sceau d'Al'ar	lot sorts_classes_019
+sort	803649		ToolTip	fdf729aad9a2	Régénération de mana augmentée de ${$W1}.	lot sorts_classes_019
+sort	803667		Description	e28ebe1a2e33	Marque un allié de la ruse de Rivendare et augmente son Endurance de $s1 et sa résistance au Givre de $s2 pendant $d.	lot sorts_classes_019
+sort	803667		Name	45d7da0efd4b	Marque de Rivendare	lot sorts_classes_019
+sort	803667		ToolTip	7908eb47a721	Augmente l'Endurance de ${$w1}. Augmente la résistance au Givre de ${$w2}.	lot sorts_classes_019
+sort	803668		Description	98edd9844f40	Marque un allié de la ruse de Rivendare et augmente son Endurance de $s1 et sa résistance au Givre de $s2 pendant $d. 	lot sorts_classes_019
+sort	803668		Name	45d7da0efd4b	Marque de Rivendare	lot sorts_classes_019
+sort	803668		ToolTip	7908eb47a721	Augmente l'Endurance de ${$w1}. Augmente la résistance au Givre de ${$w2}.	lot sorts_classes_019
+sort	803669		Description	98edd9844f40	Marque un allié de la ruse de Rivendare et augmente son Endurance de $s1 et sa résistance au Givre de $s2 pendant $d. 	lot sorts_classes_019
+sort	803669		Name	45d7da0efd4b	Marque de Rivendare	lot sorts_classes_019
+sort	803669		ToolTip	7908eb47a721	Augmente l'Endurance de ${$w1}. Augmente la résistance au Givre de ${$w2}.	lot sorts_classes_019
+sort	803670		Description	98edd9844f40	Marque un allié de la ruse de Rivendare et augmente son Endurance de $s1 et sa résistance au Givre de $s2 pendant $d. 	lot sorts_classes_019
+sort	803670		Name	45d7da0efd4b	Marque de Rivendare	lot sorts_classes_019
+sort	803670		ToolTip	7908eb47a721	Augmente l'Endurance de ${$w1}. Augmente la résistance au Givre de ${$w2}.	lot sorts_classes_019
+sort	803671		Description	b91c7d5669f8	Renforce un allié de la marque de Zeliek, réduisant ses coûts en ressources de $s2% et augmentant sa résistance aux Arcanes de $s3. Dure $d.	lot sorts_classes_019
+sort	803671		Name	e93fe95a2b33	Marque de Zeliek	lot sorts_classes_019
+sort	803671		ToolTip	7099e1932a4e	Coûts en ressources réduits de 5%. Résistance aux Arcanes augmentée de ${$w3}.	lot sorts_classes_019
+sort	803719		Description	3e83bfa0a50b	Vous générez 2 |cFFFF9800Puissance solaire|r toutes les $/1000;t1 sec, et les dégâts ou soins directs de vos aptitudes régénèrent désormais $504775s1% de votre mana manquant plus ${$504877m1+$504877ppl1}.\r\n\r\n|cffffffffAccomplissement|r : réduit de moitié le coût en mana de tous les sorts et aptitudes$?s707528[ et réduit leur temps de recharge de $807446s2%][].\r\n\r\n@ext:Only 1 |cffffffffVow|r can be active at a time.:ext@	lot sorts_classes_019
+sort	803719		Name	2ad6711d954a	Vœu de grâce	lot sorts_classes_019
+sort	803719		ToolTip	ef0bbe21a20a	Les dégâts ou soins directs de vos aptitudes régénèrent désormais $504775s1% de votre mana manquant.	lot sorts_classes_019
+sort	803729		Description	32e1fbc38723	Bénit un allié du pouvoir d'Al'ar et lui rend $s1 points de mana toutes les 5 sec.	lot sorts_classes_019
+sort	803729		Name	4d1b0bf379b9	Sceau d'Al'ar	lot sorts_classes_019
+sort	803729		ToolTip	fdf729aad9a2	Régénération de mana augmentée de ${$W1}.	lot sorts_classes_019
+sort	803730		Description	5228360f78f3	Marque les membres du groupe et du raid proches de la ruse de Rivendare et augmente leur Endurance de $s1 et leur résistance au Givre de $s2 pendant $d. 	lot sorts_classes_019
+sort	803730		Name	837c18e97f23	Marque de Rivendare supérieure	lot sorts_classes_019
+sort	803730		ToolTip	7908eb47a721	Augmente l'Endurance de ${$w1}. Augmente la résistance au Givre de ${$w2}.	lot sorts_classes_019
+sort	803731		Description	78c88a776b3d	Renforce les membres du groupe et du raid proches de la marque de Zeliek, réduisant leurs coûts en ressources de $s2% et augmentant leur résistance aux Arcanes de $s3. Dure $d.	lot sorts_classes_019
+sort	803731		Name	ea6b98c9ceec	Marque de Zeliek supérieure	lot sorts_classes_019
+sort	803731		ToolTip	7099e1932a4e	Coûts en ressources réduits de 5%. Résistance aux Arcanes augmentée de ${$w3}.	lot sorts_classes_019
+sort	803819		Description	022d933d7163	|cffff7f7fGénère 20 Chaleur|r\r\nSoigne un allié par les flammes et lui rend ${$m1+0+$SP*0.35+$SPI*.4} points de vie, en fonction également de votre Esprit.	lot sorts_classes_019
+sort	803819		Name	27fdab07df4d	Attiser	lot sorts_classes_019
+sort	803820		Description	022d933d7163	|cffff7f7fGénère 20 Chaleur|r\r\nSoigne un allié par les flammes et lui rend ${$m1+0+$SP*0.35+$SPI*.4} points de vie, en fonction également de votre Esprit.	lot sorts_classes_019
+sort	803820		Name	27fdab07df4d	Attiser	lot sorts_classes_019
+sort	803821		Description	022d933d7163	|cffff7f7fGénère 20 Chaleur|r\r\nSoigne un allié par les flammes et lui rend ${$m1+0+$SP*0.35+$SPI*.4} points de vie, en fonction également de votre Esprit.	lot sorts_classes_019
+sort	803821		Name	27fdab07df4d	Attiser	lot sorts_classes_019
+sort	803825		Description	022d933d7163	|cffff7f7fGénère 20 Chaleur|r\r\nSoigne un allié par les flammes et lui rend ${$m1+0+$SP*0.35+$SPI*.4} points de vie, en fonction également de votre Esprit.	lot sorts_classes_019
+sort	803825		Name	27fdab07df4d	Attiser	lot sorts_classes_019
+sort	803885		Description	3ba4c12b9aaf	Émane une aura qui augmente de ${$m1+0} la résistance à l'Ombre des alliés proches et les fait infliger $s2 points de dégâts d'Ombre aux ennemis qui les attaquent.	lot sorts_classes_019
+sort	803885		Name	d9a6e550ee54	Pacte vengeur	lot sorts_classes_019
+sort	803885		ToolTip	db8aeffc95a9	Résistance à l'Ombre augmentée de ${$w1}. Les attaquants subissent ${$w2} points de dégâts d'Ombre.	lot sorts_classes_019
+sort	803889		Description	dbc46e50c3cb	Augmente de $s1% votre hâte en mêlée, votre vitesse de déplacement et votre vitesse de déplacement en monture pendant $d.\r\n\r\nDurée et efficacité augmentées de 20% par |cffff9933Feu démoniaque|r consommé.\r\n\r\nUtilisable en selle.	lot sorts_classes_019
+sort	803889		Name	a06b03a0769d	Cavalier infernal	lot sorts_classes_019
+sort	803889		ToolTip	93138a864df2	Augmente de ${$w1}% votre hâte en mêlée, votre vitesse de déplacement et votre vitesse de déplacement en monture.	lot sorts_classes_019
+sort	803895		Name	6e66568583d1	Garde	lot sorts_classes_019
+sort	803895		ToolTip	ad679cd628a9	La prochaine attaque de mêlée portée contre vous sera portée contre le Gardien interposé.	lot sorts_classes_019
+sort	803946		Description	4d44f6aef012	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffMarteau de la montagne|r.	lot sorts_classes_019
+sort	803946		Name	1c76d56ef08b	Marteau de la Terre-mère	lot sorts_classes_019
+sort	803946		ToolTip	6e2db8e9adb8	|cffffffffMarteau de la montagne|r ne coûte aucune Rage tant que vous avez 5 charges de |cffffffffPuissance de la montagne|r.	lot sorts_classes_019
+sort	803953		Description	49dc38241a30	Les dégâts périodiques ont $h% de chances de vous accorder |cffffffffRuée de cendres|r.@s:803969:0@	lot sorts_classes_019
+sort	803953		Name	8eeda8c39418	Ruée de cendres	lot sorts_classes_019
+sort	803953		ToolTip	4d4b7238de7c	Les dégâts périodiques ont $h% de chances de rendre votre prochaine Ruée de cendres instantanée et gratuite.	lot sorts_classes_019
+sort	803955		Description	3d474678f725	|cFF66DDFFPassif de niveau 10|r\r\nLorsque vous subissez des dégâts qui vous tueraient, vous vous transformez à la place en |cFFFFFFFFEsprit du phénix|r pendant $573220d.\r\n\r\nTant que vous êtes transformé, vos sorts ne coûtent aucun mana et votre Esprit est augmenté de $573220s1%. À la fin de la durée, vous renaîtrez. Ne peut se produire qu'une fois toutes les 5 min.	lot sorts_classes_019
+sort	803955		Name	adb176e4a3cd	Esprit du phénix	lot sorts_classes_019
+sort	803959		Name	1d91d63d6a7f	Exploits d'honneur	lot sorts_classes_019
+sort	803959		ToolTip	60058102ad74	Vous avez une faible chance de motiver tous les alliés proches chaque fois que vous subissez des dégâts.	lot sorts_classes_019
+sort	803960		Name	9fce4d3938d7	Exploits de gloire	lot sorts_classes_019
+sort	803960		ToolTip	dc0986e84717	Vous avez une faible chance de motiver tous les alliés proches chaque fois que vous soignez un allié.	lot sorts_classes_019
+sort	803961		Description	28a588fe7fc6	Vous renforce pendant $d : vos 3 prochains |cffffffffCoups valeureux|r et |cffffffffBéliers|r infligent $s1% de dégâts en plus et vous accordent |cffffffffTempo|r.$?s704535[\r\n\r\nÀ la fin de l'effet, vous êtes |cffffffffInspiré|r : le temps de recharge de |cffffffffBélier|r est réinitialisé et votre prochain |cffffffffBélier|r est un coup critique.][]	lot sorts_classes_019
+sort	803961		Name	09a81c60a43f	Discours inspirant	lot sorts_classes_019
+sort	803961		ToolTip	57c1e57c8bf1	Les 3 prochains |cffffffffCoups valeureux|r et |cffffffffBéliers|r infligent ${$w1}% de dégâts en plus et accordent |cffffffffTempo|r.\r\n\r\nÀ la fin de l'effet, le temps de recharge de |cffffffffBélier|r est réinitialisé et votre prochain |cffffffffBélier|r est un coup critique.	lot sorts_classes_019
+sort	803964		Description	f30b65bea3e1	Marque un allié pendant $d : il devient insensible aux ralentissements et vous accordez |cffffffffInspiration|r à tous les membres du groupe proches.\r\n\r\nTant qu'il est marqué, chaque fois que l'allié est touché par une attaque de mêlée, la puissance d'attaque en mêlée de l'attaquant est réduite de ${$803965m1+$803965ppl1} pendant $803965d, en fonction de votre Esprit.\r\n\r\nApplique |cffffffffConfiance|r à la cible pendant $806137d.@ext:@s:806137:0@:ext@	lot sorts_classes_019
+sort	803964		Name	4fa4273bdd78	Décret du héros	lot sorts_classes_019
+sort	803964		ToolTip	8f2d0bb79de7	Insensible aux ralentissements. Les ennemis qui vous frappent en mêlée perdent ${$w2} points de puissance d'attaque pendant $803965d.	lot sorts_classes_019
+sort	803966		Description	11887e0346a8	Génère $s1 points d'Énergie toutes les $t1 sec et augmente la vitesse de déplacement de $s3%$?s500051[, et augmente de $s2% le bonus de puissance d'attaque de |cffffffffChant de bataille|r][] pendant $d.\r\n\r\nNe peut être utilisé qu'en combat.	lot sorts_classes_019
+sort	803966		Name	abc5323dcfe8	Frisson du combat	lot sorts_classes_019
+sort	803966		ToolTip	ea04c3c0ee55	Régénération d'Énergie.$?s500051[ Bonus de puissance d'attaque de |cffffffffChant de bataille|r augmenté de ${$w2}%][]	lot sorts_classes_019
+sort	803975		Description	a34399f8ba93	Les attaques automatiques ont désormais $680395h% de chances de vous accorder |cffffffffRéplique|r.@s:301086:0@	lot sorts_classes_019
+sort	803975		Name	aa4d9897fa2b	Géant des montagnes	lot sorts_classes_019
+sort	803981		Description	85140d451108	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 Rage.\r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_019
+sort	803984		Description	1562494021b6	Inflige $s1 points de dégâts d'Ombre à un ennemi.\r\n\r\nSi vous avez |cff5ee2ffInfusion d'âme|r, ce sort est instantané, mais ne consomme pas |cff5ee2ffInfusion d'âme|r.	lot sorts_classes_019
+sort	803984		Name	41f06e549229	Lance d'âme	lot sorts_classes_019
+sort	803985		Description	ef2a3ed7aa78	Glace un ennemi d'une griffe spectrale, le ralentit et lui vole $s1% de sa vitesse de déplacement pendant $d.\n\nChaque fois que vous tuez un ennemi, le temps de recharge de cette aptitude est réinitialisé.	lot sorts_classes_019
+sort	803985		Name	b7c02e30e972	Griffe fantôme	lot sorts_classes_019
+sort	803987		Description	ef2a3ed7aa78	Glace un ennemi d'une griffe spectrale, le ralentit et lui vole $s1% de sa vitesse de déplacement pendant $d.\n\nChaque fois que vous tuez un ennemi, le temps de recharge de cette aptitude est réinitialisé.	lot sorts_classes_019
+sort	803987		Name	b7c02e30e972	Griffe fantôme	lot sorts_classes_019
+sort	803987		Rank	770d690e6d59	Visuel	lot sorts_classes_019
+sort	803988		Description	c2aecf4b4b2c	Vous vous glissez dans le royaume des morts pendant $d : les dégâts subis sont réduits de $s2%, mais vous ne pouvez ni attaquer ni lancer de sorts.	lot sorts_classes_019
+sort	803988		Name	bf53a2840ee4	Valse spectrale	lot sorts_classes_019
+sort	803988		ToolTip	5e57e97370eb	Dégâts subis réduits de ${$w2}%. Ne peut pas attaquer ni lancer de sorts.	lot sorts_classes_019
+sort	803989		Name	385097d012bd	Choc d'âme	lot sorts_classes_019
+sort	803989		ToolTip	15d7f518bd1f	Ne peut ni bouger ni agir. Les dégâts subis interrompent cet effet.	lot sorts_classes_019
+sort	803996		Description	711ec0e9e760	Pendant $d, chaque coup critique augmente de $680919s1% vos chances de parade et d'esquive, cumulable jusqu'à $680919u fois.\r\n\r\nSi vous n'atteignez pas au moins 10 charges, vous subissez des dégâts égaux à $804376s2% de vos points de vie maximum.	lot sorts_classes_019
+sort	803996		Name	20200073b166	Marché sombre	lot sorts_classes_019
+sort	803996		ToolTip	25d8e1cb1fab	Les coups critiques augmentent de $680919s1% vos chances de parade et d'esquive, cumulable jusqu'à $680919u fois.\r\n\r\nSi vous n'atteignez pas au moins 10 charges, vous subissez des dégâts égaux à $804376s2% de vos points de vie maximum.	lot sorts_classes_019
+sort	804001		Description	99c4c9743413	Vous vous liez à un allié, réduisant de $s2% tous les dégâts qu'il subit et vous redirigeant $s1% de tous les dégâts qu'il subit.\n\nDure $d. Cet effet disparaît si vous vous éloignez de plus de 30 mètres de l'allié.	lot sorts_classes_019
+sort	804001		Name	5aee85eb561e	Pacte du faucheur	lot sorts_classes_019
+sort	804001		ToolTip	69184ba23572	Vous êtes lié à un faucheur : ${$w1}% de tous les dégâts que vous subissez lui sont redirigés.\n\nEn outre, vous subissez ${$w2}% de dégâts en moins de toutes les sources.	lot sorts_classes_019
+sort	804010		Description	8b91752ee473	La prochaine fois que vous subissez des dégâts, déchaîne une explosion de feu infernal sur les ennemis situés à moins de $804011a2 mètres de l'attaquant et leur inflige ${$804011m2+$804011ppl2} points de dégâts de Feu.	lot sorts_classes_019
+sort	804010		Name	0906555b9c34	Réprimande infernale	lot sorts_classes_019
+sort	804010		ToolTip	2a3b74b592c7	La prochaine fois que vous subissez des dégâts, vous déchaînez une explosion de feu infernal sur les ennemis situés à moins de $804011a2 mètres et leur infligez des dégâts de Feu.	lot sorts_classes_019
+sort	804015		Description	fad39b67cf73	Augmente de $/1000;s1 sec la durée de votre |cFFFFFFFFAscendance de la tempête|r.	lot sorts_classes_019
+sort	804015		Name	c9eaefc95809	Rage de la tempête	lot sorts_classes_019
+sort	804016		Description	18f6b621fa40	Les dégâts infligés par |cffffffffConjurer la tempête|r et |cffffffffBras de Thorim|r appliquent désormais |cffffffffMousson violente|r aux ennemis pendant $704225d.@s:704225:0@	lot sorts_classes_019
+sort	804016		Name	64f032c68d9e	Mousson violente	lot sorts_classes_019
+sort	804017		Description	0214289f7d9e	|cffcc99ffÉpuise 40 points de Statique|r\r\nFrappe un ennemi, déclenche |cff4fd1c5Conduction|r et inflige ${$cond($gt($spfr, $spn), $m1+0+$spfr*1, $m1+0+$spn*1.5)} points de dégâts de Givre, en fonction de votre score de hâte.@s:567560:0@	lot sorts_classes_019
+sort	804017		Name	e04649c36e87	Courroux torrentiel	lot sorts_classes_019
+sort	804019		Description	e8f91549f9aa	Appelle un |cffffffffÉlémentaire d'air|r pour vous aider au combat ; il gagne une charge de |cffffffffRevigoration|r chaque fois qu'il inflige des dégâts.\r\n@s:680918:0@	lot sorts_classes_019
+sort	804019		Name	9d5f2067837c	Invocation : élémentaire d'air	lot sorts_classes_019
+sort	804020		Description	aa5cc9f99093	$?s500040[|cffcc99ffGénère 20 points de Statique|r\r\n][]Utilise un horion sur un ennemi et lui inflige ${$cond($gt($spa, $spn), $m1+0+$spa*0.55, $m1+0+$spn*0.55)} points de dégâts de Nature, plus ${($560336d*1000/$560336T1)*($707058m1)}% des dégâts initiaux en $560336d.	lot sorts_classes_019
+sort	804020		Name	674982955154	Horion	lot sorts_classes_019
+sort	804030		Description	c288e9a76fe3	Les coups critiques infligeant des dégâts embrasent la cible avec |cffffffffLumière ardente|r, qui inflige ${$804031m1+$804031ppl1} points de dégâts de Feu toutes les $804031t1 pendant $804031d.\r\n\r\nCet effet peut infliger un coup critique.	lot sorts_classes_019
+sort	804030		Name	997d9168134c	Lumière ardente	lot sorts_classes_019
+sort	804042		Description	76485bb1fdd1	Vos sorts de dégâts directs ont désormais $h% de chances de lancer |cFFFFFFFFHorion|r.	lot sorts_classes_019
+sort	804042		Name	295f4c64fc2c	Foudre déliée	lot sorts_classes_019
+sort	804048		Description	2c73c525f3e1	Augmente de $s1% supplémentaires vos dégâts critiques avec les sorts de Nature.	lot sorts_classes_019
+sort	804048		Name	12d8d0a5ad75	Rage de Thorim	lot sorts_classes_019
+sort	804048		ToolTip	9ba06e870c81	Augmente vos dégâts critiques de ${$w1}% et tous les coups critiques offensifs génèrent désormais 5 |cffcc99ffStatique|r.	lot sorts_classes_019
+sort	804049		Description	b8f2e41168c0	Retire tous les effets de poison, de maladie et de malédiction d'un allié et lui confère l'immunité contre ces effets pendant $d.	lot sorts_classes_019
+sort	804049		Name	0613e5e897bc	Élixir panacée	lot sorts_classes_019
+sort	804049		ToolTip	63c379e5dcaf	Insensible aux effets de poison, de maladie et de malédiction.	lot sorts_classes_019
+sort	804052		Description	0697ba63b6dd	Révèle instantanément tous les ennemis furtifs et invisibles dans un rayon de $a1 mètres autour de vous.	lot sorts_classes_019
+sort	804052		Name	098954f839bd	Œil d'Archimonde	lot sorts_classes_019
+sort	804054		Description	90efb5e39310	Marque une cible ennemie et augmente votre vitesse de $807775s1% tant que vous êtes à moins de $807776a2 mètres d'elle, pendant $d. Infliger des dégâts interrompt l'effet.\r\n\r\nTant que vous traquez un ennemi, vous voyez tous les ennemis furtifs proches.\r\n\r\nTraquer un humanoïde lui applique |cFFFFFFFFAnxiété|r.@s:807776:0@	lot sorts_classes_019
+sort	804054		Name	6e6c0284fa3a	Traquemort	lot sorts_classes_019
+sort	804054		ToolTip	1fcdf4352d55	Traqué.	lot sorts_classes_019
+sort	804058		Description	34640b172fde	Vous devenez le champion d'An'she et pouvez lancer tous vos sorts tout en vous déplaçant pendant $d.	lot sorts_classes_019
+sort	804058		Name	75c6dcbbbabc	Bénédiction d'An'she	lot sorts_classes_019
+sort	804058		ToolTip	d08a5afdb7bd	Vous permet de lancer tous vos sorts tout en vous déplaçant.	lot sorts_classes_019
+sort	804126		Description	1db237930012	Régénère $s3% du mana maximum et réduit les dégâts subis de $s1% pendant $d.	lot sorts_classes_019
+sort	804126		Name	55965ac59bec	Bouclier de l'augure	lot sorts_classes_019
+sort	804127		Description	4a38fccb7089	Frappe un ennemi pour les dégâts de l'arme plus $s1 points de dégâts des Arcanes, et parcourt deux fois le cycle de votre Harmonisation.	lot sorts_classes_019
+sort	804127		Name	4807b161fcc5	Lame prismatique	lot sorts_classes_019
+sort	804128		Description	00a50f989ce4	Frappe jusqu'à $i ennemis situés à moins de $a1 mètres de la cible ennemie et leur inflige ${$m1+0} points de dégâts de feu-sort, et applique |cffffffffCourroux des sorts|r à tous les ennemis affectés.\r\n\r\n@ext:Always applies the maximum amount of |cffffffffSpellwrath|r stacks.@s:524988:0@:ext@	lot sorts_classes_019
+sort	804128		Name	f73ecb89b787	Cascade runique	lot sorts_classes_019
+sort	804129		Description	55d6030b6145	Augmente votre Armure de $s1% de votre Intelligence et réduit les dégâts infligés de $804299s1%.\r\n\r\nParer une attaque génère une |cffffffffRune inscrite|r et augmente votre vitesse d'attaque en mêlée de $804130s1% pendant $804130d.\r\n\r\n|cffffffffActif tant que vous maniez une arme de mêlée à deux mains.|r	lot sorts_classes_019
+sort	804129		Name	382d86bb942f	Chevalier prismatique	lot sorts_classes_019
+sort	804129		ToolTip	a904ee7e96ec	Augmente votre Armure de ${$w1}% de votre Intelligence et réduit les dégâts infligés de $804299s1%.\n\nParer une attaque génère une Rune inscrite et augmente votre vitesse d'attaque en mêlée de $804130s1% pendant $804130d.\n\n|cffffffffActif tant que vous maniez une arme de mêlée à deux mains.|r	lot sorts_classes_019
+sort	804136		Description	69e24b84a56f	Lance votre arme à distance sur un ennemi et inflige $s2% des dégâts de l'arme à distance plus ${$m1+0} points de dégâts physiques.\r\n\r\nUtilisable en déplacement.	lot sorts_classes_019
+sort	804136		Name	69d67b4abfcf	Lancer d'arme	lot sorts_classes_019
+sort	804151		Name	d324cbc9a74b	Aspect du chevalier runique	lot sorts_classes_019
+sort	804154		Description	eaa4eeb4de57	Permet d'ouvrir les coffres et les portes verrouillés.	lot sorts_classes_019
+sort	804154		Name	48f0c5fecda7	« Crochetage »	lot sorts_classes_019
+sort	804156		Description	5118ca17cdfb	Retire $s1 malédiction à un allié.	lot sorts_classes_019
+sort	804156		Name	852723a879f7	Nourriture runique	lot sorts_classes_019
+sort	804164		Description	5e743cb3ab2c	|cffffffffLentille de focalisation télescopique|r rafraîchit désormais une charge de |cffffffffTourelle de garde|r.	lot sorts_classes_019
+sort	804164		Name	611d7266a079	Mécanicien expert	lot sorts_classes_019
+sort	804164		ToolTip	c7f6a486fa50	Augmente de $/1000;S2 sec la durée des |cffffffffTourelles de garde|r que vous invoquez et fait rafraîchir une charge à |cffffffffLentille de focalisation|r.	lot sorts_classes_019
+sort	804165		Description	93cb0a512e5e	Le prochain |cffffffffTir de ferraille|r dans les $d inflige $s1% de dégâts en plus et tire $s2% plus vite. \r\n\r\nJusqu'à $801639i ennemis proches de la cible subissent $801639s1 points de dégâts de Feu.	lot sorts_classes_019
+sort	804165		Name	8f10cb08660c	Charge explosive	lot sorts_classes_019
+sort	804165		ToolTip	065f6dacd1a3	Le prochain |cffffffffTir de ferraille|r dans les $d inflige ${$w1}% de dégâts en plus et tire ${$w2}% plus vite. \n\nJusqu'à $801639i ennemis proches de la cible subissent $801639s1 points de dégâts de Feu.	lot sorts_classes_019
+sort	804166		Description	77ab05a2c86c	Vous construisez devant vous un mur de 3 tourelles de garde qui tirent sur les ennemis pendant $d. Les tourelles de garde ne peuvent pas bouger.	lot sorts_classes_019
+sort	804166		Name	ad37b8af7287	Déployer un mur de tourelles	lot sorts_classes_019
+sort	804168		Description	079f70e493fd	Lie un démon ennemi jusqu'au niveau ${$m1+$ppl1} et le force à obéir à vos ordres pendant $d (8 sec contre les joueurs).\n\nTant que l'effet dure, $s2% de tous les dégâts qu'il subit vous sont redirigés.	lot sorts_classes_019
+sort	804168		Name	374a0b7f9100	Laisse infernale	lot sorts_classes_019
+sort	804168		ToolTip	8fa5b40170e1	Lié à la volonté d'un chevalier de Xoroth, auquel ${$w2}% de tous les dégâts que vous subissez sont transférés. 	lot sorts_classes_019
+sort	804174		Description	4bc3031889be	Maudit un ennemi pendant $d : les dégâts de Feu qu'il subit et ses chances d'être touché par un coup critique de dégâts de Feu augmentent de $s3%.	lot sorts_classes_019
+sort	804174		Name	dfaf6e810d04	Malédiction de Hel'nurath	lot sorts_classes_019
+sort	804174		ToolTip	d6154d16665d	Dégâts de Feu subis et chances d'être touché par un coup critique de dégâts de Feu augmentés de ${$w3}%.	lot sorts_classes_019
+sort	804176		Description	a7b219fc0fc7	Infliger des dégâts physiques a une chance de réduire de $804177s1% le temps d'incantation de votre prochain Tir de baliste, cumulable jusqu'à 5 fois.\n\nAugmente aussi de $s2% le bonus de dégâts des coups critiques de Tir de baliste.	lot sorts_classes_019
+sort	804176		Name	df79bddf2fe6	Carreaux de baliste	lot sorts_classes_019
+sort	804176		ToolTip	f6bf009ca4fb	Infliger des dégâts physiques a une chance de réduire de $804177s1% le temps d'incantation de votre prochain Tir de baliste, cumulable jusqu'à 5 fois.\n\nAugmente aussi de ${$w2}% le bonus de dégâts des coups critiques de Tir de baliste.	lot sorts_classes_019
+sort	804184		Description	0cb628fdb28a	Frappe un ennemi pour $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*0.2} points de dégâts d'Ombre, en ignorant les effets d'absorption et les résistances.	lot sorts_classes_019
+sort	804184		Name	657c21f37408	Fulmine-sorcière	lot sorts_classes_019
+sort	804195		Description	6ebdd8f1b226	Pendant $d, tous les dégâts d'Ombre que vous infligez vous rendent des points de vie égaux aux dégâts infligés.$?s681078[\r\n\r\n|cFFE53935Surpuissant|r : coûte 100% de Rage en moins.][]	lot sorts_classes_019
+sort	804195		Name	11365f15bf21	Apothéose	lot sorts_classes_019
+sort	804198		Description	177a081174ad	Vous terrifiez les ennemis situés à moins de $a mètres par votre forme horrifiante et les faites trembler d'horreur pendant $d. 	lot sorts_classes_019
+sort	804198		Name	f0bb7094ae0f	Terrifier	lot sorts_classes_019
+sort	804204		Description	12e59264f8e6	Vous apprend |cffffffffMalédiction éternelle|r et vous permet de manier deux armes.@s:800157:0@	lot sorts_classes_019
+sort	804204		Name	21b1b823681d	Malédiction éternelle	lot sorts_classes_019
+sort	804206		Description	81af10c2435a	Supprime le temps de recharge de |cffffffffMorsure sanglante|r, mais augmente son coût en Rage de $/10;s2.	lot sorts_classes_019
+sort	804206		Name	8096058df463	Dette de sang	lot sorts_classes_019
+sort	804206		ToolTip	e51c22293750	|cffffffffBalayage de griffes|r propage désormais |cffffffffGriffe infectée|r des cibles affectées à un autre ennemi aléatoire situé à moins de $707021a1 m.	lot sorts_classes_019
+sort	804216		Description	ac717c78c129	|cff32cd32Consomme de la Gangrefurie|r\r\nVous subissez une métamorphose et libérez votre démon intérieur : vos dégâts infligés augmentent de $s2%$?s705122[, les dégâts subis sont réduits de $500031s1%][],$?s805236[ la vitesse d'attaque en mêlée augmente de $805236s2%,][] et les effets de |cff32cd32Démon intérieur|r sont activés.\r\n\r\nDure $/1000;803465s1 sec pour chaque |cff32cd32Gangrefurie|r consommée.	lot sorts_classes_019
+sort	804216		Name	1655815242cb	Démon intérieur	lot sorts_classes_019
+sort	804216		ToolTip	331f57a53038	Augmente les dégâts infligés de ${$w2}%.	lot sorts_classes_019
+sort	804218		Description	4f3bb3d3d1af	La forme démoniaque augmente désormais l'Armure et la résistance magique en fonction du score d'esquive.\n\nElle augmente aussi de $801574s1% les soins reçus et de $804217s3% la génération de menace.	lot sorts_classes_019
+sort	804218		Name	95a86a0c13c5	Écailles démoniaques	lot sorts_classes_019
+sort	804218		ToolTip	4f3bb3d3d1af	La forme démoniaque augmente désormais l'Armure et la résistance magique en fonction du score d'esquive.\n\nElle augmente aussi de $801574s1% les soins reçus et de $804217s3% la génération de menace.	lot sorts_classes_019
+sort	804220		Description	ce7259de1495	Provoque une cible ennemie pour qu'elle vous attaque pendant $d.\n\n|cff32cd32Démon intérieur|r : frappe l'ennemi et lui inflige ${$AP*.5} points de dégâts de flamme d'Ombre.	lot sorts_classes_019
+sort	804220		Name	5f0f173bb6bb	Trahison	lot sorts_classes_019
+sort	804228		Description	6920dc1b7cae	Bénit un allié d'une détermination accrue, lui conférant l'immunité aux effets de peur, de charme et d'horreur pendant $d.\r\n\r\nUtilisable même apeuré.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_classes_019
+sort	804228		Name	171be80e178f	Testament de détermination	lot sorts_classes_019
+sort	804228		ToolTip	b056a5697df0	Insensible aux effets de peur, de charme et d'horreur.	lot sorts_classes_019
+sort	804231		Description	f4bb3a6909ba	Ramène à la vie un allié mort avec $s1 points de vie et $q points de mana ; peut aussi être utilisé sur vous-même lorsque vous êtes mort.\n\nPeut être utilisé en combat.	lot sorts_classes_019
+sort	804231		Name	9cf758a06aa3	Renaître des cendres	lot sorts_classes_019
+sort	804275		Description	de02955643e5	Canalise pendant $d, génère 5 |cffcfa6ffFolie|r et régénère $804277s1% de votre mana maximum toutes les $t1 sec$?s524879[,][, mais augmente les dégâts subis de $804277s3%.]	lot sorts_classes_019
+sort	804275		Name	7ddf70986fac	Rassasier	lot sorts_classes_019
+sort	804275		ToolTip	d7ce340d6b1c	Régénération de mana et de Folie.$?s524879[][ Dégâts subis augmentés de $804277s3%.]	lot sorts_classes_019
+sort	804285		Description	92e4c8ef9a52	Augmente de $s1% la menace générée, vous fait générer $/10;804297s2 Rage lorsque vous subissez des dégâts, et votre score de blocage est augmenté de $s3% de votre Force. Réduit les dégâts infligés de $804299s1%.	lot sorts_classes_019
+sort	804285		Name	1556deb513c5	Serment de défi	lot sorts_classes_019
+sort	804285		ToolTip	b259a4304255	Menace générée augmentée de ${$w1}%. Score de blocage augmenté de ${$w3}% de la Force. Dégâts infligés réduits de $804299s1%.\n\nChaque fois que vous subissez des dégâts, vous générez $/10;804297s2 Rage.	lot sorts_classes_019
+sort	804287		Description	a42435797a0b	Vous gagnez désormais une Intelligence égale à votre Force, et vos points de vie maximum augmentent en plus de 10% de votre mana maximum.	lot sorts_classes_019
+sort	804287		Name	e0d784bd6b2c	Garde lunaire	lot sorts_classes_019
+sort	804295		Description	26494cb7f3c0	Permet aux aptitudes de forme de worgen à cible unique de frapper jusqu'à $s1 ennemis en cleave, et augmente de $s2% tous les soins magiques que vous recevez.	lot sorts_classes_019
+sort	804295		Name	8f1a0573d41d	Mère de tanière	lot sorts_classes_019
+sort	804295		ToolTip	a670663e6400	Permet aux aptitudes de forme de worgen à cible unique de frapper jusqu'à ${$w1} ennemis en cleave, et augmente de ${$w2}% tous les soins magiques que vous recevez.	lot sorts_classes_019
+sort	808012		Description	32e1fbc38723	Bénit un allié du pouvoir d'Al'ar et lui rend $s1 points de mana toutes les 5 sec.	lot sorts_classes_019
+sort	808012		Name	4d1b0bf379b9	Sceau d'Al'ar	lot sorts_classes_019
+sort	808012		ToolTip	fdf729aad9a2	Régénération de mana augmentée de ${$W1}.	lot sorts_classes_019

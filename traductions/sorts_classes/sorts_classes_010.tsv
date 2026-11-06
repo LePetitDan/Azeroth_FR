@@ -1,0 +1,233 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	699760		Name	06b1820bd545	Gronnelet feldreau du gladiateur primordial	lot sorts_classes_010
+sort	699761		Name	06b1820bd545	Gronnelet feldreau du gladiateur primordial	lot sorts_classes_010
+sort	699762		Name	06b1820bd545	Gronnelet feldreau du gladiateur primordial	lot sorts_classes_010
+sort	699763		Name	36f85c590681	Gronnelet feldreau du gladiateur sauvage	lot sorts_classes_010
+sort	699764		Name	36f85c590681	Gronnelet feldreau du gladiateur sauvage	lot sorts_classes_010
+sort	699765		Name	36f85c590681	Gronnelet feldreau du gladiateur sauvage	lot sorts_classes_010
+sort	699766		Name	f107b37bbc88	Gronnelet feldreau du gladiateur belliqueux	lot sorts_classes_010
+sort	699767		Name	f107b37bbc88	Gronnelet feldreau du gladiateur belliqueux	lot sorts_classes_010
+sort	699768		Name	f107b37bbc88	Gronnelet feldreau du gladiateur belliqueux	lot sorts_classes_010
+sort	704097		Description	9321f1ac2b4a	Augmente les dégâts d'|cffffffffImpact sismique|r de $s1% et ceux de |cffffffffSéisme|r de $s2%.	lot sorts_classes_010
+sort	704097		Name	1a365dd361b0	Glisseur de terrain	lot sorts_classes_010
+sort	704098		Description	750cade7a51e	Lorsque vous maniez une arme à deux mains, votre puissance d'attaque est augmentée de $s1%, vous générez $/10;s3 points de Rage toutes les $t3 sec et les dégâts que vous infligez avec |cffffffffGriffe sauvage|r sont augmentés de $563262s1%.	lot sorts_classes_010
+sort	704098		Name	069f0e9b2a5d	Arme primordiale : Puissance primordiale	lot sorts_classes_010
+sort	704098		ToolTip	d060b9a1b5f4	Puissance d'attaque augmentée de ${$w1}%. Génère $/10;s3 points de Rage toutes les $t3 sec.\r\n\r\nAugmente les dégâts de |cffffffffGriffe sauvage|r de $563262s1%.	lot sorts_classes_010
+sort	704101		Description	8e4766aba94b	Beuglez avec la puissance d'Ursoc et réduisez de $S1 la puissance d'attaque des ennemis situés à moins de $a1 mètres pendant $d.	lot sorts_classes_010
+sort	704101		Name	5705aeeb67ec	Beuglement d'Ursoc	lot sorts_classes_010
+sort	704101		ToolTip	e26325d60d29	Puissance d'attaque réduite de ${$W1}.	lot sorts_classes_010
+sort	704110		Description	b43260155ddc	Les dégâts infligés par |cffffffffTir de ferraille|r et |cFFFFFFFFLancer de bombe|r aux ennemis affectés par |cffffffffBombe collante|r déclenchent une |cFFFFFFFFExplosion de bombe collante|r.@s:801009:0@\r\n\r\nLes dégâts infligés par |cFFFFFFFFBombe collante|r sont réduits de $s1%.	lot sorts_classes_010
+sort	704110		Name	0b2caec3610e	Maître des explosions	lot sorts_classes_010
+sort	704110		ToolTip	58cdc1118bf8	Votre capacité Bombe collante a désormais un temps de recharge augmenté de ${$w1}% et inflige $704132s1% de dégâts en moins.\n\nLes dégâts de Tir de ferraille contre les ennemis affectés par Bombe collante font exploser la bombe instantanément, sans qu'elle soit consommée.	lot sorts_classes_010
+sort	704137		Description	063fef34e90e	Pendant $d, $s1% de tous les dégâts magiques subis par le chasseur de sorcières sont partagés avec la Bête sorcière.	lot sorts_classes_010
+sort	704137		Name	ba2c8ee0a38e	Garde-malédiction	lot sorts_classes_010
+sort	704137		ToolTip	fed567d2bd19	$s1% des dégâts magiques subis sont redirigés vers la Bête sorcière.	lot sorts_classes_010
+sort	704141		Description	ad274c2ca3b0	Génère instantanément 1 |cffffffffCachet|r correspondant à votre |cffffffffAffinité|r actuelle.\r\n\r\nCette capacité n'interrompt pas |cffffffffVoile runique|r.	lot sorts_classes_010
+sort	704141		Name	995e54916112	Invocation glyphique	lot sorts_classes_010
+sort	704153		Description	b526b8571afd	Affiche sur la mini-carte l'emplacement de tous les humanoïdes proches.	lot sorts_classes_010
+sort	704153		Name	3117f876816e	Odeur de l'homme	lot sorts_classes_010
+sort	704153		ToolTip	9459494d0cdd	Pistage des humanoïdes.	lot sorts_classes_010
+sort	704159		Description	95a3bbf839e6	Lance un bouclier sur un ennemi, qui rebondit sur 2 autres ennemis proches, leur inflige ${$m2+0+$AP*.33} points de dégâts physiques et interrompt leur incantation, empêchant de lancer tout sort de cette école de magie pendant $d.	lot sorts_classes_010
+sort	704159		Name	a3f8ea89a7b1	Bouclier du déni	lot sorts_classes_010
+sort	704201		Description	4ee0768b97a9	|cffffffff3 charges, 35 sec de recharge|r\r\nInvoque un |cFFFFFFFFZéphyr déchaîné|r à l'endroit ciblé pendant $d.\r\n\r\nToutes les $725390t1 sec, il attire à l'intérieur de lui tous les ennemis situés à moins de $704210a1 mètres.	lot sorts_classes_010
+sort	704201		Name	3660d61ccbd8	Zéphyr déchaîné	lot sorts_classes_010
+sort	704201		ToolTip	cbf448fd524e	Au cœur d'un zéphyr déchaîné.	lot sorts_classes_010
+sort	704213		Description	46663f29bcc4	La vitesse de déplacement des ennemis se trouvant dans votre |cffffffffCourant ascendant|r est ralentie de $s1% supplémentaires.	lot sorts_classes_010
+sort	704213		Name	49dc5eb04f10	Vents percutants	lot sorts_classes_010
+sort	704280		Description	a86bfe55ad37	Le Phénix rend ${$m1+($PL-19)*2+$SP*0.75} points de vie à une cible alliée.	lot sorts_classes_010
+sort	704280		Name	37f6174224dc	Baiser d'Al'ar	lot sorts_classes_010
+sort	704280		ToolTip	85a62bc03fa6	Hâte des sorts augmentée de $s2%.	lot sorts_classes_010
+sort	704282		Description	aeb1d8b3021c	Réduit le temps de recharge de |cffffffffGrâce d'Alexstrasza|r de $/1000;s1 sec.	lot sorts_classes_010
+sort	704282		Name	bfa726e839bd	Archonte des flammes	lot sorts_classes_010
+sort	704282		ToolTip	46aa94ef1240	Réduit le temps de recharge de |cffffffffPurge ardente|r de $/1000;s1 sec.	lot sorts_classes_010
+sort	704307		Description	6ab353ab6629	Réduit le temps de recharge de |cffffffffPelage de fer|r de $s1%, mais son coût passe à $/10;S2 points de Rage et son effet de réduction des dégâts est diminué de $s3%.	lot sorts_classes_010
+sort	704307		Name	8315cd10e45f	Furieux	lot sorts_classes_010
+sort	704307		ToolTip	979f34de7bdf	Réduit le temps de recharge de Pelage de fer de ${$w1}%, mais son coût passe à $/10;s2 points de Rage et son effet de réduction des dégâts est diminué de ${$w3}%.	lot sorts_classes_010
+sort	704308		Description	6b829d2c65c9	Réduit le coût en Rage de |cffffffffBalayage de griffes|r de $/10;s2.	lot sorts_classes_010
+sort	704308		Name	8506736c9ac8	Chien de guerre	lot sorts_classes_010
+sort	704308		ToolTip	2c73c17fdb2b	Réduit le coût en Rage de |cffffffffBalayage de griffes|r de $/10;s2.	lot sorts_classes_010
+sort	704313		Description	034f8c3a8710	Vous vous transformez en loup et augmentez votre vitesse de déplacement de $s2%. Dure $d.\n\nL'utilisation de n'importe quelle attaque à distance met fin à cet effet.	lot sorts_classes_010
+sort	704313		Name	d59d76c887c1	Foulée du warg	lot sorts_classes_010
+sort	704313		ToolTip	9bbe9a38ec62	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_classes_010
+sort	704353		Description	617bd3395043	Réduit de $704352s1% tous les dégâts subis par le Phénix pendant $704352d et lui fait laisser derrière lui une traînée de flammes.	lot sorts_classes_010
+sort	704353		Name	b1240c3e0dca	Ouvrir la voie	lot sorts_classes_010
+sort	704353		ToolTip	4957bbe87f2e	Dégâts subis réduits de $s1%. Laisse une traînée de flammes.	lot sorts_classes_010
+sort	704371		Description	2d2818308a13	Handicape un ennemi et ralentit sa vitesse de déplacement et d'incantation de $s1%, effet décroissant pendant $d. 	lot sorts_classes_010
+sort	704371		ToolTip	ef4fa0fcc3b5	Vitesse de déplacement et d'incantation réduites de ${-$W1}%.	lot sorts_classes_010
+sort	704392		Description	5aa7a1f31ecf	Lorsque votre effet |cffffffffRempart de bénédictions|r se termine sans avoir été détruit, un éclat de lumière jaillit dans un rayon de $704391a1 mètres, infligeant ${$704391m1+0+$sph*0.145} points de dégâts du Sacré à $704391i ennemis et rendant ${$704391m2+0+$sph*0.145} points de vie aux alliés présents dans la zone.	lot sorts_classes_010
+sort	704392		Name	f64fe8257109	Rempart explosif	lot sorts_classes_010
+sort	704392		ToolTip	75a931b5eead	Lorsque votre effet |cffffffffRempart de bénédictions|r se termine sans avoir été détruit, un éclat de lumière jaillit dans un rayon de $704391a1 mètres, infligeant ${$704391m1+$ppl1+$SP*0.145} points de dégâts du Sacré aux ennemis et rendant ${$704391m2+$ppl2+$SP*0.145} points de vie aux alliés présents dans la zone.	lot sorts_classes_010
+sort	704400		Description	fb4c1990142b	Supprime le coût en Rage de Peau volcanique et augmente ses dégâts de $s2%.	lot sorts_classes_010
+sort	704400		Name	54769e96ab9c	Carapace de magma	lot sorts_classes_010
+sort	704400		ToolTip	d4457a1b035d	Supprime le coût en Rage de Peau volcanique et augmente ses dégâts de ${$w2}%.	lot sorts_classes_010
+sort	704401		Description	1c7d89e73179	|cffffffffPeau volcanique|r réduit de $s1% les dégâts de Feu et de Nature subis tant qu'elle est active.	lot sorts_classes_010
+sort	704401		Name	8ef78891c591	Lavomancie	lot sorts_classes_010
+sort	704401		ToolTip	e25486ce1ede	|cffffffffPeau volcanique|r réduit de ${$w1}% les dégâts de Feu et de Nature subis tant qu'elle est active.	lot sorts_classes_010
+sort	704407		Description	e2353fa2698d	Invoque $s1 Images miroir pour semer la confusion chez les ennemis pendant $d maximum.\n\nTant qu'elle se trouve à moins de $704409a1 mètres de vous, chaque Image miroir réduit de $704409s1% les chances que les attaques et les sorts vous touchent.	lot sorts_classes_010
+sort	704407		Name	c503a8e08f57	Image miroir	lot sorts_classes_010
+sort	704415		Description	e8be4f347c0d	Votre |cffffffffBélier|r fait désormais saigner jusqu'à $524964i ennemis situés devant vous dans un cône de $520148a1 mètres, leur infligeant ${($524964d*1000/$524964t1)*($524964m1+$524964ppl1+$AP*0.07)} points de dégâts physiques supplémentaires en $524964d .	lot sorts_classes_010
+sort	704415		Name	cd389e5a0493	Cogneur de foule	lot sorts_classes_010
+sort	704425		Description	046841e4eebd	|cffffffffDévoration de malédiction|r dissipe désormais un effet magique bénéfique d'un ennemi.	lot sorts_classes_010
+sort	704425		Name	b801f94732e6	Dévoration d'essence	lot sorts_classes_010
+sort	704425		ToolTip	895d9e39b37c	Votre capacité Dévoration de malédiction tente désormais de dissiper un effet magique bénéfique d'un ennemi.	lot sorts_classes_010
+sort	704429		Name	87ab1c21101c	Perforation des résistances	lot sorts_classes_010
+sort	704433		Name	91edf4127c01	Protection persistante	lot sorts_classes_010
+sort	704441		Description	645e849cae8d	Donne au robot une chance de cracher des flammes sur les ennemis dans un cône chaque fois qu'il inflige un coup critique, causant $704442s1 points de dégâts de Feu supplémentaires, plus $704442o2 en $704442d. Évolue avec la puissance d'attaque et la puissance des sorts du bricoleur.	lot sorts_classes_010
+sort	704441		Name	512d17466718	Amélioration de combat : jets de flammes	lot sorts_classes_010
+sort	704441		Rank	9878829d334b	Amélioration de combat	lot sorts_classes_010
+sort	704441		ToolTip	1e5516845c73	Donne au robot une chance de cracher des flammes sur les ennemis dans un cône chaque fois qu'il inflige un coup critique, causant $704442s1 points de dégâts de Feu supplémentaires, plus $704442o2 en $704442d.	lot sorts_classes_010
+sort	704443		Description	412661ef51ab	Les capacités uniques du robot ont un temps de recharge réduit de $s3% mais infligent $s2% de dégâts en moins.	lot sorts_classes_010
+sort	704443		Name	4c4b420b0f53	Amélioration de combat : ressorts hydrauliques	lot sorts_classes_010
+sort	704443		Rank	9878829d334b	Amélioration de combat	lot sorts_classes_010
+sort	704443		ToolTip	b5815c14a1df	Les capacités uniques du robot ont un temps de recharge réduit de ${$w3}% mais infligent ${$w2}% de dégâts en moins.	lot sorts_classes_010
+sort	704445		Description	cb423da227bd	Améliore le châssis de votre Chevalier mécanique, qui gagne $s1% de hâte supplémentaire, mais le temps de recharge de ses capacités augmente de $s3%.	lot sorts_classes_010
+sort	704445		Name	4f19410711a8	Amélioration de châssis : mithril	lot sorts_classes_010
+sort	704445		Rank	186500e568ae	Amélioration de châssis	lot sorts_classes_010
+sort	704445		ToolTip	64625ae7fcdf	Améliore le châssis de votre Chevalier mécanique, qui gagne ${$w1}% de hâte supplémentaire, mais le temps de recharge de ses capacités augmente de ${$w3}%.	lot sorts_classes_010
+sort	704446		Description	58003c1b4e09	La vitesse de déplacement du robot est augmentée de $s2% et ses chances de coup critique de $s1%.	lot sorts_classes_010
+sort	704446		Name	b4aac57efbc6	Amélioration de châssis : vrai-argent	lot sorts_classes_010
+sort	704446		Rank	186500e568ae	Amélioration de châssis	lot sorts_classes_010
+sort	704446		ToolTip	77b912c1a848	La vitesse de déplacement du robot est augmentée de ${$w2}% et ses chances de coup critique de ${$w1}%.	lot sorts_classes_010
+sort	704447		Description	539ebb51442f	Les capacités uniques du robot peuvent désormais frapper un ennemi supplémentaire et leur temps de recharge est réduit de $s2%.	lot sorts_classes_010
+sort	704447		Name	4d846cbba04f	Amélioration de châssis : titacier	lot sorts_classes_010
+sort	704447		Rank	186500e568ae	Amélioration de châssis	lot sorts_classes_010
+sort	704447		ToolTip	22f3f0b95455	Les capacités uniques du robot peuvent désormais frapper un ennemi supplémentaire et leur temps de recharge est réduit de ${$w2}%, mais il inflige ${$w1}% de dégâts en moins.	lot sorts_classes_010
+sort	704448		Description	3c6e72f09dcc	Les capacités offensives de votre invocation ont désormais $572107h% de chances d'augmenter leur hâte de $582757s1% pendant $582757d et de frapper les ennemis de la foudre, infligeant ${$300971m1+$300971ppl1} points de dégâts de Nature.	lot sorts_classes_010
+sort	704448		Name	53d190cbb04d	Facteur de choc	lot sorts_classes_010
+sort	704450		Description	c95bc17ed136	Réduit de $/1000;s3 sec le temps de recharge de |cffffffffCoup d'Arclight|r du robot et augmente ses points de vie maximum de $s2%, mais réduit de $s1% tous les dégâts magiques qu'il inflige.	lot sorts_classes_010
+sort	704450		Name	f52d2e6f52e2	Amélioration de noyau : noyau de guerre	lot sorts_classes_010
+sort	704450		Rank	dee6d1428a43	Amélioration de noyau	lot sorts_classes_010
+sort	704450		ToolTip	ea2e772b605a	Réduit de $/1000;s3 sec le temps de recharge de Coup de piston du robot et augmente ses points de vie maximum de ${$w2}%, mais réduit de ${$w1}% tous les dégâts magiques qu'il inflige.	lot sorts_classes_010
+sort	704465		Name	2d3141877a3e	Pièces détachées	lot sorts_classes_010
+sort	704472		Description	31c46ab818b7	Vous commencez à prophétiser le malheur, ce qui vous immobilise sur place et vous empêche d'attaquer ou de lancer des sorts ordinaires, mais vous confère une multitude de nouvelles capacités de |cffffffffProphète|r. Dure $d.\r\n\r\nTant qu'elle est active, vous générez 5 points de |cffcfa6ffFolie|r toutes les $t2 sec.\r\n\r\nImpossible à utiliser avec |cffffffffServiteur de Yogg-Saron|r.	lot sorts_classes_010
+sort	704472		Name	0364d75fb08e	Prophète du malheur	lot sorts_classes_010
+sort	704472		ToolTip	744298974765	Déverse folie et désespoir !	lot sorts_classes_010
+sort	704477		Name	795c870272a2	Héraut de l'Empire noir	lot sorts_classes_010
+sort	704479		Description	dc3c1c197bb5	Vos attaques à la baguette réduisent désormais l'armure de l'ennemi de $804447s1% pendant $804447d.	lot sorts_classes_010
+sort	704479		Name	ff9d70fa3923	Création de rouille	lot sorts_classes_010
+sort	704483		Description	90b95794563e	Vous donne la possibilité d'utiliser les |cffffffffChronobuffs de l'artificier|r.\r\n\r\nUn seul effet peut être actif à la fois. Ces capacités évoluent en fonction de votre Esprit.\n@s:804420:0@@s:804421:0@@s:804422:0@@s:804431:0@	lot sorts_classes_010
+sort	704483		Name	c065b28aba5e	Amplification de l'artificier	lot sorts_classes_010
+sort	704492		Name	504f37b3f837	Éclats chromatiques	lot sorts_classes_010
+sort	704501		Description	798d47e9c61d	Les dégâts infligés ont désormais $h% de chances de déclencher une |cffffffffMarionnette d'ombre|r sur un ennemi, lui infligeant ${$m1+0+$sps*.195} points de dégâts d'Ombre.	lot sorts_classes_010
+sort	704501		Name	38b2021baf07	Vaudou rampant	lot sorts_classes_010
+sort	704501		ToolTip	5e481c64877f	Les dégâts de Nature infligés ont désormais $h% de chances de déclencher une |cffffffffMarionnette d'ombre|r sur un ennemi, lui infligeant ${$m1+$ppl1+$SP*.195} points de dégâts d'Ombre.	lot sorts_classes_010
+sort	704532		Description	bd5f292140fa	Canalise jusqu'à $d et inflige les dégâts de l'arme plus ${$520636m2+$520636ppl2+$AP*.5} points de dégâts physiques aux ennemis devant vous toutes les $t2 sec.\n\nÀ la fin, augmente la puissance d'attaque des membres du groupe de ${$m3+$SPI*0.245} ou leur puissance des sorts de ${$704540m2+$SPI*0.315} pendant 22 sec maximum, selon la durée de la canalisation. Évolue avec l'Esprit.	lot sorts_classes_010
+sort	704532		ToolTip	91cea09663b2	Les tambours de guerre résonnent à nouveau.$?s704539[\nEfficacité des Ballades augmentée de $560515s1%.][]	lot sorts_classes_010
+sort	704544		Description	03fb1e2eb2d1	|cffffffffAssaut|r réduit désormais de $800090s1% les soins reçus par la cible pendant $800090d, cumulable $800090u fois.	lot sorts_classes_010
+sort	704544		Name	37bbf42ff820	Poison atroce	lot sorts_classes_010
+sort	704547		Description	51d009c2a2f0	Votre |cffffffffRuée de la faux|r peut désormais être utilisée sur la même cible une fois toutes les 20 sec.	lot sorts_classes_010
+sort	704547		Name	67f286c9c538	Coureur d'âmes	lot sorts_classes_010
+sort	704573		Name	a10113392569	Chakram	lot sorts_classes_010
+sort	704573		Rank	68206a199885	Briseur de combo	lot sorts_classes_010
+sort	704591		Description	509f110a39a3	|cffffffffAvancée tourbillonnante|r étourdit désormais les ennemis affectés pendant $805345d. \r\n\r\nNe peut se produire qu'une fois toutes les $805127d.	lot sorts_classes_010
+sort	704591		Name	508ff928a5aa	Mastodonte	lot sorts_classes_010
+sort	704591		ToolTip	9ddc1be24ffb	|cffffffffAvancée tourbillonnante|r étourdit les ennemis affectés pendant $805345d. \n\nNe peut se produire qu'une fois toutes les $805127d.	lot sorts_classes_010
+sort	704592		Description	0c2aa7d14bad	Augmente de $/1000;s2 sec la durée de votre |cffffffffCri de guerre|r et son efficacité de $s3%, et accorde désormais aux alliés affectés $s1 points d'Énergie toutes les $500995t3 sec.	lot sorts_classes_010
+sort	704592		Name	febbbb7f832a	Frères de sang	lot sorts_classes_010
+sort	704592		ToolTip	21561856af04	Augmente de $/1000;s2 sec la durée de |cffffffffCri de guerre|r et son efficacité de ${$w3}%, et accorde désormais aux alliés affectés ${$w1} points d'Énergie toutes les $500995t3 sec.	lot sorts_classes_010
+sort	704608		Description	3511f46681c6	Réduit de $/1000;S1 sec le temps de recharge de vos |cffffffffMurmures de l'abîme|r.	lot sorts_classes_010
+sort	704608		Name	c8888756f887	Cris éternels	lot sorts_classes_010
+sort	704608		ToolTip	5a6846045a5c	Réduit de $/1000;s1 sec le temps de recharge d'Aura d'immolation.	lot sorts_classes_010
+sort	704609		Name	32585ab2167c	Résolution offensive	lot sorts_classes_010
+sort	704620		Description	ca11f0dfbe2a	Augmente de $s1% le bonus de dégâts des charges de |cffffffffSoif|r.	lot sorts_classes_010
+sort	704620		Name	1b665f2be323	Moisson	lot sorts_classes_010
+sort	704620		ToolTip	4fc847862e76	Augmente de ${$w1}% le bonus de dégâts ou de soins des charges de |cffffffffSoif|r.	lot sorts_classes_010
+sort	704622		Description	df6609c96892	Supprime le temps de recharge de votre sort |cffffffffLiturgie ténébreuse|r.	lot sorts_classes_010
+sort	704622		Name	4f24abe1994f	Hymne cramoisi	lot sorts_classes_010
+sort	704622		ToolTip	20c0d28dcfc6	Supprime le temps de recharge de votre sort Liturgie ténébreuse.	lot sorts_classes_010
+sort	704631		Name	3f056fd6a280	Puissance spectrale	lot sorts_classes_010
+sort	704637		Description	12f104e6bfc9	Lorsque la |cffffffffComplainte des Ténébrants|r prend fin, vous rend $681029s1% de vos points de vie maximum.	lot sorts_classes_010
+sort	704637		Name	f24fc95e910d	Égide aortique	lot sorts_classes_010
+sort	704639		Description	047f87858c3c	Vos dégâts directs infligés ont $h% de chances d'augmenter de $800988s1% les chances qu'un ennemi subisse un coup critique pendant $800988d.	lot sorts_classes_010
+sort	704639		Name	eebd809052c1	Sang persistant	lot sorts_classes_010
+sort	704640		Name	cae88eb709b2	Tourment lancinant	lot sorts_classes_010
+sort	704645		Name	b271b129f1e4	Impact féroce	lot sorts_classes_010
+sort	704650		Description	a615e7b7d94a	Augmente de $s1% vos soins prodigués et de $s2% les dégâts et les soins de votre |cffffffffRupture sanguine|r.	lot sorts_classes_010
+sort	704650		Name	ad6da007f6d5	Fou de sang	lot sorts_classes_010
+sort	704650		ToolTip	673cfe1e5b2b	Augmente de ${$w1}% vos soins reçus et de ${$w3}% les dégâts et les soins de |cffffffffRupture sanguine|r.	lot sorts_classes_010
+sort	704651		Name	223a3120d5aa	Magie sinistre	lot sorts_classes_010
+sort	704656		Description	28f23cbcc941	Augmente de $s1% les dégâts physiques infligés aux ennemis affectés par |cffffffffSoif de Goldrinn|r.	lot sorts_classes_010
+sort	704656		Name	063772891d82	Chasse	lot sorts_classes_010
+sort	704664		Name	dda4952140fe	Frénésie du chasseur	lot sorts_classes_010
+sort	704665		Description	1ca3e88c9729	Vos effets de dégâts périodiques peuvent désormais infliger des coups critiques et vous apprennent |cffffffffOdeur de l'homme|r.@s:704153:0@	lot sorts_classes_010
+sort	704665		Name	ade66e2e8f6b	Traqueur de sang	lot sorts_classes_010
+sort	704665		ToolTip	1ca3e88c9729	Vos effets de dégâts périodiques peuvent désormais infliger des coups critiques et vous apprennent |cffffffffOdeur de l'homme|r.@s:704153:0@	lot sorts_classes_010
+sort	704668		Description	ddf57af03251	|cffffffffDéflagration de lune de sang|r frappe désormais deux fois, mais ses dégâts et la Rage générée sont réduits de $s2%	lot sorts_classes_010
+sort	704668		Name	61d9a666b8b5	Crocs perforants	lot sorts_classes_010
+sort	704668		ToolTip	92e249b49348	Augmente de ${$w1}% la cadence des impulsions de |cffffffffSoif de Goldrinn|r.	lot sorts_classes_010
+sort	704671		Description	9a504bcabed1	|cffffffffTrancheglace|r accorde désormais aux alliés affectés $s1% de dégâts de Givre supplémentaires.	lot sorts_classes_010
+sort	704671		ToolTip	ff35eadf4b15	|cffffffffTrancheglace|r accorde désormais aux alliés affectés ${$w1}% d'armure supplémentaire et ${$w2}% de dégâts de Givre supplémentaires.	lot sorts_classes_010
+sort	704672		Description	687159bd0335	Votre |cFFFFFFFFTremblement de glace|r inflige désormais $s1% de dégâts supplémentaires pour chaque cible touchée.	lot sorts_classes_010
+sort	704672		Name	889c16c3ad04	Éclats fracturés	lot sorts_classes_010
+sort	704677		Description	70bcd7f393dd	Fait en sorte que |cffffffffLa Couronne de glace|r augmente de $s1% les chances de coup critique des sorts de Givre contre la cible.	lot sorts_classes_010
+sort	704677		Name	12a42b8f6794	Entrave glaciale	lot sorts_classes_010
+sort	704677		ToolTip	6e48378071ab	Fait en sorte que |cffffffffLa Couronne de glace|r augmente de ${$w1}% les chances de coup critique des sorts de Givre lancés contre sa cible.	lot sorts_classes_010
+sort	704678		Name	f7237f828652	Réfrigérer	lot sorts_classes_010
+sort	704683		Description	b2f56efa106c	Les dégâts infligés avec |cffffffffChair aux vers|r génèrent désormais $/10;804272s2 points de Puissance runique.\r\n	lot sorts_classes_010
+sort	704683		ToolTip	b2f56efa106c	Les dégâts infligés avec |cffffffffChair aux vers|r génèrent désormais $/10;804272s2 points de Puissance runique.\r\n	lot sorts_classes_010
+sort	704684		Description	f2853941c825	|cffffffffSacrifier les morts-vivants|r vous rend désormais $s1% de vos points de vie maximum pour chaque serviteur mort-vivant détruit, mais son temps de recharge est désormais de 45 sec.	lot sorts_classes_010
+sort	704684		Name	a9898d5dba47	Sacrifier les morts-vivants	lot sorts_classes_010
+sort	704684		ToolTip	98d1f2ca38e8	|cffffffffSacrifier les morts-vivants|r vous rend désormais ${$w1}% de vos points de vie maximum pour chaque serviteur mort-vivant détruit, mais son temps de recharge est désormais de 45 sec.	lot sorts_classes_010
+sort	704685		Description	2ad4b02d2c90	Lorsque |cffffffffFlétrisseuse|r prend fin, les ennemis présents dans la zone sont immobilisés pendant $806094d.$?s500117[\r\n\r\n|cffffffffRayon de Rot|r inflige $806094s3% de dégâts supplémentaires aux cibles immobilisées par |cffffffffFlétrisseuse|r.][]	lot sorts_classes_010
+sort	704685		Name	8777561acd7d	Flétrissure persistante	lot sorts_classes_010
+sort	704685		ToolTip	355c6956b327	Fait en sorte que |cffffffffFlétrisseuse|r immobilise les ennemis affectés pendant $806094d à la fin de son effet$?s500117[, et que |cffffffffRayon de Rot|r inflige $806094s3% de dégâts supplémentaires aux cibles ainsi immobilisées.][]	lot sorts_classes_010
+sort	704686		Description	4c42e2d967ce	Augmente le score de toucher des sorts de $s1% de votre Esprit et le score de coup critique des sorts de $s2% de votre Esprit.	lot sorts_classes_010
+sort	704686		Name	f036e27c5abe	Enseignements de Lana'thel	lot sorts_classes_010
+sort	704686		ToolTip	e4da28d4fc5a	Réduit de ${$w1}% le coût en points de vie de |cffffffffAngoisse d'Atherann|r et de |cffffffffCalamité de Keleseth|r.	lot sorts_classes_010
+sort	704689		Name	03604ecec84e	Éclats de glaçon	lot sorts_classes_010
+sort	704691		Description	ae0d4df4a2b9	Permet à vos effets de dégâts périodiques d'infliger des coups critiques.	lot sorts_classes_010
+sort	704691		Name	16934e9e38ff	Blessures mortelles	lot sorts_classes_010
+sort	704691		ToolTip	a114e2d677b8	Permet aux impulsions de vos effets de dégâts périodiques d'infliger des coups critiques..	lot sorts_classes_010
+sort	704693		Description	ecc2deb700f3	Augmente de $s1% la durée de vos effets de dégâts périodiques.	lot sorts_classes_010
+sort	704693		Name	b015e20517c3	Dégâts permanents	lot sorts_classes_010
+sort	704693		ToolTip	e641b7e896f3	Augmente de ${$w1}% la durée de vos effets de dégâts périodiques.	lot sorts_classes_010
+sort	704694		Description	0344ed2771e0	Réduit de $s1% le temps d'incantation des sorts |cffffffffRéanimation|r et |cffffffffAnimation|r.	lot sorts_classes_010
+sort	704694		Name	78252c7ee411	Manipulation des cadavres	lot sorts_classes_010
+sort	704694		ToolTip	b5173bfdf997	Réduit de ${$w1}% le temps d'incantation des sorts Réanimation et Animation.	lot sorts_classes_010
+sort	704695		Description	c4109a72ae5f	Réduit de $s1% les dégâts subis par vos serviteurs morts-vivants.	lot sorts_classes_010
+sort	704695		Name	d707e4cb1c64	Plaques d'os	lot sorts_classes_010
+sort	704695		Rank	ae362087abd1	Talent	lot sorts_classes_010
+sort	704696		Name	6abebb88a293	Incantation rituelle	lot sorts_classes_010
+sort	704697		Description	b47e77a5c265	L'explosion des |cffffffffPourrissants|r renforce tous les morts-vivants proches pendant $/1000;801210s2 sec, augmentant leurs dégâts de $500334s1% et leur vitesse de déplacement de $500334s2%. \nCumulable $500334u fois.	lot sorts_classes_010
+sort	704697		Name	4cf405f9d85c	Tripes	lot sorts_classes_010
+sort	704697		ToolTip	443d5477ba10	Lorsque vos Pourrissants explosent, ils renforcent désormais tous les morts-vivants proches pendant $/1000;801210s2 sec, augmentant leurs dégâts de $500334s1% et leur vitesse de déplacement de $500334s2%.	lot sorts_classes_010
+sort	704698		Description	7862ee5af89d	Les dégâts périodiques ont désormais $h% de chances d'animer un |cffffffffZombie mineur|r qui vous aide au combat pendant $302586d. \r\n\r\nNe peut se produire qu'une fois toutes les 2 sec.	lot sorts_classes_010
+sort	704698		Name	eed9c57d4c75	Gardien des tombes	lot sorts_classes_010
+sort	704700		Description	7d08085d4d05	Le temps de recharge de |cffffffffCommandement : guerriers squelettes|r est réduit de $/1000;s1 sec et le sort applique désormais |cffffffffDébordé|r.@s:500337:0@	lot sorts_classes_010
+sort	704700		Name	f4bab8ce7572	Maîtrise du guerrier squelette	lot sorts_classes_010
+sort	704704		Name	a9e60223baa9	Sang de fange	lot sorts_classes_010
+sort	704705		Description	672067d6e191	Tant que votre |cffffffffBouclier fétide|r est actif, les dégâts de mêlée ou à distance ont désormais $h% de chances d'infliger |cffffffffBile abjecte|r à l'attaquant.@s:704706:0@	lot sorts_classes_010
+sort	704705		Name	44c365b68e27	Bile abjecte	lot sorts_classes_010
+sort	704707		Description	89abd5bd903d	La vitesse de déplacement des ennemis situés à moins de $a1 mètres de vous est désormais ralentie de $s1%.	lot sorts_classes_010
+sort	704707		Name	af0e08d51588	Aura pestilentielle	lot sorts_classes_010
+sort	704707		ToolTip	e37421e2b82e	Vitesse de déplacement des ennemis proches du nécromancien ralentie de ${$w1}%.	lot sorts_classes_010
+sort	704708		Name	72dff9500a77	Pâture à vers	lot sorts_classes_010
+sort	704711		Description	b9b4a1638ce0	Permet à |cffffffffRayon de Rot|r d'affecter jusqu'à $s1 ennemis.	lot sorts_classes_010
+sort	704711		Name	54268500a6d0	Lance-pourriture	lot sorts_classes_010
+sort	704711		ToolTip	0e0b882cb2b5	Permet à |cffffffffRayon de Rot|r d'affecter jusqu'à ${$w1} ennemis.	lot sorts_classes_010
+sort	704712		Description	0030068ad01c	|cffffffffRayon de Rot|r vous rend désormais un nombre de points de vie égal aux dégâts infligés.	lot sorts_classes_010
+sort	704712		Name	e718cd0863e5	Buveur de peste	lot sorts_classes_010
+sort	704712		ToolTip	4b8b1a979d34	|cffffffffRayon de Rot|r vous rend un nombre de points de vie égal aux dégâts infligés.	lot sorts_classes_010
+sort	704714		Description	22456266e3f7	Les charges de |cffffffffNécrose|r réduisent désormais aussi de $s1% les soins reçus par la cible.	lot sorts_classes_010
+sort	704714		Name	ee95025295c5	Gangrène	lot sorts_classes_010
+sort	704714		ToolTip	05aa207ceb32	Fait en sorte que les charges de |cffffffffNécrose|r réduisent aussi de ${$w1}% les soins reçus par la cible.	lot sorts_classes_010
+sort	704720		Description	f5e18a43f2b0	Lancer |cffffffffEssaim de la crypte|r augmente désormais de $806588s1% les dégâts de vos serviteurs pendant $806588d.	lot sorts_classes_010
+sort	704720		Name	207746482146	Fureur de la crypte	lot sorts_classes_010
+sort	704727		Description	d541fc8b93b4	Infliger des dégâts avec |cFFFFFFFFEssaim de la crypte|r a désormais $h% de chances de réduire de $572805s1% le coût de |cFFFFFFFFOrdre : gargouille|r pendant $572805d.	lot sorts_classes_010
+sort	704727		Name	e66d9b679635	Souillure	lot sorts_classes_010
+sort	704728		Description	2c0c2343c68a	Réduit de $s1% le temps d'incantation des sorts |cffffffffAnimation|r et |cffffffffRéanimation|r.	lot sorts_classes_010
+sort	704728		Name	98a28c2c3c39	Pierre d'invocation	lot sorts_classes_010
+sort	704728		ToolTip	33ed1de90382	Réduit de ${$w1}% le temps d'incantation de vos sorts |cffffffffAnimation|r et |cffffffffRéanimation|r.	lot sorts_classes_010
+sort	707732		Description	8e4766aba94b	Beuglez avec la puissance d'Ursoc et réduisez de $S1 la puissance d'attaque des ennemis situés à moins de $a1 mètres pendant $d.	lot sorts_classes_010
+sort	707732		Name	5705aeeb67ec	Beuglement d'Ursoc	lot sorts_classes_010
+sort	707732		ToolTip	e26325d60d29	Puissance d'attaque réduite de ${$W1}.	lot sorts_classes_010
+sort	707733		Description	8e4766aba94b	Beuglez avec la puissance d'Ursoc et réduisez de $S1 la puissance d'attaque des ennemis situés à moins de $a1 mètres pendant $d.	lot sorts_classes_010
+sort	707733		Name	5705aeeb67ec	Beuglement d'Ursoc	lot sorts_classes_010
+sort	707733		ToolTip	e26325d60d29	Puissance d'attaque réduite de ${$W1}.	lot sorts_classes_010
+sort	707734		Description	8e4766aba94b	Beuglez avec la puissance d'Ursoc et réduisez de $S1 la puissance d'attaque des ennemis situés à moins de $a1 mètres pendant $d.	lot sorts_classes_010
+sort	707734		Name	5705aeeb67ec	Beuglement d'Ursoc	lot sorts_classes_010
+sort	707734		ToolTip	e26325d60d29	Puissance d'attaque réduite de ${$W1}.	lot sorts_classes_010
+sort	707735		Description	8e4766aba94b	Beuglez avec la puissance d'Ursoc et réduisez de $S1 la puissance d'attaque des ennemis situés à moins de $a1 mètres pendant $d.	lot sorts_classes_010
+sort	707735		Name	5705aeeb67ec	Beuglement d'Ursoc	lot sorts_classes_010
+sort	707735		ToolTip	e26325d60d29	Puissance d'attaque réduite de ${$W1}.	lot sorts_classes_010
+sort	801139		ToolTip	9bbe9a38ec62	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_classes_010

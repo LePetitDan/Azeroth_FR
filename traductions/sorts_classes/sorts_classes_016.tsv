@@ -1,0 +1,134 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	800950		Description	0c123eb00116	Vous sélectionnez un ennemi pour un |cFFFFFFFFCombat à mort|r : vous êtes tous deux bannis, de sorte que vous ne pouvez voir que l'autre, et chacun a une valeur d'Armure effective de 0$?s520137[ et l'ennemi subit $520137s1% de dégâts physiques supplémentaires][] pendant $d.	lot sorts_classes_016
+sort	800950		Name	3106aa56d6c5	Combat à mort	lot sorts_classes_016
+sort	800950		ToolTip	ceb67142faa9	Armure réduite à 0.	lot sorts_classes_016
+sort	800978		Description	321abeba101a	Génère 1 |cffc7c7c7Ferraille|r toutes les $t1 sec.	lot sorts_classes_016
+sort	800978		Name	a8bab21fe2e7	Usine de ferraille	lot sorts_classes_016
+sort	800978		ToolTip	321abeba101a	Génère 1 |cffc7c7c7Ferraille|r toutes les $t1 sec.	lot sorts_classes_016
+sort	800995		Description	ac34e8826784	Interrompt l'incantation de votre cible et l'empêche de lancer tout sort de cette école pendant $d.	lot sorts_classes_016
+sort	800995		Name	ce6599782994	Verrou tellurique	lot sorts_classes_016
+sort	801001		Description	4227cda21381	Réduit les dégâts subis de $801060s1%. Dure $/1000;704195s2 sec pour chaque charge consommée.\r\n\r\nTant que le bouclier tient, les ennemis qui vous frappent subissent des dégâts de Feu, proportionnels à chaque charge de |cffff9933Feu démoniaque|r consommée.	lot sorts_classes_016
+sort	801001		Name	301dccbc9d92	Bouclier infernal	lot sorts_classes_016
+sort	801001		ToolTip	b4c87ecb22ba	Absorbe jusqu'à ${$w1} points de dégâts. Les attaquants en mêlée subissent ${$w2} points de dégâts de Feu quand ils vous attaquent.	lot sorts_classes_016
+sort	801002		Description	59f5c14ebf1b	Pousse un hurlement terrifiant et déchaîne votre |cffffffffPestilence|r active$?s704961[ et celle de votre |cffffffffGrand diablotin|r][] sur les ennemis proches pour déclencher un puissant effet.	lot sorts_classes_016
+sort	801002		Name	90cea3c6b836	Déchaînement : Pestilence	lot sorts_classes_016
+sort	801036		Description	b31262ba0871	Réduit de $s1% les dégâts de Feu que vous subissez.	lot sorts_classes_016
+sort	801036		Name	e00bfc657106	Inspiration agonisante	lot sorts_classes_016
+sort	801040		Description	c2bcc6bb61af	Inflige les dégâts de l'arme plus $s2 points de dégâts physiques à un ennemi, en fonction de sa santé manquante.\r\n\r\nGénère 2 charges de |cffff9933Feu démoniaque|r.	lot sorts_classes_016
+sort	801040		Rank	bb2d06e28ceb	DÉSACTIVÉ	lot sorts_classes_016
+sort	801042		Description	f945570403a8	Consomme le cadavre ciblé, générant 20 points de Rage, puis vous rend, ainsi qu'à vos invocations, $s2% des points de vie maximum toutes les $t2 sec pendant $d.\r\n\nUn cadavre écorché ne peut plus l'être. \r\n\r\nNe peut pas être utilisé en combat. Utilisable uniquement sur les humanoïdes, les bêtes et les démons.	lot sorts_classes_016
+sort	801042		Name	5cfa6c264d10	Écorcher le cadavre	lot sorts_classes_016
+sort	801042		ToolTip	0e076422ada1	Rend ${$w2}% de vos points de vie maximum toutes les $t2 sec.	lot sorts_classes_016
+sort	801053		Description	ff29fd0cd7d1	Émane une pestilence qui ralentit de $801071s1% la vitesse d'incantation de tous les ennemis à moins de $801071a1 mètres.$?s801002[\n\n|cffffffffDéchaînement|r : interrompt toutes les incantations ennemies à moins de $802857a2 mètres et empêche tout sort de cette école de magie d'être lancé pendant $802857d.][]	lot sorts_classes_016
+sort	801053		Name	506f019e5f23	Pestilence de la conquête	lot sorts_classes_016
+sort	801053		ToolTip	c88183311553	Émane une pestilence qui ralentit de $801071s1% la vitesse d'incantation de tous les ennemis à moins de $801071a1 mètres.	lot sorts_classes_016
+sort	801067		Name	91ae1f7a7f0e	Emprisonnement	lot sorts_classes_016
+sort	801067		ToolTip	bac7df1921ef	Banni.	lot sorts_classes_016
+sort	801069		Name	25ad7d7bb321	Carquois d'escarmoucheur	lot sorts_classes_016
+sort	801069		ToolTip	696597f548a3	Augmente vos dégâts physiques de ${$w1}%. Dégâts critiques augmentés de ${$w2}%.	lot sorts_classes_016
+sort	801075		Description	d90b6486bb52	Enseigne |cffffffffEtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076:0@	lot sorts_classes_016
+sort	801075		Name	b37daaad6927	Vampirisme	lot sorts_classes_016
+sort	801075		ToolTip	3e89e2901ca9	Vous enseigne |cffffffffEtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076@	lot sorts_classes_016
+sort	801081		Description	3d1894db9bbe	Lance un javelot qui inflige $s1 points de dégâts physiques à un ennemi et le fait saigner pour $s2 points de dégâts supplémentaires toutes les $t2 sec pendant $d. Cumulable 3 fois.\r\n\r\nLes dégâts directs sont augmentés de $801700s2% pour chaque charge d'|cff8fff7aAvantage|r.	lot sorts_classes_016
+sort	801081		ToolTip	aa01aede3996	Saigne pour ${$w2} points de dégâts toutes les $t2 sec.	lot sorts_classes_016
+sort	801084		Description	303c0694b8c6	Porte 8 frappes rapides à une cible ennemie en $d, chacune infligeant les dégâts de l'arme sous forme de dégâts des Arcanes, plus $801079s1.	lot sorts_classes_016
+sort	801084		Name	ce2a0a60abcf	Lames-sorts	lot sorts_classes_016
+sort	801091		Description	73d484d2ec60	Inflige des |cff01cdfedégâts de Givre|r à tous les ennemis proches et ralentit leur |cffff8100vitesse de déplacement|r de $801090s2% pendant $801090d.\n\nGénère 1 Essence de Givre.	lot sorts_classes_016
+sort	801091		Name	c29eb5e4ebab	Frimas	lot sorts_classes_016
+sort	801092		Description	37ccb8c18279	Alterne en permanence entre les |cffffffffTatouages runiques|r de Feu, de Givre et des Arcanes, qui augmentent chacun votre puissance de manière différente et modifient le type de dégâts des sorts d'|CffffffffÉclat élémentaire|r.\r\n\r\nFeu : augmente la hâte de $801106s1%.\r\n\r\nGivre : augmente les chances de coup critique de $801107s1%.\r\n\r\nArcanes : augmente les dégâts des sorts de $801094s1%.	lot sorts_classes_016
+sort	801092		Name	d4612c53ce82	Sorcellerie	lot sorts_classes_016
+sort	801092		ToolTip	44f3a2d408d0	Vous alternez en permanence entre les accords de Feu, de Givre et des Arcanes, qui modifient le type de dégâts de |cFFFFFFFFTir-sort|r.	lot sorts_classes_016
+sort	801125		Description	4dacc9a4eb01	Dévaste un ennemi, infligeant $s2% des dégâts de l'arme plus ${$m1+0+$INT*1} points de dégâts des Arcanes et régénérant 15% du mana manquant.	lot sorts_classes_016
+sort	801125		Name	89ad717f4422	Lame lunaire	lot sorts_classes_016
+sort	801125		ToolTip	1b42b6e0bf7c	Armure et résistance à la magie réduites.	lot sorts_classes_016
+sort	801127		Description	b4761835b5e0	|cffffffffDrain de $805673s1% du mana maximum|r\r\n|cff66ccffApplique 1 Étoile éparpillée|r\r\nFrappe un ennemi pour $s3% des dégâts de l'arme plus ${$m2+$POWER1*0.042+$spa*0.3} points de dégâts des Arcanes, augmentés encore selon votre mana maximum.\r\n@s:804378:0@	lot sorts_classes_016
+sort	801127		Name	3e657b8181a2	Fracture stellaire	lot sorts_classes_016
+sort	801128		Description	35d18336de33	Les attaques automatiques de mêlée et à distance ont $h% de chances de frapper 3 fois de plus pour $s1% des dégâts sous forme de dégâts des Arcanes et d'appliquer des |cff66ccffÉtoiles éparpillées|r.@s:804378:0@\r\n\r\n@ext:Shares a cooldown with other |cffffffffAspects|r.\r\n\r\nThis damage cannot critically strike.:ext@	lot sorts_classes_016
+sort	801128		Name	5bc77a81c9f2	Aspect du gardien	lot sorts_classes_016
+sort	801128		ToolTip	036cc4b5eed3	Les attaques automatiques de mêlée et à distance ont $h% de chances de frapper 3 fois de plus pour ${$w1}% des dégâts infligés sous forme de dégâts des Arcanes et d'appliquer des |cff66ccffÉtoiles éparpillées|r.	lot sorts_classes_016
+sort	801130		Description	b3a1775f1d2e	|cffffffffDrain de $801138s1% du mana maximum|r\nÉmane une aura pendant $537250d : les joueurs alliés infligent ${$spa*.7} points de dégâts supplémentaires sous forme de dégâts des Arcanes lorsqu'ils infligent des dégâts directs.\r\n\r\nApplique |cFFFFFFFFÉpuisement|r, ce qui vous empêche de bénéficier d'effets similaires pendant $573255d.	lot sorts_classes_016
+sort	801130		Name	d38e7db8366f	Résonance céleste	lot sorts_classes_016
+sort	801130		ToolTip	c147116dc1b9	Les dégâts directs infligés infligent des dégâts d'Ombre supplémentaires.	lot sorts_classes_016
+sort	801131		Description	382fadf8f710	Invoque pendant $d un faisceau de lumière stellaire sur votre cible, infligeant ${$800854m1+($pl*0.6)} points de dégâts des Arcanes aux ennemis toutes les $801131t3 sec et ralentissant de $573258s1% la vitesse de déplacement des ennemis qui le traversent.	lot sorts_classes_016
+sort	801131		Name	85090c4431cc	Lumière stellaire	lot sorts_classes_016
+sort	801131		ToolTip	9a35c57f1794	Vitesse de déplacement réduite de $573258s1%.	lot sorts_classes_016
+sort	801139		Description	b971bc4d765f	Augmente votre vitesse de déplacement de $s2% pendant $d.	lot sorts_classes_016
+sort	801139		Name	1d4033af4f50	Focalisation lunaire	lot sorts_classes_016
+sort	801141		Description	b900b8dffb60	Augmente votre |cffff8100puissance d'attaque|r de |cfffeff9e$s2%|r de votre |cfffeff9eAgilité|r.	lot sorts_classes_016
+sort	801141		ToolTip	e3c9f5e42162	Augmente votre puissance d'attaque de ${$w2}% de votre Agilité.	lot sorts_classes_016
+sort	801142		Description	77e1ddbbb3ad	|cFF66DDFFPassif de niveau 20|r\r\nConsommer une |cff66ccffÉtoile éparpillée|r augmente de $803518s1% vos chances de bloquer pendant $803518d, cumulable jusqu'à $803518u fois.	lot sorts_classes_016
+sort	801142		Name	8d8305679d14	Gardé par la lune	lot sorts_classes_016
+sort	801153		Description	76a12b23d60f	Invoque près de vous un |cffffffffTentacule des Dieux très anciens|r pendant $d.\r\n\r\nIl cherche un ennemi et lui inflige ${$804999m1*$<scalingbp>+$sps*0.08+$AP*0.03} points de dégâts d'Ombre toutes les $801151t1 sec, en fonction de la puissance des sorts et de la puissance d'attaque.\r\n\r\nAu-dessus de 60 |cffcfa6ffFolie|r, le coût en mana de ce sort est supprimé.\r\n\r\n@ext:You may only have 1 |cFFFFFFFFOld God Tentacle|r active at a time.:ext@	lot sorts_classes_016
+sort	801153		Name	a9b43f1e88ca	Tentacule de C'Thun	lot sorts_classes_016
+sort	801153		ToolTip	4c82b40d3e9e	Un Tentacule des Dieux très anciens est actif.	lot sorts_classes_016
+sort	801157		Description	482b6da00c67	Retire de vous ou d'un cultiste allié l'affaiblissement |cffffffffDémence|r et réinitialise la |cffcfa6ffFolie|r de la cible à 0.	lot sorts_classes_016
+sort	801157		Name	c89587b02587	Restaurer la santé mentale	lot sorts_classes_016
+sort	801165		Description	06e65d7bdbfd	|cffffffff3 charges, recharge de 35 sec|r \r\nCharge vers un allié et vous rend, à lui et à vous, ${$m2+0+$AP*0.805+$sph*0.85} points de vie.	lot sorts_classes_016
+sort	801165		Name	58bcb41971e4	Gardien du temple	lot sorts_classes_016
+sort	801180		Description	dc3be46c729d	Augmente votre contribution d'Armure de $706304s1% de votre Esprit, votre valeur de blocage de $706304s3% et réduit de $706304s2% tous les dégâts magiques subis.	lot sorts_classes_016
+sort	801180		Name	845fad468d58	Prêtre de combat	lot sorts_classes_016
+sort	801180		ToolTip	c44652cde153	Augmente de ${$w1}% la contribution d'Armure des objets et de ${$w3}% la valeur de blocage, et réduit de ${$w2}% tous les dégâts subis tant que vous ne portez que des armures en tissu.	lot sorts_classes_016
+sort	801181		Description	4024f69657c4	Fend jusqu'à $i ennemis proches devant vous pour $s1% des dégâts de l'arme sous forme de dégâts des Arcanes.\r\n\r\nRégénère $805989s2% du mana maximum pour chaque ennemi touché.	lot sorts_classes_016
+sort	801181		Name	83f794c9df70	Enchaînement céleste	lot sorts_classes_016
+sort	801205		Description	683bacd07012	Place un cercle sacré sur le sol à l'endroit ciblé pendant $d, ce qui ralentit de $s1% la vitesse de déplacement des ennemis.\r\n\r\nToutes les $t2 sec, les ennemis dans le rayon entrent dans un état de tranquillité et s'endorment pendant $850010d (8 sec contre les joueurs).	lot sorts_classes_016
+sort	801205		Name	47fa518b0f18	Cercle tranquille	lot sorts_classes_016
+sort	801221		Description	769cf01699a1	|cffe600e6Invoque|r tous vos tentacules Écraseur et Écorcheur à l'emplacement de votre cible.	lot sorts_classes_016
+sort	801221		Name	65fcf20ce02e	Terrible sentence	lot sorts_classes_016
+sort	801233		Description	ee200dacf7ec	Les aptitudes de mêlée rendent désormais $806073s2 points de vie à 10 alliés proches, en fonction de la puissance d'attaque.\n\nCet effet ne peut se produire plus d'une fois toutes les 5 sec.	lot sorts_classes_016
+sort	801233		Name	df794a712d89	Marteau de vie	lot sorts_classes_016
+sort	801233		ToolTip	e35a8e1a4aad	Les aptitudes de mêlée soignent désormais 10 alliés proches, en fonction de la puissance d'attaque. \n\nCet effet ne peut se produire plus d'une fois toutes les 5 sec.	lot sorts_classes_016
+sort	801242		Description	f5c175569e10	Quand vous maniez une arme à une main, vos coups critiques physiques vous enragent, vous et votre familier actif, pendant $806070d : la hâte de vos 2 prochaines attaques augmente de $806070s1% et celle de ses 2 prochaines attaques de $806071s1%.	lot sorts_classes_016
+sort	801242		Name	586448b37792	Arme primordiale : puissance bestiale	lot sorts_classes_016
+sort	801242		ToolTip	c5dc49db3751	Vos coups critiques physiques vous enragent, vous et votre familier actif, pendant $806070d : la hâte de vos 2 prochaines attaques et de ses 2 prochaines attaques augmente de 10%.	lot sorts_classes_016
+sort	801275		Description	ce0e24bd6db9	Frappe la cible et inflige |cff01cdfe$s1 points de dégâts temporels|r. Les dégâts temporels sont un mélange d'Arcanes et de Givre.\n\nConfère 1 |cfffeff9eOrdre|r.	lot sorts_classes_016
+sort	801275		Name	2c5dd77c7fad	Époque	lot sorts_classes_016
+sort	801278		Description	1f2a56e642e0	Crée pendant $801279d un clone d'un allié qui imite ses sorts et aptitudes (sauf ce sort) avec un délai de 2 sec.\r\n\r\nUne fois ciblé par ce sort, |cffffffffMoi du passé|r ne peut plus être lancé sur cet allié pendant $802866d.\r\n\r\nSi vous lancez ce sort sur vous-même, vous ne pourrez plus du tout le lancer pendant $802866d.	lot sorts_classes_016
+sort	801278		Name	667e5222302c	Moi du passé	lot sorts_classes_016
+sort	801280		Description	51bf1d6f67e4	Arrête le temps dans un rayon de $a1 mètres pendant $802868d.\n\nJusqu'à 10 membres du groupe et ennemis dans la zone, ou qui y entrent pendant la durée, sont figés dans le temps et donc étourdis pendant la durée. \n\nLes cibles affectées sont immunisées contre les dégâts et reçoivent $804514s2% de soins en moins.	lot sorts_classes_016
+sort	801280		Name	478445163e00	Gagner du temps	lot sorts_classes_016
+sort	801280		ToolTip	31b8c406b23b	Figé dans le temps. Cet effet ne peut pas être interrompu prématurément par les effets qui brisent les sorts de contrôle des foules.	lot sorts_classes_016
+sort	801283		Description	51ecd3d5142a	|cFFFFFFFFChronurgie|r propage la |cffffffffDécomposition|r aux ennemis à moins de $503823a mètres.	lot sorts_classes_016
+sort	801283		Name	573e95e7ff09	Décomposition de masse	lot sorts_classes_016
+sort	801283		ToolTip	51ecd3d5142a	|cFFFFFFFFChronurgie|r propage la |cffffffffDécomposition|r aux ennemis à moins de $503823a mètres.	lot sorts_classes_016
+sort	801288		Description	49f2a9effb39	Vous commencez à consigner par magie les actions d'un allié pendant $d.\n\nÀ la fin de la durée, il relance sur sa cible actuelle tous les sorts et aptitudes qu'il a lancés pendant la période de consignation.	lot sorts_classes_016
+sort	801288		Name	942477d438b3	Chroniques de l'histoire	lot sorts_classes_016
+sort	801288		ToolTip	8b65aaf8f0ab	Consigne les événements de l'histoire.	lot sorts_classes_016
+sort	801290		Description	f516456cbc95	Lance une masse de magie chaotique sur une cible ennemie et inflige |cff01cdfe$s1 points de dégâts temporels|r. Les dégâts temporels sont un mélange de Givre et d'Arcanes.\n\nConfère 1 |cfffeff9eChromatique|r.\n\nTant que Chromatic Incarnate est actif, cette aptitude inflige $804483s2% de dégâts supplémentaires.	lot sorts_classes_016
+sort	801290		Name	583efa56e492	Explosion discordante	lot sorts_classes_016
+sort	801291		Description	3ebc4ed29b68	Déchire la trame du temps et inflige $o1 points de dégâts chromatiques en $d.\r\n\r\n@ext:La hâte ne réduit pas la durée mais augmente le nombre total d'instances de dégâts.:ext@	lot sorts_classes_016
+sort	801291		Name	c91255d3db35	Déchire-temps	lot sorts_classes_016
+sort	801291		ToolTip	54293dd8a3a7	Inflige $o1 points de dégâts chromatiques en $d.	lot sorts_classes_016
+sort	801293		Description	0d4f86aa83ff	Chaque fois que vous lancez un sort Chromatique ou d'Ordre, vous gagnez respectivement une charge chromatique ou une charge d'ordre.\n\nQuand vous atteignez 4 charges de n'importe quel type, vous produisez un effet supplémentaire selon la combinaison de charges.\n\nOrdre + Ordre + Ordre + Ordre = Ajoute 3 charges de Récupération accélérée aux membres du groupe et du raid à moins de 40 mètres.\n\nOrdre + Ordre + Ordre + Chromatique = Vous gagnez Hâte, Déviation de sort et Boucle temporelle.\n\nOrdre + Ordre + Chromatique + Chromatique = Rend 30% de votre |cff01cdfemana|r maximum et 20% de vos |cfffeff9epoints de vie|r maximum.\n\nPuis |cfffeff9einvoque|r un Clone infini.\n\nChromatique + Chromatique + Chromatique + Ordre = Lance 3 Époques sur votre cible actuelle.\n\nChromatique + Chromatique + Chromatique + Chromatique = Avance de 3 toutes les charges de Décomposition sur les ennemis proches.	lot sorts_classes_016
+sort	801293		Name	6a9df24536e2	Tome infini	lot sorts_classes_016
+sort	801294		Description	e64dcf7df59d	Vous revenez à votre dernier |cFFFFFFFFClone infini|r : vos points de vie, votre mana et votre position redeviennent ce qu'ils étaient à la création du clone.\r\n\r\nLes ennemis à votre emplacement initial sont ralentis de $572883s1% et votre vitesse de déplacement est augmentée de $s3% pendant $d.\r\n\r\nUtilisable étourdi, apeuré ou désorienté.	lot sorts_classes_016
+sort	801294		Name	f7b6a2535217	Rembobinage	lot sorts_classes_016
+sort	801294		ToolTip	74f42c2a2a5b	Vitesse de déplacement augmentée de $s3%.	lot sorts_classes_016
+sort	801295		Description	0b5fd2a8cdf3	Ralentit de $s1% la vitesse de déplacement de votre cible et de $s2% sa vitesse d'attaque pendant $d.\r\n\r\nConfère 1 |cffffffffOrdre|r.	lot sorts_classes_016
+sort	801295		Name	a02e2557da97	Ralentissement du temps	lot sorts_classes_016
+sort	801295		ToolTip	d9d0437b8de6	Vitesse de déplacement réduite de ${$w2}% et vitesse d'attaque réduite de ${$w1}%.	lot sorts_classes_016
+sort	801297		Description	b512602bff44	Vous placez une Boucle temporelle sur un allié. Le prochain sort ou la prochaine aptitude qu'il utilise pendant $d et dont le temps de recharge est d'au moins 8 sec n'aura aucun temps de recharge.	lot sorts_classes_016
+sort	801297		Name	88e46dc7a603	Boucle temporelle	lot sorts_classes_016
+sort	801297		ToolTip	cb79d4b0bc85	Le prochain sort ou la prochaine aptitude n'a aucun temps de recharge.	lot sorts_classes_016
+sort	801303		Description	b94b2389c3e4	Inverse la blessure d'un allié et lui rend ${($m1+0+$bh*0.9)*((100+$887010ppl3)/100)} points de vie.$?s706109[\r\n\r\nProlonge de $/1000;804679s1 sec la durée de |cFFFFFFFFRécupération accélérée|r.][]	lot sorts_classes_016
+sort	801303		Name	e688f06b8ffb	Inversion de blessure	lot sorts_classes_016
+sort	801304		Description	6a0158afecd9	Accélère le temps pour un allié et augmente sa vitesse de déplacement et sa hâte de $s1%$?s706107[ ; quand il inflige des dégâts, il a $803382h% de chances de frapper la cible une fois de plus pour $803382s1% des dégâts infligés][]. Dure $d.$?s706099[\r\n\r\nTant que l'effet est actif, les temps de recharge de |cffffffffDivergence dimensionnelle|r, |cffffffffRetour en arrière|r et |cffffffffGarde du temps|r sont réduits de $707312s1% toutes les $712371t1 sec.][]	lot sorts_classes_016
+sort	801304		Name	70d25c078458	Hâte	lot sorts_classes_016
+sort	801304		ToolTip	b6441cab8c43	Vitesse de déplacement et hâte augmentées de ${$w1}%.$?s706107[ $803382h% de chances, quand des dégâts sont infligés, de frapper à nouveau pour $803382s1% des dégâts infligés.][]	lot sorts_classes_016
+sort	801306		Description	a5afbbcbd754	Crée pendant $801307d un clone d'un joueur ennemi, qui renvoie à la cible d'origine $801285s1% de tous les dégâts qu'il subit.	lot sorts_classes_016
+sort	801306		Name	f927847cd922	Fracture de la ligne temporelle	lot sorts_classes_016
+sort	801312		Description	4d10f9db2a26	|cff32cd32Génère 1 Gangrefurie|r\r\nLibère une puissante boule de feu gangrenée sur un ennemi et lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.5, $m1+0+$sps*0.5)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, qui inflige $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en déplacement.	lot sorts_classes_016
+sort	801332		Description	dc46bc4e59a1	Lacère l'ennemi avec une faux d'ombre et inflige $s1 points de dégâts d'Ombre$?s705448[ et le réduit au silence pendant $802086d. \n\nSi la cible est réduite au silence, vous infligez aussi des dégâts d'arme supplémentaires sous forme de dégâts d'Ombre, d'autant plus élevés que votre vie est basse.][]	lot sorts_classes_016
+sort	801332		Name	f45cb65aed5f	Hurleur	lot sorts_classes_016
+sort	801332		Rank	c166015199fe	Soins	lot sorts_classes_016
+sort	801337		Description	3ee4b1b79e06	Inflige une douleur immense à un ennemi et le provoque pour qu'il vous attaque pendant $d.	lot sorts_classes_016
+sort	801337		Name	16315f59fe41	Contorsion	lot sorts_classes_016
+sort	801351		Description	41c5e2a60ea9	Augmente le score de blocage de $s1% de votre Force et fait que chaque blocage confère |cffffffffRage de la terre|r.\r\n\r\nConfère aussi une Armure égale à $806582s1% de votre Esprit et 1,5 point de résistance à la magie par niveau.@s:806068:0@	lot sorts_classes_016
+sort	801351		Name	0fe994a75552	Arme primordiale : pierre	lot sorts_classes_016
+sort	801351		ToolTip	e74d542631c0	Score de blocage augmenté de ${$w1}% de votre Force. Les blocages confèrent Rage de la terre.\n\nVous gagnez aussi une Armure égale à $806582s1% de votre Esprit et 1,5 point de résistance à la magie par niveau.	lot sorts_classes_016
+sort	801352		Description	29e82a3efe76	Imprègne votre corps de magma, ce qui augmente la hâte des sorts de $s2% de votre Intelligence et vos chances de coup critique avec les sorts de $s3% de votre Intelligence.\r\n\r\nRéduit de $560190s1% la durée des effets de silence utilisés contre vous et augmente de $560482s2 mètres la portée d'|cffffffffÉboulement|r.	lot sorts_classes_016
+sort	801352		Name	84bd32c2e7ce	Corps de magma	lot sorts_classes_016
+sort	801352		ToolTip	98728961f42c	Hâte des sorts augmentée de ${$w2}% de votre Intelligence, chances de coup critique avec les sorts augmentées de ${$w3}% de votre Intelligence.	lot sorts_classes_016
+sort	801381		Description	bc9c94915da2	|cffffffffNécessite une méca-armure|r\r\nTaillade un ennemi avec votre lame de scie, lui infligeant ${$m1+0+$AP*0.4+$SP*.25} points de dégâts physiques et réduisant de $s3% tous les soins qu'il reçoit pendant $d.	lot sorts_classes_016
+sort	801381		Name	153899dd20c5	Méca-armure : lame de scie	lot sorts_classes_016
+sort	801381		ToolTip	d1cd41aaf401	Soins reçus réduits de ${$w3}%.	lot sorts_classes_016
+sort	805668		Rank	bb2d06e28ceb	DÉSACTIVÉ	lot sorts_classes_016

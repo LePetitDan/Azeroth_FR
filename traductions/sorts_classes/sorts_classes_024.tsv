@@ -1,0 +1,81 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	807727		Description	d9ee2844429f	Vous vous renforcez grâce à la magie gangrenée, ce qui augmente de $s1% la menace que vous générez et réduit de 10% les dégâts que vous infligez aux monstres.\r\n\r\nÉchelonne 25% des dégâts physiques subis de la part des monstres, en les répartissant sur 5 secondes.	lot sorts_classes_024
+sort	807727		Name	81fcce2a82d9	Présence agonisante	lot sorts_classes_024
+sort	807727		ToolTip	0dbffd5d2c75	Menace générée augmentée de ${$w1}%. Dégâts infligés aux monstres réduits de 10%. Échelonne 25% des dégâts physiques subis de la part des monstres sur 5 secondes.	lot sorts_classes_024
+sort	807730		Description	6ede09b39c69	Votre démon intérieur rayonne, ce qui augmente de $s1% la menace que vous générez, plus de ${$m3-$m1}% supplémentaires avec les sorts et aptitudes de Feu.	lot sorts_classes_024
+sort	807730		Name	c59abd535df4	Puissance démoniaque	lot sorts_classes_024
+sort	807730		ToolTip	1b4f9a86f768	Menace générée augmentée de ${$w1}%, plus de ${$w3}% supplémentaires avec les sorts et aptitudes de Feu.	lot sorts_classes_024
+sort	807732		Description	98b7bc00efc5	Votre dévotion au soleil ne connaît aucune limite, ce qui augmente de $s3% la menace que vous générez, plus de ${$m1-$m3}% supplémentaires avec les sorts et aptitudes du Sacré et de Feu.	lot sorts_classes_024
+sort	807732		Name	885a0416f29f	Sol Invictus	lot sorts_classes_024
+sort	807732		ToolTip	18c1f97ca52e	Menace générée augmentée de ${$w3}%, plus de ${$w1}% supplémentaires avec les sorts et aptitudes du Sacré et de Feu.	lot sorts_classes_024
+sort	807733		Description	a630738a0b47	Vous vous tenez sur vos gardes face au mal, ce qui augmente de $s1% la menace que vous générez.\r\n\r\nÉchelonne 25% des dégâts physiques subis de la part des monstres, en les répartissant sur 5 secondes.	lot sorts_classes_024
+sort	807733		Name	d52377a1eda9	Veille de la nuit	lot sorts_classes_024
+sort	807733		ToolTip	fe7f21df60b4	Menace générée augmentée de ${$w1}%. Échelonne 25% des dégâts physiques subis de la part des monstres sur 5 secondes.	lot sorts_classes_024
+sort	807734		Description	80aec219d757	Therazane vous favorise, ce qui augmente de $s1% la menace que vous générez.	lot sorts_classes_024
+sort	807734		Name	19825fad21f6	Cœur de la montagne	lot sorts_classes_024
+sort	807734		ToolTip	d8b7037bd144	Menace générée augmentée de ${$w1}%.	lot sorts_classes_024
+sort	807735		Description	7799ad9f7e01	Votre présence dominatrice déstabilise vos ennemis, ce qui augmente de $s1% la menace que vous générez, doublée avec les sorts et aptitudes de Givre ou d'Ombre.	lot sorts_classes_024
+sort	807735		Name	80f868a93b79	Emprise	lot sorts_classes_024
+sort	807735		ToolTip	ff5bcb3b8ac4	Menace générée augmentée de ${$w1}%. Doublée avec les sorts et aptitudes de Givre ou d'Ombre.	lot sorts_classes_024
+sort	807942		Description	33f6df4d8a4b	Vous puisez dans de viles énergies gangrenées et échangez de l'Énergie contre de la vie. Chaque tranche de 2 points d'Énergie rend 1% de vos points de vie maximum.	lot sorts_classes_024
+sort	807942		Name	f0348dd203db	Marché gangrené	lot sorts_classes_024
+sort	807992		Name	689237c08af2	Berceau d'Élune (Aspect de la déesse)	lot sorts_classes_024
+sort	807992		ToolTip	ef3441c1840a	Soigne toutes les $t1 sec.	lot sorts_classes_024
+sort	809917		Name	4829f3402be1	Rênes du phénix sombre	lot sorts_classes_024
+sort	809929		Name	51100d834d62	Sauvageon hivernal	lot sorts_classes_024
+sort	809935		Description	dc0c295992cf	Crée une |cffffffffVoie onirique|r vers le |cFFFFFFFFBosquet du rêve|r, en Féralas, qui permet aux membres du groupe et du raid de s'y téléporter. Dure $d.	lot sorts_classes_024
+sort	809936		Description	fc6991904cf6	Crée une |cffffffffVoie onirique|r vers |cFFFFFFFFL'Ombrage|r, à Orneval, qui permet aux membres du groupe et du raid de s'y téléporter. Dure $d.	lot sorts_classes_024
+sort	809937		Description	24570f623930	Crée une |cffffffffVoie onirique|r vers |cFFFFFFFFL'Ombrage|r, dans le Bois de la Pénombre, qui permet aux membres du groupe et du raid de s'y téléporter. Dure $d.	lot sorts_classes_024
+sort	809937		Name	2088e44eff5e	Voie onirique : Bosquet du crépuscule	lot sorts_classes_024
+sort	809938		Description	15d2fcba71c8	Crée une |cffffffffVoie onirique|r vers |cFFFFFFFFL'Ombrage|r, dans Les Hinterlands, qui permet aux membres du groupe et du raid de s'y téléporter. Dure $d.	lot sorts_classes_024
+sort	814280		Name	9a1c5b12f574	Don des naaru	lot sorts_classes_024
+sort	814280		ToolTip	21a4233a16f3	Rend $s1 points de vie toutes les $t1 secondes.	lot sorts_classes_024
+sort	814281		Description	1f9ad6cc4c78	Rend $o1 points de vie à la cible en $d.  Le montant des soins est augmenté par votre puissance d'attaque.	lot sorts_classes_024
+sort	814281		Name	9a1c5b12f574	Don des naaru	lot sorts_classes_024
+sort	814281		ToolTip	21a4233a16f3	Rend $s1 points de vie toutes les $t1 secondes.	lot sorts_classes_024
+sort	814282		Description	85d07d96d7c0	Rend $o1 points de vie à la cible en $d.  Le montant des soins est augmenté par votre puissance des sorts ou votre puissance d'attaque, selon la plus élevée.	lot sorts_classes_024
+sort	814282		Name	9a1c5b12f574	Don des naaru	lot sorts_classes_024
+sort	814282		ToolTip	21a4233a16f3	Rend $s1 points de vie toutes les $t1 secondes.	lot sorts_classes_024
+sort	814283		Description	9e91f1a88701	Augmente de ${$m1} la puissance d'attaque. Dure $d.	lot sorts_classes_024
+sort	814283		Name	aac75712b956	Fureur sanguinaire	lot sorts_classes_024
+sort	814283		ToolTip	6441954bb4d6	Puissance d'attaque augmentée de ${$W1}.	lot sorts_classes_024
+sort	818067		Description	69cebdf5a681	Rend $<total> points de vie à votre familier en $d.	lot sorts_classes_024
+sort	818067		Name	ea8161b3c515	Guérison de l'ombre	lot sorts_classes_024
+sort	818067		ToolTip	24c89ea62a40	Rend $s1 points de vie toutes les $t1 sec.	lot sorts_classes_024
+sort	848025		Name	c03ee1d727f5	Monture du Cavalier sans tête	lot sorts_classes_024
+sort	900014		Name	f7d949098e36	Drake de cendres	lot sorts_classes_024
+sort	900015		Name	cfc5e0c58f72	Drake de cendres touché par la gangre	lot sorts_classes_024
+sort	900016		Name	16931d589f3e	Rênes du scorpion rubis	lot sorts_classes_024
+sort	900017		Name	feaa757bf524	Serpent horrifique de N'Zoth	lot sorts_classes_024
+sort	900018		Name	174859f5036e	Wyverne lige de la Lumière	lot sorts_classes_024
+sort	900020		Name	205547aef326	Marcheur des rives de Sous-Lumière toxique	lot sorts_classes_024
+sort	900021		Name	41f17bd0bb53	Marcheur des rives de Sous-Lumière dépravé	lot sorts_classes_024
+sort	900022		Name	b54b2dd23dd6	Marcheur des rives de Sous-Lumière corrompu	lot sorts_classes_024
+sort	900023		Name	eb855f5e7cae	Marcheur des rives de Sous-Lumière menaçant	lot sorts_classes_024
+sort	900024		Name	3550bd8be7a6	Messager charmant	lot sorts_classes_024
+sort	900025		Name	cea41ad939a6	Dinde primée	lot sorts_classes_024
+sort	900026		Name	d3c34b5a130d	Dinde championne	lot sorts_classes_024
+sort	900027		Name	44f245bebce3	Dinde excentrique	lot sorts_classes_024
+sort	900029		Name	ef06ac1079a2	Dinde trouble	lot sorts_classes_024
+sort	900036		Name	05d1e71c6cde	Gronnling fouleur-de-sang	lot sorts_classes_024
+sort	900037		Name	35edc41efb69	Gronnling peau-de-soleil	lot sorts_classes_024
+sort	900038		Name	647365aa3e54	Gronnling poing-de-charbon	lot sorts_classes_024
+sort	900039		Name	0375b55941bc	Gronnling prise-de-braise	lot sorts_classes_024
+sort	900040		Name	e8f95a2970bd	Hurleur des cieux blindé	lot sorts_classes_024
+sort	900041		Name	782618166091	Gardien ailé	lot sorts_classes_024
+sort	900042		Name	2598e28505d9	Cœur des Aspects	lot sorts_classes_024
+sort	900043		Name	fc5b39b93467	Corne-crête kalu'ak	lot sorts_classes_024
+sort	900045		Name	73efa11e3ead	Corne-crête marcheur des banquises	lot sorts_classes_024
+sort	900046		Name	8f17d33fa5c7	Corne-crête arpenteur des rocs	lot sorts_classes_024
+sort	900047		Name	380c21afefe2	Phénix pandaren cendré	lot sorts_classes_024
+sort	900048		Name	291147660c85	Phénix pandaren émeraude	lot sorts_classes_024
+sort	900049		Name	cff3e9a81b87	Phénix pandaren violet	lot sorts_classes_024
+sort	900050		Name	abfb2ef550b7	Phénix pandaren cramoisi	lot sorts_classes_024
+sort	900051		Name	61d52a8ff706	Phénix pandaren auguste	lot sorts_classes_024
+sort	900052		Name	31734525a4a8	Mouche-cadavre de Maldraxxus	lot sorts_classes_024
+sort	900053		Name	0d5d96f1ecf6	Destrier du gardien d'Algari	lot sorts_classes_024
+sort	900054		Name	34a85115fbff	Saccageur du temps racheté	lot sorts_classes_024
+sort	900055		Name	1dbe7e6dd20e	Destrier cauchemardesque ressuscité	lot sorts_classes_024
+sort	900056		Name	491649b933b9	Claquemâchoire gangrelige	lot sorts_classes_024
+sort	900058		Name	31efc4090ea9	Sabre de mana du maître des runes	lot sorts_classes_024
+sort	1210595		Name	abfb2ef550b7	Phénix pandaren cramoisi	lot sorts_classes_024

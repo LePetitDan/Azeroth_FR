@@ -1,0 +1,230 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	805309		Description	88644aa4a5cc	|cffffffff3 charges|r\r\n|cffffffff20 sec de recharge|r\r\nAméliore le prochain |cffffffffTir réparateur|r dans les $d : il applique un bouclier d'absorption des dégâts pendant $805310d, égal à 100% de la valeur du tir.\r\n\r\nPartage un temps de recharge avec |cffffffffModules|r.	lot sorts_classes_022
+sort	805309		Name	832dcaadb415	Module de gardien	lot sorts_classes_022
+sort	805309		ToolTip	713361d09242	Le prochain Tir réparateur fournit un bouclier d'absorption des dégâts.	lot sorts_classes_022
+sort	805312		Description	f83d8b92b85d	Fait en sorte que |cffffffffLancer de dynamite|r réduise la résistance au Feu des ennemis affectés, selon la puissance de vos sorts, pendant $/1000;s3 sec, et augmente ses dégâts de $s1%.	lot sorts_classes_022
+sort	805312		Name	0d0164a3b984	Charges de dynamite	lot sorts_classes_022
+sort	805312		ToolTip	e3e4bd0a36a1	Fait en sorte que |cffffffffLancer de dynamite|r réduise la résistance au Feu des ennemis affectés, selon votre puissance des sorts, pendant $/1000;s3 sec, et augmente ses dégâts de ${$w1}%.	lot sorts_classes_022
+sort	805313		Description	765978053cbb	Infliger des dégâts de Feu directs applique désormais |cFFFFFFFFNapalm|r à votre cible.@s:805315:0@	lot sorts_classes_022
+sort	805313		Name	96f41ee0ab83	Napalm	lot sorts_classes_022
+sort	805313		ToolTip	b009f66ada86	|cffffffffBombe collante|r, |cffffffffCharge de sapeur|r et |cffffffffBombes déployées|r appliquent désormais |cFFFFFFFFMolotov|r.@s:805315:0@	lot sorts_classes_022
+sort	805315		Name	96f41ee0ab83	Napalm	lot sorts_classes_022
+sort	805317		Description	d47f0b5fb3dd	Augmente de $s1% les dégâts de l'explosion de votre |cffffffffCharge de sapeur|r.	lot sorts_classes_022
+sort	805317		Name	d8746ca8af4a	Maître sapeur	lot sorts_classes_022
+sort	805317		ToolTip	d6149e07af24	Augmente de ${$w1}% les dégâts de l'explosion de votre |cffffffffCharge de sapeur|r et augmente votre puissance des sorts de Feu de ${$w2}% supplémentaires de votre Agilité et de votre Intelligence cumulées.	lot sorts_classes_022
+sort	805318		Description	98601eb16407	Réduit de $s1% le temps d'incantation de |cffffffffTir de précision|r, augmente ses dégâts de $s2% et lui garantit un coup critique pendant $d.	lot sorts_classes_022
+sort	805318		Name	ad7a99f19a4d	Prendre la mire	lot sorts_classes_022
+sort	805318		ToolTip	9fdd2ed60834	Cadence de tir de Tir de précision augmentée de ${$w1}%, mais ses dégâts sont augmentés de ${$w2}% et ses chances de coup critique de ${$w3}%.	lot sorts_classes_022
+sort	805319		Description	67cdab3ea339	Régénère instantanément $s1% de votre mana maximum$?s505327[ et $504731s1% supplémentaires de mana de base toutes les $572576t1 sec pendant $/1000;505327s1 sec][].	lot sorts_classes_022
+sort	805319		Name	55f6ffb72112	Échange de batterie	lot sorts_classes_022
+sort	805320		Description	c879211d8cf1	Rend |cffffffffDéploiement de bombe|r instantané et réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r.	lot sorts_classes_022
+sort	805320		Name	5161f455dd10	Seigneur des bombes	lot sorts_classes_022
+sort	805320		ToolTip	c879211d8cf1	Rend |cffffffffDéploiement de bombe|r instantané et réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r.	lot sorts_classes_022
+sort	805321		Description	d53449d2c1ee	Toutes les 4 |cffffffffCartouches|r consommées, les dégâts ou les soins de votre prochain |cffffffffTir de chevrotine|r ou |cffffffffTir réparateur|r avec |cFFFFFFFFCartouches de chevrotine|r augmentent de $704125s1%.	lot sorts_classes_022
+sort	805321		Name	00efd6f86016	Pas sur MON territoire !	lot sorts_classes_022
+sort	805322		Description	05706894e482	Augmente de $/1000;s2 sec la durée de |cFFFFFFFFBarrage de poudre noire|r et lui fait infliger 25% de dégâts de Feu supplémentaires en $800024d.	lot sorts_classes_022
+sort	805322		Name	ded2a4ee527f	Munitions incendiaires	lot sorts_classes_022
+sort	805322		ToolTip	05706894e482	Augmente de $/1000;s2 sec la durée de |cFFFFFFFFBarrage de poudre noire|r et lui fait infliger 25% de dégâts de Feu supplémentaires en $800024d.	lot sorts_classes_022
+sort	805324		Description	dcada433c4e8	Vous gagnez $s1% de dégâts supplémentaires avec tous les sorts et attaques pour chaque munition standard chargée dans votre arme.	lot sorts_classes_022
+sort	805324		Name	af4c230819aa	Plein chargement	lot sorts_classes_022
+sort	805324		ToolTip	ca927e386181	Vous gagnez ${$w1}% de dégâts supplémentaires avec tous les sorts et attaques pour chaque munition standard chargée dans votre arme.	lot sorts_classes_022
+sort	805325		Description	6bdc85dbbc5b	|cFFFFFFFF2 charges|r \n|cffffffff60 sec de recharge|r\nAugmente la vitesse de déplacement de $s1% pendant $d. Infliger des dégâts directs met fin à cet effet. Cumulable $u fois.	lot sorts_classes_022
+sort	805325		Name	8ac675ae25a8	Ruée de combat	lot sorts_classes_022
+sort	805327		Description	d34302812d32	Invoque un canon qui tire toutes vos |cffffffffMunitions standard|r pour infliger 100% de dégâts de l'arme à distance à un ennemi, plus $500238s1% supplémentaires par charge consommée.\n\nDégâts actuels : $s1%.	lot sorts_classes_022
+sort	805327		Name	ee41af6044c4	Le Gros	lot sorts_classes_022
+sort	805330		Description	bc822d73c146	Les enchaînements accordent $805390s1% de vitesse de déplacement supplémentaire pendant $805390d, cumulable jusqu'à 6 fois.	lot sorts_classes_022
+sort	805330		Name	4ec50462b41a	Poings des cieux	lot sorts_classes_022
+sort	805330		ToolTip	47aff20e90e0	Les mouvements de combat accordent $805390s1% de vitesse de déplacement supplémentaire pendant $805390d, cumulable jusqu'à 6 fois.	lot sorts_classes_022
+sort	805351		Description	e7be8d6510ee	Frappe un ennemi avec votre clé, infligeant $s2% des dégâts de l'arme plus ${$m1+0} points de dégâts.\r\n\r\nCoup critique garanti contre les mécaniques.	lot sorts_classes_022
+sort	805351		Name	6a5cf8c48d85	Coup de clé	lot sorts_classes_022
+sort	805351		ToolTip	fb61e15fec59	Total des caractéristiques réduit de ${$w3}%.	lot sorts_classes_022
+sort	805356		Description	77f8dbafbcae	Les attaques automatiques de mêlée et à distance ont désormais $h% de chances de drainer un mana égal à $s1% des dégâts infligés à la cible et d'appliquer |cff66ccffÉtoiles éparpillées|r, mais vos dégâts sont réduits de $s3% tant que l'effet est actif.@s:804378:0@\r\n\r\n@ext:Shares a cooldown with other |cffffffffAspects|r.:ext@	lot sorts_classes_022
+sort	805356		Name	3e1d66979027	Aspect de la chasseresse	lot sorts_classes_022
+sort	805356		ToolTip	814ac9a09630	Les attaques automatiques de mêlée et à distance ont désormais $h% de chances de drainer un mana égal à ${$w1}% des dégâts infligés à la cible et d'appliquer |cff66ccffÉtoiles éparpillées|r, mais vos dégâts sont réduits de ${$w3}% tant que l'effet est actif.@s:804378:0@	lot sorts_classes_022
+sort	805361		Description	b264294468d8	Invoque pendant $d une effigie à l'endroit ciblé ; tous les dégâts que vous lui infligez rayonnent autour d'elle vers les ennemis situés à moins de 6 mètres.	lot sorts_classes_022
+sort	805361		Name	780c1f879588	Effigie sombre	lot sorts_classes_022
+sort	805361		ToolTip	b264294468d8	Invoque pendant $d une effigie à l'endroit ciblé ; tous les dégâts que vous lui infligez rayonnent autour d'elle vers les ennemis situés à moins de 6 mètres.	lot sorts_classes_022
+sort	805367		Description	e8c853652f01	Augmente de $/1000;s1 sec la durée de |cFFFFFFFFChaînes nécrotiques|r et de l'effet de gel de |cFFFFFFFFBarrage de glace|r.	lot sorts_classes_022
+sort	805367		Name	d6d2c4e3798c	Vent glacial	lot sorts_classes_022
+sort	805368		Description	aafa988981de	Vous |cfffeff9einvoquez|r un Disque du Néant et vous vous tenez dessus, ce qui augmente votre |cffff8100vitesse de déplacement|r de |cfffeff9e$s2%|r.	lot sorts_classes_022
+sort	805368		Name	22a526f5e69a	Disque du Néant	lot sorts_classes_022
+sort	805368		ToolTip	04e5301de40a	Chevauche un Disque du Néant. Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_classes_022
+sort	805376		Description	adec60e85933	Infliger des dégâts de Feu a $h% de chances de réduire de $562721s1% la vitesse de déplacement de la cible pendant $562721d, cumulable jusqu'à $562721u fois.	lot sorts_classes_022
+sort	805376		Name	0f48acf51c36	Apocalypse	lot sorts_classes_022
+sort	805380		Name	db4e851ea051	Sceau de paume : Arcanes	lot sorts_classes_022
+sort	805380		ToolTip	a5bf8ce17e90	Votre prochaine occurrence de dégâts magiques directs inflige des dégâts des Arcanes supplémentaires en 807819d.	lot sorts_classes_022
+sort	805381		Name	b12873a2db75	Sceau de paume : Givre	lot sorts_classes_022
+sort	805381		ToolTip	e9ea4ca1394c	Votre prochaine occurrence de dégâts magiques directs dans les $d inflige ${$w1}% des dégâts infligés sous forme de dégâts de Givre et réduit de $808022s1% la vitesse de déplacement de l'ennemi pendant $808022d. 	lot sorts_classes_022
+sort	805382		Name	f1f7ee3a1459	Sceau de paume : Terre	lot sorts_classes_022
+sort	805383		Description	3e82961a025d	Vous apprend |cffffffffImprégnation de flamme|r, |cffffffffImprégnation de givre|r et |cffffffffImprégnation des Arcanes|r.\r\n\r\nCes 3 sorts partagent un temps de recharge et ne sont utilisables que pendant |cffffffffVoile runique|r. \r\n\r\nChacun génère 1 |cffffffffCachet|r de son type et active l'|cffffffffAccord|r correspondant.	lot sorts_classes_022
+sort	805383		Name	24a1cf496484	Main voilée	lot sorts_classes_022
+sort	805383		ToolTip	bf28cb582c43	Vous apprend |cffffffffImprégnation de flamme|r, |cffffffffImprégnation de givre|r et |cffffffffImprégnation des Arcanes|r.\n\nCes 3 sorts partagent un temps de recharge de 2 sec et ne sont utilisables que pendant |cffffffffVoile runique|r. Chacun génère 1 |cffffffffCachet|r de son type et active l'|cffffffffAccord|r correspondant.	lot sorts_classes_022
+sort	805388		Description	849b3c43a5a0	Vous permet de manier des bâtons, mais réduit en permanence de $s2% vos dégâts physiques infligés.\n\nAugmente de $s3% les soins que vous recevez de votre sort Lifedrinker.	lot sorts_classes_022
+sort	805388		Name	69154a5cd43f	Mage de sang	lot sorts_classes_022
+sort	805388		ToolTip	162aa7972400	Vous permet de manier des bâtons, mais réduit en permanence de ${$w2}% vos dégâts physiques infligés.\n\nAugmente de ${$w3}% les soins que vous recevez de votre sort Lifedrinker.	lot sorts_classes_022
+sort	805391		Description	c47d1a2231c8	|cffffffffNécessite Maître du combat à mains nues|r\nFrappe le flanc gauche d'un ennemi et inflige |cffff8100$s1 points de dégâts physiques|r. Applique Flanc gauche ou Flanc droit.\n\nBénéficie d'un temps de recharge réduit selon les bonus de vitesse d'attaque des effets de moine.\n@s:805393:0@@s:805394:0@	lot sorts_classes_022
+sort	805391		Name	402251cb33ca	Crochet du gauche	lot sorts_classes_022
+sort	805392		Description	3993abaad2da	|cffffffffNécessite Maître du combat à mains nues|r\nFrappe le flanc droit d'un ennemi et inflige |cffff8100$s1 points de dégâts physiques|r. Applique Flanc gauche ou Flanc droit.\n\nBénéficie d'un temps de recharge réduit selon les bonus de vitesse d'attaque des effets de moine.\n@s:805393:0@@s:805394:0@	lot sorts_classes_022
+sort	805392		Name	5a36ce24d93b	Crochet droit	lot sorts_classes_022
+sort	805405		Description	ddd0a14d625a	Frappe un ennemi d'un jet de venin toxique et inflige ${$m1+0+$sps*0.65} points de dégâts d'Ombre, augmente de $s2% les dégâts que la cible subit de ce sort et de $527873s1% son coût en mana pendant $527873d, cumulable $u fois.\r\n\r\nSi votre cible est affligée d'|cffffffffAtonie|r, ce sort n'a pas de temps de recharge. Utilisable en mouvement.\r\n\r\nProfite des modificateurs de |cffffffffÉclair de venin|r.	lot sorts_classes_022
+sort	805405		Name	622a98874a3f	Croc de Venoxis	lot sorts_classes_022
+sort	805405		ToolTip	f21206489726	Dégâts subis de Croc de Venoxis augmentés de $S2%.	lot sorts_classes_022
+sort	805414		Description	e1af2c9b86de	|cffffffffChâtier|r réduit désormais de $801203s1% tous les soins reçus par un ennemi pendant $801203d.	lot sorts_classes_022
+sort	805414		Name	ded007252c86	Plaies brûlantes	lot sorts_classes_022
+sort	805414		ToolTip	d9674217a021	Vos coups critiques génèrent une charge de Zéphyr.\n@s:801203@	lot sorts_classes_022
+sort	805419		Description	5ba118332f12	Provoque un ennemi en Duel vertueux pendant $d. Pendant la durée de l'effet, vous infligez $s2% de dégâts en moins à la cible, mais ses 5 prochaines attaques infligent des dégâts réduits en fonction de votre Endurance.	lot sorts_classes_022
+sort	805419		Name	c189707f75fd	Duel vertueux	lot sorts_classes_022
+sort	805419		ToolTip	438c33bc9287	Vous subissez ${$w2}% de dégâts en moins du moine, mais tous les dégâts que vous infligez sont réduits.	lot sorts_classes_022
+sort	805425		Description	69fae11df9dc	Augmente de $s1% vos dégâts contre les ennemis ralentis et de $/1000;s2 sec la durée de |cffffffffCœur glacé|r.	lot sorts_classes_022
+sort	805425		Name	181b6a81edf5	Éclat de glace véritable	lot sorts_classes_022
+sort	805425		ToolTip	6950dbe68535	Réduit de $/1000;s1 sec le temps de recharge d'|cFFFFFFFFAnimation : Jeune dragonnet de givre|r et lui fait infliger $567569s1% de dégâts en plus par cible touchée.	lot sorts_classes_022
+sort	805432		Description	929864b93a1f	Interrompt l'incantation en cours d'un ennemi et l'empêche de lancer tout sort de cette école pendant $d.	lot sorts_classes_022
+sort	805432		Name	cbc6ab8d850f	Halte	lot sorts_classes_022
+sort	805435		Description	8d164157412c	Augmente vos dégâts critiques de $s1%.	lot sorts_classes_022
+sort	805435		Name	ea216ef6ec1f	Furie stellaire	lot sorts_classes_022
+sort	805438		Description	b742e640f2cf	Augmente de $s1% les dégâts de votre technique Frappe céleste et réduit de $s2% son coût en énergie.	lot sorts_classes_022
+sort	805438		Name	af2c7ec4a45d	Mandat du seigneur des étoiles	lot sorts_classes_022
+sort	805438		ToolTip	d92d959997d2	Augmente de ${$w1}% les dégâts de votre technique Frappe céleste et réduit de ${$w2}% son coût en énergie.	lot sorts_classes_022
+sort	805449		Description	384338082292	Inflige ${$m2+($pl*0.8)} points de dégâts de Feu à un ennemi et à tous les autres ennemis autour de lui. \r\n\r\nSi la cible principale est affectée par |cffffffffEnflammer|r, le propage aux ennemis proches.	lot sorts_classes_022
+sort	805449		Name	fc24ae3b8937	Brasier	lot sorts_classes_022
+sort	805451		Description	c97f865713bf	Infliger des dégâts de Feu directs à un ennemi propage |cffffffffEnflammer|r, |cffffffffVolcanic Burst|r et |cffffffffMarque brûlante|r de cet ennemi à un autre ennemi proche.	lot sorts_classes_022
+sort	805451		Name	663508ec5e3e	Flammes dansantes	lot sorts_classes_022
+sort	805451		ToolTip	c97f865713bf	Infliger des dégâts de Feu directs à un ennemi propage |cffffffffEnflammer|r, |cffffffffVolcanic Burst|r et |cffffffffMarque brûlante|r de cet ennemi à un autre ennemi proche.	lot sorts_classes_022
+sort	805472		Description	dab7f3c1eb2c	Toutes les $800815t1 sec, les ennemis dans votre |cffffffffChemin des flammes|r voient leur vitesse de déplacement réduite de $805469s1% et les alliés gagnent $805470s1% de vitesse de déplacement.	lot sorts_classes_022
+sort	805472		Name	409fcbd320ce	Courant de fissure	lot sorts_classes_022
+sort	805472		ToolTip	b9ea25e7ca40	Toutes les $800815t1 sec, les ennemis dans votre Chemin des flammes sont ralentis de $805469s1%, cumulable 3 fois, et les alliés gagnent $805470s1% de vitesse de déplacement, cumulable 3 fois.	lot sorts_classes_022
+sort	805475		Description	fbf6dd59ee91	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffŒuf de phénix|r et augmente de $/1000;s2 sec la durée de |cffffffffChemin des flammes|r.	lot sorts_classes_022
+sort	805475		Name	09d8aeb6f00e	Flamme éternelle	lot sorts_classes_022
+sort	805479		Description	a20047c9f34a	Les dégâts directs subis ont désormais $h% de chances de vous enflammer et d'infliger ${$806751m1+$806751ppl1+$spfi*0.15} points de dégâts de Feu toutes les $806748t1 sec pendant $806748d à $806751i ennemis proches.	lot sorts_classes_022
+sort	805479		Name	429f13e07639	Armure ardente	lot sorts_classes_022
+sort	805480		Description	9e9f3a4ef59c	Étourdit instantanément pendant $706740d les ennemis situés à moins de $a1 mètres qui se trouvent dans votre Chemin des flammes.	lot sorts_classes_022
+sort	805480		Name	853dbf37faf0	Geyser pulvérisateur	lot sorts_classes_022
+sort	805487		Description	95d7cb549ef0	Renforce pendant $805488d les membres du groupe et du raid situés à moins de $a1 mètres qui se trouvent actuellement dans un |cffffffffChemin des flammes|r.\r\n\r\nTant que l'effet est actif, les alliés affectés gagnent $805488s1% de vitesse de déplacement et $805488s2% de chances de coup critique, et reçoivent $805488s3% de soins supplémentaires de votre |cffffffffChemin des flammes|r.	lot sorts_classes_022
+sort	805487		Name	3c2df47071ac	Puissance du feu	lot sorts_classes_022
+sort	805507		Description	6f5f0e80165c	Régénère instantanément $s2% de votre mana maximum, mais réduit de $s1% les dégâts infligés pendant $d.\n\nTant que l'effet est actif, votre menace envers tous les ennemis est annulée.	lot sorts_classes_022
+sort	805507		Name	7f8c5176c3f0	Alignement	lot sorts_classes_022
+sort	805507		ToolTip	1c5a959cb2fa	Dégâts infligés réduits de ${$w1}%. Menace envers tous les ennemis annulée.	lot sorts_classes_022
+sort	805521		Description	331abec557e9	Les soins efficaces reçus ont $801970h% de chances, et tous les dégâts infligés par |cffffffffFracture stellaire|r ont 25% de chances, de vous permettre d'utiliser |cffffffffVengeance d'Élune|r pendant une courte durée.	lot sorts_classes_022
+sort	805521		Name	3314db03a03a	Chevalier céleste	lot sorts_classes_022
+sort	805521		ToolTip	0d4f6c72dc1b	Les soins efficaces reçus et tous les dégâts infligés par |cffffffffFracture stellaire|r ont 15% de chances de vous permettre d'utiliser |cffffffffVengeance d'Élune|r pendant une courte durée.	lot sorts_classes_022
+sort	805522		Description	33669583ad31	Les coups critiques de |cffffffffFlèche lunaire|r augmentent de $680802s1% votre hâte en mêlée et à distance pendant $680802d.	lot sorts_classes_022
+sort	805522		Name	cd2ee8f8aadb	Célérité astrale	lot sorts_classes_022
+sort	805522		ToolTip	8c5a84840436	Augmente votre hâte en mêlée et à distance de ${$w1}%.	lot sorts_classes_022
+sort	805540		Description	489f91c38d5a	Vos attaques automatiques de mêlée et à distance infligent désormais $806513s1 points de dégâts des Arcanes supplémentaires. Cet effet ne peut se produire plus d'une fois toutes les 1,5 sec.	lot sorts_classes_022
+sort	805540		Name	1ded2fa81712	Armes d'acier lunaire	lot sorts_classes_022
+sort	805540		ToolTip	489f91c38d5a	Vos attaques automatiques de mêlée et à distance infligent désormais $806513s1 points de dégâts des Arcanes supplémentaires. Cet effet ne peut se produire plus d'une fois toutes les 1,5 sec.	lot sorts_classes_022
+sort	805544		Description	d3dd0a9ee635	Vous donne une chance d'affliger d'une charge d'Étoiles éparpillées tout ennemi qui vous inflige des dégâts directs, et permet aux Étoiles éparpillées de se cumuler $s2 fois de plus. Ne peut se produire plus d'une fois par seconde.\n@ext:@s:804378:0@:ext@	lot sorts_classes_022
+sort	805544		Name	650c894540b8	Armure céleste	lot sorts_classes_022
+sort	805544		ToolTip	ed70e7c163fb	Vous donne une chance d'affliger d'une charge d'Étoiles éparpillées tout ennemi qui vous inflige des dégâts directs, et permet aux Étoiles éparpillées de se cumuler ${$w2} fois de plus. Ne peut se produire plus d'une fois par seconde.	lot sorts_classes_022
+sort	805545		Description	300f3a5a0f20	Permet d'utiliser |cffffffffVengeance d'Élune|r après un blocage et une esquive, ainsi qu'après une parade. Cet effet ne peut se produire plus d'une fois toutes les 3 sec.	lot sorts_classes_022
+sort	805545		Name	b9a1e36ae740	Vengeance cosmique	lot sorts_classes_022
+sort	805545		ToolTip	b9c8fa652b38	Permet d'utiliser |cffffffffVengeance d'Élune|r après un blocage et une esquive, ainsi qu'après une parade. Cet effet ne peut se produire plus d'une fois toutes les 3 sec.	lot sorts_classes_022
+sort	805568		Description	d5bfba3d4343	Ramène un allié mort à la vie avec $s1 points de vie et $q1 points de mana.\n\nUtilisable en combat. Inutilisable en arène.	lot sorts_classes_022
+sort	805568		Name	29de5042245a	Rejeton	lot sorts_classes_022
+sort	805576		Description	0e4d027d5684	|cffb0f67aRend|r $s1 points de vie à une cible alliée.	lot sorts_classes_022
+sort	805576		Name	a78dd7957268	Guérison tordue	lot sorts_classes_022
+sort	805584		Description	42ca95742c1a	Absorbe ${$AP*0.85} points de dégâts, selon la puissance d'attaque. Dure $d au maximum.	lot sorts_classes_022
+sort	805584		Name	d95888bee350	Protection céleste	lot sorts_classes_022
+sort	805588		Description	4ab3919e3d5f	SUPPRIMÉ	lot sorts_classes_022
+sort	805588		Name	e83012b89217	Hémomancie	lot sorts_classes_022
+sort	805588		ToolTip	4ab3919e3d5f	SUPPRIMÉ	lot sorts_classes_022
+sort	805605		Description	1fad48f49afb	Votre |cffffffffRegard de C'Thun|r gagne désormais ${$92129m1+$92129ppl1} points de dégâts et de soins supplémentaires, selon le niveau.	lot sorts_classes_022
+sort	805605		Name	0d27e1cd161c	Oblitération	lot sorts_classes_022
+sort	805606		Description	f4b0482fe90f	Les dégâts infligés ont $805606h% de chances de vous accorder |cffffffffMurmures corrupteurs|r.\r\n@s:706725:0@	lot sorts_classes_022
+sort	805606		Name	d1c17e810fae	Murmures corrupteurs	lot sorts_classes_022
+sort	805616		Description	a64f485b8849	Réduit de $s1% le temps de recharge de |cffffffffWarplink|r et de |cffffffffTranslation dimensionnelle|r.	lot sorts_classes_022
+sort	805616		Name	579a2bcd6693	Cavalier des lignes telluriques	lot sorts_classes_022
+sort	805616		ToolTip	e4ed96ff751f	Réduit de ${$w1}% le temps de recharge de |cffffffffWarplink|r et de |cffffffffTranslation dimensionnelle|r.	lot sorts_classes_022
+sort	805619		Description	ce774b48679c	Grave une |cFFFFFFFFRune-piège|r sur une surface pendant $d au maximum. \r\n\r\nApprendre ce sort vous enseigne 3 |cffffffffGlyphes de piège|r que vous pouvez graver sur les |cFFFFFFFFRunes-pièges|r et qui déterminent ce qui se produit quand un ennemi les active.\r\n\r\nVous ne pouvez pas placer plusieurs |cFFFFFFFFRunes-pièges|r à moins de $802234a1 mètres les unes des autres.\r\n@ext:@s:800403:0@:ext@\r\n@ext:@s:802231:0@:ext@\r\n@ext:@s:802232:0@:ext@	lot sorts_classes_022
+sort	805619		Name	bf6ea1129771	Runes-pièges	lot sorts_classes_022
+sort	805624		Description	e51a83e7642e	|cffffffffBrûle-sort|r réduit la cible au silence pendant $807000d et l'empêche de lancer des sorts.	lot sorts_classes_022
+sort	805624		Name	39ff9eb13369	Braises ardentes	lot sorts_classes_022
+sort	805631		Description	6bd7ff13aa1c	|cFF66DDFFPassif de niveau 20|r\r\nRéduit de $s1% les temps de recharge de |cffffffffMaillet de Lumière|r, |cffffffffDéflagration d'Horusath|r et |cffffffffAube naissante|r.	lot sorts_classes_022
+sort	805631		Name	c18a7fa513be	Séraphin - Passif de niveau 20	lot sorts_classes_022
+sort	805632		Description	d9a80aec08b4	|cffffffffExécution glorieuse|r augmente désormais de $800626s2% vos dégâts du Sacré et de Feu infligés à la cible pendant $/1000;s1 sec.	lot sorts_classes_022
+sort	805632		Name	208042377778	Lame du soleil	lot sorts_classes_022
+sort	805632		ToolTip	2946b4e1704a	|cffffffffExécution glorieuse|r augmente de $800626s2% vos dégâts du Sacré et de Feu infligés à la cible pendant $/1000;s1 sec.	lot sorts_classes_022
+sort	805634		Description	952b13103bbb	Donne aux blocages réussis $h% de chances de retirer une charge de |cffffffffGlissement tectonique|r.	lot sorts_classes_022
+sort	805634		Name	79fab0a7d8b7	Bouclier tectonique	lot sorts_classes_022
+sort	805634		ToolTip	37a9daee7b47	Donne aux blocages réussis 35% de chances de retirer une charge de |cffffffffGlissement tectonique|r.	lot sorts_classes_022
+sort	805641		Description	a6433076cc9a	Inflige instantanément ${$m1+0+$SP*0.285+$AP*0.255} points de dégâts de flamme sacrée à $i ennemis proches.	lot sorts_classes_022
+sort	805641		Name	0f4893988448	Appel de l'ange	lot sorts_classes_022
+sort	805644		Name	8d0d2ef1e1c1	Déplaceur de montagnes	lot sorts_classes_022
+sort	805664		Description	47f01803c00c	Inflige $s1 points de dégâts d'Ombre à un ennemi$?s704988[ et augmente de $s3% les dégâts initiaux qu'il subit de votre prochain |cffffffffFlamboiement démoniaque|r][].	lot sorts_classes_022
+sort	805664		Name	e3d033d4c90c	Descellement	lot sorts_classes_022
+sort	805664		ToolTip	9e07660512dd	Le prochain Flamboiement démoniaque du chevalier de Xoroth vous inflige ${$w3}% de dégâts initiaux supplémentaires.	lot sorts_classes_022
+sort	805667		Description	98bbbdc54543	Augmente de $s1 vos charges maximales de Feu démoniaque et de $s2% le bonus que vos aptitudes consommant du Feu démoniaque gagnent pour chaque charge.	lot sorts_classes_022
+sort	805667		Name	5c1cab1fdf5f	Porteur de feu	lot sorts_classes_022
+sort	805667		ToolTip	90a0cc2e5a26	Augmente de ${$w1} vos charges maximales de Feu démoniaque et de ${$w2}% le bonus que vos aptitudes consommant du Feu démoniaque gagnent pour chaque charge.	lot sorts_classes_022
+sort	805668		Description	52f6c0b25082	Vous met en rage : votre vitesse de déplacement augmente de $s1%, votre puissance d'attaque de $s2% et vos chances de coup critique de $s3%.\r\n\r\nDure $?a500906[3 sec][$d], plus $/1000;500906s3 sec par charge de Feu démoniaque consommée.$?s680718[ \r\n\r\nTant que l'effet est actif, votre vitesse de déplacement ne peut pas être réduite en dessous de $805792s1%.][]	lot sorts_classes_022
+sort	805668		Name	d4c263e70471	Furie démoniaque	lot sorts_classes_022
+sort	805668		ToolTip	6bf038f568b4	Vitesse de déplacement augmentée de ${$w1}%. Puissance d'attaque augmentée de ${$w2}%. Chances de coup critique augmentées de ${$w3}%.	lot sorts_classes_022
+sort	805670		Description	7bb21fc6a84b	Anéantit un ennemi par le feu infernal et inflige $s1 points de dégâts de flamme d'ombre, selon l'Intelligence.\n\nIgnore les immunités et les résistances.	lot sorts_classes_022
+sort	805670		Name	9b7ee8caf0dc	Calamité	lot sorts_classes_022
+sort	805676		Description	29b6847bb9f3	Fait en sorte que |cffffffffPoing de Xoroth|r inflige $680205s1 points de dégâts physiques à tous les ennemis situés à moins de $680205a1 mètres.	lot sorts_classes_022
+sort	805676		Name	3723cefea089	Haine absolue	lot sorts_classes_022
+sort	805676		ToolTip	169afd74a5e8	Augmente votre Rage maximale de ${$w2}%.	lot sorts_classes_022
+sort	805686		Description	b1f4472035bb	Donne à |cffffffffTir de ferraille|r et à |cffffffffGunsling|r $h% de chances de rendre votre prochain |cffffffffTir de précision|r instantané, de lui faire infliger $805663s3% de dégâts en plus et de lui garantir un coup critique.	lot sorts_classes_022
+sort	805686		Name	169dc049855d	Tir éclair	lot sorts_classes_022
+sort	805692		Description	72a5ed24753e	Votre sort |cffffffffCalamité|r devient instantané. 	lot sorts_classes_022
+sort	805692		Name	996adf05b475	Puissance cataclysmique	lot sorts_classes_022
+sort	805692		ToolTip	e5a6c61f9d9c	Votre sort Calamité devient instantané.	lot sorts_classes_022
+sort	805698		Description	ad58aaf17ad9	Augmente de $s1% l'efficacité de |cFFFFFFFFFiremaw|r, et les dégâts infligés par |cFFFFFFFFFiremaw|r réduisent désormais de $/1000;805699s1 sec le temps de recharge de |cffffffffBurning Scripture|r.	lot sorts_classes_022
+sort	805698		Name	bb72cba3a837	Lame infernale	lot sorts_classes_022
+sort	805698		ToolTip	c0e0aa6d6695	Augmente de ${$w1}% les dégâts de votre prochaine Flamme chercheuse.	lot sorts_classes_022
+sort	805700		Description	1ecf4062ad26	Infliger des dégâts de Feu directs enflamme désormais les cibles et les |cffff4500brûle|r pour $805701o1 points de dégâts de Feu supplémentaires en $805701d.	lot sorts_classes_022
+sort	805700		Name	75068cc27966	Combustion lente	lot sorts_classes_022
+sort	805700		ToolTip	2b026e4d4660	Infliger des dégâts de Feu directs enflamme les cibles et les |cffff4500brûle|r pour ${1.1*$PL+4} points de dégâts de Feu supplémentaires toutes les $805701t sec pendant $805701d.	lot sorts_classes_022
+sort	805702		Description	0d2c8aeb2991	Infliger des dégâts à un ennemi qui a plus de 75% de ses points de vie augmente désormais de $560683s1% vos chances de coup critique pendant $560683d.	lot sorts_classes_022
+sort	805702		Name	55f9ba8a0b56	Braises explosives	lot sorts_classes_022
+sort	805702		ToolTip	0fbe4a4ebe10	Infliger des dégâts à un ennemi qui a plus de 75% de ses points de vie augmente de $560683s1% vos chances de coup critique.	lot sorts_classes_022
+sort	805704		Description	8192e1eb5688	Augmente de $s1 vos charges maximales de |cffff9933Feu démoniaque|r.	lot sorts_classes_022
+sort	805704		Name	35056b3e0157	Forgeflamme	lot sorts_classes_022
+sort	805704		ToolTip	8730428e9a4f	Augmente de ${$w1} vos charges maximales de Feu démoniaque.	lot sorts_classes_022
+sort	805705		Description	2008f25e5613	Augmente de $/1000;s1 sec la durée de |cffffffffBrûler les Écritures|r.	lot sorts_classes_022
+sort	805705		Name	997befeb4020	Dépit	lot sorts_classes_022
+sort	805711		Description	5550e8712aad	Réduit de $805712s1% tous les dégâts reçus pendant $805712d.	lot sorts_classes_022
+sort	805711		Name	849a034435c1	Linceul d'âme	lot sorts_classes_022
+sort	805721		Description	6b753876f9c5	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffComplainte|r et augmente de $s2% ses chances de coup critique.	lot sorts_classes_022
+sort	805721		Name	82859a03edd7	Spectre d'ombre	lot sorts_classes_022
+sort	805721		ToolTip	c8e418565928	Les dégâts d'Ombre et des Arcanes infligés ont une chance de réinitialiser le temps de recharge de |cffffffffComplainte|r.	lot sorts_classes_022
+sort	805723		Description	4374463d869d	Vous place dans un état de Focalisation suprême : la hâte des sorts augmente de $s1% et les chances de coup critique des sorts de $s3%.	lot sorts_classes_022
+sort	805723		Name	462043755b79	Focalisation tellurique	lot sorts_classes_022
+sort	805723		ToolTip	0340be74b03d	Hâte des sorts augmentée de ${$w1}%. Chances de coup critique des sorts augmentées de ${$w2}%.	lot sorts_classes_022
+sort	805731		Description	1421fcb47af5	Active |cffffffffVenin débilitant|r pendant $d : vos incantations ont $h% de chances d'injecter à une cible et aux ennemis autour d'elle un venin invalidant qui réduit de $805895s1% leur vitesse de déplacement pendant $805895d.\r\n\r\nVous ne pouvez avoir que 2 |cffffffffVenins|r différents actifs à la fois.	lot sorts_classes_022
+sort	805731		Name	4b02e9d5cc75	Venin débilitant	lot sorts_classes_022
+sort	805731		ToolTip	94556504719f	Vos incantations ont $h% de chances d'injecter à une cible et aux ennemis autour d'elle un venin invalidant qui réduit de $805895s1% leur vitesse de déplacement.	lot sorts_classes_022
+sort	805736		Description	db04f49a812b	Augmente de $s1% les chances de coup critique et de $s3% la Focalisation maximale. \n\nDe plus, les coups critiques en mêlée avec des aptitudes génèrent $503628s1 points de Focalisation.	lot sorts_classes_022
+sort	805736		Name	331367014c95	Adaptation : Pérégrin	lot sorts_classes_022
+sort	805736		Rank	1cda1dc67fcc	Adaptation	lot sorts_classes_022
+sort	805736		ToolTip	7fcec3bd2254	Augmente de ${$w1}% les chances de coup critique, mais augmente votre Focalisation maximale de ${$w3}% et vos dégâts bonus de coup critique physique de ${$w2}%.	lot sorts_classes_022
+sort	805739		Description	1433c9a0f6fe	Augmente de $s1% les chances de coup critique de votre |cFFFFFFFFCarreau chercheur de cœur|r et de votre |cffffffffCarreau ricochant|r.	lot sorts_classes_022
+sort	805739		Name	ee38f92de57e	Tueur de géants	lot sorts_classes_022
+sort	805761		Description	e27326d875fb	Inflige $s2% des dégâts de l'arme plus ${$m1+($pl*4.66-15*4.66)} points de dégâts à un ennemi.\r\n\r\nUtilisable uniquement sur les ennemis ayant moins de 20% de leurs points de vie ; une fois utilisé, il active les aptitudes qui nécessitent |cffffffffTir enroulé|r.	lot sorts_classes_022
+sort	805761		Name	521ba2ff6530	Percevoir la prime	lot sorts_classes_022
+sort	805761		ToolTip	a2b76f4eaa6a	Armure réduite.	lot sorts_classes_022
+sort	805762		Description	0eab70bb6578	Infliger des dégâts avec |cFFFFFFFFCarreau chercheur de cœur|r et |cffffffffCarreau ricochant|r a désormais $h% de chances de permettre l'utilisation de |cffffffffPercevoir la prime|r quelle que soit la santé de la cible.	lot sorts_classes_022
+sort	805762		Name	30c54a96f801	Collecte	lot sorts_classes_022
+sort	805762		ToolTip	30fe2884eb10	Donne aux aptitudes de carreau 7% de chances de permettre l'utilisation de |cffffffffPercevoir la prime|r quelle que soit la santé de la cible.	lot sorts_classes_022
+sort	805769		Description	a6c1be955142	Réduit de $s1% la durée de tous les effets d'étourdissement ou de ralentissement utilisés contre vous et augmente de $s3% vos chances d'esquive.	lot sorts_classes_022
+sort	805769		Name	76298e5a93f8	Vigilance	lot sorts_classes_022
+sort	805769		ToolTip	aceed2d6bde7	Réduit de ${$w1}% la durée de tous les effets d'étourdissement ou de ralentissement utilisés contre vous. Augmente aussi en permanence vos chances d'esquive de ${$w3}%.	lot sorts_classes_022
+sort	805776		Description	2ba7f6d90e36	Active |cffffffffVenin de flétrissure|r pendant $d : vos sorts et aptitudes nuisibles ont $h% de chances d'empoisonner un ennemi et de lui infliger ${($805896d*1000/$805896T1)*($805896m1*$<scalingbp>+$SP*.18)} points de dégâts d'Ombre en $805896d.\r\n\r\nVous ne pouvez avoir que 2 |cffffffffVenins|r différents actifs à la fois.	lot sorts_classes_022
+sort	805776		Name	c18f55f8e09b	Venin de flétrissure	lot sorts_classes_022
+sort	805776		ToolTip	cf07240686eb	Vos incantations ont $h% de chances d'empoisonner un ennemi et de lui infliger des dégâts d'Ombre toutes les $805896t1 sec.	lot sorts_classes_022
+sort	805777		Description	5fb6d6af0641	Active |cffffffffVenin annihilant|r pendant $d : vos incantations ont $h% de chances de réduire de $805897s1% la vitesse d'incantation d'un ennemi pendant $805897d.\r\n\r\nVous ne pouvez avoir que 2 |cffffffffVenins|r différents actifs à la fois.	lot sorts_classes_022
+sort	805777		Name	c21edfcfcebf	Venin annihilant	lot sorts_classes_022
+sort	805777		ToolTip	0f57aa8d6219	Vos incantations ont $h% de chances de réduire de $805897s1% la vitesse d'incantation d'un ennemi pendant $805897d.	lot sorts_classes_022
+sort	805795		Description	de435bd3572b	Les sorts de |cffffffffMot|r s'activent désormais $s1% plus vite.	lot sorts_classes_022
+sort	805795		Name	6bf250a0f13f	Célérité runique	lot sorts_classes_022
+sort	805795		ToolTip	8bfe3a9b3621	Les sorts de |cffffffffMot|r s'activent désormais ${$w1}% plus vite.	lot sorts_classes_022
+sort	805797		Description	3edbdf866c18	|cffffffffConsomme 1 |cffffffffRune inscrite|r|r\r\nRéduit de $s1% le temps de recharge de votre prochain sort de Familier, ou de $s2% le temps d'incantation de votre prochain Conjuration : Familier runique. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_classes_022
+sort	805797		Name	a620da37e971	Récupération de fragments	lot sorts_classes_022
+sort	805797		ToolTip	b3a66c522e4f	Temps de recharge du prochain sort de Familier réduit de ${$w1}% ou temps d'incantation de Conjuration : Familier runique réduit de ${$w2}%.	lot sorts_classes_022
+sort	805798		Description	600068fd75b3	Vos coups critiques de Feu vous mettent désormais en rage pendant $805799d, ce qui augmente de $805799s1% votre vitesse d'attaque en mêlée pendant $805799d.	lot sorts_classes_022
+sort	805798		Name	299e1c37965b	Rage de Xoroth	lot sorts_classes_022
+sort	805798		ToolTip	b868f0a656e4	Vos coups critiques de Feu vous mettent désormais en rage pendant $805799d, ce qui augmente de $805799s1% votre vitesse d'attaque en mêlée.	lot sorts_classes_022
+sort	807322		Name	db4e851ea051	Sceau de paume : Arcanes	lot sorts_classes_022
+sort	807322		ToolTip	a5bf8ce17e90	Votre prochaine occurrence de dégâts magiques directs inflige des dégâts des Arcanes supplémentaires en 807819d.	lot sorts_classes_022
+sort	807323		Name	db4e851ea051	Sceau de paume : Arcanes	lot sorts_classes_022
+sort	807323		ToolTip	a5bf8ce17e90	Votre prochaine occurrence de dégâts magiques directs inflige des dégâts des Arcanes supplémentaires en 807819d.	lot sorts_classes_022

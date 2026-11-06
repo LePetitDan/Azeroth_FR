@@ -1,0 +1,483 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	503127		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503128		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503129		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503130		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503131		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503132		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503133		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503134		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	503142		Description	55e8aaa6db34	Vous liez une cible ennemie avec des |cffffffffChaînes de l'Enfer|r magiques, l'enracinant et la traînant avec vous pendant $d.\n\nToutes les $t1 sec pendant la durée de l'effet, la cible subit $s1 points de dégâts physiques.\n\nLes ennemis qui ne peuvent pas être étourdis ou enracinés ne peuvent pas non plus être traînés.	lot sorts_classes_008
+sort	503142		Name	35385a75b5b3	Halage infernal	lot sorts_classes_008
+sort	503142		ToolTip	19880672235d	Enraciné, traîné et subit ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503200		Description	116baf10b4c0	Renforce un allié pendant $d et augmente sa caractéristique principale de ${$m1+$SPI*0.25}, selon votre Esprit.	lot sorts_classes_008
+sort	503200		Name	ac6b2fbdea44	Exploits de Force	lot sorts_classes_008
+sort	503200		ToolTip	b726e7d9a6a2	Caractéristique principale augmentée.	lot sorts_classes_008
+sort	503216		Description	195c6cb9fb19	Prononcez votre |cffffffffDiscours inspirant|r le plus inspiré et réduisez de $s1% les dégâts subis par un allié pendant $d. Utilisable en déplacement.\r\n\r\nRéduit aussi les dégâts subis par les membres du groupe et du raid situés à moins de $a2|r mètres et affectés par |cff66ccffMotivation|r, et dissipe 1 effet magique nuisible sur eux.	lot sorts_classes_008
+sort	503216		Name	74820e2bfc0a	Discours inspirant caché	lot sorts_classes_008
+sort	503216		ToolTip	b867b6dd03e6	Vous êtes vraiment inspiré ! Dégâts subis réduits de ${$w1}%.	lot sorts_classes_008
+sort	503222		Description	88fc5c4901dd	Libère instantanément un allié de tout effet d'étourdissement ou de ralentissement et lui confère l'immunité contre ces effets pendant $d. \n\nDissipe $s3 effets magiques nuisibles sur l'allié.	lot sorts_classes_008
+sort	503222		Name	51833174746e	Liberté	lot sorts_classes_008
+sort	503222		ToolTip	e0cb05effb3f	Immunisé contre les effets d'étourdissement et de ralentissement.	lot sorts_classes_008
+sort	503227		Description	8b49a31208f0	Inflige $s1 points de dégâts de Feu.	lot sorts_classes_008
+sort	503227		Name	58e0ba51ece4	Fonte	lot sorts_classes_008
+sort	503231		Description	f43c97e6f6d9	|cffff7f7fGénère 1 Braise|r\r\nLance un rocher en fusion qui s'écrase sur un ennemi et lui inflige ${$m1+0+$SP*0.95} points de dégâts physiques.	lot sorts_classes_008
+sort	503231		Name	517945904a21	Éclat de lave	lot sorts_classes_008
+sort	503232		Description	f43c97e6f6d9	|cffff7f7fGénère 1 Braise|r\r\nLance un rocher en fusion qui s'écrase sur un ennemi et lui inflige ${$m1+0+$SP*0.95} points de dégâts physiques.	lot sorts_classes_008
+sort	503232		Name	517945904a21	Éclat de lave	lot sorts_classes_008
+sort	503233		Description	f43c97e6f6d9	|cffff7f7fGénère 1 Braise|r\r\nLance un rocher en fusion qui s'écrase sur un ennemi et lui inflige ${$m1+0+$SP*0.95} points de dégâts physiques.	lot sorts_classes_008
+sort	503233		Name	517945904a21	Éclat de lave	lot sorts_classes_008
+sort	503234		Description	f43c97e6f6d9	|cffff7f7fGénère 1 Braise|r\r\nLance un rocher en fusion qui s'écrase sur un ennemi et lui inflige ${$m1+0+$SP*0.95} points de dégâts physiques.	lot sorts_classes_008
+sort	503234		Name	517945904a21	Éclat de lave	lot sorts_classes_008
+sort	503239		Description	f43c97e6f6d9	|cffff7f7fGénère 1 Braise|r\r\nLance un rocher en fusion qui s'écrase sur un ennemi et lui inflige ${$m1+0+$SP*0.95} points de dégâts physiques.	lot sorts_classes_008
+sort	503239		Name	517945904a21	Éclat de lave	lot sorts_classes_008
+sort	503258		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503258		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503258		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503259		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503259		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503259		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503260		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503260		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503260		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503261		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503261		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503261		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503262		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503262		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503262		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503263		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503263		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503263		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503264		Description	d29f0d66d1b4	Crée des stalactites qui frappent votre ennemi ${($d*1000/$T1)+1} fois et lui infligent ${(($d*1000/$T1)+1)*($m1+$SP*.20+$AP*0.06)} points de dégâts physiques en $d. Génère$?s92149[ 2 charges de |cffc6a36aFaçonnage de la terre|r et][] $/10;681355s1 points de Rage.\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot sorts_classes_008
+sort	503264		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	503264		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	503295		Description	6c134b83bf61	Vous déchaînez une explosion de magie noire sur un ennemi, lui infligeant |cff01cdfe$s1 points de dégâts d'Ombre|r et augmentant vos chances de |cffff8100coup critique|r contre lui de |cfffeff9e$s2%|r pendant |cfffeff9e$d|r.	lot sorts_classes_008
+sort	503295		Name	409432d4b304	Fléau	lot sorts_classes_008
+sort	503295		ToolTip	4adee9d6100e	Le lanceur a ${$w2}% de chances supplémentaires d'infliger un coup critique à cet ennemi.	lot sorts_classes_008
+sort	503300		Description	249f49b7484d	|cffffffffConsomme les charges de Feu démoniaque|r\r\nVous vous transformez en |cffffffffDémon de Xoroth|r pendant $d, ce qui augmente de $s3% les dégâts magiques infligés et vous fait émaner des flammes infernales toutes les $t2 sec, infligeant $s2 points de dégâts de Feu aux ennemis proches.\r\n\r\nDure $/1000;500906s3 sec de plus pour chaque charge de |cffff9933Feu démoniaque|r consommée.	lot sorts_classes_008
+sort	503300		Name	d6b7c32b4b18	Forme gouffre-feu	lot sorts_classes_008
+sort	503300		ToolTip	30ad2523b108	Dégâts magiques infligés augmentés de ${$w3}%.\n\nVous émanez des flammes infernales toutes les $t2 sec, infligeant ${$w2} points de dégâts de Feu aux ennemis proches.	lot sorts_classes_008
+sort	503313		Description	ed5071f2b0fa	Inflige ${$m2+0+$AP*0.40} points de dégâts de Givre aux ennemis situés à moins de $a2 mètres et rend $s1% de votre Énergie maximale.	lot sorts_classes_008
+sort	503313		Name	79548eec28fb	Courroux de Hodir	lot sorts_classes_008
+sort	503368		Description	14ccbe793ad6	Vous enveloppe d'Énergie sacrée pendant $d, réduisant de $s2% tous les dégâts subis et infligeant ${$m1+($PL*0.9-1*0.9)} points de dégâts du Sacré aux ennemis qui vous frappent, les étourdissant pendant $804080d.\n\nLes ennemis insensibles aux effets d'étourdissement sont repoussés à la place.	lot sorts_classes_008
+sort	503368		Name	12c413374e41	Transgression	lot sorts_classes_008
+sort	503368		ToolTip	98aadfeba971	Tous les dégâts subis sont réduits de ${$w2}%. Chaque fois que vous subissez des dégâts, infligez ${$w1} points de dégâts du Sacré à l'attaquant et étourdissez-le pendant $804080d.\n\nLes ennemis insensibles aux effets d'étourdissement sont repoussés à la place.	lot sorts_classes_008
+sort	503423		Description	5fec239fc778	Frappe un ennemi d'incapacité pendant $d. Subir des dégâts met fin à l'effet.\r\n\r\nUtilisable en restant furtif ; son temps de recharge est réduit de $804317s3% tant que |cffffffffVoile runique|r est actif.	lot sorts_classes_008
+sort	503423		Name	b0d1cefb2162	Inscription : Permafrost	lot sorts_classes_008
+sort	503423		ToolTip	f089d298d62c	Frappé d'incapacité. 	lot sorts_classes_008
+sort	503472		Description	f5c8a7178ff0	Maudit un ennemi pendant $d et lui inflige $s1 points de dégâts d'Ombre toutes les $t1 pendant $d. \r\n\r\nSi vous utilisez |cffffffffFlamboiement démoniaque|r dans les $302551d, vous maudissez votre cible avec |cffffffffFeu rituel|r pendant $302552d.\r\n\r\nIncanter |cffffffffMalédiction de Hel'nurath|r sur une cible affligée par |cffffffffFeu rituel|r vous confère |cffffffffBouclier noir|r.@ext:@s:805679:0@:ext@	lot sorts_classes_008
+sort	503472		Name	1a29a35b31df	Malédiction de Xoroth	lot sorts_classes_008
+sort	503472		ToolTip	8dffde8d50f8	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec. À la fin de la durée, un démon est invoqué depuis votre corps.	lot sorts_classes_008
+sort	503509		Description	c64b60d57d33	Rend ${$m1+$PPL1+$SP*0.85} points de vie à votre allié |cFFFFFFFFguidé|r, puis ${$m2+$PPL2+$SP*0.12} points de vie supplémentaires toutes les $680887t1 sec pendant $680887d.\r\n\r\nUtilisable uniquement sur les alliés sous l'effet de |cffffffffGuidance solaire|r.	lot sorts_classes_008
+sort	503509		Name	0e274ee7f6b1	Guidance : Toucher de lumière	lot sorts_classes_008
+sort	503509		ToolTip	6fa565ef4dce	Rend ${$w2} points de vie toutes les $t2 sec.	lot sorts_classes_008
+sort	503517		Description	e3c34ebb2bb1	Rend votre allié |cffffffffguidé|r invulnérable à tous les dégâts pendant $680889d et augmente sa vitesse de déplacement de $680889s2% pendant la durée de l'effet.\r\n\r\n@ext:Only usable on allies with |cffffffffSolar Guidance|r active.:ext@	lot sorts_classes_008
+sort	503517		Name	dd14fa62b92f	Guidance : Intervention	lot sorts_classes_008
+sort	503517		ToolTip	517e703087f4	Invulnérable aux dégâts. Vitesse de déplacement augmentée de $680889s2%.	lot sorts_classes_008
+sort	503562		Description	d6aa419fc70d	Vous apprend |cffffffffConstruire : Méca-armure|r.\r\n\r\nVous pouvez désormais générer de la |cffc7c7c7Ferraille|r pour construire votre |cFFFFFFFFMéca-armure|r, et |cffffffffTir de ferraille|r et |cffffffffBombe collante|r génèrent désormais de la |cffc7c7c7Ferraille|r. @s:801384:0@	lot sorts_classes_008
+sort	503562		Name	fe8ca6aa647c	Construire : Méca-armure	lot sorts_classes_008
+sort	503567		Description	5805006c8f8e	Enseigne |cffffffffAmélioration !|r, qui vous permet d'améliorer vos tourelles.\r\n\r\nLes |cffffffffTirs de ferraille au fusil à pompe|r génèrent désormais 5 |cffc7c7c7Ferraille|r.\r\n@s:800349:0@	lot sorts_classes_008
+sort	503567		Name	a4da98be221c	Mécanicien de tourelles	lot sorts_classes_008
+sort	503599		Description	0e9be44ec6b7	|cffffffffInvoque Bethekk|r\nVous téléporte instantanément derrière un ennemi, lui infligeant $s3 points de dégâts de Frappe d'ombre et augmentant votre vitesse de déplacement de $504467s1% pendant $504467d.	lot sorts_classes_008
+sort	503599		Name	f1c22028e3ca	Marche-sombre	lot sorts_classes_008
+sort	503679		Description	c1adf08bbe16	Lance des chausse-trappes sur une zone de $a1 mètres, pendant $d.\r\n\r\nLes ennemis qui marchent dessus subissent ${$504447m1+$504447ppl1+$RAP*.25} points de dégâts physiques et voient leur vitesse de déplacement réduite de $504823s1% pendant $504823d.	lot sorts_classes_008
+sort	503679		Name	a010ba359c24	Chausse-trappes	lot sorts_classes_008
+sort	503679		ToolTip	0f54d7168166	Marche sur des chausse-trappes.	lot sorts_classes_008
+sort	503736		Description	bbb0025baa42	Génère $s3% du mana maximum et $/10;s1 points de Rage, puis $/10;503735s1 points de Rage et ${$503735m3+$503735ppl3} points de mana supplémentaires toutes les $503735t3 sec pendant $503735d.	lot sorts_classes_008
+sort	503736		Name	4214f5f5b604	Rage de Therazane	lot sorts_classes_008
+sort	503875		Description	1738c0f1ac48	Frappe un ennemi et jusqu'à ${$x1-1} ennemis proches, infligeant ${$m1+0+$SP*0.250505} points de dégâts chromatiques.$?s520166[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][] 	lot sorts_classes_008
+sort	503875		Name	c62a1729f624	Discordance	lot sorts_classes_008
+sort	503883		Description	ebab6501fae5	Vous transforme en |cffffffffIncarnation de l'Ordre|r pendant $d : vos sorts d'|cFFFFFFFFOrdre|r touchent $s1 ennemis supplémentaires tant que vous êtes sous |cFFFFFFFFOrdre renforcé|r. 	lot sorts_classes_008
+sort	503883		Name	dfb3fbbeeac5	Incarnation de l'Ordre	lot sorts_classes_008
+sort	503883		ToolTip	c44253d384c8	Les sorts d'Ordre touchent désormais ${$w1} ennemis supplémentaires.	lot sorts_classes_008
+sort	503907		Description	3806f4acd71b	Le changement de forme vous libère des effets d'enracinement et de ralentissement.	lot sorts_classes_008
+sort	503907		Name	bdcb903526e4	Disciple de Shadra	lot sorts_classes_008
+sort	503908		Description	2496cb1f82e0	Empale jusqu'à $x ennemis situés à moins de $r mètres et affectés par |cffffffffFroid de la mort|r, leur infligeant ${$m1+0+$spfr*0.45} points de dégâts de Givre.	lot sorts_classes_008
+sort	503908		Name	c1b4c4aa1fe0	Séisme de glace	lot sorts_classes_008
+sort	503924		Description	9ae102002b7a	Pendant $d, tuer un ennemi fait tomber sous lui un |cffffffffGros champignon|r qui explose après $d, infligeant ${$503925m1+$503925ppl1+$SP*1} points de dégâts de Peste à un maximum de $503925i ennemis situés à moins de $503925a mètres, en ignorant les résistances et les effets d'absorption.	lot sorts_classes_008
+sort	503924		Name	dd1410ac1699	Gros champignon	lot sorts_classes_008
+sort	504014		Name	c4ae793225cd	Coup d'âme	lot sorts_classes_008
+sort	504014		ToolTip	aa861fa08993	Horrifié.	lot sorts_classes_008
+sort	504015		Description	f5542f8f6126	Augmente de $s1% les bonus fournis par vos charges d'|cff8fff7aAvantage|r.	lot sorts_classes_008
+sort	504015		Name	93b0122fd488	Maître tireur d'élite	lot sorts_classes_008
+sort	504015		ToolTip	5ed80f3d2a53	Le bonus fourni par vos points d'archerie est augmenté de ${$w1}%.	lot sorts_classes_008
+sort	504020		Description	5956dff698cb	Ordonne à vos |cffffffffMages squelettes|r d'infliger ${$801513m1+$spfr*.8} points de dégâts de Givre aux ennemis situés à moins de $801513a1 mètres de votre cible.\r\n\r\n@ext:Not usable while in |cFFFFFFFFUndead: Pacify|r.:ext@	lot sorts_classes_008
+sort	504020		Name	eebb202d7bce	Ordre : Mage squelette	lot sorts_classes_008
+sort	504021		Description	ea8372156b5a	Ordonne à vos |cffffffffGoules|r d'expulser la peste, drainant les ennemis situés à moins de $801514a1 mètres pour ${$801514m1+$801514ppl1+$SP*0.375+$INT*.5} points de dégâts de Peste et vous rendant ${$801514m3+$801514ppl3+$SP*0.22+$INT*.50} points de vie pour chaque |cffffffffGoule|r.\r\n\r\n@ext:Not usable while in |cFFFFFFFFUndead: Pacify|r.:ext@	lot sorts_classes_008
+sort	504021		Name	21c14751a5d7	Ordre : Goules	lot sorts_classes_008
+sort	504052		Description	72ff25117e0f	Ordonne à votre |cffffffffGargouille|r de cracher de la bile nécrotique sur un ennemi, lui infligeant ${$707598m1+$707598ppl1+$SP*0.65} points de dégâts de Peste, avec 50% de dégâts supplémentaires pour chacune de vos maladies présentes sur la cible.\r\n\r\n@ext:Not usable while in |cFFFFFFFFUndead: Pacify|r.:ext@	lot sorts_classes_008
+sort	504052		Name	bf316da43da3	Ordre : Gargouille	lot sorts_classes_008
+sort	504060		Description	8b675aa21154	Pendant $d, vos sorts de |cffffffffConstruction|r ne coûtent pas de mana et leur temps d'incantation est supprimé.	lot sorts_classes_008
+sort	504060		Name	bd2847f24187	Intuition élémentaire	lot sorts_classes_008
+sort	504060		ToolTip	2b5d710ba6b6	Les sorts de construction ne coûtent pas de mana et sont instantanés.	lot sorts_classes_008
+sort	504120		Description	79303d87590d	Frappe un ennemi d'un coup de pied pour ${$m1+$PL*0.15+($SP+$AP)*0.18} points de dégâts physiques et vous confère |cffffffffSuite|r. \r\n\r\nPendant $504119d, |cffffffffSuite|r et |cffffffffBrise-serments|r frappent $504119s1 ennemi supplémentaire, cumulable $504119u fois.	lot sorts_classes_008
+sort	504120		Name	8c5ec4edfe9a	Coup de pied	lot sorts_classes_008
+sort	504122		Description	9a3f7dcd6e18	Lancer une |cffffffffSuite|r différente de la précédente augmente de $504123s2% l'efficacité des |cffffffffSerments|r et de $504123s1% les dégâts des |cffffffffSuites|r.	lot sorts_classes_008
+sort	504122		Name	3a45a2aca70e	Discipline des titans	lot sorts_classes_008
+sort	504149		Description	973f0215f4f8	Embrassez votre nature héroïque et courageuse : votre Force augmente de $s2% et vos chances de coup critique ainsi que votre hâte de mêlée de $s3% pendant $d.	lot sorts_classes_008
+sort	504149		Name	ec27070982e6	Chevalerie	lot sorts_classes_008
+sort	504149		ToolTip	7ab48f1540fd	Force augmentée de ${$w2}%. Chances de coup critique et hâte de mêlée augmentées de ${$w3}%.	lot sorts_classes_008
+sort	504177		Description	5fbe053808c7	Frappe jusqu'à $i ennemis devant vous, infligeant $s1% des dégâts de l'arme plus ${$m2+0} et réduisant leur puissance d'attaque de ${-($m3)} pendant $d.	lot sorts_classes_008
+sort	504177		Name	26472cf00414	Large balayage	lot sorts_classes_008
+sort	504177		ToolTip	56a054a7dbaa	Puissance d'attaque réduite de ${-($w3)}.	lot sorts_classes_008
+sort	504217		Description	1ac3bbe564a4	Visez et lancez un javelot sur un ennemi, lui infligeant $s2% des dégâts d'arme à distance plus ${$m1+0}. \r\n\r\nProfite des modificateurs de dégâts de |cffffffffLancer l'arme|r et de |cffffffffSpears|r. Utilisable en déplacement.	lot sorts_classes_008
+sort	504217		Name	80705dff24f7	Lancer de javelot	lot sorts_classes_008
+sort	504233		Description	8bc072870ba4	Votre prochain |cffffffffHeurt de pierre|r ou |cffffffffTerre fracturée|r vous confère |cffffffffCourroux d'Al'Akir|r pendant $504232d : votre prochaine |cffffffffGriffe sauvage|r frappe deux fois de plus.\r\n\r\nVous ne pouvez avoir qu'un seul sort de |cffffffffPoing|r actif à la fois.\r\n\r\n@ext:Dealing damage with |cffffffffStoneslam|r while at full stacks of |cffffffffMountain's Might|r reduces the remaining cooldown of your |cffffffffFist|r spells by $/1000;801515s1 sec.:ext@	lot sorts_classes_008
+sort	504233		Name	c34753b88f35	Poing d'Al'Akir	lot sorts_classes_008
+sort	504233		ToolTip	3eaad9d71aa1	Votre prochain Heurt de pierre vous confère Courroux d'Al'Akir.	lot sorts_classes_008
+sort	504296		Description	e464b3c6c134	Protège le lanceur avec la magie du sang. Votre régénération de points de vie continue en combat et augmente de $s2%. Augmente de $s1% l'Armure fournie par les objets. Dure $d.\r\n\r\n@ext: Only 1 |cffffffffShield|r can be active at a time.:ext@	lot sorts_classes_008
+sort	504296		Name	50b29ebf592e	Bouclier de sang	lot sorts_classes_008
+sort	504296		ToolTip	a7f2655d6918	Augmente de ${$W1}% l'Armure fournie par les objets. La régénération de points de vie continue en combat et augmente de ${$W2}%.	lot sorts_classes_008
+sort	504301		Description	cb3d4257fbb4	Pendant $d, infliger des dégâts de Feu directs rend |cffffffffFlamboiement solaire|r instantané.	lot sorts_classes_008
+sort	504301		Name	4e5d9f2901d6	Lumière aveuglante	lot sorts_classes_008
+sort	504315		Description	fbc4b4a43ccd	Anime $s1 |cffffffffZombies|r pour vous aider au combat pendant $525379d.\r\n\r\nToutes les $504023t1 sec, les |cffffffffZombies|r émettent de la |cffffffffPeste zombie|r, infligeant ${$504022m1+$504022ppl1+$SP*0.1} points de dégâts de Peste aux ennemis proches.	lot sorts_classes_008
+sort	504315		Name	1766e342a658	Animer : Zombies	lot sorts_classes_008
+sort	504334		Description	8145a7487fde	Ordonne à vos |cffffffffGuerriers squelettes|r de frapper jusqu'à $570042i ennemis dans un arc frontal, infligeant les dégâts de l'arme plus ${$570042m2+$SP*.35+$AP*0.35} points de dégâts physiques.$?s500983[\r\n\r\n@ext:Not usable while in |cFFFFFFFFUndead: Pacify|r.:ext@][]	lot sorts_classes_008
+sort	504334		Name	e92eb9df2dfc	Ordre : Guerriers squelettes	lot sorts_classes_008
+sort	504335		Description	41b990a5b7b0	Enveloppe votre cible dans un cocon et l'étourdit pendant $d.	lot sorts_classes_008
+sort	504335		Name	fe46e534570e	Entoilage	lot sorts_classes_008
+sort	504362		Description	9baa1bd68768	Transforme un ennemi en |cffffffffFongarien|r, enfilant des filaments mycéliens dans ses pensées pour en prendre le contrôle pendant $504614d (8 sec contre les joueurs).\r\n\nLes dégâts subis peuvent interrompre l'effet.	lot sorts_classes_008
+sort	504362		Name	23a99869f729	Fongifier	lot sorts_classes_008
+sort	504362		ToolTip	d770bcee3984	Contrôlé par le Vénomancien.	lot sorts_classes_008
+sort	504378		Description	190f93434d6c	Vous rétrécissez jusqu'à devenir une minuscule petite araignée et augmentez de $s1% vos chances d'esquiver pendant $d.	lot sorts_classes_008
+sort	504378		Name	aff0c01ac125	Dans le jet d'eau	lot sorts_classes_008
+sort	504378		ToolTip	c1101c72b02c	Chances d'esquiver augmentées de ${$w1}%.	lot sorts_classes_008
+sort	504409		Description	9b14773b9fb2	Maudit jusqu'à $i ennemis, augmentant de $s2% vos dégâts de Nature contre eux et leur infligeant $s1 points de dégâts de Nature toutes les $t sec pendant $d.\r\n\r\nPendant $d, |cffffffffRayon du serpent|r ne coûte pas de mana et frappe jusqu'à $504408s1 cibles proches.	lot sorts_classes_008
+sort	504409		Name	09d108e81db4	Maléfice de Quetz'lun	lot sorts_classes_008
+sort	504409		ToolTip	9198365ab501	Subit $s1 points de dégâts de Nature toutes les $t sec. Dégâts de Nature subis augmentés de $s2%.	lot sorts_classes_008
+sort	504421		Description	8fa95e5572bc	Marque un allié pendant $d, augmentant sa vitesse de déplacement de $504576s1%. \r\n\r\nQuand vous soignez directement la cible marquée, une charge supplémentaire de l'effet est ajoutée, cumulable $u fois.	lot sorts_classes_008
+sort	504421		Name	a4c300c3f02b	Marque de Pa'ku	lot sorts_classes_008
+sort	504421		ToolTip	1e99383357fc	Vitesse de déplacement augmentée de $504576s1%.	lot sorts_classes_008
+sort	504519		Description	bbe7690b7294	Crée le dernier cri en matière de technologie de tourelle, la |cffffffffTourelle de combat X-13|r, pendant $d. Elle émet une aura qui augmente de $s2% les dégâts de vos invocations.\r\n\r\nLes alliés peuvent entrer dans la tourelle, ce qui leur donne accès à des aptitudes uniques et à la réserve de points de vie de la tourelle pendant la durée de l'effet.	lot sorts_classes_008
+sort	504519		Name	7b98b2e17386	Construire : Tourelle de combat X-13	lot sorts_classes_008
+sort	504519		ToolTip	16e1a0ebc50c	Les invocations infligent ${$w1}% de dégâts supplémentaires.	lot sorts_classes_008
+sort	504693		Name	58a3f3a1a64e	Vocation du chevalier	lot sorts_classes_008
+sort	504707		Description	254c11118de6	Imprègne votre peau de flammes vivifiantes, augmentant votre score de hâte des sorts de $s3% de votre Esprit et votre vitesse de déplacement, y compris monté, de $s1%. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffSkin|r active at a time.:ext@	lot sorts_classes_008
+sort	504707		Name	413fe8e4f169	Peau de Braise	lot sorts_classes_008
+sort	504707		ToolTip	71b5b33c604b	Hâte des sorts augmentée de ${$w3}% de votre Esprit, et vitesse de déplacement, y compris monté, augmentée de ${$w1}%.	lot sorts_classes_008
+sort	504720		Description	e965a8ee6d57	Imprègne votre peau de cendres volcaniques : $s1% de votre régénération de mana continue en combat, et les dégâts périodiques infligés rendent $505187s1% de votre mana de base. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffSkin|r active at a time.:ext@	lot sorts_classes_008
+sort	504720		Name	567236e52ff7	Peau cendreuse	lot sorts_classes_008
+sort	504720		ToolTip	a72e532f32fa	${$W1}% de la régénération de mana continue pendant l'incantation. Les dégâts périodiques infligés régénèrent du mana. \r\n\r\n	lot sorts_classes_008
+sort	504856		Name	1344c9b5c8fd	Faveur du lion	lot sorts_classes_008
+sort	504856		ToolTip	99f182f42bbf	Augmente de ${$w1}% vos chances de résister aux effets de peur, de charme et de sommeil. \r\n\r\nDissipe $853226s1 effet de peur, de charme et de sommeil sur les membres du groupe situés à moins de $505217a1 mètres toutes les $505217t1 sec.	lot sorts_classes_008
+sort	504868		Description	726cae2433c6	Ordonne à vos serviteurs morts-vivants d'exécuter une attaque unique sur votre cible.\r\n\r\nConsultez les sorts de |cffffffffRéanimation|r pour leur effet de |cff90ee90Commandement|r.	lot sorts_classes_008
+sort	504868		Name	ae1fb4b7f842	Ordre : Morts-vivants	lot sorts_classes_008
+sort	520005		Description	8d3e727a9adf	|cffff9933Génère 1 charge de Feu démoniaque|r\r\nAssomme un ennemi et tous les ennemis proches, infligeant $s2% des dégâts de l'arme.\r\n\r\nDéchaîne votre |cffffffffPestilence|r active pour déclencher un effet puissant.\r\n\r\nProfite des modificateurs de |cffffffffSectionner|r.	lot sorts_classes_008
+sort	520005		Name	e25546367ce4	Matraque de soufre	lot sorts_classes_008
+sort	520043		Description	f8e6663bc2ec	Expose le passé d'un ennemi pendant $d : il subit $s1% de dégâts magiques supplémentaires de votre part.	lot sorts_classes_008
+sort	520043		Name	a8c46d31758f	Erreurs du passé	lot sorts_classes_008
+sort	520043		ToolTip	dec1f3a3ea7b	Subit ${$w1}% de dégâts magiques supplémentaires.	lot sorts_classes_008
+sort	520046		Description	a9f92643c64f	Fait les poches de la cible d'un toucher éphémère et lui dérobe du butin.	lot sorts_classes_008
+sort	520046		Name	76097fb5b040	Main spectrale	lot sorts_classes_008
+sort	520047		Description	f10a559d36aa	Distrait les ennemis de la zone ciblée par un faible murmure, attirant l'attention de tous les ennemis proches pendant $s1 sec.  	lot sorts_classes_008
+sort	520047		Name	26e6559eac6f	Murmure des égarés	lot sorts_classes_008
+sort	520085		Description	aa3be3d8a4fc	Rend à votre |cffffffffÉlémentaire d'air|r $520088s1% de ses points de vie maximum toutes les $T1 sec pendant $d.	lot sorts_classes_008
+sort	520085		Name	9824582968cf	Revigorer l'élémentaire	lot sorts_classes_008
+sort	520085		ToolTip	657f52338c53	Draine 5% du mana maximum pour rendre à votre élémentaire d'air 5% de ses points de vie maximum.	lot sorts_classes_008
+sort	520091		Name	f8818a4591fa	Glyphe de flamme	lot sorts_classes_008
+sort	520097		Name	c5d11864056a	Glyphe de flamme déchaîné	lot sorts_classes_008
+sort	520151		Description	c7f6e1294841	Dévore $m1 effet magique nuisible sur une cible amie, le dissipant et vous rendant ${$520152m1+$SP*.175} points de vie.	lot sorts_classes_008
+sort	520151		Name	817853f5fe3d	Dévorer la magie	lot sorts_classes_008
+sort	520206		Description	d153e9daf55a	Tire un trait vicieux infligeant ${$RAP*0.225+$SP*.4+$m1+0} points de dégâts physiques et réduisant de $s2% les soins reçus par la cible pendant $d.\r\n\r\nGénère $/10;681151S1 points de Rage. Rafraîchit la durée de |cffffffffTrait du tourmenteur|r. Utilisable uniquement juste après |cffffffffTir enroulé|r.	lot sorts_classes_008
+sort	520206		Name	61261fc59671	Trait arrête-cœur	lot sorts_classes_008
+sort	520206		ToolTip	a32c2a8827e1	Soins reçus réduits de ${$w2}%.	lot sorts_classes_008
+sort	520269		Description	e706105e9f77	Vous vous nourrissez de la magie latente d'un ennemi et lui volez $s1 effets magiques bénéfiques.\r\n\r\nUtilisable en déplacement.	lot sorts_classes_008
+sort	520269		Name	c475fc4c3dd2	Nourriture tellurique	lot sorts_classes_008
+sort	520292		Description	cfb978ca8f11	Crache du feu sur tous les ennemis dans un cône de $a1 mètres devant et derrière vous, infligeant ${$m1*$<scalingbp>+$AP*0.27625+$spfi*.4} points de dégâts de Feu et réduisant de $/1000;704541S1 sec le temps de recharge de |cffffffffChaînes de Xoroth|r par ennemi touché.\r\n\r\nLe temps de recharge est réduit de $/1000;704195s3 sec pour chaque charge de |cffff9933Feu démoniaque|r consommée.	lot sorts_classes_008
+sort	520292		Name	137463d2e00e	Soufflet infernal	lot sorts_classes_008
+sort	520307		Description	eac21df95f66	Vous prenez la forme d'un |cFFFFFFFFCracheur de venin|r, ce qui augmente de $s2% votre vitesse de déplacement, vous permet de planer et ralentit votre vitesse de chute. \r\n\r\nEn chute, vous pouvez contrôler votre direction et descendre lentement. Utilisable uniquement en extérieur.	lot sorts_classes_008
+sort	520307		Name	5431039a670a	Forme d'aile-venin	lot sorts_classes_008
+sort	520307		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	520307		ToolTip	58ae62168089	Vitesse de déplacement augmentée de $?s806469[50%][${$w2}%].	lot sorts_classes_008
+sort	520320		Description	954fd3ec4a28	|cffff7f7fConsomme 1 Braise|r\r\nRéchauffe un allié de flammes éternelles et lui rend ${$m1+0+$SP*0.176111+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_008
+sort	520320		Name	c7b786901177	Toucher de Braise	lot sorts_classes_008
+sort	520399		Description	8c720a6e9c91	Bondit dans les airs et ralentit votre vitesse de chute pendant $d.\r\n\r\nInutilisable en combat.	lot sorts_classes_008
+sort	520399		Name	141278b89233	Envol	lot sorts_classes_008
+sort	520399		ToolTip	d4c0c08454db	En vol.	lot sorts_classes_008
+sort	520412		Description	53fea1d471f1	Crée un séisme à l'endroit ciblé, infligeant ${$m1+0+$spn*0.3+$AP*.15} points de dégâts de Nature toutes les $T1 sec et réduisant la vitesse de déplacement de $520696s1% pendant $d.$?s92149[\r\n\r\nInflige $532562s3% de dégâts supplémentaires pour chaque charge de |cffc6a36aFaçonnage de la terre|r.][]	lot sorts_classes_008
+sort	520412		Name	6b850887eacd	Séisme	lot sorts_classes_008
+sort	520412		ToolTip	ffd9975ac151	Subit ${$w1} points de dégâts de Nature toutes les $t1 sec et vitesse de déplacement réduite de $520696s2%.	lot sorts_classes_008
+sort	520512		Description	c6f135569ede	Émane une aura apaisante pendant $d : toutes les $t1 sec, les alliés proches sont débarrassés de 1 effet de maladie et de poison.	lot sorts_classes_008
+sort	520512		Name	dcdafe33763f	Grâce de Neptulon	lot sorts_classes_008
+sort	520512		ToolTip	6d38ed72f69d	Purifie 1 effet de maladie et de poison toutes les $t1 sec.	lot sorts_classes_008
+sort	520514		Description	68fa28a9cc49	Émane une aura purificatrice pendant $d : toutes les $t1 sec, les alliés proches sont débarrassés de 1 effet de maladie et de poison.	lot sorts_classes_008
+sort	520514		Name	6c6a2882da88	Purification rituelle	lot sorts_classes_008
+sort	520514		ToolTip	6d38ed72f69d	Purifie 1 effet de maladie et de poison toutes les $t1 sec.	lot sorts_classes_008
+sort	520523		Description	d16fd78b626f	Assène un coup de tête sauvage à un ennemi, lui infligeant ${$m2+0+$AP*0.375} points de dégâts physiques, le jetant brièvement à terre et l'étourdissant pendant $d.	lot sorts_classes_008
+sort	520523		Name	90bb4ebcaa6c	Coup de tête	lot sorts_classes_008
+sort	520560		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520560		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520561		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520561		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520562		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520562		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520563		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520563		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520564		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520564		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520565		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520565		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520566		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	520566		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	520591		Description	e51eef6a1d3e	Réduit les dégâts de chute.	lot sorts_classes_008
+sort	520591		Name	1bd96f3b4458	Finesse gangrenée	lot sorts_classes_008
+sort	520741		Description	53fea1d471f1	Crée un séisme à l'endroit ciblé, infligeant ${$m1+0+$spn*0.3+$AP*.15} points de dégâts de Nature toutes les $T1 sec et réduisant la vitesse de déplacement de $520696s1% pendant $d.$?s92149[\r\n\r\nInflige $532562s3% de dégâts supplémentaires pour chaque charge de |cffc6a36aFaçonnage de la terre|r.][]	lot sorts_classes_008
+sort	520741		Name	6b850887eacd	Séisme	lot sorts_classes_008
+sort	520741		ToolTip	ffd9975ac151	Subit ${$w1} points de dégâts de Nature toutes les $t1 sec et vitesse de déplacement réduite de $520696s2%.	lot sorts_classes_008
+sort	520742		Description	53fea1d471f1	Crée un séisme à l'endroit ciblé, infligeant ${$m1+0+$spn*0.3+$AP*.15} points de dégâts de Nature toutes les $T1 sec et réduisant la vitesse de déplacement de $520696s1% pendant $d.$?s92149[\r\n\r\nInflige $532562s3% de dégâts supplémentaires pour chaque charge de |cffc6a36aFaçonnage de la terre|r.][]	lot sorts_classes_008
+sort	520742		Name	6b850887eacd	Séisme	lot sorts_classes_008
+sort	520742		ToolTip	ffd9975ac151	Subit ${$w1} points de dégâts de Nature toutes les $t1 sec et vitesse de déplacement réduite de $520696s2%.	lot sorts_classes_008
+sort	520743		Description	53fea1d471f1	Crée un séisme à l'endroit ciblé, infligeant ${$m1+0+$spn*0.3+$AP*.15} points de dégâts de Nature toutes les $T1 sec et réduisant la vitesse de déplacement de $520696s1% pendant $d.$?s92149[\r\n\r\nInflige $532562s3% de dégâts supplémentaires pour chaque charge de |cffc6a36aFaçonnage de la terre|r.][]	lot sorts_classes_008
+sort	520743		Name	6b850887eacd	Séisme	lot sorts_classes_008
+sort	520743		ToolTip	ffd9975ac151	Subit ${$w1} points de dégâts de Nature toutes les $t1 sec et vitesse de déplacement réduite de $520696s2%.	lot sorts_classes_008
+sort	520744		Description	53fea1d471f1	Crée un séisme à l'endroit ciblé, infligeant ${$m1+0+$spn*0.3+$AP*.15} points de dégâts de Nature toutes les $T1 sec et réduisant la vitesse de déplacement de $520696s1% pendant $d.$?s92149[\r\n\r\nInflige $532562s3% de dégâts supplémentaires pour chaque charge de |cffc6a36aFaçonnage de la terre|r.][]	lot sorts_classes_008
+sort	520744		Name	6b850887eacd	Séisme	lot sorts_classes_008
+sort	520744		ToolTip	ffd9975ac151	Subit ${$w1} points de dégâts de Nature toutes les $t1 sec et vitesse de déplacement réduite de $520696s2%.	lot sorts_classes_008
+sort	520745		Description	53fea1d471f1	Crée un séisme à l'endroit ciblé, infligeant ${$m1+0+$spn*0.3+$AP*.15} points de dégâts de Nature toutes les $T1 sec et réduisant la vitesse de déplacement de $520696s1% pendant $d.$?s92149[\r\n\r\nInflige $532562s3% de dégâts supplémentaires pour chaque charge de |cffc6a36aFaçonnage de la terre|r.][]	lot sorts_classes_008
+sort	520745		Name	6b850887eacd	Séisme	lot sorts_classes_008
+sort	520745		ToolTip	ffd9975ac151	Subit ${$w1} points de dégâts de Nature toutes les $t1 sec et vitesse de déplacement réduite de $520696s2%.	lot sorts_classes_008
+sort	520841		Description	cbf20210ef33	Apporte la grâce de la Terre-Mère à un allié et lui retire $s1 effet de poison et de maladie.	lot sorts_classes_008
+sort	520841		Name	d08864920559	Toucher apaisant	lot sorts_classes_008
+sort	520862		Description	669221bc49f5	Purge l'âme d'un ennemi et lui retire $s1 effets magiques bénéfiques.	lot sorts_classes_008
+sort	520862		Name	fee2e7cede56	Cisaillement d'âme	lot sorts_classes_008
+sort	523478		Description	3a5118a63875	Augmente l'Armure de la cible amie de ${$m1+0} et toutes ses caractéristiques principales de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_classes_008
+sort	523478		Name	3f264b50e3f3	Intuition man'ari	lot sorts_classes_008
+sort	523478		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	523479		Description	3a5118a63875	Augmente l'Armure de la cible amie de ${$m1+0} et toutes ses caractéristiques principales de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_classes_008
+sort	523479		Name	3f264b50e3f3	Intuition man'ari	lot sorts_classes_008
+sort	523479		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	523480		Description	3a5118a63875	Augmente l'Armure de la cible amie de ${$m1+0} et toutes ses caractéristiques principales de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_classes_008
+sort	523480		Name	3f264b50e3f3	Intuition man'ari	lot sorts_classes_008
+sort	523480		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	523481		Description	3a5118a63875	Augmente l'Armure de la cible amie de ${$m1+0} et toutes ses caractéristiques principales de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_classes_008
+sort	523481		Name	3f264b50e3f3	Intuition man'ari	lot sorts_classes_008
+sort	523481		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	523482		Description	3a5118a63875	Augmente l'Armure de la cible amie de ${$m1+0} et toutes ses caractéristiques principales de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_classes_008
+sort	523482		Name	3f264b50e3f3	Intuition man'ari	lot sorts_classes_008
+sort	523482		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	523483		Description	3a5118a63875	Augmente l'Armure de la cible amie de ${$m1+0} et toutes ses caractéristiques principales de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_classes_008
+sort	523483		Name	3f264b50e3f3	Intuition man'ari	lot sorts_classes_008
+sort	523483		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	523495		Description	fc89396b36c3	Augmente l'Armure de tous les membres du groupe et du raid de ${$m1+0} et toutes leurs caractéristiques principales de $s2 pendant $d.	lot sorts_classes_008
+sort	523495		Name	c67a546b609c	Intuition man'ari supérieure	lot sorts_classes_008
+sort	523495		ToolTip	9fb6d334e45f	Augmente l'Armure de ${$W1} et toutes les caractéristiques de ${$W2}.	lot sorts_classes_008
+sort	524709		Description	3cb186520e10	Émane une aura mortelle pendant $d : toutes les $t1 sec, les alliés situés à moins de $806459a1 mètres sont débarrassés de 1 effet de peur, de charme et de sommeil.	lot sorts_classes_008
+sort	524709		Name	a8cb0b50aa70	Étreinte de l'Ombre	lot sorts_classes_008
+sort	524709		ToolTip	c176a4d09833	Purifie 1 effet de peur, de charme et de sommeil toutes les $t1 sec.	lot sorts_classes_008
+sort	524835		Description	57f7f8c94907	Surcharge toutes les |cffffffffBalises|r actives et déchaîne leurs effets uniques.\r\n\r\nConsultez chaque |cffffffffBalise|r pour connaître son effet de |cffffffffSurcharge|r.	lot sorts_classes_008
+sort	524835		Name	83675309796c	Surcharge	lot sorts_classes_008
+sort	524840		Description	ed41a00f53d3	Construit |cffffffffZIGGI-6K|r, dernier cri de la technologie régénératrice, pour vous aider à soigner vos alliés jusqu'à son renvoi.	lot sorts_classes_008
+sort	524840		Name	5978b2fddb15	Construire : ZIGGI-6K	lot sorts_classes_008
+sort	524881		Description	5fc84d4e11bf	|cffffffffLame de foi|r fait désormais infliger à vos 3 prochains |cffffffffTranchants sacrés|r $524882s1% de dégâts supplémentaires, ou à vos |cffffffffVindicationes|r $524882s2% de dégâts supplémentaires, pendant $524882d.	lot sorts_classes_008
+sort	524881		Name	20b39bb25405	Enchaînement héroïque	lot sorts_classes_008
+sort	524930		Name	8eef276c7fa0	Rune de glace	lot sorts_classes_008
+sort	524930		ToolTip	a3e816cd744d	Étourdi. Gelé.	lot sorts_classes_008
+sort	524966		Description	829a2bc05426	Remonte le temps et retire $s1 effet de maladie et de poison$?s804451[s][] d'une cible alliée.	lot sorts_classes_008
+sort	524966		Name	69b6df98cc3c	Retour en arrière	lot sorts_classes_008
+sort	524966		ToolTip	e0197eb913c5	Interrompu.$?s706120[ Coût des sorts et des aptitudes augmenté de ${$w2}%.][]Remonte le temps et retire ${$w1} effet de maladie et de poison$?s804451[s][] d'une cible alliée.Obsolète	lot sorts_classes_008
+sort	524968		Description	1222ac66eefe	Sanctifie une cible amie et dissipe$?s300341[ $s2][ $s1] effet$?s300341[s][] de magie, de poison et de $?s300341[$s1 ][]maladie sur elle.	lot sorts_classes_008
+sort	524968		Name	32dd60dc8b19	Sanctification	lot sorts_classes_008
+sort	524973		Description	c3a539d8de17	Vous et votre |cffffffffAssistant mécanique|r portez une attaque dévastatrice à un ennemi lors de votre prochaine attaque de mêlée dans les $524973d, lui infligeant ${$800571m1+$800571ppl1+$AP*.3+$SP*.4} points de dégâts de Frappe-tempête.	lot sorts_classes_008
+sort	524973		Name	1c9a3a8fe68f	Robot : Frappe hydraulique	lot sorts_classes_008
+sort	524973		ToolTip	2bc482434938	La prochaine attaque porte un coup dévastateur à un ennemi, lui infligeant ${$w1} points de dégâts physiques.	lot sorts_classes_008
+sort	524999		Description	0b95a5836cd2	Réduit de $s1% les dégâts d'Ombre que vous subissez.	lot sorts_classes_008
+sort	524999		Name	9ec7c7cba4f2	Réprimande	lot sorts_classes_008
+sort	524999		ToolTip	af3b31d5685a	Renvoie le prochain sort nuisible lancé sur vous.	lot sorts_classes_008
+sort	526362		Description	039a31283360	Invoque un tourbillon de $a1 mètres de rayon qui attire tous les ennemis proches et réduit leur vitesse de déplacement de $526367s1% pendant $d.\r\n\r\nAprès $t3 sec, les joueurs ennemis dans la zone sont projetés dans les airs.	lot sorts_classes_008
+sort	526362		Name	c04c4523c602	Tourbillon	lot sorts_classes_008
+sort	526362		ToolTip	16e6534ad606	Vitesse de déplacement réduite de $526367s1%. Après $t3 sec, les cibles ennemies sont projetées dans les airs.	lot sorts_classes_008
+sort	530415		Name	9e58d708b30e	Proto-drake pourpre	lot sorts_classes_008
+sort	530416		Name	9e58d708b30e	Proto-drake pourpre	lot sorts_classes_008
+sort	530417		Name	9e58d708b30e	Proto-drake pourpre	lot sorts_classes_008
+sort	530418		Name	9e58d708b30e	Proto-drake pourpre	lot sorts_classes_008
+sort	530423		Name	016b79ae013b	Rênes de la chauve-souris de la peste de Fossoyeuse	lot sorts_classes_008
+sort	530424		Name	016b79ae013b	Rênes de la chauve-souris de la peste de Fossoyeuse	lot sorts_classes_008
+sort	530425		Name	016b79ae013b	Rênes de la chauve-souris de la peste de Fossoyeuse	lot sorts_classes_008
+sort	530426		Name	016b79ae013b	Rênes de la chauve-souris de la peste de Fossoyeuse	lot sorts_classes_008
+sort	530427		Name	7d924e8994d3	Drake du Néant impitoyable	lot sorts_classes_008
+sort	530428		Name	7d924e8994d3	Drake du Néant impitoyable	lot sorts_classes_008
+sort	530429		Name	7d924e8994d3	Drake du Néant impitoyable	lot sorts_classes_008
+sort	530430		Name	7d924e8994d3	Drake du Néant impitoyable	lot sorts_classes_008
+sort	530431		Name	be575f62caae	Machine volante	lot sorts_classes_008
+sort	530432		Name	be575f62caae	Machine volante	lot sorts_classes_008
+sort	530433		Name	be575f62caae	Machine volante	lot sorts_classes_008
+sort	530434		Name	be575f62caae	Machine volante	lot sorts_classes_008
+sort	530435		Name	82ea291e45de	Machine volante à turbo-injection	lot sorts_classes_008
+sort	530436		Name	82ea291e45de	Machine volante à turbo-injection	lot sorts_classes_008
+sort	530437		Name	82ea291e45de	Machine volante à turbo-injection	lot sorts_classes_008
+sort	530438		Name	82ea291e45de	Machine volante à turbo-injection	lot sorts_classes_008
+sort	530439		Name	bab34b6ac3eb	Glisseur de rivage tuskarr	lot sorts_classes_008
+sort	530440		Name	bab34b6ac3eb	Glisseur de rivage tuskarr	lot sorts_classes_008
+sort	530441		Name	bab34b6ac3eb	Glisseur de rivage tuskarr	lot sorts_classes_008
+sort	530442		Name	bab34b6ac3eb	Glisseur de rivage tuskarr	lot sorts_classes_008
+sort	530443		Name	bab34b6ac3eb	Glisseur de rivage tuskarr	lot sorts_classes_008
+sort	530444		Name	0f8bf1eb4acb	Voyant - Tempête déchaînée (Eau)	lot sorts_classes_008
+sort	530445		Name	0f8bf1eb4acb	Voyant - Tempête déchaînée (Eau)	lot sorts_classes_008
+sort	530446		Name	0f8bf1eb4acb	Voyant - Tempête déchaînée (Eau)	lot sorts_classes_008
+sort	530447		Name	0f8bf1eb4acb	Voyant - Tempête déchaînée (Eau)	lot sorts_classes_008
+sort	530448		Name	0f8bf1eb4acb	Voyant - Tempête déchaînée (Eau)	lot sorts_classes_008
+sort	530449		Name	5ceaf1c02693	Voyant - Tempête déchaînée (Feu)	lot sorts_classes_008
+sort	530450		Name	5ceaf1c02693	Voyant - Tempête déchaînée (Feu)	lot sorts_classes_008
+sort	530451		Name	5ceaf1c02693	Voyant - Tempête déchaînée (Feu)	lot sorts_classes_008
+sort	530452		Name	5ceaf1c02693	Voyant - Tempête déchaînée (Feu)	lot sorts_classes_008
+sort	530453		Name	5ceaf1c02693	Voyant - Tempête déchaînée (Feu)	lot sorts_classes_008
+sort	530454		Name	04eb118c1702	Voyant - Tempête déchaînée (Vent)	lot sorts_classes_008
+sort	530455		Name	04eb118c1702	Voyant - Tempête déchaînée (Vent)	lot sorts_classes_008
+sort	530456		Name	04eb118c1702	Voyant - Tempête déchaînée (Vent)	lot sorts_classes_008
+sort	530457		Name	04eb118c1702	Voyant - Tempête déchaînée (Vent)	lot sorts_classes_008
+sort	530458		Name	04eb118c1702	Voyant - Tempête déchaînée (Vent)	lot sorts_classes_008
+sort	530459		Name	50f0b4f792af	Destrier de feu gangrené	lot sorts_classes_008
+sort	530460		Name	50f0b4f792af	Destrier de feu gangrené	lot sorts_classes_008
+sort	530461		Name	50f0b4f792af	Destrier de feu gangrené	lot sorts_classes_008
+sort	530462		Name	50f0b4f792af	Destrier de feu gangrené	lot sorts_classes_008
+sort	530463		Name	93fc82673677	Dragonceau de braise gangrenée	lot sorts_classes_008
+sort	530464		Name	93fc82673677	Dragonceau de braise gangrenée	lot sorts_classes_008
+sort	530465		Name	93fc82673677	Dragonceau de braise gangrenée	lot sorts_classes_008
+sort	530466		Name	93fc82673677	Dragonceau de braise gangrenée	lot sorts_classes_008
+sort	530467		Name	d14263bcca5b	Voyant - Tempête déchaînée (Feu gangrené)	lot sorts_classes_008
+sort	530468		Name	d14263bcca5b	Voyant - Tempête déchaînée (Feu gangrené)	lot sorts_classes_008
+sort	530469		Name	d14263bcca5b	Voyant - Tempête déchaînée (Feu gangrené)	lot sorts_classes_008
+sort	530470		Name	d14263bcca5b	Voyant - Tempête déchaînée (Feu gangrené)	lot sorts_classes_008
+sort	530471		Name	0b846e2bbb9f	Voyant - Tempête déchaînée (Arcanes)	lot sorts_classes_008
+sort	530472		Name	0b846e2bbb9f	Voyant - Tempête déchaînée (Arcanes)	lot sorts_classes_008
+sort	530473		Name	0b846e2bbb9f	Voyant - Tempête déchaînée (Arcanes)	lot sorts_classes_008
+sort	530474		Name	0b846e2bbb9f	Voyant - Tempête déchaînée (Arcanes)	lot sorts_classes_008
+sort	530475		Name	fcc92ade6139	Voyant - Tempête déchaînée (Glace)	lot sorts_classes_008
+sort	530476		Name	fcc92ade6139	Voyant - Tempête déchaînée (Glace)	lot sorts_classes_008
+sort	530477		Name	fcc92ade6139	Voyant - Tempête déchaînée (Glace)	lot sorts_classes_008
+sort	530478		Name	fcc92ade6139	Voyant - Tempête déchaînée (Glace)	lot sorts_classes_008
+sort	530479		Name	79ddac86792d	Voyant - Tempête déchaînée (Terre)	lot sorts_classes_008
+sort	530480		Name	79ddac86792d	Voyant - Tempête déchaînée (Terre)	lot sorts_classes_008
+sort	530481		Name	79ddac86792d	Voyant - Tempête déchaînée (Terre)	lot sorts_classes_008
+sort	530482		Name	79ddac86792d	Voyant - Tempête déchaînée (Terre)	lot sorts_classes_008
+sort	530483		Name	d3cb6984ec81	Lu-Wu, le Tigre de la fortune	lot sorts_classes_008
+sort	530484		Name	d3cb6984ec81	Lu-Wu, le Tigre de la fortune	lot sorts_classes_008
+sort	530485		Name	d3cb6984ec81	Lu-Wu, le Tigre de la fortune	lot sorts_classes_008
+sort	530486		Name	d3cb6984ec81	Lu-Wu, le Tigre de la fortune	lot sorts_classes_008
+sort	530487		Name	944923a014d9	Bi-An, le Tigre de la discipline	lot sorts_classes_008
+sort	530488		Name	944923a014d9	Bi-An, le Tigre de la discipline	lot sorts_classes_008
+sort	530489		Name	944923a014d9	Bi-An, le Tigre de la discipline	lot sorts_classes_008
+sort	530490		Name	944923a014d9	Bi-An, le Tigre de la discipline	lot sorts_classes_008
+sort	530491		Name	4d8fdb92406c	Familier vulpin noir	lot sorts_classes_008
+sort	530492		Name	4d8fdb92406c	Familier vulpin noir	lot sorts_classes_008
+sort	530493		Name	4d8fdb92406c	Familier vulpin noir	lot sorts_classes_008
+sort	530494		Name	4d8fdb92406c	Familier vulpin noir	lot sorts_classes_008
+sort	530495		Name	e86a808c90c0	Familier vulpin vert	lot sorts_classes_008
+sort	530496		Name	e86a808c90c0	Familier vulpin vert	lot sorts_classes_008
+sort	530497		Name	e86a808c90c0	Familier vulpin vert	lot sorts_classes_008
+sort	530498		Name	e86a808c90c0	Familier vulpin vert	lot sorts_classes_008
+sort	530499		Name	84460fb1c62d	Familier vulpin gris	lot sorts_classes_008
+sort	530500		Name	84460fb1c62d	Familier vulpin gris	lot sorts_classes_008
+sort	530501		Name	84460fb1c62d	Familier vulpin gris	lot sorts_classes_008
+sort	530502		Name	84460fb1c62d	Familier vulpin gris	lot sorts_classes_008
+sort	530503		Name	55bcff3b1b26	Familier spectral	lot sorts_classes_008
+sort	530504		Name	55bcff3b1b26	Familier spectral	lot sorts_classes_008
+sort	530505		Name	55bcff3b1b26	Familier spectral	lot sorts_classes_008
+sort	530506		Name	55bcff3b1b26	Familier spectral	lot sorts_classes_008
+sort	530507		Name	416fb8601920	Familier vulpin violet clair	lot sorts_classes_008
+sort	530508		Name	416fb8601920	Familier vulpin violet clair	lot sorts_classes_008
+sort	530509		Name	416fb8601920	Familier vulpin violet clair	lot sorts_classes_008
+sort	530510		Name	416fb8601920	Familier vulpin violet clair	lot sorts_classes_008
+sort	530511		Name	9e39e53f7fc8	Familier vulpin rouge foncé	lot sorts_classes_008
+sort	530512		Name	9e39e53f7fc8	Familier vulpin rouge foncé	lot sorts_classes_008
+sort	530513		Name	9e39e53f7fc8	Familier vulpin rouge foncé	lot sorts_classes_008
+sort	530514		Name	9e39e53f7fc8	Familier vulpin rouge foncé	lot sorts_classes_008
+sort	530515		Name	9acd5bfef93c	Familier vulpin rouge clair	lot sorts_classes_008
+sort	530516		Name	9acd5bfef93c	Familier vulpin rouge clair	lot sorts_classes_008
+sort	530517		Name	9acd5bfef93c	Familier vulpin rouge clair	lot sorts_classes_008
+sort	530518		Name	9acd5bfef93c	Familier vulpin rouge clair	lot sorts_classes_008
+sort	530519		Name	e8ba5f82d6ca	Familier vulpin blanc	lot sorts_classes_008
+sort	530520		Name	e8ba5f82d6ca	Familier vulpin blanc	lot sorts_classes_008
+sort	530521		Name	e8ba5f82d6ca	Familier vulpin blanc	lot sorts_classes_008
+sort	530522		Name	e8ba5f82d6ca	Familier vulpin blanc	lot sorts_classes_008
+sort	530523		Name	ab239e48c4fd	Chauve-souris sanguinaire blindée	lot sorts_classes_008
+sort	530524		Name	ab239e48c4fd	Chauve-souris sanguinaire blindée	lot sorts_classes_008
+sort	530525		Name	ab239e48c4fd	Chauve-souris sanguinaire blindée	lot sorts_classes_008
+sort	530526		Name	ab239e48c4fd	Chauve-souris sanguinaire blindée	lot sorts_classes_008
+sort	530527		Name	284b0c887fcc	Félin baigné de lune	lot sorts_classes_008
+sort	530528		Name	284b0c887fcc	Félin baigné de lune	lot sorts_classes_008
+sort	530529		Name	284b0c887fcc	Félin baigné de lune	lot sorts_classes_008
+sort	530530		Name	284b0c887fcc	Félin baigné de lune	lot sorts_classes_008
+sort	530531		Name	e575ede249e3	Tisseur de rêves emmêlé	lot sorts_classes_008
+sort	530532		Name	e575ede249e3	Tisseur de rêves emmêlé	lot sorts_classes_008
+sort	530533		Name	e575ede249e3	Tisseur de rêves emmêlé	lot sorts_classes_008
+sort	530534		Name	e575ede249e3	Tisseur de rêves emmêlé	lot sorts_classes_008
+sort	530535		Name	def555a4ed4e	Tisseur de rêves de la marée hivernale	lot sorts_classes_008
+sort	530536		Name	def555a4ed4e	Tisseur de rêves de la marée hivernale	lot sorts_classes_008
+sort	530537		Name	def555a4ed4e	Tisseur de rêves de la marée hivernale	lot sorts_classes_008
+sort	530538		Name	def555a4ed4e	Tisseur de rêves de la marée hivernale	lot sorts_classes_008
+sort	530539		Name	efaee7754dcb	Tisseur de rêves automnal	lot sorts_classes_008
+sort	530540		Name	efaee7754dcb	Tisseur de rêves automnal	lot sorts_classes_008
+sort	530541		Name	efaee7754dcb	Tisseur de rêves automnal	lot sorts_classes_008
+sort	530542		Name	efaee7754dcb	Tisseur de rêves automnal	lot sorts_classes_008
+sort	532229		Description	a969f3741859	Invoque un œil démoniaque, lie votre vision à lui, puis vous glisse dans le Néant.\r\n\r\nVous et l'œil restez furtifs tant que le sort est actif. L'œil se déplace vite, mais il est très fragile.	lot sorts_classes_008
+sort	532229		Name	b180ae3dabf3	Vision distordue	lot sorts_classes_008
+sort	532229		ToolTip	08df7447920e	Vous contrôlez un œil démoniaque qui vous permet d'espionner vos ennemis. Furtif.	lot sorts_classes_008
+sort	534600		Description	d6c1b407a04e	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Braise|r\r\nBrûle un ennemi, lui infligeant ${$m1+$SP*0.29375} points de dégâts de Feu toutes les $t1 sec et réduisant de $806958s2% les soins qu'il reçoit pendant $d. 	lot sorts_classes_008
+sort	534600		Name	7ff440de8d23	Brasier	lot sorts_classes_008
+sort	534600		ToolTip	23b1037b85f0	Brûle. Subit des dégâts de Feu toutes les $t1 sec.	lot sorts_classes_008
+sort	534601		Description	d6c1b407a04e	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Braise|r\r\nBrûle un ennemi, lui infligeant ${$m1+$SP*0.29375} points de dégâts de Feu toutes les $t1 sec et réduisant de $806958s2% les soins qu'il reçoit pendant $d. 	lot sorts_classes_008
+sort	534601		Name	7ff440de8d23	Brasier	lot sorts_classes_008
+sort	534601		ToolTip	23b1037b85f0	Brûle. Subit des dégâts de Feu toutes les $t1 sec.	lot sorts_classes_008
+sort	534602		Description	d6c1b407a04e	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Braise|r\r\nBrûle un ennemi, lui infligeant ${$m1+$SP*0.29375} points de dégâts de Feu toutes les $t1 sec et réduisant de $806958s2% les soins qu'il reçoit pendant $d. 	lot sorts_classes_008
+sort	534602		Name	7ff440de8d23	Brasier	lot sorts_classes_008
+sort	534602		ToolTip	23b1037b85f0	Brûle. Subit des dégâts de Feu toutes les $t1 sec.	lot sorts_classes_008
+sort	534604		Description	d6c1b407a04e	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Braise|r\r\nBrûle un ennemi, lui infligeant ${$m1+$SP*0.29375} points de dégâts de Feu toutes les $t1 sec et réduisant de $806958s2% les soins qu'il reçoit pendant $d. 	lot sorts_classes_008
+sort	534604		Name	7ff440de8d23	Brasier	lot sorts_classes_008
+sort	534604		ToolTip	23b1037b85f0	Brûle. Subit des dégâts de Feu toutes les $t1 sec.	lot sorts_classes_008
+sort	534803		Name	d90720538849	Sceau de paume : Feu	lot sorts_classes_008
+sort	534803		ToolTip	2d8b1ba04efc	Votre prochain dégât magique direct inflige en plus ${$w1}% des dégâts infligés sous forme de dégâts de Feu.	lot sorts_classes_008
+sort	534804		Name	d90720538849	Sceau de paume : Feu	lot sorts_classes_008
+sort	534804		ToolTip	2d8b1ba04efc	Votre prochain dégât magique direct inflige en plus ${$w1}% des dégâts infligés sous forme de dégâts de Feu.	lot sorts_classes_008
+sort	534805		Name	d90720538849	Sceau de paume : Feu	lot sorts_classes_008
+sort	534805		ToolTip	2d8b1ba04efc	Votre prochain dégât magique direct inflige en plus ${$w1}% des dégâts infligés sous forme de dégâts de Feu.	lot sorts_classes_008
+sort	534806		Name	d90720538849	Sceau de paume : Feu	lot sorts_classes_008
+sort	534806		ToolTip	2d8b1ba04efc	Votre prochain dégât magique direct inflige en plus ${$w1}% des dégâts infligés sous forme de dégâts de Feu.	lot sorts_classes_008
+sort	534807		Name	d90720538849	Sceau de paume : Feu	lot sorts_classes_008
+sort	534807		ToolTip	2d8b1ba04efc	Votre prochain dégât magique direct inflige en plus ${$w1}% des dégâts infligés sous forme de dégâts de Feu.	lot sorts_classes_008
+sort	800140		Description	c656797a4ed0	Frappe avec les deux armes, infligeant les dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_008
+sort	800140		Name	27557654df2c	Griffe sauvage	lot sorts_classes_008
+sort	800841		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	800912		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	801040		Name	e25546367ce4	Matraque de soufre	lot sorts_classes_008
+sort	801081		Name	80705dff24f7	Lancer de javelot	lot sorts_classes_008
+sort	801908		ToolTip	aa861fa08993	Horrifié.	lot sorts_classes_008
+sort	803132		Name	c6b02c6d3ac7	Marteau des rois	lot sorts_classes_008
+sort	803183		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	803334		Name	58e0ba51ece4	Fonte	lot sorts_classes_008
+sort	803950		Description	f43c97e6f6d9	|cffff7f7fGénère 1 Braise|r\r\nLance un rocher en fusion qui s'écrase sur un ennemi et lui inflige ${$m1+0+$SP*0.95} points de dégâts physiques.	lot sorts_classes_008
+sort	803950		Name	517945904a21	Éclat de lave	lot sorts_classes_008
+sort	803981		Name	e691e570fb90	Impact sismique	lot sorts_classes_008
+sort	803981		ToolTip	c479dfbff9d4	Inflige ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_classes_008
+sort	804198		ToolTip	aa861fa08993	Horrifié.	lot sorts_classes_008
+sort	804522		Name	141278b89233	Envol	lot sorts_classes_008
+sort	804980		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	805500		Description	d6c1b407a04e	$?a807533[|cffff7f7f][|cffff3232]Consomme 1 Braise|r\r\nBrûle un ennemi, lui infligeant ${$m1+$SP*0.29375} points de dégâts de Feu toutes les $t1 sec et réduisant de $806958s2% les soins qu'il reçoit pendant $d. 	lot sorts_classes_008
+sort	805500		Name	7ff440de8d23	Brasier	lot sorts_classes_008
+sort	805500		ToolTip	23b1037b85f0	Brûle. Subit des dégâts de Feu toutes les $t1 sec.	lot sorts_classes_008
+sort	806282		ToolTip	c1101c72b02c	Chances d'esquiver augmentées de ${$w1}%.	lot sorts_classes_008
+sort	1142363		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	1142387		Rank	8bf5fcf1a549	Changement de forme	lot sorts_classes_008
+sort	9931367		Name	016b79ae013b	Rênes de la chauve-souris de la peste de Fossoyeuse	lot sorts_classes_008
+sort	9934028		Name	50f0b4f792af	Destrier de feu gangrené	lot sorts_classes_008
+sort	9934030		Name	93fc82673677	Dragonceau de braise gangrenée	lot sorts_classes_008
+sort	9934043		Name	4d8fdb92406c	Familier vulpin noir	lot sorts_classes_008
+sort	9934044		Name	e86a808c90c0	Familier vulpin vert	lot sorts_classes_008
+sort	9934045		Name	84460fb1c62d	Familier vulpin gris	lot sorts_classes_008
+sort	9934046		Name	55bcff3b1b26	Familier spectral	lot sorts_classes_008
+sort	9934047		Name	416fb8601920	Familier vulpin violet clair	lot sorts_classes_008
+sort	9934048		Name	9e39e53f7fc8	Familier vulpin rouge foncé	lot sorts_classes_008
+sort	9934049		Name	9acd5bfef93c	Familier vulpin rouge clair	lot sorts_classes_008
+sort	9934050		Name	e8ba5f82d6ca	Familier vulpin blanc	lot sorts_classes_008
+sort	9934051		Name	d14263bcca5b	Voyant - Tempête déchaînée (Feu gangrené)	lot sorts_classes_008
+sort	9934052		Name	0b846e2bbb9f	Voyant - Tempête déchaînée (Arcanes)	lot sorts_classes_008
+sort	9934053		Name	fcc92ade6139	Voyant - Tempête déchaînée (Glace)	lot sorts_classes_008
+sort	9934054		Name	79ddac86792d	Voyant - Tempête déchaînée (Terre)	lot sorts_classes_008
+sort	9934055		Name	ab239e48c4fd	Chauve-souris sanguinaire blindée	lot sorts_classes_008
+sort	9934057		Name	284b0c887fcc	Félin baigné de lune	lot sorts_classes_008
+sort	9934080		Name	e575ede249e3	Tisseur de rêves emmêlé	lot sorts_classes_008
+sort	9934081		Name	def555a4ed4e	Tisseur de rêves de la marée hivernale	lot sorts_classes_008
+sort	9934087		Name	efaee7754dcb	Tisseur de rêves automnal	lot sorts_classes_008
+sort	13977854		Name	d3cb6984ec81	Lu-Wu, le Tigre de la fortune	lot sorts_classes_008
+sort	13977855		Name	944923a014d9	Bi-An, le Tigre de la discipline	lot sorts_classes_008

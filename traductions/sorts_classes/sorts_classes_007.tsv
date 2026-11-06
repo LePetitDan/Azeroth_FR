@@ -1,0 +1,441 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	500735		Description	5e5d51802e80	Châtie un ennemi et lui inflige ${$m1+0+$sps*0.685} points de dégâts d'Ombre.\r\n\r\nGénère 10 |cffffffffFolie|R.	lot sorts_classes_007
+sort	500735		Name	a1a529fba556	Lame de C'Thun	lot sorts_classes_007
+sort	500860		Description	fcb10200d35b	Ranime votre familier esprit animal et le rappelle dans ce monde.	lot sorts_classes_007
+sort	500860		Name	665c562003ed	Rappel de l'esprit animal	lot sorts_classes_007
+sort	500900		Description	c38810474b35	Tire un puissant carreau d'arbalète sur un ennemi, le repoussant et supprimant ses effets d'absorption et d'invulnérabilité.\n\nPendant $d, la cible ne peut pas bénéficier de tels effets.	lot sorts_classes_007
+sort	500900		Name	1afac2bdad57	Arbalète de Sombrombre	lot sorts_classes_007
+sort	500900		ToolTip	1c8abaf92801	Ne peut pas bénéficier des effets de bouclier ou d'invulnérabilité.	lot sorts_classes_007
+sort	500901		Description	76d42896441f	Lancer |cffffffffFuite audacieuse|r fait désormais repousser votre cible par la prochaine aptitude utilisée dans les $680231d.	lot sorts_classes_007
+sort	500901		Name	8360c99421ae	Prise de distance	lot sorts_classes_007
+sort	500904		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	500904		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	500907		Description	55fb84a7e611	|cff93cceaConsomme du Sang de démon|r\nCrée une barrière magique sur vous pendant $d, absorbant une grande quantité de dégâts, augmentée pour chaque charge consommée.	lot sorts_classes_007
+sort	500907		Name	ef3e7586d305	Fournaise des fiélons	lot sorts_classes_007
+sort	500907		ToolTip	064bc208f8d0	Absorbe les dégâts.	lot sorts_classes_007
+sort	500916		Description	1ad61952d9b6	Frappe un ennemi avec les deux armes pour des dégâts d'arme plus ${$m1+0} et confère |cffffffffFrénésie déchirante|r.@s:560931:0@	lot sorts_classes_007
+sort	500916		Name	334ae2f8becf	Éventreur	lot sorts_classes_007
+sort	500916		ToolTip	e1cabd892993	DÉCHIRURE !	lot sorts_classes_007
+sort	500919		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
+sort	500920		Description	84353fa3cc80	Empale un ennemi pour |cffff8100$s1 points de dégâts physiques|r.\n\nSi la cible a moins de 35% de |cfffeff9e|cfffeff9eVie|r|r, cette aptitude inflige $802865s1% de dégâts d'arme supplémentaires et applique 5 charges de Carnage.	lot sorts_classes_007
+sort	500920		Name	29fea1529978	Empalement	lot sorts_classes_007
+sort	500929		Description	53e340bff2f6	Certaines de vos aptitudes génèrent |cffcc99ffStatique|r. Si votre |cffcc99ffStatique|r atteint 100%, vous serez étourdi et subirez de lourds dégâts.\r\n\r\nTant que votre |cffcc99ffStatique|r dépasse 70%, les effets |cffffffffSurchargés|r de vos sorts sont actifs.\r\n@ext:@s:806495:0@:ext@	lot sorts_classes_007
+sort	500929		Name	0d6f2255be9f	Veille de Thorim	lot sorts_classes_007
+sort	500929		ToolTip	9960b01e2059	Certaines de vos aptitudes génèrent de la Statique. Si votre Statique atteint 100%, vous serez |cffff3232étourdi|r et subirez d'énormes dégâts.\n\nTant que la Statique dépasse 70%, les effets Surchargés de vos sorts sont actifs.\n@ext:@s:806495:@:ext@	lot sorts_classes_007
+sort	500935		Name	91b2982b9f12	Faveur de la tortue	lot sorts_classes_007
+sort	500935		ToolTip	065618f182f1	Dégâts subis réduits de ${-$w3}%. Les attaquants de mêlée subissent des dégâts de Nature en vous frappant.	lot sorts_classes_007
+sort	500938		Name	91b2982b9f12	Faveur de la tortue	lot sorts_classes_007
+sort	500938		Rank	df26241195d7	Familier	lot sorts_classes_007
+sort	500938		ToolTip	64b6400e4a51	Dégâts subis réduits. Les attaquants de mêlée subissent des dégâts de Nature en vous frappant.	lot sorts_classes_007
+sort	500939		Name	32aae766d279	Faveur de l'ours	lot sorts_classes_007
+sort	500939		ToolTip	c1c39604e67a	Puissance d'attaque en mêlée et hâte en mêlée augmentées. Rage générée par les attaques automatiques augmentée de ${$w2}%.	lot sorts_classes_007
+sort	500941		Description	1421f8fa9549	Augmente la vitesse de déplacement de $s1% et la puissance d'attaque de $s3% pendant $d. \n\nCet effet s'applique aussi à votre familier actif.$?s300691[\n\nÀ la fin de la durée complète, génère $/10;s2 points de rage.][]	lot sorts_classes_007
+sort	500941		Name	2620b9eb1990	Chasse du prédateur	lot sorts_classes_007
+sort	500941		ToolTip	398900836b54	Vitesse de déplacement augmentée de ${$w1}%. Puissance d'attaque augmentée de ${$w3}%.\n\nÀ la fin de la durée complète, vous gagnerez $/10;s2 points de rage.	lot sorts_classes_007
+sort	500943		Name	84e84f9f1e1f	Faveur du faucon	lot sorts_classes_007
+sort	500943		ToolTip	69e9f0572f01	Augmente votre hâte des sorts, réduit le coût des sorts et des aptitudes, et vous fait régénérer vos points de vie maximum toutes les $t3 sec.	lot sorts_classes_007
+sort	500961		Description	6d8a4f3cb9d0	Dépose une |cffffffffIdole spirituelle|r près de vous pendant $d.\r\n\r\nLes alliés à moins de $500958A1 mètres régénèrent $805282s1% de leur mana maximum toutes les $500958t2 sec.	lot sorts_classes_007
+sort	500961		Name	be04081b9a2c	Idole spirituelle	lot sorts_classes_007
+sort	500963		Description	33ae8943121e	Vous placez une barrière sur l'allié ciblé, qui reflète tous les sorts et renvoie $s2 points de dégâts d'Ombre aux ennemis qui le frappent en mêlée. Dure $d.	lot sorts_classes_007
+sort	500963		Name	2324a51640be	Barrière drakkari	lot sorts_classes_007
+sort	500963		ToolTip	64f51259033f	Reflète les sorts. Les ennemis qui vous frappent en mêlée subissent ${$w2} points de dégâts d'Ombre.	lot sorts_classes_007
+sort	500965		Description	60b9a1e746b0	Canalise un essaim de sauterelles sur un ennemi, lui infligeant $o1 points de dégâts d'Ombre$?s92123[, ralentissant sa vitesse de déplacement de $803530s1%,][] et générant de la puissance runique pendant $d.$?s500165[ \r\n\r\nRenforce les serviteurs morts-vivants actifs proches avec |cffffffffFurie de la crypte|r.@s:806588:0@][]	lot sorts_classes_007
+sort	500965		Name	b20013b50cc3	Essaim de la crypte	lot sorts_classes_007
+sort	500965		ToolTip	bfb7170900b1	Subit des dégâts d'Ombre toutes les $t1 sec.	lot sorts_classes_007
+sort	500967		Description	197757fc9463	Des pointes gelées jaillissent du corps d'un allié et de ses serviteurs |cffffffffRéanimés|r pendant $d, infligeant ${$m1+0} points de dégâts de Givre aux attaquants lorsqu'ils sont touchés.	lot sorts_classes_007
+sort	500967		Name	6862750c35d0	Glace-rasoir	lot sorts_classes_007
+sort	500967		ToolTip	c42c7535db9c	Inflige ${$w1} points de dégâts de Givre aux attaquants. 	lot sorts_classes_007
+sort	500970		Description	d2433710f909	Réanime un |cffffffffGuerrier squelette mineur|r pour vous aider au combat, occupant 1 |cffffffffForce vitale|r.\r\n\r\n|cff90ee90Commandement|r : frappe un ennemi devant lui et inflige des dégâts d'arme plus ${$570042m2+($SP*.35)*0.39}.	lot sorts_classes_007
+sort	500970		Name	63fc20e4113d	Réanimation : guerrier squelette mineur	lot sorts_classes_007
+sort	500982		Description	9584f0a263b6	Vos serviteurs morts-vivants adoptent un comportement agressif, augmentant leur vitesse de déplacement de $s2%.$?s560595[ Vos chances de coup critique contre les humanoïdes sont augmentées de $560595s1%.][]\r\n\r\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007
+sort	500982		Name	cd989707da43	Morts-vivants : assaut	lot sorts_classes_007
+sort	500982		ToolTip	4b5296cb67b6	Agressif. Vitesse de déplacement des serviteurs morts-vivants augmentée de ${$w2}%.	lot sorts_classes_007
+sort	500983		Description	6bbb7c9eb441	Vos serviteurs morts-vivants adoptent un comportement passif et n'attaquent pas les ennemis ni ne lancent de sorts.$?s560595[ Réduit les dégâts que vous subissez de $560595s2%.][]\n\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007
+sort	500983		Name	ce039dcf0e35	Morts-vivants : pacification	lot sorts_classes_007
+sort	500983		ToolTip	acb23d214e3c	Vos serviteurs n'attaqueront pas les ennemis.	lot sorts_classes_007
+sort	500985		Description	e8d9abfcabfe	Vos serviteurs morts-vivants adoptent un comportement défensif, augmentant la menace et l'armure.$?s560595[ Réduit de $560595s3% la menace que vous générez.][]\n\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007
+sort	500985		Name	5910d69de0ed	Morts-vivants : protection	lot sorts_classes_007
+sort	500985		ToolTip	4b11b92480de	Défensif. Génère plus de menace. Armure augmentée.	lot sorts_classes_007
+sort	501075		Description	63f4e1dcaa56	Invoque une protection vaudou à courte distance devant vous, infligeant ${$cond($gt($spfi, $spn), $m1+0+$spfi*.12, $m1+0+$spn*.12)} points de dégâts de Tempête de feu toutes les $t1 sec pendant $d. \r\n\r\nÀ la fin de la durée, les ennemis proches explosent et subissent ${$cond($gt($spfi, $spn), $m3+0+$spfi*.55, $m3+0+$spn*.55)} points de dégâts de Tempête de feu.\r\n\r\n@ext:Can only have 1 |cffffffffWard|r active at a time.:ext@	lot sorts_classes_007
+sort	501075		Name	7c383804c336	Protection vaudou	lot sorts_classes_007
+sort	501075		Rank	af0854de67de	Aura	lot sorts_classes_007
+sort	501075		ToolTip	bd80ded9e683	À la fin de la durée, ceci explosera.	lot sorts_classes_007
+sort	501134		Description	aa2b10adcee7	Lance un glaive qui maudit un ennemi et jusqu'à 2 ennemis proches, drainant ${$m1+0+$RAP*0.1} points de vie toutes les $t1 sec pendant $d. Rafraîchit la durée de |cffffffffMaléfice de malveillance|r.\r\n\r\nBénéficie des modificateurs de |cffffffffMaléfice de malveillance|r.	lot sorts_classes_007
+sort	501134		Name	bb2c76190f16	Glaive ombral	lot sorts_classes_007
+sort	501134		ToolTip	4f07bead3f4e	Draine ${$m1+$ppl1+$RAP*0.26} points de vie toutes les $t1 sec.	lot sorts_classes_007
+sort	501135		Description	f392c7d91cd6	Des pointes gelées jaillissent du corps des alliés proches pendant $d, infligeant ${$m1+($pl*0.1)} points de dégâts de Givre aux attaquants lorsqu'ils sont touchés.	lot sorts_classes_007
+sort	501135		Name	844ba821221b	Peau de glace	lot sorts_classes_007
+sort	501135		Rank	aa789d7a32c9	Boss de Voile-d'hiver	lot sorts_classes_007
+sort	501135		ToolTip	e06c5538ae95	Inflige 72 points de dégâts de Givre aux attaquants. 	lot sorts_classes_007
+sort	501138		Description	a2bd9b04e9af	Vous téléporte à votre position d'origine.	lot sorts_classes_007
+sort	501138		Name	ec6b2a8fea40	Mirage (retour)	lot sorts_classes_007
+sort	501151		Description	d1098619308b	|cffffffffInvoque Hir'eek|r\nApplique un |cffffffffMaléfice|r funeste à un ennemi, réduisant les soins reçus de $s1% pendant $d.\n\nToutes les $t3 sec, la cible subit $806471s2 points de dégâts d'Ombre.	lot sorts_classes_007
+sort	501151		Name	8fa16af17a9f	Maléfice de la nuit	lot sorts_classes_007
+sort	501151		ToolTip	2e785abdaa2b	Soins reçus réduits de $s1%. Toutes les $t3 sec, vous subissez $806471s2 points de dégâts d'Ombre.	lot sorts_classes_007
+sort	501160		Description	d0641fcbcc0f	|cffffffffInvoque Hir'eek, Bethekk, Bwonsamdi et Sseratus|r\r\n|cffffffff3 charges|r\r\n|cffffffff12 sec de recharge|r\r\nInflige $s1 points de dégâts de magie d'Ombre|r à un ennemi$?s705843[ et augmente de $s3% les dégâts qu'il subit de vos prochaines |cffffffffFrappes des dieux|r pendant $/1000;705843s1 sec, cumulable $u fois.][.]\r\n\r\nChanger de |cffffffffDévotions|r rafraîchit une charge.	lot sorts_classes_007
+sort	501160		Name	c1a8bbf55941	Frappe des dieux	lot sorts_classes_007
+sort	501160		ToolTip	15d1464e9a07	Dégâts subis de Frappe des dieux augmentés de ${$w3}%.	lot sorts_classes_007
+sort	501162		Description	00d4a6e944b4	|cffffffffInvoque Hir'eek, Bethekk, Bwonsamdi et Sseratus|r\nInflige $s1 points de dégâts de magie d'Ombre|r à un ennemi$?s705483[ et augmente de $s3% les dégâts qu'il subit de votre part pendant $d, cumulable 3 fois.][.]	lot sorts_classes_007
+sort	501162		Name	ad626dffcfea	Croc de Hir'eek	lot sorts_classes_007
+sort	501162		ToolTip	c3ddc4490410	Dégâts des sorts de Hir'eek du lanceur augmentés de ${$w3}%.	lot sorts_classes_007
+sort	501170		Description	4c133c9edd1b	|cffffffffInvoque Bwonsamdi|r\nVous laissez l'esprit de Bwonsamdi vous posséder pendant $d. Les ennemis à moins de $806259a1 mètres subissent $806259s1 points de dégâts d'Ombre toutes les $t2 sec$?s705915[ et sont ralentis de $806259s2%, cumulable jusqu'à $806259u fois][] pendant $d.$?s705916[\n\nTant que l'effet est actif, les dégâts d'Ombre infligés sont augmentés de $s3%.][]	lot sorts_classes_007
+sort	501170		Name	6e918186514e	Voix de Bwonsamdi	lot sorts_classes_007
+sort	501170		ToolTip	3370e2ac6781	Tous les ennemis proches subissent des dégâts d'Ombre et sont ralentis toutes les $t2 sec.	lot sorts_classes_007
+sort	501189		Description	1e73a5eb105b	Inflige |cff01cdfe$s1 points de dégâts de Nature|r à un ennemi et augmente de $806512s2% la durée des Malédictions utilisées contre lui pendant $806512d, cumulable jusqu'à 3 fois.	lot sorts_classes_007
+sort	501189		Name	72556b930a9f	Éclair vaudou	lot sorts_classes_007
+sort	501189		ToolTip	1ad266694610	Durée des Malédictions augmentée de ${$w2}%.	lot sorts_classes_007
+sort	501198		Description	3ac4bba10714	Prépare une potion puis la lance à un allié, lui rendant ${$m1+0+$SP*0.84} points de vie$?s705848[ et le renforçant d'un effet aléatoire pendant $802207d][].$?s705848[\r\n@ext:@s:802207:0@:ext@\r\n@ext:@s:802208:0@:ext@\r\n@ext:@s:802215:0@:ext@\r\n@ext:@s:802216:0@:ext@][]\r\n\r\nSoigner une cible différente avec |cFFFFFFFFBreuvage du loa|r soigne aussi la cible précédente de Breuvage du loa à hauteur de $899904s1% des soins prodigués.	lot sorts_classes_007
+sort	501198		Name	05053611db3e	Breuvage du loa	lot sorts_classes_007
+sort	501220		Description	8ad6de0952b9	|cffffffffInvoque Hir'eek|r\nInflige ${$m1+$AP*0.302885} points de dégâts physiques à un ennemi et lui impose deux |cffffffffMaléfices|r de Féticheur aléatoires.	lot sorts_classes_007
+sort	501220		Name	1ec190f9ba70	Frappe maléficieuse	lot sorts_classes_007
+sort	501257		Description	a86a3e37d365	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes pour $808305s2% de dégâts d'arme plus $s1 à chaque frappe.	lot sorts_classes_007
+sort	501257		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	501258		Description	962a72b49e11	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes et inflige des dégâts d'arme plus $s1.	lot sorts_classes_007
+sort	501258		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	501259		Description	962a72b49e11	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes et inflige des dégâts d'arme plus $s1.	lot sorts_classes_007
+sort	501259		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	501260		Description	962a72b49e11	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes et inflige des dégâts d'arme plus $s1.	lot sorts_classes_007
+sort	501260		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	501261		Description	962a72b49e11	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes et inflige des dégâts d'arme plus $s1.	lot sorts_classes_007
+sort	501261		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	501281		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501281		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501282		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501282		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501283		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501283		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501284		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501284		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501285		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501285		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501286		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501286		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501287		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501287		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501288		Description	fb554d2f9d06	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une puissante boule de feu gangrenée sur un ennemi, lui infligeant ${$cond($gt($spfi, $sps), $m1+0+$spfi*0.62, $m1+0+$sps*0.62)} points de dégâts de Feu.$?s92088[\r\n\r\n|cff32cd32Démon intérieur|r : déchaîne une |cffffffffGangrefrappe|r sur votre cible, lui infligeant $802678o2 points de dégâts du Chaos en $802678d, cumulable $802678u fois.][]\r\n\r\nUtilisable en mouvement.	lot sorts_classes_007
+sort	501288		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	501300		Description	6ad88cdd6de2	Maudit un ennemi pendant $d, lui infligeant ${$m1+0} points de dégâts d'Ombreflamme toutes les $t1 sec et augmentant de $s2% les dégâts d'Ombre et de Feu qu'il subit$?s300480[ ainsi que les dégâts de |cffffffffLance du Néant|r de $300480s1%][].	lot sorts_classes_007
+sort	501300		Name	a1bac866411f	Regard gangrené	lot sorts_classes_007
+sort	501300		ToolTip	cbee6d3425c2	Subit $s1 points de dégâts d'Ombreflamme toutes les $t1 sec. Dégâts d'Ombre et de Feu subis augmentés de $s2%.	lot sorts_classes_007
+sort	501314		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501314		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501314		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501315		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501315		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501315		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501316		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501316		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501316		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501317		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501317		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501317		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501318		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501318		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501318		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501319		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501319		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501319		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501320		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501320		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501320		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501321		Description	243f4d99d6a9	|cff32cd32Consomme 2 points de Gangrefurie|r\r\nFrappe un ennemi pour ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts d'Ombreflamme et génère $521213s1 points d'énergie.$?s804216[\r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus sans coût.][]	lot sorts_classes_007
+sort	501321		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	501321		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	501326		Description	596bc00e0d39	Imprègne un allié d'énergie démoniaque, augmentant son agilité de $s1. Dure $d.	lot sorts_classes_007
+sort	501326		Name	029d4bc617ab	Intuition illidari	lot sorts_classes_007
+sort	501326		ToolTip	cf409d5345f2	Béni par les Illidari. Agilité augmentée de ${$W1}.	lot sorts_classes_007
+sort	501327		Description	596bc00e0d39	Imprègne un allié d'énergie démoniaque, augmentant son agilité de $s1. Dure $d.	lot sorts_classes_007
+sort	501327		Name	029d4bc617ab	Intuition illidari	lot sorts_classes_007
+sort	501327		ToolTip	cf409d5345f2	Béni par les Illidari. Agilité augmentée de ${$W1}.	lot sorts_classes_007
+sort	501328		Description	596bc00e0d39	Imprègne un allié d'énergie démoniaque, augmentant son agilité de $s1. Dure $d.	lot sorts_classes_007
+sort	501328		Name	029d4bc617ab	Intuition illidari	lot sorts_classes_007
+sort	501328		ToolTip	cf409d5345f2	Béni par les Illidari. Agilité augmentée de ${$W1}.	lot sorts_classes_007
+sort	501329		Description	596bc00e0d39	Imprègne un allié d'énergie démoniaque, augmentant son agilité de $s1. Dure $d.	lot sorts_classes_007
+sort	501329		Name	029d4bc617ab	Intuition illidari	lot sorts_classes_007
+sort	501329		ToolTip	cf409d5345f2	Béni par les Illidari. Agilité augmentée de ${$W1}.	lot sorts_classes_007
+sort	501415		Description	aef43cb04321	|cffcc99ffÉpuise 50 points de Statique|r\r\nInvoque une tempête sur une zone ciblée, infligeant instantanément ${$m1+0+$spn*.2} points de dégâts de Nature initiaux aux ennemis.\r\n\r\nInflige ${($d*1000/$T2)*($m2+0+$spn*.15)} points de dégâts de Nature supplémentaires aux ennemis de la zone en $d.	lot sorts_classes_007
+sort	501415		Name	e3cab1af4d0a	Invocation de tempête	lot sorts_classes_007
+sort	501415		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_classes_007
+sort	501421		Description	4b8028a1b98b	|cffcc99ffGénère 20 points de Statique|r\r\nÉlectrocute un ennemi pour ${$m1+0+$spn*0.45} points de dégâts de Nature.\r\n\r\nUtilisable uniquement sur les ennemis ayant moins de 35% de points de vie.	lot sorts_classes_007
+sort	501421		Name	3c740d8576cf	Électrocution	lot sorts_classes_007
+sort	501486		Description	e0db31fb81e7	Permet aux membres du groupe à moins de $a mètres de vous de marcher sur l'eau. Dure $d. \r\n\r\nSubir des dégâts annule cet effet.	lot sorts_classes_007
+sort	501486		Name	03c0df01c4d1	Grâce de la lune	lot sorts_classes_007
+sort	501486		ToolTip	f5117c03b48c	Marche sur l'eau.	lot sorts_classes_007
+sort	501491		Description	ac297ecae5c9	Inflige $s1% de dégâts d'arme à un ennemi et lui vole $s2 points de vie supplémentaires, vous rendant 150% des dégâts infligés par cet effet. 	lot sorts_classes_007
+sort	501491		Name	b6b3bc476c7a	Festin démoniaque	lot sorts_classes_007
+sort	501499		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501499		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501500		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501500		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501501		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501501		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501502		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501502		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501503		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501503		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501504		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501504		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501505		Description	07996c58e4aa	Frappe un ennemi avec une puissance démoniaque et lui inflige $s2% de dégâts d'arme plus ${$m1+0}, et génère $/10;S3 points de rage.	lot sorts_classes_007
+sort	501505		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
+sort	501508		Description	2cb7fa5c28a9	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nBalance rapidement une lame massive sur jusqu'à $i ennemis proches, infligeant $s2% de dégâts d'arme plus $s1$?s514169[ et appliquant |cffffffffChair déchirée|r][].	lot sorts_classes_007
+sort	501508		Name	b931e80d4461	Scie à viande	lot sorts_classes_007
+sort	501509		Description	2cb7fa5c28a9	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nBalance rapidement une lame massive sur jusqu'à $i ennemis proches, infligeant $s2% de dégâts d'arme plus $s1$?s514169[ et appliquant |cffffffffChair déchirée|r][].	lot sorts_classes_007
+sort	501509		Name	b931e80d4461	Scie à viande	lot sorts_classes_007
+sort	501510		Description	2cb7fa5c28a9	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nBalance rapidement une lame massive sur jusqu'à $i ennemis proches, infligeant $s2% de dégâts d'arme plus $s1$?s514169[ et appliquant |cffffffffChair déchirée|r][].	lot sorts_classes_007
+sort	501510		Name	b931e80d4461	Scie à viande	lot sorts_classes_007
+sort	501511		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501511		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501512		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501512		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501513		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501513		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501514		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501514		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501515		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501515		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501516		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501516		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501517		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501517		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501518		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	501518		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	501546		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	501547		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	501548		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	501625		Description	251346ce3962	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\nRend $s2 points de vie à un allié et le transforme en |cffffffffWorgen mineur|r pendant $800786d.@s:800786:0@	lot sorts_classes_007
+sort	501625		Name	20a100c0bf6d	Rituel de Croc-d'argent	lot sorts_classes_007
+sort	501625		ToolTip	56c551be2a3e	Après $d, vous deviendrez un Worgen mineur pendant $800786d.	lot sorts_classes_007
+sort	501640		Description	e94c202235fb	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nInfeste un ennemi de parasites sanguins, lui infligeant ${$m2+0+$sps*.35} points de dégâts d'Ombre et le faisant saigner pour ${($d*1000/$t1)*($m1+0+$sps*0.1)} points de dégâts en $d.\r\n\r\nLes dégâts périodiques de ce sort peuvent infliger un coup critique.	lot sorts_classes_007
+sort	501640		Name	18e461d7d6b8	Hématophage	lot sorts_classes_007
+sort	501640		ToolTip	8b37addbd317	Saigne pour ${$w1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_classes_007
+sort	501724		Description	67a3a43ead0c	|cff8fff7aGénère $?s500024[2][1] point d'Avantage|r\r\nFrappe sauvagement un ennemi pour $s1% de dégâts d'arme plus ${$m3+0}.\r\n\r\nSi vous combattez avec deux armes, inflige des dégâts d'arme supplémentaires avec votre arme de main gauche.	lot sorts_classes_007
+sort	501724		Name	6ade62cee7df	Frappe sauvage	lot sorts_classes_007
+sort	501764		Description	7c9e50e028fa	Émet une aura pendant $d qui augmente de $s1% les points de vie maximum des alliés à moins de $a1 mètres et leur rend $s2 points de vie toutes les $t2 sec.\n\nTous les sorts |cffffffffCorne du rôdeur|r partagent un temps de recharge.	lot sorts_classes_007
+sort	501764		ToolTip	3c33f9010695	Points de vie maximum augmentés de ${$w1}%. Rend ${$w2} points de vie toutes les $t2 sec.	lot sorts_classes_007
+sort	501769		Description	7c9e50e028fa	Émet une aura pendant $d qui augmente de $s1% les points de vie maximum des alliés à moins de $a1 mètres et leur rend $s2 points de vie toutes les $t2 sec.\n\nTous les sorts |cffffffffCorne du rôdeur|r partagent un temps de recharge.	lot sorts_classes_007
+sort	501769		ToolTip	3c33f9010695	Points de vie maximum augmentés de ${$w1}%. Rend ${$w2} points de vie toutes les $t2 sec.	lot sorts_classes_007
+sort	501820		Description	c53ff8a0a8d2	Place une bombe gravitationnelle sur la cible. Après $d, elle explose, infligeant $s3 points de dégâts d'Ombre et attirant les autres ennemis proches vers sa position.$?s706062[\r\n\r\nLa cible subit $s2% de dégâts supplémentaires de votre part pendant le délai.][]\r\n\r\nCe sort appartient à |cFFFFFFFFChromatique|r.	lot sorts_classes_007
+sort	501820		Name	54762e0b3c1e	Bombe gravitationnelle	lot sorts_classes_007
+sort	501820		ToolTip	357faf743e69	$?s706062[Dégâts du Chronomancien augmentés de ${$w2}%.\n\n][]Après $t3 sec, vous explosez, infligeant ${$w3} points de dégâts d'Ombre, et attirez vos alliés vers vous.	lot sorts_classes_007
+sort	501843		Description	a24ab176309d	Inflige $s1 points de dégâts chromatiques aux ennemis dans un cône de $a1 mètres et réduit leur vitesse de déplacement de $801265s3% pendant $801265d.	lot sorts_classes_007
+sort	501843		Name	7f58a5b7e184	Sables du temps	lot sorts_classes_007
+sort	501843		ToolTip	5d8f1d445956	Vitesse de déplacement réduite de ${$w3}%.	lot sorts_classes_007
+sort	501890		Description	ac269fcd0e2d	Frappe un ennemi de maladie, siphonnant ${$m1+0+$SP*0.15} points de vie toutes les $t sec pendant $d et vous soignant d'une partie des dégâts infligés.\r\n\r\nLa peste s'intensifie et siphonne d'autant plus de points de vie que votre cible est proche de la mort.	lot sorts_classes_007
+sort	501890		Name	6412c4cdf291	Moisson de peste	lot sorts_classes_007
+sort	501890		ToolTip	cc4b24e1d3a0	Draine des points de vie au lanceur toutes les $t1 sec.	lot sorts_classes_007
+sort	501900		Description	4ab2c548ef41	Rafraîchit toutes les maladies du Nécromancien sur l'ennemi ciblé.	lot sorts_classes_007
+sort	501900		Name	c6e81e63c57c	Virulence	lot sorts_classes_007
+sort	501921		Description	889d267579d3	Tire une rafale de sable enchanté sur un ennemi, lui infligeant ${$m1+0+$spa*0.43+$RAP*0.4} points de dégâts des Arcanes et vous conférant |cffffffffSables du temps|r.@s:804488:0@\r\n\r\n$?s503811[Ce sort appartient à |cFFFFFFFFOrdre|r.][]	lot sorts_classes_007
+sort	501921		Name	180746d768ac	Rafale de sable	lot sorts_classes_007
+sort	501943		Description	1fa8e257c29a	Frappe un ennemi de maladie, lui infligeant ${$m3+0+$SP*0.12} points de dégâts de peste toutes les $t3 sec pendant $d.\r\n\r\nAprès $d, la cible explose et inflige ${$m1+0+$SP*0.38} points de dégâts de peste à tous les ennemis à moins de $802128a1 mètres.	lot sorts_classes_007
+sort	501943		Name	a9e155dad5fe	Pourriture cadavérique nocive	lot sorts_classes_007
+sort	501943		ToolTip	c078509eeee0	Subit ${$m3+$ppl3+$SP*0.14} points de dégâts de peste toutes les $t3 sec.\r\n\r\nAprès $d, la cible explose et inflige ${$m1+$ppl1+$SP*0.38} points de dégâts de peste à tous les ennemis à moins de $802128a1 mètres.	lot sorts_classes_007
+sort	502011		Description	aed22833c0a1	|cffff7f7fGénère 20 points de Chaleur|r\r\nInvoque des flammes sur un ennemi, lui infligeant ${$m1+0+$spfi*.571} points de dégâts de Feu.	lot sorts_classes_007
+sort	502011		Name	c0ebf3b18c10	Trait de fusée	lot sorts_classes_007
+sort	502012		Description	aed22833c0a1	|cffff7f7fGénère 20 points de Chaleur|r\r\nInvoque des flammes sur un ennemi, lui infligeant ${$m1+0+$spfi*.571} points de dégâts de Feu.	lot sorts_classes_007
+sort	502012		Name	c0ebf3b18c10	Trait de fusée	lot sorts_classes_007
+sort	502013		Description	aed22833c0a1	|cffff7f7fGénère 20 points de Chaleur|r\r\nInvoque des flammes sur un ennemi, lui infligeant ${$m1+0+$spfi*.571} points de dégâts de Feu.	lot sorts_classes_007
+sort	502013		Name	c0ebf3b18c10	Trait de fusée	lot sorts_classes_007
+sort	502014		Description	aed22833c0a1	|cffff7f7fGénère 20 points de Chaleur|r\r\nInvoque des flammes sur un ennemi, lui infligeant ${$m1+0+$spfi*.571} points de dégâts de Feu.	lot sorts_classes_007
+sort	502014		Name	c0ebf3b18c10	Trait de fusée	lot sorts_classes_007
+sort	502044		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	502044		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	502045		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	502045		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	502046		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	502046		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	502047		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	502047		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	502048		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	502048		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	502052		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	502052		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	502053		Description	eac2da2b8389	Fait tomber un pilier de feu sur un ennemi, lui infligeant ${$m1+0} points de dégâts de Feu, puis 50% des dégâts initiaux supplémentaires en $d.\r\n\r\n|cffffffffSurchauffe :|r coup critique garanti.	lot sorts_classes_007
+sort	502053		Name	9552c32c7ede	Pilier de flammes	lot sorts_classes_007
+sort	502053		ToolTip	e8a0a4dd7d4f	Inflige ${$w2} points de dégâts de Feu toutes les $t2 sec.	lot sorts_classes_007
+sort	502057		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502058		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502059		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502060		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502061		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502062		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502063		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	502064		Description	7567c5e45639	Inflige $800793s2 points de dégâts de Feu, puis ${$m1+($pl*0.24)} points de dégâts supplémentaires toutes les $800793t1 sec pendant $800793d à toutes les cibles affectées par votre |cffffffffEnflammer|r.	lot sorts_classes_007
+sort	502064		Name	fd6e0cb3aa62	Déferlante de flammes	lot sorts_classes_007
+sort	502125		Description	ea15b3c1dcf8	Votre prochaine |cffffffffLame de l'Empire|r inflige ${$m1+($pl*1.5)} points de dégâts d'Ombre supplémentaires et sa portée augmente de $s2 mètres. Dégâts augmentés de $500706s1% par charge de Folie.\r\n\r\nSi votre |cffcfa6ffFolie|r dépasse 60, réinitialise le temps de recharge de |cffffffffRegard de C'Thun|r.	lot sorts_classes_007
+sort	502125		Name	4cd32d393354	Châtiment surnaturel de C'thun	lot sorts_classes_007
+sort	502125		ToolTip	4709a165f7ba	Votre prochaine Lame de l'Empire a une portée accrue et inflige des dégâts d'Ombre supplémentaires qui dépendent de la puissance des sorts, de la puissance d'attaque et de la Folie.	lot sorts_classes_007
+sort	502134		Description	7716f4c0c45b	Vous protège d'une barrière magique qui absorbe ${$m1+0+$STA*0.35} points de dégâts. Dure $d.\r\n\r\nTant qu'elle est active, les dégâts magiques subis sont réduits de $s2%.	lot sorts_classes_007
+sort	502134		Name	8d27418fe0df	Manteau de malheur	lot sorts_classes_007
+sort	502134		ToolTip	ee91c753d2e3	Absorbe ${$w1} points de dégâts. Dégâts magiques subis réduits de ${$w2}%. 	lot sorts_classes_007
+sort	502166		Description	348231de2c36	Frappe un ennemi d'une puissance du Vide écrasante, lui infligeant ${$m1+0+$SP*1} points de dégâts d'Ombre et drainant 20 points de |cffcfa6ffFolie|r.	lot sorts_classes_007
+sort	502166		Name	dfa275c23373	Courroux de l'Empire noir	lot sorts_classes_007
+sort	502167		Description	348231de2c36	Frappe un ennemi d'une puissance du Vide écrasante, lui infligeant ${$m1+0+$SP*1} points de dégâts d'Ombre et drainant 20 points de |cffcfa6ffFolie|r.	lot sorts_classes_007
+sort	502167		Name	dfa275c23373	Courroux de l'Empire noir	lot sorts_classes_007
+sort	502173		Description	32eb5318d97c	|cffcfa6ffGénère 10 points de Folie|r\r\nInflige ${$m1+0+$sps*0.714} points de dégâts d'Ombre à un ennemi.	lot sorts_classes_007
+sort	502173		Name	9a8019ff1cb5	Éclair d'effroi	lot sorts_classes_007
+sort	502195		Description	ec3a2207d59e	|cff93cceaConsomme 1 Rune du Vide|r\r\nVous brisez une Rune du Vide, infligeant ${$m1+0} points de dégâts d'Ombre à tous les ennemis à moins de $a1 mètres et les repoussant.	lot sorts_classes_007
+sort	502195		Name	0f61d01d3c5c	Brisure de rune du Vide	lot sorts_classes_007
+sort	502195		ToolTip	a3f7a5d34ddd	Vitesse de déplacement ralentie de ${$w3}%.	lot sorts_classes_007
+sort	502262		Description	c17b2aca9957	Profane l'arme d'un allié pendant $d, lui conférant $s2% de hâte supplémentaire et $h% de chances de voler ${$m1+($pl*2-45*2)+$SP*0.226} points de vie aux ennemis qu'il blesse, se soignant de la moitié du montant volé.	lot sorts_classes_007
+sort	502262		Name	b7a589f66fba	Insuffler le désespoir	lot sorts_classes_007
+sort	502262		ToolTip	7428d5e9a7bb	Vos effets de dégâts ont une chance de voler de la vie. Hâte augmentée de ${$w2}%.	lot sorts_classes_007
+sort	502333		Description	54cf8b2c3410	|cff66ccffConsomme les Étoiles éparpillées|r\r\nDéchaîne une lance lunaire sur un ennemi, lui infligeant ${$m1+0.35*$spa+0.21*$AP} points de dégâts de feu magique$?s560662[ et le |cffff4500Brûle|r pour ${$m2+0.1*$spa+0.05*$AP} toutes les $t2 sec pendant $d][].@s:804716:0@	lot sorts_classes_007
+sort	502333		Name	3090c82a7196	Lance lunaire	lot sorts_classes_007
+sort	502333		ToolTip	274f9eecbf91	Subit des dégâts de feu magique toutes les $t2 sec.	lot sorts_classes_007
+sort	502341		Description	f04c8013471b	Vous entoure d'une brume cosmique, infligeant ${$m1+0+$spa*0.08} points de dégâts des Arcanes toutes les $t1 sec à jusqu'à $i ennemis proches et réduisant leur puissance des sorts de ${$AP*0.10}. Dure $d.\r\n\r\nÀ la fin de l'effet, les ennemis proches sont étourdis pendant $800498d.	lot sorts_classes_007
+sort	502341		Name	89f8afd28744	Présence cosmique	lot sorts_classes_007
+sort	502341		ToolTip	5d5957e4bd9b	Les ennemis proches subissent ${$w1} points de dégâts des Arcanes toutes les $t1 sec\r\n\r\nÀ la fin de l'effet, les ennemis proches sont étourdis pendant $800498d.	lot sorts_classes_007
+sort	502386		Description	59b9a4fee1f4	Frappe un ennemi de la lumière du soleil, lui infligeant de ${$m1+0} à ${$M1+0} points de dégâts du Sacré.	lot sorts_classes_007
+sort	502386		Name	d5c538daca85	Flamboiement solaire	lot sorts_classes_007
+sort	502387		Description	59b9a4fee1f4	Frappe un ennemi de la lumière du soleil, lui infligeant de ${$m1+0} à ${$M1+0} points de dégâts du Sacré.	lot sorts_classes_007
+sort	502387		Name	d5c538daca85	Flamboiement solaire	lot sorts_classes_007
+sort	502388		Description	59b9a4fee1f4	Frappe un ennemi de la lumière du soleil, lui infligeant de ${$m1+0} à ${$M1+0} points de dégâts du Sacré.	lot sorts_classes_007
+sort	502388		Name	d5c538daca85	Flamboiement solaire	lot sorts_classes_007
+sort	502389		Description	59b9a4fee1f4	Frappe un ennemi de la lumière du soleil, lui infligeant de ${$m1+0} à ${$M1+0} points de dégâts du Sacré.	lot sorts_classes_007
+sort	502389		Name	d5c538daca85	Flamboiement solaire	lot sorts_classes_007
+sort	502390		Description	59b9a4fee1f4	Frappe un ennemi de la lumière du soleil, lui infligeant de ${$m1+0} à ${$M1+0} points de dégâts du Sacré.	lot sorts_classes_007
+sort	502390		Name	d5c538daca85	Flamboiement solaire	lot sorts_classes_007
+sort	502412		Description	50aa1cdd4c3b	Baigne un allié de lumière, lui rendant ${($d*1000/$t1)*($m1+0+$BH*.126)} points de vie en $d.	lot sorts_classes_007
+sort	502412		Name	3e9beeb92e4d	Rayon de soleil	lot sorts_classes_007
+sort	502412		ToolTip	593e9aa2268a	Rend ${$m1+$ppl1+$BH*.126} points de vie toutes les $t1 sec.	lot sorts_classes_007
+sort	502434		Description	195f0b9c672f	Rend $s1 points de vie à tous les membres amis du groupe ou du raid à moins de $a1 mètres de la cible. Peut être utilisé sur un ennemi ou un allié.	lot sorts_classes_007
+sort	502434		Name	6549c4c461cc	Étreinte solaire	lot sorts_classes_007
+sort	502434		ToolTip	f5b859753269	Lancer Rayon de soleil sur cet allié génère une charge supplémentaire de Puissance solaire.	lot sorts_classes_007
+sort	502449		Description	8f98b0f3f435	Fait briller une lumière sacrée sur un allié, lui rendant ${$m1+0+$SP*0.294699} points de vie.	lot sorts_classes_007
+sort	502449		Name	2b815f27f03e	Éclat	lot sorts_classes_007
+sort	502450		Description	8f98b0f3f435	Fait briller une lumière sacrée sur un allié, lui rendant ${$m1+0+$SP*0.294699} points de vie.	lot sorts_classes_007
+sort	502450		Name	2b815f27f03e	Éclat	lot sorts_classes_007
+sort	502460		Description	29ceb6181a3e	Votre aptitude |cffffffffFlamboiement solaire|r inflige désormais $800425s3 points de dégâts de Feu supplémentaires, selon votre puissance d'attaque, et applique |cffffffffFlammes purifiantes|r.	lot sorts_classes_007
+sort	502460		Name	6981513169be	Rayon brillant	lot sorts_classes_007
+sort	502467		Description	2aa83cac5edd	Écrase un ennemi pour $s2% de dégâts d'arme plus ${$m1+0)} et vous soigne de $707521s1% des dégâts infligés.\r\n\r\n@ext:Shares a cooldown with other |cffffffffGavels|r.:ext@	lot sorts_classes_007
+sort	502467		Name	72bf3853c8f2	Maillet de lumière	lot sorts_classes_007
+sort	502468		Description	2aa83cac5edd	Écrase un ennemi pour $s2% de dégâts d'arme plus ${$m1+0)} et vous soigne de $707521s1% des dégâts infligés.\r\n\r\n@ext:Shares a cooldown with other |cffffffffGavels|r.:ext@	lot sorts_classes_007
+sort	502468		Name	72bf3853c8f2	Maillet de lumière	lot sorts_classes_007
+sort	502469		Description	2aa83cac5edd	Écrase un ennemi pour $s2% de dégâts d'arme plus ${$m1+0)} et vous soigne de $707521s1% des dégâts infligés.\r\n\r\n@ext:Shares a cooldown with other |cffffffffGavels|r.:ext@	lot sorts_classes_007
+sort	502469		Name	72bf3853c8f2	Maillet de lumière	lot sorts_classes_007
+sort	502470		Description	2aa83cac5edd	Écrase un ennemi pour $s2% de dégâts d'arme plus ${$m1+0)} et vous soigne de $707521s1% des dégâts infligés.\r\n\r\n@ext:Shares a cooldown with other |cffffffffGavels|r.:ext@	lot sorts_classes_007
+sort	502470		Name	72bf3853c8f2	Maillet de lumière	lot sorts_classes_007
+sort	502573		Description	91ee276a319c	Tire un stimulant curatif sur un allié, lui rendant ${$m1+0+$bh*0.7} points de vie.	lot sorts_classes_007
+sort	502573		Name	1542f2d122ca	Tir de réparation	lot sorts_classes_007
+sort	502591		Description	f2525fc572ed	Inflige |cff01cdfe$s1 points de dégâts des Arcanes|r et libère votre |cffffffffCombinaison d'essences|r actuelle pour déclencher un effet de Page perdue selon la combinaison.\n\nConsultez les passifs |cffffffffPage perdue|r pour connaître les combinaisons disponibles.	lot sorts_classes_007
+sort	502591		Name	6631dd570113	Déchaînement des essences	lot sorts_classes_007
+sort	502634		Description	a3ce9aa2fe23	Étourdit une cible ennemie pendant $d, augmentant de $s2% les dégâts de Givre qu'elle subit de votre part pendant la durée.	lot sorts_classes_007
+sort	502634		Name	d859fcc0cc5f	Parchemin de givre éternel	lot sorts_classes_007
+sort	502634		ToolTip	607721987730	Étourdi. Dégâts de Givre du maître des runes augmentés de ${$w2}%.	lot sorts_classes_007
+sort	502666		Description	87ce27120129	Transfère $s1 points de vie de la cible vers le lanceur toutes les $t1 sec pendant $d.$?s705416[ Tant que l'effet est actif, vous recevez $s2% de soins supplémentaires.][]\r\n\r\n|cff5ee2ffInfusion d'âme|r : fréquence des effets augmentée de $806260s3%.	lot sorts_classes_007
+sort	502666		Name	06a62f722918	Moisson cramoisie	lot sorts_classes_007
+sort	502666		ToolTip	29730bb5cdb2	Draine ${$w1} points de vie toutes les $t1 sec vers le lanceur du sort.	lot sorts_classes_007
+sort	502672		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502673		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502674		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502675		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502676		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502677		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502678		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	502802		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502802		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502803		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502803		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502804		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502804		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502805		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502805		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502806		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502806		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502807		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502807		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502808		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	502808		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	502820		Description	675071e9b097	Invoque un arbre magique qui englobe votre corps, vous enracinant, vous empêchant d'infliger des dégâts pendant $d et rendant instantanément ${$m1+0} points de vie à jusqu'à $i alliés.\r\n\r\nTant que l'effet est actif, un |cffffffffBosquet sacré|r est créé autour de vous. Jusqu'à $i alliés dans le bosquet subissent $800186s2% de dégâts en moins, reçoivent $800186s3% de soins en plus et regagnent $800179s1% de leurs points de vie maximum et $800179s2% de leur mana maximum toutes les $800186t1 sec.	lot sorts_classes_007
+sort	502820		Name	2a817d8dadae	Bosquet sacré	lot sorts_classes_007
+sort	502820		ToolTip	5e252f2a526f	Immobilisé. Ne peut pas infliger de dégâts.	lot sorts_classes_007
+sort	502828		Description	dd60bc6e9b7c	Frappe un ennemi pour ${$m1+0+$SP*.55+$AP*.05} points de dégâts élémentaires$?s500309[ et génère un |cffffffffGlyphe|r][].	lot sorts_classes_007
+sort	502828		Name	3aedd8bb4b61	Explosion élémentaire	lot sorts_classes_007
+sort	502896		Description	a2b743f194bc	$?s807600[|cff66ff66Applique 1 Marque de la couvée|r\r\n][]Mord un ennemi et lui inflige ${$m1+0+$spn*.4} points de dégâts de Nature.	lot sorts_classes_007
+sort	502896		Name	f8398174cbe8	Croc venimeux	lot sorts_classes_007
+sort	502939		Description	a26e39eb8688	Apporte la gloire de Shadra à un allié, lui rendant ${$m2+0+$BH*0.263078} points de vie, puis ${$m1+0+$bh*0.131086} points de vie toutes les $804088t1 sec pendant $d.	lot sorts_classes_007
+sort	502939		Name	48478fc24317	Prière de Shadra	lot sorts_classes_007
+sort	502939		ToolTip	c871d8952aed	Rend ${$m1+$BH*0.131086} points de vie toutes les $t1 sec.	lot sorts_classes_007
+sort	502982		Description	7cc0ddd4b090	Rend ${$m1+0} points de vie à jusqu'à $i alliés à moins de $a1 mètres de la zone ciblée et leur applique |cffffffffVeille de Shadra|r.@ext:@s:800870:0@:ext@	lot sorts_classes_007
+sort	502982		Name	d0866d1bcb12	Unité	lot sorts_classes_007
+sort	502989		Description	70aa05c93ce6	|cFF5ee2ffGénère 1 Âme moissonnée|r\r\nCrée un nuage de brume à l'endroit ciblé pendant $d. Toutes les $T1 sec, les ennemis de la zone subissent ${$m1+0+$sps*.04+$AP*.15} points de dégâts de Givre, et vous êtes soigné de ${$e1*100}% des dégâts infligés.	lot sorts_classes_007
+sort	502989		Name	a0f3da5af744	Vent de mort	lot sorts_classes_007
+sort	502989		ToolTip	077af5fc5a42	Vous vous tenez dans le Vent de mort d'un Faucheur !	lot sorts_classes_007
+sort	503037		Description	119e9e913e07	Invoque une puissante gerbe d'eau sous l'ennemi ciblé, lui infligeant ${$m1+($PL*2.0-21*2.0)} points de dégâts de Givre et le projetant dans les airs.\r\n\r\n|cffffffffFocalisation|r : les membres de votre groupe ou raid à moins de $800399a1 mètres subissent $800399s1% de dégâts en moins pendant $800399d.	lot sorts_classes_007
+sort	503037		Name	d3e7fa9aca05	Geyser	lot sorts_classes_007
+sort	503077		Description	443cfb0c889d	Bénit une cible amie, lui rendant instantanément ${$m1+0+$BH*1} points de vie, augmentant son armure de $s3% et réduisant de $s2% le coût de ses aptitudes pendant $d.\r\n\r\nTous les effets sont augmentés de $802985s3% par charge de |cffffffffPhase lunaire|r que vous possédez, et toutes les charges sont retirées à l'utilisation.	lot sorts_classes_007
+sort	503077		Name	9db79f47918e	Bénédiction de l'eau lunaire	lot sorts_classes_007
+sort	503077		ToolTip	9fc8b913dc92	Armure augmentée de ${$w3}%. Coût des aptitudes réduit de ${$w2}%.	lot sorts_classes_007
+sort	503106		Description	f96222aa0dfc	Porte 4 attaques d'arme rapides en $d à une cible ennemie, chacune infligeant $803105s1 points de dégâts physiques. \r\n\r\nChaque frappe consomme 1 charge de |cffffffffPoison des bois profonds|r de la cible pour infliger $803106s1 points de dégâts de Nature supplémentaires.	lot sorts_classes_007
+sort	503106		Name	dd1d805957df	Morsure de l'hydre	lot sorts_classes_007
+sort	504335		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	504912		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
+sort	504913		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
+sort	504914		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
+sort	504915		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
+sort	504916		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
+sort	520523		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	547210		Description	962a72b49e11	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes et inflige des dégâts d'arme plus $s1.	lot sorts_classes_007
+sort	547210		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	547211		Description	962a72b49e11	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes et inflige des dégâts d'arme plus $s1.	lot sorts_classes_007
+sort	547211		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	560764		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	570750		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	578119		Description	2cb7fa5c28a9	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nBalance rapidement une lame massive sur jusqu'à $i ennemis proches, infligeant $s2% de dégâts d'arme plus $s1$?s514169[ et appliquant |cffffffffChair déchirée|r][].	lot sorts_classes_007
+sort	578119		Name	b931e80d4461	Scie à viande	lot sorts_classes_007
+sort	680308		ToolTip	cf409d5345f2	Béni par les Illidari. Agilité augmentée de ${$W1}.	lot sorts_classes_007
+sort	800013		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	800083		Description	67a3a43ead0c	|cff8fff7aGénère $?s500024[2][1] point d'Avantage|r\r\nFrappe sauvagement un ennemi pour $s1% de dégâts d'arme plus ${$m3+0}.\r\n\r\nSi vous combattez avec deux armes, inflige des dégâts d'arme supplémentaires avec votre arme de main gauche.	lot sorts_classes_007
+sort	800083		Name	6ade62cee7df	Frappe sauvage	lot sorts_classes_007
+sort	800135		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
+sort	800135		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	800174		Description	70aa05c93ce6	|cFF5ee2ffGénère 1 Âme moissonnée|r\r\nCrée un nuage de brume à l'endroit ciblé pendant $d. Toutes les $T1 sec, les ennemis de la zone subissent ${$m1+0+$sps*.04+$AP*.15} points de dégâts de Givre, et vous êtes soigné de ${$e1*100}% des dégâts infligés.	lot sorts_classes_007
+sort	800174		Name	a0f3da5af744	Vent de mort	lot sorts_classes_007
+sort	800174		ToolTip	077af5fc5a42	Vous vous tenez dans le Vent de mort d'un Faucheur !	lot sorts_classes_007
+sort	800212		Description	596bc00e0d39	Imprègne un allié d'énergie démoniaque, augmentant son agilité de $s1. Dure $d.	lot sorts_classes_007
+sort	800212		Name	029d4bc617ab	Intuition illidari	lot sorts_classes_007
+sort	800212		ToolTip	cf409d5345f2	Béni par les Illidari. Agilité augmentée de ${$W1}.	lot sorts_classes_007
+sort	800231		Description	59b9a4fee1f4	Frappe un ennemi de la lumière du soleil, lui infligeant de ${$m1+0} à ${$M1+0} points de dégâts du Sacré.	lot sorts_classes_007
+sort	800231		Name	d5c538daca85	Flamboiement solaire	lot sorts_classes_007
+sort	800278		Description	7c9e50e028fa	Émet une aura pendant $d qui augmente de $s1% les points de vie maximum des alliés à moins de $a1 mètres et leur rend $s2 points de vie toutes les $t2 sec.\n\nTous les sorts |cffffffffCorne du rôdeur|r partagent un temps de recharge.	lot sorts_classes_007
+sort	800278		ToolTip	3c33f9010695	Points de vie maximum augmentés de ${$w1}%. Rend ${$w2} points de vie toutes les $t2 sec.	lot sorts_classes_007
+sort	800340		Description	2cb7fa5c28a9	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nBalance rapidement une lame massive sur jusqu'à $i ennemis proches, infligeant $s2% de dégâts d'arme plus $s1$?s514169[ et appliquant |cffffffffChair déchirée|r][].	lot sorts_classes_007
+sort	800340		Name	b931e80d4461	Scie à viande	lot sorts_classes_007
+sort	800357		Description	8f98b0f3f435	Fait briller une lumière sacrée sur un allié, lui rendant ${$m1+0+$SP*0.294699} points de vie.	lot sorts_classes_007
+sort	800357		Name	2b815f27f03e	Éclat	lot sorts_classes_007
+sort	800375		ToolTip	064bc208f8d0	Absorbe les dégâts.	lot sorts_classes_007
+sort	800413		Description	348231de2c36	Frappe un ennemi d'une puissance du Vide écrasante, lui infligeant ${$m1+0+$SP*1} points de dégâts d'Ombre et drainant 20 points de |cffcfa6ffFolie|r.	lot sorts_classes_007
+sort	800413		Name	dfa275c23373	Courroux de l'Empire noir	lot sorts_classes_007
+sort	800416		Name	9a8019ff1cb5	Éclair d'effroi	lot sorts_classes_007
+sort	800516		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	800611		Description	2aa83cac5edd	Écrase un ennemi pour $s2% de dégâts d'arme plus ${$m1+0)} et vous soigne de $707521s1% des dégâts infligés.\r\n\r\n@ext:Shares a cooldown with other |cffffffffGavels|r.:ext@	lot sorts_classes_007
+sort	800611		Name	72bf3853c8f2	Maillet de lumière	lot sorts_classes_007
+sort	800790		Description	aed22833c0a1	|cffff7f7fGénère 20 points de Chaleur|r\r\nInvoque des flammes sur un ennemi, lui infligeant ${$m1+0+$spfi*.571} points de dégâts de Feu.	lot sorts_classes_007
+sort	800790		Name	c0ebf3b18c10	Trait de fusée	lot sorts_classes_007
+sort	800792		Name	9aef04a0fdbd	Explosion	lot sorts_classes_007
+sort	800806		Description	3141fbfe2951	|cffff7f7fGénère 30 points de Chaleur|r\r\nSoigne un allié avec des flammes curatives, lui rendant ${$m1+0+$SP*0.65+$SPI*1} points de vie, en fonction aussi de votre Esprit.	lot sorts_classes_007
+sort	800806		Name	7b15b09e36b1	Cœur de cendres	lot sorts_classes_007
+sort	801016		Description	770f10bbe65c	|cffff9933Génère 2 charges de Feu démoniaque|r\r\nFrappe un ennemi pour $s2% de dégâts d'arme plus ${$m1+0} points de dégâts de Feu.	lot sorts_classes_007
+sort	801016		Name	e3dcb38d922b	Frappe infernale	lot sorts_classes_007
+sort	801041		Name	a713ab5a99ce	Sillage rouge	lot sorts_classes_007
+sort	801132		Description	54cf8b2c3410	|cff66ccffConsomme les Étoiles éparpillées|r\r\nDéchaîne une lance lunaire sur un ennemi, lui infligeant ${$m1+0.35*$spa+0.21*$AP} points de dégâts de feu magique$?s560662[ et le |cffff4500Brûle|r pour ${$m2+0.1*$spa+0.05*$AP} toutes les $t2 sec pendant $d][].@s:804716:0@	lot sorts_classes_007
+sort	801132		Name	3090c82a7196	Lance lunaire	lot sorts_classes_007
+sort	801132		ToolTip	274f9eecbf91	Subit des dégâts de feu magique toutes les $t2 sec.	lot sorts_classes_007
+sort	801312		Name	e086a265e9d6	Boule de feu gangrenée	lot sorts_classes_007
+sort	801670		Description	3ac4bba10714	Prépare une potion puis la lance à un allié, lui rendant ${$m1+0+$SP*0.84} points de vie$?s705848[ et le renforçant d'un effet aléatoire pendant $802207d][].$?s705848[\r\n@ext:@s:802207:0@:ext@\r\n@ext:@s:802208:0@:ext@\r\n@ext:@s:802215:0@:ext@\r\n@ext:@s:802216:0@:ext@][]\r\n\r\nSoigner une cible différente avec |cFFFFFFFFBreuvage du loa|r soigne aussi la cible précédente de Breuvage du loa à hauteur de $899904s1% des soins prodigués.	lot sorts_classes_007
+sort	801670		Name	05053611db3e	Breuvage du loa	lot sorts_classes_007
+sort	801707		Description	91ee276a319c	Tire un stimulant curatif sur un allié, lui rendant ${$m1+0+$bh*0.7} points de vie.	lot sorts_classes_007
+sort	801707		Name	1542f2d122ca	Tir de réparation	lot sorts_classes_007
+sort	801828		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	801844		Description	4b8028a1b98b	|cffcc99ffGénère 20 points de Statique|r\r\nÉlectrocute un ennemi pour ${$m1+0+$spn*0.45} points de dégâts de Nature.\r\n\r\nUtilisable uniquement sur les ennemis ayant moins de 35% de points de vie.	lot sorts_classes_007
+sort	801844		Name	3c740d8576cf	Électrocution	lot sorts_classes_007
+sort	801901		Name	c579d0fa05a2	Double entaille	lot sorts_classes_007
+sort	802008		Name	29fea1529978	Empalement	lot sorts_classes_007
+sort	802060		Name	169b6af0b3e6	Châtiment de Sargeron	lot sorts_classes_007
+sort	802060		ToolTip	783cd0db3a0b	Inflige des dégâts d'Ombreflamme toutes les $t2 sec.	lot sorts_classes_007
+sort	802197		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	804936		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	805382		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
+sort	805584		ToolTip	064bc208f8d0	Absorbe les dégâts.	lot sorts_classes_007
+sort	805949		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
