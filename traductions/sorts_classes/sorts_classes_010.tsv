@@ -107,6 +107,7 @@ sort	704479		Description	dc3c1c197bb5	Vos attaques à la baguette réduisent dé
 sort	704479		Name	ff9d70fa3923	Création de rouille	lot sorts_classes_010
 sort	704483		Description	90b95794563e	Vous donne la possibilité d'utiliser les |cffffffffChronobuffs de l'artificier|r.\r\n\r\nUn seul effet peut être actif à la fois. Ces capacités évoluent en fonction de votre Esprit.\n@s:804420:0@@s:804421:0@@s:804422:0@@s:804431:0@	lot sorts_classes_010
 sort	704483		Name	c065b28aba5e	Amplification de l'artificier	lot sorts_classes_010
+sort	704483		ToolTip	84abf7f9398d	Vous apprend 4 aptitudes pour renforcer vos alliés. Vous ne pouvez avoir qu'1 effet de Maître du temps actif à la fois.@s:804420@@s:804421@@s:804422@@s:804431@	lot sorts_classes_010
 sort	704492		Name	504f37b3f837	Éclats chromatiques	lot sorts_classes_010
 sort	704501		Description	798d47e9c61d	Les dégâts infligés ont désormais $h% de chances de déclencher une |cffffffffMarionnette d'ombre|r sur un ennemi, lui infligeant ${$m1+0+$sps*.195} points de dégâts d'Ombre.	lot sorts_classes_010
 sort	704501		Name	38b2021baf07	Vaudou rampant	lot sorts_classes_010
@@ -138,6 +139,8 @@ sort	704622		ToolTip	20c0d28dcfc6	Supprime le temps de recharge de votre sort Li
 sort	704631		Name	3f056fd6a280	Puissance spectrale	lot sorts_classes_010
 sort	704637		Description	12f104e6bfc9	Lorsque la |cffffffffComplainte des Ténébrants|r prend fin, vous rend $681029s1% de vos points de vie maximum.	lot sorts_classes_010
 sort	704637		Name	f24fc95e910d	Égide aortique	lot sorts_classes_010
+sort	704638		Description	331ed4921619	|cffffffffNé dans le sang|r gagne 2 charges supplémentaires.@s:504551:0@	lot sorts_classes_010
+sort	704638		Name	5c1594c861a6	Une mort acérée	lot sorts_classes_010
 sort	704639		Description	047f87858c3c	Vos dégâts directs infligés ont $h% de chances d'augmenter de $800988s1% les chances qu'un ennemi subisse un coup critique pendant $800988d.	lot sorts_classes_010
 sort	704639		Name	eebd809052c1	Sang persistant	lot sorts_classes_010
 sort	704640		Name	cae88eb709b2	Tourment lancinant	lot sorts_classes_010

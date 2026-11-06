@@ -171,6 +171,7 @@ sort	805101		Name	7cdb916630af	Frappes régénératrices	lot sorts_classes_021
 sort	805101		ToolTip	cb7d72db1972	Donne aux dégâts physiques et de Nature infligés $h% de chances de rendre $805099s1% des points de vie maximum et de réduire de $/1000;805099s2 sec le temps de recharge restant de |cffffffffMue|r.	lot sorts_classes_021
 sort	805108		Description	a266049fb2a7	Rend $s1 points de vie à un allié, en fonction de votre puissance d'attaque et de la puissance de vos sorts de soins.\r\n\r\nTous les effets qui modifient votre aptitude |cffffffffTerre rompue|r affectent également ce sort.	lot sorts_classes_021
 sort	805108		Name	deee113534da	Soin sauvage	lot sorts_classes_021
+sort	805111		Description	d7812d35c591	Frappe un ennemi et lui inflige les dégâts de l'arme plus $s1, applique |cffffffffVide bouillonnant|r et génère 2 |cffffffffRunes du Vide|r.@s:805113:0@	lot sorts_classes_021
 sort	805111		Name	3cf655660523	Frappe entropique	lot sorts_classes_021
 sort	805111		ToolTip	470978715b7f	Vitesse de déplacement augmentée de ${$w1}%..$?s681105[ Votre prochaine Frappe abyssale infligera des dégâts d'Ombre supplémentaires et aura une portée accrue.][]	lot sorts_classes_021
 sort	805116		Description	74ac60941c2c	Écrase un ennemi en lui infligeant $s1% de dégâts d'arme plus ${$m2+0} points de dégâts d'Ombre, en ignorant les effets d'absorption et en drainant 40 |cffcfa6ffFolie|r.$?s704869[ Rafraîchit une charge de |cffffffffLame de l'Empire|r.][]	lot sorts_classes_021
@@ -196,6 +197,7 @@ sort	805143		Name	106107e7bdd8	Transfert de vie	lot sorts_classes_021
 sort	805145		Description	64804609f24b	Les dégâts et les soins de vos aptitudes sont augmentés de $804904s2%.	lot sorts_classes_021
 sort	805145		Name	7afafb013f2d	Serment : Rétribution	lot sorts_classes_021
 sort	805145		ToolTip	cae95a71cec6	Les dégâts et les soins de vos aptitudes sont augmentés de $804904s2%.\r\n\r\nQuand votre |cffffffffChaîne de serment|r prend fin, cet effet disparaît.	lot sorts_classes_021
+sort	805152		Description	8afa54c367bf	Réduit de $/1000;s2 sec le temps de recharge d'|cffffffffEntrée grandiose|r et la lancer vous confère désormais |cffffffffPourfendeur|r.@s:504744:0@	lot sorts_classes_021
 sort	805152		Name	0f8b1579c6aa	Passif de réinitialisation de Verdict final	lot sorts_classes_021
 sort	805156		Description	ec7f0559607c	Vos attaques ignorent désormais $s1% de l'armure d'un ennemi.	lot sorts_classes_021
 sort	805156		Name	7deda1d12de2	Première ligne	lot sorts_classes_021

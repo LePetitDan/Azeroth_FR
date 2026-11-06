@@ -185,8 +185,10 @@ sort	572305		Name	7195d81e4779	Choc hypovolémique	lot sorts_classes_009
 sort	572305		ToolTip	9d13192f007a	Puissance d'attaque réduite de ${-$W1}.	lot sorts_classes_009
 sort	572341		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
 sort	572342		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
+sort	572384		Description	a574e1d4e6ff	Place une |cffffffffDévotion|r sur la cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'une seule |cFFFFFFFFDévotion|r par Clerc du soleil à la fois.:ext@	lot sorts_classes_009
 sort	572384		Name	1428293b1ead	Dévotion de l'aube	lot sorts_classes_009
 sort	572384		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
+sort	572385		Description	a574e1d4e6ff	Place une |cffffffffDévotion|r sur la cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'une seule |cFFFFFFFFDévotion|r par Clerc du soleil à la fois.:ext@	lot sorts_classes_009
 sort	572385		Name	1428293b1ead	Dévotion de l'aube	lot sorts_classes_009
 sort	572385		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
 sort	572618		Name	3157c6ce5d18	Flammes de Neltharion	lot sorts_classes_009
@@ -196,16 +198,22 @@ sort	572621		Name	3157c6ce5d18	Flammes de Neltharion	lot sorts_classes_009
 sort	572622		Name	3157c6ce5d18	Flammes de Neltharion	lot sorts_classes_009
 sort	572623		Name	3157c6ce5d18	Flammes de Neltharion	lot sorts_classes_009
 sort	572625		Name	f8cc58705eb9	Coulée pyroclastique	lot sorts_classes_009
+sort	572810		Description	93b01436393a	Invoque un instinct calme et terrestre sur la cible amie, lui rendant $s1 points de mana toutes les 5 sec. \r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	572810		Name	5fef70c0b973	Instinct du bosquet	lot sorts_classes_009
 sort	572810		ToolTip	2104fb4e70fd	Rend ${$W1} points de mana toutes les 5 sec.	lot sorts_classes_009
+sort	572811		Description	93b01436393a	Invoque un instinct calme et terrestre sur la cible amie, lui rendant $s1 points de mana toutes les 5 sec. \r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	572811		Name	5fef70c0b973	Instinct du bosquet	lot sorts_classes_009
 sort	572811		ToolTip	2104fb4e70fd	Rend ${$W1} points de mana toutes les 5 sec.	lot sorts_classes_009
+sort	572812		Description	93b01436393a	Invoque un instinct calme et terrestre sur la cible amie, lui rendant $s1 points de mana toutes les 5 sec. \r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	572812		Name	5fef70c0b973	Instinct du bosquet	lot sorts_classes_009
 sort	572812		ToolTip	2104fb4e70fd	Rend ${$W1} points de mana toutes les 5 sec.	lot sorts_classes_009
+sort	572813		Description	93b01436393a	Invoque un instinct calme et terrestre sur la cible amie, lui rendant $s1 points de mana toutes les 5 sec. \r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	572813		Name	5fef70c0b973	Instinct du bosquet	lot sorts_classes_009
 sort	572813		ToolTip	2104fb4e70fd	Rend ${$W1} points de mana toutes les 5 sec.	lot sorts_classes_009
+sort	572814		Description	93b01436393a	Invoque un instinct calme et terrestre sur la cible amie, lui rendant $s1 points de mana toutes les 5 sec. \r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	572814		Name	5fef70c0b973	Instinct du bosquet	lot sorts_classes_009
 sort	572814		ToolTip	2104fb4e70fd	Rend ${$W1} points de mana toutes les 5 sec.	lot sorts_classes_009
+sort	572815		Description	93b01436393a	Invoque un instinct calme et terrestre sur la cible amie, lui rendant $s1 points de mana toutes les 5 sec. \r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	572815		Name	5fef70c0b973	Instinct du bosquet	lot sorts_classes_009
 sort	572815		ToolTip	2104fb4e70fd	Rend ${$W1} points de mana toutes les 5 sec.	lot sorts_classes_009
 sort	572817		Description	2a2361a7aee6	Invoque un instinct chez tous les membres du raid et du groupe, leur rendant $s1 points de mana toutes les 5 sec.	lot sorts_classes_009
@@ -228,6 +236,7 @@ sort	573318		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
 sort	573319		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
 sort	573321		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
 sort	573322		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
+sort	573349		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	573349		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	573349		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
 sort	573364		Description	f0ecac0e9cde	Votre prochain |cFFFFFFFFRappel de l'esprit animal|r dans les $d est instantané et coûte $s2% de mana en moins.	lot sorts_classes_009
@@ -247,6 +256,7 @@ sort	574302		Name	bba0427dcf2a	Appel de l'esprit animal	lot sorts_classes_009
 sort	574303		Description	db679991cc70	Renvoie votre esprit animal.	lot sorts_classes_009
 sort	574303		Name	8ca887c4a7e3	Renvoi de l'esprit animal	lot sorts_classes_009
 sort	574360		Name	1e8839cc99c9	Aspect du puits de lune	lot sorts_classes_009
+sort	575040		Description	634e0bdaa795	Place une |cffffffffDévotion|r sur la cible amie, augmentant la puissance des sorts de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'une seule |cFFFFFFFFDévotion|r par Clerc du soleil à la fois.:ext@	lot sorts_classes_009
 sort	575040		Name	683af017f04b	Dévotion de rayonnement	lot sorts_classes_009
 sort	575040		ToolTip	1824c6db4673	Augmente la puissance des sorts de ${$W1}.	lot sorts_classes_009
 sort	578118		Description	1b0ede1b9f3b	Condense les ombres et ramène votre |cFFFFFFFFChien de l'ombre|r d'entre les morts.	lot sorts_classes_009
@@ -371,6 +381,7 @@ sort	707343		ToolTip	373f289ae7ef	Force augmentée de ${$w2}. Résistance au Feu
 sort	707344		ToolTip	373f289ae7ef	Force augmentée de ${$w2}. Résistance au Feu augmentée de ${$w1}.	lot sorts_classes_009
 sort	707345		ToolTip	373f289ae7ef	Force augmentée de ${$w2}. Résistance au Feu augmentée de ${$w1}.	lot sorts_classes_009
 sort	800196		ToolTip	6d86b1a93d44	Intelligence augmentée de ${$W1}.	lot sorts_classes_009
+sort	800197		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	800197		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	800197		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
 sort	801059		Description	3477beedec4f	Brûle jusqu'à $801003i ennemis devant vous, leur infligeant ${$m1+0+$spfi*0.45+$AP*.15} points de dégâts de Feu.\r\n\r\nInflige davantage de dégâts par |cffff9933Feu démoniaque|r consommé.\r\n\r\n@ifknown:704997:|cffffffffFrappe infernale|r souffle les ennemis proches affectés par ce sort et leur inflige des dégâts de Feu supplémentaires.:ifknown@	lot sorts_classes_009
@@ -396,14 +407,19 @@ sort	802415		ToolTip	346445b8ca8d	Roussi par des flammes infernales.	lot sorts_c
 sort	802731		Name	30b2bf3e2006	Déchirure d'âme	lot sorts_classes_009
 sort	802819		ToolTip	6d86b1a93d44	Intelligence augmentée de ${$W1}.	lot sorts_classes_009
 sort	802820		ToolTip	6d86b1a93d44	Intelligence augmentée de ${$W1}.	lot sorts_classes_009
+sort	803315		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	803315		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	803315		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
+sort	803316		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	803316		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	803316		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
+sort	803317		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	803317		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	803317		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
+sort	803318		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	803318		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	803318		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
+sort	803319		Description	412a2665e682	Invoque un instinct sauvage sur une cible amie, augmentant sa puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'un seul |cffffffffInstinct|r par Primaliste à la fois.:ext@	lot sorts_classes_009
 sort	803319		Name	5769eb1545b2	Instinct primordial	lot sorts_classes_009
 sort	803319		ToolTip	1d1a591b6afb	Augmente de ${$W1} la puissance d'attaque.	lot sorts_classes_009
 sort	803407		Name	3653f1125e24	Écho de Nozdormu	lot sorts_classes_009

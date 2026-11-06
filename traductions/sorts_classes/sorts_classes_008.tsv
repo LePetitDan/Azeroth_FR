@@ -159,6 +159,7 @@ sort	504707		ToolTip	71b5b33c604b	Hâte des sorts augmentée de ${$w3}% de votre
 sort	504720		Description	e965a8ee6d57	Imprègne votre peau de cendres volcaniques : $s1% de votre régénération de mana continue en combat, et les dégâts périodiques infligés rendent $505187s1% de votre mana de base. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffSkin|r active at a time.:ext@	lot sorts_classes_008
 sort	504720		Name	567236e52ff7	Peau cendreuse	lot sorts_classes_008
 sort	504720		ToolTip	a72e532f32fa	${$W1}% de la régénération de mana continue pendant l'incantation. Les dégâts périodiques infligés régénèrent du mana. \r\n\r\n	lot sorts_classes_008
+sort	504856		Description	8c709a5cb4af	Augmente de $s1% vos chances de résister aux effets de peur, de charme et de sommeil, et dissipe $853226s1 effet de peur, de charme et de sommeil sur les membres du groupe situés à moins de $505217a1 mètres toutes les $505217t1 sec.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_008
 sort	504856		Name	1344c9b5c8fd	Faveur du lion	lot sorts_classes_008
 sort	504856		ToolTip	99f182f42bbf	Augmente de ${$w1}% vos chances de résister aux effets de peur, de charme et de sommeil. \r\n\r\nDissipe $853226s1 effet de peur, de charme et de sommeil sur les membres du groupe situés à moins de $505217a1 mètres toutes les $505217t1 sec.	lot sorts_classes_008
 sort	504868		Description	726cae2433c6	Ordonne à vos serviteurs morts-vivants d'exécuter une attaque unique sur votre cible.\r\n\r\nConsultez les sorts de |cffffffffRéanimation|r pour leur effet de |cff90ee90Commandement|r.	lot sorts_classes_008
@@ -271,6 +272,7 @@ sort	524840		Description	ed41a00f53d3	Construit |cffffffffZIGGI-6K|r, dernier cr
 sort	524840		Name	5978b2fddb15	Construire : ZIGGI-6K	lot sorts_classes_008
 sort	524881		Description	5fc84d4e11bf	|cffffffffLame de foi|r fait désormais infliger à vos 3 prochains |cffffffffTranchants sacrés|r $524882s1% de dégâts supplémentaires, ou à vos |cffffffffVindicationes|r $524882s2% de dégâts supplémentaires, pendant $524882d.	lot sorts_classes_008
 sort	524881		Name	20b39bb25405	Enchaînement héroïque	lot sorts_classes_008
+sort	524930		Description	64584b53f56b	|cff3399ffNécessite une cible gelée|r\r\nDéchaîne une rune de givre sur un ennemi, l'étourdissant pendant $d.\r\n\r\nLes ennemis affectés sont considérés comme |cff3399ffGelés|R.	lot sorts_classes_008
 sort	524930		Name	8eef276c7fa0	Rune de glace	lot sorts_classes_008
 sort	524930		ToolTip	a3e816cd744d	Étourdi. Gelé.	lot sorts_classes_008
 sort	524966		Description	829a2bc05426	Remonte le temps et retire $s1 effet de maladie et de poison$?s804451[s][] d'une cible alliée.	lot sorts_classes_008

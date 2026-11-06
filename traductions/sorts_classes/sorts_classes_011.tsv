@@ -61,6 +61,7 @@ sort	704846		ToolTip	4fb5f54ded49	Les dégâts de Feu directs marquent désormai
 sort	704850		Description	20595a7f6928	Augmente le mana maximum de $s1%.	lot sorts_classes_011
 sort	704850		Name	a5aa51605831	Inextinguible	lot sorts_classes_011
 sort	704850		ToolTip	95649ec49439	Augmente le mana maximum de ${$w1}%.	lot sorts_classes_011
+sort	704852		Description	88b5e188eb38	|cFFFFFFFFRéseau haut-soleil|r fait désormais aussi surchauffer votre |cFFFFFFFFPhénix|r, ce qui augmente ses soins prodigués de $572541s2% et permet au |cFFFFFFFFPhénix|r de créer un torrent de feu à sa destination, infligeant ${$572541m1+$572541ppl1+$bh*0.1} points de dégâts de Feu aux ennemis proches toutes les $572542T1 sec pendant $572542d.	lot sorts_classes_011
 sort	704852		Name	e53910825a6b	Infernité	lot sorts_classes_011
 sort	704859		Description	b297a5661f03	Lancer |cffffffffCœur de cendres|r et |cffffffffTrait flamboyant|r réduit désormais le temps de recharge de |cffffffffMarée de feu|r et de |cffffffffCautériser les blessures|r de $/1000;806744s1 sec.	lot sorts_classes_011
 sort	704859		Name	a6f118b20e46	Brûlant et dangereux	lot sorts_classes_011
@@ -105,6 +106,7 @@ sort	704901		ToolTip	4ac3502d3297	Augmente les points de vie maximum de ${$w1}%.
 sort	704902		Description	2409aac5a83d	|cffffffffÉblouissement|r rend désormais $706442s1% de vos points de vie maximum.	lot sorts_classes_011
 sort	704902		Name	9214f88db858	Sans ombre	lot sorts_classes_011
 sort	704902		ToolTip	2fd3ecf723ea	|cffffffffÉblouissement|r rend désormais $706442s1% de vos points de vie maximum	lot sorts_classes_011
+sort	704905		Description	505f1186c8c3	Augmente de $/1000;s1 sec la durée de |CffffffffChampion du soleil|r et de |cffffffffChaînes de Lumière|r.	lot sorts_classes_011
 sort	704905		Name	112894a0024f	Arrivée du champion	lot sorts_classes_011
 sort	704912		Description	8354a7460030	Les dégâts magiques directs subis ont désormais $h% de chances de vous rendre ${$560855m1+$560855ppl1+$SP*0.12+$AP*0.05} points de vie toutes les $560855t1 sec pendant $560855d.	lot sorts_classes_011
 sort	704912		Name	27b64c8b25e4	Gardé par la Lumière	lot sorts_classes_011

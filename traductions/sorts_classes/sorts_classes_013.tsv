@@ -120,6 +120,7 @@ sort	705891		Name	aba7a8c8d54a	Frappé depuis les ombres	lot sorts_classes_013
 sort	705896		Description	e6a5a9dee6cf	Augmente de $s1% les chances de coup critique de |cffffffffBreuvage du loa|r et de $s2% les soins qu'il prodigue.	lot sorts_classes_013
 sort	705896		Name	f281d36e2ee2	Guidance de Lukou	lot sorts_classes_013
 sort	705896		ToolTip	b382ae56bfa7	Dégâts subis par |cffffffffInvoquer Bwonsamdi|r.@ext:@s:802097@:ext@	lot sorts_classes_013
+sort	705897		Description	04690ed22f28	Les dégâts infligés par |cffffffffFlèche maléfique|R libèrent désormais un |cffffffffEsprit piégé|r sur l'ennemi, qui inflige ${$504452m1+$504452ppl1+$RAP*.09} points de dégâts d'Ombre.	lot sorts_classes_013
 sort	705897		Name	1370ccbf6922	Esprits piégés	lot sorts_classes_013
 sort	705905		Description	8a534a76d0eb	Augmente de $s1% l'efficacité des |cffffffffDévotions|r.	lot sorts_classes_013
 sort	705905		Name	b98c76024d72	Entièrement dévoué	lot sorts_classes_013
@@ -203,6 +204,7 @@ sort	706008		ToolTip	ca1f13ee7b42	Réduit de $/1000;s1 sec le temps de recharge 
 sort	706011		Description	585d52a9aba1	Augmente de $s1% les dégâts et les soins de |cffffffffCroc du serpent|r et de $s2% ses chances de coup critique.	lot sorts_classes_013
 sort	706011		Name	efce2dd93343	Ruse du serpent	lot sorts_classes_013
 sort	706011		ToolTip	1e607409d9d7	Augmente de ${$w1}% les dégâts et les soins de |cffffffffCroc du serpent|r et de ${$w2}% ses chances de coup critique.	lot sorts_classes_013
+sort	706020		Description	2bb7bad581f7	|cffffffffCroc du serpent|r et |cffffffffFlétrisseuse|r consomment les charges de $?s707224[|cffffffffCroc de Venoxis|r][|cffffffffÉclair de venin|r] et appliquent une charge de |cffffffffPourriture|r pour chacune.@s:800910:0@	lot sorts_classes_013
 sort	706020		Name	a4f384f76f56	Propagateur de pourriture	lot sorts_classes_013
 sort	706028		Description	60f8d4a53403	Vos soins périodiques augmentent désormais de $706029s1% les soins directs de votre prochaine |cffffffffPrière de Shadra|r ou de votre prochain |cffffffffCroc du serpent|r, cumulable $706029u fois.	lot sorts_classes_013
 sort	706028		Name	5f17738b3b86	Renouveau rituel	lot sorts_classes_013

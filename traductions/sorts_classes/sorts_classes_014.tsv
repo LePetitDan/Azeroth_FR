@@ -11,6 +11,7 @@ sort	706147		Description	660d4b46d1a3	Réduit le temps de recharge de |cffffffff
 sort	706147		Name	037777680465	Bâton de dryade	lot sorts_classes_014
 sort	706147		ToolTip	c2b24e161b83	Réduit le temps de recharge de |cffffffffVague primordiale|r de $/1000;s2 sec et augmente ses soins de ${$w1}%.	lot sorts_classes_014
 sort	706149		Description	39cf854ba97d	Réduit le temps de recharge de |cffffffffAppel d'Ursoc|r de $/1000;s2 sec.	lot sorts_classes_014
+sort	706149		Name	456b55151969	Don de Misha	lot sorts_classes_014
 sort	706149		ToolTip	155ce9fb6e46	Réduit le temps de recharge de |cffffffffAppel d'Ursoc|r de $/1000;s1 sec.	lot sorts_classes_014
 sort	706151		Description	4ad2da5bb300	Augmente votre hâte de $s1%.	lot sorts_classes_014
 sort	706151		Name	b988cc79fd23	Fureur bestiale	lot sorts_classes_014
@@ -41,7 +42,9 @@ sort	706184		ToolTip	499ccc24792e	Augmente de ${$w1}% les dégâts infligés ave
 sort	706186		Description	4110857bc707	Réduit le temps de recharge de |cffffffffFrappe surnaturelle|r de $/1000;s1 sec et fait que |cFFFFFFFFHeurt entropique|r draine 20 points de Folie. 	lot sorts_classes_014
 sort	706186		Name	581884b845e2	Vivacité surnaturelle	lot sorts_classes_014
 sort	706186		ToolTip	415e1daa14a5	Réduit le temps de recharge de |cffffffffFrappe surnaturelle|r de $/1000;s1 sec.	lot sorts_classes_014
+sort	706195		Description	2f245aeb6171	Vous accorde 3 |cffffffffAméliorations|r à appliquer à votre |cffffffffAssistant mécanique|r. \n\nSeule 1 |cffffffffAmélioration|r peut être active à la fois.@ext:@s:704449:0@@s:704446:0@@s:704441:0@:ext@	lot sorts_classes_014
 sort	706195		Name	b300094181b7	Kit d'augmentation mécanique	lot sorts_classes_014
+sort	706195		ToolTip	4434872d8991	Vous accorde 3 améliorations de châssis à appliquer à votre Assistant mécanique. Seule 1 amélioration de châssis peut être active à la fois.@s:704445@@s:704446@@s:704447@	lot sorts_classes_014
 sort	706196		Description	dcf7ab847c2d	Lancer |cffffffffForme sauvage|r vous rend désormais $706197s2% de vos points de vie maximum.	lot sorts_classes_014
 sort	706196		Name	d23d508269c8	Furie sauvage	lot sorts_classes_014
 sort	706199		Description	321169e6115d	Quand |cffffffffÉtreinte de la terre|r expire, elle étourdit désormais les ennemis situés à moins de $706200a1 mètres pendant $706200d.	lot sorts_classes_014
@@ -142,6 +145,7 @@ sort	706867		Name	732ea4b01bc7	Renaissance du phénix	lot sorts_classes_014
 sort	706973		Description	c119d47432be	Marque l'emplacement d'un ennemi et l'y ramène brusquement après $d.	lot sorts_classes_014
 sort	706973		Name	91419b7123ec	Retour en arrière	lot sorts_classes_014
 sort	706973		ToolTip	e34e7c0d3185	Après $d, vous êtes ramené brusquement à la faille et ralenti.	lot sorts_classes_014
+sort	707044		Description	56a4e2bd5afd	Trouble un ennemi avec une vision de la tempête à venir et le terrifie pendant $d. Ne peut affecter que 1 ennemi à la fois.\r\n\r\nLes dégâts subis peuvent interrompre l'effet.	lot sorts_classes_014
 sort	707044		Name	c7dac316fdc9	Alerte à la tempête	lot sorts_classes_014
 sort	707044		ToolTip	eff3e97357b3	Apeuré.	lot sorts_classes_014
 sort	707141		Description	22f0a0de202d	|cffffffff3 charges, recharge de 6 sec|r\r\nTranche un ennemi avec une lame gravée de runes et lui inflige ${$m1+0+$SP*0.3+$AP*0.3} points de dégâts élémentaires.	lot sorts_classes_014
@@ -191,15 +195,19 @@ sort	707777		Description	ab9cafe4a8e3	Réduit de $s1 le coût en Énergie de |cf
 sort	707788		Description	5e353014619f	Augmente de $s1% vos dégâts et vos soins critiques.	lot sorts_classes_014
 sort	707788		Name	fa404059df60	Frénétique	lot sorts_classes_014
 sort	707788		ToolTip	f48e53b332eb	Dégâts subis réduits de ${$w1}%. 	lot sorts_classes_014
+sort	707901		Description	f55cfa791ef6	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne le feu sur un ennemi : les dégâts de Feu qu'il subit et ses chances de subir un coup critique de vos sorts de Feu augmentent de $s2% pendant $d.\r\n\r\nSeul 1 |cffffffffFléau|r à la fois peut être actif sur une cible.	lot sorts_classes_014
 sort	707901		Name	344f195c4f7a	Fléau de feu	lot sorts_classes_014
 sort	707901		ToolTip	3055cd0489e4	Les dégâts de Feu subis de la part des Gangreliges sont augmentés de ${$w1}% et vos chances de subir un coup critique des sorts de Feu des Gangreliges sont augmentées de ${$w2}%.	lot sorts_classes_014
+sort	707902		Description	6da2ba311cee	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne la magie d'ombre sur un ennemi : vos chances de lui infliger un coup critique augmentent de $s1%, mais ses dégâts augmentent de $s2%. Dure 3 coups critiques ou $d.\r\n\r\nSeul 1 |cffffffffFléau|r à la fois peut être actif sur une cible.	lot sorts_classes_014
 sort	707902		Name	9cdccda5d976	Fléau de puissance	lot sorts_classes_014
 sort	707902		ToolTip	1573754ace08	Augmente de ${$w1}% vos chances de subir un coup critique des Gangreliges. Augmente de $s2% les dégâts que vous infligez.	lot sorts_classes_014
+sort	707903		Description	d8657b59e9bc	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une magie cruelle sur un ennemi : vous ignorez $s1% de son Armure et le voyez même furtif ou invisible pendant $d.\r\n\r\nSeul 1 |cffffffffFléau|r à la fois peut être actif sur une cible.	lot sorts_classes_014
 sort	707903		Name	872da413cf3e	Fléau de fragilité	lot sorts_classes_014
 sort	707903		ToolTip	b9ba5064617e	Les attaques des Gangreliges ignorent ${$w1}% de votre Armure. Vous pouvez être vu même furtif ou invisible.	lot sorts_classes_014
 sort	712460		Description	e153155b882b	Marque les membres du groupe et du raid proches du pouvoir de Blaumeux et augmente leur puissance des sorts de $s1.	lot sorts_classes_014
 sort	712460		Name	e315d647958b	Marque supérieure de Blaumeux	lot sorts_classes_014
 sort	712460		ToolTip	5b9093b052ac	Puissance des sorts augmentée de ${$w1}.	lot sorts_classes_014
+sort	712483		Description	be9c8f4f0d79	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne une magie chaotique sur un ennemi : chaque sort ou aptitude qu'il lance ajoute 1 charge à cet effet pendant $d.\r\n\r\nÀ la fin de la durée, lui inflige des dégâts selon le nombre de charges accumulées.\r\n\r\nSeul 1 |cffffffffFléau|r à la fois peut être actif sur une cible.	lot sorts_classes_014
 sort	712483		Name	17a40f3d351a	Fléau de trahison	lot sorts_classes_014
 sort	712483		ToolTip	2d35ff5722d7	À la fin de la durée, cette cible subit des dégâts d'Ombre selon le nombre de charges accumulées.	lot sorts_classes_014
 sort	743688		Name	22cadd0f3221	Ours de guerre amani brun	lot sorts_classes_014
@@ -213,6 +221,7 @@ sort	800022		Description	521e879acba5	Rend $s1 points de vie à 3 alliés maximu
 sort	800022		Name	b1ace4ab321c	Union entropique	lot sorts_classes_014
 sort	800023		Description	55075efadc9e	Augmente de $s1% les soins critiques et les chances de coup critique de votre |cffffffffGuérison surnaturelle|r.	lot sorts_classes_014
 sort	800023		Name	1ff7fc3ba958	Garde abyssale	lot sorts_classes_014
+sort	800031		Description	1d9d3fdbad90	Émet une aura qui augmente de $s1% les chances de coup critique des alliés proches et de $s2% leurs dégâts contre les démons. Ne se cumule pas avec des effets similaires.\n\nSeul 1 |cffffffffPacte|r peut être actif par joueur à la fois.	lot sorts_classes_014
 sort	800031		Name	0dfd6ac2e75e	Pacte de feu démoniaque	lot sorts_classes_014
 sort	800031		ToolTip	36a1ab2cdbb5	Chances de coup critique augmentées de ${$w1}%. Dégâts contre les démons augmentés de ${$w2}%.	lot sorts_classes_014
 sort	800050		Description	4ccf226c1348	Aveugle la cible et la force à errer, désorientée, pendant $d maximum.  Si la cible subit des dégâts, l'effet est annulé.	lot sorts_classes_014
@@ -247,6 +256,7 @@ sort	800126		ToolTip	d689c6a16dfa	Tissage de sorts puissants !	lot sorts_classe
 sort	800128		Description	04aab6bdc223	Augmente de $s3% la régénération du mana et fait que les dégâts de Feu non périodiques rendent $800129s2% de votre mana maximum.	lot sorts_classes_014
 sort	800128		Name	b64beecf4a8f	Dormant	lot sorts_classes_014
 sort	800128		ToolTip	8d0dc2379553	Augmente de ${$w3}% la régénération du mana et fait que les dégâts de Feu non périodiques rendent $800129s2% de votre mana maximum.	lot sorts_classes_014
+sort	800137		Description	61a092393c76	Augmente votre vitesse de déplacement de $s1% et vos chances d'esquive de $s2%.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_014
 sort	800137		Name	192cc4b9b83a	Faveur du loup	lot sorts_classes_014
 sort	800137		ToolTip	fca8597c89be	Chances d'esquive augmentées. Vitesse de déplacement augmentée.	lot sorts_classes_014
 sort	800142		Description	f8b7fd5ab837	Rugit avec une noble ténacité, générant $/10;s3 points de Rage et rendant ${$m1+0} points de vie à tous les membres du groupe et du raid situés à moins de $a1 mètres. 	lot sorts_classes_014

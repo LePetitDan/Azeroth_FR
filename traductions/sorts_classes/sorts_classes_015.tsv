@@ -6,10 +6,13 @@ sort	800234		Name	fedb0190b1ac	Vision divine	lot sorts_classes_015
 sort	800234		ToolTip	34ad0dd47954	Rend ${$w1} points de vie à un allié et double tous les soins qu'il reçoit pendant $d.	lot sorts_classes_015
 sort	800243		Description	dfdfcb52083f	Enseigne |cffffffffWhiplash|r. Dépenser 5 charges d'|cff8fff7aAvantage|r d'un coup ou utiliser un |cffffffffCor de rôdeur|r confère désormais une charge de |cffffffffTacticien|r, jusqu'à $800245u.@s:806342:0@@s:800245:0@@s:800244:0@	lot sorts_classes_015
 sort	800243		Name	5773e969aedf	Rôdeur pérégrin	lot sorts_classes_015
+sort	800260		Description	43a9b0aaf278	Les aptitudes à distance tirent une flèche empoisonnée qui inflige $500104o1 points de dégâts de Nature en $500104d, cumulable $500104u fois.\n\r\nSeul 1 |cffffffffCarquois|r peut être actif à la fois. \r\n\r\n@ext:Shares a cooldown with other |cffffffffQuivers|r.:ext@	lot sorts_classes_015
 sort	800260		Name	23be01a5b8a5	Carquois empoisonné	lot sorts_classes_015
 sort	800260		ToolTip	ad8cdd15135f	Vos aptitudes à distance tirent des flèches empoisonnées qui infligent des dégâts de Nature supplémentaires.	lot sorts_classes_015
+sort	800261		Description	09eb88b84b78	Augmente la hâte en mêlée et à distance de $s1% et réduit le coût en Focalisation des aptitudes de $s3%.\r\n\r\nSeul 1 |cffffffffCarquois|r peut être actif à la fois.\r\n\r\n@ext:Shares a cooldown with other |cffffffffQuivers|r.:ext@	lot sorts_classes_015
 sort	800261		Name	601375721cb7	Carquois de lumière	lot sorts_classes_015
 sort	800261		ToolTip	7b3fe2b1cf26	Hâte en mêlée et à distance augmentée de ${$w1}%. Coût en Focalisation réduit de ${$w3}%.	lot sorts_classes_015
+sort	800262		Description	f873b4f2de4d	Augmente vos dégâts contre les bêtes et les draconiens de $s1% et vos chances de coup critique contre eux de $s2%.\r\n\r\nSeul 1 |cffffffffCarquois|r peut être actif à la fois.\r\n\r\n@ext:Shares a cooldown with other |cffffffffQuivers|r.:ext@	lot sorts_classes_015
 sort	800262		Name	ee9fff46925a	Carquois de chasse	lot sorts_classes_015
 sort	800262		ToolTip	19f481a74291	Augmente vos dégâts contre les bêtes et les draconiens de ${$w1}% et vos chances de coup critique contre eux de ${$w2}%.	lot sorts_classes_015
 sort	800266		Description	8787128e9671	Renforce la concentration d'un allié et augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d	lot sorts_classes_015

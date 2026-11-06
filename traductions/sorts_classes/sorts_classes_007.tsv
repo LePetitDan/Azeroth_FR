@@ -22,16 +22,20 @@ sort	500920		Name	29fea1529978	Empalement	lot sorts_classes_007
 sort	500929		Description	53e340bff2f6	Certaines de vos aptitudes génèrent |cffcc99ffStatique|r. Si votre |cffcc99ffStatique|r atteint 100%, vous serez étourdi et subirez de lourds dégâts.\r\n\r\nTant que votre |cffcc99ffStatique|r dépasse 70%, les effets |cffffffffSurchargés|r de vos sorts sont actifs.\r\n@ext:@s:806495:0@:ext@	lot sorts_classes_007
 sort	500929		Name	0d6f2255be9f	Veille de Thorim	lot sorts_classes_007
 sort	500929		ToolTip	9960b01e2059	Certaines de vos aptitudes génèrent de la Statique. Si votre Statique atteint 100%, vous serez |cffff3232étourdi|r et subirez d'énormes dégâts.\n\nTant que la Statique dépasse 70%, les effets Surchargés de vos sorts sont actifs.\n@ext:@s:806495:@:ext@	lot sorts_classes_007
+sort	500935		Description	85f29031aa8e	Réduit les dégâts que vous subissez de $s3% et vous fait infliger $s2 points de dégâts de Nature aux attaquants de mêlée.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_007
 sort	500935		Name	91b2982b9f12	Faveur de la tortue	lot sorts_classes_007
 sort	500935		ToolTip	065618f182f1	Dégâts subis réduits de ${-$w3}%. Les attaquants de mêlée subissent des dégâts de Nature en vous frappant.	lot sorts_classes_007
+sort	500938		Description	85f29031aa8e	Réduit les dégâts que vous subissez de $s3% et vous fait infliger $s2 points de dégâts de Nature aux attaquants de mêlée.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_007
 sort	500938		Name	91b2982b9f12	Faveur de la tortue	lot sorts_classes_007
 sort	500938		Rank	df26241195d7	Familier	lot sorts_classes_007
 sort	500938		ToolTip	64b6400e4a51	Dégâts subis réduits. Les attaquants de mêlée subissent des dégâts de Nature en vous frappant.	lot sorts_classes_007
+sort	500939		Description	1fd9a8f5a229	Augmente de $s2% votre puissance d'attaque en mêlée, votre hâte en mêlée et la rage générée par vos attaques automatiques.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_007
 sort	500939		Name	32aae766d279	Faveur de l'ours	lot sorts_classes_007
 sort	500939		ToolTip	c1c39604e67a	Puissance d'attaque en mêlée et hâte en mêlée augmentées. Rage générée par les attaques automatiques augmentée de ${$w2}%.	lot sorts_classes_007
 sort	500941		Description	1421f8fa9549	Augmente la vitesse de déplacement de $s1% et la puissance d'attaque de $s3% pendant $d. \n\nCet effet s'applique aussi à votre familier actif.$?s300691[\n\nÀ la fin de la durée complète, génère $/10;s2 points de rage.][]	lot sorts_classes_007
 sort	500941		Name	2620b9eb1990	Chasse du prédateur	lot sorts_classes_007
 sort	500941		ToolTip	398900836b54	Vitesse de déplacement augmentée de ${$w1}%. Puissance d'attaque augmentée de ${$w3}%.\n\nÀ la fin de la durée complète, vous gagnerez $/10;s2 points de rage.	lot sorts_classes_007
+sort	500943		Description	770bcf19d78a	Augmente de $s2% votre hâte des sorts, réduit de $s1% le coût des sorts et des aptitudes, et vous fait régénérer $s3% de vos points de vie maximum toutes les $t3 sec.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_007
 sort	500943		Name	84e84f9f1e1f	Faveur du faucon	lot sorts_classes_007
 sort	500943		ToolTip	69e9f0572f01	Augmente votre hâte des sorts, réduit le coût des sorts et des aptitudes, et vous fait régénérer vos points de vie maximum toutes les $t3 sec.	lot sorts_classes_007
 sort	500961		Description	6d8a4f3cb9d0	Dépose une |cffffffffIdole spirituelle|r près de vous pendant $d.\r\n\r\nLes alliés à moins de $500958A1 mètres régénèrent $805282s1% de leur mana maximum toutes les $500958t2 sec.	lot sorts_classes_007

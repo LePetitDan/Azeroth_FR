@@ -151,6 +151,7 @@ sort	806276		Name	4dfe37769c3c	Souillure	lot sorts_classes_023
 sort	806276		ToolTip	f178ef9865eb	Fait en sorte que |cffffffffEldritch Grasp|r affecte 5 ennemis supplémentaires.	lot sorts_classes_023
 sort	806282		Description	b6580c684882	Rétrécit un allié pendant $d, augmentant de $s1% ses chances d'esquive. 	lot sorts_classes_023
 sort	806282		Name	fa0a6c5430d8	Rétrécir un allié	lot sorts_classes_023
+sort	806285		Description	7e7ec8a11481	Maudit un ennemi pendant $d, réduisant sa taille, sa puissance d'attaque de ${($m1+0)*-1} et sa puissance des sorts de ${-($m3+0)}.$?s806283[\r\n\r\nSi cet effet est dissipé, applique |cffffffffMisère|r à celui qui l'a dissipé.@s:806346:0@][]\r\n\r\nUne cible ne peut avoir que 1 |cffffffffMauvais sort|r actif à la fois.	lot sorts_classes_023
 sort	806285		Name	1d1ebbdb99c0	Mauvais sort rétrécissant	lot sorts_classes_023
 sort	806285		ToolTip	9180232d9e0a	Puissance d'attaque réduite de ${$abs($m1+$ppl1)}. Puissance des sorts réduite de ${$abs($m3+$ppl3)}.	lot sorts_classes_023
 sort	806291		Description	9f4d8a571e50	Réduit de $s2% le temps d'incantation d'|cffffffffÉpoque|r et de $s3% son coût en mana, et |cffffffffÉpoque|r fait rebondir sur un autre allié proche une |cffffffffRécupération accélérée|r active sur la cible.\r\n\r\n@ext:Shares a cooldown with other |cffffffffAeon|r spells.:ext@	lot sorts_classes_023

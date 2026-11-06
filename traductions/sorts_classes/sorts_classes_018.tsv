@@ -24,6 +24,7 @@ sort	802051		ToolTip	cfa482b94888	Donne à votre aptitude Lame d'Y'Shaarj 10% de
 sort	802059		Description	8896751ccb9c	Lance une magie chaotique sur un ennemi pendant $d et inflige ${$803841m1+$803841ppl1+$SP*.35} points de dégâts du Chaos toutes les $t1 sec.\r\n\r\nVotre récupération d'Énergie est augmentée de $s2% pendant la durée.\r\n\r\nUtilisable en mouvement.\r\n\r\n|cff32cd32Démon intérieur|r : vous confère |cffffffffSculpteur du destin|r.\r\n@ext:@s:555277:0@:ext@	lot sorts_classes_018
 sort	802059		ToolTip	82051417636e	Frappé par |cffffffffRagefires|r.	lot sorts_classes_018
 sort	802060		Description	0a394b6c9e52	|cff32cd32Consomme 2 points de Gangrefurie|r \r\nFrappe un ennemi et lui inflige ${$cond($gt($spfi, $sps), $m1+0+$spfi*.6+$AP*.19, $m1+0+$sps*.6+$AP*.19)} points de dégâts de Flamme d'ombre, et génère $521213s1 points d'Énergie.$?s804216[ \r\n\r\n|cff32cd32Démon intérieur|r : ce sort est lancé une fois de plus, sans coût.][]	lot sorts_classes_018
+sort	802065		Description	957978a1dc26	Maudit un ennemi pendant $d et ralentit sa vitesse de déplacement de $s1%$?s681465[ et réduit de $681465s1% les soins périodiques qu'il reçoit][].\r\n\r\nNe peut avoir que 1 |cffffffffMaléfice|r actif à la fois sur une cible.	lot sorts_classes_018
 sort	802065		Name	25b6b95f5d05	Maléfice de léthargie	lot sorts_classes_018
 sort	802065		ToolTip	5b0d00533fab	Vitesse de déplacement réduite de ${-$w1}%.$?s681465[ Soins périodiques reçus réduits de $681465s1%.][]	lot sorts_classes_018
 sort	802075		Description	4e831f43036a	|cff32cd32Génère 6 points de Gangrefurie|r\r\nVous baigne dans le sang de Mannoroth, ce qui augmente votre récupération d'Énergie de $s2%$?s803903[ et vous fait ignorer toute l'armure ennemie][] pendant $d.	lot sorts_classes_018
@@ -211,6 +212,8 @@ sort	803107		Description	8ebb77096e46	Vous utilisez vos talents de navigation po
 sort	803107		Name	32ec1432bc79	Navigation de compagnon	lot sorts_classes_018
 sort	803110		Description	38bf1483e1af	Augmente de $s1% les chances de parer.\n\nDonne à vos esquives, parades et dégâts de mêlée infligés une chance d'appliquer |cffff8100Counterstruck|r.@s:803111:0@	lot sorts_classes_018
 sort	803110		Name	d35f1802b3dd	Duel	lot sorts_classes_018
+sort	803112		Description	4a3a89a2a1df	Donne aux dégâts infligés $h% de chances d'appliquer |cffffffffCounterstruck|r.@s:803111:0@	lot sorts_classes_018
+sort	803112		Name	cb0b57e10d62	Tournoiement de lames	lot sorts_classes_018
 sort	803117		Description	af15aeb4140e	Inflige des dégâts de l'arme plus $s1 à une cible ennemie, davantage selon le remplissage de votre barre de Focalisation.\n\nAprès avoir utilisé cette aptitude, votre puissance d'attaque en mêlée est augmentée de $802055s1% et son coût est réduit de $802055s2% pendant $802055d, cumulable jusqu'à 3 fois.	lot sorts_classes_018
 sort	803117		Name	d8981504df06	Tueur de bêtes	lot sorts_classes_018
 sort	803118		Description	9eb53d7a8d47	|cff8fff7aConsomme de l'Avantage|r\r\nRenforce un allié pendant 4 secondes : ses chances de coup critique augmentent de ${$m1+$AGI*0.04}% et sa vitesse de déplacement de $s2%, selon votre Agilité.\r\n\r\nLa durée est augmentée pour chaque charge d'|cff8fff7aAvantage|r épuisée.	lot sorts_classes_018
@@ -237,6 +240,7 @@ sort	803177		Description	4fbc4da15e36	Injecte à un allié des phéromones d'ara
 sort	803177		Name	149c3f55d70f	Phéromones d'araignée	lot sorts_classes_018
 sort	803177		ToolTip	62b155637af1	Augmente votre Agilité de ${$W1}.	lot sorts_classes_018
 sort	803179		Name	47e2e40d37aa	Champion de l'araignée	lot sorts_classes_018
+sort	803179		ToolTip	b71f131a3007	Désigne un allié ciblé comme votre champion : il subit ${$w1}% de dégâts en moins et ${$w2}% de soins de Nature en plus pendant $d.\n\nSeul 1 allié peut être désigné comme votre champion à la fois. \n\nImpossible de vous cibler vous-même.	lot sorts_classes_018
 sort	803180		Description	aa44c8c3aa35	Augmente de $s2% les dégâts et les soins de |cFFFFFFFFAnneaux du serpent|r.\r\n\r\nLes soins critiques de |cFFFFFFFFAlcahest|r réduisent désormais de $/1000;520460s1 sec le temps de recharge d'|cFFFFFFFFAnneaux du serpent|r.	lot sorts_classes_018
 sort	803180		Name	10db738b101c	Vénomancie	lot sorts_classes_018
 sort	803183		Description	b4195c12c0d7	Vous métamorphose en |cffffffffForme de scarabée|r, ce qui permet d'utiliser les aptitudes qui exigent cette forme, augmente de $803216s3% votre contribution d'armure et de $803216q2% de votre Intelligence et de votre Agilité vos points de vie maximum.\r\n\r\nTant que la forme est active, vous êtes immunisé contre les effets de métamorphose, les dégâts que vous subissez sont réduits de $807726s1% et votre menace générée est augmentée de $807726s2%, plus $807726s3% supplémentaires sur les dégâts de Nature infligés.	lot sorts_classes_018

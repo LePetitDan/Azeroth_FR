@@ -9,7 +9,9 @@ sort	801576		Name	2b3d6814485b	Frappe ancestrale	lot sorts_classes_017
 sort	801583		Description	9d511729334e	Prenez le contrôle direct de votre |cffffffffDinosaure avatar|r actuel pendant $d maximum.\n\nTant que l'effet est actif, votre personnage est insensible à toutes les attaques et à tous les sorts. Quand il prend fin, le |cffffffffDinosaure avatar|r meurt.	lot sorts_classes_017
 sort	801583		Name	97f42531a070	Lier l'avatar	lot sorts_classes_017
 sort	801583		ToolTip	c0f5833c871a	Contrôle direct du Dinosaure avatar. Insensible à toutes les attaques et à tous les sorts.	lot sorts_classes_017
+sort	801584		Description	90f77fa89e70	Vous appelez un stégodon comme |cffffffffDinosaure avatar|r. Les stégodons sont des créatures extrêmement résistantes, capables d'encaisser d'immenses dégâts.\n\nVous ne pouvez utiliser que 1 |cffffffffDinosaure avatar|r à la fois.	lot sorts_classes_017
 sort	801584		Name	ce596ace0e3e	Appel d'avatar : stégodon	lot sorts_classes_017
+sort	801585		Description	7cc17925b923	Vous appelez un diablosaure comme |cffffffffDinosaure avatar|r. Les diablosaures sont des créatures massives et terrifiantes, capables de détruire des groupes d'ennemis et de galvaniser leurs alliés par de puissants rugissements.\n\nVous ne pouvez utiliser que 1 |cffffffffDinosaure avatar|r à la fois.	lot sorts_classes_017
 sort	801585		Name	9b821abf5f4c	Appel d'avatar : diablosaure	lot sorts_classes_017
 sort	801609		Description	575e246a9700	[Pterrordax]Appelez un avatar : |cFFFFFFFFPterrodax|r.\r\n\r\nLes |cFFFFFFFFPterodax|r peuvent soutenir leurs alliés ; lancer une |cffffffffDévotion|r sur un ptérodax l'applique aussi à eux, ce qui leur permet d'|cffffffffInvoquer|r les loas avec leurs aptitudes.	lot sorts_classes_017
 sort	801609		Name	988b4db8d27f	Appel d'avatar : pterreurdactyle	lot sorts_classes_017
@@ -148,6 +150,7 @@ sort	801871		Description	4eb5edb8c5f3	Emprisonne la cible ennemie dans une cage 
 sort	801871		Name	df7a89b49ef2	Prison de foudre inutilisée	lot sorts_classes_017
 sort	801872		Description	86b9ca4797dc	Siphonne instantanément la puissance de tous les orbes de tonnerre proches et vous confère 1 charge de Poing des dieux par orbe consommé : les dégâts de votre prochain sort Bras de Thorim sont augmentés de $801854s1% par charge.\n\nLes orbes de tonnerre sont détruits au passage.	lot sorts_classes_017
 sort	801872		Name	3f5e273d4ba3	Siphon d'orbes	lot sorts_classes_017
+sort	801873		Description	9b01283cb01e	Crée une énorme rafale de vent sur une ligne de \r\n$548621a1 mètres, qui inflige ${$548621m1+$548621ppl1+$spn*.525} points de dégâts de Nature, réduit de $548623s1% la vitesse de déplacement des ennemis et les repousse légèrement.\r\n\r\nSe répète toutes les $T1 sec pendant $d.	lot sorts_classes_017
 sort	801873		Name	074c92969249	Vent libre	lot sorts_classes_017
 sort	801873		ToolTip	dc37a1091583	Vitesse de déplacement réduite de ${$w2}%.	lot sorts_classes_017
 sort	801884		Description	ea181ff75436	Les |cffffffffTirs de ferraille de précision|r et |cffffffffGunsling|r rendent votre prochain changement d'arme à feu instantané, sans déclencher leur temps de recharge global.	lot sorts_classes_017
@@ -158,6 +161,7 @@ sort	801908		Description	24d866b813ab	Vous produisez l'image terrifiante d'une g
 sort	801908		Name	495b4f808791	Visage pétrifiant	lot sorts_classes_017
 sort	801911		Description	ee6894a8d17d	Vous élance de $801929a1 mètres dans la direction de votre déplacement et inflige ${$801929m2+$801929ppl2+$spfi*.4} points de dégâts de Feu aux ennemis sur votre trajet, libérant le lanceur des étourdissements et des entraves.	lot sorts_classes_017
 sort	801911		Name	e3021a1d029d	Pas de flamme	lot sorts_classes_017
+sort	801925		Description	17bb24142282	Maudit un ennemi pendant $d : il perd ${$630879m1} points de mana toutes les $t1 sec et ne peut plus régénérer son mana.\r\n\r\nNe peut avoir que 1 |cffffffffJinx|r actif sur une cible à la fois.	lot sorts_classes_017
 sort	801925		Name	e1f300b57d09	Maléfice de mana	lot sorts_classes_017
 sort	801925		ToolTip	8dc1e5663af5	${$630879m} points de mana drainés toutes les $t1 sec.	lot sorts_classes_017
 sort	801939		Description	bb093c887c2b	Applique instantanément à un ennemi les |cffff3232maladies|r Chair aux vers, Récolte de |cfffeff9ePeste|r, Putréfaction spectrale et Mort noire.	lot sorts_classes_017

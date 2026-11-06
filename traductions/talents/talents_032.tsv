@@ -15,6 +15,7 @@ sort	805796		ToolTip	01f9ae03a174	Les attaques automatiques confèrent Poings de
 sort	805804		Description	589fa7d1fa73	|cffec8201Effet d'enragement|r\r\nEnrage les membres du groupe et du raid proches de vous pendant $d, augmentant leur régénération de points de vie de $805843s3% et leur rendant $805805s1% de leurs points de vie maximum toutes les $t1 sec. \r\n\r\nLes attaques automatiques en mêlée prolongent la durée de cet effet de $/1000;805806S1 sec, jusqu'à un maximum de $805807d.\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et se déclenche avec un temps de recharge réduit selon le nombre de charges consommées.\r\n\r\n@s:804337:0@	lot talents_032
 sort	805804		Name	1799defd3abe	Rage de corne-de-bélier	lot talents_032
 sort	805804		ToolTip	207b3a47804f	Régénération de points de vie augmentée de ${$w3}%. Rend $805805s1% de vos points de vie maximum toutes les $t1 sec. Les attaques prolongent la durée de cet enragement.\r\n\r\nRégénération de points de vie augmentée de 100%.	lot talents_032
+sort	805810		Description	0eaa18140136	Désignez un allié comme compagnon de beuverie pendant $d : tous les dégâts qu'il subit sont réduits de $s2% et $s1% de tous les dégâts qu'il subit vous sont redirigés.\n\nVous ne pouvez désigner que 1 allié à la fois.	lot talents_032
 sort	805810		Name	33224c361c9a	Santé !	lot talents_032
 sort	805810		ToolTip	90124cefbc99	Dégâts subis réduits de ${$w2}%. ${$w1}% de tous les dégâts subis sont redirigés vers le barbare.	lot talents_032
 sort	805811		Description	d7b1ec9766b0	Les dégâts infligés par |cFFFFFFFFFracasse-tonneau|r réduisent désormais la vitesse d'incantation des ennemis de $583020s1% pendant $583020d.	lot talents_032
@@ -150,6 +151,7 @@ sort	806188		Name	39ae9c79ba56	Interrogateur	lot talents_032
 sort	806195		Description	92866aa3f393	Chaque fois que vous parez ou esquivez une attaque, votre vitesse d'attaque augmente de $806194s1% et vos chances de parade de $806194s2% pendant $806194d, cumulable jusqu'à $806194u fois.	lot talents_032
 sort	806195		Name	445467f522a9	Sombre intuition	lot talents_032
 sort	806195		ToolTip	93b9687eba86	Chaque fois que vous parez ou esquivez une attaque, votre vitesse d'attaque augmente de $806194s1% et vos chances de parade de $806194s2%. Cumulable $806194u fois.	lot talents_032
+sort	806203		Description	d5f683682992	|cFFC49A6CSort de continuum|r\r\nGénère 1 |cffffffffFragment d'écho|r toutes les $t1 sec pendant $d, plus $/1000;804455s2 sec supplémentaires par |cffffffffFragment d'écho|r consommé.\r\n\r\nVous ne pouvez avoir que 1 sort |cFFC49A6CContinuum|r actif à la fois.	lot talents_032
 sort	806203		Name	90c4dca10330	Canon du paradoxe	lot talents_032
 sort	806203		ToolTip	f0ca23a8154c	Génère 1 Fragment d'écho toutes les $t1 sec.	lot talents_032
 sort	806204		Description	f0a954d0a3d1	|cFF66DDFFPassif de niveau 30|r\r\nLancer |cffffffffDiscordance|r déchaîne désormais le |cFFFFFFFFCanon de cristal|r, qui lance 2 attaques de baguette mineures rapides sur l'ennemi en $704481d, en fonction de l'Esprit.	lot talents_032

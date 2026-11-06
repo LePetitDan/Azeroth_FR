@@ -22,8 +22,10 @@ sort	801042		ToolTip	0e076422ada1	Rend ${$w2}% de vos points de vie maximum tout
 sort	801053		Description	ff29fd0cd7d1	Émane une pestilence qui ralentit de $801071s1% la vitesse d'incantation de tous les ennemis à moins de $801071a1 mètres.$?s801002[\n\n|cffffffffDéchaînement|r : interrompt toutes les incantations ennemies à moins de $802857a2 mètres et empêche tout sort de cette école de magie d'être lancé pendant $802857d.][]	lot sorts_classes_016
 sort	801053		Name	506f019e5f23	Pestilence de la conquête	lot sorts_classes_016
 sort	801053		ToolTip	c88183311553	Émane une pestilence qui ralentit de $801071s1% la vitesse d'incantation de tous les ennemis à moins de $801071a1 mètres.	lot sorts_classes_016
+sort	801067		Description	96203943bcd5	Emprisonne un démon pendant $d (6 sec contre les joueurs) : il est banni, ne peut plus agir et devient invulnérable à tous les sorts et attaques.\r\n\r\nNe peut affecter que 1 ennemi à la fois.	lot sorts_classes_016
 sort	801067		Name	91ae1f7a7f0e	Emprisonnement	lot sorts_classes_016
 sort	801067		ToolTip	bac7df1921ef	Banni.	lot sorts_classes_016
+sort	801069		Description	751a90d015a3	Augmente vos dégâts physiques et vos dégâts critiques de $s2%.\r\n\r\nUn seul |cffffffffCarquois|r (1) peut être actif à la fois.\r\n\r\n@ext:Shares a cooldown with other |cffffffffQuivers|r.:ext@	lot sorts_classes_016
 sort	801069		Name	25ad7d7bb321	Carquois d'escarmoucheur	lot sorts_classes_016
 sort	801069		ToolTip	696597f548a3	Augmente vos dégâts physiques de ${$w1}%. Dégâts critiques augmentés de ${$w2}%.	lot sorts_classes_016
 sort	801075		Description	d90b6486bb52	Enseigne |cffffffffEtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076:0@	lot sorts_classes_016

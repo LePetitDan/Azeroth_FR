@@ -21,6 +21,7 @@ sort	803334		ToolTip	7221db00525d	Armure réduite de ${$W1}%. 	lot sorts_classes
 sort	803339		Description	4924c08fc0a2	Prenez une |cFFFFFFFFPrésence|r impie : les dégâts infligés ont $h% de chances d'augmenter votre hâte de $803340s1% pendant $803340d.\r\n\r\n@ext:You may only have 1 |cFFFFFFFFPresence|r active at a time. :ext@	lot sorts_classes_019
 sort	803339		Name	424480b608da	Présence de C'Thun	lot sorts_classes_019
 sort	803339		ToolTip	b7f16d7b4fa5	A une chance d'augmenter votre hâte de $803340s1% pendant $803340d.	lot sorts_classes_019
+sort	803343		Description	c2024bf7dc4d	Émane une aura qui augmente de $s1% la vitesse de déplacement en monture des alliés proches.\n\nSeul 1 |cffffffffPacte|r peut être actif par joueur à la fois. 	lot sorts_classes_019
 sort	803343		Name	4a7e117d4122	Pacte du pourfendeur	lot sorts_classes_019
 sort	803372		Name	c87c9853309a	Frappes divines	lot sorts_classes_019
 sort	803417		Description	dc78787e103f	Augmente vos chances de coup critique de $s1%, mais augmente les dégâts que vous subissez de $s3%.	lot sorts_classes_019
@@ -90,8 +91,10 @@ sort	803953		Name	8eeda8c39418	Ruée de cendres	lot sorts_classes_019
 sort	803953		ToolTip	4d4b7238de7c	Les dégâts périodiques ont $h% de chances de rendre votre prochaine Ruée de cendres instantanée et gratuite.	lot sorts_classes_019
 sort	803955		Description	3d474678f725	|cFF66DDFFPassif de niveau 10|r\r\nLorsque vous subissez des dégâts qui vous tueraient, vous vous transformez à la place en |cFFFFFFFFEsprit du phénix|r pendant $573220d.\r\n\r\nTant que vous êtes transformé, vos sorts ne coûtent aucun mana et votre Esprit est augmenté de $573220s1%. À la fin de la durée, vous renaîtrez. Ne peut se produire qu'une fois toutes les 5 min.	lot sorts_classes_019
 sort	803955		Name	adb176e4a3cd	Esprit du phénix	lot sorts_classes_019
+sort	803959		Description	f3837acccf5d	Augmente l'Armure d'un allié de $s1 pendant |cfffeff9e$d|r et lui donne une chance d'accorder |cff66ccffMotivation|r aux alliés proches lorsqu'il subit des dégâts.\r\n\r\nSeul 1 allié à la fois peut être affecté par Exploits d'honneur.@s:803958:0@	lot sorts_classes_019
 sort	803959		Name	1d91d63d6a7f	Exploits d'honneur	lot sorts_classes_019
 sort	803959		ToolTip	60058102ad74	Vous avez une faible chance de motiver tous les alliés proches chaque fois que vous subissez des dégâts.	lot sorts_classes_019
+sort	803960		Description	550e9bed92d9	Marque un allié pendant |cfffeff9e$d|r et lui donne une chance d'accorder |cff66ccffMotivation|r aux alliés proches lorsqu'il soigne un allié.\r\n\r\nSeul 1 allié à la fois peut être affecté par Exploits de gloire.@s:803958:0@	lot sorts_classes_019
 sort	803960		Name	9fce4d3938d7	Exploits de gloire	lot sorts_classes_019
 sort	803960		ToolTip	dc0986e84717	Vous avez une faible chance de motiver tous les alliés proches chaque fois que vous soignez un allié.	lot sorts_classes_019
 sort	803961		Description	28a588fe7fc6	Vous renforce pendant $d : vos 3 prochains |cffffffffCoups valeureux|r et |cffffffffBéliers|r infligent $s1% de dégâts en plus et vous accordent |cffffffffTempo|r.$?s704535[\r\n\r\nÀ la fin de l'effet, vous êtes |cffffffffInspiré|r : le temps de recharge de |cffffffffBélier|r est réinitialisé et votre prochain |cffffffffBélier|r est un coup critique.][]	lot sorts_classes_019
@@ -116,6 +119,7 @@ sort	803987		Rank	770d690e6d59	Visuel	lot sorts_classes_019
 sort	803988		Description	c2aecf4b4b2c	Vous vous glissez dans le royaume des morts pendant $d : les dégâts subis sont réduits de $s2%, mais vous ne pouvez ni attaquer ni lancer de sorts.	lot sorts_classes_019
 sort	803988		Name	bf53a2840ee4	Valse spectrale	lot sorts_classes_019
 sort	803988		ToolTip	5e57e97370eb	Dégâts subis réduits de ${$w2}%. Ne peut pas attaquer ni lancer de sorts.	lot sorts_classes_019
+sort	803989		Description	b4b1eb5353d2	Choque l'âme d'un ennemi et l'affaiblit pendant $d.\r\n\r\nNe peut affecter qu'1 seule cible à la fois. Les dégâts infligés interrompent cet effet. Ne peut être utilisé que sur les humanoïdes, les morts-vivants, les bêtes et les draconiens.$?s705393[\r\n\r\nVotre première attaque contre la cible inflige $s2% de dégâts en plus.][]	lot sorts_classes_019
 sort	803989		Name	385097d012bd	Choc d'âme	lot sorts_classes_019
 sort	803989		ToolTip	15d7f518bd1f	Ne peut ni bouger ni agir. Les dégâts subis interrompent cet effet.	lot sorts_classes_019
 sort	803996		Description	711ec0e9e760	Pendant $d, chaque coup critique augmente de $680919s1% vos chances de parade et d'esquive, cumulable jusqu'à $680919u fois.\r\n\r\nSi vous n'atteignez pas au moins 10 charges, vous subissez des dégâts égaux à $804376s2% de vos points de vie maximum.	lot sorts_classes_019
@@ -166,7 +170,9 @@ sort	804129		Name	382d86bb942f	Chevalier prismatique	lot sorts_classes_019
 sort	804129		ToolTip	a904ee7e96ec	Augmente votre Armure de ${$w1}% de votre Intelligence et réduit les dégâts infligés de $804299s1%.\n\nParer une attaque génère une Rune inscrite et augmente votre vitesse d'attaque en mêlée de $804130s1% pendant $804130d.\n\n|cffffffffActif tant que vous maniez une arme de mêlée à deux mains.|r	lot sorts_classes_019
 sort	804136		Description	69e24b84a56f	Lance votre arme à distance sur un ennemi et inflige $s2% des dégâts de l'arme à distance plus ${$m1+0} points de dégâts physiques.\r\n\r\nUtilisable en déplacement.	lot sorts_classes_019
 sort	804136		Name	69d67b4abfcf	Lancer d'arme	lot sorts_classes_019
+sort	804151		Description	952e616ffffa	Réduit de $s1% les dégâts que vous subissez et augmente de $s2% le mana maximum.\n\nSeul 1 aspect peut être actif à la fois.	lot sorts_classes_019
 sort	804151		Name	d324cbc9a74b	Aspect du chevalier runique	lot sorts_classes_019
+sort	804151		ToolTip	924de19f2a43	Réduit de ${$w1}% les dégâts que vous subissez et augmente de ${$w2}% le mana maximum.\n\nSeul 1 aspect peut être actif à la fois.	lot sorts_classes_019
 sort	804154		Description	eaa4eeb4de57	Permet d'ouvrir les coffres et les portes verrouillés.	lot sorts_classes_019
 sort	804154		Name	48f0c5fecda7	« Crochetage »	lot sorts_classes_019
 sort	804156		Description	5118ca17cdfb	Retire $s1 malédiction à un allié.	lot sorts_classes_019
