@@ -1,6 +1,6 @@
 type	id	sous_id	champ	en	en_empreinte	fr	etat	source	note
-difficulte_carte_dbc_serveur	757		Message	Mythic Difficulty requires you to be level 80.	9a8368b8962b		a_traduire		
-difficulte_carte_dbc_serveur	758		Message	Mythic Difficulty requires you to be level 80.	9a8368b8962b		a_traduire		
+difficulte_carte_dbc_serveur	757		Message	Mythic Difficulty requires you to be level 80.	9a8368b8962b	La difficulté mythique nécessite d'être niveau 80.	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+difficulte_carte_dbc_serveur	758		Message	Mythic Difficulty requires you to be level 80.	9a8368b8962b	La difficulté mythique nécessite d'être niveau 80.	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
 faction_dbc_serveur	87		Name	Bloodsail Buccaneers	4987a6df42cb	La Voile sanglante	machine	release_3.5.1	fichier=release:DB_Guichets.lua;famille=prose
 faction_dbc_serveur	87		Description	These bloodthirsty corsairs are the bane of many a merchant in the high seas.  Sworn enemies of Booty Bay.	4d4a8bd3228d	Ennemis jurés de Baie-du-Butin, ces corsaires assoiffés de sang sont la plaie des nombreux marchands qui naviguent en haute mer.	machine	release_3.5.1	fichier=release:DB_Guichets.lua;famille=prose
 point_interet	1		Name	Lion's Pride Inn	56e9bf6dc55d	L'auberge de la Fierté du Lion	officiel	blizzard_frFR	points_of_interest_locale
@@ -456,124 +456,124 @@ point_interet	450		Name	Brew of the Month Club, Ironforge	f812000f5c21	Le club d
 point_interet	451		Name	Goblin Brewfest Souvenirs	49ef166abe56	Souvenirs de la fête des brasseurs Goblin	officiel	blizzard_frFR	points_of_interest_locale
 point_interet	452		Name	Goblin Brewfest Ram Racing	2501b4ee623c	Bélier de course de la fête des brasseurs Goblin	officiel	blizzard_frFR	points_of_interest_locale
 point_interet	453		Name	Brew of the Month Club, Orgrimmar	cd755adc4e82	Le club de la Bière du mois, Orgrimmar	officiel	blizzard_frFR	points_of_interest_locale
-point_interet	1000		Name	First Wave	efb4ef15b427		a_traduire		
-point_interet	1001		Name	Second Wave	ac682c5145d2		a_traduire		
-point_interet	1002		Name	Third Wave	376e21d60893		a_traduire		
-point_interet	1003		Name	Forth Wave	2bafb6639c5e		a_traduire		
+point_interet	1000		Name	First Wave	efb4ef15b427	Première vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	1001		Name	Second Wave	ac682c5145d2	Deuxième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	1002		Name	Third Wave	376e21d60893	Troisième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	1003		Name	Forth Wave	2bafb6639c5e	Quatrième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
 point_interet	1004		Name	Meathook	e7433eea924c	Grancrochet	officiel	blizzard_frFR	niveau=meme_groupe
-point_interet	1005		Name	Sixth Wave	313f46b57e7c		a_traduire		
-point_interet	1006		Name	Seventh Wave	47c133b922e5		a_traduire		
-point_interet	1007		Name	Eight Wave	1b7522eafe3d		a_traduire		
-point_interet	1008		Name	Nineth Wave	7a13eaa17091		a_traduire		
+point_interet	1005		Name	Sixth Wave	313f46b57e7c	Sixième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	1006		Name	Seventh Wave	47c133b922e5	Septième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	1007		Name	Eight Wave	1b7522eafe3d	Huitième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	1008		Name	Nineth Wave	7a13eaa17091	Neuvième vague	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
 point_interet	1009		Name	Salramm the Fleshcrafter	71769c6489c5	Salramm le Façonneur de chair	officiel	blizzard_frFR	niveau=meme_groupe
-point_interet	9321000		Name	Stormwind Barbarian Trainer	c313c90d7ff1		a_traduire		
-point_interet	9321001		Name	Stormwind Guardian Trainer	83ce296c570c		a_traduire		
-point_interet	9321002		Name	Stormwind Templar Trainer	fc56987974db		a_traduire		
-point_interet	9321003		Name	Stormwind Sun Cleric Trainer	3fed472e96ff		a_traduire		
-point_interet	9321004		Name	Stormwind Witch Doctor Trainer	ace665edd556		a_traduire		
-point_interet	9321005		Name	Stormwind Witch Hunter Trainer	10f46aa4cee6		a_traduire		
-point_interet	9321006		Name	Stormwind Stormbringer Trainer	49a2205e7b8b		a_traduire		
-point_interet	9321007		Name	Stormwind Bloodmage Trainer	c12069ea6aa7		a_traduire		
-point_interet	9321008		Name	Stormwind Ranger Trainer	913f89c096a9		a_traduire		
-point_interet	9321009		Name	Stormwind Chronomancer Trainer	6f462402cd1a		a_traduire		
-point_interet	9321010		Name	Stormwind Necromancer Trainer	188254fc7ee1		a_traduire		
-point_interet	9321011		Name	Stormwind Pyromancer Trainer	2f8692ad89fd		a_traduire		
-point_interet	9321012		Name	Stormwind Cultist Trainer	b66faf8cf4a6		a_traduire		
-point_interet	9321013		Name	Stormwind Tinker Trainer	547714f93c87		a_traduire		
-point_interet	9321014		Name	Stormwind Reaper Trainer	fd193362fbe0		a_traduire		
-point_interet	9321015		Name	Stormwind Runemaster Trainer	c62791c842f2		a_traduire		
-point_interet	9321020		Name	Ironforge Barbarian Trainer	f782c8f24e89		a_traduire		
-point_interet	9321021		Name	Ironforge Guardian Trainer	3a4d057c0243		a_traduire		
-point_interet	9321022		Name	Ironforge Primalist Trainer	0193232c3d79		a_traduire		
-point_interet	9321023		Name	Ironforge Templar Trainer	8f0f71414a4d		a_traduire		
-point_interet	9321024		Name	Ironforge Sun Cleric Trainer	5fce1ab9fe0d		a_traduire		
-point_interet	9321025		Name	Ironforge Necromancer Trainer	c03cd84193cf		a_traduire		
-point_interet	9321026		Name	Ironforge Cultist Trainer	bde1fffcac80		a_traduire		
-point_interet	9321027		Name	Ironforge Tinker Trainer	091ec802cd8a		a_traduire		
-point_interet	9321028		Name	Ironforge Pyromancer Trainer	921822cabee9		a_traduire		
-point_interet	9321029		Name	Ironforge Stormbringer Trainer	fd36107304d0		a_traduire		
-point_interet	9321030		Name	Ironforge Runemaster Trainer	6d7aa812e52c		a_traduire		
-point_interet	9321040		Name	Darnassus Felsworn Trainer	f8b947b14bf9		a_traduire		
-point_interet	9321041		Name	Darnassus Knight of Xoroth Trainer	70bc5d6131aa		a_traduire		
-point_interet	9321042		Name	Darnassus Ranger Trainer	af4266e72c8a		a_traduire		
-point_interet	9321043		Name	Darnassus Templar Trainer	7320529b817b		a_traduire		
-point_interet	9321044		Name	Darnassus Starcaller Trainer	5c81bac34778		a_traduire		
-point_interet	9321045		Name	Darnassus Chronomancer Trainer	8b7d148bbad4		a_traduire		
-point_interet	9321046		Name	Darnassus Stormbringer Trainer	cac4be6c1796		a_traduire		
-point_interet	9321047		Name	Darnassus Primalist Trainer	a0d63c21d357		a_traduire		
-point_interet	9321048		Name	Darnassus Cultist Trainer	ae824f227a72		a_traduire		
-point_interet	9321049		Name	Darnassus Reaper Trainer	98444ae83e29		a_traduire		
-point_interet	9321050		Name	Darnassus Bloodmage Trainer	075dcc7b2e58		a_traduire		
-point_interet	9321051		Name	Darnassus Tinker Trainer	a2a0edc3af28		a_traduire		
-point_interet	9321052		Name	Darnassus Runemaster Trainer	fdb1ab3de2c8		a_traduire		
-point_interet	9321060		Name	Exodar Felsworn Trainer	9a717fb3dc39		a_traduire		
-point_interet	9321061		Name	Exodar Stormbringer Trainer	39064c8b32d2		a_traduire		
-point_interet	9321062		Name	Exodar Knight of Xoroth Trainer	6e9379e9b363		a_traduire		
-point_interet	9321063		Name	Exodar Guardian Trainer	2602f6173407		a_traduire		
-point_interet	9321064		Name	Exodar Templar Trainer	48154deba118		a_traduire		
-point_interet	9321065		Name	Exodar Chronomancer Trainer	4594320d8025		a_traduire		
-point_interet	9321066		Name	Exodar Necromancer Trainer	9297717fb4b3		a_traduire		
-point_interet	9321067		Name	Exodar Pyromancer Trainer	8dacedf768d8		a_traduire		
-point_interet	9321068		Name	Exodar Cultist Trainer	94857ecc6a69		a_traduire		
-point_interet	9321069		Name	Exodar Starcaller Trainer	8bb27a94756e		a_traduire		
-point_interet	9321070		Name	Exodar Tinker Trainer	6049753d4534		a_traduire		
-point_interet	9321071		Name	Exodar Reaper Trainer	7f5e608a5f93		a_traduire		
-point_interet	9321072		Name	Exodar Primalist Trainer	1578ff6eb750		a_traduire		
-point_interet	9321073		Name	Exodar Runemaster Trainer	ec17e5e4da24		a_traduire		
-point_interet	9321080		Name	Orgrimmar Barbarian Trainer	96b2bbb28585		a_traduire		
-point_interet	9321081		Name	Orgrimmar Guardian Trainer	38d2d7677df9		a_traduire		
-point_interet	9321082		Name	Orgrimmar Ranger Trainer	b4b9f837ca54		a_traduire		
-point_interet	9321083		Name	Orgrimmar Tinker Trainer	7f5c021d6113		a_traduire		
-point_interet	9321084		Name	Orgrimmar Knight of Xoroth Trainer	b0a577eab42c		a_traduire		
-point_interet	9321085		Name	Orgrimmar Necromancer Trainer	4d687b8542ab		a_traduire		
-point_interet	9321086		Name	Orgrimmar Felsworn Trainer	0acea41abb23		a_traduire		
-point_interet	9321087		Name	Orgrimmar Cultist Trainer	41ddd19bf434		a_traduire		
-point_interet	9321088		Name	Orgrimmar Witch Doctor Trainer	2bd2ca9d6d3d		a_traduire		
-point_interet	9321089		Name	Orgrimmar Venomancer Trainer	a250a3766f34		a_traduire		
-point_interet	9321090		Name	Orgrimmar Stormbringer Trainer	40f1c5086de8		a_traduire		
-point_interet	9321091		Name	Orgrimmar Primalist Trainer	289f47e42ea1		a_traduire		
-point_interet	9321092		Name	Orgrimmar Pyromancer Trainer	bfc297075d76		a_traduire		
-point_interet	9321093		Name	Orgrimmar Bloodmage Trainer	4ef0a037299e		a_traduire		
-point_interet	9321094		Name	Orgrimmar Runemaster Trainer	3c5c899a4d2f		a_traduire		
-point_interet	9321100		Name	Undercity Felsworn Trainer	6e785dd48c33		a_traduire		
-point_interet	9321101		Name	Undercity Necromancer Trainer	499110d558ea		a_traduire		
-point_interet	9321102		Name	Undercity Chronomancer Trainer	bcd50e188d5e		a_traduire		
-point_interet	9321103		Name	Undercity Bloodmage Trainer	a70f358dcc75		a_traduire		
-point_interet	9321104		Name	Undercity Runemaster Trainer	d0d0b3eaf755		a_traduire		
-point_interet	9321105		Name	Undercity Pyromancer Trainer	388bd867037e		a_traduire		
-point_interet	9321106		Name	Undercity Guardian Trainer	a32f2e4df50a		a_traduire		
-point_interet	9321107		Name	Undercity Knight of Xoroth Trainer	15b3d6ee1efe		a_traduire		
-point_interet	9321108		Name	Undercity Templar Trainer	d678f46d4d45		a_traduire		
-point_interet	9321109		Name	Undercity Starcaller Trainer	daf66ed2dff9		a_traduire		
-point_interet	9321110		Name	Undercity Cultist Trainer	9239b256a6d9		a_traduire		
-point_interet	9321111		Name	Undercity Sun Cleric Trainer	f0d2ce1143af		a_traduire		
-point_interet	9321112		Name	Undercity Reaper Trainer	b2652d18db0f		a_traduire		
-point_interet	9321113		Name	Undercity Ranger Trainer	c81ad4a952ab		a_traduire		
-point_interet	9321114		Name	Undercity Witch Hunter Trainer	280327f1e64e		a_traduire		
-point_interet	9321115		Name	Undercity Stormbringer Trainer	9132e13e030c		a_traduire		
-point_interet	9321116		Name	Undercity Tinker Trainer	935319c88cfb		a_traduire		
-point_interet	9321117		Name	Undercity Barbarian Trainer	6c2e2d7ae0bc		a_traduire		
-point_interet	9321120		Name	Thunder Bluff Barbarian Trainer	b47f94e0e18f		a_traduire		
-point_interet	9321121		Name	Thunder Bluff Guardian Trainer	1906c6474896		a_traduire		
-point_interet	9321122		Name	Thunder Bluff Primalist Trainer	dc2285e77bf5		a_traduire		
-point_interet	9321123		Name	Thunder Bluff Starcaller Trainer	7d194698ac9d		a_traduire		
-point_interet	9321124		Name	Thunder Bluff Sun Cleric Trainer	7cd8ecbaa9c1		a_traduire		
-point_interet	9321125		Name	Thunder Bluff Runemaster Trainer	9f21379ef15b		a_traduire		
-point_interet	9321126		Name	Thunder Bluff Cultist Trainer	1d007d2e6251		a_traduire		
-point_interet	9321140		Name	Silvermoon City Felsworn Trainer	5aa73c9d52f5		a_traduire		
-point_interet	9321141		Name	Silvermoon City Stormbringer Trainer	f81d4221ac3d		a_traduire		
-point_interet	9321142		Name	Silvermoon City Knight of Xoroth Trainer	8d9f846e7d58		a_traduire		
-point_interet	9321143		Name	Silvermoon City Guardian Trainer	c0a7f4d4c3a3		a_traduire		
-point_interet	9321144		Name	Silvermoon City Templar Trainer	fc9d8cd5eaf9		a_traduire		
-point_interet	9321145		Name	Silvermoon City Bloodmage Trainer	efe3de561e12		a_traduire		
-point_interet	9321146		Name	Silvermoon City Ranger Trainer	8a39ca7b2d5c		a_traduire		
-point_interet	9321147		Name	Silvermoon City Chronomancer Trainer	2533373d47d8		a_traduire		
-point_interet	9321148		Name	Silvermoon City Necromancer Trainer	631aa1a479b6		a_traduire		
-point_interet	9321149		Name	Silvermoon City Pyromancer Trainer	173e581cb38c		a_traduire		
-point_interet	9321150		Name	Silvermoon City Cultist Trainer	d14b5137f52e		a_traduire		
-point_interet	9321151		Name	Silvermoon City Starcaller Trainer	8a3d333b3aa2		a_traduire		
-point_interet	9321152		Name	Silvermoon City Runemaster Trainer	861ea1ccc968		a_traduire		
-point_interet	9321153		Name	Silvermoon City Sun Cleric Trainer	c48fc09f92b6		a_traduire		
-point_interet	9321154		Name	Silvermoon City Tinker Trainer	fb546e06ea82		a_traduire		
-point_interet	9321155		Name	Silvermoon City Reaper Trainer	7d92832c3ad9		a_traduire		
-point_interet	9321160		Name	Kharanos Reaper Trainer	be34f65cb91b		a_traduire		
+point_interet	9321000		Name	Stormwind Barbarian Trainer	c313c90d7ff1	Maître des barbares de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321001		Name	Stormwind Guardian Trainer	83ce296c570c	Maître des gardiens de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321002		Name	Stormwind Templar Trainer	fc56987974db	Maître des templiers de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321003		Name	Stormwind Sun Cleric Trainer	3fed472e96ff	Maître des clercs du soleil de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321004		Name	Stormwind Witch Doctor Trainer	ace665edd556	Maître des féticheurs de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321005		Name	Stormwind Witch Hunter Trainer	10f46aa4cee6	Maître des chasseurs de sorcières de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321006		Name	Stormwind Stormbringer Trainer	49a2205e7b8b	Maître des porte-tempête de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321007		Name	Stormwind Bloodmage Trainer	c12069ea6aa7	Maître des mages de sang de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321008		Name	Stormwind Ranger Trainer	913f89c096a9	Maître des rôdeurs de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321009		Name	Stormwind Chronomancer Trainer	6f462402cd1a	Maître des chronomanciens de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321010		Name	Stormwind Necromancer Trainer	188254fc7ee1	Maître des nécromanciens de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321011		Name	Stormwind Pyromancer Trainer	2f8692ad89fd	Maître des pyromanciens de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321012		Name	Stormwind Cultist Trainer	b66faf8cf4a6	Maître des cultistes de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321013		Name	Stormwind Tinker Trainer	547714f93c87	Maître des bricoleurs de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321014		Name	Stormwind Reaper Trainer	fd193362fbe0	Maître des faucheurs de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321015		Name	Stormwind Runemaster Trainer	c62791c842f2	Maître des maîtres des runes de Hurlevent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321020		Name	Ironforge Barbarian Trainer	f782c8f24e89	Maître des barbares de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321021		Name	Ironforge Guardian Trainer	3a4d057c0243	Maître des gardiens de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321022		Name	Ironforge Primalist Trainer	0193232c3d79	Maître des primalistes de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321023		Name	Ironforge Templar Trainer	8f0f71414a4d	Maître des templiers de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321024		Name	Ironforge Sun Cleric Trainer	5fce1ab9fe0d	Maître des clercs du soleil de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321025		Name	Ironforge Necromancer Trainer	c03cd84193cf	Maître des nécromanciens de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321026		Name	Ironforge Cultist Trainer	bde1fffcac80	Maître des cultistes de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321027		Name	Ironforge Tinker Trainer	091ec802cd8a	Maître des bricoleurs de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321028		Name	Ironforge Pyromancer Trainer	921822cabee9	Maître des pyromanciens de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321029		Name	Ironforge Stormbringer Trainer	fd36107304d0	Maître des porte-tempête de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321030		Name	Ironforge Runemaster Trainer	6d7aa812e52c	Maître des maîtres des runes de Forgefer	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321040		Name	Darnassus Felsworn Trainer	f8b947b14bf9	Maître des gangreliges de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321041		Name	Darnassus Knight of Xoroth Trainer	70bc5d6131aa	Maître des chevaliers de Xoroth de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321042		Name	Darnassus Ranger Trainer	af4266e72c8a	Maître des rôdeurs de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321043		Name	Darnassus Templar Trainer	7320529b817b	Maître des templiers de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321044		Name	Darnassus Starcaller Trainer	5c81bac34778	Maître des mande-étoiles de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321045		Name	Darnassus Chronomancer Trainer	8b7d148bbad4	Maître des chronomanciens de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321046		Name	Darnassus Stormbringer Trainer	cac4be6c1796	Maître des porte-tempête de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321047		Name	Darnassus Primalist Trainer	a0d63c21d357	Maître des primalistes de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321048		Name	Darnassus Cultist Trainer	ae824f227a72	Maître des cultistes de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321049		Name	Darnassus Reaper Trainer	98444ae83e29	Maître des faucheurs de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321050		Name	Darnassus Bloodmage Trainer	075dcc7b2e58	Maître des mages de sang de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321051		Name	Darnassus Tinker Trainer	a2a0edc3af28	Maître des bricoleurs de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321052		Name	Darnassus Runemaster Trainer	fdb1ab3de2c8	Maître des maîtres des runes de Darnassus	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321060		Name	Exodar Felsworn Trainer	9a717fb3dc39	Maître des gangreliges de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321061		Name	Exodar Stormbringer Trainer	39064c8b32d2	Maître des porte-tempête de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321062		Name	Exodar Knight of Xoroth Trainer	6e9379e9b363	Maître des chevaliers de Xoroth de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321063		Name	Exodar Guardian Trainer	2602f6173407	Maître des gardiens de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321064		Name	Exodar Templar Trainer	48154deba118	Maître des templiers de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321065		Name	Exodar Chronomancer Trainer	4594320d8025	Maître des chronomanciens de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321066		Name	Exodar Necromancer Trainer	9297717fb4b3	Maître des nécromanciens de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321067		Name	Exodar Pyromancer Trainer	8dacedf768d8	Maître des pyromanciens de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321068		Name	Exodar Cultist Trainer	94857ecc6a69	Maître des cultistes de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321069		Name	Exodar Starcaller Trainer	8bb27a94756e	Maître des mande-étoiles de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321070		Name	Exodar Tinker Trainer	6049753d4534	Maître des bricoleurs de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321071		Name	Exodar Reaper Trainer	7f5e608a5f93	Maître des faucheurs de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321072		Name	Exodar Primalist Trainer	1578ff6eb750	Maître des primalistes de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321073		Name	Exodar Runemaster Trainer	ec17e5e4da24	Maître des maîtres des runes de l'Exodar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321080		Name	Orgrimmar Barbarian Trainer	96b2bbb28585	Maître des barbares d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321081		Name	Orgrimmar Guardian Trainer	38d2d7677df9	Maître des gardiens d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321082		Name	Orgrimmar Ranger Trainer	b4b9f837ca54	Maître des rôdeurs d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321083		Name	Orgrimmar Tinker Trainer	7f5c021d6113	Maître des bricoleurs d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321084		Name	Orgrimmar Knight of Xoroth Trainer	b0a577eab42c	Maître des chevaliers de Xoroth d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321085		Name	Orgrimmar Necromancer Trainer	4d687b8542ab	Maître des nécromanciens d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321086		Name	Orgrimmar Felsworn Trainer	0acea41abb23	Maître des gangreliges d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321087		Name	Orgrimmar Cultist Trainer	41ddd19bf434	Maître des cultistes d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321088		Name	Orgrimmar Witch Doctor Trainer	2bd2ca9d6d3d	Maître des féticheurs d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321089		Name	Orgrimmar Venomancer Trainer	a250a3766f34	Maître des vénomanciens d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321090		Name	Orgrimmar Stormbringer Trainer	40f1c5086de8	Maître des porte-tempête d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321091		Name	Orgrimmar Primalist Trainer	289f47e42ea1	Maître des primalistes d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321092		Name	Orgrimmar Pyromancer Trainer	bfc297075d76	Maître des pyromanciens d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321093		Name	Orgrimmar Bloodmage Trainer	4ef0a037299e	Maître des mages de sang d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321094		Name	Orgrimmar Runemaster Trainer	3c5c899a4d2f	Maître des maîtres des runes d'Orgrimmar	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321100		Name	Undercity Felsworn Trainer	6e785dd48c33	Maître des gangreliges de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321101		Name	Undercity Necromancer Trainer	499110d558ea	Maître des nécromanciens de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321102		Name	Undercity Chronomancer Trainer	bcd50e188d5e	Maître des chronomanciens de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321103		Name	Undercity Bloodmage Trainer	a70f358dcc75	Maître des mages de sang de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321104		Name	Undercity Runemaster Trainer	d0d0b3eaf755	Maître des maîtres des runes de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321105		Name	Undercity Pyromancer Trainer	388bd867037e	Maître des pyromanciens de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321106		Name	Undercity Guardian Trainer	a32f2e4df50a	Maître des gardiens de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321107		Name	Undercity Knight of Xoroth Trainer	15b3d6ee1efe	Maître des chevaliers de Xoroth de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321108		Name	Undercity Templar Trainer	d678f46d4d45	Maître des templiers de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321109		Name	Undercity Starcaller Trainer	daf66ed2dff9	Maître des mande-étoiles de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321110		Name	Undercity Cultist Trainer	9239b256a6d9	Maître des cultistes de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321111		Name	Undercity Sun Cleric Trainer	f0d2ce1143af	Maître des clercs du soleil de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321112		Name	Undercity Reaper Trainer	b2652d18db0f	Maître des faucheurs de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321113		Name	Undercity Ranger Trainer	c81ad4a952ab	Maître des rôdeurs de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321114		Name	Undercity Witch Hunter Trainer	280327f1e64e	Maître des chasseurs de sorcières de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321115		Name	Undercity Stormbringer Trainer	9132e13e030c	Maître des porte-tempête de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321116		Name	Undercity Tinker Trainer	935319c88cfb	Maître des bricoleurs de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321117		Name	Undercity Barbarian Trainer	6c2e2d7ae0bc	Maître des barbares de Fossoyeuse	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321120		Name	Thunder Bluff Barbarian Trainer	b47f94e0e18f	Maître des barbares des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321121		Name	Thunder Bluff Guardian Trainer	1906c6474896	Maître des gardiens des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321122		Name	Thunder Bluff Primalist Trainer	dc2285e77bf5	Maître des primalistes des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321123		Name	Thunder Bluff Starcaller Trainer	7d194698ac9d	Maître des mande-étoiles des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321124		Name	Thunder Bluff Sun Cleric Trainer	7cd8ecbaa9c1	Maître des clercs du soleil des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321125		Name	Thunder Bluff Runemaster Trainer	9f21379ef15b	Maître des maîtres des runes des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321126		Name	Thunder Bluff Cultist Trainer	1d007d2e6251	Maître des cultistes des Pitons du Tonnerre	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321140		Name	Silvermoon City Felsworn Trainer	5aa73c9d52f5	Maître des gangreliges de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321141		Name	Silvermoon City Stormbringer Trainer	f81d4221ac3d	Maître des porte-tempête de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321142		Name	Silvermoon City Knight of Xoroth Trainer	8d9f846e7d58	Maître des chevaliers de Xoroth de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321143		Name	Silvermoon City Guardian Trainer	c0a7f4d4c3a3	Maître des gardiens de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321144		Name	Silvermoon City Templar Trainer	fc9d8cd5eaf9	Maître des templiers de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321145		Name	Silvermoon City Bloodmage Trainer	efe3de561e12	Maître des mages de sang de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321146		Name	Silvermoon City Ranger Trainer	8a39ca7b2d5c	Maître des rôdeurs de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321147		Name	Silvermoon City Chronomancer Trainer	2533373d47d8	Maître des chronomanciens de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321148		Name	Silvermoon City Necromancer Trainer	631aa1a479b6	Maître des nécromanciens de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321149		Name	Silvermoon City Pyromancer Trainer	173e581cb38c	Maître des pyromanciens de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321150		Name	Silvermoon City Cultist Trainer	d14b5137f52e	Maître des cultistes de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321151		Name	Silvermoon City Starcaller Trainer	8a3d333b3aa2	Maître des mande-étoiles de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321152		Name	Silvermoon City Runemaster Trainer	861ea1ccc968	Maître des maîtres des runes de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321153		Name	Silvermoon City Sun Cleric Trainer	c48fc09f92b6	Maître des clercs du soleil de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321154		Name	Silvermoon City Tinker Trainer	fb546e06ea82	Maître des bricoleurs de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321155		Name	Silvermoon City Reaper Trainer	7d92832c3ad9	Maître des faucheurs de Lune-d'argent	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
+point_interet	9321160		Name	Kharanos Reaper Trainer	be34f65cb91b	Maître des faucheurs de Kharanos	machine	claude	traduction de Claude (traductions/divers_serveur/divers_serveur_001.tsv) | lot divers_serveur_001
