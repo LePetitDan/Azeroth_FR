@@ -1,0 +1,292 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+message_serveur	1		content_default	becdb9dc2ebb	Vous devez sélectionner un personnage ou une créature.	lot messages_serveur_001
+message_serveur	2		content_default	a594bda61f66	Vous devez sélectionner une créature.	lot messages_serveur_001
+message_serveur	3		content_default	74631d1e4203	[SERVEUR] {}	lot messages_serveur_001
+message_serveur	4		content_default	2ba0802b63a8	|cffff0000[Message d'événement] : {}|r	lot messages_serveur_001
+message_serveur	5		content_default	3349d2fc8eb9	Il n'y a pas d'aide pour cette commande	lot messages_serveur_001
+message_serveur	6		content_default	fcd75eda2a2c	La commande '{}' n'existe pas	lot messages_serveur_001
+message_serveur	7		content_default	ffc93b6d89b4	La sous-commande '{}{}{}' est ambiguë :	lot messages_serveur_001
+message_serveur	8		content_default	8afd9c0b1bd7	Sous-commandes possibles :	lot messages_serveur_001
+message_serveur	9		content_default	32a6f2e9ba12	Commandes disponibles :	lot messages_serveur_001
+message_serveur	10		content_default	607dd8e47c5d	Syntaxe incorrecte.	lot messages_serveur_001
+message_serveur	11		content_default	05dc28b0200e	Niveau de votre compte : {}	lot messages_serveur_001
+message_serveur	12		content_default	a89476857657	Connexions actives : {} (max : {}) Connexions en attente : {} (max : {})	lot messages_serveur_001
+message_serveur	13		content_default	eb2421b6abae	Temps de fonctionnement du serveur : {}	lot messages_serveur_001
+message_serveur	14		content_default	3383ccdf6f8a	Personnage sauvegardé.	lot messages_serveur_001
+message_serveur	15		content_default	27d554cf6a18	Tous les personnages ont été sauvegardés.	lot messages_serveur_001
+message_serveur	16		content_default	b46fdd250727	Les MJ suivants sont actifs sur ce serveur :	lot messages_serveur_001
+message_serveur	17		content_default	72068e469c1e	Aucun MJ n'est actuellement connecté sur ce serveur.	lot messages_serveur_001
+message_serveur	18		content_default	fc5d7f488fe6	Impossible de faire cela en vol.	lot messages_serveur_001
+message_serveur	19		content_default	5bf241f8a78f	Écart de mise à jour : {}.	lot messages_serveur_001
+message_serveur	20		content_default	4f9996c58d54	Temps restant avant l'arrêt ou le redémarrage : {}	lot messages_serveur_001
+message_serveur	21		content_default	d8b9876667fa	{} : échec de la commande de vol.	lot messages_serveur_001
+message_serveur	22		content_default	96845d3a7ee2	Vous n'êtes pas sur une monture, vous ne pouvez donc pas en descendre.	lot messages_serveur_001
+message_serveur	23		content_default	013fd00b4005	Impossible de faire cela en combat.	lot messages_serveur_001
+message_serveur	24		content_default	af245ae16aa2	Vous l'avez utilisé récemment.	lot messages_serveur_001
+message_serveur	25		content_default	aa5f01589b4e	Mot de passe non modifié (erreur inconnue) !	lot messages_serveur_001
+message_serveur	26		content_default	858db8ed5cab	Le mot de passe a été modifié	lot messages_serveur_001
+message_serveur	27		content_default	ca7165d4031f	L'ancien mot de passe est incorrect	lot messages_serveur_001
+message_serveur	28		content_default	79c3eae70054	Votre compte est maintenant verrouillé.	lot messages_serveur_001
+message_serveur	29		content_default	6c4c8e6d227e	Votre compte est maintenant déverrouillé.	lot messages_serveur_001
+message_serveur	30		content_default	e1cf5ffb1063	, rang 	lot messages_serveur_001
+message_serveur	31		content_default	45c5f0d7c2e4	 [connu]	lot messages_serveur_001
+message_serveur	32		content_default	5aeca8750966	 [apprendre]	lot messages_serveur_001
+message_serveur	33		content_default	c8605abc4634	 [passif]	lot messages_serveur_001
+message_serveur	35		content_default	96cb2105b73c	 [actif]	lot messages_serveur_001
+message_serveur	36		content_default	19716bab56dd	 [terminé]	lot messages_serveur_001
+message_serveur	38		content_default	db3d405b1067	activé	lot messages_serveur_001
+message_serveur	39		content_default	da7a68734367	désactivé	lot messages_serveur_001
+message_serveur	40		content_default	882b4cebd98f	Vous êtes : {}	lot messages_serveur_001
+message_serveur	43		content_default	e5fd9cfe0e80	terminé	lot messages_serveur_001
+message_serveur	44		content_default	905cb326c779	Vous	lot messages_serveur_001
+message_serveur	45		content_default	1db4de35c369	 <inconnu> 	lot messages_serveur_001
+message_serveur	46		content_default	c60e76219521	<erreur>	lot messages_serveur_001
+message_serveur	47		content_default	08f96355289a	<personnage inexistant>	lot messages_serveur_001
+message_serveur	48		content_default	25ba44ec3b39	INCONNU	lot messages_serveur_001
+message_serveur	49		content_default	0fa1ce68bb90	Vous devez être au moins de niveau {} pour entrer.	lot messages_serveur_001
+message_serveur	50		content_default	f3821d1d08f4	Vous devez être au moins de niveau {} et posséder l'objet {} pour entrer.	lot messages_serveur_001
+message_serveur	51		content_default	e1e3152b3f8c	Bonjour ! Envie d'un peu d'entraînement ?	lot messages_serveur_001
+message_serveur	52		content_default	b8066583e672	Nombre d'objets non valide ({}) pour l'objet {}	lot messages_serveur_001
+message_serveur	53		content_default	5323f3abb19c	Un courrier ne peut pas contenir plus de {} emplacements d'objets	lot messages_serveur_001
+message_serveur	54		content_default	c18ef3226ba7	Les nouveaux mots de passe ne correspondent pas	lot messages_serveur_001
+message_serveur	56		content_default	ccc57994028c	Message du jour actuel :	lot messages_serveur_001
+message_serveur	57		content_default	e19ae713edc7	Base de données du monde utilisée : {}	lot messages_serveur_001
+message_serveur	58		content_default	5878f74afa09	Bibliothèque de scripts utilisée : {}	lot messages_serveur_001
+message_serveur	59		content_default	371c432a50d5	EventAI des créatures utilisé : {}	lot messages_serveur_001
+message_serveur	60		content_default	98e94147cbd8	Joueurs en ligne : {} (max : {})	lot messages_serveur_001
+message_serveur	61		content_default	3554e0be57f5	Extensions désormais autorisées : jusqu'à {}.	lot messages_serveur_001
+message_serveur	62		content_default	a3a2a9178f2c	Un ou plusieurs paramètres ont des valeurs incorrectes	lot messages_serveur_001
+message_serveur	63		content_default	cac2f8f68ea6	Mauvais paramètre id : {}, n'existe pas	lot messages_serveur_001
+message_serveur	64		content_default	96219e60678b	Mauvais paramètre realmId : {}	lot messages_serveur_001
+message_serveur	65		content_default	405d7868d833	Permissions accordées au compte {} ({}) :	lot messages_serveur_001
+message_serveur	66		content_default	eee8ee137b56	Permissions refusées au compte {} ({}) :	lot messages_serveur_001
+message_serveur	67		content_default	6e5f3d7fa8e8	Permissions héritées par le compte {} ({}) du niveau de sécurité {} ({}) :	lot messages_serveur_001
+message_serveur	68		content_default	587f23494ec1	Permissions :	lot messages_serveur_001
+message_serveur	69		content_default	737f217fdbef	Permissions liées :	lot messages_serveur_001
+message_serveur	70		content_default	0701dae6240c	Liste vide	lot messages_serveur_001
+message_serveur	72		content_default	26cfea065090	Impossible d'accorder la permission {} ({}) realmId {}. Le compte {} ({}) a déjà cette permission	lot messages_serveur_001
+message_serveur	73		content_default	cbfec1d5ee9a	Impossible d'accorder la permission {} ({}) realmId {}. Le compte {} ({}) a cette permission dans sa liste de refus	lot messages_serveur_001
+message_serveur	74		content_default	51b598bd50a8	Permission {} ({}) realmId {} accordée au compte {} ({})	lot messages_serveur_001
+message_serveur	75		content_default	42f771e700da	Impossible de refuser la permission {} ({}) realmId {}. Le compte {} ({}) a déjà cette permission	lot messages_serveur_001
+message_serveur	76		content_default	4c11b5f0892e	Impossible de refuser la permission {} ({}) realmId {}. Le compte {} ({}) a cette permission dans sa liste d'autorisations	lot messages_serveur_001
+message_serveur	77		content_default	6099bfcba114	Permission {} ({}) realmId {} refusée au compte {} ({})	lot messages_serveur_001
+message_serveur	78		content_default	52e31689514f	Permission {} ({}) realmId {} révoquée pour le compte {} ({})	lot messages_serveur_001
+message_serveur	79		content_default	36a3eb059a79	Impossible de révoquer la permission {} ({}) realmId {}. Le compte {} ({}) n'a pas cette permission	lot messages_serveur_001
+message_serveur	80		content_default	6e36c7e908fe	Victoires en champ de bataille ces 7 derniers jours\nAlliance : {}\nHorde : {}	lot messages_serveur_001
+message_serveur	81		content_default	879401787f9b	L'enregistrement des scores des champs de bataille est désactivé !	lot messages_serveur_001
+message_serveur	83		content_default	3ae16be7a4b9	Syntaxe : .rbac account list $account\nAffiche les permissions accordées, refusées et héritées du compte.	lot messages_serveur_001
+message_serveur	84		content_default	a340365a49f3	Syntaxe : .rbac account grant $account $permissionId [$realmId]\nAccorde une permission au compte. realmId facultatif (-1 = tous les royaumes).	lot messages_serveur_001
+message_serveur	85		content_default	46d8aea72617	Syntaxe : .rbac account deny $account $permissionId [$realmId]\nRefuse une permission au compte. realmId facultatif (-1 = tous les royaumes).	lot messages_serveur_001
+message_serveur	86		content_default	3b596777d595	Syntaxe : .rbac account revoke $account $permissionId [$realmId]\nRévoque une permission accordée ou refusée. realmId facultatif (-1 = tous les royaumes).	lot messages_serveur_001
+message_serveur	88		content_default	a49a0b8ffba9	Les commandes d'authentification à deux facteurs ne sont pas correctement configurées.	lot messages_serveur_001
+message_serveur	89		content_default	9a99768b6725	L'authentification à deux facteurs est déjà activée pour ce compte.	lot messages_serveur_001
+message_serveur	90		content_default	7a96c75b00e3	Jeton d'authentification à deux facteurs non valide.	lot messages_serveur_001
+message_serveur	91		content_default	922f4afc094b	Pour terminer la configuration, vous devez configurer l'appareil qui vous servira de second facteur.\nVotre clé 2FA : {}\nAjoutez la clé à une application d'authentification, comme FreeOTP, libre et gratuite (https://freeotp.github.io/), avec ces réglages :\n- Type : basé sur le temps (TOTP)\n- Chiffres : 6\n- Algorithme : SHA1\n- Intervalle : 30 secondes\nUne fois votre appareil configuré, confirmez avec .account 2fa setup <token> et le jeton généré.	lot messages_serveur_001
+message_serveur	92		content_default	bfb7d008d214	L'authentification à deux facteurs a bien été configurée.	lot messages_serveur_001
+message_serveur	93		content_default	0a9a748877b2	L'authentification à deux facteurs n'est pas activée pour ce compte.	lot messages_serveur_001
+message_serveur	94		content_default	486a8c88ec8c	Pour retirer l'authentification à deux facteurs, indiquez un nouveau jeton à deux facteurs provenant de votre appareil d'authentification.	lot messages_serveur_001
+message_serveur	95		content_default	6e69d57b7a7b	L'authentification à deux facteurs a bien été désactivée.	lot messages_serveur_001
+message_serveur	96		content_default	7efe8cc371e5	Le nom de guilde '{}' est déjà pris	lot messages_serveur_001
+message_serveur	97		content_default	d293b0da2e4f	Nom de guilde '{}' changé en '{}'	lot messages_serveur_001
+message_serveur	98		content_default	81a8638c570c	'{}' existe déjà comme nom de personnage, choisissez-en un autre	lot messages_serveur_001
+message_serveur	99		content_default	8736af3cdbbe	Le personnage '{}' a été renommé de force en '{}'	lot messages_serveur_001
+message_serveur	100		content_default	6286b7f24be0	Annonce globale : 	lot messages_serveur_001
+message_serveur	102		content_default	8fc2f16d2769	{} est déjà en cours de téléportation.	lot messages_serveur_001
+message_serveur	103		content_default	753fa60f808c	Vous ne pouvez invoquer un joueur dans votre instance que s'il est dans votre groupe et que vous en êtes le chef.	lot messages_serveur_001
+message_serveur	104		content_default	dbc97b8d99cd	Vous ne pouvez pas aller dans l'instance du joueur, car vous êtes actuellement dans un groupe.	lot messages_serveur_001
+message_serveur	105		content_default	92a1b5ad4f97	Vous ne pouvez aller dans l'instance du joueur sans être dans son groupe que si votre mode MJ est activé.	lot messages_serveur_001
+message_serveur	106		content_default	8a15d0f11dae	Vous ne pouvez pas rejoindre le joueur {} d'une instance à une autre.	lot messages_serveur_001
+message_serveur	107		content_default	4d0307ebc456	Vous ne pouvez pas invoquer le joueur {} d'une instance à une autre.	lot messages_serveur_001
+message_serveur	108		content_default	da4a4a094dec	Vous invoquez {}{}.	lot messages_serveur_001
+message_serveur	109		content_default	7f00ef2da418	{} vous invoque.	lot messages_serveur_001
+message_serveur	110		content_default	97cbdf28b805	Vous téléportez {}{} vers {}.	lot messages_serveur_001
+message_serveur	111		content_default	0f06868e41bf	{} vous téléporte.	lot messages_serveur_001
+message_serveur	112		content_default	5b4f3422af3f	Le joueur ({}) n'existe pas.	lot messages_serveur_001
+message_serveur	113		content_default	07eaadda3225	Apparition à l'emplacement de {}.	lot messages_serveur_001
+message_serveur	114		content_default	2ac9701939b1	{} apparaît à votre emplacement.	lot messages_serveur_001
+message_serveur	115		content_default	20e3775f2f39	Valeurs incorrectes.	lot messages_serveur_001
+message_serveur	116		content_default	3520e9d48620	Aucun personnage sélectionné.	lot messages_serveur_001
+message_serveur	117		content_default	5786a4a3d2e1	{} n'est pas dans un groupe.	lot messages_serveur_001
+message_serveur	118		content_default	f82904153865	Vous avez modifié les PV de {} : {}/{}.	lot messages_serveur_001
+message_serveur	119		content_default	3d3b8cffcac4	{} a modifié vos PV : {}/{}.	lot messages_serveur_001
+message_serveur	120		content_default	04d4078a49e9	Vous avez modifié le mana de {} : {}/{}.	lot messages_serveur_001
+message_serveur	121		content_default	00d2e31d67e0	{} a modifié votre mana : {}/{}.	lot messages_serveur_001
+message_serveur	122		content_default	14344017ab0e	Vous avez modifié l'énergie de {} : {}/{}.	lot messages_serveur_001
+message_serveur	123		content_default	3a934b36696a	{} a modifié votre énergie : {}/{}.	lot messages_serveur_001
+message_serveur	124		content_default	a22f3e10dad3	Énergie actuelle : {}	lot messages_serveur_001
+message_serveur	125		content_default	9bf11488b721	Vous avez modifié la rage de {} : {}/{}.	lot messages_serveur_001
+message_serveur	126		content_default	c33428723a69	{} a modifié votre rage : {}/{}.	lot messages_serveur_001
+message_serveur	127		content_default	5edb267e044c	Vous avez modifié le niveau de {} : {}.	lot messages_serveur_001
+message_serveur	128		content_default	a5eae63930a1	GUID {}, faction : {}, indicateurs : {}, npcflag : {}, indicateur DY : {}	lot messages_serveur_001
+message_serveur	129		content_default	562d6eb3b21a	Mauvaise faction : {} (introuvable dans factiontemplate.dbc).	lot messages_serveur_001
+message_serveur	130		content_default	ab7facc25063	Vous avez changé la faction de GUID={} en {}, les indicateurs en {}, npcflag en {}, dyflag en {}.	lot messages_serveur_001
+message_serveur	131		content_default	4a1d8ebf1b91	Vous avez changé spellflatid={}, val= {}, mark ={} en {}.	lot messages_serveur_001
+message_serveur	132		content_default	596283620585	{} a changé votre spellflatid={}, val= {}, mark ={}.	lot messages_serveur_001
+message_serveur	133		content_default	6511acdcb265	{} a désormais accès à tous les points de vol (jusqu'à la déconnexion).	lot messages_serveur_001
+message_serveur	134		content_default	e57f25f7b829	{} n'a plus accès à tous les points de vol (seuls ceux visités restent accessibles).	lot messages_serveur_001
+message_serveur	135		content_default	e59738375c56	{} vous a donné accès à tous les points de vol (jusqu'à la déconnexion).	lot messages_serveur_001
+message_serveur	136		content_default	9541d2633516	{} a retiré votre accès à tous les points de vol (seuls ceux visités restent accessibles).	lot messages_serveur_001
+message_serveur	137		content_default	e00d28d8e87b	Vous passez toutes les vitesses à {} par rapport à la normale pour {}.	lot messages_serveur_001
+message_serveur	138		content_default	105673b12e7d	{} a passé toutes vos vitesses à {} par rapport à la normale.	lot messages_serveur_001
+message_serveur	139		content_default	c094bd916b5c	Vous passez la vitesse à {} par rapport à la normale pour {}.	lot messages_serveur_001
+message_serveur	140		content_default	3b67a67ae9cf	{} a passé votre vitesse à {} par rapport à la normale.	lot messages_serveur_001
+message_serveur	141		content_default	be50d05eae28	Vous passez la vitesse de nage à {} par rapport à la normale pour {}.	lot messages_serveur_001
+message_serveur	142		content_default	40ed7c7c7c02	{} a passé votre vitesse de nage à {} par rapport à la normale.	lot messages_serveur_001
+message_serveur	143		content_default	57c1c0918251	Vous passez la vitesse de course arrière à {} par rapport à la normale pour {}.	lot messages_serveur_001
+message_serveur	144		content_default	3c0f14cbee69	{} a passé votre vitesse de course arrière à {} par rapport à la normale.	lot messages_serveur_001
+message_serveur	145		content_default	cac953c17306	Vous passez la vitesse de vol à {} par rapport à la normale pour {}.	lot messages_serveur_001
+message_serveur	146		content_default	f93dc676fb2e	{} a passé votre vitesse de vol à {} par rapport à la normale.	lot messages_serveur_001
+message_serveur	147		content_default	b6ac889f4b94	Vous réglez la taille à {} pour {}.	lot messages_serveur_001
+message_serveur	148		content_default	fec1e6f2609d	{} a réglé votre taille à {}.	lot messages_serveur_001
+message_serveur	149		content_default	3bb6f7592946	Cette monture n'existe pas.	lot messages_serveur_001
+message_serveur	150		content_default	9cade5c159ca	Vous donnez une monture à {}.	lot messages_serveur_001
+message_serveur	151		content_default	4dea9386a903	{} vous a donné une monture.	lot messages_serveur_001
+message_serveur	153		content_default	b66e543ea3a0	Vous prenez tout le cuivre de {}.	lot messages_serveur_001
+message_serveur	154		content_default	66f8b14b1fbb	{} vous a pris tout votre cuivre.	lot messages_serveur_001
+message_serveur	155		content_default	3c77a08dda22	Vous prenez {} pièces de cuivre à {}.	lot messages_serveur_001
+message_serveur	156		content_default	8c16aa6d3273	{} vous a pris {} pièces de cuivre.	lot messages_serveur_001
+message_serveur	157		content_default	4f43cf4583cd	Vous donnez {} pièces de cuivre à {}.	lot messages_serveur_001
+message_serveur	158		content_default	3abf53282f3e	{} vous a donné {} pièces de cuivre.	lot messages_serveur_001
+message_serveur	159		content_default	a6df226590ad	Vous entendez le son {}.	lot messages_serveur_001
+message_serveur	161		content_default	6722743b91de	Bit {} retiré du champ {}.	lot messages_serveur_001
+message_serveur	162		content_default	cca9c8801370	Bit {} activé dans le champ {}.	lot messages_serveur_001
+message_serveur	163		content_default	253f7240dce8	La table des lieux de téléportation est vide !	lot messages_serveur_001
+message_serveur	164		content_default	1092c0799e5c	Lieu de téléportation introuvable !	lot messages_serveur_001
+message_serveur	165		content_default	06b6c8d5904f	Paramètre de recherche requis.	lot messages_serveur_001
+message_serveur	166		content_default	36240d482abc	Aucun lieu de téléportation ne correspond à votre recherche.	lot messages_serveur_001
+message_serveur	167		content_default	2951b513d08f	Ce nom est réservé, choisissez-en un autre	lot messages_serveur_001
+message_serveur	168		content_default	30ea3fc48245	Lieux trouvés :\n{}	lot messages_serveur_001
+message_serveur	169		content_default	14ee16a6af94	Courrier envoyé à {}	lot messages_serveur_001
+message_serveur	170		content_default	9217e3c19aab	Vous essayez d'entendre le son {}, mais il n'existe pas.	lot messages_serveur_001
+message_serveur	171		content_default	e648d3a247a2	Vous ne pouvez pas vous téléporter sur vous-même !	lot messages_serveur_001
+message_serveur	172		content_default	80c50466cde6	commande de la console du serveur	lot messages_serveur_001
+message_serveur	173		content_default	dc81df03c3be	Vous avez modifié la puissance runique de {} : {}/{}.	lot messages_serveur_001
+message_serveur	174		content_default	c8b6eeb1257b	{} a modifié votre puissance runique : {}/{}.	lot messages_serveur_001
+message_serveur	175		content_default	9c5dfd7184cf	Niveau du liquide : {}, sol : {}, type : {}, indicateurs {}, état : {}.	lot messages_serveur_001
+message_serveur	176		content_default	7150fedc79eb	Type d'objet de jeu non valide, il doit s'agir d'un bâtiment destructible.	lot messages_serveur_001
+message_serveur	177		content_default	c48efb15b89c	L'objet de jeu {} (GUID : {}) a subi {} points de dégâts (santé actuelle : {}).	lot messages_serveur_001
+message_serveur	187		content_default	7402a159d829	Ce nom est grossier, choisissez-en un autre	lot messages_serveur_001
+message_serveur	188		content_default	f200c5565782	Le secret d'authentification à deux facteurs fourni est trop long.	lot messages_serveur_001
+message_serveur	189		content_default	519a4d8caf8f	Le secret d'authentification à deux facteurs fourni n'est pas valide.	lot messages_serveur_001
+message_serveur	190		content_default	d9ca16e5fa7d	Authentification à deux facteurs activée pour '{}' avec le secret indiqué.	lot messages_serveur_001
+message_serveur	193		content_default	4372e9931cdd	La sous-commande '{}{}{}' n'existe pas.	lot messages_serveur_001
+message_serveur	194		content_default	9ada849a6323	La commande '{}' est ambiguë :	lot messages_serveur_001
+message_serveur	195		content_default	4ba5885ba795	### UTILISATION : .{} ...	lot messages_serveur_001
+message_serveur	196		content_default	62ad383e57f3	Aucune information d'utilisation détaillée n'est associée à '{}'.\nCela ne devrait jamais arriver pour les commandes d'origine d'AzerothCore : si c'est le cas, signalez-le comme un bug.	lot messages_serveur_001
+message_serveur	197		content_default	5af3332be8af	ID de récupération : {} | Objet : {} ({}) | Nombre : {}	lot messages_serveur_001
+message_serveur	198		content_default	cc07f50d88d8	Le personnage n'a aucun objet récupérable	lot messages_serveur_001
+message_serveur	199		content_default	e20b04f62736	Le personnage n'a aucun objet récupérable avec l'ID {}	lot messages_serveur_001
+message_serveur	200		content_default	b20ccf2f86bb	Aucune sélection.	lot messages_serveur_001
+message_serveur	201		content_default	270bab2da744	GUID de l'objet : {}	lot messages_serveur_001
+message_serveur	202		content_default	39ba5b74a095	Le nom est trop long de {} caractères.	lot messages_serveur_001
+message_serveur	203		content_default	d74d128243b9	Erreur : le nom ne peut contenir que les caractères A-Z et a-z.	lot messages_serveur_001
+message_serveur	204		content_default	16e38a0219cf	Le sous-nom est trop long de {} caractères.	lot messages_serveur_001
+message_serveur	205		content_default	bacad9cd4530	Pas encore implémenté	lot messages_serveur_001
+message_serveur	206		content_default	c17de5b07a60	Objet '{}' '{}' ajouté à la liste avec maxcount '{}', incrtime '{}' et extendedcost '{}'	lot messages_serveur_001
+message_serveur	207		content_default	1c89aaf63eb2	Objet '{}' introuvable dans la base de données.	lot messages_serveur_001
+message_serveur	208		content_default	f95c600cfe3b	Objet '{}' '{}' retiré de la liste du marchand	lot messages_serveur_001
+message_serveur	209		content_default	aae01b79e355	Objet '{}' introuvable dans la liste du marchand.	lot messages_serveur_001
+message_serveur	210		content_default	faa9866a43ec	Objet '{}' (avec le coût étendu {}) déjà dans la liste du marchand.	lot messages_serveur_001
+message_serveur	211		content_default	f59949ea0fc7	Sorts de {} réinitialisés.	lot messages_serveur_001
+message_serveur	212		content_default	da835378cc03	Les sorts de {} seront réinitialisés à la prochaine connexion.	lot messages_serveur_001
+message_serveur	213		content_default	3ed3cbbf1db4	Talents de {} réinitialisés.	lot messages_serveur_001
+message_serveur	214		content_default	f410ab781765	Les talents de {} seront réinitialisés à la prochaine connexion.	lot messages_serveur_001
+message_serveur	215		content_default	75fcf0dda683	Vos sorts ont été réinitialisés.	lot messages_serveur_001
+message_serveur	216		content_default	834a348e6040	Vos talents ont été réinitialisés.	lot messages_serveur_001
+message_serveur	217		content_default	ec3924689fc2	Cas '{}' inconnu pour la commande .resetall. Tapez le nom complet et exact du cas.	lot messages_serveur_001
+message_serveur	218		content_default	df5a44ae2ef3	Les sorts seront réinitialisés pour tous les joueurs à la connexion. Reconnexion vivement recommandée !	lot messages_serveur_001
+message_serveur	219		content_default	ac8ade97183e	Les talents seront réinitialisés pour tous les joueurs à la connexion. Reconnexion vivement recommandée !	lot messages_serveur_001
+message_serveur	220		content_default	b876bd7475b9	Créature (GUID : {}) : aucun point de passage trouvé.	lot messages_serveur_001
+message_serveur	221		content_default	563131534c02	Créature (GUID : {}) : dernier point de passage introuvable.	lot messages_serveur_001
+message_serveur	222		content_default	eadf8f274533	Créature (GUID : {}) : aucun point de passage trouvé ('wpguid' utilisé). Recherche par sa position...	lot messages_serveur_001
+message_serveur	223		content_default	9ded1f45c110	Aucune information de point de passage trouvée pour la créature (GUID : {}). Vérifiez que la commande 'wp show on' a bien été exécutée.	lot messages_serveur_001
+message_serveur	224		content_default	4a551576324a	Créature sélectionnée ignorée : le GUID fourni est utilisé	lot messages_serveur_001
+message_serveur	225		content_default	7c8bdbfe0973	Créature (GUID : {}) introuvable	lot messages_serveur_001
+message_serveur	226		content_default	623d65cedf3a	Vous devez sélectionner un point de passage visuel.	lot messages_serveur_001
+message_serveur	227		content_default	9852e918dc2c	Aucun point de passage visuel trouvé	lot messages_serveur_001
+message_serveur	228		content_default	171ec8131576	Impossible de créer un point de passage visuel avec l'ID de créature : {}	lot messages_serveur_001
+message_serveur	229		content_default	cc2ff28648a6	Tous les points de passage visuels ont été supprimés	lot messages_serveur_001
+message_serveur	230		content_default	0756e16eb9b4	Impossible de créer la créature-point de passage avec l'ID : {}	lot messages_serveur_001
+message_serveur	231		content_default	50a79784c31b	Aucun GUID fourni.	lot messages_serveur_001
+message_serveur	232		content_default	017b915930ad	Aucun numéro de point de passage fourni.	lot messages_serveur_001
+message_serveur	233		content_default	5fcb7347a339	Argument requis pour '{}'.	lot messages_serveur_001
+message_serveur	234		content_default	b44371b40173	Point de passage {} ajouté au GUID : {}	lot messages_serveur_001
+message_serveur	235		content_default	acce5f8b2f04	Point de passage {} ajouté.	lot messages_serveur_001
+message_serveur	236		content_default	7a248a90334e	Point de passage modifié.	lot messages_serveur_001
+message_serveur	237		content_default	1dabe7944d5c	Point de passage {} modifié.	lot messages_serveur_001
+message_serveur	238		content_default	ed7d4133eb92	Export des points de passage réussi.	lot messages_serveur_001
+message_serveur	239		content_default	54af2de35038	Aucun point de passage trouvé dans la base de données.	lot messages_serveur_001
+message_serveur	240		content_default	7fa65556d785	Fichier importé.	lot messages_serveur_001
+message_serveur	241		content_default	b381c430ffae	Point de passage supprimé.	lot messages_serveur_001
+message_serveur	242		content_default	2d630c343cd6	Attention : impossible de supprimer du monde le point de passage avec l'ID : {}	lot messages_serveur_001
+message_serveur	243		content_default	1e14ef41fc62	Cela arrive si le point de passage est trop loin de votre personnage.	lot messages_serveur_001
+message_serveur	244		content_default	4cf8942bf5ae	Le point de passage est supprimé de la base de données, mais pas du monde ici.	lot messages_serveur_001
+message_serveur	245		content_default	a5cd3fa0fffa	Ils disparaîtront après un redémarrage du serveur.	lot messages_serveur_001
+message_serveur	246		content_default	19d757443f6f	Point de passage {} : infos de la créature : {}, GUID : {}	lot messages_serveur_001
+message_serveur	247		content_default	bc8f08ec68e8	Temps d'attente : {}	lot messages_serveur_001
+message_serveur	248		content_default	1e80c3220ffd	Modèle {} : {}	lot messages_serveur_001
+message_serveur	249		content_default	0f789b5c8f39	Émote : {}	lot messages_serveur_001
+message_serveur	250		content_default	0014d689820d	Sort : {}	lot messages_serveur_001
+message_serveur	251		content_default	569e125c5c93	Texte{} (ID : {}) : {}	lot messages_serveur_001
+message_serveur	252		content_default	e89876276a75	Script d'IA : {}	lot messages_serveur_001
+message_serveur	253		content_default	345e6c84eb3e	Le changement de nom forcé du personnage {} sera demandé à la prochaine connexion.	lot messages_serveur_001
+message_serveur	254		content_default	67205c7808ef	Le changement de nom forcé du personnage {} (GUID #{}) sera demandé à la prochaine connexion.	lot messages_serveur_001
+message_serveur	255		content_default	aaa79b81fce7	Créature-point de passage (GUID : {}) introuvable	lot messages_serveur_001
+message_serveur	256		content_default	d76366c7325b	PNJ introuvable...	lot messages_serveur_001
+message_serveur	257		content_default	444f7a3c2ee1	Type de déplacement de la créature réglé sur '{}', points de passage supprimés (s'il y en avait).	lot messages_serveur_001
+message_serveur	258		content_default	930d54a8795f	Type de déplacement de la créature réglé sur '{}', les points de passage n'ont pas été supprimés.	lot messages_serveur_001
+message_serveur	259		content_default	de0bbf82d9fb	Valeur incorrecte, utilisez on ou off	lot messages_serveur_001
+message_serveur	260		content_default	396121517f6b	Valeur enregistrée.	lot messages_serveur_001
+message_serveur	261		content_default	584e03faafb0	Valeur enregistrée, vous devrez peut-être vous reconnecter ou vider le cache de votre client.	lot messages_serveur_001
+message_serveur	262		content_default	accc8012863f	Déclencheur de zone {} introuvable !	lot messages_serveur_001
+message_serveur	263		content_default	b189a0264d4c	Carte ou coordonnées cibles non valides (X : {} Y : {} MapId : {})	lot messages_serveur_001
+message_serveur	264		content_default	829b2a611921	Coordonnées de zone non valides (X : {} Y : {} AreaId : {})	lot messages_serveur_001
+message_serveur	265		content_default	d7e63998f2d9	La zone {} ({}) fait partie de la carte instanciable {} ({})	lot messages_serveur_001
+message_serveur	266		content_default	3aca50fd0851	Rien trouvé !	lot messages_serveur_001
+message_serveur	267		content_default	5c408a01faed	Objet introuvable !	lot messages_serveur_001
+message_serveur	268		content_default	8231af021b19	Créature introuvable !	lot messages_serveur_001
+message_serveur	269		content_default	3c3cb7443423	Attention : monstre trouvé plusieurs fois, téléportation vers le premier trouvé dans la base de données.	lot messages_serveur_001
+message_serveur	270		content_default	bf6320fe1317	Créature supprimée	lot messages_serveur_001
+message_serveur	271		content_default	2e5c5fc8c160	Créature déplacée.	lot messages_serveur_001
+message_serveur	272		content_default	f4429bed48bc	La créature (GUID : {}) doit être sur la même carte que le joueur !	lot messages_serveur_001
+message_serveur	273		content_default	3ebf9f66e24c	Objet de jeu (GUID : {}) introuvable	lot messages_serveur_001
+message_serveur	274		content_default	26bb72d5d63a	L'objet de jeu (GUID : {}) est référencé dans la liste d'objets de la créature introuvable {}, impossible de le supprimer.	lot messages_serveur_001
+message_serveur	275		content_default	5ea74c8b811c	Objet de jeu (GUID : {}) supprimé	lot messages_serveur_001
+message_serveur	276		content_default	e461e6b61a04	Objet de jeu |cffffffff|Hgameobject:{}|h[{}]|h|r (GUID : {}) tourné	lot messages_serveur_001
+message_serveur	277		content_default	15e5964c455c	Objet de jeu |cffffffff|Hgameobject:{}|h[{}]|h|r (GUID : {}) déplacé	lot messages_serveur_001
+message_serveur	278		content_default	509a35f836ec	Vous devez sélectionner un marchand	lot messages_serveur_001
+message_serveur	279		content_default	c0cf3438961b	Vous devez envoyer l'ID de l'objet	lot messages_serveur_001
+message_serveur	280		content_default	c50c6cbe9461	Le marchand a trop d'objets (128 au maximum)	lot messages_serveur_001
+message_serveur	281		content_default	12355805b4eb	Vous ne pouvez pas vous expulser vous-même, déconnectez-vous plutôt	lot messages_serveur_001
+message_serveur	282		content_default	605c39c93d64	Joueur {} expulsé.	lot messages_serveur_001
+message_serveur	283		content_default	f4bab79d45e6	{} a désactivé la discussion de {} pour {}, à compter de la prochaine connexion du joueur. Raison : {}.	lot messages_serveur_001
+message_serveur	284		content_default	7a277587808f	Accepte les chuchotements : {}	lot messages_serveur_001
+message_serveur	285		content_default	3051ad02cb64	Accepte les chuchotements : OUI	lot messages_serveur_001
+message_serveur	286		content_default	f77e0d7292e3	Accepte les chuchotements : NON	lot messages_serveur_001
+message_serveur	287		content_default	7c8bdbfe0973	Créature (GUID : {}) introuvable	lot messages_serveur_001
+message_serveur	288		content_default	5ac5fc22f977	Impossible d'aller au point d'apparition {} : il n'en existe que {}	lot messages_serveur_001
+message_serveur	289		content_default	baaabfb60563	Nouveau ticket de {}	lot messages_serveur_001
+message_serveur	290		content_default	53b4bdcc4ae1	Ticket de {} (dernière mise à jour : {}) :\n{}	lot messages_serveur_001
+message_serveur	291		content_default	4154c69ffb4c	Affichage des nouveaux tickets : ACTIVÉ	lot messages_serveur_001
+message_serveur	292		content_default	d1085276aec9	Affichage des nouveaux tickets : DÉSACTIVÉ	lot messages_serveur_001
+message_serveur	293		content_default	26c18b6450cc	Le ticket {} n'existe pas	lot messages_serveur_001
+message_serveur	294		content_default	14ef126708b5	Tous les tickets ont été supprimés.	lot messages_serveur_001
+message_serveur	295		content_default	ce187f851a8a	Ticket du personnage {} supprimé.	lot messages_serveur_001
+message_serveur	296		content_default	a7a6b92f49a7	Ticket supprimé.	lot messages_serveur_001
+message_serveur	297		content_default	b18ac715f143	Distance d'errance modifiée : {}	lot messages_serveur_001
+message_serveur	298		content_default	37f8d6320a18	Temps d'apparition modifié : {}	lot messages_serveur_001
+message_serveur	299		content_default	27dd489db76d	L'honneur de {} a été réglé sur {} !	lot messages_serveur_001
+message_serveur	300		content_default	01038b23e7dd	Votre discussion a été désactivée pour {}. Par : {}, raison : {}.	lot messages_serveur_001
+message_serveur	301		content_default	327d4b3c946a	{} a désactivé la discussion de {} pour {}. Raison : {}.	lot messages_serveur_001
+message_serveur	302		content_default	3bc624d7d957	La discussion du joueur est déjà activée.	lot messages_serveur_001
+message_serveur	303		content_default	ba8616efe772	Votre discussion a été activée.	lot messages_serveur_001
+message_serveur	304		content_default	26d0e9b3a922	Vous avez activé la discussion de {}.	lot messages_serveur_001
+message_serveur	305		content_default	7675b9b14d5e	Faction {} ({}) : la réputation de {} a été réglée sur {} !	lot messages_serveur_001
+message_serveur	306		content_default	9d94b5b8edba	Les points d'arène de {} ont été réglés sur {} !	lot messages_serveur_001
+message_serveur	307		content_default	a02432434d0a	Aucune faction trouvée !	lot messages_serveur_001
+message_serveur	308		content_default	b31de1236acc	Faction {} inconnue !	lot messages_serveur_001
+message_serveur	309		content_default	50c7bf392459	Paramètre {} non valide	lot messages_serveur_001
+message_serveur	310		content_default	95bf232a3730	delta doit être compris entre 0 et {} (inclus)	lot messages_serveur_001
+message_serveur	313		content_default	b3dcb11e079d	 [en guerre]	lot messages_serveur_001
+message_serveur	314		content_default	d851902dd28c	 [paix forcée]	lot messages_serveur_001
+message_serveur	5011		content_default	e648d3a247a2	Vous ne pouvez pas vous téléporter sur vous-même !	lot messages_serveur_001

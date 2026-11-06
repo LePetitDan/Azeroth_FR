@@ -34,3 +34,43 @@
 2026-11-05 20:55:12  [F] intégré courriers_001 : 14 acceptés (14 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/courriers/courriers_001.tsv (14 lignes)
 2026-11-05 20:55:26  [F] extrait rencontres_donjon_001 : 172 textes, 377 mots -> work/lots/rencontres_donjon/rencontres_donjon_001.jsonl
 2026-11-05 20:56:07  [F] intégré rencontres_donjon_001 : 120 acceptés (323 lignes), 0 refusés, 4 doutes, 48 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/rencontres_donjon/rencontres_donjon_001.tsv (323 lignes)
+2026-11-05 21:37:59  [F] extrait interface_001 : 44 textes, 657 mots -> work/lots/interface/interface_001.jsonl
+2026-11-05 21:38:03  [F] extrait interface_002 : 58 textes, 1329 mots -> work/lots/interface/interface_002.jsonl
+2026-11-05 21:38:07  [F] extrait interface_003 : 42 textes, 924 mots -> work/lots/interface/interface_003.jsonl
+2026-11-05 21:38:11  [F] extrait interface_004 : 5 textes, 52 mots -> work/lots/interface/interface_004.jsonl
+2026-11-05 21:38:15  [F] extrait competences_001 : 8 textes, 342 mots -> work/lots/competences/competences_001.jsonl
+2026-11-05 21:39:20  [F] intégré interface_001 : 27 acceptés (28 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 17 non traités ; couche : traductions/interface/interface_001.tsv (184 lignes)
+2026-11-05 21:39:52  [F] intégré interface_002 : 41 acceptés (41 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 17 non traités ; couche : traductions/interface/interface_002.tsv (128 lignes)
+2026-11-05 21:40:14  [F] intégré interface_003 : 34 acceptés (34 lignes), 1 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 7 non traités ; couche : traductions/interface/interface_003.tsv (157 lignes); refus : work/lots/interface/interface_003.fr.refus.jsonl
+2026-11-05 21:40:24  [F] intégré interface_003 : 34 acceptés (34 lignes), 0 refusés, 1 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 7 non traités ; couche : traductions/interface/interface_003.tsv (157 lignes)
+2026-11-05 21:40:39  [F] intégré interface_004 : 2 acceptés (2 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 3 non traités ; couche : traductions/interface/interface_004.tsv (17 lignes)
+2026-11-05 21:40:42  [F] intégré competences_001 : 6 acceptés (6 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 2 non traités ; couche : traductions/competences/competences_001.tsv (430 lignes)
+2026-11-05 21:42:20  [F] extrait ensembles_objets_client_003 : 300 textes, 1045 mots -> work/lots/ensembles_objets_client/ensembles_objets_client_003.jsonl
+2026-11-05 21:48:38  [F] intégré ensembles_objets_client_003 : 298 acceptés (306 lignes), 0 refusés, 2 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/ensembles_objets_client/ensembles_objets_client_003.tsv (306 lignes)
+2026-11-05 21:49:14  [F] extrait ensembles_objets_client_004 : 255 textes, 971 mots -> work/lots/ensembles_objets_client/ensembles_objets_client_004.jsonl
+2026-11-05 21:51:19  [F] intégré ensembles_objets_client_004 : 253 acceptés (255 lignes), 0 refusés, 2 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/ensembles_objets_client/ensembles_objets_client_004.tsv (255 lignes)
+2026-11-05 21:51:29  [F] extrait pages_courriers_001 : 38 textes, 2440 mots -> work/lots/pages_courriers/pages_courriers_001.jsonl
+2026-11-05 21:54:54  [F] intégré pages_courriers_001 : 37 acceptés (37 lignes), 1 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_001.tsv (37 lignes); refus : work/lots/pages_courriers/pages_courriers_001.fr.refus.jsonl
+2026-11-05 21:55:06  [F] intégré pages_courriers_001 : 37 acceptés (37 lignes), 0 refusés, 1 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_001.tsv (37 lignes)
+2026-11-05 21:55:20  [F] extrait ensembles_objets_client_004 : 2 textes, 14 mots -> work/lots/ensembles_objets_client/ensembles_objets_client_004.jsonl
+2026-11-05 21:55:29  [F] intégré ensembles_objets_client_004 : 0 acceptés (0 lignes), 0 refusés, 1 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 1 non traités ; couche : traductions/ensembles_objets_client/ensembles_objets_client_004.tsv (255 lignes)
+2026-11-05 21:55:37  [F] extrait pages_courriers_002 : 41 textes, 2455 mots -> work/lots/pages_courriers/pages_courriers_002.jsonl
+2026-11-05 21:58:23  [F] intégré pages_courriers_002 : 41 acceptés (41 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_002.tsv (41 lignes)
+2026-11-05 21:58:36  [F] extrait pages_courriers_003 : 37 textes, 2500 mots -> work/lots/pages_courriers/pages_courriers_003.jsonl
+2026-11-05 22:00:52  [F] intégré pages_courriers_003 : 37 acceptés (37 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_003.tsv (37 lignes)
+2026-11-05 22:01:04  [F] extrait pages_courriers_004 : 46 textes, 2537 mots -> work/lots/pages_courriers/pages_courriers_004.jsonl
+2026-11-05 22:03:55  [F] intégré pages_courriers_004 : 46 acceptés (53 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_004.tsv (53 lignes)
+2026-11-05 22:04:08  [F] intégré pages_courriers_004 : 46 acceptés (53 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_004.tsv (53 lignes)
+2026-11-05 22:04:14  [F] extrait pages_courriers_005 : 2 textes, 57 mots -> work/lots/pages_courriers/pages_courriers_005.jsonl
+2026-11-05 22:04:40  [F] intégré pages_courriers_005 : 2 acceptés (2 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/pages_courriers/pages_courriers_005.tsv (2 lignes)
+2026-11-05 22:04:45  [F] extrait manastorm_001 : 301 textes, 1892 mots -> work/lots/manastorm/manastorm_001.jsonl
+2026-11-05 22:07:17  [F] intégré manastorm_001 : 301 acceptés (344 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/manastorm/manastorm_001.tsv (344 lignes)
+2026-11-05 22:07:30  [F] extrait manastorm_002 : 135 textes, 975 mots -> work/lots/manastorm/manastorm_002.jsonl
+2026-11-05 22:09:00  [F] intégré manastorm_002 : 135 acceptés (238 lignes), 0 refusés, 0 doutes, 0 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/manastorm/manastorm_002.tsv (238 lignes)
+2026-11-05 22:09:14  [F] extrait messages_serveur_001 : 300 textes, 1768 mots -> work/lots/messages_serveur/messages_serveur_001.jsonl
+2026-11-05 22:11:36  [F] intégré messages_serveur_001 : 289 acceptés (291 lignes), 0 refusés, 0 doutes, 11 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/messages_serveur/messages_serveur_001.tsv (291 lignes)
+2026-11-05 22:11:50  [F] extrait messages_serveur_002 : 300 textes, 1545 mots -> work/lots/messages_serveur/messages_serveur_002.jsonl
+2026-11-05 22:14:04  [F] intégré messages_serveur_002 : 270 acceptés (271 lignes), 0 refusés, 0 doutes, 30 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/messages_serveur/messages_serveur_002.tsv (271 lignes)
+2026-11-05 22:14:21  [F] extrait messages_serveur_003 : 300 textes, 1426 mots -> work/lots/messages_serveur/messages_serveur_003.jsonl
+2026-11-05 22:16:21  [F] intégré messages_serveur_003 : 272 acceptés (272 lignes), 1 refusés, 0 doutes, 27 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/messages_serveur/messages_serveur_003.tsv (272 lignes); refus : work/lots/messages_serveur/messages_serveur_003.fr.refus.jsonl
+2026-11-05 22:16:33  [F] intégré messages_serveur_003 : 273 acceptés (274 lignes), 0 refusés, 0 doutes, 27 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/messages_serveur/messages_serveur_003.tsv (274 lignes)

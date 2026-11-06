@@ -1,0 +1,31 @@
+type	id	sous_id	champ	en_empreinte	genre	raison	en
+message_serveur	319		content_default	49ce5de18c09	garder_anglais	identique en français (rang de réputation « Hostile »)	Hostile
+message_serveur	329		content_default	b380fee3f801	garder_anglais	format technique sans texte	  {} (GUID {})
+message_serveur	349		content_default	44f586e82ee5	garder_anglais	format technique de la liste des titres (MJ)	{} (idx:{}) - |cffffffff|Htitle:{}|h[{} {}]|h|r {} {} 
+message_serveur	350		content_default	8becc1747a39	garder_anglais	format technique de la liste des titres (MJ)	{} (idx:{}) - [{} {}] {} {} 
+message_serveur	457		content_default	b73730cf341c	garder_anglais	identique en français (« alliance »)	alliance
+message_serveur	458		content_default	7be4ccb0a4ee	garder_anglais	identique en français (« horde »)	horde
+message_serveur	468		content_default	1d1f661369b1	garder_anglais	sortie technique de débogage des auras (MJ)	id: {} {} effmask: {} charges: {} stack: {} slot {} duration: {} maxduration: {} {} {} caster: {} guid: {}
+message_serveur	470		content_default	6107b10af614	garder_anglais	sortie technique de débogage des auras (MJ)	id: {} eff: {} amount: {}
+message_serveur	515		content_default	b181fb9aa86c	garder_anglais	format technique de lien (MJ)	{} - (entry: {}) |cffffffff|Hcreature:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r
+message_serveur	517		content_default	0c4daf08fad3	garder_anglais	format technique de lien (MJ)	{} (Entry: {}) - |cffffffff|Hgameobject:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r 
+message_serveur	555		content_default	8b41852f30e5	garder_anglais	sortie technique de débogage (MJ)	SetData performed on [GUID: {}, entry: {}, name: {}] Field: {}, Data: {}, with {}
+message_serveur	562		content_default	bccd27f664ac	garder_anglais	sortie technique de débogage (MJ)	GUID={} 's updateIndex: {}, value:  {}.
+message_serveur	563		content_default	606a47cf4be7	garder_anglais	sortie technique de débogage (MJ)	You change GUID={} 's UpdateIndex: {} value to {}.
+message_serveur	564		content_default	25e29c043ae3	garder_anglais	sortie technique de débogage (MJ)	The value index {} is too big to {}(count: {}).
+message_serveur	565		content_default	4c8c61774585	garder_anglais	sortie technique de débogage (MJ)	Set {} uint32 Value:[OPCODE]:{} [VALUE]:{}
+message_serveur	566		content_default	51b220917500	garder_anglais	sortie technique de débogage (MJ)	You Set {} Field:{} to uint32 Value: {}
+message_serveur	567		content_default	71597a00e885	garder_anglais	sortie technique de débogage (MJ)	Set {} float Value:[OPCODE]:{} [VALUE]:{}
+message_serveur	568		content_default	18c026ee9b26	garder_anglais	sortie technique de débogage (MJ)	You Set {} Field:{} to float Value: {}
+message_serveur	569		content_default	3eb930f1f33c	garder_anglais	sortie technique de débogage (MJ)	Get {} uint32 Value:[OPCODE]:{} [VALUE]:{}
+message_serveur	570		content_default	3141db48d6b0	garder_anglais	sortie technique de débogage (MJ)	The uint32 value of {} in {} is: {}
+message_serveur	571		content_default	8f3b8d15b8c3	garder_anglais	sortie technique de débogage (MJ)	Get {} float Value:[OPCODE]:{} [VALUE]:{}
+message_serveur	572		content_default	0a6af64f8546	garder_anglais	sortie technique de débogage (MJ)	The float of {} value in {} is: {}
+message_serveur	573		content_default	a65815a16a25	garder_anglais	sortie technique de débogage (MJ)	.Set32Bit:[OPCODE]:{} [VALUE]:{}
+message_serveur	574		content_default	cd5bc90f87ed	garder_anglais	sortie technique de débogage (MJ)	You set Bit of Field:{} to Value: {}
+message_serveur	575		content_default	3f860cd88449	garder_anglais	sortie technique de débogage (MJ)	.Mod32Value:[OPCODE]:{} [VALUE]:{}
+message_serveur	576		content_default	5cabfdb509c9	garder_anglais	sortie technique de débogage (MJ)	You modified the value of Field:{} to Value: {}
+message_serveur	594		content_default	f2dfe427e5b7	garder_anglais	en-tête de tableau aligné (MJ)	|    Account    |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |
+message_serveur	596		content_default	0dbdbf98c0f2	garder_anglais	en-tête de tableau aligné (MJ)	|      IP       |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |
+message_serveur	598		content_default	cf42d1d14622	garder_anglais	en-tête de tableau aligné (MJ)	|    Account    |  GM  |
+message_serveur	603		content_default	cfabaa0d5859	garder_anglais	sortie technique de débogage (MJ)	Do Action performed on [GUID: {}, entry: {}, name: {}] Action: {}
