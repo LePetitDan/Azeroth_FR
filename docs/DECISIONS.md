@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 06/11/2026 | Suite de la traduction par l'API Anthropic (envois différés, -50 %) sur les crédits API de Dan, avec la clé déjà présente sur son PC (jamais lue ni écrite par Claude) ; plafond 50 $ ; Opus 5.5 pour les sorts et talents (C, G), Sonnet 5.5 pour le reste ; mêmes lots et même contrôle d'entrée que les agents ; essai sur 2 lots d'abord | Décision de Dan : préserver son quota d'utilisation |
 | 06/11/2026 | Vocabulaire, points 22 à 28 : lieux CoA entièrement descriptifs seulement ; noms post-3.3.5 par leur officiel récent ; *Realm First!* aligné sur Blizzard ; petites propositions D/H adoptées, « Newcomers » en anglais ; enchantements 12a (forme majoritaire) et 12b (traduits) ; « Chasseur de trésor : X » | Décisions de Dan pendant le chantier de traduction |
 | 05/11/2026 | Vocabulaire, points 20 et 21 : ressources des classes CoA (Chaleur, Folie, Braise, Âmes moissonnées, Marque de la couvée, Étoiles éparpillées, Avantage, Ferraille, Motivation, Soif, Fragments d'âme, Runes du Vide) ; *Level N Passive* = « Passif de niveau N » | Décisions de Dan pendant le chantier de traduction |
 | 05/11/2026 | Traduction : couche `traductions/` (état `machine`, source `claude`), 8 chantiers parallèles par famille ; contrôle corrigé (apostrophe courbe des noms officiels, retours à la ligne doubles, balises de texte `<…>` traduisibles, balises HTML identiques) | Premiers lots : faux refus repérés par les agents |
