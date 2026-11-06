@@ -41,6 +41,9 @@ quete	944		QuestCompletionLog	46cb10a3598c	Retournez à la Coupe de divination.	
 quete	945		QuestCompletionLog	209c0e608a9c	Retournez voir Therysil.	lot quetes_004
 quete	947		QuestCompletionLog	72fc0f076d29	Retournez voir Barithras Lunombrage à Auberdine, en Sombrivage.	lot quetes_004
 quete	951		QuestCompletionLog	d21fe5f01516	Retournez voir Onu dans la Vallée du crépuscule, en Sombrivage.	lot quetes_004
+quete	953		ObjectiveText1	0c57efe69209	Lire le Lai d'Ameth'Aran	lot quetes_004
+quete	953		ObjectiveText2	1f4719221c52	Lire la Chute d'Ameth'Aran	lot quetes_004
+quete	953		QuestCompletionLog	0a6ec4a1faaf	Retournez voir la Sentinelle Tysha Lamelune à Ameth'Aran, dans Sombrivage.	lot quetes_004
 quete	955		QuestCompletionLog	71740958b551	Retournez voir Asterion à la Lisière des brumes, en Sombrivage.	lot quetes_004
 quete	956		QuestCompletionLog	71740958b551	Retournez voir Asterion à la Lisière des brumes, en Sombrivage.	lot quetes_004
 quete	957		ObjectiveText1	e4f22bd2ffa2	Détruire le sceau à la flamme antique	lot quetes_004
@@ -91,6 +94,7 @@ quete_demande	939		CompletionText	21c7cd405763	Qu'y a-t-il, $C ? Vous semblez $
 quete_demande	943		CompletionText	1936d7cde1b8	Grâce à la Pierre de Relu, je pourrai percer les secrets cachés de mon fossile ainsi que de celui de Songerrance, en Sombrivage, $N.	lot quetes_004
 quete_demande	944		CompletionText	62f5f34288e1	Le Glaive du Maître, $N.$B$BRendez-vous là-bas, puis reparlez-moi.	lot quetes_004
 quete_demande	947		CompletionText	1066a513f840	Avez-vous mes champignons, $N ? Êtes-vous $gallé:allée; dans la grotte ?	lot quetes_004
+quete_demande	953		CompletionText	d7b42e236717	Quand vous aurez étudié les tablettes et appris la chute d'Ameth'Aran, je porterai ce savoir à Auberdine et j'en informerai le Cercle des Anciens.	lot quetes_004
 quete_demande	957		CompletionText	e0ff7cc8f774	À vrai dire, $N, j'ai peur... Peur que votre venue, tout cela, ne soit que le fruit d'un esprit dérangé. Pouvez-vous concevoir la torture que c'est ? Je... Je vous en prie, vous devez faire vite.	lot quetes_004
 quete_demande	964		CompletionText	df877cfa5a03	Tuez-en beaucoup, et souvent, $C : il nous faudra une bonne réserve de fragments de squelette adéquats pour former la couche extérieure de la clé. Ce n'est pas pour rien qu'on l'appelle la Clé squelette, vous savez.	lot quetes_004
 quete_demande	967		CompletionText	79c2b24d5298	Vous avez affaire à moi, $C ?	lot quetes_004
