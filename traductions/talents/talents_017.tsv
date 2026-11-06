@@ -94,6 +94,197 @@ sort	704585		ToolTip	dfaa429a722d	Dégâts physiques subis réduits de $s1%, plu
 sort	704586		Description	c5d380608e12	Activer |cFFFF9800Aube|r confère désormais |cffffffffBouclier étincelant|r pendant $805265d.@s:805265:0@	lot talents_017
 sort	704586		Name	1d9de3407de4	Bouclier étincelant	lot talents_017
 sort	704586		ToolTip	c2ffc1e9470d	Chaque fois que vous activez Aube, vous gagnez désormais Bouclier étincelant pendant $805265d.@s:805265@	lot talents_017
+sort	704602		Description	22c0cd5a7578	Réduit le temps de recharge de |cffffffffFureur déchaînée|r de $/1000;S1 sec. \r\n\r\nLorsque |cFFFFFFFFFureur déchaînée|r se termine, vous frappez tous les ennemis proches pour ${$806096m1+$806096ppl1+$AP*0.5614286} points de dégâts d'Ombreflamme et augmentez les dégâts qu'ils subissent de |cffffffffFracasser|r de $806096s2% pendant $806096d.	lot talents_017
+sort	704602		Name	7cadfad0d7f9	Vengeance tourbillonnante	lot talents_017
+sort	704602		ToolTip	4f73bee66575	Réduit le temps de recharge de Tempête du chaos de $/1000;s1 sec.	lot talents_017
+sort	704603		Description	ccf1e72ef224	Augmente les dégâts de |cffffffffLame astrale|r, |cffffffffFracture stellaire|r et |cffffffffLame de la gardienne|r de $s1%.	lot talents_017
+sort	704603		Name	cfe3f774d90c	Fureur des étoiles	lot talents_017
+sort	704605		Description	ccf1e72ef224	Augmente les dégâts de |cffffffffLame astrale|r, |cffffffffFracture stellaire|r et |cffffffffLame de la gardienne|r de $s1%.	lot talents_017
+sort	704605		Name	cfe3f774d90c	Fureur des étoiles	lot talents_017
+sort	704606		Description	8f8661a7220c	Les coups critiques magiques directs génèrent désormais $524898s1 points d'Énergie.	lot talents_017
+sort	704606		Name	db4f9ab99f5d	Haine focalisée	lot talents_017
+sort	704607		Description	4c4ee97f4242	Augmente vos dégâts critiques de $s2% et vos chances de coup critique de $s1% supplémentaires lorsque vous combattez des élémentaires.	lot talents_017
+sort	704607		Name	e0c378d09c76	Fléau des élémentaires	lot talents_017
+sort	704610		Description	9fd70ad89728	|cFFFFFFFFAssaut d'Azzinoth|r a désormais $h% de chances de toucher une fois de plus avec votre arme de la main droite.	lot talents_017
+sort	704610		Name	edd15cf7c7e2	Mille entailles	lot talents_017
+sort	704611		Description	4888bcc35cd0	Lorsque vous canalisez |cffffffffDécoupe|r, vos chances d'esquiver sont désormais augmentées de $s1% selon la durée de canalisation, jusqu'à un maximum de 10%.	lot talents_017
+sort	704611		Name	16e600a918c2	Finesse au combat	lot talents_017
+sort	704612		Description	54306e17f899	Augmente l'efficacité de vos |CffffffffPactes|R de $s1%.	lot talents_017
+sort	704612		Name	adc2a658b0ba	Chasseur de pactes	lot talents_017
+sort	704613		Description	1e0c07eab59e	Augmente de $s1 le nombre d'effets magiques bénéfiques volés par votre |cffffffffConsumer la magie|r.	lot talents_017
+sort	704613		Name	3d97cdfd29bc	Démon de la magie	lot talents_017
+sort	704621		Description	0b5c1f289e4f	Augmente la durée de |cffffffffHémostase|r de $/1000;s1 sec.	lot talents_017
+sort	704621		Name	df578e5aaa29	Proie facile	lot talents_017
+sort	704623		Name	ab2d8b467de6	Ombres revigorantes	lot talents_017
+sort	704624		Description	2bbc8606b096	Les attaques automatiques contre une cible qui saigne infectent désormais la blessure, augmentant de $707867s1% ses chances de subir un coup critique de votre part pendant $707867d, cumulable $707867u fois.	lot talents_017
+sort	704624		Name	a9e7409cfaec	Infection	lot talents_017
+sort	704625		Name	17dc5208a3ea	Enrobé de ténèbres	lot talents_017
+sort	704626		Description	03b3f19bc5d0	Les dégâts physiques subis réduisent désormais de ${($556233m1+$AP*0.2)} les dégâts physiques subis lors de la prochaine attaque dans les $556233d.	lot talents_017
+sort	704626		Name	9a9acf61a850	Pelage épais	lot talents_017
+sort	704627		Description	562561971e37	Augmente vos chances d'esquiver de $s1% et votre score d'expertise de $s2.	lot talents_017
+sort	704628		Description	562561971e37	Augmente vos chances d'esquiver de $s1% et votre score d'expertise de $s2.	lot talents_017
+sort	704632		Name	c714126309e3	Chair revigorée	lot talents_017
+sort	704633		Description	021fe569c34c	Vos coups critiques réduisent désormais de $/1000;504253s1 sec le temps de recharge de |cffffffffFaçonnage de chair|r et la durée de |cffffffffRassasié|r sur la cible.\r\n\r\nDe plus, augmente votre score de coup critique de $s2% de votre Esprit.	lot talents_017
+sort	704633		Name	f7b20bed4f86	Fonderie de chair	lot talents_017
+sort	704634		Description	ad47551a4b41	Vos coups critiques nuisibles directs augmentent de $504138s1% les dégâts d'Ombre que la cible subit de votre part, cumulable jusqu'à $504138u fois, pendant $504138d.	lot talents_017
+sort	704634		Name	4c32f91b4a69	Magie distordue	lot talents_017
+sort	704635		Description	471d77c90a6b	Augmente l'efficacité des |cFFFFFFFFOffrandes|r de $s1%.	lot talents_017
+sort	704635		Name	b3e95d6232ae	Manipulateur de sang	lot talents_017
+sort	704636		Description	c0eed1c2e130	Donne à votre |cFFFFFFFFPlaie de sang|r $s1% de chances de fournir ses bienfaits sans être consommée.	lot talents_017
+sort	704636		Name	1d461f453382	Seigneur de sang	lot talents_017
+sort	704641		Name	80357fb37b1d	Ordre du prince de sang	lot talents_017
+sort	704642		Description	bb054dd97243	Augmente de $s1% les dégâts d'Ombre que vous infligez et de $s2% vos chances de toucher.	lot talents_017
+sort	704642		Name	69052978881f	Perfidie d'Atherann	lot talents_017
+sort	704643		Description	4ec2e34ccc6b	Augmente les dégâts de |cffffffffAngoisse d'Atherann|r de $s1%.	lot talents_017
+sort	704643		Name	69052978881f	Perfidie d'Atherann	lot talents_017
+sort	704643		ToolTip	678b17036eaa	Augmente les dégâts de |cffffffffAngoisse d'Atherann|r de ${$w1}% et le bonus de dégâts de vos coups critiques des sorts de ${$w2}%.	lot talents_017
+sort	704644		Description	4fd952f64c4a	Augmente de $s1% la hâte des sorts de tous les membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, lorsqu'une |cffa966f0Forme maudite|r est active, vos temps de recharge globaux sont réduits de $804845s3%.	lot talents_017
+sort	704644		Name	19498f42373e	Frénésie sombre	lot talents_017
+sort	704646		Name	cd2a0358bf46	Nuée de mouches	lot talents_017
+sort	704652		Description	6ae488fad746	|cFF66DDFFPassif de niveau 40|r\r\nLes coups critiques physiques réduisent désormais de $/1000;807358s1 sec le temps de recharge de |cFFFFFFFFAssaut aortique|r et vous confèrent |cffffffffImplacable|r.@s:807357:0@	lot talents_017
+sort	704653		Description	e1012ba49dd8	Lorsque vous vous fendez sur un ennemi avec |cffffffffFente|r, vous le frappez désormais 3 fois avec des attaques automatiques.	lot talents_017
+sort	704653		Name	23daf66bd9ea	Intention cruelle	lot talents_017
+sort	704654		Description	76164ccc313e	Les coups critiques directs de capacité augmentent désormais de $504166s1% vos chances de coup critique et vos dégâts critiques avec les sorts et capacités pendant ${$504166d-1} sec, cumulable jusqu'à $504166u fois.\r\n\r\nChaque coup critique supplémentaire augmente cet effet de $504166s1% de plus, mais réduit sa durée de $/1000;504166s3 sec.	lot talents_017
+sort	704654		Name	ad9611da7834	Ultra-instinct	lot talents_017
+sort	704659		Name	5958e4fbf341	Chasseur de la nuit	lot talents_017
+sort	704660		Description	4947d8af2ea3	Permet à votre |cFFFFFFFFPelage épais|r d'affecter un coup supplémentaire.	lot talents_017
+sort	704661		Description	020da94b1b3c	|cFF66DDFFPassif de niveau 30|r\r\nTant que vous êtes sous |cFFFFFFFFMalédiction éternelle|r, vous gagnez désormais $s1% de puissance d'attaque supplémentaire grâce à l'Agilité et à la Force.	lot talents_017
+sort	704661		Name	df3903e5f460	Force bestiale	lot talents_017
+sort	704662		Description	74ce5272b660	Tant que vos points de vie sont supérieurs à 75%, les dégâts que vous subissez sont réduits de $s2%.	lot talents_017
+sort	704662		Name	7b518ab17077	Ombres dans la nuit	lot talents_017
+sort	704669		Description	03107d03acc7	|cFF66DDFFPassif de niveau 30|r\r\nAugmente vos dégâts critiques de $s1% contre les cibles |cff3399ffGelées|r.	lot talents_017
+sort	704669		Name	c9262d3bc3e9	Frigidité	lot talents_017
+sort	704670		Description	1afeb394652f	Augmente vos dégâts de Givre de $s2% et votre Puissance runique maximale de $/10;s1.	lot talents_017
+sort	704670		Name	543a359c3241	Réservoir runique	lot talents_017
+sort	704670		ToolTip	b38f787b9d2c	Les coups critiques infligés ont désormais $h% de chances d'appliquer une charge de |cffffffffFroid de la mort|r.	lot talents_017
+sort	704676		Description	c921c4df2de0	Tant que votre |cffffffffForme de liche|r est active, vos sorts de |cffffffffChampion|r se rechargent plus rapidement.	lot talents_017
+sort	704676		Name	5663d1abefc8	Champion de Kel'thuzad	lot talents_017
+sort	704676		ToolTip	6b73c2908905	|cffffffffGivre-liche|r réduit désormais de $/1000;532521S1 sec le temps de recharge de |cffffffffCommandement : mage des tombes|r et de |cffffffffCommandement : guerriers squelettes|r.	lot talents_017
+sort	704680		Description	e376b5c0f394	Votre |cffffffffImpact glaciaire|r génère désormais $/10;804111s1 points de Puissance runique.	lot talents_017
+sort	704680		Name	cd09da8d5356	Lyophilisation	lot talents_017
+sort	704681		Description	041f18a970a0	|cFF66DDFFPassif de niveau 50|r\r\nDonne à vos sorts $h% de chances de vous accorder |cFFFFFFFFGel prolongé|r, qui traite vos 2 prochains sorts lancés comme si la cible était |cff3399ffGelée|r. Dure $801747d.	lot talents_017
+sort	704682		Description	4771fa276434	Augmente la durée des |cffffffffArchers squelettes|r de $/1000;s1 sec.	lot talents_017
+sort	704682		Name	5d2ac51cfadc	Prodige de l'invocation	lot talents_017
+sort	704690		Description	cde372c5ecbc	Chaque point de Rage augmente désormais de $/1000;S1% les chances de coup critique d'|cffffffffEclatement veineux|r et de |cffffffffSaccage|r, jusqu'à un maximum de 50%.	lot talents_017
+sort	704690		Name	26dc498a1da4	Instinct de tueur	lot talents_017
+sort	704692		Description	05f705fc2fe0	Lorsque vous utilisez |cffffffffTourment de Taldaram|r sur un humanoïde ou une bête, son sang est désormais corrompu, ce qui augmente de $532623s1% les dégâts que vous lui infligez.	lot talents_017
+sort	704701		Description	4b64158af131	Lancer des sorts |cff90ee90Commandement|r vous confère désormais une charge de |cffffffffRoi-sous-la-montagne|r pendant $302516d.\r\n\r\nÀ 10 charges, le temps de recharge de$?s805032[][ |cffffffffAnimer : spectre d'os|r,]$?s805044[][ |cffffffffAnimer : roi des tombes|r] ou |cffffffffAnimer : père de la peste|r est réduit au hasard de $/1000;302517s1 sec et vous animez un |cffffffffZombie supérieur|r pendant $525380d.	lot talents_017
+sort	704701		Name	4ac587157e3a	Roi-sous-la-montagne	lot talents_017
+sort	704713		Description	df4f5a1e7f83	Réduit de $/10;s1 le coût en Puissance runique de vos sorts |cff90ee90Commandement|r.	lot talents_017
+sort	704713		Name	e05eadcc993c	Commandant liche	lot talents_017
+sort	704715		Description	c79538160278	Réduit de $/1000;S1 sec le temps d'incantation de |cffffffffSacrifier les morts-vivants|r.	lot talents_017
+sort	704715		Name	f8c6d97d51a2	Fossoyeur	lot talents_017
+sort	704715		ToolTip	dc08bc2f7a0f	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffEnsevelir|r.	lot talents_017
+sort	704717		Description	57f53deec846	Supprime le temps de recharge de |cffffffffMarche des morts|r, mais lui donne un temps d'incantation de $/1000;s2 sec.	lot talents_017
+sort	704717		Name	f8879852ef3e	Longue marche	lot talents_017
+sort	704718		Description	83c732f8ed7e	Réduit de $s1% le temps de canalisation de votre |cffffffffEssaim de la crypte|R.	lot talents_017
+sort	704718		Name	c80a1bb65ccc	Inlassable	lot talents_017
+sort	704718		ToolTip	0016776391f7	Augmente les dégâts d'|cffffffffEssaim de la crypte|R de ${$w1}%.	lot talents_017
+sort	704721		Description	1e1d1bea4a85	Lorsque vous lancez |cFFFFFFFFFrénésie impie|r, vous animez désormais $302912s1 |cffffffffZombies supérieurs|r pour vous aider au combat pendant $525380d.\r\n\r\nLes dégâts de Givre et physiques infligés par vos serviteurs morts-vivants réduisent désormais de $/1000;302597S1 sec le temps de recharge de |cffffffffFrénésie impie|r. \r\n\r\nChaque |cffffffffAbominations|r ou |cffffffffColosse en décomposition|r actif fait que les dégâts infligés par vos serviteurs morts-vivants réduisent le temps de recharge de 1 sec supplémentaire.	lot talents_017
+sort	704721		Name	6844969f3701	Étude de la mort	lot talents_017
+sort	704723		Description	928822954d42	|cFF66DDFFPassif de niveau 40|r\r\nLancer des sorts vous confère désormais 1 charge de |cffffffffDiabolique|r, cumulable jusqu'à $706504u fois, pendant $706504d.\r\n\r\nLes dégâts infligés par votre |cffffffffEssaim de la crypte|r consomment une charge pour infliger $707133s1% de dégâts supplémentaires par charge.	lot talents_017
+sort	704723		Name	1b02507200d7	Diabolique	lot talents_017
+sort	704724		Description	30b0dd4f2cb5	|cFF66DDFFPassif de niveau 20|r\r\nLancer des sorts |cff90ee90Commandement|r a désormais $h% de chances de rendre gratuite leur prochaine utilisation dans les $572777d.	lot talents_017
+sort	704724		Name	7d5475a8129e	Lien mortel	lot talents_017
+sort	704725		Description	b8224dedef69	Les coups critiques de |cffffffffFlux lunaire|r et de |cffffffffPrière d'Elune|r appliquent désormais |cffffffffFlèches éclipsantes|r à la cible pendant $574154d.\r\n\r\nLancer |cffffffffTir de chasseresse|r rend ${$704232m1+$704232ppl1+$SP*.3} points de vie aux alliés marqués.	lot talents_017
+sort	704725		Name	1803915096c5	Cascade lunaire	lot talents_017
+sort	704729		Description	aae55b510a9b	Augmente votre Puissance runique maximale de $s1%.	lot talents_017
+sort	704729		Name	140c7d147d67	Bénédiction de Ner'zhul	lot talents_017
+sort	704729		ToolTip	382f2606bea0	Augmente votre Puissance runique totale de ${$w1}%.	lot talents_017
+sort	704732		Description	2df075acd4bb	Réduit de $/1000;s1 sec le temps de recharge de |cFFFFFFFFConvergence stellaire|r.	lot talents_017
+sort	704732		Name	ff944ed0f5da	Afflux réparateur	lot talents_017
+sort	704739		Description	b93153d812d6	Un |cFFFFFFFFTir de feu stellaire|r sur 3 transforme votre prochain |cFFFFFFFFTir de feu stellaire|r en |cFFFFFFFFBarrage de feu stellaire|r.@s:802682:0@	lot talents_017
+sort	704739		Name	8504f95e9cda	Barrage de feu stellaire	lot talents_017
+sort	704739		ToolTip	fa0ca959cec1	Un |cFFFFFFFFTir assuré|r sur 3 transforme |cFFFFFFFFTir de feu stellaire|r en |cFFFFFFFFBarrage de feu stellaire|r.@s:802682:0@	lot talents_017
+sort	704740		Description	1be9cdbfa14f	|cFFFFFFFFTir de feu stellaire|r a désormais $h% de chances de tirer un |cFFFFFFFFTir de chasseresse|r gratuit sur la cible.	lot talents_017
+sort	704740		Name	8d7f2d057f65	Focalisation de la sentinelle	lot talents_017
+sort	704741		Description	b1aa6f1cb657	Vos dégâts à distance ont désormais $h% de chances de déclencher une |cff66ccffÉtoile éparpillée|r.\r\n\r\nDe plus, lancer |cffffffffFlot d'argent|r applique désormais des |cff66ccffÉtoiles éparpillées|r à $807301i ennemis au maximum autour de chaque cible soignée.	lot talents_017
+sort	704741		Name	cafb8c7f4630	Bénie par les étoiles	lot talents_017
+sort	704745		Description	829201194940	Votre |cffffffffPrière d'Elune|r dissipe désormais $s1 effet supplémentaire.	lot talents_017
+sort	704745		Name	4b6039c9aba3	Prière finale	lot talents_017
+sort	704745		ToolTip	d6b3fea037f9	Augmente de ${$w1}% les chances de coup critique de |cFFFFFFFFFlux lunaire|r et de ${$w2}% ses soins critiques.	lot talents_017
+sort	704755		Description	c489c0b62c9e	Augmente de $s1% les soins de |cFFFFFFFFToucher du clair de lune|r et réduit de $s2% le retard d'incantation subi lors d'attaques qui infligent des dégâts.	lot talents_017
+sort	704755		Name	32ed1c671ff4	Eau enchantée	lot talents_017
+sort	704756		Description	968ed293615b	Augmente de $s1% vos soins prodigués, et de $s2% supplémentaires sur les cibles |cff00ff00empoisonnées|r ou |cff7fff00malades|r.	lot talents_017
+sort	704756		Name	10368153be83	Bénédiction lunaire	lot talents_017
+sort	704757		Description	968ed293615b	Augmente de $s1% vos soins prodigués, et de $s2% supplémentaires sur les cibles |cff00ff00empoisonnées|r ou |cff7fff00malades|r.	lot talents_017
+sort	704757		Name	10368153be83	Bénédiction lunaire	lot talents_017
+sort	704759		Description	adf46f85342a	Augmente de $s1% les soins de |cFFFFFFFFMain d'Elune|r, |cFFFFFFFFFlux lunaire|r et |cFFFFFFFFFlot d'argent|r.	lot talents_017
+sort	704759		Name	38c58c76cddc	Enseignements d'Elune	lot talents_017
+sort	704764		Description	33c7f7bfc526	Lancer |cFFFFFFFFFlèche lunaire|r réduit désormais de $/1000;804072s1 sec le temps de recharge de |cffffffffPrière d'Elune|r et de $/1000;804072s2 sec celui de |cffffffffFlux lunaire|r et |cffffffffForme céleste|r.	lot talents_017
+sort	704764		Name	bdc2718adb03	Prophétie lunaire	lot talents_017
+sort	704765		Description	c26c89904eee	Chaque 8e |cff66ccffÉtoile éparpillée|r que vous consommez augmente de $707425s1% les dégâts de votre prochain |cFFFFFFFFAppel stellaire|r.	lot talents_017
+sort	704765		Name	47263c646307	Cascade	lot talents_017
+sort	704769		Description	b332a336c535	Augmente de $s2% les dégâts que vous infligez aux ennemis situés à plus de 30 mètres.	lot talents_017
+sort	704769		Name	0c59876c3ada	Chasseresse d'Elune	lot talents_017
+sort	704770		Description	b332a336c535	Augmente de $s2% les dégâts que vous infligez aux ennemis situés à plus de 30 mètres.	lot talents_017
+sort	704770		Name	0c59876c3ada	Chasseresse d'Elune	lot talents_017
+sort	704771		Description	658bf1fb8a07	Augmente de $s1 mètres la portée de |cffffffffBrise-étoile|r.	lot talents_017
+sort	704771		Name	ab88984890ab	Étoiles brisées	lot talents_017
+sort	704771		ToolTip	b45cc4e6aca0	Transforme |cFFFFFFFFEtoile filante|r en |cFFFFFFFFSabre de chasseresse|r. @s:524643:0@	lot talents_017
+sort	704774		Description	17f9ae476d21	Réduit de $s1% les dégâts des Arcanes subis.	lot talents_017
+sort	704774		Name	de6dc181568d	Résilience de Mu'sha	lot talents_017
+sort	704774		ToolTip	7f3a1afde456	Réduit de ${$w1}% les dégâts des Arcanes subis.	lot talents_017
+sort	704775		Description	7edea79078c9	Augmente de $s1% la vitesse de déplacement octroyée par |cffffffffEtoile filante|r.	lot talents_017
+sort	704775		Name	721df006ab24	Orteils scintillants	lot talents_017
+sort	704776		Description	b2aba5225b6b	Augmente de $s1% l'efficacité d'|cFFFFFFFFEsprit céleste|r.	lot talents_017
+sort	704776		Name	47aef7976f78	Citoyen des étoiles	lot talents_017
+sort	704777		Description	49d5daf5ffa9	|cffffffffDrains $807032s1% Maximum Mana|r\r\nContre-attaque instantanément tout ennemi qui vous frappe de face en mêlée en lui infligeant des dégâts des Arcanes, pendant $d. Ne peut se produire qu'une fois par sec. et par ennemi.\r\n\r\n@ext:Shares a cooldown with other |cffffffffAegis|r spells.:ext@	lot talents_017
+sort	704777		Name	af4423fa12ce	Égide imprégnée	lot talents_017
+sort	704777		ToolTip	5fa6152c7375	Contre-attaque.	lot talents_017
+sort	704778		Name	c947efc4f6c5	Barbare stellaire	lot talents_017
+sort	704778		ToolTip	a8809d5b24f0	Hâte augmentée de ${$w1}%.	lot talents_017
+sort	704783		Name	99567b008ae7	Œil d'Elune	lot talents_017
+sort	704784		Description	10ab82c239ee	|cffffffffGlaive sentinelle|r rend désormais $805543s2% de votre mana maximum et applique une |cff66ccffÉtoile éparpillée|r à l'ennemi.	lot talents_017
+sort	704784		Name	dd1959092cad	Ralliement des sentinelles	lot talents_017
+sort	704785		Description	412c0bc24954	Réduit de $s1% les dégâts subis par tous les membres du groupe et du raid.\n\nDe plus, vous retardez $s3% des dégâts magiques directs subis, que vous subissez alors en $954791d.\n\nNe se cumule pas avec des effets similaires.	lot talents_017
+sort	704785		Name	3cf7f03a80f6	Étoiles voilées	lot talents_017
+sort	704785		ToolTip	2dc05083647e	Dégâts subis réduits de ${$w1}%. $s3% des dégâts magiques directs subis sont étalés dans le temps.	lot talents_017
+sort	704786		Description	ad6145486d90	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGlaive sentinelle|r.	lot talents_017
+sort	704786		Name	670198b5c634	Colère d'Elune	lot talents_017
+sort	704787		Description	1cb15a3b1fc7	Augmente de $s1% les soins que vous prodiguez et recevez, effet doublé tant que vos points de vie sont inférieurs à 50%.	lot talents_017
+sort	704787		Name	d19febfeecc4	Lié aux étoiles	lot talents_017
+sort	704788		Description	eeda26c87d26	Augmente de $s1% les chances de coup critique de votre |cFFFFFFFFExplosion stellaire|r.	lot talents_017
+sort	704788		Name	0218cc3c2933	Conseil de Tyrande	lot talents_017
+sort	704789		Description	e231d83d3545	Augmente de $/1000;s1 sec la durée de |cffffffffLame astrale|r.	lot talents_017
+sort	704789		Name	b46bfa9683b8	Assaut astral	lot talents_017
+sort	704789		ToolTip	7b19061876b9	|cffffffffLame astrale|r augmente désormais de $805563s2% les dégâts des 3 prochaines |cffffffffFractures stellaires|r contre votre cible.	lot talents_017
+sort	704790		Description	77a657b3b3b2	Réduit de $s1% le temps de recharge de |cffffffffLame de la gardienne|r.	lot talents_017
+sort	704790		ToolTip	54261aa8fd03	Augmente de ${$w2}% les dégâts de |cffffffffLame de la gardienne|r et réduit de ${$w1}% son temps de recharge.	lot talents_017
+sort	704792		Name	4488fa650141	Vigueur de l'explosion stellaire	lot talents_017
+sort	704793		Description	d0c928b7016b	Augmente de $s1% l'efficacité d'|cFFFFFFFFEclipse de fureur|r.	lot talents_017
+sort	704794		Description	36780d3e2efb	Augmente de $s2% les dégâts d'|cffffffffEnchaînement céleste|r et lui permet d'affecter $s1 ennemis supplémentaires.	lot talents_017
+sort	704794		Name	6d31db11ade1	Explosion de pulsar	lot talents_017
+sort	704794		ToolTip	29147920930e	Permet à |cffffffffVengeance d'Élune|r d'affecter ${$w1} ennemis supplémentaires et augmente ses dégâts de ${$w2}%.	lot talents_017
+sort	704795		Description	7291f7cfc3bf	Vos blocages réussis ont désormais $s1% de chances d'être des blocages critiques, qui bloquent deux fois la quantité normale.	lot talents_017
+sort	704795		Name	002df4d4318e	Égide enchantée	lot talents_017
+sort	704798		Description	39d6fa8bfefd	Augmente de $s3% votre hâte en mêlée et de $s2% votre vitesse de déplacement.\r\n\r\nLa vitesse de déplacement octroyée par ce talent se cumule avec |cffffffffMarche lunaire|r.	lot talents_017
+sort	704798		Name	c38c53e8ed3c	Guerrière d'Elune	lot talents_017
+sort	704800		Description	3a08ca407759	Infliger des dégâts ou des soins périodiques a désormais $h% de chances de vous octroyer |cffffffffVitesse ardente|r.@s:503803:0@	lot talents_017
+sort	704800		Name	3eb7dc263ef5	Vitesse ardente	lot talents_017
+sort	704801		Description	ff8ad41cb5db	|cFF66DDFFPassif de niveau 20|r\r\nLes coups critiques directs des dépenses de |cffff7f7fBraise|r |cffffffffbrûlent|r désormais la cible, la |cffff4500consumant|r pour 30% supplémentaires des dégâts infligés pendant $680962d.	lot talents_017
+sort	704801		Name	6c00158c26cd	Roussi	lot talents_017
+sort	704804		Description	cdca66249b85	Augmente votre Intelligence et vos chances de coup critique de $s1%.	lot talents_017
+sort	704804		Name	a059f0d38a82	Pression critique	lot talents_017
+sort	704807		Description	57112f38acbf	Après avoir lancé |cffffffffPilier de flammes|r, tous les dégâts périodiques infligés vous donnent $707483h% de chances de lancer gratuitement |cffffffffPilier de flammes|r sur la cible pendant $707483d.@s:805496:0@	lot talents_017
+sort	704807		Name	e2cd1ff29d6e	Magmatique	lot talents_017
+sort	704807		ToolTip	355af87ee142	Augmente de ${$w1}% les dégâts infligés par |cffffffffInfernus|r.	lot talents_017
+sort	704809		Description	6087b681640e	Votre |cFFFFFFFFInvocation draconique|r confère désormais $s1 charges d'|cFFFFFFFFIncantation de flammes|r.\r\n\r\nDe plus, permet à |cFFFFFFFFIncantation de flammes|r de se cumuler $s1 fois de plus et augmente sa durée de $/1000;s3 sec.	lot talents_017
+sort	704809		Name	757d952d61e5	Invocation des flammes	lot talents_017
+sort	704812		Description	2557e16ded8d	Augmente de $s1% votre hâte des sorts et de $s2% les dégâts de |cffffffffTrait flamboyant|r.	lot talents_017
+sort	704812		Name	54ecfd9f5aa5	Attaques chronométrées	lot talents_017
+sort	704813		Description	1dac89bc7f4a	Votre |cffffffffEclat de lave|r propage désormais |cFFFFFFFFBrasier|r à $800834i ennemi supplémentaire au maximum situé à moins de $800834a1 mètres de la cible principale.	lot talents_017
+sort	704813		Name	aaaf6b3bc144	Flammes accablantes	lot talents_017
+sort	704814		Description	7d0b1917f158	Votre |cffffffffEcho de Nozdormu|r réduit désormais de $s1% supplémentaires le temps de recharge de |cffffffffBénédiction des Aspects|r.	lot talents_017
+sort	704814		Name	9c4898caca54	Puissance expéditive	lot talents_017
+sort	704814		ToolTip	5aed2380a7bf	Augmente de ${$w2}% l'efficacité de l'effet Écailles de dragon.	lot talents_017
+sort	704815		Description	a13e4e41be23	Les dégâts infligés par |cffffffffEclat de lave|r aux ennemis affectés par |cFFFFFFFFBrasier|r soufflent désormais les ennemis proches pour $s1% des dégâts infligés, sous forme de dégâts de Feu.	lot talents_017
+sort	704815		Name	d16ee082d003	Héritage du Destructeur	lot talents_017
+sort	705169		Name	c80a1bb65ccc	Inlassable	lot talents_017
+sort	705268		Name	4b6039c9aba3	Prière finale	lot talents_017
+sort	706131		ToolTip	a8809d5b24f0	Hâte augmentée de ${$w1}%.	lot talents_017
+sort	706229		Name	c947efc4f6c5	Barbare stellaire	lot talents_017
+sort	706229		ToolTip	a8809d5b24f0	Hâte augmentée de ${$w1}%.	lot talents_017
 sort	706408		Description	650bb9c80ef7	Renforce le moral des membres du groupe et du raid, ce qui augmente leur puissance d'attaque ou leur puissance des sorts de $s1 pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_017
 sort	706408		Name	89362855f29c	Chant d'acier	lot talents_017
 sort	706408		ToolTip	8d1ecf6a9704	Puissance d'attaque ou puissance des sorts augmentée de ${$m1+$ppl1}.	lot talents_017
@@ -116,12 +307,36 @@ sort	706414		Description	650bb9c80ef7	Renforce le moral des membres du groupe et
 sort	706414		Name	89362855f29c	Chant d'acier	lot talents_017
 sort	706414		ToolTip	8d1ecf6a9704	Puissance d'attaque ou puissance des sorts augmentée de ${$m1+$ppl1}.	lot talents_017
 sort	706464		Name	5e6f5d283a7a	Douce chaleur	lot talents_017
+sort	706572		Name	0218cc3c2933	Conseil de Tyrande	lot talents_017
+sort	706785		ToolTip	a8809d5b24f0	Hâte augmentée de ${$w1}%.	lot talents_017
+sort	707554		Description	adf46f85342a	Augmente de $s1% les soins de |cFFFFFFFFMain d'Elune|r, |cFFFFFFFFFlux lunaire|r et |cFFFFFFFFFlot d'argent|r.	lot talents_017
+sort	707554		Name	38c58c76cddc	Enseignements d'Elune	lot talents_017
+sort	707636		ToolTip	7b19061876b9	|cffffffffLame astrale|r augmente désormais de $805563s2% les dégâts des 3 prochaines |cffffffffFractures stellaires|r contre votre cible.	lot talents_017
 sort	707771		Name	51b06f564145	Angélique	lot talents_017
+sort	707789		Description	cdca66249b85	Augmente votre Intelligence et vos chances de coup critique de $s1%.	lot talents_017
+sort	707789		Name	a059f0d38a82	Pression critique	lot talents_017
+sort	707803		Description	2557e16ded8d	Augmente de $s1% votre hâte des sorts et de $s2% les dégâts de |cffffffffTrait flamboyant|r.	lot talents_017
+sort	707803		Name	54ecfd9f5aa5	Attaques chronométrées	lot talents_017
 sort	707818		Description	a0e7e3d1cec4	Tant qu'une hache est équipée, vos chances de coup critique sont augmentées de $s1% et vos dégâts critiques de $s2%.	lot talents_017
 sort	707818		Name	ab4770ad0bf6	Entraînement à la hache	lot talents_017
 sort	707856		Name	82a62778794a	Maître brasseur	lot talents_017
+sort	707865		Description	bb054dd97243	Augmente de $s1% les dégâts d'Ombre que vous infligez et de $s2% vos chances de toucher.	lot talents_017
+sort	707865		Name	69052978881f	Perfidie d'Atherann	lot talents_017
+sort	707866		Description	c0eed1c2e130	Donne à votre |cFFFFFFFFPlaie de sang|r $s1% de chances de fournir ses bienfaits sans être consommée.	lot talents_017
+sort	707866		Name	1d461f453382	Seigneur de sang	lot talents_017
+sort	707893		Description	c489c0b62c9e	Augmente de $s1% les soins de |cFFFFFFFFToucher du clair de lune|r et réduit de $s2% le retard d'incantation subi lors d'attaques qui infligent des dégâts.	lot talents_017
+sort	707893		Name	32ed1c671ff4	Eau enchantée	lot talents_017
+sort	707894		Description	36780d3e2efb	Augmente de $s2% les dégâts d'|cffffffffEnchaînement céleste|r et lui permet d'affecter $s1 ennemis supplémentaires.	lot talents_017
+sort	707894		Name	6d31db11ade1	Explosion de pulsar	lot talents_017
+sort	707894		ToolTip	29147920930e	Permet à |cffffffffVengeance d'Élune|r d'affecter ${$w1} ennemis supplémentaires et augmente ses dégâts de ${$w2}%.	lot talents_017
+sort	707899		ToolTip	a8809d5b24f0	Hâte augmentée de ${$w1}%.	lot talents_017
+sort	707907		ToolTip	4f73bee66575	Réduit le temps de recharge de Tempête du chaos de $/1000;s1 sec.	lot talents_017
 sort	712471		ToolTip	f48e53b332eb	Dégâts subis réduits de ${$w1}%. 	lot talents_017
 sort	712474		Description	a0e7e3d1cec4	Tant qu'une hache est équipée, vos chances de coup critique sont augmentées de $s1% et vos dégâts critiques de $s2%.	lot talents_017
 sort	712474		Name	ab4770ad0bf6	Entraînement à la hache	lot talents_017
+sort	801146		Name	5958e4fbf341	Chasseur de la nuit	lot talents_017
+sort	803797		Name	140c7d147d67	Bénédiction de Ner'zhul	lot talents_017
+sort	803850		Description	1afeb394652f	Augmente vos dégâts de Givre de $s2% et votre Puissance runique maximale de $/10;s1.	lot talents_017
+sort	803850		Name	543a359c3241	Réservoir runique	lot talents_017
 sort	807690		Name	e76098b2823d	Fin des temps	lot talents_017
 sort	807966		Name	7064970269ab	Maître bâtisseur	lot talents_017

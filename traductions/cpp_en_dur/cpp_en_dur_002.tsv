@@ -1,0 +1,171 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1403	PSendSysMessage	96f4417c8fce	Tempête de mana : le segment {} a été activé dans la base SQL, mais la validation du datastore l'a rejeté. Consultez les journaux du worldserver.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1447	PSendSysMessage	be8865ed4088	Tempête de mana : le segment {} n'est pas activé ou n'est pas valide. Utilisez `.manastorm segment enable {} 1` et consultez le journal du worldserver si la validation le rejette.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1473	PSendSysMessage	51e3e29e82b0	Tempête de mana : échec du test de segment exact : {}	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1526	PSendSysMessage	35dc75af7364	Tempête de mana : la carte d'exécution {} n'existe pas.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1534	PSendSysMessage	6847b780d7d8	Tempête de mana : la carte de champ de bataille ou d'arène {} ne peut pas servir de carte d'étape d'exécution.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1589	PSendSysMessage	cab5c8c24b5c	Tempête de mana : l'entrée de créature d'objectif d'exécution {} n'existe pas dans creature_template.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1708	PSendSysMessage	7d15f02c3011	Segment de la Tempête de mana {} :	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1756	PSendSysMessage	d640a607c9d1	Tempête de mana : datastore rechargé. segments={} scalingPoints={} activeRuns={}. Les exécutions en cours conservent leurs instantanés d'étape et de mise à l'échelle.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1797	SendSysMessage	c76730756a70	Tempête de mana : rencontre avec le Démon cupide forcée.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormCommands.cpp	1836	PSendSysMessage	3574b6c89e4b	Tempête de mana : affixe {} forcé sur l'étape en cours.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormGreedyDemon.cpp	954	SendSystemMessage	a88fe6f3c409	Le butin du Démon cupide n'est pas disponible pour le moment.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormGreedyDemon.cpp	965	SendSystemMessage	63e654826fa4	Ce butin du Démon cupide appartient à une exécution de la Tempête de mana.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormGreedyDemon.cpp	1000	SendSystemMessage	a605bcea5366	Ce butin du Démon cupide ne fait pas partie de votre étape actuelle de la Tempête de mana.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormGreedyDemon.cpp	1016	SendSystemMessage	cbb43c1b53d0	Le butin du Démon cupide n'a pas pu déterminer d'objet en récompense.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormGreedyDemon.cpp	1025	SendSystemMessage	8d04609964df	Faites de la place dans vos sacs avant d'ouvrir le butin du Démon cupide.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormGreedyDemon.cpp	1071	SendSystemMessage	ada6ea8bf9fc	Butin du Démon cupide récupéré.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	4384	SendSystemMessage	9b6e5b4efd2a	Tempête de mana : l'exécution a échoué, mais votre expulsion de la Tempête de mana échouée n'a pas abouti.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	4549	SendSystemMessage	d01adce8b644	Tempête de mana : votre exécution est terminée. Quittez la Tempête de mana ou libérez votre esprit pour revenir.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	4610	SendSystemMessage	2df0657d6bcf	Tempête de mana : je n'ai pas pu placer l'un de vos outils de la Tempête de mana dans vos sacs. Vérifiez que vous avez de la place dans votre inventaire.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	6195	SendSystemMessage	76452f27c378	Tempête de mana : étape ACTIVE. Transport vers l'instance réussi.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	6397	SendSystemMessage	caf0a74d6da7	Tempête de mana : niveau des créatures de l'étape active mis à jour.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	8759	SendSystemMessage	23151496046e	Tempête de mana : objectif accompli. Utilisez le portail pour continuer maintenant, ou la profondeur suivante commencera automatiquement dans 5 secondes.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	9328	SendSystemMessage	56e8d3ac9470	Tempête de mana : étape suivante préparée. Les autres membres ont jusqu'au repli de cinq secondes pour traverser.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormMgr.cpp	9865	SendSystemMessage	2af3abb8ba7a	Tempête de mana : l'exécution est terminée, mais votre retour à votre position précédente a échoué.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-manastorm-endless/src/ManastormRewards.cpp	2050	SendSystemMessage	e5ff1226aaf4	Caches de fin de jeu ordinaires de la Tempête de mana : {}/{} obtenues cette semaine ; {} restantes. Réinitialisation : {} (heure du serveur). Les caches bonus sont exemptées.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-portablemail/src/portablemail.cpp	244	SendSysMessage	82d8077ba056	Gadgets portables - objet -> sort (durée de vie) -> objet du monde :	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-spellbook/src/spellbook.cpp	796	AddGossipItemFor	2eb05bd437a8	Apprendre tout ce que je peux apprendre.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-spellbook/src/spellbook.cpp	814	PSendSysMessage	4e4c1c062316	Le livre vous a enseigné {} aptitude(s) ou rang(s).	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-spellbook/src/spellbook.cpp	820	SendSysMessage	7065e193b4b7	Vous connaissez déjà tout ce que ce livre peut vous enseigner.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-teleport-actionbar/src/TeleportActionBar.cpp	276	PSendSysMessage	403ed1db59e6	Pierre de retraite : {} est une pierre {} - votre personnage {} ne peut pas l'utiliser.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-teleport-actionbar/src/TeleportActionBar.cpp	594	PSendSysMessage	249c46a1db10	Jetons de téléportation : {} bouton(s) placé(s).	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-teleport-actionbar/src/TeleportActionBar.cpp	606	SendSysMessage	3177f76f3967	Les données des jetons de téléportation ne sont pas chargées.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-teleport-actionbar/src/TeleportActionBar.cpp	615	PSendSysMessage	e45f595e1731	Jetons de téléportation : {} sort(s) appris, {} bouton(s) placé(s).	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-teleport-actionbar/src/TeleportActionBar.cpp	630	SendSysMessage	3177f76f3967	Les données des jetons de téléportation ne sont pas chargées.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-war-games/src/WarGames.cpp	219	AddGossipItemFor	80a149db679e	Accepter le défi :  - 	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-war-games/src/WarGames.cpp	221	AddGossipItemFor	dab5ce361e29	Refuser le défi.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-war-games/src/WarGames.cpp	247	AddGossipItemFor	85457cdd059b	Parlez-moi des Wargames.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-war-games/src/WarGames.cpp	256	AddGossipItemFor	e522a95965e9	Annuler mon défi en attente.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-war-games/src/WarGames.cpp	271	AddGossipItemFor	a41cb0351849	Choisir une arène.	lot cpp_en_dur_002
+cpp_en_dur	modules/mod-worldforged-upgrades/src/WorldforgedGuardian.cpp	167	SendSysMessage	af82c0dab85d	Votre compte doit posséder un personnage de niveau 60 ou un personnage déjà prestigieux sur ce royaume pour acheter des héritages.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionArenaQueue.cpp	178	SendSysMessage	fcfa38f28358	Quittez votre équipe d'arène dans cette catégorie pour utiliser la file solo classée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionArenaQueue.cpp	186	PSendSysMessage	d65c558a1b25	Le nom d'équipe d'arène {} est déjà pris.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionArenaQueue.cpp	230	SendSysMessage	a52ed08dbb43	Les arènes classées sont fermées jusqu'au début de la prochaine saison.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionArenaQueue.cpp	400	SendSysMessage	a52ed08dbb43	Les arènes classées sont fermées jusqu'au début de la prochaine saison.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionArenaQueue.cpp	1103	PSendSysMessage	60d86c2594a5	Vous avez reçu {} points d'arène. Points actuels : ({}) Plafond : ({}/{})	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionBazaarTokenReserve.cpp	144	PSendSysMessage	822f770a8eb2	{} de vos jetons du Bazar proviennent du Coffre d'élite et sont liés au royaume : dépensez-les ou envoyez-les à vos propres personnages. Seuls les jetons au-delà de ce montant peuvent être donnés à d'autres joueurs.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionBloodforging.cpp	113	SendSysMessage	4eb044f31478	Cet objet ne peut pas être forgé par le sang. Déséquipez-le et vérifiez qu'une version forgée par le sang correspondante existe.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionBloodforging.cpp	130	SendSysMessage	6bdf4d079c30	Aucune version forgée par le sang compatible n'a été trouvée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionBloodforging.cpp	143	SendSysMessage	635f2c15e895	Votre objet a été forgé par le sang.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionBloodforging.cpp	211	SendSysMessage	d032bc8ce8fd	La confirmation de forge par le sang a expiré ou l'objet n'est plus disponible. Sélectionnez à nouveau l'objet.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCainManor.cpp	56	SendNotification	79c782169bc5	La porte est verrouillée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCallboardCache.cpp	287	SendSysMessage	d67ca4840f08	La cache ne contient rien que ce personnage puisse utiliser.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	1039	PSendSysMessage	714e830b1cdb	{} aptitudes de classe Ascension restaurées.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	1544	PSendSysMessage	d6b636b5075d	{} objets de départ de classe personnalisée restaurés.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	2789	PSendSysMessage	5b22df29057d	Spécialisation {} activée. Build de la spécialisation {} enregistré, {} ancien(s) sort(s) de talent retiré(s), {} rang(s) enregistré(s) restauré(s) et {} sort(s) d'aptitude/passif automatique(s) accordé(s).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	3683	PSendSysMessage	f46b144d43e2	État des ressources Ascension pour la classe {} :	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	3688	PSendSysMessage	4411ff067434	Puissance runique : {}/{}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	3729	SendSysMessage	a0a9fc5a21fa	Cette classe n'a pas de widget de ressource Ascension distinct.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	6082	SendSysMessage	b337d4738fc4	Les données de collection Ascension sont indisponibles ; la transmogrification et les objets de vanité sont désactivés.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	6815	PSendSysMessage	b10cd53a4d5e	L'objet de vanité {} n'existe pas dans cette version du client.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	6823	SendSysMessage	5541e1b08b41	Les autels d'enchantement mystique ne sont pas disponibles sur ce royaume.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	6847	SendSysMessage	f347a29724c4	Ce compagnon sigil n'est pas débloqué sur ce compte.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	6887	PSendSysMessage	f6eb40733aa0	Sort de vanité {} appris car l'objet {} n'a pas de modèle sur le serveur local.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	6894	PSendSysMessage	d0888c8ca0f7	L'objet de vanité {} existe dans le client Ascension mais n'a pas encore de modèle d'objet AzerothCore.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7294	PSendSysMessage	58a8568ff271	Les {} apparences locales de la garde-robe ont toutes été débloquées.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7797	SendSysMessage	5a4b5cbfaa82	Cet objet n'est pas vendu sur ce royaume.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7804	SendSysMessage	8bfee3292965	Cet objet ne peut pas être acheté avec des jetons du Bazar.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7819	SendSysMessage	f379c5c6b829	Vous possédez déjà cet objet.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7825	SendSysMessage	ad889cfdfb2f	Vous n'avez pas assez de jetons du Bazar.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7844	PSendSysMessage	d562d62da64e	L'objet de vanité {} n'a pas encore de modèle d'objet AzerothCore.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	7850	SendSysMessage	ad889cfdfb2f	Vous n'avez pas assez de jetons du Bazar.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8881	SendSysMessage	2a638717b046	Ce joueur doit être en ligne pour cette commande.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8888	PSendSysMessage	9ca345d9810d	Impossible d'accorder la collection de vanité à {} : l'état de sa collection Ascension n'est pas chargé (bot, ou échec du chargement des données).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8896	PSendSysMessage	7e173dcde7d7	Collection de vanité Ascension complète accordée à {}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8901	SendSysMessage	d99546c1a6e4	Vous avez reçu la collection de vanité Ascension complète.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8913	SendSysMessage	2a638717b046	Ce joueur doit être en ligne pour cette commande.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8920	PSendSysMessage	b559347e000a	Impossible d'accorder la collection de transmogrification à {} : l'état de sa collection Ascension n'est pas chargé (bot, ou échec du chargement des données).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8928	PSendSysMessage	528a5e5a198a	Collection de transmogrification Ascension complète accordée à {}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8933	SendSysMessage	2fca7bda5a7a	Vous avez reçu la collection de transmogrification Ascension complète.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8946	SendSysMessage	2a638717b046	Ce joueur doit être en ligne pour cette commande.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8953	PSendSysMessage	78e8cd06be23	Impossible d'accorder les objets de vanité de l'Autel mystique à {} : l'état de sa collection Ascension n'est pas chargé (bot, ou échec du chargement des données).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8961	PSendSysMessage	2c1451b55a63	Objets de vanité de l'Autel mystique accordés à {} (possession à l'échelle du compte ; ce royaume ne propose peut-être pas d'autels pour les utiliser).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8967	SendSysMessage	109b355782e3	Vous avez reçu les objets de vanité de l'Autel mystique.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8985	PSendSysMessage	537752658ebc	point {:.2f} {:.2f} (à 2 mètres, {:.2f} rad devant)	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8988	PSendSysMessage	e6611b7e5539	  sonde depuis {:.2f} : terrain {:.2f} | terrain+vmap {:.2f}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	8993	PSendSysMessage	96e238f938ea	  l'invocation toucherait le sol à {:.2f} (élévation {:.2f})	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9025	SendSysMessage	aa62c342d692	Indiquez une heure de 0 à 23 et une minute facultative de 0 à 59, ou aucun argument pour suivre à nouveau l'horloge du serveur.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9039	PSendSysMessage	d53beff7e0c9	L'horloge de votre client indique maintenant {:02} : {:02}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9053	SendSysMessage	42c21cfe82f9	Votre kit de départ de classe personnalisée est complet.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9070	SendSysMessage	dcf7402ff5c7	Toutes les réserves de charges de sort ont été réinitialisées au maximum.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9082	SendSysMessage	fce20b8c639f	État des charges de sort renvoyé au client.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9088	PSendSysMessage	2334f99969b3	%u préréglages d'apparence de créature rechargés dans le cache.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9117	PSendSysMessage	f1eed3009a86	Aucun préréglage d'apparence de créature trouvé pour l'entrée %u.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9184	PSendSysMessage	e440bad65ac7	Préréglage d'apparence de créature retiré.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9311	SendSysMessage	1b52b96a77d2	Cet emplacement de spécialisation est déjà débloqué.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	9322	SendSysMessage	1b52b96a77d2	Cet emplacement de spécialisation est déjà débloqué.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	10265	PSendSysMessage	7884a07c0291	Vous devez apprendre {} avant que le parchemin puisse l'améliorer.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	10279	PSendSysMessage	cc663bbe83af	Votre {} est déjà à son maximum de {}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	10285	PSendSysMessage	d0ab57a7ae94	{} passe à {}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	10732	AddGossipItemFor	5bd1cdc3823d	Restaurer mes aptitudes de classe disponibles.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	10748	SendSysMessage	7e90d80f57d3	Vos aptitudes de classe disponibles sont déjà à jour.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCompat.cpp	10791	SendSysMessage	838b8f894f16	Cet objet ne peut être utilisé que sur les personnages secondaires qui ne sont pas de plus haut niveau sur votre compte.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	330	PSendSysMessage	aa3eb7b7c348	Cache du Corbeau réclamée. Portez-la jusqu'à {} pour l'ouvrir.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	367	SendSysMessage	f5ec4deecb2a	Vous devez être de niveau 60, en mode à haut risque et hors combat à Gadgetzan, au Fort cénarien ou à Cabestan pour ouvrir une Cache du Corbeau réclamée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	427	SendSysMessage	32d16f0d8ddf	Cache du Corbeau ouverte : cinq objets de raid héroïques forgés par le sang de plus haut niveau et des matériaux à haut risque.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	649	SendSysMessage	89e48f8556d7	Seuls les joueurs à haut risque de niveau 60 en vie peuvent réclamer la Cache du Corbeau.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	760	SendSysMessage	52df11286863	Ouvrez votre Cache du Corbeau avant d'utiliser la banque.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	794	SendSysMessage	ba8ca22a3e5c	La Cache du Corbeau est désactivée ou n'a pas de réserve de récompenses valide.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	798	SendSysMessage	63ffa6ecc4a7	Alerte de la Cache du Corbeau lancée. Utilisez .crows visit pour la rejoindre.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	807	SendSysMessage	efc42cba1c98	Alerte de la Cache du Corbeau de Silithus lancée. Utilisez .crows visit pour la rejoindre.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	816	SendSysMessage	63ffa6ecc4a7	Alerte de la Cache du Corbeau lancée. Utilisez .crows visit pour la rejoindre.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	825	SendSysMessage	63ffa6ecc4a7	Alerte de la Cache du Corbeau lancée. Utilisez .crows visit pour la rejoindre.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	837	SendSysMessage	fa857310bea2	Alerte de la Cache du Corbeau lancée à votre position actuelle.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	859	SendSysMessage	4c6992e1afdb	La prochaine apparition automatique de la Cache du Corbeau a été programmée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	879	SendSysMessage	2ef5a5464e5f	Événements de test de Cache du Corbeau non réclamée annulés. Les caches portées et déposées sont conservées.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	885	PSendSysMessage	a9cb83feff4f	Cache du Corbeau : activée={}, réserve de raid={}, événements actifs={}, prochain coffre automatique dans {} secondes.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionCrowsCache.cpp	888	PSendSysMessage	50452a52e141	Événement {} : phase={}, porteur={}, carte={}, position=({}, {}, {}).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionExperimentalTeleporter.cpp	109	AddGossipItemFor	1ae7f81e4321	Se téléporter à ?	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionExperimentalTeleporter.cpp	129	SendNotification	234fb44b741a	Le téléporteur est encore en cours de recharge.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionFeatherOfAncients.cpp	51	SendNotification	95ea2f2e0d17	Vous connaissez déjà tous les points de vol d'Azeroth.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionFelCommutation.cpp	853	SendSysMessage	0b33f7eb5e6d	Objet {} mis en sécurité pour {}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionFireLordCache.cpp	98	SendSysMessage	2dbd5d29f37e	La cache ne contient rien pour cette difficulté de raid.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionHighRisk.cpp	233	SendSysMessage	7e090679d64a	Vous devez être en vie, en mode à haut risque et près du coffre pour en récupérer le contenu.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionHighRisk.cpp	335	SendSysMessage	8526675012da	Vous ne pouvez pas porter plus d'or.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionHighRisk.cpp	433	SendSysMessage	77df9c62b874	Aucun coffre à haut risque n'a été créé : vous n'avez ni objet éligible ni argent à perdre.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionHighRisk.cpp	480	SendSysMessage	43c5be127438	Vos pertes à haut risque se trouvent dans un coffre à l'endroit de votre mort. Tout joueur à haut risque peut les récupérer.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionKeepersScrollZoneBuff.cpp	258	PSendSysMessage	51f875a824ab	{} est déjà actif dans cette zone.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	508	SendSysMessage	0f6963b8eecd	La Tempête de mana n'a pas pu enregistrer cette réussite. Aucune récompense n'a été accordée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	576	SendSysMessage	e00877cd4cdc	La Tempête de mana n'est pas disponible sur ce serveur.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	590	PSendSysMessage	fbdca12e7b7a	Tempête de mana : profondeur {}, terminées {}, charges de résurrection {}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	634	SendSysMessage	97e55245b39e	Tempête de mana : quittez la bulle de sécurité pour commencer. Vainquez le boss ; les gardes proches renforcent le Lien chaotique.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	801	SendSysMessage	5094eda5bc72	Gardien des trésors vaincu : deux caches supplémentaires obtenues.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	892	AddGossipItemFor	3be690d2cf9e	Continuer la Tempête de mana	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	893	AddGossipItemFor	ba0839f1aa56	Récupérer les récompenses dans la boîte aux lettres	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	894	AddGossipItemFor	f46c94011f63	Potions et améliorations de la Tempête de mana	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	895	AddGossipItemFor	f82c58a85805	Réparer l'équipement et vendre des objets	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	896	AddGossipItemFor	ac716a95eddc	Remplacer les potions de départ manquantes	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	898	AddGossipItemFor	1ee23d146c2e	Quitter la Tempête de mana	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	951	SendSysMessage	2e94a8e2a60b	Vous n'avez pas assez de monnaie de la Tempête de mana.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	1111	SendSysMessage	7163d9a7fe2d	Votre cache de la Tempête de mana est enregistrée. Libérez de la place dans vos sacs et elle sera livrée automatiquement.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	1240	SendSysMessage	cbadd6142669	Faites de la place dans vos sacs, puis demandez à Cogsley de remplacer vos potions de départ manquantes.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	1349	SendSysMessage	568b659713b6	Rassemblez votre groupe à moins de 100 mètres avant d'entrer.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	1431	SendSysMessage	741698d95aa2	Attendez chaque membre du groupe avant de continuer.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	1436	SendSysMessage	c4b6ab19689f	Niveau maximum atteint ! Vos récompenses sont enregistrées. Entrez à nouveau pour commencer la Tempête de mana de fin de jeu.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionMysticEnchant.cpp	1117	SendSysMessage	05fe1be9ba11	Les Enchantements mystiques ne sont pas disponibles sur ce royaume.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPersonalBank.cpp	262	SendSysMessage	c34694eb8591	Les objets liés ne peuvent pas être stockés dans la banque du royaume.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPersonalBank.cpp	1246	PSendSysMessage	dff28feabdbb	Votre {} possède déjà tous les onglets.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPersonalBank.cpp	1251	PSendSysMessage	8841ed0ac1fa	Un nouvel onglet a été débloqué dans votre {}.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPrestigiousCache.cpp	278	SendSysMessage	700f7a138070	Aucune Cache prestigieuse n'est encore disponible.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPrestigiousCache.cpp	298	SendSysMessage	8343b5f426a0	Cette Cache prestigieuse n'a aucune récompense configurée.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPrestigiousCache.cpp	306	SendSysMessage	2f42630b1fc1	Niveau maximum requis pour l'ouvrir.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPrestigiousCache.cpp	313	SendSysMessage	dca42353f482	Cette Cache prestigieuse n'est pas encore disponible.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionPrestigiousCache.cpp	320	SendSysMessage	d67ca4840f08	La cache ne contient rien que ce personnage puisse utiliser.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionStormwindKeepDoor.cpp	31	SendNotification	4b4aa531ac17	La porte ne bouge pas d'un pouce.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionWildcard.cpp	2484	AddGossipItemFor	95f82b1ba2f2	Montrez-moi votre butin, matelot.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/AscensionWisdomball.cpp	407	AddGossipItemFor	a9859fc01e85	Plus de quêtes...	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoAGameObjectScale.cpp	166	PSendSysMessage	6dd4230e7369	L'apparition d'objet {} a maintenant l'échelle {} ; {} copies chargées ont été réapparues.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoALfgStartPoint.cpp	36	PSendSysMessage	2f159d62717a	Merci ! Votre point de départ pour {} a été enregistré comme suggestion.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoALfgStartPoint.cpp	55	PSendSysMessage	8fd552b1c526	Recherche de donjon : {} commence désormais ici ({} difficultés).	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoAPlayerTicket.cpp	492	SendSysMessage	7a9b7823a1b4	Aucun ticket de joueur.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoAPlayerTicket.cpp	509	PSendSysMessage	e61bbc5ae3b2	De {} (compte {}), concerne {}, priorité {}, catégorie {}{}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	183	SendWorldText	841f3f239bf5	{}{} est maintenant une zone de test : {}. Aidez-nous à trouver des bogues et faites-nous part de vos retours !{}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	230	SendWorldText	6caf815f2ef0	{}{} n'est plus une zone de test. Merci d'avoir testé !	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	373	SendSysMessage	cffadaea195a	Aucune zone de test : toutes les zones donnent les récompenses normales.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	378	PSendSysMessage	a86122fea0d3	{} {} : expérience {}%, runes {}%, jetons du Bazar {}%, {}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	439	PSendSysMessage	751f16ad3aca	{} {} donne de nouveau les récompenses normales.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	475	PSendSysMessage	46f913033916	{} {} est une zone de test : expérience {}%, runes {}%, jetons du Bazar {}%, {}	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/CoATestZoneBonus.cpp	483	PSendSysMessage	212225ee2de0	{} zones de test rechargées.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/XPHotspots.cpp	1384	SendSysMessage	19b0671edbb4	Les points chauds d'XP sont désactivés ou l'autorisation de maître de jeu est requise.	lot cpp_en_dur_002
+cpp_en_dur	src/server/coa/XPHotspots.cpp	1394	SendSysMessage	4896ddcbf151	Commande de point chaud invalide.	lot cpp_en_dur_002

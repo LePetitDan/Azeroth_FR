@@ -177,16 +177,151 @@ sort	705026		Description	2395cd552288	Réduit le temps d'incantation de vos tech
 sort	705026		Name	d49d3a8c6338	Campeur	lot talents_018
 sort	705028		Description	6b0cbb5b6bd6	Les dégâts infligés par |cffffffffTir de précision|r augmentent désormais les dégâts physiques subis par l'ennemi de $800578s1% pendant $800578d.	lot talents_018
 sort	705028		Name	d1d9197c4981	Tir véloce	lot talents_018 ; « Tir rapide » est le nom officiel de Rapid Fire ; évité
+sort	705031		Description	47a29d05be52	Augmente la hâte en mêlée et à distance de tous les membres du groupe et du raid de $s1%. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente vos chances de coup critique de $s2%.	lot talents_018
 sort	705031		Name	462da79aeb9c	Pas redoublé	lot talents_018
+sort	705032		Description	84e037b48abe	Augmente vos chances de coup critique de $s1% et vos chances de toucher de $s2%.	lot talents_018
+sort	705032		Name	98558a876b8d	Tirs dévastateurs	lot talents_018
+sort	705032		ToolTip	3e61dd564cd7	Augmente les chances de coup critique et les dégâts critiques de |cffffffffPerce-crâne|r et de |cffffffffTir de précision|r de ${$w2}%.	lot talents_018
+sort	705033		Description	45ddb9f2a898	Les coups critiques de |cFFFFFFFFPerce-crâne|r et de |cFFFFFFFFTir de précision|r font saigner l'ennemi pour 15% supplémentaires des dégâts infligés, puis pour 35% supplémentaires en $782754d.	lot talents_018
+sort	705033		Name	f937853b1d46	Transpercé	lot talents_018
+sort	705034		Description	29f95cd104bc	Tant que vous êtes sous l'effet de |cffffffffDérobade|r, vos chances de coup critique sont augmentées de $s1%.	lot talents_018
+sort	705034		Name	65650062041c	Traqueur des bois	lot talents_018
+sort	705039		Description	5607c4b8dd84	Augmente votre Focalisation maximale de $s1.	lot talents_018
+sort	705039		Name	8128bf093b0f	Entraînement à l'endurance	lot talents_018
+sort	705044		Description	c74926ad2e87	Augmente de $s1% les chances de coup critique de |cFFFFFFFFAttaque de flanc|r et augmente de $s2% vos chances de résister aux effets d'enracinement.	lot talents_018
+sort	705044		Name	6e676560343b	Combattant déloyal	lot talents_018
+sort	705047		Description	84ef3de34d40	|cFF66DDFFPassif de niveau 20|r\r\nVos attaques automatiques ont désormais $h% de chances de révéler une faille dans les défenses de l'ennemi, ce qui fait que les dégâts de votre prochaine aptitude physique ignorent l'armure.\r\n\r\nChances augmentées de 15% si vous maniez une arme d'hast.\r\n\r\nDe plus, augmente vos chances de toucher de $s2%.	lot talents_018
+sort	705047		Name	174dbe67d9b3	Passage à tabac	lot talents_018
+sort	705050		Description	67c890e55bb5	Augmente de $s1% vos dégâts contre les cibles qui saignent ou qui sont |cff00ff00empoisonnées|r.	lot talents_018
+sort	705050		Name	0728fcd24467	Dentelures	lot talents_018
+sort	705050		ToolTip	02d4b9d14f60	Les coups critiques directs font saigner la cible pour ${$705051m1+$705051ppl1+$AP*0.111} points de dégâts physiques toutes les $705051t1 sec pendant $705051d.	lot talents_018
+sort	705053		Description	94b7b1274d24	Augmente de $s1% les dégâts de base de |cffffffffPerce-crâne|r et d'|cffffffffAttaque de flanc|r, plus $707887s1% supplémentaires si vous avez une arme d'hast équipée.	lot talents_018
+sort	705053		Name	476e4be64a2a	Embuscade	lot talents_018
+sort	705054		Description	17cb22a2f4e5	Augmente de $s2% les dégâts infligés par vos |cFFFFFFFFCarquois ardent|r et |cFFFFFFFFCarquois empoisonné|r.\r\n\r\nDe plus, infliger des dégâts avec |cFFFFFFFFCarquois ardent|r ou |cffffffffCarquois empoisonné|r vous confère désormais une charge d'|cFFFFFFFFEnchantements elfiques|r.@s:560698:0@	lot talents_018
+sort	705054		Name	7a164380df79	Enchantements elfiques	lot talents_018
+sort	705055		Description	5eca9a78e18c	Augmente de $s1% la fréquence des impulsions de vos effets de dégâts périodiques.	lot talents_018
+sort	705055		Name	16934e9e38ff	Blessures mortelles	lot talents_018
+sort	705055		ToolTip	aaaf27cf7f8f	Augmente de ${$w1}% la fréquence des impulsions de vos effets de dégâts périodiques.	lot talents_018
+sort	705061		Description	80539e680be7	Augmente de $s1% la part de puissance d'attaque de |cffffffffPerce-crâne|r et de |cffffffffTir dentelé|r.	lot talents_018
+sort	705061		Name	ce054f0fddac	Sournoiserie	lot talents_018
+sort	705061		ToolTip	717141c23103	Fait en sorte que l'effet |cffffffffRoughed Up|r d'|cffffffffAdaptation: Bandit|r augmente de ${$w1}% les dégâts que la cible subit de |cffffffffBrigand Strike|r et de |cffffffffDuelist Strike|r.	lot talents_018
+sort	705067		Description	2a35682b2913	Réduit de $/1000;s1 sec le temps de recharge de |cFFFFFFFFAppel de l'épervier|r.	lot talents_018
+sort	705067		Name	b371f2bc595d	Fauconnier de guerre	lot talents_018
+sort	705068		Description	1ef8cbb94268	Supprime le coût en Focalisation d'|cffffffffAppel de l'épervier|r, lui permet de frapper $s3 cibles supplémentaires et augmente sa portée de $s2 mètres.	lot talents_018
+sort	705068		Name	e9d30efb1d50	Assaut aérien	lot talents_018
+sort	705068		ToolTip	732ffece0055	Réduit de ${$w1}% le temps de recharge d'|cFFFFFFFFAppel de l'épervier|r et de |cFFFFFFFFPiqué du faucon|r.	lot talents_018
+sort	705071		Description	d9cda4f1e750	Augmente de $s2% les chances de coup critique de |cffffffffFrappe du faucon|r et de |cffffffffFlèche d'émeraude|r.\r\n\r\nDe plus, les coups critiques de |cffffffffFrappe du faucon|r augmentent désormais de $705078s1% les dégâts des |cffffffffFrappes du faucon|r suivantes pendant $705078d, cumulable $705078u fois.	lot talents_018
+sort	705071		Name	8358f432b754	Plumes de guerre	lot talents_018
+sort	705072		Description	9be9b1c6cc63	Augmente de $s1% la fréquence des impulsions de |cffffffffDard toxique|r et de |cffffffffFlèches d'émeraude|r.	lot talents_018
+sort	705072		Name	724514e45090	Piquants rasoirs	lot talents_018
+sort	705072		ToolTip	0f258adb404e	Fait en sorte que les dégâts de |cffffffffFrappe du faucon|r réduisent de $/1000;705073s1 sec le temps de recharge de |cffffffffReposition|r.	lot talents_018
+sort	705074		Description	9adb690465ee	Vos |cffffffffPerce-crânes|r et |cffffffffFlèches sylvestres|r utilisés avec 5 charges d'|cff8fff7aAvantage|r rendent désormais $520784s3% de Focalisation et invoquent un |cffffffffFaucon de guerre|r pendant $520558d.	lot talents_018
+sort	705074		Name	7c0e7e65679c	Plumes de phénix	lot talents_018
+sort	705075		Description	bbc2e6520825	Les dégâts périodiques infligés ont désormais $h% de chances d'invoquer un |cffffffffFaucon de guerre|r qui vous aide au combat pendant $520588d.	lot talents_018
+sort	705075		Name	279cf29ff7eb	Aide du faucon	lot talents_018
+sort	705075		ToolTip	3a77949a0455	Les dégâts infligés par |cffffffffAttaque de flanc|r et |cffffffffFlèche sylvestre|r invoquent désormais un |cffffffffFaucon de guerre|r qui vous aide au combat pendant $520588d.	lot talents_018
+sort	705076		Description	a444f1b4c737	Augmente de $/1000;s1 sec la durée des |cffffffffFaucons de guerre|r.	lot talents_018
+sort	705076		Name	7015407e05f3	Charmeur de faucons	lot talents_018
+sort	705085		Description	3670f645bb67	|cFF66DDFFPassif de niveau 30|r\r\nChaque charge d'|cff8fff7aAvantage|r dépensée vous donne désormais 20% de chances de rembourser 1 charge d'|cff8fff7aAvantage|r.	lot talents_018
+sort	705085		Name	305963cf0748	Remuer le couteau dans la plaie	lot talents_018
+sort	705087		Description	d9ae6cf83047	Ajoute $s1% aux dégâts infligés par |cffffffffLames déloyales|r et fait que ces dégâts vous soignent à hauteur de $s2% de leur valeur.	lot talents_018
+sort	705087		Name	920ff69b0734	Chapardage	lot talents_018
+sort	705087		ToolTip	536fc75472e6	Augmente de ${$w1}% les chances de coup critique des dégâts supplémentaires que |cffffffffDuelist Strike|r inflige aux ennemis |cffffffffCounterstruck|r.	lot talents_018
+sort	705092		Description	a1d12b5babcc	Augmente votre Agilité et votre vitesse de déplacement de $s1%.	lot talents_018
+sort	705094		Name	5f7d45342d1b	Défense des anciens	lot talents_018
+sort	705098		Description	59e20ebff028	Réduit tous les dégâts subis de $680278s3% pour chaque |cffffffffFaucon de guerre|r ou |cffffffffDragonhawk|R actif.	lot talents_018
+sort	705098		Name	c3ba172a74d9	Ailier	lot talents_018
+sort	705098		ToolTip	59e20ebff028	Réduit tous les dégâts subis de $680278s3% pour chaque |cffffffffFaucon de guerre|r ou |cffffffffDragonhawk|R actif.	lot talents_018
+sort	705102		Name	c7f4f0ee9e37	Né du démon	lot talents_018
+sort	705105		Description	53667e1dd5b9	Augmente votre énergie maximale de $s1.	lot talents_018
+sort	705105		Name	e37d8c793373	Communion gangrenée	lot talents_018
+sort	705105		ToolTip	4dd13805594e	Augmente votre énergie maximale de ${$w1}.	lot talents_018
+sort	705108		Name	9efdc5304db0	Évasion démoniaque	lot talents_018
+sort	705122		Description	b4005ede994c	|cff32cd32Démon intérieur|r réduit désormais aussi de $500031s1% les dégâts que vous subissez.	lot talents_018
+sort	705122		Name	10add6849b1d	Rempart d'Azzinoth	lot talents_018
+sort	705123		Description	421985416d92	Réduit de $s1 le coût de |cFFFFFFFFDéchirure gangrenée|r et de |cffffffffBoule de feu gangrenée|r et augmente de $s2% les dégâts qu'elles infligent.	lot talents_018
+sort	705123		Name	36fac195d5bd	Esclavagiste de l'Outreterre	lot talents_018
+sort	705125		Description	de404cecbdd1	Réduit de $s1% le temps de recharge de |cffffffffBrûlure de mana|r et de |cffffffffRuse d'Illidan|r.	lot talents_018
+sort	705125		Name	defd7d6e5e7e	Fin du gardien	lot talents_018
+sort	705127		Description	e489b29105e2	Augmente de $s2% vos dégâts critiques contre les ennemis qui ont plus de 75% de leurs points de vie.	lot talents_018
+sort	705127		Name	7bc4b9e9d2f6	Tu triches, Gul'dan !	lot talents_018
+sort	705129		Description	fb27dd10c69b	Manifeste une barrière de haine pure qui absorbe ${$m1+0+$STA*1} points de dégâts, selon votre Endurance, pendant $d.\r\n\r\nTant que la barrière tient, vous subissez $s2% de dégâts physiques en moins.	lot talents_018
+sort	705129		Name	1977a058d64b	Barrière forgée par la haine	lot talents_018
+sort	705129		ToolTip	689583b7ce4f	Absorbe ${$w1} points de dégâts. Dégâts physiques subis réduits de $s2%.	lot talents_018
+sort	705131		Description	26564ea2de62	Augmente de $s1% les chances de coup critique de |cffffffffBoule de feu gangrenée|r, et ses dégâts réduisent désormais de $707360s1% les chances de toucher de l'ennemi pendant $707360d.	lot talents_018
+sort	705131		Name	93dc99786274	Torpeur gangrenée	lot talents_018
+sort	705135		Description	e1ba2dd8b6bd	Lancer |cFFFFFFFFRuée chaotique|r réduit désormais de $/1000;680318s1 sec le temps de recharge de |cFFFFFFFFCharge du sabot gangrené|r.	lot talents_018
+sort	705135		Name	14ef8a7f2eb2	Arpenteur des confins	lot talents_018
+sort	705137		Description	b5c24f5a693f	Votre |cffffffffAssaut d'Azzinoth|r a désormais $h% de chances de ne pas consommer de |cff32cd32Gangrefurie|r.	lot talents_018
+sort	705137		Name	bfe7781653bb	Batterie d'Azzinoth	lot talents_018
+sort	705141		Description	f9eec9ae15a6	Lancer $?s520853[|cffffffffGangretorpille|r][|cFFFFFFFFRuée chaotique|r] augmente désormais de $705142s1% vos dégâts physiques pendant $705142d.\r\n\r\nLancer |cFFFFFFFFCharge du sabot gangrené|r augmente de $705143s1% vos chances de coup critique pendant $705143d.	lot talents_018
+sort	705141		Name	5ee9b1ad2fdf	Rage du seigneur des abîmes	lot talents_018
+sort	705145		Description	b2b050f5f82d	Déclencher |cFFFFFFFFLames dansantes|r augmente désormais de $705146s1% les dégâts du prochain |cFFFFFFFFChâtiment de Sargeron|r pendant $705146d, cumulable $705146u fois.	lot talents_018
+sort	705145		Name	5209c161ae98	Champion du Néant	lot talents_018
+sort	705150		Description	9b3cb7ae58af	|cFF66DDFFPassif de niveau 50|r\r\nAugmente de $s1% vos dégâts critiques infligés.	lot talents_018
+sort	705150		Name	ca4fc72c2c7e	Enseignements man'ari	lot talents_018
+sort	705152		Description	edf29cae337a	Augmente de $s1% les dégâts de |cffffffffFracasse-tonneau|r et de $s2 mètres sa portée.	lot talents_018
+sort	705152		Name	5f7ac82f06cc	Virée à la taverne	lot talents_018
+sort	705152		ToolTip	03d94d135b37	Réduit de ${$w1}% le temps de recharge de |cffffffffFracasse-tonneau|r	lot talents_018
+sort	705153		Description	817f7f065cdf	Réduit le coût en énergie de vos sorts |cFFFFFFFFd'Esprit|r et augmente de $s1% la durée de vos |cffffffffCris|r.	lot talents_018
+sort	705153		Name	c30a42aaae5f	Esprit ancestral	lot talents_018
+sort	705153		ToolTip	c9c98d3423ea	Augmente de ${$w1}% les dégâts initiaux de |cffffffffFracasse-tonneau|r et de ${$w2}% ses chances de coup critique.	lot talents_018
+sort	705154		Description	817f7f065cdf	Réduit le coût en énergie de vos sorts |cFFFFFFFFd'Esprit|r et augmente de $s1% la durée de vos |cffffffffCris|r.	lot talents_018
+sort	705154		Name	c30a42aaae5f	Esprit ancestral	lot talents_018
+sort	705154		ToolTip	c9c98d3423ea	Augmente de ${$w1}% les dégâts initiaux de |cffffffffFracasse-tonneau|r et de ${$w2}% ses chances de coup critique.	lot talents_018
+sort	705156		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	705156		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	705156		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	705338		Description	53667e1dd5b9	Augmente votre énergie maximale de $s1.	lot talents_018
 sort	705453		Name	1453293e774c	Cavalier sombre	lot talents_018
 sort	705700		Name	a9a08603d539	Revigoration	lot talents_018
+sort	706401		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706401		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706401		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	706402		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706402		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706402		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	706403		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706403		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706403		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	706404		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706404		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706404		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	706405		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706405		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706405		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	706406		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706406		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706406		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
+sort	706407		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
+sort	706407		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
+sort	706407		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
 sort	706431		Description	08edd30918fa	Augmente toutes les caractéristiques principales de $s1%.	lot talents_018
+sort	707418		ToolTip	3a77949a0455	Les dégâts infligés par |cffffffffAttaque de flanc|r et |cffffffffFlèche sylvestre|r invoquent désormais un |cffffffffFaucon de guerre|r qui vous aide au combat pendant $520588d.	lot talents_018
 sort	707494		ToolTip	2272b3c5de89	Les |cffffffffSouffles|r augmentent tous les dégâts de Feu que vous infligez de $704819s1% pendant $704819d. Cumulable jusqu'à $704819u fois.	lot talents_018
+sort	707523		Description	fb27dd10c69b	Manifeste une barrière de haine pure qui absorbe ${$m1+0+$STA*1} points de dégâts, selon votre Endurance, pendant $d.\r\n\r\nTant que la barrière tient, vous subissez $s2% de dégâts physiques en moins.	lot talents_018
+sort	707523		Name	1977a058d64b	Barrière forgée par la haine	lot talents_018
+sort	707523		ToolTip	689583b7ce4f	Absorbe ${$w1} points de dégâts. Dégâts physiques subis réduits de $s2%.	lot talents_018
+sort	707524		Description	fb27dd10c69b	Manifeste une barrière de haine pure qui absorbe ${$m1+0+$STA*1} points de dégâts, selon votre Endurance, pendant $d.\r\n\r\nTant que la barrière tient, vous subissez $s2% de dégâts physiques en moins.	lot talents_018
+sort	707524		Name	1977a058d64b	Barrière forgée par la haine	lot talents_018
+sort	707524		ToolTip	689583b7ce4f	Absorbe ${$w1} points de dégâts. Dégâts physiques subis réduits de $s2%.	lot talents_018
+sort	707525		Description	fb27dd10c69b	Manifeste une barrière de haine pure qui absorbe ${$m1+0+$STA*1} points de dégâts, selon votre Endurance, pendant $d.\r\n\r\nTant que la barrière tient, vous subissez $s2% de dégâts physiques en moins.	lot talents_018
+sort	707525		Name	1977a058d64b	Barrière forgée par la haine	lot talents_018
+sort	707525		ToolTip	689583b7ce4f	Absorbe ${$w1} points de dégâts. Dégâts physiques subis réduits de $s2%.	lot talents_018
+sort	707526		Description	fb27dd10c69b	Manifeste une barrière de haine pure qui absorbe ${$m1+0+$STA*1} points de dégâts, selon votre Endurance, pendant $d.\r\n\r\nTant que la barrière tient, vous subissez $s2% de dégâts physiques en moins.	lot talents_018
+sort	707526		Name	1977a058d64b	Barrière forgée par la haine	lot talents_018
+sort	707526		ToolTip	689583b7ce4f	Absorbe ${$w1} points de dégâts. Dégâts physiques subis réduits de $s2%.	lot talents_018
+sort	707527		Description	fb27dd10c69b	Manifeste une barrière de haine pure qui absorbe ${$m1+0+$STA*1} points de dégâts, selon votre Endurance, pendant $d.\r\n\r\nTant que la barrière tient, vous subissez $s2% de dégâts physiques en moins.	lot talents_018
+sort	707527		Name	1977a058d64b	Barrière forgée par la haine	lot talents_018
+sort	707527		ToolTip	689583b7ce4f	Absorbe ${$w1} points de dégâts. Dégâts physiques subis réduits de $s2%.	lot talents_018
 sort	707627		Name	4cefd2399eff	Fiélon	lot talents_018
 sort	707745		Description	acd0ef1d6008	Augmente votre hâte en mêlée de $s1% et réduit de $s2% la durée des effets d'immobilisation qui vous affectent.	lot talents_018
 sort	707745		Name	aa8604d4c13f	Poursuite infernale	lot talents_018
 sort	707749		Description	0b0e717b55a9	Vos attaques automatiques infligent désormais $s1% des dégâts infligés sous forme de dégâts d'Ombre supplémentaires.	lot talents_018
 sort	707749		Name	616d979490f3	Tranchant forgé par le Vide	lot talents_018
+sort	707766		Description	edf29cae337a	Augmente de $s1% les dégâts de |cffffffffFracasse-tonneau|r et de $s2 mètres sa portée.	lot talents_018
+sort	707766		Name	5f7ac82f06cc	Virée à la taverne	lot talents_018
+sort	707766		ToolTip	03d94d135b37	Réduit de ${$w1}% le temps de recharge de |cffffffffFracasse-tonneau|r	lot talents_018
 sort	707772		Description	307fef16f6b7	Augmente votre Force et votre mana maximum de $s1% et votre expertise de $s2.	lot talents_018
 sort	707772		Name	e7781bce8ee0	Impartial	lot talents_018
 sort	707773		Description	d01d6861bf73	Votre |cffffffffExécution glorieuse|r ignore désormais $s1% de l'armure de la cible tant que |cffffffffVœu de la val'kyr|r est actif.	lot talents_018
@@ -202,6 +337,21 @@ sort	707837		Description	6494eacef397	Augmente votre Intelligence de $s1% et ré
 sort	707837		Name	d40190b68a47	Lame embrasée	lot talents_018
 sort	707838		Description	0ea790524f6c	Augmente la durée de |cffffffffGueule infernale|r de $/1000;s1 sec.	lot talents_018
 sort	707838		Name	138cfb2f704f	Forge d'ombreflamme	lot talents_018
+sort	707842		Name	c7f4f0ee9e37	Né du démon	lot talents_018
+sort	707846		Description	421985416d92	Réduit de $s1 le coût de |cFFFFFFFFDéchirure gangrenée|r et de |cffffffffBoule de feu gangrenée|r et augmente de $s2% les dégâts qu'elles infligent.	lot talents_018
+sort	707846		Name	36fac195d5bd	Esclavagiste de l'Outreterre	lot talents_018
+sort	707848		Description	a1d12b5babcc	Augmente votre Agilité et votre vitesse de déplacement de $s1%.	lot talents_018
+sort	707849		Description	84e037b48abe	Augmente vos chances de coup critique de $s1% et vos chances de toucher de $s2%.	lot talents_018
+sort	707849		Name	98558a876b8d	Tirs dévastateurs	lot talents_018
+sort	707849		ToolTip	3e61dd564cd7	Augmente les chances de coup critique et les dégâts critiques de |cffffffffPerce-crâne|r et de |cffffffffTir de précision|r de ${$w2}%.	lot talents_018
+sort	707850		Name	0728fcd24467	Dentelures	lot talents_018
+sort	707850		ToolTip	02d4b9d14f60	Les coups critiques directs font saigner la cible pour ${$705051m1+$705051ppl1+$AP*0.111} points de dégâts physiques toutes les $705051t1 sec pendant $705051d.	lot talents_018
+sort	707884		Description	80539e680be7	Augmente de $s1% la part de puissance d'attaque de |cffffffffPerce-crâne|r et de |cffffffffTir dentelé|r.	lot talents_018
+sort	707884		Name	ce054f0fddac	Sournoiserie	lot talents_018
+sort	707884		ToolTip	717141c23103	Fait en sorte que l'effet |cffffffffRoughed Up|r d'|cffffffffAdaptation: Bandit|r augmente de ${$w1}% les dégâts que la cible subit de |cffffffffBrigand Strike|r et de |cffffffffDuelist Strike|r.	lot talents_018
+sort	707885		ToolTip	536fc75472e6	Augmente de ${$w1}% les chances de coup critique des dégâts supplémentaires que |cffffffffDuelist Strike|r inflige aux ennemis |cffffffffCounterstruck|r.	lot talents_018
 sort	712470		Description	08edd30918fa	Augmente toutes les caractéristiques principales de $s1%.	lot talents_018
 sort	712470		Name	393d758acdb5	Commandant de l'Empire	lot talents_018
 sort	712470		ToolTip	eade91ce232a	Augmente votre Force, votre Endurance et votre Intelligence de ${$w1}%.\r\n\r\nAugmente votre expertise de $707196s1.	lot talents_018
+sort	712477		Description	a1d12b5babcc	Augmente votre Agilité et votre vitesse de déplacement de $s1%.	lot talents_018
+sort	806978		Name	6e676560343b	Combattant déloyal	lot talents_018
