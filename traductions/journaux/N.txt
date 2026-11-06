@@ -4,3 +4,5 @@
 2026-11-06 06:00:41  [N] Étape 1 : controler.py 0 bloquant (1965 signalés, 7612 info) ; test_controler.py conforme 57/57 faux, 33/33 vrais (modèle officiel 10/10 et 7/7 : +1 vrai « +8 au score de toucher », +1 faux forme minoritaire « aux score de toucher », faux « ambigu » passé sur « +N Damage », gabarit hors décision).
 2026-11-06 06:01:10  [N] extrait enchantements_001 : 300 textes, 1436 mots -> work/lots/enchantements/enchantements_001.jsonl
 2026-11-06 06:05:45  [N] intégré enchantements_001 : 288 acceptés (349 lignes), 0 refusés, 7 doutes, 5 gardés en anglais, 0 sans réponse dans le fichier, 0 non traités ; couche : traductions/enchantements/enchantements_001.tsv (349 lignes)
+2026-11-06 06:06:17  [N] extrait enchantements_002 : 294 textes, 2026 mots -> work/lots/enchantements/enchantements_002.jsonl
+2026-11-06 06:07:00  [N] ARRÊT demandé (limite d utilisation) : à reprendre à enchantements_002 (extrait, non traduit ; réextraire), puis 003 à 007.
