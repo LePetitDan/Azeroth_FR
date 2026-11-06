@@ -1,6 +1,15 @@
-# Fiche de reprise : Azeroth_FR (essai 5, add-on 0.5, installé chez Dan le 05/11 : en attente de ses captures)
+# Fiche de reprise : Azeroth_FR (version 0.6.0 prête, chantier de traduction en pause)
 
 *03/11/2026, mise à jour le 05/11 après l'add-on 0.5. À lire avant de reprendre le chantier dans une nouvelle conversation.*
+
+## Chantier de traduction (05-06/11) : en pause, version 0.6.0 prête
+
+- **Dan a demandé la pause** (limite d'utilisation à 80 %). Toutes les équipes sont arrêtées proprement ; tout est fusionné dans `main` (`bf457b9`).
+- **0.6.0** : `dist/Azeroth_FR-0.6.0.zip`, 19,2 Mo, sha256 `4c57eefb…`. Couche appliquée : 40 363 lignes ; contrôle 0 bloquant ; banc 250/250. Notice : `docs/ESSAI6_installer.md`. **Pas encore installée** (le PC de Dan n'était pas relié).
+- **Reste à traduire** (à reprendre seulement à la demande de Dan, idéalement 2 ou 3 équipes) : quêtes A à partir de `quetes_020`, B à partir de `quetes_066` ; C : fin de `talents_017` (à partir du n° 96, fichier `work/lots/talents/talents_017.*` du worktree C), puis `talents_018` à `035` et `sorts_classes_001` à `026` ; E à partir de `objets_018` ; F : `cpp_en_dur_002`, `divers_serveur_001` ; G : `sorts_standard_012` à `040` puis `sorts_serveur_001` à `016` ; N : `enchantements_002` à `007`.
+- **Décisions de Dan à appliquer** (agent Q interrompu) : 22 (annexe A des lieux), 23 (3 noms récents restants ; 6 trouvés, notés dans `traductions/journaux/Q.txt`, non appliqués), 24 (*Realm First!* : étendre `couche.py` aux lignes `machine`, ~9 434 noms), 25 (petites questions, exception « gro8und »).
+- **À harmoniser** : 27 lignes « le Gangrebois » de `quetes_017` (officiel sans article) ; noms de sorts post-3.3.5 laissés en anglais dans `sorts_standard_001` à `010` (le lot 011 a pris l'officiel récent via wago.tools : source à déclarer, extension de la décision 23 à valider par Dan) ; 3 noms d'objets machine fautifs (« Manuscrit vide », « Tome poêlé », « Esprit Fétiche »).
+- **Questions nouvelles pour Dan** : *Follow Up* (templier, proposition « Enchaînement ») ; *Capstone Bonus* ; *Descension* (« Rune of Descension ») ; *Weapon Craft:* ; *Groot Coin* ; « Deathcycle » ; Sinfall, Dominance Keep, The Avowed (noms récents).
 
 ## Essai 5 installé (05/11)
 
