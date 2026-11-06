@@ -21,8 +21,9 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAN = os.path.join(RACINE, 'traductions', 'plan.json')
 LOTS_PY = os.path.join(RACINE, 'outils', 'lots.py')
 MODELES = {'sonnet': 'claude-sonnet-5-5', 'opus': 'claude-opus-5-5'}
-# Les sorts et talents (C, G) sont les plus exigeants : Opus ; le reste : Sonnet (choix de Dan, budget 50 $).
-MODELE_PAR_CHANTIER = {'C': 'opus', 'G': 'opus'}
+# 06/11/2026, choix de Dan apres l'essai : Sonnet partout, reflexion courte (budget 50 $ ; Opus ~8 fois plus cher).
+MODELE_PAR_CHANTIER = {}
+REFLEXION = {'type': 'enabled', 'budget_tokens': 2048}
 RELANCES_MAX = 2
 
 
@@ -87,6 +88,7 @@ def requete(custom_id, modele, systeme, contenu, max_tokens=32000):
     return {'custom_id': custom_id,
             'params': {'model': MODELES[modele], 'max_tokens': max_tokens,
                        'system': [{'type': 'text', 'text': systeme, 'cache_control': {'type': 'ephemeral'}}],
+                       'thinking': REFLEXION,
                        'messages': [{'role': 'user', 'content': contenu}]}}
 
 
