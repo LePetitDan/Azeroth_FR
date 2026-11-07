@@ -1,6 +1,6 @@
 # Essai 7 (add-on 0.7.0) : résultat en jeu
 
-*Captures de Dan du 07/11/2026 (15 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
+*Captures de Dan du 07/11/2026 (16 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
 
 ## Ce qui marche
 
@@ -33,6 +33,8 @@
 | 11 | **Fenêtre des Épreuves** : cadre en français, mais noms et descriptions des épreuves en anglais (« Adventure Mode », « Nightmare - The Darkest Dungeon », « Step into a dangerous Open World adventure… ») | Ces textes ne sont dans aucune de nos sources (base du serveur, vidages du client) : envoyés par le serveur ou rangés dans un fichier du client pas encore collecté | Trouver la source ; au passage, les hauts faits « Cauchemar - Le Donjon le Plus Sombre » (traduction de l'archive) ont des majuscules à l'anglaise |
 | 12 | Carte du personnage (fond jaune, blason de l'Alliance) : « **Stormbringer** niveau 3 », « **Elwynn Forest** » | Classe et zone de ce cadre CoA pas traitées | « Porte-tempête », « Forêt d'Elwynn » |
 | 13 | Grimoire : « Mode **PvE** », « Haut risque (**PvP**) » | Le français officiel de Blizzard dit « JcE » / « JcJ » | Question de vocabulaire pour Dan |
+| 14 | Fenêtre de quête d'un PNJ (William Pilon) : description, objectifs et récompenses en français, mais **objets de récompense** en anglais (« Glowing Wax Stick », « Green Woolen Bag », « Adventurer's Satchel ») alors que la source a « Bâton de cire luminescent », « Sac vert en laine », « Sacoche d'aventurier » | Le module des objets (chargé à la demande) n'est peut-être pas encore chargé quand la fenêtre s'affiche, et rien ne la redessine ensuite | Charger les données avant, ou redessiner après le chargement ; reproduire au banc |
+| 15 | En-tête de la même fenêtre : « **William Pestle** » (l'objectif dit bien « William Pilon ») | Même cause probable (module des créatures) ; même défaut que l'en-tête du marchand de l'essai 4 (point 5) | Idem |
 | 9 | **Erreur d'interface** : `FrameXML\ChannelFrame.lua:619: Usage: GetChannelDisplayInfo(index)`, en cliquant dans la liste des membres d'un canal | L'add-on ne touche à aucune fenêtre de canal : sans doute un défaut du client CoA | À confirmer : même clic avec `/azfr off` |
 
 ## Pas encore vérifié
