@@ -263,7 +263,8 @@ local function CorrespondancesJournal()
             if titre and titre ~= "" then
                 local fr
                 if entete then
-                    fr = A.Nom("zone", titre) or A.Nom("divers", titre)
+                    -- 0.8 (essai 7 n° 6) : quetes de classe rangees sous le nom de la classe (« Stormbringer »)
+                    fr = A.Nom("zone", titre) or A.Nom("divers", titre) or A.Nom("classe", titre)
                 else
                     local id = IdJournal(i)
                     if id then
@@ -373,6 +374,10 @@ function A.TraduireNomPNJ(zone, unites)
         local fr, en = A.NomUnite(u)
         if fr and en == texte then A.Ecrire(zone, fr); return end
     end
+    -- 0.8 (essai 7 n° 15) : l'unite n'est pas toujours lisible (« questnpc » sans GUID) : le nom par la table des
+    -- noms de creatures (un seul francais pour cet anglais, sinon rien).
+    local fr = A.NomCreature and A.NomCreature(texte)
+    if fr and fr ~= texte then A.Ecrire(zone, fr) end
 end
 
 -- Numero de la quete affichee (journal : par numero ; PNJ : par le titre).

@@ -110,6 +110,22 @@ def canon(t):
     return t.strip(' \n')
 
 
+# Lignes OFFICIELLES (anglais prouve identique a celui de Blizzard) que le controle « signale » sans qu'elles
+# soient fausses : Blizzard ecrit les nombres en lettres (« at least 8 » -> « au moins huit », « Only 1 target »
+# -> « qu'une seule cible »), omet un $n ou un $glad:lass; (« Salut ! »), ou garde des noms anglais. Essai 7 :
+# la description de la quete 15 restait en anglais pour cette raison. On les embarque, sauf pour les sorts,
+# talents et enchantements, dont les nombres sont recales sur l'anglais affiche (une variable en moins
+# decalerait les valeurs).
+OFFICIEL_TOLERES = {'nombres', 'variables', 'majoritairement_anglais'}
+TYPES_SANS_TOLERANCE = re.compile(r'^(sort|talent|enchantement|coa_description_sort)')
+
+
+def tolere_officiel(l, refus):
+    if l[K.I_ETAT] != 'officiel' or l[K.I_TYPE] in C.TYPES_INTERFACE or TYPES_SANS_TOLERANCE.match(l[K.I_TYPE]):
+        return False
+    return all(r in OFFICIEL_TOLERES for r in refus)
+
+
 def formes_canoniques(en):
     """[(forme canonique, genre)] ; genre 'm'/'f' si le texte a un $g qui change selon le genre, sinon None.
     Renvoie [] si l'anglais porte une variable que l'add-on ne sait pas reconstituer ($p, $s1…)."""
@@ -171,6 +187,23 @@ def squelette_modele(en):
 # anglais. Les codes couleur |c…|r de l'etiquette sont gardes exactement.
 # ---------------------------------------------------------------------------
 ETIQUETTES_TSV = os.path.join(K.GLOSSAIRE, 'etiquettes.tsv')
+TYPES_CREATURE_TSV = os.path.join(K.GLOSSAIRE, 'types_creature.tsv')
+
+
+def lire_types_creature():
+    """glossaire/types_creature.tsv (decision 29) : anglais du client CoA (CreatureType.dbc) -> francais. Les lignes
+    sans francais restent en anglais."""
+    out = []
+    if not os.path.exists(TYPES_CREATURE_TSV):
+        return out
+    with open(TYPES_CREATURE_TSV, encoding='utf-8') as f:
+        for n, ligne in enumerate(f):
+            p = ligne.rstrip('\n').split('\t')
+            if n == 0 or len(p) < 2 or p[0].startswith('#'):
+                continue
+            if p[1].strip():
+                out.append((p[0], p[1]))
+    return out
 RX_COUL_ETI = re.compile(r'^((?:\|c[0-9A-Fa-f]{8})?)(.*?)((?:\|r)?)$', re.S)
 # Objets reels du serveur portant une etiquette (commande /azfr etiquettes)
 OBJETS_ETIQUETTES = [(46425, 'Mythic 5'), (100067, 'Heroic Raid'), (100038, 'Bloodforged')]
@@ -469,12 +502,14 @@ HORS_GENERIQUE = {'serveur/quetes.tsv', 'serveur/dialogues.tsv', 'serveur/creatu
                   'serveur/broadcast_cris.tsv', 'serveur/pages_courriers.tsv', 'client/courriers.tsv',
                   'client/interface.tsv',
                   'client/hauts_faits.tsv', 'serveur/messages_serveur.tsv', 'serveur/cpp_en_dur.tsv',
-                  'serveur/manastorm.tsv', 'serveur/objets_monde.tsv'}
+                  'serveur/manastorm.tsv'}
+# add-on 0.8 (essai 7 n° 19) : les noms des objets du monde (infobulle « Elwynn Tree / Requires Woodcutting ») entrent
+# dans les tables de noms (domaine objet_monde) ; leurs autres champs restent hors du champ de l'add-on.
 CHAMPS_SORT = {'name': 'n', 'rank': 'r', 'description': 'd', 'tooltip': 't', 'auradescription': 't'}
 CHAMPS_NOM = re.compile(r'^(name|nom|title|titre|area_name|label|libelle)(_?(female|feminin|f|m|male|masculin))?\d*$',
                         re.I)
 # domaine d'un nom : premier mot trouve dans le type, puis dans le nom du fichier
-DOMAINES = [('enchantement', 'enchantement'), ('sous_classe', 'sous_classe'), ('subclass', 'sous_classe'), ('suffixe', 'suffixe'), ('faction', 'faction'),
+DOMAINES = [('objet_monde', 'objet_monde'), ('enchantement', 'enchantement'), ('sous_classe', 'sous_classe'), ('subclass', 'sous_classe'), ('suffixe', 'suffixe'), ('faction', 'faction'),
             ('competence', 'competence'), ('skill', 'competence'), ('ensemble', 'ensemble'),
             ('zone', 'zone'), ('carte', 'zone'), ('area', 'zone'), ('point_interet', 'zone'), ('wmo', 'zone'),
             ('classe', 'classe'), ('class', 'classe'), ('race', 'race'), ('type_creature', 'type_creature')]
@@ -483,6 +518,8 @@ TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe':
                # add-on 0.4 : types de creatures (« Beast » -> « Bete ») : table vide tant que CreatureType.dbc frFR
                # officiel manque a la source (absent de patch-frFR-3.MPQ)
                'type_creature': 'NTC',
+               # add-on 0.8 : noms des objets du monde (infobulles)
+               'objet_monde': 'NOM',
                # add-on 0.5 : noms des objets demandes par les quetes (objectifs « 0/8 Red Burlap Bandana »), seulement
                # quand le francais est sans ambiguite (un seul francais affichable pour cet anglais, tous objets confondus)
                'objet_quete': 'NOQ'}
@@ -594,6 +631,10 @@ class Fabrique:
                         self.cpt[famille]['non_affichable_' + l[K.I_ETAT]] += 1
                         continue
                     refus = C.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], self.regles, self.noms, l[K.I_TYPE], l[K.I_ID])
+                    if refus and tolere_officiel(l, refus):
+                        for r in set(refus):
+                            self.cpt[famille]['officiel_tolere_' + r] += 1
+                        refus = []
                     if refus:
                         self.cpt[famille]['refusee_controle_' + l[K.I_ETAT]] += 1
                         for r in set(x.split(':')[0] if x.startswith('nom_officiel') else x for x in refus):
@@ -882,6 +923,11 @@ class Fabrique:
         for dom, d in self.noms_extra.items():          # add-on 0.5 : objets des quetes (famille_objets)
             for en, lst in d.items():
                 noms[dom][en].extend(lst)
+        # add-on 0.8 : types de creatures (decision 29 de Dan, 07/11/2026) : CreatureType.dbc frFR manque a la
+        # source officielle ; la table glossaire/types_creature.tsv (termes du jeu francais) decide.
+        for en, fr in lire_types_creature():
+            noms['type_creature'][en].append((PRIO['relu'], fr))
+            self.cpt['noms']['types_creature_glossaire'] += 1
         for dom in sorted(set(noms) | set(noms_f)):
             t = Table('noms', TABLES_NOMS[dom], 'texte')
             for en, cs in noms[dom].items():
@@ -913,6 +959,9 @@ class Fabrique:
         s_tab = Table('sorts', 'S', 'id')
         index = defaultdict(list)
         sk = Table('sorts_index', 'SK', 'texte')
+        # add-on 0.8 : index des noms anglais -> numeros (fenetre des maitres : pas de numero de sort, seulement le nom)
+        ns = Table('sorts_index', 'NS', 'texte')
+        par_nom = defaultdict(list)
 
         def modele(en):
             """Le modele anglais n'est garde que s'il porte des variables, des marqueurs ou des nombres ;
@@ -935,13 +984,18 @@ class Fabrique:
                                 r[1] if r else False, empreintes(r[2])[0] if r else 0,
                                 ds or False, ts or False]
             self.cpt['sorts']['noms' if n else 'sans_nom'] += 1
+            if n and len(par_nom[n[2]]) < 12:
+                par_nom[n[2]].append(i)
             if ds:
                 self.cpt['sorts']['avec_description'] += 1
         for sq, ids in index.items():
             sk.ajouter_cle(sq, ids)
         self.cpt['sorts']['entrees'] = len(s_tab.entrees)
         self.cpt['sorts']['index_squelettes'] = len(sk.entrees)
-        return s_tab, sk, tables_noms
+        for nom, ids in par_nom.items():
+            ns.ajouter_cle(nom, ids)
+        self.cpt['sorts']['index_noms'] = len(ns.entrees)
+        return s_tab, (sk, ns), tables_noms
 
     def interface(self):
         out = []
@@ -1296,9 +1350,9 @@ def main():
     if s_tab.entrees:
         familles_lua += ecrire_tranches(addons, 'sorts', 'Azeroth_FR_Sorts', 'Sorts', s_tab, version, bilan,
                                         taille_sorts < SORTS_AUTO_MAX)
-    if sk.entrees:
+    if sk[0].entrees:
         d = os.path.join(addons, 'Azeroth_FR_SortsIndex')
-        fs = ecrire_donnees(d, 'Donnees', [sk], version, 'index des sorts par texte anglais', bilan)
+        fs = ecrire_donnees(d, 'Donnees', list(sk), version, 'index des sorts par texte anglais et par nom', bilan)
         ecrire_toc(d, 'Azeroth_FR_SortsIndex', 'Azeroth_FR - Index des sorts (données)',
                    'Lignes « Use: » des objets : sort retrouvé par son texte (chargé à la demande)', version, fs)
         familles_lua.append({'famille': 'sorts_index', 'addon': 'Azeroth_FR_SortsIndex', 'auto': False})

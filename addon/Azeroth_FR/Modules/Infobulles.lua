@@ -283,6 +283,18 @@ local function SurUnite(bulle)
     -- deja en francais par PTRXML) : UnitCreatureType rend l'anglais ; le francais vient de la table des types
     -- (CreatureType.dbc frFR officiel), seulement si l'argument lu dans la ligne est exactement ce type.
     if A.TraduireTypeCreature and A.TraduireTypeCreature(bulle, unite) then modifie = true end
+    -- 0.8 (essai 7 n° 20) : lignes de quete que le client ajoute sous une creature de quete : titre (« Wolves Across
+    -- the Border ») puis objectifs (« - Tough Wolf Meat: 0/8 »), par les memes tables que le journal.
+    for i = 3, bulle:NumLines() do
+        if i ~= ligneSousTitre then
+            local l = Ligne(bulle, i)
+            local t = l and l:GetText()
+            if t and t ~= "" and not A.DejaEcrit(l, t) then
+                local fr = (A.TraduireObjectif and A.TraduireObjectif(t)) or (A.TitreQuete and A.TitreQuete(t))
+                if fr and fr ~= t then A.Ecrire(l, fr); modifie = true end
+            end
+        end
+    end
     if modifie then
         A.Compteurs.traduits = A.Compteurs.traduits + 1
         if bulle:IsShown() and not A.EstProtege(bulle) then

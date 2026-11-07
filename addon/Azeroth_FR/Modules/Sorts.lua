@@ -650,7 +650,17 @@ function A.TraduireEffetsObjet(bulle, idObjet, cachees)
             for _, p in ipairs(Prefixes()) do
                 if sub(t, 1, len(p.m)) == p.m then
                     vu = true
-                    local fr = A.TraduireCorpsEffet(sub(t, len(p.m) + 1), idObjet)
+                    local corps = sub(t, len(p.m) + 1)
+                    local fr = A.TraduireCorpsEffet(corps, idObjet)
+                    -- 0.8 (essai 7 n° 16) : CoA met parfois la DESCRIPTION de l'objet derriere « Use: » (« Teaches you
+                    -- how to summon this mount. This is a Ground mount. ») : meme empreinte que la description traduite.
+                    if not fr and idObjet then
+                        local o = A.Objet(idObjet)
+                        local nu = match(corps, "^%s*(.-)%s*$")
+                        if type(o) == "table" and o[3] and nu and A.H1(nu) == o[4] then
+                            fr = (match(corps, "^(%s*)") or "") .. o[3]
+                        end
+                    end
                     if fr then A.Ecrire(l, p.f .. fr); modifie = true end
                     break
                 end

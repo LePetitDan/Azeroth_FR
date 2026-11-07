@@ -1148,6 +1148,36 @@ class Importeur:
         K.journal('import : couche des traductions de Claude, %d lignes lues ; %s ; refus dans %s'
                   % (len(couche), dict(cr), os.path.join(K.TRAVAIL, 'couche_refus.tsv')))
 
+    def harmoniser_officiel(self):
+        """Une meme phrase anglaise, un meme francais, l'officiel d'abord (essai 7, 07/11/2026) : une ligne `machine`
+        dont l'anglais EXACT (meme type et meme champ) a un seul francais officiel ailleurs prend ce francais.
+        Exemples : la pierre de foyer de CoA (sort 80133) avait une traduction machine differente de l'officielle des
+        sorts 8690… ; l'add-on, devant deux francais pour un meme anglais, n'affichait rien. « Tallstrider » ->
+        « Haut-trotteur » (officiel) et non « Grand trotteur ». Meme type exige : « Sunny » (creature) ne prend pas
+        « Temps ensoleille » (meteo). Jamais sur relu ni technique ; controle de structure de l'officiel."""
+        off = defaultdict(set)
+        for l in self.lignes.values():
+            if l[K.I_ETAT] == 'officiel' and l[K.I_FR] and l[K.I_FR] != l[K.I_EN]:
+                off[(l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN])].add(l[K.I_FR])
+        n = 0
+        for k, l in self.lignes.items():
+            if l[K.I_ETAT] != 'machine':
+                continue
+            frs = off.get((l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN]))
+            if not frs or len(frs) != 1:
+                continue
+            fr = next(iter(frs))
+            if fr == l[K.I_FR] or self.controle(l[K.I_EN], fr, 'officiel', l[K.I_TYPE], k):
+                continue
+            self.ex('harmonise_officiel', l)
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'harmonisé sur le français officiel du même anglais (avant : « %s »)'
+                                  % cite(l[K.I_FR], 120))
+            l[K.I_FR] = fr
+            l[K.I_SRC] = 'blizzard_frFR_meme_anglais'
+            n += 1
+        self.cr['harmonise_officiel'] = n
+        K.journal('import : %d lignes machine harmonisées sur le français officiel du même anglais' % n)
+
     # ------------------------------------------------------------------
     # 6. Ecriture
     # ------------------------------------------------------------------
@@ -1221,6 +1251,7 @@ def main():
     imp.importer_enchantements_modele()
     imp.fusionner_relus()
     imp.appliquer_couche()
+    imp.harmoniser_officiel()
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

@@ -220,6 +220,33 @@ local function Interrupteur(module, etat)
     A.Message(format("%s : %s.", MODULES[module], A.ModuleActif(module) and "ACTIF" or "COUPÉ"))
 end
 
+-- 0.8 : /azfr bulle : ce que l'add-on voit dans l'infobulle affichee (texte brut, codes visibles) et, pour les
+-- lignes « Utiliser : », les sorts essayes et le resultat. Sert a comprendre un texte reste en anglais en jeu.
+local function DiagnosticBulle()
+    local b = GameTooltip
+    if not b or not b:IsShown() then A.Message("aucune infobulle affichée : survolez un objet puis tapez /azfr bulle (raccourci clavier conseillé).") return end
+    local nomEN, lien = b:GetItem()
+    local idObjet = A.IdDepuisLien(lien, "item")
+    A.Message(format("infobulle : %d lignes ; objet %s (%s).", b:NumLines(), tostring(idObjet), tostring(nomEN)))
+    for i = 1, b:NumLines() do
+        local l = _G["GameTooltipTextLeft" .. i]
+        local t = l and l:GetText()
+        if t then
+            A.Message(format("  %d : %s%s", i, (string.gsub(t, "|", "||")), A.Originaux[l] and (" [anglais : " .. string.gsub(A.Originaux[l], "|", "||") .. "]") or ""))
+            for _, cle in ipairs({ "ITEM_SPELL_TRIGGER_ONUSE", "ITEM_SPELL_TRIGGER_ONEQUIP" }) do
+                local p = _G[cle]
+                if type(p) == "string" and string.sub(t, 1, #p) == p and A.TrouverCorpsEffet then
+                    local corps = string.gsub(string.sub(t, #p + 1), "^%s+", "")
+                    local fr, id, complet = A.TrouverCorpsEffet(corps, idObjet)
+                    local ok, nomSort, rang = pcall(GetItemSpell, idObjet or 0)
+                    A.Message(format("     -> sort de l'objet : %s %s ; trouvé : %s (sort %s, données lues : %s)",
+                        tostring(nomSort), tostring(rang), fr and "oui" or "non", tostring(id), tostring(complet)))
+                end
+            end
+        end
+    end
+end
+
 local function Commande(msg)
     local ok, err = pcall(function()
         msg = string.lower(string.match(msg or "", "^%s*(.-)%s*$") or "")
@@ -242,10 +269,12 @@ local function Commande(msg)
             Version()
         elseif msg == "stats" then
             Stats()
+        elseif msg == "bulle" then
+            DiagnosticBulle()
         elseif msg == "etiquettes" or msg == "étiquettes" then
             AfficherEtiquettes(false)
         else
-            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
+            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulle, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
         end
     end)
     if not ok then A.NoterErreur("/azfr", err) end

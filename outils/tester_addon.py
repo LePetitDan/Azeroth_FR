@@ -278,6 +278,11 @@ def choisir_cas():
                                  and '$n' in l[K.I_FR].lower() and l[K.I_ETAT] == 'officiel'))
     cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'quête %s : description avec $N et $B' % l[K.I_ID],
                 'anglais': afficher_en(l[K.I_EN]), 'attendu': rendre_fr(l[K.I_FR])})
+    # essai 7 n° 2 : description de la quête 15 (« $N, my scouts tell me… ») restée en anglais dans le journal
+    l15 = next((l for l in q if l[K.I_ID] == '15' and l[K.I_CHAMP] == 'QuestDescription'), None)
+    if l15 and l15[K.I_ETAT] in ('officiel', 'machine', 'relu'):
+        cas.append({'quoi': 'texte', 'famille': 'quetes', 'nom': 'essai 7 n° 2 : quête 15, description avec $N',
+                    'anglais': afficher_en(l15[K.I_EN]), 'attendu': rendre_fr(l15[K.I_FR])})
     # 2. $g et $c, personnage feminin
     l = next(l for l in uniques(q, lambda l: l[K.I_TYPE] == 'quete' and l[K.I_CHAMP] == 'QuestDescription' and re.search(r'\$g', l[K.I_EN], re.I)
                                  and re.search(r'\$c', l[K.I_EN], re.I) and '$g' in l[K.I_FR].lower()
