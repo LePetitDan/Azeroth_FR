@@ -71,6 +71,17 @@ def main():
             continue
         lignes.append(('fete_description', 'description', en, apostrophe(fr), str(did),
                        'https://www.wowhead.com/wotlk/fr/event=%s (Holidays.dbc : description n° %d)' % (fete, did)))
+    # Familles de familiers : listes /wotlk/hunter-pets et /wotlk/fr/hunter-pets, même numéro (CreatureFamily.dbc)
+    pf = lire('wowhead_familiers.json')
+    en = {i: n for i, n in pf['en']}
+    for i, n in pf['fr']:
+        if i in en and i not in pf.get('exclus', []):
+            lignes.append(('famille_creature', 'name', en[i], apostrophe(n), '', 'https://www.wowhead.com/wotlk/fr/pet=%d' % i))
+    # Catégories de quêtes des fêtes (QuestSort.dbc) : même anglais exact qu'une fête relevée ci-dessus (Brewfest,
+    # Darkmoon Faire…) : le nom officiel de la fête
+    for l in list(lignes):
+        if l[0] == 'fete':
+            lignes.append(('categorie_quete', 'name', l[2], l[3], '', l[5] + ' (nom de la fête, même anglais)'))
     # un même anglais pour deux français : on garde le relevé au numéro seulement (aucun ici à ce jour)
     vus, conflits = {}, set()
     for l in lignes:

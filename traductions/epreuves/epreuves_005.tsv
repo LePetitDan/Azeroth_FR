@@ -1,0 +1,312 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+coa_epreuve	620		name	7264ccb1615e	Prestige - Hardcore - Nous, les Trois Puissants	lot epreuves_005
+coa_epreuve	621		description	4f0007174004	L'angoisse vous ronge. Les sorts et les attaques vous emplissent désormais d'effroi et vous paralysent de peur. Dans ce cauchemar éveillé, vous devez atteindre le niveau maximum en héros craintif, tremblant à chaque rencontre. Surmonterez-vous votre terreur, ou vous consumera-t-elle ?	lot epreuves_005
+coa_epreuve	621		name	7e7061bf2fbd	Cauchemar - Pétrifié	lot epreuves_005
+coa_epreuve	622		description	4f0007174004	L'angoisse vous ronge. Les sorts et les attaques vous emplissent désormais d'effroi et vous paralysent de peur. Dans ce cauchemar éveillé, vous devez atteindre le niveau maximum en héros craintif, tremblant à chaque rencontre. Surmonterez-vous votre terreur, ou vous consumera-t-elle ?	lot epreuves_005
+coa_epreuve	622		name	85b1f2b26fda	Prestige - Cauchemar - Pétrifié	lot epreuves_005
+coa_epreuve_condition	1		description	7b39f7d2e02a	Cette épreuve ne requiert aucune condition.	lot epreuves_005
+coa_epreuve_condition	1		description_inverted	1b58780a8939	Cette épreuve ne requiert aucune condition. (Inversé)	lot epreuves_005
+coa_epreuve_condition	1		name	6eef6648406c	Aucune	lot epreuves_005
+coa_epreuve_condition	1		name_inverted	57dc0dec4a88	Aucune (inversé)	lot epreuves_005
+coa_epreuve_condition	2		description	4d4b6cf5fcce	Utiliser l'Hôtel des ventes vous empêche d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	2		description_inverted	773882da0369	Utiliser l'Hôtel des ventes vous permet d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	2		name	287718e729fa	Ne pas avoir utilisé l'Hôtel des ventes	lot epreuves_005
+coa_epreuve_condition	2		name_inverted	57d0de7421f1	Avoir utilisé l'Hôtel des ventes	lot epreuves_005
+coa_epreuve_condition	3		description	1c8525f252e0	Gagner de l'expérience vous empêche d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	3		description_inverted	b5b5e1cead72	Gagner de l'expérience vous permet d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	3		name	6fb688dfcb15	Ne pas avoir gagné d'expérience	lot epreuves_005
+coa_epreuve_condition	3		name_inverted	1145f43d5456	Avoir gagné de l'expérience	lot epreuves_005
+coa_epreuve_condition	4		description	123140f596c4	Retirer des objets ou de l'argent de votre banque vous empêche d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	4		description_inverted	5072046be68f	Retirer des objets ou de l'argent de votre banque vous permet d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	4		name	d0e9e40c099b	Ne pas avoir retiré d'objets de la banque	lot epreuves_005
+coa_epreuve_condition	4		name_inverted	043823b25ba8	Avoir retiré de la banque	lot epreuves_005
+coa_epreuve_condition	5		description	a63e6a5619ce	Retirer des objets ou de l'argent de votre banque de guilde vous empêche d'activer cette épreuve	lot epreuves_005
+coa_epreuve_condition	5		description_inverted	9b24b3eb9e61	Retirer des objets ou de l'argent de votre banque de guilde vous permet d'activer cette épreuve	lot epreuves_005
+coa_epreuve_condition	5		name	1f09c7be53fe	Ne pas avoir retiré de la banque de guilde	lot epreuves_005
+coa_epreuve_condition	5		name_inverted	32373a70b2db	Avoir retiré de la banque de guilde	lot epreuves_005
+coa_epreuve_condition	6		description	ad95040cfc7a	Retirer des objets ou de l'argent de votre banque du royaume vous empêche d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	6		description_inverted	870b65a906cf	Retirer des objets ou de l'argent de votre banque du royaume vous permet d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	6		name	760130eeaf59	Ne pas avoir retiré de la banque du royaume	lot epreuves_005
+coa_epreuve_condition	6		name_inverted	cbb5d67cd098	Avoir retiré de la banque du royaume	lot epreuves_005
+coa_epreuve_condition	7		description	1c1182fd8e52	Retirer des objets ou de l'argent du courrier vous empêche d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	7		description_inverted	8990c3722ffd	Retirer des objets ou de l'argent du courrier vous permet d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	7		name	4fd320616e4e	Ne pas avoir pris de courrier	lot epreuves_005
+coa_epreuve_condition	7		name_inverted	5266b1c62e11	Avoir pris du courrier	lot epreuves_005
+coa_epreuve_condition	8		description	4b2bd918195f	Accepter un échange avec un autre joueur vous empêche d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	8		description_inverted	0573009ca683	Accepter un échange avec un autre joueur vous permet d'activer cette épreuve.	lot epreuves_005
+coa_epreuve_condition	8		name	15cb6724ea93	Ne pas avoir échangé	lot epreuves_005
+coa_epreuve_condition	8		name_inverted	cc5c61dbf0a3	Avoir échangé	lot epreuves_005
+coa_epreuve_condition	9		description	0177ae202fdb	Vous devez avoir terminé l'épreuve %1$s.	lot epreuves_005
+coa_epreuve_condition	9		description_inverted	af7d9a074457	Vous ne devez pas terminer l'épreuve %1$s.	lot epreuves_005
+coa_epreuve_condition	9		name	ecac1250a8c1	Terminer %1$s (niveau : %2$d)	lot epreuves_005
+coa_epreuve_condition	9		name_inverted	7b0051c08d5b	Ne pas terminer %1$s (niveau : %2$d)	lot epreuves_005
+coa_epreuve_condition	10		description	59c1406122e4	Vous devez terminer %3$d épreuves de cette liste : %1$s	lot epreuves_005
+coa_epreuve_condition	10		description_inverted	b91221b0ef28	Vous ne devez pas terminer %3$d épreuves de cette liste : %1$s	lot epreuves_005
+coa_epreuve_condition	10		name	d37354d1df38	Terminer %1$d épreuves précises	lot epreuves_005
+coa_epreuve_condition	10		name_inverted	e5d6f28c01f1	Ne pas terminer %3$d épreuves précises.	lot epreuves_005
+coa_epreuve_condition	11		description	5b197f624961	Vous devez être au niveau de prestige %1$d ou plus pour tenter cette épreuve.	lot epreuves_005
+coa_epreuve_condition	11		description_inverted	82093b07cd0a	Vous devez être en dessous du niveau de prestige %1$d pour tenter cette épreuve.	lot epreuves_005
+coa_epreuve_condition	11		name	34054e776bcf	Être au niveau de prestige %1$d	lot epreuves_005
+coa_epreuve_condition	11		name_inverted	48bf28568949	Être en dessous du niveau de prestige %1$d	lot epreuves_005
+coa_epreuve_condition	12		description	12f778858d2c	Votre groupe doit compter %1$d membres pour tenter cette épreuve.	lot epreuves_005
+coa_epreuve_condition	12		description_inverted	ba49ca989a55	Votre groupe ne doit pas compter %1$d membres pour tenter cette épreuve.	lot epreuves_005
+coa_epreuve_condition	12		name	0a3b0799e49a	Avoir %1$d membres dans le groupe	lot epreuves_005
+coa_epreuve_condition	12		name_inverted	0fd7c6707bb0	Ne pas avoir %1$d membres dans le groupe.	lot epreuves_005
+coa_epreuve_condition	13		description	8254bcbc2e40	Vous ne devez pas avoir interagi avec d'autres joueurs.	lot epreuves_005
+coa_epreuve_condition	13		description_inverted	45300b230cc4	Vous devez avoir interagi avec d'autres joueurs.	lot epreuves_005
+coa_epreuve_condition	13		name	010af56f6d80	Aucune interaction extérieure	lot epreuves_005
+coa_epreuve_condition	13		name_inverted	4aee8afa6636	Doit interagir avec les autres	lot epreuves_005
+coa_epreuve_condition	14		description	f596ae4f7507	Vous ne devez pas avoir interagi avec un marchand.	lot epreuves_005
+coa_epreuve_condition	14		description_inverted	d7f65293c9df	Vous devez avoir interagi avec un marchand.	lot epreuves_005
+coa_epreuve_condition	14		name	d4996ba70de0	Aucune interaction avec les marchands	lot epreuves_005
+coa_epreuve_condition	14		name_inverted	2b87b3389f1d	Doit interagir avec un marchand	lot epreuves_005
+coa_epreuve_exigence	1		name	6eef6648406c	Aucune	lot epreuves_005
+coa_epreuve_modificateur	1		description	6eef6648406c	Aucune	lot epreuves_005
+coa_epreuve_modificateur	1		name	6eef6648406c	Aucune	lot epreuves_005
+coa_epreuve_regle	1		description	060f54e797a0	Cette épreuve ne comporte aucune restriction.	lot epreuves_005
+coa_epreuve_regle	1		name	6eef6648406c	Aucune	lot epreuves_005
+coa_epreuve_regle	2		description	5c1a24dc565c	Vous ne pouvez utiliser aucune amélioration mondiale pour vous aider.	lot epreuves_005
+coa_epreuve_regle	2		name	08e0beae69c4	Pas d'améliorations mondiales	lot epreuves_005
+coa_epreuve_regle	3		description	080b1beb933c	Vous ne pouvez pas vous grouper avec d'autres joueurs.	lot epreuves_005
+coa_epreuve_regle	3		name	1eb5a85cd99e	Pas de groupe	lot epreuves_005
+coa_epreuve_regle	4		description	ef64fc26a889	Vous ne pouvez utiliser aucun métier, quel qu'il soit.	lot epreuves_005
+coa_epreuve_regle	4		name	16824476a237	Pas de métiers	lot epreuves_005
+coa_epreuve_regle	5		description	fe9ce29be51a	Vous ne pouvez équiper aucune armure.	lot epreuves_005
+coa_epreuve_regle	5		name	f453a0462b42	Pas d'armure équipée	lot epreuves_005
+coa_epreuve_regle	6		description	db5d418b2e05	Vous ne pouvez pas vous grouper avec d'autres joueurs dans un donjon.	lot epreuves_005
+coa_epreuve_regle	6		name	6e3a7852c8b3	Pas de groupe en donjon	lot epreuves_005
+coa_epreuve_regle	7		description	bffb39f773e6	Vous ne pouvez pas utiliser d'objets fabriqués par d'autres joueurs.	lot epreuves_005
+coa_epreuve_regle	7		name	cc6e5d381605	Uniquement des objets que vous avez fabriqués	lot epreuves_005
+coa_epreuve_regle	8		description	5729fb4c7283	Vous ne pouvez pas équiper d'objets de qualité commune.	lot epreuves_005
+coa_epreuve_regle	8		name	3ce54824177d	Impossible d'équiper des objets communs	lot epreuves_005
+coa_epreuve_regle	9		description	32ce985ef7b3	Vous ne pouvez pas équiper d'objets de qualité inhabituelle.	lot epreuves_005
+coa_epreuve_regle	9		name	5e7e15d946d2	Impossible d'équiper des objets inhabituels	lot epreuves_005
+coa_epreuve_regle	10		description	296dfd62a621	Vous ne pouvez pas équiper d'objets de qualité rare.	lot epreuves_005
+coa_epreuve_regle	10		name	12c804d5a627	Impossible d'équiper des objets rares	lot epreuves_005
+coa_epreuve_regle	11		description	7a3f219e53d5	Vous ne pouvez pas équiper d'objets de qualité épique.	lot epreuves_005
+coa_epreuve_regle	11		name	37a88934cf07	Impossible d'équiper des objets épiques	lot epreuves_005
+coa_epreuve_regle	12		description	80fe9748f394	Vous ne pouvez pas équiper d'objets de qualité légendaire.	lot epreuves_005
+coa_epreuve_regle	12		name	50eaa288b2c5	Impossible d'équiper des objets légendaires	lot epreuves_005
+coa_epreuve_regle	13		description	95159b995456	Vous ne pouvez utiliser aucune banque.	lot epreuves_005
+coa_epreuve_regle	13		name	99f7add790bc	Pas de banque	lot epreuves_005
+coa_epreuve_regle	14		description	e4af284e3e47	Vous ne pouvez pas utiliser votre pierre de foyer.	lot epreuves_005
+coa_epreuve_regle	14		name	8fa7a1dc3ce1	Pas de pierre de foyer	lot epreuves_005
+coa_epreuve_regle	15		description	81d4c3ce8e0e	Vous ne pouvez apprendre aucun talent.	lot epreuves_005
+coa_epreuve_regle	15		name	cb02ba207638	Pas de talents	lot epreuves_005
+coa_epreuve_regle	16		description	733fd2d4e90d	Vous ne pouvez utiliser que les objets que vous avez ramassés sur les dépouilles.	lot epreuves_005
+coa_epreuve_regle	16		name	b863e7b0bd5b	Uniquement des objets looté	lot epreuves_005
+coa_epreuve_regle	17		description	95f6a4b54255	Vous ne pouvez pas utiliser de montures.	lot epreuves_005
+coa_epreuve_regle	17		name	f15ff7543ef0	Pas de montures	lot epreuves_005
+coa_epreuve_regle	18		description	2b8079c3ab90	Vous ne pouvez pas emprunter de trajets en vol.	lot epreuves_005
+coa_epreuve_regle	18		name	7539a0caad92	Pas de trajets en vol	lot epreuves_005
+coa_epreuve_regle	19		description	4033e1dc0f81	Vous ne pouvez pas utiliser de portails.	lot epreuves_005
+coa_epreuve_regle	19		name	ace3d90fb8fc	Pas de portails	lot epreuves_005
+coa_epreuve_regle	20		description	6afde5c62fda	Vous ne pouvez accomplir aucune quête. 	lot epreuves_005
+coa_epreuve_regle	20		name	b815fa162bde	Pas de quêtes	lot epreuves_005
+coa_epreuve_regle	21		description	006bb6df8f38	Vous ne pouvez pas utiliser de potions de soins.	lot epreuves_005
+coa_epreuve_regle	21		name	f3423a73e38a	Pas de potions de soins	lot epreuves_005
+coa_epreuve_regle	22		description	145255302b53	Vous ne pouvez réparer aucun objet.	lot epreuves_005
+coa_epreuve_regle	22		name	4d310e42685e	Pas de réparations	lot epreuves_005
+coa_epreuve_regle	23		description	2f8d6dc1974b	Vous ne pouvez pas quitter le continent.	lot epreuves_005
+coa_epreuve_regle	23		name	92657f945e2d	Impossible de quitter le continent	lot epreuves_005
+coa_epreuve_regle	24		description	ddbf152bedaa	Vous ne pouvez pas tuer d'humanoïdes.	lot epreuves_005
+coa_epreuve_regle	24		name	f96de9ebde37	Interdiction de tuer des humanoïdes	lot epreuves_005
+coa_epreuve_regle	25		description	a26f2b1e82d1	Vous ne pouvez pas tuer de bêtes.	lot epreuves_005
+coa_epreuve_regle	25		name	0d30d62e253c	Interdiction de tuer des bêtes ou des bestioles	lot epreuves_005
+coa_epreuve_regle	26		description	7c7d83e8692f	Vous devez être marqué pour le PvP.	lot epreuves_005
+coa_epreuve_regle	26		name	48d1bcaa5928	Doit être marqué PvP	lot epreuves_005
+coa_epreuve_regle	27		description	24a601bede64	Vous ne pouvez utiliser aucun bonus d'expérience, comme l'Aura d'expérience, la Potion d'expérience ou les Zones d'expérience.	lot epreuves_005
+coa_epreuve_regle	27		name	0178ebdc4373	Pas d'expérience bonus	lot epreuves_005
+coa_epreuve_regle	28		description	17f1048f5340	Vous ne obtenez le crédit d'un kill que sur les monstres de niveau supérieur au vôtre.	lot epreuves_005
+coa_epreuve_regle	28		name	2749bd26c794	Doit affronter des monstres puissants	lot epreuves_005
+coa_epreuve_regle	29		description	d3d930cfb2d8	Vous ne pouvez pas obtenir de crédit de kill dans les zones de combat honorable.	lot epreuves_005
+coa_epreuve_regle	29		name	357bb65c0ada	Pas de zones de combat honorable	lot epreuves_005
+coa_epreuve_regle	30		description	3d9527f3b6c5	Vous ne pouvez pas régénérer votre santé.	lot epreuves_005
+coa_epreuve_regle	30		name	05982c6344f1	Impossible de régénérer sa santé	lot epreuves_005
+coa_epreuve_regle	31		description	5902cc1fb110	Vous ne pouvez pas régénérer votre mana, votre rage ou votre énergie.	lot epreuves_005
+coa_epreuve_regle	31		name	acae5e772556	Impossible de régénérer mana/rage/énergie	lot epreuves_005
+coa_epreuve_regle	32		description	9c973f7609be	Toute aptitude a une chance de vous infliger un coup critique.	lot epreuves_005
+coa_epreuve_regle	32		name	ebfa560701d9	Peut subir un critique de toute aptitude	lot epreuves_005
+coa_epreuve_regle	33		description	f57bb9c7a0ae	Vous ne pouvez ni esquiver, ni bloquer, ni parer aucune attaque.	lot epreuves_005
+coa_epreuve_regle	33		name	24d99845b494	Impossible d'éviter les attaques	lot epreuves_005
+coa_epreuve_regle	34		description	e88d12054b2f	Vous ne gagnez aucune expérience en dehors du PvP.	lot epreuves_005
+coa_epreuve_regle	34		name	10efb75aed34	Expérience PvP uniquement	lot epreuves_005
+coa_epreuve_regle	35		description	40c73d291fab	Vous ne gagnez de l'expérience qu'en tuant des monstres.	lot epreuves_005
+coa_epreuve_regle	35		name	a3e3aeadec0b	Expérience des créatures tuées uniquement	lot epreuves_005
+coa_epreuve_regle	36		description	2d96d68af4c9	Vous ne gagnez de l'expérience qu'en terminant des quêtes.	lot epreuves_005
+coa_epreuve_regle	36		name	e8e31c27b97c	Expérience de quête uniquement	lot epreuves_005
+coa_epreuve_regle	37		description	ac4b3c7e81fe	Vous ne gagnez de l'expérience qu'en progressant dans vos métiers.	lot epreuves_005
+coa_epreuve_regle	37		name	74ede586d10e	Expérience de métier uniquement	lot epreuves_005
+coa_epreuve_regle	38		description	12b4b63ed609	Vous ne pouvez ni vous inscrire ni participer aux champs de bataille.	lot epreuves_005
+coa_epreuve_regle	38		name	1c086c7a6e29	Pas de champs de bataille	lot epreuves_005
+coa_epreuve_regle	39		description	c85524cd688a	Vous ne pouvez ni vous inscrire ni participer aux arènes.	lot epreuves_005
+coa_epreuve_regle	39		name	b582f9a4e191	Pas d'arènes	lot epreuves_005
+coa_epreuve_regle	40		description	bb25755b8c63	Vous ne pouvez ni vous inscrire ni participer aux donjons.	lot epreuves_005
+coa_epreuve_regle	40		name	b64b015fdddc	Pas de donjons	lot epreuves_005
+coa_epreuve_regle	41		name	3fab050084ec	Pas de raids	lot epreuves_005
+coa_epreuve_regle	42		description	ca0c1a74b05a	Vous ne pouvez pas utiliser l'Hôtel des ventes.	lot epreuves_005
+coa_epreuve_regle	42		name	d9f40274fcaa	Pas d'hôtel des ventes	lot epreuves_005
+coa_epreuve_regle	43		description	3b50a306a70b	Vous ne pouvez pas utiliser votre banque de guilde.	lot epreuves_005
+coa_epreuve_regle	43		name	08e14b281fbc	Pas de banque de guilde	lot epreuves_005
+coa_epreuve_regle	44		description	2dc9468908a2	Vous ne pouvez pas utiliser votre banque du royaume.	lot epreuves_005
+coa_epreuve_regle	44		name	0b0f21415ee1	Pas de banque du royaume	lot epreuves_005
+coa_epreuve_regle	45		description	c6f9e9af4546	Vous ne pouvez pas utiliser la boîte aux lettres.	lot epreuves_005
+coa_epreuve_regle	45		name	d864bc9432b3	Pas de courrier	lot epreuves_005
+coa_epreuve_regle	46		description	c7304810b330	Vous ne pouvez pas échanger avec d'autres joueurs.	lot epreuves_005
+coa_epreuve_regle	46		name	22c4f929c080	Pas d'échanges	lot epreuves_005
+coa_epreuve_regle	47		description	25f42e54d03b	Vous ne pouvez acheter ni vendre d'objets chez aucun marchand.	lot epreuves_005
+coa_epreuve_regle	47		name	47fe2bf0eb61	Pas de marchands	lot epreuves_005
+coa_epreuve_regle	48		description	07bdb5f039d8	Vous ne pouvez pas interagir avec d'autres joueurs.	lot epreuves_005
+coa_epreuve_regle	48		name	010af56f6d80	Aucune interaction extérieure	lot epreuves_005
+coa_epreuve_regle	49		description	7c9a8aa5f2e5	Vous ne pouvez pas utiliser la recherche de donjon.	lot epreuves_005
+coa_epreuve_regle	49		name	91710f4fe8cf	Pas de recherche de donjon	lot epreuves_005
+coa_epreuve_regle	50		description	ade2e475bc29	Vous ne pouvez pas vous inscrire aux champs de bataille.	lot epreuves_005
+coa_epreuve_regle	50		name	6752a310b220	Pas d'inscription aux champs de bataille	lot epreuves_005
+coa_epreuve_regle	51		description	1a794bdc5500	Vous ne pouvez pas vous inscrire aux arènes.	lot epreuves_005
+coa_epreuve_regle	51		name	6551f1a2e380	Pas d'inscription aux arènes	lot epreuves_005
+coa_epreuve_regle	52		description	a5e532b8ac33	L'expérience de métier que vous gagnez est partagée avec les membres de votre groupe.	lot epreuves_005
+coa_epreuve_regle	52		name	bd840725d276	Expérience de métier partagée	lot epreuves_005
+coa_epreuve_regle	53		name	d691db36d18c	Pas de butin des joueurs à haut risque	lot epreuves_005
+coa_epreuve_regle	54		description	fd099472250d	Vous ne pouvez pas utiliser d'objets d'amélioration.\n|cffe6cc80[Parchemin de l'artisan]|r\n|cffe6cc80[Incantation d'expérience]|r\n|cffe6cc80[Parchemin d'expérience]|r	lot epreuves_005
+coa_epreuve_regle	54		name	cf236a3f01c6	Pas d'objets d'amélioration	lot epreuves_005
+coa_epreuve_regle	56		description	b9ea8f7932d1	Vos choix de métiers sont définitifs. Vous ne pouvez oublier aucun métier.	lot epreuves_005
+coa_epreuve_regle	56		name	79521a93959b	Impossible d'oublier un métier	lot epreuves_005
+coa_epreuve_regle	57		description	8424e0fe1c70	Vous ne gagnez de l'expérience qu'avec les quêtes de niveau supérieur au vôtre.	lot epreuves_005
+coa_epreuve_regle	57		name	eb62d8b03fab	Uniquement des quêtes difficiles	lot epreuves_005
+coa_epreuve_regle	58		description	cc72d53e38b5	Vous ne gagnez pas d'expérience avec les quêtes de niveau inférieur au vôtre.	lot epreuves_005
+coa_epreuve_regle	58		name	3ec79281d1ef	Pas de quêtes faciles	lot epreuves_005
+coa_epreuve_regle	59		description	30d47414fef1	Vous ne pouvez ni accepter ni rendre de quêtes grises.	lot epreuves_005
+coa_epreuve_regle	59		name	f0941efd6b22	Pas de quêtes grises	lot epreuves_005
+coa_epreuve_regle	60		description	deaa0b017465	Vous ne pouvez ni accepter ni rendre de quêtes vertes.	lot epreuves_005
+coa_epreuve_regle	60		name	bf90f06e7bfc	Pas de quêtes vertes	lot epreuves_005
+coa_epreuve_regle	61		description	482be118527a	Vous ne pouvez ni accepter ni rendre de quêtes jaunes.	lot epreuves_005
+coa_epreuve_regle	61		name	514fa9c64045	Pas de quêtes jaunes	lot epreuves_005
+coa_epreuve_regle	62		description	249303279c88	Vous ne pouvez ni accepter ni rendre de quêtes orange.	lot epreuves_005
+coa_epreuve_regle	62		name	f7bfbf410f81	Pas de quêtes orange	lot epreuves_005
+coa_epreuve_regle	63		description	e8c677287fbc	Vous ne pouvez ni accepter ni rendre de quêtes rouges.	lot epreuves_005
+coa_epreuve_regle	63		name	78c1f5a6abfb	Pas de quêtes rouges	lot epreuves_005
+coa_epreuve_regle	64		description	1906ea246bcf	Vous n'êtes pas soigné intégralement quand vous gagnez un niveau.	lot epreuves_005
+coa_epreuve_regle	64		name	4bc548feb75a	Pas de soins au passage de niveau	lot epreuves_005
+coa_epreuve_regle	65		description	f5359be53cbf	Votre mana / rage / énergie n'est pas rempli quand vous gagnez un niveau.	lot epreuves_005
+coa_epreuve_regle	65		name	122035d468ed	Pas de ressource restaurée au passage de niveau	lot epreuves_005
+coa_epreuve_regle	66		description	5bc98c821fc4	Votre mana n'est pas rempli quand vous gagnez un niveau.	lot epreuves_005
+coa_epreuve_regle	66		name	89db2d5ad868	Pas de mana restauré au passage de niveau	lot epreuves_005
+coa_epreuve_regle	67		description	8811e33eb692	Vous ne régénérez pas votre mana passivement.	lot epreuves_005
+coa_epreuve_regle	67		name	ac2fab60b014	Pas de régénération de mana	lot epreuves_005
+coa_epreuve_regle	68		description	2a9db04e95af	Vous ne pouvez régénérer votre santé ni passivement ni avec de la nourriture, sauf dans une zone de repos.	lot epreuves_005
+coa_epreuve_regle	68		name	ec1cd779053d	Pas de régénération de vie hors repos	lot epreuves_005
+coa_epreuve_regle	69		description	5985f77a9636	Vous ne régénérez pas passivement votre mana / rage / énergie, sauf dans une zone de repos.	lot epreuves_005
+coa_epreuve_regle	69		name	c4b871eff298	Pas de régénération de ressource hors repos	lot epreuves_005
+coa_epreuve_regle	70		description	5dd3e405a0a3	Vous ne pouvez régénérer votre mana ni passivement ni avec des boissons, sauf dans une zone de repos.	lot epreuves_005
+coa_epreuve_regle	70		name	53ce0a0f79e8	Pas de régénération de mana hors repos	lot epreuves_005
+coa_epreuve_regle	71		description	1ba0db61b87c	Les soins n'ont aucun effet sur vous. Cela inclut les sorts de soins, les bandages, les potions de soins et les soins d'autres joueurs.	lot epreuves_005
+coa_epreuve_regle	71		name	8527ee025f98	Impossible de recevoir des soins	lot epreuves_005
+coa_epreuve_regle	72		description	f5b9822dff0f	Les effets de ressourcement n'ont aucun effet sur vous. Cela inclut les potions de mana, les sorts qui restaurent mana / rage / énergie et les talents qui restaurent mana / rage / énergie.	lot epreuves_005
+coa_epreuve_regle	72		name	571a8f86feb1	Impossible de se ressourcer	lot epreuves_005
+coa_epreuve_regle	73		description	67a1587375ab	Les soins n'ont d'effet sur vous que dans une zone de repos. Cela inclut les sorts de soins, les bandages, les potions de soins et les soins d'autres joueurs.	lot epreuves_005
+coa_epreuve_regle	73		name	12450c105321	Pas de soins hors repos	lot epreuves_005
+coa_epreuve_regle	74		description	9729610b8b59	Les effets de ressourcement n'ont d'effet sur vous que dans une zone de repos. Cela inclut les potions de mana, les sorts qui restaurent mana / rage / énergie et les talents qui restaurent mana / rage / énergie.	lot epreuves_005
+coa_epreuve_regle	74		name	7a76ab43f353	Pas de ressourcement hors repos	lot epreuves_005
+coa_epreuve_regle	75		description	66c17aeb2930	Les soins autres que les bandages n'ont aucun effet sur vous. Cela inclut les sorts de soins, les potions de soins et les soins d'autres joueurs. Seuls les bandages vous soignent.	lot epreuves_005
+coa_epreuve_regle	75		name	6f573573796e	Soins par bandage uniquement	lot epreuves_005
+coa_epreuve_regle	76		description	ade4f94cc138	Vous ne pouvez piller aucun objet.	lot epreuves_005
+coa_epreuve_regle	76		name	fa943ec16548	Impossible de ramasser du butin	lot epreuves_005
+coa_epreuve_regle	77		description	09b5528f5c58	Votre portée d'incantation est limitée à votre portée de mêlée.	lot epreuves_005
+coa_epreuve_regle	77		name	1f33b9f8a4b2	Portée d'incantation limitée	lot epreuves_005
+coa_epreuve_regle	78		description	128d97b72afa	Vous ne pouvez pas avoir de sacs supplémentaires. Vous êtes limité aux 16 emplacements de votre sac à dos.	lot epreuves_005
+coa_epreuve_regle	78		name	bcba91190e26	Pas de sacs supplémentaires	lot epreuves_005
+coa_epreuve_regle	79		description	bfb3e5b4d77a	Vous n'infligez aucun dégât.	lot epreuves_005
+coa_epreuve_regle	79		name	b8e926e2e1af	Impossible d'infliger des dégâts	lot epreuves_005
+coa_epreuve_regle	80		description	9d12ce2384e7	Vous ne pouvez pas avoir de familier ni de serviteur.	lot epreuves_005
+coa_epreuve_regle	80		name	d500661f5721	Pas de familiers ni de serviteurs	lot epreuves_005
+coa_epreuve_regle	81		description	853b699bc63f	Vous ne pouvez invoquer aucune mascotte.	lot epreuves_005
+coa_epreuve_regle	81		name	5641b30df5c9	Pas de mascottes	lot epreuves_005
+coa_epreuve_regle	82		description	7ab153241fc6	Vous ne pouvez pas respirer sur la terre ferme et devez plonger sous l'eau pour reprendre votre souffle.	lot epreuves_005
+coa_epreuve_regle	82		name	720b7b435f71	Respiration sous l'eau uniquement	lot epreuves_005
+coa_epreuve_regle	83		description	2340a612c2e9	Vous êtes fatigué si vous ne vous trouvez pas dans une zone de repos.	lot epreuves_005
+coa_epreuve_regle	83		name	0cba7eabf9c2	Fatigué hors repos	lot epreuves_005
+coa_epreuve_regle	84		description	e3040dec83a7	Tuer des humanoïdes vous fera échouer à l'épreuve.	lot epreuves_005
+coa_epreuve_regle	84		name	f96de9ebde37	Interdiction de tuer des humanoïdes	lot epreuves_005
+coa_epreuve_regle	85		description	a3239550267e	Tuer des bêtes ou des bestioles vous fera échouer à l'épreuve.	lot epreuves_005
+coa_epreuve_regle	85		name	0d30d62e253c	Interdiction de tuer des bêtes ou des bestioles	lot epreuves_005
+coa_epreuve_regle	86		description	e203140d31ce	Sauter vous fera échouer à l'épreuve.	lot epreuves_005
+coa_epreuve_regle	86		name	749f6bc570c9	Pas de sauts	lot epreuves_005
+coa_epreuve_regle	87		description	8e90edb652d2	Tomber vous fera échouer à l'épreuve.	lot epreuves_005
+coa_epreuve_regle	87		name	efc50b21e85d	Pas de chutes	lot epreuves_005
+coa_epreuve_regle	88		description	2e6ae9971bf0	Le sol est de la lave.	lot epreuves_005
+coa_epreuve_regle	88		name	605428a2875b	Le sol, c'est de la lave	lot epreuves_005
+coa_epreuve_regle	89		description	fc76495efdbd	Toutes les quêtes peuvent être accomplies en raid.	lot epreuves_005
+coa_epreuve_regle	89		name	d6449107ce8f	Quêtes toujours réalisables en raid	lot epreuves_005
+coa_epreuve_regle	90		description	a51b6bbe19e5	Vous recevrez périodiquement un sort aléatoire que vous ne pouvez pas lancer.	lot epreuves_005
+coa_epreuve_regle	91		description	bf89e2a81c83	Vous recevrez périodiquement un sort aléatoire que vous ne devez pas lancer. Lancer ce sort vous fera échouer à l'épreuve.	lot epreuves_005
+coa_epreuve_regle	92		description	247f3bd4a4bb	Vous ne pouvez acheter d'objets chez aucun marchand.	lot epreuves_005
+coa_epreuve_regle	92		name	ab898d318856	Pas d'achats chez les marchands	lot epreuves_005
+coa_epreuve_regle	93		description	324eeb2ad288	Vous ne pouvez acheter ni nourriture ni boisson chez aucun marchand.	lot epreuves_005
+coa_epreuve_regle	93		name	04833c20d5a3	Pas d'achat de nourriture ou de boisson chez les marchands	lot epreuves_005
+coa_epreuve_regle	94		description	645e28b8ce12	L'adaptation du niveau des créatures est désactivée.	lot epreuves_005
+coa_epreuve_regle	94		name	cae738c684ee	Pas d'adaptation du niveau des créatures	lot epreuves_005
+coa_epreuve_regle	95		description	5dd351418160	L'adaptation du niveau des quêtes est désactivée.	lot epreuves_005
+coa_epreuve_regle	95		name	2747ffed10fa	Pas d'adaptation du niveau des quêtes	lot epreuves_005
+coa_epreuve_regle	96		description	db8f14ab2cae	Vous ne pouvez envoyer du courrier qu'aux joueurs qui participent aux mêmes épreuves que vous.	lot epreuves_005
+coa_epreuve_regle	96		name	3a1a3093846c	Courrier exclusif à l'épreuve	lot epreuves_005
+coa_epreuve_regle	97		description	5020504564d8	À l'hôtel des ventes, vous ne pouvez interagir qu'avec les joueurs qui participent aux mêmes épreuves que vous.	lot epreuves_005
+coa_epreuve_regle	97		name	fc90e0219c29	Hôtel des ventes exclusif à l'épreuve	lot epreuves_005
+coa_epreuve_regle	98		description	8121f91b4bc8	Vous ne pouvez échanger qu'avec les joueurs qui participent aux mêmes épreuves que vous.	lot epreuves_005
+coa_epreuve_regle	98		name	9f809902ad73	Échanges exclusifs à l'épreuve	lot epreuves_005
+coa_epreuve_regle	99		description	f08110178b7b	Vous ne pouvez piller le butin à haut risque que des joueurs qui participent aux mêmes épreuves que vous.	lot epreuves_005
+coa_epreuve_regle	99		name	da9572d20042	Butin à haut risque exclusif à l'épreuve	lot epreuves_005
+coa_epreuve_regle	100		description	9897f97008ce	L'adaptation du niveau des joueurs est désactivée.	lot epreuves_005
+coa_epreuve_regle	100		name	1c89699d6e17	Pas d'adaptation du niveau des joueurs	lot epreuves_005
+coa_epreuve_regle	101		description	67ea94916872	Vous ne pouvez pas équiper d'objets de qualité artefact.	lot epreuves_005
+coa_epreuve_regle	101		name	0fc6dc62b966	Impossible d'équiper des objets d'artefact	lot epreuves_005
+coa_epreuve_regle	102		description	4816cbf1ebaa	Vous ne pouvez pas équiper d'objets de qualité héritage.	lot epreuves_005
+coa_epreuve_regle	102		name	eafaa6396bba	Impossible d'équiper des objets d'héritage	lot epreuves_005
+coa_epreuve_regle	103		description	bbc773c187de	Vous ne pouvez pas dépasser les niveaux requis par les épreuves.	lot epreuves_005
+coa_epreuve_regle	103		name	5277719cd0c0	Vous ne dépasserez pas les niveaux requis	lot epreuves_005
+coa_epreuve_regle	104		description	1d8d2350567f	Vous ne pouvez participer qu'en mode PvE.	lot epreuves_005
+coa_epreuve_regle	104		name	3727a1e768c1	Mode PvE uniquement	lot epreuves_005
+coa_epreuve_regle	105		description	a6649e5f90ec	Dans le monde ouvert, vous ne pouvez faire du PvP qu'avec des joueurs de 5 niveaux de plus ou de moins que vous.	lot epreuves_005
+coa_epreuve_regle	105		name	9e7938e13883	PvP uniquement à 5 niveaux d'écart	lot epreuves_005
+coa_epreuve_regle	106		description	677fa124954a	Vous serez toujours soumis aux règles du combat honorable.	lot epreuves_005
+coa_epreuve_regle	106		name	a79ff3e82e84	Toujours en combat honorable	lot epreuves_005
+coa_epreuve_regle	107		description	7c86771767b6	Vous serez toujours soumis aux règles du combat honorable jusqu'à ce que vous atteigniez le niveau maximum.	lot epreuves_005
+coa_epreuve_regle	107		name	3570f51bfebd	Toujours en combat honorable sauf au niveau maximum	lot epreuves_005
+coa_epreuve_regle	108		description	6eee15bfc4ed	Vous ne pourrez faire du PvP avec des joueurs de niveau maximum que si vous êtes vous-même au niveau maximum.	lot epreuves_005
+coa_epreuve_regle	108		name	0dbb53365001	PvP uniquement entre niveaux maximum	lot epreuves_005
+coa_epreuve_regle	109		description	b67fe2d4a22d	Courir vous fera échouer à cette épreuve.	lot epreuves_005
+coa_epreuve_regle	109		name	84b5dcd16702	Marche uniquement	lot epreuves_005
+coa_epreuve_regle	110		description	dd310d637113	Si vous cessez de bouger, vous échouerez à cette épreuve.	lot epreuves_005
+coa_epreuve_regle	110		name	969d9150a75a	Ne vous arrêtez pas	lot epreuves_005
+coa_epreuve_regle	111		description	07668af6a979	Si vous avancez ou faites des pas de côté, vous échouerez à cette épreuve.	lot epreuves_005
+coa_epreuve_regle	111		name	5f53d4a7addc	Marche arrière uniquement	lot epreuves_005
+coa_epreuve_regle	112		description	d04c6559415c	Si vous avancez ou reculez, vous échouerez à cette épreuve.	lot epreuves_005
+coa_epreuve_regle	112		name	e585b0cb71e0	Pas de côté uniquement	lot epreuves_005
+coa_epreuve_regle	113		description	fe3cece5c140	Vous ne pouvez pas utiliser d'objets de mascotte cosmétiques (Sifflets du maître des bêtes, Pierre d'invocateur, etc.)	lot epreuves_005
+coa_epreuve_regle	113		name	c1154bb3a1c1	Pas d'objets de mascotte cosmétiques	lot epreuves_005
+coa_epreuve_regle	114		description	731bbe5793ef	Vous ne pouvez pas racheter d'objets aux marchands.	lot epreuves_005
+coa_epreuve_regle	114		name	f710f02799e5	Pas de rachat chez les marchands	lot epreuves_005
+coa_epreuve_regle	115		description	a5650e3e64b4	Cette épreuve ne comporte aucune restriction de groupe.	lot epreuves_005
+coa_epreuve_regle	115		name	9363c075ed7f	Groupe avec n'importe qui	lot epreuves_005
+coa_epreuve_regle	116		description	c4988b4e1f52	Vous ne pouvez pas gagner d'expérience avec les métiers.	lot epreuves_005
+coa_epreuve_regle	116		name	e6929a56a8c8	Pas d'expérience de métier	lot epreuves_005
+coa_epreuve_regle	117		description	78fcd2b1349f	Pour cette épreuve, vous pouvez vous grouper avec des joueurs normaux.	lot epreuves_005
+coa_epreuve_regle	117		name	4501651449d5	Groupe avec des joueurs normaux	lot epreuves_005
+coa_epreuve_regle	118		description	a51b6bbe19e5	Vous recevrez périodiquement un sort aléatoire que vous ne pouvez pas lancer.	lot epreuves_005
+coa_epreuve_regle	118		name	999417dc5b97	Méga-roulette des sortilèges	lot epreuves_005
+coa_epreuve_regle	119		description	bf89e2a81c83	Vous recevrez périodiquement un sort aléatoire que vous ne devez pas lancer. Lancer ce sort vous fera échouer à l'épreuve.	lot epreuves_005
+coa_epreuve_regle	119		name	999417dc5b97	Méga-roulette des sortilèges	lot epreuves_005
+coa_epreuve_regle	120		description	d9a6d807aadb	Tant que vous participez à cette épreuve, quel que soit votre niveau actif, vous pouvez vous grouper avec d'autres joueurs suivant la même épreuve.	lot epreuves_005
+coa_epreuve_regle	120		name	bbe1f430973a	Groupe avec quiconque suit la même épreuve	lot epreuves_005
+coa_epreuve_regle	121		description	460d9a127bf1	Tant que vous participez à cette épreuve, vous ne pouvez pas entrer dans la Tempête de mana.	lot epreuves_005
+coa_epreuve_regle	121		name	c79ee3e60409	Pas de Tempête de mana	lot epreuves_005
+coa_epreuve_regle	122		name	fbe952442225	Élites !	lot epreuves_005
+coa_epreuve_regle	123		description	9cb394532cf2	Impossible d'accepter ou de rendre des quêtes de collecte tant que cette règle est active.	lot epreuves_005
+coa_epreuve_regle	123		name	90d8d026cae0	Pas de quêtes de collecte	lot epreuves_005
+coa_epreuve_regle	124		description	d6dccfa1440b	Vous ne pouvez attaquer ou piller que les créatures marquées par votre groupe d'épreuve actuel. Tous les autres marquages sont bloqués.	lot epreuves_005
+coa_epreuve_regle	124		name	37c0fd84c4ea	Marquage d'épreuve strict	lot epreuves_005
+coa_epreuve_regle	125		description	5aba4eba7ed7	Vous ne pouvez blesser ou piller que les créatures marquées par votre groupe d'épreuve actif. Les autres créatures marquées sont invulnérables.	lot epreuves_005
+coa_epreuve_regle	125		name	9a4ef2b658d4	Marquage d'épreuve uniquement	lot epreuves_005
+coa_epreuve_regle	126		description	bf0b05abea2c	Les quêtes de collecte ne rapportent aucune expérience. Les autres récompenses restent identiques.	lot epreuves_005
+coa_epreuve_regle	126		name	f0d72931dd33	Pas d'XP pour les quêtes de collecte	lot epreuves_005
+coa_epreuve_regle	127		description	c6552bad9ba1	Vous ne pouvez vous grouper qu'avec des joueurs à 3 niveaux d'écart au plus du vôtre.	lot epreuves_005
+coa_epreuve_regle	127		name	bcf6e058b1fe	Groupe à 3 niveaux d'écart maximum	lot epreuves_005

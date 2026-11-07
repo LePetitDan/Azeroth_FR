@@ -75,8 +75,23 @@ local function MetierEnFin(t)
     local reste = sub(t, #pre + 1)
     local metier, rang = match(reste, "^(.-)( %(%d+%))$")
     if not metier then metier, rang = reste, "" end
-    local fr = A.Nom("competence", metier)
+    -- 0.9 : aussi les objets de focalisation (« Requires Anvil »), outils (« Mining Pick ») et formes (« Cat Form »)
+    local fr = A.Nom("competence", metier) or A.Nom("focalisation", metier) or A.Nom("forme", metier)
     return fr and (pre .. fr .. rang)
+end
+-- « Requires X » ou « Requiert X » (gabarit anglais ou celui du jeu) : X traduit par les tables de noms
+function A.LigneRequiert(t)
+    if type(t) ~= "string" or t == "" then return nil end
+    local fr = MetierEnFin(t)
+    if fr then return fr end
+    local reste = match(t, "^Requires (.+)$")
+    if not reste then return nil end
+    local g = type(ITEM_REQ_SKILL) == "string" and ITEM_REQ_SKILL or "Requires %s"
+    local pre = match(g, "^(.-)%%s") or "Requires "
+    local metier, rang = match(reste, "^(.-)( %(%d+%))$")
+    if not metier then metier, rang = reste, "" end
+    local nom = A.Nom("competence", metier) or A.Nom("focalisation", metier) or A.Nom("forme", metier)
+    return nom and (pre .. nom .. rang)
 end
 
 local en_cours = false

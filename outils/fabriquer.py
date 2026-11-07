@@ -506,7 +506,20 @@ FAMILLES_ADDON = [
     ('cris', ['serveur/broadcast_cris.tsv'], 'Cris et paroles des PNJ', True),
     ('pages', ['serveur/pages_courriers.tsv', 'client/courriers.tsv'], 'Livres et courriers', True),
     ('objets', ['serveur/objets'], 'Objets', False),
+    # add-on 0.9 : tables du client encore absentes (Épreuves, création de personnage, tutoriels, jetons, émotes,
+    # recherche de groupe, champs de bataille, titres, fêtes…) : une table par texte anglais (XT), et la liste des
+    # gabarits d'émotes à noms (EM)
+    ('client', ['client/epreuves.tsv', 'client/creation_personnage.tsv', 'client/tutoriels.tsv', 'client/progression.tsv',
+                'client/monde_client.tsv', 'client/noms_client.tsv'], 'Textes du client CoA', True),
 ]
+FICHIERS_CLIENT_09 = set(FAMILLES_ADDON[-1][1])
+# 0.9 : les noms de ces types vont AUSSI dans une table de noms (A.Nom), pour les endroits qui ne passent que le nom :
+# suffixes « of the Bear » des objets, familles de familiers dans l'infobulle, en-têtes du journal des quêtes…
+DOMAINE_PAR_TYPE_09 = {'propriete_aleatoire': 'suffixe', 'famille_creature': 'type_creature',
+                       'categorie_quete': 'categorie_quete', 'titre': 'titre', 'fete': 'fete',
+                       'donjon_recherche': 'donjon', 'groupe_donjon_recherche': 'donjon', 'champ_bataille': 'donjon',
+                       'objet_focalisation': 'focalisation', 'categorie_totem': 'focalisation', 'forme': 'forme',
+                       'categorie_limite_objet': 'limite_objet', 'style_coiffure': 'coiffure'}
 # Fichiers jamais lus par la partie generique : deja traites ci-dessus, l'interface (PTRXML), ou hors du
 # champ de l'add-on (hauts faits, messages techniques du serveur, objets du monde).
 HORS_GENERIQUE = {'serveur/quetes.tsv', 'serveur/dialogues.tsv', 'serveur/creatures.tsv',
@@ -533,7 +546,10 @@ TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe':
                'objet_monde': 'NOM',
                # add-on 0.5 : noms des objets demandes par les quetes (objectifs « 0/8 Red Burlap Bandana »), seulement
                # quand le francais est sans ambiguite (un seul francais affichable pour cet anglais, tous objets confondus)
-               'objet_quete': 'NOQ'}
+               'objet_quete': 'NOQ',
+               # add-on 0.9
+               'categorie_quete': 'NCQ', 'titre': 'NTI', 'fete': 'NFE', 'donjon': 'NDJ', 'focalisation': 'NFO',
+               'forme': 'NFM', 'limite_objet': 'NLO', 'coiffure': 'NCF'}
 # Domaines ou un meme anglais aux francais differents n'est PAS embarque (ambigu : l'anglais reste)
 DOMAINES_STRICTS = {'enchantement', 'objet_quete'}
 # add-on 0.5 : objets demandes ou ramasses pour les quetes (quest_template de la base CoA reconstruite, numeros seulement)
@@ -591,6 +607,80 @@ def formes_enchantement(en, fr):
     if len(le) > 1 and len(le) == len(lf):
         for e, f in zip(le, lf):
             ajouter(e.strip(), f.strip(), 'ligne')
+    return out
+
+
+# 0.9 : gabarits à nombres des textes CoA (« Must have less than %1$d free inventory slots », « %1581w/%1601w ») :
+# l'interface les affiche remplis (SetFormattedText, valeurs des états du monde) ; l'add-on retrouve le gabarit par le
+# texte affiché dont chaque nombre devient \x02, vérifie les nombres écrits en dur et remplit le gabarit français.
+RX_PLACE_NB = re.compile(r'%(?:(\d+)\$)?[-+ 0#]*\d*(?:\.\d+)?[dif]|%(\d+)w')
+RX_NOMBRE = re.compile(r'\d+(?:[.,]\d+)?')
+
+
+def gabarit_nombres(en, fr):
+    """(clé, places anglaises, français) si l'anglais a des nombres à remplir et seulement des nombres :
+    places = [['a', n] argument n | ['l', '10'] nombre écrit en dur], dans l'ordre du texte anglais ; français =
+    [morceaux et ['a', n]] (texte à reconstruire). Sinon None."""
+    if not RX_PLACE_NB.search(en) or re.search(r'%(?:\d+\$)?s', en) or not fr:
+        return None
+    if not re.search(r'[A-Za-z]{2}', RX_PLACE_NB.sub('', en)):      # « %1581w/%1601w » : rien de reconnaissable
+        return None
+    places, auto = [], 0
+    morceaux = []
+
+    def remplacer_en(m):
+        nonlocal auto
+        if m.group(2):                       # %1581w : état du monde, pris dans l'ordre
+            auto += 1
+            places.append(['a', auto])
+        elif m.group(1):
+            places.append(['a', int(m.group(1))])
+        else:
+            auto += 1
+            places.append(['a', auto])
+        return '\x00'
+    gab = RX_PLACE_NB.sub(remplacer_en, en)
+    # nombres écrits en dur, dans l'ordre du texte, mêlés aux places
+    tout, i = [], 0
+    for m in re.finditer(r'\x00|\d+(?:[.,]\d+)?', gab):
+        if m.group(0) == '\x00':
+            tout.append(places[i])
+            i += 1
+        else:
+            tout.append(['l', m.group(0)])
+    cle = re.sub(r'\d+(?:[.,]\d+)?', '\x02', gab).replace('\x00', '\x02')
+    # français : mêmes places (positionnelles ou dans l'ordre), nombres en dur gardés tels quels
+    auto, out, pos = 0, [], 0
+    for m in RX_PLACE_NB.finditer(fr):
+        if m.start() > pos:
+            out.append(fr[pos:m.start()])
+        if m.group(2):
+            auto += 1
+            n = auto
+        elif m.group(1):
+            n = int(m.group(1))
+        else:
+            auto += 1
+            n = auto
+        out.append(['a', n])
+        pos = m.end()
+    out.append(fr[pos:])
+    if sorted(x[1] for x in places) != sorted(x[1] for x in out if isinstance(x, list)):
+        return None
+    return canon(cle), tout, [x for x in out if x != '']
+
+
+def formes_titre(en, fr):
+    """0.9 : un titre « Corporal %s » / « %s, Champion of the Naaru » tel que la liste des titres l'affiche
+    (GetTitleName : %s ôté) : sans %s ni espaces, et sans la virgule de tête."""
+    out = []
+    if '%s' in en and '%s' in fr:
+        e, f = en.replace('%s', '').strip(), fr.replace('%s', '').strip()
+        if e and f:
+            out.append((e, f))
+            e2, f2 = e.lstrip(', ').strip(), f.lstrip(', ').strip()
+            if (e2, f2) != (e, f) and e2 and f2:
+                out.append((e2, f2))
     return out
 
 
@@ -720,6 +810,44 @@ class Fabrique:
                 self.textes[famille].add(l[K.I_EN])
         self.resoudre(t, cands)
         return [t]
+
+    def famille_client(self, rels):
+        """0.9 : XT (texte anglais -> français) pour toutes les lignes des six familles du client, plus les formes
+        des titres sans %s ; EM : gabarits d'émotes qui portent un ou deux noms (%s), [motif Lua, français]."""
+        t = Table('client', 'XT', 'texte')
+        em = Table('client', 'EM', 'id')
+        xg = Table('client', 'XG', 'texte')
+        cands = defaultdict(list)
+        cands_g = defaultdict(list)
+        gabarits = {}
+        for l, fr in self.lignes('client', rels):
+            en, typ = l[K.I_EN], l[K.I_TYPE]
+            if self.ajouter_texte(t, en, fr, l[K.I_ETAT], cands):
+                self.cpt['client']['lignes_embarquees'] += 1
+                self.textes['client'].add(en)
+            if typ == 'titre':
+                for en2, fr2 in formes_titre(en, fr):
+                    self.ajouter_texte(t, en2, fr2, l[K.I_ETAT], cands)
+                    self.cpt['client']['formes_titre'] += 1
+            if typ == 'emote' and 0 < en.count('%s') == fr.count('%s') <= 2 and '%' not in en.replace('%s', ''):
+                gabarits.setdefault(en, fr)
+            g = gabarit_nombres(en, fr)
+            if g:
+                k, h2 = cle_texte(g[0])
+                xg.seaux_texte[k] = h2
+                cands_g[k].append((PRIO[l[K.I_ETAT]], g[1:], False, None))
+                self.cpt['client']['gabarits_nombres'] += 1
+        self.resoudre(t, cands)
+        for k, cs in cands_g.items():           # gabarit : la meilleure priorité, sinon le plus fréquent
+            pmax = max(c[0] for c in cs)
+            frs = Counter(json.dumps(c[1]) for c in cs if c[0] == pmax)
+            xg.entrees[k] = json.loads(frs.most_common(1)[0][0])
+        # motifs : du plus long au plus court (« %s agrees with you. » avant « %s agrees. »)
+        for i, (en, fr) in enumerate(sorted(gabarits.items(), key=lambda x: -len(x[0])), 1):
+            motif = '^' + re.sub(r'([\^$()%.\[\]*+\-?])', r'%\1', en.replace('%s', '\x00')).replace('\x00', '(.+)') + '$'
+            em.entrees[i] = [motif, fr]
+        self.cpt['client']['gabarits_emotes'] = len(em.entrees)
+        return [t, em, xg]
 
     def famille_quetes(self):
         """QT : texte -> francais ; QI : numero -> {titre fr, empreinte du titre anglais, cles des textes de la
@@ -890,6 +1018,20 @@ class Fabrique:
             for l, fr in self.lignes(fam, [rel]):
                 typ, champ, en = l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN]
                 prio = PRIO[l[K.I_ETAT]]
+                if rel in FICHIERS_CLIENT_09:
+                    # 0.9 : famille « client » (table XT) ; ici, seulement les noms des types qui ont leur domaine
+                    dom = DOMAINE_PAR_TYPE_09.get(typ)
+                    if dom and CHAMPS_NOM.match(champ) and len(en) <= 120 and '\n' not in en and '$' not in en:
+                        (noms_f if est_feminin(champ) else noms)[dom][en].append((prio, fr))
+                        self.cpt[fam]['lignes_embarquees'] += 1
+                        self.cpt['noms']['lignes_embarquees_' + dom] += 1
+                        self.textes['noms'].add(en)
+                        if dom == 'titre':
+                            for en2, fr2 in formes_titre(en, fr):
+                                (noms_f if est_feminin(champ) else noms)[dom][en2].append((prio, fr2))
+                    else:
+                        self.cpt[fam]['dans_la_famille_client'] += 1
+                    continue
                 if est_sort(typ, champ):
                     try:
                         i = int(l[K.I_ID])
@@ -1322,6 +1464,8 @@ def main():
             tables = fab.famille_texte(famille, rels, 'CT')
         elif famille == 'pages':
             tables = fab.famille_texte(famille, rels, 'PT')
+        elif famille == 'client':
+            tables = fab.famille_client(rels)
         if famille == 'objets':
             familles_lua += ecrire_tranches(addons, 'objets', 'Azeroth_FR_Objets', 'Objets', tables[0], version,
                                             bilan, False)

@@ -67,3 +67,10 @@ Environ 45 000 mots, soit une vingtaine de lots et **environ 4 $** d'API.
 
 - Noms et titres au-dessus des têtes : dessinés par le moteur. Seule la version native les traduit.
 - Noms gravés dans l'image de la carte.
+
+## 6. Où on en est (add-on 0.9.0, 07/11/2026)
+
+- **§ 2 et 3 faits** : toutes ces tables sont dans la source (familles `epreuves`, `creation_personnage`, `tutoriels`, `progression`, `monde_client`, `noms_client`), officielles quand Blizzard les a, sinon traduites (chantier I) ; affichées par `ClientCoA.lua` : Épreuves, tutoriels et mots-clés, émotes, recherche de groupe, calendrier, champs de bataille, salon de coiffure, titres, « Unique-Équipé », « Requiert … », suffixes, familles. Rapport : `docs/2026-11-07_Rapport_Addon-0.9.md`.
+- **§ 4 fait** par Wowhead en français (décision 31) : titres, fêtes, descriptions, familles de familiers ; catégories de quêtes des fêtes par le nom de la fête.
+- **Reste du § 1** : recettes des métiers, réputation, compétences, monnaies, montures et familiers, hôtel des ventes, échange, jets de butin, carte du monde, trajets aériens, qui/amis/guilde, sauvegardes d'instance, carte du personnage CoA.
+- **Avant-jeu** (création de personnage, astuces de l'écran de chargement) : français prêt, affichage à trouver (paquet PTRXML sur les écrans d'avant-jeu, ou version native d'Erydal).

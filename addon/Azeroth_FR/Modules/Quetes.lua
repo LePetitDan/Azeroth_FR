@@ -264,7 +264,7 @@ local function CorrespondancesJournal()
                 local fr
                 if entete then
                     -- 0.8 (essai 7 n° 6) : quetes de classe rangees sous le nom de la classe (« Stormbringer »)
-                    fr = A.Nom("zone", titre) or A.Nom("divers", titre) or A.Nom("classe", titre)
+                    fr = A.Nom("zone", titre) or A.Nom("categorie_quete", titre) or A.Nom("divers", titre) or A.Nom("classe", titre)
                 else
                     local id = IdJournal(i)
                     if id then

@@ -74,6 +74,11 @@ def lot_fait(nom):
 
 
 def extraire(nom):
+    # 07/11/2026 : un lot déjà extrait pour une vague précédente est mis de côté avant d'extraire à nouveau ; sinon
+    # « rien à traduire » relirait l'ancien fichier et renverrait des textes déjà traduits
+    p0 = os.path.join(RACINE, 'work', 'lots', famille_du_lot(nom), nom + '.jsonl')
+    if os.path.exists(p0):
+        os.replace(p0, p0 + '.precedent')
     r = subprocess.run([sys.executable, '-I', LOTS_PY, 'extraire', '--lot', nom], cwd=RACINE,
                        capture_output=True, text=True)
     if r.returncode != 0:

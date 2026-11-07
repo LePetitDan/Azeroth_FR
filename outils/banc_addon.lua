@@ -82,6 +82,7 @@ local function NouvelleZone(texte)
     function z:GetText() return self.texte end
     function z:SetText(t) self.texte = t end
     function z:IsShown() return self.visible end
+    function z:IsVisible() return self.visible end
     function z:Show() self.visible = true end
     function z:Hide() self.visible = false end
     function z:GetObjectType() return "FontString" end
@@ -129,6 +130,7 @@ local function NouveauCadre(nom)
     function c:GetScript(k) return self.scripts[k] end
     function c:HookScript(k, f) self.crochets[k] = self.crochets[k] or {}; table.insert(self.crochets[k], f) end
     function c:IsShown() return self.visible end
+    function c:IsVisible() return self.visible end
     function c:Show() self.visible = true end
     function c:Hide() self.visible = false end
     function c:IsProtected() return self.protege or false end
@@ -1104,6 +1106,66 @@ for _, c in ipairs(CAS_LISTE) do
         egal(c.nom .. " (nom changé par le serveur : anglais)", c.fenetre == "maitre" and ClassTrainerNameText:GetText()
             or _G[c.zone]:GetText(), c.anglais .. " Jr.")
         UNITES.npc = nil
+    elseif c.quoi == "client_fenetre" then
+        -- 0.9 : une fenetre CoA visible, une zone de texte en anglais ; balayage
+        local f = _G[c.cadre] or NouveauCadre(c.cadre)
+        local z = NouvelleZone(c.anglais)
+        f.regions, f.enfants, f.visible = { z }, {}, true
+        A.BalayerFenetre(f)
+        egal(c.nom, z:GetText(), c.attendu)
+        f.visible = false
+    elseif c.quoi == "tutoriel" then
+        -- 0.9 : PathObjectiveDisplayMixin (Ascension_PathToAscension) : SetTutorial -> GetTutorialDisplay, SplitPages
+        C_Tutorial = C_Tutorial or {}
+        function C_Tutorial.GetTutorialDisplay(id) return "Titre", c.anglais, 0 end
+        if not PathToAscensionFrame then
+            local d = { affiches = 0 }
+            function d:SplitPages(t)
+                local pages = {}
+                for morceau in string.gmatch(t .. "{page}", "(.-){page}") do pages[#pages + 1] = morceau end
+                return pages
+            end
+            function d:RefreshDisplay() self.affiches = self.affiches + 1; self.affiche = self.pages[self.page] end
+            function d:SetTutorial(id)
+                self.name, self.description, self.questID = C_Tutorial.GetTutorialDisplay(id)
+                self.page = 1
+                self.pages = self:SplitPages(self.description)
+                self:RefreshDisplay()
+            end
+            PathToAscensionFrame = NouveauCadre("PathToAscensionFrame")
+            PathToAscensionFrame.Display = d
+            Declencher("ADDON_LOADED", "Ascension_PathToAscension")
+        end
+        local d = PathToAscensionFrame.Display
+        d:SetTutorial(42)
+        egal(c.nom .. " (description)", d.description, c.attendu)
+        egal(c.nom .. " (pages)", #d.pages, c.pages)
+        egal(c.nom .. " (page affichée)", d.affiche, d.pages[1])
+    elseif c.quoi == "mot_cle" then
+        -- 0.9 : KeywordTooltipMixin (SharedXML/KeywordTooltip.lua), bulle creee avec le mixin APRES le crochet
+        C_Tutorial = C_Tutorial or {}
+        function C_Tutorial.GetKeywordInfo(k) return c.nom_en, c.anglais end
+        if not KeywordTooltipMixin then
+            KeywordTooltipMixin = {}
+            function KeywordTooltipMixin:FormatLine(t) self.lignes_posees = (self.lignes_posees or 0) + 1; self.texte = t end
+            function KeywordTooltipMixin:SetKeyword(k)
+                self.keyword = k
+                local n, t = C_Tutorial.GetKeywordInfo(k)
+                self.Title:SetText(n)
+                self:FormatLine(t)
+            end
+            Declencher("ADDON_LOADED", "Banc_MotsCles")
+        end
+        local b = { Title = NouvelleZone(""), TextPool = { ReleaseAll = function() end },
+                    ImagePool = { ReleaseAll = function() end }, SetHeight = function() end }
+        for k, v in pairs(KeywordTooltipMixin) do b[k] = v end
+        b:SetKeyword(7)
+        egal(c.nom .. " (titre)", b.Title:GetText(), c.nom_attendu)
+        egal(c.nom .. " (texte)", b.texte, c.attendu)
+    elseif c.quoi == "ligne_objet" then
+        egal(c.nom, A.LigneObjet(c.ligne), c.attendu)
+    elseif c.quoi == "nom_domaine" then
+        egal(c.nom, A.Nom(c.domaine, c.anglais), c.attendu)
     elseif c.quoi == "maitre_liste" then
         DefinirMaitre()
         MAITRE = c.services

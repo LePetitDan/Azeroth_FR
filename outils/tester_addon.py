@@ -19,7 +19,7 @@ import re
 import shutil
 import subprocess
 import sys
-from collections import Counter
+from collections import defaultdict, Counter
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 if ICI not in sys.path:
@@ -262,7 +262,7 @@ def choisir_cas():
             en_inter[cle] = inter[cle][K.I_EN]
             # etat du jeu APRES PTRXML : le francais de la source s'il est affichable, sinon l'anglais du client
             globales[cle] = fr_interface(inter[cle]) or inter[cle][K.I_EN]
-    for cle in ('ITEM_HEROIC', 'SELL_PRICE'):
+    for cle in ('ITEM_HEROIC', 'SELL_PRICE', 'ITEM_LIMIT_CATEGORY', 'ITEM_LIMIT_CATEGORY_MULTIPLE'):
         if cle in inter:
             en_inter[cle] = inter[cle][K.I_EN]
             globales[cle] = fr_interface(inter[cle]) or inter[cle][K.I_EN]
@@ -987,7 +987,81 @@ def choisir_cas():
     cas.append({'quoi': 'squelette', 'nom': 'squelette d\'un texte de sort : même calcul en Python et en Lua (%d textes)' % len(textes),
                 'textes': textes, 'attendus': [F.squelette(t) for t in textes]})
     cas += cas_essai4(globales, g_obj, cr, obj)
+    cas += cas_09(globales)
     return cas, globales, injections
+
+
+def cas_09(globales):
+    """0.9 : textes propres au client CoA (famille « client ») : fenêtre balayée (texte exact, gabarit à nombres),
+    tutoriel du Chemin de l'Ascension, bulle de mot-clé, émotes, catégorie d'objets limités, noms (titres, familles)."""
+    cas = []
+    lignes = []
+    for rel in sorted(F.FICHIERS_CLIENT_09):
+        lignes += lire(rel)
+    par_en = defaultdict(set)
+    for x in lignes:
+        if passe(x):
+            par_en[x[K.I_EN]].add(x[K.I_FR])
+
+    def unique(x):
+        return passe(x) and len(par_en[x[K.I_EN]]) == 1 and x[K.I_FR] != x[K.I_EN]
+    ep = next((x for x in lignes if x[K.I_TYPE] == 'coa_epreuve' and x[K.I_CHAMP] == 'name' and unique(x)
+               and not re.search(r'[\d%$|{<]', x[K.I_EN])), None)
+    if ep:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'Épreuves : nom « %s » dans ChallengesFrame (balayage)' % ep[K.I_EN],
+                    'cadre': 'ChallengesFrame', 'anglais': ep[K.I_EN], 'attendu': ep[K.I_FR]})
+    for x in lignes:
+        g = F.gabarit_nombres(x[K.I_EN], x[K.I_FR]) if unique(x) else None
+        if not g or x[K.I_TYPE] in ('emote',):
+            continue
+        vals, i, args = [], 7, {}
+        for place in g[1]:
+            if place[0] == 'a':
+                args.setdefault(place[1], str(i))
+                vals.append(args[place[1]])
+                i += 4
+            else:
+                vals.append(place[1])
+        nb = iter(vals)
+        aff = re.sub(r'\x02', lambda m: next(nb), F.canon(re.sub(r'\d+(?:[.,]\d+)?', '\x02', F.RX_PLACE_NB.sub('\x00', x[K.I_EN])).replace('\x00', '\x02')))
+        att = ''.join(args[m[1]] if isinstance(m, list) else m for m in g[2])
+        cas.append({'quoi': 'client_fenetre', 'nom': 'gabarit à nombres : « %s » affiché « %s »' % (x[K.I_EN][:60], aff[:60]),
+                    'cadre': 'ChallengesFrame', 'anglais': aff, 'attendu': att})
+        break
+    tu = next((x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel' and x[K.I_CHAMP] == 'text' and unique(x)
+               and '{page}' in x[K.I_EN] and '$' not in x[K.I_EN]), None)
+    if tu:
+        cas.append({'quoi': 'tutoriel', 'nom': 'tutoriel %s du Chemin de l\'Ascension (%d pages)' % (tu[K.I_ID], tu[K.I_EN].count('{page}') + 1),
+                    'anglais': tu[K.I_EN], 'attendu': tu[K.I_FR], 'pages': tu[K.I_FR].count('{page}') + 1})
+    mc = next((x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel_mot_cle' and x[K.I_CHAMP] == 'summary' and unique(x)
+               and '$' not in x[K.I_EN]), None)
+    nm = mc and next((x for x in lignes if x[K.I_TYPE] == mc[K.I_TYPE] and x[K.I_ID] == mc[K.I_ID] and x[K.I_CHAMP] == 'name'), None)
+    if mc and nm:
+        cas.append({'quoi': 'mot_cle', 'nom': 'bulle du mot-clé « %s »' % nm[K.I_EN], 'nom_en': nm[K.I_EN],
+                    'nom_attendu': nm[K.I_FR] if unique(nm) else nm[K.I_EN], 'anglais': mc[K.I_EN], 'attendu': mc[K.I_FR]})
+    for en_e in ('%s agrees with you.', '%s is amazed by %s!', 'You agree.'):
+        e = next((x for x in lignes if x[K.I_TYPE] == 'emote' and x[K.I_EN] == en_e and passe(x)), None)
+        if e:
+            msg = en_e.replace('%s', 'Garion', 1).replace('%s', 'Ilanna', 1)
+            att = e[K.I_FR].replace('%s', 'Garion', 1).replace('%s', 'Ilanna', 1)
+            cas.append({'quoi': 'discussion', 'nom': 'émote « %s »' % en_e, 'evenement': 'CHAT_MSG_TEXT_EMOTE',
+                        'message': msg, 'emetteur': 'Garion', 'attendu': att})
+    li = next((x for x in lignes if x[K.I_TYPE] == 'categorie_limite_objet' and unique(x) and '%' not in x[K.I_EN]), None)
+    if li:
+        en_g = 'Unique-Equipped: %s (%d)'
+        cur = globales.get('ITEM_LIMIT_CATEGORY_MULTIPLE', en_g)
+        cas.append({'quoi': 'ligne_objet', 'nom': 'ligne « %s » (catégorie d\'objets limités)' % (en_g % (li[K.I_EN], 1)),
+                    'ligne': cur.replace('%s', li[K.I_EN]).replace('%d', '1'),
+                    'attendu': cur.replace('%s', li[K.I_FR]).replace('%d', '1')})
+    for dom, typ, en_n in (('titre', 'titre', 'Corporal'), ('type_creature', 'famille_creature', 'Cat'),
+                           ('suffixe', 'propriete_aleatoire', 'of the Bear')):
+        src = next((x for x in lignes if x[K.I_TYPE] == typ and passe(x)
+                    and (x[K.I_EN] == en_n or x[K.I_EN] == en_n + ' %s')), None)
+        if src:
+            att = src[K.I_FR].replace('%s', '').strip() if typ == 'titre' else src[K.I_FR]
+            cas.append({'quoi': 'nom_domaine', 'nom': 'nom « %s » (domaine %s)' % (en_n, dom), 'domaine': dom,
+                        'anglais': en_n, 'attendu': att})
+    return cas
 
 
 def cas_essai4(globales, g_obj, cr, obj):

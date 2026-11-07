@@ -1,0 +1,245 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+coa_archetype	144		ability1	8af91b1142bd	|cFF00f3ffSe débloque au niveau 20 |r\r\n\r\nFait pleuvoir des météores enflammés qui infligent des dégâts à tous les ennemis dans une zone.	lot creation_personnage_004
+coa_archetype	144		ability2	68ace9551270	|cFF00f3ffSe débloque au niveau 28 |r\r\n\r\nInvoque une flamme maléfique et la projette sur votre cible, lui infligeant des dégâts de Feu.	lot creation_personnage_004
+coa_archetype	144		ability3	4a2062cc2d4a	|cFF00f3ffSe débloque au niveau 28 |r\r\n\r\nCanalise un rayon de fureur pure sur la cible, lui infligeant des dégâts de Flamme d'ombre pendant la durée du sort.	lot creation_personnage_004
+coa_archetype	144		ability4	4210b5d6c566	|cFF00f3ffSe débloque au niveau 48 |r\r\n\r\nCalcine l'âme de l'ennemi et lui inflige d'énormes dégâts de Feu.	lot creation_personnage_004
+coa_archetype	144		ability5	88309b45ac7b	|cFF00f3ffSe débloque au niveau 60 |r\r\n\r\nLance un trait de Feu chaotique sur l'ennemi, lui infligeant des dégâts de Feu. Le Trait du chaos ne peut pas être résisté et traverse tous les effets d'absorption, de déviation et de réflexion.	lot creation_personnage_004
+coa_archetype	144		description	6bf7d696bd3d	Environné de feu gangrené et asservi à la Légion, l'Apostat gangrené est un mage chaotique qui calcine ses ennemis par le feu et la mort. Maniant la magie des flammes gangrenées, il brûle ses adversaires sous une pluie de feu et invoque des traits de chaos primordial. Grâce au Rayon de haine, il consume l'âme de ses ennemis avec le temps, les corrompant de l'intérieur avant de les réduire en braises.	lot creation_personnage_004
+coa_archetype	144		name	d581fc9771c0	Apostat gangrené	lot creation_personnage_004
+coa_archetype	144		summary	e149362ee07e	|cff00ff9aCliquez pour plus d'infos.|r \r\n\r Invoquez la magie du Feu et du Chaos pour détruire vos ennemis.	lot creation_personnage_004
+coa_archetype_categorie	1		description	fa698dbc849e	Les héros de mêlée sont des maîtres du combat rapproché, qui comptent sur leurs armes pour déchaîner des attaques sauvages. Des chevaliers et voleurs aux lanciers, barbares et moines, ils se faufilent parmi leurs ennemis et frappent avec une force et une précision inégalées. Les combattants de mêlée excellent à porter des coups puissants et bruts, et peuvent parfois en transpercer plusieurs à la fois. Toujours en première ligne, ces guerriers incarnent la férocité et le talent, renversant le cours de la bataille par des attaques implacables et une détermination inébranlable.	lot creation_personnage_004
+coa_archetype_categorie	1		name	e00694b1e25c	Mêlée	lot creation_personnage_004
+coa_archetype_categorie	1		summary	dfeb21815333	Combattez au corps à corps.	lot creation_personnage_004
+coa_archetype_categorie	2		description	39900daace6d	Les héros magiques tissent les arts mystiques en toutes sortes de sorts offensifs et défensifs. Ils excellent à infliger des dégâts à une cible unique comme à de larges groupes, faisant pleuvoir sur leurs ennemis des dégâts de Feu, de Givre, des Arcanes, de Nature, d'Ombre ou du Sacré. Si la plupart préfèrent rester à distance, beaucoup ont trouvé le moyen de canaliser leur art en puissants sorts défensifs, utilisant leur mana pour se protéger du danger. Qu'ils soient magiciens ou indomptables chevaliers-mages, les héros magiques sont des forces de destruction sur le champ de bataille.	lot creation_personnage_004
+coa_archetype_categorie	2		name	e6791be7eed7	Magie	lot creation_personnage_004
+coa_archetype_categorie	2		summary	c40ffbff76ab	Tissez la magie dans vos attaques.	lot creation_personnage_004
+coa_archetype_categorie	3		description	683946a3e04e	Les héros hybrides ont maîtrisé l'art du combat martial et magique, devenant des lames-sorciers. Ils fondent sans heurt leur art de mage dans de superbes démonstrations de combat rapproché, imprégnant leurs armes de puissance élémentaire, fendant leurs ennemis avec des lames gelées, ou usant de magie d'ombre pour renforcer leurs talents d'assassin. Certains hybrides renforcent leurs capacités de combat grâce à un seul élément, tandis que d'autres emploient de puissants sorts de manipulation et de contrôle pour devenir de meilleurs guerriers.	lot creation_personnage_004
+coa_archetype_categorie	3		name	8e01f6bc7795	Hybride	lot creation_personnage_004
+coa_archetype_categorie	3		summary	e87a0fa7b015	Alliez sort et lame.	lot creation_personnage_004
+coa_archetype_categorie	5		description	05672853a2f4	Les soigneurs purs se consacrent entièrement à restaurer et revigorer leurs alliés. Capables non seulement de soigner et de ressusciter, mais aussi de protéger et d'empêcher entièrement les dégâts, ils consacrent leur attention et leur mana davantage à leur groupe qu'aux ennemis. Grâce à de puissants soins directs, bénédictions et sorts de contrôle, ils maintiennent leur groupe fort et en marche.	lot creation_personnage_004
+coa_archetype_categorie	5		name	a9b8db1a7cb4	Soigneur pur	lot creation_personnage_004
+coa_archetype_categorie	5		summary	bbf91819c526	Restaurez et revigorez vos alliés.	lot creation_personnage_004
+coa_archetype_categorie	6		description	046d6bd94393	Les soigneurs de combat alternent sans heurt entre soigner leurs alliés et blesser leurs ennemis, faisant souvent les deux à la fois. Beaucoup soignent en drainant la vie de leurs ennemis pour la donner à leurs alliés. D'autres accumulent de la puissance en soignant pour déchaîner des sorts dévastateurs sur leurs adversaires. Moins puissants que leurs homologues soigneurs purs, ils compensent en aidant à infliger des dégâts et à tuer les ennemis plus vite.	lot creation_personnage_004
+coa_archetype_categorie	6		name	26bce0818b62	Soigneur de combat	lot creation_personnage_004
+coa_archetype_categorie	6		summary	c4154fb9bbff	Blessez vos ennemis et soignez vos alliés.	lot creation_personnage_004
+coa_archetype_categorie	9		description	fa698dbc849e	Les héros de mêlée sont des maîtres du combat rapproché, qui comptent sur leurs armes pour déchaîner des attaques sauvages. Des chevaliers et voleurs aux lanciers, barbares et moines, ils se faufilent parmi leurs ennemis et frappent avec une force et une précision inégalées. Les combattants de mêlée excellent à porter des coups puissants et bruts, et peuvent parfois en transpercer plusieurs à la fois. Toujours en première ligne, ces guerriers incarnent la férocité et le talent, renversant le cours de la bataille par des attaques implacables et une détermination inébranlable.	lot creation_personnage_004
+coa_archetype_categorie	9		name	e00694b1e25c	Mêlée	lot creation_personnage_004
+coa_archetype_categorie	9		summary	dfeb21815333	Combattez au corps à corps.	lot creation_personnage_004
+coa_archetype_categorie	10		description	6ed09fbd44a3	Les héros à distance sont des guerriers agiles et mortels, qui excellent à tuer leurs ennemis de loin. Précis et justes, ils restent hors de danger pour se concentrer entièrement sur l'attaque. Ils tirent des traits rapides et mortels depuis une longue portée, criblant leurs ennemis de flèches et de balles. Rôdeurs, archers et tireurs entrent tous dans cette catégorie.	lot creation_personnage_004
+coa_archetype_categorie	10		name	a6a535b865db	À distance	lot creation_personnage_004
+coa_archetype_categorie	10		summary	d728b60f8302	Abattez l'ennemi de loin.	lot creation_personnage_004
+coa_archetype_categorie	11		description	39900daace6d	Les héros magiques tissent les arts mystiques en toutes sortes de sorts offensifs et défensifs. Ils excellent à infliger des dégâts à une cible unique comme à de larges groupes, faisant pleuvoir sur leurs ennemis des dégâts de Feu, de Givre, des Arcanes, de Nature, d'Ombre ou du Sacré. Si la plupart préfèrent rester à distance, beaucoup ont trouvé le moyen de canaliser leur art en puissants sorts défensifs, utilisant leur mana pour se protéger du danger. Qu'ils soient magiciens ou indomptables chevaliers-mages, les héros magiques sont des forces de destruction sur le champ de bataille.	lot creation_personnage_004
+coa_archetype_categorie	11		name	e6791be7eed7	Magie	lot creation_personnage_004
+coa_archetype_categorie	11		summary	c40ffbff76ab	Tissez la magie dans vos attaques.	lot creation_personnage_004
+coa_archetype_categorie	12		description	683946a3e04e	Les héros hybrides ont maîtrisé l'art du combat martial et magique, devenant des lames-sorciers. Ils fondent sans heurt leur art de mage dans de superbes démonstrations de combat rapproché, imprégnant leurs armes de puissance élémentaire, fendant leurs ennemis avec des lames gelées, ou usant de magie d'ombre pour renforcer leurs talents d'assassin. Certains hybrides renforcent leurs capacités de combat grâce à un seul élément, tandis que d'autres emploient de puissants sorts de manipulation et de contrôle pour devenir de meilleurs guerriers.	lot creation_personnage_004
+coa_archetype_categorie	12		name	8e01f6bc7795	Hybride	lot creation_personnage_004
+coa_archetype_categorie	12		summary	e87a0fa7b015	Alliez sort et lame.	lot creation_personnage_004
+coa_archetype_role	1		description	d4f3f8269e71	Les tanks sont des remparts indomptables qui absorbent et détournent les dégâts, encaissant les coups pour que le reste du groupe reste en sécurité. Ils forment l'avant-garde de tout groupe, utilisant boucliers, armures lourdes, effets de transformation monstrueux et parfois même la simple agilité pour bloquer, esquiver, parer et ignorer les effets qui les visent. Dotés de beaucoup de points de vie et de capacités défensives, ils retiennent l'attention des ennemis pendant que le reste du groupe fait son travail.	lot creation_personnage_004
+coa_archetype_role	1		name	0ba4d1aee6f2	Tank	lot creation_personnage_004
+coa_archetype_role	1		summary	0fc389c66c6b	Encaissez les coups et défendez vos alliés.	lot creation_personnage_004
+coa_archetype_role	2		description	daf120adec6e	Les soigneurs sont de puissants lanceurs de sorts qui usent de leur magie pour soutenir et revigorer leurs alliés. Capables de bénir, de restaurer et même de ressusciter leurs amis tombés, la plupart sont des disciples de la Sainte Lumière ou du cycle éternel de la Nature. Certains mêlent même ces éléments à des écoles plus offensives, maniant un feu sacré cautérisant ou apaisant leurs alliés par des soins de givre. Dotés de vastes réserves de magie et d'un éventail de sorts de soutien, ils sont l'épine dorsale de leur groupe, permettant à chacun de foncer au danger.\r\n	lot creation_personnage_004
+coa_archetype_role	2		name	6cad85d7f7dc	Soigneur	lot creation_personnage_004
+coa_archetype_role	2		summary	c815ec04a4a7	Pansez les blessures de vos alliés.	lot creation_personnage_004
+coa_archetype_role	3		description	52342c2f06ff	Combattants barbares, assassins agiles et puissants magiciens partagent un même but : se débarrasser rapidement de leurs ennemis. Qu'ils usent d'une formidable tempête d'acier ou d'un torrent de magie des arcanes, ceux qui se concentrent sur l'élimination des adversaires sont appelés attaquants (DPS). Ce rôle englobe la plus grande variété de héros : des chevaliers errants aux rôdeurs, voleurs et sorciers. Suivre cette voie, c'est embrasser la destruction.\r\n	lot creation_personnage_004
+coa_archetype_role	3		name	7bf6d1d3a58a	Dégâts	lot creation_personnage_004
+coa_archetype_role	3		summary	58a003548aae	Détruisez les ennemis de votre groupe.	lot creation_personnage_004
+coa_guide_role	1		description	4293117d5587	Classes capables de protéger leurs alliés et de retenir les ennemis.	lot creation_personnage_004
+coa_guide_role	1		name	0ba4d1aee6f2	Tank	lot creation_personnage_004
+coa_guide_role	2		description	d62706e0cd1c	Classes qui restaurent et protègent leurs alliés.	lot creation_personnage_004
+coa_guide_role	2		name	6cad85d7f7dc	Soigneur	lot creation_personnage_004
+coa_guide_role	3		description	e05376113e0c	Classes axées sur la défaite des ennemis.	lot creation_personnage_004
+coa_guide_role	3		name	7bf6d1d3a58a	Dégâts	lot creation_personnage_004
+coa_guide_role	4		description	db6aeb1a403a	Classes dotées d'utilité, de contrôle ou de soutien de groupe.	lot creation_personnage_004
+coa_guide_role	4		name	f32d5a3b17e6	Soutien	lot creation_personnage_004
+coa_guide_sous_role	1		description	ec8d2c6cc3b6	Classes de dégâts qui combattent de près.	lot creation_personnage_004
+coa_guide_sous_role	1		name	e00694b1e25c	Mêlée	lot creation_personnage_004
+coa_guide_sous_role	2		description	2a4f21bf7149	Classes de dégâts qui attaquent à distance.	lot creation_personnage_004
+coa_guide_sous_role	2		name	a6a535b865db	À distance	lot creation_personnage_004
+coa_guide_sous_role	3		description	f0a27ac9a174	Classes de dégâts fondées sur les sorts.	lot creation_personnage_004
+coa_guide_sous_role	3		name	9c060f85c42e	Lanceur de sorts	lot creation_personnage_004
+coa_guide_sous_role	4		description	d8ffea8e10e5	Classes de dégâts qui mêlent combat physique et magique.	lot creation_personnage_004
+coa_guide_sous_role	4		name	8e01f6bc7795	Hybride	lot creation_personnage_004
+coa_guide_sous_role	5		description	3a3cb58de0cf	Classes dotées d'une spécialisation tank.	lot creation_personnage_004
+coa_guide_sous_role	5		name	0ba4d1aee6f2	Tank	lot creation_personnage_004
+coa_guide_sous_role	6		description	2ac720933c8c	Classes dotées d'une spécialisation de soins.	lot creation_personnage_004
+coa_guide_sous_role	6		name	6cad85d7f7dc	Soigneur	lot creation_personnage_004
+coa_guide_sous_role	7		description	7e0506f39842	Classes dotées de données de spécialisation de soutien.	lot creation_personnage_004
+coa_guide_sous_role	7		name	f32d5a3b17e6	Soutien	lot creation_personnage_004
+coa_message_demarrage	1		text	2de8f87cb665	Sublimation	lot creation_personnage_004
+coa_message_demarrage	2		text	2667d76e5859	Sublimation n'a pas pu démarrer l'accélération 3D. Veuillez vérifier que DirectX 9.0c est installé et que vos pilotes vidéo sont à jour.	lot creation_personnage_004
+coa_message_demarrage	3		text	6c111fd1e71f	Sublimation n'a pas pu démarrer l'accélération 3D.	lot creation_personnage_004
+coa_message_demarrage	4		text	935ee2ebbb82	Votre carte accélératrice 3D n'est pas prise en charge par Sublimation. Veuillez installer une carte accélératrice 3D compatible double TMU.	lot creation_personnage_004
+coa_message_demarrage	5		text	b6954cb05933	Matériel modifié.  Recharger les paramètres par défaut ?	lot creation_personnage_004
+coa_message_demarrage	9		text	5da071817a05	Les fichiers de votre interface de connexion sont corrompus.  Veuillez réinstaller le jeu.	lot creation_personnage_004
+coa_message_demarrage	10		text	f7c25f7f3327	Les fichiers de votre interface de jeu sont corrompus.  Veuillez supprimer votre dossier Interface\FrameXML.	lot creation_personnage_004
+coa_message_demarrage	11		text	48cc67adcfbd	Impossible de trouver un périphérique d'affichage adapté.  Fermeture du programme.	lot creation_personnage_004
+coa_message_demarrage	12		text	7fd9b1568c90	Il n'est pas possible d'exécuter Sublimation via une connexion Bureau à distance.  Fermeture du programme.	lot creation_personnage_004
+coa_specialisation	1		description	1aefff7254c8	Faites pleuvoir une tempête d'acier sur votre proie, clouant vos ennemis avec des lances brise-os avant de les achever sous une volée de haches lancées avec art.	lot creation_personnage_004
+coa_specialisation	1		name	5f777b24b35c	Chasse aux têtes	lot creation_personnage_004
+coa_specialisation	2		description	da99ccbc6205	Embrassez la vraie barbarie et dévastez vos ennemis avec une puissante arme à deux mains.	lot creation_personnage_004
+coa_specialisation	2		name	46c4851976a0	Brutalité	lot creation_personnage_004
+coa_specialisation	3		description	80d8e7b309f5	Invoquez la puissance du Nord et votre soif d'alcool pour soutenir vos alliés par de brèves faveurs ou de puissantes auras.	lot creation_personnage_004
+coa_specialisation	3		name	4447427cfb06	Ascendance	lot creation_personnage_004
+coa_specialisation	4		description	9ec058530c03	Embrassez les enseignements de Bwonsamdi et devenez l'incarnation vivante de la colère des Loas grâce à de puissantes attaques à distance et à la magie de l'ombre.	lot creation_personnage_004
+coa_specialisation	4		name	772cd6c05be7	Chasse aux ombres	lot creation_personnage_004
+coa_specialisation	5		description	64bcd5f4e164	Embrassez le vaudou, estropiez et affaiblissez vos ennemis avec de puissants sorts de manipulation.	lot creation_personnage_004
+coa_specialisation	5		name	213a77ef49d8	Vaudou	lot creation_personnage_004
+coa_specialisation	6		description	11ae16c5635a	Domptez les ombres de l'alchimie noire pour concocter de puissants breuvages et potions, canalisant des énergies de soin pour renforcer vos alliés.	lot creation_personnage_004
+coa_specialisation	6		name	16792ae3681f	Brassage	lot creation_personnage_004
+coa_specialisation	7		description	1b4638e7bbaa	Renforcez-vous par une sorcellerie gangrenée sans entraves pour semer la ruine de loin, incinérant vos ennemis par des explosions instables et un assaut démoniaque implacable.	lot creation_personnage_004
+coa_specialisation	7		name	007ab7a6986f	Infernal	lot creation_personnage_004
+coa_specialisation	8		description	f25e5dae2421	Renforcez vos armes de magie gangrenée et engagez le combat rapproché contre vos ennemis.	lot creation_personnage_004
+coa_specialisation	8		name	441547750c4a	Pourfendeur	lot creation_personnage_004
+coa_specialisation	9		description	8eaa02bdeb66	Renforcez votre forme démoniaque, brandissez deux lames colossales et dominez le champ de bataille de votre masse imposante en tank inébranlable.	lot creation_personnage_004
+coa_specialisation	9		name	7e22015b32be	Tyran	lot creation_personnage_004
+coa_specialisation	10		description	e67d30da648f	Utilisez des arbalètes pour abattre vos ennemis à moyenne distance avec une mobilité inégalée.	lot creation_personnage_004
+coa_specialisation	10		name	2de9f5f130c8	Tireur d'arbalète	lot creation_personnage_004
+coa_specialisation	11		description	c4608b4cbd1f	Utilisez des armes à feu et un chien d'ombre pour réduire vos ennemis à néant depuis l'autre bout du champ de bataille.	lot creation_personnage_004
+coa_specialisation	11		name	34e981da5eaa	Maître-chien	lot creation_personnage_004
+coa_specialisation	12		description	4b24cf35efac	Maniez deux armes pour traquer les malfaisants d'Azeroth, les brûlant dans les flammes ardentes du jugement.	lot creation_personnage_004
+coa_specialisation	12		name	8c1286f4521f	Inquisition	lot creation_personnage_004
+coa_specialisation	13		description	15bb2d1aae67	Soutenez vos alliés par de puissantes faveurs et contrôlez vos ennemis grâce à un serviteur du vent qui vous assiste.	lot creation_personnage_004
+coa_specialisation	13		name	142b5758f344	Vent	lot creation_personnage_004
+coa_specialisation	14		description	b0fa57b6616c	Invoquez la puissance des tempêtes, en combinant de puissantes magies de l'eau et de la foudre pour électrocuter vos ennemis.	lot creation_personnage_004
+coa_specialisation	14		name	a1539b69a253	Maelström	lot creation_personnage_004
+coa_specialisation	15		description	834b70781cd9	Anéantissez l'ennemi par la force de la foudre elle-même, déchaînant de puissantes décharges d'énergie et propageant l'électricité à travers le champ de bataille.	lot creation_personnage_004
+coa_specialisation	15		name	4504e5f0bfcc	Foudre	lot creation_personnage_004
+coa_specialisation	16		description	5d6742d3655e	Appelez les flammes infernales du lointain monde de Xoroth pour incinérer vos ennemis par de puissantes attaques explosives, en hybride de mêlée et de feu redoutable.	lot creation_personnage_004
+coa_specialisation	16		name	b68d2946f197	Flammes infernales	lot creation_personnage_004
+coa_specialisation	17		description	cedcf30c073d	Commandez une armée de démons xorothiens pour accroître votre propre prouesse au combat et défendre vos alliés, tel un colosse venu de l'enfer.	lot creation_personnage_004
+coa_specialisation	17		name	f616d0134740	Défi	lot creation_personnage_004
+coa_specialisation	18		description	62318de661f0	Massacrez vos ennemis à coups d'entailles sauvages et de fendoirs brutaux, déchirant la chair en colosse implacable couvert de sang.	lot creation_personnage_004
+coa_specialisation	18		name	f3c59920b109	Guerre	lot creation_personnage_004
+coa_specialisation	19		description	35a08db508d2	Détruisez vos ennemis avec un bouclier en maître de l'arène, dévastant vos adversaires par de puissants coups de pied et les piégeant dans des filets.	lot creation_personnage_004
+coa_specialisation	19		name	c3b751c5b3c1	Gladiateur	lot creation_personnage_004
+coa_specialisation	20		description	1306b9062a5d	Menez à l'avant par des discours enflammés, des étendards de guerre et des ballades héroïques qui galvanisent vos alliés et brisent la détermination de l'ennemi.	lot creation_personnage_004
+coa_specialisation	20		name	2868202fbdaf	Inspiration	lot creation_personnage_004
+coa_specialisation	21		description	baa90bb87ac5	Chargez dans la mêlée et protégez vos alliés du danger grâce à un immense bouclier et de lourdes capacités défensives.	lot creation_personnage_004
+coa_specialisation	21		name	27b6cf799ec7	Avant-garde	lot creation_personnage_004
+coa_specialisation	22		description	12810c58492c	Protégez vos alliés avec une maîtrise martiale disciplinée, parant les coups et amortissant les dégâts reçus avant de répondre par de décisives contre-attaques.	lot creation_personnage_004
+coa_specialisation	22		name	63eabb8aac43	Gardien du serment	lot creation_personnage_004
+coa_specialisation	23		description	80c44fd3d20e	Submergez vos ennemis sous un enchaînement de frappes zélées de plus en plus puissantes, qui brisent même les défenses les plus fermes.	lot creation_personnage_004
+coa_specialisation	23		name	18abf21fa7dc	Zélote	lot creation_personnage_004
+coa_specialisation	24		description	9905613c558a	Fendez vos ennemis dans une tempête d'acier vertueux, déchaînant vos serments pour écraser plusieurs adversaires à la fois.	lot creation_personnage_004
+coa_specialisation	25		description	36669455b819	Tissez la chair et le sang en rites de renforcement, confortant vos alliés par de puissantes faveurs tout en pansant leurs blessures aux moments critiques.	lot creation_personnage_004
+coa_specialisation	25		name	bc841cb6d02d	Tisse-chair	lot creation_personnage_004
+coa_specialisation	26		description	1cb57d9d11b4	Embrassez la malédiction du Vampyr en lanceur de sorts d'ombre, nourrissant une soif insatiable qui renforce votre magie du sang à un coût toujours croissant.	lot creation_personnage_004
+coa_specialisation	26		name	3b0e41ff1e1b	Sanguin	lot creation_personnage_004
+coa_specialisation	27		description	7ac6f056ca2f	Utilisez une forme maudite renforcée pour entrer et sortir du combat, à la fois attaquant de mêlée et lanceur de sorts.	lot creation_personnage_004
+coa_specialisation	27		name	25d9846c8a58	Maudit	lot creation_personnage_004
+coa_specialisation	28		description	22acf18d1692	Assaillez vos ennemis à distance avec des armes de tir, en vous servant de divers carquois puissants pour les abattre.	lot creation_personnage_004
+coa_specialisation	28		name	569af032e167	Tir à l'arc	lot creation_personnage_004
+coa_specialisation	29		description	b183253fdfad	Dominez le champ de bataille avec aisance grâce à de puissants sorts à distance et à des capacités utilitaires, tout en soutenant vos alliés avec des cors et en appelant des faucons dans la mêlée.	lot creation_personnage_004
+coa_specialisation	29		name	b74fec091aaf	Marcheur lointain	lot creation_personnage_004
+coa_specialisation	30		description	0af295e49bb6	Traquez votre proie avec une précision impitoyable, l'assaillant de près et ouvrant de graves blessures pour la saigner à blanc.	lot creation_personnage_004
+coa_specialisation	30		name	ab5787040493	Brigand	lot creation_personnage_004
+coa_specialisation	31		description	2be4e13c5891	Courbez le flux des éons pour panser les blessures, retarder les dégâts subis et déjouer le destin lui-même par une élégante maîtrise temporelle.	lot creation_personnage_004
+coa_specialisation	31		name	6c82e6dd8680	Temps	lot creation_personnage_004
+coa_specialisation	32		description	a1e7a8205513	Des énergies chaotiques déchaînées vous traversent tandis que vous canalisez la puissance du Vol draconique infini et les employez avec dessein pour défaire vos ennemis.	lot creation_personnage_004
+coa_specialisation	32		name	b8449b07486f	Infini	lot creation_personnage_004
+coa_specialisation	33		description	820edd7daaef	Tissez des échos fragmentés du temps dans les attaques de votre baguette pour les renforcer sans cesse ou libérer de seules décharges de dégâts magiques.	lot creation_personnage_004
+coa_specialisation	33		name	f5247b0d8396	Artificier	lot creation_personnage_004
+coa_specialisation	34		description	9fa36ae8fe26	Répandez d'immondes fléaux sur vos ennemis pour les flétrir avec le temps et les putréfier par de dévastatrices maladies.	lot creation_personnage_004
+coa_specialisation	34		name	d8c7d877ba61	Mort	lot creation_personnage_004
+coa_specialisation	35		description	73a108726252	Relevez de vastes hordes de morts-vivants sacrifiables, accroissez la puissance de votre horde et utilisez leurs effets de commandement pour détruire vos ennemis.	lot creation_personnage_004
+coa_specialisation	35		name	62afd21e8876	Animation	lot creation_personnage_004
+coa_specialisation	36		description	558cd13337da	Libérez la liche qui sommeille en vous. Utilisez la magie du givre pour blesser et contrôler vos ennemis, les glaçant jusqu'aux os aux côtés de géants morts-vivants.	lot creation_personnage_004
+coa_specialisation	36		name	c29eb5e4ebab	Givrelune	lot creation_personnage_004
+coa_specialisation	37		description	ce4f9d2cabb3	Trouvez le réconfort dans la caresse des flammes, où les soins embrasent l'esprit et ravivent l'espoir au cœur de la bataille.	lot creation_personnage_004
+coa_specialisation	37		name	c1d42a810663	Tissage de flammes	lot creation_personnage_004
+coa_specialisation	38		description	2433b6f155f5	Attisez des flammes incinérantes, calcinant vos ennemis et les laissant se tordre de douleur.	lot creation_personnage_004
+coa_specialisation	38		name	309ecd97c70c	Incinération	lot creation_personnage_004
+coa_specialisation	39		description	42a42679466f	Accédez à un état renforcé et anéantissez vos ennemis grâce à la puissante magie que vous accordent les Aspects draconiques.	lot creation_personnage_004
+coa_specialisation	39		name	20c0322dd883	Draconique	lot creation_personnage_004
+coa_specialisation	40		description	08a8a3ff40c6	Embrassez la folie sur le champ de bataille, soignant vos alliés par la puissance de Yogg-Saron dans une ferveur démente au corps à corps.	lot creation_personnage_004
+coa_specialisation	40		name	809c1c1330d8	Hérétique	lot creation_personnage_004
+coa_specialisation	41		description	74c4c6667b11	Canalisez le regard destructeur de C'Thun, déchaînant de dévastatrices magies du Vide sur le champ de bataille.	lot creation_personnage_004
+coa_specialisation	41		name	391494f4bbed	Corruption	lot creation_personnage_004
+coa_specialisation	42		description	ab0bc392c704	Imprégnez votre arme de la puissance de N'Zoth, en puissant héraut de ses desseins.	lot creation_personnage_004
+coa_specialisation	42		name	f0b68557ae9e	Lame divine	lot creation_personnage_004
+coa_specialisation	43		description	fd21ac3dae85	Embrassez les cycles lunaires, exploitant leur pouvoir sur les eaux magiques pour soigner vos alliés.	lot creation_personnage_004
+coa_specialisation	43		name	638479c473ad	Prêtre de la lune	lot creation_personnage_004
+coa_specialisation	44		description	6c22c9b206d5	Rejoignez les Sentinelles pour décocher des flèches enchantées, éclairées par l'éternelle lueur de la Lune.	lot creation_personnage_004
+coa_specialisation	44		name	1b723f9a0711	Sentinelle	lot creation_personnage_004
+coa_specialisation	45		description	f4c2439a5ff5	Devenez un avatar de la colère d'Élune, brisant vos ennemis par d'implacables frappes lunaires et dispensant une justice sans distinction.	lot creation_personnage_004
+coa_specialisation	46		description	53d77991be7d	Maniez flamme sanctifiée et colère sacrée de concert, chassant la corruption par le feu et réduisant vos ennemis en cendres purifiées.	lot creation_personnage_004
+coa_specialisation	46		name	4d50c38f5393	Piété	lot creation_personnage_004
+coa_specialisation	47		description	e6fd441aaad5	Devenez la colère de la Lumière faite chair, taillant vos ennemis d'une grande lame dans chaque main, tempête d'acier sacré impitoyable.	lot creation_personnage_004
+coa_specialisation	47		name	75b21df15493	Valkyrie	lot creation_personnage_004
+coa_specialisation	48		description	3fd1373c867a	Prêtez un serment radieux pour garder vos alliés, rempart inflexible qui détourne le mal sous le soleil.	lot creation_personnage_004
+coa_specialisation	48		name	fc7945cbebdf	Séraphin	lot creation_personnage_004
+coa_specialisation	49		description	dbb4d370f9ce	Faites détoner de puissants explosifs, lancez des roquettes et bâtissez de mortelles machines pour semer le chaos et la destruction parmi vos ennemis.	lot creation_personnage_004
+coa_specialisation	49		name	2b1dc4c7b981	Démolition	lot creation_personnage_004
+coa_specialisation	50		description	e675a1f764e2	Améliorez vos tourelles et alliés mécaniques tout en récoltant de la ferraille pour bâtir une méca-armure à réaction, qui débloque des capacités accrues.	lot creation_personnage_004
+coa_specialisation	50		name	d4a20ddcf46c	Mécanique	lot creation_personnage_004
+coa_specialisation	51		description	6da22bad033e	Soignez-vous et soignez vos alliés grâce à un vaste éventail de nanorobots et de modules, et bâtissez de puissantes balises pour renforcer vos alliés.	lot creation_personnage_004
+coa_specialisation	51		name	0a3176cbaf7c	Invention	lot creation_personnage_004
+coa_specialisation	52		description	5788495c0f61	Durcissez votre corps d'un exosquelette chitineux qui se régénère, fortifiant vos points faibles pour endurer les assauts ennemis les plus rudes.	lot creation_personnage_004
+coa_specialisation	52		name	fd78cedee24a	Robustesse	lot creation_personnage_004
+coa_specialisation	53		description	f567a308caef	Prenez la forme d'une araignée pour terrasser vos ennemis depuis l'ombre grâce à la puissante magie de Nature et d'Ombre.	lot creation_personnage_004
+coa_specialisation	53		name	4eaf3402d2d6	Traque	lot creation_personnage_004
+coa_specialisation	54		description	2a736a3ba4d3	Entremêlez poisons et fléaux fongiques qui putréfient vos ennemis de l'intérieur, laissant derrière eux des excroissances instables qui éclatent dans leur sillage.	lot creation_personnage_004
+coa_specialisation	54		name	ab9513c76404	Putréfaction	lot creation_personnage_004
+coa_specialisation	55		description	9053b407007b	Rôdez dans le royaume des ombres, apportant à vos ennemis le froid glacial de la mort.	lot creation_personnage_004
+coa_specialisation	55		name	0cae74dd2ee6	Âme	lot creation_personnage_004
+coa_specialisation	56		description	aae1fcdc2d90	Moissonnez l'essence vitale de vos ennemis pour renforcer de écrasantes frappes à deux mains, entretenant votre offensive grâce à la vitalité volée.	lot creation_personnage_004
+coa_specialisation	56		name	1b665f2be323	Moisson	lot creation_personnage_004
+coa_specialisation	57		description	8d2275f9435b	Écrasez vos ennemis par une puissante magie des âmes tout en parant leurs attaques, et dominez ceux qui se dressent devant vous grâce à des faux spectrales et des gardiens spectraux.	lot creation_personnage_004
+coa_specialisation	57		name	0a5607b199f3	Domination	lot creation_personnage_004
+coa_specialisation	58		description	77e55210a21f	Invoquez la nature sauvage en poussées régénératrices, pansant les blessures et fortifiant vos alliés d'écorce, de fleurs et de vigueur primordiale.	lot creation_personnage_004
+coa_specialisation	58		name	507eaa450604	Gardien du bosquet	lot creation_personnage_004
+coa_specialisation	59		description	afae6b820361	Marchez avec les esprits animaux d'Azeroth en fier guerrier totémique, mutilant vos ennemis et invoquant la fureur de la nature.	lot creation_personnage_004
+coa_specialisation	59		name	02aa218f8223	Marcheur sauvage	lot creation_personnage_004
+coa_specialisation	60		description	12f63cfee232	Déplacez la pierre et retournez la terre, maniant deux puissantes armes pour vous défendre, vous et vos alliés, du danger.	lot creation_personnage_004
+coa_specialisation	60		name	2251c031056f	Roi de la montagne	lot creation_personnage_004
+coa_specialisation	61		description	0a5dc860ca5b	Maniez deux armes à une main et employez-les avec de puissantes gravures pour rouer vos ennemis de coups d'une sauvage magie primordiale.	lot creation_personnage_004
+coa_specialisation	61		name	fd689a678f58	Gravure	lot creation_personnage_004
+coa_specialisation	62		description	5c5ee6fb5d80	Invoquez des glyphes de givre, de flamme et des arcanes en succession rapide, bombardant vos ennemis d'une puissance élémentaire stratifiée et d'une force primordiale.	lot creation_personnage_004
+coa_specialisation	62		name	9bbd929536de	Glyphique	lot creation_personnage_004
+coa_specialisation	63		description	36021ca9b938	Apportez la destruction à vos ennemis avec grâce, maniant une arme à deux mains et de puissantes attaques magiques dévastatrices.	lot creation_personnage_004
+coa_specialisation	63		name	2bf4f7801d20	Lame de la faille	lot creation_personnage_004
+coa_specialisation	64		name	047072f53ca8	Armes	lot creation_personnage_004
+coa_specialisation	65		name	3af0c32b3fba	Fureur	lot creation_personnage_004
+coa_specialisation	66		name	0f8cc4f34d7f	Protection	lot creation_personnage_004
+coa_specialisation	67		name	dfe1d7f7d16c	Sacré	lot creation_personnage_004
+coa_specialisation	68		name	0f8cc4f34d7f	Protection	lot creation_personnage_004
+coa_specialisation	69		name	8366443a8650	Vindicte	lot creation_personnage_004
+coa_specialisation	70		name	747c9209861b	Maîtrise des bêtes	lot creation_personnage_004
+coa_specialisation	71		name	e75ac4365ab0	Précision	lot creation_personnage_004
+coa_specialisation	72		name	fe88ea8d5fa6	Survie	lot creation_personnage_004
+coa_specialisation	73		name	01c14ed50231	Assassinat	lot creation_personnage_004
+coa_specialisation	74		name	af169bb89cfb	Combat	lot creation_personnage_004
+coa_specialisation	75		name	e81ea1b3be50	Finesse	lot creation_personnage_004
+coa_specialisation	76		name	14877e80cbce	Discipline	lot creation_personnage_004
+coa_specialisation	77		name	dfe1d7f7d16c	Sacré	lot creation_personnage_004
+coa_specialisation	78		name	aa0e7e86b7aa	Ombre	lot creation_personnage_004
+coa_specialisation	79		name	24652e28b940	Sang	lot creation_personnage_004
+coa_specialisation	80		name	6032a672e309	Givre	lot creation_personnage_004
+coa_specialisation	81		name	2a8dbafc6266	Impie	lot creation_personnage_004
+coa_specialisation	82		name	5871bb361901	Élémentaire	lot creation_personnage_004
+coa_specialisation	83		name	ba25f1a97647	Amélioration	lot creation_personnage_004
+coa_specialisation	84		name	41590e8e283f	Restauration	lot creation_personnage_004
+coa_specialisation	85		name	5f0a4cd330d6	Arcanes	lot creation_personnage_004
+coa_specialisation	86		name	78baebfcb4b5	Feu	lot creation_personnage_004
+coa_specialisation	87		name	6032a672e309	Givre	lot creation_personnage_004
+coa_specialisation	88		name	b14b3d8bd5bd	Affliction	lot creation_personnage_004
+coa_specialisation	89		name	d5c53e3e08d2	Destruction	lot creation_personnage_004
+coa_specialisation	90		name	9290264b6d5d	Démonologie	lot creation_personnage_004
+coa_specialisation	91		name	90eef613042c	Équilibre	lot creation_personnage_004
+coa_specialisation	92		name	434dede246e1	Combat farouche	lot creation_personnage_004
+coa_specialisation	93		name	41590e8e283f	Restauration	lot creation_personnage_004
+coa_specialisation	94		name	17f5d4f0fb0d	Héros	lot creation_personnage_004
+coa_specialisation	95		description	9eba96d7c8fe	Invoquez la puissance de la terre depuis les profondeurs d'Azeroth pour déchaîner une magie dévastatrice sur vos ennemis.	lot creation_personnage_004
+coa_specialisation	95		name	240c1833a1bd	Géomancie	lot creation_personnage_004
+coa_specialisation	96		description	211f5ee4cf35	Laissez-vous submerger par la puissance de Y'Shaarj, devenant un rempart immuable de magie surnaturelle qui absorbe les attaques reçues.	lot creation_personnage_004
+coa_specialisation	96		name	3b3a3527e2eb	Cuirassé	lot creation_personnage_004
+coa_specialisation	97		description	bdec4473bd77	Revêtez votre cotte de sorcière et maniez une épée à deux mains pour dévier les attaques et défendre vos alliés.	lot creation_personnage_004
+coa_specialisation	97		name	87f243e1390f	Chevalier noir	lot creation_personnage_004
+coa_specialisation	98		description	9b7cf1c5b343	Baignez vos compagnons de lumière solaire radieuse, pansant les blessures graves et les renforçant d'un espoir inébranlable et de bénédictions divines.	lot creation_personnage_004
+coa_specialisation	98		name	680a7c43fdaf	Bénédictions	lot creation_personnage_004
+coa_specialisation	99		description	c5e4e54a993f	Transformez-vous en monstruosité capable d'attirer l'attention d'ennemis d'une puissance dévastatrice.	lot creation_personnage_004
+coa_specialisation	99		name	2791d0df0274	Éternel	lot creation_personnage_004
+coa_specialisation	100		description	8b69cd47f90a	Devenez un rempart imprégné de mana qui protège les secrets du cosmos des influences indésirables.	lot creation_personnage_004
+coa_specialisation	100		name	e0d784bd6b2c	Garde-lune	lot creation_personnage_004
+coa_specialisation	101		description	f6817c5f5a46	Maîtrisez l'art de la régénération par les poisons et les venins, créant un fragile équilibre entre la vie et la mort.	lot creation_personnage_004
+coa_specialisation	101		name	9369ee18c48c	Vizir	lot creation_personnage_004

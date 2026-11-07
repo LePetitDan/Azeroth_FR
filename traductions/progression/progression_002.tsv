@@ -1,0 +1,392 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+coa_avancement_categorie	1		description	36dd95162202	Attaques de base principales. Toutes ces aptitudes peuvent être enchaînées sans temps de recharge.	lot progression_002
+coa_avancement_categorie	1		name	93eae415026b	Dégâts principaux	lot progression_002
+coa_avancement_categorie	2		description	320312caf240	Conclusions de combo, familiers, soins et autres aptitudes puissantes qui accompagnent votre aptitude de dégâts principale.	lot progression_002
+coa_avancement_categorie	2		name	3fff07f914b1	Aptitude de puissance	lot progression_002
+coa_avancement_categorie	3		description	10b27d80023e	Téléportations, sauts, translocations, charges et sprints. Les aptitudes de mobilité vous aident à mieux vous déplacer dans le monde.	lot progression_002
+coa_avancement_categorie	3		name	1f880bb1d3af	Mobilité	lot progression_002
+coa_avancement_categorie	4		description	9d46788d9606	Les bonus sont des effets passifs positifs pour vous et vos alliés.	lot progression_002
+coa_avancement_categorie	4		name	dbe23ae3d200	Bonus	lot progression_002
+coa_avancement_categorie	5		description	03766d681350	Les malus sont des malédictions, sortilèges, rugissements, effets magiques et autres qui peuvent être jetés sur les ennemis. Ils peuvent les affaiblir, les ralentir ou les blesser avec le temps. Il existe différents types de malus, comme le poison, la maladie, la malédiction et la magie, chacun nécessitant des moyens précis pour être retiré.	lot progression_002
+coa_avancement_categorie	5		name	f3cf6eddcacd	Malus	lot progression_002
+coa_avancement_categorie	6		description	245fc9a13820	Ceci est temporaire et sert uniquement à travailler sur l'étiquetage des sorts	lot progression_002
+coa_avancement_categorie	6		name	d0c304cb0dc9	Tout le reste	lot progression_002
+coa_avancement_categorie	7		description	940b16f39ea5	Le contrôle des foules regroupe des techniques tactiques conçues pour manipuler et entraver temporairement les ennemis : les étourdir, les immobiliser, réduire leurs incantations au silence, ou même les transformer en créatures inoffensives.	lot progression_002
+coa_avancement_categorie	7		name	5e3c75abc9c8	Contrôle des foules	lot progression_002
+coa_avancement_categorie	8		description	2e893aec08ee	\r\nLes aptitudes de zone d'effet (AoE) touchent plusieurs cibles dans une zone précise. Elles peuvent infliger des dégâts, soigner ou appliquer des effets à toutes les cibles dans un rayon, ce qui les rend essentielles pour gérer des groupes d'ennemis ou soutenir des alliés. Les sorts de zone peuvent être ciblés au sol, centrés sur le lanceur ou dirigés vers un lieu. 	lot progression_002
+coa_avancement_categorie	8		name	f343ef849f33	Zone d'effet	lot progression_002
+coa_avancement_categorie	9		description	7e3459bbe45b	Les aptitudes utilitaires offrent des avantages uniques en dehors du combat direct, et renforcent votre polyvalence et votre adaptabilité. 	lot progression_002
+coa_avancement_categorie	9		name	89189507b2a0	Utilitaire	lot progression_002
+coa_avancement_categorie	10		description	81afa4685a12	Les sorts de soins sont des aptitudes principales qui rendent des points de vie aux alliés. Ils sont essentiels pour garder un groupe en vie en combat. Ces sorts compensent les dégâts, soutiennent les alliés et assurent la survie pendant les batailles.	lot progression_002
+coa_avancement_categorie	10		name	26270bfc37ee	Soins principaux	lot progression_002
+coa_avancement_categorie	11		description	516956d5972a	\r\nLes dissipations retirent des effets nuisibles ou bénéfiques d'une cible. Elles purgent les malus comme les poisons, maladies, malédictions et effets magiques sur les alliés, ou retirent les bonus des ennemis. Les dissipations contrent le contrôle des foules, annulent les malus dévastateurs et affaiblissent les adversaires.	lot progression_002
+coa_avancement_categorie	11		name	80db5804eb04	Dissipations	lot progression_002
+coa_avancement_categorie	12		description	3ea769c8d70d	Puissants sorts offensifs qui peuvent être utilisés stratégiquement en combat.	lot progression_002
+coa_avancement_categorie	12		name	3ffb4d3d389b	Temps de recharge offensifs	lot progression_002
+coa_avancement_categorie	13		description	574d4a154219	Puissants sorts de soins à utiliser avec parcimonie et stratégie en combat.	lot progression_002
+coa_avancement_categorie	13		name	943146b1af7d	Temps de recharge de soins	lot progression_002
+coa_avancement_categorie	14		description	c1e8688bf76d	Puissants sorts défensifs à utiliser avec parcimonie et stratégie en combat.	lot progression_002
+coa_avancement_categorie	14		name	d81763e00a90	Temps de recharge défensifs	lot progression_002
+coa_avancement_categorie	15		description	dd71fc8a2f75	Puissants sorts de soutien à utiliser avec parcimonie et stratégie en combat.	lot progression_002
+coa_avancement_categorie	15		name	1ec1467251d9	Temps de recharge de soutien	lot progression_002
+coa_avancement_categorie	16		description	a2e6e3567652	Les résurrections permettent de ranimer des alliés ou même vous-même. Il existe deux types de résurrections : les résurrections hors combat et les résurrections en combat.	lot progression_002
+coa_avancement_categorie	16		name	4b3d17ef230d	Résurrections	lot progression_002
+coa_avancement_categorie	17		description	341342083027	Les aptitudes passives sont toujours actives et rendent sans cesse votre héros plus puissant.	lot progression_002
+coa_avancement_categorie	17		name	7b88af5df56a	Passifs	lot progression_002
+coa_avancement_categorie	18		description	c8cb208b9e3d	Ces aptitudes vous aident à récupérer votre mana, votre énergie ou votre rage.	lot progression_002
+coa_avancement_categorie	18		name	a4063b2d1eb9	Regain de ressources	lot progression_002
+coa_avancement_categorie	19		description	82899ff1ad54	Les aptitudes de dégâts sur la durée (DoT) infligent des dégâts à une cible progressivement sur une période donnée, plutôt qu'en une seule salve. Ces aptitudes appliquent continuellement leurs effets à intervalles réguliers, et permettent de maintenir la pression sur les ennemis pendant que le lanceur se concentre sur d'autres actions.	lot progression_002
+coa_avancement_categorie	19		name	907c133bf7ff	Dégâts sur la durée (DoT)	lot progression_002
+coa_avancement_categorie	20		description	0daadb0337fe	Adoptez une posture, une transformation ou une métamorphose spécialisée qui donne accès à des aptitudes puissantes précises tout en en limitant d'autres. Une seule forme peut être active à la fois.	lot progression_002
+coa_avancement_categorie	20		name	d985df342fb3	Métamorphoses, postures et transformations	lot progression_002
+coa_avancement_categorie	21		name	94e580c7025b	Dépenses de points de combo	lot progression_002
+coa_avancement_categorie	22		description	da613acd9699	Les maîtrises vous permettent d'apprendre des catégories entières de sorts sans utiliser d'emplacements de gemme supplémentaires et en dépensant moins d'Essence d'aptitude. Par exemple, avec la Maîtrise des sceaux, vous pouvez apprendre tous les sceaux pour moins d'Essence d'aptitude et de gemmes.	lot progression_002
+coa_avancement_categorie	22		name	696e3191948f	Maîtrise	lot progression_002
+coa_avancement_categorie	23		name	849c2d068505	Familiers	lot progression_002
+coa_avancement_categorie	24		name	8aa2dd0f5e9e	Menace	lot progression_002
+coa_avancement_categorie	25		name	9627fed38423	Améliorations d'arme	lot progression_002
+coa_avancement_categorie	27		name	b045177e13b0	Catégorie temporaire	lot progression_002
+coa_avancement_categorie	28		name	834b8c167d7d	Bonus de groupe	lot progression_002
+coa_avancement_categorie	29		name	7bf6d1d3a58a	Dégâts	lot progression_002
+coa_avancement_categorie	30		description	81afa4685a12	Les sorts de soins sont des aptitudes principales qui rendent des points de vie aux alliés. Ils sont essentiels pour garder un groupe en vie en combat. Ces sorts compensent les dégâts, soutiennent les alliés et assurent la survie pendant les batailles.	lot progression_002
+coa_avancement_categorie	30		name	87272fae497d	Soins	lot progression_002
+coa_avancement_categorie	31		description	36dd95162202	Attaques de base principales. Toutes ces aptitudes peuvent être enchaînées sans temps de recharge.	lot progression_002
+coa_avancement_categorie	31		name	e6dccfc51c7c	Récemment débloqué et bientôt débloqué	lot progression_002
+coa_avancement_categorie	32		name	7a643ef39a7a	Récemment débloqué (guerrier)	lot progression_002
+coa_avancement_categorie	33		name	50e756446ce0	Récemment débloqué (voleur)	lot progression_002
+coa_avancement_categorie	34		name	f789dd07ed88	Récemment débloqué (chasseur)	lot progression_002
+coa_avancement_categorie	35		name	e523a892314d	Récemment débloqué (druide)	lot progression_002
+coa_avancement_categorie	36		name	a1be1ef555d9	Récemment débloqué (chaman)	lot progression_002
+coa_avancement_categorie	37		name	63b0b6f4fe16	Récemment débloqué (paladin)	lot progression_002
+coa_avancement_categorie	38		name	e126a786188b	Récemment débloqué (prêtre)	lot progression_002
+coa_avancement_categorie	39		name	8010bb37a8ac	Récemment débloqué (démoniste)	lot progression_002
+coa_avancement_categorie	40		name	f7dd76ffb13f	Récemment débloqué (chevalier de la mort)	lot progression_002
+coa_avancement_categorie	41		name	62a4f978b556	Récemment débloqué (mage)	lot progression_002
+coa_avancement_categorie	42		description	36dd95162202	Attaques de base principales. Toutes ces aptitudes peuvent être enchaînées sans temps de recharge.	lot progression_002
+coa_avancement_categorie	42		name	f5d1e1ca5a1a	Bientôt débloqué	lot progression_002
+coa_avancement_categorie	43		name	174f0819a00a	Bientôt débloqué (guerrier)	lot progression_002
+coa_avancement_categorie	44		name	67932aec27d7	Bientôt débloqué (voleur)	lot progression_002
+coa_avancement_categorie	45		name	a0798b93b08c	Bientôt débloqué (chasseur)	lot progression_002
+coa_avancement_categorie	46		name	1aa5a26016e3	Bientôt débloqué (druide)	lot progression_002
+coa_avancement_categorie	47		name	c67be129cd10	Bientôt débloqué (chaman)	lot progression_002
+coa_avancement_categorie	48		name	8a2e18590540	Bientôt débloqué (paladin)	lot progression_002
+coa_avancement_categorie	49		name	d32c98b75bdd	Bientôt débloqué (prêtre)	lot progression_002
+coa_avancement_categorie	50		name	f71f4d1b0849	Bientôt débloqué (démoniste)	lot progression_002
+coa_avancement_categorie	51		name	1395262546a8	Bientôt débloqué (chevalier de la mort)	lot progression_002
+coa_avancement_categorie	52		name	9d0fbbcb8de8	Bientôt débloqué (mage)	lot progression_002
+coa_avancement_classe	2		name	147847d73ee8	Chasseur	lot progression_002
+coa_avancement_classe	3		name	945eda39d82d	Guerrier	lot progression_002
+coa_avancement_classe	4		name	bb71deb29d6c	Voleur	lot progression_002
+coa_avancement_classe	5		name	d14e0b7b715a	Mage	lot progression_002
+coa_avancement_classe	6		name	b45c5249d5f6	Prêtre	lot progression_002
+coa_avancement_classe	7		name	063f342393d9	Démoniste	lot progression_002
+coa_avancement_classe	8		name	cd770cb0f159	Druide	lot progression_002
+coa_avancement_classe	9		name	6f6596271da8	Chaman	lot progression_002
+coa_avancement_classe	10		name	1ac85b7c33b9	Paladin	lot progression_002
+coa_avancement_classe	11		name	59e8a9f1e971	Chevalier de la mort	lot progression_002
+coa_avancement_classe	12		name	9239ee2cda84	Général	lot progression_002
+coa_avancement_classe	13		name	17f5d4f0fb0d	Héros	lot progression_002
+coa_avancement_classe	14		name	110239ffbbd1	Barbare	lot progression_002
+coa_avancement_classe	15		name	73a620608aa6	Féticheur	lot progression_002
+coa_avancement_classe	16		name	778fbf797a54	Chasseur de démons	lot progression_002
+coa_avancement_classe	17		name	d7834b344fb3	Chasseur de sorcières	lot progression_002
+coa_avancement_classe	18		name	a33a4eb01fdb	Porte-tempête	lot progression_002 ; l'anglais comporte une faute (Stomrbringer)
+coa_avancement_classe	19		name	823f647b08e3	Chevalier de Xoroth	lot progression_002
+coa_avancement_classe	20		name	6809e8745eab	Gardien	lot progression_002
+coa_avancement_classe	21		name	b0fa48185514	Moine	lot progression_002
+coa_avancement_classe	22		name	85ec3c063ec7	Fils d'Arugal	lot progression_002
+coa_avancement_classe	23		name	6eb9532f383d	Rôdeur	lot progression_002
+coa_avancement_classe	24		name	d81669d716a0	Chronomancien	lot progression_002
+coa_avancement_classe	25		name	86a6cd1d6598	Nécromancien	lot progression_002
+coa_avancement_classe	26		name	8c18236abbad	Pyromancien	lot progression_002
+coa_avancement_classe	27		name	5d605e830d97	Cultiste	lot progression_002
+coa_avancement_classe	28		name	021d98f2caba	Mande-étoiles	lot progression_002
+coa_avancement_classe	29		name	271327bb7782	Clerc du soleil	lot progression_002
+coa_avancement_classe	30		name	2256c71b642e	Bricoleur	lot progression_002
+coa_avancement_classe	31		name	9fa7d67a08cc	Primaliste	lot progression_002
+coa_avancement_classe	32		name	d1100b6dc136	Faucheur	lot progression_002
+coa_avancement_classe	33		name	888deb8ec967	Vénomancien	lot progression_002
+coa_avancement_classe	34		name	86a33eb1dd3b	Maître des runes	lot progression_002
+coa_avancement_classe	36		name	147847d73ee8	Chasseur	lot progression_002
+coa_avancement_classe	37		name	945eda39d82d	Guerrier	lot progression_002
+coa_avancement_classe	38		name	bb71deb29d6c	Voleur	lot progression_002
+coa_avancement_classe	39		name	d14e0b7b715a	Mage	lot progression_002
+coa_avancement_classe	40		name	b45c5249d5f6	Prêtre	lot progression_002
+coa_avancement_classe	41		name	063f342393d9	Démoniste	lot progression_002
+coa_avancement_classe	42		name	cd770cb0f159	Druide	lot progression_002
+coa_avancement_classe	43		name	6f6596271da8	Chaman	lot progression_002
+coa_avancement_classe	44		name	1ac85b7c33b9	Paladin	lot progression_002
+coa_avancement_classe	45		name	1de1195aea00	Chevalier de la mort de Xoroth	lot progression_002
+coa_avancement_classe	46		name	9239ee2cda84	Général	lot progression_002
+coa_avancement_onglet	2		name	fe88ea8d5fa6	Survie	lot progression_002
+coa_avancement_onglet	3		name	e75ac4365ab0	Précision	lot progression_002
+coa_avancement_onglet	4		name	bbf16db9ad5e	Maîtrise des bêtes	lot progression_002
+coa_avancement_onglet	5		name	3af0c32b3fba	Fureur	lot progression_002
+coa_avancement_onglet	6		name	047072f53ca8	Armes	lot progression_002
+coa_avancement_onglet	7		name	0f8cc4f34d7f	Protection	lot progression_002
+coa_avancement_onglet	8		name	af169bb89cfb	Combat	lot progression_002
+coa_avancement_onglet	9		name	e81ea1b3be50	Finesse	lot progression_002
+coa_avancement_onglet	10		name	01c14ed50231	Assassinat	lot progression_002
+coa_avancement_onglet	11		name	5f0a4cd330d6	Arcanes	lot progression_002
+coa_avancement_onglet	12		name	6032a672e309	Givre	lot progression_002
+coa_avancement_onglet	13		name	78baebfcb4b5	Feu	lot progression_002
+coa_avancement_onglet	14		name	dfe1d7f7d16c	Sacré	lot progression_002
+coa_avancement_onglet	15		name	aa0e7e86b7aa	Ombre	lot progression_002
+coa_avancement_onglet	16		name	14877e80cbce	Discipline	lot progression_002
+coa_avancement_onglet	17		name	b14b3d8bd5bd	Affliction	lot progression_002
+coa_avancement_onglet	18		name	9290264b6d5d	Démonologie	lot progression_002
+coa_avancement_onglet	19		name	d5c53e3e08d2	Destruction	lot progression_002
+coa_avancement_onglet	20		name	41590e8e283f	Restauration	lot progression_002
+coa_avancement_onglet	21		name	434dede246e1	Combat farouche	lot progression_002
+coa_avancement_onglet	22		name	90eef613042c	Équilibre	lot progression_002
+coa_avancement_onglet	23		name	5871bb361901	Élémentaire	lot progression_002
+coa_avancement_onglet	24		name	ba25f1a97647	Amélioration	lot progression_002
+coa_avancement_onglet	25		name	8366443a8650	Vindicte	lot progression_002
+coa_avancement_onglet	26		name	24652e28b940	Sang	lot progression_002
+coa_avancement_onglet	27		name	2a8dbafc6266	Impie	lot progression_002
+coa_avancement_onglet	28		name	b3266eaee5da	Général (1)	lot progression_002
+coa_avancement_onglet	29		name	1817f169751c	Général (2)	lot progression_002
+coa_avancement_onglet	30		name	44b3ed1836ba	Général (3)	lot progression_002
+coa_avancement_onglet	31		name	46c4851976a0	Brutalité	lot progression_002
+coa_avancement_onglet	32		name	318c88130ae6	Tactique	lot progression_002
+coa_avancement_onglet	33		name	4447427cfb06	Ascendance	lot progression_002
+coa_avancement_onglet	34		name	213a77ef49d8	Vaudou	lot progression_002
+coa_avancement_onglet	35		name	16792ae3681f	Brassage	lot progression_002
+coa_avancement_onglet	36		name	772cd6c05be7	Chasse de l'ombre	lot progression_002
+coa_avancement_onglet	37		name	404e8780a4a7	Massacre	lot progression_002
+coa_avancement_onglet	38		name	063292d25e24	Gangresang	lot progression_002
+coa_avancement_onglet	39		name	2de9f5f130c8	Tireur de carreaux	lot progression_002
+coa_avancement_onglet	40		name	33a95938e362	Ténèbres	lot progression_002
+coa_avancement_onglet	41		name	8c1286f4521f	Inquisition	lot progression_002
+coa_avancement_onglet	42		name	4504e5f0bfcc	Foudre	lot progression_002
+coa_avancement_onglet	43		name	142b5758f344	Vent	lot progression_002
+coa_avancement_onglet	44		name	3b2c3fdb3a87	Dons	lot progression_002
+coa_avancement_onglet	45		name	f3c59920b109	Guerre	lot progression_002
+coa_avancement_onglet	46		name	b68d2946f197	Flammes infernales	lot progression_002
+coa_avancement_onglet	47		name	f616d0134740	Défi	lot progression_002
+coa_avancement_onglet	48		name	2868202fbdaf	Inspiration	lot progression_002
+coa_avancement_onglet	49		name	c3b751c5b3c1	Gladiateur	lot progression_002
+coa_avancement_onglet	50		name	9bf52b282e82	Lutte	lot progression_002
+coa_avancement_onglet	51		name	6756bd3e1a44	Runes	lot progression_002
+coa_avancement_onglet	52		name	d8b36cab9585	Férocité	lot progression_002
+coa_avancement_onglet	53		name	5ee7bf437e75	Chef de meute	lot progression_002
+coa_avancement_onglet	54		name	569af032e167	Tir à l'arc	lot progression_002
+coa_avancement_onglet	55		name	d35f1802b3dd	Duel	lot progression_002
+coa_avancement_onglet	56		name	4aee53c4b5ac	Dualité	lot progression_002
+coa_avancement_onglet	57		name	6c82e6dd8680	Temps	lot progression_002
+coa_avancement_onglet	58		name	3d6fb67a37bc	Déplacement	lot progression_002
+coa_avancement_onglet	59		name	d8c7d877ba61	Mort	lot progression_002
+coa_avancement_onglet	60		name	c29eb5e4ebab	Givre blanc	lot progression_002
+coa_avancement_onglet	61		name	62afd21e8876	Animation	lot progression_002
+coa_avancement_onglet	62		name	309ecd97c70c	Incinération	lot progression_002
+coa_avancement_onglet	63		name	20c0322dd883	Draconique	lot progression_002
+coa_avancement_onglet	64		name	f0b68557ae9e	Lame divine	lot progression_002
+coa_avancement_onglet	65		name	391494f4bbed	Corruption	lot progression_002
+coa_avancement_onglet	66		name	03ecfa6479fa	Influence	lot progression_002
+coa_avancement_onglet	67		name	6167ee15e94b	Guerre astrale	lot progression_002
+coa_avancement_onglet	68		name	67e1eda0db99	Marées	lot progression_002
+coa_avancement_onglet	69		name	b446f99f9954	Arc lunaire	lot progression_002
+coa_avancement_onglet	70		name	4d50c38f5393	Piété	lot progression_002
+coa_avancement_onglet	71		name	680a7c43fdaf	Bénédictions	lot progression_002
+coa_avancement_onglet	72		name	fc7945cbebdf	Séraphin	lot progression_002
+coa_avancement_onglet	73		name	660aa34ed904	Armes à feu	lot progression_002
+coa_avancement_onglet	74		name	0a3176cbaf7c	Invention	lot progression_002
+coa_avancement_onglet	75		name	d4a20ddcf46c	Mécanique	lot progression_002
+coa_avancement_onglet	76		name	ac41b9c84502	Venin	lot progression_002
+coa_avancement_onglet	77		name	4eaf3402d2d6	Traque	lot progression_002
+coa_avancement_onglet	78		name	fd78cedee24a	Robustesse	lot progression_002
+coa_avancement_onglet	79		name	3cec5bf411f1	Moisson	lot progression_002
+coa_avancement_onglet	80		name	0cae74dd2ee6	Âme	lot progression_002
+coa_avancement_onglet	81		name	0a5607b199f3	Domination	lot progression_002
+coa_avancement_onglet	82		name	dda711ea034e	Primordial	lot progression_002
+coa_avancement_onglet	83		name	240c1833a1bd	Géomancie	lot progression_002
+coa_avancement_onglet	84		name	d438aa800a20	Vie	lot progression_002
+coa_avancement_onglet	85		name	10edb70120d5	Runique	lot progression_002
+coa_avancement_onglet	86		name	2bf4f7801d20	Lame de la faille	lot progression_002
+coa_avancement_onglet	87		name	41ff354b2b33	Classe	lot progression_002
+coa_avancement_onglet	88		name	0d4fc5595835	Rempart	lot progression_002
+coa_avancement_onglet	89		name	9ede5eab881e	Hydromancie	lot progression_002
+coa_avancement_onglet	90		name	5a58fbb091e5	Valkyr	lot progression_002
+coa_avancement_onglet	91		name	2251c031056f	Roi sous la montagne	lot progression_002
+coa_avancement_onglet	92		name	9369ee18c48c	Vizir	lot progression_002
+coa_avancement_onglet	93		name	bc841cb6d02d	Tisseur de chair	lot progression_002
+coa_avancement_onglet	94		name	e0ab33f90780	Chevalier sorcier	lot progression_002
+coa_etiquette_sort	1		label	ebad49b5a663	Type d'aptitude : dégâts principaux	lot progression_002
+coa_etiquette_sort	1		name	93eae415026b	Dégâts principaux	lot progression_002
+coa_etiquette_sort	2		label	d9e1382926cc	Type d'aptitude : mobilité	lot progression_002
+coa_etiquette_sort	2		name	1f880bb1d3af	Mobilité	lot progression_002
+coa_etiquette_sort	3		label	82356ffa3f1f	Bonus : bonus de raid	lot progression_002
+coa_etiquette_sort	3		name	d63ecc313da2	Bonus de raid	lot progression_002
+coa_etiquette_sort	4		label	ed274b7db28a	Malus : malus de raid	lot progression_002
+coa_etiquette_sort	4		name	b36215be3523	Malus de raid	lot progression_002
+coa_etiquette_sort	5		label	645b37fa992f	Type d'aptitude : dégâts sur la durée (DoT)	lot progression_002
+coa_etiquette_sort	5		name	907c133bf7ff	Dégâts sur la durée (DoT)	lot progression_002
+coa_etiquette_sort	6		label	44ca815bb93e	Type d'aptitude : soins sur la durée (HoT)	lot progression_002
+coa_etiquette_sort	6		name	af7962a71aff	Soins sur la durée (HoT)	lot progression_002
+coa_etiquette_sort	7		label	53c7598df3c2	Type d'aptitude : soin direct	lot progression_002
+coa_etiquette_sort	7		name	861d02102cc5	Soin direct	lot progression_002
+coa_etiquette_sort	8		label	8f4d6a8087b3	Type d'aptitude : incantation instantanée	lot progression_002
+coa_etiquette_sort	8		name	6b91accb88b4	Incantation instantanée	lot progression_002
+coa_etiquette_sort	9		label	b66f7b5ef04d	Type d'aptitude : soin intelligent	lot progression_002
+coa_etiquette_sort	9		name	1154dfea7e38	Soin intelligent	lot progression_002
+coa_etiquette_sort	10		label	0cb340c82367	Type d'aptitude : absorption	lot progression_002
+coa_etiquette_sort	10		name	ae56f146b0ea	Absorption	lot progression_002
+coa_etiquette_sort	11		label	e116a477a0d0	Type d'aptitude : générateur de combo	lot progression_002
+coa_etiquette_sort	11		name	6a74e2d90904	Générateur de combo	lot progression_002
+coa_etiquette_sort	12		label	9afb00e8111d	Type d'aptitude : dépense de combo	lot progression_002
+coa_etiquette_sort	12		name	faed4c637923	Dépense de combo	lot progression_002
+coa_etiquette_sort	14		label	cdd238cc8bde	Catégorie d'aptitude : mêlée	lot progression_002
+coa_etiquette_sort	14		name	e00694b1e25c	Mêlée	lot progression_002
+coa_etiquette_sort	15		label	cba0b6937fad	Catégorie d'aptitude : sort magique	lot progression_002
+coa_etiquette_sort	15		name	2a855c839bc0	Sort magique	lot progression_002
+coa_etiquette_sort	16		label	21da77aad91a	Catégorie d'aptitude : aptitude à distance	lot progression_002
+coa_etiquette_sort	16		name	a1854d964db9	Aptitude à distance	lot progression_002
+coa_etiquette_sort	17		label	f165b084928a	École d'aptitude : physique	lot progression_002
+coa_etiquette_sort	17		name	919b82a0b4b5	Physique	lot progression_002
+coa_etiquette_sort	18		label	36e908009ebc	École d'aptitude : Feu	lot progression_002
+coa_etiquette_sort	18		name	78baebfcb4b5	Feu	lot progression_002
+coa_etiquette_sort	19		label	0e5ce98145ad	École d'aptitude : Givre	lot progression_002
+coa_etiquette_sort	19		name	6032a672e309	Givre	lot progression_002
+coa_etiquette_sort	20		label	5d5699322602	École d'aptitude : Nature	lot progression_002
+coa_etiquette_sort	20		name	bddc7adb1204	Nature	lot progression_002
+coa_etiquette_sort	21		label	a9d5abe9dc21	École d'aptitude : Sacré	lot progression_002
+coa_etiquette_sort	21		name	dfe1d7f7d16c	Sacré	lot progression_002
+coa_etiquette_sort	22		label	33127be1f15e	École d'aptitude : Ombre	lot progression_002
+coa_etiquette_sort	22		name	aa0e7e86b7aa	Ombre	lot progression_002
+coa_etiquette_sort	23		label	b7c03792fa0f	Contrôle des foules : hébétement	lot progression_002
+coa_etiquette_sort	23		name	d26126876180	Hébétement	lot progression_002
+coa_etiquette_sort	24		label	917a141abe76	Contrôle des foules : confusion	lot progression_002
+coa_etiquette_sort	24		name	68b8d436c080	Confusion	lot progression_002
+coa_etiquette_sort	25		label	cdc7bb89f30b	Contrôle des foules : horreur	lot progression_002
+coa_etiquette_sort	25		name	cf80dcfced80	Horreur	lot progression_002
+coa_etiquette_sort	26		label	e6c276ea893f	Contrôle des foules : peur	lot progression_002
+coa_etiquette_sort	26		name	689e027c2657	Peur	lot progression_002
+coa_etiquette_sort	27		label	f1305d80582f	Contrôle des foules : charme	lot progression_002
+coa_etiquette_sort	27		name	e124e7077d3d	Charme	lot progression_002
+coa_etiquette_sort	28		label	e8661c581b1f	Contrôle des foules : étourdissement	lot progression_002
+coa_etiquette_sort	28		name	d97664aa1386	Étourdissement	lot progression_002
+coa_etiquette_sort	29		label	f1dffb77b840	Contrôle des foules : métamorphose	lot progression_002
+coa_etiquette_sort	29		name	a2d4140ad8e1	Métamorphose	lot progression_002
+coa_etiquette_sort	30		label	cdec2d9bf829	Contrôle des foules : sommeil	lot progression_002
+coa_etiquette_sort	30		name	3cac34e67446	Sommeil	lot progression_002
+coa_etiquette_sort	31		label	d905f5d3ede7	Contrôle des foules : gel	lot progression_002
+coa_etiquette_sort	31		name	5a6b2d30fea6	Gel	lot progression_002
+coa_etiquette_sort	32		label	bbf8f34d54c4	Contrôle des foules : immobilisation	lot progression_002
+coa_etiquette_sort	32		name	e96857c58f71	Immobilisation	lot progression_002
+coa_etiquette_sort	33		label	d7519c49267e	Contrôle des foules : silence	lot progression_002
+coa_etiquette_sort	33		name	0d18b4610c43	Silence	lot progression_002
+coa_etiquette_sort	34		label	04690b62916d	Contrôle des foules : désarmement	lot progression_002
+coa_etiquette_sort	34		name	f26d27b073d8	Désarmement	lot progression_002
+coa_etiquette_sort	35		label	5426872f5a96	Contrôle des foules : pacification	lot progression_002
+coa_etiquette_sort	35		name	4bb4a4805e94	Pacification	lot progression_002
+coa_etiquette_sort	36		label	628a3591ae1a	Contrôle des foules : ralentissement	lot progression_002
+coa_etiquette_sort	36		name	33dcec9ce454	Ralentissement	lot progression_002
+coa_etiquette_sort	37		label	874ecc471025	Contrôle des foules : entrave	lot progression_002
+coa_etiquette_sort	37		name	323f311e53a7	Entrave	lot progression_002
+coa_etiquette_sort	38		label	870c903c80ef	Contrôle des foules : projection	lot progression_002
+coa_etiquette_sort	38		name	f898dcaa913e	Projection	lot progression_002
+coa_etiquette_sort	39		label	310aa8576d83	Contrôle des foules : cécité	lot progression_002
+coa_etiquette_sort	39		name	dff70db312cc	Cécité	lot progression_002
+coa_etiquette_sort	40		label	ff73985070f4	Contrôle des foules : bannissement	lot progression_002
+coa_etiquette_sort	40		name	34110212fafd	Bannissement	lot progression_002
+coa_etiquette_sort	41		label	f77ca2281d3b	Contrôle des foules : assommer	lot progression_002
+coa_etiquette_sort	41		name	91fe9d781882	Assommer	lot progression_002
+coa_etiquette_sort	42		label	254ae38a3309	Contrôle des foules : cyclone	lot progression_002
+coa_etiquette_sort	42		name	33ec23db96b1	Cyclone	lot progression_002
+coa_etiquette_sort	43		label	0b77aebb1fb1	Contrôle des foules : incapacitation	lot progression_002
+coa_etiquette_sort	43		name	159e1db1d9f3	Incapacitation	lot progression_002
+coa_etiquette_sort	44		label	7962f3d58fd8	Contrôle des foules : provocation	lot progression_002
+coa_etiquette_sort	44		name	2320195136c8	Provocation	lot progression_002
+coa_etiquette_sort	45		label	1a2439c063b3	Contrôle des foules : enrager	lot progression_002
+coa_etiquette_sort	45		name	e39cf07dd330	Enrager	lot progression_002
+coa_etiquette_sort	46		label	a83c7c81a167	Contrôle des foules : interruption	lot progression_002
+coa_etiquette_sort	46		name	d5db45498426	Interruption	lot progression_002
+coa_etiquette_sort	47		label	dd85dd8e547c	Contrôle des foules : maléfice	lot progression_002
+coa_etiquette_sort	47		name	2eb18b6c522d	Maléfice	lot progression_002
+coa_etiquette_sort	48		label	d8d9200f362d	Contrôle des foules : purge	lot progression_002
+coa_etiquette_sort	48		name	1eea3d5309d2	Purge	lot progression_002
+coa_etiquette_sort	49		label	2d5ffc574553	Type d'aptitude : maladie	lot progression_002
+coa_etiquette_sort	49		name	1bf5fe17046d	Maladie	lot progression_002
+coa_etiquette_sort	50		label	943697e0f7ae	Type d'aptitude : poison	lot progression_002
+coa_etiquette_sort	50		name	6de0b0c65644	Poison	lot progression_002
+coa_etiquette_sort	51		label	f7d2b24b68a9	Type d'aptitude : magie	lot progression_002
+coa_etiquette_sort	51		name	e6791be7eed7	Magie	lot progression_002
+coa_etiquette_sort	52		label	13c834a8b282	Type d'aptitude : saignement	lot progression_002
+coa_etiquette_sort	52		name	311524bb82e9	Saignement	lot progression_002
+coa_etiquette_sort	58		name	59e8a9f1e971	Chevalier de la mort	lot progression_002
+coa_etiquette_sort	59		name	cd770cb0f159	Druide	lot progression_002
+coa_etiquette_sort	60		name	147847d73ee8	Chasseur	lot progression_002
+coa_etiquette_sort	61		name	d14e0b7b715a	Mage	lot progression_002
+coa_etiquette_sort	62		name	1ac85b7c33b9	Paladin	lot progression_002
+coa_etiquette_sort	63		name	b45c5249d5f6	Prêtre	lot progression_002
+coa_etiquette_sort	64		name	bb71deb29d6c	Voleur	lot progression_002
+coa_etiquette_sort	65		name	6f6596271da8	Chaman	lot progression_002
+coa_etiquette_sort	66		name	063f342393d9	Démoniste	lot progression_002
+coa_etiquette_sort	67		name	945eda39d82d	Guerrier	lot progression_002
+coa_etiquette_sort	69		name	e6791be7eed7	Magie	lot progression_002
+coa_etiquette_sort	71		name	1bf5fe17046d	Maladie	lot progression_002
+coa_etiquette_sort	72		name	6de0b0c65644	Poison	lot progression_002
+coa_etiquette_sort	76		name	e39cf07dd330	Enrager	lot progression_002
+coa_etiquette_sort	78		name	24652e28b940	Sang	lot progression_002
+coa_etiquette_sort	79		name	6032a672e309	Givre	lot progression_002
+coa_etiquette_sort	80		name	2a8dbafc6266	Impie	lot progression_002
+coa_etiquette_sort	81		name	90eef613042c	Équilibre	lot progression_002
+coa_etiquette_sort	82		name	434dede246e1	Combat farouche	lot progression_002
+coa_etiquette_sort	83		name	41590e8e283f	Restauration	lot progression_002
+coa_etiquette_sort	85		name	e75ac4365ab0	Précision	lot progression_002
+coa_etiquette_sort	86		name	fe88ea8d5fa6	Survie	lot progression_002
+coa_etiquette_sort	87		name	5f0a4cd330d6	Arcanes	lot progression_002
+coa_etiquette_sort	88		name	78baebfcb4b5	Feu	lot progression_002
+coa_etiquette_sort	89		name	6032a672e309	Givre	lot progression_002
+coa_etiquette_sort	90		name	dfe1d7f7d16c	Sacré	lot progression_002
+coa_etiquette_sort	91		name	0f8cc4f34d7f	Protection	lot progression_002
+coa_etiquette_sort	92		name	8366443a8650	Vindicte	lot progression_002
+coa_etiquette_sort	93		name	14877e80cbce	Discipline	lot progression_002
+coa_etiquette_sort	94		name	dfe1d7f7d16c	Sacré	lot progression_002
+coa_etiquette_sort	95		name	aa0e7e86b7aa	Ombre	lot progression_002
+coa_etiquette_sort	96		name	01c14ed50231	Assassinat	lot progression_002
+coa_etiquette_sort	97		name	af169bb89cfb	Combat	lot progression_002
+coa_etiquette_sort	98		name	e81ea1b3be50	Finesse	lot progression_002
+coa_etiquette_sort	99		name	5871bb361901	Élémentaire	lot progression_002
+coa_etiquette_sort	100		name	ba25f1a97647	Amélioration	lot progression_002
+coa_etiquette_sort	101		name	41590e8e283f	Restauration	lot progression_002
+coa_etiquette_sort	102		name	b14b3d8bd5bd	Affliction	lot progression_002
+coa_etiquette_sort	103		name	9290264b6d5d	Démonologie	lot progression_002
+coa_etiquette_sort	104		name	d5c53e3e08d2	Destruction	lot progression_002
+coa_etiquette_sort	105		name	047072f53ca8	Armes	lot progression_002
+coa_etiquette_sort	106		name	3af0c32b3fba	Fureur	lot progression_002
+coa_etiquette_sort	107		name	0f8cc4f34d7f	Protection	lot progression_002
+coa_etiquette_sort	121		label	82356ffa3f1f	Bonus : bonus de raid	lot progression_002
+coa_etiquette_sort	121		name	d63ecc313da2	Bonus de raid	lot progression_002
+coa_etiquette_sort	126		name	5f0a4cd330d6	Arcanes	lot progression_002
+coa_etiquette_sort	139		label	5e3c75abc9c8	Contrôle des foules	lot progression_002
+coa_etiquette_sort	139		name	5e3c75abc9c8	Contrôle des foules	lot progression_002
+coa_etiquette_sort	140		label	41ff354b2b33	Classe	lot progression_002
+coa_etiquette_sort	140		name	41ff354b2b33	Classe	lot progression_002
+coa_etiquette_sort	141		label	89189507b2a0	Utilitaire	lot progression_002
+coa_etiquette_sort	141		name	89189507b2a0	Utilitaire	lot progression_002
+coa_etiquette_sort	145		label	dbe23ae3d200	Bonus	lot progression_002
+coa_etiquette_sort	145		name	dbe23ae3d200	Bonus	lot progression_002
+coa_etiquette_sort	147		label	f3cf6eddcacd	Malus	lot progression_002
+coa_etiquette_sort	147		name	f3cf6eddcacd	Malus	lot progression_002
+coa_etiquette_sort	149		name	59e8a9f1e971	Chevalier de la mort	lot progression_002
+coa_etiquette_sort	150		name	cd770cb0f159	Druide	lot progression_002
+coa_etiquette_sort	151		name	147847d73ee8	Chasseur	lot progression_002
+coa_etiquette_sort	152		name	d14e0b7b715a	Mage	lot progression_002
+coa_etiquette_sort	153		name	1ac85b7c33b9	Paladin	lot progression_002
+coa_etiquette_sort	154		name	b45c5249d5f6	Prêtre	lot progression_002
+coa_etiquette_sort	155		name	bb71deb29d6c	Voleur	lot progression_002
+coa_etiquette_sort	156		name	6f6596271da8	Chaman	lot progression_002
+coa_etiquette_sort	157		name	063f342393d9	Démoniste	lot progression_002
+coa_etiquette_sort	158		name	945eda39d82d	Guerrier	lot progression_002
+coa_etiquette_sort	864		label	e116a477a0d0	Type d'aptitude : générateur de combo	lot progression_002
+coa_etiquette_sort	865		label	9afb00e8111d	Type d'aptitude : dépense de combo	lot progression_002
+coa_etiquette_sort	866		label	e116a477a0d0	Type d'aptitude : générateur de combo	lot progression_002
+coa_etiquette_sort	867		label	9afb00e8111d	Type d'aptitude : dépense de combo	lot progression_002
+coa_jeton	59		description	bcd914d2d960	Sert à désapprendre des talents de la spécialisation XIX en cliquant sur l'icône de talent dans l'Évolution du personnage ; un nouveau talent est alors choisi au hasard pour le remplacer.\r\n\r\nVous pouvez obtenir des parchemins auprès de la Tempête de mana, en quêtes, en donjons, en raids, dans les caches du tableau d'appel, en champs de bataille, en monde ouvert à haut risque, et grâce à une suite de quêtes auprès de Silas Sombrelune dans les capitales, en échange de Marques de sublimation.	lot progression_002
+coa_jeton	59		description2	bcd914d2d960	Sert à désapprendre des talents de la spécialisation XIX en cliquant sur l'icône de talent dans l'Évolution du personnage ; un nouveau talent est alors choisi au hasard pour le remplacer.\r\n\r\nVous pouvez obtenir des parchemins auprès de la Tempête de mana, en quêtes, en donjons, en raids, dans les caches du tableau d'appel, en champs de bataille, en monde ouvert à haut risque, et grâce à une suite de quêtes auprès de Silas Sombrelune dans les capitales, en échange de Marques de sublimation.	lot progression_002
+coa_jeton	59		name	f5d802d0317f	Parchemin de fortune XIX : talents	lot progression_002
+coa_jeton	60		description	bed5d7ddac08	Sert à désapprendre des talents de la spécialisation XX en cliquant sur l'icône de talent dans l'Évolution du personnage ; un nouveau talent est alors choisi au hasard pour le remplacer.\r\n\r\nVous pouvez obtenir des parchemins auprès de la Tempête de mana, en quêtes, en donjons, en raids, dans les caches du tableau d'appel, en champs de bataille, en monde ouvert à haut risque, et grâce à une suite de quêtes auprès de Silas Sombrelune dans les capitales, en échange de Marques de sublimation.	lot progression_002
+coa_jeton	60		description2	bed5d7ddac08	Sert à désapprendre des talents de la spécialisation XX en cliquant sur l'icône de talent dans l'Évolution du personnage ; un nouveau talent est alors choisi au hasard pour le remplacer.\r\n\r\nVous pouvez obtenir des parchemins auprès de la Tempête de mana, en quêtes, en donjons, en raids, dans les caches du tableau d'appel, en champs de bataille, en monde ouvert à haut risque, et grâce à une suite de quêtes auprès de Silas Sombrelune dans les capitales, en échange de Marques de sublimation.	lot progression_002
+coa_jeton	60		name	6284cd660887	Parchemin de fortune XX : talents	lot progression_002
+coa_jeton	61		name	31a5f0916af1	Progression des caches du tableau d'appel	lot progression_002

@@ -1,0 +1,72 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+coa_epreuve_condition	15		description	c1d01ba69e72	Vous devez avoir deux métiers principaux.	lot epreuves_006
+coa_epreuve_condition	15		description_inverted	fd589c30f6c4	Vous ne pouvez pas avoir deux métiers principaux.	lot epreuves_006
+coa_epreuve_condition	15		name	50999c38eb6d	Doit avoir deux métiers principaux	lot epreuves_006
+coa_epreuve_condition	15		name_inverted	7e09ee7bae44	Ne doit pas avoir deux métiers principaux	lot epreuves_006
+coa_epreuve_condition	16		description	d307fdac5d82	Vous devez avoir %1$d emplacements d'inventaire libres.	lot epreuves_006
+coa_epreuve_condition	16		description_inverted	146267fb8d05	Vous devez avoir moins de %1$d emplacements d'inventaire libres.	lot epreuves_006
+coa_epreuve_condition	16		name	8005b094ed38	Doit avoir %1$d emplacements d'inventaire libres	lot epreuves_006
+coa_epreuve_condition	16		name_inverted	06145168143b	Doit avoir moins de %1$d emplacements d'inventaire libres	lot epreuves_006
+coa_epreuve_condition	17		description	4afed3fdc044	Vous ne devez avoir aucun objet de confort non lié dans votre inventaire.	lot epreuves_006
+coa_epreuve_condition	17		description_inverted	ad446ab79b62	Vous devez avoir des objets de confort non liés dans votre inventaire.	lot epreuves_006
+coa_epreuve_condition	17		name	c255be7a6cff	Ne doit avoir aucun objet de confort non lié	lot epreuves_006
+coa_epreuve_condition	17		name_inverted	df34fd138701	Doit avoir des objets de confort non liés	lot epreuves_006
+coa_epreuve_condition	18		description	48f87a12a967	Vous ne devez pas avoir interagi avec du butin.	lot epreuves_006
+coa_epreuve_condition	18		description_inverted	fd54b21a6230	Vous devez avoir interagi avec du butin.	lot epreuves_006
+coa_epreuve_condition	18		name	6b5cacf2c89c	Aucune interaction avec le butin	lot epreuves_006
+coa_epreuve_condition	18		name_inverted	d1bbbb3f72ed	Doit interagir avec le butin	lot epreuves_006
+coa_epreuve_exigence	2		description	555662feb80b	Vous devez terminer la quête |cffffff00[%1$s]|r avant d'atteindre le niveau |cffffffff%2$s|r.	lot epreuves_006
+coa_epreuve_exigence	2		name	b2d7c524d787	Quête limitée par le niveau	lot epreuves_006
+coa_epreuve_exigence	3		description	02c495024f5a	Vous devez accomplir le défi en |cffffffff%1$s|r.	lot epreuves_006
+coa_epreuve_exigence	3		name	1c19d51d0f01	Chronométrée	lot epreuves_006
+coa_epreuve_exigence	4		description	628212ac30a3	Vous devez accomplir le défi sans mourir |cffffffff%1$d|r fois ou plus.	lot epreuves_006
+coa_epreuve_exigence	4		name	f62cde176257	%1$d |4vie:vies;	lot epreuves_006
+coa_epreuve_exigence	5		description	70b83d4c3976	Vous devez être dans un groupe de |cffffffff2|r pour tenter ce défi. Si un membre du groupe échoue à son Épreuve, vous échouerez aussi.	lot epreuves_006
+coa_epreuve_exigence	5		name	75aa4645c958	Être dans un groupe de 2	lot epreuves_006
+coa_epreuve_exigence	6		description	aebc18556fee	Vous devez être dans un groupe de |cffffffff3|r pour tenter ce défi. Si un membre du groupe échoue à son Épreuve, vous échouerez aussi.	lot epreuves_006
+coa_epreuve_exigence	6		name	8a13bfabc8c5	Être dans un groupe de 3	lot epreuves_006
+coa_epreuve_exigence	7		description	7b3d01fbd6af	Vous devez tuer |cffffff00[%1$s]|r avant d'atteindre le niveau |cffffffff%2$d|r.	lot epreuves_006
+coa_epreuve_exigence	7		name	93b95b8378ee	Créature à tuer avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	8		description	b18289e51a7e	Vous devez gagner |cffffffff%1$s|r avant d'atteindre le niveau |cffffffff%2$d|r.	lot epreuves_006
+coa_epreuve_exigence	8		name	6dbfe66f73ac	Argent à gagner avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	9		description	bc1826e8366b	Vous devez chuter de |cffffffff%1$s|r mètres sans mourir.	lot epreuves_006
+coa_epreuve_exigence	9		name	a81299c4ac73	Chute sans mourir	lot epreuves_006
+coa_epreuve_exigence	10		description	f9d73b206f37	Vous devez looter |cffffffff%1$s|rx %2$s avant d'atteindre le niveau |cffffffff%3$d|r.	lot epreuves_006
+coa_epreuve_exigence	10		name	2b68a0a5519a	Objet à looter avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	11		description	fa84fe885945	Vous devez fabriquer |cffffffff%1$s|rx %2$s avant d'atteindre le niveau |cffffffff%3$d|r.	lot epreuves_006
+coa_epreuve_exigence	11		name	7b4c72de0802	Objet à fabriquer avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	12		description	cadbda7c3a55	Vous devez atteindre la réputation %1$s auprès de |cffffff00[%2$s]|r avant d'atteindre le niveau |cffffffff%3$d|r.	lot epreuves_006
+coa_epreuve_exigence	12		name	caf61abf5312	Réputation à atteindre avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	13		description	faa7ba5918b9	Vous devez terminer |cffffffff%1$d|r quêtes avant d'atteindre le niveau |cffffffff%2$d|r.	lot epreuves_006
+coa_epreuve_exigence	13		name	93269f977e67	Nombre de quêtes à terminer avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	14		description	ccf986d944a0	Vous devez tuer |cffffffff%1$d|r créatures avant d'atteindre le niveau |cffffffff%2$d|r.	lot epreuves_006
+coa_epreuve_exigence	14		name	99473a966793	Nombre de créatures à tuer avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	15		description	c94118e7b091	Vous devez terminer |cffffffff%1$d|r quêtes dans |cffffffff%2$s|r avant d'atteindre le niveau |cffffffff%3$d|r.	lot epreuves_006
+coa_epreuve_exigence	15		name	7445e9f2dc65	Nombre de quêtes à terminer dans une zone avant un niveau donné	lot epreuves_006
+coa_epreuve_exigence	16		description	c34e8c7f8faf	Vous devez tuer |cffffff00[%1$d]|r en |cffffffff%3$s|r.	lot epreuves_006
+coa_epreuve_exigence	16		name	aa0de8e21116	Créature à tuer en temps limité	lot epreuves_006
+coa_epreuve_exigence	17		description	202a5d2332f9	Vous devez terminer |cffffff00[%1$s]|r en |cffffffff%2$s|r.	lot epreuves_006
+coa_epreuve_exigence	17		name	fa25be0ddbb9	Quête à terminer en temps limité	lot epreuves_006
+coa_epreuve_exigence	18		description	0dcd3cf7886e	Vous devez looter |cffffffff%1$d|rx %2$s en |cffffffff%3$s|r.	lot epreuves_006
+coa_epreuve_exigence	18		name	04a40bd7bc3f	Objet à looter en temps limité	lot epreuves_006
+coa_epreuve_exigence	19		description	63bb6e4a410e	Vous devez fabriquer |cffffffff%1$dx %2$s en |cffffffff%3$s|r.	lot epreuves_006
+coa_epreuve_exigence	19		name	372dddb3c237	Objet à fabriquer en temps limité	lot epreuves_006
+coa_epreuve_exigence	20		description	0345d144b144	Vous devez tuer |cffffffff%1$d|r créatures en |cffffffff%2$s|r.	lot epreuves_006
+coa_epreuve_exigence	20		name	58fa33df836c	Nombre de créatures à tuer en temps limité	lot epreuves_006
+coa_epreuve_exigence	21		description	5dbe5104ba7e	Vous devez terminer |cffffffff%1$d|r quêtes en |cffffffff%2$s|r.	lot epreuves_006
+coa_epreuve_exigence	21		name	477f627c0438	Nombre de quêtes à terminer en temps limité	lot epreuves_006
+coa_epreuve_exigence	22		description	f1a97f69c50f	Vous devez atteindre la réputation %1$s auprès de |cffffff00[%2$s]|r en |cffffffff%3$s|r.	lot epreuves_006
+coa_epreuve_exigence	22		name	84d2a2526da1	Réputation à atteindre en temps limité	lot epreuves_006
+coa_epreuve_modificateur	2		description	fa862df031f2	{1}% de dégâts physiques infligés	lot epreuves_006
+coa_epreuve_modificateur	2		name	e15b66bb6fb9	Dégâts physiques infligés	lot epreuves_006
+coa_epreuve_modificateur	3		description	2f0e2ab55678	{1}% de dégâts magiques infligés	lot epreuves_006
+coa_epreuve_modificateur	3		name	db782fad2622	Dégâts magiques infligés	lot epreuves_006
+coa_epreuve_modificateur	4		description	ea7cd432d4db	{1}% de dégâts physiques subis	lot epreuves_006
+coa_epreuve_modificateur	4		name	6aabd4607647	Dégâts physiques subis	lot epreuves_006
+coa_epreuve_modificateur	5		description	c11c82ca49e8	{1}% de dégâts magiques subis	lot epreuves_006
+coa_epreuve_modificateur	5		name	fad3f589b153	Dégâts magiques subis	lot epreuves_006
+coa_epreuve_modificateur	6		description	3c64489b2f62	{1}% de soins prodigués	lot epreuves_006
+coa_epreuve_modificateur	6		name	ba7410ed2bbe	Soins prodigués	lot epreuves_006
+coa_epreuve_modificateur	7		description	e030d885b2a1	{1}% de soins reçus	lot epreuves_006
+coa_epreuve_modificateur	7		name	4c3a9cac0973	Soins reçus	lot epreuves_006
+coa_epreuve_modificateur	8		name	3a645b5d8769	XP reçue	lot epreuves_006

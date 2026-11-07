@@ -101,6 +101,20 @@ local function LigneGabarit(t, cle)
     return A.Formater(cur, { fr })
 end
 
+-- 0.9 : « Unique : %s (%d) » / « Unique-Equipped: %s (%d) » : seul le nom de la catégorie est traduit
+local function LigneLimite(t, cle)
+    local g = A.Gabarit and A.Gabarit(cle)
+    local en = g and g.en or (cle == "ITEM_LIMIT_CATEGORY" and "Unique: %s (%d)" or "Unique-Equipped: %s (%d)")
+    local cur = _G[cle]
+    if type(cur) ~= "string" or cur == "" then cur = en end
+    local args = A.LireGabarit(cur, t)
+    if not args and cur ~= en then args = A.LireGabarit(en, t) end
+    if not args or type(args[1]) ~= "string" or not args[2] then return nil end
+    local fr = A.Nom("limite_objet", args[1])
+    if not fr then return nil end
+    return A.Formater(cur, { fr, tonumber(args[2]) or args[2] })
+end
+
 -- Une ligne d'objet (colonne de gauche) hors nom, description et effets : etiquette, ensemble, bonus de
 -- sertissage, enchantement, gemme sertie. Renvoie le francais ou nil.
 local function LigneObjet(t)
@@ -112,6 +126,9 @@ local function LigneObjet(t)
     local ens = nom and A.Nom("ensemble", nom)
     if ens then return e1 .. ens .. " (" .. x .. "/" .. y .. ")" .. e2 end
     fr = LigneGabarit(coeur, "ITEM_SOCKET_BONUS") or LigneGabarit(coeur, "ENCHANTED_TOOLTIP_LINE")
+    if fr then return e1 .. fr .. e2 end
+    -- 0.9 : « Unique-Equipped: Jeweler's Gems (3) » : catégorie d'objets limités (ItemLimitCategory.dbc)
+    fr = LigneLimite(coeur, "ITEM_LIMIT_CATEGORY_MULTIPLE") or LigneLimite(coeur, "ITEM_LIMIT_CATEGORY")
     if fr then return e1 .. fr .. e2 end
     -- gemme sertie : la ligne est le nom de son enchantement (« +8 Strength »)
     if find(coeur, "%d") then

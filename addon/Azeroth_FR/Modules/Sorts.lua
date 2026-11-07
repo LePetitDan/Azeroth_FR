@@ -436,6 +436,17 @@ function A.TraduireBulleSort(bulle, id)
         local fr = RangSort(s, tr)
         if fr and fr ~= tr then A.Ecrire(r1, fr); modifie = true end
     end
+    -- 0.9 : « Requires Cat Form », « Requires Anvil » (formes, objets de focalisation, outils), pour tous les sorts
+    if A.LigneRequiert then
+        for i = 2, bulle:NumLines() do
+            local l = Ligne(bulle, i)
+            local t = l and l:GetText()
+            if t and len(t) <= 80 and not A.DejaEcrit(l, t) then
+                local fr = A.LigneRequiert(t)
+                if fr and fr ~= t then A.Ecrire(l, fr); modifie = true end
+            end
+        end
+    end
     if type(s) ~= "table" then
         if modifie and bulle:IsShown() and not A.EstProtege(bulle) then
             en_cours = true

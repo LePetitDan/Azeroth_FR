@@ -867,8 +867,8 @@ class Importeur:
     TECHNIQUE_DBC_09 = re.compile(r'\b(?:DND|NYI|UNUSED|DEPRECATED|PLACEHOLDER|TODO|DEBUG)\b|^(?:REUSE|QA|TEST|Test|JSB)\b|'
                                   r'\[PH\]|\(OLD\)|^zz|^Test test$')
     # 0.9 : tables de Blizzard sans français dans patch-frFR-3 : le nom officiel est à reprendre (décision 31)
-    ATTENTE_NOM_OFFICIEL_09 = ('CharTitles', 'HolidayNames', 'HolidayDescriptions', 'QuestSort', 'CreatureFamily',
-                               'ItemRandomProperties')
+    # (ItemRandomProperties : les suffixes officiels viennent d'ItemRandomSuffix par le même anglais ; le reste se traduit)
+    ATTENTE_NOM_OFFICIEL_09 = ('CharTitles', 'HolidayNames', 'HolidayDescriptions', 'QuestSort', 'CreatureFamily')
     # 0.9 : même anglais, un seul français officiel dans une table voisine (champ name seulement)
     SECOURS_TEXTE_09 = {
         'LFGDungeons': ['lieu'], 'BattlemasterList': ['lieu'], 'LFGDungeonGroup': [],
@@ -1348,6 +1348,28 @@ class Importeur:
         self.cr.update({'nom_officiel_web:' + a: b for a, b in n.items()})
         K.journal('import : noms officiels relevés sur Wowhead : %s' % dict(n))
 
+    def focalisation_interface(self):
+        """0.9 : CoA définit ses objets de focalisation dans GlobalStrings (SPELL_FOCUS_OBJECT_<n> = « Anvil »…) :
+        même numéro que SpellFocusObject.dbc et même anglais -> le français officiel de la table (« ForgeRune » de
+        l'archive devient « Forge runique »)."""
+        n = 0
+        for k, l in self.lignes.items():
+            m = re.fullmatch(r'SPELL_FOCUS_OBJECT_(\d+)', l[K.I_ID]) if l[K.I_TYPE] == 'chaine_interface' else None
+            if not m or l[K.I_ETAT] not in ('machine', 'a_traduire', 'a_revoir'):
+                continue
+            o = self.lignes.get(('objet_focalisation', m.group(1), '', 'name'))
+            if not o or o[K.I_ETAT] != 'officiel' or o[K.I_EN] != l[K.I_EN] or not o[K.I_FR]:
+                continue
+            if self.controle(l[K.I_EN], o[K.I_FR], 'officiel', l[K.I_TYPE], l[K.I_ID]):
+                continue
+            ancien = l[K.I_FR]
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = o[K.I_FR], 'officiel', 'blizzard_frFR_meme_anglais'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'SpellFocusObject.dbc frFR officiel (patch-frFR-3), même numéro et même anglais'
+                                  + (' (avant : %s)' % cite(ancien, 80) if ancien else ''))
+            n += 1
+        self.cr['focalisation_interface'] = n
+        K.journal('import : %d objets de focalisation de GlobalStrings sur le français officiel' % n)
+
     def limites_objets_par_nom(self):
         """0.9 : une catégorie d'objets limités (« Unique-Equipped: <nom> (1) ») qui porte EXACTEMENT le nom anglais
         d'un objet prend le français de ce nom s'il est unique (officiel -> officiel, sinon machine)."""
@@ -1445,14 +1467,15 @@ def main():
     imp.importer_sorts_interface()
     imp.importer_dbc()
     imp.importer_interface()
+    imp.noms_officiels_web()          # 0.9 : avant la couche (les lignes libérées reçoivent leur traduction)
     imp.appliquer_vocabulaire()
     imp.corriger_et_controler()
     imp.importer_enchantements_modele()
     imp.fusionner_relus()
     imp.appliquer_couche()
     imp.harmoniser_officiel()
-    imp.noms_officiels_web()
     imp.limites_objets_par_nom()
+    imp.focalisation_interface()
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 
