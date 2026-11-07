@@ -950,15 +950,21 @@ def choisir_cas():
     if g_tue and inter.get('TOOLTIP_UNIT_LEVEL_CLASS'):
         g_niv = fr_interface(inter['TOOLTIP_UNIT_LEVEL_CLASS']) or inter['TOOLTIP_UNIT_LEVEL_CLASS'][K.I_EN]
         globales['TOOLTIP_UNIT_LEVEL_CLASS'] = g_niv
-        k, h2 = F.cle_texte('Beast')
-        injections.append({'famille': 'noms', 'nom': 'NTC', 'sorte': 'texte', 'nb': 1, 'cle': k, 'h2': h2,
-                           'valeur': F.lua_chaine('Bête (essai)').decode('utf-8')})
         ligne_en = g_niv.replace('%2$s', 'Beast').replace('%1$s', '1')
-        cas.append({'quoi': 'type_creature', 'nom': 'type de créature dans « %s » (mécanisme ; donnée injectée par le banc, '
-                    'aucune donnée officielle embarquée)' % ligne_en, 'anglais': ne, 'guid': guid(nom[K.I_ID]), 'type_en': 'Beast',
-                    'lignes': [ne, ligne_en], 'attendu': g_niv.replace('%2$s', 'Bête (essai)').replace('%1$s', '1')})
-        NOTES.append('type de créature : CreatureType.dbc frFR absent des sources officielles (patch-frFR-3.MPQ) ; le banc INJECTE '
-                     '« Beast » -> « Bête (essai) » pour éprouver le mécanisme, rien n\'est embarqué')
+        types = dict(F.lire_types_creature())
+        if types.get('Beast'):
+            # 0.8 : la table glossaire/types_creature.tsv (decision 29 de Dan) est embarquee : plus d'injection
+            cas.append({'quoi': 'type_creature', 'nom': 'type de créature dans « %s » (décision 29 : « %s »)' % (ligne_en, types['Beast']),
+                        'anglais': ne, 'guid': guid(nom[K.I_ID]), 'type_en': 'Beast',
+                        'lignes': [ne, ligne_en], 'attendu': g_niv.replace('%2$s', types['Beast']).replace('%1$s', '1')})
+        else:
+            k, h2 = F.cle_texte('Beast')
+            injections.append({'famille': 'noms', 'nom': 'NTC', 'sorte': 'texte', 'nb': 1, 'cle': k, 'h2': h2,
+                               'valeur': F.lua_chaine('Bête (essai)').decode('utf-8')})
+            cas.append({'quoi': 'type_creature', 'nom': 'type de créature dans « %s » (mécanisme ; donnée injectée par le banc)' % ligne_en,
+                        'anglais': ne, 'guid': guid(nom[K.I_ID]), 'type_en': 'Beast',
+                        'lignes': [ne, ligne_en], 'attendu': g_niv.replace('%2$s', 'Bête (essai)').replace('%1$s', '1')})
+            NOTES.append('type de créature : glossaire/types_creature.tsv absent ; le banc INJECTE « Beast » -> « Bête (essai) »')
     # plaques de nom : Kobold Vermin par GUID, plaque reutilisee, cadre protege, joueur, /azfr plaques off|on
     autre = next((x for x in cr if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Timber Wolf' and passe(x)), None) or \
         next(x for x in cr if x[K.I_CHAMP] == 'name' and passe(x) and x[K.I_FR] != x[K.I_EN] and x[K.I_EN] != ne

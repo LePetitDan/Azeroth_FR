@@ -190,6 +190,17 @@ ETIQUETTES_TSV = os.path.join(K.GLOSSAIRE, 'etiquettes.tsv')
 TYPES_CREATURE_TSV = os.path.join(K.GLOSSAIRE, 'types_creature.tsv')
 
 
+def choix_nom(cs):
+    """Francais d'un nom parmi ses candidats [(priorite, francais)] : la plus haute priorite, puis le plus FREQUENT
+    (0.8 : « Rank 1 » donnait « Rg 1 », 2 lignes officielles, au lieu de « Rang 1 », 1 770 lignes)."""
+    from collections import Counter as _C
+    n = _C(fr for _, fr in cs)
+    pmax = {}
+    for p_, fr in cs:
+        pmax[fr] = max(pmax.get(fr, 0), p_)
+    return max(n, key=lambda fr: (pmax[fr], n[fr], fr))
+
+
 def lire_types_creature():
     """glossaire/types_creature.tsv (decision 29) : anglais du client CoA (CreatureType.dbc) -> francais. Les lignes
     sans francais restent en anglais."""
@@ -936,20 +947,20 @@ class Fabrique:
                     if len(set(c[1] for c in cs if c[0] == pmax)) > 1:
                         self.cpt['noms']['ambigu_' + dom] += 1
                         continue
-                t.ajouter_cle(en, max(cs)[1])
+                t.ajouter_cle(en, choix_nom(cs))
             tables_noms.append(t)
             for en, cs in noms_f[dom].items():
-                fr = max(cs)[1]
+                fr = choix_nom(cs)
                 if dom == 'classe':
                     self.classes_f[en] = fr
                 elif dom == 'race':
                     self.races.setdefault(en, [fr, fr])[1] = fr
             if dom == 'classe':
                 for en, cs in noms[dom].items():
-                    self.classes[en] = max(cs)[1]
+                    self.classes[en] = choix_nom(cs)
             elif dom == 'race':
                 for en, cs in noms[dom].items():
-                    fr = max(cs)[1]
+                    fr = choix_nom(cs)
                     r = self.races.setdefault(en, [fr, fr])
                     r[0] = fr
                     if en not in noms_f['race'] and en not in RACES_OFFICIELLES:
