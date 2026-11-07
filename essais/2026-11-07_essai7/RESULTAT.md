@@ -1,6 +1,6 @@
 # Essai 7 (add-on 0.7.0) : résultat en jeu
 
-*Captures de Dan du 07/11/2026 (12 images) : Vallée de Comté-du-Nord, niveau 2, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
+*Captures de Dan du 07/11/2026 (15 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
 
 ## Ce qui marche
 
@@ -13,13 +13,15 @@
 | Carte du monde | Cadre, « Suivi », « Montrer les objectifs de quête » |
 | Calendrier | « Novembre », jours de la semaine, « : début » / « : fin » |
 | Maître (Livre de l'Ascension) | Nom de la cible, salut « Bonjour ! Prêt pour un peu d'entraînement ? », « Tous », « Filtrer », « Coût », « Requiert : Niveau 4 », « S'entraîner », « Quitter » |
+| **Grimoire** | Entièrement en français : « Attaque auto », « Bloquer / Passif », « Diplomatie / Raciale passive », « Esquiver », « Chacun pour soi / Raciale », « Haut risque (PvP) », « Spécialisation Masse », « Perception », « Mode PvE », « Constitution résiliente », « Ressusciter dans la capitale », « Ressusciter dans la ville la plus proche », « Montrer tous les rangs des sorts », onglets « Sorts » / « Métiers » |
+| Maître de métier (Argus le forgeron) | Salut en français, « Recettes », « Requiert : Niveau 5 », « Coût » |
 | Plaques, bulles d'erreur, infobulle de PNJ | « Jeune loup », « Vous devez vous rapprocher de cette cible pour interagir avec elle. », « Entraîneur de chasseurs de sorcières / Niveau 16 » |
 
 ## À corriger (0.8)
 
 | # | Vu en jeu | Cause probable | Correction |
 |---|---|---|---|
-| 1 | **Fenêtre du maître** : noms des sorts (« Electrocute », « Call Lightning »…), « (Rank 1) », description et « Generates 20 Static » en anglais | Fenêtre du maître (`ClassTrainerFrame`) pas traitée | Noms, rangs (« Rang 1 ») et descriptions par les données des sorts |
+| 1 | **Fenêtre du maître** (de classe et de métier) : noms des sorts et des recettes (« Electrocute », « Apprentice Blacksmith », « Copper Mace »…) (« Electrocute », « Call Lightning »…), « (Rank 1) », description et « Generates 20 Static » en anglais | Fenêtre du maître (`ClassTrainerFrame`) pas traitée | Noms, rangs (« Rang 1 ») et descriptions par les données des sorts |
 | 2 | **Journal des quêtes** : description de la quête 15 en anglais (« …, my scouts tell me… »), alors que le français officiel est dans la source | Le texte contient le nom du personnage (`$N`) et des sauts de ligne (`$B`) ; la reconstitution échoue ici | Reproduire au banc (journal, quête 15), corriger la reconstitution |
 | 3 | **Pierre de foyer** : « Utiliser : Returns you to Elwynn Forest. Speak to an Innkeeper… » **toujours en anglais** (3e essai) | Le lieu `$z` est remplacé par le client ; la correction de la 0.5 ne joue pas sur la ligne « Utiliser : » de l'infobulle d'objet | Reproduire au banc avec l'infobulle d'objet ; motif « Returns you to (.+)\. » |
 | 4 | **Calendrier** : fêtes en anglais (« Day of the Dead », « Darkmoon Faire », « Kalu'ak Fishing Derby », « Stranglethorn Fishing Extravaganza », « Pilgrim's Bounty ») | Noms des fêtes pas traités | Français officiel (`HolidayNames.dbc` frFR) |
@@ -29,6 +31,8 @@
 | 8 | Suivi : « Cherchez Niki Thesla dans la **vallée du Comté du Nord** » | Traduction machine : nom de lieu pas officiel (« Vallée de Comté-du-Nord ») | Passe d'harmonisation des noms de lieux dans les lignes `machine` |
 | 10 | Infobulle du bouton de mode : « **PvE Mode** / Cannot attack or be attacked by other players. » | C'est le sort CoA 9931032 (champ `ToolTip`), présent dans le client mais pas importé dans la source | Importer les sorts « système » de CoA affichés par l'interface (modes, auras) |
 | 11 | **Fenêtre des Épreuves** : cadre en français, mais noms et descriptions des épreuves en anglais (« Adventure Mode », « Nightmare - The Darkest Dungeon », « Step into a dangerous Open World adventure… ») | Ces textes ne sont dans aucune de nos sources (base du serveur, vidages du client) : envoyés par le serveur ou rangés dans un fichier du client pas encore collecté | Trouver la source ; au passage, les hauts faits « Cauchemar - Le Donjon le Plus Sombre » (traduction de l'archive) ont des majuscules à l'anglaise |
+| 12 | Carte du personnage (fond jaune, blason de l'Alliance) : « **Stormbringer** niveau 3 », « **Elwynn Forest** » | Classe et zone de ce cadre CoA pas traitées | « Porte-tempête », « Forêt d'Elwynn » |
+| 13 | Grimoire : « Mode **PvE** », « Haut risque (**PvP**) » | Le français officiel de Blizzard dit « JcE » / « JcJ » | Question de vocabulaire pour Dan |
 | 9 | **Erreur d'interface** : `FrameXML\ChannelFrame.lua:619: Usage: GetChannelDisplayInfo(index)`, en cliquant dans la liste des membres d'un canal | L'add-on ne touche à aucune fenêtre de canal : sans doute un défaut du client CoA | À confirmer : même clic avec `/azfr off` |
 
 ## Pas encore vérifié
