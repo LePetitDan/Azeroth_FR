@@ -18,7 +18,7 @@ import sys
 import urllib.request
 
 API = 'https://api.anthropic.com/v1/messages/batches'
-PLAFOND_USD = 50.0
+PLAFOND_USD = 60.0   # relevé de 50 à 60 $ par Dan le 07/11/2026
 # Prix ESTIMES et volontairement hauts (dollars par million de jetons, avant la remise de 50 % des envois differes) :
 # la vraie depense se lit dans la Console. Ils ne servent qu'a s'arreter avant le plafond.
 PRIX = {'claude-opus-5-5': (15.0, 75.0), 'claude-sonnet-5-5': (3.0, 15.0)}
