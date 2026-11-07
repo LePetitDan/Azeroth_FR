@@ -896,20 +896,28 @@ def choisir_cas():
     zn_abb = next((x for x in lire('client/zones.tsv') if x[K.I_EN] == 'Northshire Abbey' and passe(x)), None)
     if hs and passe(hs[0]) and 'Hearthstone' in obj and zn_abb:
         g_use = globales.get('ITEM_SPELL_TRIGGER_ONUSE', 'Use:')
-        for espace, quoi in (('  ', 'double espace du DBC'), (' ', 'espace simple')):
-            corps_en = hs[0][K.I_EN].replace('$z', 'Northshire Abbey').replace('  ', espace)
+        for espace, quoi, recharge in (('  ', 'double espace du DBC', ''), (' ', 'espace simple', ''),
+                                       ('  ', 'temps de recharge ajouté par le client, essai 8', ' (30 min de recharge)')):
+            corps_en = hs[0][K.I_EN].replace('$z', 'Northshire Abbey').replace('  ', espace) + recharge
             cas.append({'quoi': 'pierre_de_foyer', 'nom': 'pierre de foyer 6948 : ligne « Utiliser : » du sort 8690 ($z = « Northshire Abbey », %s)' % quoi,
                         'id': obj['Hearthstone'][0], 'anglais': 'Hearthstone', 'attendu': obj['Hearthstone'][1],
                         'lieu': 'Northshire Abbey', 'ligne': 3,
                         'lignes': ['Hearthstone', 'Soulbound', g_use + ' ' + corps_en],
-                        'ligne_attendue': g_use + ' ' + hs[0][K.I_FR].replace('$z', zn_abb[K.I_FR])})
+                        'ligne_attendue': g_use + ' ' + hs[0][K.I_FR].replace('$z', zn_abb[K.I_FR]) + recharge})
     else:
         NOTES.append('pierre de foyer : sort 8690, objet 6948 ou zone « Northshire Abbey » sans français affichable')
     # barre d'incantation : sort standard 133 « Fireball »
     fb = next((x for x in lire('client/sorts_standard.tsv') if x[K.I_ID] == '133' and x[K.I_CHAMP] == 'Name' and passe(x)), None)
     if fb:
         cas.append({'quoi': 'barre', 'nom': 'barre d\'incantation : « %s » (GetSpellLink par le nom, empreinte)' % fb[K.I_EN],
-                    'id': 133, 'anglais': fb[K.I_EN], 'attendu': fb[K.I_FR], 'inconnu': 'Shock'})
+                    'id': 133, 'anglais': fb[K.I_EN], 'attendu': fb[K.I_FR], 'inconnu': 'Sort inconnu du banc'})
+    # essai 8 : « Looting » (hors du grimoire) : par son nom, si tous les sorts de ce nom ont le même français
+    lo = {x[K.I_FR] for rel in ('client/sorts_standard.tsv', 'client/sorts_coa.tsv', 'client/sorts_classes.tsv',
+                                'client/sorts_objets.tsv')
+          for x in lire(rel) if x[K.I_CHAMP] == 'Name' and x[K.I_EN] == 'Looting' and passe(x)}
+    if len(lo) == 1:
+        cas.append({'quoi': 'barre_nom', 'nom': 'barre d\'incantation : « Looting » hors du grimoire (par le nom)',
+                    'anglais': 'Looting', 'attendu': next(iter(lo))})
     # haut fait accompli : « %s has earned the achievement [Path to Ascension: Power of Professions]! » (essai 3)
     hfx = next((x for x in lire('client/hauts_faits.tsv') if x[K.I_TYPE] == 'haut_fait' and x[K.I_ID] == '87250'
                 and x[K.I_CHAMP] == 'name' and passe(x)), None)
@@ -1033,6 +1041,80 @@ def cas_09(globales):
     if tu:
         cas.append({'quoi': 'tutoriel', 'nom': 'tutoriel %s du Chemin de l\'Ascension (%d pages)' % (tu[K.I_ID], tu[K.I_EN].count('{page}') + 1),
                     'anglais': tu[K.I_EN], 'attendu': tu[K.I_FR], 'pages': tu[K.I_FR].count('{page}') + 1})
+        # essai 8 : le client rend les mots-clés en liens colorés, avec une capitale (« inside an inn » -> « Inn »)
+        m = re.search(r'(?<=[ >])([a-z]{4,})(?=[ .,!])', tu[K.I_EN])
+        if m:
+            lien = '|cff00ccff|Hkeyword:1|h%s|h|r' % (m.group(1)[0].upper() + m.group(1)[1:])
+            cas.append({'quoi': 'tutoriel', 'nom': 'tutoriel %s, mot-clé « %s » rendu en lien coloré par le client (essai 8)'
+                        % (tu[K.I_ID], m.group(1)), 'anglais': tu[K.I_EN][:m.start()] + lien + tu[K.I_EN][m.end():],
+                        'attendu': tu[K.I_FR], 'pages': tu[K.I_FR].count('{page}') + 1})
+    # essai 8 : conditionnelles collées (talent « Storm Chaser » 300612 : « next $?a|b[][Call Lightning]$?a[Aeroblast][]
+    # $?b[Torrential Wrath][] by ») ; le texte affiché est développé ici (toutes les conditions fausses), sans le Lua
+    def developper(m, vrais=()):
+        out, i = [], 0
+        while True:
+            d = m.find('$?', i)
+            if d < 0:
+                out.append(m[i:])
+                return ''.join(out)
+            e = m.find('[', d)
+            pre = m[d:e]
+            branches, j = [], e
+            while j < len(m) and m[j] == '[' and len(branches) < 2:
+                prof, k = 0, j
+                while True:
+                    prof += {'[': 1, ']': -1}.get(m[k], 0)
+                    if prof == 0:
+                        break
+                    k += 1
+                branches.append(m[j + 1:k])
+                j = k + 1
+            out.append(m[i:d])
+            out.append(branches[0] if pre in vrais else (branches[1] if len(branches) > 1 else ''))
+            i = j
+    st = {x[K.I_CHAMP]: x for x in lire('client/talents.tsv') if x[K.I_TYPE] == 'sort' and x[K.I_ID] == '300612'}
+    if 'Name' in st and 'Description' in st and passe(st['Name']) and passe(st['Description']):
+        d_en, d_fr = developper(st['Description'][K.I_EN]), developper(st['Description'][K.I_FR])
+        cas.append({'quoi': 'sort_bulle', 'nom': 'talent 300612 « Storm Chaser » : conditionnelles collées (essai 8)',
+                    'id': 300612, 'anglais': st['Name'][K.I_EN], 'lignes': [st['Name'][K.I_EN], remplir(d_en)],
+                    'attendu': st['Name'][K.I_FR], 'ligne_description': 2, 'description_attendue': remplir(d_fr, True)})
+    # essai 8 : bulle de talent de CoA : sous le talent, un sort cité (nom, puis description), sans numéro
+    sl = {}
+    for rel in ('client/sorts_classes.tsv', 'client/sorts_objets.tsv', 'client/sorts_coa.tsv', 'client/sorts_standard.tsv'):
+        for x in lire(rel):
+            if x[K.I_TYPE] == 'sort' and x[K.I_CHAMP] in ('Name', 'Description'):
+                sl.setdefault(x[K.I_ID], {})[x[K.I_CHAMP]] = x
+    noms_fr = defaultdict(set)
+    for d in sl.values():
+        if 'Name' in d and passe(d['Name']):
+            noms_fr[d['Name'][K.I_EN]].add(d['Name'][K.I_FR])
+    for i, d in sl.items():
+        n_, de = d.get('Name'), d.get('Description')
+        if not (n_ and de and passe(n_) and passe(de)) or '$' in de[K.I_EN] or len(de[K.I_EN]) < 40 or '\n' in de[K.I_EN]:
+            continue
+        if len(noms_fr[n_[K.I_EN]]) != 1 or n_[K.I_FR] == n_[K.I_EN] or '.' in n_[K.I_EN] or len(n_[K.I_EN]) > 60:
+            continue
+        if any(c in de[K.I_EN] for c in '|{<') or de[K.I_FR] == de[K.I_EN]:
+            continue
+        cas.append({'quoi': 'bulle_sort_citee', 'nom': 'bulle de talent : sort cité « %s » (n° %s) et sa description' % (n_[K.I_EN], i),
+                    'lignes': ['Talent du banc', 'Rang 0/1', n_[K.I_EN], de[K.I_EN]],
+                    'attendu_nom': n_[K.I_FR], 'attendu_desc': de[K.I_FR]})
+        break
+    # essai 8 : annexe des mots-clés, description d'un mot-clé (images ôtées comme le fait CoA)
+    ak = next((x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel_mot_cle' and x[K.I_CHAMP] == 'description' and unique(x)
+               and '$' not in x[K.I_EN] and len(x[K.I_EN]) > 200), None)
+    if ak:
+        att = re.sub(r'\{[^}]+\}', '', ak[K.I_FR])
+        att = re.sub(r'^[\r\n]+', '', att).strip()
+        cas.append({'quoi': 'annexe', 'nom': 'annexe des mots-clés : description du mot-clé %s' % ak[K.I_ID],
+                    'anglais': ak[K.I_EN], 'attendu': att})
+    # essai 8 : liste des tutoriels à suivre pour devenir mentor (une zone, plusieurs lignes)
+    tl = [x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel' and x[K.I_CHAMP] == 'title' and unique(x)
+          and '\n' not in x[K.I_EN]][:3]
+    if len(tl) == 3:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'mentorat : liste de 3 tutoriels sur plusieurs lignes',
+                    'cadre': 'PathToAscensionFrame', 'anglais': 'Vous devez suivre :\n' + '\n'.join(x[K.I_EN] for x in tl),
+                    'attendu': 'Vous devez suivre :\n' + '\n'.join(x[K.I_FR] for x in tl)})
     mc = next((x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel_mot_cle' and x[K.I_CHAMP] == 'summary' and unique(x)
                and '$' not in x[K.I_EN]), None)
     nm = mc and next((x for x in lignes if x[K.I_TYPE] == mc[K.I_TYPE] and x[K.I_ID] == mc[K.I_ID] and x[K.I_CHAMP] == 'name'), None)
@@ -1053,6 +1135,20 @@ def cas_09(globales):
         cas.append({'quoi': 'ligne_objet', 'nom': 'ligne « %s » (catégorie d\'objets limités)' % (en_g % (li[K.I_EN], 1)),
                     'ligne': cur.replace('%s', li[K.I_EN]).replace('%d', '1'),
                     'attendu': cur.replace('%s', li[K.I_FR]).replace('%d', '1')})
+    # essai 8 : bulle d'une règle d'Épreuve remplie après l'affichage (AddLine puis Show)
+    rg = next((x for x in lignes if x[K.I_TYPE] == 'coa_epreuve_regle' and x[K.I_EN] == 'You cannot use the Dungeon Finder.'
+               and unique(x)), None)
+    if rg:
+        cas.append({'quoi': 'bulle_show', 'nom': 'bulle d\'Épreuve, 2e ligne ajoutée après l\'affichage (« %s »)' % rg[K.I_EN],
+                    'anglais': rg[K.I_EN], 'attendu': rg[K.I_FR]})
+    # essai 8 : collection de vanité, « |cffa335ee[Travel Permit]|r »
+    va = next((x for x in lignes if x[K.I_TYPE] == 'coa_vanite_objet' and x[K.I_EN] == 'Travel Permit' and unique(x)), None)
+    if va:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'collection de vanité : « [Travel Permit] » en couleur (balayage, noms)',
+                    'cadre': 'Collections', 'anglais': '|cffa335ee[Travel Permit]|r',
+                    'attendu': '|cffa335ee[%s]|r' % va[K.I_FR], 'domaines': ['vanite']})
+        cas.append({'quoi': 'client_fenetre', 'nom': 'collection de vanité : nom en capitales « TRAVEL PERMIT »',
+                    'cadre': 'Collections', 'anglais': 'TRAVEL PERMIT', 'attendu': F.majuscules_lua(va[K.I_FR])})
     fa = next((x for x in lire('client/factions.tsv') if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Stormwind' and passe(x)), None)
     if fa:
         cas.append({'quoi': 'client_fenetre', 'nom': 'réputation : faction « Stormwind » dans ReputationFrame (balayage, noms)',

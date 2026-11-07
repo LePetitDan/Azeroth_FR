@@ -1,0 +1,586 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	304137		Description	02542f53cc83	Infliger des dégâts avec Frappe du croisé a une chance de vous octroyer un bouclier qui absorbe ${$304138m1+$304138ppl1} points de dégâts.	lot sorts_objets_039
+sort	304137		Name	bc6c35cad0bd	Libram de la Troisième armée, effet factice	lot sorts_objets_039
+sort	304137		ToolTip	1c9dbb5f2da4	Infliger des dégâts avec Frappe du croisé ou avec les Jugements a une chance de vous octroyer un bouclier qui absorbe ${$304138m1+$304138ppl1} points de dégâts.	lot sorts_objets_039
+sort	304139		Description	0cc796c62f0e	Quand vous infligez des dégâts avec Bouclier de foudre, vous avez une chance d'infliger ${$304140m1+$304140ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre supplémentaires.	lot sorts_objets_039
+sort	304139		Name	9a38b3031f55	Crâne totémique de Furiehaine, effet factice	lot sorts_objets_039
+sort	304139		ToolTip	0cc796c62f0e	Quand vous infligez des dégâts avec Bouclier de foudre, vous avez une chance d'infliger ${$304140m1+$304140ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre supplémentaires.	lot sorts_objets_039
+sort	304141		Description	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	304141		Name	8686688675f1	Maîtrise de l'invocation	lot sorts_objets_039
+sort	304141		ToolTip	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	304142		Description	1b77172d4233	Foudroie la cible et inflige de ${$m1+0+0.1*$SP+0.1*$AP} à ${$M1+0+0.1*$SP+0.1*$AP} points de dégâts de Nature.	lot sorts_objets_039
+sort	304142		Name	1701320a7824	Vengeance de Bathran	lot sorts_objets_039
+sort	304142		ToolTip	36a33e9c0b07	Foudroie la cible et inflige de ${$m1+$ppl1+0.1*$SP+0.1*$AP} à ${$M1+$ppl1+0.1*$SP+0.1*$AP} points de dégâts de Nature.	lot sorts_objets_039
+sort	304143		Description	0e55e1aed2f3	Quand vous êtes frappé par une attaque de mêlée ou à distance, vous avez une chance de lancer un éclair sur la cible qui inflige ${$304144m1+$304144ppl1+0.05*$304144SP+0.05*$304144AP} points de dégâts de Nature et se propage jusqu'à $304144x1 cibles.	lot sorts_objets_039
+sort	304143		Name	086cfda16e03	Targe de Stormgarde, effet factice	lot sorts_objets_039
+sort	304143		ToolTip	ad68acee63fa	Quand vous êtes frappé par une attaque de mêlée ou à distance, vous avez une chance de lancer un éclair sur la cible qui inflige ${$304144m1+$304144ppl1} points de dégâts de Nature et se propage jusqu'à $304144x1 cibles.	lot sorts_objets_039
+sort	304145		Description	396599009c51	Pousse d'anciens cris de guerre qui augmentent votre puissance d'attaque de ${$m1+0} pendant $d.	lot sorts_objets_039
+sort	304145		Name	a7f301758975	Cri de guerre ancien	lot sorts_objets_039
+sort	304146		Description	64b1edac128b	Invoque les sables pour attaquer votre cible et infliger ${$304147m1+$304147ppl1+$ap*0.05+$sp*0.05} points de dégâts de Nature à tous les ennemis à moins de 5 mètres de la cible toutes les $304146t1 sec. pendant $d.	lot sorts_objets_039
+sort	304146		Name	d8bacad21e7c	Tempête de sable	lot sorts_objets_039
+sort	304146		ToolTip	ea2f7ca0cc2c	Inflige $304147m1 points de dégâts de Nature toutes les $304146t1 sec.	lot sorts_objets_039
+sort	304148		Description	3eb39544828d	Horion de terre a une chance d'invoquer un essaim de la ruche qui inflige ${$304149m1+$304149ppl1+($AP+$SP)*0.05} points de dégâts de Nature toutes les $304149t1 sec. pendant $304149d.	lot sorts_objets_039
+sort	304148		Name	1bb399ed4275	Protection du brise-ruche, effet factice	lot sorts_objets_039
+sort	304148		ToolTip	986660390b21	Horion de terre a une chance d'invoquer un essaim de la ruche qui inflige des dégâts de Nature toutes les $304149t1 sec. pendant $304149d.	lot sorts_objets_039
+sort	304152		Description	c4e9a345e600	Vos attaques de mêlée ont une chance d'empoisonner votre cible et de lui infliger ${$304153m1+$304153ppl1+$ap*0.0375+$sp*0.0375} points de dégâts de Nature toutes les $304153t sec. pendant $304153d.	lot sorts_objets_039
+sort	304152		Name	9a508c111720	Tournevis imprégné de venin, effet factice	lot sorts_objets_039
+sort	304152		ToolTip	4245798260bb	Horion de terre a une chance d'invoquer un essaim de la ruche qui inflige des dégâts de Nature toutes les $304153t1 sec. pendant $304149d.	lot sorts_objets_039
+sort	304155		Description	7f411a04d788	Quand vous subissez des dégâts, vous avez une chance de réduire de $304156s1% la menace que vous générez pendant $304156d.	lot sorts_objets_039
+sort	304155		Name	52b20d16b1f5	Santé mentale de Cyclock, effet factice	lot sorts_objets_039
+sort	304155		ToolTip	7f411a04d788	Quand vous subissez des dégâts, vous avez une chance de réduire de $304156s1% la menace que vous générez pendant $304156d.	lot sorts_objets_039
+sort	304158		Description	63e38ce62dd7	Vous subissez $s2% de dégâts de Feu supplémentaires, mais vos attaques ont une chance de provoquer des cloques sur la cible et de lui infliger de ${$304157m1+$304157ppl1+0.05*$SP+0.05*$AP} à ${$304157M1+$304157ppl1+0.05*$SP+0.05*$AP} points de dégâts de Feu supplémentaires.	lot sorts_objets_039
+sort	304158		Name	a82f08539b8c	Chaîne de cloques, effet factice	lot sorts_objets_039
+sort	304158		ToolTip	63e38ce62dd7	Vous subissez $s2% de dégâts de Feu supplémentaires, mais vos attaques ont une chance de provoquer des cloques sur la cible et de lui infliger de ${$304157m1+$304157ppl1+0.05*$SP+0.05*$AP} à ${$304157M1+$304157ppl1+0.05*$SP+0.05*$AP} points de dégâts de Feu supplémentaires.	lot sorts_objets_039
+sort	304159		Description	aad52a2af28c	Quand vous tuez un ennemi qui rapporte de l'expérience ou de l'honneur, vous avez une chance d'activer la magnétite, ce qui vous permet de repérer les trésors proches pendant $304160d.	lot sorts_objets_039
+sort	304159		Name	126890bffa23	Magnétite chercheuse de trésors, effet factice	lot sorts_objets_039
+sort	304159		ToolTip	aad52a2af28c	Quand vous tuez un ennemi qui rapporte de l'expérience ou de l'honneur, vous avez une chance d'activer la magnétite, ce qui vous permet de repérer les trésors proches pendant $304160d.	lot sorts_objets_039
+sort	304161		Description	22e76147a12f	Augmente la puissance d'attaque de votre familier de ${$m1+0}.	lot sorts_objets_039
+sort	304161		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	304163		Description	50fc574ad84a	Pendant l'éclipse lunaire, votre Éclat lunaire inflige ${$304164m1+$304164ppl1} points de dégâts d'Ombre supplémentaires.	lot sorts_objets_039
+sort	304163		Name	81e6139adaae	Relique d'ombre de midi, effet factice	lot sorts_objets_039
+sort	304165		Description	9be2d23c9dfe	Vos attaques à distance ont une chance de lancer un trait de chagrin sur la cible, ce qui augmente de $304166s1% vos chances d'infliger un coup critique et de toucher la cible.	lot sorts_objets_039
+sort	304165		Name	64e07ab8e4e8	Arbalète du chagrin, effet factice	lot sorts_objets_039
+sort	304165		ToolTip	9be2d23c9dfe	Vos attaques à distance ont une chance de lancer un trait de chagrin sur la cible, ce qui augmente de $304166s1% vos chances d'infliger un coup critique et de toucher la cible.	lot sorts_objets_039
+sort	304167		Description	e7ebb5112799	Ouvre une plaie sur la cible et lui inflige ${$304167m1+$304167ppl1+$SP*0.05+$AP*0.05} points de dégâts physiques toutes les $/1000;304167t1 sec. pendant $304167d.	lot sorts_objets_039
+sort	304167		Name	b2b24b678c1a	Chair fendue	lot sorts_objets_039
+sort	304167		ToolTip	3c9362f025b0	Saigne et subit ${$304167m1+$304167ppl1+$SP*0.05+$AP*0.05} points de dégâts physiques toutes les $/1000;t1 sec.	lot sorts_objets_039
+sort	304168		Description	79ee34627a0f	Vos attaques de mêlée ont une chance d'augmenter de $304169s1% la vitesse d'attaque de votre familier pendant $304169d.	lot sorts_objets_039
+sort	304168		Name	ef14790cdd47	Lance de bêtes de Vilebranche, effet factice	lot sorts_objets_039
+sort	304168		ToolTip	79ee34627a0f	Vos attaques de mêlée ont une chance d'augmenter de $304169s1% la vitesse d'attaque de votre familier pendant $304169d.	lot sorts_objets_039
+sort	304170		Description	1cbd869e3f6a	Lancer Colère réduit de $304171s1% le coût en mana de votre prochain changement de forme.	lot sorts_objets_039
+sort	304170		Name	a4383a71a140	Relique de la colère funeste, effet factice	lot sorts_objets_039
+sort	304170		ToolTip	1cbd869e3f6a	Lancer Colère réduit de $304171s1% le coût en mana de votre prochain changement de forme.	lot sorts_objets_039
+sort	304172		Description	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	304172		ToolTip	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	304173		Description	2a2eec6b5efb	Foudroie la cible de folie et inflige de ${$m1+0+0.05*$SP+0.05*$AP} à ${$M1+0+0.05*$SP+0.05*$AP} points de dégâts d'Ombre.	lot sorts_objets_039
+sort	304173		Name	c97e256553a0	Folie	lot sorts_objets_039
+sort	304173		ToolTip	fd44cc244b92	Foudroie la cible de folie et inflige de ${$m1+$ppl1+0.05*$SP+0.05*$AP} à ${$M1+$ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre.	lot sorts_objets_039
+sort	304174		Name	ebb7462253bc	Potion infinie de Cylla	lot sorts_objets_039
+sort	304175		Description	9c75e2442b9e	Les effets de soins sur la durée de Nature ont une chance de vous revigorer et de vous rendre 200 points de mana en 4 sec.	lot sorts_objets_039
+sort	304175		Name	6ec63dc6e02f	Idole du dragon corrompu, effet factice	lot sorts_objets_039
+sort	304175		ToolTip	9c75e2442b9e	Les effets de soins sur la durée de Nature ont une chance de vous revigorer et de vous rendre 200 points de mana en 4 sec.	lot sorts_objets_039
+sort	304178		Description	96ff6f18979f	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont une chance de foudroyer la cible et vous-même pour la moitié des dégâts.	lot sorts_objets_039
+sort	304178		Name	b29d0b2d3438	Chapeau électrisant de Zipcoil, effet factice	lot sorts_objets_039
+sort	304178		ToolTip	96ff6f18979f	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont une chance de foudroyer la cible et vous-même pour la moitié des dégâts.	lot sorts_objets_039
+sort	304180		Description	40664bd88c00	Augmente votre score d'expertise de $s1 pendant $d.	lot sorts_objets_039
+sort	304180		ToolTip	d39bae4b4b3c	Augmente votre score d'expertise de $s1.	lot sorts_objets_039
+sort	304181		Name	2d4b2a111fd0	Potion de l'idiot cupide	lot sorts_objets_039
+sort	304182		Description	1b2fc3cc7dd2	Invoque un esprit du marais qui vous aide au combat.	lot sorts_objets_039
+sort	304185		Description	95d0117d9b3c	Vous avez une chance d'être suivi par un murloc amical.	lot sorts_objets_039
+sort	304185		Name	8404a564bb41	Couronne murloc, effet factice	lot sorts_objets_039
+sort	304185		ToolTip	95d0117d9b3c	Vous avez une chance d'être suivi par un murloc amical.	lot sorts_objets_039
+sort	304186		Description	803f799ec850	Désoriente les créatures proches pendant $d.	lot sorts_objets_039
+sort	304186		Name	cfba9eff0d35	Son désorientant	lot sorts_objets_039
+sort	304187		Description	7552f31d8c9d	Ça pput ! Manger ça ne peut pas être bon...	lot sorts_objets_039
+sort	304187		Name	35526cdec804	Mauvaise haleine	lot sorts_objets_039
+sort	304187		ToolTip	bf82e231909d	Votre haleine pue !	lot sorts_objets_039
+sort	304189		Description	955a5f63b91e	Frappe la cible avec du sang de silithide acide et inflige de ${$m1+0+0.05*$SP+0.05*$AP} à ${$M1+0+0.05*$SP+0.05*$AP} points de dégâts de Nature.	lot sorts_objets_039
+sort	304189		Name	e032ac2fafdb	Sang de silithide acide	lot sorts_objets_039
+sort	304189		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	304190		Description	a445b9d4cd19	Infliger des dégâts physiques à une cible dont les points de vie sont inférieurs à 35% a une chance de vous faire frapper la cible pour ${($304191m1+$AP*0.05)} points de dégâts afin de l'exécuter.	lot sorts_objets_039
+sort	304190		Name	07ac923201c6	Hache du bourreau, effet factice	lot sorts_objets_039
+sort	304190		ToolTip	fc16f3d674b8	Infliger des dégâts physiques à une cible dont les points de vie sont inférieurs à 35% a une chance de vous faire frapper la cible pour ${($304191m1+$AP*0.1)} points de dégâts afin de l'exécuter.	lot sorts_objets_039
+sort	304192		Description	0009ecc24093	Subir des dégâts avec moins de 35% de points de vie vous octroie Défense désespérée, qui augmente votre score de parade de ${$304193m1+$304193ppl1} pendant $304193d.	lot sorts_objets_039
+sort	304192		Name	4712a8357e10	Défense désespérée, effet factice	lot sorts_objets_039
+sort	304192		ToolTip	0009ecc24093	Subir des dégâts avec moins de 35% de points de vie vous octroie Défense désespérée, qui augmente votre score de parade de ${$304193m1+$304193ppl1} pendant $304193d.	lot sorts_objets_039
+sort	304194		Description	84ed78732f7c	Les incantations de dégâts directs ont une chance de lancer un trait de sang corrompu sur la cible et de lui infliger de ${$304195m1+$304195ppl1+0.05*$304195SP+0.05*$304195AP} à ${$304195M1+$304195ppl1+0.05*$304195SP+0.05*$304195AP} points de dégâts d'Ombre.	lot sorts_objets_039
+sort	304194		Name	c764fb19afcf	Bâton du gardien de sang, effet factice	lot sorts_objets_039
+sort	304194		ToolTip	9cd82e48240c	Les incantations de dégâts directs ont une chance de lancer un trait de sang corrompu sur la cible et de lui infliger de ${$304195m1+$304195ppl1+0.05*$304195SP+0.05*$304195AP} à ${$304195M1+$304195ppl1+0.05*$304195SP+0.05*$304195AP} points de dégâts physiques.	lot sorts_objets_039
+sort	304196		Description	5d6dd50b2ba9	Infliger des dégâts physiques a une chance de faire saigner la cible, ce qui lui inflige ${$304197m1+$304197ppl1+0.05*$SP+0.05*$AP} points de dégâts physiques toutes les $304197t sec. pendant $304197d.	lot sorts_objets_039
+sort	304196		Name	71f6b33bd5b2	Icône de Hakkar, effet factice	lot sorts_objets_039
+sort	304196		ToolTip	5d6dd50b2ba9	Infliger des dégâts physiques a une chance de faire saigner la cible, ce qui lui inflige ${$304197m1+$304197ppl1+0.05*$SP+0.05*$AP} points de dégâts physiques toutes les $304197t sec. pendant $304197d.	lot sorts_objets_039
+sort	304198		Description	c5b798f305a5	Rend $s1 points de vie et de mana toutes les 5 sec. pendant $d.	lot sorts_objets_039
+sort	304198		Name	275b6c094cfc	Gouttes de puits de lune	lot sorts_objets_039
+sort	304198		ToolTip	73780183e270	Rend $s1 points de vie et de mana toutes les 5 sec. 	lot sorts_objets_039
+sort	304199		Description	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	304199		Name	d78506e81ba2	Éclat !	lot sorts_objets_039
+sort	304199		ToolTip	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	304200		Description	0a030177af14	Infliger des dégâts à une cible dont les points de vie sont inférieurs à 35% a une chance d'appliquer une Coupure nette qui inflige ${$304201m1+$304201ppl1+$ap*0.05} points de dégâts physiques par seconde pendant $304201d.	lot sorts_objets_039
+sort	304200		Name	2bf7476bb386	Dague rituelle de Vilebranche, effet factice	lot sorts_objets_039
+sort	304200		ToolTip	a6d1bd7a6665	Infliger des dégâts à une cible dont les points de vie sont inférieurs à 35% a une chance d'appliquer une Coupure nette qui inflige à la cible ${$304201m1+$304201ppl1+$ap*0.05} points de dégâts physiques par seconde pendant $304201d.	lot sorts_objets_039
+sort	304203		Description	819e417fa96e	Déchire la chair de la cible et lui inflige ${$m1+0+$ap*0.05} points de dégâts physiques toutes les $t sec. pendant $d.	lot sorts_objets_039
+sort	304203		Name	c68dd83cbd9f	Déchirure de serre	lot sorts_objets_039
+sort	304203		ToolTip	a149f1ec6af6	Déchire la chair de la cible et lui inflige ${$m1+$ppl1+$ap*0.05} points de dégâts physiques toutes les $t sec. pendant $d.	lot sorts_objets_039
+sort	304204		Description	5786f3f14035	Infliger des dégâts à des créatures situées à plus de 30 mètres a une chance d'augmenter votre puissance d'attaque de ${$304205m1+$304205ppl1} pendant $304205d.	lot sorts_objets_039
+sort	304204		Name	8d1898eff2d3	Long fusil de guet, effet factice	lot sorts_objets_039
+sort	304204		ToolTip	5786f3f14035	Infliger des dégâts à des créatures situées à plus de 30 mètres a une chance d'augmenter votre puissance d'attaque de ${$304205m1+$304205ppl1} pendant $304205d.	lot sorts_objets_039
+sort	304206		Description	51e9f515639f	Chaque fois que vous subissez des dégâts de Feu, vous avez une chance de raviver les brûlures sur votre torse, ce qui augmente de $304207s1% les dégâts de Feu que vous subissez et inflige ${$304233m1+$304233ppl1+($AP+$SP)*0.03} points de dégâts de Feu aux ennemis proches toutes les $304207t2 sec. pendant $304207d.	lot sorts_objets_039
+sort	304206		Name	cb62ca419bb5	Cuirasse roussie en soie d'ombre, effet factice	lot sorts_objets_039
+sort	304206		ToolTip	d42bdb713376	Chaque fois que vous subissez des dégâts de Feu, vous avez une chance de raviver les brûlures sur votre torse, ce qui augmente de $304207s1% les dégâts de Feu que vous subissez pendant $304207d.	lot sorts_objets_039
+sort	304210		Description	16234ea5ab8c	Invoque un élémentaire de feu qui vous aide au combat.	lot sorts_objets_039
+sort	304212		Description	676b03df9d8f	Augmente les dégâts des sorts de Feu de ${$m1+0}.	lot sorts_objets_039
+sort	304212		Name	b3dac61d518d	Pendentif d'éclat de lave et sacrificateur : puissance des sorts de Feu	lot sorts_objets_039
+sort	304212		ToolTip	d39bf756863b	Augmente les dégâts des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	304213		Description	db3a749f2405	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$M1+0}.	lot sorts_objets_039
+sort	304213		Name	69a8146ea772	Spirale de l'évocateur : puissance des sorts de Feu, de Givre et des Arcanes	lot sorts_objets_039
+sort	304213		ToolTip	4153022d5e0c	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	304214		Description	00a0a7e5eb07	Augmente les dégâts des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_039
+sort	304214		Name	ef61d9141b57	Tisseur d'effroi : puissance des sorts d'Ombre	lot sorts_objets_039
+sort	304214		ToolTip	81b8f7455d28	Augmente les dégâts des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	304215		Description	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	304215		Name	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	304215		ToolTip	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	304216		Description	7eef66b9b73c	Libère des esprits maudits qui infligent à la cible ${$m1+0+0.05*$SP+0.05*$AP} points de dégâts d'Ombre par seconde pendant $d.	lot sorts_objets_039
+sort	304216		Name	64cd308ba4e2	Esprits maudits	lot sorts_objets_039
+sort	304216		ToolTip	8a5c738d9e32	Inflige $s1 points de dégâts d'Ombre.	lot sorts_objets_039
+sort	304217		Description	e57caaa869b0	Tire un carreau trempé d'acide et inflige de ${$m1+0+0.05*$SP} à ${$M1+0+0.05*$SP} points de dégâts de Nature.	lot sorts_objets_039
+sort	304217		Name	60b6f2350496	Carreau trempé d'acide	lot sorts_objets_039
+sort	304217		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	304218		Description	17fb9d3bd0b4	Augmente les dégâts des sorts des Arcanes de ${$m1+0}.	lot sorts_objets_039
+sort	304218		Name	b000b671d36e	De l'importance des focalisateurs des Arcanes : puissance des sorts des Arcanes	lot sorts_objets_039
+sort	304218		ToolTip	343671c8b8fe	Augmente les dégâts des sorts des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	304219		Description	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	304219		Name	628068e53f71	Massacre de démons - Tueur de démons orc - Sort d'objet	lot sorts_objets_039
+sort	304219		ToolTip	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	304220		Description	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	304220		Name	cb9270e0d824	Massacre de démons - Pilleur de démons elfe - Sort d'objet	lot sorts_objets_039
+sort	304220		ToolTip	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	304221		Description	d1f56ac39d35	Lie votre vie à celle d'un autre membre du groupe et partage $s1% des dégâts qu'il subit pendant $d. 	lot sorts_objets_039
+sort	304221		Name	0ee37237b890	Poupée vaudou maudite	lot sorts_objets_039
+sort	304221		ToolTip	39694e381a65	Transfère $s1% des dégâts subis au lanceur.	lot sorts_objets_039
+sort	304222		Description	8f95eb8ce3f9	Quand vous êtes touché par une attaque de mêlée ou à distance, vous avez une chance de lancer une scie circulaire sur votre cible, ce qui la fait saigner pour ${$304223m1+$304223ppl1+$ap*0.05} points de dégâts par seconde pendant $304223d.	lot sorts_objets_039
+sort	304222		Name	f249e7d4eb34	Bouclier-scie de Moarg, effet factice	lot sorts_objets_039
+sort	304222		ToolTip	8f95eb8ce3f9	Quand vous êtes touché par une attaque de mêlée ou à distance, vous avez une chance de lancer une scie circulaire sur votre cible, ce qui la fait saigner pour ${$304223m1+$304223ppl1+$ap*0.05} points de dégâts par seconde pendant $304223d.	lot sorts_objets_039
+sort	304224		Description	cfca9a078639	Souffle un feu draconique sur 5 cibles dans un cône devant le lanceur, qui subissent ${$m1+0+($AP+$SP)*0.03} points de dégâts de Feu.\r\n	lot sorts_objets_039
+sort	304224		Name	c3875b26de00	Souffle de feu draconique	lot sorts_objets_039
+sort	304230		Description	3a41f5951124	Soigner avec Lumière sacrée ou Éclair lumineux vous octroie une charge de Quête de foi, qui augmente votre score de hâte de $304231s1 pendant $304231d, cumulable jusqu'à $304231u fois.	lot sorts_objets_039
+sort	304230		Name	f104815bf56f	Foi perdue, effet factice	lot sorts_objets_039
+sort	304230		ToolTip	3a41f5951124	Soigner avec Lumière sacrée ou Éclair lumineux vous octroie une charge de Quête de foi, qui augmente votre score de hâte de $304231s1 pendant $304231d, cumulable jusqu'à $304231u fois.	lot sorts_objets_039
+sort	304234		Description	90a984a96d59	Balance largement votre arme et inflige $s1% des dégâts de l'arme sous forme de dégâts de Feu à votre cible et à son allié le plus proche.	lot sorts_objets_039
+sort	304234		Name	d3d8851bfd28	Enchaînement de feu	lot sorts_objets_039
+sort	304234		ToolTip	97016a7c76bf	Inflige $s1 points de dégâts de Feu.	lot sorts_objets_039
+sort	304238		Description	1483356575f5	Tire un obus béni et inflige de ${$m1+0+0.05*$SP+0.05*$AP} à ${$M1+0+0.05*$SP+0.05*$AP} points de dégâts du Sacré.	lot sorts_objets_039
+sort	304238		Name	446a71346c71	Obus béni	lot sorts_objets_039
+sort	304238		ToolTip	7de353bee26f	Inflige $s1 points de dégâts du Sacré.	lot sorts_objets_039
+sort	304239		Description	82c8d541891e	Quand vous ratez une attaque à distance, vous avez une chance d'augmenter votre score de toucher de $304240s1 pendant $304240d, cumulable jusqu'à $304240u fois.	lot sorts_objets_039
+sort	304239		Name	9f2a9c225f6e	Tireur d'élite sentinelle, effet factice	lot sorts_objets_039
+sort	304241		Description	9935c4a68abe	Chaque fois que vous bloquez, vous avez une chance d'augmenter votre score de blocage de $304242s1 et votre valeur de blocage de $304242s2 pendant $304242d.	lot sorts_objets_039
+sort	304241		Name	ffd91147b4de	Rempart du soldat, effet factice	lot sorts_objets_039
+sort	304243		Description	189bdba7bf8f	Tire une flèche empoisonnée qui inflige ${$m1+0+0.05*$SP+0.05*$AP} points de dégâts de Nature, puis ${$m2+0+0.01*$sp+0.01*$ap} points de dégâts de Nature en $d.	lot sorts_objets_039
+sort	304243		Name	c64d16daa29d	Flèche empoisonnée	lot sorts_objets_039
+sort	304243		ToolTip	442f7f59543f	Inflige $s2 points de dégâts de Nature.	lot sorts_objets_039
+sort	304244		Description	870d843d6ea8	Attaque les ennemis proches pendant $d et inflige ${$304245m1+$304245ppl1} points de dégâts par seconde.	lot sorts_objets_039
+sort	304244		Name	7f58a783a873	Tempête du façonneur	lot sorts_objets_039
+sort	304244		ToolTip	f282b4639844	Attaque les ennemis proches pendant $d et inflige ${$304245m1+$304245ppl1} points de dégâts par seconde.	lot sorts_objets_039
+sort	304247		Description	ff948068bd9d	Chaque fois que votre attaque est esquivée, parée ou bloquée, votre score de hâte en mêlée augmente de $304248s1 pendant $304248d, cumulable jusqu'à $304248u fois.	lot sorts_objets_039
+sort	304247		Name	1100582dd161	Grande hache Fendchiten, effet factice	lot sorts_objets_039
+sort	304247		ToolTip	d1b70162f92c	Chaque fois qu'une attaque est esquivée, parée ou bloquée, votre score de hâte en mêlée augmente de $304248s1 pendant $304248d, cumulable jusqu'à $304248u fois.	lot sorts_objets_039
+sort	304249		Description	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	304249		Name	ab24dc45ce1e	Talisman gémissant : résistance au silence	lot sorts_objets_039
+sort	304249		ToolTip	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	304250		Description	2737465ee912	Augmente votre puissance des sorts de $s1 pendant $d.	lot sorts_objets_039
+sort	304250		Name	34e6486cbd49	Essence gémissante	lot sorts_objets_039
+sort	304250		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	304252		Description	e517979bc698	Fait surgir des chiens de peste qui attaquent votre cible.	lot sorts_objets_039
+sort	304252		Name	61e3b603fea1	Invocation d'un chien de peste	lot sorts_objets_039
+sort	304255		Description	0c0e5bfcbf02	Quand vous infligez des dégâts directs du Sacré, vous avez une chance d'asperger la cible et de lui infliger ${$304256m1+$304256ppl1} points de dégâts de Givre supplémentaires.	lot sorts_objets_039
+sort	304255		ToolTip	5928c53ca204	Quand vous infligez des dégâts du Sacré, vous avez une chance d'asperger la cible et de lui infliger ${$304256m1+$304256ppl1+$ap*0.01+$sp*0.01} points de dégâts de Givre supplémentaires.	lot sorts_objets_039
+sort	304257		Description	972e75e4d252	Augmente votre score de pénétration d'armure de $s1.	lot sorts_objets_039
+sort	304257		Name	1bc7654954e9	Tranchant affûté	lot sorts_objets_039
+sort	304257		ToolTip	972e75e4d252	Augmente votre score de pénétration d'armure de $s1.	lot sorts_objets_039
+sort	304297		Description	10067479dcb2	Lance une bombe d'élémentium à l'endroit ciblé et inflige ${($m1+0.00675*$SP+0.0045*$AP)*20} points de dégâts de Feu en $d aux créatures ennemies. Inflige des dégâts considérablement accrus aux créatures vulnérables au Feu.	lot sorts_objets_039
+sort	304297		ToolTip	8a4a005f78da	Inflige $s1 points de dégâts de Feu en $d. Considérablement accrus contre les cibles vulnérables au Feu.	lot sorts_objets_039
+sort	304298		Description	84fbaafa1f28	Lance une bombe d'élémentium à l'endroit ciblé et inflige ${($m1+0.00675*$SP+0.0045*$AP)*20} points de dégâts de Givre en $d aux créatures ennemies. Inflige des dégâts considérablement accrus aux créatures vulnérables au Givre.	lot sorts_objets_039
+sort	304298		ToolTip	75ba63e68c96	Inflige $s1 points de dégâts de Givre en $d. Considérablement accrus contre les cibles vulnérables au Givre.	lot sorts_objets_039
+sort	304299		Description	1bbb4c50eea8	Lance une bombe d'élémentium à l'endroit ciblé et inflige ${($m1+0.00675*$SP+0.0045*$AP)*20} points de dégâts de Nature en $d aux créatures ennemies. Inflige des dégâts considérablement accrus aux créatures vulnérables à la Nature.	lot sorts_objets_039
+sort	304299		ToolTip	0f244262e55e	Inflige $s1 points de dégâts de Nature en $d. Considérablement accrus contre les cibles vulnérables à la Nature.	lot sorts_objets_039
+sort	304300		Description	25dfd7066846	Lance une bombe d'élémentium à l'endroit ciblé et inflige ${($m1+0.00675*$SP+0.0045*$AP)*20} points de dégâts d'Ombre en $d aux créatures ennemies. Inflige des dégâts considérablement accrus aux créatures vulnérables à l'Ombre.	lot sorts_objets_039
+sort	304300		ToolTip	e5e36d94af3d	Inflige $s1 points de dégâts d'Ombre en $d. Considérablement accrus contre les cibles vulnérables à l'Ombre.	lot sorts_objets_039
+sort	304301		Description	caa58164f602	Lance une bombe d'élémentium à l'endroit ciblé et inflige ${($m1+0.00675*$SP+0.0045*$AP)*20} points de dégâts des Arcanes en $d aux créatures ennemies. Inflige des dégâts considérablement accrus aux créatures vulnérables aux Arcanes.	lot sorts_objets_039
+sort	304301		ToolTip	a215e3880ea4	Inflige $s1 points de dégâts des Arcanes en $d. Considérablement accrus contre les cibles vulnérables aux Arcanes.	lot sorts_objets_039
+sort	304302		Name	3839b2826c8a	Dégâts d'arme de la lune de sang	lot sorts_objets_039
+sort	307672		Description	dd4a734a0ea9	Ajoute ${$SP*0.011+$AP*0.011+$307674m1} points de dégâts de Nature à vos attaques de mêlée. (1 sec. de délai)	lot sorts_objets_039
+sort	307672		ToolTip	aa22866cc5de	Les attaques infligent ${$SP*0.011+$AP*0.011+$307674m1} points de dégâts de Nature supplémentaires.	lot sorts_objets_039
+sort	312206		Description	5386ea70b975	Les incantations de sorts de dégâts ont $h% de chances d'éveiller la terre sous vos pieds et de lancer 5 rochers sur la cible, ce qui inflige ${($312208m1+$312208ppl1+$SP*0.096+$AP*0.0624)*5} points de dégâts de Nature. (75 sec. de délai interne)	lot sorts_objets_039
+sort	312217		Description	fabef24cfc4c	Enveloppe l'air autour de vous de poussière et inflige ${$312218m1+$312218ppl1+$SP*0.04+$AP*0.026} points de dégâts de Nature aux ennemis proches pendant $d. (1 ppm)	lot sorts_objets_039
+sort	312221		Description	5334b84006ef	Inflige ${$m1+0+$SP*0.06+$AP*0.039} points de dégâts des Arcanes aux ennemis proches et repousse légèrement les créatures.	lot sorts_objets_039
+sort	312224		Description	de55846bcc82	Marque la cible au fer rouge et lui inflige ${($m1+0+$SP*0.017+$AP*0.011)*3} points de dégâts de Feu en $d. Résistance au Feu réduite de $S2. (1.5 ppm)	lot sorts_objets_039
+sort	312227		Description	f2e79ba5087a	Les sorts de dégâts directs ont $h% de chances de brûler la cible et de lui infliger ${($312228m1+$312228ppl1+$SP*0.053+$AP*0.035)*3} points de dégâts de Feu en $312228d.	lot sorts_objets_039
+sort	312231		Description	a81c8d4b08ab	Vos sorts de dégâts directs non critiques augmentent votre score de coup critique des sorts de $312232s1, cumulable jusqu'à $312232u fois. Dure $312232d ou jusqu'à ce qu'un sort de dégâts directs inflige un coup critique.	lot sorts_objets_039
+sort	312235		Description	c0e4c211d7a4	Subir des dégâts de mêlée avec moins de 50% de points de vie a $h% de chances d'augmenter votre puissance d'attaque de $312236s1 pendant $312236d. (60 sec. de délai interne)	lot sorts_objets_039
+sort	312242		Description	e60894d39a56	Quand vous infligez des dégâts avec des sorts ou des aptitudes, vous avez $h% de chances de libérer de l'énergie stockée, ce qui inflige ${$312243m1+$312243ppl1+$SP*0.08+$AP*0.052} points de dégâts de Nature à la cible. (5 sec. de délai interne)	lot sorts_objets_039
+sort	312246		Description	c75754eed078	Infliger des dégâts directs a $h% de chances d'inonder votre cible d'un torrent de bulles, ce qui inflige ${$312247m1+$312247ppl1+$SP*0.08+$AP*0.052} points de dégâts de Nature et étourdit les créatures pendant $201022d. (5 sec. de délai interne)	lot sorts_objets_039
+sort	312251		Description	e38d35a2879b	Votre Frappe-tempête déclenche Tempête enchaînée, qui inflige ${$312252M1+$312252ppl1+$SP*0.016+$AP*0.0104} points de dégâts de Nature et se propage jusqu'à ${$312252x1-1} autres créatures proches. Chaque rebond réduit les dégâts de 30%.	lot sorts_objets_039
+sort	312260		Description	7d8907bcab2f	Subissez une mutation rapide : de nouveaux traits poussent toutes les $t1 sec., et vous oscillez dangereusement entre génie et abomination. Qui sait ce que vous allez devenir ?  Dure $d.	lot sorts_objets_039
+sort	312271		Description	aed2db8ad4c1	Chaque fois qu'un de vos sorts ou une de vos aptitudes rate sa cible, vous gagnez $312272s1 de score de toucher. Cumulable jusqu'à $312272u, dure $312272d.	lot sorts_objets_039
+sort	312276		Description	63b887eafb09	Infliger des dégâts de sorts a $h% de chances de déclencher Chant d'Eldara, qui augmente votre score de hâte de $312277s1 et vous rend ${$312277m2*4} points de mana en $312277d. (30 sec. de délai interne)	lot sorts_objets_039
+sort	312280		Description	f9b61548001b	Noie votre cible sous un torrent d'eau et lui inflige ${$m1+0+$SP*0.16+$AP*0.104} points de dégâts de Givre.	lot sorts_objets_039
+sort	312283		Description	e3fc77f38822	Quand vous êtes touché, vous avez $h% de chances de déclencher la rune de Tuel, qui vous octroie $312284s1 points d'armure. Cumulable jusqu'à $312284u fois. Dure $312284d.	lot sorts_objets_039
+sort	312287		Description	3148c8c312d2	Déclenche la rune d'Elte et inflige ${($m1+0+$SP*0.026+$AP*0.017)*5} points de dégâts de Nature en $d. Cumulable jusqu'à $u fois. (4 ppm)	lot sorts_objets_039
+sort	312290		Description	062c38e61b49	Le sol entre en éruption sous la cible et lui inflige ${$m1+0+$SP*0.048+$AP*0.0312} points de dégâts physiques. (2 ppm)	lot sorts_objets_039
+sort	312293		Description	e24fce7ab776	Compétence d'alchimie augmentée de $s1. \r\nÉquipé : compétence de cuisine augmentée de $s2.	lot sorts_objets_039
+sort	312296		Description	91754a1a997b	Vos attaques ignorent désormais $s1% de l'armure des cibles pendant $d. (1.2 ppm)\r\n	lot sorts_objets_039
+sort	312302		Description	3fc110256123	Fixe une charge ardente sur votre cible, qui explose après $d et inflige ${$312303m1+$312303ppl1+$SP*0.05+$AP*0.05} points de dégâts de Feu à la cible et aux ennemis proches. (1.3 ppm)	lot sorts_objets_039
+sort	312306		Description	e5a138d1d8b6	Lance votre clé électrisée sur l'adversaire et inflige ${$m1+0+$SP*0.16+$AP*0.16} points de dégâts de Nature.	lot sorts_objets_039
+sort	312312		Description	53bb051a468f	Tourmente l'ennemi et lui inflige ${$m1+0+$SP*0.064+$AP*0.042} points de dégâts d'Ombre, plus $312313s1% de dégâts supplémentaires pour chacun de vos effets de dégâts sur la durée sur la cible. (3 ppm)	lot sorts_objets_039
+sort	312316		Description	09d8da9a9da7	Les soins directs sur des cibles dont les points de vie sont inférieurs à 35% rendent $312317s1 points de mana.	lot sorts_objets_039
+sort	312320		Description	9298134f6597	Ouvre un portail dimensionnel qui explose après $d et inflige ${$312321m1+$312321ppl1+$SP*0.1+$AP*0.065} points de dégâts des Arcanes à tous les ennemis dans la zone.	lot sorts_objets_039
+sort	312324		Description	7db9ed0afe3a	Les sorts de dégâts directs ont $h% de chances de faire infliger des dégâts de Feu supplémentaires à vos attaques automatiques pendant $312325d. (5 sec. de délai interne)	lot sorts_objets_039
+sort	312329		Description	699428751e9f	Rend instantanément $s1 points de mana, mais à un prix ! Brûle $312330s1 points de mana toutes les $t2 sec. pendant $d. Si vos points de mana tombent sous 50%, l'effet de brûlure est fortement accru.	lot sorts_objets_039
+sort	312329		ToolTip	8971548bcebe	Brûle $312330s1 points de mana toutes les $t2 sec. pendant $d. Si vos points de mana tombent sous 50%, l'effet de brûlure est fortement accru.	lot sorts_objets_039
+sort	312334		Description	4d3355d6b042	Empoisonne la cible et lui inflige ${($m1+0+$SP*0.04+$AP*0.026)*4} points de dégâts de Nature en $d. (2 ppm)	lot sorts_objets_039
+sort	312337		Description	10b3c2536176	Déclenche une Frappe météore qui inflige ${$m1+0+$SP*0.12+$RAP*0.12} points de dégâts de Feu à $i cibles proches au maximum.	lot sorts_objets_039
+sort	312340		Description	bda2fa333d84	Inflige ${$M1+0+$SP*0.064+$AP*0.042} points de dégâts de Nature qui se propagent jusqu'à ${$x1-1} ennemis proches. (2 ppm)	lot sorts_objets_039
+sort	312346		Description	cb44e7aeeafc	Augmente les dégâts des sorts de $s1 pendant $d. (1.3 ppm)	lot sorts_objets_039
+sort	312349		Description	25ecf7f6605e	Toutes les 10 sec., vous gagnez un bonus de $312350s1 aux dégâts des sorts pour chaque école de magie, dans cet ordre : Feu, Nature, Givre, Ombre, Arcanes et Sacré.  Chacun dure $312350d.	lot sorts_objets_039
+sort	312358		Description	68e7412cfad5	Vos sorts de Jugement sont imprégnés de flammes draconiques et infligent à la cible ${($312359m1+$312359ppl1+$SP*0.0325+$AP*0.0325)*2} points de dégâts de Feu supplémentaires en $312359d.	lot sorts_objets_039
+sort	312362		Description	7353d2bc8959	Augmente votre puissance des sorts de ${$m1+0} pendant $d. (1.5 ppm)	lot sorts_objets_039
+sort	312365		Description	3475352e1644	Augmente votre score de coup critique de ${$m1+0} pendant $d. (0.7 ppm)	lot sorts_objets_039
+sort	312368		Description	f6d53bef9b83	Les attaques automatiques de mêlée et à distance ont une chance de causer une frappe supplémentaire, qui inflige des dégâts d'Ombre et vous rend 200% des dégâts infligés. (0.5 ppm) (25 sec. de délai interne)	lot sorts_objets_039
+sort	312371		Description	fac4c326284c	Infliger des dégâts magiques directs a $h% de chances de vous octroyer ${$312372m1+$312372ppl1} de résistance au Feu et de vous rendre ${$201111m1+$201111ppl1} points de vie toutes les $312372t2 sec. pendant $312372d. (30 sec. de délai interne)	lot sorts_objets_039
+sort	312379		Description	e5d5a33e6868	Les coups critiques des sorts de Feu ont $h% de chances de vous rendre $312380s1% de votre mana de base. (2 sec. de délai interne)	lot sorts_objets_039
+sort	312383		Description	505a42c63169	Augmente votre score de hâte en mêlée de ${$m1+0}. (3 ppm)	lot sorts_objets_039
+sort	312386		Description	8f7564d4c5e5	Vos attaques automatiques contre des cibles dont les points de vie sont inférieurs à 35% du maximum ont $h% de chances d'augmenter votre score de coup critique en mêlée de ${$312387m1+$312387ppl1} pendant $312387d.	lot sorts_objets_039
+sort	312390		Description	74dbc2b63804	Surchauffe le canon : vos attaques automatiques à distance infligent $s1% de dégâts supplémentaires sous forme de dégâts de Feu, mais votre vitesse d'attaque à distance est réduite de $S2% pendant $d. (2.8 ppm)	lot sorts_objets_039
+sort	312393		Description	30c361facd9f	Augmente votre score de hâte en mêlée de ${$m1+0}. Cumulable jusqu'à $u. (2 ppm)	lot sorts_objets_039
+sort	312399		Description	a917efaac4f8	Lance un marteau enflammé sur votre cible et inflige $s1% des dégâts de l'arme sous forme de dégâts de Feu, puis rebondit sur deux ennemis proches.	lot sorts_objets_039
+sort	312402		Description	63d66dfe95cb	Infliger des dégâts magiques directs a $h% de chances de brûler la cible et de lui infliger ${($312403m1+$312403ppl1+$SP*0.055+$AP*0.0325)*3} points de dégâts de Feu en $312403d. (2 sec. de délai interne)	lot sorts_objets_039
+sort	312406		Description	629ed543b8c0	Infliger des dégâts de feu périodiques a $h% de chances d'augmenter vos scores de coup critique et de hâte de $312407s1. Dure $312407d. (5 sec. de délai interne)	lot sorts_objets_039
+sort	312410		Description	9ad6c2685516	Brûle votre cible et lui inflige ${$m1+0+$SP*0.08+$AP*0.052} points de dégâts de Feu. (2 ppm)	lot sorts_objets_039
+sort	312413		Description	a2895bbea1c6	Les attaques de créatures qui font tomber vos points de vie sous 35% augmentent votre score d'esquive de $312414s1 et votre résistance à l'Ombre de $312414s2 pendant $312414d. (120 sec. de délai interne)	lot sorts_objets_039
+sort	312417		Description	724ddd89c7e5	Parer une attaque a $h% de chances de fêler la bouteille, ce qui répand du Jus de baie de parade et augmente votre score de parade de $312418s1 pendant $312418d. (15 sec. de délai interne)	lot sorts_objets_039
+sort	312421		Description	0a683ec5f9e8	Une faux fantomatique frappe les ennemis proches et inflige ${$m1+$SP*0.08+$AP*0.08} points de dégâts d'Ombre, puis vous octroie ${$312422m1+$312422ppl1} de puissance d'attaque pour chaque ennemi touché.	lot sorts_objets_039
+sort	312429		Description	bc22a74d987b	Les incantations de sorts de dégâts ont $h% de chances d'affliger la cible et de lui infliger ${($312430m1+$312430ppl1+$SP*0.05+$AP*0.05)*5} points de dégâts d'Ombre en $312430d. (12 sec. de délai interne)	lot sorts_objets_039
+sort	312433		Description	7afd9717dfc9	Vos sorts et aptitudes de dégâts ont $h% de chances de déclencher Schisme d'âme pendant $312434d, qui inflige ${$312434m1+$312434ppl1+$SP*0.2} points de dégâts d'Ombre à la fin de sa durée. (12 sec. de délai interne)	lot sorts_objets_039
+sort	313223		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	313235		Name	bc6c35cad0bd	Libram de la Troisième armée, effet factice	lot sorts_objets_039
+sort	313239		Name	9a38b3031f55	Crâne totémique de Furiehaine, effet factice	lot sorts_objets_039
+sort	313243		Description	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	313243		Name	8686688675f1	Maîtrise de l'invocation	lot sorts_objets_039
+sort	313243		ToolTip	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	313246		Name	1701320a7824	Vengeance de Bathran	lot sorts_objets_039
+sort	313246		ToolTip	36a33e9c0b07	Foudroie la cible et inflige de ${$m1+$ppl1+0.1*$SP+0.1*$AP} à ${$M1+$ppl1+0.1*$SP+0.1*$AP} points de dégâts de Nature.	lot sorts_objets_039
+sort	313249		Name	086cfda16e03	Targe de Stormgarde, effet factice	lot sorts_objets_039
+sort	313253		Name	a7f301758975	Cri de guerre ancien	lot sorts_objets_039
+sort	313256		Name	d8bacad21e7c	Tempête de sable	lot sorts_objets_039
+sort	313260		Name	1bb399ed4275	Protection du brise-ruche, effet factice	lot sorts_objets_039
+sort	313264		Name	9a508c111720	Tournevis imprégné de venin, effet factice	lot sorts_objets_039
+sort	313269		Name	52b20d16b1f5	Santé mentale de Cyclock, effet factice	lot sorts_objets_039
+sort	313273		Name	a82f08539b8c	Chaîne de cloques, effet factice	lot sorts_objets_039
+sort	313277		Name	126890bffa23	Magnétite chercheuse de trésors, effet factice	lot sorts_objets_039
+sort	313281		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	313284		Name	81e6139adaae	Relique d'ombre de midi, effet factice	lot sorts_objets_039
+sort	313288		Name	64e07ab8e4e8	Arbalète du chagrin, effet factice	lot sorts_objets_039
+sort	313292		Name	b2b24b678c1a	Chair fendue	lot sorts_objets_039
+sort	313295		Name	ef14790cdd47	Lance de bêtes de Vilebranche, effet factice	lot sorts_objets_039
+sort	313299		Name	a4383a71a140	Relique de la colère funeste, effet factice	lot sorts_objets_039
+sort	313303		Description	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	313303		ToolTip	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	313306		Name	c97e256553a0	Folie	lot sorts_objets_039
+sort	313306		ToolTip	fd44cc244b92	Foudroie la cible de folie et inflige de ${$m1+$ppl1+0.05*$SP+0.05*$AP} à ${$M1+$ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre.	lot sorts_objets_039
+sort	313309		Name	ebb7462253bc	Potion infinie de Cylla	lot sorts_objets_039
+sort	313312		Name	6ec63dc6e02f	Idole du dragon corrompu, effet factice	lot sorts_objets_039
+sort	313312		ToolTip	9c75e2442b9e	Les effets de soins sur la durée de Nature ont une chance de vous revigorer et de vous rendre 200 points de mana en 4 sec.	lot sorts_objets_039
+sort	313316		Name	b29d0b2d3438	Chapeau électrisant de Zipcoil, effet factice	lot sorts_objets_039
+sort	313316		ToolTip	96ff6f18979f	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont une chance de foudroyer la cible et vous-même pour la moitié des dégâts.	lot sorts_objets_039
+sort	313320		Description	40664bd88c00	Augmente votre score d'expertise de $s1 pendant $d.	lot sorts_objets_039
+sort	313320		ToolTip	d39bae4b4b3c	Augmente votre score d'expertise de $s1.	lot sorts_objets_039
+sort	313323		Name	2d4b2a111fd0	Potion de l'idiot cupide	lot sorts_objets_039
+sort	313329		Name	8404a564bb41	Couronne murloc, effet factice	lot sorts_objets_039
+sort	313329		ToolTip	95d0117d9b3c	Vous avez une chance d'être suivi par un murloc amical.	lot sorts_objets_039
+sort	313333		Description	803f799ec850	Désoriente les créatures proches pendant $d.	lot sorts_objets_039
+sort	313333		Name	cfba9eff0d35	Son désorientant	lot sorts_objets_039
+sort	313336		Description	7552f31d8c9d	Ça pput ! Manger ça ne peut pas être bon...	lot sorts_objets_039
+sort	313336		Name	35526cdec804	Mauvaise haleine	lot sorts_objets_039
+sort	313336		ToolTip	bf82e231909d	Votre haleine pue !	lot sorts_objets_039
+sort	313340		Name	e032ac2fafdb	Sang de silithide acide	lot sorts_objets_039
+sort	313340		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	313343		Name	07ac923201c6	Hache du bourreau, effet factice	lot sorts_objets_039
+sort	313347		Name	4712a8357e10	Défense désespérée, effet factice	lot sorts_objets_039
+sort	313351		Name	c764fb19afcf	Bâton du gardien de sang, effet factice	lot sorts_objets_039
+sort	313355		Name	71f6b33bd5b2	Icône de Hakkar, effet factice	lot sorts_objets_039
+sort	313359		Description	c5b798f305a5	Rend $s1 points de vie et de mana toutes les 5 sec. pendant $d.	lot sorts_objets_039
+sort	313359		Name	275b6c094cfc	Gouttes de puits de lune	lot sorts_objets_039
+sort	313359		ToolTip	73780183e270	Rend $s1 points de vie et de mana toutes les 5 sec. 	lot sorts_objets_039
+sort	313362		Description	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	313362		Name	d78506e81ba2	Éclat !	lot sorts_objets_039
+sort	313362		ToolTip	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	313365		Name	2bf7476bb386	Dague rituelle de Vilebranche, effet factice	lot sorts_objets_039
+sort	313369		Name	c68dd83cbd9f	Déchirure de serre	lot sorts_objets_039
+sort	313369		ToolTip	a149f1ec6af6	Déchire la chair de la cible et lui inflige ${$m1+$ppl1+$ap*0.05} points de dégâts physiques toutes les $t sec. pendant $d.	lot sorts_objets_039
+sort	313372		Name	8d1898eff2d3	Long fusil de guet, effet factice	lot sorts_objets_039
+sort	313376		Name	cb62ca419bb5	Cuirasse roussie en soie d'ombre, effet factice	lot sorts_objets_039
+sort	313381		Description	16234ea5ab8c	Invoque un élémentaire de feu qui vous aide au combat.	lot sorts_objets_039
+sort	313384		Description	676b03df9d8f	Augmente les dégâts des sorts de Feu de ${$m1+0}.	lot sorts_objets_039
+sort	313384		Name	b3dac61d518d	Pendentif d'éclat de lave et sacrificateur : puissance des sorts de Feu	lot sorts_objets_039
+sort	313384		ToolTip	d39bf756863b	Augmente les dégâts des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	313387		Description	db3a749f2405	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$M1+0}.	lot sorts_objets_039
+sort	313387		Name	69a8146ea772	Spirale de l'évocateur : puissance des sorts de Feu, de Givre et des Arcanes	lot sorts_objets_039
+sort	313387		ToolTip	4153022d5e0c	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	313390		Description	00a0a7e5eb07	Augmente les dégâts des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_039
+sort	313390		Name	ef61d9141b57	Tisseur d'effroi : puissance des sorts d'Ombre	lot sorts_objets_039
+sort	313390		ToolTip	81b8f7455d28	Augmente les dégâts des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	313393		Description	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	313393		Name	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	313393		ToolTip	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	313396		Name	64cd308ba4e2	Esprits maudits	lot sorts_objets_039
+sort	313396		ToolTip	8a5c738d9e32	Inflige $s1 points de dégâts d'Ombre.	lot sorts_objets_039
+sort	313399		Name	60b6f2350496	Carreau trempé d'acide	lot sorts_objets_039
+sort	313399		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	313402		Description	17fb9d3bd0b4	Augmente les dégâts des sorts des Arcanes de ${$m1+0}.	lot sorts_objets_039
+sort	313402		Name	b000b671d36e	De l'importance des focalisateurs des Arcanes : puissance des sorts des Arcanes	lot sorts_objets_039
+sort	313402		ToolTip	343671c8b8fe	Augmente les dégâts des sorts des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	313405		Description	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	313405		Name	628068e53f71	Massacre de démons - Tueur de démons orc - Sort d'objet	lot sorts_objets_039
+sort	313405		ToolTip	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	313408		Description	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	313408		Name	cb9270e0d824	Massacre de démons - Pilleur de démons elfe - Sort d'objet	lot sorts_objets_039
+sort	313408		ToolTip	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	313411		Name	0ee37237b890	Poupée vaudou maudite	lot sorts_objets_039
+sort	313411		ToolTip	39694e381a65	Transfère $s1% des dégâts subis au lanceur.	lot sorts_objets_039
+sort	313414		Name	f249e7d4eb34	Bouclier-scie de Moarg, effet factice	lot sorts_objets_039
+sort	313418		Name	c3875b26de00	Souffle de feu draconique	lot sorts_objets_039
+sort	313421		Name	f104815bf56f	Foi perdue, effet factice	lot sorts_objets_039
+sort	313425		Name	d3d8851bfd28	Enchaînement de feu	lot sorts_objets_039
+sort	313425		ToolTip	97016a7c76bf	Inflige $s1 points de dégâts de Feu.	lot sorts_objets_039
+sort	313428		Name	446a71346c71	Obus béni	lot sorts_objets_039
+sort	313428		ToolTip	7de353bee26f	Inflige $s1 points de dégâts du Sacré.	lot sorts_objets_039
+sort	313431		Name	9f2a9c225f6e	Tireur d'élite sentinelle, effet factice	lot sorts_objets_039
+sort	313435		Name	ffd91147b4de	Rempart du soldat, effet factice	lot sorts_objets_039
+sort	313439		Name	c64d16daa29d	Flèche empoisonnée	lot sorts_objets_039
+sort	313439		ToolTip	442f7f59543f	Inflige $s2 points de dégâts de Nature.	lot sorts_objets_039
+sort	313442		Name	7f58a783a873	Tempête du façonneur	lot sorts_objets_039
+sort	313446		Name	1100582dd161	Grande hache Fendchiten, effet factice	lot sorts_objets_039
+sort	313450		Description	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	313450		Name	ab24dc45ce1e	Talisman gémissant : résistance au silence	lot sorts_objets_039
+sort	313450		ToolTip	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	313453		Description	2737465ee912	Augmente votre puissance des sorts de $s1 pendant $d.	lot sorts_objets_039
+sort	313453		Name	34e6486cbd49	Essence gémissante	lot sorts_objets_039
+sort	313453		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	313456		Name	61e3b603fea1	Invocation d'un chien de peste	lot sorts_objets_039
+sort	313918		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	316260		Description	7d8907bcab2f	Subissez une mutation rapide : de nouveaux traits poussent toutes les $t1 sec., et vous oscillez dangereusement entre génie et abomination. Qui sait ce que vous allez devenir ?  Dure $d.	lot sorts_objets_039
+sort	316293		Description	e24fce7ab776	Compétence d'alchimie augmentée de $s1. \r\nÉquipé : compétence de cuisine augmentée de $s2.	lot sorts_objets_039
+sort	316346		Description	cb44e7aeeafc	Augmente les dégâts des sorts de $s1 pendant $d. (1.3 ppm)	lot sorts_objets_039
+sort	316362		Description	7353d2bc8959	Augmente votre puissance des sorts de ${$m1+0} pendant $d. (1.5 ppm)	lot sorts_objets_039
+sort	316365		Description	3475352e1644	Augmente votre score de coup critique de ${$m1+0} pendant $d. (0.7 ppm)	lot sorts_objets_039
+sort	316368		Description	f6d53bef9b83	Les attaques automatiques de mêlée et à distance ont une chance de causer une frappe supplémentaire, qui inflige des dégâts d'Ombre et vous rend 200% des dégâts infligés. (0.5 ppm) (25 sec. de délai interne)	lot sorts_objets_039
+sort	316383		Description	505a42c63169	Augmente votre score de hâte en mêlée de ${$m1+0}. (3 ppm)	lot sorts_objets_039
+sort	316390		Description	74dbc2b63804	Surchauffe le canon : vos attaques automatiques à distance infligent $s1% de dégâts supplémentaires sous forme de dégâts de Feu, mais votre vitesse d'attaque à distance est réduite de $S2% pendant $d. (2.8 ppm)	lot sorts_objets_039
+sort	316393		Description	30c361facd9f	Augmente votre score de hâte en mêlée de ${$m1+0}. Cumulable jusqu'à $u. (2 ppm)	lot sorts_objets_039
+sort	316399		Description	a917efaac4f8	Lance un marteau enflammé sur votre cible et inflige $s1% des dégâts de l'arme sous forme de dégâts de Feu, puis rebondit sur deux ennemis proches.	lot sorts_objets_039
+sort	317223		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	317235		Name	bc6c35cad0bd	Libram de la Troisième armée, effet factice	lot sorts_objets_039
+sort	317239		Name	9a38b3031f55	Crâne totémique de Furiehaine, effet factice	lot sorts_objets_039
+sort	317243		Description	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	317243		Name	8686688675f1	Maîtrise de l'invocation	lot sorts_objets_039
+sort	317243		ToolTip	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	317246		Name	1701320a7824	Vengeance de Bathran	lot sorts_objets_039
+sort	317246		ToolTip	36a33e9c0b07	Foudroie la cible et inflige de ${$m1+$ppl1+0.1*$SP+0.1*$AP} à ${$M1+$ppl1+0.1*$SP+0.1*$AP} points de dégâts de Nature.	lot sorts_objets_039
+sort	317249		Name	086cfda16e03	Targe de Stormgarde, effet factice	lot sorts_objets_039
+sort	317253		Name	a7f301758975	Cri de guerre ancien	lot sorts_objets_039
+sort	317256		Name	d8bacad21e7c	Tempête de sable	lot sorts_objets_039
+sort	317260		Name	1bb399ed4275	Protection du brise-ruche, effet factice	lot sorts_objets_039
+sort	317264		Name	9a508c111720	Tournevis imprégné de venin, effet factice	lot sorts_objets_039
+sort	317269		Name	52b20d16b1f5	Santé mentale de Cyclock, effet factice	lot sorts_objets_039
+sort	317273		Name	a82f08539b8c	Chaîne de cloques, effet factice	lot sorts_objets_039
+sort	317277		Name	126890bffa23	Magnétite chercheuse de trésors, effet factice	lot sorts_objets_039
+sort	317281		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	317284		Name	81e6139adaae	Relique d'ombre de midi, effet factice	lot sorts_objets_039
+sort	317288		Name	64e07ab8e4e8	Arbalète du chagrin, effet factice	lot sorts_objets_039
+sort	317292		Name	b2b24b678c1a	Chair fendue	lot sorts_objets_039
+sort	317295		Name	ef14790cdd47	Lance de bêtes de Vilebranche, effet factice	lot sorts_objets_039
+sort	317299		Name	a4383a71a140	Relique de la colère funeste, effet factice	lot sorts_objets_039
+sort	317303		Description	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	317303		ToolTip	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	317306		Name	c97e256553a0	Folie	lot sorts_objets_039
+sort	317306		ToolTip	fd44cc244b92	Foudroie la cible de folie et inflige de ${$m1+$ppl1+0.05*$SP+0.05*$AP} à ${$M1+$ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre.	lot sorts_objets_039
+sort	317309		Name	ebb7462253bc	Potion infinie de Cylla	lot sorts_objets_039
+sort	317312		Name	6ec63dc6e02f	Idole du dragon corrompu, effet factice	lot sorts_objets_039
+sort	317312		ToolTip	9c75e2442b9e	Les effets de soins sur la durée de Nature ont une chance de vous revigorer et de vous rendre 200 points de mana en 4 sec.	lot sorts_objets_039
+sort	317316		Name	b29d0b2d3438	Chapeau électrisant de Zipcoil, effet factice	lot sorts_objets_039
+sort	317316		ToolTip	96ff6f18979f	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont une chance de foudroyer la cible et vous-même pour la moitié des dégâts.	lot sorts_objets_039
+sort	317320		Description	40664bd88c00	Augmente votre score d'expertise de $s1 pendant $d.	lot sorts_objets_039
+sort	317320		ToolTip	d39bae4b4b3c	Augmente votre score d'expertise de $s1.	lot sorts_objets_039
+sort	317323		Name	2d4b2a111fd0	Potion de l'idiot cupide	lot sorts_objets_039
+sort	317329		Name	8404a564bb41	Couronne murloc, effet factice	lot sorts_objets_039
+sort	317329		ToolTip	95d0117d9b3c	Vous avez une chance d'être suivi par un murloc amical.	lot sorts_objets_039
+sort	317333		Description	803f799ec850	Désoriente les créatures proches pendant $d.	lot sorts_objets_039
+sort	317333		Name	cfba9eff0d35	Son désorientant	lot sorts_objets_039
+sort	317336		Description	7552f31d8c9d	Ça pput ! Manger ça ne peut pas être bon...	lot sorts_objets_039
+sort	317336		Name	35526cdec804	Mauvaise haleine	lot sorts_objets_039
+sort	317336		ToolTip	bf82e231909d	Votre haleine pue !	lot sorts_objets_039
+sort	317340		Name	e032ac2fafdb	Sang de silithide acide	lot sorts_objets_039
+sort	317340		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	317343		Name	07ac923201c6	Hache du bourreau, effet factice	lot sorts_objets_039
+sort	317347		Name	4712a8357e10	Défense désespérée, effet factice	lot sorts_objets_039
+sort	317351		Name	c764fb19afcf	Bâton du gardien de sang, effet factice	lot sorts_objets_039
+sort	317355		Name	71f6b33bd5b2	Icône de Hakkar, effet factice	lot sorts_objets_039
+sort	317359		Description	c5b798f305a5	Rend $s1 points de vie et de mana toutes les 5 sec. pendant $d.	lot sorts_objets_039
+sort	317359		Name	275b6c094cfc	Gouttes de puits de lune	lot sorts_objets_039
+sort	317359		ToolTip	73780183e270	Rend $s1 points de vie et de mana toutes les 5 sec. 	lot sorts_objets_039
+sort	317362		Description	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	317362		Name	d78506e81ba2	Éclat !	lot sorts_objets_039
+sort	317362		ToolTip	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	317365		Name	2bf7476bb386	Dague rituelle de Vilebranche, effet factice	lot sorts_objets_039
+sort	317369		Name	c68dd83cbd9f	Déchirure de serre	lot sorts_objets_039
+sort	317369		ToolTip	a149f1ec6af6	Déchire la chair de la cible et lui inflige ${$m1+$ppl1+$ap*0.05} points de dégâts physiques toutes les $t sec. pendant $d.	lot sorts_objets_039
+sort	317372		Name	8d1898eff2d3	Long fusil de guet, effet factice	lot sorts_objets_039
+sort	317376		Name	cb62ca419bb5	Cuirasse roussie en soie d'ombre, effet factice	lot sorts_objets_039
+sort	317381		Description	16234ea5ab8c	Invoque un élémentaire de feu qui vous aide au combat.	lot sorts_objets_039
+sort	317384		Description	676b03df9d8f	Augmente les dégâts des sorts de Feu de ${$m1+0}.	lot sorts_objets_039
+sort	317384		Name	b3dac61d518d	Pendentif d'éclat de lave et sacrificateur : puissance des sorts de Feu	lot sorts_objets_039
+sort	317384		ToolTip	d39bf756863b	Augmente les dégâts des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	317387		Description	db3a749f2405	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$M1+0}.	lot sorts_objets_039
+sort	317387		Name	69a8146ea772	Spirale de l'évocateur : puissance des sorts de Feu, de Givre et des Arcanes	lot sorts_objets_039
+sort	317387		ToolTip	4153022d5e0c	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	317390		Description	00a0a7e5eb07	Augmente les dégâts des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_039
+sort	317390		Name	ef61d9141b57	Tisseur d'effroi : puissance des sorts d'Ombre	lot sorts_objets_039
+sort	317390		ToolTip	81b8f7455d28	Augmente les dégâts des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	317393		Description	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	317393		Name	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	317393		ToolTip	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	317396		Name	64cd308ba4e2	Esprits maudits	lot sorts_objets_039
+sort	317396		ToolTip	8a5c738d9e32	Inflige $s1 points de dégâts d'Ombre.	lot sorts_objets_039
+sort	317399		Name	60b6f2350496	Carreau trempé d'acide	lot sorts_objets_039
+sort	317399		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	317402		Description	17fb9d3bd0b4	Augmente les dégâts des sorts des Arcanes de ${$m1+0}.	lot sorts_objets_039
+sort	317402		Name	b000b671d36e	De l'importance des focalisateurs des Arcanes : puissance des sorts des Arcanes	lot sorts_objets_039
+sort	317402		ToolTip	343671c8b8fe	Augmente les dégâts des sorts des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	317405		Description	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	317405		Name	628068e53f71	Massacre de démons - Tueur de démons orc - Sort d'objet	lot sorts_objets_039
+sort	317405		ToolTip	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	317408		Description	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	317408		Name	cb9270e0d824	Massacre de démons - Pilleur de démons elfe - Sort d'objet	lot sorts_objets_039
+sort	317408		ToolTip	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	317411		Name	0ee37237b890	Poupée vaudou maudite	lot sorts_objets_039
+sort	317411		ToolTip	39694e381a65	Transfère $s1% des dégâts subis au lanceur.	lot sorts_objets_039
+sort	317414		Name	f249e7d4eb34	Bouclier-scie de Moarg, effet factice	lot sorts_objets_039
+sort	317418		Name	c3875b26de00	Souffle de feu draconique	lot sorts_objets_039
+sort	317421		Name	f104815bf56f	Foi perdue, effet factice	lot sorts_objets_039
+sort	317425		Name	d3d8851bfd28	Enchaînement de feu	lot sorts_objets_039
+sort	317425		ToolTip	97016a7c76bf	Inflige $s1 points de dégâts de Feu.	lot sorts_objets_039
+sort	317428		Name	446a71346c71	Obus béni	lot sorts_objets_039
+sort	317428		ToolTip	7de353bee26f	Inflige $s1 points de dégâts du Sacré.	lot sorts_objets_039
+sort	317431		Name	9f2a9c225f6e	Tireur d'élite sentinelle, effet factice	lot sorts_objets_039
+sort	317435		Name	ffd91147b4de	Rempart du soldat, effet factice	lot sorts_objets_039
+sort	317439		Name	c64d16daa29d	Flèche empoisonnée	lot sorts_objets_039
+sort	317439		ToolTip	442f7f59543f	Inflige $s2 points de dégâts de Nature.	lot sorts_objets_039
+sort	317442		Name	7f58a783a873	Tempête du façonneur	lot sorts_objets_039
+sort	317446		Name	1100582dd161	Grande hache Fendchiten, effet factice	lot sorts_objets_039
+sort	317450		Description	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	317450		Name	ab24dc45ce1e	Talisman gémissant : résistance au silence	lot sorts_objets_039
+sort	317450		ToolTip	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	317453		Description	2737465ee912	Augmente votre puissance des sorts de $s1 pendant $d.	lot sorts_objets_039
+sort	317453		Name	34e6486cbd49	Essence gémissante	lot sorts_objets_039
+sort	317453		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	317456		Name	61e3b603fea1	Invocation d'un chien de peste	lot sorts_objets_039
+sort	317918		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	320260		Description	7d8907bcab2f	Subissez une mutation rapide : de nouveaux traits poussent toutes les $t1 sec., et vous oscillez dangereusement entre génie et abomination. Qui sait ce que vous allez devenir ?  Dure $d.	lot sorts_objets_039
+sort	320293		Description	e24fce7ab776	Compétence d'alchimie augmentée de $s1. \r\nÉquipé : compétence de cuisine augmentée de $s2.	lot sorts_objets_039
+sort	320346		Description	cb44e7aeeafc	Augmente les dégâts des sorts de $s1 pendant $d. (1.3 ppm)	lot sorts_objets_039
+sort	320362		Description	7353d2bc8959	Augmente votre puissance des sorts de ${$m1+0} pendant $d. (1.5 ppm)	lot sorts_objets_039
+sort	320365		Description	3475352e1644	Augmente votre score de coup critique de ${$m1+0} pendant $d. (0.7 ppm)	lot sorts_objets_039
+sort	320368		Description	f6d53bef9b83	Les attaques automatiques de mêlée et à distance ont une chance de causer une frappe supplémentaire, qui inflige des dégâts d'Ombre et vous rend 200% des dégâts infligés. (0.5 ppm) (25 sec. de délai interne)	lot sorts_objets_039
+sort	320383		Description	505a42c63169	Augmente votre score de hâte en mêlée de ${$m1+0}. (3 ppm)	lot sorts_objets_039
+sort	320390		Description	74dbc2b63804	Surchauffe le canon : vos attaques automatiques à distance infligent $s1% de dégâts supplémentaires sous forme de dégâts de Feu, mais votre vitesse d'attaque à distance est réduite de $S2% pendant $d. (2.8 ppm)	lot sorts_objets_039
+sort	320393		Description	30c361facd9f	Augmente votre score de hâte en mêlée de ${$m1+0}. Cumulable jusqu'à $u. (2 ppm)	lot sorts_objets_039
+sort	320399		Description	a917efaac4f8	Lance un marteau enflammé sur votre cible et inflige $s1% des dégâts de l'arme sous forme de dégâts de Feu, puis rebondit sur deux ennemis proches.	lot sorts_objets_039
+sort	321223		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	321235		Name	bc6c35cad0bd	Libram de la Troisième armée, effet factice	lot sorts_objets_039
+sort	321239		Name	9a38b3031f55	Crâne totémique de Furiehaine, effet factice	lot sorts_objets_039
+sort	321243		Description	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	321243		Name	8686688675f1	Maîtrise de l'invocation	lot sorts_objets_039
+sort	321243		ToolTip	af2112be8681	Crée un fragment d'âme.	lot sorts_objets_039
+sort	321246		Name	1701320a7824	Vengeance de Bathran	lot sorts_objets_039
+sort	321246		ToolTip	36a33e9c0b07	Foudroie la cible et inflige de ${$m1+$ppl1+0.1*$SP+0.1*$AP} à ${$M1+$ppl1+0.1*$SP+0.1*$AP} points de dégâts de Nature.	lot sorts_objets_039
+sort	321249		Name	086cfda16e03	Targe de Stormgarde, effet factice	lot sorts_objets_039
+sort	321253		Name	a7f301758975	Cri de guerre ancien	lot sorts_objets_039
+sort	321256		Name	d8bacad21e7c	Tempête de sable	lot sorts_objets_039
+sort	321260		Name	1bb399ed4275	Protection du brise-ruche, effet factice	lot sorts_objets_039
+sort	321264		Name	9a508c111720	Tournevis imprégné de venin, effet factice	lot sorts_objets_039
+sort	321269		Name	52b20d16b1f5	Santé mentale de Cyclock, effet factice	lot sorts_objets_039
+sort	321273		Name	a82f08539b8c	Chaîne de cloques, effet factice	lot sorts_objets_039
+sort	321277		Name	126890bffa23	Magnétite chercheuse de trésors, effet factice	lot sorts_objets_039
+sort	321281		ToolTip	8f67b1ad34b7	Augmente la puissance d'attaque de votre familier de ${$w1}.	lot sorts_objets_039
+sort	321284		Name	81e6139adaae	Relique d'ombre de midi, effet factice	lot sorts_objets_039
+sort	321288		Name	64e07ab8e4e8	Arbalète du chagrin, effet factice	lot sorts_objets_039
+sort	321292		Name	b2b24b678c1a	Chair fendue	lot sorts_objets_039
+sort	321295		Name	ef14790cdd47	Lance de bêtes de Vilebranche, effet factice	lot sorts_objets_039
+sort	321299		Name	a4383a71a140	Relique de la colère funeste, effet factice	lot sorts_objets_039
+sort	321303		Description	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	321303		ToolTip	8189f2e87b05	Augmente de $s1 la puissance d'attaque contre les géants.	lot sorts_objets_039
+sort	321306		Name	c97e256553a0	Folie	lot sorts_objets_039
+sort	321306		ToolTip	fd44cc244b92	Foudroie la cible de folie et inflige de ${$m1+$ppl1+0.05*$SP+0.05*$AP} à ${$M1+$ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre.	lot sorts_objets_039
+sort	321309		Name	ebb7462253bc	Potion infinie de Cylla	lot sorts_objets_039
+sort	321312		Name	6ec63dc6e02f	Idole du dragon corrompu, effet factice	lot sorts_objets_039
+sort	321312		ToolTip	9c75e2442b9e	Les effets de soins sur la durée de Nature ont une chance de vous revigorer et de vous rendre 200 points de mana en 4 sec.	lot sorts_objets_039
+sort	321316		Name	b29d0b2d3438	Chapeau électrisant de Zipcoil, effet factice	lot sorts_objets_039
+sort	321316		ToolTip	96ff6f18979f	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont une chance de foudroyer la cible et vous-même pour la moitié des dégâts.	lot sorts_objets_039
+sort	321320		Description	40664bd88c00	Augmente votre score d'expertise de $s1 pendant $d.	lot sorts_objets_039
+sort	321320		ToolTip	d39bae4b4b3c	Augmente votre score d'expertise de $s1.	lot sorts_objets_039
+sort	321323		Name	2d4b2a111fd0	Potion de l'idiot cupide	lot sorts_objets_039
+sort	321329		Name	8404a564bb41	Couronne murloc, effet factice	lot sorts_objets_039
+sort	321329		ToolTip	95d0117d9b3c	Vous avez une chance d'être suivi par un murloc amical.	lot sorts_objets_039
+sort	321333		Description	803f799ec850	Désoriente les créatures proches pendant $d.	lot sorts_objets_039
+sort	321333		Name	cfba9eff0d35	Son désorientant	lot sorts_objets_039
+sort	321336		Description	7552f31d8c9d	Ça pput ! Manger ça ne peut pas être bon...	lot sorts_objets_039
+sort	321336		Name	35526cdec804	Mauvaise haleine	lot sorts_objets_039
+sort	321336		ToolTip	bf82e231909d	Votre haleine pue !	lot sorts_objets_039
+sort	321340		Name	e032ac2fafdb	Sang de silithide acide	lot sorts_objets_039
+sort	321340		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	321343		Name	07ac923201c6	Hache du bourreau, effet factice	lot sorts_objets_039
+sort	321347		Name	4712a8357e10	Défense désespérée, effet factice	lot sorts_objets_039
+sort	321351		Name	c764fb19afcf	Bâton du gardien de sang, effet factice	lot sorts_objets_039
+sort	321355		Name	71f6b33bd5b2	Icône de Hakkar, effet factice	lot sorts_objets_039
+sort	321359		Description	c5b798f305a5	Rend $s1 points de vie et de mana toutes les 5 sec. pendant $d.	lot sorts_objets_039
+sort	321359		Name	275b6c094cfc	Gouttes de puits de lune	lot sorts_objets_039
+sort	321359		ToolTip	73780183e270	Rend $s1 points de vie et de mana toutes les 5 sec. 	lot sorts_objets_039
+sort	321362		Description	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	321362		Name	d78506e81ba2	Éclat !	lot sorts_objets_039
+sort	321362		ToolTip	27f6d7e81486	Inflige $s1 points de dégâts physiques aux attaquants.	lot sorts_objets_039
+sort	321365		Name	2bf7476bb386	Dague rituelle de Vilebranche, effet factice	lot sorts_objets_039
+sort	321369		Name	c68dd83cbd9f	Déchirure de serre	lot sorts_objets_039
+sort	321369		ToolTip	a149f1ec6af6	Déchire la chair de la cible et lui inflige ${$m1+$ppl1+$ap*0.05} points de dégâts physiques toutes les $t sec. pendant $d.	lot sorts_objets_039
+sort	321372		Name	8d1898eff2d3	Long fusil de guet, effet factice	lot sorts_objets_039
+sort	321376		Name	cb62ca419bb5	Cuirasse roussie en soie d'ombre, effet factice	lot sorts_objets_039
+sort	321381		Description	16234ea5ab8c	Invoque un élémentaire de feu qui vous aide au combat.	lot sorts_objets_039
+sort	321384		Description	676b03df9d8f	Augmente les dégâts des sorts de Feu de ${$m1+0}.	lot sorts_objets_039
+sort	321384		Name	b3dac61d518d	Pendentif d'éclat de lave et sacrificateur : puissance des sorts de Feu	lot sorts_objets_039
+sort	321384		ToolTip	d39bf756863b	Augmente les dégâts des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	321387		Description	db3a749f2405	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$M1+0}.	lot sorts_objets_039
+sort	321387		Name	69a8146ea772	Spirale de l'évocateur : puissance des sorts de Feu, de Givre et des Arcanes	lot sorts_objets_039
+sort	321387		ToolTip	4153022d5e0c	Augmente les dégâts des sorts de Feu, de Givre et des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	321390		Description	00a0a7e5eb07	Augmente les dégâts des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_039
+sort	321390		Name	ef61d9141b57	Tisseur d'effroi : puissance des sorts d'Ombre	lot sorts_objets_039
+sort	321390		ToolTip	81b8f7455d28	Augmente les dégâts des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	321393		Description	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	321393		Name	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	321393		ToolTip	a7f3c167152c	Éclairez la voie !	lot sorts_objets_039
+sort	321396		Name	64cd308ba4e2	Esprits maudits	lot sorts_objets_039
+sort	321396		ToolTip	8a5c738d9e32	Inflige $s1 points de dégâts d'Ombre.	lot sorts_objets_039
+sort	321399		Name	60b6f2350496	Carreau trempé d'acide	lot sorts_objets_039
+sort	321399		ToolTip	e4d2058293b3	Inflige $s1 points de dégâts de Nature.	lot sorts_objets_039
+sort	321402		Description	17fb9d3bd0b4	Augmente les dégâts des sorts des Arcanes de ${$m1+0}.	lot sorts_objets_039
+sort	321402		Name	b000b671d36e	De l'importance des focalisateurs des Arcanes : puissance des sorts des Arcanes	lot sorts_objets_039
+sort	321402		ToolTip	343671c8b8fe	Augmente les dégâts des sorts des Arcanes de ${$m1+$ppl1}.	lot sorts_objets_039
+sort	321405		Description	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	321405		Name	628068e53f71	Massacre de démons - Tueur de démons orc - Sort d'objet	lot sorts_objets_039
+sort	321405		ToolTip	f4c254f8f5cc	Augmente de $s1 la puissance d'attaque contre les démons.	lot sorts_objets_039
+sort	321408		Description	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	321408		Name	cb9270e0d824	Massacre de démons - Pilleur de démons elfe - Sort d'objet	lot sorts_objets_039
+sort	321408		ToolTip	fcefb6e1b2e6	Augmente de $s1 les dégâts des sorts contre les démons.	lot sorts_objets_039
+sort	321411		Name	0ee37237b890	Poupée vaudou maudite	lot sorts_objets_039
+sort	321411		ToolTip	39694e381a65	Transfère $s1% des dégâts subis au lanceur.	lot sorts_objets_039
+sort	321414		Name	f249e7d4eb34	Bouclier-scie de Moarg, effet factice	lot sorts_objets_039
+sort	321418		Name	c3875b26de00	Souffle de feu draconique	lot sorts_objets_039
+sort	321421		Name	f104815bf56f	Foi perdue, effet factice	lot sorts_objets_039
+sort	321425		Name	d3d8851bfd28	Enchaînement de feu	lot sorts_objets_039
+sort	321425		ToolTip	97016a7c76bf	Inflige $s1 points de dégâts de Feu.	lot sorts_objets_039
+sort	321428		Name	446a71346c71	Obus béni	lot sorts_objets_039
+sort	321428		ToolTip	7de353bee26f	Inflige $s1 points de dégâts du Sacré.	lot sorts_objets_039
+sort	321431		Name	9f2a9c225f6e	Tireur d'élite sentinelle, effet factice	lot sorts_objets_039
+sort	321435		Name	ffd91147b4de	Rempart du soldat, effet factice	lot sorts_objets_039
+sort	321439		Name	c64d16daa29d	Flèche empoisonnée	lot sorts_objets_039
+sort	321439		ToolTip	442f7f59543f	Inflige $s2 points de dégâts de Nature.	lot sorts_objets_039
+sort	321442		Name	7f58a783a873	Tempête du façonneur	lot sorts_objets_039
+sort	321446		Name	1100582dd161	Grande hache Fendchiten, effet factice	lot sorts_objets_039
+sort	321450		Description	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	321450		Name	ab24dc45ce1e	Talisman gémissant : résistance au silence	lot sorts_objets_039
+sort	321450		ToolTip	a3c6e5525f6f	Réduit de $s1% la durée des effets de silence ou d'interruption utilisés contre le porteur.	lot sorts_objets_039
+sort	321453		Description	2737465ee912	Augmente votre puissance des sorts de $s1 pendant $d.	lot sorts_objets_039
+sort	321453		Name	34e6486cbd49	Essence gémissante	lot sorts_objets_039
+sort	321453		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	321456		Name	61e3b603fea1	Invocation d'un chien de peste	lot sorts_objets_039
+sort	321918		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039
+sort	901981		ToolTip	0cfa29db1058	Augmente votre puissance des sorts de $s1.	lot sorts_objets_039

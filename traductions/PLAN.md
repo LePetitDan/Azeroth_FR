@@ -15,7 +15,8 @@
 | **G** Sorts du serveur et sorts standard à revoir | 6 | sorts_serveur, sorts_standard, sorts_coa | 56 | 8 552 | 137 685 | familles entières |
 | **H** Hauts faits (et enchantements sans modèle, en attente) | 7 | hauts_faits, enchantements | 27 | 5 557 | 40 569 (+10 067 mots en attente) | familles entières |
 | **I** Textes propres au client CoA (0.9) | 8 | sorts_coa, epreuves, creation_personnage, tutoriels, progression, monde_client, noms_client | 47 | 4 898 | 100 796 | familles entières |
-| **Total** | | | 408 | 71 524 | 819 740 | |
+| **J** Sorts des objets et collection de vanité (essai 8) | 9 | sorts_objets, vanite | 92 | 19 907 | 225 699 | familles entières |
+| **Total** | | | 500 | 91 431 | 1 045 439 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -58,6 +59,8 @@
 | progression | I | 601 | 781 | 4 168 | 3 | 0 |
 | monde_client | I | 470 | 706 | 1 498 | 2 | 1 |
 | noms_client | I | 694 | 7 397 | 1 800 | 3 | 0 |
+| sorts_objets | J | 15 447 | 27 888 | 179 456 | 73 | 126 |
+| vanite | J | 4 460 | 12 569 | 46 243 | 19 | 0 |
 
 ## Les lots
 
@@ -513,4 +516,101 @@
 | `noms_client_001` | titre 123 à famille_creature 360 | 300 | 350 | 789 |
 | `noms_client_002` | famille_creature 361 à propriete_aleatoire 8076 | 300 | 3538 | 717 |
 | `noms_client_003` | propriete_aleatoire 8077 à 13677 | 94 | 3509 | 294 |
+
+### Chantier J : Sorts des objets et collection de vanité (essai 8)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `sorts_objets_001` | sort 104 à 274 | 148 | 1071 | 2527 |
+| `sorts_objets_002` | sort 275 à 318 | 75 | 120 | 2557 |
+| `sorts_objets_003` | sort 319 à 521 | 185 | 571 | 2455 |
+| `sorts_objets_004` | sort 523 à 79084 | 239 | 1732 | 2497 |
+| `sorts_objets_005` | sort 79085 à 79438 | 300 | 307 | 2472 |
+| `sorts_objets_006` | sort 79440 à 79758 | 300 | 300 | 2389 |
+| `sorts_objets_007` | sort 79759 à 80727 | 301 | 461 | 2346 |
+| `sorts_objets_008` | sort 80733 à 81160 | 259 | 271 | 2497 |
+| `sorts_objets_009` | sort 81161 à 81466 | 180 | 182 | 2506 |
+| `sorts_objets_010` | sort 81467 à 81697 | 225 | 232 | 2498 |
+| `sorts_objets_011` | sort 81698 à 81978 | 283 | 295 | 2499 |
+| `sorts_objets_012` | sort 81979 à 82268 | 300 | 425 | 2500 |
+| `sorts_objets_013` | sort 82269 à 82566 | 296 | 311 | 2498 |
+| `sorts_objets_014` | sort 82567 à 82879 | 300 | 308 | 2485 |
+| `sorts_objets_015` | sort 82880 à 83285 | 300 | 517 | 2443 |
+| `sorts_objets_016` | sort 83286 à 83644 | 161 | 247 | 2559 |
+| `sorts_objets_017` | sort 83645 à 83690 | 80 | 136 | 2563 |
+| `sorts_objets_018` | sort 83691 à 83745 | 90 | 118 | 2499 |
+| `sorts_objets_019` | sort 83746 à 84377 | 300 | 329 | 2509 |
+| `sorts_objets_020` | sort 84378 à 84776 | 182 | 191 | 2498 |
+| `sorts_objets_021` | sort 84781 à 85584 | 301 | 303 | 1235 |
+| `sorts_objets_022` | sort 85586 à 91510 | 300 | 304 | 1443 |
+| `sorts_objets_023` | sort 91511 à 93160 | 245 | 261 | 2499 |
+| `sorts_objets_024` | sort 93161 à 94633 | 289 | 460 | 2491 |
+| `sorts_objets_025` | sort 94634 à 100406 | 300 | 309 | 2456 |
+| `sorts_objets_026` | sort 100407 à 100908 | 300 | 306 | 2492 |
+| `sorts_objets_027` | sort 100909 à 102794 | 220 | 302 | 2513 |
+| `sorts_objets_028` | sort 102795 à 113167 | 164 | 200 | 2478 |
+| `sorts_objets_029` | sort 113176 à 200008 | 139 | 229 | 2497 |
+| `sorts_objets_030` | sort 200010 à 200548 | 300 | 316 | 2432 |
+| `sorts_objets_031` | sort 200549 à 201148 | 285 | 875 | 2498 |
+| `sorts_objets_032` | sort 201151 à 224160 | 269 | 706 | 2493 |
+| `sorts_objets_033` | sort 224161 à 287845 | 248 | 564 | 2531 |
+| `sorts_objets_034` | sort 287846 à 302618 | 169 | 358 | 2525 |
+| `sorts_objets_035` | sort 302621 à 302705 | 87 | 87 | 2581 |
+| `sorts_objets_036` | sort 302708 à 302792 | 87 | 87 | 2581 |
+| `sorts_objets_037` | sort 302795 à 302879 | 87 | 87 | 2581 |
+| `sorts_objets_038` | sort 302882 à 304135 | 282 | 872 | 2495 |
+| `sorts_objets_039` | sort 304137 à 312433 | 219 | 1055 | 2497 |
+| `sorts_objets_040` | sort 312437 à 313082 | 165 | 219 | 2493 |
+| `sorts_objets_041` | sort 313088 à 313629 | 175 | 355 | 2500 |
+| `sorts_objets_042` | sort 313633 à 316599 | 234 | 1120 | 2497 |
+| `sorts_objets_043` | sort 316606 à 317256 | 151 | 156 | 2502 |
+| `sorts_objets_044` | sort 317260 à 320480 | 147 | 620 | 2493 |
+| `sorts_objets_045` | sort 320484 à 321181 | 151 | 157 | 2489 |
+| `sorts_objets_046` | sort 321185 à 351503 | 148 | 162 | 2489 |
+| `sorts_objets_047` | sort 351504 à 364387 | 253 | 501 | 2495 |
+| `sorts_objets_048` | sort 364390 à 426463 | 216 | 370 | 2497 |
+| `sorts_objets_049` | sort 428775 à 520175 | 270 | 669 | 2512 |
+| `sorts_objets_050` | sort 520282 à 572400 | 215 | 458 | 2499 |
+| `sorts_objets_051` | sort 572404 à 680332 | 277 | 636 | 2503 |
+| `sorts_objets_052` | sort 680334 à 801972 | 235 | 1283 | 2500 |
+| `sorts_objets_053` | sort 802272 à 807814 | 185 | 342 | 2510 |
+| `sorts_objets_054` | sort 807820 à 824014 | 128 | 166 | 2488 |
+| `sorts_objets_055` | sort 824015 à 909159 | 252 | 293 | 2496 |
+| `sorts_objets_056` | sort 909164 à 909788 | 203 | 316 | 2493 |
+| `sorts_objets_057` | sort 909789 à 954106 | 238 | 298 | 2526 |
+| `sorts_objets_058` | sort 954347 à 966061 | 160 | 169 | 2500 |
+| `sorts_objets_059` | sort 966114 à 968154 | 229 | 239 | 2516 |
+| `sorts_objets_060` | sort 968155 à 969238 | 104 | 176 | 2473 |
+| `sorts_objets_061` | sort 969239 à 969322 | 116 | 116 | 2531 |
+| `sorts_objets_062` | sort 969323 à 977785 | 133 | 143 | 2524 |
+| `sorts_objets_063` | sort 977787 à 978758 | 113 | 124 | 2519 |
+| `sorts_objets_064` | sort 978759 à 979692 | 205 | 210 | 2498 |
+| `sorts_objets_065` | sort 979693 à 985807 | 195 | 217 | 2498 |
+| `sorts_objets_066` | sort 985810 à 1008053 | 281 | 340 | 2498 |
+| `sorts_objets_067` | sort 1008054 à 1968112 | 255 | 299 | 2498 |
+| `sorts_objets_068` | sort 1968113 à 1979915 | 235 | 253 | 2497 |
+| `sorts_objets_069` | sort 1979916 à 2127356 | 193 | 557 | 2495 |
+| `sorts_objets_070` | sort 2127362 à 2128037 | 151 | 151 | 2490 |
+| `sorts_objets_071` | sort 2128039 à 2185026 | 190 | 301 | 2452 |
+| `sorts_objets_072` | sort 2185033 à 2935019 | 174 | 269 | 2503 |
+| `sorts_objets_073` | sort 2935020 à 13977913 | 275 | 398 | 1867 |
+| `vanite_001` | coa_vanite 1 à 2607 | 240 | 5782 | 2491 |
+| `vanite_002` | coa_vanite 2608 à 4351 | 238 | 247 | 2494 |
+| `vanite_003` | coa_vanite 4352 à 4597 | 240 | 280 | 2492 |
+| `vanite_004` | coa_vanite 4600 à 6661 | 225 | 239 | 2491 |
+| `vanite_005` | coa_vanite 6667 à 12772 | 229 | 521 | 2499 |
+| `vanite_006` | coa_vanite 12773 à 13018 | 226 | 226 | 2495 |
+| `vanite_007` | coa_vanite 13020 à 13575 | 229 | 231 | 2490 |
+| `vanite_008` | coa_vanite 13576 à 15034 | 228 | 233 | 2494 |
+| `vanite_009` | coa_vanite 15035 à 17326 | 227 | 253 | 2500 |
+| `vanite_010` | coa_vanite 17327 à 19506 | 229 | 272 | 2491 |
+| `vanite_011` | coa_vanite 19507 à 25198 | 227 | 651 | 2495 |
+| `vanite_012` | coa_vanite 25323 à 64366 | 246 | 799 | 2500 |
+| `vanite_013` | coa_vanite 64367 à 67470 | 237 | 363 | 2492 |
+| `vanite_014` | coa_vanite 67471 à 68196 | 230 | 264 | 2494 |
+| `vanite_015` | coa_vanite 68207 à 69085 | 231 | 348 | 2496 |
+| `vanite_016` | coa_vanite 69087 à 70817 | 229 | 427 | 2498 |
+| `vanite_017` | coa_vanite 70818 à 100167 | 242 | 382 | 2492 |
+| `vanite_018` | coa_vanite 100177 à 645512 | 217 | 236 | 2500 |
+| `vanite_019` | coa_vanite 645513 à coa_vanite_objet 8200175 | 290 | 815 | 1339 |
 

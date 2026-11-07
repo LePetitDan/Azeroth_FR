@@ -133,4 +133,73 @@ sort	801352		ToolTip	98728961f42c	Hâte des sorts augmentée de ${$w2}% de votre
 sort	801381		Description	bc9c94915da2	|cffffffffNécessite une méca-armure|r\r\nTaillade un ennemi avec votre lame de scie, lui infligeant ${$m1+0+$AP*0.4+$SP*.25} points de dégâts physiques et réduisant de $s3% tous les soins qu'il reçoit pendant $d.	lot sorts_classes_016
 sort	801381		Name	153899dd20c5	Méca-armure : lame de scie	lot sorts_classes_016
 sort	801381		ToolTip	d1cd41aaf401	Soins reçus réduits de ${$w3}%.	lot sorts_classes_016
+sort	801382		Description	5639efab3b50	Rend $s1% des points de vie maximum.	lot sorts_classes_016
+sort	801382		ToolTip	66251d66e24c	Dégâts subis réduits de ${$w2}%.	lot sorts_classes_016
+sort	801391		Description	d4720971cf1e	Charge une cible ennemie et la frappe avec un missile d'artillerie qui inflige $s1 points de dégâts physiques.	lot sorts_classes_016
+sort	801391		Name	472bc2c4edae	Méca-armure : ruée d'artillerie	lot sorts_classes_016
+sort	801391		Rank	7770b8aed771	Méca-armure	lot sorts_classes_016
+sort	801393		Description	e6cb084a6f19	Améliore votre |cffffffffméca-armure|r au modèle |cffffffffVanguard X-42|r, ce qui permet d'utiliser les aptitudes de votre |cffffffffVanguard X-173|r.\n\nRéduit aussi tous les dégâts subis de $s3% et augmente les dégâts de Feu infligés de $s1%.\n@ext:@s:801815:0@@s:801382:0@:ext@	lot sorts_classes_016
+sort	801393		Name	c57b09e2758c	Amélioration de méca-armure : Vanguard X-42	lot sorts_classes_016
+sort	801393		Rank	7770b8aed771	Méca-armure	lot sorts_classes_016
+sort	801393		ToolTip	1c0ad7924416	Aptitudes de la méca-armure Vanguard X-42 activées.	lot sorts_classes_016
+sort	801394		Description	1a0bc016621a	Frappe un ennemi et inflige les dégâts de l'arme plus $s1. Toutes les 3 utilisations, foudroie tous les ennemis proches récemment touchés par Écrasement de bouclier avec la Foudre déchaînée, ce qui inflige $801395s1 points de dégâts des Arcanes supplémentaires.\n\nInfliger des dégâts à un ennemi avec cette aptitude augmente de $s2% les dégâts qu'il subit de la Foudre déchaînée pendant $d. Cumulable jusqu'à 5 fois.	lot sorts_classes_016
+sort	801394		Name	56c8fc8ccf5f	Vanguard X-173 : Écrasement de bouclier	lot sorts_classes_016
+sort	801394		Rank	7770b8aed771	Méca-armure	lot sorts_classes_016
+sort	801394		ToolTip	0b8e23202d48	Dégâts subis de la Foudre déchaînée augmentés de ${$w2}%.	lot sorts_classes_016
+sort	801428		Description	002438fc1002	Fait tomber un faisceau de lumière sur une zone pendant $d, ce qui révèle les ennemis furtifs et invisibles.	lot sorts_classes_016
+sort	801428		Name	c9c5234d3d55	Rayon d'illumination	lot sorts_classes_016
+sort	801428		ToolTip	33a78bf733c0	Révélé. 	lot sorts_classes_016
+sort	801434		Description	609e4c2495e4	Votre instinct prend le dessus : vous rendez instantanément $s1 points de Focalisation et augmentez votre puissance d'attaque de $s2% de votre Agilité pendant $d.\r\n\r\nUtilisable en restant furtif.	lot sorts_classes_016
+sort	801434		Name	8b466a9d6a80	Instinct	lot sorts_classes_016
+sort	801434		ToolTip	6d4fecb722d6	Puissance d'attaque augmentée de ${$w2}%.	lot sorts_classes_016
+sort	801440		Description	13e0622abc2c	Renvoie le prochain sort nuisible lancé contre vous dans les $d.\n\nUtilisable en étant étourdi.	lot sorts_classes_016
+sort	801440		Name	f50bf15cfaf9	Renvoi de magie	lot sorts_classes_016
+sort	801440		ToolTip	62b23937cfc2	Renvoie le prochain sort lancé sur vous.	lot sorts_classes_016
+sort	801441		Description	aee46597d1df	Lit votre |cffffffffLibram de consécration|r : vos aptitudes de dégâts infligent ${$804148m1+$804148ppl1} points de dégâts du Sacré supplémentaires à votre cible pendant $d.\r\n\r\n@ext:Only 1 |cffffffffLibram|r spell can be active at a time.:ext@	lot sorts_classes_016
+sort	801441		Name	f38cf8f1e73a	Libram de consécration	lot sorts_classes_016
+sort	801441		ToolTip	8cc7e7f500ad	Les attaques physiques infligent des dégâts du Sacré supplémentaires.	lot sorts_classes_016
+sort	801443		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0} et confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points de vie en plus.	lot sorts_classes_016
+sort	801443		Name	8251328f658e	Fente vertueuse	lot sorts_classes_016
+sort	801445		Description	061ce6b52f8d	Fend les ennemis, ce qui inflige $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_classes_016
+sort	801445		Name	6602e3ae4680	Enchaînement sacré	lot sorts_classes_016
+sort	801448		Description	a71409d662b3	Déchaîne un |cffffffffBrise-serment|r de soin, qui rend ${$m2+0+$STA*0.25+$SP*0.3} points de vie à un allié, en fonction de l'Endurance.\r\n\r\nConsomme vos |cffffffffSerments|r et rend des soins supplémentaires pour chacun consommé.	lot sorts_classes_016
+sort	801448		Name	9311a150b5bd	Bénédiction	lot sorts_classes_016
+sort	801451		Description	98564ca77d77	Déchaîne un |cffffffffBrise-serment|r, qui inflige les dégâts de l'arme plus ${$m1+$PL*0.5+($spfi+$AP)*0.67} et fait saigner la cible, ce qui inflige $o3 points de dégâts de Feu supplémentaires en $d.\r\n\r\nGagne les |cffffffffSerments|r de chaque |cffffffffSuite|r utilisée dans l'enchaînement.	lot sorts_classes_016
+sort	801451		Name	9027de9a82b1	Lame enflammée	lot sorts_classes_016
+sort	801451		ToolTip	541d4b858a0c	Saigne pour ${$w3} points de dégâts de Feu toutes les $t3 sec.	lot sorts_classes_016
+sort	801458		Description	22f8883615d8	Augmente vos chances d'esquiver de $s1% et réduit de $s2% les chances que les attaques à distance vous touchent pendant $d.\r\n\r\nPendant la durée de l'effet, votre vitesse de chute est réduite.	lot sorts_classes_016
+sort	801458		Name	c54b51606300	Mouvements agiles	lot sorts_classes_016
+sort	801458		ToolTip	ebd2ddd3e2b4	Chances d'esquiver augmentées de ${$w1}%. Les attaques à distance ont ${$w2}% de chances en moins de vous toucher.	lot sorts_classes_016
+sort	801463		Description	caf5a391743d	Lit votre |cFFFFFFFFLibram de grâce|r : les soins que vous recevez sont augmentés de $s2% et vos aptitudes de dégâts vous rendent, ainsi qu'à vos alliés proches, ${$804150m1+$AP*.1+$SP*.15} points de vie pendant $d.\r\n\r\n@ext:Only 1 |cffffffffLibram|r spell can be active at a time.:ext@	lot sorts_classes_016
+sort	801463		Name	bbdd9a434438	Libram de grâce	lot sorts_classes_016
+sort	801463		ToolTip	c5589d991a55	Les aptitudes de dégâts soignent les alliés proches. Soins reçus augmentés de ${$w2}%.	lot sorts_classes_016
+sort	801477		Description	6716ee6808d2	Déchaîne un |cffffffffBrise-serment|r défensif : les dégâts subis lors d'attaques de mêlée vous soignent, ainsi que vos alliés se trouvant à moins de $806729a1 mètres, à hauteur de ${$806729m1+$806729ppl1}. \r\n\r\nDure $d ou jusqu'à ce que vous soyez frappé $n fois.	lot sorts_classes_016
+sort	801477		Name	6521b92911dd	Grâce d'Aman'Thul	lot sorts_classes_016
+sort	801477		ToolTip	3278e14b278e	Subir des dégâts d'attaques de mêlée soigne les alliés proches et retire 1 charge.	lot sorts_classes_016
+sort	801478		Description	cd77eeae07c4	Dit une prière pour un allié et lui rend ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_classes_016
+sort	801478		Name	983b2e9a425a	Testament de foi	lot sorts_classes_016
+sort	801478		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_classes_016
+sort	801479		Description	c657f1bd8442	Donne aux attaques automatiques une chance de réduire le temps de recharge de vos sorts |cFFFFFFFFGravure de runes|r  de 	lot sorts_classes_016
+sort	801479		Name	b0a924d5b93b	Dévotion de Khaz'goroth	lot sorts_classes_016
+sort	801479		ToolTip	4b2104e12a3d	Donne aux attaques automatiques une chance de réduire le temps de recharge de vos sorts |cFFFFFFFFGravure de runes|r  de	lot sorts_classes_016
+sort	801487		Description	477899538123	Invoque 3 |cffffffffSphères ardentes|r autour de vous pendant 20 sec maximum.\r\n\r\nUtiliser |cffffffffEnflammer|r sur un ennemi fait se verrouiller vos sphères sur lui : elles lui infligent des dégâts de Feu avec le temps et réduisent sa vitesse de déplacement de 25%.	lot sorts_classes_016
+sort	801487		Name	7394e39cfa34	Sphères ardentes	lot sorts_classes_016
+sort	801487		ToolTip	fed296ae0028	Les sphères ardentes sont actives.	lot sorts_classes_016
+sort	801517		Description	31b1c3b5ca01	Tente de concevoir un nouveau gadget GÉNIAL et vous donne $s2 en Ingénierie pendant $d !	lot sorts_classes_016
+sort	801517		Name	35481d4d3f69	Outils de bricolage	lot sorts_classes_016
+sort	801517		ToolTip	69cfffb384c0	Compétence en Ingénierie augmentée de ${$w2}.	lot sorts_classes_016
+sort	801523		Description	e81550eebb27	Partage la sagesse de Chromie avec un joueur allié et augmente son Esprit de $s1. Dure $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_classes_016
+sort	801523		Name	3c712034ec12	Sagesse de Chromie	lot sorts_classes_016
+sort	801523		ToolTip	1e6ac9587b99	Esprit augmenté de ${$W1}.	lot sorts_classes_016
+sort	801524		Description	69ac74cb567e	Entrave un ennemi avec des chaînes de lumière, ce qui l'empêche de monter en selle, de fuir ou de dépasser sa vitesse de déplacement normale pendant $806697d.	lot sorts_classes_016
+sort	801524		Name	47e2395cc3ae	Chaînes de Lumière	lot sorts_classes_016
+sort	801524		ToolTip	f0ef8cb89098	La vitesse de déplacement ne peut pas être augmentée.	lot sorts_classes_016
+sort	801544		Description	d8dda788cbbd	Vous téléporte à l'endroit ciblé.\r\n\r\nSubir des dégâts pendant l'incantation interrompt cette aptitude. Inutilisable en combat.	lot sorts_classes_016
+sort	801544		Name	9d6c562fc963	Générateur de trou de distorsion	lot sorts_classes_016
+sort	801564		Description	0dd358ce3872	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de mana.\n\nPendant $d, la cible reçoit $s3% de soins en plus, mais subir des dégâts met fin à l'effet.	lot sorts_classes_016
+sort	801564		Name	8eb026d58360	Morsure de vampyr	lot sorts_classes_016
+sort	801564		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_classes_016
+sort	801710		Rank	7770b8aed771	Méca-armure	lot sorts_classes_016
+sort	801815		Rank	7770b8aed771	Méca-armure	lot sorts_classes_016
+sort	801828		Rank	7770b8aed771	Méca-armure	lot sorts_classes_016
 sort	805668		Rank	bb2d06e28ceb	DÉSACTIVÉ	lot sorts_classes_016

@@ -1,0 +1,232 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	81467		Description	04797bc85bff	@req:33831@\r\n@req:84867@\nVos Tréants soignent désormais vos alliés au lieu d'infliger des dégâts, mais leurs points de vie sont réduits de 66%.\r\n \r\n@ext:These Treants will not heal you if you are above 90% health.:ext@\n\nLancer Prompte guérison réduit de 6 secondes le temps de recharge de votre Force de la nature.\n\nVos Tréants utiliseront les sorts de soins de druide que vous connaissez, sauf Tranquillité. \r\n\r\n@ext:While inside a battleground or arena your Treants will only use instant cast Druid healing spells.:ext@	lot sorts_objets_010
+sort	81467		Name	a08c1c4603d5	Gardiens du bosquet	lot sorts_objets_010
+sort	81468		Description	ecbe902dfc57	Votre Tranquillité rend désormais aussi du mana aux alliés.	lot sorts_objets_010
+sort	81468		Name	6e29a02d5a8a	Conscience collective	lot sorts_objets_010
+sort	81470		Description	53512976bb2a	Votre |cFFFFFFFFSursis|r augmente désormais aussi de $81471s1% les chances de coup critique de vos sorts de soins directs tant qu'il est actif.\r\n\r\n|cFFFFFFFFSursis|r n'est plus consommé par l'incantation de sorts.\r\n\r\nLes soins directs efficaces vous octroient une charge de |cFFFFFFFFPrémonition|r ; en atteignant $985341u charges, vous obtenez |cFFFFFFFFClairvoyant|r.\r\n\r\n@s:985342:0@	lot sorts_objets_010
+sort	81470		Name	00d9780792c9	Paroles de guérison	lot sorts_objets_010
+sort	81472		Description	efa703758d0c	@req:84867@\r\n@req:17@\nMot de pouvoir : Bouclier confère une absorption supplémentaire égale à 250% de sa valeur normale aux cibles dont les points de vie sont inférieurs à 75%. \r\n\r\nCet effet dure 5 secondes et réduit de 1 seconde le temps de recharge de Mot de pouvoir : Bouclier.\n\n|cFFFFFFFFExtase|r rend 100% de mana en plus.	lot sorts_objets_010
+sort	81472		Name	6355c74f7415	Mot dominant : Bouclier	lot sorts_objets_010
+sort	81473		Description	cfa389258d94	Après avoir lancé Trait du chaos, vous obtenez un bonus de Renforcement du Feu ou de l'Ombre qui augmente de 10% les dégâts que vous infligez de cette école pendant 8 secondes.	lot sorts_objets_010
+sort	81473		Name	226a2075b552	Chaos manifeste	lot sorts_objets_010
+sort	81477		Description	94af3d12d920	Vous générez 10 points de rage par seconde tant que vous êtes désorienté et après chaque attaque manquée.	lot sorts_objets_010
+sort	81477		Name	285c5cad86e6	Rage aveugle	lot sorts_objets_010
+sort	81479		Description	fbcdbbd192f3	Surchargez votre magie de Nature et des Arcanes pour faire tomber une Tempête astrale. @ext:(2 stacks in pvp combat).:ext@\r\n\r\n@ext:Hitting multiple targets at once will not generate multiple stacks.:ext@\r\n@s:982220:0@\r\n@s:954047:0@\r\n@s:954049:0@	lot sorts_objets_010
+sort	81479		Name	63ccb53fda32	Tempête astrale	lot sorts_objets_010
+sort	81485		Description	faa95d229553	@req:921@\nVotre Vol à la tire est transformé en |cFFFFFFFFVol à la tire (Voleur de destin)|r.\n@s:81486:0@	lot sorts_objets_010
+sort	81485		Name	a1ec8de46905	Voleur de destin	lot sorts_objets_010
+sort	81497		Description	cd7888936f89	@req:84867@\r\nInfliger des dégâts avec |cFFFFFFFFChâtiment|r, |cFFFFFFFFFeu sacré|r et |cFFFFFFFFPénitence|r soigne un allié proche. Infliger des dégâts directs avec ces sorts vous octroie aussi |cFFFFFFFFExpiation|r.\r\n@s:881486:0@\r\n@ext:Healing from |cFFFFFFFFAtonement|r benefits from healing modifiers and can trigger procs. Atonement doesn't scale out of damage modifiers of the spells which triggered it.:ext@\r\n\r\n@ext:Doesn't work against players.:ext@\r\n	lot sorts_objets_010
+sort	81498		Description	713f326ca2e4	@req:2643@\nVotre Multi-tir repousse désormais légèrement les ennemis. Si vous êtes en l'air en tirant, c'est vous qui êtes repoussé. Réduit aussi de $s2 mètres la portée de votre Multi-tir et augmente son temps de recharge de $s3%.	lot sorts_objets_010
+sort	81498		Name	bc7cec58193c	Canon scié	lot sorts_objets_010
+sort	81498		ToolTip	afebdab4799f	Votre Multi-tir repousse désormais légèrement les ennemis. Si vous êtes en l'air en tirant, c'est vous qui êtes repoussé. Réduit aussi la portée de votre Multi-tir de $s2% et augmente son temps de recharge de $s3%.	lot sorts_objets_010
+sort	81501		Description	d3539ff32f5e	@req:33763@\nVotre Rétablissement et votre Toucher guérisseur rafraîchissent désormais la durée de votre Fleur de vie sur la cible.	lot sorts_objets_010
+sort	81501		Name	4407fe2191f6	Persistant	lot sorts_objets_010
+sort	81503		Description	49cb8a8d968a	@req:23881@\nSoif de sang inflige désormais des dégâts supplémentaires selon les points de vie qui vous manquent, jusqu'à un maximum de 33%.	lot sorts_objets_010
+sort	81503		Name	f4f473e99c7d	Désespoir	lot sorts_objets_010
+sort	81503		ToolTip	f16c673fc2e1	Augmente de $s2% les chances de coup critique de Soif de sang. De plus, Soif de sang inflige désormais des dégâts supplémentaires selon les points de vie qui vous manquent, jusqu'à un maximum de 33%.	lot sorts_objets_010
+sort	81504		Description	89229c1235a5	@req:5938@\nInfliger des dégâts avec Surin vous octroie |cFFFFFFFFTactiques carcérales|r.\n@s:81505:0@	lot sorts_objets_010
+sort	81504		Name	6b86e4bfa93e	Tactiques carcérales	lot sorts_objets_010
+sort	81506		Description	49c9b1ff96ac	@req:32379@\nVotre Mot de l'ombre : Mort s'attarde désormais sur la cible et annule les soins reçus à hauteur des dégâts infligés par le sort. Cet effet dure 3 secondes. Il corrompt aussi le sol sous ses pieds pendant 6 secondes, réduisant de 40% la vitesse de déplacement des ennemis se trouvant à moins de 7 mètres.	lot sorts_objets_010
+sort	81506		Name	99f0850537d9	Mort persistante	lot sorts_objets_010
+sort	81506		ToolTip	aeb4b58399fb	Votre Mot de l'ombre : Mort s'attarde désormais sur la cible et annule les soins reçus à hauteur des dégâts infligés par le sort. Cet effet dure 3 secondes. Il corrompt aussi le sol sous ses pieds, réduisant de 40% la vitesse de déplacement des ennemis se trouvant à moins de 7 mètres.	lot sorts_objets_010
+sort	81508		Description	3e00660b071b	@req:5143@\n@req:48525@\nVos Projectiles des arcanes réduisent le temps d'incantation de votre prochain Feu stellaire et augmentent de 5% son bonus de dégâts critiques. Cet effet est cumulable jusqu'à 5 fois. \n\nDe plus, infliger des dégâts avec Projectiles des arcanes peut déclencher l'Éclipse lunaire ou prolonger de 0.3 seconde la durée de votre Éclipse lunaire active. Nécessite le dernier rang du talent Éclipse.	lot sorts_objets_010
+sort	81508		Name	a51f0006e672	Synergie des Arcanes	lot sorts_objets_010
+sort	81510		Description	32e1745b8683	@req:2458@\nTuer un ennemi qui rapporte de l'expérience ou de l'honneur alors que vos points de vie sont inférieurs à 20% en posture berserker vous rend instantanément 10% de vos points de vie. Cet effet ne peut se produire qu'une fois toutes les 10 secondes.	lot sorts_objets_010
+sort	81510		Name	f4efb1eec9a4	Contre vents et marées	lot sorts_objets_010
+sort	81510		ToolTip	91771e16171e	Tuer un ennemi qui rapporte de l'expérience ou de l'honneur alors que vos points de vie sont inférieurs à 20% en posture berserker vous rend instantanément 10% de vos points de vie. Cet effet ne peut se produire qu'une fois toutes les 10 secondes.	lot sorts_objets_010
+sort	81513		Description	480398dc87bf	@req:84867@\n@req:8004@\nSi votre Vague de soins inférieurs soigne au-delà du nécessaire, la moitié du surplus est appliquée à la cible sous forme de soin périodique pendant 6 secondes. Quand votre Vague de soins inférieurs ne soigne pas au-delà du nécessaire, votre prochaine Vague de soins inférieurs est garantie d'être un coup critique.	lot sorts_objets_010
+sort	81513		Name	33da2e23f1ba	Tempérament frugal	lot sorts_objets_010
+sort	81515		Description	6c24ba1e43d9	@req:46968@\n@req:6343@\nVotre Onde de choc inflige 15% de dégâts supplémentaires de Nature aux ennemis affectés par votre Coup de tonnerre. De plus, le temps de recharge d'Onde de choc est réduit de 1 seconde pour chaque cible touchée affectée par votre Coup de tonnerre, jusqu'à un maximum de 10 secondes.	lot sorts_objets_010
+sort	81515		Name	3ad0ea552ba3	Coup tonitruant	lot sorts_objets_010
+sort	81516		Description	43d495fffcb0	@req:1719@\nTéméritité augmente désormais de 50% votre vitesse de déplacement pendant sa durée. Tuer un ennemi pendant que Témérité est active augmente sa durée de 3 secondes. Cet effet ne peut se produire que toutes les 3 secondes.	lot sorts_objets_010
+sort	81519		Description	a43281b36444	Votre Inflammation inflige désormais 15% de dégâts en plus, mais vos coups critiques de Feu infligent 5% de dégâts en moins.	lot sorts_objets_010
+sort	81520		Description	995f3079ad84	Lorsqu'elle est lancée sur la cible de votre |cFFFFFFFFGuide de lumière|r, votre |cFFFFFFFFLumière sacrée|r ou votre |cFFFFFFFFFlash lumineux|r rayonne et soigne jusqu'à $i cibles alliées se trouvant à moins de $s1 mètres du Guide pour 20% supplémentaires. Elle vous imprègne aussi de |cFFFFFFFFLumière grandissante|r.\n\nLancer |cFFFFFFFFLumière sacrée|r ou |cFFFFFFFFFlash lumineux|r sur la cible de votre |cFFFFFFFFGuide de lumière|r prolonge aussi la durée du |cFFFFFFFFGuide de lumière|r de $/1000;977990s2 secondes et réduit de $977990S1% les dégâts physiques subis par les cibles pendant $977990d. Cet effet ne se cumule pas avec d'autres effets similaires.\n@s:986035:0@	lot sorts_objets_010
+sort	81520		Name	c89df8dda25d	Lumière grandissante	lot sorts_objets_010
+sort	81521		Description	949bb0d5d1f9	@req:1784@\n@req:51713@\nTant que vous êtes furtif, votre Danse de l'ombre se recharge deux fois plus vite.	lot sorts_objets_010
+sort	81521		Name	d9c1fdc9ebce	Danseur dans l'ombre	lot sorts_objets_010
+sort	81521		ToolTip	beddff5585ad	Tant que vous êtes furtif, votre Danse de l'ombre se recharge deux fois plus vite.	lot sorts_objets_010
+sort	81522		Description	2886f07e536b	Bouclier d'eau augmente de 2% par charge vos dégâts de Givre directs. Lorsque vos sorts de Givre directs infligent des dégâts, ils consomment une charge de Bouclier d'eau.	lot sorts_objets_010
+sort	81522		Name	1e30fee46fac	Réserve de Givre	lot sorts_objets_010
+sort	81525		Description	062c3bce67f4	@req:724@\nVos sorts de soins directs du Sacré réduisent de 3 secondes le temps de recharge de Puits de lumière.	lot sorts_objets_010
+sort	81525		Name	d7ce6834b867	Remplir le puits	lot sorts_objets_010
+sort	81526		Description	a9e55f46d5ff	@req:44572@\nQuand votre Gel profond inflige des dégâts, son temps de recharge est réduit de 33%. De plus, vos sorts offensifs avec temps d'incantation vous octroient une charge de |cFFFFFFFFFroid mordant|r.\n\n@s:990270:0@	lot sorts_objets_010
+sort	81526		ToolTip	3d96e63a3756	Quand votre Gel profond inflige des dégâts, son temps de recharge est réduit de 33%	lot sorts_objets_010
+sort	81527		Description	ecc531a0744d	Clic droit pour invoquer et renvoyer votre Morgaine la rusée.	lot sorts_objets_010
+sort	81528		Description	62ac01e7892e	Clic droit pour invoquer et renvoyer votre Gruff Mord-vite.	lot sorts_objets_010
+sort	81529		Description	a99a0c0475b5	Clic droit pour invoquer et renvoyer votre Vultros.	lot sorts_objets_010
+sort	81530		Description	aac08bad6b80	Clic droit pour invoquer et renvoyer votre Mère Croc.	lot sorts_objets_010
+sort	81531		Description	960d65620f6d	Clic droit pour invoquer et renvoyer votre Fedfennel.	lot sorts_objets_010
+sort	81532		Description	86856f96c759	Clic droit pour invoquer et renvoyer votre Seigneur Malathrom.	lot sorts_objets_010
+sort	81533		Description	7ce91f2bc5dc	Clic droit pour invoquer et renvoyer votre Sergent Promptegriffe.	lot sorts_objets_010
+sort	81534		Description	8ed17d375697	Clic droit pour invoquer et renvoyer votre Fenros.	lot sorts_objets_010
+sort	81535		Description	bfd49d14671f	Clic droit pour invoquer et renvoyer votre Slark.	lot sorts_objets_010
+sort	81536		Description	df778ad7e031	Clic droit pour invoquer et renvoyer votre Brack.	lot sorts_objets_010
+sort	81537		Description	87445f03f8dd	Clic droit pour invoquer et renvoyer votre Lupos.	lot sorts_objets_010
+sort	81538		Description	69f3247c0ae9	Clic droit pour invoquer et renvoyer votre Nefaru.	lot sorts_objets_010
+sort	81539		Description	5bf5bfdc09ad	Clic droit pour invoquer et renvoyer votre Leprithus.	lot sorts_objets_010
+sort	81540		Description	bdd28f0fb073	Clic droit pour invoquer et renvoyer votre Faucheur d'ennemis 4000.	lot sorts_objets_010
+sort	81541		Description	a874033e68a2	Clic droit pour invoquer et renvoyer votre Naraxis.	lot sorts_objets_010
+sort	81542		Description	9c2f710c04f5	Clic droit pour invoquer et renvoyer votre Kazon.	lot sorts_objets_010
+sort	81543		Description	17494eec4400	Clic droit pour invoquer et renvoyer votre Noble manipulé.	lot sorts_objets_010
+sort	81544		Description	b5396857308a	Clic droit pour invoquer et renvoyer votre Marisa du'Paige.	lot sorts_objets_010
+sort	81545		Description	53c41d2f5097	Utilisez cette pierre pour apprivoiser un Diablotin de la Forgemort.	lot sorts_objets_010
+sort	81546		Description	21919df5204b	Clic droit pour invoquer et renvoyer votre Chatter.	lot sorts_objets_010
+sort	81547		Description	f8fee3ad6649	Clic droit pour invoquer et renvoyer votre Edwin VanCleef.	lot sorts_objets_010
+sort	81548		Description	01382e9241d9	Clic droit pour invoquer et renvoyer votre Sneed.	lot sorts_objets_010
+sort	81549		Description	cc95ff85dff1	Clic droit pour invoquer et renvoyer votre Rhahk'Zor.	lot sorts_objets_010
+sort	81550		Description	c4c5c4e644a9	Clic droit pour invoquer et renvoyer votre Cookie.	lot sorts_objets_010
+sort	81551		Description	47836ffcb469	Clic droit pour invoquer et renvoyer votre M. Smite.	lot sorts_objets_010
+sort	81552		Description	ed11a2914e2b	Clic droit pour invoquer et renvoyer votre Capitaine Vertepeau.	lot sorts_objets_010
+sort	81553		Description	5f2662c8ec46	Clic droit pour invoquer et renvoyer votre Chef Perdu.	lot sorts_objets_010
+sort	81554		Description	a1821f50c957	Clic droit pour invoquer et renvoyer votre Commandant Gangretrombe.	lot sorts_objets_010
+sort	81555		Description	e231aeacfb50	Utilisez cette pierre pour apprivoiser un Abyssal gargantuesque.	lot sorts_objets_010
+sort	81556		Description	b701079eebb3	Clic droit pour invoquer et renvoyer votre Rohh le silencieux.	lot sorts_objets_010
+sort	81557		Description	f3fd727f50ee	Utilisez cette pierre pour apprivoiser un Porte-destin sans chaîne.	lot sorts_objets_010
+sort	81558		Description	6a316859f62a	Clic droit pour invoquer et renvoyer votre Maître de guerre Gueule-de-dragon.	lot sorts_objets_010
+sort	81559		Description	2f7e1dfa9601	Clic droit pour invoquer et renvoyer votre Jade.	lot sorts_objets_010
+sort	81560		Description	5492373f0f80	Clic droit pour invoquer et renvoyer votre Cuisinier perdu.	lot sorts_objets_010
+sort	81561		Description	29da4088a448	Clic droit pour invoquer et renvoyer votre Veuve sanguine.	lot sorts_objets_010
+sort	81562		Description	216d3965b8f7	Clic droit pour invoquer et renvoyer votre Hammerspine.	lot sorts_objets_010
+sort	81563		Description	ce5144f961dc	Clic droit pour invoquer et renvoyer votre Bjarn.	lot sorts_objets_010
+sort	81564		Description	720e0d292ad2	Clic droit pour invoquer et renvoyer votre Timber.	lot sorts_objets_010
+sort	81565		Description	e801b3cf5369	Clic droit pour invoquer et renvoyer votre Edan le Hurleur.	lot sorts_objets_010
+sort	81566		Description	5de7cdf08c98	Clic droit pour invoquer et renvoyer votre Matriarche tranchegueule.	lot sorts_objets_010
+sort	81567		Description	eb23860e4fbc	Clic droit pour invoquer et renvoyer votre Grand-père Arctikus.	lot sorts_objets_010
+sort	81568		Description	bc6063d27b86	Utilisez cette pierre pour apprivoiser un Archer de Sargeron.	lot sorts_objets_010
+sort	81569		Description	4e2d255707b0	Clic droit pour invoquer et renvoyer votre Boss Galgosh.	lot sorts_objets_010
+sort	81570		Description	c8696dcec63c	Clic droit pour invoquer et renvoyer votre Magosh.	lot sorts_objets_010
+sort	81571		Description	a734cd4c0028	Clic droit pour invoquer et renvoyer votre Maître Terrassier.	lot sorts_objets_010
+sort	81572		Description	8a3c81b30767	Clic droit pour invoquer et renvoyer votre Grizlak.	lot sorts_objets_010
+sort	81573		Description	27bd26efdc22	Clic droit pour invoquer et renvoyer votre Âme égarée.	lot sorts_objets_010
+sort	81574		Description	d50eeba9aa5a	Clic droit pour invoquer et renvoyer votre Esprit tourmenté.	lot sorts_objets_010
+sort	81575		Description	3ebce35e3936	Clic droit pour invoquer et renvoyer votre Ventrécaille.	lot sorts_objets_010
+sort	81576		Description	6334b3331e37	Clic droit pour invoquer et renvoyer votre Dextren Ward.	lot sorts_objets_010
+sort	81577		Description	6329e67a1875	Clic droit pour invoquer et renvoyer votre Kam Furie-du-fond.	lot sorts_objets_010
+sort	81578		Description	fa6bff48aeb8	Clic droit pour invoquer et renvoyer votre Targorr le Terrifiant.	lot sorts_objets_010
+sort	81579		Description	150cc5ccdf84	Clic droit pour invoquer et renvoyer votre Bazil Thredd.	lot sorts_objets_010
+sort	81580		Description	c5cd2f81a797	Clic droit pour invoquer et renvoyer votre Hamhock.	lot sorts_objets_010
+sort	81581		Description	02ff4d411dc8	Clic droit pour invoquer et renvoyer votre Bruegal Poing-de-fer.	lot sorts_objets_010
+sort	81582		Description	a2d1ff806d69	Clic droit pour invoquer et renvoyer votre Généralissime Bolvar Fordragon.	lot sorts_objets_010
+sort	81583		Description	a09751ed33d5	Clic droit pour invoquer et renvoyer votre Gilnid.	lot sorts_objets_010
+sort	81584		Description	930689c6c944	Clic droit pour invoquer et renvoyer votre Juge écarlate.	lot sorts_objets_010
+sort	81585		Description	b89d743a3156	Clic droit pour invoquer et renvoyer votre Inquisiteur écarlate.	lot sorts_objets_010
+sort	81586		Description	5227989529ed	Clic droit pour invoquer et renvoyer votre Grand prêtre écarlate.	lot sorts_objets_010
+sort	81587		Description	81a3bb33869a	Clic droit pour invoquer et renvoyer votre Bourreau écarlate.	lot sorts_objets_010
+sort	81588		Description	314dd4b43aea	Clic droit pour invoquer et renvoyer votre Contremaître Jerris.	lot sorts_objets_010
+sort	81589		Description	5d5cef8c6c63	Clic droit pour invoquer et renvoyer votre Contremaître Marcrid.	lot sorts_objets_010
+sort	81590		Description	91a5081e7dc1	Clic droit pour invoquer et renvoyer votre Foulmane.	lot sorts_objets_010
+sort	81591		Description	ca3fb5784e5b	Clic droit pour invoquer et renvoyer votre Seigneur Maldazzar.	lot sorts_objets_010
+sort	81592		Description	52a8b30635fc	Clic droit pour invoquer et renvoyer votre Dreadwhisper.	lot sorts_objets_010
+sort	81593		Description	71582b45d016	Clic droit pour invoquer et renvoyer votre Putridius.	lot sorts_objets_010
+sort	81594		Description	1ffa12186fae	Clic droit pour invoquer et renvoyer votre La Bogue.	lot sorts_objets_010
+sort	81595		Description	9c2ae19626eb	Clic droit pour invoquer et renvoyer votre Sombre Maître Gandling.	lot sorts_objets_010
+sort	81596		Description	9a8ed5c6ec48	Clic droit pour invoquer et renvoyer votre Forgeron écarlate.	lot sorts_objets_010
+sort	81597		Description	38b6871a8f8f	Clic droit pour invoquer et renvoyer votre Muad.	lot sorts_objets_010
+sort	81598		Description	f4b1584e2a64	Clic droit pour invoquer et renvoyer votre Deeb.	lot sorts_objets_010
+sort	81599		Description	c7567a69d015	Clic droit pour invoquer et renvoyer votre Copiste de Dalaran.	lot sorts_objets_010
+sort	81600		Description	f058b6c945ff	Clic droit pour invoquer et renvoyer votre Fermier de Solliden.	lot sorts_objets_010
+sort	81601		Description	9506009af634	Clic droit pour invoquer et renvoyer votre Cogneur Poil-Putride.	lot sorts_objets_010
+sort	81602		Description	473f389027e3	Clic droit pour invoquer et renvoyer votre Snarlmane.	lot sorts_objets_010
+sort	81603		Description	266906e6d02d	Clic droit pour invoquer et renvoyer votre Ma'ruk Wyrmécaille.	lot sorts_objets_010
+sort	81604		Description	b5dc905b40a6	Clic droit pour invoquer et renvoyer votre Garneg Grille-crâne.	lot sorts_objets_010
+sort	81605		Description	1ab173a1a209	Clic droit pour invoquer et renvoyer votre Matriarche trotteuse.	lot sorts_objets_010
+sort	81606		Description	b22aef848d9a	Clic droit pour invoquer et renvoyer votre Shadowclaw.	lot sorts_objets_010
+sort	81607		Description	a10d627afb92	Clic droit pour invoquer et renvoyer votre Dame Mirelune.	lot sorts_objets_010
+sort	81608		Description	bd4e6970a5a2	Clic droit pour invoquer et renvoyer votre Carnivous le Casseur.	lot sorts_objets_010
+sort	81609		Description	348d0c3ccc2b	Clic droit pour invoquer et renvoyer votre Licillin.	lot sorts_objets_010
+sort	81610		Description	17b9bc004ddc	Clic droit pour invoquer et renvoyer votre Mandefeu Radison.	lot sorts_objets_010
+sort	81611		Description	04697a7d8803	Clic droit pour invoquer et renvoyer votre Furie-de-pierre.	lot sorts_objets_010
+sort	81612		Description	76b83b91348e	Clic droit pour invoquer et renvoyer votre Régent Serres-de-corbeau.	lot sorts_objets_010
+sort	81613		Description	f2e28e55530b	Utilisez cette pierre pour apprivoiser un Implorateur de l'enfer de Sargeron.	lot sorts_objets_010
+sort	81614		Description	a620daf1579f	Clic droit pour invoquer et renvoyer votre Narillasanz.	lot sorts_objets_010
+sort	81615		Description	2faa245dcd40	Clic droit pour invoquer et renvoyer votre Skhowl.	lot sorts_objets_010
+sort	81616		Description	84b2ecbb0eb6	Clic droit pour invoquer et renvoyer votre Lo'Grosh.	lot sorts_objets_010
+sort	81617		Description	f897e5a1b315	Clic droit pour invoquer et renvoyer votre Grand crocilisque du loch.	lot sorts_objets_010
+sort	81618		Description	eacb6837f959	Clic droit pour invoquer et renvoyer votre Seigneur Sakrasis.	lot sorts_objets_010
+sort	81619		Description	12547cb08439	Clic droit pour invoquer et renvoyer votre Darbel Montrose.	lot sorts_objets_010
+sort	81620		Description	f45c04370874	Clic droit pour invoquer et renvoyer votre Singer.	lot sorts_objets_010
+sort	81621		Description	521b7dfe8689	Clic droit pour invoquer et renvoyer votre Foulbelly.	lot sorts_objets_010
+sort	81622		Description	dd5824f7969f	Clic droit pour invoquer et renvoyer votre Ruul Unepierre.	lot sorts_objets_010
+sort	81623		Description	788f3a641117	Clic droit pour invoquer et renvoyer votre Kovork.	lot sorts_objets_010
+sort	81624		Description	90742d0ba44f	Clic droit pour invoquer et renvoyer votre Molok l'Anéantisseur.	lot sorts_objets_010
+sort	81625		Description	4f6c3c28a0d4	Clic droit pour invoquer et renvoyer votre Zalas Fânécorce.	lot sorts_objets_010
+sort	81626		Description	7cb5bee5b9e9	Clic droit pour invoquer et renvoyer votre Nimar le Pourfendeur.	lot sorts_objets_010
+sort	81627		Description	5ba15699318a	Clic droit pour invoquer et renvoyer votre Géomancien Dague-de-silex.	lot sorts_objets_010
+sort	81628		Description	4b93ebf84645	Clic droit pour invoquer et renvoyer votre Commandant Ombreforge.	lot sorts_objets_010
+sort	81629		Description	3c468dc91d37	Clic droit pour invoquer et renvoyer votre Archaedas.	lot sorts_objets_010
+sort	81630		Description	cf22bd5a4d92	Clic droit pour invoquer et renvoyer votre Golem de siège.	lot sorts_objets_010
+sort	81631		Description	92b682c9cd42	Clic droit pour invoquer et renvoyer votre Golem de guerre.	lot sorts_objets_010
+sort	81632		Description	7b1b5ac6b446	Clic droit pour invoquer et renvoyer votre Rumbler.	lot sorts_objets_010
+sort	81633		Description	50a407f0ed27	Clic droit pour invoquer et renvoyer votre Barnabus.	lot sorts_objets_010
+sort	81634		Description	6948531ea044	Clic droit pour invoquer et renvoyer votre Anathemus.	lot sorts_objets_010
+sort	81635		Description	2f8fd291dde2	Clic droit pour invoquer et renvoyer votre Prince Nazjak.	lot sorts_objets_010
+sort	81636		Description	9e32f529907a	Clic droit pour invoquer et renvoyer votre Roi Magni Barbe-de-bronze.	lot sorts_objets_010
+sort	81637		Description	325af0ac2011	Clic droit pour invoquer et renvoyer votre Brèchedent.	lot sorts_objets_010
+sort	81638		Description	3152dd6d1c24	Clic droit pour invoquer et renvoyer votre Zaricotl.	lot sorts_objets_010
+sort	81639		Description	c6f05167fe94	Clic droit pour invoquer et renvoyer votre Hurleur fantomatique.	lot sorts_objets_010
+sort	81640		Description	9ed6a2158a31	Clic droit pour invoquer et renvoyer votre Cairne Sabot-de-sang.	lot sorts_objets_010
+sort	81640		Name	568609e3cee5	Sceau de Cairne Sabot-de-sang	lot sorts_objets_010
+sort	81641		Description	508080a5ca3b	Clic droit pour invoquer et renvoyer votre Mazzranache.	lot sorts_objets_010
+sort	81642		Description	1eebce7ef12a	Clic droit pour invoquer et renvoyer votre Moissonneur silithide.	lot sorts_objets_010
+sort	81643		Description	ab66a851dd95	Clic droit pour invoquer et renvoyer votre Ancienne mystique Tranchegroin.	lot sorts_objets_010
+sort	81644		Description	aab4151d071a	Clic droit pour invoquer et renvoyer votre Limace bestiale.	lot sorts_objets_010
+sort	81645		Description	dda8f0f0ee51	Clic droit pour invoquer et renvoyer votre Gesharahan.	lot sorts_objets_010
+sort	81646		Description	b3105f73bd34	Clic droit pour invoquer et renvoyer votre Rathorian.	lot sorts_objets_010
+sort	81647		Description	adfb8aa39bd8	Utilisez cette pierre pour apprivoiser un Entourloupeur flamboyant.	lot sorts_objets_010
+sort	81648		Description	13087229588c	Clic droit pour invoquer et renvoyer votre Noiremousse le Fétide.	lot sorts_objets_010
+sort	81649		Description	a4c57e6fb1b3	Clic droit pour invoquer et renvoyer votre Bête des égouts.	lot sorts_objets_010
+sort	81650		Description	4b813551598a	Clic droit pour invoquer et renvoyer votre Mineur Johnson.	lot sorts_objets_010
+sort	81651		Description	ba63da679d2c	Utilisez cette pierre pour apprivoiser un Technomancien gan'arg.	lot sorts_objets_010
+sort	81652		Description	bf8ed8f65807	Clic droit pour invoquer et renvoyer votre Trigore le Flagelleur.	lot sorts_objets_010
+sort	81653		Description	f0b347d9d4d2	Clic droit pour invoquer et renvoyer votre Kresh.	lot sorts_objets_010
+sort	81654		Description	545eadc7055d	Clic droit pour invoquer et renvoyer votre Mutanus le Dévoreur.	lot sorts_objets_010
+sort	81655		Description	95911bfc50d1	Clic droit pour invoquer et renvoyer votre Seigneur Cobrahn.	lot sorts_objets_010
+sort	81656		Description	123c95e15a3b	Clic droit pour invoquer et renvoyer votre Seigneur Pythas.	lot sorts_objets_010
+sort	81657		Description	7f9c3588023b	Clic droit pour invoquer et renvoyer votre Dame Anacondra.	lot sorts_objets_010
+sort	81658		Description	92426f8ac9e1	Clic droit pour invoquer et renvoyer votre Boahn.	lot sorts_objets_010
+sort	81659		Description	b096fdbb8f35	Clic droit pour invoquer et renvoyer votre Seigneur Serpentis.	lot sorts_objets_010
+sort	81660		Description	8f5be56500fa	Clic droit pour invoquer et renvoyer votre Skum.	lot sorts_objets_010
+sort	81661		Description	e915463ef296	Utilisez cette pierre pour apprivoiser un Seigneur du courroux.	lot sorts_objets_010
+sort	81662		Description	160cfd14dbd8	Clic droit pour invoquer et renvoyer votre Apothicaire Falthis.	lot sorts_objets_010
+sort	81663		Description	46fd827cf25a	Clic droit pour invoquer et renvoyer votre Assassin Mordenthal.	lot sorts_objets_010
+sort	81664		Description	c9b8095228a5	Clic droit pour invoquer et renvoyer votre Akkrilus.	lot sorts_objets_010
+sort	81665		Description	9d69a0de3124	Clic droit pour invoquer et renvoyer votre Chef de meute Frayeloup.	lot sorts_objets_010
+sort	81666		Description	5f90e13012ff	Utilisez cette pierre pour apprivoiser un Hatecryer.	lot sorts_objets_010
+sort	81667		Description	3075f2d76a3b	Clic droit pour invoquer et renvoyer votre Deathsworn Captain.	lot sorts_objets_010
+sort	81668		Description	0e641a99afd7	Clic droit pour invoquer et renvoyer votre Tranchegriffe le Boucher.	lot sorts_objets_010
+sort	81669		Description	7a54ec1a4ab7	Clic droit pour invoquer et renvoyer votre Baron d'Argelaine.	lot sorts_objets_010
+sort	81670		Description	a3e39f6dd524	Clic droit pour invoquer et renvoyer votre Rethilgore.	lot sorts_objets_010
+sort	81671		Description	4e3f68a99eb2	Clic droit pour invoquer et renvoyer votre Maître-loup Nandos.	lot sorts_objets_010
+sort	81672		Description	4fd625d95f9f	Utilisez cette pierre pour apprivoiser un Diablotin de brûlure.	lot sorts_objets_010
+sort	81673		Description	e2423f3f73aa	Clic droit pour invoquer et renvoyer votre Maître-chien Loksey.	lot sorts_objets_010
+sort	81674		Description	c047f1c4125c	Clic droit pour invoquer et renvoyer votre Herod.	lot sorts_objets_010
+sort	81675		Description	a2859c2b29f7	Clic droit pour invoquer et renvoyer votre Grande inquisitrice Blanchetête.	lot sorts_objets_010
+sort	81676		Description	138b2b45336f	Clic droit pour invoquer et renvoyer votre Interrogateur Vislar.	lot sorts_objets_010
+sort	81677		Description	ff28167e5184	Clic droit pour invoquer et renvoyer votre Patriarche Aile-fière.	lot sorts_objets_010
+sort	81678		Description	8410e7cd96c9	Clic droit pour invoquer et renvoyer votre Ancien vengeur.	lot sorts_objets_010
+sort	81679		Description	ee7d5d535f97	Clic droit pour invoquer et renvoyer votre Nal'taszar.	lot sorts_objets_010
+sort	81680		Description	25542aecb089	Clic droit pour invoquer et renvoyer votre Ravageur silithide.	lot sorts_objets_010
+sort	81681		Description	8a1b660cd78d	Clic droit pour invoquer et renvoyer votre Fenrus le Dévoreur.	lot sorts_objets_010
+sort	81682		Description	1d45948578b0	Clic droit pour invoquer et renvoyer votre Archimage Arugal.	lot sorts_objets_010
+sort	81683		Description	47c2a33b3e7a	Clic droit pour invoquer et renvoyer votre Commandant Printeval.	lot sorts_objets_010
+sort	81684		Description	905257bc9c26	Clic droit pour invoquer et renvoyer votre Odo l'Aveugle.	lot sorts_objets_010
+sort	81685		Description	9f445668f667	Clic droit pour invoquer et renvoyer votre Veuve de Sombrebrume.	lot sorts_objets_010
+sort	81686		Description	2d98ed0de799	Clic droit pour invoquer et renvoyer votre Seigneur Brusquebroche.	lot sorts_objets_010
+sort	81687		Description	7cb71ed8a6fa	Clic droit pour invoquer et renvoyer votre Charlga Trancheflanc.	lot sorts_objets_010
+sort	81688		Description	90a429d57f85	Clic droit pour invoquer et renvoyer votre Agathelos le Déchaîné.	lot sorts_objets_010
+sort	81689		Description	441d2b84b79e	Clic droit pour invoquer et renvoyer votre Aggem Malépine.	lot sorts_objets_010
+sort	81690		Description	7f8e90f5b2b8	Clic droit pour invoquer et renvoyer votre Chasseur aveugle.	lot sorts_objets_010
+sort	81691		Description	ca60f6ebd2a0	Clic droit pour invoquer et renvoyer votre Nécrorateur Jargba.	lot sorts_objets_010
+sort	81692		Description	e73ec220b39e	Clic droit pour invoquer et renvoyer votre Lanceur de Tranchebauge.	lot sorts_objets_010
+sort	81693		Description	a7541d60619b	Clic droit pour invoquer et renvoyer votre Grand Inquisiteur Fairbanks.	lot sorts_objets_010
+sort	81694		Description	bf8819469d78	Clic droit pour invoquer et renvoyer votre Mage de sang Thalnos.	lot sorts_objets_010
+sort	81695		Description	64025727f614	Clic droit pour invoquer et renvoyer votre Aku'mai.	lot sorts_objets_010
+sort	81696		Description	051cc404ac9e	Clic droit pour invoquer et renvoyer votre Vieux Serra'kis.	lot sorts_objets_010
+sort	81697		Description	bd51a713d51a	Clic droit pour invoquer et renvoyer votre Dame Sarevess.	lot sorts_objets_010
+sort	84326		Description	64025727f614	Clic droit pour invoquer et renvoyer votre Aku'mai.	lot sorts_objets_010
+sort	84327		Description	051cc404ac9e	Clic droit pour invoquer et renvoyer votre Vieux Serra'kis.	lot sorts_objets_010
+sort	84328		Description	bd51a713d51a	Clic droit pour invoquer et renvoyer votre Dame Sarevess.	lot sorts_objets_010
+sort	84345		Description	a2d1ff806d69	Clic droit pour invoquer et renvoyer votre Généralissime Bolvar Fordragon.	lot sorts_objets_010
+sort	84348		Description	9e32f529907a	Clic droit pour invoquer et renvoyer votre Roi Magni Barbe-de-bronze.	lot sorts_objets_010
+sort	84350		Description	9ed6a2158a31	Clic droit pour invoquer et renvoyer votre Cairne Sabot-de-sang.	lot sorts_objets_010
+sort	84350		Name	568609e3cee5	Sceau de Cairne Sabot-de-sang	lot sorts_objets_010

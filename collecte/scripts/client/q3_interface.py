@@ -274,7 +274,8 @@ def main():
     S = d[20 + n * rs:]
 
     def sdbc(o):
-        return S[o:S.index(b"\0", o)].decode("utf-8", "replace") if 0 < o < len(S) else ""
+        # 0.9.1 : le GlobalStrings.dbc de CoA commence son bloc de textes par un vrai texte : l'adresse 0 en est un
+        return S[o:S.index(b"\0", o)].decode("utf-8", "replace") if 0 <= o < len(S) else ""
     TYPES = {1: "avant-jeu (glue)", 2: "jeu", 3: "avant-jeu + jeu", 0: "inconnu"}
     dbc_cles = set()
     for i in range(n):

@@ -1012,6 +1012,10 @@ for _, c in ipairs(CAS_LISTE) do
         SORT_EN_COURS = c.inconnu
         CastingBarFrame_OnEvent(CastingBarFrame, "UNIT_SPELLCAST_START", "player")
         egal(c.nom .. " (sort hors du grimoire : anglais)", CastingBarFrameText:GetText(), c.inconnu)
+    elseif c.quoi == "barre_nom" then
+        SORT_EN_COURS = c.anglais
+        CastingBarFrame_OnEvent(CastingBarFrame, "UNIT_SPELLCAST_START", "player")
+        egal(c.nom, CastingBarFrameText:GetText(), c.attendu)
     elseif c.quoi == "pierre_de_foyer" then
         LIEU_FOYER = c.lieu
         GameTooltip:Effacer(c.lignes, { c.anglais, LienObjet(c.id, c.anglais) })
@@ -1114,11 +1118,23 @@ for _, c in ipairs(CAS_LISTE) do
         A.BalayerFenetre(f, c.domaines)
         egal(c.nom, z:GetText(), c.attendu)
         f.visible = false
+    elseif c.quoi == "bulle_sort_citee" then
+        GameTooltip:Effacer(c.lignes, nil, nil, { "Talent du banc", "", 999999991 })
+        GameTooltip:Declencher("OnTooltipSetSpell")
+        egal(c.nom .. " (nom)", GameTooltip.lignes[3]:GetText(), c.attendu_nom)
+        egal(c.nom .. " (description)", GameTooltip.lignes[4]:GetText(), c.attendu_desc)
+        GameTooltip.visible = false
+    elseif c.quoi == "bulle_show" then
+        GameTooltip:Effacer({ "Titre de règle" })
+        GameTooltip:AddLine(c.anglais)
+        GameTooltip:Show()
+        egal(c.nom, GameTooltipTextLeft2 and GameTooltipTextLeft2:GetText(), c.attendu)
+        GameTooltip.visible = false
     elseif c.quoi == "tutoriel" then
         -- 0.9 : PathObjectiveDisplayMixin (Ascension_PathToAscension) : SetTutorial -> GetTutorialDisplay, SplitPages
         C_Tutorial = C_Tutorial or {}
         function C_Tutorial.GetTutorialDisplay(id) return "Titre", c.anglais, 0 end
-        if not PathToAscensionFrame then
+        if not (PathToAscensionFrame and PathToAscensionFrame.Display) then
             local d = { affiches = 0 }
             function d:SplitPages(t)
                 local pages = {}
@@ -1132,7 +1148,7 @@ for _, c in ipairs(CAS_LISTE) do
                 self.pages = self:SplitPages(self.description)
                 self:RefreshDisplay()
             end
-            PathToAscensionFrame = NouveauCadre("PathToAscensionFrame")
+            PathToAscensionFrame = PathToAscensionFrame or NouveauCadre("PathToAscensionFrame")
             PathToAscensionFrame.Display = d
             Declencher("ADDON_LOADED", "Ascension_PathToAscension")
         end
@@ -1141,6 +1157,23 @@ for _, c in ipairs(CAS_LISTE) do
         egal(c.nom .. " (description)", d.description, c.attendu)
         egal(c.nom .. " (pages)", #d.pages, c.pages)
         egal(c.nom .. " (page affichée)", d.affiche, d.pages[1])
+    elseif c.quoi == "annexe" then
+        C_Tutorial = C_Tutorial or {}
+        function C_Tutorial.GetKeywordAtIndex(i) return "Mot", c.anglais, "icone", "" end
+        if not PathToAscensionFrame then PathToAscensionFrame = NouveauCadre("PathToAscensionFrame") end
+        if not PathToAscensionFrame.AppendixPanel then
+            local a = { Display = { Title = NouvelleZone(""), Description = NouvelleZone("") } }
+            function a:OnKeywordSelected(index)
+                local k, d = C_Tutorial.GetKeywordAtIndex(index)
+                d = d:gsub("{[^}]+}", ""):gsub("^\n+", "")
+                self.Display.Title:SetText(k)
+                self.Display.Description:SetText(d)
+            end
+            PathToAscensionFrame.AppendixPanel = a
+            Declencher("ADDON_LOADED", "Ascension_PathToAscension")
+        end
+        PathToAscensionFrame.AppendixPanel:OnKeywordSelected(3)
+        egal(c.nom, PathToAscensionFrame.AppendixPanel.Display.Description:GetText(), c.attendu)
     elseif c.quoi == "mot_cle" then
         -- 0.9 : KeywordTooltipMixin (SharedXML/KeywordTooltip.lua), bulle creee avec le mixin APRES le crochet
         C_Tutorial = C_Tutorial or {}

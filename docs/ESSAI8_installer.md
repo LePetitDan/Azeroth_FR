@@ -25,13 +25,26 @@
 
 Pas encore : l'écran de **création de personnage** (archétypes, aide au choix) et les **astuces de l'écran de chargement**, qui ne passent pas par les add-ons ; le français est prêt pour la suite.
 
+### 0.9.1 : les retours de l'essai 8 (en cours de partie)
+
+*Même installation : on remplace les dossiers `Azeroth_FR…` par ceux du zip `Azeroth_FR-0.9.1.zip`, avec ton accord.*
+
+- **Sorts des objets** : les lignes « Utiliser : » (pierre de foyer comprise, avec son temps de recharge), les auras des Épreuves (« Lentement mais sûrement »), et la barre d'incantation (« Butin ») ;
+- **rangs 2 et plus** des sorts de classe (« Horion » rang 2, « Appel d'éclair » rangs 2 à 12) et sorts des maîtres (« Monte novice ») ;
+- **bulles des talents** : description à conditionnelles (« Chasseur de tempêtes »), sorts cités sous le talent ;
+- **Voie de l'Ascension** : pages des tutoriels dont les mots-clés sont des liens, objectifs, annexe des mots-clés, liste du mentorat, barres « Démarrer 0 (5) / 8 » ;
+- **collection de vanité** : noms entre crochets et en capitales, provenance ;
+- bulles des Épreuves remplies après leur affichage.
+
+Pas encore (0.9.2) : la **fenêtre des hauts faits**, les libellés de la fenêtre des talents de CoA (« Change Active Specialization »), les noms de classe et d'arbre en capitales.
+
 **Pour comprendre ce qui reste en anglais** : `/azfr bulle`, tapée pendant qu'une infobulle est affichée, écrit dans la discussion chaque ligne telle que l'add-on la voit.
 
 ## Ce que tu peux regarder (15 minutes)
 
 | # | Où | Ce qu'on doit voir |
 |---|---|---|
-| 1 | `/azfr version` | « version 0.9.0 » |
+| 1 | `/azfr version` | « version 0.9.0 » (après la mise à jour : « 0.9.1 ») |
 | 2 | Maître de classe (Livre de l'Ascension), puis maître de monte | Noms des sorts, « (Rang 1) », descriptions en français |
 | 3 | Journal des quêtes : « Enquête sur la crête aux échos » | Description en français, avec ton nom |
 | 4 | Ouvrir un sac ; survoler un loup de quête, un arbre à couper, un point de la minicarte | En français |
@@ -49,3 +62,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 - Source reconstruite : 1 453 531 lignes ; contrôle **0 bloquant** ; faux cas refusés 57/57, vrais cas acceptés 33/33.
 - 57 fichiers Lua vérifiés avec Lua 5.1.
 - Banc hors jeu **conforme** : 128 exemples, 272 vérifications, dont les nouveaux cas de la 0.9 (nom d'Épreuve, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, émotes, catégorie d'objets limités, titre, famille, suffixe).
+- **0.9.1** : source 1 520 621 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 61 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 138 exemples, 287 vérifications (pierre de foyer à recharge, bulle d'Épreuve remplie après coup, tutoriel à mots-clés liés, annexe, mentorat, barre « Looting », vanité, talent « Storm Chaser », sort cité sous un talent).

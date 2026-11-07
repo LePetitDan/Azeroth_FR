@@ -1,0 +1,854 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	302882		Description	25cf45dc26ba	Vous partez à l'aventure.\nLe monde est plus dangereux.\nAugmente l'expérience gagnée en quêtes de $302882s1%.\nRéduit l'expérience gagnée en tuant des monstres de $302882s2%.\nAugmente les dégâts physiques subis de $302883s1%.\nAugmente les dégâts magiques subis de $302884s3%.\nRéduit les dégâts infligés de $302883s2%.\nRéduit les soins prodigués de $302884s2%.\n\nVous ne gagnerez pas d'expérience avec les quêtes sans objectifs.	lot sorts_objets_038
+sort	302882		Name	99bf6fb43b68	Mode Aventure 100 !	lot sorts_objets_038
+sort	302882		ToolTip	3a9c56fe2d5f	Vous partez à l'aventure, ce qui augmente votre expérience de quête de $302882s1%.\n \nLe monde est plus dangereux :\n\nLes monstres rapportent 50% d'expérience. \nLes monstres ont 400% de points de vie en plus, $302883s1% de dégâts physiques et $302884s3% de dégâts magiques.\nRéduit les soins prodigués de $302884s2%.\n\nVous ne gagnerez pas d'expérience avec les quêtes sans objectifs.	lot sorts_objets_038
+sort	302995		Description	a538f247e6d4	Une chance, lors d'un coup de mêlée, de déchirer votre cible et de lui infliger ${$303046m1+$303046ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;303046t1 sec pendant $303046d.	lot sorts_objets_038
+sort	302995		Name	5e25d69d72a2	Fourche de Garren, déclencheur factice	lot sorts_objets_038
+sort	302995		ToolTip	a538f247e6d4	Une chance, lors d'un coup de mêlée, de déchirer votre cible et de lui infliger ${$303046m1+$303046ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;303046t1 sec pendant $303046d.	lot sorts_objets_038
+sort	302997		Description	e50e3386316a	Une chance, lors d'un coup à distance, d'infliger de ${$302996m1+$302996ppl1+0.28*$SP+0.19*$AP} à ${$302996M1+$302996ppl1+0.28*$SP+0.19*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	302997		Name	77f92e0a90c4	Arc Soies-hérissées - Déclencheur factice du sort d'objet	lot sorts_objets_038
+sort	302997		ToolTip	ab6be8916fd8	Une chance, lors d'un coup à distance, d'infliger de ${$302996m1+$302996ppl1+0.3*$SP+0.02*$AP} à ${$302996M1+$302996ppl1+0.3*$SP+0.02*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	302998		Description	84b834a565a2	Vos dégâts directs à distance ont une chance de transpercer la cible et de la faire saigner pour ${$303010m1+$303010ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;303010t1 sec pendant $303010d.	lot sorts_objets_038
+sort	302998		Name	bd4dcd423c00	Arc de guet, fusil défias rouillé, déclencheur factice	lot sorts_objets_038
+sort	302998		ToolTip	84b834a565a2	Vos dégâts directs à distance ont une chance de transpercer la cible et de la faire saigner pour ${$303010m1+$303010ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;303010t1 sec pendant $303010d.	lot sorts_objets_038
+sort	302999		Description	e16aa1495223	Une chance, lorsque vous êtes touché, de marquer votre cible au fer sacré et de lui infliger de ${$303002m1+$303002ppl1+0.06*$SP+0.06*$AP} à ${$303002M1+$303002ppl1+0.06*$SP+0.06*$AP} points de dégâts du Sacré.	lot sorts_objets_038
+sort	302999		Name	11fe8a330776	Bouclier du capitaine, déclencheur factice	lot sorts_objets_038
+sort	302999		ToolTip	e16aa1495223	Une chance, lorsque vous êtes touché, de marquer votre cible au fer sacré et de lui infliger de ${$303002m1+$303002ppl1+0.06*$SP+0.06*$AP} à ${$303002M1+$303002ppl1+0.06*$SP+0.06*$AP} points de dégâts du Sacré.	lot sorts_objets_038
+sort	303003		Description	68cff3cd7e0f	Frappe votre cible avec la chaleur d'une forge et inflige de ${$303003m1+$303003ppl1+0.06*$SP+0.06*$AP} à ${$303003M1+$303003PPL1+0.06*$SP+0.06*$AP} points de dégâts de Feu.	lot sorts_objets_038
+sort	303003		Name	3b9c178e03ba	Frappe de feu-forge	lot sorts_objets_038
+sort	303009		Description	6d3575bcc56b	Transperce une cible et inflige de ${$m1+0+0.02*$SP+0.06*$AP} à ${$M1+0+0.02*$SP+0.06*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	303009		Name	c79cc8383234	Pointe de choc	lot sorts_objets_038
+sort	303015		Name	16075c685ab8	Impact glacial	lot sorts_objets_038
+sort	303016		Description	3f25cfc2cec0	Gèle la créature ciblée et l'immobilise pendant $d.	lot sorts_objets_038
+sort	303016		Name	901ae89e0324	Froid d'os	lot sorts_objets_038
+sort	303016		ToolTip	f0d1ea204dfe	Immobilisé !	lot sorts_objets_038
+sort	303017		Description	5649bccbd5d9	Déchire la chair de votre cible et la fait saigner pour ${$m1+0+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;t1 sec pendant $d.	lot sorts_objets_038
+sort	303017		Name	7fd874f0bff8	Chair déchirée	lot sorts_objets_038
+sort	303017		ToolTip	2d20aa4ade2d	Saigne pour ${$m1+$ppl1} points de dégâts physiques toutes les $/1000;t1 sec.	lot sorts_objets_038
+sort	303018		Description	1caf02adab6f	Augmente votre score de coup critique de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	303018		Name	ad054f594f9d	Broyeur de Khan	lot sorts_objets_038
+sort	303018		ToolTip	00caa89e2173	Augmente votre score de coup critique de ${$m1}.	lot sorts_objets_038
+sort	303020		Description	e7db624c19de	Une chance, lorsque vous infligez des dégâts à distance, d'augmenter votre puissance d'attaque en mêlée de ${$303011m1+$303011ppl1} pendant $303011d.	lot sorts_objets_038
+sort	303020		Name	85ab77263eb5	Arc long d'entraînement de Maestra, déclencheur factice	lot sorts_objets_038
+sort	303020		ToolTip	e7db624c19de	Une chance, lorsque vous infligez des dégâts à distance, d'augmenter votre puissance d'attaque en mêlée de ${$303011m1+$303011ppl1} pendant $303011d.	lot sorts_objets_038
+sort	303021		Description	ee72a83f2c22	Une chance, lors d'un coup de mêlée, de réduire la vitesse de déplacement de la créature de $303019s1% pendant $303019d.	lot sorts_objets_038
+sort	303021		Name	3381b5f9cd2a	Sifflet d'engagement de Snaggle, déclencheur factice	lot sorts_objets_038
+sort	303021		ToolTip	ee72a83f2c22	Une chance, lors d'un coup de mêlée, de réduire la vitesse de déplacement de la créature de $303019s1% pendant $303019d.	lot sorts_objets_038
+sort	303022		Description	c9a858667b11	Augmente votre Force de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	303022		Name	ea84679a142c	Étoile de l'aube	lot sorts_objets_038
+sort	303022		ToolTip	810d152e1e19	Augmente votre Force de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	303023		Description	ef49b2028727	Une chance, lorsque vous infligez des dégâts magiques directs, d'effrayer une créature et de la faire fuir pendant $303024d maximum.	lot sorts_objets_038
+sort	303023		Name	890f2e190cfe	Branche d'épouvantail, baguette de soumission gnoll	lot sorts_objets_038
+sort	303023		ToolTip	ef49b2028727	Une chance, lorsque vous infligez des dégâts magiques directs, d'effrayer une créature et de la faire fuir pendant $303024d maximum.	lot sorts_objets_038
+sort	303036		Description	4c8e002833fe	Une chance, lors d'un coup de mêlée ou à distance, d'écorcher votre cible et de lui infliger de ${$303025m1+$303025ppl1+$SP*0.05+$AP*0.05} à ${$303025M1+$303025ppl1+$SP*0.05+$AP*0.05} points de dégâts d'Ombre.	lot sorts_objets_038
+sort	303036		Name	bfb339ae7209	Collier d'os de Griffecorbeau, déclencheur factice	lot sorts_objets_038
+sort	303036		ToolTip	4c8e002833fe	Une chance, lors d'un coup de mêlée ou à distance, d'écorcher votre cible et de lui infliger de ${$303025m1+$303025ppl1+$SP*0.05+$AP*0.05} à ${$303025M1+$303025ppl1+$SP*0.05+$AP*0.05} points de dégâts d'Ombre.	lot sorts_objets_038
+sort	303037		Description	516887c51273	Vos attaques automatiques de mêlée et à distance ont une chance de ralentir les créatures et de réduire leur vitesse de déplacement de $303038s1% pendant $303038d.	lot sorts_objets_038
+sort	303037		Name	86526acd72a3	Joyau de Lordaeron volé, déclencheur factice	lot sorts_objets_038
+sort	303037		ToolTip	caae0f17f123	Vos attaques automatiques de mêlée et à distance ont une chance de ralentir la cible et de réduire sa vitesse de déplacement de $303038s1% pendant $303038d.	lot sorts_objets_038
+sort	303041		Description	118ca61d623e	Vos effets de soins sur la durée ont une chance de réduire vos coûts en ressources de $303042s1% pendant $303042d.	lot sorts_objets_038
+sort	303041		Name	59ee3aea7551	Cape de prêtre poussiéreuse, déclencheur factice	lot sorts_objets_038
+sort	303041		ToolTip	118ca61d623e	Vos effets de soins sur la durée ont une chance de réduire vos coûts en ressources de $303042s1% pendant $303042d.	lot sorts_objets_038
+sort	303043		Description	bf1d6c5f9a37	Une chance, lorsque vous infligez des dégâts magiques, de réduire la vitesse de déplacement d'une créature de $303044s1% pendant $303044d.	lot sorts_objets_038
+sort	303043		Name	2047d3783476	Bâton imprégné d'Arctikus, déclencheur factice	lot sorts_objets_038
+sort	303043		ToolTip	bf1d6c5f9a37	Une chance, lorsque vous infligez des dégâts magiques, de réduire la vitesse de déplacement d'une créature de $303044s1% pendant $303044d.	lot sorts_objets_038
+sort	303045		Description	077af09172ae	Vos attaques à distance ou de mêlée ont une chance de déchirer votre cible et de la faire saigner pour ${$303046m1+$303046ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;303046t1 sec pendant $303046d.	lot sorts_objets_038
+sort	303045		Name	b6eb0ac4e8df	Des os à ronger, collier Dent-sanglante, déclencheur factice	lot sorts_objets_038
+sort	303045		ToolTip	ea73d5fc00cc	Déchire votre cible et la fait saigner pour ${$303046m1+$303046ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;303046t1 sec pendant $303046d.	lot sorts_objets_038
+sort	303048		Description	a08de4db3a19	Une chance, lorsque vous infligez des dégâts magiques, de foudroyer une cible pour ${$M1+0+0.06*$SP+0.06*$AP} à ${$303047m1+$303047ppl1+0.06*$SP+0.06*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	303048		Name	1a2e283a90f2	Baguette de Chute-tonnerre, déclencheur factice	lot sorts_objets_038
+sort	303048		ToolTip	3b3670354a33	Une chance, lorsque vous infligez des dégâts magiques, de foudroyer une cible pour ${$M1+$ppl1+0.02*$SP+0.06*$AP} à ${$303047m1+$303047ppl1+0.6*$SP+0.06*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	303050		Description	c50be1f57d93	Une chance, lorsque vous infligez des dégâts magiques, de réduire la vitesse de déplacement d'une créature de $303051s1% pendant $303051d.	lot sorts_objets_038
+sort	303050		Name	341b8a860de2	Pendentif d'Eliza, déclencheur factice	lot sorts_objets_038
+sort	303050		ToolTip	c50be1f57d93	Une chance, lorsque vous infligez des dégâts magiques, de réduire la vitesse de déplacement d'une créature de $303051s1% pendant $303051d.	lot sorts_objets_038
+sort	303052		Description	b2629bbcf4ef	Infliger des dégâts magiques directs avec des sorts a une chance de déclencher un Coup de tonnerre qui inflige de ${$303001m1+0.02*$SP+0.06*$AP} à ${$303001M1+0.02*$SP+0.06*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	303052		Name	58492384baa9	Bâton de sorcière de la tempête, déclencheur factice	lot sorts_objets_038
+sort	303052		ToolTip	e7f780e707d3	Une chance, lorsque vous infligez des dégâts magiques, de lancer un Éclair de tempête qui inflige des dégâts de Nature.	lot sorts_objets_038
+sort	303054		Description	ecb1d22ab5a3	Vos effets de dégâts sur la durée ont une chance d'augmenter votre score de hâte de ${$303055m1+$303055ppl1}, mais de réduire votre vitesse de déplacement de $303055s2% pendant $303055d.	lot sorts_objets_038
+sort	303054		Name	0e167a16bc28	Pendentif maudit de la cicatrice de feu, déclencheur factice	lot sorts_objets_038
+sort	303054		ToolTip	ecb1d22ab5a3	Vos effets de dégâts sur la durée ont une chance d'augmenter votre score de hâte de ${$303055m1+$303055ppl1}, mais de réduire votre vitesse de déplacement de $303055s2% pendant $303055d.	lot sorts_objets_038
+sort	303056		Description	22097a54d43a	Vos attaques à distance ont une chance de tirer aussi une roquette qui inflige des dégâts de Feu supplémentaires.	lot sorts_objets_038
+sort	303056		Name	3077fb1636ba	Colis de livraison de munitions, déclencheur factice	lot sorts_objets_038
+sort	303056		ToolTip	ae864971f95d	Vos attaques automatiques à distance ont une chance de tirer aussi une roquette qui inflige des dégâts de Feu supplémentaires.	lot sorts_objets_038
+sort	303058		Description	ec7f5c46e7a9	Réduit la menace générée de $s1% pendant $d.	lot sorts_objets_038
+sort	303058		Name	5733257b629d	Voile de sérénité	lot sorts_objets_038
+sort	303058		ToolTip	591067496388	Réduit la menace générée de $s1%.	lot sorts_objets_038
+sort	303059		Description	22d9a1d55d5d	Augmente légèrement votre détection du camouflage.	lot sorts_objets_038
+sort	303059		Name	ba31125d5a14	Détection du camouflage accrue pour la lunette de guet, l'anneau de sentinelle de la chasseresse, le fragment d'An'owyn	lot sorts_objets_038
+sort	303059		ToolTip	c766e6472e25	Augmente votre détection du camouflage.	lot sorts_objets_038
+sort	303060		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	303060		Name	97e25fdbbb34	Menace accrue pour la longue lance de pêche, le pic de charognard pattenoire	lot sorts_objets_038
+sort	303060		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	303061		Description	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	303061		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	303061		ToolTip	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	303066		Description	31e801dc674f	Subir des dégâts directs a une chance de faire jaillir des épines qui infligent de ${$303065m1+$303065ppl1+0.02*$SP+0.02*$AP} à ${$303065M1+$303065ppl1+0.02*$SP+0.02*$AP} points de dégâts physiques.	lot sorts_objets_038
+sort	303066		Name	fcbc692f6a21	Linceul de fourrure Chardon-fourrure, déclencheur factice	lot sorts_objets_038
+sort	303066		ToolTip	7bba9c16e04e	Subir des dégâts directs a une chance de faire jaillir des épines qui infligent de ${$303065m1+$303065ppl1+0.2*$SP+0.02*$AP} à ${$303065M1+$303065ppl1+0.02*$SP+0.02*$AP} points de dégâts physiques.	lot sorts_objets_038
+sort	303067		Description	013d5ba34082	Une chance, lorsque vous êtes frappé, de donner des Frissons à un ennemi et de le faire fuir de terreur pendant $303068d maximum.	lot sorts_objets_038
+sort	303067		Name	ff92f055cc4a	Les Frissons, déclencheur factice	lot sorts_objets_038
+sort	303067		ToolTip	013d5ba34082	Une chance, lorsque vous êtes frappé, de donner des Frissons à un ennemi et de le faire fuir de terreur pendant $303068d maximum.	lot sorts_objets_038
+sort	303069		Description	e6f458628e6f	Lorsque vous êtes frappé en combat, 5% de chances d'augmenter votre vitesse de déplacement de $303070s1% pendant $303070d.	lot sorts_objets_038
+sort	303069		Name	9b6592fbe0cc	Change-marée, déclencheur factice	lot sorts_objets_038
+sort	303069		ToolTip	e6f458628e6f	Lorsque vous êtes frappé en combat, 5% de chances d'augmenter votre vitesse de déplacement de $303070s1% pendant $303070d.	lot sorts_objets_038
+sort	303071		Description	df2090dfe079	Inflige ${$303072m1+$303072ppl1+$SP*0.02+$AP*0.02} points de dégâts de peste toutes les $t1 sec dans un rayon de $303072a1 mètres pendant $303071d.	lot sorts_objets_038
+sort	303071		Name	6db80e4ed62e	Peau putréfiée	lot sorts_objets_038
+sort	303071		ToolTip	78f0f6fbc2a2	Inflige $303072m1 points de dégâts de peste toutes les $t1 sec dans un rayon de $303072a1 mètres pendant $303046d.	lot sorts_objets_038
+sort	303074		Description	e88c65ac52c1	Vite ! Vous lancez de la dynamite explosive sur la zone ciblée et infligez de ${$303100m1+$303100ppl1+0.03*$SP+0.03*$AP} à ${$303100M1+$303100ppl1+0.03*$SP+0.03*$AP} points de dégâts de Feu.	lot sorts_objets_038
+sort	303074		Name	3c1351443111	Cadeau épicé spécial	lot sorts_objets_038
+sort	303074		ToolTip	f6e1e97f71c6	Vite ! Vous lancez de la dynamite explosive sur la zone ciblée et infligez de ${$303100m1+$303100ppl1+0.3*$SP+0.03*$AP} à ${$303100M1+$303100ppl1+0.03*$SP+0.03*$AP} points de dégâts de Feu.	lot sorts_objets_038
+sort	303077		Description	fe4c2a88bbbb	Vous entoure d'un bouclier de Feu qui inflige ${$303078m1+$303078ppl1+$SP*0.02+$AP*0.02} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.  Dure $d.	lot sorts_objets_038
+sort	303077		Name	b79474b5c738	Flammes de Vul'gol	lot sorts_objets_038
+sort	303077		ToolTip	9b218a2b1537	Inflige ${$303078m1+$303078ppl1+$SP*0.02+$AP*0.02} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot sorts_objets_038
+sort	303080		Description	636c187931cc	Absorbe ${$303080m1+$303080ppl1} points de dégâts. Dure $d.	lot sorts_objets_038
+sort	303080		Name	b8f17bca57bf	Enseignements du Kirin Tor	lot sorts_objets_038
+sort	303081		Name	54f3d3503cd4	Insaisissabilité spectrale	lot sorts_objets_038
+sort	303081		ToolTip	6b4496bf4006	Augmente votre score d'esquive de ${$m1}.	lot sorts_objets_038
+sort	303082		Description	6d984f350194	Enduit vos armes d'un extrait de poison : vos aptitudes infligent ${$303083m1+$303083ppl1+$sp*0.1+$ap*0.1} points de dégâts de Nature supplémentaires pendant $d.	lot sorts_objets_038
+sort	303082		ToolTip	6d984f350194	Enduit vos armes d'un extrait de poison : vos aptitudes infligent ${$303083m1+$303083ppl1+$sp*0.1+$ap*0.1} points de dégâts de Nature supplémentaires pendant $d.	lot sorts_objets_038
+sort	303084		Description	e4fc45736db1	Enduit vos armes d'ombres : vos aptitudes infligent ${$303085m1+$303085ppl1+$sp*0.1+$ap*0.1} points de dégâts d'Ombre supplémentaires pendant $d.	lot sorts_objets_038
+sort	303084		Name	481468ee9a3e	Infusion de peau d'ombre	lot sorts_objets_038
+sort	303084		ToolTip	e4fc45736db1	Enduit vos armes d'ombres : vos aptitudes infligent ${$303085m1+$303085ppl1+$sp*0.1+$ap*0.1} points de dégâts d'Ombre supplémentaires pendant $d.	lot sorts_objets_038
+sort	303086		Description	15b5363e4103	Augmente votre endurance de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	303086		Name	aa14e1ef8b7f	Par-delà la tombe	lot sorts_objets_038
+sort	303086		ToolTip	d2d9d6d16c5b	Augmente votre endurance de ${$m1}.	lot sorts_objets_038
+sort	303087		Description	e2538a540a55	Augmente votre puissance des sorts de Feu de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	303087		Name	96f7a121fde9	Appel de la matriarche	lot sorts_objets_038
+sort	303087		ToolTip	c4b5bb000b81	Augmente votre puissance des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	303089		Description	3dd98955907f	Une boisson alcoolisée tonitruante extrêmement forte, qui augmente l'endurance de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	303089		Name	b869b0f6ebc2	Brassetonnerre	lot sorts_objets_038
+sort	303089		ToolTip	e7de68e5bd61	Augmente l'endurance de ${$m1}.	lot sorts_objets_038
+sort	303090		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	303090		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	303093		Description	ccf46f3fe689	Jette une substance suspecte sur votre cible et inflige de ${$303093m1+$303093ppl1+0.06*$SP+0.06*$AP} à ${$303093M1+$303093ppl1+0.06*$SP+0.06*$AP} points de dégâts de peste.	lot sorts_objets_038
+sort	303093		Name	47d49eca3faf	Substance suspecte	lot sorts_objets_038
+sort	303093		ToolTip	ac2d2efb65bf	Jette une substance suspecte sur votre cible et inflige de ${$303093m1+$303093ppl1+0.6*$SP+0.06*$AP} à ${$303093M1+$303093ppl1+0.06*$SP+0.06*$AP} points de dégâts de peste.	lot sorts_objets_038
+sort	303094		Description	b172267d8358	Vos effets de soins sur la durée ont une chance de vous rendre de ${$303053m1+$303053ppl1+0.03*$SP+0.03*$AP} à ${$303053M1+$303053ppl1+0.03*$SP+0.03*$AP} points de vie.	lot sorts_objets_038
+sort	303094		Name	3a9e3b094dc3	Guide de la restauration elfique - Vol. I, déclencheur factice	lot sorts_objets_038
+sort	303094		ToolTip	639157518ebd	Vos effets de soins sur la durée ont une chance de vous rendre de ${$303053m1+$303053ppl1+0.3*$SP+0.03*$AP} à ${$303053M1+$303053ppl1+0.03*$SP+0.03*$AP} points de vie.	lot sorts_objets_038
+sort	303097		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	303097		Name	ff60e4e6c62d	Pourfendeur d'humains - Fusil de chasse de Chute-tonnerre - Sort d'objet	lot sorts_objets_038
+sort	303097		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	303098		Description	77da7f2f29ff	Augmente la puissance d'attaque contre les morts-vivants et les démons de $s1.	lot sorts_objets_038
+sort	303098		Name	f778efec6c62	Pourfendeur de morts-vivants et de démons - Sort d'objet	lot sorts_objets_038
+sort	303098		ToolTip	77da7f2f29ff	Augmente la puissance d'attaque contre les morts-vivants et les démons de $s1.	lot sorts_objets_038
+sort	303099		Description	60e5db1511c0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	303099		Name	7c1dc0429aee	Zèle	lot sorts_objets_038
+sort	303099		ToolTip	42549d2945a0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1}.	lot sorts_objets_038
+sort	303101		Description	77da7f2f29ff	Augmente la puissance d'attaque contre les morts-vivants et les démons de $s1.	lot sorts_objets_038
+sort	303101		Name	6c70fc8066a6	Pourfendeur de morts-vivants et de démons - Ceinturon du croisé	lot sorts_objets_038
+sort	303101		ToolTip	77da7f2f29ff	Augmente la puissance d'attaque contre les morts-vivants et les démons de $s1.	lot sorts_objets_038
+sort	303110		Description	3e67968636b2	Une chance, lors d'un coup de mêlée, de frapper la cible du poids de la vie, ce qui réduit sa vitesse de déplacement de $303006s2% et lui inflige ${$303006m1+$303006ppl1+$SP*0.02+$AP*0.02} points de dégâts de Nature toutes les $/1000;303006t1 sec pendant $303006d.	lot sorts_objets_038
+sort	303110		Name	774c3efeae40	Délice du fossoyeur - Sort d'objet	lot sorts_objets_038
+sort	303110		ToolTip	3e67968636b2	Une chance, lors d'un coup de mêlée, de frapper la cible du poids de la vie, ce qui réduit sa vitesse de déplacement de $303006s2% et lui inflige ${$303006m1+$303006ppl1+$SP*0.02+$AP*0.02} points de dégâts de Nature toutes les $/1000;303006t1 sec pendant $303006d.	lot sorts_objets_038
+sort	303111		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	303111		Name	437806cae776	Pourfendeur d'humains - Bâton Mrrrllrl - Sort d'objet	lot sorts_objets_038
+sort	303111		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	303112		Name	91903385f5b1	Pourfendeur de bêtes - Boucle de Chasse-côtes - Sort d'objet	lot sorts_objets_038
+sort	303113		Name	04c4ad152a8a	Pourfendeur de bêtes - Anneau d'os du chef de meute - Sort d'objet	lot sorts_objets_038
+sort	303114		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	303114		Name	1674bf76cd1d	Pourfendeur d'humains - Lame nocturne défias - Sort d'objet	lot sorts_objets_038
+sort	303114		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	303116		Name	90ea7f5e175f	Pourfendeur de bêtes - Fourche Mrlrgrl - Sort d'objet	lot sorts_objets_038
+sort	303117		Name	a5b1064af0b7	Pourfendeur de bêtes - Lame de ronce - Sort d'objet	lot sorts_objets_038
+sort	304000		Description	cdadd04bf086	Invoque deux traqueurs de la jungle pour vous aider au combat.	lot sorts_objets_038
+sort	304000		Name	6fb7808800cd	Invocation de traqueurs de la jungle	lot sorts_objets_038
+sort	304002		Description	7826ca71dbe0	Vos coups de mêlée ont une chance de déchirer la chair de votre cible et de la faire saigner pour ${$304003m1+$304003ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;304003t1 sec pendant $304003d.	lot sorts_objets_038
+sort	304002		Name	de2345048a6e	Dent de raptor aiguisée, déclencheur factice	lot sorts_objets_038
+sort	304002		ToolTip	7fababdb0224	Saigne pour ${$304003m1+$304003ppl1+$SP*0.02+$AP*0.02} points de dégâts physiques toutes les $/1000;304003t1 sec.	lot sorts_objets_038
+sort	304004		Description	b5c26c7dc0b1	Vos effets de soins sur la durée ont une chance d'augmenter votre esprit de ${$304006m1+$304006ppl1} pendant $304006d.	lot sorts_objets_038
+sort	304004		Name	522724ba71b8	Habitant des mers ancien, déclencheur factice	lot sorts_objets_038
+sort	304004		ToolTip	b5c26c7dc0b1	Vos effets de soins sur la durée ont une chance d'augmenter votre esprit de ${$304006m1+$304006ppl1} pendant $304006d.	lot sorts_objets_038
+sort	304005		Name	205f934cf2d8	Compétence en Ingénierie +5	lot sorts_objets_038
+sort	304007		Description	7dcbab2ae96f	Lorsque vous êtes frappé en mêlée, vous avez une chance d'infliger ${$304008m1+$304008ppl1} points de dégâts de Givre à tous les ennemis situés à moins de $304008a1 mètres.	lot sorts_objets_038
+sort	304007		Name	e73e125586a0	Anneau de Mokrash, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	304009		Description	da98f009f5e3	Vos coups de mêlée ont une chance de fissurer l'armure de la cible pendant $304010d.	lot sorts_objets_038
+sort	304009		Name	b254ffd005e0	Brise-coque, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	304009		ToolTip	3c64d6e6ae2f	Vos coups de mêlée ont une chance de fissurer l'armure de la cible pendant $d.	lot sorts_objets_038
+sort	304012		Description	e1c49fc4f948	Augmente votre score de parade de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	304012		Name	8ca9c17045e5	Yarrr !	lot sorts_objets_038
+sort	304012		ToolTip	60384a7bc7cc	Augmente votre score de parade de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	304014		Description	e06284ae9c74	Infliger des dégâts directs de Givre ou de Nature a une chance d'augmenter votre score de hâte de ${$304015m1+$304015ppl1} pendant $304015d.	lot sorts_objets_038
+sort	304014		Name	cbde6bd2b19a	Coquillage spécial, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	304018		Description	29c2afe36266	Vos aptitudes de soins efficaces ont une chance de vous rendre de ${$304019m1+$304019ppl1+0.05*$SP} à ${$304019M1+$304019ppl1+0.05*$SP} points de vie.	lot sorts_objets_038
+sort	304018		ToolTip	29c2afe36266	Vos aptitudes de soins efficaces ont une chance de vous rendre de ${$304019m1+$304019ppl1+0.05*$SP} à ${$304019M1+$304019ppl1+0.05*$SP} points de vie.	lot sorts_objets_038
+sort	304020		Description	b1bfb6d36829	Soigner efficacement une cible a une chance de lui accorder la Bénédiction de la rivière, qui rend ${$304021m1+$304021ppl1} points de mana toutes les 5 sec pendant $304021d.	lot sorts_objets_038
+sort	304020		Name	3a05bbf6e1fc	Blason de Cœur-de-rivière, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	304020		ToolTip	c66a8c8f6569	Soigner une cible a une chance de lui accorder la Bénédiction de la rivière, qui rend ${$304021m1+$304021ppl1} points de mana toutes les 5 sec pendant $304021d.	lot sorts_objets_038
+sort	304022		Name	66d8bfe8bb6f	Bottes feutrées - Camouflage 5	lot sorts_objets_038
+sort	304023		Name	8d86393e9596	Gilet d'éclaireur de Zul'Kunda - Camouflage 5	lot sorts_objets_038
+sort	304024		Description	1eb5df368f11	Une boisson alcoolisée grésillante extrêmement forte.	lot sorts_objets_038
+sort	304024		ToolTip	f9861aef11eb	Ouf ! C'est du costaud !	lot sorts_objets_038
+sort	304025		Description	08fffddd34b0	Vous fait léviter pendant $d.	lot sorts_objets_038
+sort	304025		Name	bca9cb545528	Course sur les nuages	lot sorts_objets_038
+sort	304027		Name	4dcba2ef768a	Pourfendeur de bêtes - Fracasse-poulet de Galak - Sort d'objet	lot sorts_objets_038
+sort	304028		Description	cef30dca9d36	Vous chatouillez la créature, qui est prise d'un fou rire horrifiant pendant $d.	lot sorts_objets_038
+sort	304028		Name	83c93281170b	Lien de plumes	lot sorts_objets_038
+sort	304029		Description	e4fac9a454a4	Canalise les tambours pendant $304029d et augmente la hâte de ${$304030m1+$304030ppl1} pour chaque $/1000;304029t1 seconde canalisée, pendant $304030donds.	lot sorts_objets_038
+sort	304029		Name	19642a3c6ec1	Tambours de guerre kodo	lot sorts_objets_038
+sort	304029		ToolTip	cba8035b1b15	Canalise les esprits des kodos de guerre.	lot sorts_objets_038
+sort	304031		Name	d1fe36763b34	Bottes de course gobelines - Déclencheur factice du sort d'objet pour « Carotte Kaboum »	lot sorts_objets_038
+sort	304032		Description	ebb48eed0deb	Augmente la vitesse de déplacement montée de $s1% pendant $d. Avec une chance d'effets supplémentaires.	lot sorts_objets_038
+sort	304032		Name	c3c5156406be	Spécialité gobeline : « Carotte Kaboum sur un bâton »	lot sorts_objets_038
+sort	304032		ToolTip	0f17595c2b4f	Augmente la vitesse de déplacement montée de $s1%.	lot sorts_objets_038
+sort	304034		Description	3293df1ebc6c	Vous buvez une boisson alcoolisée extrêmement forte.	lot sorts_objets_038
+sort	304034		Name	0f01c874704d	Gnôle vieillie	lot sorts_objets_038
+sort	304034		ToolTip	b5c08b5f6685	Complètement pompette !	lot sorts_objets_038
+sort	304035		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	304036		Description	2d2293890e29	Fouette les créatures environnantes avec le poids de l'océan, les repousse et leur inflige de ${$m2+0+0.1*$SP+0.1*$AP} à ${$M2+$PPL2+0.1*$SP+0.1*$AP} points de dégâts de Givre.	lot sorts_objets_038
+sort	304036		Name	be92eec6731e	Perce-vague	lot sorts_objets_038
+sort	304037		Description	7126b6ceaf61	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+0}, et votre pénétration des sorts de ${$abs($m3+0)} pendant $d.	lot sorts_objets_038
+sort	304037		Name	62f98ddd5a3c	Transe de poudre	lot sorts_objets_038
+sort	304037		ToolTip	0460c2113292	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+$ppl1}, et fait en sorte que vos sorts ignorent ${$ABS($m3+$ppl3)} points de résistance.	lot sorts_objets_038
+sort	304041		Description	184fe24c3bd3	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez.  Si vous mangez pendant au moins 10 sec, vous êtes bien nourri et gagnez une vitesse de nage augmentée de ${$304013m1+$304013ppl1}% et de l'endurance à hauteur de ${$304013m2+$304013ppl2} pendant $304013d.	lot sorts_objets_038
+sort	304041		Name	506025dca7c0	Nourriture - Salade d'algues de Gorlash	lot sorts_objets_038
+sort	304043		Description	ac616aac1479	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez.  Si vous mangez pendant au moins 10 sec, vous êtes bien nourri : votre régénération de mana augmente de ${$304042m1+$304042ppl1} toutes les 5 sec et vous gagnez ${$304042m2+$304042ppl2} Intelligence pendant $304042d.	lot sorts_objets_038
+sort	304043		Name	38097256cddc	Nourriture - Fleur teintée d'arcanes	lot sorts_objets_038
+sort	304045		Description	3be2be91294a	Vous entoure d'un bouclier de Feu qui inflige ${$304046m1+$304046ppl1+$SP*0.02+$AP*0.02} points de dégâts de Feu aux attaquants et augmente l'armure de ${$304045m2+$304045ppl2} pendant $d.	lot sorts_objets_038
+sort	304045		Name	00cdf9355a6d	Robustesse de Sulfuron	lot sorts_objets_038
+sort	304045		ToolTip	55e89fca8392	Augmente l'armure de ${$304045m2+$304045ppl2} et inflige ${$304046m1+$304046ppl1+$SP*0.02+$AP*0.02} points de dégâts de Feu aux attaquants.	lot sorts_objets_038
+sort	304047		Description	576307588da2	Inflige ${$m2+($AP+$SP)*0.04} points de dégâts physiques supplémentaires et étourdit la cible pendant $d.	lot sorts_objets_038
+sort	304051		Description	00fb8c6c71fd	Inflige à votre cible morte-vivante ${$304046m1+$304046ppl1+$SP*0.01} points de dégâts de Feu toutes les $t3 sec et la fait fuir pendant $d maximum.	lot sorts_objets_038
+sort	304051		Name	ee478fdaea0c	Paix des morts	lot sorts_objets_038
+sort	304052		Description	eca1f32dcb00	Inflige $s1% de dégâts d'arme supplémentaires.	lot sorts_objets_038
+sort	304052		Name	112326ab67c2	Pillage furtif	lot sorts_objets_038
+sort	304054		Description	48b61b9571b2	Compétence en Bûcheronnage augmentée de $s1.	lot sorts_objets_038
+sort	304054		Name	1370c7c9761f	Compétence en Bûcheronnage +5	lot sorts_objets_038
+sort	304055		Description	bb52564510a4	Frappe votre cible et inflige de ${$303003m1+$303003ppl1+0.03*$AP} à ${$303003M1+$303003PPL1+0.03*$AP} points de dégâts de Feu.	lot sorts_objets_038
+sort	304055		Name	f95424135c4e	Feu-de-fer	lot sorts_objets_038
+sort	304056		Description	a35b2f669b7d	Immobilise une créature pendant $d.	lot sorts_objets_038
+sort	304056		Name	00e380f1f692	Plaines verrouillées	lot sorts_objets_038
+sort	304057		Description	0d91a9dc9b0f	Compétence en Minage augmentée de $s1.	lot sorts_objets_038
+sort	304057		Name	de05d6c6b8ff	Compétence en Minage +5	lot sorts_objets_038
+sort	304058		Description	f375744f6f7f	Réduit la vitesse de déplacement de votre cible de $s1% pendant $d.	lot sorts_objets_038
+sort	304058		Name	eaf3122ff410	Chaînes de la mort	lot sorts_objets_038
+sort	304058		ToolTip	bb8dc538101c	Réduit la vitesse de déplacement de $s1%.	lot sorts_objets_038
+sort	304061		Description	17fa94b64c46	Vos sorts de Nature offensifs ont une chance de faire surgir un bourbier rampant sous votre cible, qui inflige des dégâts de Nature pendant $304062d et réduit la vitesse de déplacement de $304062s2% dans une zone de $304062a1 mètres.	lot sorts_objets_038
+sort	304061		Name	c9ceb356caed	Invoque-bourbier, déclencheur factice d'objet	lot sorts_objets_038
+sort	304070		Description	4a7f5cd4b915	Tire une Flèche brûlante qui inflige ${($m1+0+$RAP*0.03)*4} points de dégâts de Feu pendant $304070d.	lot sorts_objets_038
+sort	304070		Name	9299f1f18644	Flèche brûlante	lot sorts_objets_038
+sort	304070		ToolTip	b9dce99d4aba	Inflige ${$m1+$ppl1+$RAP*0.02} points de dégâts de Feu toutes les $t1.	lot sorts_objets_038
+sort	304072		Description	cd37a05991a1	Augmente la résistance au Feu de ${$m2+0} et vos aptitudes et sorts de dégâts directs infligent ${$304073m1+$304073ppl1+$RAP*0.02+$SP*0.02} points de dégâts de Feu supplémentaires pendant $d.	lot sorts_objets_038
+sort	304072		Name	cc5777f7e79c	Déferlement draconique	lot sorts_objets_038
+sort	304072		ToolTip	d8dcecd93223	Augmente la résistance au Feu de $m2 et vos aptitudes et sorts de dégâts directs infligent ${$304073m1+$304073ppl1+$RAP*0.02+$SP*0.02} points de dégâts de Feu supplémentaires.	lot sorts_objets_038
+sort	304075		Description	692af73f5ae4	Infliger des dégâts directs a une chance d'appliquer des Dots supplémentaires qui infligent ${$304074m1+$SP*0.03} points de dégâts de Feu toutes les $304074t1 pendant $304074d.	lot sorts_objets_038
+sort	304075		Name	166e136de6f6	Décompte de Crushim, déclencheur factice d'objet	lot sorts_objets_038
+sort	304076		Description	a0b12d71596a	Écrase les orteils de la créature ciblée, ce qui inflige ${$m2+0+($AP)*0.03} points de dégâts physiques et réduit sa vitesse de déplacement de $m1% pendant $d.	lot sorts_objets_038
+sort	304076		Name	5bf110063634	Orteil cogné	lot sorts_objets_038
+sort	304079		Description	95650aa6ae8e	Les sorts ont une chance d'augmenter votre pénétration des sorts de ${$ABS($304080m1+$304080ppl1)} pendant $304080d.	lot sorts_objets_038
+sort	304079		Name	ef0d566cf0a4	Lumière de la douleur, déclencheur factice d'objet	lot sorts_objets_038
+sort	304081		Description	ca1386676005	Augmente la puissance d'attaque de ${$304081m1+$304081ppl1} pendant $d.	lot sorts_objets_038
+sort	304081		Name	389848877b26	Marée du seigneur de guerre	lot sorts_objets_038
+sort	304081		ToolTip	75b51f48c3bb	Augmente la puissance d'attaque de ${$w1}.	lot sorts_objets_038
+sort	304083		Description	206ff92ce4f7	Vos sorts de dégâts directs ont une chance d'enserrer les pieds des créatures dans la pierre et de réduire leur vitesse de déplacement de $304082s1% pendant $304082d.	lot sorts_objets_038
+sort	304083		Name	44c5dec385f7	Couronne de pierre, déclencheur factice d'objet	lot sorts_objets_038
+sort	304084		Description	277313470ff7	Augmente le mana généré toutes les 5 sec de ${$m1+0} et la puissance des sorts de ${$m2+0} pendant $d.	lot sorts_objets_038
+sort	304084		Name	e0cf38e106b7	Éveil du rêve	lot sorts_objets_038
+sort	304084		ToolTip	caf2db55c19f	Rend ${$m1+$ppl1} points de mana toutes les 5 sec et augmente la puissance des sorts de ${$m2+$ppl2}.	lot sorts_objets_038
+sort	304085		Description	722e22fee3ed	Augmente la puissance d'attaque de ${$304085m1+$304085ppl1} pendant $d ; quand le Hurlement de la bête féroce prend fin, votre vitesse de déplacement est réduite de $304086s1% pendant $304086d.	lot sorts_objets_038
+sort	304085		Name	ad749cdc6669	Hurlement de la bête féroce	lot sorts_objets_038
+sort	304085		ToolTip	beeb298fa040	Augmente votre puissance d'attaque de ${$304085m1+$304085ppl1}.	lot sorts_objets_038
+sort	304088		Description	10daebae2906	Les pulsations de votre Récupération ont une chance de faire éclore une Floraison mineure sur un allié proche, qui lui rend un peu de vie en $304087d.	lot sorts_objets_038
+sort	304088		Name	6b1c8e4fd328	Idole de l'aire, déclencheur factice d'objet	lot sorts_objets_038
+sort	304089		Description	37ed05a2f5a2	Enduit vos mains de vase : vos 5 prochains sorts directs infligent ${$304090m1+$304090ppl1+$sp*0.1} points de dégâts de Nature supplémentaires.	lot sorts_objets_038
+sort	304089		Name	f0b70689182a	Vase conductrice	lot sorts_objets_038
+sort	304089		ToolTip	37ed05a2f5a2	Enduit vos mains de vase : vos 5 prochains sorts directs infligent ${$304090m1+$304090ppl1+$sp*0.1} points de dégâts de Nature supplémentaires.	lot sorts_objets_038
+sort	304091		Description	5fc0d3916b6c	Provoque un Éclatement de vase qui inflige ${$m1+0} points de dégâts de Nature aux ennemis proches.	lot sorts_objets_038
+sort	304091		Name	8eea7d7b5715	Éclatement de vase	lot sorts_objets_038
+sort	304091		ToolTip	5b115557741d	Provoque un Éclatement de vase qui inflige ${$m1+$ppl1} points de dégâts de Nature aux ennemis proches.	lot sorts_objets_038
+sort	304092		Description	343c65e13e11	Lorsque vous portez un coup critique en mêlée, vous avez une chance d'être enveloppé d'ombres, ce qui augmente votre score de hâte en mêlée de $304093s1 pendant $304093d.	lot sorts_objets_038
+sort	304092		Name	84877115c22f	Idole de l'ombre couveuse, déclencheur factice d'objet	lot sorts_objets_038
+sort	304094		Description	ca857faa97f3	Frappe la cible d'une entaille sangsue qui inflige des dégâts d'Ombre supplémentaires et vous rend 100% des dégâts infligés sous forme de vie.	lot sorts_objets_038
+sort	304094		Name	96ee1e8b50dc	Entaille sangsue	lot sorts_objets_038
+sort	304094		ToolTip	ca857faa97f3	Frappe la cible d'une entaille sangsue qui inflige des dégâts d'Ombre supplémentaires et vous rend 100% des dégâts infligés sous forme de vie.	lot sorts_objets_038
+sort	304096		Description	2caf2198c6a7	Les sorts offensifs ont une chance d'infliger ${($304095m1+$304095ppl1+$SP*0.01+$AP*0.01)*3} points de dégâts d'Ombre supplémentaires à votre cible en $304095d, en siphonnant 100% de ces dégâts sous forme de vie.	lot sorts_objets_038
+sort	304096		Name	0245c3636576	Tome des âmes fracassées, déclencheur factice d'objet	lot sorts_objets_038
+sort	304099		Description	da4a7a028bde	Lorsque vous lancez Purification de l'esprit ou Guérison des toxines, cette idole se repaît des poisons purifiés et gagne en puissance pendant $304097d : vos attaques de mêlée empoisonnent les ennemis pendant $304098d. 	lot sorts_objets_038
+sort	304099		Name	1c21c1c4e919	Idole de la mère des couvées, déclencheur factice d'objet	lot sorts_objets_038
+sort	304100		Description	fd09b6b2e25c	Invoque un élémentaire d'eau inférieur pour vous aider au combat.	lot sorts_objets_038
+sort	304100		Name	395be0da4094	Invocation d'un élémentaire d'eau inférieur	lot sorts_objets_038
+sort	304102		Description	4351f1f8054d	Lorsque vous portez un coup critique avec une aptitude de mêlée, vous avez une chance d'infliger ${$304103m1+$304103ppl1+$SP*0.06+$AP*0.06} points de dégâts de Nature supplémentaires.	lot sorts_objets_038
+sort	304102		Name	083d0324718a	Anneau de la jungle d'influence de la Nature, déclencheur factice	lot sorts_objets_038
+sort	304106		Description	fa107437da14	Lorsque vous êtes frappé par une attaque de mêlée ou à distance, vous avez une chance d'augmenter votre score de hâte de ${$304107m1+$304107ppl1} pendant $304107d.	lot sorts_objets_038
+sort	304106		Name	a64b1bb98b15	Bouclier de guerre tribal, déclencheur factice	lot sorts_objets_038
+sort	304108		Description	a679ba78cd48	Vos sorts instantanés de dégâts ou de soins ont une chance d'augmenter votre score de coup critique de ${$304109m1+$304109ppl1} pendant $304109d.	lot sorts_objets_038
+sort	304108		Name	d994a88f7e3d	Idole de druide mystique, déclencheur factice	lot sorts_objets_038
+sort	304111		Description	8d31ffe01416	Augmente votre puissance d'attaque de ${$304112m1+$304112ppl1} tant que vous êtes camouflé et pendant $304112d après être sorti du camouflage.	lot sorts_objets_038
+sort	304111		Name	6451490e4802	Force de l'ombre	lot sorts_objets_038
+sort	304114		Description	113c03dbc498	Être frappé par une attaque de mêlée a une chance de vous faire piétiner le sol et d'infliger ${$304115m1+$304115ppl1+($ap+$sp)*0.04} points de dégâts de Nature aux cibles proches.	lot sorts_objets_038
+sort	304114		Name	54de478ec173	Cape de fourrure du tonneleur, déclencheur factice	lot sorts_objets_038
+sort	304116		Description	f7145bc5a221	Vos attaques à distance ont une chance de tirer sur la cible une Flèche perce-tempête qui inflige ${$304113m1+$304113ppl1+0.06*$SP+0.06*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	304116		Name	080e590cf29c	Perce-tempête, déclencheur factice	lot sorts_objets_038
+sort	304117		Description	46c2277e4317	Augmente la puissance des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_038
+sort	304117		Name	a95ed57a4b82	Étreinte de la cinquième ombre, puissance des sorts	lot sorts_objets_038
+sort	304117		ToolTip	adc9b362502a	Augmente la puissance des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	304118		Description	ec1ce48c3ecd	Augmente la puissance des sorts de Feu de ${$m1+0}.	lot sorts_objets_038
+sort	304118		Name	ea6c07a54cd6	Orbe instable d'Hercular, puissance des sorts de Feu	lot sorts_objets_038
+sort	304118		ToolTip	46c6006acd4e	Augmente la puissance des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	304119		Description	993646039d9a	Augmente la puissance des soins de ${$m1+0}.	lot sorts_objets_038
+sort	304119		Name	1386b9c79828	Fleurs tressées, puissance des soins	lot sorts_objets_038
+sort	304119		ToolTip	b5f44e095dfa	Augmente la puissance des soins de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	304120		Description	dbcd86caa2dc	Infliger des dégâts avec des attaques de mêlée ou à distance a une chance d'augmenter votre puissance d'attaque de ${$304121m1+$304121ppl1} et votre score de coup critique de ${$304121m3+$304121ppl3}.	lot sorts_objets_038
+sort	304120		Name	ee019f9fb869	Icône de Karn Maurados, déclencheur factice	lot sorts_objets_038
+sort	304122		Description	0238b2ec5e37	Infliger des dégâts directs avec des sorts a une chance de pétrifier les monstres, ce qui les étourdit pendant $304123d et augmente leur armure de $304123s2%.	lot sorts_objets_038
+sort	304122		Name	5f7f62f9c314	Amulette d'Œil-d'ambre, déclencheur factice	lot sorts_objets_038
+sort	304124		Description	82c76367ca25	Tuer une cible qui rapporte de l'expérience ou de l'honneur vous rend ${$304125m1+$304125ppl1+($AP+$SP)*0.05} points de vie. (45 sec. de délai de récupération interne)	lot sorts_objets_038
+sort	304124		Name	6e3740a117d9	L'Œil immortel, déclencheur factice	lot sorts_objets_038
+sort	304126		Description	85a139b3e00e	Lancer des sorts a une chance de vous rendre ${$304127m1+$304127ppl1+($AP+$SP)*0.05} points de vie.	lot sorts_objets_038
+sort	304126		Name	fb69d90d3b03	Orbe de l'aube, déclencheur factice	lot sorts_objets_038
+sort	304128		Description	4665b7736c60	Foudroie la cible et lui inflige ${$304128m1+$304128ppl1+0.06*$SP+0.06*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	304128		ToolTip	8168b965be57	Foudroie la cible et lui inflige ${$304128m1+$304128ppl1+0.3*$SP+0.02*$AP} points de dégâts de Nature.	lot sorts_objets_038
+sort	304130		Description	40f44d92a08e	Libère un nuage de radiation qui inflige ${$m1+0+$ap*0.06+$sp*0.06} points de dégâts de Nature, puis ${$m2+0+$ap*0.05+$sp*0.05} points de dégâts de Nature à tous les ennemis situés à moins de 5 mètres toutes les $t2 sec pendant $d.	lot sorts_objets_038
+sort	304130		ToolTip	30bf32cd69b8	Inflige $s2 points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_038
+sort	304131		Description	b39246e617df	Augmente la puissance d'attaque de votre familier de chasseur de ${$304132m1+$304132ppl1}.	lot sorts_objets_038
+sort	304131		Name	e2dd53dfa548	Amulette de maîtrise des bêtes, déclencheur factice	lot sorts_objets_038
+sort	304131		ToolTip	b39246e617df	Augmente la puissance d'attaque de votre familier de chasseur de ${$304132m1+$304132ppl1}.	lot sorts_objets_038
+sort	304133		Description	7ff7f12086fe	Vos attaques de mêlée ont une chance d'augmenter la vitesse d'attaque de votre familier de $304134s1% pendant $304134d.	lot sorts_objets_038
+sort	304133		Name	930b018fd712	Dresseur, déclencheur factice	lot sorts_objets_038
+sort	304133		ToolTip	49a44616de45	Vos attaques ont une chance d'augmenter la vitesse d'attaque de votre familier de $304134s1% pendant $d.	lot sorts_objets_038
+sort	304135		Description	d56832a3a732	Lorsque vous infligez des dégâts avec Frappe du croisé ou les Jugements, vous avez une chance d'infliger de ${$304136m1+$304136ppl1+0.05*$SP+0.05*$AP} à ${$304136M1+$304136ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre supplémentaires.	lot sorts_objets_038
+sort	304135		Name	9bd00d28f2e3	Libram hérétique, déclencheur factice	lot sorts_objets_038
+sort	312547		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	312547		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	312700		Name	b8f17bca57bf	Enseignements du Kirin Tor	lot sorts_objets_038
+sort	312777		Name	5e25d69d72a2	Fourche de Garren, déclencheur factice	lot sorts_objets_038
+sort	312781		Name	77f92e0a90c4	Arc Soies-hérissées - Déclencheur factice du sort d'objet	lot sorts_objets_038
+sort	312785		Name	bd4dcd423c00	Arc de guet, fusil défias rouillé, déclencheur factice	lot sorts_objets_038
+sort	312789		Name	11fe8a330776	Bouclier du capitaine, déclencheur factice	lot sorts_objets_038
+sort	312793		Name	3b9c178e03ba	Frappe de feu-forge	lot sorts_objets_038
+sort	312796		Name	c79cc8383234	Pointe de choc	lot sorts_objets_038
+sort	312799		Name	901ae89e0324	Froid d'os	lot sorts_objets_038
+sort	312799		ToolTip	f0d1ea204dfe	Immobilisé !	lot sorts_objets_038
+sort	312800		Description	0d91a9dc9b0f	Compétence en Minage augmentée de $s1.	lot sorts_objets_038
+sort	312800		Name	de05d6c6b8ff	Compétence en Minage +5	lot sorts_objets_038
+sort	312802		Name	7fd874f0bff8	Chair déchirée	lot sorts_objets_038
+sort	312802		ToolTip	2d20aa4ade2d	Saigne pour ${$m1+$ppl1} points de dégâts physiques toutes les $/1000;t1 sec.	lot sorts_objets_038
+sort	312805		Name	ad054f594f9d	Broyeur de Khan	lot sorts_objets_038
+sort	312808		Name	85ab77263eb5	Arc long d'entraînement de Maestra, déclencheur factice	lot sorts_objets_038
+sort	312812		Name	3381b5f9cd2a	Sifflet d'engagement de Snaggle, déclencheur factice	lot sorts_objets_038
+sort	312816		Name	ea84679a142c	Étoile de l'aube	lot sorts_objets_038
+sort	312816		ToolTip	810d152e1e19	Augmente votre Force de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	312819		Name	890f2e190cfe	Branche d'épouvantail, baguette de soumission gnoll	lot sorts_objets_038
+sort	312823		Name	bfb339ae7209	Collier d'os de Griffecorbeau, déclencheur factice	lot sorts_objets_038
+sort	312827		Name	86526acd72a3	Joyau de Lordaeron volé, déclencheur factice	lot sorts_objets_038
+sort	312832		Name	59ee3aea7551	Cape de prêtre poussiéreuse, déclencheur factice	lot sorts_objets_038
+sort	312837		Name	2047d3783476	Bâton imprégné d'Arctikus, déclencheur factice	lot sorts_objets_038
+sort	312841		Name	b6eb0ac4e8df	Des os à ronger, collier Dent-sanglante, déclencheur factice	lot sorts_objets_038
+sort	312845		Name	1a2e283a90f2	Baguette de Chute-tonnerre, déclencheur factice	lot sorts_objets_038
+sort	312849		Name	341b8a860de2	Pendentif d'Eliza, déclencheur factice	lot sorts_objets_038
+sort	312855		Name	58492384baa9	Bâton de sorcière de la tempête, déclencheur factice	lot sorts_objets_038
+sort	312855		ToolTip	e7f780e707d3	Une chance, lorsque vous infligez des dégâts magiques, de lancer un Éclair de tempête qui inflige des dégâts de Nature.	lot sorts_objets_038
+sort	312859		Name	0e167a16bc28	Pendentif maudit de la cicatrice de feu, déclencheur factice	lot sorts_objets_038
+sort	312863		Name	3077fb1636ba	Colis de livraison de munitions, déclencheur factice	lot sorts_objets_038
+sort	312863		ToolTip	ae864971f95d	Vos attaques automatiques à distance ont une chance de tirer aussi une roquette qui inflige des dégâts de Feu supplémentaires.	lot sorts_objets_038
+sort	312868		Description	ec7f5c46e7a9	Réduit la menace générée de $s1% pendant $d.	lot sorts_objets_038
+sort	312868		Name	5733257b629d	Voile de sérénité	lot sorts_objets_038
+sort	312868		ToolTip	591067496388	Réduit la menace générée de $s1%.	lot sorts_objets_038
+sort	312871		Description	22d9a1d55d5d	Augmente légèrement votre détection du camouflage.	lot sorts_objets_038
+sort	312871		Name	ba31125d5a14	Détection du camouflage accrue pour la lunette de guet, l'anneau de sentinelle de la chasseresse, le fragment d'An'owyn	lot sorts_objets_038
+sort	312871		ToolTip	c766e6472e25	Augmente votre détection du camouflage.	lot sorts_objets_038
+sort	312874		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	312874		Name	97e25fdbbb34	Menace accrue pour la longue lance de pêche, le pic de charognard pattenoire	lot sorts_objets_038
+sort	312874		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	312877		Description	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	312877		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	312877		ToolTip	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	312880		Name	fcbc692f6a21	Linceul de fourrure Chardon-fourrure, déclencheur factice	lot sorts_objets_038
+sort	312884		Name	ff92f055cc4a	Les Frissons, déclencheur factice	lot sorts_objets_038
+sort	312888		Name	9b6592fbe0cc	Change-marée, déclencheur factice	lot sorts_objets_038
+sort	312892		Name	6db80e4ed62e	Peau putréfiée	lot sorts_objets_038
+sort	312897		Name	3c1351443111	Cadeau épicé spécial	lot sorts_objets_038
+sort	312901		Name	b79474b5c738	Flammes de Vul'gol	lot sorts_objets_038
+sort	312908		Name	54f3d3503cd4	Insaisissabilité spectrale	lot sorts_objets_038
+sort	312908		ToolTip	6b4496bf4006	Augmente votre score d'esquive de ${$m1}.	lot sorts_objets_038
+sort	312915		Name	481468ee9a3e	Infusion de peau d'ombre	lot sorts_objets_038
+sort	312919		Description	15b5363e4103	Augmente votre endurance de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	312919		Name	aa14e1ef8b7f	Par-delà la tombe	lot sorts_objets_038
+sort	312919		ToolTip	d2d9d6d16c5b	Augmente votre endurance de ${$m1}.	lot sorts_objets_038
+sort	312922		Name	96f7a121fde9	Appel de la matriarche	lot sorts_objets_038
+sort	312925		Description	3dd98955907f	Une boisson alcoolisée tonitruante extrêmement forte, qui augmente l'endurance de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	312925		Name	b869b0f6ebc2	Brassetonnerre	lot sorts_objets_038
+sort	312925		ToolTip	e7de68e5bd61	Augmente l'endurance de ${$m1}.	lot sorts_objets_038
+sort	312928		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	312928		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	312931		Name	47d49eca3faf	Substance suspecte	lot sorts_objets_038
+sort	312934		Name	3a9e3b094dc3	Guide de la restauration elfique - Vol. I, déclencheur factice	lot sorts_objets_038
+sort	312938		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	312938		Name	ff60e4e6c62d	Pourfendeur d'humains - Fusil de chasse de Chute-tonnerre - Sort d'objet	lot sorts_objets_038
+sort	312938		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	312941		Description	60e5db1511c0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	312941		Name	7c1dc0429aee	Zèle	lot sorts_objets_038
+sort	312941		ToolTip	42549d2945a0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1}.	lot sorts_objets_038
+sort	312944		Name	774c3efeae40	Délice du fossoyeur - Sort d'objet	lot sorts_objets_038
+sort	312948		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	312948		Name	437806cae776	Pourfendeur d'humains - Bâton Mrrrllrl - Sort d'objet	lot sorts_objets_038
+sort	312948		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	312951		Name	91903385f5b1	Pourfendeur de bêtes - Boucle de Chasse-côtes - Sort d'objet	lot sorts_objets_038
+sort	312954		Name	04c4ad152a8a	Pourfendeur de bêtes - Anneau d'os du chef de meute - Sort d'objet	lot sorts_objets_038
+sort	312957		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	312957		Name	1674bf76cd1d	Pourfendeur d'humains - Lame nocturne défias - Sort d'objet	lot sorts_objets_038
+sort	312957		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	312960		Name	90ea7f5e175f	Pourfendeur de bêtes - Fourche Mrlrgrl - Sort d'objet	lot sorts_objets_038
+sort	312963		Name	a5b1064af0b7	Pourfendeur de bêtes - Lame de ronce - Sort d'objet	lot sorts_objets_038
+sort	312966		Description	cdadd04bf086	Invoque deux traqueurs de la jungle pour vous aider au combat.	lot sorts_objets_038
+sort	312966		Name	6fb7808800cd	Invocation de traqueurs de la jungle	lot sorts_objets_038
+sort	312969		Name	de2345048a6e	Dent de raptor aiguisée, déclencheur factice	lot sorts_objets_038
+sort	312973		Name	522724ba71b8	Habitant des mers ancien, déclencheur factice	lot sorts_objets_038
+sort	312977		Name	205f934cf2d8	Compétence en Ingénierie +5	lot sorts_objets_038
+sort	312980		Name	e73e125586a0	Anneau de Mokrash, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	312984		Name	b254ffd005e0	Brise-coque, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	312984		ToolTip	3c64d6e6ae2f	Vos coups de mêlée ont une chance de fissurer l'armure de la cible pendant $d.	lot sorts_objets_038
+sort	312988		Name	8ca9c17045e5	Yarrr !	lot sorts_objets_038
+sort	312988		ToolTip	60384a7bc7cc	Augmente votre score de parade de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	312991		Name	cbde6bd2b19a	Coquillage spécial, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	313000		Name	3a05bbf6e1fc	Blason de Cœur-de-rivière, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	313004		Name	66d8bfe8bb6f	Bottes feutrées - Camouflage 5	lot sorts_objets_038
+sort	313007		Name	8d86393e9596	Gilet d'éclaireur de Zul'Kunda - Camouflage 5	lot sorts_objets_038
+sort	313010		Description	1eb5df368f11	Une boisson alcoolisée grésillante extrêmement forte.	lot sorts_objets_038
+sort	313010		ToolTip	f9861aef11eb	Ouf ! C'est du costaud !	lot sorts_objets_038
+sort	313013		Description	08fffddd34b0	Vous fait léviter pendant $d.	lot sorts_objets_038
+sort	313013		Name	bca9cb545528	Course sur les nuages	lot sorts_objets_038
+sort	313016		Name	4dcba2ef768a	Pourfendeur de bêtes - Fracasse-poulet de Galak - Sort d'objet	lot sorts_objets_038
+sort	313019		Name	83c93281170b	Lien de plumes	lot sorts_objets_038
+sort	313022		Name	19642a3c6ec1	Tambours de guerre kodo	lot sorts_objets_038
+sort	313022		ToolTip	cba8035b1b15	Canalise les esprits des kodos de guerre.	lot sorts_objets_038
+sort	313026		Name	d1fe36763b34	Bottes de course gobelines - Déclencheur factice du sort d'objet pour « Carotte Kaboum »	lot sorts_objets_038
+sort	313031		Description	ebb48eed0deb	Augmente la vitesse de déplacement montée de $s1% pendant $d. Avec une chance d'effets supplémentaires.	lot sorts_objets_038
+sort	313031		Name	c3c5156406be	Spécialité gobeline : « Carotte Kaboum sur un bâton »	lot sorts_objets_038
+sort	313031		ToolTip	0f17595c2b4f	Augmente la vitesse de déplacement montée de $s1%.	lot sorts_objets_038
+sort	313034		Description	3293df1ebc6c	Vous buvez une boisson alcoolisée extrêmement forte.	lot sorts_objets_038
+sort	313034		Name	0f01c874704d	Gnôle vieillie	lot sorts_objets_038
+sort	313034		ToolTip	b5c08b5f6685	Complètement pompette !	lot sorts_objets_038
+sort	313037		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	313040		Name	be92eec6731e	Perce-vague	lot sorts_objets_038
+sort	313043		Description	7126b6ceaf61	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+0}, et votre pénétration des sorts de ${$abs($m3+0)} pendant $d.	lot sorts_objets_038
+sort	313043		Name	62f98ddd5a3c	Transe de poudre	lot sorts_objets_038
+sort	313043		ToolTip	0460c2113292	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+$ppl1}, et fait en sorte que vos sorts ignorent ${$ABS($m3+$ppl3)} points de résistance.	lot sorts_objets_038
+sort	313046		Name	506025dca7c0	Nourriture - Salade d'algues de Gorlash	lot sorts_objets_038
+sort	313050		Name	38097256cddc	Nourriture - Fleur teintée d'arcanes	lot sorts_objets_038
+sort	313054		Name	00cdf9355a6d	Robustesse de Sulfuron	lot sorts_objets_038
+sort	313065		Name	ee478fdaea0c	Paix des morts	lot sorts_objets_038
+sort	313069		Name	112326ab67c2	Pillage furtif	lot sorts_objets_038
+sort	313075		Description	48b61b9571b2	Compétence en Bûcheronnage augmentée de $s1.	lot sorts_objets_038
+sort	313075		Name	1370c7c9761f	Compétence en Bûcheronnage +5	lot sorts_objets_038
+sort	313078		Name	f95424135c4e	Feu-de-fer	lot sorts_objets_038
+sort	313082		Name	00e380f1f692	Plaines verrouillées	lot sorts_objets_038
+sort	313088		Name	eaf3122ff410	Chaînes de la mort	lot sorts_objets_038
+sort	313088		ToolTip	bb8dc538101c	Réduit la vitesse de déplacement de $s1%.	lot sorts_objets_038
+sort	313095		Name	c9ceb356caed	Invoque-bourbier, déclencheur factice d'objet	lot sorts_objets_038
+sort	313102		Name	9299f1f18644	Flèche brûlante	lot sorts_objets_038
+sort	313102		ToolTip	b9dce99d4aba	Inflige ${$m1+$ppl1+$RAP*0.02} points de dégâts de Feu toutes les $t1.	lot sorts_objets_038
+sort	313105		Name	cc5777f7e79c	Déferlement draconique	lot sorts_objets_038
+sort	313109		Name	166e136de6f6	Décompte de Crushim, déclencheur factice d'objet	lot sorts_objets_038
+sort	313113		Name	5bf110063634	Orteil cogné	lot sorts_objets_038
+sort	313116		Name	ef0d566cf0a4	Lumière de la douleur, déclencheur factice d'objet	lot sorts_objets_038
+sort	313120		Name	389848877b26	Marée du seigneur de guerre	lot sorts_objets_038
+sort	313120		ToolTip	75b51f48c3bb	Augmente la puissance d'attaque de ${$w1}.	lot sorts_objets_038
+sort	313123		Name	44c5dec385f7	Couronne de pierre, déclencheur factice d'objet	lot sorts_objets_038
+sort	313127		Description	277313470ff7	Augmente le mana généré toutes les 5 sec de ${$m1+0} et la puissance des sorts de ${$m2+0} pendant $d.	lot sorts_objets_038
+sort	313127		Name	e0cf38e106b7	Éveil du rêve	lot sorts_objets_038
+sort	313127		ToolTip	caf2db55c19f	Rend ${$m1+$ppl1} points de mana toutes les 5 sec et augmente la puissance des sorts de ${$m2+$ppl2}.	lot sorts_objets_038
+sort	313130		Name	ad749cdc6669	Hurlement de la bête féroce	lot sorts_objets_038
+sort	313134		Name	6b1c8e4fd328	Idole de l'aire, déclencheur factice d'objet	lot sorts_objets_038
+sort	313138		Name	f0b70689182a	Vase conductrice	lot sorts_objets_038
+sort	313142		Name	8eea7d7b5715	Éclatement de vase	lot sorts_objets_038
+sort	313142		ToolTip	5b115557741d	Provoque un Éclatement de vase qui inflige ${$m1+$ppl1} points de dégâts de Nature aux ennemis proches.	lot sorts_objets_038
+sort	313145		Name	84877115c22f	Idole de l'ombre couveuse, déclencheur factice d'objet	lot sorts_objets_038
+sort	313149		Name	96ee1e8b50dc	Entaille sangsue	lot sorts_objets_038
+sort	313152		Name	0245c3636576	Tome des âmes fracassées, déclencheur factice d'objet	lot sorts_objets_038
+sort	313156		Name	1c21c1c4e919	Idole de la mère des couvées, déclencheur factice d'objet	lot sorts_objets_038
+sort	313161		Description	fd09b6b2e25c	Invoque un élémentaire d'eau inférieur pour vous aider au combat.	lot sorts_objets_038
+sort	313161		Name	395be0da4094	Invocation d'un élémentaire d'eau inférieur	lot sorts_objets_038
+sort	313164		Name	083d0324718a	Anneau de la jungle d'influence de la Nature, déclencheur factice	lot sorts_objets_038
+sort	313169		Name	a64b1bb98b15	Bouclier de guerre tribal, déclencheur factice	lot sorts_objets_038
+sort	313173		Name	d994a88f7e3d	Idole de druide mystique, déclencheur factice	lot sorts_objets_038
+sort	313177		Name	6451490e4802	Force de l'ombre	lot sorts_objets_038
+sort	313181		Name	54de478ec173	Cape de fourrure du tonneleur, déclencheur factice	lot sorts_objets_038
+sort	313185		Name	080e590cf29c	Perce-tempête, déclencheur factice	lot sorts_objets_038
+sort	313189		Description	46c2277e4317	Augmente la puissance des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_038
+sort	313189		Name	a95ed57a4b82	Étreinte de la cinquième ombre, puissance des sorts	lot sorts_objets_038
+sort	313189		ToolTip	adc9b362502a	Augmente la puissance des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	313192		Description	ec1ce48c3ecd	Augmente la puissance des sorts de Feu de ${$m1+0}.	lot sorts_objets_038
+sort	313192		Name	ea6c07a54cd6	Orbe instable d'Hercular, puissance des sorts de Feu	lot sorts_objets_038
+sort	313192		ToolTip	46c6006acd4e	Augmente la puissance des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	313195		Description	993646039d9a	Augmente la puissance des soins de ${$m1+0}.	lot sorts_objets_038
+sort	313195		Name	1386b9c79828	Fleurs tressées, puissance des soins	lot sorts_objets_038
+sort	313195		ToolTip	b5f44e095dfa	Augmente la puissance des soins de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	313198		Name	ee019f9fb869	Icône de Karn Maurados, déclencheur factice	lot sorts_objets_038
+sort	313202		Name	5f7f62f9c314	Amulette d'Œil-d'ambre, déclencheur factice	lot sorts_objets_038
+sort	313206		Name	6e3740a117d9	L'Œil immortel, déclencheur factice	lot sorts_objets_038
+sort	313210		Name	fb69d90d3b03	Orbe de l'aube, déclencheur factice	lot sorts_objets_038
+sort	313220		ToolTip	30bf32cd69b8	Inflige $s2 points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_038
+sort	313223		Name	e2dd53dfa548	Amulette de maîtrise des bêtes, déclencheur factice	lot sorts_objets_038
+sort	313227		Name	930b018fd712	Dresseur, déclencheur factice	lot sorts_objets_038
+sort	313231		Name	9bd00d28f2e3	Libram hérétique, déclencheur factice	lot sorts_objets_038
+sort	313790		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	313909		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	313909		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	313909		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	316547		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	316547		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	316700		Name	b8f17bca57bf	Enseignements du Kirin Tor	lot sorts_objets_038
+sort	316777		Name	5e25d69d72a2	Fourche de Garren, déclencheur factice	lot sorts_objets_038
+sort	316781		Name	77f92e0a90c4	Arc Soies-hérissées - Déclencheur factice du sort d'objet	lot sorts_objets_038
+sort	316785		Name	bd4dcd423c00	Arc de guet, fusil défias rouillé, déclencheur factice	lot sorts_objets_038
+sort	316789		Name	11fe8a330776	Bouclier du capitaine, déclencheur factice	lot sorts_objets_038
+sort	316793		Name	3b9c178e03ba	Frappe de feu-forge	lot sorts_objets_038
+sort	316796		Name	c79cc8383234	Pointe de choc	lot sorts_objets_038
+sort	316799		Name	901ae89e0324	Froid d'os	lot sorts_objets_038
+sort	316799		ToolTip	f0d1ea204dfe	Immobilisé !	lot sorts_objets_038
+sort	316800		Description	0d91a9dc9b0f	Compétence en Minage augmentée de $s1.	lot sorts_objets_038
+sort	316800		Name	de05d6c6b8ff	Compétence en Minage +5	lot sorts_objets_038
+sort	316802		Name	7fd874f0bff8	Chair déchirée	lot sorts_objets_038
+sort	316802		ToolTip	2d20aa4ade2d	Saigne pour ${$m1+$ppl1} points de dégâts physiques toutes les $/1000;t1 sec.	lot sorts_objets_038
+sort	316805		Name	ad054f594f9d	Broyeur de Khan	lot sorts_objets_038
+sort	316808		Name	85ab77263eb5	Arc long d'entraînement de Maestra, déclencheur factice	lot sorts_objets_038
+sort	316812		Name	3381b5f9cd2a	Sifflet d'engagement de Snaggle, déclencheur factice	lot sorts_objets_038
+sort	316816		Name	ea84679a142c	Étoile de l'aube	lot sorts_objets_038
+sort	316816		ToolTip	810d152e1e19	Augmente votre Force de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	316819		Name	890f2e190cfe	Branche d'épouvantail, baguette de soumission gnoll	lot sorts_objets_038
+sort	316823		Name	bfb339ae7209	Collier d'os de Griffecorbeau, déclencheur factice	lot sorts_objets_038
+sort	316827		Name	86526acd72a3	Joyau de Lordaeron volé, déclencheur factice	lot sorts_objets_038
+sort	316832		Name	59ee3aea7551	Cape de prêtre poussiéreuse, déclencheur factice	lot sorts_objets_038
+sort	316837		Name	2047d3783476	Bâton imprégné d'Arctikus, déclencheur factice	lot sorts_objets_038
+sort	316841		Name	b6eb0ac4e8df	Des os à ronger, collier Dent-sanglante, déclencheur factice	lot sorts_objets_038
+sort	316845		Name	1a2e283a90f2	Baguette de Chute-tonnerre, déclencheur factice	lot sorts_objets_038
+sort	316849		Name	341b8a860de2	Pendentif d'Eliza, déclencheur factice	lot sorts_objets_038
+sort	316855		Name	58492384baa9	Bâton de sorcière de la tempête, déclencheur factice	lot sorts_objets_038
+sort	316855		ToolTip	e7f780e707d3	Une chance, lorsque vous infligez des dégâts magiques, de lancer un Éclair de tempête qui inflige des dégâts de Nature.	lot sorts_objets_038
+sort	316859		Name	0e167a16bc28	Pendentif maudit de la cicatrice de feu, déclencheur factice	lot sorts_objets_038
+sort	316863		Name	3077fb1636ba	Colis de livraison de munitions, déclencheur factice	lot sorts_objets_038
+sort	316863		ToolTip	ae864971f95d	Vos attaques automatiques à distance ont une chance de tirer aussi une roquette qui inflige des dégâts de Feu supplémentaires.	lot sorts_objets_038
+sort	316868		Description	ec7f5c46e7a9	Réduit la menace générée de $s1% pendant $d.	lot sorts_objets_038
+sort	316868		Name	5733257b629d	Voile de sérénité	lot sorts_objets_038
+sort	316868		ToolTip	591067496388	Réduit la menace générée de $s1%.	lot sorts_objets_038
+sort	316871		Description	22d9a1d55d5d	Augmente légèrement votre détection du camouflage.	lot sorts_objets_038
+sort	316871		Name	ba31125d5a14	Détection du camouflage accrue pour la lunette de guet, l'anneau de sentinelle de la chasseresse, le fragment d'An'owyn	lot sorts_objets_038
+sort	316871		ToolTip	c766e6472e25	Augmente votre détection du camouflage.	lot sorts_objets_038
+sort	316874		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	316874		Name	97e25fdbbb34	Menace accrue pour la longue lance de pêche, le pic de charognard pattenoire	lot sorts_objets_038
+sort	316874		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	316877		Description	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	316877		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	316877		ToolTip	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	316880		Name	fcbc692f6a21	Linceul de fourrure Chardon-fourrure, déclencheur factice	lot sorts_objets_038
+sort	316884		Name	ff92f055cc4a	Les Frissons, déclencheur factice	lot sorts_objets_038
+sort	316888		Name	9b6592fbe0cc	Change-marée, déclencheur factice	lot sorts_objets_038
+sort	316892		Name	6db80e4ed62e	Peau putréfiée	lot sorts_objets_038
+sort	316897		Name	3c1351443111	Cadeau épicé spécial	lot sorts_objets_038
+sort	316901		Name	b79474b5c738	Flammes de Vul'gol	lot sorts_objets_038
+sort	316908		Name	54f3d3503cd4	Insaisissabilité spectrale	lot sorts_objets_038
+sort	316908		ToolTip	6b4496bf4006	Augmente votre score d'esquive de ${$m1}.	lot sorts_objets_038
+sort	316915		Name	481468ee9a3e	Infusion de peau d'ombre	lot sorts_objets_038
+sort	316919		Description	15b5363e4103	Augmente votre endurance de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	316919		Name	aa14e1ef8b7f	Par-delà la tombe	lot sorts_objets_038
+sort	316919		ToolTip	d2d9d6d16c5b	Augmente votre endurance de ${$m1}.	lot sorts_objets_038
+sort	316922		Name	96f7a121fde9	Appel de la matriarche	lot sorts_objets_038
+sort	316925		Description	3dd98955907f	Une boisson alcoolisée tonitruante extrêmement forte, qui augmente l'endurance de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	316925		Name	b869b0f6ebc2	Brassetonnerre	lot sorts_objets_038
+sort	316925		ToolTip	e7de68e5bd61	Augmente l'endurance de ${$m1}.	lot sorts_objets_038
+sort	316928		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	316928		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	316931		Name	47d49eca3faf	Substance suspecte	lot sorts_objets_038
+sort	316934		Name	3a9e3b094dc3	Guide de la restauration elfique - Vol. I, déclencheur factice	lot sorts_objets_038
+sort	316938		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	316938		Name	ff60e4e6c62d	Pourfendeur d'humains - Fusil de chasse de Chute-tonnerre - Sort d'objet	lot sorts_objets_038
+sort	316938		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	316941		Description	60e5db1511c0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	316941		Name	7c1dc0429aee	Zèle	lot sorts_objets_038
+sort	316941		ToolTip	42549d2945a0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1}.	lot sorts_objets_038
+sort	316944		Name	774c3efeae40	Délice du fossoyeur - Sort d'objet	lot sorts_objets_038
+sort	316948		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	316948		Name	437806cae776	Pourfendeur d'humains - Bâton Mrrrllrl - Sort d'objet	lot sorts_objets_038
+sort	316948		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	316951		Name	91903385f5b1	Pourfendeur de bêtes - Boucle de Chasse-côtes - Sort d'objet	lot sorts_objets_038
+sort	316954		Name	04c4ad152a8a	Pourfendeur de bêtes - Anneau d'os du chef de meute - Sort d'objet	lot sorts_objets_038
+sort	316957		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	316957		Name	1674bf76cd1d	Pourfendeur d'humains - Lame nocturne défias - Sort d'objet	lot sorts_objets_038
+sort	316957		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	316960		Name	90ea7f5e175f	Pourfendeur de bêtes - Fourche Mrlrgrl - Sort d'objet	lot sorts_objets_038
+sort	316963		Name	a5b1064af0b7	Pourfendeur de bêtes - Lame de ronce - Sort d'objet	lot sorts_objets_038
+sort	316966		Description	cdadd04bf086	Invoque deux traqueurs de la jungle pour vous aider au combat.	lot sorts_objets_038
+sort	316966		Name	6fb7808800cd	Invocation de traqueurs de la jungle	lot sorts_objets_038
+sort	316969		Name	de2345048a6e	Dent de raptor aiguisée, déclencheur factice	lot sorts_objets_038
+sort	316973		Name	522724ba71b8	Habitant des mers ancien, déclencheur factice	lot sorts_objets_038
+sort	316977		Name	205f934cf2d8	Compétence en Ingénierie +5	lot sorts_objets_038
+sort	316980		Name	e73e125586a0	Anneau de Mokrash, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	316984		Name	b254ffd005e0	Brise-coque, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	316984		ToolTip	3c64d6e6ae2f	Vos coups de mêlée ont une chance de fissurer l'armure de la cible pendant $d.	lot sorts_objets_038
+sort	316988		Name	8ca9c17045e5	Yarrr !	lot sorts_objets_038
+sort	316988		ToolTip	60384a7bc7cc	Augmente votre score de parade de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	316991		Name	cbde6bd2b19a	Coquillage spécial, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	317000		Name	3a05bbf6e1fc	Blason de Cœur-de-rivière, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	317004		Name	66d8bfe8bb6f	Bottes feutrées - Camouflage 5	lot sorts_objets_038
+sort	317007		Name	8d86393e9596	Gilet d'éclaireur de Zul'Kunda - Camouflage 5	lot sorts_objets_038
+sort	317010		Description	1eb5df368f11	Une boisson alcoolisée grésillante extrêmement forte.	lot sorts_objets_038
+sort	317010		ToolTip	f9861aef11eb	Ouf ! C'est du costaud !	lot sorts_objets_038
+sort	317013		Description	08fffddd34b0	Vous fait léviter pendant $d.	lot sorts_objets_038
+sort	317013		Name	bca9cb545528	Course sur les nuages	lot sorts_objets_038
+sort	317016		Name	4dcba2ef768a	Pourfendeur de bêtes - Fracasse-poulet de Galak - Sort d'objet	lot sorts_objets_038
+sort	317019		Name	83c93281170b	Lien de plumes	lot sorts_objets_038
+sort	317022		Name	19642a3c6ec1	Tambours de guerre kodo	lot sorts_objets_038
+sort	317022		ToolTip	cba8035b1b15	Canalise les esprits des kodos de guerre.	lot sorts_objets_038
+sort	317026		Name	d1fe36763b34	Bottes de course gobelines - Déclencheur factice du sort d'objet pour « Carotte Kaboum »	lot sorts_objets_038
+sort	317031		Description	ebb48eed0deb	Augmente la vitesse de déplacement montée de $s1% pendant $d. Avec une chance d'effets supplémentaires.	lot sorts_objets_038
+sort	317031		Name	c3c5156406be	Spécialité gobeline : « Carotte Kaboum sur un bâton »	lot sorts_objets_038
+sort	317031		ToolTip	0f17595c2b4f	Augmente la vitesse de déplacement montée de $s1%.	lot sorts_objets_038
+sort	317034		Description	3293df1ebc6c	Vous buvez une boisson alcoolisée extrêmement forte.	lot sorts_objets_038
+sort	317034		Name	0f01c874704d	Gnôle vieillie	lot sorts_objets_038
+sort	317034		ToolTip	b5c08b5f6685	Complètement pompette !	lot sorts_objets_038
+sort	317037		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	317040		Name	be92eec6731e	Perce-vague	lot sorts_objets_038
+sort	317043		Description	7126b6ceaf61	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+0}, et votre pénétration des sorts de ${$abs($m3+0)} pendant $d.	lot sorts_objets_038
+sort	317043		Name	62f98ddd5a3c	Transe de poudre	lot sorts_objets_038
+sort	317043		ToolTip	0460c2113292	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+$ppl1}, et fait en sorte que vos sorts ignorent ${$ABS($m3+$ppl3)} points de résistance.	lot sorts_objets_038
+sort	317046		Name	506025dca7c0	Nourriture - Salade d'algues de Gorlash	lot sorts_objets_038
+sort	317050		Name	38097256cddc	Nourriture - Fleur teintée d'arcanes	lot sorts_objets_038
+sort	317054		Name	00cdf9355a6d	Robustesse de Sulfuron	lot sorts_objets_038
+sort	317065		Name	ee478fdaea0c	Paix des morts	lot sorts_objets_038
+sort	317069		Name	112326ab67c2	Pillage furtif	lot sorts_objets_038
+sort	317075		Description	48b61b9571b2	Compétence en Bûcheronnage augmentée de $s1.	lot sorts_objets_038
+sort	317075		Name	1370c7c9761f	Compétence en Bûcheronnage +5	lot sorts_objets_038
+sort	317078		Name	f95424135c4e	Feu-de-fer	lot sorts_objets_038
+sort	317082		Name	00e380f1f692	Plaines verrouillées	lot sorts_objets_038
+sort	317088		Name	eaf3122ff410	Chaînes de la mort	lot sorts_objets_038
+sort	317088		ToolTip	bb8dc538101c	Réduit la vitesse de déplacement de $s1%.	lot sorts_objets_038
+sort	317095		Name	c9ceb356caed	Invoque-bourbier, déclencheur factice d'objet	lot sorts_objets_038
+sort	317102		Name	9299f1f18644	Flèche brûlante	lot sorts_objets_038
+sort	317102		ToolTip	b9dce99d4aba	Inflige ${$m1+$ppl1+$RAP*0.02} points de dégâts de Feu toutes les $t1.	lot sorts_objets_038
+sort	317105		Name	cc5777f7e79c	Déferlement draconique	lot sorts_objets_038
+sort	317109		Name	166e136de6f6	Décompte de Crushim, déclencheur factice d'objet	lot sorts_objets_038
+sort	317113		Name	5bf110063634	Orteil cogné	lot sorts_objets_038
+sort	317116		Name	ef0d566cf0a4	Lumière de la douleur, déclencheur factice d'objet	lot sorts_objets_038
+sort	317120		Name	389848877b26	Marée du seigneur de guerre	lot sorts_objets_038
+sort	317120		ToolTip	75b51f48c3bb	Augmente la puissance d'attaque de ${$w1}.	lot sorts_objets_038
+sort	317123		Name	44c5dec385f7	Couronne de pierre, déclencheur factice d'objet	lot sorts_objets_038
+sort	317127		Description	277313470ff7	Augmente le mana généré toutes les 5 sec de ${$m1+0} et la puissance des sorts de ${$m2+0} pendant $d.	lot sorts_objets_038
+sort	317127		Name	e0cf38e106b7	Éveil du rêve	lot sorts_objets_038
+sort	317127		ToolTip	caf2db55c19f	Rend ${$m1+$ppl1} points de mana toutes les 5 sec et augmente la puissance des sorts de ${$m2+$ppl2}.	lot sorts_objets_038
+sort	317130		Name	ad749cdc6669	Hurlement de la bête féroce	lot sorts_objets_038
+sort	317134		Name	6b1c8e4fd328	Idole de l'aire, déclencheur factice d'objet	lot sorts_objets_038
+sort	317138		Name	f0b70689182a	Vase conductrice	lot sorts_objets_038
+sort	317142		Name	8eea7d7b5715	Éclatement de vase	lot sorts_objets_038
+sort	317142		ToolTip	5b115557741d	Provoque un Éclatement de vase qui inflige ${$m1+$ppl1} points de dégâts de Nature aux ennemis proches.	lot sorts_objets_038
+sort	317145		Name	84877115c22f	Idole de l'ombre couveuse, déclencheur factice d'objet	lot sorts_objets_038
+sort	317149		Name	96ee1e8b50dc	Entaille sangsue	lot sorts_objets_038
+sort	317149		ToolTip	ca857faa97f3	Frappe la cible d'une entaille sangsue qui inflige des dégâts d'Ombre supplémentaires et vous rend 100% des dégâts infligés sous forme de vie.	lot sorts_objets_038
+sort	317152		Name	0245c3636576	Tome des âmes fracassées, déclencheur factice d'objet	lot sorts_objets_038
+sort	317156		Name	1c21c1c4e919	Idole de la mère des couvées, déclencheur factice d'objet	lot sorts_objets_038
+sort	317161		Description	fd09b6b2e25c	Invoque un élémentaire d'eau inférieur pour vous aider au combat.	lot sorts_objets_038
+sort	317161		Name	395be0da4094	Invocation d'un élémentaire d'eau inférieur	lot sorts_objets_038
+sort	317164		Name	083d0324718a	Anneau de la jungle d'influence de la Nature, déclencheur factice	lot sorts_objets_038
+sort	317169		Name	a64b1bb98b15	Bouclier de guerre tribal, déclencheur factice	lot sorts_objets_038
+sort	317173		Name	d994a88f7e3d	Idole de druide mystique, déclencheur factice	lot sorts_objets_038
+sort	317177		Name	6451490e4802	Force de l'ombre	lot sorts_objets_038
+sort	317181		Name	54de478ec173	Cape de fourrure du tonneleur, déclencheur factice	lot sorts_objets_038
+sort	317185		Name	080e590cf29c	Perce-tempête, déclencheur factice	lot sorts_objets_038
+sort	317189		Description	46c2277e4317	Augmente la puissance des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_038
+sort	317189		Name	a95ed57a4b82	Étreinte de la cinquième ombre, puissance des sorts	lot sorts_objets_038
+sort	317189		ToolTip	adc9b362502a	Augmente la puissance des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	317192		Description	ec1ce48c3ecd	Augmente la puissance des sorts de Feu de ${$m1+0}.	lot sorts_objets_038
+sort	317192		Name	ea6c07a54cd6	Orbe instable d'Hercular, puissance des sorts de Feu	lot sorts_objets_038
+sort	317192		ToolTip	46c6006acd4e	Augmente la puissance des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	317195		Description	993646039d9a	Augmente la puissance des soins de ${$m1+0}.	lot sorts_objets_038
+sort	317195		Name	1386b9c79828	Fleurs tressées, puissance des soins	lot sorts_objets_038
+sort	317195		ToolTip	b5f44e095dfa	Augmente la puissance des soins de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	317198		Name	ee019f9fb869	Icône de Karn Maurados, déclencheur factice	lot sorts_objets_038
+sort	317202		Name	5f7f62f9c314	Amulette d'Œil-d'ambre, déclencheur factice	lot sorts_objets_038
+sort	317206		Name	6e3740a117d9	L'Œil immortel, déclencheur factice	lot sorts_objets_038
+sort	317210		Name	fb69d90d3b03	Orbe de l'aube, déclencheur factice	lot sorts_objets_038
+sort	317220		ToolTip	30bf32cd69b8	Inflige $s2 points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_038
+sort	317223		Name	e2dd53dfa548	Amulette de maîtrise des bêtes, déclencheur factice	lot sorts_objets_038
+sort	317227		Name	930b018fd712	Dresseur, déclencheur factice	lot sorts_objets_038
+sort	317231		Name	9bd00d28f2e3	Libram hérétique, déclencheur factice	lot sorts_objets_038
+sort	317790		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	317909		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	317909		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	317909		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	320547		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	320547		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	320700		Name	b8f17bca57bf	Enseignements du Kirin Tor	lot sorts_objets_038
+sort	320777		Name	5e25d69d72a2	Fourche de Garren, déclencheur factice	lot sorts_objets_038
+sort	320781		Name	77f92e0a90c4	Arc Soies-hérissées - Déclencheur factice du sort d'objet	lot sorts_objets_038
+sort	320785		Name	bd4dcd423c00	Arc de guet, fusil défias rouillé, déclencheur factice	lot sorts_objets_038
+sort	320789		Name	11fe8a330776	Bouclier du capitaine, déclencheur factice	lot sorts_objets_038
+sort	320793		Name	3b9c178e03ba	Frappe de feu-forge	lot sorts_objets_038
+sort	320796		Name	c79cc8383234	Pointe de choc	lot sorts_objets_038
+sort	320799		Name	901ae89e0324	Froid d'os	lot sorts_objets_038
+sort	320799		ToolTip	f0d1ea204dfe	Immobilisé !	lot sorts_objets_038
+sort	320800		Description	0d91a9dc9b0f	Compétence en Minage augmentée de $s1.	lot sorts_objets_038
+sort	320800		Name	de05d6c6b8ff	Compétence en Minage +5	lot sorts_objets_038
+sort	320802		Name	7fd874f0bff8	Chair déchirée	lot sorts_objets_038
+sort	320802		ToolTip	2d20aa4ade2d	Saigne pour ${$m1+$ppl1} points de dégâts physiques toutes les $/1000;t1 sec.	lot sorts_objets_038
+sort	320805		Name	ad054f594f9d	Broyeur de Khan	lot sorts_objets_038
+sort	320808		Name	85ab77263eb5	Arc long d'entraînement de Maestra, déclencheur factice	lot sorts_objets_038
+sort	320812		Name	3381b5f9cd2a	Sifflet d'engagement de Snaggle, déclencheur factice	lot sorts_objets_038
+sort	320816		Name	ea84679a142c	Étoile de l'aube	lot sorts_objets_038
+sort	320816		ToolTip	810d152e1e19	Augmente votre Force de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	320819		Name	890f2e190cfe	Branche d'épouvantail, baguette de soumission gnoll	lot sorts_objets_038
+sort	320823		Name	bfb339ae7209	Collier d'os de Griffecorbeau, déclencheur factice	lot sorts_objets_038
+sort	320827		Name	86526acd72a3	Joyau de Lordaeron volé, déclencheur factice	lot sorts_objets_038
+sort	320832		Name	59ee3aea7551	Cape de prêtre poussiéreuse, déclencheur factice	lot sorts_objets_038
+sort	320837		Name	2047d3783476	Bâton imprégné d'Arctikus, déclencheur factice	lot sorts_objets_038
+sort	320841		Name	b6eb0ac4e8df	Des os à ronger, collier Dent-sanglante, déclencheur factice	lot sorts_objets_038
+sort	320845		Name	1a2e283a90f2	Baguette de Chute-tonnerre, déclencheur factice	lot sorts_objets_038
+sort	320849		Name	341b8a860de2	Pendentif d'Eliza, déclencheur factice	lot sorts_objets_038
+sort	320855		Name	58492384baa9	Bâton de sorcière de la tempête, déclencheur factice	lot sorts_objets_038
+sort	320855		ToolTip	e7f780e707d3	Une chance, lorsque vous infligez des dégâts magiques, de lancer un Éclair de tempête qui inflige des dégâts de Nature.	lot sorts_objets_038
+sort	320859		Name	0e167a16bc28	Pendentif maudit de la cicatrice de feu, déclencheur factice	lot sorts_objets_038
+sort	320863		Name	3077fb1636ba	Colis de livraison de munitions, déclencheur factice	lot sorts_objets_038
+sort	320863		ToolTip	ae864971f95d	Vos attaques automatiques à distance ont une chance de tirer aussi une roquette qui inflige des dégâts de Feu supplémentaires.	lot sorts_objets_038
+sort	320868		Description	ec7f5c46e7a9	Réduit la menace générée de $s1% pendant $d.	lot sorts_objets_038
+sort	320868		Name	5733257b629d	Voile de sérénité	lot sorts_objets_038
+sort	320868		ToolTip	591067496388	Réduit la menace générée de $s1%.	lot sorts_objets_038
+sort	320871		Description	22d9a1d55d5d	Augmente légèrement votre détection du camouflage.	lot sorts_objets_038
+sort	320871		Name	ba31125d5a14	Détection du camouflage accrue pour la lunette de guet, l'anneau de sentinelle de la chasseresse, le fragment d'An'owyn	lot sorts_objets_038
+sort	320871		ToolTip	c766e6472e25	Augmente votre détection du camouflage.	lot sorts_objets_038
+sort	320874		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	320874		Name	97e25fdbbb34	Menace accrue pour la longue lance de pêche, le pic de charognard pattenoire	lot sorts_objets_038
+sort	320874		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	320877		Description	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	320877		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	320877		ToolTip	db8b4a6e81db	Menace générée par tous les sorts et aptitudes réduite de $s1%.	lot sorts_objets_038
+sort	320880		Name	fcbc692f6a21	Linceul de fourrure Chardon-fourrure, déclencheur factice	lot sorts_objets_038
+sort	320884		Name	ff92f055cc4a	Les Frissons, déclencheur factice	lot sorts_objets_038
+sort	320888		Name	9b6592fbe0cc	Change-marée, déclencheur factice	lot sorts_objets_038
+sort	320892		Name	6db80e4ed62e	Peau putréfiée	lot sorts_objets_038
+sort	320897		Name	3c1351443111	Cadeau épicé spécial	lot sorts_objets_038
+sort	320901		Name	b79474b5c738	Flammes de Vul'gol	lot sorts_objets_038
+sort	320908		Name	54f3d3503cd4	Insaisissabilité spectrale	lot sorts_objets_038
+sort	320908		ToolTip	6b4496bf4006	Augmente votre score d'esquive de ${$m1}.	lot sorts_objets_038
+sort	320915		Name	481468ee9a3e	Infusion de peau d'ombre	lot sorts_objets_038
+sort	320919		Description	15b5363e4103	Augmente votre endurance de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	320919		Name	aa14e1ef8b7f	Par-delà la tombe	lot sorts_objets_038
+sort	320919		ToolTip	d2d9d6d16c5b	Augmente votre endurance de ${$m1}.	lot sorts_objets_038
+sort	320922		Name	96f7a121fde9	Appel de la matriarche	lot sorts_objets_038
+sort	320925		Description	3dd98955907f	Une boisson alcoolisée tonitruante extrêmement forte, qui augmente l'endurance de ${$m1+0} pendant $d.	lot sorts_objets_038
+sort	320925		Name	b869b0f6ebc2	Brassetonnerre	lot sorts_objets_038
+sort	320925		ToolTip	e7de68e5bd61	Augmente l'endurance de ${$m1}.	lot sorts_objets_038
+sort	320928		Description	76748275dafa	Augmente votre résistance magique de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	320928		ToolTip	8a6242032e0f	Augmente votre résistance magique de ${$m1}.	lot sorts_objets_038
+sort	320931		Name	47d49eca3faf	Substance suspecte	lot sorts_objets_038
+sort	320934		Name	3a9e3b094dc3	Guide de la restauration elfique - Vol. I, déclencheur factice	lot sorts_objets_038
+sort	320938		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	320938		Name	ff60e4e6c62d	Pourfendeur d'humains - Fusil de chasse de Chute-tonnerre - Sort d'objet	lot sorts_objets_038
+sort	320938		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	320941		Description	60e5db1511c0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1+0}. Dure $d.	lot sorts_objets_038
+sort	320941		Name	7c1dc0429aee	Zèle	lot sorts_objets_038
+sort	320941		ToolTip	42549d2945a0	Augmente votre puissance d'attaque contre les morts-vivants de ${$m1}.	lot sorts_objets_038
+sort	320944		Name	774c3efeae40	Délice du fossoyeur - Sort d'objet	lot sorts_objets_038
+sort	320948		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	320948		Name	437806cae776	Pourfendeur d'humains - Bâton Mrrrllrl - Sort d'objet	lot sorts_objets_038
+sort	320948		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	320951		Name	91903385f5b1	Pourfendeur de bêtes - Boucle de Chasse-côtes - Sort d'objet	lot sorts_objets_038
+sort	320954		Name	04c4ad152a8a	Pourfendeur de bêtes - Anneau d'os du chef de meute - Sort d'objet	lot sorts_objets_038
+sort	320957		Description	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	320957		Name	1674bf76cd1d	Pourfendeur d'humains - Lame nocturne défias - Sort d'objet	lot sorts_objets_038
+sort	320957		ToolTip	92c2f3783bb1	Augmente la puissance d'attaque contre les humanoïdes de $s1.	lot sorts_objets_038
+sort	320960		Name	90ea7f5e175f	Pourfendeur de bêtes - Fourche Mrlrgrl - Sort d'objet	lot sorts_objets_038
+sort	320963		Name	a5b1064af0b7	Pourfendeur de bêtes - Lame de ronce - Sort d'objet	lot sorts_objets_038
+sort	320966		Description	cdadd04bf086	Invoque deux traqueurs de la jungle pour vous aider au combat.	lot sorts_objets_038
+sort	320966		Name	6fb7808800cd	Invocation de traqueurs de la jungle	lot sorts_objets_038
+sort	320969		Name	de2345048a6e	Dent de raptor aiguisée, déclencheur factice	lot sorts_objets_038
+sort	320973		Name	522724ba71b8	Habitant des mers ancien, déclencheur factice	lot sorts_objets_038
+sort	320977		Name	205f934cf2d8	Compétence en Ingénierie +5	lot sorts_objets_038
+sort	320980		Name	e73e125586a0	Anneau de Mokrash, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	320984		Name	b254ffd005e0	Brise-coque, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	320984		ToolTip	3c64d6e6ae2f	Vos coups de mêlée ont une chance de fissurer l'armure de la cible pendant $d.	lot sorts_objets_038
+sort	320988		Name	8ca9c17045e5	Yarrr !	lot sorts_objets_038
+sort	320988		ToolTip	60384a7bc7cc	Augmente votre score de parade de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	320991		Name	cbde6bd2b19a	Coquillage spécial, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	321000		Name	3a05bbf6e1fc	Blason de Cœur-de-rivière, sort d'entrée d'objet, déclencheur factice	lot sorts_objets_038
+sort	321004		Name	66d8bfe8bb6f	Bottes feutrées - Camouflage 5	lot sorts_objets_038
+sort	321007		Name	8d86393e9596	Gilet d'éclaireur de Zul'Kunda - Camouflage 5	lot sorts_objets_038
+sort	321010		Description	1eb5df368f11	Une boisson alcoolisée grésillante extrêmement forte.	lot sorts_objets_038
+sort	321010		ToolTip	f9861aef11eb	Ouf ! C'est du costaud !	lot sorts_objets_038
+sort	321013		Description	08fffddd34b0	Vous fait léviter pendant $d.	lot sorts_objets_038
+sort	321013		Name	bca9cb545528	Course sur les nuages	lot sorts_objets_038
+sort	321016		Name	4dcba2ef768a	Pourfendeur de bêtes - Fracasse-poulet de Galak - Sort d'objet	lot sorts_objets_038
+sort	321019		Name	83c93281170b	Lien de plumes	lot sorts_objets_038
+sort	321022		Name	19642a3c6ec1	Tambours de guerre kodo	lot sorts_objets_038
+sort	321022		ToolTip	cba8035b1b15	Canalise les esprits des kodos de guerre.	lot sorts_objets_038
+sort	321026		Name	d1fe36763b34	Bottes de course gobelines - Déclencheur factice du sort d'objet pour « Carotte Kaboum »	lot sorts_objets_038
+sort	321031		Description	ebb48eed0deb	Augmente la vitesse de déplacement montée de $s1% pendant $d. Avec une chance d'effets supplémentaires.	lot sorts_objets_038
+sort	321031		Name	c3c5156406be	Spécialité gobeline : « Carotte Kaboum sur un bâton »	lot sorts_objets_038
+sort	321031		ToolTip	0f17595c2b4f	Augmente la vitesse de déplacement montée de $s1%.	lot sorts_objets_038
+sort	321034		Description	3293df1ebc6c	Vous buvez une boisson alcoolisée extrêmement forte.	lot sorts_objets_038
+sort	321034		Name	0f01c874704d	Gnôle vieillie	lot sorts_objets_038
+sort	321034		ToolTip	b5c08b5f6685	Complètement pompette !	lot sorts_objets_038
+sort	321037		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	321040		Name	be92eec6731e	Perce-vague	lot sorts_objets_038
+sort	321043		Description	7126b6ceaf61	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+0}, et votre pénétration des sorts de ${$abs($m3+0)} pendant $d.	lot sorts_objets_038
+sort	321043		Name	62f98ddd5a3c	Transe de poudre	lot sorts_objets_038
+sort	321043		ToolTip	0460c2113292	Augmente votre pénétration d'armure et votre score de hâte de ${$m1+$ppl1}, et fait en sorte que vos sorts ignorent ${$ABS($m3+$ppl3)} points de résistance.	lot sorts_objets_038
+sort	321046		Name	506025dca7c0	Nourriture - Salade d'algues de Gorlash	lot sorts_objets_038
+sort	321050		Name	38097256cddc	Nourriture - Fleur teintée d'arcanes	lot sorts_objets_038
+sort	321054		Name	00cdf9355a6d	Robustesse de Sulfuron	lot sorts_objets_038
+sort	321065		Name	ee478fdaea0c	Paix des morts	lot sorts_objets_038
+sort	321069		Name	112326ab67c2	Pillage furtif	lot sorts_objets_038
+sort	321075		Description	48b61b9571b2	Compétence en Bûcheronnage augmentée de $s1.	lot sorts_objets_038
+sort	321075		Name	1370c7c9761f	Compétence en Bûcheronnage +5	lot sorts_objets_038
+sort	321078		Name	f95424135c4e	Feu-de-fer	lot sorts_objets_038
+sort	321082		Name	00e380f1f692	Plaines verrouillées	lot sorts_objets_038
+sort	321088		Name	eaf3122ff410	Chaînes de la mort	lot sorts_objets_038
+sort	321088		ToolTip	bb8dc538101c	Réduit la vitesse de déplacement de $s1%.	lot sorts_objets_038
+sort	321095		Name	c9ceb356caed	Invoque-bourbier, déclencheur factice d'objet	lot sorts_objets_038
+sort	321102		Name	9299f1f18644	Flèche brûlante	lot sorts_objets_038
+sort	321102		ToolTip	b9dce99d4aba	Inflige ${$m1+$ppl1+$RAP*0.02} points de dégâts de Feu toutes les $t1.	lot sorts_objets_038
+sort	321105		Name	cc5777f7e79c	Déferlement draconique	lot sorts_objets_038
+sort	321109		Name	166e136de6f6	Décompte de Crushim, déclencheur factice d'objet	lot sorts_objets_038
+sort	321113		Name	5bf110063634	Orteil cogné	lot sorts_objets_038
+sort	321116		Name	ef0d566cf0a4	Lumière de la douleur, déclencheur factice d'objet	lot sorts_objets_038
+sort	321120		Name	389848877b26	Marée du seigneur de guerre	lot sorts_objets_038
+sort	321120		ToolTip	75b51f48c3bb	Augmente la puissance d'attaque de ${$w1}.	lot sorts_objets_038
+sort	321123		Name	44c5dec385f7	Couronne de pierre, déclencheur factice d'objet	lot sorts_objets_038
+sort	321127		Description	277313470ff7	Augmente le mana généré toutes les 5 sec de ${$m1+0} et la puissance des sorts de ${$m2+0} pendant $d.	lot sorts_objets_038
+sort	321127		Name	e0cf38e106b7	Éveil du rêve	lot sorts_objets_038
+sort	321127		ToolTip	caf2db55c19f	Rend ${$m1+$ppl1} points de mana toutes les 5 sec et augmente la puissance des sorts de ${$m2+$ppl2}.	lot sorts_objets_038
+sort	321130		Name	ad749cdc6669	Hurlement de la bête féroce	lot sorts_objets_038
+sort	321134		Name	6b1c8e4fd328	Idole de l'aire, déclencheur factice d'objet	lot sorts_objets_038
+sort	321138		Name	f0b70689182a	Vase conductrice	lot sorts_objets_038
+sort	321142		Name	8eea7d7b5715	Éclatement de vase	lot sorts_objets_038
+sort	321142		ToolTip	5b115557741d	Provoque un Éclatement de vase qui inflige ${$m1+$ppl1} points de dégâts de Nature aux ennemis proches.	lot sorts_objets_038
+sort	321145		Name	84877115c22f	Idole de l'ombre couveuse, déclencheur factice d'objet	lot sorts_objets_038
+sort	321149		Name	96ee1e8b50dc	Entaille sangsue	lot sorts_objets_038
+sort	321149		ToolTip	ca857faa97f3	Frappe la cible d'une entaille sangsue qui inflige des dégâts d'Ombre supplémentaires et vous rend 100% des dégâts infligés sous forme de vie.	lot sorts_objets_038
+sort	321152		Name	0245c3636576	Tome des âmes fracassées, déclencheur factice d'objet	lot sorts_objets_038
+sort	321156		Name	1c21c1c4e919	Idole de la mère des couvées, déclencheur factice d'objet	lot sorts_objets_038
+sort	321161		Description	fd09b6b2e25c	Invoque un élémentaire d'eau inférieur pour vous aider au combat.	lot sorts_objets_038
+sort	321161		Name	395be0da4094	Invocation d'un élémentaire d'eau inférieur	lot sorts_objets_038
+sort	321164		Name	083d0324718a	Anneau de la jungle d'influence de la Nature, déclencheur factice	lot sorts_objets_038
+sort	321169		Name	a64b1bb98b15	Bouclier de guerre tribal, déclencheur factice	lot sorts_objets_038
+sort	321173		Name	d994a88f7e3d	Idole de druide mystique, déclencheur factice	lot sorts_objets_038
+sort	321177		Name	6451490e4802	Force de l'ombre	lot sorts_objets_038
+sort	321181		Name	54de478ec173	Cape de fourrure du tonneleur, déclencheur factice	lot sorts_objets_038
+sort	321185		Name	080e590cf29c	Perce-tempête, déclencheur factice	lot sorts_objets_038
+sort	321189		Description	46c2277e4317	Augmente la puissance des sorts d'Ombre de ${$m1+0}.	lot sorts_objets_038
+sort	321189		Name	a95ed57a4b82	Étreinte de la cinquième ombre, puissance des sorts	lot sorts_objets_038
+sort	321189		ToolTip	adc9b362502a	Augmente la puissance des sorts d'Ombre de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	321192		Description	ec1ce48c3ecd	Augmente la puissance des sorts de Feu de ${$m1+0}.	lot sorts_objets_038
+sort	321192		Name	ea6c07a54cd6	Orbe instable d'Hercular, puissance des sorts de Feu	lot sorts_objets_038
+sort	321192		ToolTip	46c6006acd4e	Augmente la puissance des sorts de Feu de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	321195		Description	993646039d9a	Augmente la puissance des soins de ${$m1+0}.	lot sorts_objets_038
+sort	321195		Name	1386b9c79828	Fleurs tressées, puissance des soins	lot sorts_objets_038
+sort	321195		ToolTip	b5f44e095dfa	Augmente la puissance des soins de ${$m1+$ppl1}.	lot sorts_objets_038
+sort	321198		Name	ee019f9fb869	Icône de Karn Maurados, déclencheur factice	lot sorts_objets_038
+sort	321202		Name	5f7f62f9c314	Amulette d'Œil-d'ambre, déclencheur factice	lot sorts_objets_038
+sort	321206		Name	6e3740a117d9	L'Œil immortel, déclencheur factice	lot sorts_objets_038
+sort	321210		Name	fb69d90d3b03	Orbe de l'aube, déclencheur factice	lot sorts_objets_038
+sort	321220		ToolTip	30bf32cd69b8	Inflige $s2 points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_038
+sort	321223		Name	e2dd53dfa548	Amulette de maîtrise des bêtes, déclencheur factice	lot sorts_objets_038
+sort	321227		Name	930b018fd712	Dresseur, déclencheur factice	lot sorts_objets_038
+sort	321231		Name	9bd00d28f2e3	Libram hérétique, déclencheur factice	lot sorts_objets_038
+sort	321790		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038
+sort	321909		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	321909		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	321909		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	901502		Description	48b61b9571b2	Compétence en Bûcheronnage augmentée de $s1.	lot sorts_objets_038
+sort	901502		Name	1370c7c9761f	Compétence en Bûcheronnage +5	lot sorts_objets_038
+sort	901515		Description	0d91a9dc9b0f	Compétence en Minage augmentée de $s1.	lot sorts_objets_038
+sort	901515		Name	de05d6c6b8ff	Compétence en Minage +5	lot sorts_objets_038
+sort	901971		Description	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	901971		Name	68a16768dfaf	Menace réduite pour le collier puant	lot sorts_objets_038
+sort	901971		ToolTip	23a02e7004e9	Menace générée par tous les sorts et aptitudes augmentée de $s1%.	lot sorts_objets_038
+sort	966250		Name	0cfcf3a44312	Dépeçage +5	lot sorts_objets_038

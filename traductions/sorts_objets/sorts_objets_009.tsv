@@ -1,0 +1,181 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	81161		Description	336663a99117	@req:17877@\nChaque impulsion de Drain d'âme ou chaque utilisation de Connexion mana accumule désormais de l'|cFFFFFFFFÉnergie d'âme|r.\n@s:81162:0@	lot sorts_objets_009
+sort	81166		Description	e688c7dba8d1	@req:19434@\r\nRester immobile vous confère |cFFFFFFFFTireur d'élite|r toutes les 3 secondes.\r\n@s:81167:0@	lot sorts_objets_009
+sort	81166		Name	2081d06ecb8f	Tireur d'élite	lot sorts_objets_009
+sort	81168		Description	625f7b0d9a28	Vous apprend |cFFFFFFFFÉventail de couteaux|r. \n\nAugmente de $s2% l'effet de votre aptitude Lancer mortel. Réduit de $s3% le délai de récupération de votre aptitude Transfert hors combat.\n@s:81257:0@	lot sorts_objets_009
+sort	81168		Name	bf958cb4a1f1	Âme du Gardien	lot sorts_objets_009
+sort	81171		Description	fbb6dcf7fc53	Votre corps et votre esprit ne font qu'un, ce qui vous permet d'esquiver, de parer et de bloquer les attaques en incantant. Cet effet ne fonctionne pas contre les joueurs.	lot sorts_objets_009
+sort	81171		Name	cd38238056ba	Magie défensive	lot sorts_objets_009
+sort	81181		Description	7419ca8330a4	@req:48505@\nTant que Pluie d'étoiles est active, les sorts des Arcanes que vous lancez augmentent la durée de Pluie d'étoiles d'une valeur égale à la moitié du temps d'incantation du sort. Les sorts canalisés comme Projectiles des arcanes n'augmentent pas la durée. De plus, tant que Pluie d'étoiles est active, vous avez 5% de chances supplémentaires d'infliger un coup critique avec vos sorts.	lot sorts_objets_009
+sort	81181		Name	df7132f87779	Étoiles filantes	lot sorts_objets_009
+sort	81182		Description	23b0e7dba2f6	@req:172@\n@req:1752@\nVotre Attaque pernicieuse propage Corruption de la cible aux ennemis situés à moins de 10 mètres. Cela n'affecte ni les totems ni les joueurs soumis à un contrôle des foules.	lot sorts_objets_009
+sort	81185		Description	e2c3fb0b4e51	Vos effets de dégâts périodiques de maladie infligent $s1% de dégâts supplémentaires tant que vous vous trouvez à moins de 10 mètres de la cible affligée.	lot sorts_objets_009
+sort	81185		Name	f1efc451e928	Contagieux	lot sorts_objets_009
+sort	81186		Description	c5fc6d1fa3af	Vos effets de dégâts périodiques infligent $s1% de dégâts supplémentaires tant que vous êtes furtif.	lot sorts_objets_009
+sort	81188		Description	731924e6c6d1	Vos saignements augmentent de $s1% les dégâts infligés par vos maladies.	lot sorts_objets_009
+sort	81188		Name	11ea4ef66368	Opportuniste pestilentiel	lot sorts_objets_009
+sort	81189		Description	eb4779d1a78a	@req:348@\nVos coups critiques en mêlée attisent les flammes qui subsistent sur votre cible et rafraîchissent votre effet d'Immolation. De plus, les dégâts périodiques infligés par votre Immolation sont réduits de $s2%.\n\nCela ne prolonge pas la durée d'Immolation élémentaire.	lot sorts_objets_009
+sort	81189		Name	59db56848980	Cultiste de bataille : Fer rouge	lot sorts_objets_009
+sort	81189		ToolTip	325c2226ee0f	Vos coups en mêlée attisent les flammes qui subsistent sur votre cible et rafraîchissent votre effet d'Immolation.	lot sorts_objets_009
+sort	81190		Description	46ff04bd3f2e	@req:15237@\nVotre Nova sacrée est transformée en |cFFFFFFFFSupernova sacrée|r, dont le délai de récupération est de 60 secondes.\n\nVos sorts de dégâts et de soins réduisent de 2 secondes le délai de récupération de |cFFFFFFFFSupernova sacrée|r. @ext:This can only trigger once per cast.:ext@\r\n\n@s:81191:0@\n@s:983937:0@	lot sorts_objets_009
+sort	81190		Name	eaa1cdba2988	Supernova sacrée	lot sorts_objets_009
+sort	81211		Description	2538ccbf1bfa	L'application de vos effets de dégâts périodiques de démoniste rafraîchit la durée de votre Peste dévorante. Cependant, la durée est réduite de $/1000;S2 secondes.	lot sorts_objets_009
+sort	81211		Name	a07567e4287d	Dévorant	lot sorts_objets_009
+sort	81212		Description	2ea8a36fbdb7	@req:772@\nVotre Attaque sournoise, Mutilation et Embuscade rafraîchissent la durée de Pourfendre sur votre cible.	lot sorts_objets_009
+sort	81212		Name	79ebeb316130	Traumatisme induit	lot sorts_objets_009
+sort	81212		ToolTip	3dc3b8bfa04e	Votre Attaque sournoise, Mutilation et Embuscade rafraîchissent la durée de Pourfendre sur votre cible.	lot sorts_objets_009
+sort	81213		Description	fffefb00dab1	@req:44572@\n@req:8033@\nChaque coup de votre Arme de givre augmente de 0,3 seconde la durée de votre Congélation.\n\nSi la cible est immunisée en permanence contre les étourdissements, le délai de récupération de votre Congélation est à la place réduit de 10,5 sec.\n\n@ext:Does not work with the Biting Cold enchantment.:ext@	lot sorts_objets_009
+sort	81213		Name	f8dd60dfb4ae	Coups glaçants	lot sorts_objets_009
+sort	81214		Description	9938cc92d890	@req:8921@\nFrapper une cible affectée par Eclat lunaire avec un sort à temps d'incantation augmente de 3 secondes la durée de votre Eclat lunaire et ajoute une charge de |cFFFFFFFFLune croissante|r.\n\nInfliger des dégâts périodiques avec Eclat lunaire ajoute une charge de |cFFFFFFFFLune décroissante|r.\n\n@s:983846:0@\n@s:760198:0@	lot sorts_objets_009
+sort	81215		Description	7ce810a573cd	@req:772@\n@req:703@\nVotre Pourfendre augmente d'1 seconde la durée de votre Garrot chaque fois qu'il inflige des dégâts. Après avoir utilisé Danse d'ombre et pendant toute sa durée, votre Garrot s'applique jusqu'à 4 cibles proches. Vous ne pouvez pas augmenter la durée de votre Garrot au-delà de son maximum.	lot sorts_objets_009
+sort	81215		Name	771205382278	Perforation	lot sorts_objets_009
+sort	81216		Description	6b27be531bff	@req:2687@\nChanger de posture augmente de 6 secondes la durée de votre Rage sanguinaire.	lot sorts_objets_009
+sort	81216		Name	cae092878bef	Danse des postures	lot sorts_objets_009
+sort	81216		ToolTip	44062d543806	Changer de posture augmente de 6 secondes la durée de votre Rage sanguinaire.	lot sorts_objets_009
+sort	81217		Description	44966f43a310	@req:14914@\nVos aptitudes Exorcisme, Marteau de la colère et Jugement augmentent de 3 secondes la durée de votre Feu sacré (sans dépasser la durée maximale). De plus, votre Exorcisme, Marteau de la colère et Jugement infligent désormais $s1% de dégâts supplémentaires aux cibles affligées par Feu sacré.	lot sorts_objets_009
+sort	81217		Name	b61dcc8ae110	Purifier par les flammes	lot sorts_objets_009
+sort	81218		Description	85709271a4d2	@req:61295@\n@req:50516@\nChaque cible touchée par votre Typhon augmente de 4 secondes la durée de votre propre Remous.	lot sorts_objets_009
+sort	81218		Name	0e91776931e5	Marées changeantes	lot sorts_objets_009
+sort	81218		ToolTip	8772f232b918	Chaque cible touchée par votre Typhon augmente de 3 secondes la durée de votre propre Remous.	lot sorts_objets_009
+sort	81219		Description	a52b8fb2323b	@req:997610@\r\n@ext:A Duelist's Glove is an off-hand item that enables Swashbuckling. It is granted whenever you learn a talent or ability that requires it.:ext@\n\nNe fonctionne pas sous forme métamorphosée.\n@s:997610:0@\nAugmente votre parade de 5% tant que vous ne maniez qu'une seule arme à une main.	lot sorts_objets_009
+sort	81219		Name	3b9787d7770a	Fier-à-bras : Coups assortis	lot sorts_objets_009
+sort	81221		Description	afb9567fa929	@req:997610@\r\n@ext:A Duelist's Glove is an off-hand item that enables Swashbuckling. It is granted whenever you learn a talent or ability that requires it.:ext@\n\nNe fonctionne pas sous forme métamorphosée.\n@s:997610:0@\nAugmente votre hâte en mêlée de 20% tant que vous ne maniez qu'une seule arme à une main.	lot sorts_objets_009
+sort	81221		Name	ee52dd46504e	Fier-à-bras : Déluge de coups	lot sorts_objets_009
+sort	81223		Description	9d30f15c6ab7	Vous générez 100% de rage supplémentaire en infligeant des dégâts en étant ivre et complètement désarmé.	lot sorts_objets_009
+sort	81224		Description	e70e62ba8139	Inflige $s1% de dégâts supplémentaires avec les poisons de voleur aux cibles qui saignent.	lot sorts_objets_009
+sort	81224		Name	e6c1d7da0f8d	Envenimé	lot sorts_objets_009
+sort	81225		Description	9ce3564288a8	@req:2948@\nVotre sort Brûlure est transformé en |cFFFFFFFFBrûlure (Terre brûlée)|r, ce qui vous permet de vous déplacer en incantant mais réduit sa portée de 5 mètres.\n@s:81226:0@	lot sorts_objets_009
+sort	81235		Description	d877057aeac0	@req:5676@\nVotre sort Douleur brûlante est transformé en |cFFFFFFFFDouleur brûlante (Douleur périlleuse)|r, ce qui vous permet de vous déplacer en incantant mais réduit sa portée de 5 mètres.\n@s:81236:0@	lot sorts_objets_009
+sort	81235		Name	16dcf46f9f8b	Douleur périlleuse	lot sorts_objets_009
+sort	81248		Description	e5e8e77e8dfb	@req:33831@\r\nVotre sort Force de la nature est transformé en |cFFFFFFFFForce de la nature (Appel des fongiens)|r.\r\n@s:81249:0@\r\n@s:81413:0@	lot sorts_objets_009
+sort	81248		Name	69a634d95354	Druide de la pourriture : Appel des fongiens	lot sorts_objets_009
+sort	81250		Description	962c14432f4f	@req:31589@\nVotre Lenteur est transformée en |cFFFFFFFFLenteur de masse|r.\n@s:84407:0@	lot sorts_objets_009
+sort	81250		ToolTip	bb8a0436d912	Votre Lenteur est transformée en Lenteur de masse, qui affecte toutes les cibles situées à moins de 10 mètres de votre cible mais a un temps d'incantation de 20,5 sec.	lot sorts_objets_009
+sort	81251		Description	933b256cbf5f	Lorsque vous lancez un soin direct sur un allié, vous recevez une charge de |cFFFFFFFFCroisé bienveillant|r.\n\nInfliger des dégâts à un ennemi avec Châtiment, Feu sacré, Pénitence ou Exorcisme déclenche une Nova sacrée sur la cible. @ext:This effect can only occur once every 3 seconds.:ext@\n\n@s:81252:0@\n@s:944810:0@	lot sorts_objets_009
+sort	81251		Name	291c75ae64c5	Croisé bienveillant	lot sorts_objets_009
+sort	81253		Description	010a36496817	Les soins directs efficaces vous confèrent |cFFFFFFFFConservation|r.\n@s:81254:0@	lot sorts_objets_009
+sort	81253		Name	d2ccd8109361	Conservation	lot sorts_objets_009
+sort	81255		Description	915730db1714	@req:17@\nLancer Mot de pouvoir : Bouclier sur un allié ayant moins de 20% de ses points de vie supprime aussi tous les effets de contrôle des foules qui l'affectent. Cet effet ne peut se déclencher qu'une fois toutes les 30 secondes.	lot sorts_objets_009
+sort	81255		Name	a309649b8810	Bouclier ultime	lot sorts_objets_009
+sort	81258		Description	8141d3746d85	Les aptitudes de guerrier déclenchent Barrage des arcanes, Explosion de feu ou Lance de glace, si vous les connaissez.\r\n\r\nLes aptitudes remplaçant l'attaque automatique ne déclenchent pas Mage de bataille.\r\n\r\nCela ne peut se produire qu'une fois toutes les 4 secondes.	lot sorts_objets_009
+sort	81258		Name	d10d0a14c22e	Mage de bataille	lot sorts_objets_009
+sort	81259		Description	d4d7e2bc919e	@req:72@\nCoup de bouclier applique désormais aux cibles un ralentissement de 30% de la vitesse d'incantation pendant 6 secondes.\nNe se cumule pas avec les autres effets similaires.	lot sorts_objets_009
+sort	81259		Name	ee519a35610f	Hébété	lot sorts_objets_009
+sort	81259		ToolTip	8c423a6435ca	Coup de bouclier applique désormais aux cibles un ralentissement de 30% de la vitesse d'incantation pendant 6 secondes.	lot sorts_objets_009
+sort	81263		Description	3bbcf42291c1	@req:51690@\nVotre aptitude Série meurtrière inflige 10% de dégâts supplémentaires aux cibles affligées par un effet de saignement ou de poison.	lot sorts_objets_009
+sort	81263		Name	ba79861649b0	K.O. technique	lot sorts_objets_009
+sort	81263		ToolTip	3f2130fa238c	Votre aptitude Série meurtrière inflige 8% de dégâts supplémentaires aux cibles affligées par un effet de saignement ou de poison.	lot sorts_objets_009
+sort	81265		Description	cd27d7f0748b	@req:3044@\n@req:54488@\nUtiliser |cFFFFFFFFTir des arcanes|r vous confère une charge d'|cFFFFFFFFImprégnation des arcanes|r.\n@s:983814:0@	lot sorts_objets_009
+sort	81266		Description	cfead5c0d168	Augmente de $s1% la menace générée par vos dégâts de Feu.\n\nRéduit de $s2% tous les dégâts subis.	lot sorts_objets_009
+sort	81266		Name	0163bf7bc10a	Feu redouté	lot sorts_objets_009
+sort	81266		ToolTip	cfead5c0d168	Augmente de $s1% la menace générée par vos dégâts de Feu.\n\nRéduit de $s2% tous les dégâts subis.	lot sorts_objets_009
+sort	81267		Description	bb5b3e21f0d2	@req:1161@\nCri de défi vous applique une aura qui augmente de 10% les dégâts que vous subissez, mais réduit de 10% les dégâts subis par les alliés proches pendant $81268d.	lot sorts_objets_009
+sort	81267		ToolTip	61348166b12e	Cri de défi vous applique une aura qui augmente de 10% les dégâts que vous subissez, mais réduit de 10% les dégâts subis par les alliés proches.	lot sorts_objets_009
+sort	81273		Description	f5d643bbcf66	Lorsque vous touchez un ennemi avec une attaque de givre, vous gagnez une charge de |cFFFFFFFFFlèches de givre|r.\n@s:81274:0@	lot sorts_objets_009
+sort	81273		Name	c308f2dd329d	Flèches de givre	lot sorts_objets_009
+sort	81273		ToolTip	f0b259a1bfe8	Vos coups critiques à distance ralentissent votre cible de 30% pendant 4 secondes.	lot sorts_objets_009
+sort	81276		Description	31d423f27687	Lorsque vous touchez un ennemi avec une attaque de Feu, vous gagnez une charge de |cFFFFFFFFFlèches de feu|r.\n@s:81277:0@	lot sorts_objets_009
+sort	81276		Name	b1623d99fd77	Flèches de feu	lot sorts_objets_009
+sort	81279		Description	65f77b705fe2	Les attaques automatiques à distance ont 10% de chances d'appliquer une magie sombre à la cible ; si cette cible meurt, un gardien squelette est invoqué pour combattre à vos côtés.	lot sorts_objets_009
+sort	81279		Name	107b406637da	Flèche sombre	lot sorts_objets_009
+sort	81285		Description	0ced7778ce83	Utiliser Garrot, Coup bas ou Embuscade depuis la furtivité vous permet d'utiliser Embuscade pendant 2,5 sec.	lot sorts_objets_009
+sort	81285		Name	e9753cf46550	Ombre fugace	lot sorts_objets_009
+sort	81286		Description	b1f58e4b80dd	@req:122@\nNova de givre est transformée en |cFFFFFFFFÈre glaciaire|r.\n\nDe plus, lorsque votre Bloc de glace se termine, il déclenche Nova de givre (si vous la connaissez), sans coût en mana et sans délai de récupération.\n@s:888122:0@	lot sorts_objets_009
+sort	81286		Name	6ba7ba526825	Ère glaciaire	lot sorts_objets_009
+sort	81287		Description	918ba53cd36c	@req:5782@\nPeur est transformée en |cFFFFFFFFPeur (Hystérie collective)|r, renforcée d'une énergie sombre et terrifiante, ce qui rend Secoués les ennemis proches de votre cible apeurée.\n\n@s:81288:0@\n@s:81291:0@	lot sorts_objets_009
+sort	81287		Name	e5f1fdce4ec2	Hystérie collective	lot sorts_objets_009
+sort	81292		Description	37958a5ee0f9	@req:33917@\nInfliger des dégâts avec Mutilation vous confère |cFFFFFFFFNe faire qu'un avec la chasse (Tirs de chasseur)|r.\nInfliger des dégâts avec les Tirs de chasseur vous confère |cFFFFFFFFNe faire qu'un avec la chasse (Mutilation)|r.\nRéduit de plus de $s2% le coût des changements de forme.\n@s:81293:0@\n@s:81294:0@	lot sorts_objets_009
+sort	81292		Name	9bc81bea2455	Ne faire qu'un avec la chasse	lot sorts_objets_009
+sort	81292		ToolTip	bf83391dd795	Quitter la forme d'ours ou de chat augmente de 15% les dégâts de vos tirs de chasseur pendant 8 secondes. De plus, vos tirs de chasseur ont 100% de chances de vous donner un bonus qui augmente de 30% les dégâts de votre prochaine aptitude Mutilation. Réduit en outre de 10% le coût des changements de forme.	lot sorts_objets_009
+sort	81295		Description	a8cdaabbc7b5	Les attaques de baguette accumulent des charges qui augmentent de 5% la vitesse d'incantation de votre prochain sort. Cet effet se cumule 5 fois.	lot sorts_objets_009
+sort	81295		Name	4b7cc8fd9017	Maniement de baguette	lot sorts_objets_009
+sort	81295		ToolTip	a8cdaabbc7b5	Les attaques de baguette accumulent des charges qui augmentent de 5% la vitesse d'incantation de votre prochain sort. Cet effet se cumule 5 fois.	lot sorts_objets_009
+sort	81297		Description	55adebd134a9	@req:633@\nImposition des mains affecte désormais toutes les cibles situées dans un rayon de 8 mètres, mais ajoute un temps d'incantation de 2 secondes.	lot sorts_objets_009
+sort	81297		Name	eb94930393ec	Mains réparatrices	lot sorts_objets_009
+sort	81297		ToolTip	c0d66a57c641	Imposition des mains affecte désormais toutes les cibles situées dans un rayon de 8 mètres, mais augmente son temps d'incantation de 2 secondes.	lot sorts_objets_009
+sort	81298		Description	a869208e7067	Vos dégâts de Feu non périodiques augmentent de 1%@ext:(0.5% vs. players):ext@ par charge de |cFFFFFFFFFeu intérieur|r, mais consomment 2 charges.\r\n\r\n|cFFFFFFFFFeu intérieur|r confère $S2% de charges en moins. Le délai de récupération de Feu sacré est réduit de $/1000;854067S2 sec\n\nConsommer des charges vous confère une charge de |cFFFFFFFFFlammes vertueuses|r. Au maximum de charges, Feu sacré inflige des dégâts radiants à 5 cibles proches, rend 15 charges de Feu intérieur par cible et fait que vos 3 prochains sorts de Feu prolongent Feu sacré d'1 seconde.\n\nLancer |cFFFFFFFFFeu intérieur|r inflige aussi des dégâts radiants dans une zone de 8 mètres (délai de récupération de 8,5 sec). \r\n\r\n@ext:Radiant damage benefits from the higher modifier of Fire or Holy.:ext@\r\n@s:954069:0@	lot sorts_objets_009
+sort	81298		Name	11242652f677	Flammes vertueuses	lot sorts_objets_009
+sort	81299		Description	5622fba2d868	@req:29722@\n@s:981301:0@ \nSi vous connaissez Incinérer, vous apprenez aussi |cFFFFFFFFIncinérer (Déferlement de flammes)|r , qui inflige 50% de dégâts en moins, mais cible jusqu'à 10 ennemis dans un rayon de 10 mètres autour de votre cible.	lot sorts_objets_009
+sort	81299		Name	1dd87f89f0e9	Déferlement de flammes	lot sorts_objets_009
+sort	81300		Description	24c64296e73b	@req:29722@\nVotre Incinérer est désormais lancé sur une cible supplémentaire pour 50% des dégâts.\nNe fonctionne pas avec Déferlement de flammes.	lot sorts_objets_009
+sort	81300		Name	01d309e5e091	Incinération en écho	lot sorts_objets_009
+sort	81300		ToolTip	2f2f4a16aeef	Votre Incinérer est désormais lancé sur une cible supplémentaire pour 50% des dégâts.	lot sorts_objets_009
+sort	81301		Description	47212e63cd5b	Vous infligez $s1% de dégâts supplémentaires avec votre aptitude Incinérer aux cibles affligées par Choc de flammes. Cet enchantement ne se cumule pas.	lot sorts_objets_009
+sort	81301		Name	674e00fc34ac	Brûlures aggravées	lot sorts_objets_009
+sort	81301		ToolTip	f2c5fee35558	Vous infligez $s1% de dégâts supplémentaires avec votre aptitude Incinérer aux cibles affligées par Choc de flammes.	lot sorts_objets_009
+sort	81302		Description	a0be88d6c06e	@req:2136@\n@req:348@\nVotre Explosion pyrotechnique propage l'effet d'Immolation de la cible aux ennemis situés à moins de 10 mètres. L'Immolation propagée ne peut pas infliger de coups critiques.\n\nNe propage pas Immolation élémentaire.	lot sorts_objets_009
+sort	81303		Description	eca6972b8bd9	@req:8129@\nVotre Brûlure de mana détruit 30% de mana en plus mais inflige 30% de dégâts en moins, et son coût en mana augmente de 30%. Augmente de 8 secondes le délai de récupération de Brûlure de mana.	lot sorts_objets_009
+sort	81306		Description	c0c789c38a0d	La durée de vos invocations issues d'objets est désormais augmentée de 100%.	lot sorts_objets_009
+sort	81306		Name	af97fd528692	Invocations éternelles	lot sorts_objets_009
+sort	81310		Description	1363bd9fe2ed	@req:53301@\nVos aptitudes Morsure de la mangouste et Contre-attaque rafraîchissent la durée de votre Tir explosif sur la cible.\n\nNe fonctionne pas avec l'Enchantement mystique Guet-feu.	lot sorts_objets_009
+sort	81310		Name	b12571156c4f	Chargé à bloc	lot sorts_objets_009
+sort	81313		Description	7f45fcae97aa	@req:8129@\nVos coups en mêlée ont une chance de vous conférer |cFFFFFFFFCombustion rapide|r.\n@s:81314:0@	lot sorts_objets_009
+sort	81313		Name	61110b7c0178	Combustion rapide	lot sorts_objets_009
+sort	81315		Description	aa52d2237ee1	Les alliés qui se tiennent dans votre |cFFFFFFFFConsécration|r reçoivent de vous $983813s1% de soins supplémentaires.\r\n\r\nVos |cFFFFFFFFsoins directs|r lancés sur des alliés situés dans votre |cFFFFFFFFConsécration|r rayonnent vers 5 alliés proches pour 5% des soins prodigués.\r\n\r\nNe se déclenche pas depuis l'effet de Consécration de Purification par la Lumière ou de Frappes consacrées.	lot sorts_objets_009
+sort	81324		Description	a49f48b351de	Tant que votre mana est supérieur à 50%, vous bénéficiez de 3% de hâte des sorts. Tant que votre mana est inférieur à 50%, vous bénéficiez de 3% de chances de coup critique avec vos sorts.	lot sorts_objets_009
+sort	81324		Name	6bfa3c8128ee	Pendule	lot sorts_objets_009
+sort	81327		Description	9540e64d2668	@req:10@\nVotre Blizzard est transformé en |cFFFFFFFFBlizzard (Averse de grêle)|r, qui a un temps d'incantation au lieu d'être canalisé.\n\nNe fonctionne pas avec Cécité des neiges.\n@s:81328:0@	lot sorts_objets_009
+sort	81337		Description	1ceec6c36baf	@req:1510@\nVotre Volée est transformée en |cFFFFFFFFVolée (Pluie de flèches)|r, qui a un temps d'incantation au lieu d'être canalisée.\n@s:81338:0@	lot sorts_objets_009
+sort	81337		Name	fe7e22eed7bf	Pluie de flèches	lot sorts_objets_009
+sort	81344		Description	b87e8d270f04	@req:5740@\nVotre Pluie de feu est transformée en |cFFFFFFFFPluie de feu (Tempête de feu)|r, qui a un temps d'incantation au lieu d'être canalisée.\n@s:81345:0@	lot sorts_objets_009
+sort	81352		Description	a3147ea43c50	@req:689@\nSi vous connaissez Drain de vie, vous apprenez aussi |cFFFFFFFFDrain de vie (Drain de vie sans limites)|r, qui soigne 25% de moins.\n@s:81353:0@	lot sorts_objets_009
+sort	81352		Name	1e500cac4370	Drain de vie sans limites	lot sorts_objets_009
+sort	81362		Description	160ee7d54308	@req:5138@\nSi vous connaissez Drain de mana, vous apprenez aussi |cFFFFFFFFDrain de mana (Drain de mana sans limites)|r, qui cible en cône (20 mètres) jusqu'à 5 cibles.\n@s:81383:0@	lot sorts_objets_009
+sort	81362		Name	393acab7ddf7	Drain de mana sans limites	lot sorts_objets_009
+sort	81363		Description	41a8453e1852	@req:1120@\nSi vous connaissez Drain d'âme, vous apprenez aussi |cFFFFFFFFDrain d'âme (Drain d'âme sans limites)|r, qui cible en cône (20 mètres) jusqu'à 5 cibles.\n@s:81364:0@	lot sorts_objets_009
+sort	81363		Name	5b132726b2db	Drain d'âme sans limites	lot sorts_objets_009
+sort	81370		Description	befbf5d9f2b3	@req:15407@\nSi vous connaissez Fouet mental, vous apprenez aussi |cFFFFFFFFFouet mental (Fouet mental sans limites)|r, qui cible en cône jusqu'à 5 cibles, mais dont la portée est réduite à 10 mètres.\n\nNe fonctionne pas avec Malédiction d'Arugal.\n@s:81371:0@	lot sorts_objets_009
+sort	81370		Name	098fe72bf562	Fouet mental sans limites	lot sorts_objets_009
+sort	81380		Description	1a6d124be4f3	@req:25780@\nTransforme votre |cFFFFFFFFMain de la rétorsion|r en |cFFFFFFFFMain de la rétorsion (Poing de rétorsion)|r.\n@s:81384:0@	lot sorts_objets_009
+sort	81389		Description	6c4bb44a85b9	Vos sorts Projectiles des arcanes et Barrage des arcanes génèrent désormais des |cFFFFFFFFAtomes des arcanes|r.\n@s:81390:0@	lot sorts_objets_009
+sort	81389		Name	018e9c2371ad	Atomes des arcanes	lot sorts_objets_009
+sort	81398		Description	88f1d5605b1c	@req:48181@\nVotre aptitude Hanter ne soigne plus que 50%, mais soigne désormais aussi 3 membres du groupe ou du raid, en priorité les alliés ayant le moins de points de vie.	lot sorts_objets_009
+sort	81398		Name	3afae616403a	Siphonneur d'âmes	lot sorts_objets_009
+sort	81399		Description	50a7124dccc2	@req:5487@\r\nMutilation (ours) applique désormais |cFFFFFFFFRage|r et réinitialise le délai de récupération de Soif de sang.\r\n\r\nSoif de sang inflige $s1% de dégâts supplémentaires aux monstres et, sous l'effet de Berserker, touche jusqu'à $985280s2 cibles.\r\n\n@s:84443:0@\n@s:81401:0@\r\n@s:985274:0@	lot sorts_objets_009
+sort	81402		Description	bb2da9cdebc2	@req:16857@\n@req:5570@\nVotre Lucioles (farouche) applique désormais Essaim d'insectes.	lot sorts_objets_009
+sort	81402		Name	350705d81c54	Essaim de fées	lot sorts_objets_009
+sort	81403		Description	8fa7a5dc7930	Les soins de votre Salve de guérison et de votre Vague de soins inférieurs prolongent d'1 seconde la durée de votre Fleur de vie, Récupération et Rétablissement sur les cibles.	lot sorts_objets_009
+sort	81403		Name	4d425cf9592a	Jardin guérisseur	lot sorts_objets_009
+sort	81404		Description	b1b26bb5ce35	@req:61295@\nVos sorts de soins de Nature ont 20% de chances supplémentaires d'infliger un coup critique sur les alliés affectés par Remous. \r\n\r\nUn soin critique efficace de Vague de soins lance Remous sur un allié proche.\n\nL'effet de soins sur la durée de Remous peut désormais soigner de façon critique.	lot sorts_objets_009
+sort	81404		Name	be51dbe6b820	Marée basse	lot sorts_objets_009
+sort	81405		Description	ca21ef5461e1	@req:6807@\n@req:1822@\nVotre aptitude Mutiler rafraîchit la durée de Griffure sur votre cible.	lot sorts_objets_009
+sort	81405		Name	cb80a84aebd1	Griffes acérées	lot sorts_objets_009
+sort	81405		ToolTip	00078ecacfcd	Votre aptitude Mutiler rafraîchit la durée de Griffure sur votre cible.	lot sorts_objets_009
+sort	81406		Description	7c5c963fe0bf	@req:31935@\nLe délai de récupération de votre Bouclier du vengeur est réduit de 40%, mais il ne ralentit plus, ne rebondit plus sur des cibles supplémentaires et n'est plus affecté par le talent Bouclier du templier.	lot sorts_objets_009
+sort	81406		Name	7156a2817acb	Bouclier de courroux	lot sorts_objets_009
+sort	81407		Description	6717248cc6df	Immolation dure $/1000;881407s3 secondes de plus et inflige $s2% de dégâts supplémentaires aux monstres. @ext:($s3% vs players).:ext@\r\n\r\nImpact du chaos, Incinérer, Douleur brûlante ou Brûlure vous confèrent |cFFFFFFFFBrûlure contrôlée|r. \r\n\r\nImpact du chaos rafraîchit la durée de votre Immolation. Brûlure inflige des dégâts supplémentaires aux cibles embrasées.\r\n\r\nToucher un ennemi avec votre Conflagration déclenche |cFFFFFFFFSurchauffe !|r. \r\n\r\n@s:954675:0@\r\n@s:954715:0@	lot sorts_objets_009
+sort	81407		Name	9b3507992cd4	Brûlure contrôlée	lot sorts_objets_009
+sort	81408		Description	eddffc62c9c2	@req:1953@\n@req:1449@\nLancer Transfert déclenche une Explosion des arcanes. Pour chaque cible touchée par l'Explosion des arcanes, le délai de récupération de Transfert est réduit de 5 secondes, jusqu'à un maximum de 15 sec. De plus, la durée de Transfert amélioré est augmentée de 2 secondes.\n\nNe fonctionne pas avec les autres Enchantements mystiques qui appliquent des effets similaires à Transfert.	lot sorts_objets_009
+sort	81408		Name	a8acf67ef16e	Mage de guerre	lot sorts_objets_009
+sort	81415		Description	0f03436f54a0	@req:997610@\r\n@ext:A Duelist's Glove is an off-hand item that enables Swashbuckling. It is granted whenever you learn a talent or ability that requires it.:ext@\n\nNe fonctionne pas sous forme métamorphosée.\n@s:997610:0@\nRéduit de 10,5 sec les délais de récupération de vos sorts de Choc de chaman tant que vous faites le fier-à-bras.	lot sorts_objets_009
+sort	81415		Name	b8d5154b264e	Fier-à-bras : Soldat de choc	lot sorts_objets_009
+sort	81417		Description	ade545c67ca9	Augmente les soins de $s1%.\r\n\r\nLes soins directs efficaces appliquent |cFFFFFFFFChirurgien de terrain|r à vous-même et aux alliés situés à moins de 8 mètres de vous.\r\n@s:983881:0@\r\n@s:983879:0@	lot sorts_objets_009
+sort	81417		Name	6e00e43208f9	Chirurgien de terrain	lot sorts_objets_009
+sort	81418		Description	60a73ff74aa3	@req:965200@\nLes attaques automatiques de votre familier de chasseur n'infligent plus que des dégâts des Arcanes, mais infligent $s2% de dégâts en moins.\n\nNe se cumule pas avec les autres Enchantements mystiques de compagnon similaires.	lot sorts_objets_009
+sort	81418		Name	8a7ed8cc3d64	Compagnon mystique	lot sorts_objets_009
+sort	81419		Name	f7168e3f12a9	Compagnon fumant	lot sorts_objets_009
+sort	81420		Description	d1ac13e5672b	@req:965200@\nLes attaques automatiques de votre familier de chasseur n'infligent plus que des dégâts de Givre, mais infligent $s2% de dégâts en moins.\n\nNe se cumule pas avec les autres Enchantements mystiques de compagnon similaires.	lot sorts_objets_009
+sort	81420		Name	5a6dc5ae00f1	Compagnon glacial	lot sorts_objets_009
+sort	81421		Description	06c52fd09bf3	@req:965200@\nLes attaques automatiques de votre familier de chasseur n'infligent plus que des dégâts de Nature, mais infligent $s2% de dégâts en moins.\n\nNe se cumule pas avec les autres Enchantements mystiques de compagnon similaires.	lot sorts_objets_009
+sort	81421		Name	bd75e7d2bcb4	Compagnon voltaïque	lot sorts_objets_009
+sort	81422		Description	7fbac01d9f07	@req:965200@\nLes attaques automatiques de votre familier de chasseur n'infligent plus que des dégâts d'Ombre, mais infligent $s2% de dégâts en moins.\n\nNe se cumule pas avec les autres Enchantements mystiques de compagnon similaires.	lot sorts_objets_009
+sort	81422		Name	93d100de7fd0	Compagnon ombreux	lot sorts_objets_009
+sort	81437		Description	2920cf5af5fc	Vos aptitudes de guerrier ont une chance d'hébéter pendant 3 secondes les ennemis qui vous tournent le dos.	lot sorts_objets_009
+sort	81437		Name	45f923a9c7da	Fléau des lâches	lot sorts_objets_009
+sort	81439		Description	88c8b3171480	@req:8676@\nAugmente votre détection de la furtivité. Lorsque vous utilisez Embuscade sur une cible furtive, vous infligez le double de dégâts.	lot sorts_objets_009
+sort	81439		Name	edd0b611d28c	Agent double	lot sorts_objets_009
+sort	81444		Name	4537557a05af	Puissance supérieure	lot sorts_objets_009
+sort	81445		Description	e3b1197b97ef	Les totems de feu coûtent $s2% de mana supplémentaire, mais ont désormais des points de vie égaux à $s1% des vôtres. Le délai de récupération des Totems incendiaire et de magma est augmenté de 10 secondes.	lot sorts_objets_009
+sort	81445		Name	249e0ecdf33c	Maître des totems : Feu	lot sorts_objets_009
+sort	81446		Description	cf1a98af6681	@req:5487@\nLes augmentations d'Endurance et d'Armure de votre forme d'ours et d'ours redoutable persistent 3 secondes après avoir quitté la forme d'ours ou d'ours redoutable.	lot sorts_objets_009
+sort	81446		Name	2fc839c53903	Bénédiction d'Ursoc	lot sorts_objets_009
+sort	81448		Description	8e40770a2aa8	@req:53301@\nVotre Tir explosif est transformé en |cFFFFFFFFTir explosif (visé)|r.\n@s:81449:0@	lot sorts_objets_009
+sort	81448		Name	768c9e5b94d1	Tir explosif visé	lot sorts_objets_009
+sort	81453		Description	26e61594623f	@req:965200@\n@req:50334@\nVotre aptitude Berserk applique un bonus de Berserk à votre familier de chasseur, augmentant ses dégâts de 20% pendant la durée de l'effet.	lot sorts_objets_009
+sort	81453		Name	63e782e331d8	Pensée de groupe	lot sorts_objets_009
+sort	81455		Description	262b9d49f262	@req:15237@\nVotre Marteau du vertueux et votre Bouclier du vengeur déclenchent un effet semblable à Nova sacrée sur la première cible touchée.\n\nNe fonctionne pas avec Chirurgien sombre.	lot sorts_objets_009
+sort	81455		Name	6f3425b1c852	Frappes pieuses	lot sorts_objets_009
+sort	81465		Description	c7b88d60a24a	@req:33745@\nVotre Lacérer peut se cumuler $s1 fois supplémentaires, et son effet de dégâts sur la durée bénéficie désormais de la hâte en mêlée.	lot sorts_objets_009
+sort	81465		Name	8faa6ef294e1	Lacération implacable	lot sorts_objets_009
+sort	81466		Description	c569f2e24c4f	@req:33831@\nVos tréants privilégient désormais les cibles affligées par Sarments.	lot sorts_objets_009
+sort	81466		Name	79a654669d79	Racines de la forêt	lot sorts_objets_009

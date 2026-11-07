@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 07/11/2026 | Essai 8 (premières captures) : lignes « Utiliser : » en anglais, car 15 174 sorts d'objets du client CoA (patch-T) manquaient à la source ; plafond d'API relevé à **75 $** pour traduire ces sorts (≈ 173 000 mots) et la collection de vanité (≈ 45 000 mots) | Dan |
 | 07/11/2026 | Add-on 0.9.0 installé dans `D:\Wow_Core` (remplace la 0.8 avant l'essai 8) ; vocabulaire, point 32 : « Mystic Rift » = « Faille mystique » | Dan, après le rapport de la 0.9 |
 | 07/11/2026 | Décision 31 appliquée : titres, fêtes, descriptions de fêtes et familles de familiers relevés sur Wowhead en français (WotLK Classic), repris seulement si l'anglais de Wowhead au même numéro est exactement le nôtre, adresse en provenance ; les catégories de quêtes des fêtes prennent le nom de la fête (même anglais) ; le reste (catégories générales, suffixes propres à CoA) est traduit ; la vérification anti-robot de Wowhead n'est jamais remplie par Claude | Claude, sur la décision 31 de Dan |
 | 07/11/2026 | Add-on 0.8.0 installé ; plafond d'API relevé à 60 $ pour traduire les textes propres à CoA du client (Épreuves, aide au choix de classe, jetons, astuces, 382 sorts de l'interface) ; noms officiels absents de nos fichiers Blizzard (fêtes, titres, catégories de quêtes, familles de familiers) pris sur Wowhead en français, source notée (décision 31) | Dan, après l'essai 7 |

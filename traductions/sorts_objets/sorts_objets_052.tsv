@@ -1,0 +1,1280 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	680334		Description	ddef13dddb75	Augmente votre puissance des sorts de $s1% de votre Intelligence et augmente votre résistance à la Nature et au Givre de ${$m2+0}. Dure $d.\r\n\r\n@ext: Can only have 1 |cFFFFFFFFAegis|r up at a time.:ext@	lot sorts_objets_052
+sort	680334		Name	f114273e2d3d	Égide de la tempête	lot sorts_objets_052
+sort	680334		ToolTip	5431a2a0407f	Augmente votre puissance des sorts de ${$w1}% de votre Intelligence. Augmente votre résistance à la Nature et au Givre de ${$w2}.	lot sorts_objets_052
+sort	680390		Description	0bc7aa4a04d6	Vous entoure de magie de bronze pendant $d, ce qui augmente votre hâte des sorts de $s1% de votre Esprit et réduit de $s2% la durée des sorts magiques qui vous affectent.	lot sorts_objets_052
+sort	680390		Name	15dfc7147940	Célérité temporelle	lot sorts_objets_052
+sort	680390		ToolTip	febe6528e821	Hâte des sorts augmentée de $s1% de l'Esprit. Durée des sorts magiques réduite de $s2%.	lot sorts_objets_052
+sort	680456		Description	b7fa1f42f681	Vous entoure de magie réparatrice pendant $d, ce qui permet à $s2% de votre régénération du mana de continuer en combat et augmente votre régénération du mana de $s1% de votre Esprit.	lot sorts_objets_052
+sort	680456		Name	07d8f5588537	Restauration temporelle	lot sorts_objets_052
+sort	680456		ToolTip	75bd5ca03dae	$s2% de votre régénération du mana continue en combat. Régénération du mana augmentée de $s1% de votre Esprit.	lot sorts_objets_052
+sort	680535		Description	46dd6978e58a	Active une aura noire qui augmente votre Endurance de $s2% et augmente la résistance à l'Ombre de tous les membres du groupe et du raid de ${$m1+0}. Ne se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	680535		ToolTip	cb36426e5169	Résistance à l'Ombre augmentée de ${$w1}.	lot sorts_objets_052
+sort	680584		Description	46dd6978e58a	Active une aura noire qui augmente votre Endurance de $s2% et augmente la résistance à l'Ombre de tous les membres du groupe et du raid de ${$m1+0}. Ne se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	680584		ToolTip	cb36426e5169	Résistance à l'Ombre augmentée de ${$w1}.	lot sorts_objets_052
+sort	680585		Description	46dd6978e58a	Active une aura noire qui augmente votre Endurance de $s2% et augmente la résistance à l'Ombre de tous les membres du groupe et du raid de ${$m1+0}. Ne se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	680585		ToolTip	cb36426e5169	Résistance à l'Ombre augmentée de ${$w1}.	lot sorts_objets_052
+sort	680872		Description	fd038148b958	Imprègne tous les membres du groupe et du raid de l'esprit de Sen'jin pendant $d, ce qui augmente leur Esprit de $s1 et leurs résistances magiques de $s2.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	680872		Name	689e41b1848a	Wuju d'esprit supérieur	lot sorts_objets_052
+sort	681160		Description	7210a131b205	Place une |cffffffffDévotion|r sur tous les membres du raid et du groupe, ce qui leur rend $s1 points de mana toutes les 5 sec et réduit leurs coûts de $s2% pendant $d.\r\n\r\n@ext:Players may only have one |cFFFFFFFFDevotion|r on them per Clerc du soleil at any one time.:ext@	lot sorts_objets_052
+sort	681160		Name	87b89302a5ef	Dévotion de grâce supérieure	lot sorts_objets_052
+sort	681314		Description	0aab0ec4d598	Imprègne votre peau d'écailles draconiques, ce qui réduit de $s3% la durée des effets d'étourdissement qui vous affectent, augmente toutes vos résistances de ${$m1} et votre résistance au Feu de ${$m2} supplémentaires. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffSkin|r active at a time.:ext@	lot sorts_objets_052
+sort	681314		Name	173dc1ed6adc	Peau de dragon	lot sorts_objets_052
+sort	681314		ToolTip	da32f3c1cc89	Augmente toutes les résistances de $m1 et la résistance au Feu de ${$w2}. Durée des effets d'étourdissement réduite de ${$w3}%.	lot sorts_objets_052
+sort	681442		Description	3580c0c32001	Proclame un édit ensorcelant à tous les membres du groupe et du raid, ce qui augmente leur puissance des sorts de $s1.	lot sorts_objets_052
+sort	681442		Name	e49d38f68193	Édit ensorcelant supérieur	lot sorts_objets_052
+sort	681443		Description	39255d4019d6	Augmente la résistance à la Nature de tous les membres du groupe et du raid de ${$m3}.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	681443		Name	9469d8c76f2f	Faveur de Shadra	lot sorts_objets_052
+sort	681443		ToolTip	b9b15f8d246c	Résistance à la Nature augmentée de ${$m3}.	lot sorts_objets_052
+sort	681455		Description	4c3172344c6a	Place au sol un piège du Fléau qui dure $d et explose sur le premier ennemi mort-vivant ou démon qui s'en approche, infligeant instantanément ${$681457m1+$681457ppl1+$SP*2+$AP*1} points de dégâts du Sacré aux ennemis se trouvant à moins de $681457a1 mètres.	lot sorts_objets_052
+sort	681460		Description	61c3acc13b73	Active une |cffffffffProtection glaciale|r sur vous et vos serviteurs morts-vivants pendant $d.\r\n\r\nTant qu'elle est active, la Puissance runique maximale et l'Intelligence sont augmentées de $s1% et la durée des effets d'étourdissement qui vous affectent est réduite de $s2%.\r\n\r\n@ext:Only 1 |cffffffffWard|r can be active at a time.:ext@	lot sorts_objets_052
+sort	681460		Name	94f6f06b11ac	Protection glaciale	lot sorts_objets_052
+sort	681460		ToolTip	765b33042877	Puissance runique maximale et Intelligence augmentées de ${$w1}%. Durée des effets d'étourdissement réduite de ${$w2}%.	lot sorts_objets_052
+sort	681527		Description	3a8f990cda19	Augmente la résistance à la Nature de tous les membres du groupe et du raid de ${$m3} pendant $d.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	681527		Name	ff0baefed595	Bénédiction sauvage	lot sorts_objets_052
+sort	681527		ToolTip	b9b15f8d246c	Résistance à la Nature augmentée de ${$m3}.	lot sorts_objets_052
+sort	681529		Description	59e172462ca2	Active une |cffffffffProtection d'os|r sur vous et vos serviteurs morts-vivants pendant $d.\r\n\r\nTant qu'elle est active, l'Armure est augmentée de $s2% et l'Endurance de $s3%, et les dégâts de mêlée et à distance subis réduisent la puissance d'attaque de la cible de ${-($704706m1+$704706ppl1)}.\r\n\r\n@ext:Only 1 |cffffffffWard|r can be active at a time.:ext@	lot sorts_objets_052
+sort	681529		Name	f9241e8f9370	Protection d'os	lot sorts_objets_052
+sort	681529		ToolTip	9d40148b8056	Armure augmentée de ${$W2}% et Endurance de ${$W3}%, et les dégâts de mêlée et à distance subis réduisent la puissance d'attaque de la cible.	lot sorts_objets_052
+sort	681538		Description	3a8f990cda19	Augmente la résistance à la Nature de tous les membres du groupe et du raid de ${$m3} pendant $d.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	681538		Name	ff0baefed595	Bénédiction sauvage	lot sorts_objets_052
+sort	681538		ToolTip	b9b15f8d246c	Résistance à la Nature augmentée de ${$m3}.	lot sorts_objets_052
+sort	681539		Description	3a8f990cda19	Augmente la résistance à la Nature de tous les membres du groupe et du raid de ${$m3} pendant $d.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_052
+sort	681539		Name	ff0baefed595	Bénédiction sauvage	lot sorts_objets_052
+sort	681539		ToolTip	b9b15f8d246c	Résistance à la Nature augmentée de ${$m3}.	lot sorts_objets_052
+sort	684328		Description	af8eb3e3918c	Rend ses points de vie au faucon.	lot sorts_objets_052
+sort	684328		Name	b8376890ef26	Soigner les blessures de Jo	lot sorts_objets_052
+sort	685000		Description	ad402c4b02cd	Lance un crochet de boucher devant vous qui inflige $685003s1 points de dégâts physiques à tout ennemi touché et l'attire vers vous.	lot sorts_objets_052
+sort	685000		Name	907c7457e1cf	Crochet de boucher	lot sorts_objets_052
+sort	685013		Description	2296bf92f460	Éclabousse un citoyen avec la mixture.	lot sorts_objets_052
+sort	685013		Name	f1190118f2d1	Empoisonner le monde	lot sorts_objets_052
+sort	686000		Name	4a126f4379ee	Épée	lot sorts_objets_052
+sort	686001		Name	4a126f4379ee	Épée	lot sorts_objets_052
+sort	686002		Name	4a126f4379ee	Épée	lot sorts_objets_052
+sort	686003		Name	4a126f4379ee	Épée	lot sorts_objets_052
+sort	686004		Description	1d6ad4873d6b	Attaque les ennemis à moins de $a1 mètres et leur inflige $s1 points de dégâts physiques.	lot sorts_objets_052
+sort	686005		Description	1d6ad4873d6b	Attaque les ennemis à moins de $a1 mètres et leur inflige $s1 points de dégâts physiques.	lot sorts_objets_052
+sort	686006		Description	1d6ad4873d6b	Attaque les ennemis à moins de $a1 mètres et leur inflige $s1 points de dégâts physiques.	lot sorts_objets_052
+sort	686007		Description	1d6ad4873d6b	Attaque les ennemis à moins de $a1 mètres et leur inflige $s1 points de dégâts physiques.	lot sorts_objets_052
+sort	686008		Description	fb7658c44365	Inflige $s1 points de dégâts physiques aux ennemis dans un cône devant le lanceur.	lot sorts_objets_052
+sort	686009		Description	fb7658c44365	Inflige $s1 points de dégâts physiques aux ennemis dans un cône devant le lanceur.	lot sorts_objets_052
+sort	686010		Description	fb7658c44365	Inflige $s1 points de dégâts physiques aux ennemis dans un cône devant le lanceur.	lot sorts_objets_052
+sort	686011		Description	fb7658c44365	Inflige $s1 points de dégâts physiques aux ennemis dans un cône devant le lanceur.	lot sorts_objets_052
+sort	686012		Description	8461e0d3c68d	Une vague de flammes rayonne depuis le lanceur et inflige $s1 points de dégâts de Feu à tous les ennemis.	lot sorts_objets_052
+sort	686012		Name	4a9a32176fc7	Bâton de feu	lot sorts_objets_052
+sort	686013		Description	8461e0d3c68d	Une vague de flammes rayonne depuis le lanceur et inflige $s1 points de dégâts de Feu à tous les ennemis.	lot sorts_objets_052
+sort	686013		Name	4a9a32176fc7	Bâton de feu	lot sorts_objets_052
+sort	686014		Description	8461e0d3c68d	Une vague de flammes rayonne depuis le lanceur et inflige $s1 points de dégâts de Feu à tous les ennemis.	lot sorts_objets_052
+sort	686014		Name	4a9a32176fc7	Bâton de feu	lot sorts_objets_052
+sort	686015		Description	8461e0d3c68d	Une vague de flammes rayonne depuis le lanceur et inflige $s1 points de dégâts de Feu à tous les ennemis.	lot sorts_objets_052
+sort	686015		Name	4a9a32176fc7	Bâton de feu	lot sorts_objets_052
+sort	686309		Description	267ca4c2f8d4	Désintègre une créature.	lot sorts_objets_052
+sort	686309		ToolTip	267ca4c2f8d4	Désintègre une créature.	lot sorts_objets_052
+sort	687000		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687000		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687001		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687001		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687002		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687002		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687003		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687003		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687004		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687004		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687005		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687005		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687006		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687006		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687007		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687007		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687008		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687008		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687009		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687009		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687010		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687010		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687011		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687011		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687012		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687012		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687013		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687013		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687014		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687014		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687015		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687015		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687016		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687016		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687017		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687017		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687018		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687018		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687019		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687019		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687020		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687020		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687021		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687021		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687022		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687022		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687023		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687023		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687024		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687024		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687025		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687025		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687026		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687026		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687027		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687027		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687028		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687028		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687029		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687029		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687030		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687030		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687031		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687031		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687032		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687032		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687033		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687033		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687034		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687034		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687035		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687035		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687036		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687036		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687037		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687037		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687038		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687038		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687039		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687039		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687040		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687040		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687041		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687041		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687042		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687042		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687043		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687043		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687044		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687044		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687045		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687045		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687046		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687046		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687047		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687047		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687048		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687048		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687049		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687049		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687050		Description	575093f73ae4	Dégâts principaux	lot sorts_objets_052
+sort	687050		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687051		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687052		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687053		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687054		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687055		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687056		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687057		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687058		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687059		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687060		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687061		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687062		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687063		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687064		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687065		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687066		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687067		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687068		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687069		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687070		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687071		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687072		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687073		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687074		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687075		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687076		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687077		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687078		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687079		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687080		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687081		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687082		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687083		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687084		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687085		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687086		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687087		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687088		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687089		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687090		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687091		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687092		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687093		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687094		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687095		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687096		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687097		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687098		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687099		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687200		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687200		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687201		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687201		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687202		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687202		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687203		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687203		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687204		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687204		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687205		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687205		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687206		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687206		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687207		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687207		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687208		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687208		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687209		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687209		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687210		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687210		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687211		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687211		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687212		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687212		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687213		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687213		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687214		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687214		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687215		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687215		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687216		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687216		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687217		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687217		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687218		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687218		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687219		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687219		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687220		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687220		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687221		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687221		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687222		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687222		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687223		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687223		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687224		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687224		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687225		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687225		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687226		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687226		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687227		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687227		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687228		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687228		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687229		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687229		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687230		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687230		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687231		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687231		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687232		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687232		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687233		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687233		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687234		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687234		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687235		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687235		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687236		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687236		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687237		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687237		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687238		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687238		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687239		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687239		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687240		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687240		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687241		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687241		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687242		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687242		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687243		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687243		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687244		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687244		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687245		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687245		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687246		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687246		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687247		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687247		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687248		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687248		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687249		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687249		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687250		Description	370a5531db3e	Dégâts utilitaires	lot sorts_objets_052
+sort	687250		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687251		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687252		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687253		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687254		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687255		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687256		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687257		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687258		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687259		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687260		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687261		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687262		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687263		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687264		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687265		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687266		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687267		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687268		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687269		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687270		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687271		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687272		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687273		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687274		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687275		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687276		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687277		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687278		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687279		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687280		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687281		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687282		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687283		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687284		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687285		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687286		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687287		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687288		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687289		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687290		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687291		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687292		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687293		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687294		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687295		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687296		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687297		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687298		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687299		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687400		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687400		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687401		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687401		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687402		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687402		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687403		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687403		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687404		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687404		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687405		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687405		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687406		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687406		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687407		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687407		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687408		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687408		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687409		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687409		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687410		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687410		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687411		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687411		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687412		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687412		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687413		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687413		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687414		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687414		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687415		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687415		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687416		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687416		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687417		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687417		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687418		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687418		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687419		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687419		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687420		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687420		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687421		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687421		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687422		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687422		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687423		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687423		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687424		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687424		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687425		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687425		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687426		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687426		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687427		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687427		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687428		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687428		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687429		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687429		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687430		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687430		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687431		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687431		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687432		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687432		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687433		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687433		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687434		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687434		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687435		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687435		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687436		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687436		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687437		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687437		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687438		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687438		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687439		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687439		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687440		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687440		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687441		Description	02f997b5c294	« Empoisonne » un citoyen.	lot sorts_objets_052
+sort	687441		Name	f1190118f2d1	Empoisonner le monde	lot sorts_objets_052
+sort	687441		Rank	e9babfaa1a01	Crédit de mort 2	lot sorts_objets_052
+sort	687442		Description	b93e706863ed	Devenez un phare de lumière dans un monde sombre pendant $d.	lot sorts_objets_052
+sort	687442		ToolTip	529dd6c080b2	Brille de mille feux. Permet de voir les morts-vivants sur la minicarte.	lot sorts_objets_052
+sort	687443		Description	9ad1123de557	Atteignez le cercle rituel.	lot sorts_objets_052
+sort	687443		Rank	27bee197468d	Crédit de mort 1	lot sorts_objets_052
+sort	687444		Description	6eb122bdd3e0	Augmente votre armure de ${$m1+0} et vos dégâts de Nature de ${$m2+0} pendant $d.	lot sorts_objets_052
+sort	687444		ToolTip	f9e31c9bb6a5	Armure augmentée de $s1 et dégâts de Nature augmentés de $s2.	lot sorts_objets_052
+sort	687445		Description	9ad1123de557	Atteignez le cercle rituel.	lot sorts_objets_052
+sort	687445		Rank	99380b9e62d2	Crédit de mort de quête de niveau 2	lot sorts_objets_052
+sort	687600		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687600		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687601		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687601		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687602		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687602		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687603		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687603		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687604		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687604		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687605		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687605		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687606		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687606		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687607		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687607		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687608		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687608		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687609		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687609		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687610		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687610		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687611		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687611		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687612		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687612		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687613		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687613		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687614		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687614		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687615		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687615		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687616		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687616		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687617		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687617		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687618		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687618		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687619		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687619		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687620		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687620		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687621		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687621		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687622		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687622		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687623		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687623		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687624		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687624		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687625		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687625		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687626		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687626		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687627		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687627		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687628		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687628		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687629		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687629		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687630		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687630		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687631		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687631		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687632		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687632		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687633		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687633		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687634		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687634		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687635		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687635		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687636		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687636		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687637		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687637		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687638		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687638		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687639		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687639		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687640		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687640		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687641		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687641		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687642		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687642		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687643		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687643		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687644		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687644		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687645		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687645		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687646		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687646		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687647		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687647		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687648		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687648		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687649		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687649		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687650		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687650		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687651		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687651		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687652		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687652		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687653		Description	1f880bb1d3af	Mobilité	lot sorts_objets_052
+sort	687653		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687654		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687654		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687655		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687655		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687656		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687656		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687657		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687657		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687658		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687658		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687659		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687659		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687660		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687660		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687661		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687661		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687662		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687662		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687663		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687663		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687664		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687664		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687665		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687665		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687666		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687666		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687667		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687667		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687668		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687668		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687669		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687669		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687670		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687670		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687671		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687671		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687672		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687672		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687673		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687673		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687674		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687674		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687675		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687675		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687676		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687676		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687677		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687677		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687678		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687678		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687679		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687679		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687680		Description	5e3c75abc9c8	Contrôle des foules	lot sorts_objets_052
+sort	687680		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687681		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687682		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687683		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687684		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687685		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687686		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687687		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687688		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687689		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687690		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687691		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687692		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687693		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687694		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687695		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687696		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687697		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687698		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687699		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687700		Description	fb408584a88e	Joue les sons des ancêtres pendant $d.	lot sorts_objets_052
+sort	687800		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687800		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687801		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687801		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687802		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687802		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687803		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687803		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687804		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687804		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687805		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687805		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687806		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687806		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687807		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687807		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687808		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687808		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687809		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687809		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687810		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687810		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687811		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687811		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687812		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687812		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687813		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687813		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687814		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687814		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687815		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687815		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687816		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687816		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687817		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687817		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687818		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687818		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687819		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687819		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687820		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687820		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687821		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687821		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687822		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687822		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687823		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687823		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687824		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687824		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687825		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687825		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687826		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687826		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687827		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687827		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687828		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687828		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687829		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687829		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687830		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687830		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687831		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687831		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687832		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687832		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687833		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687833		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687834		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687834		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687835		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687835		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687836		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687836		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687837		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687837		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687838		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687838		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687839		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687839		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687840		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687840		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687841		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687841		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687842		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687842		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687843		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687843		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687844		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687844		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687845		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687845		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687846		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687846		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687847		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687847		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687848		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687848		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687849		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687849		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687850		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687850		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687851		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687851		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687852		Description	1c59d3d634d7	Défensif	lot sorts_objets_052
+sort	687852		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687853		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687854		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687855		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687856		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687857		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687858		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687859		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687860		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687861		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687862		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687863		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687864		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687865		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687866		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687867		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687868		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687869		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687870		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687871		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687872		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687873		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687874		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687875		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687876		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687877		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687878		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687879		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687880		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687881		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687882		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687883		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687884		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687885		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687886		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687887		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687888		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687889		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687890		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687891		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687892		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687893		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687894		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687895		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687896		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687897		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687898		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	687899		Name	f8dcf5b88f88	Apprendre un sort	lot sorts_objets_052
+sort	690101		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690101		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690102		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690102		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690103		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690103		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690104		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690104		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690105		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690105		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690106		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690106		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690111		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690111		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690112		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690112		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690113		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690113		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690114		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690114		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690115		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690115		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690116		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690116		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690121		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690121		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690122		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690122		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690123		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690123		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690124		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690124		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690125		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690125		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690126		Description	a1fce1bd880e	Augmente les dégâts physiques infligés de $s1%.	lot sorts_objets_052
+sort	690126		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690201		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690201		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690202		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690202		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690203		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690203		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690204		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690204		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690205		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690205		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690206		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690206		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690211		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690211		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690212		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690212		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690213		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690213		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690214		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690214		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690215		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690215		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690216		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690216		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690221		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690221		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690222		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690222		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690223		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690223		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690224		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690224		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690225		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690225		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690226		Description	4af9afc4e3e7	Augmente les dégâts magiques et physiques infligés de $s1%.	lot sorts_objets_052
+sort	690226		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690301		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690301		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690302		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690302		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690303		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690303		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690304		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690304		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690305		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690305		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690306		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690306		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690311		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690311		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690312		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690312		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690313		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690313		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690314		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690314		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690315		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690315		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690316		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690316		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690321		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690321		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690322		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690322		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690323		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690323		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690324		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690324		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690325		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690325		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	690326		Description	2d5a5043cf9d	Augmente les dégâts magiques infligés de $s1%.	lot sorts_objets_052
+sort	690326		Name	822206632ff6	Augmente les dégâts physiques infligés	lot sorts_objets_052
+sort	700182		Description	4f0d8d1241b1	Les dégâts directs des sorts libèrent une explosion de givre qui inflige ${$700189m1+$SP*0.08+$AP*0.08} points de dégâts de Givre aux ennemis à moins de 6 mètres pendant $d.	lot sorts_objets_052
+sort	700182		ToolTip	f4367f90eb48	Les dégâts directs des sorts libèrent une explosion de givre qui inflige ${$700189m1+$SP*0.08+$AP*0.08} points de dégâts de Givre aux ennemis à moins de 6 mètres.	lot sorts_objets_052
+sort	700186		Description	f0ab6fb34a6e	Marque 4 cibles devant vous avec un Conduit électrique pendant $700187d.\r\n\r\nInfliger des dégâts à un Conduit électrique inflige ${$700190m1+$SP*0.24+$AP*0.24} points de dégâts aux cibles proches	lot sorts_objets_052
+sort	700186		Name	edb15903a6b0	Conduit électrique	lot sorts_objets_052
+sort	700500		Description	686f7ff33354	Vos sorts directs de soins et de dégâts augmentent votre puissance des sorts de 4 pendant 10 sec, cumulable jusqu'à 12 fois.	lot sorts_objets_052
+sort	700500		Name	c3033c9ea875	Insigne du dragon	lot sorts_objets_052
+sort	700502		Description	a805b6d90d1a	Vos sorts directs de soins et de dégâts augmentent votre puissance des sorts de 4 pendant 10 sec, cumulable jusqu'à 13 fois.	lot sorts_objets_052
+sort	700502		Name	c3033c9ea875	Insigne du dragon	lot sorts_objets_052
+sort	700504		Description	e030fad22966	Vos sorts directs de soins et de dégâts augmentent votre puissance des sorts de 4 pendant 10 sec, cumulable jusqu'à 14 fois	lot sorts_objets_052
+sort	700504		Name	c3033c9ea875	Insigne du dragon	lot sorts_objets_052
+sort	700506		Description	703e7d9a55bd	Vos sorts directs de soins et de dégâts augmentent votre puissance des sorts de 4 pendant 10 sec, cumulable jusqu'à 15 fois	lot sorts_objets_052
+sort	700506		Name	c3033c9ea875	Insigne du dragon	lot sorts_objets_052
+sort	700510		Description	688c20f2842b	Vos aptitudes directes de dégâts en mêlée et à distance augmentent votre puissance d'attaque de 5 pendant 10 sec, cumulable jusqu'à 13 fois.	lot sorts_objets_052
+sort	700512		Description	c84dad5c085e	Vos aptitudes directes de dégâts en mêlée et à distance augmentent votre puissance d'attaque de 5 pendant 10 sec, cumulable jusqu'à 14 fois.	lot sorts_objets_052
+sort	700514		Description	7ee24fbc993a	Vos aptitudes directes de dégâts en mêlée et à distance augmentent votre puissance d'attaque de 5 pendant 10 sec, cumulable jusqu'à 15 fois.	lot sorts_objets_052
+sort	700516		Description	0ef47b111cf9	Vos aptitudes directes de dégâts en mêlée et à distance augmentent votre puissance d'attaque de 5 pendant 10 sec, cumulable jusqu'à 16 fois.	lot sorts_objets_052
+sort	705669		Description	134bc8dd003d	|cFFFFFFFF3 charges, recharge de 12 sec|r \r\nFait tomber une violente décharge de tonnerre qui brise la magie et retire $m1 $leffet magique bénéfique:effets magiques bénéfiques;. 	lot sorts_objets_052
+sort	705669		Name	9ebc6c5512a9	Brise-tempête	lot sorts_objets_052
+sort	705669		ToolTip	65ee6da6a842	3 charges\r\nRecharge de 12 sec\r\nFoudroie la cible ennemie et retire $m1 $leffet magique bénéfique:effets magiques bénéfiques;. 	lot sorts_objets_052
+sort	706767		Description	12786af0a1ce	Vous permet de marcher sur l'eau.	lot sorts_objets_052
+sort	706767		Name	e6565b95ca4a	Marche sur l'eau	lot sorts_objets_052
+sort	706767		Rank	ff4d8631f31e	Bottes de quête de faucheur de niveau 3	lot sorts_objets_052
+sort	706767		ToolTip	12786af0a1ce	Vous permet de marcher sur l'eau.	lot sorts_objets_052
+sort	706969		Description	9ec7dfa95076	|cffffffff3 charges, recharge de 15 sec|r \r\nRalentit la vitesse de déplacement d'un ennemi de $s1% pendant $d.	lot sorts_objets_052
+sort	706969		Name	49ca626b39fc	Chronostase	lot sorts_objets_052
+sort	707236		Description	db0bccc41974	Les coups critiques de mêlée et à distance infligeant des dégâts ont une chance de vous rendre un nombre de points de vie égal à $s1% des dégâts infligés.	lot sorts_objets_052
+sort	707365		Description	947b7f2dbd06	Surcharge tous les ennemis mécaniques dans une zone ciblée et les désoriente pendant $d (8 sec contre les joueurs).	lot sorts_objets_052
+sort	707365		Name	e8bf0df45e70	Surcharge mécanique	lot sorts_objets_052
+sort	707372		Description	deb7e013f2cb	Tuer un ennemi qui rapporte de l'expérience ou de l'honneur vous rend désormais $707373s1 points d'Énergie.\r\n\r\nNe peut se produire qu'une fois toutes les 5 sec.	lot sorts_objets_052
+sort	707372		Name	06bdb287fc6e	Triomphant	lot sorts_objets_052
+sort	707671		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707671		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707672		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707672		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707673		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707673		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707674		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707674		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707675		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707675		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707676		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707676		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707677		Description	c112100c7fa6	Donne un peu de wuju à un allié, ce qui augmente sa puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	707677		Name	95ce1a6117a5	Wuju de puissance	lot sorts_objets_052
+sort	707689		Name	f1b1603a8553	Phéromones toxiques	lot sorts_objets_052
+sort	707689		ToolTip	5cf1f5e40aff	Puissance des sorts augmentée de ${$W1}.	lot sorts_objets_052
+sort	707690		Name	f1b1603a8553	Phéromones toxiques	lot sorts_objets_052
+sort	707690		ToolTip	5cf1f5e40aff	Puissance des sorts augmentée de ${$W1}.	lot sorts_objets_052
+sort	707691		Name	f1b1603a8553	Phéromones toxiques	lot sorts_objets_052
+sort	707691		ToolTip	5cf1f5e40aff	Puissance des sorts augmentée de ${$W1}.	lot sorts_objets_052
+sort	707692		Name	f1b1603a8553	Phéromones toxiques	lot sorts_objets_052
+sort	707692		ToolTip	5cf1f5e40aff	Puissance des sorts augmentée de ${$W1}.	lot sorts_objets_052
+sort	707738		Description	e2c55b13fc49	Appelle les morts, supprimant le coût et le temps d'incantation de tous les sorts |cFFFFFFFFRaise|r et |cffffffffAnimates|r pendant $d.	lot sorts_objets_052
+sort	707738		ToolTip	e8840f3aac55	Vos sorts Raise et Animate ne coûtent pas de mana et sont instantanés.	lot sorts_objets_052
+sort	707763		Description	cc7a9b7418ce	Vos instincts de chasseur déstabilisent les ennemis proches, réduisant leur vitesse de déplacement de $s1% et permettant de les voir même furtifs ou invisibles.\r\n\r\n@ext: You may only have 1 |cffffffffSpirit|r spell active at a time.:ext@	lot sorts_objets_052
+sort	707763		Name	4fc3b20f822c	Esprit de la chasse	lot sorts_objets_052
+sort	707763		ToolTip	194d6fe80763	Vitesse de déplacement réduite de ${$w1}%. Visible malgré la furtivité ou l'invisibilité.	lot sorts_objets_052
+sort	707764		Description	e8b4c7331fb4	Votre esprit se nourrit du choc des combats, augmentant de $s1% les coûts en ressources des ennemis proches et donnant aux dégâts directs subis une chance de rendre 10 points d'Énergie.\r\n\r\n@ext: You may only have 1 |cffffffffSpirit|r spell active at a time.:ext@	lot sorts_objets_052
+sort	707764		Name	41696161ec61	Esprit du conflit	lot sorts_objets_052
+sort	707764		ToolTip	ca9639f6f099	Coûts en ressources augmentés de ${$w1}%. Les dégâts directs subis ont une chance de rendre 10 points d'Énergie.	lot sorts_objets_052
+sort	707775		Description	7a749cfc38af	Votre esprit de combat brutal affaiblit les ennemis proches et réduit leur puissance d'attaque de ${-($m1)}.\r\n\r\n@ext: You may only have 1 |cffffffffSpirit|r spell active at a time.:ext@	lot sorts_objets_052
+sort	707775		Name	ecca48f02a9c	Esprit de sauvagerie	lot sorts_objets_052
+sort	707775		ToolTip	f5533e65d44c	Puissance d'attaque réduite de ${-($707775m1)}.	lot sorts_objets_052
+sort	707900		Description	5696a61d0319	Régénère instantanément $s1% de votre Rage maximale en échange de points de vie.	lot sorts_objets_052
+sort	712458		Description	21794e0676f2	Donne un peu de wuju à tous les membres du groupe et du raid, ce qui augmente leur puissance d'attaque en mêlée et à distance de $s1. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	712458		Name	7ba70af41ca3	Wuju de puissance supérieur	lot sorts_objets_052
+sort	712459		Name	56324df19ff6	Phéromones toxiques supérieures	lot sorts_objets_052
+sort	712459		ToolTip	5cf1f5e40aff	Puissance des sorts augmentée de ${$W1}.	lot sorts_objets_052
+sort	712467		Description	1d36fa3d1138	Votre présence martiale ébranle la détermination des ennemis proches, réduisant de $s1% leur chance de coup critique avec les sorts et augmentant de $s3% leur retard d'incantation.\r\n\r\n@ext: You may only have 1 |cffffffffSpirit|r spell active at a time.:ext@	lot sorts_objets_052
+sort	712467		Name	0fe9ccb7edbf	Esprit de guerre	lot sorts_objets_052
+sort	712467		ToolTip	42f71e42a410	Chance de coup critique des sorts réduite de ${$w1}% et retard d'incantation augmenté de ${$w3}%.	lot sorts_objets_052
+sort	712468		Description	bb88c44b92ec	L'odeur du sang emplit d'effroi les ennemis proches : ils subissent $712681s1% de dégâts physiques supplémentaires lorsqu'ils ont moins de 35% de leurs points de vie, et vos coups fatals vous confèrent |cffffffffNé dans le sang|r.@s:560521:0@\r\n\r\n@ext: You may only have 1 |cffffffffSpirit|r spell active at a time.:ext@	lot sorts_objets_052
+sort	712468		Name	de237338086b	Esprit du carnage	lot sorts_objets_052
+sort	712468		ToolTip	83367063249f	Dégâts subis augmentés de ${$w1}% lorsque les points de vie sont inférieurs à 20%.	lot sorts_objets_052
+sort	728855		Description	2fee20c70f34	Augmente les dégâts de votre aptitude Mutiler de ${$m1+0} et de votre aptitude Balayage (ours) de ${$m2+0}.	lot sorts_objets_052
+sort	728859		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728859		Name	ed15eaa3e5f9	Idole de brutalité (Mythique 5)	lot sorts_objets_052
+sort	728860		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728860		Name	6e5f525d3faa	Idole de brutalité (Mythique 10)	lot sorts_objets_052
+sort	728861		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728861		Name	f197d3027d5a	Idole de brutalité (Mythique 15)	lot sorts_objets_052
+sort	728862		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728862		Name	9ac447d17dc9	Idole de brutalité (Mythique 20)	lot sorts_objets_052
+sort	728863		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728863		Name	00f6ce87bcb3	Idole de brutalité (Mythique 25)	lot sorts_objets_052
+sort	728864		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728864		Name	8a61ff663766	Idole de brutalité (Mythique 30)	lot sorts_objets_052
+sort	728865		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728865		Name	d04e299f567e	Idole de brutalité (Mythique 35)	lot sorts_objets_052
+sort	728866		Description	052580e9d941	Augmente les dégâts de votre aptitude Mutiler de $s1 et de votre aptitude Balayage (ours) de $s2.	lot sorts_objets_052
+sort	728866		Name	6659bb55ace5	Idole de brutalité (Mythique 40)	lot sorts_objets_052
+sort	750683		Description	5321d3727cc1	Enseigne les aptitudes d'épée !	lot sorts_objets_052
+sort	750751		Description	941f46476575	Répare $s1% de la durabilité de vos objets.	lot sorts_objets_052
+sort	750751		ToolTip	941f46476575	Répare $s1% de la durabilité de vos objets.	lot sorts_objets_052
+sort	750752		Description	3dd9d76345f5	Vous transforme en caisse indéfiniment. Cet effet est rompu par tout mouvement ou toute action.	lot sorts_objets_052
+sort	750752		Name	c3ec8a32d23f	Transformation en caisse	lot sorts_objets_052
+sort	750752		ToolTip	2fdccc14c335	D'où sort cette caisse… ? Je me demande ce qu'il y a dedans… ?	lot sorts_objets_052
+sort	750753		Description	67f785b091f0	Vous recouvre d'appât pour zombies, ce qui attire les zombies proches.	lot sorts_objets_052
+sort	750753		ToolTip	0b23ea7a1416	Recouvert d'appât pour zombies.	lot sorts_objets_052
+sort	752102		Description	7c5d22b8ebc7	Inflige $s1 points de dégâts de Feu aux attaquants.	lot sorts_objets_052
+sort	752102		Name	b68d2946f197	Flammes infernales	lot sorts_objets_052
+sort	752102		ToolTip	24927f30f488	Inflige $s1 points de dégâts de Feu aux attaquants.	lot sorts_objets_052
+sort	752784		Description	67ab0f9e817f	Les attaques infligent $752786s1 points de dégâts du Sacré supplémentaires.	lot sorts_objets_052
+sort	752784		Name	322721f6dc1a	Frappe sacrée	lot sorts_objets_052
+sort	752784		ToolTip	16ba013f5ba3	Les attaques infligent ${$w1} points de dégâts du Sacré supplémentaires.	lot sorts_objets_052
+sort	760123		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760123		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760124		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760124		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760125		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760125		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760126		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760126		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760127		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760127		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760128		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760128		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760129		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760129		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760130		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760130		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760242		Description	06ed2bcd2592	Déchaîne un jet de flammes surchauffées sur l'ennemi, infligeant ${$m1+($ap*0.2465)+($sp*0.3792)} points de dégâts de Tempête de feu, puis rebondit sur d'autres ennemis proches. Affecte $x1 cibles au total.\r\n\r\nRayon de lave ne peut être lancé que si vous êtes affecté par Ascendance des flammes.	lot sorts_objets_052
+sort	760242		Name	40db7a9c6e98	Rayon de lave	lot sorts_objets_052
+sort	760369		Description	db3540df5a46	Inflige $s1 points de dégâts de Nature à un ennemi.	lot sorts_objets_052
+sort	760373		Description	bcaefd87bbe6	Augmente de $s1 les dégâts de |cffffffffGriffe sauvage|r.	lot sorts_objets_052
+sort	770000		Description	c838387e426f	Affiche sur la minicarte l'emplacement de toutes les bêtes proches.	lot sorts_objets_052
+sort	770000		Rank	47382fdfa24c	Couteau de pisteur	lot sorts_objets_052
+sort	770100		Description	4a00497d1661	Rend ${20+$ppl1} points de vie.\r\n\r\nUtilisable uniquement dans les champs de bataille.\r\n\r\nLes potions de soins et de mana peuvent être utilisées avec un délai de récupération distinct de celui des autres potions en combat.	lot sorts_objets_052
+sort	770101		Description	d52636245ef0	Rend ${$max(($pl*25-100), 150)} points de mana.\r\n\r\nUtilisable uniquement dans les champs de bataille.\r\n\r\nLes potions de soins et de mana peuvent être utilisées avec un délai de récupération distinct de celui des autres potions en combat.	lot sorts_objets_052
+sort	774997		Description	27a5e44a2bcc	$?s552011[][Augmente de $s1% les chances de coup critique des sorts]	lot sorts_objets_052
+sort	774997		Name	c4c7615a5613	Maîtrise des sorts - Main gauche	lot sorts_objets_052
+sort	774997		ToolTip	164ba4c1a8c2	Augmente de $s1% les chances de coup critique des sorts	lot sorts_objets_052
+sort	777032		Description	0176ad516dbf	Vous ramène auprès de Gabril Mewell à Havrenuit, à Reflet-de-Lune.	lot sorts_objets_052
+sort	777201		Description	1e4dc7c3b563	Réinitialise les statistiques d'arène 1v1.	lot sorts_objets_052
+sort	777201		Name	e022538a05dd	Réinitialiser l'équipe d'arène 1v1	lot sorts_objets_052
+sort	777201		ToolTip	73bbd5cf6bc2	Réinitialise les statistiques d'arène 1v1.	lot sorts_objets_052
+sort	777203		Description	a655a4daefc3	Réinitialise les statistiques d'arène 2v2.	lot sorts_objets_052
+sort	777203		Name	1adf6ffd0288	Réinitialiser l'équipe d'arène 2v2	lot sorts_objets_052
+sort	777203		ToolTip	5113084588fe	Réinitialise les statistiques d'arène 2v2.	lot sorts_objets_052
+sort	777204		Description	b441378f1028	Réinitialise les statistiques d'arène 3v3.	lot sorts_objets_052
+sort	777204		Name	abc3c3f581de	Réinitialiser l'équipe d'arène 3v3	lot sorts_objets_052
+sort	777204		ToolTip	d6090b0baa85	Réinitialise les statistiques d'arène 3v3.	lot sorts_objets_052
+sort	777800		Description	82ff9bd28358	Donne à l'utilisateur 100 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	777801		Description	2d38849d9b5e	Donne à l'utilisateur 321 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	777802		Description	20e0efb7fbe1	Donne à l'utilisateur 560 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	777803		Description	51eff3ef9251	Donne à l'utilisateur 868 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	777804		Description	01da79bf5108	Donne à l'utilisateur 1350 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	777805		Description	5ba8efc72f23	Donne à l'utilisateur 2800 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	777805		Name	76e98ce5778a	2660 jetons Bazar	lot sorts_objets_052
+sort	777806		Description	211d7ec9741b	Donne à l'utilisateur 20 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	778021		Description	b0c18aca16d0	Donne à l'utilisateur 2000 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	778022		Description	c2ec1c31c673	Donne à l'utilisateur 1000 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	778023		Description	a6f4343a9c02	Donne à l'utilisateur 500 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	778024		Description	3ac3cadaf9b7	Donne à l'utilisateur 50 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	778025		Description	2f401682182f	Donne à l'utilisateur 25 jetons Bazar à dépenser au Bazar éthérien de Tiraxis.	lot sorts_objets_052
+sort	800006		Description	a96f92ba3620	Brandir le document compromettant	lot sorts_objets_052
+sort	800006		ToolTip	0384663593ca	Montrez le document compromettant à Dathrohan.	lot sorts_objets_052
+sort	800074		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	800074		Name	a7f0da171d22	Invocation d'un autel mystique	lot sorts_objets_052
+sort	800195		Description	181cd30d34a2	Investit les membres du groupe et du raid proches de vaudou, réduisant leurs coûts en ressources de $s1%. Dure $d.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_052
+sort	800195		Name	b98162fa497d	Wuju ingénieux supérieur	lot sorts_objets_052
+sort	800274		Description	1d1a95813dff	Augmente de $s1% votre vitesse de Secourisme et de Dépeçage pendant $d.	lot sorts_objets_052
+sort	800274		ToolTip	f6faf9a90e94	Vitesse de fabrication en Secourisme et en Dépeçage augmentée de $s1%.	lot sorts_objets_052
+sort	800292		Description	963d683651f2	Augmente votre vitesse de nage de $s2% et vous permet de respirer sous l'eau en permanence.	lot sorts_objets_052
+sort	800292		Name	1c8f29359a98	Bénédiction de Mu'sha	lot sorts_objets_052
+sort	800292		ToolTip	7a7094fae1cc	Augmente votre vitesse de nage de $s2% et vous permet de respirer sous l'eau en permanence.	lot sorts_objets_052
+sort	800319		Name	db688fa9935c	Étendard de vaillance	lot sorts_objets_052
+sort	800319		ToolTip	a870648bd501	Vitesse de déplacement ralentie de ${-($800629m1)}%. Subit ${$m3+$ppl3+$AP*.004} points de dégâts physiques toutes les $t3 sec.	lot sorts_objets_052
+sort	800386		Description	b2dbc07c8b0a	Activez ce sort pour que votre prochain sort de |cFFFFFFFFPhase lunaire|r déclenche son effet |cFFFFFFFFlunaire|r.\r\n\r\nPeut être utilisé pendant l'incantation ou la canalisation d'un autre sort.	lot sorts_objets_052
+sort	800386		Name	269ac3ae59f8	Éclipse lunaire	lot sorts_objets_052
+sort	800386		ToolTip	644aa0e7ab1f	Votre prochain sort lunaire déclenchera son effet.	lot sorts_objets_052
+sort	800555		Description	32fd185c40b3	Clic droit pour invoquer et renvoyer Bébé Vilmus.	lot sorts_objets_052
+sort	800772		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	800772		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	800772		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	800827		Description	bc81ed0701be	Clic droit pour invoquer et renvoyer Boomer.	lot sorts_objets_052
+sort	800829		Description	5753f49f52b0	Clic droit pour invoquer et renvoyer Toupie d'acier.	lot sorts_objets_052
+sort	800829		Name	6886c047f102	Toupie d'acier	lot sorts_objets_052
+sort	800830		Description	c0997907072e	Clic droit pour invoquer et renvoyer Gizmo.	lot sorts_objets_052
+sort	800831		Description	ab9b08ed7e35	Invoque un établi sanguin personnel\n\nL'établi sanguin sert à raffiner les matériaux de haut risque en marchandises utilisables et à créer des enchantements et des consommables.\n\nL'établi sanguin se dissipe au bout de 5 minutes.	lot sorts_objets_052
+sort	800831		Name	c14883cbf803	Invocation d'un établi sanguin personnel	lot sorts_objets_052
+sort	800843		Description	7864e1a81890	Vous rôdez dans l'ombre et entrez en furtivité. Dure jusqu'à annulation. \r\n\r\nTant que vous |cffffffffrôdez|r, votre prochaine |cffffffffMorsure venimeuse|r$?s807600[ ou |cFFFFFFFFBaiser de la veuve|r][] ne coûte rien et inflige ${$800906m1+$800906ppl1}% de dégâts supplémentaires, en fonction de votre niveau.	lot sorts_objets_052
+sort	800843		Name	0a1d912cc6e2	Rôder	lot sorts_objets_052
+sort	800856		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	800856		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	800856		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	800921		Description	c6898e892e08	$?a520890[|cffffffff][|cffff3232]Nécessite de rôder|r\r\nVous incruste dans un joueur ennemi ou allié pendant $d : vous devenez insensible à tous les dégâts, mais ne pouvez ni attaquer ni lancer de sorts.\r\n\r\nÀ la fin de la durée, ou en lançant |cffffffffParasite : Sortie|r, vous réapparaissez à son emplacement. S'il s'agit d'un ennemi, vous lui infligez le |cffffffffPoison du parasite|r.@s:807758:0@\r\n\r\nInutilisable en combat. Cette aptitude entre en recharge lorsque vous quittez votre cible.	lot sorts_objets_052
+sort	800921		ToolTip	8fb3da229a85	Enfoui à l'intérieur.	lot sorts_objets_052
+sort	800926		Description	331636450594	Enveloppe un allié d'un voile d'émeraude, lui rendant ${$m1+0+$BH*0.95} points de vie et le protégeant : il absorbe jusqu'à ${$m2+0+$SPN*0.95} points de dégâts. Dure $d.	lot sorts_objets_052
+sort	800926		ToolTip	1a4d048cf499	Absorbe ${$w2} points de dégâts subis.	lot sorts_objets_052
+sort	800939		Description	331636450594	Enveloppe un allié d'un voile d'émeraude, lui rendant ${$m1+0+$BH*0.95} points de vie et le protégeant : il absorbe jusqu'à ${$m2+0+$SPN*0.95} points de dégâts. Dure $d.	lot sorts_objets_052
+sort	800939		ToolTip	1a4d048cf499	Absorbe ${$w2} points de dégâts subis.	lot sorts_objets_052
+sort	800959		Description	331636450594	Enveloppe un allié d'un voile d'émeraude, lui rendant ${$m1+0+$BH*0.95} points de vie et le protégeant : il absorbe jusqu'à ${$m2+0+$SPN*0.95} points de dégâts. Dure $d.	lot sorts_objets_052
+sort	800959		ToolTip	1a4d048cf499	Absorbe ${$w2} points de dégâts subis.	lot sorts_objets_052
+sort	801028		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	801028		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	801028		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	801029		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	801029		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	801029		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	801030		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	801030		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	801030		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	801031		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	801031		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	801031		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	801032		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	801032		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	801032		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	801033		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	801033		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	801033		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	801094		Description	af21254ce0cb	Vous accorde à la terre, ce qui augmente votre armure de $s1 et votre résistance à la Nature de $s2.	lot sorts_objets_052
+sort	801094		Name	aca9318160bb	Tatouages runiques : Terre	lot sorts_objets_052
+sort	801094		ToolTip	3f234fba3778	Armure augmentée de ${$w1}. Résistance à la Nature augmentée de ${$w2}.	lot sorts_objets_052
+sort	801106		Description	f40c2b3b59f2	Vous accorde au feu, ce qui augmente votre résistance au Feu de $s1. et vos dégâts critiques de $s2%.	lot sorts_objets_052
+sort	801106		Name	97c2584a2b37	Tatouages runiques : Feu	lot sorts_objets_052
+sort	801106		ToolTip	1e80ffdf333f	Dégâts critiques augmentés de ${$w2}%. Résistance au Feu augmentée de ${$w1}.	lot sorts_objets_052
+sort	801107		Description	333e0778a857	Vous accorde à l'eau, ce qui vous rend ${$m1} points de mana toutes les 5 sec et réduit de $s2% le coût en mana de vos sorts et aptitudes$?s300581[ et augmente de $/2;s2% le mana rendu par les |cffffffffSources de pierre-ley|r][].$?s500309[\r\n\r\nTant qu'il est actif, |cffffffffExplosion primordiale|r rend $504679s1% de votre mana maximum à l'incantation.][]	lot sorts_objets_052
+sort	801107		Name	00908e6cfc40	Tatouages runiques : Eau	lot sorts_objets_052
+sort	801107		ToolTip	0e983b19d099	Rend ${$w1} points de mana toutes les 5 sec. Coûts réduits de ${-$W2}%.	lot sorts_objets_052
+sort	801110		Description	331636450594	Enveloppe un allié d'un voile d'émeraude, lui rendant ${$m1+0+$BH*0.95} points de vie et le protégeant : il absorbe jusqu'à ${$m2+0+$SPN*0.95} points de dégâts. Dure $d.	lot sorts_objets_052
+sort	801110		ToolTip	1a4d048cf499	Absorbe ${$w2} points de dégâts subis.	lot sorts_objets_052
+sort	801115		Description	331636450594	Enveloppe un allié d'un voile d'émeraude, lui rendant ${$m1+0+$BH*0.95} points de vie et le protégeant : il absorbe jusqu'à ${$m2+0+$SPN*0.95} points de dégâts. Dure $d.	lot sorts_objets_052
+sort	801115		ToolTip	1a4d048cf499	Absorbe ${$w2} points de dégâts subis.	lot sorts_objets_052
+sort	801126		Description	ffb0d43ef76d	|cffffffffConsomme $807032s1% du mana maximum|r\nVous enveloppe de magie céleste, ce qui réduit de $s1% les dégâts que vous subissez pendant $d.\r\n\r\n@ext:Shares a cooldown with other |cffffffffAegis|r spells.:ext@	lot sorts_objets_052
+sort	801152		Description	331636450594	Enveloppe un allié d'un voile d'émeraude, lui rendant ${$m1+0+$BH*0.95} points de vie et le protégeant : il absorbe jusqu'à ${$m2+0+$SPN*0.95} points de dégâts. Dure $d.	lot sorts_objets_052
+sort	801152		ToolTip	1a4d048cf499	Absorbe ${$w2} points de dégâts subis.	lot sorts_objets_052
+sort	801345		Description	29fa9a774995	Vous permet de vous déplacer discrètement en furtivité. $?s524864[][Réduit votre vitesse de déplacement de $524886s3% tant que vous êtes furtif.] Dure $d.\r\n\r\nUtilisable uniquement hors combat.	lot sorts_objets_052
+sort	801345		ToolTip	8e9990561168	Furtif. 	lot sorts_objets_052
+sort	801530		Description	f0309d418b6d	Canalise la vie dans vos serviteurs |cFFFFFFFFrelevés|r à moins de $a1 mètres pendant $d, leur rendant $801545s1% de leurs points de vie maximum plus ${$801545m2+$801545ppl2+$SP*.25} points de vie toutes les $t2 sec.	lot sorts_objets_052
+sort	801530		ToolTip	9d3dd1548de8	Rend $801545s1% des points de vie maximum toutes les $t2 sec.	lot sorts_objets_052
+sort	801563		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	801563		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	801563		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	801761		Description	e6c1ad7b9809	|cffec8201Effet d'enrager|r\r\nVous devenez enragé, ce qui augmente vos dégâts physiques de $s1% pendant $d.	lot sorts_objets_052
+sort	801761		Name	46e38474caa8	Rage débridée	lot sorts_objets_052
+sort	801761		ToolTip	a38b000f6587	Enragé. Dégâts physiques augmentés de ${$w1}%.	lot sorts_objets_052
+sort	801796		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	801796		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	801972		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	801972		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	802568		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802568		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802568		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802569		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802569		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802569		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802570		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802570		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802570		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802571		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802571		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802571		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802572		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802572		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802572		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802573		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802573		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802573		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802580		Description	95b7317ef5b8	$?a524861[|cffff3232][|cffffffff]Nécessite la forme mortelle|r\r\nCorrompt le cœur d'un ennemi, qui saigne en subissant $o1 points de dégâts d'Ombre en $d.\r\n\r\nGénère $/10;582765s1 points de Rage chaque fois qu'il inflige des dégâts.\r\n\r\n@ext:Periodic damage dealt through this can critically strike.:ext@	lot sorts_objets_052
+sort	802580		Name	fd39d18d53e6	Tourment de Taldaram	lot sorts_objets_052
+sort	802580		ToolTip	6a793a61d8c3	Saigne et subit ${$m1+$ppl1} points de dégâts d'Ombre toutes les $t1 sec.	lot sorts_objets_052
+sort	802597		Description	efce6ae98e45	$?s92120[|cffd480ffSort de distorsion|r\r\n][]Décompose un ennemi et lui inflige $o1 points de dégâts chromatiques en $d. Ces dégâts sont infligés lentement et s'accélèrent à l'approche de la fin de la durée. $?s92120[ \r\n\r\nDégâts augmentés de $804455s1% pour chaque |cffffffffFragment d'écho|r consommé.][]\r\n\r\n@ext:Haste does not decrease the duration but increases the total instances of damage.:ext@	lot sorts_objets_052
+sort	802597		Name	c21b7aaab057	Décomposition	lot sorts_objets_052
+sort	802597		ToolTip	f1974fc7728e	Inflige $o1 points de dégâts en $d.	lot sorts_objets_052
+sort	803425		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	803581		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803581		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803581		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803582		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803582		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803582		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803583		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803583		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803583		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803584		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803584		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803584		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803585		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803585		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803585		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803586		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803586		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803586		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803587		Description	9c3e6a92813e	Ramène à la vie un joueur mort avec $s1% de ses points de vie et de son mana.\n\nPendant $d, la cible reçoit $s3% de soins supplémentaires, mais subir des dégâts met fin à l'effet. Ne peut pas être lancé en combat.	lot sorts_objets_052
+sort	803587		Name	8eb026d58360	Morsure de vampyr	lot sorts_objets_052
+sort	803587		ToolTip	39bb5844598d	Soins reçus augmentés de ${$w3}%. Subir des dégâts met fin à cet effet.	lot sorts_objets_052
+sort	803620		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803620		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803621		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803621		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803622		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803622		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803623		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803623		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803624		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803624		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803625		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803625		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803626		Description	a9e19ea2aa96	Ramène à la vie un allié mort avec $s1 points de vie et $q1 points de mana.\r\n\r\nNe peut pas être lancé en combat.	lot sorts_objets_052
+sort	803626		Name	8289cca855e7	Récupération d'âme	lot sorts_objets_052
+sort	803749		Description	f40c2b3b59f2	Vous accorde au feu, ce qui augmente votre résistance au Feu de $s1. et vos dégâts critiques de $s2%.	lot sorts_objets_052
+sort	803749		Name	97c2584a2b37	Tatouages runiques : Feu	lot sorts_objets_052
+sort	803749		ToolTip	1e80ffdf333f	Dégâts critiques augmentés de ${$w2}%. Résistance au Feu augmentée de ${$w1}.	lot sorts_objets_052
+sort	803750		Description	f40c2b3b59f2	Vous accorde au feu, ce qui augmente votre résistance au Feu de $s1. et vos dégâts critiques de $s2%.	lot sorts_objets_052
+sort	803750		Name	97c2584a2b37	Tatouages runiques : Feu	lot sorts_objets_052
+sort	803750		ToolTip	1e80ffdf333f	Dégâts critiques augmentés de ${$w2}%. Résistance au Feu augmentée de ${$w1}.	lot sorts_objets_052
+sort	803751		Description	f40c2b3b59f2	Vous accorde au feu, ce qui augmente votre résistance au Feu de $s1. et vos dégâts critiques de $s2%.	lot sorts_objets_052
+sort	803751		Name	97c2584a2b37	Tatouages runiques : Feu	lot sorts_objets_052
+sort	803751		ToolTip	1e80ffdf333f	Dégâts critiques augmentés de ${$w2}%. Résistance au Feu augmentée de ${$w1}.	lot sorts_objets_052
+sort	803752		Description	f40c2b3b59f2	Vous accorde au feu, ce qui augmente votre résistance au Feu de $s1. et vos dégâts critiques de $s2%.	lot sorts_objets_052
+sort	803752		Name	97c2584a2b37	Tatouages runiques : Feu	lot sorts_objets_052
+sort	803752		ToolTip	1e80ffdf333f	Dégâts critiques augmentés de ${$w2}%. Résistance au Feu augmentée de ${$w1}.	lot sorts_objets_052
+sort	803753		Description	f40c2b3b59f2	Vous accorde au feu, ce qui augmente votre résistance au Feu de $s1. et vos dégâts critiques de $s2%.	lot sorts_objets_052
+sort	803753		Name	97c2584a2b37	Tatouages runiques : Feu	lot sorts_objets_052
+sort	803753		ToolTip	1e80ffdf333f	Dégâts critiques augmentés de ${$w2}%. Résistance au Feu augmentée de ${$w1}.	lot sorts_objets_052
+sort	803754		Description	af21254ce0cb	Vous accorde à la terre, ce qui augmente votre armure de $s1 et votre résistance à la Nature de $s2.	lot sorts_objets_052
+sort	803754		Name	aca9318160bb	Tatouages runiques : Terre	lot sorts_objets_052
+sort	803754		ToolTip	3f234fba3778	Armure augmentée de ${$w1}. Résistance à la Nature augmentée de ${$w2}.	lot sorts_objets_052
+sort	803755		Description	af21254ce0cb	Vous accorde à la terre, ce qui augmente votre armure de $s1 et votre résistance à la Nature de $s2.	lot sorts_objets_052
+sort	803755		Name	aca9318160bb	Tatouages runiques : Terre	lot sorts_objets_052
+sort	803755		ToolTip	3f234fba3778	Armure augmentée de ${$w1}. Résistance à la Nature augmentée de ${$w2}.	lot sorts_objets_052
+sort	803756		Description	af21254ce0cb	Vous accorde à la terre, ce qui augmente votre armure de $s1 et votre résistance à la Nature de $s2.	lot sorts_objets_052
+sort	803756		Name	aca9318160bb	Tatouages runiques : Terre	lot sorts_objets_052
+sort	803756		ToolTip	3f234fba3778	Armure augmentée de ${$w1}. Résistance à la Nature augmentée de ${$w2}.	lot sorts_objets_052
+sort	803757		Description	af21254ce0cb	Vous accorde à la terre, ce qui augmente votre armure de $s1 et votre résistance à la Nature de $s2.	lot sorts_objets_052
+sort	803757		Name	aca9318160bb	Tatouages runiques : Terre	lot sorts_objets_052
+sort	803757		ToolTip	3f234fba3778	Armure augmentée de ${$w1}. Résistance à la Nature augmentée de ${$w2}.	lot sorts_objets_052
+sort	803758		Description	af21254ce0cb	Vous accorde à la terre, ce qui augmente votre armure de $s1 et votre résistance à la Nature de $s2.	lot sorts_objets_052
+sort	803758		Name	aca9318160bb	Tatouages runiques : Terre	lot sorts_objets_052
+sort	803758		ToolTip	3f234fba3778	Armure augmentée de ${$w1}. Résistance à la Nature augmentée de ${$w2}.	lot sorts_objets_052
+sort	803783		Description	333e0778a857	Vous accorde à l'eau, ce qui vous rend ${$m1} points de mana toutes les 5 sec et réduit de $s2% le coût en mana de vos sorts et aptitudes$?s300581[ et augmente de $/2;s2% le mana rendu par les |cffffffffSources de pierre-ley|r][].$?s500309[\r\n\r\nTant qu'il est actif, |cffffffffExplosion primordiale|r rend $504679s1% de votre mana maximum à l'incantation.][]	lot sorts_objets_052
+sort	803783		Name	00908e6cfc40	Tatouages runiques : Eau	lot sorts_objets_052
+sort	803783		ToolTip	0e983b19d099	Rend ${$w1} points de mana toutes les 5 sec. Coûts réduits de ${-$W2}%.	lot sorts_objets_052
+sort	803784		Description	333e0778a857	Vous accorde à l'eau, ce qui vous rend ${$m1} points de mana toutes les 5 sec et réduit de $s2% le coût en mana de vos sorts et aptitudes$?s300581[ et augmente de $/2;s2% le mana rendu par les |cffffffffSources de pierre-ley|r][].$?s500309[\r\n\r\nTant qu'il est actif, |cffffffffExplosion primordiale|r rend $504679s1% de votre mana maximum à l'incantation.][]	lot sorts_objets_052
+sort	803784		Name	00908e6cfc40	Tatouages runiques : Eau	lot sorts_objets_052
+sort	803784		ToolTip	0e983b19d099	Rend ${$w1} points de mana toutes les 5 sec. Coûts réduits de ${-$W2}%.	lot sorts_objets_052
+sort	803785		Description	333e0778a857	Vous accorde à l'eau, ce qui vous rend ${$m1} points de mana toutes les 5 sec et réduit de $s2% le coût en mana de vos sorts et aptitudes$?s300581[ et augmente de $/2;s2% le mana rendu par les |cffffffffSources de pierre-ley|r][].$?s500309[\r\n\r\nTant qu'il est actif, |cffffffffExplosion primordiale|r rend $504679s1% de votre mana maximum à l'incantation.][]	lot sorts_objets_052
+sort	803785		Name	00908e6cfc40	Tatouages runiques : Eau	lot sorts_objets_052
+sort	803785		ToolTip	0e983b19d099	Rend ${$w1} points de mana toutes les 5 sec. Coûts réduits de ${-$W2}%.	lot sorts_objets_052
+sort	803918		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803918		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803919		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803919		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803920		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803920		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803921		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803921		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803922		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803922		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803923		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803923		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803924		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803924		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	803925		Description	13cd653bef54	Tire une flèche enchantée qui inflige ${$m1+0+$SP*0.33+$RAP*0.48+$INT*0.15} points de dégâts physiques et vous rend $s2% de votre mana maximum plus $s3 points de mana.\r\n\r\n@ext:Scales with ranged attack power, spell power and Intellect.:ext@	lot sorts_objets_052
+sort	803925		Name	4034365c1db7	Flèche lunaire	lot sorts_objets_052
+sort	972532		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	972533		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	985211		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	991572		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000144		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000145		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000146		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000147		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000148		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000149		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000150		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000151		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052
+sort	12000152		Description	1bae35bb6a6b	Invoque un autel d'enchantement mystique\n\nCes autels servent à imprégner votre personnage de milliers d'enchantements potentiels !\n\nLes autels d'enchantement mystique se dissipent au bout de 5 minutes.	lot sorts_objets_052

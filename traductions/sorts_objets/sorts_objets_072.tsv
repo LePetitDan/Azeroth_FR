@@ -1,0 +1,266 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	2185033		Description	e22cc4f3b0c4	Fait tomber un météore sur la cible après $d. À l'impact, il inflige ${$AP*0.125+$SP*0.25+$2185035m1} points de dégâts de Feu à la cible et à tous les autres ennemis environnants, puis embrase le sol, ce qui inflige ${$AP*0.025+$SP*0.05+$2185035m2} points de dégâts de Feu supplémentaires par seconde pendant $2185035d.\n\nPour chaque cible touchée par l'impact, votre score de coup critique est augmenté de $2185038s1 pendant $2185038d. Cumulable jusqu'à 10 fois.\n\nLa hâte réduit le temps avant la chute du météore. Un météore en approche s'écrasera même si la cible ou le lanceur est mort.	lot sorts_objets_072
+sort	2185033		ToolTip	fb5290070795	Un météore s'écrase sur vous après $d.	lot sorts_objets_072
+sort	2185039		Description	ae911f61b85c	Transforme la forme précise d'Atiesh en forme puissante d'Atiesh.	lot sorts_objets_072
+sort	2185039		Name	c06c073636d5	Transformation puissante d'Atiesh	lot sorts_objets_072
+sort	2185040		Description	11f8f59ec3aa	Transforme la forme puissante d'Atiesh en forme rapide d'Atiesh.	lot sorts_objets_072
+sort	2185040		Name	c9e77d729c51	Transformation rapide d'Atiesh	lot sorts_objets_072
+sort	2185041		Description	4a3d9418aa2b	Transforme la forme rapide d'Atiesh en forme courroucée d'Atiesh.	lot sorts_objets_072
+sort	2185041		Name	349d18759103	Transformation courroucée d'Atiesh	lot sorts_objets_072
+sort	2185042		Description	cb74c11e87f1	Transforme la forme courroucée d'Atiesh en forme précise d'Atiesh.	lot sorts_objets_072
+sort	2185042		Name	5a41ee3c5ec1	Transformation précise d'Atiesh	lot sorts_objets_072
+sort	2185053		Description	eea48333f210	Les attaques qui vous font tomber sous $s1% de vos points de vie vous octroient $2185054s1 de score d'esquive pendant $2185054d.  Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2185053		ToolTip	eea48333f210	Les attaques qui vous font tomber sous $s1% de vos points de vie vous octroient $2185054s1 de score d'esquive pendant $2185054d.  Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2185056		Description	813e1c56d98b	Vos sorts et aptitudes offensifs ont 10% de chances d'augmenter votre Force de $2185057s1 pendant $2185057d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185056		ToolTip	813e1c56d98b	Vos sorts et aptitudes offensifs ont 10% de chances d'augmenter votre Force de $2185057s1 pendant $2185057d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185058		Description	efba2d42a87f	Vos sorts directs de dégâts et de soins ont 10% de chances d'augmenter votre puissance des sorts de $2185059s1 pendant $2185059d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185058		ToolTip	efba2d42a87f	Vos sorts directs de dégâts et de soins ont 10% de chances d'augmenter votre puissance des sorts de $2185059s1 pendant $2185059d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185060		Description	2301dc7ed680	Vos sorts directs de dégâts et de soins ont 10% de chances d'augmenter votre puissance des sorts de $2185061s1 pendant $2185061d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185060		ToolTip	2301dc7ed680	Vos sorts directs de dégâts et de soins ont 10% de chances d'augmenter votre puissance des sorts de $2185061s1 pendant $2185061d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185062		Description	4b09018dedc5	Vos sorts et aptitudes offensifs ont 10% de chances d'augmenter votre Agilité de $2185063s1 pendant $2185063d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185062		ToolTip	4b09018dedc5	Vos sorts et aptitudes offensifs ont 10% de chances d'augmenter votre Agilité de $2185063s1 pendant $2185063d. (60 sec. de recharge)	lot sorts_objets_072
+sort	2185064		Description	46005ab92a15	Augmente les dégâts infligés par votre familier de $2185065s1% et ses chances de coup critique de $2185065s2%. (Effets réduits de 0.3% et 0.2% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2185064		Name	03e7ae674206	Épaulières du dompteur de bêtes	lot sorts_objets_072
+sort	2185064		ToolTip	46005ab92a15	Augmente les dégâts infligés par votre familier de $2185065s1% et ses chances de coup critique de $2185065s2%. (Effets réduits de 0.3% et 0.2% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2185066		Description	7819f474072c	Augmente votre score de hâte de $2185067s1 toutes les minutes. Cumulable jusqu'à 20 fois. Échoue hors combat.	lot sorts_objets_072
+sort	2185066		ToolTip	3900df45c548	Augmente votre score de hâte de $2185067s1 toutes les minutes. Cumulable jusqu'à 20 fois. Échoue hors combat.	lot sorts_objets_072
+sort	2185068		Description	593eb7e1ce7d	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2185069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2185068		ToolTip	593eb7e1ce7d	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2185069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2185070		Description	8717073511ac	Vos attaques à distance augmentent votre score de hâte à distance de $2185071s1 pendant $2185071d. Mais à quel prix ?\n\nCumulable jusqu'à 99 fois.\n\nNe perd pas de durée pendant vos déplacements.	lot sorts_objets_072
+sort	2185070		ToolTip	8717073511ac	Vos attaques à distance augmentent votre score de hâte à distance de $2185071s1 pendant $2185071d. Mais à quel prix ?\n\nCumulable jusqu'à 99 fois.\n\nNe perd pas de durée pendant vos déplacements.	lot sorts_objets_072
+sort	2185072		Description	d199ffba62be	Tenir cette arme à feu peut causer la folie.	lot sorts_objets_072
+sort	2185072		ToolTip	d199ffba62be	Tenir cette arme à feu peut causer la folie.	lot sorts_objets_072
+sort	2185074		Description	d24448a5aaab	Permet de choisir le spectacle à l'Opéra.\n\nN'a pas besoin d'être équipé ni porté dans l'inventaire.	lot sorts_objets_072
+sort	2185074		Name	42b3cc71f25d	VIP de Karazhan	lot sorts_objets_072
+sort	2185074		ToolTip	d24448a5aaab	Permet de choisir le spectacle à l'Opéra.\n\nN'a pas besoin d'être équipé ni porté dans l'inventaire.	lot sorts_objets_072
+sort	2185105		Description	23137f3cc344	Vos attaques de mêlée drainent ${$AP*0.1+$2185106m1} points de vie aux démons et vous transfèrent une partie des points de vie drainés.	lot sorts_objets_072
+sort	2185105		Name	56df3ceacea1	Pourfendeur de démons	lot sorts_objets_072
+sort	2185105		ToolTip	23137f3cc344	Vos attaques de mêlée drainent ${$AP*0.1+$2185106m1} points de vie aux démons et vous transfèrent une partie des points de vie drainés.	lot sorts_objets_072
+sort	2185107		Description	927b699a3be7	Vos attaques de mêlée drainent ${$AP*0.1+$2185108m1} points de mana aux démons et vous transfèrent une partie du mana drainé.	lot sorts_objets_072
+sort	2185107		Name	56df3ceacea1	Pourfendeur de démons	lot sorts_objets_072
+sort	2185107		ToolTip	927b699a3be7	Vos attaques de mêlée drainent ${$AP*0.1+$2185108m1} points de mana aux démons et vous transfèrent une partie du mana drainé.	lot sorts_objets_072
+sort	2185113		Description	9685308bd8cd	Puisez dans la puissance du crâne : votre score de hâte augmente de $s1 pendant $d.	lot sorts_objets_072
+sort	2185114		Description	269504b7a73e	Vos sorts de dégâts et de soins ont une chance d'augmenter votre Esprit de $2185115s1 pendant $2185115d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2185120		Description	7a49f2fef111	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2185121s1 pendant $2185121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2185120		ToolTip	7a49f2fef111	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2185121s1 pendant $2185121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2185122		Description	db2908da4e2a	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2185123s1 pendant $2185123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2185122		ToolTip	10a22c79526b	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2185123s1 pendant 2185123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2185126		Description	61ef6bbe9c5b	Pendant $d, vos sorts de soins directs dotent la cible d'un bouclier protecteur qui absorbe jusqu'à $s1% des soins prodigués, pendant $2185028d au maximum. (Effet réduit de 1.2% pour chaque niveau au-delà du niveau 60)	lot sorts_objets_072
+sort	2185126		ToolTip	55bf15097f12	Les sorts de soins directs dotent la cible d'un bouclier protecteur qui absorbe jusqu'à $s1% des soins prodigués, pendant $2185028d au maximum.\n(Effet réduit de 1.2% pour chaque niveau au-delà du niveau 60)	lot sorts_objets_072
+sort	2185129		Description	feb02cc8607e	Vos sorts de soins sur des cibles ayant moins de $s2% de leurs points de vie rendent ${$BH*0.05+$2185130m1} points de vie supplémentaires. (1 sec. de recharge)	lot sorts_objets_072
+sort	2185129		Name	942bca1b1966	Flèche de Karabor	lot sorts_objets_072
+sort	2185131		Description	9c8918269236	Vos attaques de mêlée infligent ${$AP*0.05+$SP*0.05+$2185132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2185131		ToolTip	9c8918269236	Vos attaques de mêlée infligent ${$AP*0.05+$SP*0.05+$2185132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2185137		Description	b0b0fdb91824	Votre aptitude Mutilation augmente aussi votre puissance d'attaque de $2185138s1 pendant $2185138d.	lot sorts_objets_072
+sort	2185140		Description	ace816ff2a83	Vos aptitudes de Jugement augmentent aussi votre valeur de blocage de bouclier de $2185141s1 pendant $2185141d.	lot sorts_objets_072
+sort	2185142		Description	0e2ad4f45146	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. Moitié moins efficace en dehors des instances.	lot sorts_objets_072
+sort	2185142		ToolTip	325eb5b38537	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. (Effet total réduit de 10% pour chaque niveau au-delà de 70)	lot sorts_objets_072
+sort	2185146		Description	d43a98d843d7	Vos attaques spéciales de mêlée ont une chance d'invoquer une Braise d'Azzinoth, qui vous renforce et combat à vos côtés pendant $2185150d au maximum. (L'effet échoue au niveau 80).	lot sorts_objets_072
+sort	2185226		Description	eb4c81bfd10d	Pendant $d, vos sorts de soins directs dotent la cible d'un bouclier protecteur qui absorbe jusqu'à $s1% des soins prodigués, pendant $2185028d au maximum. (Effet réduit de 1.1% pour chaque niveau au-delà du niveau 60)	lot sorts_objets_072
+sort	2185226		ToolTip	acc30a76fd8e	Les sorts de soins directs dotent la cible d'un bouclier protecteur qui absorbe jusqu'à $s1% des soins prodigués, pendant $2185028d au maximum.\n(Effet réduit de 1.1% pour chaque niveau au-delà du niveau 60)	lot sorts_objets_072
+sort	2185326		Description	5f66856e884a	Pendant $d, vos sorts de soins directs dotent la cible d'un bouclier protecteur qui absorbe jusqu'à $s1% des soins prodigués, pendant $2185028d au maximum. (Effet réduit de 1.3% pour chaque niveau au-delà du niveau 60)	lot sorts_objets_072
+sort	2185326		ToolTip	faa917733ade	Les sorts de soins directs dotent la cible d'un bouclier protecteur qui absorbe jusqu'à $s1% des soins prodigués, pendant $2185028d au maximum.\n(Effet réduit de 1.3% pour chaque niveau au-delà du niveau 60)	lot sorts_objets_072
+sort	2186000		Description	3bd7fbf5ca8c	Vos sorts de soins directs ont 20% de chances d'appliquer un effet de soins sur la durée à votre cible, lui rendant ${$SP*0.052+$2186001m1} points de vie toutes les $2186001t1 sec. pendant $2186001d. (12 sec. de recharge)	lot sorts_objets_072
+sort	2186002		Description	f5b1fec6920e	Vos attaques de mêlée ont une chance d'augmenter votre puissance d'attaque de $2186003s1 pendant $2186003d. (20 sec. de recharge) (2 ppm)	lot sorts_objets_072
+sort	2186004		Description	73c202abbbe6	Vos attaques de mêlée et à distance ont une chance d'infliger ${$AP*0.052+$SP*0.026+$2186005m1} points de dégâts de Feu supplémentaires. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2186007		Description	9197ad3d50aa	Chaque fois que vous lancez un sort non périodique, vous avez 10% de chances de gagner $2186008s1 de puissance des sorts pendant $2186008d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2186009		Description	32b16bfd7688	Vos aptitudes de mêlée et à distance ont 10% de chances de vous octroyer $2186010s1 de score de pénétration d'armure pendant $2186010d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2186011		Description	bcd71e97ee7f	Vos attaques de mêlée ont une chance de rendre 6 points d'Énergie, 3 points de Rage et 30 points de mana. (4 ppm) (8 sec. de recharge)	lot sorts_objets_072
+sort	2186013		Description	5cb2da86c024	Augmente votre puissance d'attaque d'une valeur égale à $s1% de votre endurance pendant $d. (Effet réduit de 2.2% pour chaque niveau au-delà du niveau 70).	lot sorts_objets_072
+sort	2186019		Description	3175461240cb	Réduit de $s1% les dégâts de zone subis pendant $d. (Effet réduit de 2.1% pour chaque niveau au-delà du niveau 70)	lot sorts_objets_072
+sort	2186022		Description	6dfab9233201	Envoie un esprit maléfique dans votre familier, augmentant sa puissance d'attaque de $s1 et sa puissance des sorts de $s2, et réduisant ses coûts en ressources de $s3% pendant $d. (Effet réduit de 5.5% pour chaque niveau au-delà du niveau 70)	lot sorts_objets_072
+sort	2186033		Description	ada9769fb4f8	Fait tomber un météore sur la cible après $d. À l'impact, il inflige ${$AP*0.135+$SP*0.27+$2186035m1} points de dégâts de Feu à la cible et à tous les autres ennemis environnants, puis embrase le sol, ce qui inflige ${$AP*0.027+$SP*0.054+$2186035m2} points de dégâts de Feu supplémentaires par seconde pendant $2186035d.\n\nPour chaque cible touchée par l'impact, votre score de coup critique est augmenté de $2186038s1 pendant $2186038d. Cumulable jusqu'à 10 fois.\n\nLa hâte réduit le temps avant la chute du météore. Un météore en approche s'écrasera même si la cible ou le lanceur est mort.	lot sorts_objets_072
+sort	2186033		ToolTip	fb5290070795	Un météore s'écrase sur vous après $d.	lot sorts_objets_072
+sort	2186039		Description	ae911f61b85c	Transforme la forme précise d'Atiesh en forme puissante d'Atiesh.	lot sorts_objets_072
+sort	2186039		Name	c06c073636d5	Transformation puissante d'Atiesh	lot sorts_objets_072
+sort	2186040		Description	11f8f59ec3aa	Transforme la forme puissante d'Atiesh en forme rapide d'Atiesh.	lot sorts_objets_072
+sort	2186040		Name	c9e77d729c51	Transformation rapide d'Atiesh	lot sorts_objets_072
+sort	2186041		Description	4a3d9418aa2b	Transforme la forme rapide d'Atiesh en forme courroucée d'Atiesh.	lot sorts_objets_072
+sort	2186041		Name	349d18759103	Transformation courroucée d'Atiesh	lot sorts_objets_072
+sort	2186042		Description	cb74c11e87f1	Transforme la forme courroucée d'Atiesh en forme précise d'Atiesh.	lot sorts_objets_072
+sort	2186042		Name	5a41ee3c5ec1	Transformation précise d'Atiesh	lot sorts_objets_072
+sort	2186064		Description	bd7aeeb6a6bf	Augmente les dégâts infligés par votre familier de $2186065s1% et ses chances de coup critique de $2186065s2%. (Effets réduits de 0.4% et 0.3% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2186064		Name	03e7ae674206	Épaulières du dompteur de bêtes	lot sorts_objets_072
+sort	2186064		ToolTip	bd7aeeb6a6bf	Augmente les dégâts infligés par votre familier de $2186065s1% et ses chances de coup critique de $2186065s2%. (Effets réduits de 0.4% et 0.3% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2186068		Description	efabdc8401c8	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2186069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2186068		ToolTip	efabdc8401c8	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2186069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2186113		Description	9685308bd8cd	Puisez dans la puissance du crâne : votre score de hâte augmente de $s1 pendant $d.	lot sorts_objets_072
+sort	2186114		Description	9d5386da10ff	Vos sorts de dégâts et de soins ont une chance d'augmenter votre Esprit de $2186115s1 pendant $2186115d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2186120		Description	7559815ca2ff	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2186121s1 pendant $2186121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2186120		ToolTip	7559815ca2ff	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2186121s1 pendant $2186121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2186122		Description	bdedd965eb97	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2186123s1 pendant $2186123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2186122		ToolTip	f2118c55be1a	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2186123s1 pendant 2186123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2186129		Description	6253d989e015	Vos sorts de soins sur des cibles ayant moins de $s2% de leurs points de vie rendent ${$BH*0.054+$2186130m1} points de vie supplémentaires. (1 sec. de recharge)	lot sorts_objets_072
+sort	2186129		Name	942bca1b1966	Flèche de Karabor	lot sorts_objets_072
+sort	2186131		Description	534de7c311fb	Vos attaques de mêlée infligent ${$AP*0.054+$SP*0.054+$2186132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2186131		ToolTip	534de7c311fb	Vos attaques de mêlée infligent ${$AP*0.054+$SP*0.054+$2186132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2186137		Description	1cf87cbd07e4	Votre aptitude Mutilation augmente aussi votre puissance d'attaque de $2186138s1 pendant $2186138d.	lot sorts_objets_072
+sort	2186140		Description	3a43e51e1c70	Vos aptitudes de Jugement augmentent aussi votre valeur de blocage de bouclier de $2186141s1 pendant $2186141d.	lot sorts_objets_072
+sort	2186142		Description	0e2ad4f45146	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. Moitié moins efficace en dehors des instances.	lot sorts_objets_072
+sort	2186142		ToolTip	325eb5b38537	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. (Effet total réduit de 10% pour chaque niveau au-delà de 70)	lot sorts_objets_072
+sort	2186146		Description	8c0bfd7e6788	Vos attaques spéciales de mêlée ont une chance d'invoquer une Braise d'Azzinoth, qui vous renforce et combat à vos côtés pendant $2186150d au maximum. (L'effet échoue au niveau 80).	lot sorts_objets_072
+sort	2187000		Description	dd2048463aa9	Vos sorts de soins directs ont 20% de chances d'appliquer un effet de soins sur la durée à votre cible, lui rendant ${$SP*0.056+$2187001m1} points de vie toutes les $2187001t1 sec. pendant $2187001d. (12 sec. de recharge)	lot sorts_objets_072
+sort	2187002		Description	d7e824fd3a60	Vos attaques de mêlée ont une chance d'augmenter votre puissance d'attaque de $2187003s1 pendant $2187003d. (20 sec. de recharge) (2 ppm)	lot sorts_objets_072
+sort	2187004		Description	15d34413a908	Vos attaques de mêlée et à distance ont une chance d'infliger ${$AP*0.056+$SP*0.028+$2187005m1} points de dégâts de Feu supplémentaires. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2187007		Description	e576f77405ed	Chaque fois que vous lancez un sort non périodique, vous avez 10% de chances de gagner $2187008s1 de puissance des sorts pendant $2187008d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2187009		Description	52cd60e20e3e	Vos aptitudes de mêlée et à distance ont 10% de chances de vous octroyer $2187010s1 de score de pénétration d'armure pendant $2187010d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2187011		Description	808f5a8f527e	Vos attaques de mêlée ont une chance de rendre 10 points d'Énergie, 5 points de Rage et 50 points de mana. (4 ppm) (8 sec. de recharge)	lot sorts_objets_072
+sort	2187013		Description	5cb2da86c024	Augmente votre puissance d'attaque d'une valeur égale à $s1% de votre endurance pendant $d. (Effet réduit de 2.2% pour chaque niveau au-delà du niveau 70).	lot sorts_objets_072
+sort	2187019		Description	446bf4d3c2e7	Réduit de $s1% les dégâts de zone subis pendant $d. (Effet réduit de 2.2% pour chaque niveau au-delà du niveau 70)	lot sorts_objets_072
+sort	2187022		Description	7da0d4b1332c	Envoie un esprit maléfique dans votre familier, augmentant sa puissance d'attaque de $s1 et sa puissance des sorts de $s2, et réduisant ses coûts en ressources de $s3% pendant $d. (Effet réduit de 6% pour chaque niveau au-delà du niveau 70)	lot sorts_objets_072
+sort	2187033		Description	fea0b42bc9fb	Fait tomber un météore sur la cible après $d. À l'impact, il inflige ${$AP*0.145+$SP*0.29+$2187035m1} points de dégâts de Feu à la cible et à tous les autres ennemis environnants, puis embrase le sol, ce qui inflige ${$AP*0.029+$SP*0.058+$2187035m2} points de dégâts de Feu supplémentaires par seconde pendant $2187035d.\n\nPour chaque cible touchée par l'impact, votre score de coup critique est augmenté de $2187038s1 pendant $2187038d. Cumulable jusqu'à 10 fois.\n\nLa hâte réduit le temps avant la chute du météore. Un météore en approche s'écrasera même si la cible ou le lanceur est mort.	lot sorts_objets_072
+sort	2187033		ToolTip	fb5290070795	Un météore s'écrase sur vous après $d.	lot sorts_objets_072
+sort	2187039		Description	ae911f61b85c	Transforme la forme précise d'Atiesh en forme puissante d'Atiesh.	lot sorts_objets_072
+sort	2187039		Name	c06c073636d5	Transformation puissante d'Atiesh	lot sorts_objets_072
+sort	2187040		Description	11f8f59ec3aa	Transforme la forme puissante d'Atiesh en forme rapide d'Atiesh.	lot sorts_objets_072
+sort	2187040		Name	c9e77d729c51	Transformation rapide d'Atiesh	lot sorts_objets_072
+sort	2187041		Description	4a3d9418aa2b	Transforme la forme rapide d'Atiesh en forme courroucée d'Atiesh.	lot sorts_objets_072
+sort	2187041		Name	349d18759103	Transformation courroucée d'Atiesh	lot sorts_objets_072
+sort	2187042		Description	cb74c11e87f1	Transforme la forme courroucée d'Atiesh en forme précise d'Atiesh.	lot sorts_objets_072
+sort	2187042		Name	5a41ee3c5ec1	Transformation précise d'Atiesh	lot sorts_objets_072
+sort	2187064		Description	e775855ff93c	Augmente les dégâts infligés par votre familier de $2187065s1% et ses chances de coup critique de $2187065s2%. (Effets réduits de 0.5% et 0.4% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2187064		Name	03e7ae674206	Épaulières du dompteur de bêtes	lot sorts_objets_072
+sort	2187064		ToolTip	e775855ff93c	Augmente les dégâts infligés par votre familier de $2187065s1% et ses chances de coup critique de $2187065s2%. (Effets réduits de 0.5% et 0.4% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2187068		Description	df578b9d12f6	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2187069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2187068		ToolTip	df578b9d12f6	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2187069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2187113		Description	9685308bd8cd	Puisez dans la puissance du crâne : votre score de hâte augmente de $s1 pendant $d.	lot sorts_objets_072
+sort	2187114		Description	c12307a3bca2	Vos sorts de dégâts et de soins ont une chance d'augmenter votre Esprit de $2187115s1 pendant $2187115d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2187120		Description	a0813e93ae01	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2187121s1 pendant $2187121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2187120		ToolTip	a0813e93ae01	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2187121s1 pendant $2187121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2187122		Description	59805f82a573	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2187123s1 pendant $2187123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2187122		ToolTip	59805f82a573	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2187123s1 pendant $2187123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2187129		Description	89f59402cba1	Vos sorts de soins sur des cibles ayant moins de $s2% de leurs points de vie rendent ${$BH*0.058+$2187130m1} points de vie supplémentaires. (1 sec. de recharge)	lot sorts_objets_072
+sort	2187129		Name	942bca1b1966	Flèche de Karabor	lot sorts_objets_072
+sort	2187131		Description	26d7e496d885	Vos attaques de mêlée infligent ${$AP*0.058+$SP*0.058+$2187132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2187131		ToolTip	26d7e496d885	Vos attaques de mêlée infligent ${$AP*0.058+$SP*0.058+$2187132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2187137		Description	99f206ef45f3	Votre aptitude Mutilation augmente aussi votre puissance d'attaque de $2187138s1 pendant $2187138d.	lot sorts_objets_072
+sort	2187140		Description	7c0bc8378a06	Vos aptitudes de Jugement augmentent aussi votre valeur de blocage de bouclier de $2187141s1 pendant $2187141d.	lot sorts_objets_072
+sort	2187142		Description	0e2ad4f45146	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. Moitié moins efficace en dehors des instances.	lot sorts_objets_072
+sort	2187142		ToolTip	325eb5b38537	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. (Effet total réduit de 10% pour chaque niveau au-delà de 70)	lot sorts_objets_072
+sort	2187146		Description	022a2416f1f0	Vos attaques spéciales de mêlée ont une chance d'invoquer une Braise d'Azzinoth, qui vous renforce et combat à vos côtés pendant $2187150d au maximum. (L'effet échoue au niveau 80).	lot sorts_objets_072
+sort	2188000		Description	6662d30bafbb	Vos sorts de soins directs ont 20% de chances d'appliquer un effet de soins sur la durée à votre cible, lui rendant ${$SP*0.06+$2188001m1} points de vie toutes les $2188001t1 sec. pendant $2188001d. (12 sec. de recharge)	lot sorts_objets_072
+sort	2188002		Description	32b76c21942b	Vos attaques de mêlée ont une chance d'augmenter votre puissance d'attaque de $2188003s1 pendant $2188003d. (20 sec. de recharge) (2 ppm)	lot sorts_objets_072
+sort	2188004		Description	772214f4f7e1	Vos attaques de mêlée et à distance ont une chance d'infliger ${$AP*0.06+$SP*0.03+$2188005m1} points de dégâts de Feu supplémentaires. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2188007		Description	303c38cb6ecf	Chaque fois que vous lancez un sort non périodique, vous avez 10% de chances de gagner $2188008s1 de puissance des sorts pendant $2188008d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2188009		Description	f5b7fdab5140	Vos aptitudes de mêlée et à distance ont 10% de chances de vous octroyer $2188010s1 de score de pénétration d'armure pendant $2188010d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2188011		Description	20ce794b18a0	Vos attaques de mêlée ont une chance de rendre 8 points d'Énergie, 4 points de Rage et 40 points de mana. (4 ppm) (8 sec. de recharge)	lot sorts_objets_072
+sort	2188013		Description	3b22260bda99	Augmente votre puissance d'attaque d'une valeur égale à $s1% de votre endurance pendant $d. (Effet réduit de 2.3% pour chaque niveau au-delà du niveau 70).	lot sorts_objets_072
+sort	2188019		Description	7b954d1740c3	Réduit de $s1% les dégâts de zone subis pendant $d. (Effet réduit de 2.4% pour chaque niveau au-delà du niveau 70)	lot sorts_objets_072
+sort	2188022		Description	7da0d4b1332c	Envoie un esprit maléfique dans votre familier, augmentant sa puissance d'attaque de $s1 et sa puissance des sorts de $s2, et réduisant ses coûts en ressources de $s3% pendant $d. (Effet réduit de 6% pour chaque niveau au-delà du niveau 70)	lot sorts_objets_072
+sort	2188033		Description	a8c80564ce09	Fait tomber un météore sur la cible après $d. À l'impact, il inflige ${$AP*0.155+$SP*0.31+$2188035m1} points de dégâts de Feu à la cible et à tous les autres ennemis environnants, puis embrase le sol, ce qui inflige ${$AP*0.031+$SP*0.062+$2188035m2} points de dégâts de Feu supplémentaires par seconde pendant $2188035d.\n\nPour chaque cible touchée par l'impact, votre score de coup critique est augmenté de $2188038s1 pendant $2188038d. Cumulable jusqu'à 10 fois.\n\nLa hâte réduit le temps avant la chute du météore. Un météore en approche s'écrasera même si la cible ou le lanceur est mort.	lot sorts_objets_072
+sort	2188033		ToolTip	fb5290070795	Un météore s'écrase sur vous après $d.	lot sorts_objets_072
+sort	2188039		Description	ae911f61b85c	Transforme la forme précise d'Atiesh en forme puissante d'Atiesh.	lot sorts_objets_072
+sort	2188039		Name	c06c073636d5	Transformation puissante d'Atiesh	lot sorts_objets_072
+sort	2188040		Description	11f8f59ec3aa	Transforme la forme puissante d'Atiesh en forme rapide d'Atiesh.	lot sorts_objets_072
+sort	2188040		Name	c9e77d729c51	Transformation rapide d'Atiesh	lot sorts_objets_072
+sort	2188041		Description	4a3d9418aa2b	Transforme la forme rapide d'Atiesh en forme courroucée d'Atiesh.	lot sorts_objets_072
+sort	2188041		Name	349d18759103	Transformation courroucée d'Atiesh	lot sorts_objets_072
+sort	2188042		Description	cb74c11e87f1	Transforme la forme courroucée d'Atiesh en forme précise d'Atiesh.	lot sorts_objets_072
+sort	2188042		Name	5a41ee3c5ec1	Transformation précise d'Atiesh	lot sorts_objets_072
+sort	2188064		Description	4728d705cf2e	Augmente les dégâts infligés par votre familier de $2188065s1% et ses chances de coup critique de $2188065s2%. (Effets réduits de 0.6% et 0.5% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2188064		Name	03e7ae674206	Épaulières du dompteur de bêtes	lot sorts_objets_072
+sort	2188064		ToolTip	4728d705cf2e	Augmente les dégâts infligés par votre familier de $2188065s1% et ses chances de coup critique de $2188065s2%. (Effets réduits de 0.6% et 0.5% pour chaque niveau au-delà de 70.)	lot sorts_objets_072
+sort	2188068		Description	8d5945dc936f	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2188069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2188068		ToolTip	8d5945dc936f	Vos attaques spéciales de mêlée ont une chance de pulvériser la cible, infligeant $2188069s1% de dégâts d'arme supplémentaires à la cible et aux autres ennemis proches. Les dégâts diminuent à mesure que les cibles s'éloignent du lanceur. (1 sec. de recharge) (1.5 ppm)	lot sorts_objets_072
+sort	2188113		Description	9685308bd8cd	Puisez dans la puissance du crâne : votre score de hâte augmente de $s1 pendant $d.	lot sorts_objets_072
+sort	2188114		Description	84b3da90dc1b	Vos sorts de dégâts et de soins ont une chance d'augmenter votre Esprit de $2188115s1 pendant $2188115d. (45 sec. de recharge)	lot sorts_objets_072
+sort	2188120		Description	254337b5fd83	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2188121s1 pendant $2188121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2188120		ToolTip	254337b5fd83	Vos aptitudes spéciales à distance augmentent votre puissance d'attaque de $2188121s1 pendant $2188121d, cumulable jusqu'à 5 fois.	lot sorts_objets_072
+sort	2188122		Description	49f5d596e087	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2188123s1 pendant $2188123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2188122		ToolTip	49f5d596e087	Subir des dégâts alors que vous avez $s2% de vos points de vie ou moins augmente votre armure de $2188123s1 pendant $2188123d. Ne peut pas se produire plus d'une fois toutes les 1 minute.	lot sorts_objets_072
+sort	2188124		Description	095f375637f1	Équipez votre Cape radieuse des cieux	lot sorts_objets_072
+sort	2188125		Description	fd9b9d41e1b0	Équipez votre Cape brillante des cieux	lot sorts_objets_072
+sort	2188129		Description	c2502a488765	Vos sorts de soins sur des cibles ayant moins de $s2% de leurs points de vie rendent ${$BH*0.062+$2188130m1} points de vie supplémentaires. (1 sec. de recharge)	lot sorts_objets_072
+sort	2188129		Name	942bca1b1966	Flèche de Karabor	lot sorts_objets_072
+sort	2188131		Description	e747b85433fe	Vos attaques de mêlée infligent ${$AP*0.062+$SP*0.062+$2188132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2188131		ToolTip	e747b85433fe	Vos attaques de mêlée infligent ${$AP*0.062+$SP*0.062+$2188132m1} points de dégâts d'Ombre supplémentaires à la cible et vous rendent $s2% des dégâts infligés. (1 sec. de recharge) (16 ppm)	lot sorts_objets_072
+sort	2188137		Description	57c89c238c2f	Votre aptitude Mutilation augmente aussi votre puissance d'attaque de $2188138s1 pendant $2188138d.	lot sorts_objets_072
+sort	2188140		Description	7dd619b38c1a	Vos aptitudes de Jugement augmentent aussi votre valeur de blocage de bouclier de $2188141s1 pendant $2188141d.	lot sorts_objets_072
+sort	2188142		Description	0e2ad4f45146	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. Moitié moins efficace en dehors des instances.	lot sorts_objets_072
+sort	2188142		ToolTip	325eb5b38537	Rend instantanément $s1% de vos points de vie maximum, jusqu'à $s2% de plus selon les points de vie qui vous manquent. Ce procédé corrompt votre âme et vous inflige des dégâts d'Ombre égaux à la moitié des points de vie rendus, en 10 secondes. (Effet total réduit de 10% pour chaque niveau au-delà de 70)	lot sorts_objets_072
+sort	2188146		Description	9b0cb0c967a8	Vos attaques spéciales de mêlée ont une chance d'invoquer une Braise d'Azzinoth, qui vous renforce et combat à vos côtés pendant $2188150d au maximum. (L'effet échoue au niveau 80).	lot sorts_objets_072
+sort	2189039		Description	ae911f61b85c	Transforme la forme précise d'Atiesh en forme puissante d'Atiesh.	lot sorts_objets_072
+sort	2189039		Name	c06c073636d5	Transformation puissante d'Atiesh	lot sorts_objets_072
+sort	2189040		Description	11f8f59ec3aa	Transforme la forme puissante d'Atiesh en forme rapide d'Atiesh.	lot sorts_objets_072
+sort	2189040		Name	c9e77d729c51	Transformation rapide d'Atiesh	lot sorts_objets_072
+sort	2189041		Description	4a3d9418aa2b	Transforme la forme rapide d'Atiesh en forme courroucée d'Atiesh.	lot sorts_objets_072
+sort	2189041		Name	349d18759103	Transformation courroucée d'Atiesh	lot sorts_objets_072
+sort	2189042		Description	cb74c11e87f1	Transforme la forme courroucée d'Atiesh en forme précise d'Atiesh.	lot sorts_objets_072
+sort	2189042		Name	5a41ee3c5ec1	Transformation précise d'Atiesh	lot sorts_objets_072
+sort	2190038		Description	416d95ac906f	Réduit les effets nuisibles du Parfum séduisant.  Le lanceur ne peut réduire l'effet que d'un seul « parfum » à la fois.	lot sorts_objets_072
+sort	2190038		ToolTip	416d95ac906f	Réduit les effets nuisibles du Parfum séduisant.  Le lanceur ne peut réduire l'effet que d'un seul « parfum » à la fois.	lot sorts_objets_072
+sort	2190039		Description	b758f11ffbac	Réduit les effets nuisibles de l'Eau de Cologne irrésistible.  Le lanceur ne peut réduire l'effet que d'un seul « parfum » à la fois.	lot sorts_objets_072
+sort	2190039		ToolTip	b758f11ffbac	Réduit les effets nuisibles de l'Eau de Cologne irrésistible.  Le lanceur ne peut réduire l'effet que d'un seul « parfum » à la fois.	lot sorts_objets_072
+sort	2199991		Description	4900d145f3c8	Allez-y...	lot sorts_objets_072
+sort	2199991		Name	cf19d8dec5f2	Suicidez-vous	lot sorts_objets_072
+sort	2199991		ToolTip	4900d145f3c8	Allez-y...	lot sorts_objets_072
+sort	2199992		Description	15c3959f5b13	Je vous débogue !	lot sorts_objets_072
+sort	2199992		Name	33a0b45ff0f6	Aura de débogage de Sins	lot sorts_objets_072
+sort	2199992		ToolTip	15c3959f5b13	Je vous débogue !	lot sorts_objets_072
+sort	2199999		Description	9ffd5542d2cf	Sort de test polyvalent de Sins	lot sorts_objets_072
+sort	2199999		Name	9ffd5542d2cf	Sort de test polyvalent de Sins	lot sorts_objets_072
+sort	2199999		ToolTip	9ffd5542d2cf	Sort de test polyvalent de Sins	lot sorts_objets_072
+sort	2351524		Description	90a2223a58e0	Augmente votre réputation auprès de Thrallmar de $s1.	lot sorts_objets_072
+sort	2351524		Name	6e67467d9386	Réputation +250 Thrallmar	lot sorts_objets_072
+sort	2351524		ToolTip	90a2223a58e0	Augmente votre réputation auprès de Thrallmar de $s1.	lot sorts_objets_072
+sort	2351525		Description	90b911e23305	Augmente votre réputation auprès du Bastion de l'Honneur de $s1.	lot sorts_objets_072
+sort	2351525		Name	72fd4ddae990	Réputation +250 Bastion de l'Honneur	lot sorts_objets_072
+sort	2351525		ToolTip	90b911e23305	Augmente votre réputation auprès du Bastion de l'Honneur de $s1.	lot sorts_objets_072
+sort	2351526		Description	909bb824a850	Augmente votre réputation auprès de l'Expédition cénarienne de $s1.	lot sorts_objets_072
+sort	2351526		Name	e5decafc0769	Réputation +250 Expédition cénarienne	lot sorts_objets_072
+sort	2351526		ToolTip	909bb824a850	Augmente votre réputation auprès de l'Expédition cénarienne de $s1.	lot sorts_objets_072
+sort	2351527		Description	e56b6d36093b	Augmente votre réputation auprès des Gardiens du temps de $s1.	lot sorts_objets_072
+sort	2351527		Name	6b0f69683a9c	Réputation +250 Les Gardiens du temps	lot sorts_objets_072
+sort	2351527		ToolTip	e56b6d36093b	Augmente votre réputation auprès des Gardiens du temps de $s1.	lot sorts_objets_072
+sort	2351528		Description	919f1a5a8805	Augmente votre réputation auprès de la Ville basse de $s1.	lot sorts_objets_072
+sort	2351528		Name	fd1cc6356b62	Réputation +250 Ville basse	lot sorts_objets_072
+sort	2351528		ToolTip	919f1a5a8805	Augmente votre réputation auprès de la Ville basse de $s1.	lot sorts_objets_072
+sort	2351529		Description	9cb823439be4	Augmente votre réputation auprès des Sha'tar de $s1.	lot sorts_objets_072
+sort	2351529		Name	f880f6d6ec93	Réputation +250 Les Sha'tar	lot sorts_objets_072
+sort	2351529		ToolTip	9cb823439be4	Augmente votre réputation auprès des Sha'tar de $s1.	lot sorts_objets_072
+sort	2351530		Description	7cf76763c9b1	Augmente votre réputation auprès de l'Aldor de $s1 mais réduit votre réputation auprès des Clairvoyants de $s2.	lot sorts_objets_072
+sort	2351530		Name	558b6c0022ab	Réputation +250 L'Aldor	lot sorts_objets_072
+sort	2351530		ToolTip	7cf76763c9b1	Augmente votre réputation auprès de l'Aldor de $s1 mais réduit votre réputation auprès des Clairvoyants de $s2.	lot sorts_objets_072
+sort	2351531		Description	32a12c957af6	Augmente votre réputation auprès des Clairvoyants de $s1 mais réduit votre réputation auprès de l'Aldor de $s2.	lot sorts_objets_072
+sort	2351531		Name	b4a37d523a80	Réputation +250 Les Clairvoyants	lot sorts_objets_072
+sort	2351531		ToolTip	32a12c957af6	Augmente votre réputation auprès des Clairvoyants de $s1 mais réduit votre réputation auprès de l'Aldor de $s2.	lot sorts_objets_072
+sort	2935000		Description	4eb4767636b0	Vous téléporte au Donjon d'Ombrecroc.	lot sorts_objets_072
+sort	2935000		Name	a0f0657b6aa5	Téléportation M+ : Donjon d'Ombrecroc	lot sorts_objets_072
+sort	2935001		Description	43e0001093c1	Vous téléporte aux Mortemines.	lot sorts_objets_072
+sort	2935001		Name	573ee546dfe5	Téléportation M+ : Les Mortemines	lot sorts_objets_072
+sort	2935002		Description	b0e0a20e6e29	Vous téléporte aux Cavernes des lamentations.	lot sorts_objets_072
+sort	2935002		Name	12eb0a54cd72	Téléportation M+ : Cavernes des lamentations	lot sorts_objets_072
+sort	2935003		Description	a77d796e8c61	Vous téléporte au Kraal de Tranchebauge.	lot sorts_objets_072
+sort	2935003		Name	491fb16bf4c4	Téléportation M+ : Kraal de Tranchebauge	lot sorts_objets_072
+sort	2935004		Description	6016b553823c	Vous téléporte aux Profondeurs de Brassenoire.	lot sorts_objets_072
+sort	2935004		Name	d506de775445	Téléportation M+ : Profondeurs de Brassenoire	lot sorts_objets_072
+sort	2935005		Description	226ad552d939	Vous téléporte à Uldaman.	lot sorts_objets_072
+sort	2935005		Name	fb8ce2e6bb1b	Téléportation M+ : Uldaman	lot sorts_objets_072
+sort	2935006		Description	7089879782e3	Vous téléporte à Gnomeregan.	lot sorts_objets_072
+sort	2935006		Name	0bebdab83ea8	Téléportation M+ : Gnomeregan	lot sorts_objets_072
+sort	2935007		Description	64bd4ace6199	Vous téléporte aux Souilles de Tranchebauge.	lot sorts_objets_072
+sort	2935007		Name	bb766efa00ad	Téléportation M+ : Souilles de Tranchebauge	lot sorts_objets_072
+sort	2935008		Description	0598e9745701	Vous téléporte à Zul'Farrak.	lot sorts_objets_072
+sort	2935008		Name	3617b5c1cc1c	Téléportation M+ : Zul'Farrak	lot sorts_objets_072
+sort	2935009		Description	1f16264f064a	Vous téléporte au Pic Rochenoire inférieur.	lot sorts_objets_072
+sort	2935009		Name	94d78a6bfad0	Téléportation M+ : Pic Rochenoire inférieur	lot sorts_objets_072
+sort	2935010		Description	0646c792be35	Vous téléporte aux Profondeurs de Rochenoire - Prison.	lot sorts_objets_072
+sort	2935010		Name	5debe501fe0d	Téléportation M+ : Profondeurs de Rochenoire - Prison	lot sorts_objets_072
+sort	2935011		Description	9e5c1e06b88d	Vous téléporte aux Profondeurs de Rochenoire - Ville haute.	lot sorts_objets_072
+sort	2935011		Name	d2e3fa924401	Téléportation M+ : Profondeurs de Rochenoire - Ville haute	lot sorts_objets_072
+sort	2935012		Description	1b710e649b5b	Vous téléporte à Scholomance.	lot sorts_objets_072
+sort	2935012		Name	b41c66ffaa73	Téléportation M+ : Scholomance	lot sorts_objets_072
+sort	2935013		Description	c2c41e12da96	Vous téléporte à Stratholme - Porte principale.	lot sorts_objets_072
+sort	2935013		Name	0d9ea0f54123	Téléportation M+ : Stratholme - Porte principale	lot sorts_objets_072
+sort	2935014		Description	fdca7cbdcdc8	Vous téléporte à Stratholme - Entrée de service.	lot sorts_objets_072
+sort	2935014		Name	9e9c7b4c3e71	Téléportation M+ : Stratholme - Entrée de service	lot sorts_objets_072
+sort	2935015		Description	43c4e78db68d	Vous téléporte au Gouffre de Ragefeu.	lot sorts_objets_072
+sort	2935015		Name	dbffcaa1013e	Téléportation M+ : Gouffre de Ragefeu	lot sorts_objets_072
+sort	2935016		Description	383c48ed6ff7	Vous téléporte à Hache-tripes - Est.	lot sorts_objets_072
+sort	2935016		Name	8ca4ce6ecb1d	Téléportation M+ : Hache-tripes - Est	lot sorts_objets_072
+sort	2935017		Description	bd6835e7ae9e	Vous téléporte à Hache-tripes - Ouest.	lot sorts_objets_072
+sort	2935017		Name	51a8d62fa476	Téléportation M+ : Hache-tripes - Ouest	lot sorts_objets_072
+sort	2935018		Description	1dc097f4e6fc	Vous téléporte à Hache-tripes - Nord.	lot sorts_objets_072
+sort	2935018		Name	c23058439ca0	Téléportation M+ : Hache-tripes - Nord	lot sorts_objets_072
+sort	2935019		Description	5a4f421d2a50	Vous téléporte à Maraudon - Orange.	lot sorts_objets_072
+sort	2935019		Name	c1d0bab8da78	Téléportation M+ : Maraudon - Orange	lot sorts_objets_072

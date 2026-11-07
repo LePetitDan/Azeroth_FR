@@ -25,6 +25,7 @@ Sorties (collecte/donnees/) :
 - client/dbc_coa_en_2.csv.xz          : dbc, archive, id, champ, en (même forme que dbc_coa_en.csv.xz)
 - officiel_frFR/dbc_335_2.csv.xz      : dbc, id, champ, en_blizzard, fr_blizzard (même forme que dbc_335.csv.xz)
 - client/familles_creature_competence.tsv : famille de créature -> compétence (SkillLine) du client CoA
+- client/vanite_objets.tsv            : objet de la collection de vanité -> numéro de l'objet
 - officiel_frFR/brut/{frFR,enUS}/DBFilesClient/<table>.dbc.xz : les fichiers Blizzard lus, tels quels
 - client/dbc_complements.json         : archives, empreintes (sha256), comptes
 """
@@ -69,6 +70,8 @@ COLONNES = {
     'CharacterAdvancementTabTypes': [('name', 2)],
     'CharacterAdvancementClassTypes': [('name', 6)],
     'SpellTagTypes': [('name', 27), ('label', 44)],
+    # essai 8 (07/11/2026) : collection de vanité (provenance de chaque objet : « Available from the Webstore »…)
+    'VanityCollection': [('description', 42), ('description2', 59)],
     # --- Blizzard, français officiel dans patch-frFR-3
     'GameTips': [('text', 1)],
     'MapDifficulty': [('message', 3)],
@@ -91,6 +94,7 @@ COLONNES = {
     'ItemRandomProperties': [('name', 7)],
 }
 CREATUREFAMILY_SKILLLINE = 5          # CreatureFamily : SkillLine[0] (disposition 3.3.5a)
+VANITY_OBJET = 1                      # VanityCollection : numéro de l'objet
 
 
 class Table:
@@ -105,7 +109,10 @@ class Table:
         self.recs = [struct.unpack_from('<%dI' % self.mots, donnees, 20 + i * rs) for i in range(n)]
 
     def chaine(self, o):
-        if o <= 0 or o >= len(self.chaines):
+        # 0.9.1 (07/11/2026) : les DBC réécrits par CoA (patch-M, patch-S, patch-T) commencent leur bloc de textes par un
+        # VRAI texte (pas par un octet nul) : l'adresse 0 est alors un texte (« Dun Morogh », « Warrior », « Getting Started »),
+        # et non le texte vide. Dans un DBC de Blizzard, le bloc commence par un octet nul : l'adresse 0 reste le texte vide.
+        if o < 0 or o >= len(self.chaines):
             return ''
         return self.chaines[o:self.chaines.index(b'\x00', o)].decode('utf-8', 'replace')
 
@@ -168,6 +175,12 @@ def main():
             b.update({'archive_enUS': nom_en, 'textes_enUS': len(en), 'textes_frFR': len(fr),
                       'anglais_identique': sum(1 for k, t in ce.items() if en.get(k) == t),
                       'anglais_identique_avec_frFR': sum(1 for k, t in ce.items() if en.get(k) == t and fr.get(k))})
+        if nom == 'VanityCollection':
+            with open(os.path.join(E.CLIENT, 'vanite_objets.tsv'), 'w', encoding='utf-8', newline='\n') as f:
+                f.write('vanite\tobjet\n')
+                for r in tc.recs:
+                    if r[VANITY_OBJET]:
+                        f.write('%d\t%d\n' % (r[0], r[VANITY_OBJET]))
         if nom == 'CreatureFamily':
             for r in tc.recs:
                 if r[CREATUREFAMILY_SKILLLINE]:

@@ -1,0 +1,306 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	909164		Description	6deb8891ff09	Une explosion d'énergie emplit le lanceur, augmentant $gses:ses; dégâts de ${$PL*0.1552} et son armure de ${$PL*2.569} pendant $d.	lot sorts_objets_056
+sort	909166		Description	9f0a35b13464	Une explosion d'énergie emplit le lanceur, augmentant $gses:ses; dégâts de $s1 et son armure de $s2 pendant $d.	lot sorts_objets_056
+sort	909167		Description	9f0a35b13464	Une explosion d'énergie emplit le lanceur, augmentant $gses:ses; dégâts de $s1 et son armure de $s2 pendant $d.	lot sorts_objets_056
+sort	909168		Description	689f987e1b0b	Blesse la cible et lui inflige ${$m1+0.429*$SP+0.139*$AP} points de dégâts.	lot sorts_objets_056
+sort	909170		Description	70173fd4044c	Blesse la cible et lui inflige ${$m1+0.497*$SP+0.162*$AP} points de dégâts.	lot sorts_objets_056
+sort	909171		Description	d6201c0c1cc9	Blesse la cible et lui inflige ${$m1+0.531*$SP+0.173*$AP} points de dégâts.	lot sorts_objets_056
+sort	909176		Description	97f1e099ceee	Blesse la cible et lui inflige de ${$m1+0.407*$SP+0.132*$AP} à ${$M1+0.407*$SP+0.132*$AP} points de dégâts, et réduit son Intelligence de ${$abs($ppl2)} pendant $d.	lot sorts_objets_056
+sort	909178		Description	26033c474417	Blesse la cible et lui inflige de ${$m1+0.472*$SP+0.153*$AP} à ${$M1+0.472*$SP+0.153*$AP} points de dégâts, et réduit son Intelligence de $s2 pendant $d.	lot sorts_objets_056
+sort	909179		Description	cafee179ed85	Blesse la cible et lui inflige de ${$m1+0.505*$SP+0.164*$AP} à ${$M1+0.505*$SP+0.164*$AP} points de dégâts, et réduit son Intelligence de $s2 pendant $d.	lot sorts_objets_056
+sort	909184		Description	87effff9f766	Confère $909188s1 de puissance des sorts supplémentaire pendant $909188d lorsque l'un de vos sorts échoue.	lot sorts_objets_056
+sort	909184		Name	38fc2836cd0e	Moulinet de pêche de Nat Pagle	lot sorts_objets_056
+sort	909186		Description	d318a6879a2b	Confère $909190s1 de puissance des sorts supplémentaire pendant $909190d lorsque l'un de vos sorts échoue.	lot sorts_objets_056
+sort	909186		Name	38fc2836cd0e	Moulinet de pêche de Nat Pagle	lot sorts_objets_056
+sort	909187		Description	4603311e4337	Confère $909191s1 de puissance des sorts supplémentaire pendant $909191d lorsque l'un de vos sorts échoue.	lot sorts_objets_056
+sort	909187		Name	38fc2836cd0e	Moulinet de pêche de Nat Pagle	lot sorts_objets_056
+sort	909196		Description	a9aed3eb6e60	A une chance de tirer une flèche empoisonnée sur votre cible, lui infligeant de ${$909192m1+0.05*$AP} à ${$909192M1+0.05*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909196		Name	88c854fd5547	Déclenchement de Mandokir / Piqûre de Huhuran	lot sorts_objets_056
+sort	909197		Description	ff7159aeda62	A une chance de tirer une flèche empoisonnée sur votre cible, lui infligeant de ${$909193m1+0.05*$AP} à ${$909193M1+0.05*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909197		Name	88c854fd5547	Déclenchement de Mandokir / Piqûre de Huhuran	lot sorts_objets_056
+sort	909198		Description	0eb8c3d6a6b3	A une chance de tirer une flèche empoisonnée sur votre cible, lui infligeant de ${$m1+0.05*$AP} à ${$M1+0.05*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909198		Name	88c854fd5547	Déclenchement de Mandokir / Piqûre de Huhuran	lot sorts_objets_056
+sort	909199		Description	0eb8c3d6a6b3	A une chance de tirer une flèche empoisonnée sur votre cible, lui infligeant de ${$m1+0.05*$AP} à ${$M1+0.05*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909199		Name	88c854fd5547	Déclenchement de Mandokir / Piqûre de Huhuran	lot sorts_objets_056
+sort	909200		Description	c03d50de3c60	Infliger des dégâts de mêlée augmente de 2 vos dégâts des sorts de Feu, cumulable jusqu'à 30 fois.	lot sorts_objets_056
+sort	909201		Description	c03d50de3c60	Infliger des dégâts de mêlée augmente de 2 vos dégâts des sorts de Feu, cumulable jusqu'à 30 fois.	lot sorts_objets_056
+sort	909202		Description	c03d50de3c60	Infliger des dégâts de mêlée augmente de 2 vos dégâts des sorts de Feu, cumulable jusqu'à 30 fois.	lot sorts_objets_056
+sort	909203		Description	c03d50de3c60	Infliger des dégâts de mêlée augmente de 2 vos dégâts des sorts de Feu, cumulable jusqu'à 30 fois.	lot sorts_objets_056
+sort	909212		Description	951b981aa6fd	Frappe une cible et lui inflige ${$m1+0.468*$SP+0.304*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909214		Description	312df9b721ec	Frappe une cible et lui inflige ${$m1+0.543*$SP+0.353*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909215		Description	437734f1ed7a	Frappe une cible et lui inflige ${$m1+0.58*$SP+0.377*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909216		Description	a9a9a7f1deb0	Frappe une cible et lui inflige de ${$m1+0.468*$SPN+0.304*$AP} à ${$M1+0.468*$SPN+0.304*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909218		Description	322bbc0a8fcf	Frappe une cible et lui inflige de ${$m1+0.543*$SPN+0.353*$AP} à ${$M1+0.543*$SPN+0.353*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909219		Description	f14a40043bdb	Frappe une cible et lui inflige de ${$m1+0.58*$SPN+0.377*$AP} à ${$M1+0.58*$SPN+0.377*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909220		Description	ab05df2b22d8	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.3*$SPS+0.195*$AP} à ${$M1+0.3*$SPS+0.195*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909221		Description	b02154208e6f	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.324*$SPS+0.211*$AP} à ${$M1+0.324*$SPS+0.211*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909222		Description	14d463507902	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.348*$SPS+0.226*$AP} à ${$M1+0.348*$SPS+0.226*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909223		Description	919f025eeb52	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.372*$SPS+0.242*$AP} à ${$M1+0.372*$SPS+0.242*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909224		Description	519ed8a81d46	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.151*$SPS+0.098*$AP} à ${$M1+0.151*$SPS+0.098*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909225		Description	a079d401bc8f	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.163*$SPS+0.106*$AP} à ${$M1+0.163*$SPS+0.106*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909226		Description	e1567d70ca1f	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.176*$SPS+0.114*$AP} à ${$M1+0.176*$SPS+0.114*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909227		Description	91c53e980e51	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.188*$SPS+0.122*$AP} à ${$M1+0.188*$SPS+0.122*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909232		Description	8dad1bc81072	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.629*$SPS+0.204*$AP} à ${$M1+0.629*$SPS+0.204*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909234		Description	f4e37641b78e	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.729*$SPS+0.237*$AP} à ${$M1+0.729*$SPS+0.237*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909235		Description	b5000e83f093	Envoie un trait d'ombre sur l'ennemi et lui inflige de ${$m1+0.779*$SPS+0.253*$AP} à ${$M1+0.779*$SPS+0.253*$AP} points de dégâts d'Ombre.	lot sorts_objets_056
+sort	909236		Description	59ecaa0f90ae	Augmente la puissance d'attaque de ${$PL*1.8846} contre les démons.	lot sorts_objets_056
+sort	909240		Description	b090fa1ed194	Augmente la puissance d'attaque en mêlée de ${$PL*1.7368} pendant $d.	lot sorts_objets_056
+sort	909244		Description	95a65954f643	Lorsque vous êtes frappé en combat, vous avez $h% de chances de voler ${$909252ppl1} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909245		Description	af7a1fafcbbd	Lorsque vous êtes frappé en combat, vous avez $h% de chances de voler $909253s1 points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909246		Description	96cb0f19416b	Lorsque vous êtes frappé en combat, vous avez $h% de chances de voler $909254s1 points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909247		Description	b9212aa6d080	Lorsque vous êtes frappé en combat, vous avez $h% de chances de voler $909255s1 points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909248		Description	e27e435812cc	Lorsque vous êtes frappé en combat, vous avez $h% de chances d'infliger de ${$909256ppl1+$909256m1} à ${$909256ppl1+$909256M1} points de dégâts de Feu à toutes les cibles autour de vous.	lot sorts_objets_056
+sort	909249		Description	0031c182e515	Lorsque vous êtes frappé en combat, vous avez $h% de chances d'infliger $909257s1 points de dégâts de Feu à toutes les cibles autour de vous.	lot sorts_objets_056
+sort	909250		Description	df6eaf4118aa	Lorsque vous êtes frappé en combat, vous avez $h% de chances d'infliger $909258s1 points de dégâts de Feu à toutes les cibles autour de vous.	lot sorts_objets_056
+sort	909251		Description	747a85d37f78	Lorsque vous êtes frappé en combat, vous avez $h% de chances d'infliger $909259s1 points de dégâts de Feu à toutes les cibles autour de vous.	lot sorts_objets_056
+sort	909260		Description	4018fc7a7a68	Frappe une cible et lui inflige de ${$m1+0.2*$SP+0.06*$AP} à ${$M1+0.02*$SP+0.06*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909262		Description	7a44f74312ef	Frappe une cible et lui inflige de ${$m1+0.497*$SP+0.162*$AP} à ${$M1+0.497*$SP+0.162*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909263		Description	c89d94bc8abb	Frappe une cible et lui inflige de ${$m1+0.531*$SP+0.173*$AP} à ${$M1+0.531*$SP+0.173*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909264		Description	3c704425c1ba	Sonnez la corne du lion ! Réduit de $S1% la vitesse d'attaque de tous les attaquants proches pendant $909264d.	lot sorts_objets_056
+sort	909264		ToolTip	299217a56237	Vitesse d'attaque réduite de $S1%.	lot sorts_objets_056
+sort	909272		Description	97bd0c42eec5	Inflige une blessure mortelle causant ${$m1+0.15*$SP+0.15*$AP} points de dégâts.	lot sorts_objets_056
+sort	909273		Description	c7df342a6b05	Inflige une blessure mortelle causant ${$m1+0.162*$SP+0.162*$AP} points de dégâts.	lot sorts_objets_056
+sort	909274		Description	da8e192c91ef	Inflige une blessure mortelle causant ${$m1+0.174*$SP+0.174*$AP} points de dégâts.	lot sorts_objets_056
+sort	909275		Description	d4179e4eff48	Inflige une blessure mortelle causant ${$m1+0.186*$SP+0.186*$AP} points de dégâts.	lot sorts_objets_056
+sort	909276		Description	af8b1ae8e314	Inflige ${$m1+0.035*$SP+0.023*$AP} points de dégâts de Feu à quiconque vous frappe en mêlée.	lot sorts_objets_056
+sort	909279		Description	7610d72fdf10	Inflige ${$m1+0.043*$SP+0.028*$AP} points de dégâts de Feu à quiconque vous frappe en mêlée.	lot sorts_objets_056
+sort	909284		Description	ee91e54a93b5	Vous bénéficiez de $s1 de score de pénétration d'armure pendant $d. Cet effet est cumulable jusqu'à $u fois.	lot sorts_objets_056
+sort	909285		Description	ee91e54a93b5	Vous bénéficiez de $s1 de score de pénétration d'armure pendant $d. Cet effet est cumulable jusqu'à $u fois.	lot sorts_objets_056
+sort	909286		Description	ee91e54a93b5	Vous bénéficiez de $s1 de score de pénétration d'armure pendant $d. Cet effet est cumulable jusqu'à $u fois.	lot sorts_objets_056
+sort	909287		Description	ee91e54a93b5	Vous bénéficiez de $s1 de score de pénétration d'armure pendant $d. Cet effet est cumulable jusqu'à $u fois.	lot sorts_objets_056
+sort	909292		Description	8fc90d1b4dc9	Rend $909296s1 points de mana ou $/10;909296s2 points de rage lorsque vous tuez une cible qui rapporte de l'expérience ; cet effet ne peut se produire plus d'une fois toutes les 10 secondes.	lot sorts_objets_056
+sort	909293		Description	5024c0f65c25	Rend $909297s1 points de mana ou $/10;909297s2 points de rage lorsque vous tuez une cible qui rapporte de l'expérience ; cet effet ne peut se produire plus d'une fois toutes les 10 secondes.	lot sorts_objets_056
+sort	909294		Description	bf6a0df5c873	Rend $909298s1 points de mana ou $/10;909298s2 points de rage lorsque vous tuez une cible qui rapporte de l'expérience ; cet effet ne peut se produire plus d'une fois toutes les 10 secondes.	lot sorts_objets_056
+sort	909295		Description	f601da308f44	Rend $909299s1 points de mana ou $/10;909299s2 points de rage lorsque vous tuez une cible qui rapporte de l'expérience ; cet effet ne peut se produire plus d'une fois toutes les 10 secondes.	lot sorts_objets_056
+sort	909300		Description	2dcc74483780	Réduit de $909665s2% le déplacement de l'ennemi et le fait saigner pour ${($m1+0.19*$SP+0.124*$AP)*10} points de dégâts en $d.	lot sorts_objets_056
+sort	909300		ToolTip	af675fecf306	Déplacement ralenti de $909665s2% et saignement de $s1 points de dégâts toutes les $t1 sec.	lot sorts_objets_056
+sort	909303		Description	d47ccc5905c1	Réduit de $909665s2% le déplacement de l'ennemi et le fait saigner pour ${($m1+0.236*$SP+0.153*$AP)*10} points de dégâts en $d.	lot sorts_objets_056
+sort	909303		ToolTip	af675fecf306	Déplacement ralenti de $909665s2% et saignement de $s1 points de dégâts toutes les $t1 sec.	lot sorts_objets_056
+sort	909304		Description	2a91864a99b1	Lorsque vous êtes frappé en combat, vous avez une chance de déchaîner une vague de flammes qui inflige ${$m1+0.027*$SP+0.018*$AP} points de dégâts de Feu aux ennemis proches et vous rend 15% des dégâts infligés.	lot sorts_objets_056
+sort	909305		Description	2a91864a99b1	Lorsque vous êtes frappé en combat, vous avez une chance de déchaîner une vague de flammes qui inflige ${$m1+0.027*$SP+0.018*$AP} points de dégâts de Feu aux ennemis proches et vous rend 15% des dégâts infligés.	lot sorts_objets_056
+sort	909306		Description	bd7fc52abdcc	Lorsque vous êtes frappé en combat, vous avez une chance de déchaîner une vague de flammes qui inflige ${$m1+0.029*$SP+0.019*$AP} points de dégâts de Feu aux ennemis proches et vous rend 15% des dégâts infligés.	lot sorts_objets_056
+sort	909307		Description	96c9cd4d9a24	Lorsque vous êtes frappé en combat, vous avez une chance de déchaîner une vague de flammes qui inflige ${$m1+0.031*$SP+0.02*$AP} points de dégâts de Feu aux ennemis proches et vous rend 15% des dégâts infligés.	lot sorts_objets_056
+sort	909308		Description	55765a7c77a8	Frappe une cible et lui inflige de ${$m1+0.429*$SP+0.139*$AP} à ${$M1+0.429*$SP+0.139*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909309		Description	2a4338fe9420	Frappe une cible et lui inflige de ${$m1+0.463*$SP+0.15*$AP} à ${$M1+0.463*$SP+0.15*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909310		Description	7a44f74312ef	Frappe une cible et lui inflige de ${$m1+0.497*$SP+0.162*$AP} à ${$M1+0.497*$SP+0.162*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909311		Description	c89d94bc8abb	Frappe une cible et lui inflige de ${$m1+0.531*$SP+0.173*$AP} à ${$M1+0.531*$SP+0.173*$AP} points de dégâts de Feu.	lot sorts_objets_056
+sort	909320		Description	33ed8aa0ca40	Taillade l'ennemi et lui inflige de ${$m1+0.429*$SP+0.139*$AP} à ${$M1+0.429*$SP+0.139*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909321		Description	bcf73b5a6de4	Taillade l'ennemi et lui inflige de ${$m1+0.463*$SP+0.15*$AP} à ${$M1+0.463*$SP+0.15*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909322		Description	cbd3a317a0ad	Taillade l'ennemi et lui inflige de ${$m1+0.497*$SP+0.162*$AP} à ${$M1+0.497*$SP+0.162*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909323		Description	d8d2c1134a58	Taillade l'ennemi et lui inflige de ${$m1+0.531*$SP+0.173*$AP} à ${$M1+0.531*$SP+0.173*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909324		Description	fa374c879525	Frappe l'ennemi avec du poison et lui inflige de ${$m1+0.429*$SPN+0.279*$AP} à ${$M1+0.429*$SPN+0.279*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909326		Description	aad63ccb6fba	Frappe l'ennemi avec du poison et lui inflige de ${$m1+0.497*$SPN+0.323*$AP} à ${$M1+0.497*$SPN+0.323*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909327		Description	5856547fd798	Frappe l'ennemi avec du poison et lui inflige de ${$m1+0.531*$SPN+0.345*$AP} à ${$M1+0.531*$SPN+0.345*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909328		Description	1e5b8a018c8d	Blesse la cible et lui inflige de ${$m1+0.125*$SP+0.125*$AP} à ${$M1+0.125*$SP+0.125*$AP} points de dégâts.	lot sorts_objets_056
+sort	909329		Description	793996fc9427	Blesse la cible et lui inflige de ${$m1+0.135*$SP+0.135*$AP} à ${$M1+0.135*$SP+0.135*$AP} points de dégâts.	lot sorts_objets_056
+sort	909330		Description	71b8db6cb661	Blesse la cible et lui inflige de ${$m1+0.145*$SP+0.145*$AP} à ${$M1+0.145*$SP+0.145*$AP} points de dégâts.	lot sorts_objets_056
+sort	909331		Description	c77adc48a2c7	Blesse la cible et lui inflige de ${$m1+0.155*$SP+0.155*$AP} à ${$M1+0.155*$SP+0.155*$AP} points de dégâts.	lot sorts_objets_056
+sort	909336		Description	7e8d49ff45e2	Vole de ${$m1+0.214*$SPS+0.07*$AP} à ${$M1+0.214*$SPS+0.07*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909337		Description	5440e8b3aa45	Vole de ${$m1+0.231*$SPS+0.075*$AP} à ${$M1+0.231*$SPS+0.075*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909338		Description	54198059ea78	Vole de ${$m1+0.249*$SPS+0.081*$AP} à ${$M1+0.249*$SPS+0.081*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909339		Description	dc819c1bc4b8	Vole de ${$m1+0.266*$SPS+0.086*$AP} à ${$M1+0.266*$SPS+0.086*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909348		Description	95a996f07235	Frappe l'ennemi avec de l'acide et lui inflige ${$m1+0.429*$SPN+0.139*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909356		Description	52ec5eed8343	Chance de décapiter la cible lors d'un coup de mêlée, causant ${$909316m1+0.047*$SPN+0.047*$AP} points de dégâts.	lot sorts_objets_056
+sort	909357		Description	fc591633a5d3	Chance de décapiter la cible lors d'un coup de mêlée, causant ${$909317m1+0.05*$SPN+0.05*$AP} points de dégâts.	lot sorts_objets_056
+sort	909358		Description	6cd5cee0f9f9	Chance de décapiter la cible lors d'un coup de mêlée, causant ${$909318m1+0.054*$SPN+0.054*$AP} points de dégâts.	lot sorts_objets_056
+sort	909359		Description	8def2a742136	Chance de décapiter la cible lors d'un coup de mêlée, causant ${$909319m1+0.058*$SPN+0.058*$AP} points de dégâts.	lot sorts_objets_056
+sort	909364		Description	2068acefc7ed	Chance, lorsque vous infligez des dégâts directs avec un sort, d'augmenter votre puissance des sorts de $s1 pendant $809364d.	lot sorts_objets_056
+sort	909365		Description	2068acefc7ed	Chance, lorsque vous infligez des dégâts directs avec un sort, d'augmenter votre puissance des sorts de $s1 pendant $809364d.	lot sorts_objets_056
+sort	909366		Description	2068acefc7ed	Chance, lorsque vous infligez des dégâts directs avec un sort, d'augmenter votre puissance des sorts de $s1 pendant $809364d.	lot sorts_objets_056
+sort	909367		Description	2068acefc7ed	Chance, lorsque vous infligez des dégâts directs avec un sort, d'augmenter votre puissance des sorts de $s1 pendant $809364d.	lot sorts_objets_056
+sort	909368		Description	980b06bb73fe	Des pointes jaillissent de votre corps, infligeant $s1 points de dégâts aux ennemis proches et absorbant $s2 points de dégâts pendant $d.	lot sorts_objets_056
+sort	909369		Description	980b06bb73fe	Des pointes jaillissent de votre corps, infligeant $s1 points de dégâts aux ennemis proches et absorbant $s2 points de dégâts pendant $d.	lot sorts_objets_056
+sort	909370		Description	980b06bb73fe	Des pointes jaillissent de votre corps, infligeant $s1 points de dégâts aux ennemis proches et absorbant $s2 points de dégâts pendant $d.	lot sorts_objets_056
+sort	909371		Description	980b06bb73fe	Des pointes jaillissent de votre corps, infligeant $s1 points de dégâts aux ennemis proches et absorbant $s2 points de dégâts pendant $d.	lot sorts_objets_056
+sort	909380		Description	bb4155b70156	Donne une chance, lors d'une attaque en mêlée ou à distance, de vous appliquer un effet de pénétration d'armure pendant $d, augmentant votre score de pénétration d'armure de $909384s1. L'effet de pénétration d'armure peut être appliqué jusqu'à 6 fois.	lot sorts_objets_056
+sort	909381		Description	1b1d796c41c7	Donne une chance, lors d'une attaque en mêlée ou à distance, de vous appliquer un effet de pénétration d'armure pendant $d, augmentant votre score de pénétration d'armure de $909385s1. L'effet de pénétration d'armure peut être appliqué jusqu'à 6 fois.	lot sorts_objets_056
+sort	909382		Description	6d29dff49aa7	Donne une chance, lors d'une attaque en mêlée ou à distance, de vous appliquer un effet de pénétration d'armure pendant $d, augmentant votre score de pénétration d'armure de $909386s1. L'effet de pénétration d'armure peut être appliqué jusqu'à 6 fois.	lot sorts_objets_056
+sort	909383		Description	f40f3badaf89	Donne une chance, lors d'une attaque en mêlée ou à distance, de vous appliquer un effet de pénétration d'armure pendant $d, augmentant votre score de pénétration d'armure de $909387s1. L'effet de pénétration d'armure peut être appliqué jusqu'à 6 fois.	lot sorts_objets_056
+sort	909388		Description	c9dc0cba0e13	Vole ${$m1+0.05*$SPS+0.05*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909389		Description	7e67d8ffd95f	Vole ${$m1+0.054*$SPS+0.054*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909390		Description	dede76f8c872	Vole ${$m1+0.058*$SPS+0.058*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909391		Description	99ce82a3469d	Vole ${$m1+0.062*$SPS+0.062*$AP} points de vie à l'ennemi ciblé.	lot sorts_objets_056
+sort	909420		Name	135b471e2172	Essence de Saphiron	lot sorts_objets_056
+sort	909422		Name	135b471e2172	Essence de Saphiron	lot sorts_objets_056
+sort	909423		Name	135b471e2172	Essence de Saphiron	lot sorts_objets_056
+sort	909428		Description	a827bc077a81	Votre sort Epuration rend aussi $909432s1 points de vie à la cible.	lot sorts_objets_056
+sort	909429		Description	097161ede1c1	Votre sort Epuration rend aussi $909433s1 points de vie à la cible.	lot sorts_objets_056
+sort	909430		Description	b80208806a3d	Votre sort Epuration rend aussi $909434s1 points de vie à la cible.	lot sorts_objets_056
+sort	909431		Description	974e98343703	Votre sort Epuration rend aussi $909435s1 points de vie à la cible.	lot sorts_objets_056
+sort	909440		Description	5f7ac560b8e4	Augmente de ${$PL*0.5333} la puissance de votre sort Eclat lunaire.	lot sorts_objets_056
+sort	909448		Description	18e37cdd9938	Augmente de ${$ppl1} les dégâts de base infligés par Chaîne d'éclairs et Éclair.	lot sorts_objets_056
+sort	909460		Description	ec20b250c2b9	Augmente la puissance d'attaque de $909464s1, puis de $909464s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909460		ToolTip	7113a4d9211e	Augmente la puissance d'attaque de $909464s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909461		Description	e1031cda6961	Augmente la puissance d'attaque de $909465s1, puis de $909465s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909461		ToolTip	f28d4fbf3a23	Augmente la puissance d'attaque de $909465s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909462		Description	721f8365e9cb	Augmente la puissance d'attaque de $909466s1, puis de $909466s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909462		ToolTip	2324bd74d563	Augmente la puissance d'attaque de $909466s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909463		Description	6ee1c40fe913	Augmente la puissance d'attaque de $909467s1, puis de $909467s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909463		ToolTip	d53f945c86c9	Augmente la puissance d'attaque de $909467s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909476		Description	560a3ed9d82a	Chance de frapper votre cible à distance avec un obus incendiaire qui inflige $909488s1 points de dégâts de Feu.	lot sorts_objets_056
+sort	909500		Description	1f67028c16e9	Augmente les dégâts des sorts de $909504s1, puis de $909504s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909500		ToolTip	fbc4dfa06e66	Augmente les dégâts des sorts de $909504s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909501		Description	664fb361706c	Augmente les dégâts des sorts de $909505s1, puis de $909505s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909501		ToolTip	7ae95965d686	Augmente les dégâts des sorts de $909505s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909502		Description	fb04c43bfc59	Augmente les dégâts des sorts de $909506s1, puis de $909506s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909502		ToolTip	1a32d2f78ef7	Augmente les dégâts des sorts de $909506s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909503		Description	d17f5e2c5fc2	Augmente les dégâts des sorts de $909507s1, puis de $909507s1 supplémentaires toutes les $t1 sec.  Dure $d.	lot sorts_objets_056
+sort	909503		ToolTip	628e6ab8cc4e	Augmente les dégâts des sorts de $909507s1 toutes les $t1 sec.	lot sorts_objets_056
+sort	909512		Description	c4c5a4ca1666	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909516s2% pendant $909516d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909512		ToolTip	c4c5a4ca1666	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909516s2% pendant $909516d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909513		Description	82bbfae38228	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909517s2% pendant $909517d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909513		ToolTip	82bbfae38228	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909517s2% pendant $909517d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909514		Description	26b0e6b7a0bf	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909518s2% pendant $909518d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909514		ToolTip	26b0e6b7a0bf	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909518s2% pendant $909518d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909515		Description	059bb939a0d6	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909519s2% pendant $909519d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909515		ToolTip	059bb939a0d6	Infliger un coup critique avec des dégâts de feu augmente tous les dégâts de feu infligés de $909519s2% pendant $909519d, cumulable jusqu'à 3 fois. Lorsque cet effet prend fin, vous subissez des dégâts de Feu.	lot sorts_objets_056
+sort	909544		Description	3058ce2ab83c	Chance de toucher : désoriente la cible, qui erre sans but pendant $909360d maximum.	lot sorts_objets_056
+sort	909544		Name	2cd0b3d6ce99	Déclenchement de Lame sombre de la folie	lot sorts_objets_056
+sort	909545		Description	d207bdc56369	Chance de toucher : désoriente la cible, qui erre sans but pendant $909361d maximum.	lot sorts_objets_056
+sort	909545		Name	2cd0b3d6ce99	Déclenchement de Lame sombre de la folie	lot sorts_objets_056
+sort	909546		Description	1c738cad3fce	Chance de toucher : désoriente la cible, qui erre sans but pendant $909362d maximum.	lot sorts_objets_056
+sort	909546		Name	2cd0b3d6ce99	Déclenchement de Lame sombre de la folie	lot sorts_objets_056
+sort	909547		Description	1de767e9c541	Chance de toucher : désoriente la cible, qui erre sans but pendant $909363d maximum.	lot sorts_objets_056
+sort	909547		Name	2cd0b3d6ce99	Déclenchement de Lame sombre de la folie	lot sorts_objets_056
+sort	909548		Description	34e2193747e0	Chaque fois que vous infligez des dégâts en mêlée ou à distance à un adversaire, vous gagnez $909552s1 de puissance d'attaque pendant $909552d, cumulable jusqu'à $909552u fois.	lot sorts_objets_056
+sort	909550		Description	17948e92f201	Chaque fois que vous infligez des dégâts en mêlée ou à distance à un adversaire, vous gagnez $909554s1 de puissance d'attaque pendant $909554d, cumulable jusqu'à $909554u fois.	lot sorts_objets_056
+sort	909551		Description	ed50278e2487	Chaque fois que vous infligez des dégâts en mêlée ou à distance à un adversaire, vous gagnez $909555s1 de puissance d'attaque pendant $909555d, cumulable jusqu'à $909555u fois.	lot sorts_objets_056
+sort	909560		Description	df56cae367ec	Chaque fois que vous soignez avec Toucher guérisseur, vous gagnez $909564s1 de puissance des sorts pendant $909564d, cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909561		Description	c43dcf82f1f4	Chaque fois que vous soignez avec Toucher guérisseur, vous gagnez $909565s1 de puissance des sorts pendant $909565d, cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909562		Description	3f570201e1fe	Chaque fois que vous soignez avec Toucher guérisseur, vous gagnez $909566s1 de puissance des sorts pendant $909566d, cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909563		Description	f4c6d41b62f7	Chaque fois que vous soignez avec Toucher guérisseur, vous gagnez $909567s1 de puissance des sorts pendant $909567d, cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909568		Description	deb133ba01dc	Chaque fois que vous soignez avec Vague de soins inférieurs, vous gagnez $909572s1 de score de critique pendant $909572d, cumulable jusqu'à $909572u fois.	lot sorts_objets_056
+sort	909569		Description	2820de582161	Chaque fois que vous soignez avec Vague de soins inférieurs, vous gagnez $909573s1 de score de critique pendant $909573d, cumulable jusqu'à $909573u fois.	lot sorts_objets_056
+sort	909570		Description	e1dd5d9ce18d	Chaque fois que vous soignez avec Vague de soins inférieurs, vous gagnez $909574s1 de score de critique pendant $909574d, cumulable jusqu'à $909574u fois.	lot sorts_objets_056
+sort	909571		Description	42112979645f	Chaque fois que vous soignez avec Vague de soins inférieurs, vous gagnez $909575s1 de score de critique pendant $909575d, cumulable jusqu'à $909575u fois.	lot sorts_objets_056
+sort	909576		Description	0a0aa0d73c43	Accélère l'esprit, augmentant le score de hâte de $s1 pendant $d.	lot sorts_objets_056
+sort	909577		Description	0a0aa0d73c43	Accélère l'esprit, augmentant le score de hâte de $s1 pendant $d.	lot sorts_objets_056
+sort	909578		Description	0a0aa0d73c43	Accélère l'esprit, augmentant le score de hâte de $s1 pendant $d.	lot sorts_objets_056
+sort	909579		Description	0a0aa0d73c43	Accélère l'esprit, augmentant le score de hâte de $s1 pendant $d.	lot sorts_objets_056
+sort	909580		Description	58a5d9b4b471	Augmente vos points de vie maximum de $s1 et les soins reçus de $s2% pendant $d. Lorsque les effets se dissipent, vous perdez les points de vie maximum supplémentaires.	lot sorts_objets_056
+sort	909580		ToolTip	1e088ff6edd8	Points de vie maximum augmentés de $s1 et soins reçus augmentés de $s2%.	lot sorts_objets_056
+sort	909581		Description	58a5d9b4b471	Augmente vos points de vie maximum de $s1 et les soins reçus de $s2% pendant $d. Lorsque les effets se dissipent, vous perdez les points de vie maximum supplémentaires.	lot sorts_objets_056
+sort	909581		ToolTip	1e088ff6edd8	Points de vie maximum augmentés de $s1 et soins reçus augmentés de $s2%.	lot sorts_objets_056
+sort	909582		Description	58a5d9b4b471	Augmente vos points de vie maximum de $s1 et les soins reçus de $s2% pendant $d. Lorsque les effets se dissipent, vous perdez les points de vie maximum supplémentaires.	lot sorts_objets_056
+sort	909582		ToolTip	1e088ff6edd8	Points de vie maximum augmentés de $s1 et soins reçus augmentés de $s2%.	lot sorts_objets_056
+sort	909583		Description	58a5d9b4b471	Augmente vos points de vie maximum de $s1 et les soins reçus de $s2% pendant $d. Lorsque les effets se dissipent, vous perdez les points de vie maximum supplémentaires.	lot sorts_objets_056
+sort	909583		ToolTip	1e088ff6edd8	Points de vie maximum augmentés de $s1 et soins reçus augmentés de $s2%.	lot sorts_objets_056
+sort	909584		Description	27d19f15b1cf	Votre prochain Tir des arcanes inflige ${$909588m1+1*$RAP} points de dégâts supplémentaires (${($909588m1+1*$RAP)*0.1} contre les joueurs) sous forme de dégâts des Arcanes à la cible et aux ennemis situés à moins de 8 mètres de votre cible. Dure 10 secondes.	lot sorts_objets_056
+sort	909584		ToolTip	2adb666fd65a	Votre prochain Tir des arcanes inflige des dégâts supplémentaires à votre cible et aux cibles proches.	lot sorts_objets_056
+sort	909585		Description	4517e5ca44cc	Votre prochain Tir des arcanes inflige ${$909589m1+1.08*$RAP} points de dégâts supplémentaires (${($909589m1+1.08*$RAP)*0.1} contre les joueurs) sous forme de dégâts des Arcanes à la cible et aux ennemis situés à moins de 8 mètres de votre cible. Dure 10 secondes.	lot sorts_objets_056
+sort	909585		ToolTip	2adb666fd65a	Votre prochain Tir des arcanes inflige des dégâts supplémentaires à votre cible et aux cibles proches.	lot sorts_objets_056
+sort	909586		Description	7cfcc26cf202	Votre prochain Tir des arcanes inflige ${$909590m1+1.16*$RAP} points de dégâts supplémentaires (${($909590m1+1.16*$RAP)*0.1} contre les joueurs) sous forme de dégâts des Arcanes à la cible et aux ennemis situés à moins de 8 mètres de votre cible. Dure 10 secondes.	lot sorts_objets_056
+sort	909586		ToolTip	2adb666fd65a	Votre prochain Tir des arcanes inflige des dégâts supplémentaires à votre cible et aux cibles proches.	lot sorts_objets_056
+sort	909587		Description	4a6d6e2721dd	Votre prochain Tir des arcanes inflige ${$909591m1+1.24*$RAP} points de dégâts supplémentaires (${($909591m1+1.24*$RAP)*0.1} contre les joueurs) sous forme de dégâts des Arcanes à la cible et aux ennemis situés à moins de 8 mètres de votre cible. Dure 10 secondes.	lot sorts_objets_056
+sort	909587		ToolTip	2adb666fd65a	Votre prochain Tir des arcanes inflige des dégâts supplémentaires à votre cible et aux cibles proches.	lot sorts_objets_056
+sort	909592		Description	9c90351eabd5	Provoque une explosion de magie sacrée autour du lanceur, infligeant ${$m1+0.5*$SPH+0.5*$AP} (${($m1+0.5*$SPH+0.5*$AP)*0.25} contre les joueurs) points de dégâts du Sacré à 5 cibles maximum situées à moins de $a1 mètres. 	lot sorts_objets_056
+sort	909593		Description	ee7df2ff0578	Provoque une explosion de magie sacrée autour du lanceur, infligeant ${$m1+0.54*$SPH+0.54*$AP} (${($m1+0.54*$SPH+0.54*$AP)*0.25} contre les joueurs) points de dégâts du Sacré à 5 cibles maximum situées à moins de $a1 mètres. 	lot sorts_objets_056
+sort	909594		Description	af208d12bd32	Provoque une explosion de magie sacrée autour du lanceur, infligeant ${$m1+0.58*$SPH+0.58*$AP} (${($m1+0.58*$SPH+0.58*$AP)*0.25} contre les joueurs) points de dégâts du Sacré à 5 cibles maximum situées à moins de $a1 mètres. 	lot sorts_objets_056
+sort	909595		Description	f24b4439d617	Provoque une explosion de magie sacrée autour du lanceur, infligeant ${$m1+0.62*$SPH+0.62*$AP} (${($m1+0.62*$SPH+0.62*$AP)*0.25} contre les joueurs) points de dégâts du Sacré à 5 cibles maximum situées à moins de $a1 mètres. 	lot sorts_objets_056
+sort	909596		Description	7ec8d4856f14	Vos attaques de mêlée et à distance infligent ${$909600m1+0.08*$SPN+0.08*$AP} points de dégâts de Nature supplémentaires pendant $d sec (${($909600m1+0.08*$SPN+0.08*$AP)*0.5} contre les joueurs). Les dégâts de cet effet ne peuvent se produire plus d'une fois par sec.	lot sorts_objets_056
+sort	909596		Name	8f0abf4ee959	Frappes venimeuses	lot sorts_objets_056
+sort	909596		ToolTip	197a8b80a579	Vos attaques de mêlée et à distance infligent des dégâts de Nature supplémentaires.	lot sorts_objets_056
+sort	909597		Description	ea693336293a	Vos attaques de mêlée et à distance infligent ${$909601m1+0.086*$SPN+0.086*$AP} points de dégâts de Nature supplémentaires pendant $d sec (${($909601m1+0.086*$SPN+0.086*$AP)*0.5} contre les joueurs). Les dégâts de cet effet ne peuvent se produire plus d'une fois par sec.	lot sorts_objets_056
+sort	909597		Name	8f0abf4ee959	Frappes venimeuses	lot sorts_objets_056
+sort	909597		ToolTip	197a8b80a579	Vos attaques de mêlée et à distance infligent des dégâts de Nature supplémentaires.	lot sorts_objets_056
+sort	909598		Description	f6dd8a260c90	Vos attaques de mêlée et à distance infligent ${$909602m1+0.093*$SPN+0.093*$AP} points de dégâts de Nature supplémentaires pendant $d sec (${($909602m1+0.093*$SPN+0.093*$AP)*0.5} contre les joueurs). Les dégâts de cet effet ne peuvent se produire plus d'une fois par sec.	lot sorts_objets_056
+sort	909598		Name	8f0abf4ee959	Frappes venimeuses	lot sorts_objets_056
+sort	909598		ToolTip	197a8b80a579	Vos attaques de mêlée et à distance infligent des dégâts de Nature supplémentaires.	lot sorts_objets_056
+sort	909599		Description	35395dd6d36d	Vos attaques de mêlée et à distance infligent ${$909603m1+0.099*$SPN+0.099*$AP} points de dégâts de Nature supplémentaires pendant $d sec (${($909603m1+0.099*$SPN+0.099*$AP)*0.5} contre les joueurs). Les dégâts de cet effet ne peuvent se produire plus d'une fois par sec.	lot sorts_objets_056
+sort	909599		Name	8f0abf4ee959	Frappes venimeuses	lot sorts_objets_056
+sort	909599		ToolTip	197a8b80a579	Vos attaques de mêlée et à distance infligent des dégâts de Nature supplémentaires.	lot sorts_objets_056
+sort	909604		Description	3d4fdb16f768	Augmente l'armure de $s1 et la puissance des soins de $s2 pendant $d, et absorbe jusqu'à $909608s1 points de la prochaine source de dégâts que vous subissez.	lot sorts_objets_056
+sort	909604		ToolTip	ad87c08872f5	Armure augmentée de $s1.\nPuissance des soins augmentée de $s2.	lot sorts_objets_056
+sort	909605		Description	bb88832c925a	Augmente l'armure de $s1 et la puissance des soins de $s2 pendant $d, et absorbe jusqu'à $909609s1 points de la prochaine source de dégâts que vous subissez.	lot sorts_objets_056
+sort	909605		ToolTip	ad87c08872f5	Armure augmentée de $s1.\nPuissance des soins augmentée de $s2.	lot sorts_objets_056
+sort	909606		Description	bee406904310	Augmente l'armure de $s1 et la puissance des soins de $s2 pendant $d, et absorbe jusqu'à $909610s1 points de la prochaine source de dégâts que vous subissez.	lot sorts_objets_056
+sort	909606		ToolTip	ad87c08872f5	Armure augmentée de $s1.\nPuissance des soins augmentée de $s2.	lot sorts_objets_056
+sort	909607		Description	b76494ae5414	Augmente l'armure de $s1 et la puissance des soins de $s2 pendant $d, et absorbe jusqu'à $909611s1 points de la prochaine source de dégâts que vous subissez.	lot sorts_objets_056
+sort	909607		ToolTip	ad87c08872f5	Armure augmentée de $s1.\nPuissance des soins augmentée de $s2.	lot sorts_objets_056
+sort	909612		Description	b72a188d2f8e	Augmente votre puissance des sorts de Nature et des Arcanes de $s2. Dure $d.	lot sorts_objets_056
+sort	909612		Name	e10eda6341d1	Charme de la nature	lot sorts_objets_056
+sort	909612		ToolTip	425f7e331eec	Augmente votre puissance des sorts de Nature et des Arcanes de $s2.	lot sorts_objets_056
+sort	909613		Description	4d56789b6449	Augmente votre puissance des sorts de Nature et des Arcanes de $s2. Dure $d	lot sorts_objets_056
+sort	909613		Name	e10eda6341d1	Charme de la nature	lot sorts_objets_056
+sort	909613		ToolTip	425f7e331eec	Augmente votre puissance des sorts de Nature et des Arcanes de $s2.	lot sorts_objets_056
+sort	909614		Description	b72a188d2f8e	Augmente votre puissance des sorts de Nature et des Arcanes de $s2. Dure $d.	lot sorts_objets_056
+sort	909614		Name	e10eda6341d1	Charme de la nature	lot sorts_objets_056
+sort	909614		ToolTip	425f7e331eec	Augmente votre puissance des sorts de Nature et des Arcanes de $s2.	lot sorts_objets_056
+sort	909615		Description	b72a188d2f8e	Augmente votre puissance des sorts de Nature et des Arcanes de $s2. Dure $d.	lot sorts_objets_056
+sort	909615		Name	e10eda6341d1	Charme de la nature	lot sorts_objets_056
+sort	909615		ToolTip	425f7e331eec	Augmente votre puissance des sorts de Nature et des Arcanes de $s2.	lot sorts_objets_056
+sort	909620		Name	8d82fbf60b34	Charme de guérison	lot sorts_objets_056
+sort	909620		ToolTip	0064080891d7	Augmente votre Esprit de $s1 pendant $d.	lot sorts_objets_056
+sort	909621		Name	8d82fbf60b34	Charme de guérison	lot sorts_objets_056
+sort	909621		ToolTip	0064080891d7	Augmente votre Esprit de $s1 pendant $d.	lot sorts_objets_056
+sort	909622		Name	8d82fbf60b34	Charme de guérison	lot sorts_objets_056
+sort	909622		ToolTip	0064080891d7	Augmente votre Esprit de $s1 pendant $d.	lot sorts_objets_056
+sort	909623		Name	8d82fbf60b34	Charme de guérison	lot sorts_objets_056
+sort	909623		ToolTip	0064080891d7	Augmente votre Esprit de $s1 pendant $d.	lot sorts_objets_056
+sort	909624		Description	9b19768408c6	Augmente votre Intelligence de $s1 et vos dégâts des sorts de $s2% de votre Intelligence pendant $d.	lot sorts_objets_056
+sort	909624		Name	74448188375e	Charme de magie	lot sorts_objets_056
+sort	909624		ToolTip	4319fe5afebe	Augmente l'Intelligence de $s1.\nAugmente vos dégâts des sorts de $s2% de votre Intelligence.	lot sorts_objets_056
+sort	909625		Description	9b19768408c6	Augmente votre Intelligence de $s1 et vos dégâts des sorts de $s2% de votre Intelligence pendant $d.	lot sorts_objets_056
+sort	909625		Name	74448188375e	Charme de magie	lot sorts_objets_056
+sort	909625		ToolTip	4319fe5afebe	Augmente l'Intelligence de $s1.\nAugmente vos dégâts des sorts de $s2% de votre Intelligence.	lot sorts_objets_056
+sort	909626		Description	9b19768408c6	Augmente votre Intelligence de $s1 et vos dégâts des sorts de $s2% de votre Intelligence pendant $d.	lot sorts_objets_056
+sort	909626		Name	74448188375e	Charme de magie	lot sorts_objets_056
+sort	909626		ToolTip	4319fe5afebe	Augmente l'Intelligence de $s1.\nAugmente vos dégâts des sorts de $s2% de votre Intelligence.	lot sorts_objets_056
+sort	909627		Description	9b19768408c6	Augmente votre Intelligence de $s1 et vos dégâts des sorts de $s2% de votre Intelligence pendant $d.	lot sorts_objets_056
+sort	909627		Name	74448188375e	Charme de magie	lot sorts_objets_056
+sort	909627		ToolTip	4319fe5afebe	Augmente l'Intelligence de $s1.\nAugmente vos dégâts des sorts de $s2% de votre Intelligence.	lot sorts_objets_056
+sort	909628		Description	57eb3511f655	Augmente instantanément votre rage de ${$m1/10} et confère $s2 de Force pendant $d.	lot sorts_objets_056
+sort	909629		Description	57eb3511f655	Augmente instantanément votre rage de ${$m1/10} et confère $s2 de Force pendant $d.	lot sorts_objets_056
+sort	909630		Description	57eb3511f655	Augmente instantanément votre rage de ${$m1/10} et confère $s2 de Force pendant $d.	lot sorts_objets_056
+sort	909631		Description	57eb3511f655	Augmente instantanément votre rage de ${$m1/10} et confère $s2 de Force pendant $d.	lot sorts_objets_056
+sort	909632		Description	8e20c15a0d6d	Augmente vos scores de blocage, d'esquive et de parade de $s1 pendant $d.	lot sorts_objets_056
+sort	909632		Name	fb45e389281e	Charme de vaillance	lot sorts_objets_056
+sort	909632		ToolTip	3af6e39b7627	Augmente votre score d'esquive de $s1.\nAugmente votre score de parade de $s1.\nAugmente votre score de blocage de $s1.	lot sorts_objets_056
+sort	909633		Description	8e20c15a0d6d	Augmente vos scores de blocage, d'esquive et de parade de $s1 pendant $d.	lot sorts_objets_056
+sort	909633		Name	fb45e389281e	Charme de vaillance	lot sorts_objets_056
+sort	909633		ToolTip	3af6e39b7627	Augmente votre score d'esquive de $s1.\nAugmente votre score de parade de $s1.\nAugmente votre score de blocage de $s1.	lot sorts_objets_056
+sort	909634		Description	8e20c15a0d6d	Augmente vos scores de blocage, d'esquive et de parade de $s1 pendant $d.	lot sorts_objets_056
+sort	909634		Name	fb45e389281e	Charme de vaillance	lot sorts_objets_056
+sort	909634		ToolTip	3af6e39b7627	Augmente votre score d'esquive de $s1.\nAugmente votre score de parade de $s1.\nAugmente votre score de blocage de $s1.	lot sorts_objets_056
+sort	909635		Description	8e20c15a0d6d	Augmente vos scores de blocage, d'esquive et de parade de $s1 pendant $d.	lot sorts_objets_056
+sort	909635		Name	fb45e389281e	Charme de vaillance	lot sorts_objets_056
+sort	909635		ToolTip	3af6e39b7627	Augmente votre score d'esquive de $s1.\nAugmente votre score de parade de $s1.\nAugmente votre score de blocage de $s1.	lot sorts_objets_056
+sort	909636		Description	8ddcc3484b1d	Invoque un totem des esprits aux pieds du lanceur. Le totem confère $966378s1 de score de hâte, $966378s2 d'Agilité et $966378s3 de dégâts des sorts au lanceur situé à moins de 30 mètres. Dure $d.	lot sorts_objets_056
+sort	909636		Name	c33c3942c677	Totem des esprits	lot sorts_objets_056
+sort	909636		Rank	6a72085653e4	Tous	lot sorts_objets_056
+sort	909636		ToolTip	bc93b7942778	Augmente le score de hâte de $966378s1.\nAugmente l'Agilité de $966378s2.\nAugmente les dégâts des sorts de $966378s3.	lot sorts_objets_056
+sort	909660		Description	fb08ec280739	Vous gagnez $s1 de score de hâte en mêlée pendant $d. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909660		Name	408208eb751d	Hâte du dragon	lot sorts_objets_056
+sort	909660		ToolTip	04016348dbb0	Score de hâte en mêlée augmenté de $s1.	lot sorts_objets_056
+sort	909661		Description	fb08ec280739	Vous gagnez $s1 de score de hâte en mêlée pendant $d. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909661		Name	408208eb751d	Hâte du dragon	lot sorts_objets_056
+sort	909661		ToolTip	04016348dbb0	Score de hâte en mêlée augmenté de $s1.	lot sorts_objets_056
+sort	909662		Description	fb08ec280739	Vous gagnez $s1 de score de hâte en mêlée pendant $d. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909662		Name	408208eb751d	Hâte du dragon	lot sorts_objets_056
+sort	909662		ToolTip	04016348dbb0	Score de hâte en mêlée augmenté de $s1.	lot sorts_objets_056
+sort	909663		Description	fb08ec280739	Vous gagnez $s1 de score de hâte en mêlée pendant $d. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_objets_056
+sort	909663		Name	408208eb751d	Hâte du dragon	lot sorts_objets_056
+sort	909663		ToolTip	04016348dbb0	Score de hâte en mêlée augmenté de $s1.	lot sorts_objets_056
+sort	909672		Description	7b8f6cd2535d	Les dégâts magiques subis augmentent de $909677s1 votre résistance à cette école de magie, cumulable $909677u fois.\nVous gagnez la capacité de renforcer les effets du lien.	lot sorts_objets_056
+sort	909672		Name	705be2b407e6	Déclenchement de Lien des arcanes	lot sorts_objets_056
+sort	909682		Description	fac3e7ad2041	Les dégâts magiques subis augmentent de $909687s1 votre résistance à cette école de magie, cumulable $909687u fois.\nVous gagnez la capacité de renforcer les effets du lien.	lot sorts_objets_056
+sort	909682		Name	705be2b407e6	Déclenchement de Lien des arcanes	lot sorts_objets_056
+sort	909692		Description	dc155573e10b	Les dégâts magiques subis augmentent de $909697s1 votre résistance à cette école de magie, cumulable $909697u fois.\nVous gagnez la capacité de renforcer les effets du lien.	lot sorts_objets_056
+sort	909692		Name	705be2b407e6	Déclenchement de Lien des arcanes	lot sorts_objets_056
+sort	909702		Description	23ef290fcb8c	Les dégâts magiques subis augmentent de $909707s1 votre résistance à cette école de magie, cumulable $909707u fois.\nVous gagnez la capacité de renforcer les effets du lien.	lot sorts_objets_056
+sort	909702		Name	705be2b407e6	Déclenchement de Lien des arcanes	lot sorts_objets_056
+sort	909741		Description	4761a268540e	Vos attaques ont une chance d'augmenter de $s1 votre Force ou votre Agilité, selon la plus élevée, pendant 10 sec.	lot sorts_objets_056
+sort	909742		Description	4761a268540e	Vos attaques ont une chance d'augmenter de $s1 votre Force ou votre Agilité, selon la plus élevée, pendant 10 sec.	lot sorts_objets_056
+sort	909743		Description	4761a268540e	Vos attaques ont une chance d'augmenter de $s1 votre Force ou votre Agilité, selon la plus élevée, pendant 10 sec.	lot sorts_objets_056
+sort	909744		Description	4761a268540e	Vos attaques ont une chance d'augmenter de $s1 votre Force ou votre Agilité, selon la plus élevée, pendant 10 sec.	lot sorts_objets_056
+sort	909782		Description	5cb89f817285	Frappe l'ennemi avec la foudre et lui inflige de ${$m1+0.429*$SPN+0.279*$AP} à ${$M1+0.429*$SPN+0.279*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909782		Name	e4f27666d350	Explosion de polarité	lot sorts_objets_056
+sort	909783		Description	6e45ea5f192d	Frappe l'ennemi avec la foudre et lui inflige de ${$m1+0.46332*$SPN+0.30132*$AP} à ${$M1+0.46332*$SPN+0.30132*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909783		Name	e4f27666d350	Explosion de polarité	lot sorts_objets_056
+sort	909784		Description	65f1602d5d29	Frappe l'ennemi avec la foudre et lui inflige de ${$m1+0.49764*$SPN+0.32364*$AP} à ${$M1+0.49764*$SPN+0.32364*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909784		Name	e4f27666d350	Explosion de polarité	lot sorts_objets_056
+sort	909785		Description	a9e0b482eee6	Frappe l'ennemi avec la foudre et lui inflige de ${$m1+0.53196*$SPN+0.34596*$AP} à ${$M1+0.53196*$SPN+0.34596*$AP} points de dégâts de Nature.	lot sorts_objets_056
+sort	909785		Name	e4f27666d350	Explosion de polarité	lot sorts_objets_056
+sort	909786		Description	e07e6f2eb75c	Chance de libérer une décharge électrique infligeant de ${$909790m1+$AP*0.0585+$SPN*0.09} à ${$909790M1+$AP*0.0585+$SPN*0.09} points de dégâts de Nature à votre cible.	lot sorts_objets_056
+sort	909787		Description	a0404123d66f	Chance de libérer une décharge électrique infligeant de ${$909791m1+$AP*0.06318+$SPN*0.0972} à ${$909791M1+$AP*0.06318+$SPN*0.0972} points de dégâts de Nature à votre cible.	lot sorts_objets_056
+sort	909788		Description	2465675f8603	Chance de libérer une décharge électrique infligeant de ${$909792m1+$AP*0.06786+$SPN*0.1044} à ${$909792M1+$AP*0.06786+$SPN*0.1044} points de dégâts de Nature à votre cible.	lot sorts_objets_056

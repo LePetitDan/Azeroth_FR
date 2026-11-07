@@ -1,0 +1,446 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	520282		Description	b5b762320e69	Rend $s1% des points de vie maximum.	lot sorts_objets_050
+sort	520282		ToolTip	c1383bc6f87a	Rend $s1 points de vie maximum.	lot sorts_objets_050
+sort	520568		Description	3c2d85a7d441	Frappe un ennemi à la tête et l'assomme pendant $520568d (8 sec contre les joueurs).\r\n\r\nNe peut affecter qu'1 cible à la fois. Les dégâts subis interrompent cet effet. Ne peut être utilisé que sur les humanoïdes et les bêtes qui ne sont pas en combat.	lot sorts_objets_050
+sort	520637		Description	b3d6cc8c5409	Une chance, lors du lancement d'un sort offensif, de projeter une rafale de vent sur un ennemi et de lui infliger ${$501450m1+$501450ppl1+$SP*0.125} points de dégâts de Nature.	lot sorts_objets_050
+sort	520657		Description	94a5396aecbd	Vous donne $h% de chances, lorsque vous infligez des dégâts, de prendre une forme spectrale qui augmente la puissance des sorts de ${$520658m1+$520685ppl1+$INT*0.175} pendant $520658d. Ne peut survenir qu'une fois par minute.	lot sorts_objets_050
+sort	520668		Description	db0feed3f555	Augmente l'Esprit et la régénération du mana de $520667s1% pendant $520667d.	lot sorts_objets_050
+sort	520681		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520710		Description	dc08b53b1c26	Frappe sauvagement un ennemi d'un coup de tête, lui infligeant ${$m2+0+$AP*0.375} points de dégâts physiques, le jetant brièvement à terre puis l'étourdissant pendant $d.	lot sorts_objets_050
+sort	520711		Description	dc08b53b1c26	Frappe sauvagement un ennemi d'un coup de tête, lui infligeant ${$m2+0+$AP*0.375} points de dégâts physiques, le jetant brièvement à terre puis l'étourdissant pendant $d.	lot sorts_objets_050
+sort	520735		Description	7620c3061a82	Transforme l'ennemi en grenouille. Tant qu'elle est ensorcelée, la cible ne peut ni attaquer ni lancer de sorts. Les dégâts subis peuvent interrompre l'effet. Dure $d. \r\n\r\nUne seule cible peut être ensorcelée à la fois.  Ne fonctionne que sur les humanoïdes et les bêtes.	lot sorts_objets_050
+sort	520749		Description	cb15abc400eb	Rend $s1% des points de vie maximum toutes les $t1 sec. et augmente votre score de coup critique de $s2 pendant $d.	lot sorts_objets_050
+sort	520749		Name	42c97c0713e3	Récolte abondante	lot sorts_objets_050
+sort	520749		ToolTip	76b358c1a23b	Rend ${$w1}% des points de vie maximum toutes les $t1 sec. et augmente votre score de coup critique de ${$w2} pendant $d.	lot sorts_objets_050
+sort	520844		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520845		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520846		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520847		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520848		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520849		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520850		Description	37778e869f29	Prie Shadra et honore le culte du venin, ce qui vous permet de ramener à la vie un allié mort avec $s1 points de vie et $q1 points de mana. Ne peut pas être lancé en combat.	lot sorts_objets_050
+sort	520869		Description	a2c60f4dfb9f	Fait pleuvoir les eaux purificatrices d'Élune sur un allié et lui retire $s1 effet de poison et de maladie.	lot sorts_objets_050
+sort	520869		Name	1093037556f6	Purification d'Élune	lot sorts_objets_050
+sort	523485		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523485		Name	09613023657f	Édit du chevalier	lot sorts_objets_050
+sort	523485		ToolTip	90275703714b	Augmente l'armure de ${$w1} et tous les attributs de ${$w2}.	lot sorts_objets_050
+sort	523486		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523486		Name	09613023657f	Édit du chevalier	lot sorts_objets_050
+sort	523486		ToolTip	90275703714b	Augmente l'armure de ${$w1} et tous les attributs de ${$w2}.	lot sorts_objets_050
+sort	523487		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523487		Name	09613023657f	Édit du chevalier	lot sorts_objets_050
+sort	523487		ToolTip	90275703714b	Augmente l'armure de ${$w1} et tous les attributs de ${$w2}.	lot sorts_objets_050
+sort	523488		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523488		Name	09613023657f	Édit du chevalier	lot sorts_objets_050
+sort	523488		ToolTip	90275703714b	Augmente l'armure de ${$w1} et tous les attributs de ${$w2}.	lot sorts_objets_050
+sort	523489		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523489		Name	99f5ce06e668	Adaptation du voleur	lot sorts_objets_050
+sort	523490		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523490		Name	99f5ce06e668	Adaptation du voleur	lot sorts_objets_050
+sort	523491		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523491		Name	99f5ce06e668	Adaptation du voleur	lot sorts_objets_050
+sort	523492		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523492		Name	99f5ce06e668	Adaptation du voleur	lot sorts_objets_050
+sort	523493		Description	b8384bcd8705	Augmente l'armure de la cible amicale de ${$m1+0} et tous ses attributs principaux de $s2 pendant $d.\r\n\r\n@ext:Does not stack with other similar effects.:ext@	lot sorts_objets_050
+sort	523493		Name	99f5ce06e668	Adaptation du voleur	lot sorts_objets_050
+sort	523510		Description	18fa0260922b	Proclame un édit de chevalier à tous les membres du groupe et du raid, augmentant leur armure de ${$m1+0} et tous leurs attributs principaux de $s2 pendant $d.	lot sorts_objets_050
+sort	523510		Name	703f10f8945c	Édit du chevalier supérieur	lot sorts_objets_050
+sort	523510		ToolTip	90275703714b	Augmente l'armure de ${$w1} et tous les attributs de ${$w2}.	lot sorts_objets_050
+sort	523513		Description	24f30eff19ef	Augmente l'armure des membres du groupe et du raid proches de ${$m1+0} et tous leurs attributs principaux de $s2 pendant $d.	lot sorts_objets_050
+sort	523513		Name	7db8620cbd54	Adaptation du voleur supérieure	lot sorts_objets_050
+sort	524589		Description	ed9f874c2733	Rend celui qui la boit furtif pendant $d. 	lot sorts_objets_050
+sort	524589		Name	a9f2a315ed7b	Potion de contrebande	lot sorts_objets_050
+sort	524604		Description	9b5acf78e79d	Une chance, lors d'un coup, de réduire toutes les caractéristiques de $524603s1% pendant $524603d.	lot sorts_objets_050
+sort	524643		Description	b90e6830ca0f	Monte un |cFFFFFFFFSabre de chasseresse|r pendant $704772d, augmentant votre vitesse de déplacement de $704772s2% et vous rendant insensible aux effets de ralentissement.\r\n\r\nSur le sabre, lancer des sorts ne vous désarçonne pas et vous pouvez lancer des sorts offensifs en vous déplaçant.	lot sorts_objets_050
+sort	524643		ToolTip	fa7472fefbab	Chevauche un sabre de chasseresse.	lot sorts_objets_050
+sort	524908		Description	898005bdace8	La forme de Traqueur est modifiée.\r\n\r\nLancer à nouveau ce sort désactive l'incarnation.	lot sorts_objets_050
+sort	524908		Name	eac5a1a5d404	Incarnation : Araignée des ossements\r\n	lot sorts_objets_050
+sort	524908		ToolTip	f3abe751f33e	La forme de Traqueur est modifiée.	lot sorts_objets_050
+sort	525051		Description	a1f4de0a1ffb	Baigne un allié de lumière et dissipe $s1 effet de magie, de poison et de maladie.	lot sorts_objets_050
+sort	525610		Description	d958b92552f6	Confère $s1 à toutes les résistances des alliés se trouvant à moins de $a1 mètres de vous.	lot sorts_objets_050
+sort	525610		ToolTip	d958b92552f6	Confère $s1 à toutes les résistances des alliés se trouvant à moins de $a1 mètres de vous.	lot sorts_objets_050
+sort	525611		Description	5e053a182ddb	$s1% de la régénération totale des points de vie peut se poursuivre en combat.	lot sorts_objets_050
+sort	525611		Name	63a911a61c78	Effigie de la profusion	lot sorts_objets_050
+sort	525611		ToolTip	5e053a182ddb	$s1% de la régénération totale des points de vie peut se poursuivre en combat.	lot sorts_objets_050
+sort	525612		Description	d9feeabc4990	Invoque un protecteur tréant inférieur pour vous aider au combat pendant $d.	lot sorts_objets_050
+sort	525613		Description	d772d33a4eb3	Éclate en échardes et inflige ${$m1+$PL*0.3158} points de dégâts aux ennemis proches en $d.	lot sorts_objets_050
+sort	525613		Name	57793ca75200	Écharde	lot sorts_objets_050
+sort	525613		ToolTip	12a98a063bf3	Subit des dégâts de Nature périodiques.	lot sorts_objets_050
+sort	530000		Description	39b2a8ec4de0	Aura appliquant tous les affaiblissements de raid.	lot sorts_objets_050
+sort	530000		ToolTip	39b2a8ec4de0	Aura appliquant tous les affaiblissements de raid.	lot sorts_objets_050
+sort	530100		Description	56f7ee440b8a	Aura conférant tous les bonus de raid	lot sorts_objets_050
+sort	530100		ToolTip	56f7ee440b8a	Aura conférant tous les bonus de raid	lot sorts_objets_050
+sort	530200		Description	56f7ee440b8a	Aura conférant tous les bonus de raid	lot sorts_objets_050
+sort	530200		ToolTip	56f7ee440b8a	Aura conférant tous les bonus de raid	lot sorts_objets_050
+sort	530400		Description	39b2a8ec4de0	Aura appliquant tous les affaiblissements de raid.	lot sorts_objets_050
+sort	530400		ToolTip	39b2a8ec4de0	Aura appliquant tous les affaiblissements de raid.	lot sorts_objets_050
+sort	531512		Description	198ad7d2f226	Donne à un allié la capacité de léviter, ce qui lui permet de tomber plus lentement et de se déplacer sur l'eau pendant $d. Tant que vous contrôlez les vents, vous pouvez choisir votre direction et vous descendez lentement.\r\n\r\nLes dégâts subis annulent l'effet.	lot sorts_objets_050
+sort	531512		Name	a0765fd0c282	Courant d'éther	lot sorts_objets_050
+sort	533236		Description	09801dc9a32f	Fait exploser tous les cadavres proches, chacun infligeant ${$m1+$SP*.55} points de dégâts de Peste à tous les ennemis se trouvant à moins de $533240A1 mètres. N'affecte pas les cadavres mécaniques ou élémentaires.	lot sorts_objets_050
+sort	533237		Description	09801dc9a32f	Fait exploser tous les cadavres proches, chacun infligeant ${$m1+$SP*.55} points de dégâts de Peste à tous les ennemis se trouvant à moins de $533240A1 mètres. N'affecte pas les cadavres mécaniques ou élémentaires.	lot sorts_objets_050
+sort	533238		Description	09801dc9a32f	Fait exploser tous les cadavres proches, chacun infligeant ${$m1+$SP*.55} points de dégâts de Peste à tous les ennemis se trouvant à moins de $533240A1 mètres. N'affecte pas les cadavres mécaniques ou élémentaires.	lot sorts_objets_050
+sort	533239		Description	09801dc9a32f	Fait exploser tous les cadavres proches, chacun infligeant ${$m1+$SP*.55} points de dégâts de Peste à tous les ennemis se trouvant à moins de $533240A1 mètres. N'affecte pas les cadavres mécaniques ou élémentaires.	lot sorts_objets_050
+sort	534480		Description	a17b94f84305	Le membre du groupe ou du raid actuellement ciblé recevra la menace causée par votre prochaine attaque infligeant des dégâts et par toutes vos actions pendant $535097d ensuite.	lot sorts_objets_050
+sort	534480		Name	f3f213d8911d	Tir d'avertissement	lot sorts_objets_050
+sort	534605		Description	836286fc9ed1	Le membre du groupe ou du raid actuellement ciblé recevra la menace causée par votre prochaine attaque infligeant des dégâts et par toutes vos actions pendant $535214d ensuite.	lot sorts_objets_050
+sort	534605		Name	ba39b6f25e4f	Pression féroce	lot sorts_objets_050
+sort	535507		Description	e50cc141f8de	Fait surgir un pic de lave sous un ennemi, l'enracinant sur place et lui infligeant ${$m2+0} points de dégâts de Feu toutes les $T2 sec. pendant $d (8 sec contre les joueurs).\r\n\r\nLes dégâts subis peuvent interrompre l'effet. Seul 1 ennemi à la fois peut être affecté.	lot sorts_objets_050
+sort	535508		Description	e50cc141f8de	Fait surgir un pic de lave sous un ennemi, l'enracinant sur place et lui infligeant ${$m2+0} points de dégâts de Feu toutes les $T2 sec. pendant $d (8 sec contre les joueurs).\r\n\r\nLes dégâts subis peuvent interrompre l'effet. Seul 1 ennemi à la fois peut être affecté.	lot sorts_objets_050
+sort	535598		Description	764d6fed4aef	Ouvre une faille à travers le Néant et téléporte à |cFFFFFFFFOrgrimmar|r les membres du groupe qui l'empruntent.	lot sorts_objets_050
+sort	535599		Description	dd9db2c9324c	Ouvre une faille à travers le Néant et téléporte aux |cFFFFFFFFPitons du Tonnerre|r les membres du groupe qui l'empruntent.	lot sorts_objets_050
+sort	535600		Description	f97514c111f9	Ouvre une faille à travers le Néant et téléporte à |cFFFFFFFFFossoyeuse|r les membres du groupe qui l'empruntent.	lot sorts_objets_050
+sort	535602		Description	90574fa0d41b	Ouvre une faille à travers le Néant et téléporte à |cFFFFFFFFPierrêche|r les membres du groupe qui l'empruntent.	lot sorts_objets_050
+sort	535602		Name	b82ab9d0ab4c	Faille gangrenée : Pierrêche	lot sorts_objets_050
+sort	535650		Description	c5b414a70a1b	|cffff7f7fGénère 30 Chaleur|r\r\nProtège un allié avec de la lave en fusion, absorbant ${$SPFI*0.55+$m1+0} points de dégâts. Tant que le bouclier est actif, les attaquants subissent ${$m2+0+$spi*0.1} points de dégâts de Feu chaque fois qu'ils infligent des dégâts à la cible. Dure $d.	lot sorts_objets_050
+sort	536218		Description	6ee469af21fe	Vos aptitudes de mêlée et à distance infligeant des dégâts directs ont une chance d'augmenter votre score de coup critique de $s1 pendant $636034d. (45 sec de délai)	lot sorts_objets_050
+sort	536219		Description	6ee469af21fe	Vos aptitudes de mêlée et à distance infligeant des dégâts directs ont une chance d'augmenter votre score de coup critique de $s1 pendant $636034d. (45 sec de délai)	lot sorts_objets_050
+sort	536220		Description	6ee469af21fe	Vos aptitudes de mêlée et à distance infligeant des dégâts directs ont une chance d'augmenter votre score de coup critique de $s1 pendant $636034d. (45 sec de délai)	lot sorts_objets_050
+sort	536254		Name	f34ff05b8e57	Armure augmentée de 250	lot sorts_objets_050
+sort	536258		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	536258		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	536258		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	536259		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	536259		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	536259		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	536260		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	536260		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	536260		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	536261		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	536261		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	536261		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	536262		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	536262		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	536262		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	536263		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	536263		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	536263		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	536288		Description	224d145db6c4	Vous donne $h% de chances, lorsque vous infligez des dégâts ou prodiguez des soins, d'augmenter votre puissance d'attaque de $537163s1 pendant $537163d.	lot sorts_objets_050
+sort	536288		Name	dc944f69a901	Babiole de bataille	lot sorts_objets_050
+sort	536288		Rank	bcf15f2f8779	Saison 0.5	lot sorts_objets_050
+sort	537165		Description	c618d6206309	Vous donne une chance, lorsque vous infligez des dégâts ou prodiguez des soins, d'augmenter la puissance de vos sorts de $537164s1 pendant $537164d.	lot sorts_objets_050
+sort	537165		Name	a0ff379c37b3	Babiole de sorcellerie	lot sorts_objets_050
+sort	537165		Rank	bcf15f2f8779	Saison 0.5	lot sorts_objets_050
+sort	537171		Description	dd723061e7fe	Vous donne une chance, lorsque vous infligez des dégâts ou prodiguez des soins, d'augmenter la puissance de vos sorts de $537172s1 pendant $537172d. Ne peut pas survenir plus d'une fois toutes les 60 sec.	lot sorts_objets_050
+sort	537171		Name	a0ff379c37b3	Babiole de sorcellerie	lot sorts_objets_050
+sort	537171		Rank	b7c66d931b9b	Saison 1	lot sorts_objets_050
+sort	537173		Description	6d0b6f3cb7ed	Vous donne $h% de chances, lorsque vous infligez des dégâts ou prodiguez des soins, d'augmenter votre puissance d'attaque de $537174s1 pendant $537174d. Ne peut pas survenir plus d'une fois toutes les 60 sec.	lot sorts_objets_050
+sort	537173		Name	dc944f69a901	Babiole de bataille	lot sorts_objets_050
+sort	537173		Rank	b7c66d931b9b	Saison 1	lot sorts_objets_050
+sort	540336		Description	a0e9e3929e38	+${4.4*$PL} Armure	lot sorts_objets_050
+sort	541493		Description	5c45ee0014c5	Imprègne un membre du groupe de l'essence des Arcanes, réduisant les dégâts des sorts qu'il subit jusqu'à $s1% et les soins des sorts jusqu'à $s2%.  Dure $d.	lot sorts_objets_050
+sort	541493		Name	4235ea7df89a	Bionique des Arcanes	lot sorts_objets_050
+sort	541493		ToolTip	7c6e79ac70bd	Réduit les dégâts magiques subis jusqu'à ${$w1}% et les soins jusqu'à ${$w2}%.	lot sorts_objets_050
+sort	548335		Description	696060821836	+${27*$PL} Armure	lot sorts_objets_050
+sort	551006		Description	9656a9c13df7	Les dégâts périodiques de vos sorts Essaim d'insectes et Éclat lunaire confèrent $551007s1 de score de coup critique pendant $551007d.  Cumulable jusqu'à $551007s1 fois.	lot sorts_objets_050
+sort	551006		Name	6bc17e540cf9	Objet - Idole lunaire	lot sorts_objets_050
+sort	553044		Description	6bb06503f67a	Rend instantanément ${100-2*$max(0,$PL-40)} points d'énergie.	lot sorts_objets_050
+sort	553057		Description	d20958b66a06	Rend $o1 points de vie en $d.   Vous devez rester assis pendant que vous mangez.   Augmente également votre Endurance de $18191s pendant $18191d.	lot sorts_objets_050
+sort	553064		Description	d20958b66a06	Rend $o1 points de vie en $d.   Vous devez rester assis pendant que vous mangez.   Augmente également votre Endurance de $18191s pendant $18191d.	lot sorts_objets_050
+sort	553155		Description	e54f3e686bce	Rend $s1% de vos points de vie et de mana chaque seconde pendant $d. Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez ${$FLOOR($COND($GT($pl,15),$pl-15,0)*0.554)+4} Esprit et Endurance pendant $65415d.	lot sorts_objets_050
+sort	553156		Description	c7319265d6d3	Rend $s1% de vos points de vie et de mana chaque seconde pendant $d. Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez ${$FLOOR($COND($GT($pl,15),$pl-15,0)*1.108)+8} puissance d'attaque et ${$FLOOR($COND($GT($pl,15),$pl-15,0)*0.554)+4} Endurance pendant $65415d.	lot sorts_objets_050
+sort	553157		Description	7429c4d80787	Rend $s1% de vos points de vie et de mana chaque seconde pendant $d. Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez ${$65412m2+$65412ppl2} puissance des sorts et ${$65412m1+$65412ppl1} Endurance pendant $65412d.	lot sorts_objets_050
+sort	553158		Description	26496efc90c4	Rend $s1% de vos points de vie et de mana chaque seconde pendant $d. Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez ${$FLOOR($COND($GT($pl,15),$pl-15,0)*0.554)+4} de score de toucher et d'Endurance pendant $65410d.	lot sorts_objets_050
+sort	553159		Description	af58e5e889d1	Rend $s1% de vos points de vie et de mana chaque seconde pendant $d. Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez ${$FLOOR($COND($GT($pl,15),$pl-15,0)*0.554)+4} de score de hâte et d'Endurance pendant $65410d.	lot sorts_objets_050
+sort	553162		Description	76576d2d8963	Rend $s1% de vos points de vie par seconde pendant $d.  Vous devez rester assis pendant que vous mangez.  Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez de l'Endurance et de l'Esprit pendant $24870d.	lot sorts_objets_050
+sort	553168		Description	b5bb7a93a409	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez.  Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez $19718s1 Force et Endurance, ainsi que $19718s3 de score d'expertise pendant $19710d.	lot sorts_objets_050
+sort	553168		Rank	24d137041c72	Écaille de dragon grillée	lot sorts_objets_050
+sort	553170		Description	febe4f5f1a2b	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez $19732s1 Esprit et Endurance, ainsi que $19732s3 de régénération du mana pendant $19732d.	lot sorts_objets_050
+sort	553170		Rank	1be80907832c	Tarte aux baies de mana	lot sorts_objets_050
+sort	553171		Description	b1f205ba7d83	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez.  Si vous mangez pendant au moins 10 secondes, vous serez bien nourri et gagnerez $19735s1 Intelligence et Endurance, ainsi que $19735s3 de pénétration des sorts pendant $19710d.	lot sorts_objets_050
+sort	553171		Rank	99d2655047eb	Salade du puits de lune	lot sorts_objets_050
+sort	555975		Description	3ace3871229d	Esquiver une attaque a désormais $h% de chances d'augmenter votre armure de $555976s1 pendant $555976d.	lot sorts_objets_050
+sort	556835		Description	723382328472	|cffff7f7fGénère 10 Chaleur par cible|r\r\nFait pleuvoir des traînées de feu sur un ennemi et jusqu'à $x1 ennemis se trouvant à moins de $a1 mètres de lui, infligeant ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot sorts_objets_050
+sort	556835		Name	d4a988ab59b9	Pluie de feu	lot sorts_objets_050
+sort	556836		Description	723382328472	|cffff7f7fGénère 10 Chaleur par cible|r\r\nFait pleuvoir des traînées de feu sur un ennemi et jusqu'à $x1 ennemis se trouvant à moins de $a1 mètres de lui, infligeant ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot sorts_objets_050
+sort	556836		Name	d4a988ab59b9	Pluie de feu	lot sorts_objets_050
+sort	556837		Description	723382328472	|cffff7f7fGénère 10 Chaleur par cible|r\r\nFait pleuvoir des traînées de feu sur un ennemi et jusqu'à $x1 ennemis se trouvant à moins de $a1 mètres de lui, infligeant ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot sorts_objets_050
+sort	556837		Name	d4a988ab59b9	Pluie de feu	lot sorts_objets_050
+sort	557333		Description	ce16ca4ebd25	Surgit des ombres derrière votre cible et l'étourdit pendant $d.	lot sorts_objets_050
+sort	557333		Name	79ad5be5765d	Embuscade	lot sorts_objets_050
+sort	560294		Description	f46d6cff08aa	Imprègne un allié de l'esprit de Sen'jin pendant $d, augmentant son Esprit de $s1 et ses résistances magiques de $s2.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_050
+sort	560294		Name	f5a9aacb46b7	Wuju spirituel	lot sorts_objets_050
+sort	560294		ToolTip	d3eb74ebedde	Esprit augmenté de ${$W1}. Résistances magiques augmentées de ${$W2}.	lot sorts_objets_050
+sort	560543		Description	144a344028f3	Vous devenez berserk, augmentant votre puissance d'attaque de $s2% et la résistance au Givre de tous les membres du groupe et du raid de ${$m1}. Ne se cumule pas avec les effets similaires.	lot sorts_objets_050
+sort	560543		ToolTip	7fc2807b7146	Résistance au Givre augmentée de ${$m1}.	lot sorts_objets_050
+sort	560934		Description	edf16dc152a4	Brise les défenses d'un ennemi et réduit son armure de $561019s1% pendant $561019d, cumulable $561019u fois.	lot sorts_objets_050
+sort	560934		Name	7c9d6bf311eb	Brèche	lot sorts_objets_050
+sort	560934		ToolTip	0e864a901d6d	Armure réduite de ${$561019w1}%.	lot sorts_objets_050
+sort	561140		Description	f46d6cff08aa	Imprègne un allié de l'esprit de Sen'jin pendant $d, augmentant son Esprit de $s1 et ses résistances magiques de $s2.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_050
+sort	561140		Name	f5a9aacb46b7	Wuju spirituel	lot sorts_objets_050
+sort	561140		ToolTip	d3eb74ebedde	Esprit augmenté de ${$W1}. Résistances magiques augmentées de ${$W2}.	lot sorts_objets_050
+sort	561141		Description	f46d6cff08aa	Imprègne un allié de l'esprit de Sen'jin pendant $d, augmentant son Esprit de $s1 et ses résistances magiques de $s2.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_050
+sort	561141		Name	f5a9aacb46b7	Wuju spirituel	lot sorts_objets_050
+sort	561141		ToolTip	d3eb74ebedde	Esprit augmenté de ${$W1}. Résistances magiques augmentées de ${$W2}.	lot sorts_objets_050
+sort	561142		Description	f46d6cff08aa	Imprègne un allié de l'esprit de Sen'jin pendant $d, augmentant son Esprit de $s1 et ses résistances magiques de $s2.\r\n\r\n@ext:Can only have 1 |cffffffffWuju|r active on a target at a time.:ext@	lot sorts_objets_050
+sort	561142		Name	f5a9aacb46b7	Wuju spirituel	lot sorts_objets_050
+sort	561142		ToolTip	d3eb74ebedde	Esprit augmenté de ${$W1}. Résistances magiques augmentées de ${$W2}.	lot sorts_objets_050
+sort	561236		Description	5f6ec728a4b3	Renforce un allié et augmente l'ensemble de ses caractéristiques de $s1%.	lot sorts_objets_050
+sort	561236		Name	c088b89daf80	Gravure des lignes de force	lot sorts_objets_050
+sort	561236		ToolTip	842e6adc9ed4	Caractéristiques augmentées de ${$w1}%.	lot sorts_objets_050
+sort	561237		Description	b5af51cd6211	Renforce un allié et augmente son Agilité de $s1. Dure $d.	lot sorts_objets_050
+sort	561237		Name	7ec429ebd901	Gravure de l'adroit	lot sorts_objets_050
+sort	561238		Description	b5af51cd6211	Renforce un allié et augmente son Agilité de $s1. Dure $d.	lot sorts_objets_050
+sort	561238		Name	7ec429ebd901	Gravure de l'adroit	lot sorts_objets_050
+sort	561239		Description	b5af51cd6211	Renforce un allié et augmente son Agilité de $s1. Dure $d.	lot sorts_objets_050
+sort	561239		Name	7ec429ebd901	Gravure de l'adroit	lot sorts_objets_050
+sort	561240		Description	b5af51cd6211	Renforce un allié et augmente son Agilité de $s1. Dure $d.	lot sorts_objets_050
+sort	561240		Name	7ec429ebd901	Gravure de l'adroit	lot sorts_objets_050
+sort	561241		Description	7738cf68dffc	Renforce tous les membres du groupe et du raid et augmente leur Agilité de $s1. Dure $d.	lot sorts_objets_050
+sort	561241		Name	928e8bf53de5	Gravure de l'adroit supérieure	lot sorts_objets_050
+sort	561242		Description	1f3d2e544038	Renforce tous les membres du groupe et du raid et augmente l'ensemble de leurs caractéristiques de $s1%.	lot sorts_objets_050
+sort	561242		Name	3572844db9e0	Gravure des lignes de force supérieure	lot sorts_objets_050
+sort	561242		ToolTip	842e6adc9ed4	Caractéristiques augmentées de ${$w1}%.	lot sorts_objets_050
+sort	561243		Description	70d471406dee	Renforce tous les membres du groupe et du raid et réduit leurs coûts en ressources de $s2%.	lot sorts_objets_050
+sort	561243		Name	0dce033b518c	Gravure des mages supérieure	lot sorts_objets_050
+sort	561260		Description	0792d3751a8d	Accorde un allié aux lignes de force, augmentant les dégâts des sorts qu'il subit jusqu'à $s1 et les soins des sorts jusqu'à $s2. Dure $d.	lot sorts_objets_050
+sort	561260		Name	bf415490129e	Inscription : ligne de force	lot sorts_objets_050
+sort	561261		Description	0792d3751a8d	Accorde un allié aux lignes de force, augmentant les dégâts des sorts qu'il subit jusqu'à $s1 et les soins des sorts jusqu'à $s2. Dure $d.	lot sorts_objets_050
+sort	561261		Name	bf415490129e	Inscription : ligne de force	lot sorts_objets_050
+sort	561262		Description	0792d3751a8d	Accorde un allié aux lignes de force, augmentant les dégâts des sorts qu'il subit jusqu'à $s1 et les soins des sorts jusqu'à $s2. Dure $d.	lot sorts_objets_050
+sort	561262		Name	bf415490129e	Inscription : ligne de force	lot sorts_objets_050
+sort	561263		Description	0792d3751a8d	Accorde un allié aux lignes de force, augmentant les dégâts des sorts qu'il subit jusqu'à $s1 et les soins des sorts jusqu'à $s2. Dure $d.	lot sorts_objets_050
+sort	561263		Name	bf415490129e	Inscription : ligne de force	lot sorts_objets_050
+sort	561265		Description	52509fabd63e	Ajuste les lignes de force sous vos pieds et redirige la menace que vous générez pendant $d vers le membre du groupe ciblé.	lot sorts_objets_050
+sort	561265		Name	f830343e0f88	Ajustement des lignes de force	lot sorts_objets_050
+sort	561291		Description	528dc2759ea6	$h% de chances de frapper d'un coup supplémentaire infligeant $s1% des dégâts infligés.	lot sorts_objets_050
+sort	561291		Name	1d97845562f0	Fureur de Bimi	lot sorts_objets_050
+sort	561291		Rank	53b26a99001c	Bimi	lot sorts_objets_050
+sort	561291		ToolTip	248aafb4ed7e	Enraciné.	lot sorts_objets_050
+sort	561315		Description	75a1ef181950	Poignarde un ennemi avec un surin rouillé, accumulant 20% de tous les dégâts que vous lui infligez pendant $d, puis lui infligeant à la fin de la durée le total accumulé.	lot sorts_objets_050
+sort	561315		Name	6790f396d8bb	Surin rouillé	lot sorts_objets_050
+sort	561315		ToolTip	5a1df2dd03c5	À la fin de la durée, inflige des dégâts égaux à 20% de tous les dégâts qui vous ont été infligés pendant ce temps.	lot sorts_objets_050
+sort	561354		Description	85b5495813a1	Se focalise pour déchaîner 2 attaques de baguette infligeant les dégâts de l'arme à distance plus ${$m1+0} en $d.\r\n\r\nGénère 1 |cFFFFFFFFFragment d'écho|r.	lot sorts_objets_050
+sort	561354		ToolTip	49a496d00092	Lance une attaque de baguette.	lot sorts_objets_050
+sort	561355		Description	85b5495813a1	Se focalise pour déchaîner 2 attaques de baguette infligeant les dégâts de l'arme à distance plus ${$m1+0} en $d.\r\n\r\nGénère 1 |cFFFFFFFFFragment d'écho|r.	lot sorts_objets_050
+sort	561355		ToolTip	49a496d00092	Lance une attaque de baguette.	lot sorts_objets_050
+sort	561356		Description	85b5495813a1	Se focalise pour déchaîner 2 attaques de baguette infligeant les dégâts de l'arme à distance plus ${$m1+0} en $d.\r\n\r\nGénère 1 |cFFFFFFFFFragment d'écho|r.	lot sorts_objets_050
+sort	561356		ToolTip	49a496d00092	Lance une attaque de baguette.	lot sorts_objets_050
+sort	561357		Description	85b5495813a1	Se focalise pour déchaîner 2 attaques de baguette infligeant les dégâts de l'arme à distance plus ${$m1+0} en $d.\r\n\r\nGénère 1 |cFFFFFFFFFragment d'écho|r.	lot sorts_objets_050
+sort	561357		ToolTip	49a496d00092	Lance une attaque de baguette.	lot sorts_objets_050
+sort	561386		Description	e8cf2ce924b5	Offre à un allié la folie de N'Zoth, augmentant l'ensemble de ses caractéristiques de $s1% pendant $d.	lot sorts_objets_050
+sort	561386		Name	8ec5803bfaf9	Murmures de N'Zoth	lot sorts_objets_050
+sort	561386		ToolTip	b186a6f03eb3	Caractéristiques augmentées de ${$W1}%.	lot sorts_objets_050
+sort	561387		Description	a99b32fbcb85	Offre aux membres du groupe et du raid la folie de N'Zoth, augmentant l'ensemble de leurs caractéristiques de $s1% pendant $d.	lot sorts_objets_050
+sort	561387		Name	9fc889da3d9d	Murmures de N'Zoth supérieurs	lot sorts_objets_050
+sort	561387		ToolTip	b186a6f03eb3	Caractéristiques augmentées de ${$W1}%.	lot sorts_objets_050
+sort	561389		Description	abf7e0cef901	Offre à un allié la folie de Y'shaarj, rendant $s1 points de mana toutes les 5 secondes pendant $d.  Un joueur ne peut avoir qu'un seul Murmure sur lui par cultiste à la fois.	lot sorts_objets_050
+sort	561389		Name	1e0326451a4f	Murmures de Y'shaarj	lot sorts_objets_050
+sort	561390		Description	abf7e0cef901	Offre à un allié la folie de Y'shaarj, rendant $s1 points de mana toutes les 5 secondes pendant $d.  Un joueur ne peut avoir qu'un seul Murmure sur lui par cultiste à la fois.	lot sorts_objets_050
+sort	561390		Name	1e0326451a4f	Murmures de Y'shaarj	lot sorts_objets_050
+sort	561391		Description	abf7e0cef901	Offre à un allié la folie de Y'shaarj, rendant $s1 points de mana toutes les 5 secondes pendant $d.  Un joueur ne peut avoir qu'un seul Murmure sur lui par cultiste à la fois.	lot sorts_objets_050
+sort	561391		Name	1e0326451a4f	Murmures de Y'shaarj	lot sorts_objets_050
+sort	561392		Description	4196df98c1b8	Offre aux alliés proches la folie de Y'shaarj, rendant $s1 points de mana toutes les 5 secondes pendant $d.  Un joueur ne peut avoir qu'un seul Murmure sur lui par cultiste à la fois.	lot sorts_objets_050
+sort	561392		Name	8b906a8db1bf	Murmures de Y'shaarj supérieurs	lot sorts_objets_050
+sort	561395		Description	f4c907e94311	Invoque un faucon et voit par ses yeux pendant $d, ce qui vous permet de voir les ennemis furtifs et invisibles et de pister les humanoïdes pendant cette durée.\r\n\r\nUtilisable pendant |cffffffffEsquive|r.	lot sorts_objets_050
+sort	561395		ToolTip	c3cd70fd147b	Explore les environs par les yeux d'un faucon.	lot sorts_objets_050
+sort	562021		Description	ae104903b001	Terrorise un ennemi pendant $d. Les dégâts infligés peuvent interrompre l'effet.	lot sorts_objets_050
+sort	562028		Description	505d284a2b4f	Affiche sur la minicarte la position de tous les morts-vivants proches et augmente de $s2% les dégâts qui leur sont infligés tant que l'effet est actif.	lot sorts_objets_050
+sort	562210		Description	64d16ecf55d2	Récolte l'essence de vos sbires |cffffffffRelevés|r, drainant ${$m2} points de mana toutes les $t2 sec. en échange de $/20;m2 Puissance runique. Dure $d.	lot sorts_objets_050
+sort	562210		Name	a76534c90906	Moisson runique	lot sorts_objets_050
+sort	562210		ToolTip	f7e907d38a81	Draine $m1 points de mana par seconde.	lot sorts_objets_050
+sort	562211		Description	64d16ecf55d2	Récolte l'essence de vos sbires |cffffffffRelevés|r, drainant ${$m2} points de mana toutes les $t2 sec. en échange de $/20;m2 Puissance runique. Dure $d.	lot sorts_objets_050
+sort	562211		Name	a76534c90906	Moisson runique	lot sorts_objets_050
+sort	562211		ToolTip	f7e907d38a81	Draine $m1 points de mana par seconde.	lot sorts_objets_050
+sort	562212		Description	64d16ecf55d2	Récolte l'essence de vos sbires |cffffffffRelevés|r, drainant ${$m2} points de mana toutes les $t2 sec. en échange de $/20;m2 Puissance runique. Dure $d.	lot sorts_objets_050
+sort	562212		Name	a76534c90906	Moisson runique	lot sorts_objets_050
+sort	562212		ToolTip	f7e907d38a81	Draine $m1 points de mana par seconde.	lot sorts_objets_050
+sort	562213		Description	64d16ecf55d2	Récolte l'essence de vos sbires |cffffffffRelevés|r, drainant ${$m2} points de mana toutes les $t2 sec. en échange de $/20;m2 Puissance runique. Dure $d.	lot sorts_objets_050
+sort	562213		Name	a76534c90906	Moisson runique	lot sorts_objets_050
+sort	562213		ToolTip	f7e907d38a81	Draine $m1 points de mana par seconde.	lot sorts_objets_050
+sort	562225		Description	a3af8889b6d5	Affiche sur la minicarte la position de tous les humanoïdes, démons et morts-vivants proches et augmente considérablement votre détection de la furtivité.\r\n\r\nNe fonctionne que la nuit.	lot sorts_objets_050
+sort	562225		ToolTip	901841fd62bf	Pistage des humanoïdes, des démons et des morts-vivants.\r\n\r\nAugmente considérablement votre détection de la furtivité.	lot sorts_objets_050
+sort	562226		Description	9a24c0db74eb	Affiche sur la minicarte la position de tous les morts-vivants et démons proches.	lot sorts_objets_050
+sort	562226		Name	526ceb3e4d17	Détection du mal	lot sorts_objets_050
+sort	562226		ToolTip	99d7cea61fdc	Pistage des morts-vivants et des démons.	lot sorts_objets_050
+sort	562227		Description	589f6ec64b9e	Affiche sur la minicarte la position de tous les élémentaires proches et augmente de $s2% vos dégâts contre les élémentaires.	lot sorts_objets_050
+sort	562227		Name	7b48bb74c046	Guetteur des nuages	lot sorts_objets_050
+sort	562228		Description	6a321a85dcb4	Affiche sur la minicarte la position de tous les humanoïdes, géants et bêtes proches.	lot sorts_objets_050
+sort	562228		Name	6205f3447954	Détection de la vie	lot sorts_objets_050
+sort	562228		ToolTip	132ed81a3f10	Pistage des humanoïdes et des bêtes.	lot sorts_objets_050
+sort	562301		Description	46485cff13fe	Amadoue une bête et la contrôle pendant $d (8 sec contre les joueurs). Une seule bête peut être amadouée à la fois.	lot sorts_objets_050
+sort	562301		Name	fc0123777d5f	Amadouer une bête	lot sorts_objets_050
+sort	562301		ToolTip	0039222a2178	Amadoué. Contrôlé par le Rôdeur.	lot sorts_objets_050
+sort	562302		Description	a658c9fec08e	Augmente de $s1% la vitesse de déplacement monté de tous les membres du groupe et du raid se trouvant à moins de $a1 mètres, pendant $d.\r\n\r\nNe peut être utilisé qu'en selle. Ne se cumule pas avec les effets similaires.	lot sorts_objets_050
+sort	562302		Name	dcea11d190d5	Présence du croisé	lot sorts_objets_050
+sort	562573		Description	3ada1ee37371	Marque un ennemi, le maudit et réduit sa vitesse d'incantation de $s1% pendant $d. Ne peut affecter qu'1 cible à la fois.\r\n\r\n@ext:You can only have 1 |CffffffffBrand|r on an enemy at a time|r.:ext@	lot sorts_objets_050
+sort	562573		Name	3dd1fdb2adff	Marque des condamnés	lot sorts_objets_050
+sort	562720		Description	db2170580ec6	Vous élève sous une |cffa966f0Forme maudite|r pendant $d, ce qui permet d'utiliser des aptitudes uniques et vous fait générer des points de vie et de la Rage au fil du temps. Cette aptitude entre en recharge lorsque vous retrouvez votre |cFFFFFFFFForme mortelle|r.\r\n\r\n@ext:While in a |cffa966f0Cursed Form|r you are treated as if you were a Demon.:ext@\r\n\r\n	lot sorts_objets_050
+sort	562720		ToolTip	65de12ada357	Forme maudite. Les aptitudes maudites sont activées. Rend des points de vie et de la Rage au fil du temps.	lot sorts_objets_050
+sort	562723		Description	3208366a90c5	Laisse votre malédiction du sang prendre le contrôle et vous fait embrasser votre moi intérieur pendant $d, ce qui vous donne accès à la barre d'aptitudes de votre |cffa966f0Forme maudite|r.\r\n\r\nTant que l'effet est actif, vous ne pouvez ni bouger, ni attaquer, ni lancer de sorts ou d'aptitudes.\r\n\r\nNe peut pas être utilisé en combat.	lot sorts_objets_050
+sort	562723		Name	a87e2b5f4b68	Regard lunaire	lot sorts_objets_050
+sort	562723		ToolTip	6521dd3d9a54	Embrasse la malédiction.	lot sorts_objets_050
+sort	567524		Description	b646849bb7ff	Absorbe ${$m2+0+$STA*3+$INT*3} points de dégâts, en fonction de l'Intelligence et de l'Endurance. Empêche la vitesse de déplacement de descendre sous $567525s2% de la vitesse normale. Dure $d.\r\n\r\nÉpuise toute la |cffcfa6ffFolie|r à l'expiration. 	lot sorts_objets_050
+sort	567524		ToolTip	71659d99d224	Absorbe ${$w2} points de dégâts et la vitesse de déplacement ne peut pas descendre sous $567525s2% de la valeur normale.	lot sorts_objets_050
+sort	567538		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	567538		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	567538		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	567539		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	567539		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	567539		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	567540		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	567540		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	567540		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	567541		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	567541		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	567541		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	567548		Description	b646849bb7ff	Absorbe ${$m2+0+$STA*3+$INT*3} points de dégâts, en fonction de l'Intelligence et de l'Endurance. Empêche la vitesse de déplacement de descendre sous $567525s2% de la vitesse normale. Dure $d.\r\n\r\nÉpuise toute la |cffcfa6ffFolie|r à l'expiration. 	lot sorts_objets_050
+sort	567548		ToolTip	71659d99d224	Absorbe ${$w2} points de dégâts et la vitesse de déplacement ne peut pas descendre sous $567525s2% de la valeur normale.	lot sorts_objets_050
+sort	567549		Description	b646849bb7ff	Absorbe ${$m2+0+$STA*3+$INT*3} points de dégâts, en fonction de l'Intelligence et de l'Endurance. Empêche la vitesse de déplacement de descendre sous $567525s2% de la vitesse normale. Dure $d.\r\n\r\nÉpuise toute la |cffcfa6ffFolie|r à l'expiration. 	lot sorts_objets_050
+sort	567549		ToolTip	71659d99d224	Absorbe ${$w2} points de dégâts et la vitesse de déplacement ne peut pas descendre sous $567525s2% de la valeur normale.	lot sorts_objets_050
+sort	567550		Description	b646849bb7ff	Absorbe ${$m2+0+$STA*3+$INT*3} points de dégâts, en fonction de l'Intelligence et de l'Endurance. Empêche la vitesse de déplacement de descendre sous $567525s2% de la vitesse normale. Dure $d.\r\n\r\nÉpuise toute la |cffcfa6ffFolie|r à l'expiration. 	lot sorts_objets_050
+sort	567550		ToolTip	71659d99d224	Absorbe ${$w2} points de dégâts et la vitesse de déplacement ne peut pas descendre sous $567525s2% de la valeur normale.	lot sorts_objets_050
+sort	567551		Description	b646849bb7ff	Absorbe ${$m2+0+$STA*3+$INT*3} points de dégâts, en fonction de l'Intelligence et de l'Endurance. Empêche la vitesse de déplacement de descendre sous $567525s2% de la vitesse normale. Dure $d.\r\n\r\nÉpuise toute la |cffcfa6ffFolie|r à l'expiration. 	lot sorts_objets_050
+sort	567551		ToolTip	71659d99d224	Absorbe ${$w2} points de dégâts et la vitesse de déplacement ne peut pas descendre sous $567525s2% de la valeur normale.	lot sorts_objets_050
+sort	567552		Description	b646849bb7ff	Absorbe ${$m2+0+$STA*3+$INT*3} points de dégâts, en fonction de l'Intelligence et de l'Endurance. Empêche la vitesse de déplacement de descendre sous $567525s2% de la vitesse normale. Dure $d.\r\n\r\nÉpuise toute la |cffcfa6ffFolie|r à l'expiration. 	lot sorts_objets_050
+sort	567552		ToolTip	71659d99d224	Absorbe ${$w2} points de dégâts et la vitesse de déplacement ne peut pas descendre sous $567525s2% de la valeur normale.	lot sorts_objets_050
+sort	570122		Description	debdcbe48ce7	Ciblez un coffre ou un objet verrouillé pour le fracasser !	lot sorts_objets_050
+sort	570122		Name	432ec2f05e83	Fracasser la serrure	lot sorts_objets_050
+sort	570124		Description	fd875bc6f0f5	Accorde la grâce de la lune aux alliés proches, leur permettant de marcher sur l'eau. Dure $d. \r\n\r\nLes dégâts subis annulent cet effet.	lot sorts_objets_050
+sort	570124		ToolTip	3de5b2d25063	Marche sur l'eau. Les dégâts subis annulent cet effet.	lot sorts_objets_050
+sort	570217		Description	fa57268e483d	|cFFFFFFFFDrain de $570243S1% du mana maximum|r \r\nPlonge la zone dans l'ombre lunaire et réduit la puissance d'attaque des ennemis de $s1 pendant $d, tandis que leur fureur décline sous le ciel assombri.	lot sorts_objets_050
+sort	570217		Name	8af498ed3e49	Éclipse de fureur	lot sorts_objets_050
+sort	570217		ToolTip	7dce5eaae213	Puissance d'attaque réduite de ${-($W1)}.	lot sorts_objets_050
+sort	570218		Description	fa57268e483d	|cFFFFFFFFDrain de $570243S1% du mana maximum|r \r\nPlonge la zone dans l'ombre lunaire et réduit la puissance d'attaque des ennemis de $s1 pendant $d, tandis que leur fureur décline sous le ciel assombri.	lot sorts_objets_050
+sort	570218		Name	8af498ed3e49	Éclipse de fureur	lot sorts_objets_050
+sort	570218		ToolTip	7dce5eaae213	Puissance d'attaque réduite de ${-($W1)}.	lot sorts_objets_050
+sort	570219		Description	fa57268e483d	|cFFFFFFFFDrain de $570243S1% du mana maximum|r \r\nPlonge la zone dans l'ombre lunaire et réduit la puissance d'attaque des ennemis de $s1 pendant $d, tandis que leur fureur décline sous le ciel assombri.	lot sorts_objets_050
+sort	570219		Name	8af498ed3e49	Éclipse de fureur	lot sorts_objets_050
+sort	570219		ToolTip	7dce5eaae213	Puissance d'attaque réduite de ${-($W1)}.	lot sorts_objets_050
+sort	570220		Description	fa57268e483d	|cFFFFFFFFDrain de $570243S1% du mana maximum|r \r\nPlonge la zone dans l'ombre lunaire et réduit la puissance d'attaque des ennemis de $s1 pendant $d, tandis que leur fureur décline sous le ciel assombri.	lot sorts_objets_050
+sort	570220		Name	8af498ed3e49	Éclipse de fureur	lot sorts_objets_050
+sort	570220		ToolTip	7dce5eaae213	Puissance d'attaque réduite de ${-($W1)}.	lot sorts_objets_050
+sort	570221		Description	fa57268e483d	|cFFFFFFFFDrain de $570243S1% du mana maximum|r \r\nPlonge la zone dans l'ombre lunaire et réduit la puissance d'attaque des ennemis de $s1 pendant $d, tandis que leur fureur décline sous le ciel assombri.	lot sorts_objets_050
+sort	570221		Name	8af498ed3e49	Éclipse de fureur	lot sorts_objets_050
+sort	570221		ToolTip	7dce5eaae213	Puissance d'attaque réduite de ${-($W1)}.	lot sorts_objets_050
+sort	570240		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	570241		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	570742		Description	b37a6b1aa564	Une chance, lorsque vous infligez des dégâts directs, de frapper la cible de 3 coups précis, chacun infligeant $s1% des dégâts infligés sous forme de dégâts de Feu, de Givre et de Nature.	lot sorts_objets_050
+sort	572116		Description	e61fb4d19958	Des épines de sang jaillissent de tous les membres du groupe et du raid pendant $d et infligent ${$m1+0+$sps*0.035} points de dégâts d'Ombre aux attaquants lorsqu'ils les frappent.\r\n\r\nNe peut survenir qu'une fois toutes les demi-secondes.	lot sorts_objets_050
+sort	572116		Name	6714ddea7f4c	Épines de sang supérieures	lot sorts_objets_050
+sort	572161		Description	723382328472	|cffff7f7fGénère 10 Chaleur par cible|r\r\nFait pleuvoir des traînées de feu sur un ennemi et jusqu'à $x1 ennemis se trouvant à moins de $a1 mètres de lui, infligeant ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot sorts_objets_050
+sort	572161		Name	d4a988ab59b9	Pluie de feu	lot sorts_objets_050
+sort	572173		Description	039dc7c7ae3c	Augmente de $s1 la résistance de la cible aux sorts de Givre pendant $d.	lot sorts_objets_050
+sort	572173		Name	da97737bf1d2	Froid du tombeau	lot sorts_objets_050
+sort	572173		ToolTip	c53ab9f16f87	Résistance au Givre augmentée de ${$w1}.	lot sorts_objets_050
+sort	572174		Description	039dc7c7ae3c	Augmente de $s1 la résistance de la cible aux sorts de Givre pendant $d.	lot sorts_objets_050
+sort	572174		Name	da97737bf1d2	Froid du tombeau	lot sorts_objets_050
+sort	572174		ToolTip	c53ab9f16f87	Résistance au Givre augmentée de ${$w1}.	lot sorts_objets_050
+sort	572175		Description	039dc7c7ae3c	Augmente de $s1 la résistance de la cible aux sorts de Givre pendant $d.	lot sorts_objets_050
+sort	572175		Name	da97737bf1d2	Froid du tombeau	lot sorts_objets_050
+sort	572175		ToolTip	c53ab9f16f87	Résistance au Givre augmentée de ${$w1}.	lot sorts_objets_050
+sort	572176		Description	039dc7c7ae3c	Augmente de $s1 la résistance de la cible aux sorts de Givre pendant $d.	lot sorts_objets_050
+sort	572176		Name	da97737bf1d2	Froid du tombeau	lot sorts_objets_050
+sort	572176		ToolTip	c53ab9f16f87	Résistance au Givre augmentée de ${$w1}.	lot sorts_objets_050
+sort	572177		Description	f91773ef01ba	Augmente de $s1 la résistance aux sorts de Givre des membres du groupe et du raid de la cible pendant $d.	lot sorts_objets_050
+sort	572177		Name	35be50d374b6	Froid du tombeau supérieur	lot sorts_objets_050
+sort	572177		ToolTip	c53ab9f16f87	Résistance au Givre augmentée de ${$w1}.	lot sorts_objets_050
+sort	572178		Description	4290430d6e58	Tire une lourde flèche contondante sur un ennemi et réduit son armure de $s1% pendant $d.\r\n\r\nDurée augmentée de $/1000;801700s3 sec par charge d'|cff8fff7aAvantage|r.	lot sorts_objets_050
+sort	572178		Name	2de64e005bbe	Révéler la faiblesse	lot sorts_objets_050
+sort	572178		ToolTip	6232deff874e	Armure réduite de ${-$W1}%.	lot sorts_objets_050
+sort	572214		Description	45cca730d11a	Des pointes gelées jaillissent du corps des alliés proches et des sbires |cffffffffRelevés|r pendant $d et infligent ${$m1+0} points de dégâts de Givre aux attaquants lorsqu'ils les frappent.	lot sorts_objets_050
+sort	572214		Name	85352937aacd	Glace-rasoir supérieure	lot sorts_objets_050
+sort	572303		Description	98b59628f5d6	|cffcc99ffConsomme 10 Statique|r\r\nCalme un ennemi et retire $s1 effet d'enragement.	lot sorts_objets_050
+sort	572303		Name	7b7555e06a9e	Calmer la tempête	lot sorts_objets_050
+sort	572306		Description	e1c1f21b1a64	Purge le mal d'un ennemi et retire tous ses effets d'enragement.	lot sorts_objets_050
+sort	572306		Name	fd2f1d60b02a	Purger le mal	lot sorts_objets_050
+sort	572322		Description	97ce9e7a9129	Concocte un mojo revigorant inférieur qui peut être utilisé pour rendre instantanément $572323s1 points de vie.	lot sorts_objets_050
+sort	572322		Name	2501f0b4c48d	Concocter un mojo revigorant	lot sorts_objets_050
+sort	572323		ToolTip	94b0b06aedea	Rend ${$w1} points de vie.	lot sorts_objets_050
+sort	572324		Description	5b80e3a97de5	Concocte un mojo revigorant qui peut être utilisé pour rendre instantanément $572325s1 points de vie.	lot sorts_objets_050
+sort	572324		Name	2501f0b4c48d	Concocter un mojo revigorant	lot sorts_objets_050
+sort	572325		ToolTip	94b0b06aedea	Rend ${$w1} points de vie.	lot sorts_objets_050
+sort	572326		Description	8a716b65d6e2	Concocte un mojo revigorant supérieur qui peut être utilisé pour rendre instantanément $572327s1 points de vie.	lot sorts_objets_050
+sort	572326		Name	2501f0b4c48d	Concocter un mojo revigorant	lot sorts_objets_050
+sort	572327		ToolTip	94b0b06aedea	Rend ${$w1} points de vie.	lot sorts_objets_050
+sort	572336		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	572336		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	572337		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	572337		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	572364		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	572365		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	572390		Description	64f39dbf51f4	Place une |cffffffffDévotion|r sur tous les membres du raid et du groupe, augmentant la puissance d'attaque de $s1 pendant $d.\r\n\r\n@ext:Les joueurs ne peuvent avoir qu'une seule |cFFFFFFFFDévotion|r à la fois par clerc du soleil.:ext@	lot sorts_objets_050
+sort	572390		Name	e2b824eb0355	Dévotion de l'aube supérieure	lot sorts_objets_050
+sort	572391		Description	82892256c8bd	Partage la Sagesse de Nozdormu avec un joueur allié et augmente son Intelligence de $s1 pendant $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_objets_050
+sort	572391		Name	aecaef5fbc06	Sagesse de Nozdormu	lot sorts_objets_050
+sort	572392		Description	82892256c8bd	Partage la Sagesse de Nozdormu avec un joueur allié et augmente son Intelligence de $s1 pendant $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_objets_050
+sort	572392		Name	aecaef5fbc06	Sagesse de Nozdormu	lot sorts_objets_050
+sort	572393		Description	82892256c8bd	Partage la Sagesse de Nozdormu avec un joueur allié et augmente son Intelligence de $s1 pendant $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_objets_050
+sort	572393		Name	aecaef5fbc06	Sagesse de Nozdormu	lot sorts_objets_050
+sort	572394		Description	82892256c8bd	Partage la Sagesse de Nozdormu avec un joueur allié et augmente son Intelligence de $s1 pendant $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_objets_050
+sort	572394		Name	aecaef5fbc06	Sagesse de Nozdormu	lot sorts_objets_050
+sort	572395		Description	82892256c8bd	Partage la Sagesse de Nozdormu avec un joueur allié et augmente son Intelligence de $s1 pendant $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_objets_050
+sort	572395		Name	aecaef5fbc06	Sagesse de Nozdormu	lot sorts_objets_050
+sort	572396		Description	ed175f73d377	Partage la Sagesse de Nozdormu avec tous les membres du groupe et du raid et augmente leur Intelligence de $s1 pendant $d.	lot sorts_objets_050
+sort	572396		Name	5bafef53a945	Sagesse de Nozdormu supérieure	lot sorts_objets_050
+sort	572399		Description	2f5c651720e5	Stabilise l'air autour de vous et fait perdre $s3% de temps d'incantation ou de canalisation en moins à tous les membres du raid et du groupe lorsqu'ils subissent des dégâts.\r\n\r\n@ext:Only 1 |cffffffffPressure|r spell can be active at a time..:ext@	lot sorts_objets_050
+sort	572399		Name	fe6775679612	Pression stabilisatrice	lot sorts_objets_050
+sort	572400		Description	322a68c14068	La magie du sang imprègne l'allié ciblé et augmente son Esprit de $s1 pendant $d.	lot sorts_objets_050
+sort	572400		Name	4f23f550275b	Offrande ensanglantée	lot sorts_objets_050
+sort	572400		ToolTip	d29f1eb903ac	Augmente l'Esprit de ${$W1}.	lot sorts_objets_050
+sort	572401		Description	322a68c14068	La magie du sang imprègne l'allié ciblé et augmente son Esprit de $s1 pendant $d.	lot sorts_objets_050
+sort	572401		Name	4f23f550275b	Offrande ensanglantée	lot sorts_objets_050
+sort	572401		ToolTip	d29f1eb903ac	Augmente l'Esprit de ${$W1}.	lot sorts_objets_050
+sort	572402		Description	322a68c14068	La magie du sang imprègne l'allié ciblé et augmente son Esprit de $s1 pendant $d.	lot sorts_objets_050
+sort	572402		Name	4f23f550275b	Offrande ensanglantée	lot sorts_objets_050
+sort	572402		ToolTip	d29f1eb903ac	Augmente l'Esprit de ${$W1}.	lot sorts_objets_050
+sort	572403		Description	322a68c14068	La magie du sang imprègne l'allié ciblé et augmente son Esprit de $s1 pendant $d.	lot sorts_objets_050
+sort	572403		Name	4f23f550275b	Offrande ensanglantée	lot sorts_objets_050
+sort	572403		ToolTip	d29f1eb903ac	Augmente l'Esprit de ${$W1}.	lot sorts_objets_050
+sort	572404		ToolTip	d29f1eb903ac	Augmente l'Esprit de ${$W1}.	lot sorts_objets_050
+sort	572414		ToolTip	94b0b06aedea	Rend ${$w1} points de vie.	lot sorts_objets_050
+sort	572415		Name	2501f0b4c48d	Concocter un mojo revigorant	lot sorts_objets_050
+sort	572552		ToolTip	b186a6f03eb3	Caractéristiques augmentées de ${$W1}%.	lot sorts_objets_050
+sort	572553		ToolTip	b186a6f03eb3	Caractéristiques augmentées de ${$W1}%.	lot sorts_objets_050
+sort	572629		ToolTip	b186a6f03eb3	Caractéristiques augmentées de ${$W1}%.	lot sorts_objets_050
+sort	572630		ToolTip	b186a6f03eb3	Caractéristiques augmentées de ${$W1}%.	lot sorts_objets_050
+sort	572747		Name	2501f0b4c48d	Concocter un mojo revigorant	lot sorts_objets_050
+sort	572748		ToolTip	94b0b06aedea	Rend ${$w1} points de vie.	lot sorts_objets_050
+sort	572890		Description	723382328472	|cffff7f7fGénère 10 Chaleur par cible|r\r\nFait pleuvoir des traînées de feu sur un ennemi et jusqu'à $x1 ennemis se trouvant à moins de $a1 mètres de lui, infligeant ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot sorts_objets_050
+sort	572890		Name	d4a988ab59b9	Pluie de feu	lot sorts_objets_050
+sort	572891		Description	723382328472	|cffff7f7fGénère 10 Chaleur par cible|r\r\nFait pleuvoir des traînées de feu sur un ennemi et jusqu'à $x1 ennemis se trouvant à moins de $a1 mètres de lui, infligeant ${$m1+0+$spfi*0.3124} points de dégâts de Feu.	lot sorts_objets_050
+sort	572891		Name	d4a988ab59b9	Pluie de feu	lot sorts_objets_050
+sort	573265		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	582762		Description	c5b414a70a1b	|cffff7f7fGénère 30 Chaleur|r\r\nProtège un allié avec de la lave en fusion, absorbant ${$SPFI*0.55+$m1+0} points de dégâts. Tant que le bouclier est actif, les attaquants subissent ${$m2+0+$spi*0.1} points de dégâts de Feu chaque fois qu'ils infligent des dégâts à la cible. Dure $d.	lot sorts_objets_050
+sort	582763		Description	c5b414a70a1b	|cffff7f7fGénère 30 Chaleur|r\r\nProtège un allié avec de la lave en fusion, absorbant ${$SPFI*0.55+$m1+0} points de dégâts. Tant que le bouclier est actif, les attaquants subissent ${$m2+0+$spi*0.1} points de dégâts de Feu chaque fois qu'ils infligent des dégâts à la cible. Dure $d.	lot sorts_objets_050
+sort	582764		Description	c5b414a70a1b	|cffff7f7fGénère 30 Chaleur|r\r\nProtège un allié avec de la lave en fusion, absorbant ${$SPFI*0.55+$m1+0} points de dégâts. Tant que le bouclier est actif, les attaquants subissent ${$m2+0+$spi*0.1} points de dégâts de Feu chaque fois qu'ils infligent des dégâts à la cible. Dure $d.	lot sorts_objets_050
+sort	631367		ToolTip	248aafb4ed7e	Enraciné.	lot sorts_objets_050
+sort	636033		Description	6ee469af21fe	Vos aptitudes de mêlée et à distance infligeant des dégâts directs ont une chance d'augmenter votre score de coup critique de $s1 pendant $636034d. (45 sec de délai)	lot sorts_objets_050
+sort	680389		Description	7a82dab70d5f	Vous entoure de magie temporelle pendant $d et augmente votre Armure de ${$m1+0}.\r\n\r\nTant qu'elle est active, si un ennemi vous frappe, le délai entre ses attaques est augmenté de $536265s1% pendant $536265d. 	lot sorts_objets_050
+sort	680389		Name	e3aada6334e5	Résilience temporelle	lot sorts_objets_050
+sort	680389		ToolTip	549f5f9f7e98	Armure augmentée de ${$w1}. Le délai entre les attaques des attaquants est augmenté de $?s504641[26][20]% pendant $536265d.	lot sorts_objets_050
+sort	680872		ToolTip	d3eb74ebedde	Esprit augmenté de ${$W1}. Résistances magiques augmentées de ${$W2}.	lot sorts_objets_050
+sort	680908		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	680909		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	680910		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	801674		Description	43ec3e04991f	Lance une flèche vaudou sur un ennemi, lui infligeant $s3% des dégâts de l'arme à distance plus ${$m1+0+$RAP*.2+$spn*.25} points de dégâts de Nature, et vous rendant des points de vie égaux à $92086s2% des dégâts infligés.	lot sorts_objets_050
+sort	804906		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	804906		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	806864		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	806864		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	806864		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	806865		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	806865		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	806865		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	806866		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	806866		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	806866		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	806867		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	806867		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	806867		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	806868		Description	0c8967999ab0	Condamne un ennemi et lui inflige ${($d*1000/$T1)*($m1+0+$SP*.1+$AP*0.05)} points de dégâts du Sacré en $d, cumulable $u fois, et vous confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r augmente vos chances de coup critique de $804922s1%.	lot sorts_objets_050
+sort	806868		Name	2f034d60b9f5	Condamnation	lot sorts_objets_050
+sort	806868		ToolTip	2d7b3daf3074	Subit des dégâts du Sacré toutes les $T2 sec.	lot sorts_objets_050
+sort	807211		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	807211		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	807477		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	807477		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	808002		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	808002		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	808057		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	808057		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	808648		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	808648		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	808876		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	808876		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050
+sort	809365		Description	25c1985cf128	Projette de l'énergie vaudou sur un ennemi et lui inflige ${$m1+0+$spn*.625+$RAP*0.11} points de dégâts de Nature.	lot sorts_objets_050
+sort	809365		Name	6263bb85d315	Courroux maléfique	lot sorts_objets_050

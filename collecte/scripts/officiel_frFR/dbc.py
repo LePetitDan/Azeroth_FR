@@ -35,7 +35,10 @@ class DBC:
             return cls(f.read(), chemin)
 
     def chaine(self, o):
-        if o <= 0 or o >= len(self.chaines):
+        # 0.9.1 (07/11/2026) : les DBC réécrits par CoA (patch-M, patch-S, patch-T) commencent leur bloc de textes par un
+        # VRAI texte (pas par un octet nul) : l'adresse 0 est alors un texte (« Dun Morogh », « Warrior », « Getting Started »),
+        # et non le texte vide. Dans un DBC de Blizzard, le bloc commence par un octet nul : l'adresse 0 reste le texte vide.
+        if o < 0 or o >= len(self.chaines):
             return ''
         fin = self.chaines.index(b'\x00', o)
         return self.chaines[o:fin].decode('utf-8', 'replace')

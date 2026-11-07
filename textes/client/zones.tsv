@@ -1,4 +1,6 @@
 type	id	sous_id	champ	en	en_empreinte	fr	etat	source	note
+canal	1		name	Ascension	2de8f87cb665		a_traduire		ChatChannels.dbc du client CoA (patch-M)
+canal	1		shortcut	Ascension	2de8f87cb665		a_traduire		ChatChannels.dbc du client CoA (patch-M)
 canal	2		name	Newcomers	783b146efc79		a_traduire		ChatChannels.dbc du client CoA (patch-M)
 canal	2		shortcut	Newcomers	783b146efc79		a_traduire		ChatChannels.dbc du client CoA (patch-M)
 canal	3		name	Zone - %s	de095749e96e		a_traduire		ChatChannels.dbc du client CoA (patch-M)
@@ -719,6 +721,7 @@ carte_monde	3040		area_name	CoaSpellVisuals	b59d43972fd3		a_traduire		base db.ex
 carte_monde	3041		area_name	Zanzasisle	4d0b82ae9a8c		a_traduire		base db.exil.es (site CoA)
 carte_monde	3042		area_name	Akhen City Ruins	292317fc2f19		a_traduire		base db.exil.es (site CoA)
 carte_monde	3043		area_name	DepthbreakerHollow	0d4dd1180799		a_traduire		base db.exil.es (site CoA)
+point_carte	1		name	Anvilmar	7ab3c3e2481b	Courbenclume	officiel	blizzard_frFR	AreaPOI.dbc du client CoA (patch-M) | AreaPOI.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 point_carte	2		name	Brill	765e5861a1d5	Brill	officiel	blizzard_frFR	AreaPOI.dbc du client CoA (patch-M) | AreaPOI.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 point_carte	3		name	Darkshire	edb13702e0d0	Sombre-comté	officiel	blizzard_frFR	AreaPOI.dbc du client CoA (patch-M) | AreaPOI.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 point_carte	4		name	Deathknell	59e710e123c9	Le Glas	officiel	blizzard_frFR	AreaPOI.dbc du client CoA (patch-M) | AreaPOI.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
@@ -1893,6 +1896,7 @@ point_carte	2875		name	Remnants of Thel'dralor	f644cac38cdf		a_traduire		AreaPOI
 point_carte	2876		name	The Scarab Wall	bd0fdf28f00a	Le Mur du scarabée	officiel	blizzard_frFR	AreaPOI.dbc du client CoA (patch-M) | DBC de lieux frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte
 point_carte	2877		name	Graysky	172fe5f4f6a4		a_traduire		AreaPOI.dbc du client CoA (patch-M)
 point_carte	2878		name	Dun Kazad	0785a161b3bf		a_traduire		AreaPOI.dbc du client CoA (patch-M)
+point_vol	1		name	Northshire Abbey	bfd5f49554d0	Abbaye de Comté-du-nord	officiel	blizzard_frFR	TaxiNodes.dbc du client CoA (patch-M) | TaxiNodes.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 point_vol	2		name	Stormwind, Elwynn	6918a54f2eac	Hurlevent, Elwynn	officiel	blizzard_frFR	TaxiNodes.dbc du client CoA (patch-M) | TaxiNodes.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 point_vol	3		name	Programmer Isle	5f26bb3a1101	Île des programmeurs	officiel	blizzard_frFR	TaxiNodes.dbc du client CoA (patch-M) | TaxiNodes.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 point_vol	4		name	Sentinel Hill, Westfall	ff3cf19ebcd5	Colline des sentinelles, marche de l'Ouest	officiel	blizzard_frFR	TaxiNodes.dbc du client CoA (patch-M) | TaxiNodes.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
@@ -2287,6 +2291,7 @@ point_vol	443		name	Black Temple - Transport after Teron - End	31c975a125f1		a_t
 point_vol	444		name	Black Temple - Transport after Reliquary - Start	c2aaf62acf18		a_traduire		TaxiNodes.dbc du client CoA (patch-M)
 point_vol	445		name	Black Temple - Transport after Reliquary - End	ff42046de162		a_traduire		TaxiNodes.dbc du client CoA (patch-M)
 point_vol	448		name	MAX VALUE - NEVER GO ABOVE 448 Sargeras - Warfare Battle Scenario	91293497ca87		a_traduire		TaxiNodes.dbc du client CoA (patch-M)
+zone	1		name	Dun Morogh	05f5ea40112f	Dun Morogh	officiel	blizzard_frFR	AreaTable.dbc du client CoA (patch-M) | AreaTable.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 zone	2		name	Longshore	df13594045d2	Longrivage	officiel	blizzard_frFR	AreaTable.dbc du client CoA (patch-M) | AreaTable.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 zone	3		name	Badlands	876cb643f0ba	Terres ingrates	officiel	blizzard_frFR	AreaTable.dbc du client CoA (patch-M) | AreaTable.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 zone	4		name	Blasted Lands	eded2c725b8b	Terres foudroyées	officiel	blizzard_frFR	AreaTable.dbc du client CoA (patch-M) | AreaTable.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard

@@ -232,11 +232,12 @@ local function DiagnosticBulle()
         local l = _G["GameTooltipTextLeft" .. i]
         local t = l and l:GetText()
         if t then
-            A.Message(format("  %d : %s%s", i, (string.gsub(t, "|", "||")), A.Originaux[l] and (" [anglais : " .. string.gsub(A.Originaux[l], "|", "||") .. "]") or ""))
+            A.Message(format("  %d : %s%s", i, (string.gsub(t, "|", "||")), A.Originaux[l] and A.DejaEcrit(l, t) and (" [anglais : " .. string.gsub(A.Originaux[l], "|", "||") .. "]") or ""))
             for _, cle in ipairs({ "ITEM_SPELL_TRIGGER_ONUSE", "ITEM_SPELL_TRIGGER_ONEQUIP" }) do
                 local p = _G[cle]
                 if type(p) == "string" and string.sub(t, 1, #p) == p and A.TrouverCorpsEffet then
                     local corps = string.gsub(string.sub(t, #p + 1), "^%s+", "")
+                    if A.SeparerRecharge then corps = A.SeparerRecharge(corps) end
                     local fr, id, complet = A.TrouverCorpsEffet(corps, idObjet)
                     local ok, nomSort, rang = pcall(GetItemSpell, idObjet or 0)
                     A.Message(format("     -> sort de l'objet : %s %s ; trouvé : %s (sort %s, données lues : %s)",
@@ -271,6 +272,16 @@ local function Commande(msg)
             Stats()
         elseif msg == "bulle" then
             DiagnosticBulle()
+        elseif msg == "tuto" then
+            -- essai 8 : texte du tutoriel affiché tel que le client le donne (mots-clés en liens), pour comparer
+            local d = PathToAscensionFrame and PathToAscensionFrame.Display
+            local t = d and d.description
+            if type(t) == "string" then
+                A.Message("tutoriel " .. tostring(d.tutorialID) .. " : " .. string.gsub(string.sub(t, 1, 400), "|", "||"))
+                A.Message("  traduit : " .. ((A.TexteTutoriel and A.TexteTutoriel(t)) and "oui" or "non"))
+            else
+                A.Message("aucun tutoriel affiché (ouvrir la Voie de l'Ascension)")
+            end
         elseif msg == "etiquettes" or msg == "étiquettes" then
             AfficherEtiquettes(false)
         else

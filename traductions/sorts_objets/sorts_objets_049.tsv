@@ -1,0 +1,579 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	428775		Description	3990ea43c084	Fait venir Lebed -o G'urth, le Doigt de la mort.	lot sorts_objets_049
+sort	428775		Name	ab231c65555a	Appel du Doigt de la mort	lot sorts_objets_049
+sort	428776		Description	e7cba253e48e	Fait venir Bor -o G'urth, la Main de la mort.	lot sorts_objets_049
+sort	428776		Name	26a6926e2624	Appel de la Main de la mort	lot sorts_objets_049
+sort	429601		Description	832895ebf91c	Chaque sort lancé dans les 20 secondes confère un bonus cumulable de $435095s1 points de mana régénérés toutes les 5 sec. Expire après 20 secondes.  Les aptitudes qui ne coûtent pas de mana ne déclenchent pas ce bijou.	lot sorts_objets_049
+sort	434586		Description	46a2e1da56aa	Vos attaques de mêlée et à distance ont une chance d'injecter du poison à votre cible, ce qui lui inflige ${$AP*0.055+$434587m1} points de dégâts de Nature. (4 ppm)	lot sorts_objets_049
+sort	434749		Description	1c4cf89cae90	Vos sorts de soins directs et de dégâts directs vous confèrent $434747s1 de puissance des sorts pendant $434747d. Cumulable jusqu'à $434747u fois. Ne peut pas se produire plus d'une fois toutes les 5 secondes.	lot sorts_objets_049
+sort	437336		Description	2b5883f2ec28	Vos sorts et attaques de dégâts directs ont une chance de vous conférer $437344s1 de score de coup critique pendant $437344d. Le changement de forme modifie cet effet selon la forme que vous prenez. (40 sec de délai)	lot sorts_objets_049
+sort	437447		Description	beb2bc10c992	Vous gagnez $s1% de mana en plus quand vous utilisez une gemme de mana.  De plus, l'utilisation d'une gemme de mana vous confère $437445s1 de puissance des sorts pendant $437445d.	lot sorts_objets_049
+sort	437657		Description	f683561ac277	Vous gagnez une charge électrique chaque fois que vous infligez un coup critique avec un sort de dégâts.  Quand vous atteignez $s1 charges électriques, elles sont libérées et lancent un éclair qui inflige ${$SP*0.055+$437661m1} points de dégâts de Nature. Vous ne pouvez pas gagner de charge électrique plus d'une fois toutes les 2,5 sec.	lot sorts_objets_049
+sort	438332		Description	b26b667aca69	Les soins directs sur les alliés ayant moins de 50% de leurs points de vie ont 40% de chances de rendre ${$438333m1+$bh*0.2} points de vie supplémentaires, mais consomment ${$438333m2+$438333ppl2} points de mana.\r\n\r\nNe peut se déclencher que si votre mana est supérieur à 50%.	lot sorts_objets_049
+sort	438332		ToolTip	b26b667aca69	Les soins directs sur les alliés ayant moins de 50% de leurs points de vie ont 40% de chances de rendre ${$438333m1+$bh*0.2} points de vie supplémentaires, mais consomment ${$438333m2+$438333ppl2} points de mana.\r\n\r\nNe peut se déclencher que si votre mana est supérieur à 50%.	lot sorts_objets_049
+sort	438347		Description	ef04f1a89e35	Vos coups critiques avec les sorts ont 20% de chances d'augmenter votre puissance des sorts de $438348s1 pendant $438348d. (45 sec de délai)	lot sorts_objets_049
+sort	442083		Description	e5b753ff1cdb	10% de chances sur coup critique d'augmenter votre puissance d'attaque de $442084s1 pendant 10 sec. (45 sec de délai)	lot sorts_objets_049
+sort	447721		Description	a3498e31df31	Nécessite une cible. Invoque tous les membres du groupe et du raid.\r\n\r\n|cFFFFFFFFNe fonctionne pas en Haut risque|r 	lot sorts_objets_049
+sort	449572		Description	f61e8e3e7848	Ajoute de façon permanente 12 de puissance des sorts et 12 de score de résilience à une pièce d'armure d'épaules.	lot sorts_objets_049
+sort	449573		Description	bad32adc4a67	Ajoute de façon permanente 20 de puissance d'attaque et 12 de score de résilience à une pièce d'armure d'épaules.	lot sorts_objets_049
+sort	449574		Description	b1f08794b2c4	Ajoute de façon permanente 16 de puissance des sorts et 12 de score de résilience à une pièce d'armure d'épaules.	lot sorts_objets_049
+sort	449575		Description	e29ef515433e	Ajoute de façon permanente 26 de puissance d'attaque et 12 de score de résilience à une pièce d'armure d'épaules.	lot sorts_objets_049
+sort	449576		Description	22f7f1631725	Ajoute de façon permanente 22 de puissance des sorts et 14 de score de résilience à une pièce d'armure de tête.	lot sorts_objets_049
+sort	449577		Description	2b5f6b95478a	Ajoute de façon permanente 32 de puissance d'attaque et 14 de score de résilience à une pièce d'armure de tête.	lot sorts_objets_049
+sort	449578		Description	22f7f1631725	Ajoute de façon permanente 22 de puissance des sorts et 14 de score de résilience à une pièce d'armure de tête.	lot sorts_objets_049
+sort	449579		Description	2b5f6b95478a	Ajoute de façon permanente 32 de puissance d'attaque et 14 de score de résilience à une pièce d'armure de tête.	lot sorts_objets_049
+sort	454400		Description	28dcf374e591	$?s552011[infobulle sans classe][infobulle renaissance]	lot sorts_objets_049
+sort	454400		Name	cff6e314b044	Artillerie des Arcanes III	lot sorts_objets_049
+sort	460003		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460003		Name	d68186286a2d	Maîtrise des sorts - Main gauche - 3 de puissance des sorts	lot sorts_objets_049
+sort	460003		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460005		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460005		Name	73d28d798908	Maîtrise des sorts - Main gauche - 5 de puissance des sorts	lot sorts_objets_049
+sort	460005		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460008		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460008		Name	23f21f50996c	Maîtrise des sorts - Main gauche - 8 de puissance des sorts	lot sorts_objets_049
+sort	460008		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460009		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460009		Name	40a8fa020668	Maîtrise des sorts - Main gauche - 9 de puissance des sorts	lot sorts_objets_049
+sort	460009		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460010		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460010		Name	7d5db79adc9b	Maîtrise des sorts - Main gauche - 10 de puissance des sorts	lot sorts_objets_049
+sort	460010		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460011		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460011		Name	72ece0e14b64	Maîtrise des sorts - Main gauche - 11 de puissance des sorts	lot sorts_objets_049
+sort	460011		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460014		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460014		Name	29c54305a17c	Maîtrise des sorts - Main gauche - 14 de puissance des sorts	lot sorts_objets_049
+sort	460014		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460016		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460016		Name	ad769f6b6580	Maîtrise des sorts - Main gauche - 16 de puissance des sorts	lot sorts_objets_049
+sort	460016		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460018		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460018		Name	44a3924f1296	Maîtrise des sorts - Main gauche - 18 de puissance des sorts	lot sorts_objets_049
+sort	460018		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460020		Description	635693eaa418	$?s552011[Augmente la puissance des sorts de ${$m3+0}.][Augmente la puissance des sorts de ${$m2+0+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460020		Name	876ba7780bcc	Maîtrise des sorts - Main gauche - 20 de puissance des sorts	lot sorts_objets_049
+sort	460020		ToolTip	b1b3b6d14717	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl3+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460602		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460602		Name	af829ed1629b	Maîtrise des sorts - Main gauche - 2 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460602		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460603		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460603		Name	d33caafe0f49	Maîtrise des sorts - Main gauche - 3 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460603		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460604		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460604		Name	df7ba85a87b6	Maîtrise des sorts - Main gauche - 4 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460604		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460605		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460605		Name	7124a4c83091	Maîtrise des sorts - Main gauche - 5 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460605		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460606		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460606		Name	c491cee6c9b7	Maîtrise des sorts - Main gauche - 6 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460606		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460607		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460607		Name	820f15621c6b	Maîtrise des sorts - Main gauche - 7 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460607		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460608		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460608		Name	ee655942bfe9	Maîtrise des sorts - Main gauche - 8 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460608		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460609		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460609		Name	ceea0b3e88b1	Maîtrise des sorts - Main gauche - 9 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460609		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460610		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460610		Name	33e6bb45ab63	Maîtrise des sorts - Main gauche - 10 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460610		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460611		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460611		Name	e61826f5ac04	Maîtrise des sorts - Main gauche - 11 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460611		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460612		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460612		Name	92e28a1e5a5a	Maîtrise des sorts - Main gauche - 12 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460612		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460613		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460613		Name	f70597072eca	Maîtrise des sorts - Main gauche - 13 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460613		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460614		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460614		Name	1198bbb9df60	Maîtrise des sorts - Main gauche - 14 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460614		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460615		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460615		Name	9d32c1c9bcc7	Maîtrise des sorts - Main gauche - 15 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460615		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460616		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460616		Name	9b4892901b65	Maîtrise des sorts - Main gauche - 16 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460616		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460617		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460617		Name	ebfb9e24cb54	Maîtrise des sorts - Main gauche - 17 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460617		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	460630		Description	2b109cef208d	Augmente la puissance des sorts de ${$m2+$ppl3+0.5}	lot sorts_objets_049
+sort	460630		Name	fa25ccab2a21	Maîtrise des sorts - Main gauche - 30 de puissance des sorts adaptée au niveau	lot sorts_objets_049
+sort	460630		ToolTip	45e90d671310	$?s552011[Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.][Augmente la puissance des sorts de ${$m2+$ppl2+0.5}.\r\nÉquipé : augmente de 3% vos chances d'infliger un coup critique avec vos sorts.]	lot sorts_objets_049
+sort	470001		Description	05198e0de897	Vos sorts de dégâts et de soins directs ont une chance de réduire de $470002s1% le coût de votre prochain sort magique lancé dans les $470002d.	lot sorts_objets_049
+sort	470001		Name	5bb663203014	Prisme d'âme drakon	lot sorts_objets_049
+sort	470001		ToolTip	6f5c281bb11c	Vos sorts de dégâts et de soins directs ont une chance de réduire de $470002s1 le coût de votre prochain sort lancé dans les $470002d.	lot sorts_objets_049
+sort	470020		Description	db62c6c6f5ab	Pousse un rugissement draconique qui inflige $s2 points de dégâts à forte menace aux ennemis proches et augmente la menace générée pendant 15 sec.	lot sorts_objets_049
+sort	470020		Name	81f46a155a5e	Rugissement draconique	lot sorts_objets_049
+sort	470020		ToolTip	38cbaa9c6a86	Génération de menace augmentée.	lot sorts_objets_049
+sort	485040		Rank	56fce8c025cc	Potion de combattant PvP	lot sorts_objets_049
+sort	498530		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498530		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498531		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498531		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498532		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498532		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498533		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498533		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498534		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498534		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498535		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498535		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498536		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498536		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498537		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498537		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498538		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498538		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498539		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498539		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498540		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498540		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498541		Description	d866d7242439	Appliquez sur votre tête un ensemble cosmétique de cornes de chasseur de démons !	lot sorts_objets_049
+sort	498541		ToolTip	9dc0ac07f10d	Vous portez des cornes cosmétiques de chasseur de démons sur la tête !	lot sorts_objets_049
+sort	498542		Description	44e18eedcfbd	Invoque le Visage de Thal'kiel - Rouge.	lot sorts_objets_049
+sort	498544		Description	55da0460bfd4	Invoque le Visage de Thal'kiel - Violet.	lot sorts_objets_049
+sort	498546		Description	2411e62432ff	Invoque le Visage de Thal'kiel - Pâle.	lot sorts_objets_049
+sort	498548		Description	fa78498e1c0c	Invoque le Visage de Thal'kiel - Bleu.	lot sorts_objets_049
+sort	498550		Description	8dab10b1f0bd	Invoque l'Âme des oubliés - Jaune.	lot sorts_objets_049
+sort	498552		Description	12c253e2e7d8	Invoque l'Âme des oubliés - Rouge.	lot sorts_objets_049
+sort	498554		Description	72c2d25f07aa	Invoque l'Âme des oubliés - Violet.	lot sorts_objets_049
+sort	498556		Description	c53d17e9c096	Invoque l'Âme des oubliés - Bleu.	lot sorts_objets_049
+sort	498558		Description	c91ad675e6ce	Invoque le Vestige brûlant - Violet.	lot sorts_objets_049
+sort	498560		Description	1da0f9919492	Invoque le Vestige brûlant - Orange.	lot sorts_objets_049
+sort	498562		Description	a656974a35fa	Invoque le Vestige brûlant - Vert.	lot sorts_objets_049
+sort	498564		Description	8cec20a35c7e	Invoque le Vestige brûlant - Bleu.	lot sorts_objets_049
+sort	498566		Description	54da08da9805	Invoque la Fierté du seigneur des abîmes - Jaune.	lot sorts_objets_049
+sort	498568		Description	c7014d072e30	Invoque la Fierté du seigneur des abîmes - Rouge.	lot sorts_objets_049
+sort	498570		Description	b675d9e6e685	Invoque la Fierté du seigneur des abîmes - Violet.	lot sorts_objets_049
+sort	498572		Description	ebb342209c8f	Invoque la Fierté du seigneur des abîmes - Vert.	lot sorts_objets_049
+sort	498574		Description	f8c5a197c1bd	Invoque le Regard du premier invocateur - Jaune.	lot sorts_objets_049
+sort	498576		Description	ef3f6d880489	Invoque le Regard du premier invocateur - Rouge.	lot sorts_objets_049
+sort	498578		Description	f7a2f887894f	Invoque le Regard du premier invocateur - Vert.	lot sorts_objets_049
+sort	498580		Description	405916100afc	Invoque le Visage de Thal'kiel - Jaune.	lot sorts_objets_049
+sort	498582		Description	65d09eb1e493	Invoque le Crâne du Man'ari - Rouge.	lot sorts_objets_049
+sort	498584		Description	8605e1b6a7d6	Invoque le Crâne du Man'ari - Violet.	lot sorts_objets_049
+sort	498586		Description	3675131abdd2	Invoque le Crâne du Man'ari - Vert.	lot sorts_objets_049
+sort	498588		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498588		Name	2d9b99c62c22	Provoc PvP (F vert)	lot sorts_objets_049
+sort	498589		Description	f3329b4a01f8	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous. 	lot sorts_objets_049
+sort	498589		Name	487eace5167a	Provoc PvP (Grimace)	lot sorts_objets_049
+sort	498590		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498590		Name	e5ef8871f47e	Provoc PvP (Joie)	lot sorts_objets_049
+sort	498591		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498591		Name	56a4df3096ff	Provoc PvP (Binoclard)	lot sorts_objets_049
+sort	498592		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498592		Name	2740ce8f06de	Provoc PvP (Pensif)	lot sorts_objets_049
+sort	498593		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498593		Name	d8643fa6d740	Provoc PvP (Point d'interrogation)	lot sorts_objets_049
+sort	498594		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498594		Name	98bafcc144c3	Provoc PvP (Rage)	lot sorts_objets_049
+sort	498595		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498595		Name	7e57eae3f2a5	Provoc PvP (Sourire)	lot sorts_objets_049
+sort	498596		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498596		Name	da73c4cd7ecb	Provoc PvP (Lunettes de soleil)	lot sorts_objets_049
+sort	498597		Description	6ae6c7d69dda	Plante une Provoc PvP sur le cadavre d'un joueur ennemi devant vous.	lot sorts_objets_049
+sort	498597		Name	582583d9b51a	Provoc PvP (Las)	lot sorts_objets_049
+sort	498609		Description	60939310531c	Combinez 10 feuilles brisées anciennes en une feuille ancienne	lot sorts_objets_049
+sort	498610		Description	32143eb2cd73	Retire la protection d'immunité du goulu arboricole	lot sorts_objets_049
+sort	498610		Name	3cf70454cd43	Dissipation du goulu arboricole	lot sorts_objets_049
+sort	498612		Description	14f318873daa	Fait venir un Pepe du Voile d'hiver qui se perche sur votre tête pendant que vous partez ensemble à l'aventure.	lot sorts_objets_049
+sort	498612		Name	2ad75722a03d	Voile d'hiver - Pepe	lot sorts_objets_049
+sort	498621		Description	d047aab21171	Augmente de $s1 votre réputation auprès des Sentinelles d'Aile-argent.	lot sorts_objets_049
+sort	498621		Name	e9ca4e808ad7	Aile-argent	lot sorts_objets_049
+sort	498621		Rank	5adc8a2df104	CoA +Réput.	lot sorts_objets_049
+sort	498743		Description	1e41cc5fbd67	Clic droit pour invoquer ou renvoyer votre Kaliri brillant.	lot sorts_objets_049
+sort	498744		Description	209085a073c5	Clic droit pour invoquer ou renvoyer Nuts.	lot sorts_objets_049
+sort	498762		Description	bc0328e70b2a	Clic droit pour invoquer ou renvoyer votre familier Lumpy.	lot sorts_objets_049
+sort	498784		Description	026cce96040a	Clic droit pour invoquer ou renvoyer votre familier Éon.	lot sorts_objets_049
+sort	498797		Description	06dc13a804d8	Clic droit pour invoquer ou renvoyer votre Syd.	lot sorts_objets_049
+sort	498798		Description	5b866baf2471	Clic droit pour invoquer ou renvoyer votre Âme des Aspects.	lot sorts_objets_049
+sort	498990		Description	a566913b1690	Augmente de $s1 votre réputation auprès des Voltigeurs chanteguerre.	lot sorts_objets_049
+sort	498990		Name	d0fad2ddd997	Chanteguerre	lot sorts_objets_049
+sort	498990		Rank	5adc8a2df104	CoA +Réput.	lot sorts_objets_049
+sort	499213		Description	f90e2283ecd0	Clic droit pour invoquer ou renvoyer votre Micro-défenseur Sunblade.	lot sorts_objets_049
+sort	499219		Description	69ead6c2ffe3	Clic droit pour invoquer ou renvoyer votre Nouveau-né serpent onyx.	lot sorts_objets_049
+sort	499477		Description	ccc659d6be37	Augmente de $s1 votre réputation auprès de la Ligue d'Arathor.	lot sorts_objets_049
+sort	499477		Name	6de69a47b55e	Arathor	lot sorts_objets_049
+sort	499477		Rank	5adc8a2df104	CoA +Réput.	lot sorts_objets_049
+sort	499518		Description	556f293abf35	Augmente de $s1 votre réputation auprès des Profanateurs.	lot sorts_objets_049
+sort	499518		Name	9e252d771e8f	Profanateur	lot sorts_objets_049
+sort	499518		Rank	5adc8a2df104	CoA +Réput.	lot sorts_objets_049
+sort	499562		Description	34af02958656	Clic droit pour invoquer ou renvoyer ce familier.	lot sorts_objets_049
+sort	499562		Name	fdabf34efbb1	Esprit du feu pandaren	lot sorts_objets_049
+sort	499563		Description	34af02958656	Clic droit pour invoquer ou renvoyer ce familier.	lot sorts_objets_049
+sort	499564		Description	34af02958656	Clic droit pour invoquer ou renvoyer ce familier.	lot sorts_objets_049
+sort	499564		Name	6a1ddc6bd431	Chi-Chi, petit de Chi-Ji	lot sorts_objets_049
+sort	499565		Description	34af02958656	Clic droit pour invoquer ou renvoyer ce familier.	lot sorts_objets_049
+sort	499587		Description	229bb806611c	Retire tous les marqueurs de raid actuellement placés.	lot sorts_objets_049
+sort	499588		Description	cb14d80cd4fa	Place le marqueur de raid Triangle sur le sol.	lot sorts_objets_049
+sort	499589		Description	e5161a903a13	Place le marqueur de raid Étoile sur le sol.	lot sorts_objets_049
+sort	499590		Description	3a44f7554fa8	Place le marqueur de raid Crâne sur le sol.	lot sorts_objets_049
+sort	499591		Description	2378328e105c	Place le marqueur de raid Lune sur le sol.	lot sorts_objets_049
+sort	499592		Description	ad9dc97afa20	Place le marqueur de raid Losange sur le sol.	lot sorts_objets_049
+sort	499593		Description	db4c3d785d5d	Place le marqueur de raid Croix sur le sol.	lot sorts_objets_049
+sort	499594		Description	17e7ed515c30	Place le marqueur de raid Cercle sur le sol.	lot sorts_objets_049
+sort	499595		Description	ca3e4b965415	Place le marqueur de raid Carré sur le sol.	lot sorts_objets_049
+sort	499666		Description	75964eeb4e55	Clic droit pour invoquer ou renvoyer votre Ancien gardien de l'aube.	lot sorts_objets_049
+sort	499667		Description	4dd8a94dac86	Clic droit pour invoquer ou renvoyer la version mignonne et câline de Niuzao.	lot sorts_objets_049
+sort	499740		Description	06da064fcf4a	Vous devenez quelqu'un d'autre. Dure 1 heure.	lot sorts_objets_049
+sort	499742		Description	336439603a49	Modifie l'apparence de votre Loup fantôme.	lot sorts_objets_049
+sort	499742		Name	744f5fa1f18d	Incarnation : Loup fantôme	lot sorts_objets_049
+sort	499743		ToolTip	0ca2e0ff6f58	Vous portez un costume de queue de dragon. Vous fermez la marche !	lot sorts_objets_049
+sort	499744		ToolTip	d0299ab0eb09	Vous portez un costume de corps de dragon. Suivez le chef !	lot sorts_objets_049
+sort	499745		ToolTip	0a79a1d172c0	Vous portez un costume de tête de dragon. Ouvrez la voie !	lot sorts_objets_049
+sort	499746		ToolTip	0ca2e0ff6f58	Vous portez un costume de queue de dragon. Vous fermez la marche !	lot sorts_objets_049
+sort	499747		ToolTip	d0299ab0eb09	Vous portez un costume de corps de dragon. Suivez le chef !	lot sorts_objets_049
+sort	499748		ToolTip	0a79a1d172c0	Vous portez un costume de tête de dragon. Ouvrez la voie !	lot sorts_objets_049
+sort	499749		ToolTip	0ca2e0ff6f58	Vous portez un costume de queue de dragon. Vous fermez la marche !	lot sorts_objets_049
+sort	499750		ToolTip	d0299ab0eb09	Vous portez un costume de corps de dragon. Suivez le chef !	lot sorts_objets_049
+sort	499751		ToolTip	0a79a1d172c0	Vous portez un costume de tête de dragon. Ouvrez la voie !	lot sorts_objets_049
+sort	499752		Description	0fa77e5e0344	Portez un costume de queue de cheval.	lot sorts_objets_049
+sort	499752		ToolTip	58becacdccc6	Vous êtes une queue de cheval !	lot sorts_objets_049
+sort	499753		Description	b18138d8e83b	Portez un costume de tête de cheval.	lot sorts_objets_049
+sort	499753		ToolTip	fb4caf21fb24	Vous êtes une tête de cheval !	lot sorts_objets_049
+sort	499755		Description	b170dbb59b51	Équipe votre Sac à dos Wrathion	lot sorts_objets_049
+sort	499763		Description	34af02958656	Clic droit pour invoquer ou renvoyer ce familier.	lot sorts_objets_049
+sort	499896		Description	4586b9747e2c	Active vos Vrilles de Mana.	lot sorts_objets_049
+sort	499898		Description	1a34b318050d	Active vos Vrilles des Dieux très anciens.	lot sorts_objets_049
+sort	499900		Description	e94eec1462c7	Active vos Vrilles des Naaru.	lot sorts_objets_049
+sort	499918		Description	b80bdd148b8e	Clic droit pour invoquer ou renvoyer votre Petit Néfarian.	lot sorts_objets_049
+sort	499949		Description	d6bf7e028c7c	Active vos Ailes flamboyantes.	lot sorts_objets_049
+sort	499951		Description	d6bf7e028c7c	Active vos Ailes flamboyantes.	lot sorts_objets_049
+sort	499991		Description	7d1675bd12aa	Clic droit pour invoquer ou renvoyer la Cloche du challenger.	lot sorts_objets_049
+sort	499992		Name	b5fb136761d6	Livre de l'Ascension	lot sorts_objets_049
+sort	500038		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	500038		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	500192		Description	d699be0297ff	Apprenez de nouvelles aptitudes !	lot sorts_objets_049
+sort	500192		Name	dafde439fbf4	Kit de sorts de Conquest of Azeroth	lot sorts_objets_049
+sort	500192		ToolTip	d699be0297ff	Apprenez de nouvelles aptitudes !	lot sorts_objets_049
+sort	500214		Description	b62be98e095b	Plantez votre bannière d'allégeance ! Dure 60 secondes.	lot sorts_objets_049
+sort	500226		Description	c908033c00c2	Plantez votre bannière pour que tous voient combien vous avez sacrifié ! Dure 60 secondes.	lot sorts_objets_049
+sort	500227		Description	c908033c00c2	Plantez votre bannière pour que tous voient combien vous avez sacrifié ! Dure 60 secondes.	lot sorts_objets_049
+sort	500229		Description	b62be98e095b	Plantez votre bannière d'allégeance ! Dure 60 secondes.	lot sorts_objets_049
+sort	500262		Description	8d0044f0ffff	Plantez votre bannière pour que tous voient la puissance de la Gangre ! Dure 60 secondes.	lot sorts_objets_049
+sort	500291		Description	8d0044f0ffff	Plantez votre bannière pour que tous voient la puissance de la Gangre ! Dure 60 secondes.	lot sorts_objets_049
+sort	500449		Description	ca7d928d4016	Vos 3 prochaines attaques automatiques de mêlée dans les $d bénéficient de $s1% de vitesse d'attaque en plus.	lot sorts_objets_049
+sort	500449		Name	fa8660671e3e	Fendre l'ennemi	lot sorts_objets_049
+sort	500449		ToolTip	f9366a77fc88	Votre prochaine attaque automatique bénéficie de ${$w1}% de vitesse d'attaque en plus.	lot sorts_objets_049
+sort	500456		Name	6c7fe02750cb	Flétrissure	lot sorts_objets_049
+sort	500456		ToolTip	507554e39cc1	Subit ${$w3} points de dégâts d'Ombre toutes les $t3 sec.	lot sorts_objets_049
+sort	500457		Name	6c7fe02750cb	Flétrissure	lot sorts_objets_049
+sort	500457		ToolTip	507554e39cc1	Subit ${$w3} points de dégâts d'Ombre toutes les $t3 sec.	lot sorts_objets_049
+sort	500458		Name	6c7fe02750cb	Flétrissure	lot sorts_objets_049
+sort	500458		ToolTip	507554e39cc1	Subit ${$w3} points de dégâts d'Ombre toutes les $t3 sec.	lot sorts_objets_049
+sort	500459		Name	6c7fe02750cb	Flétrissure	lot sorts_objets_049
+sort	500459		ToolTip	507554e39cc1	Subit ${$w3} points de dégâts d'Ombre toutes les $t3 sec.	lot sorts_objets_049
+sort	500589		Description	2c082f0bb559	Clic droit pour invoquer ou renvoyer un Pilleur défias.\n\nExclusivité de la saison 9	lot sorts_objets_049
+sort	500589		Name	333dff4c2eab	Exclusivité du test de charge de la saison 9 - Pilleur défias	lot sorts_objets_049
+sort	500589		ToolTip	2c082f0bb559	Clic droit pour invoquer ou renvoyer un Pilleur défias.\n\nExclusivité de la saison 9	lot sorts_objets_049
+sort	500647		Name	f33db8477528	Lance-roquettes	lot sorts_objets_049
+sort	500923		Description	428cce2f6502	Vous protège par le vent : les ennemis qui vous blessent sont frappés par une rafale de vent et repoussés. Dure $d ou 3 attaques.	lot sorts_objets_049
+sort	500923		Name	685f903e70e7	Garde de la bourrasque	lot sorts_objets_049
+sort	500923		ToolTip	ed44c437ddd7	Les dégâts subis repousseront l'attaquant.	lot sorts_objets_049
+sort	500932		Description	59c8838d05c4	Envoie une rafale de vent en cône devant vous, repoussant les ennemis et interrompant l'incantation en cours de tous les ennemis, ce qui empêche de lancer tout sort de la même école pendant $d.	lot sorts_objets_049
+sort	500960		Description	a5458a22bc99	Dépose un |cffffffffTotem-serpent|r près de vous pendant $d.\r\n\r\nLe totem crache du feu sur les ennemis proches, en essayant de se concentrer sur votre cible principale.\r\n\r\n@ext:Can only have 1 |cffffffffWard|r active at a time.:ext@	lot sorts_objets_049
+sort	500969		Description	e8519bfd034d	Réanime un |cffffffffVoleur squelette|r pour vous aider au combat, occupant 1 |cffffffffForce vitale|r. \r\n\r\nA une chance d'appliquer |cffffffffPoison de décomposition|r lors d'un coup, réduisant la vitesse d'incantation de la cible de $805024s1% pendant $805024d, cumulable $805024u fois.\r\n\r\n|cff90ee90Ordre|r : bondit sur votre cible et la frappe $805938s1 fois. Frappe toujours 5 fois les ennemis ayant moins de 35% de leurs points de vie.	lot sorts_objets_049
+sort	500969		Name	39d2b625a419	Réanimation : Voleur squelette	lot sorts_objets_049
+sort	500991		Description	111bd317c24f	Ordonne à vos |cFFFFFFFFmorts-vivants|r de concentrer leurs attaques sur l'ennemi ciblé.\n\nUtilisable pendant une incantation ou une canalisation.	lot sorts_objets_049
+sort	501003		Name	43f70b1d0fc3	Écrasement	lot sorts_objets_049
+sort	501027		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501028		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501029		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501030		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501031		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501032		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501033		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501034		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501035		Description	b7a847b99f04	|cffffffffNécessite Enragé|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme, plus ${$m1+0} avec votre main droite.	lot sorts_objets_049
+sort	501068		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501069		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501070		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501071		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501072		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501073		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501074		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	501153		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	501153		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	501153		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	501154		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	501154		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	501154		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	501155		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	501155		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	501155		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	501156		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	501156		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	501156		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	501157		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	501157		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	501157		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	501158		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	501158		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	501158		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	501330		Description	211ef9667c47	Veuillez utiliser le rang 5.	lot sorts_objets_049
+sort	501331		Description	211ef9667c47	Veuillez utiliser le rang 5.	lot sorts_objets_049
+sort	501332		Description	80a6fae6de5c	Imprègne un allié d'énergie démoniaque, augmentant sa puissance d'attaque de $s1. Dure $d.	lot sorts_objets_049
+sort	501333		Description	80a6fae6de5c	Imprègne un allié d'énergie démoniaque, augmentant sa puissance d'attaque de $s1. Dure $d.	lot sorts_objets_049
+sort	501334		Description	80a6fae6de5c	Imprègne un allié d'énergie démoniaque, augmentant sa puissance d'attaque de $s1. Dure $d.	lot sorts_objets_049
+sort	501336		Description	80a6fae6de5c	Imprègne un allié d'énergie démoniaque, augmentant sa puissance d'attaque de $s1. Dure $d.	lot sorts_objets_049
+sort	501416		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_049
+sort	501417		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_049
+sort	501418		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_049
+sort	501419		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_049
+sort	501420		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_049
+sort	501469		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501469		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501470		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501470		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501471		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501471		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501472		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501472		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501473		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501473		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501474		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501474		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501475		Description	cad4a6b0997e	|cffcc99ffÉpuise 25 points de Statique|r\r\nFoudroie le corps d'un allié, le revitalisant et lui rendant instantanément ${$m1+0+$SP*.245} points de vie.	lot sorts_objets_049
+sort	501475		Name	c25aafdbcbc3	Afflux revigorant	lot sorts_objets_049
+sort	501506		Name	7e5aa821b512	Tranchement	lot sorts_objets_049
+sort	501507		Name	7e5aa821b512	Tranchement	lot sorts_objets_049
+sort	501570		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	501570		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	501571		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	501571		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	501572		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	501572		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	501573		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	501573		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	501574		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	501574		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	501582		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501583		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501584		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501585		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501586		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501587		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501588		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	501601		Description	cd77eeae07c4	Dit une prière pour un allié, lui rendant ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_objets_049
+sort	501601		Name	983b2e9a425a	Testament de foi	lot sorts_objets_049
+sort	501601		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_049
+sort	501602		Description	cd77eeae07c4	Dit une prière pour un allié, lui rendant ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_objets_049
+sort	501602		Name	983b2e9a425a	Testament de foi	lot sorts_objets_049
+sort	501602		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_049
+sort	501603		Description	cd77eeae07c4	Dit une prière pour un allié, lui rendant ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_objets_049
+sort	501603		Name	983b2e9a425a	Testament de foi	lot sorts_objets_049
+sort	501603		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_049
+sort	501604		Description	cd77eeae07c4	Dit une prière pour un allié, lui rendant ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_objets_049
+sort	501604		Name	983b2e9a425a	Testament de foi	lot sorts_objets_049
+sort	501604		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_049
+sort	501605		Description	cd77eeae07c4	Dit une prière pour un allié, lui rendant ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_objets_049
+sort	501605		Name	983b2e9a425a	Testament de foi	lot sorts_objets_049
+sort	501605		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_049
+sort	501606		Description	cd77eeae07c4	Dit une prière pour un allié, lui rendant ${$m1+0+$SP*1+$AP*2} points de vie.\r\n\r\nApplique |cffffffffRetenue sacrée|r pendant $102208d.@s:102208:0@	lot sorts_objets_049
+sort	501606		Name	983b2e9a425a	Testament de foi	lot sorts_objets_049
+sort	501606		ToolTip	e0eb622e34e3	Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_049
+sort	501683		Rank	4ed7af3a9210	rang 5	lot sorts_objets_049
+sort	501684		Description	2d801a68d35f	Hurle dans l'âme des ennemis proches, réduisant leur vitesse de déplacement de $s2% pendant $d et leur infligeant ${$m1+0+$AP*0.258+$SP*0.368973} points de dégâts d'Ombre.	lot sorts_objets_049
+sort	501684		ToolTip	91dfa121b865	Vitesse de déplacement réduite de ${$w2}%. 	lot sorts_objets_049
+sort	501685		Description	2d801a68d35f	Hurle dans l'âme des ennemis proches, réduisant leur vitesse de déplacement de $s2% pendant $d et leur infligeant ${$m1+0+$AP*0.258+$SP*0.368973} points de dégâts d'Ombre.	lot sorts_objets_049
+sort	501685		ToolTip	91dfa121b865	Vitesse de déplacement réduite de ${$w2}%. 	lot sorts_objets_049
+sort	501686		Description	2d801a68d35f	Hurle dans l'âme des ennemis proches, réduisant leur vitesse de déplacement de $s2% pendant $d et leur infligeant ${$m1+0+$AP*0.258+$SP*0.368973} points de dégâts d'Ombre.	lot sorts_objets_049
+sort	501686		ToolTip	91dfa121b865	Vitesse de déplacement réduite de ${$w2}%. 	lot sorts_objets_049
+sort	501705		ToolTip	62b3522882ce	Saigne : ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_objets_049
+sort	501706		ToolTip	62b3522882ce	Saigne : ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_objets_049
+sort	501707		ToolTip	62b3522882ce	Saigne : ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_objets_049
+sort	501779		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	501780		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	501781		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	501782		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	501783		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	501784		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	501960		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501961		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501962		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501963		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501964		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501965		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501966		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501967		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	501968		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	502085		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	502086		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	502087		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	502135		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502136		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502137		Description	12295338d96b	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 2 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502137		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502138		Description	12295338d96b	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 2 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502138		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502139		Description	12295338d96b	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 2 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502139		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502140		Description	12295338d96b	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 2 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502140		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502141		Description	26a4f5bbb309	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 3 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502141		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502142		Description	26a4f5bbb309	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 3 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502142		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502143		Description	26a4f5bbb309	Pose le Regard de C'thun sur un ennemi ou un allié, puis saute sur 3 cibles proches supplémentaires, infligeant ${$m1+0+$sps*0.5+$AP*0.2} points de dégâts d'Ombre aux ennemis ou rendant ${$m2+0+$bh*0.665+$AP*0.1} points de vie aux alliés$?s706188[ et révélant les ennemis furtifs pendant $807344d][].	lot sorts_objets_049
+sort	502143		ToolTip	0b3986a02196	Révèle les ennemis furtifs proches.	lot sorts_objets_049
+sort	502391		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502392		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502393		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502394		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502395		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502396		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502397		Name	d5c538daca85	Éclat solaire	lot sorts_objets_049
+sort	502425		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502426		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502427		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502428		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502429		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502430		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502431		Name	286071576b36	Illumination	lot sorts_objets_049
+sort	502521		Name	f33db8477528	Lance-roquettes	lot sorts_objets_049
+sort	502522		Name	f33db8477528	Lance-roquettes	lot sorts_objets_049
+sort	502523		Name	f33db8477528	Lance-roquettes	lot sorts_objets_049
+sort	502870		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502871		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502872		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502873		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502874		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502875		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502876		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	502981		Description	6d041fe143ac	Soigne rapidement un allié de $o1 points de vie en $d.\r\n\r\n$?s705957[Après $t2 sec,][À la fin de la durée,] ce soin cherche un autre allié proche ayant le moins de points de vie et lui rend ${$803529m1+$803529ppl1+$BH*0.244572} points de vie. 	lot sorts_objets_049
+sort	503319		Description	b18a28c0e25c	Invoque la puissance du vent pour renforcer un joueur allié, lui rendant $s1 points de mana toutes les 5 secondes pendant $d.\r\n\r\n@ext:Does not stack with |cffffffffCall of the Storm|r.:ext@	lot sorts_objets_049
+sort	503319		Name	9cd5d2f352ab	Appel du vent	lot sorts_objets_049
+sort	503320		Description	b18a28c0e25c	Invoque la puissance du vent pour renforcer un joueur allié, lui rendant $s1 points de mana toutes les 5 secondes pendant $d.\r\n\r\n@ext:Does not stack with |cffffffffCall of the Storm|r.:ext@	lot sorts_objets_049
+sort	503320		Name	9cd5d2f352ab	Appel du vent	lot sorts_objets_049
+sort	503321		Description	b18a28c0e25c	Invoque la puissance du vent pour renforcer un joueur allié, lui rendant $s1 points de mana toutes les 5 secondes pendant $d.\r\n\r\n@ext:Does not stack with |cffffffffCall of the Storm|r.:ext@	lot sorts_objets_049
+sort	503321		Name	9cd5d2f352ab	Appel du vent	lot sorts_objets_049
+sort	503322		Description	b18a28c0e25c	Invoque la puissance du vent pour renforcer un joueur allié, lui rendant $s1 points de mana toutes les 5 secondes pendant $d.\r\n\r\n@ext:Does not stack with |cffffffffCall of the Storm|r.:ext@	lot sorts_objets_049
+sort	503322		Name	9cd5d2f352ab	Appel du vent	lot sorts_objets_049
+sort	503323		Description	b18a28c0e25c	Invoque la puissance du vent pour renforcer un joueur allié, lui rendant $s1 points de mana toutes les 5 secondes pendant $d.\r\n\r\n@ext:Does not stack with |cffffffffCall of the Storm|r.:ext@	lot sorts_objets_049
+sort	503323		Name	9cd5d2f352ab	Appel du vent	lot sorts_objets_049
+sort	503784		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	503785		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	503786		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	503787		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	503788		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	503789		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	503790		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	504045		Name	24f6e0d89491	Bâton maléfique	lot sorts_objets_049
+sort	504045		ToolTip	4f9c36023ae8	Compétence en pêche augmentée de ${$w1}.	lot sorts_objets_049
+sort	504234		Description	e81d8e6325e7	Vous transforme en bébé murloc.	lot sorts_objets_049
+sort	504234		ToolTip	c3170861d055	Vous êtes un bébé murloc.	lot sorts_objets_049
+sort	504237		Description	64ef4a3504e3	A une chance de frapper votre cible à distance pour $504236s1 points de dégâts physiques.	lot sorts_objets_049
+sort	504237		Name	3a014434bf5c	Pince sanglante	lot sorts_objets_049
+sort	504238		Description	fb4b42498595	Empoisonne la cible, lui infligeant ${$m1+0} points de dégâts de Nature toutes les $t1 sec pendant $d.	lot sorts_objets_049
+sort	504238		Name	6150a7d56625	Venin de chélicères	lot sorts_objets_049
+sort	504239		Description	8176ec396d81	Frappe une cible pour ${0+$M1} points de dégâts de Nature.	lot sorts_objets_049
+sort	504239		Name	d87e1dcda4fc	Calibrage de la Nature	lot sorts_objets_049
+sort	504574		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	504575		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	504598		Description	d407a4aa32dc	Les dégâts à distance infligés vous rendent un montant de mana égal à $s1% des dégâts infligés pendant $d.	lot sorts_objets_049
+sort	504598		ToolTip	955b860973bb	Les dégâts à distance infligés vous rendent un montant de mana égal à ${$w1}% des dégâts infligés pendant $d.	lot sorts_objets_049
+sort	504608		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	504608		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	504608		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	504663		Description	a46d2bf6b8c7	Vitesse de nage augmentée de $s1% pendant $d.	lot sorts_objets_049
+sort	504663		Name	24f6e0d89491	Bâton maléfique	lot sorts_objets_049
+sort	504663		ToolTip	9c649683ce6b	Vitesse de nage augmentée de ${$w1}%.	lot sorts_objets_049
+sort	504759		Description	770c7de9d262	Dépose une |cffffffffIdole sereine|r près de vous pendant $d.\r\n\r\nLes alliés se trouvant à moins de $500958A1 mètres subissent $504760s3% de retard d'incantation en moins lors des attaques qui infligent des dégâts.	lot sorts_objets_049
+sort	504828		Description	61e1d5900d7d	Vous donne $h% de chances, lorsque vous infligez des dégâts à distance, de drainer la vie de l'ennemi. Ne peut se produire qu'une fois toutes les 10 sec.	lot sorts_objets_049
+sort	504828		Rank	4cb1ec1c00b3	Aura d'arme passive	lot sorts_objets_049
+sort	504849		Description	8ed492affd45	Protège le lanceur par une magie vitale, augmentant de $s1% les soins d'Ombre et de Nature reçus et rendant $804309s1% de ses points de vie maximum toutes les $t2 sec. Dure $d.\r\n\r\n@ext: Only 1 |cffffffffShield|r can be active at a time.:ext@	lot sorts_objets_049
+sort	504849		Name	f2547b3dcb38	Bouclier vital	lot sorts_objets_049
+sort	504849		ToolTip	4051dcfb9843	Augmente de ${$w1}% les soins d'Ombre et de Nature reçus et rend $804309s1% de vos points de vie maximum toutes les $t2 sec.	lot sorts_objets_049
+sort	504859		Description	0e4b29f651ae	Réanime un |cffffffffDémon des cryptes|r pour vous aider au combat, occupant 2 |cffffffffForce vitale|r.\r\n\r\n|cff90ee90Ordre|r : tire des barbelures sur votre cible, infligeant ${$822074m1*$<scalingbp>} points de dégâts de Givre, et qui ricochent sur un ennemi proche.	lot sorts_objets_049
+sort	504859		Name	995a5d0fce3e	Réanimation : Démon des cryptes	lot sorts_objets_049
+sort	504897		Description	950f619fff97	Protège le lanceur par une barrière coagulée, réduisant de 100% le retard d'incantation subi lors des attaques qui infligent des dégâts et réduisant de $s2% la durée des effets d'interruption et de silence. Dure $d.\r\n\r\n@ext: Only 1 |cffffffffShield|r can be active at a time.:ext@	lot sorts_objets_049
+sort	504897		Name	5776fed87770	Bouclier coagulé	lot sorts_objets_049
+sort	504897		ToolTip	722869478ed4	Le retard d'incantation subi lors des attaques qui infligent des dégâts est réduit de 100%, et la durée des effets d'interruption et de silence est réduite de ${$w2}%.	lot sorts_objets_049
+sort	504901		Description	462db91d8890	Réanime un |cffffffffGrand guerrier squelette|r pour vous aider au combat, occupant 1 |cffffffffForce vitale|r.\r\n\r\n|cff90ee90Ordre|r : frappe un ennemi devant lui et inflige les dégâts de l'arme plus ${$570042m2+($SP*.35)*0.39}, réduisant son armure de $570216s1% pendant $570216d, cumulable $570216u fois.	lot sorts_objets_049
+sort	504901		Name	4243e35a29f6	Réanimation : Grand guerrier squelette	lot sorts_objets_049
+sort	504910		Description	f99913612bfa	Raffermit votre résolution, rendant instantanément $s1 points d'Énergie et vous permettant de bloquer de façon critique la prochaine attaque dirigée contre vous. Dure $d.	lot sorts_objets_049
+sort	504910		Name	29ecc5bd697a	Résolution héroïque	lot sorts_objets_049
+sort	504910		ToolTip	adfcb526ee90	Vous bloquerez de façon critique la prochaine attaque dirigée contre vous.	lot sorts_objets_049
+sort	505163		Description	8cc2c6d33ee8	Les dégâts de mêlée infligés vous rendent un montant de points de vie égal à $s1% des dégâts infligés pendant $d.	lot sorts_objets_049
+sort	505163		ToolTip	955b860973bb	Les dégâts à distance infligés vous rendent un montant de mana égal à ${$w1}% des dégâts infligés pendant $d.	lot sorts_objets_049
+sort	505165		Description	a09fce4f7d90	Augmente votre vitesse de déplacement de $s1% pendant $d.	lot sorts_objets_049
+sort	505165		ToolTip	0005ef47809b	Vitesse de déplacement augmentée de ${$w1}%. Tchou ! Tchou !	lot sorts_objets_049
+sort	505181		Description	c2dc78ee36e7	Permet de repérer les bancs de poissons sur votre mini-carte.	lot sorts_objets_049
+sort	505181		Name	24f6e0d89491	Bâton maléfique	lot sorts_objets_049
+sort	505181		ToolTip	c2dc78ee36e7	Permet de repérer les bancs de poissons sur votre mini-carte.	lot sorts_objets_049
+sort	505324		Description	de2a776e3b1b	Les 10 prochaines fois que vous subissez des dégâts, vous récupérez $s1% des dégâts subis en points de vie. Dure $d.	lot sorts_objets_049
+sort	505324		Rank	527600bf0272	Obsolète	lot sorts_objets_049
+sort	505324		ToolTip	7a7835ec4806	Tous les dégâts subis rendent au lanceur $s1% des dégâts infligés en points de vie pendant $d.	lot sorts_objets_049
+sort	505339		Description	be517f5fea2d	Dépose une |cffffffffEffigie de l'Ombre|r près de vous pendant $d.\r\n\r\nLa vitesse d'incantation des ennemis se trouvant à moins de $504761a1 mètres est réduite de $504761s1% et leur vitesse de déplacement de $504761s2%.\r\n\r\n@ext:Can only have 1 |cffffffffEffigy|r active at a time.:ext@	lot sorts_objets_049
+sort	506634		Description	4e0954c16935	Dépose une |cffffffffEffigie maléfique|r près de vous pendant $d.\r\n\r\nLe prochain ennemi qui lance un sort sur vous est transformé en grenouille pendant $504762d. \r\n\r\nTransformé, il ne peut ni se déplacer, ni attaquer, ni lancer de sorts. Les dégâts infligés peuvent interrompre cet effet.\r\n\r\n@ext:Can only have 1 |cffffffffEffigy|r active at a time.:ext@	lot sorts_objets_049
+sort	506635		Description	ab48f0f3126f	Dépose une |cffffffffEffigie gravée|r près de vous pendant $d.\r\n\r\nLa durée des effets de contrôle subis par les ennemis se trouvant à moins de $504761s1 mètres est augmentée de $504767s1%.\r\n\r\n@ext:Can only have 1 |cffffffffEffigy|r active at a time.:ext@	lot sorts_objets_049
+sort	507077		Description	c9bb500c5ace	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_049
+sort	507077		ToolTip	ca3ca5712f34	Puissance des sorts et puissance d'attaque augmentées de ${$w1}.	lot sorts_objets_049
+sort	507080		Description	83e32436a7f4	Augmente de $s1 toutes les résistances magiques.	lot sorts_objets_049
+sort	507081		Description	ba8c8d72d5b7	Les coups critiques avec des dégâts de Feu augmentent désormais de $510003s1% les dégâts critiques de vous-même et de votre familier pendant $510003d, cumulable $510003u fois.	lot sorts_objets_049
+sort	507082		Description	9c35dbd794aa	Dépose une |cffffffffIdole sombre|r près de vous pendant $d.\r\n\r\nLes alliés se trouvant à moins de $505195A1 mètres gagnent $505195s1 de résistance à l'Ombre.	lot sorts_objets_049
+sort	507084		Description	17d342ba2e54	Dépose une |cffffffffIdole de la jungle|r près de vous pendant $d.\r\n\r\nLes alliés se trouvant à moins de $505195A1 mètres gagnent $505195s1 de résistance à la Nature.	lot sorts_objets_049
+sort	510002		Description	9706e4637066	Permet à l'utilisateur de marcher sur l'eau pendant $d.	lot sorts_objets_049
+sort	510002		ToolTip	5c4541775bf1	Peut marcher sur l'eau.	lot sorts_objets_049
+sort	510176		Name	89e20a21d9cc	Bionique de force	lot sorts_objets_049
+sort	510176		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	510236		Description	2fbb8db48cdb	Arrête le fil du temps de vos ennemis, interrompant leur incantation pendant $d.\r\n\r\nInterrompre un ennemi avec succès le réduit en outre au silence pendant $510237d.	lot sorts_objets_049
+sort	510236		Name	9acefc3dae32	Magie effilochée	lot sorts_objets_049
+sort	512352		Description	91fab5a7c0c6	Révèle ceux qui ne devraient pas l'être.	lot sorts_objets_049
+sort	520175		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520175		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520702		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520702		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520703		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520703		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520704		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520704		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520705		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520705		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520706		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520706		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520707		Description	325878a4df76	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort est assuré d'infliger un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère 1 |cffffffffFragment d'écho|r.][]	lot sorts_objets_049
+sort	520707		Name	1eb3aad102aa	Baguette du temps	lot sorts_objets_049
+sort	520751		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	561260		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	561261		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	561262		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	561263		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	570232		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	570232		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	570233		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, infligeant $s2% des dégâts de l'arme plus ${$m1+0} et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points en plus.	lot sorts_objets_049
+sort	570233		Name	8251328f658e	Fente vertueuse	lot sorts_objets_049
+sort	572214		ToolTip	b4f46c69249e	Inflige ${$w1} points de dégâts de Givre aux attaquants.	lot sorts_objets_049
+sort	572633		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	572634		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	572635		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	572892		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	572893		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	572894		Name	c7b786901177	Toucher de braise	lot sorts_objets_049
+sort	573049		Description	061ce6b52f8d	Fend les ennemis, infligeant $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et conférant un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_objets_049
+sort	573268		Name	f33db8477528	Lance-roquettes	lot sorts_objets_049
+sort	573333		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	573334		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	573335		Name	0efd0e799ff7	Trait de venin	lot sorts_objets_049
+sort	574340		Description	4b9ecc906072	Joue la |cffffffffBallade du conquérant|r, infligeant instantanément ${$m1+0+$AP*0.29988} points de dégâts magiques à un ennemi, en ignorant les résistances.	lot sorts_objets_049
+sort	574344		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	574345		Description	d517b0d6a61c	Défait un ennemi, lui infligeant ${$m1+0+$SP*0.12+($d*1000/$t1)*($m1+0+$SP*0.12)} points de dégâts chromatiques en $d.	lot sorts_objets_049
+sort	575836		ToolTip	62b3522882ce	Saigne : ${$w1} points de dégâts physiques toutes les $t1 sec.	lot sorts_objets_049
+sort	800227		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot sorts_objets_049
+sort	801270		Description	fe1e6b217c94	Soigne un allié grâce à la magie que vous a conférée le Vol draconique de bronze, lui rendant ${($m1+0+$SP*0.5)*((100+$887010ppl3)/100)} points de vie et vous accordant |cffffffffSables du temps|r.@s:804488:0@	lot sorts_objets_049
+sort	801693		Description	cfa1ab2d6f8f	Maudit un ennemi, lui infligeant ${$m2+$sps*0.08+$RAP*.1} points de dégâts d'Ombre, puis $o1 points de dégâts d'Ombre supplémentaires en $d.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_049
+sort	801693		Name	050162418876	Maléfice de malveillance	lot sorts_objets_049
+sort	801693		ToolTip	f09654a018bc	Subit ${$w1} points de dégâts d'Ombre toutes les $t1 sec.$?s706540[ Augmente de $706540s1% tous les dégâts magiques subis par le Féticheur.][]	lot sorts_objets_049
+sort	802601		ToolTip	4f9c36023ae8	Compétence en pêche augmentée de ${$w1}.	lot sorts_objets_049
+sort	804018		Description	b18a28c0e25c	Invoque la puissance du vent pour renforcer un joueur allié, lui rendant $s1 points de mana toutes les 5 secondes pendant $d.\r\n\r\n@ext:Does not stack with |cffffffffCall of the Storm|r.:ext@	lot sorts_objets_049
+sort	804018		Name	9cd5d2f352ab	Appel du vent	lot sorts_objets_049
+sort	979602		Name	b5fb136761d6	Livre de l'Ascension	lot sorts_objets_049
+sort	1108459		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	1108463		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049
+sort	1108493		ToolTip	004561bc3356	Augmente de ${$w1} au maximum les dégâts magiques subis et de ${$w2} au maximum les soins.	lot sorts_objets_049

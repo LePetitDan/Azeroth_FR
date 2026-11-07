@@ -315,7 +315,8 @@ local INDICE_MAJ = "Hold SHIFT for more information"
 
 -- Traduit un texte de sort affiche. en : le modele anglais (texte), ou l'empreinte de sa forme
 -- plate (nombre) quand il n'a ni variable ni nombre. Renvoie le francais, ou nil.
-TexteSort = function(fr, en, affiche)
+local TexteSortSimple
+TexteSortSimple = function(fr, en, affiche)
     if type(fr) ~= "string" or type(affiche) ~= "string" or affiche == "" then return nil end
     if type(en) == "number" then
         if A.H1(A.Plat(affiche)) == en and not find(fr, "%$") then return fr end
@@ -352,6 +353,71 @@ TexteSort = function(fr, en, affiche)
     r = gsub(r, "[Tt]outes les 1 secondes", "toutes les secondes")
     r = gsub(r, "[Tt]outes les 1 sec%f[%A]%.?", "toutes les secondes")
     return r .. indice
+end
+
+-- 0.9.1 (essai 8, talent « Storm Chaser ») : conditionnelles COLLEES (« next $?a|b[][Call Lightning]$?a[Aeroblast][]
+-- $?b[Torrential Wrath][] by ») : rien ne les separe, le decoupage du texte affiche entre elles est arbitraire et
+-- l'alignement echouait. Repli : on developpe les conditionnelles du haut (chaque condition, vraie ou fausse, prend
+-- la meme branche en anglais et en francais), puis on aligne chaque variante ; le francais n'est garde que si toutes
+-- les variantes qui collent au texte affiche donnent le meme.
+local function Conditionnelles(modele)
+    local out, pos = {}, 1
+    while true do
+        local d, e = find(modele, "%$%?[^%[%]%$]*%[", pos)
+        if not d then break end
+        local b1d, b1f = find(modele, "%b[]", e)
+        if b1d ~= e then return nil end
+        local c = { d = d, pre = sub(modele, d, e - 1), oui = sub(modele, b1d + 1, b1f - 1), non = "", f = b1f }
+        local suite = sub(modele, b1f + 1, b1f + 1)
+        if suite == "[" then
+            local b2d, b2f = find(modele, "%b[]", b1f + 1)
+            if b2d ~= b1f + 1 then return nil end
+            c.non, c.f = sub(modele, b2d + 1, b2f - 1), b2f
+            suite = sub(modele, b2f + 1, b2f + 1)
+        end
+        if suite == "?" then return nil end          -- chaine « $?a[x]?b[y][z] » : non geree
+        out[#out + 1] = c
+        pos = c.f + 1
+    end
+    return out
+end
+
+local function Developper(modele, cs, choix)
+    local out, pos = {}, 1
+    for _, c in ipairs(cs) do
+        out[#out + 1] = sub(modele, pos, c.d - 1)
+        out[#out + 1] = choix[c.pre] and c.oui or c.non
+        pos = c.f + 1
+    end
+    out[#out + 1] = sub(modele, pos)
+    return table.concat(out)
+end
+
+TexteSort = function(fr, en, affiche)
+    local r = TexteSortSimple(fr, en, affiche)
+    if r or type(en) ~= "string" or type(fr) ~= "string" or not find(en, "$?", 1, true) then return r end
+    local ce, cf = Conditionnelles(en), Conditionnelles(fr)
+    if not ce or not cf or #ce < 2 then return nil end
+    local collees = false
+    for k = 2, #ce do if ce[k].d == ce[k - 1].f + 1 then collees = true end end
+    if not collees then return nil end             -- seulement des conditionnelles collees (le cas qui echouait)
+    local pres, vu = {}, {}
+    for _, c in ipairs(ce) do
+        if not vu[c.pre] then vu[c.pre] = true; pres[#pres + 1] = c.pre end
+    end
+    for _, c in ipairs(cf) do if not vu[c.pre] then return nil end end
+    if #pres > 5 then return nil end
+    local trouve
+    for masque = 0, 2 ^ #pres - 1 do
+        local choix = {}
+        for k, p in ipairs(pres) do choix[p] = math.floor(masque / 2 ^ (k - 1)) % 2 == 1 end
+        local v = TexteSort(Developper(fr, cf, choix), Developper(en, ce, choix), affiche)
+        if v then
+            if trouve and trouve ~= v then return nil end
+            trouve = v
+        end
+    end
+    return trouve
 end
 A.TexteSort = TexteSort
 
@@ -436,15 +502,15 @@ function A.TraduireBulleSort(bulle, id)
         local fr = RangSort(s, tr)
         if fr and fr ~= tr then A.Ecrire(r1, fr); modifie = true end
     end
-    -- 0.9 : « Requires Cat Form », « Requires Anvil » (formes, objets de focalisation, outils), pour tous les sorts
-    if A.LigneRequiert then
-        for i = 2, bulle:NumLines() do
-            local l = Ligne(bulle, i)
-            local t = l and l:GetText()
-            if t and len(t) <= 80 and not A.DejaEcrit(l, t) then
-                local fr = A.LigneRequiert(t)
-                if fr and fr ~= t then A.Ecrire(l, fr); modifie = true end
-            end
+    -- 0.9 : « Requires Cat Form », « Requires Anvil » (formes, objets de focalisation, outils), pour tous les sorts ;
+    -- essai 8 : les bulles de talents de CoA ajoutent sous le sort ceux qu'il cite (« Thunder Grip » et sa
+    -- description) : chaque ligne encore en anglais est essayée comme nom de sort ou description de sort
+    for i = 2, bulle:NumLines() do
+        local l = Ligne(bulle, i)
+        local t = l and l:GetText()
+        if t and t ~= "" and not A.DejaEcrit(l, t) then
+            local fr = (len(t) <= 80 and A.LigneRequiert and A.LigneRequiert(t)) or A.LigneSortLibre(t)
+            if fr and fr ~= t then A.Ecrire(l, fr); modifie = true end
         end
     end
     if type(s) ~= "table" then
@@ -647,6 +713,32 @@ function A.TrouverCorpsEffet(corps, idObjet)
     return nil, nil, complet and not A.EnCombat()
 end
 
+-- Essai 8 : une ligne seule, sans numéro de sort : un nom de sort (tous les sorts de ce nom ont le même français)
+-- ou la description d'un sort retrouvé par son texte (alignement prouvé, comme les lignes « Utiliser : »)
+function A.LigneSortLibre(t)
+    if type(t) ~= "string" or t == "" or not find(t, "%a") then return nil end
+    local e1, coeur, e2 = A.Enrobage(t)
+    if not coeur or coeur == "" then return nil end
+    local fr
+    if len(coeur) <= 60 and not find(coeur, "[%.%%]") and A.NomSortParNom then
+        fr = A.NomSortParNom(coeur)
+    end
+    if not fr and len(coeur) >= 20 then fr = A.TraduireCorpsEffet(coeur, nil) end
+    return fr and fr ~= coeur and (e1 .. fr .. e2) or nil
+end
+
+-- Essai 8 : le client ajoute le temps de recharge AU BOUT de la ligne « Utiliser : » (« … location. (30 min de
+-- recharge) », gabarit ITEM_COOLDOWN_TOTAL, deja en francais par PTRXML) : on le met de cote pour retrouver le sort,
+-- puis on le remet tel quel. Seulement une parenthese finale qui contient « recharge » ou « Cooldown ».
+function A.SeparerRecharge(corps)
+    if type(corps) ~= "string" then return corps, "" end
+    local avant, paren = match(corps, "^(.-)(%s*%b())%s*$")
+    if avant and avant ~= "" and (find(paren, "recharge", 1, true) or find(paren, "Cooldown", 1, true)) then
+        return avant, paren
+    end
+    return corps, ""
+end
+
 -- Lignes d'effets : « Use: … », « Equip: … », « Chance on hit: … », et les lignes de statistiques que le
 -- client montre SANS prefixe (CoA : « Increases PvE Power by 38. », sorts 101600-101799) : le sort dont le
 -- texte anglais a la meme forme, verifie par l'alignement (jamais un francais sans l'anglais prouve).
@@ -661,7 +753,7 @@ function A.TraduireEffetsObjet(bulle, idObjet, cachees)
             for _, p in ipairs(Prefixes()) do
                 if sub(t, 1, len(p.m)) == p.m then
                     vu = true
-                    local corps = sub(t, len(p.m) + 1)
+                    local corps, recharge = A.SeparerRecharge(sub(t, len(p.m) + 1))
                     local fr = A.TraduireCorpsEffet(corps, idObjet)
                     -- 0.8 (essai 7 n° 16) : CoA met parfois la DESCRIPTION de l'objet derriere « Use: » (« Teaches you
                     -- how to summon this mount. This is a Ground mount. ») : meme empreinte que la description traduite.
@@ -672,7 +764,7 @@ function A.TraduireEffetsObjet(bulle, idObjet, cachees)
                             fr = (match(corps, "^(%s*)") or "") .. o[3]
                         end
                     end
-                    if fr then A.Ecrire(l, p.f .. fr); modifie = true end
+                    if fr then A.Ecrire(l, p.f .. fr .. recharge); modifie = true end
                     break
                 end
             end

@@ -1,5 +1,8 @@
 type	id	sous_id	champ	en	en_empreinte	fr	etat	source	note
+sort	1		Name	UPDATE YOUR CLIENT!	9441e1b31eec	Mot de rappel (OLD)	a_revoir	blizzard_frFR	Spell.dbc de CoA (patch-T) ; sort standard | anglais modifié par CoA : le français officiel traduit l'anglais Blizzard « Word of Recall (OLD) »
 sort	1		Rank	Test Spell	1c83d7d2b637		technique		Spell.dbc de CoA (patch-T) ; sort standard | technique=sort de test ou interne
+sort	1		Description	UPDATE YOUR CLIENT!	9441e1b31eec		a_traduire		Spell.dbc de CoA (patch-T) ; sort standard | texte ajouté par CoA à un sort standard
+sort	1		ToolTip	UPDATE YOUR CLIENT!	9441e1b31eec		a_traduire		Spell.dbc de CoA (patch-T) ; sort standard | texte ajouté par CoA à un sort standard
 sort	3		Name	Word of Mass Recall (OLD)	fa3810132da2	Mot de rappel (groupe) (OLD)	officiel	blizzard_frFR	Spell.dbc de CoA (patch-T) ; sort standard | Spell.dbc frFR officiel (patch-frFR-3, client 3.3.5a) : anglais de patch-T identique à celui de Blizzard (patch-enUS-3) au même numéro
 sort	4		Name	Strength	24d3e4fdd9a8	Force	machine	claude	Spell.dbc de CoA (patch-T) ; sort standard | anglais modifié par CoA : le français officiel traduit l'anglais Blizzard « Word of Recall Other » | traduction de Claude (traductions/sorts_standard/sorts_standard_001.tsv) | lot sorts_standard_001 | ancienne proposition (a_revoir) : « Mot de rappel (autre) »
 sort	4		Description	Grants you strength.	99bf9cd0e88f	Vous confère de la force.	machine	claude	Spell.dbc de CoA (patch-T) ; sort standard | texte ajouté par CoA à un sort standard | traduction de Claude (traductions/sorts_standard/sorts_standard_001.tsv) | lot sorts_standard_001

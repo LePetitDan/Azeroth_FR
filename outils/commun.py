@@ -105,6 +105,12 @@ FAMILLES = [
       'objet_focalisation', 'categorie_totem', 'forme', 'style_coiffure', 'categorie_limite_objet'),
      "Client : difficultés, recherche de groupe, champs de bataille, états du monde, émotes, objets de focalisation, "
      "totems, formes, salon de coiffure, catégories d'objets limités"),
+    # essai 8 (07/11/2026) : sorts que les objets déclenchent (lignes « Utiliser : ») et auras des Épreuves, absents
+    # des autres familles de sorts ; collection de vanité
+    ('sorts_objets', 'client/sorts_objets.tsv', ('sort',),
+     "Client CoA : sorts déclenchés par les objets (« Utiliser : … ») et auras des Épreuves, Spell.dbc de CoA (patch-T)"),
+    ('vanite', 'client/vanite.tsv', ('coa_vanite', 'coa_vanite_objet'),
+     "Client CoA : collection de vanité (provenance des objets, noms des objets de la collection)"),
     ('noms_client', 'client/noms_client.tsv',
      ('titre', 'fete', 'fete_description', 'categorie_quete', 'famille_creature', 'propriete_aleatoire'),
      "Client : titres, fêtes du calendrier, catégories de quêtes, familles de créatures, suffixes « of the Bear » "

@@ -59,7 +59,10 @@ def spell_dbc(path):
     S = d[base + n * rs: base + n * rs + ss]
 
     def s(o):
-        if o <= 0 or o >= len(S):
+        # 0.9.1 (07/11/2026) : les DBC réécrits par CoA (patch-M, patch-S, patch-T) commencent leur bloc de textes par un
+        # VRAI texte (pas par un octet nul) : l'adresse 0 est alors un texte (« Dun Morogh », « Warrior », « Getting Started »),
+        # et non le texte vide. Dans un DBC de Blizzard, le bloc commence par un octet nul : l'adresse 0 reste le texte vide.
+        if o < 0 or o >= len(S):
             return ""
         return S[o:S.index(b"\0", o)].decode("utf-8", "replace")
     out = {}

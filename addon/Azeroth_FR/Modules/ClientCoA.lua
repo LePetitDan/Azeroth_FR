@@ -79,10 +79,35 @@ function A.TexteClient(texte)
     return ParGabarit(texte)
 end
 
+-- Essai 8 : les textes des tutoriels arrivent du client avec les mots-clés en liens colorés (« |cff00ccff|Hkeyword:…|h
+-- Inn|h|r ») et en capitale (« inside an inn » devient « inside an Inn ») : on compare sans liens ni couleurs, en
+-- minuscules (forme ajoutée à XT par la fabrique pour les tutoriels, mots-clés et objectifs).
+local lower = string.lower
+local function FormeTutoriel(t)
+    t = gsub(t, "|c%x%x%x%x%x%x%x%x", "")
+    t = gsub(t, "|r", "")
+    t = gsub(t, "|H.-|h%[?(.-)%]?|h", "%1")
+    return lower(t)
+end
+function A.TexteTutoriel(texte)
+    if type(texte) ~= "string" or texte == "" then return nil end
+    local fr = A.TexteClient(texte)
+    if fr then return fr end
+    local xt = A.TableDe("client", "XT")
+    return xt and A.Traduire(xt, FormeTutoriel(texte))
+end
+
 -- Une zone de texte : son francais si son texte entier est connu (textes du client), ou si c'est EXACTEMENT un nom
 -- connu d'un des domaines donnes (zones, factions, competences…), espaces de bord gardes.
 local function NomConnu(t, domaines)
     if not domaines then return nil end
+    -- essai 8 : « |cffa335ee[Book of Artisans]|r » (collection de vanité) : couleur et crochets gardés
+    local c1, dedans, c2 = match(t, "^(|c%x%x%x%x%x%x%x%x%[)(.-)(%]|r)$")
+    if not c1 then c1, dedans, c2 = match(t, "^(%[)(.-)(%])$") end
+    if c1 then
+        local fr = NomConnu(dedans, domaines)
+        return fr and (c1 .. fr .. c2)
+    end
     local avant, coeur, apres = match(t, "^(%s*)(.-)(%s*)$")
     if not coeur or coeur == "" or #coeur > 120 then return nil end
     for i = 1, #domaines do
@@ -98,6 +123,25 @@ local function NomConnu(t, domaines)
     return nil
 end
 
+-- Essai 8 : une zone à plusieurs lignes (liste des tutoriels à suivre pour devenir mentor) : ligne par ligne
+local function ParLignes(t, domaines)
+    if not find(t, "\n", 1, true) then return nil end
+    local out, change = {}, false
+    for ligne in string.gmatch(t .. "\n", "(.-)\n") do
+        local fr = (ligne ~= "" and (A.TexteTutoriel(ligne) or NomConnu(ligne, domaines))) or nil
+        if fr and fr ~= ligne then change = true end
+        out[#out + 1] = fr or ligne
+    end
+    return change and table.concat(out, "\n") or nil
+end
+
+-- Essai 8 : « Getting Started 0 (5) / 8 » : un nom connu suivi de nombres
+local function NomEtNombres(t)
+    local nom, reste = match(t, "^(.-%a)(%s[%d%s%(%)/:%%%.]+)$")
+    local fr = nom and A.TexteClient(nom)
+    return fr and (fr .. reste)
+end
+
 local function Zone(zone, domaines)
     if not zone or type(zone.GetText) ~= "function" then return false end
     local t = zone:GetText()
@@ -109,7 +153,7 @@ local function Zone(zone, domaines)
         if avant ~= "" and sub(fr, 1, #avant) ~= avant then fr = avant .. fr end
         if apres ~= "" and apres ~= t and sub(fr, -#apres) ~= apres then fr = fr .. apres end
     else
-        fr = NomConnu(t, domaines)
+        fr = NomConnu(t, domaines) or ParLignes(t, domaines) or NomEtNombres(t)
     end
     if fr and fr ~= t then
         A.Ecrire(zone, fr)
@@ -126,7 +170,7 @@ local LIEUX = { "zone", "donjon" }
 local PERSONNES = { "zone", "classe", "race" }
 local RACINES = {
     -- CoA
-    { "ChallengesFrame" }, { "PathToAscensionFrame" }, { "Collections" }, { "ManastormObjectiveTracker" },
+    { "ChallengesFrame" }, { "PathToAscensionFrame" }, { "Collections", { "vanite" } }, { "ManastormObjectiveTracker" },
     { "MythicPlusObjectiveTracker" }, { "SocketKeystoneFrame" }, { "DraftHelpFrame" }, { "HelpMenuFrame" },
     -- Blizzard, nourries par les tables du client ou par des noms deja traduits
     { "LFDParentFrame", LIEUX }, { "LFRParentFrame", LIEUX }, { "PVPBattlegroundFrame", LIEUX }, { "BattlefieldFrame", LIEUX },
@@ -137,6 +181,8 @@ local RACINES = {
     { "ReputationFrame", { "faction" } }, { "ReputationDetailFrame", { "faction" } }, { "SkillFrame", { "competence" } },
     { "TaxiFrame", LIEUX }, { "FriendsFrame", PERSONNES }, { "WhoFrame", PERSONNES }, { "GuildFrame", PERSONNES },
     { "RaidInfoFrame", LIEUX }, { "TradeSkillFrame", { "competence", "sort" } }, { "CraftFrame", { "competence", "sort" } },
+    -- essai 8 : barres d'incantation (« Looting »), en secours du crochet plus bas
+    { "CastingBarFrame", { "sort" } }, { "TargetFrameSpellBar", { "sort" } }, { "FocusFrameSpellBar", { "sort" } },
 }
 local LIMITE = 4000           -- zones de texte lues au plus par passe et par fenetre
 
@@ -183,7 +229,7 @@ end, true))
 -- ----------------------------------------------------------------------------
 local function ApresTutoriel(self)
     if not A.ModuleActif("client") or type(self) ~= "table" or type(self.description) ~= "string" then return end
-    local fr = A.TexteClient(self.description)
+    local fr = A.TexteTutoriel(self.description)
     if not fr or fr == self.description or type(self.SplitPages) ~= "function" then return end
     local page = self.page or 1
     self.description = fr
@@ -194,13 +240,60 @@ local function ApresTutoriel(self)
     if type(self.RefreshDisplay) == "function" then self:RefreshDisplay() end
 end
 
-local tutoriel_branche = false
+-- Objectifs d'un tutoriel (PathObjectiveQuestObjectivesMixin:UpdateObjectives) : « • nom » par objectif, posé par
+-- SetDynamicText ; on le repose en français juste après (la hauteur est calculée ensuite par RefreshDisplay)
+local function ApresObjectifs(self)
+    if not A.ModuleActif("client") or type(self) ~= "table" or not self.tutorialID or not self.ObjectiveText then return end
+    if type(C_Tutorial) ~= "table" or type(C_Tutorial.GetObjectives) ~= "function" then return end
+    local ok, liste = pcall(C_Tutorial.GetObjectives, self.tutorialID)
+    if not ok or type(liste) ~= "table" then return end
+    local out, change = {}, false
+    for _, idObj in ipairs(liste) do
+        local ok2, nom = pcall(C_Tutorial.GetObjectiveInfo, idObj)
+        nom = ok2 and nom or ""
+        local fr = A.TexteTutoriel(nom)
+        if fr and fr ~= nom then change = true end
+        out[#out + 1] = "• " .. (fr or nom)
+    end
+    if change and type(self.ObjectiveText.SetDynamicText) == "function" then
+        self.ObjectiveText:SetDynamicText(table.concat(out, "\n"))
+    end
+end
+
+-- Annexe des mots-clés (PathAppendixPanelMixin:OnKeywordSelected) : description reprise du client, images ôtées
+-- comme le fait CoA, puis remplacée par son français
+local function ApresAnnexe(self, index)
+    if not A.ModuleActif("client") or type(self) ~= "table" or not self.Display then return end
+    if self.Display.Title then Zone(self.Display.Title) end
+    if type(C_Tutorial) ~= "table" or type(C_Tutorial.GetKeywordAtIndex) ~= "function" then return end
+    local ok, _, texte = pcall(C_Tutorial.GetKeywordAtIndex, index)
+    if not ok or type(texte) ~= "string" then return end
+    local fr = A.TexteTutoriel(texte)
+    if not fr or fr == texte or not self.Display.Description then return end
+    fr = gsub(fr, "{[^}]+}", "")
+    fr = gsub(fr, "^[\r\n]+", "")
+    fr = match(fr, "^%s*(.-)%s*$") or fr
+    self.Display.Description:SetText(fr)
+end
+
+local tutoriel_branche, objectifs_branche, annexe_branche = false, false, false
 local function BrancherTutoriels()
-    if tutoriel_branche then return end
-    local d = PathToAscensionFrame and PathToAscensionFrame.Display
-    if type(d) == "table" and type(d.SetTutorial) == "function" then
+    local f = PathToAscensionFrame
+    if type(f) ~= "table" then return end
+    local d = f.Display
+    if not tutoriel_branche and type(d) == "table" and type(d.SetTutorial) == "function" then
         hooksecurefunc(d, "SetTutorial", P("PathObjectiveDisplay.SetTutorial", ApresTutoriel))
         tutoriel_branche = true
+    end
+    local q = type(d) == "table" and d.QuestObjectives
+    if not objectifs_branche and type(q) == "table" and type(q.UpdateObjectives) == "function" then
+        hooksecurefunc(q, "UpdateObjectives", P("PathObjectiveQuestObjectives.UpdateObjectives", ApresObjectifs))
+        objectifs_branche = true
+    end
+    local a = f.AppendixPanel
+    if not annexe_branche and type(a) == "table" and type(a.OnKeywordSelected) == "function" then
+        hooksecurefunc(a, "OnKeywordSelected", P("PathAppendixPanel.OnKeywordSelected", ApresAnnexe))
+        annexe_branche = true
     end
 end
 
@@ -213,7 +306,7 @@ local function ApresMotCle(self)
     if type(C_Tutorial) ~= "table" or type(C_Tutorial.GetKeywordInfo) ~= "function" or not self.keyword then return end
     local ok, _, texte = pcall(C_Tutorial.GetKeywordInfo, self.keyword)
     if not ok or type(texte) ~= "string" then return end
-    local fr = A.TexteClient(texte)
+    local fr = A.TexteTutoriel(texte)
     if not fr or fr == texte or type(self.FormatLine) ~= "function" or not self.TextPool or not self.ImagePool then return end
     self.TextPool:ReleaseAll()
     self.ImagePool:ReleaseAll()
@@ -289,12 +382,37 @@ local function SurBulle(bulle)
     local nom = bulle:GetName()
     if not nom then return end
     for i = 1, bulle:NumLines() do
-        Zone(_G[nom .. "TextLeft" .. i])
+        local g = _G[nom .. "TextLeft" .. i]
+        if not Zone(g) and g and A.LigneSortLibre then
+            -- essai 8 : bulles de CoA qui montrent des sorts sans être des bulles de sort (« Teaches you … », talents)
+            local t = g:GetText()
+            if t and t ~= "" and not A.DejaEcrit(g, t) then
+                local fr = A.LigneSortLibre(t)
+                if fr and fr ~= t then A.Ecrire(g, fr) end
+            end
+        end
         Zone(_G[nom .. "TextRight" .. i])
     end
 end
 if GameTooltip and GameTooltip.HookScript then
     GameTooltip:HookScript("OnShow", P("ClientCoA.GameTooltip.OnShow", SurBulle))
+    -- essai 8 : les bulles des Épreuves sont remplies APRÈS l'affichage (SetText affiche, AddLine ajoute, puis
+    -- Show() redimensionne) : on repasse à chaque Show()
+    if hooksecurefunc then hooksecurefunc(GameTooltip, "Show", P("ClientCoA.GameTooltip.Show", SurBulle)) end
+end
+
+-- ----------------------------------------------------------------------------
+-- Barres d'incantation (essai 8 : « Looting ») : nom du sort, par son nom (tous les sorts de ce nom ont le même
+-- français)
+-- ----------------------------------------------------------------------------
+local function ApresIncantation(self)
+    if not A.ModuleActif("client") or type(self) ~= "table" or type(self.GetName) ~= "function" then return end
+    local nom = self:GetName()
+    local zone = (nom and _G[nom .. "Text"]) or self.Text or self.text
+    if zone then Zone(zone, { "sort" }) end
+end
+if hooksecurefunc and type(CastingBarFrame_OnEvent) == "function" then
+    hooksecurefunc("CastingBarFrame_OnEvent", P("CastingBarFrame_OnEvent", ApresIncantation))
 end
 
 -- ----------------------------------------------------------------------------

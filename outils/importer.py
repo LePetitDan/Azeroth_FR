@@ -716,6 +716,123 @@ class Importeur:
             self.cr['client_sorts_interface_' + k] = v
         K.journal('import : sorts cités par l\'interface du client : %s' % dict(n))
 
+    TECHNIQUE_NOM_SORT = re.compile(r'^(?:Dummy|DND|DNT|zz|QA|TEST|Test)\b|\[(?:DND|DNT|PH|NYI)\]|\b(?:DEPRECATED|UNUSED)\b')
+
+    def importer_sorts_objets(self):
+        """Essai 8 (07/11/2026) : sorts du Spell.dbc de CoA (patch-T) que les objets déclenchent (lignes « Utiliser : »
+        de l'infobulle : collecte/donnees/coa-core/sorts_objets.csv.xz), auras des Épreuves (sorts_epreuves.csv.xz) et
+        sorts appris (rangs 2 et plus des sorts de classe, sorts des maîtres : sorts_appris.csv.xz), absents des autres
+        familles. Anglais de Blizzard identique : son français officiel ; sinon à traduire."""
+        obj, ep = {}, {}
+        for r in lire_csv_xz('coa-core', 'sorts_objets.csv.xz'):
+            obj[r['sort']] = (r['objets'], r['exemple'])
+        for r in lire_csv_xz('coa-core', 'sorts_epreuves.csv.xz'):
+            ep[r['sort']] = r['epreuves']
+        appris = {r['sort']: r['quoi'] for r in lire_csv_xz('coa-core', 'sorts_appris.csv.xz')}
+        # sorts relevés pendant les essais (barre d'incantation…) : collecte/donnees/client/sorts_vus_en_jeu.tsv
+        p = os.path.join(K.COLLECTE, 'client', 'sorts_vus_en_jeu.tsv')
+        if os.path.exists(p):
+            with open(p, encoding='utf-8') as f:
+                for ligne in list(f)[1:]:
+                    c = ligne.rstrip('\n').split('\t')
+                    if c and c[0].isdigit():
+                        appris.setdefault(c[0], c[1] if len(c) > 1 else 'vu en jeu')
+        deja = {k[1] for k in self.lignes if k[0] == 'sort'}
+        n = Counter()
+        for (i, champ), en in sorted(self.coa_sorts.items(), key=lambda x: (int(x[0][0]), x[0][1])):
+            if (i not in obj and i not in ep and i not in appris) or i in deja \
+                    or champ not in ('Name', 'Rank', 'Description', 'ToolTip') or not en.strip():
+                continue
+            quoi = []
+            if i in appris:
+                quoi.append(appris[i])
+            if i in obj:
+                quoi.append('déclenché par %s objet(s), dont le n° %s' % obj[i])
+            if i in ep:
+                quoi.append('aura des Épreuves n° %s' % ep[i])
+            note = 'Spell.dbc de CoA (patch-T) ; sort %s' % ' ; '.join(quoi)
+            off = self.off_sorts.get((i, champ))
+            if off and off[0] == en and off[1] and not self.controle(en, off[1], 'officiel', 'sort'):
+                l = ['sort', i, '', champ, en, K.empreinte(en), off[1], 'officiel', 'blizzard_frFR',
+                     joindre(note, 'Spell.dbc frFR officiel : anglais identique')]
+            elif champ == 'Name' and self.TECHNIQUE_NOM_SORT.search(en):
+                l = ['sort', i, '', champ, en, K.empreinte(en), '', 'technique', '',
+                     joindre(note, 'technique=nom interne (Dummy, DND…) ; l\'infobulle de l\'objet montre la description')]
+            else:
+                l = ['sort', i, '', champ, en, K.empreinte(en), '', 'a_traduire', 'coa_client', note]
+            self.ajouter(l, 'sorts_objets')
+            n[l[K.I_ETAT]] += 1
+        for k, v in n.items():
+            self.cr['client_sorts_objets_' + k] = v
+        K.journal('import : sorts des objets et auras des Épreuves : %s' % dict(n))
+
+    def reprise_meme_anglais(self):
+        """Essai 8 : une ligne de sorts_objets encore à traduire dont l'anglais exact (même champ) a déjà UN SEUL
+        français affichable dans un autre sort (ou, pour un nom, dans un autre nom : objet, créature…) prend ce français
+        (état machine, source reprise_meme_anglais). Évite de faire retraduire 40 % des textes."""
+        TYPES_SORT = ('sort', 'coa_description_sort_client', 'sort_dbc_serveur')
+        par, par_off = defaultdict(set), defaultdict(set)
+        for l in self.lignes.values():
+            if not l[K.I_FR] or l[K.I_ETAT] not in ('officiel', 'relu', 'machine'):
+                continue
+            c = l[K.I_CHAMP]
+            cles = []
+            if l[K.I_TYPE] in TYPES_SORT:
+                cles.append((c, l[K.I_EN]))
+            if c in ('name', 'Name'):
+                cles.append(('Name', l[K.I_EN]))
+            for cl in cles:
+                par[cl].add(l[K.I_FR])
+                if l[K.I_ETAT] in ('officiel', 'relu'):
+                    par_off[cl].add(l[K.I_FR].replace('’', "'"))
+        n = Counter()
+        for k, l in self.lignes.items():
+            if self.famille.get(k) != 'sorts_objets' or l[K.I_ETAT] != 'a_traduire':
+                continue
+            # 0.9.1 : un seul français officiel (ou relu) l'emporte sur les traductions machine du même anglais
+            # (« Call Lightning », rangs 2 à 12 : l'officiel « Appel d'éclair » et une ancienne traduction machine que
+            # harmoniser_officiel ne remplace qu'ensuite)
+            frs = par_off.get((l[K.I_CHAMP], l[K.I_EN]), set())
+            if len(frs) != 1:
+                frs = par.get((l[K.I_CHAMP], l[K.I_EN]), set())
+            if len(frs) != 1:
+                n['sans' if not frs else 'plusieurs'] += 1
+                continue
+            fr = next(iter(frs))
+            if self.controle(l[K.I_EN], fr, 'machine', l[K.I_TYPE], k[1]):
+                n['refus'] += 1
+                continue
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'machine', 'reprise_meme_anglais'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'même anglais qu\'un texte déjà traduit : son français')
+            n['repris'] += 1
+        self.cr.update({'reprise_meme_anglais:' + a: b for a, b in n.items()})
+        K.journal('import : sorts des objets, reprise du même anglais : %s' % dict(n))
+
+    def noms_vanite(self):
+        """Essai 8 : noms des objets de la collection de vanité (la fenêtre les écrit entre crochets, ou en
+        majuscules) : une ligne coa_vanite_objet par objet, avec le nom et le français de l'objet."""
+        p = os.path.join(K.COLLECTE, 'client', 'vanite_objets.tsv')
+        if not os.path.exists(p):
+            return
+        with open(p, encoding='utf-8') as f:
+            objets = sorted({c.split('\t')[1].strip() for c in list(f)[1:] if c.strip()}, key=int)
+        n = Counter()
+        for o in objets:
+            src = self.lignes.get(('objet', o, '', 'name'))
+            if not src or not src[K.I_EN].strip():
+                n['objet_absent'] += 1
+                continue
+            ok = src[K.I_FR] and src[K.I_ETAT] in ('officiel', 'relu', 'machine')
+            l = ['coa_vanite_objet', o, '', 'name', src[K.I_EN], K.empreinte(src[K.I_EN]),
+                 src[K.I_FR] if ok else '', ('officiel' if src[K.I_ETAT] == 'officiel' else 'machine') if ok else 'a_traduire',
+                 'nom_objet_meme_anglais' if ok else '', 'nom de l\'objet n° %s (collection de vanité)' % o]
+            if ok and self.controle(l[K.I_EN], l[K.I_FR], l[K.I_ETAT], l[K.I_TYPE], o):
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = '', 'a_traduire', ''
+            self.ajouter(l, 'vanite')
+            n[l[K.I_ETAT]] += 1
+        self.cr.update({'noms_vanite:' + a: b for a, b in n.items()})
+        K.journal('import : noms des objets de la collection de vanité : %s' % dict(n))
+
     def importer_client(self):
         self.zones_exil = {}
         self.charger_francais_client()
@@ -858,6 +975,8 @@ class Importeur:
         'HolidayDescriptions': ('fete_description', 'noms_client'), 'QuestSort': ('categorie_quete', 'noms_client'),
         'CreatureFamily': ('famille_creature', 'noms_client'),
         'ItemRandomProperties': ('propriete_aleatoire', 'noms_client'),
+        # essai 8 : collection de vanité
+        'VanityCollection': ('coa_vanite', 'vanite'),
     }
     DBC_TYPES.update(DBC_TYPES_09)
     GROUPE_LIEU = ('AreaTable', 'WMOAreaTable', 'AreaPOI', 'Map', 'TaxiNodes')
@@ -1407,7 +1526,7 @@ class Importeur:
             return f
         t = l[K.I_TYPE]
         for fam, _, types, _ in K.FAMILLES:
-            if t in types and fam not in ('sorts_classes', 'talents', 'sorts_standard', 'sorts_coa'):
+            if t in types and fam not in ('sorts_classes', 'talents', 'sorts_standard', 'sorts_coa', 'sorts_objets'):
                 return fam
         raise SystemExit('ERREUR : type sans famille : %s' % t)
 
@@ -1465,6 +1584,7 @@ def main():
     imp.importer_sorts_standard()
     imp.importer_sorts_coa_puissance()
     imp.importer_sorts_interface()
+    imp.importer_sorts_objets()       # essai 8
     imp.importer_dbc()
     imp.importer_interface()
     imp.noms_officiels_web()          # 0.9 : avant la couche (les lignes libérées reçoivent leur traduction)
@@ -1473,9 +1593,11 @@ def main():
     imp.importer_enchantements_modele()
     imp.fusionner_relus()
     imp.appliquer_couche()
+    imp.reprise_meme_anglais()        # essai 8
     imp.harmoniser_officiel()
     imp.limites_objets_par_nom()
     imp.focalisation_interface()
+    imp.noms_vanite()                 # essai 8
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

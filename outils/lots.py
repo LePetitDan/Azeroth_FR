@@ -92,6 +92,8 @@ CHANTIERS = [
     # 07/11/2026, add-on 0.9 : ajouté au plan par « completer » (les lots des chantiers A à H ne changent pas)
     ('I', 'Textes propres au client CoA (0.9)', 8,
      ['sorts_coa', 'epreuves', 'creation_personnage', 'tutoriels', 'progression', 'monde_client', 'noms_client']),
+    # 07/11/2026, essai 8 : sorts des objets (« Utiliser : »), auras des Épreuves, collection de vanité (plafond 75 $)
+    ('J', 'Sorts des objets et collection de vanité (essai 8)', 9, ['sorts_objets', 'vanite']),
 ]
 CHANTIERS_QUETES = ('A', 'B')
 # Familles en attente d'une decision de Dan : leurs lots sont au plan mais BLOQUES (aucune decision non tranchee

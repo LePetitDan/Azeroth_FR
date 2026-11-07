@@ -1,0 +1,356 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	313088		Description	b79f39a9052d	Réduit la vitesse de déplacement de votre cible de $s1% pendant $d. (2ppm)	lot sorts_objets_041
+sort	313095		Description	f7520fc6b200	Vos sorts de Nature offensifs ont $h% de chances de faire surgir un bourbier rampant sous votre cible, qui inflige ${($313097m1+$313097ppl1+$SP*0.04+$AP*0.026)*4} points de dégâts de Nature en $313096d et ralentit le déplacement de $313096s2% dans un rayon de $313096a1 mètres. (15 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313102		Description	d78b1a9452ec	Tire une flèche brûlante qui inflige ${($m1+0+$SP*0.04+$RAP*0.04)*5} points de dégâts de Feu pendant $313102d. (3ppm)	lot sorts_objets_041
+sort	313105		Description	c212b22ec3fe	Augmente la résistance au Feu de ${$m2+0} et vos aptitudes et sorts de dégâts directs infligent ${$313106m1+$313106ppl1+$RAP*0.02+$SP*0.02} points de dégâts de Feu supplémentaires pendant $d.	lot sorts_objets_041
+sort	313105		ToolTip	a35bf2f10af9	Augmente la résistance au Feu de $m2 et vos aptitudes et sorts de dégâts directs infligent ${$313106m1+$313106ppl1+$RAP*0.02+$SP*0.02} points de dégâts de Feu supplémentaires.	lot sorts_objets_041
+sort	313109		Description	942697fd3caf	Infliger des dégâts directs a une chance d'appliquer d'autres dégâts périodiques qui infligent ${$313110m1+$SP*0.03} points de dégâts de Feu toutes les $313110t1 sec. pendant $313110d.	lot sorts_objets_041
+sort	313113		Description	497d7826b847	Écrase les orteils de la créature ciblée, infligeant ${$m2+0+($AP)*0.03} points de dégâts physiques et réduisant sa vitesse de déplacement de $m1% pendant $d. (2ppm)	lot sorts_objets_041
+sort	313116		Description	c3a2050d66d4	Les sorts ont $h% de chances d'augmenter votre pénétration des sorts de ${$ABS($313117m1+$313117ppl1)} pendant $313117d. (24 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313120		Description	8b479e578081	Augmente la puissance d'attaque de ${$313120m1+$313120ppl1} pendant $d.	lot sorts_objets_041
+sort	313123		Description	46831a894e36	Vos sorts de dégâts directs ont $h% de chances d'emprisonner les pieds de la créature dans la pierre, réduisant sa vitesse de déplacement de $313124s1% pendant $313124d. (15 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313130		Description	6cf5ceed79e0	Augmente la puissance d'attaque de ${$313130m1+$313130ppl1} pendant $d. Lorsque le Hurlement de la bête sauvage prend fin, votre vitesse de déplacement est réduite de $304086s1% pendant $304086d.	lot sorts_objets_041
+sort	313130		ToolTip	57916c186409	Augmente votre puissance d'attaque de ${$313130m1+$313130ppl1}.	lot sorts_objets_041
+sort	313134		Description	6b4b91c326a0	Les ticks de votre Récupération ont $h% de chances de faire éclore une floraison mineure sur un allié proche, lui rendant un peu de points de vie en $313135d.	lot sorts_objets_041
+sort	313138		Description	18ba6eaa6f54	Enduit vos mains de vase, ce qui fait que vos $n prochains sorts directs infligent ${$313139m1+$313139ppl1+$SP*0.2+$AP*0.2} points de dégâts de Nature supplémentaires.	lot sorts_objets_041
+sort	313138		ToolTip	497c9855b4a2	Enduit vos mains de vase, ce qui fait que vos 8 prochains sorts directs infligent ${$313139m1+$313139ppl1+$sp*0.1} points de dégâts de Nature supplémentaires.	lot sorts_objets_041
+sort	313142		Description	bdbde5f30918	Provoque une explosion de vase qui inflige ${$m1+0+$ap*0.04+$sp*0.04} points de dégâts de Nature aux ennemis proches. (1ppm)	lot sorts_objets_041
+sort	313145		Description	c46d3d38965e	Lorsque vous infligez un coup critique en mêlée, vous avez $h% de chances d'être enveloppé d'ombres, ce qui augmente votre score de hâte en mêlée de $313146s1 pendant $313146d. (25 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313149		Description	7801f61e6169	Frappe la cible d'un coup sangsue, infligeant ${m1+$SP*0.08+$AP*0.08} points de dégâts d'Ombre supplémentaires et vous rendant 100% des dégâts infligés en points de vie. (1.2ppm)	lot sorts_objets_041
+sort	313149		ToolTip	f5cbd288a9b6	Frappe la cible d'un coup sangsue, infligeant ${m1+$SP*0.08+$AP*0.08} points de dégâts d'Ombre supplémentaires et vous rendant 100% des dégâts infligés en points de vie.	lot sorts_objets_041
+sort	313152		Description	d2b45f0dbfb1	Les sorts de dégâts ont $h% de chances d'infliger ${($313153m1+$313153ppl1+$SP*0.04+$AP*0.04)*3} points de dégâts d'Ombre supplémentaires en $313153d à votre cible, et de vous rendre 100% de ces dégâts en points de vie. (20 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313156		Description	44117787b92e	Lorsque vous lancez Purification de l'esprit, cette idole se repaît des poisons purifiés et gagne en puissance pendant $313157d, ce qui fait que vos attaques empoisonnent les ennemis pendant $304098d.	lot sorts_objets_041
+sort	313164		Description	e49881ea5e2d	Lorsque vous infligez un coup critique avec une aptitude de mêlée, vous avez $h% de chances d'infliger ${$313166m1+$313166ppl1+$SP*0.05+$AP*0.05} points de dégâts de Nature supplémentaires. (25 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313169		Description	6d129cb0f18a	Lorsque vous êtes frappé par une attaque, vous avez $h% de chances d'augmenter votre score de hâte de ${$313170m1+$313170ppl1} pendant $313170d. (30 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313173		Description	4a711e7a37dd	Vos sorts instantanés de dégâts ou de soins ont $h% de chances d'augmenter votre score de coup critique de ${$313174m1+$313174ppl1} pendant $313174d. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313177		Description	ece23378e70b	Augmente votre puissance d'attaque de ${$313178m1+$313178ppl1} tant que vous êtes furtif et pendant $313178d après avoir quitté la furtivité.	lot sorts_objets_041
+sort	313181		Description	90fd824a4885	Être frappé par une attaque de mêlée a $h% de chances de vous faire piétiner le sol, infligeant ${$313182m1+$313182ppl1+$AP*0.08} points de dégâts de Nature aux cibles proches. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313185		Description	52dc7a83f91b	Vos attaques à distance ont une chance de tirer une flèche perce-tempête sur la cible, infligeant ${$313186m1+$313186ppl1+0.112*$SP+0.112*$RAP} points de dégâts de Nature.	lot sorts_objets_041
+sort	313198		Description	f7ca6bcf94ef	Infliger des dégâts avec des attaques de mêlée ou à distance a $h% de chances d'augmenter votre puissance d'attaque de ${$313199m1+$313199ppl1} et votre score de coup critique de ${$313199m3+$313199ppl3} pendant $313199d (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313202		Description	1965617b02b5	Infliger des dégâts directs avec des sorts et aptitudes a $h% de chances de pétrifier les monstres, les étourdissant pendant $313203d et augmentant leur armure de $313203s2%. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313206		Description	675a7df60c58	Tuer une cible qui rapporte de l'expérience ou de l'honneur vous rend ${$313207M1+$313207ppl1+$SP*0.04} points de vie. (10 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313210		Description	20274de93b1e	Lancer des sorts a $h% de chances de vous rendre ${$313211m1+$313211ppl1+$SP*0.008} points de vie. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313214		Description	7c4a127b4cf6	Foudroie la cible, infligeant ${$313214m1+$313214ppl1+$SP*0.08+$AP*0.052} points de dégâts de Nature. (1ppm)	lot sorts_objets_041
+sort	313214		ToolTip	7614bddb2f15	Foudroie la cible, infligeant ${$313214m1+$313214ppl1+0.3*$SP+0.02*$AP} points de dégâts de Nature.	lot sorts_objets_041
+sort	313220		Description	1b991e77a4d8	Libère un nuage de radiation qui inflige ${$m1+0+$SP*0.1+$AP*0.1} points de dégâts de Nature, puis ${$m2+0+$SP*0.05+$AP*0.05} points de dégâts de Nature à tous les ennemis situés à moins de 5 mètres toutes les $t2 sec. pendant $d.	lot sorts_objets_041
+sort	313223		Description	e788b6c09be2	Augmente la puissance d'attaque de votre familier de ${$313224m1+$313224ppl1}.	lot sorts_objets_041
+sort	313227		Description	c2b7b4fedc25	Vos attaques de mêlée ont $h% de chances d'augmenter la vitesse d'attaque de votre familier de $313228s1% pendant $313228d. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313227		ToolTip	f0ae96a4cb27	Vos attaques ont une chance d'augmenter la vitesse d'attaque de votre familier de $313228s1% pendant $d.	lot sorts_objets_041
+sort	313231		Description	57ea47045934	Lorsque vous infligez des dégâts avec Frappe du croisé ou vos Jugements, vous avez $h% de chances d'infliger ${$313232m1+$313232ppl1+$SP*0.08+$AP*0.052} points de dégâts d'Ombre supplémentaires. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313231		ToolTip	af0ba4003be4	Infliger des dégâts avec Frappe du croisé ou vos Jugements a une chance d'infliger de ${$313232m1+$313232ppl1+0.05*$SP+0.05*$AP} à ${$313232M1+$313232ppl1+0.05*$SP+0.05*$AP points de dégâts d'Ombre supplémentaires.	lot sorts_objets_041
+sort	313235		Description	83d01e862013	Infliger des dégâts avec Frappe du croisé a $h% de chances de vous octroyer un bouclier qui absorbe ${$313236m1+$313236ppl1} points de dégâts. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313235		ToolTip	7ed8b9b5a812	Infliger des dégâts avec Frappe du croisé ou vos Jugements a une chance de vous octroyer un bouclier qui absorbe ${$313236m1+$313236ppl1} points de dégâts.	lot sorts_objets_041
+sort	313239		Description	9b42fef500d1	Lorsque vous infligez des dégâts avec Bouclier de foudre, vous avez $h% de chances d'infliger ${$313240m1+$313240ppl1+$SP*0.08+$AP*0.052} points de dégâts d'Ombre supplémentaires. (8 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313239		ToolTip	54bcc7460b4b	Lorsque vous infligez des dégâts avec Bouclier de foudre, vous avez une chance d'infliger ${$313240m1+$313240ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre supplémentaires.	lot sorts_objets_041
+sort	313246		Description	9301c2c30cc2	Électrocute la cible, infligeant ${$m1+0+$SP*0.08+$AP*0.052} points de dégâts de Nature.	lot sorts_objets_041
+sort	313249		Description	1a7d72f22c3a	Lorsque vous êtes frappé par une attaque de mêlée ou à distance, vous avez $h% de chances de lancer la foudre sur la cible, infligeant ${$313250m1+$313250ppl1+$SP*0.04+$AP*0.026} points de dégâts de Nature et rebondissant sur $313250x1 cibles maximum. (25 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313249		ToolTip	940b207eb195	Lorsque vous êtes frappé par une attaque de mêlée ou à distance, vous avez une chance de lancer la foudre sur la cible, infligeant ${$313250m1+$313250ppl1} points de dégâts de Nature et rebondissant sur $313250x1 cibles maximum.	lot sorts_objets_041
+sort	313253		Description	4f631d711cba	Pousse d'anciens cris de guerre qui vous octroient ${$m1+0} points de puissance d'attaque supplémentaires pendant $d. (1ppm)	lot sorts_objets_041
+sort	313256		Description	660cae87506d	Invoque les sables pour attaquer votre cible, infligeant ${$313257m1+$313257ppl1+$SP*0.05+$AP*0.032} points de dégâts de Nature à tous les ennemis situés à moins de 5 mètres de la cible toutes les $313256t1 sec. pendant $d.	lot sorts_objets_041
+sort	313256		ToolTip	288f3177d9ac	Inflige $313257m1 points de dégâts de Nature toutes les $313256t1 sec.	lot sorts_objets_041
+sort	313260		Description	3ee74ee11eb9	Horion de terre a $h% de chances d'invoquer un essaim de la ruche, qui inflige ${$313261m1+$313261ppl1+$SP*0.048+$AP*0.03} points de dégâts de Nature toutes les $313261t1 sec. pendant $313261d.	lot sorts_objets_041
+sort	313260		ToolTip	3c72a31bde9e	Horion de terre a une chance d'invoquer un essaim de la ruche, qui inflige des dégâts de Nature toutes les $313261t1 sec. pendant $313261d.	lot sorts_objets_041
+sort	313264		Description	b14f78194dac	Vos attaques de mêlée ont une chance d'empoisonner votre cible, lui infligeant ${$313266m1+$313266ppl1+$ap*0.0375+$sp*0.0375} points de dégâts de Nature toutes les $313266t sec. pendant $313266d.	lot sorts_objets_041
+sort	313264		ToolTip	fb9da2a24e08	Horion de terre a une chance d'invoquer un essaim de la ruche, qui inflige des dégâts de Nature toutes les $313266t1 sec. pendant $313266d.	lot sorts_objets_041
+sort	313269		Description	9f3996b3a717	Lorsque vous subissez des dégâts, vous avez une chance de réduire la menace que vous générez de $313270s1% pendant $313270d.	lot sorts_objets_041
+sort	313269		ToolTip	9f3996b3a717	Lorsque vous subissez des dégâts, vous avez une chance de réduire la menace que vous générez de $313270s1% pendant $313270d.	lot sorts_objets_041
+sort	313273		Description	bee307457b16	Vous subissez $s2% de dégâts de Feu supplémentaires, mais vos attaques ont $h% de chances de cloquer la cible, lui infligeant ${$313274m1+$313274ppl1+$SP*0.08+$AP*0.052} points de dégâts de Feu supplémentaires. (25 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313273		ToolTip	c95174ca9b8e	Vous subissez $s2% de dégâts de Feu supplémentaires, mais vos attaques ont une chance de cloquer la cible, lui infligeant de ${$313274m1+$313274ppl1+0.05*$SP+0.05*$AP} à ${$313274M1+$313274ppl1+0.05*$SP+0.05*$AP} points de dégâts de Feu supplémentaires.	lot sorts_objets_041
+sort	313277		Description	cd0840615e6c	Lorsque vous tuez un ennemi qui rapporte de l'expérience ou de l'honneur, vous avez $h% de chances d'activer la magnétite, ce qui vous permet de repérer les trésors proches pendant $313278d. (180 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313277		ToolTip	c5d1ca20a9e8	Lorsque vous tuez un ennemi qui rapporte de l'expérience ou de l'honneur, vous avez une chance d'activer la magnétite, ce qui vous permet de repérer les trésors proches pendant $313278d.	lot sorts_objets_041
+sort	313281		Description	9d232810cf92	Augmente la puissance d'attaque de votre familier de ${$m1+0}. (1ppm)	lot sorts_objets_041
+sort	313284		Description	c2e87bb92d6a	Pendant l'éclipse lunaire, votre Éclat lunaire inflige ${$313285m1+$313285ppl1+0.05*$SP+0.05*$AP} points de dégâts d'Ombre supplémentaires.	lot sorts_objets_041
+sort	313288		Description	6df7a4e33ab1	Vos attaques à distance ont $h% de chances de lancer un trait de chagrin sur la cible, infligeant ${$313289m1+($SP+$RAP)*0.04} points de dégâts d'Ombre et augmentant de $313289s1% vos chances de coup critique et de toucher la cible avec des attaques à distance.	lot sorts_objets_041
+sort	313288		ToolTip	2a83057b75b7	Vos attaques à distance ont une chance de lancer un trait de chagrin sur la cible, augmentant de $313289s1% vos chances de coup critique et de toucher la cible.	lot sorts_objets_041
+sort	313292		Description	ae26ad1b9e23	Ouvre une plaie sur la cible, infligeant ${$313292m1+$313292ppl1+$SP*0.04+$AP*0.04} points de dégâts physiques toutes les $/1000;313292t1 sec. pendant $313292d. (1ppm)	lot sorts_objets_041
+sort	313292		ToolTip	8d41b8ee9698	Saigne et subit ${$313292m1+$313292ppl1+$SP*0.05+$AP*0.05} points de dégâts physiques toutes les $/1000;t1 sec.	lot sorts_objets_041
+sort	313295		Description	1a2488fd8bcf	Vos attaques de mêlée ont $h% de chances d'augmenter la vitesse d'attaque de votre familier de $313296s1% pendant $313296d. (35 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313295		ToolTip	83ae446aa4d2	Vos attaques de mêlée ont une chance d'augmenter la vitesse d'attaque de votre familier de $313296s1% pendant $313296d.	lot sorts_objets_041
+sort	313299		Description	dad7343d9938	Lancer Colère réduit de $313300s1% le coût en mana de votre prochain changement de forme.	lot sorts_objets_041
+sort	313299		ToolTip	dad7343d9938	Lancer Colère réduit de $313300s1% le coût en mana de votre prochain changement de forme.	lot sorts_objets_041
+sort	313306		Description	668eea30e202	Frappe la cible de folie, infligeant de ${$m1+0+$SP*0.08+$AP*0.08} à ${$M1+0+$SP*0.08+$AP*0.08} points de dégâts d'Ombre. (1ppm)	lot sorts_objets_041
+sort	313312		Description	77ef3f26f2c7	Les effets de soins sur la durée de Nature ont $h% de chances de vous revigorer, vous rendant $313313s1 points de mana en 4 sec. (35 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313316		Description	d0edaf057529	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont $h% de chances de foudroyer la cible et vous-même pour la moitié du montant.	lot sorts_objets_041
+sort	313326		Description	5986d3c182a6	Invoque un esprit du marais pour vous aider au combat. (1ppm)	lot sorts_objets_041
+sort	313329		Description	9f98f0352c1e	Vous avez $h% de chances d'être suivi par un murloc amical. (5 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313340		Description	31e3d128ee17	Frappe la cible avec du sang acide de silithide, infligeant ${$m1+0+$SP*0.08+$AP*0.08} points de dégâts de Nature. (1.5ppm)	lot sorts_objets_041
+sort	313343		Description	e06b3f7bd962	Infliger des dégâts physiques à une cible dont les points de vie sont inférieurs à 35% a $h% de chances de vous faire frapper la cible pour ${($313344m1+$AP*0.1)} points de dégâts afin de l'achever. (5 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313343		ToolTip	7c2cc1235b9b	Infliger des dégâts physiques à une cible dont les points de vie sont inférieurs à 35% a une chance de vous faire frapper la cible pour ${($313344m1+$AP*0.1)} points de dégâts afin de l'achever.	lot sorts_objets_041
+sort	313347		Description	1af5a2290779	Subir des dégâts alors que vos points de vie sont inférieurs à 35% vous octroie Défense désespérée, qui augmente votre score de parade de ${$313348m1+$313348ppl1} pendant $313348d. (45 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313347		ToolTip	df1e0dd83137	Subir des dégâts alors que vos points de vie sont inférieurs à 35% vous octroie Défense désespérée, qui augmente votre score de parade de ${$313348m1+$313348ppl1} pendant $313348d.	lot sorts_objets_041
+sort	313351		Description	c88b9598087c	Les incantations de dégâts directs ont $h% de chances de lancer un trait de sang corrompu sur la cible, infligeant ${$313352m1+$313352ppl1+$SP*0.08+$AP*0.05204} points de dégâts d'Ombre. (20 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313351		ToolTip	f0319b0d9d09	Les incantations de dégâts directs ont une chance de lancer un trait de sang corrompu sur la cible, infligeant de ${$313352m1+$313352ppl1+0.05*$313352SP+0.05*$313352AP} à ${$313352M1+$313352ppl1+0.05*$313352SP+0.05*$313352AP} points de dégâts physiques.	lot sorts_objets_041
+sort	313355		Description	0a31f18a4a11	Infliger des dégâts physiques a $h% de chances d'infliger un saignement à la cible, lui causant ${$313356m1+$313356ppl1+0.05*$SP+0.05*$AP} points de dégâts physiques toutes les $313356t sec. pendant $313356d. (15 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313355		ToolTip	19b6d585885e	Infliger des dégâts physiques a une chance d'infliger un saignement à la cible, lui causant ${$313356m1+$313356ppl1+0.05*$SP+0.05*$AP} points de dégâts physiques toutes les $313356t sec. pendant $313356d.	lot sorts_objets_041
+sort	313365		Description	936f7d1a4fb1	Infliger des dégâts de mêlée à une cible dont les points de vie sont inférieurs à 35% a $h% de chances d'appliquer une entaille nette qui inflige ${$313366m1+$313366ppl1+$ap*0.05} points de dégâts physiques par seconde pendant $313366d. (5 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313365		ToolTip	5facd02b3b9d	Infliger des dégâts à une cible dont les points de vie sont inférieurs à 35% a une chance d'appliquer une entaille nette qui inflige ${$313366m1+$313366ppl1+$ap*0.05} points de dégâts physiques par seconde pendant $313366d à la cible.	lot sorts_objets_041
+sort	313369		Description	ea8b2e8011c8	Déchire la chair, infligeant ${$m1+0+$SP*0.05+$AP*0.05} points de dégâts physiques toutes les $t sec. pendant $d à la cible. (1ppm)	lot sorts_objets_041
+sort	313372		Description	1c0d04c2699d	Infliger des dégâts à des créatures situées à plus de 30 mètres a $h% de chances d'augmenter votre puissance d'attaque de ${$313373m1+$313373ppl1} pendant $313373d.	lot sorts_objets_041
+sort	313372		ToolTip	d87ba1062577	Infliger des dégâts à des créatures situées à plus de 30 mètres a une chance d'augmenter votre puissance d'attaque de ${$313373m1+$313373ppl1} pendant $313373d.	lot sorts_objets_041
+sort	313376		Description	1f90db902e62	Chaque fois que vous subissez des dégâts de Feu, vous avez $h% de chances de raviver les brûlures sur votre torse, ce qui augmente de $313377s1% les dégâts de Feu que vous subissez et inflige ${$304233m1+$304233ppl1+$SP*0.02+$AP*0.013} points de dégâts de Feu aux ennemis proches toutes les $313377t2 sec. pendant $313377d. (5 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313376		ToolTip	1701de986c6d	Chaque fois que vous subissez des dégâts de Feu, vous avez une chance de raviver les brûlures sur votre torse, ce qui augmente de $313377s1% les dégâts de Feu que vous subissez pendant $313377d.	lot sorts_objets_041
+sort	313396		Description	a84d31e51bfc	Libère des esprits maudits qui infligent à la cible ${$m1+0+$SP*0.04+$AP*0.026} points de dégâts d'Ombre par seconde pendant $d. (2ppm)	lot sorts_objets_041
+sort	313399		Description	8b74d1a51093	Tire un carreau trempé dans l'acide, infligeant ${$m1+0+$SP*0.08+$RAP*0.08} points de dégâts de Nature. (1ppm)	lot sorts_objets_041
+sort	313411		Description	83ffe3605d81	Lie votre vie à celle d'un autre membre du groupe, partageant $s1% des dégâts qu'il subit pendant $d.	lot sorts_objets_041
+sort	313414		Description	a3cb0a86d9b0	Lorsque vous êtes touché par une attaque de mêlée ou à distance, vous avez $h% de chances de lancer une scie circulaire sur votre cible, la faisant saigner pour ${$313415m1+$313415ppl1+($SP+$AP)*0.06} points de dégâts par seconde pendant $313415d.	lot sorts_objets_041
+sort	313414		ToolTip	ea7fb49b3dc1	Lorsque vous êtes touché par une attaque de mêlée ou à distance, vous avez une chance de lancer une scie circulaire sur votre cible, la faisant saigner pour ${$313415m1+$313415ppl1+$ap*0.05} points de dégâts par seconde pendant $313415d.	lot sorts_objets_041
+sort	313418		Description	93bd8c256dff	Souffle le feu draconique en cône devant le lanceur, infligeant ${$m1+0+$SP*0.18+$AP*0.18} points de dégâts de Feu.	lot sorts_objets_041
+sort	313421		Description	bb138a4a5b14	Soigner avec Lumière sacrée ou Éclair lumineux vous octroie une charge de Foi retrouvée, qui augmente votre score de hâte de $313422s1 pendant $313422d et se cumule jusqu'à $313422u fois.	lot sorts_objets_041
+sort	313421		ToolTip	bb138a4a5b14	Soigner avec Lumière sacrée ou Éclair lumineux vous octroie une charge de Foi retrouvée, qui augmente votre score de hâte de $313422s1 pendant $313422d et se cumule jusqu'à $313422u fois.	lot sorts_objets_041
+sort	313425		Description	085935e28fdf	Balance largement votre arme, infligeant $s1% des dégâts de l'arme sous forme de dégâts de Feu à votre cible et à son allié le plus proche. (0.5ppm)	lot sorts_objets_041
+sort	313428		Description	fd773e65db71	Tire un obus béni qui inflige ${$m1+0+$SP*0.08+$RAP*0.08} points de dégâts du Sacré. (1.2ppm)	lot sorts_objets_041
+sort	313431		Description	4960fe31864a	Lorsque vous ratez une attaque à distance, vous avez $h% de chances d'augmenter votre score de toucher de $313432s1 pendant $313432d, cumulable jusqu'à $313432u fois.	lot sorts_objets_041
+sort	313435		Description	3cfdd9b10073	Chaque fois que vous bloquez, vous avez $h% de chances d'augmenter votre score de blocage de $313436s1 et votre valeur de blocage de $313436s2 pendant $313436d. (30 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313439		Description	12c1ba31cbcb	Tire une flèche empoisonnée qui inflige ${$m1+0+$SP*0.08+$AP*0.08} points de dégâts de Nature, puis ${($m2+0+$SP*0.04+$AP*0.04)*5} points de dégâts de Nature en $d. (2ppm)	lot sorts_objets_041
+sort	313442		Description	2d0c225fe2e1	Vous vous mettez à tourbillonner, attaquant les ennemis proches pendant $d et infligeant ${$313443m1+$313443ppl1+$SP*0.01+$AP*0.01} points de dégâts par seconde. (0.5ppm)	lot sorts_objets_041
+sort	313442		ToolTip	5297df2b35d1	Attaque les ennemis proches pendant $d et inflige ${$313443m1+$313443ppl1+$SP*0.01+$AP*0.01} points de dégâts par seconde.	lot sorts_objets_041
+sort	313446		Description	b80e3e47eb2a	Chaque fois que votre attaque est esquivée, parée ou bloquée, votre score de hâte en mêlée augmente de $313447s1 pendant $313447d, cumulable jusqu'à $313447u fois.	lot sorts_objets_041
+sort	313446		ToolTip	2ca91a058f57	Chaque fois qu'une attaque est esquivée, parée ou bloquée, votre score de hâte en mêlée augmente de $313447s1 pendant $313447d, cumulable jusqu'à $313447u fois.	lot sorts_objets_041
+sort	313456		Description	1c8229300fe1	Fait surgir des chiens de la peste pour attaquer votre cible. (0.5ppm)	lot sorts_objets_041
+sort	313459		Description	659584499b75	Lorsque vous infligez des dégâts du Sacré directs, vous avez $h% de chances d'asperger la cible, lui infligeant ${$313460m1+$313460ppl1+$ap*0.06+$sp*0.06} points de dégâts de Givre supplémentaires. (3 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313459		ToolTip	b6b93e93377d	Lorsque vous infligez des dégâts du Sacré, vous avez une chance d'asperger la cible, lui infligeant ${$313460m1+$313460ppl1+$ap*0.01+$sp*0.01} points de dégâts de Givre supplémentaires.	lot sorts_objets_041
+sort	313463		Description	90ce1fb00c3b	Ralentit la vitesse de chute de la cible alliée du groupe pendant $d.  @ext:This ability is usable while shapeshifted.:ext@	lot sorts_objets_041
+sort	313465		Description	ec8179c58061	Les coups critiques de votre familier vous octroient $313807s1 points de puissance d'attaque.	lot sorts_objets_041
+sort	313465		ToolTip	ec8179c58061	Les coups critiques de votre familier vous octroient $313807s1 points de puissance d'attaque.	lot sorts_objets_041
+sort	313466		Description	433bd550e6e1	Frappe une cible et lui inflige ${$PL*3.36} points de dégâts des Arcanes. (2ppm)	lot sorts_objets_041
+sort	313469		Description	14a30e516cf8	Augmente de $s2 les dégâts de base de Éclair, Horion de flammes, Horion de terre et Horion de givre, et augmente de $s3 les soins prodigués par votre Vague de soins.	lot sorts_objets_041
+sort	313472		Description	7ec238bf225d	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez.  Si vous mangez pendant au moins 10 sec., vous serez bien nourri et gagnerez $313473s1 points d'Endurance et d'Esprit pendant $313473d.	lot sorts_objets_041
+sort	313476		Name	28a3051d56cd	Compétence en pêche + 5	lot sorts_objets_041
+sort	313479		Name	b0f6ac46a9cf	Compétence en forge + 5	lot sorts_objets_041
+sort	313482		Description	c6e1e975dc5f	Clic droit pour invoquer ou renvoyer le Flagellant docile du Bois brumeux.	lot sorts_objets_041
+sort	313482		Name	adf8904e756e	Flagellant docile du Bois brumeux	lot sorts_objets_041
+sort	313486		Description	b3242c1b6e1a	Rend $s1 points de vie, puis $s2 points de vie supplémentaires par seconde pendant $d. Les dégâts infligés sont réduits de $s3% tant que cet effet est actif.	lot sorts_objets_041
+sort	313486		ToolTip	514c9117d8d8	Dégâts infligés réduits de $s3%.\r\n\r\nRend $s2 points de vie par seconde.	lot sorts_objets_041
+sort	313492		Description	594f2caed3ad	Éclabousse la cible d'une goutte d'eau désolée, lui infligeant ${$m1+0+$SP*0.2+$AP*0.13} points de dégâts de Peste toutes les $t1 sec. pendant $d.	lot sorts_objets_041
+sort	313492		Name	215ed40e1d8e	Fléau de désolation	lot sorts_objets_041
+sort	313492		ToolTip	e6d0c09a48ba	$s1 points de dégâts de Peste infligés toutes les $t1 sec.	lot sorts_objets_041
+sort	313495		Description	76e8de4d0556	Absorbe les dégâts de Feu et de Givre.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	313495		Name	6cbabc590135	Protection de Falitha	lot sorts_objets_041
+sort	313495		ToolTip	adedc7bed3f4	Absorbe ${$w1} points de dégâts de Feu et de Givre.	lot sorts_objets_041
+sort	313498		Description	2244fa220821	Absorbe les dégâts d'Ombre et du Sacré.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	313498		Name	8a541d28012d	Protection de Shan'dor	lot sorts_objets_041
+sort	313498		ToolTip	e952b8a3d140	Absorbe ${$w1} points de dégâts d'Ombre et du Sacré.	lot sorts_objets_041
+sort	313501		Description	091f316103ae	Absorbe les dégâts des Arcanes et de Nature.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	313501		Name	18c98ff74dea	Protection de Meleath	lot sorts_objets_041
+sort	313501		ToolTip	615d19dbee20	Absorbe ${$w1} points de dégâts des Arcanes et de Nature.	lot sorts_objets_041
+sort	313504		Description	ed80a4de5616	Empoisonne l'ennemi, lui infligeant ${$m1+0} points de dégâts de Nature toutes les $t1 sec. pendant $d. (2ppm)	lot sorts_objets_041
+sort	313504		Name	0b6d7799cfd9	Venin d'Ula-Tek	lot sorts_objets_041
+sort	313507		Description	e3a908579ec1	Vous rend ${$M1+0+$SP*0.16+$AP*0.104} points de vie.	lot sorts_objets_041
+sort	313507		ToolTip	70ddf733ed55	Vous rend ${$PL*15} points de vie.	lot sorts_objets_041
+sort	313510		Description	3d7586681e1c	Les dégâts magiques directs ont $h% de chances d'augmenter votre puissance des sorts de ${$313511m1+$313511ppl1} pendant $313511d. (15 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313510		Name	c2d0eca6697d	Lumière des Hauts-nés - Pantin d'effet d'objet	lot sorts_objets_041
+sort	313514		Description	f9e9e8cd6e48	Vos effets de soins sur la durée ont $h% de chances de vous soigner, ainsi que les alliés proches, et d'infliger ${$313515m1+$313515ppl1+$SP*0.04+$AP*0.026} points de dégâts de Nature aux ennemis situés à moins de $313515a1 mètres. (30 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	313514		Name	d5a0eb79213e	Œil verdoyant - Pantin d'effet d'objet	lot sorts_objets_041
+sort	313518		Description	2f0fbcf48c97	Vos sorts de Horion infligent la malédiction du sorcier sinistre, qui inflige ${$313519m1+$313519ppl1+$SP*0.026+$AP*0.026} points de dégâts d'Ombre toutes les $/1000;313519t1 sec. pendant $313519d.	lot sorts_objets_041
+sort	313518		Name	d0470dccc0b5	Déclenchement de la malédiction du sorcier sinistre	lot sorts_objets_041
+sort	313522		Description	9a3954b78dac	Clic droit pour invoquer ou renvoyer le Chaton joyeux	lot sorts_objets_041
+sort	313526		Description	34ce05f9cbe4	Chance d'infliger ${$313527m1+$313527ppl1+$SP*0.06+$AP*0.039} points de dégâts de Nature lors d'un coup en mêlée.	lot sorts_objets_041
+sort	313526		Name	40d36b73cff2	Hache de grunt usée, Croc détaché de la mère, Croc dégoulinant de Githyiss - pantin d'effet d'objet	lot sorts_objets_041
+sort	313530		Description	cb6b3bf8401b	Vos attaques automatiques ont $h% de chances d'infliger ${$313531m1+$313531ppl1+$SP*0.08+$AP*0.052} points de dégâts d'Ombre supplémentaires. 	lot sorts_objets_041
+sort	313530		Name	4157fc8f946a	Perce-cœur de Cœurmorne - pantin d'effet d'objet	lot sorts_objets_041
+sort	313530		ToolTip	41432f2a019d	Vos attaques automatiques ont une chance d'infliger ${$313531m1+$313531ppl1+0.08*$SP+0.08*$AP} points de dégâts d'Ombre supplémentaires.\r\n	lot sorts_objets_041
+sort	313531		Description	c1f82b6933ff	Lance un trait d'ombre sur l'ennemi, infligeant ${$313531m1+$313531ppl1+0.08*$SP+0.08*$AP} points de dégâts d'Ombre. (2ppm)	lot sorts_objets_041
+sort	313537		Name	a739dc21e9f1	Échelle cachée de 3%	lot sorts_objets_041
+sort	313537		ToolTip	30dee8ebd67e	Vous sentez que vous grandissez d'un petit centimètre	lot sorts_objets_041
+sort	313552		Description	a8a0ab611db9	Clic droit pour invoquer ou renvoyer le Monstre de vase amical	lot sorts_objets_041
+sort	313552		Name	867343d12a21	Monstre de vase amical	lot sorts_objets_041
+sort	313556		Description	18d0f3a81142	Clic droit pour invoquer ou renvoyer le Suintant en bouteille	lot sorts_objets_041
+sort	313563		Description	a8dead99eb9b	Une éruption d'arcanes frappe la zone autour du porteur pour ${$m1+0} points de dégâts des Arcanes. (2ppm)	lot sorts_objets_041
+sort	313569		Description	0096071f7367	Permet de regarder à travers l'Œil du crépuscule jumelé situé dans le Mont Rochenoire. Dure $d. Utilisable uniquement dans les Royaumes de l'est.  @ext:This ability is usable while shapeshifted. Not usable in High-Risk.:ext@	lot sorts_objets_041
+sort	313569		Name	025fa86dd7ee	Regard du crépuscule	lot sorts_objets_041
+sort	313569		ToolTip	a9210118ea42	Impossible de bouger pendant l'utilisation de Regard du crépuscule.	lot sorts_objets_041
+sort	313572		Description	bc3a80cd0e02	Inflige aux ennemis proches les Spores de Crochebois, qui infligent ${$313573m1+$313573ppl1+$SP*0.1+$AP*0.1} points de dégâts de Nature toutes les $313573t1 sec., réduisent l'armure de $313573S2 et la résistance à la Nature de $313573S3. Dure $313573d.	lot sorts_objets_041
+sort	313583		Description	64721a84234c	Clic droit pour invoquer ou renvoyer le Guetteur des tomes	lot sorts_objets_041
+sort	313583		Name	430bb972c944	Guetteur des tomes	lot sorts_objets_041
+sort	313587		Description	1a9c7978546a	Brûle une cible pour ${$PL*1.68} points de dégâts de Feu. (1.6ppm)	lot sorts_objets_041
+sort	313587		Name	89f28da63a04	Brûlâme	lot sorts_objets_041
+sort	313590		Name	b0e26d978111	Potion de sauvetage de la recrue	lot sorts_objets_041
+sort	313593		Name	d7581ecd8ffc	Restauration de la tombe	lot sorts_objets_041
+sort	313596		Name	c3d38af30a0a	Potion d'herbes entièrement naturelle	lot sorts_objets_041
+sort	313599		Name	52130ded34d3	Potion teintée d'arcanes	lot sorts_objets_041
+sort	313602		Name	e7d3d67a40c0	Mixture régénérante du novice	lot sorts_objets_041
+sort	313605		Description	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	313605		Name	5b4d089349dc	Énergie d'arkonite	lot sorts_objets_041
+sort	313605		ToolTip	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	313608		Description	570de0a3d025	Augmente votre puissance des sorts du Sacré de $s1 pendant $d.	lot sorts_objets_041
+sort	313608		ToolTip	30197ee94fe3	Puissance des sorts du Sacré augmentée de $s1.	lot sorts_objets_041
+sort	313611		Description	916ccef37ce1	Rend $o1 points de vie en $d.  Vous devez rester assis pendant que vous mangez. Si vous mangez pendant au moins 10 sec., vous serez bien nourri et gagnerez $313612s1 points d'Endurance. Cet effet dure 15 min.	lot sorts_objets_041
+sort	313626		Description	79c13caf1be0	Châtie votre cible pour ${$m1+0+$SP*0.08+$AP*0.052} points de dégâts du Crépuscule. (2ppm)	lot sorts_objets_041
+sort	313626		Name	541144b616cc	Châtiment du crépuscule	lot sorts_objets_041
+sort	313629		Description	ea749bda5ce0	Être frappé par une attaque de mêlée d'un monstre a $h% de chances d'invoquer un torrent de vent, étourdissant la cible pendant $313630d.	lot sorts_objets_041
+sort	313629		Name	3c20753f0b37	Sort d'objet Foudrassé	lot sorts_objets_041
+sort	317088		Description	b79f39a9052d	Réduit la vitesse de déplacement de votre cible de $s1% pendant $d. (2ppm)	lot sorts_objets_041
+sort	317113		Description	497d7826b847	Écrase les orteils de la créature ciblée, infligeant ${$m2+0+($AP)*0.03} points de dégâts physiques et réduisant sa vitesse de déplacement de $m1% pendant $d. (2ppm)	lot sorts_objets_041
+sort	317142		Description	bdbde5f30918	Provoque une explosion de vase qui inflige ${$m1+0+$ap*0.04+$sp*0.04} points de dégâts de Nature aux ennemis proches. (1ppm)	lot sorts_objets_041
+sort	317253		Description	4f631d711cba	Pousse d'anciens cris de guerre qui vous octroient ${$m1+0} points de puissance d'attaque supplémentaires pendant $d. (1ppm)	lot sorts_objets_041
+sort	317281		Description	9d232810cf92	Augmente la puissance d'attaque de votre familier de ${$m1+0}. (1ppm)	lot sorts_objets_041
+sort	317316		Description	d0edaf057529	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont $h% de chances de foudroyer la cible et vous-même pour la moitié du montant.	lot sorts_objets_041
+sort	317326		Description	5986d3c182a6	Invoque un esprit du marais pour vous aider au combat. (1ppm)	lot sorts_objets_041
+sort	317329		Description	9f98f0352c1e	Vous avez $h% de chances d'être suivi par un murloc amical. (5 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	317411		Description	83ffe3605d81	Lie votre vie à celle d'un autre membre du groupe, partageant $s1% des dégâts qu'il subit pendant $d.	lot sorts_objets_041
+sort	317425		Description	085935e28fdf	Balance largement votre arme, infligeant $s1% des dégâts de l'arme sous forme de dégâts de Feu à votre cible et à son allié le plus proche. (0.5ppm)	lot sorts_objets_041
+sort	317456		Description	1c8229300fe1	Fait surgir des chiens de la peste pour attaquer votre cible. (0.5ppm)	lot sorts_objets_041
+sort	317463		Description	90ce1fb00c3b	Ralentit la vitesse de chute de la cible alliée du groupe pendant $d.  @ext:This ability is usable while shapeshifted.:ext@	lot sorts_objets_041
+sort	317466		Description	433bd550e6e1	Frappe une cible et lui inflige ${$PL*3.36} points de dégâts des Arcanes. (2ppm)	lot sorts_objets_041
+sort	317469		Description	14a30e516cf8	Augmente de $s2 les dégâts de base de Éclair, Horion de flammes, Horion de terre et Horion de givre, et augmente de $s3 les soins prodigués par votre Vague de soins.	lot sorts_objets_041
+sort	317476		Name	28a3051d56cd	Compétence en pêche + 5	lot sorts_objets_041
+sort	317479		Name	b0f6ac46a9cf	Compétence en forge + 5	lot sorts_objets_041
+sort	317482		Description	c6e1e975dc5f	Clic droit pour invoquer ou renvoyer le Flagellant docile du Bois brumeux.	lot sorts_objets_041
+sort	317482		Name	adf8904e756e	Flagellant docile du Bois brumeux	lot sorts_objets_041
+sort	317486		Description	b3242c1b6e1a	Rend $s1 points de vie, puis $s2 points de vie supplémentaires par seconde pendant $d. Les dégâts infligés sont réduits de $s3% tant que cet effet est actif.	lot sorts_objets_041
+sort	317486		ToolTip	514c9117d8d8	Dégâts infligés réduits de $s3%.\r\n\r\nRend $s2 points de vie par seconde.	lot sorts_objets_041
+sort	317492		Name	215ed40e1d8e	Fléau de désolation	lot sorts_objets_041
+sort	317492		ToolTip	e6d0c09a48ba	$s1 points de dégâts de Peste infligés toutes les $t1 sec.	lot sorts_objets_041
+sort	317495		Description	76e8de4d0556	Absorbe les dégâts de Feu et de Givre.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	317495		Name	6cbabc590135	Protection de Falitha	lot sorts_objets_041
+sort	317495		ToolTip	adedc7bed3f4	Absorbe ${$w1} points de dégâts de Feu et de Givre.	lot sorts_objets_041
+sort	317498		Description	2244fa220821	Absorbe les dégâts d'Ombre et du Sacré.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	317498		Name	8a541d28012d	Protection de Shan'dor	lot sorts_objets_041
+sort	317498		ToolTip	e952b8a3d140	Absorbe ${$w1} points de dégâts d'Ombre et du Sacré.	lot sorts_objets_041
+sort	317501		Description	091f316103ae	Absorbe les dégâts des Arcanes et de Nature.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	317501		Name	18c98ff74dea	Protection de Meleath	lot sorts_objets_041
+sort	317501		ToolTip	615d19dbee20	Absorbe ${$w1} points de dégâts des Arcanes et de Nature.	lot sorts_objets_041
+sort	317504		Description	ed80a4de5616	Empoisonne l'ennemi, lui infligeant ${$m1+0} points de dégâts de Nature toutes les $t1 sec. pendant $d. (2ppm)	lot sorts_objets_041
+sort	317504		Name	0b6d7799cfd9	Venin d'Ula-Tek	lot sorts_objets_041
+sort	317507		ToolTip	70ddf733ed55	Vous rend ${$PL*15} points de vie.	lot sorts_objets_041
+sort	317510		Name	c2d0eca6697d	Lumière des Hauts-nés - Pantin d'effet d'objet	lot sorts_objets_041
+sort	317514		Name	d5a0eb79213e	Œil verdoyant - Pantin d'effet d'objet	lot sorts_objets_041
+sort	317518		Name	d0470dccc0b5	Déclenchement de la malédiction du sorcier sinistre	lot sorts_objets_041
+sort	317522		Description	9a3954b78dac	Clic droit pour invoquer ou renvoyer le Chaton joyeux	lot sorts_objets_041
+sort	317526		Name	40d36b73cff2	Hache de grunt usée, Croc détaché de la mère, Croc dégoulinant de Githyiss - pantin d'effet d'objet	lot sorts_objets_041
+sort	317530		Name	4157fc8f946a	Perce-cœur de Cœurmorne - pantin d'effet d'objet	lot sorts_objets_041
+sort	317537		Name	a739dc21e9f1	Échelle cachée de 3%	lot sorts_objets_041
+sort	317537		ToolTip	30dee8ebd67e	Vous sentez que vous grandissez d'un petit centimètre	lot sorts_objets_041
+sort	317552		Description	a8a0ab611db9	Clic droit pour invoquer ou renvoyer le Monstre de vase amical	lot sorts_objets_041
+sort	317552		Name	867343d12a21	Monstre de vase amical	lot sorts_objets_041
+sort	317556		Description	18d0f3a81142	Clic droit pour invoquer ou renvoyer le Suintant en bouteille	lot sorts_objets_041
+sort	317563		Description	a8dead99eb9b	Une éruption d'arcanes frappe la zone autour du porteur pour ${$m1+0} points de dégâts des Arcanes. (2ppm)	lot sorts_objets_041
+sort	317569		Description	0096071f7367	Permet de regarder à travers l'Œil du crépuscule jumelé situé dans le Mont Rochenoire. Dure $d. Utilisable uniquement dans les Royaumes de l'est.  @ext:This ability is usable while shapeshifted. Not usable in High-Risk.:ext@	lot sorts_objets_041
+sort	317569		Name	025fa86dd7ee	Regard du crépuscule	lot sorts_objets_041
+sort	317569		ToolTip	a9210118ea42	Impossible de bouger pendant l'utilisation de Regard du crépuscule.	lot sorts_objets_041
+sort	317583		Description	64721a84234c	Clic droit pour invoquer ou renvoyer le Guetteur des tomes	lot sorts_objets_041
+sort	317583		Name	430bb972c944	Guetteur des tomes	lot sorts_objets_041
+sort	317587		Description	1a9c7978546a	Brûle une cible pour ${$PL*1.68} points de dégâts de Feu. (1.6ppm)	lot sorts_objets_041
+sort	317587		Name	89f28da63a04	Brûlâme	lot sorts_objets_041
+sort	317590		Name	b0e26d978111	Potion de sauvetage de la recrue	lot sorts_objets_041
+sort	317593		Name	d7581ecd8ffc	Restauration de la tombe	lot sorts_objets_041
+sort	317596		Name	c3d38af30a0a	Potion d'herbes entièrement naturelle	lot sorts_objets_041
+sort	317599		Name	52130ded34d3	Potion teintée d'arcanes	lot sorts_objets_041
+sort	317602		Name	e7d3d67a40c0	Mixture régénérante du novice	lot sorts_objets_041
+sort	317605		Description	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	317605		Name	5b4d089349dc	Énergie d'arkonite	lot sorts_objets_041
+sort	317605		ToolTip	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	317608		Description	570de0a3d025	Augmente votre puissance des sorts du Sacré de $s1 pendant $d.	lot sorts_objets_041
+sort	317608		ToolTip	30197ee94fe3	Puissance des sorts du Sacré augmentée de $s1.	lot sorts_objets_041
+sort	317626		Name	541144b616cc	Châtiment du crépuscule	lot sorts_objets_041
+sort	317629		Name	3c20753f0b37	Sort d'objet Foudrassé	lot sorts_objets_041
+sort	321088		Description	b79f39a9052d	Réduit la vitesse de déplacement de votre cible de $s1% pendant $d. (2ppm)	lot sorts_objets_041
+sort	321113		Description	497d7826b847	Écrase les orteils de la créature ciblée, infligeant ${$m2+0+($AP)*0.03} points de dégâts physiques et réduisant sa vitesse de déplacement de $m1% pendant $d. (2ppm)	lot sorts_objets_041
+sort	321142		Description	bdbde5f30918	Provoque une explosion de vase qui inflige ${$m1+0+$ap*0.04+$sp*0.04} points de dégâts de Nature aux ennemis proches. (1ppm)	lot sorts_objets_041
+sort	321253		Description	4f631d711cba	Pousse d'anciens cris de guerre qui vous octroient ${$m1+0} points de puissance d'attaque supplémentaires pendant $d. (1ppm)	lot sorts_objets_041
+sort	321281		Description	9d232810cf92	Augmente la puissance d'attaque de votre familier de ${$m1+0}. (1ppm)	lot sorts_objets_041
+sort	321316		Description	d0edaf057529	Tant que vos points de vie sont supérieurs à 80%, vos attaques à distance et de mêlée ont $h% de chances de foudroyer la cible et vous-même pour la moitié du montant.	lot sorts_objets_041
+sort	321326		Description	5986d3c182a6	Invoque un esprit du marais pour vous aider au combat. (1ppm)	lot sorts_objets_041
+sort	321329		Description	9f98f0352c1e	Vous avez $h% de chances d'être suivi par un murloc amical. (5 sec. de délai de récupération interne)	lot sorts_objets_041
+sort	321411		Description	83ffe3605d81	Lie votre vie à celle d'un autre membre du groupe, partageant $s1% des dégâts qu'il subit pendant $d.	lot sorts_objets_041
+sort	321425		Description	085935e28fdf	Balance largement votre arme, infligeant $s1% des dégâts de l'arme sous forme de dégâts de Feu à votre cible et à son allié le plus proche. (0.5ppm)	lot sorts_objets_041
+sort	321456		Description	1c8229300fe1	Fait surgir des chiens de la peste pour attaquer votre cible. (0.5ppm)	lot sorts_objets_041
+sort	321463		Description	90ce1fb00c3b	Ralentit la vitesse de chute de la cible alliée du groupe pendant $d.  @ext:This ability is usable while shapeshifted.:ext@	lot sorts_objets_041
+sort	321466		Description	433bd550e6e1	Frappe une cible et lui inflige ${$PL*3.36} points de dégâts des Arcanes. (2ppm)	lot sorts_objets_041
+sort	321469		Description	14a30e516cf8	Augmente de $s2 les dégâts de base de Éclair, Horion de flammes, Horion de terre et Horion de givre, et augmente de $s3 les soins prodigués par votre Vague de soins.	lot sorts_objets_041
+sort	321476		Name	28a3051d56cd	Compétence en pêche + 5	lot sorts_objets_041
+sort	321479		Name	b0f6ac46a9cf	Compétence en forge + 5	lot sorts_objets_041
+sort	321482		Description	c6e1e975dc5f	Clic droit pour invoquer ou renvoyer le Flagellant docile du Bois brumeux.	lot sorts_objets_041
+sort	321482		Name	adf8904e756e	Flagellant docile du Bois brumeux	lot sorts_objets_041
+sort	321486		Description	b3242c1b6e1a	Rend $s1 points de vie, puis $s2 points de vie supplémentaires par seconde pendant $d. Les dégâts infligés sont réduits de $s3% tant que cet effet est actif.	lot sorts_objets_041
+sort	321486		ToolTip	514c9117d8d8	Dégâts infligés réduits de $s3%.\r\n\r\nRend $s2 points de vie par seconde.	lot sorts_objets_041
+sort	321492		Name	215ed40e1d8e	Fléau de désolation	lot sorts_objets_041
+sort	321492		ToolTip	e6d0c09a48ba	$s1 points de dégâts de Peste infligés toutes les $t1 sec.	lot sorts_objets_041
+sort	321495		Description	76e8de4d0556	Absorbe les dégâts de Feu et de Givre.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	321495		Name	6cbabc590135	Protection de Falitha	lot sorts_objets_041
+sort	321495		ToolTip	adedc7bed3f4	Absorbe ${$w1} points de dégâts de Feu et de Givre.	lot sorts_objets_041
+sort	321498		Description	2244fa220821	Absorbe les dégâts d'Ombre et du Sacré.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	321498		Name	8a541d28012d	Protection de Shan'dor	lot sorts_objets_041
+sort	321498		ToolTip	e952b8a3d140	Absorbe ${$w1} points de dégâts d'Ombre et du Sacré.	lot sorts_objets_041
+sort	321501		Description	091f316103ae	Absorbe les dégâts des Arcanes et de Nature.  Dure $d.  Inutilisable en arène et en champ de bataille.	lot sorts_objets_041
+sort	321501		Name	18c98ff74dea	Protection de Meleath	lot sorts_objets_041
+sort	321501		ToolTip	615d19dbee20	Absorbe ${$w1} points de dégâts des Arcanes et de Nature.	lot sorts_objets_041
+sort	321504		Description	ed80a4de5616	Empoisonne l'ennemi, lui infligeant ${$m1+0} points de dégâts de Nature toutes les $t1 sec. pendant $d. (2ppm)	lot sorts_objets_041
+sort	321504		Name	0b6d7799cfd9	Venin d'Ula-Tek	lot sorts_objets_041
+sort	321507		ToolTip	70ddf733ed55	Vous rend ${$PL*15} points de vie.	lot sorts_objets_041
+sort	321510		Name	c2d0eca6697d	Lumière des Hauts-nés - Pantin d'effet d'objet	lot sorts_objets_041
+sort	321514		Name	d5a0eb79213e	Œil verdoyant - Pantin d'effet d'objet	lot sorts_objets_041
+sort	321518		Name	d0470dccc0b5	Déclenchement de la malédiction du sorcier sinistre	lot sorts_objets_041
+sort	321522		Description	9a3954b78dac	Clic droit pour invoquer ou renvoyer le Chaton joyeux	lot sorts_objets_041
+sort	321526		Name	40d36b73cff2	Hache de grunt usée, Croc détaché de la mère, Croc dégoulinant de Githyiss - pantin d'effet d'objet	lot sorts_objets_041
+sort	321530		Name	4157fc8f946a	Perce-cœur de Cœurmorne - pantin d'effet d'objet	lot sorts_objets_041
+sort	321537		Name	a739dc21e9f1	Échelle cachée de 3%	lot sorts_objets_041
+sort	321537		ToolTip	30dee8ebd67e	Vous sentez que vous grandissez d'un petit centimètre	lot sorts_objets_041
+sort	321552		Description	a8a0ab611db9	Clic droit pour invoquer ou renvoyer le Monstre de vase amical	lot sorts_objets_041
+sort	321552		Name	867343d12a21	Monstre de vase amical	lot sorts_objets_041
+sort	321556		Description	18d0f3a81142	Clic droit pour invoquer ou renvoyer le Suintant en bouteille	lot sorts_objets_041
+sort	321563		Description	a8dead99eb9b	Une éruption d'arcanes frappe la zone autour du porteur pour ${$m1+0} points de dégâts des Arcanes. (2ppm)	lot sorts_objets_041
+sort	321569		Description	0096071f7367	Permet de regarder à travers l'Œil du crépuscule jumelé situé dans le Mont Rochenoire. Dure $d. Utilisable uniquement dans les Royaumes de l'est.  @ext:This ability is usable while shapeshifted. Not usable in High-Risk.:ext@	lot sorts_objets_041
+sort	321569		Name	025fa86dd7ee	Regard du crépuscule	lot sorts_objets_041
+sort	321569		ToolTip	a9210118ea42	Impossible de bouger pendant l'utilisation de Regard du crépuscule.	lot sorts_objets_041
+sort	321583		Description	64721a84234c	Clic droit pour invoquer ou renvoyer le Guetteur des tomes	lot sorts_objets_041
+sort	321583		Name	430bb972c944	Guetteur des tomes	lot sorts_objets_041
+sort	321587		Description	1a9c7978546a	Brûle une cible pour ${$PL*1.68} points de dégâts de Feu. (1.6ppm)	lot sorts_objets_041
+sort	321587		Name	89f28da63a04	Brûlâme	lot sorts_objets_041
+sort	321590		Name	b0e26d978111	Potion de sauvetage de la recrue	lot sorts_objets_041
+sort	321593		Name	d7581ecd8ffc	Restauration de la tombe	lot sorts_objets_041
+sort	321596		Name	c3d38af30a0a	Potion d'herbes entièrement naturelle	lot sorts_objets_041
+sort	321599		Name	52130ded34d3	Potion teintée d'arcanes	lot sorts_objets_041
+sort	321602		Name	e7d3d67a40c0	Mixture régénérante du novice	lot sorts_objets_041
+sort	321605		Description	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	321605		Name	5b4d089349dc	Énergie d'arkonite	lot sorts_objets_041
+sort	321605		ToolTip	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	321608		Description	570de0a3d025	Augmente votre puissance des sorts du Sacré de $s1 pendant $d.	lot sorts_objets_041
+sort	321608		ToolTip	30197ee94fe3	Puissance des sorts du Sacré augmentée de $s1.	lot sorts_objets_041
+sort	321626		Name	541144b616cc	Châtiment du crépuscule	lot sorts_objets_041
+sort	321629		Name	3c20753f0b37	Sort d'objet Foudrassé	lot sorts_objets_041
+sort	355009		Description	14a30e516cf8	Augmente de $s2 les dégâts de base de Éclair, Horion de flammes, Horion de terre et Horion de givre, et augmente de $s3 les soins prodigués par votre Vague de soins.	lot sorts_objets_041
+sort	355016		Name	28a3051d56cd	Compétence en pêche + 5	lot sorts_objets_041
+sort	355017		Name	b0f6ac46a9cf	Compétence en forge + 5	lot sorts_objets_041
+sort	355018		Description	c6e1e975dc5f	Clic droit pour invoquer ou renvoyer le Flagellant docile du Bois brumeux.	lot sorts_objets_041
+sort	355018		Name	adf8904e756e	Flagellant docile du Bois brumeux	lot sorts_objets_041
+sort	355023		Description	b3242c1b6e1a	Rend $s1 points de vie, puis $s2 points de vie supplémentaires par seconde pendant $d. Les dégâts infligés sont réduits de $s3% tant que cet effet est actif.	lot sorts_objets_041
+sort	355023		ToolTip	514c9117d8d8	Dégâts infligés réduits de $s3%.\r\n\r\nRend $s2 points de vie par seconde.	lot sorts_objets_041
+sort	355025		Name	215ed40e1d8e	Fléau de désolation	lot sorts_objets_041
+sort	355025		ToolTip	e6d0c09a48ba	$s1 points de dégâts de Peste infligés toutes les $t1 sec.	lot sorts_objets_041
+sort	355026		Name	6cbabc590135	Protection de Falitha	lot sorts_objets_041
+sort	355026		ToolTip	adedc7bed3f4	Absorbe ${$w1} points de dégâts de Feu et de Givre.	lot sorts_objets_041
+sort	355027		Name	8a541d28012d	Protection de Shan'dor	lot sorts_objets_041
+sort	355027		ToolTip	e952b8a3d140	Absorbe ${$w1} points de dégâts d'Ombre et du Sacré.	lot sorts_objets_041
+sort	355028		Name	18c98ff74dea	Protection de Meleath	lot sorts_objets_041
+sort	355028		ToolTip	615d19dbee20	Absorbe ${$w1} points de dégâts des Arcanes et de Nature.	lot sorts_objets_041
+sort	355034		Name	0b6d7799cfd9	Venin d'Ula-Tek	lot sorts_objets_041
+sort	355036		ToolTip	70ddf733ed55	Vous rend ${$PL*15} points de vie.	lot sorts_objets_041
+sort	355037		Name	c2d0eca6697d	Lumière des Hauts-nés - Pantin d'effet d'objet	lot sorts_objets_041
+sort	355040		Name	d5a0eb79213e	Œil verdoyant - Pantin d'effet d'objet	lot sorts_objets_041
+sort	355043		Name	d0470dccc0b5	Déclenchement de la malédiction du sorcier sinistre	lot sorts_objets_041
+sort	355045		Description	9a3954b78dac	Clic droit pour invoquer ou renvoyer le Chaton joyeux	lot sorts_objets_041
+sort	355046		Name	40d36b73cff2	Hache de grunt usée, Croc détaché de la mère, Croc dégoulinant de Githyiss - pantin d'effet d'objet	lot sorts_objets_041
+sort	355048		Name	4157fc8f946a	Perce-cœur de Cœurmorne - pantin d'effet d'objet	lot sorts_objets_041
+sort	355059		Name	a739dc21e9f1	Échelle cachée de 3%	lot sorts_objets_041
+sort	355059		ToolTip	30dee8ebd67e	Vous sentez que vous grandissez d'un petit centimètre	lot sorts_objets_041
+sort	355081		Description	a8a0ab611db9	Clic droit pour invoquer ou renvoyer le Monstre de vase amical	lot sorts_objets_041
+sort	355081		Name	867343d12a21	Monstre de vase amical	lot sorts_objets_041
+sort	355082		Description	18d0f3a81142	Clic droit pour invoquer ou renvoyer le Suintant en bouteille	lot sorts_objets_041
+sort	355090		Name	025fa86dd7ee	Regard du crépuscule	lot sorts_objets_041
+sort	355090		ToolTip	a9210118ea42	Impossible de bouger pendant l'utilisation de Regard du crépuscule.	lot sorts_objets_041
+sort	355108		Description	64721a84234c	Clic droit pour invoquer ou renvoyer le Guetteur des tomes	lot sorts_objets_041
+sort	355108		Name	430bb972c944	Guetteur des tomes	lot sorts_objets_041
+sort	355109		Name	89f28da63a04	Brûlâme	lot sorts_objets_041
+sort	417919		Name	b0e26d978111	Potion de sauvetage de la recrue	lot sorts_objets_041
+sort	417920		Name	d7581ecd8ffc	Restauration de la tombe	lot sorts_objets_041
+sort	417921		Name	c3d38af30a0a	Potion d'herbes entièrement naturelle	lot sorts_objets_041
+sort	417922		Name	52130ded34d3	Potion teintée d'arcanes	lot sorts_objets_041
+sort	417923		Name	e7d3d67a40c0	Mixture régénérante du novice	lot sorts_objets_041
+sort	417924		Description	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	417924		Name	5b4d089349dc	Énergie d'arkonite	lot sorts_objets_041
+sort	417924		ToolTip	009a2082f9be	Augmente la puissance des sorts et la puissance d'attaque de $s1 pendant $d.	lot sorts_objets_041
+sort	417925		Description	570de0a3d025	Augmente votre puissance des sorts du Sacré de $s1 pendant $d.	lot sorts_objets_041
+sort	417925		ToolTip	30197ee94fe3	Puissance des sorts du Sacré augmentée de $s1.	lot sorts_objets_041
+sort	809920		Name	541144b616cc	Châtiment du crépuscule	lot sorts_objets_041
+sort	809921		Name	3c20753f0b37	Sort d'objet Foudrassé	lot sorts_objets_041

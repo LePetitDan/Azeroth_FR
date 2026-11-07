@@ -52,3 +52,46 @@ Commande nouvelle `lots.py completer` : ajoute au plan les lots des familles qui
 ## 5. Contrôles
 
 Banc hors jeu **conforme** : 128 exemples, 272 vérifications, dont les nouveaux (nom d'Épreuve balayé, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, trois émotes, catégorie d'objets limités, titre, famille, suffixe, faction dans la fenêtre de réputation). Source : 1 453 531 lignes.
+
+## 6. Version 0.9.1 : les retours de l'essai 8
+
+*Dan joue la 0.9.0 jusqu'au niveau 10 et envoie ses captures (`essais/2026-11-07_essai8/RESULTAT.md`, n° 1 à 22). Plafond d'API relevé à 75 $ par Dan.*
+
+### Ce qui manquait à la source
+
+Nouvelle famille `sorts_objets` (`textes/client/sorts_objets.tsv`, collecte `collecte/scripts/coa-core/export_sorts_objets.py`, lecture seule de la base CoA Core) : **17 123 sorts**, 43 776 textes, absents des autres familles :
+
+| D'où | Sorts |
+|---|---:|
+| déclenchés par un objet (`item_template`, lignes « Utiliser : ») | 14 768 |
+| rangs 2 et plus des sorts de classe (`spell_ranks`), sorts des maîtres (`trainer_spell`) | 1 770 |
+| auras des Épreuves (`coa_challenge_spell`) | 584 |
+| vus en jeu (barre d'incantation « Looting ») | 1 |
+
+**15 607 textes** reprennent le français déjà présent d'un même anglais (un seul français ; l'officiel l'emporte sur une traduction machine), 26 129 sont traduits par l'API (chantier J). Restent en anglais 1 994 textes : 1 626 que la traduction a laissés en doute (noms techniques, « Bile / Tier 1 »…) et 368 noms internes (« Dummy Pulse », rangs chiffrés).
+
+Famille `vanite` : la table `VanityCollection.dbc` (provenance de chaque objet) et les noms des 10 764 objets de la collection (210 officiels, les autres par le nom de l'objet).
+
+**Le premier texte de chaque table de CoA manquait.** En cherchant « Getting Started » (onglet du Chemin de l'Ascension), introuvable dans la source : les tables réécrites par CoA (patch-M, patch-S, patch-T) commencent leur bloc de textes par un vrai texte, alors que nos lecteurs prenaient l'adresse 0 pour le texte vide (règle des tables de Blizzard). Lecteurs corrigés (`collecte/scripts/officiel_frFR/dbc.py`, `e03_complements_dbc.py`, `client/q3_interface.py` et trois autres), collectes relancées : les fichiers de Blizzard ressortent identiques, ceux de CoA gagnent **209 textes**, dont 182 officiels : la zone « Dun Morogh », le point de vol « Abbaye de Comté-du-nord », la famille « Loup », « Forme de félin », « Enclume », « Cavernes des lamentations », « Vallée d'Alterac », « Foire de Sombrelune », l'émote « %s est bien d'accord avec %s. », 154 suffixes « d'Intelligence »… Les six textes sans officiel (« Getting Started » → « Démarrer », comme le message du mentorat, un objectif, « Familier - seigneur des fosses », « Épique ») sont traduits à la main par Claude, au même contrôle d'entrée.
+
+### Ce que l'add-on fait de plus
+
+| Endroit | Comment |
+|---|---|
+| Lignes « Utiliser : » avec temps de recharge (pierre de foyer) | La parenthèse finale « (30 min de recharge) » est mise de côté pour retrouver le sort, puis remise |
+| Bulles remplies après leur affichage (règles des Épreuves) | Relecture à chaque `Show()` |
+| Barres d'incantation | Le nom du sort, quand tous les sorts de ce nom ont le même français |
+| Tutoriels du Chemin de l'Ascension | Comparaison sans liens ni couleurs (le client rend les mots-clés en liens) ; objectifs refaits après leur affichage ; annexe des mots-clés ; liste du mentorat ligne par ligne ; « Démarrer 0 (5) / 8 » |
+| Collection de vanité | Noms entre crochets, en couleur, en capitales ; provenance |
+| Bulles de talents | Sorts cités sous le talent (nom et description, sans numéro) ; descriptions à **conditionnelles collées** (chaque condition est essayée vraie puis fausse, la même en anglais et en français ; le français n'est posé que si une seule lecture colle) |
+| `/azfr tuto`, `/azfr bulle` | Diagnostic : texte reçu par le tutoriel ; « [anglais : …] » seulement si la ligne a été traduite |
+
+### Contrôles
+
+Source reconstruite : 1 520 621 lignes ; contrôle **0 bloquant** ; faux cas refusés 57/57, vrais cas acceptés 33/33. Banc hors jeu **conforme** : 138 exemples, 287 vérifications, dont la pierre de foyer à recharge, la bulle d'Épreuve remplie après coup, le tutoriel à mots-clés liés, l'annexe, le mentorat, la barre « Looting », la vanité (crochets, capitales), le talent « Storm Chaser » et un sort cité sous un talent. Dépense d'API estimée : **73,98 $ / 75 $**. Zip `Azeroth_FR-0.9.1.zip` (24,7 Mo).
+
+### Pour la 0.9.2 (vu au niveau 10)
+
+- **Hauts faits** : la fenêtre n'est pas branchée (seuls les liens de la discussion étaient traduits) ; le français actuel est une traduction machine de la release 3.5.1, alors que le client frFR de Blizzard en a les officiels (1 357 noms, 1 244 descriptions, 99 récompenses, 6 671 critères au même numéro et au même anglais). Les catégories et les critères propres à CoA (33 261 critères, dont 15 537 textes distincts sans officiel) demandent une décision de budget.
+- **Fenêtre des talents de CoA** : libellés écrits en dur dans le code de CoA (« Change Active Specialization »), cartes de spécialisation ; noms de classe et d'arbre en capitales (`:upper()`).
+- Écran des personnages (avant-jeu) : plus tard.

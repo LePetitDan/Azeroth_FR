@@ -510,7 +510,7 @@ FAMILLES_ADDON = [
     # recherche de groupe, champs de bataille, titres, fêtes…) : une table par texte anglais (XT), et la liste des
     # gabarits d'émotes à noms (EM)
     ('client', ['client/epreuves.tsv', 'client/creation_personnage.tsv', 'client/tutoriels.tsv', 'client/progression.tsv',
-                'client/monde_client.tsv', 'client/noms_client.tsv'], 'Textes du client CoA', True),
+                'client/monde_client.tsv', 'client/noms_client.tsv', 'client/vanite.tsv'], 'Textes du client CoA', True),
 ]
 FICHIERS_CLIENT_09 = set(FAMILLES_ADDON[-1][1])
 # 0.9 : les noms de ces types vont AUSSI dans une table de noms (A.Nom), pour les endroits qui ne passent que le nom :
@@ -519,7 +519,8 @@ DOMAINE_PAR_TYPE_09 = {'propriete_aleatoire': 'suffixe', 'famille_creature': 'ty
                        'categorie_quete': 'categorie_quete', 'titre': 'titre', 'fete': 'fete',
                        'donjon_recherche': 'donjon', 'groupe_donjon_recherche': 'donjon', 'champ_bataille': 'donjon',
                        'objet_focalisation': 'focalisation', 'categorie_totem': 'focalisation', 'forme': 'forme',
-                       'categorie_limite_objet': 'limite_objet', 'style_coiffure': 'coiffure'}
+                       'categorie_limite_objet': 'limite_objet', 'style_coiffure': 'coiffure',
+                       'coa_vanite_objet': 'vanite'}
 # Fichiers jamais lus par la partie generique : deja traites ci-dessus, l'interface (PTRXML), ou hors du
 # champ de l'add-on (hauts faits, messages techniques du serveur, objets du monde).
 HORS_GENERIQUE = {'serveur/quetes.tsv', 'serveur/dialogues.tsv', 'serveur/creatures.tsv',
@@ -549,7 +550,7 @@ TABLES_NOMS = {'faction': 'NF', 'zone': 'NZ', 'competence': 'NK', 'sous_classe':
                'objet_quete': 'NOQ',
                # add-on 0.9
                'categorie_quete': 'NCQ', 'titre': 'NTI', 'fete': 'NFE', 'donjon': 'NDJ', 'focalisation': 'NFO',
-               'forme': 'NFM', 'limite_objet': 'NLO', 'coiffure': 'NCF'}
+               'forme': 'NFM', 'limite_objet': 'NLO', 'coiffure': 'NCF', 'vanite': 'NVA'}
 # Domaines ou un meme anglais aux francais differents n'est PAS embarque (ambigu : l'anglais reste)
 DOMAINES_STRICTS = {'enchantement', 'objet_quete'}
 # add-on 0.5 : objets demandes ou ramasses pour les quetes (quest_template de la base CoA reconstruite, numeros seulement)
@@ -668,6 +669,19 @@ def gabarit_nombres(en, fr):
     if sorted(x[1] for x in places) != sorted(x[1] for x in out if isinstance(x, list)):
         return None
     return canon(cle), tout, [x for x in out if x != '']
+
+
+def forme_tutoriel(t):
+    """Comme FormeTutoriel (Modules/ClientCoA.lua) : sans couleurs ni liens, minuscules ASCII (string.lower de Lua)."""
+    t = re.sub(r'\|c[0-9a-fA-F]{8}', '', t)
+    t = t.replace('|r', '')
+    t = re.sub(r'\|H.*?\|h\[?(.*?)\]?\|h', r'\1', t)
+    return re.sub(r'[A-Z]+', lambda m: m.group(0).lower(), t)
+
+
+def majuscules_lua(t):
+    """string.upper de Lua 5.1 (locale C) : a-z seulement ; les lettres accentuées restent telles quelles."""
+    return re.sub(r'[a-z]+', lambda m: m.group(0).upper(), t)
 
 
 def formes_titre(en, fr):
@@ -829,6 +843,17 @@ class Fabrique:
                 for en2, fr2 in formes_titre(en, fr):
                     self.ajouter_texte(t, en2, fr2, l[K.I_ETAT], cands)
                     self.cpt['client']['formes_titre'] += 1
+            if typ in ('coa_tutoriel', 'coa_tutoriel_mot_cle', 'coa_tutoriel_objectif') and fr:
+                # essai 8 : le client rend ces textes avec les mots-clés en liens colorés et en capitale : forme sans
+                # liens ni couleurs, en minuscules (A.TexteTutoriel)
+                fm = forme_tutoriel(en)
+                if fm != en:
+                    self.ajouter_texte(t, fm, fr, l[K.I_ETAT], cands)
+                    self.cpt['client']['formes_tutoriel'] += 1
+            if typ in ('coa_vanite', 'coa_vanite_objet') and fr:
+                # la fenêtre de vanité écrit le nom et la provenance en capitales (strupper : lettres ASCII seulement)
+                self.ajouter_texte(t, majuscules_lua(en), majuscules_lua(fr), l[K.I_ETAT], cands)
+                self.cpt['client']['formes_majuscules'] += 1
             if typ == 'emote' and 0 < en.count('%s') == fr.count('%s') <= 2 and '%' not in en.replace('%s', ''):
                 gabarits.setdefault(en, fr)
             g = gabarit_nombres(en, fr)
