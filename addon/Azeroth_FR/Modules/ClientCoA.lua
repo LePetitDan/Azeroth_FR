@@ -12,8 +12,10 @@
 --     (on refait la mise en page comme OnHide : reserves videes, hauteur 58) ;
 --   - fenetres CoA (Epreuves ChallengesFrame, Chemin de l'Ascension PathToAscensionFrame, Collections…) et
 --     fenetres Blizzard nourries par des tables du client (recherche de groupe, calendrier, champs de bataille,
---     salon de coiffure) : tant qu'elles sont visibles, leurs zones de texte (FontString) sont relues toutes les
---     0,4 s ; une zone dont le texte est EXACTEMENT un texte connu (ou un gabarit a nombres) recoit son francais ;
+--     salon de coiffure, titres) ou par des noms deja traduits (reputation, competences, trajets aeriens, amis et
+--     guilde, sauvegardes d'instance, metiers) : tant qu'elles sont visibles, leurs zones de texte (FontString) sont
+--     relues toutes les 0,4 s ; une zone dont le texte est EXACTEMENT un texte connu (ou un gabarit a nombres), ou
+--     EXACTEMENT un nom du domaine de la fenetre, recoit son francais ;
 --   - emotes (CHAT_MSG_TEXT_EMOTE, texte compose par le client depuis EmotesTextData.dbc) : filtre de messages ;
 --   - infobulles simples : chaque ligne est cherchee telle quelle (description d'une regle d'Epreuve, d'un jeton…).
 -- Rien n'est ecrit dans les tables du jeu : seulement des crochets (hooksecurefunc, HookScript) et SetText.
@@ -77,12 +79,38 @@ function A.TexteClient(texte)
     return ParGabarit(texte)
 end
 
--- Une zone de texte : son francais si son texte entier est connu.
-local function Zone(zone)
+-- Une zone de texte : son francais si son texte entier est connu (textes du client), ou si c'est EXACTEMENT un nom
+-- connu d'un des domaines donnes (zones, factions, competences…), espaces de bord gardes.
+local function NomConnu(t, domaines)
+    if not domaines then return nil end
+    local avant, coeur, apres = match(t, "^(%s*)(.-)(%s*)$")
+    if not coeur or coeur == "" or #coeur > 120 then return nil end
+    for i = 1, #domaines do
+        local d = domaines[i]
+        local fr
+        if d == "sort" then
+            fr = A.NomSortParNom and A.NomSortParNom(coeur)
+        else
+            fr = A.Nom(d, coeur)
+        end
+        if fr and fr ~= coeur then return avant .. fr .. apres end
+    end
+    return nil
+end
+
+local function Zone(zone, domaines)
     if not zone or type(zone.GetText) ~= "function" then return false end
     local t = zone:GetText()
     if not t or t == "" or A.DejaEcrit(zone, t) then return false end
     local fr = A.TexteClient(t)
+    if fr then
+        -- la recherche se fait sur la forme canonique (bords ôtés) : on remet les espaces de bord de l'affichage
+        local avant, apres = match(t, "^([ \t]*)"), match(t, "([ \t]*)$")
+        if avant ~= "" and sub(fr, 1, #avant) ~= avant then fr = avant .. fr end
+        if apres ~= "" and apres ~= t and sub(fr, -#apres) ~= apres then fr = fr .. apres end
+    else
+        fr = NomConnu(t, domaines)
+    end
     if fr and fr ~= t then
         A.Ecrire(zone, fr)
         return true
@@ -92,20 +120,27 @@ end
 A.ZoneClient = Zone
 
 -- ----------------------------------------------------------------------------
--- Balayage des fenetres visibles
+-- Balayage des fenetres visibles : { nom du cadre, domaines de noms essayes apres les textes du client }
 -- ----------------------------------------------------------------------------
+local LIEUX = { "zone", "donjon" }
+local PERSONNES = { "zone", "classe", "race" }
 local RACINES = {
     -- CoA
-    "ChallengesFrame", "PathToAscensionFrame", "Collections", "ManastormObjectiveTracker", "MythicPlusObjectiveTracker",
-    "SocketKeystoneFrame", "DraftHelpFrame", "HelpMenuFrame",
-    -- Blizzard, nourries par les tables du client
-    "LFDParentFrame", "LFRParentFrame", "CalendarFrame", "CalendarViewHolidayFrame", "WorldStateAlwaysUpFrame",
-    "WorldStateScoreFrame", "BarberShopFrame", "PVPBattlegroundFrame", "BattlefieldFrame", "TokenFrame",
-    "PlayerTitlePickerFrame", "PlayerTitleFrame", "PetPaperDollFrame",
+    { "ChallengesFrame" }, { "PathToAscensionFrame" }, { "Collections" }, { "ManastormObjectiveTracker" },
+    { "MythicPlusObjectiveTracker" }, { "SocketKeystoneFrame" }, { "DraftHelpFrame" }, { "HelpMenuFrame" },
+    -- Blizzard, nourries par les tables du client ou par des noms deja traduits
+    { "LFDParentFrame", LIEUX }, { "LFRParentFrame", LIEUX }, { "PVPBattlegroundFrame", LIEUX }, { "BattlefieldFrame", LIEUX },
+    { "CalendarFrame", { "fete" } }, { "CalendarViewHolidayFrame", { "fete" } }, { "WorldStateAlwaysUpFrame" },
+    { "WorldStateScoreFrame", LIEUX }, { "BarberShopFrame", { "coiffure" } }, { "PlayerTitlePickerFrame", { "titre" } },
+    { "PlayerTitleFrame", { "titre" } }, { "PetPaperDollFrame", { "type_creature" } }, { "TokenFrame", { "competence" } },
+    -- 0.9 : fenetres du § 1 de l'inventaire dont les textes sont des noms deja traduits
+    { "ReputationFrame", { "faction" } }, { "ReputationDetailFrame", { "faction" } }, { "SkillFrame", { "competence" } },
+    { "TaxiFrame", LIEUX }, { "FriendsFrame", PERSONNES }, { "WhoFrame", PERSONNES }, { "GuildFrame", PERSONNES },
+    { "RaidInfoFrame", LIEUX }, { "TradeSkillFrame", { "competence", "sort" } }, { "CraftFrame", { "competence", "sort" } },
 }
 local LIMITE = 4000           -- zones de texte lues au plus par passe et par fenetre
 
-local function Parcourir(cadre, budget, profondeur)
+local function Parcourir(cadre, budget, profondeur, domaines)
     if budget.n <= 0 or profondeur > 14 or not cadre or type(cadre.IsVisible) ~= "function" or not cadre:IsVisible() then
         return
     end
@@ -115,19 +150,19 @@ local function Parcourir(cadre, budget, profondeur)
             local r = regions[i]
             if r and r.GetObjectType and r:GetObjectType() == "FontString" and r:IsVisible() then
                 budget.n = budget.n - 1
-                Zone(r)
+                Zone(r, domaines)
             end
         end
     end
     if type(cadre.GetChildren) == "function" then
         local enfants = { cadre:GetChildren() }
-        for i = 1, #enfants do Parcourir(enfants[i], budget, profondeur + 1) end
+        for i = 1, #enfants do Parcourir(enfants[i], budget, profondeur + 1, domaines) end
     end
 end
 
-function A.BalayerFenetre(cadre)
+function A.BalayerFenetre(cadre, domaines)
     if not A.ModuleActif("client") or not cadre then return end
-    Parcourir(cadre, { n = LIMITE }, 0)
+    Parcourir(cadre, { n = LIMITE }, 0, domaines)
 end
 
 local veille = CreateFrame("Frame")
@@ -138,8 +173,8 @@ veille:SetScript("OnUpdate", P("ClientCoA.veille", function(self, dt)
     ecoule = 0
     if not A.ModuleActif("client") then return end
     for i = 1, #RACINES do
-        local c = _G[RACINES[i]]
-        if c and type(c.IsVisible) == "function" and c:IsVisible() then A.BalayerFenetre(c) end
+        local c = _G[RACINES[i][1]]
+        if c and type(c.IsVisible) == "function" and c:IsVisible() then A.BalayerFenetre(c, RACINES[i][2]) end
     end
 end, true))
 

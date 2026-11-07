@@ -1053,6 +1053,10 @@ def cas_09(globales):
         cas.append({'quoi': 'ligne_objet', 'nom': 'ligne « %s » (catégorie d\'objets limités)' % (en_g % (li[K.I_EN], 1)),
                     'ligne': cur.replace('%s', li[K.I_EN]).replace('%d', '1'),
                     'attendu': cur.replace('%s', li[K.I_FR]).replace('%d', '1')})
+    fa = next((x for x in lire('client/factions.tsv') if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Stormwind' and passe(x)), None)
+    if fa:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'réputation : faction « Stormwind » dans ReputationFrame (balayage, noms)',
+                    'cadre': 'ReputationFrame', 'anglais': '  Stormwind', 'attendu': '  ' + fa[K.I_FR], 'domaines': ['faction']})
     for dom, typ, en_n in (('titre', 'titre', 'Corporal'), ('type_creature', 'famille_creature', 'Cat'),
                            ('suffixe', 'propriete_aleatoire', 'of the Bear')):
         src = next((x for x in lignes if x[K.I_TYPE] == typ and passe(x)

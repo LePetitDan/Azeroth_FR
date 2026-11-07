@@ -1111,7 +1111,7 @@ for _, c in ipairs(CAS_LISTE) do
         local f = _G[c.cadre] or NouveauCadre(c.cadre)
         local z = NouvelleZone(c.anglais)
         f.regions, f.enfants, f.visible = { z }, {}, true
-        A.BalayerFenetre(f)
+        A.BalayerFenetre(f, c.domaines)
         egal(c.nom, z:GetText(), c.attendu)
         f.visible = false
     elseif c.quoi == "tutoriel" then

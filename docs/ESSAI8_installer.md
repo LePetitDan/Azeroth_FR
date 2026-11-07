@@ -48,4 +48,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 
 - Source reconstruite : 1 453 531 lignes ; contrôle **0 bloquant** ; faux cas refusés 57/57, vrais cas acceptés 33/33.
 - 57 fichiers Lua vérifiés avec Lua 5.1.
-- Banc hors jeu **conforme** : 127 exemples, 271 vérifications, dont les nouveaux cas de la 0.9 (nom d'Épreuve, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, émotes, catégorie d'objets limités, titre, famille, suffixe).
+- Banc hors jeu **conforme** : 128 exemples, 272 vérifications, dont les nouveaux cas de la 0.9 (nom d'Épreuve, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, émotes, catégorie d'objets limités, titre, famille, suffixe).

@@ -27,7 +27,7 @@ Le français officiel n'est repris qu'avec l'anglais prouvé identique :
 
 ## 2. Traduction (API, chantier I)
 
-Commande nouvelle `lots.py completer` : ajoute au plan les lots des familles qui n'en ont pas, sans toucher aux lots existants. Chantier I : **47 lots, 100 796 mots** (dont les 382 textes de sorts cités par l'interface). Vague 6 et deux relances : **≈ 6,5 $** ; dépense estimée totale **≈ 53,3 $ / 60 $**. Nouveau contrôle : balises HTML et accolades (`{T:…}`, `{page}`, `{1}`) identiques dans les textes CoA.
+Commande nouvelle `lots.py completer` : ajoute au plan les lots des familles qui n'en ont pas, sans toucher aux lots existants. Chantier I : **47 lots, 100 796 mots** (dont les 382 textes de sorts cités par l'interface). Vague 6, deux relances et la vague 7 (lignes libérées après Wowhead) : **≈ 6,5 $** ; dépense estimée totale **53,35 $ / 60 $**. Nouveau contrôle : balises HTML et accolades (`{T:…}`, `{page}`, `{1}`) identiques dans les textes CoA.
 
 ## 3. Affichage (module `ClientCoA.lua`, données `Azeroth_FR_Client`)
 
@@ -41,6 +41,7 @@ Commande nouvelle `lots.py completer` : ajoute au plan les lots des familles qui
 | Objets à suffixe | « … de l'ours » par les suffixes de `ItemRandomProperties` |
 | Journal des quêtes | En-têtes de catégories (fêtes, etc.) |
 | Infobulle d'un familier | Famille (« Félin ») |
+| Réputation, compétences, trajets aériens, amis et guilde, sauvegardes d'instance, métiers (§ 1 de l'inventaire) | Même balayage, mais par les noms déjà traduits (factions, compétences, lieux, classes, races, recettes par le nom du sort) : une zone dont le texte est EXACTEMENT un nom connu |
 
 ## 4. Ce qui ne passe pas par l'add-on
 
@@ -50,4 +51,4 @@ Commande nouvelle `lots.py completer` : ajoute au plan les lots des familles qui
 
 ## 5. Contrôles
 
-Banc hors jeu **conforme** : 127 exemples, 271 vérifications, dont les nouveaux (nom d'Épreuve balayé, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, trois émotes, catégorie d'objets limités, titre, famille, suffixe). Source : 1 453 531 lignes.
+Banc hors jeu **conforme** : 128 exemples, 272 vérifications, dont les nouveaux (nom d'Épreuve balayé, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, trois émotes, catégorie d'objets limités, titre, famille, suffixe, faction dans la fenêtre de réputation). Source : 1 453 531 lignes.
