@@ -89,6 +89,9 @@ CHANTIERS = [
       'rencontres_donjon']),
     ('G', 'Sorts du serveur et sorts standard à revoir', 6, ['sorts_serveur', 'sorts_standard', 'sorts_coa']),
     ('H', 'Hauts faits (et enchantements sans modèle, en attente)', 7, ['hauts_faits', 'enchantements']),
+    # 07/11/2026, add-on 0.9 : ajouté au plan par « completer » (les lots des chantiers A à H ne changent pas)
+    ('I', 'Textes propres au client CoA (0.9)', 8,
+     ['sorts_coa', 'epreuves', 'creation_personnage', 'tutoriels', 'progression', 'monde_client', 'noms_client']),
 ]
 CHANTIERS_QUETES = ('A', 'B')
 # Familles en attente d'une decision de Dan : leurs lots sont au plan mais BLOQUES (aucune decision non tranchee
@@ -361,6 +364,61 @@ def cmd_plan(args):
                                                                        time.time() - t0), JOURNAL_ATELIER)
 
 
+def cmd_completer(args):
+    """Ajoute au plan les lots des familles qui n'en ont pas encore (familles nouvelles, ou vides au moment du plan),
+    dans un chantier nouveau ou existant ; les lots déjà au plan ne changent ni de nom ni de plage.
+
+      python3 -I outils/lots.py completer --chantier I [--familles a,b] [--nom "…"] [--priorite 8]
+    """
+    plan = charger_plan()
+    cid = opt(args, '--chantier')
+    defaut = next((c for c in CHANTIERS if c[0] == cid), None)
+    fams = (opt(args, '--familles') or '').split(',') if opt(args, '--familles') else (defaut[3] if defaut else [])
+    if not cid or not fams:
+        raise SystemExit('ERREUR : --chantier X et --familles a,b (ou un chantier décrit dans CHANTIERS)')
+    for fam in fams:
+        if fam not in FAMILLES:
+            raise SystemExit('ERREUR : famille inconnue : %s' % fam)
+        if plan['familles'].get(fam, {}).get('lots'):
+            raise SystemExit('ERREUR : %s a déjà des lots au plan (%d) : completer ne touche pas aux lots existants'
+                             % (fam, len(plan['familles'][fam]['lots'])))
+    c = next((x for x in plan['chantiers'] if x['id'] == cid), None)
+    if c is None:
+        c = {'id': cid, 'nom': opt(args, '--nom') or (defaut[1] if defaut else cid),
+             'priorite': int(opt(args, '--priorite') or (defaut[2] if defaut else 9)), 'familles': [], 'lots': [],
+             'textes': 0, 'mots': 0, 'mots_bloques': 0}
+        plan['chantiers'].append(c)
+    for fam in fams:
+        F = Famille(fam, tuple(plan['etats']))
+        lots = decouper(F.entrees, plan['mots_max'], plan['textes_max'])
+        noms = []
+        for i, lot in enumerate(lots, 1):
+            nom = '%s_%03d' % (fam, i)
+            if nom in plan['lots']:
+                raise SystemExit('ERREUR : le lot %s existe déjà au plan' % nom)
+            noms.append(nom)
+            plan['lots'][nom] = {'famille': fam, 'debut': list(lot[0]['cles'][0]), 'textes': len(lot),
+                                 'lignes': sum(len(e['cles']) for e in lot), 'mots': sum(e['mots'] for e in lot),
+                                 'plage': plage_texte(fam, [e['cles'][0] for e in lot]), 'chantier': cid,
+                                 'bloque': BLOQUEES.get(fam, ''), 'ajoute': time.strftime('%Y-%m-%d %H:%M')}
+        plan['familles'][fam] = {'textes': len(F.entrees), 'lignes': sum(len(e['cles']) for e in F.entrees),
+                                 'mots': sum(e['mots'] for e in F.entrees), 'lots': noms,
+                                 'techniques_probables': F.techniques, 'bloque': BLOQUEES.get(fam, ''),
+                                 'ajoute': time.strftime('%Y-%m-%d %H:%M')}
+        if fam not in c['familles']:
+            c['familles'].append(fam)
+        c['lots'] += noms
+        K.journal('completer : %-22s %6d textes %8d mots %4d lots -> chantier %s'
+                  % (fam, len(F.entrees), plan['familles'][fam]['mots'], len(noms), cid), JOURNAL_ATELIER)
+    actifs = [n for n in c['lots'] if not plan['lots'][n]['bloque']]
+    c['textes'] = sum(plan['lots'][n]['textes'] for n in actifs)
+    c['mots'] = sum(plan['lots'][n]['mots'] for n in actifs)
+    with open(PLAN_JSON, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(plan, f, ensure_ascii=False, indent=1)
+    ecrire_plan_md(plan)
+    print('chantier %s : %d lots, %d textes, %d mots' % (cid, len(c['lots']), c['textes'], c['mots']))
+
+
 def fmt(n):
     return '{:,}'.format(n).replace(',', ' ')
 
@@ -592,6 +650,11 @@ def a_garder(en):
             out.append(m)
     if '|r' in en:
         out.append('|r ×%d' % en.count('|r'))
+    # 0.9 : balises HTML et accolades des tutoriels CoA ({T:image}, {page}, <h1 align="center">, <br/>, {1}…)
+    vues = Counter(re.findall(r'<[^<>]+>|\{[^{}]*\}', en))
+    for m, n in vues.items():
+        if not (m.startswith('<') and re.fullmatch(r'<[A-Z][A-Za-z ]*>', m)):     # pas « <Shift> » (touches, astuces)
+            out.append(m if n == 1 else '%s ×%d' % (m, n))
     for n in sorted(K.nombres(en), key=lambda x: (len(x), x)):
         out.append(n)
     if '\n' in en:
@@ -1216,11 +1279,11 @@ def cmd_doutes(args):
 
 def main():
     args = sys.argv[1:]
-    if not args or args[0] not in ('plan', 'extraire', 'integrer', 'etat', 'doutes'):
+    if not args or args[0] not in ('plan', 'completer', 'extraire', 'integrer', 'etat', 'doutes'):
         print(__doc__)
         return 1
     cmd = args[0]
-    r = {'plan': cmd_plan, 'extraire': cmd_extraire, 'integrer': cmd_integrer, 'etat': cmd_etat, 'doutes': cmd_doutes}[cmd](args[1:])
+    r = {'plan': cmd_plan, 'completer': cmd_completer, 'extraire': cmd_extraire, 'integrer': cmd_integrer, 'etat': cmd_etat, 'doutes': cmd_doutes}[cmd](args[1:])
     return r or 0
 
 

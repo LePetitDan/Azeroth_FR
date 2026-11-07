@@ -86,6 +86,29 @@ FAMILLES = [
      'Client : sorts propres à CoA hors classes (Spell.dbc de CoA, patch-T) : puissance PvE et PvP des objets'),
     ('interface', 'client/interface.tsv', ('chaine_interface',),
      "Client : textes d'interface (GlobalStrings.dbc), écrans d'avant-jeu et jeu ; id = nom de la variable"),
+    # add-on 0.9 (07/11/2026) : tables du client encore absentes (collecte e03_complements_dbc.py)
+    ('epreuves', 'client/epreuves.tsv',
+     ('coa_epreuve', 'coa_epreuve_regle', 'coa_epreuve_condition', 'coa_epreuve_exigence', 'coa_epreuve_modificateur'),
+     'Client CoA : Épreuves (Challenge.dbc et ses types de règles, conditions, exigences, modificateurs)'),
+    ('creation_personnage', 'client/creation_personnage.tsv',
+     ('coa_archetype', 'coa_archetype_categorie', 'coa_archetype_role', 'coa_guide_role', 'coa_guide_sous_role',
+      'coa_specialisation', 'coa_message_demarrage'),
+     "Client CoA : création de personnage (archétypes, aide au choix de classe, spécialisations), messages de démarrage"),
+    ('tutoriels', 'client/tutoriels.tsv',
+     ('coa_tutoriel', 'coa_tutoriel_mot_cle', 'coa_tutoriel_objectif', 'coa_tutoriel_categorie', 'astuce'),
+     "Client CoA : tutoriels (pages, mots-clés, objectifs) et astuces de l'écran de chargement (GameTips.dbc)"),
+    ('progression', 'client/progression.tsv',
+     ('coa_jeton', 'coa_avancement_categorie', 'coa_avancement_onglet', 'coa_avancement_classe', 'coa_etiquette_sort'),
+     "Client CoA : jetons (TokenTypes.dbc), catégories et onglets de l'avancement du personnage, étiquettes de sorts"),
+    ('monde_client', 'client/monde_client.tsv',
+     ('difficulte_carte', 'donjon_recherche', 'groupe_donjon_recherche', 'champ_bataille', 'etat_monde', 'emote',
+      'objet_focalisation', 'categorie_totem', 'forme', 'style_coiffure', 'categorie_limite_objet'),
+     "Client : difficultés, recherche de groupe, champs de bataille, états du monde, émotes, objets de focalisation, "
+     "totems, formes, salon de coiffure, catégories d'objets limités"),
+    ('noms_client', 'client/noms_client.tsv',
+     ('titre', 'fete', 'fete_description', 'categorie_quete', 'famille_creature', 'propriete_aleatoire'),
+     "Client : titres, fêtes du calendrier, catégories de quêtes, familles de créatures, suffixes « of the Bear » "
+     "(ItemRandomProperties.dbc)"),
 ]
 TRANCHES_OBJETS = [(0, 199999), (200000, 399999), (400000, 999999), (1000000, 1999999), (2000000, None)]
 

@@ -4,7 +4,7 @@ rangées par `collecte/scripts/officiel_frFR/e02_extraire.py` dans `collecte/don
 
 - interface()     : {cle: [(fichier, en_blizzard, fr_blizzard)]}  GlobalStrings.lua / GlueStrings.lua 3.3.5a
 - sorts()         : {(id, champ): (en_blizzard, fr_blizzard)}     Spell.dbc 3.3.5a (champs Name, Rank, Description, ToolTip)
-- dbc()           : {(dbc, id, champ): (en_blizzard, fr_blizzard)}
+- dbc()           : {(dbc, id, champ): (en_blizzard, fr_blizzard)}  (dbc_335 et son complément dbc_335_2)
 - sorts_coa()     : {(id, champ): en}                               Spell.dbc actif de CoA (patch-T)
 - dbc_coa()       : {(dbc, id, champ): (archive, en)}               DBC effectifs du client CoA
 - tdb_quetes()    : {(type, id, champ): (en_tdb, fr_tdb, build)}    base TrinityCore TDB 335.25101
@@ -39,8 +39,16 @@ def sorts():
     return {(r['id'], r['champ']): (r['en_blizzard'], r['fr_blizzard']) for r in _lire(OFF, 'sorts_335.csv.xz')}
 
 
+def _plusieurs(dossier, *noms):
+    """Les fichiers de la collecte 0.2, puis leurs compléments (add-on 0.9 : e03_complements_dbc.py), s'ils existent."""
+    for n in noms:
+        if os.path.exists(os.path.join(dossier, n)):
+            yield from _lire(dossier, n)
+
+
 def dbc():
-    return {(r['dbc'], r['id'], r['champ']): (r['en_blizzard'], r['fr_blizzard']) for r in _lire(OFF, 'dbc_335.csv.xz')}
+    return {(r['dbc'], r['id'], r['champ']): (r['en_blizzard'], r['fr_blizzard'])
+            for r in _plusieurs(OFF, 'dbc_335.csv.xz', 'dbc_335_2.csv.xz')}
 
 
 def sorts_coa():
@@ -48,7 +56,17 @@ def sorts_coa():
 
 
 def dbc_coa():
-    return {(r['dbc'], r['id'], r['champ']): (r['archive'], r['en']) for r in _lire(CLI, 'dbc_coa_en.csv.xz')}
+    return {(r['dbc'], r['id'], r['champ']): (r['archive'], r['en'])
+            for r in _plusieurs(CLI, 'dbc_coa_en.csv.xz', 'dbc_coa_en_2.csv.xz')}
+
+
+def familles_creature_competence():
+    """{famille de créature: compétence SkillLine} du client CoA (CreatureFamily.dbc, e03_complements_dbc.py)."""
+    p = os.path.join(CLI, 'familles_creature_competence.tsv')
+    if not os.path.exists(p):
+        return {}
+    with open(p, encoding='utf-8') as f:
+        return {a: b for a, b in (l.rstrip('\n').split('\t') for l in list(f)[1:] if l.strip())}
 
 
 def tdb_quetes():

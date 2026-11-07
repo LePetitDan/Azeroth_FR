@@ -119,6 +119,8 @@ def lire_couche(racine=None):
 def eligible(l, famille):
     """La ligne `l` de textes/ (10 champs) peut-elle recevoir une traduction de Claude ? Renvoie (bool, raison)."""
     e = l[K.I_ETAT]
+    if l[K.I_SRC] == 'attente_nom_officiel':
+        return False, 'attente_nom_officiel'      # 0.9 : nom officiel de Blizzard à reprendre (décision 31)
     if e in ('a_traduire', 'a_revoir'):
         return True, ''
     if e == 'machine' and l[K.I_SRC] == SOURCE:

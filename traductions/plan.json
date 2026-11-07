@@ -607,12 +607,16 @@
    "bloque": false
   },
   "sorts_coa": {
-   "textes": 0,
-   "lignes": 0,
-   "mots": 0,
-   "lots": [],
+   "textes": 374,
+   "lignes": 382,
+   "mots": 3006,
+   "lots": [
+    "sorts_coa_001",
+    "sorts_coa_002"
+   ],
    "techniques_probables": 0,
-   "bloque": ""
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
   },
   "interface": {
    "textes": 498,
@@ -626,6 +630,111 @@
    ],
    "techniques_probables": 0,
    "bloque": ""
+  },
+  "epreuves": {
+   "textes": 858,
+   "lignes": 946,
+   "mots": 12650,
+   "lots": [
+    "epreuves_001",
+    "epreuves_002",
+    "epreuves_003",
+    "epreuves_004",
+    "epreuves_005",
+    "epreuves_006"
+   ],
+   "techniques_probables": 0,
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "creation_personnage": {
+   "textes": 595,
+   "lignes": 643,
+   "mots": 10163,
+   "lots": [
+    "creation_personnage_001",
+    "creation_personnage_002",
+    "creation_personnage_003",
+    "creation_personnage_004"
+   ],
+   "techniques_probables": 0,
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels": {
+   "textes": 1306,
+   "lignes": 2030,
+   "mots": 67511,
+   "lots": [
+    "tutoriels_001",
+    "tutoriels_002",
+    "tutoriels_003",
+    "tutoriels_004",
+    "tutoriels_005",
+    "tutoriels_006",
+    "tutoriels_007",
+    "tutoriels_008",
+    "tutoriels_009",
+    "tutoriels_010",
+    "tutoriels_011",
+    "tutoriels_012",
+    "tutoriels_013",
+    "tutoriels_014",
+    "tutoriels_015",
+    "tutoriels_016",
+    "tutoriels_017",
+    "tutoriels_018",
+    "tutoriels_019",
+    "tutoriels_020",
+    "tutoriels_021",
+    "tutoriels_022",
+    "tutoriels_023",
+    "tutoriels_024",
+    "tutoriels_025",
+    "tutoriels_026",
+    "tutoriels_027"
+   ],
+   "techniques_probables": 243,
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "progression": {
+   "textes": 601,
+   "lignes": 781,
+   "mots": 4168,
+   "lots": [
+    "progression_001",
+    "progression_002",
+    "progression_003"
+   ],
+   "techniques_probables": 0,
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "monde_client": {
+   "textes": 470,
+   "lignes": 706,
+   "mots": 1498,
+   "lots": [
+    "monde_client_001",
+    "monde_client_002"
+   ],
+   "techniques_probables": 1,
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "noms_client": {
+   "textes": 694,
+   "lignes": 7397,
+   "mots": 1800,
+   "lots": [
+    "noms_client_001",
+    "noms_client_002",
+    "noms_client_003"
+   ],
+   "techniques_probables": 0,
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
   }
  },
  "lots": {
@@ -6043,6 +6152,758 @@
    "plage": "chaine_interface TUTORIAL55 à WORLD_PVP_QUEUED",
    "chantier": "F",
    "bloque": ""
+  },
+  "sorts_coa_001": {
+   "famille": "sorts_coa",
+   "debut": [
+    "sort",
+    "890",
+    "",
+    "Name"
+   ],
+   "textes": 300,
+   "lignes": 308,
+   "mots": 2349,
+   "plage": "sort 890 à 1777060",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "sorts_coa_002": {
+   "famille": "sorts_coa",
+   "debut": [
+    "sort",
+    "1777061",
+    "",
+    "Name"
+   ],
+   "textes": 74,
+   "lignes": 74,
+   "mots": 657,
+   "plage": "sort 1777061 à 9931032",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "epreuves_001": {
+   "famille": "epreuves",
+   "debut": [
+    "coa_epreuve",
+    "5",
+    "",
+    "name"
+   ],
+   "textes": 81,
+   "lignes": 100,
+   "mots": 2503,
+   "plage": "coa_epreuve 5 à 68",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "epreuves_002": {
+   "famille": "epreuves",
+   "debut": [
+    "coa_epreuve",
+    "70",
+    "",
+    "name"
+   ],
+   "textes": 208,
+   "lignes": 236,
+   "mots": 2559,
+   "plage": "coa_epreuve 70 à 182",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "epreuves_003": {
+   "famille": "epreuves",
+   "debut": [
+    "coa_epreuve",
+    "183",
+    "",
+    "name"
+   ],
+   "textes": 120,
+   "lignes": 139,
+   "mots": 2605,
+   "plage": "coa_epreuve 183 à 432",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "epreuves_004": {
+   "famille": "epreuves",
+   "debut": [
+    "coa_epreuve",
+    "433",
+    "",
+    "name"
+   ],
+   "textes": 75,
+   "lignes": 86,
+   "mots": 2552,
+   "plage": "coa_epreuve 433 à 619",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "epreuves_005": {
+   "famille": "epreuves",
+   "debut": [
+    "coa_epreuve",
+    "620",
+    "",
+    "name"
+   ],
+   "textes": 303,
+   "lignes": 314,
+   "mots": 2053,
+   "plage": "coa_epreuve 620 à coa_epreuve_condition 14",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "epreuves_006": {
+   "famille": "epreuves",
+   "debut": [
+    "coa_epreuve_condition",
+    "15",
+    "",
+    "name"
+   ],
+   "textes": 71,
+   "lignes": 71,
+   "mots": 378,
+   "plage": "coa_epreuve_condition 15 à coa_epreuve_modificateur 8",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "creation_personnage_001": {
+   "famille": "creation_personnage",
+   "debut": [
+    "coa_archetype",
+    "1",
+    "",
+    "name"
+   ],
+   "textes": 126,
+   "lignes": 139,
+   "mots": 2618,
+   "plage": "coa_archetype 1 à 25",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "creation_personnage_002": {
+   "famille": "creation_personnage",
+   "debut": [
+    "coa_archetype",
+    "26",
+    "",
+    "name"
+   ],
+   "textes": 124,
+   "lignes": 133,
+   "mots": 2556,
+   "plage": "coa_archetype 26 à 85",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "creation_personnage_003": {
+   "famille": "creation_personnage",
+   "debut": [
+    "coa_archetype",
+    "86",
+    "",
+    "name"
+   ],
+   "textes": 123,
+   "lignes": 127,
+   "mots": 2595,
+   "plage": "coa_archetype 86 à 143",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "creation_personnage_004": {
+   "famille": "creation_personnage",
+   "debut": [
+    "coa_archetype",
+    "144",
+    "",
+    "name"
+   ],
+   "textes": 222,
+   "lignes": 244,
+   "mots": 2394,
+   "plage": "coa_archetype 144 à coa_message_demarrage 12",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_001": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "2",
+    "",
+    "title"
+   ],
+   "textes": 28,
+   "lignes": 44,
+   "mots": 2537,
+   "plage": "coa_tutoriel 2 à 15",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_002": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "16",
+    "",
+    "title"
+   ],
+   "textes": 36,
+   "lignes": 42,
+   "mots": 2687,
+   "plage": "coa_tutoriel 16 à 39",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_003": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "40",
+    "",
+    "title"
+   ],
+   "textes": 35,
+   "lignes": 40,
+   "mots": 2587,
+   "plage": "coa_tutoriel 40 à 75",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_004": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "76",
+    "",
+    "title"
+   ],
+   "textes": 30,
+   "lignes": 37,
+   "mots": 2581,
+   "plage": "coa_tutoriel 76 à 97",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_005": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "98",
+    "",
+    "title"
+   ],
+   "textes": 27,
+   "lignes": 38,
+   "mots": 2683,
+   "plage": "coa_tutoriel 98 à 121",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_006": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "122",
+    "",
+    "title"
+   ],
+   "textes": 58,
+   "lignes": 58,
+   "mots": 2559,
+   "plage": "coa_tutoriel 122 à 150",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_007": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "151",
+    "",
+    "title"
+   ],
+   "textes": 68,
+   "lignes": 68,
+   "mots": 2509,
+   "plage": "coa_tutoriel 151 à 184",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_008": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "193",
+    "",
+    "title"
+   ],
+   "textes": 39,
+   "lignes": 40,
+   "mots": 2624,
+   "plage": "coa_tutoriel 193 à 218",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_009": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "219",
+    "",
+    "title"
+   ],
+   "textes": 41,
+   "lignes": 42,
+   "mots": 2683,
+   "plage": "coa_tutoriel 219 à 241",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_010": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "242",
+    "",
+    "title"
+   ],
+   "textes": 14,
+   "lignes": 20,
+   "mots": 2445,
+   "plage": "coa_tutoriel 242 à 254",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_011": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel",
+    "256",
+    "",
+    "text"
+   ],
+   "textes": 31,
+   "lignes": 116,
+   "mots": 2545,
+   "plage": "coa_tutoriel 256 à coa_tutoriel_mot_cle 3",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_012": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "4",
+    "",
+    "description"
+   ],
+   "textes": 43,
+   "lignes": 47,
+   "mots": 2592,
+   "plage": "coa_tutoriel_mot_cle 4 à 19",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_013": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "20",
+    "",
+    "name"
+   ],
+   "textes": 53,
+   "lignes": 54,
+   "mots": 2659,
+   "plage": "coa_tutoriel_mot_cle 20 à 40",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_014": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "41",
+    "",
+    "name"
+   ],
+   "textes": 42,
+   "lignes": 64,
+   "mots": 2456,
+   "plage": "coa_tutoriel_mot_cle 41 à 58",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_015": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "59",
+    "",
+    "description"
+   ],
+   "textes": 39,
+   "lignes": 41,
+   "mots": 2506,
+   "plage": "coa_tutoriel_mot_cle 59 à 74",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_016": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "75",
+    "",
+    "name"
+   ],
+   "textes": 46,
+   "lignes": 48,
+   "mots": 2579,
+   "plage": "coa_tutoriel_mot_cle 75 à 94",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_017": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "95",
+    "",
+    "name"
+   ],
+   "textes": 44,
+   "lignes": 44,
+   "mots": 2546,
+   "plage": "coa_tutoriel_mot_cle 95 à 118",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_018": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "119",
+    "",
+    "name"
+   ],
+   "textes": 46,
+   "lignes": 48,
+   "mots": 2554,
+   "plage": "coa_tutoriel_mot_cle 119 à 134",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_019": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "135",
+    "",
+    "name"
+   ],
+   "textes": 39,
+   "lignes": 45,
+   "mots": 2565,
+   "plage": "coa_tutoriel_mot_cle 135 à 153",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_020": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "154",
+    "",
+    "name"
+   ],
+   "textes": 42,
+   "lignes": 50,
+   "mots": 2608,
+   "plage": "coa_tutoriel_mot_cle 154 à 171",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_021": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "173",
+    "",
+    "name"
+   ],
+   "textes": 36,
+   "lignes": 40,
+   "mots": 2477,
+   "plage": "coa_tutoriel_mot_cle 173 à 190",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_022": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "191",
+    "",
+    "description"
+   ],
+   "textes": 42,
+   "lignes": 48,
+   "mots": 2568,
+   "plage": "coa_tutoriel_mot_cle 191 à 207",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_023": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "208",
+    "",
+    "name"
+   ],
+   "textes": 53,
+   "lignes": 60,
+   "mots": 2550,
+   "plage": "coa_tutoriel_mot_cle 208 à 227",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_024": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "228",
+    "",
+    "description"
+   ],
+   "textes": 41,
+   "lignes": 45,
+   "mots": 2608,
+   "plage": "coa_tutoriel_mot_cle 228 à 245",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_025": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_mot_cle",
+    "246",
+    "",
+    "description"
+   ],
+   "textes": 91,
+   "lignes": 577,
+   "mots": 2489,
+   "plage": "coa_tutoriel_mot_cle 246 à coa_tutoriel_objectif 65",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_026": {
+   "famille": "tutoriels",
+   "debut": [
+    "coa_tutoriel_objectif",
+    "66",
+    "",
+    "text"
+   ],
+   "textes": 204,
+   "lignes": 235,
+   "mots": 2481,
+   "plage": "coa_tutoriel_objectif 66 à astuce 700",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "tutoriels_027": {
+   "famille": "tutoriels",
+   "debut": [
+    "astuce",
+    "702",
+    "",
+    "text"
+   ],
+   "textes": 38,
+   "lignes": 39,
+   "mots": 833,
+   "plage": "astuce 702 à 761",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "progression_001": {
+   "famille": "progression",
+   "debut": [
+    "coa_jeton",
+    "1",
+    "",
+    "name"
+   ],
+   "textes": 97,
+   "lignes": 174,
+   "mots": 2547,
+   "plage": "coa_jeton 1 à 58",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "progression_002": {
+   "famille": "progression",
+   "debut": [
+    "coa_jeton",
+    "59",
+    "",
+    "name"
+   ],
+   "textes": 300,
+   "lignes": 392,
+   "mots": 1097,
+   "plage": "coa_jeton 59 à coa_etiquette_sort 52",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "progression_003": {
+   "famille": "progression",
+   "debut": [
+    "coa_etiquette_sort",
+    "53",
+    "",
+    "name"
+   ],
+   "textes": 204,
+   "lignes": 215,
+   "mots": 524,
+   "plage": "coa_etiquette_sort 53 à 867",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "monde_client_001": {
+   "famille": "monde_client",
+   "debut": [
+    "difficulte_carte",
+    "57",
+    "",
+    "message"
+   ],
+   "textes": 300,
+   "lignes": 478,
+   "mots": 1026,
+   "plage": "difficulte_carte 57 à style_coiffure 1922",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "monde_client_002": {
+   "famille": "monde_client",
+   "debut": [
+    "style_coiffure",
+    "1923",
+    "",
+    "name"
+   ],
+   "textes": 170,
+   "lignes": 228,
+   "mots": 472,
+   "plage": "style_coiffure 1923 à categorie_limite_objet 48822",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "noms_client_001": {
+   "famille": "noms_client",
+   "debut": [
+    "titre",
+    "123",
+    "",
+    "name"
+   ],
+   "textes": 300,
+   "lignes": 350,
+   "mots": 789,
+   "plage": "titre 123 à famille_creature 360",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "noms_client_002": {
+   "famille": "noms_client",
+   "debut": [
+    "famille_creature",
+    "361",
+    "",
+    "name"
+   ],
+   "textes": 300,
+   "lignes": 3538,
+   "mots": 717,
+   "plage": "famille_creature 361 à propriete_aleatoire 8076",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
+  },
+  "noms_client_003": {
+   "famille": "noms_client",
+   "debut": [
+    "propriete_aleatoire",
+    "8077",
+    "",
+    "name"
+   ],
+   "textes": 94,
+   "lignes": 3509,
+   "mots": 294,
+   "plage": "propriete_aleatoire 8077 à 13677",
+   "chantier": "I",
+   "bloque": "",
+   "ajoute": "2026-11-07 11:04"
   }
  },
  "chantiers": [
@@ -6532,6 +7393,72 @@
    "textes": 5557,
    "mots": 40569,
    "mots_bloques": 10067
+  },
+  {
+   "id": "I",
+   "nom": "Textes propres au client CoA (0.9)",
+   "priorite": 8,
+   "familles": [
+    "sorts_coa",
+    "epreuves",
+    "creation_personnage",
+    "tutoriels",
+    "progression",
+    "monde_client",
+    "noms_client"
+   ],
+   "lots": [
+    "sorts_coa_001",
+    "sorts_coa_002",
+    "epreuves_001",
+    "epreuves_002",
+    "epreuves_003",
+    "epreuves_004",
+    "epreuves_005",
+    "epreuves_006",
+    "creation_personnage_001",
+    "creation_personnage_002",
+    "creation_personnage_003",
+    "creation_personnage_004",
+    "tutoriels_001",
+    "tutoriels_002",
+    "tutoriels_003",
+    "tutoriels_004",
+    "tutoriels_005",
+    "tutoriels_006",
+    "tutoriels_007",
+    "tutoriels_008",
+    "tutoriels_009",
+    "tutoriels_010",
+    "tutoriels_011",
+    "tutoriels_012",
+    "tutoriels_013",
+    "tutoriels_014",
+    "tutoriels_015",
+    "tutoriels_016",
+    "tutoriels_017",
+    "tutoriels_018",
+    "tutoriels_019",
+    "tutoriels_020",
+    "tutoriels_021",
+    "tutoriels_022",
+    "tutoriels_023",
+    "tutoriels_024",
+    "tutoriels_025",
+    "tutoriels_026",
+    "tutoriels_027",
+    "progression_001",
+    "progression_002",
+    "progression_003",
+    "monde_client_001",
+    "monde_client_002",
+    "noms_client_001",
+    "noms_client_002",
+    "noms_client_003"
+   ],
+   "textes": 4898,
+   "mots": 100796,
+   "mots_bloques": 0
   }
  ]
 }

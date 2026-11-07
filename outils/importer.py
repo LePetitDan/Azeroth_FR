@@ -820,8 +820,61 @@ class Importeur:
         'DungeonEncounter': ('rencontre_donjon', 'rencontres_donjon'),
         'SpellItemEnchantment': ('enchantement', 'enchantements'),
     }
+    # Add-on 0.9 (07/11/2026) : tables du client encore absentes (collecte e03_complements_dbc.py)
+    DBC_TYPES_09 = {
+        # propres à CoA : Épreuves
+        'Challenge': ('coa_epreuve', 'epreuves'), 'ChallengeRuleTypes': ('coa_epreuve_regle', 'epreuves'),
+        'ChallengeConditionTypes': ('coa_epreuve_condition', 'epreuves'),
+        'ChallengeRequirementTypes': ('coa_epreuve_exigence', 'epreuves'),
+        'ChallengeModifierTypes': ('coa_epreuve_modificateur', 'epreuves'),
+        # propres à CoA : création de personnage
+        'CharacterCreationArchetypes': ('coa_archetype', 'creation_personnage'),
+        'CharacterCreationArchetypeCategories': ('coa_archetype_categorie', 'creation_personnage'),
+        'CharacterCreationArchetypeRoles': ('coa_archetype_role', 'creation_personnage'),
+        'CharacterCreationClassGuideRoles': ('coa_guide_role', 'creation_personnage'),
+        'CharacterCreationClassGuideSubroles': ('coa_guide_sous_role', 'creation_personnage'),
+        'ChrSpecs': ('coa_specialisation', 'creation_personnage'),
+        'Startup_Strings': ('coa_message_demarrage', 'creation_personnage'),
+        # propres à CoA : tutoriels, astuces
+        'Tutorial': ('coa_tutoriel', 'tutoriels'), 'TutorialKeywords': ('coa_tutoriel_mot_cle', 'tutoriels'),
+        'TutorialObjectives': ('coa_tutoriel_objectif', 'tutoriels'),
+        'TutorialCategories': ('coa_tutoriel_categorie', 'tutoriels'), 'GameTips': ('astuce', 'tutoriels'),
+        # propres à CoA : jetons, avancement, étiquettes de sorts
+        'TokenTypes': ('coa_jeton', 'progression'),
+        'CharacterAdvancementCategories': ('coa_avancement_categorie', 'progression'),
+        'CharacterAdvancementTabTypes': ('coa_avancement_onglet', 'progression'),
+        'CharacterAdvancementClassTypes': ('coa_avancement_classe', 'progression'),
+        'SpellTagTypes': ('coa_etiquette_sort', 'progression'),
+        # Blizzard (français officiel dans patch-frFR-3)
+        'MapDifficulty': ('difficulte_carte', 'monde_client'), 'LFGDungeons': ('donjon_recherche', 'monde_client'),
+        'LFGDungeonGroup': ('groupe_donjon_recherche', 'monde_client'),
+        'BattlemasterList': ('champ_bataille', 'monde_client'), 'WorldStateUI': ('etat_monde', 'monde_client'),
+        'EmotesTextData': ('emote', 'monde_client'), 'SpellFocusObject': ('objet_focalisation', 'monde_client'),
+        'TotemCategory': ('categorie_totem', 'monde_client'), 'SpellShapeshiftForm': ('forme', 'monde_client'),
+        'BarberShopStyle': ('style_coiffure', 'monde_client'),
+        'ItemLimitCategory': ('categorie_limite_objet', 'monde_client'),
+        # Blizzard sans français dans patch-frFR-3 : noms officiels (décision 31)
+        'CharTitles': ('titre', 'noms_client'), 'HolidayNames': ('fete', 'noms_client'),
+        'HolidayDescriptions': ('fete_description', 'noms_client'), 'QuestSort': ('categorie_quete', 'noms_client'),
+        'CreatureFamily': ('famille_creature', 'noms_client'),
+        'ItemRandomProperties': ('propriete_aleatoire', 'noms_client'),
+    }
+    DBC_TYPES.update(DBC_TYPES_09)
     GROUPE_LIEU = ('AreaTable', 'WMOAreaTable', 'AreaPOI', 'Map', 'TaxiNodes')
     TECHNIQUE_DBC = re.compile(r'\b(?:DND|NYI|UNUSED|TEST|QA|DEBUG)\b|^zz|\[PH\]|\bunused\b', re.I)
+    # 0.9 : plus strict sur la casse (« The ultimate test of grit » est un vrai texte), et les tables CoA
+    # marquent leurs restes par DEPRECATED, REUSE, (OLD), PLACEHOLDER
+    TECHNIQUE_DBC_09 = re.compile(r'\b(?:DND|NYI|UNUSED|DEPRECATED|PLACEHOLDER|TODO|DEBUG)\b|^(?:REUSE|QA|TEST|Test|JSB)\b|'
+                                  r'\[PH\]|\(OLD\)|^zz|^Test test$')
+    # 0.9 : tables de Blizzard sans français dans patch-frFR-3 : le nom officiel est à reprendre (décision 31)
+    ATTENTE_NOM_OFFICIEL_09 = ('CharTitles', 'HolidayNames', 'HolidayDescriptions', 'QuestSort', 'CreatureFamily',
+                               'ItemRandomProperties')
+    # 0.9 : même anglais, un seul français officiel dans une table voisine (champ name seulement)
+    SECOURS_TEXTE_09 = {
+        'LFGDungeons': ['lieu'], 'BattlemasterList': ['lieu'], 'LFGDungeonGroup': [],
+        'ItemRandomProperties': ['ItemRandomSuffix'],
+        'QuestSort': ['SkillLine', 'ChrClasses', 'lieu'], 'CreatureFamily': ['SkillLine'],
+    }
 
     def importer_dbc(self):
         """Une ligne par texte des DBC effectifs du client CoA (patch-M, sinon archives de langue). Francais officiel :
@@ -835,6 +888,7 @@ class Importeur:
                 par_texte[(g, champ, K.norm(en))].add(fr)
         coa_ids = defaultdict(set)
         accord = Counter()
+        liens_famille = O.familles_creature_competence()
         for (dbc, i, champ), (arch, en) in sorted(self.coa_dbc.items(), key=lambda x: (x[0][0], self._cle_num(x[0][1]), x[0][2])):
             if dbc not in self.DBC_TYPES:          # ChrClasses : noms de classes dans talents.tsv (type classe)
                 continue
@@ -845,6 +899,27 @@ class Importeur:
             b = self.off_dbc.get((dbc, i, champ))
             g = 'lieu' if dbc in self.GROUPE_LIEU else dbc
             frs = par_texte.get((g, champ, K.norm(en)), set())
+            nouveau = dbc in self.DBC_TYPES_09
+            secours = None
+            if nouveau and champ == 'name' and len(frs) != 1:
+                sk = liens_famille.get(i) if dbc == 'CreatureFamily' else None
+                bs = self.off_dbc.get(('SkillLine', sk, 'name')) if sk else None
+                if bs and bs[1] and O.meme_anglais(en, bs[0]):
+                    secours = (bs[1], 'SkillLine.dbc frFR officiel (patch-frFR-3) : compétence n° %s de cette famille '
+                                      '(CreatureFamily.dbc), même anglais' % sk)
+                elif bs and bs[1] and O.meme_anglais('Pet - ' + en, bs[0]) and bs[1].startswith('Familier - '):
+                    # « Pet - Cat » / « Familier - félin » : la compétence de familier de cette famille, préfixe ôté
+                    nomf = bs[1][len('Familier - '):]
+                    secours = (nomf[:1].upper() + nomf[1:],
+                               'SkillLine.dbc frFR officiel (patch-frFR-3) : compétence n° %s de cette famille (CreatureFamily.dbc), '
+                               '« %s » / « %s », préfixe « Familier - » ôté, majuscule initiale' % (sk, bs[0], bs[1]))
+                for g2 in self.SECOURS_TEXTE_09.get(dbc, []):
+                    if secours:
+                        break
+                    f2 = par_texte.get((g2, 'name', K.norm(en)), set())
+                    if len(f2) == 1:
+                        secours = (next(iter(f2)), '%s frFR officiel (patch-frFR-3) : même anglais, un seul français officiel '
+                                                   'pour ce texte' % ('DBC de lieux' if g2 == 'lieu' else g2 + '.dbc'))
             if b and b[1] and O.meme_anglais(en, b[0]):
                 l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = b[1], 'officiel', 'blizzard_frFR'
                 l[K.I_NOTE] = joindre(note, '%s.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard' % dbc)
@@ -854,7 +929,22 @@ class Importeur:
                 l[K.I_NOTE] = joindre(note, '%s frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte'
                                       % ('DBC de lieux' if g == 'lieu' else dbc + '.dbc'))
                 quoi = 'par_texte'
-            elif self.TECHNIQUE_DBC.search(en):
+            elif secours:
+                l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = secours[0], 'officiel', 'blizzard_frFR'
+                l[K.I_NOTE] = joindre(note, secours[1])
+                quoi = 'par_table_voisine'
+            elif nouveau and self.TECHNIQUE_DBC_09.search(en):
+                l[K.I_ETAT] = 'technique'
+                l[K.I_NOTE] = joindre(note, 'technique=texte de test, interne ou abandonné')
+                quoi = 'technique'
+            elif dbc in self.ATTENTE_NOM_OFFICIEL_09 and b and O.meme_anglais(en, b[0]):
+                # anglais de Blizzard 3.3.5a, mais son français n'est pas dans patch-frFR-3 : nom officiel à reprendre
+                # (décision 31 : Wowhead en français) ; jamais envoyé à la traduction
+                l[K.I_SRC] = 'attente_nom_officiel'
+                l[K.I_NOTE] = joindre(note, 'même anglais que %s.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : '
+                                            'nom officiel à reprendre (décision 31)' % dbc)
+                quoi = 'attente_nom_officiel'
+            elif not nouveau and self.TECHNIQUE_DBC.search(en):
                 l[K.I_ETAT] = 'technique'
                 l[K.I_NOTE] = joindre(note, 'technique=texte de test ou interne')
                 quoi = 'technique'
@@ -1215,6 +1305,77 @@ class Importeur:
         self.cr['harmonise_officiel'] = n
         K.journal('import : %d lignes machine harmonisées sur le français officiel du même anglais' % n)
 
+    def noms_officiels_web(self):
+        """Décisions 23 et 31 : noms officiels de Blizzard absents de nos fichiers, relevés sur Wowhead en français
+        (glossaire/noms_officiels_web.tsv : type, champ, en, fr, id facultatif, url). Une ligne de ce type et de ce champ
+        dont l'anglais est EXACTEMENT celui du relevé prend ce français (état officiel, source wowhead_frFR, adresse
+        en note). Jamais sur relu, officiel ni technique ; contrôle d'une ligne officielle."""
+        p = os.path.join(K.RACINE, 'glossaire', 'noms_officiels_web.tsv')
+        if not os.path.exists(p):
+            return
+        par_en, par_id = {}, {}
+        with open(p, encoding='utf-8') as f:
+            for i, ligne in enumerate(f):
+                c = ligne.rstrip('\n').split('\t')
+                if i == 0 or len(c) < 6 or not c[3]:
+                    continue
+                typ, champ, en, fr, id_, url = (K.desechapper(x) for x in c[:6])
+                (par_id if id_ else par_en)[(typ, champ, en) + ((id_,) if id_ else ())] = (fr, url)
+        n = Counter()
+        for k, l in self.lignes.items():
+            if l[K.I_ETAT] not in ('a_traduire', 'a_revoir', 'machine'):
+                continue
+            t = par_id.get((l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN], l[K.I_ID])) or par_en.get((l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN]))
+            if not t:
+                continue
+            refus = self.controle(l[K.I_EN], t[0], 'officiel', l[K.I_TYPE], k[1])
+            if refus:
+                n['refus'] += 1
+                self.ex('nom_officiel_web_refuse', l)
+                continue
+            ancien = l[K.I_FR] if l[K.I_ETAT] == 'machine' else ''
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = t[0], 'officiel', 'wowhead_frFR'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : '
+                                  + t[1], 'ancienne traduction : ' + cite(ancien, 120) if ancien else '')
+            n[l[K.I_TYPE]] += 1
+        # un type relevé : ses lignes « en attente du nom officiel » absentes du relevé partent à la traduction
+        releves = {k[0] for k in par_en} | {k[0] for k in par_id}
+        for l in self.lignes.values():
+            if l[K.I_SRC] == 'attente_nom_officiel' and l[K.I_TYPE] in releves:
+                l[K.I_SRC] = ''
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], 'absent du relevé Wowhead (glossaire/noms_officiels_web.tsv) : à traduire')
+                n['libere:' + l[K.I_TYPE]] += 1
+        self.cr.update({'nom_officiel_web:' + a: b for a, b in n.items()})
+        K.journal('import : noms officiels relevés sur Wowhead : %s' % dict(n))
+
+    def limites_objets_par_nom(self):
+        """0.9 : une catégorie d'objets limités (« Unique-Equipped: <nom> (1) ») qui porte EXACTEMENT le nom anglais
+        d'un objet prend le français de ce nom s'il est unique (officiel -> officiel, sinon machine)."""
+        noms = defaultdict(set)
+        for l in self.lignes.values():
+            if l[K.I_TYPE] == 'objet' and l[K.I_CHAMP] == 'name' and l[K.I_FR] and l[K.I_ETAT] in ('officiel', 'relu', 'machine'):
+                noms[l[K.I_EN]].add((l[K.I_FR], l[K.I_ETAT] == 'officiel', l[K.I_ID]))
+        n = Counter()
+        for k, l in self.lignes.items():
+            if l[K.I_TYPE] != 'categorie_limite_objet' or l[K.I_ETAT] != 'a_traduire':
+                continue
+            cands = noms.get(l[K.I_EN], set())
+            frs = {c[0] for c in cands}
+            if len(frs) != 1:
+                n['sans_nom_unique'] += 1
+                continue
+            fr = next(iter(frs))
+            off = all(c[1] for c in cands)
+            if self.controle(l[K.I_EN], fr, 'officiel' if off else 'machine', l[K.I_TYPE], k[1]):
+                n['refus'] += 1
+                continue
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'officiel' if off else 'machine', 'nom_objet_meme_anglais'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'même anglais que le nom de l\'objet n° %s : son français'
+                                  % ', '.join(sorted({c[2] for c in cands}, key=self._cle_num)[:3]))
+            n['officiel' if off else 'machine'] += 1
+        self.cr.update({'limite_objet_par_nom:' + a: b for a, b in n.items()})
+        K.journal('import : catégories d\'objets limités nommées comme un objet : %s' % dict(n))
+
     # ------------------------------------------------------------------
     # 6. Ecriture
     # ------------------------------------------------------------------
@@ -1290,6 +1451,8 @@ def main():
     imp.fusionner_relus()
     imp.appliquer_couche()
     imp.harmoniser_officiel()
+    imp.noms_officiels_web()
+    imp.limites_objets_par_nom()
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

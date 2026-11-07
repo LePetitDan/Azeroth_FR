@@ -14,11 +14,11 @@
 | **F** Interface et textes divers | 5 | interface, races, factions, competences, sous_classes_objets, ensembles_objets_client, ensembles_objets, suffixes_objets, courriers, pages_courriers, manastorm, messages_serveur, cpp_en_dur, divers_serveur, rencontres_donjon | 30 | 4 802 | 38 370 | familles entières |
 | **G** Sorts du serveur et sorts standard à revoir | 6 | sorts_serveur, sorts_standard, sorts_coa | 56 | 8 552 | 137 685 | familles entières |
 | **H** Hauts faits (et enchantements sans modèle, en attente) | 7 | hauts_faits, enchantements | 27 | 5 557 | 40 569 (+10 067 mots en attente) | familles entières |
-| **Total** | | | 361 | 66 626 | 718 944 | |
+| **I** Textes propres au client CoA (0.9) | 8 | sorts_coa, epreuves, creation_personnage, tutoriels, progression, monde_client, noms_client | 47 | 4 898 | 100 796 | familles entières |
+| **Total** | | | 408 | 71 524 | 819 740 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
-- `enchantements` (2 025 textes, 10 067 mots) : questions 12a et 12b de glossaire/A_TRANCHER.md (formes d'enchantements sans modèle officiel unique) : rien à traduire tant que Dan n'a pas tranché.
 
 ## Par famille
 
@@ -50,7 +50,14 @@
 | courriers | F | 14 | 14 | 789 | 1 | 0 |
 | rencontres_donjon | F | 172 | 503 | 377 | 1 | 0 |
 | enchantements | H | 2 025 | 3 503 | 10 067 | 7 | 2 267 |
+| sorts_coa | I | 374 | 382 | 3 006 | 2 | 0 |
 | interface | F | 498 | 543 | 7 684 | 4 | 0 |
+| epreuves | I | 858 | 946 | 12 650 | 6 | 0 |
+| creation_personnage | I | 595 | 643 | 10 163 | 4 | 0 |
+| tutoriels | I | 1 306 | 2 030 | 67 511 | 27 | 243 |
+| progression | I | 601 | 781 | 4 168 | 3 | 0 |
+| monde_client | I | 470 | 706 | 1 498 | 2 | 1 |
+| noms_client | I | 694 | 7 397 | 1 800 | 3 | 0 |
 
 ## Les lots
 
@@ -447,11 +454,63 @@
 | `hauts_faits_018` | haut_fait 120482 à 320604 | 300 | 504 | 1634 |
 | `hauts_faits_019` | haut_fait 320605 à 321824 | 300 | 300 | 2023 |
 | `hauts_faits_020` | haut_fait 321878 à haut_fait_categorie 80025 | 256 | 309 | 873 |
-| `enchantements_001` (bloqué) | enchantement 23 à 2259 | 300 | 361 | 1436 |
-| `enchantements_002` (bloqué) | enchantement 2260 à 9999 | 300 | 345 | 2044 |
-| `enchantements_003` (bloqué) | enchantement 10000 à 785134 | 300 | 540 | 1433 |
-| `enchantements_004` (bloqué) | enchantement 785135 à 786606 | 300 | 700 | 1348 |
-| `enchantements_005` (bloqué) | enchantement 786616 à 790438 | 300 | 624 | 1335 |
-| `enchantements_006` (bloqué) | enchantement 790440 à 795370 | 300 | 514 | 1346 |
-| `enchantements_007` (bloqué) | enchantement 795371 à 997151 | 225 | 419 | 1125 |
+| `enchantements_001` | enchantement 23 à 2259 | 300 | 361 | 1436 |
+| `enchantements_002` | enchantement 2260 à 9999 | 300 | 345 | 2044 |
+| `enchantements_003` | enchantement 10000 à 785134 | 300 | 540 | 1433 |
+| `enchantements_004` | enchantement 785135 à 786606 | 300 | 700 | 1348 |
+| `enchantements_005` | enchantement 786616 à 790438 | 300 | 624 | 1335 |
+| `enchantements_006` | enchantement 790440 à 795370 | 300 | 514 | 1346 |
+| `enchantements_007` | enchantement 795371 à 997151 | 225 | 419 | 1125 |
+
+### Chantier I : Textes propres au client CoA (0.9)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `sorts_coa_001` | sort 890 à 1777060 | 300 | 308 | 2349 |
+| `sorts_coa_002` | sort 1777061 à 9931032 | 74 | 74 | 657 |
+| `epreuves_001` | coa_epreuve 5 à 68 | 81 | 100 | 2503 |
+| `epreuves_002` | coa_epreuve 70 à 182 | 208 | 236 | 2559 |
+| `epreuves_003` | coa_epreuve 183 à 432 | 120 | 139 | 2605 |
+| `epreuves_004` | coa_epreuve 433 à 619 | 75 | 86 | 2552 |
+| `epreuves_005` | coa_epreuve 620 à coa_epreuve_condition 14 | 303 | 314 | 2053 |
+| `epreuves_006` | coa_epreuve_condition 15 à coa_epreuve_modificateur 8 | 71 | 71 | 378 |
+| `creation_personnage_001` | coa_archetype 1 à 25 | 126 | 139 | 2618 |
+| `creation_personnage_002` | coa_archetype 26 à 85 | 124 | 133 | 2556 |
+| `creation_personnage_003` | coa_archetype 86 à 143 | 123 | 127 | 2595 |
+| `creation_personnage_004` | coa_archetype 144 à coa_message_demarrage 12 | 222 | 244 | 2394 |
+| `tutoriels_001` | coa_tutoriel 2 à 15 | 28 | 44 | 2537 |
+| `tutoriels_002` | coa_tutoriel 16 à 39 | 36 | 42 | 2687 |
+| `tutoriels_003` | coa_tutoriel 40 à 75 | 35 | 40 | 2587 |
+| `tutoriels_004` | coa_tutoriel 76 à 97 | 30 | 37 | 2581 |
+| `tutoriels_005` | coa_tutoriel 98 à 121 | 27 | 38 | 2683 |
+| `tutoriels_006` | coa_tutoriel 122 à 150 | 58 | 58 | 2559 |
+| `tutoriels_007` | coa_tutoriel 151 à 184 | 68 | 68 | 2509 |
+| `tutoriels_008` | coa_tutoriel 193 à 218 | 39 | 40 | 2624 |
+| `tutoriels_009` | coa_tutoriel 219 à 241 | 41 | 42 | 2683 |
+| `tutoriels_010` | coa_tutoriel 242 à 254 | 14 | 20 | 2445 |
+| `tutoriels_011` | coa_tutoriel 256 à coa_tutoriel_mot_cle 3 | 31 | 116 | 2545 |
+| `tutoriels_012` | coa_tutoriel_mot_cle 4 à 19 | 43 | 47 | 2592 |
+| `tutoriels_013` | coa_tutoriel_mot_cle 20 à 40 | 53 | 54 | 2659 |
+| `tutoriels_014` | coa_tutoriel_mot_cle 41 à 58 | 42 | 64 | 2456 |
+| `tutoriels_015` | coa_tutoriel_mot_cle 59 à 74 | 39 | 41 | 2506 |
+| `tutoriels_016` | coa_tutoriel_mot_cle 75 à 94 | 46 | 48 | 2579 |
+| `tutoriels_017` | coa_tutoriel_mot_cle 95 à 118 | 44 | 44 | 2546 |
+| `tutoriels_018` | coa_tutoriel_mot_cle 119 à 134 | 46 | 48 | 2554 |
+| `tutoriels_019` | coa_tutoriel_mot_cle 135 à 153 | 39 | 45 | 2565 |
+| `tutoriels_020` | coa_tutoriel_mot_cle 154 à 171 | 42 | 50 | 2608 |
+| `tutoriels_021` | coa_tutoriel_mot_cle 173 à 190 | 36 | 40 | 2477 |
+| `tutoriels_022` | coa_tutoriel_mot_cle 191 à 207 | 42 | 48 | 2568 |
+| `tutoriels_023` | coa_tutoriel_mot_cle 208 à 227 | 53 | 60 | 2550 |
+| `tutoriels_024` | coa_tutoriel_mot_cle 228 à 245 | 41 | 45 | 2608 |
+| `tutoriels_025` | coa_tutoriel_mot_cle 246 à coa_tutoriel_objectif 65 | 91 | 577 | 2489 |
+| `tutoriels_026` | coa_tutoriel_objectif 66 à astuce 700 | 204 | 235 | 2481 |
+| `tutoriels_027` | astuce 702 à 761 | 38 | 39 | 833 |
+| `progression_001` | coa_jeton 1 à 58 | 97 | 174 | 2547 |
+| `progression_002` | coa_jeton 59 à coa_etiquette_sort 52 | 300 | 392 | 1097 |
+| `progression_003` | coa_etiquette_sort 53 à 867 | 204 | 215 | 524 |
+| `monde_client_001` | difficulte_carte 57 à style_coiffure 1922 | 300 | 478 | 1026 |
+| `monde_client_002` | style_coiffure 1923 à categorie_limite_objet 48822 | 170 | 228 | 472 |
+| `noms_client_001` | titre 123 à famille_creature 360 | 300 | 350 | 789 |
+| `noms_client_002` | famille_creature 361 à propriete_aleatoire 8076 | 300 | 3538 | 717 |
+| `noms_client_003` | propriete_aleatoire 8077 à 13677 | 94 | 3509 | 294 |
 

@@ -305,6 +305,20 @@ DRAPEAUX_INTERFACE = {'COMBAT_LOG_UNIT_YOU_ENABLED'}
 NOM_PROPRE = re.compile(r"[A-Z][a-z'\-]+(?: [A-Z][a-z'\-]+){1,2}")
 
 
+# 0.9 : textes propres au client CoA (tutoriels en HTML, {T:image}, {page}, {1}…) : balises et accolades identiques.
+# Pas les astuces (GameTips) : « <Shift> » y devient « <Maj> » chez Blizzard.
+BALISE = re.compile(r'<[^<>]+>|\{[^{}]*\}')
+TYPES_BALISES = {'coa_tutoriel', 'coa_tutoriel_mot_cle', 'coa_tutoriel_objectif', 'coa_tutoriel_categorie',
+                 'coa_epreuve', 'coa_epreuve_regle', 'coa_epreuve_condition', 'coa_epreuve_exigence',
+                 'coa_epreuve_modificateur', 'coa_archetype', 'coa_archetype_categorie', 'coa_archetype_role',
+                 'coa_guide_role', 'coa_guide_sous_role', 'coa_specialisation', 'coa_message_demarrage', 'coa_jeton',
+                 'coa_avancement_categorie', 'coa_avancement_onglet', 'coa_avancement_classe', 'coa_etiquette_sort'}
+
+
+def balises(t):
+    return sorted(BALISE.findall(K.norm(t)))
+
+
 def controle(en, fr, etat='machine', regles=(), noms=None, type_=None, cle=None):
     """Renvoie la liste des raisons de refus (vide = accepte).
 
@@ -326,6 +340,8 @@ def controle(en, fr, etat='machine', regles=(), noms=None, type_=None, cle=None)
         r = [x for x in r if x != 'reste_en_anglais']
     if type_ in TYPES_INTERFACE:
         r += controle_interface(en, fr)
+    if type_ in TYPES_BALISES and balises(en) != balises(fr):
+        r.append('balises')
     if etat != 'officiel':
         r += controle_glossaire(en, fr, etat, regles, noms)
     return r

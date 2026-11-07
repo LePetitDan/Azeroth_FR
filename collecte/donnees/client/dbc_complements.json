@@ -1,0 +1,564 @@
+{
+ "composant_frFR": "<componentinfo format=\"1\">\n    <component name=\"wow-frfr\" version=\"12340\" />\n</componentinfo>",
+ "tables": {
+  "Challenge": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "fea6a34e78318c78a917265abf2b79a2e827450d4f9b79325bc87630288242c7",
+   "enregistrements_coa": 297,
+   "textes_coa": 588,
+   "mots_coa": 11381
+  },
+  "ChallengeRuleTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "353aef51c14c018367e679c541cec0dc803c60c3a2b40ecf8c83ba03e98c1dd2",
+   "enregistrements_coa": 127,
+   "textes_coa": 254,
+   "mots_coa": 1620
+  },
+  "ChallengeConditionTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "0336288cc5d18a319c3ba8b0441ea209805e338439dbf48a7317fcc3512d163f",
+   "enregistrements_coa": 18,
+   "textes_coa": 72,
+   "mots_coa": 516
+  },
+  "ChallengeRequirementTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "57314b44ad9a5104e79549d2c6038b49af97a647d751d1852461ae3abc8cfade",
+   "enregistrements_coa": 22,
+   "textes_coa": 43,
+   "mots_coa": 291
+  },
+  "ChallengeModifierTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "5fb4205b3e050c9a4fd5a5447a76d66c4cf81a72a119a8eab308ee1675bb41d1",
+   "enregistrements_coa": 8,
+   "textes_coa": 15,
+   "mots_coa": 41
+  },
+  "CharacterCreationArchetypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "4042891f6c9ab700cff38aac96d7714d85500b86b988f664e8c8f607fa3ed2ff",
+   "enregistrements_coa": 56,
+   "textes_coa": 405,
+   "mots_coa": 8358
+  },
+  "CharacterCreationArchetypeCategories": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "a5919c430b2e5323e2811d1d153ef78a4a962b32f828f04eb4ef1830389b1ebf",
+   "enregistrements_coa": 9,
+   "textes_coa": 27,
+   "mots_coa": 446
+  },
+  "CharacterCreationArchetypeRoles": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "a935ac6cc3199e0d9cb4bb2102dadbcdc8cfd75b06a5e59406d5de8cdb99b33e",
+   "enregistrements_coa": 3,
+   "textes_coa": 9,
+   "mots_coa": 230
+  },
+  "CharacterCreationClassGuideRoles": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "bb54029a2a0c14b082c785967928903e9b3d9a5d548d6edf527eb93627280cb3",
+   "enregistrements_coa": 4,
+   "textes_coa": 8,
+   "mots_coa": 30
+  },
+  "CharacterCreationClassGuideSubroles": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "8fece6699cbdb17729d1db048c3191ea12fc573a6f7448a837bf448c6fec1cb9",
+   "enregistrements_coa": 7,
+   "textes_coa": 14,
+   "mots_coa": 47
+  },
+  "ChrSpecs": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "1a602c618ba0aa24406fe482561d5b98133772d651e069ffc14d7ddd01988894",
+   "enregistrements_coa": 101,
+   "textes_coa": 171,
+   "mots_coa": 1370
+  },
+  "Startup_Strings": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "c4cc19a4103caafa9d9f930201625ebffc8524b25632693d5c4a4019993ad4eb",
+   "enregistrements_coa": 9,
+   "textes_coa": 9,
+   "mots_coa": 95,
+   "brut_enUS": {
+    "archive": "locale-enUS",
+    "octets": 1574,
+    "sha256": "dbd35336bc773fe2947119d2f6ddd62b18869b29279ffd78d41e83845d36ad62",
+    "xz": 608
+   },
+   "archive_enUS": "locale-enUS",
+   "textes_enUS": 9,
+   "textes_frFR": 0,
+   "anglais_identique": 4,
+   "anglais_identique_avec_frFR": 0
+  },
+  "TokenTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "89387e5b7843a4a8d96cd7624c1cc7a7b7355e289519f89fd2778bbdccf19c31",
+   "enregistrements_coa": 61,
+   "textes_coa": 181,
+   "mots_coa": 2588
+  },
+  "Tutorial": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "bac2e74aa390001e23c4ba5e79f4b4de7516a411e297d1af009cc35ff2b80356",
+   "enregistrements_coa": 262,
+   "textes_coa": 524,
+   "mots_coa": 22425
+  },
+  "TutorialKeywords": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "2b70a138145295689e89672de207e4e9832cab537e8dd6a45925944b00ca5d3f",
+   "enregistrements_coa": 483,
+   "textes_coa": 1413,
+   "mots_coa": 35603
+  },
+  "TutorialObjectives": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "8c57eec36b5eb3f5c1d561a53ea02492e418a2966479ef7c6f69e2ed4c03f542",
+   "enregistrements_coa": 257,
+   "textes_coa": 256,
+   "mots_coa": 2272
+  },
+  "TutorialCategories": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "d1ccd557dbb8915a2af0e1eeafd22da297d621c6448bf0f6039cb1150a5c7410",
+   "enregistrements_coa": 3,
+   "textes_coa": 2,
+   "mots_coa": 2
+  },
+  "CharacterAdvancementCategories": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "ecd79664f943c5678263390f52b36e887d91ffb5431cacc06c6dc6a88338623e",
+   "enregistrements_coa": 51,
+   "textes_coa": 75,
+   "mots_coa": 603
+  },
+  "CharacterAdvancementTabTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "f1c295b4acfcf71d03d3a9ce9749885dbca10c243b9be912b8803e3c1268fde4",
+   "enregistrements_coa": 94,
+   "textes_coa": 93,
+   "mots_coa": 99
+  },
+  "CharacterAdvancementClassTypes": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "02da78174798c0db90b5509fac6d829d6b3b91db39410b4d61772c184b61bedb",
+   "enregistrements_coa": 46,
+   "textes_coa": 45,
+   "mots_coa": 49
+  },
+  "SpellTagTypes": {
+   "archive_coa": "patch-S",
+   "sha256_coa": "4b92069b284f7cc9929b7f8338fe4b09902013205e37952c79fb611ff9a9df7c",
+   "enregistrements_coa": 200,
+   "textes_coa": 391,
+   "mots_coa": 858
+  },
+  "GameTips": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "b13fc04baea17b009aa906f4065f1d6fbbaaa987bf019ce51c7d05cd087ff1d8",
+   "enregistrements_coa": 169,
+   "textes_coa": 168,
+   "mots_coa": 3382,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 26915,
+    "sha256": "2b81e63c7a97925659db4ad5940b4b6f68b2522dbe5127d73b266a84f1039058",
+    "xz": 6264
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 32044,
+    "sha256": "dd39be094ddacc8285a1398a3105aae3d6e26049930a432534b8a01f3121b3b9",
+    "xz": 7352
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 142,
+   "textes_frFR": 142,
+   "anglais_identique": 50,
+   "anglais_identique_avec_frFR": 50
+  },
+  "MapDifficulty": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "fd939f473a1313aaa23360ea4661813c3ab05f13d41655a2aab64e3ee3d09dab",
+   "enregistrements_coa": 688,
+   "textes_coa": 170,
+   "mots_coa": 380,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 19067,
+    "sha256": "1ae8728a20a8ee236b4683a34886a2f16dd6402a83ab8768870321b2ea748c9c",
+    "xz": 1352
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 19412,
+    "sha256": "32f01691217278fef3c5dab357665d1a89c5e110c6eb472df0b195beab7491cb",
+    "xz": 1436
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 72,
+   "textes_frFR": 72,
+   "anglais_identique": 1,
+   "anglais_identique_avec_frFR": 1
+  },
+  "LFGDungeons": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "112f00021290673d6cf55cfb97998b292486e95e4418bb6bfaac4216bf11ef65",
+   "enregistrements_coa": 430,
+   "textes_coa": 441,
+   "mots_coa": 546,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 41932,
+    "sha256": "99937ac9c700668bda26f5b01c8d611f3563f4dc07881a5cddbba7381d4fa3ae",
+    "xz": 3712
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 42597,
+    "sha256": "1ffe3ed5235f194b98754f4d8cbc10dc40312347576c19cccc13e3efc867379c",
+    "xz": 4036
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 199,
+   "textes_frFR": 199,
+   "anglais_identique": 185,
+   "anglais_identique_avec_frFR": 185
+  },
+  "LFGDungeonGroup": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "48a287de4c038503b55e0e01cebe2cc58f684097b8443de9221e40eb37b1365f",
+   "enregistrements_coa": 18,
+   "textes_coa": 17,
+   "mots_coa": 66,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 1097,
+    "sha256": "3db11915e0ce818135a3ffaa1efb4a8142c16857a0b6b50c433df8ad2c67f9ba",
+    "xz": 264
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 1171,
+    "sha256": "9ae7b03df00641a04cd14d3385b25c2203cb7de3c52c9013fa0bc9ed6deaf72b",
+    "xz": 300
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 10,
+   "textes_frFR": 10,
+   "anglais_identique": 7,
+   "anglais_identique_avec_frFR": 7
+  },
+  "BattlemasterList": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "54d942c31be22ef3e90ebb90d045bfa3deddc0609181798d98983323be6c9925",
+   "enregistrements_coa": 73,
+   "textes_coa": 72,
+   "mots_coa": 221,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 1900,
+    "sha256": "4fe0e9f594a660fbcfcea38a768c8b59a2b8bca5546592fe42b3d7ae9e1d7f13",
+    "xz": 412
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 1953,
+    "sha256": "860f3d036525bab69f555615239d0a952673cf8eb9b3d4d2a6fc57109a39916e",
+    "xz": 452
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 13,
+   "textes_frFR": 13,
+   "anglais_identique": 12,
+   "anglais_identique_avec_frFR": 12
+  },
+  "WorldStateUI": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "31309236143046293565566f58e71040e8c3eb8d52917009e515c62326005a94",
+   "enregistrements_coa": 266,
+   "textes_coa": 435,
+   "mots_coa": 1319,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 46474,
+    "sha256": "a411e2a85c4df5e0a0e52b9bab370a514520e0f7e7dea1a113db22174053160d",
+    "xz": 4024
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 47602,
+    "sha256": "54edbd16b15eea65a47f84bc3dfce9cd5e7365ac0210d780d1549daa2c334545",
+    "xz": 4368
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 264,
+   "textes_frFR": 264,
+   "anglais_identique": 259,
+   "anglais_identique_avec_frFR": 259
+  },
+  "EmotesTextData": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "9d2856f3d410716b1d0157390de73377bbc6e62ee888ae28dfbf5aa54e4bd1ef",
+   "enregistrements_coa": 1327,
+   "textes_coa": 1313,
+   "mots_coa": 7281,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 133239,
+    "sha256": "3278cfe26ee5a4c9fd22e6eacd5acf7196bfb8318bf2963de11b735b96ebd47b",
+    "xz": 10420
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 139157,
+    "sha256": "24be77a0f49455884dc67031e696b95a6845fe157f9d3bc430b3a674c1499a00",
+    "xz": 11848
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 1314,
+   "textes_frFR": 1314,
+   "anglais_identique": 1313,
+   "anglais_identique_avec_frFR": 1313
+  },
+  "SpellFocusObject": {
+   "archive_coa": "patch-S",
+   "sha256_coa": "0d9bfd4665e85e53d9b218c21ea12e6d90b062eb6ed57c1864737188fcd2ac2b",
+   "enregistrements_coa": 435,
+   "textes_coa": 434,
+   "mots_coa": 1358,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 35886,
+    "sha256": "48173023cbf1f20b3a307d90b8ef95c910c0f7bb64d6738ee3c9ff605abfa3fb",
+    "xz": 5012
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 37909,
+    "sha256": "0cb7891e2081139476f033d32838260254ba9d8163cbe0f40095c6365dd7e8f7",
+    "xz": 5640
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 379,
+   "textes_frFR": 379,
+   "anglais_identique": 376,
+   "anglais_identique_avec_frFR": 376
+  },
+  "TotemCategory": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "b114dc58436bf616c2fbfde7a1f536d964ba3e363c642611174baf5e6da64526",
+   "enregistrements_coa": 40,
+   "textes_coa": 39,
+   "mots_coa": 110,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 3128,
+    "sha256": "2e4daffaa75bc36d84c43ea4e78adb6725e4d52f99538dfe5826f8bae68badf9",
+    "xz": 584
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 3309,
+    "sha256": "5848aeaf703be301af2b4b17a371c2f309da7a8a321aefb5c03fabb573b37eb5",
+    "xz": 640
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 32,
+   "textes_frFR": 32,
+   "anglais_identique": 31,
+   "anglais_identique_avec_frFR": 31
+  },
+  "SpellShapeshiftForm": {
+   "archive_coa": "patch-S",
+   "sha256_coa": "be842b8f14fce179cb658296ab3ca505f784c1b8830651ad720c150a255f2fd4",
+   "enregistrements_coa": 61,
+   "textes_coa": 60,
+   "mots_coa": 124,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 4890,
+    "sha256": "beebbd19d2d3e758496c0e5535fd3f301450b1fd984930841a9f120afcaa1dc5",
+    "xz": 740
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 4978,
+    "sha256": "6c570c85a6fb35c287802fb39853c4dc7b2080730c20f298c4ad5efe1dc46422",
+    "xz": 784
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 30,
+   "textes_frFR": 30,
+   "anglais_identique": 23,
+   "anglais_identique_avec_frFR": 23
+  },
+  "BarberShopStyle": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "0c072924ec813c3d0ed1305467f711b0360edcd20ac0515473edbbbeafbd6d22",
+   "enregistrements_coa": 635,
+   "textes_coa": 523,
+   "mots_coa": 431,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 80954,
+    "sha256": "17e447b184cb058b04e5b0ad559dae35eaab3587253a9a68dd6a6d38b87f9cbd",
+    "xz": 3408
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 81859,
+    "sha256": "24714f531dbeaf9a1f72b2496d6c7a640d7c00b524e72c6402bdb29a80695674",
+    "xz": 3760
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 461,
+   "textes_frFR": 461,
+   "anglais_identique": 451,
+   "anglais_identique_avec_frFR": 451
+  },
+  "ItemLimitCategory": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "29c1ca6918f954e565f67dc3fdfc07c9e4e39d768280a15faf9818e774f86192",
+   "enregistrements_coa": 2629,
+   "textes_coa": 2628,
+   "mots_coa": 7859,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 8442,
+    "sha256": "3c9f8e72a3b08a887b3f5b380ace8f0bf9ee5364239e26fc140897b0980f5626",
+    "xz": 1252
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 8759,
+    "sha256": "6e72bbe49b953e72387acf165ee3d6cc9680009269aff379a77d1303ecd152ba",
+    "xz": 1380
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 83,
+   "textes_frFR": 83,
+   "anglais_identique": 81,
+   "anglais_identique_avec_frFR": 81
+  },
+  "HolidayNames": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "7c268385fdec208f57677b27a0c3cebb5ffe308738612f0a8bbe7a1209fc3761",
+   "enregistrements_coa": 28,
+   "textes_coa": 27,
+   "mots_coa": 90,
+   "brut_enUS": {
+    "archive": "patch-enUS-2",
+    "octets": 2431,
+    "sha256": "24843983115b9251db4ad9c2619b464809d8b7f75549b37c428feb2f44432431",
+    "xz": 536
+   },
+   "archive_enUS": "patch-enUS-2",
+   "textes_enUS": 26,
+   "textes_frFR": 0,
+   "anglais_identique": 25,
+   "anglais_identique_avec_frFR": 0
+  },
+  "HolidayDescriptions": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "5591276b56070006d4b9d8e11220872a7263409e01bcc6c413a7a8eef12feb61",
+   "enregistrements_coa": 30,
+   "textes_coa": 29,
+   "mots_coa": 809,
+   "brut_enUS": {
+    "archive": "patch-enUS-2",
+    "octets": 6617,
+    "sha256": "2c50f12253003a037a11b1b53729b91b033f46de1e622d8db26c6556b0929b78",
+    "xz": 2108
+   },
+   "archive_enUS": "patch-enUS-2",
+   "textes_enUS": 28,
+   "textes_frFR": 0,
+   "anglais_identique": 17,
+   "anglais_identique_avec_frFR": 0
+  },
+  "CharTitles": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "1b8dda2603683bc30f31610a92dcb1765d87b5d442aad100b3b15da613e196ec",
+   "enregistrements_coa": 190,
+   "textes_coa": 378,
+   "mots_coa": 540,
+   "brut_enUS": {
+    "archive": "patch-enUS-2",
+    "octets": 23527,
+    "sha256": "e2d3f13def04de9a1e55eaf985f817ea2bda5c530ec756dfc3dab99741076f49",
+    "xz": 2024
+   },
+   "archive_enUS": "patch-enUS-2",
+   "textes_enUS": 284,
+   "textes_frFR": 0,
+   "anglais_identique": 278,
+   "anglais_identique_avec_frFR": 0
+  },
+  "QuestSort": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "0297d2b5294766960e31f3facb599dc9395f2e8d0bdbbc1749d25982d278d4f9",
+   "enregistrements_coa": 144,
+   "textes_coa": 143,
+   "mots_coa": 389,
+   "brut_enUS": {
+    "archive": "patch-enUS-2",
+    "octets": 3440,
+    "sha256": "d2707e3478d973f28c5714fb34ba525b624f5d3cb43375225b6fa43357cf984a",
+    "xz": 580
+   },
+   "archive_enUS": "patch-enUS-2",
+   "textes_enUS": 41,
+   "textes_frFR": 0,
+   "anglais_identique": 40,
+   "anglais_identique_avec_frFR": 0
+  },
+  "CreatureFamily": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "31545d9d7e261f018e580015277dcdaa96000aa1a786d151afbba0a817a5bef4",
+   "enregistrements_coa": 399,
+   "textes_coa": 398,
+   "mots_coa": 698,
+   "brut_enUS": {
+    "archive": "patch-enUS",
+    "octets": 6246,
+    "sha256": "9f9d22cf0b213c45789266751dbdf2ee9162ba2be01eb2d89dd9c88cacefd5e2",
+    "xz": 1096
+   },
+   "archive_enUS": "patch-enUS",
+   "textes_enUS": 40,
+   "textes_frFR": 0,
+   "anglais_identique": 39,
+   "anglais_identique_avec_frFR": 0
+  },
+  "ItemRandomProperties": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "56c46a3de975cdcc3e5790c7d3d8c193792c4f2b011aa5d6cc4657f5becb2578",
+   "enregistrements_coa": 10087,
+   "textes_coa": 9931,
+   "mots_coa": 702,
+   "brut_enUS": {
+    "archive": "locale-enUS",
+    "octets": 193808,
+    "sha256": "1fbe2fe7de694bc0fac4d2f3687c38fb3a1b7b175a3d59fec9f00e15ecdebeca",
+    "xz": 4588
+   },
+   "archive_enUS": "locale-enUS",
+   "textes_enUS": 2012,
+   "textes_frFR": 0,
+   "anglais_identique": 1965,
+   "anglais_identique_avec_frFR": 0
+  }
+ },
+ "comptes": {
+  "textes_coa": 21801,
+  "lignes_blizzard": 5439,
+  "liens_famille_competence": 356
+ }
+}
