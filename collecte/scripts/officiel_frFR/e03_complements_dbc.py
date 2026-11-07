@@ -26,6 +26,7 @@ Sorties (collecte/donnees/) :
 - officiel_frFR/dbc_335_2.csv.xz      : dbc, id, champ, en_blizzard, fr_blizzard (même forme que dbc_335.csv.xz)
 - client/familles_creature_competence.tsv : famille de créature -> compétence (SkillLine) du client CoA
 - client/vanite_objets.tsv            : objet de la collection de vanité -> numéro de l'objet
+- client/hauts_faits_liens.tsv        : critère -> haut fait, haut fait -> catégorie, catégorie -> parente
 - officiel_frFR/brut/{frFR,enUS}/DBFilesClient/<table>.dbc.xz : les fichiers Blizzard lus, tels quels
 - client/dbc_complements.json         : archives, empreintes (sha256), comptes
 """
@@ -85,6 +86,11 @@ COLONNES = {
     'SpellShapeshiftForm': [('name', 2)],
     'BarberShopStyle': [('name', 2), ('description', 19)],
     'ItemLimitCategory': [('name', 1)],
+    # 0.9.2 (essai 8, niveau 10) : hauts faits. Français officiel des hauts faits et des critères dans patch-frFR-3 ;
+    # catégories : anglais de Blizzard seulement (patch-enUS-2), pas de frFR dans patch-frFR-3
+    'Achievement': [('name', 4), ('description', 21), ('reward', 43)],
+    'Achievement_Criteria': [('description', 9)],
+    'Achievement_Category': [('name', 2)],
     # --- Blizzard, pas de français dans patch-frFR-3 (noms officiels : décision 31)
     'HolidayNames': [('name', 1)],
     'HolidayDescriptions': [('description', 1)],
@@ -95,6 +101,9 @@ COLONNES = {
 }
 CREATUREFAMILY_SKILLLINE = 5          # CreatureFamily : SkillLine[0] (disposition 3.3.5a)
 VANITY_OBJET = 1                      # VanityCollection : numéro de l'objet
+# 0.9.2 : liens des hauts faits (disposition 3.3.5a) : critère -> haut fait ; haut fait -> catégorie ; catégorie -> parente
+LIENS_HAUTS_FAITS = {'Achievement_Criteria': ('critere_haut_fait', 1), 'Achievement': ('haut_fait_categorie', 38),
+                     'Achievement_Category': ('categorie_parente', 1)}
 
 
 class Table:
@@ -143,7 +152,7 @@ def main():
     coa = E.trouver_archives(a.coa, E.ARCHIVES_COA)
     E.journal('compléments DBC : frFR = %s ; enUS = %s ; CoA = %s' % (frfr.chemin, [x.nom for x in enus], [x.nom for x in coa]))
     bilan = {'composant_frFR': comp.strip(), 'tables': {}}
-    lignes_coa, lignes_off, liens = [], [], []
+    lignes_coa, lignes_off, liens, liens_hf = [], [], [], []
     for nom, cols in COLONNES.items():
         interne = 'DBFilesClient\\%s.dbc' % nom
         nom_coa, dcoa = E.premier(coa, interne)
@@ -181,6 +190,10 @@ def main():
                 for r in tc.recs:
                     if r[VANITY_OBJET]:
                         f.write('%d\t%d\n' % (r[0], r[VANITY_OBJET]))
+        if nom in LIENS_HAUTS_FAITS:
+            quoi, col = LIENS_HAUTS_FAITS[nom]
+            for r in tc.recs:
+                liens_hf.append((quoi, r[0], r[col] if r[col] != 0xFFFFFFFF else -1))
         if nom == 'CreatureFamily':
             for r in tc.recs:
                 if r[CREATUREFAMILY_SKILLLINE]:
@@ -195,6 +208,10 @@ def main():
         f.write('famille\tcompetence\n')
         for fam, sk in liens:
             f.write('%d\t%d\n' % (fam, sk))
+    with open(os.path.join(E.CLIENT, 'hauts_faits_liens.tsv'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write('lien\tid\tvers\n')
+        for quoi, i, v in liens_hf:
+            f.write('%s\t%d\t%d\n' % (quoi, i, v))
     bilan['comptes'] = {'textes_coa': len(lignes_coa), 'lignes_blizzard': len(lignes_off), 'liens_famille_competence': len(liens)}
     with open(os.path.join(E.CLIENT, 'dbc_complements.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(bilan, f, ensure_ascii=False, indent=1)

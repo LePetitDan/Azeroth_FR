@@ -808,6 +808,135 @@ class Importeur:
         self.cr.update({'reprise_meme_anglais:' + a: b for a, b in n.items()})
         K.journal('import : sorts des objets, reprise du même anglais : %s' % dict(n))
 
+    def libelles_lua_coa(self):
+        """0.9.2 : libellés que les add-ons de CoA définissent eux-mêmes hors de GlobalStrings.dbc (« Change Active
+        Specialization », « Reset Trees » ; collecte libelles_lua_coa.py) : type coa_libelle_lua, famille progression.
+        Affichés par le balayage des fenêtres CoA (texte exact), jamais écrits dans la variable du jeu."""
+        p = os.path.join(K.COLLECTE, 'client', 'libelles_lua_coa.tsv')
+        if not os.path.exists(p):
+            return
+        n = 0
+        with open(p, encoding='utf-8') as f:
+            for ligne in list(f)[1:]:
+                c = ligne.rstrip('\n').split('\t')
+                if len(c) < 3:
+                    continue
+                en = K.desechapper(c[1])
+                self.ajouter(['coa_libelle_lua', c[0], '', 'texte', en, K.empreinte(en), '', 'a_traduire', 'coa_client',
+                              'libellé défini par %s (variable %s, absente de GlobalStrings.dbc)' % (c[2], c[0])], 'progression')
+                n += 1
+        self.cr['libelles_lua_coa'] = n
+        K.journal('import : %d libellés propres aux add-ons de CoA' % n)
+
+    def hauts_faits_officiels(self):
+        """0.9.2 (essai 8, niveau 10) : hauts faits du client CoA (Achievement, Achievement_Criteria et
+        Achievement_Category de patch-M ; collecte e03_complements_dbc.py).
+        - noms, descriptions, récompenses et catégories : les lignes de db.exil.es restent, l'anglais du client l'emporte
+          s'il diffère ; même numéro et même anglais que Blizzard : son français officiel (patch-frFR-3), qui remplace
+          la traduction machine de la release 3.5.1 ;
+        - critères (type haut_fait_critere, famille hauts_faits_criteres) : même numéro et même anglais que Blizzard :
+          officiel ; sinon même anglais qu'un critère officiel (un seul français) : officiel ; sinon à traduire (les noms
+          seront repris plus loin, criteres_par_nom). Jamais sur relu."""
+        liens = {}
+        p = os.path.join(K.COLLECTE, 'client', 'hauts_faits_liens.tsv')
+        if os.path.exists(p):
+            with open(p, encoding='utf-8') as f:
+                for ligne in list(f)[1:]:
+                    c = ligne.rstrip('\n').split('\t')
+                    if len(c) == 3:
+                        liens[(c[0], c[1])] = c[2]
+        self.liens_hf = liens
+        off_texte = defaultdict(set)
+        for (dbc, i, champ), (en, fr) in self.off_dbc.items():
+            if dbc == 'Achievement_Criteria' and en and fr:
+                off_texte[en].add(fr)
+        n = Counter()
+        TYPES = {'Achievement': 'haut_fait', 'Achievement_Category': 'haut_fait_categorie', 'Achievement_Criteria': 'haut_fait_critere'}
+        for (dbc, i, champ), (arch, en) in sorted(self.coa_dbc.items(), key=lambda x: (x[0][0], self._cle_num(x[0][1]), x[0][2])):
+            typ = TYPES.get(dbc)
+            if not typ or not en.strip():
+                continue
+            fam = 'hauts_faits_criteres' if typ == 'haut_fait_critere' else 'hauts_faits'
+            k = (typ, i, '', champ)
+            l = self.lignes.get(k)
+            note = '%s.dbc du client CoA (%s)' % (dbc, arch)
+            if typ == 'haut_fait_critere':
+                hf = liens.get(('critere_haut_fait', i.split('-')[0]))
+                if hf:
+                    note = joindre(note, 'critère du haut fait n° %s' % hf)
+            if l is None:
+                l = [typ, i, '', champ, en, K.empreinte(en), '', 'a_traduire', '', note]
+                self.ajouter(l, fam)
+                n[typ + ':nouvelle'] += 1
+            elif l[K.I_EN] != en and l[K.I_ETAT] != 'relu':
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], 'anglais du client CoA (%s) différent de db.exil.es (avant : %s)'
+                                      % (arch, cite(l[K.I_EN], 120)))
+                l[K.I_EN], l[K.I_EMP], l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = en, K.empreinte(en), '', 'a_traduire', ''
+                n[typ + ':anglais_client'] += 1
+            if l[K.I_ETAT] in ('relu', 'officiel', 'technique'):
+                continue
+            b = self.off_dbc.get((dbc, i, champ))
+            fr, quoi = None, None
+            if b and b[1] and O.meme_anglais(en, b[0]):
+                fr, quoi = b[1], '%s.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard' % dbc
+            elif typ == 'haut_fait_critere' and len(off_texte.get(en, ())) == 1:
+                fr, quoi = next(iter(off_texte[en])), ('Achievement_Criteria.dbc frFR officiel (patch-frFR-3) : même anglais, '
+                                                       'un seul français officiel pour ce texte')
+            if fr is None:
+                continue
+            refus = self.controle(en, fr, 'officiel', typ, i)
+            # Blizzard écrit parfois les nombres autrement (« ten » / « 10 », « 2 man » / « 2c2 ») : l'officiel est gardé
+            # quand seul le contrôle des nombres le refuse (même tolérance que la fabrique : officiel_tolere_nombres)
+            if refus and {x.split(':')[0] for x in refus} != {'nombres'}:
+                n[typ + ':officiel_refuse'] += 1
+                continue
+            if refus:
+                quoi = joindre(quoi, 'nombres écrits autrement par Blizzard : officiel gardé')
+                n[typ + ':officiel_nombres_toleres'] += 1
+            if l[K.I_FR] and l[K.I_FR] != fr:
+                quoi = joindre(quoi, 'avant (%s) : %s' % (l[K.I_SRC] or l[K.I_ETAT], cite(l[K.I_FR], 120)))
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'officiel', 'blizzard_frFR'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], quoi)
+            n['%s:officiel_%s' % (typ, champ)] += 1
+        self.cr.update({'hauts_faits_officiels:' + a: b for a, b in n.items()})
+        K.journal('import : hauts faits du client, français officiel : %s' % dict(sorted(n.items())))
+
+    def criteres_par_nom(self):
+        """0.9.2 : un critère de haut fait (ou une catégorie) encore à traduire dont l'anglais EXACT est un nom déjà
+        traduit (zone, créature, objet, quête, sort…) avec UN SEUL français prend ce français : officiel si ce nom est
+        officiel (ou relu), sinon machine (source nom_meme_anglais). « Molten Core », « Ragnaros », « Thunderfury »."""
+        TYPES_NOM = ('name', 'Name', 'title')
+        par, par_off = defaultdict(set), defaultdict(set)
+        for l in self.lignes.values():
+            if not l[K.I_FR] or l[K.I_CHAMP] not in TYPES_NOM or l[K.I_ETAT] not in ('officiel', 'relu', 'machine'):
+                continue
+            if l[K.I_TYPE] in ('haut_fait_critere', 'haut_fait_categorie'):
+                continue
+            fr = l[K.I_FR].replace('’', "'")
+            par[l[K.I_EN]].add(fr)
+            if l[K.I_ETAT] in ('officiel', 'relu'):
+                par_off[l[K.I_EN]].add(fr)
+        n = Counter()
+        for k, l in self.lignes.items():
+            if l[K.I_TYPE] not in ('haut_fait_critere', 'haut_fait_categorie') or l[K.I_ETAT] != 'a_traduire':
+                continue
+            frs, etat = par_off.get(l[K.I_EN], set()), 'officiel'
+            if len(frs) != 1:
+                frs, etat = par.get(l[K.I_EN], set()), 'machine'
+            if len(frs) != 1:
+                n['sans' if not frs else 'plusieurs'] += 1
+                continue
+            fr = next(iter(frs))
+            if fr == l[K.I_EN] or self.controle(l[K.I_EN], fr, etat, l[K.I_TYPE], k[1]):
+                n['refus_ou_identique'] += 1
+                continue
+            l[K.I_FR], l[K.I_ETAT] = fr, etat
+            l[K.I_SRC] = 'blizzard_frFR' if etat == 'officiel' else 'nom_meme_anglais'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'même anglais qu\'un nom %s déjà traduit : son français' % ('officiel' if etat == 'officiel' else ''))
+            n['repris_' + etat] += 1
+        self.cr.update({'criteres_par_nom:' + a: b for a, b in n.items()})
+        K.journal('import : critères et catégories des hauts faits repris d\'un nom : %s' % dict(n))
+
     def noms_vanite(self):
         """Essai 8 : noms des objets de la collection de vanité (la fenêtre les écrit entre crochets, ou en
         majuscules) : une ligne coa_vanite_objet par objet, avec le nom et le français de l'objet."""
@@ -1586,6 +1715,8 @@ def main():
     imp.importer_sorts_interface()
     imp.importer_sorts_objets()       # essai 8
     imp.importer_dbc()
+    imp.hauts_faits_officiels()       # 0.9.2
+    imp.libelles_lua_coa()            # 0.9.2
     imp.importer_interface()
     imp.noms_officiels_web()          # 0.9 : avant la couche (les lignes libérées reçoivent leur traduction)
     imp.appliquer_vocabulaire()
@@ -1598,6 +1729,7 @@ def main():
     imp.limites_objets_par_nom()
     imp.focalisation_interface()
     imp.noms_vanite()                 # essai 8
+    imp.criteres_par_nom()            # 0.9.2
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

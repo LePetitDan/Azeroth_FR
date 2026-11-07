@@ -4,6 +4,8 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 07/11/2026 | Plafond d'API relevé à **85 $** : la première moitié des critères de hauts faits a coûté 3,89 $ (estimation de Claude trop basse, chaque lot embarque beaucoup de contexte) ; la seconde moitié (15 lots, 4 128 textes, ≈ 4,40 $) est traduite | Dan |
+| 07/11/2026 | Essai 8, niveau 10 : la 0.9.1 n'est pas installée seule, on attend la 0.9.2 (fenêtre des hauts faits) ; plafond d'API relevé à **80 $** pour traduire les critères de hauts faits propres à CoA (≈ 8 200 textes, 54 000 mots, ≈ 4 $) | Dan |
 | 07/11/2026 | Essai 8 (premières captures) : lignes « Utiliser : » en anglais, car 15 174 sorts d'objets du client CoA (patch-T) manquaient à la source ; plafond d'API relevé à **75 $** pour traduire ces sorts (≈ 173 000 mots) et la collection de vanité (≈ 45 000 mots) | Dan |
 | 07/11/2026 | Add-on 0.9.0 installé dans `D:\Wow_Core` (remplace la 0.8 avant l'essai 8) ; vocabulaire, point 32 : « Mystic Rift » = « Faille mystique » | Dan, après le rapport de la 0.9 |
 | 07/11/2026 | Décision 31 appliquée : titres, fêtes, descriptions de fêtes et familles de familiers relevés sur Wowhead en français (WotLK Classic), repris seulement si l'anglais de Wowhead au même numéro est exactement le nôtre, adresse en provenance ; les catégories de quêtes des fêtes prennent le nom de la fête (même anglais) ; le reste (catégories générales, suffixes propres à CoA) est traduit ; la vérification anti-robot de Wowhead n'est jamais remplie par Claude | Claude, sur la décision 31 de Dan |

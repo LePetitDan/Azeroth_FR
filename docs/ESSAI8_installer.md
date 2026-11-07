@@ -1,4 +1,4 @@
-# Essai 8 : add-on 0.9.0 (retours de l'essai 7 et textes propres au client CoA)
+# Essai 8 : add-on 0.9 (retours de l'essai 7, textes propres au client CoA, puis 0.9.1 et 0.9.2 en cours d'essai)
 
 *07/11/2026. La 0.9 remplace la 0.8 avant l'essai : même installation que l'essai 7, on retire les dossiers `Azeroth_FR…` et `Interface\PTRXML`, et on copie ceux du zip `Azeroth_FR-0.9.0.zip` (22,3 Mo). Claude s'en charge si ton PC est relié, avec ton accord.*
 
@@ -27,7 +27,7 @@ Pas encore : l'écran de **création de personnage** (archétypes, aide au choix
 
 ### 0.9.1 : les retours de l'essai 8 (en cours de partie)
 
-*Même installation : on remplace les dossiers `Azeroth_FR…` par ceux du zip `Azeroth_FR-0.9.1.zip`, avec ton accord.*
+*Pas installée seule : elle est comprise dans la 0.9.2 (décision de Dan).*
 
 - **Sorts des objets** : les lignes « Utiliser : » (pierre de foyer comprise, avec son temps de recharge), les auras des Épreuves (« Lentement mais sûrement »), et la barre d'incantation (« Butin ») ;
 - **rangs 2 et plus** des sorts de classe (« Horion » rang 2, « Appel d'éclair » rangs 2 à 12) et sorts des maîtres (« Monte novice ») ;
@@ -36,7 +36,15 @@ Pas encore : l'écran de **création de personnage** (archétypes, aide au choix
 - **collection de vanité** : noms entre crochets et en capitales, provenance ;
 - bulles des Épreuves remplies après leur affichage.
 
-Pas encore (0.9.2) : la **fenêtre des hauts faits**, les libellés de la fenêtre des talents de CoA (« Change Active Specialization »), les noms de classe et d'arbre en capitales.
+### 0.9.2 : hauts faits et fenêtre des talents de CoA
+
+*Même installation : on remplace les dossiers `Azeroth_FR…` par ceux du zip `Azeroth_FR-0.9.2.zip`, avec ton accord, jeu fermé.*
+
+- **Fenêtre des hauts faits** : noms, descriptions, « Récompense : … », catégories, critères d'un haut fait déroulé, résumé, statistiques, comparaison, alerte « haut fait obtenu » ; le français officiel de Blizzard quand il existe (1 349 noms, 1 235 descriptions, 100 récompenses, 11 658 critères), sinon nos traductions ;
+- **fenêtre des talents de CoA** : « Changer de spécialisation active », « Réinitialiser les arbres », classe et spécialisation en capitales (« PORTE-TEMPÊTE », « FOUDRE ») ;
+- le premier texte de chaque table de CoA, qui manquait (« Dun Morogh », onglet « Démarrer »).
+
+Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des personnages.
 
 **Pour comprendre ce qui reste en anglais** : `/azfr bulle`, tapée pendant qu'une infobulle est affichée, écrit dans la discussion chaque ligne telle que l'add-on la voit.
 
@@ -44,7 +52,7 @@ Pas encore (0.9.2) : la **fenêtre des hauts faits**, les libellés de la fenêt
 
 | # | Où | Ce qu'on doit voir |
 |---|---|---|
-| 1 | `/azfr version` | « version 0.9.0 » (après la mise à jour : « 0.9.1 ») |
+| 1 | `/azfr version` | « version 0.9.0 » (après la mise à jour : « 0.9.2 ») |
 | 2 | Maître de classe (Livre de l'Ascension), puis maître de monte | Noms des sorts, « (Rang 1) », descriptions en français |
 | 3 | Journal des quêtes : « Enquête sur la crête aux échos » | Description en français, avec ton nom |
 | 4 | Ouvrir un sac ; survoler un loup de quête, un arbre à couper, un point de la minicarte | En français |
@@ -54,6 +62,9 @@ Pas encore (0.9.2) : la **fenêtre des hauts faits**, les libellés de la fenêt
 | 8 | Recherche de groupe, calendrier, liste des titres (fenêtre du personnage) | Noms en français |
 | 9 | Pierre de foyer | Si « Utiliser : » reste en anglais : `/azfr bulle` en la survolant, et une capture |
 | 10 | Combat, puis `/azfr stats` | « actions bloquées : aucune » |
+| 11 | **0.9.2** : fenêtre des hauts faits (touche Y) : catégories, un haut fait déroulé, l'onglet Statistiques | Noms, descriptions, critères en français ; une description qui déborde : capture |
+| 12 | **0.9.2** : fenêtre des talents de CoA | « Changer de spécialisation active », classe et spécialisation en capitales |
+| 13 | **0.9.2** : grimoire, sort de rang 2 ; pierre de foyer ; un talent à sorts cités | En français |
 
 Si quelque chose ne va pas : `/azfr off` coupe tout.
 
@@ -63,3 +74,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 - 57 fichiers Lua vérifiés avec Lua 5.1.
 - Banc hors jeu **conforme** : 128 exemples, 272 vérifications, dont les nouveaux cas de la 0.9 (nom d'Épreuve, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, émotes, catégorie d'objets limités, titre, famille, suffixe).
 - **0.9.1** : source 1 520 621 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 61 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 138 exemples, 287 vérifications (pierre de foyer à recharge, bulle d'Épreuve remplie après coup, tutoriel à mots-clés liés, annexe, mentorat, barre « Looting », vanité, talent « Storm Chaser », sort cité sous un talent).
+- **0.9.2** : source 1 553 893 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 142 exemples, 298 vérifications (fenêtre des hauts faits, capitales de la fenêtre des talents, libellés de CoA) ; zip 25,3 Mo.

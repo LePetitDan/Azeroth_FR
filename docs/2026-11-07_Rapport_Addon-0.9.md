@@ -92,6 +92,37 @@ Source reconstruite : 1 520 621 lignes ; contrôle **0 bloquant** ; faux cas ref
 
 ### Pour la 0.9.2 (vu au niveau 10)
 
-- **Hauts faits** : la fenêtre n'est pas branchée (seuls les liens de la discussion étaient traduits) ; le français actuel est une traduction machine de la release 3.5.1, alors que le client frFR de Blizzard en a les officiels (1 357 noms, 1 244 descriptions, 99 récompenses, 6 671 critères au même numéro et au même anglais). Les catégories et les critères propres à CoA (33 261 critères, dont 15 537 textes distincts sans officiel) demandent une décision de budget.
-- **Fenêtre des talents de CoA** : libellés écrits en dur dans le code de CoA (« Change Active Specialization »), cartes de spécialisation ; noms de classe et d'arbre en capitales (`:upper()`).
-- Écran des personnages (avant-jeu) : plus tard.
+Fait : voir § 7. Dan n'a pas fait installer la 0.9.1 seule : la 0.9.2 la comprend.
+
+## 7. Version 0.9.2 : la fenêtre des hauts faits et la fenêtre des talents de CoA
+
+*Décisions de Dan : on attend la 0.9.2 pour installer ; plafond d'API relevé à 80 $, puis à 85 $ (mon estimation du coût des critères était trop basse de moitié : chaque lot de textes courts embarque beaucoup de contexte).*
+
+### Hauts faits : le français officiel d'abord
+
+Collecte : `Achievement`, `Achievement_Criteria` et `Achievement_Category` du client CoA (patch-M), avec l'anglais et le français de Blizzard au même numéro (`e03_complements_dbc.py`), et les liens critère → haut fait → catégorie (`collecte/donnees/client/hauts_faits_liens.tsv`).
+
+| | Textes | Officiels de Blizzard | Autres |
+|---|---:|---:|---|
+| Noms des hauts faits | 22 603 | **1 349** (remplacent la traduction machine de la release 3.5.1) | 21 254 : release 3.5.1 et Claude, comme avant |
+| Descriptions | 20 096 | **1 235** | idem |
+| Récompenses (« Récompense : … ») | 1 706 | **100** | 1 596 : Claude et release 3.5.1 |
+| Catégories | 245 | 0 (absentes de patch-frFR-3) | Claude et release 3.5.1 ; « Statistics » (premier texte de la table) → « Statistiques » |
+| **Critères** (nouvelle famille `hauts_faits_criteres`) | 33 261 | **11 658** (même numéro, ou même texte qu'un critère officiel, ou nom officiel : « Cœur du Magma ») | 7 539 noms déjà traduits (même anglais), 12 536 traduits par l'API (chantier K, 28 lots), 1 528 restent en anglais (doutes, « DEPRECATED… ») |
+
+Blizzard écrit parfois les nombres autrement (« ten » / « 10 », « 2 man » / « 2c2 ») : l'officiel est gardé quand seul le contrôle des nombres le refuse (32 textes), comme à la fabrique.
+
+### Hauts faits : l'affichage (module `HautsFaits.lua`)
+
+Branché après le chargement de `Blizzard_AchievementUI`, par des crochets posés après les fonctions de Blizzard (aucune variable du jeu modifiée) : liste (nom, description et sa copie cachée, récompense), catégories et leur bulle, critères et méta-critères d'un haut fait déroulé, résumé, statistiques, comparaison, alerte « haut fait obtenu », bulle d'un lien de haut fait. Le français n'est posé que si le texte affiché est exactement l'anglais de la source (empreinte). Données dans `Azeroth_FR_HautsFaits`, chargé à la demande.
+
+Pas encore : le suivi des hauts faits à droite de l'écran (le cadre de suivi calcule sa mise en page sur le texte anglais) ; la hauteur d'un haut fait déroulé est calculée par le jeu sur l'anglais, une description française plus longue peut déborder d'une ligne : à regarder en jeu.
+
+### Fenêtre des talents de CoA
+
+- **Libellés propres aux add-ons de CoA** : 8 variables définies en secours de GlobalStrings et absentes de toutes nos sources (« Change Active Specialization », « Reset Trees », « Reveal Cards »…) ; collecte `collecte/scripts/client/libelles_lua_coa.py`, traduits par Claude, posés par le balayage des fenêtres (texte exact).
+- **Capitales** : la fenêtre écrit la classe et la spécialisation en capitales (`:upper()`) ; formes en capitales ajoutées, et le français est écrit en vraies capitales, accents compris (« PORTE-TEMPÊTE », aussi pour la collection de vanité).
+
+### Contrôles
+
+Source reconstruite : 1 553 893 lignes ; contrôle **0 bloquant** ; faux cas refusés 57/57, vrais cas acceptés 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1. Banc hors jeu **conforme** : 142 exemples, 298 vérifications, dont la fenêtre des hauts faits (nom, description et sa copie cachée, récompense, deux critères, catégorie, alerte), la classe et la spécialisation en capitales, le libellé « Change Active Specialization ». Mémoire Lua : 30,5 Mo à la connexion, 198,7 Mo au pire (tout chargé). Données des hauts faits : 5,0 Mo, chargées à l'ouverture de la fenêtre. Zip `Azeroth_FR-0.9.2.zip` (25,3 Mo). Dépense d'API estimée : **81,97 $ / 85 $**.

@@ -526,7 +526,7 @@ DOMAINE_PAR_TYPE_09 = {'propriete_aleatoire': 'suffixe', 'famille_creature': 'ty
 HORS_GENERIQUE = {'serveur/quetes.tsv', 'serveur/dialogues.tsv', 'serveur/creatures.tsv',
                   'serveur/broadcast_cris.tsv', 'serveur/pages_courriers.tsv', 'client/courriers.tsv',
                   'client/interface.tsv',
-                  'client/hauts_faits.tsv', 'serveur/messages_serveur.tsv', 'serveur/cpp_en_dur.tsv',
+                  'client/hauts_faits.tsv', 'client/hauts_faits_criteres.tsv', 'serveur/messages_serveur.tsv', 'serveur/cpp_en_dur.tsv',
                   'serveur/manastorm.tsv'}
 # add-on 0.8 (essai 7 n° 19) : les noms des objets du monde (infobulle « Elwynn Tree / Requires Woodcutting ») entrent
 # dans les tables de noms (domaine objet_monde) ; leurs autres champs restent hors du champ de l'add-on.
@@ -679,9 +679,27 @@ def forme_tutoriel(t):
     return re.sub(r'[A-Z]+', lambda m: m.group(0).lower(), t)
 
 
+CAPITALES_CLIENT = ('coa_vanite', 'coa_vanite_objet', 'coa_specialisation', 'coa_avancement_onglet', 'coa_avancement_classe')
+
+
 def majuscules_lua(t):
     """string.upper de Lua 5.1 (locale C) : a-z seulement ; les lettres accentuées restent telles quelles."""
     return re.sub(r'[a-z]+', lambda m: m.group(0).upper(), t)
+
+
+RX_JETONS_UI = re.compile(r'\|c[0-9A-Fa-f]{8}|\|r|\|H.*?\|h|\|T.*?\|t|%\d*\$?[sd]|\$\w+|\\n')
+
+
+def majuscules_fr(t):
+    """0.9.2 : le français en capitales, accents compris (« Porte-tempête » -> « PORTE-TEMPÊTE ») : c'est l'add-on qui
+    écrit ce texte, il n'est pas limité au string.upper de Lua. Codes de couleur, liens, %s et $x gardés tels quels."""
+    out, pos = [], 0
+    for m in RX_JETONS_UI.finditer(t):
+        out.append(t[pos:m.start()].upper())
+        out.append(m.group(0))
+        pos = m.end()
+    out.append(t[pos:].upper())
+    return ''.join(out).replace('ß', 'ß')
 
 
 def formes_titre(en, fr):
@@ -850,9 +868,11 @@ class Fabrique:
                 if fm != en:
                     self.ajouter_texte(t, fm, fr, l[K.I_ETAT], cands)
                     self.cpt['client']['formes_tutoriel'] += 1
-            if typ in ('coa_vanite', 'coa_vanite_objet') and fr:
-                # la fenêtre de vanité écrit le nom et la provenance en capitales (strupper : lettres ASCII seulement)
-                self.ajouter_texte(t, majuscules_lua(en), majuscules_lua(fr), l[K.I_ETAT], cands)
+            if typ in CAPITALES_CLIENT and fr:
+                # la fenêtre de vanité écrit le nom et la provenance en capitales, la fenêtre des talents de CoA le nom
+                # de la spécialisation (strupper / :upper() : lettres ASCII seulement, c'est la forme anglaise affichée) ;
+                # le français est écrit en vraies capitales (0.9.2)
+                self.ajouter_texte(t, majuscules_lua(en), majuscules_fr(fr), l[K.I_ETAT], cands)
                 self.cpt['client']['formes_majuscules'] += 1
             if typ == 'emote' and 0 < en.count('%s') == fr.count('%s') <= 2 and '%' not in en.replace('%s', ''):
                 gabarits.setdefault(en, fr)
@@ -862,6 +882,12 @@ class Fabrique:
                 xg.seaux_texte[k] = h2
                 cands_g[k].append((PRIO[l[K.I_ETAT]], g[1:], False, None))
                 self.cpt['client']['gabarits_nombres'] += 1
+        # 0.9.2 : la fenêtre des talents de CoA écrit le nom de la classe en capitales
+        # (LOCALIZED_CLASS_NAMES_MALE[classe]:upper()) : forme en capitales des noms de classes (talents.tsv)
+        for l, fr in self.lignes('client', ['client/talents.tsv']):
+            if l[K.I_TYPE] == 'classe' and l[K.I_CHAMP] in ('name', 'name_male') and fr:
+                self.ajouter_texte(t, majuscules_lua(l[K.I_EN]), majuscules_fr(fr), l[K.I_ETAT], cands)
+                self.cpt['client']['formes_majuscules_classes'] += 1
         self.resoudre(t, cands)
         for k, cs in cands_g.items():           # gabarit : la meilleure priorité, sinon le plus fréquent
             pmax = max(c[0] for c in cs)
@@ -1008,22 +1034,39 @@ class Fabrique:
             c['noms_embarques'] += 1
 
     def famille_hauts_faits(self):
-        """Add-on 0.4 : noms des hauts faits (HF : numero -> {francais, empreinte de l'anglais}), pour le lien du
-        message « %s has earned the achievement [X]! » ; le nom n'est pose que si l'anglais affiche est celui de la
-        source (empreinte). Les descriptions et recompenses ne sont pas embarquees (fenetre des hauts faits : plus tard)."""
+        """Add-on 0.4 : noms des hauts faits pour le lien de la discussion. 0.9.2 (essai 8, niveau 10) : la fenêtre des
+        hauts faits. Tables (chargées à la demande, à l'ouverture de la fenêtre ou au premier message) :
+        - HF : numéro -> {nom, empreinte, description, empreinte, récompense, empreinte} (False si absent) ;
+        - HC : catégorie -> {nom, empreinte} ;
+        - HK : critère -> {texte, empreinte}.
+        Le français n'est posé que si l'anglais affiché est celui de la source (empreinte)."""
         hf = Table('hauts_faits', 'HF', 'id')
-        for l, fr in self.lignes('hauts_faits', ['client/hauts_faits.tsv']):
-            if l[K.I_TYPE] != 'haut_fait' or l[K.I_CHAMP] != 'name':
-                self.cpt['hauts_faits']['hors_noms'] += 1
-                continue
+        hc = Table('hauts_faits', 'HC', 'id')
+        hk = Table('hauts_faits', 'HK', 'id')
+        place = {'name': 0, 'description': 2, 'reward': 4}
+        for l, fr in self.lignes('hauts_faits', ['client/hauts_faits.tsv', 'client/hauts_faits_criteres.tsv']):
             try:
                 i = int(l[K.I_ID])
             except ValueError:
+                self.cpt['hauts_faits']['numero_compose'] += 1
                 continue
-            hf.entrees[i] = [fr, empreintes(l[K.I_EN])[0]]
-            self.cpt['hauts_faits']['lignes_embarquees'] += 1
+            h = empreintes(l[K.I_EN])[0]
+            t, ch = l[K.I_TYPE], l[K.I_CHAMP]
+            if t == 'haut_fait' and ch in place:
+                r = hf.entrees.setdefault(i, [False, 0, False, 0, False, 0])
+                r[place[ch]], r[place[ch] + 1] = fr, h
+            elif t == 'haut_fait_categorie' and ch == 'name':
+                hc.entrees[i] = [fr, h]
+            elif t == 'haut_fait_critere' and ch == 'description':
+                hk.entrees[i] = [fr, h]
+            else:
+                self.cpt['hauts_faits']['hors_champ:%s/%s' % (t, ch)] += 1
+                continue
+            self.cpt['hauts_faits']['lignes_embarquees:' + t] += 1
             self.textes['hauts_faits'].add(l[K.I_EN])
-        return [hf]
+        # les noms seuls restent la forme de la 0.4 (lien de la discussion) : un enregistrement sans description ni
+        # récompense garde ses 6 cases (False) ; le Lua lit r[1], r[2] comme avant
+        return [hf, hc, hk]
 
     # -- partie generique : sorts et noms ----------------------------------
     def generique(self):
@@ -1540,9 +1583,9 @@ def main():
     hf = fab.famille_hauts_faits()
     if hf[0].entrees:
         d = os.path.join(addons, 'Azeroth_FR_HautsFaits')
-        fs = ecrire_donnees(d, 'Donnees', hf, version, 'noms des hauts faits', bilan)
+        fs = ecrire_donnees(d, 'Donnees', hf, version, 'hauts faits, catégories et critères', bilan)
         ecrire_toc(d, 'Azeroth_FR_HautsFaits', 'Azeroth_FR - Hauts faits (données)',
-                   'Noms des hauts faits pour la discussion (chargé à la demande par Azeroth_FR)', version, fs)
+                   'Hauts faits, catégories et critères : discussion et fenêtre des hauts faits (chargé à la demande par Azeroth_FR)', version, fs)
         familles_lua.append({'famille': 'hauts_faits', 'addon': 'Azeroth_FR_HautsFaits', 'auto': False})
     for fam in ('sorts', 'noms', 'hauts_faits', 'objets_quetes'):
         bilan['familles'][fam] = {'compteurs': dict(fab.cpt[fam]), 'textes_anglais_distincts': len(fab.textes[fam])}

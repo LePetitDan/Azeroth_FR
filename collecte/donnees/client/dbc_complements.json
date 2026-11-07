@@ -454,6 +454,72 @@
    "anglais_identique": 81,
    "anglais_identique_avec_frFR": 81
   },
+  "Achievement": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "0a03ebc05bdc8dabdd134a04efb64c8bc909ea6e5f62860288b2aa5400f552af",
+   "enregistrements_coa": 22603,
+   "textes_coa": 44405,
+   "mots_coa": 219184,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 579340,
+    "sha256": "aaf20be5f21604de7a8b2ad9512b80761e01877e40bab48ec644541a8e860822",
+    "xz": 47220
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 604150,
+    "sha256": "8ebaed360226d9d7d380c2f1cc71fd28c7830e4582a47e89025da426c79c6cf2",
+    "xz": 51000
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 3715,
+   "textes_frFR": 3715,
+   "anglais_identique": 2700,
+   "anglais_identique_avec_frFR": 2700
+  },
+  "Achievement_Criteria": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "4ddcc8300a008b96a6b0625e79a99c9efb86486ec9026877591acd7677f989e2",
+   "enregistrements_coa": 33598,
+   "textes_coa": 33261,
+   "mots_coa": 97543,
+   "brut_enUS": {
+    "archive": "patch-enUS-3",
+    "octets": 1045678,
+    "sha256": "cc2458b30773d874bfb98d79c668a0b6d4cff1059b019f0fbfd4d358c54a515a",
+    "xz": 79152
+   },
+   "brut_frFR": {
+    "archive": "patch-frFR-3",
+    "octets": 1064721,
+    "sha256": "2463e0c2e8f134de18b8f568a02b57adfa2d04d272d472f7aba476edf602f544",
+    "xz": 82960
+   },
+   "archive_enUS": "patch-enUS-3",
+   "textes_enUS": 7486,
+   "textes_frFR": 7486,
+   "anglais_identique": 6671,
+   "anglais_identique_avec_frFR": 6671
+  },
+  "Achievement_Category": {
+   "archive_coa": "patch-M",
+   "sha256_coa": "3b8f666e58ebb5c5f584a1060efcb5854d8ce14ec10845ac471b873a97284985",
+   "enregistrements_coa": 245,
+   "textes_coa": 245,
+   "mots_coa": 379,
+   "brut_enUS": {
+    "archive": "patch-enUS-2",
+    "octets": 7956,
+    "sha256": "b9e2240eae751ec7171a53fa1abf04e4fc01923833ce6ed81f20dd3cc41a4d50",
+    "xz": 1064
+   },
+   "archive_enUS": "patch-enUS-2",
+   "textes_enUS": 86,
+   "textes_frFR": 0,
+   "anglais_identique": 75,
+   "anglais_identique_avec_frFR": 0
+  },
   "HolidayNames": {
    "archive_coa": "patch-M",
    "sha256_coa": "7c268385fdec208f57677b27a0c3cebb5ffe308738612f0a8bbe7a1209fc3761",
@@ -564,8 +630,8 @@
   }
  },
  "comptes": {
-  "textes_coa": 34326,
-  "lignes_blizzard": 5439,
+  "textes_coa": 112237,
+  "lignes_blizzard": 16726,
   "liens_famille_competence": 356
  }
 }

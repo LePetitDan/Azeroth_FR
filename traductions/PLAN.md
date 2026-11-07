@@ -16,7 +16,8 @@
 | **H** Hauts faits (et enchantements sans modèle, en attente) | 7 | hauts_faits, enchantements | 27 | 5 557 | 40 569 (+10 067 mots en attente) | familles entières |
 | **I** Textes propres au client CoA (0.9) | 8 | sorts_coa, epreuves, creation_personnage, tutoriels, progression, monde_client, noms_client | 47 | 4 898 | 100 796 | familles entières |
 | **J** Sorts des objets et collection de vanité (essai 8) | 9 | sorts_objets, vanite | 92 | 19 907 | 225 699 | familles entières |
-| **Total** | | | 500 | 91 431 | 1 045 439 | |
+| **K** Critères des hauts faits (0.9.2) | 8 | hauts_faits_criteres | 28 | 8 139 | 51 786 | familles entières |
+| **Total** | | | 528 | 99 570 | 1 097 225 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -61,6 +62,7 @@
 | noms_client | I | 694 | 7 397 | 1 800 | 3 | 0 |
 | sorts_objets | J | 15 447 | 27 888 | 179 456 | 73 | 126 |
 | vanite | J | 4 460 | 12 569 | 46 243 | 19 | 0 |
+| hauts_faits_criteres | K | 8 139 | 13 341 | 51 786 | 28 | 723 |
 
 ## Les lots
 
@@ -613,4 +615,37 @@
 | `vanite_017` | coa_vanite 70818 à 100167 | 242 | 382 | 2492 |
 | `vanite_018` | coa_vanite 100177 à 645512 | 217 | 236 | 2500 |
 | `vanite_019` | coa_vanite 645513 à coa_vanite_objet 8200175 | 290 | 815 | 1339 |
+
+### Chantier K : Critères des hauts faits (0.9.2)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `hauts_faits_criteres_001` | haut_fait_critere 351 à 8313 | 300 | 452 | 1515 |
+| `hauts_faits_criteres_002` | haut_fait_critere 8314 à 14350 | 300 | 318 | 1725 |
+| `hauts_faits_criteres_003` | haut_fait_critere 14353 à 15191 | 456 | 666 | 3241 |
+| `hauts_faits_criteres_004` | haut_fait_critere 15300 à 16498 | 300 | 1113 | 1297 |
+| `hauts_faits_criteres_005` | haut_fait_critere 16499 à 16816 | 300 | 599 | 1774 |
+| `hauts_faits_criteres_006` | haut_fait_critere 16817 à 17119 | 300 | 603 | 2120 |
+| `hauts_faits_criteres_007` | haut_fait_critere 17120 à 21369 | 300 | 583 | 1687 |
+| `hauts_faits_criteres_008` | haut_fait_critere 21370 à 26332 | 300 | 533 | 1742 |
+| `hauts_faits_criteres_009` | haut_fait_critere 26333 à 28175 | 300 | 691 | 1880 |
+| `hauts_faits_criteres_010` | haut_fait_critere 28176 à 29421 | 262 | 272 | 2499 |
+| `hauts_faits_criteres_011` | haut_fait_critere 29423 à 30643 | 293 | 403 | 2493 |
+| `hauts_faits_criteres_012` | haut_fait_critere 30644 à 31033 | 300 | 300 | 2455 |
+| `hauts_faits_criteres_013` | haut_fait_critere 31034 à 33517 | 300 | 311 | 2230 |
+| `hauts_faits_criteres_014` | haut_fait_critere 33518 à 35314 | 300 | 342 | 2028 |
+| `hauts_faits_criteres_015` | haut_fait_critere 35315 à 35597 | 280 | 280 | 2499 |
+| `hauts_faits_criteres_016` | haut_fait_critere 35598 à 35893 | 292 | 292 | 2499 |
+| `hauts_faits_criteres_017` | haut_fait_critere 35894 à 36164 | 268 | 268 | 2496 |
+| `hauts_faits_criteres_018` | haut_fait_critere 36165 à 37094 | 264 | 264 | 2493 |
+| `hauts_faits_criteres_019` | haut_fait_critere 37095 à 40061 | 300 | 425 | 1471 |
+| `hauts_faits_criteres_020` | haut_fait_critere 40062 à 41362 | 300 | 1098 | 1526 |
+| `hauts_faits_criteres_021` | haut_fait_critere 41363 à 42104 | 302 | 935 | 1507 |
+| `hauts_faits_criteres_022` | haut_fait_critere 42114 à 60241 | 300 | 656 | 1124 |
+| `hauts_faits_criteres_023` | haut_fait_critere 60242 à 71100 | 303 | 356 | 1739 |
+| `hauts_faits_criteres_024` | haut_fait_critere 80000 à 132971 | 300 | 641 | 1513 |
+| `hauts_faits_criteres_025` | haut_fait_critere 132972 à 143876 | 300 | 300 | 1193 |
+| `hauts_faits_criteres_026` | haut_fait_critere 143877 à 144214 | 300 | 300 | 1524 |
+| `hauts_faits_criteres_027` | haut_fait_critere 144215 à 313284 | 301 | 322 | 1441 |
+| `hauts_faits_criteres_028` | haut_fait_critere 313310 à 313476 | 18 | 18 | 75 |
 

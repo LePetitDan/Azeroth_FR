@@ -65,6 +65,7 @@ FAMILLES = [
     ('talents', 'client/talents.tsv', ('sort', 'arbre_coa', 'arbre_talents', 'classe'),
      'Client : sorts des talents CoA (Spell.dbc), arbres de talents, noms des classes'),
     ('hauts_faits', 'client/hauts_faits.tsv', ('haut_fait', 'haut_fait_categorie'), 'Client : hauts faits et catégories'),
+    ('hauts_faits_criteres', 'client/hauts_faits_criteres.tsv', ('haut_fait_critere',), 'Client : critères des hauts faits (0.9.2)'),
     ('zones', 'client/zones.tsv', ('zone', 'carte', 'carte_monde', 'zone_interieure', 'point_carte', 'point_vol', 'canal'),
      'Client : zones et sous-zones (AreaTable), cartes et instances (Map), lieux intérieurs (WMOAreaTable), points de la '
      'carte (AreaPOI), points de vol (TaxiNodes), canaux (ChatChannels), cartes du monde'),
@@ -98,8 +99,10 @@ FAMILLES = [
      ('coa_tutoriel', 'coa_tutoriel_mot_cle', 'coa_tutoriel_objectif', 'coa_tutoriel_categorie', 'astuce'),
      "Client CoA : tutoriels (pages, mots-clés, objectifs) et astuces de l'écran de chargement (GameTips.dbc)"),
     ('progression', 'client/progression.tsv',
-     ('coa_jeton', 'coa_avancement_categorie', 'coa_avancement_onglet', 'coa_avancement_classe', 'coa_etiquette_sort'),
-     "Client CoA : jetons (TokenTypes.dbc), catégories et onglets de l'avancement du personnage, étiquettes de sorts"),
+     ('coa_jeton', 'coa_avancement_categorie', 'coa_avancement_onglet', 'coa_avancement_classe', 'coa_etiquette_sort',
+      'coa_libelle_lua'),
+     "Client CoA : jetons (TokenTypes.dbc), catégories et onglets de l'avancement du personnage, étiquettes de sorts, "
+     "libellés définis par les add-ons de CoA hors de GlobalStrings (0.9.2)"),
     ('monde_client', 'client/monde_client.tsv',
      ('difficulte_carte', 'donjon_recherche', 'groupe_donjon_recherche', 'champ_bataille', 'etat_monde', 'emote',
       'objet_focalisation', 'categorie_totem', 'forme', 'style_coiffure', 'categorie_limite_objet'),

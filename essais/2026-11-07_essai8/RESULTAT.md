@@ -1,4 +1,4 @@
-# Essai 8 : add-on 0.9.0 (07/11/2026, en cours ; corrections dans la 0.9.1)
+# Essai 8 : add-on 0.9.0 (07/11/2026, en cours ; corrections dans la 0.9.1 et la 0.9.2)
 
 *Dan joue pour monter au niveau 10 et voir les talents ; il envoie des captures au fil du jeu. Aucun nom de personnage n'est recopié ici.*
 
@@ -33,12 +33,12 @@
 
 | # | Où | Cause | Correction |
 |---|---|---|---|
-| 16 | **Fenêtre des hauts faits** : catégories, noms, descriptions, « Reward: » | L'add-on ne traduisait les hauts faits que dans les liens de la discussion ; la fenêtre n'est pas branchée. Le français actuel des hauts faits est une traduction machine (release 3.5.1), alors que le client frFR de Blizzard a les siens : **1 357 noms, 1 244 descriptions, 99 récompenses** au même numéro et au même anglais, et 6 671 critères sur 33 261 | 0.9.2 : français officiel repris, fenêtre branchée (liste, catégories, critères, alertes, suivi) |
+| 16 | **Fenêtre des hauts faits** : catégories, noms, descriptions, « Reward: » | L'add-on ne traduisait les hauts faits que dans les liens de la discussion ; la fenêtre n'est pas branchée. Le français actuel des hauts faits est une traduction machine (release 3.5.1), alors que le client frFR de Blizzard a les siens : **1 357 noms, 1 244 descriptions, 99 récompenses** au même numéro et au même anglais, et 6 671 critères sur 33 261 | 0.9.2 : français officiel repris (11 658 critères officiels), critères propres à CoA traduits, fenêtre branchée (liste, catégories, critères, résumé, statistiques, alertes) ; le suivi à droite de l'écran : plus tard |
 | 17 | Talent « Storm Chaser » : description en anglais | Trois conditionnelles **collées** (« your next $?a\|b[][Call Lightning]$?a[Aeroblast][]$?b[Torrential Wrath][] by ») : le découpage du texte affiché entre elles était arbitraire | 0.9.1 : chaque condition est essayée vraie ou fausse, la même en anglais et en français ; le français n'est posé que si une seule lecture colle (banc : vérifié) |
 | 18 | Bulle d'un talent : sorts cités dessous (« Thunder Grip », « Summon: Air Elemental » et leur description) | Lignes sans numéro de sort | 0.9.1 : nom de sort quand tous les sorts de ce nom ont le même français, description retrouvée par son texte (banc : vérifié) |
 | 19 | Grimoire : « Call Lightning » rangs 2 à 12 | La reprise du même anglais voyait deux français (l'officiel « Appel d'éclair » et une ancienne traduction machine) et s'abstenait | 0.9.1 : un seul français officiel l'emporte |
-| 20 | Fenêtre des talents de CoA : « Change Active Specialization », cartes de spécialisation et leur bulle | Libellés écrits en dur dans les add-ons de CoA (45 variables `COA_…` ; autres textes en clair) ; fenêtre absente du balayage | 0.9.2 : libellés relevés dans le code du client, fenêtre ajoutée au balayage |
-| 21 | Noms de classe et d'arbre en capitales (« STORMBRINGER », « LIGHTNING ») | Le client écrit le nom en majuscules (`strupper`) : le texte n'est plus le nom connu | 0.9.2 : formes en capitales, comme pour la collection de vanité |
+| 20 | Fenêtre des talents de CoA : « Change Active Specialization », cartes de spécialisation et leur bulle | Libellés définis par les add-ons de CoA eux-mêmes (45 variables en secours de GlobalStrings, dont 8 absentes de toutes nos sources) | 0.9.2 : les 8 libellés relevés dans le code du client, traduits, posés par le balayage (la fenêtre est un enfant de `Collections`, déjà balayée) ; bulle des cartes de spécialisation : à revérifier en jeu |
+| 21 | Noms de classe et d'arbre en capitales (« STORMBRINGER », « LIGHTNING ») | Le client écrit le nom en majuscules (`strupper`) : le texte n'est plus le nom connu | 0.9.2 : formes en capitales, français en vraies capitales (« PORTE-TEMPÊTE », « FOUDRE ») |
 | 22 | Voie de l'Ascension, tutoriel JcJ | Mêmes causes que les n° 11 et 14 | 0.9.1 si le texte est connu ; à revérifier en jeu |
 
 `/azfr bulle` a servi (objet « synchroniseur ») : la ligne « -> sort de l'objet … trouvé : non (sort nil) » a montré que le sort manquait à la source.

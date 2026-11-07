@@ -1118,6 +1118,61 @@ for _, c in ipairs(CAS_LISTE) do
         A.BalayerFenetre(f, c.domaines)
         egal(c.nom, z:GetText(), c.attendu)
         f.visible = false
+    elseif c.quoi == "hauts_faits" then
+        -- 0.9.2 : fenetre des hauts faits (Blizzard_AchievementUI chargee a la demande) : versions minimales des
+        -- fonctions de Blizzard (memes ecritures que le client), puis ADDON_LOADED
+        local en = c.anglais
+        function GetAchievementInfo(a, b)
+            local i = b and c.id or a
+            if i ~= c.id then return nil end
+            return i, en.nom, 10, false, nil, nil, nil, en.description, 0, "", en.recompense
+        end
+        function GetCategoryInfo(id) if id == c.cat then return en.categorie, -1, 0 end end
+        function GetAchievementNumCriteria(id) return id == c.id and #en.criteres or 0 end
+        function GetAchievementCriteriaInfo(id, i)
+            local k = en.criteres[i]
+            return k.texte, 0, false, 0, 1, "", 0, 0, "0/1", k.id
+        end
+        function AchievementObjectives_DisplayCriteria(objectifs, id)
+            for i = 1, GetAchievementNumCriteria(id) do
+                local s = GetAchievementCriteriaInfo(id, i)
+                local f = _G["AchievementFrameCriteria" .. i] or { name = NouvelleZone("") }
+                _G["AchievementFrameCriteria" .. i] = f
+                f.name:SetText("- " .. s)
+            end
+        end
+        function AchievementButton_DisplayAchievement(button, categorie, index)
+            local id, nom, _, _, _, _, _, desc, _, _, rec = GetAchievementInfo(categorie, index)
+            button.id = id
+            button.label:SetText(nom); button.description:SetText(desc); button.hiddenDescription:SetText(desc)
+            if rec ~= "" then button.reward:SetText(rec) end
+            AchievementObjectives_DisplayCriteria(nil, id)
+            return id
+        end
+        function AchievementFrameCategories_DisplayButton(button, element)
+            button.label:SetText((GetCategoryInfo(element.id))); button.categoryID = element.id
+        end
+        AchievementAlertFrame1 = AchievementAlertFrame1 or NouveauCadre("AchievementAlertFrame1")
+        AchievementAlertFrame1Name = AchievementAlertFrame1Name or NouvelleZone("")
+        function AchievementAlertFrame_ShowAlert(id)
+            AchievementAlertFrame1.id = id
+            AchievementAlertFrame1Name:SetText((select(2, GetAchievementInfo(id))))
+        end
+        Declencher("ADDON_LOADED", "Blizzard_AchievementUI")
+        local b = { label = NouvelleZone(""), description = NouvelleZone(""), hiddenDescription = NouvelleZone(""), reward = NouvelleZone("") }
+        AchievementButton_DisplayAchievement(b, 1, 1)
+        egal(c.nom .. " (nom)", b.label:GetText(), c.attendu.nom)
+        egal(c.nom .. " (description)", b.description:GetText(), c.attendu.description)
+        egal(c.nom .. " (description cachée, mesure de la hauteur)", b.hiddenDescription:GetText(), c.attendu.description)
+        egal(c.nom .. " (récompense)", b.reward:GetText(), c.attendu.recompense)
+        for i = 1, #c.attendu.criteres do
+            egal(c.nom .. " (critère " .. i .. ")", _G["AchievementFrameCriteria" .. i].name:GetText(), c.attendu.criteres[i])
+        end
+        local bc = { label = NouvelleZone("") }
+        AchievementFrameCategories_DisplayButton(bc, { id = c.cat })
+        egal(c.nom .. " (catégorie)", bc.label:GetText(), c.attendu.categorie)
+        AchievementAlertFrame_ShowAlert(c.id)
+        egal(c.nom .. " (alerte « haut fait obtenu »)", AchievementAlertFrame1Name:GetText(), c.attendu.nom)
     elseif c.quoi == "bulle_sort_citee" then
         GameTooltip:Effacer(c.lignes, nil, nil, { "Talent du banc", "", 999999991 })
         GameTooltip:Declencher("OnTooltipSetSpell")

@@ -1048,6 +1048,37 @@ def cas_09(globales):
             cas.append({'quoi': 'tutoriel', 'nom': 'tutoriel %s, mot-clé « %s » rendu en lien coloré par le client (essai 8)'
                         % (tu[K.I_ID], m.group(1)), 'anglais': tu[K.I_EN][:m.start()] + lien + tu[K.I_EN][m.end():],
                         'attendu': tu[K.I_FR], 'pages': tu[K.I_FR].count('{page}') + 1})
+    # 0.9.2 : fenêtre des hauts faits : un haut fait officiel avec description, récompense, catégorie et deux critères
+    hf_l = defaultdict(dict)
+    for x in lire('client/hauts_faits.tsv'):
+        if x[K.I_TYPE] in ('haut_fait', 'haut_fait_categorie') and passe(x) and '@' not in x[K.I_FR]:
+            hf_l[(x[K.I_TYPE], x[K.I_ID])][x[K.I_CHAMP]] = x
+    crit = {x[K.I_ID]: x for x in lire('client/hauts_faits_criteres.tsv') if passe(x) and '@' not in x[K.I_FR]}
+    liens = defaultdict(dict)
+    p_liens = os.path.join(K.COLLECTE, 'client', 'hauts_faits_liens.tsv')
+    if os.path.exists(p_liens):
+        for ligne in open(p_liens, encoding='utf-8').read().splitlines()[1:]:
+            q, a, b = ligne.split('\t')
+            liens[q][a] = b
+    crit_par_hf = defaultdict(list)
+    for ic, ih in liens['critere_haut_fait'].items():
+        if ic in crit:
+            crit_par_hf[ih].append(ic)
+    for (t, i), d in sorted(hf_l.items(), key=lambda x: int(x[0][1]) if x[0][1].isdigit() else 10 ** 9):
+        if t != 'haut_fait' or not all(c in d for c in ('name', 'description', 'reward')):
+            continue
+        cat = liens['haut_fait_categorie'].get(i)
+        dc = hf_l.get(('haut_fait_categorie', cat), {}).get('name')
+        cs = sorted(crit_par_hf.get(i, []), key=int)[:2]
+        if not dc or len(cs) < 2 or any(d[c][K.I_FR] == d[c][K.I_EN] for c in ('name', 'description', 'reward')):
+            continue
+        cas.append({'quoi': 'hauts_faits', 'nom': 'fenêtre des hauts faits : haut fait %s « %s », catégorie %s, critères %s' % (i, d['name'][K.I_EN], cat, ', '.join(cs)),
+                    'id': int(i), 'cat': int(cat),
+                    'anglais': {'nom': d['name'][K.I_EN], 'description': d['description'][K.I_EN], 'recompense': d['reward'][K.I_EN],
+                                'categorie': dc[K.I_EN], 'criteres': [{'id': int(x), 'texte': crit[x][K.I_EN]} for x in cs]},
+                    'attendu': {'nom': d['name'][K.I_FR], 'description': d['description'][K.I_FR], 'recompense': d['reward'][K.I_FR],
+                                'categorie': dc[K.I_FR], 'criteres': ['- ' + crit[x][K.I_FR] for x in cs]}})
+        break
     # essai 8 : conditionnelles collées (talent « Storm Chaser » 300612 : « next $?a|b[][Call Lightning]$?a[Aeroblast][]
     # $?b[Torrential Wrath][] by ») ; le texte affiché est développé ici (toutes les conditions fausses), sans le Lua
     def developper(m, vrais=()):
@@ -1148,7 +1179,23 @@ def cas_09(globales):
                     'cadre': 'Collections', 'anglais': '|cffa335ee[Travel Permit]|r',
                     'attendu': '|cffa335ee[%s]|r' % va[K.I_FR], 'domaines': ['vanite']})
         cas.append({'quoi': 'client_fenetre', 'nom': 'collection de vanité : nom en capitales « TRAVEL PERMIT »',
-                    'cadre': 'Collections', 'anglais': 'TRAVEL PERMIT', 'attendu': F.majuscules_lua(va[K.I_FR])})
+                    'cadre': 'Collections', 'anglais': 'TRAVEL PERMIT', 'attendu': F.majuscules_fr(va[K.I_FR])})
+    # 0.9.2 (essai 8, niveau 10) : fenêtre des talents de CoA (CoATalentFrame, enfant de Collections) : nom de la classe
+    # et de la spécialisation en capitales (:upper()), libellé propre aux add-ons de CoA
+    cl = next((x for x in lire('client/talents.tsv') if x[K.I_TYPE] == 'classe' and x[K.I_CHAMP] == 'name'
+               and x[K.I_EN] == 'Stormbringer' and passe(x)), None)
+    if cl:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'talents de CoA : classe en capitales « STORMBRINGER »',
+                    'cadre': 'Collections', 'anglais': 'STORMBRINGER', 'attendu': F.majuscules_fr(cl[K.I_FR])})
+    sp = [x for x in lignes if x[K.I_TYPE] == 'coa_specialisation' and x[K.I_EN] == 'Lightning' and passe(x)]
+    if sp and unique(sp[0]):
+        cas.append({'quoi': 'client_fenetre', 'nom': 'talents de CoA : spécialisation en capitales « LIGHTNING »',
+                    'cadre': 'Collections', 'anglais': 'LIGHTNING', 'attendu': F.majuscules_fr(sp[0][K.I_FR])})
+    lb = next((x for x in lignes if x[K.I_TYPE] == 'coa_libelle_lua' and x[K.I_ID] == 'COA_CHANGE_ACTIVE_SPECIALIZATION'
+               and unique(x)), None)
+    if lb:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'talents de CoA : libellé « %s » (variable de CoA hors GlobalStrings)' % lb[K.I_EN],
+                    'cadre': 'Collections', 'anglais': lb[K.I_EN], 'attendu': lb[K.I_FR]})
     fa = next((x for x in lire('client/factions.tsv') if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Stormwind' and passe(x)), None)
     if fa:
         cas.append({'quoi': 'client_fenetre', 'nom': 'réputation : faction « Stormwind » dans ReputationFrame (balayage, noms)',

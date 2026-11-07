@@ -89,6 +89,7 @@ CHANTIERS = [
       'rencontres_donjon']),
     ('G', 'Sorts du serveur et sorts standard à revoir', 6, ['sorts_serveur', 'sorts_standard', 'sorts_coa']),
     ('H', 'Hauts faits (et enchantements sans modèle, en attente)', 7, ['hauts_faits', 'enchantements']),
+    ('K', 'Critères des hauts faits (0.9.2)', 8, ['hauts_faits_criteres']),
     # 07/11/2026, add-on 0.9 : ajouté au plan par « completer » (les lots des chantiers A à H ne changent pas)
     ('I', 'Textes propres au client CoA (0.9)', 8,
      ['sorts_coa', 'epreuves', 'creation_personnage', 'tutoriels', 'progression', 'monde_client', 'noms_client']),
@@ -140,10 +141,31 @@ def ordre(fam, k):
     return (tr, _num(k[1]), _num(k[2]), RANG_CHAMP.get(k[3], 999), k[3])
 
 
+_HF_LIENS = None
+
+
+def liens_hauts_faits():
+    """0.9.2 : critere -> haut fait (collecte/donnees/client/hauts_faits_liens.tsv)."""
+    global _HF_LIENS
+    if _HF_LIENS is None:
+        _HF_LIENS = {}
+        p = os.path.join(K.COLLECTE, 'client', 'hauts_faits_liens.tsv')
+        if os.path.exists(p):
+            with open(p, encoding='utf-8') as f:
+                for ligne in list(f)[1:]:
+                    c = ligne.rstrip('\n').split('\t')
+                    if len(c) == 3 and c[0] == 'critere_haut_fait':
+                        _HF_LIENS[c[1]] = c[2]
+    return _HF_LIENS
+
+
 def contexte_de(fam, k):
     """Groupe de contexte : les lignes d'une meme quete, d'un meme sort, d'un meme PNJ, d'un meme objet…"""
     if fam == 'quetes':
         return 'quete %s' % k[1]
+    if k[0] == 'haut_fait_critere':           # 0.9.2 : les criteres d'un meme haut fait ensemble
+        hf = liens_hauts_faits().get(k[1].split('-')[0])
+        return 'haut_fait %s' % hf if hf else '%s %s' % (k[0], k[1])
     if k[0] in ('option_dialogue', 'texte_creature', 'broadcast_text', 'dialogue_pnj'):
         return '%s %s' % (k[0], k[1])
     if k[0] == 'cpp_en_dur':
@@ -765,6 +787,14 @@ class Contextes:
                         self.noms_sorts[(l[K.I_ID], l[K.I_CHAMP])] = (l[K.I_EN], l[K.I_FR] if l[K.I_ETAT] in K.ETATS_AFFICHES else '')
         return self.noms_sorts
 
+    def _haut_fait(self, i, champ):
+        if getattr(self, 'hauts_faits', None) is None:
+            self.hauts_faits = {}
+            for l in charger_famille('hauts_faits'):
+                if l[K.I_TYPE] == 'haut_fait':
+                    self.hauts_faits[(l[K.I_ID], l[K.I_CHAMP])] = (l[K.I_EN], l[K.I_FR] if l[K.I_ETAT] in K.ETATS_AFFICHES else '')
+        return self.hauts_faits.get((i, champ))
+
     def construire(self, ctx, numeros):
         """numeros : cle -> numero d'entree du lot (les lignes du lot ne sont pas recopiees)."""
         fam = self.F.fam
@@ -792,6 +822,12 @@ class Contextes:
                 out['classe'] = {'en': t[0], 'fr': cl_fr}
                 out['arbre'] = {'en': t[1], 'type': t[2],
                                 'fr': self._fr_affichable(('arbre_coa', t[3], '', 'nom')) if t[3] else ''}
+        if fam == 'hauts_faits_criteres' and typ == 'haut_fait':
+            # 0.9.2 : le haut fait dont ce sont les criteres (nom, description), pour le sens
+            for ch in ('name', 'description'):
+                en_fr = self._haut_fait(i, ch)
+                if en_fr:
+                    out['haut_fait_' + ch] = {'en': coupe(en_fr[0], 300), 'fr': coupe(en_fr[1], 300)}
         if typ == 'texte_creature':
             c = self._creatures()
             for ch in ('name', 'subname'):
