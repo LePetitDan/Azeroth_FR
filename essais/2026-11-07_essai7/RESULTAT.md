@@ -1,6 +1,6 @@
 # Essai 7 (add-on 0.7.0) : résultat en jeu
 
-*Captures de Dan du 07/11/2026 (22 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
+*Captures de Dan du 07/11/2026 (23 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
 
 ## Ce qui marche
 
@@ -39,6 +39,7 @@
 | 17 | Maître de monte : nom « **Chasseur de Garion** » (anglais « Garion Hunter », PNJ CoA) ; fenêtre « Riding », « Novice Riding », « (Novice) », description en anglais | Le nom vient de la traduction machine de l'archive, qui a traduit un nom de famille (Blizzard garde « Randal Hunter ») ; le reste relève du point 1 (la description de monte n'est même pas dans la source) | Relire les noms de PNJ `machine` de l'archive : un prénom + nom ne se traduit pas |
 | 18 | Infobulle de la minicarte au survol d'un point : « **Goldshire** / **Lion's Pride Inn** » | Infobulle de la minicarte pas traitée | Noms officiels (dans la source : « Comté-de-l’or », « Auberge de la Fierté du Lion ») |
 | 19 | Infobulle d'un objet du monde : « **Elwynn Tree** / Requiert **Woodcutting** », « **Eagan's Water Pouch** » (source : « Poche à eau d'Eagan ») | Infobulle des objets du monde pas traitée (« Requiert » vient de l'interface) ; la source a « Arbre d'Elwynn » et « Bûcheronnage » | Nom de l'objet du monde et nom du métier dans l'infobulle |
+| 20 | Infobulle d'une créature de quête : « Jeune loup » en français, mais « **Beast** niveau 1 » et les lignes de quête « **Wolves Across the Border** / - **Tough Wolf Meat: 0/8** » | Le type de créature n'a pas de source officielle (`CreatureType.dbc` frFR absent, comme à l'essai 3) ; les lignes de quête ajoutées par le client à l'infobulle ne sont pas traitées | Types de créature : liste courte à valider par Dan (« Bête », « Humanoïde »…) ; titre et objectif de quête dans l'infobulle |
 | 9 | **Erreur d'interface** : `FrameXML\ChannelFrame.lua:619: Usage: GetChannelDisplayInfo(index)`, en cliquant dans la liste des membres d'un canal | L'add-on ne touche à aucune fenêtre de canal : sans doute un défaut du client CoA | À confirmer : même clic avec `/azfr off` |
 
 ## Limites connues (impossible par l'add-on)
