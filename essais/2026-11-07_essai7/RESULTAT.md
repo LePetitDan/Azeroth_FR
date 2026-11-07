@@ -1,6 +1,6 @@
 # Essai 7 (add-on 0.7.0) : résultat en jeu
 
-*Captures de Dan du 07/11/2026 (18 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
+*Captures de Dan du 07/11/2026 (19 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
 
 ## Ce qui marche
 
@@ -38,6 +38,10 @@
 | 16 | Marchand : noms « Bride d'étalon blanc », « Bride de palomino » en français, mais infobulle « **Mount** » et « Utiliser : **Teaches you how to summon this mount. This is a Ground mount.** » | Sous-classe 15-5 pas affichée en français (et `ITEM_SUBCLASS_15_5` traduit à tort « Monter » au lieu de « Monture ») ; la phrase « Utiliser : » n'est dans aucun sort de la source mais existe comme description d'objet (« Vous apprend à invoquer cette monture. Il s'agit d'une monture au sol. ») | « Monture » ; pour une ligne « Utiliser : » introuvable dans les sorts, chercher aussi dans les descriptions d'objets |
 | 17 | Maître de monte : nom « **Chasseur de Garion** » (anglais « Garion Hunter », PNJ CoA) ; fenêtre « Riding », « Novice Riding », « (Novice) », description en anglais | Le nom vient de la traduction machine de l'archive, qui a traduit un nom de famille (Blizzard garde « Randal Hunter ») ; le reste relève du point 1 (la description de monte n'est même pas dans la source) | Relire les noms de PNJ `machine` de l'archive : un prénom + nom ne se traduit pas |
 | 9 | **Erreur d'interface** : `FrameXML\ChannelFrame.lua:619: Usage: GetChannelDisplayInfo(index)`, en cliquant dans la liste des membres d'un canal | L'add-on ne touche à aucune fenêtre de canal : sans doute un défaut du client CoA | À confirmer : même clic avec `/azfr off` |
+
+## Limites connues (impossible par l'add-on)
+
+- Noms et titres au-dessus des têtes (« Moroi Spada <Seminarian of Northshire Abbey> », « Marshal McBride ») : dessinés par le moteur du jeu, qu'aucun add-on ne peut changer. Seule une version native (fichiers du jeu et base du serveur en français, comme celle prévue pour Erydal) les traduit.
 
 ## Pas encore vérifié
 
