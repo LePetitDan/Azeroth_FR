@@ -680,6 +680,42 @@ class Importeur:
             n += 1
         K.journal('import : sorts CoA de puissance PvE/PvP : %d textes' % n)
 
+    def importer_sorts_interface(self):
+        """Add-on 0.8 (essai 7 n° 10) : sorts que le code d'interface du client CoA designe par leur numero
+        (collecte/donnees/client/sorts_interface.tsv : HasBuff(9931032) = mode JcE…), absents des autres familles.
+        Texte de Blizzard identique : son francais officiel ; sinon a_traduire (atelier de traduction)."""
+        p = os.path.join(K.COLLECTE, 'donnees', 'client', 'sorts_interface.tsv')
+        if not os.path.exists(p):
+            return
+        ids = set()
+        with open(p, encoding='utf-8') as f:
+            next(f)
+            for ligne in f:
+                c = ligne.rstrip('\n').split('\t')
+                if c and c[0].isdigit():
+                    ids.add(c[0])
+        deja = {k[1] for k in self.lignes if k[0] == 'sort'}
+        n = Counter()
+        for (i, champ), en in sorted(self.coa_sorts.items(), key=lambda x: (int(x[0][0]), x[0][1])):
+            if i not in ids or i in deja or champ not in ('Name', 'Rank', 'Description', 'ToolTip') or not en.strip():
+                continue
+            off = self.off_sorts.get((i, champ))
+            if off and off[0] == en and off[1]:
+                l = ['sort', i, '', champ, en, K.empreinte(en), off[1], 'officiel', 'blizzard_frFR',
+                     'Spell.dbc de CoA (patch-T) ; sort cité par l\'interface du client | Spell.dbc frFR officiel : '
+                     'anglais identique']
+                if self.controle(en, off[1], 'officiel', 'sort'):
+                    l[K.I_ETAT], l[K.I_FR] = 'a_traduire', ''
+            else:
+                l = ['sort', i, '', champ, en, K.empreinte(en), '', 'a_traduire', 'coa_client',
+                     'Spell.dbc de CoA (patch-T) ; sort cité par l\'interface du client (collecte/donnees/client/'
+                     'sorts_interface.tsv)']
+            self.ajouter(l, 'sorts_coa')
+            n[l[K.I_ETAT]] += 1
+        for k, v in n.items():
+            self.cr['client_sorts_interface_' + k] = v
+        K.journal('import : sorts cités par l\'interface du client : %s' % dict(n))
+
     def importer_client(self):
         self.zones_exil = {}
         self.charger_francais_client()
@@ -1244,6 +1280,7 @@ def main():
     imp.importer_client()
     imp.importer_sorts_standard()
     imp.importer_sorts_coa_puissance()
+    imp.importer_sorts_interface()
     imp.importer_dbc()
     imp.importer_interface()
     imp.appliquer_vocabulaire()

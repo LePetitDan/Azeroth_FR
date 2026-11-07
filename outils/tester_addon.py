@@ -675,6 +675,27 @@ def choisir_cas():
         sid = fid
     aff_en, att_fr = remplir(en_t), remplir(fr_t, True)
     etiq = ' [ligne a_revoir injectée]' if injecte else ''
+    # 0.8 (essai 7 n° 1) : fenetre du maitre (pas de numero de sort : le nom, l'index NS). Le francais attendu du nom
+    # est celui de TOUS les sorts de ce nom (un seul francais affichable), sinon l'anglais reste.
+    frs_nom = set()
+    for rel in K.fichiers_textes():
+        r = os.path.relpath(rel, K.TEXTES).replace('\\', '/')
+        if r in F.HORS_GENERIQUE or r.startswith('serveur/objets/'):
+            continue
+        for x in K.lire_tsv(rel)[0]:
+            if F.est_sort(x[K.I_TYPE], x[K.I_CHAMP]) and x[K.I_CHAMP].lower() == 'name' and x[K.I_EN] == nom_en and passe(x):
+                frs_nom.add(x[K.I_FR])
+    nom_maitre = ('  ' + next(iter(frs_nom))) if len(frs_nom) == 1 else ('  ' + nom_en)
+    rg = next((x for x in lire('client/sorts_classes.tsv') if x[K.I_CHAMP] == 'Rank' and x[K.I_EN] == 'Rank 1' and passe(x)), None)
+    competence = next((x for x in lire('client/competences.tsv') if x[K.I_CHAMP] == 'name' and x[K.I_EN] == 'Riding' and passe(x)), None)
+    services = [{'nom': nom_en, 'rang': 'Rank 1', 'description': aff_en}]
+    attendus = [[nom_maitre, '(%s)' % rg[K.I_FR] if rg else '(Rank 1)']]
+    if competence:
+        services.append({'nom': 'Riding', 'categorie': True})
+        attendus.append([competence[K.I_FR], None])
+    cas.append({'quoi': 'maitre_liste', 'nom': 'essai 7 n° 1 : maître, sort « %s » (Rank 1)%s' % (nom_en, ' et catégorie « Riding »' if competence else ''),
+                'services': services, 'attendus': attendus, 'detail': 1, 'detail_nom': nom_maitre.strip(),
+                'detail_description': None if (injecte or len(frs_nom) != 1) else att_fr})
     cas.append({'quoi': 'sort_bulle', 'nom': 'infobulle de sort %s avec nombres (GetSpell, 3e valeur)%s' % (sid, etiq),
                 'id': sid, 'anglais': nom_en, 'lignes': [nom_en, '40 yd range', aff_en],
                 'attendu': nom_fr, 'ligne_description': 3, 'description_attendue': att_fr})

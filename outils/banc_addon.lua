@@ -597,6 +597,41 @@ local function Filtrer(evenement, args)
     return args
 end
 
+
+-- 0.8 : fenetre du maitre (patch-B, Blizzard_TrainerUI) : ClassTrainerFrame_Update pose l'en-tete et la liste
+-- (« "  "..nom » pour un sort, rang par PARENS_TEMPLATE), ClassTrainer_SetSelection pose le detail.
+MAITRE = {}
+function DefinirMaitre()
+    if ClassTrainerNameText then return end
+    ClassTrainerNameText = NouvelleZone("")
+    CLASS_TRAINER_SKILLS_DISPLAYED = 3
+    for i = 1, 3 do
+        _G["ClassTrainerSkill" .. i] = NouvelleZone("")
+        _G["ClassTrainerSkill" .. i .. "Text"] = NouvelleZone("")
+        _G["ClassTrainerSkill" .. i .. "SubText"] = NouvelleZone("")
+    end
+    ClassTrainerSkillName, ClassTrainerSubSkillName, ClassTrainerSkillDescription = NouvelleZone(""), NouvelleZone(""), NouvelleZone("")
+    function ClassTrainerFrame_Update()
+        ClassTrainerNameText:SetText(UnitName("npc"))
+        for i = 1, 3 do
+            local s = MAITRE[i]
+            _G["ClassTrainerSkill" .. i].visible = s and true or false
+            if s then
+                _G["ClassTrainerSkill" .. i .. "Text"]:SetText(s.categorie and s.nom or ("  " .. s.nom))
+                _G["ClassTrainerSkill" .. i .. "SubText"]:SetText(s.rang and ("(" .. s.rang .. ")") or "")
+            end
+        end
+    end
+    function ClassTrainer_SetSelection(id)
+        local s = MAITRE[id]
+        if not s then return end
+        ClassTrainerSkillName:SetText(s.nom)
+        ClassTrainerSubSkillName:SetText(s.rang and ("(" .. s.rang .. ")") or "")
+        ClassTrainerSkillDescription:SetText(s.description or "")
+    end
+    Declencher("ADDON_LOADED", "Blizzard_TrainerUI")
+end
+
 for _, c in ipairs(CAS_LISTE) do
     resultats.exemples = resultats.exemples + 1
     JOUEUR.sexe = c.sexe or 2
@@ -1057,12 +1092,7 @@ for _, c in ipairs(CAS_LISTE) do
     elseif c.quoi == "entete_pnj" then
         UNITES.npc = { nom = c.anglais, guid = c.guid }
         if c.fenetre == "maitre" then
-            -- Blizzard_TrainerUI (patch-B) : add-on du jeu charge a la demande ; ClassTrainerFrame_Update pose l'en-tete
-            if not ClassTrainerNameText then
-                ClassTrainerNameText = NouvelleZone("")
-                function ClassTrainerFrame_Update() ClassTrainerNameText:SetText(UnitName("npc")) end
-                Declencher("ADDON_LOADED", "Blizzard_TrainerUI")
-            end
+            DefinirMaitre()
             ClassTrainerFrame_Update()
             egal(c.nom, ClassTrainerNameText:GetText(), c.attendu)
         else
@@ -1074,6 +1104,22 @@ for _, c in ipairs(CAS_LISTE) do
         egal(c.nom .. " (nom changé par le serveur : anglais)", c.fenetre == "maitre" and ClassTrainerNameText:GetText()
             or _G[c.zone]:GetText(), c.anglais .. " Jr.")
         UNITES.npc = nil
+    elseif c.quoi == "maitre_liste" then
+        DefinirMaitre()
+        MAITRE = c.services
+        ClassTrainerFrame_Update()
+        for k, att in ipairs(c.attendus) do
+            egal(c.nom .. " (ligne " .. k .. ")", _G["ClassTrainerSkill" .. k .. "Text"]:GetText(), att[1])
+            if att[2] then egal(c.nom .. " (rang " .. k .. ")", _G["ClassTrainerSkill" .. k .. "SubText"]:GetText(), att[2]) end
+        end
+        if c.detail then
+            ClassTrainer_SetSelection(c.detail)
+            egal(c.nom .. " (détail : nom)", ClassTrainerSkillName:GetText(), c.detail_nom)
+            if c.detail_description then
+                egal(c.nom .. " (détail : description)", ClassTrainerSkillDescription:GetText(), c.detail_description)
+            end
+        end
+        MAITRE = {}
     elseif c.quoi == "bulle_carte" then
         JOURNAL = { { titre = c.titre_en, id = c.id } }
         A.JournalAChange()

@@ -118,6 +118,9 @@ local function LigneObjet(t)
         fr = Enchantement(coeur)
         if fr then return e1 .. fr .. e2 end
     end
+    -- 0.8 (essai 7 n° 16) : sous-classe seule a gauche (objets divers : « Mount » -> « Monture »)
+    fr = A.Nom("sous_classe", coeur)
+    if fr and fr ~= coeur then return e1 .. fr .. e2 end
     return nil
 end
 A.LigneObjet = LigneObjet
