@@ -1,6 +1,6 @@
 # Essai 7 (add-on 0.7.0) : résultat en jeu
 
-*Captures de Dan du 07/11/2026 (9 images) : Vallée de Comté-du-Nord, niveau 2, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
+*Captures de Dan du 07/11/2026 (12 images) : Vallée de Comté-du-Nord, niveau 2, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
 
 ## Ce qui marche
 
@@ -27,6 +27,8 @@
 | 6 | Journal des quêtes : catégorie « **Stormbringer** » | En-tête de catégorie (quêtes de classe) | « Porte-tempête » |
 | 7 | Carte du monde, survol : « **Shadewell** » | Nom de sous-zone pas trouvé (lieu propre à CoA ?) | Vérifier la source des zones |
 | 8 | Suivi : « Cherchez Niki Thesla dans la **vallée du Comté du Nord** » | Traduction machine : nom de lieu pas officiel (« Vallée de Comté-du-Nord ») | Passe d'harmonisation des noms de lieux dans les lignes `machine` |
+| 10 | Infobulle du bouton de mode : « **PvE Mode** / Cannot attack or be attacked by other players. » | C'est le sort CoA 9931032 (champ `ToolTip`), présent dans le client mais pas importé dans la source | Importer les sorts « système » de CoA affichés par l'interface (modes, auras) |
+| 11 | **Fenêtre des Épreuves** : cadre en français, mais noms et descriptions des épreuves en anglais (« Adventure Mode », « Nightmare - The Darkest Dungeon », « Step into a dangerous Open World adventure… ») | Ces textes ne sont dans aucune de nos sources (base du serveur, vidages du client) : envoyés par le serveur ou rangés dans un fichier du client pas encore collecté | Trouver la source ; au passage, les hauts faits « Cauchemar - Le Donjon le Plus Sombre » (traduction de l'archive) ont des majuscules à l'anglaise |
 | 9 | **Erreur d'interface** : `FrameXML\ChannelFrame.lua:619: Usage: GetChannelDisplayInfo(index)`, en cliquant dans la liste des membres d'un canal | L'add-on ne touche à aucune fenêtre de canal : sans doute un défaut du client CoA | À confirmer : même clic avec `/azfr off` |
 
 ## Pas encore vérifié
