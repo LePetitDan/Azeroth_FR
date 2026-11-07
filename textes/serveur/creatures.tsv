@@ -37224,7 +37224,7 @@ creature	94059		name	Corrupted Primrose	92a11540639a	Primevère corrompue	machin
 creature	97606		name	Excavator's Dunetrekker	ef6536da2e7e	Dunetrekker de l'excavatrice	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	97920		name	Pol Hunter	d7228835b555		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Pol Hunter »
 creature	97920		subname	Traveling Mount Merchant	bf51c796ac8f	Marchand de monture ambulant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	97921		name	Garion Hunter	73f0212fe9c5	Chasseur de Garion	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
+creature	97921		name	Garion Hunter	73f0212fe9c5	Garion Hunter	relu	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | corrigé à la main le 07/11/2026 (essai 7 n° 17) : prénom et nom ne se traduisent pas (Blizzard garde « Randal Hunter ») ; l'archive avait « Chasseur de Garion »
 creature	97921		subname	Traveling Riding Trainer	e7c572c2c080	Entraîneur d'équitation itinérant	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	98475		name	Dwayne	0012f1a7368e	Dwayne	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	98477		name	Pip	9b0d5ac39f0a	Pépin	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
@@ -38407,10 +38407,10 @@ creature	161700		name	Bianca Spada	8597cba78e17	Bianca Spada	machine	archive_asc
 creature	161701		name	Moroi Spada	275c8cd24f95	Moroï Spada	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161701		subname	Seminarian of Northshire Abbey	8f7ec4c9ec1b	Séminariste de l'abbaye de Northshire	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161702		name	Sister Alma	b176ad5ee286	Sœur Alma	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
-creature	161702		subname	Ancient Priestess of Northshire	0c9b666eda01	Ancienne prêtresse du Comté du Nord	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
+creature	161702		subname	Ancient Priestess of Northshire	0c9b666eda01	Ancienne prêtresse du Comté-du-Nord	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | correction mécanique du glossaire : Comté-du-Nord : nom officiel (07/11, essai 7)
 creature	161703		name	[KC] 161703	a951f86161d4		technique		technique=nom_technique
 creature	161704		name	[KC] 161704	3ead6dc9655b		technique		technique=nom_technique
-creature	161705		name	Injured Northshire Guard	2ded6740c59e	Garde du Comté du Nord blessé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
+creature	161705		name	Injured Northshire Guard	2ded6740c59e	Garde du Comté-du-Nord blessé	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua | correction mécanique du glossaire : Comté-du-Nord : nom officiel (07/11, essai 7)
 creature	161707		name	Shadewell Spider	0dc9638c0ef4	Araignée Shadewell	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161708		name	Accursed Judge	4155f0cdc206	Juge maudit	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
 creature	161710		name	Carthorse	a2852e48e8b9	Cheval de trait	machine	archive_ascensionfr	fichier=creatures.json;preuve_anglais=release:DB_Creatures.lua
