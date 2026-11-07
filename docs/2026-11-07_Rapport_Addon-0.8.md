@@ -21,7 +21,7 @@ Fenêtres des maîtres ; titres des sacs ; infobulles des objets du monde (noms 
 
 - `ITEM_SUBCLASS_15_5` : « Monter » → **« Monture »** (relu) ; « vallée du Comté du Nord » → **« vallée de Comté-du-Nord »** (corrections sûres) ; créature 97921 : **« Garion Hunter »** gardé (relu ; le contrôle accepte un prénom et un nom relus gardés en anglais).
 - **382 textes de sorts cités par le code d'interface** du client (mode JcE, modes de jeu…) entrent dans la source (`collecte/donnees/client/sorts_interface.tsv`), à l'état `a_traduire`.
-- Types de créature : « Dragonkin » = **« Draconien »**, terme du jeu français (la question posée à Dan disait « Dragon » par erreur). Types propres à CoA : « Insecte », « Aberration », « Horreur » ; « Mystic Rift » reste en anglais (question).
+- Types de créature : « Dragonkin » = **« Draconien »**, terme du jeu français (la question posée à Dan disait « Dragon » par erreur). Types propres à CoA : « Insecte », « Aberration », « Horreur » ; « Mystic Rift » = « Faille mystique » (décision 32).
 
 ## Ce qui reste (prochaine étape)
 
