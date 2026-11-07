@@ -684,7 +684,7 @@ class Importeur:
         """Add-on 0.8 (essai 7 n° 10) : sorts que le code d'interface du client CoA designe par leur numero
         (collecte/donnees/client/sorts_interface.tsv : HasBuff(9931032) = mode JcE…), absents des autres familles.
         Texte de Blizzard identique : son francais officiel ; sinon a_traduire (atelier de traduction)."""
-        p = os.path.join(K.COLLECTE, 'donnees', 'client', 'sorts_interface.tsv')
+        p = os.path.join(K.COLLECTE, 'client', 'sorts_interface.tsv')
         if not os.path.exists(p):
             return
         ids = set()
@@ -1202,8 +1202,9 @@ class Importeur:
             frs = off.get((l[K.I_TYPE], l[K.I_CHAMP], l[K.I_EN]))
             if not frs or len(frs) != 1:
                 continue
-            fr = next(iter(frs))
-            if fr == l[K.I_FR] or self.controle(l[K.I_EN], fr, 'officiel', l[K.I_TYPE], k):
+            fr = next(iter(frs)).replace('’', "'")      # typographie du projet : apostrophe droite
+            # controle d'une ligne machine (glossaire compris : PvP garde, decision 30) ; refusee : on n'y touche pas
+            if fr == l[K.I_FR] or self.controle(l[K.I_EN], fr, 'machine', l[K.I_TYPE], k[1]):
                 continue
             self.ex('harmonise_officiel', l)
             l[K.I_NOTE] = joindre(l[K.I_NOTE], 'harmonisé sur le français officiel du même anglais (avant : « %s »)'

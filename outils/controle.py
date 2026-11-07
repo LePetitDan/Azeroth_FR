@@ -302,6 +302,7 @@ def controle_interface(en, fr):
 # CoA compare (Blizzard_CombatLog.lua de patch-B : COMBAT_LOG_UNIT_YOU_ENABLED == "1"). Sur ces cles seulement, et
 # seulement de « 0 » a « 1 » ou l'inverse, l'ecart de nombre n'est pas un refus. Toute autre cle reste au controle strict.
 DRAPEAUX_INTERFACE = {'COMBAT_LOG_UNIT_YOU_ENABLED'}
+NOM_PROPRE = re.compile(r"[A-Z][a-z'\-]+(?: [A-Z][a-z'\-]+){1,2}")
 
 
 def controle(en, fr, etat='machine', regles=(), noms=None, type_=None, cle=None):
@@ -319,6 +320,10 @@ def controle(en, fr, etat='machine', regles=(), noms=None, type_=None, cle=None)
     if type_ in TYPES_INTERFACE and cle in DRAPEAUX_INTERFACE and en in ('0', '1') and fr in ('0', '1'):
         return []
     r = controle_structure(en, fr, souple=(etat == 'officiel' and type_ not in TYPES_INTERFACE))
+    # 0.8 (essai 7 n° 17) : un nom de personnage relu et GARDE en anglais (« Garion Hunter », comme Blizzard garde
+    # « Randal Hunter ») n'est pas une ligne oubliee : prenom et nom, mots a majuscule, pas une phrase.
+    if etat == 'relu' and type_ in ('creature',) and fr == en and NOM_PROPRE.fullmatch(en):
+        r = [x for x in r if x != 'reste_en_anglais']
     if type_ in TYPES_INTERFACE:
         r += controle_interface(en, fr)
     if etat != 'officiel':

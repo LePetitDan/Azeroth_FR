@@ -45,7 +45,7 @@ import controle as C  # noqa: E402
 import modele_officiel as MO  # noqa: E402
 import couche as CO  # noqa: E402
 
-SOURCES_CONNUES = {'', 'blizzard_frFR', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire',
+SOURCES_CONNUES = {'', 'blizzard_frFR', 'blizzard_frFR_meme_anglais', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire',
                    MO.SOURCE, CO.SOURCE}
 
 
