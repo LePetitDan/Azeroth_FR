@@ -1,6 +1,6 @@
 # Essai 7 (add-on 0.7.0) : résultat en jeu
 
-*Captures de Dan du 07/11/2026 (17 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
+*Captures de Dan du 07/11/2026 (18 images) : Vallée de Comté-du-Nord, niveaux 2 et 3, Porte-tempête. Aucun nom de personnage ni de joueur n'est recopié ici.*
 
 ## Ce qui marche
 
@@ -36,6 +36,7 @@
 | 14 | Fenêtre de quête d'un PNJ (William Pilon) : description, objectifs et récompenses en français, mais **objets de récompense** en anglais (« Glowing Wax Stick », « Green Woolen Bag », « Adventurer's Satchel ») alors que la source a « Bâton de cire luminescent », « Sac vert en laine », « Sacoche d'aventurier » | Le module des objets (chargé à la demande) n'est peut-être pas encore chargé quand la fenêtre s'affiche, et rien ne la redessine ensuite | Charger les données avant, ou redessiner après le chargement ; reproduire au banc |
 | 15 | En-tête de la même fenêtre : « **William Pestle** » (l'objectif dit bien « William Pilon ») | Même cause probable (module des créatures) ; même défaut que l'en-tête du marchand de l'essai 4 (point 5) | Idem |
 | 16 | Marchand : noms « Bride d'étalon blanc », « Bride de palomino » en français, mais infobulle « **Mount** » et « Utiliser : **Teaches you how to summon this mount. This is a Ground mount.** » | Sous-classe 15-5 pas affichée en français (et `ITEM_SUBCLASS_15_5` traduit à tort « Monter » au lieu de « Monture ») ; la phrase « Utiliser : » n'est dans aucun sort de la source mais existe comme description d'objet (« Vous apprend à invoquer cette monture. Il s'agit d'une monture au sol. ») | « Monture » ; pour une ligne « Utiliser : » introuvable dans les sorts, chercher aussi dans les descriptions d'objets |
+| 17 | Maître de monte : nom « **Chasseur de Garion** » (anglais « Garion Hunter », PNJ CoA) ; fenêtre « Riding », « Novice Riding », « (Novice) », description en anglais | Le nom vient de la traduction machine de l'archive, qui a traduit un nom de famille (Blizzard garde « Randal Hunter ») ; le reste relève du point 1 (la description de monte n'est même pas dans la source) | Relire les noms de PNJ `machine` de l'archive : un prénom + nom ne se traduit pas |
 | 9 | **Erreur d'interface** : `FrameXML\ChannelFrame.lua:619: Usage: GetChannelDisplayInfo(index)`, en cliquant dans la liste des membres d'un canal | L'add-on ne touche à aucune fenêtre de canal : sans doute un défaut du client CoA | À confirmer : même clic avec `/azfr off` |
 
 ## Pas encore vérifié
