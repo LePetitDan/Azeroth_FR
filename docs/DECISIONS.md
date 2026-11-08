@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 08/11/2026 | « Path to Ascension » = « Voie de l'Ascension » partout (décision de vocabulaire 34), harmonisé par une règle dans la 0.9.4 | Dan (« comme tu veux ») |
 | 08/11/2026 | Add-on 0.9.3 installé dans `D:\Wow_Core` (CoA du 08/11) : dossiers `Azeroth_FR…` et `Interface\PTRXML` remplacés ; 84 fichiers, empreintes vérifiées ; zip gardé dans `D:\Azeroth_FR_API` | Dan |
 | 08/11/2026 | **Plus de plafond d'API fixé par Dan** : « aucun plafond, tu peux y aller » ; il reste environ 130 € sur la console de l'API. Garde-fou technique de `api_envoyer.py` mis à 200 $ cumulés (81,97 $ déjà estimés), sous le solde de la console. Première dépense : la mise à jour au CoA du 08/11 | Dan |
 | 08/11/2026 | Erydal : « Path of Erydal » garde son nom (décision de vocabulaire 33). Accord de budget de Dan pour la traduction du contenu propre d'Erydal (pack natif) et pour la suite d'Azeroth-FR ; montant du nouveau plafond à fixer avec le chiffrage | Dan |

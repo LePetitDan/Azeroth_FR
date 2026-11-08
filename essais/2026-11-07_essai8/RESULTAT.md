@@ -46,3 +46,16 @@
 ### 08/11 : mise à jour du lanceur de CoA (version « 2026-11-07-01 »)
 
 Vérifié après la mise à jour : les 84 fichiers de l'add-on 0.9.3 et `Interface\PTRXML` sont intacts (mêmes tailles, version 0.9.3). Seul `Data\patch-B.MPQ` a changé ; comparé fichier par fichier à la version précédente, un seul fichier de code est modifié : `Interface\FrameXML\ChatFrame.lua` (insignes du personnel de CoA dans la discussion : MJ, DEV, MOD, CM, ADMIN, sous forme d'icônes). Pas de texte à traduire, rien qui touche les crochets de l'add-on. Les autres fichiers « nouveaux » de l'archive sont des images, des sons et des signatures, que notre extraction ne garde pas.
+
+### 08/11 : captures avec la 0.9.3 (niveau 10, Forêt d'Elwynn)
+
+| # | Où | Ce qu'on voit | Piste | Correction |
+|---|---|---|---|---|
+| 23 | Fenêtre du personnage, onglet Compétences | Noms (« Daggers », « Language: Common », « Lightning ») et catégories (« Class Skills », « Weapon Skills », « Armor Proficiencies ») en anglais | Les noms sont traduits dans la source (« Dagues », « Langue : commun ») et `SkillFrame` est balayée, mais rien n'est posé : à reproduire au banc ; les catégories (`SkillLineCategory.dbc`) manquent à la source | 0.9.4 |
+| 24 | Voie de l'Ascension, annexe des mots-clés : « Accès aux instances » | Titre en français, description en anglais | La traduction existe ; 205 descriptions de mots-clés contiennent des retours à la ligne `\r\n` que la comparaison ne neutralise pas (piste à confirmer) | 0.9.4 |
+| 25 | Calendrier | « Darkmoon Faire : fin », « Pilgrim's Bounty : début », « Day of the Dead » ; « Concours de pêche de Strangleronce » et « Tournoi de pêche kalu'ak » passent | Les noms sont traduits (« Foire de Sombrelune », « Jour des morts ») ; les formes « : début » et « : fin » ne sont pas reconnues | 0.9.4 |
+| 26 | Carte du monde, bulle d'un point | « Stone of Retreat: Eastvale Logging Camp » (objet de vanité), « Sawmill » et sa description | Le nom de l'objet a deux traductions (objet et sort) ; le point « Sawmill » vient de CoA | 0.9.4 |
+| 27 | Carte du monde | « Burning Steppes », « Westfall », « Northshire » écrits sur la carte | Dessinés dans l'image de la carte : pas du texte ; seules les images françaises de Blizzard les changeraient (pack natif) | Plus tard |
+| 28 | Quêtes et fenêtre | « Voie de l'Ascension », « Chemin vers l'Ascension », « La voie de l'Ascension » | Trois traductions de « Path to Ascension » | Décision 34 : « Voie de l'Ascension » partout, 0.9.4 |
+| 29 | Discussion | « This server runs on AzerothCore… », « [SERVER] Restart in 14 Minute(s)… », barre « Server Restart » ; canaux « Trade », « Newcomers » ; onglets « General », « Combat Log » | Messages du serveur à relever ; les noms d'onglets sont enregistrés dans les réglages du jeu (créés en anglais), pas par l'add-on | 0.9.4 pour les messages ; onglets : à renommer dans le jeu |
+| 30 | Bulle d'un garde de Hurlevent | Une ligne « \|c\| » sous « Hurlevent » | Inconnue : `/azfr bulle` sur un garde | À tester |
