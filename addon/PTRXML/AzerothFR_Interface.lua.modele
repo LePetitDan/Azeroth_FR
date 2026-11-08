@@ -33,7 +33,8 @@ end
 -- ChrRaces frFR ; classes : noms de la source, feminin decide par Dan, point 17), selon le sexe choisi.
 -- Affichage seulement : on ne change que le texte d'une zone de texte ; aucune variable ni fonction du jeu n'est
 -- touchee. Tout est sous pcall ; a la premiere erreur, la relecture s'arrete pour la session (rien ne bloque
--- la connexion). En jeu, ce bloc ne fait rien.
+-- la connexion). En jeu, ce bloc ne fait rien. (0.9.4) Meme relecture pour l'ecran de SELECTION des personnages :
+-- classe et zone de chaque carte (voir Selection plus bas).
 -- (0.5) Noms de classes coupes (essai 4 : « Nécromancie… », « Pyromancien… », « Chronomanci… ») : la zone du nom
 -- d'un bouton de classe a une largeur fixe (CharCreateClassButtonTemplate : 104 px, GameFontNormalSmall) et un mot
 -- seul ne passe pas a la ligne. Si le texte pose ne tient pas (largeur mesuree comparee a GetWidth), la police de
@@ -47,6 +48,7 @@ local ok2, err2 = pcall(function()
     end
     local RACES = @RACES@
     local CLASSES = @CLASSES@
+    local ZONES = @ZONES@
     local gsub, match, sub = string.gsub, string.match, string.sub
     local ecrits = setmetatable({}, { __mode = "k" })       -- zone -> { en = anglais, fr = francais pose }
     local n_poses = 0
@@ -208,12 +210,91 @@ local ok2, err2 = pcall(function()
         end
     end
 
+    -- (0.9.4) Ecran de SELECTION des personnages (essai 8, demande de Dan) : CharacterSelect.lua de CoA,
+    -- CharacterSelectListItemMixin:Update ; chaque carte de la liste (CharacterSelectCharacterFrame.List, modele
+    -- CharSelectScrollListItemTemplate) a Content.Info = format(CHARACTER_SELECT_INFO, niveau, classe en couleur)
+    -- (« Stormbringer niveau 10 ») et Content.Location = la zone (GetCharacterInfo : nom de l'AreaTable du client,
+    -- « Elwynn Forest »). Le nom anglais exact de la classe, pris dans GetCharacterInfo (ou dans la liste des
+    -- personnages inactifs), est remplace dans le texte affiche par le nom francais selon le sexe du personnage ; la
+    -- zone, si son texte est EXACTEMENT un nom anglais connu (un seul francais), prend le nom francais. Le nom du
+    -- royaume reste celui du serveur.
+    local function Feminin(sexe)
+        if type(sexe) == "string" then return string.lower(sexe) == "female" end
+        return sexe == 1 or sexe == 3                       -- 0/1 ou 2/3 selon l'API : 1 et 3 = femme
+    end
+
+    local function ClasseDans(zone, classeEN, femme)
+        if not zone or type(zone.GetText) ~= "function" or type(classeEN) ~= "string" or classeEN == "" then return end
+        local texte = zone:GetText()
+        if not texte or texte == "" then return end
+        local e = ecrits[zone]
+        if e and texte == e.fr then return end
+        local fr = Nom(CLASSES, classeEN, femme)
+        if not fr or fr == classeEN then return end
+        local d, fin = string.find(texte, classeEN, 1, true)
+        if not d then return end
+        local nouveau = sub(texte, 1, d - 1) .. fr .. sub(texte, fin + 1)
+        zone:SetText(nouveau)
+        n_poses = n_poses + 1
+        ecrits[zone] = { en = texte, fr = nouveau }
+    end
+
+    local function ZoneDans(zone)
+        if not zone or type(zone.GetText) ~= "function" then return end
+        local texte = zone:GetText()
+        local fr = texte and ZONES[texte]
+        if type(fr) == "string" and fr ~= texte then
+            zone:SetText(fr)
+            n_poses = n_poses + 1
+        end
+    end
+
+    local function Carte(b, inactifs)
+        local c = b.Content
+        if type(c) ~= "table" or type(b.index) ~= "number" then return end
+        local classe, sexe
+        if inactifs then
+            local e = type(CharacterSelect.inactiveCharacters) == "table" and CharacterSelect.inactiveCharacters[b.index]
+            if type(e) ~= "table" then return end
+            classe = e.className or e.classLocalized or (type(e.class) == "string" and e.class) or nil
+            sexe = e.sex or e.gender
+        elseif type(GetCharIDFromIndex) == "function" and type(GetCharacterInfo) == "function" then
+            local _, _, cl, _, _, sx = GetCharacterInfo(GetCharIDFromIndex(b.index))
+            classe, sexe = cl, sx
+        end
+        if type(classe) == "string" then ClasseDans(c.Info, classe, Feminin(sexe)) end
+        if not inactifs then ZoneDans(c.Location) end
+    end
+
+    local function Cartes(cadre, profondeur, inactifs)
+        if not cadre or profondeur > 5 or type(cadre.GetChildren) ~= "function" then return end
+        local enfants = { cadre:GetChildren() }
+        for i = 1, #enfants do
+            local b = enfants[i]
+            if type(b) == "table" and type(b.IsShown) == "function" and b:IsShown() then
+                if type(b.Content) == "table" and b.Content.Info then
+                    Carte(b, inactifs)
+                else
+                    Cartes(b, profondeur + 1, inactifs)
+                end
+            end
+        end
+    end
+
+    local function Selection()
+        local cs = _G.CharacterSelect
+        if type(cs) ~= "table" or type(cs.IsShown) ~= "function" or not cs:IsShown() then return end
+        local cadre = _G.CharacterSelectCharacterFrame
+        if type(cadre) ~= "table" or not cadre.List then return end
+        Cartes(cadre.List, 0, cs.viewingInactiveList and true or false)
+    end
+
     local cumul = 0
     f:SetScript("OnUpdate", function(self, ecoule)
         cumul = cumul + (ecoule or 0)
         if cumul < 0.2 then return end
         cumul = 0
-        local bon, e = pcall(Passer)
+        local bon, e = pcall(function() Passer(); Selection() end)
         if not bon then
             self:SetScript("OnUpdate", nil)          -- a la premiere erreur : on s'arrete (rien ne bloque l'ecran)
             if type(AzerothFR_Interface) == "table" then AzerothFR_Interface.erreur_creation = tostring(e) end

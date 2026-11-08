@@ -138,3 +138,51 @@ Source reconstruite : 1 553 893 lignes ; contrôle **0 bloquant** ; faux cas ref
 ### Contrôles
 
 Source : 1 571 714 lignes, contrôle **0 bloquant**, faux cas refusés 57/57, vrais cas acceptés 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc hors jeu **conforme** (142 exemples, 298 vérifications). Zip `Azeroth_FR-0.9.3.zip` (25,6 Mo).
+
+## 9. Version 0.9.4 : les captures du 08/11 (essai 8, points 23 à 36)
+
+*08/11/2026. Captures de Dan avec la 0.9.3 (niveau 10, Forêt d'Elwynn), puis celles demandées (sélection des personnages, hauts faits, talents, métiers). Détail : `essais/2026-11-07_essai8/RESULTAT.md`, points 23 à 37.*
+
+### Écran de sélection des personnages (demande de Dan)
+
+Avant l'entrée en jeu, seul `Interface\PTRXML` est chargé : la relecture de l'avant-jeu (déjà faite pour la création, cinq fois par seconde) parcourt aussi les cartes de la liste (`CharacterSelectCharacterFrame.List`, `CharacterSelect.lua` de CoA). Dans la ligne « Stormbringer niveau 10 », le nom anglais de la classe, pris dans `GetCharacterInfo`, devient le français selon le sexe du personnage (« Porte-tempête », « Féticheuse ») ; la zone devient son nom officiel (2 149 noms de zones à un seul français, « Forêt d'Elwynn »). Le nom du royaume reste celui du serveur. Le sexe renvoyé par `GetCharacterInfo` n'a pas pu être vérifié sur un personnage féminin : à regarder en jeu.
+
+### Hauts faits : la release 3.5.1 retraduite
+
+- Les noms, descriptions, récompenses et catégories propres à CoA venaient de la traduction machine de la release 3.5.1, jamais relue : « Level 70 » pour « Nightmare Mode: Level 70 », « [High Risk] » laissé en anglais, « [Mort Knight] », « Docteur Sorcier » et « Docteur Vaudou » pour la même classe, et la décision 24 (« Prem's » du royaume) jamais appliquée.
+- L'importeur l'écarte (l'ancien français reste en note, jamais donné en indice) : 39 209 lignes. Nouveau chantier M (`lots.py redecouper` : nouveaux lots dans une famille qui a déjà les siens) : 23 823 textes, 153 117 mots, 89 lots. Termes ajoutés au glossaire des agents : décisions 24 et 34, et l'usage déjà établi dans la fenêtre des Épreuves (« Hardcore », « Ironman » gardés ; « Haut risque » ; « Mode Cauchemar ») ; « Ascended » reste en anglais (question ouverte).
+- Après coup, une règle aligne les 17 noms restés au modèle « … de niveau N « Prem's » du royaume » sur le modèle de Blizzard (« Nain « Prem's » au niveau 70 sur le royaume »).
+- Restent 956 lignes en doute ou gardées (noms d'autres serveurs comme « Welcome to CausticWoW! », textes de test).
+
+### Hauts faits : l'affichage
+
+Les barres des catégories du résumé (« General 1/48 », « Quests »…) prennent leur nom français à l'affichage (`AchievementFrameSummaryCategory_OnShow` et la mise à jour du résumé) : leur nom est posé une seule fois, à la création du cadre, avant les crochets de l'add-on.
+
+### Sorts cités dans les bulles (fenêtre des talents de CoA)
+
+- Une description de sort de CoA peut porter des balises « @s:N:0@ » ; le client insère alors, sous la description, un bloc par sort cité : séparateur, icône, nom en blanc, puis la description du sort N (elle-même avec ses balises). « Souverain de la tempête » affiche ainsi « Saumure », « Courroux torrentiel » et « Conduction ».
+- **Source** : 772 sorts manquaient (638 sorts cités de proche en proche, 129 sorts de spécialisation, rang « Specialization » ou « Spec Passive », comme « Air Elemental »), ajoutés à la famille `sorts_objets` ; lots du chantier M (1 657 textes, 22 325 mots).
+- **Add-on** (`Sorts.lua`, `A.TraduireBlocsSorts`) : chaque bloc est traduit à part, par le numéro du sort cité (balises de la description anglaise du sort de la bulle, dans l'ordre), sinon par son nom et son texte.
+- « Brine » avait hérité du nom d'une créature resté en anglais : un nom d'une autre table identique à l'anglais n'est plus repris ; le sort est « Saumure », comme dans la description qui le cite.
+- « Niveau: 1 » (composé par CoA : LEVEL..": ") devient « Niveau : 1 ».
+- « Complexité : avancée » (et « experte », « maître », « intermédiaire », « normale », en minuscules) et « Choisir des talents », à l'infinitif comme « Voir les talents » : corrigés à la main (`relu`).
+- Les lignes de ressource prennent la forme majoritaire : « Épuise 40 points de Statique » (31 lignes harmonisées).
+
+### Points 23 à 29
+
+| # | Correction |
+|---|---|
+| 23 | La fenêtre du personnage de CoA remplace celle de Blizzard (`FrameXML/Ascension_CharacterFrame`) : ses panneaux sont balayés (`AscensionSkillsPanel`, `AscensionReputationPanel`, `AscensionCurrencyPanel`, `AscensionCharacterTitlesPanel`, `AscensionPetPaperDollPanel`). Catégories de compétences (`SkillLineCategory.dbc`, nouvelle collecte `categories_competences.py`) : « Compétences d'armes » et « Armures utilisables » relevés sur Wowhead en français (décision 31), les autres traduits (« Compétences de classe », « Compétences secondaires », « Langues », « Métiers ») |
+| 24 | Descriptions des mots-clés : la comparaison ignore les « \r » (le client peut n'envoyer que « \n »), des deux côtés (`FormeTutoriel`, `forme_tutoriel`) |
+| 25 | Calendrier : « Darkmoon Faire : fin » : le nom de la fête est retrouvé dans les gabarits `CALENDAR_EVENTNAME_FORMAT_START`, `_END`, `_RAID_LOCKOUT`, `_RAID_RESET` (français ou anglais) ; « Day of the Dead » : le nom est traduit (« Jour des morts »), à revoir en jeu s'il reste en anglais |
+| 26 | Bulles des points de CoA sur la carte (`MapPoiPinMixin`) : nom repris par le numéro du sort (pierres de retraite) ou par le nom. Les 58 pierres de retraite de la boutique prennent le nom du sort qu'elles lancent (« Pierre de retraite : Camp de bûcherons du Val d'est ») au lieu de la traduction de l'archive (« camp forestier d'Eastvale ») |
+| 28 | Décision 34 appliquée par une règle après la couche des traductions : 344 lignes passent à « Voie de l'Ascension », avec l'article qui va (« dans la Voie de l'Ascension », « Joker de la Voie de l'Ascension ») |
+| 29 | « [SERVER] Restart in 14 Minute(s). » devient « [SERVEUR] Redémarrage dans 14 minute(s). » dans la discussion seulement (le compte à rebours de CoA lit toujours l'anglais de l'évènement) ; la barre « Server Restart - 14:32 » devient « Redémarrage du serveur - 14:32 ». « This server runs on AzerothCore… » : texte exact inconnu, à relever en jeu |
+
+### Traduction
+
+Vague 13 (chantier M) : 126 requêtes, 2 relances, **25,59 $** ; dépense estimée totale **115,34 $** (garde-fou à 200 $).
+
+### Contrôles
+
+Source : 1 574 092 lignes, contrôle **0 bloquant**, faux cas refusés 57/57, vrais cas acceptés 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc hors jeu **conforme** : 150 exemples, 308 vérifications (barres du résumé des hauts faits, sort cité sous une description, calendrier en forme française et anglaise, panneau des compétences de CoA, mot-clé à « \r\n », arrêt du serveur), plus l'écran de sélection des personnages joué avec le vrai fichier d'avant-jeu (Porte-tempête, Féticheuse, Forêt d'Elwynn). Zip `Azeroth_FR-0.9.4.zip` (25,7 Mo, 84 fichiers).

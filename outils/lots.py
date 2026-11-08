@@ -96,6 +96,9 @@ CHANTIERS = [
      ['sorts_coa', 'epreuves', 'creation_personnage', 'tutoriels', 'progression', 'monde_client', 'noms_client']),
     # 07/11/2026, essai 8 : sorts des objets (« Utiliser : »), auras des Épreuves, collection de vanité (plafond 75 $)
     ('J', 'Sorts des objets et collection de vanité (essai 8)', 9, ['sorts_objets', 'vanite']),
+    # 08/11/2026, add-on 0.9.4 : nouvelle passe (« redecouper ») sur des familles qui ont déjà leurs lots
+    ('M', 'Hauts faits : la release 3.5.1 retraduite ; sorts cités et sorts de spécialisation (0.9.4)', 9,
+     ['hauts_faits', 'sorts_objets']),
 ]
 CHANTIERS_QUETES = ('A', 'B')
 # Familles en attente d'une decision de Dan : leurs lots sont au plan mais BLOQUES (aucune decision non tranchee
@@ -435,6 +438,73 @@ def cmd_completer(args):
         c['lots'] += noms
         K.journal('completer : %-22s %6d textes %8d mots %4d lots -> chantier %s'
                   % (fam, len(F.entrees), plan['familles'][fam]['mots'], len(noms), cid), JOURNAL_ATELIER)
+    actifs = [n for n in c['lots'] if not plan['lots'][n]['bloque']]
+    c['textes'] = sum(plan['lots'][n]['textes'] for n in actifs)
+    c['mots'] = sum(plan['lots'][n]['mots'] for n in actifs)
+    with open(PLAN_JSON, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(plan, f, ensure_ascii=False, indent=1)
+    ecrire_plan_md(plan)
+    print('chantier %s : %d lots, %d textes, %d mots' % (cid, len(c['lots']), c['textes'], c['mots']))
+
+
+def cmd_redecouper(args):
+    """0.9.4 : nouvelle passe sur une famille qui a DÉJÀ ses lots, quand des textes y sont remis à traduire après coup
+    (release 3.5.1 des hauts faits écartée, sorts nouvellement cités) : les textes en attente que la couche ne traduit
+    pas encore forment de nouveaux lots (numéros suivants), découpés à l'intérieur de la plage de chaque ancien lot et
+    insérés à leur place dans la liste de la famille. Les anciens lots gardent leur nom et leurs traductions (leur plage
+    se raccourcit jusqu'au premier nouveau lot qu'elle contient).
+
+      python3 -I outils/lots.py redecouper --chantier M --familles hauts_faits,sorts_objets
+    """
+    plan = charger_plan()
+    cid = opt(args, '--chantier')
+    fams = (opt(args, '--familles') or '').split(',') if opt(args, '--familles') else []
+    if not cid or not fams:
+        raise SystemExit('ERREUR : --chantier X et --familles a,b')
+    defaut = next((c for c in CHANTIERS if c[0] == cid), None)
+    c = next((x for x in plan['chantiers'] if x['id'] == cid), None)
+    if c is None:
+        c = {'id': cid, 'nom': opt(args, '--nom') or (defaut[1] if defaut else cid),
+             'priorite': int(opt(args, '--priorite') or (defaut[2] if defaut else 9)), 'familles': [], 'lots': [],
+             'textes': 0, 'mots': 0, 'mots_bloques': 0}
+        plan['chantiers'].append(c)
+    for fam in fams:
+        anciens = plan['familles'].get(fam, {}).get('lots') or []
+        if not anciens:
+            raise SystemExit('ERREUR : %s n\'a pas de lots : utilisez « completer »' % fam)
+        F = Famille(fam, tuple(plan['etats']))
+        entrees, cr = F.exclure()
+        anciens = sorted(anciens, key=lambda n: ordre(fam, tuple(plan['lots'][n]['debut'])))
+        bornes = [ordre(fam, tuple(plan['lots'][n]['debut'])) for n in anciens]
+        premier = {e['en']: e['cles'][0] for e in F.entrees}       # cle d'ordre de chaque entree (avant exclusion)
+        dernier = max(int(re.search(r'_(\d+)$', n).group(1)) for n in anciens)
+        tranches = [[e for e in entrees if e['ordre'] < bornes[0]]]
+        for j, b in enumerate(bornes):
+            fin = bornes[j + 1] if j + 1 < len(bornes) else None
+            tranches.append([e for e in entrees if e['ordre'] >= b and (fin is None or e['ordre'] < fin)])
+        noms = []
+        for tranche in tranches:
+            for lot in decouper(tranche, plan['mots_max'], plan['textes_max']):
+                debut = premier[lot[0]['en']]
+                if ordre(fam, debut) in bornes:
+                    raise SystemExit('ERREUR : %s : un nouveau lot commencerait au début d\'un ancien (%s)' % (fam, debut))
+                dernier += 1
+                nom = '%s_%03d' % (fam, dernier)
+                if nom in plan['lots']:
+                    raise SystemExit('ERREUR : le lot %s existe déjà au plan' % nom)
+                noms.append(nom)
+                plan['lots'][nom] = {'famille': fam, 'debut': list(debut), 'textes': len(lot),
+                                     'lignes': sum(len(e['cles']) for e in lot), 'mots': sum(e['mots'] for e in lot),
+                                     'plage': plage_texte(fam, [e['cles'][0] for e in lot]), 'chantier': cid,
+                                     'bloque': BLOQUEES.get(fam, ''), 'ajoute': time.strftime('%Y-%m-%d %H:%M')}
+        tous = sorted(anciens + noms, key=lambda n: ordre(fam, tuple(plan['lots'][n]['debut'])))
+        plan['familles'][fam]['lots'] = tous
+        if fam not in c['familles']:
+            c['familles'].append(fam)
+        c['lots'] += noms
+        K.journal('redecouper : %-22s %6d textes %8d mots %4d nouveaux lots -> chantier %s'
+                  % (fam, sum(plan['lots'][n]['textes'] for n in noms), sum(plan['lots'][n]['mots'] for n in noms),
+                     len(noms), cid), JOURNAL_ATELIER)
     actifs = [n for n in c['lots'] if not plan['lots'][n]['bloque']]
     c['textes'] = sum(plan['lots'][n]['textes'] for n in actifs)
     c['mots'] = sum(plan['lots'][n]['mots'] for n in actifs)
@@ -1318,11 +1388,11 @@ def cmd_doutes(args):
 
 def main():
     args = sys.argv[1:]
-    if not args or args[0] not in ('plan', 'completer', 'extraire', 'integrer', 'etat', 'doutes'):
+    if not args or args[0] not in ('plan', 'completer', 'redecouper', 'extraire', 'integrer', 'etat', 'doutes'):
         print(__doc__)
         return 1
     cmd = args[0]
-    r = {'plan': cmd_plan, 'completer': cmd_completer, 'extraire': cmd_extraire, 'integrer': cmd_integrer, 'etat': cmd_etat, 'doutes': cmd_doutes}[cmd](args[1:])
+    r = {'plan': cmd_plan, 'completer': cmd_completer, 'redecouper': cmd_redecouper, 'extraire': cmd_extraire, 'integrer': cmd_integrer, 'etat': cmd_etat, 'doutes': cmd_doutes}[cmd](args[1:])
     return r or 0
 
 

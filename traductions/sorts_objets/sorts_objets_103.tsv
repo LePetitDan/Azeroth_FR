@@ -1,0 +1,14 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	977701		Description	5c4e89fa6149	Vos attaques automatiques réinitialisent cet effet, utilisez Frappe héroïque pour conserver votre Poids lourd !\r\n\r\nÀ 5 charges, votre prochain coup de mêlée sera renforcé.\r\n\r\nLes dégâts physiques sont augmentés de $s2%. Le délai entre les attaques est augmenté de $S1%.	lot sorts_objets_103
+sort	977701		ToolTip	5c4e89fa6149	Vos attaques automatiques réinitialisent cet effet, utilisez Frappe héroïque pour conserver votre Poids lourd !\r\n\r\nÀ 5 charges, votre prochain coup de mêlée sera renforcé.\r\n\r\nLes dégâts physiques sont augmentés de $s2%. Le délai entre les attaques est augmenté de $S1%.	lot sorts_objets_103
+sort	977706		Description	46d485aa3aec	Votre prochain coup de mêlée écrasera les cibles se trouvant devant vous et infligera ${$977703m1+$977703ppl1}% de dégâts d'arme non normalisés. Ces dégâts sont toujours critiques contre les non-joueurs, mais ne peuvent pas l'être contre les joueurs.	lot sorts_objets_103
+sort	977706		Name	16f7496a2502	Prêt à frapper	lot sorts_objets_103
+sort	977706		ToolTip	066401028fc2	Votre prochain coup de mêlée écrasera les cibles se trouvant devant vous et infligera $977703s1% de dégâts d'arme non normalisés. Ces dégâts sont toujours critiques contre les non-joueurs, mais ne peuvent pas l'être contre les joueurs.	lot sorts_objets_103
+sort	977714		Description	4dd2d11b7c60	L'Ombre pure s'abat sur la zone ciblée et inflige d'énormes dégâts d'Ombre répartis entre les ennemis touchés.	lot sorts_objets_103
+sort	977715		Description	be1c97a9e44d	Les chances de coup critique et les dégâts des sorts d'Ombre sont augmentés de $s1%. \r\n\r\nAugmente de $s3% les dégâts que Trait de l'ombre inflige aux monstres. \r\n\r\nCumulable jusqu'à 10 fois. Dure 15 secondes. 	lot sorts_objets_103
+sort	977715		ToolTip	9bcd13e2d924	Les chances de coup critique et les dégâts des sorts d'Ombre sont augmentés de $s1%.\r\n\r\nLes dégâts que Trait de l'ombre inflige aux monstres sont augmentés de $s3%. 	lot sorts_objets_103
+sort	977723		Description	9206afe0e8ca	Les chances de coup critique de Éclair et Chaîne d'éclairs sont augmentées de 15%. Dure $d. 	lot sorts_objets_103
+sort	977723		ToolTip	511a8543fd9f	Imprégné de foudre. Les chances de coup critique de Éclair et Chaîne d'éclairs sont augmentées de 15%.	lot sorts_objets_103
+sort	977765		Description	1dd870a5cf27	Augmente de $s1% les dégâts de Lance de glace et de Cône de froid, et de $s2% ceux d'Éclair de givre et de Congélation profonde. Cumulable jusqu'à $u.	lot sorts_objets_103
+sort	977765		Name	2e19ff5e4305	Glace solide	lot sorts_objets_103
+sort	977765		ToolTip	8f941816db63	Augmente de $s1% les dégâts de Lance de glace et de Cône de froid, et de $s2% ceux d'Éclair de givre et de Congélation profonde.	lot sorts_objets_103

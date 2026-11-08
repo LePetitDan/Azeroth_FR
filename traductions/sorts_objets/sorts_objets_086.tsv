@@ -1,0 +1,28 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	120090		Description	0af892d1d0a5	Enduit votre arme d'un poison mortel qui inflige des dégâts de Nature sur la durée à vos cibles. Le poison est cumulable.	lot sorts_objets_086
+sort	120090		ToolTip	15330609027a	 pendant 2 heures. Chaque coup a $2823h% de chances d'infliger ${$2818m1*4+0.06*$AP} points de dégâts de Nature en $2818d, cumulable jusqu'à 5 fois. \r\nÀ 5 charges, le poison de votre autre arme s'applique également.	lot sorts_objets_086
+sort	120091		Description	dd0fd83b6dd5	Enduit une arme d'un poison affaiblissant qui ralentit la cible.	lot sorts_objets_086
+sort	120091		ToolTip	906712ba7d34	\npendant 2 heures. Chaque coup a $3408h% de chances d'empoisonner l'ennemi et de réduire sa vitesse de déplacement de $3409s1% pendant $3409d.	lot sorts_objets_086
+sort	120092		Description	64f9366420d8	Enduit une arme d'un poison de distraction mentale qui réduit la vitesse d'incantation de la cible.	lot sorts_objets_086
+sort	120092		ToolTip	2f34d6bbc80e	 pendant 2 heures. Chaque coup a $5761h% de chances d'empoisonner l'ennemi et d'augmenter son temps d'incantation de $5760s1% pendant $5760d.\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_086
+sort	120093		Description	c19f8a8f1c78	Enduit une arme de mêlée ou à distance d'un poison qui inflige des dégâts de Nature.	lot sorts_objets_086
+sort	120093		ToolTip	11435f340577	\nEnduit une arme de mêlée ou à distance d'un poison qui dure 2 heures. Chaque coup a une chance d'empoisonner l'ennemi et de lui infliger instantanément ${$8680m1+0.06*$AP} points de dégâts de Nature. 	lot sorts_objets_086
+sort	120094		Description	9811cc2c0e36	Enduit votre arme d'un poison qui inflige des dégâts de Nature et réduit les soins reçus par la cible.	lot sorts_objets_086
+sort	120094		ToolTip	a8b9710eefba	\n pendant 2 heures. Chaque coup a une chance d'infliger ${$13218m2+0.012$AP-1} points de dégâts de Nature et de réduire les soins reçus par la cible de $13218s1% pendant $13218d.\r\n@ext:Doesn't stack with similar effects:ext@	lot sorts_objets_086
+sort	120095		Description	b0c4c68d2f42	Enduit votre arme d'un poison qui inflige des dégâts de Nature et dissipe les effets d'Enrager sur votre cible.	lot sorts_objets_086
+sort	120095		ToolTip	2881a268de30	\r\n pendant 2 heures. Chaque coup a $26785h% de chances d'infliger instantanément $26688s1 points de dégâts de Nature et de dissiper $26688s2 effet d'Enrager, sans générer de menace supplémentaire.	lot sorts_objets_086
+sort	120185		Description	d1c0870ad64d	Appose sur votre arme à deux mains une rune qui augmente les chances de parer et réduit la durée des désarmements.	lot sorts_objets_086
+sort	120186		Description	ea154a761c76	Appose sur votre arme une rune qui vous permet d'infliger des dégâts de Feu avec vos attaques, augmentés contre les morts-vivants.	lot sorts_objets_086
+sort	120186		ToolTip	c0faba516bd2	\r\nAppose sur votre arme runique une rune qui ajoute 2% des dégâts de l'arme sous forme de dégâts de Feu, ou 4% contre les morts-vivants.  Modifier votre arme runique nécessite une forge runique à Achrus-les-Noirs.	lot sorts_objets_086
+sort	120187		Description	bfd5bbe047dd	Appose sur votre arme une rune qui a une chance d'augmenter les dégâts de vos 2 prochaines attaques infligeant des dégâts de Givre ou d'Ombre.	lot sorts_objets_086
+sort	120187		ToolTip	7e29e4c413d2	\r\nAppose sur votre arme runique une rune qui a une chance d'augmenter de $53386s1% les dégâts de vos 2 prochaines attaques infligeant des dégâts de Givre ou d'Ombre.  Modifier votre arme runique nécessite une forge runique à Achrus-les-Noirs.	lot sorts_objets_086
+sort	120188		Description	8375ee82a848	Appose sur votre arme à deux mains une rune qui dévie les dégâts des sorts et réduit la durée des effets de silence.	lot sorts_objets_086
+sort	120188		ToolTip	61fa23eeefcc	\r\nAppose sur votre arme runique à deux mains une rune qui dévie $53362s1% des dégâts de tous les sorts et réduit de $60209s1% la durée des effets de Silence.  Modifier votre arme runique nécessite une forge runique à Achrus-les-Noirs.	lot sorts_objets_086
+sort	120189		Description	182166f97677	Appose sur votre arme une rune qui inflige des dégâts de Givre supplémentaires lorsque vous attaquez et rend les ennemis plus vulnérables à vos attaques de Givre.	lot sorts_objets_086
+sort	120189		ToolTip	ae39af217a67	\r\nAppose sur votre arme une rune qui ajoute 2% des dégâts de l'arme sous forme de dégâts de Givre et augmente la vulnérabilité des ennemis à vos attaques de Givre. Modifier votre arme runique nécessite une forge runique à Achrus-les-Noirs.	lot sorts_objets_086
+sort	120190		Description	d0080773964e	Appose sur votre arme une rune qui a une chance de vous soigner et d'augmenter votre Force.	lot sorts_objets_086
+sort	120190		ToolTip	fba075afc065	Appose sur votre arme runique une rune qui a une chance de vous rendre $53365s2% de vos points de vie et d'augmenter la Force totale de $53365s1% pendant $53365d.  Modifier votre arme runique nécessite une forge runique à Achrus-les-Noirs.	lot sorts_objets_086
+sort	120191		Description	2049618bae75	Appose sur votre arme à deux mains une rune qui augmente votre défense et votre Endurance.	lot sorts_objets_086
+sort	120191		ToolTip	1cd09090e576	\r\nAppose sur votre arme runique à deux mains une rune qui augmente la Défense de $62157s1 et l'Endurance totale de $62157s2%.  Modifier votre arme runique nécessite une forge runique à Achrus-les-Noirs.	lot sorts_objets_086
+sort	120192		Description	fcb4cc9d6f8a	Appose sur votre arme une rune qui augmente votre défense et votre Endurance.	lot sorts_objets_086
+sort	122501		Name	8fe4592c6c54	Serre-ventre du Père de l'Hiver	lot sorts_objets_086

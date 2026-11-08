@@ -1,0 +1,83 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	807038		Description	9f058f36b244	Augmente votre hâte de 1% par charge. À 20 charges, vous vous transformez en un puissant esprit, ce qui augmente de $807044s1% les dégâts de |cffffffffCourroux maléfique|r et de |cffffffffMauvais gris-gris|r et leur garantit un coup critique pendant $807044d.\r\n\r\nEn outre, chaque |cFFFFFFFFMarionnette d'âme|r explose, infligeant ${$706553m1+$706553ppl1+$sps*.5} points de dégâts d'Ombre et étourdissant les ennemis à moins de $706553a1 mètres pendant $706553d.	lot sorts_objets_097
+sort	807038		ToolTip	fa1c6c3fb359	À 20 charges, vous vous transformez et gagnez des pouvoirs accrus. Hâte augmentée de 1% par charge.	lot sorts_objets_097
+sort	807059		Description	3aec9a5a0980	Votre prochaine |cFFFFFFFFFlamme radieuse|r ne coûte aucun mana, ses effets se produisent $s2% plus vite et sa durée est réduite de $s1%. 	lot sorts_objets_097
+sort	807059		ToolTip	53d8df299a33	Votre prochaine |cFFFFFFFFFlamme radieuse|r ne coûte aucun mana, ses effets se produisent ${$w2}% plus vite et sa durée est réduite de ${$w1}%. 	lot sorts_objets_097
+sort	807061		Description	34da2984ee6d	Votre prochain |cFFFFFFFFRavissement|r dans les $807061d frappe de nouveau pour $s1% des dégâts infligés, cumulable $807061u fois.	lot sorts_objets_097
+sort	807061		Name	139abd7cf7a2	Flammes jumelles	lot sorts_objets_097
+sort	807061		Rank	78baebfcb4b5	Feu	lot sorts_objets_097
+sort	807061		ToolTip	10f1dbd47d2e	Votre prochain Ravissement infligera $S1% de dégâts supplémentaires.	lot sorts_objets_097
+sort	807077		Description	858bb41ab5f2	Votre prochain |cffffffffSouffle d'Horusath|r dans les $807077d frappe de nouveau pour $s1% des dégâts infligés, cumulable $807077u fois.	lot sorts_objets_097
+sort	807077		Name	32e657c9a248	Puissance du soleil	lot sorts_objets_097
+sort	807077		Rank	dfe1d7f7d16c	Sacré	lot sorts_objets_097
+sort	807077		ToolTip	7cccde6654f0	Votre prochain Horusath infligera $S1% de dégâts supplémentaires.	lot sorts_objets_097
+sort	807098		Description	9583787b227a	Vous téléporte à la position de votre |cffffffffTransporteur du Fléau|r et supprime tous les effets qui ralentissent vos déplacements.	lot sorts_objets_097
+sort	807098		Name	58391fe421c6	Retour rituel	lot sorts_objets_097
+sort	807105		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807106		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807107		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807108		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807109		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807110		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807111		Name	9b3ef91ce886	Saumure	lot sorts_objets_097
+sort	807158		Description	83b0e9109236	Vous apprend |cffffffffÉon de résilience|r.@s:806291:0@	lot sorts_objets_097
+sort	807175		Description	067eb697ed7b	Inflige ${$m2+$ppl2+$SP*0.26} points de dégâts de flamme sacrée et réduit de $s1% les chances de toucher de la cible pendant $d.	lot sorts_objets_097
+sort	807175		ToolTip	f910a82ceda4	Chances de toucher réduites de ${$w1}%.	lot sorts_objets_097
+sort	807195		Description	cb023a39f81f	Lance un piège en filet magique sur un ennemi, l'enracinant pendant $d (8 sec contre les joueurs). Les dégâts infligés peuvent mettre fin à l'effet.	lot sorts_objets_097
+sort	807195		Name	b2454007fe1f	Piège cosmique (Aspect du cosmos)	lot sorts_objets_097
+sort	807213		Description	a4f7b68eae40	Augmente de $s1% les dégâts de votre prochaine |cffffffffFlèche maléfique|r, cumulable $u fois. Dure $d.	lot sorts_objets_097
+sort	807213		ToolTip	9d2798434742	Augmente de ${$w1}% les dégâts de votre prochaine |cffffffffFlèche maléfique|r, cumulable $u fois.	lot sorts_objets_097
+sort	807224		Description	4340aa042212	|CffffffffEclair de fusée|r, |cFFFFFFFFExplosion|r ou |cFFFFFFFFFlammes de Neltharion|r font détoner les |cFFFFFFFFVapeurs de soufre|r et provoquent un |cFFFFFFFFSouffle sulfuron|r, qui inflige $801687s1 points de dégâts de Feu à la cible et prolonge de 1 sec la durée de |cFFFFFFFFBrasier|r sur elle.	lot sorts_objets_097
+sort	807224		Name	14a033ac4d43	Vapeurs de soufre	lot sorts_objets_097
+sort	807224		ToolTip	bb2b2f1c354b	Éclair de fusée, Explosion ou Flammes de Neltharion font détoner les Vapeurs et provoquent un Souffle sulfuron.	lot sorts_objets_097
+sort	807234		Description	d07ef50e8cfa	|cffffffff2 charges, recharge de 15 sec|r\r\nGlace un ennemi avec une griffe fantomatique, le ralentissant et lui volant $s1% de sa vitesse de déplacement pendant $d.\n\nChaque fois que vous tuez un ennemi, une charge de cette aptitude vous est rendue. Dépend des modificateurs de |cffffffffGriffe fantomatique|R.	lot sorts_objets_097
+sort	807234		Name	11497cc4f738	Griffe de spectre	lot sorts_objets_097
+sort	807298		Description	d34d9d2bf9e3	|cFF66DDFFPassif de niveau 50|r\r\nVos coups critiques infligeant des dégâts font maintenant apparaître une |cFFFFFFFFFleur de rêve|r verte à un endroit aléatoire situé à moins de 15 mètres de vous. @s:561005:0@\r\n\r\nNe peut se produire qu'une fois par sec.	lot sorts_objets_097
+sort	807298		Name	f0c4f84b8629	Marcheur lointain - Passif de niveau 50	lot sorts_objets_097
+sort	807299		Description	cc6b55d89874	Votre prochain |cffffffffBrûle-aube|r dans les $d est instantané et inflige $s2% de dégâts supplémentaires.	lot sorts_objets_097
+sort	807299		ToolTip	01efa0c2bb21	Votre prochain Brûle-aube est instantané et inflige ${$w2}% de dégâts supplémentaires.	lot sorts_objets_097
+sort	807357		Description	6d13013fb26f	Votre |cFFFFFFFFAssaut aortique|r est canalisé $s1% plus vite pendant $d, cumulable $u fois, et chaque coup prolonge maintenant de $/1000;807359s1 sec la durée du |cffffffffTourment de Taldaram|R.	lot sorts_objets_097
+sort	807357		ToolTip	e29ec63c5ed1	Votre Assaut aortique est canalisé $S1% plus vite et prolonge la durée du Tourment de Taldaram.	lot sorts_objets_097
+sort	807364		Description	68b05fc45725	Déchaîne 6 tirs rapides en $d, infligeant chacun $807527s1% des dégâts de l'arme à distance plus ${$807527m2+$807527ppl2} points de dégâts physiques et générant $/10;521228s1 Rage, et $521228s2% du mana maximum.\r\n\r\nUtilisable en mouvement.	lot sorts_objets_097
+sort	807364		ToolTip	d7824563c780	Canalise Tir sextuple.	lot sorts_objets_097
+sort	807400		Description	e2f2a06d63b7	Crée sous la cible principale un volcan qui entre en éruption et inflige ${$807540m1+$SP*.11} points de dégâts de Feu, toutes les $807540t1 sec pendant $807540d.\r\n\r\nLes dégâts infligés par le volcan génèrent 1 |cffff7f7fChaleur|r et $807402s2% de votre mana manquant.	lot sorts_objets_097
+sort	807400		ToolTip	e64455a28e7d	Vos prochaines Flammes de Neltharion ou Écho de Nozdormu créent un volcan sous la cible principale.	lot sorts_objets_097
+sort	807416		Description	a8903e329242	Votre prochain |cffffffffMeurtre|r dans les $d inflige $s1% de dégâts supplémentaires et coûte $s2% de Puissance runique en moins par charge. À $u charges, il vous rend aussi des points de vie égaux à $807417s1% des dégâts infligés.	lot sorts_objets_097
+sort	807416		ToolTip	dafbe56dff5c	Votre prochain |cffffffffMeurtre|r inflige ${$w1}% de dégâts supplémentaires et coûte ${$w2}% de Puissance runique en moins par charge. À $u charges, il vous rend aussi des points de vie égaux à $807417s1% des dégâts infligés.	lot sorts_objets_097
+sort	807460		Description	508ccd1ef342	Émet pendant $d une aura qui augmente de ${$m1+0} l'armure des membres du groupe ou du raid.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_097
+sort	807480		Description	130bdf1e5433	Lance de l'énergie de feu maudit sur un ennemi et jusqu'à 2 ennemis proches, infligeant ${$cond($gt($spfi, $spn), $m1+0+$spfi*.75, $m1+0+$spn*.75)} points de dégâts de Feu et les maudissant pendant $d. La malédiction inflige ${$cond($gt($spfi, $spn), $m2+0+$spfi*.1, $m2+0+$spn*.1)} points de dégâts de Feu toutes les $t2 sec.\r\n\r\nFait apparaître pendant $808004d un |cffffffffTotem serpent|r sous votre cible. Dépend des modificateurs de |cffffffffCourroux maléfique|r.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot sorts_objets_097
+sort	807480		Name	3e321496b2b1	Courroux du feu maudit	lot sorts_objets_097
+sort	807480		ToolTip	d388b5e9e175	Inflige ${$cond($gt($spfi, $spn), $m2+0+$spfi*.1, $m2+0+$spn*.1)} points de dégâts de Feu toutes les $t2 sec.	lot sorts_objets_097
+sort	807482		Description	2a30ddb6079c	Lance votre arme à distance 3 fois en succession rapide, infligeant chaque fois $807236s3% des dégâts de l'arme à distance plus ${$807236m1+$807236ppl1} points de dégâts physiques. \r\n\r\nAccorde |cffffffffNé dans le sang|r. Dépend des modificateurs de dégâts de |cffffffffArme de lancer|r.\r\n@ext:@s:560521:0@:ext@	lot sorts_objets_097
+sort	807482		Name	04b400088b21	Lancer rapide	lot sorts_objets_097
+sort	807482		ToolTip	41209d4838d9	Criblé d'armes de lancer !	lot sorts_objets_097
+sort	807495		Name	26da21044556	Chasse dans l'ombre - Passif de niveau 20	lot sorts_objets_097
+sort	807502		Description	cdace99d4489	|cFF66DDFFPassif de niveau 20|r\r\nRéduit de $s1% le coût en mana de vos |cffffffffNanorobots|r et de vos |CffffffffBalises|r.	lot sorts_objets_097
+sort	807502		Name	dc465150c6b2	Invention - Passif de niveau 20	lot sorts_objets_097
+sort	807506		Description	644a82720a5e	|cFF66DDFFPassif de niveau 15|r\r\nRéduit de $s1% le coût en mana des |cffffffffTatouages runiques|r.\r\n\r\nDe plus, augmente de $s3% le mana rendu par |cFFFFFFFFTatouages runiques : eau|r.	lot sorts_objets_097
+sort	807506		Name	b6c355d08cd6	Gravure - Passif de niveau 15	lot sorts_objets_097
+sort	807506		ToolTip	64edaa3ca16d	De plus, vos chances de toucher sont augmentées de ${$w2}% et votre score de toucher des sorts est augmenté de ${$w3}% de votre Agilité.	lot sorts_objets_097
+sort	807511		Description	db4d2b1fcc62	|cFF66DDFFPassif de niveau 30|r\r\nPermet à votre |cffffffffSouffle de Malygos|r d'infliger des coups critiques.	lot sorts_objets_097
+sort	807511		Name	d5238ab945d1	Draconique - Passif de niveau 30	lot sorts_objets_097
+sort	807518		Description	c082f655a885	|cFF66DDFFPassif de niveau 15|r\r\nUne |cffffffffLame runique|r sur 3 rend maintenant ${$500466m1+$500466ppl1+$AP*.3} points de mana, augmentés de $802645s3% sous |cffffffffAccord de l'eau|r.	lot sorts_objets_097
+sort	807518		Name	a8beae7bf0d9	Lame de la faille - Passif de niveau 10	lot sorts_objets_097
+sort	807523		Description	ab60373cabf5	Les dégâts infligés par les |cffffffffEruptions solaires|r rendent maintenant $807525s1% des points de vie, d'Énergie, de Focalisation, de Puissance runique et de Rage manquants aux alliés situés à moins de $807524a1 mètres. Ne peut se produire qu'une fois toutes les 0.5 sec.	lot sorts_objets_097
+sort	807523		ToolTip	3a155270d437	Les dégâts infligés par les |cffffffffEruptions solaires|r rendent maintenant $807525s1% des points de vie, d'Énergie, de Focalisation, de Puissance runique et de Rage manquants aux alliés situés à moins de $807524a1 mètres.	lot sorts_objets_097
+sort	807653		Description	06b938ed270c	Enrage pendant $d, augmentant ses chances de coup critique de $807765s1%.	lot sorts_objets_097
+sort	807653		ToolTip	9330ef2e7e6d	Chances de coup critique augmentées de $807765s1%.	lot sorts_objets_097
+sort	807697		Description	2d55afef4405	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre score de toucher et d'expertise de $s1% de votre Intelligence, votre puissance de soins de $s3% de votre Intelligence et votre puissance d'attaque de ${$m2+0}% de votre Intelligence.	lot sorts_objets_097
+sort	807697		Name	bef16d8f80b6	Hérétique - Passif de niveau 15	lot sorts_objets_097
+sort	807697		ToolTip	a3558e66d9cb	Augmente votre score de toucher et d'expertise de ${$w1}% de votre Intelligence, vos chances de coup critique de ${$w3}% de votre Intelligence et votre puissance d'attaque de ${$w2}% de votre Intelligence.	lot sorts_objets_097
+sort	807701		Description	f256a903f8d1	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre puissance de soins de $s3% de votre Intelligence et votre puissance d'attaque de ${$m2+0}% de votre Intelligence.\r\n\r\nDe plus, tant que votre |cffffffffPrésence de Yogg-Saron|r est active, vos attaques ne peuvent pas être ratées.	lot sorts_objets_097
+sort	807701		Name	bd926675bdc6	Entraînement à l'ombre SLS	lot sorts_objets_097
+sort	807701		ToolTip	a3558e66d9cb	Augmente votre score de toucher et d'expertise de ${$w1}% de votre Intelligence, vos chances de coup critique de ${$w3}% de votre Intelligence et votre puissance d'attaque de ${$w2}% de votre Intelligence.	lot sorts_objets_097
+sort	807758		Description	40a65d97fc1e	Vitesse de déplacement ralentie de $s1%. Impossible d'infliger des coups critiques. Dure $d.	lot sorts_objets_097
+sort	807758		Name	72900578f9ff	Poison parasite	lot sorts_objets_097
+sort	807758		ToolTip	1d05ec4733eb	Vitesse de déplacement ralentie de ${$w1}%. Impossible d'infliger des coups critiques.	lot sorts_objets_097
+sort	807776		Description	cb315b6a47fa	Augmente de $s1% les chances de la cible de rater ses attaques.	lot sorts_objets_097
+sort	807776		Name	5c02f5480871	Anxiété	lot sorts_objets_097
+sort	807776		ToolTip	8f5e22317106	Quelque chose cloche.\r\n\r\nVos chances de rater vos attaques sont augmentées de ${-$w1}%.	lot sorts_objets_097
+sort	807786		Description	12347161dbb2	|cFF66DDFFPassif de niveau 20|r\r\nLes coups critiques de |cFFFFFFFFSouffle de la lune de sang|r accordent maintenant 1 |cffffffffÉclat de sang|r pendant $505349d, jusqu'à 8.\r\n\r\nInfliger des dégâts avec |cffffffffÉclatement veineux|r consomme maintenant toutes les charges d'|cffffffffÉclats de sang|r, chacune infligeant ${$504115m1+$504115ppl1+$AP*0.15+$SP*.35} points de dégâts d'Ombre à votre cible.	lot sorts_objets_097
+sort	807787		Description	5c0bc45fceed	|cFF66DDFFPassif de niveau 20|r\r\nLes dégâts infligés par |cFFFFFFFFSouffle de la lune de sang|r génèrent maintenant 1 |cffffffffÉclat de sang|r, plus 1 supplémentaire en cas de coup critique, pendant $505349d, jusqu'à 8.\r\n\r\nInfliger des dégâts avec |cffffffffÉclatement veineux|r consomme maintenant toutes les charges d'|cffffffffÉclats de sang|r, chacune infligeant ${$504115m1+$504115ppl1+$AP*0.15+$SP*.35} points de dégâts d'Ombre à votre cible.	lot sorts_objets_097
+sort	807816		Description	cc71cff9c243	Draine 10% du mana maximum de la cible.	lot sorts_objets_097
+sort	807816		Name	c22fbcf0c7ab	Flèche siphonnante (Aspect de la chasseresse)	lot sorts_objets_097

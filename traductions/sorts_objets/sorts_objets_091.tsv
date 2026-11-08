@@ -1,0 +1,139 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	500161		Description	9e22765cf6ba	Votre prochain |cffffffffAnathème|r peut être utilisé quelle que soit la santé actuelle de la cible. Dure $d.	lot sorts_objets_091
+sort	500161		ToolTip	00aadd2c2f14	Votre prochain Anathème peut être utilisé quelle que soit la santé actuelle de la cible.	lot sorts_objets_091
+sort	500189		Description	1f19458a64d3	Augmente la hâte des sorts de $s3% et les chances de coup critique des sorts de Feu de $805579s1%. Se cumule jusqu'à $u fois.	lot sorts_objets_091
+sort	500189		Name	26914c87b120	Flammes de Focalisation	lot sorts_objets_091
+sort	500189		ToolTip	5393b36c7582	Augmente votre hâte des sorts de ${$w3}%. Chances de coup critique des sorts de Feu augmentées de $805579s1%. Se cumule jusqu'à $u fois.	lot sorts_objets_091
+sort	500215		Description	53da785a6626	Vous apprend |cffffffffConstruire : ZIGGI-6K|r.@s:524840:0@	lot sorts_objets_091
+sort	500256		Description	340fc1bf3bc1	Certaines de vos aptitudes consomment de la |cff66ccffMotivation|r pour produire un effet supplémentaire.	lot sorts_objets_091
+sort	500256		Name	d6a06199cc12	Motivation	lot sorts_objets_091
+sort	500256		ToolTip	c72379339037	Motivé ! Certaines de vos aptitudes peuvent consommer de la Motivation pour produire un effet supplémentaire.	lot sorts_objets_091
+sort	500337		Description	b646dce0fd53	Réduit la puissance d'attaque de ${$abs($m1+0)} et la vitesse de déplacement de $500337s1% pendant $d.	lot sorts_objets_091
+sort	500337		Name	bc7161d081f8	Submergé	lot sorts_objets_091
+sort	500337		ToolTip	944c342216ac	Puissance d'attaque réduite. Vitesse de déplacement réduite de $500337s1%.	lot sorts_objets_091
+sort	500343		Description	5ee5f364ae09	Augmente de $573233s1% les dégâts subis par la cible du fait de vos maladies de nécromancien pendant $573233d, cumulable jusqu'à $573233u fois.	lot sorts_objets_091
+sort	500343		ToolTip	0abbda83b7b9	Subit ${$w3} points de dégâts de peste toutes les $t3 sec.	lot sorts_objets_091
+sort	500460		Description	6cf5b868b53b	|cffffffffColère des sorts|r confère désormais |cffffffffGlyphe de givre|r pendant $520090d ; les incantations suivantes passent successivement par |cffffffffGlyphe de flamme|r et |cffffffffGlyphe arcanique|r avant de recommencer le cycle.\r\n\r\nIncanter |cffffffffExplosion élémentaire|r transfère le |cffffffffGlyphe|r à un ennemi, et |cffffffffThaumaturgie|r déclenche un effet unique selon les |cffffffffGlyphes|R actifs sur l'ennemi.@ext:@s:520090:0@:ext@\r\n@ext:@s:520091:0@:ext@\r\n@ext:@s:520092:0@:ext@	lot sorts_objets_091
+sort	500460		Name	bfd038efedee	Maître des runes jeteur de sorts	lot sorts_objets_091
+sort	500461		Description	580132936b55	|cffffffff2 charges, 6 sec de recharge|r\r\nLance votre bouclier sur un ennemi et jusqu'à $i ennemis proches, et inflige ${$m1+0+$AP*.33} points de dégâts physiques. Bénéficie des modificateurs de |cffffffffPulvérisation|r. |cFFFFFFFFLancer de bouclier|r ne peut être ni bloqué, ni esquivé, ni paré.\r\n\r\nUn |cffffffffLancer de bouclier|r sur 2 réduit de $500498s1% tous les dégâts infligés par les ennemis pendant $500498d.	lot sorts_objets_091
+sort	500461		Name	5b90912e396f	Lancer de bouclier	lot sorts_objets_091
+sort	500462		Description	94ba71727f82	|cffffffffLame runique|r frappe désormais une fois de plus, pour $500462s1% des dégâts infligés avec votre arme de la main gauche.	lot sorts_objets_091
+sort	500467		Description	b988d0f7b293	|cFF66DDFFPassif de niveau 15|r\r\n|cFFFFFFFFExplosion primordiale|r rafraîchit désormais une charge de |cFFFFFFFFLame runique|r.\r\n\r\nDe plus, une |cffffffffLame runique|r sur 3 rend désormais ${$500466m1+$500466ppl1+$AP*.25} points de mana, augmentés de 150% sous |cffffffffAffinité avec l'eau|r.	lot sorts_objets_091
+sort	500467		Name	8139022216a0	Lame de la faille - Passif de niveau 15	lot sorts_objets_091
+sort	500467		ToolTip	c2984bb8fdcd	Infliger des dégâts magiques directs a $h% de chances de faire effectuer une attaque supplémentaire à votre prochain coup.	lot sorts_objets_091
+sort	500471		Description	36d85408b4c0	Dégâts et soins augmentés de $s1%.	lot sorts_objets_091
+sort	500471		Name	7cf8144e0153	Occasion en or	lot sorts_objets_091
+sort	500471		Rank	620e93b7df82	Déclenchement 1	lot sorts_objets_091
+sort	500471		ToolTip	f580e39272fa	Dégâts et soins augmentés de ${$w1}%.	lot sorts_objets_091
+sort	500477		Description	f5af632a2990	Augmente de $s1% tous les dégâts du Sacré infligés pendant $d.	lot sorts_objets_091
+sort	500477		Name	fadf71c7ea92	Lever du soleil	lot sorts_objets_091
+sort	500477		ToolTip	b22db0d2d782	Augmente de ${$w1}% tous les dégâts du Sacré infligés.	lot sorts_objets_091
+sort	500478		Description	c7b7813b2bc5	Éclabousse la zone ciblée d'eaux guérisseuses, qui rendent ${$m1+0+$SP*.25} points de vie toutes les $t1 sec pendant $d. Gagne un nouvel effet selon votre |cffffffffBase|r active. Bénéficie des modificateurs de |cffffffffEsprit en bouteille|r.\r\n\r\n|cffffffffSang de bête :|r vous confère $500598s1% de chances de coup critique supplémentaires pendant $500598d, cumulable jusqu'à $500598u fois.\r\n\r\n|cffffffffEau de cristal|r : vous confère un bouclier qui absorbe ${$500747m1+$500747ppl1+$SP*.75} points de dégâts magiques pendant $500747d.	lot sorts_objets_091
+sort	500481		Description	befc94857ab0	Réduit de $s1% tous les dégâts directs que vous subissez et vous rend ${$500482m1+$500482ppl1+$AP*.058+$STA*.24} points de vie, en retirant 1 charge. Dure $d.	lot sorts_objets_091
+sort	500481		ToolTip	5b64c283ca54	Dégâts subis réduits de 10%. Chaque attaque directe portée contre vous retire 1 charge.	lot sorts_objets_091
+sort	500507		Description	f57d453993f1	Chances de coup critique augmentées de $s1%.	lot sorts_objets_091
+sort	500507		Name	c46b13685ed5	Changement d'élan	lot sorts_objets_091
+sort	500507		Rank	be9c47a69afd	Déclenchement 2	lot sorts_objets_091
+sort	500507		ToolTip	bc2bb7d5794d	Chances de coup critique augmentées de ${$w1}%.	lot sorts_objets_091
+sort	500508		Description	3bd933b18655	Réduit de $572872s1% les dégâts subis par la cible alliée du fait des attaques de zone pendant $572872d.\r\n	lot sorts_objets_091
+sort	500508		Name	5db0491b24bd	Chardon de la jungle	lot sorts_objets_091
+sort	500509		Description	f1f6069676aa	Augmente de $s1% les points de vie maximum et de $s2% la taille pendant $d.	lot sorts_objets_091
+sort	500509		Name	1244041ea370	Champignons de grenouille	lot sorts_objets_091
+sort	500509		ToolTip	60467581c6e6	Points de vie maximum augmentés de ${$w1}%. Taille augmentée de ${$w2}%.	lot sorts_objets_091
+sort	500511		Description	e0a245b590c0	Augmente vos chances de coup critique avec les sorts de Feu de $s1% et vos dégâts de Feu de $s2% pendant $d.	lot sorts_objets_091
+sort	500511		Name	181bcd5760fd	Coucher du soleil	lot sorts_objets_091
+sort	500511		ToolTip	ebd2274dad68	Augmente vos chances de coup critique avec les sorts de Feu de ${$w1}% et vos dégâts de ${$w2}%.	lot sorts_objets_091
+sort	500523		Description	3fbcac24caee	Écrase le sol devant vous et inflige $s2% des dégâts de l'arme plus ${$m1+0} points de dégâts physiques à $i ennemis dans un cône frontal de $a1 m.\r\n\r\nGénère 1 |cFFFFFFFFFragment d'âme|r et $/10;359019s1 points de puissance runique par ennemi touché.	lot sorts_objets_091
+sort	500534		Description	ba2f2979c205	Votre |cFFFFFFFFAncêtre honoré|r reçoit $500061s2% des soins que vous recevez.	lot sorts_objets_091
+sort	500534		Name	7e0aa7a7bc65	Honorer les ancêtres	lot sorts_objets_091
+sort	500534		Rank	2c13d8100cb0	Soins du familier	lot sorts_objets_091
+sort	500594		Description	71a0aae92bb8	Rend à la cible $s3% de ses points de vie maximum et dissipe $s1 effet magique.	lot sorts_objets_091
+sort	500594		Name	5ff5860ba5bf	Arêtes de poisson	lot sorts_objets_091
+sort	500594		ToolTip	6d73ec5cba2a	Insensible à l'étourdissement et aux effets d'enracinement.	lot sorts_objets_091
+sort	500610		Description	a1aac83bd626	|cff32cd32Génère 1 Gangrefurie|r\r\nFonce droit devant vous dans la direction de votre course et inflige ${$500761m1+$500761ppl1+$AP*.35} points de dégâts de flammes d'ombre aux ennemis sur votre trajet.\r\n\r\nGénère une grande quantité de menace. Bénéficie des modificateurs de |cFFFFFFFFRuée du chaos|r	lot sorts_objets_091
+sort	500612		Description	c545b2fee200	Lance une bombe qui reste collée à l'ennemi pendant $t2 sec.\r\n\r\nÀ la fin de la durée, la bombe explose et inflige ${$m1+0+$spfi*.05+$AP*0.025} points de dégâts de Feu à la cible.	lot sorts_objets_091
+sort	500612		Name	6cb2a96b0b51	Bombe collante mineure	lot sorts_objets_091
+sort	500612		ToolTip	cfd723ee74c9	À la fin de la durée, cette cible explose et subit ${$w1} points de dégâts de Feu.	lot sorts_objets_091
+sort	503710		Description	90c5418ff246	Utiliser |cffffffffLame de l'aube|r vous confère désormais |cffff7a24Flammes du péché|r pendant $/1000;803710s2 sec, ce qui fait infliger à vos attaques automatiques ${$802850m1+$802850ppl1+$spfi*.25+$AP*.1} points de dégâts de Feu supplémentaires.\r\n\r\nVous conférer |cffff7a24Flammes du péché|r alors que l'effet est déjà actif augmente sa durée actuelle de $/1000;803710s2 sec.	lot sorts_objets_091
+sort	503719		Description	814e1bc16ed2	Augmente de $s1% les chances de coup critique de tous les membres du groupe et du raid pendant $d.\r\n\r\nNe se cumule pas avec les effets similaires.	lot sorts_objets_091
+sort	503791		Description	cb373ddb3f26	|cFF66DDFFPassif de niveau 30|r\r\nVotre |cFFFFFFFFBlessure inversée|r gagne désormais $s1% supplémentaires de vos soins bonus.	lot sorts_objets_091
+sort	503791		Name	16c5578dadf2	Pas même une égratignure	lot sorts_objets_091
+sort	503811		Description	94457de51232	Lancer 2 |cFFFFFFFFSouffles de sable|r active |cFFFFFFFFHabilitation de l'ordre|r pendant $503815d.\r\n\r\nLancer des sorts d'|cffffffffOrdre|r ajoute une charge d'|cffffffffHabilitation de l'ordre|r.\r\n\r\nTransforme |cFFFFFFFFSouffle de sable|r en sort d'|cFFFFFFFFOrdre|r.@s:503815:0@	lot sorts_objets_091
+sort	503811		Name	6c34aff46f80	Chronomancien de l'ordre	lot sorts_objets_091
+sort	503815		Description	090cf0a98ad8	Les sorts d'|cFFFFFFFFOrdre|r touchent jusqu'à $s2 cibles et se rechargent plus vite selon les charges, cumulable jusqu'à $u fois, pendant $d.	lot sorts_objets_091
+sort	503815		Name	9feb8a64ead4	Habilitation de l'ordre	lot sorts_objets_091
+sort	503815		ToolTip	2a44b92162c7	Les sorts d'Ordre touchent jusqu'à ${$w2} cibles et se rechargent plus vite selon les charges.	lot sorts_objets_091
+sort	503826		Description	628eb403bad0	Inflige ${$cond($gt($spa, $sps), $m1*$<scalingbp>+$spa*.25, $m1*$<scalingbp>+$sps*.25)} points de dégâts chromatiques.	lot sorts_objets_091
+sort	503826		Name	9bc884670cb8	Pointe d'anomalie	lot sorts_objets_091
+sort	503925		Description	6340ec081ac7	Dépose un |cffffffffGros champignon|r à l'endroit ciblé, qui explose après $d.\r\n\r\nEn explosant, il inflige ${$503925m1*$<scalingbp>+$SP*1.5} points de dégâts de Nature à jusqu'à $503925i ennemis dans un rayon de $503925a m, en perçant les résistances et les effets d'absorption.\r\n\r\nNe peut pas infliger de coup critique.	lot sorts_objets_091
+sort	503925		Rank	7ff9ab96af63	Dégâts	lot sorts_objets_091
+sort	503925		ToolTip	761dad7ba1f7	Enraciné. Subit ${$w3} points de dégâts de peste toutes les $t3 sec.	lot sorts_objets_091
+sort	504272		Description	8b0da07e5839	Réduit de $504272s1% le coût de votre prochain |cffffffffTrait de sang|r dans les $504272d et lui fait frapper $504272s2 ennemi proche supplémentaire par cible blessée, cumulable jusqu'à $u fois.	lot sorts_objets_091
+sort	504272		ToolTip	668340deed48	Votre Trait de sang coûte ${$w1}% de moins et frappe ${$w2} ennemis supplémentaires. Se cumule jusqu'à $u fois.	lot sorts_objets_091
+sort	504284		Description	d94d24969816	Génère $/10;504283s1 points de Rage et 1 charge de |cffffffffSoif|r toutes les $t1 sec pendant $d. |cffffffffCrochet vampirique|r supprime cet effet.	lot sorts_objets_091
+sort	504284		Name	eea97845e408	Misérable	lot sorts_objets_091
+sort	504284		ToolTip	1148f7df9dac	Génère $/10;504283s1 points de Rage et 1 charge de |cffffffffSoif|r toutes les $t1 sec. |cffffffffCrochet vampirique|r supprime cet effet.	lot sorts_objets_091
+sort	504341		Description	443e4924096a	Le coût du prochain sort est réduit de $s1%.	lot sorts_objets_091
+sort	504341		ToolTip	ed36d2331268	Le coût de votre prochain sort est réduit de ${$w1}%.	lot sorts_objets_091
+sort	504404		Description	7a61d8360e11	Rend $o1 points de vie en $d.	lot sorts_objets_091
+sort	504404		ToolTip	d64d41d259d8	Rend ${$w1} points de vie toutes les $t sec pendant $d. Cumulable jusqu'à $u fois. À $u charges, toutes les charges sont consommées pour réduire le temps de recharge d'Expulsion.	lot sorts_objets_091
+sort	504521		Description	def621fc4441	Inflige ${$504521m1+$504521ppl1} points de dégâts de Feu toutes les $504521t1 sec et augmente de $s2% les dégâts que la cible subit de votre |cffffffffMéca-armure : combustion|r pendant $504521d, cumulable jusqu'à $504521u fois.	lot sorts_objets_091
+sort	504521		ToolTip	42570ce5a3d5	Inflige ${$w1} points de dégâts de Feu toutes les $t sec. Augmente de ${$w2}% les dégâts subis du fait de la méca-armure : combustion du bricoleur. Se cumule jusqu'à $u fois.	lot sorts_objets_091
+sort	504543		Description	c81b36484d02	Dépose un |cffffffffChampignon|r près de la cible, qui explose après 2 sec et inflige ${$m1*$<scalingbp>+$SP*.35} points de dégâts de peste à tous les ennemis proches.	lot sorts_objets_091
+sort	504543		Rank	7ff9ab96af63	Dégâts	lot sorts_objets_091
+sort	504581		Description	a756a4d1360b	Annihile jusqu'à $i ennemis dans un cône frontal, en infligeant $s3% des dégâts de l'arme plus ${$m1} points de dégâts de flammes d'ombre et en générant 4 |cffff9933Feu démoniaque|r.\r\n\r\nInflige $712402s1% de dégâts supplémentaires si vous avez plus de 75% de vos points de vie ou moins de 35%. Bénéficie des modificateurs de |cffffffffFrappe infernale|r.	lot sorts_objets_091
+sort	504582		Description	8d67c70edb6e	Lance une salve spirituelle sur votre ennemi, lui infligeant ${$m1+0+$RAP*.285} points de dégâts d'Ombre ainsi qu'à jusqu'à $i ennemis dans un rayon de $a1 m, et récupère un |cFFFFFFFFEsprit|r.\r\n\r\nRéduit de $/1000;504584s1 sec le temps de recharge de |CFFFFFFFFGlaive spirituel|r.\r\n\r\nBénéficie des modificateurs de |cffffffffRécupération|r.	lot sorts_objets_091
+sort	504586		Description	7079edfa266a	Votre prochain |cffffffffCoup violent|r dans les $504586d ne déclenche aucun temps de recharge et permet d'utiliser |cffffffffRiposte|r comme si vous veniez de bloquer une attaque.	lot sorts_objets_091
+sort	504586		Rank	9921fdc70b22	Amélioration	lot sorts_objets_091
+sort	504586		ToolTip	c1701d47277a	Votre prochain Coup violent ne déclenche aucun temps de recharge.	lot sorts_objets_091
+sort	504594		Description	c1700274df60	Lance des engrenages sur un ennemi 4 fois en $d, chacun infligeant ${$505160m1+$505160ppl1+$RAP*.16} points de dégâts de Nature et générant 1 |cffc7c7c7Ferraille|r. \r\n\r\nAugmente de $505161s1% les dégâts infligés par vos invocations pendant $505161d. \r\n\r\nUtilisable en mouvement. Bénéficie des modificateurs de |cffffffffDynamite de fortune|r. 	lot sorts_objets_091
+sort	504603		Description	1645e9fe0ff1	Vous permet de lancer |cFFFFFFFFDéfaire|r et |cFFFFFFFFFondre la réalité|r en vous déplaçant pendant $504603d.	lot sorts_objets_091
+sort	504603		Name	18ed6ead0e33	Réalité déformée	lot sorts_objets_091
+sort	504603		ToolTip	7c3acc5362d1	Permet de lancer Défaire et Fondre la réalité en se déplaçant.	lot sorts_objets_091
+sort	504705		Description	2bad6fa077a6	|cff66ff66Applique 1 Marque de la couvée|r\r\nMord un ennemi et inflige ${$m1+0+$sps*.5+$AP*0.3} points de dégâts d'Ombre, augmentant votre hâte de $804118s2% pendant $804118d. Bénéficie des modificateurs de |cffffffffCrochet venimeux|r.	lot sorts_objets_091
+sort	504705		Name	dfdc5f55cd23	Baiser de la veuve	lot sorts_objets_091
+sort	504706		Description	da127bb6b860	|cffffffff2 charges, recharge de 25 sec|r\r\nÉmet des toiles sur tous les ennemis derrière vous, les enracinant pendant $d et leur infligeant ${$m1+0+$spn*0.65} points de dégâts de Nature.	lot sorts_objets_091
+sort	504706		Rank	8b506b063855	Fouisseur	lot sorts_objets_091
+sort	504719		Description	49f0cd98609c	|cffcfa6ffGénère 10 Folie|r\r\nInflige une pure horreur à jusqu'à $i ennemis et leur inflige ${$m1+0+$sps*0.28} points de dégâts d'Ombre.	lot sorts_objets_091
+sort	504744		Description	dc2d6fca4bc0	Le temps de recharge de vos 3 prochains |cFFFFFFFFBéliers|r est réduit de $s1% pendant $d.	lot sorts_objets_091
+sort	504744		Name	8e9f6d1bad36	Réinitialisation de Verdict final	lot sorts_objets_091
+sort	504744		ToolTip	50e216dc3d3f	Le temps de recharge de vos 3 prochains Béliers est réduit de ${$w1}%.	lot sorts_objets_091
+sort	504745		Description	a7a14c186165	|cFF66DDFFPassif de niveau 10|r	lot sorts_objets_091
+sort	504764		Description	29ad521dd06d	Braque la lumière du soleil sur un ennemi, lui infligeant ${$m1+0+$sph*1} points de dégâts du Sacré et vous conférant |cffffffffMarques de brûlure|r.\r\n@s:807059:0@	lot sorts_objets_091
+sort	504764		Name	d6eb206b0866	Rayon de soleil	lot sorts_objets_091
+sort	504784		Description	35c4de6bd912	Fait surgir des épines autour d'un ennemi, l'enracinant et lui infligeant $o3 points de dégâts de Nature en $d.\r\n\r\nLes dégâts directs subis peuvent mettre fin à cet effet.	lot sorts_objets_091
+sort	504784		ToolTip	38ba48c4e6aa	Enraciné. Subit ${$w3} points de dégâts de Nature toutes les $t3 sec.\r\n\r\nLes dégâts directs subis peuvent mettre fin à cet effet.	lot sorts_objets_091
+sort	505170		Description	04271eaeb0ee	|cff5ee2ffGénère 1 Fragment d'âme|r \r\nFrappe les ennemis autour de vous, infligeant ${$m1+0}% des dégâts de l'arme et générant de la puissance runique.\r\n\r\nUne fois lancée, cette aptitude se transforme en |cffffffffÉclat de sang|r pendant 10 sec.\r\n@s:505326:0@	lot sorts_objets_091
+sort	505170		Name	c9178ab8233b	Rossée	lot sorts_objets_091
+sort	505203		Description	318cbaa81799	Les 5 prochains soins périodiques que vous prodiguez à cette cible la soigneront de $s1% supplémentaires de leur valeur.	lot sorts_objets_091
+sort	505203		ToolTip	f69a326fa540	Le prochain soin périodique que le vénomancien vous prodigue vous soignera de 10% supplémentaires de sa valeur.	lot sorts_objets_091
+sort	505205		Description	d6350621f610	|cFF66DDFFPassif de niveau 50|r\r\nIncanter |cffffffffBriseurs de serment|r déclenche désormais |cffffffffZèle|r et réduit de 2 sec le temps de recharge de |cffffffffForce de Golganneth|r et |cffffffffAbdication mortelle|r.@s:801450:0@	lot sorts_objets_091
+sort	505220		Description	abdcf9203b5e	Régénère $s1 points de Focalisation pour votre familier.	lot sorts_objets_091
+sort	505220		Name	43feafc4062e	Faveur du lion renforcée	lot sorts_objets_091
+sort	505220		ToolTip	1c454416b9c0	Régénère ${$w1} points de Focalisation pour votre familier.	lot sorts_objets_091
+sort	505326		Description	84f9b192902f	|cff5ee2ffGénère 1 Fragment d'âme|r \r\nFrappe les ennemis devant vous, infligeant ${$m1+0+$AP*.2} points de dégâts d'Ombre et générant de la puissance runique.\r\n\r\nVotre prochain |cffffffffReliquaire des Perdus|r dans les $525304d bénéficie d'un temps de recharge réduit de $525304s1%.	lot sorts_objets_091
+sort	505326		Name	a413cb8fd018	Éclat de sang	lot sorts_objets_091
+sort	518352		Description	4594469f8cdc	Lancer des sorts de dégâts réduit désormais de $528312s1% le temps de recharge de vos sorts de dégâts.	lot sorts_objets_091
+sort	520007		Description	b59b95680004	Les dégâts directs infligés ont désormais $520007h% de chances de frapper un ennemi avec |cffffffffPlaie-du-Fléau|r, infligeant $801832s2% des dégâts de l'arme supplémentaires plus ${$801832m1*$<scalingbp>+$SP*.25+$AP*.25} points de dégâts de flammes sacrées.\r\n\r\nCe coup est garanti d'être critique contre les morts-vivants.	lot sorts_objets_091
+sort	520090		Description	156847d56407	|cFFFFFFFFDéchaînement|r : inflige ${$520096m1*$<scalingbp>} points de dégâts de Givre et ralentit la vitesse de déplacement de $520110s1% pendant $520110d.	lot sorts_objets_091
+sort	520090		ToolTip	346b615cc2e6	Utilisez Ruine glyphique ou Thaumaturgie pour déchaîner sur l'ennemi n'importe quel Glyphe actif.\r\n\r\n|cFFFFFFFFDéchaînement|r : inflige des dégâts de Givre et réduit la vitesse de déplacement de $520110s1% pendant $520110d.	lot sorts_objets_091
+sort	520092		Description	943ad782f0ad	|cFFFFFFFFDéchaînement|r : inflige ${$520098m1*$<scalingbp>+$spa*0.18} points de dégâts des Arcanes aux ennemis proches de la cible principale.	lot sorts_objets_091
+sort	520092		ToolTip	fbce2b259781	Utilisez Ruine glyphique ou Thaumaturgie pour déchaîner sur l'ennemi n'importe quel Glyphe actif.\r\n\r\nDéchaînement : inflige des dégâts des Arcanes dans un rayon de $520098a1 m.	lot sorts_objets_091
+sort	520106		Description	94262fec5146	Inflige $520099s1% de dégâts supplémentaires.	lot sorts_objets_091
+sort	520106		Name	b125028e6e74	Glyphe arcanique surchargé	lot sorts_objets_091
+sort	520107		Description	60952a50cfc4	|cffffffffGlyphe de flamme|r affecte désormais 2 ennemis supplémentaires et inflige ${($d*1000/$t1)*($m1*$<scalingbp>+$spfi*0.4)} points de dégâts de Feu supplémentaires en $d.	lot sorts_objets_091
+sort	520107		Name	3f7ad99cc363	Glyphe de flamme surchargé	lot sorts_objets_091
+sort	520107		ToolTip	b24eb9695701	Subit ${$w1} points de dégâts de Feu toutes les $t1 sec.	lot sorts_objets_091
+sort	520108		Description	83d55613b954	Gèle un ennemi sur place pendant $d. À la fin de cette durée, sa vitesse de déplacement est réduite de $520109s1% pendant $520109d. Ne se brise pas sous l'effet des dégâts subis.	lot sorts_objets_091
+sort	520108		Name	2d17b7ca62ed	Glyphe de givre surchargé	lot sorts_objets_091
+sort	520108		ToolTip	e6d2e16decf5	Enraciné. Gelé.	lot sorts_objets_091
+sort	520226		Description	ca1f41baf661	Atteindre 100 de |cffcfa6ffFolie|r ne provoque plus |cFFFFFFFFFolie totale|r.\r\n\r\nVous apprend |cffffffffCuirassé|r.@s:567524:0@	lot sorts_objets_091
+sort	520231		Description	b621713192ca	Augmente de $s1% les dégâts de |cffffffffFormation en ligne|r et la vitesse de déplacement de $s1% pendant $d.	lot sorts_objets_091
+sort	520231		Name	425cc0b091ef	Motivation : Grandeur de l'avant-garde	lot sorts_objets_091
+sort	520231		ToolTip	62d207308618	Dégâts de Formation en ligne augmentés de ${$w1}% et vitesse de déplacement augmentée de ${$w1}%.	lot sorts_objets_091
+sort	520278		Description	6efbe47582c8	Draine ${$m1*$<scalingbp>+$SP*0.3+$AP*.1} points de vie aux ennemis dans un rayon de $a1 m.	lot sorts_objets_091
+sort	600327		Rank	9921fdc70b22	Amélioration	lot sorts_objets_091
+sort	653273		Rank	9921fdc70b22	Amélioration	lot sorts_objets_091
+sort	712383		Rank	9921fdc70b22	Amélioration	lot sorts_objets_091
+sort	803340		Rank	9921fdc70b22	Amélioration	lot sorts_objets_091
+sort	881486		Rank	9921fdc70b22	Amélioration	lot sorts_objets_091

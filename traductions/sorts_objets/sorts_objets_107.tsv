@@ -1,0 +1,57 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	986035		Description	24d3e9acb370	Augmente de $s1% les soins transmis par le Guide de Lumière. Cumulable jusqu'à 3 fois. Dure 30 sec.	lot sorts_objets_107
+sort	986035		ToolTip	456fded00a33	Augmente de $s1% les soins transmis par le Guide de Lumière.	lot sorts_objets_107
+sort	986112		Description	1fcb765b1c29	À 3 charges, vous débordez, ce qui renforce votre prochain Salve de guérison. Dure 15 sec. 	lot sorts_objets_107
+sort	986112		Name	e73a31b13a04	Fluide	lot sorts_objets_107
+sort	986112		ToolTip	3daf8066202f	À 3 charges, vous débordez, ce qui renforce votre prochain Salve de guérison.	lot sorts_objets_107
+sort	986113		Description	f999f99fb99c	Votre prochain Salve de guérison est augmenté de $s1% et déclenche une Graine de vie sur chaque cible. Dure $d.\r\n\r\n$?s973827[Votre prochain Salve de guérison vous octroie aussi |cFFFFFFFFNature's Grace|r.][Votre prochain Salve de guérison vous octroie aussi |cFFFFFFFFNature's Grace|r si vous la connaissez.]\r\n@s:16886:0@	lot sorts_objets_107
+sort	986113		Name	034b7ea1284b	Débordant	lot sorts_objets_107
+sort	986113		ToolTip	e938da96f78f	$?s973827[Votre prochain Salve de guérison est augmenté de $s1%, octroie Nature's Grace et déclenche une Graine de vie sur chaque cible.][Votre prochain Salve de guérison est augmenté de $s1%, octroie Nature's Grace si vous la connaissez et déclenche une Graine de vie sur chaque cible.]	lot sorts_objets_107
+sort	986229		Description	8849cf0a938e	Inflige des dégâts d'Ombre à tous les ennemis proches. Ces dégâts évoluent avec le sort déclencheur. Ne fonctionne que contre les monstres.\r\n\r\n@ext:Shadow of Death deals reduced damage when hitting more then 3 targets.:ext@	lot sorts_objets_107
+sort	986248		Description	ddaff8fb14c0	Canalise l'énergie de l'Ombre vers la cible et lui inflige ${(($986251ppl1+$986251m1+$SP*2+$AP*1.3)*3)} points de dégâts d'Ombre en 3 sec. Cette magie puissante force les Tentacules des Dieux très anciens proches à prêter leur force vitale pour renforcer votre incantation : ses dégâts augmentent de ${$986245m1+$986245ppl1}% et ses chances de coup critique d'un supplément de ${$986245m2+$986245ppl2}%.	lot sorts_objets_107
+sort	986248		Name	2d6ebcc97620	Étreinte des ténèbres	lot sorts_objets_107
+sort	986274		Description	a4d8df9140fb	Soins reçus augmentés de $s2%, et de $s1% supplémentaires grâce à votre Rénovation. Cumulable 5 fois. Dure 4 sec.	lot sorts_objets_107
+sort	986274		ToolTip	77e095b64a94	Soins reçus augmentés de $s2%, et de $s1% supplémentaires grâce à votre Rénovation. 	lot sorts_objets_107
+sort	990027		Description	5574bc101b92	Lancer un sort d'Ombre augmente la durée de Malédiction d'agonie de $/1000;990148S1 sec., et infliger des dégâts avec Fouet mental l'augmente de $/1000;990028S1 sec.	lot sorts_objets_107
+sort	990027		Name	62e3d01cb0f5	Agonisant sans fin	lot sorts_objets_107
+sort	990027		ToolTip	5574bc101b92	Lancer un sort d'Ombre augmente la durée de Malédiction d'agonie de $/1000;990148S1 sec., et infliger des dégâts avec Fouet mental l'augmente de $/1000;990028S1 sec.	lot sorts_objets_107
+sort	990107		Description	6f7f9c03fa43	Réduit de $s1% par charge le temps d'incantation de votre prochain Feu sacré. Cumulable jusqu'à 4.	lot sorts_objets_107
+sort	990107		ToolTip	6f7f9c03fa43	Réduit de $s1% par charge le temps d'incantation de votre prochain Feu sacré. Cumulable jusqu'à 4.	lot sorts_objets_107
+sort	990109		Description	93dfe8483a56	Griffe, Lambeau, Ravage et Soif de sang prolongent de 1 sec. la durée de Déchirure ; Soif de sang et Déchirure rafraîchissent entièrement la durée de Éventration.\n\nLancer Soif de sang en forme de félin octroie un point de combo.	lot sorts_objets_107
+sort	990109		Name	daf24a5d835b	Blessures traumatiques (passif)	lot sorts_objets_107
+sort	990115		Description	52f9a5b594c4	Augmente de $s1% les dégâts de votre Déchirure et de votre Éventration, et Griffe coûte $977817s2 énergie de moins et gagne des dégâts supplémentaires égaux à $977817s3% de votre puissance d'attaque.\n\r\nL'augmentation de dégâts de Fureur du tigre est doublée et sa durée augmentée de 2 sec. Les dégâts périodiques d'Éventration peuvent désormais être critiques. Réduit de 33% le délai de recharge global de votre Soif de sang.	lot sorts_objets_107
+sort	990115		Name	1eb1a965a12b	Griffes sanglantes (passif)	lot sorts_objets_107
+sort	990119		Description	df4a0644b43a	Augmente de $s1% les soins prodigués par vos effets périodiques de Nature. Cumulable jusqu'à 5 fois. Dure $d.	lot sorts_objets_107
+sort	990119		Name	de2391552fec	Don de l'invocateur des marées	lot sorts_objets_107
+sort	990119		ToolTip	e1fbbefb7ce5	Augmente de $s1% les soins prodigués par vos effets périodiques de Nature	lot sorts_objets_107
+sort	990171		Description	c6968dd928f2	@req:8050@\r\nBrûle la cible et 2 ennemis proches avec du Givrefeu, ce qui inflige immédiatement ${$m1+0+$sp*0.165+$ap*0.159} points de dégâts de Givrefeu, puis ${($m2+$sp*0.1+$ap*0.07)*4} points de dégâts de Givrefeu en $d. @ext:This periodic damage can critically strike, benefits from spell haste and can trigger Fingers of Frost.:ext@\r\n\r\n@ext:This ability shares a cooldown with Shaman Shock spells. :ext@	lot sorts_objets_107
+sort	990171		Name	4c2f02b8069a	Horion de givreflamme	lot sorts_objets_107
+sort	990171		ToolTip	ec1e33fd4368	$s2 points de dégâts de Givrefeu toutes les $t2 sec.	lot sorts_objets_107
+sort	990180		Name	1c9d2576a26e	Horion de givreflamme !	lot sorts_objets_107
+sort	990180		ToolTip	8a16fc9e4822	Votre prochain Horion de givreflamme est instantané, ne coûte aucun mana, inflige $s1% de dégâts instantanés supplémentaires et fait infliger $990181s1% de dégâts en plus à vos |cFFFFFFFFIcicles|r et à votre Orbe gelé.	lot sorts_objets_107
+sort	990218		Description	fd3e92138af9	Vous entrez instantanément en Récupération et perdez toutes les charges de Délire.	lot sorts_objets_107
+sort	990218		Name	7af5ef5fed89	Concentration mentale du Démon de mana	lot sorts_objets_107
+sort	990240		Description	be354058d713	@unlockby:2098@\nCoup final qui éviscère la cible et inflige |cFFFFFFFFdes dégâts de saignement par point de combo|r en 6 sec.\n\nPendant qu'elles saignent, les cibles subissent des dégâts supplémentaires de votre |cFFFFFFFFMutilation|r.	lot sorts_objets_107
+sort	990240		Name	fe706f41db34	Éviscération	lot sorts_objets_107
+sort	990270		Description	d53bcc8569bc	Votre prochaine Lance de glace inflige $s2% de dégâts supplémentaires aux monstres et bénéficie de $s1% de chances de coup critique supplémentaires. Cumulable jusqu'à $u fois. Dure $d.	lot sorts_objets_107
+sort	990270		ToolTip	2889f24f3ef5	Votre prochaine Lance de glace inflige $s2% de dégâts supplémentaires aux monstres et bénéficie de $s1% de chances de coup critique supplémentaires. 	lot sorts_objets_107
+sort	997027		Description	2d31e4511346	Fait appel à une frappe de flèches orbitales qui inflige $s2% des dégâts de l'arme à 5 cibles proches maximum.\r\n\r\n@ext:Orbital Arrows scales with Volley damage modifiers, and can only be triggered once per ability cast.:ext@	lot sorts_objets_107
+sort	997027		Name	48b4567db4df	Flèches orbitales	lot sorts_objets_107
+sort	997027		ToolTip	bec1255c90a3	Fait appel à une frappe de flèches orbitales qui inflige $s2% des dégâts de l'arme à 5 cibles proches maximum.	lot sorts_objets_107
+sort	997470		Description	2a3965c8da9e	Inflige $o2 points de dégâts d'Ombre en $d à votre cible et augmente de $s1% vos chances de coup critique contre elle avec les dégâts physiques et d'Ombre.	lot sorts_objets_107
+sort	997470		ToolTip	0b186448a4b8	$s2 points de dégâts d'Ombre toutes les $t2 sec. et $s1% de chances en plus de subir un coup critique des attaques physiques et d'Ombre du lanceur.	lot sorts_objets_107
+sort	997565		Name	dd6f9120c064	Plaie impie	lot sorts_objets_107
+sort	997610		Description	3ae19b21e5e7	Le Gant du duelliste est un objet de main gauche qui permet le Swashbuckling. Il est octroyé dès que vous apprenez un talent ou une aptitude qui le requiert. Nécessite une arme à une main et ne fonctionne pas sous forme animale.	lot sorts_objets_107
+sort	997610		ToolTip	3ae19b21e5e7	Le Gant du duelliste est un objet de main gauche qui permet le Swashbuckling. Il est octroyé dès que vous apprenez un talent ou une aptitude qui le requiert. Nécessite une arme à une main et ne fonctionne pas sous forme animale.	lot sorts_objets_107
+sort	997612		Description	cbb3ed9ee389	Ce sort génère des fragments d'âme et permet de lancer les sorts qui nécessitent un générateur de fragments d'âme.	lot sorts_objets_107
+sort	997612		Name	33d6c214f009	Générateur de fragments d'âme	lot sorts_objets_107
+sort	997612		ToolTip	3370ab00137a	L'aptitude Générateur de fragments d'âme permet au joueur de générer un fragment d'âme, requis pour divers sorts.	lot sorts_objets_107
+sort	997621		Description	6df67120a8f9	Vos dégâts de Givre sont augmentés de $s1% pendant $d.	lot sorts_objets_107
+sort	997621		Name	d6bb922ba511	Maître de la glace (Garder la fraîcheur)	lot sorts_objets_107
+sort	997621		ToolTip	b8512f65b2c3	Vos dégâts de Givre sont augmentés de $s1%.	lot sorts_objets_107
+sort	997780		Description	df02ec183cd4	Octroyé aux alliés soignés par votre |cFFFFFFFFPrière impie|r. Augmente de $s1% les soins reçus de |cFFFFFFFFVampire Lord|r.	lot sorts_objets_107
+sort	997780		Name	9fbb6eb98823	Lien vampirique	lot sorts_objets_107
+sort	997780		ToolTip	260d9eeceb14	Vous recevez $s1% de soins supplémentaires de Vampire Lord.	lot sorts_objets_107
+sort	997799		Description	e07dd2e7d4d1	@unlockby:22568@\nCoup final qui inflige des dégâts de Feu par point de combo, des dégâts de Feu supplémentaires toutes les 3 sec. et augmente de $978568s1% par charge les dégâts de |cFFFFFFFFSearing Pain|r et de |cFFFFFFFFDevil's Ignition|r. Cumulable jusqu'à 3 fois.	lot sorts_objets_107
+sort	997799		Name	c849ef56d71f	Morsure calcinée	lot sorts_objets_107
+sort	997799		ToolTip	419022f92f57	Infobulle uniquement	lot sorts_objets_107

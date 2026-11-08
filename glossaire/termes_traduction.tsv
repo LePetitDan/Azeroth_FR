@@ -141,3 +141,11 @@ Void Rune	\bVoid Runes?\b	Rune du Vide (pluriel : Runes du Vide)	décision 20	Re
 Level N Passive	\bLevel \d+ Passive\b	Passif de niveau N	décision 21	Nom de talent CoA : « Passif de niveau 10 »
 
 Treasure Hunter	\bTreasure Hunter\b	Chasseur de trésor (« Chasseur de trésor : X »)	décision 28	Mode PvP à haut risque de CoA
+
+Realm First!	\bRealm First!	« X « Prem's » du royaume » ; niveau : « Classe « Prem's » au niveau N sur le royaume »	décision 24	Modèles de Blizzard : « Guerrier « Prem's » au niveau 80 sur le royaume » ; « Héroïque : Cœur du Magma « Prem's » du royaume »
+Path to Ascension	\bPath to Ascension\b	Voie de l'Ascension (« la Voie de l'Ascension », « de la Voie de l'Ascension »)	décision 34	Titre « Path to Ascension: X » → « Voie de l'Ascension : X », sans article
+Nightmare Mode	\bNightmare Mode\b	Mode Cauchemar	usage établi	Catégorie des hauts faits et fenêtre des Épreuves
+Hardcore	\bHardcore\b	Hardcore (invariable)	usage établi	Nom de mode de CoA, gardé dans la fenêtre des Épreuves : « Duo Hardcore », « Hardcore - Champion du peuple »
+Ironman	\bIronman\b	Ironman (invariable)	usage établi	Nom de mode de CoA, gardé dans la fenêtre des Épreuves : « Ironman - Hogger doit mourir »
+High Risk	(?i)\bHigh[- ]Risk\b	Haut risque	usage établi	Mode PvP de CoA (« Ironman - Haut risque », HIGH_RISK_PVP_TITLE)
+Ascended	\bAscended\b	Ascended (garder l'anglais)	question ouverte	Difficulté de raid de CoA (« Ascended (10-25 joueurs) ») : en attente d'une décision de Dan, garder l'anglais

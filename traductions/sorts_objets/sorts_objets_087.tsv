@@ -1,0 +1,9 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	255281		Description	e70d0572fc69	Lance votre bouclier au sol et le fusionne avec la puissance du Vide, ce qui vous permet de le chevaucher. Vos coups critiques vous rendent $255283s3% des dégâts infligés, votre vitesse de déplacement est augmentée de $S1% et |cffffffffLancer de bouclier crépusculaire|r est transformé en |cffffffffFente du Vide|r.\r\n\r\nDrain de 1 |cffcfa6ffFolie|r par seconde ; l'effet s'arrête automatiquement quand votre |cffcfa6ffFolie|r tombe sous 20.@s:255282:0@	lot sorts_objets_087
+sort	255281		Name	c3e9b5468ae0	Chevaucheur du Vide	lot sorts_objets_087
+sort	255281		ToolTip	fef50440afe7	Vous chevauchez votre bouclier du Vide.	lot sorts_objets_087
+sort	255282		Description	6d422c0830ef	Frappe un ennemi et jusqu'à 8 ennemis proches, infligeant $s3% des dégâts de l'arme plus ${$m1+$AP*1} points de dégâts d'Ombre, et augmente votre chance de parer les attaques de $s2% pendant $d. Cumulable jusqu'à $u fois.\r\n\r\nDégâts augmentés de $500706s1% par charge de |cffcfa6ffFolie|r.\r\n\r\nDépend des modificateurs de |cffffffffLancer de bouclier crépusculaire|r. 	lot sorts_objets_087
+sort	255282		Name	288352595657	Fente du Vide	lot sorts_objets_087
+sort	255282		ToolTip	3e0516853e08	Chance de parer augmentée de $s2%. Cumulable jusqu'à $u fois.	lot sorts_objets_087
+sort	278745		Description	936845c1a05a	|cFFFFFFFFNiveau requis : 10|r \r\n\r\nLance un puissant coup circulaire qui inflige $s1% des dégâts de l'arme à un maximum de $i ennemis dans un cône devant vous.\r\n\r\n3 charges maximum, temps de recharge de 8 secondes.\r\n\r\n@ext:This can trigger Seal of Command and Righteous Vengeance.:ext@	lot sorts_objets_087
+sort	278745		Name	5cb316691fa2	Entaille du templier	lot sorts_objets_087

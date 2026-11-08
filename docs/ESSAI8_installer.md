@@ -1,4 +1,4 @@
-# Essai 8 : add-on 0.9 (retours de l'essai 7, textes propres au client CoA, puis 0.9.1 et 0.9.2 en cours d'essai)
+# Essai 8 : add-on 0.9 (retours de l'essai 7, textes propres au client CoA, puis 0.9.1 à 0.9.4 en cours d'essai)
 
 *07/11/2026. La 0.9 remplace la 0.8 avant l'essai : même installation que l'essai 7, on retire les dossiers `Azeroth_FR…` et `Interface\PTRXML`, et on copie ceux du zip `Azeroth_FR-0.9.0.zip` (22,3 Mo). Claude s'en charge si ton PC est relié, avec ton accord.*
 
@@ -52,13 +52,23 @@ Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des p
 
 - Les textes ajoutés par CoA entre le 02/11 et le 08/11 : 10 574 noms de pièces d'ensembles d'objets, des créatures, des quêtes, des dialogues ; le reste de l'add-on ne change pas.
 
+### 0.9.4 : les captures du 08/11
+
+*Même installation, zip `Azeroth_FR-0.9.4.zip`, avec ton accord, jeu fermé.*
+
+- **Écran de sélection des personnages** : classe (« Porte-tempête ») et zone (« Forêt d'Elwynn ») sur la carte du personnage ;
+- **hauts faits propres à CoA retraduits** (noms, descriptions, récompenses : « Mode Cauchemar : niveau 70 », « [Féticheur] Hardcore - … », « … « Prem's » du royaume ») ; barres du résumé (« Général 1/48 ») ;
+- **fenêtre des talents de CoA** : sorts insérés sous un sort (« Saumure », « Courroux torrentiel », « Conduction ») et sorts d'exemple (« Élémentaire d'air ») ; « Complexité : avancée », « Choisir des talents », « Niveau : 1 » ;
+- **fenêtre du personnage** : compétences et leurs catégories (« Dagues », « Compétences d'armes »), réputations, monnaies, titres ;
+- mot-clé « Accès aux instances » ; calendrier « Foire de Sombrelune : fin » ; bulle des pierres de retraite sur la carte ; « Voie de l'Ascension » partout ; avertissement et barre de redémarrage du serveur.
+
 **Pour comprendre ce qui reste en anglais** : `/azfr bulle`, tapée pendant qu'une infobulle est affichée, écrit dans la discussion chaque ligne telle que l'add-on la voit.
 
 ## Ce que tu peux regarder (15 minutes)
 
 | # | Où | Ce qu'on doit voir |
 |---|---|---|
-| 1 | `/azfr version` | « version 0.9.0 » (après les mises à jour : « 0.9.2 », puis « 0.9.3 ») |
+| 1 | `/azfr version` | « version 0.9.0 » (après les mises à jour : « 0.9.2 », « 0.9.3 », puis « 0.9.4 ») |
 | 2 | Maître de classe (Livre de l'Ascension), puis maître de monte | Noms des sorts, « (Rang 1) », descriptions en français |
 | 3 | Journal des quêtes : « Enquête sur la crête aux échos » | Description en français, avec ton nom |
 | 4 | Ouvrir un sac ; survoler un loup de quête, un arbre à couper, un point de la minicarte | En français |
@@ -71,6 +81,11 @@ Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des p
 | 11 | **0.9.2** : fenêtre des hauts faits (touche Y) : catégories, un haut fait déroulé, l'onglet Statistiques | Noms, descriptions, critères en français ; une description qui déborde : capture |
 | 12 | **0.9.2** : fenêtre des talents de CoA | « Changer de spécialisation active », classe et spécialisation en capitales |
 | 13 | **0.9.2** : grimoire, sort de rang 2 ; pierre de foyer ; un talent à sorts cités | En français |
+| 14 | **0.9.4** : écran de sélection des personnages | Classe et zone en français ; avec un personnage féminin, la classe au féminin |
+| 15 | **0.9.4** : fenêtre du personnage, onglet Compétences | Noms et catégories en français |
+| 16 | **0.9.4** : hauts faits (Y), Mode Cauchemar et une catégorie de classe | Noms cohérents (« Féticheur », « Prem's ») ; barres du résumé en français |
+| 17 | **0.9.4** : fenêtre des talents de CoA, survol des sorts d'exemple | Blocs des sorts cités en français |
+| 18 | **0.9.4** : calendrier ; carte du monde, survol d'une pierre de retraite | « Foire de Sombrelune : fin » ; nom de la pierre en français |
 
 Si quelque chose ne va pas : `/azfr off` coupe tout.
 
@@ -82,3 +97,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 - **0.9.1** : source 1 520 621 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 61 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 138 exemples, 287 vérifications (pierre de foyer à recharge, bulle d'Épreuve remplie après coup, tutoriel à mots-clés liés, annexe, mentorat, barre « Looting », vanité, talent « Storm Chaser », sort cité sous un talent).
 - **0.9.2** : source 1 553 893 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 142 exemples, 298 vérifications (fenêtre des hauts faits, capitales de la fenêtre des talents, libellés de CoA) ; zip 25,3 Mo.
 - **0.9.3** : source 1 571 714 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; banc **conforme**, 142 exemples, 298 vérifications ; zip 25,6 Mo.
+- **0.9.4** : source 1 574 092 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 150 exemples, 308 vérifications, plus l'écran de sélection joué avec le vrai fichier d'avant-jeu ; zip 25,7 Mo.

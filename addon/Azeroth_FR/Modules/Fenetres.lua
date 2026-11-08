@@ -282,6 +282,37 @@ if type(WorldMapQuestPOI_SetTooltip) == "function" then
 end
 
 -- ----------------------------------------------------------------------------
+-- 0.9.4 (essai 8, n° 26) : bulle d'un point de CoA sur la carte du monde (FrameXML/Ascension_POI/MapPoiPin.lua,
+-- MapPoiPinMixin:OnEnter : WorldMapTooltip:AddLine(self.data.Name) puis Show). Les pierres de retraite portent le nom
+-- du sort (GetSpellInfo(self.data.Extra) : « Stone of Retreat: Eastvale Logging Camp »), les autres un libelle
+-- (« Sawmill »). Nom repris par le numero du sort, sinon par le nom (sort, focalisation, zone, donjon).
+-- ----------------------------------------------------------------------------
+local dans_poi = false
+local function BullePointCoA(bulle)
+    if dans_poi or not A.Actif() or type(bulle) ~= "table" or type(bulle.GetOwner) ~= "function" then return end
+    local o = bulle:GetOwner()
+    local d = type(o) == "table" and rawget(o, "data")
+    if type(d) ~= "table" or type(d.Name) ~= "string" then return end
+    local nom = bulle:GetName()
+    local l1 = nom and _G[nom .. "TextLeft1"]
+    local t = l1 and l1:GetText()
+    if not t or t == "" or A.DejaEcrit(l1, t) then return end
+    local fr = (type(d.Extra) == "number" and A.NomSort and A.NomSort(d.Extra, t))
+        or (A.NomSortParNom and A.NomSortParNom(t)) or A.Nom("focalisation", t) or A.Nom("zone", t) or A.Nom("donjon", t)
+    if fr and fr ~= t then
+        A.Ecrire(l1, fr)
+        if bulle:IsShown() and not A.EstProtege(bulle) then
+            dans_poi = true
+            pcall(bulle.Show, bulle)
+            dans_poi = false
+        end
+    end
+end
+if WorldMapTooltip and type(WorldMapTooltip.Show) == "function" then
+    hooksecurefunc(WorldMapTooltip, "Show", P("WorldMapTooltip.Show", BullePointCoA, true))
+end
+
+-- ----------------------------------------------------------------------------
 -- Livre des metiers de CoA (onglet « Métiers » du grimoire) : nom officiel du metier (SkillLine frFR, table des
 -- competences par anglais exact ; Menuiserie et Bucheronnage : decisions 15 et 16) et rang (« Apprentice »).
 -- Les boutons sont securises : seulement le texte de leurs zones de texte, hors combat. Appele par le guetteur

@@ -157,8 +157,30 @@ local function Liste(evenement)
     return l
 end
 
+-- 0.9.4 (essai 8, n° 29) : avertissement d'arret du serveur. Le client anglais ecrit lui-meme « [SERVER] Restart in »
+-- (ou « Shutdown in ») devant la duree que le serveur envoie (« 14 Minute(s). », AzerothCore secsToTimeString) ; c'est
+-- ce texte que le compte a rebours de CoA (FrameXML/RestartTimer.lua) lit dans l'evenement, jamais modifie ici : seule
+-- la ligne affichee dans la discussion change.
+local UNITES_DUREE = { ["Day(s)"] = "jour(s)", ["Hour(s)"] = "heure(s)", ["Minute(s)"] = "minute(s)",
+    ["Second(s)"] = "seconde(s)" }
+local function ArretServeur(message)
+    local quoi, duree = match(message, "^%[SERVER%] (%a+) in (.+)$")
+    local debut = (quoi == "Restart" and "Redémarrage dans ") or (quoi == "Shutdown" and "Arrêt dans ") or nil
+    if debut then
+        return "[SERVEUR] " .. debut .. gsub(duree, "(%a+%(s%))", function(u) return UNITES_DUREE[u] end)
+    end
+    local annule = match(message, "^%[SERVER%] (%a+) cancelled%.?$")
+    if annule == "Restart" then return "[SERVEUR] Redémarrage annulé." end
+    if annule == "Shutdown" then return "[SERVEUR] Arrêt annulé." end
+    return nil
+end
+
 -- Reconnait et reconstruit un message ; renvoie le nouveau texte ou nil.
 local function TraduireMessage(evenement, message)
+    if evenement == "CHAT_MSG_SYSTEM" and sub(message, 1, 9) == "[SERVER] " then
+        local fr = ArretServeur(message)
+        if fr then return fr end
+    end
     for _, g in ipairs(Liste(evenement)) do
         local cur = _G[g.cle]
         if type(cur) ~= "string" or cur == "" then cur = g.en end
@@ -245,4 +267,18 @@ if type(ChatFrame_AddMessageEventFilter) == "function" then
         ChatFrame_AddMessageEventFilter(e, Filtre)
     end
     ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL_NOTICE", FiltreCanal)
+end
+
+-- 0.9.4 (essai 8, n° 29) : barre du compte a rebours de CoA (RestartTimerFrame, FrameXML/RestartTimer.lua : texte
+-- « Server Restart - 14:32 » refait a chaque image par son OnUpdate) : reprise juste apres, a l'affichage seulement.
+local function BarreRedemarrage(self)
+    if not A.Actif() or type(self) ~= "table" or not self.Text or type(self.Text.GetText) ~= "function" then return end
+    local t = self.Text:GetText()
+    if type(t) ~= "string" then return end
+    local quoi, temps = match(t, "^Server (%a+) %- (.+)$")
+    local fr = (quoi == "Restart" and "Redémarrage du serveur - ") or (quoi == "Shutdown" and "Arrêt du serveur - ") or nil
+    if fr then self.Text:SetText(fr .. temps) end
+end
+if RestartTimerFrame and type(RestartTimerFrame.HookScript) == "function" then
+    RestartTimerFrame:HookScript("OnUpdate", A.Proteger("RestartTimerFrame.OnUpdate", BarreRedemarrage, true))
 end

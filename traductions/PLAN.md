@@ -18,7 +18,8 @@
 | **J** Sorts des objets et collection de vanité (essai 8) | 9 | sorts_objets, vanite | 92 | 19 907 | 225 699 | familles entières |
 | **K** Critères des hauts faits (0.9.2) | 8 | hauts_faits_criteres | 28 | 8 139 | 51 786 | familles entières |
 | **L** Mise à jour au CoA du 08/11 (ensembles d'objets) | 8 | ensembles_objets | 36 | 10 574 | 40 341 | familles entières |
-| **Total** | | | 564 | 110 144 | 1 137 566 | |
+| **M** Hauts faits : la release 3.5.1 retraduite ; sorts cités et sorts de spécialisation (0.9.4) | 9 | hauts_faits, sorts_objets | 126 | 25 480 | 175 442 | familles entières |
+| **Total** | | | 690 | 135 624 | 1 313 008 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -42,7 +43,7 @@
 | divers_serveur | F | 120 | 121 | 398 | 1 | 0 |
 | sorts_classes | C | 6 569 | 9 561 | 53 644 | 26 | 2 |
 | talents | C | 8 274 | 14 889 | 86 721 | 35 | 45 |
-| hauts_faits | H | 5 557 | 8 219 | 40 569 | 20 | 0 |
+| hauts_faits | H, M | 5 557 | 8 219 | 40 569 | 109 | 0 |
 | zones | D | 814 | 1 244 | 2 222 | 3 | 0 |
 | sorts_standard | G | 5 095 | 8 456 | 99 135 | 40 | 2 |
 | factions | F | 18 | 18 | 91 | 1 | 0 |
@@ -62,7 +63,7 @@
 | progression | I | 601 | 781 | 4 168 | 3 | 0 |
 | monde_client | I | 470 | 706 | 1 498 | 2 | 1 |
 | noms_client | I | 694 | 7 397 | 1 800 | 3 | 0 |
-| sorts_objets | J | 15 447 | 27 888 | 179 456 | 73 | 126 |
+| sorts_objets | J, M | 15 447 | 27 888 | 179 456 | 110 | 126 |
 | vanite | J | 4 460 | 12 569 | 46 243 | 19 | 0 |
 | hauts_faits_criteres | K | 8 139 | 13 341 | 51 786 | 28 | 723 |
 
@@ -691,4 +692,135 @@
 | `ensembles_objets_034` | ensemble_objets 6043799 à 6051686 | 300 | 318 | 1027 |
 | `ensembles_objets_035` | ensemble_objets 6051687 à 6416636 | 300 | 300 | 1155 |
 | `ensembles_objets_036` | ensemble_objets 6416637 à 8210175 | 74 | 74 | 263 |
+
+### Chantier M : Hauts faits : la release 3.5.1 retraduite ; sorts cités et sorts de spécialisation (0.9.4)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `hauts_faits_021` | haut_fait 245 à 2892 | 259 | 377 | 2511 |
+| `hauts_faits_022` | haut_fait 2894 à 4836 | 300 | 614 | 2165 |
+| `hauts_faits_023` | haut_fait 4837 à 5326 | 185 | 304 | 834 |
+| `hauts_faits_024` | haut_fait 5328 à 5720 | 301 | 588 | 1728 |
+| `hauts_faits_025` | haut_fait 5721 à 5916 | 300 | 700 | 2100 |
+| `hauts_faits_026` | haut_fait 5917 à 6321 | 301 | 882 | 1825 |
+| `hauts_faits_027` | haut_fait 6322 à 6836 | 301 | 953 | 1739 |
+| `hauts_faits_028` | haut_fait 6837 à 7010 | 301 | 585 | 1714 |
+| `hauts_faits_029` | haut_fait 7011 à 7183 | 301 | 621 | 1843 |
+| `hauts_faits_030` | haut_fait 7184 à 7344 | 300 | 766 | 2275 |
+| `hauts_faits_031` | haut_fait 7346 à 7507 | 300 | 746 | 2238 |
+| `hauts_faits_032` | haut_fait 7508 à 7659 | 300 | 751 | 2128 |
+| `hauts_faits_033` | haut_fait 7660 à 8207 | 278 | 446 | 1518 |
+| `hauts_faits_034` | haut_fait 8342 à 9175 | 300 | 511 | 2336 |
+| `hauts_faits_035` | haut_fait 9176 à 9762 | 300 | 491 | 1479 |
+| `hauts_faits_036` | haut_fait 9763 à 10111 | 144 | 169 | 747 |
+| `hauts_faits_037` | haut_fait 10112 à 10410 | 264 | 341 | 2493 |
+| `hauts_faits_038` | haut_fait 10411 à 10833 | 208 | 340 | 1579 |
+| `hauts_faits_039` | haut_fait 10835 à 11696 | 300 | 305 | 1769 |
+| `hauts_faits_040` | haut_fait 11697 à 12239 | 300 | 473 | 1755 |
+| `hauts_faits_041` | haut_fait 12240 à 12540 | 300 | 307 | 2479 |
+| `hauts_faits_042` | haut_fait 12541 à 12738 | 301 | 448 | 1288 |
+| `hauts_faits_043` | haut_fait 12739 à 12954 | 301 | 451 | 1734 |
+| `hauts_faits_044` | haut_fait 12955 à 13186 | 258 | 474 | 1526 |
+| `hauts_faits_045` | haut_fait 13189 à 14222 | 290 | 352 | 1619 |
+| `hauts_faits_046` | haut_fait 14224 à 14654 | 130 | 130 | 1106 |
+| `hauts_faits_047` | haut_fait 14658 à 15506 | 300 | 313 | 2045 |
+| `hauts_faits_048` | haut_fait 15507 à 16092 | 300 | 300 | 2306 |
+| `hauts_faits_049` | haut_fait 16093 à 16377 | 261 | 264 | 2499 |
+| `hauts_faits_050` | haut_fait 16378 à 16642 | 255 | 255 | 2494 |
+| `hauts_faits_051` | haut_fait 16643 à 18131 | 300 | 1283 | 1662 |
+| `hauts_faits_052` | haut_fait 18132 à 18255 | 100 | 100 | 620 |
+| `hauts_faits_053` | haut_fait 18257 à 18609 | 300 | 300 | 2000 |
+| `hauts_faits_054` | haut_fait 18610 à 18973 | 300 | 300 | 2151 |
+| `hauts_faits_055` | haut_fait 18974 à 19294 | 280 | 280 | 1884 |
+| `hauts_faits_056` | haut_fait 19295 à 20500 | 300 | 441 | 2000 |
+| `hauts_faits_057` | haut_fait 20501 à 21127 | 200 | 221 | 1664 |
+| `hauts_faits_058` | haut_fait 21128 à 21283 | 217 | 219 | 2518 |
+| `hauts_faits_059` | haut_fait 21284 à 24965 | 301 | 339 | 1944 |
+| `hauts_faits_060` | haut_fait 24966 à 25172 | 301 | 467 | 2011 |
+| `hauts_faits_061` | haut_fait 25173 à 25381 | 301 | 469 | 2132 |
+| `hauts_faits_062` | haut_fait 25382 à 27110 | 300 | 455 | 2162 |
+| `hauts_faits_063` | haut_fait 27111 à 29395 | 191 | 232 | 1082 |
+| `hauts_faits_064` | haut_fait 29396 à 40107 | 301 | 311 | 1437 |
+| `hauts_faits_065` | haut_fait 40108 à 40264 | 300 | 300 | 1379 |
+| `hauts_faits_066` | haut_fait 40266 à 40537 | 300 | 300 | 1998 |
+| `hauts_faits_067` | haut_fait 40538 à 41053 | 163 | 163 | 634 |
+| `hauts_faits_068` | haut_fait 41054 à 41317 | 301 | 395 | 1082 |
+| `hauts_faits_069` | haut_fait 41318 à 41467 | 300 | 450 | 1410 |
+| `hauts_faits_070` | haut_fait 41468 à 41617 | 300 | 450 | 1380 |
+| `hauts_faits_071` | haut_fait 41618 à 42130 | 300 | 447 | 1604 |
+| `hauts_faits_072` | haut_fait 42131 à 47016 | 73 | 139 | 354 |
+| `hauts_faits_073` | haut_fait 47020 à 64184 | 158 | 176 | 894 |
+| `hauts_faits_074` | haut_fait 64192 à 86123 | 301 | 337 | 1817 |
+| `hauts_faits_075` | haut_fait 86124 à 86173 | 28 | 28 | 161 |
+| `hauts_faits_076` | haut_fait 86174 à 90011 | 300 | 362 | 1936 |
+| `hauts_faits_077` | haut_fait 90012 à 90163 | 208 | 210 | 1180 |
+| `hauts_faits_078` | haut_fait 90164 à 108035 | 300 | 303 | 1964 |
+| `hauts_faits_079` | haut_fait 108036 à 119377 | 300 | 313 | 1498 |
+| `hauts_faits_080` | haut_fait 119378 à 119605 | 301 | 451 | 2168 |
+| `hauts_faits_081` | haut_fait 119606 à 119796 | 301 | 450 | 1985 |
+| `hauts_faits_082` | haut_fait 119797 à 119991 | 300 | 451 | 1965 |
+| `hauts_faits_083` | haut_fait 119992 à 120254 | 300 | 451 | 1932 |
+| `hauts_faits_084` | haut_fait 120255 à 120446 | 300 | 450 | 2186 |
+| `hauts_faits_085` | haut_fait 120447 à 120481 | 64 | 97 | 456 |
+| `hauts_faits_086` | haut_fait 120482 à 120667 | 300 | 367 | 1775 |
+| `hauts_faits_087` | haut_fait 120668 à 120871 | 301 | 319 | 1387 |
+| `hauts_faits_088` | haut_fait 120872 à 121068 | 301 | 301 | 1967 |
+| `hauts_faits_089` | haut_fait 121069 à 150156 | 300 | 305 | 1950 |
+| `hauts_faits_090` | haut_fait 150157 à 150516 | 300 | 300 | 1556 |
+| `hauts_faits_091` | haut_fait 150517 à 150846 | 300 | 300 | 1558 |
+| `hauts_faits_092` | haut_fait 150847 à 151207 | 300 | 300 | 1675 |
+| `hauts_faits_093` | haut_fait 151208 à 151567 | 300 | 300 | 1620 |
+| `hauts_faits_094` | haut_fait 151568 à 151928 | 300 | 300 | 1561 |
+| `hauts_faits_095` | haut_fait 151929 à 224928 | 300 | 309 | 1565 |
+| `hauts_faits_096` | haut_fait 224929 à 225328 | 300 | 300 | 1940 |
+| `hauts_faits_097` | haut_fait 225329 à 319395 | 300 | 300 | 1861 |
+| `hauts_faits_098` | haut_fait 319396 à 319865 | 300 | 300 | 1803 |
+| `hauts_faits_099` | haut_fait 319867 à 320302 | 300 | 300 | 1733 |
+| `hauts_faits_100` | haut_fait 320303 à 320604 | 290 | 308 | 1887 |
+| `hauts_faits_101` | haut_fait 320605 à 320756 | 301 | 453 | 2349 |
+| `hauts_faits_102` | haut_fait 320757 à 321077 | 300 | 455 | 2091 |
+| `hauts_faits_103` | haut_fait 321078 à 321831 | 301 | 391 | 2147 |
+| `hauts_faits_104` | haut_fait 321832 à 321877 | 92 | 138 | 574 |
+| `hauts_faits_105` | haut_fait 321912 à 322062 | 300 | 300 | 2158 |
+| `hauts_faits_106` | haut_fait 322063 à 322215 | 300 | 300 | 2275 |
+| `hauts_faits_107` | haut_fait 322216 à 322366 | 301 | 301 | 2337 |
+| `hauts_faits_108` | haut_fait 322367 à 322522 | 301 | 301 | 2204 |
+| `hauts_faits_109` | haut_fait 322523 à haut_fait_categorie 17005 | 6 | 6 | 22 |
+| `sorts_objets_074` | sort 523 à 523 | 1 | 1 | 1 |
+| `sorts_objets_075` | sort 576 à 899 | 3 | 3 | 105 |
+| `sorts_objets_076` | sort 81114 à 81123 | 7 | 9 | 59 |
+| `sorts_objets_077` | sort 81162 à 81449 | 58 | 59 | 769 |
+| `sorts_objets_078` | sort 81486 à 81505 | 6 | 6 | 93 |
+| `sorts_objets_079` | sort 84367 à 84376 | 4 | 4 | 105 |
+| `sorts_objets_080` | sort 84380 à 84776 | 27 | 27 | 457 |
+| `sorts_objets_081` | sort 86435 à 86435 | 2 | 2 | 104 |
+| `sorts_objets_082` | sort 92438 à 92989 | 13 | 13 | 172 |
+| `sorts_objets_083` | sort 93163 à 93765 | 26 | 28 | 305 |
+| `sorts_objets_084` | sort 101087 à 102208 | 5 | 6 | 93 |
+| `sorts_objets_085` | sort 109386 à 109387 | 2 | 2 | 2 |
+| `sorts_objets_086` | sort 120090 à 122501 | 27 | 27 | 573 |
+| `sorts_objets_087` | sort 255281 à 278745 | 8 | 8 | 140 |
+| `sorts_objets_088` | sort 288999 à 302590 | 56 | 86 | 776 |
+| `sorts_objets_089` | sort 801450 à 801450 | 1 | 1 | 1 |
+| `sorts_objets_090` | sort 411127 à 414081 | 9 | 9 | 239 |
+| `sorts_objets_091` | sort 499563 à 520278 | 133 | 139 | 1517 |
+| `sorts_objets_092` | sort 520326 à 572382 | 200 | 212 | 2240 |
+| `sorts_objets_093` | sort 572626 à 680275 | 75 | 85 | 833 |
+| `sorts_objets_094` | sort 680471 à 800786 | 203 | 213 | 2498 |
+| `sorts_objets_095` | sort 800826 à 802216 | 68 | 68 | 766 |
+| `sorts_objets_096` | sort 802603 à 807035 | 219 | 225 | 2484 |
+| `sorts_objets_097` | sort 807038 à 807816 | 75 | 82 | 997 |
+| `sorts_objets_098` | sort 807883 à 808008 | 4 | 4 | 85 |
+| `sorts_objets_099` | sort 832717 à 901350 | 23 | 23 | 577 |
+| `sorts_objets_100` | sort 922565 à 954221 | 54 | 57 | 802 |
+| `sorts_objets_101` | sort 954675 à 966063 | 61 | 62 | 998 |
+| `sorts_objets_102` | sort 966289 à 966290 | 2 | 2 | 8 |
+| `sorts_objets_103` | sort 969361 à 977765 | 14 | 15 | 219 |
+| `sorts_objets_104` | sort 977803 à 978747 | 71 | 76 | 1389 |
+| `sorts_objets_105` | sort 978857 à 979021 | 6 | 6 | 135 |
+| `sorts_objets_106` | sort 979737 à 985620 | 107 | 107 | 1913 |
+| `sorts_objets_107` | sort 986035 à 1000454 | 57 | 60 | 818 |
+| `sorts_objets_108` | sort 1014234 à 1157057 | 7 | 7 | 7 |
+| `sorts_objets_109` | sort 2002012 à 2002012 | 1 | 1 | 1 |
+| `sorts_objets_110` | sort 2985216 à 13977891 | 22 | 22 | 44 |
 

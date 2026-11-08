@@ -399,6 +399,9 @@ GABARITS = [
     ('ITEM_SPELL_TRIGGER_ONUSE', '', 'prefixe'), ('ITEM_SPELL_TRIGGER_ONEQUIP', '', 'prefixe'),
     ('ITEM_SPELL_TRIGGER_ONPROC', '', 'prefixe'), ('ITEM_SET_NAME', 'enn', 'objet'),
     ('ITEM_SOCKET_BONUS', 'h', 'objet'), ('ENCHANTED_TOOLTIP_LINE', 'h', 'objet'),
+    # 0.9.4 (essai 8, n° 25) : « Darkmoon Faire : fin » (calendrier, balayage de ClientCoA.lua)
+    ('CALENDAR_EVENTNAME_FORMAT_START', 'x', 'calendrier'), ('CALENDAR_EVENTNAME_FORMAT_END', 'x', 'calendrier'),
+    ('CALENDAR_EVENTNAME_FORMAT_RAID_LOCKOUT', 'x', 'calendrier'), ('CALENDAR_EVENTNAME_FORMAT_RAID_RESET', 'x', 'calendrier'),
 ] + [('FACTION_STANDING_LABEL%d%s' % (i, s), '', 'etiquette') for i in range(1, 9) for s in ('', '_FEMALE')]
 
 
@@ -673,6 +676,7 @@ def gabarit_nombres(en, fr):
 
 def forme_tutoriel(t):
     """Comme FormeTutoriel (Modules/ClientCoA.lua) : sans couleurs ni liens, minuscules ASCII (string.lower de Lua)."""
+    t = t.replace('\r', '')            # 0.9.4 (essai 8, n° 24)
     t = re.sub(r'\|c[0-9a-fA-F]{8}', '', t)
     t = t.replace('|r', '')
     t = re.sub(r'\|H.*?\|h\[?(.*?)\]?\|h', r'\1', t)
@@ -1631,18 +1635,30 @@ def main():
     with open(os.path.join(ADDON_SRC, 'PTRXML', 'AzerothFR_Interface.lua.modele'), 'rb') as f:
         modele = f.read()
     donnees = b',\n'.join(lua_chaine(k) + b',' + lua_chaine(en) + b',' + lua_chaine(fr) for k, en, fr in inter)
-    n_const = len(set(x for t in inter for x in t)) + 40
+    n_const = len(set(x for t in inter for x in t)) + 40   # (zones de l'avant-jeu : comptées plus bas)
     if n_const > MAX_CONSTANTES:
         raise SystemExit('ERREUR : AzerothFR_Interface.lua aurait %d constantes' % n_const)
     # add-on 0.4 : ecran de creation de personnage (avant-jeu, ou seul PTRXML tourne) : noms des races (officiels,
     # masculin et feminin) et des classes (source ; feminin decide, point 17), par anglais exact
     races_glue = {en: [v[0], v[1]] for en, v in fab.races.items() if v and v[0] and v[1] and (v[0] != en or v[1] != en)}
     classes_glue = {en: [fr, fab.classes_f.get(en, fr)] for en, fr in fab.classes.items()}
+    # 0.9.4 (essai 8, demande de Dan) : écran de sélection des personnages, zone de la carte du personnage
+    # (GetCharacterInfo : nom de l'AreaTable du client) : noms de zones à un seul français affichable
+    zones_fr = defaultdict(set)
+    for l, fr in fab.lignes('zones_glue', ['client/zones.tsv']):
+        if l[K.I_TYPE] == 'zone' and fr and fr != l[K.I_EN]:
+            zones_fr[l[K.I_EN]].add(fr.replace('’', "'"))
+    zones_glue = {en: next(iter(v)) for en, v in zones_fr.items() if len(v) == 1}
+    if n_const + 2 * len(zones_glue) > MAX_CONSTANTES:
+        raise SystemExit('ERREUR : AzerothFR_Interface.lua aurait %d constantes' % (n_const + 2 * len(zones_glue)))
+    bilan['familles']['selection_personnage'] = {'zones': len(zones_glue),
+                                                 'zones_plusieurs_francais': sum(1 for v in zones_fr.values() if len(v) > 1)}
     bilan['familles']['creation_personnage'] = {'races': len(races_glue), 'classes': len(classes_glue),
                                                 'classes_feminin': sum(1 for en in classes_glue if en in fab.classes_f)}
     contenu = (entete_lua(version, 'textes d\'interface en français (%d clés)' % len(inter))
                + modele.replace(b'@VERSION@', version.encode()).replace(b'@DONNEES@', donnees)
-               .replace(b'@RACES@', lua_valeur(races_glue)).replace(b'@CLASSES@', lua_valeur(classes_glue)))
+               .replace(b'@RACES@', lua_valeur(races_glue)).replace(b'@CLASSES@', lua_valeur(classes_glue))
+               .replace(b'@ZONES@', lua_valeur(zones_glue)))
     with open(os.path.join(ptr, 'AzerothFR_Interface.lua'), 'wb') as f:
         f.write(contenu)
     bilan['fichiers']['PTRXML/AzerothFR_Interface.lua'] = {'octets': len(contenu), 'constantes_calculees': n_const}

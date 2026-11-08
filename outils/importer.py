@@ -820,6 +820,29 @@ class Importeur:
                     if c and c[0].isdigit():
                         appris.setdefault(c[0], c[1] if len(c) > 1 else 'vu en jeu')
         deja = {k[1] for k in self.lignes if k[0] == 'sort'}
+        # 0.9.4 (essai 8, fenêtre des talents de CoA) : sorts que le client insère dans la bulle d'un autre sort (balise
+        # « @s:N:0@ » d'une description : séparateur, icône, nom puis description du sort N, « Brine » sous « Tempest
+        # Sovereign ») et sorts d'exemple des spécialisations (rang « Specialization » ou « Spec Passive » :
+        # « Air Elemental ») ; les sorts cités par ceux-là aussi, de proche en proche
+        connus = deja | set(obj) | set(ep) | set(appris)
+        RE_CITE = re.compile(r'@s:(\d+):')
+        a_voir, cites = list(connus), {}
+        for (i, champ), en in self.coa_sorts.items():
+            if champ == 'Rank' and en in ('Specialization', 'Spec Passive') and i not in connus:
+                cites[i] = 'sort de spécialisation (rang « %s »)' % en
+                a_voir.append(i)
+        vus = set(a_voir)
+        while a_voir:
+            i = a_voir.pop()
+            for champ in ('Description', 'ToolTip'):
+                for j in RE_CITE.findall(self.coa_sorts.get((i, champ), '')):
+                    if j not in vus and j not in connus:
+                        vus.add(j)
+                        cites[j] = 'cité dans la bulle du sort n° %s (balise @s)' % i
+                        a_voir.append(j)
+        for i, q in cites.items():
+            appris.setdefault(i, q)
+        self.cr['client_sorts_cites_ou_specialisation'] = len(cites)
         n = Counter()
         for (i, champ), en in sorted(self.coa_sorts.items(), key=lambda x: (int(x[0][0]), x[0][1])):
             if (i not in obj and i not in ep and i not in appris) or i in deja \
@@ -840,6 +863,10 @@ class Importeur:
             elif champ == 'Name' and self.TECHNIQUE_NOM_SORT.search(en):
                 l = ['sort', i, '', champ, en, K.empreinte(en), '', 'technique', '',
                      joindre(note, 'technique=nom interne (Dummy, DND…) ; l\'infobulle de l\'objet montre la description')]
+            elif champ == 'Rank' and re.fullmatch(r'Rank (\d+)', en):
+                # 0.9.4 : même modèle que les sorts des classes (« (Rank 3) » → « (Rang 3) », usage officiel)
+                l = ['sort', i, '', champ, en, K.empreinte(en), 'Rang ' + en.split()[1], 'machine', 'modele',
+                     joindre(note, 'modèle « Rank N » → « Rang N »')]
             else:
                 l = ['sort', i, '', champ, en, K.empreinte(en), '', 'a_traduire', 'coa_client', note]
             self.ajouter(l, 'sorts_objets')
@@ -861,7 +888,9 @@ class Importeur:
             cles = []
             if l[K.I_TYPE] in TYPES_SORT:
                 cles.append((c, l[K.I_EN]))
-            if c in ('name', 'Name'):
+            # 0.9.4 : un nom d'une autre table resté en anglais (la créature « Brine ») n'est pas une traduction : le
+            # sort « Brine » n'en hérite pas (il est « Saumure » dans la description qui le cite)
+            if c in ('name', 'Name') and (l[K.I_TYPE] in TYPES_SORT or l[K.I_FR] != l[K.I_EN]):
                 cles.append(('Name', l[K.I_EN]))
             for cl in cles:
                 par[cl].add(l[K.I_FR])
@@ -909,6 +938,28 @@ class Importeur:
                 n += 1
         self.cr['libelles_lua_coa'] = n
         K.journal('import : %d libellés propres aux add-ons de CoA' % n)
+
+    def categories_competences(self):
+        """0.9.4 (essai 8, captures du 08/11) : catégories de la fenêtre des compétences (SkillLineCategory.dbc du client
+        CoA, collecte categories_competences.py) : type categorie_competence, famille competences ; le français officiel
+        vient de glossaire/noms_officiels_web.tsv (décision 31), sinon à traduire."""
+        p = os.path.join(K.COLLECTE, 'client', 'categories_competences.tsv')
+        if not os.path.exists(p):
+            return
+        n = 0
+        with open(p, encoding='utf-8') as f:
+            for ligne in list(f)[1:]:
+                c = ligne.rstrip('\n').split('\t')
+                if len(c) < 3 or not c[1]:
+                    continue
+                k = ('categorie_competence', c[0], '', 'name')
+                if k in self.lignes:
+                    continue
+                self.ajouter(['categorie_competence', c[0], '', 'name', c[1], K.empreinte(c[1]), '', 'a_traduire',
+                              'coa_client', 'SkillLineCategory.dbc du client CoA (%s) : en-tête de la fenêtre des '
+                              'compétences' % c[2]], 'competences')
+                n += 1
+        self.cr['categories_competences'] = n
 
     def hauts_faits_officiels(self):
         """0.9.2 (essai 8, niveau 10) : hauts faits du client CoA (Achievement, Achievement_Criteria et
@@ -965,6 +1016,17 @@ class Importeur:
                 fr, quoi = next(iter(off_texte[en])), ('Achievement_Criteria.dbc frFR officiel (patch-frFR-3) : même anglais, '
                                                        'un seul français officiel pour ce texte')
             if fr is None:
+                # 0.9.4 (essai 8, captures du 08/11) : la traduction machine de la release 3.5.1 est écartée pour les
+                # noms, descriptions, récompenses et catégories (« Level 70 » pour « Nightmare Mode: Level 70 »,
+                # « [Mort Knight] », une même classe en « Docteur Sorcier » et « Docteur Vaudou », décision 24 jamais
+                # appliquée) : retraduite au chantier M, l'ancien français reste en note (jamais donné en indice)
+                if typ in ('haut_fait', 'haut_fait_categorie') and l[K.I_SRC] == 'release_3.5.1' \
+                        and l[K.I_ETAT] in ('machine', 'a_revoir') and l[K.I_FR]:
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'traduction machine de la release 3.5.1 écartée le 08/11/2026 '
+                                                       '(erreurs de noms et de classes) ; ancien français : %s'
+                                                       % cite(l[K.I_FR], 200))
+                    l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = '', 'a_traduire', ''
+                    n['%s:release_ecartee_%s' % (typ, champ)] += 1
                 continue
             refus = self.controle(en, fr, 'officiel', typ, i)
             # Blizzard écrit parfois les nombres autrement (« ten » / « 10 », « 2 man » / « 2c2 ») : l'officiel est gardé
@@ -1785,6 +1847,149 @@ class Importeur:
         return res
 
 
+RE_VOIE = re.compile(
+    r"(?P<art>\b(?:[Ll]e|[Ll]a|[Dd]u|[Aa]u|[Dd]ans(?: le| la)?|[Dd]e(?: la)?|[Àà](?: la)?|[Ss]ur(?: le| la)?"
+    r"|[Pp]our(?: le| la)?)\s+)?"
+    r"(?P<nom>(?:[Cc]hemin|[Vv]oie|[Rr]oute|[Ss]entier)\s+(?:vers|de)\s+l['’]\s*[Aa]scension\b|Path to Ascension\b)")
+ARTICLES_VOIE = {'le': 'la', 'la': 'la', 'du': 'de la', 'de': 'de la', 'de la': 'de la', 'au': 'à la', 'à': 'à la',
+                 'à la': 'à la', 'dans': 'dans la', 'dans le': 'dans la', 'dans la': 'dans la', 'sur': 'sur la',
+                 'sur le': 'sur la', 'sur la': 'sur la', 'pour': 'pour la', 'pour le': 'pour la', 'pour la': 'pour la'}
+
+
+def voie_ascension_fr(en, fr):
+    """Décision 34 : « Path to Ascension » se dit « Voie de l'Ascension » partout, avec l'article qui va (« de la Voie
+    de l'Ascension », « dans la Voie de l'Ascension ») ; un titre « Path to Ascension: X » commence sans article."""
+    def rempl(m):
+        art = (m.group('art') or '').strip()
+        if not art:
+            return "Voie de l'Ascension"
+        if m.start() == 0 and art in ('La', 'Le') and en.startswith('Path to Ascension'):
+            return "Voie de l'Ascension"
+        nouv = ARTICLES_VOIE[art.lower()]
+        if art[0].isupper():
+            nouv = nouv[0].upper() + nouv[1:]
+        return nouv + " Voie de l'Ascension"
+    return RE_VOIE.sub(rempl, fr)
+
+
+def _voie_ascension(self):
+    """0.9.4 : décision 34 (Dan, 08/11/2026), après la couche des traductions : toute ligne (sauf officielle) dont
+    l'anglais contient « Path to Ascension » prend « Voie de l'Ascension » (« Chemin vers l'Ascension », « La voie de
+    l'Ascension », « Path to Ascension » laissé en anglais…). Contrôle d'entrée refait ; refus : ligne inchangée."""
+    n = Counter()
+    for l in self.lignes.values():
+        if 'Path to Ascension' not in l[K.I_EN] or not l[K.I_FR] or l[K.I_ETAT] in ('officiel', 'technique'):
+            continue
+        fr = voie_ascension_fr(l[K.I_EN], l[K.I_FR])
+        if fr == l[K.I_FR]:
+            n['deja'] += 1
+            continue
+        if self.controle(l[K.I_EN], fr, 'machine' if l[K.I_ETAT] != 'relu' else 'relu', l[K.I_TYPE]):
+            n['refus_controle'] += 1
+            continue
+        l[K.I_FR] = fr
+        l[K.I_NOTE] = joindre(l[K.I_NOTE], 'décision 34 : « Voie de l\'Ascension »')
+        n['harmonisees_' + l[K.I_ETAT]] += 1
+    self.cr.update({'voie_ascension:' + a: b for a, b in n.items()})
+    K.journal('import : décision 34, Voie de l\'Ascension : %s' % dict(n))
+
+
+Importeur.voie_ascension = _voie_ascension
+
+RE_PREMS_EN = re.compile(r"^Realm First! (?:.+?: )?Level (\d+)(?: .+)?$")
+_E = '[ \u00a0\u202f]'
+RE_PREMS_FR = [re.compile(r"^(?P<pre>.+?" + _E + r":" + _E + r")?[Nn]iveau" + _E + r"(?P<n>\d+)" + _E + r"(?P<g>«.*?»)"
+                          + _E + r"du" + _E + r"royaume$"),
+               re.compile(r"^(?P<pre>.+?" + _E + r":" + _E + r")?(?P<x>.+?)" + _E + r"de" + _E + r"niveau" + _E
+                          + r"(?P<n>\d+)" + _E + r"(?P<g>«.*?»)" + _E + r"du" + _E + r"royaume$")]
+
+
+def _prems_niveau(self):
+    """0.9.4 : décision 24, modèle de niveau de Blizzard (« Guerrier « Prem's » au niveau 80 sur le royaume ») pour les
+    « Realm First! [X: ]Level N [Y] » restés au modèle « … de niveau N « Prem's » du royaume » (chantier M)."""
+    n = Counter()
+    for l in self.lignes.values():
+        if l[K.I_TYPE] != 'haut_fait' or l[K.I_CHAMP] != 'name' or not l[K.I_FR] or l[K.I_ETAT] in ('officiel', 'relu'):
+            continue
+        m = RE_PREMS_EN.match(l[K.I_EN])
+        if not m:
+            continue
+        for rx in RE_PREMS_FR:
+            f = rx.match(l[K.I_FR])
+            if f and f.group('n') == m.group(1):
+                fr = (f.group('pre') or '') + ((f.group('x') + ' ') if 'x' in rx.groupindex and f.group('x') else '') \
+                    + f.group('g') + ' au niveau ' + f.group('n') + ' sur le royaume'
+                if fr != l[K.I_FR] and not self.controle(l[K.I_EN], fr, 'machine', l[K.I_TYPE]):
+                    l[K.I_FR] = fr
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'décision 24 : modèle de niveau de Blizzard')
+                    n['corrigees'] += 1
+                break
+    self.cr.update({'prems_niveau:' + a: b for a, b in n.items()})
+    K.journal('import : décision 24, modèle de niveau : %s' % dict(n))
+
+
+Importeur.prems_niveau = _prems_niveau
+
+
+def _pierres_de_retraite(self):
+    """0.9.4 (essai 8, n° 26) : pierres de retraite de la collection de vanité (« Stone of Retreat: Eastvale Logging
+    Camp ») : l'objet prend le nom français du sort qu'il lance (même anglais exact, un seul français), qui suit les
+    noms de lieux officiels (« … : Camp de bûcherons du Val d'est ») ; la traduction de l'archive (« camp forestier
+    d'Eastvale ») est écartée. Avant noms_vanite (les objets de vanité reprennent le nom de l'objet)."""
+    sorts = defaultdict(set)
+    for l in self.lignes.values():
+        if l[K.I_TYPE] == 'sort' and l[K.I_CHAMP] == 'Name' and l[K.I_FR] and l[K.I_EN].startswith('Stone of Retreat: ') \
+                and l[K.I_ETAT] in ('officiel', 'relu', 'machine'):
+            sorts[l[K.I_EN]].add(l[K.I_FR])
+    n = Counter()
+    for l in self.lignes.values():
+        if l[K.I_TYPE] != 'objet' or l[K.I_CHAMP] != 'name' or l[K.I_EN] not in sorts \
+                or l[K.I_ETAT] not in ('machine', 'a_traduire', 'a_revoir'):
+            continue
+        if len(sorts[l[K.I_EN]]) != 1:
+            n['plusieurs_francais'] += 1
+            continue
+        fr = next(iter(sorts[l[K.I_EN]]))
+        if fr == l[K.I_FR]:
+            n['deja'] += 1
+            continue
+        if self.controle(l[K.I_EN], fr, 'machine', 'objet'):
+            n['refus'] += 1
+            continue
+        ancien = l[K.I_FR]
+        l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'machine', 'nom_sort_meme_anglais'
+        l[K.I_NOTE] = joindre(l[K.I_NOTE], 'nom du sort lancé (même anglais)'
+                              + (' ; avant : %s' % cite(ancien, 120) if ancien else ''))
+        n['repris'] += 1
+    self.cr.update({'pierres_de_retraite:' + a: b for a, b in n.items()})
+    K.journal('import : pierres de retraite, nom du sort : %s' % dict(n))
+
+
+Importeur.pierres_de_retraite = _pierres_de_retraite
+
+RE_STATIQUE = re.compile(r"(Génère|Épuise|Consomme)([ \u00a0])(\d+)[ \u00a0]Statique\b")   # (après « |cffcc99ff » : pas de \b)
+
+
+def _harmoniser_statique(self):
+    """0.9.4 : ligne de ressource des sorts de CoA (« |cffcc99ffDepletes 40 Static|r ») : la forme majoritaire des
+    traductions, « Épuise 40 points de Statique » (111 textes contre 72 « Épuise 40 Statique ») ; décision 20 inchangée
+    (Static = Statique)."""
+    n = 0
+    for l in self.lignes.values():
+        if 'Static' not in l[K.I_EN] or not l[K.I_FR] or l[K.I_ETAT] in ('officiel', 'technique'):
+            continue
+        fr = RE_STATIQUE.sub(lambda m: '%s%s%s points de Statique' % (m.group(1), m.group(2), m.group(3)), l[K.I_FR])
+        if fr != l[K.I_FR] and not self.controle(l[K.I_EN], fr, 'machine' if l[K.I_ETAT] != 'relu' else 'relu',
+                                                 l[K.I_TYPE]):
+            l[K.I_FR] = fr
+            n += 1
+    self.cr['harmoniser_statique'] = n
+    K.journal('import : « N points de Statique » : %d lignes' % n)
+
+
+Importeur.harmoniser_statique = _harmoniser_statique
+
+
 def main():
     ecrire = '--sans-ecrire' not in sys.argv
     imp = Importeur()
@@ -1800,6 +2005,7 @@ def main():
     imp.importer_dbc()
     imp.hauts_faits_officiels()       # 0.9.2
     imp.libelles_lua_coa()            # 0.9.2
+    imp.categories_competences()      # 0.9.4
     imp.importer_interface()
     imp.noms_officiels_web()          # 0.9 : avant la couche (les lignes libérées reçoivent leur traduction)
     imp.appliquer_vocabulaire()
@@ -1811,8 +2017,12 @@ def main():
     imp.harmoniser_officiel()
     imp.limites_objets_par_nom()
     imp.focalisation_interface()
+    imp.pierres_de_retraite()         # 0.9.4
     imp.noms_vanite()                 # essai 8
     imp.criteres_par_nom()            # 0.9.2
+    imp.voie_ascension()              # 0.9.4 : décision 34
+    imp.prems_niveau()                # 0.9.4 : décision 24 (modèle de niveau)
+    imp.harmoniser_statique()         # 0.9.4
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

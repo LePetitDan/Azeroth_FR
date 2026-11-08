@@ -1158,7 +1158,17 @@ for _, c in ipairs(CAS_LISTE) do
             AchievementAlertFrame1.id = id
             AchievementAlertFrame1Name:SetText((select(2, GetAchievementInfo(id))))
         end
+        -- 0.9.4 : barre d'une categorie du resume (nom pose a la creation du cadre, OnLoad)
+        local barre = AchievementFrameSummaryCategoriesCategory1 or NouveauCadre("AchievementFrameSummaryCategoriesCategory1")
+        AchievementFrameSummaryCategoriesCategory1 = barre
+        function barre:GetID() return c.cat end
+        AchievementFrameSummaryCategoriesCategory1Label = AchievementFrameSummaryCategoriesCategory1Label or NouvelleZone("")
+        AchievementFrameSummaryCategoriesCategory1Label:SetText(en.categorie)
+        if not AchievementFrameSummaryCategory_OnShow then function AchievementFrameSummaryCategory_OnShow(self) end end
         Declencher("ADDON_LOADED", "Blizzard_AchievementUI")
+        AchievementFrameSummaryCategoriesCategory1Label:SetText(en.categorie)
+        AchievementFrameSummaryCategory_OnShow(barre)
+        egal(c.nom .. " (barre de catégorie du résumé)", AchievementFrameSummaryCategoriesCategory1Label:GetText(), c.attendu.categorie)
         local b = { label = NouvelleZone(""), description = NouvelleZone(""), hiddenDescription = NouvelleZone(""), reward = NouvelleZone("") }
         AchievementButton_DisplayAchievement(b, 1, 1)
         egal(c.nom .. " (nom)", b.label:GetText(), c.attendu.nom)

@@ -1,0 +1,57 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	288999		Description	a129fdc344c3	Votre prochaine aptitude de mêlée contre l'ennemi provoque une |cffffffffExplosion runique|r, infligeant ${$289000m1+$289000ppl1+$AP*0.185} points de dégâts de Feu supplémentaires aux ennemis proches.	lot sorts_objets_088
+sort	288999		Name	e0cbaa8d6990	Marqué : Marque runique	lot sorts_objets_088
+sort	288999		ToolTip	643a1030ee04	Votre prochaine aptitude de mêlée provoque une Explosion runique.	lot sorts_objets_088
+sort	300084		Description	e79a7252f84e	@unlockby:635@\nRend $s1 points de vie d'Ombre à votre cible. Peut être lancé sous Forme d'Ombre. Déclenche |cFFFFFFFFLien vampirique|r sur les alliés soignés par cette aptitude.\n\n@ext:This uses Holy Light modifiers.:ext@	lot sorts_objets_088
+sort	300158		Description	9cc478f7dc9a	@unlockby:23922@\nFinisseur qui frappe violemment la cible avec votre bouclier, réduit de 2 secondes par point de combo le temps de recharge restant de |cFFFFFFFFSoif de sang|r et a 15% de chances d'augmenter de $901203s1% les dégâts infligés aux monstres par Déluge de lances. 	lot sorts_objets_088
+sort	300158		Name	09cd3e6bdec4	Frappe de bouclier	lot sorts_objets_088
+sort	300159		Description	5d5d0351cf2b	@unlockby:5171@\r\n@req:997611@\r\nFinisseur qui convertit $878302s1% de votre intelligence en score de coup critique en mêlée. Dure plus longtemps par point de combo.\r\n\r\nLes incantations de sorts et d'aptitudes ont une chance de permettre de lancer |cFFFFFFFFLance de glace|r, qui inflige toujours un coup critique et génère |cFFFFFFFFHurlement de l'hiver|r.\r\n\r\nLes coups critiques de |cFFFFFFFFSinistre|r et d'|cFFFFFFFFÉviscération|r déclenchent |cFFFFFFFFLance de glace|r, tandis que les coups critiques manuels de |cFFFFFFFFLance de glace|r rendent de l'énergie.\r\n\r\n@ext:Ice Spear is learnt alongside Ice Lance.:ext@	lot sorts_objets_088
+sort	300159		Name	5fd01363d2fa	Taillade et glace	lot sorts_objets_088
+sort	300160		Description	da3293acc02b	@unlockby:120@\n@req:978302@\nFinisseur qui inflige des dégâts de Givre par point de combo aux cibles situées dans un cône devant le lanceur et génère |cFFFFFFFFHurlement de l'hiver|r, augmentant de $979053s1% les dégâts de votre prochain Gel profond. Se cumule jusqu'à $979053u charges.	lot sorts_objets_088
+sort	300160		Name	c2ef396bb431	Vents de l'hiver	lot sorts_objets_088
+sort	300166		Description	262051c8d8cb	@unlockby:8092@\nFrappe jusqu'à 5 ennemis situés à moins de 10 mètres et inflige $s1 points de dégâts d'Ombre.	lot sorts_objets_088
+sort	300166		Name	d522b9f2d02d	Attaque mentale psychique	lot sorts_objets_088
+sort	300167		Description	bc16b677260e	@unlockby:5484@\nDéchaînez |cFFFFFFFFAttaque mentale psychique|r, qui force les ennemis touchés à fuir de terreur pendant 5 secondes. Les dégâts subis peuvent interrompre l'effet.\n\n@ext:This spell is guaranteed to hit. Lasts 20.5 sec against players. Damage taken may interrupt the effect.:ext@	lot sorts_objets_088
+sort	300173		Description	563afc7794f0	@req:44549@\n@req:44545@\nObtenir |cFFFFFFFFSynapses givrées !|r vous octroie aussi |cFFFFFFFFAttaque mentale !|r.\n\nVotre prochain sort Attaque mentale est instantané, ne coûte aucun mana et inflige $s3% de dégâts supplémentaires. \n\nConsommer |cFFFFFFFFAttaque mentale !|r déclenche |cFFFFFFFFDoigts de givre|r.	lot sorts_objets_088
+sort	300173		Name	26314aad647e	Attaque mentale !	lot sorts_objets_088
+sort	300173		ToolTip	11685bfbdcf2	Votre prochain sort Attaque mentale est instantané, ne coûte aucun mana et inflige $s3% de dégâts supplémentaires.	lot sorts_objets_088
+sort	300276		Description	5040c2d817de	|cFF66DDFFPassif de niveau 15|r\r\nTant que vous avez plus de 40 |cffcfa6ffFolie|r, vos attaques de mêlée réduisent de $/1000;573314s1 sec le temps de recharge de votre |cFFFFFFFFRegard de C'thun|r.	lot sorts_objets_088
+sort	300276		Name	89518190c6be	Regard du Néant	lot sorts_objets_088
+sort	300277		Description	617632d0346d	Rend $s2% de votre mana maximum et augmente de $s1% les dégâts d'Ombre que vous infligez pendant $d.	lot sorts_objets_088
+sort	300277		ToolTip	1a4556cf0065	Dégâts d'Ombre infligés augmentés de ${$w1}%.	lot sorts_objets_088
+sort	300330		Description	7203cc3b8293	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre puissance de soins de $s1% de votre Intelligence.	lot sorts_objets_088
+sort	300330		Name	5b99e875c586	Bénédictions - Passif de niveau 15	lot sorts_objets_088
+sort	300475		Description	4762618dff6e	Les dégâts subis de la part du Gangrelige sont augmentés de $s1% et les chances de coup critique de tous les alliés contre cette cible sont augmentées de $s2% pendant $d.	lot sorts_objets_088
+sort	300475		ToolTip	fa682b844bbe	Dégâts subis de la part du Gangrelige augmentés de ${$w1}% et chances de coup critique de tous les alliés augmentées de ${$w2}%.	lot sorts_objets_088
+sort	300521		Description	fbd97e12645d	|cFF66DDFFPassif de niveau 15|r\r\nRéduit de $s1% le coût en Énergie de vos sorts et aptitudes et augmente votre expertise de $s2.	lot sorts_objets_088
+sort	300521		Name	29ed8eb224ce	Motivé pour le combat	lot sorts_objets_088
+sort	300601		Description	f84302f7e3c1	@unlockby:50796@\nInflige des dégâts de Chaos, a $965315s1% de chances supplémentaires d'infliger un coup critique, dissipe les absorptions lancées par les joueurs sur la cible et augmente de $984996s1% tous les dégâts qu'elle subit du lanceur pendant $984996d.\n\nQuand vous lancez un sort avec un temps d'incantation contre des monstres, le temps de recharge d'|cFFFFFFFFÉclair du chaos (Gangrefeu sauvage)|r est réduit de $/1000;944820s1.5 sec. @ext:This effect shares a cooldown with Emberstorm.:ext@	lot sorts_objets_088
+sort	300601		Name	e919f4fead96	Éclair du chaos pur	lot sorts_objets_088
+sort	300605		Description	015ea8ab2f31	Augmente de $s1% les dégâts infligés par votre prochain |cffffffffRayon d'oblitération|r, cumulable $u fois, pendant $d.	lot sorts_objets_088
+sort	300605		ToolTip	175ef3b406d5	Dégâts de votre prochain Rayon d'oblitération augmentés de ${$w1}%, cumulable $u fois.	lot sorts_objets_088
+sort	300713		Description	d532e8e9b391	Enseigne |cffffffffDomptage de bête|r, vous permettant de dompter des bêtes à travers Azeroth pour qu'elles deviennent vos compagnons.@s:1515:0@	lot sorts_objets_088
+sort	300713		Name	b1e174347b01	Primaliste arpenteur sauvage	lot sorts_objets_088
+sort	300716		Description	376c049a333f	Vous pouvez désormais dompter des bêtes en Azeroth pour qu'elles vous aident comme compagnons.\r\n@ext:@s:574301:0@:ext@\r\n	lot sorts_objets_088
+sort	300891		Description	d25bc6ffbbf3	Votre prochain |cFFFFFFFFLancer de lance|r dans les $d est gratuit$?s707633[ et a $707633s1% de chances supplémentaires d'infliger un coup critique][].	lot sorts_objets_088
+sort	300891		Name	1701a28e50f6	Maître de guerre	lot sorts_objets_088
+sort	300891		ToolTip	aedad00ab8de	Votre prochain Lancer de lance ne coûte aucune Énergie$?s707633[ et a $707633s1% de chances supplémentaires d'infliger un coup critique][].	lot sorts_objets_088
+sort	300895		Description	6da5f044cec5	Augmente les coûts en ressources de $s1% pendant $d.	lot sorts_objets_088
+sort	300895		Name	3d69fb949f52	Rythme d'endurance	lot sorts_objets_088
+sort	301086		Description	6eb271be5f31	Votre prochain |cffffffffBarrage de géode|r ou |cffffffffTremblement de terre|r dans les $301086d est instantané et coûte $s3% de moins.	lot sorts_objets_088
+sort	301086		Name	8ed096c888b8	Réplique	lot sorts_objets_088
+sort	301086		ToolTip	c42114c365cd	Votre prochain Barrage de géode ou Tremblement de terre est instantané et coûte ${$w3}% de moins.	lot sorts_objets_088
+sort	301220		Description	3daeab13d41f	Empêche les ennemis de monter en selle, de fuir et d'augmenter leur vitesse de déplacement au-delà de la vitesse normale pendant $301220d.	lot sorts_objets_088
+sort	301220		ToolTip	db3e78b58b61	Ne peut ni monter en selle, ni fuir, ni se déplacer plus vite que votre vitesse de déplacement normale.	lot sorts_objets_088
+sort	301283		Description	bbe0721f2eec	|cFF66DDFFPassif de niveau 50|r\r\nAugmente toutes les résistances magiques d'une valeur égale à 10% de votre score d'esquive et réduit de $s2% les dégâts subis des effets périodiques.	lot sorts_objets_088
+sort	301284		Description	25915a6453b1	|cFF66DDFFPassif de niveau 30|r\r\nRéduit de 0.25 sec le temps d'incantation d'|cffffffffÉclair de fusée|r.	lot sorts_objets_088
+sort	301284		Name	e7660eab0ec6	Embrasement !	lot sorts_objets_088
+sort	301284		ToolTip	d956c76fb7a7	|cffffffffSouffle d'Ysera|r augmente désormais de $504487s1% tous les dégâts de Feu subis par la cible pendant $504487d.	lot sorts_objets_088
+sort	301353		Description	96b419f002f9	|cFF66DDFFPassif de niveau 40|r\r\nVous gagnez désormais une puissance des sorts égale à votre score de pénétration d'armure.	lot sorts_objets_088
+sort	301982		Description	2d77e588fb5b	Marque l'allié pendant $d, cumulable $301982u fois.\r\n\r\nQuand vous lancez |cffffffffRegard de C'Thun|r, toutes les charges sont consommées pour rendre ${$301983m1+$301983ppl1+$BH*0.35} points de vie à tous les alliés affectés par |cffffffffTouché par le Vide|r, en fonction du nombre de charges qu'ils avaient.	lot sorts_objets_088
+sort	301982		ToolTip	4f72e6de195b	Vous êtes touché par le Vide.	lot sorts_objets_088
+sort	301988		Description	366dcb135daa	Fait apparaître un portail du Vide qui lance |cFFFFFFFFRegard de C'thun|r, |cFFFFFFFFÉclair d'horreur|r ou |cFFFFFFFFRayon d'oblitération|r avant de disparaître. 	lot sorts_objets_088
+sort	302590		Description	150acb418dd0	Inflige ${$302590m1+$302590ppl1+$spn*1} points de dégâts physiques à $302534i ennemis maximum situés à moins de $302534a1 mètres et augmente de $302590s2% les dégâts qu'ils subissent de votre |cffffffffTremblement de terre|r pendant $302590d.	lot sorts_objets_088
+sort	302590		Name	b173d9c0c622	Rocher	lot sorts_objets_088
+sort	302590		ToolTip	1d1d14b79b84	Les dégâts subis du Tremblement de terre du géomancien sont augmentés de ${$w2}%.	lot sorts_objets_088
+sort	572802		Name	1701a28e50f6	Maître de guerre	lot sorts_objets_088
+sort	712323		Name	e0cbaa8d6990	Marqué : Marque runique	lot sorts_objets_088

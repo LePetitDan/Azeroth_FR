@@ -1,0 +1,5 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	101087		Description	385b63fd465a	|cFFFFFFFFVous apprenez ce sort.|r\r\nFait tomber un météore gangrené sur la zone ciblée, infligeant ${$m1+0+($AP+$SP)*0.44} points de dégâts magiques, augmentant vos chances d'infliger un coup critique et augmentant de $s2% les dégâts subis par les cibles touchées de la part du lanceur de sorts, pendant $d.\r\n\r\nNécessite que |cFFFFFFFFMétéore gangrené !|r soit actif.\r\n\r\n@ext:|nLes dégâts magiques sont une combinaison des écoles du Sacré, du Feu, de la Nature, du Givre, de l'Ombre et des Arcanes, et bénéficient du meilleur modificateur parmi ces écoles.:ext@	lot sorts_objets_084
+sort	101087		Name	d4185a704d99	Météore gangrené	lot sorts_objets_084
+sort	101087		ToolTip	ebb7fbb6c5a0	Dégâts subis augmentés de $s2% et chances d'être touché par un coup critique du lanceur de sorts augmentées.	lot sorts_objets_084
+sort	102208		Name	758504c99892	Retenue sacrée	lot sorts_objets_084

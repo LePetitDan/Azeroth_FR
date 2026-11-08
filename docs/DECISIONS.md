@@ -4,6 +4,10 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 08/11/2026 | Hauts faits propres à CoA : la traduction machine de la release 3.5.1 (noms, descriptions, récompenses, catégories ; 39 209 lignes) est **écartée et retraduite** par l'API (chantier M, 23 823 textes, vague 13 : 25,59 $ ; total estimé 115,34 $) ; l'ancien français reste en note, jamais en indice | Claude, en application de l'exigence de Dan (noms et classes justes) et de la décision 24 ; Dan prévenu le 08/11 (« dans ton accord sans plafond ») |
+| 08/11/2026 | Usage des Épreuves repris pour les hauts faits, sans nouvelle décision : « Hardcore » et « Ironman » gardés, « High Risk » = « Haut risque », « Nightmare Mode » = « Mode Cauchemar » ; « Ascended » reste en anglais (question 21 de `A_TRANCHER.md`) | Cohérence avec la fenêtre des Épreuves déjà traduite |
+| 08/11/2026 | Écran de sélection des personnages : classe et zone traduites par le paquet d'avant-jeu (PTRXML) ; le nom du royaume reste celui du serveur | Demande de Dan |
+| 08/11/2026 | Catégories des compétences : « Compétences d'armes », « Armures utilisables » (Wowhead en français, décision 31) ; « Compétences de classe », « Compétences secondaires », « Langues », « Métiers » traduits ; « Complexité : avancée » et « Choisir des talents » corrigés à la main (`relu`) ; ressources « Épuise N points de Statique » (forme majoritaire) | Claude, essai 8 |
 | 08/11/2026 | « Path to Ascension » = « Voie de l'Ascension » partout (décision de vocabulaire 34), harmonisé par une règle dans la 0.9.4 | Dan (« comme tu veux ») |
 | 08/11/2026 | Add-on 0.9.3 installé dans `D:\Wow_Core` (CoA du 08/11) : dossiers `Azeroth_FR…` et `Interface\PTRXML` remplacés ; 84 fichiers, empreintes vérifiées ; zip gardé dans `D:\Azeroth_FR_API` | Dan |
 | 08/11/2026 | **Plus de plafond d'API fixé par Dan** : « aucun plafond, tu peux y aller » ; il reste environ 130 € sur la console de l'API. Garde-fou technique de `api_envoyer.py` mis à 200 $ cumulés (81,97 $ déjà estimés), sous le solde de la console. Première dépense : la mise à jour au CoA du 08/11 | Dan |

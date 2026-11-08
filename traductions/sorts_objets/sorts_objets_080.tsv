@@ -1,0 +1,28 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	84380		Description	99244c3c9b89	@unlockby:17@\n\nLorsque votre cible subit des dégâts, le soin stocké se déclenche (pour la moitié de sa valeur contre les joueurs).	lot sorts_objets_080
+sort	84380		ToolTip	11ebde5c51f0	Rend des points de vie la prochaine fois que vous subissez des dégâts.	lot sorts_objets_080
+sort	84407		Description	d68b97a2d709	Réduit de $s1% la vitesse de déplacement de votre cible et de tous les ennemis qui se trouvent à moins de $a mètres d'elle, augmente de $s2% le temps entre les attaques à distance et de $s3% le temps d'incantation. Dure $d.\nNe se cumule pas avec d'autres effets similaires.	lot sorts_objets_080
+sort	84407		Name	56b4296687a7	Ralentissement (Ralentissement de masse)	lot sorts_objets_080
+sort	84409		Description	8f11607fe2e9	Adoptez votre forme éthérée. Les dégâts physiques subis sont réduits de $s1% et la menace générée est réduite de $s2%, mais les dégâts magiques subis sont augmentés de $s3%.	lot sorts_objets_080
+sort	84409		ToolTip	154689278f39	Dégâts physiques subis réduits de $s1%.\nMenace générée réduite de $s2%.\nDégâts magiques subis augmentés de $s3%.	lot sorts_objets_080
+sort	84443		Description	5285e1bdbb7e	@unlockby:6807@\r\nUne attaque qui inflige $s1% des dégâts de l'arme et applique |cFFFFFFFFSang infecté|r à votre cible, lui infligeant $81400o1 points de dégâts en $81400d.\r\n\r\n|cFFFFFFFFMutiler|r propage |cFFFFFFFFSang infecté|r et |cFFFFFFFFRage|r à tous les ennemis proches. Infliger des dégâts avec |cFFFFFFFFSang infecté|r confère une charge de |cFFFFFFFFCœur flétri|r.\r\n\r\n@ext:Scales with Maul modifiers. Effects which increase Bleed damage also increase the weapon damage.:ext@	lot sorts_objets_080
+sort	84443		Name	044fd9b0bb4d	Frappe purulente	lot sorts_objets_080
+sort	84450		Description	ca13fae627b0	Votre Tourbillon applique Pourfendre (si connu) aux cibles touchées et augmente de 5 sa limite maximale de cibles. Dure $d.	lot sorts_objets_080
+sort	84450		ToolTip	aa0d4e5dc7e2	Votre aptitude Tourbillon applique votre Pourfendre (si connu) aux cibles touchées et sa limite maximale de cibles est augmentée de 5.	lot sorts_objets_080
+sort	84452		Description	c3dfc1e473ed	Augmente de 30% les dégâts de votre prochaine Onde de choc. À 3 charges, elle gagne en portée et ajoute 1 sec à l'étourdissement. Cumulable jusqu'à 3 fois, dure 10 secondes.\n\n@ext:Shockwave damage is increased by 10% against players.:ext@	lot sorts_objets_080
+sort	84452		ToolTip	d02600f6b035	Augmente de $s1% les dégâts de votre prochaine Onde de choc ($s2% contre les joueurs). Onde de choc est encore renforcée à 3 charges.	lot sorts_objets_080
+sort	84461		Description	884ce30ec966	Obtenu lorsque vous touchez un ennemi avec |cFFFFFFFFCharge|r ou |cFFFFFFFFCharge de bataille|r, avec un temps de recharge interne de 6 secondes.\r\n\r\nAugmente de $s1% votre vitesse d'attaque en mêlée et de $s2% votre vitesse de déplacement.	lot sorts_objets_080
+sort	84461		ToolTip	3239ee341dee	Vitesse d'attaque en mêlée augmentée de $s1%.\r\nVitesse de déplacement augmentée de $s2%.	lot sorts_objets_080
+sort	84467		Description	046e4975207f	Lance votre arme, infligeant $s1% de ses dégâts d'arme à la cible et l'étourdissant pendant 1 seconde. Mais vous êtes désarmé pendant 4 secondes.	lot sorts_objets_080
+sort	84511		Description	7a9c8ab3304e	Inflige ${$m1+0+0.18*$AP+0.25*$SPA} points de dégâts des Arcanes à votre cible et à ${$i-1} ennemis supplémentaires au maximum qui se trouvent à moins de $a1 mètres.\r\n\r\n@ext:Scales with Arcane Explosion damage modifiers.:ext@	lot sorts_objets_080
+sort	84513		Description	36355fa6c8c9	Augmente de $s1% les dégâts des coups critiques et de $s2% les chances de coup critique. Cumulable jusqu'à $u fois. Dure $d.	lot sorts_objets_080
+sort	84513		ToolTip	d4a48fe2d6ff	Augmente de $s1% les dégâts des coups critiques et de $s2% les chances de coup critique.	lot sorts_objets_080
+sort	84514		Description	c641d63ac96f	Inflige ${$84760m1+$84760ppl1+0.135*$AP+0.2*$SP} points de dégâts de Givre autour de votre cible et réduit sa vitesse de déplacement de $s1%. Cumulable $u fois. Dure $d.	lot sorts_objets_080
+sort	84514		Name	67f7c99d711d	Malédiction d'Amal'thazad	lot sorts_objets_080
+sort	84735		Name	90bb48964e3d	Bon à tout faire	lot sorts_objets_080
+sort	84748		Description	45023f204a1e	L'état Passage en incantation mineur réduit de $s1% le coût en mana de votre prochain sort. Maximum de $n charges. Dure $d. \n\nConsommer |cFFFFFFFFPassage en incantation mineur|r déclenche |cFFFFFFFFJaillissement des arcanes|r sur votre cible.\n@s:84511:0@	lot sorts_objets_080
+sort	84748		Name	25a3973df0f6	Passage en incantation mineur	lot sorts_objets_080
+sort	84751		Description	3263c75cb4ed	Dégâts physiques augmentés de $s1%. \r\nCumulable jusqu'à $u fois et dure $d ; ne se rafraîchit pas au maximum de charges. \r\n\r\n@ext:Any Non-physical damage resets all stacks. Does not work with "on next swing" abilities.:ext@	lot sorts_objets_080
+sort	84753		Description	7e26fec0b82f	Vitesse d'attaque augmentée de $s1%. Cumulable jusqu'à $u fois et dure $d. Ne se rafraîchit pas au maximum de charges.\r\n\r\n@ext:Any Non-physical damage resets all stacks. Does not work with "on next swing" abilities.:ext@	lot sorts_objets_080
+sort	84753		ToolTip	84cc10ccb3ea	Vitesse d'attaque augmentée de $s1%.	lot sorts_objets_080
+sort	84776		Name	4587f2184773	Microbot 8D	lot sorts_objets_080

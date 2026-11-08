@@ -1,0 +1,67 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	800826		Description	c282f93c3a11	Inflige $s2 points de dégâts d'Ombre toutes les $t2 sec. et réduit la vitesse de déplacement de l'ennemi de $806598s1% pendant $d. Cumulable jusqu'à $u fois.	lot sorts_objets_095
+sort	800826		ToolTip	d293b3b4e43f	Subit ${$w2} points de dégâts d'Ombre toutes les $t2 sec. Cumulable jusqu'à $u fois. Vitesse de déplacement réduite de $806598s1%.	lot sorts_objets_095
+sort	800861		Description	285b26eb3168	Votre |cffffffffTrait venimeux|r peut être lancé en vous déplaçant et son incantation est $800861s1% plus rapide pendant $800861d.	lot sorts_objets_095
+sort	800861		ToolTip	99aaf136ec66	Vos Traits venimeux peuvent être lancés en vous déplaçant et leur incantation est ${-$w1}% plus rapide.	lot sorts_objets_095
+sort	800999		Description	bc1737214082	Libérez votre démon intérieur : les soins reçus sont augmentés de $s1%$?s302581[ et l'Armure de $302581s1%][]. Se cumule jusqu'à $u fois.	lot sorts_objets_095
+sort	800999		ToolTip	8b3992ec695e	Soins reçus augmentés de ${$w1}%$?s302581[ et Armure augmentée de $302581s1%][].	lot sorts_objets_095
+sort	801006		Description	9e85937b5545	Une pluie en fusion brûle les ennemis de la zone et leur inflige $o1 points de dégâts de Feu en $d.	lot sorts_objets_095
+sort	801006		Name	684a586238d3	Pluie de chaos	lot sorts_objets_095
+sort	801006		ToolTip	24ea42752956	${$w1} points de dégâts de Feu infligés toutes les $t1 sec.	lot sorts_objets_095
+sort	801009		Description	4545e76558cd	Inflige ${$m1+0+$AP*0.0525+$spfi*0.107381} points de dégâts de Feu à $i ennemis maximum se trouvant à moins de $a1 mètres.	lot sorts_objets_095
+sort	801009		Name	2ab649dd3b60	Explosion de bombe collante	lot sorts_objets_095
+sort	801076		Description	96d3e29d4306	Prenez une |cffa966f0Forme maudite|r unique pendant $d, qui n'empêche pas d'utiliser les aptitudes de |cffffffffForme mortelle|r$?s560073[ et vous confère des dégâts des sorts égaux à $s1% de votre Esprit][].\r\n\r\nTant qu'elle est active, les dégâts directs des sorts déclenchent un |cffffffffFestin vampirique|r, qui inflige $801076s3% de dégâts d'Ombre supplémentaires aux ennemis et vous rend un total de points de vie égal à 50% des dégâts infligés.\r\n\r\n@ext:While in a |cffa966f0Cursed Form|r you are treated as if you were a Demon.:ext@	lot sorts_objets_095
+sort	801076		ToolTip	391087454981	Démon. Tant qu'elle est active, les dégâts directs des sorts déclenchent un |cffffffffFestin vampirique|r, qui inflige $801076s3% de dégâts d'Ombre supplémentaires aux ennemis et vous rend un total de points de vie égal à 50% des dégâts infligés.	lot sorts_objets_095
+sort	801148		Description	4bfa0af13790	Le score de blocage, le score de parade et la valeur de blocage sont augmentés en fonction de votre mana actuel.	lot sorts_objets_095
+sort	801148		ToolTip	3b8efba24b64	Score de blocage augmenté de ${$w2}, score de parade augmenté de ${$w1} et valeur de blocage augmentée de ${$w3}, en fonction de votre mana actuel.	lot sorts_objets_095
+sort	801317		Description	49ac70ef6fbf	Augmente de $s1% les dégâts périodiques subis venant du chronomancien pendant $d. Cumulable jusqu'à $u fois.	lot sorts_objets_095
+sort	801317		Name	764783de23ce	Passage du temps	lot sorts_objets_095
+sort	801317		ToolTip	e5b31fcb4183	Dégâts périodiques du chronomancien augmentés de $S1%.	lot sorts_objets_095
+sort	801384		Description	58c6ed1fbe2d	Activez votre |cFFFFFFFFméca-armure|r, qui consomme 5 |cffc7c7c7Ferraille|r par seconde, augmente les dégâts infligés de $801385s3%, votre armure de ${$801385m1+$801385ppl1} et votre vitesse de déplacement de $803329s1%$?s681001[, et réduit tous les dégâts subis de $801385s2%][].\r\n\r\nSi vous manquez de |cffc7c7c7Ferraille|r pendant que la |cffffffffméca-armure|r est active, vous en êtes éjecté.\r\n\r\nTant qu'elle est active, votre |cffffffffTir de ferraille|r est transformé en |cffffffffMitrailleuse|r.\r\n@ext:@s:500213:0@:ext@	lot sorts_objets_095
+sort	801384		ToolTip	9b76e176465b	Vous êtes dans votre méca-armure et vous êtes PRÊT À FONCER !	lot sorts_objets_095
+sort	801450		Description	fc1fbcaf59bf	Inflige $s2% des dégâts de l'arme en main gauche sous forme de dégâts du Sacré.	lot sorts_objets_095
+sort	801472		Description	77e292a72621	Inflige $o1 points de dégâts de Nature toutes les $t1 sec. et réduit de $801472s2% les soins périodiques reçus pendant $d. Cumulable jusqu'à $801472u fois.	lot sorts_objets_095
+sort	801472		ToolTip	8b7b4029e17d	Saigne toutes les $t1 sec.	lot sorts_objets_095
+sort	801482		Description	6a2d084d3fa5	Vous vous rendez des points de vie égaux à $s1% de tous les dégâts infligés pendant $d. À la fin, vous gagnez |cffffffffRédemption|r.	lot sorts_objets_095
+sort	801482		Name	c3967ce7f086	Chute	lot sorts_objets_095
+sort	801482		ToolTip	6a5fd7aa2571	Vous vous rendez des points de vie égaux à $s1% de tous les dégâts infligés. Après $d, vous gagnerez Rédemption.	lot sorts_objets_095
+sort	801483		Description	28efff78893c	Augmente la vitesse d'attaque de $s1% et vous rend des points de vie égaux à $s3% de tous les dégâts infligés pendant $d.	lot sorts_objets_095
+sort	801483		ToolTip	545bbe4c0271	Augmente la vitesse d'attaque de ${$w1}% et vous rend des points de vie égaux à ${$w3}% de tous les dégâts infligés.	lot sorts_objets_095
+sort	801639		Description	466059fbdcdb	Inflige ${$m1+0+$AP*0.175+$spfi*.11} points de dégâts de Feu aux ennemis proches après $803438d.	lot sorts_objets_095
+sort	801662		Description	3f92fb73a0b6	Infuse de l'|cffffffffhuile de poisson|r dans votre |cffffffffChaudron|r.\r\n\r\n|cffffffffChaudron|r : augmente de $803269s1% la vitesse de déplacement et la vitesse de nage des alliés se trouvant à moins de $803269a1 mètres.\r\n\r\n|cffffffffPotion|r : augmente de $802969s2% la vitesse de déplacement de l'allié ciblé et de $802969s1% ses chances d'esquive pendant $802969d.	lot sorts_objets_095
+sort	801662		Name	c2c2eedbb7e0	Ingrédient : huile de poisson	lot sorts_objets_095
+sort	801662		ToolTip	4085bf90b8be	Lancer de potion applique de l'huile de poisson.	lot sorts_objets_095
+sort	801724		Description	f47723537b3d	Lance une chaîne de givre sur un ennemi et lui inflige ${$801728m1+$801728ppl1+$spfr*0.35} points de dégâts de Givre toutes les $t1 sec. pendant $d.\r\n\r\nChaque impulsion génère $/10;800344s2 Puissance runique.	lot sorts_objets_095
+sort	801724		ToolTip	f371edb87d33	Subit des dégâts de Givre toutes les $t1 sec.	lot sorts_objets_095
+sort	801729		Description	7c9b7f0f2533	|cffffffffConsomme les charges de Froidmort|r\r\nInflige ${$m3+0} points de dégâts d'Ombregivre.	lot sorts_objets_095
+sort	801729		ToolTip	97f589863a90	Les sorts d'Ombre et de Givre lancés contre cette cible infligent ${$w2}% de dégâts supplémentaires.	lot sorts_objets_095
+sort	801753		Description	3f60c17c4d3f	Provoque un ennemi en duel à mort pendant $d, réduisant de $s1% les soins qu'il reçoit et absorbant les ${$m2+0+$AP*1} prochains points de soins qui lui sont prodigués.	lot sorts_objets_095
+sort	801753		ToolTip	69da23fe8ea7	Soins reçus réduits de ${$w1}%. ${$w2} points de soins absorbés.	lot sorts_objets_095
+sort	801778		Description	7c1ec46f18b1	La prochaine aptitude ou le prochain sort direct inflige $s1% de ses dégâts sous forme de dégâts magiques supplémentaires.	lot sorts_objets_095
+sort	801778		ToolTip	a68149c1cd69	La prochaine aptitude ou le prochain sort direct inflige ${$w1}% de ses dégâts sous forme de dégâts magiques supplémentaires.	lot sorts_objets_095
+sort	801802		Description	3b6d4f8e4c05	Invoque pendant $d un |cFFFFFFFFOrbe de tonnerre|r à l'endroit ciblé, qui déclenche un |cffffffffChoc d'orbe|r et génère 10 |cffcc99ffStatique|r.\r\n@s:801868:0@	lot sorts_objets_095
+sort	801802		Name	d80f91696703	Invocation : Orbe de tonnerre	lot sorts_objets_095
+sort	801841		Description	d72890d33942	Augmente de $s1% supplémentaires les dégâts infligés par |cffffffffFoudre fourchue|r, |cffffffffAppel de la foudre|r et |cFFFFFFFFÉlectrocution|r, et permet à |cffffffffÉlectrocution|r de frapper $s2 ennemis supplémentaires.	lot sorts_objets_095
+sort	801841		ToolTip	cf36846253ef	Foudre fourchue, Appel de la foudre et Électrocution infligent ${$W1}% de dégâts supplémentaires et Électrocution frappe ${$w2} ennemis supplémentaires.	lot sorts_objets_095
+sort	801868		Description	db2222846f15	Inflige ${$m1+0+$spn*0.04} points de dégâts de Nature à $i ennemis maximum et augmente les dégâts subis venant des |cFFFFFFFFOrbes de tonnerre|r et des |cffffffffSphères de puissance|r$?s500005[ de $s2%][] pendant $d. Cumulable jusqu'à $u fois.	lot sorts_objets_095
+sort	801868		Name	c917a3ed170e	Choc d'orbe	lot sorts_objets_095
+sort	801868		ToolTip	f4bdf9b796e0	Dégâts subis venant des Orbes de tonnerre et des Sphères de puissance du porte-tempête augmentés de ${$w2}%.	lot sorts_objets_095
+sort	801914		Description	5704a241da11	Déchaîne une attaque dévastatrice qui inflige $s2% des dégâts de l'arme à votre cible avec les deux armes.\r\n\r\nCette aptitude est garantie de infliger un coup critique aux ennemis qui ont plus de 75% de leurs points de vie.	lot sorts_objets_095
+sort	801914		Name	c72a5b4c0906	Frappe annihilante (main gauche)	lot sorts_objets_095
+sort	801914		Rank	4ab6e02cbe55	Dégâts main gauche	lot sorts_objets_095
+sort	801958		Description	b31cc6902d8d	Fait surgir $s1 |cFFFFFFFFChauves-souris d'ombre|r qui frappent la cible et lui infligent ${$802358m1+$802358ppl1+$SP*.4+$AP*.2} points de dégâts physiques, vous rendant des points de vie égaux aux dégâts infligés.	lot sorts_objets_095
+sort	801958		Name	e1d75af6501c	Appel de l'Aile sombre	lot sorts_objets_095
+sort	802015		Name	c6db09601423	Perfidie	lot sorts_objets_095
+sort	802015		ToolTip	aa7e07d216e2	Certaines aptitudes consomment |cffffffffMal perçu|r pour appliquer Flammes du péché, ce qui fait infliger des dégâts de Feu supplémentaires à vos attaques automatiques.	lot sorts_objets_095
+sort	802016		ToolTip	52690777114a	Les aptitudes vous confèrent Mal perçu, qui peut être consommé pour obtenir Flammes du péché dans Perfidie.	lot sorts_objets_095
+sort	802173		Description	7ac9560ba3af	Déchaîne votre courroux et inflige ${$m1+0+$spfi*0.3} points de dégâts de Feu à votre cible, en perçant toutes les résistances et tous les effets d'absorption.	lot sorts_objets_095
+sort	802207		Description	b0729e5781b2	Augmente de $s1% la hâte en mêlée, à distance et des sorts.	lot sorts_objets_095
+sort	802207		Name	d60ab9c389c4	Férocité de Bethekk	lot sorts_objets_095
+sort	802207		ToolTip	ab1a79bb6825	Augmente de ${$w1}% la hâte en mêlée, à distance et des sorts.	lot sorts_objets_095
+sort	802208		Name	33561e6787fc	Vitalité de Sseratus	lot sorts_objets_095
+sort	802215		Description	00ece990930d	Chances de coup critique augmentées de $s1%.	lot sorts_objets_095
+sort	802215		Name	4cd66e8e8da7	Ruse de Quetz'lun	lot sorts_objets_095
+sort	802215		ToolTip	258f31d0e3f9	Chances de coup critique augmentées de ${$w1}%.	lot sorts_objets_095
+sort	802216		Description	5f645532a96b	Réduit de $s1% les dégâts physiques subis.	lot sorts_objets_095
+sort	802216		Name	0ef9df6e5e12	Toucher de Torta	lot sorts_objets_095
+sort	802216		ToolTip	7dbe2da21ea0	Réduit de ${$w1}% les dégâts physiques subis.	lot sorts_objets_095

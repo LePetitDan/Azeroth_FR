@@ -1,0 +1,214 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	680471		Description	25e30cfbff62	Votre prochain |cFFFFFFFFTir de précision|r inflige $s2% de dégâts supplémentaires pendant $d, cumulable jusqu'à $u fois.	lot sorts_objets_094
+sort	680471		ToolTip	7bc729a33011	Votre prochain Tir de précision inflige ${$w2}% de dégâts supplémentaires.	lot sorts_objets_094
+sort	680472		Description	497d4a7e34dd	Augmente vos chances de parer de $s1%, réduit les dégâts subis de $s2% et augmente les dégâts que vous infligez de $s3%.	lot sorts_objets_094
+sort	680472		ToolTip	3f45ea37f63d	Chances de parer augmentées de ${$w1}%. Dégâts subis réduits de ${$w2}%. Dégâts infligés augmentés de ${$w3}%.	lot sorts_objets_094
+sort	680488		Description	590c89d0c9cd	|cFF66DDFFPassif de niveau 20|r\r\nAugmente de $s1% l'armure apportée par les objets en tissu, en cuir et en mailles.\r\n\r\nDe plus, vos chances de toucher sont augmentées de $s2%.	lot sorts_objets_094
+sort	680488		Name	9ccdf5ce2e74	Chevalier noir - Passif de niveau 20	lot sorts_objets_094
+sort	680489		Description	af13800098b7	Les attaques automatiques effectuées avec une arme à deux mains ont désormais $707860h% de chances de déchaîner |cffffffffPoigne de l'immortel|r, qui draine ${$680483m1+$680483ppl1+$SP*0.15+$AP*.1} points de vie à la cible.	lot sorts_objets_094
+sort	680517		Description	166262173f7c	Marque la cible pendant $d et lui inflige $o2 points de dégâts d'Ombre à menace élevée en $d.	lot sorts_objets_094
+sort	680517		ToolTip	cd0b390ab1a3	Marqué par le chevalier noir. Subit des dégâts d'Ombre toutes les $t2 sec.	lot sorts_objets_094
+sort	680576		Description	1fcf13287b6d	|cffcfa6ffGénère 30 Folie|r\r\nEnvoie une onde de force qui inflige ${$m1+0+$SP*0.76255+$AP*.125} points de dégâts d'Ombre aux ennemis devant vous et réduit leur vitesse de déplacement de $s2% pendant $d.	lot sorts_objets_094
+sort	680627		Description	6be2c1a776ce	Vous permet de combattre avec deux armes et de manier une masse, une épée ou une arme d'hast à deux mains dans chaque main ; vos chances de toucher sont augmentées de $707072s2%.	lot sorts_objets_094
+sort	680627		ToolTip	f071166ec782	Vous permet de combattre avec deux armes et de manier une masse ou une épée à deux mains dans chaque main ; vos chances de toucher sont augmentées de ${$w2}%.	lot sorts_objets_094
+sort	680688		Description	d861830ba429	Les sorts qui coûtent des points de vie vous confèrent une charge de |cFFE53935Vitalité accumulée|r, cumulable $680687u fois, pendant $680687d.\r\n\r\nChaque charge de |cFFE53935Vitalité accumulée|r augmente votre Esprit de $680687s3%.\r\n\r\nLes sorts de soin qui coûtent de la Rage consomment 10 charges de |cFFE53935Vitalité accumulée|r pour être renforcés.	lot sorts_objets_094
+sort	680688		ToolTip	df4c18490324	Les sorts qui coûtent des points de vie vous confèrent une charge de |cFFE53935Vitalité accumulée|r , cumulable jusqu'à $680687u fois, et renforcent |cFFFFFFFFBaiser du vampyr|r.	lot sorts_objets_094
+sort	680692		Description	cb2d14e54c4f	Adoptez une |cffa966f0Forme maudite|r unique qui ne désactive pas les aptitudes de |cffffffffForme mortelle|r, et qui fait naître un orbe de sang flottant à vos côtés.\r\n\r\nTant qu'elle est active, vous répliquez $s1% des soins ou des dégâts de |cFFFFFFFFSoin sanguin|r et de |cffffffffDéflagration de la lune de sang|r sur la cible toutes les $680693t1 sec pendant $680693d.\r\n\r\n@ext:While in a |cffa966f0Cursed Form|r you are treated as if you were a Demon.:ext@	lot sorts_objets_094
+sort	680692		ToolTip	3180a4dae534	L'orbe de sang répliquera ${$w1}% des soins prodigués par |cFFFFFFFFSoin sanguin|r.	lot sorts_objets_094
+sort	680821		Description	f0b2c95ea897	Réduit de $s1% le temps d'incantation de |cffffffffÉclaboussure du puits de lune|r pendant $680821d, cumulable $680821u fois.\r\n\r\nTant que cet effet est actif, |cffffffffÉclaboussure du puits de lune|r peut être lancée en mouvement.\r\n\r\n@ext:Stacks are not removed while Lunar Eclipse is active.:ext@	lot sorts_objets_094
+sort	680821		ToolTip	c09470195345	Votre prochaine Éclaboussure du puits de lune peut être lancée en mouvement et son temps d'incantation est réduit de ${$w1}%. Cumulable $u fois.	lot sorts_objets_094
+sort	680880		Description	e570dd201041	Vous permet de tirer automatiquement avec une arme à distance.\r\n\r\nDe plus, réduit de $680880s3% le coût en mana de tous les sorts et de toutes les aptitudes.	lot sorts_objets_094
+sort	680918		Description	4737ce7cf68b	Augmente de $s1% les dégâts de votre |cffffffffÉlémentaire d'air|r pendant $d, cumulable $u fois.\r\n\r\nLes applications supplémentaires ne rafraîchissent pas la durée.	lot sorts_objets_094
+sort	680918		ToolTip	d757192441ce	Dégâts infligés augmentés de ${$w1}%. Cumulable $u fois.	lot sorts_objets_094
+sort	681079		Name	916af1d82582	Tisseur de chair, fils d'Arugal	lot sorts_objets_094
+sort	681084		Description	d0553d0a8b5a	|cFF66DDFFPassif de niveau 15|r\r\nTransforme votre |cffffffffVœu de radiance|r en |cffffffffVœu de la val'kyr|r.@s:807749:0@	lot sorts_objets_094
+sort	681084		Name	b6f4d63b9cb4	Valkyrie - Passif de niveau 15	lot sorts_objets_094
+sort	681235		Description	f76bee00226e	Frappe un ennemi en traître et lui inflige ${$m1*$<scalingbp>+$AP*0.35} points de dégâts physiques, et génère 5 charges d'|cff8fff7aAvantage|r. Bénéficie des modificateurs de |cffffffffAssaut|r.\r\n\r\nPendant $681498d, les chances de coup critique d'|cffffffffAssaut|r sont augmentées de $681498s1%.	lot sorts_objets_094
+sort	681235		Name	301400cbac8a	Coup en traître	lot sorts_objets_094
+sort	681251		Description	a39d8ae3551a	Lance un rayon d'énergie tellurique sur un ennemi, lui infligeant ${$m1+$ppl1+$spn*1.8} points de dégâts physiques, générant 20 Rage et 2 charges de |cffc6a36aModelage de la terre|r$?s706208[, et réduisant de $/1000;681354s1 sec le temps de recharge de |cffffffffTerrasurge|r][].\r\n\r\nBénéficie des modificateurs de |cffffffffBarrage de géodes|r.	lot sorts_objets_094
+sort	681306		Description	8cf4cb690b02	Augmente votre pénétration magique de $s1 pendant $d, cumulable $u fois. \r\n\r\nÀ $u charges, vos aptitudes offensives sont imprégnées de feu : elles infligent instantanément $681311s2% des dégâts infligés en dégâts de Feu supplémentaires et fendent votre cible ainsi qu'un autre ennemi proche.\r\n@s:681307:0@	lot sorts_objets_094
+sort	681306		ToolTip	c26f3ec7d5a7	Augmente votre pénétration magique de ${$abs($m1+$ppl1)} pendant $d, cumulable $u fois. 	lot sorts_objets_094
+sort	681307		Description	491994489291	Augmente de $s1% les dégâts de Feu et de Nature que vous infligez à cette cible pendant $d, cumulable $u fois.	lot sorts_objets_094
+sort	681307		Name	1fa3d73b923a	Fracture des flammes forgées	lot sorts_objets_094
+sort	681307		ToolTip	b345f0457c26	Les dégâts de Feu et de Nature infligés à cette cible par le bricoleur sont augmentés de ${$w1}%, cumulable $u fois.	lot sorts_objets_094
+sort	681390		Description	4eda11e6e69d	Votre prochaine |cFFFFFFFFLame de l'aube|r dans les $d ne coûte rien et inflige $s2% de dégâts supplémentaires.	lot sorts_objets_094
+sort	681390		ToolTip	720c855bed62	Votre prochaine Lame de l'aube ne coûte rien et inflige ${$w2}% de dégâts supplémentaires.	lot sorts_objets_094
+sort	681410		Description	268a21b47c40	|cFF66DDFFPassif de niveau 10|r\r\nAugmente votre score de pénétration d'armure en fonction de votre Intelligence.	lot sorts_objets_094
+sort	681410		Name	6d06a2530fcc	Gardien - Passif de niveau 10	lot sorts_objets_094
+sort	681471		Description	c464700c9bec	|cFF66DDFFPassif de niveau 50|r\r\nVotre |cffffffffDéflagration d'Horusath|r inflige désormais des dégâts supplémentaires qui augmentent avec votre puissance d'attaque.	lot sorts_objets_094
+sort	681485		Description	f359106bf935	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend à utiliser les masses à deux mains et vous gagnez désormais 1 Endurance pour 2 Force.	lot sorts_objets_094
+sort	681788		Description	59d082c7c37b	Taillade un ennemi pour $s1% des dégâts de l'arme et augmente votre hâte de $s2% pendant $d.	lot sorts_objets_094
+sort	681788		Name	66d03f139f0e	Lame déferlante	lot sorts_objets_094
+sort	681788		ToolTip	4729e571606b	Hâte augmentée de $s2%.	lot sorts_objets_094
+sort	684330		Description	5c4936a5c56a	Maudit tous les ennemis proches, leur infligeant ${$m1+0+$AP*.12} points de dégâts d'Ombre toutes les $t1 sec pendant $d et augmentant de $504472s1% les dégâts magiques qu'ils subissent de votre part.\r\n\r\nLes ennemis affectés par |cFFFFFFFFFièvre du sang de sorcière|r restent visibles même si vous êtes furtif.	lot sorts_objets_094
+sort	684330		Name	967eb19d7341	Fièvre du sang de sorcière	lot sorts_objets_094
+sort	684330		ToolTip	29c2bc3291b3	Secrets révélés ! Vos toniques sont transformés.	lot sorts_objets_094
+sort	685020		Description	c4c615490fc2	Écrase les ennemis proches, leur infligeant ${$m2+0+$AP*.24} points de dégâts d'Ombre et les étourdissant pendant $d.	lot sorts_objets_094
+sort	685020		Name	c5d77220cafb	Péril sombre	lot sorts_objets_094
+sort	686020		Description	da82425bbf40	Draine la vie de $i1 ennemis situés à moins de $a1 mètres, leur infligeant ${$m1+0+$AP*0.28} points de dégâts d'Ombre et vous rendant 90% des dégâts infligés en points de vie.	lot sorts_objets_094
+sort	686020		Name	02e54e4c2eb7	Rage vampirique	lot sorts_objets_094
+sort	704171		Description	b95fd1c3a2aa	Vos 5 prochains |cffffffffFendétoiles|r dans les $d infligent des dégâts croissants, proportionnels à 10% de l'Intelligence, à chaque utilisation successive, cumulable $805436u fois.	lot sorts_objets_094
+sort	704171		ToolTip	aa2bc21ee9a9	Les Fendétoiles suivants infligent des dégâts accrus.	lot sorts_objets_094
+sort	704197		Description	d725c64601c6	À 3 charges, votre prochaine |cFFFFFFFFBaguette du temps|r ou |cFFFFFFFFBaguette de l'artificier|r inflige ${$806201m1+$spa*0.212+$spi*0.25+$RAP*0.1} points de dégâts des Arcanes supplémentaires, proportionnels à l'Esprit.	lot sorts_objets_094
+sort	704197		ToolTip	27fb7e879658	À 3 charges, votre prochaine |cFFFFFFFFBaguette du temps|r ou |cFFFFFFFFBaguette de l'artificier|r inflige ${$806201m1+$806201ppl1+$spa*0.212+$spi*0.25+$RAP*0.1} points de dégâts des Arcanes supplémentaires, proportionnels à l'Esprit.	lot sorts_objets_094
+sort	704216		Description	64297b0b2964	Vous apprend |cffffffffInvocation : élémentaire d'air|r.\r\n@s:804019:0@	lot sorts_objets_094
+sort	704216		Name	ceda38a9ac88	Élémentaire d'air	lot sorts_objets_094
+sort	704216		ToolTip	858b1aada267	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffAérodynamique|r.	lot sorts_objets_094
+sort	704347		Description	a5baea84596d	Inflige ${$m1+0} points de dégâts de Nature à $i ennemis maximum situés à moins de $a1 mètres toutes les $t1 sec pendant $d.	lot sorts_objets_094
+sort	704347		Name	a88a12b691a8	Bave de scarabée	lot sorts_objets_094
+sort	704347		ToolTip	0dbe9053d8f4	Crée une mare de bave de $a1 mètres pendant $d, infligeant ${$w1} points de dégâts de Nature aux ennemis de la zone toutes les $t1 sec. Génère beaucoup de menace.	lot sorts_objets_094
+sort	704381		Description	d12f8433634b	Votre prochain |cffffffffTir de ferraille|r dans les $d inflige $s1% de dégâts supplémentaires.	lot sorts_objets_094
+sort	704381		ToolTip	5bec79d90f5b	Votre prochain |cffffffffTir de ferraille|r inflige ${$w1}% de dégâts supplémentaires, puis tire une fois de plus.	lot sorts_objets_094
+sort	704473		Description	b980d5022212	Rend ${$m1+0+$SP*0.678496} points de vie à une cible alliée, proportionnellement à la |cffcfa6ffFolie|r, et augmente ses chances de coup critique de $s2% pendant $d, cumulable $u fois.	lot sorts_objets_094
+sort	704473		Name	2956c702489a	Révélation horrifiante	lot sorts_objets_094
+sort	704473		ToolTip	10d433482fc7	Chances de coup critique augmentées de $S2%.	lot sorts_objets_094
+sort	704509		Description	75ef90034163	|cFF66DDFFPassif de niveau 40|r\r\nVos |cFFFFFFFFMarionnettes d'ombre|r sont désormais canalisées $706548s1% plus vite.	lot sorts_objets_094
+sort	704509		Name	5427b96d1583	Visions vaudoues	lot sorts_objets_094
+sort	704574		Name	a4a6d22bcbcb	Rallonge de chaîne du serment	lot sorts_objets_094
+sort	704706		Description	ccd4efc5aa5d	Puissance d'attaque réduite de ${-$W1}.	lot sorts_objets_094
+sort	704706		ToolTip	ccd4efc5aa5d	Puissance d'attaque réduite de ${-$W1}.	lot sorts_objets_094
+sort	705118		Description	6aa169232853	Réduit de $705118s1% les dégâts physiques infligés par les ennemis pendant $705118d.	lot sorts_objets_094
+sort	705118		ToolTip	c50ecce8f868	Dégâts physiques infligés réduits de ${$w1}%.	lot sorts_objets_094
+sort	705132		Description	01913ee69888	Les coups critiques des aptitudes de mêlée déclenchent désormais |cFFFFFFFFLames dansantes|r, qui infligent les dégâts de l'arme en main gauche à $800598i ennemis proches maximum.	lot sorts_objets_094
+sort	705132		ToolTip	fa7f68e70b4f	Infliger des dégâts avec des aptitudes physiques de mêlée a désormais $h% de chances de déclencher une |cFFFFFFFFFrappe gangrenée|r.	lot sorts_objets_094
+sort	705419		Name	557518328a57	Moisson - Passif de niveau 30	lot sorts_objets_094
+sort	705427		Description	dfd1ac0ee697	Active un mode de furtivité amélioré qui n'est pas rompu par les dégâts infligés ou subis.	lot sorts_objets_094
+sort	705427		ToolTip	2ec9c42b375c	Marche sous le voile. N'est pas rompu par les dégâts infligés ou subis.	lot sorts_objets_094
+sort	705985		Description	a6c325a216b4	Inflige ${$m1*$<scalingbp>+$sps*0.0566667+$AP*0.032} points de dégâts d'Ombre toutes les $t1 sec pendant $d. 	lot sorts_objets_094
+sort	705985		ToolTip	4fa173bf44e1	Inflige ${$w1} points de dégâts d'Ombre toutes les $T1 sec. 	lot sorts_objets_094
+sort	706000		Description	cb2e11b1faf2	Inflige ${$706000m2+$706000ppl2+$SP*.125} points de dégâts d'Ombre et réduit la puissance d'attaque de ${-($m1+0)}.	lot sorts_objets_094
+sort	706032		Description	7ccfb7316dc3	Votre prochain |cffffffffCrochet du serpent|r dans les $706032d ne coûte rien.	lot sorts_objets_094
+sort	706032		ToolTip	7ccfb7316dc3	Votre prochain |cffffffffCrochet du serpent|r dans les $706032d ne coûte rien.	lot sorts_objets_094
+sort	706058		Description	d3ced8efe264	|cFF66DDFFPassif de niveau 30|r\r\nAugmente de $s1% la fréquence des impulsions de |cffffffffDécomposition|r, |cffffffffRécupération accélérée|r et |cffffffffChronofaisceau|r.	lot sorts_objets_094
+sort	706058		Name	ca35854be43c	Infini - Passif de niveau 30	lot sorts_objets_094
+sort	706058		ToolTip	bd6adff4afd0	Augmente de ${$w1}% la fréquence des impulsions de |cffffffffDécomposition|r, |cffffffffRécupération accélérée|r et |cffffffffChronofaisceau|r.	lot sorts_objets_094
+sort	706095		Description	1926f14567ab	|cFFFFFFFFÈre|r peut être lancée en mouvement. Vitesse de déplacement augmentée de $s2%.	lot sorts_objets_094
+sort	706095		ToolTip	32ceca681e1b	Ère peut être lancée en mouvement. Vitesse de déplacement augmentée de ${$w2}%.	lot sorts_objets_094
+sort	706432		Description	e7839fbeb729	Réduit de $706432s2 le coût en Énergie de |cffffffffLancer d'arme|r, |cffffffffLance mutilante|r et |cffffffffAvancée tourbillonnante|r.	lot sorts_objets_094
+sort	706478		Description	b2c2d4f9b7a6	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre score de blocage de $s1% de votre Force et vos chances d'esquiver de $s2%.	lot sorts_objets_094
+sort	706478		Name	c7374f9eb3c3	Défi - Passif de niveau 15	lot sorts_objets_094
+sort	706505		Description	b31672af7854	|cFF66DDFFPassif de niveau 20|r\r\n|cffffffffOrdre impie|r et |cffffffffOrdre : archers squelettes|r ont désormais $h% de chances de réinitialiser leur propre temps de recharge et de rendre leur prochaine utilisation dans les $706503d gratuite.	lot sorts_objets_094
+sort	706505		Name	647a500c56e3	Animation - Passif de niveau 20	lot sorts_objets_094
+sort	706505		ToolTip	76fef4377bf0	|cffffffffAnimation : archer squelette|r invoque ${$w1} serviteurs supplémentaires.	lot sorts_objets_094
+sort	706527		Description	e51dcf3bf365	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre pénétration des sorts de ${-($m1)}, en fonction de votre niveau.	lot sorts_objets_094
+sort	706527		Name	e1f714909189	Animation - Passif de niveau 15	lot sorts_objets_094
+sort	706544		Description	4bab7440c2bd	Augmente de $s3% les dégâts magiques infligés et réduit de $706803s1% le temps de recharge de |CFFFFFFFFGlaive spirituel|r toutes les $706489t1 sec. Dure $d.	lot sorts_objets_094
+sort	706544		Name	f9a15807eb64	Avatar d'ombre mineur	lot sorts_objets_094
+sort	706544		ToolTip	e16fef743cd5	Augmente de ${$w3}% les dégâts magiques infligés. Réduit rapidement le temps de recharge de Glaive spirituel.	lot sorts_objets_094
+sort	706555		Description	b4d99f73550e	Retire tous les effets de poison, de maladie et de malédiction des membres du groupe et du raid situés à moins de $a1 mètres, et leur confère l'immunité à ces effets pendant $d.	lot sorts_objets_094
+sort	706555		Name	0e823192eee7	Élixir guérit-tout de masse	lot sorts_objets_094
+sort	706623		Description	fd36dd2428fd	Soigné chaque fois que le mage de sang utilise Déflagration de la lune de sang. Dure $d.	lot sorts_objets_094
+sort	706623		Rank	2f010a2540da	Aura appliquée à la cible	lot sorts_objets_094
+sort	706623		ToolTip	cea0d46f4ff9	Soigné chaque fois que le mage de sang utilise Déflagration de la lune de sang.	lot sorts_objets_094
+sort	706624		Description	17959a5d0892	Fait en sorte que |cffffffffDéflagration de la lune de sang|r rende ${$704119m1+$704119ppl1+$BH*0.07+$STA*0.085} points de vie aux alliés marqués.	lot sorts_objets_094
+sort	706624		ToolTip	a26d67e9247c	Fait en sorte que |cffffffffLiturgie sombre|r marque les cibles pendant $706623d, et que |cffffffffDéflagration de la lune de sang|r rende ${$704119m1+$PL*2.6+$SP*0.07} points de vie aux alliés marqués.	lot sorts_objets_094
+sort	706692		Description	f19aad47dcbf	Améliore la |cffffffffTourelle sentinelle|r pour qu'elle tire des grenades, augmentant considérablement sa vitesse d'attaque et lui faisant infliger ${$706694m1+$706694ppl1} points de dégâts de Feu dans un rayon de $706694a1 mètres, plus ${$706694m2+$706694ppl2+$spfi*.15+$AP*0.085} points de dégâts de Feu supplémentaires en $706694d.	lot sorts_objets_094
+sort	706692		Name	5952abf3141e	Tourelle à grenades en fusion	lot sorts_objets_094
+sort	706692		ToolTip	7e163eb96aec	Tire des grenades au lieu de balles ordinaires. Vitesse d'attaque considérablement augmentée.	lot sorts_objets_094
+sort	706716		Description	fedee480a09f	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre hâte des sorts de $s3% de votre Intelligence et vos dégâts des sorts de $s1% de votre Intelligence.	lot sorts_objets_094
+sort	706716		Name	1bc68952c981	Incinération - Passif de niveau 15	lot sorts_objets_094
+sort	706716		ToolTip	13fbd3ca4b24	Augmente la puissance des sorts de ${$w1}% de l'Intelligence. 	lot sorts_objets_094
+sort	706725		Description	30aca8459566	Augmente de $s1% les dégâts magiques que vous infligez et réduit de $s3% vos coûts en mana pendant $d.	lot sorts_objets_094
+sort	706725		ToolTip	7887d4f117a8	Augmente de ${$W1}% les dégâts magiques infligés et réduit de ${-$W3}% les coûts en mana.	lot sorts_objets_094
+sort	706727		Description	0b3adb46ada3	|cFF66DDFFPassif de niveau 15|r\r\nAugmente vos chances de coup critique de $s2% de l'Intelligence.\r\n\r\nDe plus, vos chances de toucher sont augmentées de $s3%.	lot sorts_objets_094
+sort	706727		Name	2503381bca86	Piété - Passif de niveau 15	lot sorts_objets_094
+sort	706833		Description	ab6da75d2be5	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre score de parade et d'esquive de $s1% de votre Force, et votre Endurance à hauteur de votre score de pénétration d'armure.	lot sorts_objets_094
+sort	707014		Description	4b6f3e1bda7f	Transformé en |cFFFFFFFFGoule frénétique|r, ce qui augmente la hâte de $s2% pendant $d. Immunisé contre les effets de ralentissement.	lot sorts_objets_094
+sort	707014		ToolTip	92dd4a57c487	Transformé en Goule frénétique. Hâte augmentée de ${$w2}%. Immunisé contre les effets de ralentissement.	lot sorts_objets_094
+sort	707022		Description	fd1cefbcb795	À 5 charges, votre |cffffffffEssaim de la crypte|r a un temps de canalisation réduit de $707105s1% et inflige $707608s1% de dégâts supplémentaires pendant $707105d.\r\n\r\nDe plus, chaque fois que |cFFFFFFFFPutride|r se déclenche, vos |cFFFFFFFFArchers squelettes|r régurgitent sur les ennemis, leur infligeant ${$802130m1+$802130ppl1+$SP*0.2} points de dégâts de peste et augmentant de $802130s2% les coûts en ressources ennemis pendant $802130d, cumulable $802130u fois.	lot sorts_objets_094
+sort	707022		Rank	c1e1f84f8412	Amélioration sur l'invocateur	lot sorts_objets_094
+sort	707022		ToolTip	450ec16cc5a8	À 5 charges, votre |cffffffffEssaim de la crypte|r a un temps de canalisation réduit de $707105s1% et inflige $707608s1% de dégâts supplémentaires.	lot sorts_objets_094
+sort	707130		Description	d7b97f4b7d6a	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre puissance des sorts de soins de $s1% de l'Esprit.	lot sorts_objets_094
+sort	707130		Name	cfe42410339a	Tissage de flammes - Passif de niveau 15	lot sorts_objets_094
+sort	707153		Description	c689ced4c8b8	Les ennemis de la zone subissent ${$707153m1+$707153ppl1+$AP*0.135} points de dégâts de Nature supplémentaires toutes les $707153t1 sec.	lot sorts_objets_094
+sort	707153		Name	c3f572f2d25d	Spirale turbulente	lot sorts_objets_094
+sort	707200		Name	e600d3e0bbc7	Source du déclenchement d'esquive du chasseur de sorcières	lot sorts_objets_094
+sort	707220		Description	4810f5120c3d	Fait s'abattre la foudre sur un ennemi et les ennemis proches, infligeant ${$m1+0+$spa*.65} points de dégâts de tempête de sorts et rafraîchissant la durée de |cffffffffVolt|r sur les ennemis touchés.\r\n\r\nInflige $504900s1% de dégâts supplémentaires aux ennemis affectés par |CffffffffVolt|r.	lot sorts_objets_094
+sort	707220		Rank	2747aac69844	Sort	lot sorts_objets_094
+sort	707234		Description	9884041ce80a	Lance un filet de toile sur un ennemi, lui infligeant ${$m2*$<scalingbp>+$spn*0.12} points de dégâts de Nature toutes les $t2 sec pendant $d.\r\n\r\nAprès $d, si |cffffffffSpore|r est active sur la cible, fait pousser un |cffffffffChampignon|R sous elle, qui explose après 2 sec et inflige ${$504543m1+$504543ppl1+$spn*.125} points de dégâts de Nature à tous les ennemis situés à moins de $504543a1 mètres.	lot sorts_objets_094
+sort	707234		Name	215bff14fc82	Anneau suffocant	lot sorts_objets_094
+sort	707234		ToolTip	cf7b60e98dcc	Inflige ${$m2*$<scalingbp>+$SP*.2} points de dégâts de Nature toutes les $T2 sec.	lot sorts_objets_094
+sort	707278		Description	d7d1cc596db9	Augmente de $s1% les dégâts infligés et de $s2% la hâte, cumulable $u fois, pendant $d.	lot sorts_objets_094
+sort	707278		ToolTip	86cc5b6a7a99	Augmente de ${$w1}% les dégâts infligés et de ${$w2}% la hâte. Cumulable $u fois.	lot sorts_objets_094
+sort	707404		Description	c07e7798fe64	|cFF66DDFFPassif de niveau 15|r\r\nAugmente votre score de coup critique de $s3% de votre Intelligence, vos dégâts des sorts de $s1% de votre Intelligence et vos chances de toucher de $s2%.	lot sorts_objets_094
+sort	707404		Name	a2fd2145f0b4	Draconique - Passif de niveau 15	lot sorts_objets_094
+sort	707404		ToolTip	13fbd3ca4b24	Augmente la puissance des sorts de ${$w1}% de l'Intelligence. 	lot sorts_objets_094
+sort	707406		Description	7bc94f1523f9	|cFF66DDFFPassif de niveau 40|r\r\nAugmente de $s1% le facteur de puissance d'attaque à distance de |cffffffffMaléfice de malveillance|r.	lot sorts_objets_094
+sort	707406		Name	f122103c3853	Maléfices mystiques	lot sorts_objets_094
+sort	707406		ToolTip	fffd6e7dcb71	Augmente de ${$w1}% les dégâts de |cffffffffMaléfice de malveillance|r, |cffffffffFusée d'ombre|r et |cffffffffCourroux maléfique|r.	lot sorts_objets_094
+sort	707420		Description	55b90a33ea58	|cFF66DDFFPassif de niveau 20|r\r\nAugmente de $s1% les dégâts critiques de vos serviteurs morts-vivants.	lot sorts_objets_094
+sort	707420		Name	421906622464	Héritage de Kel'Thuzad	lot sorts_objets_094
+sort	707421		Description	74f8fb60583a	Pendant $d, les chances de coup critique de vos serviteurs morts-vivants sont augmentées de $s1%, cumulable $u fois. 	lot sorts_objets_094
+sort	707421		ToolTip	f3f00a810bf1	Chances de coup critique augmentées de ${$w1}%. Cumulable $u fois.	lot sorts_objets_094
+sort	707434		Description	db507c36def1	Quand vous passez dessus, vous récupérez $712383s2% de vos points de vie manquants et $/10;712383s3 Rage, et gagnez une charge d'|cffffffffIncantation sombre|r pendant $712383d, cumulable $712383u fois.\r\n@s:712383:0@	lot sorts_objets_094
+sort	707434		Rank	29de5042245a	Apparition	lot sorts_objets_094
+sort	707434		ToolTip	aa404dcf18fc	Quand vous passez dessus, vous récupérez $712383s2% de vos points de vie manquants, réduisez de 1 sec le temps de recharge de |cffffffffSang animé|r et gagnez une charge d'|cffffffffIncantation sombre|r pendant $712383d, cumulable $712383u fois.	lot sorts_objets_094
+sort	707496		Name	3d2de73cd355	Tisseur de chair - Passif de niveau 15	lot sorts_objets_094
+sort	707579		Description	854c64fb9882	|cFF66DDFFPassif de niveau 20|r\r\n	lot sorts_objets_094
+sort	707579		Name	d68530cb2d82	Mécanique - Passif de niveau 20	lot sorts_objets_094
+sort	707666		Description	535800cae354	Votre $?s301302[|cFFFFFFFFGore-bouclier|r][|cffffffffFrappe infernale|r] invoque désormais un |cffffffffDiablotin des Flammes infernales|r pour vous aider au combat pendant $807699d, mais son coût en Rage est augmenté de $/10;706755s2.\r\n\r\nDe plus, les points de vie maximum de vos diablotins sont augmentés de $s1%.	lot sorts_objets_094
+sort	707666		ToolTip	e552f220880c	Augmente de ${$w1}% les points de vie maximum des diablotins.	lot sorts_objets_094
+sort	707667		Description	570656dbef86	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre pénétration des sorts de ${-($m1)}, en fonction de votre niveau.	lot sorts_objets_094
+sort	707667		Name	f07bb1fd3cad	Vent passager	lot sorts_objets_094
+sort	707776		Description	f193a3569633	|cFF66DDFFPassif de niveau 50|r\r\nAugmente votre valeur de blocage de $s1% de votre Intelligence.	lot sorts_objets_094
+sort	707776		Name	c1ceb18361e7	Miraculeux	lot sorts_objets_094
+sort	712289		Description	371f670ee67c	À 6 charges, l'ennemi affecté sera étourdi pendant $712319d.	lot sorts_objets_094
+sort	712289		Name	4d4c3672c977	Macrogravité	lot sorts_objets_094
+sort	712289		ToolTip	2f17d73ade9c	À 6 charges, vous serez étourdi pendant $712319d.	lot sorts_objets_094
+sort	712323		Description	6e948ee4f2c7	Votre prochain$?s705609[ 3][] |cffffffffLame runique$?s705609[s][]|r sur l'ennemi provoque une |cffffffffExplosion runique|r, infligeant ${$712324m1+$712324ppl1+$AP*0.185} points de dégâts de feu-sort supplémentaires aux ennemis proches.	lot sorts_objets_094
+sort	712323		ToolTip	d25e2e9a8115	Peut être consommé par Lame runique pour provoquer une explosion qui inflige des dégâts de feu-sort supplémentaires.	lot sorts_objets_094
+sort	712373		Description	aaff32c52254	Invoque pendant $d une |cffffffffProtection de la vipère|r puissante et à l'attaque rapide à l'endroit ciblé.\r\n\r\nLes |cffffffffProtections de la vipère|r ont $712374h% de chances de déchaîner une |cffffffffDéflagration de feu maudit|r, qui inflige ${$712415m1+$712415ppl1+$RAP*.15} points de dégâts de Feu à un ennemi.\r\n\r\nChances augmentées selon votre score de coup critique à distance.	lot sorts_objets_094
+sort	712373		Name	064a0838944d	Protection de la vipère	lot sorts_objets_094
+sort	712383		Description	1eceded3ccce	Gagner une charge réduit de 1 sec le temps de recharge de |cffffffffSang animé|r et fait que votre prochain |cffffffffSang animé|r invoque 1 ver de sang pour attaquer vos ennemis.	lot sorts_objets_094
+sort	712383		ToolTip	684a1f05551c	Chaque Orbe de sang récupéré vous permet d'invoquer 1 ver de sang à votre prochaine utilisation de Sang animé. Cumulable $u fois.	lot sorts_objets_094
+sort	712389		Description	65948a1187b9	|cffffffff2 charges, 45 sec de recharge|r\r\nPendant $d, vos tatouages runiques s'embrasent, augmentant de $s1% vos chances de déclencher vos |cFFFFFFFFGravures d'arme|r$?s705546[ et réduisant de $705546s1% tous les dégâts magiques que vous subissez][].	lot sorts_objets_094
+sort	712389		ToolTip	1c3ab0bd582d	Les gravures d'arme ont 100% de chances de se déclencher$?s705546[ et les dégâts subis sont réduits de $705546s1%][].	lot sorts_objets_094
+sort	712434		Description	faad9f1acf50	Augmente de $s1% les dégâts de votre prochain |cFFFFFFFFImpact glacial|r pendant $d, cumulable $u fois.\r\n\r\nÀ 10 charges, votre prochain |cFFFFFFFFImpact glacial|r est un coup critique et inflige 50% de dégâts supplémentaires.	lot sorts_objets_094
+sort	712434		ToolTip	99da9135b764	Augmente de ${$w1}% les dégâts de votre prochain |cFFFFFFFFImpact glacial|r pendant $d, cumulable $u fois.\r\n\r\nÀ 10 charges, votre prochain |cFFFFFFFFImpact glacial|r est un coup critique et inflige 50% de dégâts supplémentaires.	lot sorts_objets_094
+sort	712446		Description	e861bd69e223	|cFF66DDFFPassif de niveau 50|r\r\nLes dégâts infligés par |cffffffffBarrage de géodes|r ou par les |cffffffffGéodes|r ont désormais $h% de chances de vous octroyer |cfffffEarthen Avatar|r pendant 5 sec.	lot sorts_objets_094
+sort	712446		Name	474988159280	Roi de la montagne - Passif de niveau 50	lot sorts_objets_094
+sort	712446		ToolTip	b33957c696d3	Donne aux blocages réussis 50% de chances de lancer une géode sur l'attaquant, lui infligeant $804002s1 points de dégâts de Nature et générant $/10;804002s2 Rage.\n\nNe peut pas se produire plus d'une fois toutes les 5 sec.	lot sorts_objets_094
+sort	712465		Description	e861bd69e223	|cFF66DDFFPassif de niveau 50|r\r\nLes dégâts infligés par |cffffffffBarrage de géodes|r ou par les |cffffffffGéodes|r ont désormais $h% de chances de vous octroyer |cfffffEarthen Avatar|r pendant 5 sec.	lot sorts_objets_094
+sort	712465		Name	474988159280	Roi de la montagne - Passif de niveau 50	lot sorts_objets_094
+sort	712465		ToolTip	b33957c696d3	Donne aux blocages réussis 50% de chances de lancer une géode sur l'attaquant, lui infligeant $804002s1 points de dégâts de Nature et générant $/10;804002s2 Rage.\n\nNe peut pas se produire plus d'une fois toutes les 5 sec.	lot sorts_objets_094
+sort	712490		Description	6ad09e911a89	Le maître des runes inflige $s1% de dégâts de Givre supplémentaires par charge. Cumulable jusqu'à $u fois et dure $d.	lot sorts_objets_094
+sort	712490		Name	b0800cf5b1e9	Élan de glace	lot sorts_objets_094
+sort	712490		ToolTip	3c1a6c290897	Le maître des runes inflige $s1% de dégâts de Givre supplémentaires par charge.	lot sorts_objets_094
+sort	760198		Description	5192a298168a	Réduit de $s1% le temps d'incantation de votre prochain Éclair des Arcanes ou Feu stellaire.	lot sorts_objets_094
+sort	760198		Name	2066d5be5dcf	Lune décroissante	lot sorts_objets_094
+sort	760198		ToolTip	5192a298168a	Réduit de $s1% le temps d'incantation de votre prochain Éclair des Arcanes ou Feu stellaire.	lot sorts_objets_094
+sort	800014		Description	60e0cf9eecbb	Augmente de $s1% la hâte des sorts, cumulable $u fois.	lot sorts_objets_094
+sort	800014		Name	c1ed7af0a3d6	Tempête déchaînée	lot sorts_objets_094
+sort	800038		Description	7559efd93c00	Toutes les $/1000;800054t1 sec, vous irradiez de lumière, rendant ${$800038m1+$800038ppl1+$SP*0.2+$AP*0.1} points de vie aux alliés proches et infligeant ${$800038m2+$800038ppl2+$SP*0.4+$AP*0.15} points de dégâts aux ennemis proches.	lot sorts_objets_094
+sort	800157		Description	812ba9dd84c8	Embrassez votre malédiction éternelle et adoptez une |cffa966f0Forme maudite|r : vos dégâts infligés sont réduits de $807736s1% et votre menace générée augmentée de $807736s2%, plus $807736s3% supplémentaires sur les dégâts des sorts qui coûtent des points de vie.\r\n\r\nTant qu'elle est active, l'armure apportée par vos objets est augmentée de $804320s1% et votre Endurance totale de $s1%.\r\n\r\n@ext:While in a |cffa966f0Cursed Form|r you are treated as if you were a Demon.:ext@	lot sorts_objets_094
+sort	800157		ToolTip	c64317165075	Forme maudite. Menace considérablement augmentée.\r\n\r\nL'armure apportée par vos objets est augmentée de $804320s1% et votre Endurance totale de ${$w1}%.	lot sorts_objets_094
+sort	800239		Description	7615f3dea1fe	Rend $s2 Énergie et augmente vos chances de coup critique de $s1% pendant $d.	lot sorts_objets_094
+sort	800239		Name	5d78fb704f2b	Fragment de malveillance	lot sorts_objets_094
+sort	800239		ToolTip	09305360860e	Chances de coup critique augmentées de ${$w1}%. \n\nCumulable 8 fois.	lot sorts_objets_094
+sort	800244		Description	d751a7cab6cb	Augmente de $s1% les dégâts des membres du groupe situés à moins de $a1 mètres, permet à vos aptitudes de mêlée de frapper $s2 ennemis en balayage, et vous pouvez utiliser |cffffffffFlanc|r comme si vous étiez sous |cffffffffEsquive|r.\r\n\r\nUtiliser une attaque à distance met fin à cet effet.	lot sorts_objets_094
+sort	800244		Name	67c663bdaefa	Lame du arpenteur	lot sorts_objets_094
+sort	800244		ToolTip	9e97d813bc5e	Augmente les dégâts physiques infligés. $?s800243[Permet à vos aptitudes de mêlée de frapper ${$w2} ennemis en balayage et d'utiliser Flanc.\n\nUtiliser une attaque à distance met fin à cet effet.][]	lot sorts_objets_094
+sort	800245		Description	f65e805478ce	Votre prochain |cffffffffCoup de fouet|r vous octroie |cffffffffLame de l'arpenteur|r, cumulable $u fois. Chaque charge augmente de $s3% les dégâts octroyés par |cffffffffLame de l'arpenteur|r et de $/1000;s2 sec sa durée.	lot sorts_objets_094
+sort	800245		Name	b62f17728fe2	Tacticien	lot sorts_objets_094
+sort	800245		ToolTip	78da55df324a	Votre prochain |cffffffffCoup de fouet|r vous octroiera |cffffffffLame de l'arpenteur|r. Les dégâts de |cffffffffLame de l'arpenteur|r augmentent avec les charges de cet effet, cumulable $u fois.	lot sorts_objets_094
+sort	800341		Description	ea008b1b605f	Saigne et subit ${$m1+($PL-6)*0.2+$AP*0.09} points de dégâts toutes les $t1 sec pendant $d.	lot sorts_objets_094
+sort	800341		ToolTip	e9ea50cdd1a9	Saigne et subit ${$m1+$AP*0.03} points de dégâts toutes les $t1 sec.	lot sorts_objets_094
+sort	800393		Name	97be80c2ac21	Pleine lune	lot sorts_objets_094
+sort	800393		ToolTip	00ee40b05774	Chances de coup critique augmentées de ${$w2}%.\n\nQuand cet effet prend fin, vous entrez dans la phase de Nouvelle lune.	lot sorts_objets_094
+sort	800394		Description	c1968c5a1728	Les dégâts infligés ont $h% de chances d'appliquer des |cff66ccffÉtoiles éparpillées|r.	lot sorts_objets_094
+sort	800394		ToolTip	e83d0f82fe9a	$h% de chances supplémentaires d'appliquer des Étoiles éparpillées quand vous infligez des dégâts.\r\n\r\nQuand cette phase prend fin, vous entrez dans la phase de Pleine lune.	lot sorts_objets_094
+sort	800601		Description	3db8783c28ce	Réduit de $s1% le temps d'incantation et le coût en mana de votre prochain |cffffffffÉclat|r pendant $d, cumulable $u fois.	lot sorts_objets_094
+sort	800601		ToolTip	476102af5998	Réduit de ${$w1}% le temps d'incantation et le coût en mana de votre prochain |cffffffffÉclat|r. Cumulable $u fois.	lot sorts_objets_094
+sort	800671		Description	f1e26f2c972e	Inflige ${$m1+0} points de dégâts des Arcanes à $i ennemis proches maximum et rend $s2% des points de vie du familier runique.	lot sorts_objets_094
+sort	800671		Name	125323b7ade3	Impulsion runique	lot sorts_objets_094
+sort	800703		Description	471c612c5205	Vitesse de déplacement augmentée et temps de recharge global réduit de $s1%. Dégâts physiques et chances de coup critique augmentés de $s3%, cumulable $u fois. Dure $d.	lot sorts_objets_094
+sort	800703		ToolTip	e9d132fbb521	Vitesse de déplacement augmentée et temps de recharge global réduit de ${$w1}%. Dégâts physiques augmentés de ${$w2}% et chances de coup critique augmentées de ${$w3}%. Cumulable $u fois.	lot sorts_objets_094
+sort	800722		Description	eddbe0a4785c	Votre prochaine |cffffffffIllumination|r dans les $d est instantanée et ne coûte rien.	lot sorts_objets_094
+sort	800722		ToolTip	8e2ac896c709	La prochaine |cffffffffIllumination|r est instantanée et ne coûte rien.	lot sorts_objets_094
+sort	800738		Description	15371fcbb2d7	Augmente de $s2% les chances de coup critique des sorts et la hâte des sorts.	lot sorts_objets_094
+sort	800738		Name	4cd5f8c3a68b	Impact cosmique	lot sorts_objets_094
+sort	800738		ToolTip	8d4d93d45791	Chances de coup critique des sorts augmentées de ${$w1}%. Hâte des sorts augmentée de ${$w2}%.	lot sorts_objets_094
+sort	800786		ToolTip	a8e1b4a756a3	Soins prodigués augmentés de ${$w1}%. Rend ${$w2} points de vie toutes les $t2 sec.	lot sorts_objets_094
+sort	805794		Rank	2747aac69844	Sort	lot sorts_objets_094
+sort	806410		ToolTip	f3f00a810bf1	Chances de coup critique augmentées de ${$w1}%. Cumulable $u fois.	lot sorts_objets_094
+sort	807495		Description	854c64fb9882	|cFF66DDFFPassif de niveau 20|r\r\n	lot sorts_objets_094

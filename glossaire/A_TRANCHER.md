@@ -192,3 +192,14 @@ Déjà tranchés et appliqués par les agents : *Static* = Statique, *Felfury* =
 | A. Valider les pistes ci-dessus (ou les corriger terme par terme) | Les agents les emploient tout de suite ; une correction sûre remplace l'anglais déjà laissé |
 | B. Garder ces termes en anglais, comme Worldforged | Rien à faire |
 
+## 21. Difficulté de raid « Ascended » (hauts faits, interface ; 08/11/2026)
+
+CoA a une difficulté de raid « Ascended » (« Ascended (10-25 Players) », « Nightmare Mode Ascended: Moam (10 Player) »,
+objets « Ascended »). Nos textes la rendent tantôt « Ascended » (la plupart), tantôt « Élu » (`GENERIC_DIFFICULTY4`, à revoir).
+En attendant, la retraduction des hauts faits (0.9.4) la garde en anglais.
+
+| Option | |
+|---|---|
+| A. Garder « Ascended », comme Worldforged ou Hardcore | Rien à faire ; « Élu » repasse à « Ascended » |
+| B. « Élevé » / « Élu » / autre traduction | Une règle remplace partout |
+

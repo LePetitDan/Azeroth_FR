@@ -1,0 +1,60 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	81162		Description	e767806532be	Infliger des dégâts avec Brûlure de l'ombre consomme toutes vos charges d'Énergie d'âme pour soigner les membres du groupe proches et augmente de 2% vos soins prodigués pour chaque charge d'Énergie d'âme consommée. Cet effet dure $d.\n\nDe plus, le temps de recharge de votre Brûlure de l'ombre est réduit de 0.5 sec par charge d'Énergie d'âme.	lot sorts_objets_077
+sort	81162		Name	1425c0250953	Énergie d'âme	lot sorts_objets_077
+sort	81162		ToolTip	96337016fc63	Énergie d'âme absorbée.	lot sorts_objets_077
+sort	81167		Description	b15e15763727	Augmente de $s1 mètres la portée de votre Visée et de votre Tir mortel, et augmente leurs dégâts infligés de $s2%. Se déplacer supprime les charges. Cumulable jusqu'à $u fois.	lot sorts_objets_077
+sort	81167		ToolTip	01bf6e1a2bd3	Augmente de $s1 mètres la portée de votre Visée et de votre Tir mortel, et augmente leurs dégâts infligés de $s2%. Se déplacer supprime les charges.	lot sorts_objets_077
+sort	81191		Description	d6642b2e4eaa	Provoque une explosion de lumière sacrée autour du lanceur, infligeant $15237s1 points de dégâts du Sacré aux ennemis se trouvant à moins de $15237a1 mètres et rendant $23455s1 points de vie à 10 membres du groupe ou du raid au maximum se trouvant à moins de $23455a1 mètres. Dissipe aussi un effet négatif et applique |cFFFFFFFFSupernova Salvation|r aux cibles soignées.\n\n@ext: Deals 30% reduced damage to players. These effects cause no threat.:ext@	lot sorts_objets_077
+sort	81226		Description	d054c76b8542	Brûle l'ennemi et lui inflige $s1 points de dégâts de Feu. 	lot sorts_objets_077
+sort	81226		Name	d3db51672242	Brûlure (Terre brûlée)	lot sorts_objets_077
+sort	81236		Name	ed22c3a20ded	Douleur brûlante (Douleur périlleuse)	lot sorts_objets_077
+sort	81249		Description	b6c4166cd5c1	Invoque $s1 fongaires qui attaquent les cibles ennemies pendant $d. Partage un temps de recharge avec les autres sorts de Force de la nature. Les fongaires étouffent les ennemis proches avec un Nuage de pourriture.\r\n@s:81413:0@	lot sorts_objets_077
+sort	81249		Name	c5e682ba08cf	Force de la nature (Appel des fongaires)	lot sorts_objets_077
+sort	81252		Description	7b2a14672758	Réduit de $s1% le temps d'incantation de vos aptitudes Pénitence, Flammes sacrées, Exorcisme et Châtiment. Cumulable jusqu'à 5 fois et dure 6 secondes. 	lot sorts_objets_077
+sort	81252		ToolTip	e496a4fb764b	Réduit de $s1% le temps d'incantation de vos aptitudes Pénitence, Flammes sacrées, Exorcisme et Châtiment.	lot sorts_objets_077
+sort	81254		Description	60209b09a36f	Régénération de mana augmentée de $s1 (selon votre niveau actuel) et régénération de mana pendant l'incantation augmentée de $s2%.	lot sorts_objets_077
+sort	81254		ToolTip	4fc72f4cd280	Régénération de mana augmentée de $s1 et régénération de mana pendant l'incantation augmentée de $s2%.	lot sorts_objets_077
+sort	81257		Description	1166a5361aa5	Lance instantanément les deux armes sur toutes les cibles se trouvant à moins de $a1 mètres, infligeant ${$PL+10*1.5}% des dégâts de l'arme avec les dagues et ${$PL+10} points de dégâts d'arme avec toutes les autres armes.	lot sorts_objets_077
+sort	81274		Description	e46397eccd82	Votre prochaine attaque à distance critique consomme une charge et ralentit votre cible de $81275s1% pendant $81275d secondes. Cumulable jusqu'à $u fois et dure $d.	lot sorts_objets_077
+sort	81274		ToolTip	c20abe48acb2	Votre prochaine attaque à distance critique ralentit votre cible de $81275s1% pendant $81275d secondes.	lot sorts_objets_077
+sort	81277		Description	105565df1ab0	Votre prochaine aptitude à distance critique inflige des dégâts de Feu toutes les $81278t1 secondes pendant $81278d. Cumulable jusqu'à $u fois et dure $d.	lot sorts_objets_077
+sort	81277		ToolTip	30bfbcf1eb3b	Votre prochaine aptitude à distance critique inflige des dégâts de Feu toutes les $81278t1 secondes pendant $81278d.	lot sorts_objets_077
+sort	81288		Description	d7711f2077a6	Frappe l'ennemi de terreur, le faisant fuir de peur pendant $d au maximum sur les monstres et 6 sec au maximum sur les joueurs, et secoue les ennemis proches toutes les $t3 sec. Les dégâts subis peuvent interrompre l'effet. Seule 1 cible peut être apeurée à la fois.	lot sorts_objets_077
+sort	81288		Name	61dcb454674a	Peur (Hystérie collective)	lot sorts_objets_077
+sort	81291		Description	03729a84db0e	Secoué : caractéristiques réduites de $s3% et vitesse de déplacement réduite de $s2%.	lot sorts_objets_077
+sort	81291		Name	9920e0af24a0	Secoué	lot sorts_objets_077
+sort	81291		ToolTip	03729a84db0e	Secoué : caractéristiques réduites de $s3% et vitesse de déplacement réduite de $s2%.	lot sorts_objets_077
+sort	81293		Description	544cc081d2e3	Augmente de $s1% les dégâts de vos tirs de chasseur. Dure $d.	lot sorts_objets_077
+sort	81293		Name	8c9c6aa4b2ea	Ne faire qu'un avec la chasse (Tirs de chasseur)	lot sorts_objets_077
+sort	81293		ToolTip	dfa49b6a23de	Augmente de $s1% les dégâts de vos tirs de chasseur.	lot sorts_objets_077
+sort	81294		Description	34cfdcd427d0	Augmente de $s1% les dégâts de votre prochaine Mutilation. Dure $d.	lot sorts_objets_077
+sort	81294		Name	17452df174f9	Ne faire qu'un avec la chasse (Mutilation)	lot sorts_objets_077
+sort	81294		ToolTip	1cf2828f23fd	Augmente de $s1% les dégâts de votre prochaine Mutilation.	lot sorts_objets_077
+sort	81314		Description	d19785c96aab	Le temps d'incantation de votre prochaine Brûlure de mana est réduit de $s1%. Dure $d.	lot sorts_objets_077
+sort	81314		ToolTip	81518da58e77	Le temps d'incantation de votre prochaine Brûlure de mana est réduit de $s1%.	lot sorts_objets_077
+sort	81328		Description	5374bf70b71c	Des éclats de glace s'abattent sur la zone ciblée et infligent ${$m2*8*$<mult>} points de dégâts de Givre en $d. Inflige 10% de dégâts en moins aux joueurs.	lot sorts_objets_077
+sort	81328		Name	a45bff103df4	Blizzard (Tempête de grêle)	lot sorts_objets_077
+sort	81328		ToolTip	658bde93ca8f	$s2 points de dégâts de Givre toutes les $t2 $lseconde:secondes;.	lot sorts_objets_077
+sort	81338		Description	70c922255a74	Tire continuellement une volée de projectiles sur la zone ciblée, infligeant ${$RAP*0.1+$m2} points de dégâts des Arcanes aux ennemis se trouvant à moins de $a1 mètres toutes les ${$d/3}.2 $Lseconde:secondes; pendant $d.	lot sorts_objets_077
+sort	81338		Name	2e6454f6a687	Volée de flèches (Pluie de flèches)	lot sorts_objets_077
+sort	81345		Description	1c69d3e1f205	Fait tomber une pluie ardente qui brûle les ennemis dans la zone d'effet et leur inflige ${$m2*4} points de dégâts de Feu en $d.	lot sorts_objets_077
+sort	81345		Name	a05a6cd9a234	Pluie de feu (Tempête de feu)	lot sorts_objets_077
+sort	81345		ToolTip	c3159b800ad9	$s2 points de dégâts de Feu toutes les $t2 secondes.	lot sorts_objets_077
+sort	81353		Description	7e6360153797	Vous transfère $s1 points de vie toutes les $t1 sec. depuis 5 cibles au maximum dans un cône devant vous. Dure $d.	lot sorts_objets_077
+sort	81353		Name	ddef30df8abc	Drain de vie (Drain de vie sans limite)	lot sorts_objets_077
+sort	81364		Description	d135c3e0a99d	Draine l'âme de la cible et de 4 ennemis supplémentaires au maximum se trouvant à moins de 20 mètres, infligeant $o2 points de dégâts d'Ombre en $d.  Si la cible a 25% de ses points de vie ou moins, Drain d'âme inflige quatre fois les dégâts normaux. Inflige 5% de dégâts en moins aux joueurs.	lot sorts_objets_077
+sort	81364		Name	4b0350f04967	Drain d'âme (Drain d'âme sans limite)	lot sorts_objets_077
+sort	81371		Description	b37932a1f71e	Assaille l'esprit de la cible avec de l'énergie d'Ombre, infligeant ${$m3*3} points de dégâts d'Ombre en $d et ralentissant sa vitesse de déplacement de $s2%.	lot sorts_objets_077
+sort	81371		Name	4c266ec0bb23	Fouet mental (Fouet mental sans limite)	lot sorts_objets_077
+sort	81371		ToolTip	883d852a752a	Vitesse de déplacement ralentie.	lot sorts_objets_077
+sort	81383		Name	6b02bcb37e2f	Drain de mana (Drain de mana sans limite)	lot sorts_objets_077
+sort	81384		Description	e446ac1fbb15	Inflige ${1+0.25*$AP} points de dégâts du Sacré. Cette aptitude ne déclenche pas de temps de recharge global. 	lot sorts_objets_077
+sort	81384		Name	9a5dd38787d3	Main de la vindicte (Poing de la vindicte)	lot sorts_objets_077
+sort	81390		Description	c96466285614	Augmente de $s1% les dégâts de votre Feu stellaire et de $s2% ceux de votre Eclat lunaire. Cumulable jusqu'à $u fois et dure $d. 	lot sorts_objets_077
+sort	81390		ToolTip	5281f4bcac43	Augmente de $s1% les dégâts de votre Feu stellaire et de $s2% ceux de votre Eclat lunaire.\n	lot sorts_objets_077
+sort	81401		Description	299b46c3dd83	Les dégâts subis de la part du lanceur et les chances de coup critique sont augmentés de $s2%, et tous les dégâts physiques subis sont augmentés de ${($PL*0.5+$m1)}. Dure $d.	lot sorts_objets_077
+sort	81401		ToolTip	3f7d5a373aa3	Les dégâts subis de la part du lanceur et les chances de coup critique sont augmentés de $s2%, et tous les dégâts physiques subis sont augmentés de ${($PL*0.5+$m1)}.	lot sorts_objets_077
+sort	81413		Description	48ede73a26fa	Inflige ${($PL*2.1875+$m1)+($SP*0.035)+($AP*0.02275)} points de dégâts de Nature aux ennemis proches toutes les $t1 sec. pendant $281618d.	lot sorts_objets_077
+sort	81413		Name	184e15371276	Nuage de pourriture	lot sorts_objets_077
+sort	81449		Description	0ec5951e4de4	Vous tirez une charge explosive sur la zone ciblée, infligeant de ${$RAP*0.1+$m1} à ${$RAP*0.1+$M1} points de dégâts de Feu aux ennemis qui s'y trouvent. La charge explose sur la cible toutes les secondes pour $d de plus.\r\n\r\nAugmente de $s2% les dégâts subis par les sorts Tir explosif, Piège d'immolation et Piège explosif du lanceur.	lot sorts_objets_077
+sort	81449		Name	649eba318344	Tir explosif (Visé)	lot sorts_objets_077

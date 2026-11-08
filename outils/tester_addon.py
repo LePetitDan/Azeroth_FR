@@ -996,7 +996,65 @@ def choisir_cas():
                 'textes': textes, 'attendus': [F.squelette(t) for t in textes]})
     cas += cas_essai4(globales, g_obj, cr, obj)
     cas += cas_09(globales)
+    cas += cas_094()
     return cas, globales, injections
+
+
+def cas_094():
+    """0.9.4 (essai 8, captures du 08/11) : arrêt du serveur dans la discussion, calendrier (« X : fin »), fenêtre du
+    personnage de CoA (compétences et catégories), sort cité sous un sort (balise @s)."""
+    cas = []
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM',
+                'nom': 'essai 8 n° 29 : « [SERVER] Restart in 14 Minute(s). »',
+                'message': '[SERVER] Restart in 14 Minute(s).', 'attendu': '[SERVEUR] Redémarrage dans 14 minute(s).'})
+    inter = {l[K.I_ID]: l for l in lire('client/interface.tsv')}
+    fete = next((l for l in lire('client/noms_client.tsv') if l[K.I_TYPE] == 'fete' and l[K.I_EN] == 'Darkmoon Faire'
+                 and passe(l)), None)
+    g = fr_interface(inter.get('CALENDAR_EVENTNAME_FORMAT_END'))
+    if fete and g and '%s' in g:
+        cas.append({'quoi': 'client_fenetre', 'nom': 'essai 8 n° 25 : calendrier « %s »' % (g % fete[K.I_EN]),
+                    'cadre': 'CalendarFrame', 'domaines': ['fete', 'zone', 'donjon'], 'anglais': g % fete[K.I_EN],
+                    'attendu': g % fete[K.I_FR]})
+        gen = inter['CALENDAR_EVENTNAME_FORMAT_END'][K.I_EN]
+        cas.append({'quoi': 'client_fenetre', 'nom': 'essai 8 n° 25 : calendrier, forme anglaise « %s »' % (gen % fete[K.I_EN]),
+                    'cadre': 'CalendarFrame', 'domaines': ['fete', 'zone', 'donjon'], 'anglais': gen % fete[K.I_EN],
+                    'attendu': g % fete[K.I_FR]})
+    comp = {(l[K.I_TYPE], l[K.I_EN]): l for l in lire('client/competences.tsv') if passe(l) and l[K.I_FR] != l[K.I_EN]}
+    for typ, en in (('competence', 'Daggers'), ('categorie_competence', 'Class Skills'),
+                    ('categorie_competence', 'Weapon Skills')):
+        l = comp.get((typ, en))
+        if l:
+            cas.append({'quoi': 'client_fenetre', 'nom': 'essai 8 n° 23 : fenêtre du personnage de CoA, « %s »' % en,
+                        'cadre': 'AscensionSkillsPanel', 'domaines': ['competence'], 'anglais': en,
+                        'attendu': l[K.I_FR]})
+    # sort cité : un sort dont la description finit par UNE balise @s, le sort cité ayant nom et description simples
+    sl = {}
+    for rel in ('client/sorts_classes.tsv', 'client/sorts_objets.tsv', 'client/talents.tsv', 'client/sorts_coa.tsv'):
+        for x in lire(rel):
+            if x[K.I_TYPE] == 'sort' and x[K.I_CHAMP] in ('Name', 'Description'):
+                sl.setdefault(x[K.I_ID], {})[x[K.I_CHAMP]] = x
+    for i, d in sorted(sl.items(), key=lambda x: int(x[0])):
+        n_, de = d.get('Name'), d.get('Description')
+        if not (n_ and de and passe(n_) and passe(de)):
+            continue
+        m = re.fullmatch(r'([^@${]{20,300})@s:(\d+):0@', de[K.I_EN])
+        if not m or not de[K.I_FR].endswith('@s:%s:0@' % m.group(2)):
+            continue
+        c = sl.get(m.group(2), {})
+        cn, cd = c.get('Name'), c.get('Description')
+        if not (cn and cd and passe(cn) and passe(cd)) or cn[K.I_FR] == cn[K.I_EN] or '@' in cd[K.I_EN]:
+            continue
+        if '{' in cd[K.I_EN] or ('$' in cd[K.I_EN] and not modele_simple(cd[K.I_EN])) or '|' in cn[K.I_EN]:
+            continue
+        sep = '|TInterface\\Common\\ui-tooltipdivider:12:180:0:0|t\n|TInterface\\icons\\banc:20:20:0:0|t |cffFFFFFF'
+        bloc_en = sep + cn[K.I_EN] + '|r\n' + remplir(cd[K.I_EN]).replace('\r\n', '\n')
+        bloc_fr = sep + cn[K.I_FR] + '|r\n' + remplir(cd[K.I_FR], True)
+        cas.append({'quoi': 'sort_bulle', 'nom': '0.9.4 : sort %s, sort cité n° %s inséré sous la description (@s)'
+                    % (i, m.group(2)), 'id': int(i), 'anglais': n_[K.I_EN],
+                    'lignes': [n_[K.I_EN], m.group(1), bloc_en], 'attendu': n_[K.I_FR], 'ligne_description': 3,
+                    'description_attendue': bloc_fr})
+        break
+    return cas
 
 
 def cas_09(globales):
@@ -1139,6 +1197,13 @@ def cas_09(globales):
         att = re.sub(r'^[\r\n]+', '', att).strip()
         cas.append({'quoi': 'annexe', 'nom': 'annexe des mots-clés : description du mot-clé %s' % ak[K.I_ID],
                     'anglais': ak[K.I_EN], 'attendu': att})
+    # 0.9.4 (essai 8, n° 24) : mot-clé dont la description a des « \r\n », reçus du client comme « \n »
+    ak2 = next((x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel_mot_cle' and x[K.I_CHAMP] == 'description' and unique(x)
+                and '$' not in x[K.I_EN] and '\r\n' in x[K.I_EN] and '{' not in x[K.I_EN]), None)
+    if ak2:
+        att = re.sub(r'^[\r\n]+', '', ak2[K.I_FR]).strip()
+        cas.append({'quoi': 'annexe', 'nom': 'essai 8 n° 24 : mot-clé %s, retours à la ligne reçus sans « \\r »' % ak2[K.I_ID],
+                    'anglais': ak2[K.I_EN].replace('\r\n', '\n').strip(), 'attendu': att})
     # essai 8 : liste des tutoriels à suivre pour devenir mentor (une zone, plusieurs lignes)
     tl = [x for x in lignes if x[K.I_TYPE] == 'coa_tutoriel' and x[K.I_CHAMP] == 'title' and unique(x)
           and '\n' not in x[K.I_EN]][:3]
@@ -1304,6 +1369,55 @@ def tester_ptrxml(lua, out):
     r = subprocess.run([lua, p], capture_output=True, text=True)
     ok = r.returncode == 0
     out.append(('OK  ' if ok else 'KO  ') + 'paquet PTRXML : 3 clés remplacées, 1 clé au texte différent gardée, le reste ignoré'
+               + ('' if ok else '\n' + r.stderr))
+    out.append(r.stdout.strip())
+    return ok
+
+
+def tester_selection_personnage(lua, out):
+    """0.9.4 (essai 8, demande de Dan) : écran de SÉLECTION des personnages, avant le jeu : le vrai
+    AzerothFR_Interface.lua, dans un faux environnement d'avant-jeu (GetNumCharacters, pas de UnitName), une carte de
+    personnage comme celle de CharacterSelect.lua de CoA ; classe (selon le sexe) et zone en français."""
+    script = r"""
+GetNumCharacters = function() return 2 end
+UnitName = nil
+local function Zone(t) return { t = t, GetText = function(self) return self.t end, SetText = function(self, x) self.t = x end } end
+local surMaj
+CreateFrame = function() return { SetScript = function(self, k, f) if k == "OnUpdate" then surMaj = f end end,
+    CreateFontString = function() return Zone("") end } end
+local cartes = {
+    { index = 1, IsShown = function() return true end,
+      Content = { Info = Zone("|cff0070deStormbringer|r niveau 10"), Location = Zone("Elwynn Forest") } },
+    { index = 2, IsShown = function() return true end,
+      Content = { Info = Zone("|cffa330c9Witch Doctor|r niveau 12"), Location = Zone("Zone Inconnue Du Banc") } } }
+local liste = { GetChildren = function() return unpack(cartes) end, IsShown = function() return true end }
+CharacterSelect = { IsShown = function() return true end, viewingInactiveList = false }
+CharacterSelectCharacterFrame = { List = liste }
+GetCharIDFromIndex = function(i) return i end
+GetCharacterInfo = function(i)
+    if i == 1 then return "Nom", "Human", "Stormbringer", 10, "Elwynn Forest", 2 end
+    return "Nom", "Troll", "Witch Doctor", 12, "Zone Inconnue Du Banc", 3
+end
+dofile(%s)
+assert(surMaj, "pas de relecture de l'avant-jeu")
+surMaj({ SetScript = function() end }, 0.3)
+print("carte 1 : " .. cartes[1].Content.Info:GetText() .. " / " .. cartes[1].Content.Location:GetText())
+print("carte 2 : " .. cartes[2].Content.Info:GetText() .. " / " .. cartes[2].Content.Location:GetText())
+assert(cartes[1].Content.Info:GetText() == %s, "classe (homme) non traduite")
+assert(cartes[1].Content.Location:GetText() == %s, "zone non traduite")
+assert(cartes[2].Content.Info:GetText() == %s, "classe (femme) non traduite")
+assert(cartes[2].Content.Location:GetText() == "Zone Inconnue Du Banc", "zone inconnue changée")
+assert(not AzerothFR_Interface.erreur_creation, tostring(AzerothFR_Interface.erreur_creation))
+""" % (F.lua_chaine(os.path.join(DIST, 'PTRXML', 'AzerothFR_Interface.lua')).decode('utf-8'),
+       F.lua_chaine('|cff0070dePorte-tempête|r niveau 10').decode('utf-8'),
+       F.lua_chaine("Forêt d'Elwynn").decode('utf-8'),
+       F.lua_chaine('|cffa330c9Féticheuse|r niveau 12').decode('utf-8'))
+    p = os.path.join(TRAVAIL, 'banc_selection.lua')
+    with open(p, 'w', encoding='utf-8') as f:
+        f.write(script)
+    r = subprocess.run([lua, p], capture_output=True, text=True)
+    ok = r.returncode == 0
+    out.append(('OK  ' if ok else 'KO  ') + 'écran de sélection des personnages : classe (Porte-tempête, Féticheuse) et zone'
                + ('' if ok else '\n' + r.stderr))
     out.append(r.stdout.strip())
     return ok
@@ -1588,6 +1702,7 @@ def main():
         sortie.append('ERREURS LUA :\n' + r.stderr)
     ok = r.returncode == 0
     ok = tester_ptrxml(lua, sortie) and ok
+    ok = tester_selection_personnage(lua, sortie) and ok
     ok = tester_creation(lua, sortie) and ok
     ok = tester_journal_combat(lua, sortie) and ok
     for n in NOTES:

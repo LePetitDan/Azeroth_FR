@@ -1,0 +1,61 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	954675		Description	874b42bae490	Votre prochain Conflagration ne consomme pas Immolation. Dure 10 sec.	lot sorts_objets_101
+sort	954675		ToolTip	3d08243af9d1	Votre prochain Conflagration ne consomme pas Immolation.	lot sorts_objets_101
+sort	954715		Description	1da670983720	Augmente de $s1% les dégâts subis par vos sorts et aptitudes de Feu. Cumulable jusqu'à $u fois. Dure $d.	lot sorts_objets_101
+sort	954715		Name	932ccb39af2f	Ça chauffe !	lot sorts_objets_101
+sort	954715		ToolTip	4e52937cf18b	Dégâts subis par vos sorts et aptitudes de Feu augmentés de $s1%. Cumulable jusqu'à $u fois. 	lot sorts_objets_101
+sort	965246		Description	13f7bd57498f	Dégâts des sorts infligés, hâte des sorts et chances de coup critique des sorts augmentés de $s1% et coûts en mana réduits de $944805s1%. Dure $d.	lot sorts_objets_101
+sort	965246		Name	0820c28a7212	Distorsion temporelle	lot sorts_objets_101
+sort	965246		ToolTip	406b9fbbac12	Dégâts des sorts infligés, hâte des sorts et chances de coup critique des sorts augmentés de $s1% et coûts en mana réduits de $944805s1%.	lot sorts_objets_101
+sort	965272		Description	b090e46abf74	Embrase la zone qui vous entoure et inflige des dégâts de Feu à tous les ennemis proches toutes les $t1 sec. Dure $d. Génère un niveau élevé de menace.	lot sorts_objets_101
+sort	965272		Name	730de7324420	Aura de flammes	lot sorts_objets_101
+sort	965289		Description	21068a2c7c1f	@unlockby:19574@\nPlonge votre familier dans une rage qui augmente ses dégâts de $s2% pendant $d, et de $983874s3% supplémentaires avec les attaques spéciales ; réduit de $s3% toute la menace générée par votre familier.\n\r\n@req:834692@\r\nPousse votre familier à déchiqueter les ennemis situés à moins de $984818a1 mètres, augmentant de $984818s2% les dégâts qu'ils subissent de sa part, infligeant des dégâts physiques et des dégâts supplémentaires sur la durée pendant $984818d.\n\n@ext:Unrelenting Wrath will trigger La Bête Intérieure if the last rank is known, but it will not make you immune to crowd-control effects.:ext@	lot sorts_objets_101
+sort	965298		Description	4e00dde716c7	Rend $<total> points de vie à la cible en $d. Cumulable jusqu'à $u fois.	lot sorts_objets_101
+sort	965298		ToolTip	fd741b252d89	Rend $s1 points de vie toutes les $t1 sec.	lot sorts_objets_101
+sort	965306		Description	c5262f680cac	Votre prochain Horion de terre infligera $s1%@ext:($s2% to players):ext@ de dégâts supplémentaires et ses dégâts critiques seront augmentés de $s3%. Cumulable jusqu'à $u fois. Dure 15 sec. 	lot sorts_objets_101
+sort	965306		ToolTip	653491c9ac1c	Votre prochain Horion de terre infligera $s1% de dégâts supplémentaires et ses dégâts critiques seront augmentés de $s3%.	lot sorts_objets_101
+sort	965308		Description	74758392c761	Laisse une nappe de feu sur le sol, qui brûle tous les ennemis dans la zone et leur inflige $s1 points de dégâts de Feu, puis $o2 points de dégâts de Feu supplémentaires en $d.\nCet effet évolue avec votre aptitude Nova de feu.	lot sorts_objets_101
+sort	965308		ToolTip	11ef953516d1	$s2 points de dégâts de Feu par seconde.	lot sorts_objets_101
+sort	965312		Description	bf24a15a2692	Augmente de $s1% les dégâts subis de votre Malédiction d'agonie et de votre Malédiction funeste. Cumulable jusqu'à $u fois. Dure $d.\r\n\r\n@ext:$s2% increased damage versus players.:ext@	lot sorts_objets_101
+sort	965312		Name	2a0f5580ea08	Agonie sans fin	lot sorts_objets_101
+sort	965312		ToolTip	390fca791ddc	Augmente de $s1% les dégâts subis de votre Malédiction d'agonie et de votre Malédiction funeste.	lot sorts_objets_101
+sort	965314		Description	4e497206fe42	Dégâts augmentés de $s1%. Rend $s2 points de mana toutes les 5 sec. Dure 30 sec. 	lot sorts_objets_101
+sort	965314		ToolTip	acef13a3598e	Dégâts augmentés de $s1%. Rend $s2 points de mana toutes les 5 sec.	lot sorts_objets_101
+sort	965318		Description	2e360b0e2fdd	Hâte en mêlée augmentée de $s1%. Cumulable jusqu'à $u fois. Dure $d.	lot sorts_objets_101
+sort	965318		ToolTip	be3b14577610	Hâte en mêlée augmentée de $s1%.	lot sorts_objets_101
+sort	965330		Description	3a974bf1124e	Augmente de $s1% les dégâts du Sacré que vous infligez à la cible. Dure $d.	lot sorts_objets_101
+sort	965330		Name	a6eec926e556	Fléau des impies	lot sorts_objets_101
+sort	965330		ToolTip	03cb3cdf3447	Dégâts du Sacré subis augmentés de $s1%.	lot sorts_objets_101
+sort	965408		Description	d56d5ca23622	Appliqué lorsque vous infligez des dégâts avec |cFFFFFFFFMorsure de la mangouste|r, |cFFFFFFFFContre-attaque|r ou |cFFFFFFFFLame sauvage|r.\r\n\r\nFait saigner la cible pour ${$ppl2+($SP+$RAP)*0.034} points de dégâts toutes les $t2 sec. et augmente de $s1% les dégâts de votre |cFFFFFFFFFrappe du raptor|r et de votre |cFFFFFFFFLame sauvage|r. Cumulable jusqu'à 5 fois. Dure $d.\r\n\r\n@ext:This ability can critically strike against creatures, but not against players.:ext@	lot sorts_objets_101
+sort	965408		ToolTip	318f0552de3f	Saigne toutes les 2 sec.\r\nAugmente de $s1% les dégâts subis de votre Frappe du raptor, de votre Lancer de glaive et de votre Lame sauvage.	lot sorts_objets_101
+sort	965423		Description	04b7416ec300	Augmente de $s1% les soins de votre prochaine Pénitence. Chaque projectile de soins de la Pénitence soigne aussi 5 alliés proches à moins de 8 mètres et réduit de 1 seconde le temps de recharge de Pénitence (maximum 3 secondes).	lot sorts_objets_101
+sort	965423		ToolTip	04b7416ec300	Augmente de $s1% les soins de votre prochaine Pénitence. Chaque projectile de soins de la Pénitence soigne aussi 5 alliés proches à moins de 8 mètres et réduit de 1 seconde le temps de recharge de Pénitence (maximum 3 secondes).	lot sorts_objets_101
+sort	965424		Description	fc668f6e3c47	Augmente de $s1% les dégâts de votre prochaine Pénitence. Chaque projectile de dégâts de la Pénitence inflige des dégâts du Sacré supplémentaires à 5 cibles proches et réduit de 1 seconde le temps de recharge de Pénitence (maximum 3 secondes).	lot sorts_objets_101
+sort	965424		Name	a5262921218a	Jugement divin	lot sorts_objets_101
+sort	965424		ToolTip	bafd3010f87a	Augmente de $s1% ($s2% contre les joueurs) les dégâts de votre prochaine Pénitence. Chaque projectile de dégâts de la Pénitence inflige des dégâts du Sacré supplémentaires à 5 cibles proches et réduit de 1 seconde le temps de recharge de Pénitence (maximum 3 secondes).	lot sorts_objets_101
+sort	965471		Description	63eec6b65a8c	Augmente de $s1% vos dégâts magiques. Dure $d.	lot sorts_objets_101
+sort	965471		Name	ff81917e1fc8	Folie des Anciens Dieux	lot sorts_objets_101
+sort	965471		ToolTip	b6fd66bcb217	Dégâts des sorts augmentés de $s1%\nAttendez... Vous avez entendu ça ?	lot sorts_objets_101
+sort	965478		Description	b71578da9ed6	Augmente de 10% les points de vie de la cible et réduit de 20% les dégâts qu'elle subit pendant 8 sec.	lot sorts_objets_101
+sort	965478		Name	830de4c8c8a9	Bénédiction du titan	lot sorts_objets_101
+sort	965478		ToolTip	5a245a279f4f	Augmente vos points de vie de $s1% et réduit les dégâts subis de $s2%.	lot sorts_objets_101
+sort	965479		Description	2a767185cb48	Rend de la rage, de l'énergie et du mana à vous et aux membres de votre groupe.	lot sorts_objets_101
+sort	965479		Name	297bae8ce81f	Bénédiction de la création	lot sorts_objets_101
+sort	965480		Description	b7c0e212089a	Augmente de 5% la hâte de vous et de votre cible pendant 10 sec.	lot sorts_objets_101
+sort	965480		Name	98122d14ba24	Bénédiction du temps	lot sorts_objets_101
+sort	965480		ToolTip	6a277ff0d47e	Hâte augmentée de 5%.	lot sorts_objets_101
+sort	965481		Description	b271685fa460	Rend des points de vie à 5 cibles alliées maximum.	lot sorts_objets_101
+sort	965481		Name	539e0971a922	Bénédiction de réparation	lot sorts_objets_101
+sort	965482		Description	19a678a5a914	Rend des points de vie à 5 cibles alliées maximum en 15 sec.	lot sorts_objets_101
+sort	965482		ToolTip	b223b9a72eeb	Rend $s2 points de vie toutes les 3 sec.	lot sorts_objets_101
+sort	965509		Description	e22515e9cbe4	Inflige ${$m1+0+0.5*$AP+0.7*$SPA} points de dégâts des Arcanes à la cible.\r\n\r\n@ext:Scales with Arcane Barrage damage modifiers.:ext@	lot sorts_objets_101
+sort	965560		Description	7fc031c3303d	Vos chances de coup critique et vos dégâts critiques avec votre prochain Trait de feu ou Météore sont augmentés de $s1%. De plus, vos dégâts avec Trait de feu et Météore sont augmentés de $s2%. Cumulable jusqu'à $u fois.\r\n\r\nÀ $u charges, les critiques de Trait de feu déclenchent une inflammation dont la valeur est augmentée de $984968F1%.\r\n\r\n@ext:Fire Blast and Meteor damage is increased by 20% in PvP combat.:ext@	lot sorts_objets_101
+sort	965560		ToolTip	2b9ac9e5afa1	Vos chances de coup critique et vos dégâts critiques avec votre prochain Trait de feu ou Météore sont augmentés de $s1%. De plus, vos dégâts avec Trait de feu et Météore sont augmentés de $s2%. Cumulable jusqu'à $u fois.\r\n\r\nÀ $u charges, les critiques de Trait de feu déclenchent une inflammation dont la valeur est augmentée de $984968F1%.	lot sorts_objets_101
+sort	965863		Description	87494d266326	Augmente votre score de coup critique et votre score d'expertise de $s1% de votre Force. Tant qu'elle est active, vos aptitudes sont renforcées.\n\n|cFFFFFFFFDévaster|r : inflige $965864s1% de dégâts supplémentaires à tous les ennemis proches et réduit l'armure de la cible de $965865S1% supplémentaires pendant $965865d.\n\n|cFFFFFFFFRiposte|r : augmente de $965869s1% les dégâts échelonnés par le sommet de Maîtrise tactique pendant $965869d.\n\n|cFFFFFFFFTempête divine|r : augmente votre Armure et vos dégâts de sorts du Sacré de $965867s1% de votre Force pendant $965867d.	lot sorts_objets_101
+sort	965863		ToolTip	8c7dbf5d7320	Augmente votre score de coup critique de $s1% de votre Force.\n\nDévaster : inflige 50% de dégâts supplémentaires à tous les ennemis proches et réduit l'armure de la cible de $965865S1% supplémentaires pendant $965865d.\n\nRiposte : augmente de $965869s1% les dégâts échelonnés par le sommet de Maîtrise tactique pendant $965869d.\n\nTempête divine : augmente votre Armure de $965867s1% de votre Force pendant $965867d.	lot sorts_objets_101
+sort	965900		Description	2ac10e0da69c	Renforce votre prochaine aptitude :\n\n|cFFFFFFFFToucher vampirique|r : affaiblit la cible, qui subit $965901s1% de dégâts d'Ombre supplémentaires et $965901s3% de dégâts supplémentaires de Toucher vampirique pendant 15 sec.\n\n|cFFFFFFFFPeste dévorante|r : dure $/1000;s3 sec. de plus, inflige ses dégâts deux fois plus vite et provoque une explosion d'ombre qui blesse tous les ennemis proches, mais déclenche un temps de recharge de 12 sec.\n\n|cFFFFFFFFEncaisser ses dégâts|r : inflige $965902s1% de dégâts supplémentaires @ext:($965902s3% vs players):ext@et renforce votre Fouet mental et votre Calcination mentale, qui infligent 25% de dégâts supplémentaires. Ce bonus est réduit de 1% à chaque impulsion des sorts canalisés correspondants.	lot sorts_objets_101
+sort	965900		ToolTip	af7987115e4f	Renforce votre prochain |cFFFFFFFFToucher vampirique|r, |cFFFFFFFFPeste dévorante|r ou |cFFFFFFFFEncaisser ses dégâts|r.	lot sorts_objets_101
+sort	965939		Description	5004ac28f39e	Rend ${($PL*6+$966753m1)+($SP*0.2)+($AP*0.09)} points de vie à une cible alliée proche affectée par votre |cFFFFFFFFGraine de vie|r ; après un court délai, l'effet bondit vers 3 alliés proches affectés par votre |cFFFFFFFFGraine de vie|r. \r\n\r\nCet effet se répète jusqu'à ce qu'il n'y ait plus d'allié affecté par |cFFFFFFFFGraine de vie|r à portée.	lot sorts_objets_101
+sort	965939		Name	3ef84d550fdc	Éclosion	lot sorts_objets_101
+sort	966063		Description	84a30274fcbf	Augmente de $s2% les chances que le lanceur de sort vous prodigue un soin critique. Cumulable jusqu'à $u fois. Dure $d.	lot sorts_objets_101
+sort	966063		ToolTip	7430690e4b79	Augmente de $s2% les chances de recevoir un soin critique du lanceur de sort.	lot sorts_objets_101

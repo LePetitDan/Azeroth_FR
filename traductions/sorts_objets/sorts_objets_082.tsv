@@ -1,0 +1,13 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	92438		Description	85d77e1e273e	Quand vous chargez, vous laissez un |cFFFFFFFFSillage enflammé|r derrière vous.\n@s:92442:0@	lot sorts_objets_082
+sort	92438		Name	0d5905e5796b	Charge gangrenée	lot sorts_objets_082
+sort	92442		Description	53a8b569246e	Inflige ${$m1+($SP*0.0.41)+($AP*0.0.12)} points de dégâts de Feu, puis ${10*($m2)} points de dégâts de Feu en $d aux ennemis proches.	lot sorts_objets_082
+sort	92442		Name	176f7aca3c49	Sillage enflammé	lot sorts_objets_082
+sort	92442		ToolTip	5c3053ed3fa3	Subit $s2 points de dégâts toutes les $t2 secondes.	lot sorts_objets_082
+sort	92770		Description	443f9c29b65b	@unlockby:596@\nUne prière impie rend $s1 points de vie aux membres de votre groupe ou raid se trouvant à moins de $a1 mètres. Déclenche |cFFFFFFFFLien vampirique|r sur les alliés soignés par cette aptitude.	lot sorts_objets_082
+sort	92770		Name	d968d879a295	Prière impie	lot sorts_objets_082
+sort	92778		Description	b60dfab02b84	@unlockby:15286@\nVous embrassez la puissance d'un seigneur vampire, ce qui vous soigne, vous et les alliés proches, à hauteur de $s1% des dégâts de tout sort d'Ombre à cible unique infligés.\n\n@ext:Damage over Time effects only heal for 2% of spell damage dealt.:ext@	lot sorts_objets_082
+sort	92778		ToolTip	51a06224945f	$s1% des dégâts de tout sort d'Ombre à cible unique infligés par le lanceur de sort soignent le lanceur et les alliés proches.	lot sorts_objets_082
+sort	92779		Description	dcde2202748f	La cible devient un Fanal d'Ombre. Trait de l'ombre rendra désormais à la cible de votre Fanal $s1% des dégâts infligés.\n\n@ext:Only one target can be the Beacon of Shadow at a time. Cannot be cast on self. Lasts $d.:ext@	lot sorts_objets_082
+sort	92779		Name	fb5b4dd8f56e	Fanal d'Ombre	lot sorts_objets_082
+sort	92779		ToolTip	6e5440968cd5	Fanal d'Ombre.\n\nLes traits de l'ombre du seigneur vampire rendent au Fanal d'Ombre $s1% des dégâts infligés.	lot sorts_objets_082

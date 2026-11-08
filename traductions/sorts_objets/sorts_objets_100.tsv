@@ -1,0 +1,50 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	922565		Description	c02972b35335	@unlockby:2565@\r\nVous canalisez un puissant Rempart qui vous donne $s1% de chances de bloquer de façon critique, réduit de $923927s1% de dégâts supplémentaires lors des blocages critiques et vous fait riposter à toutes les attaques subies. \r\n\r\n@ext:Bulwark's damage scales from Shield Slam modifiers:ext@\r\n\r\nVotre vitesse de déplacement est réduite de $s2% pendant que vous canalisez Rempart, et cet effet coûte de plus en plus d'énergie à maintenir.\r\n\r\nRempart ne peut pas être lancé si votre énergie n'est pas au maximum et ne peut pas déclencher d'effets lors d'un coup.	lot sorts_objets_100
+sort	922565		ToolTip	661b68b84eee	Chances de blocage augmentées de $s1% et réduction des dégâts de votre blocage critique augmentée de $923927s1%. Frappe périodiquement les ennemis proches d'une Heurt de bouclier. Vitesse de déplacement réduite de $s2%. Votre bouclier devient de plus en plus lourd...	lot sorts_objets_100
+sort	926889		Description	ea2de8ae7f31	Vous permet de disparaître de la vue et d'entrer dans un mode de furtivité largement amélioré pendant $11329d.  Vous confère aussi un bouclier qui absorbe les dégâts périodiques. Supprime les invulnérabilités à l'utilisation. Le temps de recharge n'est pas réinitialisé par Préparation.\r\n\r\nNe fonctionne pas en mode Haut risque.	lot sorts_objets_100
+sort	926889		ToolTip	77cc382bc990	Furtivité améliorée. Vous protège contre les dégâts périodiques.	lot sorts_objets_100
+sort	944795		Description	1444627181f2	Défier la gravité. En vol, le point de vue élevé augmente de $s2% vos chances de coup critique avec les tirs de chasseur et les dégâts des Flèches orbitales de $s3%. \r\n\r\nÀ l'atterrissage, votre vitesse d'attaque à distance est augmentée de $956447s1% pendant $956447d.	lot sorts_objets_100
+sort	944795		Name	9ac30029bba0	Parachute de combat	lot sorts_objets_100
+sort	944795		ToolTip	f05d9532658f	Défier la gravité. En vol, le point de vue élevé augmente de $s2% vos chances de coup critique avec les tirs de chasseur et les dégâts des Flèches orbitales de $s3%. 	lot sorts_objets_100
+sort	944797		Description	64e2275232a5	La cible a été repérée. Vos tirs de chasseur infligent $s1% de dégâts supplémentaires et déclenchent une Frappe de flèche orbitale.\r\n\r\n@ext:Damage is increased by $s2% versus players.:ext@ 	lot sorts_objets_100
+sort	944797		ToolTip	f7e6388b2b23	La cible a été repérée. Vos tirs de chasseur infligent $s1% ($s2% contre les joueurs) de dégâts supplémentaires et déclenchent une Frappe de flèche orbitale.	lot sorts_objets_100
+sort	944810		Description	a738d73bea09	Provoque une explosion de lumière sacrée autour de la cible, infligeant $944810s1 points de dégâts du Sacré à tous les ennemis situés à moins de $944810a1 mètres et rendant $944809s1 points de vie à tous les membres du groupe situés à moins de $944809a1 mètres. 	lot sorts_objets_100
+sort	944810		Name	fa869808de54	Nova sacrée (Croisé bienveillant)	lot sorts_objets_100
+sort	944823		Description	37fbdcb50ff1	Soigne la cible et jusqu'à 5 alliés proches situés à moins de 8 mètres, rendant $944826s1 points de vie toutes les deux secondes pendant 6 secondes.	lot sorts_objets_100
+sort	944823		ToolTip	3ebe9ab9ab45	Soigne la cible et jusqu'à 5 alliés proches situés à moins de 8 mètres, rendant 7 points de vie toutes les deux secondes pendant 6 secondes.	lot sorts_objets_100
+sort	944825		Description	e329c9ffb519	Soins reçus de Salve de guérison augmentés de 15%. Dure 3 secondes.	lot sorts_objets_100
+sort	944825		Name	525205c67eab	Chaînes réparatrices	lot sorts_objets_100
+sort	944825		ToolTip	e329c9ffb519	Soins reçus de Salve de guérison augmentés de 15%. Dure 3 secondes.	lot sorts_objets_100
+sort	944827		Description	80af1a82919e	Rend ${$m2+0} points de vie toutes les 1 sec. Dure $d. Se cumule jusqu'à 8 fois.	lot sorts_objets_100
+sort	944827		ToolTip	2bcbcdf05e68	Rend $s2 points de vie toutes les 1 sec. Dure $d. Se cumule jusqu'à 8 fois.	lot sorts_objets_100
+sort	944829		Description	984410457d6e	Vulnérable à l'éclatement lorsqu'elle est frappée par des sorts infligeant des dégâts de Feu, jusqu'à 3 fois.	lot sorts_objets_100
+sort	944829		Name	5588d4fad517	Chair gelée	lot sorts_objets_100
+sort	944829		ToolTip	984410457d6e	Vulnérable à l'éclatement lorsqu'elle est frappée par des sorts infligeant des dégâts de Feu, jusqu'à 3 fois.	lot sorts_objets_100
+sort	944831		Description	c834313b334d	Inflige $s1 points de dégâts de Givrefeu.	lot sorts_objets_100
+sort	944831		Name	6f966b8a9c48	Chair dégelée	lot sorts_objets_100
+sort	944831		ToolTip	c834313b334d	Inflige $s1 points de dégâts de Givrefeu.	lot sorts_objets_100
+sort	947486		Description	6592b7988dab	@req:12294@\r\nUne frappe démolisseuse qui inflige $947486s3% des dégâts de l'arme plus $s2 points de dégâts et démolit les défenses de la cible, augmentant de $954092s1% les dégâts physiques qu'elle subit de vos attaques. Chaque fois que la cible subit un coup critique en mêlée, ses défenses sont encore plus démolies, jusqu'à un maximum de $954092u charges.\r\n\r\n@ext:Demolishing Strike scales with modifiers to Mortal Strikes but does not work with Single-Minded Fury.:ext@	lot sorts_objets_100
+sort	947486		Name	0f8250e27182	Frappe démolisseuse	lot sorts_objets_100
+sort	953316		Description	fb2d38d9b9de	Augmente les dégâts de Boule de feu de ${$m1+$m3}% et les dégâts de vos autres sorts de mage de $s3%.\r\n\r\nTous les sorts de mage voient leurs chances de coup critique augmentées de $s2%.	lot sorts_objets_100
+sort	953316		ToolTip	9f63b7dc9f7b	Augmente les dégâts de Boule de feu de $m1% et les dégâts de vos sorts de mage de $s3%, ainsi que leurs chances de coup critique de $s2%.	lot sorts_objets_100
+sort	954011		Description	2885e3027ab2	Réduit le temps d'incantation de Choc de flammes de $s1% et son coût en mana de $s2%. Dure $d. 	lot sorts_objets_100
+sort	954011		ToolTip	1ac92e5ff3eb	Réduit le temps d'incantation de Choc de flammes de $s1% et son coût en mana de $s2%.	lot sorts_objets_100
+sort	954046		Description	0aea134e3a52	Augmente votre hâte des sorts de $s2% et fait infliger à vos sorts de Nature ou de Givre $s1% de dégâts supplémentaires sous forme de Tempête de givre. Dure 10 secondes. 	lot sorts_objets_100
+sort	954046		Name	185560af6841	Esprit surchargé	lot sorts_objets_100
+sort	954046		ToolTip	07e2102fbe85	Augmente votre hâte des sorts de $s2% et fait infliger à vos sorts de Nature ou de Givre $s1% de dégâts supplémentaires sous forme de Tempête de givre.	lot sorts_objets_100
+sort	954047		Description	0a36ab941275	Augmente de $s1% les dégâts magiques que vous infligez et votre hâte des sorts. Dure 8 secondes. 	lot sorts_objets_100
+sort	954047		Name	8d16f4f9a9a6	Puissance astrale	lot sorts_objets_100
+sort	954047		ToolTip	021475596d7a	Augmente de $s1% les dégâts magiques que vous infligez et votre hâte des sorts.	lot sorts_objets_100
+sort	954048		Description	f5d80f99f57c	Des éclats de glace s'abattent sur la zone ciblée et infligent ${$m1*$PL*3 + $AP*0.0434 + $SP*0.0667} points de dégâts de Tempête de givre toutes les $81125t3 secondes.	lot sorts_objets_100
+sort	954049		Description	ac411fb386b4	Vous faites apparaître une Tempête astrale qui frappe les ennemis situés à moins de 8 mètres et leur inflige ${$m1+0 + $AP*0.71 + $SP*0.11} points de dégâts de Tempête de sorts toutes les $81125t3 secondes.	lot sorts_objets_100
+sort	954052		Description	64a7ffcd5e3e	@req:56641@\r\nTir de sauterelles inflige $s2% des dégâts de l'arme sous forme de dégâts de Nature, et profite des modificateurs de Tir assuré. Cette aptitude peut être lancée en mouvement. 	lot sorts_objets_100
+sort	954052		Name	fa3cb0b26bcd	Tir de sauterelles	lot sorts_objets_100
+sort	954064		Description	f2b4b2bbf829	Attaque instantanément avec les deux armes pour $954065s2% des dégâts de l'arme plus $954065s1 points de dégâts. Les dégâts sont augmentés de 20% contre les cibles qui saignent.  Donne 2 points de combo.\n\n@ext:This ability scales with Mutilate modifiers.:ext@	lot sorts_objets_100
+sort	954069		Description	5ba717184c50	Augmente de $s1% les dégâts de votre prochain Feu sacré @ext:($s2% versus players).:ext@ Se cumule jusqu'à 5 fois, dure 10 secondes. 	lot sorts_objets_100
+sort	954069		ToolTip	6cdb728df026	Augmente de $s1% ($s2% contre les joueurs) les dégâts de votre prochain Feu sacré.	lot sorts_objets_100
+sort	954075		Description	1e10bf9b872b	Soins reçus des effets périodiques de Nature du lanceur augmentés de $s3%. Se cumule jusqu'à 4 fois et dure $d.	lot sorts_objets_100
+sort	954075		Name	f6f8622a40ea	Faveur de l'invocateur des marées	lot sorts_objets_100
+sort	954075		ToolTip	ab9d117ee19a	Soins reçus des effets périodiques de Nature du lanceur augmentés de $s3%. 	lot sorts_objets_100
+sort	954092		Description	d2b3f5c910eb	|cFFFFFFFFDémolition|r se cumule chaque fois que la cible subit un coup critique en mêlée, augmentant de $s1% les dégâts physiques qu'elle subit du lanceur, et renforce votre prochaine aptitude lorsqu'il atteint $954092u charges :\r\n\r\n|cFFFFFFFFExposer l'armure|r : augmente votre pénétration d'armure de $954090s1% pendant 20 secondes.\r\n\r\n|cFFFFFFFFRiposte|r : génère 2 points de combo supplémentaires et ralentit la vitesse d'attaque de la cible de 10% supplémentaires.\r\n\r\n|cFFFFFFFFMorsure de la mangouste :|r ne déclenche pas son temps de recharge et inflige à coup sûr un coup critique avec 100% de dégâts supplémentaires. @ext:(50% versus players).:ext@	lot sorts_objets_100
+sort	954092		ToolTip	dd64bfe88d3e	Les dégâts physiques subis du lanceur sont augmentés de $s1%.\r\n\r\nLes dégâts physiques subis du lanceur sont augmentés de $s1%. Se cumule jusqu'à $u fois et dure $d. \r\n\r\n	lot sorts_objets_100
+sort	954221		Description	3a0005a9faba	Hâte augmentée de $s1%. Dure $d.	lot sorts_objets_100

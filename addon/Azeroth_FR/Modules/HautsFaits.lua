@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : fenetre des hauts faits (version 0.9.2, essai 8 au niveau 10).
+-- Azeroth_FR : fenetre des hauts faits (version 0.9.2, essai 8 au niveau 10 ; 0.9.4 : barres du resume).
 -- Verifie le 07/11/2026 contre le code que le client CoA charge (AddOns/Blizzard_AchievementUI, charge a la demande,
 -- et FrameXML/AlertFrames.lua) :
 --   - AchievementButton_DisplayAchievement (l. 1012) : button.label (nom), button.description et
@@ -108,6 +108,28 @@ local function SurResume()
     end
 end
 
+-- 0.9.4 (essai 8, captures du 08/11) : barres des categories du resume (« General 1/48 », « Quests »…) : leur nom est
+-- pose une fois pour toutes a la creation du cadre (AchievementFrameSummaryCategory_OnLoad, l. 1980 : GetCategoryInfo de
+-- self:GetID() dans <cadre>Label), avant nos crochets : on le reprend a chaque affichage (OnShow, et la mise a jour du
+-- resume). Numero de categorie = GetID() du cadre (92, 96, 97, 95, 168, 169, 201…).
+local function SurBarreCategorie(barre)
+    if not Actif() or type(barre) ~= "table" or type(barre.GetID) ~= "function" or type(barre.GetName) ~= "function" then
+        return
+    end
+    local nom = barre:GetName()
+    local r = Enreg("HC", barre:GetID())
+    if nom and r and r[1] then Poser(_G[nom .. "Label"], r[1], r[2]) end
+end
+
+local function SurBarresCategories()
+    if not Actif() then return end
+    for i = 1, 12 do
+        local b = _G["AchievementFrameSummaryCategoriesCategory" .. i]
+        if not b then break end
+        SurBarreCategorie(b)
+    end
+end
+
 local function SurStat(button, categorie, index, _, resume)
     if not Actif() or type(button) ~= "table" or type(button.id) ~= "number" then return end
     local r = A.HautFait(button.id)
@@ -187,6 +209,10 @@ local function Brancher()
     end
     if type(AchievementFrameSummary_UpdateAchievements) == "function" then
         hooksecurefunc("AchievementFrameSummary_UpdateAchievements", P("HautsFaits.resume", SurResume))
+        hooksecurefunc("AchievementFrameSummary_UpdateAchievements", P("HautsFaits.resume_barres", SurBarresCategories))
+    end
+    if type(AchievementFrameSummaryCategory_OnShow) == "function" then
+        hooksecurefunc("AchievementFrameSummaryCategory_OnShow", P("HautsFaits.barre_categorie", SurBarreCategorie))
     end
     if type(AchievementFrameStats_SetStat) == "function" then
         hooksecurefunc("AchievementFrameStats_SetStat", P("HautsFaits.stat", SurStat))
@@ -195,6 +221,7 @@ local function Brancher()
         hooksecurefunc("AchievementFrameComparison_DisplayAchievement", P("HautsFaits.comparaison", SurComparaison))
     end
     branche_ui = true
+    SurBarresCategories()
 end
 
 local ev = CreateFrame("Frame")

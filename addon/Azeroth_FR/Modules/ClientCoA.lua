@@ -83,7 +83,10 @@ end
 -- Inn|h|r ») et en capitale (« inside an inn » devient « inside an Inn ») : on compare sans liens ni couleurs, en
 -- minuscules (forme ajoutée à XT par la fabrique pour les tutoriels, mots-clés et objectifs).
 local lower = string.lower
+-- 0.9.4 (essai 8, n° 24) : sans « \r » non plus (205 descriptions de mots-clés ont des « \r\n » ; le texte recu du
+-- client peut n'avoir que « \n ») ; meme regle dans forme_tutoriel (outils/fabriquer.py).
 local function FormeTutoriel(t)
+    t = gsub(t, "\r", "")
     t = gsub(t, "|c%x%x%x%x%x%x%x%x", "")
     t = gsub(t, "|r", "")
     t = gsub(t, "|H.-|h%[?(.-)%]?|h", "%1")
@@ -135,6 +138,42 @@ local function ParLignes(t, domaines)
     return change and table.concat(out, "\n") or nil
 end
 
+-- 0.9.4 (essai 8, n° 25) : un nom dans un gabarit d'interface du calendrier (« Darkmoon Faire : fin » : le gabarit
+-- CALENDAR_EVENTNAME_FORMAT_END est deja en francais par PTRXML, le nom de la fete reste celui du client)
+local GABARITS_NOMS = { "CALENDAR_EVENTNAME_FORMAT_START", "CALENDAR_EVENTNAME_FORMAT_END",
+    "CALENDAR_EVENTNAME_FORMAT_RAID_LOCKOUT", "CALENDAR_EVENTNAME_FORMAT_RAID_RESET" }
+local motifs_noms
+local function MotifsNoms()
+    if motifs_noms then return motifs_noms end
+    motifs_noms = {}
+    for _, cle in ipairs(GABARITS_NOMS) do
+        local formes = {}
+        local g = A.Gabarit and A.Gabarit(cle)
+        if type(_G[cle]) == "string" then formes[#formes + 1] = _G[cle] end
+        if g and type(g.en) == "string" then formes[#formes + 1] = g.en end
+        if g and type(g.fr) == "string" then formes[#formes + 1] = g.fr end
+        for _, f in ipairs(formes) do
+            local avant, apres = match(f, "^(.-)%%s(.*)$")
+            if avant and not find(avant .. apres, "%", 1, true) then
+                local fr = (g and type(g.fr) == "string" and g.fr) or (_G[cle] ~= g.en and _G[cle]) or f
+                motifs_noms[#motifs_noms + 1] = { avant = avant, apres = apres, fr = fr }
+            end
+        end
+    end
+    return motifs_noms
+end
+local function NomDansGabarit(t, domaines)
+    if not domaines then return nil end
+    for _, m in ipairs(MotifsNoms()) do
+        if #t > #m.avant + #m.apres and sub(t, 1, #m.avant) == m.avant and (m.apres == "" or sub(t, -#m.apres) == m.apres) then
+            local nom = sub(t, #m.avant + 1, #t - #m.apres)
+            local fr = NomConnu(nom, domaines)
+            if fr then return (gsub(m.fr, "%%s", (gsub(fr, "%%", "%%%%")), 1)) end
+        end
+    end
+    return nil
+end
+
 -- Essai 8 : « Getting Started 0 (5) / 8 » : un nom connu suivi de nombres
 local function NomEtNombres(t)
     local nom, reste = match(t, "^(.-%a)(%s[%d%s%(%)/:%%%.]+)$")
@@ -147,13 +186,15 @@ local function Zone(zone, domaines)
     local t = zone:GetText()
     if not t or t == "" or A.DejaEcrit(zone, t) then return false end
     local fr = A.TexteClient(t)
+    if fr == t then fr = nil end                    -- 0.9.4 : gabarit reconnu mais rien a traduire (« X : fin »)
     if fr then
         -- la recherche se fait sur la forme canonique (bords ôtés) : on remet les espaces de bord de l'affichage
         local avant, apres = match(t, "^([ \t]*)"), match(t, "([ \t]*)$")
         if avant ~= "" and sub(fr, 1, #avant) ~= avant then fr = avant .. fr end
         if apres ~= "" and apres ~= t and sub(fr, -#apres) ~= apres then fr = fr .. apres end
+        fr = NomDansGabarit(fr, domaines) or fr       -- 0.9.4 : gabarit traduit, nom encore anglais
     else
-        fr = NomConnu(t, domaines) or ParLignes(t, domaines) or NomEtNombres(t)
+        fr = NomConnu(t, domaines) or ParLignes(t, domaines) or NomEtNombres(t) or NomDansGabarit(t, domaines)
     end
     if fr and fr ~= t then
         A.Ecrire(zone, fr)
@@ -174,13 +215,18 @@ local RACINES = {
     { "MythicPlusObjectiveTracker" }, { "SocketKeystoneFrame" }, { "DraftHelpFrame" }, { "HelpMenuFrame" },
     -- Blizzard, nourries par les tables du client ou par des noms deja traduits
     { "LFDParentFrame", LIEUX }, { "LFRParentFrame", LIEUX }, { "PVPBattlegroundFrame", LIEUX }, { "BattlefieldFrame", LIEUX },
-    { "CalendarFrame", { "fete" } }, { "CalendarViewHolidayFrame", { "fete" } }, { "WorldStateAlwaysUpFrame" },
+    { "CalendarFrame", { "fete", "zone", "donjon" } }, { "CalendarViewHolidayFrame", { "fete" } }, { "WorldStateAlwaysUpFrame" },
     { "WorldStateScoreFrame", LIEUX }, { "BarberShopFrame", { "coiffure" } }, { "PlayerTitlePickerFrame", { "titre" } },
     { "PlayerTitleFrame", { "titre" } }, { "PetPaperDollFrame", { "type_creature" } }, { "TokenFrame", { "competence" } },
     -- 0.9 : fenetres du § 1 de l'inventaire dont les textes sont des noms deja traduits
     { "ReputationFrame", { "faction" } }, { "ReputationDetailFrame", { "faction" } }, { "SkillFrame", { "competence" } },
     { "TaxiFrame", LIEUX }, { "FriendsFrame", PERSONNES }, { "WhoFrame", PERSONNES }, { "GuildFrame", PERSONNES },
     { "RaidInfoFrame", LIEUX }, { "TradeSkillFrame", { "competence", "sort" } }, { "CraftFrame", { "competence", "sort" } },
+    -- 0.9.4 (essai 8, n° 23) : la fenetre du personnage de CoA (FrameXML/Ascension_CharacterFrame) remplace celle de
+    -- Blizzard : competences (noms et categories), reputations, monnaies, titres, familier
+    { "AscensionSkillsPanel", { "competence" } }, { "AscensionReputationPanel", { "faction" } },
+    { "AscensionCurrencyPanel", { "competence" } }, { "AscensionCharacterTitlesPanel", { "titre" } },
+    { "AscensionPetPaperDollPanel", { "type_creature" } },
     -- essai 8 : barres d'incantation (« Looting »), en secours du crochet plus bas
     { "CastingBarFrame", { "sort" } }, { "TargetFrameSpellBar", { "sort" } }, { "FocusFrameSpellBar", { "sort" } },
 }

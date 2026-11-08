@@ -1,5 +1,5 @@
 -- ============================================================================
--- Azeroth_FR : sorts (version 0.5 : lieu $z de la pierre de foyer retrouve sans GetBindLocation ; 0.4 : barre d'incantation ;
+-- Azeroth_FR : sorts (0.9.4 : sorts cites sous un sort, balises @s ; version 0.5 : lieu $z de la pierre de foyer retrouve sans GetBindLocation ; 0.4 : barre d'incantation ;
 -- rangs de tous les sorts, lignes de puissance PvE/PvP). Nom, rang et description en francais, A L'AFFICHAGE
 -- SEULEMENT, par le VRAI numero du sort (analyse du 03/11/2026, test 3 confirme en jeu) :
 --   - infobulle de sort      : 3e valeur de GameTooltip:GetSpell()      (OnTooltipSetSpell)
@@ -482,6 +482,82 @@ end
 A.RangSort = RangSort
 
 -- ----------------------------------------------------------------------------
+-- 0.9.4 (essai 8, fenetre des talents de CoA) : SORTS CITES. La description d'un sort de CoA peut porter des balises
+-- « @s:N:0@ » (« … into |cffffffffTorrential Wrath|r.@s:807105:0@@s:804017:0@ ») ; le client y insere, dans la bulle,
+-- un bloc par sort cite : separateur (|TInterface\Common\ui-tooltipdivider…|t), retour a la ligne, icone, nom en
+-- blanc, puis la description du sort N (elle-meme avec ses balises : Conduction sous Torrential Wrath). Chaque bloc est
+-- traduit a part : nom par le numero du sort cite (balises de la description anglaise du sort de la bulle, dans
+-- l'ordre, de proche en proche), sinon par le nom ; description par ce numero, sinon par son texte.
+-- ----------------------------------------------------------------------------
+local SEPARATEUR = "|tinterface\\common\\ui%-tooltipdivider[^|]*|t"
+
+local function IdsCites(id, out, vus, profondeur)
+    if profondeur > 4 or type(id) ~= "number" then return out end
+    local s = A.Sort(id)
+    if type(s) ~= "table" then return out end
+    for _, v in ipairs(Variantes(s)) do
+        local en = v[2]
+        if type(en) == "string" and find(en, "@s:", 1, true) then
+            for n in gmatch(en, "@s:(%d+):") do
+                local j = tonumber(n)
+                if j and not vus[j] then
+                    vus[j] = true
+                    out[#out + 1] = j
+                    IdsCites(j, out, vus, profondeur + 1)
+                end
+            end
+            break                                   -- une seule variante (la description) suffit
+        end
+    end
+    return out
+end
+A.IdsCites = function(id) return IdsCites(id, {}, {}, 0) end
+
+local function TraduireBloc(seg, idc)
+    local tete, c1, nom, c2, blanc, corps = match(seg, "^(%s*|T[^|]*|t%s*)(|c%x%x%x%x%x%x%x%x)(.-)(|r)(%s*)(.*)$")
+    if not tete then
+        tete, c1, nom, c2, blanc, corps = match(seg, "^(%s*)(|c%x%x%x%x%x%x%x%x)(.-)(|r)(%s*)(.*)$")
+    end
+    if not tete or nom == "" then return nil end
+    local nomFR = (idc and A.NomSort(idc, nom)) or (A.NomSortParNom and A.NomSortParNom(nom))
+    local corpsFR
+    if corps ~= "" then
+        corpsFR = idc and A.DescriptionSort(idc, corps)
+        if not corpsFR and len(corps) >= 20 then corpsFR = A.TraduireCorpsEffet(corps, nil) end
+    end
+    if not nomFR and not corpsFR then return nil end
+    return tete .. c1 .. (nomFR or nom) .. c2 .. blanc .. (corpsFR or corps)
+end
+
+-- Texte d'une ligne qui contient au moins un separateur ; ids : sorts cites (dans l'ordre), k : premier a utiliser.
+-- Renvoie le texte (traduit en tout ou partie) ou nil, et le prochain indice.
+function A.TraduireBlocsSorts(t, ids, k, idBulle)
+    if type(t) ~= "string" then return nil, k end
+    local bas = lower(t)
+    local d, f = find(bas, SEPARATEUR)
+    if not d then return nil, k end
+    ids, k = ids or {}, k or 1
+    local morceaux, change = {}, false
+    local tete = sub(t, 1, d - 1)
+    if tete ~= "" and not find(tete, "^%s*$") then
+        local fr = (idBulle and A.DescriptionSort(idBulle, tete)) or A.LigneSortLibre(tete)
+        if fr then tete, change = fr, true end
+    end
+    morceaux[1] = tete
+    while d do
+        local d2, f2 = find(bas, SEPARATEUR, f + 1)
+        local seg = sub(t, f + 1, (d2 or (#t + 1)) - 1)
+        morceaux[#morceaux + 1] = sub(t, d, f)
+        local fr = TraduireBloc(seg, ids[k])
+        if fr then change = true end
+        morceaux[#morceaux + 1] = fr or seg
+        k = k + 1
+        d, f = d2, f2
+    end
+    return change and table.concat(morceaux) or nil, k
+end
+
+-- ----------------------------------------------------------------------------
 -- Infobulles de sorts
 -- ----------------------------------------------------------------------------
 local Ligne = function(bulle, i, cote)
@@ -505,11 +581,23 @@ function A.TraduireBulleSort(bulle, id)
     -- 0.9 : « Requires Cat Form », « Requires Anvil » (formes, objets de focalisation, outils), pour tous les sorts ;
     -- essai 8 : les bulles de talents de CoA ajoutent sous le sort ceux qu'il cite (« Thunder Grip » et sa
     -- description) : chaque ligne encore en anglais est essayée comme nom de sort ou description de sort
+    -- 0.9.4 : blocs des sorts cites (balises @s, voir A.TraduireBlocsSorts) ; ligne « Niveau: 1 » de CoA (GameTooltip.lua,
+    -- LEVEL..": "..niveau requis : LEVEL est deja « Niveau » par PTRXML, l'espace insecable manque)
+    local ids, k = nil, 1
+    local niveau = _G.LEVEL
     for i = 2, bulle:NumLines() do
         local l = Ligne(bulle, i)
         local t = l and l:GetText()
         if t and t ~= "" and not A.DejaEcrit(l, t) then
-            local fr = (len(t) <= 80 and A.LigneRequiert and A.LigneRequiert(t)) or A.LigneSortLibre(t)
+            local fr
+            if find(t, "|T", 1, true) and find(lower(t), "ui-tooltipdivider", 1, true) then
+                ids = ids or (A.IdsCites(id))
+                fr, k = A.TraduireBlocsSorts(t, ids, k, id)
+            elseif type(niveau) == "string" and niveau ~= "Level" and niveau ~= "" and sub(t, 1, #niveau + 2) == niveau .. ": " then
+                fr = niveau .. "\194\160: " .. sub(t, #niveau + 3)
+            else
+                fr = (len(t) <= 80 and A.LigneRequiert and A.LigneRequiert(t)) or A.LigneSortLibre(t)
+            end
             if fr and fr ~= t then A.Ecrire(l, fr); modifie = true end
         end
     end

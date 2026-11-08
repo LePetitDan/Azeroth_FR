@@ -1,0 +1,23 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	93163		Name	ecf34043c73b	Hardcore - Gath'llzogg	lot sorts_objets_083
+sort	93166		Name	12cda8b7fa83	Ironman - Gath'llzogg	lot sorts_objets_083
+sort	93558		Description	e3007825bfa8	Commence à apprivoiser un draconide pour en faire votre compagnon.\r\n\r\nVotre armure est réduite de 10% pendant que vous vous concentrez pendant 20 sec.\r\n\r\nSi vous perdez l'attention du draconide, l'apprivoisement échoue.	lot sorts_objets_083
+sort	93558		ToolTip	0bb3e91be611	Apprivoisement d'un draconide.	lot sorts_objets_083
+sort	93569		Description	07cdb1905f4b	Commence à lier un élémentaire pour en faire votre compagnon. \r\n\r\nVotre armure est réduite de $91606s3% pendant que vous vous concentrez sur la domination de l'élémentaire pendant 20 sec. \r\n\r\nSi vous perdez l'attention de l'élémentaire, quelle qu'en soit la raison, la domination échoue. \r\n\r\nChaque type d'élémentaire possède des aptitudes uniques dont vous pourrez tirer parti.	lot sorts_objets_083
+sort	93586		Description	1fb65bcbdc25	|cFF66DDFFPassif de niveau 20|r\r\nVotre |cffffffffFroid mortel|r applique désormais un affaiblissement à l'ennemi pendant $/1000;s1 sec, cumulable jusqu'à $801727u fois.\r\n\r\nÀ 10 charges de |cffffffffFroid mortel|r, les charges sont consommées, rendant ${$801729m2+$801729ppl2+$INT*.15} points de mana et envoyant une |cffffffffExplosion de liche|r sur votre cible, qui inflige ${$801729m3+$801729ppl3+$spfr*.0.35} points de dégâts de Givre.	lot sorts_objets_083
+sort	93586		Name	af307fbe1239	Explosion de liche	lot sorts_objets_083
+sort	93587		Description	95bfbc96a69d	|cFF66DDFFPassif de niveau 10|r\r\nVous disposez désormais de |cffffffffcharges de Souffle|r, qui vous permettent de lancer de puissantes attaques de |cffffffffSouffle|r.\r\n\r\nVotre |cFFFFFFFFFlèche éclairante|r a désormais une portée de 15 m et peut être lancée en mouvement.\r\n@s:801914:0@	lot sorts_objets_083
+sort	93587		Name	3313fc4ec774	Draconique - Passif de niveau 10	lot sorts_objets_083
+sort	93587		ToolTip	34e3db792e0f	Flèche éclairante peut désormais être lancée en mouvement.	lot sorts_objets_083
+sort	93589		Description	1bcf57c7727f	|cFF66DDFFPassif de niveau 10|r\r\nVotre |cffffffffFlèche de sang|r vole désormais des points de vie égaux à $s2% des dégâts infligés.\r\n\r\nLorsque vous atteignez 100 Rage, votre Rage ne se dissipe pas pendant $500529d.	lot sorts_objets_083
+sort	93589		Name	4ebe1f3a319b	Maudit - Passif de niveau 10	lot sorts_objets_083
+sort	93591		Description	f022d51f5e11	|cFF66DDFFPassif de niveau 10|r\r\nLorsque vous gagnez |cff5ee2ffInfusion d'âme|r, vos 3 prochaines attaques automatiques dans les $706452d drainent 2 de |cffffffffPuissance runique|r pour infliger ${$705439m1+0*0.8+$sps*0.125+$AP*0.09} points de dégâts d'Ombre supplémentaires.\r\n\r\nDe plus, |cffffffffMarche sous la terre|r a désormais une durée de $800797d et son temps de recharge est réduit de 5 sec.	lot sorts_objets_083
+sort	93591		Name	c736d1ce441d	Âme - Passif de niveau 10	lot sorts_objets_083
+sort	93637		Description	7e1358bbd680	|cFF66DDFFPassif de niveau 10|r\r\nVous apprend |cffffffffConstruction : méca-armure|r et donne à votre |cffffffffTir de ferraille|r une portée maximale de 30 m, tout en permettant de le lancer en mouvement.\r\n\r\nVous pouvez désormais générer de la |cffc7c7c7Ferraille|r pour construire votre |cFFFFFFFFméca-armure|r. @s:801384:0@	lot sorts_objets_083
+sort	93637		Name	a82a56859f99	Mécanique - Passif de niveau 10	lot sorts_objets_083
+sort	93637		ToolTip	f4044b3dcd60	Tir de ferraille peut être lancé en mouvement.	lot sorts_objets_083
+sort	93653		Description	cba9e104f859	|cFF66DDFFPassif de niveau 10|r\r\nTant que Démon intérieur est actif, votre Boule de feu gangrenée déchaîne une |CffffffffFrappe gangrenée|r sur votre cible.@s:802678:0@	lot sorts_objets_083
+sort	93653		Name	a9d65a9fe9d1	Infernal - Passif de niveau 10	lot sorts_objets_083
+sort	93665		Description	db1f964e9e66	Augmente votre score de hâte de 8% de votre Intelligence.	lot sorts_objets_083
+sort	504745		Name	4ebe1f3a319b	Maudit - Passif de niveau 10	lot sorts_objets_083
+sort	801729		Name	af307fbe1239	Explosion de liche	lot sorts_objets_083

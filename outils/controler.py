@@ -45,7 +45,7 @@ import controle as C  # noqa: E402
 import modele_officiel as MO  # noqa: E402
 import couche as CO  # noqa: E402
 
-SOURCES_CONNUES = {'', 'blizzard_frFR', 'nom_meme_anglais', 'blizzard_frFR_meme_anglais', 'attente_nom_officiel', 'wowhead_frFR', 'nom_objet_meme_anglais', 'reprise_meme_anglais', 'coa_client', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire',
+SOURCES_CONNUES = {'', 'blizzard_frFR', 'nom_meme_anglais', 'blizzard_frFR_meme_anglais', 'attente_nom_officiel', 'wowhead_frFR', 'nom_objet_meme_anglais', 'nom_sort_meme_anglais', 'reprise_meme_anglais', 'coa_client', 'trinitycore_frFR', 'archive_ascensionfr', 'release_3.5.1', 'modele', 'glossaire',
                    MO.SOURCE, CO.SOURCE}
 
 
