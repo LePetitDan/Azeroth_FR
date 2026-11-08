@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 08/11/2026 | Erydal : « Path of Erydal » garde son nom (décision de vocabulaire 33). Accord de budget de Dan pour la traduction du contenu propre d'Erydal (pack natif) et pour la suite d'Azeroth-FR ; montant du nouveau plafond à fixer avec le chiffrage | Dan |
 | 07/11/2026 | Add-on 0.9.2 installé dans `D:\Wow_Core` (comprend la 0.9.1) : dossiers `Azeroth_FR…` et `Interface\PTRXML` remplacés par ceux du zip ; 84 fichiers, empreintes vérifiées ; zip gardé dans `D:\Azeroth_FR_API` | Dan |
 | 07/11/2026 | Plafond d'API relevé à **85 $** : la première moitié des critères de hauts faits a coûté 3,89 $ (estimation de Claude trop basse, chaque lot embarque beaucoup de contexte) ; la seconde moitié (15 lots, 4 128 textes, ≈ 4,40 $) est traduite | Dan |
 | 07/11/2026 | Essai 8, niveau 10 : la 0.9.1 n'est pas installée seule, on attend la 0.9.2 (fenêtre des hauts faits) ; plafond d'API relevé à **80 $** pour traduire les critères de hauts faits propres à CoA (≈ 8 200 textes, 54 000 mots, ≈ 4 $) | Dan |
