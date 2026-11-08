@@ -90,6 +90,7 @@ CHANTIERS = [
     ('G', 'Sorts du serveur et sorts standard à revoir', 6, ['sorts_serveur', 'sorts_standard', 'sorts_coa']),
     ('H', 'Hauts faits (et enchantements sans modèle, en attente)', 7, ['hauts_faits', 'enchantements']),
     ('K', 'Critères des hauts faits (0.9.2)', 8, ['hauts_faits_criteres']),
+    ('L', 'Mise à jour au CoA du 08/11 (ensembles d\'objets)', 8, ['ensembles_objets']),
     # 07/11/2026, add-on 0.9 : ajouté au plan par « completer » (les lots des chantiers A à H ne changent pas)
     ('I', 'Textes propres au client CoA (0.9)', 8,
      ['sorts_coa', 'epreuves', 'creation_personnage', 'tutoriels', 'progression', 'monde_client', 'noms_client']),

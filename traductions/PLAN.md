@@ -17,7 +17,8 @@
 | **I** Textes propres au client CoA (0.9) | 8 | sorts_coa, epreuves, creation_personnage, tutoriels, progression, monde_client, noms_client | 47 | 4 898 | 100 796 | familles entières |
 | **J** Sorts des objets et collection de vanité (essai 8) | 9 | sorts_objets, vanite | 92 | 19 907 | 225 699 | familles entières |
 | **K** Critères des hauts faits (0.9.2) | 8 | hauts_faits_criteres | 28 | 8 139 | 51 786 | familles entières |
-| **Total** | | | 528 | 99 570 | 1 097 225 | |
+| **L** Mise à jour au CoA du 08/11 (ensembles d'objets) | 8 | ensembles_objets | 36 | 10 574 | 40 341 | familles entières |
+| **Total** | | | 564 | 110 144 | 1 137 566 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -29,6 +30,7 @@
 | quetes | A, B | 9 465 | 12 444 | 252 617 | 101 | 0 |
 | creatures | D | 661 | 689 | 1 992 | 3 | 23 |
 | objets | E | 19 644 | 28 806 | 81 186 | 66 | 3 |
+| ensembles_objets | L | 10 574 | 10 709 | 40 341 | 36 | 0 |
 | objets_monde | D | 953 | 1 086 | 2 389 | 4 | 0 |
 | dialogues | D | 469 | 909 | 11 261 | 5 | 0 |
 | broadcast_cris | D | 866 | 1 189 | 10 288 | 5 | 0 |
@@ -648,4 +650,45 @@
 | `hauts_faits_criteres_026` | haut_fait_critere 143877 à 144214 | 300 | 300 | 1524 |
 | `hauts_faits_criteres_027` | haut_fait_critere 144215 à 313284 | 301 | 322 | 1441 |
 | `hauts_faits_criteres_028` | haut_fait_critere 313310 à 313476 | 18 | 18 | 75 |
+
+### Chantier L : Mise à jour au CoA du 08/11 (ensembles d'objets)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `ensembles_objets_001` | ensemble_objets 10012 à 49621 | 300 | 303 | 786 |
+| `ensembles_objets_002` | ensemble_objets 49622 à 84947 | 300 | 300 | 1109 |
+| `ensembles_objets_003` | ensemble_objets 84954 à 135009 | 300 | 300 | 1080 |
+| `ensembles_objets_004` | ensemble_objets 135010 à 147161 | 300 | 300 | 1253 |
+| `ensembles_objets_005` | ensemble_objets 147750 à 191795 | 300 | 300 | 1032 |
+| `ensembles_objets_006` | ensemble_objets 191796 à 233924 | 300 | 300 | 1247 |
+| `ensembles_objets_007` | ensemble_objets 233925 à 269113 | 300 | 300 | 1387 |
+| `ensembles_objets_008` | ensemble_objets 269114 à 278606 | 300 | 308 | 995 |
+| `ensembles_objets_009` | ensemble_objets 278607 à 279809 | 300 | 300 | 1213 |
+| `ensembles_objets_010` | ensemble_objets 279813 à 283796 | 300 | 300 | 1144 |
+| `ensembles_objets_011` | ensemble_objets 283798 à 291892 | 300 | 300 | 1195 |
+| `ensembles_objets_012` | ensemble_objets 291893 à 298134 | 300 | 300 | 1225 |
+| `ensembles_objets_013` | ensemble_objets 298135 à 364826 | 300 | 300 | 1097 |
+| `ensembles_objets_014` | ensemble_objets 375346 à 399265 | 300 | 300 | 1000 |
+| `ensembles_objets_015` | ensemble_objets 399266 à 406563 | 300 | 305 | 1280 |
+| `ensembles_objets_016` | ensemble_objets 406564 à 429369 | 300 | 300 | 1201 |
+| `ensembles_objets_017` | ensemble_objets 429370 à 487149 | 300 | 300 | 1324 |
+| `ensembles_objets_018` | ensemble_objets 487150 à 499545 | 300 | 300 | 1166 |
+| `ensembles_objets_019` | ensemble_objets 499546 à 515134 | 300 | 300 | 1053 |
+| `ensembles_objets_020` | ensemble_objets 515135 à 579498 | 300 | 300 | 1222 |
+| `ensembles_objets_021` | ensemble_objets 579499 à 667536 | 300 | 300 | 1193 |
+| `ensembles_objets_022` | ensemble_objets 667537 à 700541 | 300 | 300 | 1214 |
+| `ensembles_objets_023` | ensemble_objets 702117 à 734498 | 300 | 300 | 1027 |
+| `ensembles_objets_024` | ensemble_objets 734499 à 918853 | 300 | 300 | 1166 |
+| `ensembles_objets_025` | ensemble_objets 1001635 à 1005776 | 300 | 300 | 1125 |
+| `ensembles_objets_026` | ensemble_objets 1005777 à 1516949 | 300 | 301 | 1154 |
+| `ensembles_objets_027` | ensemble_objets 1516950 à 6016369 | 300 | 302 | 985 |
+| `ensembles_objets_028` | ensemble_objets 6016391 à 6016909 | 300 | 311 | 1138 |
+| `ensembles_objets_029` | ensemble_objets 6016910 à 6021859 | 300 | 308 | 1176 |
+| `ensembles_objets_030` | ensemble_objets 6021860 à 6024554 | 300 | 311 | 1125 |
+| `ensembles_objets_031` | ensemble_objets 6024555 à 6029065 | 300 | 330 | 1270 |
+| `ensembles_objets_032` | ensemble_objets 6029066 à 6031641 | 300 | 320 | 1138 |
+| `ensembles_objets_033` | ensemble_objets 6031642 à 6043798 | 300 | 318 | 1176 |
+| `ensembles_objets_034` | ensemble_objets 6043799 à 6051686 | 300 | 318 | 1027 |
+| `ensembles_objets_035` | ensemble_objets 6051687 à 6416636 | 300 | 300 | 1155 |
+| `ensembles_objets_036` | ensemble_objets 6416637 à 8210175 | 74 | 74 | 263 |
 

@@ -87,7 +87,7 @@ objet	2000122		name	Timewalker Wand	8392374b58b2	Baguette de marcheur du temps	m
 objet	2000124		name	Hellfire Hauberk	7851ce5492de	Haubert des Flammes infernales	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2000128		name	Templar Pants	bf32caf0f50a	Templier Pantalon	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2000130		name	Templar Hauberk	be722a9aa484	Templier Haubert	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	2000150		name	Weak Thunder Ale	a08070ee05ad	Bière Thunder faible	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
+objet	2000150		name	Thunderale	cd4d2b5bbd53		a_traduire		fichier=objets_dbc.json;famille=nom_objet | CoA du 08/11/2026 (commit b39aa861) | anglais avant le 08/11 : « Weak Thunder Ale » | français avant (archive_ascensionfr) : « Bière Thunder faible »
 objet	2000151		name	Fel Morsel	9ad860fdf870	Bouchée gangrenée	machine	claude	archive_refusee=mot_a_mot;D=anglais_inconnu | indice de l'archive (anglais_inconnu, 1 candidat) : « Gangre Morceau » | traduction de Claude (traductions/objets/objets_058.tsv) | lot objets_058
 objet	2000155		name	Crude Leather	89ebe80e715f	Cuir brut	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	2000155		description	Used by Rangers to craft various augments.	5adeadf43a8e	Utilisé par les Rangers pour fabriquer diverses augmentations.	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=desc_objet
@@ -60067,7 +60067,7 @@ objet	4050842		name	Kul Tiras Marine Buckler	de444b297e75	Tache marine de Kul Ti
 objet	4050843		name	Scarlet Lieutenant's Shoulderguards	7ef7966bb285	Garde-épaules du lieutenant écarlate	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	4050844		name	Scarlet Lieutenant's Breastplate	a91cd6397f4f	Cuirasse de lieutenant écarlate	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	4050845		name	Scarlet Lieutenant's Belt	ea3023373551	Ceinture de lieutenant écarlate	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
-objet	4050846		name	Scrlet Lieutenant's Legplates	ac683c82bcda	Cuissards de lieutenant Scrlet	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
+objet	4050846		name	Scarlet Lieutenant's Legplates	9d42fb496819		a_traduire		fichier=objets_dbc.json;famille=nom_objet | CoA du 08/11/2026 (commit b39aa861) | anglais avant le 08/11 : « Scrlet Lieutenant's Legplates » | français avant (archive_ascensionfr) : « Cuissards de lieutenant Scrlet »
 objet	4050847		name	Scarlet Lieutenant's Greaves	c1455e15a84f	Grèves du lieutenant écarlate	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	4050848		name	Scarlet Lieutenant's Gauntlets	b9292c12af19	Gantelets du lieutenant écarlate	machine	archive_ascensionfr	fichier=objets_dbc.json;famille=nom_objet
 objet	4050849		name	Tabard of the Scarlet Crusade	65b1e201d378	Tabard de la Croisade écarlate	officiel	blizzard_frFR	niveau=meme_champ
@@ -147569,3 +147569,5 @@ objet	9707006		description	Summons the prototype Lootbot for its field test.	233
 objet	9707007		name	Field Test Sample	21c2f7911467	Échantillon d'essai sur le terrain	machine	claude	traduction de Claude (traductions/objets/objets_066.tsv) | lot objets_066
 objet	9707008		name	Salvage License Application	826afffb2534	Demande de licence de récupération	machine	claude	traduction de Claude (traductions/objets/objets_066.tsv) | lot objets_066
 objet	9707008		description	Signed in triplicate. Needs one more stamp.	3dae2253248d	Signé en trois exemplaires. Il manque encore un tampon.	machine	claude	traduction de Claude (traductions/objets/objets_066.tsv) | lot objets_066
+objet	9707100		name	Summoner's Stone: Prime Eredar	54ac4b825974		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet	9707100		description	@Man'ari Eredar@	b1a38716f4b8		a_traduire		CoA du 08/11/2026 (commit b39aa861)

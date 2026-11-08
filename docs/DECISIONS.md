@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 08/11/2026 | **Plus de plafond d'API fixé par Dan** : « aucun plafond, tu peux y aller » ; il reste environ 130 € sur la console de l'API. Garde-fou technique de `api_envoyer.py` mis à 200 $ cumulés (81,97 $ déjà estimés), sous le solde de la console. Première dépense : la mise à jour au CoA du 08/11 | Dan |
 | 08/11/2026 | Erydal : « Path of Erydal » garde son nom (décision de vocabulaire 33). Accord de budget de Dan pour la traduction du contenu propre d'Erydal (pack natif) et pour la suite d'Azeroth-FR ; montant du nouveau plafond à fixer avec le chiffrage | Dan |
 | 07/11/2026 | Add-on 0.9.2 installé dans `D:\Wow_Core` (comprend la 0.9.1) : dossiers `Azeroth_FR…` et `Interface\PTRXML` remplacés par ceux du zip ; 84 fichiers, empreintes vérifiées ; zip gardé dans `D:\Azeroth_FR_API` | Dan |
 | 07/11/2026 | Plafond d'API relevé à **85 $** : la première moitié des critères de hauts faits a coûté 3,89 $ (estimation de Claude trop basse, chaque lot embarque beaucoup de contexte) ; la seconde moitié (15 lots, 4 128 textes, ≈ 4,40 $) est traduite | Dan |

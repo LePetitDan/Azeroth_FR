@@ -40,3 +40,11 @@ Le gros du pack d'Erydal est côté client, dans `patch-ZZ.MPQ` (rapport Client-
 
 - Scripts (dans le dépôt) : `collecte/scripts/erydal/export_textes_base.py` (le même export que CoA Core, sur une autre base), `collecte/scripts/erydal/comparer_bases.py` (la comparaison à quatre bases).
 - Exports et comparaison (hors du dépôt) : dossier de travail de la session, `eryd/` (`propres_erydal.csv`, `coa_recent.csv`, `bilan.json`).
+
+## Suite (08/11) : la source passe au CoA du 08/11
+
+Accord de Dan : plus de plafond d'API (environ 130 € restants sur la console ; garde-fou de `api_envoyer.py` à 200 $ cumulés).
+
+- Nouveau fichier `collecte/donnees/coa-core/textes_coa_core_maj_20261108.csv.xz` : les seuls 17 824 textes nouveaux ou modifiés (114 Ko), lus par le nouveau passage `mise_a_jour_coa()` de l'importeur, juste après l'amorce du 02/11.
+- Résultat : **13 667 textes nouveaux à traduire**, 4 154 techniques (règle de l'amorce, et créatures de travail au-dessus du numéro 9 000 000), 1 653 repris d'un texte officiel au même anglais, 3 textes dont l'anglais a changé. Source : 1 571 714 lignes, contrôle 0 bloquant, faux cas 57/57, vrais cas 33/33.
+- Chantier L (`ensembles_objets`, 36 lots) et les lots existants des familles touchées : **50 requêtes prêtes** (`work/api/vague12`), environ 7 $. Envoi dès que le PC de Dan est de nouveau relié (l'envoi part de son PC).

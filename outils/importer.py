@@ -283,6 +283,88 @@ class Importeur:
                 K.journal('import : amorce, %d lignes' % n)
         K.journal('import : amorce terminée, %d lignes' % n)
 
+    def mise_a_jour_coa(self):
+        """08/11/2026 : le CoA du 08/11 (commit b39aa861 : 238 mises à jour de la base du monde depuis 042b38a4, paquet de
+        base inchangé) par-dessus l'amorce, qui reste celle du 02/11. Le fichier ne garde que les 17 824 textes nouveaux ou
+        modifiés (collecte/donnees/coa-core/textes_coa_core_maj_20261108.csv.xz ; reconstruction : rapport
+        docs/collecte/2026-11-08_Rapport_Erydal-et-CoA-recent.md).
+        - texte nouveau : français de la table locale d'AzerothCore s'il y en a un (officiel), sinon à traduire ;
+          les noms techniques comme à l'amorce (est_technique) et les créatures de travail (numéro >= 9 000 000) : technique ;
+        - texte dont l'anglais a changé : le français ancien n'est plus prouvé, la ligne repasse à traduire (l'ancien
+          anglais et l'ancien français vont dans la note) ; jamais sur relu ;
+        - ensuite, un texte à traduire dont le même anglais a UN SEUL français officiel ailleurs dans la source le prend."""
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            'croisement_commun', os.path.join(K.RACINE, 'collecte', 'scripts', 'croisement', 'commun.py'))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        est_technique = mod.est_technique           # la règle de l'amorce (croisement/commun.py)
+        n = Counter()
+        nouvelles = []
+        for r in lire_csv_xz('coa-core', 'textes_coa_core_maj_20261108.csv.xz'):
+            en = r['texte_en']
+            k = (r['type'], r['id'], r['sous_id'], r['champ'])
+            l = self.lignes.get(k)
+            note = 'CoA du 08/11/2026 (commit b39aa861)'
+            tech = est_technique(en, r['type'], r['champ'])
+            if not tech and r['type'] == 'creature':
+                try:
+                    if int(r['id']) >= 9000000:
+                        tech = 'créature de travail (numéro >= 9 000 000)'
+                except ValueError:
+                    pass
+            if r['fr_existant'] and r['origine'] == 'azerothcore' and r['modifie_par_coa'] != '1':
+                fr, etat, src = r['fr_existant'], 'officiel', 'blizzard_frFR'
+                note = joindre(note, r['fr_source'])
+            elif tech:
+                fr, etat, src = '', 'technique', ''
+                note = joindre(note, 'technique : %s' % tech)
+            else:
+                fr, etat, src = '', 'a_traduire', ''
+            if l is None:
+                l = [r['type'], r['id'], r['sous_id'], r['champ'], en, K.empreinte(en), fr, etat, src, note]
+                self.ajouter(l)
+                n['nouvelle:' + etat] += 1
+                nouvelles.append(l)
+                continue
+            if l[K.I_EN] == en:
+                n['inchangee'] += 1
+                continue
+            if l[K.I_ETAT] == 'relu':
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], 'ATTENTION : anglais changé par CoA le 08/11 (« %s »), ligne relue gardée'
+                                      % cite(en, 120))
+                n['relue_gardee'] += 1
+                continue
+            avant = 'anglais avant le 08/11 : %s' % cite(l[K.I_EN], 120)
+            if l[K.I_FR]:
+                avant = joindre(avant, 'français avant (%s) : %s' % (l[K.I_SRC] or l[K.I_ETAT], cite(l[K.I_FR], 120)))
+            l[K.I_EN], l[K.I_EMP], l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = en, K.empreinte(en), fr, etat, src
+            l[K.I_NOTE] = joindre(joindre(l[K.I_NOTE], note), avant)
+            n['modifiee:' + etat] += 1
+            nouvelles.append(l)
+        # même anglais, un seul français officiel ailleurs dans la source (comme « officiel_texte_identique » de l'amorce)
+        a_chercher = {l[K.I_EN] for l in nouvelles if l[K.I_ETAT] == 'a_traduire'}
+        par = defaultdict(set)
+        if a_chercher:
+            for l in self.lignes.values():
+                if l[K.I_ETAT] == 'officiel' and l[K.I_FR] and l[K.I_EN] in a_chercher:
+                    par[l[K.I_EN]].add(l[K.I_FR])
+        for l in nouvelles:
+            if l[K.I_ETAT] != 'a_traduire':
+                continue
+            frs = par.get(l[K.I_EN], set())
+            if len(frs) != 1:
+                continue
+            fr = next(iter(frs))
+            if self.controle(l[K.I_EN], fr, 'officiel', l[K.I_TYPE], l[K.I_ID]):
+                n['meme_anglais_refuse'] += 1
+                continue
+            l[K.I_FR], l[K.I_ETAT], l[K.I_SRC] = fr, 'officiel', 'blizzard_frFR'
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'même anglais qu\'un texte officiel de la source : son français')
+            n['meme_anglais_officiel'] += 1
+        self.cr.update({'maj_coa_20261108:' + a: b for a, b in n.items()})
+        K.journal('import : CoA du 08/11 par-dessus l\'amorce : %s' % dict(sorted(n.items())))
+
     def traiter_a_revoir(self, l, k):
         en = l[K.I_EN]
         s = self.sures.get(k)
@@ -1708,6 +1790,7 @@ def main():
     imp = Importeur()
     imp.charger_relus()
     imp.importer_serveur()
+    imp.mise_a_jour_coa()             # 08/11 : CoA b39aa861
     imp.verifier_quetes()
     imp.importer_client()
     imp.importer_sorts_standard()

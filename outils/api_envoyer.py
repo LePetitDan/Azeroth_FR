@@ -18,7 +18,7 @@ import sys
 import urllib.request
 
 API = 'https://api.anthropic.com/v1/messages/batches'
-PLAFOND_USD = 85.0   # relevé de 50 à 60 $, puis à 75 $ (sorts des objets, vanité), à 80 $ puis à 85 $ (critères des hauts faits) par Dan le 07/11/2026
+PLAFOND_USD = 200.0  # 08/11/2026 : plus de plafond fixé par Dan (≈ 130 € restants sur la console) ; garde-fou technique sous ce solde (avant : 50, 60, 75, 80, 85 $)
 # Prix ESTIMES et volontairement hauts (dollars par million de jetons, avant la remise de 50 % des envois differes) :
 # la vraie depense se lit dans la Console. Ils ne servent qu'a s'arreter avant le plafond.
 PRIX = {'claude-opus-5-5': (15.0, 75.0), 'claude-sonnet-5-5': (3.0, 15.0)}

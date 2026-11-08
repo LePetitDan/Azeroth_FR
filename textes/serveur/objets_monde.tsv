@@ -4158,6 +4158,8 @@ objet_monde	63197		name	Cathedral Square	6642ec170302	Place de la Cathédrale	of
 objet_monde	63198		name	Cathedral Square	6642ec170302	Place de la Cathédrale	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	63517		name	Something Shiny	5717e30eb0f9	Quelque chose de brillant	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	63674		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	gameobject_template_locale
+objet_monde	64601		name	Portal to the Scarab Wall	240c4bd2dd82		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	64604		name	Shrine of Setis	a43f8a1dbfb6		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	64849		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	64850		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	64855		name	Kodo Fossil	f44a104e91bb	Fossile de kodo	officiel	blizzard_frFR	gameobject_template_locale
@@ -5272,6 +5274,7 @@ objet_monde	100028		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	bli
 objet_monde	100035		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
 objet_monde	100575		name	Legion pocket portal	634aef4318df	Portail de poche de la Légion	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
 objet_monde	100576		name	Portal to Blasted Lands	292577a50e12	Portail vers les terres Foudroyées	officiel	blizzard_frFR	niveau=meme_champ
+objet_monde	100626		name	Azerothian Schmorgus Board	b33332e7a97e		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	101748		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	101749		name	Shaman Shrine	301cc409a2a2	Autel du chaman	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	101750		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
@@ -22431,6 +22434,11 @@ objet_monde	375024		name	Sinter Wive's Rope	2f2c6e9f51cf	Corde de femme frittée
 objet_monde	375131		name	Tundrid Supply Cabinet	7b8a8f9ad982	Armoire d'approvisionnement Tundrid	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	375231		name	Box of Smoke Bombs	1cced077acae	Boîte de bombes fumigènes	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	375327		name	Stormscale Supplies	ea9617d2d5a5	Fournitures Stormscale	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	376296		name	Dreamway: Dream Bough	5f3c57a33576		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	376297		name	Dreamway: Bough Shadow	7490cdb87e8f		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	376298		name	Dreamway: Twilight Grove	2088e44eff5e		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	376299		name	Dreamway: Seradane	991e72163241		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	380138		name	Shrine of Setis	a43f8a1dbfb6		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	387849		name	Kodo Supplies	42ce38a40e0c	Fournitures Kodo	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	387850		name	Fishing Box	7a80392eb2a1	Boîte de pêche	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	387852		name	Mercenary Camp Supplies	9d4c4952dfb6	Fournitures de camp de mercenaires	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22449,6 +22457,24 @@ objet_monde	387880		name	Crude Bluegill Totem	7ebdbde959e1	Totem Bluegill brut	m
 objet_monde	387881		name	Borrowed Dark Iron Signet	af89e6273498	Chevalière sombrefer empruntée	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Chevalière en Sombrefer « empruntée » » | anglais que traduisait l'archive : « "Borrowed" Dark Iron Signet » | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	387882		name	Old Dragonmaw Cleaver	7225dfddf746	Vieux couperet Gueule-de-dragon	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	391505		name	Hell's Anvil	ba652daaf8f7	Enclume des enfers	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Forge » | anglais que traduisait l'archive : « Forge » | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
+objet_monde	395676		name	Blessed Forge	674ce1beb6c5		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395715		name	Altar of Bones	0190ccf33a3d		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395721		name	Blessed Skinning Table	71b0d13c6cf5		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395749		name	Elementium Cookfire	da33937a6cb2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395754		name	Hellish Altar	2ef7f9d65ed3		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395763		name	Unearthed Ancient Altar	91422c68ae41		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395780		name	Shadowflame Cookfire	2976a5b3295e		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395787		name	Ghost-Touched Loom	8e9a869cbced		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395797		name	Moonwoven Loom	a2af21cb07f8		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395802		name	Environmentally-Friendly Super Tanner	9d1903a5fe93		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395804		name	Lava Bloom	3402556423e3		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395805		name	Dreadmaul Emberloom	320f319ac920		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395828		name	Thaurissan War Forge	06e49b936f5c		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395831		name	Forge of Ice	2fc78d0a1501		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395843		name	Ravenous Scourgethorn	241dd98ea4d0		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395912		name	Altar of the Sea God	00f72f151b96		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395932		name	Arcane Firepit	9fa06cbb99ae		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395934		name	Pot of Firewater	79528b7bf50c		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	401007		name	Drop-Off Point	7ec56bbcbe09	Point de l'échange	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	402000		name	Hero's Call Board	1a45a990d960	Tableau d'appel aux héros	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | correction mécanique du glossaire : Tableau d'appel (Tableau des appels)
 objet_monde	402001		name	Warchief's Command Board	6a3bb90ee47f	Tableau de commandement du chef de guerre	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22913,6 +22939,31 @@ objet_monde	836218		name	Moonrest Supplies	3f0945717ca1	Fournitures de repos lun
 objet_monde	911649		name	Eye of Rokan	3342f691db63	Œil de Rokan	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	922365		name	Dusty Plate	1e992a78a197	Assiette poussiéreuse	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	922366		name	Polished Plaque	21806833e1b9	Plaque polie	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	967017		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967019		name	Sanguine Workbench	507bdc01c8e1		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967030		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967031		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967033		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967034		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967035		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967036		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967037		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967038		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967039		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967040		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967041		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967042		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967043		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967044		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967045		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967046		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967047		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967048		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967049		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967050		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967051		name	Hidden Cache	e442e152513a		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967052		name	Rare Hidden Cache	fedcae66a0dc		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	967053		name	Epic Hidden Cache	b970f380f7f2		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	994300		name	High-Risk Spoils	89741cad0e2b	Butin à haut risque	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	994311		name	Crow's Cache	93fb280bb95f	Cache du Corbeau	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	994312		name	Dropped Crow's Cache	fb0b4e93fc59	Cache du Corbeau tombée	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
@@ -23236,11 +23287,13 @@ objet_monde	2300565		name	Doodad_InstanceNewPortal_Purple01	c106a89a8915		techni
 objet_monde	2300566		name	Doodad_InstanceNewPortal_Purple_Skull01	6788a0a584ea		technique		technique=nom_technique
 objet_monde	2300567		name	Doodad_InstancePortal_Green_5Man_Mythic01	948737b50b89		technique		technique=nom_technique
 objet_monde	2300568		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	niveau=meme_champ
+objet_monde	2300575		name	SinisterLair Dungeon Web Door	7907b62aa96b		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	2300576		name	Inquisitorial Dungeon TowerBoss Barrier	e82003cea07d	Tour du donjon inquisitorialBarrière de boss	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300577		name	Inquisitorial Dungeon Kobold Wax Door	a3c8129b7239	Porte de cire Kobold du donjon inquisitorial	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300579		name	Kobold Warren	0ee576cce942	Kobold Warren	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300580		name	Dun Morogh Tree	d5271fb5c441	Arbre Dun Morogh	machine	archive_ascensionfr	fichier=fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;famille=id;propage_depuis_B
 objet_monde	2300580		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
+objet_monde	2300583		name	SinisterLair Dungeon Web Door	7907b62aa96b		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	2300586		name	Zandalari Urn (Blue)	d53ed6458780	Urne Zandalari (Bleu)	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300587		name	Muzah Arena Gate (Entrance)	90098f072435	Porte de l'arène de Muzah (entrée)	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	2300588		name	Muzah Arena Gate (Exit)	c6918de13d21	Porte de l'arène de Muzah (sortie)	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Trésor Kobold » | anglais que traduisait l'archive : « Kobold Treasure » | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
@@ -23430,6 +23483,7 @@ objet_monde	2310445		name	templeofembers 1st boss door	b6ad70975227		a_traduire
 objet_monde	2310461		name	SWS door	2de0f7c0630a		a_traduire		
 objet_monde	2310500		name	Hakkar Worship Altar	2933d975c263	Autel de culte à Hakkar	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
 objet_monde	2399001		name	Braicag Heights Watchtower Charge Point	2f7127fc3b3c	Point de charge de la tour de guet des hauts de Braicag	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
+objet_monde	2399002		name	Cooking Fire Spell Focus	ce07787b0c5d		a_traduire		CoA du 08/11/2026 (commit b39aa861)
 objet_monde	2541700		name	Water Bucket	53f3b23ecf3d	Seau d'eau	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	3208962		name	Forsaken Tent 02	67d06c9e55c8	Tente abandonnée 02	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	3224605		name	Bag of Herbs	73ada70c8258	Sac d'herbes	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -23580,3 +23634,4 @@ objet_monde	9900045		name	Brambleblade Blade	74ed7b9bc821	Lame de la lame de ron
 objet_monde	9900046		name	Apprentice Staff	38a56c39f6fb	Personnel apprenti	machine	archive_ascensionfr	fichier=fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;famille=id;propage_depuis_B
 objet_monde	9900046		castBarCaption	Looting	9cfc1fc8f618	Ramassage du butin	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	9900047		name	Recipe: Kixxle's Experimental Potion	7524e195f265	Recette : potion expérimentale de Kixxle	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
+objet_monde	9900048		name	Sitting Skeleton 01	01014b9b96a4	Squelette assis 01	officiel	blizzard_frFR	CoA du 08/11/2026 (commit b39aa861) | même anglais qu'un texte officiel de la source : son français
