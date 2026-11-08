@@ -15,7 +15,7 @@
 | Espace ajouté en fin de nom | 1 | « Phantom Legplates » |
 
 - **Le renommage a aussi touché 87 textes de Blizzard** qui n'ont rien à voir avec Ascension : la quête « Seal of Ascension » du pic Rochenoire, « Stop the Ascension! » et le « Vrykul Scroll of Ascension » du Norfendre, des dialogues du pic Rochenoire. Pour ceux-là, le français officiel de Blizzard reste le bon (« Le sceau d'ascension », « Arrêter l'ascension ! »). À signaler à Shyro.
-- **L'encodage abîmé** se voit en jeu chez lui, en anglais (« â€œ » au lieu des guillemets). Le pack français le corrige de fait pour ces textes ; à signaler à Shyro aussi.
+- **L'encodage abîmé** touche 382 textes de la copie, alors que 392 autres textes à guillemets ou accents sont intacts : impossible de dire d'ici si c'est dans sa base ou seulement dans l'export ; à faire vérifier en jeu par Shyro. Le pack français le corrige de fait pour ces textes.
 - **Conséquence pour le pack d'Erydal, côté serveur : presque rien à traduire.** Les 775 renommages se traitent par une règle (le français de CoA, où « Ascension » devient « Erydal », et « Path of Erydal » reste tel quel, décision 33) ; les 3 vraies modifications, à la main. Les « 2 021 textes, environ 2 $ » du 06/11 étaient en fait **du CoA récent**.
 
 ## Le CoA récent (commun à Azeroth-FR et à Erydal)
