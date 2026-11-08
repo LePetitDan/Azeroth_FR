@@ -42,3 +42,7 @@
 | 22 | Voie de l'Ascension, tutoriel JcJ | Mêmes causes que les n° 11 et 14 | 0.9.1 si le texte est connu ; à revérifier en jeu |
 
 `/azfr bulle` a servi (objet « synchroniseur ») : la ligne « -> sort de l'objet … trouvé : non (sort nil) » a montré que le sort manquait à la source.
+
+### 08/11 : mise à jour du lanceur de CoA (version « 2026-11-07-01 »)
+
+Vérifié après la mise à jour : les 84 fichiers de l'add-on 0.9.3 et `Interface\PTRXML` sont intacts (mêmes tailles, version 0.9.3). Seul `Data\patch-B.MPQ` a changé ; comparé fichier par fichier à la version précédente, un seul fichier de code est modifié : `Interface\FrameXML\ChatFrame.lua` (insignes du personnel de CoA dans la discussion : MJ, DEV, MOD, CM, ADMIN, sous forme d'icônes). Pas de texte à traduire, rien qui touche les crochets de l'add-on. Les autres fichiers « nouveaux » de l'archive sont des images, des sons et des signatures, que notre extraction ne garde pas.
