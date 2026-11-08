@@ -2,6 +2,8 @@
 
 *06/11/2026. Client installé par Dan avec le lanceur d'Erydal dans `D:\Erydal`, lu en lecture seule et comparé au client CoA de `D:\Wow_Core`. Les dossiers `WTF`, `Logs`, `Cache` et `Crashes` (comptes, personnages) n'ont pas été ouverts. Aucun fichier d'Erydal n'est versionné : ce sont des fichiers privés de Shyro.*
 
+> **Correction du 08/11** : voir `2026-11-08_Rapport_Erydal-et-CoA-recent.md`. La base du monde et les DBC de `patch-ZZ` sont ceux de CoA, plus un renommage « Ascension » → « Erydal » ; les chiffres de « textes inconnus » ci-dessous mélangeaient le CoA récent ou les sorts de CoA absents de notre source avec le contenu d'Erydal. Le contenu vraiment propre à Erydal : ≈ 250 textes côté client, 3 côté serveur, et ses fichiers d'interface.
+
 ## En bref
 
 Le client Erydal est **le client CoA (révision 8, « descension-names-20260924»), plus une archive à lui : `Data\patch-ZZ.MPQ` (141 Mo)**. Tout le reste est identique octet pour octet, ou presque : mêmes noms et mêmes tailles pour les 211 fichiers communs.

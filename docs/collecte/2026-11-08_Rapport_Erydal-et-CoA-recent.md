@@ -32,9 +32,25 @@ Dépôt `Conquest-of-AzerothCore/azerothcore-wotlk-coa`, du commit `042b38a4` (0
 
 Coût estimé à la traduction (textes courts, comme les critères de hauts faits) : **environ 6,50 $**. C'est une mise à jour d'Azeroth-FR ; Erydal en profite automatiquement (il a déjà 6 720 de ces textes, et aura le reste à sa prochaine mise à jour).
 
-## Ce qui reste à obtenir de Shyro (pour le client)
+## Côté client : `patch-ZZ.MPQ`, c'est aussi CoA plus le renommage (correction du 06/11)
 
-Le gros du pack d'Erydal est côté client, dans `patch-ZZ.MPQ` (rapport Client-Erydal du 06/11) : son `Spell.dbc` entièrement refait (≈ 830 000 mots inconnus), ses défis, ses saisons. Il faut savoir d'où vient ce `Spell.dbc` et comment il fabrique `patch-ZZ.MPQ`, avant d'engager quoi que ce soit.
+Réponse de Shyro (08/11) : `patch-ZZ` sert surtout à remplacer des interfaces du jeu. Vérifié table par table, en comparant chaque DBC de `patch-ZZ` à sa version dans les archives de CoA (patch-T, patch-S, patch-M) :
+
+| | Textes |
+|---|---:|
+| `Spell.dbc` : sur 529 297 textes, identiques à CoA | 528 891 |
+| `Spell.dbc` : renommés « Ascension » → « Erydal » (300 sorts, dont « Spiritual Ascension » → « Spiritual Erydal ») | 406 |
+| Les 27 autres DBC : textes renommés de la même façon | 1 151 |
+| Les 27 autres DBC : **textes vraiment nouveaux** | **≈ 250, ≈ 2 200 mots** : 229 hauts faits (« Obtain 45,000 Runes of Erydal », saisons), 14 messages de `GlobalStrings` (abonnement, boutique), 3 pages de tutoriel, 2 mots-clés (boutique Erydal, points de don)… |
+
+**Le rapport du 06/11 se trompait** : ses « 98 511 textes différents » et ses « 830 000 mots inconnus » comparaient le `Spell.dbc` de `patch-ZZ` à notre source (qui ne prend que les sorts utilisés), pas au `Spell.dbc` de CoA. Ces textes sont ceux de CoA, communs à Azeroth-FR : il n'y a pas 60 $ de traduction propre à Erydal.
+
+Reste propre à Erydal côté client : ces ≈ 250 textes, et ses **32 fichiers d'interface** (Lua, XML) avec de l'anglais écrit en dur. Le pack natif devra les reprendre en français à chaque mise à jour de `patch-ZZ`.
+
+## Ce qui reste à obtenir de Shyro
+
+- Comment il fabrique `patch-ZZ.MPQ` (outil, fichiers de départ), pour que le patch français se reconstruise par-dessus à chaque mise à jour.
+- Où se trouve le module de logement (housing).
 
 ## Fichiers
 

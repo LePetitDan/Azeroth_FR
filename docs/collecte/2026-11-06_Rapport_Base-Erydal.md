@@ -2,6 +2,8 @@
 
 *06/11/2026. Copie de la base `coa_world` fournie par Shyro (compte à lui seul, lecture), exportée par HeidiSQL dans `D:\Erydal_FR\coa_world.sql` (665 Mo, 420 tables, export complet). Chargée dans la base MySQL de travail (`erydal_world`), puis passée dans le même script que CoA Core (`collecte/scripts/coa-core/export_textes.py`). Pas de comptes ni de personnages dans cette base. Le fichier reste privé, hors du dépôt.*
 
+> **Correction du 08/11** : voir `2026-11-08_Rapport_Erydal-et-CoA-recent.md`. La base du monde et les DBC de `patch-ZZ` sont ceux de CoA, plus un renommage « Ascension » → « Erydal » ; les chiffres de « textes inconnus » ci-dessous mélangeaient le CoA récent ou les sorts de CoA absents de notre source avec le contenu d'Erydal. Le contenu vraiment propre à Erydal : ≈ 250 textes côté client, 3 côté serveur, et ses fichiers d'interface.
+
 ## En bref
 
 - **La structure est celle de CoA Core**, avec 5 tables en plus : `ascension_callboard_contract`, `ascension_class_stats`, `ascension_race_class_stats`, `coa_cosmetic_pet_appearance` (sans doute du CoA plus récent que notre collecte du 02/11) et `playerbots_rpg_races` (module de bots). **Aucune table de housing** : le module de logement n'est pas dans la base du monde.
