@@ -126,3 +126,15 @@ Pas encore : le suivi des hauts faits à droite de l'écran (le cadre de suivi c
 ### Contrôles
 
 Source reconstruite : 1 553 893 lignes ; contrôle **0 bloquant** ; faux cas refusés 57/57, vrais cas acceptés 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1. Banc hors jeu **conforme** : 142 exemples, 298 vérifications, dont la fenêtre des hauts faits (nom, description et sa copie cachée, récompense, deux critères, catégorie, alerte), la classe et la spécialisation en capitales, le libellé « Change Active Specialization ». Mémoire Lua : 30,5 Mo à la connexion, 198,7 Mo au pire (tout chargé). Données des hauts faits : 5,0 Mo, chargées à l'ouverture de la fenêtre. Zip `Azeroth_FR-0.9.2.zip` (25,3 Mo). Dépense d'API estimée : **81,97 $ / 85 $**.
+
+## 8. Version 0.9.3 : le CoA du 08/11
+
+*08/11/2026. Accord de Dan : plus de plafond d'API (environ 130 € restants sur la console). Détail de la collecte : `docs/collecte/2026-11-08_Rapport_Erydal-et-CoA-recent.md`.*
+
+- **Source au CoA du 08/11** (commit `b39aa861`, 238 mises à jour de la base du monde depuis le 02/11) : 17 824 textes nouveaux ou modifiés, lus par le passage `mise_a_jour_coa()` de l'importeur. 4 154 sont techniques (créatures de travail), 1 653 reprennent le français officiel du même anglais.
+- **Traduction** : chantier L (`ensembles_objets`, 36 lots, 10 574 noms de pièces d'ensembles comme « Sinful Gladiator's Sleek Cape ») et les nouveaux textes des quêtes, créatures, dialogues, objets du monde et cris : 50 requêtes, 4 relances, **7,78 $** ; dépense estimée totale **89,75 $**.
+- Aucun changement du code de l'add-on : seules les données grossissent.
+
+### Contrôles
+
+Source : 1 571 714 lignes, contrôle **0 bloquant**, faux cas refusés 57/57, vrais cas acceptés 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc hors jeu **conforme** (142 exemples, 298 vérifications). Zip `Azeroth_FR-0.9.3.zip` (25,6 Mo).

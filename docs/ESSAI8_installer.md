@@ -46,13 +46,19 @@ Pas encore : l'écran de **création de personnage** (archétypes, aide au choix
 
 Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des personnages.
 
+### 0.9.3 : le CoA du 08/11
+
+*Même installation, zip `Azeroth_FR-0.9.3.zip`, avec ton accord, jeu fermé.*
+
+- Les textes ajoutés par CoA entre le 02/11 et le 08/11 : 10 574 noms de pièces d'ensembles d'objets, des créatures, des quêtes, des dialogues ; le reste de l'add-on ne change pas.
+
 **Pour comprendre ce qui reste en anglais** : `/azfr bulle`, tapée pendant qu'une infobulle est affichée, écrit dans la discussion chaque ligne telle que l'add-on la voit.
 
 ## Ce que tu peux regarder (15 minutes)
 
 | # | Où | Ce qu'on doit voir |
 |---|---|---|
-| 1 | `/azfr version` | « version 0.9.0 » (après la mise à jour : « 0.9.2 ») |
+| 1 | `/azfr version` | « version 0.9.0 » (après les mises à jour : « 0.9.2 », puis « 0.9.3 ») |
 | 2 | Maître de classe (Livre de l'Ascension), puis maître de monte | Noms des sorts, « (Rang 1) », descriptions en français |
 | 3 | Journal des quêtes : « Enquête sur la crête aux échos » | Description en français, avec ton nom |
 | 4 | Ouvrir un sac ; survoler un loup de quête, un arbre à couper, un point de la minicarte | En français |
@@ -75,3 +81,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 - Banc hors jeu **conforme** : 128 exemples, 272 vérifications, dont les nouveaux cas de la 0.9 (nom d'Épreuve, gabarit à nombres, tutoriel de 4 pages, bulle de mot-clé, émotes, catégorie d'objets limités, titre, famille, suffixe).
 - **0.9.1** : source 1 520 621 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 61 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 138 exemples, 287 vérifications (pierre de foyer à recharge, bulle d'Épreuve remplie après coup, tutoriel à mots-clés liés, annexe, mentorat, barre « Looting », vanité, talent « Storm Chaser », sort cité sous un talent).
 - **0.9.2** : source 1 553 893 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 142 exemples, 298 vérifications (fenêtre des hauts faits, capitales de la fenêtre des talents, libellés de CoA) ; zip 25,3 Mo.
+- **0.9.3** : source 1 571 714 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; banc **conforme**, 142 exemples, 298 vérifications ; zip 25,6 Mo.
