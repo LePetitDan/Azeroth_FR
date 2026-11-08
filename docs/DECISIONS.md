@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 08/11/2026 | Add-on 0.9.4 installé dans `D:\Wow_Core` : dossiers `Azeroth_FR…` et `Interface\PTRXML` remplacés par ceux du zip ; 84 fichiers, 94 370 614 octets, comme la fabrication ; zip gardé dans `D:\Azeroth_FR_API` | Dan |
 | 08/11/2026 | Hauts faits propres à CoA : la traduction machine de la release 3.5.1 (noms, descriptions, récompenses, catégories ; 39 209 lignes) est **écartée et retraduite** par l'API (chantier M, 23 823 textes, vague 13 : 25,59 $ ; total estimé 115,34 $) ; l'ancien français reste en note, jamais en indice | Claude, en application de l'exigence de Dan (noms et classes justes) et de la décision 24 ; Dan prévenu le 08/11 (« dans ton accord sans plafond ») |
 | 08/11/2026 | Usage des Épreuves repris pour les hauts faits, sans nouvelle décision : « Hardcore » et « Ironman » gardés, « High Risk » = « Haut risque », « Nightmare Mode » = « Mode Cauchemar » ; « Ascended » reste en anglais (question 21 de `A_TRANCHER.md`) | Cohérence avec la fenêtre des Épreuves déjà traduite |
 | 08/11/2026 | Écran de sélection des personnages : classe et zone traduites par le paquet d'avant-jeu (PTRXML) ; le nom du royaume reste celui du serveur | Demande de Dan |
