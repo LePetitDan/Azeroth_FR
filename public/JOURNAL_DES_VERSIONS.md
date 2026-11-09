@@ -2,6 +2,10 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
+## 1.1.1 (2026-11-10)
+
+- **Le Discord Azeroth_FR** est indiqué partout : bouton « Rejoindre le Discord » dans l'installateur, adresse dans le panneau d'options. C'est là que sont annoncées les versions et que l'on signale les erreurs.
+
 ## 1.1.0 (2026-11-09)
 
 - **L'installateur se met à jour tout seul** : à son lancement, il regarde sur GitHub s'il existe une version plus récente, la télécharge, vérifie le fichier et l'installe. Vous gardez le même installateur d'une version à l'autre. Sans connexion, il installe la version qu'il contient.

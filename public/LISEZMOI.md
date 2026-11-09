@@ -4,6 +4,8 @@
 
 **[Télécharger la dernière version](https://github.com/LePetitDan/Azeroth_FR/releases/latest)** : l'installateur (le plus simple) ou le zip (installation à la main).
 
+**[Rejoindre le Discord Azeroth_FR](https://discord.gg/kFJGDJbeay)** : annonces des versions, aide à l'installation, signalement des erreurs de traduction.
+
 Azeroth_FR est un add-on de traduction française pour le serveur **Conquest of Azeroth Core** (client World of Warcraft 3.3.5a). Il met le jeu en français pendant que vous jouez. Les fichiers du jeu ne sont pas modifiés, et les autres joueurs ne voient aucune différence.
 
 > Projet de joueurs, sans lien avec Blizzard Entertainment ni avec l'équipe de Conquest of Azeroth.
@@ -50,7 +52,7 @@ Le zip installe deux choses :
 
 **Relancez l'installateur que vous avez déjà** : il regarde sur GitHub s'il existe une version plus récente, la télécharge et l'installe quand vous cliquez sur **Mettre à jour**. Inutile de le retélécharger.
 
-**Comment savoir qu'une version est sortie ?** En jeu, si un joueur de votre guilde ou de votre groupe a une version plus récente, Azeroth_FR vous l'écrit dans la discussion et dans son panneau d'options. Les annonces sont aussi faites sur le Discord Azeroth_FR.
+**Comment savoir qu'une version est sortie ?** En jeu, si un joueur de votre guilde ou de votre groupe a une version plus récente, Azeroth_FR vous l'écrit dans la discussion et dans son panneau d'options. Les annonces sont aussi faites sur le [Discord Azeroth_FR](https://discord.gg/kFJGDJbeay).
 
 À la main : fermez le jeu, supprimez les dossiers `Azeroth_FR…` de `Interface\AddOns`, puis extrayez le nouveau zip comme à l'installation. Le découpage des données change d'une version à l'autre : sans cette suppression, de vieux fichiers resteraient.
 
@@ -81,7 +83,7 @@ Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez si
 
 ## Signaler une erreur
 
-Sur le Discord **Azeroth_FR**, envoyez :
+Sur le [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay), envoyez :
 - une capture d'écran ;
 - l'endroit du jeu (fenêtre, PNJ, sort, objet) ;
 - pour une infobulle, ce qu'écrit `/azfr bulle` pendant qu'elle est affichée.

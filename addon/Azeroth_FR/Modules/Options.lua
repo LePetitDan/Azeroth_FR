@@ -8,6 +8,7 @@
 local A = AzerothFR
 
 A.LIEN_SOUTIEN = "buymeacoffee.com/LePetitDan"
+A.LIEN_DISCORD = "discord.gg/kFJGDJbeay"
 
 local MODULES = {
     { "bulles", "Bulles des PNJ" },
@@ -37,6 +38,29 @@ local function Case(parent, libelle)
     c.libelle = Texte(parent, "GameFontHighlight", libelle)
     c.libelle:SetPoint("LEFT", c, "RIGHT", 2, 1)
     return c
+end
+
+-- Une adresse a copier (Ctrl+C) : le jeu ne peut pas ouvrir un lien. La zone revient toujours a l'adresse.
+local function Adresse(parent, adresse)
+    local z = CreateFrame("EditBox", nil, parent)
+    z:SetAutoFocus(false)
+    z:SetFontObject(GameFontHighlight)
+    z:SetWidth(300)
+    z:SetHeight(22)
+    z:SetBackdrop({
+        bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 10,
+        insets = { left = 2, right = 2, top = 2, bottom = 2 },
+    })
+    z:SetBackdropColor(0, 0, 0, 0.5)
+    z:SetBackdropBorderColor(0.6, 0.6, 0.6, 0.8)
+    z:SetTextInsets(6, 6, 0, 0)
+    z:SetText(adresse)
+    z:SetScript("OnTextChanged", function(self) if self:GetText() ~= adresse then self:SetText(adresse) end end)
+    z:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
+    z:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
+    z:SetScript("OnEnterPressed", function(self) self:ClearFocus() end)
+    return z
 end
 
 local function Coupe(module)
@@ -122,39 +146,24 @@ local function Construire()
         precedent = c
     end
 
-    local signaler = Texte(p, "GameFontHighlightSmall", "Une erreur de traduction ? Survolez le texte, tapez /azfr bulle, puis envoyez une capture d'écran sur le Discord Azeroth_FR.")
-    signaler:SetPoint("TOPLEFT", precedent, "BOTTOMLEFT", 2, -28)
+    -- (1.1.1) le Discord : nouvelles, aide, signalements
+    local signaler = Texte(p, "GameFontHighlightSmall", "Nouvelles versions, aide, erreur de traduction : tout se passe sur le Discord Azeroth_FR. Pour signaler un texte, survolez-le, tapez /azfr bulle et envoyez une capture d'écran.")
+    signaler:SetPoint("TOPLEFT", precedent, "BOTTOMLEFT", 2, -16)
     signaler:SetWidth(520)
+    p.discord = Adresse(p, A.LIEN_DISCORD)
+    p.discord:SetPoint("TOPLEFT", signaler, "BOTTOMLEFT", 6, -6)
     local commandes = Texte(p, "GameFontDisableSmall", "Commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr bulle, /azfr aide.")
-    commandes:SetPoint("TOPLEFT", signaler, "BOTTOMLEFT", 0, -8)
+    commandes:SetPoint("TOPLEFT", p.discord, "BOTTOMLEFT", -6, -8)
     commandes:SetWidth(520)
     -- (1.0.1, demande de Dan) « Soutenir le createur » : le jeu ne peut pas ouvrir un lien ; l'adresse est dans une
     -- zone de saisie pour etre copiee (Ctrl+C). La zone revient toujours a l'adresse : on ne peut pas la modifier.
     local soutien = Texte(p, "GameFontNormal", "Soutenir le créateur")
-    soutien:SetPoint("TOPLEFT", commandes, "BOTTOMLEFT", 0, -22)
+    soutien:SetPoint("TOPLEFT", commandes, "BOTTOMLEFT", 0, -14)
     local soutien2 = Texte(p, "GameFontHighlightSmall", "Azeroth_FR est gratuit et le restera. Si la traduction vous plaît, vous pouvez offrir un café à Dan : cliquez sur l'adresse, copiez-la (Ctrl+C) et ouvrez-la dans votre navigateur.")
     soutien2:SetPoint("TOPLEFT", soutien, "BOTTOMLEFT", 0, -4)
     soutien2:SetWidth(520)
-    local lien = CreateFrame("EditBox", nil, p)
-    lien:SetAutoFocus(false)
-    lien:SetFontObject(GameFontHighlight)
-    lien:SetWidth(300)
-    lien:SetHeight(22)
-    lien:SetPoint("TOPLEFT", soutien2, "BOTTOMLEFT", 6, -6)
-    lien:SetBackdrop({
-        bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
-        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 10,
-        insets = { left = 2, right = 2, top = 2, bottom = 2 },
-    })
-    lien:SetBackdropColor(0, 0, 0, 0.5)
-    lien:SetBackdropBorderColor(0.6, 0.6, 0.6, 0.8)
-    lien:SetTextInsets(6, 6, 0, 0)
-    lien:SetText(A.LIEN_SOUTIEN)
-    lien:SetScript("OnTextChanged", function(self) if self:GetText() ~= A.LIEN_SOUTIEN then self:SetText(A.LIEN_SOUTIEN) end end)
-    lien:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
-    lien:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
-    lien:SetScript("OnEnterPressed", function(self) self:ClearFocus() end)
-    p.lien = lien
+    p.lien = Adresse(p, A.LIEN_SOUTIEN)
+    p.lien:SetPoint("TOPLEFT", soutien2, "BOTTOMLEFT", 6, -6)
 
     local mention = Texte(p, "GameFontDisableSmall", "Projet de joueurs, sans lien avec Blizzard Entertainment ni avec l'équipe de Conquest of Azeroth.")
     mention:SetPoint("BOTTOMLEFT", p, "BOTTOMLEFT", 16, 16)

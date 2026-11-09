@@ -30,6 +30,7 @@ const ROUGE: Color32 = Color32::from_rgb(244, 120, 120);
 
 const PAGE_PROJET: &str = "https://github.com/LePetitDan/Azeroth_FR";
 const PAGE_SOUTIEN: &str = "https://buymeacoffee.com/LePetitDan";
+const PAGE_DISCORD: &str = "https://discord.gg/kFJGDJbeay";
 
 #[derive(Clone, Copy, PartialEq)]
 enum Etape {
@@ -619,7 +620,7 @@ impl App {
         });
         carte(ui, |ui| {
             ui.add(egui::Label::new(RichText::new(
-                "Une erreur, un texte resté en anglais ? Dites-le sur le Discord Azeroth_FR. Pour les prochaines versions, relancez simplement cet installateur : il se met à jour tout seul.",
+                "Nouvelles versions, aide, texte resté en anglais : tout se passe sur le Discord Azeroth_FR. Pour les prochaines versions, relancez simplement cet installateur : il se met à jour tout seul.",
             ).color(DOUX)).wrap());
             ui.add(egui::Label::new(RichText::new(
                 "Azeroth_FR est gratuit et le restera. Si la traduction vous plaît, vous pouvez offrir un café à Dan.",
@@ -628,7 +629,10 @@ impl App {
                 if ui.add(egui::Button::new(RichText::new("☕ Soutenir le créateur").color(NUIT).strong()).fill(CRISTAL)).clicked() {
                     ouvrir(PAGE_SOUTIEN);
                 }
-                if ui.add(bouton_secondaire("Ouvrir la page du projet")).clicked() {
+                if ui.add(bouton_secondaire("Rejoindre le Discord")).clicked() {
+                    ouvrir(PAGE_DISCORD);
+                }
+                if ui.add(bouton_secondaire("Page du projet")).clicked() {
                     ouvrir(PAGE_PROJET);
                 }
             });
@@ -894,7 +898,7 @@ fn main() -> eframe::Result<()> {
     };
     let mut vp = egui::ViewportBuilder::default()
         .with_title(format!("Azeroth_FR {} : installation", installation::VERSION))
-        .with_inner_size([600.0, 660.0])
+        .with_inner_size([600.0, 690.0])
         .with_resizable(false);
     if let Some(i) = icone() {
         vp = vp.with_icon(Arc::new(i));
