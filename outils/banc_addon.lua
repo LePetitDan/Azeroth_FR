@@ -1421,6 +1421,8 @@ if P then
     noter(A.ModuleActif("plaques") == false and A.ModuleActif("bulles") == true, "panneau : case « Plaques de nom » coupe ce module seul")
     P.cases.plaques:Click()
     noter(A.ModuleActif("plaques") == true, "panneau : case « Plaques de nom » le remet")
+    -- 1.1.1 : adresse du Discord
+    noter(P.discord ~= nil and P.discord:GetText() == "discord.gg/kFJGDJbeay", "panneau : adresse du Discord affichée")
     -- 1.0.1 : encart « Soutenir le createur »
     noter(P.lien ~= nil and P.lien:GetText() == A.LIEN_SOUTIEN and A.LIEN_SOUTIEN == "buymeacoffee.com/LePetitDan", "panneau : adresse de soutien affichée")
     if P.lien then
