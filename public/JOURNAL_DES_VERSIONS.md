@@ -2,6 +2,12 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
+## 1.0.1 (2026-11-09)
+
+- **Carte du monde** : le nom de la zone survolée (avec ses niveaux) et les listes « Continent » et « Zone » sont en français.
+- **Soutenir le créateur** : un encart dans l'installateur et dans le panneau d'options, pour ceux qui veulent offrir un café.
+- Correction des textes : Conquest of Azeroth a 21 classes.
+
 ## 1.0.0 (2026-11-09) : première version publique
 
 - **Installateur guidé**, étape par étape : Bienvenue, Dossier du jeu, Installation, C'est prêt.
@@ -19,7 +25,7 @@ Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-1
 
 ## 0.9.5 (2026-11-09)
 
-- **Tous les sorts des 32 classes vérifiés.** Les 6 925 capacités, talents et passifs ont été contrôlés un à un, puis relus.
+- **Tous les sorts des 21 classes vérifiés.** Avec les classes d'origine du jeu, 6 925 capacités, talents et passifs ont été contrôlés un à un, puis relus.
 - **Noms cohérents.** Un sort, une spécialisation ou un nom cité porte le même nom partout : grimoire, talents, descriptions, fenêtres de CoA.
 - **Texte détaillé des sorts** (touche MAJ) en français, avec « Maintenez MAJ pour plus d'informations ».
 - **Écran de sélection** : « Courrier non lu ».

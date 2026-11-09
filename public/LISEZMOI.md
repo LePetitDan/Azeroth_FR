@@ -10,7 +10,7 @@ Azeroth_FR est un add-on de traduction française pour le serveur **Conquest of 
 
 ## Ce qui est traduit
 
-- **Les sorts, talents et passifs des 32 classes** : noms, rangs, descriptions, auras, texte détaillé (touche MAJ).
+- **Les sorts, talents et passifs des 21 classes** : noms, rangs, descriptions, auras, texte détaillé (touche MAJ).
 - **Les quêtes** : titres, textes, objectifs, suivi, récompenses.
 - **Les objets** : noms, descriptions, lignes « Utiliser : » et « Équipé : », ensembles.
 - **Le monde** : créatures, PNJ et leurs dialogues, cris, bulles, zones, carte, minicarte, objets du monde.
@@ -86,10 +86,15 @@ Ne partagez jamais votre identifiant ni votre mot de passe. Évitez aussi de mon
 
 ## Limites connues
 
+- **La carte du monde** : les grands noms peints sur la carte (« Eastern Kingdoms », « The Great Sea ») sont des images du jeu, un add-on ne peut pas les changer.
 - **Ce qui reste en anglais.** Quelques termes propres à Conquest of Azeroth gardent leur nom anglais, comme la difficulté *Ascended* ou *Worldforged*. Les noms propres inventés par CoA (personnages, la plupart des lieux) restent tels quels, comme dans le jeu français de Blizzard pour ses propres noms. Quelques textes encore récents (boutique, enchantements mystiques) attendent leur traduction.
 - **Les mises à jour de Conquest of Azeroth** ajoutent des textes : ils restent en anglais jusqu'à la version suivante d'Azeroth_FR.
 - **Les messages des joueurs** ne sont pas traduits.
 - **Le nom de vos ennemis dans le journal de combat** peut rester en anglais.
+
+## Soutenir le créateur
+
+Azeroth_FR est gratuit et le restera. Si la traduction vous plaît, vous pouvez [offrir un café à Dan](https://buymeacoffee.com/LePetitDan).
 
 ## Licence
 

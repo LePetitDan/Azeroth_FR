@@ -123,20 +123,69 @@ table.insert(A.AEntreeEnJeu, TraduireTexteDeZone)
 -- Carte du monde : nom de la zone survolee (pose a chaque image par WorldMapButton_OnUpdate),
 -- titre de la fenetre, texte des listes deroulantes (continent, zone).
 -- ----------------------------------------------------------------------------
+-- (1.0.1) Le client CoA ajoute a la zone survolee ses niveaux, colores : « Western Plaguelands |cffff2020(51-60)|r ».
+-- On traduit le nom et on garde la suite telle quelle.
+local function NomZoneAvecNiveaux(t)
+    local fr = NomZone(t)
+    if fr then return fr end
+    local nom, suite = string.match(t, "^(.-)(%s*|c%x%x%x%x%x%x%x%x%([^%)]*%)|r)$")
+    if not nom then nom, suite = string.match(t, "^(.-)(%s+%([%d%s%-%+]+%))$") end
+    if not nom or nom == "" then return nil end
+    fr = NomZone(nom)
+    return fr and (fr .. suite) or nil
+end
+A.NomZoneAvecNiveaux = NomZoneAvecNiveaux
+
 local function TraduireCarte()
     if not A.Actif() then return end
-    TraduireZoneTexte(WorldMapFrameAreaLabel)
+    TraduireZoneTexte(WorldMapFrameAreaLabel, NomZoneAvecNiveaux)
     TraduireZoneTexte(WorldMapFrameTitle)
     TraduireZoneTexte(WorldMapZoneDropDownText)
     TraduireZoneTexte(WorldMapContinentDropDownText)
 end
 A.TraduireCarte = TraduireCarte
 if WorldMapButton and WorldMapButton.HookScript then
-    WorldMapButton:HookScript("OnUpdate", P("WorldMapButton.OnUpdate", function() TraduireZoneTexte(WorldMapFrameAreaLabel) end, true))
+    WorldMapButton:HookScript("OnUpdate", P("WorldMapButton.OnUpdate", function()
+        if A.Actif() then TraduireZoneTexte(WorldMapFrameAreaLabel, NomZoneAvecNiveaux) end
+    end, true))
 end
 for _, fn in ipairs({ "WorldMapFrame_SetMapName", "WorldMapZoneDropDown_Update", "WorldMapContinentsDropDown_Update" }) do
     if type(_G[fn]) == "function" then hooksecurefunc(fn, P(fn, TraduireCarte)) end
 end
 if WorldMapFrame and WorldMapFrame.HookScript then
     WorldMapFrame:HookScript("OnShow", P("WorldMapFrame.OnShow", TraduireCarte))
+end
+
+-- (1.0.1) Listes deroulantes « Continent » et « Zone » de la carte : les lignes de la liste ouverte.
+-- On ne change que le texte des boutons (le choix se fait par leur numero) et, si le francais est plus long,
+-- la largeur de la liste ; aucune variable du jeu n'est ecrite. Seules ces deux listes sont concernees.
+local LISTES_CARTE = { WorldMapZoneDropDown = true, WorldMapContinentDropDown = true }
+local function TraduireListeCarte()
+    if not A.Actif() then return end
+    local ouverte = UIDROPDOWNMENU_OPEN_MENU
+    if type(ouverte) == "table" and type(ouverte.GetName) == "function" then ouverte = ouverte:GetName() end
+    if not ouverte or not LISTES_CARTE[ouverte] then return end
+    local liste = DropDownList1
+    if not liste or type(liste.IsShown) ~= "function" or not liste:IsShown() then return end
+    local large, boutons = 0, {}
+    for i = 1, (UIDROPDOWNMENU_MAXBUTTONS or 32) do
+        local b = _G["DropDownList1Button" .. i]
+        if not b then break end
+        if type(b.IsShown) ~= "function" or b:IsShown() then
+            TraduireZoneTexte(b)
+            boutons[#boutons + 1] = b
+            if type(b.GetTextWidth) == "function" then
+                local w = (b:GetTextWidth() or 0) + 40
+                if w > large then large = w end
+            end
+        end
+    end
+    if large > 0 and type(liste.GetWidth) == "function" and large + 25 > (liste:GetWidth() or 0) then
+        for _, b in ipairs(boutons) do if type(b.SetWidth) == "function" then b:SetWidth(large) end end
+        liste:SetWidth(large + 25)
+    end
+end
+A.TraduireListeCarte = TraduireListeCarte
+if type(ToggleDropDownMenu) == "function" then
+    hooksecurefunc("ToggleDropDownMenu", P("ToggleDropDownMenu.carte", TraduireListeCarte))
 end
