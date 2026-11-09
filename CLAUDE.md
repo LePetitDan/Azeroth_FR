@@ -3,6 +3,7 @@
 Dan (LePetitDan) dirige et valide ; il ne code pas : ne jamais lui demander d'écrire du code ou des commandes. Tout est en français.
 
 ## Lire d'abord
+- **Pour Erydal (serveur de Shyro)** : `docs/2026-11-10_Fiche_Reprise_Erydal.md`, la fiche de reprise de ce volet.
 - `docs/2026-11-03_Fiche_Reprise_Azeroth-FR.md` : où on en est, les décisions de Dan, les questions ouvertes.
 - `docs/DECISIONS.md` : le journal des arbitrages. On y ajoute une ligne datée à chaque décision.
 - `docs/2026-11-03_Synthese_Azeroth-FR-etat-des-lieux-et-plan.md` : les chiffres et le plan par étapes.
