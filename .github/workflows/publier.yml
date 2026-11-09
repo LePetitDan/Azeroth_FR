@@ -1,0 +1,19 @@
+name: Publier la version
+on:
+  push:
+    branches: ['publication-*']
+permissions:
+  contents: write
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérifier les fichiers et créer la version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          v="${GITHUB_REF_NAME#publication-}"
+          sha256sum -c SHA256SUMS.txt
+          gh release create "v$v" --target main --title "Azeroth_FR $v" --notes-file NOTES.md \
+            "Azeroth_FR-Installateur-$v.exe" "Azeroth_FR-Installateur-$v-linux" "Azeroth_FR-$v.zip" SHA256SUMS.txt
