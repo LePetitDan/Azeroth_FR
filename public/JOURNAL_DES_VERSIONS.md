@@ -2,6 +2,11 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
+## 1.1.0 (2026-11-09)
+
+- **L'installateur se met à jour tout seul** : à son lancement, il regarde sur GitHub s'il existe une version plus récente, la télécharge, vérifie le fichier et l'installe. Vous gardez le même installateur d'une version à l'autre. Sans connexion, il installe la version qu'il contient.
+- **En jeu, « une nouvelle version est disponible »** : quand un joueur de votre guilde ou de votre groupe a une version plus récente d'Azeroth_FR, un message vous le dit, et le panneau d'options aussi.
+
 ## 1.0.1 (2026-11-09)
 
 - **Carte du monde** : le nom de la zone survolée (avec ses niveaux) et les listes « Continent » et « Zone » sont en français.

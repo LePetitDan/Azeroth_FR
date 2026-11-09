@@ -1428,6 +1428,52 @@ if P then
         noter(P.lien:GetText() == A.LIEN_SOUTIEN, "panneau : l'adresse de soutien ne peut pas être modifiée")
     end
 end
+-- 1.1.0 : « une nouvelle version est disponible » (messages entre add-ons : guilde, groupe)
+do
+    noter(A.VersionPlusRecente("1.10.0", "1.9.9") and not A.VersionPlusRecente("1.0.0", "1.0.0") and not A.VersionPlusRecente("abc", "1.0.0") and not A.VersionPlusRecente("999999999999999.0.0", "1.0.0"), "version : comparaison des numéros")
+    local envois, messages = {}, {}
+    local avant = { SendAddonMessage, IsInGuild, GetTime, GetNumRaidMembers, GetNumPartyMembers, DEFAULT_CHAT_FRAME, A.VERSION }
+    local heure = 1000
+    SendAddonMessage = function(p, m, c) table.insert(envois, p .. "|" .. m .. "|" .. c) end
+    IsInGuild = function() return true end
+    GetTime = function() return heure end
+    GetNumRaidMembers = function() return 0 end
+    GetNumPartyMembers = function() return 0 end
+    DEFAULT_CHAT_FRAME = { AddMessage = function(_, m) table.insert(messages, m) end }
+    A.VERSION = "1.1.0"
+    AzerothFR_Reglages.version_vue = nil
+    Declencher("PLAYER_ENTERING_WORLD")
+    egal("version : annonce à la guilde à l'entrée en jeu", envois[1], "AZFR|V:1.1.0|GUILD")
+    noter(#messages == 0 and A.NouvelleVersion() == nil, "version : rien à signaler tant qu'aucune version plus récente n'est vue")
+    Declencher("CHAT_MSG_ADDON", "AUTRE", "V:9.0.0", "GUILD", "Quelquun")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:9.0.0; os.exit()", "GUILD", "Quelquun")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "n'importe quoi", "GUILD", "Quelquun")
+    noter(A.NouvelleVersion() == nil and #messages == 0, "version : préfixe étranger et messages mal formés ignorés")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:1.2.0", "GUILD", "Quelquun")
+    egal("version : une version plus récente est retenue", A.NouvelleVersion(), "1.2.0")
+    noter(#messages == 1 and string.find(messages[1], "1.2.0", 1, true) ~= nil and string.find(messages[1], "installateur", 1, true) ~= nil, "version : le joueur est prévenu dans la discussion")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:1.2.0", "GUILD", "Quelquun")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:1.3.0", "GUILD", "Quelquun")
+    noter(#messages == 1 and A.NouvelleVersion() == "1.3.0", "version : prévenu une seule fois par session, la plus récente retenue")
+    local Pm = A.Options and A.Options()
+    if Pm and Pm.maj then
+        Pm.refresh()
+        noter(string.find(Pm.maj:GetText() or "", "1.3.0", 1, true) ~= nil, "version : affichée dans le panneau d'options")
+    end
+    local n = #envois
+    heure = heure + 120
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:1.0.0", "PARTY", "Quelquun")
+    egal("version : réponse à un joueur en retard", envois[n + 1], "AZFR|V:1.1.0|PARTY")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:1.0.0", "PARTY", "Quelquun")
+    noter(#envois == n + 1, "version : au plus un envoi par minute et par canal")
+    Declencher("CHAT_MSG_ADDON", "AZFR", "V:1.0.0", "WHISPER", "Quelquun")
+    noter(#envois == n + 1, "version : pas de réponse en message privé")
+    A.VERSION = "1.3.0"
+    Declencher("PLAYER_ENTERING_WORLD")
+    noter(AzerothFR_Reglages.version_vue == nil and A.NouvelleVersion() == nil, "version : après la mise à jour, l'information est oubliée")
+    SendAddonMessage, IsInGuild, GetTime, GetNumRaidMembers, GetNumPartyMembers, DEFAULT_CHAT_FRAME, A.VERSION = avant[1], avant[2], avant[3], avant[4], avant[5], avant[6], avant[7]
+    if Pm then Pm.refresh() end
+end
 -- 1.0.1 : carte du monde, zone survolee avec ses niveaux (ajout du client CoA) et listes deroulantes
 do
     local fr = A.NomZone("Western Plaguelands")

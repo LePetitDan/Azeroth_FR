@@ -243,12 +243,19 @@ fn ptr_est_le_notre(p: &Path) -> bool {
 
 /// Installe (ou met à jour) : retire l'ancienne version, extrait le zip embarqué, vérifie chaque fichier.
 pub fn installer(dossier: &Path, progres: &dyn Fn(f32, &str), retenir: bool) -> Result<Rapport, String> {
+    installer_archive(dossier, ZIP, progres, retenir)
+}
+
+/// La même installation, depuis une archive donnée (celle de l'exécutable, ou une version téléchargée).
+pub fn installer_archive(dossier: &Path, zip: &[u8], progres: &dyn Fn(f32, &str), retenir: bool) -> Result<Rapport, String> {
     if !dossier_valide(dossier) {
         return Err("Ce dossier ne contient pas le jeu (Ascension.exe introuvable).".into());
     }
     if jeu_ouvert() {
         return Err("Le jeu est ouvert : fermez-le, puis recommencez.".into());
     }
+    // l'archive est ouverte avant tout retrait : une archive illisible ne laisse pas le jeu sans traduction
+    zip::ZipArchive::new(Cursor::new(zip)).map_err(|e| format!("Archive illisible : {}", e))?;
     progres(0.0, "Retrait de l'ancienne version…");
     for d in nos_dossiers(dossier) {
         fs::remove_dir_all(&d).map_err(|e| expliquer(&format!("Impossible de retirer {}", d.display()), &e))?;
@@ -264,7 +271,7 @@ pub fn installer(dossier: &Path, progres: &dyn Fn(f32, &str), retenir: bool) -> 
             mis_de_cote = true;
         }
     }
-    let mut archive = zip::ZipArchive::new(Cursor::new(ZIP)).map_err(|e| format!("Archive illisible : {}", e))?;
+    let mut archive = zip::ZipArchive::new(Cursor::new(zip)).map_err(|e| format!("Archive illisible : {}", e))?;
     let total = archive.len();
     let (mut fichiers, mut octets) = (0usize, 0u64);
     for i in 0..total {
