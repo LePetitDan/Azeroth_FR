@@ -1,14 +1,15 @@
 //! Installateur d'Azeroth_FR : un assistant en quatre étapes (Bienvenue, Dossier du jeu, Installation, C'est prêt)
 //! qui trouve le dossier du jeu, installe ou met à jour la traduction, et peut la désinstaller. Le zip de l'add-on
-//! est dans l'exécutable : rien n'est téléchargé.
+//! est dans l'exécutable ; si GitHub annonce une version plus récente, c'est elle qui est téléchargée (maj.rs).
 //!
 //! Modes sans fenêtre, pour les essais : `--test-installer <dossier> <rapport>`, `--test-desinstaller <dossier>
-//! <rapport>`, `--test-corriger <dossier> <rapport>`, `--test-chercher <rapport>` ; `--capture <png> [<dossier>
-//! [<étape>]]` enregistre une image de la fenêtre puis la ferme (étapes : bienvenue, dossier, introuvable, attente,
+//! <rapport>`, `--test-corriger <dossier> <rapport>`, `--test-chercher <rapport>`, `--test-maj <rapport> [<dossier>]` ; `--capture <png> [<dossier>
+//! [<étape>]]` enregistre une image de la fenêtre puis la ferme (étapes : bienvenue, dossier, maj, introuvable, attente,
 //! installation, erreur, fini).
 #![windows_subsystem = "windows"]
 
 mod installation;
+mod maj;
 
 use eframe::egui::{self, Color32, RichText};
 use std::path::PathBuf;
@@ -47,6 +48,15 @@ enum Etat {
     Erreur(String),
 }
 
+/// Ce que GitHub a répondu sur la dernière version publiée.
+#[derive(Clone, PartialEq)]
+enum Maj {
+    EnCours,
+    Aucune,
+    Disponible(maj::Disponible),
+    Injoignable,
+}
+
 #[derive(Clone, PartialEq)]
 enum Recherche {
     Non,
@@ -59,6 +69,7 @@ struct Partage {
     fraction: f32,
     message: String,
     recherche: Recherche,
+    maj: Maj,
 }
 
 struct App {
@@ -96,7 +107,7 @@ impl App {
             installee,
             jeu_ouvert: installation::jeu_ouvert(),
             dernier_controle: Instant::now(),
-            partage: Arc::new(Mutex::new(Partage { etat: Etat::Attente, fraction: 0.0, message: String::new(), recherche: Recherche::Non })),
+            partage: Arc::new(Mutex::new(Partage { etat: Etat::Attente, fraction: 0.0, message: String::new(), recherche: Recherche::Non, maj: Maj::Aucune })),
             arret_recherche: Arc::new(AtomicBool::new(false)),
             confirmer_desinstallation: false,
             erreur_desinstallation: None,
@@ -105,12 +116,30 @@ impl App {
             logo: decoder_png(include_bytes!("../assets/logo192.png"))
                 .map(|(rgba, l, h)| cc.egui_ctx.load_texture("logo", egui::ColorImage::from_rgba_unmultiplied([l as usize, h as usize], &rgba), Default::default())),
         };
+        if !essai {
+            app.partage.lock().unwrap().maj = Maj::EnCours;
+            let (partage, ctx) = (app.partage.clone(), cc.egui_ctx.clone());
+            std::thread::spawn(move || {
+                let r = match maj::verifier(installation::VERSION) {
+                    Ok(Some(d)) => Maj::Disponible(d),
+                    Ok(None) => Maj::Aucune,
+                    Err(_) => Maj::Injoignable,
+                };
+                partage.lock().unwrap().maj = r;
+                ctx.request_repaint();
+            });
+        }
         // mode essai : montrer une étape précise, sans rien installer
         if let Some(e) = etape.as_deref() {
             app.figer = true;
             let mut p = app.partage.lock().unwrap();
             match e {
                 "dossier" => app.etape = Etape::Dossier,
+                "maj" => {
+                    app.etape = Etape::Dossier;
+                    app.installee = Some(installation::VERSION.to_string());
+                    p.maj = Maj::Disponible(maj::Disponible { version: "9.9.9".into(), url_zip: String::new(), taille: 27 * 1024 * 1024, url_sommes: None });
+                }
                 "introuvable" => {
                     app.etape = Etape::Dossier;
                     app.dossier = None;
@@ -142,6 +171,15 @@ impl App {
             drop(p);
         }
         app
+    }
+
+    /// La version qui sera installée : la dernière publiée si GitHub en annonce une plus récente, sinon celle
+    /// que l'installateur transporte.
+    fn cible(&self) -> String {
+        match &self.partage.lock().unwrap().maj {
+            Maj::Disponible(d) => d.version.clone(),
+            _ => installation::VERSION.to_string(),
+        }
     }
 
     fn retenir_dossier(&mut self, p: PathBuf) {
@@ -222,14 +260,39 @@ impl App {
                 p.message = m.to_string();
                 c2.request_repaint();
             };
-            let r = installation::installer(&dossier, &progres, true);
+            // une version plus récente est publiée : on la télécharge ; en cas d'échec, on installe celle
+            // que l'installateur transporte et on le dit
+            let dispo = match &partage.lock().unwrap().maj {
+                Maj::Disponible(d) => Some(d.clone()),
+                _ => None,
+            };
+            let mut notes: Vec<String> = Vec::new();
+            let mut archive: Option<Vec<u8>> = None;
+            if let Some(d) = &dispo {
+                let moitie = |f: f32, m: &str| progres(f * 0.6, m);
+                match maj::telecharger(d, &moitie) {
+                    Ok(z) => archive = Some(z),
+                    Err(e) => notes.push(format!(
+                        "La version {} n'a pas pu être téléchargée ({}) : c'est la version {} de cet installateur qui est installée.",
+                        d.version, e, installation::VERSION
+                    )),
+                }
+            }
+            let r = match &archive {
+                Some(z) => {
+                    let suite = |f: f32, m: &str| progres(0.6 + f * 0.4, m);
+                    installation::installer_archive(&dossier, z, &suite, true)
+                }
+                None => installation::installer(&dossier, &progres, true),
+            };
             let mut p = partage.lock().unwrap();
             p.etat = match r {
-                Ok(r) => Etat::Fini(if r.ptr_mis_de_cote {
-                    "Un ancien fichier PTR.xml a été mis de côté ; la désinstallation le remettra en place.".to_string()
-                } else {
-                    String::new()
-                }),
+                Ok(r) => {
+                    if r.ptr_mis_de_cote {
+                        notes.push("Un ancien fichier PTR.xml a été mis de côté ; la désinstallation le remettra en place.".to_string());
+                    }
+                    Etat::Fini(notes.join(" "))
+                }
                 Err(e) => Etat::Erreur(e),
             };
             ctx.request_repaint();
@@ -258,7 +321,7 @@ impl App {
             ui.vertical(|ui| {
                 ui.add_space(6.0);
                 ui.label(RichText::new("Azeroth_FR").family(egui::FontFamily::Name("titre".into())).size(36.0).color(OR));
-                ui.label(RichText::new(format!("Conquest of Azeroth en français · version {}", installation::VERSION)).size(15.0).color(CRISTAL));
+                ui.label(RichText::new(format!("Conquest of Azeroth en français · version {}", self.cible())).size(15.0).color(CRISTAL));
             });
         });
         ui.add_space(2.0);
@@ -301,7 +364,7 @@ impl App {
             for l in [
                 "Il trouve le dossier du jeu, ou vous aide à le trouver.",
                 "Il n'ajoute que la traduction : les fichiers du jeu ne sont pas modifiés.",
-                "Rien n'est téléchargé, aucun compte ni mot de passe n'est demandé.",
+                "Il regarde sur GitHub s'il existe une version plus récente. Aucun compte ni mot de passe n'est demandé.",
                 "Vous pourrez tout retirer avec ce même assistant.",
             ] {
                 ui.horizontal_top(|ui| {
@@ -325,8 +388,12 @@ impl App {
     }
 
     fn page_dossier(&mut self, ui: &mut egui::Ui, ctx: &egui::Context) {
-        let recherche = self.partage.lock().unwrap().recherche.clone();
+        let (recherche, etat_maj) = {
+            let p = self.partage.lock().unwrap();
+            (p.recherche.clone(), p.maj.clone())
+        };
         let cherche = matches!(recherche, Recherche::EnCours(_));
+        let cible = self.cible();
         carte(ui, |ui| {
             ui.label(RichText::new("OÙ EST LE JEU ?").size(12.0).color(DOUX).strong());
             match &self.dossier {
@@ -334,8 +401,8 @@ impl App {
                     ui.label(RichText::new("✔ Nous avons trouvé votre jeu").size(18.0).color(VERT));
                     ui.add(egui::Label::new(RichText::new(d.to_string_lossy()).size(16.0).color(TEXTE)).wrap());
                     let texte = match &self.installee {
-                        Some(v) if v == installation::VERSION => format!("Azeroth_FR {} y est déjà installé : vous pouvez le réinstaller.", v),
-                        Some(v) => format!("Azeroth_FR {} y est installé : il sera remplacé par la version {}.", v, installation::VERSION),
+                        Some(v) if *v == cible => format!("Azeroth_FR {} y est déjà installé : vous êtes à jour.", v),
+                        Some(v) => format!("Azeroth_FR {} y est installé : il sera remplacé par la version {}.", v, cible),
                         None => "Azeroth_FR n'y est pas encore installé.".to_string(),
                     };
                     ui.label(RichText::new(texte).color(DOUX));
@@ -402,9 +469,28 @@ impl App {
             });
         });
 
+        // ce que GitHub dit de la dernière version
+        match &etat_maj {
+            Maj::Disponible(d) => carte(ui, |ui| {
+                ui.label(RichText::new("NOUVELLE VERSION").size(12.0).color(OR).strong());
+                ui.add(egui::Label::new(RichText::new(format!(
+                    "La version {} est disponible : elle sera téléchargée depuis GitHub ({:.0} Mo) puis installée.",
+                    d.version, d.taille as f32 / 1_048_576.0
+                )).color(TEXTE)).wrap());
+            }),
+            Maj::EnCours => {
+                ui.label(RichText::new("Recherche d'une version plus récente…").size(13.0).color(DOUX));
+            }
+            Maj::Injoignable => {
+                ui.add(egui::Label::new(RichText::new(format!(
+                    "Pas de connexion à GitHub : c'est la version {} de cet installateur qui sera installée.", installation::VERSION
+                )).size(13.0).color(DOUX)).wrap());
+            }
+            Maj::Aucune => {}
+        }
         ui.add_space(4.0);
         let libelle = match &self.installee {
-            Some(v) if v == installation::VERSION => "Réinstaller",
+            Some(v) if *v == cible => "Réinstaller",
             Some(_) => "Mettre à jour",
             None => "Installer",
         };
@@ -502,14 +588,20 @@ impl App {
                     self.etape = Etape::Dossier;
                 }
             }
-            Etat::Fini(_) => self.etape = Etape::Fini,
+            Etat::Fini(_) => {
+                if let Some(d) = &self.dossier {
+                    self.installee = installation::version_installee(d);
+                }
+                self.etape = Etape::Fini
+            }
         }
     }
 
     fn page_fini(&mut self, ui: &mut egui::Ui, ctx: &egui::Context, note: &str) {
         carte(ui, |ui| {
             ui.label(RichText::new("C'est prêt !").family(egui::FontFamily::Name("titre".into())).size(26.0).color(VERT));
-            ui.label(RichText::new(format!("Azeroth_FR {} est installé. Voici la suite :", installation::VERSION)).size(17.0).color(TEXTE));
+            let v = self.installee.clone().unwrap_or_else(|| installation::VERSION.to_string());
+            ui.label(RichText::new(format!("Azeroth_FR {} est installé. Voici la suite :", v)).size(17.0).color(TEXTE));
             ui.add_space(4.0);
             for (n, l) in [
                 "Lancez le jeu avec le lanceur, comme d'habitude. Si le lanceur propose un « nettoyage des add-ons », laissez-le décoché : sinon il retire la traduction.",
@@ -527,7 +619,7 @@ impl App {
         });
         carte(ui, |ui| {
             ui.add(egui::Label::new(RichText::new(
-                "Une erreur, un texte resté en anglais ? Dites-le sur le Discord Azeroth_FR.",
+                "Une erreur, un texte resté en anglais ? Dites-le sur le Discord Azeroth_FR. Pour les prochaines versions, relancez simplement cet installateur : il se met à jour tout seul.",
             ).color(DOUX)).wrap());
             ui.add(egui::Label::new(RichText::new(
                 "Azeroth_FR est gratuit et le restera. Si la traduction vous plaît, vous pouvez offrir un café à Dan.",
@@ -751,6 +843,28 @@ fn essai(args: &[String]) -> bool {
             let t = match installation::corriger(&PathBuf::from(d)) {
                 Some(p) => format!("OK {}\n", p.display()),
                 None => "RIEN\n".to_string(),
+            };
+            (t, PathBuf::from(r))
+        }
+        [m, r, ..] if m == "--test-maj" => {
+            // ce que répond GitHub pour un installateur qui transporterait la version 0.0.1, puis téléchargement vérifié
+            let t = match maj::verifier("0.0.1") {
+                Ok(Some(d)) => match maj::telecharger(&d, &|_, _| {}) {
+                    Ok(z) => {
+                        let mut t = format!("OK version {} : {} octets, empreinte vérifiée ; pour {} : {:?}\n", d.version, z.len(), installation::VERSION, maj::verifier(installation::VERSION).map(|x| x.map(|d| d.version)));
+                        // avec un dossier : la version téléchargée y est installée
+                        if let Some(dossier) = args.get(2) {
+                            t.push_str(&match installation::installer_archive(&PathBuf::from(dossier), &z, &|_, _| {}, false) {
+                                Ok(r) => format!("OK installé {} depuis le téléchargement : {} fichiers\n", r.version, r.fichiers),
+                                Err(e) => format!("ERREUR {}\n", e),
+                            });
+                        }
+                        t
+                    }
+                    Err(e) => format!("ERREUR téléchargement {} : {}\n", d.version, e),
+                },
+                Ok(None) => "RIEN\n".to_string(),
+                Err(e) => format!("INJOIGNABLE {}\n", e),
             };
             (t, PathBuf::from(r))
         }

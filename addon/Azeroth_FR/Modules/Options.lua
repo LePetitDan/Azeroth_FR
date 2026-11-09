@@ -46,6 +46,16 @@ end
 
 local function Rafraichir()
     if not panneau then return end
+    -- (1.1.0) une version plus recente a ete vue chez un autre joueur
+    local nouvelle = A.NouvelleVersion and A.NouvelleVersion()
+    if panneau.maj then
+        if nouvelle then
+            panneau.maj:SetText("Nouvelle version " .. nouvelle .. " disponible : fermez le jeu et relancez l'installateur.")
+            panneau.maj:Show()
+        else
+            panneau.maj:Hide()
+        end
+    end
     local actif = A.Actif()
     panneau.francais:SetChecked(actif)
     for _, m in ipairs(MODULES) do
@@ -78,6 +88,10 @@ local function Construire()
     local version = GetAddOnMetadata and GetAddOnMetadata("Azeroth_FR", "Version") or ""
     local sous = Texte(p, "GameFontHighlightSmall", "Conquest of Azeroth en français · version " .. tostring(version))
     sous:SetPoint("TOPLEFT", titre, "BOTTOMLEFT", 0, -6)
+
+    p.maj = Texte(p, "GameFontGreen", "")
+    p.maj:SetPoint("TOPLEFT", sous, "BOTTOMLEFT", 0, -6)
+    p.maj:Hide()
 
     p.francais = Case(p, "Jeu en français")
     p.francais:SetPoint("TOPLEFT", logo, "BOTTOMLEFT", -2, -18)

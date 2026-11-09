@@ -30,7 +30,7 @@ Les noms officiels viennent du client français de Blizzard (« Éclair de givre
 3. Lancez le jeu avec le lanceur. S'il propose un **« nettoyage des add-ons »**, laissez-le **décoché** : sinon il retire la traduction.
 4. À l'écran des personnages, le bouton **AddOns** doit montrer **Azeroth_FR** coché.
 
-**Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal : l'installateur n'est pas signé (un certificat coûte cher pour un projet de joueurs). Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. L'installateur ne touche qu'aux dossiers d'Azeroth_FR et n'a pas besoin d'internet.
+**Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal : l'installateur n'est pas signé (un certificat coûte cher pour un projet de joueurs). Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. L'installateur ne touche qu'aux dossiers d'Azeroth_FR ; sans internet, il installe la version qu'il contient.
 
 Sous Linux, rendez le fichier exécutable (clic droit, Propriétés, « Autoriser l'exécution ») avant de le lancer.
 
@@ -48,9 +48,13 @@ Le zip installe deux choses :
 
 ## Mettre à jour
 
-Avec l'installateur : lancez la nouvelle version et cliquez sur **Mettre à jour**.
+**Relancez l'installateur que vous avez déjà** : il regarde sur GitHub s'il existe une version plus récente, la télécharge et l'installe quand vous cliquez sur **Mettre à jour**. Inutile de le retélécharger.
+
+**Comment savoir qu'une version est sortie ?** En jeu, si un joueur de votre guilde ou de votre groupe a une version plus récente, Azeroth_FR vous l'écrit dans la discussion et dans son panneau d'options. Les annonces sont aussi faites sur le Discord Azeroth_FR.
 
 À la main : fermez le jeu, supprimez les dossiers `Azeroth_FR…` de `Interface\AddOns`, puis extrayez le nouveau zip comme à l'installation. Le découpage des données change d'une version à l'autre : sans cette suppression, de vieux fichiers resteraient.
+
+**Ce qui passe par internet.** L'installateur ne contacte que GitHub, pour connaître la dernière version et la télécharger ; il n'envoie rien sur vous. En jeu, l'add-on échange avec les autres joueurs d'Azeroth_FR de votre guilde ou de votre groupe un message invisible qui ne contient que son numéro de version.
 
 ## Désinstaller
 
