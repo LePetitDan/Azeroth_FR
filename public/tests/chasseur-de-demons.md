@@ -1,0 +1,200 @@
+# Fiche de test : Chasseur de démons
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Démonologie
+
+- [ ] **Commandant ardent** (Spécialisation) — capacité, sort n° 92089
+- [ ] **Chasseur de démons meurtrier** (Deprecated) — capacité, sort n° 500063
+- [ ] **Apprenti gangrené** (Passif de spécialisation) — capacité, sort n° 500066
+- [ ] **Monstruosité gangrenée** (Spécialisation) — capacité, sort n° 500067
+- [ ] **Cris éternels** (Passif) — capacité, sort n° 704608
+- [ ] **Résolution offensive** (Passif) — capacité, sort n° 704609
+- [ ] **Mille entailles** (Passif) — capacité, sort n° 704610
+- [ ] **Finesse au combat** (Passif) — capacité, sort n° 704611
+- [ ] **Pacte vengeur** (Rang 1) — capacité, sort n° 800029
+- [ ] **Pacte de feu démoniaque** — capacité, sort n° 800031
+- [ ] **Embrocher (attraction)** — capacité, sort n° 800153
+- [ ] **Aura d'immolation** (Rang 1) — capacité, sort n° 800207
+- [ ] **Intuition illidari** (Rang 1) — capacité, sort n° 800212
+- [ ] **Armée du contremaître** (Passif) — capacité, sort n° 800220
+- [ ] **Le démon intérieur** — capacité, sort n° 800222 🔍 MAJ
+- [ ] **Crâne de Gul'dan** — capacité, sort n° 800225
+- [ ] **Étreinte du mal** (Passif) — capacité, sort n° 800352
+- [ ] **Œil d'Archimonde** — capacité, sort n° 804052
+- [ ] **Écailles démoniaques** — capacité, sort n° 804218
+- [ ] **Fatalité infernale** (Passif) — capacité, sort n° 804219
+- [ ] **Trahison** — capacité, sort n° 804220
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Renforcement gangrené** — capacité, sort n° 804334
+- [ ] **Pacte gangrené de la Légion** — capacité, sort n° 804764
+- [ ] **La vengeance est mienne** (Passif) — capacité, sort n° 804822
+- [ ] **Résolution tyrannique** — capacité, sort n° 804823
+- [ ] **Murmures de l'abîme** — capacité, sort n° 805235
+- [ ] **Folie de Grommash** (Passif) — capacité, sort n° 805236 🔀 talents
+- [ ] **Offrande des damnés** (SLS) — capacité, sort n° 805237
+- [ ] **Cercle mycélien** (Passif) — capacité, sort n° 805238
+- [ ] **Haine ardente** — capacité, sort n° 805239
+- [ ] **Regard du tyran** (Rang 1) — capacité, sort n° 805240
+- [ ] **Claquement de fouet infernal** — capacité, sort n° 805243 🔀 talents
+- [ ] **Marche de la légion** (Passif) — capacité, sort n° 805244 🔀 talents
+- [ ] **Robustesse démoniaque** (Passif) — capacité, sort n° 805245
+- [ ] **Démon massif** (Spécialisation) — capacité, sort n° 805246
+- [ ] **Brûlure de mana** — capacité, sort n° 805248
+- [ ] **Entraînement illidari** (Passif) — capacité, sort n° 805249
+- [ ] **Sabots piétineurs** — capacité, sort n° 805251
+- [ ] **Mort et décomposition** (Invocateur) — capacité, sort n° 805252
+- [ ] **Rage de Mannoroth** (Passif) — capacité, sort n° 805255
+- [ ] **Constitution infernale** (Passif) — capacité, sort n° 805256
+- [ ] **Incantation de gangreflammes** (Passif) — capacité, sort n° 805998
+- [ ] **Ruse** (Passif) — talent, sort n° 300465
+- [ ] **Endurance impie** (Passif) — talent, sort n° 300466
+- [ ] **Armure infernale** (Passif) — talent, sort n° 300467
+- [ ] **Barrière illidari** (Passif) — talent, sort n° 300468 🔍 MAJ
+- [ ] **Seigneur noir** (Passif) — talent, sort n° 300470
+- [ ] **Éliminer l'Avantage** (Passif) — talent, sort n° 300471
+- [ ] **Équarrisseur** (Passif) — talent, sort n° 300473
+- [ ] **Exposition** (Passif) — talent, sort n° 300474
+- [ ] **Traître** — talent, sort n° 300476
+- [ ] **Rempart d'Azzinoth** (Passif) — talent, sort n° 705122
+- [ ] **Esclavagiste de l'Outreterre** (Rang 1) — talent, sort n° 705123
+- [ ] **Fin du gardien** (Passif) — talent, sort n° 705125
+- [ ] **Tu triches, Gul'dan !** (Passif) — talent, sort n° 705127
+- [ ] **Protections impénétrables** (Rang 2) — talent, sort n° 705128
+- [ ] **Barrière forgée par la haine** (Rang 1) — talent, sort n° 705129
+- [ ] **Torpeur gangrenée** (Passif) — talent, sort n° 705131
+- [ ] **Armements de la Légion** (Rang 1) — talent, sort n° 706266
+- [ ] **Gangreflot** (Passif) — talent, sort n° 706267
+
+## Gangresang
+
+- [ ] **Apprenti gangrené** (Spécialisation) — capacité, sort n° 92088
+- [ ] **Fléau du chaos** (Rang 1) — capacité, sort n° 704368 🔍 MAJ
+- [ ] **Malédiction d'Argus** (Passif) — capacité, sort n° 704370
+- [ ] **Faiblesse** — capacité, sort n° 704371
+- [ ] **Décalage du Néant** (Passif) — capacité, sort n° 704372
+- [ ] **Gangretourmenté** (Passif) — capacité, sort n° 704374
+- [ ] **Mauvais oeil** (Passif) — capacité, sort n° 704375
+- [ ] **Frappeur chaotique** (Passif) — capacité, sort n° 704377
+- [ ] **Prodige de Gul'dan** (Passif) — capacité, sort n° 704378
+- [ ] **Souffle de Mannoroth** (Rang 1) — capacité, sort n° 800205
+- [ ] **Découpe** — capacité, sort n° 800206 🔍 MAJ
+- [ ] **Malveillance de Gul'dan** (Passif) — capacité, sort n° 800214
+- [ ] **Aura d'immolation** (Brûlure de puissance) — capacité, sort n° 800218
+- [ ] **Étreinte de Sargeras** — capacité, sort n° 800355
+- [ ] **Boule de feu gangrenée** (Rang 1) — capacité, sort n° 801312 🔀 talents
+- [ ] **Gangrefrappes** (Passif) — capacité, sort n° 801890
+- [ ] **Ruine** (Rang 1) — capacité, sort n° 801895
+- [ ] **Gangreregard** (OBSOLÈTE) — capacité, sort n° 801897 🔀 talents
+- [ ] **Courroux de Tichondrius** (Dégâts) — capacité, sort n° 801898
+- [ ] **Ruine** (Passif) — capacité, sort n° 801900
+- [ ] **Chute de la Légion** — capacité, sort n° 801902
+- [ ] **Rétribution** — capacité, sort n° 802058
+- [ ] **Annihilation** (Rang 1) — capacité, sort n° 802059 🔍 MAJ
+- [ ] **Châtiment de Sargeron** (Rang 1) — capacité, sort n° 802060 🔀 talents
+- [ ] **Puissance cachée** (Spécialisation) — capacité, sort n° 802108
+- [ ] **Gangrecanon** (Passif) — capacité, sort n° 802180
+- [ ] **Envol** — capacité, sort n° 804522
+- [ ] **Harmonisation démoniaque** (Passif) — capacité, sort n° 804615 🔍 MAJ
+- [ ] **Courroux de Sargeras** (Rang 1) — capacité, sort n° 806103
+- [ ] **Horion gangrené** (Passif) — capacité, sort n° 806235
+- [ ] **Esprit du Néant** (Passif) — talent, sort n° 300477
+- [ ] **Flammes maudites** (Passif) — talent, sort n° 300478
+- [ ] **Boule de feu gangrenée améliorée** — talent, sort n° 300479
+- [ ] **Invocateur infernal** (Passif) — talent, sort n° 300480
+- [ ] **Intuition chaotique** (Passif) — talent, sort n° 300483
+- [ ] **Lames gangrenées** (Passif) — talent, sort n° 300484
+- [ ] **Dévoré par la Gangre** (Passif) — talent, sort n° 300485
+- [ ] **Accro à la gangre** (Passif) — talent, sort n° 300487
+- [ ] **Accro à la gangre** (Rang 2) — talent, sort n° 300488
+- [ ] **Courroux d'Archimonde** (Passif) — talent, sort n° 300489
+- [ ] **Forgé par la Gangre** (Passif) — talent, sort n° 300490
+- [ ] **Incantation de gangreflammes** — talent, sort n° 300491
+- [ ] **Cascade de gangreflammes** — talent, sort n° 300492
+- [ ] **Mauvais oeil** (Rang 2) — talent, sort n° 705151
+- [ ] **Fureur d'Archimonde** (Deprecated) — talent, sort n° 706268
+- [ ] **Fureur d'Archimonde** (Déclenchement) — talent, sort n° 706269
+- [ ] **Sculpteur du destin** (Spécialisation) — talent, sort n° 801235
+
+## Massacre
+
+- [ ] **Lames dansantes** (Spécialisation) — capacité, sort n° 92087
+- [ ] **Ruée chaotique** (Rang 1) — capacité, sort n° 500028
+- [ ] **Gangregarde** (Passif) — capacité, sort n° 704360 🔀 talents
+- [ ] **Hachoir** (Rang 1) — capacité, sort n° 704361
+- [ ] **Garde funeste** — capacité, sort n° 704362
+- [ ] **Folie gangrenée** — capacité, sort n° 704363
+- [ ] **Accords anciens** — capacité, sort n° 704364
+- [ ] **Courroux ardent** (Rang 1) — capacité, sort n° 704599
+- [ ] **Vengeance tourbillonnante** (Passif) — capacité, sort n° 704602
+- [ ] **Dépit** (Rang 1) — capacité, sort n° 800188
+- [ ] **Brise-gangre** — capacité, sort n° 800203
+- [ ] **Charge du sabot gangrené** (Rang 1) — capacité, sort n° 800204
+- [ ] **Volonté démoniaque** — capacité, sort n° 800209
+- [ ] **Déchirure gangrenée** (Rang 1) — capacité, sort n° 800210
+- [ ] **Tempête du chaos** — capacité, sort n° 800211 🔍 MAJ 🔀 talents
+- [ ] **Oubli** (Rang 1) — capacité, sort n° 800215
+- [ ] **Consommer la magie** — capacité, sort n° 800353 🔀 talents
+- [ ] **Fureur jumelle** (Passif) — capacité, sort n° 801892
+- [ ] **Haine pure** (Aura) — capacité, sort n° 801894
+- [ ] **Chute de la Légion** (Passif) — capacité, sort n° 801899
+- [ ] **Double entaille** (Rang 1) — capacité, sort n° 801901
+- [ ] **Frappe annihilane** (Rang 1) — capacité, sort n° 801903
+- [ ] **Assaut d'Azzinoth** (Rang 1) — capacité, sort n° 801904 🔀 talents
+- [ ] **Sang de Mannoroth** — capacité, sort n° 802075 🔀 talents
+- [ ] **Force du seigneur des abîmes** (Rang 1) — capacité, sort n° 802076
+- [ ] **Don de Gul'dan** (Passif) — capacité, sort n° 804609
+- [ ] **Assaut téméraire** (Passif) — capacité, sort n° 804610
+- [ ] **Rage d'Azzinoth** (Rang 1) — capacité, sort n° 804611
+- [ ] **Foulée du destin** (Passif) — capacité, sort n° 804613
+- [ ] **Châtiment illidari** — capacité, sort n° 805253 🔀 talents
+- [ ] **Ruse d'Illidan** — capacité, sort n° 806109 🔀 talents
+- [ ] **Machinations démoniaques** (Passif) — capacité, sort n° 806111
+- [ ] **Retardateur de chaîne de serment** — talent, sort n° 704600
+- [ ] **Lames dansantes** (Passif de spécialisation) — talent, sort n° 705132
+- [ ] **Porte-courroux** (Rang 2) — talent, sort n° 705133
+- [ ] **Destruction abyssale** (Passif) — talent, sort n° 705134
+- [ ] **Arpenteur des confins** (Passif) — talent, sort n° 705135
+- [ ] **Sens du sang** (Passif) — talent, sort n° 705136
+- [ ] **Batterie d'Azzinoth** (Passif) — talent, sort n° 705137
+- [ ] **Glaives imprégnés de gangrène** (Rang 1) — talent, sort n° 705138
+- [ ] **Armes imprégnées de gangrène** (Passif) — talent, sort n° 705139
+- [ ] **Glaives imprégnés de gangrène** (Deprecated) — talent, sort n° 705140
+- [ ] **Rage du seigneur des abîmes** (Passif) — talent, sort n° 705141 🔀 talents
+- [ ] **Flammes d'Azzinoth** (Passif) — talent, sort n° 705144
+- [ ] **Champion du Néant** (Passif) — talent, sort n° 705145
+- [ ] **Napalm gangrené** (Passif) — talent, sort n° 705147
+- [ ] **Volée de glaives** (Deprecated) — talent, sort n° 705149
+- [ ] **Destin gangrené** — talent, sort n° 801909
+
+## Classe
+
+- [ ] **Pistage des démons** — capacité, sort n° 10239
+- [ ] **Forme de démon** — capacité, sort n° 40506
+- [ ] **Bond démoniaque** — capacité, sort n° 54786
+- [ ] **Haine focalisée** (Passif) — capacité, sort n° 704606
+- [ ] **Fléau des élémentaires** (Passif) — capacité, sort n° 704607
+- [ ] **Chasseur de pactes** (Passif) — capacité, sort n° 704612
+- [ ] **Démon de la magie** (Passif) — capacité, sort n° 704613
+- [ ] **Puissance spectrale** (Passif) — capacité, sort n° 704631
+- [ ] **Focalisation du Néant** (Passif) — capacité, sort n° 705101
+- [ ] **Né du démon** (Rang 1) — capacité, sort n° 705102
+- [ ] **Chaîne nécrotique** (Retrait du déclencheur) — capacité, sort n° 705103
+- [ ] **Communion gangrenée** (Passif) — capacité, sort n° 705105
+- [ ] **Évasion démoniaque** (Passif) — capacité, sort n° 705108
+- [ ] **Cruauté** (Rang 1) — capacité, sort n° 705109
+- [ ] **Corruption** (Passif) — capacité, sort n° 705110
+- [ ] **Gardien du Temple noir** (Passif) — capacité, sort n° 705112
+- [ ] **Ruine** (Passif) — capacité, sort n° 705116 🔀 talents
+- [ ] **Érosion gangrenée** (Passif) — capacité, sort n° 705117
+- [ ] **Maîtrise des pactes** — capacité, sort n° 705119
+- [ ] **Enseignements man'ari** (Passif) — capacité, sort n° 705150
+- [ ] **Auspice funeste** (Aura) — capacité de talent, sort n° 705106
+- [ ] **Auspice funeste** (Aura2) — capacité de talent, sort n° 705107
+- [ ] **Puissance insoupçonnée** (Rang 2) — capacité de talent, sort n° 705113
+- [ ] **Puissance insoupçonnée** (Passif) — capacité de talent, sort n° 705114
+- [ ] **Gangrefrappes renforcées** (Rang 1) — capacité de talent, sort n° 705120
+- [ ] **Fracasser** — capacité de talent, sort n° 705121

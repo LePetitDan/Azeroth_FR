@@ -1,0 +1,220 @@
+# Fiche de test : Barbare
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Ascendance
+
+- [ ] **Armes d'hast** — capacité, sort n° 200
+- [ ] **Armes de jet** — capacité, sort n° 2567
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Armes de pugilat** — capacité, sort n° 15590
+- [ ] **Niveau de remplissage** (Spécialisation) — capacité, sort n° 92083
+- [ ] **Rugissement ancestral** (Rang 1) — capacité, sort n° 500918 🔀 talents
+- [ ] **Cri de guerre** — capacité, sort n° 500995
+- [ ] **Garde du thane** (passif) — capacité, sort n° 800132
+- [ ] **Courroux de Hodir** — capacité, sort n° 800152
+- [ ] **Rythme de bataille** (Passif) — capacité, sort n° 800193
+- [ ] **Souffle du Nord** (Rang 1) — capacité, sort n° 800838
+- [ ] **Mak'gora** (20%) — capacité, sort n° 801753
+- [ ] **Double canon** (Passif) — capacité, sort n° 801756
+- [ ] **Combat ancestral** (Passif) — capacité, sort n° 801782
+- [ ] **Résurrection val'kyr** — capacité, sort n° 801784
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Rage barbare** (Passif) — capacité, sort n° 804337
+- [ ] **Manteau d'étoiles** — capacité, sort n° 804413
+- [ ] **Augmentation d'Énergie du barbare** — capacité, sort n° 804635
+- [ ] **Appel de l'ancêtre** (Passif) — capacité, sort n° 804729
+- [ ] **Symbole de la lance de guerre** (Passif) — capacité, sort n° 804730
+- [ ] **Fureur ancestrale** — capacité, sort n° 804731
+- [ ] **Totem du seigneur de clan** — capacité, sort n° 804737
+- [ ] **Un repas de grizzly** (Déclencheur) — capacité, sort n° 804754
+- [ ] **Repas macabre** (Rang 1) — capacité, sort n° 804765
+- [ ] **Puissance d'Utgarde** (Passif) — capacité, sort n° 804768
+- [ ] **Frénésie avinée** — capacité, sort n° 804770
+- [ ] **Duo mortel** — capacité, sort n° 804780
+- [ ] **Bière du Dieu-roi** (Rang 1) — capacité, sort n° 805780
+- [ ] **Rage de corne-de-bélier** — capacité, sort n° 805804
+- [ ] **Fracasse-tonneau** (Rang 1) — capacité, sort n° 805808 🔀 talents
+- [ ] **Santé !** — capacité, sort n° 805810
+- [ ] **Torpeur aveugle** (Passif) — capacité, sort n° 805811
+- [ ] **Fureur du géant de givre** (Passif) — capacité, sort n° 805812
+- [ ] **Chope gelée** (Rang 1) — capacité, sort n° 805815
+- [ ] **Frappeur de guerre** (Passif) — capacité, sort n° 805887
+- [ ] **Bagarreur ivre** — capacité, sort n° 805908
+- [ ] **Passif du barbare - Fracas sauvage** (Caché) — capacité, sort n° 805951
+- [ ] **Passif du barbare - Fracas sauvage** (Caché) — capacité, sort n° 805952
+- [ ] **Passif du barbare - Fracas sauvage** (Caché) — capacité, sort n° 805953
+- [ ] **Passif du barbare - Fracas sauvage** (Caché) — capacité, sort n° 805954
+- [ ] **Plaies perforantes** (Passif) — capacité, sort n° 805997
+- [ ] **Raillerie** (Rang 1) — capacité, sort n° 806221
+- [ ] **Mort tourbillonnante** — capacité, sort n° 806503
+- [ ] **Virée à la taverne** (Rang 1) — talent, sort n° 705152
+- [ ] **Esprit ancestral** (Rang 1) — talent, sort n° 705153
+- [ ] **Esprit ancestral** (Rang 2) — talent, sort n° 705154
+- [ ] **Zone d'éclaboussures** — talent, sort n° 705155
+- [ ] **Héraut de Galakrond** — talent, sort n° 705157
+- [ ] **Morsure de givre** (Passif) — talent, sort n° 705158
+- [ ] **Alimenté par la rage** (Passif) — talent, sort n° 705159
+- [ ] **Chope sans fond** (Rang 2) — talent, sort n° 705160
+- [ ] **Bulles glacées** (Rang 1) — talent, sort n° 705161
+- [ ] **Voix fédératrice** (Passif) — talent, sort n° 705162
+- [ ] **La tête qui tourne** (Passif) — talent, sort n° 705208
+- [ ] **Combat ancestral amélioré** (Rang 1) — talent, sort n° 705209
+- [ ] **Combat ancestral amélioré** (Rang 2) — talent, sort n° 705210
+- [ ] **Bière fraîche** (Passif) — talent, sort n° 705211
+- [ ] **Rage unifiée** (Passif) — talent, sort n° 705212
+- [ ] **Vengeance de Hodir** (Passif) — talent, sort n° 705214
+- [ ] **Bond tonitruant amélioré** (Rang 2) — talent, sort n° 705215
+- [ ] **Ascendance glaciale** (Passif) — talent, sort n° 705216
+- [ ] **La meilleure bière** (Passif) — talent, sort n° 705218
+- [ ] **Homme du Nord** (Passif) — talent, sort n° 705219
+- [ ] **Rage du Nord** (Passif) — talent, sort n° 705221
+- [ ] **Pouvoir des ancêtres** (Passif) — talent, sort n° 705248
+
+## Brutalité
+
+- [ ] **Puissance excessive** (Spécialisation) — capacité, sort n° 92081
+- [ ] **Téméraire** — capacité, sort n° 500001
+- [ ] **Balayage brutal** (Rang 1) — capacité, sort n° 500913
+- [ ] **Écraser** (Rang 1) — capacité, sort n° 500915 🔀 talents
+- [ ] **Éventreur** (Rank 1 DEPRECATED) — capacité, sort n° 500916
+- [ ] **Empaler** (Rank 1 DEPRECATED) — capacité, sort n° 500920
+- [ ] **Tueur-né** (Passif) — capacité, sort n° 800131
+- [ ] **Frappe sauvage** (Rang 1) — capacité, sort n° 800516
+- [ ] **Tempête d'acier** — capacité, sort n° 800637
+- [ ] **Sauvagerie** (Passif) — capacité, sort n° 800943
+- [ ] **Rancune** (Rang 1) — capacité, sort n° 801752
+- [ ] **Choc** (Rang 1) — capacité, sort n° 801755
+- [ ] **Assaut** — capacité, sort n° 801758
+- [ ] **Outrage** — capacité, sort n° 801759 🔀 talents
+- [ ] **Courroux de l'ancêtre** (Passif) — capacité, sort n° 801765
+- [ ] **Rage sanguinaire** (Passif) — capacité, sort n° 801766
+- [ ] **Lié par le sang** (Passif) — capacité, sort n° 801767
+- [ ] **Vigueur de combat** — capacité, sort n° 801768
+- [ ] **Saccager** — capacité, sort n° 801786
+- [ ] **Frappe barbare** (Rang 1) — capacité, sort n° 801787
+- [ ] **Tueur efficace** (Passif) — capacité, sort n° 803085
+- [ ] **Décapitation** (Rang 1) — capacité, sort n° 804414
+- [ ] **Brise-coque** — capacité, sort n° 804415
+- [ ] **Intelligence débridée** — capacité, sort n° 804713
+- [ ] **Prise puissante** (Passif) — capacité, sort n° 804728
+- [ ] **Briseur de horde** (Passif) — capacité, sort n° 804745
+- [ ] **Intrépide** (Passif) — capacité, sort n° 804746
+- [ ] **Incroyablement fort** (Passif) — capacité, sort n° 804749
+- [ ] **Lanceur d'acier** (Passif) — capacité, sort n° 804750
+- [ ] **Brise-mâchoire** (Passif) — capacité, sort n° 804863
+- [ ] **Carnage** — capacité, sort n° 805802
+- [ ] **Puissance de l'ogre** (Passif) — capacité, sort n° 805803
+- [ ] **Fureur croissante** (Passif) — capacité, sort n° 805927
+- [ ] **Lame de brutalité** (Passif) — talent, sort n° 300493
+- [ ] **Carnage brutal** (Passif) — talent, sort n° 300494
+- [ ] **Déchaînement !** — talent, sort n° 300496
+- [ ] **Assoiffé de sang** (Passif) — talent, sort n° 300497
+- [ ] **Tendances barbares** — talent, sort n° 300498
+- [ ] **Coupe-tête** (Passif) — talent, sort n° 300499
+- [ ] **Manœuvre téméraire améliorée** — talent, sort n° 300500
+- [ ] **Implacable** (Spécialisation) — talent, sort n° 300505
+- [ ] **Barbare implacable** (Rang 2) — talent, sort n° 300506
+- [ ] **Fureur d'acier** (Passif) — talent, sort n° 704240
+- [ ] **Rancune** (Passif) — talent, sort n° 704876
+- [ ] **Armes hérissées** (Passif) — talent, sort n° 705186
+- [ ] **Décapiteur** (Passif) — talent, sort n° 705222
+- [ ] **Sauvagerie** (Passif) — talent, sort n° 705223
+- [ ] **Porte-douleur** (Passif) — talent, sort n° 706286
+- [ ] **Brise-mâchoire** (Réussite !) — talent, sort n° 804862
+
+## Tactique
+
+- [ ] **Chasseur de têtes** (Spécialisation) — capacité, sort n° 92082
+- [ ] **Tourbillon barbare** (Rang 1) — capacité, sort n° 500002
+- [ ] **Ruée empalante** (Rang 1) — capacité, sort n° 500009
+- [ ] **Puissance excessive** (Passif de spécialisation) — capacité, sort n° 500059
+- [ ] **Chasse aux têtes** (Passif) — capacité, sort n° 500060 🔀 talents
+- [ ] **Niveau de remplissage** (Passif de spécialisation) — capacité, sort n° 500061
+- [ ] **Avancée tourbillonnante** (Rang 1) — capacité, sort n° 500919
+- [ ] **Incursion** (Passif) — capacité, sort n° 704593 🔀 talents
+- [ ] **Tournoiement de haches** — capacité, sort n° 800401 🔀 talents
+- [ ] **Combat à mort** — capacité, sort n° 800950 🔀 talents
+- [ ] **Frappe ancestrale** (Rang 1) — capacité, sort n° 801576
+- [ ] **Jusqu'au bout** (Passif) — capacité, sort n° 801770
+- [ ] **Puissance ancestrale** — capacité, sort n° 801789
+- [ ] **Lancer l'arme** (Rang 1) — capacité, sort n° 804136
+- [ ] **Lance du chasseur de têtes** (Rang 1) — capacité, sort n° 804137 🔍 MAJ
+- [ ] **Hache du berserker** (Rang 1) — capacité, sort n° 804138
+- [ ] **Lance mutilante** (Rang 1) — capacité, sort n° 804139 🔍 MAJ
+- [ ] **Soif du chasseur de têtes** — capacité, sort n° 804140
+- [ ] **Berserker** — capacité, sort n° 804141
+- [ ] **Réduit de 25 Statique** — capacité, sort n° 804142
+- [ ] **Bagarre de taverne !** — capacité, sort n° 804456
+- [ ] **Volée de haches** — capacité, sort n° 804666
+- [ ] **Inarrêtable** — capacité, sort n° 804732
+- [ ] **Tonnelet ancestral** — capacité, sort n° 804748
+- [ ] **Cran** — capacité, sort n° 805819
+- [ ] **Sang et gloire** (Passif) — capacité, sort n° 805821
+- [ ] **Mort tourbillonnante** (Passif) — capacité, sort n° 805831
+- [ ] **Éventreur** (Rang 1) — capacité, sort n° 805832
+- [ ] **Débauche sauvage** — capacité, sort n° 805833
+- [ ] **Esprit vital** (Rang 1) — capacité, sort n° 805835
+- [ ] **Chasseur de têtes** — capacité, sort n° 805836
+- [ ] **Défi** — capacité, sort n° 806228
+- [ ] **Danse des haches** (Passif) — talent, sort n° 705224
+- [ ] **Charme du seigneur de guerre** (Obsolète) — talent, sort n° 705225
+- [ ] **Intensité** (Passif) — talent, sort n° 705226
+- [ ] **Atroce** (Rang 1) — talent, sort n° 705227
+- [ ] **L'équipée sauvage** — talent, sort n° 705228
+- [ ] **Sauvage écumant** — talent, sort n° 705229
+- [ ] **Héritage des Amani SLS** (Passif) — talent, sort n° 705230
+- [ ] **Représailles** (Passif) — talent, sort n° 705232
+- [ ] **Frappes brutales** (Passif) — talent, sort n° 705233
+- [ ] **Sauvage écumant** (Rang 1) — talent, sort n° 705234
+- [ ] **Forme brutale** (Passif) — talent, sort n° 705235
+- [ ] **Visée parfaite** (Passif) — talent, sort n° 705236
+- [ ] **Afflux de vigueur amélioré** (Passif) — talent, sort n° 705237
+- [ ] **Entrailles** (Passif) — talent, sort n° 705238
+- [ ] **Fureur profonde** (Passif) — talent, sort n° 705240
+- [ ] **Torture** (Rang 2) — talent, sort n° 705241
+- [ ] **Sauvage** (Spécialisation) — talent, sort n° 705242
+- [ ] **Fureur vaudou** (Passif) — talent, sort n° 705243
+- [ ] **Sang sauvage** (Passif) — talent, sort n° 705245
+- [ ] **Lance du chasseur de têtes améliorée** (Passif) — talent, sort n° 705246 🔀 talents
+- [ ] **Berserker amélioré** (Passif) — talent, sort n° 705247
+
+## Classe
+
+- [ ] **Puissance ancestrale** (Passif) — capacité, sort n° 704590
+- [ ] **Mastodonte** — capacité, sort n° 704591
+- [ ] **Frères de sang** — capacité, sort n° 704592
+- [ ] **Combattant sanglant** (Rang 1) — capacité, sort n° 705167
+- [ ] **Fureur de l'ancêtre** (Passif) — capacité, sort n° 705168
+- [ ] **Puissance pure** (Rang 1) — capacité, sort n° 705173
+- [ ] **Bras puissant** (Passif) — capacité, sort n° 705176
+- [ ] **Démolisseurs** (Passif) — capacité, sort n° 705182
+- [ ] **Os brisés** (Passif) — capacité, sort n° 705189
+- [ ] **Regardez-moi tuer** (Passif) — capacité, sort n° 705192
+- [ ] **Conquérant** (Passif) — capacité, sort n° 705193
+- [ ] **Briseur de liens** — capacité, sort n° 705194
+- [ ] **Maîtrise de la Rage** (Passif) — capacité, sort n° 705195
+- [ ] **Artiste du K.-O.** (Passif) — capacité, sort n° 705196
+- [ ] **Collecte de têtes** (Passif) — capacité, sort n° 705197
+- [ ] **Technique gurubashi** (Passif) — capacité, sort n° 705198
+- [ ] **Petit tourbillon** — capacité, sort n° 705199
+- [ ] **Brutalité sans fin** (Passif) — capacité, sort n° 705200
+- [ ] **Force de Goria** (Passif) — capacité, sort n° 705202
+- [ ] **Mouvements téméraires** (Passif) — capacité, sort n° 705204
+- [ ] **Cruauté de Kargath** — capacité, sort n° 705205
+- [ ] **Pacte de sang** — capacité, sort n° 804348
+- [ ] **Inlassable** (Passif) — capacité de talent, sort n° 705169
+- [ ] **Inlassable** (Rang 2) — capacité de talent, sort n° 705170
+- [ ] **Récupération rapide** (Passif) — capacité de talent, sort n° 705171
+- [ ] **Punisseur** (Rang 2) — capacité de talent, sort n° 705172 🔀 talents
+- [ ] **Immortel** (Rang 1) — capacité de talent, sort n° 705174
+- [ ] **Véritable guidage** (Passif) — capacité de talent, sort n° 705175
+- [ ] **Poing-de-rocher** (Rang 1) — capacité de talent, sort n° 705184
+- [ ] **Poing-de-rocher** (Rang 2) — capacité de talent, sort n° 705185
+- [ ] **Des haches, des haches partout !** — capacité de talent, sort n° 705190
+- [ ] **Des haches, des haches partout !** (Passif) — capacité de talent, sort n° 705191
+- [ ] **Endurance de l'ogre** (Passif) — capacité de talent, sort n° 705206
+- [ ] **Endurance de l'ogre** (Obsolète) — capacité de talent, sort n° 705207

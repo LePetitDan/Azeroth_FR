@@ -1,0 +1,298 @@
+# Fiche de test : Chasseur
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Maîtrise des bêtes
+
+- [ ] **Guérison du familier** (Rang 1) — capacité, sort n° 136 🔍 MAJ
+- [ ] **Yeux de la bête** — capacité, sort n° 1002 🔍 MAJ
+- [ ] **Effrayer une bête** (Rang 1) — capacité, sort n° 1513 🔍 MAJ
+- [ ] **Aspect du guépard** — capacité, sort n° 5118 🔍 MAJ
+- [ ] **Oeil d'aigle** — capacité, sort n° 6197 🔍 MAJ
+- [ ] **Aspect de la meute** — capacité, sort n° 13159 🔍 MAJ
+- [ ] **Aspect de la bête** — capacité, sort n° 13161 🔍 MAJ
+- [ ] **Aspect du singe** — capacité, sort n° 13163 🔍 MAJ
+- [ ] **Aspect du faucon** (Rang 1) — capacité, sort n° 13165 🔍 MAJ
+- [ ] **Aspect de la nature** (Rang 1) — capacité, sort n° 20043 🔍 MAJ
+- [ ] **Ordre de tuer** — capacité, sort n° 34026 🔍 MAJ
+- [ ] **Aspect de la vipère** — capacité, sort n° 34074 🔍 MAJ
+- [ ] **Appel du maître** — capacité, sort n° 53271
+- [ ] **Aspect du faucon-dragon** (Rang 1) — capacité, sort n° 61846 🔍 MAJ
+- [ ] **Appel d'un familier à l'écurie** — capacité, sort n° 62757
+- [ ] **Maîtrise des aspects du chasseur** — capacité, sort n° 92156 🔍 MAJ
+- [ ] **Tir frénétique** (Rang 1) — capacité, sort n° 954587
+- [ ] **Aptitudes d'apprivoisement** — capacité, sort n° 965200
+- [ ] **Aspect du singe amélioré** (Rang 1) — talent, sort n° 19549
+- [ ] **Aspect du singe amélioré** (Rang 2) — talent, sort n° 19550
+- [ ] **Aspect du singe amélioré** (Rang 3) — talent, sort n° 19551
+- [ ] **Aspect du faucon amélioré** (Rang 1) — talent, sort n° 19552
+- [ ] **Aspect du faucon amélioré** (Rang 2) — talent, sort n° 19553
+- [ ] **Aspect du faucon amélioré** (Rang 3) — talent, sort n° 19554
+- [ ] **Aspect du faucon amélioré** (Rang 4) — talent, sort n° 19555
+- [ ] **Aspect du faucon amélioré** (Rang 5) — talent, sort n° 19556
+- [ ] **Science des chemins** (Rang 1) — talent, sort n° 19559 🔍 MAJ
+- [ ] **Science des chemins** (Rang 2) — talent, sort n° 19560 🔍 MAJ
+- [ ] **Guérison du familier améliorée** (Rang 1) — talent, sort n° 19572
+- [ ] **Guérison du familier améliorée** (Rang 2) — talent, sort n° 19573
+- [ ] **Ressusciter le familier amélioré** (Rang 2) — talent, sort n° 19575 🔍 MAJ
+- [ ] **Engagement spirituel** (Rang 1) — talent, sort n° 19578 🔍 MAJ
+- [ ] **Entraînement à l'Endurance** (Rang 1) — talent, sort n° 19583
+- [ ] **Entraînement à l'Endurance** (Rang 2) — talent, sort n° 19584
+- [ ] **Entraînement à l'Endurance** (Rang 3) — talent, sort n° 19585
+- [ ] **Entraînement à l'Endurance** (Rang 4) — talent, sort n° 19586
+- [ ] **Entraînement à l'Endurance** (Rang 5) — talent, sort n° 19587
+- [ ] **Discipline bestiale** (Rang 1) — talent, sort n° 19590 🔍 MAJ
+- [ ] **Discipline bestiale** (Rang 2) — talent, sort n° 19592 🔍 MAJ
+- [ ] **Ferocité** (Rang 1) — talent, sort n° 19598 🔍 MAJ
+- [ ] **Ferocité** (Rang 2) — talent, sort n° 19599 🔍 MAJ
+- [ ] **Ferocité** (Rang 3) — talent, sort n° 19600 🔍 MAJ
+- [ ] **Peau épaisse** (Rang 1) — talent, sort n° 19609
+- [ ] **Peau épaisse** (Rang 2) — talent, sort n° 19610
+- [ ] **Peau épaisse** (Rang 3) — talent, sort n° 19612
+- [ ] **Fureur libérée** (Rang 1) — talent, sort n° 19616 🔍 MAJ
+- [ ] **Fureur libérée** (Rang 2) — talent, sort n° 19617 🔍 MAJ
+- [ ] **Fureur libérée** (Rang 3) — talent, sort n° 19618 🔍 MAJ
+- [ ] **Fureur libérée** (Rang 4) — talent, sort n° 19619 🔍 MAJ
+- [ ] **Fureur libérée** (Rang 5) — talent, sort n° 19620 🔍 MAJ
+- [ ] **Frénésie** (Rang 1) — talent, sort n° 19621 🔍 MAJ
+- [ ] **Frénésie** (Rang 2) — talent, sort n° 19622 🔍 MAJ
+- [ ] **Frénésie** (Rang 3) — talent, sort n° 19623 🔍 MAJ
+- [ ] **Engagement spirituel** (Rang 2) — talent, sort n° 20895 🔍 MAJ
+- [ ] **Ressusciter le familier amélioré** (Rang 1) — talent, sort n° 24443 🔍 MAJ
+- [ ] **Dresseur** (Rang 1) — talent, sort n° 34453
+- [ ] **Dresseur** (Rang 2) — talent, sort n° 34454
+- [ ] **Inspiration féroce** (Rang 1) — talent, sort n° 34455 🔍 MAJ
+- [ ] **Inspiration féroce** (Rang 2) — talent, sort n° 34459 🔍 MAJ
+- [ ] **Inspiration féroce** (Rang 3) — talent, sort n° 34460 🔍 MAJ
+- [ ] **Réflexes félins** (Rang 1) — talent, sort n° 34462
+- [ ] **Réflexes félins** (Rang 2) — talent, sort n° 34464
+- [ ] **Réflexes félins** (Rang 3) — talent, sort n° 34465
+- [ ] **Rapidité du serpent** (Rang 1) — talent, sort n° 34466
+- [ ] **Rapidité du serpent** (Rang 2) — talent, sort n° 34467
+- [ ] **Rapidité du serpent** (Rang 3) — talent, sort n° 34468
+- [ ] **Rapidité du serpent** (Rang 4) — talent, sort n° 34469
+- [ ] **Rapidité du serpent** (Rang 5) — talent, sort n° 34470
+- [ ] **La bête intérieure** — talent, sort n° 34692 🔍 MAJ
+- [ ] **Feu focalisé** (Rang 1) — talent, sort n° 35029
+- [ ] **Feu focalisé** (Rang 2) — talent, sort n° 35030
+- [ ] **Revigoration** (Rang 1) — talent, sort n° 53252
+- [ ] **Revigoration** (Rang 2) — talent, sort n° 53253
+- [ ] **Frappes de cobra** (Rang 1) — talent, sort n° 53256
+- [ ] **Frappes de cobra** (Rang 2) — talent, sort n° 53259
+- [ ] **Frappes de cobra** (Rang 3) — talent, sort n° 53260
+- [ ] **Longévité** (Rang 1) — talent, sort n° 53262
+- [ ] **Longévité** (Rang 2) — talent, sort n° 53263
+- [ ] **Longévité** (Rang 3) — talent, sort n° 53264
+- [ ] **Maîtrise des aspects** — talent, sort n° 53265
+- [ ] **Ames soeurs** (Rang 1) — talent, sort n° 56314 🔍 MAJ
+- [ ] **Ames soeurs** (Rang 2) — talent, sort n° 56315 🔍 MAJ
+- [ ] **Ames soeurs** (Rang 3) — talent, sort n° 56316 🔍 MAJ
+- [ ] **Ames soeurs** (Rang 4) — talent, sort n° 56317 🔍 MAJ
+- [ ] **Ames soeurs** (Rang 5) — talent, sort n° 56318 🔍 MAJ
+- [ ] **La bête intérieure** (Rang 2) — talent, sort n° 834692 🔍 MAJ
+- [ ] **Revigoration** (Rang 3) — talent, sort n° 853253
+- [ ] **Maîtrise des aspects** (Rang 2 - obsolète) — talent, sort n° 853265
+- [ ] **Courroux bestial** — capacité de talent, sort n° 19574 🔍 MAJ
+- [ ] **Intimidation** — capacité de talent, sort n° 19577
+- [ ] **Maîtrise des bêtes** — capacité de talent, sort n° 53270
+
+## Précision
+
+- [ ] **Marque du chasseur** (Rang 1) — capacité, sort n° 1130
+- [ ] **Salve** (Rang 1) — capacité, sort n° 1510
+- [ ] **Fusée éclairante** — capacité, sort n° 1543
+- [ ] **Morsure de serpent** (Rang 1) — capacité, sort n° 1978
+- [ ] **Flèches multiples** (Rang 1) — capacité, sort n° 2643
+- [ ] **Morsure de vipère** — capacité, sort n° 3034
+- [ ] **Piqûre de scorpide** — capacité, sort n° 3043 🔍 MAJ
+- [ ] **Tir des arcanes** (Rang 1) — capacité, sort n° 3044
+- [ ] **Tir rapide** — capacité, sort n° 3045
+- [ ] **Trait de choc** — capacité, sort n° 5116
+- [ ] **Tir tranquillisant** — capacité, sort n° 19801
+- [ ] **Trait provocateur** — capacité, sort n° 20736
+- [ ] **Tir mortel** (Rang 1) — capacité, sort n° 53351
+- [ ] **Tir assuré** (Rang 1) — capacité, sort n° 56641
+- [ ] **Tir automatique** — capacité, sort n° 965202
+- [ ] **Trait de choc amélioré** (Rang 1) — talent, sort n° 19407
+- [ ] **Trait de choc amélioré** (Rang 2) — talent, sort n° 19412
+- [ ] **Efficacité** (Rang 1) — talent, sort n° 19416
+- [ ] **Efficacité** (Rang 2) — talent, sort n° 19417
+- [ ] **Efficacité** (Rang 3) — talent, sort n° 19418
+- [ ] **Marque du chasseur améliorée** (Rang 1) — talent, sort n° 19421
+- [ ] **Marque du chasseur améliorée** (Rang 2) — talent, sort n° 19422
+- [ ] **Marque du chasseur améliorée** (Rang 3) — talent, sort n° 19423
+- [ ] **Coups fatals** (Rang 1) — talent, sort n° 19426
+- [ ] **Coups fatals** (Rang 2) — talent, sort n° 19427
+- [ ] **Coups fatals** (Rang 3) — talent, sort n° 19429
+- [ ] **Coups fatals** (Rang 4) — talent, sort n° 19430
+- [ ] **Coups fatals** (Rang 5) — talent, sort n° 19431
+- [ ] **Tir des arcanes amélioré** (Rang 1) — talent, sort n° 19454
+- [ ] **Tir des arcanes amélioré** (Rang 2) — talent, sort n° 19455
+- [ ] **Tir des arcanes amélioré** (Rang 3) — talent, sort n° 19456
+- [ ] **Barrage** (Rang 1) — talent, sort n° 19461
+- [ ] **Barrage** (Rang 2) — talent, sort n° 19462
+- [ ] **Morsures et piqûres améliorées** (Rang 1) — talent, sort n° 19464
+- [ ] **Morsures et piqûres améliorées** (Rang 2) — talent, sort n° 19465
+- [ ] **Morsures et piqûres améliorées** (Rang 3) — talent, sort n° 19466
+- [ ] **Coups mortels** (Rang 1) — talent, sort n° 19485
+- [ ] **Coups mortels** (Rang 2) — talent, sort n° 19487
+- [ ] **Coups mortels** (Rang 3) — talent, sort n° 19488
+- [ ] **Spécialisation Armes à distance** (Rang 1) — talent, sort n° 19507
+- [ ] **Spécialisation Armes à distance** (Rang 2) — talent, sort n° 19508
+- [ ] **Spécialisation Armes à distance** (Rang 3) — talent, sort n° 19509
+- [ ] **Barrage** (Rang 3) — talent, sort n° 24691
+- [ ] **Expérience du combat** (Rang 1) — talent, sort n° 34475
+- [ ] **Expérience du combat** (Rang 2) — talent, sort n° 34476
+- [ ] **Visée minutieuse** (Rang 1) — talent, sort n° 34482
+- [ ] **Visée minutieuse** (Rang 2) — talent, sort n° 34483
+- [ ] **Visée minutieuse** (Rang 3) — talent, sort n° 34484
+- [ ] **Maître tireur** (Rang 1) — talent, sort n° 34485
+- [ ] **Maître tireur** (Rang 2) — talent, sort n° 34486
+- [ ] **Maître tireur** (Rang 3) — talent, sort n° 34487
+- [ ] **Tueur rapide** (Rang 1) — talent, sort n° 34948
+- [ ] **Tueur rapide** (Rang 2) — talent, sort n° 34949
+- [ ] **A la gorge** (Rang 1) — talent, sort n° 34950 🔍 MAJ
+- [ ] **A la gorge** (Rang 2) — talent, sort n° 34954 🔍 MAJ
+- [ ] **Barrage commotionnant** (Rang 1) — talent, sort n° 35100
+- [ ] **Barrage commotionnant** (Rang 2) — talent, sort n° 35102
+- [ ] **Barrage amélioré** (Rang 1) — talent, sort n° 35104
+- [ ] **Barrage amélioré** (Rang 2) — talent, sort n° 35110
+- [ ] **Barrage amélioré** (Rang 3) — talent, sort n° 35111
+- [ ] **Carquois sauvage** (Rang 1) — talent, sort n° 53215
+- [ ] **Carquois sauvage** (Rang 2) — talent, sort n° 53216
+- [ ] **Carquois sauvage** (Rang 3) — talent, sort n° 53217
+- [ ] **Tir assuré amélioré** (Rang 1) — talent, sort n° 53221
+- [ ] **Tir assuré amélioré** (Rang 2) — talent, sort n° 53222
+- [ ] **Tir assuré amélioré** (Rang 3) — talent, sort n° 53224
+- [ ] **Recouvrement rapide** (Rang 1) — talent, sort n° 53228
+- [ ] **Recouvrement rapide** (Rang 2) — talent, sort n° 53232
+- [ ] **Tirs perforants** (Rang 1) — talent, sort n° 53234
+- [ ] **Tirs perforants** (Rang 2) — talent, sort n° 53237
+- [ ] **Tirs perforants** (Rang 3) — talent, sort n° 53238
+- [ ] **Désigné pour mourir** (Rang 1) — talent, sort n° 53241
+- [ ] **Désigné pour mourir** (Rang 2) — talent, sort n° 53243
+- [ ] **Désigné pour mourir** (Rang 3) — talent, sort n° 53244
+- [ ] **Désigné pour mourir** (Rang 4) — talent, sort n° 53245
+- [ ] **Désigné pour mourir** (Rang 5) — talent, sort n° 53246
+- [ ] **Visée focalisée** (Rang 1) — talent, sort n° 53620
+- [ ] **Visée focalisée** (Rang 2) — talent, sort n° 53621
+- [ ] **Visée focalisée** (Rang 3) — talent, sort n° 53622
+- [ ] **Aura de précision améliorée** (Rang 1) — talent, sort n° 435104
+- [ ] **Aura de précision améliorée** (Rang 2) — talent, sort n° 435105
+- [ ] **Expérience du combat** (Rang 3) — talent, sort n° 834476
+- [ ] **Tueur rapide** (Rang 3) — talent, sort n° 834949
+- [ ] **Tirs perforants** (Rang 1) — talent, sort n° 853236
+- [ ] **Tirs perforants** (Rang 2) — talent, sort n° 853237
+- [ ] **Tirs perforants** (Rang 3) — talent, sort n° 853238
+- [ ] **Visée** (Rang 1) — capacité de talent, sort n° 19434 🔍 MAJ
+- [ ] **Aura de précision** — capacité de talent, sort n° 19506 🔍 MAJ
+- [ ] **Promptitude** — capacité de talent, sort n° 23989
+- [ ] **Flèche-bâillon** — capacité de talent, sort n° 34490 🔍 MAJ
+- [ ] **Tir de la chimère** — capacité de talent, sort n° 53209
+
+## Survie
+
+- [ ] **Désengagement** — capacité, sort n° 781 🔍 MAJ
+- [ ] **Morsure de la mangouste** (Rang 1) — capacité, sort n° 1495
+- [ ] **Piège givrant** (Rang 1) — capacité, sort n° 1499 🔍 MAJ
+- [ ] **Attaque du raptor** (Rang 1) — capacité, sort n° 2973
+- [ ] **Coupure d'ailes** — capacité, sort n° 2974
+- [ ] **Feindre la mort** — capacité, sort n° 5384 🔍 MAJ
+- [ ] **Piège d'immolation** (Rang 1) — capacité, sort n° 13795
+- [ ] **Piège de givre** — capacité, sort n° 13809
+- [ ] **Piège explosif** (Rang 1) — capacité, sort n° 13813
+- [ ] **Dissuasion** — capacité, sort n° 19263 🔀 talents
+- [ ] **Pistage des humanoïdes** — capacité, sort n° 19883
+- [ ] **Pistage des camouflés** — capacité, sort n° 19885 🔍 MAJ
+- [ ] **Détournement** — capacité, sort n° 34477
+- [ ] **Piège à serpent** — capacité, sort n° 34600
+- [ ] **Flèche givrante** (Rang 1) — capacité, sort n° 60192
+- [ ] **Maîtrise des pièges** — capacité, sort n° 92164 🔍 MAJ
+- [ ] **Aspects de maîtrise des bêtes** — capacité, sort n° 701520
+- [ ] **Pièges du chasseur Survie** — capacité, sort n° 701530
+- [ ] **Maîtrise du pistage** — capacité, sort n° 801494 🔍 MAJ 🔀 talents
+- [ ] **Lancer de glaives** (Rang 1) — capacité, sort n° 954821
+- [ ] **Frappes sauvages** (Rang 1) — talent, sort n° 19159
+- [ ] **Frappes sauvages** (Rang 2) — talent, sort n° 19160
+- [ ] **Réflexes éclairs** (Rang 1) — talent, sort n° 19168
+- [ ] **Réflexes éclairs** (Rang 2) — talent, sort n° 19180
+- [ ] **Réflexes éclairs** (Rang 3) — talent, sort n° 19181
+- [ ] **Piège** (Rang 1) — talent, sort n° 19184
+- [ ] **Survivant** (Rang 1) — talent, sort n° 19255 🔍 MAJ
+- [ ] **Survivant** (Rang 2) — talent, sort n° 19256 🔍 MAJ
+- [ ] **Survivant** (Rang 3) — talent, sort n° 19257 🔍 MAJ
+- [ ] **Tactique de survie** (Rang 1) — talent, sort n° 19286
+- [ ] **Tactique de survie** (Rang 2) — talent, sort n° 19287
+- [ ] **Pied sûr** (Rang 1) — talent, sort n° 19290
+- [ ] **Pied sûr** (Rang 2) — talent, sort n° 19294
+- [ ] **Représailles sauvages** (Rang 1) — talent, sort n° 19295
+- [ ] **Représailles sauvages** (Rang 2) — talent, sort n° 19297
+- [ ] **Représailles sauvages** (Rang 3) — talent, sort n° 19298
+- [ ] **Instinct du tueur** (Rang 1) — talent, sort n° 19370 🔍 MAJ
+- [ ] **Instinct du tueur** (Rang 2) — talent, sort n° 19371 🔍 MAJ
+- [ ] **Instinct du tueur** (Rang 3) — talent, sort n° 19373 🔍 MAJ
+- [ ] **Maîtrise des pièges** (Rang 1) — talent, sort n° 19376
+- [ ] **Piège** (Rang 2) — talent, sort n° 19387
+- [ ] **Piège** (Rang 3) — talent, sort n° 19388
+- [ ] **Oeil de faucon** (Rang 1) — talent, sort n° 19498
+- [ ] **Oeil de faucon** (Rang 2) — talent, sort n° 19499
+- [ ] **Oeil de faucon** (Rang 3) — talent, sort n° 19500
+- [ ] **Pied sûr** (Rang 3) — talent, sort n° 24283
+- [ ] **Ressource** (Rang 1) — talent, sort n° 34491 🔍 MAJ
+- [ ] **Ressource** (Rang 2) — talent, sort n° 34492 🔍 MAJ
+- [ ] **Ressource** (Rang 3) — talent, sort n° 34493 🔍 MAJ
+- [ ] **Instincts de survie** (Rang 1) — talent, sort n° 34494
+- [ ] **Instincts de survie** (Rang 2) — talent, sort n° 34496
+- [ ] **Frisson de la chasse** (Rang 1) — talent, sort n° 34497 🔍 MAJ
+- [ ] **Frisson de la chasse** (Rang 2) — talent, sort n° 34498 🔍 MAJ
+- [ ] **Frisson de la chasse** (Rang 3) — talent, sort n° 34499 🔍 MAJ
+- [ ] **Perce-faille** (Rang 1) — talent, sort n° 34500
+- [ ] **Perce-faille** (Rang 2) — talent, sort n° 34502
+- [ ] **Perce-faille** (Rang 3) — talent, sort n° 34503
+- [ ] **Maître tacticien** (Rang 1) — talent, sort n° 34506
+- [ ] **Maître tacticien** (Rang 2) — talent, sort n° 34507
+- [ ] **Maître tacticien** (Rang 3) — talent, sort n° 34508
+- [ ] **Loup solitaire** (Rang 1) — talent, sort n° 52783
+- [ ] **Loup solitaire** (Rang 2) — talent, sort n° 52785
+- [ ] **Partie de chasse** (Rang 1) — talent, sort n° 53290
+- [ ] **Partie de chasse** (Rang 2) — talent, sort n° 53291
+- [ ] **Partie de chasse** (Rang 3) — talent, sort n° 53292
+- [ ] **Piqûres nocives** (Rang 1) — talent, sort n° 53295
+- [ ] **Piqûres nocives** (Rang 2) — talent, sort n° 53296
+- [ ] **Piqûres nocives** (Rang 3) — talent, sort n° 53297
+- [ ] **Plus d'échappatoire** (Rang 1) — talent, sort n° 53298
+- [ ] **Plus d'échappatoire** (Rang 2) — talent, sort n° 53299
+- [ ] **Entraînement de sniper** (Rang 1) — talent, sort n° 53302
+- [ ] **Entraînement de sniper** (Rang 2) — talent, sort n° 53303
+- [ ] **Entraînement de sniper** (Rang 3) — talent, sort n° 53304
+- [ ] **T.N.T.** (Rang 1) — talent, sort n° 56333
+- [ ] **T.N.T.** (Rang 2) — talent, sort n° 56336
+- [ ] **T.N.T.** (Rang 3) — talent, sort n° 56337
+- [ ] **Face à la nature** (Rang 1) — talent, sort n° 56339
+- [ ] **Face à la nature** (Rang 2) — talent, sort n° 56340
+- [ ] **Face à la nature** (Rang 3) — talent, sort n° 56341
+- [ ] **Prêt à tirer** (Rang 1) — talent, sort n° 56342 🔍 MAJ
+- [ ] **Prêt à tirer** (Rang 2) — talent, sort n° 56343 🔍 MAJ
+- [ ] **Prêt à tirer** (Rang 3) — talent, sort n° 56344 🔍 MAJ
+- [ ] **Maîtrise des pièges** (Rang 2) — talent, sort n° 63457
+- [ ] **Maîtrise des pièges** (Rang 3) — talent, sort n° 63458
+- [ ] **Chasse sombre** (Rang 1) — talent, sort n° 435108
+- [ ] **Chasse sombre** (Rang 2) — talent, sort n° 435109
+- [ ] **Frappes sauvages** (Rang 3) — talent, sort n° 819160
+- [ ] **Tactique de survie** (Rang 3) — talent, sort n° 819286
+- [ ] **Instincts de survie** (Rang 3) — talent, sort n° 834494
+- [ ] **Plus d'échappatoire** (Rang 3) — talent, sort n° 853299
+- [ ] **Frappes lacérantes** (Rang 1) — talent, sort n° 888010
+- [ ] **Frappes lacérantes** (Rang 2) — talent, sort n° 888011
+- [ ] **Frappes lacérantes** (Rang 3) — talent, sort n° 888012
+- [ ] **Lancer de glaives amélioré** (Rang 1) — talent, sort n° 956031
+- [ ] **Lancer de glaives amélioré** (Rang 2) — talent, sort n° 956032
+- [ ] **Lancer de glaives amélioré** (Rang 3) — talent, sort n° 956033
+- [ ] **Flèche noire** (Rang 1) — capacité de talent, sort n° 3674
+- [ ] **Contre-attaque** (Rang 1) — capacité de talent, sort n° 19306 🔍 MAJ
+- [ ] **Piqûre de wyverne** (Rang 1) — capacité de talent, sort n° 19386 🔍 MAJ
+- [ ] **Flèche de dispersion** — capacité de talent, sort n° 19503
+- [ ] **Tir explosif** (Rang 1) — capacité de talent, sort n° 53301

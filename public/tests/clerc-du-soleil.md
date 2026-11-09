@@ -1,0 +1,221 @@
+# Fiche de test : Clerc du soleil
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Bénédictions
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Mailles** — capacité, sort n° 8737
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Lumière solaire** (Spécialisation) — capacité, sort n° 92136
+- [ ] **Cascade radieuse** (Rang 1) — capacité, sort n° 500141
+- [ ] **Rayon de soleil** (Rang 1) — capacité, sort n° 500142
+- [ ] **Illumination** (Rang 1) — capacité, sort n° 500143
+- [ ] **Point du jour** (Rang 1) — capacité, sort n° 500147
+- [ ] **Étreinte solaire** (Rang 1) — capacité, sort n° 500151
+- [ ] **Invocation solaire : Ascension** (Rang 1) — capacité, sort n° 500152 🔍 MAJ
+- [ ] **Rempart explosif** — capacité, sort n° 704392
+- [ ] **Garde de l'aube** (Passif) — capacité, sort n° 704562
+- [ ] **Douce chaleur** (Passif) — capacité, sort n° 704563
+- [ ] **Lueur éternelle** (Passif) — capacité, sort n° 704565
+- [ ] **Chercheur de pécheurs** (Passif) — capacité, sort n° 704567
+- [ ] **Lumière étincelante** (Passif) — capacité, sort n° 704568
+- [ ] **Protection lumineuse** (Passif) — capacité, sort n° 800233
+- [ ] **Vision divine** (Rang 1) — capacité, sort n° 800234
+- [ ] **Éclat** (Rang 1) — capacité, sort n° 800357
+- [ ] **Marche-soleil** — capacité, sort n° 800601
+- [ ] **Forme sacrée renforcée** (Passif) — capacité, sort n° 800602
+- [ ] **Revivifier** (Rang 1) — capacité, sort n° 801790
+- [ ] **Portail du soleil** — capacité, sort n° 802161
+- [ ] **Lié au soleil** (Passif) — capacité, sort n° 802935
+- [ ] **Tunnel de vent** — capacité, sort n° 804050
+- [ ] **Protection cyclonique** — capacité, sort n° 804067
+- [ ] **Bénir** — capacité, sort n° 804247
+- [ ] **Bénédiction d'absolution** (Rang 1) — capacité, sort n° 804249 🔍 MAJ
+- [ ] **Bénédiction du triomphe** — capacité, sort n° 804250 🔍 MAJ
+- [ ] **Guidance : Toucher de lumière** (Rang 1) — capacité, sort n° 804251
+- [ ] **Bénédiction de la pureté** — capacité, sort n° 804253 🔍 MAJ
+- [ ] **Bénédiction de la rétribution** — capacité, sort n° 804254 🔍 MAJ
+- [ ] **Rayons éblouissants** (Passif) — capacité, sort n° 804257
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Champion valeureux** (Spécialisation) — capacité, sort n° 804339
+- [ ] **Forme du Sacré** — capacité, sort n° 805301 🔍 MAJ
+- [ ] **Réfraction solaire** (Passif) — capacité, sort n° 806122
+- [ ] **Vigueur solaire** — capacité, sort n° 806123
+- [ ] **Invocation solaire : Resplendissement** — capacité, sort n° 806159 🔍 MAJ
+- [ ] **Rayon de gel** (Gel) — capacité, sort n° 806160
+- [ ] **Vengeur solaire** — capacité, sort n° 806196
+- [ ] **Bénédictions - Passif de niveau 15** (Spécialisation) — talent, sort n° 300330
+- [ ] **Sanctifié** (Passif) — talent, sort n° 300344
+- [ ] **Clerc de bataille** (Passif) — talent, sort n° 300346
+- [ ] **Clerc de bataille** (Passif) — talent, sort n° 300347
+- [ ] **Bouclier de soleil** (Passif) — talent, sort n° 300348
+- [ ] **Espoir** (Passif) — talent, sort n° 300349
+- [ ] **Char flamboyant** (Passif) — talent, sort n° 300350
+- [ ] **Rites anciens** (Rang 1) — talent, sort n° 300351
+- [ ] **Évaluation céleste** (Spécialisation) — talent, sort n° 300353
+- [ ] **Inébranlable** (Passif) — talent, sort n° 300355
+- [ ] **Bénédiction dévote** (Passif) — talent, sort n° 300356
+- [ ] **Ne me laisse pas m'égarer** (Passif) — talent, sort n° 300357
+- [ ] **Placeholder** (Passif) — talent, sort n° 704907
+- [ ] **Culte du soleil** (Spécialisation) — talent, sort n° 704910
+- [ ] **Cloches harmonieuses** (Passif) — talent, sort n° 704917
+- [ ] **Écran solaire** — talent, sort n° 704918
+- [ ] **Cultiver la divinité** (Passif) — talent, sort n° 704920
+
+## Piété
+
+- [ ] **Lever et coucher du soleil** (Spécialisation) — capacité, sort n° 92135
+- [ ] **Éclat** (Rang 1) — capacité, sort n° 500144
+- [ ] **Brûlure de l'aube** (Rang 1) — capacité, sort n° 500146
+- [ ] **Déflagration d'Horusath** (Rang 1) — capacité, sort n° 500154
+- [ ] **Éclat solaire** (Rang 1) — capacité, sort n° 800231
+- [ ] **Nouveau jour** — capacité, sort n° 800600
+- [ ] **Lumière ardente** (Passif) — capacité, sort n° 804030
+- [ ] **Marteau béni** (Passif) — capacité, sort n° 804032
+- [ ] **Apaisement** — capacité, sort n° 804057
+- [ ] **Bénédiction d'An'she** — capacité, sort n° 804058
+- [ ] **Lumière brûlante** (Passif) — capacité, sort n° 804624
+- [ ] **Leçons sévères** (Passif) — capacité, sort n° 804625
+- [ ] **Chargé de soleil** (Passif) — capacité, sort n° 804628
+- [ ] **Lances de gloire** (Passif) — capacité, sort n° 804629
+- [ ] **Héraut de l'aube** (Passif) — capacité, sort n° 804630
+- [ ] **Flammes de l'absolution** (Passif) — capacité, sort n° 804632
+- [ ] **Marques de brûlure** (Passif Flamboiement solaire) — capacité, sort n° 806021
+- [ ] **Gravures anciennes** (Passif) — capacité, sort n° 806022
+- [ ] **Purgation** (Passif) — capacité, sort n° 806024
+- [ ] **Héraut de la pureté** (Passif) — capacité, sort n° 806058
+- [ ] **Flamme radieuse** (Rang 1) — capacité, sort n° 806060
+- [ ] **Péchés du père** (Passif) — capacité, sort n° 806061
+- [ ] **Délivrance** — capacité, sort n° 806114 🔀 talents
+- [ ] **Dualité de la Lumière** (Passif) — capacité, sort n° 806116 🔍 MAJ
+- [ ] **Chute de l'aube** — capacité, sort n° 806118
+- [ ] **Purificateur des péchés** — capacité, sort n° 806120
+- [ ] **Flammes du Père** (Passif) — capacité, sort n° 806458
+- [ ] **Furie solaire** (Passif) — capacité, sort n° 806475
+- [ ] **Extase** (Rang 1) — capacité, sort n° 806477
+- [ ] **Conduit solaire** (Passif) — talent, sort n° 300321
+- [ ] **Justice prompte** (Rang 1) — talent, sort n° 300322
+- [ ] **Ferveur sacrée** (Passif) — talent, sort n° 300323
+- [ ] **Lueur guide** (Rang 1) — talent, sort n° 300324
+- [ ] **Fureur radieuse** (Passif) — talent, sort n° 300325
+- [ ] **Lumière concentrée** (Passif) — talent, sort n° 300326
+- [ ] **Justice prompte** (Rang 2) — talent, sort n° 300327
+- [ ] **Lueur guide** (Rang 2) — talent, sort n° 300329
+- [ ] **Barrage Ascended** (Passif) — talent, sort n° 300359
+- [ ] **Lumière instructive** (Passif) — talent, sort n° 300360
+- [ ] **Cycles du jour** (Spécialisation) — talent, sort n° 300361
+- [ ] **Piety Sun Cleric Passive Hidden2** (Passif) — talent, sort n° 300362
+- [ ] **Photosynthèse** (Rang 1) — talent, sort n° 300363
+- [ ] **Coup de soleil** (Passif) — talent, sort n° 300365
+- [ ] **Moment de triomphe** (Passif) — talent, sort n° 300367
+- [ ] **Feu des cieux** (Spécialisation) — talent, sort n° 300369
+- [ ] **Censure** (Passif) — talent, sort n° 300371
+- [ ] **Frappé par le soleil** (Rang 1) — talent, sort n° 300372
+
+## Séraphin
+
+- [ ] **Présence angélique** (Spécialisation) — capacité, sort n° 92137
+- [ ] **Lever et coucher du soleil** (Passif de spécialisation) — capacité, sort n° 500207 🔍 MAJ
+- [ ] **Lumière solaire** (Passif de spécialisation) — capacité, sort n° 500209
+- [ ] **Clerc du soleil valkyrie** (Obsolète) — capacité, sort n° 500210
+- [ ] **Grâce du marcheur du soleil** (Passif) — capacité, sort n° 704395
+- [ ] **Crépuscule** (Passif) — capacité, sort n° 704579
+- [ ] **Gardien solaire** (Passif) — capacité, sort n° 704581
+- [ ] **Angélique** (Rang 1) — capacité, sort n° 704582
+- [ ] **Veille étincelante** (Passif) — capacité, sort n° 704585
+- [ ] **Bouclier étincelant** (Passif) — capacité, sort n° 704586
+- [ ] **Guidance du guerrier du soleil** (Passif) — capacité, sort n° 800039
+- [ ] **Éclat** — capacité, sort n° 800054
+- [ ] **Présence angélique** (Passif de spécialisation) — capacité, sort n° 800586
+- [ ] **Lumière du guerrier** (Passif) — capacité, sort n° 800610
+- [ ] **Maillet de lumière** (Rang 1) — capacité, sort n° 800611 🔍 MAJ
+- [ ] **Champion du soleil** — capacité, sort n° 800612
+- [ ] **Maillet de grâce** (Rang 1) — capacité, sort n° 800614 🔍 MAJ
+- [ ] **Maillet de courroux** (Rang 1) — capacité, sort n° 800617 🔍 MAJ
+- [ ] **Veille étincelante** — capacité, sort n° 800621
+- [ ] **Élu de la Lumière** — capacité, sort n° 800622
+- [ ] **Injonction** — capacité, sort n° 800624
+- [ ] **Exécution glorieuse** (Rang 1) — capacité, sort n° 800626
+- [ ] **Aube naissante** (Rang 1) — capacité, sort n° 800654
+- [ ] **Invocation solaire : conquête** — capacité, sort n° 800764 🔍 MAJ
+- [ ] **Prêtre de combat** — capacité, sort n° 801180
+- [ ] **Rayon d'illumination** — capacité, sort n° 801428
+- [ ] **Sagesse de Chromie** (Rang 1) — capacité, sort n° 801523
+- [ ] **Chaînes de Lumière** — capacité, sort n° 801524
+- [ ] **Aube** — capacité, sort n° 804584 🔍 MAJ
+- [ ] **Marteau des rois** — capacité, sort n° 804751
+- [ ] **Bouclier étincelant** — capacité, sort n° 805265
+- [ ] **Armure étincelante** (Passif) — capacité, sort n° 805267
+- [ ] **Épreuve de vaillance** (Passif) — capacité, sort n° 805581
+- [ ] **Regard furieux** (Rang 1) — capacité, sort n° 805583
+- [ ] **Protection céleste** — capacité, sort n° 805584
+- [ ] **Placeholder** (Passif) — capacité, sort n° 805626
+- [ ] **Fanatisme** (Passif) — capacité, sort n° 805628
+- [ ] **Heurt solaire** (Rang 1) — capacité, sort n° 805629
+- [ ] **Séraphin - Passif de niveau 20** (Spécialisation) — capacité, sort n° 805631
+- [ ] **Lame du soleil** — capacité, sort n° 805632
+- [ ] **Appel de l'ange** (Dégâts) — capacité, sort n° 805641
+- [ ] **Chevalier de l'aube** (Passif) — capacité, sort n° 805647
+- [ ] **Veille de la valkyrie** (Passif) — capacité, sort n° 805816
+- [ ] **Jour du jugement** — capacité, sort n° 806121
+- [ ] **Prière solaire** — capacité, sort n° 806479
+- [ ] **Lumière pure** (Passif) — talent, sort n° 300314
+- [ ] **Jugement de la valkyrie** (Passif) — talent, sort n° 300315
+- [ ] **Croisé solaire** (Passif) — talent, sort n° 300317
+- [ ] **Bénédiction par la Lumière** (Passif) — talent, sort n° 300318
+- [ ] **Chemin vers la gloire** (Passif) — talent, sort n° 300319
+- [ ] **Saut de la valkyrie** (Passif) — talent, sort n° 300320
+- [ ] **Arbitre** (Passif) — talent, sort n° 704903
+- [ ] **Feu divin** (Passif) — talent, sort n° 704904
+- [ ] **Arrivée du champion** (Passif) — talent, sort n° 704905
+- [ ] **Seigneur commandant** — talent, sort n° 704923
+- [ ] **Rempart du soleil** — talent, sort n° 704924
+- [ ] **Bastion de vengeance** (Rang 1) — talent, sort n° 704925
+- [ ] **Bastion de vengeance** (Passif) — talent, sort n° 704927
+- [ ] **Bastion d'espoir** (Passif) — talent, sort n° 704928
+- [ ] **Éclipse solaire** (Passif) — talent, sort n° 704929
+- [ ] **Mort thermique** (Passif) — talent, sort n° 704932
+- [ ] **Marche-soleil** (Passif) — talent, sort n° 704934
+- [ ] **Clarté des cieux** (Spécialisation) — talent, sort n° 704935
+- [ ] **Les Élus** (Passif) — talent, sort n° 704936
+- [ ] **Vindicateur** (Rang 1) — talent, sort n° 704938
+- [ ] **Dernier vœu** (Passif) — talent, sort n° 704940
+- [ ] **Lumière du soleil** (Passif) — talent, sort n° 704941
+- [ ] **Impartial** (Rang 1) — talent, sort n° 704942
+- [ ] **Sillage** (Passif) — talent, sort n° 706261
+
+## Classe
+
+- [ ] **Prononcer ses vœux** (Passif) — capacité, sort n° 300331
+- [ ] **Brûle-péchés** (Rang 1) — capacité, sort n° 300332
+- [ ] **Béatification** (Passif) — capacité, sort n° 300333
+- [ ] **Armure bénie** (Passif) — capacité, sort n° 300334
+- [ ] **Éclairer la voie** (Passif) — capacité, sort n° 300336
+- [ ] **Le Rédempteur** (Spécialisation) — capacité, sort n° 300339
+- [ ] **Exorcisme** (Passif) — capacité, sort n° 300341
+- [ ] **Sauveur** (Passif) — capacité, sort n° 300343
+- [ ] **Lances luminescentes** (Passif) — capacité, sort n° 300358
+- [ ] **Lumière éclatante** — capacité, sort n° 704900
+- [ ] **Vitalité** (Passif) — capacité, sort n° 704901
+- [ ] **Sans ombre** (Passif) — capacité, sort n° 704902
+- [ ] **Gardé par la Lumière** (Passif) — capacité, sort n° 704912
+- [ ] **Puissance solaire** (Rang 1) — capacité, sort n° 704916
+- [ ] **Mendiant lumineux** (Passif) — capacité, sort n° 704943
+- [ ] **Toucher angélique** — capacité, sort n° 704944
+- [ ] **Marques radieuses** (Passif) — capacité, sort n° 704947
+- [ ] **Soleil courroucé** (Passif) — capacité, sort n° 704948
+- [ ] **Chaleur ardente** (Passif) — capacité de talent, sort n° 704908
+- [ ] **Brûle-péchés** (Passif) — capacité de talent, sort n° 704909
+- [ ] **Incandescence solaire** (Rang 1) — capacité de talent, sort n° 704913
+- [ ] **Incandescence solaire** (Rang 2) — capacité de talent, sort n° 704914
+- [ ] **Flamboiement solaire amélioré** (Obsolète) — capacité de talent, sort n° 704915
+- [ ] **Fureur contrôlée** (Rang 1) — capacité de talent, sort n° 704921
+- [ ] **Fureur contrôlée** (OBSOLÈTE) — capacité de talent, sort n° 704922
+- [ ] **Focalisation inébranlable** (Passif) — capacité de talent, sort n° 704945
+- [ ] **Exécution rapide** (Passif) — capacité de talent, sort n° 704946
+- [ ] **Solstice** (Rang 1) — capacité de talent, sort n° 704949
+- [ ] **Solstice** (Talent) — capacité de talent, sort n° 704950

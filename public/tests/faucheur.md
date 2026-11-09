@@ -1,0 +1,199 @@
+# Fiche de test : Faucheur
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Domination
+
+- [ ] **Tourmenteur** (Spécialisation) — capacité, sort n° 92147
+- [ ] **Moissonneur** (Passif de spécialisation) — capacité, sort n° 500283
+- [ ] **Âmes affaiblies** (Passif de spécialisation) — capacité, sort n° 500284
+- [ ] **Glissement d'âme** (Spécialisation) — capacité, sort n° 500286
+- [ ] **Marque de terreur** — capacité, sort n° 500355
+- [ ] **Décimation** (Spécialisation) — capacité, sort n° 704193
+- [ ] **Preneur d'âmes** (Passif) — capacité, sort n° 704356
+- [ ] **Forme macabre** (Passif) — capacité, sort n° 704357
+- [ ] **Vent de mort** (Rang 1) — capacité, sort n° 800174
+- [ ] **Marche souterraine** — capacité, sort n° 800797
+- [ ] **Voile d'émeraude** (Rang 2) — capacité, sort n° 800939
+- [ ] **Faux affamée** (Passif) — capacité, sort n° 801335
+- [ ] **Contorsion** — capacité, sort n° 801337
+- [ ] **Conquête sombre** — capacité, sort n° 801568
+- [ ] **Foulée spectrale** (Rang 1) — capacité, sort n° 801624
+- [ ] **Griffe fantôme** — capacité, sort n° 803985
+- [ ] **Griffe fantôme** (Visuel) — capacité, sort n° 803987
+- [ ] **Valse spectrale** — capacité, sort n° 803988
+- [ ] **Choc d'âme** — capacité, sort n° 803989 🔀 talents
+- [ ] **Marche du voile** — capacité, sort n° 803990
+- [ ] **Sillage d'effroi** (Rang 1) — capacité, sort n° 803992
+- [ ] **Griffe fantôme** (UNUSED) — capacité, sort n° 803994
+- [ ] **Marché sombre** — capacité, sort n° 803996
+- [ ] **Emprise** (Passif) — capacité, sort n° 803999
+- [ ] **Pacte du faucheur** — capacité, sort n° 804001
+- [ ] **Mangeur d'âmes** (Passif) — capacité, sort n° 805181
+- [ ] **Linceul d'âme** — capacité, sort n° 805711
+- [ ] **Contre-faux** — capacité, sort n° 805714
+- [ ] **Gardien spectral** — capacité, sort n° 805716 🔍 MAJ
+- [ ] **Requiem** (Rang 1) — capacité, sort n° 805717
+- [ ] **Marché du geôlier** — capacité, sort n° 805718
+- [ ] **Échardes d'âme** (Passif) — capacité, sort n° 805719
+- [ ] **Cri effroyable** (Rang 1) — capacité, sort n° 806146
+- [ ] **Pacte sombre amélioré** (Passif) — talent, sort n° 300555
+- [ ] **Effroi** (Passif) — talent, sort n° 300557
+- [ ] **Gardien de l'effroi** (Passif) — talent, sort n° 300559
+- [ ] **Chevalier d'effroi** (Rang 1) — talent, sort n° 300560
+- [ ] **Buveur de gouffre** (Passif) — talent, sort n° 300561
+- [ ] **Faim du roi-liche** (Passif) — talent, sort n° 300563
+- [ ] **Vision des âmes** (Passif) — talent, sort n° 300565
+- [ ] **Pression spirituelle** (Passif) — talent, sort n° 300566
+- [ ] **Voile d'âme amélioré** (Passif) — talent, sort n° 300568
+- [ ] **Marché difficile** (Passif) — talent, sort n° 300569
+- [ ] **Tempête d'âme** (Passif) — talent, sort n° 705403
+- [ ] **Royaume des esprits** (Passif) — talent, sort n° 705404
+- [ ] **Tord-âme** (Passif) — talent, sort n° 705405
+- [ ] **Vie exploitée** (Passif) — talent, sort n° 705406
+- [ ] **Debout, c'est l'heure de l'effroi** (Passif) — talent, sort n° 705429
+
+## Moisson
+
+- [ ] **Moissonneur** (Spécialisation) — capacité, sort n° 92145
+- [ ] **Fauchage** (Rang 1) — capacité, sort n° 500357 🔀 talents
+- [ ] **Moisson cramoisie** — capacité, sort n° 500358 🔀 talents
+- [ ] **Ruée de la faux** — capacité, sort n° 500359 🔀 talents
+- [ ] **Orbe sanguine** — capacité, sort n° 500361
+- [ ] **Cimetière** (Invocateur) — capacité, sort n° 500365
+- [ ] **Massacre** (Rang 1) — capacité, sort n° 500373
+- [ ] **Réjouissances** — capacité, sort n° 704550
+- [ ] **Chevalier de sang** (Passif) — capacité, sort n° 704552
+- [ ] **Vrilles écarlates** — capacité, sort n° 704553
+- [ ] **Soldat sanguin** (Passif) — capacité, sort n° 704555
+- [ ] **Prophète de malheur** (Passif) — capacité, sort n° 704556
+- [ ] **Croissant affamé** (Passif) — capacité, sort n° 704557
+- [ ] **Sombre passage** (Obsolète) — capacité, sort n° 704560
+- [ ] **Déchirure funeste** (Rang 1) — capacité, sort n° 800172
+- [ ] **Rite de résolution** (Rang 1) — capacité, sort n° 800198
+- [ ] **Abattage** — capacité, sort n° 800940
+- [ ] **Sillage rouge** (Rang 1) — capacité, sort n° 801041
+- [ ] **Cotte de douleur** (Passif) — capacité, sort n° 801325
+- [ ] **Rage masochiste** — capacité, sort n° 803030
+- [ ] **Frénésie sanglante** — capacité, sort n° 803039
+- [ ] **Temps de la moisson** — capacité, sort n° 803995
+- [ ] **Pourriture d'âme** — capacité, sort n° 804660
+- [ ] **Litanie sinistre** — capacité, sort n° 805185
+- [ ] **Sans-âme** — capacité, sort n° 805189
+- [ ] **Avancée macabre** (Rang 1) — capacité, sort n° 805192
+- [ ] **Cimetière** — capacité, sort n° 805197
+- [ ] **Ruine** (Passif) — capacité, sort n° 805198 🔀 talents
+- [ ] **Lien de sang** (Passif) — capacité, sort n° 805200
+- [ ] **Faux déchire-ténèbres** (Passif) — capacité, sort n° 805205
+- [ ] **Faux frémissante** (Passif) — capacité, sort n° 805708
+- [ ] **Siphon de sang amélioré** (Rang 1) — talent, sort n° 705407
+- [ ] **Siphon de sang amélioré** (Rang 2) — talent, sort n° 705408
+- [ ] **Soif dévorante** (Passif) — talent, sort n° 705409
+- [ ] **Hanteur** (Passif) — talent, sort n° 705410
+- [ ] **Rapidité écarlate** (Rang 1) — talent, sort n° 705411
+- [ ] **Rapidité écarlate** (Rang 2) — talent, sort n° 705412
+- [ ] **Terres de récolte** — talent, sort n° 705413
+- [ ] **Mort cramoisie** (Passif) — talent, sort n° 705414
+- [ ] **Destruction absolue** (Passif) — talent, sort n° 705415
+- [ ] **Nourri de sang** (Passif) — talent, sort n° 705416
+- [ ] **Chasseur de fantômes** — talent, sort n° 705417
+- [ ] **Âme impitoyable** (Passif) — talent, sort n° 705418
+- [ ] **Moisson - Passif de niveau 30** (Spécialisation) — talent, sort n° 705419
+- [ ] **Faux assoiffée** (Passif) — talent, sort n° 705420
+- [ ] **Annihilation** (Passif) — talent, sort n° 705421
+- [ ] **Génocide SLS** (Passif) — talent, sort n° 705423
+
+## Âme
+
+- [ ] **Haches à deux mains** — capacité, sort n° 197
+- [ ] **Armes d'hast** — capacité, sort n° 200
+- [ ] **Mailles** — capacité, sort n° 8737
+- [ ] **Âmes affaiblies** (Spécialisation) — capacité, sort n° 92146
+- [ ] **Meurtre** (Rang 1) — capacité, sort n° 500376 🔀 talents
+- [ ] **Coureur d'âmes** (Passif) — capacité, sort n° 704547
+- [ ] **Limbes** — capacité, sort n° 800845
+- [ ] **Parasite** — capacité, sort n° 800921 🔀 talents
+- [ ] **Porteur de fin** — capacité, sort n° 800922
+- [ ] **Plaie de l'âme** — capacité, sort n° 800935
+- [ ] **Écorchement corporel** (Rang 1) — capacité, sort n° 800938
+- [ ] **Complainte** (Rang 1) — capacité, sort n° 801328
+- [ ] **Hurleur** (Soins) — capacité, sort n° 801332 🔀 talents
+- [ ] **Lance d'âme** (Rang 1) — capacité, sort n° 803984
+- [ ] **Arme fantomatique** — capacité, sort n° 803997
+- [ ] **Magie fantomatique** (Rang 1) — capacité, sort n° 803998
+- [ ] **Manipulateur d'âmes** (Passif) — capacité, sort n° 804004
+- [ ] **Au-delà du voile** (Spécialisation) — capacité, sort n° 804053 🔀 talents
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Moissonneur d'âmes** (Passif) — capacité, sort n° 804311
+- [ ] **Force spectrale** (Rang 1) — capacité, sort n° 804671
+- [ ] **Héraut de l'aube** (Déclencheur) — capacité, sort n° 804672
+- [ ] **Âme gémissante** — capacité, sort n° 804677
+- [ ] **Fournaise des âmes** (Passif) — capacité, sort n° 805184
+- [ ] **Revigoration d'essence** (Passif) — capacité, sort n° 805186
+- [ ] **Faux du moissonneur** (Passif) — capacité, sort n° 805188
+- [ ] **Traque-mort** (Rang 1) — capacité, sort n° 805190
+- [ ] **Test Zombie** — capacité, sort n° 805191
+- [ ] **Marcheur du tranchant** — capacité, sort n° 805193
+- [ ] **Seigneur de la mort** (Passif) — capacité, sort n° 805194
+- [ ] **L'appel du geôlier** (Passif) — capacité, sort n° 805195
+- [ ] **Pourriture d'âme** (Passif) — capacité, sort n° 805196
+- [ ] **Étreinte de la mort** (Passif) — capacité, sort n° 805202
+- [ ] **Né de la Gueule** (Passif) — capacité, sort n° 805203
+- [ ] **Chevalier de la Gueule** (Rang 1) — capacité, sort n° 805204
+- [ ] **Lame spectrale** (Rang 1) — capacité, sort n° 805258
+- [ ] **Passif du faucheur** — capacité, sort n° 805684
+- [ ] **Spectre d'ombre** (Passif) — capacité, sort n° 805721
+- [ ] **Appel du spectre** (Rang 1) — talent, sort n° 705386
+- [ ] **Esprit de sauvagerie** — talent, sort n° 705387 🔍 MAJ
+- [ ] **Rapidité sombre** (Obsolète) — talent, sort n° 705388
+- [ ] **Apparition** (Passif) — talent, sort n° 705389
+- [ ] **Ombres perfides** (Rang 1) — talent, sort n° 705390
+- [ ] **Ombres perfides** (Rang 2) — talent, sort n° 705391
+- [ ] **Plaie de l'âme** (Passif) — talent, sort n° 705392
+- [ ] **Mangeur d'âmes** — talent, sort n° 705393
+- [ ] **Brasier d'âme** — talent, sort n° 705394
+- [ ] **Saccageur spectral** (Obsolète) — talent, sort n° 705395
+- [ ] **Saccageur spectral** (Passif) — talent, sort n° 705396
+- [ ] **Lamentation** (Passif) — talent, sort n° 705397
+- [ ] **Royaume des ténèbres** (Passif) — talent, sort n° 705398
+- [ ] **Lame ignoble** (Passif) — talent, sort n° 705399
+- [ ] **Marcheur des plans** (Passif) — talent, sort n° 705400
+- [ ] **Semeur de mort** (Passif) — talent, sort n° 705401
+- [ ] **Étreinte perdue** (Passif) — talent, sort n° 705402
+- [ ] **Hurlement mental** (Passif) — talent, sort n° 705448
+- [ ] **Faux tortionnaire** (Passif) — talent, sort n° 705449
+
+## Classe
+
+- [ ] **Soif meurtrière** (Passif) — capacité, sort n° 300547 🔀 talents
+- [ ] **Faux spirituelles** (Passif) — capacité, sort n° 300548 🔀 talents
+- [ ] **Chapelet maudit** (Rang 1) — capacité, sort n° 300551
+- [ ] **Peau lugubre** (Rang 1) — capacité, sort n° 300552
+- [ ] **Protecteur des âmes** (Passif) — capacité, sort n° 300553
+- [ ] **Lié à l'ombre** (Passif) — capacité, sort n° 300554
+- [ ] **Embusqueur d'anima** (Passif) — capacité, sort n° 705424
+- [ ] **Fantôme** (Passif) — capacité, sort n° 705426
+- [ ] **Des âmes pour le massacre** (Passif) — capacité, sort n° 705428
+- [ ] **Angoisse** (Passif) — capacité, sort n° 705430
+- [ ] **Vagabond ombral** (Passif) — capacité, sort n° 705431
+- [ ] **Hémorragie** (Passif) — capacité, sort n° 705432
+- [ ] **Attiser les âmes** (Passif) — capacité, sort n° 705433
+- [ ] **Brume vampirique** (Passif) — capacité, sort n° 705435
+- [ ] **Réflexes spirituels** (Passif) — capacité, sort n° 705436
+- [ ] **Puissance macabre** — capacité, sort n° 705438
+- [ ] **Nature spectrale** — capacité, sort n° 705440
+- [ ] **Âmes brisées** (Passif) — capacité, sort n° 705441
+- [ ] **Scelleur de destin** (Passif) — capacité, sort n° 705442
+- [ ] **Robustesse fantomatique** (Passif) — capacité, sort n° 705446
+- [ ] **Sadisme** (Passif) — capacité, sort n° 705447
+- [ ] **Meurtre vicieux** (Rang 1) — capacité de talent, sort n° 300546
+- [ ] **Mort rapide** (Rang 1) — capacité de talent, sort n° 300549
+- [ ] **Mort hasardeuse** (Passif) — capacité de talent, sort n° 300550
+- [ ] **Sombre passage** (Passif) — capacité de talent, sort n° 704558
+- [ ] **Sombre passage** (Obsolète) — capacité de talent, sort n° 704559
+- [ ] **Fin du mortel** (Spécialisation) — capacité de talent, sort n° 705437
+- [ ] **Destination finale** (Passif) — capacité de talent, sort n° 705444
+- [ ] **Destination finale** (Caché) — capacité de talent, sort n° 705445

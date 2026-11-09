@@ -1,0 +1,322 @@
+# Fiche de test : Chaman
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Élémentaire
+
+- [ ] **Expiation** (Rang 1) — capacité, sort n° 370
+- [ ] **Eclair** (Rang 1) — capacité, sort n° 403
+- [ ] **Chaîne d'éclairs** (Rang 1) — capacité, sort n° 421
+- [ ] **Nova de feu** (Rang 1) — capacité, sort n° 1535 🔍 MAJ
+- [ ] **Totem de lien terrestre** — capacité, sort n° 2484 🔍 MAJ
+- [ ] **Totem élémentaire de feu** — capacité, sort n° 2894
+- [ ] **Totem incendiaire** (Rang 1) — capacité, sort n° 3599
+- [ ] **Totem de griffes de pierre** (Rang 1) — capacité, sort n° 5730 🔍 MAJ
+- [ ] **Horion de terre** (Rang 1) — capacité, sort n° 8042 🔍 MAJ
+- [ ] **Horion de flammes** (Rang 1) — capacité, sort n° 8050 🔍 MAJ
+- [ ] **Horion de givre** (Rang 1) — capacité, sort n° 8056 🔍 MAJ
+- [ ] **Totem de magma** (Rang 1) — capacité, sort n° 8190 🔍 MAJ
+- [ ] **Explosion de lave** (Rang 1) — capacité, sort n° 51505
+- [ ] **Maléfice** — capacité, sort n° 51514
+- [ ] **Cisaille de vent** — capacité, sort n° 57994 🔍 MAJ
+- [ ] **Appel des éléments** — capacité, sort n° 66842
+- [ ] **Appel des ancêtres** — capacité, sort n° 66843
+- [ ] **Appel des esprits** — capacité, sort n° 66844
+- [ ] **Lier un élémentaire** — capacité, sort n° 91606 🔍 MAJ
+- [ ] **Maîtrise des totems de feu** — capacité, sort n° 92159 🔍 MAJ
+- [ ] **Maîtrise des totems d'air** — capacité, sort n° 92160 🔍 MAJ 🔀 talents
+- [ ] **Maîtrise des totems de terre** — capacité, sort n° 92163 🔍 MAJ
+- [ ] **Ascendance des flammes** — capacité, sort n° 760000
+- [ ] **Totem condensateur** (Rang 1) — capacité, sort n° 954518
+- [ ] **Séisme** (Rang 1) — capacité, sort n° 954524 🔍 MAJ
+- [ ] **Explosion élémentaire** (Rang 1) — capacité, sort n° 954807
+- [ ] **Totem de Pétrification** — capacité, sort n° 956046 🔍 MAJ
+- [ ] **Commotion** (Rang 1) — talent, sort n° 16035
+- [ ] **Appel des flammes** (Rang 1) — talent, sort n° 16038
+- [ ] **Convection** (Rang 1) — talent, sort n° 16039
+- [ ] **Réverbération** (Rang 1) — talent, sort n° 16040
+- [ ] **Appel de la foudre** (Rang 1) — talent, sort n° 16041
+- [ ] **Flammes montantes** (Rang 1) — talent, sort n° 16086
+- [ ] **Fureur élémentaire** (Rang 1) — talent, sort n° 16089 🔍 MAJ
+- [ ] **Commotion** (Rang 2) — talent, sort n° 16105
+- [ ] **Commotion** (Rang 3) — talent, sort n° 16106
+- [ ] **Commotion** (Rang 4) — talent, sort n° 16107
+- [ ] **Commotion** (Rang 5) — talent, sort n° 16108
+- [ ] **Convection** (Rang 2) — talent, sort n° 16109
+- [ ] **Convection** (Rang 3) — talent, sort n° 16110
+- [ ] **Convection** (Rang 4) — talent, sort n° 16111
+- [ ] **Convection** (Rang 5) — talent, sort n° 16112
+- [ ] **Réverbération** (Rang 2) — talent, sort n° 16113
+- [ ] **Réverbération** (Rang 3) — talent, sort n° 16114
+- [ ] **Appel des flammes** (Rang 2) — talent, sort n° 16160
+- [ ] **Appel des flammes** (Rang 3) — talent, sort n° 16161
+- [ ] **Focalisation élémentaire** — talent, sort n° 16164
+- [ ] **Flammes montantes** (Rang 2) — talent, sort n° 16544
+- [ ] **Maîtrise de la foudre** (Rang 1) — talent, sort n° 16578
+- [ ] **Maîtrise de la foudre** (Rang 2) — talent, sort n° 16579
+- [ ] **Maîtrise de la foudre** (Rang 3) — talent, sort n° 16580
+- [ ] **Protection contre les éléments** (Rang 1) — talent, sort n° 28996
+- [ ] **Protection contre les éléments** (Rang 2) — talent, sort n° 28997
+- [ ] **Protection contre les éléments** (Rang 3) — talent, sort n° 28998
+- [ ] **Allonge élémentaire** (Rang 1) — talent, sort n° 28999 🔍 MAJ
+- [ ] **Allonge élémentaire** (Rang 2) — talent, sort n° 29000 🔍 MAJ
+- [ ] **Oeil du cyclone** (Rang 1) — talent, sort n° 29062
+- [ ] **Oeil du cyclone** (Rang 2) — talent, sort n° 29064
+- [ ] **Oeil du cyclone** (Rang 3) — talent, sort n° 29065
+- [ ] **Dévastation élémentaire** (Rang 2) — talent, sort n° 29179
+- [ ] **Dévastation élémentaire** (Rang 3) — talent, sort n° 29180
+- [ ] **Dévastation élémentaire** (Rang 1) — talent, sort n° 30160
+- [ ] **Tempête continuelle** (Rang 1) — talent, sort n° 30664 🔍 MAJ
+- [ ] **Tempête continuelle** (Rang 2) — talent, sort n° 30665 🔍 MAJ
+- [ ] **Tempête continuelle** (Rang 3) — talent, sort n° 30666 🔍 MAJ
+- [ ] **Précision élémentaire** (Rang 1) — talent, sort n° 30672
+- [ ] **Précision élémentaire** (Rang 2) — talent, sort n° 30673
+- [ ] **Précision élémentaire** (Rang 3) — talent, sort n° 30674
+- [ ] **Surcharge de foudre** (Rang 1) — talent, sort n° 30675
+- [ ] **Surcharge de foudre** (Rang 2) — talent, sort n° 30678
+- [ ] **Surcharge de foudre** (Rang 3) — talent, sort n° 30679
+- [ ] **Ruée de vent** (Rang 1) — talent, sort n° 32509
+- [ ] **Ruée de vent** (Rang 2) — talent, sort n° 32510
+- [ ] **Ruée de vent** (Rang 3) — talent, sort n° 32511
+- [ ] **Serment des éléments** (Rang 1) — talent, sort n° 51466 🔍 MAJ
+- [ ] **Serment des éléments** (Rang 2) — talent, sort n° 51470 🔍 MAJ
+- [ ] **Serment des éléments** (Rang 3) — talent, sort n° 51471
+- [ ] **Transfert astral** (Rang 1) — talent, sort n° 51474
+- [ ] **Transfert astral** (Rang 2) — talent, sort n° 51478
+- [ ] **Transfert astral** (Rang 3) — talent, sort n° 51479
+- [ ] **Flots de lave** (Rang 1) — talent, sort n° 51480
+- [ ] **Flots de lave** (Rang 2) — talent, sort n° 51481
+- [ ] **Flots de lave** (Rang 3) — talent, sort n° 51482
+- [ ] **Tempête, terre et feu** (Rang 1) — talent, sort n° 51483
+- [ ] **Tempête, terre et feu** (Rang 2) — talent, sort n° 51485
+- [ ] **Tempête, terre et feu** (Rang 3) — talent, sort n° 51486
+- [ ] **Fureur élémentaire** (Rang 2) — talent, sort n° 60184 🔍 MAJ
+- [ ] **Fureur élémentaire** (Rang 3) — talent, sort n° 60185 🔍 MAJ
+- [ ] **Fureur élémentaire** (Rang 4) — talent, sort n° 60187 🔍 MAJ
+- [ ] **Fureur élémentaire** (Rang 5) — talent, sort n° 60188 🔍 MAJ
+- [ ] **Chamanisme** (Rang 1) — talent, sort n° 62097
+- [ ] **Chamanisme** (Rang 2) — talent, sort n° 62098
+- [ ] **Chamanisme** (Rang 3) — talent, sort n° 62099
+- [ ] **Echos tonitruants** (Rang 1) — talent, sort n° 63370
+- [ ] **Echos tonitruants** (Rang 2) — talent, sort n° 63372
+- [ ] **Dévastation** (Rang 1) — talent, sort n° 411000
+- [ ] **Dévastation** (Rang 2) — talent, sort n° 411001
+- [ ] **Dévastation** (Rang 3) — talent, sort n° 411002
+- [ ] **Puissance des éléments** — talent, sort n° 423785
+- [ ] **Puissance des éléments** — talent, sort n° 423822
+- [ ] **Puissance des éléments** — talent, sort n° 423823
+- [ ] **Puissance des éléments** — talent, sort n° 423824
+- [ ] **Puissance des éléments** — talent, sort n° 423825
+- [ ] **Appel de la foudre** (Rang 2) — talent, sort n° 816041
+- [ ] **Appel de la foudre** (Rang 3) — talent, sort n° 816042
+- [ ] **Focalisation élémentaire** (Rang 2) — talent, sort n° 816164
+- [ ] **Allonge élémentaire** (Rang 3) — talent, sort n° 829000 🔍 MAJ
+- [ ] **Echos tonitruants** (Rang 3) — talent, sort n° 863372
+- [ ] **Purge améliorée** (Rang 1) — talent, sort n° 954206
+- [ ] **Purge améliorée** (Rang 2) — talent, sort n° 954207
+- [ ] **Purge améliorée** (Rang 3) — talent, sort n° 954208
+- [ ] **Maîtrise élémentaire** — capacité de talent, sort n° 16166 🔍 MAJ
+- [ ] **Totem de courroux** (Rang 1) — capacité de talent, sort n° 30706 🔍 MAJ
+- [ ] **Orage** (Rang 1) — capacité de talent, sort n° 51490
+
+## Amélioration
+
+- [ ] **Respiration aquatique** — capacité, sort n° 131 🔍 MAJ
+- [ ] **Bouclier de foudre** (Rang 1) — capacité, sort n° 324
+- [ ] **Marche sur l’eau** — capacité, sort n° 546 🔍 MAJ
+- [ ] **Rappel astral** — capacité, sort n° 556
+- [ ] **Totem élémentaire de terre** — capacité, sort n° 2062 🔍 MAJ
+- [ ] **Loup fantôme** — capacité, sort n° 2645 🔀 talents
+- [ ] **Furie sanguinaire** — capacité, sort n° 2825 🔍 MAJ
+- [ ] **Totem de courroux de l'air** — capacité, sort n° 3738 🔍 MAJ
+- [ ] **Double vue** — capacité, sort n° 6196 🔍 MAJ
+- [ ] **Arme Croque-roc** (Rang 1) — capacité, sort n° 8017 🔍 MAJ
+- [ ] **Arme Langue de feu** (Rang 1) — capacité, sort n° 8024 🔀 talents
+- [ ] **Arme de givre** (Rang 1) — capacité, sort n° 8033
+- [ ] **Totem de peau de pierre** (Rang 1) — capacité, sort n° 8071 🔍 MAJ
+- [ ] **Totem de force de la terre** (Rang 1) — capacité, sort n° 8075 🔍 MAJ
+- [ ] **Totem de glèbe** — capacité, sort n° 8177 🔍 MAJ
+- [ ] **Totem de résistance au Givre** (Rang 1) — capacité, sort n° 8181 🔍 MAJ
+- [ ] **Totem de résistance au Feu** (Rang 1) — capacité, sort n° 8184 🔍 MAJ
+- [ ] **Totem Langue de feu** (Rang 1) — capacité, sort n° 8227 🔍 MAJ
+- [ ] **Arme Furie-des-vents** (Rang 1) — capacité, sort n° 8232 🔍 MAJ
+- [ ] **Totem Furie-des-vents** — capacité, sort n° 8512 🔍 MAJ
+- [ ] **Totem de résistance à la Nature** (Rang 1) — capacité, sort n° 10595 🔍 MAJ
+- [ ] **Maîtrise des améliorations d'arme** — capacité, sort n° 92158 🔍 MAJ 🔀 talents
+- [ ] **Améliorations d'arme du chaman** — capacité, sort n° 701494
+- [ ] **Fracture** (Rang 1) — capacité, sort n° 760121
+- [ ] **Ascension de l'air** — capacité, sort n° 954831
+- [ ] **Emprise de la terre** (Rang 1) — talent, sort n° 16043
+- [ ] **Emprise de la terre** (Rang 2) — talent, sort n° 16130
+- [ ] **Résistance** (Rang 1) — talent, sort n° 16252
+- [ ] **Anticipation** (Rang 1) — talent, sort n° 16254 🔍 MAJ
+- [ ] **Frappe foudroyante** (Rang 1) — talent, sort n° 16255 🔍 MAJ
+- [ ] **Rafale** (Rang 1) — talent, sort n° 16256
+- [ ] **Totems gardiens** (Rang 1) — talent, sort n° 16258
+- [ ] **Totems renforcés** (Rang 1) — talent, sort n° 16259
+- [ ] **Boucliers améliorés** (Rang 1) — talent, sort n° 16261
+- [ ] **Loup fantôme amélioré** (Rang 1) — talent, sort n° 16262
+- [ ] **Armes élémentaires** (Rang 1) — talent, sort n° 16266
+- [ ] **Armes spirituelles** — talent, sort n° 16268
+- [ ] **Anticipation** (Rang 2) — talent, sort n° 16271 🔍 MAJ
+- [ ] **Anticipation** (Rang 3) — talent, sort n° 16272 🔍 MAJ
+- [ ] **Rafale** (Rang 2) — talent, sort n° 16281
+- [ ] **Rafale** (Rang 3) — talent, sort n° 16282
+- [ ] **Loup fantôme amélioré** (Rang 2) — talent, sort n° 16287
+- [ ] **Loup fantôme amélioré** (Rang 3) — talent, sort n° 16288
+- [ ] **Boucliers améliorés** (Rang 2) — talent, sort n° 16290
+- [ ] **Totems gardiens** (Rang 2) — talent, sort n° 16293
+- [ ] **Totems renforcés** (Rang 2) — talent, sort n° 16295
+- [ ] **Frappe foudroyante** (Rang 2) — talent, sort n° 16302 🔍 MAJ
+- [ ] **Frappe foudroyante** (Rang 3) — talent, sort n° 16303 🔍 MAJ
+- [ ] **Frappe foudroyante** (Rang 4) — talent, sort n° 16304 🔍 MAJ
+- [ ] **Frappe foudroyante** (Rang 5) — talent, sort n° 16305 🔍 MAJ
+- [ ] **Résistance** (Rang 2) — talent, sort n° 16306
+- [ ] **Résistance** (Rang 3) — talent, sort n° 16307
+- [ ] **Connaissance ancestrale** (Rang 1) — talent, sort n° 17485
+- [ ] **Connaissance ancestrale** (Rang 2) — talent, sort n° 17486
+- [ ] **Connaissance ancestrale** (Rang 3) — talent, sort n° 17487
+- [ ] **Armes spirituelles** (Rang 2) — talent, sort n° 18848
+- [ ] **Armes élémentaires** (Rang 2) — talent, sort n° 29079
+- [ ] **Armes élémentaires** (Rang 3) — talent, sort n° 29080
+- [ ] **Maîtrise des armes améliorée** (Rang 1) — talent, sort n° 29082 🔍 MAJ 🔀 talents
+- [ ] **Maîtrise des armes améliorée** (Rang 2) — talent, sort n° 29084 🔍 MAJ 🔀 talents
+- [ ] **Maîtrise des armes améliorée** (Rang 3) — talent, sort n° 29086 🔍 MAJ 🔀 talents
+- [ ] **Totems Furie-des-vents améliorés** (Rang 1) — talent, sort n° 29192
+- [ ] **Totems Furie-des-vents améliorés** (Rang 2) — talent, sort n° 29193
+- [ ] **Frappe de tempête surpuissante** (Rang 1) — talent, sort n° 30798
+- [ ] **Rage libérée** (Rang 1) — talent, sort n° 30802 🔍 MAJ
+- [ ] **Rage libérée** (Rang 2) — talent, sort n° 30808 🔍 MAJ
+- [ ] **Rage libérée** (Rang 3) — talent, sort n° 30809 🔍 MAJ
+- [ ] **Rapidité mentale** (Rang 1) — talent, sort n° 30812
+- [ ] **Rapidité mentale** (Rang 2) — talent, sort n° 30813
+- [ ] **Rapidité mentale** (Rang 3) — talent, sort n° 30814
+- [ ] **Spécialisation Ambidextrie** (Rang 1) — talent, sort n° 30816
+- [ ] **Spécialisation Ambidextrie** (Rang 2) — talent, sort n° 30818
+- [ ] **Spécialisation Ambidextrie** (Rang 3) — talent, sort n° 30819
+- [ ] **Armes spirituelles** (Rang 3) — talent, sort n° 36591
+- [ ] **Focalisation chamanique** (Rang 1) — talent, sort n° 43338
+- [ ] **Frappe-tempête amélioré** (Rang 1) — talent, sort n° 51521
+- [ ] **Frappe-tempête amélioré** (Rang 2) — talent, sort n° 51522
+- [ ] **Puissance terrestre** (Rang 1) — talent, sort n° 51523
+- [ ] **Puissance terrestre** (Rang 2) — talent, sort n° 51524
+- [ ] **Horion statique** (Rang 1) — talent, sort n° 51525
+- [ ] **Horion statique** (Rang 2) — talent, sort n° 51526
+- [ ] **Horion statique** (Rang 3) — talent, sort n° 51527
+- [ ] **Arme du Maelström** (Rang 1) — talent, sort n° 51528 🔍 MAJ
+- [ ] **Arme du Maelström** (Rang 2) — talent, sort n° 51529 🔍 MAJ
+- [ ] **Arme du Maelström** (Rang 3) — talent, sort n° 51530 🔍 MAJ
+- [ ] **Boucliers améliorés** (Rang 3) — talent, sort n° 51881
+- [ ] **Dextérité mentale** (Rang 1) — talent, sort n° 51883
+- [ ] **Dextérité mentale** (Rang 2) — talent, sort n° 51884
+- [ ] **Dextérité mentale** (Rang 3) — talent, sort n° 51885
+- [ ] **Totems renforcés** (Rang 3) — talent, sort n° 52456
+- [ ] **Puissance gelée** (Rang 1) — talent, sort n° 63373 🔍 MAJ
+- [ ] **Puissance gelée** (Rang 2) — talent, sort n° 63374 🔍 MAJ
+- [ ] **Puissance gelée** (Rang 3) — talent, sort n° 263374 🔍 MAJ
+- [ ] **Frappe de tempête surpuissante** (Rang 2) — talent, sort n° 830798
+- [ ] **Rapidité mentale** (Rang 4) — talent, sort n° 830815
+- [ ] **Rapidité mentale** (Rang 5) — talent, sort n° 830816
+- [ ] **Focalisation chamanique** (Rang 2) — talent, sort n° 843338
+- [ ] **Focalisation chamanique** (Rang 3) — talent, sort n° 843339
+- [ ] **Puissance terrestre** (Rang 3) — talent, sort n° 851524
+- [ ] **Esprit farouche amélioré** (Rang 1) — talent, sort n° 954215
+- [ ] **Esprit farouche amélioré** (Rang 2) — talent, sort n° 954216
+- [ ] **Esprit farouche amélioré** (Rang 3) — talent, sort n° 954217
+- [ ] **Frappe-tempête** (Rang 1) — capacité de talent, sort n° 17364
+- [ ] **Rage du chaman** — capacité de talent, sort n° 30823 🔍 MAJ
+- [ ] **Esprit farouche** — capacité de talent, sort n° 51533 🔍 MAJ
+- [ ] **Fouet de lave** — capacité de talent, sort n° 60103
+
+## Restauration
+
+- [ ] **Vague de soins** (Rang 1) — capacité, sort n° 331
+- [ ] **Guérison des toxines** — capacité, sort n° 526
+- [ ] **Salve de guérison** (Rang 1) — capacité, sort n° 1064
+- [ ] **Esprit ancestral** (Rang 1) — capacité, sort n° 2008
+- [ ] **Totem guérisseur** (Rang 1) — capacité, sort n° 5394 🔍 MAJ
+- [ ] **Totem Fontaine de mana** (Rang 1) — capacité, sort n° 5675 🔍 MAJ
+- [ ] **Vague de soins inférieurs** (Rang 1) — capacité, sort n° 8004
+- [ ] **Totem de séisme** — capacité, sort n° 8143 🔍 MAJ
+- [ ] **Totem de purification** — capacité, sort n° 8170 🔍 MAJ
+- [ ] **Réincarnation** (Passif) — capacité, sort n° 20608
+- [ ] **Rappel totémique** — capacité, sort n° 36936 🔍 MAJ
+- [ ] **Arme Viveterre** (Rang 1) — capacité, sort n° 51730
+- [ ] **Bouclier d'eau** (Rang 1) — capacité, sort n° 52127
+- [ ] **Maîtrise des totems d'eau** — capacité, sort n° 92161 🔍 MAJ
+- [ ] **Totem d'averse** — capacité, sort n° 760009
+- [ ] **Totem de marche-vent** — capacité, sort n° 954510
+- [ ] **Lien élémentaire** — capacité, sort n° 954520
+- [ ] **Pluie de soins** (Rang 1) — capacité, sort n° 954861
+- [ ] **Focalisation totémique** (Rang 1) — talent, sort n° 16173
+- [ ] **Guérison des anciens** (Rang 1) — talent, sort n° 16176 🔍 MAJ
+- [ ] **Purification** (Rang 1) — talent, sort n° 16178 🔍 MAJ 🔀 talents
+- [ ] **Focalisation des flots** (Rang 1) — talent, sort n° 16179
+- [ ] **Bouclier d'eau amélioré** (Rang 1) — talent, sort n° 16180
+- [ ] **Focalisation naturelle** (Rang 1) — talent, sort n° 16181
+- [ ] **Vague de soins améliorée** (Rang 1) — talent, sort n° 16182
+- [ ] **Réincarnation améliorée** (Rang 1) — talent, sort n° 16184
+- [ ] **Totems de restauration** (Rang 1) — talent, sort n° 16187
+- [ ] **Maîtrise des flots** (Rang 1) — talent, sort n° 16194
+- [ ] **Bouclier d'eau amélioré** (Rang 2) — talent, sort n° 16196
+- [ ] **Bouclier d'eau amélioré** (Rang 3) — talent, sort n° 16198
+- [ ] **Totems de restauration** (Rang 2) — talent, sort n° 16205
+- [ ] **Totems de restauration** (Rang 3) — talent, sort n° 16206
+- [ ] **Réincarnation améliorée** (Rang 2) — talent, sort n° 16209
+- [ ] **Purification** (Rang 2) — talent, sort n° 16210 🔍 MAJ 🔀 talents
+- [ ] **Purification** (Rang 3) — talent, sort n° 16211 🔍 MAJ 🔀 talents
+- [ ] **Purification** (Rang 4) — talent, sort n° 16212 🔍 MAJ 🔀 talents
+- [ ] **Purification** (Rang 5) — talent, sort n° 16213 🔍 MAJ 🔀 talents
+- [ ] **Focalisation des flots** (Rang 2) — talent, sort n° 16214
+- [ ] **Focalisation des flots** (Rang 3) — talent, sort n° 16215
+- [ ] **Maîtrise des flots** (Rang 2) — talent, sort n° 16218
+- [ ] **Maîtrise des flots** (Rang 3) — talent, sort n° 16219
+- [ ] **Maîtrise des flots** (Rang 4) — talent, sort n° 16220
+- [ ] **Maîtrise des flots** (Rang 5) — talent, sort n° 16221
+- [ ] **Focalisation totémique** (Rang 2) — talent, sort n° 16222
+- [ ] **Focalisation totémique** (Rang 3) — talent, sort n° 16223
+- [ ] **Focalisation totémique** (Rang 4) — talent, sort n° 16224
+- [ ] **Focalisation totémique** (Rang 5) — talent, sort n° 16225
+- [ ] **Vague de soins améliorée** (Rang 2) — talent, sort n° 16226
+- [ ] **Vague de soins améliorée** (Rang 3) — talent, sort n° 16227
+- [ ] **Focalisation naturelle** (Rang 2) — talent, sort n° 16230
+- [ ] **Focalisation naturelle** (Rang 3) — talent, sort n° 16232
+- [ ] **Guérison des anciens** (Rang 2) — talent, sort n° 16235 🔍 MAJ
+- [ ] **Guérison des anciens** (Rang 3) — talent, sort n° 16240 🔍 MAJ
+- [ ] **Grâce guérisseuse** (Rang 1) — talent, sort n° 29187
+- [ ] **Grâce guérisseuse** (Rang 2) — talent, sort n° 29189
+- [ ] **Grâce guérisseuse** (Rang 3) — talent, sort n° 29191
+- [ ] **Flots de soins** (Rang 3) — talent, sort n° 29202
+- [ ] **Flots de soins** (Rang 2) — talent, sort n° 29205
+- [ ] **Flots de soins** (Rang 1) — talent, sort n° 29206
+- [ ] **Esprit focalisé** (Rang 1) — talent, sort n° 30864 🔍 MAJ
+- [ ] **Esprit focalisé** (Rang 2) — talent, sort n° 30865 🔍 MAJ
+- [ ] **Esprit focalisé** (Rang 3) — talent, sort n° 30866 🔍 MAJ
+- [ ] **Bénédiction de la nature** (Rang 1) — talent, sort n° 30867
+- [ ] **Bénédiction de la nature** (Rang 2) — talent, sort n° 30868
+- [ ] **Bénédiction de la nature** (Rang 3) — talent, sort n° 30869
+- [ ] **Salve de guérison améliorée** (Rang 1) — talent, sort n° 30872
+- [ ] **Salve de guérison améliorée** (Rang 2) — talent, sort n° 30873
+- [ ] **Gardien de la nature** (Rang 1) — talent, sort n° 30881
+- [ ] **Gardien de la nature** (Rang 2) — talent, sort n° 30883
+- [ ] **Gardien de la nature** (Rang 3) — talent, sort n° 30884
+- [ ] **Bénédiction des Eternels** (Rang 1) — talent, sort n° 51554
+- [ ] **Bénédiction des Eternels** (Rang 2) — talent, sort n° 51555
+- [ ] **Eveil ancestral** (Rang 1) — talent, sort n° 51556
+- [ ] **Eveil ancestral** (Rang 2) — talent, sort n° 51557
+- [ ] **Eveil ancestral** (Rang 3) — talent, sort n° 51558
+- [ ] **Bouclier de terre amélioré** (Rang 1) — talent, sort n° 51560
+- [ ] **Bouclier de terre amélioré** (Rang 2) — talent, sort n° 51561
+- [ ] **Raz-de-marée** (Rang 1) — talent, sort n° 51562
+- [ ] **Raz-de-marée** (Rang 2) — talent, sort n° 51563
+- [ ] **Raz-de-marée** (Rang 3) — talent, sort n° 51564
+- [ ] **Bouclier de terre amélioré** (Rang 3) — talent, sort n° 851561
+- [ ] **Bouclier de terre** (Rang 1) — capacité de talent, sort n° 974 🔍 MAJ
+- [ ] **Rapidité de la nature** — capacité de talent, sort n° 16188 🔍 MAJ
+- [ ] **Totem de vague de mana** — capacité de talent, sort n° 16190 🔍 MAJ
+- [ ] **Purifier l'esprit** — capacité de talent, sort n° 51886
+- [ ] **Force des flots** — capacité de talent, sort n° 55198
+- [ ] **Remous** (Rang 1) — capacité de talent, sort n° 61295

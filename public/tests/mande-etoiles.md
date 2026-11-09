@@ -1,0 +1,227 @@
+# Fiche de test : Mande-étoiles
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Guerre astrale
+
+- [ ] **Tir automatique** — capacité, sort n° 75 🔀 talents
+- [ ] **Haches à deux mains** — capacité, sort n° 197
+- [ ] **Bâtons** — capacité, sort n° 227
+- [ ] **Ambidextrie** (Passif) — capacité, sort n° 674
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Garde lunaire** (Spécialisation) — capacité, sort n° 92132
+- [ ] **Chargé de mana** (Passif) — capacité, sort n° 500204
+- [ ] **Amplification de Lo'sho** (Passif) — capacité, sort n° 500205
+- [ ] **Cycle de la lune** (Passif) — capacité, sort n° 500206
+- [ ] **Maîtrise des aspects** (Rang 1) — capacité, sort n° 704389
+- [ ] **Éclipse lunaire** — capacité, sort n° 800386
+- [ ] **Frappe céleste** (Rang 1) — capacité, sort n° 800496
+- [ ] **Étoile filante** (Rang 1) — capacité, sort n° 800505
+- [ ] **Glaive de sentinelle** — capacité, sort n° 800506
+- [ ] **Galaxie** (Passif) — capacité, sort n° 800508
+- [ ] **Aspect des étoiles** (Rang 1) — capacité, sort n° 800510
+- [ ] **Aspect du cosmos** — capacité, sort n° 801123 🔍 MAJ
+- [ ] **Lame lunaire** — capacité, sort n° 801125
+- [ ] **Fracture stellaire** (Rang 1) — capacité, sort n° 801127
+- [ ] **Aspect du gardien** — capacité, sort n° 801128 🔍 MAJ
+- [ ] **Brise-étoile** — capacité, sort n° 801135
+- [ ] **Gardé par la lune** (Spécialisation) — capacité, sort n° 801142
+- [ ] **Bénédiction astrale** (Spécialisation) — capacité, sort n° 801145
+- [ ] **Enchaînement céleste** (Rang 1) — capacité, sort n° 801181
+- [ ] **Vengeance d'Élune** (Rang 1) — capacité, sort n° 801969
+- [ ] **Chevalier céleste (soins)** — capacité, sort n° 801970
+- [ ] **Explosion stellaire** — capacité, sort n° 801996
+- [ ] **Lames lunaires** — capacité, sort n° 801997
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Garde lunaire** (Passif de spécialisation) — capacité, sort n° 804287
+- [ ] **Étoiles éparpillées** — capacité, sort n° 804378 🔀 talents
+- [ ] **Application passive des Étoiles éparpillées (Starsunder)** — capacité, sort n° 804380
+- [ ] **Manteau d'étoiles** — capacité, sort n° 804381
+- [ ] **Bouclier de l'avant-garde** (Passif) — capacité, sort n° 804383
+- [ ] **Couronne cosmique** (Rang 1) — capacité, sort n° 804385
+- [ ] **Commandement** — capacité, sort n° 804386
+- [ ] **Balayeur d'étoiles** — capacité, sort n° 804389
+- [ ] **Voie de la déesse** — capacité, sort n° 804416
+- [ ] **Halte** — capacité, sort n° 805432
+- [ ] **Rempart baigné de lune** — capacité, sort n° 805433
+- [ ] **Lame pulvérisatrice** (Passif) — capacité, sort n° 805437
+- [ ] **Mandat du seigneur des étoiles** — capacité, sort n° 805438
+- [ ] **Mandat de Shadowsong** — capacité, sort n° 805439 🔀 talents
+- [ ] **Pierre de lune** (Passif) — capacité, sort n° 805503
+- [ ] **Duelliste de la lumière stellaire** (Passif) — capacité, sort n° 805505
+- [ ] **Lame de la gardienne** (Rang 1) — capacité, sort n° 805508
+- [ ] **Pluie de comètes** (Talent de mande-étoiles) — capacité, sort n° 805520
+- [ ] **Chevalier céleste** — capacité, sort n° 805521
+- [ ] **Glaives célestes** (Spécialisation) — capacité, sort n° 805524
+- [ ] **Passif de portée du mande-étoiles** — capacité, sort n° 805527
+- [ ] **Armes d'acier lunaire** — capacité, sort n° 805540
+- [ ] **Armure céleste** — capacité, sort n° 805544 🔍 MAJ
+- [ ] **Vengeance cosmique** — capacité, sort n° 805545
+- [ ] **Balayage stellaire** (Rang 1) — capacité, sort n° 805550
+- [ ] **Lame astrale** — capacité, sort n° 805563
+- [ ] **Combattant lunaire** (Spécialisation) — capacité, sort n° 805828
+- [ ] **Magie inversée** (Drain) — capacité, sort n° 806233
+- [ ] **Poignée en pierre de lune** (Rang 1) — talent, sort n° 300250
+- [ ] **Anomalie lunaire** (Passif) — talent, sort n° 300989
+- [ ] **Nébuleuse** (Passif) — talent, sort n° 300992
+- [ ] **Fureur des étoiles** (Rang 1) — talent, sort n° 704603
+- [ ] **Flux de mana** (Rang 1) — talent, sort n° 704604
+- [ ] **Fureur des étoiles** (Rang 2) — talent, sort n° 704605
+- [ ] **Glissade d'étoile** — talent, sort n° 704780
+- [ ] **Ciel sans fin** — talent, sort n° 704782
+- [ ] **Ralliement des sentinelles** — talent, sort n° 704784
+- [ ] **Étoiles voilées** (Passif) — talent, sort n° 704785
+- [ ] **Colère d'Elune** — talent, sort n° 704786
+- [ ] **Lié aux étoiles** (Passif) — talent, sort n° 704787
+- [ ] **Conseil de Tyrande** (Passif) — talent, sort n° 704788
+- [ ] **Assaut astral** (Passif) — talent, sort n° 704789
+- [ ] **Entraînement de gardienne** (Passif) — talent, sort n° 704790
+- [ ] **Conquête lunaire** (Passif) — talent, sort n° 704791
+- [ ] **Vigueur de l'explosion stellaire** (Passif) — talent, sort n° 704792
+- [ ] **Éclipse de fureur améliorée** (Passif) — talent, sort n° 704793
+- [ ] **Explosion de pulsar** (Rang 1) — talent, sort n° 704794
+- [ ] **Égide enchantée** (Passif) — talent, sort n° 704795
+- [ ] **Explosion stellaire** (Ralentissement de la vitesse d'attaque) — talent, sort n° 704796
+- [ ] **Marque magique** (Spécialisation) — talent, sort n° 704797
+- [ ] **Guerrière d'Elune** (Passif) — talent, sort n° 704798
+- [ ] **Amplification stellaire** (Passif) — talent, sort n° 801143
+
+## Arc lunaire
+
+- [ ] **Entraînement de chasseresse** (Spécialisation) — capacité, sort n° 92133
+- [ ] **Appel stellaire** (Rang 1) — capacité, sort n° 800497
+- [ ] **Embrasement astral** (Rang 1) — capacité, sort n° 800499
+- [ ] **Dérive stellaire** — capacité, sort n° 800501
+- [ ] **Flèches éclipsantes** (Passif) — capacité, sort n° 800504
+- [ ] **Égide céleste** — capacité, sort n° 801126 🔍 MAJ
+- [ ] **Résonance céleste** — capacité, sort n° 801130
+- [ ] **Lumière stellaire** — capacité, sort n° 801131
+- [ ] **Lance lunaire** (Rang 1) — capacité, sort n° 801132 🔀 talents
+- [ ] **Déphasage cosmique** — capacité, sort n° 801134
+- [ ] **Focalisation lunaire** — capacité, sort n° 801139
+- [ ] **Chasseur de la nuit** (Passif) — capacité, sort n° 801146
+- [ ] **Reconstitution astrale** — capacité, sort n° 801155
+- [ ] **Éveil céleste** (Rang 1) — capacité, sort n° 801795
+- [ ] **Flèche lunaire** (Rang 1) — capacité, sort n° 801972 🔍 MAJ
+- [ ] **Prêtre de la lune** (Passif de spécialisation) — capacité, sort n° 801973
+- [ ] **Splendeur lunaire** — capacité, sort n° 801974
+- [ ] **Cordon d'Élune** — capacité, sort n° 801975
+- [ ] **Voie de la déesse** (Passif) — capacité, sort n° 801976
+- [ ] **Tir de feu stellaire** (Rang 1) — capacité, sort n° 801978
+- [ ] **Prière d'Elune** (Rang 1) — capacité, sort n° 801987
+- [ ] **Splendeur lunaire** (Passif) — capacité, sort n° 801989
+- [ ] **Main d'Elune** — capacité, sort n° 801990 🔀 talents
+- [ ] **Flèches trempées au puits de lune** (Passif) — capacité, sort n° 801991
+- [ ] **Dualité cosmique** — capacité, sort n° 801998
+- [ ] **Aspect de la chasseresse** — capacité, sort n° 805356 🔍 MAJ
+- [ ] **Furie stellaire** (Passif) — capacité, sort n° 805435
+- [ ] **Alignement** — capacité, sort n° 805507
+- [ ] **Célérité astrale** (Passif) — capacité, sort n° 805522
+- [ ] **Sommeil au clair de lune** — capacité, sort n° 805546
+- [ ] **Sommeil au clair de lune** (SLS) — capacité, sort n° 805547
+- [ ] **Tir de la chasseresse - Coût en mana %** — capacité, sort n° 805553
+- [ ] **Égide astrale** — capacité, sort n° 806155 🔍 MAJ
+- [ ] **Armure astrale** — capacité, sort n° 806156
+- [ ] **Flèches rajeunissantes** — talent, sort n° 300244
+- [ ] **Flèches de lumière stellaire** (Passif) — talent, sort n° 300247
+- [ ] **Lumière stellaire pesante** — talent, sort n° 300248
+- [ ] **Onde cosmique** (Passif) — talent, sort n° 300993
+- [ ] **Projection astrale** (Passif) — talent, sort n° 300994
+- [ ] **Cascade lunaire** (Passif) — talent, sort n° 704725
+- [ ] **Flèches de lumière stellaire** (Rang 1) — talent, sort n° 704733
+- [ ] **Flèches de lumière stellaire** (Rank 2 (UNUSED)) — talent, sort n° 704734
+- [ ] **Visée véritable** — talent, sort n° 704735
+- [ ] **Barrage de feu stellaire** (Passif) — talent, sort n° 704739
+- [ ] **Focalisation de la sentinelle** (Passif) — talent, sort n° 704740
+- [ ] **Prophétie lunaire** (Passif) — talent, sort n° 704764
+- [ ] **Cascade** (Passif) — talent, sort n° 704765
+- [ ] **Fracas d'étoiles** (Rang 2) — talent, sort n° 704766
+- [ ] **Fracas d'étoiles** (Rang 2) — talent, sort n° 704767
+- [ ] **Fracas d'étoiles** (Obsolète) — talent, sort n° 704768
+- [ ] **Chasseresse d'Elune** (Rang 1) — talent, sort n° 704769
+- [ ] **Chasseresse d'Elune** (Rang 2) — talent, sort n° 704770
+- [ ] **Étoiles brisées** (Passif) — talent, sort n° 704771
+- [ ] **Œil d'Elune** (Passif) — talent, sort n° 704783
+- [ ] **Clair de lune explosif** (Spécialisation) — talent, sort n° 800474
+
+## Marées
+
+- [ ] **Prêtre de la lune** (Spécialisation) — capacité, sort n° 92134
+- [ ] **Cycle complet** (Passif) — capacité, sort n° 704343
+- [ ] **Bénédiction de Mu'sha** — capacité, sort n° 800292
+- [ ] **Chair déchirée** (Inutilisé) — capacité, sort n° 800363
+- [ ] **Flux d'eau** (Rang 1) — capacité, sort n° 800365
+- [ ] **Sillage** (Rang 1) — capacité, sort n° 800366
+- [ ] **Éclaboussure de puits de lune** (Rang 1) — capacité, sort n° 800370
+- [ ] **Torrent** — capacité, sort n° 800371
+- [ ] **Étang** (Rang 1) — capacité, sort n° 800373
+- [ ] **Geyser** — capacité, sort n° 800374
+- [ ] **Égide de Neptulon** (Rang 1) — capacité, sort n° 800375
+- [ ] **Courant d'argent** (Rang 1) — capacité, sort n° 800376
+- [ ] **Vague percutante** (Rang 1 Obsolète) — capacité, sort n° 800378
+- [ ] **Afflux** — capacité, sort n° 800379
+- [ ] **Fouet des marées** (Rang 1) — capacité, sort n° 800380
+- [ ] **Déluge** (Rang 1) — capacité, sort n° 800381
+- [ ] **Bénédiction de l'eau lunaire** (Rang 1) — capacité, sort n° 800382
+- [ ] **Lune brillante** (Passif) — capacité, sort n° 801226
+- [ ] **Forme céleste** — capacité, sort n° 801231
+- [ ] **Renaissance des marées** (Rang 1) — capacité, sort n° 801793
+- [ ] **Aspect de la déesse** — capacité, sort n° 802203 🔍 MAJ
+- [ ] **Eau étouffante** — capacité, sort n° 804387
+- [ ] **Fiole d'eau du puits de lune** — capacité, sort n° 804652
+- [ ] **Eau de lune ondoyante** (Passif) — capacité, sort n° 804733
+- [ ] **Chant de la sirène** — capacité, sort n° 804738
+- [ ] **Puits de lune** — capacité, sort n° 804739 🔀 talents
+- [ ] **Faveur d'Elune** (Passif) — talent, sort n° 300237
+- [ ] **Renverseur de marée** — talent, sort n° 300238
+- [ ] **Extension élémentaire** — talent, sort n° 300239
+- [ ] **Extincteur** — talent, sort n° 300245
+- [ ] **Cycle rapide** (Passif) — talent, sort n° 300249
+- [ ] **Guide des phases** (Passif) — talent, sort n° 300995
+- [ ] **Afflux réparateur** (Passif) — talent, sort n° 704732
+- [ ] **Bénie par les étoiles** (Passif) — talent, sort n° 704741
+- [ ] **Courroux de Vashj** — talent, sort n° 704742
+- [ ] **Baigner** — talent, sort n° 704744
+- [ ] **Prière finale** (Passif) — talent, sort n° 704745
+- [ ] **Torrent amélioré** (Rang 2) — talent, sort n° 704746
+- [ ] **Copain bulle** — talent, sort n° 704747
+- [ ] **Espace liquide** — talent, sort n° 704752
+- [ ] **Souffleur de bulles** — talent, sort n° 704754
+- [ ] **Eau enchantée** (Rang 1) — talent, sort n° 704755
+- [ ] **Bénédiction lunaire** (Rang 1) — talent, sort n° 704756
+- [ ] **Bénédiction lunaire** (Rang 2) — talent, sort n° 704757
+- [ ] **Effervescence** — talent, sort n° 704758
+- [ ] **Enseignements d'Elune** (Rang 1) — talent, sort n° 704759
+- [ ] **Attaque de requin** — talent, sort n° 704760
+- [ ] **Lune brillante** (Rang 2) — talent, sort n° 704779
+
+## Classe
+
+- [ ] **Les étoiles s'alignent** (Passif) — capacité, sort n° 300251
+- [ ] **Seconde lune** (Passif) — capacité, sort n° 300252
+- [ ] **Esprit céleste** (Rang 1) — capacité, sort n° 300255
+- [ ] **Marche lunaire** (Passif) — capacité, sort n° 300256
+- [ ] **Savoir astral** (Rang 1) — capacité, sort n° 300257
+- [ ] **Protégé par les étoiles** (Passif) — capacité, sort n° 300258
+- [ ] **Barrière de constellations** (Passif) — capacité, sort n° 300259
+- [ ] **Toucher lunaire** — capacité, sort n° 300261
+- [ ] **Puissance universelle** (Passif) — capacité, sort n° 300262
+- [ ] **Résilience de Mu'sha** (Passif) — capacité, sort n° 704774
+- [ ] **Orteils scintillants** (Passif) — capacité, sort n° 704775
+- [ ] **Citoyen des étoiles** (Passif) — capacité, sort n° 704776
+- [ ] **Égide imprégnée** — capacité, sort n° 704777 🔍 MAJ
+- [ ] **Feux follets déchaînés** (Passif) — capacité, sort n° 706230
+- [ ] **Barbare stellaire** (Rang 1) — capacité de talent, sort n° 704778
+- [ ] **Protection d'Élune** (Passif) — capacité de talent, sort n° 706227
+- [ ] **Protection d'Élune** (Déclenchement) — capacité de talent, sort n° 706228
+- [ ] **Barbare stellaire** (Rang 2) — capacité de talent, sort n° 706229
+- [ ] **Aspects bénis par la lune** (Rang 1) — capacité de talent, sort n° 706231
+- [ ] **Aspects bénis par la lune** (Passif) — capacité de talent, sort n° 706232
+- [ ] **Empaleur au clair de lune** (Rang 2) — capacité de talent, sort n° 706235
+- [ ] **Fureur du gardien** (Passif) — capacité de talent, sort n° 706236
+- [ ] **Bénédiction du puits de lune** (Passif) — capacité de talent, sort n° 706252
+- [ ] **Bénédiction du puits de lune** (Inutilisé) — capacité de talent, sort n° 706253

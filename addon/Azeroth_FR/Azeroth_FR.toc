@@ -1,0 +1,28 @@
+## Interface: 30300
+## Title: Azeroth_FR
+## Notes: Traduction française de Conquest of Azeroth Core : sorts et talents des 32 classes, quêtes, objets, créatures et dialogues, interface et fenêtres de CoA, hauts faits, écrans d'avant-jeu. Commande /azfr
+## Author: Dan (LePetitDan) & Claude
+## Version: @VERSION@
+## SavedVariables: AzerothFR_Reglages
+
+Core.lua
+Genere.lua
+Modules\Diagnostic.lua
+Modules\Quetes.lua
+Modules\Dialogues.lua
+Modules\Infobulles.lua
+Modules\Cris.lua
+Modules\Pages.lua
+Modules\Sorts.lua
+Modules\Noms.lua
+Modules\Fenetres.lua
+Modules\Maitres.lua
+Modules\Divers.lua
+Modules\ClientCoA.lua
+Modules\HautsFaits.lua
+Modules\Plaques.lua
+Modules\Discussion.lua
+Modules\Bulles.lua
+Modules\Centre.lua
+Modules\Commande.lua
+Modules\Options.lua

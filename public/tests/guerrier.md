@@ -1,0 +1,300 @@
+# Fiche de test : Guerrier
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Armes
+
+- [ ] **Frappe héroïque** (Rang 1) — capacité, sort n° 78
+- [ ] **Charge** (Rang 1) — capacité, sort n° 100
+- [ ] **Coup railleur** — capacité, sort n° 694
+- [ ] **Pourfendre** (Rang 1) — capacité, sort n° 772
+- [ ] **Brise-genou** — capacité, sort n° 1715 🔍 MAJ
+- [ ] **Posture de combat** — capacité, sort n° 2457
+- [ ] **Coup de tonnerre** (Rang 1) — capacité, sort n° 6343
+- [ ] **Fulgurance** — capacité, sort n° 7384
+- [ ] **Représailles** — capacité, sort n° 20230
+- [ ] **Lancer héroïque** — capacité, sort n° 57755
+- [ ] **Lancer fracassant** — capacité, sort n° 64382
+- [ ] **Bond héroïque** — capacité, sort n° 86358 🔍 MAJ
+- [ ] **Fracasse-colosse** (Rang 1) — capacité, sort n° 86361
+- [ ] **Avatar** — capacité, sort n° 86380
+- [ ] **Bannière de crâne** — capacité, sort n° 954514
+- [ ] **Charge** — capacité, sort n° 954617
+- [ ] **Maîtrise des postures** — capacité, sort n° 954704 🔍 MAJ 🔀 talents
+- [ ] **Bannière démoralisante** — capacité, sort n° 955062 🔍 MAJ
+- [ ] **Spécialisation Arme 2M** (Rang 1) — talent, sort n° 12163
+- [ ] **Spécialisation Epée** (Rang 1) — talent, sort n° 12281
+- [ ] **Frappe héroïque améliorée** (Rang 1) — talent, sort n° 12282
+- [ ] **Spécialisation Masse** (Rang 1) — talent, sort n° 12284
+- [ ] **Charge améliorée** (Rang 1) — talent, sort n° 12285
+- [ ] **Pourfendre amélioré** (Rang 1) — talent, sort n° 12286
+- [ ] **Brise-genou amélioré** (Rang 1) — talent, sort n° 12289
+- [ ] **Fulgurance améliorée** (Rang 1) — talent, sort n° 12290
+- [ ] **Maîtrise tactique** (Rang 1) — talent, sort n° 12295 🔍 MAJ
+- [ ] **Maîtrise de la Rage** (Rang 1) — talent, sort n° 12296
+- [ ] **Volonté de fer** (Rang 1) — talent, sort n° 12300 🔍 MAJ
+- [ ] **Heurtoir amélioré** (Rang 2) — talent, sort n° 12330
+- [ ] **Pourfendre amélioré** (Rang 2) — talent, sort n° 12658
+- [ ] **Frappe héroïque améliorée** (Rang 2) — talent, sort n° 12663
+- [ ] **Frappe héroïque améliorée** (Rang 3) — talent, sort n° 12664
+- [ ] **Brise-genou amélioré** (Rang 2) — talent, sort n° 12668
+- [ ] **Maîtrise tactique** (Rang 2) — talent, sort n° 12676 🔍 MAJ
+- [ ] **Maîtrise tactique** (Rang 3) — talent, sort n° 12677 🔍 MAJ
+- [ ] **Charge améliorée** (Rang 2) — talent, sort n° 12697
+- [ ] **Spécialisation Hache d'hast** (Rang 1) — talent, sort n° 12700
+- [ ] **Spécialisation Masse** (Rang 2) — talent, sort n° 12701
+- [ ] **Spécialisation Masse** (Rang 3) — talent, sort n° 12702
+- [ ] **Spécialisation Masse** (Rang 4) — talent, sort n° 12703
+- [ ] **Spécialisation Masse** (Rang 5) — talent, sort n° 12704
+- [ ] **Spécialisation Arme 2M** (Rang 2) — talent, sort n° 12711
+- [ ] **Spécialisation Arme 2M** (Rang 3) — talent, sort n° 12712
+- [ ] **Spécialisation Hache d'hast** (Rang 2) — talent, sort n° 12781
+- [ ] **Spécialisation Hache d'hast** (Rang 3) — talent, sort n° 12783
+- [ ] **Spécialisation Hache d'hast** (Rang 4) — talent, sort n° 12784
+- [ ] **Spécialisation Hache d'hast** (Rang 5) — talent, sort n° 12785
+- [ ] **Spécialisation Epée** (Rang 2) — talent, sort n° 12812
+- [ ] **Spécialisation Epée** (Rang 3) — talent, sort n° 12813
+- [ ] **Spécialisation Epée** (Rang 4) — talent, sort n° 12814
+- [ ] **Spécialisation Epée** (Rang 5) — talent, sort n° 12815
+- [ ] **Blessures profondes** (Rang 1) — talent, sort n° 12834
+- [ ] **Blessures profondes** (Rang 2) — talent, sort n° 12849
+- [ ] **Heurtoir amélioré** (Rang 1) — talent, sort n° 12862
+- [ ] **Blessures profondes** (Rang 3) — talent, sort n° 12867
+- [ ] **Volonté de fer** (Rang 2) — talent, sort n° 12959 🔍 MAJ
+- [ ] **Volonté de fer** (Rang 3) — talent, sort n° 12960 🔍 MAJ
+- [ ] **Fulgurance améliorée** (Rang 2) — talent, sort n° 12963
+- [ ] **Déviation** (Rang 1) — talent, sort n° 16462 🔍 MAJ
+- [ ] **Déviation** (Rang 2) — talent, sort n° 16463 🔍 MAJ
+- [ ] **Déviation** (Rang 3) — talent, sort n° 16464 🔍 MAJ
+- [ ] **Empaler** (Rang 1) — talent, sort n° 16493
+- [ ] **Empaler** (Rang 2) — talent, sort n° 16494
+- [ ] **Maîtrise des armes** (Rang 1) — talent, sort n° 20504 🔍 MAJ
+- [ ] **Maîtrise des armes** (Rang 2) — talent, sort n° 20505 🔍 MAJ
+- [ ] **Brise-genou amélioré** (Rang 3) — talent, sort n° 23695
+- [ ] **Maîtrise des armes à deux mains** (Rang 1) — talent, sort n° 29623 🔍 MAJ
+- [ ] **Mort soudaine** (Rang 1) — talent, sort n° 29723
+- [ ] **Mort soudaine** (Rang 3) — talent, sort n° 29724
+- [ ] **Mort soudaine** (Rang 2) — talent, sort n° 29725
+- [ ] **Second souffle** (Rang 1) — talent, sort n° 29834
+- [ ] **Frénésie sanglante** (Rang 1) — talent, sort n° 29836 🔍 MAJ
+- [ ] **Second souffle** (Rang 2) — talent, sort n° 29838
+- [ ] **Frénésie sanglante** (Rang 2) — talent, sort n° 29859 🔍 MAJ
+- [ ] **Frappe mortelle améliorée** (Rang 1) — talent, sort n° 35446
+- [ ] **Frappe mortelle améliorée** (Rang 2) — talent, sort n° 35448
+- [ ] **Frappe mortelle améliorée** (Rang 3) — talent, sort n° 35449
+- [ ] **Traumatisme** (Rang 1) — talent, sort n° 46854 🔍 MAJ
+- [ ] **Traumatisme** (Rang 2) — talent, sort n° 46855 🔍 MAJ
+- [ ] **Assaut continuel** (Rang 1) — talent, sort n° 46859
+- [ ] **Assaut continuel** (Rang 2) — talent, sort n° 46860
+- [ ] **Force des armes** (Rang 1) — talent, sort n° 46865
+- [ ] **Force des armes** (Rang 2) — talent, sort n° 46866
+- [ ] **Démolisseurs** (Rang 1) — talent, sort n° 46867
+- [ ] **Démolisseurs** (Rang 2) — talent, sort n° 56611
+- [ ] **Démolisseurs** (Rang 3) — talent, sort n° 56612
+- [ ] **Goût du sang** (Rang 1) — talent, sort n° 56636 🔍 MAJ
+- [ ] **Goût du sang** (Rang 2) — talent, sort n° 56637 🔍 MAJ
+- [ ] **Goût du sang** (Rang 3) — talent, sort n° 56638 🔍 MAJ
+- [ ] **Mastodonte** (Rang 1) — talent, sort n° 64976 🔍 MAJ
+- [ ] **Charge améliorée** (Rang 3) — talent, sort n° 812285
+- [ ] **Maîtrise de la Rage** (Rang 2) — talent, sort n° 812296
+- [ ] **Maîtrise de la Rage** (Rang 3) — talent, sort n° 812297
+- [ ] **Maîtrise des armes à deux mains** (Rang 2) — talent, sort n° 829633 🔍 MAJ
+- [ ] **Second souffle** (Rang 3) — talent, sort n° 829838
+- [ ] **Mastodonte** (Rang 2) — talent, sort n° 864976 🔍 MAJ
+- [ ] **Frappe mortelle** (Rang 1) — capacité de talent, sort n° 12294 🔍 MAJ
+- [ ] **Attaques circulaires** — capacité de talent, sort n° 12328 🔍 MAJ
+- [ ] **Tempête de lames** — capacité de talent, sort n° 46924
+
+## Fureur
+
+- [ ] **Cri de commandement** (Rang 1) — capacité, sort n° 469 🔍 MAJ
+- [ ] **Enchaînement** (Rang 1) — capacité, sort n° 845 🔀 talents
+- [ ] **Cri démoralisant** (Rang 1) — capacité, sort n° 1160 🔍 MAJ
+- [ ] **Cri de défi** — capacité, sort n° 1161 🔀 talents
+- [ ] **Heurtoir** (Rang 1) — capacité, sort n° 1464
+- [ ] **Tourbillon** — capacité, sort n° 1680
+- [ ] **Témérité** — capacité, sort n° 1719
+- [ ] **Posture berserker** — capacité, sort n° 2458
+- [ ] **Cri d’intimidation** — capacité, sort n° 5246 🔍 MAJ
+- [ ] **Exécution** (Rang 1) — capacité, sort n° 5308
+- [ ] **Volée de coups** — capacité, sort n° 6552 🔍 MAJ
+- [ ] **Cri de guerre** (Rang 1) — capacité, sort n° 6673 🔍 MAJ
+- [ ] **Rage berserker** — capacité, sort n° 18499 🔍 MAJ
+- [ ] **Interception** — capacité, sort n° 20252 🔍 MAJ
+- [ ] **Ivresse de la victoire** — capacité, sort n° 34428
+- [ ] **Régénération enragée** — capacité, sort n° 55694
+- [ ] **Maîtrise des cris** — capacité, sort n° 954709 🔍 MAJ
+- [ ] **Bain de sang** (Rang 1) — capacité, sort n° 954814
+- [ ] **Coup déchaîné** — capacité, sort n° 954836 🔍 MAJ
+- [ ] **Brise-siège** (Rang 1) — capacité, sort n° 954876
+- [ ] **Enrager** (Rang 1) — talent, sort n° 12317 🔍 MAJ
+- [ ] **Présence impérieuse** (Rang 1) — talent, sort n° 12318
+- [ ] **Coups lacérants** (Rang 1) — talent, sort n° 12319
+- [ ] **Cruauté** (Rang 1) — talent, sort n° 12320
+- [ ] **Voix tonitruante** (Rang 1) — talent, sort n° 12321
+- [ ] **Colère déchaînée** (Rang 1) — talent, sort n° 12322
+- [ ] **Ivresse de la victoire améliorée** (Rang 1) — talent, sort n° 12324 🔍 MAJ
+- [ ] **Enchaînement amélioré** (Rang 1) — talent, sort n° 12329
+- [ ] **Voix tonitruante** (Rang 2) — talent, sort n° 12835
+- [ ] **Cruauté** (Rang 2) — talent, sort n° 12852
+- [ ] **Cruauté** (Rang 3) — talent, sort n° 12853
+- [ ] **Cruauté** (Rang 4) — talent, sort n° 12855
+- [ ] **Cruauté** (Rang 5) — talent, sort n° 12856
+- [ ] **Présence impérieuse** (Rang 2) — talent, sort n° 12857
+- [ ] **Ivresse de la victoire améliorée** (Rang 2) — talent, sort n° 12876 🔍 MAJ
+- [ ] **Ivresse de la victoire améliorée** (Rang 3) — talent, sort n° 12877 🔍 MAJ
+- [ ] **Enchaînement amélioré** (Rang 2) — talent, sort n° 12950
+- [ ] **Coups lacérants** (Rang 2) — talent, sort n° 12971
+- [ ] **Coups lacérants** (Rang 3) — talent, sort n° 12972
+- [ ] **Colère déchaînée** (Rang 2) — talent, sort n° 12999
+- [ ] **Enrager** (Rang 2) — talent, sort n° 13045 🔍 MAJ
+- [ ] **Enrager** (Rang 3) — talent, sort n° 13046 🔍 MAJ
+- [ ] **Enrager** (Rang 4) — talent, sort n° 13047 🔍 MAJ
+- [ ] **Enrager** (Rang 5) — talent, sort n° 13048 🔍 MAJ
+- [ ] **Folie sanguinaire** (Rang 1) — talent, sort n° 16487
+- [ ] **Folie sanguinaire** (Rang 2) — talent, sort n° 16489
+- [ ] **Folie sanguinaire** (Rang 3) — talent, sort n° 16492
+- [ ] **Enchaînement amélioré** (Rang 3) — talent, sort n° 20496
+- [ ] **Berserker enragé** (Rang 1) — talent, sort n° 20500
+- [ ] **Berserker enragé** (Rang 2) — talent, sort n° 20501
+- [ ] **Exécution améliorée** (Rang 1) — talent, sort n° 20502
+- [ ] **Exécution améliorée** (Rang 2) — talent, sort n° 20503
+- [ ] **Spécialisation Arme secondaire** (Rang 1) — talent, sort n° 23584
+- [ ] **Spécialisation Arme secondaire** (Rang 2) — talent, sort n° 23585
+- [ ] **Spécialisation Arme secondaire** (Rang 3) — talent, sort n° 23586
+- [ ] **Spécialisation Arme secondaire** (Rang 4) — talent, sort n° 23587
+- [ ] **Spécialisation Arme secondaire** (Rang 5) — talent, sort n° 23588
+- [ ] **Ferveur** (Rang 1) — talent, sort n° 29590
+- [ ] **Ferveur** (Rang 2) — talent, sort n° 29591
+- [ ] **Ferveur** (Rang 3) — talent, sort n° 29592
+- [ ] **Tourbillon amélioré** (Rang 1) — talent, sort n° 29721
+- [ ] **Posture berserker améliorée** (Rang 1) — talent, sort n° 29759
+- [ ] **Posture berserker améliorée** (Rang 2) — talent, sort n° 29760
+- [ ] **Posture berserker améliorée** (Rang 3) — talent, sort n° 29761
+- [ ] **Tourbillon amélioré** (Rang 2) — talent, sort n° 29776
+- [ ] **Interception améliorée** (Rang 1) — talent, sort n° 29888
+- [ ] **Interception améliorée** (Rang 2) — talent, sort n° 29889
+- [ ] **Volée brutale** (Rang 1) — talent, sort n° 32512 🔍 MAJ
+- [ ] **Volée brutale** (Rang 2) — talent, sort n° 32513 🔍 MAJ
+- [ ] **Volée brutale SLS** (Rang 2) — talent, sort n° 32514
+- [ ] **Intensifier la rage** (Rang 1) — talent, sort n° 46908
+- [ ] **Intensifier la rage** (Rang 2) — talent, sort n° 46909
+- [ ] **Attaques furieuses** (Rang 1) — talent, sort n° 46910 🔍 MAJ
+- [ ] **Attaques furieuses** (Rang 2) — talent, sort n° 46911 🔍 MAJ
+- [ ] **Afflux sanguin** (Rang 1) — talent, sort n° 46913 🔍 MAJ
+- [ ] **Afflux sanguin** (Rang 2) — talent, sort n° 46914 🔍 MAJ
+- [ ] **Afflux sanguin** (Rang 3) — talent, sort n° 46915 🔍 MAJ
+- [ ] **Intensifier la rage** (Rang 3) — talent, sort n° 56924
+- [ ] **Fureur sans fin** (Rang 1) — talent, sort n° 56927 🔍 MAJ 🔀 talents
+- [ ] **Fureur sans fin** (Rang 2) — talent, sort n° 56929 🔍 MAJ 🔀 talents
+- [ ] **Fureur sans fin** (Rang 3) — talent, sort n° 56930 🔍 MAJ 🔀 talents
+- [ ] **Armé jusqu'aux dents** (Rang 1) — talent, sort n° 61216
+- [ ] **Armé jusqu'aux dents** (Rang 2) — talent, sort n° 61221
+- [ ] **Armé jusqu'aux dents** (Rang 3) — talent, sort n° 61222
+- [ ] **Déchaînement amélioré** (Rang 1) — talent, sort n° 435106
+- [ ] **Déchaînement amélioré** (Rang 2) — talent, sort n° 435107
+- [ ] **Maîtrise du combat à deux armes** (Rang 1) — talent, sort n° 813715 🔍 MAJ
+- [ ] **Maîtrise du combat à deux armes** (Rang 2) — talent, sort n° 813716 🔍 MAJ
+- [ ] **Maîtrise du combat à deux armes** (Rang 3) — talent, sort n° 813717 🔍 MAJ
+- [ ] **Maîtrise du combat à deux armes** (Rang 4) — talent, sort n° 813718 🔍 MAJ
+- [ ] **Maîtrise du combat à deux armes** (Rang 5) — talent, sort n° 813719 🔍 MAJ
+- [ ] **Berserker enragé** (Rang 3) — talent, sort n° 820501
+- [ ] **Exécution améliorée** (Rang 3) — talent, sort n° 820503
+- [ ] **Danse de la mort** (Rang 1) — talent, sort n° 954192 🔍 MAJ
+- [ ] **Danse de la mort** (Rang 2) — talent, sort n° 954193 🔍 MAJ
+- [ ] **Danse de la mort** (Rang 3) — talent, sort n° 954194 🔍 MAJ
+- [ ] **Souhait mortel** — capacité de talent, sort n° 12292
+- [ ] **Hurlement perçant** — capacité de talent, sort n° 12323 🔍 MAJ
+- [ ] **Sanguinaire** — capacité de talent, sort n° 23881 🔍 MAJ
+- [ ] **Saccager** (Passif) — capacité de talent, sort n° 29801 🔍 MAJ
+- [ ] **Poigne du titan** (Rang 1) — capacité de talent, sort n° 46917
+- [ ] **Fureur héroïque** — capacité de talent, sort n° 60970 🔍 MAJ
+- [ ] **Fureur obstinée** (Rang 1) — capacité de talent, sort n° 988256 🔍 MAJ
+
+## Protection
+
+- [ ] **Posture défensive** — capacité, sort n° 71
+- [ ] **Coup de bouclier** — capacité, sort n° 72 🔍 MAJ
+- [ ] **Provocation** — capacité, sort n° 355
+- [ ] **Désarmement** — capacité, sort n° 676
+- [ ] **Mur protecteur** — capacité, sort n° 871
+- [ ] **Maîtrise du blocage** — capacité, sort n° 2565
+- [ ] **Rage sanguinaire** — capacité, sort n° 2687 🔍 MAJ
+- [ ] **Intervention** — capacité, sort n° 3411
+- [ ] **Vengeance** (Rang 1) — capacité, sort n° 6572
+- [ ] **Fracasser armure** — capacité, sort n° 7386
+- [ ] **Renvoi de sort** — capacité, sort n° 23920
+- [ ] **Heurt de bouclier** (Rang 1) — capacité, sort n° 23922
+- [ ] **Coup de tonnerre amélioré** (Rang 1) — talent, sort n° 12287
+- [ ] **Anticipation** (Rang 1) — talent, sort n° 12297 🔍 MAJ
+- [ ] **Spécialisation Bouclier** (Rang 1) — talent, sort n° 12298
+- [ ] **Poigne ferme** (Rang 1) — talent, sort n° 12299
+- [ ] **Rage sanguinaire améliorée** (Rang 1) — talent, sort n° 12301
+- [ ] **Percer** (Rang 1) — talent, sort n° 12308
+- [ ] **Imposition du silence** (Rang 1) — talent, sort n° 12311
+- [ ] **Disciplines améliorées** (Rang 1) — talent, sort n° 12312
+- [ ] **Désarmement amélioré** (Rang 1) — talent, sort n° 12313
+- [ ] **Coup de tonnerre amélioré** (Rang 2) — talent, sort n° 12665
+- [ ] **Coup de tonnerre amélioré** (Rang 3) — talent, sort n° 12666
+- [ ] **Spécialisation Bouclier** (Rang 2) — talent, sort n° 12724
+- [ ] **Spécialisation Bouclier** (Rang 3) — talent, sort n° 12725
+- [ ] **Anticipation** (Rang 2) — talent, sort n° 12750 🔍 MAJ
+- [ ] **Anticipation** (Rang 3) — talent, sort n° 12751 🔍 MAJ
+- [ ] **Anticipation** (Rang 4) — talent, sort n° 12752 🔍 MAJ
+- [ ] **Anticipation** (Rang 5) — talent, sort n° 12753 🔍 MAJ
+- [ ] **Poigne ferme** (Rang 2) — talent, sort n° 12761
+- [ ] **Poigne ferme** (Rang 3) — talent, sort n° 12762
+- [ ] **Vengeance améliorée** (Rang 1) — talent, sort n° 12797
+- [ ] **Vengeance améliorée** (Rang 2) — talent, sort n° 12799
+- [ ] **Disciplines améliorées** (Rang 2) — talent, sort n° 12803
+- [ ] **Désarmement amélioré** (Rang 2) — talent, sort n° 12804
+- [ ] **Percer** (Rang 2) — talent, sort n° 12810
+- [ ] **Percer** (Rang 3) — talent, sort n° 12811
+- [ ] **Rage sanguinaire améliorée** (Rang 2) — talent, sort n° 12818
+- [ ] **Imposition du silence** (Rang 2) — talent, sort n° 12958
+- [ ] **Spécialisation Arme 1M** (Rang 1) — talent, sort n° 16538
+- [ ] **Spécialisation Arme 1M** (Rang 2) — talent, sort n° 16539
+- [ ] **Spécialisation Arme 1M** (Rang 3) — talent, sort n° 16540
+- [ ] **Spécialisation Arme 1M** (Rang 4) — talent, sort n° 16541
+- [ ] **Spécialisation Arme 1M** (Rang 5) — talent, sort n° 16542
+- [ ] **Résolution** (Rang 1) — talent, sort n° 29140
+- [ ] **Résolution** (Rang 2) — talent, sort n° 29143
+- [ ] **Résolution** (Rang 3) — talent, sort n° 29144
+- [ ] **Posture défensive améliorée** (Rang 1) — talent, sort n° 29593
+- [ ] **Posture défensive améliorée** (Rang 2) — talent, sort n° 29594
+- [ ] **Maîtrise du bouclier** (Rang 1) — talent, sort n° 29598
+- [ ] **Maîtrise du bouclier** (Rang 2) — talent, sort n° 29599
+- [ ] **Rage focalisée** (Rang 1) — talent, sort n° 29787 🔍 MAJ
+- [ ] **Rage focalisée** (Rang 2) — talent, sort n° 29790 🔍 MAJ
+- [ ] **Rage focalisée** (Rang 3) — talent, sort n° 29792 🔍 MAJ
+- [ ] **Protéger** (Rang 1) — talent, sort n° 46945
+- [ ] **Protéger** (Rang 2) — talent, sort n° 46949
+- [ ] **Epée et bouclier** (Rang 1) — talent, sort n° 46951
+- [ ] **Epée et bouclier** (Rang 2) — talent, sort n° 46952
+- [ ] **Epée et bouclier** (Rang 3) — talent, sort n° 46953
+- [ ] **Blocage critique** (Rang 1) — talent, sort n° 47294 🔍 MAJ
+- [ ] **Blocage critique** (Rang 2) — talent, sort n° 47295 🔍 MAJ
+- [ ] **Blocage critique** (Rang 3) — talent, sort n° 47296 🔍 MAJ
+- [ ] **Emulation** (Rang 1) — talent, sort n° 50685
+- [ ] **Emulation** (Rang 2) — talent, sort n° 50686
+- [ ] **Emulation** (Rang 3) — talent, sort n° 50687
+- [ ] **Porteguerre** (Rang 1) — talent, sort n° 57499
+- [ ] **Bouclier de dégâts** (Rang 1) — talent, sort n° 58872
+- [ ] **Bouclier de dégâts** (Rang 2) — talent, sort n° 58874
+- [ ] **Renvoi de sort amélioré** (Rang 1) — talent, sort n° 59088
+- [ ] **Renvoi de sort amélioré** (Rang 2) — talent, sort n° 59089
+- [ ] **Disciplines améliorées** (Rang 3) — talent, sort n° 812803
+- [ ] **Imposition du silence** (Rang 3) — talent, sort n° 812961
+- [ ] **Porteguerre** (Rang 2) — talent, sort n° 857499
+- [ ] **Couvert du bouclier** (Rang 3) — talent, sort n° 859089
+- [ ] **Foudroyé** (Rang 1) — talent, sort n° 954195
+- [ ] **Foudroyé** (Rang 2) — talent, sort n° 954196
+- [ ] **Foudroyé** (Rang 3) — talent, sort n° 954197
+- [ ] **Coup traumatisant** — capacité de talent, sort n° 12809 🔍 MAJ
+- [ ] **Dernier rempart** — capacité de talent, sort n° 12975 🔍 MAJ
+- [ ] **Dévaster** (Rang 1) — capacité de talent, sort n° 20243 🔍 MAJ
+- [ ] **Onde de choc** — capacité de talent, sort n° 46968
+- [ ] **Vigilance** — capacité de talent, sort n° 50720 🔍 MAJ

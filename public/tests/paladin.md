@@ -1,0 +1,276 @@
+# Fiche de test : Paladin
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Sacré
+
+- [ ] **Imposition des mains** (Rang 1) — capacité, sort n° 633
+- [ ] **Lumière sacrée** (Rang 1) — capacité, sort n° 635
+- [ ] **Exorcisme** (Rang 1) — capacité, sort n° 879
+- [ ] **Purification** — capacité, sort n° 1152
+- [ ] **Colère divine** (Rang 1) — capacité, sort n° 2812
+- [ ] **Epuration** — capacité, sort n° 4987
+- [ ] **Rédemption** (Rang 1) — capacité, sort n° 7328
+- [ ] **Renvoi du mal** — capacité, sort n° 10326 🔍 MAJ
+- [ ] **Bénédiction de sagesse** (Rang 1) — capacité, sort n° 19742 🔍 MAJ
+- [ ] **Aura de concentration** — capacité, sort n° 19746 🔍 MAJ
+- [ ] **Eclair lumineux** (Rang 1) — capacité, sort n° 19750
+- [ ] **Sceau de lumière** — capacité, sort n° 20165
+- [ ] **Sceau de sagesse** — capacité, sort n° 20166
+- [ ] **Sceau de piété** — capacité, sort n° 21084
+- [ ] **Consécration** (Rang 1) — capacité, sort n° 26573
+- [ ] **Bouclier saint** (Rang 1) — capacité, sort n° 53601 🔍 MAJ
+- [ ] **Supplique divine** — capacité, sort n° 54428
+- [ ] **Lumière de l'aube** (Rang 1) — capacité, sort n° 760106
+- [ ] **Maîtrise des sceaux** — capacité, sort n° 954707 🔍 MAJ 🔀 talents
+- [ ] **Maîtrise des bénédictions** — capacité, sort n° 954711 🔍 MAJ 🔀 talents
+- [ ] **Marteau de Lumière** (Rang 1) — capacité, sort n° 954801
+- [ ] **Puissance sacrée** (Rang 1) — talent, sort n° 5923
+- [ ] **Puissance sacrée** (Rang 2) — talent, sort n° 5924
+- [ ] **Puissance sacrée** (Rang 3) — talent, sort n° 5925
+- [ ] **Foi inflexible** (Rang 1) — talent, sort n° 9453 🔍 MAJ
+- [ ] **Focalisation spirituelle** (Rang 1) — talent, sort n° 20205
+- [ ] **Focalisation spirituelle** (Rang 2) — talent, sort n° 20206
+- [ ] **Focalisation spirituelle** (Rang 3) — talent, sort n° 20207
+- [ ] **Illumination** (Rang 1) — talent, sort n° 20210
+- [ ] **Illumination** (Rang 2) — talent, sort n° 20212
+- [ ] **Illumination** (Rang 3) — talent, sort n° 20213
+- [ ] **Sceaux des purs** (Rang 1) — talent, sort n° 20224
+- [ ] **Sceaux des purs** (Rang 2) — talent, sort n° 20225
+- [ ] **Imposition des mains améliorée** (Rang 1) — talent, sort n° 20234
+- [ ] **Imposition des mains améliorée** (Rang 2) — talent, sort n° 20235
+- [ ] **Lumière guérisseuse** (Rang 1) — talent, sort n° 20237
+- [ ] **Lumière guérisseuse** (Rang 2) — talent, sort n° 20238
+- [ ] **Lumière guérisseuse** (Rang 3) — talent, sort n° 20239
+- [ ] **Bénédiction de sagesse améliorée** (Rang 1) — talent, sort n° 20244
+- [ ] **Bénédiction de sagesse améliorée** (Rang 2) — talent, sort n° 20245
+- [ ] **Aura de concentration améliorée** (Rang 1) — talent, sort n° 20254 🔍 MAJ
+- [ ] **Aura de concentration améliorée** (Rang 2) — talent, sort n° 20255 🔍 MAJ
+- [ ] **Aura de concentration améliorée** (Rang 3) — talent, sort n° 20256 🔍 MAJ
+- [ ] **Intelligence divine** (Rang 1) — talent, sort n° 20257
+- [ ] **Intelligence divine** (Rang 2) — talent, sort n° 20258
+- [ ] **Intelligence divine** (Rang 3) — talent, sort n° 20259
+- [ ] **Sceaux des purs** (Rang 3) — talent, sort n° 20330
+- [ ] **Lumière sanctifiée** (Rang 1) — talent, sort n° 20359
+- [ ] **Lumière sanctifiée** (Rang 2) — talent, sort n° 20360
+- [ ] **Lumière sanctifiée** (Rang 3) — talent, sort n° 20361
+- [ ] **Foi inflexible** (Rang 2) — talent, sort n° 25836 🔍 MAJ
+- [ ] **Pur de coeur** (Rang 1) — talent, sort n° 31822
+- [ ] **Pur de coeur** (Rang 2) — talent, sort n° 31823
+- [ ] **Puissance purifiante** (Rang 1) — talent, sort n° 31825
+- [ ] **Puissance purifiante** (Rang 2) — talent, sort n° 31826
+- [ ] **Vie bénie** (Rang 1) — talent, sort n° 31828
+- [ ] **Vie bénie** (Rang 2) — talent, sort n° 31829
+- [ ] **Vie bénie** (Rang 3) — talent, sort n° 31830
+- [ ] **Grâce de la lumière** (Rang 1) — talent, sort n° 31833
+- [ ] **Grâce de la lumière** (Rang 2) — talent, sort n° 31835
+- [ ] **Grâce de la lumière** (Rang 3) — talent, sort n° 31836
+- [ ] **Soutien sacré** (Rang 1) — talent, sort n° 31837
+- [ ] **Soutien sacré** (Rang 2) — talent, sort n° 31838
+- [ ] **Soutien sacré** (Rang 3) — talent, sort n° 31839
+- [ ] **Purification sacrée** (Rang 1) — talent, sort n° 53551
+- [ ] **Purification sacrée** (Rang 2) — talent, sort n° 53552
+- [ ] **Purification sacrée** (Rang 3) — talent, sort n° 53553
+- [ ] **Jugements éclairés** (Rang 1) — talent, sort n° 53556
+- [ ] **Jugements éclairés** (Rang 2) — talent, sort n° 53557
+- [ ] **Imprégnation de lumière** (Rang 1) — talent, sort n° 53569
+- [ ] **Imprégnation de lumière** (Rang 2) — talent, sort n° 53576
+- [ ] **Mains bénies** (Rang 1) — talent, sort n° 53660
+- [ ] **Mains bénies** (Rang 2) — talent, sort n° 53661
+- [ ] **Jugements des purs** (Rang 1) — talent, sort n° 53671
+- [ ] **Jugements des purs** (Rang 2) — talent, sort n° 53673
+- [ ] **Jugements des purs** (Rang 3) — talent, sort n° 54151
+- [ ] **Une aube nouvelle** (Rang 1) — talent, sort n° 760189
+- [ ] **Une aube nouvelle** (Rang 2) — talent, sort n° 760190
+- [ ] **Une aube nouvelle** (Rang 3) — talent, sort n° 760191
+- [ ] **Pur de coeur** (Rang 3) — talent, sort n° 831800
+- [ ] **Mains bénies** (Rang 3) — talent, sort n° 853661
+- [ ] **Faveur divine** — capacité de talent, sort n° 20216
+- [ ] **Horion sacré** (Rang 1) — capacité de talent, sort n° 20473
+- [ ] **Maîtrise des auras** — capacité de talent, sort n° 31821
+- [ ] **Illumination divine** — capacité de talent, sort n° 31842
+- [ ] **Guide de lumière** — capacité de talent, sort n° 53563 🔍 MAJ
+
+## Protection
+
+- [ ] **Aura de dévotion** (Rang 1) — capacité, sort n° 465 🔍 MAJ
+- [ ] **Protection divine** — capacité, sort n° 498 🔍 MAJ
+- [ ] **Bouclier divin** — capacité, sort n° 642
+- [ ] **Marteau de la justice** — capacité, sort n° 853
+- [ ] **Main de protection** — capacité, sort n° 1022
+- [ ] **Main de salut** — capacité, sort n° 1038
+- [ ] **Main de liberté** — capacité, sort n° 1044
+- [ ] **Main de sacrifice** — capacité, sort n° 6940
+- [ ] **Intervention divine** — capacité, sort n° 19752
+- [ ] **Aura de résistance à l'Ombre** (Rang 1) — capacité, sort n° 19876 🔍 MAJ
+- [ ] **Aura de résistance au Givre** (Rang 1) — capacité, sort n° 19888 🔍 MAJ
+- [ ] **Aura de résistance au Feu** (Rang 1) — capacité, sort n° 19891 🔍 MAJ
+- [ ] **Sceau de justice** — capacité, sort n° 20164
+- [ ] **Bénédiction des rois** — capacité, sort n° 20217 🔍 MAJ
+- [ ] **Fureur vertueuse** — capacité, sort n° 25780 🔍 MAJ
+- [ ] **Défense vertueuse** — capacité, sort n° 31789 🔍 MAJ
+- [ ] **Bouclier de piété** — capacité, sort n° 53600
+- [ ] **Main de rétribution** — capacité, sort n° 62124
+- [ ] **Maîtrise des auras du paladin** — capacité, sort n° 92157 🔍 MAJ
+- [ ] **Lumière aveuglante** — capacité, sort n° 954500
+- [ ] **Anticipation** (Rang 1) — talent, sort n° 20096 🔍 MAJ
+- [ ] **Anticipation** (Rang 2) — talent, sort n° 20097 🔍 MAJ
+- [ ] **Anticipation** (Rang 3) — talent, sort n° 20098 🔍 MAJ
+- [ ] **Anticipation** (Rang 4) — talent, sort n° 20099 🔍 MAJ
+- [ ] **Anticipation** (Rang 5) — talent, sort n° 20100 🔍 MAJ
+- [ ] **Redoute** (Rang 1) — talent, sort n° 20127
+- [ ] **Redoute** (Rang 2) — talent, sort n° 20130
+- [ ] **Redoute** (Rang 3) — talent, sort n° 20135
+- [ ] **Aura de dévotion améliorée** (Rang 1) — talent, sort n° 20138
+- [ ] **Aura de dévotion améliorée** (Rang 2) — talent, sort n° 20139
+- [ ] **Aura de dévotion améliorée** (Rang 3) — talent, sort n° 20140
+- [ ] **Ténacité** (Rang 1) — talent, sort n° 20143
+- [ ] **Ténacité** (Rang 2) — talent, sort n° 20144
+- [ ] **Ténacité** (Rang 3) — talent, sort n° 20145
+- [ ] **Faveur du Gardien** (Rang 1) — talent, sort n° 20174
+- [ ] **Faveur du Gardien** (Rang 2) — talent, sort n° 20175
+- [ ] **Rétribution** (Rang 1) — talent, sort n° 20177
+- [ ] **Rétribution** (Rang 2) — talent, sort n° 20179
+- [ ] **Rétribution** (Rang 4) — talent, sort n° 20180
+- [ ] **Rétribution** (Rang 3) — talent, sort n° 20181
+- [ ] **Rétribution** (Rang 5) — talent, sort n° 20182
+- [ ] **Armes bénies** (Rang 1) — talent, sort n° 20196 🔍 MAJ 🔀 talents
+- [ ] **Armes bénies** (Rang 2) — talent, sort n° 20197 🔍 MAJ 🔀 talents
+- [ ] **Armes bénies** (Rang 3) — talent, sort n° 20198 🔍 MAJ 🔀 talents
+- [ ] **Force divine** (Rang 1) — talent, sort n° 20262
+- [ ] **Force divine** (Rang 2) — talent, sort n° 20263
+- [ ] **Force divine** (Rang 3) — talent, sort n° 20264
+- [ ] **Fureur vertueuse améliorée** (Rang 1) — talent, sort n° 20468
+- [ ] **Fureur vertueuse améliorée** (Rang 2) — talent, sort n° 20469
+- [ ] **Fureur vertueuse améliorée** (Rang 3) — talent, sort n° 20470
+- [ ] **Marteau de la justice amélioré** (Rang 1) — talent, sort n° 20487
+- [ ] **Marteau de la justice amélioré** (Rang 2) — talent, sort n° 20488
+- [ ] **Harmonisation spirituelle** (Rang 1) — talent, sort n° 31785
+- [ ] **Stoïcisme** (Rang 1) — talent, sort n° 31844 🔍 MAJ
+- [ ] **Stoïcisme** (Rang 2) — talent, sort n° 31845 🔍 MAJ
+- [ ] **Devoir sacré** (Rang 1) — talent, sort n° 31848
+- [ ] **Devoir sacré** (Rang 2) — talent, sort n° 31849
+- [ ] **Ardent défenseur** (Rang 1) — talent, sort n° 31850 🔍 MAJ
+- [ ] **Ardent défenseur** (Rang 2) — talent, sort n° 31851 🔍 MAJ
+- [ ] **Ardent défenseur** (Rang 3) — talent, sort n° 31852 🔍 MAJ
+- [ ] **Expertise en combat** (Rang 1) — talent, sort n° 31858
+- [ ] **Expertise en combat** (Rang 2) — talent, sort n° 31859
+- [ ] **Expertise en combat** (Rang 3) — talent, sort n° 31860
+- [ ] **Harmonisation spirituelle** (Rang 2) — talent, sort n° 33776
+- [ ] **Stoïcisme** (Rang 3) — talent, sort n° 53519 🔍 MAJ
+- [ ] **Gardien divin** (Rang 1) — talent, sort n° 53527
+- [ ] **Gardien divin** (Rang 2) — talent, sort n° 53530
+- [ ] **Gardé par la Lumière** (Rang 1) — talent, sort n° 53583
+- [ ] **Gardé par la Lumière** (Rang 2) — talent, sort n° 53585
+- [ ] **Touché par la Lumière** (Rang 1) — talent, sort n° 53590 🔍 MAJ
+- [ ] **Touché par la Lumière** (Rang 2) — talent, sort n° 53591 🔍 MAJ
+- [ ] **Touché par la Lumière** (Rang 3) — talent, sort n° 53592 🔍 MAJ
+- [ ] **Jugements des justes** (Rang 1) — talent, sort n° 53695
+- [ ] **Jugements des justes** (Rang 2) — talent, sort n° 53696
+- [ ] **Bouclier du templier** (Rang 1) — talent, sort n° 53709 🔍 MAJ
+- [ ] **Bouclier du templier** (Rang 2) — talent, sort n° 53710 🔍 MAJ
+- [ ] **Bouclier du templier** (Rang 3) — talent, sort n° 53711 🔍 MAJ
+- [ ] **Divinité** (Rang 1) — talent, sort n° 63646 🔍 MAJ
+- [ ] **Divinité** (Rang 2) — talent, sort n° 63647 🔍 MAJ
+- [ ] **Divinité** (Rang 3) — talent, sort n° 63648 🔍 MAJ
+- [ ] **Consécration améliorée** (Rang 1) — talent, sort n° 410000 🔍 MAJ
+- [ ] **Consécration améliorée** (Rang 2) — talent, sort n° 410001 🔍 MAJ
+- [ ] **Consécration améliorée** (Rang 3) — talent, sort n° 410002 🔍 MAJ
+- [ ] **Lumière intérieure** (Rang 1) — talent, sort n° 410010
+- [ ] **Lumière intérieure** (Rang 2) — talent, sort n° 410011
+- [ ] **Lumière intérieure** (Rang 3) — talent, sort n° 410012
+- [ ] **Faveur du Gardien** (Rang 3) — talent, sort n° 820175
+- [ ] **Devoir sacré** (Rang 3) — talent, sort n° 831849
+- [ ] **Gardé par la Lumière** (Rang 3) — talent, sort n° 853586
+- [ ] **Bénédiction du sanctuaire** — capacité de talent, sort n° 20911
+- [ ] **Bouclier sacré** (Rang 1) — capacité de talent, sort n° 20925
+- [ ] **Bouclier du vengeur** (Rang 1) — capacité de talent, sort n° 31935
+- [ ] **Marteau du vertueux** — capacité de talent, sort n° 53595
+- [ ] **Sacrifice divin** — capacité de talent, sort n° 64205
+
+## Vindicte
+
+- [ ] **Aura de vindicte** (Rang 1) — capacité, sort n° 7294 🔍 MAJ
+- [ ] **Bénédiction de puissance** (Rang 1) — capacité, sort n° 19740 🔍 MAJ
+- [ ] **Jugement de lumière** — capacité, sort n° 20271 🔍 MAJ
+- [ ] **Marteau de courroux** (Rang 1) — capacité, sort n° 24275
+- [ ] **Sceau de vengeance** — capacité, sort n° 31801
+- [ ] **Courroux vengeur** — capacité, sort n° 31884 🔍 MAJ
+- [ ] **Aura de croisé** — capacité, sort n° 32223 🔍 MAJ
+- [ ] **Jugement de justice** — capacité, sort n° 53407 🔍 MAJ
+- [ ] **Jugement de sagesse** — capacité, sort n° 53408 🔍 MAJ
+- [ ] **Maîtrise des jugements** — capacité, sort n° 92169 🔍 MAJ
+- [ ] **Sentence d'exécution** (Rang 1) — capacité, sort n° 954817
+- [ ] **Réprimandes** — capacité, sort n° 955070 🔍 MAJ
+- [ ] **Justification** (Rang 1) — talent, sort n° 9452 🔍 MAJ
+- [ ] **Oeil pour oeil** (Rang 1) — talent, sort n° 9799
+- [ ] **Bénédiction de puissance améliorée** (Rang 1) — talent, sort n° 20042
+- [ ] **Bénédiction de puissance améliorée** (Rang 2) — talent, sort n° 20045
+- [ ] **Vengeance** (Rang 1) — talent, sort n° 20049
+- [ ] **Vengeance** (Rang 2) — talent, sort n° 20056
+- [ ] **Vengeance** (Rang 3) — talent, sort n° 20057
+- [ ] **Déviation** (Rang 1) — talent, sort n° 20060 🔍 MAJ
+- [ ] **Déviation** (Rang 2) — talent, sort n° 20061 🔍 MAJ
+- [ ] **Déviation** (Rang 3) — talent, sort n° 20062 🔍 MAJ
+- [ ] **Bénédiction** (Rang 1) — talent, sort n° 20101
+- [ ] **Bénédiction** (Rang 2) — talent, sort n° 20102
+- [ ] **Bénédiction** (Rang 3) — talent, sort n° 20103
+- [ ] **Spécialisation Arme 2M** (Rang 1) — talent, sort n° 20111
+- [ ] **Spécialisation Arme 2M** (Rang 2) — talent, sort n° 20112
+- [ ] **Spécialisation Arme 2M** (Rang 3) — talent, sort n° 20113
+- [ ] **Conviction** (Rang 1) — talent, sort n° 20117 🔍 MAJ
+- [ ] **Conviction** (Rang 2) — talent, sort n° 20118 🔍 MAJ
+- [ ] **Conviction** (Rang 3) — talent, sort n° 20119 🔍 MAJ
+- [ ] **Conviction** (Rang 4) — talent, sort n° 20120 🔍 MAJ
+- [ ] **Conviction** (Rang 5) — talent, sort n° 20121 🔍 MAJ
+- [ ] **Coeur du Croisé** (Rang 1) — talent, sort n° 20335 🔍 MAJ
+- [ ] **Coeur du Croisé** (Rang 2) — talent, sort n° 20336 🔍 MAJ
+- [ ] **Coeur du Croisé** (Rang 3) — talent, sort n° 20337 🔍 MAJ
+- [ ] **Jugements améliorés** (Rang 1) — talent, sort n° 25956
+- [ ] **Jugements améliorés** (Rang 2) — talent, sort n° 25957
+- [ ] **Jugements améliorés** (Rang 3) — talent, sort n° 25958
+- [ ] **Oeil pour oeil** (Rang 2) — talent, sort n° 25988
+- [ ] **Justification** (Rang 2) — talent, sort n° 26016 🔍 MAJ
+- [ ] **Poursuite de la justice** (Rang 1) — talent, sort n° 26022
+- [ ] **Poursuite de la justice** (Rang 2) — talent, sort n° 26023
+- [ ] **Croisade** (Rang 1) — talent, sort n° 31866
+- [ ] **Croisade** (Rang 2) — talent, sort n° 31867
+- [ ] **Croisade** (Rang 3) — talent, sort n° 31868
+- [ ] **Vindicte sanctifiée** (Rang 1) — talent, sort n° 31869 🔍 MAJ
+- [ ] **Dessein divin** (Rang 1) — talent, sort n° 31871
+- [ ] **Dessein divin** (Rang 2) — talent, sort n° 31872
+- [ ] **Jugements des sages** (Rang 1) — talent, sort n° 31876
+- [ ] **Jugements des sages** (Rang 2) — talent, sort n° 31877
+- [ ] **Jugements des sages** (Rang 3) — talent, sort n° 31878
+- [ ] **Fanatisme** (Rang 1) — talent, sort n° 31879
+- [ ] **Fanatisme** (Rang 2) — talent, sort n° 31880
+- [ ] **Fanatisme** (Rang 3) — talent, sort n° 31881
+- [ ] **Bataille sainte** (Rang 1) — talent, sort n° 32043
+- [ ] **Bataille sainte** (Rang 2) — talent, sort n° 35396
+- [ ] **Bataille sainte** (Rang 3) — talent, sort n° 35397
+- [ ] **Courroux sanctifié** (Rang 1) — talent, sort n° 53375
+- [ ] **Courroux sanctifié** (Rang 2) — talent, sort n° 53376
+- [ ] **Vindicte rapide** (Rang 1) — talent, sort n° 53379
+- [ ] **Vengeance vertueuse** (Rang 1) — talent, sort n° 53380
+- [ ] **Vengeance vertueuse** (Rang 2) — talent, sort n° 53381
+- [ ] **Vengeance vertueuse** (Rang 3) — talent, sort n° 53382
+- [ ] **Vindicte rapide** (Rang 2) — talent, sort n° 53484
+- [ ] **L'art de la guerre** (Rang 1) — talent, sort n° 53486 🔍 MAJ
+- [ ] **L'art de la guerre** (Rang 2) — talent, sort n° 53488 🔍 MAJ
+- [ ] **Fourreau de lumière** (Rang 1) — talent, sort n° 53501
+- [ ] **Fourreau de lumière** (Rang 2) — talent, sort n° 53502
+- [ ] **Fourreau de lumière** (Rang 3) — talent, sort n° 53503
+- [ ] **Vindicte rapide** (Rang 3) — talent, sort n° 53648
+- [ ] **Oeil pour oeil** (Rang 3) — talent, sort n° 89799
+- [ ] **Justification** (Rang 3) — talent, sort n° 209452 🔍 MAJ
+- [ ] **Vindicte sanctifiée** (Rang 2) — talent, sort n° 831869 🔍 MAJ
+- [ ] **Vindicte sanctifiée** (Rang 3) — talent, sort n° 831870 🔍 MAJ
+- [ ] **Dessein divin** (Rang 3) — talent, sort n° 831872 🔍 MAJ
+- [ ] **L'art de la guerre** (Rang 3) — talent, sort n° 853486 🔍 MAJ
+- [ ] **Repentir** — capacité de talent, sort n° 20066
+- [ ] **Sceau d'autorité** — capacité de talent, sort n° 20375
+- [ ] **Inquisition** — capacité de talent, sort n° 35395
+- [ ] **Tempête divine** — capacité de talent, sort n° 53385

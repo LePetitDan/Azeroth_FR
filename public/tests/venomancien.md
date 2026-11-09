@@ -1,0 +1,232 @@
+# Fiche de test : Vénomancien
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Robustesse
+
+- [ ] **Chair à vif** (Spécialisation) — capacité, sort n° 92144
+- [ ] **Cycle de décomposition** (Spécialisation) — capacité, sort n° 500219
+- [ ] **Éruption de bile** (Passif) — capacité, sort n° 500230
+- [ ] **Chair à vif** (Passif de spécialisation) — capacité, sort n° 500231 🔍 MAJ
+- [ ] **Seigneur araignée** (Passif) — capacité, sort n° 704264
+- [ ] **Durcir** (Rang 1) — capacité, sort n° 800892
+- [ ] **Catalyseur** — capacité, sort n° 800895
+- [ ] **Forme de scarabée** (Changeforme) — capacité, sort n° 803183
+- [ ] **Brise-ruche** (Rang 1) — capacité, sort n° 803193 🔀 talents
+- [ ] **Corrosion** — capacité, sort n° 803194
+- [ ] **Poison pointe-venin** (Rang 1) — capacité, sort n° 803195
+- [ ] **Dard barbelé** — capacité, sort n° 803196
+- [ ] **Repousse d'exosquelette** — capacité, sort n° 803197
+- [ ] **Coup de griffe** (Rang 1) — capacité, sort n° 803198
+- [ ] **Impact de carapace** (Rang 1) — capacité, sort n° 803199
+- [ ] **Boue toxique** (Rang 1) — capacité, sort n° 803201 🔀 talents
+- [ ] **Lance-toxines** (Rang 1) — capacité, sort n° 803203
+- [ ] **Rage toxique** — capacité, sort n° 803205
+- [ ] **Propriétés régénérantes** (Passif) — capacité, sort n° 803210
+- [ ] **Forme de serpent de mer** (Changeforme) — capacité, sort n° 803212
+- [ ] **Exosquelette renforcé** (Passif) — capacité, sort n° 804993
+- [ ] **Ruse** (Passif) — capacité, sort n° 805093
+- [ ] **Expulsion** (Rang 1) — capacité, sort n° 805094
+- [ ] **Toxine annulante** — capacité, sort n° 805096
+- [ ] **Piqûre ignoble** — capacité, sort n° 805097
+- [ ] **Vénomancien (Robustesse)** (Passif Chair à vif) — capacité, sort n° 805098
+- [ ] **Frappes régénératrices** — capacité, sort n° 805101
+- [ ] **Mue** — capacité, sort n° 805102
+- [ ] **Reformé** (Spécialisation) — capacité, sort n° 805103
+- [ ] **Venin de flétrissure** — capacité, sort n° 805776
+- [ ] **Venin affaiblissant** — capacité, sort n° 805778
+- [ ] **Régénération de carapace** — capacité, sort n° 805931
+- [ ] **Fouir** — capacité, sort n° 806154
+- [ ] **Charme de protection** (Passif) — talent, sort n° 705967
+- [ ] **Charme de protection** (Rang 2) — talent, sort n° 705968
+- [ ] **Agitation** (Passif) — talent, sort n° 705969
+- [ ] **Carapace magique** (Spécialisation) — talent, sort n° 705970
+- [ ] **Durcissement amélioré** (Rang 1) — talent, sort n° 705971
+- [ ] **Durcissement amélioré** (Rang 2) — talent, sort n° 705972
+- [ ] **Afflux chitineux** (Passif) — talent, sort n° 705973
+- [ ] **Protogenèse** (Rang 2) — talent, sort n° 705974
+- [ ] **Vénomique** (Passif) — talent, sort n° 705975
+- [ ] **Pinces rapides** (Passif) — talent, sort n° 705976
+- [ ] **Piqûre renforcée** (Passif) — talent, sort n° 705978
+- [ ] **Piqûre améliorée** (Rang 2) — talent, sort n° 705979
+- [ ] **Alacrité** (Passif) — talent, sort n° 705980
+- [ ] **Exosquelette renforcé** (Passif) — talent, sort n° 705981
+- [ ] **Poison cruel** (Passif) — talent, sort n° 705982
+- [ ] **Epines chitineuses** — talent, sort n° 705986
+- [ ] **Epines chitineuses** (Passif) — talent, sort n° 705987
+- [ ] **Approche venimeuse** (Passif) — talent, sort n° 705988
+- [ ] **Injection rapide** (Passif) — talent, sort n° 705989
+- [ ] **Muant** (Passif) — talent, sort n° 705990
+- [ ] **Incassable** (Passif) — talent, sort n° 705991
+- [ ] **Résistant** (Passif) — talent, sort n° 705992
+- [ ] **Visqueux** (Passif) — talent, sort n° 705998
+- [ ] **Carapace reconstructrice** (Passif) — talent, sort n° 705999
+- [ ] **Dards visqueux** (Passif) — talent, sort n° 706001
+- [ ] **Exosquelette renforcé** (Rang 1) — talent, sort n° 706002
+
+## Traque
+
+- [ ] **Bâtons** — capacité, sort n° 227
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Marques de la couvée** (Spécialisation) — capacité, sort n° 92143
+- [ ] **Forme d'araignée** (Changeforme) — capacité, sort n° 800841
+- [ ] **Rôder** — capacité, sort n° 800843 🔀 talents
+- [ ] **Cavalcade** — capacité, sort n° 800848
+- [ ] **Prédateur en embuscade** (Passif) — capacité, sort n° 800878
+- [ ] **Saut en forme d'araignée** — capacité, sort n° 800879 🔀 talents
+- [ ] **Croc venimeux** (Rang 1) — capacité, sort n° 800880 🔀 talents
+- [ ] **Dard nérubien** (Rang 1) — capacité, sort n° 800882
+- [ ] **Venin flétrissant** — capacité, sort n° 800886
+- [ ] **Marques de la couvée** (Passif de spécialisation) — capacité, sort n° 800889
+- [ ] **Crocs détrempés** — capacité, sort n° 800891
+- [ ] **Fureur d'Anub'Rekhan** (Passif) — capacité, sort n° 800894
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Rôdeur** (Spécialisation) — capacité, sort n° 804342
+- [ ] **Faiseur de veuves** (Rang 1) — capacité, sort n° 804961 🔀 talents
+- [ ] **Vélocité** — capacité, sort n° 804962
+- [ ] **Sang-de-vie** — capacité, sort n° 804963
+- [ ] **Renforcement nocif** — capacité, sort n° 804964
+- [ ] **Ruée grinçante** — capacité, sort n° 804965 🔀 talents
+- [ ] **Canon à venin** — capacité, sort n° 804967
+- [ ] **Instinct de la ruche** — capacité, sort n° 804968
+- [ ] **Résonance virulente** (Passif) — capacité, sort n° 804969
+- [ ] **Éclatement immonde** (Passif) — capacité, sort n° 804973
+- [ ] **Effroi funeste** (Rang 1) — capacité, sort n° 804975
+- [ ] **Garde du repaire** — capacité, sort n° 804976
+- [ ] **Croc putride** (Rang 1) — capacité, sort n° 804977 🔀 talents
+- [ ] **Repaire de Shadra** — capacité, sort n° 804978
+- [ ] **Seigneur serpent** (Passif) — capacité, sort n° 805104
+- [ ] **Ruse des Nerub'ar** (Passif) — capacité, sort n° 805140
+- [ ] **Venin débilitant** — capacité, sort n° 805731
+- [ ] **Venin annihilant** — capacité, sort n° 805777
+- [ ] **Envenimer** (Passif) — capacité, sort n° 805900
+- [ ] **Veuve noire** (Passif) — capacité, sort n° 805933
+- [ ] **Claque trottinante** (Spécialisation) — capacité, sort n° 806211
+- [ ] **Croc-acide** (Spécialisation) — capacité, sort n° 806603
+- [ ] **Brûlures d'acide** — capacité, sort n° 806604
+- [ ] **Poison d'effroi** (Passif) — talent, sort n° 705951
+- [ ] **L'Ancien Royaume** (Passif) — talent, sort n° 705952
+- [ ] **L'Ancien Royaume** (Rang 2) — talent, sort n° 705953
+- [ ] **Veuvage** (Passif) — talent, sort n° 705954
+- [ ] **Fureur de la veuve** (Passif) — talent, sort n° 705955
+- [ ] **Gloire à Shadra !** (Passif) — talent, sort n° 706033
+- [ ] **Poison nérubien** (Passif) — talent, sort n° 706034
+- [ ] **Stratégie surprise** (Passif) — talent, sort n° 706035
+- [ ] **Crocs vils** (Passif) — talent, sort n° 706036
+- [ ] **Crocs vils** — talent, sort n° 706037
+- [ ] **Flétri** (Passif) — talent, sort n° 706038
+- [ ] **Fondefaces amélioré** (Rang 2) — talent, sort n° 706039
+- [ ] **Crocs cloqueurs** (Passif) — talent, sort n° 706270
+- [ ] **Aspersion mortelle** (Passif) — talent, sort n° 706271
+- [ ] **Aspersion mortelle** — talent, sort n° 706272
+
+## Venin
+
+- [ ] **Liche putride** (Spécialisation) — capacité, sort n° 92142
+- [ ] **Éclair de venin** (Rang 1) — capacité, sort n° 800869 🔀 talents
+- [ ] **Prière de Shadra** (Rang 1) — capacité, sort n° 800870
+- [ ] **Fond-visage** (Rang 1) — capacité, sort n° 800871 🔀 talents
+- [ ] **Entoilage** (Rang 1) — capacité, sort n° 800876
+- [ ] **Lien de Shadra** (obsolète) — capacité, sort n° 800877 🔀 talents
+- [ ] **Entrave soyeuse** (Rang 1) — capacité, sort n° 800887
+- [ ] **Brume guérisseuse** (Rang 1) — capacité, sort n° 800899
+- [ ] **Baume de Shadra** (Rang 1) — capacité, sort n° 800901
+- [ ] **Baume vert** (Rang 1) — capacité, sort n° 800902 🔀 talents
+- [ ] **Unité** — capacité, sort n° 800904 🔍 MAJ
+- [ ] **Antivenin** — capacité, sort n° 800905
+- [ ] **Forme de vizir** (Changeforme) — capacité, sort n° 800912
+- [ ] **Amulette du seigneur serpent** — capacité, sort n° 800914
+- [ ] **Croc du serpent** (Rang 1) — capacité, sort n° 800946 🔀 talents
+- [ ] **Phéromones d'araignée** (Rang 1) — capacité, sort n° 803177
+- [ ] **Champion de l'araignée** — capacité, sort n° 803179
+- [ ] **Vénomancie** (Passif) — capacité, sort n° 803180
+- [ ] **Bouclier de venin** — capacité, sort n° 804687
+- [ ] **Visuel caché du lieu de sépulture 2** — capacité, sort n° 804884
+- [ ] **Forme de tisseur** (Changeforme) — capacité, sort n° 804980
+- [ ] **Flétrir** (Rang 1) — capacité, sort n° 804982
+- [ ] **Spore** (Rang 1) — capacité, sort n° 804983
+- [ ] **Saturation de venin** (Passif) — capacité, sort n° 804984
+- [ ] **Mycose** (Rang 1) — capacité, sort n° 804986
+- [ ] **Excroissance fongique** (Passif) — capacité, sort n° 804987
+- [ ] **Cape gangrenée** — capacité, sort n° 804988
+- [ ] **Seigneur des spores** (Passif) — capacité, sort n° 804989
+- [ ] **Forme de guêpe** — capacité, sort n° 805141
+- [ ] **Croc de Venoxis** (Rang 1) — capacité, sort n° 805405
+- [ ] **Rejeton** (Rang 1) — capacité, sort n° 805568
+- [ ] **Venin adrénal** — capacité, sort n° 805775
+- [ ] **Extraction** — capacité, sort n° 805884
+- [ ] **Inoculation** (Passif) — talent, sort n° 706008
+- [ ] **Dons généreux** (Rang 1) — talent, sort n° 706009
+- [ ] **Dons généreux** (Rang 2) — talent, sort n° 706010
+- [ ] **Ruse du serpent** (Passif) — talent, sort n° 706011
+- [ ] **Dépérissement** (Passif) — talent, sort n° 706012
+- [ ] **Croc de Venoxis amélioré** (Rang 2) — talent, sort n° 706013
+- [ ] **Veille de la veuve** (Passif) — talent, sort n° 706014
+- [ ] **Glandes à venin** (Passif) — talent, sort n° 706015
+- [ ] **Culte** (Passif) — talent, sort n° 706016
+- [ ] **Rituel du seigneur serpent** (Passif) — talent, sort n° 706018 🔍 MAJ
+- [ ] **Propagateur de pourriture** (Passif) — talent, sort n° 706020 🔀 talents
+- [ ] **Reconstitution mycélienne** — talent, sort n° 706021
+- [ ] **Reconstitution mycélienne** (Regain d'énergie) — talent, sort n° 706022
+- [ ] **Venins enivrants** (Spécialisation) — talent, sort n° 706023
+- [ ] **Action rapide** (OBSOLÈTE) — talent, sort n° 706024
+- [ ] **Éclair d'acide** (Rang 1) — talent, sort n° 706025
+- [ ] **Infestation parasitaire** (Passif) — talent, sort n° 706026
+- [ ] **Expert en vénomancie** (Passif) — talent, sort n° 706027
+- [ ] **Renouveau rituel** (Passif) — talent, sort n° 706028
+- [ ] **Infestation** (Passif) — talent, sort n° 706030
+- [ ] **Liche putride** (Spécialisation) — talent, sort n° 706031
+- [ ] **Prêtre de la putréfaction** (Passif) — talent, sort n° 706209
+- [ ] **Prêtre de la putréfaction** — talent, sort n° 706210
+- [ ] **Soins spirituels** (Spécialisation) — talent, sort n° 706211
+- [ ] **Cultiste du venin** — talent, sort n° 706212
+
+## Classe
+
+- [ ] **Exosquelette enchanté** (Passif) — capacité, sort n° 300668
+- [ ] **Miasme amélioré** (Passif) — capacité, sort n° 300676
+- [ ] **Séance de Shadra** (Passif) — capacité, sort n° 300678
+- [ ] **Cachette** (Passif) — capacité, sort n° 300680
+- [ ] **Vénomage** (Rang 1) — capacité, sort n° 300682
+- [ ] **Jambes puissantes** (Passif) — capacité, sort n° 300683
+- [ ] **Expulsion toxique** (Passif) — capacité, sort n° 705959
+- [ ] **Carapace runique** (Passif) — capacité, sort n° 705961
+- [ ] **Carapace renforcée** (Passif) — capacité, sort n° 705966
+- [ ] **Chitine piquante** (Passif) — capacité, sort n° 705977
+- [ ] **Danse de la mort** (Passif) — capacité, sort n° 705983
+- [ ] **Grimoire d'Ahn'kahet** (Passif) — capacité, sort n° 705993
+- [ ] **Pacte de l'aspect** (Passif) — capacité, sort n° 705994
+- [ ] **Phéromones fortifiantes** (Passif) — capacité, sort n° 705996
+- [ ] **Evasif** (Passif) — capacité, sort n° 706003
+- [ ] **Exosquelette endurant** (Rang 1) — capacité, sort n° 706004
+- [ ] **Une fosse aux serpents** (Passif) — capacité, sort n° 706007
+- [ ] **Intensification** — capacité, sort n° 706251
+- [ ] **Sens aiguisés** (Rang 1) — capacité de talent, sort n° 300664
+- [ ] **Sens aiguisés** (Rang 2) — capacité de talent, sort n° 300665
+- [ ] **Venin mortel** (Passif) — capacité de talent, sort n° 300666
+- [ ] **Morsures de précision** (obsolète) — capacité de talent, sort n° 300667
+- [ ] **Putréfaction inversée** (Passif) — capacité de talent, sort n° 300669
+- [ ] **Putréfaction inversée** (obsolète) — capacité de talent, sort n° 300670
+- [ ] **Carapace robuste** (Passif) — capacité de talent, sort n° 300671
+- [ ] **Carapace robuste** (Rang 2) — capacité de talent, sort n° 300672
+- [ ] **Carapace robuste** (Rang 3) — capacité de talent, sort n° 300673
+- [ ] **Sens d'araignée** (Obsolète) — capacité de talent, sort n° 300674
+- [ ] **Veille de Shadra améliorée** (Passif) — capacité de talent, sort n° 300675
+- [ ] **Héritage nérubien** (Passif) — capacité de talent, sort n° 300677
+- [ ] **Perfidie du conseiller** (Rang 1) — capacité de talent, sort n° 300684
+- [ ] **Perfidie du conseiller** (Rang 2) — capacité de talent, sort n° 300685
+- [ ] **Mue** (Passif) — capacité de talent, sort n° 705949
+- [ ] **Mue** (Rang 2) — capacité de talent, sort n° 705950
+- [ ] **Livre de Shadra** (SLS) — capacité de talent, sort n° 705956
+- [ ] **Livre de Shadra** (Passif) — capacité de talent, sort n° 705957
+- [ ] **Arachnisé** (Rang 2) — capacité de talent, sort n° 705958
+- [ ] **Accélération** (Rang 2) — capacité de talent, sort n° 705960
+- [ ] **Genèse** (Passif) — capacité de talent, sort n° 705962
+- [ ] **Genèse** (Rang 2) — capacité de talent, sort n° 705963
+- [ ] **Armement forgé par les âmes** (Aura) — capacité de talent, sort n° 705964
+- [ ] **Frappe aux jambes améliorée** (obsolète) — capacité de talent, sort n° 705965
+- [ ] **Furie vile** (Rang 1) — capacité de talent, sort n° 706005
+- [ ] **Furie vile** (Rang 1) — capacité de talent, sort n° 706006

@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Azeroth_FR : textes d'interface en français (écrans d'avant-jeu et jeu).
+         Le client réclame ce fichier et le charge au début des écrans de connexion ET au
+         début de l'interface en jeu ; le code chargé ici est « sûr » pour le jeu (test 1).
+         Pour tout annuler : supprimer le dossier Interface\PTRXML. -->
+    <Script file="AzerothFR_Interface.lua"/>
+</Ui>

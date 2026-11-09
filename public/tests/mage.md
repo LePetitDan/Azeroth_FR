@@ -1,0 +1,304 @@
+# Fiche de test : Mage
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Arcanes
+
+- [ ] **Invisibilité** — capacité, sort n° 66 🔀 talents
+- [ ] **Métamorphose** (Rang 1) — capacité, sort n° 118 🔍 MAJ
+- [ ] **Chute lente** — capacité, sort n° 130 🔍 MAJ
+- [ ] **Dissipation de la malédiction** — capacité, sort n° 475
+- [ ] **Invocation de nourriture** (Rang 1) — capacité, sort n° 587
+- [ ] **Atténuation de la magie** (Rang 1) — capacité, sort n° 604 🔍 MAJ
+- [ ] **Invocation d'une gemme de mana** (Rang 1) — capacité, sort n° 759
+- [ ] **Amplification de la magie** (Rang 1) — capacité, sort n° 1008 🔍 MAJ
+- [ ] **Explosion des arcanes** (Rang 1) — capacité, sort n° 1449
+- [ ] **Intelligence des arcanes** (Rang 1) — capacité, sort n° 1459 🔍 MAJ
+- [ ] **Bouclier de mana** (Rang 1) — capacité, sort n° 1463
+- [ ] **Transfert** — capacité, sort n° 1953
+- [ ] **Contresort** — capacité, sort n° 2139 🔍 MAJ
+- [ ] **Projectiles des arcanes** (Rang 1) — capacité, sort n° 5143
+- [ ] **Invocation d'eau** (Rang 1) — capacité, sort n° 5504
+- [ ] **Armure du mage** (Rang 1) — capacité, sort n° 6117 🔍 MAJ
+- [ ] **Evocation** — capacité, sort n° 12051
+- [ ] **Vol de sort** — capacité, sort n° 30449
+- [ ] **Déflagration des arcanes** (Rang 1) — capacité, sort n° 30451
+- [ ] **Invocation de rafraîchissements** (Rang 3) — capacité, sort n° 42955
+- [ ] **Rituel des rafraîchissements** (Rang 3) — capacité, sort n° 43987
+- [ ] **Image miroir** — capacité, sort n° 55342
+- [ ] **Altération du temps** — capacité, sort n° 86397
+- [ ] **Aura d'illumination** — capacité, sort n° 91234
+- [ ] **Maîtrise des armures de mage** — capacité, sort n° 92155 🔍 MAJ 🔀 talents
+- [ ] **Maîtrise des protections** — capacité, sort n° 92170 🔍 MAJ
+- [ ] **Protection des Arcanes** (Rang 1) — capacité, sort n° 92171 🔍 MAJ
+- [ ] **Barrière forgée de mana** — capacité, sort n° 701463
+- [ ] **Armures élémentaires** — capacité, sort n° 701500
+- [ ] **Invisibilité de masse** — capacité, sort n° 760052
+- [ ] **Maîtrise des portails** — capacité, sort n° 818045
+- [ ] **Orbe des arcanes** (Rang 1) — capacité, sort n° 955032 🔍 MAJ
+- [ ] **Raté** — capacité, sort n° 955071 🔍 MAJ
+- [ ] **Invocation** — capacité, sort n° 986067
+- [ ] **Subtilité des arcanes** (Rang 1) — talent, sort n° 11210
+- [ ] **Concentration des arcanes** (Rang 1) — talent, sort n° 11213
+- [ ] **Alacrité** (Rang 1) — talent, sort n° 11222
+- [ ] **Esprit des arcanes** (Rang 1) — talent, sort n° 11232
+- [ ] **Stabilité arcanique** (Rang 1) — talent, sort n° 11237
+- [ ] **Impact des sorts** (Rang 1) — talent, sort n° 11242
+- [ ] **Sauvegarde des arcanes** (Rang 1) — talent, sort n° 11252
+- [ ] **Contresort amélioré** (Rang 1) — talent, sort n° 11255
+- [ ] **Stabilité arcanique** (Rang 2) — talent, sort n° 12463
+- [ ] **Stabilité arcanique** (Rang 3) — talent, sort n° 12464
+- [ ] **Impact des sorts** (Rang 2) — talent, sort n° 12467
+- [ ] **Impact des sorts** (Rang 3) — talent, sort n° 12469
+- [ ] **Esprit des arcanes** (Rang 2) — talent, sort n° 12500
+- [ ] **Esprit des arcanes** (Rang 3) — talent, sort n° 12501
+- [ ] **Concentration des arcanes** (Rang 2) — talent, sort n° 12574
+- [ ] **Concentration des arcanes** (Rang 3) — talent, sort n° 12575
+- [ ] **Subtilité des arcanes** (Rang 2) — talent, sort n° 12592
+- [ ] **Contresort amélioré** (Rang 2) — talent, sort n° 12598
+- [ ] **Sauvegarde des arcanes** (Rang 2) — talent, sort n° 12605
+- [ ] **Alacrité** (Rang 2) — talent, sort n° 12839
+- [ ] **Alacrité** (Rang 3) — talent, sort n° 12840
+- [ ] **Instabilité des arcanes** (Rang 1) — talent, sort n° 15058
+- [ ] **Instabilité des arcanes** (Rang 2) — talent, sort n° 15059
+- [ ] **Instabilité des arcanes** (Rang 3) — talent, sort n° 15060
+- [ ] **Méditation des arcanes** (Rang 1) — talent, sort n° 18462
+- [ ] **Méditation des arcanes** (Rang 2) — talent, sort n° 18463
+- [ ] **Méditation des arcanes** (Rang 3) — talent, sort n° 18464
+- [ ] **Robustesse des arcanes** (Rang 1) — talent, sort n° 28574
+- [ ] **Absorption de magie** (Rang 1) — talent, sort n° 29441
+- [ ] **Absorption de magie** (Rang 2) — talent, sort n° 29444
+- [ ] **Absorption de magie** (Rang 3) — talent, sort n° 29445
+- [ ] **Tourmenter les faibles** (Rang 1) — talent, sort n° 29447
+- [ ] **Transfert amélioré** (Rang 1) — talent, sort n° 31569
+- [ ] **Transfert amélioré** (Rang 2) — talent, sort n° 31570
+- [ ] **Toute-puissance des arcanes** (Rang 1) — talent, sort n° 31571 🔍 MAJ
+- [ ] **Toute-puissance des arcanes** (Rang 2) — talent, sort n° 31572 🔍 MAJ
+- [ ] **Cape prismatique** (Rang 1) — talent, sort n° 31574
+- [ ] **Cape prismatique** (Rang 2) — talent, sort n° 31575
+- [ ] **Renforcement arcanique** (Rang 1) — talent, sort n° 31579 🔍 MAJ
+- [ ] **Renforcement arcanique** (Rang 2) — talent, sort n° 31582 🔍 MAJ
+- [ ] **Renforcement arcanique** (Rang 3) — talent, sort n° 31583 🔍 MAJ
+- [ ] **Maîtrise mentale** (Rang 1) — talent, sort n° 31584
+- [ ] **Maîtrise mentale** (Rang 2) — talent, sort n° 31585
+- [ ] **Maîtrise mentale** (Rang 3) — talent, sort n° 31586
+- [ ] **Puissance des sorts** (Rang 1) — talent, sort n° 35578 🔍 MAJ
+- [ ] **Puissance des sorts** (Rang 2) — talent, sort n° 35581 🔍 MAJ
+- [ ] **Flux arcaniques** (Rang 1) — talent, sort n° 44378
+- [ ] **Flux arcaniques** (Rang 2) — talent, sort n° 44379
+- [ ] **Etudiant de la raison** (Rang 1) — talent, sort n° 44397
+- [ ] **Etudiant de la raison** (Rang 2) — talent, sort n° 44398
+- [ ] **Etudiant de la raison** (Rang 3) — talent, sort n° 44399
+- [ ] **Présence de vent du Néant** (Rang 1) — talent, sort n° 44400
+- [ ] **Présence de vent du Néant** (Rang 2) — talent, sort n° 44402
+- [ ] **Présence de vent du Néant** (Rang 3) — talent, sort n° 44403
+- [ ] **Barrage de projectiles** (Rang 1) — talent, sort n° 44404
+- [ ] **Barrage de projectiles** (Rang 2) — talent, sort n° 54486
+- [ ] **Barrage de projectiles** (Rang 3) — talent, sort n° 54488
+- [ ] **Robustesse des arcanes** (Rang 2) — talent, sort n° 54658
+- [ ] **Robustesse des arcanes** (Rang 3) — talent, sort n° 54659
+- [ ] **Tourmenter les faibles** (Rang 2) — talent, sort n° 55339
+- [ ] **Tourmenter les faibles** (Rang 3) — talent, sort n° 55340
+- [ ] **Métamorphose améliorée** (Rang 1) — talent, sort n° 411003
+- [ ] **Métamorphose améliorée** (Rang 2) — talent, sort n° 411004
+- [ ] **Métamorphose améliorée** (Rang 3) — talent, sort n° 411005
+- [ ] **Contresort amélioré** (Rang 3) — talent, sort n° 811255
+- [ ] **Lamesort** (Rang 1) — talent, sort n° 812575
+- [ ] **Lamesort** (Rang 2) — talent, sort n° 812576
+- [ ] **Lamesort** (Rang 3) — talent, sort n° 812577
+- [ ] **Subtilité des arcanes** (Rang 3) — talent, sort n° 812592 🔍 MAJ
+- [ ] **Vague de puissance** (Rang 1) — talent, sort n° 828574
+- [ ] **Vague de puissance** (Rang 2) — talent, sort n° 828575
+- [ ] **Vague de puissance** (Rang 3) — talent, sort n° 828576
+- [ ] **Transfert amélioré** (Rang 3) — talent, sort n° 831569
+- [ ] **Puissance des sorts** (Rang 3) — talent, sort n° 835581 🔍 MAJ
+- [ ] **Puissance des sorts** (Rang 4) — talent, sort n° 835582 🔍 MAJ
+- [ ] **Puissance des sorts** (Rang 5) — talent, sort n° 835583 🔍 MAJ
+- [ ] **Flux arcaniques** (Rang 3) — talent, sort n° 844378
+- [ ] **Absorption de l'incantateur** (Rang 1) — talent, sort n° 844394
+- [ ] **Absorption de l'incantateur** (Rang 2) — talent, sort n° 844395
+- [ ] **Absorption de l'incantateur** (Rang 3) — talent, sort n° 844396
+- [ ] **Pouvoir des arcanes** — capacité de talent, sort n° 12042 🔍 MAJ
+- [ ] **Présence spirituelle** — capacité de talent, sort n° 12043
+- [ ] **Lenteur** — capacité de talent, sort n° 31589 🔍 MAJ
+- [ ] **Barrage des arcanes** (Rang 1) — capacité de talent, sort n° 44425
+- [ ] **Focalisation de la magie** — capacité de talent, sort n° 54646 🔍 MAJ
+
+## Feu
+
+- [ ] **Boule de feu** (Rang 1) — capacité, sort n° 133
+- [ ] **Gardien de feu** (Rang 1) — capacité, sort n° 543 🔍 MAJ
+- [ ] **Choc de flammes** (Rang 1) — capacité, sort n° 2120
+- [ ] **Trait de feu** (Rang 1) — capacité, sort n° 2136
+- [ ] **Brûlure** (Rang 1) — capacité, sort n° 2948
+- [ ] **Armure de la fournaise** (Rang 1) — capacité, sort n° 30482 🔍 MAJ
+- [ ] **Apprivoiser un draconide** — capacité, sort n° 91634 🔍 MAJ
+- [ ] **Météore** (Rang 1) — capacité, sort n° 760040
+- [ ] **Boule de feu améliorée** (Rang 1) — talent, sort n° 11069
+- [ ] **Trait de feu amélioré** (Rang 1) — talent, sort n° 11078
+- [ ] **Trait de feu amélioré** (Rang 2) — talent, sort n° 11080
+- [ ] **Ame ardente** (Rang 1) — talent, sort n° 11083
+- [ ] **Boucliers de la fournaise** (Rang 1) — talent, sort n° 11094
+- [ ] **Brûlure améliorée** (Rang 1) — talent, sort n° 11095 🔍 MAJ
+- [ ] **Jet de flammes** (Rang 1) — talent, sort n° 11100 🔍 MAJ
+- [ ] **Impact** (Rang 1) — talent, sort n° 11103
+- [ ] **Monde en flammes** (Rang 1) — talent, sort n° 11108
+- [ ] **Masse critique** (Rang 1) — talent, sort n° 11115
+- [ ] **Enflammer** (Rang 1) — talent, sort n° 11119
+- [ ] **Enflammer** (Rang 2) — talent, sort n° 11120
+- [ ] **Puissance du feu** (Rang 1) — talent, sort n° 11124
+- [ ] **Masse critique** (Rang 2) — talent, sort n° 11367
+- [ ] **Masse critique** (Rang 3) — talent, sort n° 11368
+- [ ] **Boule de feu améliorée** (Rang 2) — talent, sort n° 12338
+- [ ] **Boule de feu améliorée** (Rang 3) — talent, sort n° 12339
+- [ ] **Monde en flammes** (Rang 2) — talent, sort n° 12349
+- [ ] **Monde en flammes** (Rang 3) — talent, sort n° 12350
+- [ ] **Ame ardente** (Rang 2) — talent, sort n° 12351
+- [ ] **Jet de flammes** (Rang 2) — talent, sort n° 12353 🔍 MAJ
+- [ ] **Impact** (Rang 2) — talent, sort n° 12357
+- [ ] **Impact** (Rang 3) — talent, sort n° 12358
+- [ ] **Puissance du feu** (Rang 2) — talent, sort n° 12378
+- [ ] **Puissance du feu** (Rang 3) — talent, sort n° 12398
+- [ ] **Puissance du feu** (Rang 4) — talent, sort n° 12399
+- [ ] **Puissance du feu** (Rang 5) — talent, sort n° 12400
+- [ ] **Enflammer** (Rang 3) — talent, sort n° 12846
+- [ ] **Enflammer** (Rang 4) — talent, sort n° 12847
+- [ ] **Enflammer** (Rang 5) — talent, sort n° 12848
+- [ ] **Brûlure améliorée** (Rang 2) — talent, sort n° 12872 🔍 MAJ
+- [ ] **Brûlure améliorée** (Rang 3) — talent, sort n° 12873 🔍 MAJ
+- [ ] **Boucliers de la fournaise** (Rang 2) — talent, sort n° 13043
+- [ ] **Incinération** (Rang 1) — talent, sort n° 18459
+- [ ] **Incinération** (Rang 2) — talent, sort n° 18460
+- [ ] **Maître des éléments** (Rang 1) — talent, sort n° 29074
+- [ ] **Maître des éléments** (Rang 2) — talent, sort n° 29075
+- [ ] **Maître des éléments** (Rang 3) — talent, sort n° 29076
+- [ ] **Jouer avec le feu** (Rang 1) — talent, sort n° 31638 🔍 MAJ
+- [ ] **Jouer avec le feu** (Rang 2) — talent, sort n° 31639 🔍 MAJ
+- [ ] **Vitesse flamboyante** (Rang 1) — talent, sort n° 31641
+- [ ] **Vitesse flamboyante** (Rang 2) — talent, sort n° 31642
+- [ ] **Feu surpuissant** (Rang 1) — talent, sort n° 31656
+- [ ] **Feu surpuissant** (Rang 2) — talent, sort n° 31657
+- [ ] **Feu surpuissant** (Rang 3) — talent, sort n° 31658
+- [ ] **Fureur de lave** (Rang 1) — talent, sort n° 31679
+- [ ] **Fureur de lave** (Rang 2) — talent, sort n° 31680
+- [ ] **Pyromane** (Rang 1) — talent, sort n° 34293
+- [ ] **Pyromane** (Rang 2) — talent, sort n° 34295
+- [ ] **Pyromane** (Rang 3) — talent, sort n° 34296
+- [ ] **Boute-flammes** (Rang 1) — talent, sort n° 44442
+- [ ] **Boute-flammes** (Rang 2) — talent, sort n° 44443
+- [ ] **Chaleur continue** (Rang 1) — talent, sort n° 44445 🔍 MAJ
+- [ ] **Chaleur continue** (Rang 2) — talent, sort n° 44446 🔍 MAJ
+- [ ] **Chaleur continue** (Rang 3) — talent, sort n° 44448 🔍 MAJ
+- [ ] **Ardeur épuisante** (Rang 1) — talent, sort n° 44449 🔍 MAJ
+- [ ] **Ardeur épuisante** (Rang 2) — talent, sort n° 44469 🔍 MAJ
+- [ ] **Ardeur épuisante** (Rang 3) — talent, sort n° 44470 🔍 MAJ
+- [ ] **Ardeur épuisante** (Rang 4) — talent, sort n° 44471 🔍 MAJ
+- [ ] **Ardeur épuisante** (Rang 5) — talent, sort n° 44472 🔍 MAJ
+- [ ] **Incinération** (Rang 3) — talent, sort n° 54734
+- [ ] **Détermination brûlante** (Rang 1) — talent, sort n° 54747
+- [ ] **Détermination brûlante** (Rang 2) — talent, sort n° 54749
+- [ ] **Revanche ardente** (Rang 1) — talent, sort n° 64353
+- [ ] **Revanche ardente** (Rang 2) — talent, sort n° 64357
+- [ ] **Savoir draconique** (Rang 1) — talent, sort n° 435691
+- [ ] **Savoir draconique** (Rang 2) — talent, sort n° 435692
+- [ ] **Savoir draconique** (Rang 3) — talent, sort n° 435693
+- [ ] **Ame ardente** (Rang 3) — talent, sort n° 812351
+- [ ] **Jet de flammes** (Rang 3) — talent, sort n° 812352 🔍 MAJ
+- [ ] **Vitesse flamboyante** (Rang 3) — talent, sort n° 831642 🔍 MAJ
+- [ ] **Boute-flammes** (Rang 3) — talent, sort n° 844443
+- [ ] **Détermination brûlante** (Rang 3) — talent, sort n° 854747 🔍 MAJ
+- [ ] **Vague explosive** (Rang 1) — capacité de talent, sort n° 11113
+- [ ] **Combustion** — capacité de talent, sort n° 11129
+- [ ] **Explosion pyrotechnique** (Rang 1) — capacité de talent, sort n° 11366
+- [ ] **Souffle du dragon** (Rang 1) — capacité de talent, sort n° 31661
+- [ ] **Bombe vivante** (Rang 1) — capacité de talent, sort n° 44457
+
+## Givre
+
+- [ ] **Blizzard** (Rang 1) — capacité, sort n° 10
+- [ ] **Eclair de givre** (Rang 1) — capacité, sort n° 116
+- [ ] **Cône de froid** (Rang 1) — capacité, sort n° 120
+- [ ] **Nova de givre** (Rang 1) — capacité, sort n° 122 🔍 MAJ
+- [ ] **Armure de givre** (Rang 1) — capacité, sort n° 168 🔍 MAJ
+- [ ] **Gardien de givre** (Rang 1) — capacité, sort n° 6143 🔍 MAJ
+- [ ] **Javelot de glace** (Rang 1) — capacité, sort n° 30455
+- [ ] **Eclair de givrefeu** (Rang 1) — capacité, sort n° 44614
+- [ ] **Bloc de glace** — capacité, sort n° 45438 🔍 MAJ
+- [ ] **Orbe gelé** (Rang 1) — capacité, sort n° 760014
+- [ ] **Anneau de givre** — capacité, sort n° 954854
+- [ ] **Eclair de givre amélioré** (Rang 1) — talent, sort n° 11070
+- [ ] **Morsure de givre** (Rang 1) — talent, sort n° 11071
+- [ ] **Glace perçante** (Rang 1) — talent, sort n° 11151
+- [ ] **Canalisation du givre** (Rang 1) — talent, sort n° 11160
+- [ ] **Fracasser** (Rang 1) — talent, sort n° 11170
+- [ ] **Gel prolongé** (Rang 1) — talent, sort n° 11175
+- [ ] **Froid hivernal** (Rang 1) — talent, sort n° 11180 🔍 MAJ
+- [ ] **Blizzard amélioré** (Rang 1) — talent, sort n° 11185
+- [ ] **Protection contre le Givre** (Rang 1) — talent, sort n° 11189
+- [ ] **Cône de froid amélioré** (Rang 1) — talent, sort n° 11190
+- [ ] **Eclats de glace** (Rang 1) — talent, sort n° 11207 🔍 MAJ
+- [ ] **Eclair de givre amélioré** (Rang 2) — talent, sort n° 12473
+- [ ] **Blizzard amélioré** (Rang 2) — talent, sort n° 12487
+- [ ] **Blizzard amélioré** (Rang 3) — talent, sort n° 12488
+- [ ] **Cône de froid amélioré** (Rang 2) — talent, sort n° 12489
+- [ ] **Cône de froid amélioré** (Rang 3) — talent, sort n° 12490
+- [ ] **Morsure de givre** (Rang 2) — talent, sort n° 12496
+- [ ] **Morsure de givre** (Rang 3) — talent, sort n° 12497
+- [ ] **Canalisation du givre** (Rang 2) — talent, sort n° 12518
+- [ ] **Canalisation du givre** (Rang 3) — talent, sort n° 12519
+- [ ] **Gel prolongé** (Rang 2) — talent, sort n° 12569
+- [ ] **Gel prolongé** (Rang 3) — talent, sort n° 12571
+- [ ] **Eclats de glace** (Rang 2) — talent, sort n° 12672 🔍 MAJ
+- [ ] **Glace perçante** (Rang 2) — talent, sort n° 12952
+- [ ] **Glace perçante** (Rang 3) — talent, sort n° 12953
+- [ ] **Fracasser** (Rang 2) — talent, sort n° 12982
+- [ ] **Fracasser** (Rang 3) — talent, sort n° 12983
+- [ ] **Eclats de glace** (Rang 3) — talent, sort n° 15047 🔍 MAJ
+- [ ] **Allonge arctique** (Rang 1) — talent, sort n° 16757 🔍 MAJ
+- [ ] **Allonge arctique** (Rang 2) — talent, sort n° 16758 🔍 MAJ
+- [ ] **Eclair de givre amélioré** (Rang 3) — talent, sort n° 16763
+- [ ] **Protection contre le Givre** (Rang 2) — talent, sort n° 28332
+- [ ] **Froid hivernal** (Rang 2) — talent, sort n° 28592 🔍 MAJ
+- [ ] **Froid hivernal** (Rang 3) — talent, sort n° 28593 🔍 MAJ
+- [ ] **Précision** (Rang 1) — talent, sort n° 29438
+- [ ] **Précision** (Rang 2) — talent, sort n° 29439
+- [ ] **Précision** (Rang 3) — talent, sort n° 29440
+- [ ] **Coeur de gel** (Rang 1) — talent, sort n° 31667
+- [ ] **Coeur de gel** (Rang 2) — talent, sort n° 31668
+- [ ] **Coeur de gel** (Rang 3) — talent, sort n° 31669
+- [ ] **Iceberg** (Rang 1) — talent, sort n° 31670
+- [ ] **Iceberg** (Rang 2) — talent, sort n° 31672
+- [ ] **Vents arctiques** (Rang 1) — talent, sort n° 31674
+- [ ] **Vents arctiques** (Rang 2) — talent, sort n° 31675
+- [ ] **Vents arctiques** (Rang 3) — talent, sort n° 31676
+- [ ] **Éclair de givre surpuissant** (Rang 1) — talent, sort n° 31682
+- [ ] **Éclair de givre surpuissant** (Rang 2) — talent, sort n° 31683
+- [ ] **Éclair de givre surpuissant** (Rang 3) — talent, sort n° 31684
+- [ ] **Doigts de givre** (Rang 1) — talent, sort n° 44543 🔍 MAJ
+- [ ] **Doigts de givre** (Rang 2) — talent, sort n° 44545 🔍 MAJ
+- [ ] **Gel mental** (Rang 1) — talent, sort n° 44546
+- [ ] **Gel mental** (Rang 2) — talent, sort n° 44548
+- [ ] **Gel mental** (Rang 3) — talent, sort n° 44549
+- [ ] **Hiver persistant** (Rang 1) — talent, sort n° 44557 🔍 MAJ
+- [ ] **Hiver persistant** (Rang 2) — talent, sort n° 44560 🔍 MAJ
+- [ ] **Hiver persistant** (Rang 3) — talent, sort n° 44561 🔍 MAJ
+- [ ] **Transi jusqu'aux os** (Rang 1) — talent, sort n° 44566
+- [ ] **Transi jusqu'aux os** (Rang 2) — talent, sort n° 44567
+- [ ] **Transi jusqu'aux os** (Rang 3) — talent, sort n° 44568
+- [ ] **Barrière brisée** (Rang 1) — talent, sort n° 44745
+- [ ] **Barrière brisée** (Rang 2) — talent, sort n° 54787
+- [ ] **Froid comme la glace** (Rang 1) — talent, sort n° 55091
+- [ ] **Froid comme la glace** (Rang 2) — talent, sort n° 55092
+- [ ] **Iceberg** (Rang 3) — talent, sort n° 55094
+- [ ] **Eclats de glace** (Rang 4) — talent, sort n° 815048 🔍 MAJ
+- [ ] **Eclats de glace** (Rang 5) — talent, sort n° 815049 🔍 MAJ
+- [ ] **Allonge arctique** (Rang 3) — talent, sort n° 816758 🔍 MAJ
+- [ ] **Barrière brisée** (Rang 3) — talent, sort n° 854787
+- [ ] **Barrière de glace** (Rang 1) — capacité de talent, sort n° 11426
+- [ ] **Morsure du froid** — capacité de talent, sort n° 11958
+- [ ] **Veines glaciales** — capacité de talent, sort n° 12472 🔍 MAJ
+- [ ] **Invocation d'un élémentaire d'eau** — capacité de talent, sort n° 31687 🔀 talents
+- [ ] **Congélation** (Rang 1) — capacité de talent, sort n° 44572

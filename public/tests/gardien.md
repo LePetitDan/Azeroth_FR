@@ -1,0 +1,204 @@
+# Fiche de test : Gardien
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Gladiateur
+
+- [ ] **Gloire** (Spécialisation) — capacité, sort n° 92106
+- [ ] **Vocation du fantassin** (Passif de spécialisation) — capacité, sort n° 500049
+- [ ] **Gloire** (Passif de spécialisation) — capacité, sort n° 500050
+- [ ] **Tempo** (Passif de spécialisation) — capacité, sort n° 500051
+- [ ] **Frappe motivante** — capacité, sort n° 500174
+- [ ] **Adopter la posture optimale** — capacité, sort n° 500344
+- [ ] **Filets légers** — capacité, sort n° 704150
+- [ ] **Faveur** (Spécialisation) — capacité, sort n° 704322
+- [ ] **Inarrêtable** (Passif) — capacité, sort n° 704513
+- [ ] **Combat rapproché** (Passif) — capacité, sort n° 704514
+- [ ] **Entraînement à la hache** (Rang 1) — capacité, sort n° 704515
+- [ ] **Aucun geste inutile** (Passif) — capacité, sort n° 704516
+- [ ] **Chant d'acier À REFAIRE** — capacité, sort n° 704532 🔀 talents
+- [ ] **Pulvérisation** (Rang 1) — capacité, sort n° 800311
+- [ ] **Étendard de vaillance** (Dégâts de rang 1) — capacité, sort n° 800315
+- [ ] **Représailles** (Rang 1) — capacité, sort n° 800316
+- [ ] **Presser l'attaque** — capacité, sort n° 801219 🔍 MAJ
+- [ ] **Ivresse de la bataille** (Rang 1) — capacité, sort n° 802197
+- [ ] **Faire fi des coups** — capacité, sort n° 802198
+- [ ] **Posture offensive** — capacité, sort n° 802282
+- [ ] **Bélier** (Rang 1) — capacité, sort n° 802284
+- [ ] **Frappe du centurion** (Rang 1) — capacité, sort n° 802286
+- [ ] **Seigneur de l'arène** (Passif) — capacité, sort n° 802290 🔀 talents
+- [ ] **Achevez-les !** — capacité, sort n° 802292
+- [ ] **Posture défensive** — capacité, sort n° 802293
+- [ ] **Avantage décisif** (Passif) — capacité, sort n° 802295
+- [ ] **Combattant de la fosse** (Passif) — capacité, sort n° 802296
+- [ ] **Entraînement à l'épée** (Rang 1) — capacité, sort n° 802297
+- [ ] **Combat tactique** (Obsolète) — capacité, sort n° 802298
+- [ ] **Entraînement aux armes d'hast** (Rang 1) — capacité, sort n° 802299
+- [ ] **Pas d'échappatoire** (Passif) — capacité, sort n° 802300
+- [ ] **Lancer de filet** — capacité, sort n° 802304
+- [ ] **Devoir** — capacité, sort n° 802305
+- [ ] **Poses de combat** — capacité, sort n° 804896
+- [ ] **Large balayage** (Rang 1) — capacité, sort n° 805150
+- [ ] **Passif de réinitialisation de Verdict final** (Passif) — capacité, sort n° 805152
+- [ ] **Brise-lignes** — capacité, sort n° 806220
+- [ ] **Un seul vrai champion** (Passif) — talent, sort n° 300531
+- [ ] **Réflexes vigilants** (Rang 2) — talent, sort n° 300532
+- [ ] **Ouverture de partie** (Passif) — talent, sort n° 300533
+- [ ] **Riposte d'acier** (Passif) — talent, sort n° 300534
+- [ ] **Frappe motivante améliorée** — talent, sort n° 300535
+- [ ] **Ruée du rempart** (Passif) — talent, sort n° 300536
+- [ ] **Puissance** (Rang 1) — talent, sort n° 300538
+- [ ] **Vétéran de la Troisième guerre** (Passif) — talent, sort n° 300540
+- [ ] **Maîtrise des armes à une main** (Passif) — talent, sort n° 300541
+- [ ] **Tenez la ligne !** (Passif) — talent, sort n° 300542
+- [ ] **Faites place ! Me voilà.** (Passif) — talent, sort n° 300543 🔀 talents
+- [ ] **Chainwhip Passive SLS** (Passif) — talent, sort n° 300544
+- [ ] **D'une autre trempe** (Passif) — talent, sort n° 300545
+
+## Inspiration
+
+- [ ] **Armes d'hast** — capacité, sort n° 200
+- [ ] **Epées à deux mains** — capacité, sort n° 202
+- [ ] **Armure en plaques** — capacité, sort n° 750
+- [ ] **Parade** (Rang 1) — capacité, sort n° 3124
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Tempo** (Spécialisation) — capacité, sort n° 92107
+- [ ] **Avancée** (Rang 1) — capacité, sort n° 500170
+- [ ] **Bannière de célérité** — capacité, sort n° 500259
+- [ ] **Étendard de récupération** — capacité, sort n° 500260
+- [ ] **Bannière de conquête** — capacité, sort n° 500261
+- [ ] **Étendard de ralliement** — capacité, sort n° 500263
+- [ ] **Bouclier du déni** (Rang 1) — capacité, sort n° 704159
+- [ ] **Voix d'ange** — capacité, sort n° 704420
+- [ ] **Mener la marche** (Rang 1) — capacité, sort n° 704423
+- [ ] **Tambours de guerre** (Passif) — capacité, sort n° 704524
+- [ ] **Dans la mêlée** (Passif) — capacité, sort n° 704525
+- [ ] **Manuscrit du barde** (Passif) — capacité, sort n° 704526
+- [ ] **Ménestrel** (Passif) — capacité, sort n° 704533
+- [ ] **Commandant de la Légion** (Passif) — capacité, sort n° 704535
+- [ ] **Échos de guerre** (Passif) — capacité, sort n° 704539
+- [ ] **Formation en tour** — capacité, sort n° 800317
+- [ ] **Aboyer des ordres** — capacité, sort n° 800318
+- [ ] **Seigneur des bannières** — capacité, sort n° 800322
+- [ ] **Ballade du tueur de dragons** (Rang 1) — capacité, sort n° 801772
+- [ ] **Marche du héros** — capacité, sort n° 801774 🔍 MAJ
+- [ ] **Ballade du conquérant** (Rang 1) — capacité, sort n° 801776
+- [ ] **Entrée grandiose** — capacité, sort n° 802870
+- [ ] **Chant de bataille** — capacité, sort n° 803956 🔍 MAJ
+- [ ] **Exploits d'honneur** (Rang 1) — capacité, sort n° 803959
+- [ ] **Exploits de gloire** (Rang 1) — capacité, sort n° 803960
+- [ ] **Discours inspirant** — capacité, sort n° 803961 🔀 talents
+- [ ] **Libération** — capacité, sort n° 803963
+- [ ] **Décret du héros** (Rang 1) — capacité, sort n° 803964 🔍 MAJ
+- [ ] **Frisson du combat** — capacité, sort n° 803966 🔀 talents
+- [ ] **Combat élégant** (Passif) — capacité, sort n° 804047
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Actes héroïques** (Passif) — capacité, sort n° 804661
+- [ ] **Charge de cavalerie** — capacité, sort n° 804691
+- [ ] **Appel aux armes** — capacité, sort n° 804723
+- [ ] **Passif du gardien - Pousser l'attaque** (Caché) — capacité, sort n° 806063
+- [ ] **Ambition** (Passif) — capacité, sort n° 806132
+- [ ] **Porte-étendard** (Passif) — capacité, sort n° 806134
+- [ ] **Décret du soldat** — capacité, sort n° 806136 🔍 MAJ
+- [ ] **Décret du lanceur de sorts** — capacité, sort n° 806138
+- [ ] **Barde de bataille** (Passif) — capacité, sort n° 806140
+- [ ] **Tenez bon !** (Passif) — capacité, sort n° 806142
+- [ ] **Joueur de flûte** (Passif) — talent, sort n° 705350
+- [ ] **Manuscrit du porteur de guerre** (Passif) — talent, sort n° 705351
+- [ ] **Présence inspirante** — talent, sort n° 705352
+- [ ] **Présence du général** (Obsolète) — talent, sort n° 705353
+- [ ] **Arrêté royal** (Passif) — talent, sort n° 705354
+- [ ] **Arrêté royal** (OBSOLÈTE) — talent, sort n° 705355
+- [ ] **Voix puissante** (Passif) — talent, sort n° 705356
+- [ ] **Voix puissante** — talent, sort n° 705357
+- [ ] **Porte-étendard** (Rang 1) — talent, sort n° 705358
+- [ ] **Porte-étendard** (Rang 1) — talent, sort n° 705359
+- [ ] **Exploits de Force améliorés** (Rang 1) — talent, sort n° 705360
+- [ ] **Le récit d'un héros** (Rang 1) — talent, sort n° 705361
+- [ ] **Tenez-vous droit, marchez fort** (Passif) — talent, sort n° 705362
+
+## Protection
+
+- [ ] **Vocation du fantassin** (Spécialisation) — capacité, sort n° 92105
+- [ ] **Lever le bouclier** — capacité, sort n° 500168
+- [ ] **Défi du bouclier** — capacité, sort n° 500257
+- [ ] **Verdict final** — capacité, sort n° 500258
+- [ ] **Charge du bastion** — capacité, sort n° 500268
+- [ ] **Position inflexible** — capacité, sort n° 500269
+- [ ] **Inébranlable** (Rang 1) — capacité, sort n° 704413
+- [ ] **Cogneur de foule** (Passif) — capacité, sort n° 704415
+- [ ] **Marteau de la loi** (Rang 1) — capacité, sort n° 704418
+- [ ] **Combattant aguerri** (Passif) — capacité, sort n° 704421
+- [ ] **Se préparer** — capacité, sort n° 800313
+- [ ] **Étendard de vaillance** (Rang 1) — capacité, sort n° 800319
+- [ ] **Récupération** (Passif) — capacité, sort n° 801121
+- [ ] **Posture de riposte** — capacité, sort n° 802188
+- [ ] **Rempart fortifié** — capacité, sort n° 802189
+- [ ] **Bastion** — capacité, sort n° 802283
+- [ ] **Contre les gelés** — capacité, sort n° 803125
+- [ ] **Formation de démolition** (Passif) — capacité, sort n° 803126 🔀 talents
+- [ ] **Expert des armures lourdes** (Passif) — capacité, sort n° 803128
+- [ ] **Coup puissant** (Rang 1) — capacité, sort n° 803129
+- [ ] **Formation en ligne** — capacité, sort n° 803130 🔀 talents
+- [ ] **Marteau des rois** (Rang 1) — capacité, sort n° 803132
+- [ ] **Garde du roi** (Passif) — capacité, sort n° 803134
+- [ ] **Rempart** (Spécialisation) — capacité, sort n° 804046
+- [ ] **Unité de bouclier** (Passif) — capacité, sort n° 804891
+- [ ] **Refus de mourir** (Passif) — capacité, sort n° 804892
+- [ ] **Fendeterre** (Passif) — capacité, sort n° 805155
+- [ ] **Combattant de première ligne** (Passif) — capacité, sort n° 805156
+- [ ] **Armée à lui seul** (Passif) — capacité, sort n° 805157
+- [ ] **Chevalerie** (Passif) — capacité, sort n° 806077
+- [ ] **Gardien de fer** (Rang 1) — talent, sort n° 705364
+- [ ] **Coeur de lion** (Passif) — talent, sort n° 705365
+- [ ] **Vaillant** (Rang 1) — talent, sort n° 705367
+- [ ] **Vaillant** (Rang 1) — talent, sort n° 705368
+- [ ] **Conviction du chevalier** (Rang 1) — talent, sort n° 705369
+- [ ] **Mur protecteur** (Rang 1) — talent, sort n° 705370
+- [ ] **Vertu** (Passif) — talent, sort n° 705372
+- [ ] **Lanceur de bouclier** (Passif) — talent, sort n° 705373
+- [ ] **Marteau d'honneur** (Rang 1) — talent, sort n° 705374
+- [ ] **Marteau d'honneur** (Rang 2) — talent, sort n° 705375
+- [ ] **Appel du fantassin** (Passif) — talent, sort n° 705376
+- [ ] **Maintien honorable** (Passif) — talent, sort n° 705377
+- [ ] **Avantage du chevalier** (Passif) — talent, sort n° 705378
+- [ ] **Abattez le marteau !** (Passif) — talent, sort n° 705379
+- [ ] **Abattez le marteau !** — talent, sort n° 705380
+
+## Classe
+
+- [ ] **Main du roi** (Passif) — capacité, sort n° 705313
+- [ ] **Maître d'armes** (Passif) — capacité, sort n° 705315
+- [ ] **Énergique** (Passif) — capacité, sort n° 705316
+- [ ] **Plaquage fin** (Passif) — capacité, sort n° 705317
+- [ ] **Commandant de terrain** (Passif) — capacité, sort n° 705320
+- [ ] **Héroïsme** (Passif) — capacité, sort n° 705323
+- [ ] **Vaillance** (Passif) — capacité, sort n° 705324
+- [ ] **Faiseur de rochers** (Passif) — capacité, sort n° 705327
+- [ ] **Arrête-guerre** (Passif) — capacité, sort n° 705330
+- [ ] **Barrière de fer** (Spécialisation) — capacité, sort n° 705331
+- [ ] **Prudent au combat** (Passif) — capacité, sort n° 705332
+- [ ] **Brise-plaques** (Passif) — capacité, sort n° 705333
+- [ ] **Briseur d'os** (Passif) — capacité, sort n° 705335
+- [ ] **Entraînement aux masses** (Rang 1) — capacité, sort n° 705336
+- [ ] **Stratège de combat** (Passif) — capacité, sort n° 705337
+- [ ] **Rétiaire** (Passif) — capacité, sort n° 705338
+- [ ] **Frappe calculée** (Passif) — capacité, sort n° 705341
+- [ ] **Implacable** (Passif) — capacité, sort n° 705343 🔀 talents
+- [ ] **Puissance de l'avant-garde** (Passif) — capacité, sort n° 705345
+- [ ] **Impact puissant** (Passif) — capacité, sort n° 705346 🔍 MAJ
+- [ ] **Egide** (Passif) — capacité, sort n° 705348
+- [ ] **Manœuvres de champ de bataille** (Passif) — capacité, sort n° 705349
+- [ ] **Onde sonore** (Passif) — capacité de talent, sort n° 705318
+- [ ] **Bannières souples** (Rang 2) — capacité de talent, sort n° 705319
+- [ ] **Choc brutal** (Passif) — capacité de talent, sort n° 705321
+- [ ] **Bélier-hamster** (Passif) — capacité de talent, sort n° 705322
+- [ ] **Tactiques déloyales** (Rang 1) — capacité de talent, sort n° 705325
+- [ ] **Tactiques déloyales** (Rang 2) — capacité de talent, sort n° 705326
+- [ ] **Force fracassante** (Rang 1) — capacité de talent, sort n° 705328
+- [ ] **Force fracassante** (Rang 1) — capacité de talent, sort n° 705329
+- [ ] **Endurance** (Rang 1) — capacité de talent, sort n° 705339
+- [ ] **Endurance** (Rang 2) — capacité de talent, sort n° 705340
