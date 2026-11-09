@@ -820,13 +820,32 @@ class Importeur:
                     if c and c[0].isdigit():
                         appris.setdefault(c[0], c[1] if len(c) > 1 else 'vu en jeu')
         deja = {k[1] for k in self.lignes if k[0] == 'sort'}
+        # 0.9.5 (exigence de Dan du 09/11 : tous les sorts des classes en français) : sorts de l'avancement du personnage
+        # du client (CharacterAdvancementData.json, collecte avancement_sorts.py), classes de CoA (pas « Reborn… »
+        # d'Ascension) : capacités, talents et leurs rangs ; ceux qui manquaient (1 254) entrent ici
+        p_av = os.path.join(K.COLLECTE, 'client', 'avancement_sorts.tsv')
+        n_av = 0
+        if os.path.exists(p_av):
+            with open(p_av, encoding='utf-8') as f:
+                for ligne in list(f)[1:]:
+                    c = ligne.rstrip('\n').split('\t')
+                    if len(c) < 6 or c[1].startswith('Reborn') or c[1] in ('', 'None'):
+                        continue
+                    if c[0] not in deja and (c[0], 'Name') in self.coa_sorts and c[0] not in appris:
+                        appris[c[0]] = 'avancement du personnage de CoA : %s de la classe %s (arbre %s, rang %s)' % (
+                            {'Ability': 'capacité', 'Talent': 'talent', 'TalentAbility': 'capacité de talent'}.get(
+                                c[2], c[2]), c[1], c[3] or '-', c[5])
+                        n_av += 1
+        self.cr['client_sorts_avancement'] = n_av
         # 0.9.4 (essai 8, fenêtre des talents de CoA) : sorts que le client insère dans la bulle d'un autre sort (balise
         # « @s:N:0@ » d'une description : séparateur, icône, nom puis description du sort N, « Brine » sous « Tempest
         # Sovereign ») et sorts d'exemple des spécialisations (rang « Specialization » ou « Spec Passive » :
         # « Air Elemental ») ; les sorts cités par ceux-là aussi, de proche en proche
         connus = deja | set(obj) | set(ep) | set(appris)
         RE_CITE = re.compile(r'@s:(\d+):')
-        a_voir, cites = list(connus), {}
+        # (ordre fixe : un ensemble se parcourt dans un ordre qui change d'une exécution à l'autre, la note « cité dans
+        # la bulle du sort n° … » changeait avec lui)
+        a_voir, cites = sorted(connus, key=lambda x: (len(x), x)), {}
         for (i, champ), en in self.coa_sorts.items():
             if champ == 'Rank' and en in ('Specialization', 'Spec Passive') and i not in connus:
                 cites[i] = 'sort de spécialisation (rang « %s »)' % en
@@ -1989,6 +2008,81 @@ def _harmoniser_statique(self):
 
 Importeur.harmoniser_statique = _harmoniser_statique
 
+RE_EXT = re.compile(r'(@ext:)(\s*)(.*?)(\s*)(:ext@)', re.S)
+
+
+def _textes_ext(self):
+    """0.9.5 (essai 8, captures du 09/11) : texte détaillé des sorts (« @ext: Can only have 1 Aegis up at a time.:ext@ »,
+    montré quand le joueur maintient MAJ) resté en anglais dans le français : remplacé par sa traduction
+    (glossaire/textes_ext.tsv, outils/textes_ext.py). Seul un texte resté identique à l'anglais est remplacé."""
+    p = os.path.join(K.RACINE, 'glossaire', 'textes_ext.tsv')
+    if not os.path.exists(p):
+        return
+    table = {}
+    with open(p, encoding='utf-8') as f:
+        for ligne in list(f)[1:]:
+            c = ligne.rstrip('\n').split('\t')
+            if len(c) >= 2 and c[1]:
+                table[K.desechapper(c[0])] = K.desechapper(c[1])
+    n = Counter()
+    for l in self.lignes.values():
+        if '@ext:' not in l[K.I_EN] or '@ext:' not in l[K.I_FR] or l[K.I_ETAT] in ('officiel', 'technique'):
+            continue
+        anglais = {x.group(3) for x in RE_EXT.finditer(l[K.I_EN])}
+
+        def rempl(m):
+            if m.group(3) in anglais and m.group(3) in table:
+                n['blocs'] += 1
+                return m.group(1) + m.group(2) + table[m.group(3)] + m.group(4) + m.group(5)
+            return m.group(0)
+        fr = RE_EXT.sub(rempl, l[K.I_FR])
+        if fr == l[K.I_FR]:
+            continue
+        if self.controle(l[K.I_EN], fr, 'machine' if l[K.I_ETAT] != 'relu' else 'relu', l[K.I_TYPE]):
+            n['refus_controle'] += 1
+            continue
+        l[K.I_FR] = fr
+        n['lignes'] += 1
+    self.cr.update({'textes_ext:' + a: b for a, b in n.items()})
+    K.journal('import : textes détaillés @ext traduits : %s' % dict(n))
+
+
+Importeur.textes_ext = _textes_ext
+
+
+# libellés internes de CoA, seuls dans le champ (rang « UNUSED », nom « NYI », description « PLACEHOLDER »…)
+BOUCHE_TROUS_SORTS = {'Placeholder Tooltip', 'Placeholder', 'placeholder', 'PLACEHOLDER', 'UNUSED', 'Unused', 'NYI',
+                      'WIP', 'DEPRECATED', 'DEPRECTAED', 'null', 'TBD', 'TODO'}
+
+
+def _bouche_trous_sorts(self):
+    """0.9.5 (audit des sorts) : texte d'aura laissé vide par CoA (« Placeholder Tooltip », 47 talents) : technique,
+    rien à traduire (l'aura du talent n'a pas de bulle propre)."""
+    n = 0
+    for l in self.lignes.values():
+        if l[K.I_TYPE] == 'sort' and l[K.I_EN].strip() in BOUCHE_TROUS_SORTS and l[K.I_ETAT] in ('a_traduire', 'a_revoir'):
+            l[K.I_ETAT], l[K.I_FR] = 'technique', ''
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'technique=bouche-trou de CoA (« Placeholder Tooltip »)')
+            n += 1
+    # textes de sorts que l'atelier a jugés à garder en anglais (doutes résolus, 0.9.5) : libellés internes de CoA
+    # (« SLS », « WIP », « PassiveSLS », journal de débogage) et noms identiques en français (« Absolution »)
+    pg = os.path.join(K.RACINE, 'glossaire', 'sorts_garder.tsv')
+    g = 0
+    if os.path.exists(pg):
+        with open(pg, encoding='utf-8') as f:
+            for c in (x.rstrip('\n').split('\t') for x in list(f)[1:]):
+                l = self.lignes.get(tuple(c[:4])) if len(c) >= 6 else None
+                if l and K.empreinte(l[K.I_EN]) == c[4] and l[K.I_ETAT] in ('a_traduire', 'a_revoir'):
+                    l[K.I_ETAT], l[K.I_FR] = 'technique', ''
+                    l[K.I_NOTE] = joindre(l[K.I_NOTE], 'technique=à garder en anglais (atelier, 0.9.5) : '
+                                          + K.desechapper(c[5]))
+                    g += 1
+    self.cr['sorts_bouche_trous'] = n
+    self.cr['sorts_garder'] = g
+
+
+Importeur.bouche_trous_sorts = _bouche_trous_sorts
+
 
 def main():
     ecrire = '--sans-ecrire' not in sys.argv
@@ -2023,6 +2117,8 @@ def main():
     imp.voie_ascension()              # 0.9.4 : décision 34
     imp.prems_niveau()                # 0.9.4 : décision 24 (modèle de niveau)
     imp.harmoniser_statique()         # 0.9.4
+    imp.textes_ext()                  # 0.9.5
+    imp.bouche_trous_sorts()          # 0.9.5
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)
 

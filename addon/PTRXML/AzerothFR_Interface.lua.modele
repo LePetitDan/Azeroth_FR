@@ -7,7 +7,8 @@ local ok, err = pcall(function()
 @DONNEES@
     }
     local G = _G
-    local remplaces, ignores = 0, 0
+    local remplaces, ignores, absents = 0, 0, 0
+    local differents = {}
     for i = 1, #D, 3 do
         local cle, en, fr = D[i], D[i + 1], D[i + 2]
         if G[cle] == en then
@@ -15,9 +16,15 @@ local ok, err = pcall(function()
             remplaces = remplaces + 1
         else
             ignores = ignores + 1
+            if G[cle] == nil then absents = absents + 1
+            elseif #differents < 20 then differents[#differents + 1] = cle end
         end
     end
-    AzerothFR_Interface = { version = "@VERSION@", remplaces = remplaces, ignores = ignores }
+    -- (0.9.5) D reste lisible par l'add-on (AzerothFR_Interface.D : cle, anglais, francais) : un texte d'interface
+    -- copie par un module de CoA AVANT ce fichier, ou pose quand la cle n'existait pas encore (« Sawmill » et sa
+    -- description, Ascension_POI), se retrouve ainsi a l'affichage par son anglais exact.
+    AzerothFR_Interface = { version = "@VERSION@", remplaces = remplaces, ignores = ignores, absents = absents,
+        differents = differents, D = D }
 end)
 if not ok then
     AzerothFR_Interface = { version = "@VERSION@", erreur = tostring(err) }
@@ -287,6 +294,14 @@ local ok2, err2 = pcall(function()
         local cadre = _G.CharacterSelectCharacterFrame
         if type(cadre) ~= "table" or not cadre.List then return end
         Cartes(cadre.List, 0, cs.viewingInactiveList and true or false)
+        -- (0.9.5) bulle du courrier non lu (CharacterSelectMailIndicationButtonMixin:OnEnter : « Unread Mail » ecrit
+        -- en dur) : meme sens que HAVE_MAIL_FROM officiel (« Courrier non lu de : »)
+        local gt = _G.GlueTooltip
+        local l1 = type(gt) == "table" and type(gt.IsShown) == "function" and gt:IsShown() and _G.GlueTooltipTextLeft1
+        if type(l1) == "table" and type(l1.GetText) == "function" and l1:GetText() == "Unread Mail" then
+            l1:SetText("Courrier non lu")
+            n_poses = n_poses + 1
+        end
     end
 
     local cumul = 0

@@ -634,6 +634,23 @@ function DefinirMaitre()
     Declencher("ADDON_LOADED", "Blizzard_TrainerUI")
 end
 
+-- 0.9.5 : audit des sorts des classes (outils/audit_sorts.py) : chaque texte rendu passe par le vrai add-on
+if AUDIT_SORTS then
+    local A = AzerothFR
+    local f = io.open(AUDIT_SORTIE, "w")
+    for _, a in ipairs(AUDIT_SORTS) do
+        local ok, fr = pcall(function()
+            if a.champ == "Name" then return A.NomSort(a.id, a.affiche) end
+            return A.DescriptionSort(a.id, a.affiche)
+        end)
+        fr = ok and fr or nil
+        f:write(a.k, "\t", (fr and fr ~= a.affiche) and "OK" or "KO", "\t", (string.gsub(fr or "", "[\t\r\n]", " ")), "\n")
+    end
+    f:close()
+    print("AUDIT : " .. #AUDIT_SORTS .. " textes passés")
+    os.exit(0)
+end
+
 for _, c in ipairs(CAS_LISTE) do
     resultats.exemples = resultats.exemples + 1
     JOUEUR.sexe = c.sexe or 2

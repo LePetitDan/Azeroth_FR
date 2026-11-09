@@ -1,4 +1,4 @@
-# Essai 8 : add-on 0.9 (retours de l'essai 7, textes propres au client CoA, puis 0.9.1 à 0.9.4 en cours d'essai)
+# Essai 8 : add-on 0.9 (retours de l'essai 7, textes propres au client CoA, puis 0.9.1 à 0.9.5 en cours d'essai)
 
 *07/11/2026. La 0.9 remplace la 0.8 avant l'essai : même installation que l'essai 7, on retire les dossiers `Azeroth_FR…` et `Interface\PTRXML`, et on copie ceux du zip `Azeroth_FR-0.9.0.zip` (22,3 Mo). Claude s'en charge si ton PC est relié, avec ton accord.*
 
@@ -62,13 +62,22 @@ Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des p
 - **fenêtre du personnage** : compétences et leurs catégories (« Dagues », « Compétences d'armes »), réputations, monnaies, titres ;
 - mot-clé « Accès aux instances » ; calendrier « Foire de Sombrelune : fin » ; bulle des pierres de retraite sur la carte ; « Voie de l'Ascension » partout ; avertissement et barre de redémarrage du serveur.
 
+### 0.9.5 : les captures du 09/11 et tous les sorts des classes
+
+*Même installation, zip `Azeroth_FR-0.9.5.zip` (25,9 Mo, 83 fichiers), avec ton accord, jeu fermé.*
+
+- **tous les sorts des 32 classes** (capacités, talents, passifs) vérifiés un à un hors jeu : 6 925 sorts, 1 seul défaut restant (un texte coupé par CoA lui-même) ; rapport `docs/2026-11-09_Rapport_Audit-sorts.md` ;
+- **texte détaillé** (MAJ enfoncée) en français, et « Maintenez MAJ pour plus d'informations » ;
+- sorts des autres classes (« Breuvage du loa ») ; hauts faits repassés en anglais (« Runes of Ascension ») retraduits ;
+- écran de sélection : « Courrier non lu » ; message d'ajustement du niveau des créatures ; description du point « Sawmill ».
+
 **Pour comprendre ce qui reste en anglais** : `/azfr bulle`, tapée pendant qu'une infobulle est affichée, écrit dans la discussion chaque ligne telle que l'add-on la voit.
 
 ## Ce que tu peux regarder (15 minutes)
 
 | # | Où | Ce qu'on doit voir |
 |---|---|---|
-| 1 | `/azfr version` | « version 0.9.0 » (après les mises à jour : « 0.9.2 », « 0.9.3 », puis « 0.9.4 ») |
+| 1 | `/azfr version` | « version 0.9.0 » (après les mises à jour : « 0.9.2 », « 0.9.3 », « 0.9.4 », puis « 0.9.5 ») |
 | 2 | Maître de classe (Livre de l'Ascension), puis maître de monte | Noms des sorts, « (Rang 1) », descriptions en français |
 | 3 | Journal des quêtes : « Enquête sur la crête aux échos » | Description en français, avec ton nom |
 | 4 | Ouvrir un sac ; survoler un loup de quête, un arbre à couper, un point de la minicarte | En français |
@@ -86,6 +95,11 @@ Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des p
 | 16 | **0.9.4** : hauts faits (Y), Mode Cauchemar et une catégorie de classe | Noms cohérents (« Féticheur », « Prem's ») ; barres du résumé en français |
 | 17 | **0.9.4** : fenêtre des talents de CoA, survol des sorts d'exemple | Blocs des sorts cités en français |
 | 18 | **0.9.4** : calendrier ; carte du monde, survol d'une pierre de retraite | « Foire de Sombrelune : fin » ; nom de la pierre en français |
+| 19 | **0.9.5** : grimoire, survol de chaque sort de ta classe, puis les mêmes **MAJ enfoncée** | Nom, rang, description et texte détaillé en français ; sans MAJ : « Maintenez MAJ pour plus d'informations » ; un mot anglais : capture et `/azfr bulle` |
+| 20 | **0.9.5** : fenêtre des talents de CoA, survol des talents et passifs, et d'un sort d'une autre classe (« Breuvage du loa ») | En français, y compris les sorts insérés sous un talent |
+| 21 | **0.9.5** : un sort de « maîtrise » (Mage, Paladin, Chaman, Démoniste), MAJ enfoncée | Capture : on ne sait pas encore ce que le client montre à la place des « ~ » |
+| 22 | **0.9.5** : écran de sélection, un personnage qui a du courrier : survol de l'icône | « Courrier non lu » |
+| 23 | **0.9.5** : hauts faits (Y), « Runes of Ascension » ; carte, point « Sawmill » | En français |
 
 Si quelque chose ne va pas : `/azfr off` coupe tout.
 
@@ -98,3 +112,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 - **0.9.2** : source 1 553 893 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 142 exemples, 298 vérifications (fenêtre des hauts faits, capitales de la fenêtre des talents, libellés de CoA) ; zip 25,3 Mo.
 - **0.9.3** : source 1 571 714 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; banc **conforme**, 142 exemples, 298 vérifications ; zip 25,6 Mo.
 - **0.9.4** : source 1 574 092 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 150 exemples, 308 vérifications, plus l'écran de sélection joué avec le vrai fichier d'avant-jeu ; zip 25,7 Mo.
+- **0.9.5** : source 1 578 201 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 62 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 154 exemples, 323 vérifications (Breuvage du loa, texte détaillé avec et sans MAJ, ajustement des créatures, « Unread Mail ») ; **audit des sorts** : 6 925 sorts des classes, 16 960 affichages, 1 défaut ; zip 25,9 Mo, 83 fichiers.

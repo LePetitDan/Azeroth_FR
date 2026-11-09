@@ -256,7 +256,9 @@ TOK = re.compile(
 )
 COUL = re.compile(r"\|c[0-9A-Fa-f]{8}")
 ETI_EXT = re.compile(r"@[a-z]{1,4}:[\d:-]+@")     # marqueurs client @s:123:1@ @re:1:0@
-ETI = re.compile(r"@[^@\n]{1,80}@")
+# 0.9.5 : pas le texte détaillé @ext:…:ext@ ni les blocs @ifknown:N:…:ifknown@, qui se traduisent ; ni « @…@ » collé
+# à « @ext: » (« @ext:@All threat … you.@:ext@ » de Hellgate : la normalisation des étiquettes remettait l'anglais)
+ETI = re.compile(r"(?<!@ext:)@(?!ext:|:ext@|if(?:not)?known:)[^@\n]{1,80}@")
 
 
 def jetons(t):
@@ -286,6 +288,8 @@ def codes(t):
     for m in ETI_EXT.findall(t):
         c[m] += 1
     c['@etiquettes'] = len(ETI.findall(t))
+    c['@ext:'] = t.count('@ext:')                     # 0.9.5 : bornes du texte détaillé (montré avec MAJ)
+    c[':ext@'] = t.count(':ext@')
     return +c
 
 

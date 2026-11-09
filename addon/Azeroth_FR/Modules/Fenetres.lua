@@ -287,6 +287,27 @@ end
 -- du sort (GetSpellInfo(self.data.Extra) : « Stone of Retreat: Eastvale Logging Camp »), les autres un libelle
 -- (« Sawmill »). Nom repris par le numero du sort, sinon par le nom (sort, focalisation, zone, donjon).
 -- ----------------------------------------------------------------------------
+-- 0.9.5 : texte d'interface retrouve par son anglais exact (table du paquet PTRXML, un seul francais)
+local interface_fr
+function A.InterfaceFR(en)
+    if type(en) ~= "string" or en == "" then return nil end
+    if not interface_fr then
+        interface_fr = {}
+        local D = type(AzerothFR_Interface) == "table" and AzerothFR_Interface.D
+        if type(D) == "table" then
+            for i = 1, #D, 3 do
+                local e, f = D[i + 1], D[i + 2]
+                if type(e) == "string" and type(f) == "string" then
+                    local x = interface_fr[e]
+                    if x == nil then interface_fr[e] = f elseif x ~= f then interface_fr[e] = false end
+                end
+            end
+        end
+    end
+    local fr = interface_fr[en]
+    return fr or nil
+end
+
 local dans_poi = false
 local function BullePointCoA(bulle)
     if dans_poi or not A.Actif() or type(bulle) ~= "table" or type(bulle.GetOwner) ~= "function" then return end
@@ -299,8 +320,19 @@ local function BullePointCoA(bulle)
     if not t or t == "" or A.DejaEcrit(l1, t) then return end
     local fr = (type(d.Extra) == "number" and A.NomSort and A.NomSort(d.Extra, t))
         or (A.NomSortParNom and A.NomSortParNom(t)) or A.Nom("focalisation", t) or A.Nom("zone", t) or A.Nom("donjon", t)
-    if fr and fr ~= t then
-        A.Ecrire(l1, fr)
+        or A.InterfaceFR(t)
+    local modifie = false
+    if fr and fr ~= t then A.Ecrire(l1, fr); modifie = true end
+    -- 0.9.5 : lignes suivantes (description du point, « Used to mill logs… ») par l'interface
+    for i = 2, bulle:NumLines() do
+        local l = _G[nom .. "TextLeft" .. i]
+        local x = l and l:GetText()
+        if x and x ~= "" and not A.DejaEcrit(l, x) then
+            local f2 = A.InterfaceFR(x)
+            if f2 and f2 ~= x then A.Ecrire(l, f2); modifie = true end
+        end
+    end
+    if modifie then
         if bulle:IsShown() and not A.EstProtege(bulle) then
             dans_poi = true
             pcall(bulle.Show, bulle)

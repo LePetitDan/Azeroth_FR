@@ -1,0 +1,20 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	800335		Description	1a2da0042ee1	Plantez un |cffffffffÉtendard de vaillance|r pendant $d : les ennemis proches situés dans la zone subissent ${($d*1000/$T3)*($m3+0+$AP*0.04)} points de dégâts physiques toutes les $T3 sec et leur vitesse de déplacement est réduite de $800629s1%.\r\n\r\n@ext:1 seul |cffffffffÉtendard|r peut être actif à la fois.:ext@	lot sorts_objets_132
+sort	800378		Description	b46bfbab7a4c	Inflige ${$m1+($PL*1.8-14*1.8)} points de dégâts de Givre à un ennemi et le repousse.\r\n\r\n|cffffffffFocalisation|r : n'a pas de temps de recharge.\r\n\r\n|cffffffffMarée haute|r : augmente la distance de repoussement.	lot sorts_objets_132
+sort	800378		Rank	3426090025e6	Rang 1 Obsolète	lot sorts_objets_132
+sort	800379		Description	a88ea759d41b	Vous créez une vague et la chevauchez vers l'avant sur $r1 mètres maximum.\n\n|cffffffffFocalisation|r : réduit de $800400s1% tous les dégâts que vous subissez pendant $800400d et repousse les ennemis que la vague traverse.	lot sorts_objets_132
+sort	800408		Name	0ebd2de3954d	Retardateur de surchauffe	lot sorts_objets_132
+sort	800488		ToolTip	169101395d7c	Les dégâts directs infligés aux ennemis affectés par un saignement volent ${$800489m1+$800489ppl1+$SP*0.10672+$AP*0.0512} points de vie à la cible sous forme de dégâts d'Ombre.	lot sorts_objets_132
+sort	800521		Description	64e3e0ad93aa	Démonte une tourelle sentinelle, une tourelle Gatling ou un Ferrailleur pour générer 5% de Ferraille et vous octroie un bouclier pendant $800522d qui absorbe des dégâts en fonction de votre Endurance et de votre Agilité.	lot sorts_objets_132
+sort	800521		Name	418d13e427ce	Recyclage	lot sorts_objets_132
+sort	800529		Description	c0d9cc467590	Augmente de $s2% les dégâts d'Ombre infligés, permet d'utiliser les aptitudes de |cffffffffPosture du mousquet|r et active |cffffffffTir automatique|R. \r\n\r\nChanger de posture vous fait perdre une partie de votre Rage.	lot sorts_objets_132
+sort	800529		Name	2dddb7deab34	Posture du mousquet	lot sorts_objets_132
+sort	800529		ToolTip	1d8ce069082b	Permet d'utiliser les aptitudes de Posture du mousquet et active Tir automatique.	lot sorts_objets_132
+sort	800665		Description	78526b93d4fc	Désactive vos attaques automatiques, permet d'utiliser les aptitudes de |cffffffffPosture de l'arbalète|r et vous fait tirer avec deux arbalètes. Les dégâts dépendent de vos armes de mêlée équipées.\r\n\r\nChanger de posture vous fait perdre une partie de votre Rage.	lot sorts_objets_132
+sort	800665		Name	e8a905e88a38	Posture de l'arbalète	lot sorts_objets_132
+sort	800665		ToolTip	23f668f52fed	Permet d'utiliser les aptitudes de Posture de l'arbalète. Les attaques automatiques sont désactivées.	lot sorts_objets_132
+sort	800683		Description	3f93ab0d99be	Transforme votre |cFFFFFFFFFamilier runique|r en |cFFFFFFFFGolem runique|r, lui permettant d'attaquer régulièrement les ennemis.\r\n\r\nLe |cFFFFFFFFGolem runique|r ne s'attarde plus après avoir été déplacé et a $704265h% de chances de déclencher une |cffffffffImpulsion runique|r quand il subit des dégâts.\r\n\r\nLancer |cffffffffExplosion primordiale|r octroie au |cFFFFFFFFGolem runique|r un renforcement selon votre |cFFFFFFFFAccord|r actuel.\r\n@ext:@s:800671:0@@s:704266:0@@s:704267:0@@s:704268:0@:ext@	lot sorts_objets_132
+sort	800683		Name	9b5b286d2151	Golémancie	lot sorts_objets_132
+sort	800683		ToolTip	58e29bc5567d	Peut attaquer normalement. La puissance d'attaque et l'Endurance sont augmentées selon l'Esprit du maître des runes.\n\nGénération de menace augmentée. Peut déclencher une Impulsion runique quand il subit des dégâts.	lot sorts_objets_132
+sort	800723		Description	30aeea258ce7	Inscrit une rune qui alimente vos aptitudes, régénérant $s2% de votre mana maximum, cumulable jusqu'à $800305u fois.\r\n\r\nUtilisable en mouvement.	lot sorts_objets_132
+sort	800723		Name	2daaeacdb834	Inscrire une rune	lot sorts_objets_132

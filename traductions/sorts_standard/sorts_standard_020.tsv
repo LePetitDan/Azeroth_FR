@@ -126,7 +126,6 @@ sort	30468		Description	2ea8638f1908	Dédain-du-Néant absorbe l'énergie du Por
 sort	30472		Description	ff09e031b094	Augmente de $s1% les chances de parer et de bloquer des unités alliées proches pendant $d.	lot sorts_standard_020
 sort	30472		ToolTip	b496992352a6	Chances de bloquer et de parer les attaques augmentées de $s1%.	lot sorts_standard_020
 sort	30478		Description	1aa3656642a7	Inflige les dégâts de l'arme et augmente de $s2 les dégâts physiques subis par un ennemi pendant $d.	lot sorts_standard_020
-sort	30482		Description	f5b3ef2559cf	Inflige ${$34913m1+$34913ppl1} points de dégâts de Feu lorsque vous êtes touché.\r\n\r\nAugmente votre score de coup critique de $s3% de votre Esprit.\r\n\r\nRéduit de $S2% la probabilité que vous subissiez un coup critique.  \r\n\r\nDure $d.\r\n\r\n@ext:Only one type of Mage Armor spell can be active at any time.:ext@ 	lot sorts_standard_020
 sort	30482		ToolTip	9573bff0a772	Inflige ${$34913m1+$34913ppl1} points de dégâts de Feu aux attaquants.  Probabilité de subir un coup critique réduite de $s2%.  Score de coup critique augmenté de ${$w3}% de l'Esprit.	lot sorts_standard_020
 sort	30511		Description	ec2f8388f2cc	Invoque un Abyssal ardent à l'emplacement de la cible. Inflige $s2 points de dégâts de Feu aux ennemis à l'impact.	lot sorts_standard_020
 sort	30522		Description	317f275950d0	Inflige des dégâts d'Ombre toutes les $t1 sec. à tous les ennemis se trouvant à moins de 200 mètres. L'aura est active jusqu'à annulation.	lot sorts_standard_020

@@ -195,8 +195,17 @@ def cmd_recevoir(args):
             for n in sorted(anciennes):
                 f.write(json.dumps(anciennes[n], ensure_ascii=False) + '\n')
         code, refus = integrer(nom)
-        if not refus:
+        # 0.9.5 : textes du lot SANS réponse (réponse coupée : hauts_faits_068, vague 13, 7 lignes pour 301 textes)
+        with open(os.path.join(RACINE, 'work', 'lots', fam, nom + '.jsonl'), encoding='utf-8') as f:
+            tous_n = [json.loads(l)['n'] for l in f if l.startswith('{"n"')]
+        manquants = [n for n in tous_n if n not in anciennes]
+        if not refus and not manquants:
             print('%s (tour %d) : intégré, 0 refus (%d réponses)' % (nom, tour, len(rep)))
+            continue
+        if manquants and tour < RELANCES_MAX:
+            refus = list(refus) + [{'n': n, 'raisons': ['aucune réponse pour ce texte : à traduire']} for n in manquants]
+        elif not refus:
+            print('%s (tour %d) : %d textes toujours sans réponse' % (nom, tour, len(manquants)))
             continue
         if tour >= RELANCES_MAX:
             # derniere chance passee : les refus restants deviennent des doutes
@@ -216,8 +225,9 @@ def cmd_recevoir(args):
             lot = [l for l in f.read().split('\n') if l.strip()]
         voulus = {x['n'] for x in refus}
         extrait = [lot[0]] + [l for l in lot[1:] if l.startswith('{"n"') and json.loads(l)['n'] in voulus]
-        corps = ('Ces textes de ton lot ont été REFUSÉS par le contrôle. Pour chacun : ta réponse, puis la raison. '
-                 'Corrige (ou réponds `doute` si tu ne peux pas). Réponds uniquement par les lignes JSON corrigées.\n\n'
+        corps = ('Ces textes de ton lot ont été REFUSÉS par le contrôle, ou sont restés SANS réponse. Pour chacun : ta '
+                 'réponse (vide s\'il n\'y en a pas eu), puis la raison. Corrige ou traduis (ou réponds `doute` si tu ne '
+                 'peux pas). Réponds uniquement par les lignes JSON, une par texte, toutes.\n\n'
                  + '\n'.join(json.dumps({'n': x['n'], 'ta_reponse': anciennes.get(x['n'], {}).get('fr', ''),
                                          'raisons': x.get('raisons', [])}, ensure_ascii=False) for x in refus)
                  + '\n\nLes textes concernés, tels qu\'extraits :\n' + '\n'.join(extrait))

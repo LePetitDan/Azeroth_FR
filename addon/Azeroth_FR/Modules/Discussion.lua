@@ -175,10 +175,28 @@ local function ArretServeur(message)
     return nil
 end
 
+-- 0.9.5 (essai 8, captures du 09/11) : message d'un module de CoA (ecrit dans son code, absent des tables) a la
+-- connexion : « You have |cff00ff00enabled|r open world creature scaling! »
+local MODE_CREATURES = { enabled = "activé", disabled = "désactivé" }
+local function AjustementCreatures(message)
+    local c1, mot, c2 = match(message, "^You have (|c%x%x%x%x%x%x%x%x)(%a+)(|r) open world creature scaling!$")
+    if not mot then
+        mot = match(message, "^You have (%a+) open world creature scaling!$")
+        c1, c2 = "", ""
+    end
+    local fr = mot and MODE_CREATURES[mot]
+    if fr then return "Vous avez " .. c1 .. fr .. c2 .. " l'ajustement du niveau des créatures en monde ouvert !" end
+    return nil
+end
+
 -- Reconnait et reconstruit un message ; renvoie le nouveau texte ou nil.
 local function TraduireMessage(evenement, message)
     if evenement == "CHAT_MSG_SYSTEM" and sub(message, 1, 9) == "[SERVER] " then
         local fr = ArretServeur(message)
+        if fr then return fr end
+    end
+    if evenement == "CHAT_MSG_SYSTEM" and sub(message, 1, 9) == "You have " then
+        local fr = AjustementCreatures(message)
         if fr then return fr end
     end
     for _, g in ipairs(Liste(evenement)) do

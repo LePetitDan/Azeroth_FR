@@ -71,3 +71,16 @@ Vérifié après la mise à jour : les 84 fichiers de l'add-on 0.9.3 et `Interfa
 | 35 | Fenêtre des talents de CoA | « Complexité : Avancé », « Choisissez des talents » à côté de « Voir les talents » | Traductions machine | 0.9.4 : « Complexité : avancée » (et « experte », « maître », minuscules), « Choisir des talents » (relu) |
 | 36 | Discussion | Lien « [Level 60 Gnome Ranger] » dans « a accompli le haut fait » | Le nom affiché n'est pas l'anglais du haut fait de ce numéro dans notre client (« Realm First! Level 60 Gnome Ranger ») | À revoir (nom envoyé par un autre client ou table plus récente) |
 | 37 | Fenêtre des métiers de CoA | Tout en français | | |
+
+### 09/11 : captures avec la 0.9.4
+
+| # | Où | Ce qu'on voit | Cause | Correction |
+|---|---|---|---|---|
+| 38 | Écran de sélection des personnages | Bulle « Unread Mail » sur l'icône du courrier | Écrite en dur par CoA (`CharacterSelectMailIndicationButtonMixin:OnEnter`), dans l'avant-jeu | 0.9.5 : « Courrier non lu » (même sens que `HAVE_MAIL_FROM` officiel), par la relecture de l'avant-jeu |
+| 39 | Grimoire et bulles, sorts d'autres classes (« Loa's Brew ») | Nom en français, description en anglais | La même condition (« si le talent 705848 est appris ») revient deux fois dans le modèle ; l'add-on la jugeait ambiguë | 0.9.5 : chaque occurrence est gardée dans l'ordre (banc : vérifié) |
+| 40 | Grimoire, sorts à texte détaillé | « Hold SHIFT for more information » ; MAJ enfoncée, le texte détaillé en anglais | Le texte détaillé (« @ext:…:ext@ ») était pris pour une étiquette technique et gardé en anglais ; la phrase d'invite est écrite par le client | 0.9.5 : texte détaillé traduit (395 textes différents, repris dans 1 346 lignes de sorts) ; « Maintenez MAJ pour plus d'informations » ; les deux affichages au banc |
+| 41 | Hauts faits | Une partie repassée en anglais (« Runes of Ascension (100) ») | Le lot `hauts_faits_068` n'avait reçu que 7 réponses sur 301 de l'API ; les textes sans réponse n'étaient pas relancés | 0.9.5 : relance des textes sans réponse ajoutée à `api_lots.py recevoir` ; 295 textes retraduits |
+
+### 09/11 : exigence de Dan sur les sorts
+
+« Un joueur doit comprendre totalement l'intégralité de ses sorts » : avant la première version publique, tous les sorts de toutes les classes, les talents et les passifs en français. L'audit des sorts des classes (`outils/audit_sorts.py`) vérifie la source et l'affichage de chaque sort de l'avancement du personnage de CoA ; résultat et méthode : `docs/2026-11-09_Rapport_Audit-sorts.md`. À confirmer en jeu, classe par classe.

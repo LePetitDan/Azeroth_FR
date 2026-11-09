@@ -1,0 +1,235 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	802706		Description	b932ff5d4897	Pendant $d, vous ne pouvez pas mourir.	lot sorts_objets_135
+sort	802706		Name	c18d2cd1233c	Refuge de l'esprit	lot sorts_objets_135
+sort	802706		ToolTip	432b92db774e	Immunisé contre les sorts et les effets.	lot sorts_objets_135
+sort	802784		Description	b32ba4eea3ea	Vous enveloppe de flammes pendant $d maximum et inflige ${$m1+0+$spfi*.3+$AP*.23} points de dégâts de Feu aux ennemis proches toutes les $t1 sec.	lot sorts_objets_135
+sort	802784		Rank	38803b85f424	Infernal gangrené	lot sorts_objets_135
+sort	803062		Description	b469e0386b53	Invoque un |cffffffffContrôleur mental|r qui vous aide au combat jusqu'à son renvoi.\r\n\r\nCe serviteur excelle à soutenir ses alliés et peut régulièrement soigner les alliés se trouvant à moins de $800022a1 mètres.	lot sorts_objets_135
+sort	803062		Name	507b6af5f562	Invocation : Contrôleur mental	lot sorts_objets_135
+sort	803116		Description	d3a1d1b7b198	Poignarde un ennemi avec une lame trempée dans le venin et inflige ${($d*1000/$T1)*($m1+0+$AP*0.15)} points de dégâts de Nature en $d.\r\n\r\nLa durée est augmentée de $/1000;804329s2 sec pour chaque charge d'|cff8fff7aAvantage|r.	lot sorts_objets_135
+sort	803116		Name	d7a334b31426	Lame venimeuse	lot sorts_objets_135
+sort	803116		ToolTip	3906d8cc20c1	Inflige ${$w1} points de dégâts de Nature toutes les $t1 sec.	lot sorts_objets_135
+sort	803125		Name	1ee028955839	Contre les gelés	lot sorts_objets_135
+sort	803165		Description	a26deaaf3143	Vous permet de parer les attaques de mêlée ennemies.	lot sorts_objets_135
+sort	803165		ToolTip	a26deaaf3143	Vous permet de parer les attaques de mêlée ennemies.	lot sorts_objets_135
+sort	803175		Description	b6414087ab43	Les attaques de mêlée rendent désormais $804181s1 points d'Énergie, plus 1 point d'Énergie supplémentaire lorsqu'elles infligent un coup critique.	lot sorts_objets_135
+sort	803215		Description	9d9d6035b84f	Fait en sorte que |cffffffffÉclat de lave|r confère |cffffffffRevitalisation|r à tous les membres du groupe et du raid proches, ce qui leur rend une partie de leur mana au fil du temps.\r\n\r\nCela ne peut pas se produire plus d'une fois toutes les 10 sec.	lot sorts_objets_135
+sort	803215		Name	e25e77a57538	Soufflets à scories	lot sorts_objets_135
+sort	803215		ToolTip	6cc9dc391622	Votre aptitude Éclat de lave confère désormais Revitalisation à tous les membres du groupe et du raid proches, ce qui leur rend une partie de leur mana au fil du temps.\n\nCela ne peut pas se produire plus d'une fois toutes les 10 sec.	lot sorts_objets_135
+sort	803949		Description	c04b430a6edf	Lance une sphère de flammes explosive vers l'emplacement d'un ennemi et inflige ${$m1+($pl*3.9-28*3.9)} points de dégâts de Feu aux ennemis se trouvant à moins de $803947a1 mètres du point d'impact.\r\n\r\nConsomme les charges d'|cffffffffIncantation de flammes|r pour infliger $804301s3% de dégâts supplémentaires par charge.	lot sorts_objets_135
+sort	803954		Description	cab9da7f9a86	Augmente la durée de |cffffffffBrasier|r de $/1000;s1 sec et fait en sorte que vos effets de dégâts périodiques infligent des coups critiques et bénéficient de la hâte.	lot sorts_objets_135
+sort	803954		Name	662bbf27dea5	Pyromancien d'incinération	lot sorts_objets_135
+sort	803954		Rank	c0d3e96b8bd1	Obsolète (stank)	lot sorts_objets_135
+sort	803954		ToolTip	d7ab983825d8	Augmente la durée de vos sorts Inflammation, Brasier et Marque brûlante de $s1%.	lot sorts_objets_135
+sort	804021		Name	7017cd97422e	Représailles ardentes (délai)	lot sorts_objets_135
+sort	804037		Name	4dc5b139f850	Vents guides OBSOLÈTE	lot sorts_objets_135
+sort	804050		Description	f5d36df006a3	Augmente de $s1% la vitesse de déplacement de tous les membres du groupe et du raid se trouvant à moins de $a1 mètres pendant $d.	lot sorts_objets_135
+sort	804050		Name	518b5bd1e873	Tunnel de vent	lot sorts_objets_135
+sort	804065		Description	afc96ab0fb09	Réduit de $s1% tous les dégâts du Sacré et de Feu subis par un allié pendant $d. Tant que l'effet est actif, l'allié reçoit $s2 points de vie toutes les $t2 sec.	lot sorts_objets_135
+sort	804065		ToolTip	d20632f4785a	Dégâts du Sacré et de Feu subis réduits de ${$w1}%. Rend ${$w2} points de vie toutes les $t2 sec.	lot sorts_objets_135
+sort	804067		Description	93c318e33742	Réduit de $s1% les dégâts subis par les membres du groupe se trouvant à moins de $a1 mètres lors des attaques de zone.	lot sorts_objets_135
+sort	804067		Name	cca5f7d0dc74	Protection cyclonique	lot sorts_objets_135
+sort	804140		Name	748e6807087e	Soif du chasseur de têtes	lot sorts_objets_135
+sort	804142		Name	3345b75f20f1	Réduit de 25 Statique	lot sorts_objets_135
+sort	804153		Description	c14a663fa6b8	Rend $s2 points de vie aux alliés proches.	lot sorts_objets_135
+sort	804153		ToolTip	dcc42440a8c7	Soins toutes les $T1 sec.	lot sorts_objets_135
+sort	804155		Rank	6d9fc34f44f2	Regain fixe	lot sorts_objets_135
+sort	804175		Description	8bdb5af96234	Frappe un ennemi et inflige les dégâts de l'arme plus ${$m1+0} points de dégâts de Choc de flammes, et applique un bouclier pendant $560829d qui absorbe jusqu'à ${$560829m1+$PL*2+$SP*0.65} points de dégâts.	lot sorts_objets_135
+sort	804246		Description	3dd39f436598	Augmente de $s1% la durée des Pourrissants créés par votre sort Animation : Pourrissant.\n\nDe plus, infliger des dégâts périodiques à un ennemi a désormais une faible chance d'invoquer un Pourrissant.	lot sorts_objets_135
+sort	804246		ToolTip	17e0cd6c057a	Augmente de ${$w1}% la durée des Pourrissants créés par votre sort Animation : Pourrissant.\n\nDe plus, infliger des dégâts périodiques à un ennemi a désormais une faible chance d'invoquer un Pourrissant.	lot sorts_objets_135
+sort	804268		Name	bdfc65423b55	Effet de la Lame de N'Zoth	lot sorts_objets_135
+sort	804268		ToolTip	f324ccf7487f	A une chance d'invoquer un tentacule	lot sorts_objets_135
+sort	804280		Name	dfdacadb2043	Score de toucher (Alpha)	lot sorts_objets_135
+sort	804334		Name	8ca097638e76	Renforcement gangrené	lot sorts_objets_135
+sort	804343		Description	8a89fb72798b	Réduit vos délais de recharge globaux de 30%.	lot sorts_objets_135
+sort	804343		ToolTip	a0e003b7da88	Délais de recharge globaux réduits de 30%. 	lot sorts_objets_135
+sort	804380		Description	47d442977e55	Donne à Frappe céleste une chance de déclencher des Étoiles éparpillées.	lot sorts_objets_135
+sort	804380		Name	ea639162b769	Application passive des Étoiles éparpillées (Starsunder)	lot sorts_objets_135
+sort	804380		ToolTip	47d442977e55	Donne à Frappe céleste une chance de déclencher des Étoiles éparpillées.	lot sorts_objets_135
+sort	804419		Description	fda54e8ef8ac	Frappe un ennemi d'incapacité pendant $804419d. Les dégâts subis interrompent l'effet.	lot sorts_objets_135
+sort	804419		ToolTip	930dd97afba3	En stase. 	lot sorts_objets_135
+sort	804424		Description	04599f286171	Lance une attaque de baguette sur un ennemi et inflige $s2 points de dégâts des Arcanes supplémentaires. \r\n\r\nCe sort inflige à coup sûr un coup critique aux morts-vivants et aux démons.$?s524965[\r\n\r\nGénère un |cffffffffFragment d'écho|r.][]	lot sorts_objets_135
+sort	804427		Description	0caa7d5460a2	Inverse la gravité dans un rayon de $a1 mètres, projetant dans les airs tous les joueurs alliés et ennemis et les laissant flotter un court instant.\n\nTous les ennemis (y compris ceux qui ne sont pas des joueurs) dans la zone sont interrompus et ne peuvent plus lancer de sorts de la même école pendant $d.	lot sorts_objets_135
+sort	804439		Description	e0759b43f4e6	Protège un allié avec 6 charges de |cFFFFFFFFBouclier infini|r pendant $d maximum. Chaque fois qu'il subit des dégâts, il reçoit $s1% de ses points de vie maximum et perd 1 charge.\r\n\r\nCet effet ne peut se produire qu'une fois par sec.	lot sorts_objets_135
+sort	804439		ToolTip	234abf3c2396	Vous récupérez $804440s1% de vos points de vie maximum lorsque vous subissez des dégâts.	lot sorts_objets_135
+sort	804447		Description	8c505073a0a5	Armure réduite de $s1%. 	lot sorts_objets_135
+sort	804447		ToolTip	e365d5d6a306	Armure réduite de ${$w1}%. 	lot sorts_objets_135
+sort	804485		Name	f8edfa508ffd	Génération d'Ordre passive	lot sorts_objets_135
+sort	804486		Name	00ec0198469b	Génération de Chaos passive	lot sorts_objets_135
+sort	804494		Description	c8a6ff53d50d	Retourne le sort d'un ennemi pendant $d, $?s706082[ augmentant de $706082s1% les dégâts qu'il subit de |cffffffffBaguette renforcée : Expulso|r et ][]ralentissant sa vitesse de déplacement de $s1% et sa vitesse d'incantation de $s2%.	lot sorts_objets_135
+sort	804494		Name	f3509da16954	Coup du sort	lot sorts_objets_135
+sort	804494		ToolTip	96389adec20e	Vitesse de déplacement réduite de $s1% et vitesse d'incantation réduite de $s2%.	lot sorts_objets_135
+sort	804502		Description	0e8b35a70fa3	Les impulsions de vos effets périodiques de dégâts et de soins ont une chance d'augmenter la Rapidité de votre prochain sort Chronofaisceau de $804426s1%, cumulable jusqu'à 4 fois.	lot sorts_objets_135
+sort	804502		Name	3238aa961fa8	Chronofaisceau passif	lot sorts_objets_135
+sort	804502		ToolTip	0e8b35a70fa3	Les impulsions de vos effets périodiques de dégâts et de soins ont une chance d'augmenter la Rapidité de votre prochain sort Chronofaisceau de $804426s1%, cumulable jusqu'à 4 fois.	lot sorts_objets_135
+sort	804516		Description	1ff8fd556be7	Annule passivement l'effet de 50% d'ordre	lot sorts_objets_135
+sort	804516		Name	3ac391664095	Ordre de base négatif	lot sorts_objets_135
+sort	804516		ToolTip	1ff8fd556be7	Annule passivement l'effet de 50% d'ordre	lot sorts_objets_135
+sort	804517		Description	f15fb76bfdd9	Annule passivement l'effet de 50% de chaos	lot sorts_objets_135
+sort	804517		Name	9bbd741a8249	Chaos de base négatif	lot sorts_objets_135
+sort	804517		ToolTip	f15fb76bfdd9	Annule passivement l'effet de 50% de chaos	lot sorts_objets_135
+sort	804553		Description	09a7681e5368	|cffffffff|cffffffffThaumaturgie|r|r inflige $s2% de dégâts supplémentaires et confère |cffffffffImpact cosmique|r.	lot sorts_objets_135
+sort	804553		Name	8587681b7bd9	As des étoiles	lot sorts_objets_135
+sort	804553		ToolTip	38a486e46ede	Thaumaturgie inflige ${$w2}% de dégâts supplémentaires et confère |cffffffffImpact cosmique|r.	lot sorts_objets_135
+sort	804563		Description	14c8c0b90647	Ajoute l'|cffffffffAs des étoiles|r à votre paquet, ce qui permet à |cffffffffCourroux des sorts|r de le piocher dans la réserve aléatoire.@s:804553:0@	lot sorts_objets_135
+sort	804563		Name	8587681b7bd9	As des étoiles	lot sorts_objets_135
+sort	804563		ToolTip	aafabb0eadec	Ajoute l'|cffffffffAs des primordiaux|r à votre paquet, ce qui permet à |cffffffffCourroux des sorts|r de le piocher dans la réserve aléatoire.@s:804553@	lot sorts_objets_135
+sort	804593		Description	1eac5b1314ff	Ralentit de $s2% la vitesse de déplacement des ennemis se trouvant à moins de $a1 mètres d'une cible ennemie pendant $d et leur applique une charge de |cffffffffFlux|r.@s:804840:0@	lot sorts_objets_135
+sort	804593		Name	ed291647fa81	Étincelle de flux	lot sorts_objets_135
+sort	804600		Description	4869de7be15e	Envoie une onde de choc de magie gangrenée qui inflige $s1 points de dégâts de Feu aux ennemis se trouvant à moins de 8 mètres.	lot sorts_objets_135
+sort	804606		Description	f8186103e6d7	Augmente de $s1% les dégâts de |cffffffffBrasier|r, d'|cffffffffInflammation|r et d'|cffffffffInfernus|r.	lot sorts_objets_135
+sort	804606		Name	91ccdabafd6a	Chauffé à blanc	lot sorts_objets_135
+sort	804635		Description	6deca4250558	Augmente l'Énergie de 30%.	lot sorts_objets_135
+sort	804635		Name	6659a6c0a774	Augmentation d'Énergie du barbare	lot sorts_objets_135
+sort	804635		ToolTip	6deca4250558	Augmente l'Énergie de 30%.	lot sorts_objets_135
+sort	804657		Name	30f75d24e71a	Passif de répétition OBSOLÈTE	lot sorts_objets_135
+sort	804659		Name	eac696257833	Ordre et Chaos GARDIEN	lot sorts_objets_135
+sort	804663		Description	98fd31cf9db0	Téléporte le lanceur de sort au donjon d'Ombrecroc, dans la forêt des Pins argentés.	lot sorts_objets_135
+sort	804663		Name	2ab105c3fd05	Téléportation : donjon d'Ombrecroc	lot sorts_objets_135
+sort	804672		ToolTip	7f3e666d91cb	Votre prochain Brûlaube frappe deux fois et lance une Éruption solaire.	lot sorts_objets_135
+sort	804693		Name	18c5f17316bf	Vengeance cataclysmique	lot sorts_objets_135
+sort	804693		ToolTip	a0722133d831	Lorsque vos points de vie tombent sous 10% de votre maximum, vous vous préparez à exploser après un délai de $804694d, projetant les ennemis proches dans les airs et leur infligeant des dégâts de Feu.\n\nSubir des dégâts retarde l'explosion, mais elle se déclenchera quoi qu'il arrive à votre mort.	lot sorts_objets_135
+sort	804708		Description	d56c76bfaa8a	Vos coups critiques avec des aptitudes à distance ont un effet bonus qui dépend de votre arme à distance.\n\nAvec un arc, les attaques critiques à distance génèrent un |cffffffffPoint de tir à l'arc|r supplémentaire.\n\nAvec une arbalète, elles infligent $804714s1 points de dégâts supplémentaires et régénèrent $804714s2% de votre Focalisation maximale.	lot sorts_objets_135
+sort	804708		ToolTip	5aa9aa3bdda8	Vos coups critiques avec des attaques à distance ont un effet bonus qui dépend de votre arme à distance.\n\nAvec un arc, ils génèrent un Point de tir à l'arc supplémentaire.\n\nAvec une arbalète, ils infligent $804714s1 points de dégâts supplémentaires et régénèrent $804714s2% de votre Focalisation maximale.	lot sorts_objets_135
+sort	804709		Description	616605a1ecf5	Tant que vous êtes sous |cffffffffEsquive|r, vous générez un |cffffffffPoint de tir à l'arc|r toutes les $806349t1 sec.	lot sorts_objets_135
+sort	804709		Name	d6685e6a9b58	À l'affût	lot sorts_objets_135
+sort	804709		ToolTip	616605a1ecf5	Tant que vous êtes sous |cffffffffEsquive|r, vous générez un |cffffffffPoint de tir à l'arc|r toutes les $806349t1 sec.	lot sorts_objets_135
+sort	804710		Description	e83b072334f3	Tant que vous êtes sous |cffffffffEsquive|r, le délai de recharge d'|cffffffffAdepte des bois|r et de |cffffffffPas en arrière|r est réduit de $/1000;806351s1 sec toutes les $806350t1 sec.	lot sorts_objets_135
+sort	804710		ToolTip	e83b072334f3	Tant que vous êtes sous |cffffffffEsquive|r, le délai de recharge d'|cffffffffAdepte des bois|r et de |cffffffffPas en arrière|r est réduit de $/1000;806351s1 sec toutes les $806350t1 sec.	lot sorts_objets_135
+sort	804754		Name	e5bb631402c4	Un repas de grizzly	lot sorts_objets_135
+sort	804754		Rank	f6b4a8790b3e	Déclencheur	lot sorts_objets_135
+sort	804770		Description	37a508aeefd9	Vous et votre |cffffffffAncêtre honoré|r gagnez $s1% de dégâts physiques supplémentaires pendant $d.\n\nNécessite un |cffffffffAncêtre honoré|r.	lot sorts_objets_135
+sort	804770		ToolTip	ed22ee44915c	Dégâts physiques infligés augmentés de ${$w1}%.	lot sorts_objets_135
+sort	804836		Rank	a381c5861f06	Déclencheur1	lot sorts_objets_135
+sort	804846		Rank	e31663b107b9	Humain	lot sorts_objets_135
+sort	804862		Rank	7ce01f638146	Réussite !	lot sorts_objets_135
+sort	804862		ToolTip	1b19acfaaa51	Hâte en mêlée et à distance augmentée de $s1%.	lot sorts_objets_135
+sort	804863		Description	28b38ab5a10f	Augmente de $/1000;s1 sec la durée de |cffffffffClaquement de poignet|r et réduit son délai de recharge de $/1000;s2 sec.	lot sorts_objets_135
+sort	804863		ToolTip	28b38ab5a10f	Augmente de $/1000;s1 sec la durée de |cffffffffClaquement de poignet|r et réduit son délai de recharge de $/1000;s2 sec.	lot sorts_objets_135
+sort	804867		Description	53b6c2144ba7	Vous rend neutre envers les ennemis hostiles pendant $d.\n\nCet effet disparaît lorsque vous infligez des dégâts ou changez de carte.	lot sorts_objets_135
+sort	804867		Name	d7b7fb2a39fa	Lien d'Ombrecroc	lot sorts_objets_135
+sort	804867		ToolTip	3fb853d01e97	Amical envers les worgens hostiles.	lot sorts_objets_135
+sort	804869		Rank	c06ffc520df0	Nain	lot sorts_objets_135
+sort	804872		Rank	25431a972284	Orc	lot sorts_objets_135
+sort	804884		Name	ce58feee845a	Visuel caché du lieu de sépulture 2	lot sorts_objets_135
+sort	804898		Rank	99087546e906	Déclencheur2	lot sorts_objets_135
+sort	804905		Rank	8f3ae5c6ebff	Tauren	lot sorts_objets_135
+sort	804907		Description	9d6aa3637a3d	Votre |cffffffffForce divine|r déclenche désormais une réduction de 1 min du délai de recharge lorsqu'elle est utilisée sur des ennemis affectés par |cffffffffLame de foi|r.	lot sorts_objets_135
+sort	804911		Description	28338e220ffd	Une puissante |cffffffffaptitude de suite|r qui inflige ${$m1+0+$AP*0.285+$SP*0.35} points de dégâts, déclenche |cffffffffZèle|r et confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos |cFFFFFFFFsuites|r ignorent $805332s3% de l'armure de la cible.\r\n@s:801450:0@	lot sorts_objets_135
+sort	804911		ToolTip	2321eb49cc50	Augmente de ${$w1}% les dégâts, l'efficacité et la durée de votre prochain |cffffffffMouvement de combat|r.	lot sorts_objets_135
+sort	804918		Description	9d6aa3637a3d	Votre |cffffffffForce divine|r déclenche désormais une réduction de 1 min du délai de recharge lorsqu'elle est utilisée sur des ennemis affectés par |cffffffffLame de foi|r.	lot sorts_objets_135
+sort	804918		Rank	6895e58d2861	RDR	lot sorts_objets_135
+sort	804937		Description	02c482ab814f	Augmente la puissance d'attaque de $800989s1%, les chances de parade de $s3% et réduit la puissance d'attaque à distance de $300787s1%. Les parades réussies ont une chance d'appliquer |cffffffffContre-frappe|r.\r\n\r\nUtiliser |cffffffffRavage|r vous permet d'utiliser des aptitudes qui exigent de parer.\r\n\r\nNe peut être utilisée qu'avec une arme de mêlée à une main, sans main gauche. \r\n\r\nSeule 1 Adaptation peut être active à la fois.@s:803111:0@	lot sorts_objets_135
+sort	804937		Name	c0960b0bc055	Adaptation : Fier-à-bras	lot sorts_objets_135
+sort	804937		ToolTip	cc008f5ab7a0	Puissance d'attaque augmentée de $800989s1%, chances de parade augmentées de ${$w3}%.\n\nLes parades réussies ont une chance d'appliquer Contre-frappe.\n\nÉquiper une arme à distance ou une arme de mêlée en main gauche désactive cette Adaptation.	lot sorts_objets_135
+sort	804948		Description	2a69f94f30b6	Supprime tous les |cffffffffSceaux|r actifs.\r\n\r\nNe brise pas |cffffffffLinceul runique|r.	lot sorts_objets_135
+sort	804948		Name	58a208671839	Sculpture runique	lot sorts_objets_135
+sort	805000		Name	73623a32bd88	Aura CoA - Mise à l'échelle de la statistique de défense	lot sorts_objets_135
+sort	805041		Description	ec6e5b83a413	Augmente de $s1 votre |cffffffffForce vitale|r maximale et la vitesse d'incantation de vos sorts |cffffffffRésurrection|r et |cffffffffAnimation|r de $s3%.\r\n\r\nDonne aussi à vos serviteurs morts-vivants $h% de chances de générer un |cffffffffRestant immonde|r.	lot sorts_objets_135
+sort	805041		Name	3f90810adad0	Passif de spécialisation Animation SLS	lot sorts_objets_135
+sort	805041		ToolTip	b7e2a9c29688	Augmente de ${$w1} votre Force vitale maximale et la vitesse d'incantation de vos sorts Résurrection et Animation de ${$w3}%, mais réduit de ${$w2}% tous les dégâts que vous infligez.	lot sorts_objets_135
+sort	805161		Description	92f0574648b2	Vous recouvre d'une barrière d'énergie instable pendant $d : toutes les attaques dirigées contre vous ont $h% de chances d'infliger moitié moins de dégâts et de générer 10 |cffcc99ffStatique|r.\r\n\r\n|cffffffffCape de tempête|r a $s2% de chances de résister aux effets de dissipation.	lot sorts_objets_135
+sort	805172		Description	5932d9fbbd33	Après une attaque automatique, vous vous renforcez pour votre attaque suivante,\n\net infligez $805153s1% supplémentaires des dégâts de votre arme de main droite pour chaque tranche de $805153t2 sec écoulée entre deux frappes.	lot sorts_objets_135
+sort	805172		Name	549f6472a5bb	Passif d'Hémorragie d'ombre	lot sorts_objets_135
+sort	805191		Description	194fe300c8f3	Vous invoquez un guerrier squelette qui vous assiste au combat. Consomme 1 Force vitale tant qu'il est actif. La Force vitale vous est rendue à la mort de ce serviteur.	lot sorts_objets_135
+sort	805191		ToolTip	8a9babbda043	Un zombie de test occupe actuellement 1 Force vitale.	lot sorts_objets_135
+sort	805237		Name	ff80f9eaf6cc	Offrande des damnés	lot sorts_objets_135
+sort	805252		Description	0d79732a3f99	Corrompt le sol à l'endroit ciblé, ralentit de ${-($m2)}% la vitesse de déplacement des ennemis qui s'y trouvent et fait régulièrement surgir des morts-vivants du sol, créant des cadavres. Dure $d.	lot sorts_objets_135
+sort	805278		Description	b2dd190d446c	Permet à Tir dispersé de générer des Points de tir à l'arc.	lot sorts_objets_135
+sort	805278		Name	f26a1e5f6887	Passif de tir dispersé	lot sorts_objets_135
+sort	805278		ToolTip	b2dd190d446c	Permet à Tir dispersé de générer des Points de tir à l'arc.	lot sorts_objets_135
+sort	805311		Description	e6d94c4077bb	Les |cffffffffModules|r affectent désormais $s1 utilisation supplémentaire de |cffffffffTir réparateur|r.	lot sorts_objets_135
+sort	805323		Description	2740a05c9f27	Augmente de $s1% les dégâts des |cffffffffTirs de ferraille|r pour chaque munition standard chargée dans votre arme à feu.	lot sorts_objets_135
+sort	805323		Name	5f3f78d444bc	Bandoulière explosive	lot sorts_objets_135
+sort	805323		ToolTip	2740a05c9f27	Augmente de $s1% les dégâts des |cffffffffTirs de ferraille|r pour chaque munition standard chargée dans votre arme à feu.	lot sorts_objets_135
+sort	805326		Description	419f0336d2a2	Les coups critiques de dégâts de Feu directs réduisent désormais de $/1000;681039s1 sec le délai de recharge de |cffffffffCharge explosive|r.	lot sorts_objets_135
+sort	805326		Name	503a00167df4	Lunette d'assaut	lot sorts_objets_135
+sort	805386		Name	a22e6fac68e1	Os gelé	lot sorts_objets_135
+sort	805386		ToolTip	0fc36d463b56	Enraciné dans la glace.	lot sorts_objets_135
+sort	805401		Name	1f0c0496bc81	Passif de flanquement	lot sorts_objets_135
+sort	805402		Name	1f0c0496bc81	Passif de flanquement	lot sorts_objets_135
+sort	805406		Description	52d1b2ba94fb	Frappe un ennemi pour $s2% des dégâts de l'arme$?s801443[ plus ${$m1+0} points de dégâts et vous confère |cffffffffSuite|r][].	lot sorts_objets_135
+sort	805406		Name	a4b7404d03e0	Frappe du templier	lot sorts_objets_135
+sort	805412		Description	0d79732a3f99	Corrompt le sol à l'endroit ciblé, ralentit de ${-($m2)}% la vitesse de déplacement des ennemis qui s'y trouvent et fait régulièrement surgir des morts-vivants du sol, créant des cadavres. Dure $d.	lot sorts_objets_135
+sort	805412		Rank	d8dca2ff9403	Plus mort	lot sorts_objets_135
+sort	805430		Description	0d79732a3f99	Corrompt le sol à l'endroit ciblé, ralentit de ${-($m2)}% la vitesse de déplacement des ennemis qui s'y trouvent et fait régulièrement surgir des morts-vivants du sol, créant des cadavres. Dure $d.	lot sorts_objets_135
+sort	805430		Rank	44670c23e46b	Tueur	lot sorts_objets_135
+sort	805461		Name	cc4f37981ed4	Passif d'Explosion de magma	lot sorts_objets_135
+sort	805465		Description	0d79732a3f99	Corrompt le sol à l'endroit ciblé, ralentit de ${-($m2)}% la vitesse de déplacement des ennemis qui s'y trouvent et fait régulièrement surgir des morts-vivants du sol, créant des cadavres. Dure $d.	lot sorts_objets_135
+sort	805465		Rank	50a58861e0fb	Plus mort2	lot sorts_objets_135
+sort	805478		Name	6dfad7d91f5c	Suppression de Destination finale	lot sorts_objets_135
+sort	805489		Rank	08271419319f	Bouclier	lot sorts_objets_135
+sort	805491		Rank	1b08bd083a9d	SLS2	lot sorts_objets_135
+sort	805502		Description	81f40c45a986	Brûle un ennemi et lui inflige ${$m1+($pl*0.84)} points de dégâts de Feu toutes les $t1 sec pendant $d.\r\n\r\nUtiliser |cffffffffChute de feu|r ou |cffffffffÉclat de lave|r contre la cible prolonge de $/1000;803948s3 sec la durée de |cffffffffMarque brûlante|r.	lot sorts_objets_135
+sort	805502		Name	c35013d9150c	Marque brûlante	lot sorts_objets_135
+sort	805502		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_objets_135
+sort	805520		Description	fcf8e0206df8	Fait pleuvoir des comètes sur la zone ciblée et inflige ${$m1+0+$spa*0.178} points de dégâts des Arcanes aux ennemis qui s'y trouvent toutes les $t1 sec pendant $d.	lot sorts_objets_135
+sort	805520		Name	d3c68e4829bc	Pluie de comètes	lot sorts_objets_135
+sort	805520		Rank	b80bc58b145b	Talent de mande-étoiles	lot sorts_objets_135
+sort	805527		Description	47d442977e55	Donne à Frappe céleste une chance de déclencher des Étoiles éparpillées.	lot sorts_objets_135
+sort	805527		Name	d0d6e2557662	Passif de portée du mande-étoiles	lot sorts_objets_135
+sort	805527		ToolTip	47d442977e55	Donne à Frappe céleste une chance de déclencher des Étoiles éparpillées.	lot sorts_objets_135
+sort	805553		Name	5a086d7538f5	Tir de la chasseresse - Coût en mana %	lot sorts_objets_135
+sort	805650		Description	16658c492576	Les coups critiques de Feu confèrent désormais Incantation de flammes, ce qui augmente votre hâte des sorts de $804301s2% pendant $804301d, cumulable jusqu'à 3 fois.\n\nDe plus, vos sorts de Feu coûtent $s2% de mana en moins, mais chaque fois que vous lancez un sort de Feu, vous gagnez une charge de Surchauffe pendant $805625d, ce qui augmente de $805625s1% le coût de vos sorts de Feu et augmente votre score de coup critique des sorts de $805625s2% de votre Intelligence. \n\nCumulable jusqu'à $805625n fois.\n\nPermet aussi à $804578s2% de votre régénération de mana de continuer pendant l'incantation.	lot sorts_objets_135
+sort	805650		Name	ef5d1c25f04e	Courroux du lanceur de flammes caché	lot sorts_objets_135
+sort	805650		ToolTip	9f5911759ce2	Fait en sorte que vos coups critiques de Feu confèrent Incantation de flammes, créant un Chemin de flammes sous la cible et augmentant votre hâte des sorts de $804301s2% pendant $804301d, cumulable jusqu'à 3 fois.\n\nDe plus, vos sorts de Feu coûtent ${$w2}% de mana en moins, mais chaque fois que vous lancez un sort de Feu, vous gagnez une charge de Surchauffe pendant $805625d, ce qui augmente de $805625s1% le coût de vos sorts de Feu et augmente votre score de coup critique des sorts de $805625s2% de votre Intelligence. Cumulable jusqu'à $805625n fois.\n\nPermet aussi à $804578s2% de votre régénération de mana de continuer pendant l'incantation.	lot sorts_objets_135
+sort	805666		Description	555d0b6090c9	Augmente de $s1% les dégâts critiques de |cffffffffFlamme en quête|r.	lot sorts_objets_135
+sort	805666		Name	9fe1e6a6d986	Douleur en quête	lot sorts_objets_135
+sort	805684		Name	ac2be53b9b15	Passif du faucheur	lot sorts_objets_135
+sort	805714		Description	8640160ab721	Augmente le score de parade de $s3 plus $s1% de l'Endurance et fait en sorte que les parades infligent $805715s2% des dégâts de l'arme aux ennemis proches. Dure jusqu'à $n parades.	lot sorts_objets_135
+sort	805714		Name	96ba717d1d9a	Contre-faux	lot sorts_objets_135
+sort	805714		ToolTip	0a62c3236e51	Score de parade augmenté de ${$w3} plus ${$w1}% de l'Endurance. Les parades réussies infligent $805715s2% des dégâts de l'arme aux ennemis proches.	lot sorts_objets_135
+sort	805730		Description	8f9925176d93	Place une rune à l'endroit ciblé qui explose après 1 sec dans un souffle de magie glaciale, infligeant ${$805730m2+$805730ppl2+$SP*.3} points de dégâts de Givre aux ennemis qui s'y trouvent et les gelant sur place pendant $d (8 sec contre les joueurs).\r\n\r\nLes dégâts infligés peuvent interrompre l'effet. Ne peut affecter que 1 cible à la fois.	lot sorts_objets_135
+sort	805742		Rank	83e5a0d3d2ef	Charge	lot sorts_objets_135
+sort	805742		ToolTip	a18d07cdf04a	Votre prochain Souffle primordial est transformé en Oblitération !	lot sorts_objets_135
+sort	805760		Description	f354f5b560e1	Met à prix la tête de l'ennemi ciblé, ce qui augmente de $s1% les chances de coup critique de ses alliés contre lui et de $s2% tous les dégâts physiques qu'il subit. Dure $d.	lot sorts_objets_135
+sort	805760		Name	74af9ee44524	Mise à prix	lot sorts_objets_135
+sort	805760		ToolTip	73c6a537363f	Dégâts subis augmentés de ${$w2}%. Les attaquants ont ${$w1}% de chances de coup critique supplémentaires contre vous.	lot sorts_objets_135
+sort	805819		Name	b5c58095e903	Cran	lot sorts_objets_135
+sort	805820		Name	e132cbd64145	Corps de pierre runique	lot sorts_objets_135
+sort	805820		ToolTip	7c8f91cd0718	Dégâts subis réduits de $s1%.	lot sorts_objets_135
+sort	805843		Description	6689d5dc4753	|cffec8201Effet d'enragement|r\r\nEnrage les membres du groupe et du raid se trouvant à moins de $a1 mètres pendant $d, ce qui augmente de $s3% leur régénération de vie et leur rend $805805s1% de leurs points de vie maximum toutes les $t1 sec. \r\n\r\nLes attaques automatiques de mêlée prolongent de $/1000;805806S1 sec la durée de cet effet, jusqu'à un maximum de $805807d.\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme les charges de |cffffffffNiveau de remplissage|r et se déclenche avec un délai de recharge réduit selon le nombre de charges consommées.\r\n\r\n@s:804337:0@	lot sorts_objets_135
+sort	805843		ToolTip	b62fe56bf9a0	Régénération de vie augmentée de ${$w3}%. Vous régénérez $805805s1% de vos points de vie maximum toutes les $t1 sec. Les attaques prolongent la durée de cet enragement.	lot sorts_objets_135
+sort	805850		Description	de80d487b37d	|cFF66DDFFPassif de niveau 40|r\r\nLa grâce d'Élune coule dans chacune de vos frappes.\nVous gagnez de l'Intelligence égale à $s1% de votre Force. De plus, les dégâts de votre arme sont augmentés de votre puissance des sorts.	lot sorts_objets_135
+sort	805850		Rank	1a5021f88789	SpécialisationSLS	lot sorts_objets_135
+sort	805856		Description	83bc22db9705	Tant que vos charges d'|cffffffffOrdre|r et de |cffffffffChaos|r sont égales, vous gagnez $805857s1% de régénération de mana, $805857s2% de dégâts des sorts et $805857s3% de soins supplémentaires.	lot sorts_objets_135
+sort	805856		Name	7e413b6f96ff	Équilibre temporel	lot sorts_objets_135
+sort	805856		ToolTip	4448ed4fa1a1	Tant que vos charges d'Ordre et de Chaos sont égales, vous gagnez $805857s1% de régénération de mana, $805857s2% de dégâts des sorts et $805857s3% de soins supplémentaires.	lot sorts_objets_135
+sort	805880		Description	e6ee584358b5	Réduit de $/10;s1 le coût en Rage de |cFFFFFFFFMarteau de vie|r.	lot sorts_objets_135
+sort	805880		Name	b0c85e4e898d	Faveur de la marée	lot sorts_objets_135
+sort	805882		Description	9c0896984faf	Vos Fracasse-pierres entièrement renforcés réduisent désormais de $/1000;805883s1 sec le délai de recharge de Vague primordiale.	lot sorts_objets_135
+sort	805882		Name	ef50f5827643	Cercle des éléments caché	lot sorts_objets_135
+sort	805882		ToolTip	9c0896984faf	Vos Fracasse-pierres entièrement renforcés réduisent désormais de $/1000;805883s1 sec le délai de recharge de Vague primordiale.	lot sorts_objets_135
+sort	805951		Name	b9820ff536e6	Passif du barbare - Fracas sauvage	lot sorts_objets_135
+sort	805952		Name	b9820ff536e6	Passif du barbare - Fracas sauvage	lot sorts_objets_135
+sort	805953		Name	b9820ff536e6	Passif du barbare - Fracas sauvage	lot sorts_objets_135
+sort	805954		Name	b9820ff536e6	Passif du barbare - Fracas sauvage	lot sorts_objets_135
+sort	805963		Name	c9ef6b261c8e	Passif du chevalier de Xoroth - Estoc	lot sorts_objets_135
+sort	806014		Name	e17592593638	Passif du moine - Auras d'arme	lot sorts_objets_135
+sort	806063		Name	600d11b32833	Passif du gardien - Pousser l'attaque	lot sorts_objets_135
+sort	806126		ToolTip	1b06b8669e9f	Les ennemis qui s'y trouvent subissent ${$w1}% de dégâts supplémentaires du clerc du soleil et sont frappés par une Éruption solaire qui inflige ${$m2+$ppl2+$SP*0.12} points de dégâts de feu sacré toutes les $t2 sec.\r\n\r\nLes alliés qui s'y trouvent reçoivent ${$w3}% de soins supplémentaires de toutes sources.	lot sorts_objets_135
+sort	806160		Description	308da2624a25	Tire un rayon glacé sur tous les ennemis alignés et les |cffffffffgèle|r sur place pendant $d (6 sec contre les joueurs). Les dégâts infligés peuvent mettre fin à cet effet.	lot sorts_objets_135
+sort	806160		Rank	5a6b2d30fea6	Gel	lot sorts_objets_135
+sort	806196		Description	001b436b17ba	Donne à vos attaques et effets de dégâts physiques $h% de chances de renforcer les alliés proches affectés par |cffffffffGuidage solaire|r, leur conférant $806197s1% de dégâts infligés supplémentaires pendant $806197d et leur rendant $806197s2 points de vie.	lot sorts_objets_135
+sort	806196		Name	7dda0a79eea2	Vengeur solaire	lot sorts_objets_135
+sort	806196		ToolTip	8e28d2386780	Donne à vos attaques et effets de dégâts physiques une chance de renforcer les alliés proches affectés par Guidage solaire, leur conférant $806197s1% de dégâts infligés supplémentaires pendant $806197d et leur rendant $806197s2 points de vie.	lot sorts_objets_135
+sort	806199		ToolTip	834ebeab403f	Menace augmentée.	lot sorts_objets_135
+sort	806233		Description	95d2bfa332c6	Inverser un sort de cette façon draine ${$806233m1+$806233ppl1+$SP*0.2} points de mana à l'attaquant.	lot sorts_objets_135
+sort	806233		Rank	4e4369e733c0	Drain	lot sorts_objets_135
+sort	806233		ToolTip	8a289eaa62f8	Renvoie les sorts nuisibles.	lot sorts_objets_135
+sort	806238		Description	0ce2aa386d29	Votre prochain |cffffffffPreneur de crânes|r ou |cffffffffPorte-guerre|r inflige à coup sûr un coup critique, avec $s2% de dégâts supplémentaires contre les joueurs. Dure $d.	lot sorts_objets_135
+sort	806238		ToolTip	7ab61b0e70b8	Le prochain |cffffffffPreneur de crânes|r ou |cffffffffPorte-guerre|r inflige à coup sûr un coup critique et $s2% de dégâts supplémentaires contre les joueurs.	lot sorts_objets_135
+sort	806255		Name	eaa86e5ec727	Passif du cultiste - Châtiment de N'Zoth	lot sorts_objets_135
+sort	806294		ToolTip	28c533bb8cc2	Interrompu.Contre le sort de l'ennemi et l'empêche de lancer tout sort de cette école de magie pendant $d.	lot sorts_objets_135
+sort	806313		ToolTip	239d91121d68	Subit ${$w1} points de dégâts chromatiques toutes les $t1 sec.	lot sorts_objets_135
+sort	806314		Name	ba434ae3d16d	Déclencheur du Gardien de l'équilibre	lot sorts_objets_135
+sort	806361		Description	84d690c6cc33	Émet une aura pendant $d qui confère aux membres du groupe se trouvant à moins de $a1 mètres $s1% de dégâts magiques supplémentaires et réduit de $/100;s2% le recul subi lorsqu'ils reçoivent des dégâts en incantant.\n\nTous les sorts |cffffffffCor du rôdeur|r partagent un délai de recharge.	lot sorts_objets_135
+sort	806361		Name	a85aa86ab6dd	Cor magique du rôdeur	lot sorts_objets_135
+sort	806361		ToolTip	332474549666	Dégâts magiques augmentés de $s1%. Vous ne subissez aucun recul lorsque vous recevez des dégâts en incantant.	lot sorts_objets_135
+sort	806503		ToolTip	383aa74f04c5	Votre première Mort tourbillonnante n'a pas de délai de recharge.	lot sorts_objets_135
+sort	806529		Description	bef1caa785b9	|cffffffffInfusion primordiale|r confère à votre cible un bouclier qui absorbe les dégâts selon votre puissance d'attaque pendant $806532d.	lot sorts_objets_135
+sort	806529		ToolTip	96c86d6fd8e1	Les sorts de soins que vous lancez vous confèrent un bouclier qui absorbe les dégâts selon votre puissance d'attaque pendant $806532d.\n\nNe peut pas se produire plus d'une fois toutes les 8 sec.	lot sorts_objets_135
+sort	806614		Description	dfe35608b927	Vous confère 3 |cffffffffAméliorations de combat|r que vous pouvez appliquer à votre |cffffffffAssistant mécanique|r. \n\nSeule 1 |cffffffffAmélioration de combat|r peut être active à la fois.@ext:@s:704439:0@@s:704441:0@@s:704443:0@:ext@	lot sorts_objets_135
+sort	806614		Name	53ca76d06324	Kit d'augmentation de combat	lot sorts_objets_135
+sort	806614		ToolTip	3e2ab1b7b027	Vous confère 3 Améliorations de combat que vous pouvez appliquer à votre Assistant mécanique. Seule 1 Amélioration de combat peut être active à la fois.@s:704439@@s:704441@@s:704443@	lot sorts_objets_135
+sort	954523		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_objets_135

@@ -70,7 +70,7 @@ local MOTIFS_VARIABLE = {
     "%$%d+",                        -- $1
     -- marquage d'Ascension, resolu par le client avant l'affichage : traite comme une variable
     "@ifknown:.-:ifknown@", "@ifnotknown:.-:ifnotknown@", "@wflocation:[^@]*@",
-    "@%a+:%d+:%-?%d+@", "@%a+:%d+:%a+@", "@%a+:%d+@", "@ext:", ":ext@",
+    "@%a+:%d+:%-?%d+@", "@%a+:%d+:%a+@", "@%a+:%d+:?@", "@ext:", ":ext@",
 }
 
 local function Echapper(t) return (gsub(t, "([%^%$%(%)%%%.%[%]%*%+%-%?])", "%%%1")) end
@@ -113,18 +113,30 @@ A.DecouperModele = Decouper
 
 local function PrefixeConditionnel(v) return match(v, "^(%$%?[^%[]*)%[") end
 local function EstMarqueur(v) return sub(v, 1, 1) == "@" or v == ":ext@" end
+-- 0.9.5 (audit des sorts) : BALISE pure du client (bornes @ext: et :ext@, @s:N:0@, @req:N:@) : le client la retire,
+-- il n'en reste rien (au plus un blanc) ; sa capture « (.-) » prenait la phrase d'une conditionnelle voisine
+-- (« …$s2%.$?s560595[ Your critical…][]\r\n\r\n@ext:Only 1… » : la conditionnelle vide, l'anglais dans @ext:)
+local function EstBalise(v) return v == "@ext:" or v == ":ext@" or match(v, "^@%a+:[%d:%-]*@$") ~= nil end
 
 -- Capture typee (repli) : un nombre pour une valeur, un nombre et son unite pour une duree.
 local function CaptureTypee(v)
-    if match(v, "^%$%d*[dD]%d*$") then return "(%-?[%d%.,]+%s*%a*)" end
-    if match(v, "^%$[suohtqaxezSUOHTQAXEZ]%d*$") or match(v, "^%$%d+%a%d*$") or match(v, "^%$%b{}$")
+    if EstBalise(v) then return "(%s*)" end
+    -- conditionnelle dont les crochets n'ont que des balises (« $?s804286[@s:806252:0@][] ») : rien d'affiche non plus
+    local pre = match(v, "^(%$%?[^%[]*)%[")
+    if pre and gsub(gsub(sub(v, #pre + 1), "@%a+:[%d:%-]*@", ""), "[%s%[%]]", "") == "" then return "(%s*)" end
+    -- 0.9.5 (audit des sorts) : un nombre ne finit plus par une virgule (« plus 15, stunning… » : la virgule allait
+    -- dans le nombre et manquait a la conditionnelle qui suit) ; decimales « 1.5 » gardees
+    if match(v, "^%$%d*[dD]%d*$") then return "(%-?%d+%.?%d*%s*%a*)" end
+    -- ($z : le lieu de la pierre de foyer, un texte : pas de capture typee)
+    if match(v, "^%$[suohtqaxeSUOHTQAXE]%d*$") or match(v, "^%$%d+%a%d*$") or match(v, "^%$%b{}$")
         or match(v, "^%$<%a+>$") or match(v, "^%$[/%*%+%-]") then
-        return "(%-?[%d%.,]+)"
+        return "(%-?%d+%.?%d*)"
     end
     return "(.-)"
 end
 
-local function Extraire(modele, affiche)
+-- mode « typee » (0.9.5) : captures typees seulement (nombres, durees) ; « souple » : (.-) puis typees ; nil : souple
+local function Extraire(modele, affiche, mode)
     local litteraux, variables = Decouper(modele)
     if #variables == 0 then return {} end
     local function essayer(motif)
@@ -140,6 +152,12 @@ local function Extraire(modele, affiche)
                 if valeurs[v] == nil then valeurs[v] = val end
             else
                 if valeurs[v] and valeurs[v] ~= val then return nil end   -- meme variable, deux valeurs
+                -- 0.9.5 (audit, « Disengage » de Witch Hunter) : une valeur NUMERIQUE ou une duree ne prend pas une
+                -- phrase entiere (« $d. » avalait les conditionnelles collees qui suivent) : courte, un chiffre, une ligne
+                local ct = CaptureTypee(v)
+                if ct ~= "(.-)" and ct ~= "(%s*)" and (#val > 24 or find(val, "\n") or not find(val, "%d")) then
+                    return nil
+                end
                 valeurs[v] = val
             end
         end
@@ -147,25 +165,43 @@ local function Extraire(modele, affiche)
     end
     local motif, typee, differe = "^", "^", false
     for i, l in ipairs(litteraux) do
-        motif = motif .. Souple(l)
-        typee = typee .. Souple(l)
+        local sl = Souple(l)
+        -- 0.9.5 (audit des sorts) : un separateur tout blanc en FIN de modele (« …effects.:ext@ ») ou contre une
+        -- balise (@ext:, :ext@, @s:…@, que le client retire) peut disparaitre a l'affichage : facultatif
+        if sl == "%s+" and (i == #litteraux or (variables[i] and EstMarqueur(variables[i]))
+            or (i > 1 and EstMarqueur(variables[i - 1]))) then
+            sl = "%s*"
+        end
+        motif = motif .. sl
+        typee = typee .. sl
         if i <= #variables then
-            motif = motif .. "(.-)"
+            motif = motif .. (CaptureTypee(variables[i]) == "(%s*)" and "(%s*)" or "(.-)")
             local c = CaptureTypee(variables[i])
             typee = typee .. c
             if c ~= "(.-)" then differe = true end
         end
     end
-    local caps, valeurs, rangs = essayer(motif .. "$")
-    if not caps and differe then caps, valeurs, rangs = essayer(typee .. "$") end
+    local caps, valeurs, rangs
+    if mode == "typee" then
+        if not differe then return nil end
+        caps, valeurs, rangs = essayer(typee .. "$")
+    else
+        caps, valeurs, rangs = essayer(motif .. "$")
+        if not caps and differe then caps, valeurs, rangs = essayer(typee .. "$") end
+    end
     if not caps then return nil end
     local conds, ordre = {}, {}
     for i, v in ipairs(variables) do
         local pre = PrefixeConditionnel(v)
         if pre then
+            -- 0.9.5 (essai 8, « Loa's Brew ») : une meme condition peut revenir dans plusieurs conditionnelles
+            -- (« health$?s705848[ and …][].$?s705848[@ext…][] ») : chaque occurrence est gardee, dans l'ordre ; le
+            -- francais les reprend dans le meme ordre (occ). Ambigu seulement si deux occurrences de la MEME
+            -- conditionnelle ont donne deux textes differents.
             local e = conds[pre]
-            if e and (e.valeur ~= caps[i] or e.var ~= v) then conds[pre] = { ambigu = true }
-            elseif not e then conds[pre] = { valeur = caps[i], var = v } end
+            if not e then e = { valeur = caps[i], var = v, occ = {} }; conds[pre] = e end
+            e.occ[#e.occ + 1] = { valeur = caps[i], var = v }
+            if e.var == v and e.valeur ~= caps[i] then e.ambigu = true end
         end
         if match(v, "^%$[GgLl]") then ordre[#ordre + 1] = v end
     end
@@ -199,10 +235,33 @@ end
 
 local TexteSort
 
+-- Nombre de conditionnelles de prefixe pre dans un modele (0.9.5)
+local function NbConds(modele, pre)
+    local _, vars = Decouper(modele)
+    local n = 0
+    for _, v in ipairs(vars) do if PrefixeConditionnel(SansCouleurs(v)) == pre then n = n + 1 end end
+    return n
+end
+
 local function Appliquer(modele_fr, valeurs, conds, ordre, rangs)
     local litteraux, variables = Decouper(modele_fr)
-    local nb_gl = 0
-    for _, v in ipairs(variables) do if match(SansCouleurs(v), "^%$[GgLl]") then nb_gl = nb_gl + 1 end end
+    local rang_c = {}
+    local nb_gl, nb_t, en_t, rang_t = 0, {}, {}, {}
+    for _, v in ipairs(variables) do
+        local nue = SansCouleurs(v)
+        if match(nue, "^%$[GgLl]") then
+            nb_gl = nb_gl + 1
+            local t = lower(sub(nue, 2, 2))
+            nb_t[t] = (nb_t[t] or 0) + 1
+        end
+    end
+    -- 0.9.5 (audit des sorts, « Conjure Water » : $lbottle:bottles; et $ghis:her; en anglais, $l seul en francais
+    -- officiel) : a defaut du meme nombre de $l/$g, appariement par SORTE ($l avec $l, $g avec $g), dans l'ordre
+    for _, ven in ipairs(ordre) do
+        local t = lower(sub(ven, 2, 2))
+        en_t[t] = en_t[t] or {}
+        en_t[t][#en_t[t] + 1] = ven
+    end
     local rang_gl, rang_m, out = 0, {}, {}
     for i, l in ipairs(litteraux) do
         out[#out + 1] = l
@@ -218,9 +277,16 @@ local function Appliquer(modele_fr, valeurs, conds, ordre, rangs)
             -- $l / $g : options traduites -> appariement par rang, option au meme indice
             if match(nue, "^%$[GgLl]") then
                 rang_gl = rang_gl + 1
-                if val == nil and #ordre == nb_gl then
-                    local ven = ordre[rang_gl]
-                    if ven and lower(sub(ven, 2, 2)) == lower(sub(nue, 2, 2)) then
+                local t = lower(sub(nue, 2, 2))
+                rang_t[t] = (rang_t[t] or 0) + 1
+                local ven
+                if #ordre == nb_gl then
+                    ven = ordre[rang_gl]
+                    if ven and lower(sub(ven, 2, 2)) ~= t then ven = nil end
+                end
+                if not ven and en_t[t] and #en_t[t] == nb_t[t] then ven = en_t[t][rang_t[t]] end
+                if val == nil then
+                    if ven then
                         local aff, oen, ofr = valeurs[ven], OptionsGL(ven), OptionsGL(nue)
                         if aff and oen and ofr and #oen == #ofr then
                             local choix, ambigu
@@ -235,10 +301,55 @@ local function Appliquer(modele_fr, valeurs, conds, ordre, rangs)
                     end
                 end
             end
+            -- 0.9.5 (audit, « Invoque $s1 $lgâteau de manne:gâteaux de manne; ») : $l du francais SEUL : selon le
+            -- dernier nombre deja ecrit (1 ou 0 : singulier)
+            if val == nil and match(nue, "^%$[Ll]") and not en_t.l then
+                local o = OptionsGL(nue)
+                if o and #o == 2 then
+                    local n
+                    for x in gmatch(table.concat(out), "%d+[%.,]?%d*") do n = x end
+                    if n then val = (tonumber((gsub(n, ",", "."))) or 2) < 2 and o[1] or o[2] end
+                end
+            end
+            -- 0.9.5 : $g du francais SEUL (accord ajoute par la traduction : « $genragé:enragée; ») : selon le joueur
+            if val == nil and match(nue, "^%$[Gg]") and not en_t.g then
+                local o = OptionsGL(nue)
+                if o and #o == 2 then
+                    val = (A.Joueur and A.Joueur.genre == "f") and o[2] or o[1]
+                end
+            end
+            -- 0.9.5 (audit des sorts, « @ifknown:704997:|cffffffffFrappe infernale|r … :ifknown@ ») : bloc « si le
+            -- sort N est connu » ; son texte traduit ne retrouve pas la cle anglaise : par la sorte et le numero
+            if val == nil then
+                local sorte, num, corps = match(v, "^@(if%a*known):(%d+):(.*):if%a*known@$")
+                if sorte then
+                    local tete = "@" .. sorte .. ":" .. num .. ":"
+                    for ke, ve in pairs(valeurs) do
+                        if sub(ke, 1, #tete) == tete then
+                            local corps_en = match(ke, "^@if%a*known:%d+:(.*):if%a*known@$")
+                            if ve == "" then val = ""
+                            elseif corps_en and A.Plat(ve) == A.Plat(corps_en) then val = corps
+                            elseif corps_en then val = TexteSort(corps, corps_en, ve) end
+                            break
+                        end
+                    end
+                end
+            end
             -- conditionnelle : texte des crochets traduit -> par le prefixe, puis recursion
             if val == nil then
                 local pre = PrefixeConditionnel(nue)
                 local c = pre and conds[pre]
+                if c and c.occ and #c.occ > 1 then
+                    -- occurrences dans l'ordre (meme nombre en francais qu'en anglais : sinon, seulement si toutes
+                    -- les occurrences anglaises sont vides)
+                    rang_c[pre] = (rang_c[pre] or 0) + 1
+                    local o = c.occ[rang_c[pre]]
+                    local vides = true
+                    for _, x in ipairs(c.occ) do if x.valeur ~= "" then vides = false end end
+                    if vides then c = { valeur = "" }
+                    elseif o and NbConds(modele_fr, pre) == #c.occ then c = { valeur = o.valeur, var = o.var }
+                    else c = nil end
+                end
                 if c and not c.ambigu then
                     if c.valeur == "" then
                         val = ""
@@ -312,6 +423,9 @@ local function AlignerNombres(fr, en, affiche)
 end
 
 local INDICE_MAJ = "Hold SHIFT for more information"
+-- 0.9.5 : phrase ecrite par le client lui-meme (absente de GlobalStrings) ; « MAJ » comme SHIFT_KEY officiel
+-- (« Touche MAJ »)
+local INDICE_MAJ_FR = "Maintenez MAJ pour plus d'informations"
 
 -- Traduit un texte de sort affiche. en : le modele anglais (texte), ou l'empreinte de sa forme
 -- plate (nombre) quand il n'a ni variable ni nombre. Renvoie le francais, ou nil.
@@ -319,7 +433,12 @@ local TexteSortSimple
 TexteSortSimple = function(fr, en, affiche)
     if type(fr) ~= "string" or type(affiche) ~= "string" or affiche == "" then return nil end
     if type(en) == "number" then
-        if A.H1(A.Plat(affiche)) == en and not find(fr, "%$") then return fr end
+        if A.H1(A.Plat(affiche)) ~= en then return nil end
+        if not find(fr, "%$") then return fr end
+        -- 0.9.5 : anglais sans variable, francais accorde au joueur (« $gProtégé:Protégée; contre les effets… »)
+        local femme = A.Joueur and A.Joueur.genre == "f"
+        local f2 = gsub(fr, "%$[Gg]([^:;]*):([^;]*);", function(m, f) return femme and f or m end)
+        if not find(f2, "%$") then return f2 end
         return nil
     end
     if type(en) ~= "string" then return nil end
@@ -329,7 +448,13 @@ TexteSortSimple = function(fr, en, affiche)
         fr = gsub(gsub(fr, "%s*@ext:.-:ext@", ""), "%s+$", "")
         affiche = gsub(gsub(gsub(affiche, "%s*|c%x%x%x%x%x%x%x%x" .. INDICE_MAJ .. "|r", ""), "%s*" .. INDICE_MAJ, ""),
             "%s+$", "")
-        indice = "\n\n" .. INDICE_MAJ        -- (la phrase d'interface reste en anglais : pas de francais prouve)
+        indice = "\n\n" .. INDICE_MAJ_FR
+    end
+    -- 0.9.5 : balises @s:…@ en FIN de modele (le client montre ces sorts dans des lignes a part : la ligne de la
+    -- description s'arrete avant) : retirees des deux modeles quand l'affiche n'en a pas la trace
+    if find(en, "@%a+:[%d:%-]+@%s*$") and find(fr, "@%a+:[%d:%-]+@%s*$") then
+        en = gsub(en, "[%s]*@%a+:[%d:%-]+@[%s@%a%d:%-]*$", "")
+        fr = gsub(fr, "[%s]*@%a+:[%d:%-]+@[%s@%a%d:%-]*$", "")
     end
     local en_nu = gsub(SansCouleurs(en), "\r\n?", "\n")
     local aff_nu = gsub(SansCouleurs(affiche), "\r\n?", "\n")
@@ -341,9 +466,14 @@ TexteSortSimple = function(fr, en, affiche)
         local r = AlignerNombres(fr, A.Plat(en_nu), A.Plat(aff_nu))
         return r and (r .. indice) or nil
     end
-    local valeurs, conds, ordre, rangs = Extraire(en_nu, aff_nu)
-    if not valeurs then return nil end
-    local r = Appliquer(fr, valeurs, conds, ordre, rangs)
+    -- 0.9.5 : captures typees d'abord (« plus ${$m3+0}$?s807183[][, stunning…] » : deux variables collees, la
+    -- capture souple coupait n'importe ou), puis souples
+    local r
+    for _, mode in ipairs({ "typee", "souple" }) do
+        local valeurs, conds, ordre, rangs = Extraire(en_nu, aff_nu, mode)
+        if valeurs then r = Appliquer(fr, valeurs, conds, ordre, rangs) end
+        if r then break end
+    end
     if not r then return nil end
     -- garde-fou : jamais plus de « $ » que dans l'anglais affiche (variable abimee)
     local _, dfr = gsub(r, "%$", "")
@@ -407,17 +537,32 @@ TexteSort = function(fr, en, affiche)
     end
     for _, c in ipairs(cf) do if not vu[c.pre] then return nil end end
     if #pres > 5 then return nil end
-    local trouve
+    -- 0.9.5 (audit, « $?a524861[|cffff3232][|cffffffff]Requires Mortal Form|r ») : deux variantes qui ne different
+    -- que par leurs codes de couleur collent toutes deux au texte nu : on garde celle dont les couleurs sont celles
+    -- de l'affiche
+    local function Couleurs(t)
+        local c = {}
+        for x in gmatch(t, "|c(%x%x%x%x%x%x%x%x)") do c[#c + 1] = lower(x) end
+        return table.concat(c, ",")
+    end
+    local trouves, vus = {}, {}
     for masque = 0, 2 ^ #pres - 1 do
         local choix = {}
         for k, p in ipairs(pres) do choix[p] = math.floor(masque / 2 ^ (k - 1)) % 2 == 1 end
         local v = TexteSort(Developper(fr, cf, choix), Developper(en, ce, choix), affiche)
-        if v then
-            if trouve and trouve ~= v then return nil end
-            trouve = v
+        if v and not vus[v] then vus[v] = true; trouves[#trouves + 1] = v end
+    end
+    if #trouves <= 1 then return trouves[1] end
+    local nu = SansCouleurs(trouves[1])
+    for k = 2, #trouves do if SansCouleurs(trouves[k]) ~= nu then return nil end end
+    local ca, bon = Couleurs(affiche), nil
+    for _, v in ipairs(trouves) do
+        if Couleurs(v) == ca then
+            if bon then return nil end
+            bon = v
         end
     end
-    return trouve
+    return bon
 end
 A.TexteSort = TexteSort
 

@@ -19,7 +19,8 @@
 | **K** Critères des hauts faits (0.9.2) | 8 | hauts_faits_criteres | 28 | 8 139 | 51 786 | familles entières |
 | **L** Mise à jour au CoA du 08/11 (ensembles d'objets) | 8 | ensembles_objets | 36 | 10 574 | 40 341 | familles entières |
 | **M** Hauts faits : la release 3.5.1 retraduite ; sorts cités et sorts de spécialisation (0.9.4) | 9 | hauts_faits, sorts_objets | 126 | 25 480 | 175 442 | familles entières |
-| **Total** | | | 690 | 135 624 | 1 313 008 | |
+| **N** Sorts des classes : avancement du personnage de CoA (0.9.5) | 1 | sorts_objets, sorts_classes, talents, sorts_standard | 39 | 2 173 | 28 050 | familles entières |
+| **Total** | | | 729 | 137 797 | 1 341 058 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -41,11 +42,11 @@
 | cpp_en_dur | F | 501 | 541 | 3 868 | 2 | 2 |
 | sorts_serveur | G | 3 457 | 16 632 | 38 550 | 16 | 0 |
 | divers_serveur | F | 120 | 121 | 398 | 1 | 0 |
-| sorts_classes | C | 6 569 | 9 561 | 53 644 | 26 | 2 |
+| sorts_classes | C, N | 6 569 | 9 561 | 53 644 | 30 | 2 |
 | talents | C | 8 274 | 14 889 | 86 721 | 35 | 45 |
 | hauts_faits | H, M | 5 557 | 8 219 | 40 569 | 109 | 0 |
 | zones | D | 814 | 1 244 | 2 222 | 3 | 0 |
-| sorts_standard | G | 5 095 | 8 456 | 99 135 | 40 | 2 |
+| sorts_standard | G, N | 5 095 | 8 456 | 99 135 | 41 | 2 |
 | factions | F | 18 | 18 | 91 | 1 | 0 |
 | races | F | 11 | 13 | 17 | 1 | 0 |
 | sous_classes_objets | F | 1 | 2 | 2 | 1 | 0 |
@@ -63,7 +64,7 @@
 | progression | I | 601 | 781 | 4 168 | 3 | 0 |
 | monde_client | I | 470 | 706 | 1 498 | 2 | 1 |
 | noms_client | I | 694 | 7 397 | 1 800 | 3 | 0 |
-| sorts_objets | J, M | 15 447 | 27 888 | 179 456 | 110 | 126 |
+| sorts_objets | J, M, N | 15 447 | 27 888 | 179 456 | 144 | 126 |
 | vanite | J | 4 460 | 12 569 | 46 243 | 19 | 0 |
 | hauts_faits_criteres | K | 8 139 | 13 341 | 51 786 | 28 | 723 |
 
@@ -823,4 +824,48 @@
 | `sorts_objets_108` | sort 1014234 à 1157057 | 7 | 7 | 7 |
 | `sorts_objets_109` | sort 2002012 à 2002012 | 1 | 1 | 1 |
 | `sorts_objets_110` | sort 2985216 à 13977891 | 22 | 22 | 44 |
+
+### Chantier N : Sorts des classes : avancement du personnage de CoA (0.9.5)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `sorts_objets_111` | sort 16288 à 51471 | 26 | 37 | 638 |
+| `sorts_objets_112` | sort 86358 à 86397 | 16 | 16 | 387 |
+| `sorts_objets_113` | sort 91232 à 91234 | 4 | 4 | 45 |
+| `sorts_objets_114` | sort 92155 à 92418 | 28 | 30 | 619 |
+| `sorts_objets_115` | sort 300225 à 300225 | 1 | 2 | 1 |
+| `sorts_objets_116` | sort 102228 à 102228 | 1 | 1 | 16 |
+| `sorts_objets_117` | sort 120003 à 120089 | 104 | 108 | 2023 |
+| `sorts_objets_118` | sort 120111 à 120198 | 96 | 103 | 1964 |
+| `sorts_objets_119` | sort 209452 à 209452 | 1 | 1 | 29 |
+| `sorts_objets_120` | sort 263374 à 277423 | 3 | 3 | 82 |
+| `sorts_objets_121` | sort 300225 à 300699 | 300 | 371 | 2252 |
+| `sorts_objets_122` | sort 300701 à 300993 | 68 | 73 | 483 |
+| `sorts_objets_123` | sort 312090 à 312090 | 1 | 1 | 36 |
+| `sorts_objets_124` | sort 410000 à 411005 | 7 | 12 | 141 |
+| `sorts_objets_125` | sort 423785 à 423825 | 11 | 15 | 874 |
+| `sorts_objets_126` | sort 435104 à 435693 | 11 | 18 | 390 |
+| `sorts_objets_127` | sort 500013 à 503793 | 64 | 70 | 786 |
+| `sorts_objets_128` | sort 520573 à 560680 | 5 | 5 | 43 |
+| `sorts_objets_129` | sort 701463 à 705057 | 242 | 306 | 2498 |
+| `sorts_objets_130` | sort 705062 à 705861 | 300 | 418 | 2367 |
+| `sorts_objets_131` | sort 705872 à 800315 | 246 | 318 | 2469 |
+| `sorts_objets_132` | sort 800335 à 800749 | 20 | 20 | 321 |
+| `sorts_objets_133` | sort 800844 à 802162 | 71 | 74 | 903 |
+| `sorts_objets_134` | sort 802275 à 802347 | 9 | 9 | 143 |
+| `sorts_objets_135` | sort 802706 à 806614 | 210 | 234 | 2334 |
+| `sorts_objets_136` | sort 811255 à 820712 | 38 | 48 | 1167 |
+| `sorts_objets_137` | sort 827790 à 832602 | 14 | 18 | 521 |
+| `sorts_objets_138` | sort 834476 à 888010 | 42 | 51 | 1304 |
+| `sorts_objets_139` | sort 954192 à 954217 | 13 | 27 | 308 |
+| `sorts_objets_140` | sort 954500 à 954617 | 37 | 37 | 823 |
+| `sorts_objets_141` | sort 954704 à 965426 | 63 | 66 | 1371 |
+| `sorts_objets_142` | sort 979700 à 979700 | 1 | 1 | 32 |
+| `sorts_objets_143` | sort 986067 à 988256 | 5 | 5 | 108 |
+| `sorts_objets_144` | sort 2304121 à 2304121 | 2 | 3 | 12 |
+| `sorts_classes_027` | sort 71349 à 71349 | 1 | 1 | 3 |
+| `sorts_classes_028` | sort 535505 à 560963 | 2 | 3 | 72 |
+| `sorts_classes_029` | sort 804597 à 804597 | 1 | 1 | 33 |
+| `sorts_classes_030` | sort 928889 à 997141 | 108 | 226 | 449 |
+| `sorts_standard_041` | sort 1 à 1 | 1 | 3 | 3 |
 

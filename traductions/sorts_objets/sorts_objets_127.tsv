@@ -1,0 +1,65 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	500013		Description	e5b4c73dd89e	Invoque une protection vaudou à courte distance devant vous, qui inflige ${$cond($gt($spfi, $spn), $501075m1+$501075ppl1+$spfi*.12, $501075m1+$501075ppl1+$spn*.12)} points de dégâts de Tempête de feu à un maximum de $504821i cibles proches toutes les $501075t1 sec pendant $d. \r\n\r\nÀ la fin de la durée, la protection explose et inflige ${$501075m3+$501075ppl3+$501075SP*.5} points de dégâts de Tempête de feu à tous les ennemis situés à moins de $572841a1 mètres.\r\n\r\n@ext:Vous ne pouvez avoir que 1 |cffffffffProtection|r active à la fois.:ext@	lot sorts_objets_127
+sort	500014		Description	7825e203fd21	Votre |cffffffffLame d'argent|r prolonge désormais aussi la durée d'|cffffffffInterdiction|r sur votre cible de $/1000;s1 sec.	lot sorts_objets_127
+sort	500019		Rank	c02f134e315b	Surcharge de bourrasque	lot sorts_objets_127
+sort	500019		ToolTip	21e064bc3f4e	Votre prochaine |cffffffffBourrasque|r inflige 200% de dégâts supplémentaires.	lot sorts_objets_127
+sort	500023		Description	689ab42af4fd	Augmente la valeur de blocage de $s1% pendant $d.	lot sorts_objets_127
+sort	500023		ToolTip	29077d2c44bc	Valeur de blocage augmentée de $m1%.	lot sorts_objets_127
+sort	500027		Description	885a095f7bc6	Donne aux |cffffffffCors du rôdeur|r une durée limitée mais les renforce de 25%, et vous permet d'en avoir plusieurs actifs en même temps.\r\n\r\nEnseigne le |cffffffffCor de guerre du rôdeur|r.@s:800086:0@	lot sorts_objets_127
+sort	500027		ToolTip	778bf72de481	Donne aux |cffffffffCors du rôdeur|r une durée limitée mais les renforce considérablement, et vous permet d'en avoir plusieurs actifs en même temps.\n\nEnseigne le |cffffffffCor de guerre du rôdeur|r.@s:800086@	lot sorts_objets_127
+sort	500072		Description	9e2868212189	Tire plusieurs flèches rapides sur une cible ennemie et inflige $s1 points de dégâts d'arme à distance, puis $s1 points toutes les $t1 sec pendant $d.	lot sorts_objets_127
+sort	500072		Name	12a3b488175e	Barrage rapide	lot sorts_objets_127
+sort	500072		ToolTip	53361f9cc0df	Tir toutes les $t1 sec.	lot sorts_objets_127
+sort	500076		Description	ee45da81b5c3	|cFF66DDFFPassif de niveau 50|r\r\nAugmente votre Endurance de $s1% et votre taille de $s2%.	lot sorts_objets_127
+sort	500076		Rank	b84ac05e176e	Aura de spécialisation	lot sorts_objets_127
+sort	500082		Description	be49c02a82de	Décoche un tir enroulé qui inflige $s1% des dégâts de l'arme à distance plus ${$m2+0}.\r\n\r\nGénère $/10;500164s1 points de Rage. Utilisable en mouvement.	lot sorts_objets_127
+sort	500082		Name	6f49115b574e	Tir enroulé	lot sorts_objets_127
+sort	500084		Description	7c8cbe25d69d	Frapper au moins 5 ennemis avec |cffffffffVolée sombre|r ou infliger des dégâts avec |cffffffffAppel du maître-chien|r vous fait désormais déchaîner une volée de corbeaux autour de chaque ennemi touché, infligeant ${($500564d*1000/$500564T1)*($500564m1+$500564ppl1+$SP*.175+$RAP*0.1)} points de dégâts du Crépuscule en $500564d.	lot sorts_objets_127
+sort	500095		Description	35ae0e73bcd4	Inflige des dégâts de Peste dans un rayon de $a1 mètres.	lot sorts_objets_127
+sort	500117		Description	e20f6be17ff3	Votre |cffffffffGivre de liche|r et votre |cffffffffEssaim de la crypte|r appliquent désormais la |cffffffffPeste de la crypte|r.@s:570131:0@	lot sorts_objets_127
+sort	500117		ToolTip	ea5c05f7c37f	Les dégâts périodiques des maladies du nécromancien peuvent désormais infliger des coups critiques, et |cffffffffPutréfaction|r applique la |cffffffffPeste de la crypte|r.@s:500339@	lot sorts_objets_127
+sort	500191		Description	bde0375040ed	Empale tous les ennemis situés à moins de $r mètres et affectés par |cffffffffFroid mortel|r, leur infligeant ${$m1+($pl*1.2-15*1.2)} points de dégâts de Givre et consommant une charge de |cffffffffFroid mortel|r sur eux.	lot sorts_objets_127
+sort	500210		Description	331cac9798fe	Infliger des dégâts directs du Sacré ou de Feu génère désormais $/10;800765s1 points de Rage, et |cffffffffExécution glorieuse|r applique désormais |cffffffffFlammes purificatrices|r, infligeant ${$800616m2+$800616ppl2} points de dégâts de Feu toutes les $800616t2 sec pendant $800616d.\r\n\r\nVous permet de manier une hache, une masse ou une épée à deux mains dans chaque main.	lot sorts_objets_127
+sort	500210		Name	02d122fd0d39	Clerc du soleil valkyrie	lot sorts_objets_127
+sort	500233		Description	60a3b98a9011	Inflige $s1 points de dégâts de Feu à tous les ennemis situés à l'endroit ciblé.	lot sorts_objets_127
+sort	500233		Rank	0eb4b847d1f1	Rang 1 OBSOLÈTE	lot sorts_objets_127
+sort	500233		ToolTip	8782b772f122	Résistance au Feu réduite.	lot sorts_objets_127
+sort	500237		Name	6c7fe02750cb	Flétrissure	lot sorts_objets_127
+sort	500243		Description	c3abf68891a4	Foudroie la cible et ses alliés immédiats, brûlant $s1 points de mana et infligeant des dégâts de Nature selon le mana brûlé. \n\nInterrompt l'incantation de tous les ennemis touchés et les empêche de lancer des sorts de la même école pendant $d.	lot sorts_objets_127
+sort	500243		Name	81aabad83a41	Rayon électromagnétique	lot sorts_objets_127
+sort	500244		Description	d64014058318	Frappe l'ennemi et inflige $s1 points de dégâts de Nature, et renforce votre prochain Tir de ferraille.	lot sorts_objets_127
+sort	500244		Rank	e0a3614fe0f7	Déclenchement	lot sorts_objets_127
+sort	500251		Description	6dbd1e0e063c	Inflige $s1 points de dégâts des Arcanes et déchaîne votre |cffffffffCombinaison d'essences|r actuelle pour déclencher un effet de Sceau selon la combinaison.\n\nConsultez les passifs de |cffffffffPage perdue|r pour connaître les combinaisons disponibles.	lot sorts_objets_127
+sort	500267		Name	a6d0f9200b55	Expulsion de la flétrissure	lot sorts_objets_127
+sort	500295		Description	9a0543ca4069	|cffffffffFracas de pierre|r se recharge plus vite entre deux utilisations, et être touché peut l'accélérer encore. Les Fracas de pierre pleinement renforcés confèrent |cffffffffRage de la terre|r, réduisant le temps d'incantation de |cffffffffBarrage de géodes|r de $806068s1%, cumulable 3 fois. \r\n\r\nVotre score de toucher est augmenté de $s2% de votre Force.	lot sorts_objets_127
+sort	500295		Name	40d90af12e3d	Rage de la terre	lot sorts_objets_127
+sort	500295		ToolTip	74d5c981fb50	Fracas de pierre se recharge plus vite entre deux utilisations, et être touché peut l'accélérer encore. Les Fracas de pierre pleinement renforcés confèrent Rage de la terre.|r	lot sorts_objets_127
+sort	500300		Name	748a24de4f8e	Étendard de suprématie	lot sorts_objets_127
+sort	500300		ToolTip	8c2e9dde47ca	Un Étendard de suprématie proche augmente les dégâts infligés par vos attaques.	lot sorts_objets_127
+sort	500305		Description	e3409b551634	Invoque une pluie de rochers sur la zone ciblée, infligeant ${$m3+0+$SP*0.09} points de dégâts de Nature à un maximum de $i ennemis toutes les $t3 sec pendant $d.	lot sorts_objets_127
+sort	500305		ToolTip	a6e6312c1a8b	Subit $s3 points de dégâts de Nature toutes les $t3 sec.	lot sorts_objets_127
+sort	500307		Name	8c3d84112e04	Expulsion de la flétrissure - Revigorer le lanceur	lot sorts_objets_127
+sort	500310		Description	edbd47e32576	Tant que |cffffffffGravure d'arme : Feu|r est active, |cffffffffExplosion élémentaire|r inflige $s1% de dégâts de Feu supplémentaires et votre chance de déclencher |CffffffffTison|r est augmentée de $s2%.	lot sorts_objets_127
+sort	500310		ToolTip	8aa6adb61160	|cffffffffColère des sorts|r génère désormais une Rune inscrite et fait déchaîner une |cffffffffImpulsion runique|r à votre familier runique.|r@s:800671@	lot sorts_objets_127
+sort	500358		Description	2896a46a7c4f	Inflige $s1 points de vie de dégâts toutes les $t1 sec à la cible pendant $d, et rend au lanceur 80% de cette valeur.$?s705416[ Tant que l'effet est actif, vous recevez $s2% de soins supplémentaires.][]\r\n\r\n|cff5ee2ffInfusion d'âme|r : a une cadence augmentée de $806260s3%.	lot sorts_objets_127
+sort	500365		Rank	19e9d2245f60	Invocateur	lot sorts_objets_127
+sort	500680		Description	b2dc98ade338	$?a704575[|cffffffff][|cffff3232]Nécessite 3 combos|r\r\nFrappe violemment un ennemi et lui inflige ${$m1+0} points de dégâts physiques, le projetant dans les airs.	lot sorts_objets_127
+sort	500680		ToolTip	57e4b44dd5b9	Vient d'être touché par Uppercut !	lot sorts_objets_127
+sort	500707		Description	6b675cb90200	Invoque pendant $d un |cffffffffTentacule de N'Zoth|r à l'endroit ciblé, qui attaque les ennemis proches.\r\n\r\nGénère 10 |cffcfa6ffFolie|r.\r\n\r\n|cffffffffHéraut de N'Zoth|r : a un temps de recharge réduit de $805149s1%.	lot sorts_objets_127
+sort	500707		ToolTip	de139f47fe55	Des tentacules ont jailli de votre dos et se battent à vos côtés !	lot sorts_objets_127
+sort	500716		Description	378c7e489c96	Crée un orbe abyssal qui orbite autour de la cible, |cffb0f67aabsorbant|r $s1 points de dégâts pendant |cfffeff9e$d|r maximum.\n\nTant que le bouclier tient, la cible inflige |cfffeff9e$s2%|r de dégâts supplémentaires et bénéficie de |cfffeff9e$s3%|r de |cffff8100vitesse de déplacement|r supplémentaire.	lot sorts_objets_127
+sort	500716		Name	32768984600e	Orbe abyssal	lot sorts_objets_127
+sort	500716		ToolTip	415966d610d6	Absorbe les dégâts. Tant que le bouclier tient, vous infligez $s2% de dégâts supplémentaires et bénéficiez de $s3% de vitesse de déplacement supplémentaire.	lot sorts_objets_127
+sort	500718		Description	83b92f6b5b56	Souille l'arme d'un allié pendant $d, lui accordant $s2% de hâte supplémentaire et $h% de chances de voler ${$m1+($pl*0.5)+$SP*0.226} points de vie aux ennemis qu'il blesse, et de se soigner de la moitié de la quantité volée.	lot sorts_objets_127
+sort	500953		Description	b9ec73e0e337	|cffffffffInvoque Hir'eek|r\nApplique un |cffffffffMaléfice|r sur l'ennemi, réduisant la hâte de $s1% et augmentant les coûts en ressources de $s2% pendant $d.\n\nNe se cumule pas avec les effets similaires.	lot sorts_objets_127
+sort	500953		Name	a272413c3975	Maléfice de léthargie	lot sorts_objets_127
+sort	500953		ToolTip	2b12639d6dfe	Hâte réduite de $s1% et coûts en ressources augmentés de $s2%.	lot sorts_objets_127
+sort	500980		ToolTip	565b86fd4dd2	La prochaine Marche funèbre fait charger ce serviteur et lui fait infliger des dégâts supplémentaires. 	lot sorts_objets_127
+sort	500992		Name	107c401e40e0	Idole du lien spirituel	lot sorts_objets_127
+sort	500992		ToolTip	c54cbaa2f091	Redistribue la santé des alliés proches toutes les $t1 sec.	lot sorts_objets_127
+sort	500993		Name	107c401e40e0	Idole du lien spirituel	lot sorts_objets_127
+sort	501982		Description	4e8a55ef0c89	Protège un allié avec une protection glaciale, absorbant ${$m1+0+$SP*0.2} points de dégâts pendant $d maximum.\r\n\r\nLes dégâts subis appliquent |cffffffffFroid mortel|r aux attaquants et réduisent leur vitesse de déplacement de $560624s1% pendant $560624d.	lot sorts_objets_127
+sort	501982		ToolTip	1d3b67c77500	Absorbe ${$w1} points de dégâts. Les attaquants sont ralentis.	lot sorts_objets_127
+sort	503793		ToolTip	def85ffbb5cf	Inflige $m1 points de dégâts de Nature aux attaquants.	lot sorts_objets_127
+sort	801691		Rank	0eb4b847d1f1	Rang 1 OBSOLÈTE	lot sorts_objets_127
+sort	805252		Rank	19e9d2245f60	Invocateur	lot sorts_objets_127

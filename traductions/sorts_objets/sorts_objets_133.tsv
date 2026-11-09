@@ -1,0 +1,71 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	800844		Name	8b47153351f5	Nostrum	lot sorts_objets_133
+sort	800844		ToolTip	4bf0191c8ea8	$?s707371[Vole 2 effets magiques bénéfiques à tous les ennemis dans un rayon de $a2 mètres de la cible.][Dissipe ${$w1} effets magiques nuisibles sur tous les alliés dans un rayon de $a1 mètres de la cible.]	lot sorts_objets_133
+sort	800876		Description	8d128a5e6570	Canalise un filet de toile sur un ennemi, ce qui réduit sa vitesse de déplacement de $s1% et lui inflige ${$m2+0+$spn*0.2} points de dégâts de Nature toutes les $t2 sec pendant $d.\r\n\r\nTant que l'effet est actif, la cible subit $s3% de dégâts supplémentaires de vos autres effets de dégâts périodiques.\r\n\r\nUtilisable sous toutes les formes.	lot sorts_objets_133
+sort	800876		ToolTip	49406363b610	Subit ${$m2+$ppl2+$SP*.2} points de dégâts de Nature toutes les $T2 sec. Vitesse de déplacement réduite de $800923s1%. 	lot sorts_objets_133
+sort	800877		Description	2718139b2b3c	$?a504336[|cffffffff][|cffff3232]Nécessite la forme de tisse-pourriture ou de vizir|r\nLance une toile sur un ennemi et l'étourdit pendant $d.	lot sorts_objets_133
+sort	800877		Name	3e50ff1e6fd8	Lien de Shadra	lot sorts_objets_133
+sort	800886		Description	b4588d6c6091	Consomme une charge de |cffffffffToxine mortelle|r sur un ennemi pour infliger ${$806597m1+$806597ppl1+$spn*.027} points de dégâts de Nature et l'affliger de |cffffffffVenin flétrissant|r pendant $800886d.\r\n\r\nCet effet inflige ${$m1+0} points de dégâts de Nature toutes les $800886t1 sec. À chaque tick, il gagne une charge supplémentaire, jusqu'à 15 charges.	lot sorts_objets_133
+sort	800886		ToolTip	5a97291c0e97	Inflige ${$m1+$ppl1} points de dégâts de Nature toutes les $t1 sec. Chaque fois que cet effet inflige des dégâts, il gagne une charge supplémentaire, jusqu'à $u charges.	lot sorts_objets_133
+sort	800904		Description	c268ae6b8e01	Rend ${$m1+0} points de vie à $i alliés maximum se trouvant à moins de $a1 mètres du lieu ciblé et leur applique |cffffffffVeille de Shadra|r.@ext:@s:800870:0@:ext@	lot sorts_objets_133
+sort	800935		Description	0983f00bb4a7	Augmente de $s1% vos chances de coup critique contre la cible pendant $d.	lot sorts_objets_133
+sort	800935		ToolTip	3078713c6643	Le Faucheur a ${$w1}% de chances de coup critique supplémentaires contre vous.	lot sorts_objets_133
+sort	801024		Name	ef440a7004bd	Ajoute 2 Gangrefurie	lot sorts_objets_133
+sort	801024		ToolTip	f9702f651944	Représente vos charges de Gangrefurie.	lot sorts_objets_133
+sort	801043		Name	c493bb647efd	Ajoute 6 Gangrefurie	lot sorts_objets_133
+sort	801043		ToolTip	f9702f651944	Représente vos charges de Gangrefurie.	lot sorts_objets_133
+sort	801071		Description	ba9690fe1fef	Émane une pestilence qui ralentit de $s1% la vitesse d'incantation de tous les ennemis situés à moins de $a1 mètres.$?s801002[\n\n|cffffffffDéchaînement|r : interrompt toutes les incantations ennemies dans un rayon de $802857a2 mètres et empêche de lancer tout sort de cette école de magie pendant $802857d.][]	lot sorts_objets_133
+sort	801071		ToolTip	ee95c950c7b7	Vitesse d'incantation ralentie de $s1%.	lot sorts_objets_133
+sort	801494		Description	b71a36bf7a57	$?s973821[Cette maîtrise vous enseigne chaque aptitude listée quand vous atteignez le niveau requis.][Vous obtenez la Maîtrise du pistage en apprenant n'importe quelle aptitude de pistage. \r\n\r\nCette maîtrise débloque automatiquement des aptitudes de pistage supplémentaires quand vous atteignez leurs points de classe requis, sans coût supplémentaire en essence d'aptitude.\r\n@ext:@s:120159:0@~@s:120159:-1@:ext@\r\n@ext:@s:120149:0@~@s:120149:-1@:ext@\r\n@ext:@s:120164:0@~@s:120164:-1@:ext@\r\n@ext:@s:120162:0@~@s:120162:-1@:ext@\r\n@ext:@s:120160:0@~@s:120160:-1@:ext@\r\n@ext:@s:120163:0@~@s:120163:-1@:ext@\r\n@ext:@s:120161:0@~@s:120161:-1@:ext@\r\n@ext:@s:19885:0@~@s:19885:-1@:ext@]	lot sorts_objets_133
+sort	801494		Name	872352446933	Maîtrise du pistage	lot sorts_objets_133
+sort	801586		Description	504ae83e1f50	Psalmodie une incantation de la main d'argent et lance un marteau sacré sur votre cible, ce qui vous attire instantanément vers elle et retire |cffffffffEntrave sacrée|r de vous et d'elle s'il s'agit d'un allié.\r\n\r\nÀ l'arrivée, vous infligez ${$m1+$ppl1+$AP*2} points de dégâts du Sacré à tous les ennemis proches et rendez la même quantité de points de vie aux alliés proches.	lot sorts_objets_133
+sort	801586		Rank	c29d7744e4dc	Retrait des entraves	lot sorts_objets_133
+sort	801649		ToolTip	de9c0dbcb6e6	Dégâts subis par le Faucheur augmentés de $705432s3%.	lot sorts_objets_133
+sort	801668		Description	e5a1e9e07027	|cffffffffInvoque Hir'eek|r\nInflige ${$m1+$RAP*0.035+SP*0.142885} points de dégâts physiques à un ennemi et lui inflige deux |cffffffffMalédictions|r de féticheur aléatoires.	lot sorts_objets_133
+sort	801685		Name	7912e0588392	Dévotion de Bwonsamdi	lot sorts_objets_133
+sort	801685		ToolTip	59918022de7e	Vous vous vouez à Bwonsamdi : les dégâts directs que vous infligez vous rendent ${$w1}% des dégâts infligés en points de vie.\r\n\r\nQuand vos points de vie tombent sous 25% du maximum, vous recevez |cffffffffRefuge de l'esprit|r.\r\n@ext:@s:802706:0@:ext@	lot sorts_objets_133
+sort	801687		Description	6fefc30480be	Si vous pouvez lire ceci, contactez un membre du personnel.	lot sorts_objets_133
+sort	801687		Name	2cffa61ad672	Explosion de Sulfuron	lot sorts_objets_133
+sort	801687		ToolTip	8fce1a8cc286	Inflige des dégâts de Feu.	lot sorts_objets_133
+sort	801711		Description	ba0f691474af	Prend le contrôle d'une créature mécanique de votre niveau ou inférieur pendant $d.	lot sorts_objets_133
+sort	801711		ToolTip	1a859e353efa	Charmé.\r\n\r\nPrend le contrôle d'une créature mécanique de votre niveau ou inférieur pendant $d.	lot sorts_objets_133
+sort	801751		Description	d41d50c1ccb2	Vous frappez d'un souffle glacial tous les ennemis situés à moins de $a1 mètres et affectés par |cffffffffFroid mortel|r, ce qui leur inflige ${$801757m1+($pl*4)} points de dégâts de Givre, ainsi qu'à leurs alliés proches, et consomme 1 charge de |cffffffffFroid mortel|r.	lot sorts_objets_133
+sort	801751		Name	81d2054441ac	Déclencheur de séisme de glace	lot sorts_objets_133
+sort	801752		Description	3cf3fe934e35	Inflige $s2% des dégâts de l'arme plus $s1 points de dégâts physiques.\r\n\r\nNe peut être bloqué, esquivé ni paré, mais n'est utilisable qu'avec moins de 20% de points de vie, sauf si |cffffffffRage sauvage|r est active.	lot sorts_objets_133
+sort	801752		ToolTip	cba375e8e5ae	Dégâts subis lors du prochain Saccage ou de la prochaine Frappe sauvage augmentés de ${$w3}%.	lot sorts_objets_133
+sort	801811		Name	5dccac7cdee2	Amélioration Z-15	lot sorts_objets_133
+sort	801811		ToolTip	79411fedcfdf	A une chance de frapper un ennemi et de lui infliger des dégâts de Nature supplémentaires.	lot sorts_objets_133
+sort	801826		Description	920d60d9d65c	|cffffffffTir de ferraille du canon de précision|r inflige désormais $504496s1% de dégâts supplémentaires toutes les $t1 sec.	lot sorts_objets_133
+sort	801826		Name	79b617a80b76	Une balle dans le canon	lot sorts_objets_133
+sort	801826		ToolTip	920d60d9d65c	|cffffffffTir de ferraille du canon de précision|r inflige désormais $504496s1% de dégâts supplémentaires toutes les $t1 sec.	lot sorts_objets_133
+sort	801890		Description	11c6c8ea994f	Certaines de vos aptitudes offensives peuvent déclencher une |cffffffffFrappe gangrenée|r sur une cible ennemie.@s:801891:0@	lot sorts_objets_133
+sort	801890		Name	1234b33bb94e	Frappes gangrenées	lot sorts_objets_133
+sort	801890		ToolTip	fa10a9d7eb9e	Certaines de vos aptitudes offensives peuvent déclencher une |cfffeff9eFrappe gangrenée|r sur une cible ennemie.@s:801891@	lot sorts_objets_133
+sort	801891		Description	ddc5f8fe5cc3	Inflige ${$801893m1+$801893ppl1} points de dégâts de flamme d'ombre.	lot sorts_objets_133
+sort	801894		Description	b4046bc67699	Votre |cffffffffBarrière forgée par la haine|r évolue désormais aussi avec vos points de vie maximum.	lot sorts_objets_133
+sort	801898		Name	11950629902a	Courroux de Tichondrius	lot sorts_objets_133
+sort	801900		Description	1bca39a6b6a8	Augmente de $/1000;s1 sec la durée de l'|cffffffffInfernal gangrené|r invoqué par votre |cffffffffRuine|r et lui confère une puissante |cffffffffAura d'immolation|r.@s:802784:0@	lot sorts_objets_133
+sort	801902		Description	5d8ce6c6a227	Les dégâts de vos aptitudes de mêlée ont désormais $h% de chances de réinitialiser le temps de recharge d'|cffffffffAnnihilan Strike|r et de faire en sorte que son prochain lancer ne consomme pas d'Énergie.	lot sorts_objets_133
+sort	801902		ToolTip	ba89101dbe6a	Votre prochain Annihilan Strike coûte moitié moins d'Énergie.	lot sorts_objets_133
+sort	801909		Name	a96461d50c2e	Terrible destin gangrené	lot sorts_objets_133
+sort	801940		Description	8a2033cfe73d	Vole $s1 |cfffeff9epoints de vie|r.	lot sorts_objets_133
+sort	801940		Name	ea752a4172b4	Fléau de la moisson (Expulsion)	lot sorts_objets_133
+sort	801946		Description	e9ec9b395014	Inflige instantanément ${$801947m1+$801947ppl1} points de dégâts de peste à tous les ennemis situés à moins de $a1 mètres et affectés par au moins 1 maladie de nécromancien.	lot sorts_objets_133
+sort	801946		Name	66b30939b94c	Flétrissure pestilentielle	lot sorts_objets_133
+sort	801964		Description	fc09452c4f5f	Invoque un pacte de sang, échangeant des points de vie contre des réflexes accrus : vos chances d'esquiver augmentent et les chances que les attaques à distance vous touchent diminuent de $s3%$?s560257[, et les soins que vous recevez augmentent de $s1%][] pendant $d.\r\n\r\nTant que l'effet est actif, vous pouvez esquiver et parer en incantant.	lot sorts_objets_133
+sort	802002		Description	06129f78e2e3	Augmente vos chances de parer de $s2% et les dégâts de Feu que vous infligez de $s3%, et permet d'utiliser les aptitudes de |cffffffffPosture de la lame|r.\r\n\r\nChanger de posture vous fait perdre une partie de votre Rage.	lot sorts_objets_133
+sort	802002		Name	02376921a96f	Posture de la lame	lot sorts_objets_133
+sort	802002		ToolTip	981f4d108d31	Permet d'utiliser les aptitudes de Posture de la lame. Chances de parer augmentées de ${$w2}%. Dégâts de Feu infligés augmentés de ${$w3}%.	lot sorts_objets_133
+sort	802109		Description	467f5c1d4a9f	|cff93cceaDéchaîne les charges de souffle|r\r\nBrûle une cible ennemie de votre souffle ardent, ce qui inflige ${$802105m1+($pl*0.73-10*0.73)} points de dégâts de feu-sort toutes les $802105t sec. Dure 4 sec, plus 4 sec par |cffffffffcharge de souffle|r déchaînée.\r\n\r\nTant que l'effet est actif, les attaques de Feu contre la cible ont $802105s2% de chances de coup critique supplémentaires.	lot sorts_objets_133
+sort	802109		Name	b13f89bec346	Souffle de Malygos	lot sorts_objets_133
+sort	802113		Description	28317fd87cc6	Votre |cffffffffBrasier|r frappe désormais un ennemi supplémentaire proche de la cible principale.	lot sorts_objets_133
+sort	802113		Name	fc24ae3b8937	Feu de brousse	lot sorts_objets_133
+sort	802113		ToolTip	0c9ed831b8e4	|cffffffffTrait de fusée éclairante|r augmente votre vitesse de déplacement de $802112s1% pendant $802112d, cumulable 4 fois.\r\n\r\n|cffffffffÉclat de lave|r consomme les charges pour infliger ${$802115m2+($pl*0.2)} points de dégâts supplémentaires et réduire la vitesse de déplacement de $802115s1%.\r\n\r\nDégâts augmentés de $802112s2%, réduction de vitesse de déplacement de 5% et durée augmentée de $/1000;802112s3 sec par charge consommée.	lot sorts_objets_133
+sort	802114		Description	264a0916f19d	Draine $s1 points de vie.	lot sorts_objets_133
+sort	802114		Rank	c92a20f9bc03	Drain	lot sorts_objets_133
+sort	802129		Description	46a0badc706b	Infecte un ennemi et lui inflige ${$m3+0+$SP*0.14} points de dégâts de peste toutes les $t3 sec pendant $d.\r\n\r\nAprès $d, la cible explose et inflige ${$m1+0+$SP*0.38} points de dégâts de peste à tous les ennemis situés à moins de $802128a1 mètres.	lot sorts_objets_133
+sort	802143		Description	36bd62d7f664	Vous enflammez votre lame d'un feu purificateur : vos attaques automatiques consomment 10 Rage pour infliger ${$802144m1+$802144ppl1+$spfi*0.02285} points de dégâts de Feu supplémentaires.	lot sorts_objets_133
+sort	802143		Name	75ef22f82de9	Lame enflammée	lot sorts_objets_133
+sort	802143		ToolTip	b135629eca20	Vos attaques automatiques de mêlée consomment 10 Rage et infligent des dégâts de Feu supplémentaires.	lot sorts_objets_133
+sort	802162		Description	b0c6fabc0574	Augmente de $s1% les dégâts critiques de |cffffffffTrait de fusée éclairante|r.	lot sorts_objets_133
+sort	802162		ToolTip	00f57d24bff4	Augmente de ${$w1}% les dégâts bonus des coups critiques de |cffffffffTrait de fusée éclairante|r.	lot sorts_objets_133

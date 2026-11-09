@@ -28,6 +28,11 @@ local function Version()
         else
             A.Message(format("interface (PTRXML) %s : %d textes en français, %d laissés en anglais (absents ou différents dans ce client).",
                 tostring(i.version), i.remplaces or 0, i.ignores or 0))
+            if i.absents then
+                A.Message(format("  dont %d clés absentes au chargement, %d au texte différent%s", i.absents,
+                    (i.ignores or 0) - i.absents, (type(i.differents) == "table" and #i.differents > 0)
+                    and (" (" .. table.concat(i.differents, ", ", 1, math.min(#i.differents, 8)) .. "…)") or ""))
+            end
         end
     else
         A.Message("interface (PTRXML) : non chargée (dossier Interface\\PTRXML absent ?).")

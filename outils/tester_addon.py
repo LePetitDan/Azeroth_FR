@@ -997,7 +997,47 @@ def choisir_cas():
     cas += cas_essai4(globales, g_obj, cr, obj)
     cas += cas_09(globales)
     cas += cas_094()
+    cas += cas_095()
     return cas, globales, injections
+
+
+def cas_095():
+    """0.9.5 (captures du 09/11) : Breuvage du loa (la même condition « $?s705848 » deux fois dans le modèle), texte
+    détaillé @ext d'un talent avec et sans MAJ, message d'ajustement du niveau des créatures."""
+    import audit_sorts as AU
+    cas = []
+    sl = {}
+    for rel in ('client/sorts_classes.tsv', 'client/sorts_objets.tsv', 'client/talents.tsv', 'client/sorts_coa.tsv',
+                'client/sorts_standard.tsv'):
+        for x in lire(rel):
+            if x[K.I_TYPE] == 'sort' and x[K.I_CHAMP] in ('Name', 'Description') and x[K.I_ID] in ('501198', '11100'):
+                sl.setdefault(x[K.I_ID], {})[x[K.I_CHAMP]] = x
+    n_, de = sl.get('501198', {}).get('Name'), sl.get('501198', {}).get('Description')
+    if n_ and de and passe(n_) and passe(de) and de[K.I_FR].count('$?s705848') == 2:
+        cas.append({'quoi': 'sort_bulle', 'nom': 'captures du 09/11 : « Loa\'s Brew » (même condition deux fois)',
+                    'id': 501198, 'anglais': n_[K.I_EN], 'lignes': [n_[K.I_EN], AU.rendu(de[K.I_EN], False, True)],
+                    'attendu': n_[K.I_FR], 'ligne_description': 2,
+                    'description_attendue': AU.rendu(de[K.I_FR], False, True).replace('\n', '\r\n')
+                    if '\r\n' in de[K.I_FR] else AU.rendu(de[K.I_FR], False, True)})
+    else:
+        NOTES.append('0.9.5 : Loa\'s Brew (501198) absent ou non traduit dans la source : cas non posé')
+    n_, de = sl.get('11100', {}).get('Name'), sl.get('11100', {}).get('Description')
+    if n_ and de and passe(n_) and passe(de) and '@ext:' in de[K.I_FR]:
+        indice = 'Hold SHIFT for more information'
+        for maj in (True, False):
+            cas.append({'quoi': 'sort_bulle', 'nom': 'captures du 09/11 : texte détaillé @ext de « %s », %s'
+                        % (n_[K.I_EN], 'MAJ enfoncée' if maj else 'sans MAJ (« %s »)' % indice),
+                        'id': 11100, 'anglais': n_[K.I_EN], 'lignes': [n_[K.I_EN], AU.rendu(de[K.I_EN], False, maj)],
+                        'attendu': n_[K.I_FR], 'ligne_description': 2,
+                        'description_attendue': AU.rendu(de[K.I_FR], False, maj).replace(
+                            indice, "Maintenez MAJ pour plus d'informations")})
+    else:
+        NOTES.append('0.9.5 : talent 11100 absent ou sans @ext traduit dans la source : cas @ext non posé')
+    cas.append({'quoi': 'discussion', 'evenement': 'CHAT_MSG_SYSTEM',
+                'nom': 'captures du 09/11 : « You have enabled open world creature scaling! »',
+                'message': 'You have |cff00ff00enabled|r open world creature scaling!',
+                'attendu': "Vous avez |cff00ff00activé|r l'ajustement du niveau des créatures en monde ouvert !"})
+    return cas
 
 
 def cas_094():
@@ -1394,6 +1434,8 @@ local liste = { GetChildren = function() return unpack(cartes) end, IsShown = fu
 CharacterSelect = { IsShown = function() return true end, viewingInactiveList = false }
 CharacterSelectCharacterFrame = { List = liste }
 GetCharIDFromIndex = function(i) return i end
+GlueTooltip = { IsShown = function() return true end }
+GlueTooltipTextLeft1 = Zone("Unread Mail")
 GetCharacterInfo = function(i)
     if i == 1 then return "Nom", "Human", "Stormbringer", 10, "Elwynn Forest", 2 end
     return "Nom", "Troll", "Witch Doctor", 12, "Zone Inconnue Du Banc", 3
@@ -1407,6 +1449,8 @@ assert(cartes[1].Content.Info:GetText() == %s, "classe (homme) non traduite")
 assert(cartes[1].Content.Location:GetText() == %s, "zone non traduite")
 assert(cartes[2].Content.Info:GetText() == %s, "classe (femme) non traduite")
 assert(cartes[2].Content.Location:GetText() == "Zone Inconnue Du Banc", "zone inconnue changée")
+print("bulle du courrier : " .. GlueTooltipTextLeft1:GetText())
+assert(GlueTooltipTextLeft1:GetText() == "Courrier non lu", "bulle « Unread Mail » non traduite")
 assert(not AzerothFR_Interface.erreur_creation, tostring(AzerothFR_Interface.erreur_creation))
 """ % (F.lua_chaine(os.path.join(DIST, 'PTRXML', 'AzerothFR_Interface.lua')).decode('utf-8'),
        F.lua_chaine('|cff0070dePorte-tempête|r niveau 10').decode('utf-8'),
@@ -1417,7 +1461,7 @@ assert(not AzerothFR_Interface.erreur_creation, tostring(AzerothFR_Interface.err
         f.write(script)
     r = subprocess.run([lua, p], capture_output=True, text=True)
     ok = r.returncode == 0
-    out.append(('OK  ' if ok else 'KO  ') + 'écran de sélection des personnages : classe (Porte-tempête, Féticheuse) et zone'
+    out.append(('OK  ' if ok else 'KO  ') + 'écran de sélection des personnages : classe (Porte-tempête, Féticheuse), zone et bulle « Unread Mail » (0.9.5)'
                + ('' if ok else '\n' + r.stderr))
     out.append(r.stdout.strip())
     return ok

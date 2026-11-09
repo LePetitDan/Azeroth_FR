@@ -121,8 +121,18 @@ TYPES_SANS_TOLERANCE = re.compile(r'^(sort|talent|enchantement|coa_description_s
 
 
 def tolere_officiel(l, refus):
-    if l[K.I_ETAT] != 'officiel' or l[K.I_TYPE] in C.TYPES_INTERFACE or TYPES_SANS_TOLERANCE.match(l[K.I_TYPE]):
+    if l[K.I_ETAT] != 'officiel' or l[K.I_TYPE] in C.TYPES_INTERFACE:
         return False
+    if TYPES_SANS_TOLERANCE.match(l[K.I_TYPE]):
+        # 0.9.5 (audit des sorts) : un sort officiel de Blizzard dont le français n'a pas les « $ghis:her; » ou
+        # « $lmuffin:muffins; » de l'anglais (« Conjure Food »), ou un nombre de plus (« Spécialisation Arme 2M ») :
+        # l'add-on remplit le modèle français avec les valeurs lues dans l'anglais affiché ; il suffit que chaque
+        # variable du français existe dans l'anglais. Sinon, refus comme avant.
+        if not all(r in ('variables', 'nombres') for r in refus):
+            return False
+        # $l et $g : l'add-on apparie par sorte, ou choisit seul (genre du joueur, nombre qui précède)
+        sans_gl = {x for x in K.TOK.findall(l[K.I_FR]) if not re.match(r'\$[GgLl]', x)}
+        return sans_gl <= set(K.TOK.findall(l[K.I_EN]))
     return all(r in OFFICIEL_TOLERES for r in refus)
 
 

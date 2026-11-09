@@ -186,3 +186,40 @@ Vague 13 (chantier M) : 126 requêtes, 2 relances, **25,59 $** ; dépense estim�
 ### Contrôles
 
 Source : 1 574 092 lignes, contrôle **0 bloquant**, faux cas refusés 57/57, vrais cas acceptés 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc hors jeu **conforme** : 150 exemples, 308 vérifications (barres du résumé des hauts faits, sort cité sous une description, calendrier en forme française et anglaise, panneau des compétences de CoA, mot-clé à « \r\n », arrêt du serveur), plus l'écran de sélection des personnages joué avec le vrai fichier d'avant-jeu (Porte-tempête, Féticheuse, Forêt d'Elwynn). Zip `Azeroth_FR-0.9.4.zip` (25,7 Mo, 84 fichiers).
+
+## 10. Version 0.9.5 : les captures du 09/11 et l'audit des sorts
+
+*09/11/2026. Captures de Dan avec la 0.9.4 (points 38 à 41 de `essais/2026-11-07_essai8/RESULTAT.md`), puis son exigence pour la version publique : tous les sorts des classes, talents et passifs en français. Détail de l'audit : `docs/2026-11-09_Rapport_Audit-sorts.md`.*
+
+### Les captures
+
+| # | Correction |
+|---|---|
+| 38 | Écran de sélection : bulle « Unread Mail » → « Courrier non lu » (paquet d'avant-jeu) |
+| 39 | « Breuvage du loa » : une même condition présente deux fois dans le modèle ; chaque occurrence est gardée dans l'ordre |
+| 40 | Texte détaillé « @ext:…:ext@ » traduit (395 textes, 1 346 lignes de sorts) ; « Hold SHIFT for more information » → « Maintenez MAJ pour plus d'informations » |
+| 41 | Hauts faits repassés en anglais : le lot 068 n'avait reçu que 7 réponses sur 301 ; `api_lots.py recevoir` relance désormais les textes sans réponse, 295 retraduits |
+
+Aussi : description du point « Sawmill » de la carte (point 26) et « Maintenez MAJ pour comparer », corrigées à la main (`relu`) ; message « You have enabled open world creature scaling! » dans la discussion ; `/azfr version` affiche les clés d'interface absentes ou différentes du paquet d'avant-jeu.
+
+### L'audit des sorts
+
+- **Périmètre** : 6 925 sorts des 32 classes de CoA (avancement du personnage du client), chacun vérifié dans la source puis à l'affichage, passé au vrai add-on hors jeu (16 960 affichages : conditions à « oui » et à « non », avec et sans MAJ).
+- **Résultat** : 1 478 sorts en défaut au départ ; **1** à la fin (un texte d'aura coupé par CoA lui-même).
+- **Traductions** : 1 218 sorts de l'avancement ajoutés à la source (chantier N, 39 lots) ; 2 376 doutes renvoyés à l'API avec leur raison ; 477 traduits ; 1 754 gardés en anglais à dessein, état `technique`, avec leur raison (`glossaire/sorts_garder.tsv`). « Ascended » reste une question ouverte.
+- **Add-on** : dix corrections de l'alignement des nombres, listées dans le rapport de l'audit (balises du client, conditions collées, couleurs, « $l » et « $g », « @ifknown »…).
+- **Fabrication** : les sorts officiels sans les « $g » et « $l » de l'anglais sont embarqués.
+- **Importeur** : l'ordre des sorts cités est fixe, la source se reconstruit à l'identique d'une fois à l'autre.
+
+### Traduction
+
+Vagues 14 à 18 : environ **5,69 $** ; dépense estimée totale **121,03 $** (garde-fou à 200 $).
+
+### Contrôles
+
+- Source : 1 578 201 lignes ; contrôle **0 bloquant** (format et contenu).
+- Faux cas refusés 57/57, vrais cas acceptés 33/33.
+- 62 fichiers Lua vérifiés avec Lua 5.1.
+- Banc hors jeu **conforme** : 154 exemples, 323 vérifications. Nouveaux cas : « Breuvage du loa », texte détaillé avec et sans MAJ, message d'ajustement des créatures, « Unread Mail » sur l'écran de sélection joué avec le vrai fichier d'avant-jeu.
+- Audit des sorts : 1 défaut sur 6 925 sorts.
+- Zip `Azeroth_FR-0.9.5.zip` : 25,9 Mo, 83 fichiers. Les données des sorts sont redécoupées : `Azeroth_FR_Sorts02` et `Azeroth_FR_Sorts03` comptent un fichier de moins chacun, `Azeroth_FR_Sorts04` un de plus (84 fichiers dans la 0.9.4).

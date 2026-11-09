@@ -99,6 +99,8 @@ CHANTIERS = [
     # 08/11/2026, add-on 0.9.4 : nouvelle passe (« redecouper ») sur des familles qui ont déjà leurs lots
     ('M', 'Hauts faits : la release 3.5.1 retraduite ; sorts cités et sorts de spécialisation (0.9.4)', 9,
      ['hauts_faits', 'sorts_objets']),
+    # 09/11/2026, exigence de Dan : tous les sorts des classes en français (avancement du personnage du client)
+    ('N', 'Sorts des classes : avancement du personnage de CoA (0.9.5)', 1, ['sorts_objets']),
 ]
 CHANTIERS_QUETES = ('A', 'B')
 # Familles en attente d'une decision de Dan : leurs lots sont au plan mais BLOQUES (aucune decision non tranchee
@@ -772,6 +774,9 @@ def attention(fam, typ, en):
         out.append('étiquette @…@ : la recopier telle quelle (traduite à part par glossaire/etiquettes.tsv)')
     if K.ETI_EXT.search(en):
         out.append('marqueur du client @s:…@ (ou @re:…@) : le garder tel quel, à la même place')
+    if '@ext:' in en:
+        out.append('texte détaillé « @ext:…:ext@ » (montré quand le joueur maintient MAJ) : TRADUIRE le texte, garder '
+                   '« @ext: » et « :ext@ » autour')
     if re.search(r'\$\?', en):
         out.append('condition $?…[…][…] : garder la condition et les crochets, traduire l\'intérieur des crochets')
     return out

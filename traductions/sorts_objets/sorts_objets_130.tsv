@@ -1,0 +1,418 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	705062		Description	26da1a86082c	Augmente la régénération de Focalisation de $s2% et la Focalisation maximale de $s3.	lot sorts_objets_130
+sort	705065		Description	1e5e55b229a4	Augmente de $s1% les dégâts infligés aux ennemis qui saignent. \r\n\r\nDe plus, les |cffffffffEmbuscades|r infligées par |cffffffffFlanc|r augmentent de $573280s1% vos dégâts contre l'ennemi pendant $573280d.	lot sorts_objets_130
+sort	705065		ToolTip	da761c855738	Augmente de ${$w1}% les dégâts que vous infligez aux ennemis qui saignent.	lot sorts_objets_130
+sort	705077		Description	50f9b62cffa8	|cFFFFFFFFPerce-crâne|r augmente désormais de $705078s1% l'efficacité de votre prochain sort de |cffffffffCor de rôdeur|r. Dure $705078d.	lot sorts_objets_130
+sort	705077		ToolTip	8fd233da44c8	Augmente de ${$w2}% les dégâts de |cffffffffPerce-crâne|r, et utiliser |cFFFFFFFFPerce-crâne|r augmente de $705078s1% l'efficacité de votre prochain sort de Cor.	lot sorts_objets_130
+sort	705078		Description	b9cefcb03129	Augmente de $s1% l'efficacité des |cffffffffCors de rôdeur|r.	lot sorts_objets_130
+sort	705078		ToolTip	8d94af4006da	Augmente de ${$w1}% les dégâts de Frappe du faucon, cumulable $u fois.	lot sorts_objets_130
+sort	705081		Description	1771c653e0f3	Augmente de $s1% les dégâts de |cffffffffFrappe sauvage|r, de |cffffffffFlèche de liane fouettante|r$?s500024[, d'|cffffffffAssaut|r][] et de |cffffffffRavage|r.	lot sorts_objets_130
+sort	705081		ToolTip	dfb48b0c7969	Augmente de ${$w1}% les dégâts de |cffffffffFrappe sauvage|r, de |cffffffffFlèche des bois|r, d'|cffffffffAssaut|r et de |cffffffffRavage|r.	lot sorts_objets_130
+sort	705090		Description	b41f2293dd9e	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGrappin-bombe|r et augmente ses dégâts de $s2%.	lot sorts_objets_130
+sort	705090		Name	191a7dde524d	Grappin-bombe amélioré	lot sorts_objets_130
+sort	705090		ToolTip	7ab71907b537	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGrappin-bombe|r et augmente ses dégâts de ${$w2}%.	lot sorts_objets_130
+sort	705091		Description	b41f2293dd9e	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGrappin-bombe|r et augmente ses dégâts de $s2%.	lot sorts_objets_130
+sort	705091		Name	191a7dde524d	Grappin-bombe amélioré	lot sorts_objets_130
+sort	705091		ToolTip	7ab71907b537	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGrappin-bombe|r et augmente ses dégâts de ${$w2}%.	lot sorts_objets_130
+sort	705096		Description	9bea8a0a213e	|cffffffffPas en arrière|r augmente de $705097s1% l'efficacité de votre prochaine aptitude de |cffffffffCor|r.	lot sorts_objets_130
+sort	705096		Name	bc3de0b8e934	Danseur de guerre	lot sorts_objets_130
+sort	705097		Name	bc3de0b8e934	Danseur de guerre	lot sorts_objets_130
+sort	705097		ToolTip	0a0fc175db72	Efficacité de votre prochaine aptitude de Cor augmentée de ${$w1}%.	lot sorts_objets_130
+sort	705103		Rank	32e86d4b41f3	Retrait du déclencheur	lot sorts_objets_130
+sort	705106		ToolTip	378a133d4c38	Augmente de ${$w1}% les soins de votre prochain Choc surnaturel.	lot sorts_objets_130
+sort	705107		Rank	255cea68850c	Aura2	lot sorts_objets_130
+sort	705107		ToolTip	f6fe68328417	Augmente de ${$w1}% les dégâts de votre prochain Choc surnaturel.	lot sorts_objets_130
+sort	705113		Description	585cfaacd33b	Augmente votre régénération d'Énergie de $s2%.	lot sorts_objets_130
+sort	705113		Name	379a3220525f	Puissance insoupçonnée	lot sorts_objets_130
+sort	705114		Description	447cfb886fa8	Votre |cffffffffFlambée du Vide|r augmente désormais votre hâte de $s1% supplémentaires.	lot sorts_objets_130
+sort	705114		Name	379a3220525f	Puissance insoupçonnée	lot sorts_objets_130
+sort	705120		Description	c4968cf60687	Augmente de $s1% les dégâts de vos |cffffffffFrappes gangrenées|r.	lot sorts_objets_130
+sort	705120		Name	02a3cfd4ba80	Frappes gangrenées renforcées	lot sorts_objets_130
+sort	705128		Description	02262f2b23f8	Augmente de $s1% l'efficacité de tous les effets d'absorption de dégâts utilisés sur vous.	lot sorts_objets_130
+sort	705128		Name	6796b4c448de	Protections impénétrables	lot sorts_objets_130
+sort	705128		ToolTip	72b2eb2787af	Augmente de ${$w1}% l'efficacité de tous les effets d'absorption de dégâts utilisés sur vous.	lot sorts_objets_130
+sort	705138		ToolTip	c3b017b37363	Augmente de ${$w1}% les dégâts d'|cffffffffAssaut d'Azzinoth|r.	lot sorts_objets_130
+sort	705139		Description	c07e7ccac308	Augmente de $s1% les dégâts de votre |cffffffffAssaut d'Azzinoth|r.	lot sorts_objets_130
+sort	705139		Name	f5078bdeb50e	Armes imprégnées de gangrène	lot sorts_objets_130
+sort	705151		Description	f3d9ab06e0f0	Permet à |cffffffffRegard gangrené|r de se cumuler $s1 fois supplémentaires.	lot sorts_objets_130
+sort	705151		ToolTip	b06e5f8f53a4	Permet à Regard gangrené de se cumuler ${$w1} fois supplémentaires.	lot sorts_objets_130
+sort	705159		Description	ea3c18599050	Chaque fois que vous obtenez |cFFFFFFFFRage indomptée|r, réduit de $/1000;582934s1 sec le temps de recharge de votre |cFFFFFFFFRugissement ancestral|r.	lot sorts_objets_130
+sort	705159		Name	a0263164d53b	Alimenté par la rage	lot sorts_objets_130
+sort	705160		Description	295c0e10f405	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffLancer de chope|r.	lot sorts_objets_130
+sort	705160		Name	ebedb6d0f98d	Chope sans fond	lot sorts_objets_130
+sort	705160		ToolTip	295c0e10f405	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffLancer de chope|r.	lot sorts_objets_130
+sort	705170		Description	193b8908781a	Chaque tranche de 5 points d'Énergie augmente désormais de 1% les chances de coup critique de |cffffffffJavelot perforant|r et d'|cffffffffÉcrasement|r.	lot sorts_objets_130
+sort	705170		ToolTip	3ccfa70ef79f	Score de coup critique augmenté de ${$w1}, puis de 5% de votre Agilité.	lot sorts_objets_130
+sort	705172		Description	c6744f3eb9df	Augmente de $s1% les dégâts de |cffffffffLancer de javelot|r$?s500059[, de |cffffffffDécapitation|r,][] et d'|cffffffffÉcrasement|r.	lot sorts_objets_130
+sort	705172		ToolTip	5177261f1dc7	Augmente vos chances de coup critique de ${$w1}%	lot sorts_objets_130
+sort	705174		Description	ce22d59a2d8f	Réduit en permanence les dégâts subis de $s1% et de $/1000;s2 sec le temps de recharge de |cffffffffDétermination immortelle|r.	lot sorts_objets_130
+sort	705174		ToolTip	6390884ab26b	Réduit en permanence les dégâts subis de ${$w1}% et de $/1000;s2 sec le temps de recharge de |cffffffffDétermination immortelle|r.	lot sorts_objets_130
+sort	705175		Description	6495fade7dad	Réduit en permanence les dégâts subis de $s1% et de $/1000;s2 sec le temps de recharge de |cffffffffPuissance ancestrale|r.	lot sorts_objets_130
+sort	705175		Name	cde9e2f9b973	Véritable guidage	lot sorts_objets_130
+sort	705175		ToolTip	6390884ab26b	Réduit en permanence les dégâts subis de ${$w1}% et de $/1000;s2 sec le temps de recharge de |cffffffffDétermination immortelle|r.	lot sorts_objets_130
+sort	705184		Description	11bb58c06470	Réduit de $s1 le coût en Énergie de |cffffffffDémolisseur|r.	lot sorts_objets_130
+sort	705184		Name	87e84cea9cc7	Poing-de-rocher	lot sorts_objets_130
+sort	705184		ToolTip	85ecbbecba98	Réduit de ${$w1} le coût en Énergie de |cffffffffDémolisseur|r.	lot sorts_objets_130
+sort	705185		Description	11bb58c06470	Réduit de $s1 le coût en Énergie de |cffffffffDémolisseur|r.	lot sorts_objets_130
+sort	705185		Name	87e84cea9cc7	Poing-de-rocher	lot sorts_objets_130
+sort	705185		ToolTip	85ecbbecba98	Réduit de ${$w1} le coût en Énergie de |cffffffffDémolisseur|r.	lot sorts_objets_130
+sort	705190		Name	eb7d4cfb049d	Des haches, des haches partout !	lot sorts_objets_130
+sort	705190		ToolTip	1c58fbddecc8	Dégâts subis par la Lance barbelée du chasseur de têtes et Lancer d'arme augmentés de $S1%, cumulable $u fois.	lot sorts_objets_130
+sort	705191		Description	dcc462568ccc	Augmente de $s1% les dégâts infligés par |cFFFFFFFFHache berserker|r et |cFFFFFFFFSalve de haches|r.	lot sorts_objets_130
+sort	705191		Name	eb7d4cfb049d	Des haches, des haches partout !	lot sorts_objets_130
+sort	705191		ToolTip	72340da812a1	Les dégâts infligés par |cffffffffHache berserker|r augmentent désormais de $705190s1% les dégâts que l'ennemi subit de votre prochaine |cffffffffLance barbelée|r, cumulable $705190u fois, pendant $705190d.	lot sorts_objets_130
+sort	705207		Description	eaf72b5b9a9a	Augmente l'Énergie maximale de $s1%.	lot sorts_objets_130
+sort	705207		ToolTip	eaf72b5b9a9a	Augmente l'Énergie maximale de $s1%.	lot sorts_objets_130
+sort	705224		Description	35658bc7acab	|cffffffffFrappe ancestrale|r coûte désormais $s2 Énergie de moins et vous repousse mutuellement, vous et la cible, mais a désormais un temps de recharge de $/1000;s3 sec.	lot sorts_objets_130
+sort	705224		Name	17acb5336e16	Danse des haches	lot sorts_objets_130
+sort	705224		ToolTip	fa72a13956e1	|cffffffffLancer perforant|r augmente de $706496s1% les dégâts infligés aux ennemis ayant moins de 35% de points de vie pendant $706496d.	lot sorts_objets_130
+sort	705225		Description	ca5c78b58373	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffSeigneur de guerre|r.	lot sorts_objets_130
+sort	705225		Name	a705f128c6be	Charme du seigneur de guerre	lot sorts_objets_130
+sort	705225		ToolTip	ca5c78b58373	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffSeigneur de guerre|r.	lot sorts_objets_130
+sort	705228		ToolTip	81b46cd5844c	Votre prochain Lancer de hache s'incante ${$w1}% plus vite.	lot sorts_objets_130
+sort	705230		Description	edb28b13e603	|cffffffffLancer perforant|r frappe désormais une fois de plus pour 50% des dégâts infligés, et le temps de recharge de |cffffffffLance du chasseur de têtes|r est réduit de $/1000;s2 sec.	lot sorts_objets_130
+sort	705230		Name	2e82deae8b52	Héritage des Amani SLS	lot sorts_objets_130
+sort	705230		ToolTip	c6d76fc1cf71	Fait frapper |cffffffffLancer perforant|r une fois de plus.	lot sorts_objets_130
+sort	705254		Description	f00da1dcaf4d	Augmente de $s1% les dégâts de |cffffffffFrappe du templier|r et ses chances de coup critique de $s2%.	lot sorts_objets_130
+sort	705254		Name	0b796337edf1	Frappes puissantes	lot sorts_objets_130
+sort	705254		ToolTip	bb67684c9505	Réduit de ${$w1}% le temps d'attaque de |cffffffffFrappe du maître de la lame|r et son coût en Énergie de ${$w2}.	lot sorts_objets_130
+sort	705257		Description	906442064240	Les ennemis affectés par |cffffffffGraisse de lame|r subissent $s1% de dégâts supplémentaires de |cffffffffEstoc brûlant|r.\r\n\r\nLes dégâts périodiques de |cffffffffLame enflammée de Lantresor|r sont augmentés de $s2%.	lot sorts_objets_130
+sort	705257		Name	1f340e026b2d	Lame enflammée	lot sorts_objets_130
+sort	705257		ToolTip	80c5d8912fe2	|cffffffffEstoc brûlant|r inflige ${$w1}% de dégâts supplémentaires aux ennemis affectés par |cffffffffGraisse de lame|r et augmente de ${$w2}% les dégâts périodiques de |cffffffffLame enflammée de Lantresor|r.	lot sorts_objets_130
+sort	705260		Description	6499b2bb227a	|cffffffffGravure des poings|r vous accorde $s1% supplémentaires de votre Agilité et de votre Intelligence en puissance d'attaque.	lot sorts_objets_130
+sort	705260		Name	7db08be2cfef	Gravure des poings améliorée	lot sorts_objets_130
+sort	705260		ToolTip	0938b52ce657	Fait accorder à |cffffffffGravure des poings|r ${$w1}% supplémentaires de votre Agilité et de votre Intelligence en puissance d'attaque.	lot sorts_objets_130
+sort	705262		Description	8e078100287c	Augmente de $/1000;s1 sec la durée des effets de |cffffffffGravure de runes|r.	lot sorts_objets_130
+sort	705262		Name	1564faf24ae1	Marques durables	lot sorts_objets_130
+sort	705264		Description	29e3ddd1aea3	Augmente de $s1% les dégâts et les soins des effets de votre |cffffffffGravure de runes|r.	lot sorts_objets_130
+sort	705264		Name	6fcd9b5e1045	Runes de puissance	lot sorts_objets_130
+sort	705264		ToolTip	d2951d240bf3	Augmente de ${$w1}% les dégâts et les soins des effets de votre |cffffffffGravure de runes|r.	lot sorts_objets_130
+sort	705265		Description	29e3ddd1aea3	Augmente de $s1% les dégâts et les soins des effets de votre |cffffffffGravure de runes|r.	lot sorts_objets_130
+sort	705265		Name	6fcd9b5e1045	Runes de puissance	lot sorts_objets_130
+sort	705265		ToolTip	d2951d240bf3	Augmente de ${$w1}% les dégâts et les soins des effets de votre |cffffffffGravure de runes|r.	lot sorts_objets_130
+sort	705267		Description	3b055bb770e1	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffAbdication sacrée|r et augmente ses soins de $s2%.	lot sorts_objets_130
+sort	705267		ToolTip	6115621055be	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffAbdication sacrée|r et augmente ses soins de ${$w2}%.	lot sorts_objets_130
+sort	705269		Description	6313accf284e	Augmente de $s1% les dégâts physiques infligés.	lot sorts_objets_130
+sort	705269		ToolTip	6d3dad2ad466	Augmente de ${$w1}% les dégâts physiques infligés.	lot sorts_objets_130
+sort	705270		Description	1d422f05251e	Augmente de $s1% les dégâts physiques infligés.	lot sorts_objets_130
+sort	705270		ToolTip	6a08d4311db7	Augmente de ${$w1}% les dégâts physiques infligés.	lot sorts_objets_130
+sort	705310		Description	621f69e11b11	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGardien de guérison|r.	lot sorts_objets_130
+sort	705310		Name	0b71b52a4539	Gardien de guérison amélioré	lot sorts_objets_130
+sort	705310		ToolTip	621f69e11b11	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGardien de guérison|r.	lot sorts_objets_130
+sort	705311		Description	621f69e11b11	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGardien de guérison|r.	lot sorts_objets_130
+sort	705311		Name	0b71b52a4539	Gardien de guérison amélioré	lot sorts_objets_130
+sort	705311		ToolTip	621f69e11b11	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGardien de guérison|r.	lot sorts_objets_130
+sort	705312		Description	674f510fbfa8	Augmente l'Endurance de $s1% et l'Armure de $s2%.	lot sorts_objets_130
+sort	705312		ToolTip	1175d4fd6acc	Augmente l'Endurance de ${$w1}% et l'Armure de ${$w2}%.	lot sorts_objets_130
+sort	705319		Description	7ee807c68ec8	Réduit de $/1000;s1 sec le temps de recharge des aptitudes de |cffffffffBannière|r.	lot sorts_objets_130
+sort	705319		Name	d2a3aa922fdb	Bannières souples	lot sorts_objets_130
+sort	705319		ToolTip	5f8b43e09e15	Réduit de $/1000;s1 sec les temps de recharge des aptitudes de |cffffffffBannière|r.	lot sorts_objets_130
+sort	705321		Description	056ec71da935	Augmente de $s1% les dégâts de |cffffffffBélier|r.	lot sorts_objets_130
+sort	705321		Name	30600f00799e	Choc brutal	lot sorts_objets_130
+sort	705321		ToolTip	6d5d264b1422	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBélier de la mort|r.	lot sorts_objets_130
+sort	705322		Description	ff76389777e4	Augmente de $s1% les dégâts de |cffffffffBélier de la mort|r.	lot sorts_objets_130
+sort	705322		Name	aa8d0fd38853	Bélier-hamster	lot sorts_objets_130
+sort	705322		ToolTip	6d5d264b1422	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBélier de la mort|r.	lot sorts_objets_130
+sort	705325		Description	f2550dab8694	Augmente de $s1% les dégâts infligés et de $s2% la pénétration d'armure.	lot sorts_objets_130
+sort	705325		Name	1d76628a1d88	Tactiques déloyales	lot sorts_objets_130
+sort	705325		ToolTip	d18752d01b41	Augmente de ${$w1}% les dégâts infligés et de ${$w2}% la pénétration d'armure.	lot sorts_objets_130
+sort	705326		Description	f2550dab8694	Augmente de $s1% les dégâts infligés et de $s2% la pénétration d'armure.	lot sorts_objets_130
+sort	705326		Name	1d76628a1d88	Tactiques déloyales	lot sorts_objets_130
+sort	705326		ToolTip	d18752d01b41	Augmente de ${$w1}% les dégâts infligés et de ${$w2}% la pénétration d'armure.	lot sorts_objets_130
+sort	705339		Description	53667e1dd5b9	Augmente votre Énergie maximale de $s1.	lot sorts_objets_130
+sort	705339		ToolTip	553e1bbee6a6	Augmente votre Énergie maximale de ${$w1}%.	lot sorts_objets_130
+sort	705340		Description	53667e1dd5b9	Augmente votre Énergie maximale de $s1.	lot sorts_objets_130
+sort	705340		ToolTip	553e1bbee6a6	Augmente votre Énergie maximale de ${$w1}%.	lot sorts_objets_130
+sort	705353		Description	7c89df05937b	Augmente l'énergie maximale de $s3%.	lot sorts_objets_130
+sort	705353		Name	4fa7a43c8f67	Présence du général	lot sorts_objets_130
+sort	705353		ToolTip	7c89df05937b	Augmente l'énergie maximale de $s3%.	lot sorts_objets_130
+sort	705354		Description	f37826fed882	Réduit de $/1000;S3 sec la durée de l'effet |cffffffffConfiance|r appliqué par les |cffffffffDécrets|r et fait que les |cFFFFFFFFDécrets|r prolongent de $/1000;806724s1 sec la durée des |cFFFFFFFFProuesses de force|r.	lot sorts_objets_130
+sort	705354		ToolTip	d34a41208914	Réduit de $/1000;s3 sec la durée de l'effet |cffffffffConfiance|r appliqué par les |cffffffffDécrets|r.	lot sorts_objets_130
+sort	705355		Description	978842f26e48	Réduit de $/1000;S3 sec la durée de l'effet |cffffffffConfiance|r appliqué par les |cffffffffDécrets|r.	lot sorts_objets_130
+sort	705355		ToolTip	d34a41208914	Réduit de $/1000;s3 sec la durée de l'effet |cffffffffConfiance|r appliqué par les |cffffffffDécrets|r.	lot sorts_objets_130
+sort	705360		Description	87e78dbcfbfe	Augmente de $s1% l'efficacité des |cffffffffProuesses de force|r et de $s2% les chances de déclencher leur effet.	lot sorts_objets_130
+sort	705360		Name	d153002945fa	Prouesses de force améliorées	lot sorts_objets_130
+sort	705360		ToolTip	0269a4677cc5	Augmente de ${$w1}% l'efficacité des |cffffffffProuesses de force|r et de ${$w2}% les chances de déclencher leur effet.	lot sorts_objets_130
+sort	705374		Description	e801808044b3	|cffffffffMarteau de forge|r applique les dégâts de votre |cffffffffGarde d'honneur|r à la cible toutes les $803129t3 sec pendant $/1000;s1 sec.	lot sorts_objets_130
+sort	705374		Name	e341579efaaf	Marteau d'honneur	lot sorts_objets_130
+sort	705374		ToolTip	e801808044b3	|cffffffffMarteau de forge|r applique les dégâts de votre |cffffffffGarde d'honneur|r à la cible toutes les $803129t3 sec pendant $/1000;s1 sec.	lot sorts_objets_130
+sort	705375		Description	37c612eead83	Fait appliquer à |cffffffffMarteau de forge|r les dégâts de votre |cffffffffGarde d'honneur|r à la cible toutes les $803129t3 sec pendant $/1000;s1 sec.	lot sorts_objets_130
+sort	705375		Name	e341579efaaf	Marteau d'honneur	lot sorts_objets_130
+sort	705375		ToolTip	b7790b5c9715	Fait appliquer à |cffffffffMarteau de forge|r les dégâts de votre |cffffffffGarde d'honneur|r à la cible toutes les $803129t3 sec pendant $/1000;s1 sec après utilisation.	lot sorts_objets_130
+sort	705380		Description	157a314f02ac	Augmente de $s1% l'Armure octroyée par |cffffffffForge-bouclier|r.	lot sorts_objets_130
+sort	705380		ToolTip	baae0b92121d	Inflige 20% des dégâts infligés par Marteau de forge toutes les $t1 sec.	lot sorts_objets_130
+sort	705387		ToolTip	8478227d3a7c	La puissance d'attaque des ennemis proches est réduite de $s1.	lot sorts_objets_130
+sort	705388		Name	06ce53e68106	Rapidité sombre	lot sorts_objets_130
+sort	705390		Description	77e607c2facb	Augmente de $s1% les dégâts de |cffffffffMoisson d'âmes|r.	lot sorts_objets_130
+sort	705390		Name	ed3bf89653d3	Ombres perfides	lot sorts_objets_130
+sort	705390		ToolTip	5e07eac3da31	Augmente de ${$w1}% les dégâts infligés lorsque 3 Fragments d'âme sont formés en une Âme moissonnée.	lot sorts_objets_130
+sort	705391		Description	77e607c2facb	Augmente de $s1% les dégâts de |cffffffffMoisson d'âmes|r.	lot sorts_objets_130
+sort	705391		Name	ed3bf89653d3	Ombres perfides	lot sorts_objets_130
+sort	705391		ToolTip	5e07eac3da31	Augmente de ${$w1}% les dégâts infligés lorsque 3 Fragments d'âme sont formés en une Âme moissonnée.	lot sorts_objets_130
+sort	705393		Description	fb299a17cd33	|cffffffffChoc d'âme|r augmente de $s1% les dégâts de la première attaque effectuée contre la cible.	lot sorts_objets_130
+sort	705393		ToolTip	98f83cb88f00	Fait infliger ${$w1}% de dégâts supplémentaires à votre première attaque contre les ennemis affectés par |cffffffffChoc d'âme|r.	lot sorts_objets_130
+sort	705394		Description	d8793f79a513	Augmente de $s1% l'augmentation de dégâts conférée par |cffffffffPurgatoire|r.	lot sorts_objets_130
+sort	705394		Name	1be6967a61fa	Brasier d'âme	lot sorts_objets_130
+sort	705394		ToolTip	7fcd0b2b2270	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffChoc d'âme|r.	lot sorts_objets_130
+sort	705395		Description	e2e13ab07a46	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoisson|r et donne à vos effets de dégâts périodiques $h% de chances de faire toucher à |cffffffffMeurtre|r jusqu'à $560439s3 cibles supplémentaires, en infligeant $560439s1% de dégâts supplémentaires.	lot sorts_objets_130
+sort	705395		Name	c9b0c75b4c09	Saccageur spectral	lot sorts_objets_130
+sort	705395		ToolTip	e2e13ab07a46	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoisson|r et donne à vos effets de dégâts périodiques $h% de chances de faire toucher à |cffffffffMeurtre|r jusqu'à $560439s3 cibles supplémentaires, en infligeant $560439s1% de dégâts supplémentaires.	lot sorts_objets_130
+sort	705396		Description	c7a2ab73a5ae	Votre |cffffffffMeurtre|r frappe 1 ennemi proche supplémentaire.	lot sorts_objets_130
+sort	705396		Name	c9b0c75b4c09	Saccageur spectral	lot sorts_objets_130
+sort	705396		ToolTip	5f43b94f8195	Les effets de dégâts périodiques ont $h% de chances de faire toucher à |cffffffffMeurtre|r jusqu'à $560439s3 cibles supplémentaires, en infligeant $560439s1% de dégâts supplémentaires.	lot sorts_objets_130
+sort	705405		Description	17aca96acf95	Augmente de $s1% les dégâts de |cffffffffRequiem|r et de $s2% l'efficacité de sa valeur de drain.	lot sorts_objets_130
+sort	705405		Name	48a5276eae93	Tord-âme	lot sorts_objets_130
+sort	705405		ToolTip	cde1228a58eb	|cffffffffPuisage d'âme|r, |cffffffffLamentation|r et |cffffffffDétermination du gardien d'âme|r réduisent de $/1000;S1 sec le temps de recharge restant de |cffffffffRequiem|r à l'utilisation.	lot sorts_objets_130
+sort	705407		Description	7b7507be5fbf	Augmente de $s1% les dégâts de |cffffffffSiphon de sang|r.	lot sorts_objets_130
+sort	705407		Name	df17d34143cc	Siphon de sang amélioré	lot sorts_objets_130
+sort	705407		ToolTip	a1f00324ca04	Augmente de ${$w1}% les dégâts de |cffffffffSiphon de sang|r.	lot sorts_objets_130
+sort	705408		Description	7b7507be5fbf	Augmente de $s1% les dégâts de |cffffffffSiphon de sang|r.	lot sorts_objets_130
+sort	705408		Name	df17d34143cc	Siphon de sang amélioré	lot sorts_objets_130
+sort	705408		ToolTip	a1f00324ca04	Augmente de ${$w1}% les dégâts de |cffffffffSiphon de sang|r.	lot sorts_objets_130
+sort	705411		Description	fb5651fe552f	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffFaux écarlate|r.	lot sorts_objets_130
+sort	705411		Name	1dd0fc8c8fdd	Rapidité écarlate	lot sorts_objets_130
+sort	705411		ToolTip	fb5651fe552f	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffFaux écarlate|r.	lot sorts_objets_130
+sort	705412		Description	fb5651fe552f	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffFaux écarlate|r.	lot sorts_objets_130
+sort	705412		Name	1dd0fc8c8fdd	Rapidité écarlate	lot sorts_objets_130
+sort	705412		ToolTip	fb5651fe552f	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffFaux écarlate|r.	lot sorts_objets_130
+sort	705415		Description	9e695cef6f18	Augmente de $s1% les dégâts des aptitudes dotées d'effets d'|cff5ee2ffInfusion d'âme|r.	lot sorts_objets_130
+sort	705415		Name	284c06fb4f0f	Destruction absolue	lot sorts_objets_130
+sort	705415		ToolTip	ed39182b2172	Augmente de ${$w1}% les dégâts de |cffffffffDésolation|r.	lot sorts_objets_130
+sort	705423		Name	ba546365d360	Génocide SLS	lot sorts_objets_130
+sort	705444		Description	02dd7270b32a	|cffffffffPourriture d'âme|r réinitialise désormais le temps de recharge de |cffffffffLame spectrale|r.	lot sorts_objets_130
+sort	705444		Name	da6c96b03b49	Destination finale	lot sorts_objets_130
+sort	705444		ToolTip	cced10862157	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMeurtre|r.	lot sorts_objets_130
+sort	705445		Description	cced10862157	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMeurtre|r.	lot sorts_objets_130
+sort	705445		Name	da6c96b03b49	Destination finale	lot sorts_objets_130
+sort	705445		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	705445		ToolTip	cced10862157	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMeurtre|r.	lot sorts_objets_130
+sort	705451		Description	d78cf2b476ae	|cffffffffDégainage rapide|r réduit la cible au silence pendant $/1000;560230d.	lot sorts_objets_130
+sort	705451		ToolTip	e5605488ec8f	|cffffffffDéflagration rapide|r réduit la cible au silence pendant $/1000;560230d.	lot sorts_objets_130
+sort	705454		Description	7004b6589b60	Augmente de $s1% les chances de coup critique et de $s2% l'effet de |cFFFFFFFFPoudre explosive|r	lot sorts_objets_130
+sort	705454		Name	561de82ecd65	Précision infâme	lot sorts_objets_130
+sort	705454		ToolTip	acab7de362e7	Augmente de ${$w1}% les chances de coup critique et de ${$w2}% l'effet de |cFFFFFFFFPoudre explosive|r	lot sorts_objets_130
+sort	705466		Description	ec9feb3a99c7	Augmente de $s1% les dégâts des coups critiques.	lot sorts_objets_130
+sort	705466		Name	cdef5398ee24	Tirs à la tête	lot sorts_objets_130
+sort	705468		Description	22000f80505d	Réduit de $s2% les dégâts d'Ombre que vous subissez, et de $s1% tous les dégâts que votre |cffffffffChien de l'ombre|r subit des attaques de zone.	lot sorts_objets_130
+sort	705468		Name	4deeca805c96	Peau sombre	lot sorts_objets_130
+sort	705468		ToolTip	1c4dc7316ec0	Réduit de ${$w2}% les dégâts d'Ombre que vous subissez, et de ${$w1}% tous les dégâts que subit votre |cffffffffChien de l'ombre|r.	lot sorts_objets_130
+sort	705469		Description	5a86c8ec1fdd	Réduit de $s2% les dégâts que vous subissez, et de $s1% ceux que subit votre |cffffffffChien de l'ombre|r.	lot sorts_objets_130
+sort	705469		Name	4deeca805c96	Peau sombre	lot sorts_objets_130
+sort	705469		ToolTip	5a86c8ec1fdd	Réduit de $s2% les dégâts que vous subissez, et de $s1% ceux que subit votre |cffffffffChien de l'ombre|r.	lot sorts_objets_130
+sort	705474		Description	5b083d04c0b7	Réduit de $/10;s1 le coût en Rage de |cffffffffExplosion d'ombre|r et de $/1000;s2 sec son temps de recharge.	lot sorts_objets_130
+sort	705474		Name	eec3a4bf1790	Explosion d'ombre améliorée	lot sorts_objets_130
+sort	705474		ToolTip	5b083d04c0b7	Réduit de $/10;s1 le coût en Rage de |cffffffffExplosion d'ombre|r et de $/1000;s2 sec son temps de recharge.	lot sorts_objets_130
+sort	705481		Description	3d7dd3642ad4	Augmente de $s1% les dégâts de Feu et les dégâts physiques infligés.	lot sorts_objets_130
+sort	705481		ToolTip	770028601c04	Augmente de ${$w1}% les dégâts de Feu et les dégâts physiques infligés et réduit de ${$w2}% les temps de recharge des aptitudes de votre |cffffffffBête sorcière|r.	lot sorts_objets_130
+sort	705485		Description	22959eb73166	Donne aux dégâts infligés par |cffffffffEntaille de sabre|r $h% de chances d'infliger $503658s1 points de dégâts de Feu supplémentaires.	lot sorts_objets_130
+sort	705485		Name	85bbe85db6bb	Lame de feu	lot sorts_objets_130
+sort	705487		Description	52978a170eb0	|cffffffffMailles de sorcière|r augmente de $s2% l'Armure apportée par les objets.	lot sorts_objets_130
+sort	705487		Name	21759c823bbe	Armure enchantée	lot sorts_objets_130
+sort	705487		ToolTip	9961f86d411a	|cffffffffMailles de sorcière|r augmente de ${$w2}% l'Armure apportée par les objets.	lot sorts_objets_130
+sort	705488		Description	52978a170eb0	|cffffffffMailles de sorcière|r augmente de $s2% l'Armure apportée par les objets.	lot sorts_objets_130
+sort	705488		Name	21759c823bbe	Armure enchantée	lot sorts_objets_130
+sort	705488		ToolTip	9961f86d411a	|cffffffffMailles de sorcière|r augmente de ${$w2}% l'Armure apportée par les objets.	lot sorts_objets_130
+sort	705491		Description	edb56043533c	Augmente de $/1000;s1 sec les durées de |cffffffffMuselière|r et d'|cffffffffÉvasion audacieuse|r.	lot sorts_objets_130
+sort	705491		Name	9b7106bcab00	La menace du Bois de la Pénombre	lot sorts_objets_130
+sort	705493		Description	76e23e67d357	Réduit de $s1% le coût d'|cffffffffEntaille|r, et de $s2% celui de |cffffffffTir de fusil à silex|r.	lot sorts_objets_130
+sort	705493		Name	96e8ae390401	Chasseur dans la nuit	lot sorts_objets_130
+sort	705493		ToolTip	6de2b5e928d2	Réduit de ${$w1}% le coût d'|cffffffffEntaille de sabre|r et de ${$w2}% celui de |cffffffffTir de fusil à silex|r et des |cffffffffCarreaux|r.	lot sorts_objets_130
+sort	705494		Description	69c9c45dedc0	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRégénération sombre|r.	lot sorts_objets_130
+sort	705494		Name	96e8ae390401	Chasseur dans la nuit	lot sorts_objets_130
+sort	705503		Description	c00a489d81b8	|cffffffffEncaisser la prime|r inflige $s1% de dégâts supplémentaires aux ennemis affectés par |cffffffffMise à prix|r, et consomme l'effet pour rembourser $/1000;s2 sec du temps de recharge de |cffffffffMise à prix|r.	lot sorts_objets_130
+sort	705503		ToolTip	e7f0579a1392	|cffffffffEncaisser la prime|r inflige ${$w1}% de dégâts supplémentaires aux ennemis affectés par |cffffffffMise à prix|r, et consomme l'effet pour rembourser $/1000;s2 sec du temps de recharge de |cffffffffMise à prix|r.	lot sorts_objets_130
+sort	705508		Description	8b6f49ab2927	Augmente de $s1% l'efficacité de |cffffffffMise à prix|r.	lot sorts_objets_130
+sort	705508		Name	6ea50db7ad62	Sur ordre royal	lot sorts_objets_130
+sort	705508		ToolTip	0d2f94c37f1f	Augmente de ${$w1}% l'efficacité de |cffffffffMise à prix|r.	lot sorts_objets_130
+sort	705509		Description	8b6f49ab2927	Augmente de $s1% l'efficacité de |cffffffffMise à prix|r.	lot sorts_objets_130
+sort	705509		Name	6ea50db7ad62	Sur ordre royal	lot sorts_objets_130
+sort	705509		ToolTip	8b6f49ab2927	Augmente de $s1% l'efficacité de |cffffffffMise à prix|r.	lot sorts_objets_130
+sort	705511		Description	6a1b74deafad	Augmente de $s1% les chances de coup critique de vos |cffffffffCarreaux|r et leur fait ignorer $s2% de l'Armure de votre cible.	lot sorts_objets_130
+sort	705511		Name	ed547d2e6aea	Tir chanceux	lot sorts_objets_130
+sort	705511		ToolTip	6a1b74deafad	Augmente de $s1% les chances de coup critique de vos |cffffffffCarreaux|r et leur fait ignorer $s2% de l'Armure de votre cible.	lot sorts_objets_130
+sort	705513		Rank	70b9035c7748	Tir automatique SLS	lot sorts_objets_130
+sort	705517		Name	088fa243fad7	Élève des ténèbres	lot sorts_objets_130
+sort	705517		ToolTip	a4a4c367c035	Augmente de ${$w1}% les dégâts physiques et d'Ombre infligés.	lot sorts_objets_130
+sort	705518		Name	ea22efc21af2	Carreaux chargés	lot sorts_objets_130
+sort	705518		ToolTip	5f04613f9d0f	Votre prochain Carreau infligera ${$w1}% de dégâts directs supplémentaires.	lot sorts_objets_130
+sort	705542		Name	8d757b358576	Collecte de fragments	lot sorts_objets_130
+sort	705542		ToolTip	a169e5969807	Réinitialisé.	lot sorts_objets_130
+sort	705548		Description	eaaa0ab92fde	Augmente les dégâts des sorts de $s1% de l'Intelligence.	lot sorts_objets_130
+sort	705548		ToolTip	eaaa0ab92fde	Augmente les dégâts des sorts de $s1% de l'Intelligence.	lot sorts_objets_130
+sort	705555		Description	bf5612b608f7	Augmente votre vitesse de déplacement de $s1%.	lot sorts_objets_130
+sort	705558		ToolTip	16666eae58f1	Augmente la hâte de ${$w2}%.	lot sorts_objets_130
+sort	705571		Description	42be169f52c2	Augmente de $s1% les dégâts de Feu et de Givre infligés.	lot sorts_objets_130
+sort	705571		Name	76868de8e4f3	Brasier gelé	lot sorts_objets_130
+sort	705571		ToolTip	6085f61c4bbd	Augmente de ${$w1}% les dégâts de Feu et de Givre infligés.	lot sorts_objets_130
+sort	705573		Description	04dfca4ecd3e	Fait réduire de $/1000;s1 sec par |cffffffffFrappe de mana|r le temps de recharge restant des |cffffffffLames-sorts|r.	lot sorts_objets_130
+sort	705573		Name	f17d9362f078	Lame imprégnée	lot sorts_objets_130
+sort	705573		ToolTip	04dfca4ecd3e	Fait réduire de $/1000;s1 sec par |cffffffffFrappe de mana|r le temps de recharge restant des |cffffffffLames-sorts|r.	lot sorts_objets_130
+sort	705593		Description	4de597933527	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffLinceul runique|r et fait que |cffffffffGarde de l'esprit|r draine $s2% de mana en moins par point de dégâts absorbé.	lot sorts_objets_130
+sort	705593		ToolTip	4de597933527	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffLinceul runique|r et fait que |cffffffffGarde de l'esprit|r draine $s2% de mana en moins par point de dégâts absorbé.	lot sorts_objets_130
+sort	705601		Description	20db471837b9	Augmente de $s1% les dégâts de Feu et de Givre infligés.	lot sorts_objets_130
+sort	705601		Name	3a024336783b	Glyphes primordiaux	lot sorts_objets_130
+sort	705601		ToolTip	6085f61c4bbd	Augmente de ${$w1}% les dégâts de Feu et de Givre infligés.	lot sorts_objets_130
+sort	705602		Description	20db471837b9	Augmente de $s1% les dégâts de Feu et de Givre infligés.	lot sorts_objets_130
+sort	705602		Name	3a024336783b	Glyphes primordiaux	lot sorts_objets_130
+sort	705602		ToolTip	6085f61c4bbd	Augmente de ${$w1}% les dégâts de Feu et de Givre infligés.	lot sorts_objets_130
+sort	705606		Description	34471e10d74d	Augmente de $s1% les dégâts d'|cffffffffExplosion primordiale|r.	lot sorts_objets_130
+sort	705606		Name	cefb37b6653b	Prouesse élémentaire	lot sorts_objets_130
+sort	705606		ToolTip	d2a7188246ef	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffExplosion primordiale|r.	lot sorts_objets_130
+sort	705607		Description	d2a7188246ef	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffExplosion primordiale|r.	lot sorts_objets_130
+sort	705607		Name	dcee4af8a4fa	Explosion primordiale améliorée	lot sorts_objets_130
+sort	705607		ToolTip	d2a7188246ef	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffExplosion primordiale|r.	lot sorts_objets_130
+sort	705626		Description	98ff61d664c8	Réduit de 0.5 sec le temps d'incantation d'|cffffffffExplosion primordiale|r.	lot sorts_objets_130
+sort	705626		Name	e24bff001077	Fine gâchette	lot sorts_objets_130
+sort	705626		ToolTip	98ff61d664c8	Réduit de 0.5 sec le temps d'incantation d'|cffffffffExplosion primordiale|r.	lot sorts_objets_130
+sort	705628		Description	1745823512e9	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffCage du sorcier|r.	lot sorts_objets_130
+sort	705628		Name	0b1fbdf6301a	Emprisonnement des Arcanes	lot sorts_objets_130
+sort	705628		ToolTip	1745823512e9	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffCage du sorcier|r.	lot sorts_objets_130
+sort	705629		Description	1745823512e9	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffCage du sorcier|r.	lot sorts_objets_130
+sort	705629		Name	0b1fbdf6301a	Emprisonnement des Arcanes	lot sorts_objets_130
+sort	705629		ToolTip	1745823512e9	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffCage du sorcier|r.	lot sorts_objets_130
+sort	705633		Description	d40e3491f265	Quand vous maniez une arme à deux mains, vos dégâts sont augmentés de $s1% et vos attaques automatiques ont $h% de chances de garantir un coup critique à votre prochaine |cFFFFFFFFMoisson|r.	lot sorts_objets_130
+sort	705633		Name	768ad987d1c9	Ghast	lot sorts_objets_130
+sort	705637		Description	dbd3767d3533	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffIncantation rapide|r.	lot sorts_objets_130
+sort	705637		Name	fe5b7c1f461a	Incantation rapide améliorée	lot sorts_objets_130
+sort	705637		ToolTip	dbd3767d3533	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffIncantation rapide|r.	lot sorts_objets_130
+sort	705638		Description	e02b442350fe	Les coups critiques directs réduisent désormais de $/1000;680860s1 sec le temps de recharge de votre |cffffffffFureur de Thorim|r et de $/1000;680860S2 sec celui de |cFFFFFFFFCorps de foudre|r.	lot sorts_objets_130
+sort	705640		Description	30efc01b6ce3	Augmente de $s1% les dégâts de |cffffffffBras de Thorim|r pour chaque charge de |cffffffffFlux|r sur la cible.	lot sorts_objets_130
+sort	705641		Description	7e25bad1f145	Augmente de $s1% l'efficacité de |cffffffffFlux|r et lui permet de se cumuler $s2 fois supplémentaires.	lot sorts_objets_130
+sort	705641		Name	342659ed29b0	Flux amélioré	lot sorts_objets_130
+sort	705641		ToolTip	d94781dd81fd	Augmente de ${$w1}% l'efficacité de |cffffffffFlux|r et lui permet de se cumuler ${$w2} fois supplémentaires.	lot sorts_objets_130
+sort	705642		Description	7e25bad1f145	Augmente de $s1% l'efficacité de |cffffffffFlux|r et lui permet de se cumuler $s2 fois supplémentaires.	lot sorts_objets_130
+sort	705642		Name	342659ed29b0	Flux amélioré	lot sorts_objets_130
+sort	705642		ToolTip	d94781dd81fd	Augmente de ${$w1}% l'efficacité de |cffffffffFlux|r et lui permet de se cumuler ${$w2} fois supplémentaires.	lot sorts_objets_130
+sort	705648		Description	1d960562cea7	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffVortex|r.	lot sorts_objets_130
+sort	705648		Name	4581a8df6adb	Vortex amélioré	lot sorts_objets_130
+sort	705648		ToolTip	1d960562cea7	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffVortex|r.	lot sorts_objets_130
+sort	705649		Description	1d960562cea7	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffVortex|r.	lot sorts_objets_130
+sort	705649		Name	4581a8df6adb	Vortex amélioré	lot sorts_objets_130
+sort	705649		ToolTip	1d960562cea7	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffVortex|r.	lot sorts_objets_130
+sort	705651		Description	9fa6a08b2858	Augmente de $/1000;s1 sec les durées des |cffffffffOrbes de tonnerre|r, de |cffffffffInvocation de la tempête|r et de |cffffffffCorps de foudre|r.	lot sorts_objets_130
+sort	705651		Name	ad56c0c3f859	Foudre persistante	lot sorts_objets_130
+sort	705651		ToolTip	9fa6a08b2858	Augmente de $/1000;s1 sec les durées des |cffffffffOrbes de tonnerre|r, de |cffffffffInvocation de la tempête|r et de |cffffffffCorps de foudre|r.	lot sorts_objets_130
+sort	705656		Description	c9c8065ac090	Permet à |cffffffffParatonnerre|r de se cumuler $s1 fois supplémentaires.	lot sorts_objets_130
+sort	705656		Name	1435823cb19a	Paratonnerre amélioré	lot sorts_objets_130
+sort	705656		ToolTip	9560cf602b6c	Permet à |cffffffffParatonnerre|r de se cumuler ${$w1} fois supplémentaires.	lot sorts_objets_130
+sort	705658		Description	0c6b7325d0ba	Augmente le mana maximum de $s1% et l'Intelligence de $s2%.	lot sorts_objets_130
+sort	705658		ToolTip	05c735ea92a9	Augmente le mana maximum de ${$w1}% et l'Intelligence de ${$w2}%.	lot sorts_objets_130
+sort	705683		Description	f1b592f65d40	Augmente de $s1% les dégâts de votre |cffffffffChoc|r et de votre |cffffffffInvocation de la tempête|r.	lot sorts_objets_130
+sort	705683		Name	7a092daafe8f	Foudroyant	lot sorts_objets_130
+sort	705684		Description	f61436203f36	Quand vous maniez une arme à deux mains, vos dégâts sont augmentés de $s1% et vos attaques automatiques ont $h% de chances de garantir un coup critique à votre prochaine |cffffffffMoisson|r.	lot sorts_objets_130
+sort	705684		Name	768ad987d1c9	Ghast	lot sorts_objets_130
+sort	705701		Description	be555cfc8e8a	Augmente de $s2% les dégâts infligés par |cFFFFFFFFSouffle de vent|r et par |cffffffffPeau-de-vent|r de l'|cffffffffélémentaire d'air|r.	lot sorts_objets_130
+sort	705701		Name	667e01b937a1	Passage venteux	lot sorts_objets_130
+sort	705716		Description	9460e1e8a5b5	Réduit de $/1000;S1 sec le temps de recharge de |cffffffffTrombe|r et augmente ses dégâts de $s2%.	lot sorts_objets_130
+sort	705716		Name	00a22bf13183	Trombe implacable	lot sorts_objets_130
+sort	705722		Description	0f035e77da64	Réduit de $s1% les temps de recharge des sorts de votre |cffffffffServant du vent|r.	lot sorts_objets_130
+sort	705722		ToolTip	20e918966e28	Réduit de ${$w1}% les temps de recharge des sorts de votre Servant du vent.	lot sorts_objets_130
+sort	705730		Description	543510213526	Réduit les dégâts subis de $s1% et augmente l'Endurance de $s2%.	lot sorts_objets_130
+sort	705730		Name	84cd7c43f1c8	Peau sombre	lot sorts_objets_130
+sort	705735		Description	1b745b33eb1f	Augmente de $s1% les dégâts infligés aux ennemis qui saignent.	lot sorts_objets_130
+sort	705735		Name	0f112a7eb287	Exsanguination	lot sorts_objets_130
+sort	705735		ToolTip	4834acd63651	Vous saignez. Dégâts subis augmentés de ${$w1}%. Impossible de passer en furtivité.	lot sorts_objets_130
+sort	705736		Description	641da5324523	|cffffffffCrocs de Goldrinn|r augmente désormais de $705735s1% les dégâts infligés aux ennemis qui saignent pendant $705735d.	lot sorts_objets_130
+sort	705736		Name	0f112a7eb287	Exsanguination	lot sorts_objets_130
+sort	705738		Name	925ef9f9c29c	Extracteur	lot sorts_objets_130
+sort	705743		Description	af8599480a26	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBénédiction d'Arugal|r et augmente sa durée de $/1000;s2 sec.	lot sorts_objets_130
+sort	705743		Name	0d42c989b668	Bénédiction d'Arugal améliorée	lot sorts_objets_130
+sort	705744		Description	b30c94327df3	Réduit de $s1% les dégâts physiques subis et de $s2% tous les dégâts subis pendant un étourdissement.	lot sorts_objets_130
+sort	705744		Name	bd99e3d8900d	Fureur résiliente	lot sorts_objets_130
+sort	705748		Description	4b8d453001a6	Réduit de $s1% le coût des sorts d'|cffffffffAnimation|r et de |cffffffffRésurrection|r.	lot sorts_objets_130
+sort	705748		ToolTip	46dc57fd8d6a	Réduit de ${$w1}% le coût des sorts d'|cffffffffAnimation|r et de |cffffffffRésurrection|r.	lot sorts_objets_130
+sort	705749		Description	3053ab30fe1f	Augmente de $s1% les dégâts de |cffffffffSéisme de glace|r et des |cffffffffVents de Norfendre|r.	lot sorts_objets_130
+sort	705749		ToolTip	3053ab30fe1f	Augmente de $s1% les dégâts de |cffffffffSéisme de glace|r et des |cffffffffVents de Norfendre|r.	lot sorts_objets_130
+sort	705755		Description	9768f76f7275	Réduit de $/10;s1 le coût des sorts de |cff90ee90Commandement|r.	lot sorts_objets_130
+sort	705766		Description	3ee8ef6f8d95	Augmente de $s1% les dégâts de |cffffffffCharge explosive|r.	lot sorts_objets_130
+sort	705766		Name	1f03158f459e	Charges modulaires	lot sorts_objets_130
+sort	705766		ToolTip	80d7b94f0852	Augmente de ${$w1}% les dégâts de |cffffffffCharge explosive|r.	lot sorts_objets_130
+sort	705767		Description	50370764de0d	Augmente de $s1% l'efficacité des effets de charge octroyés par |cffffffffMunitions|r.	lot sorts_objets_130
+sort	705767		Name	1f03158f459e	Charges modulaires	lot sorts_objets_130
+sort	705768		Description	3ec75b9d284a	Réduit de $s1% le coût de |cffffffffRechargement|r. 	lot sorts_objets_130
+sort	705768		Name	9825d76a1c51	Rechargement amélioré	lot sorts_objets_130
+sort	705768		ToolTip	b4aab41ddcb8	Réduit de ${$w1}% le coût de |cffffffffRechargement|r. 	lot sorts_objets_130
+sort	705769		Description	997c2f17bd2e	Réduit de $s1% le coût de |cffffffffRechargement|r.	lot sorts_objets_130
+sort	705769		Name	9825d76a1c51	Rechargement amélioré	lot sorts_objets_130
+sort	705769		ToolTip	82ebd7ef314b	Réduit de ${$w1}% le coût de |cffffffffRechargement|r.	lot sorts_objets_130
+sort	705772		Description	111607294354	Augmente de $s1% les dégâts de Feu et les dégâts physiques infligés.	lot sorts_objets_130
+sort	705772		Name	f19cee36e525	Expert en munitions	lot sorts_objets_130
+sort	705773		Description	585c3646446d	Augmente de $s1% les dégâts de Feu infligés.	lot sorts_objets_130
+sort	705773		Name	ef2ff642f91a	Explosifs améliorés	lot sorts_objets_130
+sort	705773		ToolTip	5f5edd849045	Augmente de ${$w1}% les dégâts de Feu infligés.	lot sorts_objets_130
+sort	705774		Description	585c3646446d	Augmente de $s1% les dégâts de Feu infligés.	lot sorts_objets_130
+sort	705774		Name	ef2ff642f91a	Explosifs améliorés	lot sorts_objets_130
+sort	705774		ToolTip	585c3646446d	Augmente de $s1% les dégâts de Feu infligés.	lot sorts_objets_130
+sort	705775		Description	8c2dccf29b13	Augmente de $s1% les dégâts de |cffffffffTir explosif|r et de |cffffffffLancer de bombe|r contre les ennemis affectés par |cffffffffBombe collante|r.	lot sorts_objets_130
+sort	705775		Name	b5e4517c787b	BOUM !	lot sorts_objets_130
+sort	705784		Description	01968f2cd5ad	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r et augmente ses dégâts de $s3%.	lot sorts_objets_130
+sort	705784		Name	5346e831493b	Détonation à distance améliorée	lot sorts_objets_130
+sort	705784		ToolTip	1a2f47d3dd67	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r et augmente ses dégâts de ${$w3}%.	lot sorts_objets_130
+sort	705785		Description	01968f2cd5ad	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r et augmente ses dégâts de $s3%.	lot sorts_objets_130
+sort	705785		Name	5346e831493b	Détonation à distance améliorée	lot sorts_objets_130
+sort	705785		ToolTip	1a2f47d3dd67	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r et augmente ses dégâts de ${$w3}%.	lot sorts_objets_130
+sort	705790		Description	dee64553168f	Donne à |cffffffffCoup de clé|r $h% de chances de réinitialiser le temps de recharge de |cffffffffTir de pistolero|r.	lot sorts_objets_130
+sort	705790		Name	e26c64dc5f05	Tireur d'élite	lot sorts_objets_130
+sort	705790		ToolTip	b37b07c94a04	Donne à |cffffffffCoup de clé|r 100% de chances de réinitialiser le temps de recharge de |cffffffffTir de pistolero|r.	lot sorts_objets_130
+sort	705793		Description	fd3e014825ee	Augmente de $s1% les dégâts infligés par votre |cffffffffChevalier mécanique|r et réduit de $s2% ceux qu'il subit.	lot sorts_objets_130
+sort	705793		Name	6f4f45a9efd6	Améliorations biomécaniques	lot sorts_objets_130
+sort	705793		ToolTip	fd3e014825ee	Augmente de $s1% les dégâts infligés par votre |cffffffffChevalier mécanique|r et réduit de $s2% ceux qu'il subit.	lot sorts_objets_130
+sort	705794		Description	fd3e014825ee	Augmente de $s1% les dégâts infligés par votre |cffffffffChevalier mécanique|r et réduit de $s2% ceux qu'il subit.	lot sorts_objets_130
+sort	705794		Name	6f4f45a9efd6	Améliorations biomécaniques	lot sorts_objets_130
+sort	705794		ToolTip	fd3e014825ee	Augmente de $s1% les dégâts infligés par votre |cffffffffChevalier mécanique|r et réduit de $s2% ceux qu'il subit.	lot sorts_objets_130
+sort	705799		Description	d613e8925ee1	Votre |cffffffffFrappe de ferraille|r a désormais $h% de chances de frapper 2 fois de plus pour $s2% des dégâts infligés.	lot sorts_objets_130
+sort	705799		Name	dc0384773686	Bagarreur	lot sorts_objets_130
+sort	705800		Description	276c9434d19f	Augmente la puissance des sorts de soins de $s1% de l'Esprit.	lot sorts_objets_130
+sort	705800		Name	f77c97b83592	Formation médicale	lot sorts_objets_130
+sort	705800		ToolTip	5cf04294d557	Augmente la puissance des sorts de soins de ${$w1}% de l'Esprit.	lot sorts_objets_130
+sort	705801		Description	276c9434d19f	Augmente la puissance des sorts de soins de $s1% de l'Esprit.	lot sorts_objets_130
+sort	705801		Name	f77c97b83592	Formation médicale	lot sorts_objets_130
+sort	705801		ToolTip	276c9434d19f	Augmente la puissance des sorts de soins de $s1% de l'Esprit.	lot sorts_objets_130
+sort	705807		Description	b030a5dc5d16	Augmente de $s1% les chances de coup critique, et de $s2% l'efficacité des coups critiques de dégâts comme de soins.	lot sorts_objets_130
+sort	705807		Name	143a6b426ab1	Lunettes de précision	lot sorts_objets_130
+sort	705807		ToolTip	88c1e526103f	Augmente de ${$w1}% les chances de coup critique, et de ${$w2}% l'efficacité des coups critiques de dégâts comme de soins.	lot sorts_objets_130
+sort	705808		Description	d9df320e4425	Augmente de $s1% les chances de coup critique de |cffffffffTir explosif|r.	lot sorts_objets_130
+sort	705808		Name	f256454cd662	Maniement des armes à feu	lot sorts_objets_130
+sort	705808		ToolTip	378333be9b84	Augmente de $s1% les dégâts de |cffffffffMunitions|r.	lot sorts_objets_130
+sort	705809		Description	d9df320e4425	Augmente de $s1% les chances de coup critique de |cffffffffTir explosif|r.	lot sorts_objets_130
+sort	705809		Name	f256454cd662	Maniement des armes à feu	lot sorts_objets_130
+sort	705809		ToolTip	378333be9b84	Augmente de $s1% les dégâts de |cffffffffMunitions|r.	lot sorts_objets_130
+sort	705812		Description	67147b2e885c	Augmente de $/1000;s1 sec la durée de |cFFFFFFFFReconstruction des nanorobots|r.	lot sorts_objets_130
+sort	705812		Name	80ed244d16bf	Durabilité des nanorobots	lot sorts_objets_130
+sort	705813		Description	de03ba76c961	Réduit le temps d'incantation de |cffffffffTirs de réparation|r et de $s2% le temps de recharge de |cffffffffMunitions|r.	lot sorts_objets_130
+sort	705813		Name	564e6e4af13e	Tirs accélérés	lot sorts_objets_130
+sort	705813		ToolTip	e5e9e4a99a52	Réduit de ${$w2}% le temps d'incantation de |cffffffffTirs de réparation|r.	lot sorts_objets_130
+sort	705833		Description	377faf83b3ac	Utiliser |cffffffffRechargement|r ou changer de |cffffffffMunitions|r augmente désormais la hâte de $705834s1% pendant $705834d.	lot sorts_objets_130
+sort	705833		ToolTip	0038c3d004e2	Utiliser |cffffffffRechargement|r augmente désormais la hâte de $705834s1% pendant $705834d.	lot sorts_objets_130
+sort	705842		Description	1856bbf0c254	Augmente de $s1% l'efficacité de |cffffffffMaléfices|r.	lot sorts_objets_130
+sort	705842		Name	552ac7364605	Maléfices améliorés	lot sorts_objets_130
+sort	705842		ToolTip	e6262758fa67	Augmente de ${$w1}% l'efficacité de |cffffffffMaléfices|r.	lot sorts_objets_130
+sort	705845		ToolTip	60a094ed49be	Votre prochain Bad Juju déclenche un temps de recharge réduit de $/1000;s2 sec.	lot sorts_objets_130
+sort	705849		Description	b689d1ede9bf	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffDon des Loas|r.	lot sorts_objets_130
+sort	705849		Name	34a303fa831a	Héritage de Zandalar	lot sorts_objets_130
+sort	705852		Description	e6ccbf3ffab2	Augmente de $s1 m le rayon de |cffffffffRevitalisation|r et de $s2% ses soins. 	lot sorts_objets_130
+sort	705852		Name	90c6dd3ed02f	Revitalisation améliorée	lot sorts_objets_130
+sort	705852		ToolTip	fd70d7d62ca8	Augmente de ${$w1} m le rayon de |cffffffffRevitalisation|r et de ${$w2}% ses soins. 	lot sorts_objets_130
+sort	705855		ToolTip	1ac7f3d3bfab	Augmente de ${$w1}% les dégâts et les soins des effets déclenchés par |cffffffffLancer de potion|r.	lot sorts_objets_130
+sort	705860		Description	e8568d99ee72	Permet à $s2% de votre régénération de mana de se poursuivre pendant l'incantation.	lot sorts_objets_130
+sort	705860		Name	840343d0af28	Guérisseur	lot sorts_objets_130
+sort	705860		ToolTip	7be58a72a605	Augmente de ${$w1}% les soins prodigués et réduit de ${$w2}% le coût des sorts.	lot sorts_objets_130
+sort	705861		Description	bee1bc97a6c9	Augmente de $s1% les soins prodigués.\r\n\r\nPermet à $s2% de votre régénération de mana de se poursuivre pendant l'incantation.	lot sorts_objets_130
+sort	705861		Name	840343d0af28	Guérisseur	lot sorts_objets_130
+sort	705861		ToolTip	7be58a72a605	Augmente de ${$w1}% les soins prodigués et réduit de ${$w2}% le coût des sorts.	lot sorts_objets_130
+sort	706316		Description	6499b2bb227a	|cffffffffGravure des poings|r vous accorde $s1% supplémentaires de votre Agilité et de votre Intelligence en puissance d'attaque.	lot sorts_objets_130
+sort	706316		Name	7db08be2cfef	Gravure des poings améliorée	lot sorts_objets_130
+sort	706316		ToolTip	0938b52ce657	Fait accorder à |cffffffffGravure des poings|r ${$w1}% supplémentaires de votre Agilité et de votre Intelligence en puissance d'attaque.	lot sorts_objets_130
+sort	804719		Description	1856bbf0c254	Augmente de $s1% l'efficacité de |cffffffffMaléfices|r.	lot sorts_objets_130
+sort	804719		Name	552ac7364605	Maléfices améliorés	lot sorts_objets_130
+sort	804719		ToolTip	e6262758fa67	Augmente de ${$w1}% l'efficacité de |cffffffffMaléfices|r.	lot sorts_objets_130
+sort	805172		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	805278		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	805951		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	805952		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	805953		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	805954		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	806014		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	806063		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	806255		Rank	d4c2792a7245	Caché	lot sorts_objets_130
+sort	814983		Description	53667e1dd5b9	Augmente votre Énergie maximale de $s1.	lot sorts_objets_130

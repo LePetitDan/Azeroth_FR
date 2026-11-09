@@ -1,0 +1,6 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+sort	520573		Description	eb5744f76449	Lorsque vous vous trouvez derrière votre cible, les dégâts infligés par |cffffffffFlanquer|r sont augmentés de $s1%. Dure $d.	lot sorts_objets_128
+sort	520573		Name	b181b379a0ee	Pillage	lot sorts_objets_128
+sort	520573		ToolTip	57ca66a0c9f1	Lorsque vous vous trouvez derrière votre cible, les dégâts infligés par Flanquer sont augmentés de ${$w1}%.	lot sorts_objets_128
+sort	560680		Description	fec134c5c851	Assaille l'esprit d'un ennemi de cauchemars et lui inflige $o1 points de dégâts d'Ombre en $d.	lot sorts_objets_128
+sort	560680		ToolTip	359ecbef9d49	Assaille les rêves d'un ennemi de cauchemars et lui inflige ${$m1+$PL*4+$SP*0.2} points de dégâts d'Ombre.	lot sorts_objets_128

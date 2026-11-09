@@ -381,6 +381,7 @@
    "mots": 53644,
    "lots": [
     "sorts_classes_001",
+    "sorts_classes_027",
     "sorts_classes_002",
     "sorts_classes_003",
     "sorts_classes_004",
@@ -389,6 +390,7 @@
     "sorts_classes_007",
     "sorts_classes_008",
     "sorts_classes_009",
+    "sorts_classes_028",
     "sorts_classes_010",
     "sorts_classes_011",
     "sorts_classes_012",
@@ -400,10 +402,12 @@
     "sorts_classes_018",
     "sorts_classes_019",
     "sorts_classes_020",
+    "sorts_classes_029",
     "sorts_classes_021",
     "sorts_classes_022",
     "sorts_classes_023",
     "sorts_classes_024",
+    "sorts_classes_030",
     "sorts_classes_025",
     "sorts_classes_026"
    ],
@@ -589,6 +593,7 @@
    "lignes": 8456,
    "mots": 99135,
    "lots": [
+    "sorts_standard_041",
     "sorts_standard_001",
     "sorts_standard_002",
     "sorts_standard_003",
@@ -874,6 +879,7 @@
     "sorts_objets_074",
     "sorts_objets_004",
     "sorts_objets_075",
+    "sorts_objets_111",
     "sorts_objets_005",
     "sorts_objets_006",
     "sorts_objets_007",
@@ -897,32 +903,44 @@
     "sorts_objets_080",
     "sorts_objets_021",
     "sorts_objets_022",
+    "sorts_objets_112",
     "sorts_objets_081",
+    "sorts_objets_113",
     "sorts_objets_023",
+    "sorts_objets_114",
     "sorts_objets_082",
+    "sorts_objets_115",
     "sorts_objets_024",
     "sorts_objets_083",
     "sorts_objets_025",
     "sorts_objets_026",
     "sorts_objets_027",
     "sorts_objets_084",
+    "sorts_objets_116",
     "sorts_objets_028",
     "sorts_objets_085",
     "sorts_objets_029",
+    "sorts_objets_117",
     "sorts_objets_086",
+    "sorts_objets_118",
     "sorts_objets_030",
     "sorts_objets_031",
     "sorts_objets_032",
+    "sorts_objets_119",
     "sorts_objets_033",
     "sorts_objets_087",
+    "sorts_objets_120",
     "sorts_objets_034",
     "sorts_objets_088",
+    "sorts_objets_121",
+    "sorts_objets_122",
     "sorts_objets_035",
     "sorts_objets_036",
     "sorts_objets_037",
     "sorts_objets_038",
     "sorts_objets_089",
     "sorts_objets_039",
+    "sorts_objets_123",
     "sorts_objets_040",
     "sorts_objets_041",
     "sorts_objets_042",
@@ -932,28 +950,46 @@
     "sorts_objets_046",
     "sorts_objets_047",
     "sorts_objets_048",
+    "sorts_objets_124",
     "sorts_objets_090",
+    "sorts_objets_125",
     "sorts_objets_049",
+    "sorts_objets_126",
     "sorts_objets_091",
+    "sorts_objets_127",
     "sorts_objets_050",
     "sorts_objets_092",
+    "sorts_objets_128",
     "sorts_objets_051",
     "sorts_objets_093",
     "sorts_objets_052",
     "sorts_objets_094",
+    "sorts_objets_129",
+    "sorts_objets_130",
+    "sorts_objets_131",
+    "sorts_objets_132",
     "sorts_objets_095",
+    "sorts_objets_133",
     "sorts_objets_053",
+    "sorts_objets_134",
     "sorts_objets_096",
+    "sorts_objets_135",
     "sorts_objets_097",
     "sorts_objets_054",
     "sorts_objets_098",
+    "sorts_objets_136",
     "sorts_objets_055",
+    "sorts_objets_137",
     "sorts_objets_099",
+    "sorts_objets_138",
     "sorts_objets_056",
     "sorts_objets_057",
     "sorts_objets_100",
+    "sorts_objets_139",
     "sorts_objets_058",
+    "sorts_objets_140",
     "sorts_objets_101",
+    "sorts_objets_141",
     "sorts_objets_059",
     "sorts_objets_102",
     "sorts_objets_060",
@@ -965,9 +1001,11 @@
     "sorts_objets_064",
     "sorts_objets_105",
     "sorts_objets_065",
+    "sorts_objets_142",
     "sorts_objets_106",
     "sorts_objets_066",
     "sorts_objets_107",
+    "sorts_objets_143",
     "sorts_objets_067",
     "sorts_objets_108",
     "sorts_objets_068",
@@ -976,6 +1014,7 @@
     "sorts_objets_070",
     "sorts_objets_071",
     "sorts_objets_072",
+    "sorts_objets_144",
     "sorts_objets_073",
     "sorts_objets_110"
    ],
@@ -11730,6 +11769,630 @@
    "chantier": "M",
    "bloque": "",
    "ajoute": "2026-11-08 20:23"
+  },
+  "sorts_objets_111": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "16288",
+    "",
+    "Description"
+   ],
+   "textes": 26,
+   "lignes": 37,
+   "mots": 638,
+   "plage": "sort 16288 à 51471",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_112": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "86358",
+    "",
+    "Description"
+   ],
+   "textes": 16,
+   "lignes": 16,
+   "mots": 387,
+   "plage": "sort 86358 à 86397",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_113": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "91232",
+    "",
+    "Description"
+   ],
+   "textes": 4,
+   "lignes": 4,
+   "mots": 45,
+   "plage": "sort 91232 à 91234",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_114": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "92155",
+    "",
+    "Name"
+   ],
+   "textes": 28,
+   "lignes": 30,
+   "mots": 619,
+   "plage": "sort 92155 à 92418",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_115": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "93132",
+    "",
+    "Name"
+   ],
+   "textes": 1,
+   "lignes": 2,
+   "mots": 1,
+   "plage": "sort 300225 à 300225",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_116": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "102228",
+    "",
+    "Description"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 16,
+   "plage": "sort 102228 à 102228",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_117": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "120003",
+    "",
+    "Description"
+   ],
+   "textes": 104,
+   "lignes": 108,
+   "mots": 2023,
+   "plage": "sort 120003 à 120089",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_118": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "120111",
+    "",
+    "Description"
+   ],
+   "textes": 96,
+   "lignes": 103,
+   "mots": 1964,
+   "plage": "sort 120111 à 120198",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_119": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "209452",
+    "",
+    "Description"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 29,
+   "plage": "sort 209452 à 209452",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_120": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "263374",
+    "",
+    "Description"
+   ],
+   "textes": 3,
+   "lignes": 3,
+   "mots": 82,
+   "plage": "sort 263374 à 277423",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_121": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "300225",
+    "",
+    "Description"
+   ],
+   "textes": 300,
+   "lignes": 371,
+   "mots": 2252,
+   "plage": "sort 300225 à 300699",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_122": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "300701",
+    "",
+    "Name"
+   ],
+   "textes": 68,
+   "lignes": 73,
+   "mots": 483,
+   "plage": "sort 300701 à 300993",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_123": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "312090",
+    "",
+    "Description"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 36,
+   "plage": "sort 312090 à 312090",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_124": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "410000",
+    "",
+    "Description"
+   ],
+   "textes": 7,
+   "lignes": 12,
+   "mots": 141,
+   "plage": "sort 410000 à 411005",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_125": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "423785",
+    "",
+    "Name"
+   ],
+   "textes": 11,
+   "lignes": 15,
+   "mots": 874,
+   "plage": "sort 423785 à 423825",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_126": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "435104",
+    "",
+    "Name"
+   ],
+   "textes": 11,
+   "lignes": 18,
+   "mots": 390,
+   "plage": "sort 435104 à 435693",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_127": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "500013",
+    "",
+    "Description"
+   ],
+   "textes": 64,
+   "lignes": 70,
+   "mots": 786,
+   "plage": "sort 500013 à 503793",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_128": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "520573",
+    "",
+    "Name"
+   ],
+   "textes": 5,
+   "lignes": 5,
+   "mots": 43,
+   "plage": "sort 520573 à 560680",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_129": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "701463",
+    "",
+    "Name"
+   ],
+   "textes": 242,
+   "lignes": 306,
+   "mots": 2498,
+   "plage": "sort 701463 à 705057",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_130": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "705062",
+    "",
+    "Description"
+   ],
+   "textes": 300,
+   "lignes": 418,
+   "mots": 2367,
+   "plage": "sort 705062 à 705861",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_131": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "705872",
+    "",
+    "Description"
+   ],
+   "textes": 246,
+   "lignes": 318,
+   "mots": 2469,
+   "plage": "sort 705872 à 800315",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_132": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "800335",
+    "",
+    "Description"
+   ],
+   "textes": 20,
+   "lignes": 20,
+   "mots": 321,
+   "plage": "sort 800335 à 800749",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_133": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "800844",
+    "",
+    "Name"
+   ],
+   "textes": 71,
+   "lignes": 74,
+   "mots": 903,
+   "plage": "sort 800844 à 802162",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_134": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "802275",
+    "",
+    "Name"
+   ],
+   "textes": 9,
+   "lignes": 9,
+   "mots": 143,
+   "plage": "sort 802275 à 802347",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_135": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "802706",
+    "",
+    "Name"
+   ],
+   "textes": 210,
+   "lignes": 234,
+   "mots": 2334,
+   "plage": "sort 802706 à 806614",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_136": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "811255",
+    "",
+    "Description"
+   ],
+   "textes": 38,
+   "lignes": 48,
+   "mots": 1167,
+   "plage": "sort 811255 à 820712",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_137": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "827790",
+    "",
+    "Description"
+   ],
+   "textes": 14,
+   "lignes": 18,
+   "mots": 521,
+   "plage": "sort 827790 à 832602",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_138": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "834476",
+    "",
+    "Description"
+   ],
+   "textes": 42,
+   "lignes": 51,
+   "mots": 1304,
+   "plage": "sort 834476 à 888010",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_139": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "954192",
+    "",
+    "Description"
+   ],
+   "textes": 13,
+   "lignes": 27,
+   "mots": 308,
+   "plage": "sort 954192 à 954217",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_140": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "954500",
+    "",
+    "Description"
+   ],
+   "textes": 37,
+   "lignes": 37,
+   "mots": 823,
+   "plage": "sort 954500 à 954617",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_141": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "954704",
+    "",
+    "Description"
+   ],
+   "textes": 63,
+   "lignes": 66,
+   "mots": 1371,
+   "plage": "sort 954704 à 965426",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_142": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "979700",
+    "",
+    "Description"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 32,
+   "plage": "sort 979700 à 979700",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_143": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "986067",
+    "",
+    "Name"
+   ],
+   "textes": 5,
+   "lignes": 5,
+   "mots": 108,
+   "plage": "sort 986067 à 988256",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_objets_144": {
+   "famille": "sorts_objets",
+   "debut": [
+    "sort",
+    "2304121",
+    "",
+    "Name"
+   ],
+   "textes": 2,
+   "lignes": 3,
+   "mots": 12,
+   "plage": "sort 2304121 à 2304121",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:19"
+  },
+  "sorts_classes_027": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "71349",
+    "",
+    "Name"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 3,
+   "plage": "sort 71349 à 71349",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:47"
+  },
+  "sorts_classes_028": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "535505",
+    "",
+    "Description"
+   ],
+   "textes": 2,
+   "lignes": 3,
+   "mots": 72,
+   "plage": "sort 535505 à 560963",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:47"
+  },
+  "sorts_classes_029": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "804597",
+    "",
+    "ToolTip"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 33,
+   "plage": "sort 804597 à 804597",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:47"
+  },
+  "sorts_classes_030": {
+   "famille": "sorts_classes",
+   "debut": [
+    "sort",
+    "928889",
+    "",
+    "Name"
+   ],
+   "textes": 108,
+   "lignes": 226,
+   "mots": 449,
+   "plage": "sort 928889 à 997141",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:47"
+  },
+  "sorts_standard_041": {
+   "famille": "sorts_standard",
+   "debut": [
+    "sort",
+    "1",
+    "",
+    "Name"
+   ],
+   "textes": 1,
+   "lignes": 3,
+   "mots": 3,
+   "plage": "sort 1 à 1",
+   "chantier": "N",
+   "bloque": "",
+   "ajoute": "2026-11-09 07:47"
   }
  },
  "chantiers": [
@@ -12620,6 +13283,61 @@
    ],
    "textes": 25480,
    "mots": 175442,
+   "mots_bloques": 0
+  },
+  {
+   "id": "N",
+   "nom": "Sorts des classes : avancement du personnage de CoA (0.9.5)",
+   "priorite": 1,
+   "familles": [
+    "sorts_objets",
+    "sorts_classes",
+    "talents",
+    "sorts_standard"
+   ],
+   "lots": [
+    "sorts_objets_111",
+    "sorts_objets_112",
+    "sorts_objets_113",
+    "sorts_objets_114",
+    "sorts_objets_115",
+    "sorts_objets_116",
+    "sorts_objets_117",
+    "sorts_objets_118",
+    "sorts_objets_119",
+    "sorts_objets_120",
+    "sorts_objets_121",
+    "sorts_objets_122",
+    "sorts_objets_123",
+    "sorts_objets_124",
+    "sorts_objets_125",
+    "sorts_objets_126",
+    "sorts_objets_127",
+    "sorts_objets_128",
+    "sorts_objets_129",
+    "sorts_objets_130",
+    "sorts_objets_131",
+    "sorts_objets_132",
+    "sorts_objets_133",
+    "sorts_objets_134",
+    "sorts_objets_135",
+    "sorts_objets_136",
+    "sorts_objets_137",
+    "sorts_objets_138",
+    "sorts_objets_139",
+    "sorts_objets_140",
+    "sorts_objets_141",
+    "sorts_objets_142",
+    "sorts_objets_143",
+    "sorts_objets_144",
+    "sorts_classes_027",
+    "sorts_classes_028",
+    "sorts_classes_029",
+    "sorts_classes_030",
+    "sorts_standard_041"
+   ],
+   "textes": 2173,
+   "mots": 28050,
    "mots_bloques": 0
   }
  ]
