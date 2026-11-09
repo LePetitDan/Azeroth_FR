@@ -20,7 +20,8 @@
 | **L** Mise à jour au CoA du 08/11 (ensembles d'objets) | 8 | ensembles_objets | 36 | 10 574 | 40 341 | familles entières |
 | **M** Hauts faits : la release 3.5.1 retraduite ; sorts cités et sorts de spécialisation (0.9.4) | 9 | hauts_faits, sorts_objets | 126 | 25 480 | 175 442 | familles entières |
 | **N** Sorts des classes : avancement du personnage de CoA (0.9.5) | 1 | sorts_objets, sorts_classes, talents, sorts_standard | 39 | 2 173 | 28 050 | familles entières |
-| **Total** | | | 729 | 137 797 | 1 341 058 | |
+| **O** Restes avant la version publique (0.9.5) | 1 | creatures, hauts_faits_criteres, objets, zones | 17 | 1 284 | 3 522 | familles entières |
+| **Total** | | | 746 | 139 081 | 1 344 580 | |
 
 **En attente d'une décision de Dan** (lots au plan, mais bloqués) :
 
@@ -30,8 +31,8 @@
 | Famille | Chantier | Textes | Lignes | Mots | Lots | Techniques probables (exclues) |
 |---|---|---:|---:|---:|---:|---:|
 | quetes | A, B | 9 465 | 12 444 | 252 617 | 101 | 0 |
-| creatures | D | 661 | 689 | 1 992 | 3 | 23 |
-| objets | E | 19 644 | 28 806 | 81 186 | 66 | 3 |
+| creatures | D, O | 661 | 689 | 1 992 | 6 | 23 |
+| objets | E, O | 19 644 | 28 806 | 81 186 | 69 | 3 |
 | ensembles_objets | L | 10 574 | 10 709 | 40 341 | 36 | 0 |
 | objets_monde | D | 953 | 1 086 | 2 389 | 4 | 0 |
 | dialogues | D | 469 | 909 | 11 261 | 5 | 0 |
@@ -45,7 +46,7 @@
 | sorts_classes | C, N | 6 569 | 9 561 | 53 644 | 30 | 2 |
 | talents | C | 8 274 | 14 889 | 86 721 | 35 | 45 |
 | hauts_faits | H, M | 5 557 | 8 219 | 40 569 | 109 | 0 |
-| zones | D | 814 | 1 244 | 2 222 | 3 | 0 |
+| zones | D, O | 814 | 1 244 | 2 222 | 4 | 0 |
 | sorts_standard | G, N | 5 095 | 8 456 | 99 135 | 41 | 2 |
 | factions | F | 18 | 18 | 91 | 1 | 0 |
 | races | F | 11 | 13 | 17 | 1 | 0 |
@@ -66,7 +67,7 @@
 | noms_client | I | 694 | 7 397 | 1 800 | 3 | 0 |
 | sorts_objets | J, M, N | 15 447 | 27 888 | 179 456 | 144 | 126 |
 | vanite | J | 4 460 | 12 569 | 46 243 | 19 | 0 |
-| hauts_faits_criteres | K | 8 139 | 13 341 | 51 786 | 28 | 723 |
+| hauts_faits_criteres | K, O | 8 139 | 13 341 | 51 786 | 38 | 723 |
 
 ## Les lots
 
@@ -868,4 +869,26 @@
 | `sorts_classes_029` | sort 804597 à 804597 | 1 | 1 | 33 |
 | `sorts_classes_030` | sort 928889 à 997141 | 108 | 226 | 449 |
 | `sorts_standard_041` | sort 1 à 1 | 1 | 3 | 3 |
+
+### Chantier O : Restes avant la version publique (0.9.5)
+
+| Lot | Plage | Textes | Lignes | Mots |
+|---|---|---:|---:|---:|
+| `creatures_004` | creature 81232 à 146507 | 300 | 310 | 702 |
+| `creatures_005` | creature 148025 à 347310 | 300 | 303 | 653 |
+| `creatures_006` | creature 379386 à 5011007 | 121 | 164 | 235 |
+| `hauts_faits_criteres_029` | haut_fait_critere 15079 à 15102 | 2 | 17 | 10 |
+| `hauts_faits_criteres_030` | haut_fait_critere 20107 à 20161 | 5 | 5 | 18 |
+| `hauts_faits_criteres_031` | haut_fait_critere 23495 à 23615 | 3 | 3 | 6 |
+| `hauts_faits_criteres_032` | haut_fait_critere 34236 à 34236 | 1 | 1 | 1 |
+| `hauts_faits_criteres_033` | haut_fait_critere 42038 à 42111 | 10 | 44 | 23 |
+| `hauts_faits_criteres_034` | haut_fait_critere 42115 à 53249 | 281 | 808 | 915 |
+| `hauts_faits_criteres_035` | haut_fait_critere 60341 à 70549 | 6 | 21 | 18 |
+| `hauts_faits_criteres_036` | haut_fait_critere 90003 à 90021 | 2 | 6 | 7 |
+| `hauts_faits_criteres_037` | haut_fait_critere 143050 à 143876 | 238 | 238 | 898 |
+| `hauts_faits_criteres_038` | haut_fait_critere 152232 à 154075 | 11 | 19 | 27 |
+| `objets_067` | objet 2000150 à 2000150 | 1 | 1 | 1 |
+| `objets_068` | objet 4050846 à 4050846 | 1 | 1 | 3 |
+| `objets_069` | objet 9707100 à 9707100 | 1 | 1 | 4 |
+| `zones_004` | canal 1 à 1 | 1 | 2 | 1 |
 

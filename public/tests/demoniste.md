@@ -1,0 +1,291 @@
+# Fiche de test : Démoniste
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Affliction
+
+- [ ] **Corruption** (Rang 1) — capacité, sort n° 172
+- [ ] **Malédiction funeste** (Rang 1) — capacité, sort n° 603 🔍 MAJ
+- [ ] **Drain de vie** (Rang 1) — capacité, sort n° 689
+- [ ] **Malédiction de faiblesse** (Rang 1) — capacité, sort n° 702 🔍 MAJ
+- [ ] **Malédiction d'agonie** (Rang 1) — capacité, sort n° 980
+- [ ] **Drain d'âme** (Rang 1) — capacité, sort n° 1120 🔍 MAJ
+- [ ] **Connexion** (Rang 1) — capacité, sort n° 1454
+- [ ] **Malédiction des éléments** (Rang 1) — capacité, sort n° 1490 🔍 MAJ
+- [ ] **Malédiction des langages** — capacité, sort n° 1714 🔍 MAJ
+- [ ] **Drain de mana** — capacité, sort n° 5138
+- [ ] **Hurlement de terreur** (Rang 1) — capacité, sort n° 5484
+- [ ] **Peur** (Rang 1) — capacité, sort n° 5782 🔍 MAJ
+- [ ] **Voile mortel** (Rang 1) — capacité, sort n° 6789
+- [ ] **Graine de Corruption** (Rang 1) — capacité, sort n° 27243
+- [ ] **Échange d'âme** — capacité, sort n° 954614
+- [ ] **Concentration corrompue** (Rang 1) — talent, sort n° 17783 🔍 MAJ
+- [ ] **Concentration corrompue** (Rang 2) — talent, sort n° 17784 🔍 MAJ
+- [ ] **Concentration corrompue** (Rang 3) — talent, sort n° 17785 🔍 MAJ
+- [ ] **Siphon d'âme** (Rang 1) — talent, sort n° 17804
+- [ ] **Siphon d'âme** (Rang 2) — talent, sort n° 17805
+- [ ] **Corruption améliorée** (Rang 1) — talent, sort n° 17810
+- [ ] **Corruption améliorée** (Rang 2) — talent, sort n° 17811
+- [ ] **Corruption améliorée** (Rang 3) — talent, sort n° 17812
+- [ ] **Crépuscule** (Rang 1) — talent, sort n° 18094 🔍 MAJ
+- [ ] **Crépuscule** (Rang 2) — talent, sort n° 18095 🔍 MAJ
+- [ ] **Suppression** (Rang 1) — talent, sort n° 18174
+- [ ] **Suppression** (Rang 2) — talent, sort n° 18175
+- [ ] **Suppression** (Rang 3) — talent, sort n° 18176
+- [ ] **Malédiction de faiblesse améliorée** (Rang 1) — talent, sort n° 18179
+- [ ] **Malédiction de faiblesse améliorée** (Rang 2) — talent, sort n° 18180
+- [ ] **Connexion améliorée** (Rang 1) — talent, sort n° 18182
+- [ ] **Connexion améliorée** (Rang 2) — talent, sort n° 18183
+- [ ] **Drain d'âme amélioré** (Rang 1) — talent, sort n° 18213
+- [ ] **Allonge sinistre** (Rang 1) — talent, sort n° 18218 🔍 MAJ
+- [ ] **Allonge sinistre** (Rang 2) — talent, sort n° 18219 🔍 MAJ
+- [ ] **Maîtrise de l'ombre** (Rang 1) — talent, sort n° 18271
+- [ ] **Maîtrise de l'ombre** (Rang 2) — talent, sort n° 18272
+- [ ] **Maîtrise de l'ombre** (Rang 3) — talent, sort n° 18273
+- [ ] **Malédiction amplifiée** — talent, sort n° 18288
+- [ ] **Drain d'âme amélioré** (Rang 2) — talent, sort n° 18372
+- [ ] **Malédiction d'agonie améliorée** (Rang 1) — talent, sort n° 18827
+- [ ] **Malédiction d'agonie améliorée** (Rang 2) — talent, sort n° 18829
+- [ ] **Hurlement de terreur amélioré** (Rang 1) — talent, sort n° 30054
+- [ ] **Hurlement de terreur amélioré** (Rang 2) — talent, sort n° 30057
+- [ ] **Contagion** (Rang 1) — talent, sort n° 30060
+- [ ] **Contagion** (Rang 2) — talent, sort n° 30061
+- [ ] **Contagion** (Rang 3) — talent, sort n° 30062
+- [ ] **Contagion** (Rang 4) — talent, sort n° 30063
+- [ ] **Contagion** (Rang 5) — talent, sort n° 30064
+- [ ] **Corruption surpuissante** (Rang 1) — talent, sort n° 32381
+- [ ] **Corruption surpuissante** (Rang 2) — talent, sort n° 32382
+- [ ] **Corruption surpuissante** (Rang 3) — talent, sort n° 32383
+- [ ] **Etreinte de l'ombre** (Rang 1) — talent, sort n° 32385
+- [ ] **Etreinte de l'ombre** (Rang 2) — talent, sort n° 32387
+- [ ] **Etreinte de l'ombre** (Rang 3) — talent, sort n° 32392
+- [ ] **Etreinte de l'ombre** (Rang 4) — talent, sort n° 32393
+- [ ] **Etreinte de l'ombre** (Rang 5) — talent, sort n° 32394
+- [ ] **Imprécation** (Rang 1) — talent, sort n° 32477
+- [ ] **Imprécation** (Rang 2) — talent, sort n° 32483
+- [ ] **Imprécation** (Rang 3) — talent, sort n° 32484
+- [ ] **Moissonneur de mort** (Rang 1) — talent, sort n° 32505
+- [ ] **Moissonneur de mort** (Rang 2) — talent, sort n° 32506
+- [ ] **Moissonneur de mort** (Rang 3) — talent, sort n° 32507
+- [ ] **Eradication** (Rang 1) — talent, sort n° 47195
+- [ ] **Eradication** (Rang 2) — talent, sort n° 47196
+- [ ] **Eradication** (Rang 3) — talent, sort n° 47197
+- [ ] **Caresse de la mort** (Rang 1) — talent, sort n° 47198
+- [ ] **Caresse de la mort** (Rang 2) — talent, sort n° 47199
+- [ ] **Caresse de la mort** (Rang 3) — talent, sort n° 47200
+- [ ] **Affliction éternelle** (Rang 1) — talent, sort n° 47201
+- [ ] **Affliction éternelle** (Rang 2) — talent, sort n° 47202
+- [ ] **Affliction éternelle** (Rang 3) — talent, sort n° 47203
+- [ ] **Peur améliorée** (Rang 1) — talent, sort n° 53754
+- [ ] **Peur améliorée** (Rang 2) — talent, sort n° 53759
+- [ ] **Chasseur corrompu amélioré** (Rang 1) — talent, sort n° 54037
+- [ ] **Chasseur corrompu amélioré** (Rang 2) — talent, sort n° 54038
+- [ ] **Pandémie** (Rang 1) — talent, sort n° 58435
+- [ ] **Siphon de vie** (Rang 1) — talent, sort n° 63108 🔍 MAJ
+- [ ] **Connexion améliorée** (Rang 3) — talent, sort n° 818183
+- [ ] **Connexion améliorée** (Rang 4) — talent, sort n° 818184
+- [ ] **Connexion améliorée** (Rang 5) — talent, sort n° 818185
+- [ ] **Allonge sinistre** (Rang 3) — talent, sort n° 818219 🔍 MAJ
+- [ ] **Malédiction d'agonie améliorée** (Rang 3) — talent, sort n° 818829
+- [ ] **Chasseur corrompu amélioré** (Rang 3) — talent, sort n° 854039
+- [ ] **Pandémie** (Rang 2) — talent, sort n° 858435
+- [ ] **Pandémie** (Rang 3) — talent, sort n° 858436
+- [ ] **Siphon de vie** (Rang 2) — talent, sort n° 863108 🔍 MAJ
+- [ ] **Pacte noir** (Rang 1) — capacité de talent, sort n° 18220
+- [ ] **Malédiction d'épuisement** — capacité de talent, sort n° 18223
+- [ ] **Affliction instable** (Rang 1) — capacité de talent, sort n° 30108
+- [ ] **Hanter** (Rang 1) — capacité de talent, sort n° 48181 🔍 MAJ
+
+## Démonologie
+
+- [ ] **Oeil de Kilrogg** (Invocation) — capacité, sort n° 126 🔍 MAJ
+- [ ] **Détection de l'invisibilité** — capacité, sort n° 132 🔍 MAJ
+- [ ] **Peau de démon** (Rang 1) — capacité, sort n° 687 🔍 MAJ
+- [ ] **Invocation : diablotin** (Invocation) — capacité, sort n° 688
+- [ ] **Invocation : chasseur corrompu** (Invocation) — capacité, sort n° 691
+- [ ] **Création de pierre d'âme** (Rang 1) — capacité, sort n° 693
+- [ ] **Invocation : marcheur du Vide** (Invocation) — capacité, sort n° 697
+- [ ] **Rituel d'invocation** — capacité, sort n° 698 🔍 MAJ
+- [ ] **Bannir** (Rang 1) — capacité, sort n° 710 🔍 MAJ
+- [ ] **Invocation : succube** (Invocation) — capacité, sort n° 712
+- [ ] **Captation de vie** (Rang 1) — capacité, sort n° 755
+- [ ] **Asservir un démon** — capacité, sort n° 890 🔍 MAJ
+- [ ] **Démon asservi temporaire** (Rang 1) — capacité, sort n° 1098
+- [ ] **Inferno** (Invocation) — capacité, sort n° 1122
+- [ ] **Création de pierre de sort** (Rang 1) — capacité, sort n° 2362
+- [ ] **Respiration interminable** — capacité, sort n° 5697 🔍 MAJ 🔀 talents
+- [ ] **Création de pierre de soins** (Rang 1) — capacité, sort n° 6201 🔍 MAJ
+- [ ] **Gardien de l'ombre** (Rang 1) — capacité, sort n° 6229 🔍 MAJ
+- [ ] **Création de pierre de feu** (Rang 1) — capacité, sort n° 6366
+- [ ] **Rituel de malédiction** — capacité, sort n° 18540
+- [ ] **Gangrarmure** (Rang 1) — capacité, sort n° 28176 🔍 MAJ
+- [ ] **Brise-âme** — capacité, sort n° 29858
+- [ ] **Rituel des âmes** (Rang 2) — capacité, sort n° 29893
+- [ ] **Cercle démoniaque : Invocation** — capacité, sort n° 48018
+- [ ] **Moisson d'âmes** — capacité, sort n° 86395 🔍 MAJ
+- [ ] **Maîtrise des armures de démoniste** — capacité, sort n° 92166 🔍 MAJ
+- [ ] **Armures démoniaques** — capacité, sort n° 701510
+- [ ] **Armure de l'invocateur** — capacité, sort n° 701521 🔍 MAJ
+- [ ] **Résolution interminable** — capacité, sort n° 954512
+- [ ] **Horreur sanglante** (Rang 1) — capacité, sort n° 954516
+- [ ] **Bond démoniaque** — capacité, sort n° 954521
+- [ ] **Maîtrise des démons** — capacité, sort n° 954705 🔍 MAJ
+- [ ] **Maîtrise de l'invocation d'âmes** — capacité, sort n° 954706 🔍 MAJ
+- [ ] **Pierre de soins améliorée** (Rang 1) — talent, sort n° 18692
+- [ ] **Pierre de soins améliorée** (Rang 2) — talent, sort n° 18693
+- [ ] **Diablotin amélioré** (Rang 1) — talent, sort n° 18694
+- [ ] **Diablotin amélioré** (Rang 2) — talent, sort n° 18695
+- [ ] **Diablotin amélioré** (Rang 3) — talent, sort n° 18696
+- [ ] **Baiser démoniaque** (Rang 1) — talent, sort n° 18697
+- [ ] **Baiser démoniaque** (Rang 2) — talent, sort n° 18698
+- [ ] **Baiser démoniaque** (Rang 3) — talent, sort n° 18699
+- [ ] **Captation de vie améliorée** (Rang 1) — talent, sort n° 18703
+- [ ] **Captation de vie améliorée** (Rang 2) — talent, sort n° 18704
+- [ ] **Brutalité démoniaque** (Rang 1) — talent, sort n° 18705
+- [ ] **Brutalité démoniaque** (Rang 2) — talent, sort n° 18706
+- [ ] **Brutalité démoniaque** (Rang 3) — talent, sort n° 18707
+- [ ] **Maître invocateur** (Rang 1) — talent, sort n° 18709
+- [ ] **Maître invocateur** (Rang 2) — talent, sort n° 18710
+- [ ] **Vitalité gangrenée** (Rang 1) — talent, sort n° 18731
+- [ ] **Vitalité gangrenée** (Rang 2) — talent, sort n° 18743
+- [ ] **Vitalité gangrenée** (Rang 3) — talent, sort n° 18744
+- [ ] **Succube améliorée** (Rang 1) — talent, sort n° 18754
+- [ ] **Succube améliorée** (Rang 2) — talent, sort n° 18755
+- [ ] **Succube améliorée** (Rang 3) — talent, sort n° 18756
+- [ ] **Maître conjurateur** (Rang 1) — talent, sort n° 18767
+- [ ] **Maître conjurateur** (Rang 2) — talent, sort n° 18768
+- [ ] **Puissance impie** (Rang 1) — talent, sort n° 18769
+- [ ] **Puissance impie** (Rang 2) — talent, sort n° 18770
+- [ ] **Puissance impie** (Rang 3) — talent, sort n° 18771
+- [ ] **Puissance impie** (Rang 4) — talent, sort n° 18772
+- [ ] **Puissance impie** (Rang 5) — talent, sort n° 18773
+- [ ] **Maître démonologue** — talent, sort n° 23785
+- [ ] **Maître démonologue** — talent, sort n° 23822
+- [ ] **Maître démonologue** — talent, sort n° 23823
+- [ ] **Maître démonologue** — talent, sort n° 23824
+- [ ] **Maître démonologue** — talent, sort n° 23825
+- [ ] **Egide démoniaque** (Rang 1) — talent, sort n° 30143
+- [ ] **Egide démoniaque** (Rang 2) — talent, sort n° 30144
+- [ ] **Egide démoniaque** (Rang 3) — talent, sort n° 30145
+- [ ] **Tactique démoniaque** (Rang 1) — talent, sort n° 30242 🔍 MAJ
+- [ ] **Tactique démoniaque** (Rang 2) — talent, sort n° 30245 🔍 MAJ
+- [ ] **Tactique démoniaque** (Rang 3) — talent, sort n° 30246 🔍 MAJ
+- [ ] **Tactique démoniaque** (Rang 4) — talent, sort n° 30247 🔍 MAJ
+- [ ] **Tactique démoniaque** (Rang 5) — talent, sort n° 30248 🔍 MAJ
+- [ ] **Résilience démoniaque** (Rang 1) — talent, sort n° 30319
+- [ ] **Résilience démoniaque** (Rang 2) — talent, sort n° 30320
+- [ ] **Résilience démoniaque** (Rang 3) — talent, sort n° 30321
+- [ ] **Festin de mana** (Rang 1) — talent, sort n° 30326 🔍 MAJ
+- [ ] **Connaissance démoniaque** (Rang 1) — talent, sort n° 35691
+- [ ] **Connaissance démoniaque** (Rang 2) — talent, sort n° 35692
+- [ ] **Connaissance démoniaque** (Rang 3) — talent, sort n° 35693
+- [ ] **Synergie gangrenée** (Rang 1) — talent, sort n° 47230
+- [ ] **Synergie gangrenée** (Rang 2) — talent, sort n° 47231
+- [ ] **Pacte démoniaque** (Rang 1) — talent, sort n° 47236
+- [ ] **Pacte démoniaque** (Rang 2) — talent, sort n° 47237
+- [ ] **Pacte démoniaque** (Rang 3) — talent, sort n° 47238
+- [ ] **Coeur de la fournaise** (Rang 1) — talent, sort n° 47245 🔀 talents
+- [ ] **Coeur de la fournaise** (Rang 2) — talent, sort n° 47246 🔀 talents
+- [ ] **Tactique démoniaque améliorée** (Rang 1) — talent, sort n° 54347 🔍 MAJ
+- [ ] **Tactique démoniaque améliorée** (Rang 2) — talent, sort n° 54348 🔍 MAJ
+- [ ] **Tactique démoniaque améliorée** (Rang 3) — talent, sort n° 54349 🔍 MAJ
+- [ ] **Instrument de vengeance** (Rang 1) — talent, sort n° 63117
+- [ ] **Instrument de vengeance** (Rang 2) — talent, sort n° 63121
+- [ ] **Instrument de vengeance** (Rang 3) — talent, sort n° 63123
+- [ ] **Décimation** (Rang 1) — talent, sort n° 63156
+- [ ] **Décimation** (Rang 2) — talent, sort n° 63158
+- [ ] **Festin de mana** (Rang 2) — talent, sort n° 830326 🔍 MAJ
+- [ ] **Domination corrompue** — capacité de talent, sort n° 18708
+- [ ] **Lien spirituel** — capacité de talent, sort n° 19028
+- [ ] **Invocation d'un gangregarde** (Invocation) — capacité de talent, sort n° 30146
+- [ ] **Renforcement démoniaque** — capacité de talent, sort n° 47193
+- [ ] **Métamorphe** — capacité de talent, sort n° 59672 🔍 MAJ
+
+## Destruction
+
+- [ ] **Immolation** (Rang 1) — capacité, sort n° 348
+- [ ] **Trait de l'ombre** (Rang 1) — capacité, sort n° 686
+- [ ] **Flammes infernales** (Rang 1) — capacité, sort n° 1949
+- [ ] **Douleur brûlante** (Rang 1) — capacité, sort n° 5676
+- [ ] **Pluie de feu** (Rang 1) — capacité, sort n° 5740
+- [ ] **Feu de l'âme** (Rang 1) — capacité, sort n° 6353
+- [ ] **Incinérer** (Rang 1) — capacité, sort n° 29722
+- [ ] **Ombreflamme** (Rang 1) — capacité, sort n° 47897
+- [ ] **Main de Gul'dan** — capacité, sort n° 954611
+- [ ] **Ruée ardente** — capacité, sort n° 954806
+- [ ] **Cataclysme** (Rang 1) — talent, sort n° 17778
+- [ ] **Cataclysme** (Rang 2) — talent, sort n° 17779
+- [ ] **Cataclysme** (Rang 3) — talent, sort n° 17780
+- [ ] **Fléau** (Rang 1) — talent, sort n° 17788
+- [ ] **Fléau** (Rang 2) — talent, sort n° 17789
+- [ ] **Fléau** (Rang 3) — talent, sort n° 17790
+- [ ] **Trait de l'ombre amélioré** (Rang 1) — talent, sort n° 17793 🔍 MAJ
+- [ ] **Trait de l'ombre amélioré** (Rang 2) — talent, sort n° 17796 🔍 MAJ
+- [ ] **Trait de l'ombre amélioré** (Rang 3) — talent, sort n° 17801 🔍 MAJ
+- [ ] **Trait de l'ombre amélioré** (Rang 4) — talent, sort n° 17802 🔍 MAJ
+- [ ] **Trait de l'ombre amélioré** (Rang 5) — talent, sort n° 17803 🔍 MAJ
+- [ ] **Immolation améliorée** (Rang 1) — talent, sort n° 17815
+- [ ] **Immolation améliorée** (Rang 2) — talent, sort n° 17833
+- [ ] **Immolation améliorée** (Rang 3) — talent, sort n° 17834
+- [ ] **Allonge de destruction** (Rang 1) — talent, sort n° 17917 🔍 MAJ
+- [ ] **Allonge de destruction** (Rang 2) — talent, sort n° 17918 🔍 MAJ
+- [ ] **Douleur brûlante améliorée** (Rang 1) — talent, sort n° 17927
+- [ ] **Douleur brûlante améliorée** (Rang 2) — talent, sort n° 17929
+- [ ] **Douleur brûlante améliorée** (Rang 3) — talent, sort n° 17930
+- [ ] **Tempête ardente** (Rang 1) — talent, sort n° 17954
+- [ ] **Tempête ardente** (Rang 2) — talent, sort n° 17955
+- [ ] **Tempête ardente** (Rang 3) — talent, sort n° 17956
+- [ ] **Tempête ardente** (Rang 4) — talent, sort n° 17957
+- [ ] **Tempête ardente** (Rang 5) — talent, sort n° 17958
+- [ ] **Ruine** (Rang 1) — talent, sort n° 17959 🔍 MAJ
+- [ ] **Pyroclasme** (Rang 2) — talent, sort n° 18073
+- [ ] **Pyroclasme** (Rang 1) — talent, sort n° 18096
+- [ ] **Conséquences** (Rang 1) — talent, sort n° 18119
+- [ ] **Conséquences** (Rang 2) — talent, sort n° 18120
+- [ ] **Puissance démoniaque** (Rang 1) — talent, sort n° 18126
+- [ ] **Puissance démoniaque** (Rang 2) — talent, sort n° 18127
+- [ ] **Dévastation** — talent, sort n° 18130
+- [ ] **Intensité** (Rang 1) — talent, sort n° 18135
+- [ ] **Intensité** (Rang 2) — talent, sort n° 18136
+- [ ] **Ombre et flammes** (Rang 1) — talent, sort n° 30288
+- [ ] **Ombre et flammes** (Rang 2) — talent, sort n° 30289
+- [ ] **Ombre et flammes** (Rang 3) — talent, sort n° 30290
+- [ ] **Suceur d'âme** (Rang 1) — talent, sort n° 30293 🔍 MAJ
+- [ ] **Suceur d'âme** (Rang 2) — talent, sort n° 30295 🔍 MAJ
+- [ ] **Suceur d'âme** (Rang 3) — talent, sort n° 30296 🔍 MAJ
+- [ ] **Protection du Néant** (Rang 1) — talent, sort n° 30299 🔍 MAJ
+- [ ] **Protection du Néant** (Rang 2) — talent, sort n° 30301 🔍 MAJ
+- [ ] **Protection du Néant** (Rang 3) — talent, sort n° 30302 🔍 MAJ
+- [ ] **Contrecoup** (Rang 1) — talent, sort n° 34935 🔍 MAJ
+- [ ] **Contrecoup** (Rang 2) — talent, sort n° 34938 🔍 MAJ
+- [ ] **Contrecoup** (Rang 3) — talent, sort n° 34939 🔍 MAJ
+- [ ] **Diablotin surpuissant** (Rang 1) — talent, sort n° 47220
+- [ ] **Diablotin surpuissant** (Rang 2) — talent, sort n° 47221
+- [ ] **Diablotin surpuissant** (Rang 3) — talent, sort n° 47223
+- [ ] **Explosion de fumées** (Rang 1) — talent, sort n° 47258
+- [ ] **Explosion de fumées** (Rang 2) — talent, sort n° 47259
+- [ ] **Explosion de fumées** (Rang 3) — talent, sort n° 47260
+- [ ] **Feu et soufre** (Rang 1) — talent, sort n° 47266
+- [ ] **Feu et soufre** (Rang 2) — talent, sort n° 47267
+- [ ] **Feu et soufre** (Rang 3) — talent, sort n° 47268
+- [ ] **Feu et soufre** (Rang 4) — talent, sort n° 47269 🔍 MAJ
+- [ ] **Feu et soufre** (Rang 5) — talent, sort n° 47270 🔍 MAJ
+- [ ] **Suceur d'âme amélioré** (Rang 1) — talent, sort n° 54117
+- [ ] **Suceur d'âme amélioré** (Rang 2) — talent, sort n° 54118
+- [ ] **Ruine** (Rang 2) — talent, sort n° 59738 🔍 MAJ
+- [ ] **Ruine** (Rang 3) — talent, sort n° 59739 🔍 MAJ
+- [ ] **Ruine** (Rang 4) — talent, sort n° 59740 🔍 MAJ
+- [ ] **Ruine** (Rang 5) — talent, sort n° 59741 🔍 MAJ
+- [ ] **Pyroclasme** (Rang 3) — talent, sort n° 63245
+- [ ] **Peau de la fournaise** (Rang 1) — talent, sort n° 63349
+- [ ] **Peau de la fournaise** (Rang 2) — talent, sort n° 63350
+- [ ] **Peau de la fournaise** (Rang 3) — talent, sort n° 63351
+- [ ] **Allonge de destruction** (Rang 3) — talent, sort n° 817918 🔍 MAJ
+- [ ] **Intensité** (Rang 3) — talent, sort n° 818136
+- [ ] **Brûlure de l'ombre** (Rang 1) — capacité de talent, sort n° 17877 🔍 MAJ
+- [ ] **Conflagration** — capacité de talent, sort n° 17962 🔀 talents
+- [ ] **Furie de l'ombre** (Rang 1) — capacité de talent, sort n° 30283
+- [ ] **Trait du chaos** (Rang 1) — capacité de talent, sort n° 50796

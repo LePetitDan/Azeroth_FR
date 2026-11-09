@@ -110,7 +110,7 @@ categorie_quete	564		name	Netherstorm: The Ethereum Conspiracy	fddcf0d5672a	Raz-
 categorie_quete	565		name	Netherstorm: The Sunfury Menace	241ce298fc3c	Raz-de-Néant : la menace Solfurie	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 categorie_quete	566		name	Netherstorm: Arcane Unraveled	7b7592543063	Raz-de-Néant : les Arcanes dévoilées	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 categorie_quete	567		name	Netherstorm: Cleansing Enkaat	a2af50410099	Raz-de-Néant : purifier Enkaat	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-categorie_quete	568		name	Terokkar Forest: Getting Wrekt	acf98bbce06a		a_traduire		QuestSort.dbc du client CoA (patch-M)
+categorie_quete	568		name	Terokkar Forest: Getting Wrekt	acf98bbce06a	Forêt de Terokkar : se faire démolir	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 categorie_quete	569		name	Terokkar Forest: Chains of Blood & Flame	c329019af447	Forêt de Terokkar : chaînes de sang et de flammes	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 categorie_quete	570		name	Terokkar Forest: Curse of Veil Shalas	b9d652139bdf	Forêt de Terokkar : la malédiction du Voile Shalas	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 categorie_quete	571		name	Terokkar Forest: Shadow Over Auchindoun	2c275ce52726	Forêt de Terokkar : l'Ombre sur Auchindoun	machine	claude	QuestSort.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -185,9 +185,9 @@ famille_creature	44		name	Wasp	8b81f95494ed	Guêpe	officiel	wowhead_frFR	Creatur
 famille_creature	45		name	Core Hound	a6ee1c3b0a0f	Chien du Magma	officiel	wowhead_frFR	CreatureFamily.dbc du client CoA (patch-M) | même anglais que CreatureFamily.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/pet=45
 famille_creature	46		name	Spirit Beast	afff627d1e53	Esprit de bête	officiel	wowhead_frFR	CreatureFamily.dbc du client CoA (patch-M) | même anglais que CreatureFamily.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/pet=46
 famille_creature	101		name	Pit Lord	2fc9107e7774	Seigneur des abîmes	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-famille_creature	102		name	Antaen	f605e0071fc6		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
+famille_creature	102		name	Antaen	f605e0071fc6		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé de famille démoniaque
 famille_creature	103		name	Bilescourge	890fdf18c327	Fléau de bile	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-famille_creature	104		name	Aranasi	bf1132eba57a		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
+famille_creature	104		name	Aranasi	bf1132eba57a		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé
 famille_creature	105		name	Darkhound	20c76926e1bd	Chien sombre	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	106		name	Doomguard	2da7136ed1d8	Garde funeste	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	107		name	Doomlord	c021aab9751c	Seigneur funeste	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -207,7 +207,7 @@ famille_creature	120		name	Inquisitor	bb0b06f15f3e	Inquisiteur	machine	claude	Cr
 famille_creature	121		name	Jailer	fd6b6306a1d6	Geôlier	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	122		name	Man'ari Eredar	88981641f849	Éredar man'ari	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	123		name	Wrathguard	1d15e3c68891	Garde-courroux	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-famille_creature	124		name	Gan'arg	56219fd3f4e8		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
+famille_creature	124		name	Gan'arg	56219fd3f4e8		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de race démoniaque
 famille_creature	125		name	Mo'arg Brute	fdd6dbba482c	Brute mo'arg	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	126		name	Felguard	b2611fbd0861	Gangregarde	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	127		name	Fel Lord	15c3751a7e8b	Seigneur gangrené	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -220,8 +220,8 @@ famille_creature	133		name	Overfiend	ef9095868a94	Surdémon	machine	claude	Creat
 famille_creature	134		name	Satyr	86152615dadb	Satyre	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	135		name	Succubus	411c418cb418	Succube	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	136		name	Shivarra	8f456b26cd8c	Shivarra	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-famille_creature	137		name	Tothrezim	7a298303b186		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
-famille_creature	138		name	Ur'zul	7d979c2a3e63		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
+famille_creature	137		name	Tothrezim	7a298303b186		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de race démoniaque
+famille_creature	138		name	Ur'zul	7d979c2a3e63		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de race démoniaque
 famille_creature	139		name	Vilefiend	d980d2d59683	Démon vil	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	140		name	Void Terror	2a49569b6aa8	Terreur du Vide	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	141		name	Wyrmtongue	d61189995efb	Langue-de-wyrm	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -308,7 +308,7 @@ famille_creature	340		name	Pandaren Air Spirit	51f0c4430947	Esprit d'air pandare
 famille_creature	341		name	Pandaren Earth Spirit	529a33cdcd1a	Esprit de terre pandaren	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	342		name	Pandaren Fire Spirit	fdabf34efbb1	Esprit du feu pandaren	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	343		name	Pandaren Water Spirit	09c977e8940c	Esprit de l'eau pandaren	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-famille_creature	344		name	Alemental	5b9c8b6ff7b9		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
+famille_creature	344		name	Alemental	5b9c8b6ff7b9		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom inventé, jeu de mots, sens incertain
 famille_creature	345		name	Djinn	ed2ad8d3c1f2	Djinn	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	346		name	Gemstone Colossus	fc6d6cd76920	Colosse de gemmes	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 famille_creature	347		name	Geode	ad78f31152ba	Géode	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -534,7 +534,7 @@ famille_creature	691		name	Primal Spirit Wolf	a075499b4f4f	Loup-esprit primordia
 famille_creature	692		name	Clockwork Assistant	7242d6ae78b5	Assistant mécanique	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_002.tsv) | lot noms_client_002
 famille_creature	693		name	Mechano-Bear	f9c8e0571232	Méca-ours	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_002.tsv) | lot noms_client_002
 famille_creature	694		name	Rusthound	33bf07a90301	Chien de rouille	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_002.tsv) | lot noms_client_002
-famille_creature	695		name	Ziggy-6k	704712378036		a_traduire		CreatureFamily.dbc du client CoA (patch-M)
+famille_creature	695		name	Ziggy-6k	704712378036		technique		CreatureFamily.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé (robot), rien à traduire
 famille_creature	696		name	Scrapmaw	ea251d083edf	Gueule-de-ferraille	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_002.tsv) | lot noms_client_002
 famille_creature	710		name	Sentry Turret	d70d9428c0d6	Tourelle sentinelle	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_002.tsv) | lot noms_client_002
 famille_creature	711		name	Honored Ancestor	3255a626ede4	Ancêtre honoré	machine	claude	CreatureFamily.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_002.tsv) | lot noms_client_002
@@ -562,11 +562,11 @@ fete	23		name	Call to Arms: Arathi Basin	88ae1a6e5948	Appel aux armes : bassin A
 fete	24		name	Call to Arms: Eye of the Storm	ba13c63128ad	Appel aux armes : Œil du cyclone	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=353
 fete	25		name	Call to Arms: Warsong Gulch	af7f42d3545b	Appel aux armes : goulet des Chanteguerres	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=284
 fete	41		name	Call to Arms: Strand of the Ancients	554112c4de26	Appel aux armes : rivage des Anciens	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=400
-fete	61		name	Wrath of the Lich King Launch	fb5d031d2a64		a_traduire		HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | absent du relevé Wowhead (glossaire/noms_officiels_web.tsv) : à traduire
+fete	61		name	Wrath of the Lich King Launch	fb5d031d2a64		technique		HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | absent du relevé Wowhead (glossaire/noms_officiels_web.tsv) : à traduire | technique=à garder en anglais (atelier, 0.9.5) : Wrath of the Lich King : nom d'extension gardé en anglais ; à valider avec une exception du contrôle
 fete	81		name	Day of the Dead	176c3e38334e	Jour des morts	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=409
 fete	101		name	Pilgrim's Bounty	73d05ac26174	Les Bienfaits du pèlerin	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=404
 fete	121		name	Call to Arms: Isle of Conquest	db7ec8993c9c	Appel aux armes : île des Conquérants	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=420
-fete	141		name	Mohawk Promotion	f5d7b844a447		a_traduire		HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | absent du relevé Wowhead (glossaire/noms_officiels_web.tsv) : à traduire
+fete	141		name	Mohawk Promotion	f5d7b844a447	Promotion Mohawk	machine	claude	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | absent du relevé Wowhead (glossaire/noms_officiels_web.tsv) : à traduire | traduction de Claude (traductions/noms_client/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 fete	161		name	Kalu'ak Fishing Derby	70601978368b	Tournoi de pêche kalu'ak	officiel	wowhead_frFR	HolidayNames.dbc du client CoA (patch-M) | même anglais que HolidayNames.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/event=424
 fete	163		name	Call to Arms: Twin Peaks	806b7746d8d7	Appel aux armes : Pics-Jumeaux	machine	claude	HolidayNames.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 fete	724		name	Arena Frenzy	0e705039753b	Frénésie des arènes	machine	claude	HolidayNames.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -10970,29 +10970,29 @@ titre	176		name_female	%s of the Ashen Verdict	d28797942946	%s du Verdict des ce
 titre	177		name	Wrathful Gladiator %s	669ec9d2db19	Gladiateur courroucé %s	officiel	wowhead_frFR	CharTitles.dbc du client CoA (patch-M) | même anglais que CharTitles.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/title=177
 titre	177		name_female	Wrathful Gladiator %s	669ec9d2db19	Gladiateur courroucé %s	officiel	wowhead_frFR	CharTitles.dbc du client CoA (patch-M) | même anglais que CharTitles.dbc de Blizzard 3.3.5a, français absent de patch-frFR-3 : nom officiel à reprendre (décision 31) | nom officiel de Blizzard relevé sur Wowhead en français (décisions 23 et 31) : https://www.wowhead.com/wotlk/fr/title=177
 titre	179		name	Conqueror of Blackwing Lair %s	af7fb8091f19	Conquérant du Repaire de l'Aile noire %s	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-titre	179		name_female	Reuse1	37a66106b0f2		a_traduire		CharTitles.dbc du client CoA (patch-M)
+titre	179		name_female	Reuse1	37a66106b0f2		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
 titre	180		name	The Godslayer, %s	e40d4aecc844	Le Tueur de dieux, %s	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	180		name_female	The Godslayer, %s	e40d4aecc844	Le Tueur de dieux, %s	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	181		name	Firelord %s	b69e29de3810	Seigneur du feu %s	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	181		name_female	Firelord %s	b69e29de3810	Seigneur du feu %s	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-titre	182		name	Reuse4	3d950453ec2d		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	182		name_female	Reuse4	3d950453ec2d		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	183		name	Reuse5	1586236829e8		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	183		name_female	Reuse5	1586236829e8		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	184		name	Reuse6	bbe35680c78e		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	184		name_female	Reuse6	bbe35680c78e		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	185		name	Reuse7	c59347384ce4		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	185		name_female	Reuse7	c59347384ce4		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	186		name	Reuse8	2c6cc51c11d4		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	186		name_female	Reuse8	2c6cc51c11d4		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	187		name	Reuse9	4fdda38ca36b		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	187		name_female	Reuse9	4fdda38ca36b		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	188		name	Reuse10	9e330f88426c		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	188		name_female	Reuse10	9e330f88426c		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	189		name	Reuse11	090810ae8a45		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	189		name_female	Reuse11	090810ae8a45		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	190		name	Reuse12	c763af6f3427		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	190		name_female	Reuse12	c763af6f3427		a_traduire		CharTitles.dbc du client CoA (patch-M)
+titre	182		name	Reuse4	3d950453ec2d		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	182		name_female	Reuse4	3d950453ec2d		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	183		name	Reuse5	1586236829e8		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	183		name_female	Reuse5	1586236829e8		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	184		name	Reuse6	bbe35680c78e		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	184		name_female	Reuse6	bbe35680c78e		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	185		name	Reuse7	c59347384ce4		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	185		name_female	Reuse7	c59347384ce4		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	186		name	Reuse8	2c6cc51c11d4		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	186		name_female	Reuse8	2c6cc51c11d4		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	187		name	Reuse9	4fdda38ca36b		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	187		name_female	Reuse9	4fdda38ca36b		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	188		name	Reuse10	9e330f88426c		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	188		name_female	Reuse10	9e330f88426c		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	189		name	Reuse11	090810ae8a45		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	189		name_female	Reuse11	090810ae8a45		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	190		name	Reuse12	c763af6f3427		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	190		name_female	Reuse12	c763af6f3427		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
 titre	200		name	%s I	a506da8fb625		a_traduire		CharTitles.dbc du client CoA (patch-M)
 titre	200		name_female	%s I	a506da8fb625		a_traduire		CharTitles.dbc du client CoA (patch-M)
 titre	201		name	%s II	9b492706e526	%s II	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
@@ -11045,23 +11045,23 @@ titre	224		name	Artisan Angler %s	aefd2557237d	Pêcheur artisan %s	machine	claud
 titre	224		name_female	Artisan Angler %s	aefd2557237d	Pêcheur artisan %s	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	225		name	%s the Chaotic	de67d71c07ac	%s le Chaotique	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	225		name_female	%s the Chaotic	de67d71c07ac	%s le Chaotique	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-titre	226		name	Reuse13	df1c3314f8b8		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	226		name_female	Reuse13	df1c3314f8b8		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	227		name	Reuse14	cbf9de17d27a		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	227		name_female	Reuse14	cbf9de17d27a		a_traduire		CharTitles.dbc du client CoA (patch-M)
+titre	226		name	Reuse13	df1c3314f8b8		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique de substitution
+titre	226		name_female	Reuse13	df1c3314f8b8		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	227		name	Reuse14	cbf9de17d27a		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	227		name_female	Reuse14	cbf9de17d27a		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
 titre	228		name	%s, the Ironman	de917103ce44	%s, l'Homme de fer	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	228		name_female	%s, the Ironman	de917103ce44	%s, l'Homme de fer	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	229		name	%s, the Survivalist	82d3ac041026	%s, le Survivaliste	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	229		name_female	%s, the Survivalist	82d3ac041026	%s, le Survivaliste	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	230		name	%s, the Bloody	19d03304df25	%s, le Sanglant	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
 titre	230		name_female	%s, The Bloody	9d1448f3555f	%s, la Sanglante	machine	claude	CharTitles.dbc du client CoA (patch-M) | traduction de Claude (traductions/noms_client/noms_client_001.tsv) | lot noms_client_001
-titre	231		name	Reuse15	6a74aa47a9a7		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	231		name_female	Reuse15	6a74aa47a9a7		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	232		name	Reuse16	7053d093f0c3		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	232		name_female	Reuse16	7053d093f0c3		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	233		name	Reuse17	f5b4c3a5ce42		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	233		name_female	Reuse17	f5b4c3a5ce42		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	234		name	Reuse18	b4a7206afa29		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	234		name_female	Reuse18	b4a7206afa29		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	235		name	Reuse19	d5cf5ade7d54		a_traduire		CharTitles.dbc du client CoA (patch-M)
-titre	235		name_female	Reuse19	d5cf5ade7d54		a_traduire		CharTitles.dbc du client CoA (patch-M)
+titre	231		name	Reuse15	6a74aa47a9a7		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	231		name_female	Reuse15	6a74aa47a9a7		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	232		name	Reuse16	7053d093f0c3		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	232		name_female	Reuse16	7053d093f0c3		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	233		name	Reuse17	f5b4c3a5ce42		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	233		name_female	Reuse17	f5b4c3a5ce42		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	234		name	Reuse18	b4a7206afa29		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	234		name_female	Reuse18	b4a7206afa29		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	235		name	Reuse19	d5cf5ade7d54		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire
+titre	235		name_female	Reuse19	d5cf5ade7d54		technique		CharTitles.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : marqueur technique des développeurs, rien à traduire

@@ -1,0 +1,219 @@
+# Fiche de test : Moine
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Discipline
+
+- [ ] **Respecter le serment** (Spécialisation) — capacité, sort n° 92109
+- [ ] **Testament de robustesse** — capacité, sort n° 500678
+- [ ] **Ascension spirituelle** (Rang 1) — capacité, sort n° 500688
+- [ ] **Absolution** — capacité, sort n° 800424
+- [ ] **Prêtre de guerre** (Passif) — capacité, sort n° 801202
+- [ ] **Cloches de Lumière** (Rang 1) — capacité, sort n° 801204
+- [ ] **Cercle tranquille** — capacité, sort n° 801205
+- [ ] **Bénédiction** (Rang 1) — capacité, sort n° 801448
+- [ ] **Écriture contraignante** (Passif) — capacité, sort n° 801457 🔍 MAJ
+- [ ] **Grâce d'Aman'Thul** — capacité, sort n° 801477
+- [ ] **Testament de foi** (Rang 1) — capacité, sort n° 801478
+- [ ] **Gloire** — capacité, sort n° 801481
+- [ ] **Respecter le serment** (Passif de spécialisation) — capacité, sort n° 803149
+- [ ] **Testament de détermination** — capacité, sort n° 804228
+- [ ] **Gardien transcendant** (Passif) — capacité, sort n° 804571
+- [ ] **Harmonie** — capacité, sort n° 804680
+- [ ] **Dîme** — capacité, sort n° 804781 🔍 MAJ 🔀 talents
+- [ ] **Appel de l'ancêtre** (Déclencheur2) — capacité, sort n° 804898 🔍 MAJ
+- [ ] **Protection d'Aman'thul** — capacité, sort n° 804908
+- [ ] **Danse de parade** (Passif) — capacité, sort n° 804912
+- [ ] **Grâce de la lumière** — capacité, sort n° 804913
+- [ ] **Appel impérieux** — capacité, sort n° 804914
+- [ ] **Paume rapide** — capacité, sort n° 804919
+- [ ] **Armure de la Foi** (Passif) — capacité, sort n° 804930
+- [ ] **Frappe du templier** (Rang 1) — capacité, sort n° 805406 🔀 talents
+- [ ] **Tempête vertueuse** (Rang 1) — capacité, sort n° 805409 🔀 talents
+- [ ] **Cimetière** (Plus mort) — capacité, sort n° 805412
+- [ ] **Plaies brûlantes** (Passif) — capacité, sort n° 805414
+- [ ] **Champion écarlate** (Passif) — capacité, sort n° 805415
+- [ ] **Duel vertueux** — capacité, sort n° 805419
+- [ ] **Voie du moine** (Passif) — capacité, sort n° 805420
+- [ ] **Rétribution** (Rang 1) — capacité, sort n° 805421
+- [ ] **Tome de Lumière** — capacité, sort n° 805422
+- [ ] **Jeu de bâton** — talent, sort n° 300525
+- [ ] **Guidance d'Aman'thul** (Passif) — talent, sort n° 300527
+- [ ] **Fracas lourd** — talent, sort n° 300528
+- [ ] **Gardien de la Lumière** (Spécialisation) — talent, sort n° 300529
+- [ ] **Martyr** (Passif) — talent, sort n° 300530
+- [ ] **Force intérieure** (Passif) — talent, sort n° 705294
+- [ ] **Garde-bâton** (Passif) — talent, sort n° 705295
+- [ ] **Pouvoir absolu** — talent, sort n° 705297
+- [ ] **Intact** (Passif) — talent, sort n° 705298
+- [ ] **Bénédiction éternelle** — talent, sort n° 705300 🔀 talents
+- [ ] **Dissonance** — talent, sort n° 705301
+- [ ] **Combattant gracieux** (Spécialisation) — talent, sort n° 705303
+- [ ] **Armure consacrée** — talent, sort n° 705304
+- [ ] **Gardien du temple** (Passif) — talent, sort n° 705305
+- [ ] **Défense sacrée** (Passif) — talent, sort n° 705306 🔍 MAJ
+- [ ] **Bâton de guerre sacré** (Passif) — talent, sort n° 705307
+- [ ] **Protection réparatrice améliorée** (Rang 1) — talent, sort n° 705310
+- [ ] **Protection réparatrice améliorée** (Rang 2) — talent, sort n° 705311
+- [ ] **Vitalité** (Rang 2) — talent, sort n° 705312
+- [ ] **Gardien du temple** (Rang 1) — talent, sort n° 801165
+
+## Lutte
+
+- [ ] **Armes de pugilat** — capacité, sort n° 15590
+- [ ] **Zélotisme** (Spécialisation) — capacité, sort n° 92108
+- [ ] **Zélotisme** (Passif de spécialisation) — capacité, sort n° 500008
+- [ ] **Discipline** (Passif) — capacité, sort n° 500010
+- [ ] **Combattant sacré** (Passif) — capacité, sort n° 500011
+- [ ] **Soulèvement vertueux** (Obsolète) — capacité, sort n° 500680 🔀 talents
+- [ ] **Fureur divine** — capacité, sort n° 500689
+- [ ] **Condamnation** (Passif) — capacité, sort n° 704175
+- [ ] **Commandant d'argent** (Passif) — capacité, sort n° 704177
+- [ ] **Acrobaties** — capacité, sort n° 704178
+- [ ] **Frappes bénies** (Passif) — capacité, sort n° 704180
+- [ ] **Chakram** (Briseur de combo) — capacité, sort n° 704573 🔍 MAJ
+- [ ] **Frappes sacrées** — capacité, sort n° 800518
+- [ ] **Ajoute 2 Gangrefurie** — capacité, sort n° 801024
+- [ ] **Fente vertueuse** (Rang 1) — capacité, sort n° 801443
+- [ ] **Enchaînement sacré** (Rang 1) — capacité, sort n° 801445
+- [ ] **Justification** (Rang 1) — capacité, sort n° 801446
+- [ ] **Lame enflammée** (Rang 1) — capacité, sort n° 801451
+- [ ] **Testament de volonté** — capacité, sort n° 801455
+- [ ] **Mouvements agiles** — capacité, sort n° 801458
+- [ ] **Fureur d'Aggramar** (Passif) — capacité, sort n° 801480
+- [ ] **Lame de foi** — capacité, sort n° 803154
+- [ ] **Puissance d'Aggramar** (Passif) — capacité, sort n° 803163
+- [ ] **Heurt sacré** — capacité, sort n° 803169
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Équilibre éternel** — capacité, sort n° 804357
+- [ ] **Marche funèbre** (CWC) — capacité, sort n° 804434
+- [ ] **Frappes transcendantes** (Passif) — capacité, sort n° 804897
+- [ ] **Appel de l'ancêtre** (Tauren) — capacité, sort n° 804905 🔍 MAJ
+- [ ] **Condamnation** (Rang 1) — capacité, sort n° 804906
+- [ ] **Rapidité** — capacité, sort n° 804909
+- [ ] **Massue** — capacité, sort n° 804910
+- [ ] **Justification** — capacité, sort n° 804911
+- [ ] **Plaie-du-Fléau** (Passif) — capacité, sort n° 804916
+- [ ] **Point faible** — capacité, sort n° 804920
+- [ ] **Poings des cieux** — capacité, sort n° 805330
+- [ ] **Crochet du gauche** — capacité, sort n° 805391
+- [ ] **Crochet droit** — capacité, sort n° 805392
+- [ ] **Passif de flanquement** — capacité, sort n° 805401
+- [ ] **Passif de flanquement** — capacité, sort n° 805402
+- [ ] **Passif du moine - Auras d'arme** (Caché) — capacité, sort n° 806014
+- [ ] **Force divine** (Rang 1) — capacité, sort n° 806153
+- [ ] **L'élite des cieux** (Passif) — capacité, sort n° 806516
+- [ ] **Main de Tyr** — capacité, sort n° 806518
+- [ ] **Frappe des Titans** (Rang 1) — capacité, sort n° 806521
+- [ ] **Héritage de la Main d'argent** (Passif) — capacité, sort n° 806522
+- [ ] **Entraînement martial** (Spécialisation) — capacité, sort n° 806525
+- [ ] **Cierge sacré** (Passif) — talent, sort n° 300501
+- [ ] **Bénédiction d'Aggramar** (Passif) — talent, sort n° 300502
+- [ ] **Corps fortifié** (Passif) — talent, sort n° 300515
+- [ ] **Délivrance** (Passif) — talent, sort n° 704116
+- [ ] **Maître du Sacré** (Passif) — talent, sort n° 705249
+- [ ] **Paladin martial** (Rang 1) — talent, sort n° 705250
+- [ ] **Paladin martial** (Rang 2) — talent, sort n° 705251
+- [ ] **Runes de puissance** (Rang 1) — talent, sort n° 705264
+- [ ] **Runes de puissance** (Rang 2) — talent, sort n° 705265
+- [ ] **Impact explosif** (Passif) — talent, sort n° 705276
+- [ ] **Combattant serein** (Spécialisation) — talent, sort n° 705281
+- [ ] **Dévot** (Passif) — talent, sort n° 705282
+- [ ] **Flux du serment** (Passif) — talent, sort n° 705283
+- [ ] **L'Homme au coup unique** (Passif) — talent, sort n° 705284
+
+## Runes
+
+- [ ] **Plaie-du-Fléau** (Spécialisation) — capacité, sort n° 92111
+- [ ] **Force de Golganneth** — capacité, sort n° 500694
+- [ ] **Image miroir** — capacité, sort n° 704407
+- [ ] **Renvoi de magie** — capacité, sort n° 801440
+- [ ] **Libram de consécration** (Rang 1) — capacité, sort n° 801441 🔍 MAJ
+- [ ] **Libram de ténacité** — capacité, sort n° 801461 🔍 MAJ 🔀 talents
+- [ ] **Libram de grâce** — capacité, sort n° 801463 🔍 MAJ
+- [ ] **Incantation de la Main d'argent** — capacité, sort n° 801465
+- [ ] **Libram de zèle** — capacité, sort n° 801466 🔍 MAJ
+- [ ] **Dévotion de Khaz'goroth** — capacité, sort n° 801479
+- [ ] **Formation en ligne** (SLS) — capacité, sort n° 803151 🔀 talents
+- [ ] **Châtier** (Rang 1) — capacité, sort n° 803157 🔀 talents
+- [ ] **Chakra de puissance** (Passif) — capacité, sort n° 803158
+- [ ] **Chakra de lumière** (Rang 1) — capacité, sort n° 803159
+- [ ] **Illuminé** (Passif) — capacité, sort n° 803161
+- [ ] **Chakra de courroux** — capacité, sort n° 803162
+- [ ] **Protection réparatrice** — capacité, sort n° 804902
+- [ ] **Frappes transcendantes** (Déclencheur) — capacité, sort n° 804907
+- [ ] **Frappes transcendantes** (RDR) — capacité, sort n° 804918
+- [ ] **Scribe du savoir** (Spécialisation) — capacité, sort n° 804927
+- [ ] **Marque d'Aggramar** (Passif) — capacité, sort n° 804928
+- [ ] **Lame d'argent** (Rang 1) — capacité, sort n° 804929
+- [ ] **Acier de magma** — capacité, sort n° 804931
+- [ ] **Credo inébranlable** (Spécialisation) — capacité, sort n° 804932
+- [ ] **Barrière de lumière** — capacité, sort n° 805417
+- [ ] **Libram de ferveur** — capacité, sort n° 805423 🔍 MAJ
+- [ ] **Tempête tourbillonnante** (Passif) — talent, sort n° 300504 🔍 MAJ
+- [ ] **Diligence** (Passif) — talent, sort n° 300508
+- [ ] **Avancée ardente** (Passif) — talent, sort n° 300511
+- [ ] **Chevalier d'argent** (Passif) — talent, sort n° 300512
+- [ ] **Marque du croisé** — talent, sort n° 300513
+- [ ] **Testament de force** — talent, sort n° 300514
+- [ ] **Flammes de cautérisation** (Passif) — talent, sort n° 300516
+- [ ] **Réflexes félins** (Passif) — talent, sort n° 300518
+- [ ] **Jugement** (Passif) — talent, sort n° 300520
+- [ ] **Motivé pour le combat** (Spécialisation) — talent, sort n° 300521
+- [ ] **Méditation profonde** (Passif) — talent, sort n° 300522
+- [ ] **Frappes décisives** (Passif) — talent, sort n° 300523
+- [ ] **Focalisé** (Passif) — talent, sort n° 300524
+- [ ] **Lame enflammée** (Rang 1) — talent, sort n° 705257
+- [ ] **Bénédiction d'Eonar** (Passif) — talent, sort n° 705290 🔀 talents
+- [ ] **Puissance du templier** (Passif) — talent, sort n° 705291
+- [ ] **Aguerri** (Passif) — talent, sort n° 706309
+- [ ] **Tranchant affûté** (Rang 1) — talent, sort n° 706310
+- [ ] **Tranchant affûté** (Passif) — talent, sort n° 706311
+- [ ] **Tranchant sacré** (Rang 1) — talent, sort n° 706312
+- [ ] **Frappes décisives** — talent, sort n° 706313
+- [ ] **Forest Fighter Hidden SLS** (Passif) — talent, sort n° 706314
+- [ ] **Perce-crâne du combattant sylvestre** — talent, sort n° 706315
+
+## Classe
+
+- [ ] **Réprimande** (Passif) — capacité, sort n° 300503
+- [ ] **Focalisation pure** (Rang 1) — capacité, sort n° 705253
+- [ ] **Déterminé** (Passif) — capacité, sort n° 705256
+- [ ] **Léger comme l'air** — capacité, sort n° 705258
+- [ ] **Garde de la foi** (Passif) — capacité, sort n° 705259
+- [ ] **Touché par la Lumière** (Passif) — capacité, sort n° 705261
+- [ ] **Liberté** (Passif) — capacité, sort n° 705266
+- [ ] **Finesse** (Rang 1) — capacité, sort n° 705271
+- [ ] **Chevaleresque** (Passif) — capacité, sort n° 705272
+- [ ] **Sanctification** (Passif) — capacité, sort n° 705274
+- [ ] **Savoir caché** (Passif) — capacité, sort n° 705277
+- [ ] **Style sacré** (Passif) — capacité, sort n° 705278
+- [ ] **Bénédiction de Tyr** (Passif) — capacité, sort n° 705285
+- [ ] **Le devoir appelle** (Passif) — capacité, sort n° 705286
+- [ ] **Bénédiction améliorée** (Passif) — capacité, sort n° 705287
+- [ ] **Abdication mortelle améliorée** (Passif) — capacité, sort n° 705288
+- [ ] **Danseur du vent** (Passif) — capacité, sort n° 705289
+- [ ] **Lame frénétique** (Passif) — capacité, sort n° 705292
+- [ ] **Balayage sacré** (Rang 1) — capacité, sort n° 705293
+- [ ] **Condamnation** (Passif) — capacité, sort n° 706325
+- [ ] **Frappes puissantes** (Rang 1) — capacité de talent, sort n° 705254
+- [ ] **Frappes divines** (Passif) — capacité de talent, sort n° 705255
+- [ ] **Gravure des poings améliorée** (Rang 1) — capacité de talent, sort n° 705260
+- [ ] **Marques durables** (Rang 1) — capacité de talent, sort n° 705262
+- [ ] **Secrets profonds** (Passif) — capacité de talent, sort n° 705263
+- [ ] **Puissance de l'Abdication sacrée** (Rang 1) — capacité de talent, sort n° 705267
+- [ ] **Prière finale** (Passif) — capacité de talent, sort n° 705268
+- [ ] **Massue de combat** (Rang 1) — capacité de talent, sort n° 705269
+- [ ] **Massue de combat** (Rang 2) — capacité de talent, sort n° 705270
+- [ ] **Gravure des poings améliorée** (Rang 2) — capacité de talent, sort n° 706316
+- [ ] **Radiance** (Rang 1) — capacité de talent, sort n° 706317
+- [ ] **Éclat** (Passif) — capacité de talent, sort n° 706318
+- [ ] **Entraînement au combat** (Rang 1) — capacité de talent, sort n° 706319
+- [ ] **Entraînement au combat** (Passif) — capacité de talent, sort n° 706320
+- [ ] **Vigilance** (Rang 1) — capacité de talent, sort n° 706321
+- [ ] **Vigilance** (Rang 2) — capacité de talent, sort n° 706322
+- [ ] **Constitution sacrée** (Passif) — capacité de talent, sort n° 706323
+- [ ] **Guidage** (Rang 2) — capacité de talent, sort n° 706324

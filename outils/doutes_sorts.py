@@ -23,7 +23,16 @@ import controle as C  # noqa: E402
 
 RACINE = os.path.dirname(ICI)
 NOM_LOT = 'doutes_resolus_095'
+# questions de A_TRANCHER.md encore sans réponse de Dan (09/11/2026) : l'agent n'y applique aucune décision
+OUVERTES = ["11h Temple of Ahn'Qiraj (nom du raid)", "11j Ahn'kahet, the Old Kingdom (nom du donjon)",
+            "11l étiquettes rares des objets", "11m raids au format « Raid: X - N Player »",
+            "12a/12b noms des enchantements",
+            "20 ressources et mécaniques des classes CoA sans nom français (Heat, Insanity, Ember, Reaped Souls…)",
+            "21 difficulté de raid « Ascended »"]
 QUESTIONS_OUVERTES = {'Ascended'}           # A_TRANCHER.md, question 21 : pas de décision à la place de Dan
+
+
+TYPES = {'sort'}
 
 
 def doutes_sorts(ids):
@@ -33,7 +42,7 @@ def doutes_sorts(ids):
         with open(p, encoding='utf-8') as f:
             for l in list(f)[1:]:
                 c = [K.desechapper(x) for x in l.rstrip('\n').split('\t')]
-                if len(c) < 8 or c[0] != 'sort' or (ids and c[1] not in ids):
+                if len(c) < 8 or c[0] not in TYPES or (ids and c[1] not in ids):
                     continue
                 out[(c[0], c[1], c[2], c[3], c[4])] = {'famille': fam, 'raison': c[6], 'en': c[7]}
     return out
@@ -52,7 +61,7 @@ def source():
         lignes, _ = K.lire_tsv(p)
         fam = os.path.splitext(os.path.basename(p))[0]
         for l in lignes:
-            if l[K.I_TYPE] == 'sort':
+            if l[K.I_TYPE] in TYPES:
                 k = (l[K.I_TYPE], l[K.I_ID], l[K.I_SOUS], l[K.I_CHAMP])
                 s[k] = l
                 FAMILLE[k] = fam
@@ -63,7 +72,14 @@ def cmd_preparer(args):
     sortie = args[args.index('--sortie') + 1]
     os.makedirs(sortie, exist_ok=True)
     ids = set(open(args[args.index('--ids') + 1]).read().split()) if '--ids' in args else None
+    if '--types' in args:
+        TYPES.clear()
+        TYPES.update(args[args.index('--types') + 1].split(','))
+    prefixe = args[args.index('--prefixe') + 1] if '--prefixe' in args else 'doutes095'
     src = source()
+    par_id = collections.defaultdict(list)
+    for k in src:
+        par_id[k[:3]].append(k)
     ds = doutes_sorts(ids)
     if ids:
         # avec --ids : aussi les textes de ces sorts restés à traduire sans doute noté (refus du contrôle…)
@@ -82,17 +98,18 @@ def cmd_preparer(args):
         if not l or K.empreinte(l[K.I_EN]) != k[4] or l[K.I_ETAT] not in ('a_traduire', 'a_revoir'):
             continue                                  # déjà traduit, ou l'anglais a changé
         ctx = []
-        for ch in ('Name', 'Rank', 'Description', 'ToolTip'):
-            x = src.get(('sort', k[1], '', ch))
-            if x and ch != k[3]:
-                ctx.append({'champ': ch, 'en': x[K.I_EN][:500], 'fr': x[K.I_FR][:500], 'etat': x[K.I_ETAT]})
+        for k2 in sorted(par_id[k[:3]], key=lambda x: x[3])[:6]:
+            x = src[k2]
+            if k2[3] != k[3]:
+                ctx.append({'champ': k2[3], 'en': x[K.I_EN][:400], 'fr': x[K.I_FR][:400], 'etat': x[K.I_ETAT]})
         textes.append((k, d, l, ctx))
     systeme = API.consigne_systeme()
     reqs, lots = [], {}
     for j in range(0, len(textes), 60):
         part = textes[j:j + 60]
-        cid = 'doutes095_%02d' % (j // 60 + 1)
-        lignes = [json.dumps({'lot': cid, 'famille': 'sorts des classes', 'textes': len(part), 'consigne':
+        cid = '%s_%02d' % (prefixe, j // 60 + 1)
+        lignes = [json.dumps({'lot': cid, 'famille': ', '.join(sorted(TYPES)), 'textes': len(part),
+                              'questions_ouvertes_de_Dan': OUVERTES, 'consigne':
                               'DOUTES à résoudre : tu (ou un autre agent) as laissé ces textes en doute. Chacun porte '
                               'la raison et souvent une proposition. Donne maintenant UNE traduction finale, qui passe '
                               'le contrôle : mêmes variables, mêmes nombres EN CHIFFRES, mêmes codes |c…|r, mêmes '
@@ -101,7 +118,10 @@ def cmd_preparer(args):
                               'existe, en gardant la troncature. Réponds `garder` seulement si le texte doit rester en '
                               'anglais à dessein. Texte détaillé « @ext:…:ext@ » (montré quand le joueur tient MAJ) : traduis le texte entre '
                               'les bornes et garde les bornes « @ext: » et « :ext@ » telles quelles ; les noms de sorts '
-                              'cités y suivent les noms français fournis.'}, ensure_ascii=False)]
+                              'cités y suivent les noms français fournis. Nom propre (lieu, créature, objet) sans '
+                              'français officiel : traduis s\'il est descriptif (« Crystal Vale » → « Val de Cristal »), '
+                              'garde-le s\'il est un nom inventé (« Ra\'Kim »). Si le texte dépend d\'une des questions '
+                              'encore ouvertes de Dan (liste fournie), réponds `doute`, sans trancher à sa place.'}, ensure_ascii=False)]
         lots[cid] = []
         for n, (k, d, l, ctx) in enumerate(part, 1):
             e = {'n': n, 'empreinte': k[4], 'cle': list(k[:4]), 'en': l[K.I_EN], 'doute': d['raison'][:700],
@@ -114,7 +134,7 @@ def cmd_preparer(args):
             lignes.append(json.dumps(e, ensure_ascii=False))
             lots[cid].append({'cle': list(k), 'famille': d['famille'], 'en': l[K.I_EN], 'type': l[K.I_TYPE]})
         corps = ('Doutes à résoudre (format proche d\'un lot, une ligne par texte, `contexte_du_sort` donne les autres '
-                 'champs du même sort). Réponds par une ligne JSON par texte (%d textes).\n\n' % len(part)) \
+                 'champs du même élément : sort, objet, créature…). Réponds par une ligne JSON par texte (%d textes).\n\n' % len(part)) \
             + '\n'.join(lignes)
         reqs.append(API.requete(cid, 'sonnet', systeme, corps, 32000))
     with open(os.path.join(sortie, 'requetes.jsonl'), 'w', encoding='utf-8') as h:

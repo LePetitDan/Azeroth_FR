@@ -41,10 +41,10 @@ sort	705903		ToolTip	85ba6c6f3ca7	Augmente le mana maximum de ${$w1}% et réduit
 sort	705904		Description	4fbc5c7902a6	Augmente de $s1% votre mana maximum et réduit de $s2% le coût en mana des sorts et aptitudes.	lot talents_021
 sort	705904		Name	92d4a4d7605c	Ratatiné	lot talents_021
 sort	705904		ToolTip	85ba6c6f3ca7	Augmente le mana maximum de ${$w1}% et réduit le coût des sorts de ${$w2}%.	lot talents_021
-sort	705906		Description	1298b1b47ba1	Transforme |cffffffffÉlixir panacée|r en |cffffffffÉlixir panacée de masse|r.@s:706555:0@	lot talents_021
+sort	705906		Description	1298b1b47ba1	Transforme |cffffffffÉlixir panacée|r en |cffffffffÉlixir panacée de masse|r.@s:706555:0@	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Mass Allcure Elixir » = « Élixir panacée de masse ».
 sort	705906		Name	638194421e96	Pour les loas !	lot talents_021
 sort	705906		ToolTip	8a9ddd85cb68	|cffffffffArmée du loa|r accorde à tous les alliés un bienfait selon votre |cffffffffDévotion|r actuelle.@s:804641@@s:804642@@s:804643@@s:804644@	lot talents_021
-sort	705907		Description	4abf771e412f	Augmente de $s1% les dégâts infligés par |cffffffffVoile des ténèbres|r.	lot talents_021
+sort	705907		Description	4abf771e412f	Augmente de $s1% les dégâts infligés par |cffffffffVoile de ténèbres|r.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Voile de ténèbres ».
 sort	705907		Name	30d7675bd40e	Communion avec les loas	lot talents_021
 sort	705909		Description	1c8bedebed31	|cffffffffGrand méchant vaudou|r ne réduit désormais les dégâts infligés que de $s1% et réduit les dégâts subis de $s3% supplémentaires.	lot talents_021
 sort	705909		Name	bf1ae5575f23	Valse manchote	lot talents_021
@@ -105,14 +105,14 @@ sort	705969		Description	d5a19278e226	Esquiver une attaque génère désormais $
 sort	705969		Name	4f9eade3cb4c	Agitation	lot talents_021
 sort	705970		Description	1883fce97b98	|cFF66DDFFPassif de niveau 20|r\r\nAugmente de $s1% tous les attributs principaux sous |cffffffffForme de scarabée|r.\r\n\r\nDe plus, augmente votre score de toucher de $s2% de tous les attributs principaux.	lot talents_021
 sort	705970		Name	56a5fdf39648	Carapace magique	lot talents_021
-sort	705973		Description	5a7d390812a2	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRuée chitineuse|r et augmente ses dégâts de $s2%.	lot talents_021
+sort	705973		Description	5a7d390812a2	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRuée chitineuse|r et augmente ses dégâts de $s2%.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Ruée chitineuse).
 sort	705973		Name	a5f0d36fc938	Afflux chitineux	lot talents_021
 sort	705975		Description	1e9b261617e6	Augmente de $s1% l'efficacité de vos |cFFFFFFFFVenins|r.	lot talents_021
 sort	705975		Name	7d6bd4e33c06	Vénomique	lot talents_021
-sort	705980		Description	3b80261331c5	Les dégâts infligés par |cffffffffRuée chitineuse|r augmentent désormais de $561230s1% vos chances d'esquive pendant $561230d, cumulable $561230u fois.	lot talents_021
-sort	705982		Description	c4f7ddd1ca3b	Les coups critiques de |cffffffffRuée chitineuse|r, |cFFFFFFFFImpact de carapace|r et |cFFFFFFFFBrise-ruche|r appliquent désormais |cffffffffPoison cruel|r.@s:705985:0@	lot talents_021
+sort	705980		Description	3b80261331c5	Les dégâts infligés par |cffffffffRuée chitineuse|r augmentent désormais de $561230s1% vos chances d'esquive pendant $561230d, cumulable $561230u fois.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Ruée chitineuse » (noms_de_sorts_cites), pas « Ruée de chitine ».
+sort	705982		Description	c4f7ddd1ca3b	Les coups critiques de |cffffffffRuée chitineuse|r, |cFFFFFFFFImpact de carapace|r et |cFFFFFFFFBrise-ruche|r appliquent désormais |cffffffffPoison cruel|r.@s:705985:0@	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Ruée chitineuse ».
 sort	705982		Name	89465f5c8793	Poison cruel	lot talents_021
-sort	705991		Description	52716d002c7a	Permet à |cff66ff66Chair à vif|r de se cumuler $s1 fois de plus et d'augmenter de $s2% de moins vos dégâts physiques subis.	lot talents_021
+sort	705991		Description	52716d002c7a	Permet à |cff66ff66Chair à vif|r de se cumuler $s1 fois de plus et réduit de $s2% l'augmentation de vos dégâts physiques subis.	lot talents_021 | relu par l'API (relecture 0.9.5) : Contresens : « increase … taken by X% less » = l'augmentation des dégâts subis est réduite, pas « augmenter de moins ».
 sort	705991		Name	51b20d268964	Incassable	lot talents_021
 sort	705993		Description	f25a52251ced	Les dégâts et les soins efficaces infligés ont désormais $h% de chances de vous accorder |cffffffffGrimoire d'Ahn'kahet|r pendant $504341d.@s:504341:0@	lot talents_021
 sort	705993		Name	692058c2f690	Grimoire d'Ahn'kahet	lot talents_021
@@ -178,15 +178,15 @@ sort	706040		Name	2eb17b041f41	Fracas de l'infini	lot talents_021
 sort	706046		Description	c906090965d2	Votre |cffffffffDécomposition|R inflige désormais $s1% de dégâts en plus et applique |cffffffffÉrosion magique|r à la cible, augmentant de $570060s1% les chances des attaquants de la toucher avec des sorts pendant $570060d.	lot talents_021
 sort	706046		Name	f46951ba6255	Érosion magique	lot talents_021
 sort	706053		Description	96f2bfded9e9	Réduit de $/1000;S1 sec le temps d'incantation d'|cffffffffInversion des blessures|r.	lot talents_021
-sort	706053		Name	75a09edbc08d	Inversion des blessures améliorée	lot talents_021
+sort	706053		Name	75a09edbc08d	Inversion de blessure améliorée	lot talents_021 | relu par l'API (relecture 0.9.5) : Cohérence avec le nom du sort « Inversion de blessure ».
 sort	706055		Description	20edb4bf6466	Réduit de $s1% le temps de canalisation de votre |cffffffffTemps mort !|r.	lot talents_021
 sort	706055		Name	09ad7ab8d82b	Temps accéléré	lot talents_021
 sort	706055		ToolTip	e6dec914a3a1	Réduit de ${$w1}% le temps de canalisation de votre |cffffffffTemps mort !|r.	lot talents_021
 sort	706059		Description	054c22c48787	Votre |cffffffffÉclat chromatique|r et vos |cffffffffPointes d'anomalie|r infligent désormais $s1% de leurs dégâts en plus, sous forme de dégâts chromatiques, à tous les ennemis proches.	lot talents_021
 sort	706059		Name	729472dc8a6d	Chaos changeant	lot talents_021
-sort	706063		Description	7b2c0bcb3560	Réduit de $/1000;s1 sec le temps de recharge de votre |cffffffffBombe à gravité|r, et son explosion survient $/1000;s2 sec plus tôt.	lot talents_021
+sort	706063		Description	7b2c0bcb3560	Réduit de $/1000;s1 sec le temps de recharge de votre |cffffffffBombe gravitationnelle|r, et son explosion survient $/1000;s2 sec plus tôt.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Bombe gravitationnelle ».
 sort	706063		Name	fe79f1a48fca	Présage du chaos	lot talents_021
-sort	706063		ToolTip	46af83452fb3	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe à gravité|r, et l'explosion survient 3 sec plus tôt.	lot talents_021
+sort	706063		ToolTip	46af83452fb3	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe gravitationnelle|r, et l'explosion survient 3 sec plus tôt.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Bombe gravitationnelle ».
 sort	706071		Description	9f6cc24806bf	Augmente de $s1% les dégâts et les dégâts critiques de votre |cffffffffÉcho brisé|r.	lot talents_021
 sort	706071		Name	5afd2ea11d19	Hyperbaguette	lot talents_021
 sort	706071		ToolTip	87ce7d39090b	Augmente de ${$w1}% les dégâts d'|cffffffffEmpower Wand: Expulso|r.	lot talents_021
@@ -194,7 +194,7 @@ sort	706076		Description	bbb7b44061f0	Lancer |cffffffffDiscordance|r rend désor
 sort	706076		Name	37e7052ed2ca	Pointage effectué	lot talents_021
 sort	706077		Description	5d1616cf2113	Augmente de $/1000;S2 sec la durée des sorts |cFFC49A6CContinuum|r pour chaque |cFFFFFFFFFragment d'écho|r consommé.	lot talents_021
 sort	706077		Name	feb63cf61792	Incantations domptées	lot talents_021
-sort	706079		Description	e3615b198198	Lancer |cFFFFFFFFBaguette d'artificier|r ou |cFFFFFFFFCanon de cristal|r a désormais $h% de chances de réduire de $/1000;570084s1 sec le temps de recharge de |cFFFFFFFFPrécipiter|r. 	lot talents_021
+sort	706079		Description	e3615b198198	Lancer |cFFFFFFFFBaguette d'artificier|r ou |cFFFFFFFFCanon de cristal|r a désormais $h% de chances de réduire de $/1000;570084s1 sec le temps de recharge de |cFFFFFFFFHâte|r. 	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Hasten doit être « Hâte », pas « Précipiter ».
 sort	706083		Description	887f0e0001a7	Tous les membres du groupe et du raid ne font plus qu'un et se partagent équitablement 25% de tous les dégâts qu'ils subissent pendant $d, jusqu'à un maximum de 100% de leurs points de vie totaux.\r\n\r\nÀ la fin de la durée, tous les alliés affectés sont soignés d'un montant égal au total des dégâts partagés, réparti équitablement entre eux.	lot talents_021
 sort	706083		Name	e7d30cc9fb25	Le vaste infini	lot talents_021
 sort	706084		Description	975c216ba5bd	Augmente de $s1% vos chances de résister aux effets de ralentissement de déplacement.	lot talents_021
@@ -207,13 +207,13 @@ sort	706096		Name	841c21fed9ef	Une ondulation dans le temps	lot talents_021
 sort	706098		Description	cbfe3eb95d3d	Quand vous lancez |cffffffffÉpoque|r, vous lancez désormais son rang connu le plus élevé, à $s1% d'efficacité, sur un maximum de $542725i autres alliés affectés par |cffffffffRécupération accélérée|r.	lot talents_021
 sort	706098		Name	b8badf5096d2	Récupération épique	lot talents_021
 sort	706098		ToolTip	084a717f5a50	Lance votre rang connu le plus élevé d'|cffffffffÉpoque|r, à $s1% d'efficacité, sur un maximum de $542725i autres alliés affectés par |cffffffffRécupération accélérée|r.	lot talents_021
-sort	706099		Description	ee4cea79d666	Tant que |cffffffffPrécipiter|r est actif, les temps de recharge de |cffffffffDivergence dimensionnelle|r, d'|cffffffffAnomalie temporelle|r et de |cffffffffTemporal Focus|r sont réduits de $707312s1% toutes les $712371t1 sec.	lot talents_021
+sort	706099		Description	ee4cea79d666	Tant que |cffffffffHâte|r est actif, les temps de recharge de |cffffffffDivergence dimensionnelle|r, d'|cffffffffAnomalie temporelle|r et de |cffffffffFocalisation temporelle|r sont réduits de $707312s1% toutes les $712371t1 sec.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Hasten = Hâte, pas « Précipiter ».
 sort	706099		Name	e5ecbb563a4a	L'effet Bieko	lot talents_021
-sort	706100		Description	6b7d1a352795	Augmente de $s1% les dégâts infligés par |cffffffffBombe à gravité|r.	lot talents_021
+sort	706100		Description	6b7d1a352795	Augmente de $s1% les dégâts infligés par |cffffffffBombe gravitationnelle|r.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Gravity Bomb = Bombe gravitationnelle.
 sort	706100		Name	7f79838efe57	Charme de puissance	lot talents_021
 sort	706102		Description	ca16ca7868eb	Chaque charge de |cffffffffSables du temps|r augmente désormais aussi de $s1% les soins de votre |cffffffffÉpoque|r.	lot talents_021
 sort	706102		Name	9966bbd35911	Datation au carbone	lot talents_021
-sort	706107		Description	a192534deeea	Tant que |cffffffffPrécipiter|r est actif, l'allié a désormais $803382h% de chances, lorsqu'il inflige des dégâts, de frapper la cible une fois de plus pour $803382s1% des dégâts infligés.	lot talents_021
+sort	706107		Description	a192534deeea	Tant que |cffffffffHâte|r est actif, l'allié a désormais $803382h% de chances, lorsqu'il inflige des dégâts, de frapper la cible une fois de plus pour $803382s1% des dégâts infligés.	lot talents_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Hasten = Hâte, pas « Précipiter ».
 sort	706107		Name	a06482a9d37c	Défaiseur de réalités	lot talents_021
 sort	706114		Description	884a87b4c39d	|cFF66DDFFPassif de niveau 20|r\r\nAugmente vos dégâts de sorts de $s1% de votre Esprit et votre score de toucher des sorts de $s3% de votre Esprit.	lot talents_021
 sort	706114		Name	fc0d09beeed7	Don du vol draconique infini	lot talents_021

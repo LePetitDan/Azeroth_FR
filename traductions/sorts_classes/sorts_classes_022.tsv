@@ -1,7 +1,7 @@
 type	id	sous_id	champ	en_empreinte	fr	note
-sort	805309		Description	88644aa4a5cc	|cffffffff3 charges|r\r\n|cffffffff20 sec de recharge|r\r\nAméliore le prochain |cffffffffTir réparateur|r dans les $d : il applique un bouclier d'absorption des dégâts pendant $805310d, égal à 100% de la valeur du tir.\r\n\r\nPartage un temps de recharge avec |cffffffffModules|r.	lot sorts_classes_022
+sort	805309		Description	88644aa4a5cc	|cffffffff3 charges|r\r\n|cffffffffRecharge : 20 sec|r\r\nAméliore le prochain |cffffffffTir de réparation|r dans les $d : il applique un bouclier d'absorption des dégâts pendant $805310d, égal à 100% de la valeur du tir.\r\n\r\nPartage un temps de recharge avec |cffffffffModules|r.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Libellé « 20 sec de recharge » à harmoniser avec le nom déjà employé « Recharge : 20 sec ».
 sort	805309		Name	832dcaadb415	Module de gardien	lot sorts_classes_022
-sort	805309		ToolTip	713361d09242	Le prochain Tir réparateur fournit un bouclier d'absorption des dégâts.	lot sorts_classes_022
+sort	805309		ToolTip	713361d09242	Le prochain Tir de réparation fournit un bouclier d'absorption des dégâts.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Nom du sort cité différent du nom français fourni (Tir réparateur → Tir de réparation).
 sort	805312		Description	f83d8b92b85d	Fait en sorte que |cffffffffLancer de dynamite|r réduise la résistance au Feu des ennemis affectés, selon la puissance de vos sorts, pendant $/1000;s3 sec, et augmente ses dégâts de $s1%.	lot sorts_classes_022
 sort	805312		Name	0d0164a3b984	Charges de dynamite	lot sorts_classes_022
 sort	805312		ToolTip	e3e4bd0a36a1	Fait en sorte que |cffffffffLancer de dynamite|r réduise la résistance au Feu des ennemis affectés, selon votre puissance des sorts, pendant $/1000;s3 sec, et augmente ses dégâts de ${$w1}%.	lot sorts_classes_022
@@ -13,14 +13,14 @@ sort	805317		Description	d47f0b5fb3dd	Augmente de $s1% les dégâts de l'explosi
 sort	805317		Name	d8746ca8af4a	Maître sapeur	lot sorts_classes_022
 sort	805317		ToolTip	d6149e07af24	Augmente de ${$w1}% les dégâts de l'explosion de votre |cffffffffCharge de sapeur|r et augmente votre puissance des sorts de Feu de ${$w2}% supplémentaires de votre Agilité et de votre Intelligence cumulées.	lot sorts_classes_022
 sort	805318		Description	98601eb16407	Réduit de $s1% le temps d'incantation de |cffffffffTir de précision|r, augmente ses dégâts de $s2% et lui garantit un coup critique pendant $d.	lot sorts_classes_022
-sort	805318		Name	ad7a99f19a4d	Prendre la mire	lot sorts_classes_022
+sort	805318		Name	ad7a99f19a4d	Viser	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : « Prendre la mire » est incorrect ; « Take Aim » = « Viser »
 sort	805318		ToolTip	9fdd2ed60834	Cadence de tir de Tir de précision augmentée de ${$w1}%, mais ses dégâts sont augmentés de ${$w2}% et ses chances de coup critique de ${$w3}%.	lot sorts_classes_022
 sort	805319		Description	67cdab3ea339	Régénère instantanément $s1% de votre mana maximum$?s505327[ et $504731s1% supplémentaires de mana de base toutes les $572576t1 sec pendant $/1000;505327s1 sec][].	lot sorts_classes_022
 sort	805319		Name	55f6ffb72112	Échange de batterie	lot sorts_classes_022
 sort	805320		Description	c879211d8cf1	Rend |cffffffffDéploiement de bombe|r instantané et réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r.	lot sorts_classes_022
 sort	805320		Name	5161f455dd10	Seigneur des bombes	lot sorts_classes_022
 sort	805320		ToolTip	c879211d8cf1	Rend |cffffffffDéploiement de bombe|r instantané et réduit de $/1000;s2 sec le temps de recharge de |cffffffffDétonation à distance|r.	lot sorts_classes_022
-sort	805321		Description	d53449d2c1ee	Toutes les 4 |cffffffffCartouches|r consommées, les dégâts ou les soins de votre prochain |cffffffffTir de chevrotine|r ou |cffffffffTir réparateur|r avec |cFFFFFFFFCartouches de chevrotine|r augmentent de $704125s1%.	lot sorts_classes_022
+sort	805321		Description	d53449d2c1ee	Toutes les 4 |cffffffffCartouches|r consommées, les dégâts ou les soins de votre prochain |cffffffffTir de chevrotine|r ou |cffffffffTir de réparation|r avec |cFFFFFFFFRounds de chevrotine|r augmentent de $704125s1%.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Le nom cité doit être « Rounds de chevrotine » ; « Round » reste « Round » pour être cohérent avec le nom français fourni.
 sort	805321		Name	00efd6f86016	Pas sur MON territoire !	lot sorts_classes_022
 sort	805322		Description	05706894e482	Augmente de $/1000;s2 sec la durée de |cFFFFFFFFBarrage de poudre noire|r et lui fait infliger 25% de dégâts de Feu supplémentaires en $800024d.	lot sorts_classes_022
 sort	805322		Name	ded2a4ee527f	Munitions incendiaires	lot sorts_classes_022
@@ -56,9 +56,9 @@ sort	805380		ToolTip	a5bf8ce17e90	Votre prochaine occurrence de dégâts magique
 sort	805381		Name	b12873a2db75	Sceau de paume : Givre	lot sorts_classes_022
 sort	805381		ToolTip	e9ea4ca1394c	Votre prochaine occurrence de dégâts magiques directs dans les $d inflige ${$w1}% des dégâts infligés sous forme de dégâts de Givre et réduit de $808022s1% la vitesse de déplacement de l'ennemi pendant $808022d. 	lot sorts_classes_022
 sort	805382		Name	f1f7ee3a1459	Sceau de paume : Terre	lot sorts_classes_022
-sort	805383		Description	3e82961a025d	Vous apprend |cffffffffImprégnation de flamme|r, |cffffffffImprégnation de givre|r et |cffffffffImprégnation des Arcanes|r.\r\n\r\nCes 3 sorts partagent un temps de recharge et ne sont utilisables que pendant |cffffffffVoile runique|r. \r\n\r\nChacun génère 1 |cffffffffCachet|r de son type et active l'|cffffffffAccord|r correspondant.	lot sorts_classes_022
+sort	805383		Description	3e82961a025d	Vous apprend |cffffffffImprégnation de flamme|r, |cffffffffImprégnation de givre|r et |cffffffffImprégnation des Arcanes|r.\r\n\r\nCes 3 sorts partagent un temps de recharge et ne sont utilisables que pendant |cffffffffVoile runique|r. \r\n\r\nChacun génère 1 |cffffffffCachet|r de son type et active l'|cffffffffAffinité|r correspondante.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Attunement = Affinité (et accord féminin), pas « Accord ».
 sort	805383		Name	24a1cf496484	Main voilée	lot sorts_classes_022
-sort	805383		ToolTip	bf28cb582c43	Vous apprend |cffffffffImprégnation de flamme|r, |cffffffffImprégnation de givre|r et |cffffffffImprégnation des Arcanes|r.\n\nCes 3 sorts partagent un temps de recharge de 2 sec et ne sont utilisables que pendant |cffffffffVoile runique|r. Chacun génère 1 |cffffffffCachet|r de son type et active l'|cffffffffAccord|r correspondant.	lot sorts_classes_022
+sort	805383		ToolTip	bf28cb582c43	Vous apprend |cffffffffImprégnation de flamme|r, |cffffffffImprégnation de givre|r et |cffffffffImprégnation des Arcanes|r.\n\nCes 3 sorts partagent un temps de recharge de 2 sec et ne sont utilisables que pendant |cffffffffVoile runique|r. Chacun génère 1 |cffffffffCachet|r de son type et active l'|cffffffffAffinité|r correspondante.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Attunement = Affinité.
 sort	805388		Description	849b3c43a5a0	Vous permet de manier des bâtons, mais réduit en permanence de $s2% vos dégâts physiques infligés.\n\nAugmente de $s3% les soins que vous recevez de votre sort Lifedrinker.	lot sorts_classes_022
 sort	805388		Name	69154a5cd43f	Mage de sang	lot sorts_classes_022
 sort	805388		ToolTip	162aa7972400	Vous permet de manier des bâtons, mais réduit en permanence de ${$w2}% vos dégâts physiques infligés.\n\nAugmente de ${$w3}% les soins que vous recevez de votre sort Lifedrinker.	lot sorts_classes_022
@@ -172,7 +172,7 @@ sort	805692		Name	996adf05b475	Puissance cataclysmique	lot sorts_classes_022
 sort	805692		ToolTip	e5a6c61f9d9c	Votre sort Calamité devient instantané.	lot sorts_classes_022
 sort	805698		Description	ad58aaf17ad9	Augmente de $s1% l'efficacité de |cFFFFFFFFFiremaw|r, et les dégâts infligés par |cFFFFFFFFFiremaw|r réduisent désormais de $/1000;805699s1 sec le temps de recharge de |cffffffffBurning Scripture|r.	lot sorts_classes_022
 sort	805698		Name	bb72cba3a837	Lame infernale	lot sorts_classes_022
-sort	805698		ToolTip	c0e0aa6d6695	Augmente de ${$w1}% les dégâts de votre prochaine Flamme chercheuse.	lot sorts_classes_022
+sort	805698		ToolTip	c0e0aa6d6695	Augmente de ${$w1}% les dégâts de votre prochaine Flamme traqueuse.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Seeking Flame = Flamme traqueuse (et non « chercheuse »).
 sort	805700		Description	1ecf4062ad26	Infliger des dégâts de Feu directs enflamme désormais les cibles et les |cffff4500brûle|r pour $805701o1 points de dégâts de Feu supplémentaires en $805701d.	lot sorts_classes_022
 sort	805700		Name	75068cc27966	Combustion lente	lot sorts_classes_022
 sort	805700		ToolTip	2b026e4d4660	Infliger des dégâts de Feu directs enflamme les cibles et les |cffff4500brûle|r pour ${1.1*$PL+4} points de dégâts de Feu supplémentaires toutes les $805701t sec pendant $805701d.	lot sorts_classes_022
@@ -219,7 +219,7 @@ sort	805777		ToolTip	0f57aa8d6219	Vos incantations ont $h% de chances de réduir
 sort	805795		Description	de435bd3572b	Les sorts de |cffffffffMot|r s'activent désormais $s1% plus vite.	lot sorts_classes_022
 sort	805795		Name	6bf250a0f13f	Célérité runique	lot sorts_classes_022
 sort	805795		ToolTip	8bfe3a9b3621	Les sorts de |cffffffffMot|r s'activent désormais ${$w1}% plus vite.	lot sorts_classes_022
-sort	805797		Description	3edbdf866c18	|cffffffffConsomme 1 |cffffffffRune inscrite|r|r\r\nRéduit de $s1% le temps de recharge de votre prochain sort de Familier, ou de $s2% le temps d'incantation de votre prochain Conjuration : Familier runique. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_classes_022
+sort	805797		Description	3edbdf866c18	|cffffffffConsomme 1 |cffffffffRune inscrite|r|r\r\nRéduit de $s1% le temps de recharge de votre prochain sort de Familier, ou de $s2% le temps d'incantation de votre prochaine Conjuration : Familier runique. Cet effet est cumulable jusqu'à 3 fois.	lot sorts_classes_022 | relu par l'API (relecture 0.9.5) : Accord : « prochaine Conjuration ».
 sort	805797		Name	a620da37e971	Récupération de fragments	lot sorts_classes_022
 sort	805797		ToolTip	b3a66c522e4f	Temps de recharge du prochain sort de Familier réduit de ${$w1}% ou temps d'incantation de Conjuration : Familier runique réduit de ${$w2}%.	lot sorts_classes_022
 sort	805798		Description	600068fd75b3	Vos coups critiques de Feu vous mettent désormais en rage pendant $805799d, ce qui augmente de $805799s1% votre vitesse d'attaque en mêlée pendant $805799d.	lot sorts_classes_022

@@ -29,9 +29,9 @@ sort	706158		Name	06c21ace9253	Briseur de plaques	lot sorts_classes_014
 sort	706158		ToolTip	fb14b763f1a7	|cffffffffBrise-pierre|r réduit l'Armure des ennemis affectés en fonction de votre Force pendant $/1000;s1 sec.	lot sorts_classes_014
 sort	706168		Description	05befb2723d0	Les coups critiques de |cffffffffGriffe sauvage|r font désormais saigner votre cible pour 100% des dégâts infligés en $707303d.	lot sorts_classes_014
 sort	706168		Name	468f9cd8c7e4	Blessures traumatiques	lot sorts_classes_014
-sort	706172		Description	943ae6cea012	|cffffffffGueule de l'ours|r vous rend $804117s2% de vos points de vie maximum.	lot sorts_classes_014
+sort	706172		Description	943ae6cea012	|cffffffffMâchoire de l'ours|r vous rend $804117s2% de vos points de vie maximum.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Mâchoire de l'ours).
 sort	706172		Name	41144094437f	Gueule festoyante	lot sorts_classes_014
-sort	706172		ToolTip	943ae6cea012	|cffffffffGueule de l'ours|r vous rend $804117s2% de vos points de vie maximum.	lot sorts_classes_014
+sort	706172		ToolTip	943ae6cea012	|cffffffffMâchoire de l'ours|r vous rend $804117s2% de vos points de vie maximum.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Mâchoire de l'ours).
 sort	706173		Description	49192c2fbfde	Les dégâts infligés par |cffffffffBarrage de géodes|r et |cffffffffPointe sismique|r touchent désormais jusqu'à 2 ennemis supplémentaires.	lot sorts_classes_014
 sort	706173		Name	e331977819a8	Terrafracas	lot sorts_classes_014
 sort	706180		Description	6de1ce2fb378	Augmente de $s1% l'efficacité de vos effets d'absorption des dégâts.	lot sorts_classes_014
@@ -79,15 +79,15 @@ sort	706251		Name	f3727c2c2b5d	Escalade	lot sorts_classes_014
 sort	706254		Description	f54dd33d272c	|cffffffffPurificateur magique 4000X|r dissipe désormais aussi $s1 effet de poison et rend à un allié $520280s1% de ses points de vie maximum.	lot sorts_classes_014
 sort	706254		Name	8d0c6f731988	Méthodes douteuses	lot sorts_classes_014
 sort	706254		ToolTip	ad297fa431d3	Les |cffffffffModules|r génèrent ${$w1} munitions standard à l'utilisation.	lot sorts_classes_014
-sort	706268		Description	51771fc4c35c	Après avoir généré 10 |cff32cd32Gangrefurie|r, votre prochain |cFFFFFFFFChâtiment de Sargeron|r dans les $706269d bénéficie de $706269s1% de chances de coup critique et de dégâts supplémentaires.	lot sorts_classes_014
+sort	706268		Description	51771fc4c35c	Après avoir généré 10 |cff32cd32Gangrefurie|r, votre prochain |cFFFFFFFFChâtiment de Sargeron|r dans les $706269d bénéficie de $706269s1% de chances de coup critique supplémentaires et de dégâts accrus.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Le sens de « increased » porte sur la chance de critique ET les dégâts ; la version précédente rendait ambigu « supplémentaires ».
 sort	706268		Name	a46369c47cf6	Fureur d'Archimonde	lot sorts_classes_014
 sort	706278		Description	f33cc5d4d556	Augmente de $s2% l'efficacité des |cffffffffCarquois|r et de $s1 le nombre d'ennemis touchés par |cffffffffCarquois de tir en gerbe|r.	lot sorts_classes_014
 sort	706278		Name	a0f9ca272f00	Carquois elfiques	lot sorts_classes_014
 sort	706278		ToolTip	1e13f96fe2a1	Augmente de ${$w2}% l'efficacité des |cffffffffCarquois|r.	lot sorts_classes_014
-sort	706283		Description	4db1f28ce622	Les coups de |cffffffffBarrage rapide|r ont 15% de chances de générer une charge d'|cff8fff7aAvantage|r.	lot sorts_classes_014
+sort	706283		Description	4db1f28ce622	Les coups de |cffffffffRapid Barrage|r ont 15% de chances de générer une charge d'|cff8fff7aAvantage|r.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français déjà choisi est « Rapid Barrage », à reprendre tel quel.
 sort	706283		Name	22b3695ed79b	Feu de grêle	lot sorts_classes_014
-sort	706283		ToolTip	4db1f28ce622	Les coups de |cffffffffBarrage rapide|r ont 15% de chances de générer une charge d'|cff8fff7aAvantage|r.	lot sorts_classes_014
-sort	706286		Description	ac397a4b7e55	Infliger des dégâts avec |cFFFFFFFFChoc|r augmente désormais de $706485s1% les dégâts de votre prochain |cffffffffBalayage brutal|r dans les $706485d.	lot sorts_classes_014
+sort	706283		ToolTip	4db1f28ce622	Les coups de |cffffffffRapid Barrage|r ont 15% de chances de générer une charge d'|cff8fff7aAvantage|r.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français déjà choisi est « Rapid Barrage », à reprendre tel quel.
+sort	706286		Description	ac397a4b7e55	Infliger des dégâts avec |cFFFFFFFFFracasser|r augmente désormais de $706485s1% les dégâts de votre prochain |cffffffffBalayage brutal|r dans les $706485d.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Smash = Fracasser, et non Choc.
 sort	706286		Name	302cbf53e793	Porte-douleur	lot sorts_classes_014
 sort	706341		Description	b63d4a5e1daa	Les coups critiques de |cFFFFFFFFGriffe sauvage|r confèrent une charge de |cFFFFFFFFPuissance de la montagne|r.@s:805874:0@	lot sorts_classes_014
 sort	706341		Name	7ed1295fb7a2	Druide de la Griffe	lot sorts_classes_014
@@ -224,21 +224,21 @@ sort	800023		Name	1ff7fc3ba958	Garde abyssale	lot sorts_classes_014
 sort	800031		Description	1d9d3fdbad90	Émet une aura qui augmente de $s1% les chances de coup critique des alliés proches et de $s2% leurs dégâts contre les démons. Ne se cumule pas avec des effets similaires.\n\nSeul 1 |cffffffffPacte|r peut être actif par joueur à la fois.	lot sorts_classes_014
 sort	800031		Name	0dfd6ac2e75e	Pacte de feu démoniaque	lot sorts_classes_014
 sort	800031		ToolTip	36a1ab2cdbb5	Chances de coup critique augmentées de ${$w1}%. Dégâts contre les démons augmentés de ${$w2}%.	lot sorts_classes_014
-sort	800050		Description	4ccf226c1348	Aveugle la cible et la force à errer, désorientée, pendant $d maximum.  Si la cible subit des dégâts, l'effet est annulé.	lot sorts_classes_014
+sort	800050		Description	4ccf226c1348	Aveugle la cible et la force à errer, désorientée, pendant $d au maximum. Si la cible subit des dégâts, l'effet est annulé.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Le point après $d est une faute : le client ajoute l'unité, pas de point.
 sort	800050		Name	ac8da79f35bd	Ébloui	lot sorts_classes_014
 sort	800050		ToolTip	c407371a21ef	Vitesse de déplacement réduite de ${$w1}%.	lot sorts_classes_014
 sort	800079		Description	d2699fbf9045	|cffffffffAttaque de flanc|r et |cffffffffExploitation|r appliquent |cffffffffPoison du bois profond|r.@s:801472:0@	lot sorts_classes_014
 sort	800079		Name	b3dcc37771c7	Poison du bois profond	lot sorts_classes_014
 sort	800079		ToolTip	268cccbff01c	|cffffffffAttaque de flanc|r applique |cffffffffPoison du bois profond|r.@s:801472@	lot sorts_classes_014
-sort	800087		Description	f94ec25d69a0	Émet une aura pendant $d qui augmente de $s1% la vitesse de déplacement des membres du groupe situés à moins de $a1 mètres.\n\nTous les sorts |cffffffffRanger's Horn|r partagent un temps de recharge.$?s300897[@s:300895:0@][]	lot sorts_classes_014
+sort	800087		Description	f94ec25d69a0	Émet une aura pendant $d qui augmente de $s1% la vitesse de déplacement des membres du groupe situés à moins de $a1 mètres.\n\nTous les sorts |cffffffffCorne du rôdeur|r partagent un temps de recharge.$?s300897[@s:300895:0@][]	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité resté en anglais ; nom français fourni : « Corne du rôdeur ».
 sort	800087		Name	3555a6de468e	Cor de coordination du Rôdeur	lot sorts_classes_014
 sort	800087		ToolTip	e64a109dcf3f	Vitesse de déplacement augmentée de ${$w1}%.	lot sorts_classes_014
-sort	800088		Description	062a434876bb	|cff8fff7aGénère 1 point d'Avantage|r\r\nÉmet une aura pendant $d qui réduit de $s1% le coût en ressources des sorts pour les membres du groupe et du raid situés à moins de $a1 mètres.\r\n\r\nTant qu'elle est active, vous générez 3 points de Focalisation toutes les $t3 sec.\r\n\r\n@ext:All |cffffffffRanger's Horn|r spells share a cooldown.:ext@	lot sorts_classes_014
+sort	800088		Description	062a434876bb	|cff8fff7aGénère 1 point d'Avantage|r\r\nÉmet une aura pendant $d qui réduit de $s1% le coût en ressources des sorts pour les membres du groupe et du raid situés à moins de $a1 mètres.\r\n\r\nTant qu'elle est active, vous générez 3 points de Focalisation toutes les $t3 sec.\r\n\r\n@ext:Tous les sorts |cffffffffCorne du rôdeur|r partagent un temps de recharge.:ext@	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Corne du rôdeur » et non « Cor du rôdeur ».
 sort	800088		Name	50c008791729	Cor de persévérance	lot sorts_classes_014
 sort	800088		ToolTip	81ce77080310	Coûts en ressources réduits de ${$w1}%.	lot sorts_classes_014
-sort	800089		Description	5486da5fbf9a	Dégâts physiques et de Nature augmentés de $s1%, puissance d'attaque à distance réduite de $560337s1%. \r\n\r\nLes coups critiques de |cffffffffFrappe sauvage|r et d'|cffffffffAttaque de flanc|r ont $h% de chances d'appliquer |cffffffffRoughed Up|r, qui réduit l'Armure, et |cffffffffCounterstruck|r, qui réduit la puissance d'attaque.	lot sorts_classes_014
+sort	800089		Description	5486da5fbf9a	Dégâts physiques et de Nature augmentés de $s1%, puissance d'attaque à distance réduite de $560337s1%. \r\n\r\nLes coups critiques de |cffffffffFrappe sauvage|r et de |cffffffffPrise de flanc|r ont $h% de chances d'appliquer |cffffffffRoughed Up|r, qui réduit l'Armure, et |cffffffffCounterstruck|r, qui réduit la puissance d'attaque.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : « d'Prise de flanc » est une faute d'élision ; « de Prise de flanc ».
 sort	800089		Name	3369ff715e5b	Adaptation : Brigand	lot sorts_classes_014
-sort	800089		ToolTip	5da0bfd27676	Accorde ${$w1}% de chances de coup critique supplémentaires. Les coups critiques de Frappe sauvage et d'Attaque de flanc ont $h% de chances d'appliquer Roughed Up et Counterstruck.	lot sorts_classes_014
+sort	800089		ToolTip	5da0bfd27676	Accorde ${$w1}% de chances de coup critique supplémentaires. Les coups critiques de Frappe sauvage et de Prise de flanc ont $h% de chances d'appliquer Roughed Up et Counterstruck.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Nom de sort : « Prise de flanc » (pas « Attaque de flanc »).
 sort	800091		Description	848ecbdd04b7	|cff8fff7aGénère 1 point d'Avantage|r\r\nRavage un ennemi et lui inflige les dégâts de l'arme plus ${$m1+0} avec chaque arme$?s92116[ en appliquant |cffffffffVenin ravageur|r, qui inflige ${$m3+0+$AP*.085} points de dégâts de Nature toutes les $560346t1 sec pendant $560346d][]$?s560725[ et réduit la vitesse d'incantation de $560725s1%][].	lot sorts_classes_014
 sort	800103		Description	3d9a1eaf38dc	Augmente vos dégâts et vos soins de $s1% et génère $807392q1 |cffff7f7fChaleur|r toutes les $t3 sec pendant $d.	lot sorts_classes_014
 sort	800103		Name	24cab21fdb30	Éruption	lot sorts_classes_014
@@ -250,7 +250,7 @@ sort	800108		Name	600e3c452df6	Peste de la crypte	lot sorts_classes_014
 sort	800119		Name	34f36df3993f	Chevaucheur de nuages	lot sorts_classes_014
 sort	800120		Description	1193891d6d95	Inflige ${$m1+0} points de dégâts des Arcanes à un ennemi et échange votre position et celle de votre familier avec la sienne.	lot sorts_classes_014
 sort	800120		Name	c08627458042	Décalage distordu	lot sorts_classes_014
-sort	800126		Description	5b48b0dadcf8	Renforce vos incantations tout en drainant périodiquement votre mana pendant $d.\r\n\r\nChaque fois que vous infligez des dégâts magiques, vous gagnez $800125s1% de hâte des sorts, $800125s2% de dégâts magiques et $800125s3% de coût en mana supplémentaires.\r\n\r\nTant que l'effet est actif, vous ne pouvez pas bouger, mais |cffffffffMarche tellurique|R et |cffffffffDistorsion|r peuvent être lancés pour vous repositionner.	lot sorts_classes_014
+sort	800126		Description	5b48b0dadcf8	Renforce vos incantations tout en drainant périodiquement votre mana pendant $d.\r\n\r\nChaque fois que vous infligez des dégâts magiques, vous gagnez $800125s1% de hâte des sorts, $800125s2% de dégâts magiques et $800125s3% de coût en mana supplémentaires.\r\n\r\nTant que l'effet est actif, vous ne pouvez pas bouger, mais |cffffffffMarche tellurique|R et |cffffffffDistorsion|r peuvent être lancées pour vous repositionner.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Accord : « Marche tellurique » et « Distorsion » sont féminins, donc « lancées »
 sort	800126		Name	78abed8f1fed	Maître des runes	lot sorts_classes_014
 sort	800126		ToolTip	d689c6a16dfa	Tissage de sorts puissants !	lot sorts_classes_014
 sort	800128		Description	04aab6bdc223	Augmente de $s3% la régénération du mana et fait que les dégâts de Feu non périodiques rendent $800129s2% de votre mana maximum.	lot sorts_classes_014
@@ -259,7 +259,7 @@ sort	800128		ToolTip	8d0dc2379553	Augmente de ${$w3}% la régénération du mana
 sort	800137		Description	61a092393c76	Augmente votre vitesse de déplacement de $s1% et vos chances d'esquive de $s2%.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_014
 sort	800137		Name	192cc4b9b83a	Faveur du loup	lot sorts_classes_014
 sort	800137		ToolTip	fca8597c89be	Chances d'esquive augmentées. Vitesse de déplacement augmentée.	lot sorts_classes_014
-sort	800142		Description	f8b7fd5ab837	Rugit avec une noble ténacité, générant $/10;s3 points de Rage et rendant ${$m1+0} points de vie à tous les membres du groupe et du raid situés à moins de $a1 mètres. 	lot sorts_classes_014
+sort	800142		Description	f8b7fd5ab837	Rugissez avec une noble ténacité, générant $/10;s3 points de Rage et rendant ${$m1+0} points de vie à tous les membres du groupe et du raid situés à moins de $a1 mètres. 	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Impératif de vouvoiement, cohérent avec « Rugissement frénétique »
 sort	800142		Name	36ee8a66e919	Rugissement protecteur	lot sorts_classes_014
 sort	800146		Description	a8b7fae4c8b3	Fait appel à la nature agressive qui sommeille en vous : jusqu'à 3 ennemis qui attaquent la cible alliée attaquent le Primaliste à la place pendant $680430d.	lot sorts_classes_014
 sort	800146		Name	15bea94c058b	Appel de la nature	lot sorts_classes_014
@@ -268,7 +268,7 @@ sort	800147		Name	55e98b56be8f	Eaux de Neptulon	lot sorts_classes_014
 sort	800147		ToolTip	c1fbd3f9cb4d	Fait que votre prochain Stoneslam déchaîne une eau apaisante qui soigne tous les alliés proches.	lot sorts_classes_014
 sort	800156		Description	d4dd98be00b1	Mord un ennemi, lui inflige ${$m1+0+$AP*0.265+$SP*.265} points de dégâts physiques et crée une |cffffffffPlaie par morsure|r.@s:706654:0@	lot sorts_classes_014
 sort	800156		Name	24c60e4bdb2e	Morsure sanglante	lot sorts_classes_014
-sort	800161		Description	d372a41d6023	$?a800665[|cffffffff][|cffff3232]Nécessite la posture d'arbalète|r\r\nTire un carreau d'arbalète sur un ennemi et lui inflige les dégâts de l'arme en main gauche plus ${$m1+($pl*0.8)}, en fonction de la puissance d'attaque à distance.\r\n\r\nRéduit de $s2% la vitesse de déplacement de la cible pendant $d.\r\n\r\nGénère $500162s1 points de Rage. Ne peut être utilisé qu'directement après |cffffffffTir enroulé|r.	lot sorts_classes_014
+sort	800161		Description	d372a41d6023	$?a800665[|cffffffff][|cffff3232]Nécessite la posture d'arbalète|r\r\nTire un carreau d'arbalète sur un ennemi et lui inflige les dégâts de l'arme en main gauche plus ${$m1+($pl*0.8)}, en fonction de la puissance d'attaque à distance.\r\n\r\nRéduit de $s2% la vitesse de déplacement de la cible pendant $d.\r\n\r\nGénère $500162s1 points de Rage. Ne peut être utilisé que directement après |cffffffffTir enroulé|r.	lot sorts_classes_014 | relu par l'API (relecture 0.9.5) : Faute : « qu'directement » ; « Ne peut être utilisé que directement ».
 sort	800161		Name	643a3d22ebe8	Carreau handicapant	lot sorts_classes_014
 sort	800161		ToolTip	46315d1216bc	Vitesse de déplacement réduite de ${$w2}%.	lot sorts_classes_014
 sort	800168		Description	f896af68bbc5	Taillade vicieusement un ennemi et lui inflige $s1% des dégâts de l'arme plus ${$m3+0}.\r\n\r\nInflige des dégâts accrus pour chaque |cffff9933Feu démoniaque|r consommé.	lot sorts_classes_014

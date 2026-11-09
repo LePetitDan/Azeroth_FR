@@ -1,0 +1,313 @@
+# Fiche de test : Druide
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Equilibre
+
+- [ ] **Sarments** (Rang 1) — capacité, sort n° 339 🔍 MAJ
+- [ ] **Epines** (Rang 1) — capacité, sort n° 467
+- [ ] **Lucioles** — capacité, sort n° 770 🔍 MAJ
+- [ ] **Hibernation** (Rang 1) — capacité, sort n° 2637
+- [ ] **Apaiser les animaux** (Rang 1) — capacité, sort n° 2908
+- [ ] **Feu stellaire** (Rang 1) — capacité, sort n° 2912
+- [ ] **Colère** (Rang 1) — capacité, sort n° 5176
+- [ ] **Eclat lunaire** (Rang 1) — capacité, sort n° 8921
+- [ ] **Emprise de la nature** — capacité, sort n° 16689 🔍 MAJ
+- [ ] **Ouragan** (Rang 1) — capacité, sort n° 16914 🔍 MAJ 🔀 talents
+- [ ] **Téléportation : Reflet-de-Lune** — capacité, sort n° 18960
+- [ ] **Ecorce** — capacité, sort n° 22812 🔍 MAJ
+- [ ] **Innervation** — capacité, sort n° 29166
+- [ ] **Cyclone** — capacité, sort n° 33786
+- [ ] **Élu d'Élune** — capacité, sort n° 760051
+- [ ] **Le Vortex d'Ursol** — capacité, sort n° 954504 🔍 MAJ
+- [ ] **Enchevêtrement de masse** — capacité, sort n° 954507 🔍 MAJ
+- [ ] **Rayon solaire** — capacité, sort n° 954523
+- [ ] **Explosion stellaire** (Rang 1) — capacité, sort n° 954800
+- [ ] **Hypnose** — capacité, sort n° 955072 🔍 MAJ
+- [ ] **Colère stellaire** (Rang 1) — talent, sort n° 16814
+- [ ] **Colère stellaire** (Rang 2) — talent, sort n° 16815
+- [ ] **Colère stellaire** (Rang 3) — talent, sort n° 16816
+- [ ] **Allonge de la Nature** (Rang 1) — talent, sort n° 16819 🔍 MAJ
+- [ ] **Allonge de la Nature** (Rang 2) — talent, sort n° 16820 🔍 MAJ
+- [ ] **Eclat lunaire amélioré** (Rang 1) — talent, sort n° 16821 🔍 MAJ
+- [ ] **Eclat lunaire amélioré** (Rang 2) — talent, sort n° 16822 🔍 MAJ
+- [ ] **Ronces** (Rang 1) — talent, sort n° 16836
+- [ ] **Ronces** (Rang 2) — talent, sort n° 16839
+- [ ] **Ronces** (Rang 3) — talent, sort n° 16840
+- [ ] **Lueur de la lune** (Rang 1) — talent, sort n° 16845
+- [ ] **Lueur de la lune** (Rang 2) — talent, sort n° 16846
+- [ ] **Lueur de la lune** (Rang 3) — talent, sort n° 16847
+- [ ] **Focalisation céleste** (Rang 1) — talent, sort n° 16850
+- [ ] **Grâce de la nature** (Rang 1) — talent, sort n° 16880
+- [ ] **Fureur lunaire** (Rang 1) — talent, sort n° 16896
+- [ ] **Fureur lunaire** (Rang 2) — talent, sort n° 16897
+- [ ] **Fureur lunaire** (Rang 3) — talent, sort n° 16899
+- [ ] **Vengeance** (Rang 1) — talent, sort n° 16909 🔍 MAJ
+- [ ] **Vengeance** (Rang 2) — talent, sort n° 16910 🔍 MAJ
+- [ ] **Vengeance** (Rang 3) — talent, sort n° 16911 🔍 MAJ
+- [ ] **Vengeance** (Rang 4) — talent, sort n° 16912 🔍 MAJ
+- [ ] **Vengeance** (Rang 5) — talent, sort n° 16913 🔍 MAJ
+- [ ] **Focalisation céleste** (Rang 2) — talent, sort n° 16923
+- [ ] **Focalisation céleste** (Rang 3) — talent, sort n° 16924
+- [ ] **Soutien lunaire** (Rang 1) — talent, sort n° 33589
+- [ ] **Soutien lunaire** (Rang 2) — talent, sort n° 33590
+- [ ] **Soutien lunaire** (Rang 3) — talent, sort n° 33591
+- [ ] **Equilibre de la puissance** (Rang 1) — talent, sort n° 33592
+- [ ] **Equilibre de la puissance** (Rang 2) — talent, sort n° 33596
+- [ ] **Etat de rêve** (Rang 1) — talent, sort n° 33597
+- [ ] **Etat de rêve** (Rang 2) — talent, sort n° 33599
+- [ ] **Lucioles améliorées** (Rang 1) — talent, sort n° 33600
+- [ ] **Lucioles améliorées** (Rang 2) — talent, sort n° 33601
+- [ ] **Lucioles améliorées** (Rang 3) — talent, sort n° 33602
+- [ ] **Colère de Cénarius** (Rang 1) — talent, sort n° 33603
+- [ ] **Colère de Cénarius** (Rang 2) — talent, sort n° 33604
+- [ ] **Colère de Cénarius** (Rang 3) — talent, sort n° 33605
+- [ ] **Etat de rêve** (Rang 3) — talent, sort n° 33956
+- [ ] **Majesté de la nature** (Rang 1) — talent, sort n° 35363
+- [ ] **Majesté de la nature** (Rang 2) — talent, sort n° 35364
+- [ ] **Forme de sélénien améliorée** (Rang 1) — talent, sort n° 48384 🔍 MAJ
+- [ ] **Frénésie du chouettide** (Rang 1) — talent, sort n° 48389
+- [ ] **Frénésie du chouettide** (Rang 2) — talent, sort n° 48392
+- [ ] **Frénésie du chouettide** (Rang 3) — talent, sort n° 48393
+- [ ] **Forme de sélénien améliorée** (Rang 2) — talent, sort n° 48395 🔍 MAJ
+- [ ] **Forme de sélénien améliorée** (Rang 3) — talent, sort n° 48396 🔍 MAJ
+- [ ] **Grands vents** (Rang 1) — talent, sort n° 48488
+- [ ] **Terre et lune** (Rang 1) — talent, sort n° 48506 🔍 MAJ
+- [ ] **Terre et lune** (Rang 2) — talent, sort n° 48510 🔍 MAJ
+- [ ] **Terre et lune** (Rang 3) — talent, sort n° 48511 🔍 MAJ
+- [ ] **Grands vents** (Rang 2) — talent, sort n° 48514
+- [ ] **Eclipse** (Rang 1) — talent, sort n° 48516 🔍 MAJ
+- [ ] **Eclipse** (Rang 2) — talent, sort n° 48521 🔍 MAJ
+- [ ] **Eclipse** (Rang 3) — talent, sort n° 48525 🔍 MAJ
+- [ ] **Genèse** (Rang 1) — talent, sort n° 57810
+- [ ] **Genèse** (Rang 2) — talent, sort n° 57811
+- [ ] **Genèse** (Rang 3) — talent, sort n° 57812
+- [ ] **Genèse** (Rang 4) — talent, sort n° 57813
+- [ ] **Genèse** (Rang 5) — talent, sort n° 57814
+- [ ] **Fléau céleste** (Rang 1) — talent, sort n° 57849
+- [ ] **Fléau céleste** (Rang 2) — talent, sort n° 57850
+- [ ] **Fléau céleste** (Rang 3) — talent, sort n° 57851
+- [ ] **Splendeur de la nature** (Rang 1) — talent, sort n° 57865
+- [ ] **Grâce de la nature** (Rang 2) — talent, sort n° 61345
+- [ ] **Grâce de la nature** (Rang 3) — talent, sort n° 61346
+- [ ] **Allonge de la Nature** (Rang 3) — talent, sort n° 816819 🔍 MAJ
+- [ ] **Eclat lunaire amélioré** (Rang 3) — talent, sort n° 816823 🔍 MAJ
+- [ ] **Grands vents** (Rang 3) — talent, sort n° 848514
+- [ ] **Splendeur de la nature** (Rang 2) — talent, sort n° 857865
+- [ ] **Splendeur de la nature** — talent, sort n° 857866
+- [ ] **Essaim d'insectes** (Rang 1) — capacité de talent, sort n° 5570
+- [ ] **Forme de sélénien** (Changeforme) — capacité de talent, sort n° 24858 🔍 MAJ
+- [ ] **Force de la nature** — capacité de talent, sort n° 33831 🔍 MAJ
+- [ ] **Météores** (Rang 1) — capacité de talent, sort n° 48505 🔍 MAJ
+- [ ] **Typhon** (Rang 1) — capacité de talent, sort n° 50516
+
+## Combat farouche
+
+- [ ] **Rugissement démoralisant** (Rang 1) — capacité, sort n° 99 🔍 MAJ
+- [ ] **Forme de félin** (Changeforme) — capacité, sort n° 768
+- [ ] **Balayage (ours)** (Rang 1) — capacité, sort n° 779
+- [ ] **Forme de voyage** (Changeforme) — capacité, sort n° 783
+- [ ] **Forme aquatique** (Changeforme) — capacité, sort n° 1066
+- [ ] **Déchirure** (Rang 1) — capacité, sort n° 1079
+- [ ] **Griffe** (Rang 1) — capacité, sort n° 1082
+- [ ] **Griffure** (Rang 1) — capacité, sort n° 1822
+- [ ] **Célérité** (Rang 1) — capacité, sort n° 1850
+- [ ] **Rugissement provocateur** — capacité, sort n° 5209 🔀 talents
+- [ ] **Sonner** (Rang 1) — capacité, sort n° 5211
+- [ ] **Rôder** — capacité, sort n° 5215
+- [ ] **Fureur du tigre** (Rang 1) — capacité, sort n° 5217
+- [ ] **Lambeau** (Rang 1) — capacité, sort n° 5221
+- [ ] **Enrager** — capacité, sort n° 5229
+- [ ] **Forme d'ours** (Changeforme) — capacité, sort n° 5487
+- [ ] **Ravage** (Rang 1) — capacité, sort n° 6785
+- [ ] **Grondement** — capacité, sort n° 6795
+- [ ] **Mutiler** (Rang 1) — capacité, sort n° 6807
+- [ ] **Dérobade** (Rang 1) — capacité, sort n° 8998
+- [ ] **Traquenard** (Rang 1) — capacité, sort n° 9005
+- [ ] **Lucioles (farouche)** — capacité, sort n° 16857 🔍 MAJ
+- [ ] **Morsure féroce** (Rang 1) — capacité, sort n° 22568 🔍 MAJ
+- [ ] **Estropier** (Rang 1) — capacité, sort n° 22570 🔍 MAJ
+- [ ] **Régénération frénétique** — capacité, sort n° 22842
+- [ ] **Lacérer** (Rang 1) — capacité, sort n° 33745
+- [ ] **Forme de vol** (Changeforme) — capacité, sort n° 33943
+- [ ] **Rugissement sauvage** (Rang 1) — capacité, sort n° 52610
+- [ ] **Balayage (félin)** — capacité, sort n° 62078
+- [ ] **Défense sauvage** (Rang 1) — capacité, sort n° 62600
+- [ ] **Fourrure de fer** — capacité, sort n° 760100
+- [ ] **Rugissement de ruée** — capacité, sort n° 954508 🔍 MAJ
+- [ ] **Maîtrise des métamorphoses farouches** — capacité, sort n° 954710 🔍 MAJ
+- [ ] **Agressivité farouche** (Rang 1) — talent, sort n° 16858
+- [ ] **Agressivité farouche** (Rang 2) — talent, sort n° 16859
+- [ ] **Agressivité farouche** (Rang 3) — talent, sort n° 16860
+- [ ] **Peau d'ancien** (Rang 1) — talent, sort n° 16929
+- [ ] **Peau d'ancien** (Rang 2) — talent, sort n° 16930
+- [ ] **Peau d'ancien** (Rang 3) — talent, sort n° 16931
+- [ ] **Férocité** (Rang 1) — talent, sort n° 16934
+- [ ] **Férocité** (Rang 2) — talent, sort n° 16935
+- [ ] **Férocité** (Rang 3) — talent, sort n° 16936
+- [ ] **Férocité** (Rang 4) — talent, sort n° 16937
+- [ ] **Férocité** (Rang 5) — talent, sort n° 16938
+- [ ] **Impact brutal** (Rang 1) — talent, sort n° 16940
+- [ ] **Impact brutal** (Rang 2) — talent, sort n° 16941
+- [ ] **Griffes aiguisées** (Rang 1) — talent, sort n° 16942
+- [ ] **Griffes aiguisées** (Rang 2) — talent, sort n° 16943
+- [ ] **Griffes aiguisées** (Rang 3) — talent, sort n° 16944
+- [ ] **Instinct farouche** (Rang 1) — talent, sort n° 16947
+- [ ] **Instinct farouche** (Rang 2) — talent, sort n° 16948
+- [ ] **Instinct farouche** (Rang 3) — talent, sort n° 16949
+- [ ] **Attaques lacérantes** (Rang 1) — talent, sort n° 16966
+- [ ] **Attaques lacérantes** (Rang 2) — talent, sort n° 16968
+- [ ] **Frappes de prédateur** (Rang 1) — talent, sort n° 16972
+- [ ] **Frappes de prédateur** (Rang 2) — talent, sort n° 16974
+- [ ] **Frappes de prédateur** (Rang 3) — talent, sort n° 16975
+- [ ] **Furie sauvage** (Rang 1) — talent, sort n° 16998
+- [ ] **Furie sauvage** (Rang 2) — talent, sort n° 16999
+- [ ] **Célérité farouche** (Rang 1) — talent, sort n° 17002
+- [ ] **Cœur de fauve** (Rang 1) — talent, sort n° 17003
+- [ ] **Cœur de fauve** (Rang 2) — talent, sort n° 17004
+- [ ] **Cœur de fauve** (Rang 3) — talent, sort n° 17005
+- [ ] **Célérité farouche** (Rang 2) — talent, sort n° 24866
+- [ ] **Ténacité primordiale** (Rang 1) — talent, sort n° 33851
+- [ ] **Ténacité primordiale** (Rang 2) — talent, sort n° 33852
+- [ ] **Survie du plus apte** (Rang 1) — talent, sort n° 33853
+- [ ] **Survie du plus apte** (Rang 2) — talent, sort n° 33855
+- [ ] **Survie du plus apte** (Rang 3) — talent, sort n° 33856
+- [ ] **Instincts de prédateur** (Rang 1) — talent, sort n° 33859 🔍 MAJ
+- [ ] **Instincts de prédateur** (Rang 2) — talent, sort n° 33866 🔍 MAJ
+- [ ] **Instincts de prédateur** (Rang 3) — talent, sort n° 33867 🔍 MAJ
+- [ ] **Instinct nourricier** (Rang 1) — talent, sort n° 33872
+- [ ] **Instinct nourricier** (Rang 2) — talent, sort n° 33873
+- [ ] **Ténacité primordiale** (Rang 3) — talent, sort n° 33957
+- [ ] **Chef de la meute amélioré** (Rang 1) — talent, sort n° 34297 🔍 MAJ
+- [ ] **Chef de la meute amélioré** (Rang 2) — talent, sort n° 34300 🔍 MAJ
+- [ ] **Fureur primitive** (Rang 1) — talent, sort n° 37116
+- [ ] **Fureur primitive** (Rang 2) — talent, sort n° 37117
+- [ ] **Précision primale** (Rang 1) — talent, sort n° 48409
+- [ ] **Précision primale** (Rang 2) — talent, sort n° 48410
+- [ ] **Pourfendre et déchirer** (Rang 1) — talent, sort n° 48432
+- [ ] **Pourfendre et déchirer** (Rang 2) — talent, sort n° 48433
+- [ ] **Pourfendre et déchirer** (Rang 3) — talent, sort n° 48434
+- [ ] **Blessures infectées** (Rang 1) — talent, sort n° 48483 🔍 MAJ
+- [ ] **Blessures infectées** (Rang 2) — talent, sort n° 48484 🔍 MAJ
+- [ ] **Blessures infectées** (Rang 3) — talent, sort n° 48485 🔍 MAJ
+- [ ] **Mutilation améliorée** (Rang 2) — talent, sort n° 48489
+- [ ] **Mutilation améliorée** (Rang 3) — talent, sort n° 48491
+- [ ] **Roi de la jungle** (Rang 1) — talent, sort n° 48492
+- [ ] **Roi de la jungle** (Rang 2) — talent, sort n° 48494
+- [ ] **Roi de la jungle** (Rang 3) — talent, sort n° 48495
+- [ ] **Mutilation améliorée** (Rang 1) — talent, sort n° 48532
+- [ ] **Protecteur de la meute** (Rang 1) — talent, sort n° 57873
+- [ ] **Protecteur de la meute** (Rang 2) — talent, sort n° 57876
+- [ ] **Protecteur de la meute** (Rang 3) — talent, sort n° 57877
+- [ ] **Réaction naturelle** (Rang 1) — talent, sort n° 57878
+- [ ] **Réaction naturelle** (Rang 2) — talent, sort n° 57880
+- [ ] **Réaction naturelle** (Rang 3) — talent, sort n° 57881
+- [ ] **Lacération primitive** (Rang 1) — talent, sort n° 63503
+- [ ] **Impact brutal** (Rang 3) — talent, sort n° 816941
+- [ ] **Attaques lacérantes** (Rang 3) — talent, sort n° 816968
+- [ ] **Lacération primitive** (Rang 2) — talent, sort n° 863503
+- [ ] **Lacération primitive** (Rang 3) — talent, sort n° 863504
+- [ ] **Forme de voyage améliorée** (Rang 1) — talent, sort n° 954198
+- [ ] **Forme de voyage améliorée** (Rang 2) — talent, sort n° 954199
+- [ ] **Forme de voyage améliorée** (Rang 3) — talent, sort n° 954200
+- [ ] **Chef de la meute** — capacité de talent, sort n° 17007 🔍 MAJ
+- [ ] **Mutilation** (Rang 1) — capacité de talent, sort n° 33917 🔍 MAJ
+- [ ] **Charge farouche** — capacité de talent, sort n° 49377
+- [ ] **Berserk** — capacité de talent, sort n° 50334
+- [ ] **Instincts de survie** — capacité de talent, sort n° 61336
+
+## Restauration
+
+- [ ] **Tranquillité** (Rang 1) — capacité, sort n° 740
+- [ ] **Récupération** (Rang 1) — capacité, sort n° 774
+- [ ] **Marque du fauve** (Rang 1) — capacité, sort n° 1126 🔍 MAJ
+- [ ] **Délivrance de la malédiction** — capacité, sort n° 2782
+- [ ] **Abolir le poison** — capacité, sort n° 2893
+- [ ] **Toucher guérisseur** (Rang 1) — capacité, sort n° 5185
+- [ ] **Rétablissement** (Rang 1) — capacité, sort n° 8936
+- [ ] **Guérison du poison** — capacité, sort n° 8946
+- [ ] **Renaissance** (Rang 1) — capacité, sort n° 20484
+- [ ] **Fleur de vie** (Rang 1) — capacité, sort n° 33763
+- [ ] **Nourrir** (Rang 1) — capacité, sort n° 50464
+- [ ] **Ressusciter** (Rang 1) — capacité, sort n° 50769 🔍 MAJ
+- [ ] **Efflorescence** — capacité, sort n° 86382
+- [ ] **Fioriture** (Rang 1) — capacité, sort n° 760107
+- [ ] **Changeforme naturel** (Rang 1) — talent, sort n° 16833
+- [ ] **Changeforme naturel** (Rang 2) — talent, sort n° 16834
+- [ ] **Changeforme naturel** (Rang 3) — talent, sort n° 16835
+- [ ] **Augure de clarté** (Rang 1) — talent, sort n° 16864 🔍 MAJ
+- [ ] **Marque du fauve améliorée** (Rang 1) — talent, sort n° 17050
+- [ ] **Marque du fauve améliorée** (Rang 2) — talent, sort n° 17051
+- [ ] **Fureur** (Rang 1) — talent, sort n° 17056
+- [ ] **Fureur** (Rang 2) — talent, sort n° 17058
+- [ ] **Fureur** (Rang 3) — talent, sort n° 17059
+- [ ] **Focalisation de la nature** (Rang 1) — talent, sort n° 17063
+- [ ] **Focalisation de la nature** (Rang 2) — talent, sort n° 17065
+- [ ] **Focalisation de la nature** (Rang 3) — talent, sort n° 17066
+- [ ] **Naturaliste** (Rang 1) — talent, sort n° 17069
+- [ ] **Naturaliste** (Rang 2) — talent, sort n° 17070
+- [ ] **Naturaliste** (Rang 3) — talent, sort n° 17071
+- [ ] **Bonté de la nature** (Rang 1) — talent, sort n° 17074
+- [ ] **Bonté de la nature** (Rang 2) — talent, sort n° 17075
+- [ ] **Bonté de la nature** (Rang 3) — talent, sort n° 17076
+- [ ] **Bonté de la nature** (Rang 4) — talent, sort n° 17077
+- [ ] **Bonté de la nature** (Rang 5) — talent, sort n° 17078
+- [ ] **Don de la Nature** (Rang 1) — talent, sort n° 17104 🔍 MAJ 🔀 talents
+- [ ] **Intensité** (Rang 1) — talent, sort n° 17106
+- [ ] **Intensité** (Rang 2) — talent, sort n° 17107
+- [ ] **Intensité** (Rang 3) — talent, sort n° 17108
+- [ ] **Récupération améliorée** (Rang 1) — talent, sort n° 17111
+- [ ] **Récupération améliorée** (Rang 2) — talent, sort n° 17112
+- [ ] **Récupération améliorée** (Rang 3) — talent, sort n° 17113
+- [ ] **Discrétion** (Rang 1) — talent, sort n° 17118
+- [ ] **Discrétion** (Rang 2) — talent, sort n° 17119
+- [ ] **Discrétion** (Rang 3) — talent, sort n° 17120
+- [ ] **Tranquillité améliorée** (Rang 1) — talent, sort n° 17123
+- [ ] **Tranquillité améliorée** (Rang 2) — talent, sort n° 17124
+- [ ] **Don de la Nature** (Rang 2) — talent, sort n° 24943 🔍 MAJ 🔀 talents
+- [ ] **Don de la Nature** (Rang 3) — talent, sort n° 24944 🔍 MAJ 🔀 talents
+- [ ] **Don de la Nature** (Rang 4) — talent, sort n° 24945 🔍 MAJ 🔀 talents
+- [ ] **Don de la Nature** (Rang 5) — talent, sort n° 24946 🔍 MAJ 🔀 talents
+- [ ] **Tranquillité de l'esprit** (Rang 1) — talent, sort n° 24968
+- [ ] **Tranquillité de l'esprit** (Rang 2) — talent, sort n° 24969
+- [ ] **Tranquillité de l'esprit** (Rang 3) — talent, sort n° 24970
+- [ ] **Tranquillité de l'esprit** (Rang 4) — talent, sort n° 24971
+- [ ] **Tranquillité de l'esprit** (Rang 5) — talent, sort n° 24972
+- [ ] **Toucher surpuissant** (Rang 1) — talent, sort n° 33879
+- [ ] **Toucher surpuissant** (Rang 2) — talent, sort n° 33880
+- [ ] **Perfection naturelle** (Rang 1) — talent, sort n° 33881
+- [ ] **Perfection naturelle** (Rang 2) — talent, sort n° 33882
+- [ ] **Perfection naturelle** (Rang 3) — talent, sort n° 33883
+- [ ] **Récupération de la nature** (Rang 1) — talent, sort n° 33886
+- [ ] **Récupération de la nature** (Rang 2) — talent, sort n° 33887
+- [ ] **Récupération de la nature** (Rang 3) — talent, sort n° 33888
+- [ ] **Esprit vif** (Rang 1) — talent, sort n° 34151
+- [ ] **Esprit vif** (Rang 2) — talent, sort n° 34152
+- [ ] **Esprit vif** (Rang 3) — talent, sort n° 34153
+- [ ] **Maître changeforme** — talent, sort n° 48411
+- [ ] **Maître changeforme** — talent, sort n° 48412
+- [ ] **Graine de vie** (Rang 1) — talent, sort n° 48496
+- [ ] **Graine de vie** (Rang 2) — talent, sort n° 48499
+- [ ] **Graine de vie** (Rang 3) — talent, sort n° 48500
+- [ ] **Arbre de vie amélioré** (Rang 1) — talent, sort n° 48535
+- [ ] **Arbre de vie amélioré** (Rang 2) — talent, sort n° 48536
+- [ ] **Arbre de vie amélioré** (Rang 3) — talent, sort n° 48537
+- [ ] **Revitaliser** (Rang 1) — talent, sort n° 48539
+- [ ] **Revitaliser** (Rang 2) — talent, sort n° 48544
+- [ ] **Revitaliser** (Rang 3) — talent, sort n° 48545
+- [ ] **Don de la Terre-mère** (Rang 1) — talent, sort n° 51179
+- [ ] **Don de la Terre-mère** (Rang 2) — talent, sort n° 51180
+- [ ] **Don de la Terre-mère** (Rang 3) — talent, sort n° 51181
+- [ ] **Don de la Terre-mère** (Rang 4) — talent, sort n° 51182
+- [ ] **Don de la Terre-mère** (Rang 5) — talent, sort n° 51183
+- [ ] **Ecorce améliorée** (Rang 1) — talent, sort n° 63410
+- [ ] **Ecorce améliorée** (Rang 2) — talent, sort n° 63411
+- [ ] **Augure de clarté** (Rang 2) — talent, sort n° 816860 🔍 MAJ
+- [ ] **Augure de clarté** (Rang 3) — talent, sort n° 816861 🔍 MAJ
+- [ ] **Alacrité naturelle** — capacité de talent, sort n° 17116
+- [ ] **Prompte guérison** — capacité de talent, sort n° 18562
+- [ ] **Croissance sauvage** (Rang 1) — capacité de talent, sort n° 48438
+- [ ] **Arbre de vie** — capacité de talent, sort n° 65139 🔍 MAJ

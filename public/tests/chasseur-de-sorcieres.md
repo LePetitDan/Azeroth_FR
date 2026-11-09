@@ -1,0 +1,212 @@
+# Fiche de test : Chasseur de sorcières
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Lance-carreaux
+
+- [ ] **Lance-carreaux** (Spécialisation) — capacité, sort n° 92091
+- [ ] **Fléau des sorcières** (Passif) — capacité, sort n° 500055
+- [ ] **Festin de serres** (Passif) — capacité, sort n° 500056
+- [ ] **Chasseur de sorcières (Inquisition)** (Deprecated) — capacité, sort n° 500058
+- [ ] **Tir enroulé** (Rang 1) — capacité, sort n° 500082
+- [ ] **Carreau punitif** — capacité, sort n° 500083
+- [ ] **Fuite audacieuse** — capacité, sort n° 500086 🔀 talents
+- [ ] **Traqueur des ténèbres** (Passif) — capacité, sort n° 500091
+- [ ] **Lancer de bola** (Rang 1) — capacité, sort n° 500093
+- [ ] **Arbalète de Sombrombre** — capacité, sort n° 500900
+- [ ] **Prise de distance** (Passif) — capacité, sort n° 500901
+- [ ] **Carreau handicapant** — capacité, sort n° 800161 🔀 talents
+- [ ] **Tourmenteur** (Rang 1) — capacité, sort n° 800162
+- [ ] **Trait arrête-cœur** (Rang 1) — capacité, sort n° 800163
+- [ ] **Tueur des ténèbres** (UNUSED) — capacité, sort n° 800164
+- [ ] **Plaie-des-sorcières** (Rang 1) — capacité, sort n° 800165
+- [ ] **Posture du mousquet** — capacité, sort n° 800529
+- [ ] **Posture de l'arbalète** — capacité, sort n° 800665
+- [ ] **Chasse aux sorcières** — capacité, sort n° 801985
+- [ ] **Posture de la lame** — capacité, sort n° 802002
+- [ ] **Appel de la bête ensorceleuse** (Deprecated) — capacité, sort n° 802329
+- [ ] **Chakra de puissance** (PassiveSLS) — capacité, sort n° 803175
+- [ ] **Pourfendeur de ténèbres** (Passif) — capacité, sort n° 804024
+- [ ] **Carreaux d'argent** (Passif) — capacité, sort n° 804026
+- [ ] **Réarmement** — capacité, sort n° 805738
+- [ ] **Tueur de géants** (Passif) — capacité, sort n° 805739
+- [ ] **Frénésie crépusculaire** — capacité, sort n° 805751
+- [ ] **Carreau chercheur de cœur** (Rang 1) — capacité, sort n° 805754
+- [ ] **Grenade fumigène** — capacité, sort n° 805756
+- [ ] **Tourmenter les tourmentés** (Passif) — capacité, sort n° 805758
+- [ ] **Mise à prix** — capacité, sort n° 805760
+- [ ] **Percevoir la prime** — capacité, sort n° 805761
+- [ ] **Collecte** — capacité, sort n° 805762
+- [ ] **Evasif** (Passif) — capacité, sort n° 805767
+- [ ] **Vigilance** — capacité, sort n° 805769
+- [ ] **Voile ensorcelé** — capacité, sort n° 805770
+- [ ] **Chasseur de primes** (Passif) — capacité, sort n° 805773
+- [ ] **Lance-carreaux** (Passif de spécialisation) — talent, sort n° 705492
+- [ ] **Récidiviste** (Passif) — talent, sort n° 705495
+- [ ] **Faire régner la loi** (Passif) — talent, sort n° 705500
+- [ ] **Arbalète de mercenaire** — talent, sort n° 705501
+- [ ] **Le juste prix** (Passif) — talent, sort n° 705503
+- [ ] **Le juste prix** (Deprecated) — talent, sort n° 705504
+- [ ] **Le juste prix** (Obsolète) — talent, sort n° 705505
+- [ ] **Meurtre sous contrat** — talent, sort n° 705506
+- [ ] **Sur ordre royal** (Passif) — talent, sort n° 705508
+- [ ] **Sur ordre royal** (Obsolète) — talent, sort n° 705509
+- [ ] **Chasseur de primes** — talent, sort n° 705510
+- [ ] **Tir chanceux** (Obsolète) — talent, sort n° 705511
+- [ ] **Rechargement rapide** (Rang 1) — talent, sort n° 705512
+- [ ] **Arbalètes mécanisées** (Tir automatique SLS) — talent, sort n° 705513
+- [ ] **Arbalètes mécanisées** (Passif) — talent, sort n° 705514
+- [ ] **Tir de harcèlement** (Passif) — talent, sort n° 705515
+- [ ] **Déployer une baliste** — talent, sort n° 801643
+
+## Ténèbres
+
+- [ ] **Œil de lynx** (Passif) — capacité, sort n° 92093
+- [ ] **Festin de serres** (PassiveSLS) — capacité, sort n° 500084
+- [ ] **Bond** — capacité, sort n° 500085 🔀 talents
+- [ ] **Asservissement** — capacité, sort n° 500089
+- [ ] **Festin sombre** (Rang 1) — capacité, sort n° 500092
+- [ ] **Régénération sombre** — capacité, sort n° 500094
+- [ ] **Dégainé** (Passif) — capacité, sort n° 500097
+- [ ] **Seigneur de la torture** (Passif) — capacité, sort n° 500099
+- [ ] **Porteur de ténèbres** (Passif) — capacité, sort n° 500101
+- [ ] **Lâcher les chiens** (UNUSED) — capacité, sort n° 800768
+- [ ] **Sifflet du maître-chien** — capacité, sort n° 801343
+- [ ] **Changement d'arme** — capacité, sort n° 802001
+- [ ] **Lance-piège** — capacité, sort n° 802272
+- [ ] **Appel du maître-chien** — capacité, sort n° 802273
+- [ ] **Tonique vampirique** — capacité, sort n° 802276 🔍 MAJ 🔀 talents
+- [ ] **Tonique pyro** — capacité, sort n° 802277 🔍 MAJ
+- [ ] **Tonique de sang de sorcière** — capacité, sort n° 802278 🔍 MAJ
+- [ ] **Tonique bouillonnant** (Rang 1) — capacité, sort n° 802279 🔍 MAJ
+- [ ] **Tueur des ténèbres** (Rang 1) — capacité, sort n° 804179 🔀 talents
+- [ ] **Fulmine-sorcière** (Rang 1) — capacité, sort n° 804184
+- [ ] **Le mal ne dort jamais** (Passif) — capacité, sort n° 804185
+- [ ] **Grêle de balles** (Passif) — capacité, sort n° 804187
+- [ ] **Rechargement** (Passif) — capacité, sort n° 804190
+- [ ] **Déflagration d'ombre** (Rang 1) — capacité, sort n° 804191 🔀 talents
+- [ ] **Dégaine éclair** (Rang 1) — capacité, sort n° 804193
+- [ ] **Décimer** — capacité, sort n° 804194
+- [ ] **Frappe de garde** — capacité, sort n° 804432
+- [ ] **Protection contre les malédictions** — capacité, sort n° 804688 🔍 MAJ
+- [ ] **Tisseur de chagrin** — capacité, sort n° 804798
+- [ ] **Maître-chien** (Passif) — talent, sort n° 705450
+- [ ] **Fléau des sorcières** — talent, sort n° 705451
+- [ ] **Long fusil** — talent, sort n° 705452
+- [ ] **Cavalier sombre** (Passif) — talent, sort n° 705453
+- [ ] **Précision infâme** (Rang 2) — talent, sort n° 705454
+- [ ] **Rage de l'ombre** (Passif) — talent, sort n° 705455
+- [ ] **Tireur d'élite ** (Passif) — talent, sort n° 705456
+- [ ] **Ténèbres - Passif de niveau 50** (Spécialisation) — talent, sort n° 705457
+- [ ] **Nuée angoissante** (Passif) — talent, sort n° 705462
+- [ ] **Mise à mort coordonnée** (Passif) — talent, sort n° 705463
+- [ ] **Forestier-sombre** (Rang 1) — talent, sort n° 705465
+- [ ] **Tirs à la tête** (Rang 2) — talent, sort n° 705466
+- [ ] **Tir expert** (Rang 1) — talent, sort n° 705467
+- [ ] **Peau sombre** (Obsolète) — talent, sort n° 705468
+- [ ] **Peau sombre** (Obsolète) — talent, sort n° 705469
+- [ ] **Griffes aiguisées** (Passif) — talent, sort n° 705470
+- [ ] **Lien d'ombre** — talent, sort n° 705471
+- [ ] **Balles runiques** — talent, sort n° 705472
+- [ ] **Déflagration d'ombre améliorée** (Obsolète) — talent, sort n° 705474
+- [ ] **Nourrisseur de molosses** (Passif) — talent, sort n° 705477
+- [ ] **Odeur de magie** (Passif) — talent, sort n° 706260
+
+## Inquisition
+
+- [ ] **Arcs** — capacité, sort n° 264
+- [ ] **Armes à feu** — capacité, sort n° 266
+- [ ] **Arbalètes** — capacité, sort n° 5011
+- [ ] **Flammes du péché** (Spécialisation) — capacité, sort n° 92094
+- [ ] **Châtiment du mal** (Rang 1) — capacité, sort n° 802004
+- [ ] **Traque** — capacité, sort n° 802006
+- [ ] **Empaler** (Deprecated) — capacité, sort n° 802008 🔀 talents
+- [ ] **Âmes sombres** (Passif) — capacité, sort n° 802011
+- [ ] **Moquerie cruelle** (Rang 1) — capacité, sort n° 802013
+- [ ] **Lame du purificateur** (Rang 1) — capacité, sort n° 802019
+- [ ] **Lame du crépuscule** (Rang 1) — capacité, sort n° 802020
+- [ ] **Croque-mort** (Passif) — capacité, sort n° 802022
+- [ ] **Lame de l'aube** (Rang 1) — capacité, sort n° 802024 🔀 talents
+- [ ] **Proclamation** — capacité, sort n° 802135
+- [ ] **Guerrier de la nuit** (Passif) — capacité, sort n° 802137
+- [ ] **Regard du chevalier noir** — capacité, sort n° 802138
+- [ ] **Lanterne du tueur de ténèbres** — capacité, sort n° 802139
+- [ ] **Jugement ardent** (Rang 1) — capacité, sort n° 802140
+- [ ] **Conviction** (Passif) — capacité, sort n° 802141
+- [ ] **Que les têtes roulent** (Passif) — capacité, sort n° 802142
+- [ ] **Lame enflammée** — capacité, sort n° 802143
+- [ ] **Carreau d'ancrage** — capacité, sort n° 802269
+- [ ] **Traque** — capacité, sort n° 802275
+- [ ] **Lame de Noctis** (Rang 1) — capacité, sort n° 802280
+- [ ] **Infiltration** — capacité, sort n° 802281
+- [ ] **Idole ensorcelée** — capacité, sort n° 804051
+- [ ] **Marque du tueur** — capacité, sort n° 804068
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Salve de carreaux** — capacité, sort n° 804404
+- [ ] **Passif de répétition OBSOLÈTE** — capacité, sort n° 804657
+- [ ] **Conversation charmante** — capacité, sort n° 804667
+- [ ] **Mailles de sorcière** — capacité, sort n° 804797
+- [ ] **Chasse du vampire** — capacité, sort n° 804799
+- [ ] **Stoïcisme** — capacité, sort n° 804802
+- [ ] **Chevalier sorcier** (Passif) — capacité, sort n° 805346
+- [ ] **Fioriture** — capacité, sort n° 805365
+- [ ] **Pénitence sombre** (Rang 1) — capacité, sort n° 805533
+- [ ] **Interrogateur** (Passif) — capacité, sort n° 806188
+- [ ] **Poignée brûlante** — capacité, sort n° 806191
+- [ ] **Sombre intuition** (Passif) — capacité, sort n° 806195
+- [ ] **Crépuscule** (Passif) — talent, sort n° 300571
+- [ ] **Triple sept** (Passif) — talent, sort n° 300572
+- [ ] **Dernier espoir** (Passif) — talent, sort n° 300573
+- [ ] **Au bûcher** (Passif) — talent, sort n° 300574
+- [ ] **Protecteur de Sombre-comté** (Passif) — talent, sort n° 300575
+- [ ] **Ceinture de potions** (Passif) — talent, sort n° 705475
+- [ ] **Ceinture de potions** (Deprecated) — talent, sort n° 705476
+- [ ] **Brûlé vif** (Passif) — talent, sort n° 705478
+- [ ] **Crépuscule après l'aube** (Passif) — talent, sort n° 705479
+- [ ] **Poignée brûlante** (Passif) — talent, sort n° 705480
+- [ ] **Au bûcher** (Rang 2) — talent, sort n° 705481
+- [ ] **Toniques supérieurs** (Passif) — talent, sort n° 705482
+- [ ] **Crépuscule et aube** (Passif) — talent, sort n° 705483
+- [ ] **Aube** (Passif) — talent, sort n° 705484
+- [ ] **Lame de feu** (Obsolète) — talent, sort n° 705485
+- [ ] **Haine et vitriol** (Passif) — talent, sort n° 705486
+- [ ] **Armure enchantée** (Passif) — talent, sort n° 705487
+- [ ] **Armure enchantée** (Rang 2) — talent, sort n° 705488
+- [ ] **Armure gravée** (Passif) — talent, sort n° 705489
+
+## Classe
+
+- [ ] **Maître de l'évasion** (Passif) — capacité, sort n° 705490
+- [ ] **La menace du Bois de la Pénombre** (Passif) — capacité, sort n° 705491
+- [ ] **Haine débordante** (Passif) — capacité, sort n° 705496
+- [ ] **Réserve de toniques** (Passif) — capacité, sort n° 705497
+- [ ] **Recherche alchimique** (Rang 1) — capacité, sort n° 705498
+- [ ] **Frénésie de l'arbalète** (Passif) — capacité, sort n° 705499
+- [ ] **Mort et enterré** (Passif) — capacité, sort n° 705524
+- [ ] **Trappeur** (Passif) — capacité, sort n° 705525 🔀 talents
+- [ ] **Filou** (Passif) — capacité, sort n° 705526
+- [ ] **Lame pure** (Passif) — capacité, sort n° 705527
+- [ ] **Élixirs régénérants** (Passif) — capacité, sort n° 705528
+- [ ] **Parure du tueur de ténèbres** (Passif) — capacité, sort n° 705530
+- [ ] **Défenseur de Sombre-comté** (Passif) — capacité, sort n° 705531
+- [ ] **Marcheur de l'ombre** (Passif) — capacité, sort n° 705532
+- [ ] **Juste une gorgée** (Passif) — capacité, sort n° 705533
+- [ ] **Intention vengeresse** (Passif) — capacité, sort n° 705534
+- [ ] **Traits améliorés** (Passif) — capacité, sort n° 705535
+- [ ] **Marque de mort** — capacité, sort n° 705536
+- [ ] **Chasseur dans la nuit** (Rang 1) — capacité de talent, sort n° 705493
+- [ ] **Chasseur dans la nuit** (Passif) — capacité de talent, sort n° 705494
+- [ ] **Élève des ténèbres** (Rang 1) — capacité de talent, sort n° 705517
+- [ ] **Carreaux chargés** — capacité de talent, sort n° 705518
+- [ ] **Calme sous la pression** (Passif) — capacité de talent, sort n° 705519
+- [ ] **Barrière sombre** (Passif) — capacité de talent, sort n° 705520
+- [ ] **Pas agiles** (Rang 1) — capacité de talent, sort n° 705521
+- [ ] **Pas agiles** (Rang 2) — capacité de talent, sort n° 705522
+- [ ] **Pas agiles** (Rang 3) — capacité de talent, sort n° 705523
+- [ ] **Maîtrise de l'arbalète** (Passif) — capacité de talent, sort n° 706240
+- [ ] **Maîtrise de l'arbalète** (Déclenchement) — capacité de talent, sort n° 706241
+- [ ] **Poursuivant du mal** (Rang 1) — capacité de talent, sort n° 706242
+- [ ] **Poursuivant du mal** (Rang 2) — capacité de talent, sort n° 706243

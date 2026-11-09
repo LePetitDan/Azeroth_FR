@@ -51,7 +51,7 @@ sort	805417		Name	eae579118fd8	Barrière de Lumière	lot talents_031
 sort	805417		ToolTip	f651baa61e6f	Soins reçus augmentés de ${$w3}%.	lot talents_031
 sort	805420		Description	5689fd262842	Les dégâts infligés par |cffffffffBalayage sacré|r et |cffffffffRétribution|r réduisent désormais la vitesse d'incantation de $572052s1% pendant $572052d, cumulable $572052u fois.	lot talents_031
 sort	805420		Name	bda17c079117	Voie du moine	lot talents_031
-sort	805422		Description	885801d82e50	Confère un bouclier égal à 100% de vos points de vie maximum pendant $d, réinitialise le temps de recharge de |cffffffffBarrière de Lumière|r et de |cffffffffCercle de quiétude|r, et confère un effet supplémentaire pour chacun.@s:806354:0@@s:807004:0@	lot talents_031
+sort	805422		Description	885801d82e50	Confère un bouclier égal à 100% de vos points de vie maximum pendant $d, réinitialise le temps de recharge de |cffffffffBarrière de Lumière|r et de |cffffffffCercle tranquille|r, et confère un effet supplémentaire pour chacun.@s:806354:0@@s:807004:0@	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Barrière de Lumière » (nom français fourni), et non « Barrière de lumière ».
 sort	805422		Name	d8523ae37e1e	Tome de Lumière	lot talents_031
 sort	805423		Description	c0f83ba00680	Lisez votre |cffffffffLibram de ferveur|r, ce qui vous confère une puissance des sorts égale à $s2% de votre Agilité et une puissance d'attaque égale à $s1% de votre Intelligence pendant $d.\r\n\r\n@ext:Only 1 |cffffffffLibram|r spell can be active at a time.:ext@	lot talents_031
 sort	805423		Name	f4e74a3905a9	Libram de ferveur	lot talents_031
@@ -62,7 +62,7 @@ sort	805427		Description	6303ae80ce9c	Lancer |cffffffffFrénésie impie|r invoqu
 sort	805427		Name	2b3dd18073d4	Os de géant	lot talents_031
 sort	805427		ToolTip	47eb64eea49c	Fait que les applications de Deathchill infligent $805426s1 points de dégâts d'Ombre, selon la puissance des sorts.	lot talents_031
 sort	805428		Description	d51255275957	Anime un |cffffffffWyrm de givre|r qui vole derrière le nécromancien et frappe les ennemis proches toutes les 2 sec pendant $d, infligeant ${$807339m1+(($spfr*0.702)+($INT*0.702))*0.212} points de dégâts de Givre.	lot talents_031
-sort	805428		Name	2f5efbfacfce	Animation : wyrm de givre	lot talents_031
+sort	805428		Name	2f5efbfacfce	Animation : Wyrm de givre	lot talents_031 | relu par l'API (relecture 0.9.5) : Le nom officiel du sort est « Wyrm de givre » avec majuscule à Wyrm, comme dans la description (n°38).
 sort	805429		Description	455596839ab3	Augmente votre Intelligence de $s2% et les dégâts de Givre infligés par vos serviteurs morts-vivants de $s1%.	lot talents_031
 sort	805429		Name	056da584c01d	Appel de la couronne	lot talents_031
 sort	805429		ToolTip	f7fb0feaf785	Les sorts de |cff90ee90Commandement|r réduisent désormais de $573201s1% le coût de votre prochain |cffffffffBarrage de glace|r pendant $573201d.	lot talents_031
@@ -80,7 +80,7 @@ sort	805448		Description	70f78b33765f	Les soins prodigués par |cFFFFFFFFAttiser
 sort	805448		Name	c0616228985d	Rallumer	lot talents_031
 sort	805448		ToolTip	6087196427e7	Les soins prodigués par |cFFFFFFFFCœur de cendres|r augmentent de $805474s1% les soins de votre prochain |cffffffffToucher de braise|r sur la cible, cumulable $805474u fois, pendant $805474d.	lot talents_031
 sort	805462		Description	cb3dab48a87b	Crée autour de vous une onde sismique d'eau de soin qui rend ${$m1+0+$BH*.3+$AP*.28+$BH*.3} points de vie à un maximum de $i alliés et inflige ${$m2+0+$AP*0.28+$BH*.3} points de dégâts de Nature aux ennemis dans un rayon de $a1 mètres.\r\n\r\n@ext:Shares a cooldown with other |CffffffffSeismic|r spells.:ext@	lot talents_031
-sort	805468		Description	4d55bf9caf74	Les coups critiques de |cFFFFFFFFExploser|r ou de |cFFFFFFFFFlammes de Neltharion|r prolongent désormais de $/1000;807099S1 sec la durée de |cFFFFFFFFEnflammé|r.	lot talents_031
+sort	805468		Description	4d55bf9caf74	Les coups critiques de |cFFFFFFFFExplosion|r ou de |cFFFFFFFFFlammes de Neltharion|r prolongent désormais de $/1000;807099S1 sec la durée d'|cFFFFFFFFEmbrasement|r.	lot talents_031 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : Explode = Explosion et Fired Up = Embrasement (noms_de_sorts_cites), pas Exploser ni Enflammé.
 sort	805468		Name	9fb4dc7b5d7a	Verse-flammes	lot talents_031
 sort	805477		Description	de826767452f	|cffff7f7fGénère 50 points de Chaleur|r\r\nVous entoure d'un bouclier de magma et de feu qui absorbe ${$m1+$SP*3} points de dégâts. Dure $d.\r\n\r\nTant que le bouclier est actif, votre résistance aux mécaniques de dissipation est augmentée de $s3%.	lot talents_031
 sort	805483		Description	da1f818b8f9a	Augmente de $s1% les chances de coup critique et les dégâts de |cffffffffÉclat de lave|r.	lot talents_031
@@ -108,10 +108,10 @@ sort	805550		Description	b4c794c001fa	|cff66ccffConsomme les Étoiles éparpill�
 sort	805550		Name	7f2caa605ce8	Balayage stellaire	lot talents_031
 sort	805552		Description	09de9afde12b	Augmente votre Esprit de $s1%.	lot talents_031
 sort	805552		Name	0c7de398b895	Esprit brûlant	lot talents_031
-sort	805563		Description	02eb6ed3c331	|cffffffffDrains $805564s1% Maximum Mana|r\r\nFrappe un ennemi avec précision, infligeant ${($m1+$POWER1*0.1)+$SP*1+$AP*1} points de dégâts des Arcanes, augmentés selon votre mana maximum.\r\n\r\nAugmente de $s2% les dégâts que vous infligez à l'ennemi pendant $d.	lot talents_031
+sort	805563		Description	02eb6ed3c331	|cffffffffAbsorbe $805564s1% du mana maximum|r\r\nFrappe un ennemi avec précision, infligeant ${($m1+$POWER1*0.1)+$SP*1+$AP*1} points de dégâts des Arcanes, augmentés selon votre mana maximum.\r\n\r\nAugmente de $s2% les dégâts que vous infligez à l'ennemi pendant $d.	lot talents_031 | relu par l'API (relecture 0.9.5) : L'en-tête en couleur était resté en anglais (Drains … Maximum Mana) ; « drains » rendu par « Absorbe », sens : consomme du mana maximum.
 sort	805563		Name	a8428d9013c3	Lame astrale	lot talents_031
 sort	805563		ToolTip	5de7be62e3a8	Vous subissez ${$w2}% de dégâts supplémentaires de la part du Mande-étoiles.	lot talents_031
-sort	805572		Description	588541101fee	|cffcfa6ffGénère 10 points de Folie|r\r\nDéchaîne un rayon d'énergie surnaturelle qui inflige ${$m1+0+$sps*.65} points de dégâts d'Ombre à un ennemi et à tous les ennemis proches.\r\n\r\nTant que vous avez plus de 60 points de |cffcfa6ffFolie|r, inflige $573315s2% de dégâts supplémentaires.	lot talents_031
+sort	805572		Description	588541101fee	|cffcfa6ffGénère 10 points de Folie|r\r\nDéchaîne un rayon d'énergie surnaturelle qui inflige ${$m1+0+$sps*.65} points de dégâts d'Ombre à un ennemi et à tous les ennemis proches.\r\n\r\nTant que vous avez plus de 60 points de |cffcfa6ffFolie|r, inflige $573315s2% de dégâts supplémentaires.	lot talents_031 | relu par l'API (relecture 0.9.5) : « Insanité » au lieu de « Folie » (décision 20)
 sort	805572		Name	700b93e8e2e8	Rayon d'oblitération	lot talents_031
 sort	805581		Description	783cb8861498	|cffffffffAccomplir|R un |cFFFFFFFFVœu|r réduit désormais de $/1000;807445s1 sec le temps de recharge de |CffffffffDéflagration d'Horusath|r.	lot talents_031
 sort	805581		Name	ab46d234a26e	Épreuve de vaillance	lot talents_031
@@ -121,7 +121,7 @@ sort	805583		Name	608ca64f7408	Éblouissement	lot talents_031
 sort	805587		Description	4416bbfec962	|cFF66DDFFPassif de niveau 50|r\r\n|cffffffffHéritage d'Aile de mort|r augmente désormais aussi de $s1% les dégâts de votre prochain |cffffffffGueule du Destructeur|r ou |CffffffffFirefall|r.	lot talents_031
 sort	805587		Name	5531a85ab321	Résurgence du Vol noir	lot talents_031
 sort	805587		ToolTip	da4a4ec94545	Augmente de ${$w2} mètres la portée de |cffffffffPas de flamme|r et réduit son temps de recharge de $/1000;707106S1 sec pour chaque |cffffffffCharge de souffle|r que vous déchaînez.	lot talents_031
-sort	805591		Description	29a6d5529cbf	|cFF66DDFFPassif de niveau 30|r\r\nLes dégâts périodiques infligés ont désormais $h% de chances d'appliquer une |cffffffffPlaie de sang|r à votre cible pendant $805592d, cumulable $805592u fois.\r\n\r\n@s:805592:0@	lot talents_031
+sort	805591		Description	29a6d5529cbf	|cFF66DDFFPassif de niveau 30|r\r\nLes dégâts périodiques infligés ont désormais $h% de chances d'appliquer une |cffffffffPlaie de sang|r à votre cible pendant $805592d, cumulable $805592u fois.\r\n\r\n@s:805592:0@	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Plaie de sang », pas « Meurtrissure sanglante »
 sort	805591		Name	e2bc51f97dfa	Plaies de sang	lot talents_031
 sort	805607		Description	a5ce003bcf16	|cFF66DDFFPassif de niveau 20|r\r\nAugmente de $s3% les soins prodigués par |cffffffffGuérison surnaturelle|r et de $807701s1% ceux de |cffffffffRegard de C'Thun|r.\r\n\r\nDe plus, vous ne pouvez désormais plus rater vos attaques et elles ne peuvent être ni parées ni esquivées.	lot talents_031
 sort	805607		Name	146fb93b6e72	Entraînement à l'Ombre	lot talents_031
@@ -130,16 +130,16 @@ sort	805628		Name	a9a43239f5d5	Fanatisme	lot talents_031
 sort	805629		Description	60f60a381548	Frappe un ennemi toutes les $t1 sec avec la puissance du soleil, infligeant ${$m1+0+$AP*0.159426} points de dégâts du Sacré et l'étourdissant pendant $807872d. Dure $d.\r\n\r\nUtilisable uniquement tant que |cFFFF9800Aube|r est active. Utilisable en mouvement.	lot talents_031
 sort	805629		Name	eda882d5e58b	Heurt solaire	lot talents_031
 sort	805629		ToolTip	781f1a49a26c	Vos attaques de mêlée augmentent de ${$w1}% vos dégâts infligés, cumulable $805639u fois. Vitesse d'attaque augmentée de ${$w2}%. Immunisé contre les ralentissements.	lot talents_031
-sort	805643		Description	86d7ee05a4cf	Éviter une attaque confère une charge de |cffffffffDéplace-montagnes|r pendant $805644d, cumulable $805644u fois.\r\n\r\n|cffffffffGriffe sauvage|r consomme les charges de |cffffffffDéplace-montagnes|r pour coûter $805644s1% de Rage en moins et infliger $805644s3% de dégâts supplémentaires par charge.	lot talents_031
-sort	805643		Name	8d0d2ef1e1c1	Déplace-montagnes	lot talents_031
-sort	805643		ToolTip	bd6548b0aa42	Éviter une attaque confère une charge de |cffffffffDéplace-montagnes|r pendant $805644d, cumulable $805644u fois.\r\n\r\n|cffffffffGriffe sauvage|r consomme les charges de |cffffffffDéplace-montagnes|r pour coûter $805644s1% de Rage en moins par charge.	lot talents_031
+sort	805643		Description	86d7ee05a4cf	Éviter une attaque confère une charge de |cffffffffDéplaceur de montagnes|r pendant $805644d, cumulable $805644u fois.\r\n\r\n|cffffffffGriffe sauvage|r consomme les charges de |cffffffffDéplaceur de montagnes|r pour coûter $805644s1% de Rage en moins et infliger $805644s3% de dégâts supplémentaires par charge.	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni.
+sort	805643		Name	8d0d2ef1e1c1	Déplaceur de montagnes	lot talents_031 | relu par l'API (relecture 0.9.5) : Le nom du sort doit être le même partout (noms_de_sorts_cites : Déplaceur de montagnes).
+sort	805643		ToolTip	bd6548b0aa42	Éviter une attaque confère une charge de |cffffffffDéplaceur de montagnes|r pendant $805644d, cumulable $805644u fois.\r\n\r\n|cffffffffGriffe sauvage|r consomme les charges de |cffffffffDéplaceur de montagnes|r pour coûter $805644s1% de Rage en moins par charge.	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni.
 sort	805647		Description	a21ce75ca7e5	Votre |cFFFFFFFFExécution glorieuse|r a désormais $h% de chances de frapper 1 fois de plus.	lot talents_031
 sort	805647		Name	1f3b7d850fbf	Chevalier de l'aube	lot talents_031
 sort	805649		Description	d1694ae40c20	Vos sorts de |cff90ee90Commandement|r ont désormais $h% de chances de rembourser une partie de leur coût en puissance runique.	lot talents_031
 sort	805649		Name	4f97c3d442e8	Relever le Kirin Tor	lot talents_031
 sort	805669		Description	5409f920ffe7	Libérez votre démon intérieur : génère instantanément 6 charges de |cffff9933Feu démoniaque|r et $/10;s2 points de Rage.	lot talents_031
 sort	805669		Name	a60daf611dbc	Cœur de démon	lot talents_031
-sort	805671		ToolTip	66298f671688	Dégâts subis de Calamity augmentés de ${$w2}%.	lot talents_031
+sort	805671		ToolTip	66298f671688	Dégâts subis de Calamité augmentés de ${$w2}%.	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom du sort Calamity resté en anglais alors que le français existe (Calamité, sort 805670).
 sort	805674		Description	4745bffa87e5	Lancer des sorts |cffffffffAnimation|r ou |cff90ee90Commandement|r augmente désormais votre hâte de $805786s1% pendant $805786d, cumulable $805786u fois.	lot talents_031
 sort	805674		Name	bbf829448ab9	Fureur stupide	lot talents_031
 sort	805675		Description	752bee2a18e7	Votre |cffffffffVirulence|r applique désormais |cFFFFFFFFFétichiste de la pourriture|r pendant $573223d, ce qui vous fait répliquer 20% de vos dégâts périodiques infligés sous forme de dégâts directs.	lot talents_031
@@ -156,7 +156,7 @@ sort	805693		Description	f7626c75f32b	Lancer |cffffffffPreneur de crânes|r avec
 sort	805693		Name	6b4367b1bb27	Acier infernal	lot talents_031
 sort	805695		Description	f2f09b244aeb	Augmente de $s1% les dégâts d'|cFFFFFFFFEncorner|r, de |cffffffffFrappe infernale|r et de $?s800710[|cffffffffGourdin de soufre|r][|cffffffffSectionner|r].	lot talents_031
 sort	805695		Name	6f615ccaaacf	Mutilation	lot talents_031
-sort	805696		Description	cfc5a201177f	Vous fait entrer dans votre |cffffffffForme gouffre-feu|r, ce qui augmente de $s1% vos dégâts de Feu infligés et de $s2% vos chances de coup critique de Feu pendant $d.	lot talents_031
+sort	805696		Description	cfc5a201177f	Entrez dans votre |cffffffffForme gouffre-feu|r : vos dégâts de Feu infligés augmentent de $s1% et vos chances de coup critique de Feu de $s2% pendant $d.	lot talents_031 | relu par l'API (relecture 0.9.5) : « Vous fait entrer » était agrammatical.
 sort	805696		Name	d6b7c32b4b18	Forme gouffre-feu	lot talents_031
 sort	805696		ToolTip	1e9a659dc5e3	Dégâts de Feu infligés augmentés de ${$w1}%. Chances de coup critique de Feu augmentées de ${$w2}%.	lot talents_031
 sort	805697		Description	1a2f611ceefa	Augmente de $s1% vos dégâts critiques contre les cibles |cffff4500En feu|r.	lot talents_031
@@ -182,15 +182,15 @@ sort	805724		Description	041670304ad8	Lancer |cffffffffThaumaturgie|r vous conf�
 sort	805724		Name	cbf38f3939a1	Ruée phasique	lot talents_031
 sort	805726		Description	28ad7889434d	Augmente de $s1 mètres la portée de |cffffffffCryomarque|r.	lot talents_031
 sort	805726		Name	ecc0a9b231dc	Cryomagie	lot talents_031
-sort	805727		Description	5a51949d3bf9	Utiliser |cffffffffDécharge élémentaire|r ou |cffffffffDéflagration primordiale|r tant que |cffffffffGlyphe de flammes|r est actif vous confère désormais |cffffffffGlyphe arcanique|r.@s:520092:0@\r\n\r\n@ext: Glyphs can be unleashed by |cFFFFFFFFGlyphic Ruin|r or |cFFFFFFFFThaumaturgy|r.:ext@	lot talents_031
+sort	805727		Description	5a51949d3bf9	Utiliser |cffffffffExplosion élémentaire|r ou |cffffffffDéflagration primordiale|r tant que |cffffffffGlyphe de flammes|r est actif vous confère désormais |cffffffffGlyphe arcanique|r.@s:520092:0@\r\n\r\n@ext: Les glyphes peuvent être déchaînés par |cFFFFFFFFRuine glyphique|r ou |cFFFFFFFFThaumaturgie|r.:ext@	lot talents_031 | relu par l'API (relecture 0.9.5) : Noms de sorts cités à aligner sur les noms fournis : « Explosion élémentaire » et « Glyphe de flammes ».
 sort	805727		Name	937fce698cee	Glyphe arcanique	lot talents_031
-sort	805738		Description	e72630ff143d	Vous arme contre le mal, réinitialisant le temps de recharge de tous les |cffffffffPièges|r et de |cFFFFFFFFDécimer|r, et faisant que vos |cffffffffPièges|r n'ont pas de temps de recharge pendant la durée. Dure $d.	lot talents_031
+sort	805738		Description	e72630ff143d	Vous arme contre le mal, réinitialisant le temps de recharge de tous les |cffffffffPièges|r et de |cFFFFFFFFDécimation|r, et faisant que vos |cffffffffPièges|r n'ont pas de temps de recharge pendant la durée. Dure $d.	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Décimation » et non « Décimer ».
 sort	805738		Name	b6bf285c2aee	Réarmement	lot talents_031
-sort	805743		Description	3db41d3ae024	Les dégâts infligés par |cffffffffGravure d'arme : Terre|r ont désormais $h% de chances de lancer |CffffffffVapeur sauvage|r. Ne peut se produire qu'une fois toutes les 3 sec.@s:803737:0@	lot talents_031
+sort	805743		Description	3db41d3ae024	Les dégâts infligés par |cffffffffGravure d'arme : Terre|r ont désormais $h% de chances de lancer |CffffffffVapeur sauvage|r. Ne peut se produire qu'une fois toutes les 3 sec.@s:803737:0@	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Terre » avec majuscule, comme le nom français fourni.
 sort	805743		Name	6240cec46844	Conjurateur de vapeur	lot talents_031
-sort	805750		Description	d85d61ad6d10	Votre |cffffffffGravure d'arme : Air|r frappera désormais 2 ennemis supplémentaires proches de sa cible.	lot talents_031
+sort	805750		Description	d85d61ad6d10	Votre |cffffffffGravure d'arme : Air|r frappera désormais 2 ennemis supplémentaires proches de sa cible.	lot talents_031 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Air » avec majuscule, comme le nom français fourni.
 sort	805750		Name	ce25bab3c074	Déferlante de vent	lot talents_031
-sort	805751		Description	ec350b2a44dd	Tournoie sur vous-même pendant $d, tirant sur les ennemis proches pour $805753s2% des dégâts de l'arme à distance plus ${$cond($gt($sps, $sph), $805753m1+$805753ppl1+$sps*.2+$RAP*.1, $805753m1+$805753ppl1+$sph*.2+$RAP*.1)} points de dégâts du Crépuscule.\r\n\r\nVous pouvez esquiver, parer et vous déplacer tant que l'effet est actif.	lot talents_031
+sort	805751		Description	ec350b2a44dd	Vous tournoyez sur vous-même pendant $d, tirant sur les ennemis proches pour $805753s2% des dégâts de l'arme à distance plus ${$cond($gt($sps, $sph), $805753m1+$805753ppl1+$sps*.2+$RAP*.1, $805753m1+$805753ppl1+$sph*.2+$RAP*.1)} points de dégâts du Crépuscule.\r\n\r\nVous pouvez esquiver, parer et vous déplacer tant que l'effet est actif.	lot talents_031 | relu par l'API (relecture 0.9.5) : Accord avec le vouvoiement du reste du texte (« Tournoie » était à la 3e personne).
 sort	805751		Name	c39a3a009dc8	Frénésie crépusculaire	lot talents_031
 sort	805751		ToolTip	20ca86201445	Vitesse de déplacement réduite de ${$w2}%. Tire des carreaux d'arbalète sur les ennemis proches.	lot talents_031
 sort	805754		Description	67980bd1147e	Charge un puissant carreau qui inflige $s2% des dégâts de l'arme à distance plus ${$m1+0+$RAP*0.5+$sps*0.3} à un ennemi et réduit de $807316s1% les soins qu'il reçoit pendant $807316d.\r\n\r\nGénère de la Rage selon les dégâts infligés.	lot talents_031
@@ -201,7 +201,7 @@ sort	805756		ToolTip	6306bd3a658a	Impossible de cibler vers l'intérieur ou l'ex
 sort	805758		Description	e59e7d87499d	|cFF66DDFFPassif de niveau 50|r\r\nVotre |cffffffffTourmenteur|R peut désormais infliger des coups critiques.	lot talents_031
 sort	805758		Name	5752e8473cc4	Tourmenter les tourmentés	lot talents_031
 sort	805767		Description	a5c3ad5efda3	|cffffffffFrénésie crépusculaire|r vous confère désormais une réduction de $805766s1% des dégâts subis tant qu'elle est active.	lot talents_031
-sort	805767		Name	98e057c7bea1	Insaisissable	lot talents_031
+sort	805767		Name	98e057c7bea1	Évasif	lot talents_031 | relu par l'API (relecture 0.9.5) : Majuscule accentuée obligatoire.
 sort	805770		Description	3e87ed9165c9	Vous fait entrer dans un puissant mode furtif pendant $d, vous immunisant contre tous les effets magiques nuisibles.\n\r\nUtilisable uniquement pendant $805771d après avoir subi un coup critique magique. Utilisable étourdi ou apeuré.	lot talents_031
 sort	805770		Name	4d00f7b17f27	Voile ensorcelé	lot talents_031
 sort	805770		ToolTip	d6584d456544	Camouflage amélioré. Immunisé contre la magie.	lot talents_031

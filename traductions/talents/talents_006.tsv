@@ -661,7 +661,7 @@ sort	800081		Name	04524a3a13b8	Fouet-chaîne	lot talents_006
 sort	800172		Name	a17499c3e839	Déchirure funeste	lot talents_006
 sort	800446		Description	ce555f53d9d6	|cffcfa6ffGénère 10 points de Folie|r\r\nFlétrit un ennemi, ce qui lui inflige $o1 points de dégâts d'Ombre en $d. Chaque occurrence de dégâts réduit les soins périodiques qu'il reçoit de $706913s1%, cumulable jusqu'à $?s301317[8][$706913u] fois.	lot talents_006
 sort	800446		ToolTip	c0c9a4f503d6	Inflige ${$w1} points de dégâts d'Ombre toutes les $t1 sec. Chaque effet périodique réduit les soins périodiques reçus.	lot talents_006
-sort	800505		Description	941a7325bcc4	Fonce en avant, les pieds enveloppés de magie astrale, ce qui augmente votre vitesse de déplacement de $s1% pendant $d. \r\n\r\nTant que l'effet est actif, vous ne pouvez pas être $gralenti:ralentie; et ne pouvez pas vous arrêter.	lot talents_006
+sort	800505		Description	941a7325bcc4	Fonce en avant, les pieds enveloppés de magie astrale, ce qui augmente votre vitesse de déplacement de $s1% pendant $d. \r\n\r\nTant que l'effet est actif, vous ne pouvez pas être ralenti$gralenti:ralentie; et ne pouvez pas vous arrêter.	lot talents_006 | relu par l'API (relecture 0.9.5) : Variante $g mal formée : le masculin doit précéder le féminin, sans doubler le mot.
 sort	800505		Name	9b62d709d134	Étoile filante	lot talents_006
 sort	800505		ToolTip	29691c82a07a	Vitesse de déplacement augmentée de ${$w1}%. Impossible de s'arrêter.	lot talents_006
 sort	800654		Description	d7ac09d67f64	Fait rayonner de votre bouclier une lumière sacrée sur les ennemis devant vous, ce qui inflige ${$m1+0+$SP*0.25+$AP*0.1} points de dégâts de Feu-sacré, selon votre valeur de blocage.	lot talents_006
@@ -669,14 +669,14 @@ sort	800654		Name	c1f15d9bb1ed	Aube naissante	lot talents_006
 sort	800791		Description	9ac244033023	|cffff7f7fGénère 10 points de Chaleur par effet périodique|r\r\nFait brûler un ennemi, ce qui lui inflige $o points de dégâts de Feu en $d. Si |cffffffffEnflammer|r est dissipé, il inflige ${$803455m2+$spfi*1.5} points de dégâts de Feu à celui qui le dissipe.\r\n\r\nPeut être lancé en mouvement.	lot talents_006
 sort	800791		Name	82c1c8128723	Enflammer	lot talents_006
 sort	800871		Name	be03b957213f	Fond-visage	lot talents_006
-sort	800871		ToolTip	00a65280062d	${$w2} points de dégâts de Nature toutes les $t2 sec.	lot talents_006
+sort	800871		ToolTip	00a65280062d	Subit ${$w2} points de dégâts de Nature toutes les $t2 sec.	lot talents_006 | relu par l'API (relecture 0.9.5) : Oubli du verbe « Taking » (subit).
 sort	800882		Description	5cc436c67aca	|cff66ff66Applique 1 Marque de la couvée|r\r\nPique un ennemi, ce qui lui inflige ${$m2+0+$sps*0.25} points de dégâts d'Ombre, plus ${($d*1000/$T1)*($m1+0+$sps*.1)} supplémentaires en $d. Cumulable jusqu'à $u fois.	lot talents_006
 sort	800882		Name	f5831e3a8b4e	Dard nérubien	lot talents_006
 sort	800887		Description	66ac70eeae58	Projette des toiles sur tous les ennemis derrière vous, ce qui les immobilise pendant $d et leur inflige ${$m1+0+$spn*0.4} points de dégâts de Nature.	lot talents_006
 sort	800887		Name	51fe8ff5dd0c	Entrave soyeuse	lot talents_006
 sort	800887		ToolTip	248aafb4ed7e	Immobilisé.	lot talents_006
 sort	800899		Name	f7fb8f63f10e	Brume guérisseuse	lot talents_006
-sort	800901		Description	252950ae8eaf	Enveloppe un allié d'un baume réparateur, ce qui lui rend ${$m1+0+$BH*0.251685} points de vie toutes les $t1 sec. pendant $d.	lot talents_006
+sort	800901		Description	252950ae8eaf	Enveloppe un allié d'un baume réparateur, ce qui lui rend ${$m1+0+$BH*0.251685} points de vie toutes les $t1 sec pendant $d.	lot talents_006 | relu par l'API (relecture 0.9.5) : Point superflu après « sec » (la variable $d suit directement, comme ailleurs).
 sort	800901		Name	1f4fe951722c	Baume de Shadra	lot talents_006
 sort	800901		ToolTip	70d4d5bbf578	Rend ${$w1} points de vie toutes les $t1 sec.	lot talents_006
 sort	801087		Description	f1c964064734	Embrase votre lame et frappe un ennemi, ce qui inflige $s3% des dégâts de l'arme plus ${$m1+0} points de dégâts de Feu.	lot talents_006
@@ -714,7 +714,7 @@ sort	803917		Name	9b62d709d134	Étoile filante	lot talents_006
 sort	803917		ToolTip	29691c82a07a	Vitesse de déplacement augmentée de ${$w1}%. Impossible de s'arrêter.	lot talents_006
 sort	803992		Description	6fb3e7cd5c92	|cFF5ee2ffGénère 1 Âme moissonnée|r\r\nDéchaîne une vague d'âmes sur les ennemis dans un cône de $a1 mètres, ce qui inflige $s2% des dégâts de l'arme plus $s1 points de dégâts de Givre.	lot talents_006
 sort	803992		Name	38c8c81a3dbd	Sillage d'effroi	lot talents_006
-sort	804137		Description	129adefb859f	Projette une lance légère sur un ennemi, ce qui inflige $s2% des dégâts de l'arme à distance plus ${$m1+0} et vous rend $706816s2% de votre maximum d'énergie.\r\n\r\n@ext:Shares a cooldown with other |cffffffffSpears|r.:ext@	lot talents_006
+sort	804137		Description	129adefb859f	Projette une lance légère sur un ennemi, ce qui inflige $s2% des dégâts de l'arme à distance plus ${$m1+0} et vous rend $706816s2% de votre maximum d'énergie.\r\n\r\n@ext:Partage un temps de recharge avec les autres |cffffffffSpears|r.:ext@	lot talents_006 | relu par l'API (relecture 0.9.5) : Le nom cité « Spears » est déjà employé tel quel (Spears) selon noms_de_sorts_cites ; à aligner.
 sort	804137		Name	5a8e9a9d64a5	Lance du chasseur de têtes	lot talents_006
 sort	804138		Description	13cad2b62f32	|cffffffffNécessite d'être $genragé:enragée;|r\r\n|cffffffff3 charges, recharge de 8 sec.|r\r\nLance deux haches sur un ennemi, chacune infligeant ${$m1+0+$RAP*.4} points de dégâts physiques et réduisant son armure de $561020s1% pendant $561020d, cumulable jusqu'à $561020u fois.	lot talents_006
 sort	804138		Name	2ac3168f2918	Hache du berserker	lot talents_006

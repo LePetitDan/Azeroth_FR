@@ -1,0 +1,219 @@
+# Fiche de test : Rôdeur
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Tir à l'arc
+
+- [ ] **Escarmoucheur** (Spécialisation) — capacité, sort n° 92115
+- [ ] **Tir puissant** — capacité, sort n° 500070
+- [ ] **Flèche neurotoxique** — capacité, sort n° 500071
+- [ ] **Barrage rapide** (Obsolète) — capacité, sort n° 500072
+- [ ] **Tir dentelé** (Rang 1) — capacité, sort n° 500073
+- [ ] **Tir réflexe** (Rang 1) — capacité, sort n° 500074
+- [ ] **Tir de précision** (Rang 1) — capacité, sort n° 500075
+- [ ] **Monstruosité gangrenée** (Aura de spécialisation) — capacité, sort n° 500076
+- [ ] **Carquois ardent** — capacité, sort n° 500103 🔍 MAJ
+- [ ] **Déplacement** (Passif) — capacité, sort n° 704309
+- [ ] **Vif d'esprit** (Passif) — capacité, sort n° 704311
+- [ ] **Archerie nouvelle vague** (Passif) — capacité, sort n° 704312
+- [ ] **Bottes elfiques** (Passif) — capacité, sort n° 704317
+- [ ] **Précision mortelle** (Passif) — capacité, sort n° 704319
+- [ ] **Ruse mortelle** (Passif) — capacité, sort n° 704320
+- [ ] **Carquois empoisonné** — capacité, sort n° 800260 🔍 MAJ
+- [ ] **Carquois de lumière** — capacité, sort n° 800261 🔍 MAJ
+- [ ] **Carquois de chasse** — capacité, sort n° 800262 🔍 MAJ
+- [ ] **Œil-de-faucon** (Passif) — capacité, sort n° 800358
+- [ ] **Coupe-gorge** — capacité, sort n° 800359
+- [ ] **Carquois d'escarmoucheur** — capacité, sort n° 801069 🔍 MAJ
+- [ ] **Tir de chasse** (Rang 1) — capacité, sort n° 801191
+- [ ] **Précision chirurgicale** (Passif) — capacité, sort n° 801468
+- [ ] **Assaut** — capacité, sort n° 801951
+- [ ] **Perce-crâne** (Rang 1) — capacité, sort n° 802036
+- [ ] **Escarmouche** — capacité, sort n° 802039
+- [ ] **Navigation de compagnon** — capacité, sort n° 803107
+- [ ] **Graine explosive** (Rang 1) — capacité, sort n° 804027
+- [ ] **Carreaux de baliste** — capacité, sort n° 804176
+- [ ] **Frapper là où ça fait mal** (Passif) — capacité, sort n° 804178
+- [ ] **Aventurier** (Deprecated) — capacité, sort n° 804331
+- [ ] **En chasse** — capacité, sort n° 804708
+- [ ] **À l'affût** — capacité, sort n° 804709
+- [ ] **Opportuniste** (Passif) — capacité, sort n° 804710
+- [ ] **Tir handicapant** — capacité, sort n° 804725
+- [ ] **Adaptation : Pérégrin** (Adaptation) — capacité, sort n° 805736
+- [ ] **Prouesse au combat** (Passif) — capacité, sort n° 805888
+- [ ] **Œil de lynx** (Passif) — talent, sort n° 300700
+- [ ] **Flèches cloutées** (Rang 1) — talent, sort n° 300706
+- [ ] **Ne faire qu'un avec la forêt** — talent, sort n° 300707
+- [ ] **Préparatifs** (Rang 1) — talent, sort n° 300708
+- [ ] **Préchargé** (Passif) — talent, sort n° 300709
+- [ ] **Navigateur expert** (Obsolète) — talent, sort n° 300710
+- [ ] **Précision supérieure** (Passif) — talent, sort n° 705024
+- [ ] **Sans effort** (Passif) — talent, sort n° 705025
+- [ ] **Campeur** (Passif) — talent, sort n° 705026
+- [ ] **Tir véloce** (Passif) — talent, sort n° 705028
+- [ ] **Tirs encore plus rapides** (Rang 1) — talent, sort n° 705030
+- [ ] **Pas redoublé** (Passif) — talent, sort n° 705031
+- [ ] **Tirs dévastateurs** (Rang 1) — talent, sort n° 705032
+- [ ] **Transpercé** (Passif) — talent, sort n° 705033
+- [ ] **Carquois elfiques** (Rang 2) — talent, sort n° 706278
+- [ ] **Feu de grêle** (Passif) — talent, sort n° 706283
+
+## Duel
+
+- [ ] **Ravageur** (Passif) — capacité, sort n° 92116
+- [ ] **Essaimeur** (Passif) — capacité, sort n° 704528
+- [ ] **Poison atroce** (Passif) — capacité, sort n° 704544
+- [ ] **Piquants barbelés** (Passif) — capacité, sort n° 800077
+- [ ] **Poison du bois profond** (Passif) — capacité, sort n° 800079
+- [ ] **Piquants barbelés** (Passif) — capacité, sort n° 800080
+- [ ] **Frappe sauvage** (Rang 1) — capacité, sort n° 800083 🔀 talents
+- [ ] **Voile de ronces** — capacité, sort n° 800084
+- [ ] **Repositionnement** (Obsolète) — capacité, sort n° 800085
+- [ ] **Adaptation : Brigand** — capacité, sort n° 800089
+- [ ] **Poison atroce** — capacité, sort n° 800090
+- [ ] **Ravage (UNUSED)** (Rang 1) — capacité, sort n° 800091 🔀 talents
+- [ ] **Adaptation du sylvain** (Rang 1) — capacité, sort n° 800266
+- [ ] **Harponnage** (Rang 1) — capacité, sort n° 800360
+- [ ] **Instinct** — capacité, sort n° 801434
+- [ ] **Mise KO** — capacité, sort n° 801435 🔀 talents
+- [ ] **Jeux de dés** (Passif) — capacité, sort n° 801438
+- [ ] **Gambit du rôdeur** — capacité, sort n° 803103
+- [ ] **Morsure de la vipère** — capacité, sort n° 803104
+- [ ] **Assaut** (Rang 1) — capacité, sort n° 803108
+- [ ] **Duel** — capacité, sort n° 803110
+- [ ] **Tournoiement de lames** — capacité, sort n° 803112
+- [ ] **Entraînement du pavillon de précision** (Rang 1) — capacité, sort n° 803113
+- [ ] **Chasseur de primes** (Passif) — capacité, sort n° 803114
+- [ ] **Arracher l'arme** — capacité, sort n° 803115
+- [ ] **Lame venimeuse** (Rang 1) — capacité, sort n° 803116
+- [ ] **Tueuse-de-bête** — capacité, sort n° 803117
+- [ ] **Guet-apens** — capacité, sort n° 804936
+- [ ] **Adaptation : Fier-à-bras** — capacité, sort n° 804937
+- [ ] **Déflagration de canon** — capacité, sort n° 804938
+- [ ] **Excessif mais nécessaire** (Passif) — capacité, sort n° 804939
+- [ ] **Prise de flanc** (Rang 1) — capacité, sort n° 804940
+- [ ] **Ruse du rôdeur** (Passif) — capacité, sort n° 804941
+- [ ] **Jets sournois** (Passif) — capacité, sort n° 804942
+- [ ] **Fil sanglant** (Passif) — talent, sort n° 300460
+- [ ] **Reste à Ruisselune** — talent, sort n° 300701
+- [ ] **Pillard** (Passif) — talent, sort n° 300702
+- [ ] **Poison corrosif** (Passif) — talent, sort n° 300703
+- [ ] **Escrime** — talent, sort n° 300705
+- [ ] **Personnage insaisissable** (Déclenchement) — talent, sort n° 705046
+- [ ] **Massue** (Passif) — talent, sort n° 705047
+- [ ] **Lame nocturne** (Passif) — talent, sort n° 705049
+- [ ] **Dentelures** (Rang 1) — talent, sort n° 705050
+- [ ] **Enchaînement** (Obsolète) — talent, sort n° 705052
+- [ ] **Guet-apens** (Passif) — talent, sort n° 705053
+- [ ] **Brute** (Passif) — talent, sort n° 705060 🔍 MAJ
+- [ ] **Sournoiserie** (Rang 1) — talent, sort n° 705061
+- [ ] **Bandit de grand chemin** (Passif) — talent, sort n° 705062
+- [ ] **Bandit de grand chemin** (Déclencheur) — talent, sort n° 705063
+- [ ] **Bandit de grand chemin** (Rang 3 inutilisé) — talent, sort n° 705064
+- [ ] **Pied léger** — talent, sort n° 705066
+- [ ] **Éclaireur** (Passif) — talent, sort n° 706284
+
+## Survie
+
+- [ ] **Tir automatique** — capacité, sort n° 75 🔀 talents
+- [ ] **Parade** (Rang 1) — capacité, sort n° 3124
+- [ ] **Arbalètes** — capacité, sort n° 5011
+- [ ] **Fleurs de rêve** (Spécialisation) — capacité, sort n° 92117
+- [ ] **Escarmoucheur** (Passif de spécialisation) — capacité, sort n° 500022
+- [ ] **Ravageur** (Passif de spécialisation) — capacité, sort n° 500024
+- [ ] **Rôdeur pérégrin** (obsolète) — capacité, sort n° 500027
+- [ ] **Éclaireur** — capacité, sort n° 500336
+- [ ] **Cor de guerre** — capacité, sort n° 800086 🔍 MAJ
+- [ ] **Cor de coordination du Rôdeur** — capacité, sort n° 800087 🔀 talents
+- [ ] **Cor de persévérance** — capacité, sort n° 800088 🔍 MAJ
+- [ ] **Héraut de la forêt** (Passif) — capacité, sort n° 800150 🔍 MAJ
+- [ ] **Rôdeur pérégrin** (Passif de spécialisation) — capacité, sort n° 800243
+- [ ] **Survie** — capacité, sort n° 800267
+- [ ] **Gourde** (Rang 1) — capacité, sort n° 800269
+- [ ] **Harnais de cavalier** — capacité, sort n° 800270
+- [ ] **Lire la carte** — capacité, sort n° 800272
+- [ ] **Corde nouée** — capacité, sort n° 800274
+- [ ] **Ranger's Horn-unused** (Rang 1) — capacité, sort n° 800278
+- [ ] **Pas en arrière** — capacité, sort n° 800685 🔀 talents
+- [ ] **Lancer de javelot** — capacité, sort n° 801081
+- [ ] **Dérobade** — capacité, sort n° 801345 🔀 talents
+- [ ] **Potion de survie** — capacité, sort n° 802839 🔀 talents
+- [ ] **Ordre du général des rôdeurs** — capacité, sort n° 803118
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Vole à la tire la cible ennemie.** — capacité, sort n° 804669
+- [ ] **Campement** — capacité, sort n° 804682
+- [ ] **Garde noire** — capacité, sort n° 804711
+- [ ] **Flèche d'émeraude** (Rang 1) — capacité, sort n° 804712
+- [ ] **Appel de l'épervier** — capacité, sort n° 804715 🔀 talents
+- [ ] **Clé de bois forestier** (Rang 1) — capacité, sort n° 804759
+- [ ] **Passif de tir dispersé** (Caché) — capacité, sort n° 805278
+- [ ] **Piqué du faucon** — capacité, sort n° 806341
+- [ ] **Flèche de vigne-fouet** — capacité, sort n° 806342
+- [ ] **Frappe du faucon** (Transformation) — capacité, sort n° 806345
+- [ ] **Cor d'endurance** — capacité, sort n° 806359 🔍 MAJ
+- [ ] **Cor d'alacrité** — capacité, sort n° 806360 🔍 MAJ
+- [ ] **Corne magique du rôdeur** (Obsolète) — capacité, sort n° 806361
+- [ ] **Fleurs de rêve** (Spécialisation) — capacité, sort n° 806365
+- [ ] **Flèche sylvestre** (Rang 1) — capacité, sort n° 806368
+- [ ] **Opportunité du Coursevent** — talent, sort n° 300462
+- [ ] **Bond du Coursevent** — talent, sort n° 300463
+- [ ] **Sonnez les cors !** (Rang 1) — talent, sort n° 300464
+- [ ] **Fauconnier de guerre** (Passif) — talent, sort n° 705067
+- [ ] **Assaut aérien** (Passif) — talent, sort n° 705068
+- [ ] **Hurlement de bataille** (Passif) — talent, sort n° 705069
+- [ ] **Plumes de guerre** (Passif) — talent, sort n° 705071
+- [ ] **Piquants rasoirs** (Passif) — talent, sort n° 705072
+- [ ] **Piquants rasoirs** — talent, sort n° 705073
+- [ ] **Plumes de phénix** (Passif) — talent, sort n° 705074
+- [ ] **Aide du faucon** (Passif) — talent, sort n° 705075
+- [ ] **Charmeur de faucons** — talent, sort n° 705076
+- [ ] **Commandement de Farstrider** (Passif) — talent, sort n° 705079
+- [ ] **Fleurs de rêve** (Passif de spécialisation) — talent, sort n° 705080
+- [ ] **Rallier les archers** (Passif) — talent, sort n° 705088
+- [ ] **Grappin-bombe amélioré** (Rang 1) — talent, sort n° 705090
+- [ ] **Grappin-bombe amélioré** (Rang 2) — talent, sort n° 705091
+- [ ] **Grâce** (Rang 1) — talent, sort n° 705092
+- [ ] **Défense des anciens** (Passif) — talent, sort n° 705094
+- [ ] **Danseur de guerre** — talent, sort n° 705096
+- [ ] **Danseur de guerre** — talent, sort n° 705097
+- [ ] **Ailier** (Passif) — talent, sort n° 705098
+- [ ] **Affinité** — talent, sort n° 705099
+- [ ] **Pression cinglante** (Passif) — talent, sort n° 705100
+- [ ] **Combattant des forêts** (Passif) — talent, sort n° 706282
+
+## Classe
+
+- [ ] **Chasseur de trésor** — capacité, sort n° 300459
+- [ ] **Tempête de flèches** (Passif) — capacité, sort n° 705038
+- [ ] **Promptitude** — capacité, sort n° 705041
+- [ ] **Contre-frappeur** (Passif) — capacité, sort n° 705042
+- [ ] **Combattant déloyal** (Passif) — capacité, sort n° 705044
+- [ ] **Morale chancelante** (Passif) — capacité, sort n° 705045 🔀 talents
+- [ ] **Enchantements elfiques** (Passif) — capacité, sort n° 705054
+- [ ] **Arc composite** (Rang 1) — capacité, sort n° 705057
+- [ ] **Empenneur élémentaire** (Passif) — capacité, sort n° 705058
+- [ ] **Coupe-gorge** (Passif) — capacité, sort n° 705065
+- [ ] **Agile** (Rang 1) — capacité, sort n° 705081 🔀 talents
+- [ ] **Œil perçant** (Passif) — capacité, sort n° 705082
+- [ ] **Vil** (Passif) — capacité, sort n° 705083
+- [ ] **Traqueur** — capacité, sort n° 705084
+- [ ] **Remuer le couteau dans la plaie** (Passif) — capacité, sort n° 705085
+- [ ] **Chapardage** (Passif) — capacité, sort n° 705087
+- [ ] **Hors-la-loi** (Rang 1) — capacité, sort n° 706276
+- [ ] **Hors-la-loi** (Passif) — capacité, sort n° 706277
+- [ ] **Maître archer** (Passif) — capacité, sort n° 706281
+- [ ] **Traqueur des bois** (Passif) — capacité de talent, sort n° 705034
+- [ ] **Précision meurtrière** — capacité de talent, sort n° 705035
+- [ ] **Entraînement au tir à l'arc** (Rang 1) — capacité de talent, sort n° 705036
+- [ ] **Entraînement au tir à l'arc** (Rang 2) — capacité de talent, sort n° 705037
+- [ ] **Entraînement à l'Endurance** (Passif) — capacité de talent, sort n° 705039
+- [ ] **Endurance** (Obsolète) — capacité de talent, sort n° 705040
+- [ ] **Blessures mortelles** (Passif) — capacité de talent, sort n° 705055
+- [ ] **Blessures mortelles** (Rang 2) — capacité de talent, sort n° 705056
+- [ ] **Commandant** (Passif) — capacité de talent, sort n° 705077
+- [ ] **Plumes de guerre** (Déclenchement) — capacité de talent, sort n° 705078
+- [ ] **Carquois durables** (Rang 1) — capacité de talent, sort n° 706279
+- [ ] **Carquois durables** (Rang 2) — capacité de talent, sort n° 706280

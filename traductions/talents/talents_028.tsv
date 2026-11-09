@@ -39,7 +39,7 @@ sort	802792		Description	7920572c6deb	Tente de briser la mâchoire d'un ennemi, 
 sort	802792		Name	1250f108cf1f	Brise-mâchoire	lot talents_028
 sort	802793		Description	afa7f1feb266	Piétinez le sol et déchaînez une vague de terre et de pierre sur une ligne de $a1 mètres, qui projette tous les ennemis sur le côté et inflige ${$cond($gt($spfi, $spn), $m1+0+$spfi*1, $m1+0+$spn*1)} points de dégâts de Feu, ignorant les effets d'absorption.\r\n\r\nVotre prochain sort dans les $803299d est instantané.	lot talents_028
 sort	802793		Name	8102e6002814	Fissure de magma	lot talents_028
-sort	802839		Description	32a31fb9c838	Buvez une potion de survie, dissipant tous les effets de poison et de maladie et retirant $704341s3 effet de poison et de maladie toutes les $t1 sec pendant $d.\r\n$?s504329[\r\nDe plus, vous rend $504328s1% de vos points de vie maximum à chaque tic.][]	lot talents_028
+sort	802839		Description	32a31fb9c838	Vous buvez une potion de survie, dissipant tous les effets de poison et de maladie et retirant $704341s3 effet de poison et de maladie toutes les $t1 sec pendant $d.\r\n$?s504329[\r\nDe plus, vous rend $504328s1% de vos points de vie maximum à chaque tic.][]	lot talents_028 | relu par l'API (relecture 0.9.5) : Pas de changement de sens nécessaire ; seul « vous rend » sans sujet est acceptable en infobulle.
 sort	802839		Name	a24823bf635e	Potion de survie	lot talents_028
 sort	802839		ToolTip	f8d68f4203b7	Retire $704341s3 effet de poison et de maladie toutes les $t1 sec.	lot talents_028
 sort	802870		Description	d7124fd198a7	Bondissez dans les airs, devenant insensible aux effets de contrôle, puis abattez-vous à une vitesse incroyable sur votre ennemi.\n\nÀ l'atterrissage, infligez $802874s1% des dégâts de l'arme aux ennemis dans la zone d'impact, plus ${($802874d*1000/$802874T3)*($802874m3+$802874ppl3+$AP*0.2575)} points de dégâts supplémentaires en $802874d, ignorant l'armure et les projetant dans les airs.	lot talents_028
@@ -52,13 +52,13 @@ sort	802935		Description	d79881a89def	Augmente de $s1% vos dégâts physiques in
 sort	802935		Name	3c750f206ec8	Lié au soleil	lot talents_028
 sort	802963		Description	f485fc3bec37	Augmente de $s1% les chances de coup critique de |cffffffffLancer de bombe|r et de |cffffffffDrone incendiaire|r.	lot talents_028
 sort	802963		Name	b074c5085079	L'heure du boum	lot talents_028
-sort	802986		Description	18fff52eacb7	Les dégâts infligés par vos serviteurs morts-vivants ont désormais $h% de chances de lancer |cFFFFFFFFHorde pestiférée|r sur eux-mêmes pendant $807653d et d'émettre |cffffffffPeste zombie|r, infligeant ${$504022m1*$<scalingbp>+$SP*0.1} points de dégâts de peste à leur cible.@s:807653:0@	lot talents_028
+sort	802986		Description	18fff52eacb7	Les dégâts infligés par vos serviteurs morts-vivants ont désormais $h% de chances de lancer |cFFFFFFFFHorde pestiférée|r sur eux-mêmes pendant $807653d et d'émettre |cffffffffPeste zombie|r, infligeant ${$504022m1*$<scalingbp>+$SP*0.1} points de dégâts de Peste à leur cible.@s:807653:0@	lot talents_028 | relu par l'API (relecture 0.9.5) : École de dégâts « Plague » : majuscule comme les autres écoles (Peste).
 sort	802986		Name	1c7c68e4139d	Horde pestiférée	lot talents_028
 sort	802988		Description	0849e90b63a6	Réduit de $s2% le temps d'incantation de |cffffffffGivre-liche|r et de $s1% le retard d'incantation subi en recevant des dégâts.	lot talents_028
 sort	802988		Name	379fd1966a8a	Essence de liche	lot talents_028
 sort	802990		Description	411a7947b39f	Augmente de $s1% la durée de vos maladies.	lot talents_028
 sort	802990		Name	1e9196200618	Nécrose	lot talents_028
-sort	803013		Description	fecc40fbfb52	|cffffffffGravure d'arme : Feu|r inflige désormais $s1% de dégâts supplémentaires aux ennemis |cff3399ffGelés|r.	lot talents_028
+sort	803013		Description	fecc40fbfb52	|cffffffffGravure d'arme : Feu|r inflige désormais $s1% de dégâts supplémentaires aux ennemis |cff3399ffgelés|r.	lot talents_028 | relu par l'API (relecture 0.9.5) : Accord : « ennemis gelés » (pluriel) ; le nom de sort Gelé est ici un état.
 sort	803013		Name	221372367397	Runes fondantes	lot talents_028
 sort	803018		Description	a51eac42ddec	Frappez un ennemi avec une fureur glacée, infligeant ${$m1+0+$AP*1.5} points de dégâts de Givre et brûlant ${$m3+0+$AP*.35} points de mana de la cible.\r\n\r\nLes dégâts infligés sont des coups critiques garantis contre les cibles gelées.	lot talents_028
 sort	803018		Name	0e9e354253d8	Fracture	lot talents_028
@@ -98,7 +98,7 @@ sort	803197		Description	c00966f984b3	Efface les charges de |cff66ff66Chair à v
 sort	803197		Name	21c235368cc0	Repousse d'exosquelette	lot talents_028
 sort	803210		Description	eb478cadeca3	Réduit de $s2% tous les dégâts subis, mais les dégâts subis ont désormais $h% de chances de briser votre exosquelette, supprimant cette réduction des dégâts.\r\n\r\nLorsque votre exosquelette se brise, vous régénérez $803211o2% de vos points de vie maximum en $803211d ; passé ce délai, votre exosquelette se régénère.	lot talents_028
 sort	803210		Name	017991cdac06	Propriétés régénérantes	lot talents_028
-sort	803210		ToolTip	3f6b533845a6	Réduit de ${$w2}% tous les dégâts que vous subissez. Les coups critiques contre vous brisent votre exosquelette, annulant cet effet pendant $803211d mais vous régénérant $803211o2% de vos points de vie maximum pendant cette durée.	lot talents_028
+sort	803210		ToolTip	3f6b533845a6	Réduit de ${$w2}% tous les dégâts que vous subissez. Les coups critiques subis brisent votre exosquelette, annulant cet effet pendant $803211d mais vous rendant $803211o2% de vos points de vie maximum pendant cette durée.	lot talents_028 | relu par l'API (relecture 0.9.5) : « vous régénérant » maladroit ; sens précisé.
 sort	803219		Description	218934a41187	Votre |cFFFFFFFFTestament d'espoir|r réduit désormais les dégâts subis de 5% supplémentaires par copie.	lot talents_028
 sort	803219		Name	6e82f7a6d848	Renonçant spirituel	lot talents_028
 sort	803236		Description	d596ca081ead	Augmente de $s1% les dégâts de votre |cFFFFFFFFLancer de bouclier crépusculaire|r, mais il ne rebondit plus.	lot talents_028
@@ -269,7 +269,7 @@ sort	803999		Description	b740e8577ed2	Obtenir |cff5ee2ffInfusion d'âme|r augmen
 sort	803999		Name	80f868a93b79	Emprise	lot talents_028
 sort	804004		Description	81825269a15e	Augmente considérablement la Puissance runique générée par |cffffffffTraque-mort|r.	lot talents_028
 sort	804004		Name	d044afc6a268	Manipulateur d'âmes	lot talents_028
-sort	804004		ToolTip	737d9b8b1528	Vos coups critiques non périodiques réduisent de $/1000;804005s1 sec le temps de recharge de votre capacité Endbringer.	lot talents_028
+sort	804004		ToolTip	737d9b8b1528	Vos coups critiques non périodiques réduisent de $/1000;804005s1 sec le temps de recharge de votre aptitude Endbringer.	lot talents_028 | relu par l'API (relecture 0.9.5) : Terme de jeu : « aptitude » (et non « capacité ») comme dans le reste des textes ; Endbringer est un nom de sort CoA resté en anglais.
 sort	804013		Description	6e26bf380b1f	Chaque fois qu'un |cffffffffDiablotin des Flammes infernales|r meurt, vous réduisez de $/1000;804012s1 sec le temps de recharge de |cffffffffCercle sacrificiel|r et de $/1000;804012s2 sec celui d'|cffffffffImplosion|r.	lot talents_028
 sort	804013		Name	cdeb16327aab	Rétribution ardente	lot talents_028
 sort	804013		ToolTip	6b406d5e8a52	Chaque fois qu'un |cffffffffDiablotin des Flammes infernales|r meurt, réduit de $/1000;804012s1 sec le temps de recharge de |cffffffffCran démoniaque|r.	lot talents_028
@@ -282,7 +282,7 @@ sort	804026		Name	bdbee5cf213d	Carreaux d'argent	lot talents_028
 sort	804027		Description	ba2f78a56bc7	Lancez une graine explosive sur un ennemi, lui infligeant ${$m1+0+$RAP*.3} points de dégâts physiques et le repoussant.	lot talents_028
 sort	804032		Description	bc55361d6fa1	Réduit de $/1000;s1 sec le temps de recharge des sorts |cffffffffInvocation solaire|r.	lot talents_028
 sort	804032		Name	afebb61310e7	Marteau béni	lot talents_028
-sort	804035		Description	49e838cce3b1	|cffcc99ffÉpuise 20 Statique|r\r\nExploitez les vents rapides, augmentant vos dégâts de $s3% et conférant à tous les joueurs alliés $s1% de hâte supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_028
+sort	804035		Description	49e838cce3b1	|cffcc99ffÉpuise 20 Statique|r\r\nExploitez les vents rapides, augmentant vos dégâts de $s3% et conférant à tous les joueurs alliés $s1% de hâte supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_028 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Épuise 20 Statique » est la forme fournie (noms_de_sorts_cites)
 sort	804035		Name	d9d7e3d08526	Vent arrière	lot talents_028
 sort	804038		Description	656b9268ed67	Réduit de $s1% le temps de recharge de votre |cFFFFFFFFExplosion nuageuse|r et de votre |cFFFFFFFFSurf des vents|r.	lot talents_028
 sort	804038		Name	2e2307d65d89	Enfant de la tempête	lot talents_028

@@ -1,0 +1,228 @@
+# Fiche de test : Primaliste
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Géomancie
+
+- [ ] **Bloquer** (Passif) — capacité, sort n° 107
+- [ ] **Mailles** — capacité, sort n° 8737
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Armes de pugilat** — capacité, sort n° 15590
+- [ ] **Façonnage de la terre** (Spécialisation) — capacité, sort n° 92149
+- [ ] **Mis en lambeaux** (Passif) — capacité, sort n° 500294
+- [ ] **Rage de la terre** — capacité, sort n° 500295
+- [ ] **Entraînement du bosquet** (Passif de spécialisation) — capacité, sort n° 500298
+- [ ] **Volonté d'émeraude** (Passif) — capacité, sort n° 500302
+- [ ] **Fracture instable** — capacité, sort n° 500303
+- [ ] **Avalanche de pierres** (Obsolète) — capacité, sort n° 500305
+- [ ] **Expulsion de la flétrissure - Revigorer le lanceur** — capacité, sort n° 500307
+- [ ] **Barrage de géodes** (Rang 1) — capacité, sort n° 500402
+- [ ] **Roche roulante** — capacité, sort n° 500692
+- [ ] **Main de Ragnaros** (Passif) — capacité, sort n° 704245
+- [ ] **Secousses du sol** — capacité, sort n° 704285
+- [ ] **Carapace de magma** — capacité, sort n° 704400
+- [ ] **Lavomancie** — capacité, sort n° 704401
+- [ ] **Ne faire qu'un avec la terre** (Passif) — capacité, sort n° 704402
+- [ ] **Embrocher** — capacité, sort n° 800093
+- [ ] **Poing de Ragnaros** — capacité, sort n° 800136 🔍 MAJ
+- [ ] **Chevauche la foudre** (Visual AoE) — capacité, sort n° 800138
+- [ ] **Séisme** (Obsolète) — capacité, sort n° 800143
+- [ ] **Appel de la nature** — capacité, sort n° 800146
+- [ ] **Masque du chaman primordial** (Passif) — capacité, sort n° 800185
+- [ ] **Arme primordiale : pierre** — capacité, sort n° 801351
+- [ ] **Corps de magma** — capacité, sort n° 801352
+- [ ] **Garde de pierre** — capacité, sort n° 802205
+- [ ] **Marteau de la Terre-mère** (Passif) — capacité, sort n° 803946
+- [ ] **Marteau de vie** (Passif) — capacité, sort n° 803973
+- [ ] **Secousse** (Rang 1) — capacité, sort n° 803974
+- [ ] **Géant des montagnes** (Passif de spécialisation) — capacité, sort n° 803975
+- [ ] **Cœur sauvage** — capacité, sort n° 803980
+- [ ] **Impact sismique** (Rang 1) — capacité, sort n° 803981 🔍 MAJ 🔀 talents
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Cercle des éléments** — capacité, sort n° 804344
+- [ ] **Jet de pierres** (Passif) — capacité, sort n° 804991
+- [ ] **Puissance de Therazane** (Passif) — capacité, sort n° 805336
+- [ ] **Bouclier tectonique** — capacité, sort n° 805634
+- [ ] **Déplaceur de montagnes** (Passif) — capacité, sort n° 805643
+- [ ] **Corps de pierre runique** (Obsolète) — capacité, sort n° 805820
+- [ ] **Cercle des éléments caché** — capacité, sort n° 805882
+- [ ] **Regard de Theradras** — capacité, sort n° 805919
+- [ ] **Cœur de bronze** (Passif) — capacité, sort n° 805920
+- [ ] **Étreinte de la terre** — capacité, sort n° 806143
+- [ ] **Fureur de la montagne** — capacité, sort n° 806185
+- [ ] **Ronceraie** — capacité, sort n° 806415
+- [ ] **Fracas sismique** (Rang 1) — talent, sort n° 300693 🔍 MAJ
+- [ ] **Robustesse** (Passif) — talent, sort n° 300694
+- [ ] **Béni par la terre** (Passif) — talent, sort n° 300695
+- [ ] **Écraser la terre** (Spécialisation) — talent, sort n° 300697
+- [ ] **Géothermie** (Passif) — talent, sort n° 300722
+- [ ] **Frappé par le soleil** (Spécialisation) — talent, sort n° 300723
+- [ ] **Fracas de pierre renforcé caché 2** (Obsolète) — talent, sort n° 300724
+- [ ] **Écologiste** (Rang 1) — talent, sort n° 300725
+- [ ] **Né d'une géode** (Passif) — talent, sort n° 300726
+- [ ] **Armure des éléments** (Rang 1) — talent, sort n° 300727
+- [ ] **Gardien primordial** (Passif) — talent, sort n° 300728
+- [ ] **Écologiste** (Passif) — talent, sort n° 300729
+- [ ] **Briseur de plaques** (Passif) — talent, sort n° 706158
+- [ ] **Lance lithique** (Spécialisation) — talent, sort n° 706159
+- [ ] **Terre pesante** (Passif) — talent, sort n° 706160
+- [ ] **Forme inflexible** (Rang 1) — talent, sort n° 706161
+- [ ] **Peau de pierre** (Rang 1) — talent, sort n° 706162
+- [ ] **Magmafurie** (Passif) — talent, sort n° 706163
+- [ ] **Fracasse-terre** (Passif) — talent, sort n° 706173
+- [ ] **Magmatisme** (Passif) — talent, sort n° 706174
+- [ ] **Chaîne de géodes** (Passif) — talent, sort n° 706214
+
+## Vie
+
+- [ ] **METTEZ À JOUR VOTRE CLIENT !** (Test Spell) — capacité, sort n° 1
+- [ ] **Suicide** — capacité, sort n° 7
+- [ ] **Entraînement du bosquet** (Spécialisation) — capacité, sort n° 92150
+- [ ] **Étendard de suprématie** — capacité, sort n° 500299
+- [ ] **Étendard de suprématie** (Dégâts) — capacité, sort n° 500300
+- [ ] **Faveur de la tortue** — capacité, sort n° 500935
+- [ ] **Faveur de l'ours** — capacité, sort n° 500939
+- [ ] **Faveur du faucon** — capacité, sort n° 500943
+- [ ] **Gardien du bosquet** (Passif) — capacité, sort n° 800134
+- [ ] **Main de la Terre-mère** (Rang 1) — capacité, sort n° 800135
+- [ ] **Faveur du loup** — capacité, sort n° 800137
+- [ ] **Charge spirituelle** (Rang 1) — capacité, sort n° 800144
+- [ ] **Poigne de pierre** — capacité, sort n° 800145
+- [ ] **Eaux de Neptulon** — capacité, sort n° 800147
+- [ ] **Pulsation primordiale** (Rang 1) — capacité, sort n° 800177
+- [ ] **Bosquet sacré** — capacité, sort n° 800180
+- [ ] **Marteau de vie** — capacité, sort n° 801233
+- [ ] **Retour à la vie** (Rang 1) — capacité, sort n° 801794
+- [ ] **Élu pour l'éternité** (Passif) — capacité, sort n° 802888
+- [ ] **Régénération de mana** (Regain fixe) — capacité, sort n° 804155
+- [ ] **Application passive des Étoiles éparpillées (Starsunder)** — capacité, sort n° 804380
+- [ ] **Voie de la déesse** — capacité, sort n° 804416
+- [ ] **Poussière féerique** — capacité, sort n° 804664 🔀 talents
+- [ ] **Anneau de vie** — capacité, sort n° 804705
+- [ ] **Voie du rêve : Seradane** — capacité, sort n° 804741
+- [ ] **Voie du rêve : Bosquet du crépuscule** — capacité, sort n° 804742
+- [ ] **Voie du rêve : Bosquet du rêve** — capacité, sort n° 804743
+- [ ] **Voie du rêve : L'Ombrage** — capacité, sort n° 804744
+- [ ] **Ancien du savoir** — capacité, sort n° 805105
+- [ ] **Lien de la Terre-mère** — capacité, sort n° 805107
+- [ ] **Soin sauvage** — capacité, sort n° 805108
+- [ ] **Croissance florissante** (Rang 1) — capacité, sort n° 805442
+- [ ] **Présence du gardien du bosquet** (Passif) — capacité, sort n° 805443
+- [ ] **Entraînement chamanique** (Passif) — capacité, sort n° 805445
+- [ ] **Onde sismique** (Rang 1) — capacité, sort n° 805462 🔍 MAJ
+- [ ] **Passif de portée du mande-étoiles** — capacité, sort n° 805527
+- [ ] **Glissement onirique** — capacité, sort n° 805867
+- [ ] **Faveur de la marée** (Passif) — capacité, sort n° 805880
+- [ ] **Esprit tranquille** (Obsolète) — capacité, sort n° 806529
+- [ ] **Sens aiguisés** (Passif) — capacité, sort n° 806533
+- [ ] **Terre primordiale** (Passif) — capacité, sort n° 806536
+- [ ] **Main du protecteur** (Passif) — talent, sort n° 300730
+- [ ] **Infusion de Neptulon** (Passif) — talent, sort n° 300731
+- [ ] **Tisse-bataille** (Passif) — talent, sort n° 300733
+- [ ] **Druide de bataille** (Passif) — talent, sort n° 300734
+- [ ] **Protection d'émeraude** (Passif) — talent, sort n° 300736
+- [ ] **Tisse-bataille** — talent, sort n° 300737
+- [ ] **Renforcement de la Terre-Mère** (Passif) — talent, sort n° 300738
+- [ ] **Puissance ancienne** (Rang 1) — talent, sort n° 300740
+- [ ] **Infusion primordiale améliorée** (Rang 2) — talent, sort n° 300741
+- [ ] **Fureur de la nature** (Passif) — talent, sort n° 300742
+- [ ] **Course instinctive** (Passif) — talent, sort n° 300744
+- [ ] **Gardien du bosquet** (Passif) — talent, sort n° 706137
+- [ ] **Guidage de la terre** (Passif) — talent, sort n° 706138
+- [ ] **Main de la Terre-Mère améliorée** (Obsolète) — talent, sort n° 706139
+- [ ] **Grâce de la Terre-Mère** (Passif) — talent, sort n° 706140
+- [ ] **Détermination de la terre** (Passif) — talent, sort n° 706141
+- [ ] **Débordement spirituel** (Passif) — talent, sort n° 706143
+- [ ] **Désamorçage primordial** (Rang 2) — talent, sort n° 706144
+- [ ] **Terraformation** (Passif) — talent, sort n° 706145
+- [ ] **Faveurs améliorées** (Rang 2) — talent, sort n° 706146
+- [ ] **Bâton de dryade** (Passif) — talent, sort n° 706147
+- [ ] **Soigneur du bosquet** (Passif) — talent, sort n° 706148
+
+## Primordial
+
+- [ ] **Maître des esprits de bête** (Spécialisation) — capacité, sort n° 92148 🔍 MAJ
+- [ ] **Ruée primordiale** (Rang 1) — capacité, sort n° 500696 🔀 talents
+- [ ] **Faveur de la tortue** (Familier) — capacité, sort n° 500938
+- [ ] **Déchiquetage primordial** (Rang 1) — capacité, sort n° 500940
+- [ ] **Chasse du prédateur** — capacité, sort n° 500941 🔀 talents
+- [ ] **Serres de raptor** (Rang 1) — capacité, sort n° 704096
+- [ ] **Glisseur de terrain** (Passif) — capacité, sort n° 704097
+- [ ] **Arme primordiale : Puissance primordiale** — capacité, sort n° 704098
+- [ ] **Guerrier totem** (Passif) — capacité, sort n° 704099
+- [ ] **Beuglement d'Ursoc** (Rang 1) — capacité, sort n° 704101
+- [ ] **Peau d'ours** — capacité, sort n° 800094
+- [ ] **Rugissement frénétique** — capacité, sort n° 800133
+- [ ] **Chevauche la foudre** (Sauteur) — capacité, sort n° 800139
+- [ ] **Griffe sauvage** (Rang 1) — capacité, sort n° 800140
+- [ ] **Déchirures et lacérations** (Passif) — capacité, sort n° 800141
+- [ ] **Rugissement protecteur** (Rang 1) — capacité, sort n° 800142
+- [ ] **Fracas totémique** (Rang 1) — capacité, sort n° 800178
+- [ ] **Convergence primordiale** — capacité, sort n° 800181
+- [ ] **Héritage de Rexxar** (Passif) — capacité, sort n° 800184
+- [ ] **Instinct primal** (Rang 1) — capacité, sort n° 800197 🔍 MAJ
+- [ ] **Fureur de la nature** (Passif) — capacité, sort n° 801234
+- [ ] **Arme primordiale : puissance bestiale** — capacité, sort n° 801242
+- [ ] **Pointe sismique** (Rang 1) — capacité, sort n° 804433 🔍 MAJ 🔀 talents
+- [ ] **Forme de golem** — capacité, sort n° 805335
+- [ ] **Frénésie sauvage** — capacité, sort n° 806549
+- [ ] **Hache sauvage** (Rang 1) — capacité, sort n° 806551
+- [ ] **Rapportez-moi leurs os** — capacité, sort n° 806552
+- [ ] **Seigneur de la fierté** — capacité, sort n° 806556
+- [ ] **Puissance de Rexxar** (Passif) — capacité, sort n° 806559
+- [ ] **Résurgence primordiale** (Passif) — talent, sort n° 300688
+- [ ] **Peau enchantée** (Passif) — talent, sort n° 300689
+- [ ] **Rage primordiale** (Passif) — talent, sort n° 300690
+- [ ] **Ruée de la chasse** (Passif) — talent, sort n° 300691
+- [ ] **Fracas tectonique** (Passif) — talent, sort n° 300692
+- [ ] **Trembleterre** (Passif) — talent, sort n° 300698
+- [ ] **Griffe sauvage améliorée** (Obsolète) — talent, sort n° 300699
+- [ ] **Force primordiale** (Passif) — talent, sort n° 300712
+- [ ] **Primaliste arpenteur sauvage** (Passif de spécialisation) — talent, sort n° 300713
+- [ ] **Guerrier sauvage** (Déclenchement) — talent, sort n° 300714
+- [ ] **Marche sauvage** (Obsolète) — talent, sort n° 300715
+- [ ] **Maître des esprits de bête** (Passif de spécialisation) — talent, sort n° 300716 🔍 MAJ
+- [ ] **Les mettre en pièces** (Passif) — talent, sort n° 300718
+- [ ] **Tribalisme** (Passif) — talent, sort n° 300720 🔀 talents
+- [ ] **Charge primordiale améliorée** (Rang 2) — talent, sort n° 300721
+- [ ] **Don de Misha** (Passif) — talent, sort n° 706149
+- [ ] **Appel de la nature** (Rang 1) — talent, sort n° 706150
+- [ ] **Fureur bestiale** (Passif) — talent, sort n° 706151
+- [ ] **Maîtrise des bêtes** (Passif) — talent, sort n° 706152 🔍 MAJ
+- [ ] **Pulvérisation** (Rang 1) — talent, sort n° 706153
+- [ ] **Faim primordiale** (Passif) — talent, sort n° 706154
+- [ ] **Cœur de l'ours** (Passif) — talent, sort n° 706156
+- [ ] **Griffe sauvage améliorée** (Obsolète) — talent, sort n° 706157
+
+## Classe
+
+- [ ] **Blessures traumatiques** (Passif) — capacité, sort n° 706168
+- [ ] **Frappes primordiales** (Passif) — capacité, sort n° 706171
+- [ ] **Gueule festoyante** (Passif) — capacité, sort n° 706172
+- [ ] **Fils d'Ursoc** (Passif) — capacité, sort n° 706176
+- [ ] **Furie sauvage** (Passif) — capacité, sort n° 706196
+- [ ] **Réflexes bestiaux** (Rang 1) — capacité, sort n° 706198
+- [ ] **Caverne effondrée** (Passif) — capacité, sort n° 706199
+- [ ] **Face de pierre** (Passif) — capacité, sort n° 706201
+- [ ] **Chute de pierres améliorée** (Passif) — capacité, sort n° 706202
+- [ ] **Cercle de vie** (Passif) — capacité, sort n° 706205
+- [ ] **Lapidation de l'ennemi** (Passif) — capacité, sort n° 706213
+- [ ] **Puissance primordiale** (Passif) — capacité, sort n° 706216
+- [ ] **Faveurs revigorantes** (Passif) — capacité, sort n° 706217
+- [ ] **Fracasse-terre** (Passif) — capacité, sort n° 706220
+- [ ] **Protection de la Terre-Mère** (Passif) — capacité, sort n° 706221
+- [ ] **Courageux** (Passif) — capacité de talent, sort n° 706164
+- [ ] **Fureur des éléments** (Passif) — capacité de talent, sort n° 706165
+- [ ] **Instincts primordiaux** (Passif) — capacité de talent, sort n° 706166
+- [ ] **Efficacité naturelle** (Passif) — capacité de talent, sort n° 706167
+- [ ] **Restauration en cascade** (Rang 1) — capacité de talent, sort n° 706169
+- [ ] **Restauration en cascade** (Rang 2) — capacité de talent, sort n° 706170
+- [ ] **Bienfaits abondants** (Rang 1) — capacité de talent, sort n° 706203
+- [ ] **Bienfaits abondants** (Rang 2) — capacité de talent, sort n° 706204
+- [ ] **Dompteur de lave** (Rang 1) — capacité de talent, sort n° 706206
+- [ ] **Dompteur de lave** (Rang 2) — capacité de talent, sort n° 706207
+- [ ] **Fendeur** (Passif) — capacité de talent, sort n° 706208
+- [ ] **L'Élu** (Passif) — capacité de talent, sort n° 706219

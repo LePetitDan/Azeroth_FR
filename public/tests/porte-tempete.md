@@ -1,0 +1,219 @@
+# Fiche de test : Porte-tempête
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Dons
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Conducteur** (Spécialisation) — capacité, sort n° 92098 🔀 talents
+- [ ] **Conducteur** (Passif de spécialisation) — capacité, sort n° 500005 🔀 talents
+- [ ] **Afflux revigorant** (Rang 1) — capacité, sort n° 500038
+- [ ] **Missile mégawatt** (Rang 1) — capacité, sort n° 500045
+- [ ] **Électrocuteur** (Passif de spécialisation) — capacité, sort n° 500068
+- [ ] **Ciel dégagé** (Passif) — capacité, sort n° 500069
+- [ ] **Garde de la bourrasque** — capacité, sort n° 500923
+- [ ] **Veille de Thorim** (DEPRECATED) — capacité, sort n° 500929 🔍 MAJ
+- [ ] **Gardien du tonnerre** — capacité, sort n° 800098
+- [ ] **Vague de puissance** (Passif) — capacité, sort n° 800699
+- [ ] **Roi du tonnerre** — capacité, sort n° 800924
+- [ ] **Invocation : Orbe de tonnerre** — capacité, sort n° 801802
+- [ ] **Flux de courroux** (Passif) — capacité, sort n° 801855
+- [ ] **Nuage d'orage** — capacité, sort n° 801859
+- [ ] **Apprenti hydraxien** (Passif) — capacité, sort n° 801862
+- [ ] **Prison de foudre inutilisée** — capacité, sort n° 801871
+- [ ] **Courant ascendant** (Rang 1) — capacité, sort n° 802354
+- [ ] **Flux de tonnerre** — capacité, sort n° 803007
+- [ ] **Porte-tonnerre** — capacité, sort n° 803008
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Roi du tonnerre** — capacité, sort n° 804591 🔀 talents
+- [ ] **Horion liant** — capacité, sort n° 804597
+- [ ] **Chevauchée du vent** — capacité, sort n° 804724
+- [ ] **Conjuration de Tonneblonde** (Rang 1) — capacité, sort n° 804763
+- [ ] **Appel de l'ancêtre** (Troll) — capacité, sort n° 804834 🔍 MAJ
+- [ ] **Séisme de tempête** (Deprecated) — capacité, sort n° 804835
+- [ ] **Appel de l'ancêtre** (Déclencheur1) — capacité, sort n° 804836 🔍 MAJ
+- [ ] **Décharge** (Rang 1) — capacité, sort n° 805288
+- [ ] **Oeil du cyclone** (Rang 1) — capacité, sort n° 806307
+- [ ] **Déferlement de tonnerre** — capacité, sort n° 806371
+- [ ] **Conduit** (Passif) — capacité, sort n° 806374
+- [ ] **Onde de force** — capacité, sort n° 806394
+- [ ] **Changement de polarité** (Deprecated) — capacité, sort n° 806396
+- [ ] **Éclatement** (Passif) — capacité, sort n° 806397
+- [ ] **Déluge** (Rang 1) — capacité, sort n° 806400
+- [ ] **Tempête** (Passif) — capacité, sort n° 806401
+- [ ] **À REFAIRE** (Passif) — capacité, sort n° 806405
+- [ ] **Noyade** (Rang 1) — capacité, sort n° 806407
+- [ ] **Énergie cinétique** (Passif) — capacité, sort n° 806409
+- [ ] **Flux amplifié** (Passif) — capacité, sort n° 806411 🔀 talents
+- [ ] **Cascade** (Passif) — capacité, sort n° 806412
+- [ ] **Surfeur des nuages** (Passif) — capacité, sort n° 806414 🔀 talents
+- [ ] **Mande-tempête** (Rang 1) — talent, sort n° 300611
+- [ ] **Chasseur de tempêtes** (Passif) — talent, sort n° 300612 🔀 talents
+- [ ] **Contrôle absolu** (Passif) — talent, sort n° 300613
+- [ ] **Maître des orbes** (Rang 2) — talent, sort n° 300614
+- [ ] **Mande-tempête** (Rang 2) — talent, sort n° 300615
+- [ ] **Force hydraulique** (Passif) — talent, sort n° 300616
+- [ ] **Foudre arcanique** (Passif) — talent, sort n° 300618
+- [ ] **Hydromatique** (Spécialisation) — talent, sort n° 300619
+- [ ] **Photosynthèse** (Rang 2) — talent, sort n° 300621
+- [ ] **Résurgence** (Passif) — talent, sort n° 300623
+- [ ] **Choc perpétuel** (Passif) — talent, sort n° 300625
+- [ ] **Photosynthèse** (Rang 3) — talent, sort n° 300626
+- [ ] **Invocation d'une pluie torrentielle** (Passif) — talent, sort n° 300627
+- [ ] **Electricité statique** — talent, sort n° 300628
+- [ ] **Frappe forgée par la tempête** — talent, sort n° 500193
+- [ ] **Tonnerre et éclairs** (Passif) — talent, sort n° 705654
+- [ ] **Instable** (Passif) — talent, sort n° 705723
+- [ ] **Maelström tourbillonnant** (Spécialisation) — talent, sort n° 705725
+- [ ] **Disciple de Thorim** (Rang 1) — talent, sort n° 705727
+
+## Foudre
+
+- [ ] **Électrocuteur** (Spécialisation) — capacité, sort n° 92096
+- [ ] **Appel d'éclair** (Rang 1) — capacité, sort n° 500040
+- [ ] **Corps de foudre** — capacité, sort n° 500041
+- [ ] **Volt** (Rang 1) — capacité, sort n° 500928
+- [ ] **Bourrasque** — capacité, sort n° 500932
+- [ ] **Chevauche la foudre** — capacité, sort n° 800099
+- [ ] **Invocation de tempête** (Rang 1) — capacité, sort n° 800227
+- [ ] **Seigneur de la foudre** — capacité, sort n° 801841
+- [ ] **Électrocution** (Rang 1) — capacité, sort n° 801844
+- [ ] **Bras de Thorim** (Rang 1) — capacité, sort n° 801847
+- [ ] **Fourche d'éclairs** (Rang 1) — capacité, sort n° 801851
+- [ ] **Tempête des titans** (Passif) — capacité, sort n° 801869
+- [ ] **Vent libre** — capacité, sort n° 801873
+- [ ] **Rage de la tempête** (Passif) — capacité, sort n° 804015
+- [ ] **Mousson violente** (Passif) — capacité, sort n° 804016
+- [ ] **Courroux torrentiel** (Rang 1) — capacité, sort n° 804017
+- [ ] **Foudre déliée** (Passif) — capacité, sort n° 804042
+- [ ] **Rage de Thorim** (Passif) — capacité, sort n° 804048
+- [ ] **Étincelle de flux** (Obsolète) — capacité, sort n° 804593
+- [ ] **Puissance résiduelle** (Passif) — capacité, sort n° 804605
+- [ ] **Charge** — capacité, sort n° 804826
+- [ ] **Tonitruant** (Spécialisation) — capacité, sort n° 804827
+- [ ] **La foudre ne frappe jamais deux fois ?** (Passif) — capacité, sort n° 804828
+- [ ] **Arc éclair** — capacité, sort n° 804829
+- [ ] **Chute du ciel** — capacité, sort n° 804830
+- [ ] **Solide comme la tempête** — capacité, sort n° 804831
+- [ ] **Cape de tempête** — capacité, sort n° 804833
+- [ ] **Explosion de flux** — capacité, sort n° 804841
+- [ ] **Incantation de flux** — capacité, sort n° 804842
+- [ ] **Surcharge** — capacité, sort n° 806496
+- [ ] **Âme de tempête** (Passif) — talent, sort n° 300591
+- [ ] **Cieux sombres** (Passif) — talent, sort n° 300593
+- [ ] **Arc éclair** (Passif) — talent, sort n° 300594
+- [ ] **Maîtrise de la conjuration** (Passif) — talent, sort n° 300595 🔀 talents
+- [ ] **Surcharge de déferlante** (Passif) — talent, sort n° 300596
+- [ ] **Fourche d'éclairs améliorée** (Passif) — talent, sort n° 300597
+- [ ] **Flux opportun** (Passif) — talent, sort n° 300598
+- [ ] **Champ électrique** (Passif) — talent, sort n° 300599
+- [ ] **Tome de la foudre** (Passif) — talent, sort n° 300606
+- [ ] **Chute des titans** (Passif) — talent, sort n° 300607
+- [ ] **Explosion voltaïque améliorée** (Rang 1) — talent, sort n° 300608
+- [ ] **Paratonnerre** (Passif) — talent, sort n° 300609
+- [ ] **Foudroyeur** (Passif) — talent, sort n° 300610
+- [ ] **Fusionnement** (Passif) — talent, sort n° 705638
+- [ ] **Décharges voltaïques** (Passif) — talent, sort n° 705639
+- [ ] **Fusionnement** (Rang 2) — talent, sort n° 705640
+- [ ] **Flux amélioré** (Rang 1) — talent, sort n° 705641
+- [ ] **Flux amélioré** (Rang 2) — talent, sort n° 705642
+- [ ] **Arc de flux** (Passif) — talent, sort n° 705643
+- [ ] **Dévastation crépitante** (Passif) — talent, sort n° 705645
+- [ ] **Supraconducteur** (Passif) — talent, sort n° 705646
+- [ ] **Conductivité** (Rang 2) — talent, sort n° 705647
+- [ ] **Foudre titanesque** (Rang 1) — talent, sort n° 705653
+- [ ] **Tome de la foudre** (Rang 2) — talent, sort n° 706308
+
+## Vent
+
+- [ ] **Élémentaire d'air** (Spécialisation) — capacité, sort n° 92097
+- [ ] **Baiser des nuages** (Rang 1) — capacité, sort n° 500039
+- [ ] **Surf des vents** — capacité, sort n° 500042 🔀 talents
+- [ ] **Zéphyr déchaîné** — capacité, sort n° 704201
+- [ ] **Vents réconfortants** (Passif) — capacité, sort n° 704209
+- [ ] **Vents implacables** (Passif) — capacité, sort n° 704211
+- [ ] **Nimbus** — capacité, sort n° 704212
+- [ ] **Vents percutants** (Passif) — capacité, sort n° 704213
+- [ ] **Verrou de Statique** — capacité, sort n° 800692
+- [ ] **Déluge nuageux** — capacité, sort n° 801838
+- [ ] **Aéroblast** (Rang 1) — capacité, sort n° 801839
+- [ ] **Appel du vent** (Rang 1) — capacité, sort n° 804018 🔍 MAJ
+- [ ] **Invocation : élémentaire d'air** — capacité, sort n° 804019
+- [ ] **Horion** (Rang 1) — capacité, sort n° 804020 🔀 talents
+- [ ] **Représailles ardentes (délai)** — capacité, sort n° 804021
+- [ ] **Vent arrière** — capacité, sort n° 804035
+- [ ] **Trombe** (Rang 1) — capacité, sort n° 804036
+- [ ] **Vents guides OBSOLÈTE** (Rang 1) — capacité, sort n° 804037
+- [ ] **Enfant de la tempête** (Passif) — capacité, sort n° 804038
+- [ ] **Canalisation de la tempête** (Passif) — capacité, sort n° 804040
+- [ ] **Brouillard** — capacité, sort n° 806100
+- [ ] **Aérodynamique** (Rang 1) — capacité, sort n° 806124
+- [ ] **Vent tranchant** — capacité, sort n° 806223
+- [ ] **Isolation** — capacité, sort n° 806242
+- [ ] **Puissance de l'air** (Rang 1) — talent, sort n° 705696
+- [ ] **Puissance de l'air** (Rang 2) — talent, sort n° 705697
+- [ ] **Puissance de l'air** (Rang 3) — talent, sort n° 705698
+- [ ] **Revigoration** (Passif) — talent, sort n° 705700
+- [ ] **Passage venteux** (Rang 2) — talent, sort n° 705701
+- [ ] **Élémentaliste déchaîné** (Passif) — talent, sort n° 705702
+- [ ] **Élémentaliste déchaîné** (Rang 2) — talent, sort n° 705703
+- [ ] **Courant rapide** (Rang 1) — talent, sort n° 705704
+- [ ] **Vents balayeurs** (Passif) — talent, sort n° 705706
+- [ ] **Havre** (Passif) — talent, sort n° 705707
+- [ ] **Aéromancie** (Passif) — talent, sort n° 705708
+- [ ] **Pendentif du ciel dégagé** (Passif) — talent, sort n° 705709
+- [ ] **Glyphe de changement** (Passif) — talent, sort n° 705712
+- [ ] **Focalisation d'éther** (Passif) — talent, sort n° 705713
+- [ ] **Don de l'air** (Passif) — talent, sort n° 705715
+- [ ] **Trombe implacable** — talent, sort n° 705716
+- [ ] **Rafale éternelle** (Passif) — talent, sort n° 705717 🔀 talents
+- [ ] **Puissance d'éther** (Passif) — talent, sort n° 705718
+- [ ] **Maître de l'air** (Passif) — talent, sort n° 705719 🔍 MAJ
+- [ ] **Bénédiction d'Aviana** (Passif) — talent, sort n° 705720
+- [ ] **Alimenter les éléments** (Rang 1) — talent, sort n° 705721
+- [ ] **Lexique de servitude** (UNUSED) — talent, sort n° 705722
+- [ ] **Œil de la tornade** (Passif) — talent, sort n° 706297
+
+## Classe
+
+- [ ] **Charge électrique** (Passif) — capacité, sort n° 704149
+- [ ] **Tempêtes maléfiques** (Passif) — capacité, sort n° 705650
+- [ ] **Vents revigorants** — capacité, sort n° 705661
+- [ ] **Maître élémentaliste** (Passif) — capacité, sort n° 705662
+- [ ] **Courant mortel** (Rang 1) — capacité, sort n° 705663
+- [ ] **Grâce du vent** (Passif) — capacité, sort n° 705664
+- [ ] **Ressac** (Rang 1) — capacité, sort n° 705666
+- [ ] **Invocation des tempêtes** (Rang 1) — capacité, sort n° 705667
+- [ ] **Élimination magique** (Passif) — capacité, sort n° 705668
+- [ ] **Conversion du courant** (Passif) — capacité, sort n° 705670
+- [ ] **Expiration** — capacité, sort n° 705672
+- [ ] **Déferlement de tempête** (Passif) — capacité, sort n° 705673
+- [ ] **Aération** (Passif) — capacité, sort n° 705675
+- [ ] **Chevaucheur de tempête** (Passif) — capacité, sort n° 705677
+- [ ] **Énergie accumulée** (Passif) — capacité, sort n° 705679 🔀 talents
+- [ ] **Jusqu'à l'os** (Passif) — capacité, sort n° 705680
+- [ ] **Vents spirituels** (Passif) — capacité, sort n° 705681
+- [ ] **Conduit de la Nature** (Passif) — capacité, sort n° 705685
+- [ ] **Nuages d'orage** (Passif) — capacité, sort n° 705686
+- [ ] **Mage du tonnerre** (Passif) — capacité, sort n° 705687
+- [ ] **Maître de la foudre** (Passif) — capacité, sort n° 705688
+- [ ] **Sorcellerie de la tempête** (Passif) — capacité, sort n° 705689
+- [ ] **Onde de tonnerre** (Passif) — capacité, sort n° 705692
+- [ ] **Corps de foudre amélioré** (Passif) — capacité, sort n° 705693
+- [ ] **Vortex amélioré** (Rang 1) — capacité de talent, sort n° 705648
+- [ ] **Vortex amélioré** (Rang 2) — capacité de talent, sort n° 705649
+- [ ] **Foudre persistante** (Rang 1) — capacité de talent, sort n° 705651
+- [ ] **Tempête persistante** (Passif) — capacité de talent, sort n° 705652
+- [ ] **Jours d'orage** (Passif) — capacité de talent, sort n° 705655
+- [ ] **Paratonnerre amélioré** (Rang 2) — capacité de talent, sort n° 705656
+- [ ] **Studieux** (Passif) — capacité de talent, sort n° 705657 🔀 talents
+- [ ] **Studieux** (Rang 2) — capacité de talent, sort n° 705658
+- [ ] **Maîtrise de la tempête magique** (Rang 1) — capacité de talent, sort n° 705659
+- [ ] **Maîtrise de la tempête magique** (Rang 2) — capacité de talent, sort n° 705660
+- [ ] **Foudroyant** (Passif) — capacité de talent, sort n° 705683
+- [ ] **Ghast** (Rang 1) — capacité de talent, sort n° 705684
+- [ ] **Éthéromancie** (Rang 1) — capacité de talent, sort n° 705690
+- [ ] **Éthéromancie** (Rang 2) — capacité de talent, sort n° 705691

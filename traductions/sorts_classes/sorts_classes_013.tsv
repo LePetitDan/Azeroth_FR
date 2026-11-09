@@ -4,7 +4,7 @@ sort	705697		Name	cd2dd2013be5	Puissance de l'air	lot sorts_classes_013
 sort	705697		ToolTip	434b604e2d49	Augmente de ${$w2}% les dégâts infligés par votre |cffffffffÉlémentaire d'air|r.	lot sorts_classes_013
 sort	705703		Description	7e23084d1b14	Augmente de $s2% l'efficacité de votre |cffffffffLibération|r.	lot sorts_classes_013
 sort	705703		Name	5961cefc0a81	Élémentaliste déchaîné	lot sorts_classes_013
-sort	705706		Description	6c1fd6518a4b	|cffffffffAppel d'éclair|r touche désormais 5 ennemis supplémentaires tant que |cffffffffVent libre|r est actif.	lot sorts_classes_013
+sort	705706		Description	6c1fd6518a4b	|cffffffffAppel de la foudre|r touche désormais 5 ennemis supplémentaires tant que |cffffffffVent libre|r est actif.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit être « Appel de la foudre » (noms_de_sorts_cites), pas « Appel d'éclair ».
 sort	705706		Name	87a42b085ffd	Vents balayeurs	lot sorts_classes_013
 sort	705706		ToolTip	2c35a687dc64	|cffffffffGrands vents|r touche 3 ennemis supplémentaires tant que |cffffffffHavre|r est actif.	lot sorts_classes_013
 sort	705707		Description	ff451fb0c6ff	Votre |cffffffffVent libre|r inflige désormais $s2% de dégâts supplémentaires et son temps de recharge est réduit de $/1000;s1 sec.\r\n\r\n|cffffffffVent libre|r ne repousse plus les ennemis.	lot sorts_classes_013
@@ -59,18 +59,18 @@ sort	705814		ToolTip	dc2e7378924f	Augmente de ${$w1}% les soins de |cffffffffTir
 sort	705816		Description	60cf8b49fa72	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffConstruire : station de recharge de batteries|r.	lot sorts_classes_013
 sort	705816		Name	66bc02487421	Batteries gnomes	lot sorts_classes_013
 sort	705816		ToolTip	3939346e9e68	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRecharge|r.	lot sorts_classes_013
-sort	705818		Description	e1c577bc484c	Réduit de $s2% le coût des |cFFFFFFFFRounds|r et le temps de recharge de |cffffffffRechargement|r, et confère |cffffffffRequinquage|r après un changement de |cFFFFFFFFRound|r.@s:1257670:0@	lot sorts_classes_013
+sort	705818		Description	e1c577bc484c	Réduit de $s2% le coût des |cFFFFFFFFMunitions|r et le temps de recharge de |cffffffffRechargement|r, et confère |cffffffffReconstitution|r après un changement de |cFFFFFFFFRound|r.@s:1257670:0@	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Replenishment = Reconstitution, pas « Requinquage ».
 sort	705818		Name	e52fefbeb466	Cellule d'énergie	lot sorts_classes_013
 sort	705818		ToolTip	4c2f07bf33b4	Confère $705819s1% de régénération de mana supplémentaire pendant $705819d après un changement d'arme à feu.	lot sorts_classes_013
 sort	705822		Description	f137f5e085d7	Fait en sorte que |cffffffffTir réparateur|r augmente de $s1% la cadence des effets de votre prochain |cffffffffNanorobot|r.	lot sorts_classes_013
 sort	705822		Name	d5cf22683bfd	Nanomécano	lot sorts_classes_013
 sort	705822		ToolTip	f740799b3a53	Fait en sorte que |cffffffffTir réparateur|r augmente de ${$w1}% la cadence des effets de votre prochain |cffffffffNanorobot|r.	lot sorts_classes_013
-sort	705823		Description	ab6cab9578c3	Augmente de $s1% les dégâts des tirs de |cffffffffLance-bombes|r et de $s2% les chances de coup critique de |cffffffffLance-roquettes|r.	lot sorts_classes_013
+sort	705823		Description	ab6cab9578c3	Augmente de $s1% les dégâts des tirs de |cffffffffLance-bombes|r et de $s2% les chances de coup critique de |cffffffffLance-roquettes|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Rocket Launcher = Lance-roquettes, pas « Lanceur de fusée ».
 sort	705823		Name	2b1dc4c7b981	Démolition	lot sorts_classes_013
-sort	705823		ToolTip	f3ad568dcebe	Augmente de ${$w1}% les dégâts des tirs de |cffffffffLance-bombes|r et de ${$w2}% les chances de coup critique de |cffffffffLance-roquettes|r.	lot sorts_classes_013
+sort	705823		ToolTip	f3ad568dcebe	Augmente de ${$w1}% les dégâts des tirs de |cffffffffLance-bombes|r et de ${$w2}% les chances de coup critique de |cffffffffLance-roquettes|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Lance-roquettes.
 sort	705828		Description	c245fa94cb90	Augmente de $s1% les dégâts infligés par vos créatures invoquées à moins de $a1 mètres.	lot sorts_classes_013
 sort	705828		Name	319293a2d821	Améliorations de la casse	lot sorts_classes_013
-sort	705829		Description	9804852e2347	|cFFFFFFFFFrappe aérienne|r est désormais assuré d'infliger un coup critique.	lot sorts_classes_013
+sort	705829		Description	9804852e2347	|cFFFFFFFFFrappe aérienne|r inflige désormais à coup sûr un coup critique.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : « est assuré d'infliger » est maladroit et le sort est féminin ; tournure plus claire.
 sort	705829		Name	2dee0b236e2e	Ingéniosité gnome	lot sorts_classes_013
 sort	705829		ToolTip	add759b48309	Augmente de ${$w1}% l'efficacité de |cffffffffPoudre explosive|r et fait en sorte que les |cffffffffRounds|r réduisent son temps de recharge restant de $/1000;705830s1 sec.	lot sorts_classes_013
 sort	705832		Description	35e188004c2d	Augmente de $s1% les chances de coup critique de |cffffffffTir de ferraille|r, |cffffffffCoup de clé|r et |cffffffffTir réparateur|r.	lot sorts_classes_013
@@ -95,7 +95,7 @@ sort	705862		Name	96834f97fdf2	Lanceur de potions	lot sorts_classes_013
 sort	705863		Description	49c128ddcf7b	Les soins directs ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffGardien guérisseur|r.\r\n\r\nNe peut se produire qu'une fois toutes les 6 sec.	lot sorts_classes_013
 sort	705863		Name	bc21135bafdd	Disciple de Sen'jin	lot sorts_classes_013
 sort	705863		ToolTip	a94e817b7e82	Donne aux soins non périodiques $h% de chances de réinitialiser le temps de recharge de |cffffffffGardien guérisseur|r.	lot sorts_classes_013
-sort	705865		Description	af9952c17ffd	Augmente les chances de coup critique de $s1% de l'Esprit.	lot sorts_classes_013
+sort	705865		Description	af9952c17ffd	Augmente les chances de coup critique d'une valeur égale à $s1% de votre Esprit.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Sens incomplet : « de $s1% de l'Esprit » est ambigu ; il s'agit d'un pourcentage de l'Esprit converti en chances de critique.
 sort	705865		Name	ef29e8619cb3	Régénérateur	lot sorts_classes_013
 sort	705865		ToolTip	b410ceac60c3	Donne aux soins périodiques une chance de réduire de $/1000;705866s1 sec le temps de recharge restant de |cffffffffLancer de potion|r.	lot sorts_classes_013
 sort	705868		Description	8e681f3ff940	Lance un |cffffffffBreuvage du loa|r sur les membres du groupe et du raid situés à moins de $705867a1 mètres et dans votre ligne de mire, toutes les $705867t1 sec pendant $705867d après avoir utilisé |cffffffffChaudron vaudou|r.	lot sorts_classes_013
@@ -149,7 +149,7 @@ sort	705932		ToolTip	61033bea7817	Réduit de $s1% les temps de recharge de |cfff
 sort	705933		Description	94697874dccd	Augmente de $s1% la durée de |cffffffffAppel du raptor|r, |cffffffffEmbuscade de raptors|r et |cffffffffEssaim de saurides|r.	lot sorts_classes_013
 sort	705933		Name	c0da764b2961	Maîtrise du raptor	lot sorts_classes_013
 sort	705933		ToolTip	f5327cbbf9b5	Augmente de ${$w1}% la durée de |cffffffffAppel du raptor|r, |cffffffffEmbuscade de raptors|r et |cffffffffEssaim de saurides|r.	lot sorts_classes_013
-sort	705934		Description	ac4dcb897015	Les applications et consommations de |cffffffffMarque de l'ombre|r réduisent de $/1000;705935s1 sec le temps de recharge restant d'|cffffffffAppel du raptor|r et de $/1000;705935s2 sec celui d'|cffffffffInvocation de Diemetradon|r.\r\n\r\nAugmente aussi de $s2 mètres la portée à laquelle |cffffffffVoile de ténèbres|r peut infliger des dégâts.	lot sorts_classes_013
+sort	705934		Description	ac4dcb897015	Les applications et consommations de |cffffffffMarque de l'ombre|r réduisent de $/1000;705935s1 sec le temps de recharge restant d'|cffffffffAppel du raptor|r et de $/1000;705935s2 sec celui d'|cffffffffInvocation de Diemetradon|r.\r\n\r\nAugmente aussi de $s2 mètres la portée à laquelle |cffffffffVoile de ténèbres|r peut infliger des dégâts.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Voile de ténèbres » (et non « Voile des ténèbres »).
 sort	705934		Name	55bfb566643c	Faveur de Gonk	lot sorts_classes_013
 sort	705934		ToolTip	15078b87a405	Les applications et consommations de |cffffffffMarque de l'ombre|r réduisent de $/1000;705935s1 sec le temps de recharge restant d'|cffffffffAppel du raptor|r.	lot sorts_classes_013
 sort	705940		Description	507c6d00041f	Réduit de $s1% le coût en mana de |cffffffffGlaive d'ombre|r, |cffffffffMaléfices|r et |cffffffffGuignes|r.	lot sorts_classes_013
@@ -196,7 +196,7 @@ sort	705994		Description	27112d2a19eb	Donne aux dégâts et aux soins périodiqu
 sort	705994		Name	e45021f9cfd7	Pacte de l'aspect	lot sorts_classes_013
 sort	705994		ToolTip	0d8d6aa1ed9f	Donne aux dégâts et aux soins périodiques 4% de chances de conférer $705995s1% de hâte pendant $705995d.	lot sorts_classes_013
 sort	706003		Description	ffbc0cfcd7cc	Réduit de $s1% les temps de recharge de |cffffffffTerrier|r, |cffffffffTunnel en dessous|r et |cffffffffParalysie|r.	lot sorts_classes_013
-sort	706003		Name	98e057c7bea1	Évasif	lot sorts_classes_013
+sort	706003		Name	98e057c7bea1	Évasif	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Majuscule accentuée obligatoire (É).
 sort	706003		ToolTip	22a1a901ca93	Réduit de ${$w1}% les temps de recharge de |cffffffffTerrier|r et |cffffffffParalysie|r.	lot sorts_classes_013
 sort	706008		Description	38d142e2d866	Réduit de 0,75 sec le temps d'incantation de |cffffffffMycose|r et augmente ses dégâts de $s2%.	lot sorts_classes_013
 sort	706008		Name	15bcac6bdb3b	Inoculation	lot sorts_classes_013
@@ -204,17 +204,17 @@ sort	706008		ToolTip	ca1f13ee7b42	Réduit de $/1000;s1 sec le temps de recharge 
 sort	706011		Description	585d52a9aba1	Augmente de $s1% les dégâts et les soins de |cffffffffCroc du serpent|r et de $s2% ses chances de coup critique.	lot sorts_classes_013
 sort	706011		Name	efce2dd93343	Ruse du serpent	lot sorts_classes_013
 sort	706011		ToolTip	1e607409d9d7	Augmente de ${$w1}% les dégâts et les soins de |cffffffffCroc du serpent|r et de ${$w2}% ses chances de coup critique.	lot sorts_classes_013
-sort	706020		Description	2bb7bad581f7	|cffffffffCroc du serpent|r et |cffffffffFlétrisseuse|r consomment les charges de $?s707224[|cffffffffCroc de Venoxis|r][|cffffffffÉclair de venin|r] et appliquent une charge de |cffffffffPourriture|r pour chacune.@s:800910:0@	lot sorts_classes_013
+sort	706020		Description	2bb7bad581f7	|cffffffffCroc du serpent|r et |cffffffffFlétrissure|r consomment les charges de $?s707224[|cffffffffCroc de Venoxis|r][|cffffffffÉclair de venin|r] et appliquent une charge de |cffffffffPourriture|r pour chacune.@s:800910:0@	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Blight = Flétrissure (et non « Flétrisseuse »).
 sort	706020		Name	a4f384f76f56	Propagateur de pourriture	lot sorts_classes_013
 sort	706028		Description	60f8d4a53403	Vos soins périodiques augmentent désormais de $706029s1% les soins directs de votre prochaine |cffffffffPrière de Shadra|r ou de votre prochain |cffffffffCroc du serpent|r, cumulable $706029u fois.	lot sorts_classes_013
 sort	706028		Name	5f17738b3b86	Renouveau rituel	lot sorts_classes_013
-sort	706031		Description	aa16b93278fd	Les dégâts directs infligés ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffCroc du serpent|r et de vous conférer |cffffffffLiche putride|r, ainsi que |cffffffffRequinquage|r à vos alliés.@s:706032:0@@s:1257670:0@	lot sorts_classes_013
+sort	706031		Description	aa16b93278fd	Les dégâts directs infligés ont désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffCroc du serpent|r et de vous conférer |cffffffffLiche putride|r, ainsi que |cffffffffReconstitution|r à vos alliés.@s:706032:0@@s:1257670:0@	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Replenishment » doit être « Reconstitution », comme dans noms_de_sorts_cites.
 sort	706031		Name	07de87a47ca8	Liche putride	lot sorts_classes_013
 sort	706031		ToolTip	7babde284e62	Donne aux dégâts d'Ombre infligés $h% de chances d'augmenter de $706032s1% les dégâts et la cadence des effets de votre prochain |cffffffffEntoilage|r, d'en réduire la durée de $706032s%, et de lui faire toucher $706032s2 cibles supplémentaires.	lot sorts_classes_013
 sort	706034		Description	45fefc77e5dc	|cffffffffDard nérubien|r consomme désormais |cffffffffToxine mortelle|r pour appliquer |cffffffffPoison nérubien|r.@s:800826:0@	lot sorts_classes_013
 sort	706034		Name	0f70799059ac	Poison nérubien	lot sorts_classes_013
 sort	706034		ToolTip	87c7c8d0e9fa	Fait en sorte que |cffffffffDard nérubien|r consomme |cffffffffVenin flétrissant|r pour appliquer |cffffffffPoison nérubien|r.@s:800826@	lot sorts_classes_013
-sort	706043		Description	596d375317a6	Vos sorts de dégâts |cffffffffOrdre|r ont $h% de chances d'appliquer une charge de |cffffffffReconstruction|r pendant $524850d.\r\n\r\nÀ 4 charges, votre prochain sort |cffffffffOrdre|r consomme les charges pour infliger ${$524851m1+$524851ppl1+$sph*0.5} points de dégâts du Sacré à $524851i ennemis maximum.	lot sorts_classes_013
+sort	706043		Description	596d375317a6	Vos sorts d'|cffffffffOrdre|r qui infligent des dégâts ont $h% de chances d'appliquer une charge de |cffffffffReconstruction|r pendant $524850d.\r\n\r\nÀ 4 charges, votre prochain sort d'|cffffffffOrdre|r consomme les charges pour infliger ${$524851m1+$524851ppl1+$sph*0.5} points de dégâts du Sacré à $524851i ennemis maximum.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : « Vos sorts de dégâts Ordre » est maladroit ; « Order » désigne une famille de sorts, d'où « sorts d'Ordre ».
 sort	706043		Name	5efc90d319d2	Reconstruction	lot sorts_classes_013
 sort	706044		Description	3fdadf759f42	Tant que |cffffffffChronostase|r est active sur un ennemi, votre |cffffffffDéchire-temps|r n'expire pas sur lui.@s:801291:0@	lot sorts_classes_013
 sort	706044		Name	95db3d08ca38	Tome ancien	lot sorts_classes_013
@@ -224,14 +224,14 @@ sort	706045		ToolTip	83430dce9d87	Augmente de ${$w1}% les dégâts de |cffffffff
 sort	706047		Description	b16f0d551cfe	Augmente de $s1% les dégâts infligés par les sorts |cffffffffChromatiques|r.	lot sorts_classes_013
 sort	706047		Name	1c1ba762a243	Maître du chaos	lot sorts_classes_013
 sort	706047		ToolTip	6170218bedd0	Augmente de ${$w1}% les dégâts infligés par les sorts |cffffffffChromatiques|r.	lot sorts_classes_013
-sort	706050		Description	f5341b5362ca	Augmente de $s1% les dégâts des sorts |cffffffffOrdre|r.	lot sorts_classes_013
+sort	706050		Description	f5341b5362ca	Augmente de $s1% les dégâts des sorts d'|cffffffffOrdre|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Cohérence avec les autres textes (« sorts d'Ordre ») ; « sorts Ordre » est incorrect.
 sort	706050		Name	e5aca0029b0c	Maître de l'ordre	lot sorts_classes_013
-sort	706050		ToolTip	e4cf484d8017	Augmente de ${$w1}% les dégâts et les soins des sorts |cffffffffOrdre|r.	lot sorts_classes_013
+sort	706050		ToolTip	e4cf484d8017	Augmente de ${$w1}% les dégâts et les soins des sorts d'|cffffffffOrdre|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Même correction : « sorts d'Ordre ».
 sort	706054		Description	1ced2eb667ab	Augmente de $s2% les chances de coup critique de votre |cffffffffInversion des blessures|r.	lot sorts_classes_013
 sort	706054		Name	1f99db0586ed	Retrait de blessure	lot sorts_classes_013
-sort	706062		Description	564920d5d982	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe gravitationnelle|r.	lot sorts_classes_013
+sort	706062		Description	564920d5d982	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe gravitationnelle|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur « Bombe gravitationnelle ».
 sort	706062		Name	3d0d9aca57b3	Étoile noire	lot sorts_classes_013
-sort	706062		ToolTip	564920d5d982	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe gravitationnelle|r.	lot sorts_classes_013
+sort	706062		ToolTip	564920d5d982	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBombe gravitationnelle|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur « Bombe gravitationnelle ».
 sort	706066		Description	ed09c36221e7	Augmente de $s2% les dégâts infligés par votre familier et réduit de $s3% les dégâts qu'il subit.	lot sorts_classes_013
 sort	706066		Name	807da9493f22	Collier enchanté	lot sorts_classes_013
 sort	706066		ToolTip	80516e33e1dd	Augmente de ${$w2}% les dégâts infligés par votre familier et réduit de ${$w3}% les dégâts qu'il subit.	lot sorts_classes_013
@@ -246,7 +246,7 @@ sort	706081		Name	5395f7399da5	Texte ancien	lot sorts_classes_013
 sort	706081		ToolTip	ee6f17cc4421	|cffffffffInscrire|r augmente de $806207s3% la vitesse d'attaque de votre baguette pendant $/1000;s1 sec.	lot sorts_classes_013
 sort	706082		Description	90cafbc8682c	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGarde du destin|r.	lot sorts_classes_013
 sort	706082		Name	b11e1cd91319	Chance ou destin ?	lot sorts_classes_013
-sort	706082		ToolTip	a2487402a146	Fait en sorte que |cFFFFFFFFTour du destin|r réduise de $706065s1% les chances de toucher de la cible.	lot sorts_classes_013
+sort	706082		ToolTip	a2487402a146	Fait en sorte que |cFFFFFFFFTour du destin|r réduise de $706065s1% les chances de toucher de la cible.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Twist of Fate doit être « Tour du destin », pas « Coup du sort ».
 sort	706086		Description	0fe84535bfe7	Supprime le temps d'incantation de |cffffffffBouclier infini|r et lui ajoute $s3 charges.	lot sorts_classes_013
 sort	706086		Name	2c959a42579d	Souvenir éclatant	lot sorts_classes_013
 sort	706087		Description	dea57f849fb2	Réduit de $/1000;s1 sec le temps de recharge de votre |cffffffffOndulation|r.	lot sorts_classes_013
@@ -262,7 +262,7 @@ sort	706097		Name	c2b783f8b190	Âge des empires	lot sorts_classes_013
 sort	706097		ToolTip	6568e35c4d5f	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffBouclier des âges|r.	lot sorts_classes_013
 sort	706104		Description	d9c55f347651	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffÉons|r.	lot sorts_classes_013
 sort	706104		Name	fe3e481ad9cf	Héraut chronal	lot sorts_classes_013
-sort	706104		ToolTip	92ec62131b85	Réduit de $/1000;s1 sec le temps de recharge des sorts |cffffffffÉon|r.	lot sorts_classes_013
+sort	706104		ToolTip	92ec62131b85	Réduit de $/1000;s1 sec le temps de recharge des sorts |cffffffffÉon|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Aeon = Éon, pas « Temps infini ».
 sort	706109		Description	d38f1d70c4f2	|cffffffffInversion des blessures|r prolonge désormais de $/1000;804679s1 sec la durée de |cFFFFFFFFRécupération accélérée|r.	lot sorts_classes_013
 sort	706109		Name	ace98de204cf	Sauveur	lot sorts_classes_013
 sort	706109		ToolTip	194977452b14	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffResynchroniser|r et de $/1000;s2 sec le temps d'incantation de |cffffffffRecommencer|r, et augmente de ${$w3}% les soins prodigués.	lot sorts_classes_013
@@ -271,7 +271,7 @@ sort	706110		Name	19c8de86f76e	Rayon du temps	lot sorts_classes_013
 sort	706110		ToolTip	6970f2a538a8	Les dégâts infligés par |cffffffffChronofaisceau|r appliquent |cffffffffPassage du temps|r.@s:801317@	lot sorts_classes_013
 sort	706111		Description	70c19f240114	|cFF66DDFFPassif de niveau 40|r\r\nLes dégâts infligés par votre |cffffffffDissolution de la réalité|r prolongent désormais de $/1000;572744S1 sec la durée de votre |cFFFFFFFFDécomposition|r active sur la cible.	lot sorts_classes_013
 sort	706111		Name	d168b1acbc26	Chaos mordant	lot sorts_classes_013
-sort	706112		Description	cd8ecaf21a17	Lancer |cFFFFFFFFDissolution de la réalité|r réduit désormais de $707362s1% le temps de recharge de |cffffffffVagues du temps|r, |CffffffffReflection|r et |cffffffffRetour en arrière|r.	lot sorts_classes_013
+sort	706112		Description	cd8ecaf21a17	Lancer |cFFFFFFFFDissolution de la réalité|r réduit désormais de $707362s1% le temps de recharge de |cffffffffVagues du temps|r, |CffffffffRéflexion|r et |cffffffffRetour en arrière|r.	lot sorts_classes_013 | relu par l'API (relecture 0.9.5) : Reflection est resté en anglais alors qu'un français existe (Réflexion).
 sort	706112		Name	284aa4ceda52	Passage déterré	lot sorts_classes_013
 sort	706115		Description	f85bfc36e51f	Augmente de $s1% le mana maximum et de $s2% de l'Intelligence les dégâts des sorts.	lot sorts_classes_013
 sort	706115		Name	1b063d6c62f6	Sorcellerie chronale	lot sorts_classes_013

@@ -1,0 +1,209 @@
+# Fiche de test : Fils d'Arugal
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Sang
+
+- [ ] **Bâtons** — capacité, sort n° 227
+- [ ] **Soif** (Spécialisation) — capacité, sort n° 92112
+- [ ] **Légions pétrifiées** (Passif) — capacité, sort n° 500012
+- [ ] **Soif** (Spécialisation) — capacité, sort n° 500107
+- [ ] **Déchaîné** (Spécialisation) — capacité, sort n° 500108
+- [ ] **Déflagration de lune de sang** (Rang 1) — capacité, sort n° 500125 🔀 talents
+- [ ] **Bouclier de Shadowfang** — capacité, sort n° 500128
+- [ ] **Sinistre présage** (Passif) — capacité, sort n° 800154
+- [ ] **Tourment de Taldaram** (Rang 1) — capacité, sort n° 800772 🔍 MAJ 🔀 talents
+- [ ] **Rupture sanguine** (Rang 1) — capacité, sort n° 800774 🔀 talents
+- [ ] **Imprécation** — capacité, sort n° 800776
+- [ ] **Soif de sang** — capacité, sort n° 800780
+- [ ] **Liturgie ténébreuse** (Rang 1) — capacité, sort n° 800781 🔀 talents
+- [ ] **Rite sacrificiel** — capacité, sort n° 800785 🔍 MAJ 🔀 talents
+- [ ] **Nostrum** (Obsolète) — capacité, sort n° 800844 🔀 talents
+- [ ] **Pestilence de la conquête** — capacité, sort n° 801071 🔀 talents
+- [ ] **Délire écarlate** (Rang 1) — capacité, sort n° 801074 🔀 talents
+- [ ] **Vampirisme** — capacité, sort n° 801075
+- [ ] **Morsure de vampyr** (Rang 1) — capacité, sort n° 801563
+- [ ] **Façonnage de chair** — capacité, sort n° 801952 🔀 talents
+- [ ] **Puissance de la lune de sang** (Passif) — capacité, sort n° 801961
+- [ ] **Tonique bouillonnant** (Rang 2) — capacité, sort n° 802308 🔍 MAJ
+- [ ] **Lancer de filet** (Test) — capacité, sort n° 802309
+- [ ] **Soin sanguin** (Rang 1) — capacité, sort n° 802310 🔀 talents
+- [ ] **Épines de sang** (Rang 1) — capacité, sort n° 802313
+- [ ] **Plaies de sang** (Passif) — capacité, sort n° 802314
+- [ ] **Parasites de sang** (Passif) — capacité, sort n° 802315
+- [ ] **Faim vampirique** (Passif) — capacité, sort n° 802316
+- [ ] **Enragé** — capacité, sort n° 804343
+- [ ] **Téléportation : donjon d'Ombrecroc** — capacité, sort n° 804663
+- [ ] **Croc vampirique** (Rang 1) — capacité, sort n° 804726
+- [ ] **Gavage** — capacité, sort n° 804805
+- [ ] **Sang noir** (Rang 1) — capacité, sort n° 804807
+- [ ] **Mage de sang** — capacité, sort n° 805388
+- [ ] **Hémomancie** — capacité, sort n° 805588
+- [ ] **Plaies de sang** (Passif) — capacité, sort n° 805591
+- [ ] **Cercle sanguin** — capacité, sort n° 805913
+- [ ] **Souveraineté** (Passif) — capacité, sort n° 806049
+- [ ] **Anévrisme** — capacité, sort n° 806099
+- [ ] **Égide aortique** (Passif) — capacité, sort n° 806274
+- [ ] **Liquéfaction** — capacité, sort n° 806310 🔀 talents
+- [ ] **Né du sang** — capacité, sort n° 806420
+- [ ] **Moissonneur d'essence** (Passif) — capacité, sort n° 806421
+- [ ] **Bondisseur de sang** (Passif) — capacité, sort n° 806423
+- [ ] **Rejeton cramoisi** (Passif) — capacité, sort n° 806424
+- [ ] **Corde de sauvetage** — capacité, sort n° 806426
+- [ ] **Donneur universel** (Passif) — capacité, sort n° 806428
+- [ ] **Moisson** — talent, sort n° 704620
+- [ ] **Proie facile** (Passif) — talent, sort n° 704621
+- [ ] **Chair revigorée** (Passif) — talent, sort n° 704632
+- [ ] **Fonderie de chair** (Passif) — talent, sort n° 704633
+- [ ] **Magie distordue** (Passif) — talent, sort n° 704634
+- [ ] **Manipulateur de sang** (Passif) — talent, sort n° 704635
+- [ ] **Seigneur de sang** (Rang 1) — talent, sort n° 704636
+- [ ] **Égide aortique** (Passif) — talent, sort n° 704637
+- [ ] **Une mort acérée** (Passif) — talent, sort n° 704638
+- [ ] **Sang persistant** (Passif) — talent, sort n° 704639
+- [ ] **Tourment lancinant** — talent, sort n° 704640
+- [ ] **Ordre du prince de sang** (Passif) — talent, sort n° 704641
+- [ ] **Perfidie d'Atherann** (Rang 1) — talent, sort n° 704642
+- [ ] **Perfidie d'Atherann** (Rang 2) — talent, sort n° 704643
+- [ ] **Nuée de mouches** (Passif) — talent, sort n° 704646
+- [ ] **Suppresseur de chaîne de serment** — talent, sort n° 704648
+- [ ] **Enseignements de Lana'thel** (Passif) — talent, sort n° 704686
+- [ ] **Vitalité viscérale** (Rang 1) — talent, sort n° 704687
+- [ ] **Vitalité viscérale** (Passif) — talent, sort n° 704688
+
+## Férocité
+
+- [ ] **Déchaîné** (Spécialisation) — capacité, sort n° 92113
+- [ ] **Frappe vorace** (Rang 1) — capacité, sort n° 500123
+- [ ] **Hurlement du chasseur nocturne** (Rang 1) — capacité, sort n° 500124
+- [ ] **Fente** — capacité, sort n° 500126
+- [ ] **Éviscéré** — capacité, sort n° 500127 🔀 talents
+- [ ] **Faim** (Passif) — capacité, sort n° 704168
+- [ ] **Morsure sanglante** (Rang 1) — capacité, sort n° 800156
+- [ ] **Griffe-sinistre** — capacité, sort n° 800158
+- [ ] **Embrocher** (Amélioration) — capacité, sort n° 800159 🔀 talents
+- [ ] **Course sauvage** — capacité, sort n° 800175
+- [ ] **Placeholder** (Passif) — capacité, sort n° 800488
+- [ ] **Saccage** (Rang 1) — capacité, sort n° 800490
+- [ ] **Tisse-bataille** (Passif) — capacité, sort n° 801963
+- [ ] **Odeur du sang** (Passif) — capacité, sort n° 804223
+- [ ] **Éternel affamé** (Passif) — capacité, sort n° 804599
+- [ ] **Explosion gangrenée** — capacité, sort n° 804600
+- [ ] **Festin cramoisi** (Passif) — capacité, sort n° 804602
+- [ ] **Crocs perforants** (Passif) — capacité, sort n° 804604
+- [ ] **Éclair de sang** (Rang 1) — capacité, sort n° 804685 🔀 talents
+- [ ] **Chasse perpétuelle** (Passif) — capacité, sort n° 804686
+- [ ] **Abandon téméraire** — capacité, sort n° 804700
+- [ ] **Appel de l'ancêtre** (Humain) — capacité, sort n° 804846 🔍 MAJ
+- [ ] **Éclats de sang** (Passif) — capacité, sort n° 804849
+- [ ] **Écritures sanguines** (Passif) — capacité, sort n° 804851
+- [ ] **Traînées de sang** (Passif) — capacité, sort n° 804858
+- [ ] **Doigt de la mort** — capacité, sort n° 806178 🔀 talents
+- [ ] **Ascension périlleuse** — capacité, sort n° 806180
+- [ ] **Veille de l'Ombre** — capacité, sort n° 806182
+- [ ] **Terroriseur** (Passif) — capacité, sort n° 806210
+- [ ] **Assaut aortique** (Rang 1) — capacité, sort n° 806212 🔀 talents
+- [ ] **Frénésie sombre** (Passif) — talent, sort n° 704644
+- [ ] **Magie sinistre** — talent, sort n° 704651
+- [ ] **Implacable** (Passif) — talent, sort n° 704652
+- [ ] **Intention cruelle** (Passif) — talent, sort n° 704653
+- [ ] **Ultra-instinct** (Passif) — talent, sort n° 704654
+- [ ] **Ultra-instincts** (Obsolète) — talent, sort n° 704655
+- [ ] **Traque** — talent, sort n° 704656
+- [ ] **Brutaliseur** (Passif) — talent, sort n° 704657
+- [ ] **Grincement** (Rang 2) — talent, sort n° 704658
+- [ ] **Chasseur de la nuit** (Passif) — talent, sort n° 704659
+- [ ] **Sans pitié** (Passif) — talent, sort n° 704660
+- [ ] **Traqueur de sang** (Passif) — talent, sort n° 704665
+- [ ] **Crocs perforants** (SLS Hidden) — talent, sort n° 704668
+- [ ] **Instinct du tueur** (Passif) — talent, sort n° 704690
+- [ ] **Blessures mortelles** (Passif) — talent, sort n° 704691
+- [ ] **Sang vicié** (Passif) — talent, sort n° 704692
+- [ ] **Dégâts permanents** — talent, sort n° 704693
+- [ ] **Incantation sombre** (Passif) — talent, sort n° 706247
+
+## Chef de meute
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Armes de pugilat** — capacité, sort n° 15590
+- [ ] **Malédiction éternelle** (Spécialisation) — capacité, sort n° 92114
+- [ ] **Balayage de griffes** (Rang 1) — capacité, sort n° 500169
+- [ ] **Coagulation** (Passif) — capacité, sort n° 704115
+- [ ] **Vitalité** (Passif) — capacité, sort n° 704166
+- [ ] **Furieux** — capacité, sort n° 704307
+- [ ] **Chien de guerre** — capacité, sort n° 704308
+- [ ] **Malédiction éternelle** (Forme maudite) — capacité, sort n° 800157 🔍 MAJ
+- [ ] **Hurlement sanguinaire** — capacité, sort n° 800782
+- [ ] **Pacte de sang** — capacité, sort n° 801955 🔀 talents
+- [ ] **Peau de fer** — capacité, sort n° 801956
+- [ ] **Crocs découverts** — capacité, sort n° 801957
+- [ ] **Yeux dans la nuit** (Passif) — capacité, sort n° 801959
+- [ ] **Force de l'ombre** (Passif) — capacité, sort n° 801960
+- [ ] **Détermination éternelle** — capacité, sort n° 801962
+- [ ] **Apothéose** — capacité, sort n° 804195 🔀 talents
+- [ ] **Griffe putride** (Rang 1) — capacité, sort n° 804197 🔀 talents
+- [ ] **Terrifier** — capacité, sort n° 804198
+- [ ] **Lune de sang** (Passif) — capacité, sort n° 804199
+- [ ] **Chasse éternelle** (Passif) — capacité, sort n° 804201
+- [ ] **Apothéose** — capacité, sort n° 804203
+- [ ] **Malédiction éternelle** (Spécialisation) — capacité, sort n° 804204
+- [ ] **Dette de sang** — capacité, sort n° 804206
+- [ ] **Hurlement maléfique** — capacité, sort n° 804207
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Hurlement monstrueux** — capacité, sort n° 804811
+- [ ] **Lien d'Ombrecroc** — capacité, sort n° 804867
+- [ ] **Passif d'Hémorragie d'ombre** (Caché) — capacité, sort n° 805172
+- [ ] **Hurlement d'ombre** — capacité, sort n° 806177
+- [ ] **Cauchemar** — talent, sort n° 300225
+- [ ] **Cauchemar** (Passif) — talent, sort n° 300226
+- [ ] **Cri strident de l'Aile sombre** (Passif) — talent, sort n° 300260
+- [ ] **Blessures enrageantes** (Spécialisation) — talent, sort n° 300978
+- [ ] **Frappes maudites** (Rang 1) — talent, sort n° 300982
+- [ ] **Adrénaline** (Passif) — talent, sort n° 300986
+- [ ] **Gueule vicieuse** (Passif) — talent, sort n° 704618
+- [ ] **Gueule vicieuse** (Rang 2) — talent, sort n° 704619
+- [ ] **Ombres revigorantes** (Passif) — talent, sort n° 704623
+- [ ] **Infection** (Passif) — talent, sort n° 704624
+- [ ] **Enrobé de ténèbres** (Passif) — talent, sort n° 704625
+- [ ] **Pelage épais** (Passif) — talent, sort n° 704626
+- [ ] **Réflexes amplifiés** (Rang 1) — talent, sort n° 704627
+- [ ] **Réflexes amplifiés** (Rang 2) — talent, sort n° 704628
+- [ ] **Force bestiale** (Passif) — talent, sort n° 704661
+- [ ] **Ombres dans la nuit** (Passif) — talent, sort n° 704662
+- [ ] **Hurlements d'enragement** (Passif) — talent, sort n° 800766
+- [ ] **Loup pestiféré** (Passif) — talent, sort n° 806042
+
+## Classe
+
+- [ ] **Endurant** (Passif) — capacité, sort n° 300585
+- [ ] **Alacrité d'Arugal** (Passif) — capacité, sort n° 300586
+- [ ] **Puissance régénératrice** (Rang 1) — capacité, sort n° 300587
+- [ ] **Éclats de sang** (Passif) — capacité, sort n° 300588
+- [ ] **Liturgie sombre améliorée** (Passif) — capacité, sort n° 300589
+- [ ] **Prédateur** (Passif) — capacité, sort n° 300590
+- [ ] **Hymne cramoisi** — capacité, sort n° 704622
+- [ ] **Impact féroce** — capacité, sort n° 704645
+- [ ] **Fou de sang** (Passif) — capacité, sort n° 704650
+- [ ] **Viciousness BFB proccer** — capacité, sort n° 704663
+- [ ] **Frénésie du chasseur** — capacité, sort n° 704664
+- [ ] **Rituels de sang** (Passif) — capacité, sort n° 705729
+- [ ] **Atteint de la rage** (Passif) — capacité, sort n° 705732
+- [ ] **Chasse sombre** (Passif) — capacité, sort n° 705733
+- [ ] **Transfusion** — capacité, sort n° 705734 🔀 talents
+- [ ] **L'heure du festin !** — capacité, sort n° 705737
+- [ ] **Extracteur** (Passif) — capacité, sort n° 705738
+- [ ] **Appétit insatiable** (Passif) — capacité, sort n° 705739
+- [ ] **Sauvage** — capacité, sort n° 705740
+- [ ] **Sombre intention** — capacité, sort n° 705741
+- [ ] **Sacrifice sanglant** (Passif) — capacité, sort n° 705742
+- [ ] **Redistribution du sang** (Passif) — capacité, sort n° 706256
+- [ ] **Coagulation** (Passif) — capacité, sort n° 706258
+- [ ] **Peau sombre** (Rang 1) — capacité de talent, sort n° 705730
+- [ ] **Marque sombre** (Passif) — capacité de talent, sort n° 705731
+- [ ] **Exsanguination** — capacité de talent, sort n° 705735
+- [ ] **Exsanguination** (Passif) — capacité de talent, sort n° 705736
+- [ ] **Bénédiction d'Arugal améliorée** (Rang 1) — capacité de talent, sort n° 705743
+- [ ] **Fureur résiliente** (Passif) — capacité de talent, sort n° 705744

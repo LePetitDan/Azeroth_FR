@@ -79,7 +79,7 @@ sort	804497		Name	1f82879ecb6b	Flux d'infinité	lot sorts_classes_020
 sort	804497		ToolTip	0365a10443f1	Menace redirigée.	lot sorts_classes_020
 sort	804498		Description	a243665fbec5	Inflige $804499s1 points de dégâts de Chaos à une cible ennemie, en fonction de l'Esprit du lanceur.	lot sorts_classes_020
 sort	804498		Name	ec5cd465eaa1	Courroux infini	lot sorts_classes_020
-sort	804501		Description	51a87ad515cc	$?a806305[|cffff3232][|cffffffff]Nécessite l'équilibre ou la majorité d'Ordre|r\r\nRefaçonne un allié et lui rend $s1 points de vie toutes les $t1 pendant $d.\r\n\r\nAccorde 1 charge d'|cffffffffOrdre|r.	lot sorts_classes_020
+sort	804501		Description	51a87ad515cc	$?a806305[|cffff3232][|cffffffff]Nécessite une majorité d'Équilibre ou d'Ordre|r\r\nRefaçonne un allié et lui rend $s1 points de vie toutes les $t1 pendant $d.\r\n\r\nAccorde 1 charge d'|cffffffffOrdre|r.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : « Balance » désigne ici l'équilibre entre Ordre et Chaos (10/10) et non une notion générale ; formulation plus claire. Le sens de « majorité d'Équilibre » reste à confirmer.
 sort	804501		Name	2603d4133ece	Refaçonnage	lot sorts_classes_020
 sort	804501		ToolTip	6aa6fcbf688d	$o1 points de vie rendus en $d.	lot sorts_classes_020
 sort	804513		Description	44b467c28ac8	Les charges d'|cffffffffOrdre|r et de |cffffffffChaos|r totalisent toujours 20 et renforcent les aptitudes du même type.\n\nAtteindre 20 charges de l'un ou l'autre les réinitialise à 10/10.	lot sorts_classes_020
@@ -95,7 +95,7 @@ sort	804579		Name	772cd6c05be7	Chasse de l'ombre	lot sorts_classes_020
 sort	804579		ToolTip	13668553af52	Augmente de ${$w1}% de votre Agilité la puissance des sorts de Nature et d'Ombre de vos effets de dégâts.	lot sorts_classes_020
 sort	804584		Description	98514520acc9	Vous permet d'accomplir vos |cffffffffVœux|r.\r\n\r\nVos prochaines aptitudes de dégâts ou de soins ($807440n) déclenchent l'effet |cffffffffAccomplissement|r de votre |CffffffffVœu|r. Ne peut se produire qu'une fois par sec. Dure $807440d.\r\n\r\n@ext:|cFFFF9800Puissance solaire|r ne peut pas être générée tant qu'|cffffffffAube|r est active.:ext@	lot sorts_classes_020
 sort	804584		Name	d5888e51e815	Aube	lot sorts_classes_020
-sort	804584		ToolTip	ba345a3b45ff	Les aptitudes sont renforcées. Chaque aptitude renforcée consomme une charge.\r\n\r\nImpossible de générer de la Puissance solaire.	lot sorts_classes_020
+sort	804584		ToolTip	ba345a3b45ff	Les aptitudes sont renforcées. Chaque aptitude renforcée consomme une charge.\r\n\r\nImpossible de générer de l'Énergie solaire.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité « Solar Power » = « Énergie solaire », à garder identique partout.
 sort	804597		Description	8f4840aceef9	Fait en sorte qu'|cffffffffÉlectrocution|r applique |cffffffffFlux|r à la cible et à l'ennemi le plus proche.@s:804840:0@	lot sorts_classes_020
 sort	804597		Name	8cfd472ee37a	Horion liant	lot sorts_classes_020
 sort	804607		Description	2386c9339818	Permet à l'effet de dégâts périodiques de vos sorts |cffffffffEnflammer|r, |cffffffffBrasier|r et |cffffffffMarque brûlante|r d'infliger des coups critiques.	lot sorts_classes_020
@@ -105,7 +105,7 @@ sort	804615		Description	6c587249b907	Augmente de $s2% les dégâts de votre |cF
 sort	804615		Name	352d3ac8990e	Harmonisation démoniaque	lot sorts_classes_020
 sort	804616		Description	ec5e220ecfee	Augmente de $s1% l'efficacité de |cffffffffMarque brûlante|r.	lot sorts_classes_020
 sort	804616		Name	10a8c4d0b502	Brûlures au troisième degré	lot sorts_classes_020
-sort	804616		ToolTip	3ec290253633	|cffffffffVague de flammes|r réinitialise le temps de recharge de |cffffffffMarque brûlante|r.	lot sorts_classes_020
+sort	804616		ToolTip	3ec290253633	|cffffffffDéferlante de flammes|r réinitialise le temps de recharge de |cffffffffMarque brûlante|r.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du français fourni (Flame Swell = Déferlante de flammes).
 sort	804621		Description	8c16d5aba3d7	|cffffffffInvoque Bethekk|r\nVous transforme en panthère pendant $d. Pendant cette durée, vous bondissez toutes les $t1 sec. sur un ennemi proche au hasard, le lacérant de vos griffes pour des dégâts de l'arme plus $804623s1.	lot sorts_classes_020
 sort	804621		Name	5b6d7204a608	Fureur de Bethekk	lot sorts_classes_020
 sort	804621		ToolTip	018150ab8f67	Vous bondissez sur un ennemi proche au hasard et lui infligez des dégâts physiques toutes les $t1 sec. pendant $d.	lot sorts_classes_020
@@ -123,8 +123,8 @@ sort	804666		ToolTip	9162a0fcf0f8	Réduit jusqu'à $706803s1% le coût en énerg
 sort	804667		Description	5885ca2a2b13	Augmente de $s1% la réputation gagnée par votre groupe pendant $d.	lot sorts_classes_020
 sort	804667		Name	89fcabff6c30	Conversation charmante	lot sorts_classes_020
 sort	804667		ToolTip	79c5566f80d3	Réputation gagnée augmentée de ${$w1}%.	lot sorts_classes_020
-sort	804669		Description	a08eae086f4e	Vole à la tire une cible ennemie.	lot sorts_classes_020
-sort	804669		Name	06a9a9a1b02a	Doigts collants	lot sorts_classes_020
+sort	804669		Description	a08eae086f4e	Fait les poches d'une cible ennemie.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : « Vole à la tire une cible ennemie » est agrammatical (vole à la tire se construit avec un complément d'objet, pas la victime) ; tournure officielle « Fait les poches ».
+sort	804669		Name	06a9a9a1b02a	Vole à la tire la cible ennemie.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : « Vole à la tire une cible » est maladroit ; « pick a pocket » se tourne mieux avec « Fait les poches d'une cible ennemie »
 sort	804674		Description	566e6d410f9e	Invoque un |cFFFFFFFFOrbe de divination|r pendant $d, que vous pouvez contrôler directement et à travers lequel vous pouvez voir.	lot sorts_classes_020
 sort	804674		Name	85b44020353d	Orbe de divination	lot sorts_classes_020
 sort	804674		ToolTip	2382e3c672db	Contrôle un orbe de divination.	lot sorts_classes_020
@@ -136,7 +136,7 @@ sort	804680		Name	09b6aa6507d0	Harmonie	lot sorts_classes_020
 sort	804680		ToolTip	07a8221d197d	Distance de détection par les ennemis réduite de ${$w1} mètres. Vitesse de déplacement augmentée de ${$w2}%. Vous pouvez marcher sur l'eau.	lot sorts_classes_020
 sort	804681		Description	cdf4cac30c1a	Anime un |cFFFFFFFFForgeron squelettique|r qui peut réparer l'équipement des alliés pendant $d.	lot sorts_classes_020
 sort	804681		Name	090edcd8c339	Animation : Forgeron squelettique	lot sorts_classes_020
-sort	804682		Description	776dbbf01ce7	Construit un |cffffffffCampement|r et place un |cffffffffFeu de camp|r à proximité pendant $d. Les alliés peuvent interagir avec lui pour être reposés pendant $997616d.	lot sorts_classes_020
+sort	804682		Description	776dbbf01ce7	Construit un |cffffffffCampement|r et place un |cffffffffFeu de camp|r à proximité pendant $d. Les alliés peuvent interagir avec lui pour être bien reposés pendant $997616d.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : « well rested » = « bien reposé » ; « reposés » seul perd le sens de l'état.
 sort	804682		Name	0ee1ca021fd1	Campement	lot sorts_classes_020
 sort	804683		Description	a3f5c4870565	Crée une |cffffffffForge de forgeron|r et une |cffffffffEnclume|r à votre position pendant $d.	lot sorts_classes_020
 sort	804683		Name	5850595ff7d1	Forge des enfers	lot sorts_classes_020
@@ -153,9 +153,9 @@ sort	804690		Name	003e3b622a8d	Sac de parachute	lot sorts_classes_020
 sort	804691		Description	44a68f32a3f3	Augmente de $s1% la vitesse de déplacement monté de tous les membres du groupe et du raid situés à moins de $a1 mètres pendant $d.\n\r\nPeut être utilisé en selle. Ne se cumule pas avec les effets similaires.	lot sorts_classes_020
 sort	804691		Name	71b37c28e306	Charge de cavalerie	lot sorts_classes_020
 sort	804691		ToolTip	d64d24ff86ef	Vitesse de déplacement monté augmentée de ${$w1}%.  Ne se cumule pas avec les autres effets qui augmentent la vitesse de déplacement.	lot sorts_classes_020
-sort	804700		Description	9fc981ae84d6	Vous entrez en rage, ce qui augmente de $s1% les dégâts de votre aptitude |cffffffffMorsure vorace|r et améliore considérablement de $s3% ses chances d'appliquer |cffffffffGriffe-sinistre|r pendant $d. \r\n\r\nPendant cet effet, les soins de |cffffffffMorsure vorace|r sont réduits de $s2%.	lot sorts_classes_020
+sort	804700		Description	9fc981ae84d6	Vous entrez en rage, ce qui augmente de $s1% les dégâts de votre aptitude |cffffffffMorsure vorace|r et améliore considérablement de $s3% ses chances d'appliquer |cffffffffGriffe sinistre|r pendant $d. \r\n\r\nPendant cet effet, les soins de |cffffffffMorsure vorace|r sont réduits de $s2%.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Griffe sinistre » (sans trait d'union) comme fourni
 sort	804700		Name	a4fbbc93c5c9	Abandon téméraire	lot sorts_classes_020
-sort	804700		ToolTip	4eeb17c95862	Votre aptitude Morsure vorace inflige ${$w1}% de dégâts supplémentaires et a beaucoup plus de chances d'appliquer Griffe-sinistre. Soins reçus réduits de ${$w2}%.	lot sorts_classes_020
+sort	804700		ToolTip	4eeb17c95862	Votre aptitude Morsure vorace inflige ${$w1}% de dégâts supplémentaires et a beaucoup plus de chances d'appliquer Griffe sinistre. Soins reçus réduits de ${$w2}%.	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : Nom de sort : « Griffe sinistre » comme fourni
 sort	804702		Description	dc8095fe2cbc	Ordonne à votre monture de piétiner, infligeant ${$m1+$AP*.55} points de dégâts de Colonne de flammes aux ennemis proches.\r\n\r\nDégâts augmentés de $804787s2% pour chaque charge de |cffffffffVoie des flammes infernales|r que vous possédez.	lot sorts_classes_020
 sort	804702		Name	ad2fa11fcc95	Piétinement du cavalier de l'effroi	lot sorts_classes_020
 sort	804703		Description	f40faafdcfeb	Montez votre |cFFFFFFFFDestrier de guerre xorothien|r, ce qui augmente la vitesse de déplacement de $s1%.\r\n\r\nGénère |cffffffffVoie des flammes infernales|r si vous n'avez ni infligé ni subi de dégâts pendant $t3 sec., cumulable jusqu'à 2 fois. Ce maximum passe à 3 fois au niveau 30 et à 5 fois au niveau 40.\r\n\r\nUtilisable en combat et lançable en mouvement.\r\n@s:804787:0@	lot sorts_classes_020
@@ -165,7 +165,7 @@ sort	804704		Description	0f7ef48d14ee	Votre |cFFFFFFFFDestrier de guerre|r bondi
 sort	804704		Name	8363e1d2f5bf	Piétinement des flammes infernales	lot sorts_classes_020
 sort	804707		Description	29e55aad92e0	Invoque une |cFFFFFFFFScierie portative|r compacte à votre position.\n\nCet objet sert d'atelier de scierie.\n\nLa |cFFFFFFFFScierie portative|r se dissipe après $d.	lot sorts_classes_020
 sort	804707		Name	0c963dd6391e	Construction : scierie portative	lot sorts_classes_020
-sort	804713		Description	f5b0fd3fbd10	Augmente votre Intelligence de 1 pendant $d.\r\n\r\nÀ la fin de l'effet, vous subissez une |cffffffffMigraine furieuse|r pendant $805123d.@s:805123:0@	lot sorts_classes_020
+sort	804713		Description	f5b0fd3fbd10	Augmente votre Intelligence de 1 pendant $d.\r\n\r\nÀ la fin de l'effet, vous subissez une |cffffffffMigraine furieuse|r pendant $805123d.@s:805123:0@	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Raging Migraine = Migraine furieuse.
 sort	804713		Name	b72544805baa	Intelligence débridée	lot sorts_classes_020
 sort	804713		ToolTip	5d0586672ddd	Difficultés d'apprentissage.	lot sorts_classes_020
 sort	804717		Description	f5c98edc7f3a	Augmente de $s1% l'armure apportée par vos objets.	lot sorts_classes_020
@@ -215,7 +215,7 @@ sort	804777		Name	522c91c903c9	Rituel surnaturel	lot sorts_classes_020
 sort	804780		Description	1c44578d3427	Votre aptitude Tourbillon barbare pousse désormais votre serviteur Ancêtre honoré à effectuer une attaque tourbillonnante similaire, infligeant des dégâts physiques aux ennemis qui l'entourent selon votre Agilité et votre Esprit.\n\nDe plus, utiliser Avancée tourbillonnante pousse votre Ancêtre honoré à faire de même.	lot sorts_classes_020
 sort	804780		Name	388c9eeb4130	Duo mortel	lot sorts_classes_020
 sort	804780		ToolTip	1c44578d3427	Votre aptitude Tourbillon barbare pousse désormais votre serviteur Ancêtre honoré à effectuer une attaque tourbillonnante similaire, infligeant des dégâts physiques aux ennemis qui l'entourent selon votre Agilité et votre Esprit.\n\nDe plus, utiliser Avancée tourbillonnante pousse votre Ancêtre honoré à faire de même.	lot sorts_classes_020
-sort	804781		Description	a6c27f8182ba	Payez une dîme de 1 pièce d'argent pour apprendre une nouvelle aptitude spéciale qui renforce tout votre groupe.\n\n@ext:|cffffffffRoyaumes de l'est :|r Abbaye de Comté-du-nord, Le Glas, Cathédrale de la Lumière, Monastère écarlate, Strahnbrande, Chapelle de l'Espoir de Lumière, Le Sépulcre.|n|n|cffffffffKalimdor :|r Temple de la Lune, Ethel Rethor, Vallée des Esprits, Le bassin des Visions.$?s800981[.|n|n|cffffffffOutreterre :|r Cour de la chapelle, Shattrath, Temple de Telhamat, Auchindoun, Ruines de Karabor, Oshu'gun.][]:ext@	lot sorts_classes_020
+sort	804781		Description	a6c27f8182ba	Payez une dîme de 1 pièce d'argent pour apprendre une nouvelle aptitude spéciale qui renforce tout votre groupe.\n\n@ext:|cffffffffRoyaumes de l'est :|r Abbaye de Comté-du-nord, Le Glas, Cathédrale de la Lumière, Monastère écarlate, Strahnbrande, Chapelle de l'Espoir de Lumière, Le Sépulcre.|n|n|cffffffffKalimdor :|r Temple de la Lune, Ethel Rethor, Vallée des Esprits, Les Bassins de la Vision.$?s800981[.|n|n|cffffffffOutreterre :|r Cour de la chapelle, Shattrath, Temple de Telhamat, Auchindoun, Ruines de Karabor, Oshu'gun.][]:ext@	lot sorts_classes_020 | relu par l'API (relecture 0.9.5) : Nom officiel « Les Bassins de la Vision ».
 sort	804781		Name	f00a5cfa0d60	Dîme	lot sorts_classes_020
 sort	809935		Name	5f3c57a33576	Voie du rêve : Bosquet du rêve	lot sorts_classes_020
 sort	809936		Name	7490cdb87e8f	Voie du rêve : L'Ombrage	lot sorts_classes_020

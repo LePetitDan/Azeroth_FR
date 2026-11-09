@@ -1,6 +1,6 @@
 type	id	sous_id	champ	en	en_empreinte	fr	etat	source	note
 objet_monde	4		name	Bonfire Damage	09d4bc4f8a58	Dégâts Feu de joie	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	30		name	Dalaran Forge Spell Focus	c2bdee09392f		a_traduire		
+objet_monde	30		name	Dalaran Forge Spell Focus	c2bdee09392f	Focalisateur de sort de la forge de Dalaran	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	31		name	Old Lion Statue	7562b271f792	Statue du vieux lion	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	32		name	Sunken Chest	dfdb1424f492	Coffre englouti	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	33		name	Locked Chest	a1e9ab114faa	Coffre verrouillé	officiel	blizzard_frFR	gameobject_template_locale
@@ -69,7 +69,7 @@ objet_monde	123		name	Elwynn Forest	1de47c9b77e7	Forêt d’Elwynn	officiel	bliz
 objet_monde	124		name	Moonbrook	459703372c90	Ruisselune	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	128		name	Mine Egg	ff19f13e93a2	Mon œuf	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	128		castBarCaption	Destroying	8e7fee16275a	Destruction	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
-objet_monde	129		name	Naxx Teleporter trap	0febe0335031		a_traduire		
+objet_monde	129		name	Naxx Teleporter trap	0febe0335031	Piège de téléportation de Naxx	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	167		name	Abercrombie's Crate	067bb6356720	Caisse d'Abercrombie	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	174		name	Common Anvil	3e92003e6d15	Enclume commune	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	224		name	Terokkar Web 04	7be09e881854	TerokkarWeb 04	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -1471,7 +1471,7 @@ objet_monde	19093		name	Old Blackfathom Facade	986a1a0b42b3	Ancienne façade de 
 objet_monde	19094		name	Dire Maul	50ef54303307	Hache-tripes	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19095		name	Dire Maul Back Entrance	13b20c7f09ee	Entrée arrière de Hache-tripes	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19096		name	Dire Maul Instance	33106ed31104	Instance de Hache-tripes	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
-objet_monde	19097		name	Maraudon	545766a85e2c		a_traduire		
+objet_monde	19097		name	Maraudon	545766a85e2c		technique		technique=à garder en anglais (atelier, 0.9.5) : nom officiel identique en français
 objet_monde	19098		name	Maraudon Intance	d60837f08e47	Instance de Maraudon	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19099		name	Onyxia's Lair	f71a541acf45	Repaire d'Onyxia	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19100		name	Onyxia's Lair Piece	f356de53cf8b	Pièce du Repaire d'Onyxia	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
@@ -1484,7 +1484,7 @@ objet_monde	19106		name	Razorfen Kraul Intance	4c0c76df1d39	Instance du Kraal de
 objet_monde	19107		name	Wailing Caverns	98d65db1357f	Cavernes des lamentations	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19108		name	Wailing Caverns Intance	559dc0d52735	Instance des Cavernes des lamentations	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19109		name	Wailing Caverns Teeth	bff0415a8a18	Dents des Cavernes des lamentations	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
-objet_monde	19110		name	Gnomeragan	7ceb3401d5f1		a_traduire		
+objet_monde	19110		name	Gnomeragan	7ceb3401d5f1	Gnomeregan	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	19111		name	Gnomeragan Instance	fc8d7a1fb84c	Instance de Gnomeregan	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19112		name	Uldaman Piece	8dd334699eb5	Pièce d'Uldaman	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19113		name	Uldaman Piece 2	478fe865b8b3	Pièce d'Uldaman 2	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
@@ -1609,7 +1609,7 @@ objet_monde	19231		name	Pirate Ship 2	189e005711b2	Navire pirate 2	machine	claud
 objet_monde	19232		name	Ruined Fortress	05385dd9d9b2	Forteresse en ruine	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19233		name	Ruined Keep	1e1a56ebb1f9	Donjon en ruine	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19234		name	Crypt Intance	be6c88c8350d	Instance de crypte	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
-objet_monde	19235		name	Spidermane	863ec4d54bef		a_traduire		
+objet_monde	19235		name	Spidermane	863ec4d54bef		technique		technique=à garder en anglais (atelier, 0.9.5) : nom de modèle obscur de CoA
 objet_monde	19236		name	Furbolg Cave	594a34366851	Grotte furbolg	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19237		name	Timbermaw Hold	24d1fb51089b	Repaire des Grumegueules	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
 objet_monde	19238		name	Scarley Monastery	e5daa4ed5c09	Monastère Écarlate	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_001.tsv) | lot objets_monde_001
@@ -1745,7 +1745,7 @@ objet_monde	19369		name	Gates of Grim Batol	3756ec27ceed	Portes de Grim Batol	ma
 objet_monde	19370		name	Ironforge	d864ffe6a2bd	Forgefer	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	19371		name	Dam	9c69f0c563d1	Barrage	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
 objet_monde	19372		name	Excavation Plataform	01d610421b1b	Plate-forme d'excavation	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
-objet_monde	19374		name	Netherguard Walls	cfd5f323a190		a_traduire		
+objet_monde	19374		name	Netherguard Walls	cfd5f323a190	Murs de la Garde-néant	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	19375		name	Cathedral	b44cff7a9e7f	Cathédrale	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
 objet_monde	19376		name	Slaughter House	52ad909af84a	Abattoir	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
 objet_monde	19377		name	Ziggurat	79b3a2af1e05	Ziggourat	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
@@ -2268,10 +2268,10 @@ objet_monde	21628		name	Anvil	f0537d9559f3	Enclume	officiel	blizzard_frFR	niveau
 objet_monde	21629		name	Anvil	f0537d9559f3	Enclume	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
 objet_monde	21630		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	21631		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	21653		name	unk	b3fcbabcdff5		a_traduire		
-objet_monde	21654		name	unk	b3fcbabcdff5		a_traduire		
-objet_monde	21655		name	unk	b3fcbabcdff5		a_traduire		
-objet_monde	21656		name	unk	b3fcbabcdff5		a_traduire		
+objet_monde	21653		name	unk	b3fcbabcdff5		technique		technique=à garder en anglais (atelier, 0.9.5) : marque technique
+objet_monde	21654		name	unk	b3fcbabcdff5		technique		technique=à garder en anglais (atelier, 0.9.5) : marque technique
+objet_monde	21655		name	unk	b3fcbabcdff5		technique		technique=à garder en anglais (atelier, 0.9.5) : marque technique
+objet_monde	21656		name	unk	b3fcbabcdff5		technique		technique=à garder en anglais (atelier, 0.9.5) : marque technique
 objet_monde	21678		name	Anvil	f0537d9559f3	Enclume	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	21679		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	21680		name	Duel Flag	bbb76d87b006	Drapeau de duel	officiel	blizzard_frFR	gameobject_template_locale
@@ -4538,7 +4538,7 @@ objet_monde	90603		name	Bonfire RPG PROP	cf766def5e33	Accessoire RPG de feu de j
 objet_monde	90603		castBarCaption	Inspecting	545835b49fc0	Inspection	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	90604		name	Grunt Shoulder RPG PROP	eb150f01ce04	PROP RPG d'épaule de grognement	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
 objet_monde	90604		castBarCaption	Inspecting	545835b49fc0	Inspection	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
-objet_monde	90605		name	Grunt Axe RPG PROP	973e04f3e328		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Grunt Axe RPG PROP »
+objet_monde	90605		name	Grunt Axe RPG PROP	973e04f3e328		technique		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Grunt Axe RPG PROP » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG PROP
 objet_monde	90605		castBarCaption	Inspecting	545835b49fc0	Inspection	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	90606		name	Shabby Knife	0b84dca79a4f	Couteau minable	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	90607		name	Lost Goods 	385dc0ef0c41	Biens perdus	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -5179,16 +5179,16 @@ objet_monde	97135		name	Useless Racing Parts	2e360f6fdd11	Pièces de course inut
 objet_monde	97136		name	Needlewind Crossbow	68643b856beb	Arbalète à vent aiguille	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97137		name	Lost Shipment	2721123e1a7a	Envoi perdu	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97379		name	Floating Books RPG Prop	254296c5d941	Livres flottants RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97392		name	Mage Tower Floating Book RPG Prop	02afb852a102	Mage Tower Livre flottant RPG Prop	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Mage Tower→Tour des mages
+objet_monde	97392		name	Mage Tower Floating Book RPG Prop	02afb852a102		technique	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Mage Tower→Tour des mages | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97394		name	Magic Banner RPG Prop	c0e1f669b9af	Prop de RPG de bannière magique	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97395		name	Arcane Prison RPG Prop	22144a2f713a	Accessoire RPG de prison arcanique	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97396		name	Blue Rune Circle Large RPG Prop	c092413ddfb9	Grand accessoire RPG Blue Rune Circle	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Rune Circle→Cercle de runes
+objet_monde	97396		name	Blue Rune Circle Large RPG Prop	c092413ddfb9		technique	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Rune Circle→Cercle de runes | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97397		name	Human Townhall Commander Desk Level 3 RPG Prop	5d3f2c6c3d72	Human Townhall Commander Desk Niveau 3 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97398		name	General Medium Chair RPG Prop	51603b070687	Accessoire RPG de chaise moyenne générale	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97399		name	Human Inn Table Small 2 RPG Prop	53da78fa1e69	Human Inn Table Petit 2 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97401		name	Kultiras Long Rug RPG Prop	9be12aebd5e7	Accessoire RPG Kultiras Long Rug	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97403		name	Human Inn Food Plate 4 RPG Prop	2637ea7e9559		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Inn Food Plate 4 RPG Prop »
-objet_monde	97404		name	Human Townhall Commander Shelf 3 RPG Prop	7adfb1792905		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Townhall Commander Shelf 3 RPG Prop »
+objet_monde	97403		name	Human Inn Food Plate 4 RPG Prop	2637ea7e9559		technique		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Inn Food Plate 4 RPG Prop » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
+objet_monde	97404		name	Human Townhall Commander Shelf 3 RPG Prop	7adfb1792905		technique		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Townhall Commander Shelf 3 RPG Prop » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97405		name	Vampire Magic Quill Floating RPG Prop	ab06fc9abce3	Vampire Magic Quill Flottant RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97406		name	Human Inscription Desk RPG Prop	41dceed412fb	Accessoire RPG de bureau d'inscription humaine	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
 objet_monde	97407		name	Glowing Blue Rune RPG Prop	786b79e27e11	Accessoire RPG Rune bleu brillant	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -5208,11 +5208,11 @@ objet_monde	97426		name	Stormwind Grave 12 RPG Prop	285f32184584	Accessoire RPG 
 objet_monde	97427		name	Human Enchanting Jars 1 RPG Prop	e1f48907b5aa	Pots enchanteurs humains 1 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97428		name	Inscription Bookstack 5 RPG Prop	decb9e6c9729	Inscription Bookstack 5 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97430		name	Human Townhall Commander Desk 2 RPG Prop	cdbff025ee9c	Accessoire RPG Human Townhall Commander Desk 2	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97431		name	Human Townhall Commander Desk 0 RPG Prop	c53966ec2d25		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Townhall Commander Desk 0 RPG Prop »
+objet_monde	97431		name	Human Townhall Commander Desk 0 RPG Prop	c53966ec2d25		technique		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Townhall Commander Desk 0 RPG Prop » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97432		name	Human Enchanting Jar 3 RPG Prop	c121b0f04adc	Pot enchanteur humain 3 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97433		name	Human Enchanting Table Small RPG Prop	2e49caf69c0b	Table enchantée humaine petit accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97435		name	Human Bookshelf Large 3 RPG Prop	4254cddf81f0	Bibliothèque humaine Grand 3 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97437		name	Ley Crystal RPG Prop	155199a41000		a_revoir		D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Accessoire RPG Ley Crystal »
+objet_monde	97437		name	Ley Crystal RPG Prop	155199a41000		technique		D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Accessoire RPG Ley Crystal » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97438		name	Human Enchanting Shelf Floating 1 RPG Prop	22758c5eaa6c	Étagère enchanteresse humaine flottante 1 accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97439		name	Human Bookshelf 6 RPG Prop	e4c865d6a232	Bibliothèque humaine 6 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97440		name	Human Bookshelf Large 1 RPG Prop	eeeea51aac20	Bibliothèque humaine Grand 1 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -5232,16 +5232,16 @@ objet_monde	97489		name	Garden Flower Clump Orange RPG Prop	443e47ad9a33	Jardin 
 objet_monde	97490		name	Garden Flower Clump Pink RPG Prop	1c16109e869c	Jardin Fleur Bouquet Rose RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97491		name	Garden Flower Clump Red RPG Prop	71a76aba7907	Jardin Fleur Bouquet Rouge RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97492		name	Stormwind Gravestone Dirt RPG Prop	6a958acffc3f	Accessoire RPG de saleté de pierre tombale de Hurlevent	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;glossaire=Stormwind→Hurlevent | correction mécanique du glossaire : Stormwind→Hurlevent
-objet_monde	97493		name	Hellfire Supplies 5 RPG Prop	f33917320f52		a_traduire		
-objet_monde	97494		name	Hellfire Supplies 6 RPG Prop	fc6f1178b208		a_traduire		
-objet_monde	97495		name	Human Storehouse Cratestack 2 RPG Prop	4ebca53c257d		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Storehouse Cratestack 2 RPG Prop »
-objet_monde	97496		name	Hellfire Supplies 4 RPG Prop	46a58169958d		a_traduire		
+objet_monde	97493		name	Hellfire Supplies 5 RPG Prop	f33917320f52		technique		technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
+objet_monde	97494		name	Hellfire Supplies 6 RPG Prop	fc6f1178b208		technique		technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
+objet_monde	97495		name	Human Storehouse Cratestack 2 RPG Prop	4ebca53c257d		technique		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Human Storehouse Cratestack 2 RPG Prop » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
+objet_monde	97496		name	Hellfire Supplies 4 RPG Prop	46a58169958d		technique		technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97497		name	Necromancer Rug 2 RPG Prop	d4653981a44a	Nécromancien Tapis 2 RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97498		name	Inn Bench RPG Prop	cb70da704a75	Accessoire RPG de banc d'auberge	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;glossaire=apostrophe courbe (convention : droite) | correction mécanique du glossaire : apostrophe droite
-objet_monde	97499		name	Rogue Lockpicking Junk 1 RPG Prop	a78b3064f088		a_revoir		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Rogue Lockpicking Junk 1 RPG Prop »
+objet_monde	97499		name	Rogue Lockpicking Junk 1 RPG Prop	a78b3064f088		technique		D=refuse_qc:reste_en_anglais | indice de l'archive (refuse_qc:reste_en_anglais, 1 candidat) : « Rogue Lockpicking Junk 1 RPG Prop » | technique=à garder en anglais (atelier, 0.9.5) : accessoire technique RPG Prop
 objet_monde	97500		name	Rogue Smokebomb Crate 3 RPG Prop	5e28126f2aa4	Rogue Smokebomb Crate 3 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97501		name	Rogue Poison Case 1 RPG Prop	131a24f09b49	Rogue Poison Case 1 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	97502		name	Rogue Poison Vial RPG Prop	e2cc76d7c564	Accessoire RPG Rogue Poison Vial	a_revoir	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Poison Vial→Fiole de poison
+objet_monde	97502		name	Rogue Poison Vial RPG Prop	e2cc76d7c564	Fiole de poison de voleur (accessoire RPG)	machine	claude	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | refusée au contrôle d'entrée de l'étape 1 : nom_officiel:Poison Vial→Fiole de poison | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts) | ancienne proposition (a_revoir) : « Accessoire RPG Rogue Poison Vial »
 objet_monde	97503		name	Rogue Poison Case 3 RPG Prop	edcf280b0d69	Rogue Poison Case 3 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97504		name	Rogue Poison Case 2 RPG Prop	cf09b2bdfb77	Rogue Poison Case 2 Accessoire RPG	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	97505		name	Human Pulley Crates RPG Prop	0c3b3c4984a1	Caisses à poulie humaine RPG Prop	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -5274,7 +5274,7 @@ objet_monde	100028		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	bli
 objet_monde	100035		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
 objet_monde	100575		name	Legion pocket portal	634aef4318df	Portail de poche de la Légion	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
 objet_monde	100576		name	Portal to Blasted Lands	292577a50e12	Portail vers les terres Foudroyées	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	100626		name	Azerothian Schmorgus Board	b33332e7a97e		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	100626		name	Azerothian Schmorgus Board	b33332e7a97e		technique		CoA du 08/11/2026 (commit b39aa861) | technique=à garder en anglais (atelier, 0.9.5) : Schmorgus est un nom inventé et le sens de « Board » reste incertain ; rien de sûr à traduire
 objet_monde	101748		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	101749		name	Shaman Shrine	301cc409a2a2	Autel du chaman	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	101750		name	Shaman Shrine	301cc409a2a2	Autel de chaman	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
@@ -5847,7 +5847,7 @@ objet_monde	128196		name	Magenta Cap Clusters Trap	3b9223620e97	Piège des champ
 objet_monde	128293		name	Magenta Cap Clusters	d3d3c09f2fbc	Champignons magenta	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	128308		name	Shallow Grave	65e61d49bb1d	Tombe peu profonde	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	128403		name	Shallow Grave	65e61d49bb1d	Tombe peu profonde	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	128972		name	Shallow Grave TRAP	ea385e96e10d		a_traduire		
+objet_monde	128972		name	Shallow Grave TRAP	ea385e96e10d	Tombe peu profonde (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	129127		name	Gallywix's Lockbox	11c79c06c4da	Coffret de Bisbiwix	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	129206		name	Campfire	f80ba508d3cb	Feu de camp	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	129364		name	Mojo Cauldron	49552b7105fb	Chaudron de mojo	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Chaudron de Mojo rajeunissant » | anglais que traduisait l'archive : « Cauldron of Rejuvenating Mojo » | traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
@@ -6805,7 +6805,7 @@ objet_monde	151981		name	Steamwheedle Port	8eb656806899	Port Gentepression	offic
 objet_monde	151982		name	Gadgetzan	ee61f46ea067	Gadgetzan	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	151983		name	Gadgetzan	ee61f46ea067	Gadgetzan	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	151984		name	Steamwheedle Port	8eb656806899	Port Gentepression	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	151992		name	auctionhouse	c8d2a03db174		a_traduire		
+objet_monde	151992		name	auctionhouse	c8d2a03db174		technique		technique=à garder en anglais (atelier, 0.9.5) : nom technique en minuscules, sans texte à traduire
 objet_monde	152032		name	Anvil	f0537d9559f3	Enclume	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	152033		name	Stone Anvil	8c038545255f	Enclume en pierre	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	152034		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	gameobject_template_locale
@@ -9640,7 +9640,7 @@ objet_monde	176991		name	Tirisfal	fca5d4c1e80e	Tirisfal	officiel	blizzard_frFR	g
 objet_monde	176992		name	Darrowshire	a1a7dca9a404	Comté-de-Darrow	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	176993		name	Andorhal	dcb603943a50	Andorhal	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	176994		name	Hearthglen	1f1d72f80e7a	Âtreval	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	176996		name	CavernDoor01	8de00723906b		a_traduire		
+objet_monde	176996		name	CavernDoor01	8de00723906b		technique		technique=à garder en anglais (atelier, 0.9.5) : identifiant technique
 objet_monde	176998		name	Campfire	f80ba508d3cb	Feu de camp	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	176999		name	Campfire	f80ba508d3cb	Feu de camp	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177000		name	Hot Coal	bd569c9889bc	Charbon rougeoyant	officiel	blizzard_frFR	gameobject_template_locale
@@ -9890,7 +9890,7 @@ objet_monde	177489		name	Darrowshire Bloodletter Waypoint 3	8ae381681f74	Point d
 objet_monde	177490		name	Northridge Lumber Mill Crate	607d010207e2	Caisse de la scierie de la Crête du nord	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177491		name	Termite Barrel	38fdd2cacd7a	Tonneau de termites	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177492		name	Northridge Lumber Mill Crate	607d010207e2	Caisse de la scierie de la Crête du nord	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	177493		name	Fire of Elune (Trap	b3cd1d241726		a_traduire		
+objet_monde	177493		name	Fire of Elune (Trap	b3cd1d241726	Feu d'Élune (piège	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	177494		name	Wooden Chair	d86134f89dc6	Chaise en bois	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177495		name	Wooden Chair	d86134f89dc6	Chaise en bois	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177496		name	Wooden Chair	d86134f89dc6	Chaise en bois	officiel	blizzard_frFR	gameobject_template_locale
@@ -9917,7 +9917,7 @@ objet_monde	177525		name	Moonkin Stone	ce8e6290116c	Pierre des séléniens	offic
 objet_monde	177526		name	Relic Bundle	1d0b317a4d09	Ensemble de reliques	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177527		name	Relic Bundle Aura	55fe97d5fc92	Aura d'ensemble de reliques	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177528		name	Darrowshire Town Square spell focus (DND)	9ad12bd659ee	Focus du sort de la place de Comté-de-Darrow (NPD)	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	177529		name	Altar of Elune (Trap	4ccaace911e4		a_traduire		
+objet_monde	177529		name	Altar of Elune (Trap	4ccaace911e4	Autel d'Élune (piège	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	177544		name	Joseph's Chest	d92720783753	Coffre de Joseph	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177545		name	Booty Bay Guard Post	b7090936d909	Poste de garde de Baie-du-Butin	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	177546		name	Gadgetzan Guard Post	b5b94aa0ea42	Poste de garde de Gadgetzan	officiel	blizzard_frFR	gameobject_template_locale
@@ -10181,7 +10181,7 @@ objet_monde	178606		name	Ryson's Beacon Spell Focus	c135381a522b	Focus du sort B
 objet_monde	178608		name	Ryson's Beacon Spell Focus	c135381a522b	Focus du sort Balise de Ryson	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	178609		name	Holiday Snow	90729db71de9	Neige d'hiver	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	178624		name	Lights	646a059adb5e	Lumières	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	178644		name	Ryson's All Seeing Eye Trap	416ff7d40495		a_traduire		
+objet_monde	178644		name	Ryson's All Seeing Eye Trap	416ff7d40495	Œil-qui-voit-tout de Ryson (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	178645		name	Lights x3	9610f699d2f6	Lumières x3	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	178646		name	Alliance Supply Crate	1503b3eb9b4f	Caisse de fournitures de l'Alliance	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	178647		name	Christmas Tree	da141a0edd85	Arbre de Noël	officiel	blizzard_frFR	gameobject_template_locale
@@ -10512,10 +10512,10 @@ objet_monde	179584		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel
 objet_monde	179585		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	179586		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	179587		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	179588		name	CavernDoor01	8de00723906b		a_traduire		
+objet_monde	179588		name	CavernDoor01	8de00723906b		technique		technique=à garder en anglais (atelier, 0.9.5) : identifiant technique
 objet_monde	179595		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	179596		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	179597		name	Meetingstone01	251798db4345		a_traduire		
+objet_monde	179597		name	Meetingstone01	251798db4345		technique		technique=à garder en anglais (atelier, 0.9.5) : identifiant technique
 objet_monde	179644		name	Imprisoned Doomguard	d5a9078d679e	Garde funeste emprisonné	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	179664		name	Earth Elemental Rift	947434db47c7	Faille des élémentaires de terre	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	179665		name	Water Elemental Rift	d3e62e1b1199	Faille des élémentaires d'eau	officiel	blizzard_frFR	gameobject_template_locale
@@ -10966,7 +10966,7 @@ objet_monde	180517		name	Putrid Mushroom	c8e8f90b6df9	Champignon putride	officie
 objet_monde	180518		name	Lesser Wind Stone	b6cdacdfc407	Pierre des vents inférieure	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	180523		name	Apple Bob	49379d32a9de	Jeu des pommes	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	180524		name	Tonk Control Console	692c1188485b	Console de contrôle de la chariotte	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	180525		name	Tonk Control Console Trap	0e2c0e14311d		a_traduire		
+objet_monde	180525		name	Tonk Control Console Trap	0e2c0e14311d	Console de contrôle de la chariotte (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	180526		name	Gong of Bethekk	f50b44a33879	Gong de Bethekk	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	180529		name	Lesser Wind Stone	b6cdacdfc407	Pierre des vents inférieure	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	180534		name	Wind Stone	da0be43a5b17	Pierre du vent	officiel	blizzard_frFR	gameobject_template_locale
@@ -11437,7 +11437,7 @@ objet_monde	181210		name	Deathknight Wing Eye Portal Ramp	367508714031	Rampe de 
 objet_monde	181211		name	Plague Wing Eye Portal Ramp	7c6938ae7aa6	Rampe de l'œil du portail de l'aile de la peste	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181212		name	Spider Wing Eye Portal Ramp	32456ff3c9ee	Rampe de l'œil du portail de l'aile des araignées	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181213		name	Abom Wing Eye Portal Ramp	eabbfda87791	Rampe de l'œil du portail de l'aile des abominations	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	181214		name	Necropolis critter spawner	02b86c3cde9e		a_traduire		
+objet_monde	181214		name	Necropolis critter spawner	02b86c3cde9e	Générateur de bestioles de la Nécropole	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	181215		name	Necropolis (scale 2.5)	9a9859d5c11f	Nécropole (échelle 2,5)	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181217		name	Chair	9feb5376c5dd	Chaise	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181218		name	Chair	9feb5376c5dd	Chaise	officiel	blizzard_frFR	gameobject_template_locale
@@ -11499,7 +11499,7 @@ objet_monde	181286		name	Holographic Emitter	730b56147689	Emetteur holographique
 objet_monde	181287		name	Frozen Rune	9a04a87f9c0c	Rune de givre	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181288		name	Midsummer Bonfire	3400b99e0c85	Feu de joie du solstice d'été	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181289		name	Midsummer Bonfire, Large	9cf5e75ce1a6	Feu de joie du solstice d'été, Grand	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	181290		name	Midsummer Bonfire Spawn Trap	805213d5e86c		a_revoir		D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Feu de joie du solstice » | anglais que traduisait l'archive : « Midsummer Bonfire »
+objet_monde	181290		name	Midsummer Bonfire Spawn Trap	805213d5e86c	Piège d'apparition du feu de joie du solstice d'été	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Feu de joie du solstice » | anglais que traduisait l'archive : « Midsummer Bonfire » | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	181291		name	Mystery Meat	1d73bd9a4b09	Viande mystère	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181300		name	Standing, Large - MFF	36909a36cc6b	Dressé, Grand - FFS	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	181301		name	Camp Pavilion	76e39e06b1a7	Pavillon du camp	officiel	blizzard_frFR	gameobject_template_locale
@@ -13066,7 +13066,7 @@ objet_monde	183275		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR
 objet_monde	183276		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	183277		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	183278		name	Infernaling Summoner	fcb1bd00fb31	Invocateur d'infernalins	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	183282		name	Infernaling Summoner Damage Trap	8090ff6c6da6		a_traduire		
+objet_monde	183282		name	Infernaling Summoner Damage Trap	8090ff6c6da6	Piège de dégâts de l'invocateur de infernal	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	183283		name	Infernaling Summoner Visual	dcf5eca8f65a	Visuel de l'invocateur infernal	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	183284		name	Wanted Poster	ce5fbe34d997	Avis de recherche	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	183286		name	Doodad_PVP_Orc_Door_Front01	f3bee823a5e1	Doodad_PVP_Orc_Door_Front01	officiel	blizzard_frFR	gameobject_template_locale
@@ -14528,7 +14528,7 @@ objet_monde	184978		name	Berserk Buff	70e4b2c222ba	Amélioration berserk	officie
 objet_monde	184979		name	Deathforged Infernal	a152839251ff	Infernal mortforgé	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	184980		name	Felhound Poo	602c2f1d7530	Crotte de gangrechien	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	184980		castBarCaption	Searching	98cc363c0119	Recherche	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
-objet_monde	184981		name	Poodad Trap	81802275ce2c		a_traduire		
+objet_monde	184981		name	Poodad Trap	81802275ce2c		technique		technique=à garder en anglais (atelier, 0.9.5) : nom inventé, sens incertain
 objet_monde	184982		name	Campfire	f80ba508d3cb	Feu de camp	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	184983		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	184984		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	gameobject_template_locale
@@ -14844,7 +14844,7 @@ objet_monde	185302		name	Fei Fei's Cache	e22e6a0ac70d	Cache de Fei Fei	officiel	
 objet_monde	185302		castBarCaption	Searching	98cc363c0119	Recherche	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	185303		name	Fei Fei's Stash	9cadb91e839d	Planque de Fei Fei	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	185304		name	Fumper	59f615e1aad4	Martelheurt	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	185305		name	Fumper Trap	80417e9c19c1		a_traduire		
+objet_monde	185305		name	Fumper Trap	80417e9c19c1		technique		technique=à garder en anglais (atelier, 0.9.5) : nom inventé (Fumper), sens incertain
 objet_monde	185306		name	Death's Door Fel Cannon Spell Focus	e315d023a89e	Focus du gangrecanon de la Porte de la mort	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	185307		name	[DND]Wyvern Cage Focus	8c741b2c69d7	[DND]Focus de la cage à wyverne	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	185308		name	[DND]Wyvern Cage Opening	6af21c5b10bb	[DND]Ouverture de la cage à wyverne	officiel	blizzard_frFR	gameobject_template_locale
@@ -15856,7 +15856,7 @@ objet_monde	186468		name	Whisper Gulch Ore Fragment	587b1bc07ad7	Fragment de min
 objet_monde	186468		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	186469		name	Alcaz Rune Circle	8f3364b389e7	Cercle de runes d'Alcaz	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	186470		name	Whisper Gulch Ore Trap	de69ae6124f6	Piège à minerai du goulet des Murmures	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	186471		name	Holiday - Brewfest - Dark Iron - Mug Trap	cb946db4a2d8		a_traduire		
+objet_monde	186471		name	Holiday - Brewfest - Dark Iron - Mug Trap	cb946db4a2d8	Fête de la bière - Sombrefer - Piège de chope	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	186472		name	Goblin Gumbo Kettle	605be8b3c143	Marmite de gumbo gobelin	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	186475		name	Fishing Chair	c0a7dc2e3b61	Siège de pêche	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	186478		name	Super Brew Stein	d8662062e874	Bock supertonique	officiel	blizzard_frFR	gameobject_template_locale
@@ -17405,7 +17405,7 @@ objet_monde	188454		name	Fizzcrank Paratrooper Teleporter	1239f53ea05d	Télépor
 objet_monde	188455		name	Bonfire	32a57682e32b	Feu de joie	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	188457		name	Nexus Dragon Egg	19526965323c	Œuf de dragon du Nexus	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	188458		name	Seer of Zeb'Halak	b94e0abcc98d	Voyant de Zeb'Halak	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	188459		name	Thor Modan Mole Machine Trap	f418d1da255a		a_traduire		
+objet_monde	188459		name	Thor Modan Mole Machine Trap	f418d1da255a	Taupe mécanique de Thor Modan (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	188460		name	Thor Modan Mole Machine	7c72d3487a58	Taupe mécanique de Thor Modan	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	188461		name	Drakkari Tablets	868a31cdb230	Tablettes drakkari	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	188461		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
@@ -21183,7 +21183,7 @@ objet_monde	194634		name	Doodad_UL_Ulduar_doors02	8302ba33f482	Doodad_UL_Ulduar_
 objet_monde	194635		name	Doodad_UL_BrainRoomDoor_01	6ae602bb8f8d	Doodad_UL_BrainRoomDoor_01	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	194636		name	Doodad_UL_BrainRoomDoor_02	1241dc99dbf1	Doodad_UL_BrainRoomDoor_02	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	194637		name	Doodad_UL_BrainRoomDoor_03	e26f17efd793	Doodad_UL_BrainRoomDoor_03	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	194645		name	Stone Block Trap	b8d6f85db188		a_traduire		
+objet_monde	194645		name	Stone Block Trap	b8d6f85db188	Bloc de pierre (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	194658		name	Campfire	f80ba508d3cb	Feu de camp	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	194659		name	Stove	ff8b2e132fad	Fourneau	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	194660		name	Brazier	db3107194a82	Brasero	officiel	blizzard_frFR	gameobject_template_locale
@@ -21317,7 +21317,7 @@ objet_monde	195036		name	Pure Saronite Deposit	5bb37ca6adcd	Gisement de saronite
 objet_monde	195037		name	Silithid Egg	219b1e617d7b	Œuf de silithide	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195046		name	Cache of Living Stone	6973894ed1cc	Cache de pierre vivante	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195047		name	Cache of Living Stone	6973894ed1cc	Cache de pierre vivante	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	195061		name	Glittering Shell Trap	b0234ffc9d0e		a_traduire		
+objet_monde	195061		name	Glittering Shell Trap	b0234ffc9d0e	Coquillage scintillant (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	195063		name	Orange Marigolds	94f10c3dd763	Chrysanthèmes orange	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195066		name	Bread of the Dead	91766ee93c1f	Pain des morts	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195067		name	Mixed Fruit Bowl	d78d87e1867e	Bol de fruits mélangés	officiel	blizzard_frFR	gameobject_template_locale
@@ -21392,7 +21392,7 @@ objet_monde	195274		name	Stolen Tallstrider Leg	b68c5e862838	Pilon de haut-trott
 objet_monde	195276		name	Horde Gunship	0dbc28fe7d59	Canonnière de la Horde	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195302		name	Argent Crusader's Banner	45170b760fb4	Bannière de croisé d'argent	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195303		name	Bountiful Feast	aecd67f7816d	Festin des Bienfaits	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	195304		name	Stormforged Mole Machine Trap	967be3068683		a_traduire		
+objet_monde	195304		name	Stormforged Mole Machine Trap	967be3068683	Taupe mécanique forge-foudre (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	195305		name	Stormforged Mole Machine	c7bc99f210f6	Taupe mécanique forge-foudre	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195307		name	Orange Marigolds	94f10c3dd763	Chrysanthèmes orange	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	195308		name	Mysterious Snow Mound	65a6e235a257	Monticule de neige mystérieux	officiel	blizzard_frFR	gameobject_template_locale
@@ -21580,14 +21580,14 @@ objet_monde	196468		name	Doodad_InstanceNewPortal_Green02	e567eaa4da01		techniqu
 objet_monde	196469		name	Doodad_InstanceNewPortal_Green03	d838fcad1e42		technique		technique=nom_technique
 objet_monde	196470		name	Doodad_InstanceNewPortal_Green04	cf70eac279e1		technique		technique=nom_technique
 objet_monde	196485		name	Saronite Rock	1adb7c8a80ec	Roche en saronite	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	196829		name	Living Ire Thyme Linked Trap	c16bbef9afa9		a_traduire		
+objet_monde	196829		name	Living Ire Thyme Linked Trap	c16bbef9afa9		technique		technique=à garder en anglais (atelier, 0.9.5) : nom technique au sens incertain
 objet_monde	196840		name	Doodad_icecrown_elevator02	4a685579dfc0	Doodad_icecrown_elevator02	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	196871		name	Silver Covenant Banner	691c0723f786	Bannière du Concordat argenté	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	196872		name	Sunreaver Banner	5a9bfa82232c	Bannière des Saccage-soleil	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	197341		name	Impenetrable Door	25df4bb80d13	Porte infranchissable	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	197342		name	Doodad_IceCrown_Door_02	6217a4fdb73c	Doodad_IceCrown_Door_02	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	197343		name	Doodad_IceCrown_Door_03	077df8c9028a	Doodad_IceCrown_Door_03	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	200000		name	Fel Orc Encampment Custom Area	b7a15465e863		a_traduire		
+objet_monde	200000		name	Fel Orc Encampment Custom Area	b7a15465e863	Zone personnalisée du campement des orcs gangrenés	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	200001		name	Shopping Centre	49e536ec3a1e	Centre commercial	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	200292		name	Doodad_InstancePortal_Green_10Man01	989d9b07be32		technique		technique=nom_technique
 objet_monde	200293		name	Doodad_InstancePortal_Green_25Man01	48c920101d9b		technique		technique=nom_technique
@@ -21771,7 +21771,7 @@ objet_monde	202189		name	Doodad_Icecrown_ThroneFrostyEdge01	f44712cb6cad	Doodad_
 objet_monde	202190		name	Doodad_Icecrown_SnowEdgeWarning01	45d5f240d948	Doodad_Icecrown_SnowEdgeWarning01	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	202192		name	Sunreaver Banner	5a9bfa82232c	Bannière des Saccage-soleil	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	202193		name	Silver Covenant Banner	691c0723f786	Bannière du Concordat argenté	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	202208		name	Discarded Supplies (Trap	0473d8dfc7d0		a_traduire		
+objet_monde	202208		name	Discarded Supplies (Trap	0473d8dfc7d0	Provisions abandonnées (piège	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	202209		name	Doodad_InstanceNewPortal_Purple_Skull01	6788a0a584ea		technique		technique=nom_technique
 objet_monde	202210		name	Doodad_InstanceNewPortal_Purple01	c106a89a8915		technique		technique=nom_technique
 objet_monde	202211		name	Gunship Stairs	24e435635ca1	Escalier de la canonnière	officiel	blizzard_frFR	gameobject_template_locale
@@ -21811,7 +21811,7 @@ objet_monde	202348		name	Doodad_InstancePortal_Green_10Man_Heroic01	8309f55c6a50
 objet_monde	202349		name	Doodad_InstancePortal_Green_25Man01	48c920101d9b		technique		technique=nom_technique
 objet_monde	202350		name	Doodad_InstancePortal_Green_25Man_Heroic01	36e59b88ff29		technique		technique=nom_technique
 objet_monde	202357		name	Drakuru's Last Wish	7592da410015	Dernière volonté de Drakuru	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	202361		name	Rockin' Powder Visual	d3fb3b595a81		a_traduire		
+objet_monde	202361		name	Rockin' Powder Visual	d3fb3b595a81	Effet visuel de la poudre Rockin'	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	202391		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	202392		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	202393		name	Forge	3ab11b75ca36	Forge	officiel	blizzard_frFR	gameobject_template_locale
@@ -21869,7 +21869,7 @@ objet_monde	203034		name	Burning Tree	9b4f103f93c8	Arbre en feu	officiel	blizzar
 objet_monde	203035		name	Burning Tree	9b4f103f93c8	Arbre en feu	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	203036		name	Burning Tree	9b4f103f93c8	Arbre en feu	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	203037		name	Burning Tree	9b4f103f93c8	Arbre en feu	officiel	blizzard_frFR	gameobject_template_locale
-objet_monde	203044		name	Steamwheedle Supplies - Pirate Trap	05c4c1ad7714		a_traduire		
+objet_monde	203044		name	Steamwheedle Supplies - Pirate Trap	05c4c1ad7714	Provisions de Gentepression - Piège de pirate	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	203079		name	Red Dragon Egg (Large)	cd0dba507790	Œuf de dragon rouge (grand)	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	203080		name	Broken Red Dragon Egg (Large)	105661bc69ce	Œuf de dragon rouge brisé (grand)	officiel	blizzard_frFR	gameobject_template_locale
 objet_monde	203624		name	Halion Twilight Ring	33d83a0ac105	Anneau du Crépuscule d'Halion	officiel	blizzard_frFR	gameobject_template_locale
@@ -21877,26 +21877,26 @@ objet_monde	203959		name	Doodad_InstancePortal_Green_10Man01	989d9b07be32		techn
 objet_monde	203960		name	Doodad_InstancePortal_Green_10Man_Heroic01	8309f55c6a50		technique		technique=nom_technique
 objet_monde	203961		name	Doodad_InstancePortal_Green_25Man01	48c920101d9b		technique		technique=nom_technique
 objet_monde	203962		name	Doodad_InstancePortal_Green_25Man_Heroic01	36e59b88ff29		technique		technique=nom_technique
-objet_monde	203971		name	Prickly Pear Fruit Trap	7d81552357ca		a_traduire		
+objet_monde	203971		name	Prickly Pear Fruit Trap	7d81552357ca	Piège de figue de Barbarie	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	204051		name	Doodad_InstancePortal_Green_10Man01	989d9b07be32		technique		technique=nom_technique
 objet_monde	204052		name	Doodad_InstancePortal_Green_10Man_Heroic01	8309f55c6a50		technique		technique=nom_technique
 objet_monde	204053		name	Doodad_InstancePortal_Green_25Man01	48c920101d9b		technique		technique=nom_technique
 objet_monde	204054		name	Doodad_InstancePortal_Green_25Man_Heroic01	36e59b88ff29		technique		technique=nom_technique
-objet_monde	204289		name	Rock Lobster Trap Activator	1e02771d46b8		a_traduire		
-objet_monde	204385		name	Monstrous Clam Trap Activator	1d7618bac605		a_traduire		
-objet_monde	204434		name	Lime Crate Trap	437219c785f5		a_traduire		
-objet_monde	204968		name	Glow Trap	0360e7f15cbf		a_traduire		
+objet_monde	204289		name	Rock Lobster Trap Activator	1e02771d46b8	Activateur de piège à langoustes	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	204385		name	Monstrous Clam Trap Activator	1d7618bac605	Activateur de piège de palourde monstrueuse	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	204434		name	Lime Crate Trap	437219c785f5	Piège de caisse de citrons verts	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	204968		name	Glow Trap	0360e7f15cbf	Piège lumineux	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	205100		name	Ferocious Doomweed	d91f6619ce3d	Herbe funeste féroce	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	205547		name	Stray Land Mine (Armed	1f310d3c57c0		a_traduire		
-objet_monde	205581		name	Suspended Starlight - TRAP	a92c46c123b4		a_traduire		
-objet_monde	206322		name	Wild Black Dragon Egg Trap	bf4d46b99c4e		a_traduire		
-objet_monde	207418		name	Chillwind Egg Trap	c94b9714bf7b		a_traduire		
+objet_monde	205547		name	Stray Land Mine (Armed	1f310d3c57c0	Mine perdue (armée	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	205581		name	Suspended Starlight - TRAP	a92c46c123b4	Lumière stellaire suspendue - PIÈGE	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	206322		name	Wild Black Dragon Egg Trap	bf4d46b99c4e	Œuf de dragon noir sauvage (piège)	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	207418		name	Chillwind Egg Trap	c94b9714bf7b	Piège d'œuf de Froidvent	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	208046		name	Fel Cone	4da7ebbd5fa2	Gangrenoix	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	208426		name	Cinderweb Egg Sac - Spiderling Trap	a89f3281f348		a_traduire		
+objet_monde	208426		name	Cinderweb Egg Sac - Spiderling Trap	a89f3281f348	Sac d'œufs de Cendretoile - Piège d'araignonnet	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	208543		name	Magmolia	24a77d1cbb52	Magmolia	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	208596		name	Flame Druid Idol Trap	65d838aab3b6		a_traduire		
+objet_monde	208596		name	Flame Druid Idol Trap	65d838aab3b6	Piège d'idole de druide de la flamme	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	208815		name	Buried Jar	e75d77449aea	Jarre enterrée	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	209282		name	Paper Pile Trap	27cdcbece70c		a_traduire		
+objet_monde	209282		name	Paper Pile Trap	27cdcbece70c	Piège de pile de papiers	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	209833		name	Silk Patch	a0c30227ee73	Carré de soie	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	209898		name	Watermelon Boat Flag	59a0b1f2e712	Drapeau du bateau-pastèque	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	210068		name	Warsong Clan Banner 07	6582414bd6bb	Bannière du clan Chanteguerre 07	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
@@ -21920,7 +21920,7 @@ objet_monde	210335		name	Twilight Tablet	f4a1ed6f1d71	Tablette du Crépuscule	ma
 objet_monde	210336		name	Twilight Tablet	f4a1ed6f1d71	Tablette du Crépuscule	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	210337		name	Glyphed Crystal	87491cbefd7f	Cristal glyphé	machine	archive_ascensionfr	fichier=fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;famille=id;propage_depuis_B
 objet_monde	210338		name	Gorishi Silithid Crystal	2e72c425657e	Cristal de silithide Gorishi	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	210339		name	Ahn'Qiraj Sand Trap	3bfe7d927893		a_traduire		
+objet_monde	210339		name	Ahn'Qiraj Sand Trap	3bfe7d927893	Piège de sable d'Ahn'Qiraj	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	210341		name	Hive Fireflies 01	305be55eca04	Lucioles de la ruche 01	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	210342		name	Glyphed Crystal	87491cbefd7f	Cristal glyphé	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	210343		name	Sand Worm Rock Base	9816f752bcff	Base rocheuse du ver des sables	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
@@ -21932,7 +21932,7 @@ objet_monde	210348		name	Floating Purple Crystal Broken 01	6dedd1fd4d18	Cristal 
 objet_monde	210349		name	Gastric Exit	89aa7042dfe7	Sortie gastrique	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	210798		name	Recalibrator Pylon	cf7492fc6246	Pylône de recalibrateur	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	210857		name	Dry Fire Wood	59d156d69264	Bois de chauffage sec	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	210946		name	Mite Trap	0e63fb7a0a11		a_traduire		
+objet_monde	210946		name	Mite Trap	0e63fb7a0a11	Piège d'acarien	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	211016		name	Anvil	f0537d9559f3	Enclume	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
 objet_monde	211017		name	Kre'tal's Wagon	2c2bd71ab7af	Chariot de Kre'tal	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	211018		name	Asheron's Tome of Summoning	a8af080497a0	Tome d'invocation d'Asheron	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
@@ -21960,12 +21960,12 @@ objet_monde	211065		name	Grave	09b63d249396	Tombe	machine	archive_ascensionfr	fi
 objet_monde	211067		name	Sarcophag	051079dc87ff	Sarcophage	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	211068		name	Fire Totem	0db8c2fb3940	Totem de feu	officiel	blizzard_frFR	niveau=meme_groupe
 objet_monde	211084		name	Mephistroph's HellFire	76683ae355c9	Flammes infernales de Mephistroph	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	212348		name	Ancient Haunt Trigger	ca80eecc9d85		a_traduire		
-objet_monde	213351		name	Lushroom Linked Trap	540e8b109fa1		a_traduire		
+objet_monde	212348		name	Ancient Haunt Trigger	ca80eecc9d85	Déclencheur de l'ancien repaire hanté	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	213351		name	Lushroom Linked Trap	540e8b109fa1		technique		technique=à garder en anglais (atelier, 0.9.5) : nom technique au sens incertain (Lushroom)
 objet_monde	215404		name	Shroud of Mist	7f0ec03fbba7	Voile de brume	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	215419		name	Luck of the Lotus	3ff412e185ed	Chance du lotus	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	239828		name	Void Portal	52087ad52dd5	Portail du Vide	officiel	blizzard_frFR	niveau=meme_groupe
-objet_monde	244605		name	Underbelly Hoard Trap	f275813eb5c0		a_traduire		
+objet_monde	244605		name	Underbelly Hoard Trap	f275813eb5c0	Piège du trésor des Bas-fonds	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	244614		name	Elwynn Tree	8ac07f7b6d04	Arbre d'Elwynn	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	244614		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	244616		name	Redridge Tree	f05fe68a8d20	Arbre à carmines	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22036,7 +22036,7 @@ objet_monde	254164		name	Scarlet Shield	c24f83d290db	Bouclier écarlate	machine	
 objet_monde	254165		name	Abandoned Bag	4462c6938098	Sac abandonné	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254166		name	Quivering Web	df8b6a9a7ea2	Toile frémissante	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254170		name	Fundamentals of Arcana - Third Edition	6a3d16060695	Fondamentaux d'Arcana - Troisième édition	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	254172		name	Principles of Cryomancy - Ultimate Edition, Version 2	a8858a686775	Principes de la cryomancie - Ultimate Edition, Version 2	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
+objet_monde	254172		name	Principles of Cryomancy - Ultimate Edition, Version 2	a8858a686775	Principes de la cryomancie - Ultimate Édition, Version 2	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua | capitale accentuée (0.9.5)
 objet_monde	254173		name	Falithas Rune	146a57b8d082	Rune Falithas	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254174		name	Shan'dor Rune	e888b01c5d29	Rune Shan'dor	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	254175		name	Meleath Rune	527e41c5a19d	Rune Méléath	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22375,8 +22375,8 @@ objet_monde	300010		name	Hunter's Knife	65d28d740e07	Couteau du chasseur	machine
 objet_monde	300011		name	Jack's Stash	99e05effdf23	La cachette de Jack	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	300017		name	Blue Dragon Crystal	95de84ef795d	Cristal de dragon bleu	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	300028		name	Sticky Sabatons	d7aff780b9d9	Sabots collants	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	300077		name	TEMP Windyreed Hut	4221194a0343		a_traduire		
-objet_monde	300085		name	TEMP Legion Antenna	e476985c5bd7		a_traduire		
+objet_monde	300077		name	TEMP Windyreed Hut	4221194a0343	TEMP Hutte de Windyreed	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	300085		name	TEMP Legion Antenna	e476985c5bd7	TEMP Antenne de la Légion	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	323232		name	First-Class Experimental Teleporter	9f99c052780f	Téléporteur expérimental de première classe	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	324495		name	Skippy's Bone	8e597cdfce53	L'os de Skippy	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	324505		name	Spiced Rum	198027502843	Rhum épicé	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22437,7 +22437,7 @@ objet_monde	375327		name	Stormscale Supplies	ea9617d2d5a5	Fournitures Stormscale
 objet_monde	376296		name	Dreamway: Dream Bough	5f3c57a33576	Voie du rêve : Bosquet du rêve	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	376297		name	Dreamway: Bough Shadow	7490cdb87e8f	Voie du rêve : L'Ombrage	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	376298		name	Dreamway: Twilight Grove	2088e44eff5e	Voie du rêve : Bosquet du crépuscule	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	376299		name	Dreamway: Seradane	991e72163241		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	376299		name	Dreamway: Seradane	991e72163241	Voie du rêve : Seradane	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	380138		name	Shrine of Setis	a43f8a1dbfb6	Sanctuaire de Setis	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_002.tsv) | lot objets_monde_002
 objet_monde	387849		name	Kodo Supplies	42ce38a40e0c	Fournitures Kodo	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	387850		name	Fishing Box	7a80392eb2a1	Boîte de pêche	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -22468,7 +22468,7 @@ objet_monde	395787		name	Ghost-Touched Loom	8e9a869cbced	Métier à tisser touch
 objet_monde	395797		name	Moonwoven Loom	a2af21cb07f8	Métier à tisser en tissu de lune	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	395802		name	Environmentally-Friendly Super Tanner	9d1903a5fe93	Super tanneur écologique	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	395804		name	Lava Bloom	3402556423e3	Fleur de lave	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	395805		name	Dreadmaul Emberloom	320f319ac920		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	395805		name	Dreadmaul Emberloom	320f319ac920	Métier à braises de Dreadmaul	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	395828		name	Thaurissan War Forge	06e49b936f5c	Forge de guerre de Thaurissan	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	395831		name	Forge of Ice	2fc78d0a1501	Forge de glace	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	395843		name	Ravenous Scourgethorn	241dd98ea4d0	Épine du Fléau vorace	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
@@ -23011,7 +23011,7 @@ objet_monde	1326657		name	Druids of the flame- Branches 1 - Small	fb52bc4c628b	D
 objet_monde	1326658		name	Druids of the flame- Branches 2 - Medium	59ecd276ce1e	Druides de la flamme - Branches 2 - Moyen	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	1326659		name	Druids of the flame- Branches 3 - Large	0429c5234c92	Druides de la flamme - Branches 3 - Grand	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	1326661		name	Druids of the flame- Root Brazier 1 (Short Burning)	6aafc86e8d77	Druides de la flamme - Root Brazier 1 (Brûlure courte)	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
-objet_monde	1326662		name	Druids of the flame- Root Brazier 2 (Tall Burning)	32da72dea56f		a_revoir		D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Druides de la flamme - Root Brazier 2 (Tall Burning) »
+objet_monde	1326662		name	Druids of the flame- Root Brazier 2 (Tall Burning)	32da72dea56f	Druides de la flamme - Brasero de racines 2 (grand, en feu)	machine	claude	D=refuse_qc:majoritairement_anglais | indice de l'archive (refuse_qc:majoritairement_anglais, 1 candidat) : « Druides de la flamme - Root Brazier 2 (Tall Burning) » | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	1326665		name	Orc Tent	c20b6036fb28	Tente orque	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	1326666		name	Orc Clan Cup	e45f228122c4	Coupe du Clan Orque	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	1326668		name	Orc Clan Table	27c91d949d98	Tableau du clan orque	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
@@ -23287,20 +23287,20 @@ objet_monde	2300565		name	Doodad_InstanceNewPortal_Purple01	c106a89a8915		techni
 objet_monde	2300566		name	Doodad_InstanceNewPortal_Purple_Skull01	6788a0a584ea		technique		technique=nom_technique
 objet_monde	2300567		name	Doodad_InstancePortal_Green_5Man_Mythic01	948737b50b89		technique		technique=nom_technique
 objet_monde	2300568		name	Meeting Stone	9ad003386c38	Pierre de rencontre	officiel	blizzard_frFR	niveau=meme_champ
-objet_monde	2300575		name	SinisterLair Dungeon Web Door	7907b62aa96b		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	2300575		name	SinisterLair Dungeon Web Door	7907b62aa96b	Porte de la toile du donjon SinisterLair	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	2300576		name	Inquisitorial Dungeon TowerBoss Barrier	e82003cea07d	Tour du donjon inquisitorialBarrière de boss	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300577		name	Inquisitorial Dungeon Kobold Wax Door	a3c8129b7239	Porte de cire Kobold du donjon inquisitorial	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300579		name	Kobold Warren	0ee576cce942	Kobold Warren	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300580		name	Dun Morogh Tree	d5271fb5c441	Arbre Dun Morogh	machine	archive_ascensionfr	fichier=fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua;famille=id;propage_depuis_B
 objet_monde	2300580		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
-objet_monde	2300583		name	SinisterLair Dungeon Web Door	7907b62aa96b		a_traduire		CoA du 08/11/2026 (commit b39aa861)
+objet_monde	2300583		name	SinisterLair Dungeon Web Door	7907b62aa96b	Porte de la toile du donjon SinisterLair	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	2300586		name	Zandalari Urn (Blue)	d53ed6458780	Urne Zandalari (Bleu)	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2300587		name	Muzah Arena Gate (Entrance)	90098f072435	Porte de l'arène de Muzah (entrée)	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
 objet_monde	2300588		name	Muzah Arena Gate (Exit)	c6918de13d21	Porte de l'arène de Muzah (sortie)	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Trésor Kobold » | anglais que traduisait l'archive : « Kobold Treasure » | traduction de Claude (traductions/objets_monde/objets_monde_003.tsv) | lot objets_monde_003
-objet_monde	2300625		name	Rune FX 01	0d9c60ff7a8b		a_traduire		
-objet_monde	2300626		name	Rune FX 02	95549bccc2ed		a_traduire		
-objet_monde	2300627		name	Rune FX 03	c3f0fa912b80		a_traduire		
-objet_monde	2300628		name	Rune FX 04	2d6a6b1f7437		a_traduire		
+objet_monde	2300625		name	Rune FX 01	0d9c60ff7a8b	Effet visuel de rune 01	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	2300626		name	Rune FX 02	95549bccc2ed	Effet visuel de rune 02	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	2300627		name	Rune FX 03	c3f0fa912b80	Effet visuel de rune 03	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+objet_monde	2300628		name	Rune FX 04	2d6a6b1f7437	Effet visuel de rune 04	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	2300631		name	Weapon Crate	fa514fd232c2	Caisse d'armes	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	2300631		castBarCaption	Opening	56e44065a564	Ouverture	machine	release_3.5.1	fichier=release:DB_Repliques.lua;famille=prose
 objet_monde	2300632		name	Arathon's Journal	f9bf421c50ff	Journal d'Arathon	machine	claude	D=anglais_different | indice de l'archive (anglais_different, 1 candidat) : « Journal d'Arathon » | anglais que traduisait l'archive : «  Arathon's Journal » | traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
@@ -23478,9 +23478,9 @@ objet_monde	2310433		castBarCaption	Collecting	7f6efe8370d5	Collecte	machine	rel
 objet_monde	2310434		name	Wilted Flowers	006fe548bda8	Fleurs fanées	machine	archive_ascensionfr	fichier=objets_monde.json;preuve_anglais=release:DB_ObjetsMonde.lua
 objet_monde	2310436		name	[PH] Puente mazmorra enana	333448238089		technique		technique=nom_technique
 objet_monde	2310437		name	Mailbox	2f5c26f8354e	Boîte aux lettres	officiel	blizzard_frFR	niveau=meme_champ;variantes_fr=2
-objet_monde	2310444		name	templeofembers 1st boss barrier	e90c53e0124f		a_traduire		
-objet_monde	2310445		name	templeofembers 1st boss door	b6ad70975227		a_traduire		
-objet_monde	2310461		name	SWS door	2de0f7c0630a		a_traduire		
+objet_monde	2310444		name	templeofembers 1st boss barrier	e90c53e0124f		technique		technique=à garder en anglais (atelier, 0.9.5) : identifiant technique (templeofembers)
+objet_monde	2310445		name	templeofembers 1st boss door	b6ad70975227		technique		technique=à garder en anglais (atelier, 0.9.5) : identifiant technique (templeofembers)
+objet_monde	2310461		name	SWS door	2de0f7c0630a		technique		technique=à garder en anglais (atelier, 0.9.5) : identifiant technique
 objet_monde	2310500		name	Hakkar Worship Altar	2933d975c263	Autel de culte à Hakkar	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
 objet_monde	2399001		name	Braicag Heights Watchtower Charge Point	2f7127fc3b3c	Point de charge de la tour de guet des hauts de Braicag	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
 objet_monde	2399002		name	Cooking Fire Spell Focus	ce07787b0c5d	Foyer de sort : Feu de cuisine	machine	claude	CoA du 08/11/2026 (commit b39aa861) | traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
@@ -23525,7 +23525,7 @@ objet_monde	9000145		name	Fel Rift: Undercity	d431ce107692	Faille gangrenée : 
 objet_monde	9000146		name	Fel Rift: Theramore	dcd42cea5bab	Faille gangrenée : Theramore	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
 objet_monde	9000147		name	Fel Rift: Altar of Storms	66ba202f81a8	Faille gangrenée : Autel des tempêtes	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
 objet_monde	9000148		name	Fel Rift: Mannoroc Coven	9bb5f8e8dd3c	Faille gangrenée : Convent de Mannoroc	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
-objet_monde	9000149		name	Fel Rift: Dark Whisper Gorge	8d5e4db9f109		a_traduire		
+objet_monde	9000149		name	Fel Rift: Dark Whisper Gorge	8d5e4db9f109	Faille gangrenée : Gorge du Sombre murmure	machine	claude	traduction de Claude (traductions/objets_monde/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 objet_monde	9000806		name	Gold Vein	cd836d222005	Filon d'or	officiel	blizzard_frFR	niveau=meme_champ
 objet_monde	9301100		name	Ritual Circle	23fb2e1c653a	Cercle rituel	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004
 objet_monde	9301101		name	Training Wand	2da23b74408d	Baguette d'entraînement	machine	claude	traduction de Claude (traductions/objets_monde/objets_monde_004.tsv) | lot objets_monde_004

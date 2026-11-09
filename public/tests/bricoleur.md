@@ -1,0 +1,228 @@
+# Fiche de test : Bricoleur
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Armes à feu
+
+- [ ] **Napalm** (Spécialisation) — capacité, sort n° 92138
+- [ ] **Tir de ferraille** (Bombe-araignée factice) — capacité, sort n° 500234
+- [ ] **Chancre** — capacité, sort n° 500237
+- [ ] **Clé commotionnante** (Passif) — capacité, sort n° 704107
+- [ ] **Pistolet fumant** (Rang 1) — capacité, sort n° 704108
+- [ ] **Maître des explosions** (Passif) — capacité, sort n° 704110
+- [ ] **Personnalité explosive** (Rang 1) — capacité, sort n° 704111
+- [ ] **Tir de précision** (Rang 1) — capacité, sort n° 800345
+- [ ] **Étendard de suprématie** — capacité, sort n° 800346
+- [ ] **Chargeur de munitions** — capacité, sort n° 800348
+- [ ] **Lancer de bombe** (Rang 1) — capacité, sort n° 801005
+- [ ] **Tourment** — capacité, sort n° 801649
+- [ ] **Torment SLS** — capacité, sort n° 801650
+- [ ] **Augmenteur** (Passif) — capacité, sort n° 801821
+- [ ] **Poudre explosive** — capacité, sort n° 801825
+- [ ] **Une balle dans le canon** (OBSOLÈTE) — capacité, sort n° 801826
+- [ ] **Lance-rocs** — capacité, sort n° 801827 🔀 talents
+- [ ] **Construire : usine à bombes araignées** — capacité, sort n° 802052
+- [ ] **Sagesse de Gazlowe** (Passif) — capacité, sort n° 803074
+- [ ] **Maître sapeur** — capacité, sort n° 805317
+- [ ] **Viser** — capacité, sort n° 805318
+- [ ] **Pas sur MON territoire !** — capacité, sort n° 805321
+- [ ] **Munitions incendiaires** — capacité, sort n° 805322
+- [ ] **Bandoulière explosive** (OBSOLÈTE) — capacité, sort n° 805323
+- [ ] **Plein chargement** — capacité, sort n° 805324
+- [ ] **Ruée de combat** — capacité, sort n° 805325
+- [ ] **Lunette d'assaut** (Passif) — capacité, sort n° 805326
+- [ ] **Le Mastoc** — capacité, sort n° 805327
+- [ ] **Tir éclair** (Rang 1) — capacité, sort n° 805686
+- [ ] **Chargeur rapide** (Passif) — talent, sort n° 300629 🔀 talents
+- [ ] **Cartouche après cartouche** (Rang 1) — talent, sort n° 300631
+- [ ] **Chambre vide** (Passif) — talent, sort n° 300633
+- [ ] **Canon à main amélioré** (Passif) — talent, sort n° 300635
+- [ ] **Inventeur explosif** (Passif) — talent, sort n° 300636
+- [ ] **Shrapnel** (Passif) — talent, sort n° 300638
+- [ ] **Canon à large calibre** (Passif) — talent, sort n° 300640 🔀 talents
+- [ ] **Tireur d'élite azérothien** (Passif) — talent, sort n° 300641
+- [ ] **Impact perforant** (Passif) — talent, sort n° 705756
+- [ ] **Engagement** (Passif) — talent, sort n° 705758
+- [ ] **Rechargement tactique** (Passif) — talent, sort n° 705760
+- [ ] **Étranglement du canon** (Passif) — talent, sort n° 705762
+- [ ] **Cible repérée !** (Passif) — talent, sort n° 705763
+- [ ] **Cartouche après cartouche** (Rang 2) — talent, sort n° 705765
+- [ ] **Charges modulaires** (Passif) — talent, sort n° 705766
+- [ ] **Charges modulaires** (Rang 2) — talent, sort n° 705767
+- [ ] **Fusil à étincelles gizmotronique** (Passif) — talent, sort n° 705770
+- [ ] **BOUM !** (Passif) — talent, sort n° 705775
+- [ ] **Pyrotechnie** (Passif) — talent, sort n° 705778
+- [ ] **Poudre raffinée** (Rang 1) — talent, sort n° 705781
+- [ ] **Poudre raffinée** (Rang 2) — talent, sort n° 705782
+- [ ] **Poudre raffinée** (Rang 1 SLS) — talent, sort n° 705783
+
+## Invention
+
+- [ ] **Armes d'hast** — capacité, sort n° 200
+- [ ] **Armes à feu** — capacité, sort n° 266
+- [ ] **Mailles** — capacité, sort n° 8737
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Construire : ZIGGI-6K** (Spécialisation) — capacité, sort n° 92140
+- [ ] **Bombe collante** (Rang 1) — capacité, sort n° 500232 🔀 talents
+- [ ] **Lancer de dynamite** (Rang 1 OBSOLÈTE) — capacité, sort n° 500233
+- [ ] **Lanceur de fusée** (Rang 1) — capacité, sort n° 500235
+- [ ] **Boule de mort** — capacité, sort n° 500236
+- [ ] **Bottes-fusées** — capacité, sort n° 500241
+- [ ] **Rayon électromagnétique** (Obsolète) — capacité, sort n° 500243
+- [ ] **Expert en explosifs** (Déclenchement) — capacité, sort n° 500244
+- [ ] **Embrocher** (Affaiblissement) — capacité, sort n° 800095 🔀 talents
+- [ ] **Trousse de soins** (Rang 1) — capacité, sort n° 800347
+- [ ] **Tir de réparation** (Rang 1) — capacité, sort n° 801707
+- [ ] **Essaim de nanorobots** (Rang 1) — capacité, sort n° 801709
+- [ ] **Contrôle des mécaniques** (Obsolète) — capacité, sort n° 801711
+- [ ] **Déployer une mine explosive** — capacité, sort n° 801718
+- [ ] **Détonation à distance** — capacité, sort n° 801798 🔀 talents
+- [ ] **Déconstruction par nanorobots** (Rang 1) — capacité, sort n° 801808
+- [ ] **Reconstruction par nanorobots** (Rang 1) — capacité, sort n° 801809
+- [ ] **Commando** (Passif) — capacité, sort n° 801884
+- [ ] **« Crochetage »** — capacité, sort n° 804154
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Spécialiste des bombes** — capacité, sort n° 804350
+- [ ] **Construire : Destructo-bot** — capacité, sort n° 804673
+- [ ] **Sac parachute** — capacité, sort n° 804690
+- [ ] **Grenades antimagie** — capacité, sort n° 804861
+- [ ] **Urgence contournée** (Passif) — capacité, sort n° 805303
+- [ ] **Module d'urgence** — capacité, sort n° 805304
+- [ ] **Symbiose de combat** — capacité, sort n° 805305
+- [ ] **Gadget revigorant** (Passif) — capacité, sort n° 805306
+- [ ] **Construire : station de recharge de batteries** — capacité, sort n° 805308
+- [ ] **Module de gardien** — capacité, sort n° 805309
+- [ ] **Soins à tir rapide** — capacité, sort n° 805311
+- [ ] **Charges de dynamite** — capacité, sort n° 805312
+- [ ] **Napalm** (Passif de spécialisation) — capacité, sort n° 805313
+- [ ] **Barrage de roquettes** (Passif) — capacité, sort n° 805314
+- [ ] **Échange de batterie** — capacité, sort n° 805319 🔀 talents
+- [ ] **Seigneur des bombes** — capacité, sort n° 805320
+- [ ] **Rayon de gel** — capacité, sort n° 806157
+- [ ] **Évolution ancestrale** — capacité, sort n° 806229
+- [ ] **Tir de réparation dispersé** (Rang 1) — talent, sort n° 300644
+- [ ] **Stimulants de soin** (Passif) — talent, sort n° 300645
+- [ ] **Trousse de potions portable** (Passif) — talent, sort n° 300646
+- [ ] **Amélioration X15** (Passif) — talent, sort n° 300648
+- [ ] **Reconstruction nanorobotique améliorée** (Rang 1) — talent, sort n° 300649
+- [ ] **Reconstruction nanorobotique améliorée** (Rang 2) — talent, sort n° 300650
+- [ ] **Déconstruction nanorobotique améliorée** (Rang 1) — talent, sort n° 300651
+- [ ] **Déconstruction nanorobotique améliorée** (Rang 2) — talent, sort n° 300652
+- [ ] **Faites confiance à la science !** (Passif) — talent, sort n° 300653
+- [ ] **Butin de poudre noire** (Passif) — talent, sort n° 300654
+- [ ] **Conducteur de foudre amélioré** (OBSOLÈTE) — talent, sort n° 300655
+- [ ] **Expert en explosifs** (Rang 1) — talent, sort n° 300656
+- [ ] **Expert en explosifs** (Rang 2) — talent, sort n° 300657
+- [ ] **Roquette de bombardement** (Passif) — talent, sort n° 300658
+- [ ] **Pistolet à bandages** (Passif) — talent, sort n° 705780
+- [ ] **Reviviscence cybernétique** (Passif) — talent, sort n° 705811
+- [ ] **Durabilité des nanorobots** (Passif) — talent, sort n° 705812
+- [ ] **Tirs accélérés** (Rang 2) — talent, sort n° 705813
+- [ ] **Le docteur est là** (Rang 1) — talent, sort n° 705814
+- [ ] **Étincelant et prêt !** (Spécialisation) — talent, sort n° 705815
+- [ ] **Batteries gnomes** (Passif) — talent, sort n° 705816
+- [ ] **Technologie autosuffisante** (Passif) — talent, sort n° 705817
+- [ ] **Cellule d'énergie** (Passif) — talent, sort n° 705818
+- [ ] **Fusées d'appoint** (Passif) — talent, sort n° 705820
+- [ ] **Nanomécano** — talent, sort n° 705822
+- [ ] **Démolition** (Rang 1) — talent, sort n° 705823
+- [ ] **Démolition** (Rang 2) — talent, sort n° 705824
+- [ ] **Radiateur de soins** (Passif) — talent, sort n° 705846
+
+## Mécanique
+
+- [ ] **Construire : Méca-armure** (Spécialisation) — capacité, sort n° 92141
+- [ ] **Bricoleur en armes à feu** (Passif de spécialisation) — capacité, sort n° 500211
+- [ ] **Construire : ZIGGI-6K** (Passif de spécialisation) — capacité, sort n° 500215
+- [ ] **Bricoleur mécanicien** — capacité, sort n° 500216
+- [ ] **Construire : tourelle de garde** — capacité, sort n° 500239
+- [ ] **Construire : fonderie d'énergie** — capacité, sort n° 500240
+- [ ] **Construire : Gueule-de-ferraille** — capacité, sort n° 500242
+- [ ] **Barrage hyperexplosif** — capacité, sort n° 500249
+- [ ] **Démontage WIP** — capacité, sort n° 704345
+- [ ] **Kit d'augmentation du noyau** — capacité, sort n° 704444 🔍 MAJ
+- [ ] **Amélioration de châssis : mithril** (Amélioration de châssis) — capacité, sort n° 704445
+- [ ] **Amélioration de châssis : vrai-argent** (Amélioration de châssis) — capacité, sort n° 704446
+- [ ] **Amélioration de châssis : titacier** (Amélioration de châssis) — capacité, sort n° 704447
+- [ ] **Pièces détachées** — capacité, sort n° 704465
+- [ ] **Recyclage** (Obsolète) — capacité, sort n° 800521
+- [ ] **Court-circuit** — capacité, sort n° 800568
+- [ ] **Robot : déversement de flammes** — capacité, sort n° 800572
+- [ ] **Robot : piétinement C.U.R.B** — capacité, sort n° 800581
+- [ ] **Construire : tremplin !** — capacité, sort n° 800672
+- [ ] **Construire : Méca-armure** — capacité, sort n° 801384 🔍 MAJ 🔀 talents
+- [ ] **Amélioration de méca-armure : Vanguard X-42** (Méca-armure) — capacité, sort n° 801393 🔍 MAJ
+- [ ] **Vanguard X-173 : Écrasement de bouclier** (Méca-armure) — capacité, sort n° 801394
+- [ ] **Outils de bricolage** — capacité, sort n° 801517
+- [ ] **Junklord WIP** — capacité, sort n° 801705
+- [ ] **Opérateur de bunker** (Passif) — capacité, sort n° 801706
+- [ ] **Surcharge** (Rang 1) — capacité, sort n° 801708
+- [ ] **Améliorer la méca-armure : char-araignée** (Méca-armure) — capacité, sort n° 801710 🔍 MAJ 🔀 talents
+- [ ] **Frappe aérienne** — capacité, sort n° 801744
+- [ ] **Construire : balise de bouclier** (Rang 1) — capacité, sort n° 801799 🔍 MAJ 🔀 talents
+- [ ] **Construire : balise réparatrice** — capacité, sort n° 801801 🔍 MAJ 🔀 talents
+- [ ] **Amélioration Z-15** — capacité, sort n° 801811
+- [ ] **Recycling Bin WIP** — capacité, sort n° 801813
+- [ ] **Charge de l'œil de lynx** — capacité, sort n° 801820
+- [ ] **Défibriller** (Rang 1) — capacité, sort n° 802175
+- [ ] **Mécanicien expert** (Passif) — capacité, sort n° 804164
+- [ ] **Charge explosive** — capacité, sort n° 804165
+- [ ] **Déployer un mur de tourelles** — capacité, sort n° 804166
+- [ ] **Tirs d'éclats (n'est plus utilisé)** — capacité, sort n° 804803
+- [ ] **Coup de clé** (Rang 1) — capacité, sort n° 805351
+- [ ] **Bouclier cinétique** — capacité, sort n° 806224
+- [ ] **Kit d'augmentation de combat** — capacité, sort n° 806614 🔍 MAJ
+- [ ] **Blindage de ferraille** (Passif) — capacité, sort n° 806627
+- [ ] **Ingénieur de combat** (Spécialisation) — capacité, sort n° 806629
+- [ ] **Utilitaire défensif** (Passif) — capacité, sort n° 806631
+- [ ] **Détonation à distance améliorée** (Rang 1) — talent, sort n° 705784
+- [ ] **Détonation à distance améliorée** (Rang 2) — talent, sort n° 705785
+- [ ] **Ferrailleur** (Passif) — talent, sort n° 705786
+- [ ] **Adepte d'Arclight** (Passif) — talent, sort n° 705788
+- [ ] **Des bombes ? DES BOMBES !** (Passif) — talent, sort n° 705789
+- [ ] **Tireur d'élite** (Obsolète) — talent, sort n° 705790
+- [ ] **Bien réglé** (Passif) — talent, sort n° 705792
+- [ ] **Améliorations biomécaniques** (Obsolète) — talent, sort n° 705793
+- [ ] **Améliorations biomécaniques** (Obsolète) — talent, sort n° 705794
+- [ ] **Piratage de l'ennemi** (Passif) — talent, sort n° 705796
+- [ ] **Double tir OBSOLÈTE** — talent, sort n° 705797
+- [ ] **Surcharge** (Dégâts) — talent, sort n° 705798
+- [ ] **Bagarreur** (Passif) — talent, sort n° 705799
+
+## Classe
+
+- [ ] **Colis express** (Passif) — capacité, sort n° 300632
+- [ ] **Recul** (Passif) — capacité, sort n° 300642
+- [ ] **Bombes incendiaires** (Passif) — capacité, sort n° 705771
+- [ ] **Maxi-purificateur X-420** — capacité, sort n° 705804
+- [ ] **Technologie hâtive** (Passif) — capacité, sort n° 705805
+- [ ] **Carburant de secours** (Passif) — capacité, sort n° 705810
+- [ ] **Mécanosoldat** (Passif) — capacité, sort n° 705827
+- [ ] **Améliorations de la casse** (Passif) — capacité, sort n° 705828
+- [ ] **Ingéniosité gnome** (Passif) — capacité, sort n° 705829
+- [ ] **Mécablindage** (Passif) — capacité, sort n° 705831
+- [ ] **Prévoyance** (Passif) — capacité, sort n° 705832
+- [ ] **Canons explosifs** (Rang 1) — capacité, sort n° 705835
+- [ ] **Chef-d'œuvre** (Passif) — capacité, sort n° 705836
+- [ ] **Kit d'augmentation mécanique** — capacité, sort n° 706195 🔍 MAJ
+- [ ] **Méthodes douteuses** (Passif) — capacité, sort n° 706254
+- [ ] **Rechargement amélioré** (Rang 1) — capacité de talent, sort n° 705768
+- [ ] **Rechargement amélioré** (Rang 2) — capacité de talent, sort n° 705769
+- [ ] **Expert en munitions** (Passif) — capacité de talent, sort n° 705772
+- [ ] **Explosifs améliorés** (Rang 2) — capacité de talent, sort n° 705773
+- [ ] **Explosifs améliorés** (Obsolète) — capacité de talent, sort n° 705774
+- [ ] **Formation médicale** (Passif) — capacité de talent, sort n° 705800
+- [ ] **Formation médicale** (Obsolète) — capacité de talent, sort n° 705801
+- [ ] **Nature scientifique** (Spécialisation) — capacité de talent, sort n° 705802
+- [ ] **Soins à tir rapide** (Passif) — capacité de talent, sort n° 705803
+- [ ] **Efficacité** (Passif) — capacité de talent, sort n° 705806
+- [ ] **Lunettes de précision** (Rang 2) — capacité de talent, sort n° 705807
+- [ ] **Maniement des armes à feu** (OBSOLÈTE) — capacité de talent, sort n° 705808
+- [ ] **Maniement des armes à feu** (OBSOLÈTE) — capacité de talent, sort n° 705809
+- [ ] **Pensée flexible** (Passif) — capacité de talent, sort n° 705825
+- [ ] **Pensée flexible** (Rang 2) — capacité de talent, sort n° 705826
+- [ ] **Mains habiles** (Passif) — capacité de talent, sort n° 705833
+- [ ] **Mains habiles** — capacité de talent, sort n° 705834

@@ -19,28 +19,28 @@ sort	300712		Description	5f43fd3cbf80	Augmente le score de coup critique de $s1%
 sort	300712		Name	2c8b9dd43af0	Force primordiale	lot sorts_objets_122
 sort	300715		Description	a7c3b19f3e71	Augmente l'Agilité et la vitesse de déplacement de $s1%.	lot sorts_objets_122
 sort	300715		Name	579df09f9753	Marche sauvage	lot sorts_objets_122
-sort	300718		Description	cd3564cf835b	|cffffffffWildclaw|r et |cffffffffRylak's Bite|r réduisent désormais de $/1000;300719s1 sec le temps de recharge de |cffffffffPrimal Shred|r, |CffffffffPrimal Charge|r et |cffffffffBear's Maw|r.	lot sorts_objets_122
+sort	300718		Description	cd3564cf835b	|cffffffffGriffe sauvage|r et |cffffffffMorsure du rylak|r réduisent désormais de $/1000;300719s1 sec le temps de recharge de |cffffffffDéchiquetage primordial|r, |CffffffffCharge primordiale|r et |cffffffffMâchoire de l'ours|r.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : Charge primordiale et Mâchoire de l'ours sont déjà traduits ailleurs, mais cette description les laisse en anglais : on utilise donc les noms français fournis.
 sort	300718		Name	7347893648b1	Les mettre en pièces	lot sorts_objets_122
-sort	300720		Description	effddb5b8c43	Les dégâts infligés par |cffffffffWildclaw|r augmentent désormais $?S804180[vos chances de coup critique et celles de votre |cffffffffSpirit pet|r][vos chances de coup critique] de $806732s1% pendant $806732d, cumulable $806732u fois.	lot sorts_objets_122
+sort	300720		Description	effddb5b8c43	Les dégâts infligés par |cffffffffGriffe sauvage|r augmentent désormais $?S804180[vos chances de coup critique et celles de votre |cffffffffcompagnon spirituel|r][vos chances de coup critique] de $806732s1% pendant $806732d, cumulable $806732u fois.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : « Spirit pet » est resté en anglais alors qu'un équivalent français existe.
 sort	300720		Name	d5479805e79f	Tribalisme	lot sorts_objets_122
-sort	300721		Description	389e2966aea6	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffPrimal Charge|r.	lot sorts_objets_122
+sort	300721		Description	389e2966aea6	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffCharge primordiale|r.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit reprendre le français déjà choisi (Charge primordiale).
 sort	300721		Name	0ce18c1ff025	Charge primordiale améliorée	lot sorts_objets_122
 sort	300722		Description	459ef6798172	Les coups critiques infligeant des dégâts de Feu augmentent aussi les chances de coup critique des sorts de Nature de $503700s1% pendant $503700d.	lot sorts_objets_122
 sort	300722		Name	f664b7f2d63f	Géothermie	lot sorts_objets_122
 sort	300724		Name	b462d4553204	Fracas de pierre renforcé caché 2	lot sorts_objets_122
 sort	300725		Description	a598e0984fd0	Augmente les dégâts de Nature infligés de $s1% et les soins reçus de $s2%.	lot sorts_objets_122
-sort	300726		Description	224f6010245d	Permet à |cffffffffEarthspine|r d'affecter $s2 ennemis.	lot sorts_objets_122
+sort	300726		Description	224f6010245d	Permet à |cffffffffÉchine de terre|r d'affecter $s2 ennemis.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit reprendre le français fourni (Échine de terre).
 sort	300726		Name	3cf80615492a	Né d'une géode	lot sorts_objets_122
-sort	300727		Description	fd6bee4d2f9a	Réduit de $s1% tous les dégâts physiques subis et donne aux dégâts infligés par |cffffffffTectonic Shift|r $h% de chances de réduire de $/1000;503716s2 sec le temps de recharge de |cffffffffStoneguard|r ou de $/1000;503716s1 sec celui de |cffffffffStone Weapon|r.	lot sorts_objets_122
+sort	300727		Description	fd6bee4d2f9a	Réduit de $s1% tous les dégâts physiques subis et donne aux dégâts infligés par |cffffffffDécalage tectonique|r $h% de chances de réduire de $/1000;503716s2 sec le temps de recharge de |cffffffffGarde de pierre|r ou de $/1000;503716s1 sec celui de |cffffffffArme de pierre|r.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : « Stone Weapon » était resté en anglais ; un équivalent français existe.
 sort	300734		Description	0054222629a4	\r\n\r\nDe plus, vos chances de toucher sont augmentées de $s2%.@s:301086:0@	lot sorts_objets_122
 sort	300734		Name	794180178b1f	Druide de bataille	lot sorts_objets_122
 sort	300736		Description	74f749e2e600	Les alliés affectés par |cffffffffDreamshield|r récupèrent désormais $805106s1% de leurs points de vie maximum lorsqu'ils subissent des dégâts directs.\r\n\r\nNe peut se produire qu'une fois par sec.	lot sorts_objets_122
 sort	300736		Name	d09ec8db334d	Protection d'émeraude	lot sorts_objets_122
 sort	300737		ToolTip	97042bfbb64f	Hâte et dégâts de mêlée augmentés de ${$w1}%, cumulable $u fois.	lot sorts_objets_122
-sort	300741		Description	633ba931bd80	|cffffffffPrimal Infusion|r augmente désormais de $s1% supplémentaires les soins que les cibles affectées reçoivent de |cFFFFFFFFHand of the Earthmother|r.	lot sorts_objets_122
+sort	300741		Description	633ba931bd80	|cffffffffInfusion primordiale|r augmente désormais de $s1% supplémentaires les soins que les cibles affectées reçoivent de |cFFFFFFFFMain de la Terre-Mère|r.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : Nom de sort cité resté en anglais : Primal Infusion est le sort amélioré par le talent n° 18, « Infusion primordiale ».
 sort	300741		Name	4bd4870b686f	Infusion primordiale améliorée	lot sorts_objets_122
 sort	300745		Name	9dd24d5e54de	Charogne	lot sorts_objets_122
-sort	300746		Description	9f53a86bf817	Augmente de $s1 le nombre maximum de charges de |cffffffffCryptfury|r.	lot sorts_objets_122
+sort	300746		Description	9f53a86bf817	Augmente de $s1 le nombre maximum de charges de |cffffffffFurie de la crypte|r.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Furie de la crypte ».
 sort	300746		Name	5d71d10ca6c7	Laboratoire de chair	lot sorts_objets_122
 sort	300747		Description	60e0befc37b3	Augmente |cffffffffLife Force|r de $s1.	lot sorts_objets_122
 sort	300749		Description	cdaefce41d5d	Augmente la durée de toutes les maladies de $s1%	lot sorts_objets_122
@@ -58,7 +58,7 @@ sort	300761		Name	1c053038fc3d	Maîtrise de la chronologie	lot sorts_objets_122
 sort	300762		Name	167bf04f52b0	Gueule de l'équilibre	lot sorts_objets_122
 sort	300920		Description	c4b89a210c60	Permet à |cffffffffBurning Crescendo|r de se cumuler $s1 fois supplémentaires.	lot sorts_objets_122
 sort	300920		Name	67eaf05c2745	Grand final	lot sorts_objets_122
-sort	300922		Description	20e732ba5d4f	|cffffffffCauterize Wounds|r, |cffffffffRekindle|r et |cffffffffFlames of the Firelord|r consomment désormais des charges de |cffffffffSlag Foundry|r pour se déclencher avec un temps de recharge réduit de $s1% par charge.	lot sorts_objets_122
+sort	300922		Description	20e732ba5d4f	|cffffffffCautériser les blessures|r, |cffffffffRallumer|r et |cffffffffFlammes du Seigneur du feu|r consomment désormais des charges de |cffffffffFonderie de scories|r pour se déclencher avec un temps de recharge réduit de $s1% par charge.	lot sorts_objets_122 | relu par l'API (relecture 0.9.5) : Noms de sorts cités restés en anglais (Cauterize Wounds : Cautériser les blessures, fourni) ; Slag Foundry traduit comme le nom du talent voisin « Fonderie de scories ».
 sort	300922		Name	4ac0d2acce31	Fonderie de scories	lot sorts_objets_122
 sort	300930		Description	1a98c5f1b799	Augmente les dégâts de |cffffffffSlag Barrage|r de $s1% et ceux de |cffffffffFlare Bolt|r de $s2%.	lot sorts_objets_122
 sort	300931		Description	0a09b278b404	Vos coups critiques avec des sorts de Feu vous confèrent, à vous et à vos alliés, ${$m1+($pl*2.25)} points d'armure. Cet effet dure $803971d.	lot sorts_objets_122

@@ -1,0 +1,210 @@
+# Fiche de test : Chevalier de Xoroth
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Défi
+
+- [ ] **Targe de soufre** (Spécialisation) — capacité, sort n° 92104
+- [ ] **Contremaître** (Passif) — capacité, sort n° 500003
+- [ ] **Puissance ardente** (Spécialisation) — capacité, sort n° 500004
+- [ ] **Caractéristiques de défiance** — capacité, sort n° 500007
+- [ ] **Rempart infernal** (Déclenchement) — capacité, sort n° 500023
+- [ ] **Fournaise des fiélons** — capacité, sort n° 500907
+- [ ] **Conquête brutale** — capacité, sort n° 704251
+- [ ] **Pluie du chaos** (Passif) — capacité, sort n° 704452
+- [ ] **Fouet-chaîne** (Rang 1) — capacité, sort n° 800081
+- [ ] **Gronder** — capacité, sort n° 800169
+- [ ] **Bouclier infernal** — capacité, sort n° 801001
+- [ ] **Inspiration agonisante** (Passif) — capacité, sort n° 801036
+- [ ] **Sceau xorothien** — capacité, sort n° 801061
+- [ ] **Imprégnation** — capacité, sort n° 801063 🔀 talents
+- [ ] **Rempart du démon des forges** (Passif) — capacité, sort n° 801065
+- [ ] **Emprisonnement** — capacité, sort n° 801067
+- [ ] **Réprimande infernale** (Rang 1) — capacité, sort n° 804010
+- [ ] **Rétribution ardente** (Passif) — capacité, sort n° 804013
+- [ ] **Courroux infernal** (Passif) — capacité, sort n° 804014
+- [ ] **Laisse infernale** — capacité, sort n° 804168
+- [ ] **Malédiction de Xoroth** — capacité, sort n° 804169
+- [ ] **Serment de défi** — capacité, sort n° 804285
+- [ ] **Gardes diablotins** (Spécialisation) — capacité, sort n° 804340
+- [ ] **Sang de démon** (Passif) — capacité, sort n° 804345
+- [ ] **Éventre-bouclier** (Rang 1) — capacité, sort n° 804353 🔀 talents
+- [ ] **Bouclier au crâne noir** (Passif) — capacité, sort n° 804354
+- [ ] **Présence de la légion** — capacité, sort n° 804879
+- [ ] **Créer : Porte des enfers** — capacité, sort n° 804880 🔍 MAJ
+- [ ] **Appel : Diablotin des Flammes infernales** — capacité, sort n° 804883 🔀 talents
+- [ ] **Souffle du démon** — capacité, sort n° 804885
+- [ ] **Appel : abyssal des Flammes infernales** — capacité, sort n° 805074
+- [ ] **Cercle sacrificiel** — capacité, sort n° 805677
+- [ ] **Cran démoniaque** (Rang 1) — capacité, sort n° 805678
+- [ ] **Bouclier noir** — capacité, sort n° 805679
+- [ ] **Démon des forges** (Passif) — talent, sort n° 300386
+- [ ] **Sang de soufre** (Passif) — talent, sort n° 300387
+- [ ] **Rempart de Xoroth** (Passif) — talent, sort n° 300388
+- [ ] **Appeleur d'enfer** (Passif) — talent, sort n° 300389
+- [ ] **Présent des enfers** (Passif) — talent, sort n° 300390 🔀 talents
+- [ ] **Servitude** — talent, sort n° 300456
+- [ ] **Fers brisés** — talent, sort n° 300457
+- [ ] **Fournaise des fiélons** — talent, sort n° 300458
+- [ ] **Représailles pestilentielles** (Passif) — talent, sort n° 704971
+- [ ] **Chevalier de soufre** (Passif) — talent, sort n° 704972
+- [ ] **Attiser les flammes** (Passif) — talent, sort n° 704973
+
+## Flammes infernales
+
+- [ ] **Haches à deux mains** — capacité, sort n° 197
+- [ ] **Armure en plaques** — capacité, sort n° 750
+- [ ] **Diablotin supérieur** (Spécialisation) — capacité, sort n° 92101
+- [ ] **Démon de rage** (Spécialisation) — capacité, sort n° 500313
+- [ ] **Déchaînement : Pestilence** — capacité, sort n° 801002 🔀 talents
+- [ ] **Frappe infernale** (Rang 1) — capacité, sort n° 801016
+- [ ] **Ajoute 6 Gangrefurie** — capacité, sort n° 801043
+- [ ] **Flammes de Xoroth** (Rang 1) — capacité, sort n° 801059
+- [ ] **Tempête infernale** — capacité, sort n° 802342
+- [ ] **Pestilence de la Famine** — capacité, sort n° 802344 🔀 talents
+- [ ] **Pestilence de la Guerre** — capacité, sort n° 802345 🔀 talents
+- [ ] **Malédiction de Hel'nurath** — capacité, sort n° 804174
+- [ ] **Courroux ardent** — capacité, sort n° 804175
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Forge des enfers** — capacité, sort n° 804683
+- [ ] **Traîné à travers les enfers** — capacité, sort n° 804773
+- [ ] **Portail du destrier de l'effroi** — capacité, sort n° 804774
+- [ ] **Descellement** — capacité, sort n° 805664 🔀 talents
+- [ ] **Douleur en quête** (Passif) — capacité, sort n° 805666
+- [ ] **Porteur de feu** — capacité, sort n° 805667
+- [ ] **Cœur de démon** — capacité, sort n° 805669
+- [ ] **Calamité** — capacité, sort n° 805670
+- [ ] **Flamme traqueuse** (Rang 1) — capacité, sort n° 805671 🔀 talents
+- [ ] **Puissance cataclysmique** — capacité, sort n° 805692
+- [ ] **Acier infernal** (Passif) — capacité, sort n° 805693
+- [ ] **Forme gouffre-feu** — capacité, sort n° 805696
+- [ ] **Explosion infernale** (Rang 1) — capacité, sort n° 805697
+- [ ] **Lame infernale** — capacité, sort n° 805698
+- [ ] **Feu couvant** (Passif) — capacité, sort n° 805700
+- [ ] **Braises explosives** (Passif) — capacité, sort n° 805702
+- [ ] **Éclats de soufre** (Passif) — capacité, sort n° 805703
+- [ ] **Forgeflamme** — capacité, sort n° 805704
+- [ ] **Dépit** (Passif) — capacité, sort n° 805705
+- [ ] **Griffes de l'enfer** (Passif) — capacité, sort n° 805706
+- [ ] **Rage de Xoroth** — capacité, sort n° 805798
+- [ ] **Passif du chevalier de Xoroth - Estoc** — capacité, sort n° 805963
+- [ ] **Chair ardente** (Passif) — talent, sort n° 300373
+- [ ] **Invasion** (Rang 1) — talent, sort n° 300374
+- [ ] **Frappes bouillonnantes** (Passif) — talent, sort n° 300375 🔀 talents
+- [ ] **Réprimande infernale** (Passif) — talent, sort n° 300391
+- [ ] **Visage démoniaque** (Passif) — talent, sort n° 300392
+- [ ] **Calamité** (Passif) — talent, sort n° 300393
+- [ ] **Sang bouillonnant** (Passif) — talent, sort n° 300395
+- [ ] **Mort rapide** (Passif) — talent, sort n° 300396
+- [ ] **Pestilence diablotine** (Spécialisation) — talent, sort n° 300398
+- [ ] **Sans distinction** (Passif) — talent, sort n° 704958
+- [ ] **Lame de cendres** (Spécialisation) — talent, sort n° 704959
+- [ ] **Chaînes hérissées** (Passif) — talent, sort n° 704987
+- [ ] **Punisseur** (Passif) — talent, sort n° 704988
+- [ ] **Forge d'ombreflamme** (Rang 1) — talent, sort n° 704989
+- [ ] **Frappe-enfer** (Passif) — talent, sort n° 704991 🔍 MAJ
+- [ ] **Poursuite infernale** (Rang 1) — talent, sort n° 704992
+- [ ] **Diablotin supérieur** (Passif) — talent, sort n° 704993
+- [ ] **Renforcement xorothien** (Passif) — talent, sort n° 704994
+- [ ] **Renforcement xorothien** (Rang 2) — talent, sort n° 704995
+- [ ] **Flammes noires** (Deprecated) — talent, sort n° 704996
+
+## Guerre
+
+- [ ] **Broyeur** (Spécialisation) — capacité, sort n° 92100
+- [ ] **Crochet de chair** (Rang 1) — capacité, sort n° 500020
+- [ ] **Festin démoniaque** — capacité, sort n° 500021
+- [ ] **Tranchage** (Rang 1) — capacité, sort n° 500904
+- [ ] **Mort à tous** (Rang 1) — capacité, sort n° 704181
+- [ ] **Héraut de la pestilence** — capacité, sort n° 704182
+- [ ] **Sabbat noir** — capacité, sort n° 704183
+- [ ] **Gardien des chaînes** (Passif) — capacité, sort n° 704185 🔀 talents
+- [ ] **Main funeste** (Passif) — capacité, sort n° 704186 🔀 talents
+- [ ] **Preneur de crânes** (Rang 1) — capacité, sort n° 800168
+- [ ] **Scie à viande** (Rang 1) — capacité, sort n° 800340 🔀 talents
+- [ ] **Chevalier infernal** (Passif) — capacité, sort n° 800702
+- [ ] **Lame ensanglantée** — capacité, sort n° 800997
+- [ ] **Matraque de soufre** (DÉSACTIVÉ) — capacité, sort n° 801040
+- [ ] **Écorcher le cadavre** — capacité, sort n° 801042
+- [ ] **Pestilence de la conquête** — capacité, sort n° 801053 🔀 talents
+- [ ] **Pestilence de la mort** — capacité, sort n° 801054 🔀 talents
+- [ ] **Pestilence de la Famine** (Ralentissement) — capacité, sort n° 802347 🔀 talents
+- [ ] **Chaînes de malveillance** — capacité, sort n° 803185
+- [ ] **Broyeur** (Passif de spécialisation) — capacité, sort n° 804284
+- [ ] **Piétinement du cavalier de l'effroi** — capacité, sort n° 804702
+- [ ] **Destrier de guerre xorothien** — capacité, sort n° 804703
+- [ ] **Piétinement des flammes infernales** — capacité, sort n° 804704
+- [ ] **Étriers du feu infernal** — capacité, sort n° 804785
+- [ ] **Pestilence de l'apocalypse** — capacité, sort n° 804786 🔀 talents
+- [ ] **Avancée du feu infernal** — capacité, sort n° 804788
+- [ ] **Démon hurlant** (Passif) — capacité, sort n° 804947
+- [ ] **Encorner** (Rang 1) — capacité, sort n° 805555
+- [ ] **Furie démoniaque** (DÉSACTIVÉ) — capacité, sort n° 805668 🔀 talents
+- [ ] **Haine absolue** (Passif) — capacité, sort n° 805676
+- [ ] **Mutilation** (Rang 1) — capacité, sort n° 805695 🔀 talents
+- [ ] **Sentier de guerre** (Passif) — capacité, sort n° 805793
+- [ ] **Bon débarras** (Rang 1) — talent, sort n° 300454
+- [ ] **Bon débarras** (Rang 2) — talent, sort n° 300455
+- [ ] **Équarrisseur** (Spécialisation) — talent, sort n° 704951
+- [ ] **Le Boucher** (Passif) — talent, sort n° 704952
+- [ ] **Atelier de découpe** (Passif) — talent, sort n° 704953 🔀 talents
+- [ ] **Fureur sans limites** (Passif) — talent, sort n° 704954
+- [ ] **Fureur sans limites** (OBSOLÈTE) — talent, sort n° 704955
+- [ ] **Cœur de Xoroth** (Passif) — talent, sort n° 704956
+- [ ] **Lame démoniaque** (Passif) — talent, sort n° 704957
+- [ ] **Coups puissants** (Passif) — talent, sort n° 705003
+- [ ] **Bête de guerre** (Passif) — talent, sort n° 705004 🔀 talents
+- [ ] **Fiélon** (Passif) — talent, sort n° 705005 🔀 talents
+- [ ] **Hachoir à viande** (Deprecated) — talent, sort n° 705006
+- [ ] **Hachoir à viande** (Obsolète) — talent, sort n° 705007
+- [ ] **Frénésie démoniaque** (Passif) — talent, sort n° 705008 🔀 talents
+- [ ] **Impitoyable** — talent, sort n° 705009
+- [ ] **Scie létale** (Passif) — talent, sort n° 705010
+- [ ] **Encorner amélioré** (Rang 2) — talent, sort n° 705011
+- [ ] **Collecteur d'os** — talent, sort n° 705012
+- [ ] **Puissance meurtrière** (OBSOLÈTE) — talent, sort n° 705013
+- [ ] **Puissance du chevalier démon** — talent, sort n° 705014
+- [ ] **Encorné** (Passif) — talent, sort n° 705015
+- [ ] **Fondu aux enfers** (Passif) — talent, sort n° 705016
+- [ ] **Entaille profonde** (DEPRECATED) — talent, sort n° 705017
+- [ ] **Démembrement** (Passif) — talent, sort n° 705018
+- [ ] **Cochon de guerre** (Passif) — talent, sort n° 705020
+- [ ] **Tranchant de l'apocalypse** (Passif) — talent, sort n° 705022
+
+## Classe
+
+- [ ] **Rage de Xoroth** (Passif) — capacité, sort n° 300376
+- [ ] **Force xorothienne** (Rang 1) — capacité, sort n° 300382
+- [ ] **Flammes xorothiennes** (Rang 1) — capacité, sort n° 300383
+- [ ] **Poing de rage** (Rang 1) — capacité, sort n° 300384
+- [ ] **Finesse xorothienne** (Passif) — capacité, sort n° 300385
+- [ ] **Déchaînement de pestilence amélioré** — capacité, sort n° 704960
+- [ ] **Duo maléfique** (Spécialisation) — capacité, sort n° 704961
+- [ ] **Combattant furieux** (Passif) — capacité, sort n° 704962 🔀 talents
+- [ ] **Cavalier de sang** (Passif) — capacité, sort n° 704964
+- [ ] **Auspice funeste** (PassiveSLS) — capacité, sort n° 704965 🔀 talents
+- [ ] **Plaques de feu démoniaque** (Rang 1) — capacité, sort n° 704966
+- [ ] **Broyeur infernal** (Passif) — capacité, sort n° 704975
+- [ ] **Asservisseur** (Passif) — capacité, sort n° 704977
+- [ ] **Force démoniaque** — capacité, sort n° 704978 🔀 talents
+- [ ] **Domination** (Passif) — capacité, sort n° 704979 🔀 talents
+- [ ] **Cavalier sombre** (Passif) — capacité, sort n° 704980
+- [ ] **Chevalier de la pestilence** (Passif) — capacité, sort n° 704981
+- [ ] **Festin du chaos** (Passif) — capacité, sort n° 704983
+- [ ] **Maître de guerre du soufre** (Passif) — capacité, sort n° 704984
+- [ ] **Gardien des flammes infernales** (Passif) — capacité, sort n° 704986
+- [ ] **Lame embrasée** (Rang 1) — capacité, sort n° 704999
+- [ ] **En cendres** (Passif) — capacité, sort n° 705000
+- [ ] **Déchaînement : flammes infernales** — capacité, sort n° 705001
+- [ ] **Piliers de feu démoniaque** (Passif) — capacité de talent, sort n° 300377
+- [ ] **Piliers de feu démoniaque** (Rang 2) — capacité de talent, sort n° 300378
+- [ ] **Piliers de feu démoniaque** (Passif) — capacité de talent, sort n° 300379
+- [ ] **Feu démoniaque explosif** (Rang 1) — capacité de talent, sort n° 300380 🔀 talents
+- [ ] **Feu démoniaque explosif** (Rang 2) — capacité de talent, sort n° 300381 🔀 talents
+- [ ] **Lame enflammée** (Passif) — capacité de talent, sort n° 704967 🔀 talents
+- [ ] **Lame enflammée** (Rang 2) — capacité de talent, sort n° 704968
+- [ ] **Enfer déchaîné** (Passif) — capacité de talent, sort n° 704997 🔀 talents
+- [ ] **Enfer déchaîné** — capacité de talent, sort n° 704998

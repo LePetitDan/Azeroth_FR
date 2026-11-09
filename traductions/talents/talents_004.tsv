@@ -183,14 +183,14 @@ sort	365377		Name	b07621e6b8a1	Poison pointe-venin	lot talents_004
 sort	365377		ToolTip	a01e1a8c3be0	Vitesse d'attaque réduite de $572058s1%.	lot talents_004
 sort	500003		Description	68156c6c4ebb	Augmente vos chances de coup critique de $s2%, plus $s1% supplémentaires contre les démons.	lot talents_004
 sort	500003		Name	4dfa4d1c4bab	Contremaître	lot talents_004
-sort	500004		Description	a19b8d1410cd	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre puissance d'attaque d'un montant égal à $s1% de votre Intelligence et vos dégâts des sorts de $s2% de votre Force.	lot talents_004
+sort	500004		Description	a19b8d1410cd	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre puissance d'attaque de $s1% de votre Intelligence et vos dégâts des sorts de $s2% de votre Force.	lot talents_004 | relu par l'API (relecture 0.9.5) : Formulation plus directe, parallèle à la seconde partie de la phrase (« d'un montant égal à » n'était appliqué qu'à la première moitié).
 sort	500004		Name	8fa741e2f90d	Puissance ardente	lot talents_004
 sort	500011		Description	dc466bf3db23	Votre |cffffffffLame d'argent|r prolonge désormais aussi de $/1000;500014s1 sec. la durée d'|cffffffffInterdiction|r sur votre cible.	lot talents_004
 sort	500011		Name	7667371890a1	Combattant sacré	lot talents_004
 sort	500012		Description	3cdcdf9f28b2	Les dégâts physiques que vous infligez ou subissez ont désormais $h% de chances de déclencher un |cffffffffAppel de l'Aile sombre|r.@s:801958:0@	lot talents_004
 sort	500012		Name	aa41f500a82b	Légions pétrifiées	lot talents_004
 sort	500012		ToolTip	045a84c3a253	Les dégâts physiques infligés ou subis ont désormais $h% de chances de déclencher un |cffffffffAppel de l'Aile sombre|r.@s:801958:0@	lot talents_004
-sort	500015		Description	3e1da7b5a5ad	Invoque une |cffffffffMarionnette d'ombre|r qui recueille un |cffffffffEsprit|r et fonce vers votre cible, ce qui inflige ${$m1+0+$sps*.22} points de dégâts d'Ombre, toutes les $t1 sec. pendant $d.\r\n@ext:@s:561136:0@:ext@	lot talents_004
+sort	500015		Description	3e1da7b5a5ad	Invoque une |cffffffffMarionnette d'ombre|r qui recueille un |cffffffffEsprit|r et fonce vers votre cible, lui infligeant ${$m1+0+$sps*.22} points de dégâts d'Ombre toutes les $t1 sec. pendant $d.\r\n@ext:@s:561136:0@:ext@	lot talents_004 | relu par l'API (relecture 0.9.5) : Virgule mal placée et « ce qui inflige » maladroit : les dégâts sont répétés toutes les $t1 sec.
 sort	500015		Name	e740637de04d	Marionnettes d'ombre	lot talents_004
 sort	500015		ToolTip	d797f16ec460	Bombardement de marionnettes d'ombre.	lot talents_004
 sort	500039		Description	0e2d53a41ff7	|cffcc99ffÉpuise 40 points de Statique|r\r\nConfère à tous les membres du groupe et du raid un bouclier qui absorbe ${0+$m1+$INT*1} points de dégâts, selon votre Intelligence, pendant $500292d.\r\n\r\nTant que le bouclier est actif, la cible ne subit aucun retard d'incantation quand elle reçoit des dégâts.	lot talents_004
@@ -198,16 +198,16 @@ sort	500039		Name	334a336f8e6b	Baiser des nuages	lot talents_004
 sort	500041		Description	ceca4c362442	|cffcc99ffÉpuise 25 points de Statique|r\r\nImprègne un allié de foudre pendant $d, ce qui lui rend $s3% de son maximum de mana plus $s2% toutes les $t2 sec. \r\n\r\nTant que l'effet est actif, ses dégâts infligent ${$800406m1*$<scalingbp>+$spn*.15} points de dégâts de Nature supplémentaires aux ennemis proches	lot talents_004
 sort	500041		Name	f9324ddff3c8	Corps de foudre	lot talents_004
 sort	500041		ToolTip	ecf1fabac9ff	Vos dégâts infligent des dégâts de Nature supplémentaires à votre cible et vous régénérez du mana toutes les $t2 sec.	lot talents_004
-sort	500042		Description	cbb24a353e21	Ordonne à votre |cffffffffÉlémentaire d'air|r de surfer sur le vent jusqu'à vous : il intercepte la prochaine attaque de mêlée ou à distance qui vous vise, et vous permet de lancer |cffffffffHorion|r et $?s707615[|cFFFFFFFFDéflagration aérienne|r][|cffffffffAppel d'éclair|r] en mouvement pendant $d.	lot talents_004
+sort	500042		Description	cbb24a353e21	Ordonne à votre |cffffffffÉlémentaire d'air|r de surfer sur le vent jusqu'à vous : il intercepte la prochaine attaque de mêlée ou à distance qui vous vise, et vous permet de lancer |cffffffffHorion|r et $?s707615[|cFFFFFFFFAéroblast|r][|cffffffffAppel de la foudre|r] en mouvement pendant $d.	lot talents_004 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Call Lightning » doit être « Appel de la foudre » (nom français fourni).
 sort	500042		Name	766250772f23	Surf des vents	lot talents_004
-sort	500042		ToolTip	ba57e7223986	Peut lancer Horion et $?s705700[Déflagration aérienne][Appel d'éclair] en mouvement.	lot talents_004
+sort	500042		ToolTip	ba57e7223986	Peut lancer Horion et $?s705700[Aéroblast][Appel de la foudre] en mouvement.	lot talents_004 | relu par l'API (relecture 0.9.5) : Noms de sorts à harmoniser avec les noms français fournis : Aéroblast et Appel de la foudre.
 sort	500053		Description	8210abc9c783	Tant qu'une |cffffffffBase|r est active, |cffffffffEsprit en bouteille|r se transforme désormais en |cffffffffÉclaboussure tiki|r.@s:500478:0@	lot talents_004
 sort	500053		Name	747e20662c49	Éclaboussure tiki	lot talents_004
 sort	500055		Description	d080fa801614	Lancer |cFFFFFFFFCarreau cherche-cœur|r augmente désormais vos dégâts physiques infligés de $520130s1% pendant $520130d.	lot talents_004
 sort	500055		Name	b732c04d8daa	Fléau des sorcières	lot talents_004
 sort	500056		Description	2ec231ef1399	Frapper au moins 5 ennemis avec |cffffffffNuée sombre|r ou lancer |cffffffffAppel du maître-chien|r vous fait désormais déchaîner une nuée de corbeaux autour de chaque ennemi touché, qui inflige ${($500564d*1000/$500564T1)*($500564m1+$500564ppl1+$SP*.175+$RAP*0.1)} points de dégâts du Crépuscule en $500564d.	lot talents_004
 sort	500056		Name	70c551c09000	Festin de serres	lot talents_004
-sort	500060		Description	6cc50e2420c3	Réduit de $s1% le temps d'incantation de $?s707661[|cffffffffConseils de Sen'jin|r][|cffffffffLancer l'arme|r] et supprime le retard d'incantation que vous subissez quand vous recevez des dégâts.	lot talents_004
+sort	500060		Description	6cc50e2420c3	Réduit de $s1% le temps d'incantation de $?s707661[|cffffffffConduite de Sen'jin|r][|cffffffffLancer d'arme|r] et supprime le retard d'incantation que vous subissez quand vous recevez des dégâts.	lot talents_004 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Throw Weapon » = « Lancer d'arme » (nom français fourni).
 sort	500060		Name	5f777b24b35c	Chasse aux têtes	lot talents_004
 sort	500067		Description	776b3c3e3458	|cFF66DDFFPassif de niveau 50|r\r\nAugmente votre Endurance de $s1%, votre Agilité de $s3% et votre taille de $s2%.	lot talents_004
 sort	500067		Name	1acffd8b478f	Monstruosité gangrenée	lot talents_004
@@ -225,7 +225,7 @@ sort	500085		Name	fb46e3745fd3	Bond	lot talents_004
 sort	500086		Description	198d85b37bb6	Saute en arrière ; toutes les attaques à distance vous ratent pendant $d. $?s500901[\r\n\r\nVotre prochain |cffffffffCarreau|r dans les $680231d fera reculer votre ennemi.][]$?s705490[\r\n\r\nRéinitialise le temps de recharge de |cffffffffBond|r et génère $/10;500160s2 points de rage.][]	lot talents_004
 sort	500086		Name	513cc1fe636e	Fuite audacieuse	lot talents_004
 sort	500086		ToolTip	8d33bdc6c35e	Les attaques à distance ne peuvent pas vous toucher.	lot talents_004
-sort	500101		Description	a8c6563577cc	Votre |cffffffffRepousser|r réinitialise désormais le temps de recharge de |cffffffffBond|r et rend gratuit votre prochain |cffffffffBond|r dans les $500102d.	lot talents_004
+sort	500101		Description	a8c6563577cc	Votre |cffffffffRépulsion|r réinitialise désormais le temps de recharge de |cffffffffBond|r et rend gratuit votre prochain |cffffffffBond|r dans les $500102d.	lot talents_004 | relu par l'API (relecture 0.9.5) : Le nom du sort est « Répulsion » (nom officiel), pas « Repousser ».
 sort	500101		Name	83d303ea2fe6	Porteur de ténèbres	lot talents_004
 sort	500101		ToolTip	29641d32b349	Réduit le coût de |cffffffffBond|r de $/10;s1 ; |cffffffffRépulsion|r réinitialise le temps de recharge de |cffffffffBond|r et rend gratuite votre prochaine utilisation.	lot talents_004
 sort	500115		Description	e1b424eabb8f	Réduit le temps de recharge de |cffffffffClone infini|r de $/1000;s1 sec.	lot talents_004
@@ -253,7 +253,7 @@ sort	500166		Description	45d36f00631d	Augmente de $s1% les chances de coup criti
 sort	500166		Name	98b2e821297a	Pyromane	lot talents_004
 sort	500167		Description	277d1d29f350	Augmente de $s1% l'efficacité de vos effets d'absorption.	lot talents_004
 sort	500167		Name	4dbb9a11c5fc	Esprit de feu	lot talents_004
-sort	500205		Description	6e0abe0cff7c	Votre |cFFFFFFFFTir de feu stellaire|r a désormais un effet d'|cFFFFFFFFÉclipse lunaire|r.\r\n\r\n|cFFFFFFFFTir de feu stellaire :|r inflige une |cffff4500Brûlure|r à la cible, qui subit $561122o1 points de dégâts de Feu-sorcier en $561122d. Les ennemis affectés par votre |cFFFFFFFFFeu stellaire|r ne peuvent pas se camoufler. 	lot talents_004
+sort	500205		Description	6e0abe0cff7c	Votre |cFFFFFFFFTir de feu stellaire|r a désormais un effet d'|cFFFFFFFFÉclipse lunaire|r.\r\n\r\n|cFFFFFFFFTir de feu stellaire :|r |cffff4500Brûle|r la cible, qui subit $561122o1 points de dégâts de Feu-sorcier en $561122d. Les ennemis affectés par votre |cFFFFFFFFFeu stellaire|r ne peuvent pas se camoufler. 	lot talents_004 | relu par l'API (relecture 0.9.5) : Le nom cité « Burns » est « Brûle » dans les noms fournis.
 sort	500205		Name	580a2ca1256f	Amplification de Lo'sho	lot talents_004
 sort	500206		Description	f97d27b67e8c	Toutes les $800393d, vous alternez entre |cFFFFFFFFPleine lune|r et |cFFFFFFFFNouvelle lune|r.@s:800393:0@@s:800394:0@	lot talents_004
 sort	500206		Name	00533de87717	Cycle de la lune	lot talents_004
@@ -269,7 +269,7 @@ sort	500236		Name	44fc9af3a510	Boule de mort	lot talents_004
 sort	500241		Description	ab09c865acf5	|cffffffff3 charges, recharge de 30 sec.|r\r\nActive vos |cffffffffBottes-fusées|r, ce qui dissipe les effets d'immobilisation et vous propulse en avant.	lot talents_004
 sort	500241		Name	a105aae52561	Bottes-fusées	lot talents_004
 sort	500241		ToolTip	2b37685d4a75	Propulsion vers l'avant.	lot talents_004
-sort	500242		Description	77be45a4f572	Construit un |cFFFFFFFFGueule-de-ferraille|r qui accompagne le bricoleur jusqu'à ce qu'il soit renvoyé.	lot talents_004
+sort	500242		Description	77be45a4f572	Construit une |cFFFFFFFFGueule-de-ferraille|r qui accompagne le bricoleur jusqu'à ce qu'elle soit renvoyée.	lot talents_004 | relu par l'API (relecture 0.9.5) : Accord : la Gueule-de-ferraille est féminine (« elle »), pas « il ».
 sort	500242		Name	58a1231df0ae	Construire : Gueule-de-ferraille	lot talents_004
 sort	500249		Description	66698d88f761	Déchaîne un barrage d'éclats, ce qui inflige ${$m1+0+$RAP*.36+$spfi*.55} points de dégâts de Feu aux ennemis en ligne et applique à chaque cible touchée une |cffffffffBombe collante|r mineure qui inflige ${$504667m1+$504667ppl1+$spfi*.1+$AP*0.5} points de dégâts de Feu au bout de $504667t2 sec.\r\n\r\nAu bout de $707298d, votre |cffffffffTourelle de garde|r active tire aussi un |cffffffffBarrage hyperexplosif|r.	lot talents_004
 sort	500249		Name	7df2047d0346	Barrage hyperexplosif	lot talents_004
@@ -291,7 +291,7 @@ sort	500651		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\
 sort	500651		Name	3df1a8a24cd0	Météore	lot talents_004
 sort	500652		Description	f6dd97d7ec6e	|cffff7f7fGénère 50 points de Chaleur|r\r\nFait tomber un météore sur une zone de $a1 mètres, ce qui inflige ${$m1+0+$spfi*1.25} points de dégâts de Feu à $i ennemis et les désoriente pendant $300985d. Les dégâts directs interrompent l'effet.	lot talents_004
 sort	500652		Name	3df1a8a24cd0	Météore	lot talents_004
-sort	500715		Description	ac01f45e5cf8	Protège un allié avec un bouclier qui absorbe ${$m1+$SP*2} points de dégâts pendant $d et applique |cffffffffEsprit tourmenté|r.\r\n@s:805801:0@	lot talents_004
+sort	500715		Description	ac01f45e5cf8	Protège un allié avec un bouclier qui absorbe ${$m1+$SP*2} points de dégâts pendant $d et applique |cffffffffEsprit tourmenté|r.\r\n@s:805801:0@	lot talents_004 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Esprit tourmenté).
 sort	500715		Name	48a51c0bb3b6	Bouclier de vide	lot talents_004
 sort	500715		ToolTip	278e9586e8fe	Absorbe ${$w1} points de dégâts.	lot talents_004
 sort	500913		Description	fa791c17bd38	Votre prochaine attaque vous fait frapper violemment un ennemi et jusqu'à 2 ennemis proches, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0}.	lot talents_004
@@ -513,7 +513,7 @@ sort	800081		ToolTip	0654d113b33b	Réduit au silence.	lot talents_004
 sort	800446		Name	98becc1376b4	Flétrissure ténébreuse	lot talents_004
 sort	800497		Description	c5871e073e78	Frappe l'ennemi ciblé et tous les ennemis proches de lui d'un feu lunaire qui inflige ${$m1+0+$spa*0.33} points de dégâts des Arcanes et applique des |cff66ccffÉtoiles éparpillées|r.\r\n\r\nConsommer une |cff66ccffÉtoile éparpillée|r réduit le temps de recharge restant de $/1000;504024S1 sec.\r\n@s:804378:0@	lot talents_004
 sort	800497		Name	e3728c20e718	Appel stellaire	lot talents_004
-sort	803195		Name	b07621e6b8a1	Poison pointe-venin	lot talents_004
+sort	803195		Name	b07621e6b8a1	Poison de pointe venimeuse	lot talents_004 | relu par l'API (relecture 0.9.5) : Nom du sort cité ailleurs (noms_de_sorts_cites) : « Poison de pointe venimeuse » ; le nom doit être identique partout.
 sort	803195		ToolTip	a01e1a8c3be0	Vitesse d'attaque réduite de $572058s1%.	lot talents_004
 sort	803511		Description	7fc12906a57d	Augmente de $s1% vos chances de toucher avec tous les sorts et attaques, ainsi que celles des membres du groupe et du raid.\r\n\r\nNe se cumule pas avec des effets similaires.	lot talents_004
 sort	803511		ToolTip	c15042243c11	Chances de toucher augmentées de ${$w1}%.	lot talents_004

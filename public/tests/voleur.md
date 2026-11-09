@@ -1,0 +1,274 @@
+# Fiche de test : Voleur
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Assassinat
+
+- [ ] **Aiguillon perfide** — capacité, sort n° 408
+- [ ] **Garrot** (Rang 1) — capacité, sort n° 703
+- [ ] **Coup bas** — capacité, sort n° 1833
+- [ ] **Rupture** (Rang 1) — capacité, sort n° 1943
+- [ ] **Eviscération** (Rang 1) — capacité, sort n° 2098
+- [ ] **Maîtrise des poisons** — capacité, sort n° 2842 🔍 MAJ
+- [ ] **Débiter** (Rang 1) — capacité, sort n° 5171 🔍 MAJ
+- [ ] **Exposer l'armure** — capacité, sort n° 8647 🔍 MAJ 🔀 talents
+- [ ] **Embuscade** (Rang 1) — capacité, sort n° 8676
+- [ ] **Lancer mortel** (Rang 1) — capacité, sort n° 26679
+- [ ] **Envenimer** (Rang 1) — capacité, sort n° 32645
+- [ ] **Démantèlement** — capacité, sort n° 51722
+- [ ] **Préparation au combat** — capacité, sort n° 86378 🔍 MAJ
+- [ ] **Bombe fumigène** — capacité, sort n° 954501
+- [ ] **Redirection** — capacité, sort n° 954503
+- [ ] **Expédition** (Rang 1) — capacité, sort n° 954553
+- [ ] **Maîtrise des coups de grâce avancés** — capacité, sort n° 954708 🔍 MAJ
+- [ ] **Tempête cramoisie** (Rang 1) — capacité, sort n° 954809
+- [ ] **Méditation** — capacité, sort n° 965426
+- [ ] **Blessures transperçantes** (Rang 1) — talent, sort n° 13733
+- [ ] **Blessures transperçantes** (Rang 2) — talent, sort n° 13865
+- [ ] **Blessures transperçantes** (Rang 3) — talent, sort n° 13866
+- [ ] **Poisons améliorés** (Rang 1) — talent, sort n° 14113
+- [ ] **Poisons améliorés** (Rang 2) — talent, sort n° 14114
+- [ ] **Poisons améliorés** (Rang 3) — talent, sort n° 14115
+- [ ] **Poisons améliorés** (Rang 4) — talent, sort n° 14116
+- [ ] **Poisons améliorés** (Rang 5) — talent, sort n° 14117
+- [ ] **Mortalité** (Rang 1) — talent, sort n° 14128
+- [ ] **Mortalité** (Rang 2) — talent, sort n° 14132
+- [ ] **Mortalité** (Rang 3) — talent, sort n° 14135
+- [ ] **Malice** (Rang 1) — talent, sort n° 14138
+- [ ] **Malice** (Rang 2) — talent, sort n° 14139
+- [ ] **Malice** (Rang 3) — talent, sort n° 14140
+- [ ] **Malice** (Rang 4) — talent, sort n° 14141
+- [ ] **Malice** (Rang 5) — talent, sort n° 14142
+- [ ] **Attaques impitoyables** (Rang 1) — talent, sort n° 14144
+- [ ] **Attaques impitoyables** (Rang 2) — talent, sort n° 14148
+- [ ] **Némésis** (Rang 1) — talent, sort n° 14156 🔍 MAJ
+- [ ] **Meurtre** (Rang 1) — talent, sort n° 14158
+- [ ] **Meurtre** (Rang 2) — talent, sort n° 14159
+- [ ] **Némésis** (Rang 2) — talent, sort n° 14160 🔍 MAJ
+- [ ] **Némésis** (Rang 3) — talent, sort n° 14161 🔍 MAJ
+- [ ] **Eviscération améliorée** (Rang 1) — talent, sort n° 14162
+- [ ] **Eviscération améliorée** (Rang 2) — talent, sort n° 14163
+- [ ] **Eviscération améliorée** (Rang 3) — talent, sort n° 14164
+- [ ] **Exposer l'armure amélioré** (Rang 1) — talent, sort n° 14168
+- [ ] **Exposer l'armure amélioré** (Rang 2) — talent, sort n° 14169
+- [ ] **Aiguillon perfide amélioré** (Rang 1) — talent, sort n° 14174
+- [ ] **Aiguillon perfide amélioré** (Rang 2) — talent, sort n° 14175
+- [ ] **Scelle le destin** (Rang 1) — talent, sort n° 14186
+- [ ] **Scelle le destin** (Rang 2) — talent, sort n° 14190
+- [ ] **Scelle le destin** (Rang 3) — talent, sort n° 14193
+- [ ] **Vigueur** (Rang 1) — talent, sort n° 14983
+- [ ] **Poisons abominables** (Rang 1) — talent, sort n° 16513
+- [ ] **Poisons abominables** (Rang 2) — talent, sort n° 16514
+- [ ] **Poisons abominables** (Rang 3) — talent, sort n° 16515
+- [ ] **Pied léger** (Rang 1) — talent, sort n° 31208
+- [ ] **Pied léger** (Rang 2) — talent, sort n° 31209
+- [ ] **Maître empoisonneur** (Rang 1) — talent, sort n° 31226 🔍 MAJ
+- [ ] **Maître empoisonneur** (Rang 2) — talent, sort n° 31227 🔍 MAJ
+- [ ] **Découverte des faiblesses** (Rang 1) — talent, sort n° 31234
+- [ ] **Découverte des faiblesses** (Rang 2) — talent, sort n° 31235
+- [ ] **Découverte des faiblesses** (Rang 3) — talent, sort n° 31236
+- [ ] **Rétablissement rapide** (Rang 1) — talent, sort n° 31244 🔍 MAJ
+- [ ] **Rétablissement rapide** (Rang 2) — talent, sort n° 31245 🔍 MAJ
+- [ ] **Anesthésie nerveuse** (Rang 1) — talent, sort n° 31380
+- [ ] **Anesthésie nerveuse** (Rang 2) — talent, sort n° 31382
+- [ ] **Anesthésie nerveuse** (Rang 3) — talent, sort n° 31383
+- [ ] **Breuvage mortel** (Rang 1) — talent, sort n° 51625 🔍 MAJ
+- [ ] **Breuvage mortel** (Rang 2) — talent, sort n° 51626 🔍 MAJ
+- [ ] **Retour à l'envoyeur** (Rang 1) — talent, sort n° 51627
+- [ ] **Retour à l'envoyeur** (Rang 2) — talent, sort n° 51628
+- [ ] **Retour à l'envoyeur** (Rang 3) — talent, sort n° 51629
+- [ ] **Eclaboussure de sang** (Rang 1) — talent, sort n° 51632
+- [ ] **Eclaboussure de sang** (Rang 2) — talent, sort n° 51633
+- [ ] **Attaques focalisées** (Rang 1) — talent, sort n° 51634
+- [ ] **Attaques focalisées** (Rang 2) — talent, sort n° 51635
+- [ ] **Attaques focalisées** (Rang 3) — talent, sort n° 51636
+- [ ] **Tailler dans le vif** (Rang 1) — talent, sort n° 51664
+- [ ] **Tailler dans le vif** (Rang 2) — talent, sort n° 51665
+- [ ] **Tailler dans le vif** (Rang 3) — talent, sort n° 51667
+- [ ] **Maître empoisonneur** (Rang 3) — talent, sort n° 58410 🔍 MAJ
+- [ ] **Outrance meurtrière** — talent, sort n° 58426
+- [ ] **Pied léger** (Rang 3) — talent, sort n° 312090 🔍 MAJ
+- [ ] **Vigueur** (Rang 2) — talent, sort n° 814983
+- [ ] **Outrance meurtrière** (Rang 2) — talent, sort n° 858428
+- [ ] **Estropier** (Rang 1) — capacité de talent, sort n° 1329
+- [ ] **Sang froid** — capacité de talent, sort n° 14177 🔍 MAJ
+- [ ] **Soif de sang** — capacité de talent, sort n° 51662 🔍 MAJ
+
+## Combat
+
+- [ ] **Attaque sournoise** (Rang 1) — capacité, sort n° 53
+- [ ] **Attaque pernicieuse** (Rang 1) — capacité, sort n° 1752
+- [ ] **Coup de pied** — capacité, sort n° 1766 🔍 MAJ
+- [ ] **Suriner** — capacité, sort n° 1776
+- [ ] **Feinte** (Rang 1) — capacité, sort n° 1966
+- [ ] **Sprint** (Rang 1) — capacité, sort n° 2983
+- [ ] **Evasion** (Rang 1) — capacité, sort n° 5277 🔍 MAJ
+- [ ] **Kriss** — capacité, sort n° 5938
+- [ ] **Eventail de couteaux** — capacité, sort n° 51723
+- [ ] **Grappin** — capacité, sort n° 760056
+- [ ] **Lancer les os** — capacité, sort n° 760080
+- [ ] **Lancer de shuriken** (Rang 1) — capacité, sort n° 954835
+- [ ] **Rétablissement** — capacité, sort n° 965425
+- [ ] **Spécialisation Armes de jet** (Rang 1) — talent, sort n° 5952
+- [ ] **Précision** (Rang 1) — talent, sort n° 13705
+- [ ] **Combat rapproché** (Rang 1) — talent, sort n° 13706
+- [ ] **Spécialisation Masse** (Rang 1) — talent, sort n° 13709
+- [ ] **Réflexes rapides** (Rang 1) — talent, sort n° 13712
+- [ ] **Déviation** (Rang 1) — talent, sort n° 13713 🔍 MAJ
+- [ ] **Spécialisation Ambidextrie** (Rang 1) — talent, sort n° 13715 🔍 MAJ
+- [ ] **Attaque pernicieuse améliorée** (Rang 1) — talent, sort n° 13732
+- [ ] **Suriner amélioré** (Rang 1) — talent, sort n° 13741
+- [ ] **Endurcissement** (Rang 1) — talent, sort n° 13742
+- [ ] **Sprint amélioré** (Rang 1) — talent, sort n° 13743
+- [ ] **Coup de pied amélioré** (Rang 1) — talent, sort n° 13754
+- [ ] **Réflexes rapides** (Rang 2) — talent, sort n° 13788
+- [ ] **Réflexes rapides** (Rang 3) — talent, sort n° 13789
+- [ ] **Suriner amélioré** (Rang 2) — talent, sort n° 13793
+- [ ] **Spécialisation Masse** (Rang 2) — talent, sort n° 13800
+- [ ] **Spécialisation Masse** (Rang 3) — talent, sort n° 13801
+- [ ] **Spécialisation Masse** (Rang 4) — talent, sort n° 13802
+- [ ] **Spécialisation Masse** (Rang 5) — talent, sort n° 13803
+- [ ] **Combat rapproché** (Rang 2) — talent, sort n° 13804
+- [ ] **Combat rapproché** (Rang 3) — talent, sort n° 13805
+- [ ] **Combat rapproché** (Rang 4) — talent, sort n° 13806
+- [ ] **Combat rapproché** (Rang 5) — talent, sort n° 13807
+- [ ] **Précision** (Rang 2) — talent, sort n° 13832
+- [ ] **Précision** (Rang 3) — talent, sort n° 13843
+- [ ] **Précision** (Rang 4) — talent, sort n° 13844
+- [ ] **Précision** (Rang 5) — talent, sort n° 13845
+- [ ] **Spécialisation Ambidextrie** (Rang 2) — talent, sort n° 13848 🔍 MAJ
+- [ ] **Spécialisation Ambidextrie** (Rang 3) — talent, sort n° 13849 🔍 MAJ
+- [ ] **Spécialisation Ambidextrie** (Rang 4) — talent, sort n° 13851 🔍 MAJ
+- [ ] **Spécialisation Ambidextrie** (Rang 5) — talent, sort n° 13852 🔍 MAJ
+- [ ] **Déviation** (Rang 2) — talent, sort n° 13853 🔍 MAJ
+- [ ] **Déviation** (Rang 3) — talent, sort n° 13854 🔍 MAJ
+- [ ] **Attaque pernicieuse améliorée** (Rang 2) — talent, sort n° 13863
+- [ ] **Coup de pied amélioré** (Rang 2) — talent, sort n° 13867
+- [ ] **Endurcissement** (Rang 2) — talent, sort n° 13872
+- [ ] **Sprint amélioré** (Rang 2) — talent, sort n° 13875
+- [ ] **Taillader et trancher** (Rang 1) — talent, sort n° 13960
+- [ ] **Taillader et trancher** (Rang 2) — talent, sort n° 13961
+- [ ] **Taillader et trancher** (Rang 3) — talent, sort n° 13962
+- [ ] **Débiter amélioré** (Rang 1) — talent, sort n° 14165
+- [ ] **Débiter amélioré** (Rang 2) — talent, sort n° 14166
+- [ ] **Agressivité** (Rang 1) — talent, sort n° 18427
+- [ ] **Agressivité** (Rang 2) — talent, sort n° 18428
+- [ ] **Agressivité** (Rang 3) — talent, sort n° 18429
+- [ ] **Expertise en armes** (Rang 1) — talent, sort n° 30919
+- [ ] **Expertise en armes** (Rang 2) — talent, sort n° 30920
+- [ ] **Vitalité** (Rang 1) — talent, sort n° 31122
+- [ ] **Vitalité** (Rang 2) — talent, sort n° 31123
+- [ ] **Tournoiement de lames** (Rang 1) — talent, sort n° 31124
+- [ ] **Tournoiement de lames** (Rang 2) — talent, sort n° 31126
+- [ ] **Nerfs d'acier** (Rang 1) — talent, sort n° 31130
+- [ ] **Nerfs d'acier** (Rang 2) — talent, sort n° 31131
+- [ ] **Attaques surprises** (Rang 1) — talent, sort n° 32601
+- [ ] **Toute-puissance de combat** (Rang 1) — talent, sort n° 35541
+- [ ] **Toute-puissance de combat** (Rang 2) — talent, sort n° 35550
+- [ ] **Toute-puissance de combat** (Rang 3) — talent, sort n° 35551
+- [ ] **Avantage déloyal** (Rang 1) — talent, sort n° 51672 🔍 MAJ
+- [ ] **Avantage déloyal** (Rang 2) — talent, sort n° 51674 🔍 MAJ
+- [ ] **Spécialisation Armes de jet** (Rang 2) — talent, sort n° 51679
+- [ ] **Combat sauvage** (Rang 1) — talent, sort n° 51682 🔍 MAJ
+- [ ] **Attaquer les faibles** (Rang 1) — talent, sort n° 51685
+- [ ] **Attaquer les faibles** (Rang 2) — talent, sort n° 51686
+- [ ] **Attaquer les faibles** (Rang 3) — talent, sort n° 51687
+- [ ] **Attaquer les faibles** (Rang 4) — talent, sort n° 51688
+- [ ] **Attaquer les faibles** (Rang 5) — talent, sort n° 51689
+- [ ] **Combat sauvage** (Rang 2) — talent, sort n° 58413 🔍 MAJ
+- [ ] **Vitalité** (Rang 3) — talent, sort n° 61329
+- [ ] **Agressivité** (Rang 4) — talent, sort n° 61330
+- [ ] **Agressivité** (Rang 5) — talent, sort n° 61331
+- [ ] **Coup de pied amélioré** (Rang 3) — talent, sort n° 813867
+- [ ] **Sprint amélioré** (Rang 3) — talent, sort n° 813875
+- [ ] **Attaques surprises** (Rang 2) — talent, sort n° 832601
+- [ ] **Attaques surprises** (Rang 3) — talent, sort n° 832602
+- [ ] **Poussée d'adrénaline** — capacité de talent, sort n° 13750 🔍 MAJ
+- [ ] **Déluge de lames** — capacité de talent, sort n° 13877 🔍 MAJ
+- [ ] **Riposte** — capacité de talent, sort n° 14251 🔍 MAJ
+- [ ] **Série meurtrière** — capacité de talent, sort n° 51690
+
+## Finesse
+
+- [ ] **Vol à la tire** — capacité, sort n° 921
+- [ ] **Distraction** — capacité, sort n° 1725
+- [ ] **Camouflage** — capacité, sort n° 1784
+- [ ] **Crochetage** — capacité, sort n° 1804
+- [ ] **Désarmement de piège** — capacité, sort n° 1842
+- [ ] **Disparition** (Rang 1) — capacité, sort n° 1856
+- [ ] **Chute amortie** (Passif) — capacité, sort n° 1860
+- [ ] **Cécité** — capacité, sort n° 2094
+- [ ] **Détection des pièges** (Passif) — capacité, sort n° 2836
+- [ ] **Assommer** (Rang 1) — capacité, sort n° 6770
+- [ ] **Cape d'ombre** — capacité, sort n° 31224
+- [ ] **Ficelles du métier** — capacité, sort n° 57933
+- [ ] **Ficelles du métier** — capacité, sort n° 57934
+- [ ] **Lame sombre** (Rang 1) — capacité, sort n° 760050
+- [ ] **Maître des illusions** (Rang 1) — talent, sort n° 13958
+- [ ] **Maître des illusions** (Rang 2) — talent, sort n° 13970
+- [ ] **Maître des illusions** (Rang 3) — talent, sort n° 13971
+- [ ] **Dissimulation** (Rang 1) — talent, sort n° 13975
+- [ ] **Initiative** (Rang 1) — talent, sort n° 13976
+- [ ] **Initiative** (Rang 2) — talent, sort n° 13979
+- [ ] **Initiative** (Rang 3) — talent, sort n° 13980
+- [ ] **Insaisissable** (Rang 1) — talent, sort n° 13981
+- [ ] **Préparatifs** (Rang 1) — talent, sort n° 13983 🔍 MAJ
+- [ ] **Opportunité** (Rang 1) — talent, sort n° 14057
+- [ ] **Dissimulation** (Rang 2) — talent, sort n° 14062
+- [ ] **Dissimulation** (Rang 3) — talent, sort n° 14063
+- [ ] **Insaisissable** (Rang 2) — talent, sort n° 14066
+- [ ] **Préparatifs** (Rang 2) — talent, sort n° 14070 🔍 MAJ
+- [ ] **Préparatifs** (Rang 3) — talent, sort n° 14071 🔍 MAJ
+- [ ] **Opportunité** (Rang 2) — talent, sort n° 14072
+- [ ] **Coup tordu** (Rang 1) — talent, sort n° 14076
+- [ ] **Surgi de nulle part** (Rang 1) — talent, sort n° 14079
+- [ ] **Surgi de nulle part** (Rang 2) — talent, sort n° 14080
+- [ ] **Coups fourrés** (Rang 1) — talent, sort n° 14082
+- [ ] **Coups fourrés** (Rang 2) — talent, sort n° 14083
+- [ ] **Coup tordu** (Rang 2) — talent, sort n° 14094
+- [ ] **Lames dentelées** (Rang 1) — talent, sort n° 14171
+- [ ] **Lames dentelées** (Rang 2) — talent, sort n° 14172
+- [ ] **Lames dentelées** (Rang 3) — talent, sort n° 14173
+- [ ] **Frappes implacables** (Rang 1) — talent, sort n° 14179
+- [ ] **Passe-passe** (Rang 1) — talent, sort n° 30892
+- [ ] **Passe-passe** (Rang 2) — talent, sort n° 30893
+- [ ] **Sens amplifiés** (Rang 1) — talent, sort n° 30894
+- [ ] **Sens amplifiés** (Rang 2) — talent, sort n° 30895
+- [ ] **Meurtrier** (Rang 1) — talent, sort n° 30902
+- [ ] **Meurtrier** (Rang 2) — talent, sort n° 30903
+- [ ] **Meurtrier** (Rang 3) — talent, sort n° 30904
+- [ ] **Linceul d'ombres** (Rang 1) — talent, sort n° 31211 🔍 MAJ
+- [ ] **Linceul d'ombres** (Rang 2) — talent, sort n° 31212 🔍 MAJ
+- [ ] **Linceul d'ombres** (Rang 3) — talent, sort n° 31213 🔍 MAJ
+- [ ] **Vocation pernicieuse** (Rang 1) — talent, sort n° 31216
+- [ ] **Vocation pernicieuse** (Rang 2) — talent, sort n° 31217
+- [ ] **Vocation pernicieuse** (Rang 3) — talent, sort n° 31218
+- [ ] **Maître de la discrétion** (Rang 1) — talent, sort n° 31221 🔍 MAJ
+- [ ] **Maître de la discrétion** (Rang 2) — talent, sort n° 31222 🔍 MAJ
+- [ ] **Maître de la discrétion** (Rang 3) — talent, sort n° 31223 🔍 MAJ
+- [ ] **Trompe-la-mort** (Rang 1) — talent, sort n° 31228 🔍 MAJ
+- [ ] **Trompe-la-mort** (Rang 2) — talent, sort n° 31229 🔍 MAJ
+- [ ] **Trompe-la-mort** (Rang 3) — talent, sort n° 31230 🔍 MAJ
+- [ ] **Assaillir** (Rang 1) — talent, sort n° 51692
+- [ ] **Assaillir** (Rang 2) — talent, sort n° 51696
+- [ ] **Honneur des voleurs** (Rang 1) — talent, sort n° 51698
+- [ ] **Honneur des voleurs** (Rang 2) — talent, sort n° 51700
+- [ ] **Honneur des voleurs** (Rang 3) — talent, sort n° 51701
+- [ ] **Ombres meurtrières** (Rang 1) — talent, sort n° 51708
+- [ ] **Ombres meurtrières** (Rang 2) — talent, sort n° 51709
+- [ ] **Ombres meurtrières** (Rang 3) — talent, sort n° 51710
+- [ ] **Tours pendables** (Rang 1) — talent, sort n° 58414
+- [ ] **Tours pendables** (Rang 2) — talent, sort n° 58415
+- [ ] **Frappes implacables** (Rang 2) — talent, sort n° 58422
+- [ ] **Frappes implacables** (Rang 3) — talent, sort n° 58423
+- [ ] **Coup tordu** (Rang 3) — talent, sort n° 814094
+- [ ] **Tours pendables** (Rang 3) — talent, sort n° 858414
+- [ ] **Préméditation** — capacité de talent, sort n° 14183 🔍 MAJ
+- [ ] **Préparation** — capacité de talent, sort n° 14185 🔍 MAJ
+- [ ] **Frappe fantomatique** — capacité de talent, sort n° 14278
+- [ ] **Hémorragie** (Rang 1) — capacité de talent, sort n° 16511
+- [ ] **Pas de l'ombre** — capacité de talent, sort n° 36554 🔍 MAJ
+- [ ] **Danse de l'ombre** — capacité de talent, sort n° 51713

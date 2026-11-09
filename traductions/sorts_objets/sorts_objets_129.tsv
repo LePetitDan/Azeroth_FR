@@ -4,7 +4,7 @@ sort	701463		Name	65f6b6c99ce5	Barrière forgée de mana	lot sorts_objets_129
 sort	701463		ToolTip	c3283be66eb8	Menace considérablement augmentée.	lot sorts_objets_129
 sort	701494		Description	ac08bd280a58	Vous apprend les imprégnations d'arme suivantes : Arme Langue de feu, Arme Croque-roc, Arme Parole de givre et Arme Furie-des-vents.\n\n|cffFFFFFFArme Langue de feu (niveau 10)|r - Imprègne votre arme de l'élément Feu, infligeant des dégâts de Feu lors des attaques de mêlée et augmentant les dégâts de vos sorts.\n\n|cffFFFFFFArme Croque-roc (niveau 10)|r - Imprègne votre arme de l'élément Terre, augmentant votre puissance d'attaque.\n\n|cffFFFFFFArme Parole de givre (niveau 20)|r - Imprègne votre arme de l'élément Givre, infligeant des dégâts de Givre lors des attaques de mêlée, ralentissant votre cible de 30% et augmentant les dégâts des sorts de Givre.\n\n|cffFFFFFFArme Furie-des-vents (niveau 30)|r - Imprègne votre arme de l'élément Air, donnant à vos attaques d'arme une chance d'infliger 2 attaques supplémentaires (80% pour les armes à deux mains).	lot sorts_objets_129
 sort	701494		Name	912839352f60	Améliorations d'arme du chaman	lot sorts_objets_129
-sort	701500		Description	b076d28ccb24	Vous apprend : Armure de givre, Armure de mage et Armure de magma.\n\n|cffFFFFFFArmure de givre (niveau 1)|r - Augmente la résistance au Givre et l'armure, et ralentit la vitesse d'attaque et de déplacement des ennemis qui vous frappent.\n\n|cffFFFFFFArmure de mage (niveau 34)|r - Réduit de 2% les dégâts des sorts subis et permet à 35% de votre récupération de mana de se poursuivre en combat.\n\n|cffFFFFFFArmure de magma (niveau 44)|r - Augmente vos chances de coup critique de 5% de votre Esprit, réduit de 1% vos chances de subir un coup critique et inflige des dégâts de Feu à tout attaquant.	lot sorts_objets_129
+sort	701500		Description	b076d28ccb24	Vous apprend : Armure de givre, Armure du mage et Armure de magma.\n\n|cffFFFFFFArmure de givre (niveau 1)|r - Augmente la résistance au Givre et l'armure, et ralentit la vitesse d'attaque et de déplacement des ennemis qui vous frappent.\n\n|cffFFFFFFArmure du mage (niveau 34)|r - Réduit de 2% les dégâts des sorts subis et permet à 35% de votre récupération de mana de se poursuivre en combat.\n\n|cffFFFFFFArmure de magma (niveau 44)|r - Augmente vos chances de coup critique de 5% de votre Esprit, réduit de 1% vos chances de subir un coup critique et inflige des dégâts de Feu à tout attaquant.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Le nom officiel du sort Mage Armor est « Armure du mage » (noms_officiels indique « Armures de mage » pour la catégorie) ; je harmonise sur la forme officielle du sort. Doute léger.
 sort	701500		Name	e92147c5c552	Armures élémentaires	lot sorts_objets_129
 sort	701510		Description	f49ac791309c	Vous apprend : Armure démoniaque, Gangrarmure et Armure de l'invocateur.\n\n|cffFFFFFFPeau de démon (niveau 1)|r - Augmente votre armure et les soins que vous recevez de 5%.\n\n|cffFFFFFFArmure de l'invocateur (niveau 1)|r - Renforce votre familier, augmentant ses chances de coup critique de 2% et ses dégâts de sorts de 3%.\n\n|cffFFFFFFGangrarmure (niveau 60)|r - Augmente votre score de toucher des sorts de 4% de votre Esprit, et vos incantations ont une chance de vous rendre 4% de vos points de vie de base.	lot sorts_objets_129
 sort	701510		Name	b621f64b832e	Armures démoniaques	lot sorts_objets_129
@@ -17,12 +17,12 @@ sort	701530		Name	8e3571a36ed3	Pièges du chasseur Survie	lot sorts_objets_129
 sort	704108		Description	cb7334374682	Augmente de $s1% les dégâts de |cffffffffTir au pistolet|r et de |cffffffffCanon de poing|r contre les ennemis affectés par |cffffffffBombe collante|r.	lot sorts_objets_129
 sort	704108		Name	450d43c67725	Pistolet fumant	lot sorts_objets_129
 sort	704108		ToolTip	92377fa10481	Augmente de ${$w1}% les dégâts de |cffffffffTir au pistolet|r et de |cffffffffCanon de poing|r contre les ennemis affectés par |cffffffffBombe collante|r.	lot sorts_objets_129
-sort	704138		Description	27cef72ce44a	Donne à votre aptitude |cffffffffDague distordue|r un temps de recharge de $/1000;s2 sec, mais vous permet de l'utiliser en dehors de |cffffffffLinceul runique|r.	lot sorts_objets_129
+sort	704138		Description	27cef72ce44a	Donne à votre aptitude |cffffffffDague de distorsion|r un temps de recharge de $/1000;s2 sec, mais vous permet de l'utiliser en dehors du |cffffffffVoile runique|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Accord : « en dehors du Voile runique » (nom masculin) ; le nom de sort cité est inchangé.
 sort	704138		Name	826adf17b0af	Traqueur des lignes de force	lot sorts_objets_129
-sort	704138		ToolTip	9dc46a8d2cba	Donne à votre aptitude Dague distordue un temps de recharge de $/1000;s2 sec, mais vous permet de l'utiliser en dehors de Linceul runique.	lot sorts_objets_129
-sort	704161		Description	8e015b89460f	Toutes les 20 sec, votre prochaine |cffffffffMarche des lignes de force|r n'a pas de temps de recharge.	lot sorts_objets_129
+sort	704138		ToolTip	9dc46a8d2cba	Donne à votre aptitude Dague de distorsion un temps de recharge de $/1000;s2 sec, mais vous permet de l'utiliser en dehors du Voile runique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Noms de sorts alignés sur les noms français retenus (Dague de distorsion, Voile runique) ; « Dague distordue » et « Linceul runique » étaient incohérents.
+sort	704161		Description	8e015b89460f	Toutes les 20 sec, votre prochaine |cffffffffMarche des lignes de ley|r n'a pas de temps de recharge.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur le français fourni : Marche des lignes de ley.
 sort	704161		Name	64fc45436c1e	Saute-distorsion	lot sorts_objets_129
-sort	704161		ToolTip	8e015b89460f	Toutes les 20 sec, votre prochaine |cffffffffMarche des lignes de force|r n'a pas de temps de recharge.	lot sorts_objets_129
+sort	704161		ToolTip	8e015b89460f	Toutes les 20 sec, votre prochaine |cffffffffMarche des lignes de ley|r n'a pas de temps de recharge.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur le français fourni : Marche des lignes de ley.
 sort	704168		Description	787b9bff3939	Infliger des dégâts augmente désormais de $504189s1% les dégâts de votre prochain |cffffffffTrait de sang|r ou |cffffffffMorsure de croc sanglant|r pendant $504189d, cumulable $504189u fois.\r\n\r\nNe peut survenir qu'une fois toutes les 0.5 sec.	lot sorts_objets_129
 sort	704177		Description	491e3ffe17c6	Vos sorts de |cffffffffLibram|r augmentent désormais aussi votre vitesse de déplacement de $520448s1% pendant $520448d.	lot sorts_objets_129
 sort	704177		ToolTip	adf04977bede	Les sorts de |cffffffffLibram|r augmentent désormais aussi la vitesse de déplacement de $520448s1% pendant $520448d.	lot sorts_objets_129
@@ -48,9 +48,9 @@ sort	704267		ToolTip	5710fbd2f4ef	La vitesse de déplacement des ennemis proches
 sort	704268		Description	e761d9d76c3b	Déclenche instantanément une |cFFFFFFFFImpulsion runique|r du |cFFFFFFFFFamilier runique|r et augmente de $s2% les dégâts magiques qu'il inflige pendant $d.	lot sorts_objets_129
 sort	704268		Name	2049a6d16870	Harmonisation du familier : Arcanes	lot sorts_objets_129
 sort	704268		ToolTip	d944a2e804a7	Dégâts magiques infligés augmentés de ${$w2}%. 	lot sorts_objets_129
-sort	704285		Description	a0c98797293e	Utiliser |cffffffffTerre rompue|r, |cffffffffGueule de l'ours|r, |cffffffffÉchine de terre|r et |cffffffffCharge primordiale|r ralentit désormais de $706215s1% la vitesse de déplacement des ennemis affectés et réduit leur armure de $706215s2% pendant $706215d.	lot sorts_objets_129
+sort	704285		Description	a0c98797293e	Utiliser |cffffffffTerre fracturée|r, |cffffffffMâchoire de l'ours|r, |cffffffffÉchine de terre|r et |cffffffffCharge primordiale|r ralentit désormais de $706215s1% la vitesse de déplacement des ennemis affectés et réduit leur armure de $706215s2% pendant $706215d.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Noms de sorts cités différents du français fourni : Terre fracturée, Mâchoire de l'ours.
 sort	704285		Name	793da1d96eb7	Secousses du sol	lot sorts_objets_129
-sort	704285		ToolTip	2e2b9a7d5fb9	Utiliser |cffffffffTerre rompue|r, |cffffffffBriseur de pierre|r, |cffffffffÉchine de terre|r et |cffffffffCharge primordiale|r ralentit désormais de $706215s1% la vitesse de déplacement des ennemis affectés et réduit leur armure de $706215s2% pendant $706215d.	lot sorts_objets_129
+sort	704285		ToolTip	2e2b9a7d5fb9	Utiliser |cffffffffTerre fracturée|r, |cffffffffBrise-pierre|r, |cffffffffÉchine de terre|r et |cffffffffCharge primordiale|r ralentit désormais de $706215s1% la vitesse de déplacement des ennemis affectés et réduit leur armure de $706215s2% pendant $706215d.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : Terre fracturée, Brise-pierre.
 sort	704302		Description	9b2d7331c37b	Donne à |cffffffffExplosion surnaturelle|r et |cffffffffTrait d'horreur|r $h% de chances de lancer |cFFFFFFFFExplosion cauchemardesque|r.\r\n@s:560680:0@	lot sorts_objets_129
 sort	704302		Name	765886d43cf3	Cauchemar récurrent	lot sorts_objets_129
 sort	704302		ToolTip	cc24774337ed	Donne à |cffffffffExplosion surnaturelle|r et |cffffffffTrait d'horreur|r $h% de chances de lancer |cFFFFFFFFTrait cauchemardesque|r.\n@s:560680:s@	lot sorts_objets_129
@@ -84,15 +84,15 @@ sort	704444		Name	c94cd59e6156	Kit d'augmentation du noyau	lot sorts_objets_129
 sort	704444		ToolTip	159b35e23649	Vous accorde 3 Améliorations de noyau que vous pouvez appliquer à votre Assistant mécanique. Seule 1 Amélioration de noyau peut être active à la fois.@s:704448@@s:704449@@s:704450@	lot sorts_objets_129
 sort	704498		Description	b24a1d7cf3db	Augmente de $s1% les chances de coup critique de |cFFFFFFFFMauvais juju|r et de |cFFFFFFFFCourroux maléfique|r.	lot sorts_objets_129
 sort	704498		Name	95ef0179c59f	Nuit envahissante	lot sorts_objets_129
-sort	704510		Description	1008025ce619	Augmente de $/1000;s2 sec le temps de recharge de |cffffffffGardien serpent|r, mais lui fait invoquer $s1 gardiens supplémentaires.	lot sorts_objets_129
+sort	704510		Description	1008025ce619	Augmente de $/1000;s2 sec le temps de recharge de |cffffffffGarde serpent|r, mais lui fait invoquer $s1 gardiens supplémentaires.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Garde serpent ».
 sort	704510		Name	bb0dc165b3d2	Puissance de Quetz'lun	lot sorts_objets_129
-sort	704510		ToolTip	e8ba28c82618	Augmente de $/1000;s2 sec le temps de recharge de |cffffffffGardien serpent|r, mais lui fait invoquer ${$w1} gardiens supplémentaires.	lot sorts_objets_129
+sort	704510		ToolTip	e8ba28c82618	Augmente de $/1000;s2 sec le temps de recharge de |cffffffffGarde serpent|r, mais lui fait invoquer ${$w1} gardiens supplémentaires.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Garde serpent ».
 sort	704550		Description	0e67e8409791	Subir des dégâts réduit désormais de $/1000;704551s1 sec le temps de recharge restant de |cffffffffCri effroyable|r. \r\n\r\nNe peut survenir qu'une fois par seconde.	lot sorts_objets_129
 sort	704550		Name	2fbcf0994277	Réjouissances	lot sorts_objets_129
 sort	704550		ToolTip	25d5ae2dcd71	Fait que les dégâts subis réduisent de $/1000;s1 sec le temps de recharge restant de |cffffffffCri effroyable|r.	lot sorts_objets_129
 sort	704553		Description	1ed75ffd843d	Permet à vos attaques de |cffffffffDéchire-âme|r de frapper un ennemi supplémentaire, mais augmente son temps de recharge de $/1000;s2 sec.	lot sorts_objets_129
 sort	704553		Name	de47f4c816ef	Vrilles écarlates	lot sorts_objets_129
-sort	704553		ToolTip	977ac505951c	Permet à vos attaques de Déchire-âme de frapper un ennemi supplémentaire, mais augmente son temps de recharge de $/1000;s2 sec.	lot sorts_objets_129
+sort	704553		ToolTip	977ac505951c	Permet à vos attaques de Déchirure d'âme de frapper un ennemi supplémentaire, mais augmente son temps de recharge de $/1000;s2 sec.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent : « Déchire-âme » au lieu de « Déchirure d'âme ».
 sort	704555		Description	6117778c7c8c	Régénère ${$704561m1+$704561ppl1+$AP*0.08} points de mana chaque fois que vous déclenchez |cFFFFFFFFMoisson d'âmes|r.\n\nNe peut survenir plus d'une fois par seconde.	lot sorts_objets_129
 sort	704555		Name	28902ac08d26	Soldat sanguin	lot sorts_objets_129
 sort	704557		Description	8348ac9ce6f9	|cffffffffMoisson du corbeau|r augmente de $/1000;560497S1 sec la durée de |cffffffffTemps de la moisson|r.	lot sorts_objets_129
@@ -115,9 +115,9 @@ sort	704600		Name	f71c33b2aa0e	Retardateur de chaîne de serment	lot sorts_objet
 sort	704600		ToolTip	efcac58e0573	Vous permet de conserver les bonus de Serment.	lot sorts_objets_129
 sort	704618		Description	7f9f29959b85	Réduit le temps de recharge de |cFFFFFFFFChasseur monstrueux|r de $/1000;s1 sec.	lot sorts_objets_129
 sort	704618		Name	3ae558b9307d	Gueule vicieuse	lot sorts_objets_129
-sort	704619		Description	a67d9ec3886d	Donne $s1% de chances de déclencher une |cffffffffMorsure de worgen|r contre les ennemis qui vous frappent en mêlée tant que |cffffffffPeau de fer|r est active.	lot sorts_objets_129
+sort	704619		Description	a67d9ec3886d	Donne $s1% de chances de déclencher une |cffffffffMorsure de worgen|r contre les ennemis qui vous frappent en mêlée tant que |cffffffffPelage de fer|r est active.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Pelage de fer » est le nom français fourni, pas « Fourrure de fer ».
 sort	704619		Name	3ae558b9307d	Gueule vicieuse	lot sorts_objets_129
-sort	704619		ToolTip	cf41a7412fbb	Donne ${$w1}% de chances de déclencher une |cffffffffMorsure de worgen|r contre les ennemis qui vous frappent en mêlée tant que |cffffffffPeau de fer|r est active.	lot sorts_objets_129
+sort	704619		ToolTip	cf41a7412fbb	Donne ${$w1}% de chances de déclencher une |cffffffffMorsure de worgen|r contre les ennemis qui vous frappent en mêlée tant que |cffffffffPelage de fer|r est active.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Pelage de fer » est le nom français fourni, pas « Fourrure de fer ».
 sort	704648		Description	efcac58e0573	Vous permet de conserver les bonus de Serment.	lot sorts_objets_129
 sort	704648		Name	3c3fa9de2c9d	Suppresseur de chaîne de serment	lot sorts_objets_129
 sort	704648		ToolTip	efcac58e0573	Vous permet de conserver les bonus de Serment.	lot sorts_objets_129
@@ -125,10 +125,10 @@ sort	704655		Name	7b6bba6043de	Ultra-instincts	lot sorts_objets_129
 sort	704655		ToolTip	28f23cbcc941	Augmente de $s1% les dégâts physiques infligés aux ennemis affectés par |cffffffffSoif de Goldrinn|r.	lot sorts_objets_129
 sort	704657		Description	b1e1b8b7c144	Augmente de $s1% les chances de coup critique de votre |cffffffffSalve sanglante|r, de |cffffffffMorsure de croc sanglant|r et de |cFFFFFFFFLacération vitale|r.	lot sorts_objets_129
 sort	704657		ToolTip	b662fe8fd719	Augmente de ${$w1}% les chances de coup critique de |cffffffffMorsure de croc sanglant|r et de |cFFFFFFFFLacération vitale|r, et de ${$w2}% leurs dégâts critiques.	lot sorts_objets_129
-sort	704658		Description	2d570452c2d0	Augmente de $s1% les dégâts infligés quand vous appliquez |cffffffffGriffe sinistre|r.	lot sorts_objets_129
+sort	704658		Description	2d570452c2d0	Augmente de $s1% les dégâts infligés quand vous appliquez |cffffffffGriffe sinistre|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Griffe sinistre ».
 sort	704658		Name	9e2a2f2b1158	Grincement	lot sorts_objets_129
-sort	704658		ToolTip	6fcb708edbc9	Augmente de ${$w1}% les dégâts infligés quand vous appliquez |cffffffffGriffe sinistre|r.	lot sorts_objets_129
-sort	704674		Description	aaf4579aa8d0	Lancer |cffffffffCommande : mage des tombes|r lance désormais |cffffffffProtection glaciale|r sur vous et tous vos sbires morts-vivants.@s:501982:0@	lot sorts_objets_129
+sort	704658		ToolTip	6fcb708edbc9	Augmente de ${$w1}% les dégâts infligés quand vous appliquez |cffffffffGriffe sinistre|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Griffe sinistre ».
+sort	704674		Description	aaf4579aa8d0	Lancer |cffffffffCommandement : mage des tombes|r lance désormais |cffffffffProtection glaciale|r sur vous et tous vos sbires morts-vivants.@s:501982:0@	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Commandement : mage des tombes » (le français fourni est Commandement, non Commande).
 sort	704674		ToolTip	7718afb09173	Réduit de ${$w1}% le coût de |cffffffffSéisme de glace|r et de |cffffffffBarrage de glace|r, et de $/1000;s2 sec le temps de recharge de |cffffffffVents de Norfendre|r.	lot sorts_objets_129
 sort	704675		Name	1e97e1bb2bc6	Flot de givre	lot sorts_objets_129
 sort	704687		Description	a10383df17da	Augmente de $s1% tous les soins prodigués par |cffffffffBuveur de vie|r et de $s3% sa cadence.	lot sorts_objets_129
@@ -143,10 +143,10 @@ sort	704702		Description	069c3d34567d	Donne à vos effets de dégâts directs 33
 sort	704702		ToolTip	b1ca20c4001f	Donne à vos effets de dégâts directs 66% de chances de propager les maladies actives du nécromancien à un ennemi proche supplémentaire.	lot sorts_objets_129
 sort	704703		Description	069c3d34567d	Donne à vos effets de dégâts directs 33% de chances de propager les maladies actives du nécromancien à un ennemi proche supplémentaire.	lot sorts_objets_129
 sort	704703		ToolTip	e3b49287c479	Donne à vos effets de dégâts directs 100% de chances de propager les maladies actives du nécromancien à un ennemi proche supplémentaire.	lot sorts_objets_129
-sort	704709		Description	2d9d802e5438	|cffffffffRayon de putréfaction|r augmente désormais de $s1% les dégâts de vos maladies contre la cible pendant l'canalisation.	lot sorts_objets_129
+sort	704709		Description	2d9d802e5438	|cffffffffRayon de putréfaction|r augmente désormais de $s1% les dégâts de vos maladies contre la cible pendant la canalisation.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Faute de grammaire : « l'canalisation ».
 sort	704709		Name	b636273906bb	Mortification	lot sorts_objets_129
 sort	704709		ToolTip	23dbd75aa037	Fait que |cffffffffRayon de putréfaction|r augmente de ${$w1}% les dégâts de vos maladies de nécromancien contre la cible tant qu'il est actif.	lot sorts_objets_129
-sort	704710		Description	2d9d802e5438	|cffffffffRayon de putréfaction|r augmente désormais de $s1% les dégâts de vos maladies contre la cible pendant l'canalisation.	lot sorts_objets_129
+sort	704710		Description	2d9d802e5438	|cffffffffRayon de putréfaction|r augmente désormais de $s1% les dégâts de vos maladies contre la cible pendant la canalisation.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Faute de grammaire : « l'canalisation ».
 sort	704710		Name	b636273906bb	Mortification	lot sorts_objets_129
 sort	704710		ToolTip	23dbd75aa037	Fait que |cffffffffRayon de putréfaction|r augmente de ${$w1}% les dégâts de vos maladies de nécromancien contre la cible tant qu'il est actif.	lot sorts_objets_129
 sort	704716		Description	dc08bc2f7a0f	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffEnsevelir|r.	lot sorts_objets_129
@@ -164,8 +164,8 @@ sort	704767		ToolTip	0091fb724b73	Augmente de ${$w1}% les dégâts infligés qua
 sort	704768		Description	33b01e7dbe60	Augmente de $s1% les dégâts infligés quand vous consommez des |cff66ccffÉtoiles éparpillées|r.	lot sorts_objets_129
 sort	704768		ToolTip	e6d4a77fae07	Augmente de $s1% les dégâts infligés quand vous consommez des Étoiles éparpillées.	lot sorts_objets_129
 sort	704779		ToolTip	e08553d46a63	Permet à votre Focalisation des marées de se cumuler ${$w1} fois supplémentaires.	lot sorts_objets_129
-sort	704796		Rank	b22550d51087	Ralentissement de vitesse d'attaque	lot sorts_objets_129
-sort	704796		ToolTip	bbb1beea5f45	Vitesse d'attaque ralentie de ${$w1}%.	lot sorts_objets_129
+sort	704796		Rank	b22550d51087	Ralentissement de la vitesse d'attaque	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : article manquant, tournure plus claire
+sort	704796		ToolTip	bbb1beea5f45	Vitesse d'attaque réduite de ${$w1}%.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : tournure officielle : « Vitesse d'attaque réduite de {1}% »
 sort	704802		Description	a8d294ae37ff	Augmente de $s1% la cadence d'impulsion d'|cffffffffEmbrasement|r, de |cffffffffFlambée|r et de |cffffffffMarque brûlante|r.	lot sorts_objets_129
 sort	704802		ToolTip	a8d294ae37ff	Augmente de $s1% la cadence d'impulsion d'|cffffffffEmbrasement|r, de |cffffffffFlambée|r et de |cffffffffMarque brûlante|r.	lot sorts_objets_129
 sort	704803		Description	a8d294ae37ff	Augmente de $s1% la cadence d'impulsion d'|cffffffffEmbrasement|r, de |cffffffffFlambée|r et de |cffffffffMarque brûlante|r.	lot sorts_objets_129
@@ -185,9 +185,9 @@ sort	704821		ToolTip	d3c58fe76a20	Rend |cffffffffRegard de Ysera instantané|r i
 sort	704822		Description	efcac58e0573	Vous permet de conserver les bonus de Serment.	lot sorts_objets_129
 sort	704822		Name	3c3fa9de2c9d	Suppresseur de chaîne de serment	lot sorts_objets_129
 sort	704822		ToolTip	efcac58e0573	Vous permet de conserver les bonus de Serment.	lot sorts_objets_129
-sort	704825		Description	8b8f121added	Être frappé par une attaque de mêlée augmente votre vitesse de déplacement de $704832s1% pendant $704832d. \r\n\r\nNe peut survenir plus d'une fois toutes les 30 sec.	lot sorts_objets_129
+sort	704825		Description	8b8f121added	Être frappé par une attaque de mêlée augmente votre vitesse de déplacement de $704832s1% pendant $704832d. \r\n\r\nCet effet ne peut se produire plus d'une fois toutes les 30 sec.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Tournure officielle de Blizzard à reprendre.
 sort	704825		Name	412d93e321d9	Piste brûlante	lot sorts_objets_129
-sort	704825		ToolTip	8b8f121added	Être frappé par une attaque de mêlée augmente votre vitesse de déplacement de $704832s1% pendant $704832d. \r\n\r\nNe peut survenir plus d'une fois toutes les 30 sec.	lot sorts_objets_129
+sort	704825		ToolTip	8b8f121added	Être frappé par une attaque de mêlée augmente votre vitesse de déplacement de $704832s1% pendant $704832d. \r\n\r\nCet effet ne peut se produire plus d'une fois toutes les 30 sec.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Tournure officielle de Blizzard à reprendre.
 sort	704826		Description	0c212d51cc16	Augmente de $s1% la cadence d'impulsion d'|cffffffffEmbrasement|r, de |cffffffffFlambée|r et de |cffffffffMarque brûlante|r, mais réduit leur durée de $s2%.	lot sorts_objets_129
 sort	704826		Name	4abf1a1f7929	Brûlure rapide	lot sorts_objets_129
 sort	704826		ToolTip	33d597d93fba	Augmente de ${$w1}% la cadence d'impulsion d'|cffffffffEmbrasement|r, de |cffffffffFlambée|r et de |cffffffffMarque brûlante|r, mais réduit leur durée de ${$w2}%.	lot sorts_objets_129
@@ -200,8 +200,8 @@ sort	704829		Description	074bc6c65130	Après avoir utilisé |cffffffffPas de fla
 sort	704829		Name	132b6fb7c6e8	Désastre	lot sorts_objets_129
 sort	704830		Description	645c92803e68	Augmente de $s1% le bonus de dégâts des coups critiques de Feu.	lot sorts_objets_129
 sort	704830		Name	132b6fb7c6e8	Désastre	lot sorts_objets_129
-sort	704833		Description	d51c97147225	Les coups critiques directs réduisent désormais de $/1000;504372s1 sec le temps de recharge de |cffffffffFusion|r.	lot sorts_objets_129
-sort	704833		ToolTip	45d94e661ea1	Fait que les coups critiques réduisent de $/1000;504372s1 sec le temps de recharge de |cffffffffFusion|r.	lot sorts_objets_129
+sort	704833		Description	d51c97147225	Les coups critiques directs réduisent désormais de $/1000;504372s1 sec le temps de recharge de |cffffffffFonte|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le nom français fourni est « Fonte », pas « Fusion ».
+sort	704833		ToolTip	45d94e661ea1	Fait que les coups critiques réduisent de $/1000;504372s1 sec le temps de recharge de |cffffffffFonte|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le nom français fourni est « Fonte », pas « Fusion ».
 sort	704834		ToolTip	47ffa038f437	Augmente de $s1% les chances de coup critique.	lot sorts_objets_129
 sort	704835		ToolTip	47ffa038f437	Augmente de $s1% les chances de coup critique.	lot sorts_objets_129
 sort	704837		Description	e66b3b6f1cb5	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMétéore|r.	lot sorts_objets_129
@@ -216,17 +216,17 @@ sort	704842		ToolTip	518646bec2fb	Réduit de $/1000;s1 sec le temps de recharge 
 sort	704843		Description	029944d50ed2	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffPas de flamme|r.	lot sorts_objets_129
 sort	704843		Name	c07d15d4d43c	Rapacité en fusion	lot sorts_objets_129
 sort	704843		ToolTip	518646bec2fb	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffCarapace volcanique|r.	lot sorts_objets_129
-sort	704854		Description	d18646277081	Augmente de $s1% les dégâts et les soins de votre |cffffffffVoie des flammes|r.	lot sorts_objets_129
-sort	704854		ToolTip	d18646277081	Augmente de $s1% les dégâts et les soins de votre |cffffffffVoie des flammes|r.	lot sorts_objets_129
-sort	704858		Description	556c3e2cd42e	Les dégâts infligés par |cffffffffTrait de fusée|r réduisent de $/1000;s1 sec le temps de recharge restant de |cffffffffCautérisation des blessures|r.	lot sorts_objets_129
+sort	704854		Description	d18646277081	Augmente de $s1% les dégâts et les soins de votre |cffffffffChemin des flammes|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Chemin des flammes », pas « Voie des flammes ».
+sort	704854		ToolTip	d18646277081	Augmente de $s1% les dégâts et les soins de votre |cffffffffChemin des flammes|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Chemin des flammes ».
+sort	704858		Description	556c3e2cd42e	Les dégâts infligés par |cffffffffTrait de fusée|r réduisent de $/1000;s1 sec le temps de recharge restant de |cffffffffCautériser les blessures|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Cautériser les blessures ».
 sort	704858		Name	76996c738cbd	Sermon brûlant	lot sorts_objets_129
-sort	704858		ToolTip	556c3e2cd42e	Les dégâts infligés par |cffffffffTrait de fusée|r réduisent de $/1000;s1 sec le temps de recharge restant de |cffffffffCautérisation des blessures|r.	lot sorts_objets_129
+sort	704858		ToolTip	556c3e2cd42e	Les dégâts infligés par |cffffffffTrait de fusée|r réduisent de $/1000;s1 sec le temps de recharge restant de |cffffffffCautériser les blessures|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Cautériser les blessures ».
 sort	704860		Description	d18931a7aac3	Augmente de $s2% les dégâts de Givre du liche, cumulable $u fois, pendant $d.	lot sorts_objets_129
 sort	704860		Name	d8f2ab10f493	Chaîne nécrotique	lot sorts_objets_129
 sort	704860		Rank	e96857c58f71	Immobilisation	lot sorts_objets_129
 sort	704866		Description	744d936572c7	Donne à |cffffffffÉclat de lave|r $h% de chances de faire soigner par votre phénix les alliés à moins de $706856a1 m de lui pour $706956s1.	lot sorts_objets_129
 sort	704866		Name	d0866015f27d	Maître du phénix	lot sorts_objets_129
-sort	704868		Description	c353cc34506c	Augmente de $s1% les dégâts de |cffffffffLame de l'Empire|r, de |cFFFFFFFFRegard de C'Thun|r et de |cffffffffclaque entropique|r.	lot sorts_objets_129
+sort	704868		Description	c353cc34506c	Augmente de $s1% les dégâts de |cffffffffLame de l'Empire|r, de |cFFFFFFFFRegard de C'Thun|r et de |cffffffffHeurt entropique|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit être « Heurt entropique », et non « claque entropique ».
 sort	704868		Name	09d40483b3f8	Guerrier ombral	lot sorts_objets_129
 sort	704890		Description	91944e534839	Augmente de $s1% les chances de coup critique de |cffffffffPrière de Yogg-Saron|r et de $s2% ses soins prodigués.	lot sorts_objets_129
 sort	704890		ToolTip	99889946eca4	Réduit de ${$w1}% le coût en mana des sorts et aptitudes et augmente de ${$w2}% les chances de coup critique.	lot sorts_objets_129
@@ -239,18 +239,18 @@ sort	704894		ToolTip	9844bdc76ec2	Augmente de ${$w1}% les dégâts de |cffffffff
 sort	704896		Description	bb36c7fb4fa5	Augmente de $s1% les dégâts maximum absorbés par |cffffffffArmure surnaturelle|r.	lot sorts_objets_129
 sort	704896		Name	2421e8f9ae9c	Barrière impénétrable	lot sorts_objets_129
 sort	704896		ToolTip	bb36c7fb4fa5	Augmente de $s1% les dégâts maximum absorbés par |cffffffffArmure surnaturelle|r.	lot sorts_objets_129
-sort	704904		Description	f482db40b81c	Permet à |cffffffffPorteur d'aube|r d'affecter jusqu'à $s1 ennemis et augmente de $s2% ses dégâts infligés.	lot sorts_objets_129
+sort	704904		Description	f482db40b81c	Permet à |cffffffffPorte-aube|r d'affecter jusqu'à $s1 ennemis et augmente de $s2% ses dégâts infligés.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Dawnbringer = Porte-aube.
 sort	704904		Name	06b3b7995549	Feu divin	lot sorts_objets_129
-sort	704904		ToolTip	7575c338ffed	Permet à |cffffffffPorteur d'aube|r d'affecter jusqu'à ${$w1} ennemis et réduit son temps de recharge de $/1000;s2 sec.	lot sorts_objets_129
-sort	704913		Description	7b88e5238fda	Augmente de $s1% les dégâts d'|cffffffffÉruption solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129
+sort	704904		ToolTip	7575c338ffed	Permet à |cffffffffPorte-aube|r d'affecter jusqu'à ${$w1} ennemis et réduit son temps de recharge de $/1000;s2 sec.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Dawnbringer = Porte-aube.
+sort	704913		Description	7b88e5238fda	Augmente de $s1% les dégâts de |cffffffffFlamboiement solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Flamboiement solaire ».
 sort	704913		Name	5eda2064b823	Incandescence solaire	lot sorts_objets_129
-sort	704913		ToolTip	3a8dda6d3a7b	Augmente de ${$w1}% les dégâts d'|cffffffffÉruption solaire|r et de ${$w2}% ses chances de coup critique.	lot sorts_objets_129
-sort	704914		Description	7b88e5238fda	Augmente de $s1% les dégâts d'|cffffffffÉruption solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129
+sort	704913		ToolTip	3a8dda6d3a7b	Augmente de ${$w1}% les dégâts de |cffffffffFlamboiement solaire|r et de ${$w2}% ses chances de coup critique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Flamboiement solaire ».
+sort	704914		Description	7b88e5238fda	Augmente de $s1% les dégâts de |cffffffffFlamboiement solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Flamboiement solaire ».
 sort	704914		Name	5eda2064b823	Incandescence solaire	lot sorts_objets_129
-sort	704914		ToolTip	3a8dda6d3a7b	Augmente de ${$w1}% les dégâts d'|cffffffffÉruption solaire|r et de ${$w2}% ses chances de coup critique.	lot sorts_objets_129
-sort	704915		Description	7b88e5238fda	Augmente de $s1% les dégâts d'|cffffffffÉruption solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129
-sort	704915		Name	72892c89e66a	Éruption solaire améliorée	lot sorts_objets_129
-sort	704915		ToolTip	7b88e5238fda	Augmente de $s1% les dégâts d'|cffffffffÉruption solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129
+sort	704914		ToolTip	3a8dda6d3a7b	Augmente de ${$w1}% les dégâts de |cffffffffFlamboiement solaire|r et de ${$w2}% ses chances de coup critique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Flamboiement solaire ».
+sort	704915		Description	7b88e5238fda	Augmente de $s1% les dégâts de |cffffffffFlamboiement solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Flamboiement solaire ».
+sort	704915		Name	72892c89e66a	Flamboiement solaire amélioré	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Le nom du sort est « Flamboiement solaire », pas « Éruption solaire ».
+sort	704915		ToolTip	7b88e5238fda	Augmente de $s1% les dégâts de |cffffffffFlamboiement solaire|r et de $s2% ses chances de coup critique.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Flamboiement solaire ».
 sort	704921		Description	655be22a2b31	Augmente de $s1% la Rage maximale.	lot sorts_objets_129
 sort	704921		Name	12c5649b9ad7	Fureur contrôlée	lot sorts_objets_129
 sort	704921		ToolTip	23f55922ca32	Augmente de ${$w1}% la Rage maximale.	lot sorts_objets_129
@@ -277,13 +277,13 @@ sort	705010		Description	d7765fa472b0	Augmente de $s1% les chances de coup criti
 sort	705010		Name	d12c7f0250b8	Scie létale	lot sorts_objets_129
 sort	705010		ToolTip	cf7d57995e1c	Augmente de ${$w1}% les dégâts de |cffffffffTranspercement|r.	lot sorts_objets_129
 sort	705011		Description	19e83490b939	Augmente de $s1% les dégâts de |cffffffffTranspercement|r.	lot sorts_objets_129
-sort	705011		Name	6ef79c53ae3d	Transpercement amélioré	lot sorts_objets_129
+sort	705011		Name	6ef79c53ae3d	Encorner amélioré	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Le nom du sort cité est « Encorner » ; « Transpercement » est un nom différent pour le même sort.
 sort	705011		ToolTip	cf7d57995e1c	Augmente de ${$w1}% les dégâts de |cffffffffTranspercement|r.	lot sorts_objets_129
 sort	705013		Description	be3b33e3ceea	Augmente de $s1% les dégâts de |cffffffffFrappe infernale|r.	lot sorts_objets_129
 sort	705013		ToolTip	c66588accdbe	Augmente de $s2% les chances de coup critique et réduit de $/1000;s1 sec le temps de recharge de |cffffffffTranspercement|r.	lot sorts_objets_129
-sort	705030		Description	b853dd25f154	Réduit de $s1% le temps d'incantation de |cffffffffTir rapide|r.	lot sorts_objets_129
+sort	705030		Description	b853dd25f154	Réduit de $s1% le temps d'incantation de |cffffffffTir rapide|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni (Tir rapide).
 sort	705030		Name	c7987fecc1e3	Tirs encore plus rapides	lot sorts_objets_129
-sort	705030		ToolTip	e9d6eabb503b	Réduit de ${$w1}% le temps d'incantation de |cffffffffTir rapide|r.	lot sorts_objets_129
+sort	705030		ToolTip	e9d6eabb503b	Réduit de ${$w1}% le temps d'incantation de |cffffffffTir rapide|r.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni (Tir rapide).
 sort	705035		Name	5b357950507b	Précision meurtrière	lot sorts_objets_129
 sort	705036		Description	07e5ac4a4e89	Augmente de $s2% les dégâts de |cffffffffPerce-crâne|r et de $s1% vos chances de coup critique.	lot sorts_objets_129
 sort	705036		Name	09aa7fb9c607	Entraînement au tir à l'arc	lot sorts_objets_129
@@ -298,7 +298,7 @@ sort	705052		Name	c473bf0fd5f9	Enchaînement	lot sorts_objets_129
 sort	705052		ToolTip	13fc46415cb1	Donne à |cffffffffFlanc|r et à |cffffffffFrappe de brigand|r $h% de chances de permettre l'utilisation d'aptitudes comme si vous aviez récemment paré une attaque.	lot sorts_objets_129
 sort	705057		Description	e0a39417742b	Augmente de $s1% la puissance d'attaque à distance.	lot sorts_objets_129
 sort	705057		Name	26c4a2709861	Arc composite	lot sorts_objets_129
-sort	705103		Description	d18931a7aac3	Augmente de $s2% les dégâts de Givre du liche, cumulable $u fois, pendant $d.	lot sorts_objets_129
+sort	705103		Description	d18931a7aac3	Augmente de $s2% les dégâts de Lichfrost, cumulable $u fois, pendant $d.	lot sorts_objets_129 | relu par l'API (relecture 0.9.5) : Lichfrost est un nom de sort cité, sans couleur ; « Givre du liche » est une invention. Garder le nom tel quel.
 sort	705103		Name	d8f2ab10f493	Chaîne nécrotique	lot sorts_objets_129
 sort	705775		ToolTip	92377fa10481	Augmente de ${$w1}% les dégâts de |cffffffffTir au pistolet|r et de |cffffffffCanon de poing|r contre les ennemis affectés par |cffffffffBombe collante|r.	lot sorts_objets_129
 sort	805730		Rank	e96857c58f71	Immobilisation	lot sorts_objets_129

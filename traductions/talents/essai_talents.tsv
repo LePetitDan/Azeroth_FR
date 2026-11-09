@@ -3,7 +3,7 @@ arbre_coa	39		nom	2de9f5f130c8	Lance-carreaux	lot essai_talents
 sort	92081		Description	26d5b41e2d93	|cFF66DDFFPassif de niveau 10|r\r\nAugmente votre maximum de points d'énergie de $s1%.	lot essai_talents
 sort	92081		Name	cd7ce02cf373	Puissance excessive	lot essai_talents
 sort	92081		Rank	b0f090c0f44a	Spécialisation	lot essai_talents
-sort	92082		Description	2b85db7a5ebe	|cFF66DDFFPassif de niveau 10|r\r\nRéduit le coût en énergie de |cffffffffLancer l'arme|r, |cffffffffLance mutilante|r et |cffffffffAvancée tourbillonnante|r de $706432s2.	lot essai_talents
+sort	92082		Description	2b85db7a5ebe	|cFF66DDFFPassif de niveau 10|r\r\nRéduit le coût en énergie de |cffffffffLancer d'arme|r, |cffffffffLance mutilante|r et |cffffffffAvancée tourbillonnante|r de $706432s2.	lot essai_talents | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Lancer d'arme ».
 sort	92082		Name	0935a2ea4b46	Chasseur de têtes	lot essai_talents
 sort	92082		Rank	b0f090c0f44a	Spécialisation	lot essai_talents
 sort	92083		Description	ea06d168d66d	|cFF66DDFFPassif de niveau 10|r\r\nVous confère |cFFFFFFFFNiveau de remplissage|r et la capacité de manipuler une |cffffffffChope|r.@s:805813:0@	lot essai_talents
@@ -33,7 +33,7 @@ sort	92091		Rank	8d8953031452	Spécialisation	lot essai_talents
 sort	92093		Description	d121098840f9	|cFF66DDFFPassif de niveau 10|r\r\nVos attaques automatiques à distance génèrent désormais de la rage, et les chances de coup critique de |cffffffffDéflagration d'ombre|r sont augmentées de $s1%.	lot essai_talents
 sort	92093		Name	5364fd665bc3	Œil de lynx	lot essai_talents
 sort	92093		Rank	84944f198d40	Passif	lot essai_talents
-sort	92093		ToolTip	b421b9ff4e72	|cffffffffDéflagration d'ombre|r et |cFFFFFFFFTir de l'ombre|r confèrent désormais |cffffffffPoudre explosive|r pendant $804183d.@s:804183:0@	lot essai_talents
+sort	92093		ToolTip	b421b9ff4e72	|cffffffffDéflagration d'ombre|r et |cFFFFFFFFTir d'ombre|r confèrent désormais |cffffffffPoudre explosive|r pendant $804183d.@s:804183:0@	lot essai_talents | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Tir d'ombre ».
 sort	92094		Description	10e811c73ba7	|cFF66DDFFPassif de niveau 10|r\r\nUtiliser |cffffffffLame de l'aube|r vous confère désormais |cffff7a24Flammes du péché|r pendant $/1000;803710s2 sec. : vos attaques automatiques infligent en plus $803422s1% des dégâts infligés sous forme de dégâts de Feu.\r\n\r\nSi vous vous conférez |cffff7a24Flammes du péché|r de cette façon alors que l'effet est déjà actif, sa durée actuelle augmente de $/1000;803710s2 sec.	lot essai_talents
 sort	92094		Name	ac442a783167	Flammes du péché	lot essai_talents
 sort	92094		Rank	8d8953031452	Spécialisation	lot essai_talents

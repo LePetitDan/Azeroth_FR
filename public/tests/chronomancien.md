@@ -1,0 +1,240 @@
+# Fiche de test : Chronomancien
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Déplacement
+
+- [ ] **Éon de résilience** (Spécialisation) — capacité, sort n° 92119
+- [ ] **Ébloui** — capacité, sort n° 800050
+- [ ] **Dévotion de grâce** (Rang 1) — capacité, sort n° 800852 🔍 MAJ
+- [ ] **Étirement temporel** (Passif) — capacité, sort n° 800863
+- [ ] **Marche du temps** — capacité, sort n° 800864
+- [ ] **Voile d'émeraude** (Rang 4) — capacité, sort n° 801110
+- [ ] **Époque** (Rang 1) — capacité, sort n° 801270
+- [ ] **Restauration du continuum** — capacité, sort n° 801271
+- [ ] **Vagues du temps** — capacité, sort n° 801277
+- [ ] **Moi du passé** — capacité, sort n° 801278
+- [ ] **Gagner du temps** — capacité, sort n° 801280
+- [ ] **Chroniques de l'histoire** (Rang 1) — capacité, sort n° 801288
+- [ ] **Rembobinage** — capacité, sort n° 801294
+- [ ] **Boucle temporelle** (Rang 1) — capacité, sort n° 801297
+- [ ] **Précipiter** — capacité, sort n° 801304 🔀 talents
+- [ ] **Fracture de la ligne temporelle** — capacité, sort n° 801306
+- [ ] **Bouclier infini** (Obsolète) — capacité, sort n° 804439
+- [ ] **Garde du temps** — capacité, sort n° 804441
+- [ ] **Bouclier des âges** (Passif) — capacité, sort n° 804444
+- [ ] **Saut temporel** (Passif) — capacité, sort n° 804451
+- [ ] **Bébéfication** — capacité, sort n° 804461
+- [ ] **Regard du Titan** (Passif) — capacité, sort n° 804462
+- [ ] **Tir de feu stellaire** (Rang 5) — capacité, sort n° 804466
+- [ ] **Retour en arrière** — capacité, sort n° 804490
+- [ ] **Clone infini** — capacité, sort n° 804492
+- [ ] **Téléportation : Grottes du Temps** — capacité, sort n° 804753
+- [ ] **Glaives célestes** (SpécialisationSLS) — capacité, sort n° 805850
+- [ ] **Éon du renouveau** — capacité, sort n° 806290 🔍 MAJ
+- [ ] **Éon de résilience** — capacité, sort n° 806291 🔍 MAJ
+- [ ] **Éon de protection** — capacité, sort n° 806292 🔍 MAJ
+- [ ] **Éon de l'oubli** — capacité, sort n° 806293 🔍 MAJ
+- [ ] **Ondulation** — capacité, sort n° 806296
+- [ ] **Trame du temps** (Rang 1) — capacité, sort n° 806299
+- [ ] **Puissance ondulante** (Rang 1) — capacité, sort n° 806300
+- [ ] **Distordeur d'éternité** (Spécialisation) — capacité, sort n° 806301
+- [ ] **Éclat scintillant** — capacité, sort n° 806302
+- [ ] **Chance** (Rang 1) — talent, sort n° 706085
+- [ ] **Souvenir éclatant** (Passif) — talent, sort n° 706086
+- [ ] **Vraiment infini** (Passif) — talent, sort n° 706087
+- [ ] **Arrêt du temps amélioré** (Rang 1) — talent, sort n° 706088
+- [ ] **Arrêt du temps amélioré** (Rang 2) — talent, sort n° 706089
+- [ ] **Restauration renforcée** (Passif) — talent, sort n° 706090
+- [ ] **Moi du passé amélioré** (Rang 1) — talent, sort n° 706091
+- [ ] **Moi du passé amélioré** (Rang 2) — talent, sort n° 706092
+- [ ] **Moi du passé amélioré** (Obsolète) — talent, sort n° 706093
+- [ ] **Distorsion spatiale** (Passif) — talent, sort n° 706094
+- [ ] **Une ondulation dans le temps** (Passif) — talent, sort n° 706096
+- [ ] **Âge des empires** (Passif) — talent, sort n° 706097
+- [ ] **Récupération épique** (Passif) — talent, sort n° 706098
+- [ ] **L'effet Bieko** (Passif) — talent, sort n° 706099
+- [ ] **Charme de puissance** (Passif) — talent, sort n° 706100
+- [ ] **Datation au carbone** (Rang 1) — talent, sort n° 706101
+- [ ] **Datation au carbone** (Passif) — talent, sort n° 706102
+- [ ] **Héraut chronal** (Rang 1) — talent, sort n° 706103
+- [ ] **Héraut chronal** (Rang 2) — talent, sort n° 706104
+
+## Dualité
+
+- [ ] **Pouvoir infini** (Spécialisation) — capacité, sort n° 92118
+- [ ] **Sables tournoyants** (Passif) — capacité, sort n° 500113
+- [ ] **Sables infinis** (Passif) — capacité, sort n° 500115
+- [ ] **Découverte** (Passif) — capacité, sort n° 500116
+- [ ] **Don des voies du temps** (Passif) — capacité, sort n° 704487
+- [ ] **Marque de l'ordre** (Passif) — capacité, sort n° 704488
+- [ ] **Effacement** (Passif) — capacité, sort n° 704489
+- [ ] **Fin des temps** (Spécialisation) — capacité, sort n° 704490
+- [ ] **Éclats chromatiques** — capacité, sort n° 704492
+- [ ] **Reprise** (Rang 1) — capacité, sort n° 800669
+- [ ] **Décomposition** (Rang 1) — capacité, sort n° 800856 🔍 MAJ 🔀 talents
+- [ ] **Récupération accélérée** (Rang 1) — capacité, sort n° 800857 🔀 talents
+- [ ] **Époque** (Rang 1) — capacité, sort n° 801275
+- [ ] **Bombe à gravité** — capacité, sort n° 801281 🔀 talents
+- [ ] **Décomposition de masse** — capacité, sort n° 801283
+- [ ] **Explosion discordante** (Rang 1) — capacité, sort n° 801290
+- [ ] **Déchire-temps** (Rang 1) — capacité, sort n° 801291 🔍 MAJ
+- [ ] **Éclat chromatique** (Rang 1) — capacité, sort n° 801292
+- [ ] **Ralentissement du temps** (Deprecated) — capacité, sort n° 801295
+- [ ] **Inversion de blessure** (Rang 1) — capacité, sort n° 801303 🔀 talents
+- [ ] **Temps mort !** (Rang 1) — capacité, sort n° 802229
+- [ ] **Défaire** (Rang 1) — capacité, sort n° 804418
+- [ ] **Effacer** — capacité, sort n° 804450
+- [ ] **Baguette d'artificier** (Passif) — capacité, sort n° 804478
+- [ ] **Renforcement de la trame temporelle** (Rang 1) — capacité, sort n° 804491
+- [ ] **Incarnation** — capacité, sort n° 804493
+- [ ] **Resynchronisation** (Rang 1) — capacité, sort n° 804495
+- [ ] **Refaçonnage** — capacité, sort n° 804501 🔀 talents
+- [ ] **Rage de corne-de-bélier** (SLS) — capacité, sort n° 805843
+- [ ] **Éternité** (Passif) — capacité, sort n° 805844
+- [ ] **Gardien de la ligne temporelle** — capacité, sort n° 805845
+- [ ] **Destructeur de la ligne temporelle** — capacité, sort n° 805846
+- [ ] **Étreinte de l'infini** — capacité, sort n° 805847 🔀 talents
+- [ ] **Tome du temps** — capacité, sort n° 805848
+- [ ] **Tome du chaos** — capacité, sort n° 805849
+- [ ] **Déconstruction** (Rang 1) — capacité, sort n° 805851
+- [ ] **Couronne de puissance** (Passif) — capacité, sort n° 805854
+- [ ] **Équilibre temporel** (OBSOLÈTE) — capacité, sort n° 805856
+- [ ] **Focalisation temporelle** — capacité, sort n° 806165
+- [ ] **Marque de l'ordre** — capacité, sort n° 806269
+- [ ] **Gardien de l'Infini** (Passif) — capacité, sort n° 806312
+- [ ] **Gardien de l'Infini** — capacité, sort n° 806313
+- [ ] **Déclencheur du Gardien de l'équilibre** — capacité, sort n° 806314
+- [ ] **Anomalie temporelle** — capacité, sort n° 806315
+- [ ] **Gueule du chaos** — capacité, sort n° 806316
+- [ ] **Don des voies du temps** — capacité, sort n° 806332
+- [ ] **Dissolution de la réalité** (Rang 1) — capacité, sort n° 806335 🔍 MAJ
+- [ ] **Sablier de l'éternité** (Passif) — capacité, sort n° 806337
+- [ ] **Sables infinis** (Passif) — capacité, sort n° 806338
+- [ ] **Maîtrise de la chronologie** (Passif) — talent, sort n° 300761
+- [ ] **Gueule de l'équilibre** (Passif) — talent, sort n° 300762
+- [ ] **Reconstruction** (Passif) — talent, sort n° 706043
+- [ ] **Tome ancien** (Passif) — talent, sort n° 706044
+- [ ] **Trou noir** (Rang 2) — talent, sort n° 706045
+- [ ] **Érosion magique** (Passif) — talent, sort n° 706046
+- [ ] **Maître du chaos** (Rang 2) — talent, sort n° 706047
+- [ ] **Maître du chaos** (Obsolète) — talent, sort n° 706048
+- [ ] **Maître de la dualité** (Passif) — talent, sort n° 706049
+- [ ] **Maître de l'ordre** (Rang 2) — talent, sort n° 706050
+- [ ] **Maître de l'ordre** (Obsolète) — talent, sort n° 706051
+- [ ] **Inversion de blessure améliorée** (Rang 1) — talent, sort n° 706052
+- [ ] **Inversion de blessure améliorée** (Passif) — talent, sort n° 706053
+- [ ] **Retrait de blessure** (Passif) — talent, sort n° 706054
+- [ ] **Temps accéléré** (Passif) — talent, sort n° 706055
+- [ ] **Sillage** (Passif) — talent, sort n° 706056
+- [ ] **Infini - Passif de niveau 30** (Spécialisation) — talent, sort n° 706058
+- [ ] **Chaos changeant** (Passif) — talent, sort n° 706059
+- [ ] **Instilling Balance SLS** (Passif) — talent, sort n° 706060
+- [ ] **Étoile noire** (Passif) — talent, sort n° 706062
+- [ ] **Présage du chaos** (Passif) — talent, sort n° 706063
+
+## Temps
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Fragments d'écho** (Spécialisation) — capacité, sort n° 92120
+- [ ] **Tempête pestilentielle** (Dégâts) — capacité, sort n° 500095
+- [ ] **Création de rouille** — capacité, sort n° 704479
+- [ ] **Amplification de l'artificier** (Passif) — capacité, sort n° 704483
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Stase** — capacité, sort n° 804419
+- [ ] **Robustesse de l'artificier** (Chronobonus) — capacité, sort n° 804420
+- [ ] **Puissance de l'artificier** (Chronobuff DEPRECATED) — capacité, sort n° 804421
+- [ ] **Magie de l'artificier** (Chronobonus) — capacité, sort n° 804422
+- [ ] **Baguette du temps** (Obsolète) — capacité, sort n° 804424 🔀 talents
+- [ ] **Rupture de gravité** (Obsolète) — capacité, sort n° 804427
+- [ ] **Plaque-sort de l'artificier** (Chronobonus) — capacité, sort n° 804431
+- [ ] **Émetteur de flux** — capacité, sort n° 804435
+- [ ] **Compression de l'éther** — capacité, sort n° 804436
+- [ ] **Noyau de singularité** — capacité, sort n° 804438
+- [ ] **En miettes** — capacité, sort n° 804447
+- [ ] **Effondrement** — capacité, sort n° 804448
+- [ ] **Déflagration conductrice** (Passif) — capacité, sort n° 804452
+- [ ] **Tir de feu stellaire** (Rang 2) — capacité, sort n° 804463
+- [ ] **Tir de feu stellaire** (Rang 3) — capacité, sort n° 804464
+- [ ] **Tir de feu stellaire** (Rang 4) — capacité, sort n° 804465
+- [ ] **Génération d'Ordre passive** — capacité, sort n° 804485
+- [ ] **Génération de Chaos passive** — capacité, sort n° 804486
+- [ ] **Écho** — capacité, sort n° 804487
+- [ ] **Coup du sort** (Obsolète) — capacité, sort n° 804494 🔀 talents
+- [ ] **Flux d'infinité** — capacité, sort n° 804497
+- [ ] **Chronofaisceau passif** — capacité, sort n° 804502
+- [ ] **Écho brisé** (Rang 1) — capacité, sort n° 804503
+- [ ] **Attache de la trame temporelle** (Passif) — capacité, sort n° 804505
+- [ ] **Ordre et chaos** — capacité, sort n° 804513
+- [ ] **Ordre de base négatif** — capacité, sort n° 804516
+- [ ] **Chaos de base négatif** — capacité, sort n° 804517
+- [ ] **Ordre et Chaos GARDIEN** — capacité, sort n° 804659
+- [ ] **Cape de tempête** (SLS) — capacité, sort n° 805161
+- [ ] **Protecteur ordonné** (Passif) — capacité, sort n° 806162
+- [ ] **Renforcement de l'artificier** (Rang 1) — capacité, sort n° 806167
+- [ ] **Grondement mécanique** — capacité, sort n° 806199
+- [ ] **Canon du paradoxe** — capacité, sort n° 806203
+- [ ] **Canon de cristal** (Spécialisation) — capacité, sort n° 806204
+- [ ] **Le temps est un cercle** (Spécialisation) — capacité, sort n° 806206
+- [ ] **Dernier vœu** (Passif) — capacité, sort n° 806207
+- [ ] **Désenchantement d'arme** — capacité, sort n° 806208
+- [ ] **Fils d'éternité** (Passif) — capacité, sort n° 806209
+- [ ] **Page de sable** (Passif) — capacité, sort n° 806244
+- [ ] **Dilatation** — capacité, sort n° 806246
+- [ ] **Archéologie** — capacité, sort n° 806339
+- [ ] **Chance ou destin ?** — talent, sort n° 706065
+- [ ] **Collier enchanté** (Rang 2) — talent, sort n° 706066
+- [ ] **Bâton runique** (Passif) — talent, sort n° 706067
+- [ ] **Bâton runique** (Rang 2) — talent, sort n° 706068
+- [ ] **Orbes abondants** (Rang 1) — talent, sort n° 706069
+- [ ] **Orbes abondants** (Passif) — talent, sort n° 706070
+- [ ] **Hyperbaguette** (Passif) — talent, sort n° 706071
+- [ ] **Fin de l'éternité** (Passif) — talent, sort n° 706072
+- [ ] **Entraînement du protecteur** (Rang 2) — talent, sort n° 706073
+- [ ] **Disques sur disques** (Passif) — talent, sort n° 706074
+- [ ] **Disques sur disques** (Rang 2) — talent, sort n° 706075
+- [ ] **Pointage effectué** (Passif) — talent, sort n° 706076
+- [ ] **Incantations domptées** (Passif) — talent, sort n° 706077
+- [ ] **Résonner** (Passif) — talent, sort n° 706079
+- [ ] **Héritage du Destructeur** (Déclencheur) — talent, sort n° 706080
+- [ ] **Texte ancien** (Passif) — talent, sort n° 706081
+- [ ] **Chance ou destin ?** (Passif) — talent, sort n° 706082
+- [ ] **Le vaste infini** — talent, sort n° 706083
+- [ ] **Surcharge d'entropie** (Passif) — talent, sort n° 706084
+
+## Classe
+
+- [ ] **Défaiseur de réalités** (Passif) — capacité, sort n° 706107
+- [ ] **Equilibre de la puissance** (Rang 1) — capacité, sort n° 706108
+- [ ] **Sauveur** — capacité, sort n° 706109
+- [ ] **Rayon du temps** (Passif) — capacité, sort n° 706110
+- [ ] **Chaos mordant** (Spécialisation) — capacité, sort n° 706111
+- [ ] **Passage déterré** (Passif) — capacité, sort n° 706112
+- [ ] **Désalignement chromatique** (Passif) — capacité, sort n° 706120
+- [ ] **Propulseur à impulsion** (Passif) — capacité, sort n° 706121
+- [ ] **Bouclier du gardien** (Passif) — capacité, sort n° 706124
+- [ ] **Bouclier distordu par le temps** (Passif) — capacité, sort n° 706125
+- [ ] **Baguette d'entropie** (Passif) — capacité, sort n° 706126
+- [ ] **Focalisation temporelle améliorée** (Passif) — capacité, sort n° 706127
+- [ ] **Infinité** (Passif) — capacité, sort n° 706128
+- [ ] **Temps fractionné** (Passif) — capacité, sort n° 706130
+- [ ] **Tordeur de destin** (Passif) — capacité, sort n° 706133
+- [ ] **Chroniqueur** (Passif) — capacité, sort n° 706134
+- [ ] **Déphasage dimensionnel** (Passif) — capacité, sort n° 706135
+- [ ] **Vision du futur** (Passif) — capacité, sort n° 706136
+- [ ] **Guérison accélérée** — capacité, sort n° 706249
+- [ ] **Fracas de l'infini** (Passif) — capacité de talent, sort n° 706040
+- [ ] **Tic-tac** (Obsolète) — capacité de talent, sort n° 706041
+- [ ] **Sagesse** (Rang 1) — capacité de talent, sort n° 706105
+- [ ] **Sagesse** (Rang 2) — capacité de talent, sort n° 706106
+- [ ] **Don du vol draconique infini** (Spécialisation) — capacité de talent, sort n° 706114
+- [ ] **Sorcellerie chronale** (Rang 2) — capacité de talent, sort n° 706115
+- [ ] **Chronomancie** (Rang 1) — capacité de talent, sort n° 706118 🔀 talents
+- [ ] **Chronomancie** (Rang 2) — capacité de talent, sort n° 706119 🔀 talents
+- [ ] **Destin concentré** (Passif) — capacité de talent, sort n° 706122
+- [ ] **Cursed ID - Procs wont work on it** (Passive SLS) — capacité de talent, sort n° 706123
+- [ ] **Intemporel** (Passif) — capacité de talent, sort n° 706131
+- [ ] **Incantateur rapide** (Rang 2) — capacité de talent, sort n° 706132

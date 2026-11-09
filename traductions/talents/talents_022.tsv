@@ -4,7 +4,7 @@ sort	706176		Name	695111c8913c	Fils d'Ursoc	lot talents_022
 sort	706177		Description	38f384bafb9f	Augmente l'efficacité de |cFFFFFFFFSermon d'effroi|r de $s1%.	lot talents_022
 sort	706177		Name	b5fe2f59c6df	Sermon d'effroi amélioré	lot talents_022
 sort	706179		Name	ae3e6a7eb556	Moment de lucidité	lot talents_022
-sort	706182		Description	15d8773480b3	|cFF66DDFFPassif de niveau 30|r\r\nEsquiver une attaque génère désormais $520773q2 |cffcfa6ffFolie|r.\r\n\r\nDe plus, transforme |cffffffffGarde abyssale|r en |cffffffffGarde noire|r, lui conférant une charge supplémentaire et réduisant son temps de recharge de 30 sec.@s:804711:0@	lot talents_022
+sort	706182		Description	15d8773480b3	|cFF66DDFFPassif de niveau 30|r\r\nEsquiver une attaque génère désormais $520773q2 |cffcfa6ffFolie|r.\r\n\r\nDe plus, transforme |cffffffffGarde abyssale|r en |cffffffffGarde noire|r, lui conférant une charge supplémentaire et réduisant son temps de recharge de 30 sec.@s:804711:0@	lot talents_022 | relu par l'API (relecture 0.9.5) : Insanity = Folie (décision 20), « Insanité » est faux.
 sort	706182		Name	6fa00604f952	Ténèbres intérieures	lot talents_022
 sort	706187		Description	1d42cb24293b	Les alliés affectés par votre |cffffffffSang noir|r sont désormais soignés à hauteur de $s1% des dégâts infligés par vos |cffffffffTentacules|r.	lot talents_022
 sort	706187		Name	3aab67752efa	Santé mentale tordue	lot talents_022
@@ -14,7 +14,7 @@ sort	706188		ToolTip	22f28ffe3742	Réduit le temps de recharge de |cffffffffRega
 sort	706189		Description	8e1adc406077	Augmente les dégâts d'Ombre que vous infligez de $s1% et les soins que vous prodiguez de $s2%.	lot talents_022
 sort	706189		Name	f429de555462	Don de C'Thun	lot talents_022
 sort	706189		ToolTip	b8698b1d33bb	Augmente les dégâts d'Ombre infligés de ${$w1}% et les soins prodigués de ${$w2}%.	lot talents_022
-sort	706190		Description	02bd73b75cb3	Augmente votre mana maximum, votre vitesse de déplacement et votre vitesse de déplacement montée de $s1%.	lot talents_022
+sort	706190		Description	02bd73b75cb3	Augmente votre mana maximum, votre vitesse de déplacement et votre vitesse de déplacement monté de $s1%.	lot talents_022 | relu par l'API (relecture 0.9.5) : Accord : « monté » (vitesse de déplacement monté) est la forme officielle, invariable.
 sort	706190		Name	c5ca0fb61ad9	Pensées perverses	lot talents_022
 sort	706190		ToolTip	465300df58cd	Augmente les chances de coup critique de ${$w1}% et les chances de toucher de ${$w2}%.	lot talents_022
 sort	706201		Description	8ff58df4a516	Lancer des aptitudes |cffffffffsismiques|r confère désormais aussi 2 charges de |cffffffffRage de la terre|r.@s:806068:0@	lot talents_022
@@ -41,7 +41,7 @@ sort	706232		Description	d221f663043f	Augmente l'efficacité des |cffffffffAspec
 sort	706232		Name	f54e006fb831	Aspects bénis par la lune	lot talents_022
 sort	706238		Description	33db41ac6ea8	Les dégâts infligés par |cffffffffBrasier|r sont augmentés de $s1% contre les ennemis dont les points de vie sont inférieurs à 35% du maximum.	lot talents_022
 sort	706238		Name	05543fdb543e	Flammes d'exécution	lot talents_022
-sort	706239		Description	3ccc329349f6	Être frappé par une attaque de mêlée alors que |cffffffffAspect draconique|r est actif a désormais $h% de chances de rendre instantané votre prochain |cffffffffTrait flamboyant|r dans les $707478d.	lot talents_022
+sort	706239		Description	3ccc329349f6	Être frappé par une attaque de mêlée alors que |cffffffffAspect draconique|r est actif a désormais $h% de chances de rendre instantané votre prochain |cffffffffTrait de fusée|r lancé dans les $707478d.	lot talents_022 | relu par l'API (relecture 0.9.5) : Sens plus clair : « within $707478d » porte sur le délai de lancement ; « dans les $707478d » seul est ambigu.
 sort	706239		Name	ea00980ff2c4	Gardeterre	lot talents_022
 sort	706239		ToolTip	e707e651e5d4	|cffffffffÉclat de lave|r est désormais certain d'infliger un coup critique.	lot talents_022
 sort	706240		Description	985ccb424f32	Chaque tir successif d'un lancer de |cFFFFFFFFPlaie-des-sorcières|r inflige $706241s1% de dégâts supplémentaires, jusqu'à un maximum de ${$706241u*$706241m1}%.	lot talents_022
@@ -64,7 +64,7 @@ sort	706271		Description	d0c42225e873	Les dégâts périodiques infligés ont d�
 sort	706271		Name	2b2e72188078	Aspersion mortelle	lot talents_022
 sort	706277		Description	554a82bdb704	Augmente l'efficacité de vos |cFFFFFFFFAdaptations|r de $s1%.	lot talents_022
 sort	706277		Name	5f4b11c757d7	Hors-la-loi	lot talents_022
-sort	706281		Description	b7d6da9a592e	Les coups critiques de |cffffffffTir réflexe|r génèrent désormais une charge supplémentaire d'|cff8fff7aAvantage|r.	lot talents_022
+sort	706281		Description	b7d6da9a592e	Les coups critiques de |cffffffffTir rapide|r génèrent désormais une charge supplémentaire d'|cff8fff7aAvantage|r.	lot talents_022 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Tir rapide », pas « Tir réflexe ».
 sort	706281		Name	9060344cdb65	Maître archer	lot talents_022
 sort	706282		Description	9b737b7e58e3	Infliger un coup critique avec |cFFFFFFFFFrappe du faucon|r invoque désormais un |cFFFFFFFFFaucon de guerre|r supplémentaire.	lot talents_022
 sort	706282		Name	04515f111099	Combattant des forêts	lot talents_022

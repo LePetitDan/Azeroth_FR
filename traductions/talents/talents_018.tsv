@@ -1,6 +1,6 @@
 type	id	sous_id	champ	en_empreinte	fr	note
 arbre_coa	81		nom	0a5607b199f3	Domination	lot talents_018
-sort	704816		Description	02da90054835	Lancer |cffffffffTrait flamboyant|R a désormais $h% de chances de le relancer gratuitement.	lot talents_018 ; Flare Bolt : nom de sort CoA sans français déjà choisi ; proposé « Trait flamboyant »
+sort	704816		Description	02da90054835	Lancer |cffffffffTrait de fusée|R a désormais $h% de chances de le relancer gratuitement.	lot talents_018 ; Flare Bolt : nom de sort CoA sans français déjà choisi ; proposé « Trait flamboyant » | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni : « Trait de fusée » et non « Trait flamboyant ».
 sort	704816		Name	e7bc2de4d7b8	Âme du dragon	lot talents_018
 sort	704816		ToolTip	4dfcb9699d2f	Consommer des |cFFFFFFFFBraises|r rend désormais $524994s1% de votre mana maximum.	lot talents_018
 sort	704818		Description	4f089393c6a5	Augmente les dégâts et les soins prodigués par |cffffffffÉruption|R de $s2%, mais réduit sa durée de $s1%.	lot talents_018
@@ -33,9 +33,9 @@ sort	704862		Name	6d6e0ba0fb7a	Feu de la Lieuse-de-vie	lot talents_018
 sort	704863		Description	13f9804b6421	Les soins prodigués par votre |cffffffffPhénix|r vous génèrent désormais 5 points de |cffff7f7fChaleur|r.	lot talents_018
 sort	704863		Name	a9a08603d539	Revigoration	lot talents_018
 sort	704863		ToolTip	f1cc3d36f278	Les soins prodigués par votre |cffffffffPhénix|r confèrent |cffffffffRevigoration|r, qui augmente les soins de votre prochain |cffffffffCœur de cendres|r de $706980s1% pendant $706980d. Cumulable jusqu'à $706980u fois.	lot talents_018
-sort	704864		Description	58f981b980c8	Augmente les dégâts et les soins de |cFFFFFFFFFlammes purificatrices|r de $s1%.	lot talents_018
+sort	704864		Description	58f981b980c8	Augmente de $s1% les dégâts et les soins de |cFFFFFFFFFlammes purificatrices|r.	lot talents_018 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit être « Flammes purificatrices », comme le nom français fourni.
 sort	704864		Name	e18fd3194ef4	Feu concentré	lot talents_018
-sort	704869		Description	450473b1ad7e	Vos |cffffffffMarteau du crépuscule|r, |cffffffffHeurt entropique|r et |cffffffffRegard de C'Thun|r rendent désormais une charge de |cffffffffLame de l'Empire|r.	lot talents_018
+sort	704869		Description	450473b1ad7e	Votre |cffffffffMarteau du crépuscule|r, votre |cffffffffHeurt entropique|r et votre |cffffffffRegard de C'Thun|r rendent désormais une charge de |cffffffffLame de l'Empire|r.	lot talents_018 | relu par l'API (relecture 0.9.5) : Accord : le verbe est au pluriel avec trois sorts, mais « Vos X, Y et Z » est incorrect avec des noms au singulier.
 sort	704869		Name	5ad1153da4dd	Main de N'Zoth	lot talents_018
 sort	704871		Description	0b0e717b55a9	Vos attaques automatiques infligent désormais $s1% des dégâts infligés sous forme de dégâts d'Ombre supplémentaires.	lot talents_018
 sort	704871		Name	616d979490f3	Tranchant forgé par le Vide	lot talents_018
@@ -48,7 +48,7 @@ sort	704879		Name	0010557834de	Étreinte éternelle	lot talents_018
 sort	704879		ToolTip	7e381d22914b	Augmente la durée de tous les tentacules de ${$w1}%.	lot talents_018
 sort	704880		Description	40f2937b6ac8	Les dégâts infligés par |cFFFFFFFFChoc surnaturel|r augmentent désormais de 100% les soins de votre prochain |cFFFFFFFFChoc surnaturel|r.\r\n\r\nLes soins prodigués par |cFFFFFFFFChoc surnaturel|r augmentent désormais de 100% les dégâts de votre prochain |cFFFFFFFFChoc surnaturel|r.	lot talents_018
 sort	704880		ToolTip	c0dde71bd528	Réduit l$?s805120[es][e] temps de recharge de |cffffffffTentacule des Dieux très anciens|r$?s805120[ et de |cffffffffTentacule de Yogg-Saron|r][] de ${$w1}%.	lot talents_018 ; Tentacle of the Old Gods : « Dieux très anciens » d'après l'officiel
-sort	704881		Description	6696e72beb1d	Augmente la durée d'|cffffffffEmbrasser le Vide|r de $/1000;s3 sec. ; il vous soigne désormais de $s1% supplémentaires des dégâts subis tant qu'il est actif, et son temps de recharge est réduit de $/1000;s2 sec.	lot talents_018
+sort	704881		Description	6696e72beb1d	Augmente la durée d'|cffffffffÉtreindre le Vide|r de $/1000;s3 sec. ; il vous soigne désormais de $s1% supplémentaires des dégâts subis tant qu'il est actif, et son temps de recharge est réduit de $/1000;s2 sec.	lot talents_018 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Étreindre le Vide).
 sort	704881		Name	68316b218b36	Perdu dans le Vide	lot talents_018
 sort	704881		ToolTip	2a748eca37b8	Augmente toutes vos caractéristiques principales de $704882s1% pendant $704882d après l'invocation d'un |cffffffffTentacule|r. Cumulable jusqu'à $704882u fois.	lot talents_018
 sort	704884		Description	f326e9b0dd2e	$s1% de tous les soins prodigués aux alliés par le biais du |cffffffffPacte abyssal|r sont désormais reproduits sur vous.	lot talents_018
@@ -69,9 +69,9 @@ sort	704897		Name	ed9f8361d0b0	Protection ténébreuse	lot talents_018
 sort	704897		ToolTip	bf816aa25d40	Les alliés affectés par |cffffffffPacte abyssal|r bénéficient désormais aussi de ${$w1}% de soins supplémentaires de votre part.	lot talents_018
 sort	704903		Description	717219dcc87e	Votre |cffffffffCourroux du justicier|r inflige désormais $s1% supplémentaires de ses dégâts à la cible et aux ennemis proches d'elle, et vous rend 10% des dégâts infligés sous forme de points de vie.\r\n\r\nSi vous ne touchez qu'une seule cible, les dégâts infligés à cette cible sont augmentés de 50%.	lot talents_018 ; Justicar's Wrath : la proposition « Justicar's courroux » (sort 806980) est fautive ; « Courroux du justicier » proposé, à harmoniser
 sort	704903		Name	2c46f9f46cb1	Arbitre	lot talents_018
-sort	704908		Description	74da756eac49	Lancer |cffffffffFlamboiement solaire|r a désormais $h% de chances de transformer votre prochain |cffffffffFlamboiement solaire|r en |cffffffffRayon solaire|r.\r\n\r\nLancer |cffffffffDéflagration d'Horusath|r transforme désormais à coup sûr votre prochain |CffffffffFlamboiement solaire|r en |cffffffffRayon solaire|r.@s:504764:0@	lot talents_018 ; Sun Ray : « Rayon solaire » proposé (pas encore choisi)
+sort	704908		Description	74da756eac49	Lancer |cffffffffFlamboiement solaire|r a désormais $h% de chances de transformer votre prochain |cffffffffFlamboiement solaire|r en |cffffffffRayon solaire|r.\r\n\r\nLancer |cffffffffDéflagration d'Horusath|r transforme désormais à coup sûr votre prochain |CffffffffFlamboiement solaire|r en |cffffffffRayon solaire|r.@s:504764:0@	lot talents_018 ; Sun Ray : « Rayon solaire » proposé (pas encore choisi) | relu par l'API (relecture 0.9.5) : Nom de sort cité : Sunflare = Flamboiement solaire, et non « Éclat solaire » (incohérent dans le même texte).
 sort	704908		Name	b788e2211a34	Chaleur ardente	lot talents_018
-sort	704908		ToolTip	371a90f53979	Confère à |cffffffffFlamboiement solaire|r et à |cffffffffDéflagration d'Horusath|r 15% de chances de générer un point de Solar Power supplémentaire.	lot talents_018 ; terme CoA sans décision : Solar Power, ressource du Clerc du soleil ; proposition « Puissance solaire »
+sort	704908		ToolTip	371a90f53979	Confère à |cffffffffFlamboiement solaire|r et à |cffffffffDéflagration d'Horusath|r 15% de chances de générer un point de Solar Power supplémentaire.	lot talents_018 ; terme CoA sans décision : Solar Power, ressource du Clerc du soleil ; proposition « Puissance solaire » | relu par l'API (relecture 0.9.5) : Nom de sort cité : Sunflare = Flamboiement solaire.
 sort	704909		Description	437dd566be7a	Augmente vos dégâts et vos soins prodigués de $s1% et vos chances de coup critique contre les morts-vivants de $s2%.	lot talents_018
 sort	704909		Name	576bca408990	Brûle-péchés	lot talents_018
 sort	704910		Description	b7f833e9249a	|cFF66DDFFPassif de niveau 20|r\r\nAugmente votre puissance des soins d'un montant égal à $s1% de votre Intelligence et votre score de hâte des sorts d'un montant égal à $s2% de votre Intelligence.	lot talents_018
@@ -116,7 +116,7 @@ sort	704956		Name	6d2a25c6a951	Cœur de Xoroth	lot talents_018
 sort	704956		ToolTip	ba9ce9a58368	Permet à Sang de démon de se cumuler ${$w1} fois de plus.@s:800999@	lot talents_018
 sort	704957		Description	5010fd5878a9	Les techniques offensives qui consomment du |cffff9933Feu démoniaque|r augmentent désormais les dégâts et le coût de vos 2 prochains |cffffffffEncorner|r de $681184s1% pendant $681184d.\r\n\r\nÀ la fin de la durée, ou quand toutes les charges sont consommées, vous lancez instantanément |cffffffffScie à viande|r sans coût.	lot talents_018
 sort	704957		Name	ef47a0c2ad77	Lame démoniaque	lot talents_018
-sort	704957		ToolTip	edbdfc8bdea6	|cffffffffPorteguerre|r augmente désormais les dégâts de vos 2 prochains |cffffffffSectionner|r ou |cffffffffLames dévorantes|r de $681184s1% pendant $681184d.\r\n\r\nÀ la fin de la durée, ou quand toutes les charges sont consommées, vous lancez instantanément |cffffffffScie à viande|r.	lot talents_018 ; Consuming Blades : « Lames dévorantes » proposé (pas encore choisi)
+sort	704957		ToolTip	edbdfc8bdea6	|cffffffffPorteguerre|r augmente désormais les dégâts de vos 2 prochains |cffffffffTranchages|r ou |cffffffffLames dévorantes|r de $681184s1% pendant $681184d.\r\n\r\nÀ la fin de la durée, ou quand toutes les charges sont consommées, vous lancez instantanément |cffffffffScie à viande|r.	lot talents_018 ; Consuming Blades : « Lames dévorantes » proposé (pas encore choisi) | relu par l'API (relecture 0.9.5) : Le nom de sort Sever est « Tranchage » ; « Sectionner » est incohérent avec le nom français fourni (pluriel de Tranchage).
 sort	704958		Description	675ce997044a	|cffffffffFlamme traqueuse|r propage désormais |cffffffffGueule infernale|r et |cffffffffFonte|r de la cible à $300397i ennemis au maximum à moins de $300397a1 mètres.	lot talents_018
 sort	704958		Name	2cdf73e72b46	Sans distinction	lot talents_018
 sort	704958		ToolTip	7779ef763a36	|cffffffffFlamme traqueuse|r propage |cffffffffFlamboiement démoniaque|r de la cible à $300397i ennemis au maximum à moins de $300397a1 mètres.	lot talents_018 ; Demonflare : « Flamboiement démoniaque » proposé (pas encore choisi)
@@ -205,14 +205,14 @@ sort	705055		ToolTip	aaaf27cf7f8f	Augmente de ${$w1}% la fréquence des impulsio
 sort	705061		Description	80539e680be7	Augmente de $s1% la part de puissance d'attaque de |cffffffffPerce-crâne|r et de |cffffffffTir dentelé|r.	lot talents_018
 sort	705061		Name	ce054f0fddac	Sournoiserie	lot talents_018
 sort	705061		ToolTip	717141c23103	Fait en sorte que l'effet |cffffffffRoughed Up|r d'|cffffffffAdaptation: Bandit|r augmente de ${$w1}% les dégâts que la cible subit de |cffffffffBrigand Strike|r et de |cffffffffDuelist Strike|r.	lot talents_018
-sort	705067		Description	2a35682b2913	Réduit de $/1000;s1 sec le temps de recharge de |cFFFFFFFFAppel de l'épervier|r.	lot talents_018
+sort	705067		Description	2a35682b2913	Réduit de $/1000;s1 sec le temps de recharge d'|cFFFFFFFFAppel du faucon|r.	lot talents_018 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Appel du faucon » (et non « de l'épervier »).
 sort	705067		Name	b371f2bc595d	Fauconnier de guerre	lot talents_018
-sort	705068		Description	1ef8cbb94268	Supprime le coût en Focalisation d'|cffffffffAppel de l'épervier|r, lui permet de frapper $s3 cibles supplémentaires et augmente sa portée de $s2 mètres.	lot talents_018
+sort	705068		Description	1ef8cbb94268	Supprime le coût en Focalisation d'|cffffffffAppel du faucon|r, lui permet de frapper $s3 cibles supplémentaires et augmente sa portée de $s2 mètres.	lot talents_018 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Appel du faucon ».
 sort	705068		Name	e9d30efb1d50	Assaut aérien	lot talents_018
-sort	705068		ToolTip	732ffece0055	Réduit de ${$w1}% le temps de recharge d'|cFFFFFFFFAppel de l'épervier|r et de |cFFFFFFFFPiqué du faucon|r.	lot talents_018
+sort	705068		ToolTip	732ffece0055	Réduit de ${$w1}% le temps de recharge d'|cFFFFFFFFAppel du faucon|r et de |cFFFFFFFFPiqué du faucon|r.	lot talents_018 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Appel du faucon ».
 sort	705071		Description	d9cda4f1e750	Augmente de $s2% les chances de coup critique de |cffffffffFrappe du faucon|r et de |cffffffffFlèche d'émeraude|r.\r\n\r\nDe plus, les coups critiques de |cffffffffFrappe du faucon|r augmentent désormais de $705078s1% les dégâts des |cffffffffFrappes du faucon|r suivantes pendant $705078d, cumulable $705078u fois.	lot talents_018
 sort	705071		Name	8358f432b754	Plumes de guerre	lot talents_018
-sort	705072		Description	9be9b1c6cc63	Augmente de $s1% la fréquence des impulsions de |cffffffffDard toxique|r et de |cffffffffFlèches d'émeraude|r.	lot talents_018
+sort	705072		Description	9be9b1c6cc63	Augmente de $s1% la fréquence des impulsions de |cffffffffDard toxique|r et de |cffffffffFlèches d'émeraude|r.	lot talents_018 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Dard toxique » (et non « Fléchette toxique »).
 sort	705072		Name	724514e45090	Piquants rasoirs	lot talents_018
 sort	705072		ToolTip	0f258adb404e	Fait en sorte que les dégâts de |cffffffffFrappe du faucon|r réduisent de $/1000;705073s1 sec le temps de recharge de |cffffffffReposition|r.	lot talents_018
 sort	705074		Description	9adb690465ee	Vos |cffffffffPerce-crânes|r et |cffffffffFlèches sylvestres|r utilisés avec 5 charges d'|cff8fff7aAvantage|r rendent désormais $520784s3% de Focalisation et invoquent un |cffffffffFaucon de guerre|r pendant $520558d.	lot talents_018
@@ -230,9 +230,9 @@ sort	705087		Name	920ff69b0734	Chapardage	lot talents_018
 sort	705087		ToolTip	536fc75472e6	Augmente de ${$w1}% les chances de coup critique des dégâts supplémentaires que |cffffffffDuelist Strike|r inflige aux ennemis |cffffffffCounterstruck|r.	lot talents_018
 sort	705092		Description	a1d12b5babcc	Augmente votre Agilité et votre vitesse de déplacement de $s1%.	lot talents_018
 sort	705094		Name	5f7d45342d1b	Défense des anciens	lot talents_018
-sort	705098		Description	59e20ebff028	Réduit tous les dégâts subis de $680278s3% pour chaque |cffffffffFaucon de guerre|r ou |cffffffffDragonhawk|R actif.	lot talents_018
+sort	705098		Description	59e20ebff028	Réduit tous les dégâts subis de $680278s3% pour chaque |cffffffffFaucon de guerre|r ou |cffffffffDragonhawk|R que vous avez actif.	lot talents_018 | relu par l'API (relecture 0.9.5) : Accord et sens : « actif » seul est ambigu ; « Dragonhawk » reste anglais car son nom français est inconnu (à signaler).
 sort	705098		Name	c3ba172a74d9	Ailier	lot talents_018
-sort	705098		ToolTip	59e20ebff028	Réduit tous les dégâts subis de $680278s3% pour chaque |cffffffffFaucon de guerre|r ou |cffffffffDragonhawk|R actif.	lot talents_018
+sort	705098		ToolTip	59e20ebff028	Réduit tous les dégâts subis de $680278s3% pour chaque |cffffffffFaucon de guerre|r ou |cffffffffDragonhawk|R que vous avez actif.	lot talents_018 | relu par l'API (relecture 0.9.5) : Même correction que le n° 21.
 sort	705102		Name	c7f4f0ee9e37	Né du démon	lot talents_018
 sort	705105		Description	53667e1dd5b9	Augmente votre énergie maximale de $s1.	lot talents_018
 sort	705105		Name	e37d8c793373	Communion gangrenée	lot talents_018
@@ -273,7 +273,7 @@ sort	705154		ToolTip	c9c98d3423ea	Augmente de ${$w1}% les dégâts initiaux de |
 sort	705156		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018
 sort	705156		Name	ee98c310f889	Zone d'éclaboussures	lot talents_018
 sort	705156		ToolTip	b1430a4acda2	Puissance d'attaque ou puissance des sorts augmentée.	lot talents_018
-sort	705338		Description	53667e1dd5b9	Augmente votre énergie maximale de $s1.	lot talents_018
+sort	705338		Description	53667e1dd5b9	Augmente votre Énergie maximale de $s1.	lot talents_018 | relu par l'API (relecture 0.9.5) : Énergie est une ressource du glossaire : majuscule comme ailleurs (textes 41, 44).
 sort	705453		Name	1453293e774c	Cavalier sombre	lot talents_018
 sort	705700		Name	a9a08603d539	Revigoration	lot talents_018
 sort	706401		Description	088aff2e3f44	Partagez une gorgée de votre |cffffffffChope|r avec tous les membres du groupe et du raid, ce qui leur accorde ${$m1} de puissance d'attaque ou de puissance des sorts supplémentaire pendant $d.\r\n\r\nNe se cumule pas avec des effets similaires.$?s500061[\r\n\r\nCette aptitude vide votre |cffffffffChope|r, consomme des charges de |cffffffffNiveau de remplissage|r et réduit le temps de recharge selon le nombre de charges consommées.][]	lot talents_018

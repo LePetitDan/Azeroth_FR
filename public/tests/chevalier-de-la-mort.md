@@ -1,0 +1,281 @@
+# Fiche de test : Chevalier de la mort
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Sang
+
+- [ ] **Drain sanglant** — capacité, sort n° 45529
+- [ ] **Frappe de sang** (Rang 1) — capacité, sort n° 45902
+- [ ] **Strangulation** — capacité, sort n° 47476
+- [ ] **Présence de sang** — capacité, sort n° 48266 🔍 MAJ
+- [ ] **Furoncle sanglant** (Rang 1) — capacité, sort n° 48721
+- [ ] **Pacte mortel** (Rang 1) — capacité, sort n° 48743
+- [ ] **Déviation énergique** (Passif) — capacité, sort n° 49410
+- [ ] **Pestilence** — capacité, sort n° 50842
+- [ ] **Maîtrise de la forge runique** — capacité, sort n° 53428 🔍 MAJ 🔀 talents
+- [ ] **Sombre ordre** — capacité, sort n° 56222
+- [ ] **Maîtrise des présences** — capacité, sort n° 92418 🔍 MAJ
+- [ ] **Frappes sanglantes** (Rang 1) — talent, sort n° 48977
+- [ ] **Armure tranchante** (Rang 1) — talent, sort n° 48978
+- [ ] **Boucherie** (Rang 1) — talent, sort n° 48979
+- [ ] **Connexion runique améliorée** (Rang 1) — talent, sort n° 48985
+- [ ] **Sombre conviction** (Rang 1) — talent, sort n° 48987
+- [ ] **Vengeance sanglante** (Rang 1) — talent, sort n° 48988
+- [ ] **Subversion** (Rang 1) — talent, sort n° 48997
+- [ ] **Odeur du sang** (Rang 1) — talent, sort n° 49004
+- [ ] **Vétéran de la Troisième guerre** (Rang 1) — talent, sort n° 49006
+- [ ] **Vendetta** (Rang 1) — talent, sort n° 49015
+- [ ] **Malédiction soudaine** (Rang 1) — talent, sort n° 49018
+- [ ] **Puissance de Mograine** (Rang 1) — talent, sort n° 49023
+- [ ] **Vers de sang** (Rang 1) — talent, sort n° 49027
+- [ ] **Déviation de sort** (Rang 1) — talent, sort n° 49145
+- [ ] **Barrière de lames** (Rang 1) — talent, sort n° 49182
+- [ ] **Volonté de la nécropole** (Rang 1) — talent, sort n° 49189
+- [ ] **Armure tranchante** (Rang 2) — talent, sort n° 49390
+- [ ] **Armure tranchante** (Rang 3) — talent, sort n° 49391
+- [ ] **Armure tranchante** (Rang 4) — talent, sort n° 49392
+- [ ] **Armure tranchante** (Rang 5) — talent, sort n° 49393
+- [ ] **Frappes sanglantes** (Rang 2) — talent, sort n° 49394
+- [ ] **Frappes sanglantes** (Rang 3) — talent, sort n° 49395
+- [ ] **Maîtrise des runes de la mort** (Rang 1) — talent, sort n° 49467
+- [ ] **Sombre conviction** (Rang 2) — talent, sort n° 49477
+- [ ] **Sombre conviction** (Rang 3) — talent, sort n° 49478
+- [ ] **Sombre conviction** (Rang 4) — talent, sort n° 49479
+- [ ] **Sombre conviction** (Rang 5) — talent, sort n° 49480
+- [ ] **Boucherie** (Rang 2) — talent, sort n° 49483
+- [ ] **Connexion runique améliorée** (Rang 2) — talent, sort n° 49488
+- [ ] **Connexion runique améliorée** (Rang 3) — talent, sort n° 49489
+- [ ] **Subversion** (Rang 2) — talent, sort n° 49490
+- [ ] **Subversion** (Rang 3) — talent, sort n° 49491
+- [ ] **Déviation de sort** (Rang 2) — talent, sort n° 49495
+- [ ] **Déviation de sort** (Rang 3) — talent, sort n° 49497
+- [ ] **Barrière de lames** (Rang 2) — talent, sort n° 49500
+- [ ] **Barrière de lames** (Rang 3) — talent, sort n° 49501
+- [ ] **Vengeance sanglante** (Rang 2) — talent, sort n° 49503
+- [ ] **Vengeance sanglante** (Rang 3) — talent, sort n° 49504
+- [ ] **Odeur du sang** (Rang 2) — talent, sort n° 49508
+- [ ] **Odeur du sang** (Rang 3) — talent, sort n° 49509
+- [ ] **Vétéran de la Troisième guerre** (Rang 2) — talent, sort n° 49526
+- [ ] **Malédiction soudaine** (Rang 2) — talent, sort n° 49529
+- [ ] **Malédiction soudaine** (Rang 3) — talent, sort n° 49530
+- [ ] **Puissance de Mograine** (Rang 2) — talent, sort n° 49533
+- [ ] **Puissance de Mograine** (Rang 3) — talent, sort n° 49534
+- [ ] **Vers de sang** (Rang 2) — talent, sort n° 49542
+- [ ] **Vers de sang** (Rang 3) — talent, sort n° 49543
+- [ ] **Vétéran de la Troisième guerre** (Rang 3) — talent, sort n° 50029
+- [ ] **Maîtrise des runes de la mort** (Rang 2) — talent, sort n° 50033
+- [ ] **Maîtrise des runes de la mort** (Rang 3) — talent, sort n° 50034
+- [ ] **Volonté de la nécropole** (Rang 2) — talent, sort n° 50149
+- [ ] **Volonté de la nécropole** (Rang 3) — talent, sort n° 50150
+- [ ] **Vendetta** (Rang 2) — talent, sort n° 50154
+- [ ] **Présence de sang améliorée** (Rang 1) — talent, sort n° 50365
+- [ ] **Présence de sang améliorée** (Rang 2) — talent, sort n° 50371
+- [ ] **Puissance de l'abomination** (Rang 1) — talent, sort n° 53137
+- [ ] **Puissance de l'abomination** (Rang 2) — talent, sort n° 53138
+- [ ] **Spécialisation Arme 2M** (Rang 1) — talent, sort n° 55107
+- [ ] **Spécialisation Arme 2M** (Rang 2) — talent, sort n° 55108
+- [ ] **Vendetta** (Rang 3) — talent, sort n° 55136
+- [ ] **Barrière de lames** (Rang 4) — talent, sort n° 55225
+- [ ] **Barrière de lames** (Rang 5) — talent, sort n° 55226
+- [ ] **Gorgé de sang** (Rang 1) — talent, sort n° 61154 🔍 MAJ 🔀 talents
+- [ ] **Gorgé de sang** (Rang 2) — talent, sort n° 61155 🔍 MAJ 🔀 talents
+- [ ] **Gorgé de sang** (Rang 3) — talent, sort n° 61156 🔍 MAJ 🔀 talents
+- [ ] **Gorgé de sang** (Rang 4) — talent, sort n° 61157 🔍 MAJ 🔀 talents
+- [ ] **Gorgé de sang** (Rang 5) — talent, sort n° 61158 🔍 MAJ 🔀 talents
+- [ ] **Frappe de mort améliorée** (Rang 1) — talent, sort n° 62905
+- [ ] **Frappe de mort améliorée** (Rang 1) — talent, sort n° 62908
+- [ ] **Connexion runique** — capacité de talent, sort n° 48982
+- [ ] **Marque de sang** — capacité de talent, sort n° 49005
+- [ ] **Hystérie** — capacité de talent, sort n° 49016
+- [ ] **Arme runique dansante** — capacité de talent, sort n° 49028
+- [ ] **Frappe au coeur** (Rang 1) — capacité de talent, sort n° 55050 🔀 talents
+- [ ] **Sang vampirique** — capacité de talent, sort n° 55233
+
+## Givre
+
+- [ ] **Passage de givre** — capacité, sort n° 3714
+- [ ] **Toucher de glace** (Rang 1) — capacité, sort n° 45477
+- [ ] **Chaînes de glace** (Rang 1) — capacité, sort n° 45524
+- [ ] **Gel de l'esprit** — capacité, sort n° 47528 🔍 MAJ
+- [ ] **Renforcer l'arme runique** — capacité, sort n° 47568
+- [ ] **Présence de givre** — capacité, sort n° 48263 🔍 MAJ
+- [ ] **Robustesse glaciale** — capacité, sort n° 48792 🔀 talents
+- [ ] **Anéantissement** (Rang 1) — capacité, sort n° 49020
+- [ ] **Frappe runique** — capacité, sort n° 56815
+- [ ] **Cor de l'hiver** (Rang 1) — capacité, sort n° 57330
+- [ ] **Focalisation runique** (Passif) — capacité, sort n° 61455
+- [ ] **Combat impitoyable** (Rang 1) — talent, sort n° 49024
+- [ ] **Résistance** (Rang 1) — talent, sort n° 49042
+- [ ] **Hiver sans fin** (Rang 1) — talent, sort n° 49137
+- [ ] **Glace noire** (Rang 1) — talent, sort n° 49140
+- [ ] **Froid de la tombe** (Rang 1) — talent, sort n° 49149
+- [ ] **Toucher de glace amélioré** (Rang 1) — talent, sort n° 49175
+- [ ] **Plaques d'effroi algides** (Rang 1) — talent, sort n° 49186
+- [ ] **Frimas** (Rang 1) — talent, sort n° 49188
+- [ ] **Acclimatation** (Rang 1) — talent, sort n° 49200
+- [ ] **Traqueur de la toundra** (Rang 1) — talent, sort n° 49202
+- [ ] **Nerfs d'acier glacé** (Rang 1) — talent, sort n° 49226 🔍 MAJ
+- [ ] **Maîtrise de la puissance runique** (Rang 1) — talent, sort n° 49455
+- [ ] **Pourriture des glaciers** (Rang 1) — talent, sort n° 49471
+- [ ] **Combat impitoyable** (Rang 2) — talent, sort n° 49538
+- [ ] **Hiver sans fin** (Rang 2) — talent, sort n° 49657
+- [ ] **Glace noire** (Rang 2) — talent, sort n° 49661
+- [ ] **Glace noire** (Rang 3) — talent, sort n° 49662
+- [ ] **Glace noire** (Rang 4) — talent, sort n° 49663
+- [ ] **Glace noire** (Rang 5) — talent, sort n° 49664
+- [ ] **Résistance** (Rang 2) — talent, sort n° 49786
+- [ ] **Résistance** (Rang 3) — talent, sort n° 49787
+- [ ] **Résistance** (Rang 4) — talent, sort n° 49788
+- [ ] **Résistance** (Rang 5) — talent, sort n° 49789
+- [ ] **Pourriture des glaciers** (Rang 2) — talent, sort n° 49790
+- [ ] **Pourriture des glaciers** (Rang 3) — talent, sort n° 49791
+- [ ] **Toucher de glace amélioré** (Rang 2) — talent, sort n° 50031
+- [ ] **Engelures** (Rang 1) — talent, sort n° 50040
+- [ ] **Engelures** (Rang 2) — talent, sort n° 50041
+- [ ] **Engelures** (Rang 3) — talent, sort n° 50043
+- [ ] **Froid de la tombe** (Rang 2) — talent, sort n° 50115
+- [ ] **Traqueur de la toundra** (Rang 2) — talent, sort n° 50127
+- [ ] **Traqueur de la toundra** (Rang 3) — talent, sort n° 50128
+- [ ] **Traqueur de la toundra** (Rang 4) — talent, sort n° 50129
+- [ ] **Traqueur de la toundra** (Rang 5) — talent, sort n° 50130
+- [ ] **Nerfs d'acier glacé** (Rang 2) — talent, sort n° 50137 🔍 MAJ
+- [ ] **Nerfs d'acier glacé** (Rang 3) — talent, sort n° 50138 🔍 MAJ
+- [ ] **Maîtrise de la puissance runique** (Rang 2) — talent, sort n° 50147
+- [ ] **Acclimatation** (Rang 2) — talent, sort n° 50151
+- [ ] **Acclimatation** (Rang 3) — talent, sort n° 50152
+- [ ] **Ruse de Fielsang** (Rang 1) — talent, sort n° 50187
+- [ ] **Ruse de Fielsang** (Rang 2) — talent, sort n° 50190
+- [ ] **Ruse de Fielsang** (Rang 3) — talent, sort n° 50191
+- [ ] **Présence de givre améliorée** (Rang 1) — talent, sort n° 50384
+- [ ] **Présence de givre améliorée** (Rang 2) — talent, sort n° 50385
+- [ ] **Serres de glace** (Rang 1) — talent, sort n° 50880
+- [ ] **Serres de glace** (Rang 2) — talent, sort n° 50884
+- [ ] **Serres de glace** (Rang 3) — talent, sort n° 50885
+- [ ] **Serres de glace** (Rang 4) — talent, sort n° 50886
+- [ ] **Serres de glace** (Rang 5) — talent, sort n° 50887
+- [ ] **Plaques d'effroi algides** (Rang 2) — talent, sort n° 51108
+- [ ] **Plaques d'effroi algides** (Rang 3) — talent, sort n° 51109
+- [ ] **Machine à tuer** (Rang 1) — talent, sort n° 51123
+- [ ] **Machine à tuer** (Rang 2) — talent, sort n° 51127
+- [ ] **Machine à tuer** (Rang 3) — talent, sort n° 51128
+- [ ] **Machine à tuer** (Rang 4) — talent, sort n° 51129
+- [ ] **Machine à tuer** (Rang 5) — talent, sort n° 51130
+- [ ] **Toucher de glace amélioré** (Rang 3) — talent, sort n° 51456
+- [ ] **Annihilation** (Rang 1) — talent, sort n° 51468
+- [ ] **Annihilation** (Rang 2) — talent, sort n° 51472
+- [ ] **Annihilation** (Rang 3) — talent, sort n° 51473
+- [ ] **Sang du Nord** (Rang 3) — talent, sort n° 54637 🔍 MAJ
+- [ ] **Sang du Nord** (Rang 2) — talent, sort n° 54638 🔍 MAJ
+- [ ] **Sang du Nord** (Rang 1) — talent, sort n° 54639 🔍 MAJ
+- [ ] **Allonge glaciale** (Rang 1) — talent, sort n° 55061 🔍 MAJ
+- [ ] **Allonge glaciale** (Rang 2) — talent, sort n° 55062 🔍 MAJ
+- [ ] **Frimas** (Rang 2) — talent, sort n° 56822
+- [ ] **Frimas** (Rang 3) — talent, sort n° 59057
+- [ ] **Menace de Thassarian** (Rang 1) — talent, sort n° 65661
+- [ ] **Menace de Thassarian** (Rang 2) — talent, sort n° 66191
+- [ ] **Menace de Thassarian** (Rang 3) — talent, sort n° 66192
+- [ ] **Changeliche** — capacité de talent, sort n° 49039
+- [ ] **Frappe de givre** (Rang 1) — capacité de talent, sort n° 49143
+- [ ] **Rafale hurlante** (Rang 1) — capacité de talent, sort n° 49184
+- [ ] **Froid dévorant** (Rang 1) — capacité de talent, sort n° 49203
+- [ ] **Froid de la mort** — capacité de talent, sort n° 49796
+- [ ] **Armure incassable** — capacité de talent, sort n° 51271
+- [ ] **Serres de glace améliorées** — capacité de talent, sort n° 55610
+
+## Impie
+
+- [ ] **Dominer un mort-vivant** — capacité, sort n° 891 🔍 MAJ
+- [ ] **Armée des morts** — capacité, sort n° 42650
+- [ ] **Mort et décomposition** (Rang 1) — capacité, sort n° 43265 🔍 MAJ
+- [ ] **Frappe de peste** (Rang 1) — capacité, sort n° 45462
+- [ ] **Réanimation morbide** — capacité, sort n° 46584
+- [ ] **Voile du tombeau** (Rang 1) — capacité, sort n° 47541 🔍 MAJ 🔀 talents
+- [ ] **Présence impie** — capacité, sort n° 48265 🔍 MAJ
+- [ ] **Carapace anti-magie** — capacité, sort n° 48707
+- [ ] **Poigne de la mort** — capacité, sort n° 49576
+- [ ] **Frappe de mort** (Rang 1) — capacité, sort n° 49998
+- [ ] **Réanimation d'un allié** — capacité, sort n° 61999
+- [ ] **Frénésie impie** — capacité, sort n° 91232
+- [ ] **Virulence** (Rang 1) — talent, sort n° 48962
+- [ ] **Morbidité** (Rang 1) — talent, sort n° 48963
+- [ ] **Morts voraces** (Rang 1) — talent, sort n° 48965
+- [ ] **Poussée de fièvre** (Rang 1) — talent, sort n° 49013
+- [ ] **Fièvre de la crypte** (Rang 1) — talent, sort n° 49032
+- [ ] **Epidémie** (Rang 1) — talent, sort n° 49036
+- [ ] **Sur un cheval pâle** (Rang 1) — talent, sort n° 49146 🔍 MAJ
+- [ ] **Chancre impie** (Rang 1) — talent, sort n° 49194
+- [ ] **Chancre impie** (Rang 2) — talent, sort n° 49196
+- [ ] **Moisson** (Rang 1) — talent, sort n° 49208 🔍 MAJ
+- [ ] **Peste galopante** (Rang 1) — talent, sort n° 49217 🔍 MAJ
+- [ ] **Lame incrustée de sang** (Rang 1) — talent, sort n° 49219
+- [ ] **Impureté** (Rang 1) — talent, sort n° 49220
+- [ ] **Complainte** (Rang 1) — talent, sort n° 49223
+- [ ] **Suppression de la magie** (Rang 1) — talent, sort n° 49224
+- [ ] **Epidémie** (Rang 2) — talent, sort n° 49562
+- [ ] **Morbidité** (Rang 2) — talent, sort n° 49564
+- [ ] **Morbidité** (Rang 3) — talent, sort n° 49565
+- [ ] **Virulence** (Rang 2) — talent, sort n° 49567
+- [ ] **Virulence** (Rang 3) — talent, sort n° 49568
+- [ ] **Morts voraces** (Rang 2) — talent, sort n° 49571
+- [ ] **Morts voraces** (Rang 3) — talent, sort n° 49572
+- [ ] **Autorité impie** (Rang 1) — talent, sort n° 49588
+- [ ] **Autorité impie** (Rang 2) — talent, sort n° 49589
+- [ ] **Complainte** (Rang 2) — talent, sort n° 49599
+- [ ] **Suppression de la magie** (Rang 2) — talent, sort n° 49610
+- [ ] **Suppression de la magie** (Rang 3) — talent, sort n° 49611
+- [ ] **Lame incrustée de sang** (Rang 2) — talent, sort n° 49627
+- [ ] **Lame incrustée de sang** (Rang 3) — talent, sort n° 49628
+- [ ] **Fièvre de la crypte** (Rang 2) — talent, sort n° 49631
+- [ ] **Fièvre de la crypte** (Rang 3) — talent, sort n° 49632
+- [ ] **Impureté** (Rang 2) — talent, sort n° 49633
+- [ ] **Impureté** (Rang 3) — talent, sort n° 49635
+- [ ] **Impureté** (Rang 4) — talent, sort n° 49636
+- [ ] **Impureté** (Rang 5) — talent, sort n° 49638
+- [ ] **Peste galopante** (Rang 2) — talent, sort n° 49654 🔍 MAJ
+- [ ] **Peste galopante** (Rang 3) — talent, sort n° 49655 🔍 MAJ
+- [ ] **Rage de Vaillefendre** (Rang 1) — talent, sort n° 50117
+- [ ] **Rage de Vaillefendre** (Rang 2) — talent, sort n° 50118
+- [ ] **Rage de Vaillefendre** (Rang 3) — talent, sort n° 50119
+- [ ] **Rage de Vaillefendre** (Rang 4) — talent, sort n° 50120
+- [ ] **Rage de Vaillefendre** (Rang 5) — talent, sort n° 50121
+- [ ] **Présence impie améliorée** (Rang 1) — talent, sort n° 50391
+- [ ] **Présence impie améliorée** (Rang 2) — talent, sort n° 50392
+- [ ] **Porte-peste d'ébène** (Rang 1) — talent, sort n° 51099
+- [ ] **Porte-peste d'ébène** (Rang 2) — talent, sort n° 51160
+- [ ] **Porte-peste d'ébène** (Rang 3) — talent, sort n° 51161
+- [ ] **Sur un cheval pâle** (Rang 2) — talent, sort n° 51267 🔍 MAJ
+- [ ] **Nécrose** (Rang 1) — talent, sort n° 51459
+- [ ] **Nécrose** (Rang 2) — talent, sort n° 51462
+- [ ] **Nécrose** (Rang 3) — talent, sort n° 51463
+- [ ] **Nécrose** (Rang 4) — talent, sort n° 51464
+- [ ] **Nécrose** (Rang 5) — talent, sort n° 51465
+- [ ] **Attaques vicieuses** (Rang 1) — talent, sort n° 51745
+- [ ] **Attaques vicieuses** (Rang 2) — talent, sort n° 51746
+- [ ] **Anticipation** (Rang 1) — talent, sort n° 55129 🔍 MAJ
+- [ ] **Anticipation** (Rang 2) — talent, sort n° 55130 🔍 MAJ
+- [ ] **Anticipation** (Rang 3) — talent, sort n° 55131 🔍 MAJ
+- [ ] **Anticipation** (Rang 4) — talent, sort n° 55132 🔍 MAJ
+- [ ] **Anticipation** (Rang 5) — talent, sort n° 55133 🔍 MAJ
+- [ ] **Poussée de fièvre** (Rang 2) — talent, sort n° 55236
+- [ ] **Poussée de fièvre** (Rang 3) — talent, sort n° 55237
+- [ ] **Nuit des morts** (Rang 1) — talent, sort n° 55620
+- [ ] **Nuit des morts** (Rang 2) — talent, sort n° 55623
+- [ ] **Violation** (Rang 1) — talent, sort n° 55666
+- [ ] **Violation** (Rang 2) — talent, sort n° 55667
+- [ ] **Moisson** (Rang 2) — talent, sort n° 56834 🔍 MAJ
+- [ ] **Moisson** (Rang 3) — talent, sort n° 56835 🔍 MAJ
+- [ ] **Désolation** (Rang 1) — talent, sort n° 66799
+- [ ] **Désolation** (Rang 1) — talent, sort n° 66814
+- [ ] **Désolation** (Rang 1) — talent, sort n° 66815
+- [ ] **Désolation** (Rang 1) — talent, sort n° 66816
+- [ ] **Désolation** (Rang 1) — talent, sort n° 66817
+- [ ] **Explosion morbide** (Rang 1) — capacité de talent, sort n° 49158
+- [ ] **Invocation d'une gargouille** — capacité de talent, sort n° 49206
+- [ ] **Bouclier d'os** — capacité de talent, sort n° 49222
+- [ ] **Zone anti-magie** (Rang 1) — capacité de talent, sort n° 51052
+- [ ] **Maître des goules** — capacité de talent, sort n° 52143
+- [ ] **Frappe du Fléau** (Rang 1) — capacité de talent, sort n° 55090
+- [ ] **Frénésie de la goule** — capacité de talent, sort n° 63560

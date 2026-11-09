@@ -9,14 +9,14 @@ sort	705161		ToolTip	f9efc621e493	Chaque charge de |cffffffffNiveau de remplissa
 sort	705162		Description	925a26a95ac3	Lancer |cffffffffRugissement ancestral|r augmente désormais la hâte des membres du groupe et du raid de $560946s1% pendant $560946d.\r\n\r\nNe se cumule pas avec des effets similaires.\r\n\r\nLes coups critiques prolongent la durée de l'amélioration de $/1000;573259s1 sec.	lot talents_019
 sort	705162		Name	983cb4c2a945	Voix fédératrice	lot talents_019
 sort	705162		ToolTip	294bfb7070ac	|cffffffffRugissement ancestral|r augmente désormais la hâte des alliés situés à moins de $560946a1 mètres de $560946s1% pendant $560946d.\r\n\r\nLes coups critiques prolongent la durée de l'amélioration de $/1000;573259s1 sec.	lot talents_019
-sort	705167		Description	1f0ebfe1762f	Augmente les chances de coup critique de |cffffffffBalayage brutal|r et de |cffffffffChoc|r de $s1%.	lot talents_019
+sort	705167		Description	1f0ebfe1762f	Augmente de $s1% les chances de coup critique de |cffffffffBalayage brutal|r et de |cffffffffFracasser|r.	lot talents_019 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit être « Fracasser » (noms_de_sorts_cites), pas « Choc ».
 sort	705168		Description	c584f739d3f3	|cFFFFFFFFRage débridée|r augmente désormais aussi vos dégâts de Givre et vos chances de coup critique de $s1%.	lot talents_019
 sort	705168		Name	c53325738091	Fureur de l'ancêtre	lot talents_019
 sort	705169		Description	c219814286a2	Augmente de $s1% les dégâts physiques que vous infligez et subissez.	lot talents_019
 sort	705169		ToolTip	8bb75c3adc28	Chaque tranche de 10 points d'Énergie augmente désormais votre Agilité de ${$w1}%.	lot talents_019
 sort	705171		Description	e8adf17ac256	L'effet de votre |cffffffffAssaut|r se produit désormais $s1% plus vite.	lot talents_019
 sort	705171		Name	bc0580a26697	Récupération rapide	lot talents_019
-sort	705173		Description	d3601860f0cf	Augmente les dégâts de |cffffffffChoc|r de $s1% et votre expertise de $s2.	lot talents_019
+sort	705173		Description	d3601860f0cf	Augmente les dégâts de |cffffffffFracasser|r de $s1% et votre expertise de $s2.	lot talents_019 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Fracasser).
 sort	705173		Name	8c1e8a928521	Puissance pure	lot talents_019
 sort	705176		Description	390aceaa903b	Augmente les dégâts des |cffffffffSpears|r de $s2% et vos chances de toucher de $s1%.	lot talents_019
 sort	705176		Name	c4328c97e284	Bras puissant	lot talents_019
@@ -24,7 +24,7 @@ sort	705186		Description	3895cb6efddf	Augmente les dégâts critiques d'|cFFFFFF
 sort	705186		Name	dd754754a0c8	Armes hérissées	lot talents_019
 sort	705196		Description	7980f5b6df7a	Interrompre avec succès une cible avec |cffffffffBrise-mâchoire|r augmente désormais votre hâte de $804862m1% pendant $804862d et rembourse la moitié de son coût en Énergie.	lot talents_019
 sort	705196		Name	493d73879053	Artiste du K.-O.	lot talents_019
-sort	705198		Description	6651fbf36cd8	Lancer |cffffffffLancer l'arme|r a désormais $h% de chances de transformer votre prochain lancer dans les $706487d en |cffffffffLancer rapide|r.@s:807482:0@	lot talents_019
+sort	705198		Description	6651fbf36cd8	Lancer |cffffffffLancer d'arme|r a désormais $h% de chances de transformer votre prochain lancer dans les $706487d en |cffffffffLancer rapide|r.@s:807482:0@	lot talents_019 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Lancer d'arme ».
 sort	705198		Name	1fea628d2dfb	Technique gurubashi	lot talents_019
 sort	705202		Description	fced38edfae3	Lancer |cffffffffRage débridée|r vous confère désormais |cffffffffNé dans le sang|r.@s:560521:0@	lot talents_019
 sort	705202		Name	cabae91615d5	Force de Goria	lot talents_019
@@ -42,7 +42,7 @@ sort	705212		Description	8916bc91d74f	Votre |cffffffffRage débridée|r augmente
 sort	705212		Name	d77b7e6e0897	Rage unifiée	lot talents_019
 sort	705214		Description	2ec47bf8971c	Les ennemis blessés par votre |cFFFFFFFFChope gelée|r subissent désormais $560125s1% de dégâts supplémentaires de votre part pendant $560125d.	lot talents_019
 sort	705214		Name	f9042840eda9	Vengeance de Hodir	lot talents_019
-sort	705216		Description	9ff96bb3bebf	Augmente les chances de coup critique de |cFFFFFFFFSouffle du Nord|r de $s2%.\r\n\r\nDe plus, vos attaques ignorent désormais l'armure des cibles |cff3399ffGelées|r.	lot talents_019
+sort	705216		Description	9ff96bb3bebf	Augmente les chances de coup critique de |cFFFFFFFFSouffle du Nord|r de $s2%.\r\n\r\nDe plus, vos attaques ignorent désormais l'armure des cibles |cff3399ffgelées|r.	lot talents_019 | relu par l'API (relecture 0.9.5) : Accord : « Gelé » après « cibles » doit être au pluriel féminin, et c'est un adjectif, pas le nom du sort.
 sort	705216		Name	c780f2d31950	Ascendance glaciale	lot talents_019
 sort	705218		Description	d1b858655ea8	Votre |cFFFFFFFFBière du Dieu-roi|r ne vide plus votre |cFFFFFFFFChope|r.	lot talents_019
 sort	705218		Name	c8578b77c4af	La meilleure bière	lot talents_019
@@ -51,7 +51,7 @@ sort	705221		Description	b2d5f3dda40f	Augmente de $s1 le nombre d'attaques pouva
 sort	705221		Name	d9a0eac4f969	Rage du Nord	lot talents_019
 sort	705222		Description	06c3e73d994e	Porter un coup fatal avec |cffffffffDécapitation|r rembourse désormais 100% de votre Énergie maximale.	lot talents_019
 sort	705222		Name	706265505893	Décapiteur	lot talents_019
-sort	705227		Description	e8b5f4edc37c	Augmente les dégâts de |cffffffffLancer l'arme|r, d'|cffffffffÉventreur|r et d'|cffffffffEntrailles répandues|r de $s1%.	lot talents_019
+sort	705227		Description	e8b5f4edc37c	Augmente de $s1% les dégâts de |cffffffffLancer d'arme|r, d'|cffffffffÉventreur|r et d'|cffffffffEntrailles répandues|r.	lot talents_019 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Lancer d'arme » est le nom français fourni, pas « Lancer l'arme ».
 sort	705227		Name	6fb7fdbcadf5	Atroce	lot talents_019
 sort	705232		Description	feaf3214848f	Augmente de $s1% les dégâts infligés par vos |cffffffffEntrailles répandues|r. 	lot talents_019
 sort	705232		Name	e631cefc68c0	Représailles	lot talents_019
@@ -74,7 +74,7 @@ sort	705253		Description	53b9e8d575fe	Augmente de $s1% les chances de déclenche
 sort	705253		Name	4f4b1d18ae90	Focalisation pure	lot talents_019
 sort	705255		Description	6f46e1013131	Les dégâts infligés par |cffffffffPlaie-du-Fléau|r augmentent désormais de $803372s2% les dégâts de |cffffffffLame d'argent|r pendant $803372d, cumulable $803372u fois.	lot talents_019
 sort	705255		Name	c87c9853309a	Frappes divines	lot talents_019
-sort	705256		Description	0ff376603f28	Votre |cffffffffGardien du temple|r rend désormais gratuite votre prochaine aptitude dans les $681136d.	lot talents_019
+sort	705256		Description	0ff376603f28	Votre |cffffffffGardien du temple|r rend désormais gratuite votre prochaine aptitude pendant $681136d.	lot talents_019 | relu par l'API (relecture 0.9.5) : « dans les $681136d » est incorrect : la durée se rend par « pendant $d ».
 sort	705256		Name	9f23293d0f45	Déterminé	lot talents_019
 sort	705259		Description	54b30421f6e6	Tant qu'un |cffffffffLibram|r est actif, votre |cffffffffChâtier|r libère désormais une ligne de puissance sacrée, infligeant ${$706466m1*$<scalingbp>+$AP*.25} points de dégâts du Sacré à menace élevée.	lot talents_019
 sort	705259		Name	7956b8cdcb09	Garde de la foi	lot talents_019
@@ -103,7 +103,7 @@ sort	705281		Description	6415343ffd2e	|cFF66DDFFPassif de niveau 20|r\r\nAugment
 sort	705281		Name	a178c95b9a55	Combattant serein	lot talents_019
 sort	705283		Description	c318f3b0730f	Augmente de $s1% la durée de |cFFFFFFFFChaîne de serment|r.	lot talents_019
 sort	705283		Name	d2f6afd6a0a6	Flux du serment	lot talents_019
-sort	705284		Description	61dcf91fdd7b	Augmente de $s1% les dégâts de |cffffffffBrise-serments|r, de |cffffffffCondamnation|r et de |cffffffffFrappe titanesque|r.	lot talents_019
+sort	705284		Description	61dcf91fdd7b	Augmente de $s1% les dégâts de |cffffffffBrise-serments|r, de |cffffffffCondamnation|r et de |cffffffffFrappe titanesque|r.	lot talents_019 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français choisi pour Titanstrike est « Frappe titanesque », pas « Frappe des Titans ».
 sort	705284		Name	26fce61a0824	L'Homme au coup unique	lot talents_019
 sort	705284		ToolTip	fefc265dddf0	Augmente de ${$w2}% le bonus de dégâts des coups critiques des |cffffffffManœuvres de combat|r et de ${$w1}% les dégâts des effets qui mettent fin à votre chaîne de |cffffffffManœuvres de combat|r.	lot talents_019
 sort	705285		Description	772dd57add43	|cffffffffCondamnation|r se cumule désormais $s1 fois de plus.	lot talents_019
@@ -170,7 +170,7 @@ sort	705350		Description	5cb9612a8d40	Déclencher un |cFFFFFFFFSon de la guerre|
 sort	705350		Name	a363be3e7a8d	Joueur de flûte	lot talents_019
 sort	705351		Description	609e3ab7e523	Les coups critiques réduisent désormais de $/1000;573281s1 sec le temps de recharge de |cffffffffMarche du héros|r.	lot talents_019
 sort	705351		Name	ce507caefbee	Manuscrit du porteur de guerre	lot talents_019
-sort	705352		Description	f9695511db48	Émane une aura autour de vous pendant $560530d : les joueurs alliés situés à moins de $a mètres infligent ${$AP*0.28} points de dégâts supplémentaires du Sacré quand ils infligent des dégâts directs.\r\n\r\nApplique |cFFFFFFFFEpuisement|r, ce qui vous empêche de bénéficier d'effets similaires pendant $573255d.	lot talents_019
+sort	705352		Description	f9695511db48	Émane une aura autour de vous pendant $560530d : les joueurs alliés situés à moins de $a mètres infligent ${$AP*0.28} points de dégâts supplémentaires du Sacré quand ils infligent des dégâts directs.\r\n\r\nApplique |cFFFFFFFFÉpuisement|r, ce qui vous empêche de bénéficier d'effets similaires pendant $573255d.	lot talents_019 | relu par l'API (relecture 0.9.5) : Majuscule accentuée : « Épuisement » (nom de sort cité fourni), au lieu de « Epuisement ».
 sort	705352		Name	892f18cc1602	Présence inspirante	lot talents_019
 sort	705356		Description	030efb6c75b0	Augmente de $s1% les chances de coup critique de vos |cffffffffBallades|r.	lot talents_019
 sort	705356		Name	99df6e5d2cc6	Voix puissante	lot talents_019
@@ -197,7 +197,7 @@ sort	705377		Description	34ccdb436d56	Chaque fois que vous bloquez une attaque, 
 sort	705377		Name	2686ace2557b	Maintien honorable	lot talents_019
 sort	705378		Description	02b5a98dae63	Augmente de $s1% les dégâts que vous infligez aux humanoïdes.	lot talents_019
 sort	705378		Name	2ea253263c84	Avantage du chevalier	lot talents_019
-sort	705379		Description	6707e9ee87a7	Les dégâts infligés par |cffffffffCoup puissant|r infligent désormais $s1% supplémentaires des dégâts infligés toutes les $705380t1 sec pendant $705380d.	lot talents_019
+sort	705379		Description	6707e9ee87a7	Les dégâts infligés par |cffffffffCoup puissant|r infligent désormais en plus $s1% des dégâts infligés, toutes les $705380t1 sec pendant $705380d.	lot talents_019 | relu par l'API (relecture 0.9.5) : Sens plus clair : les $s1% supplémentaires sont infligés périodiquement.
 sort	705379		Name	2e89564f5ba6	Abattez le marteau !	lot talents_019
 sort	705386		Description	bdca2f50cdc4	Augmente de $s1% les dégâts de |cFFFFFFFFVent de mort|r, de |cffffffffMeurtre|r et de |cffffffffFrappe de l'âme|r.	lot talents_019
 sort	705386		Name	d9b23ff3c297	Appel du spectre	lot talents_019
@@ -214,9 +214,9 @@ sort	705403		Name	26e07ca943e6	Tempête d'âmes	lot talents_019
 sort	705404		Description	c81e74aac846	Votre |cffffffffVent de mort|r augmente désormais aussi de $582526s1% les soins que vous recevez et vos chances de parade tant que vous vous trouvez dans son rayon.	lot talents_019
 sort	705404		Name	facd926fe9aa	Royaume des esprits	lot talents_019
 sort	705404		ToolTip	10ec155159df	|cffffffffBrume mortelle|r augmente désormais de $582526s1% les soins que vous recevez tant que vous vous trouvez dans son rayon.	lot talents_019
-sort	705406		Description	44e9ae393bc2	Vos |cFFFFFFFFÂmes tourmentées|r ont désormais $s1% de chances de ne pas consommer de charge lors des dégâts subis. 	lot talents_019
+sort	705406		Description	44e9ae393bc2	Vos |cFFFFFFFFÂmes tourmentées|r ont désormais $s1% de chances de ne pas consommer de charge lorsque vous subissez des dégâts. 	lot talents_019 | relu par l'API (relecture 0.9.5) : « lors des dégâts subis » est maladroit ; tournure plus claire
 sort	705406		Name	45d8ad9a4ede	Vie exploitée	lot talents_019
-sort	705406		ToolTip	d6be788fe700	|cFFFFFFFFÂmes tourmentées|r a ${$w1}% de chances de ne pas consommer de charge lors des dégâts subis.	lot talents_019
+sort	705406		ToolTip	d6be788fe700	|cFFFFFFFFÂmes tourmentées|r a ${$w1}% de chances de ne pas consommer de charge lorsque vous subissez des dégâts.	lot talents_019 | relu par l'API (relecture 0.9.5) : tournure plus claire
 sort	705409		Name	6743becafbef	Soif dévorante	lot talents_019
 sort	705410		Description	589e3475b928	Augmente de $/1000;s1 sec la durée de |cFFFFFFFFDéchirure d'âme|r.	lot talents_019
 sort	705410		Name	229ff2ea95b8	Hanteur	lot talents_019
@@ -279,9 +279,9 @@ sort	705490		ToolTip	8dcbbcac5266	|cffffffffFuite audacieuse|r réinitialise le 
 sort	705496		Description	856b2bdd3602	Vos coups critiques génèrent désormais $/10;s1 Rage et $504679s1% de votre mana maximum. Ne peut se produire que toutes les 3 sec.	lot talents_019
 sort	705496		Name	0d6b5487996d	Haine débordante	lot talents_019
 sort	705496		ToolTip	023870c7d184	Les coups critiques génèrent $/10;s1 Rage.\n\nCet effet ne peut se produire que toutes les 3 sec.	lot talents_019
-sort	705497		Description	d4f3c87b686d	Utiliser un |cffffffffTonique|r réduit désormais de $/1000;s1 sec le temps de recharge de tous les autres |cffffffffToniques|r.	lot talents_019
+sort	705497		Description	d4f3c87b686d	Utiliser un |cffffffffTonic|r réduit désormais de $/1000;s1 sec le temps de recharge de tous les autres |cffffffffToniques|r.	lot talents_019 | relu par l'API (relecture 0.9.5) : Le nom cité au singulier doit rester celui fourni (« Tonic »), comme dans noms_de_sorts_cites.
 sort	705497		Name	ebed30c031f9	Réserve de toniques	lot talents_019
-sort	705497		ToolTip	007af855e404	Quand vous utilisez un |cffffffffTonique|r, réduit de $/1000;s1 sec le temps de recharge des |cffffffffToniques|r.	lot talents_019
+sort	705497		ToolTip	007af855e404	Quand vous utilisez un |cffffffffTonic|r, réduit de $/1000;s1 sec le temps de recharge des |cffffffffToniques|r.	lot talents_019 | relu par l'API (relecture 0.9.5) : Nom cité au singulier : « Tonic », selon le nom français fourni.
 sort	705498		Description	48982a051978	Augmente de $s1% l'efficacité de vos |cffffffffToniques|r.	lot talents_019
 sort	705498		Name	e5c6d6489595	Recherche alchimique	lot talents_019
 sort	705498		ToolTip	48dc93f3195a	Augmente de ${$w1}% l'efficacité des |cffffffffToniques|r.	lot talents_019
@@ -289,7 +289,7 @@ sort	705499		Description	d158d2fc6512	Tant que |cffffffffFrénésie crépusculai
 sort	705499		Name	bb4995821de0	Frénésie de l'arbalète	lot talents_019
 sort	705500		Description	cd3528d73f70	Augmente de $s2% les chances de coup critique de |cFFFFFFFFDéflagration d'ombre|r.	lot talents_019
 sort	705500		Name	004d894ce816	Faire régner la loi	lot talents_019
-sort	705506		Description	097ae90e118f	Augmente de $s1% les dégâts infligés aux ennemis ayant plus de 75% et moins de 35% de leurs points de vie.	lot talents_019
+sort	705506		Description	097ae90e118f	Augmente de $s1% les dégâts infligés aux ennemis ayant plus de 75% ou moins de 35% de leurs points de vie.	lot talents_019 | relu par l'API (relecture 0.9.5) : « et » est illogique : aucun ennemi ne peut être au-dessus de 75% et en dessous de 35% ; il faut « ou ».
 sort	705506		Name	1b773c00ce10	Meurtre sous contrat	lot talents_019
 sort	705512		Description	19d16dd36b48	Augmente votre hâte à distance de $s1%.	lot talents_019
 sort	705512		Name	5f1f1bd7fad8	Rechargement rapide	lot talents_019

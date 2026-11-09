@@ -485,19 +485,19 @@ faction	1159		name	CTF - Flag - Alliance 2	82f97556a345	JdD - Drapeau - Alliance
 faction	1160		name	CTF - Flag - Horde 2	be4974809330	JdD - Drapeau - Horde 2	officiel	blizzard_frFR	Faction.dbc du client CoA (patch-M) | Faction.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 faction	1161		name	Allegiance	e471facac24c	Allégeance	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
 faction	1163		name	Outlaw	5f4b11c757d7	Hors-la-loi	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
-faction	1173		name	Ramkahen	df814df1b3fa		a_traduire		Faction.dbc du client CoA (patch-M)
+faction	1173		name	Ramkahen	df814df1b3fa		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre identique en français (Ramkahen)
 faction	1173		description	The cat-like people of Ramkahen are the descendants of the Tol'vir, guardians of Uldum.  Though they've lost their stone bodies, protecting the secrets of the titans is still a part of their rigid tradition.	12091e7c02ab	Les Ramkahen, un peuple félin, sont les descendants des Tol'vir, gardiens d'Uldum. Bien qu'ils aient perdu leur corps de pierre, protéger les secrets des titans fait toujours partie de leur tradition rigoureuse.	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
-faction	1373		name	Eladmine Ealdir	bb14b70429c4		a_traduire		Faction.dbc du client CoA (patch-M)
-faction	1376		name	GraySky	56c44e1bd499		a_traduire		Faction.dbc du client CoA (patch-M)
-faction	1377		name	Dun Kazad	0785a161b3bf		a_traduire		Faction.dbc du client CoA (patch-M)
-faction	1378		name	Thundrakar	f92332598ab4		a_traduire		Faction.dbc du client CoA (patch-M)
+faction	1373		name	Eladmine Ealdir	bb14b70429c4		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé par CoA
+faction	1376		name	GraySky	56c44e1bd499		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé par CoA
+faction	1377		name	Dun Kazad	0785a161b3bf		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre (lieu nain), identique en français
+faction	1378		name	Thundrakar	f92332598ab4		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé par CoA
 faction	1382		name	Namarien Sanctuary	9ed2f8ca0d1d	Sanctuaire de Namarien	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
-faction	1600		name	Stromgarde	86d4f40f2e65		a_traduire		Faction.dbc du client CoA (patch-M)
+faction	1600		name	Stromgarde	86d4f40f2e65		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre identique en français (Stromgarde)
 faction	1600		description	Once the capital of the mighty Arathi Empire, the human kingdom of Stromgarde has declined rapidly in recent years, but the remaining survivors still fight to reclaim their city.	0cbb3484edcf	Jadis capitale du puissant empire Arathi, le royaume humain de Stromgarde a rapidement décliné ces dernières années, mais les derniers survivants se battent toujours pour reprendre leur cité.	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
 faction	1601		name	The Ruby Attrition	c95042e54c1e	L'Attrition de rubis	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
 faction	1601		description	These elementals have made their home on the islands east of Azshara.  Sworn enemies of the armies of Ragnaros.	a3dfa0f4150d	Ennemis jurés des armées de Ragnaros, ces élémentaires se sont installés dans les îles à l’est d’Azshara.	officiel	blizzard_frFR	Faction.dbc du client CoA (patch-M) | Faction.dbc frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte
 faction	2243		name	Friendly - To Loatheb	030780d9a7bb	Amical - envers Horreb	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001
-faction	2246		name	Mystic Guys	7479b539bfcf		a_traduire		Faction.dbc du client CoA (patch-M)
-faction	2246		description	Mystic Coin people	cdb080ddaaa5		a_traduire		Faction.dbc du client CoA (patch-M)
-faction	2247		name	Vardrheim	afb91751b5fe		a_traduire		Faction.dbc du client CoA (patch-M)
+faction	2246		name	Mystic Guys	7479b539bfcf	Gars mystiques	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+faction	2246		description	Mystic Coin people	cdb080ddaaa5	Gens de la pièce mystique	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
+faction	2247		name	Vardrheim	afb91751b5fe		technique		Faction.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé par CoA
 faction	2248		name	Brawlers Guild	7411b1315ec7	Guilde des bagarreurs	machine	claude	Faction.dbc du client CoA (patch-M) | traduction de Claude (traductions/factions/factions_001.tsv) | lot factions_001

@@ -13,13 +13,13 @@ sort	500904		Name	7e5aa821b512	Tranchage	lot sorts_classes_007
 sort	500907		Description	55fb84a7e611	|cff93cceaConsomme du Sang de démon|r\nCrée une barrière magique sur vous pendant $d, absorbant une grande quantité de dégâts, augmentée pour chaque charge consommée.	lot sorts_classes_007
 sort	500907		Name	ef3e7586d305	Fournaise des fiélons	lot sorts_classes_007
 sort	500907		ToolTip	064bc208f8d0	Absorbe les dégâts.	lot sorts_classes_007
-sort	500916		Description	1ad61952d9b6	Frappe un ennemi avec les deux armes pour des dégâts d'arme plus ${$m1+0} et confère |cffffffffFrénésie déchirante|r.@s:560931:0@	lot sorts_classes_007
+sort	500916		Description	1ad61952d9b6	Frappe un ennemi avec les deux armes pour des dégâts d'arme plus ${$m1+0} et confère |cffffffffFrénésie déchirante|r.@s:560931:0@	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Ripping Frenzy = Frénésie déchirante
 sort	500916		Name	334ae2f8becf	Éventreur	lot sorts_classes_007
 sort	500916		ToolTip	e1cabd892993	DÉCHIRURE !	lot sorts_classes_007
 sort	500919		Name	8e7db629920d	Avancée tourbillonnante	lot sorts_classes_007
 sort	500920		Description	84353fa3cc80	Empale un ennemi pour |cffff8100$s1 points de dégâts physiques|r.\n\nSi la cible a moins de 35% de |cfffeff9e|cfffeff9eVie|r|r, cette aptitude inflige $802865s1% de dégâts d'arme supplémentaires et applique 5 charges de Carnage.	lot sorts_classes_007
 sort	500920		Name	29fea1529978	Empalement	lot sorts_classes_007
-sort	500929		Description	53e340bff2f6	Certaines de vos aptitudes génèrent |cffcc99ffStatique|r. Si votre |cffcc99ffStatique|r atteint 100%, vous serez étourdi et subirez de lourds dégâts.\r\n\r\nTant que votre |cffcc99ffStatique|r dépasse 70%, les effets |cffffffffSurchargés|r de vos sorts sont actifs.\r\n@ext:@s:806495:0@:ext@	lot sorts_classes_007
+sort	500929		Description	53e340bff2f6	Certaines de vos aptitudes génèrent de la |cffcc99ffStatique|r. Si votre |cffcc99ffStatique|r atteint 100%, vous serez étourdi et subirez de lourds dégâts.\r\n\r\nTant que votre |cffcc99ffStatique|r dépasse 70%, les effets |cffffffffSurchargés|r de vos sorts sont actifs.\r\n@ext:@s:806495:0@:ext@	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Le n° 14 emploie « Surchargés » pour Supercharged ; harmoniser (le nom de sort cité est incohérent entre les deux textes). « génèrent de la Statique » comme au n° 14.
 sort	500929		Name	0d6f2255be9f	Veille de Thorim	lot sorts_classes_007
 sort	500929		ToolTip	9960b01e2059	Certaines de vos aptitudes génèrent de la Statique. Si votre Statique atteint 100%, vous serez |cffff3232étourdi|r et subirez d'énormes dégâts.\n\nTant que la Statique dépasse 70%, les effets Surchargés de vos sorts sont actifs.\n@ext:@s:806495:@:ext@	lot sorts_classes_007
 sort	500935		Description	85f29031aa8e	Réduit les dégâts que vous subissez de $s3% et vous fait infliger $s2 points de dégâts de Nature aux attaquants de mêlée.\r\n\r\nSeule 1 |cffffffffFaveur|r peut être active à la fois.	lot sorts_classes_007
@@ -51,13 +51,13 @@ sort	500967		Name	6862750c35d0	Glace-rasoir	lot sorts_classes_007
 sort	500967		ToolTip	c42c7535db9c	Inflige ${$w1} points de dégâts de Givre aux attaquants. 	lot sorts_classes_007
 sort	500970		Description	d2433710f909	Réanime un |cffffffffGuerrier squelette mineur|r pour vous aider au combat, occupant 1 |cffffffffForce vitale|r.\r\n\r\n|cff90ee90Commandement|r : frappe un ennemi devant lui et inflige des dégâts d'arme plus ${$570042m2+($SP*.35)*0.39}.	lot sorts_classes_007
 sort	500970		Name	63fc20e4113d	Réanimation : guerrier squelette mineur	lot sorts_classes_007
-sort	500982		Description	9584f0a263b6	Vos serviteurs morts-vivants adoptent un comportement agressif, augmentant leur vitesse de déplacement de $s2%.$?s560595[ Vos chances de coup critique contre les humanoïdes sont augmentées de $560595s1%.][]\r\n\r\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007
+sort	500982		Description	9584f0a263b6	Vos serviteurs morts-vivants adoptent un comportement agressif, augmentant leur vitesse de déplacement de $s2%.$?s560595[ Vos chances de coup critique contre les humanoïdes sont augmentées de $560595s1%.][]\r\n\r\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Étiquette recopiée telle quelle.
 sort	500982		Name	cd989707da43	Morts-vivants : assaut	lot sorts_classes_007
 sort	500982		ToolTip	4b5296cb67b6	Agressif. Vitesse de déplacement des serviteurs morts-vivants augmentée de ${$w2}%.	lot sorts_classes_007
-sort	500983		Description	6bbb7c9eb441	Vos serviteurs morts-vivants adoptent un comportement passif et n'attaquent pas les ennemis ni ne lancent de sorts.$?s560595[ Réduit les dégâts que vous subissez de $560595s2%.][]\n\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007
+sort	500983		Description	6bbb7c9eb441	Vos serviteurs morts-vivants adoptent un comportement passif et n'attaquent pas les ennemis, ni ne lancent de sorts.$?s560595[ Réduit les dégâts que vous subissez de $560595s2%.][]\n\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Étiquette recopiée telle quelle ; ponctuation de la négation corrigée.
 sort	500983		Name	ce039dcf0e35	Morts-vivants : pacification	lot sorts_classes_007
 sort	500983		ToolTip	acb23d214e3c	Vos serviteurs n'attaqueront pas les ennemis.	lot sorts_classes_007
-sort	500985		Description	e8d9abfcabfe	Vos serviteurs morts-vivants adoptent un comportement défensif, augmentant la menace et l'armure.$?s560595[ Réduit de $560595s3% la menace que vous générez.][]\n\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007
+sort	500985		Description	e8d9abfcabfe	Vos serviteurs morts-vivants adoptent un comportement défensif, augmentant la menace et l'armure.$?s560595[ Réduit de $560595s3% la menace que vous générez.][]\n\n@ext:Only 1 |cffffffffUndead Stance|r can be active at a time.:ext@	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Étiquette recopiée telle quelle.
 sort	500985		Name	5910d69de0ed	Morts-vivants : protection	lot sorts_classes_007
 sort	500985		ToolTip	4b11b92480de	Défensif. Génère plus de menace. Armure augmentée.	lot sorts_classes_007
 sort	501075		Description	63f4e1dcaa56	Invoque une protection vaudou à courte distance devant vous, infligeant ${$cond($gt($spfi, $spn), $m1+0+$spfi*.12, $m1+0+$spn*.12)} points de dégâts de Tempête de feu toutes les $t1 sec pendant $d. \r\n\r\nÀ la fin de la durée, les ennemis proches explosent et subissent ${$cond($gt($spfi, $spn), $m3+0+$spfi*.55, $m3+0+$spn*.55)} points de dégâts de Tempête de feu.\r\n\r\n@ext:Can only have 1 |cffffffffWard|r active at a time.:ext@	lot sorts_classes_007
@@ -393,7 +393,7 @@ sort	800013		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007
 sort	800083		Description	67a3a43ead0c	|cff8fff7aGénère $?s500024[2][1] point d'Avantage|r\r\nFrappe sauvagement un ennemi pour $s1% de dégâts d'arme plus ${$m3+0}.\r\n\r\nSi vous combattez avec deux armes, inflige des dégâts d'arme supplémentaires avec votre arme de main gauche.	lot sorts_classes_007
 sort	800083		Name	6ade62cee7df	Frappe sauvage	lot sorts_classes_007
 sort	800135		Description	19e7d6a6f887	Régénère un allié, lui rendant ${$m1+0+$AP*0.2+$BH*0.3} points de vie.	lot sorts_classes_007
-sort	800135		Name	cac52de2b889	Main de la Terre-Mère	lot sorts_classes_007
+sort	800135		Name	cac52de2b889	Main de la Terre-mère	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Même graphie que dans « Lien de la Terre-mère » (minuscule à mère)
 sort	800174		Description	70aa05c93ce6	|cFF5ee2ffGénère 1 Âme moissonnée|r\r\nCrée un nuage de brume à l'endroit ciblé pendant $d. Toutes les $T1 sec, les ennemis de la zone subissent ${$m1+0+$sps*.04+$AP*.15} points de dégâts de Givre, et vous êtes soigné de ${$e1*100}% des dégâts infligés.	lot sorts_classes_007
 sort	800174		Name	a0f3da5af744	Vent de mort	lot sorts_classes_007
 sort	800174		ToolTip	077af5fc5a42	Vous vous tenez dans le Vent de mort d'un Faucheur !	lot sorts_classes_007
@@ -409,7 +409,7 @@ sort	800340		Name	b931e80d4461	Scie à viande	lot sorts_classes_007
 sort	800357		Description	8f98b0f3f435	Fait briller une lumière sacrée sur un allié, lui rendant ${$m1+0+$SP*0.294699} points de vie.	lot sorts_classes_007
 sort	800357		Name	2b815f27f03e	Éclat	lot sorts_classes_007
 sort	800375		ToolTip	064bc208f8d0	Absorbe les dégâts.	lot sorts_classes_007
-sort	800413		Description	348231de2c36	Frappe un ennemi d'une puissance du Vide écrasante, lui infligeant ${$m1+0+$SP*1} points de dégâts d'Ombre et drainant 20 points de |cffcfa6ffFolie|r.	lot sorts_classes_007
+sort	800413		Description	348231de2c36	Frappe un ennemi d'une puissance du Vide écrasante, lui infligeant ${$m1+0+$SP*1} points de dégâts d'Ombre et drainant 20 points de |cffcfa6ffFolie|r.	lot sorts_classes_007 | relu par l'API (relecture 0.9.5) : Insanity = Folie (décision 20), pas « Insanité ».
 sort	800413		Name	dfa275c23373	Courroux de l'Empire noir	lot sorts_classes_007
 sort	800416		Name	9a8019ff1cb5	Éclair d'effroi	lot sorts_classes_007
 sort	800516		ToolTip	cf4e7c10f8de	Étourdi.	lot sorts_classes_007

@@ -42,6 +42,7 @@ import lzma
 import os
 import re
 import sys
+import unicodedata
 from collections import Counter, defaultdict
 
 ICI = os.path.dirname(os.path.abspath(__file__))
@@ -2008,6 +2009,199 @@ def _harmoniser_statique(self):
 
 Importeur.harmoniser_statique = _harmoniser_statique
 
+RE_MOT = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿŒœ]+")
+RE_PROTEGE = re.compile(r"(\|c[0-9a-fA-F]{8}|\|r|\|H.*?\|h|\$\S*|@[^@\n]*@|<[^>\n]*>)")
+ACCENTS_MAJ = {'E': 'ÉÈÊ', 'A': 'ÂÀ', 'I': 'Î', 'O': 'Ô', 'U': 'Û'}
+PAS_FRANCAIS = {'Epic'}   # mot anglais gardé tel quel dans certains textes
+
+
+def _plat(t):
+    t = unicodedata.normalize('NFD', t.lower())
+    return ''.join(c for c in t if unicodedata.category(c) != 'Mn').replace('\u2019', "'").strip()
+
+
+def _majuscules_accentuees(self):
+    """0.9.5 (version publique, justesse de la langue) : capitale sans son accent dans les traductions machine
+    (« Eclat de lave », « Ame affaiblie », « Epaulières ») : la typographie française garde l'accent sur les capitales,
+    comme le français officiel de Blizzard (« Éclair de givre »). Un mot capitalisé est corrigé seulement si sa forme
+    sans accent n'apparaît JAMAIS en minuscule dans le français officiel, et sa forme accentuée au moins 3 fois."""
+    vocab = Counter()
+    for l in self.lignes.values():
+        if l[K.I_ETAT] == 'officiel' and l[K.I_FR]:
+            for m in RE_MOT.findall(l[K.I_FR]):
+                if m[0].islower():
+                    vocab[m] += 1
+    memo = {}
+
+    def corr(m):
+        w = m.group(0)
+        if w not in memo:
+            r = None
+            if len(w) > 1 and w[0] in ACCENTS_MAJ and w[1:].islower() and vocab[w.lower()] == 0 \
+                    and w not in PAS_FRANCAIS:
+                c = [(vocab[a.lower() + w[1:]], a + w[1:]) for a in ACCENTS_MAJ[w[0]]]
+                c = [x for x in c if x[0] >= 3]
+                if c:
+                    r = max(c)[1]
+            memo[w] = r
+        return memo[w] or w
+
+    n = Counter()
+    for l in self.lignes.values():
+        if l[K.I_ETAT] != 'machine' or not l[K.I_FR]:
+            continue
+        morceaux = RE_PROTEGE.split(l[K.I_FR])
+        fr = ''.join(x if i % 2 else RE_MOT.sub(corr, x) for i, x in enumerate(morceaux))
+        if fr != l[K.I_FR] and not self.controle(l[K.I_EN], fr, 'machine', l[K.I_TYPE]):
+            l[K.I_FR] = fr
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'capitale accentuée (0.9.5)')
+            n[l[K.I_TYPE]] += 1
+    self.cr['majuscules_accentuees'] = sum(n.values())
+    K.journal('import : capitales accentuées : %d lignes (%s)' % (sum(n.values()), dict(n.most_common(6))))
+
+
+Importeur.majuscules_accentuees = _majuscules_accentuees
+
+TYPES_SPECIALISATION = ('coa_specialisation', 'coa_avancement_onglet', 'arbre_coa', 'arbre_talents', 'competence',
+                        'coa_etiquette_sort')
+CHOIX_SPECIALISATION = {'Farstrider': 'Pérégrin'}   # à égalité : le nom des Pérégrins de Quel'Thalas (officiel)
+
+
+def _harmoniser_specialisations(self):
+    """0.9.5 (version publique) : une spécialisation porte le même nom dans toutes les fenêtres (choix de la
+    spécialisation, onglets de l'avancement, arbres de talents, compétences, étiquettes des sorts) et dans le nom du
+    sort qui la représente : « Boltslinger » était « Tireur d'arbalète », « Tireur de carreaux » et « Lance-carreaux ».
+    Forme officielle s'il y en a une, sinon la plus répandue entre les fenêtres ; jamais le nom d'une autre
+    spécialisation (« Rime » ne devient pas « Givre », le nom de « Frost »)."""
+    par_en = defaultdict(lambda: defaultdict(set))
+    sures = defaultdict(set)
+    sorts_sures = defaultdict(set)
+    for l in self.lignes.values():
+        if l[K.I_TYPE] in TYPES_SPECIALISATION and l[K.I_CHAMP] in ('name', 'Name', 'nom') and l[K.I_FR] \
+                and l[K.I_ETAT] in ('machine', 'officiel', 'relu'):
+            par_en[l[K.I_EN]][l[K.I_FR]].add(l[K.I_TYPE])
+            if l[K.I_ETAT] in ('officiel', 'relu'):
+                sures[l[K.I_EN]].add(l[K.I_FR])
+        elif l[K.I_TYPE] == 'sort' and l[K.I_CHAMP] == 'Name' and l[K.I_ETAT] == 'officiel' and l[K.I_FR]:
+            sorts_sures[l[K.I_EN]].add(l[K.I_FR])
+    for en in par_en:               # « Rime » : talent officiel « Frimas » (chevalier de la mort)
+        if not sures.get(en) and len(sorts_sures.get(en, ())) == 1:
+            sures[en] = set(sorts_sures[en])
+    pris = defaultdict(set)
+    for en, d in par_en.items():
+        for f in d:
+            pris[_plat(f)].add(en)
+    canon = {}
+    for en, d in par_en.items():
+        if len(d) < 2 and not (sures.get(en) and set(d) - sures[en]):
+            continue
+        if sures.get(en):
+            canon[en] = sorted(sures[en])[0]
+            continue
+        if en in CHOIX_SPECIALISATION and CHOIX_SPECIALISATION[en] in d:
+            canon[en] = CHOIX_SPECIALISATION[en]
+            continue
+        libres = [f for f in d if not (pris[_plat(f)] - {en})]
+        if libres:
+            canon[en] = min(libres, key=lambda f: (-len(d[f]), 'coa_specialisation' not in d[f], f))
+    n = Counter()
+    for l in self.lignes.values():
+        if l[K.I_ETAT] != 'machine' or l[K.I_CHAMP] not in ('name', 'Name', 'nom') or l[K.I_EN] not in canon:
+            continue
+        if l[K.I_TYPE] not in TYPES_SPECIALISATION and l[K.I_TYPE] != 'sort':
+            continue
+        cn = canon[l[K.I_EN]]
+        if l[K.I_FR] != cn and not self.controle(l[K.I_EN], cn, 'machine', l[K.I_TYPE]):
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'spécialisation harmonisée (0.9.5) : ancien « %s »' % l[K.I_FR])
+            l[K.I_FR] = cn
+            n[l[K.I_TYPE]] += 1
+    self.cr['harmoniser_specialisations'] = sum(n.values())
+    K.journal('import : noms de spécialisation harmonisés : %d noms anglais, %d lignes (%s)'
+              % (len(canon), sum(n.values()), dict(n)))
+
+
+Importeur.harmoniser_specialisations = _harmoniser_specialisations
+
+RE_COULEUR = re.compile(r'\|c([0-9a-fA-F]{8})(.*?)\|r', re.S)
+
+
+def _harmoniser_noms_sorts(self):
+    """0.9.5 (version publique) : un sort doit porter le même nom partout. (1) Même nom anglais, traductions machine
+    différentes (« Zealotry » : « Zèle » et « Zélotisme ») : la forme officielle ou relue, sinon la majoritaire (à
+    égalité : la plus accentuée, puis l'ordre alphabétique). (2) Nom de sort cité en couleur dans une description ou une
+    aura (« |cffffffffLava Shard|r ») : écrit comme le nom du sort (« Éclat de lave », pas « Eclat de lave »), si la
+    citation est employée comme un nom (capitale initiale). Lignes machine seulement ; chaque correction passe le
+    contrôle."""
+    noms, sures = defaultdict(Counter), defaultdict(Counter)
+    for l in self.lignes.values():
+        if l[K.I_TYPE] == 'sort' and l[K.I_CHAMP] == 'Name' and l[K.I_FR] \
+                and l[K.I_ETAT] in ('machine', 'officiel', 'relu') and l[K.I_FR] != l[K.I_EN]:
+            noms[l[K.I_EN]][l[K.I_FR]] += 1
+            if l[K.I_ETAT] in ('officiel', 'relu'):
+                sures[l[K.I_EN]][l[K.I_FR]] += 1
+
+    def accents(f):
+        return sum(1 for c in f if c in 'ÉÈÊÂÀÎÔÛéèêâàîôûç')
+
+    def capitales(f):          # capitales après la première lettre (« Flammes de Focalisation ») : à éviter
+        return sum(1 for c in f[1:] if c.isupper())
+
+    canon = {}
+    for en, c in noms.items():
+        if sures.get(en):
+            canon[en] = min(sures[en].items(), key=lambda x: (-x[1], -accents(x[0]), x[0]))[0]
+    # un nom français ne doit pas désigner deux sorts anglais différents (« Wildfire » ne devient pas « Brasier »,
+    # le nom de « Blaze ») : sans forme officielle, on prend la meilleure forme qui n'est le nom d'aucun autre sort
+    pris = defaultdict(set)
+    for en, c in noms.items():
+        for f in c:
+            pris[_plat(f)].add(en)
+    for en, c in noms.items():
+        if en in canon:
+            continue
+        groupes = defaultdict(Counter)
+        for f, k in c.items():
+            groupes[_plat(f)][f] += k
+        for g in sorted(groupes.values(), key=lambda x: (-sum(x.values()), min(x))):
+            if pris[_plat(next(iter(g)))] - {en}:
+                continue
+            canon[en] = min(g.items(), key=lambda x: (-accents(x[0]), capitales(x[0]), -x[1], x[0]))[0]
+            break
+    n = Counter()
+    for l in self.lignes.values():
+        if l[K.I_ETAT] != 'machine' or not l[K.I_FR]:
+            continue
+        if l[K.I_TYPE] == 'sort' and l[K.I_CHAMP] == 'Name':
+            cn = canon.get(l[K.I_EN])
+            if cn and cn != l[K.I_FR] and not self.controle(l[K.I_EN], cn, 'machine', l[K.I_TYPE]):
+                l[K.I_NOTE] = joindre(l[K.I_NOTE], 'nom harmonisé (0.9.5, même nom anglais) : ancien « %s »' % l[K.I_FR])
+                l[K.I_FR] = cn
+                n['nom'] += 1
+            continue
+        if not (l[K.I_TYPE] == 'sort' and l[K.I_CHAMP] in ('Description', 'ToolTip')
+                or l[K.I_TYPE] == 'coa_description_sort_client') or '|c' not in l[K.I_EN]:
+            continue
+        se, sf = RE_COULEUR.findall(l[K.I_EN]), list(RE_COULEUR.finditer(l[K.I_FR]))
+        if len(se) != len(sf):
+            continue
+        fr, decal = l[K.I_FR], 0
+        for (_, te), m in zip(se, sf):
+            cn, tf = canon.get(te), m.group(2)
+            if not cn or tf == cn or not tf[:1].isupper() or not cn[:1].isupper():
+                continue
+            d, f = m.start(2) + decal, m.end(2) + decal
+            fr = fr[:d] + cn + fr[f:]
+            decal += len(cn) - len(tf)
+        if fr != l[K.I_FR] and not self.controle(l[K.I_EN], fr, 'machine', l[K.I_TYPE]):
+            l[K.I_FR] = fr
+            l[K.I_NOTE] = joindre(l[K.I_NOTE], 'noms de sorts cités harmonisés (0.9.5)')
+            n['citation'] += 1
+    self.cr.update({'harmoniser_noms_sorts:' + a: b for a, b in n.items()})
+    K.journal('import : noms de sorts harmonisés : %d noms, %d textes qui les citent' % (n['nom'], n['citation']))
+
+
+Importeur.harmoniser_noms_sorts = _harmoniser_noms_sorts
+
 RE_EXT = re.compile(r'(@ext:)(\s*)(.*?)(\s*)(:ext@)', re.S)
 
 
@@ -2118,6 +2312,9 @@ def main():
     imp.prems_niveau()                # 0.9.4 : décision 24 (modèle de niveau)
     imp.harmoniser_statique()         # 0.9.4
     imp.textes_ext()                  # 0.9.5
+    imp.majuscules_accentuees()       # 0.9.5 (version publique)
+    imp.harmoniser_specialisations()  # 0.9.5 (version publique)
+    imp.harmoniser_noms_sorts()       # 0.9.5 (version publique)
     imp.bouche_trous_sorts()          # 0.9.5
     tailles = imp.ecrire(ecrire)
     imp.resume(tailles)

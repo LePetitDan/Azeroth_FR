@@ -1,6 +1,6 @@
 type	id	sous_id	champ	en_empreinte	fr	note
 sort	75		Description	196ae57d43e5	$?s552011[Tire automatiquement sur la cible jusqu'à annulation. Augmente votre vitesse d'attaque à distance de 15%.][Tire automatiquement sur la cible jusqu'à annulation. Augmente votre vitesse d'attaque à distance de $34082s2% et évolue avec la puissance d'attaque à distance.]	lot sorts_classes_001
-sort	674		ToolTip	de960f6ed345	Permet d'équiper les armes à une main dans la main gauche.	lot sorts_classes_001
+sort	674		ToolTip	de960f6ed345	Permet d'équiper les armes à une main et les armes de main gauche dans la main gauche.	lot sorts_classes_001 | relu par l'API (relecture 0.9.5) : Oubli : l'anglais cite les armes à une main ET les armes de main gauche.
 sort	5019		Name	2af4fc97b86a	Baguette	lot sorts_classes_001
 sort	13526		ToolTip	12e0ec21bb02	Dégâts de Nature périodiques ; vous permet d'ignorer $s2% de l'armure des cibles.	lot sorts_classes_001
 sort	20574		Description	56fd42c572ac	Expertise avec les armes de pugilat, les haches et les haches à deux mains augmentée de $s1.	lot sorts_classes_001

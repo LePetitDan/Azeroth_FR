@@ -1,0 +1,227 @@
+# Fiche de test : Cultiste
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Corruption
+
+- [ ] **Murmures corrupteurs** (Spécialisation) — capacité, sort n° 92130
+- [ ] **Regard de C'Thun** (Rang 1) — capacité, sort n° 500110 🔀 talents
+- [ ] **Décomposition abyssale** (Rang 1) — capacité, sort n° 500705
+- [ ] **Tentacule surnaturel** — capacité, sort n° 500707
+- [ ] **Invocation : serviteur sans visage** — capacité, sort n° 500709
+- [ ] **Malédiction ancestrale** — capacité, sort n° 500712
+- [ ] **Aperçu de la folie** (Rang 1) — capacité, sort n° 500719
+- [ ] **Lame de C'Thun** (Passif) — capacité, sort n° 500722
+- [ ] **Courroux de l'Empire noir** (Rang 1) — capacité, sort n° 500724
+- [ ] **Vision de malheur** — capacité, sort n° 500732
+- [ ] **Cauchemar récurrent** — capacité, sort n° 704302
+- [ ] **Cauchemar récurrent caché** (Obsolète) — capacité, sort n° 704303
+- [ ] **Vide implacable** (Passif) — capacité, sort n° 704527
+- [ ] **Éclipse lunaire** (SLS) — capacité, sort n° 800411
+- [ ] **Courroux de l'Empire noir** (Rang 1) — capacité, sort n° 800413
+- [ ] **Éclair d'effroi** (Rang 1) — capacité, sort n° 800416
+- [ ] **Singularité entropique** — capacité, sort n° 800430
+- [ ] **Suppression psychique** — capacité, sort n° 800432
+- [ ] **Flétrissure ténébreuse** (Rang 1) — capacité, sort n° 800446 🔀 talents
+- [ ] **Sangsue psychique** (Rang 1) — capacité, sort n° 800452
+- [ ] **Tentacule de C'Thun** — capacité, sort n° 801153 🔍 MAJ
+- [ ] **Restaurer la santé mentale** — capacité, sort n° 801157
+- [ ] **Regard du corrupteur** (Passif) — capacité, sort n° 802048
+- [ ] **Œil surnaturel** — capacité, sort n° 802049
+- [ ] **Marché surnaturel** — capacité, sort n° 804332 🔍 MAJ
+- [ ] **Armure enchantée par le Vide** (Passif) — capacité, sort n° 804633
+- [ ] **Corruption - Passif de niveau 15** (Spécialisation) — capacité, sort n° 805119
+- [ ] **Rayon d'oblitération** (Rang 1) — capacité, sort n° 805572
+- [ ] **Souillure** — capacité, sort n° 806276
+- [ ] **Serviteur de C'Thun** (Passif) — talent, sort n° 300296
+- [ ] **Misère** (Passif) — talent, sort n° 300298
+- [ ] **Tentaculaire** (Passif) — talent, sort n° 300299
+- [ ] **Dégénérescence mentale** (Passif) — talent, sort n° 300300
+- [ ] **Affliction née du Vide** — talent, sort n° 300301
+- [ ] **Ténèbres voraces** (Rang 1) — talent, sort n° 300302
+- [ ] **Terreur** (Passif) — talent, sort n° 300304
+- [ ] **Occultisme** (Passif) — talent, sort n° 300305
+- [ ] **Appel de N'Zoth** (Passif) — talent, sort n° 300306
+- [ ] **Embrasser le Vide** (Passif) — talent, sort n° 300307
+- [ ] **Destruction abyssale** (Passif) — talent, sort n° 300308
+- [ ] **Horreur absolue** (Passif) — talent, sort n° 300309
+- [ ] **Déflagrations rapides** (Rang 2) — talent, sort n° 300310
+- [ ] **Vitesse psychique** — talent, sort n° 300311
+- [ ] **Éternellement vide** (Passif) — talent, sort n° 300312
+- [ ] **Sombre révélation** (Spécialisation) — talent, sort n° 300313
+- [ ] **Regard du corrupteur** (Rang 2) — talent, sort n° 300754
+- [ ] **Aberration** (Passif) — talent, sort n° 704883
+- [ ] **Sombre révélation** (Passif) — talent, sort n° 706245
+- [ ] **Sombre révélation** (Rang 2) — talent, sort n° 706246
+
+## Lame divine
+
+- [ ] **Oblitération** (Spécialisation) — capacité, sort n° 92129
+- [ ] **Étreinte de l'Empire** — capacité, sort n° 500704
+- [ ] **Lame de l'Empire** (Rang 1) — capacité, sort n° 500720 🔀 talents
+- [ ] **Infusion ténébreuse** (Rang 1) — capacité, sort n° 500721
+- [ ] **Présence terrifiante** — capacité, sort n° 500723
+- [ ] **Saccageur du Vide** (Passif) — capacité, sort n° 800463
+- [ ] **Épreuve d'orgueil** — capacité, sort n° 800468
+- [ ] **Voile d'émeraude** (Rang 6) — capacité, sort n° 801152
+- [ ] **Limon cosmique** — capacité, sort n° 801629
+- [ ] **Pacte de sang** (SLS) — capacité, sort n° 801964 🔀 talents
+- [ ] **Bénédiction d'Y'Shaarj** (Spécialisation) — capacité, sort n° 801968
+- [ ] **Tentacule de Yogg-Saron** — capacité, sort n° 802042 🔍 MAJ
+- [ ] **Représailles entropiques** (Passif) — capacité, sort n° 802043
+- [ ] **Tentacule d'Y'Shaarj** — capacité, sort n° 802044 🔍 MAJ
+- [ ] **Guerrier des dieux très anciens** (Passif) — capacité, sort n° 802047
+- [ ] **Heurt entropique** (Rang 1) — capacité, sort n° 804152
+- [ ] **Lancer de bouclier crépusculaire** (Rang 2) — capacité, sort n° 804208
+- [ ] **Force du Sha** (Spécialisation) — capacité, sort n° 804286
+- [ ] **Prière noire** (Passif) — capacité, sort n° 805110
+- [ ] **Frappe entropique** — capacité, sort n° 805111 🔀 talents
+- [ ] **Vide bouillonnant** — capacité, sort n° 805113
+- [ ] **Cauchemar de masse** — capacité, sort n° 805114
+- [ ] **Fin des temps** — capacité, sort n° 805115
+- [ ] **Marteau du crépuscule** (Rang 1) — capacité, sort n° 805116 🔀 talents
+- [ ] **Cinglé** (Passif) — capacité, sort n° 805117
+- [ ] **Force du Vide** (Spécialisation) — capacité, sort n° 805121
+- [ ] **Serment : Condamnation** (SLS Unused) — capacité, sort n° 805125
+- [ ] **Voile d'orgueil** (Passif) — capacité, sort n° 805126
+- [ ] **Serment : Rétribution** (SLS) — capacité, sort n° 805145
+- [ ] **Chute d'effroi** — capacité, sort n° 806175
+- [ ] **Frappe du Néant** (Rang 1) — capacité, sort n° 806222
+- [ ] **Faiseur de misères** (Passif) — capacité, sort n° 806248
+- [ ] **Faille** — capacité, sort n° 806250
+- [ ] **Lame de Y'shaarj** (Passif) — capacité, sort n° 806252
+- [ ] **Lame de N'zoth** (Passif) — capacité, sort n° 806253
+- [ ] **Garde du Vide** (Passif) — talent, sort n° 300266
+- [ ] **Rage de N'Zoth** (Passif) — talent, sort n° 300267
+- [ ] **Combattant adaptable** (Rang 1) — talent, sort n° 300268
+- [ ] **Suppression** (Passif) — talent, sort n° 300269
+- [ ] **Fuite mentale** (Passif) — talent, sort n° 300270
+- [ ] **Omniprésence** (Passif) — talent, sort n° 300272
+- [ ] **Élan hystérique** (Passif) — talent, sort n° 300275
+- [ ] **Regard du Néant** (Spécialisation) — talent, sort n° 300276
+- [ ] **Rempart d'horreur** (Passif) — talent, sort n° 300278
+- [ ] **Présence envahissante** (Passif) — talent, sort n° 300280
+- [ ] **Allonge des Dieux très anciens** — talent, sort n° 300281
+- [ ] **Bénédiction de l'Empire** (Passif) — talent, sort n° 704867
+- [ ] **Guerrier ombral** (Passif) — talent, sort n° 704868
+- [ ] **Main de N'Zoth** (Passif) — talent, sort n° 704869
+- [ ] **Horreur cosmique** — talent, sort n° 704870
+- [ ] **Tranchant forgé par le Vide** (Rang 1) — talent, sort n° 704871
+- [ ] **Marcheur des abysses** — talent, sort n° 704898
+- [ ] **Atours touchés par le Vide** (Passif) — talent, sort n° 704899
+- [ ] **Né du Néant** (Passif) — talent, sort n° 801539
+
+## Influence
+
+- [ ] **Haches à deux mains** — capacité, sort n° 197
+- [ ] **Armes d'hast** — capacité, sort n° 200
+- [ ] **Bâtons** — capacité, sort n° 227
+- [ ] **Armure en plaques** — capacité, sort n° 750
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Mailles** — capacité, sort n° 8737
+- [ ] **Bouclier** — capacité, sort n° 9116
+- [ ] **Héraut des profondeurs** (Spécialisation) — capacité, sort n° 92131
+- [ ] **Châtiment surnaturel** (Passif) — capacité, sort n° 500111 🔀 talents
+- [ ] **Lame de Yogg-Saron** (Passif) — capacité, sort n° 500112
+- [ ] **Soins surnaturels** (Rang 1) — capacité, sort n° 500711
+- [ ] **Malveillance** (Rang 1) — capacité, sort n° 500714
+- [ ] **Bouclier de vide** (Rang 1) — capacité, sort n° 500715
+- [ ] **Orbe abyssal** (OBSOLÈTE) — capacité, sort n° 500716
+- [ ] **Insuffler le désespoir** (Rang 1) — capacité, sort n° 500718
+- [ ] **Dévoration d'essence** — capacité, sort n° 704425
+- [ ] **Protection persistante** — capacité, sort n° 704433
+- [ ] **Protection contre la Lumière** (Passif) — capacité, sort n° 704434
+- [ ] **Prophète du malheur** — capacité, sort n° 704472
+- [ ] **Héraut de l'Empire noir** — capacité, sort n° 704477
+- [ ] **Rituel interdit** (Rang 1) — capacité, sort n° 800105
+- [ ] **Bénédiction du Vide** (Rang 1) — capacité, sort n° 800194
+- [ ] **Asservir** — capacité, sort n° 800354
+- [ ] **Étreinte du Vide** (Rang 1) — capacité, sort n° 800367
+- [ ] **Isoler** — capacité, sort n° 800368
+- [ ] **Dévoration de malédiction** — capacité, sort n° 800402
+- [ ] **Éclipse lunaire** (SLS) — capacité, sort n° 800429
+- [ ] **Rituel d'éveil** (Rang 1) — capacité, sort n° 801791
+- [ ] **Protection abyssale** — capacité, sort n° 801967
+- [ ] **Présence de Y'Shaarj** — capacité, sort n° 803035 🔍 MAJ
+- [ ] **Présence de N'Zoth** — capacité, sort n° 803037 🔍 MAJ
+- [ ] **Invocation : Contrôleur mental** — capacité, sort n° 803062
+- [ ] **Présence de Yogg-Saron** — capacité, sort n° 803082 🔍 MAJ
+- [ ] **Dissonance écrasante** — capacité, sort n° 804056
+- [ ] **Protection contre la Lumière** (Rang 1) — capacité, sort n° 804065
+- [ ] **Effet de la Lame de N'Zoth** (Passif) — capacité, sort n° 804268
+- [ ] **Rassasier** — capacité, sort n° 804275 🔀 talents
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Garde abyssale** — capacité, sort n° 804670
+- [ ] **Rituel surnaturel** — capacité, sort n° 804777
+- [ ] **Héraut des profondeurs** (Passif de spécialisation) — capacité, sort n° 805120
+- [ ] **Hôte entropique** — capacité, sort n° 805133
+- [ ] **Serment : Fendoir sacré** (SLS) — capacité, sort n° 805136
+- [ ] **Oblitération** (Passif de spécialisation) — capacité, sort n° 805605
+- [ ] **Murmures corrupteurs** (Passif de spécialisation) — capacité, sort n° 805606
+- [ ] **Entraînement à l'Ombre** (Spécialisation) — capacité, sort n° 805607
+- [ ] **Passif du cultiste - Châtiment de N'Zoth** (Caché) — capacité, sort n° 806255
+- [ ] **Puissance de Yogg-Saron** (Spécialisation) — capacité, sort n° 806264
+- [ ] **Esprit de saronite** (Rang 1) — capacité, sort n° 806266
+- [ ] **Matière noire** (Passif) — capacité, sort n° 806382
+- [ ] **Visions de l'Empire** (Passif) — capacité, sort n° 806384
+- [ ] **Compulsion prophétique** (Passif) — talent, sort n° 300264
+- [ ] **Dévoreur** (Passif) — talent, sort n° 300265
+- [ ] **Allonge des Dieux très anciens** (Passif) — talent, sort n° 300282
+- [ ] **Célérité sombre** (Rang 1) — talent, sort n° 300283
+- [ ] **Réservoir ténébreux** (Passif) — talent, sort n° 300284
+- [ ] **Touché par le Vide** (Spécialisation) — talent, sort n° 300286
+- [ ] **Résilience interdite** (Passif) — talent, sort n° 300287
+- [ ] **Isolement renforcé** — talent, sort n° 300288
+- [ ] **Rites ténébreux** (Passif) — talent, sort n° 300290
+- [ ] **Barrière de Vide** (Passif) — talent, sort n° 300291
+- [ ] **Rituels du culte** (Obsolète) — talent, sort n° 300292
+- [ ] **Havre abyssal** — talent, sort n° 300293
+- [ ] **Bonne aventure** (Passif) — talent, sort n° 300294
+- [ ] **Passif du Pacte abyssal** (Passif) — talent, sort n° 300295
+- [ ] **Toucher du Vide** (Rang 2) — talent, sort n° 300752
+- [ ] **Lame des profondeurs** (Passif) — talent, sort n° 300753
+- [ ] **Mener le pacte** (Passif) — talent, sort n° 704884
+- [ ] **Protection ténébreuse** (Passif) — talent, sort n° 704897
+
+## Classe
+
+- [ ] **Embrasser le Vide** (Passif) — capacité, sort n° 704873
+- [ ] **Esprit brisé** (Passif) — capacité, sort n° 704874
+- [ ] **Masse grouillante** (Passif) — capacité, sort n° 704877
+- [ ] **Auspice funeste** (Passif) — capacité, sort n° 704880 🔀 talents
+- [ ] **Perdu dans le Vide** (Passif) — capacité, sort n° 704881
+- [ ] **Désarroi** (Passif) — capacité, sort n° 704885
+- [ ] **Codex rituel** — capacité, sort n° 704886
+- [ ] **Commandant de l'Empire** (Rang 1) — capacité, sort n° 704887
+- [ ] **Brise-lumière** — capacité, sort n° 704888
+- [ ] **Gardien du crépuscule** (Passif) — capacité, sort n° 704889
+- [ ] **Initié du crépuscule** (Rang 1) — capacité, sort n° 704890
+- [ ] **Hérésie** — capacité, sort n° 704891
+- [ ] **Volée de traits d'horreur** (Passif) — capacité, sort n° 704892
+- [ ] **Moment de lucidité** (Rang 1) — capacité, sort n° 706179
+- [ ] **Ténèbres intérieures** (Spécialisation) — capacité, sort n° 706182
+- [ ] **Santé mentale tordue** (Passif) — capacité, sort n° 706187
+- [ ] **Yeux de l'éternité** (Passif) — capacité, sort n° 706188
+- [ ] **Don de C'Thun** (Rang 1) — capacité, sort n° 706189
+- [ ] **Pensées perverses** (Passif) — capacité, sort n° 706190
+- [ ] **Étreinte éternelle** (Rang 1) — capacité de talent, sort n° 704878
+- [ ] **Étreinte éternelle** (Rang 2) — capacité de talent, sort n° 704879
+- [ ] **Héraut des Dieux très anciens** (Rang 1) — capacité de talent, sort n° 704893
+- [ ] **Héraut des Dieux très anciens** (Rang 2) — capacité de talent, sort n° 704894
+- [ ] **Bénédiction de l'Empire** (Passif) — capacité de talent, sort n° 704895
+- [ ] **Barrière impénétrable** (OBSOLÈTE) — capacité de talent, sort n° 704896
+- [ ] **Sermon d'effroi amélioré** (Passif) — capacité de talent, sort n° 706177
+- [ ] **Expansion mentale** (Déclenchement) — capacité de talent, sort n° 706178
+- [ ] **Garde sombre** (Rang 1) — capacité de talent, sort n° 706180
+- [ ] **Garde sombre** (Rang 2) — capacité de talent, sort n° 706181
+- [ ] **Chevalier voilé** (Passif) — capacité de talent, sort n° 706183
+- [ ] **Chevalier voilé** (proc) — capacité de talent, sort n° 706184
+- [ ] **Vivacité surnaturelle** (Passif) — capacité de talent, sort n° 706185
+- [ ] **Vivacité surnaturelle** (Rang 2) — capacité de talent, sort n° 706186
+- [ ] **Courroucé** (Passif) — capacité de talent, sort n° 706191
+- [ ] **Impact courroucé** (Rang 2) — capacité de talent, sort n° 706192
+- [ ] **Isolement perpétuel** (Passif) — capacité de talent, sort n° 706193
+- [ ] **Cauchemar perpétuel** (Déclenchement) — capacité de talent, sort n° 706194

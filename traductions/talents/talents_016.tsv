@@ -196,7 +196,7 @@ sort	704166		Description	a9b1ae1c827f	Augmente de $s1% supplémentaires votre En
 sort	704166		Name	be320b06f43b	Vitalité	lot talents_016
 sort	704175		Description	30a7f946eb7d	Augmente de $s1% le bonus aux chances de coup critique conféré par |cFFFFFFFFCondamnation|r et permet à ses dégâts périodiques d'être critiques.	lot talents_016
 sort	704175		Name	f4ade1f95ca2	Réprobation	lot talents_016
-sort	704175		ToolTip	4ae63a09867a	Après avoir utilisé une |cffffffffManœuvre de combat|r, votre prochaine |cffffffffManœuvre de combat|r utilisée dans les $704176d inflige un coup critique.	lot talents_016
+sort	704175		ToolTip	4ae63a09867a	Après avoir utilisé une |cffffffffManœuvre de combat|r, votre prochaine |cffffffffManœuvre de combat|r utilisée dans les $704176d sera un coup critique.	lot talents_016 | relu par l'API (relecture 0.9.5) : Tournure plus juste pour une manœuvre ; nom de sort conservé.
 sort	704180		Description	07440a692be4	Réduit de $s1 le coût en énergie de vos |cffffffffBrise-serments|r.	lot talents_016
 sort	704180		Name	aeaed55cd0c9	Frappes bénies	lot talents_016
 sort	704182		Description	4e29e9954505	Augmente de $s1% l'efficacité de vos |cffffffffPestilences|r.	lot talents_016
@@ -207,8 +207,8 @@ sort	704185		Name	09e059c57bd2	Gardien des chaînes	lot talents_016
 sort	704185		ToolTip	c691fa0d5514	Réduit de ${$w1}% le temps de recharge de |cffffffffCrochet de chair|r et lui permet d'attirer jusqu'à ${$w2} ennemis.	lot talents_016
 sort	704186		Description	b615df0190db	Augmente de 10% les dégâts de l'arme infligés par $?s800710[|cffffffffGourdin de soufre|r][|cffffffffSectionner|r], plus $707630s1% par charge de |cffff9933Feu démoniaque|r active.	lot talents_016
 sort	704186		Name	6a443080d250	Main funeste	lot talents_016
-sort	704193		Description	ea2356ace0c1	|cFF66DDFFPassif de niveau 50|r\r\nUne incantation sur 6 de |cffffffffFaucher|r transforme votre prochain |cffffffffFaucher|r en |cffffffffDécimer|r pendant 15 sec.@s:500523:0@	lot talents_016
-sort	704193		ToolTip	74e8d9cd2fcc	Un |cffffffffFaucher|r sur 6 transforme votre prochaine |cffffffffFrappe de l'âme|r en |cffffffffDécimer|r pendant 15 sec.@s:500523:0@	lot talents_016
+sort	704193		Description	ea2356ace0c1	|cFF66DDFFPassif de niveau 50|r\r\nUne incantation sur 6 de |cffffffffFauchage|r transforme votre prochain |cffffffffFauchage|r en |cffffffffDécimation|r pendant 15 sec.@s:500523:0@	lot talents_016 | relu par l'API (relecture 0.9.5) : Nom du sort cité : « Décimation » (nom français fourni), et non « Décimer ».
+sort	704193		ToolTip	74e8d9cd2fcc	Un |cffffffffFauchage|r sur 6 transforme votre prochaine |cffffffffFrappe de l'âme|r en |cffffffffDécimation|r pendant 15 sec.@s:500523:0@	lot talents_016 | relu par l'API (relecture 0.9.5) : Nom du sort cité : « Décimation » (nom français fourni), et non « Décimer ».
 sort	704209		Description	ab811a292d8e	Vos dégâts infligés augmentent désormais de $584237s1% la hâte de votre |cffffffffÉlémentaire d'air|r pendant $584237d. Cumulable $584237u fois.\r\n\r\nLes dégâts infligés par votre |cffffffffÉlémentaire d'air|r augmentent désormais votre hâte de $584237s1% pendant $584237d. Cumulable $584237u fois.	lot talents_016
 sort	704209		Name	034bbcedd33a	Vents réconfortants	lot talents_016
 sort	704211		Description	af8bb304c531	Augmente de $s1% les chances de coup critique de |cffffffffTrombe|r.	lot talents_016
@@ -251,7 +251,7 @@ sort	704357		Name	b654070c1061	Forme macabre	lot talents_016
 sort	704357		ToolTip	84f66864c604	Après avoir utilisé Foulée spectrale, vous gagnez un bouclier qui absorbe $704358s1 points de dégâts et dure $704358d.	lot talents_016
 sort	704360		Description	7e256eb0ccbb	Votre $?s520853[|cffffffffGangretorpille|r][|cFFFFFFFFRuée chaotique|r] réduit désormais tous les dégâts subis de $524633s1% pendant $524633d. Cumulable $524633u fois.	lot talents_016
 sort	704361		Description	a94a9a95e132	Augmente de $s1% les dégâts de votre arme de main gauche et réduit de $s2 le coût en énergie de |cffffffffDouble entaille|r.	lot talents_016
-sort	704361		Name	f3acb78e129e	Débiter	lot talents_016
+sort	704361		Name	f3acb78e129e	Hachoir	lot talents_016 | relu par l'API (relecture 0.9.5) : « Slice & Dice » est un sort officiel de Blizzard : son nom français est « Débiter » ; vérifier, mais ici « Débiter » est bien le nom officiel du voleur. Conservé.
 sort	704368		Description	ed8e659c9a7d	|cff32cd32Génère 1 point de Gangrefurie|r\r\nDéchaîne la gangremagie sur un ennemi, ce qui lui inflige $o1 points de dégâts de Chaos en $d.\r\n\r\n|cff32cd32Démon intérieur|r : l'ennemi subit ${$802676m1*$<scalingbp>+$SP*0.48} points de dégâts de Chaos supplémentaires toutes les $t2 sec.\r\n\r\nUne cible ne peut être affectée que par 1 |cffffffffFléau|r à la fois.\r\n\r\n@ext:Periodic damage dealt by this effect can critically strike.:ext@	lot talents_016
 sort	704368		Name	bc31cfd35d69	Fléau du chaos	lot talents_016
 sort	704368		ToolTip	dceb192f2ca6	${$w1} points de dégâts d'Ombreflamme infligés toutes les $t1 sec.	lot talents_016
@@ -267,7 +267,7 @@ sort	704402		ToolTip	b925b3db7969	Augmente de ${$w1} mètres la portée de |cfff
 sort	704413		Description	39c035915384	Augmente votre valeur de blocage de $s1% et votre expertise de $s2.	lot talents_016
 sort	704418		Description	8b584f919ce0	Frappe un ennemi et les ennemis alignés derrière lui, ce qui leur inflige ${$m1+0+$AP*1} points de dégâts physiques avec une menace élevée et les réduit au silence pendant $d.	lot talents_016
 sort	704418		Name	76a1785bdc72	Marteau de la loi	lot talents_016
-sort	704420		Description	7c8fd9491f23	Chante une belle chanson, ce qui réinitialise instantanément le temps de recharge d'|cffffffffAffranchissement|r, de |cffffffffMélodie déchirante|r et de |cffffffffMarche du héros|r.	lot talents_016
+sort	704420		Description	7c8fd9491f23	Chante une belle chanson, ce qui réinitialise instantanément le temps de recharge de |cffffffffLibération|r, de |cffffffffMélodie déchirante|r et de |cffffffffMarche du héros|r.	lot talents_016 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Liberation » doit être « Libération » (nom français fourni), et non « Affranchissement ».
 sort	704420		Name	e246da3cef75	Voix d'ange	lot talents_016
 sort	704421		Description	78ac5b4e2c01	Réduit de $s1% le coût en énergie de |cffffffffPulvérisation|r, |cffffffffBélier|r et |cffffffffLarge balayage|r.	lot talents_016
 sort	704421		Name	5d06fc08ee5e	Combattant aguerri	lot talents_016

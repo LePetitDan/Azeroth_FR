@@ -11,9 +11,9 @@ sort	705210		Description	900adffbf82a	Réduit le coût en Énergie de votre |cff
 sort	705210		Name	cfa3ddb953fd	Combat ancestral amélioré	lot sorts_classes_012
 sort	705215		Description	0a5c1352397d	Réduit le coût en Énergie de |cffffffffBond tonitruant|r de $s1 et son temps de recharge de $/1000;s2 sec.	lot sorts_classes_012
 sort	705215		Name	356c6e61a06e	Bond tonitruant amélioré	lot sorts_classes_012
-sort	705219		Description	fbfcfd0ffb02	Augmente les dégâts de |cFFFFFFFFFrappe ancestrale|r et de |cffffffffChoc|r de $s1%.	lot sorts_classes_012
+sort	705219		Description	fbfcfd0ffb02	Augmente les dégâts de |cFFFFFFFFFrappe ancestrale|r et de |cffffffffFracasser|r de $s1%.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni pour Smash est « Fracasser ».
 sort	705219		Name	525013a7ad0a	Homme du Nord	lot sorts_classes_012
-sort	705223		Description	358d1170b721	Les dégâts infligés par |cffffffffFrappe sauvage|r retirent 2 charges de |cffffffffFrénésie déchirante|r.	lot sorts_classes_012
+sort	705223		Description	358d1170b721	Les dégâts infligés par |cffffffffFrappe sauvage|r retirent 2 charges de |cffffffffFrénésie déchirante|r.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français déjà employé pour Ripping Frenzy est « Frénésie déchirante ».
 sort	705223		Name	887cba65d2a7	Sauvagerie	lot sorts_classes_012
 sort	705223		ToolTip	4c2569d74ce4	Les dégâts infligés par |cffffffffChoc sauvage|r retirent deux charges d'|cffffffffÉventreur|r.	lot sorts_classes_012
 sort	705226		Description	3145ca7da89d	Infliger des dégâts avec |cffffffffHache du berserker|r réduit désormais l'Armure de la cible de ${-($807179m1+$807179ppl1)} pendant $807179d.	lot sorts_classes_012
@@ -32,7 +32,7 @@ sort	705237		ToolTip	6862f325396d	Augmente de ${$w1}% la quantité de points de 
 sort	705241		Description	884ca582151a	Augmente les dégâts de |cffffffffLancer perçant|r, |cffffffffVolée de haches|r et |cffffffffHache du berserker|r de $s1% contre les ennemis qui saignent.	lot sorts_classes_012
 sort	705241		Name	07bb3139c896	Torture	lot sorts_classes_012
 sort	705241		ToolTip	5bca756d7aa7	Augmente les dégâts de |cffffffffLancer perçant|r, |cffffffffVolée de haches|r et |cffffffffHache du berserker|r de ${$w1}% contre les ennemis qui saignent.	lot sorts_classes_012
-sort	705243		Description	1064be90ec26	Augmente les dégâts de |cffffffffLancer l'arme|r de $705244s1% pendant $705244d chaque fois que vous gagnez |cffffffffRage débridée|r.	lot sorts_classes_012
+sort	705243		Description	1064be90ec26	Augmente les dégâts de |cffffffffLancer d'arme|r de $705244s1% pendant $705244d chaque fois que vous gagnez |cffffffffRage débridée|r.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Lancer d'arme ».
 sort	705243		Name	f4e30816e3c9	Fureur vaudou	lot sorts_classes_012
 sort	705243		ToolTip	165623892da9	Augmente les dégâts de |cffffffffLancer de hache|r de $705244s1% pendant $705244d chaque fois que vous gagnez |cffffffffRage sauvage|r.	lot sorts_classes_012
 sort	705245		Description	9397d4e682aa	|cffffffffRuée du berserker|r confère désormais |cffffffffFurie sanguinaire|r.@s:560521:0@	lot sorts_classes_012
@@ -51,7 +51,7 @@ sort	705249		Name	107dc4934497	Maître du Sacré	lot sorts_classes_012
 sort	705258		Description	bf0aa497ab8d	|cffffffffCoupe-vent|r réduit de $/1000;s1 sec le temps de recharge restant de |cffffffffMouvements agiles|r.	lot sorts_classes_012
 sort	705258		Name	e1a2a404dda1	Léger comme l'air	lot sorts_classes_012
 sort	705258		ToolTip	5bde575d7335	Fait en sorte que |cffffffffCoupe-vent|r réduise de $/1000;s1 sec le temps de recharge restant de |cffffffffMouvements agiles|r.	lot sorts_classes_012
-sort	705261		Description	a8fb66abb0ac	Les |cffffffffEnchaînements|r ont $s1% de chances de ne pas consommer |cffffffffEnchaînement|r.@s:704574:0@	lot sorts_classes_012
+sort	705261		Description	a8fb66abb0ac	Les |cffffffffSuites|r ont $s1% de chances de ne pas consommer |cffffffffSuite|r.@s:704574:0@	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Suite », pas « Enchaînement ».
 sort	705261		Name	4dbe114b2d84	Touché par la Lumière	lot sorts_classes_012
 sort	705261		ToolTip	2bbd1665b54d	Donne à |cffffffffManœuvres de combat|r ${$w1}% de chances de ne pas consommer |cffffffffEnchaînement|r.	lot sorts_classes_012
 sort	705277		Description	bf0ca616bbce	Augmente vos chances de coup critique de $s1%.	lot sorts_classes_012
@@ -61,7 +61,7 @@ sort	705282		Name	21075bcd3d13	Dévot	lot sorts_classes_012
 sort	705288		Description	8bea344adc82	Augmente de $s1% l'efficacité de |cffffffffAbdication mortelle|r et de |cffffffffMortal Abdicationous Demeanor|r.	lot sorts_classes_012
 sort	705288		Name	099c7f4218c7	Abdication mortelle améliorée	lot sorts_classes_012
 sort	705288		ToolTip	9905833f3aa0	Augmente de ${$w1}% l'efficacité de |cffffffffAbdication mortelle|r.	lot sorts_classes_012
-sort	705289		Description	b045c2aa2f5c	Esquiver une attaque vous confère |cffffffffEnchaînement|r. Cet effet ne peut se produire plus d'une fois toutes les 8 sec.@s:704574:0@	lot sorts_classes_012
+sort	705289		Description	b045c2aa2f5c	Esquiver une attaque vous confère |cffffffffSuite|r. Cet effet ne peut se produire plus d'une fois toutes les 8 sec.@s:704574:0@	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français déjà choisi pour Follow Up est « Suite ».
 sort	705289		Name	34cc5cc3d2ab	Danseur du vent	lot sorts_classes_012
 sort	705289		ToolTip	c46e02a46c1e	Fait en sorte que les esquives confèrent |cffffffffEnchaînement|r. Cet effet ne peut se produire plus d'une fois toutes les 8 sec.@s:704574@	lot sorts_classes_012
 sort	705292		Description	0e81ae695f3e	Donne aux effets de dégâts physiques $h% de chances de déclencher |cffffffffLame frénétique|r.@s:806515:0@	lot sorts_classes_012
@@ -95,7 +95,7 @@ sort	705337		Description	6423cfd06b52	Augmente les dégâts d'|cffffffffArcing S
 sort	705337		Name	dabd90aa4ac4	Stratège de combat	lot sorts_classes_012
 sort	705337		ToolTip	e1a507441553	Augmente les dégâts d'|cffffffffArcing Strike|r de ${$w1}% et réduit de ${$w2} le coût en Énergie de |cffffffffCoupure de tendon|r.	lot sorts_classes_012
 sort	705348		Description	d9d6431243bc	Augmente la valeur de blocage de $s1%.	lot sorts_classes_012
-sort	705348		Name	51925173fbec	Égide	lot sorts_classes_012
+sort	705348		Name	51925173fbec	Égide	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Majuscule accentuée requise : « Égide ».
 sort	705349		Description	6df65c708809	Réduit de $s1% les temps de recharge de |cffffffffCharge tonitruante|r, |cffffffffChute des titans|r, |cffffffffÉtendard de vaillance|r et |cffffffffCharge de cavalerie|r	lot sorts_classes_012
 sort	705349		Name	110ae420db1d	Manœuvres de champ de bataille	lot sorts_classes_012
 sort	705349		ToolTip	d4bf690effc2	Réduit de ${$w1}% les temps de recharge de |cffffffffCharge tonitruante|r, |cffffffffChute des titans|r, |cffffffffÉtendard de vaillance|r et |cffffffffCharge de cavalerie|r	lot sorts_classes_012
@@ -105,10 +105,10 @@ sort	705357		ToolTip	973711d9f87c	Augmente de ${$w1}% les chances de coup critiq
 sort	705362		Description	9b258125f7a3	Lancer |cFFFFFFFFChant d'acier|r réduit désormais de $561114s2% les dégâts que vous subissez, augmente de $561114s1% les dégâts que vous infligez et permet à vos alliés de se soigner de $560516s1% des dégâts qu'ils infligent pendant $560516d.	lot sorts_classes_012
 sort	705362		Name	4059da6d39f3	Tenez-vous droit, marchez fort	lot sorts_classes_012
 sort	705365		Description	c86accd825b1	Subir des dégâts qui font tomber vos points de vie sous 35% vous rend désormais 10% de vos points de vie maximum et réduit de $705366s2% tous les dégâts subis pendant $705366d.\r\n\r\nNe peut se produire qu'une fois toutes les 3 min.	lot sorts_classes_012
-sort	705365		Name	694c2fef9825	Cœur de lion	lot sorts_classes_012
+sort	705365		Name	694c2fef9825	Cœur de lion	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Ligature œ : « Cœur » s'écrit avec œ, pas « Coeur ».
 sort	705372		Description	a9be98754e06	Chaque effet de |cff66ccffMotivation|r actif sur vous augmente désormais de $s1% les dégâts infligés par |cFFFFFFFFMarteau des rois|r.	lot sorts_classes_012
 sort	705372		Name	d531ae04b561	Vertu	lot sorts_classes_012
-sort	705373		Description	0186a649a0d5	Tous les 3 |cffffffffLarges balayages|r lancés transforment |cffffffffPulvérisation|r en |cffffffffLancer de bouclier|r pendant $500745d.@s:500461:0@	lot sorts_classes_012
+sort	705373		Description	0186a649a0d5	Chaque 3e |cffffffffLarge balayage|r que vous lancez transforme |cffffffffPulvérisation|r en |cffffffffLancer de bouclier|r pendant $500745d.@s:500461:0@	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : « Tous les 3 » est incorrect et ambigu ; l'anglais dit « Every 3rd ... you cast ».
 sort	705373		Name	8972c435d75f	Lanceur de bouclier	lot sorts_classes_012
 sort	705398		Description	98698e2cc25a	|cffffffffLame spectrale|r bannit désormais vous et votre cible dans les Shadowlands pendant $800467d, vous isolant d'eux.\r\n\r\nNe fonctionne que sur les joueurs.	lot sorts_classes_012
 sort	705398		Name	2f7dc3dfeab9	Royaume des ténèbres	lot sorts_classes_012
@@ -154,13 +154,13 @@ sort	705447		Name	21da00456007	Sadisme	lot sorts_classes_012
 sort	705447		ToolTip	66dae83bfe61	Augmente de ${$w1}% les dégâts des attaques qui consomment un pourcentage de vos points de vie maximum.	lot sorts_classes_012
 sort	705448		Description	1f82fd377fba	|cffffffffFaux hurlante|r réduit désormais la cible au silence pendant $802086d et inflige jusqu'à $802086s1% de dégâts d'arme supplémentaires selon le niveau de vos points de vie.\r\n\r\nSans effet sur les ennemis insensibles au silence.	lot sorts_classes_012
 sort	705448		Name	11dca917709b	Hurlement mental	lot sorts_classes_012
-sort	705448		ToolTip	649f1deab3f3	Fait en sorte que |cffffffffDéchirure d'âme|r réduise la cible au silence pendant $802086d et inflige des dégâts d'arme supplémentaires selon le niveau de vos points de vie.\n\nSans effet sur les ennemis insensibles au silence.	lot sorts_classes_012
+sort	705448		ToolTip	649f1deab3f3	Fait en sorte que |cffffffffFaux hurlante|r réduise la cible au silence pendant $802086d et inflige des dégâts d'arme supplémentaires selon le niveau de vos points de vie.\n\nSans effet sur les ennemis insensibles au silence.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : L'anglais cite Soulrend mais le sort 802086 est celui de Faux hurlante (cf. n°48) ; pourtant le nom cité fourni est Déchirure d'âme. Le nom doit suivre l'anglais et le nom fourni : à vérifier, je corr
 sort	705449		Description	95ed73d695fa	L'effet |cff5ee2ffInfusion d'âme|r de |cffffffffFaux hurlante|r rend $s2% de points de vie maximum supplémentaires et augmente de $803034s3% les dégâts de votre prochaine |cffffffffDéchirure d'âme|r contre la cible.	lot sorts_classes_012
 sort	705449		Name	278a62635ab2	Faux tortionnaire	lot sorts_classes_012
 sort	705449		ToolTip	36260a7597ec	Fait en sorte que l'effet Infusion d'âme de |cffffffffDéchirure d'âme|r rende ${$w2}% de points de vie maximum supplémentaires et augmente de $803034s3% les dégâts de votre prochaine |cffffffffDéchirure d'âme|r contre la cible.	lot sorts_classes_012
 sort	705452		Description	b91686b8cd79	Augmente de $s1 mètres la portée de |cffffffffDégaine éclair|r.	lot sorts_classes_012
 sort	705452		Name	51badbbda981	Long fusil	lot sorts_classes_012
-sort	705452		ToolTip	3eec82ae685a	Augmente de ${$w1} mètres la portée de |cffffffffQuickblast|r.	lot sorts_classes_012
+sort	705452		ToolTip	3eec82ae685a	Augmente de ${$w1} mètres la portée de |cffffffffDégaine éclair|r.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Quickblast est la forme infobulle de Quickdraw (même sort, nom différent dans l'anglais) ; pour rester cohérent avec la description (n 12), le nom cité est « Dégaine éclair ».
 sort	705457		Description	6f29b67c7430	|cFF66DDFFPassif de niveau 50|r\r\nAugmente de $s1% les chances de coup critique de |cFFFFFFFFExplose-sorcière|r et de |cFFFFFFFFNuée sombre|r pour chaque charge de |cffffffffPoudre explosive|r.	lot sorts_classes_012
 sort	705457		Name	96f5bc7cb049	Ténèbres - Passif de niveau 50	lot sorts_classes_012
 sort	705462		Description	9d271a8e5ce1	Les dégâts que vous infligez avec |cffffffffAngoisse|r et |cffffffffFestin de serres|r peuvent désormais être critiques.\r\n\r\nDe plus, les dégâts d'|cffffffffExplose-sorcière|r et de |cffffffffNuée sombre|r sont augmentés de $s1%.	lot sorts_classes_012
@@ -178,7 +178,7 @@ sort	705472		ToolTip	c55d98a1a660	Augmente les dégâts de |cffffffffDéflagrati
 sort	705476		Description	201a971e45c7	Réduit de $/1000;s1 sec le temps de recharge des |cffffffffToniques|r.	lot sorts_classes_012
 sort	705476		Name	4b73eae965e4	Ceinture de potions	lot sorts_classes_012
 sort	705476		ToolTip	201a971e45c7	Réduit de $/1000;s1 sec le temps de recharge des |cffffffffToniques|r.	lot sorts_classes_012
-sort	705479		Description	f24bd881a46f	Toutes les $/1000;t1 sec pendant lesquelles |cffff7a24Flammes du péché|r est actif, votre prochaine |cffffffffLame du crépuscule|r a $680227s1% de chances supplémentaires d'être critique.	lot sorts_classes_012
+sort	705479		Description	f24bd881a46f	Pour chaque $/1000;t1 sec pendant lesquelles |cffff7a24Flammes du péché|r est actif, votre prochaine |cffffffffLame du crépuscule|r a $680227s1% de chances supplémentaires d'infliger un coup critique.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : « Toutes les … sec pendant lesquelles » était un contresens : l'anglais dit « pour chaque ».
 sort	705479		Name	79119cb1bdfc	Crépuscule après l'aube	lot sorts_classes_012
 sort	705482		Description	ba263644320f	Augmente de $s1% l'efficacité des |cffffffffToniques|r.	lot sorts_classes_012
 sort	705482		Name	4ed59a5355d9	Toniques supérieurs	lot sorts_classes_012
@@ -189,7 +189,7 @@ sort	705483		ToolTip	6c4507a4a22a	Les dégâts infligés par |cffffffffLame de l
 sort	705486		Description	11c74af1753b	Infliger ou subir des dégâts dans |cffffffffPureté|r ou |cffffffffPerfidie|r augmente désormais de $801358s1% les dégâts de la prochaine attaque qui vous fait passer à l'autre, cumulable $801357u fois.	lot sorts_classes_012
 sort	705486		Name	42095d6dd147	Haine et vitriol	lot sorts_classes_012
 sort	705486		ToolTip	7e5e9ada377b	Infliger ou subir des dégâts dans |cffffffffPureté|r ou |cffffffffPerfidie|r augmente désormais de $801357s1% les dégâts de la prochaine attaque qui vous fait passer à l'autre, cumulable $801357u fois.	lot sorts_classes_012
-sort	705489		Description	0cb6b57d5906	Augmente de $s1% les chances que |cffffffffCotte de mailles de sorcière|r drains les points de vie des attaquants.	lot sorts_classes_012
+sort	705489		Description	0cb6b57d5906	Augmente de $s1% les chances que |cffffffffMailles de sorcière|r draine les points de vie des attaquants.	lot sorts_classes_012 | relu par l'API (relecture 0.9.5) : Faute de conjugaison : « drains » au lieu de « draine ».
 sort	705489		Name	4c81e77e17be	Armure gravée	lot sorts_classes_012
 sort	705489		ToolTip	f3f5b85faf20	Augmente de ${$w1}% les chances que |cffffffffCotte de mailles de sorcière|r draine les points de vie des attaquants.	lot sorts_classes_012
 sort	705492		Description	c32ef3a2b372	Les attaques et aptitudes à distance ont désormais $92091h% de chances de tirer un coup supplémentaire infligeant ${$RAP*0.2} points de dégâts physiques et générant $/10;504247s1 points de Rage.	lot sorts_classes_012

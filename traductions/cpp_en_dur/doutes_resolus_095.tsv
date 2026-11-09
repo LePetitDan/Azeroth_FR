@@ -1,0 +1,7 @@
+type	id	sous_id	champ	en_empreinte	fr	note
+cpp_en_dur	src/server/coa/AscensionBloodforging.cpp	189	AddGossipItemFor	eac1bdee9073	Forger par le sang 	doute résolu (0.9.5, audit des sorts)
+cpp_en_dur	src/server/coa/AscensionFelCommutation.cpp	845	SendSysMessage	051d10ce5ee7	La Commutation gangrenée n'a pas pu protéger vos objets : il en faut {} et vous en portez {}.	doute résolu (0.9.5, audit des sorts)
+cpp_en_dur	src/server/coa/AscensionFelCommutation.cpp	867	SendSysMessage	57a678fbc9bf	Vous avez perdu {}, mais certains de vos objets ont été mis à l'abri par la Commutation gangrenée : {}.	doute résolu (0.9.5, audit des sorts)
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	677	SendSysMessage	9836995ffcc3	La Tempête de mana n'a pas pu enregistrer toutes les récompenses du groupe. Celles qui ont été enregistrées restent dans le courrier ; revenez depuis votre point de contrôle sauvegardé.	doute résolu (0.9.5, audit des sorts)
+cpp_en_dur	src/server/coa/AscensionManastorm.cpp	1764	SendSysMessage	1d8bbc05062e	Tempête de mana terminée. Cogsley a votre courrier, vos provisions et la suite du chemin.	doute résolu (0.9.5, audit des sorts)
+cpp_en_dur	modules/mod-cfbg/src/cs_cfbg.cpp	144	SendSysMessage	f7ff3f818ec3	  Faction	doute résolu (0.9.5, audit des sorts)

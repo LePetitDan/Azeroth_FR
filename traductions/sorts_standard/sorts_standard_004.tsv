@@ -134,7 +134,7 @@ sort	10185		Description	f079f31c1915	Des éclats de givre s'abattent sur la zone
 sort	10186		Description	6e5996a05700	Des éclats de givre s'abattent sur la zone ciblée et infligent ${$42212m1*8*$<mult>} points de dégâts de Givre en $10d.	lot sorts_standard_004
 sort	10187		Description	1219ee659534	Des éclats de givre s'abattent sur la zone ciblée et infligent ${$42213m1*8*$<mult>} points de dégâts de Givre en $10d.	lot sorts_standard_004
 sort	10270		Description	eebe55405d91	Réduit de -70 la puissance d'attaque de tous les membres du groupe dans un rayon de $a1 mètres. Les personnages ne peuvent avoir qu'une seule Aura par paladin à la fois.	lot sorts_standard_004
-sort	10326		Description	8ed27e758243	L'ennemi mort-vivant ou démon ciblé est obligé de fuir pendant $d au maximum. \r\n\r\n@ext:Damage caused may interrupt the effect. Only one target can be turned at a time.:ext@	lot sorts_standard_004
+sort	10326		Description	8ed27e758243	L'ennemi mort-vivant ou démon ciblé est obligé de fuir pendant $d au maximum. \r\n\r\n@ext:Les dégâts subis peuvent interrompre l'effet. Une seule cible peut être mise en fuite à la fois.:ext@	lot sorts_standard_004 | relu par l'API (relecture 0.9.5) : « repoussée » est un contresens : la cible est mise en fuite, pas repoussée.
 sort	10344		Description	c3a51ccab29d	Augmente de manière permanente la valeur d'armure d'une pièce d'armure portée sur le torse, les jambes, les mains ou les pieds de ${$80314m1+$80314ppl1}. Nécessite le niveau 25 ou supérieur pour bénéficier de cet effet.	lot sorts_standard_004
 sort	10344		Name	1399d58f595d	Renforcement (épais)	lot sorts_standard_004
 sort	10351		Description	1e83d90fef8b	Augmente le score de défense de ${$PL*1.5313} pendant $d1.	lot sorts_standard_004

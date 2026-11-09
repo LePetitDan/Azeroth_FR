@@ -1,0 +1,218 @@
+# Fiche de test : Nécromancien
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Animation
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Adepte de l'invocation** (Spécialisation) — capacité, sort n° 92123
+- [ ] **Réanimation : Gargouille** — capacité, sort n° 500329
+- [ ] **Réanimation : Mage squelette** — capacité, sort n° 500331 🔀 talents
+- [ ] **Réanimation : Abomination** — capacité, sort n° 500335
+- [ ] **Essaim de la crypte** (Rang 1) — capacité, sort n° 500965 🔀 talents
+- [ ] **Réanimation : Voleur squelette** — capacité, sort n° 500969
+- [ ] **Réanimation : guerrier squelette mineur** (Rang 1) — capacité, sort n° 500970
+- [ ] **Réanimation : Goule** — capacité, sort n° 500971
+- [ ] **Commandement impie : Initié, Colosse. Mage des tombes** — capacité, sort n° 500978
+- [ ] **NYI** — capacité, sort n° 500979
+- [ ] **Légion d'os** — capacité, sort n° 500980
+- [ ] **Réanimation : Colosse putréfié** — capacité, sort n° 500989
+- [ ] **Marche funèbre** — capacité, sort n° 500991
+- [ ] **Idole du lien spirituel** (Aura) — capacité, sort n° 500992
+- [ ] **Embrocher (attraction)** (GRIP) — capacité, sort n° 800148
+- [ ] **Mandat impur** (Rang 1) — capacité, sort n° 800199
+- [ ] **Goulification** — capacité, sort n° 800706 🔀 talents
+- [ ] **Appel du Fléau** (Rang 1) — capacité, sort n° 801792
+- [ ] **Animer : démon des cryptes** (Animation) — capacité, sort n° 801941 🔀 talents
+- [ ] **Dîme d'os** — capacité, sort n° 802121
+- [ ] **Placeholder** — capacité, sort n° 802124
+- [ ] **Horde pestiférée** (Passif) — capacité, sort n° 802986
+- [ ] **Peau de vers** — capacité, sort n° 802987
+- [ ] **Essence de liche** (Passif) — capacité, sort n° 802988
+- [ ] **Horde pestiférée** — capacité, sort n° 804246
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Nécromancie** — capacité, sort n° 804360
+- [ ] **Invocation impie** — capacité, sort n° 804371 🔀 talents
+- [ ] **Pions fétides** — capacité, sort n° 804397
+- [ ] **Bouclier de l'avant-garde** (PassiveSLS) — capacité, sort n° 804446
+- [ ] **Animation : Forgeron squelettique** — capacité, sort n° 804681
+- [ ] **Sacrifier les morts-vivants** (Rang 1) — capacité, sort n° 805027
+- [ ] **Frénésie impie** — capacité, sort n° 805029
+- [ ] **Animer : spectre d'os** — capacité, sort n° 805032
+- [ ] **Laboratoire de chair** (Rang 1) — capacité, sort n° 805037
+- [ ] **Rituel d'invocation** — capacité, sort n° 805038
+- [ ] **Animer : archer squelette** — capacité, sort n° 805040
+- [ ] **Passif de spécialisation Animation SLS** — capacité, sort n° 805041
+- [ ] **Maîtrise de l'invocation** — capacité, sort n° 805042
+- [ ] **Appel de l'ancêtre** (UNUSED) — capacité, sort n° 805043 🔍 MAJ
+- [ ] **Animer : roi des tombes** — capacité, sort n° 805044
+- [ ] **Animer : père de la peste** — capacité, sort n° 805048
+- [ ] **Champion des tombes** — capacité, sort n° 805049 🔍 MAJ 🔀 talents
+- [ ] **Transfert de vie** — capacité, sort n° 805143
+- [ ] **Fureur stupide** (Passif) — capacité, sort n° 805674
+- [ ] **Fétichiste de la pourriture** (Passif) — capacité, sort n° 805675
+- [ ] **Charogne** (Obsolète) — talent, sort n° 300745
+- [ ] **Laboratoire de chair** (Rang 2) — talent, sort n° 300746
+- [ ] **Manipulation des cadavres** — talent, sort n° 704694
+- [ ] **Plaques d'os** (Talent) — talent, sort n° 704695
+- [ ] **Incantation rituelle** — talent, sort n° 704696
+- [ ] **Tripes** — talent, sort n° 704697
+- [ ] **Gardien des tombes** (Passif) — talent, sort n° 704698
+- [ ] **Invocation supérieure** (Passif) — talent, sort n° 704699
+- [ ] **Maîtrise du guerrier squelette** — talent, sort n° 704700
+- [ ] **Sous-roi** (Passif) — talent, sort n° 704701 🔀 talents
+- [ ] **Inlassable** (Passif) — talent, sort n° 704718
+- [ ] **Essaim implacable** (Déclenchement) — talent, sort n° 704719
+- [ ] **Fureur de la crypte** (Passif) — talent, sort n° 704720
+- [ ] **Étude de la mort** (Passif) — talent, sort n° 704721
+- [ ] **Diabolique** (Passif) — talent, sort n° 704723
+- [ ] **Lien mortel** (Passif) — talent, sort n° 704724
+
+## Mort
+
+- [ ] **Peste de la crypte** (Spécialisation) — capacité, sort n° 92121
+- [ ] **Peste de la crypte** (Spec Passive Visual Show) — capacité, sort n° 500117
+- [ ] **Nécromancien du givre** (Forme de liche SLS) — capacité, sort n° 500119 🔍 MAJ
+- [ ] **Adepte de l'invocation** (Passif de spécialisation) — capacité, sort n° 500165
+- [ ] **Chancre** (Rang 1) — capacité, sort n° 500217
+- [ ] **Chair aux vers** (Rang 1) — capacité, sort n° 500338 🔍 MAJ
+- [ ] **Bombe de peste** (Rang 1) — capacité, sort n° 500340
+- [ ] **Ensevelissement** — capacité, sort n° 500341
+- [ ] **Mutation** — capacité, sort n° 500342
+- [ ] **Expurgation** (Talent) — capacité, sort n° 500343
+- [ ] **Phylactère** — capacité, sort n° 500933
+- [ ] **Moisson de peste** (Rang 1) — capacité, sort n° 500968
+- [ ] **Morts-vivants : assaut** — capacité, sort n° 500982 🔍 MAJ 🔀 talents
+- [ ] **Morts-vivants : pacification** — capacité, sort n° 500983 🔍 MAJ 🔀 talents
+- [ ] **Morts-vivants : protection** — capacité, sort n° 500985 🔍 MAJ 🔀 talents
+- [ ] **Idole du lien spirituel** — capacité, sort n° 500993
+- [ ] **Science de la peste** (Passif) — capacité, sort n° 704163
+- [ ] **Peste de la crypte** — capacité, sort n° 800108
+- [ ] **Virulence** — capacité, sort n° 801938
+- [ ] **Tempête pestilentielle** (Rang 1) — capacité, sort n° 801939
+- [ ] **Fléau de la moisson (Expulsion)** — capacité, sort n° 801940
+- [ ] **Éclair de liche** (Rang 1) — capacité, sort n° 801942
+- [ ] **Peste de non-mort** (Rang 1) — capacité, sort n° 801945 🔍 MAJ
+- [ ] **Flétrissure pestilentielle** (Obsolète) — capacité, sort n° 801946
+- [ ] **Flétrissure pestilentielle améliorée** — capacité, sort n° 801948
+- [ ] **Pourriture cadavérique nocive** (Rang 1) — capacité, sort n° 802129
+- [ ] **Peste de liche** — capacité, sort n° 802132
+- [ ] **Nécrose** (Passif) — capacité, sort n° 802990
+- [ ] **Médecin de la peste** (Passif) — capacité, sort n° 803087
+- [ ] **Rayon de putréfaction** (Rang 1) — capacité, sort n° 804535
+- [ ] **Pourri** — capacité, sort n° 804689
+- [ ] **Expériences parasitaires** — capacité, sort n° 806082
+- [ ] **Invocateur de fange** (Passif) — capacité, sort n° 806086
+- [ ] **Vers fouisseurs** — capacité, sort n° 806090
+- [ ] **Siphon d'essence** (Rang 1) — capacité, sort n° 806125
+- [ ] **Chute de l'aube** (Déclencheur) — capacité, sort n° 806126
+- [ ] **Damnation** (Rang 1) — capacité, sort n° 806149
+- [ ] **Semeur de maladie** — capacité, sort n° 806150
+- [ ] **Mort - Passif de niveau 15** (Passif) — capacité, sort n° 806151
+- [ ] **Allonge de la peste** — capacité, sort n° 806320
+- [ ] **Revenant de la peste** (Passif) — capacité, sort n° 806321
+- [ ] **Pourriture purulente** (Passif) — capacité, sort n° 806324
+- [ ] **Expédition fétide** — capacité, sort n° 806327
+- [ ] **Maître de la mort** (Passif) — capacité, sort n° 806328
+- [ ] **Tisseur de flétrissure** — capacité, sort n° 806329
+- [ ] **Armure nécrotique** (Passif) — capacité, sort n° 806386
+- [ ] **Commandant de la mort** (Passif) — talent, sort n° 300235
+- [ ] **Maladies chroniques** (Rang 2) — talent, sort n° 300749
+- [ ] **Façonnage de chair** (Passif) — talent, sort n° 300941
+- [ ] **Crypte rampante** (Passif) — talent, sort n° 300960
+- [ ] **Contagion fétide** (Passif) — talent, sort n° 300965
+- [ ] **Pandémie** (Rang 2) — talent, sort n° 704702
+- [ ] **Pandémie** (Rang 3) — talent, sort n° 704703
+- [ ] **Sang de fange** (Passif) — talent, sort n° 704704
+- [ ] **Bile abjecte** (Passif) — talent, sort n° 704705
+- [ ] **Aura pestilentielle** (Passif) — talent, sort n° 704707
+- [ ] **Pâture à vers** — talent, sort n° 704708
+- [ ] **Mortification** (Rang 1) — talent, sort n° 704709
+- [ ] **Mortification** (Rang 2) — talent, sort n° 704710
+- [ ] **Lance-pourriture** — talent, sort n° 704711
+- [ ] **Buveur de peste** — talent, sort n° 704712
+- [ ] **Commandant liche** (Passif) — talent, sort n° 704713
+- [ ] **Gangrène** — talent, sort n° 704714
+- [ ] **Fossoyeur** (Passif) — talent, sort n° 704715
+- [ ] **Fossoyeur** (Obsolète) — talent, sort n° 704716
+- [ ] **Longue marche** (Passif) — talent, sort n° 704717
+- [ ] **Expurgation** (Passif) — talent, sort n° 705754
+- [ ] **Crache-vase** (Passif) — talent, sort n° 705755
+
+## Frimas
+
+- [ ] **Guerriers de la toundra** — capacité, sort n° 92122
+- [ ] **Séisme de glace** (Rang 1) — capacité, sort n° 500191
+- [ ] **Gel des os** (Rang 1) — capacité, sort n° 500326
+- [ ] **Glace-rasoir** (Rang 1) — capacité, sort n° 500967
+- [ ] **Forme de liche** — capacité, sort n° 500981 🔍 MAJ
+- [ ] **Givre-liche** (Rang 1) — capacité, sort n° 801722
+- [ ] **Gel de l'âme** — capacité, sort n° 801724
+- [ ] **Goule de givre** (Passif) — capacité, sort n° 801732
+- [ ] **Chaînes nécrotiques** (Passif) — capacité, sort n° 801733
+- [ ] **Protection glaciale** (Rang 1) — capacité, sort n° 801735
+- [ ] **Froid mordant** — capacité, sort n° 801736
+- [ ] **Cœur glacé** — capacité, sort n° 801739
+- [ ] **Glace noire** (Rang 1) — capacité, sort n° 801746
+- [ ] **Déclencheur de séisme de glace** — capacité, sort n° 801751
+- [ ] **Barrage de glace** (Rang 1) — capacité, sort n° 801760
+- [ ] **Rage débridée** — capacité, sort n° 801761
+- [ ] **Rage débridée** (SLS) — capacité, sort n° 801762
+- [ ] **Pacte de Ner'zhul** (Passif) — capacité, sort n° 804717
+- [ ] **Vent glacial** (Passif) — capacité, sort n° 805367
+- [ ] **Disque du Néant** — capacité, sort n° 805368
+- [ ] **Ponction glaciale** — capacité, sort n° 805369
+- [ ] **Os gelé** — capacité, sort n° 805386
+- [ ] **Disque du Néant** — capacité, sort n° 805387
+- [ ] **Froid mortel** (Passif) — capacité, sort n° 805424
+- [ ] **Éclat de glace véritable** (Passif) — capacité, sort n° 805425
+- [ ] **Os de géant** (Passif) — capacité, sort n° 805427
+- [ ] **Animation : Wyrm de givre** — capacité, sort n° 805428
+- [ ] **Appel de la couronne** (Rang 1) — capacité, sort n° 805429
+- [ ] **Mort et décomposition** (Tueur) — capacité, sort n° 805430
+- [ ] **Malédiction de la liche** (Passif) — talent, sort n° 300240
+- [ ] **Aura vampirique** (Passif) — talent, sort n° 300241
+- [ ] **Froid revigorant** (Passif) — talent, sort n° 300940
+- [ ] **Armure plaquée de cobalt** (Passif) — talent, sort n° 300945
+- [ ] **Impact glaciaire** (Rang 1) — talent, sort n° 704355 🔍 MAJ 🔀 talents
+- [ ] **Frigidité** (Spécialisation) — talent, sort n° 704669
+- [ ] **Réservoir runique** (Rang 1) — talent, sort n° 704670
+- [ ] **Glace-rasoir améliorée** — talent, sort n° 704671
+- [ ] **Éclats fracturés** (Passif) — talent, sort n° 704672
+- [ ] **Protection glaciale** (Passif) — talent, sort n° 704674
+- [ ] **Flot de givre** — talent, sort n° 704675
+- [ ] **Champion de Kel'thuzad** (Passif) — talent, sort n° 704676
+- [ ] **Entrave glaciale** (Rang 1) — talent, sort n° 704677
+- [ ] **Réfrigérer** (Rang 1) — talent, sort n° 704678
+- [ ] **Lyophilisation** (Passif) — talent, sort n° 704680
+- [ ] **Gel prolongé** (Spécialisation) — talent, sort n° 704681
+- [ ] **Éclats de glaçon** (Passif) — talent, sort n° 704689
+- [ ] **Avalanche** (Obsolète) — talent, sort n° 705749
+
+## Classe
+
+- [ ] **Mort en sursis** (Passif) — capacité, sort n° 300233
+- [ ] **Écritures de la Couronne de glace** (Rang 1) — capacité, sort n° 300234
+- [ ] **Mort accélérée** (Passif) — capacité, sort n° 300236
+- [ ] **Prodige de l'invocation** (Passif) — capacité, sort n° 704682
+- [ ] **Chair aux vers RP GEN** (Passif) — capacité, sort n° 704683
+- [ ] **Sacrifier les morts-vivants** (Passif) — capacité, sort n° 704684
+- [ ] **Flétrissure persistante** — capacité, sort n° 704685 🔀 talents
+- [ ] **Souillure** (Passif) — capacité, sort n° 704727
+- [ ] **Pierre d'invocation** — capacité, sort n° 704728
+- [ ] **Bénédiction de Ner'zhul** (Passif) — capacité, sort n° 704729
+- [ ] **Courroux glacial** (Rang 1) — capacité, sort n° 704730
+- [ ] **Armure d'os** (Passif) — capacité, sort n° 704731
+- [ ] **Vents déchirants** (Passif) — capacité, sort n° 705745
+- [ ] **La vie pour la puissance** (Passif) — capacité, sort n° 705746
+- [ ] **Runes de givre** (Passif) — capacité, sort n° 705750
+- [ ] **Larmes de Lordaeron** (Passif) — capacité, sort n° 705752
+- [ ] **Transfert de vie** — capacité, sort n° 801530
+- [ ] **Adepte de l'invocation** (Rang 1) — capacité de talent, sort n° 300747
+- [ ] **Hordes massives** (Rang 1) — capacité de talent, sort n° 300748
+- [ ] **Air rance** (UNUSED) — capacité de talent, sort n° 704726
+- [ ] **Armée implacable** (Rang 1) — capacité de talent, sort n° 705747
+- [ ] **Armée implacable** (Déclenchement) — capacité de talent, sort n° 705748

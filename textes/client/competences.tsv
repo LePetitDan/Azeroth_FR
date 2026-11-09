@@ -54,7 +54,7 @@ competence	43		name	Swords	ce3f44c0310c	Epées	officiel	blizzard_frFR	SkillLine.
 competence	44		name	Axes	d75f36f88797	Haches	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 competence	45		name	Bows	4f773e9d5bf0	Arcs	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 competence	46		name	Guns	0044062fff35	Armes à feu	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
-competence	47		name	Ancestry	4447427cfb06	Héritage	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
+competence	47		name	Ancestry	4447427cfb06	Ascendance	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001 | spécialisation harmonisée (0.9.5) : ancien « Héritage »
 competence	48		name	Voodoo	213a77ef49d8	Vaudou	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	49		name	Brewing	16792ae3681f	Brassage	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	50		name	Hunter	147847d73ee8	Chasseur	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
@@ -72,7 +72,7 @@ competence	61		name	Lightning	4504e5f0bfcc	Foudre	machine	claude	SkillLine.dbc d
 competence	62		name	Wind	142b5758f344	Vent	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	63		name	Maelstrom	a1539b69a253	Maelström	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	64		name	War	f3c59920b109	Guerre	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
-competence	65		name	Hellfire	b68d2946f197	Gouffre-feu	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
+competence	65		name	Hellfire	b68d2946f197	Flammes infernales	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001 | spécialisation harmonisée (0.9.5) : ancien « Gouffre-feu »
 competence	66		name	Defiance	f616d0134740	Défi	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	67		name	Vanguard	27b6cf799ec7	Avant-garde	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	68		name	Inspiration	2868202fbdaf	Inspiration	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
@@ -90,7 +90,7 @@ competence	79		name	Infinite	b8449b07486f	Infini	machine	claude	SkillLine.dbc du
 competence	80		name	Artificer	f5247b0d8396	Artificier	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	81		name	Time	6c82e6dd8680	Temps	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	82		name	Death	d8c7d877ba61	Mort	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
-competence	83		name	Rime	c29eb5e4ebab	Givre	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
+competence	83		name	Rime	c29eb5e4ebab	Frimas	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001 | spécialisation harmonisée (0.9.5) : ancien « Givre »
 competence	84		name	Animation	62afd21e8876	Animation	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	85		name	Incineration	309ecd97c70c	Incinération	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	86		name	Flameweaving	c1d42a810663	Tisse-flammes	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
@@ -110,14 +110,14 @@ competence	99		name	Demolition	2b1dc4c7b981	Démolition	machine	claude	SkillLine
 competence	100		name	Invention	0a3176cbaf7c	Invention	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	101		name	Dwarven Racial	68c8feb30cdf	Raciale nain	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 competence	102		name	Mechanics	d4a20ddcf46c	Mécanique	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
-competence	103		name	Rot	ab9513c76404	Pourriture	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
+competence	103		name	Rot	ab9513c76404	Putréfaction	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001 | spécialisation harmonisée (0.9.5) : ancien « Pourriture »
 competence	104		name	Stalking	4eaf3402d2d6	Traque	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	105		name	Fortitude	fd78cedee24a	Robustesse	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	106		name	Harvest	1b665f2be323	Moisson	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	107		name	Soul	0cae74dd2ee6	Âme	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	108		name	Domination	0a5607b199f3	Domination	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	109		name	Language: Orcish	2ff23d3f2988	Langue : orc	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
-competence	110		name	Wildwalker	02aa218f8223	Arpenteur sauvage	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
+competence	110		name	Wildwalker	02aa218f8223	Marcheur sauvage	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001 | spécialisation harmonisée (0.9.5) : ancien « Arpenteur sauvage »
 competence	111		name	Language: Dwarven	81fda4c1ae7f	Langue : nain	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 competence	112		name	Geomancy	240c1833a1bd	Géomancie	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	113		name	Language: Darnassian	fbb87ae1a670	Langue : darnassien	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
@@ -126,7 +126,7 @@ competence	115		name	Language: Taurahe	b1f94d435ee7	Langue : taurahe	officiel	bl
 competence	116		name	Glyphic	9bbd929536de	Glyphique	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	117		name	Engravement	fd689a678f58	Gravure	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	118		name	Dual Wield	6f5fc8392876	Ambidextrie	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
-competence	119		name	Riftblade	2bf4f7801d20	Lamefaille	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
+competence	119		name	Riftblade	2bf4f7801d20	Lame de la faille	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001 | spécialisation harmonisée (0.9.5) : ancien « Lamefaille »
 competence	120		name	!Ascension Vanity Items	2cf801d43506	!Objets cosmétiques Ascension	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	121		name	Mystic Enchanting	44a06ad02394	Enchantement mystique	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	122		name	Pet - Plague Eruptor	dbe096ed821d	Familier - érupteur de peste	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
@@ -136,7 +136,7 @@ competence	126		name	Night Elf Racial	764081796ba6	Raciale elfe de la nuit	offic
 competence	127		name	!Ascension Manastorm Items	cb8ff2984fe5	!Objets Ascension de la Tempête de mana	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	129		name	First Aid	016e9266cd65	Secourisme	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 competence	129		description	Stitch cloth into bandages and antidotes to heal injuries and remove poisons. Bandages are supplemental to (but not replacing) magical means of healing. Heroes with limited healing capabilities may find great benefit from being skilled in First Aid.	a27561251c7e	Cousez du tissu pour en faire des bandages et des antidotes qui soignent les blessures et éliminent les poisons. Les bandages complètent les soins magiques (sans les remplacer). Les héros aux capacités de soin limitées tireront grand profit d'une bonne maîtrise du Secourisme.	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
-competence	130		name	Conquest of Azeroth	3f33434b35c1		a_traduire		SkillLine.dbc du client CoA (patch-M)
+competence	130		name	Conquest of Azeroth	3f33434b35c1		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom du serveur, Conquest of Azeroth, à garder tel quel
 competence	134		name	Druid	cd770cb0f159	Druide	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	136		name	Staves	36db9235db6b	Bâtons	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
 competence	137		name	Language: Thalassian	663a7ec778cb	Langue : thalassien	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3), même numéro et même anglais que Blizzard
@@ -568,13 +568,13 @@ competence	1053		name	Pet - Mechano-Tank	24f095fa213f	Familier - mécano-tank	ma
 competence	1054		name	Pet - Clockwork Giant	ecab93b3133c	Familier - géant mécanique	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
 competence	3000		name	Blade	668c2d873516	Lame	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
 competence	5000		name	Blades	f252ad35db41	Lames	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
-competence	6000		name	Aroy	f1b31896530c		a_traduire		SkillLine.dbc du client CoA (patch-M)
+competence	6000		name	Aroy	f1b31896530c		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre inventé par CoA, rien à traduire
 competence	10036		name	Pet - (Reborn) Generic Demon	26032537ce94	Familier - (Renaissance) démon générique	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
 competence	10037		name	Clockwork Assistant	7242d6ae78b5	Assistant mécanique	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
-competence	10038		name	Scrapbot	304ab8cbb52c		a_traduire		SkillLine.dbc du client CoA (patch-M)
-competence	10039		name	Rusthound	33bf07a90301		a_traduire		SkillLine.dbc du client CoA (patch-M)
-competence	10040		name	Ziggy-6k	704712378036		a_traduire		SkillLine.dbc du client CoA (patch-M)
-competence	10041		name	Scrapmaw	ea251d083edf		a_traduire		SkillLine.dbc du client CoA (patch-M)
+competence	10038		name	Scrapbot	304ab8cbb52c		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de familier inventé par CoA, gardé avec les autres
+competence	10039		name	Rusthound	33bf07a90301		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de familier inventé par CoA, gardé avec les autres
+competence	10040		name	Ziggy-6k	704712378036		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de familier inventé par CoA
+competence	10041		name	Scrapmaw	ea251d083edf		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : nom propre de familier inventé par CoA, gardé avec les autres
 competence	10188		name	Pet - Imp	e18080290a7c	Familier - diablotin	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte
 competence	10189		name	Pet - Felhunter	d52397eac367	Familier - chasseur corrompu	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte
 competence	10203		name	Pet - Spider	8ec7638a2698	Familier - araignée	officiel	blizzard_frFR	SkillLine.dbc du client CoA (patch-M) | SkillLine.dbc frFR officiel (patch-frFR-3) : même anglais, un seul français officiel pour ce texte
@@ -900,7 +900,7 @@ competence	11795		name	Pet - Strider Bot	6ab12e74e862	Familier - robot trotteur	
 competence	11796		name	Pet - Wind Servant	686c1d3f7c6c	Familier - serviteur des vents	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
 competence	11797		name	Pet - Phoenix	d2e81190370a	Familier - phénix	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_001.tsv) | lot competences_001
 competence	11798		name	Pet - Dinomancy Stegodon	302447d697f1	Familier - dinomancie : stégodon	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
-competence	11799		name	Pet - Dinomancy Devilsaur DEPRECATED	801516b88ee4		a_traduire		SkillLine.dbc du client CoA (patch-M)
+competence	11799		name	Pet - Dinomancy Devilsaur DEPRECATED	801516b88ee4		technique		SkillLine.dbc du client CoA (patch-M) | technique=à garder en anglais (atelier, 0.9.5) : entrée technique DEPRECATED, inutilisée, laissée telle quelle
 competence	11800		name	Pet - Dinomancy Pterodax	f08e2adbcd55	Familier - dinomancie : ptérodax	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
 competence	11801		name	Pet - Dinomancy Raptor	6690cf9b366c	Familier - dinomancie : raptor	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002
 competence	11802		name	Pet - Death Knight	498690ffc7a1	Familier - chevalier de la mort	machine	claude	SkillLine.dbc du client CoA (patch-M) | traduction de Claude (traductions/competences/competences_002.tsv) | lot competences_002

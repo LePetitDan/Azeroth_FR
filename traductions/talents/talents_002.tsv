@@ -116,7 +116,7 @@ sort	300236		Description	7026efe17134	Chaque charge d'|cFFFFFFFFExpurgation|r au
 sort	300236		Name	64f45b941011	Mort accélérée	lot talents_002
 sort	300237		Description	96395c527b50	|cFFFFFFFFMain d'Elune|r et |cFFFFFFFFToucher du clair de lune|r rendent désormais ${($524703d*1000/$524703t1)*($m1)}% de leur valeur en points de vie supplémentaires en $524703d.	lot talents_002
 sort	300237		Name	f01c7c3077f0	Faveur d'Elune	lot talents_002
-sort	300240		Description	2d223d8b5876	Augmente de $s1 mètres la portée de vos sorts de Frimas et de $s2% vos chances de coup critique avec les sorts de Givre, ainsi que celles de vos invocations.	lot talents_002
+sort	300240		Description	2d223d8b5876	Augmente de $s1 mètres la portée de vos sorts de Rime et de $s2% vos chances de coup critique avec les sorts de Givre, ainsi que celles de vos invocations.	lot talents_002 | relu par l'API (relecture 0.9.5) : « Rime » est un nom de mécanique CoA sans traduction fixée, « Frimas » est une invention ; à laisser tel quel.
 sort	300240		Name	4175369baa47	Malédiction de la liche	lot talents_002
 sort	300241		Description	1ac551462bd1	Tant que vous avez moins de 50% de vos points de vie, vos serviteurs morts-vivants vous rendent désormais des points de vie à hauteur de $560607s2% des dégâts qu'ils infligent.	lot talents_002
 sort	300241		Name	5620c14ea2e7	Aura vampirique	lot talents_002
@@ -144,7 +144,7 @@ sort	300265		Description	983a10bdc80e	Votre |cffffffffDévorer la magie|r affect
 sort	300265		Name	844668860372	Dévoreur	lot talents_002
 sort	300268		Description	457bfca835c7	Augmente vos chances de parer de $s1% et vos chances d'esquiver de $s2%.	lot talents_002
 sort	300268		Name	9e23d8b90d68	Combattant adaptable	lot talents_002
-sort	300270		Description	dd68a38f790b	Tant que vous avez plus de 60 points de |cffcfa6ffFolie|r, les dégâts que vous subissez sont réduits de $681256s1%.	lot talents_002
+sort	300270		Description	dd68a38f790b	Tant que vous avez plus de 60 points de |cffcfa6ffFolie|r, les dégâts que vous subissez sont réduits de $681256s1%.	lot talents_002 | relu par l'API (relecture 0.9.5) : Insanity = Folie (décision 20) ; « Insanité » est incorrect.
 sort	300270		Name	0c26c0830e21	Fuite mentale	lot talents_002
 sort	300272		Description	2e52fdcfb028	Augmente de $s1% les chances de déclencher des |cFFFFFFFFPrésences|r.	lot talents_002
 sort	300272		Name	2a86e7acf3ce	Omniprésence	lot talents_002
@@ -168,7 +168,7 @@ sort	300291		Description	191251c8ab57	Lancer |cffffffffHéraut des profondeurs|r
 sort	300291		Name	f4ed43d25d65	Barrière du Vide	lot talents_002
 sort	300296		Description	831a184f38e9	Lancer |cffffffffRegard de C'Thun|r déclenche désormais toujours votre |cffffffffPrésence de C'Thun|r tant qu'elle est active.@s:803340:0@	lot talents_002
 sort	300296		Name	b77d26e995fe	Serviteur de C'Thun	lot talents_002
-sort	300296		ToolTip	da39d16d1ee1	|cffffffffRegard de C'Thun|r réduit désormais de $520553s1% le temps d'incantation de vos 2 prochains |cffffffffTraits d'horreur|r ou |cffffffffGuérisons surnaturelles|r pendant $520553d.	lot talents_002
+sort	300296		ToolTip	da39d16d1ee1	|cffffffffRegard de C'Thun|r réduit désormais de $520553s1% le temps d'incantation de vos 2 prochains |cffffffffTraits d'horreur|r ou |cffffffffSoins surnaturels|r pendant $520553d.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Eldritch Mending » est traduit « Soins surnaturels » partout (n° 15, 18, 42) ; « Guérisons surnaturelles » est incohérent.
 sort	300298		Description	f2c8045b3229	Lancer |cFFFFFFFFRegard de C'Thun|r réduit désormais le temps de recharge de |cffffffffSuppression psychique|r de $/1000;300297s2 sec. et celui d'|cffffffffÉtreinte de Zek'voz|r de $/1000;300297s1 sec.	lot talents_002
 sort	300298		Name	634bd3ea81b7	Misère	lot talents_002
 sort	300300		Description	bb89222992f9	Vos dégâts périodiques ou canalisés ont désormais $h% de chances de maudire votre cible en lui appliquant |cffffffffDégénérescence mentale|r.@s:560714:0@	lot talents_002
@@ -181,13 +181,13 @@ sort	300305		Description	226d6ba4954e	Augmente de $s1% les chances de coup criti
 sort	300305		Name	eccbe7638c5f	Occultisme	lot talents_002
 sort	300306		Description	db0a207449c0	Augmente la durée de |cFFFFFFFFFlétrissure ténébreuse|r de $/1000;s1 sec.	lot talents_002
 sort	300306		Name	817d77b27bf3	Appel de N'Zoth	lot talents_002
-sort	300307		Description	05b21a73010a	Atteindre 60 points de |cffcfa6ffFolie|r augmente vos dégâts infligés de $573285s1% pendant $573285d.	lot talents_002
+sort	300307		Description	05b21a73010a	Atteindre 60 points de |cffcfa6ffFolie|r augmente vos dégâts infligés de $573285s1% pendant $573285d.	lot talents_002 | relu par l'API (relecture 0.9.5) : Décision 20 : Insanity = Folie, et nom de sort cité fourni « Folie ».
 sort	300307		Name	9a875dbd8857	Embrasser le Vide	lot talents_002
-sort	300308		Description	ba6b38509ac1	Vos dégâts périodiques ou canalisés génèrent désormais 2 points de |cffcfa6ffFolie|r, réduisent le temps de recharge de votre |cffffffffRayon d'oblitération|r de $/1000;300605s2 sec. et vous confèrent 1 charge de |cffffffffDestruction abyssale|r.@s:300605:0@	lot talents_002
+sort	300308		Description	ba6b38509ac1	Vos dégâts périodiques ou canalisés génèrent désormais 2 points de |cffcfa6ffFolie|r, réduisent le temps de recharge de votre |cffffffffRayon d'oblitération|r de $/1000;300605s2 sec. et vous confèrent 1 charge de |cffffffffDestruction abyssale|r.@s:300605:0@	lot talents_002 | relu par l'API (relecture 0.9.5) : Décision 20 : Insanity = Folie.
 sort	300308		Name	c888c22c6971	Destruction abyssale	lot talents_002
 sort	300309		Description	0653ff49c398	Réduit de 0,3 sec. le temps d'incantation de |cffffffffTrait d'horreur|r et de |cffffffffCourroux de l'Empire noir|r.	lot talents_002
 sort	300309		Name	395651bddfd5	Horreur absolue	lot talents_002
-sort	300313		Description	c88c80734970	|cFF66DDFFPassif de niveau 40|r\r\nTous vos dégâts, périodiques ou non, ont $h% de chances de réinitialiser le temps de recharge de |cffffffffRegard de C'Thun|r et de générer 5 points de |cffcfa6ffFolie|r.	lot talents_002
+sort	300313		Description	c88c80734970	|cFF66DDFFPassif de niveau 40|r\r\nTous vos dégâts, périodiques ou non, ont $h% de chances de réinitialiser le temps de recharge de |cffffffffRegard de C'Thun|r et de générer 5 points de |cffcfa6ffFolie|r.	lot talents_002 | relu par l'API (relecture 0.9.5) : Décision 20 : Insanity = Folie.
 sort	300313		Name	bca0e2af0a81	Sombre révélation	lot talents_002
 sort	300314		Description	70bad061fa17	Tant que vous avez plus de 80% de vos points de vie, vos dégâts et vos soins sont désormais augmentés de $301341s1%.	lot talents_002
 sort	300314		Name	8e4978d4ef97	Lumière pure	lot talents_002
@@ -199,9 +199,9 @@ sort	300321		Description	9b1602942990	Réduit de $s1% le temps d'incantation de 
 sort	300321		Name	27031e92c7d3	Conduit solaire	lot talents_002
 sort	300322		Description	4ad2da5bb300	Augmente votre hâte de $s1%.	lot talents_002
 sort	300322		Name	3d32bbbbd79d	Justice prompte	lot talents_002
-sort	300323		Description	96e325542df9	Augmente de $s1% l'efficacité de |cffffffffSoleil levant|r et de |CffffffffSoleil couchant|r.	lot talents_002
+sort	300323		Description	96e325542df9	Augmente de $s1% l'efficacité de |cffffffffSoleil levant|r et de |CffffffffSoleil couchant|r.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Soleil levant », comme le nom français fourni (et non « Lever du soleil »).
 sort	300323		Name	d188e3170faf	Ferveur sacrée	lot talents_002
-sort	300323		ToolTip	e71cae556546	Augmente de ${$w1}% l'efficacité de |cffffffffSoleil levant|r et de |CffffffffSoleil couchant|r.	lot talents_002
+sort	300323		ToolTip	e71cae556546	Augmente de ${$w1}% l'efficacité de |cffffffffSoleil levant|r et de |CffffffffSoleil couchant|r.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Soleil levant », comme le nom français fourni (et non « Lever du soleil »).
 sort	300324		Description	6418a414ad9c	Permet à |cFFFF9800Aube|r d'affecter $s1 incantations supplémentaires.	lot talents_002
 sort	300324		Name	f9e71df3179b	Lueur guide	lot talents_002
 sort	300325		Description	93f58ff8e2d1	Les dégâts infligés par |cffffffffFlamme radieuse|r sont désormais augmentés de $s1% contre les ennemis qui ont moins de 35% de leurs points de vie.	lot talents_002
@@ -241,9 +241,9 @@ sort	300355		Name	a4bfe78ac74a	Inébranlable	lot talents_002
 sort	300357		Description	0d5086988a24	Double les soins prodigués et le mana rendu par |cffffffffBénédiction|r.	lot talents_002
 sort	300357		Name	ad488db69402	Ne me laisse pas m'égarer	lot talents_002
 sort	300357		ToolTip	dbef2502c572	Augmente de ${$w1}% tous les effets de |cffffffffGuidance solaire|r.	lot talents_002
-sort	300360		Description	58f6b0b3c81e	Passer en |cffffffffSoleil couchant|r ou en |CffffffffSoleil levant|R augmente votre hâte des sorts de $301265s1%. Dure $301265d ou 3 incantations.	lot talents_002
+sort	300360		Description	58f6b0b3c81e	Passer en |cffffffffSoleil couchant|r ou en |CffffffffSoleil levant|R augmente votre hâte des sorts de $301265s1%. Dure $301265d ou 3 incantations.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Sunset » doit être « Soleil couchant » (nom fourni), et non « Coucher du soleil ».
 sort	300360		Name	809b749c924a	Lumière instructive	lot talents_002
-sort	300361		Description	8530ae84fec2	|cFF66DDFFPassif de niveau 50|r\r\nEn |cffffffffSoleil levant|r, le temps de recharge restant de |cffffffffDéflagration d'Horusath|r est réduit de $301176s2% toutes les $t1 sec.\r\n\r\nEn |cffffffffSoleil couchant|r, le temps de recharge restant d'|cffffffffExtase|r est réduit de $301176s2% toutes les $t1 sec.	lot talents_002
+sort	300361		Description	8530ae84fec2	|cFF66DDFFPassif de niveau 50|r\r\nEn |cffffffffSoleil levant|r, le temps de recharge restant de |cffffffffDéflagration d'Horusath|r est réduit de $301176s2% toutes les $t1 sec.\r\n\r\nEn |cffffffffSoleil couchant|r, le temps de recharge restant d'|cffffffffExtase|r est réduit de $301176s2% toutes les $t1 sec.	lot talents_002 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : Sunrise = « Soleil levant », Sunset = « Soleil couchant » (et non « Lever du soleil » / « Coucher du soleil »).
 sort	300361		Name	ca80c0ce4d2d	Cycles du jour	lot talents_002
 sort	300363		Description	8f11c9b4433c	Augmente votre hâte des sorts de $s1%, plus $s2% supplémentaires pendant la journée.	lot talents_002
 sort	300363		Name	a8ad3a21ea17	Photosynthèse	lot talents_002
@@ -310,7 +310,7 @@ sort	300478		Description	b257b44f9736	Réussir un coup critique avec |cffffffffB
 sort	300478		Name	8fe440057f66	Flammes maudites	lot talents_002
 sort	300480		Description	de731711d617	Vos dégâts directs ont désormais $h% de chances de réinitialiser le temps de recharge d'|CffffffffInfernal|r.	lot talents_002
 sort	300480		Name	38d0594ef046	Invocateur infernal	lot talents_002
-sort	300483		Description	759379479224	Les dégâts infligés par vos |cffffffffGangrefrappes|r prolongent désormais de $/1000;560643s1 sec. la durée de |cffffffffFaiblesse|r sur la cible et augmentent de $300481s1% les dégâts critiques de vos sorts pendant $300481d. Cumulable $300481u fois.	lot talents_002
+sort	300483		Description	759379479224	Les dégâts infligés par vos |cffffffffGangrefrappes|r prolongent désormais de $/1000;560643s1 sec. la durée de |cffffffffFaiblesse|r sur la cible et augmentent de $300481s1% les dégâts critiques de vos sorts pendant $300481d. Cumulable $300481u fois.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Gangrefrappes ».
 sort	300483		Name	5d506bdefa9f	Intuition chaotique	lot talents_002
 sort	300484		Description	5b15207e5824	Les dégâts infligés par |cFFFFFFFFAssaut d'Azzinoth|r réduisent désormais l'armure de l'ennemi de $300482s1% pendant $300482d. Cumulable $300482u fois.	lot talents_002
 sort	300484		Name	de2b94820b14	Lames gangrenées	lot talents_002
@@ -320,7 +320,7 @@ sort	300489		Description	b3180b70719a	Augmente de $s2% les chances de coup criti
 sort	300489		Name	0ca0765391e9	Courroux d'Archimonde	lot talents_002
 sort	300490		Description	23404c3f9300	Vos dégâts périodiques ont désormais $h% de chances de vous conférer |cffffffffForgé par la Gangre|r pendant $806104d.@s:806104:0@	lot talents_002
 sort	300490		Name	806c238431b3	Forgé par la Gangre	lot talents_002
-sort	300497		Description	2f8ac278ba52	Augmente de $s1% l'efficacité de votre |cffffffffRage débridée|r.	lot talents_002
+sort	300497		Description	2f8ac278ba52	Augmente de $s1% l'efficacité de votre |cffffffffOutrage|r.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Outrage = Outrage
 sort	300497		Name	1faa9887836b	Sanguinaire	lot talents_002
 sort	300499		Description	d10b0c7e0570	Vos coups critiques avec |cffffffffDécapitation|r font désormais saigner l'ennemi, ce qui lui inflige 30% supplémentaires des dégâts infligés en $783054d.	lot talents_002
 sort	300499		Name	8840fa8a2f73	Coupe-tête	lot talents_002
@@ -344,7 +344,7 @@ sort	300514		ToolTip	9b31a44de228	Vos |cFFFFFFFFFrappes titanesques|r ont un tem
 sort	300515		Description	b48b70ef0dee	Les alliés à moins de $a1 mètres reçoivent $s1% de soins supplémentaires. Ne se cumule pas avec des effets similaires.\r\n\r\nDe plus, augmente votre maximum de points de vie de $s1%.	lot talents_002
 sort	300515		Name	7f201c9afc30	Corps fortifié	lot talents_002
 sort	300515		ToolTip	0a1af053f1b8	Soins reçus augmentés de ${$w1}%.	lot talents_002
-sort	300520		Description	fef2e46a7376	Augmente de $s1% les dégâts de |cffffffffPlaie-du-Fléau|r, |cffffffffMarteau écarlate|r et |cffffffffFrappe titanesque|r contre les ennemis qui ont moins de 20% de leurs points de vie.	lot talents_002
+sort	300520		Description	fef2e46a7376	Augmente de $s1% les dégâts de |cffffffffPlaie-du-Fléau|r, |cffffffffMarteau écarlate|r et |cffffffffFrappe titanesque|r contre les ennemis qui ont moins de 20% de leurs points de vie.	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Titanstrike = Frappe titanesque, et non « Frappe des Titans ».
 sort	300520		Name	38b60e8ff272	Jugement	lot talents_002
 sort	300522		Description	64deea0422e1	Augmente la durée de votre |cffffffffChaîne de serment|r de $/1000;s1 sec.	lot talents_002
 sort	300522		Name	895966d60e92	Méditation profonde	lot talents_002
@@ -389,7 +389,7 @@ sort	301356		ToolTip	6abb5a3ba0b5	Augmente le maximum de rage de $/10;s1 et réd
 sort	301357		Description	dba741b5b833	Tous vos dégâts de Feu sont augmentés de $s1% contre les ennemis qui ont plus de 80% de leurs points de vie.	lot talents_002
 sort	301357		Name	0cb15b01f568	Invasion	lot talents_002
 sort	301817		Name	67b94a049430	Rites anciens	lot talents_002
-sort	500235		Name	f33db8477528	Lance-roquettes	lot talents_002
+sort	500235		Name	f33db8477528	Lance-roquettes	lot talents_002 | relu par l'API (relecture 0.9.5) : Nom officiel : Lance-roquettes.
 sort	503455		Name	3cad0e0d76ca	Graine explosive	lot talents_002
 sort	503456		Name	3cad0e0d76ca	Graine explosive	lot talents_002
 sort	503457		Name	3cad0e0d76ca	Graine explosive	lot talents_002

@@ -21,7 +21,7 @@ sort	801494		Name	872352446933	Maîtrise du pistage	lot sorts_objets_133
 sort	801586		Description	504ae83e1f50	Psalmodie une incantation de la main d'argent et lance un marteau sacré sur votre cible, ce qui vous attire instantanément vers elle et retire |cffffffffEntrave sacrée|r de vous et d'elle s'il s'agit d'un allié.\r\n\r\nÀ l'arrivée, vous infligez ${$m1+$ppl1+$AP*2} points de dégâts du Sacré à tous les ennemis proches et rendez la même quantité de points de vie aux alliés proches.	lot sorts_objets_133
 sort	801586		Rank	c29d7744e4dc	Retrait des entraves	lot sorts_objets_133
 sort	801649		ToolTip	de9c0dbcb6e6	Dégâts subis par le Faucheur augmentés de $705432s3%.	lot sorts_objets_133
-sort	801668		Description	e5a1e9e07027	|cffffffffInvoque Hir'eek|r\nInflige ${$m1+$RAP*0.035+SP*0.142885} points de dégâts physiques à un ennemi et lui inflige deux |cffffffffMalédictions|r de féticheur aléatoires.	lot sorts_objets_133
+sort	801668		Description	e5a1e9e07027	|cffffffffInvoque Hir'eek|r\nInflige ${$m1+$RAP*0.035+SP*0.142885} points de dégâts physiques à un ennemi et lui impose deux |cffffffffMaléfices|r de féticheur aléatoires.	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Nom cité : Hexes = Maléfices (et non Malédictions)
 sort	801685		Name	7912e0588392	Dévotion de Bwonsamdi	lot sorts_objets_133
 sort	801685		ToolTip	59918022de7e	Vous vous vouez à Bwonsamdi : les dégâts directs que vous infligez vous rendent ${$w1}% des dégâts infligés en points de vie.\r\n\r\nQuand vos points de vie tombent sous 25% du maximum, vous recevez |cffffffffRefuge de l'esprit|r.\r\n@ext:@s:802706:0@:ext@	lot sorts_objets_133
 sort	801687		Description	6fefc30480be	Si vous pouvez lire ceci, contactez un membre du personnel.	lot sorts_objets_133
@@ -38,19 +38,19 @@ sort	801811		ToolTip	79411fedcfdf	A une chance de frapper un ennemi et de lui in
 sort	801826		Description	920d60d9d65c	|cffffffffTir de ferraille du canon de précision|r inflige désormais $504496s1% de dégâts supplémentaires toutes les $t1 sec.	lot sorts_objets_133
 sort	801826		Name	79b617a80b76	Une balle dans le canon	lot sorts_objets_133
 sort	801826		ToolTip	920d60d9d65c	|cffffffffTir de ferraille du canon de précision|r inflige désormais $504496s1% de dégâts supplémentaires toutes les $t1 sec.	lot sorts_objets_133
-sort	801890		Description	11c6c8ea994f	Certaines de vos aptitudes offensives peuvent déclencher une |cffffffffFrappe gangrenée|r sur une cible ennemie.@s:801891:0@	lot sorts_objets_133
-sort	801890		Name	1234b33bb94e	Frappes gangrenées	lot sorts_objets_133
-sort	801890		ToolTip	fa10a9d7eb9e	Certaines de vos aptitudes offensives peuvent déclencher une |cfffeff9eFrappe gangrenée|r sur une cible ennemie.@s:801891@	lot sorts_objets_133
+sort	801890		Description	11c6c8ea994f	Certaines de vos aptitudes offensives peuvent déclencher une |cffffffffGangrefrappe|r sur une cible ennemie.@s:801891:0@	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Gangrefrappe.
+sort	801890		Name	1234b33bb94e	Gangrefrappes	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Cohérence avec le nom de sort déjà employé « Gangrefrappe » (Felstrike).
+sort	801890		ToolTip	fa10a9d7eb9e	Certaines de vos aptitudes offensives peuvent déclencher une |cfffeff9eGangrefrappe|r sur une cible ennemie.@s:801891@	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Gangrefrappe.
 sort	801891		Description	ddc5f8fe5cc3	Inflige ${$801893m1+$801893ppl1} points de dégâts de flamme d'ombre.	lot sorts_objets_133
 sort	801894		Description	b4046bc67699	Votre |cffffffffBarrière forgée par la haine|r évolue désormais aussi avec vos points de vie maximum.	lot sorts_objets_133
 sort	801898		Name	11950629902a	Courroux de Tichondrius	lot sorts_objets_133
 sort	801900		Description	1bca39a6b6a8	Augmente de $/1000;s1 sec la durée de l'|cffffffffInfernal gangrené|r invoqué par votre |cffffffffRuine|r et lui confère une puissante |cffffffffAura d'immolation|r.@s:802784:0@	lot sorts_objets_133
 sort	801902		Description	5d8ce6c6a227	Les dégâts de vos aptitudes de mêlée ont désormais $h% de chances de réinitialiser le temps de recharge d'|cffffffffAnnihilan Strike|r et de faire en sorte que son prochain lancer ne consomme pas d'Énergie.	lot sorts_objets_133
-sort	801902		ToolTip	ba89101dbe6a	Votre prochain Annihilan Strike coûte moitié moins d'Énergie.	lot sorts_objets_133
-sort	801909		Name	a96461d50c2e	Terrible destin gangrené	lot sorts_objets_133
+sort	801902		ToolTip	ba89101dbe6a	Votre prochaine Frappe annihilane coûte moitié moins d'Énergie.	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Nom de sort resté en anglais.
+sort	801909		Name	a96461d50c2e	Destin gangrené	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Fel = Gangre- ; « Terrible destin » ajoute « terrible » absent de l'anglais (Doom = destin funeste).
 sort	801940		Description	8a2033cfe73d	Vole $s1 |cfffeff9epoints de vie|r.	lot sorts_objets_133
 sort	801940		Name	ea752a4172b4	Fléau de la moisson (Expulsion)	lot sorts_objets_133
-sort	801946		Description	e9ec9b395014	Inflige instantanément ${$801947m1+$801947ppl1} points de dégâts de peste à tous les ennemis situés à moins de $a1 mètres et affectés par au moins 1 maladie de nécromancien.	lot sorts_objets_133
+sort	801946		Description	e9ec9b395014	Inflige instantanément ${$801947m1+$801947ppl1} points de dégâts de Peste à tous les ennemis situés à moins de $a1 mètres et affectés par au moins 1 maladie de nécromancien.	lot sorts_objets_133 | relu par l'API (relecture 0.9.5) : Majuscule à Peste, comme dans les autres textes.
 sort	801946		Name	66b30939b94c	Flétrissure pestilentielle	lot sorts_objets_133
 sort	801964		Description	fc09452c4f5f	Invoque un pacte de sang, échangeant des points de vie contre des réflexes accrus : vos chances d'esquiver augmentent et les chances que les attaques à distance vous touchent diminuent de $s3%$?s560257[, et les soins que vous recevez augmentent de $s1%][] pendant $d.\r\n\r\nTant que l'effet est actif, vous pouvez esquiver et parer en incantant.	lot sorts_objets_133
 sort	802002		Description	06129f78e2e3	Augmente vos chances de parer de $s2% et les dégâts de Feu que vous infligez de $s3%, et permet d'utiliser les aptitudes de |cffffffffPosture de la lame|r.\r\n\r\nChanger de posture vous fait perdre une partie de votre Rage.	lot sorts_objets_133

@@ -27,7 +27,7 @@ sort	704495		Name	cf44e7e7746b	Maléfiplosion	lot talents_017
 sort	704497		Description	e2fe80c862c5	Vous vous immobilisez pendant 8 sec. et créez 5 clones de vous-même qui canalisent sur vous, ce qui vous applique une charge de |cffffffffMarionnette d'âme|r.@s:807038:0@	lot talents_017
 sort	704497		Name	8cd8266d0f8b	Marionnette d'âme	lot talents_017
 sort	704497		ToolTip	8992271476ad	Immobilisé. Des esprits vous renforcent.	lot talents_017
-sort	704500		Description	acc64e6738e4	|cFF66DDFFPassif de niveau 50|r\r\nLancer |cffffffffFeu maléfique|r transforme votre prochain |cffffffffCourroux maléfique|r lancé dans les $503626d en |cffffffffCourroux de feu maléfique|r.@s:807480:0@	lot talents_017
+sort	704500		Description	acc64e6738e4	|cFF66DDFFPassif de niveau 50|r\r\nLancer |cffffffffFeu maléfique|r transforme votre prochain |cffffffffCourroux maléfique|r lancé dans les $503626d en |cffffffffCourroux de feu maléfique|r.@s:807480:0@	lot talents_017 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Courroux de feu maléfique ».
 sort	704500		Name	0cfc797192f6	Adepte du feu maléfique	lot talents_017
 sort	704500		ToolTip	abce1f98266d	Courroux	lot talents_017
 sort	704503		Description	a77511821329	Les dégâts infligés par |cffffffffMauvais juju|r et |cFFFFFFFFFeu maléfique|r propagent désormais |cffffffffMaléfice de malveillance|r à un maximum de $704504i ennemi proche.	lot talents_017
@@ -72,7 +72,7 @@ sort	704556		Description	6e21d8c34472	Augmente de $s1% les dégâts de |cfffffff
 sort	704556		Name	e8bda7c6762c	Prophète de malheur	lot talents_017
 sort	704558		Description	02fa7bb60cb2	Infliger des coups critiques directs avec des dégâts d'Ombre réduit de $/1000;504035s1 sec. le temps de recharge de |cffffffffLimbes|r.	lot talents_017
 sort	704558		Name	71b0c16ca988	Sombre passage	lot talents_017
-sort	704562		Description	eeaf5e289ba5	Accomplir un |cffffffffVœu|r augmente désormais vos chances de blocage de $680672s1% pendant $680672d. Cumulable $680672u fois.	lot talents_017
+sort	704562		Description	eeaf5e289ba5	Accomplir un |cffffffffVow|r augmente désormais vos chances de blocage de $680672s1% pendant $680672d. Cumulable $680672u fois.	lot talents_017 | relu par l'API (relecture 0.9.5) : Le nom de sort cité fourni est « Vow » (déjà employé) ; il doit rester identique partout.
 sort	704562		Name	07879a6df328	Garde de l'aube	lot talents_017
 sort	704562		ToolTip	00a2f0e3c4c5	Les dégâts infligés par |cffffffffPorte-aube|r augmentent vos chances de parer de $800357s2% pendant $/1000;s1 sec.	lot talents_017
 sort	704563		Description	f566f9bba1a1	Les soins directs augmentent désormais les points de vie de la cible de ${$704564m1+$704564ppl1} pendant $704564d.	lot talents_017
@@ -103,7 +103,7 @@ sort	704605		Description	ccf1e72ef224	Augmente les dégâts de |cffffffffLame as
 sort	704605		Name	cfe3f774d90c	Fureur des étoiles	lot talents_017
 sort	704606		Description	8f8661a7220c	Les coups critiques magiques directs génèrent désormais $524898s1 points d'Énergie.	lot talents_017
 sort	704606		Name	db4f9ab99f5d	Haine focalisée	lot talents_017
-sort	704607		Description	4c4ee97f4242	Augmente vos dégâts critiques de $s2% et vos chances de coup critique de $s1% supplémentaires lorsque vous combattez des élémentaires.	lot talents_017
+sort	704607		Description	4c4ee97f4242	Augmente vos dégâts critiques de $s2% et, en plus, vos chances de coup critique de $s1% lorsque vous combattez des élémentaires.	lot talents_017 | relu par l'API (relecture 0.9.5) : « supplémentaires » s'accordait mal avec « chances » ; la formulation prêtait à confusion sur ce qui s'ajoute.
 sort	704607		Name	e0c378d09c76	Fléau des élémentaires	lot talents_017
 sort	704610		Description	9fd70ad89728	|cFFFFFFFFAssaut d'Azzinoth|r a désormais $h% de chances de toucher une fois de plus avec votre arme de la main droite.	lot talents_017
 sort	704610		Name	edd15cf7c7e2	Mille entailles	lot talents_017
@@ -132,7 +132,7 @@ sort	704634		Description	ad47551a4b41	Vos coups critiques nuisibles directs augm
 sort	704634		Name	4c32f91b4a69	Magie distordue	lot talents_017
 sort	704635		Description	471d77c90a6b	Augmente l'efficacité des |cFFFFFFFFOffrandes|r de $s1%.	lot talents_017
 sort	704635		Name	b3e95d6232ae	Manipulateur de sang	lot talents_017
-sort	704636		Description	c0eed1c2e130	Donne à votre |cFFFFFFFFPlaie de sang|r $s1% de chances de fournir ses bienfaits sans être consommée.	lot talents_017
+sort	704636		Description	c0eed1c2e130	Donne à votre |cFFFFFFFFPlaie de sang|r $s1% de chances de fournir ses bienfaits sans être consommée.	lot talents_017 | relu par l'API (relecture 0.9.5) : nom de sort cité différent du nom fourni (Plaie de sang)
 sort	704636		Name	1d461f453382	Seigneur de sang	lot talents_017
 sort	704641		Description	37826c9cd30f	Votre |cFFFFFFFFÉclair de sang|r inflige à coup sûr un coup critique aux ennemis affectés par |cffffffffTourment de Taldaram|r.	lot talents_017
 sort	704641		Name	80357fb37b1d	Ordre du prince de sang	lot talents_017
@@ -157,7 +157,7 @@ sort	704661		Description	020da94b1b3c	|cFF66DDFFPassif de niveau 30|r\r\nTant qu
 sort	704661		Name	df3903e5f460	Force bestiale	lot talents_017
 sort	704662		Description	74ce5272b660	Tant que vos points de vie sont supérieurs à 75%, les dégâts que vous subissez sont réduits de $s2%.	lot talents_017
 sort	704662		Name	7b518ab17077	Ombres dans la nuit	lot talents_017
-sort	704669		Description	03107d03acc7	|cFF66DDFFPassif de niveau 30|r\r\nAugmente vos dégâts critiques de $s1% contre les cibles |cff3399ffGelées|r.	lot talents_017
+sort	704669		Description	03107d03acc7	|cFF66DDFFPassif de niveau 30|r\r\nAugmente vos dégâts critiques de $s1% contre les cibles |cff3399ffGelées|r.	lot talents_017 | relu par l'API (relecture 0.9.5) : Accord : « cibles gelées » (pluriel féminin).
 sort	704669		Name	c9262d3bc3e9	Frigidité	lot talents_017
 sort	704670		Description	1afeb394652f	Augmente vos dégâts de Givre de $s2% et votre Puissance runique maximale de $/10;s1.	lot talents_017
 sort	704670		Name	543a359c3241	Réservoir runique	lot talents_017
@@ -174,8 +174,8 @@ sort	704690		Description	cde372c5ecbc	Chaque point de Rage augmente désormais d
 sort	704690		Name	26dc498a1da4	Instinct de tueur	lot talents_017
 sort	704692		Description	05f705fc2fe0	Lorsque vous utilisez |cffffffffTourment de Taldaram|r sur un humanoïde ou une bête, son sang est désormais corrompu, ce qui augmente de $532623s1% les dégâts que vous lui infligez.	lot talents_017
 sort	704692		Name	07881a7d302c	Sang vicié	lot talents_017
-sort	704701		Description	4b64158af131	Lancer des sorts |cff90ee90Commandement|r vous confère désormais une charge de |cffffffffRoi-sous-la-montagne|r pendant $302516d.\r\n\r\nÀ 10 charges, le temps de recharge de$?s805032[][ |cffffffffAnimer : spectre d'os|r,]$?s805044[][ |cffffffffAnimer : roi des tombes|r] ou |cffffffffAnimer : père de la peste|r est réduit au hasard de $/1000;302517s1 sec et vous animez un |cffffffffZombie supérieur|r pendant $525380d.	lot talents_017
-sort	704701		Name	4ac587157e3a	Roi-sous-la-montagne	lot talents_017
+sort	704701		Description	4b64158af131	Lancer des sorts |cff90ee90Commandement|r vous confère désormais une charge de |cffffffffSous-roi|r pendant $302516d.\r\n\r\nÀ 10 charges, le temps de recharge de$?s805032[][ |cffffffffAnimer : roi des tombes|r,]$?s805044[][ |cffffffffAnimer : spectre d'os|r] ou |cffffffffAnimer : père de la peste|r est réduit au hasard de $/1000;302517s1 sec et vous animez un |cffffffffZombie supérieur|r pendant $525380d.	lot talents_017 | relu par l'API (relecture 0.9.5) : Nom cité aligné sur la correction du nom du sort 704701 (Underking → Sous-roi).
+sort	704701		Name	4ac587157e3a	Sous-roi	lot talents_017 | relu par l'API (relecture 0.9.5) : « Roi-sous-la-montagne » est un ajout (lore de Tolkien) ; « Underking » se rend littéralement par « Sous-roi ». Le nom cité dans la description (n° 5) doit rester identique.
 sort	704713		Description	df4f5a1e7f83	Réduit de $/10;s1 le coût en Puissance runique de vos sorts |cff90ee90Commandement|r.	lot talents_017
 sort	704713		Name	e05eadcc993c	Commandant liche	lot talents_017
 sort	704715		Description	c79538160278	Réduit de $/1000;S1 sec le temps d'incantation de |cffffffffSacrifier les morts-vivants|r.	lot talents_017
@@ -188,15 +188,15 @@ sort	704718		Name	c80a1bb65ccc	Inlassable	lot talents_017
 sort	704718		ToolTip	0016776391f7	Augmente les dégâts d'|cffffffffEssaim de la crypte|R de ${$w1}%.	lot talents_017
 sort	704721		Description	1e1d1bea4a85	Lorsque vous lancez |cFFFFFFFFFrénésie impie|r, vous animez désormais $302912s1 |cffffffffZombies supérieurs|r pour vous aider au combat pendant $525380d.\r\n\r\nLes dégâts de Givre et physiques infligés par vos serviteurs morts-vivants réduisent désormais de $/1000;302597S1 sec le temps de recharge de |cffffffffFrénésie impie|r. \r\n\r\nChaque |cffffffffAbominations|r ou |cffffffffColosse en décomposition|r actif fait que les dégâts infligés par vos serviteurs morts-vivants réduisent le temps de recharge de 1 sec supplémentaire.	lot talents_017
 sort	704721		Name	6844969f3701	Étude de la mort	lot talents_017
-sort	704723		Description	928822954d42	|cFF66DDFFPassif de niveau 40|r\r\nLancer des sorts vous confère désormais 1 charge de |cffffffffDiabolique|r, cumulable jusqu'à $706504u fois, pendant $706504d.\r\n\r\nLes dégâts infligés par votre |cffffffffEssaim de la crypte|r consomment une charge pour infliger $707133s1% de dégâts supplémentaires par charge.	lot talents_017
+sort	704723		Description	928822954d42	|cFF66DDFFPassif de niveau 40|r\r\nLancer des sorts vous confère désormais 1 charge de |cffffffffDiabolique|r, cumulable jusqu'à $706504u fois, pendant $706504d.\r\n\r\nLes dégâts infligés par votre |cffffffffEssaim de la crypte|r consomment une charge et sont augmentés de $707133s1% par charge.	lot talents_017 | relu par l'API (relecture 0.9.5) : « $707133s1% de dégâts supplémentaires par charge » rendait mal « increased damage per stack » ; formulation plus fidèle.
 sort	704723		Name	1b02507200d7	Diabolique	lot talents_017
 sort	704724		Description	30b0dd4f2cb5	|cFF66DDFFPassif de niveau 20|r\r\nLancer des sorts |cff90ee90Commandement|r a désormais $h% de chances de rendre gratuite leur prochaine utilisation dans les $572777d.	lot talents_017
 sort	704724		Name	7d5475a8129e	Lien mortel	lot talents_017
 sort	704725		Description	b8224dedef69	Les coups critiques de |cffffffffFlux lunaire|r et de |cffffffffPrière d'Elune|r appliquent désormais |cffffffffFlèches éclipsantes|r à la cible pendant $574154d.\r\n\r\nLancer |cffffffffTir de chasseresse|r rend ${$704232m1+$704232ppl1+$SP*.3} points de vie aux alliés marqués.	lot talents_017
 sort	704725		Name	1803915096c5	Cascade lunaire	lot talents_017
-sort	704729		Description	aae55b510a9b	Augmente votre Puissance runique maximale de $s1%.	lot talents_017
+sort	704729		Description	aae55b510a9b	Augmente votre puissance runique maximale de $s1%.	lot talents_017 | relu par l'API (relecture 0.9.5) : Puissance runique en minuscule dans la phrase (comme « points de puissance runique » ailleurs).
 sort	704729		Name	140c7d147d67	Bénédiction de Ner'zhul	lot talents_017
-sort	704729		ToolTip	382f2606bea0	Augmente votre Puissance runique totale de ${$w1}%.	lot talents_017
+sort	704729		ToolTip	382f2606bea0	Augmente votre puissance runique totale de ${$w1}%.	lot talents_017 | relu par l'API (relecture 0.9.5) : Minuscule dans la phrase, par cohérence.
 sort	704732		Description	2df075acd4bb	Réduit de $/1000;s1 sec le temps de recharge de |cFFFFFFFFConvergence stellaire|r.	lot talents_017
 sort	704732		Name	ff944ed0f5da	Afflux réparateur	lot talents_017
 sort	704739		Description	b93153d812d6	Un |cFFFFFFFFTir de feu stellaire|r sur 3 transforme votre prochain |cFFFFFFFFTir de feu stellaire|r en |cFFFFFFFFBarrage de feu stellaire|r.@s:802682:0@	lot talents_017
@@ -204,7 +204,7 @@ sort	704739		Name	8504f95e9cda	Barrage de feu stellaire	lot talents_017
 sort	704739		ToolTip	fa0ca959cec1	Un |cFFFFFFFFTir assuré|r sur 3 transforme |cFFFFFFFFTir de feu stellaire|r en |cFFFFFFFFBarrage de feu stellaire|r.@s:802682:0@	lot talents_017
 sort	704740		Description	1be9cdbfa14f	|cFFFFFFFFTir de feu stellaire|r a désormais $h% de chances de tirer un |cFFFFFFFFTir de chasseresse|r gratuit sur la cible.	lot talents_017
 sort	704740		Name	8d7f2d057f65	Focalisation de la sentinelle	lot talents_017
-sort	704741		Description	b1aa6f1cb657	Vos dégâts à distance ont désormais $h% de chances de déclencher une |cff66ccffÉtoile éparpillée|r.\r\n\r\nDe plus, lancer |cffffffffFlot d'argent|r applique désormais des |cff66ccffÉtoiles éparpillées|r à $807301i ennemis au maximum autour de chaque cible soignée.	lot talents_017
+sort	704741		Description	b1aa6f1cb657	Vos dégâts à distance ont désormais $h% de chances de déclencher une |cff66ccffÉtoile éparpillée|r.\r\n\r\nDe plus, lancer |cffffffffFlot d'argent|r applique désormais des |cff66ccffÉtoiles éparpillées|r à $807301i ennemis au maximum autour de chaque cible soignée.	lot talents_017 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Silverstream = « Flot d'argent » (nom français fourni), et non « Ruisseau d'argent ».
 sort	704741		Name	cafb8c7f4630	Bénie par les étoiles	lot talents_017
 sort	704745		Description	829201194940	Votre |cffffffffPrière d'Elune|r dissipe désormais $s1 effet supplémentaire.	lot talents_017
 sort	704745		Name	4b6039c9aba3	Prière finale	lot talents_017
@@ -215,9 +215,9 @@ sort	704756		Description	968ed293615b	Augmente de $s1% vos soins prodigués, et 
 sort	704756		Name	10368153be83	Bénédiction lunaire	lot talents_017
 sort	704757		Description	968ed293615b	Augmente de $s1% vos soins prodigués, et de $s2% supplémentaires sur les cibles |cff00ff00empoisonnées|r ou |cff7fff00malades|r.	lot talents_017
 sort	704757		Name	10368153be83	Bénédiction lunaire	lot talents_017
-sort	704759		Description	adf46f85342a	Augmente de $s1% les soins de |cFFFFFFFFMain d'Elune|r, |cFFFFFFFFFlux lunaire|r et |cFFFFFFFFFlot d'argent|r.	lot talents_017
+sort	704759		Description	adf46f85342a	Augmente de $s1% les soins de |cFFFFFFFFMain d'Élune|r, |cFFFFFFFFFlux lunaire|r et |cFFFFFFFFFlot d'argent|r.	lot talents_017 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Silverstream » doit être « Flot d'argent » (nom français fourni), pas « Ruisseau d'argent ».
 sort	704759		Name	38c58c76cddc	Enseignements d'Elune	lot talents_017
-sort	704764		Description	33c7f7bfc526	Lancer |cFFFFFFFFFlèche lunaire|r réduit désormais de $/1000;804072s1 sec le temps de recharge de |cffffffffPrière d'Elune|r et de $/1000;804072s2 sec celui de |cffffffffFlux lunaire|r et |cffffffffForme céleste|r.	lot talents_017
+sort	704764		Description	33c7f7bfc526	Lancer |cFFFFFFFFFlèche lunaire|r réduit désormais de $/1000;804072s1 sec le temps de recharge de |cffffffffPrière d'Elune|r et de $/1000;804072s2 sec celui de |cffffffffFlux lunaire|r et de |cffffffffForme céleste|r.	lot talents_017 | relu par l'API (relecture 0.9.5) : Sens ambigu : « celui de Flux lunaire et Forme céleste » ; ajout de « de » devant Forme céleste pour la clarté.
 sort	704764		Name	bdc2718adb03	Prophétie lunaire	lot talents_017
 sort	704765		Description	c26c89904eee	Chaque 8e |cff66ccffÉtoile éparpillée|r que vous consommez augmente de $707425s1% les dégâts de votre prochain |cFFFFFFFFAppel stellaire|r.	lot talents_017
 sort	704765		Name	47263c646307	Cascade	lot talents_017
@@ -235,7 +235,7 @@ sort	704775		Description	7edea79078c9	Augmente de $s1% la vitesse de déplacemen
 sort	704775		Name	721df006ab24	Orteils scintillants	lot talents_017
 sort	704776		Description	b2aba5225b6b	Augmente de $s1% l'efficacité d'|cFFFFFFFFEsprit céleste|r.	lot talents_017
 sort	704776		Name	47aef7976f78	Citoyen des étoiles	lot talents_017
-sort	704777		Description	49d5daf5ffa9	|cffffffffDrains $807032s1% Maximum Mana|r\r\nContre-attaque instantanément tout ennemi qui vous frappe de face en mêlée en lui infligeant des dégâts des Arcanes, pendant $d. Ne peut se produire qu'une fois par sec. et par ennemi.\r\n\r\n@ext:Shares a cooldown with other |cffffffffAegis|r spells.:ext@	lot talents_017
+sort	704777		Description	49d5daf5ffa9	|cffffffffDrains $807032s1% Maximum Mana|r\r\nContre-attaque instantanément tout ennemi qui vous frappe de face en mêlée en lui infligeant des dégâts des Arcanes, pendant $d. Ne peut se produire qu'une fois par sec. et par ennemi.\r\n\r\n@ext:Partage un temps de recharge avec les autres sorts d'|cffffffffÉgide|r.:ext@	lot talents_017 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Aegis » = « Égide » (avec accent), pas « Egide ».
 sort	704777		Name	af4423fa12ce	Égide imprégnée	lot talents_017
 sort	704777		ToolTip	5fa6152c7375	Contre-attaque.	lot talents_017
 sort	704778		Name	c947efc4f6c5	Barbare stellaire	lot talents_017

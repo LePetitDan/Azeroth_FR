@@ -61,7 +61,7 @@ sort	364781		Name	683e3e44873f	Wonka ocre	doute résolu (0.9.5, audit des sorts)
 sort	364782		Name	b08a23fe4804	Wonka vert	doute résolu (0.9.5, audit des sorts)
 sort	364783		Name	8105e0118379	Wonka jaune	doute résolu (0.9.5, audit des sorts)
 sort	500134		Description	597ee363aba3	OBSOLÈTE	doute résolu (0.9.5, audit des sorts)
-sort	500134		Name	3309ea5a2c54	Œuf de phénix OBSOLÈTE	doute résolu (0.9.5, audit des sorts)
+sort	500134		Name	3309ea5a2c54	Oeuf de phénix OBSOLÈTE	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : Nom officiel « Oeuf de phénix » à reprendre tel quel.
 sort	704109		Description	9af6531ae20c	Supprime le temps de recharge de votre aptitude Gunsling pendant $d.	doute résolu (0.9.5, audit des sorts)
 sort	704109		ToolTip	cd70da48aa80	Gunsling n'a pas de temps de recharge.	doute résolu (0.9.5, audit des sorts)
 sort	704345		Description	dcd094028411	Démonte vos tourelles sentinelles actives et rembourse	doute résolu (0.9.5, audit des sorts)
@@ -71,7 +71,7 @@ sort	704433		Description	12e1b9d4cc60	L'effet de réduction des dégâts de |cff
 sort	704433		ToolTip	27c80ceb0560	L'effet de réduction des dégâts de Reconstruction abyssale dure désormais $/1000;s1 sec de plus, mais son efficacité est réduite de ${$w2}%.	doute résolu (0.9.5, audit des sorts)
 sort	704465		Description	b5be691e80c7	Détruit votre |cffffffffChevalier mécanique|r pour vous renforcer, augmentant de $s1% les dégâts des invocations non permanentes et de $s2% tous les dégâts que vous infligez.	doute résolu (0.9.5, audit des sorts)
 sort	704465		ToolTip	cdd3a2ff8431	Détruit votre |cffffffffChevalier mécanique|r pour vous renforcer, augmentant de ${$w1}% les dégâts des invocations non permanentes et de ${$w2}% tous les dégâts que vous infligez.	doute résolu (0.9.5, audit des sorts)
-sort	704477		Description	a844a67230d9	Supprime le temps d'incantation de |cffffffffHôte entropique|r et de |cffffffffInvocation : Torturemental|r et réduit de $/1000;s3 sec le temps de recharge de |cffffffffÉmentation de sommeil|r et de |cffffffffÉcriture démente|r.	doute résolu (0.9.5, audit des sorts)
+sort	704477		Description	a844a67230d9	Supprime le temps d'incantation de |cffffffffHôte entropique|r et de |cffffffffInvocation : Torturemental|r et réduit de $/1000;s3 sec le temps de recharge de |cffffffffÉmentation de sommeil|r et de |cffffffffÉcriture démente|r.	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du français fourni : « Invocation : Torturemental » (et non « Contrôleur mental »).
 sort	704477		ToolTip	7146f607c177	Réduit de ${$w3}% la durée d'Armure surnaturelle et sa période de blocage, et augmente de ${$w2}% ses soins périodiques.	doute résolu (0.9.5, audit des sorts)
 sort	704492		Description	6a160cc43c98	Pour chaque charge de |cffffffffChromatique|r au-delà de 10, |cffffffffChronofaisceau|r lance un |cffffffffÉclat chromatique|r sur la cible. \r\n\r\nChaque impulsion inflige $801292s1 points de dégâts chromatiques et génère 1 |cffffffffOrdre|r.	doute résolu (0.9.5, audit des sorts)
 sort	704492		ToolTip	845013016b82	Pour chaque charge de Chromatique au-delà de 10, Chronofaisceau lance un Éclat chromatique sur la cible. \n\nChaque impulsion inflige $801292s1 points de dégâts chromatiques et génère 1 Ordre.	doute résolu (0.9.5, audit des sorts)
@@ -83,15 +83,15 @@ sort	704631		Description	e2ef9c8626f1	Augmente de $s1% les dégâts des |cffffff
 sort	704631		ToolTip	ea4eb6a593cd	Augmente de ${$w1}% les dégâts des Glaives spectraux.	doute résolu (0.9.5, audit des sorts)
 sort	704640		Description	a26262091967	Réduit de $s1% les chances que |cffffffffFange vestigiale|r soit brisée par des dégâts.	doute résolu (0.9.5, audit des sorts)
 sort	704640		ToolTip	f07d08d8aa40	Réduit de ${$w1}% les chances que |cffffffffFange vestigiale|r soit brisée par des dégâts.	doute résolu (0.9.5, audit des sorts)
-sort	704645		Description	c2c576ff83fa	|cffffffffFente|r applique désormais |cffffffffGriffe sinistre|r aux ennemis touchés.	doute résolu (0.9.5, audit des sorts)
-sort	704645		ToolTip	c2c576ff83fa	|cffffffffFente|r applique désormais |cffffffffGriffe sinistre|r aux ennemis touchés.	doute résolu (0.9.5, audit des sorts)
-sort	704651		Description	619484643233	|cffffffffDéflagration de lune de sang|r, |cffffffffConsumer|r et |cffffffffTourment de Taldaram|r ont désormais $h% de chances d'appliquer |cffffffffGriffe sinistre|r lorsqu'ils infligent des dégâts.	doute résolu (0.9.5, audit des sorts)
-sort	704651		ToolTip	47d3e0ec34f2	Déflagration de lune de sang, Consumer et Tourment de Taldaram ont désormais $h% de chances d'appliquer |cffffffffGriffe sinistre|r lorsqu'ils infligent des dégâts.	doute résolu (0.9.5, audit des sorts)
+sort	704645		Description	c2c576ff83fa	|cffffffffFente|r applique désormais |cffffffffGriffe sinistre|r aux ennemis touchés.	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : nom de sort cité : « Griffe sinistre » sans trait d'union, comme le nom fourni
+sort	704645		ToolTip	c2c576ff83fa	|cffffffffFente|r applique désormais |cffffffffGriffe sinistre|r aux ennemis touchés.	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : nom de sort cité : « Griffe sinistre » sans trait d'union, comme le nom fourni
+sort	704651		Description	619484643233	|cffffffffDéflagration de lune de sang|r, |cffffffffConsumer|r et |cffffffffTourment de Taldaram|r ont désormais $h% de chances d'appliquer |cffffffffGriffe sinistre|r lorsqu'ils infligent des dégâts.	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Griffe sinistre » (sans trait d'union).
+sort	704651		ToolTip	47d3e0ec34f2	Déflagration de lune de sang, Consumer et Tourment de Taldaram ont désormais $h% de chances d'appliquer |cffffffffGriffe sinistre|r lorsqu'ils infligent des dégâts.	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Griffe sinistre » (sans trait d'union).
 sort	704663		Description	731850abce20	|cffffffffMorsure sanglante|r applique une charge de |cffffffffMorsure de worgen|r à la cible. À $800491u charges, vous déclenchez une attaque |cffffffffMorsure vicieuse|r.@s:804855:0@	doute résolu (0.9.5, audit des sorts)
 sort	704663		ToolTip	d917e0684472	|cffffffffMorsure sanglante|r applique |cffffffffMorsure de worgen|r à la cible.@s:800491@@s:804855@	doute résolu (0.9.5, audit des sorts)
 sort	704664		Description	fe3604fd812d	|cffffffffHurlement du chasseur nocturne|r applique désormais |cffffffffMorsure de worgen|r à tous les ennemis touchés.	doute résolu (0.9.5, audit des sorts)
 sort	704664		ToolTip	00d3734fe729	|cffffffffHurlement du chasseur nocturne|r applique |cffffffffMorsure de worgen|r à tous les ennemis touchés.	doute résolu (0.9.5, audit des sorts)
-sort	704671		Name	62bef5547a18	Trancheglace amélioré	doute résolu (0.9.5, audit des sorts)
+sort	704671		Name	62bef5547a18	Glace-rasoir améliorée	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : Le nom du sort cité est « Glace-rasoir » ; le nom doit être identique et s'accorder (féminin).
 sort	704678		Description	94d7cb232baa	Supprime le coût en Puissance runique de |cffffffffGel instantané|r.	doute résolu (0.9.5, audit des sorts)
 sort	704678		ToolTip	94d7cb232baa	Supprime le coût en Puissance runique de |cffffffffGel instantané|r.	doute résolu (0.9.5, audit des sorts)
 sort	704683		Name	e322b965dc62	Chair aux vers RP GEN	doute résolu (0.9.5, audit des sorts)
@@ -108,7 +108,7 @@ sort	705797		Name	5fd141e2346f	Double tir OBSOLÈTE	doute résolu (0.9.5, audit 
 sort	801705		Description	163530d89e2f	Les attaques de vos tourelles maintenant	doute résolu (0.9.5, audit des sorts)
 sort	801813		Description	737c312d31fd	Permet à |cffffffffDémonter|r d'accorder un bouclier d'absorption des dégâts selon votre Agilité, et de régénérer	doute résolu (0.9.5, audit des sorts)
 sort	803179		Description	fd51cee11964	Obsolète	doute résolu (0.9.5, audit des sorts)
-sort	806405		Description	c84879e7b5fc	NÉCESSITE UN NOUil EFFET	doute résolu (0.9.5, audit des sorts)
+sort	806405		Description	c84879e7b5fc	NÉCESSITE UN NOUVEL EFFET	doute résolu (0.9.5, audit des sorts) | relu par l'API (relecture 0.9.5) : Faute de frappe : « NOUil » au lieu de « NOUVEL ».
 sort	806405		Name	932ea4d68313	À REFAIRE	doute résolu (0.9.5, audit des sorts)
 sort	914893		Name	faa9028c1f98	Drake rampant kaléidoscopique	doute résolu (0.9.5, audit des sorts)
 sort	914894		Name	faa9028c1f98	Drake rampant kaléidoscopique	doute résolu (0.9.5, audit des sorts)

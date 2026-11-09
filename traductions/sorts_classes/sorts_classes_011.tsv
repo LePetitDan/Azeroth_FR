@@ -41,7 +41,7 @@ sort	704782		ToolTip	3b95fe6d5bba	Augmente votre Endurance de ${$w1}% et votre m
 sort	704791		Description	ce65d9b205d1	|cffffffffEnchaînement céleste|r a $h% de chances d'appliquer |cff66ccffÉtoiles éparpillées|r aux ennemis affectés.	lot sorts_classes_011
 sort	704791		Name	ef119af370bd	Conquête lunaire	lot sorts_classes_011
 sort	704791		ToolTip	475e9ed9df82	Donne à |cffffffffEnchaînement céleste|r 15% de chances d'appliquer |cff66ccffÉtoiles éparpillées|r aux ennemis affectés.@s:804378@	lot sorts_classes_011
-sort	704797		Description	6c99c29022d0	|cFF66DDFFPassif de niveau 40|r\r\n|cff66ccffÉtoiles éparpillées|r font désormais subir à l'ennemi $s1% de dégâts des Arcanes supplémentaires par charge.	lot sorts_classes_011
+sort	704797		Description	6c99c29022d0	|cFF66DDFFPassif de niveau 40|r\r\nLes |cff66ccffÉtoiles éparpillées|r font désormais subir à l'ennemi $s1% de dégâts des Arcanes supplémentaires par charge.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : article manquant devant le nom du sort (« Étoiles éparpillées font » est agrammatical)
 sort	704797		Name	0bae5e4dc1bb	Marque magique	lot sorts_classes_011
 sort	704799		Description	2dce2a3b7bb1	Lancer |cffffffffTrait flamboyant|r confère |cffffffffFlammes de focalisation|r pendant $500189d, cumulable 3 fois.@s:500189:0@	lot sorts_classes_011
 sort	704799		Name	26914c87b120	Flammes de focalisation	lot sorts_classes_011
@@ -71,7 +71,7 @@ sort	704867		Name	271044e0e984	Bénédiction de l'Empire	lot sorts_classes_011
 sort	704870		Description	14c15545eafe	Lancer |cffffffffVoyage ombral|r frappe désormais d'horreur les ennemis situés là où vous apparaissez pendant $/1000;s1 sec, ce qui augmente de $806176s3% les dégâts qu'ils subissent de votre part pendant la durée de l'effet.	lot sorts_classes_011
 sort	704870		Name	ce44ebb3e2a6	Horreur cosmique	lot sorts_classes_011
 sort	704870		ToolTip	14c15545eafe	Lancer |cffffffffVoyage ombral|r frappe désormais d'horreur les ennemis situés là où vous apparaissez pendant $/1000;s1 sec, ce qui augmente de $806176s3% les dégâts qu'ils subissent de votre part pendant la durée de l'effet.	lot sorts_classes_011
-sort	704873		Description	0a0d3e752453	Atteindre 80 |cffcfa6ffFolie|r augmente vos dégâts magiques et vos soins de $573285s1% pendant $573285d.	lot sorts_classes_011
+sort	704873		Description	0a0d3e752453	Atteindre 80 |cffcfa6ffFolie|r augmente vos dégâts magiques et vos soins de $573285s1% pendant $573285d.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Décision 20 : Insanity = Folie. « Insanité » est une erreur.
 sort	704873		Name	9a875dbd8857	Étreindre le Vide	lot sorts_classes_011
 sort	704873		ToolTip	b5745ee24c26	Atteindre 80 Folie augmente vos dégâts magiques et vos soins de ${$w1}% pendant $d.	lot sorts_classes_011
 sort	704874		Description	c1e596877131	Réduit de $s1% la durée des effets de peur et de charme utilisés contre vous.	lot sorts_classes_011
@@ -88,9 +88,9 @@ sort	704888		Name	5c891774dd61	Brise-lumière	lot sorts_classes_011
 sort	704888		ToolTip	0a8d89a53437	Augmente de ${$w1}% les dégâts bonus des coups critiques des sorts.	lot sorts_classes_011
 sort	704891		Description	db5b410cdfbf	Augmente de $s1% les chances de coup critique de |cffffffffGuérison surnaturelle|r.	lot sorts_classes_011
 sort	704891		Name	2fd196c7885f	Hérésie	lot sorts_classes_011
-sort	704892		Description	a4a3ccad126b	Après avoir lancé 3 |cFFFFFFFFTraits d'horreur|r, sort se transforme en |cFFFFFFFFVolée de traits d'horreur|r pendant $255070d.\r\n@s:504719:0@	lot sorts_classes_011
+sort	704892		Description	a4a3ccad126b	Après avoir lancé 3 |cFFFFFFFFTraits d'horreur|r, le sort se transforme en |cFFFFFFFFVolée de traits d'horreur|r pendant $255070d.\r\n@s:504719:0@	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Sujet « sort » manquant : « sort se transforme » est agrammatical.
 sort	704892		Name	babd5455c37f	Volée de traits d'horreur	lot sorts_classes_011
-sort	704892		ToolTip	3a291f35ab13	|cffffffffTrait d'horreur|r et |cFFFFFFFFDévastation surnaturelle|r frappent désormais ${$m1-1} ennemis proches supplémentaires.	lot sorts_classes_011
+sort	704892		ToolTip	3a291f35ab13	|cffffffffTrait d'horreur|r et |cFFFFFFFFDévastation surnaturelle|r frappent désormais ${$m1-1} ennemis proches supplémentaires.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le nom français fourni est « Éclair d'effroi », mais le nom du sort de la ligne 38 est « Trait d'horreur » ; incohérence.
 sort	704898		Description	bbb17e2835c8	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffFrénésie abyssale|r et augmente de $s2 ses charges.	lot sorts_classes_011
 sort	704898		Name	170fdee51cd4	Marcheur des abysses	lot sorts_classes_011
 sort	704898		ToolTip	3882e765ee94	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffArmure surnaturelle|r.	lot sorts_classes_011
@@ -103,9 +103,9 @@ sort	704900		ToolTip	7a7703758376	Fait en sorte que |cffffffffRayon d'illuminati
 sort	704901		Description	ffa05eb144b1	Les soins effectifs augmentent votre Endurance et votre Esprit de $570035s1%, cumulable jusqu'à $570035u fois, pendant $570035d.	lot sorts_classes_011
 sort	704901		Name	be320b06f43b	Vitalité	lot sorts_classes_011
 sort	704901		ToolTip	4ac3502d3297	Augmente les points de vie maximum de ${$w1}%.	lot sorts_classes_011
-sort	704902		Description	2409aac5a83d	|cffffffffÉblouissement|r rend désormais $706442s1% de vos points de vie maximum.	lot sorts_classes_011
+sort	704902		Description	2409aac5a83d	|cffffffffÉblouissement|r rend désormais $706442s1% de vos points de vie maximum.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Glare = Éblouissement, et non « Regard furieux ».
 sort	704902		Name	9214f88db858	Sans ombre	lot sorts_classes_011
-sort	704902		ToolTip	2fd3ecf723ea	|cffffffffÉblouissement|r rend désormais $706442s1% de vos points de vie maximum	lot sorts_classes_011
+sort	704902		ToolTip	2fd3ecf723ea	|cffffffffÉblouissement|r rend désormais $706442s1% de vos points de vie maximum	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Glare = Éblouissement.
 sort	704905		Description	505f1186c8c3	Augmente de $/1000;s1 sec la durée de |CffffffffChampion du soleil|r et de |cffffffffChaînes de Lumière|r.	lot sorts_classes_011
 sort	704905		Name	112894a0024f	Arrivée du champion	lot sorts_classes_011
 sort	704912		Description	8354a7460030	Les dégâts magiques directs subis ont désormais $h% de chances de vous rendre ${$560855m1+$560855ppl1+$SP*0.12+$AP*0.05} points de vie toutes les $560855t1 sec pendant $560855d.	lot sorts_classes_011
@@ -118,7 +118,7 @@ sort	704918		ToolTip	8046a13ee26e	|cffffffffRempart des bénédictions|r réduit
 sort	704923		Description	8bed403b2f40	Bloquer une attaque confère |cffffffffPoint du jour|r. Cet effet ne peut se produire plus d'une fois par sec.@s:800601:0@	lot sorts_classes_011
 sort	704923		Name	3a8a772a02c1	Seigneur commandant	lot sorts_classes_011
 sort	704923		ToolTip	9d3ae5aa2b0a	Augmente les points de vie maximum de ${$w1}% et tous les soins reçus de ${$w2}%.	lot sorts_classes_011
-sort	704924		Description	c61161dd0aa4	Augmente de $s1% la valeur de blocage et vous apprend |cffffffffBouclier solaire|r.@s:560547:0@	lot sorts_classes_011
+sort	704924		Description	c61161dd0aa4	Augmente de $s1% la valeur de blocage et vous apprend |cffffffffBouclier solaire|r.@s:560547:0@	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Bouclier solaire ».
 sort	704924		Name	95cb7600b121	Rempart du soleil	lot sorts_classes_011
 sort	704924		ToolTip	6e71bd462bd7	Augmente de ${$w1}% la valeur de blocage.	lot sorts_classes_011
 sort	704940		Description	7ca28e8c34a0	|cffffffffExécution glorieuse|r touche désormais jusqu'à ${$m1-1} ennemis.	lot sorts_classes_011
@@ -156,7 +156,7 @@ sort	704983		Name	05ffea9caa15	Festin du chaos	lot sorts_classes_011
 sort	704984		Description	3d8a0fc5e7ad	Changer de |cffffffffPestilence|r active supprime désormais 1 effet de malédiction et de maladie et réduit de $704985s1% tous les dégâts subis pendant $704985d.	lot sorts_classes_011
 sort	704984		Name	fb6fb7189e94	Maître de guerre du soufre	lot sorts_classes_011
 sort	704984		ToolTip	0deba77601e8	Utiliser une |cffffffffPestilence|r supprime désormais 1 effet de malédiction et de maladie et réduit de $704985s1% tous les dégâts subis pendant $704985d.	lot sorts_classes_011
-sort	704993		Description	19e439f538ca	Vous apprend |cffffffffInvocation : Diablotin supérieur|r.\r\n@s:520661:0@	lot sorts_classes_011
+sort	704993		Description	19e439f538ca	Vous apprend |cffffffffInvocation : Diablotin supérieur|r.\r\n@s:520661:0@	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Invocation : Diablotin supérieur » (majuscule à Diablotin).
 sort	704993		Name	7e338cd20b0a	Diablotin supérieur	lot sorts_classes_011
 sort	704996		Description	b2d766262f0d	Augmente de $s1% les dégâts de Feu et de $s2% les chances de coup critique.	lot sorts_classes_011
 sort	704996		Name	738ec4bf45ff	Flammes noires	lot sorts_classes_011
@@ -183,7 +183,7 @@ sort	705014		ToolTip	9ccee569c100	Réduit de $/1000;s2 sec le temps de recharge 
 sort	705017		Description	6486ce171861	Augmente de $s1% les dégâts de |cffffffffChair déchirée|r.	lot sorts_classes_011
 sort	705017		Name	e20001eed132	Entaille profonde	lot sorts_classes_011
 sort	705017		ToolTip	f976a837c680	Augmente de $s1% les dégâts de Chair déchirée.	lot sorts_classes_011
-sort	705022		Description	660c56037009	Lorsque vous frappez au moins $s1 ennemis avec |cffffffffPorteguerre|r, les ennemis saignent désormais pour $705023o1 sur $705023d.	lot sorts_classes_011
+sort	705022		Description	660c56037009	Lorsque vous frappez au moins $s1 ennemis avec |cffffffffPorteguerre|r, les ennemis saignent désormais et subissent $705023o1 points de dégâts en $705023d.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : « saignent pour X sur Y » est maladroit ; tournure officielle des dégâts périodiques.
 sort	705022		Name	f2488ac9bc62	Tranchant de l'apocalypse	lot sorts_classes_011
 sort	705024		Description	09c3dcd4c3ef	Augmente de $s1% les dégâts de |cffffffffTir de précision|r.	lot sorts_classes_011
 sort	705024		Name	53d1c41ae62f	Précision supérieure	lot sorts_classes_011
@@ -207,7 +207,7 @@ sort	705049		Name	81d386e2e01e	Lame nocturne	lot sorts_classes_011
 sort	705058		Description	5221c71d4cb2	|cffffffffEnchantements elfiques|r est désormais cumulable $s2 fois de plus.	lot sorts_classes_011
 sort	705058		Name	30322646c36a	Empenneur élémentaire	lot sorts_classes_011
 sort	705058		ToolTip	f0c3c6582bf0	Les coups critiques augmentent de $705059s1% la hâte à distance et en mêlée de vos 3 prochaines attaques.	lot sorts_classes_011
-sort	705060		Description	2d389e4c7f0c	|cffffffffMise KO|r et |cffffffffMatraque|r durent $/1000;s1 sec de plus, mais leurs temps de recharge sont augmentés de $/1000;s2 sec.\r\n\r\nDe plus, vos effets de poison de Brigand infligent $s3% de dégâts supplémentaires aux ennemis affectés par |cffffffffMatraque|r.\r\n\r\n@ext:Vos effets de poison de Brigand sont |cFFFFFFFFPoison des bois profonds|r, |cFFFFFFFFVenin ravageur|r et |cFFFFFFFFLame venin|r.:ext@	lot sorts_classes_011
+sort	705060		Description	2d389e4c7f0c	|cffffffffMise KO|r et |cffffffffMatraque|r durent $/1000;s1 sec de plus, mais leurs temps de recharge sont augmentés de $/1000;s2 sec.\r\n\r\nDe plus, vos effets de poison de Brigand infligent $s3% de dégâts supplémentaires aux ennemis affectés par |cffffffffMatraque|r.\r\n\r\n@ext:Vos effets de poison de Brigand sont |cFFFFFFFFPoison du bois profond|r, |cFFFFFFFFVenin ravageur|r et |cFFFFFFFFLame venin|r.:ext@	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Lame venin » (nom fourni), et non « Lame venimeuse ».
 sort	705060		Name	8454a97304af	Brute	lot sorts_classes_011
 sort	705064		Description	5933d4ec658e	Augmente de $s1% les chances que les coups critiques appliquent |cffffffffRoughed Up|r pendant que |cffffffffAdaptation: Bandit|r est active.	lot sorts_classes_011
 sort	705064		Name	7f47556276c0	Bandit de grand chemin	lot sorts_classes_011
@@ -219,9 +219,9 @@ sort	705066		ToolTip	a14405b29849	Augmente la vitesse de déplacement de ${$w1}%
 sort	705069		Description	bda955f9bef5	Les aptitudes qui invoquent des |cffffffffFaucons de guerre|r renforcent désormais jusqu'à $705070i membres du groupe se trouvant à moins de $705070a1 mètres, augmentant leur puissance d'attaque ou leur puissance des sorts de ${$705070m1+$AGI*0.2} pendant $705070d, selon votre Agilité.\r\n\r\nNe se cumule pas avec des effets similaires.	lot sorts_classes_011
 sort	705069		Name	312c243fd978	Cri strident de bataille	lot sorts_classes_011
 sort	705069		ToolTip	473635fe7fa1	Vous fait renforcer jusqu'à $705070i membres du groupe se trouvant à moins de $705070a1 mètres chaque fois que vous utilisez une aptitude qui invoque des |cffffffffFaucons de guerre|r, augmentant leurs dégâts et leurs soins de $705070s1% pendant $705070d. Cumulable $705070u fois.	lot sorts_classes_011
-sort	705079		Description	e2fa748f9121	|cffffffffFalcon's Dive|r, |cffffffffFrappe du faucon|r et |cffffffffAppel du faucon|r font que votre prochain |cffffffffRanger's Horn|r n'a aucun temps de recharge.	lot sorts_classes_011
+sort	705079		Description	e2fa748f9121	|cffffffffFalcon's Dive|r, |cffffffffFrappe du faucon|r et |cffffffffAppel du faucon|r font que votre prochain |cffffffffRanger's Horn|r n'a aucun temps de recharge.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Appel du faucon » et non « Appel de l'épervier ».
 sort	705079		Name	5fedf1826d24	Commandement de Farstrider	lot sorts_classes_011
-sort	705079		ToolTip	daae8193231f	Fait en sorte que |cffffffffFalcon's Dive|r, |cffffffffFrappe du faucon|r et |cffffffffAppel du faucon|r évitent à votre prochain |cffffffffRanger's Horn|r de subir un temps de recharge.	lot sorts_classes_011
+sort	705079		ToolTip	daae8193231f	Fait en sorte que |cffffffffFalcon's Dive|r, |cffffffffFrappe du faucon|r et |cffffffffAppel du faucon|r évitent à votre prochain |cffffffffRanger's Horn|r de subir un temps de recharge.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni : « Appel du faucon » et non « Appel de l'épervier ».
 sort	705080		Description	8c0807644f91	Vos coups critiques infligeant des dégâts font désormais apparaître une |cFFFFFFFFFleur de rêve|r verte à un endroit aléatoire situé à moins de 15 mètres de vous. @s:561005:0@Ne peut se produire qu'une fois par sec.	lot sorts_classes_011
 sort	705080		Name	d60ca0e4db5d	Fleurs de rêve	lot sorts_classes_011
 sort	705082		Description	05b08199b886	Les aptitudes de |cffffffffTir|r ont désormais $h% de chances d'augmenter de $560699s1 mètres la portée des |cffffffffTirs|r et de $560699s2% tous les dégâts infligés pendant $560699d.	lot sorts_classes_011
@@ -268,7 +268,7 @@ sort	705136		Name	a8e0560866d9	Sens du sang	lot sorts_classes_011
 sort	705140		Description	4b9db4cce51e	Augmente de $s1% les dégâts d'|cffffffffAssaut d'Azzinoth|r.	lot sorts_classes_011
 sort	705140		Name	4f9899b15f63	Glaives imprégnés de gangrène	lot sorts_classes_011
 sort	705140		ToolTip	4b9db4cce51e	Augmente de $s1% les dégâts d'|cffffffffAssaut d'Azzinoth|r.	lot sorts_classes_011
-sort	705144		Description	90abab29dab0	Les dégâts infligés par |cffffffffAssaut d'Azzinoth|r déclenchent désormais aussi une |cffffffffGangrefrappe|r sur la cible.	lot sorts_classes_011
+sort	705144		Description	90abab29dab0	Les dégâts infligés par |cffffffffAssaut d'Azzinoth|r déclenchent désormais aussi une |cffffffffGangrefrappe|r sur la cible.	lot sorts_classes_011 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Gangrefrappe » (et non « Frappe gangrenée »).
 sort	705144		Name	cbb7a18c1903	Flammes d'Azzinoth	lot sorts_classes_011
 sort	705144		ToolTip	4775d3dbb8b6	Fait en sorte que |cffffffffAssaut d'Azzinoth|r déclenche aussi une Gangrefrappe sur la cible.	lot sorts_classes_011
 sort	705147		Description	58dc26e442e7	Réduit de $/1000;s1 sec le temps de recharge d'|cFFFFFFFFAura d'immolation|r.	lot sorts_classes_011

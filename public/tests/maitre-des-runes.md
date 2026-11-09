@@ -1,0 +1,217 @@
+# Fiche de test : Maître des runes
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Arcanes
+
+- [ ] **Glyphe de givre** (Spécialisation) — capacité, sort n° 92152 🔍 MAJ
+- [ ] **Déflagration glaciale** (Rang 1) — capacité, sort n° 500118 🔀 talents
+- [ ] **Œil du spectateur** — capacité, sort n° 500121
+- [ ] **Rune d'écho** — capacité, sort n° 500270
+- [ ] **Étendard de vaillance** — capacité, sort n° 500274
+- [ ] **Ouvrir une porte de faille** — capacité, sort n° 500279
+- [ ] **Porte de faille : transfert** — capacité, sort n° 500281
+- [ ] **Dévorer le mana** (Rang 1) — capacité, sort n° 800104
+- [ ] **Étendard de vaillance** (Dégâts) — capacité, sort n° 800335 🔍 MAJ
+- [ ] **Bien instruit** — capacité, sort n° 800495
+- [ ] **Déflagration primordiale** (Rang 1) — capacité, sort n° 800732 🔀 talents
+- [ ] **Infusion glyphique** — capacité, sort n° 800733
+- [ ] **Gravure du chaos** (Gravure) — capacité, sort n° 800735
+- [ ] **Tatouages runiques** (Passif) — capacité, sort n° 800736
+- [ ] **Impact cosmique** — capacité, sort n° 800738
+- [ ] **Darkflock Anguish Spreader** — capacité, sort n° 800749
+- [ ] **Salves primordiales** (Passif) — capacité, sort n° 800752
+- [ ] **Protection runique** (Passif) — capacité, sort n° 800756
+- [ ] **Courroux mental** (Passif) — capacité, sort n° 800757
+- [ ] **Destruction glyphique** (Passif) — capacité, sort n° 800758
+- [ ] **Verrou tellurique** — capacité, sort n° 800995
+- [ ] **Ruine glyphique** (Rang 1) — capacité, sort n° 801179
+- [ ] **Études primordiales** (Passif) — capacité, sort n° 802157
+- [ ] **Explosion élémentaire** (Rang 1) — capacité, sort n° 802202 🔀 talents
+- [ ] **Parchemin de magie** (Passif) — capacité, sort n° 802204
+- [ ] **Cascade runique** (Rang 1) — capacité, sort n° 804128 🔍 MAJ
+- [ ] **Rune de protection** — capacité, sort n° 804232
+- [ ] **Construction : scierie portative** — capacité, sort n° 804707
+- [ ] **Ruée phasique** (Passif) — capacité, sort n° 805724
+- [ ] **Cryomagie** (Passif) — capacité, sort n° 805726
+- [ ] **Glyphe arcanique** (Passif) — capacité, sort n° 805727 🔍 MAJ
+- [ ] **Rune glaciale** (Immobilisation) — capacité, sort n° 805730
+- [ ] **Oblitération runique** (Sort) — capacité, sort n° 805794
+- [ ] **Étudiant des arcanes** (Passif) — talent, sort n° 300576
+- [ ] **Runes de mana** (Passif) — talent, sort n° 300577
+- [ ] **Pulsation primordiale** (Rang 1) — talent, sort n° 300578
+- [ ] **Défense mortelle** (Passif) — talent, sort n° 300580
+- [ ] **Pulsations explosives** (Passif) — talent, sort n° 300584
+- [ ] **Étudiant des arcanes** (Rang 2) — talent, sort n° 705548
+- [ ] **Silence dans la cage** (Passif) — talent, sort n° 705549
+- [ ] **Glyphe de flamme** (Passif) — talent, sort n° 705625 🔍 MAJ
+- [ ] **Fine gâchette** (Rang 2) — talent, sort n° 705626
+- [ ] **Chercheur de glyphes** (Passif) — talent, sort n° 705627
+- [ ] **Emprisonnement des Arcanes** (Passif) — talent, sort n° 705628
+- [ ] **Emprisonnement des Arcanes** (Rang 2) — talent, sort n° 705629
+- [ ] **Magnificence de Millhouse** (Passif) — talent, sort n° 705630
+- [ ] **Défaiseur** (Passif) — talent, sort n° 705631
+- [ ] **Sorcellerie** (Passif) — talent, sort n° 705632
+- [ ] **Ghast** (Passif) — talent, sort n° 705633
+- [ ] **Agent du Kirin Tor** (Passif) — talent, sort n° 705634
+- [ ] **Adepte du Kirin Tor** (Passif) — talent, sort n° 705635
+- [ ] **Rune primordiale** (Passif) — talent, sort n° 705636
+- [ ] **Incantation rapide améliorée** (Rang 2) — talent, sort n° 705637
+
+## Lame de la faille
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Lame de la faille** (Spécialisation) — capacité, sort n° 92154
+- [ ] **Déchaînement des essences** — capacité, sort n° 500251
+- [ ] **Rune de l'ancien mage** (Rang 1) — capacité, sort n° 500253
+- [ ] **Expulsion de la flétrissure** — capacité, sort n° 500267
+- [ ] **Dague de distorsion** — capacité, sort n° 500287
+- [ ] **Voile runique** — capacité, sort n° 500288 🔀 talents
+- [ ] **Phase terminée** — capacité, sort n° 500671
+- [ ] **Traqueur des lignes de force** — capacité, sort n° 704138
+- [ ] **Maîtrise des lignes telluriques** (Passif) — capacité, sort n° 704139
+- [ ] **Invocation glyphique** — capacité, sort n° 704141
+- [ ] **Saute-distorsion** (Passif) — capacité, sort n° 704161
+- [ ] **Perforation des résistances** (Passif) — capacité, sort n° 704429
+- [ ] **Lames-sorts** — capacité, sort n° 801084
+- [ ] **Convergence** — capacité, sort n° 801086
+- [ ] **Feu couvant** (Rang 1) — capacité, sort n° 801087
+- [ ] **Parchemin de givre éternel** (Rang 1) — capacité, sort n° 801090
+- [ ] **Sorcellerie** — capacité, sort n° 801092
+- [ ] **Puissance tellurique** — capacité, sort n° 801096
+- [ ] **Runes de feu sorcier** (Passif) — capacité, sort n° 801511
+- [ ] **Pierre runique : frappe pyrotechnique** (Passif - Pierre runique) — capacité, sort n° 803009
+- [ ] **Pierre runique : jet éblouissant** (Passif - Pierre runique) — capacité, sort n° 803010
+- [ ] **Pierre runique : torche** (Passif - Pierre runique) — capacité, sort n° 803011
+- [ ] **Pierre runique : flamme ambulante** (Passif - Pierre runique) — capacité, sort n° 803012
+- [ ] **Runes fondantes** (Passif) — capacité, sort n° 803013
+- [ ] **Pierre runique : prison de givre** (Passif - Pierre runique) — capacité, sort n° 803014
+- [ ] **Pierre runique : toucher gelé** (Passif - Pierre runique) — capacité, sort n° 803015
+- [ ] **Pierre runique : prédiction** (Passif - Pierre runique) — capacité, sort n° 803016
+- [ ] **Pierre runique : rupture de sort** (Passif - Pierre runique) — capacité, sort n° 803017
+- [ ] **Fracture** — capacité, sort n° 803018
+- [ ] **Rune de pergélisol** — capacité, sort n° 804060
+- [ ] **Brise-mage** (Passif) — capacité, sort n° 804061
+- [ ] **Lame prismatique** (Rang 1) — capacité, sort n° 804127
+- [ ] **Chevalier prismatique** — capacité, sort n° 804129
+- [ ] **Aspect du chevalier runique** — capacité, sort n° 804151
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Maître des runes** (Passif) — capacité, sort n° 804531
+- [ ] **Thaumaturgie** (Rang 1) — capacité, sort n° 804550
+- [ ] **Mages avancés** (Passif) — capacité, sort n° 804557
+- [ ] **Tatouages déchaînés** (Passif) — capacité, sort n° 804561
+- [ ] **As des étoiles** (Passif) — capacité, sort n° 804563
+- [ ] **Sculpture runique** — capacité, sort n° 804948
+- [ ] **Main voilée** — capacité, sort n° 805383
+- [ ] **Maîtrise des portails** — capacité, sort n° 818045
+- [ ] **Lamesort** (Rang 1) — talent, sort n° 705540
+- [ ] **Assassin élémentaire** (Spécialisation) — talent, sort n° 705541
+- [ ] **Collecte de fragments** (Déclenchement) — talent, sort n° 705542
+- [ ] **Sage du vent** (Spécialisation) — talent, sort n° 705568
+- [ ] **Énergie libérée** (Rang 1) — talent, sort n° 705570
+- [ ] **Brasier gelé** (Rang 2) — talent, sort n° 705571
+- [ ] **Échos primordiaux** (Passif) — talent, sort n° 705572
+- [ ] **Lame imprégnée** (Obsolète) — talent, sort n° 705573
+- [ ] **Turbulence** — talent, sort n° 705575
+- [ ] **Codex glacial** (Passif) — talent, sort n° 705577
+- [ ] **Savoir runique** (Passif) — talent, sort n° 705578
+- [ ] **Entaille jaillissante** (Spécialisation) — talent, sort n° 705579
+- [ ] **Flux prismatique** (Passif) — talent, sort n° 705581
+- [ ] **Convergence runique** (Passif) — talent, sort n° 705585
+- [ ] **Sigilliste** (Passif) — talent, sort n° 705586
+- [ ] **Terre gelée** (Passif) — talent, sort n° 705592
+- [ ] **Tatouages runiques** (Obsolète) — talent, sort n° 705593
+- [ ] **Brûlure de givre** (Passif) — talent, sort n° 705594
+
+## Runique
+
+- [ ] **Haches à deux mains** — capacité, sort n° 197
+- [ ] **Masses à deux mains** — capacité, sort n° 199
+- [ ] **Armes d'hast** — capacité, sort n° 200
+- [ ] **Epées à deux mains** — capacité, sort n° 202
+- [ ] **Poings de puissance** (Spécialisation) — capacité, sort n° 92153
+- [ ] **Arpenteur tellurique** (Passif) — capacité, sort n° 500250
+- [ ] **Porte de faille : prison** (Rang 1) — capacité, sort n° 500280
+- [ ] **Gravure de puissance** — capacité, sort n° 500296
+- [ ] **Glyphe de givre** (Passif de spécialisation) — capacité, sort n° 500309 🔍 MAJ
+- [ ] **Gravure brûlée** (Obsolète) — capacité, sort n° 500310
+- [ ] **Lame de la faille** (Passif de spécialisation) — capacité, sort n° 500314
+- [ ] **Spectre des lignes de force** — capacité, sort n° 704398
+- [ ] **Décalage distordu** (Rang 1) — capacité, sort n° 800120
+- [ ] **Maître des runes** — capacité, sort n° 800126
+- [ ] **Mot de flammes** — capacité, sort n° 800306
+- [ ] **Altération** — capacité, sort n° 800308
+- [ ] **Mot d'oubli** — capacité, sort n° 800333
+- [ ] **Golémancie** (OBSOLÈTE) — capacité, sort n° 800683 🔍 MAJ
+- [ ] **Inscrire une rune** — capacité, sort n° 800723
+- [ ] **Déplacer le familier** (Rang 1) — capacité, sort n° 800741
+- [ ] **Tome de célérité** — capacité, sort n° 802034
+- [ ] **Scission atomique améliorée** — capacité, sort n° 802035
+- [ ] **Bouclier de l'augure** (Rang 1) — capacité, sort n° 804126
+- [ ] **Sang noir** (Soins) — capacité, sort n° 804153
+- [ ] **Nourriture runique** — capacité, sort n° 804156
+- [ ] **Orbe de divination** (Rang 1) — capacité, sort n° 804674
+- [ ] **Appel de l'ancêtre** (Orc) — capacité, sort n° 804872 🔍 MAJ
+- [ ] **Cavalier des lignes telluriques** — capacité, sort n° 805616
+- [ ] **Runes-pièges** — capacité, sort n° 805619 🔍 MAJ
+- [ ] **Focalisation tellurique** — capacité, sort n° 805723
+- [ ] **Oblitération runique** (Charge) — capacité, sort n° 805742
+- [ ] **Conjurateur de vapeur** (Passif) — capacité, sort n° 805743
+- [ ] **Déferlante de vent** (Passif) — capacité, sort n° 805750
+- [ ] **Célérité runique** — capacité, sort n° 805795
+- [ ] **Poings de puissance** — capacité, sort n° 805796
+- [ ] **Récupération de fragments** — capacité, sort n° 805797
+- [ ] **Sources de tellurium** (Passif) — talent, sort n° 300581
+- [ ] **Gravures magiques** (Passif) — talent, sort n° 300582
+- [ ] **Élémentaliste** (Passif) — talent, sort n° 300583
+- [ ] **Gravure interdite** (Passif) — talent, sort n° 705543
+- [ ] **Dévastation runique** (Rang 2) — talent, sort n° 705544
+- [ ] **Runic Devastation unused** (Rang 3) — talent, sort n° 705545
+- [ ] **Nourricier magique** (Passif) — talent, sort n° 705546
+- [ ] **Né des lignes telluriques** (Passif) — talent, sort n° 705609
+- [ ] **Mots de puissance** (Rang 1) — talent, sort n° 705611
+- [ ] **Mots de puissance** (Rang 2) — talent, sort n° 705612
+- [ ] **Symboles de puissance** (Rang 1) — talent, sort n° 705613
+- [ ] **Symboles de puissance** (Rang 2) — talent, sort n° 705614
+- [ ] **Gravure volcanique** (Passif) — talent, sort n° 705615
+- [ ] **Gravures anciennes** (Rang 2) — talent, sort n° 705616
+- [ ] **Mots de courroux** (Passif) — talent, sort n° 705617
+- [ ] **Sculptures élémentaires** (Spécialisation) — talent, sort n° 705618
+- [ ] **Altération** (Rang 1) — talent, sort n° 705619
+- [ ] **Affinité runique** (Passif) — talent, sort n° 705621
+- [ ] **Gravure - Passif de niveau 40** (Spécialisation) — talent, sort n° 705622 🔍 MAJ
+
+## Classe
+
+- [ ] **Lanceur de runes** (Passif) — capacité, sort n° 705550
+- [ ] **Enseignements anciens** (Rang 1) — capacité, sort n° 705558
+- [ ] **Magie sauvage** (Passif) — capacité, sort n° 705559
+- [ ] **Oblitération runique** (Spécialisation) — capacité, sort n° 705560
+- [ ] **Circuit du sorcier** (Passif) — capacité, sort n° 705561
+- [ ] **Constitution tellurique** (Passif) — capacité, sort n° 705562
+- [ ] **Marche-voile** (Passif) — capacité, sort n° 705563
+- [ ] **Cristaux de focalisation** (Rang 1) — capacité, sort n° 705564
+- [ ] **Forgé par les vagues** (Passif) — capacité, sort n° 705565
+- [ ] **Rune du Kirin Tor** (Passif) — capacité, sort n° 705566
+- [ ] **Rune du mage ancien** (Passif) — capacité, sort n° 705567
+- [ ] **Évasion runique** (Passif) — capacité, sort n° 705583
+- [ ] **Imprégnation hâtive** (Passif) — capacité, sort n° 705584
+- [ ] **Gravure rapide** (Passif) — capacité, sort n° 705600
+- [ ] **Tablette de sorcellerie** (Passif) — capacité, sort n° 705603
+- [ ] **Maître graveur** (Passif) — capacité, sort n° 705605
+- [ ] **Runes supérieures** (Passif) — capacité, sort n° 705624
+- [ ] **Prêtre solennel** (Passif) — capacité, sort n° 804269
+- [ ] **Terraglyphes** (Passif) — capacité de talent, sort n° 705551
+- [ ] **Pour les salves !** — capacité de talent, sort n° 705552
+- [ ] **Sauteur de portail** (Rang 3) — capacité de talent, sort n° 705553
+- [ ] **Harmoniseur rapide** (Rang 1) — capacité de talent, sort n° 705554
+- [ ] **Harmoniseur rapide** (Passif) — capacité de talent, sort n° 705555
+- [ ] **Puissance primordiale** (Passif) — capacité de talent, sort n° 705556
+- [ ] **Puissance primordiale** (Rang 2) — capacité de talent, sort n° 705557
+- [ ] **Glyphes primordiaux** (Passif) — capacité de talent, sort n° 705601
+- [ ] **Glyphes primordiaux** (Rang 2) — capacité de talent, sort n° 705602
+- [ ] **Prouesse élémentaire** (Passif) — capacité de talent, sort n° 705606
+- [ ] **Déflagration primordiale améliorée** (Rang 2) — capacité de talent, sort n° 705607

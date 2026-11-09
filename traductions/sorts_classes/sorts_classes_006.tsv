@@ -3,7 +3,7 @@ sort	500074		Description	4303e51ca4c2	|cff8fff7aGénère 1 point d'Avantage|r\r\
 sort	500074		Name	100ef149a6e5	Tir rapide	lot sorts_classes_006
 sort	500083		Description	02b6de7ff3c0	Inflige des dégâts de la main gauche|r plus ${$m1+($pl*2-10*2)}, génère $500677s1 points de Rage, et votre prochain |cffffffffCarreau|r utilisé dans les $500163d inflige $681154s1 points de dégâts supplémentaires.\r\n\r\nNe peut être utilisé que directement après |cffffffffTir enroulé|r.	lot sorts_classes_006
 sort	500083		Name	61a6c9378fd9	Carreau punitif	lot sorts_classes_006
-sort	500089		Description	26e423336166	Réduit un ennemi au silence et réduit sa vitesse de déplacement de $500417s1% pendant $d.	lot sorts_classes_006
+sort	500089		Description	26e423336166	Réduit un ennemi au silence et diminue sa vitesse de déplacement de $500417s1% pendant $d.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Répétition maladroite de « réduit ».
 sort	500089		Name	b9006deb23c0	Asservissement	lot sorts_classes_006
 sort	500089		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_classes_006
 sort	500091		Description	0d9af8be8d4b	Augmente le temps de recharge de |cffffffffBond|r de $/1000;s1 sec, mais supprime son coût et fait en sorte que vos attaques automatiques réduisent son temps de recharge restant de $/1000;800663s1 sec.	lot sorts_classes_006
@@ -14,7 +14,7 @@ sort	500092		Name	80cf8924ee35	Festin sombre	lot sorts_classes_006
 sort	500093		Description	1ef564f8e407	Lance un bola sur un ennemi, lui infligeant ${$m2+0+$AP*.3} points de dégâts physiques et réduisant sa vitesse de déplacement de $s1% pendant $d.	lot sorts_classes_006
 sort	500093		Name	d5961a4ccb23	Lancer de bola	lot sorts_classes_006
 sort	500093		ToolTip	4b559915cff4	Vitesse de déplacement réduite de ${$w1}%.	lot sorts_classes_006
-sort	500094		Description	2fbe26e15620	Embrassez les ténèbres qui sont en vous et générez instantanément $s1% de votre mana maximum et $s2% de votre Rage maximum.	lot sorts_classes_006
+sort	500094		Description	2fbe26e15620	Embrassez les ténèbres qui sont en vous et générez instantanément $s1% de votre mana maximum et $s2% de votre rage maximum.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Rage en minuscule dans une phrase, comme dans le n° 1.
 sort	500094		Name	d5fbdb68b0d6	Régénération sombre	lot sorts_classes_006
 sort	500094		ToolTip	d54787a7eda1	Révèle les ennemis furtifs.	lot sorts_classes_006
 sort	500097		Description	934445a55397	Augmente les dégâts de |cFFFFFFFFPourfendeur des ténèbres|r de $s1% et réduit son coût de $s2%.	lot sorts_classes_006
@@ -40,10 +40,10 @@ sort	500111		Name	66fd701b111d	Châtiment surnaturel	lot sorts_classes_006
 sort	500112		Description	e3fa9a135d77	|cffffffffLame de l'Empire|r applique désormais |cffffffffSang noir|r aux alliés, leur rendant $s1% des dégâts infligés plus ${$804113m1+$804113ppl1} points de vie toutes les $804113T1 sec pendant $804113D, cumulable $804113u fois, et restaure $807127s1% du mana manquant.\r\n\r\nÀ 5 charges, la cible reçoit instantanément ${$807137m1+$807137ppl1+$SP*.5} points de vie.	lot sorts_classes_006
 sort	500112		Name	70c7f369127d	Lame de Yogg-Saron	lot sorts_classes_006
 sort	500112		ToolTip	ffc81af46db1	Votre prochaine Lame de l'Empire restaurera $804113s1% de votre mana manquant et rendra $804113s2 points de vie à tous les alliés proches.	lot sorts_classes_006
-sort	500113		Description	96631f01dfd9	Alternez entre |cFFFFFFFFOpportunité dorée|r et |cFFFFFFFFChangement d'élan|r toutes les $T1 sec.@s:500471:0@@s:500507:0@	lot sorts_classes_006
+sort	500113		Description	96631f01dfd9	Alternez entre |cFFFFFFFFOpportunité dorée|r et |cFFFFFFFFChangement d'élan|r toutes les $T1 sec.@s:500471:0@@s:500507:0@	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Opportunité dorée » est le français déjà choisi.
 sort	500113		Name	8afcc707689c	Sables tournoyants	lot sorts_classes_006
-sort	500113		ToolTip	96631f01dfd9	Alternez entre |cFFFFFFFFOpportunité dorée|r et |cFFFFFFFFChangement d'élan|r toutes les $T1 sec.@s:500471:0@@s:500507:0@	lot sorts_classes_006
-sort	500119		Description	a92c8ae13322	Les dégâts de Givre infligés ont 60% de chances d'appliquer |cffffffffFroid de la mort|r, infligeant $805426s1 points de dégâts de Givre et cumulable $801727u fois, pendant $801727d.\r\n\r\nÀ 10 charges de |cffffffffFroid de la mort|r, applique |cffffffffTombeau de glace|r à l'ennemi.\r\n@ext:@s:801729:0@:ext@	lot sorts_classes_006
+sort	500113		ToolTip	96631f01dfd9	Alternez entre |cFFFFFFFFOpportunité dorée|r et |cFFFFFFFFChangement d'élan|r toutes les $T1 sec.@s:500471:0@@s:500507:0@	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Opportunité dorée » est le français déjà choisi.
+sort	500119		Description	a92c8ae13322	Les dégâts de Givre infligés ont 60% de chances d'appliquer |cffffffffFroid de la mort|r, infligeant $805426s1 points de dégâts de Givre, cumulable $801727u fois, pendant $801727d.\r\n\r\nÀ 10 charges de |cffffffffFroid de la mort|r, applique |cffffffffTombeau de glace|r à l'ennemi.\r\n@ext:@s:801729:0@:ext@	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Construction « et cumulable » incorrecte grammaticalement ; version simplifiée.
 sort	500119		Name	1d675fdf51c0	Nécromancien du givre	lot sorts_classes_006
 sort	500119		Rank	2b654aec7535	Forme de liche SLS	lot sorts_classes_006
 sort	500119		ToolTip	9420d461dd49	Les dégâts de Givre ont 60% de chances d'appliquer |cffffffffFroid de la mort|r.\n\nÀ 10 charges de |cffffffffFroid de la mort|r, applique |cffffffffTombeau de glace|r à la cible.@ext:@s:801727@@s:801729@:ext@	lot sorts_classes_006
@@ -51,7 +51,7 @@ sort	500123		Description	38eaa167e455	Frappe un ennemi, lui infligeant ${$m1+0+$
 sort	500123		Name	803e7ed4f108	Frappe vorace	lot sorts_classes_006
 sort	500125		Description	0885da60cf8b	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nFrappe un ennemi pour ${$m1+$sps*0.466229} points de dégâts d'Ombre et génère de la Rage$?s500107[, ainsi qu'1 charge de |cffffffffSoif|r.@s:706613:0@][.]$?s807489[\r\n\r\nUtilisable en mouvement.][]	lot sorts_classes_006
 sort	500125		Name	e59f96a0e755	Déflagration de lune de sang	lot sorts_classes_006
-sort	500126		Description	5ad3cab63997	Bondit derrière un ennemi, lui infligeant ${$804866m2+$804866ppl2+$AP*0.2} points de dégâts physiques, le hébétant pendant $/1000;s3 sec et générant $/10;804864s1 points de Rage.	lot sorts_classes_006
+sort	500126		Description	5ad3cab63997	Bondit derrière un ennemi, lui infligeant ${$804866m2+$804866ppl2+$AP*0.2} points de dégâts physiques, l'hébétant pendant $/1000;s3 sec et générant $/10;804864s1 points de Rage.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Pronom : « l'hébétant » et non « le hébétant ».
 sort	500126		Name	4bb65a98e22d	Fente	lot sorts_classes_006
 sort	500126		ToolTip	d6d03e4da403	Hébété.	lot sorts_classes_006
 sort	500127		Description	2c27bd703cb8	$?a524861[|cffffffff][|cffff3232]Nécessite la forme de worgen|r\nDéchire la chair de $i ennemis au maximum, leur infligeant $s1 points de dégâts physiques et les faisant saigner pour $o2 points de dégâts supplémentaires en $d. 	lot sorts_classes_006
@@ -85,13 +85,13 @@ sort	500173		Name	2fc073f722b4	Aspect du temps	lot sorts_classes_006
 sort	500173		ToolTip	f02afe107ba9	Les dégâts de Feu infligés confèrent |cffffffffÉcailles de dragon|r pendant $804540d.|r@s:804540@	lot sorts_classes_006
 sort	500174		Description	f20c588b310a	Une frappe instantanée qui inflige les dégâts de l'arme plus $s1 points de dégâts, et confère |cff66ccffMotivation|r.@s:500256:0@	lot sorts_classes_006
 sort	500174		Name	134a9fe73e3a	Frappe motivante	lot sorts_classes_006
-sort	500193		Description	8a7906aafdb5	Inflige les dégâts de l'arme plus $s1 points de dégâts de Nature à un ennemi, consommant les charges d'|cffffffffOrbe de choc|r pour infliger $801868s3% de dégâts supplémentaires par charge.\r\n\r\nSi |cffffffffPas du tonnerre|r est actif, étourdit aussi la cible pendant $806599d.\r\n\r\nGénère 20 points de |cffcc99ffStatique|r.	lot sorts_classes_006
+sort	500193		Description	8a7906aafdb5	Inflige les dégâts de l'arme plus $s1 points de dégâts de Nature à un ennemi, consommant les charges de |cffffffffChoc d'orbe|r pour infliger $801868s3% de dégâts supplémentaires par charge.\r\n\r\nSi |cffffffffPas du tonnerre|r est actif, étourdit aussi la cible pendant $806599d.\r\n\r\nGénère 20 points de |cffcc99ffStatique|r.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit être « Orbe de choc » (nom fourni) et non « Choc d'orbe » ; l'élision « d'| » était de plus mal formée.
 sort	500193		Name	6b161e2c0f93	Frappe forgée par la tempête	lot sorts_classes_006
 sort	500201		Description	712cc80fb1d5	Brûle un allié ou un ennemi et supprime $706857s1 effet magique bénéfique ou nuisible, selon la cible.	lot sorts_classes_006
 sort	500201		Name	bc86c8345d45	Serre brûlante	lot sorts_classes_006
 sort	500204		Description	ab5136707aaf	Augmente de $s1% les dégâts de l'effet |cFFFFFFFFStar Sear|r de |cFFFFFFFFLame de la gardienne|r.	lot sorts_classes_006
 sort	500204		Name	8a709a10f212	Chargé de mana	lot sorts_classes_006
-sort	500207		Description	203db60a5ecb	Après avoir activé |cFFFF9800Aube|r, lancer un sort du Sacré confère |cffffffffSoleil levant|r et lancer un sort de Feu confère |cffffffffSoleil couchant|r.\r\n\r\nEntrer dans |cffffffffSoleil levant|r ou |cffffffffSoleil couchant|r vous empêche d'entrer dans l'autre avant d'avoir atteint le suivant.\r\n\r\nDe plus, |cffffffffDéflagration d'Horusath|r génère désormais 100 points de Rage.\r\n@ext:@s:500477:0@:ext@\r\n@ext:@s:500511:0@:ext@	lot sorts_classes_006
+sort	500207		Description	203db60a5ecb	Après avoir activé |cFFFF9800Aube|r, lancer un sort du Sacré confère |cffffffffSoleil levant|r et lancer un sort de Feu confère |cffffffffSoleil couchant|r.\r\n\r\nEntrer dans |cffffffffSoleil levant|r ou |cffffffffSoleil couchant|r vous empêche d'entrer dans l'autre avant d'avoir atteint le suivant.\r\n\r\nDe plus, |cffffffffDéflagration d'Horusath|r génère désormais 100 points de Rage.\r\n@ext:@s:500477:0@:ext@\r\n@ext:@s:500511:0@:ext@	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : Sunrise = « Soleil levant » et Sunset = « Soleil couchant » (noms fournis), pas « Lever/Coucher du soleil ».
 sort	500207		Name	e3e8fd2adf9f	Lever et coucher du soleil	lot sorts_classes_006
 sort	500209		Description	22427de21ed5	Accomplir votre |cFFFFFFFFVœu|r libère désormais |cffffffffLumière solaire|r, qui rend ${$704911m1+$BH*0.15} points de vie à tous les alliés, en priorité à ceux qui en ont le moins.	lot sorts_classes_006
 sort	500209		Name	bf7a6a331c97	Lumière solaire	lot sorts_classes_006
@@ -157,7 +157,7 @@ sort	500299		Name	748a24de4f8e	Étendard de suprématie	lot sorts_classes_006
 sort	500299		ToolTip	382fc091163c	Un Étendard de suprématie proche vous confère ${$w1}% de dégâts critiques physiques supplémentaires.	lot sorts_classes_006
 sort	500303		Description	6ec2d60c6e34	Dresse un puissant pilier de terre sous un ennemi, infligeant ${$m1+0+$spn*.45} points de dégâts de Nature à $i ennemis au maximum situés à moins de $a1 mètres, les dégâts étant répartis équitablement entre tous les ennemis.	lot sorts_classes_006
 sort	500303		Name	c9234fdf733e	Fracture instable	lot sorts_classes_006
-sort	500309		Description	466ad53ab9d5	Utiliser |cffffffffDécharge élémentaire|r et |cffffffffDéflagration primordiale|r vous confère désormais |cffffffffGlyphe de givre|r. \r\n\r\n@s:520090:0@@ext: Glyphs can be unleashed by |cFFFFFFFFGlyphic Ruin|r or |cFFFFFFFFThaumaturgy|r.:ext@	lot sorts_classes_006
+sort	500309		Description	466ad53ab9d5	Utiliser |cffffffffExplosion élémentaire|r et |cffffffffDéflagration primordiale|r vous confère désormais |cffffffffGlyphe de givre|r. \r\n\r\n@s:520090:0@@ext: Les glyphes peuvent être déchaînés par |cFFFFFFFFRuine glyphique|r ou |cFFFFFFFFThaumaturgie|r.:ext@	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Elemental Burst = Explosion élémentaire, et non Décharge élémentaire.
 sort	500309		Name	c60037f17306	Glyphe de givre	lot sorts_classes_006
 sort	500313		Description	42bf7a4250f9	|cFF66DDFFPassif de niveau 30|r\r\nVos dégâts directs infligés avec des aptitudes ont désormais $h% de chances de générer une charge supplémentaire de |cffff9933Feu démoniaque|r et de |cffffffffSang de démon|r.\r\n\r\nDe plus, votre score de toucher des sorts est augmenté de $s3% de votre Force.	lot sorts_classes_006
 sort	500313		Name	f308f2bf4397	Démon de rage	lot sorts_classes_006
@@ -180,7 +180,7 @@ sort	500326		Name	2cc1871d5b3d	Gel des os	lot sorts_classes_006
 sort	500336		Description	f6e97607ba06	Rallie tous les membres du groupe situés à moins de $a1 mètres, augmentant leur vitesse de déplacement de $s1% pendant $d et les rendant moins faciles à repérer par les monstres.	lot sorts_classes_006
 sort	500336		Name	6ea1166d4f7f	Éclaireur	lot sorts_classes_006
 sort	500336		ToolTip	2169c41d19cb	Vitesse de déplacement augmentée de ${$w1}%. Les monstres vous remarquent moins facilement.	lot sorts_classes_006
-sort	500340		Description	3b6b2a24b7d6	Lance une bombe de peste à l'endroit ciblé, infligeant ${$m1+0+$SP*0.3} points de dégâts de peste à $i ennemis au maximum. \r\n\r\nLes ennemis présents dans la zone subissent une charge de |cffffffffPeste de la crypte|r toutes les $t2 sec pendant $d.	lot sorts_classes_006
+sort	500340		Description	3b6b2a24b7d6	Lance une bombe de peste à l'endroit ciblé, infligeant ${$m1+0+$SP*0.3} points de dégâts de Peste à $i ennemis au maximum. \r\n\r\nLes ennemis présents dans la zone subissent une charge de |cffffffffPeste de la crypte|r toutes les $t2 sec pendant $d.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Majuscule de l'école « Peste » comme ailleurs
 sort	500340		Name	b26294fc5282	Bombe de peste	lot sorts_classes_006
 sort	500340		ToolTip	3e86f8e90d24	Applique Peste de la crypte.	lot sorts_classes_006
 sort	500341		Description	0a12a508e7d0	Enterre vivant un ennemi sous une énergie nécrotique, le bannissant, l'empêchant d'agir et le rendant insensible aux dégâts physiques pendant $d.	lot sorts_classes_006
@@ -192,7 +192,7 @@ sort	500344		ToolTip	7dd75b486f45	Épicité augmentée de ${$w1}%.	lot sorts_cla
 sort	500355		Description	3017373f59f4	Instille la peur dans l'âme de votre ennemi, le terrifiant pendant $d.	lot sorts_classes_006
 sort	500355		Name	d3024891bcc5	Marque de terreur	lot sorts_classes_006
 sort	500355		ToolTip	bed9ef4da16a	Fuit terrorisé.	lot sorts_classes_006
-sort	500357		Description	cd366e9e72ba	|cff5ee2ffGénère 1 Fragment d'âme|r\r\nFrappe un ennemi $?s800479[avec les deux armes, chacune infligeant ][pour ]$s1% des dégâts de l'arme plus ${$m2+0}, et génère de la Puissance runique.	lot sorts_classes_006
+sort	500357		Description	cd366e9e72ba	|cff5ee2ffGénère 1 Fragment d'âme|r\r\nFrappe un ennemi $?s800479[avec les deux armes, chacune infligeant ][pour ]$s1% des dégâts de l'arme plus ${$m2+0}, et génère de la puissance runique.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Puissance runique en minuscule dans la phrase
 sort	500357		Name	351401b5db2e	Fauchage	lot sorts_classes_006
 sort	500361		Description	48776bb01ef2	|cffffffffConsomme 1 Âme moissonnée|r\nCrée une Orbe sanguine pendant $d au maximum, augmentant de $s2% tous les soins que vous recevez et réduisant de $s3% le coût en mana de vos aptitudes. \n\nLa prochaine fois que vous utilisez une aptitude offensive qui consomme un pourcentage de vos points de vie maximum, vous recevez instantanément $804377s2% de vos points de vie maximum.	lot sorts_classes_006
 sort	500361		Name	02c8eb750c87	Orbe sanguine	lot sorts_classes_006
@@ -260,19 +260,19 @@ sort	500711		Description	234b8f2cb470	Enveloppe un allié de magie surnaturelle 
 sort	500711		Name	10b85f1b41d9	Soins surnaturels	lot sorts_classes_006
 sort	500720		Description	c9c8557c11e9	|cffffffff3 charges, 6 sec de recharge|r\r\n|cffcfa6ffGénère 20 points de Folie|r\r\nFrappe un ennemi et lui inflige $?a803339[${$m1+0+$sps*.3+$AP*.25}][${$m1+0+$sps*.15+$AP*.25}] points de dégâts d'Ombre.	lot sorts_classes_006
 sort	500720		Name	82dbe3e1d64f	Lame de l'Empire	lot sorts_classes_006
-sort	500722		Description	2331724d980f	|cffffffffLame de l'Empire|r a désormais un temps de recharge de $/1000;s3 sec et inflige ${$806251m1+$806251ppl1+$sps*0.15} points de dégâts d'Ombre supplémentaires, génère 10 points de |cffcfa6ffFolie|r, et sa portée est augmentée de $s2 mètres.\r\n\r\nDe plus, ses dégâts sont augmentés de $500706s1% pour chaque charge de |cffcfa6ffFolie|r.	lot sorts_classes_006
+sort	500722		Description	2331724d980f	|cffffffffLame de l'Empire|r a désormais un temps de recharge de $/1000;s3 sec et inflige ${$806251m1+$806251ppl1+$sps*0.15} points de dégâts d'Ombre supplémentaires, génère 10 points de |cffcfa6ffFolie|r, et sa portée est augmentée de $s2 mètres.\r\n\r\nDe plus, ses dégâts sont augmentés de $500706s1% pour chaque charge de |cffcfa6ffFolie|r.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Insanity = Folie (décision 20), pas « Insanité »
 sort	500722		Name	ce6c638c9208	Lame de C'Thun	lot sorts_classes_006
 sort	500722		ToolTip	f65b86d0472b	Votre prochaine Lame de l'Empire a une portée accrue et inflige des dégâts d'Ombre supplémentaires qui dépendent de la puissance des sorts et de la Folie.	lot sorts_classes_006
 sort	500723		Description	74f99fb72281	Provoque les ennemis situés à moins de $a1 mètres pendant $d et augmente considérablement la génération de menace pendant $500717d.	lot sorts_classes_006
 sort	500723		Name	465efc677ba2	Présence terrifiante	lot sorts_classes_006
 sort	500723		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006
-sort	500724		Description	711784b93224	|cff93cceaConsomme toutes les Runes du Vide|r\r\nÉcrase un ennemi sous une puissance du Vide écrasante, lui infligeant ${$m1+0} points de dégâts d'Ombre plus ${$m2+0} toutes les $t2 sec pendant $d, et génère 20 points de |cffcfa6ffFolie|r.\r\n\r\nDépend du nombre de |cffffffffRunes du Vide|r consommées. Utilisé avec au moins 2 runes, il inflige toujours un coup critique.\r\n\r\nNe peut être ni réfléchi ni redirigé, et perce les effets d'immunité. \r\n\r\n|cffffffffHéraut de C'Thun|r : frappe jusqu'à $805119s1 ennemis.	lot sorts_classes_006
+sort	500724		Description	711784b93224	|cff93cceaConsomme toutes les Runes du Vide|r\r\nÉcrase un ennemi sous une puissance du Vide écrasante, lui infligeant ${$m1+0} points de dégâts d'Ombre plus ${$m2+0} toutes les $t2 sec pendant $d, et génère 20 points de |cffcfa6ffFolie|r.\r\n\r\nDépend du nombre de |cffffffffRunes du Vide|r consommées. Utilisé avec au moins 2 runes, il inflige toujours un coup critique.\r\n\r\nNe peut être ni réfléchi ni redirigé, et perce les effets d'immunité. \r\n\r\n|cffffffffHéraut de C'Thun|r : frappe jusqu'à $805119s1 ennemis.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Insanity = Folie (décision 20), pas « Insanité »
 sort	500724		Name	a75ba2afa188	Courroux de l'Empire noir	lot sorts_classes_006
 sort	500724		ToolTip	2f4b3743f1cd	Inflige ${$w2} points de dégâts d'Ombre toutes les $t2 sec.	lot sorts_classes_006
 sort	500727		Description	23caf18be90b	Votre volonté lucide résiste naturellement à l'influence des Dieux très anciens.\n\nDrains $500728s1 |cffcfa6ffFolie|r toutes les $t1 sec.	lot sorts_classes_006
 sort	500727		Name	753f86089a75	Santé mentale	lot sorts_classes_006
 sort	500727		ToolTip	6a1c3c3acc58	Draine $500728s1 points de Folie toutes les $t1 sec.	lot sorts_classes_006
-sort	500732		Description	1173033dd46e	Vous transforme en |cFFFFFFFFDestructeur sans visage|r pendant 15 sec, réduisant de $s3% le temps de recharge de votre |cffffffffChâtiment surnaturel|r et de votre |cffffffffFrappe surnaturelle|r et augmentant leur portée de $500800s1 mètres. De plus, votre hâte des sorts est augmentée de $s2% et tous les dégâts que vous infligez sont augmentés de $500725s2%.\r\n\r\nToutes les $500725t1 sec, vous générez 10 points de |cffcfa6ffFolie|r et invoquez un |cffffffffTentacule de N'Zoth|r à proximité pendant $806596d.\r\n\r\nCet effet ne peut pas être annulé.\r\n\r\nTous les ennemis situés à moins de $804369r2 mètres de vous gagnent une charge de |cffffffffDémence|r toutes les $t1 sec.\r\n@s:804369:0@	lot sorts_classes_006
+sort	500732		Description	1173033dd46e	Vous transforme en |cFFFFFFFFDestructeur sans visage|r pendant 15 sec, réduisant de $s3% le temps de recharge de votre |cffffffffChâtiment surnaturel|r et de votre |cffffffffFrappe surnaturelle|r et augmentant leur portée de $500800s1 mètres. De plus, votre hâte des sorts est augmentée de $s2% et tous les dégâts que vous infligez sont augmentés de $500725s2%.\r\n\r\nToutes les $500725t1 sec, vous générez 10 points de |cffcfa6ffFolie|r et invoquez un |cffffffffTentacule de N'Zoth|r à proximité pendant $806596d.\r\n\r\nCet effet ne peut pas être annulé.\r\n\r\nTous les ennemis situés à moins de $804369r2 mètres de vous gagnent une charge de |cffffffffDémence|r toutes les $t1 sec.\r\n@s:804369:0@	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : Insanity = Folie ; Madness = Démence (nom de sort cité)
 sort	500732		Name	1e776aab5680	Vision de malheur	lot sorts_classes_006
 sort	500732		ToolTip	e6d226c091bd	Vous êtes transformé en Destructeur sans visage.\n\nTant que vous êtes transformé, vous infligez $500725s2% de dégâts supplémentaires et subissez ${$w2}% de dégâts en moins. Toutes les $500725t1 sec, vous générez 10 points de Folie et invoquez un Tentacule de N'Zoth à proximité. De plus, tous les ennemis situés à moins de $804369r2 mètres de vous gagnent une charge de Démence toutes les $t1 sec, ce qui ralentit leur vitesse de déplacement de $804369s1% pendant $804369d.	lot sorts_classes_006
 sort	501134		Rank	7bf6d1d3a58a	Dégâts	lot sorts_classes_006
@@ -368,8 +368,8 @@ sort	803938		Name	db688fa9935c	Étendard de vaillance	lot sorts_classes_006
 sort	803985		ToolTip	4b559915cff4	Vitesse de déplacement réduite de ${$w1}%.	lot sorts_classes_006
 sort	803987		ToolTip	4b559915cff4	Vitesse de déplacement réduite de ${$w1}%.	lot sorts_classes_006
 sort	804204		Rank	b0f090c0f44a	Spécialisation	lot sorts_classes_006
-sort	804220		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006
-sort	804386		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006
+sort	804220		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : « Raillé » est incorrect pour l'état de provocation (Taunted) ; l'officiel est « Provoqué ».
+sort	804386		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : « Raillé » est incorrect ; l'état officiel de la provocation est « Provoqué ».
 sort	804432		ToolTip	4fdf1a0caf1e	Interrompu.	lot sorts_classes_006
 sort	804861		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_classes_006
 sort	804914		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006
@@ -381,7 +381,7 @@ sort	805315		Rank	7bf6d1d3a58a	Dégâts	lot sorts_classes_006
 sort	805432		ToolTip	4fdf1a0caf1e	Interrompu.	lot sorts_classes_006
 sort	805631		Rank	b0f090c0f44a	Spécialisation	lot sorts_classes_006
 sort	805641		Rank	7bf6d1d3a58a	Dégâts	lot sorts_classes_006
-sort	805919		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006
+sort	805919		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006 | relu par l'API (relecture 0.9.5) : « Raillé » est un contresens de registre ; l'état de la cible provoquée se dit « Provoqué »
 sort	806156		ToolTip	0654d113b33b	Réduit au silence.	lot sorts_classes_006
 sort	806171		ToolTip	a420db7c4737	Provoqué.	lot sorts_classes_006
 sort	806211		Rank	b0f090c0f44a	Spécialisation	lot sorts_classes_006

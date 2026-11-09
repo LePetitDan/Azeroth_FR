@@ -70,7 +70,7 @@ sort	704706		ToolTip	ccd4efc5aa5d	Puissance d'attaque réduite de ${-$W1}.	lot s
 sort	705118		Description	6aa169232853	Réduit de $705118s1% les dégâts physiques infligés par les ennemis pendant $705118d.	lot sorts_objets_094
 sort	705118		ToolTip	c50ecce8f868	Dégâts physiques infligés réduits de ${$w1}%.	lot sorts_objets_094
 sort	705132		Description	01913ee69888	Les coups critiques des aptitudes de mêlée déclenchent désormais |cFFFFFFFFLames dansantes|r, qui infligent les dégâts de l'arme en main gauche à $800598i ennemis proches maximum.	lot sorts_objets_094
-sort	705132		ToolTip	fa7f68e70b4f	Infliger des dégâts avec des aptitudes physiques de mêlée a désormais $h% de chances de déclencher une |cFFFFFFFFFrappe gangrenée|r.	lot sorts_objets_094
+sort	705132		ToolTip	fa7f68e70b4f	Infliger des dégâts avec des aptitudes physiques de mêlée a désormais $h% de chances de déclencher une |cFFFFFFFFGangrefrappe|r.	lot sorts_objets_094 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Gangrefrappe » (et non « Frappe gangrenée »).
 sort	705419		Name	557518328a57	Moisson - Passif de niveau 30	lot sorts_objets_094
 sort	705427		Description	dfd1ac0ee697	Active un mode de furtivité amélioré qui n'est pas rompu par les dégâts infligés ou subis.	lot sorts_objets_094
 sort	705427		ToolTip	2ec9c42b375c	Marche sous le voile. N'est pas rompu par les dégâts infligés ou subis.	lot sorts_objets_094

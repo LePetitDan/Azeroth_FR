@@ -30,7 +30,7 @@ sort	804796		Name	2500182577e8	Traitement du cuir boréen	lot sorts_classes_021
 sort	804797		Description	46945caa5a96	Augmente de $504477s3% l'armure que vous apportent vos objets, mais réduit les dégâts infligés de $804299s1%.	lot sorts_classes_021
 sort	804797		Name	99a518a339a8	Mailles de sorcière	lot sorts_classes_021
 sort	804797		ToolTip	e356c2bb3d8e	Dégâts infligés réduits de $804299s1% et dégâts subis réduits de ${$w3}%.	lot sorts_classes_021
-sort	804798		Description	1d03e62f76e2	Les dégâts infligés par |cffffffffFlintlock Shot|r propagent |cffffffffAngoisse|r à ${$704196i*2} ennemis proches et réduisent le temps de recharge de |cFFFFFFFFTir de l'ombre|r de $/1000;572314s1 sec.	lot sorts_classes_021
+sort	804798		Description	1d03e62f76e2	Les dégâts infligés par |cffffffffFlintlock Shot|r propagent |cffffffffAngoisse|r à ${$704196i*2} ennemis proches et réduisent le temps de recharge de |cFFFFFFFFTir d'ombre|r de $/1000;572314s1 sec.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Nom du sort cité : « Tir d'ombre » et non « Tir de l'ombre ».
 sort	804798		Name	e82103631ef4	Tisseur de chagrin	lot sorts_classes_021
 sort	804798		ToolTip	10875ae9dbc0	Les dégâts infligés par |cffffffffFlintlock Shot|r propagent |cffffffffTourment|r à $704196i ennemis proches.	lot sorts_classes_021
 sort	804799		Description	382a7d4949a9	Maudit un ennemi pendant $d : les soins qu'il reçoit sont réduits de $s1% et il subit des dégâts d'Ombre chaque fois qu'il est soigné, en fonction de sa propre puissance des sorts.	lot sorts_classes_021
@@ -74,7 +74,7 @@ sort	804831		Name	b191e4a7bfb0	Solide comme la tempête	lot sorts_classes_021
 sort	804831		ToolTip	ce95565853f8	Réduit tous les dégâts subis de ${$w3}%.	lot sorts_classes_021
 sort	804835		Description	001f838e3114	Fissure le sol sous l'|cFFFFFFFFOrbe de tonnerre|r, ralentissant de $s2% la vitesse de déplacement des ennemis dans un rayon de $a2 mètres et augmentant de $s3% les dégâts qu'ils subissent de vos |cffffffffOrbes de tonnerre|r et de |cffffffffConjurer la tempête|r. Dure $d.	lot sorts_classes_021
 sort	804835		Name	63ea43ef8023	Séisme de tempête	lot sorts_classes_021
-sort	804835		ToolTip	4a6e8ae255d3	Vitesse de déplacement réduite de $s2%. Dégâts des Orbes de tonnerre et de Conjurer la tempête du porte-tempête augmentés de $s3%.	lot sorts_classes_021
+sort	804835		ToolTip	4a6e8ae255d3	Vitesse de déplacement réduite de $s2%. Dégâts des Orbes de tonnerre et d'Invocation de tempête du porte-tempête augmentés de $s3%.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Le nom de sort cité doit être « Invocation de tempête », pas « Conjurer la tempête ».
 sort	804841		Description	3aeb4c5de4b9	|cffcc99ffÉpuise 20 Statique|r\r\nFrappe un ennemi et lui inflige $s1 points de dégâts des Arcanes, puis lui ajoute 3 charges de |cffffffffFlux|r. 	lot sorts_classes_021
 sort	804841		Name	03ba310bf9c3	Explosion de flux	lot sorts_classes_021
 sort	804842		Description	8ae663c8fb6b	|cffffffffExplosion de flux|r inflige $s1% de dégâts supplémentaires pour chaque charge de |cffffffffFlux|r déjà présente sur la cible, et |cffffffffAppel d'éclair|r propage le |cffffffffFlux|r de la cible à $707040i ennemis proches.	lot sorts_classes_021
@@ -103,9 +103,9 @@ sort	804908		ToolTip	69198fc40f5c	Dégâts subis réduits de ${$w1}%. Ne peut pa
 sort	804909		Description	12b3ff0633d3	Génère instantanément 3 runes du Sacré et $s2% de l'énergie maximale, et augmente votre vitesse de déplacement de $s1% pendant $d.\n\nUtilisable en étant étourdi, et supprime tous les effets d'étourdissement à l'activation.	lot sorts_classes_021
 sort	804909		Name	983c8e670612	Vivacité	lot sorts_classes_021
 sort	804909		ToolTip	dae9925c24a4	Vitesse de déplacement augmentée de ${$w1}%.	lot sorts_classes_021
-sort	804910		Description	c2fed6d7e2fb	Préparez vos ennemis à une raclée. \r\n\r\nPendant $d, |cffffffffSuivi|r peut être utilisé deux fois avant de dépenser les charges de |cffffffffSuivi|r.	lot sorts_classes_021
-sort	804910		Name	174dbe67d9b3	Passage à tabac	lot sorts_classes_021
-sort	804910		ToolTip	231a84c58db8	|cffffffffSuivi|r peut être utilisé deux fois avant de dépenser les charges de |cffffffffSuivi|r.	lot sorts_classes_021
+sort	804910		Description	c2fed6d7e2fb	Préparez vos ennemis à une raclée. \r\n\r\nPendant $d, |cffffffffSuite|r peut être utilisé deux fois avant de dépenser les charges de |cffffffffSuite|r.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Suite », et non « Suivi ».
+sort	804910		Name	174dbe67d9b3	Raclée	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Le nom du sort (Massue) ne correspond pas à la description, qui parle d'une « raclée » : harmoniser sur « Raclée » (Beatdown).
+sort	804910		ToolTip	231a84c58db8	|cffffffffSuite|r peut être utilisé deux fois avant de dépenser les charges de |cffffffffSuite|r.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Suite », et non « Suivi ».
 sort	804913		Description	f57dd8473bbb	Cela n'existe plus.	lot sorts_classes_021
 sort	804913		Name	c0540db7e326	Grâce de la Lumière	lot sorts_classes_021
 sort	804913		ToolTip	ca12e80dc51a	Insensible à tous les dégâts et à tous les sorts.	lot sorts_classes_021
@@ -137,7 +137,7 @@ sort	804942		ToolTip	32692be93aca	Augmente de ${$w1}% les dégâts bonus de votr
 sort	804965		Description	5d306bb36acf	Vous met en rage pendant $804966d chaque fois que |cffffffffTunnel Below|r prend fin, augmentant de $804966s1% la vitesse de déplacement et de $804966s2% les dégâts infligés, et réduisant de $804966s3% le temps de recharge de |cffffffffSpider Form Jump|r.$?s500230[\r\n\r\nVotre prochain |cffffffffToiles oppressantes|r consomme l'effet et se déclenche avec un temps de recharge réduit de $804966s3%.][]	lot sorts_classes_021
 sort	804965		Name	95fd877bd7a7	Ruée grinçante	lot sorts_classes_021
 sort	804965		ToolTip	8f160af3ba78	Vous met en rage pendant $804966d chaque fois que |cffffffffTunnel Below|r prend fin, augmentant de $804966s1% la vitesse de déplacement et de $804966s2% les dégâts infligés. \n\nCet effet de rage réduit aussi de $804966s3% le temps de recharge de |cffffffffSpider Form Jump|r. Votre prochain |cffffffffToiles oppressantes|r consomme l'effet et a un temps de recharge réduit de $804966s3%.	lot sorts_classes_021
-sort	804967		Description	9a04cfbdd1dc	Jaillit de votre terrier, vous enracinant sur place pendant $d. \r\n\r\nTant que l'effet est actif, tous les sorts ont $s2 mètre(s) de portée supplémentaire et leur temps d'incantation est réduit de $s3%.\r\n\r\nNe peut être utilisé que pendant |cffffffffFurtivité prolongée|r.	lot sorts_classes_021
+sort	804967		Description	9a04cfbdd1dc	Jaillit de votre terrier, vous enracinant sur place pendant $d. \r\n\r\nTant que l'effet est actif, tous les sorts ont $s2 mètres de portée supplémentaire et leur temps d'incantation est réduit de $s3%.\r\n\r\nNe peut être utilisé que pendant |cffffffffFurtivité prolongée|r.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : « mètre(s) » est un bouche-trou ; le pluriel « mètres » est la forme officielle
 sort	804967		Name	0b36506bb0f5	Canon à venin	lot sorts_classes_021
 sort	804967		ToolTip	a66585fc5dbf	Enraciné. Portée des aptitudes augmentée de ${$w2} mètres et vitesse d'incantation augmentée de ${$w3}%.	lot sorts_classes_021
 sort	804973		Description	173233d6b4f3	Augmente de $s1% les dégâts de |cffffffffVenin flétrissant|r sur les ennemis dont les points de vie dépassent 75%.	lot sorts_classes_021
@@ -169,7 +169,7 @@ sort	805098		ToolTip	e384ea8487e7	Les attaques hostiles contre vous ont $h% de c
 sort	805101		Description	a80f7ac74c0b	Les dégâts physiques et de Nature infligés ont désormais $h% de chances de rendre ${$805099m1+$805099ppl1+$INT*.25+$spn*0.1} points de vie.	lot sorts_classes_021
 sort	805101		Name	7cdb916630af	Frappes régénératrices	lot sorts_classes_021
 sort	805101		ToolTip	cb7d72db1972	Donne aux dégâts physiques et de Nature infligés $h% de chances de rendre $805099s1% des points de vie maximum et de réduire de $/1000;805099s2 sec le temps de recharge restant de |cffffffffMue|r.	lot sorts_classes_021
-sort	805108		Description	a266049fb2a7	Rend $s1 points de vie à un allié, en fonction de votre puissance d'attaque et de la puissance de vos sorts de soins.\r\n\r\nTous les effets qui modifient votre aptitude |cffffffffTerre rompue|r affectent également ce sort.	lot sorts_classes_021
+sort	805108		Description	a266049fb2a7	Rend $s1 points de vie à un allié, en fonction de votre puissance d'attaque et de la puissance de vos sorts de soins.\r\n\r\nTous les effets qui modifient votre aptitude |cffffffffTerre fracturée|r affectent également ce sort.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Terre fracturée).
 sort	805108		Name	deee113534da	Soin sauvage	lot sorts_classes_021
 sort	805111		Description	d7812d35c591	Frappe un ennemi et lui inflige les dégâts de l'arme plus $s1, applique |cffffffffVide bouillonnant|r et génère 2 |cffffffffRunes du Vide|r.@s:805113:0@	lot sorts_classes_021
 sort	805111		Name	3cf655660523	Frappe entropique	lot sorts_classes_021
@@ -179,7 +179,7 @@ sort	805116		Name	a4ad4e500d98	Marteau du crépuscule	lot sorts_classes_021
 sort	805119		Description	196335d44f5c	|cFF66DDFFPassif de niveau 15|r\r\nAugmente les dégâts des sorts de $s1% de votre Intelligence et votre score de hâte des sorts de $s2% de votre Intelligence.	lot sorts_classes_021
 sort	805119		Name	5b6568288226	Corruption - Passif de niveau 15	lot sorts_classes_021
 sort	805119		ToolTip	68197cfe2711	Les aptitudes de C'thun sont renforcées. Dégâts des sorts augmentés de ${$w1}% de l'Intelligence.	lot sorts_classes_021
-sort	805120		Description	e1a810db71fb	Atteindre 100 |cffcfa6ffFolie|r ne provoque plus |cFFFFFFFFDémence totale|r.\r\n\r\nVous apprend |cffffffffHéraut des profondeurs|r.@s:520326:0@ 	lot sorts_classes_021
+sort	805120		Description	e1a810db71fb	Atteindre 100 |cffcfa6ffFolie|r ne provoque plus |cFFFFFFFFDémence totale|r.\r\n\r\nVous apprend |cffffffffHéraut des profondeurs|r.@s:520326:0@ 	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Termes de la décision 20 (Insanity = Folie) et nom de sort cité (Démence totale) à respecter.
 sort	805120		Name	d4a8da91753b	Héraut des profondeurs	lot sorts_classes_021
 sort	805125		Description	64804609f24b	Les dégâts et les soins de vos aptitudes sont augmentés de $804904s2%.	lot sorts_classes_021
 sort	805125		Name	9c3f1db0cfc4	Serment : Condamnation	lot sorts_classes_021
@@ -189,7 +189,7 @@ sort	805133		Name	c67224c0d3ca	Hôte entropique	lot sorts_classes_021
 sort	805136		Description	64804609f24b	Les dégâts et les soins de vos aptitudes sont augmentés de $804904s2%.	lot sorts_classes_021
 sort	805136		Name	abc3a6cc3e4f	Serment : Fendoir sacré	lot sorts_classes_021
 sort	805136		ToolTip	cae95a71cec6	Les dégâts et les soins de vos aptitudes sont augmentés de $804904s2%.\r\n\r\nQuand votre |cffffffffChaîne de serment|r prend fin, cet effet disparaît.	lot sorts_classes_021
-sort	805141		Description	70072b91a7d1	Vous prenez |cffffffffForme de guêpe|r, augmentant de $805142s2% votre vitesse de déplacement et vous permettant de voler.  \r\n\r\nVous ne pouvez prendre |cffffffffForme de guêpe|r qu'en Outreterre ou en Norfendre, et elle ne peut pas être utilisée en combat.	lot sorts_classes_021
+sort	805141		Description	70072b91a7d1	Vous prenez la |cffffffffForme de guêpe|r, augmentant de $805142s2% votre vitesse de déplacement et vous permettant de voler.  \r\n\r\nVous ne pouvez prendre la |cffffffffForme de guêpe|r qu'en Outreterre ou en Norfendre, et elle ne peut pas être utilisée en combat.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Article manquant devant le nom du sort (grammaire).
 sort	805141		Name	fed13f35d11f	Forme de guêpe	lot sorts_classes_021
 sort	805141		ToolTip	bd9aa01a088b	Vitesse de déplacement augmentée de $33948s2% et vous permet de voler.	lot sorts_classes_021
 sort	805143		Description	03ad45bd4082	Vous canalisez votre énergie sur 10 morts-vivants proches pendant $801530d maximum, leur rendant $801545s1% de leurs points de vie maximum toutes les $t1 sec.	lot sorts_classes_021
@@ -234,11 +234,11 @@ sort	805202		ToolTip	723593dc8745	Générer une |cFFFFFFFFÂme moissonnée|r ren
 sort	805251		Description	39e19f4ce2bf	Sous forme de démon, le temps de recharge de votre Charge du sabot gangrené est réduit de $/1000;s1 sec. De plus, elle enracine désormais toujours la cible pendant $/1000;s2 sec.	lot sorts_classes_021
 sort	805251		Name	705e00d0d0e6	Sabots piétineurs	lot sorts_classes_021
 sort	805251		ToolTip	39e19f4ce2bf	Sous forme de démon, le temps de recharge de votre Charge du sabot gangrené est réduit de $/1000;s1 sec. De plus, elle enracine désormais toujours la cible pendant $/1000;s2 sec.	lot sorts_classes_021
-sort	805253		Description	5f497622666c	|cff93cceaConsomme 1 Gangrefurie|r\r\nFrappe tous les ennemis situés à moins de $a1 mètres de la cible et leur inflige $?s500066[${$SP*0.35+$PL*1.44+$m1}][${$AP*0.1+$PL*1.44+$m1}] points de dégâts d'Ombreflamme, en fonction de $?s500066[la puissance des sorts][la puissance d'attaque].\r\n\r\nUtiliser |cffffffffDouble entaille|r ou |cFFFFFFFFBoule de feu gangrenée|r sur des ennemis récemment affectés par ce sort inflige des dégâts d'Ombreflamme supplémentaires et confère $/10;805254s3 points de Rage.\r\n\r\nPartage un temps de recharge avec les autres |cffffffffSmites|r du chasseur de démons.	lot sorts_classes_021
+sort	805253		Description	5f497622666c	|cff93cceaConsomme 1 Gangrefurie|r\r\nFrappe tous les ennemis situés à moins de $a1 mètres de la cible et leur inflige $?s500066[${$SP*0.35+$PL*1.44+$m1}][${$AP*0.1+$PL*1.44+$m1}] points de dégâts d'Ombreflamme, en fonction de $?s500066[la puissance des sorts][la puissance d'attaque].\r\n\r\nUtiliser |cffffffffDouble entaille|r ou |cFFFFFFFFBoule de feu gangrenée|r sur des ennemis récemment affectés par ce sort inflige des dégâts d'Ombreflamme supplémentaires et confère $/10;805254s3 points de Rage.\r\n\r\nPartage un temps de recharge avec les autres |cffffffffChâtiments|r du chasseur de démons.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : « Smites » est resté en anglais alors que le sort s'appelle Châtiment illidari : « Châtiments » existe en français
 sort	805253		Name	8efaae57ed03	Châtiment illidari	lot sorts_classes_021
 sort	805253		ToolTip	3b034b3e0539	Utiliser Double entaille ou Boule de feu gangrenée sur cette cible inflige des dégâts d'Ombreflamme supplémentaires et génère de la Rage.	lot sorts_classes_021
 sort	805288		Description	e051442d041f	|cffcc99ffÉpuise 20 Statique|r\r\nDécharge de l'électricité, rendant $s2% de votre mana maximum et infligeant ${$m1+0+$spn*0.25} points de dégâts de Nature aux ennemis situés dans une petite zone autour de vous.	lot sorts_classes_021
 sort	805288		Name	f0f2c4382dcf	Décharge	lot sorts_classes_021
 sort	805304		Description	4ded9b44d962	|cffffffff3 charges|r\r\n|cffffffffRecharge : 20 sec|r\r\nAméliore le prochain |cffffffffTir réparateur|r utilisé dans les $d, réduisant son temps d'incantation de $s1% et son coût en mana de $s2%.\r\n\r\nPartage un temps de recharge avec |cffffffffModules|r.	lot sorts_classes_021
 sort	805304		Name	286783839b02	Module d'urgence	lot sorts_classes_021
-sort	805304		ToolTip	9171022de869	Le prochain Tir réparateur est instantané.	lot sorts_classes_021
+sort	805304		ToolTip	9171022de869	Le prochain Tir de réparation est instantané.	lot sorts_classes_021 | relu par l'API (relecture 0.9.5) : Nom du sort cité différent du nom français fourni (Tir réparateur → Tir de réparation).

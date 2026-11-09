@@ -1,7 +1,7 @@
 type	id	sous_id	champ	en_empreinte	fr	note
 sort	802272		Description	4f369a71ac3f	Vous pouvez l'activer pendant $d pour lancer vos |cffffffffPièges|r jusqu'à 30 m de distance.	lot sorts_objets_053
 sort	802272		ToolTip	cc90ac869d81	Les |cffffffffPièges|r peuvent être lancés jusqu'à 30 m de distance.	lot sorts_objets_053
-sort	802308		Description	5ed4c10986f6	Vous buvez un tonique amer, ce qui augmente votre hâte de $s2% et réduit le coût de toutes les aptitudes de $s1% pendant $d.\r\n\r\n@ext:Only 1 |cffffffffTonic|r can be active at a time.:ext@	lot sorts_objets_053
+sort	802308		Description	5ed4c10986f6	Vous buvez un tonique amer, ce qui augmente votre hâte de $s2% et réduit le coût de toutes les aptitudes de $s1% pendant $d.\r\n\r\n@ext:Only 1 |cffffffffTonic|r can be active at a time.:ext@	lot sorts_objets_053 | relu par l'API (relecture 0.9.5) : L'étiquette @ext:…:ext@ doit être recopiée telle quelle, sans traduction dans le texte.
 sort	802308		ToolTip	60be2fefd6d8	Coût en puissance de toutes les aptitudes réduit de ${$w1}%. Hâte de mêlée et à distance augmentée de ${$w2}%.	lot sorts_objets_053
 sort	802575		Description	22554d53e688	Vous retrouvez vos esprits, ce qui réduit votre |cffcfa6ffFolie|r de 20 et vous rend $s2% de votre mana manquant.\r\n\r\nUtilisable pendant l'incantation ou la canalisation.	lot sorts_objets_053
 sort	802575		Name	2099c2e98be7	Ponction de santé mentale	lot sorts_objets_053
@@ -188,7 +188,7 @@ sort	804412		Description	f631343855fb	Tente de rendre un ennemi fou, le provoqua
 sort	804490		Description	86374ecb8ad2	Remonte le temps, dissipant le dernier effet nuisible subi par un allié ou un effet bénéfique placé sur un ennemi.\r\n\r\nLes utilisations suivantes augmentent le coût en mana de cette aptitude de $807771s1% pendant $807771d.	lot sorts_objets_053
 sort	804762		Description	b053deaa9e50	Rend $o1 points de vie et $o2 points de mana en $d. Vous devez rester assis pendant que vous buvez.	lot sorts_objets_053
 sort	804762		ToolTip	1209f49d9e33	Rend $o1 points de vie et $o2 points de mana au fil du temps.	lot sorts_objets_053
-sort	804763		Description	f0339fbb5db4	Conjure $s1 chopes de |cFFFFFFFFTonneblonde légère|r, offrant au porte-tempête et à $gses:ses; alliés de quoi boire.\n\nLes objets conjurés disparaissent si vous restez déconnecté plus de 15 minutes.	lot sorts_objets_053
+sort	804763		Description	f0339fbb5db4	Conjure $s1 chopes de |cFFFFFFFFTonneblonde légère|r, offrant au porte-tempête et à $gses:ses; alliés de quoi boire.\n\nLes objets conjurés disparaissent si vous quittez le jeu plus de 15 minutes.	lot sorts_objets_053 | relu par l'API (relecture 0.9.5) : Tournure officielle : « si vous quittez le jeu » (et non « restez déconnecté »).
 sort	804763		Name	ba595468ef7a	Conjuration de Tonneblonde	lot sorts_objets_053
 sort	804765		Description	47b4524c235d	Après avoir tué un ennemi qui rapporte de l'expérience ou de l'honneur, vous pouvez utiliser cette aptitude pour consommer sa viande et regagner $o1% de vos points de vie en $d.\r\n\r\nImpossible à utiliser en combat.	lot sorts_objets_053
 sort	804765		Name	1f9e3d643519	Repas macabre	lot sorts_objets_053
@@ -201,7 +201,7 @@ sort	805049		ToolTip	ec1a47962973	Aidé par un champion impie. 50% de tous les d
 sort	805197		Description	e282c70ca837	Crée un cimetière à l'endroit ciblé, ralentissant la vitesse de déplacement des ennemis à l'intérieur de ${-($m2)}% et faisant surgir périodiquement des morts-vivants du sol, infligeant ${$500365m2+$SP*.33} points de dégâts de Peste aux ennemis proches et créant un cadavre. Dure $d.	lot sorts_objets_053
 sort	805197		Name	efa416f971d6	Cimetière	lot sorts_objets_053
 sort	805197		ToolTip	8f0246c558aa	Des cadavres surgissent près de vous. Vitesse de déplacement réduite de ${$w2}%.	lot sorts_objets_053
-sort	806240		Description	0746c4418cf1	Brise la malédiction d'un allié, dissipant $s1 effet$?s572870[s][] de malédiction.	lot sorts_objets_053
+sort	806240		Description	0746c4418cf1	Brise la malédiction d'un allié, dissipant $s1 effet$?s572870[s][] de malédiction sur lui.	lot sorts_objets_053 | relu par l'API (relecture 0.9.5) : « from them » (sur lui) était oublié ; la cible du retrait n'est pas indiquée
 sort	806240		Name	e2a74c86e9fd	Rupture de sort	lot sorts_objets_053
 sort	806658		Description	87940154c21c	Vous transforme en Éthéréen.	lot sorts_objets_053
 sort	806659		Description	fae4284980a2	Vous transforme en Éthéréen en robe.	lot sorts_objets_053

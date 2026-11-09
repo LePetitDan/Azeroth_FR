@@ -6,17 +6,17 @@ sort	705875		ToolTip	d981a65ee29e	Augmente de ${$w1}% les dégâts d'Ombre infli
 sort	705878		Description	1d908a29957d	Augmente de $s1% les dégâts de Nature infligés et de $s2% les soins prodigués.	lot sorts_objets_131
 sort	705878		ToolTip	00bde6505e6b	Augmente de ${$w1}% les dégâts de Nature infligés et de ${$w2}% les soins prodigués.	lot sorts_objets_131
 sort	705879		Name	56703db5c756	Garde-serpent améliorée	lot sorts_objets_131
-sort	705879		ToolTip	04ea03f3ad36	Augmente la durée de |cffffffffGarde-serpent|r de $/1000;s1 sec.	lot sorts_objets_131
-sort	705884		Description	8c9805a3482c	Les dégâts infligés par |cffffffffFlamme d'ombre|r ont désormais $h% de chances d'appliquer |cffffffffMaléfice de malice|r à l'ennemi.	lot sorts_objets_131
+sort	705879		ToolTip	04ea03f3ad36	Augmente la durée de |cffffffffGarde serpent|r de $/1000;s1 sec.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom fourni (Garde serpent).
+sort	705884		Description	8c9805a3482c	Les dégâts infligés par |cffffffffÉruption d'ombre|r ont désormais $h% de chances d'appliquer |cffffffffMaléfice de malveillance|r à l'ennemi.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Éruption d'ombre).
 sort	705885		Description	78401d4ac0e1	Augmente de $s1% les dégâts de |cffffffffReprise de vie|r.	lot sorts_objets_131
 sort	705885		Name	ac36ff2d81f8	Reprise de vie améliorée	lot sorts_objets_131
 sort	705887		Description	e6d84c9fbe92	Les dégâts infligés par |cffffffffÉclat de juju|r appliquent |cffffffffMaléfice de mort|r.	lot sorts_objets_131
 sort	705887		Name	30abc4193fee	Tazdingo, mon !	lot sorts_objets_131
 sort	705888		Description	cbedbe9856fd	Réduit de $/1000;s1 sec le temps de recharge d'|cffffffffÉclat de juju|r.	lot sorts_objets_131
 sort	705888		Name	471cefec43d7	Éclat de juju amélioré	lot sorts_objets_131
-sort	705889		Description	a2dfe6186419	Réduit de $/1000;S1 sec le temps d'incantation des |cffffffffMauvais sorts|r.	lot sorts_objets_131
+sort	705889		Description	a2dfe6186419	Réduit de $/1000;S1 sec le temps d'incantation des |cffffffffGuignes|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Guignes).
 sort	705889		Name	2d38986c42e6	Tisseur de sorts	lot sorts_objets_131
-sort	705890		Description	a2dfe6186419	Réduit de $/1000;S1 sec le temps d'incantation des |cffffffffMauvais sorts|r.	lot sorts_objets_131
+sort	705890		Description	a2dfe6186419	Réduit de $/1000;S1 sec le temps d'incantation des |cffffffffGuignes|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Guignes).
 sort	705890		Name	2d38986c42e6	Tisseur de sorts	lot sorts_objets_131
 sort	705893		ToolTip	dbcfca65cb39	Augmente de ${$w1}% les soins prodigués et confère à tous les soins directs ${$w2}% de chances supplémentaires de lancer gratuitement |cffffffffBreuvage de Loa|r sur la cible.	lot sorts_objets_131
 sort	705900		Description	03471437ee76	Réduit de $s1% le temps de recharge de toutes les |cffffffffGardes|r.	lot sorts_objets_131
@@ -35,12 +35,12 @@ sort	705929		ToolTip	2ea44c9189cb	Inflige des dégâts de Nature toutes les $t1 
 sort	705930		ToolTip	d067fb0cafa1	Réduit de ${$w1}% les temps de recharge d'|cffffffffAppel du raptor|r, d'|cffffffffEmbuscade de raptors|r et d'|cffffffffEssaim de saurides|r.	lot sorts_objets_131
 sort	705941		ToolTip	e244e8de6abc	Agilité augmentée de $S2%. Cumulable jusqu'à $u fois.	lot sorts_objets_131
 sort	705950		Description	f266c218f237	Réduit de $s3% le coût des sorts de changement de forme.	lot sorts_objets_131
-sort	705952		Description	c40896714b46	Augmente de $s1% votre vitesse de déplacement tant que |cffffffffTunnel inférieur|r est actif.	lot sorts_objets_131
+sort	705952		Description	c40896714b46	Augmente de $s1% votre vitesse de déplacement tant que |cffffffffTunnel en dessous|r est actif.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Tunnel en dessous ».
 sort	705952		Name	390187f586be	L'Ancien Royaume	lot sorts_objets_131
-sort	705952		ToolTip	a7b25c9b3d2b	Augmente de ${$w1}% la vitesse de déplacement tant que |cffffffffTunnel inférieur|r est actif.	lot sorts_objets_131
-sort	705953		Description	93297ba153ac	Augmente de $s1% la vitesse de déplacement tant que |cffffffffTunnel inférieur|r est actif.	lot sorts_objets_131
+sort	705952		ToolTip	a7b25c9b3d2b	Augmente de ${$w1}% la vitesse de déplacement tant que |cffffffffTunnel en dessous|r est actif.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Tunnel en dessous ».
+sort	705953		Description	93297ba153ac	Augmente de $s1% la vitesse de déplacement tant que |cffffffffTunnel en dessous|r est actif.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Tunnel en dessous ».
 sort	705953		Name	390187f586be	L'Ancien Royaume	lot sorts_objets_131
-sort	705953		ToolTip	a7b25c9b3d2b	Augmente de ${$w1}% la vitesse de déplacement tant que |cffffffffTunnel inférieur|r est actif.	lot sorts_objets_131
+sort	705953		ToolTip	a7b25c9b3d2b	Augmente de ${$w1}% la vitesse de déplacement tant que |cffffffffTunnel en dessous|r est actif.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Tunnel en dessous ».
 sort	705958		Description	4a9676af65cb	Augmente de $s1% les dégâts de |cffffffffCroc de Shadra|r.	lot sorts_objets_131
 sort	705958		Name	1a3101bfd658	Arachnisé	lot sorts_objets_131
 sort	705958		ToolTip	162c3307cebd	Augmente de ${$w1}% les dégâts de |cffffffffCroc de Shadra|r.	lot sorts_objets_131
@@ -48,7 +48,7 @@ sort	705960		Description	48a1b9d55277	Augmente de $s1% la fréquence des impulsi
 sort	705960		Name	cd75411d14f2	Accélération	lot sorts_objets_131
 sort	705963		Description	e42385ef8a71	Augmente la hâte de $s2% et les soins prodigués de $s3%.	lot sorts_objets_131
 sort	705963		ToolTip	bbb83f24dc48	Augmente la hâte de ${$w2}% et les soins reçus de ${$w3}%.	lot sorts_objets_131
-sort	705964		Description	f45373bd314f	Lorsque vous combattez avec deux armes, vos attaques automatiques ont $h% de chances de rendre votre prochain |cffffffffMurder|R gratuit.	lot sorts_objets_131
+sort	705964		Description	f45373bd314f	Lorsque vous combattez avec deux armes, vos attaques automatiques ont $h% de chances de rendre votre prochain |cffffffffMeurtre|R gratuit.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité resté en anglais alors que le sort est traduit « Meurtre » (n° 5).
 sort	705964		ToolTip	9774c356297e	Votre prochain Meurtre est gratuit.	lot sorts_objets_131
 sort	705965		Description	0ae40f1ee943	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffFrappe aux jambes|r.	lot sorts_objets_131
 sort	705965		Name	c1e384cabb7f	Frappe aux jambes améliorée	lot sorts_objets_131
@@ -70,7 +70,7 @@ sort	705979		Name	f81a0c39a265	Piqûre améliorée	lot sorts_objets_131
 sort	705979		ToolTip	373c2de236c0	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffPiqûre|r et augmente de ${$w2}% ses dégâts.	lot sorts_objets_131
 sort	705986		Description	dce1829cfd19	Augmente de 1 la puissance d'attaque pour chaque tranche de ${$m1*$m2} points d'Armure que vous possédez, et inflige ${$m2+0.2*$PL} points de dégâts physiques aux attaquants en mêlée pendant $d.	lot sorts_objets_131
 sort	705986		ToolTip	1918ac4adbb1	Augmente de 1 la puissance d'attaque pour chaque tranche de ${$m1*$m2} points d'Armure que vous possédez et inflige ${$m2+0.2*$PL} points de dégâts physiques aux attaquants en mêlée.	lot sorts_objets_131
-sort	705987		Description	0285eac0d644	Les coups critiques non périodiques vous confèrent |cffffffffEpines chitineuses|r.@s:503793:0@	lot sorts_objets_131
+sort	705987		Description	0285eac0d644	Les coups critiques non périodiques vous confèrent |cffffffffPointes chitineuses|r.@s:503793:0@	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Pointes chitineuses ».
 sort	705987		ToolTip	19e494142767	Augmente de 1 la puissance d'attaque pour chaque tranche de ${$m1*$m2} points d'Armure que vous possédez et inflige ${$m2+0.4*$PL} points de dégâts physiques aux attaquants en mêlée.	lot sorts_objets_131
 sort	706004		Description	30d6f7b7ac61	Augmente de $s1% l'Armure apportée par les objets, et donne aux dégâts directs infligés et subis $h% de chances de générer $/10;503953s1 points de Rage.\n\nNe peut survenir qu'une fois par sec.	lot sorts_objets_131
 sort	706013		Description	b62e6b4b4e0b	Réduit de 0.5 sec le temps d'incantation de |cffffffffCroc de Venoxis|r et de $s2% son coût.	lot sorts_objets_131
@@ -98,7 +98,7 @@ sort	706051		Description	10c1f88292aa	Augmente de $s1% les dégâts et les soins
 sort	706051		ToolTip	10c1f88292aa	Augmente de $s1% les dégâts et les soins des sorts d'|cffffffffOrdre|r.	lot sorts_objets_131
 sort	706052		ToolTip	f806ff25cc13	Réduit de 0.25 sec le temps d'incantation d'|cffffffffInversion des blessures|r.	lot sorts_objets_131
 sort	706056		Description	cf9badad4af6	Transforme |cffffffffDéplacement|r en |cffffffffSillage|r.@s:707555:0@	lot sorts_objets_131
-sort	706060		Description	240bc837a79e	|cffffffffSables changeants|r augmente désormais de $706061s1% les dégâts subis provenant de vos sorts d'|cffffffffOrdre|r pendant $706061d.	lot sorts_objets_131
+sort	706060		Description	240bc837a79e	|cffffffffSables mouvants|r augmente désormais de $706061s1% les dégâts subis provenant de vos sorts d'|cffffffffOrdre|r pendant $706061d.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Le nom de sort cité fourni est « Sables mouvants », pas « Sables changeants ».
 sort	706067		Description	a5e205918de2	Lancer |cFFFFFFFFBaguette du temps|r augmente votre vitesse d'attaque de $806746s1% pendant $806746d.	lot sorts_objets_131
 sort	706067		ToolTip	4d196c3cf9d9	Lancer Baguette du temps augmente votre vitesse d'attaque de $806746s1% pendant $806746d.	lot sorts_objets_131
 sort	706069		Description	581b10797fd4	Permet à |cffffffffÉcho|r de se cumuler $s1 fois de plus.	lot sorts_objets_131
@@ -107,7 +107,7 @@ sort	706069		ToolTip	329c0b86405c	Permet à |cffffffffÉcho|r de se cumuler ${$w
 sort	706070		Description	4fb48833d00c	Permet à |cffffffffÉcho|r de se cumuler $s1 fois de plus.	lot sorts_objets_131
 sort	706070		Name	24583a93d803	Orbes abondants	lot sorts_objets_131
 sort	706070		ToolTip	c3c5e4f6460d	Permet à |cffffffffÉcho|r de se cumuler ${$w1} fois de plus.	lot sorts_objets_131
-sort	706072		Description	17c5b7bdea33	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffFil de l'éternité|r.	lot sorts_objets_131
+sort	706072		Description	17c5b7bdea33	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffFil d'éternité|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Fil d'éternité ».
 sort	706072		Name	994027427be9	Fin de l'éternité	lot sorts_objets_131
 sort	706074		Description	f674ca2041f3	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffDisque de légende|r.	lot sorts_objets_131
 sort	706074		Name	1a2fce399d8b	Disques sur disques	lot sorts_objets_131
@@ -117,21 +117,21 @@ sort	706075		Name	1a2fce399d8b	Disques sur disques	lot sorts_objets_131
 sort	706075		ToolTip	f674ca2041f3	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffDisque de légende|r.	lot sorts_objets_131
 sort	706080		Description	8dff93ca919d	Inflige $s1 points de dégâts de Feu aux ennemis proches.	lot sorts_objets_131
 sort	706091		Description	2103fd335e4b	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoi passé|r.	lot sorts_objets_131
-sort	706091		Name	3d95e5a5fc27	Moi passé amélioré	lot sorts_objets_131
+sort	706091		Name	3d95e5a5fc27	Moi du passé amélioré	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Cohérence avec le nom de sort « Moi du passé ».
 sort	706091		ToolTip	2103fd335e4b	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoi passé|r.	lot sorts_objets_131
 sort	706092		Description	2103fd335e4b	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoi passé|r.	lot sorts_objets_131
-sort	706092		Name	3d95e5a5fc27	Moi passé amélioré	lot sorts_objets_131
+sort	706092		Name	3d95e5a5fc27	Moi du passé amélioré	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Cohérence avec le nom de sort « Moi du passé ».
 sort	706092		ToolTip	2103fd335e4b	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoi passé|r.	lot sorts_objets_131
 sort	706093		Description	2103fd335e4b	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoi passé|r.	lot sorts_objets_131
-sort	706093		Name	3d95e5a5fc27	Moi passé amélioré	lot sorts_objets_131
+sort	706093		Name	3d95e5a5fc27	Moi du passé amélioré	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Cohérence avec le nom de sort « Moi du passé ».
 sort	706093		ToolTip	2103fd335e4b	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffMoi passé|r.	lot sorts_objets_131
 sort	706101		Description	345d207963b3	Les charges de |cffffffffSables du temps|r augmentent de $s1% les soins d'|cffffffffÉpoque|r.	lot sorts_objets_131
 sort	706105		Description	946b710e4dc3	Augmente l'Esprit de $s1%.	lot sorts_objets_131
 sort	706105		ToolTip	2fd87f4a166d	Augmente l'Esprit de ${$w1}%.	lot sorts_objets_131
 sort	706106		Description	946b710e4dc3	Augmente l'Esprit de $s1%.	lot sorts_objets_131
 sort	706106		ToolTip	2fd87f4a166d	Augmente l'Esprit de ${$w1}%.	lot sorts_objets_131
-sort	706108		Description	f44981ea6185	Augmente de $s1% l'efficacité des charges de |cffffffffRenforcement chromatique|r et de |cffffffffRenforcement d'ordre|r.	lot sorts_objets_131
-sort	706108		ToolTip	f7a70a6a136d	Augmente de ${$w1}% l'efficacité des charges de |cffffffffRenforcement chromatique|r et de |cffffffffRenforcement d'ordre|r.	lot sorts_objets_131
+sort	706108		Description	f44981ea6185	Augmente de $s1% l'efficacité des charges de |cffffffffRenforcement chromatique|r et d'|cffffffffOrdre renforcé|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Ordre renforcé).
+sort	706108		ToolTip	f7a70a6a136d	Augmente de ${$w1}% l'efficacité des charges de |cffffffffRenforcement chromatique|r et d'|cffffffffOrdre renforcé|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Ordre renforcé).
 sort	706118		Description	cd7df8bc72f3	Augmente de $s1% les dégâts de |cffffffffDéflagration de sable|r$?s92118[ et de |cffffffffDéfaire|r][]$?s500115[, et de $s2% les soins d'|cffffffffÉpoque|r][].	lot sorts_objets_131
 sort	706118		Name	42dae836cfa0	Chronomancie	lot sorts_objets_131
 sort	706118		ToolTip	7164c02eb964	Augmente de ${$w1}% les dégâts de |cffffffffDéflagration de sable|r$?s500115[, et de ${$w2}% les soins d'|cffffffffÉpoque|r][].	lot sorts_objets_131
@@ -140,14 +140,14 @@ sort	706119		Name	42dae836cfa0	Chronomancie	lot sorts_objets_131
 sort	706119		ToolTip	7164c02eb964	Augmente de ${$w1}% les dégâts de |cffffffffDéflagration de sable|r$?s500115[, et de ${$w2}% les soins d'|cffffffffÉpoque|r][].	lot sorts_objets_131
 sort	706123		Description	d1a5f16659d4	|cffffffffVent arrière|r confère désormais à votre |cffffffffÉlémentaire d'air|r le |cffffffffDon de l'air|r pendant $804033d.@s:804033:0@	lot sorts_objets_131
 sort	706123		ToolTip	27a71ceafb6f	|cffffffffVent arrière|r confère à votre |cffffffffÉlémentaire d'air|r le |cffffffffDon de l'air|r pendant $804033d.@s:804033@	lot sorts_objets_131
-sort	706139		Description	c0a41c7a731d	Réduit de $/20;s1 le coût en Rage de |cffffffffMain de la Mère-Terre|r.	lot sorts_objets_131
-sort	706139		Name	5dc8c7fe17ed	Main de la Mère-Terre améliorée	lot sorts_objets_131
-sort	706139		ToolTip	c0a41c7a731d	Réduit de $/20;s1 le coût en Rage de |cffffffffMain de la Mère-Terre|r.	lot sorts_objets_131
+sort	706139		Description	c0a41c7a731d	Réduit de $/20;s1 le coût en Rage de |cffffffffMain de la Terre-Mère|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité à harmoniser : Main de la Terre-Mère.
+sort	706139		Name	5dc8c7fe17ed	Main de la Terre-Mère améliorée	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom du sort cité : « Main de la Terre-Mère » (et non « Mère-Terre »), à harmoniser.
+sort	706139		ToolTip	c0a41c7a731d	Réduit de $/20;s1 le coût en Rage de |cffffffffMain de la Terre-Mère|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité à harmoniser : Main de la Terre-Mère.
 sort	706143		Description	6bbc489ba5d7	Réduit de $s1% le coût en mana de |cFFFFFFFFCharge spirituelle|r.	lot sorts_objets_131
 sort	706143		Name	6975768a4468	Débordement spirituel	lot sorts_objets_131
 sort	706144		Description	3cc48b401de6	Réduit le coût en mana de |cFFFFFFFFInfusion primordiale|r et augmente les soins de $s1%.	lot sorts_objets_131
 sort	706144		Name	7dbb00f157f3	Désamorçage primordial	lot sorts_objets_131
-sort	706144		ToolTip	8fde0194341c	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffImpulsion primordiale|r et augmente ses soins de ${$w1}%.	lot sorts_objets_131
+sort	706144		ToolTip	8fde0194341c	Réduit de $/1000;s2 sec le temps de recharge de |cffffffffPulsation primordiale|r et augmente ses soins de ${$w1}%.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni : « Pulsation primordiale ».
 sort	706145		Description	30b6bfee0acb	|cffffffffChoc sismique|r explose désormais à la fin de sa durée, infligeant ${$707174m1+$707174ppl1+$spn*.5+$AP*.1} points de dégâts de Nature supplémentaires et vous rendant un montant de points de vie égal à 100% des dégâts infligés.	lot sorts_objets_131
 sort	706145		Name	a018b12a2ad2	Terraformation	lot sorts_objets_131
 sort	706146		Description	8edfa2ee0310	Augmente de $s1% l'efficacité des |cffffffffFaveurs|r.	lot sorts_objets_131
@@ -155,7 +155,7 @@ sort	706146		Name	38bb762f68e8	Faveurs améliorées	lot sorts_objets_131
 sort	706146		ToolTip	3ec93e170381	Augmente de ${$w1}% l'efficacité des |cffffffffFaveurs|r.	lot sorts_objets_131
 sort	706163		Description	8e59ac75ad7b	Les dégâts de Nature infligés ont $h% de chances de vous conférer |cffffffffMagmafurie|r, cumulable jusqu'à $802334u fois.\r\n\r\nEnseigne aussi |cffffffffÉruption|r.@s:802335:0@	lot sorts_objets_131
 sort	706163		Name	a43318d642c1	Magmafurie	lot sorts_objets_131
-sort	706163		ToolTip	f29634c51a94	|cffffffffBriseroche|r vous confère |cffffffffSecoueterre|r.@s:804355@	lot sorts_objets_131
+sort	706163		ToolTip	f29634c51a94	|cffffffffBrise-pierre|r vous confère |cffffffffSecoueur de terre|r.@s:804355@	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : Stonebreaker = Brise-pierre et Groundshaker = Secoueur de terre, à reprendre tels quels.
 sort	706164		Description	af2e347c6450	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRugissement protecteur|r.	lot sorts_objets_131
 sort	706164		Name	4513a62f6ef9	Courageux	lot sorts_objets_131
 sort	706164		ToolTip	660adbe0ae2e	Réduit de ${$w1}% la durée des effets entravant le déplacement et augmente de ${$w2}% l'efficacité de |cffffffffFaveur du loup|r.	lot sorts_objets_131
@@ -185,7 +185,7 @@ sort	706206		ToolTip	062e8f8216a9	Augmente de ${$w1}% les dégâts de Feu inflig
 sort	706207		Description	ae8eb30996bb	Augmente de $s1% les dégâts de Feu infligés et réduit de $s2% le coût des sorts de Nature.	lot sorts_objets_131
 sort	706207		Name	c27aba5ba331	Dompteur de lave	lot sorts_objets_131
 sort	706207		ToolTip	062e8f8216a9	Augmente de ${$w1}% les dégâts de Feu infligés et réduit de ${$w2}% le coût des sorts de Nature.	lot sorts_objets_131
-sort	706219		Description	8a3299fab48f	|cffffffffÉlu de la Mère-Terre|r augmente désormais aussi de $s1% vos chances de coup critique.	lot sorts_objets_131
+sort	706219		Description	8a3299fab48f	|cffffffffÉlu de la Terre-Mère|r augmente désormais aussi de $s1% vos chances de coup critique.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort incohérent : « Terre-Mère » est la forme employée partout (Main de la Terre-Mère), pas « Mère-Terre ».
 sort	706219		Name	0ce429ad8f45	L'Élu	lot sorts_objets_131
 sort	706219		ToolTip	06e5f27fc7bc	|cffffffffÉlu de la Mère-Terre|r augmente désormais aussi de ${$w1}% vos chances de coup critique.	lot sorts_objets_131
 sort	706227		Description	848ff965b36e	Éviter une attaque augmente votre mana maximum de $706228s1% pendant $706228d, cumulable jusqu'à $706228u fois.	lot sorts_objets_131
@@ -196,20 +196,20 @@ sort	706231		Description	0769ffb62517	Augmente de $s1% l'efficacité de vos |cff
 sort	706231		ToolTip	0f71285d87a3	Augmente de ${$w1}% l'efficacité de vos |cffffffffAspects|r et de ${$w3}% leurs chances de se déclencher.	lot sorts_objets_131
 sort	706236		Description	093a53c19b16	Les dégâts infligés par |cffffffffLame ombreuse|r attachent désormais les ennemis à vous pendant $/1000;S1 sec. Si le lien est rompu, ils sont ramenés vers vous et subissent ${$680707m1+$680707ppl1+$spa*0.285} points de dégâts des Arcanes.	lot sorts_objets_131
 sort	706236		Name	cb3e5da88a50	Fureur du gardien	lot sorts_objets_131
-sort	706241		ToolTip	9f22e9e31107	Dégâts subis de Fléau des sorcières augmentés de ${$w1}%.	lot sorts_objets_131
+sort	706241		ToolTip	9f22e9e31107	Dégâts subis de Plaie-des-sorcières augmentés de ${$w1}%.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du français fourni (Plaie-des-sorcières, cf. n 46).
 sort	706242		Description	9d8edd58f793	Augmente de $s1% la hâte en mêlée et à distance.	lot sorts_objets_131
 sort	706242		Name	5ef7d69f8579	Poursuivant du mal	lot sorts_objets_131
 sort	706243		Description	9d8edd58f793	Augmente de $s1% la hâte en mêlée et à distance.	lot sorts_objets_131
 sort	706243		Name	5ef7d69f8579	Poursuivant du mal	lot sorts_objets_131
-sort	706246		Description	6cacc18c7d63	|cffffffffHerald of C'thun|r donne à |cffffffffHorrorbolt|r et à |cffffffffEldritch Blast|r $s3% de chances de réinitialiser |cffffffffGaze of C'thun|r.	lot sorts_objets_131
-sort	706246		ToolTip	09fe2d8fd009	|cffffffffHerald of C'thun|r donne à |cffffffffHorrorbolt|r et à |cffffffffEldritch Blast|r ${$w3}% de chances de réinitialiser |cffffffffGaze of C'thun|r.	lot sorts_objets_131
+sort	706246		Description	6cacc18c7d63	|cffffffffHéraut de C'Thun|r donne à |cffffffffÉclair d'effroi|r et à |cffffffffDéflagration surnaturelle|r $s3% de chances de réinitialiser |cffffffffRegard de C'Thun|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité resté en anglais (Gaze of C'thun a un français choisi : Regard de C'Thun) ; Herald traduit, Eldritch = surnaturel.
+sort	706246		ToolTip	09fe2d8fd009	|cffffffffHéraut de C'Thun|r donne à |cffffffffÉclair d'effroi|r et à |cffffffffDéflagration surnaturelle|r ${$w3}% de chances de réinitialiser |cffffffffRegard de C'Thun|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Noms de sorts cités restés en anglais ; Regard de C'Thun imposé.
 sort	706248		Description	0c0bfb2f240d	Augmente de $s2% les soins prodigués par |cffffffffBreuvage de Loa|r et réduit de 0.25 sec son temps d'incantation	lot sorts_objets_131
 sort	706248		Name	f17704a59aae	Breuvages vivifiants	lot sorts_objets_131
 sort	706248		ToolTip	d6aa99bdd6ab	Réduit de 0.5 sec le temps d'incantation de |cffffffffBreuvage de Loa|r.	lot sorts_objets_131
 sort	706252		Name	ee7be7c1de4b	Bénédiction du puits de lune	lot sorts_objets_131
 sort	706253		Name	ee7be7c1de4b	Bénédiction du puits de lune	lot sorts_objets_131
 sort	706253		Rank	4136979d06ff	Inutilisé	lot sorts_objets_131
-sort	706261		Description	373f45e2ba05	Réduit de $/1000;s1 secondes le temps de recharge de |cFFFFFFFFRegard noir|r et de $s2% son coût en mana.	lot sorts_objets_131
+sort	706261		Description	373f45e2ba05	Réduit de $/1000;s1 secondes le temps de recharge d'|cFFFFFFFFÉblouissement|r et de $s2% son coût en mana.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du français fourni (Glare = Éblouissement).
 sort	706261		Name	d6a3650e37b6	Sillage	lot sorts_objets_131
 sort	706269		Name	5e260b380f90	Fureur d'Archimonde	lot sorts_objets_131
 sort	706269		ToolTip	c9717049150c	Votre prochain Châtiment de Sargeron est un coup critique garanti et inflige ${$w2}% de dégâts supplémentaires.	lot sorts_objets_131
@@ -223,7 +223,7 @@ sort	706280		Description	57d265982229	Augmente de $/1000;S2 sec la durée des |c
 sort	706280		Name	f3c808bc3828	Carquois durables	lot sorts_objets_131
 sort	706280		ToolTip	57d265982229	Augmente de $/1000;S2 sec la durée des |cffffffffCarquois|r.	lot sorts_objets_131
 sort	706308		Description	06b5fea31080	Augmente l'Intelligence de $s1% et les chances de coup critique de $s2%.	lot sorts_objets_131
-sort	706310		Description	e557e71391bb	Augmente de $s1% les dégâts infligés par les |cffffffffEnchaînements|r.	lot sorts_objets_131
+sort	706310		Description	e557e71391bb	Augmente de $s1% les dégâts infligés par |cffffffffSuite|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Follow Ups = Suite (nom fourni).
 sort	706310		ToolTip	479ebe13fedc	Augmente de ${$w1}% les dégâts infligés par les |cffffffffManœuvres de combat|r.	lot sorts_objets_131
 sort	706311		Description	de8a63a2f954	Augmente de $s1% les chances de coup critique et les dégâts critiques des |cffffffffAptitudes d'enchaînement|r.	lot sorts_objets_131
 sort	706311		ToolTip	479ebe13fedc	Augmente de ${$w1}% les dégâts infligés par les |cffffffffManœuvres de combat|r.	lot sorts_objets_131
@@ -235,7 +235,7 @@ sort	760000		Description	da40d7889992	Vous vous transformez en un être d'énerg
 sort	760000		Name	19f9e70df8f3	Ascendance des flammes	lot sorts_objets_131
 sort	760000		ToolTip	5202b7e0f982	Vous transforme en Ascendant des flammes. Chaîne d'éclairs se transforme en Rayon de lave. Réduit de 50% le temps de recharge de Rayon de lave.	lot sorts_objets_131
 sort	760009		Description	3731d2b91776	Invoque pendant 15 sec un totem doté de 5 points de vie qui stocke 30% de vos soins de Nature. À son expiration ou lorsqu'il est rappelé, il soigne les alliés blessés situés à moins de 40 mètres, à parts égales. Relancer le sort rappelle le totem et libère les soins.	lot sorts_objets_131
-sort	760014		Description	80437707c056	Lance vers l'avant un Orbe gelé depuis la position du lanceur, qui inflige ${$760016m1+$SP*0.0714+$AP*0.0464} points de dégâts de Givre à toutes les cibles ennemies proches toutes les $/1000;760015t1 sec pendant $d. \r\n\r\nLes cibles touchées par l'Orbe de givre sont ralenties de $760016s2% pendant $760016d.	lot sorts_objets_131
+sort	760014		Description	80437707c056	Lance vers l'avant un Orbe gelé depuis la position du lanceur, qui inflige ${$760016m1+$SP*0.0714+$AP*0.0464} points de dégâts de Givre à toutes les cibles ennemies proches toutes les $/1000;760015t1 sec pendant $d. \r\n\r\nLes cibles touchées par l'Orbe gelé sont ralenties de $760016s2% pendant $760016d.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom du sort incohérent : « Orbe de givre » au lieu du nom officiel « Orbe gelé ».
 sort	760014		Name	73b6b2b13e26	Orbe gelé	lot sorts_objets_131
 sort	760040		Description	f5bd083185e7	Fait tomber un météore qui s'abat à l'endroit ciblé après 3 secondes, infligeant ${$760042m1+$SP*0.06755+$AP*0.0439} points de dégâts de Feu dans un rayon de 8 mètres, et embrase le sol, infligeant ${($760042m2+$SP*0.0225+$AP*0.01463)*3} points de dégâts de Feu en $760042d à tous les ennemis de la zone.	lot sorts_objets_131
 sort	760040		ToolTip	7d391d436607	Subit $760042s2 points de dégâts toutes les $/1000;760041t2 sec.	lot sorts_objets_131
@@ -271,11 +271,11 @@ sort	760195		Name	88ffb58cf2c7	Étoile divine améliorée	lot sorts_objets_131
 sort	760196		Description	bdf18cbffdb8	Augmente de $s2% vos chances de coup critique.\r\n\r\nAugmente de $s1% les soins de votre sort Étoile divine.	lot sorts_objets_131
 sort	760196		Name	88ffb58cf2c7	Étoile divine améliorée	lot sorts_objets_131
 sort	800085		Name	21fc3411e5fa	Repositionnement	lot sorts_objets_131
-sort	800095		Description	daebc4ab1f4b	|cff8fff7aGénère $?s500024[2][1] Avantage|r\r\nBalance votre lance sur tous les ennemis devant vous, infligeant $s1% des dégâts de l'arme et les marquant pendant $d.\r\n\r\nVous pouvez réactiver l'aptitude pour attirer tous les ennemis marqués vers vous. Chaque ennemi attiré réduit de 3 sec le temps de recharge de votre |cFFFFFFFFGrappin|r.	lot sorts_objets_131
+sort	800095		Description	daebc4ab1f4b	|cff8fff7aGénère $?s500024[2][1] point d'Avantage|r\r\nBalance votre lance sur tous les ennemis devant vous, infligeant $s1% des dégâts de l'arme et les marquant pendant $d.\r\n\r\nVous pouvez réactiver l'aptitude pour attirer tous les ennemis marqués vers vous. Chaque ennemi attiré réduit de 3 sec le temps de recharge de votre |cFFFFFFFFHarponnage|r.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Oubli de « point d' » dans la ressource, contrairement au texte fourni pour cette phrase.
 sort	800134		Description	c31be1eb4813	Augmente de $s1% les soins prodigués par |cFFFFFFFFLien de la Mère-Terre|r, et de $s2% supplémentaires sur les alliés ayant moins de 35% de leurs points de vie.	lot sorts_objets_131
 sort	800134		ToolTip	e5dab387f300	Points de vie temporairement augmentés de ${$w1}%. Rend ${$w3} points de vie toutes les $t3.	lot sorts_objets_131
-sort	800136		Description	0ec6b2520550	Votre prochain |cffffffffImpact de pierre|r ou |cffffffffTerre fracturée|r inflige des dégâts de Feu supplémentaires dans un rayon de $802887a1 m.\r\n\r\nVous ne pouvez avoir qu'un seul sort de |cffffffffPoing|r actif à la fois.\r\n\r\n@ext:Infliger des dégâts avec |cffffffffImpact de pierre|r alors que vous avez le maximum de charges de |cffffffffPuissance de la montagne|r réduit de $/1000;801515s1 sec le temps de recharge restant de vos sorts de |cffffffffPoing|r.:ext@	lot sorts_objets_131
-sort	800136		ToolTip	b5fa930e03e0	Votre prochain Impact de pierre inflige des dégâts de Feu supplémentaires aux ennemis proches.	lot sorts_objets_131
+sort	800136		Description	0ec6b2520550	Votre prochain |cffffffffHeurt de pierre|r ou |cffffffffTerre fracturée|r inflige des dégâts de Feu supplémentaires dans un rayon de $802887a1 m.\r\n\r\nVous ne pouvez avoir qu'un seul sort de |cffffffffPoing|r actif à la fois.\r\n\r\n@ext:Infliger des dégâts avec |cffffffffHeurt de pierre|r alors que vous avez le maximum de charges de |cffffffffMountain's Might|r réduit de $/1000;801515s1 sec le temps de recharge restant de vos sorts de |cffffffffPoing|r.:ext@	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : Heurt de pierre (et non Impact de pierre) ; Mountain's Might reste tel que fourni
+sort	800136		ToolTip	b5fa930e03e0	Votre prochain Heurt de pierre inflige des dégâts de Feu supplémentaires aux ennemis proches.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Nom de sort : Heurt de pierre
 sort	800139		Description	386017e590e3	|cffcc99ffÉpuise 30 points de Statique|r\r\nVous vous imprégnez de foudre et vous déplacez d'un trait sur une longue distance, infligeant ${$m3+0+$SP*.5} points de dégâts de Nature à tous les ennemis sur votre chemin.\r\n\r\nSubit les modificateurs de |cffffffffDécharge|r	lot sorts_objets_131
 sort	800139		Rank	dfda5bd99350	Sauteur	lot sorts_objets_131
 sort	800143		Description	00644f22e9e4	Fait trembler la terre autour de vous pendant $d, infligeant ${$m1+0} points de dégâts de Nature à un maximum de $i ennemis situés à moins de $a1 mètres toutes les $t1 sec et réduisant leur vitesse de déplacement de $s3%. \r\n\r\nÀ la fin de l'effet, les ennemis encore dans la zone sont projetés dans les airs.	lot sorts_objets_131
@@ -287,7 +287,7 @@ sort	800153		Name	2cfffee7c16e	Embrocher (attraction)	lot sorts_objets_131
 sort	800158		Description	7dd1749eed42	Inflige ${$m1+0+$AP*0.085} points de dégâts physiques supplémentaires et réduit de $s2% les soins reçus par l'ennemi pendant $d, cumulable jusqu'à $u fois.	lot sorts_objets_131
 sort	800158		ToolTip	4449a59e0ce0	Renforce votre prochaine aptitude consommant Griffe-sinistre.\r\nSoins reçus réduits de ${$w2}%.	lot sorts_objets_131
 sort	800159		Description	daebc4ab1f4b	|cff8fff7aGénère $?s500024[2][1] Avantage|r\r\nBalance votre lance sur tous les ennemis devant vous, infligeant $s1% des dégâts de l'arme et les marquant pendant $d.\r\n\r\nVous pouvez réactiver l'aptitude pour attirer tous les ennemis marqués vers vous. Chaque ennemi attiré réduit de 3 sec le temps de recharge de votre |cFFFFFFFFGrappin|r.	lot sorts_objets_131
-sort	800164		Description	d8e8a77ba69d	Tire un coup infligeant ${$RAP*0.3+$m1+0} points de dégâts physiques.	lot sorts_objets_131
+sort	800164		Description	d8e8a77ba69d	Tire un coup qui inflige ${$RAP*0.3+$m1+0} points de dégâts physiques.	lot sorts_objets_131 | relu par l'API (relecture 0.9.5) : Tournure plus claire et plus naturelle : « Tire un coup infligeant » est maladroit.
 sort	800205		Description	f575cff4a08c	CE SORT N'EXISTE PLUS !	lot sorts_objets_131
 sort	800205		Name	5dac06493f60	Souffle de Mannoroth	lot sorts_objets_131
 sort	800205		ToolTip	d2092284fe30	Subit ${$w1} points de dégâts de flamme d'ombre toutes les $t1 sec.	lot sorts_objets_131

@@ -26,7 +26,7 @@ sort	705546		Description	aa01d74a0601	Votre |cffffffffAlimentation tellurique|r 
 sort	705546		Name	fe96c077eeb9	Nourricier magique	lot talents_020
 sort	705550		Description	6c994eaab6f3	Les dégâts directs infligés ont $h% de chances d'augmenter la hâte de vos sorts de $520760s1% pendant $520760d.	lot talents_020
 sort	705550		Name	8e6f70cd6c61	Lanceur de runes	lot talents_020
-sort	705551		Description	e92e42e62f4e	Augmente de $s1% les chances de déclencher |cffffffffGravure d'arme : Terre|r.	lot talents_020
+sort	705551		Description	e92e42e62f4e	Augmente de $s1% les chances de déclencher |cffffffffGravure d'arme : Terre|r.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur le français fourni (Terre en majuscule).
 sort	705551		Name	1948cd9ab3dd	Terraglyphes	lot talents_020
 sort	705554		Description	55c27083eb61	Augmente votre vitesse de déplacement de $s1% et réduit de $s2% le coût en mana de vos |cffffffffTatouages runiques|r.	lot talents_020
 sort	705554		Name	fa49e4d15371	Harmoniseur rapide	lot talents_020
@@ -35,7 +35,7 @@ sort	705556		Name	220e4eb17474	Puissance primordiale	lot talents_020
 sort	705556		ToolTip	b50020f0c62e	Augmente la durée de |cFFFFFFFFFusion de rune de givre|r de $/1000;s1 sec.	lot talents_020
 sort	705559		Description	dcb038550eca	Les dégâts infligés par |cffffffffCourroux du dragon|r ont désormais $707651h% de chances de devenir instables, infligeant ${$707651m1+$707651ppl1+$INT*0.165}% de dégâts supplémentaires en dégâts magiques, mais brûlant ${$707651m2+$707651ppl2+$INT*.4} points de mana.\r\n\r\nLes dégâts infligés et le mana brûlé dépendent de votre Intelligence.	lot talents_020
 sort	705559		Name	64838346df06	Magie sauvage	lot talents_020
-sort	705560		Description	161794570f52	|cFF66DDFFPassif de niveau 50|r\r\nUtiliser |cffffffffDécharge élémentaire|r a désormais $h% de chances de transformer votre prochaine |cffffffffDéflagration primordiale|r en |cffffffffOblitération runique|r pendant $805742d.@s:805794:0@	lot talents_020
+sort	705560		Description	161794570f52	|cFF66DDFFPassif de niveau 50|r\r\nUtiliser |cffffffffExplosion élémentaire|r a désormais $h% de chances de transformer votre prochaine |cffffffffDéflagration primordiale|r en |cffffffffOblitération runique|r pendant $805742d.@s:805794:0@	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Elemental Burst = Explosion élémentaire, et non Décharge élémentaire.
 sort	705560		Name	df004f8669a1	Oblitération runique	lot talents_020
 sort	705560		ToolTip	33783f8a1ce7	Tant que |cffffffffGravure du chaos|r est active, vos dégâts de sorts sont augmentés de ${$w1}% de votre Intelligence.	lot talents_020
 sort	705562		Description	98dc36c3bfe0	L'Armure apportée par vos objets est augmentée de $s1%.	lot talents_020
@@ -48,7 +48,7 @@ sort	705564		Name	e65b9fe5bd37	Cristaux de focalisation	lot talents_020
 sort	705565		Description	da28ed1a1f1c	Après la fin de |cffffffffOuragan|r, vous pouvez utiliser pendant $500469d les aptitudes qui nécessitent |cffffffffVoile runique|r.	lot talents_020
 sort	705565		Name	0e013234990e	Forgé par les vagues	lot talents_020
 sort	705565		ToolTip	e48696010132	Augmente votre niveau de furtivité effectif et fait générer à |cffffffffVoile runique|r une charge d'|cffffffffÉnergie primordiale|r toutes les $500288t3 sec.	lot talents_020
-sort	705568		Description	8c79d00b225d	|cFF66DDFFPassif de niveau 30|r\r\n|cFFFFFFFFFeu couvant|r vous enveloppe désormais de vent : vos 3 prochaines |cFFFFFFFFLames runiques|r frappent une fois de plus, pour $705569s1% des dégâts infligés en dégâts de Nature.	lot talents_020
+sort	705568		Description	8c79d00b225d	|cFF66DDFFPassif de niveau 30|r\r\n|cFFFFFFFFCombustion lente|r vous enveloppe désormais de vent : vos 3 prochaines |cFFFFFFFFLames runiques|r frappent une fois de plus, pour $705569s1% des dégâts infligés en dégâts de Nature.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Smolder = Combustion lente, et non « Feu couvant ».
 sort	705568		Name	6446366a999b	Sage du vent	lot talents_020
 sort	705570		Description	ba4ef652055b	Augmente vos chances de coup critique de $s1% et votre expertise de $s2.	lot talents_020
 sort	705570		Name	164e06175f24	Énergie libérée	lot talents_020
@@ -60,14 +60,14 @@ sort	705575		Description	83d759c0272f	Projetez une rafale de vent depuis votre a
 sort	705575		Name	bb8000c4f08b	Turbulence	lot talents_020
 sort	705577		Description	2e71b447b24a	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRune de glace|r et augmente son coût en mana de $s3%, mais réduit sa portée de $s2 mètres.	lot talents_020
 sort	705577		Name	f974705aaaf4	Codex glacial	lot talents_020
-sort	705577		ToolTip	fc185e0e49e3	Augmente de ${$w1}% les dégâts des |cffffffffPierres runiques|r, mais donne à |cffffffffLame de feu|r un temps de recharge de $/1000;s2 sec.	lot talents_020
+sort	705577		ToolTip	fc185e0e49e3	Augmente de ${$w1}% les dégâts des |cffffffffPierres runiques|r, mais donne à |cffffffffLame de Feu|r un temps de recharge de $/1000;s2 sec.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Fire Blade = Lame de Feu (majuscule du nom fourni).
 sort	705579		Description	30a5c0699a2f	|cFF66DDFFPassif de niveau 50|r\r\nChaque 3e lancer de |cFFFFFFFFLame runique|r transforme désormais votre prochaine |cffffffffLame runique|r dans les $572358d en |cFFFFFFFFEntaille jaillissante|r.\r\n@s:803736:0@	lot talents_020
 sort	705579		Name	fc07acdb278c	Entaille jaillissante	lot talents_020
 sort	705579		ToolTip	90ef07910b0c	Chaque 3e |cFFFFFFFFEntaille jaillissante|r devient |cFFFFFFFFBalayage primordial|r.\r\n	lot talents_020
 sort	705580		Description	79c8c2b1567a	Chaque 3e lancer de |cFFFFFFFFLame runique|r inflige désormais $705596s1% de dégâts en plus.	lot talents_020
 sort	705580		Name	16138fb33cde	Présage runique	lot talents_020
 sort	705580		ToolTip	0b6be56694b4	Chaque 3e Lame runique inflige ${$w1}% de dégâts en plus et augmente de ${$w2}% tous les dégâts magiques que vous infligez à la cible pendant $d sec.	lot talents_020
-sort	705581		Description	c81b28b3385d	Lancer |cffffffffDéphasage|r augmente désormais votre vitesse de déplacement de $705582s1% pendant les $705582d initiales de sa durée.	lot talents_020
+sort	705581		Description	c81b28b3385d	Lancer |cffffffffDéphasage|r augmente désormais votre vitesse de déplacement de $705582s1% pendant les $705582d initiales de sa durée.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur le français fourni : Déphasage (et non « Phase terminée »).
 sort	705581		Name	15f9a8cb4373	Flux prismatique	lot talents_020
 sort	705581		ToolTip	42fdd83f1530	Les dégâts magiques directs vous rendent ${$w1}% des dégâts infligés.	lot talents_020
 sort	705583		Description	a60139c86580	Les aptitudes nécessitant |cFFFFFFFFVoile runique|r peuvent être utilisées pendant $/1000;520759s2 sec et n'ont pas de temps d'incantation après la rupture de |cFFFFFFFFVoile runique|r.	lot talents_020
@@ -86,7 +86,7 @@ sort	705600		Name	2d8381fa4b72	Gravure rapide	lot talents_020
 sort	705605		Description	7f8f45459988	Augmente de $s1% les chances de déclencher vos |cFFFFFFFFGravures d'arme|r.	lot talents_020
 sort	705605		Name	0f8c70b43cf1	Maître graveur	lot talents_020
 sort	705605		ToolTip	bbe60c71325a	Augmente de ${$w1}% les chances de déclencher vos |cFFFFFFFFGravures|r.	lot talents_020
-sort	705609		Description	dee511f76909	Votre |cffffffffMarqué : Sceau runique|r se cumule désormais 3 fois.	lot talents_020
+sort	705609		Description	dee511f76909	Votre |cffffffffMarqué : Sceau runique|r se cumule désormais 3 fois.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Marqué : Sceau runique » est le français déjà choisi.
 sort	705609		Name	cbd354ecc39d	Né des lignes telluriques	lot talents_020
 sort	705609		ToolTip	7450cb60e928	Consommer |cFFFFFFFFSpellwrath|r réduit désormais de $/1000;705610s1 sec le temps de recharge de Déplacer le familier.	lot talents_020
 sort	705613		Description	ec4ee4e833cc	Augmente de $s1% les dégâts de |cffffffffPoing des Anciens|r tant que |cffffffffGravure d'arme : Feu|r est active.	lot talents_020
@@ -95,7 +95,7 @@ sort	705613		ToolTip	56439832adac	Augmente de ${$w1}% les dégâts de |cffffffff
 sort	705614		Description	ec4ee4e833cc	Augmente de $s1% les dégâts de |cffffffffPoing des Anciens|r tant que |cffffffffGravure d'arme : Feu|r est active.	lot talents_020
 sort	705614		Name	12428bbb5db1	Symboles de puissance	lot talents_020
 sort	705614		ToolTip	56439832adac	Augmente de ${$w1}% les dégâts de |cffffffffPoing des Anciens|r tant que |cffffffffGravure d'arme : Feu|r est active.	lot talents_020
-sort	705615		Description	cdc95e78b798	Augmente de $s1% les chances de déclencher |cffffffffGravure d'arme : Feu|r et |cffffffffGravure d'arme : Terre|r.	lot talents_020
+sort	705615		Description	cdc95e78b798	Augmente de $s1% les chances de déclencher |cffffffffGravure d'arme : Feu|r et |cffffffffGravure d'arme : Terre|r.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Gravure d'arme : Terre » prend une majuscule.
 sort	705615		Name	576e893a29ad	Gravure volcanique	lot talents_020
 sort	705618		Description	db26bdf0ca94	|cFF66DDFFPassif de niveau 30|r\r\n|cffffffffPoing des Anciens|r libère désormais une sculpture élémentaire au hasard.\r\n\r\n|cffffffffSculpture de feu|r : augmente de $706520s1% votre pénétration d'armure pendant $706520d.\r\n\r\n|cffffffffSculpture d'eau|r : rend $707142o1 points de mana en $707142d.\r\n\r\n|cffffffffSculpture de terre|r : rend $712356s1% des points de vie manquants toutes les $712300T1 sec pendant $712300d.\r\n\r\n|cffffffffSculpture d'air|r : augmente de $653253s1% votre hâte en mêlée pendant $653253d.	lot talents_020
 sort	705618		Name	2244adf77da1	Sculptures élémentaires	lot talents_020
@@ -105,14 +105,14 @@ sort	705619		Name	66cbb1af63e0	Altération	lot talents_020
 sort	705621		Description	26fee364c067	Augmente de $/1000;s1 sec la durée de |cffffffffZénith|r.	lot talents_020
 sort	705621		Name	75e41db7a3d5	Affinité runique	lot talents_020
 sort	705621		ToolTip	26fee364c067	Augmente de $/1000;s1 sec la durée de |cffffffffZénith|r.	lot talents_020
-sort	705625		Description	853baaea9879	Utiliser |cffffffffDécharge élémentaire|r ou |cffffffffDéflagration primordiale|r tant que |cffffffffGlyphe de givre|r est actif vous accorde désormais un |cffffffffGlyphe de flammes|r.@s:520091:0@\r\n\r\n@ext: Les glyphes peuvent être libérés par |cFFFFFFFFRuine glyphique|r ou |cFFFFFFFFThaumaturgie|r.:ext@	lot talents_020
-sort	705625		Name	f8818a4591fa	Glyphe de flammes	lot talents_020
+sort	705625		Description	853baaea9879	Utiliser |cffffffffExplosion élémentaire|r ou |cffffffffDéflagration primordiale|r tant que |cffffffffGlyphe de givre|r est actif vous accorde désormais un |cffffffffGlyphe de flammes|r.@s:520091:0@\r\n\r\n@ext: Les glyphes peuvent être libérés par |cFFFFFFFFRuine glyphique|r ou |cFFFFFFFFThaumaturgie|r.:ext@	lot talents_020 | relu par l'API (relecture 0.9.5) : Noms de sorts cités : « Explosion élémentaire » (et non « Décharge élémentaire ») et « Glyphe de flammes ».
+sort	705625		Name	f8818a4591fa	Glyphe de flammes	lot talents_020 | relu par l'API (relecture 0.9.5) : Le nom du sort cité est « Glyphe de flammes » ailleurs ; le nom doit rester identique.
 sort	705627		Description	72f2dedc32e1	Augmente de $s1% les dégâts de |cffffffffDéflagration primordiale|r et de |cffffffffThaumaturgie|r.	lot talents_020
 sort	705627		Name	f0c67cb88318	Chercheur de glyphes	lot talents_020
 sort	705632		Description	192319f4485a	Augmente votre Intelligence de $s1% et de $s2% le mana gagné pour chaque point d'Intelligence.	lot talents_020
 sort	705632		Name	d4612c53ce82	Sorcellerie	lot talents_020
 sort	705632		ToolTip	ab8d5bf7797a	Augmente de ${$w1}% les dégâts de |cffffffffThaumaturgie|r et réduit de $/1000;s2 sec son temps de recharge.	lot talents_020
-sort	705634		Description	78ad5e75a97f	Lancer |cffffffffŒil du spectateur|r réduit rapidement, pendant sa durée, le temps de recharge de vos sorts |cffffffffRune|r et de |cffffffffDéphasage|r.	lot talents_020
+sort	705634		Description	78ad5e75a97f	Lancer |cffffffffŒil du spectateur|r réduit rapidement, pendant sa durée, le temps de recharge de vos sorts |cffffffffRune|r et de |cffffffffDéphasage|r.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Déphasage » et non « Phase terminée ».
 sort	705634		Name	3625c791118e	Agent du Kirin Tor	lot talents_020
 sort	705634		ToolTip	e3b8de479036	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffRage du maître des runes|r et augmente sa durée de $/1000;s2 sec.	lot talents_020
 sort	705636		Description	3b228a0c722d	|cFFFFFFFFRésolution de granit|r réduit désormais les dégâts subis de $s1% supplémentaires.	lot talents_020
@@ -120,7 +120,7 @@ sort	705636		Name	1ca109c6e99c	Rune primordiale	lot talents_020
 sort	705636		ToolTip	e11d3bbf0008	|cFFFFFFFFRésolution de granit|r réduit désormais les dégâts subis de ${$w1}% supplémentaires.	lot talents_020
 sort	705639		Description	7760f73c9689	Augmente de $s1% les dégâts périodiques de |cFFFFFFFFHorion|r.	lot talents_020
 sort	705639		Name	e7a0e635e364	Décharges voltaïques	lot talents_020
-sort	705643		Description	719a553fc446	Vos |cffffffffFourche d'éclairs|r et |cffffffffBras de Thorim|r marquent désormais les ennemis pendant $/1000;s2 sec. \r\n\r\nVotre |cFFFFFFFFAppel d'éclair|r contre les ennemis marqués leur inflige, ainsi qu'aux ennemis proches, $s1% de dégâts supplémentaires.	lot talents_020
+sort	705643		Description	719a553fc446	Vos |cffffffffFourche d'éclairs|r et |cffffffffBras de Thorim|r marquent désormais les ennemis pendant $/1000;s2 sec. \r\n\r\nVotre |cFFFFFFFFAppel de la foudre|r contre les ennemis marqués leur inflige, ainsi qu'aux ennemis proches, $s1% de ses dégâts supplémentaires.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Appel de la foudre » et non « Appel d'éclair ». Le texte anglais dit « $s1% of its damage » : les dégâts supplémentaires sont un pourcentage des dégâts du sort, pas $s1% de dégâts
 sort	705643		Name	ac356b21b6e4	Arc de flux	lot talents_020
 sort	705645		Description	4ccd3c9d6a84	Augmente de $s1% les dégâts critiques de |cffffffffÉlectrocution|r.	lot talents_020
 sort	705645		Name	e813524da404	Dévastation crépitante	lot talents_020
@@ -130,7 +130,7 @@ sort	705650		Description	35784665a525	Augmente de $s1% les dégâts de Nature qu
 sort	705650		Name	ab0c0135b201	Tempêtes maléfiques	lot talents_020
 sort	705652		Description	73d14e6edac5	Augmente de $s1% la durée de votre |cffffffffCape de tempête|r, de |cffffffffConjurer la tempête|r et de |cffffffffCorps de foudre|r.	lot talents_020
 sort	705652		Name	35734b4e1db6	Tempête persistante	lot talents_020
-sort	705653		Description	f6437815a1ea	Augmente de $s1% les chances de coup critique de |cffffffffHorion|r, |cffffffffConjurer la tempête|r et |cFFFFFFFFŒil du cyclone|r.	lot talents_020
+sort	705653		Description	f6437815a1ea	Augmente de $s1% les chances de coup critique de |cffffffffHorion|r, |cffffffffInvocation de tempête|r et |cFFFFFFFFL'Œil du cyclone|r.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le nom français fourni est « L'Œil du cyclone ».
 sort	705653		Name	7bfa81080f4b	Foudre titanesque	lot talents_020
 sort	705655		Description	f547f013d959	Augmente de $s1% la cadence des impulsions de |cffffffffConjurer la tempête|r.	lot talents_020
 sort	705655		Name	7c77d4d7f146	Jours d'orage	lot talents_020
@@ -155,12 +155,12 @@ sort	705667		Description	16ff05722380	Augmente de $s1% le coefficient de puissan
 sort	705667		Name	d3e197a2cf62	Invocation des tempêtes	lot talents_020
 sort	705668		Description	b142329011cc	Augmente de $s1 le nombre d'effets magiques bénéfiques purgés par votre |cFFFFFFFFBrise-tempête|r et de $s2 mètres sa portée.	lot talents_020
 sort	705668		Name	c1b34fbdc95d	Élimination magique	lot talents_020
-sort	705672		Description	84e3c3fc2016	|cffcc99ffÉpuise 20 Statique|r\r\nRelâchez la pression des alliés proches et dissipez $520496s1 effet de ralentissement, toutes les $t1 sec pendant $d.	lot talents_020
+sort	705672		Description	84e3c3fc2016	|cffcc99ffÉpuise 20 Statique|r\r\nRelâchez la pression des alliés proches et dissipez $520496s1 effet de ralentissement, toutes les $t1 sec pendant $d.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom cité à reprendre à l'identique : « Épuise 20 Statique ».
 sort	705672		Name	d2aa9527bc9a	Expiration	lot talents_020
 sort	705672		ToolTip	e5c3c9fa0557	Dissipe $520496s1 effet de poison et $520496s2 effet de maladie toutes les $t1 sec.	lot talents_020
 sort	705675		Description	ece8efad129e	Réduit de $s1% la durée des effets d'incapacitation et de désorientation.	lot talents_020
 sort	705675		Name	eca59c3483f8	Aération	lot talents_020
-sort	705677		Description	72a1a4072ff0	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGarde du grain|r et de |cffffffffExplosion nuageuse|r.	lot talents_020
+sort	705677		Description	72a1a4072ff0	Réduit de $/1000;s1 sec le temps de recharge de |cffffffffGarde du grain|r et de |cffffffffDéluge nuageux|r.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Garde du grain » est le français déjà choisi pour Gale Guard.
 sort	705677		Name	8fc970a00868	Chevaucheur de tempête	lot talents_020
 sort	705686		Description	357825da5daf	Double les dégâts de |cffffffffCorps de foudre|r, qui se lance désormais automatiquement sur vous quand vous le lancez sur un allié.	lot talents_020
 sort	705686		Name	06602c084391	Nuages d'orage	lot talents_020
@@ -185,7 +185,7 @@ sort	705709		Description	ea159e03a74e	La vitesse de déplacement des alliés qui
 sort	705709		Name	e8f50fe01d45	Pendentif du ciel dégagé	lot talents_020
 sort	705715		Description	a98b485f0553	Lancer |cffffffffBaiser des nuages|r renforce désormais votre |cffffffffÉlémentaire d'air|r avec |cffffffffDon de l'air|r pendant $804033d.\r\n\r\nDe plus, vos coups critiques prolongent de $/1000;583254S1 sec la durée de votre |cFFFFFFFFVent arrière|r.\r\n@s:804033:0@	lot talents_020
 sort	705715		Name	a3baf01e6491	Don de l'air	lot talents_020
-sort	705717		Description	082a6be921eb	Lancer $?s707615[|cFFFFFFFFAéroblast|r][|cffffffffAppel d'éclair|r] rafraîchit désormais une charge de |cffffffffTrombe|r.	lot talents_020
+sort	705717		Description	082a6be921eb	Lancer $?s707615[|cFFFFFFFFAéroblast|r][|cffffffffAppel de la foudre|r] rafraîchit désormais une charge de |cffffffffTrombe|r.	lot talents_020 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Appel de la foudre » est le français fourni pour Call Lightning, pas « Appel d'éclair ».
 sort	705717		Name	dc0afebbb1e1	Rafale éternelle	lot talents_020
 sort	705717		ToolTip	421b290407e3	Réduit de $/1000;S1 sec le temps de recharge de |cffffffffTrombe|r et augmente ses dégâts de ${$w2}%.	lot talents_020
 sort	705719		Description	7f71e972538c	Lancer |cffffffffTrombe|r réduit désormais de $/1000;680878s1 sec le temps de recharge des aptitudes qui épuisent de la |cffcc99ffStatique|r.\r\n\r\n@ext: Cela n'affecte pas |cFFFFFFFFCourant ascendant|r ni |cFFFFFFFFAfflux revigorant|r. :ext@	lot talents_020
@@ -209,7 +209,7 @@ sort	705733		Name	9c770a4e9662	Chasse sombre	lot talents_020
 sort	705734		Description	a30feebfe937	Échangez vos pourcentages de points de vie avec un allié.\r\n\r\nPorte le pourcentage le plus bas des deux à $s1%, s'il est inférieur à cette valeur.$?s681078[\r\n\r\n|cFFE53935Surpuissant|r : temps de recharge réduit de $/1000;681406s1 sec.][]	lot talents_020
 sort	705734		Name	f1b1a5e6f9de	Transfusion	lot talents_020
 sort	705742		Name	09d9442298b8	Sacrifice sanglant	lot talents_020
-sort	705745		Description	c36b19f5d313	Les dégâts infligés par |cffffffffImpact glaciaire|r infligent désormais $s1% de ces dégâts en plus, en dégâts de Givre, aux ennemis qui se trouvent à moins de $707575a1 mètres de la cible principale.	lot talents_020
+sort	705745		Description	c36b19f5d313	Les dégâts infligés par |cffffffffImpact glaciaire|r infligent désormais en plus $s1% de ces dégâts sous forme de dégâts de Givre aux ennemis qui se trouvent à moins de $707575a1 mètres de la cible principale.	lot talents_020 | relu par l'API (relecture 0.9.5) : Tournure ambiguë : « en plus, en dégâts de Givre » se lisait mal ; précision que le supplément est un pourcentage converti en dégâts de Givre.
 sort	705745		Name	82cbcfa2b0b8	Vents déchirants	lot talents_020
 sort	705746		Description	38c82f62a324	Vous absorbez $s1% des soins reçus et gagnez un bouclier équivalent à la quantité absorbée, pendant $707194d.	lot talents_020
 sort	705746		Name	0d8843bd46b5	La vie pour la puissance	lot talents_020
@@ -259,7 +259,7 @@ sort	705811		Description	e3c8ea32c0d2	Tous les alliés proches reçoivent $s1% d
 sort	705811		Name	b1e992bf8646	Reviviscence cybernétique	lot talents_020
 sort	705815		Description	fb2b8bc0a636	|cFF66DDFFPassif de niveau 20|r\r\nLes dégâts de Feu infligés ont $h% de chances de vous accorder |cffffffffÉtincelant et prêt !|r.@s:537247:0@	lot talents_020
 sort	705815		Name	ba90eeb24a0d	Étincelant et prêt !	lot talents_020
-sort	705817		Description	6838824c10ad	Les dégâts ou les soins infligés par votre familier ou vos invocations vous rendent désormais des points de vie égaux à $s1% de la valeur. \r\n\r\nDe plus, les dégâts directs ou les soins que vous prodiguez rendent désormais à votre familier des points de vie et de mana égaux à $707698s1% de la valeur. \r\n\r\nChacun de ces effets ne peut se produire qu'une fois par sec.	lot talents_020
+sort	705817		Description	6838824c10ad	Les dégâts ou les soins infligés par votre familier ou vos invocations vous rendent désormais des points de vie égaux à $s1% de la valeur. \r\n\r\nDe plus, les dégâts directs ou les soins que vous prodiguez rendent désormais à votre familier des points de vie et de mana égaux à $707698s1% de la valeur. \r\n\r\nChacun de ces effets ne peut se produire qu'une fois par seconde.	lot talents_020 | relu par l'API (relecture 0.9.5) : « sec » isolé après « fois par » est maladroit ; « par seconde » est la forme correcte.
 sort	705817		Name	f1ae801c1430	Technologie autosuffisante	lot talents_020
 sort	705820		Description	02c5b6d68695	Les coups critiques de Feu réduisent désormais de $/1000;705821s1 sec le temps de recharge restant de |cffffffffRocadier|r.	lot talents_020
 sort	705820		Name	556057aafa21	Propulseur-fusée	lot talents_020

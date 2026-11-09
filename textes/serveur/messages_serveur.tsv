@@ -32,15 +32,15 @@ message_serveur	30		content_default	, rank 	e1cf5ffb1063	, rang 	machine	claude	
 message_serveur	31		content_default	 [known]	45c5f0d7c2e4	 [connu]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	32		content_default	 [learn]	5aeca8750966	 [apprendre]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	33		content_default	 [passive]	c8605abc4634	 [passif]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	34		content_default	 [talent]	dbfa43620f11		a_traduire		
+message_serveur	34		content_default	 [talent]	dbfa43620f11		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
 message_serveur	35		content_default	 [active]	96cb2105b73c	 [actif]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	36		content_default	 [complete]	19716bab56dd	 [terminé]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	37		content_default	 (offline)	42b0c4734b53	 (hors ligne)	officiel	blizzard_frFR	niveau=meme_champ
 message_serveur	38		content_default	on	db3d405b1067	activé	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	39		content_default	off	da7a68734367	désactivé	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	40		content_default	You are: {}	882b4cebd98f	Vous êtes : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	41		content_default	visible	223883960405		a_traduire		
-message_serveur	42		content_default	invisible	6ccc38e42cac		a_traduire		
+message_serveur	41		content_default	visible	223883960405		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
+message_serveur	42		content_default	invisible	6ccc38e42cac		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
 message_serveur	43		content_default	done	e5fd9cfe0e80	terminé	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	44		content_default	You	905cb326c779	Vous	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	45		content_default	 <unknown> 	1db4de35c369	 <inconnu> 	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
@@ -85,7 +85,7 @@ message_serveur	83		content_default	Syntax: .rbac account list $account\nList gr
 message_serveur	84		content_default	Syntax: .rbac account grant $account $permissionId [$realmId]\nGrant a permission to the account. Optional realmId (-1 = all realms).	a340365a49f3	Syntaxe : .rbac account grant $account $permissionId [$realmId]\nAccorde une permission au compte. realmId facultatif (-1 = tous les royaumes).	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	85		content_default	Syntax: .rbac account deny $account $permissionId [$realmId]\nDeny a permission for the account. Optional realmId (-1 = all realms).	46d8aea72617	Syntaxe : .rbac account deny $account $permissionId [$realmId]\nRefuse une permission au compte. realmId facultatif (-1 = tous les royaumes).	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	86		content_default	Syntax: .rbac account revoke $account $permissionId [$realmId]\nRevoke a previously granted or denied permission. Optional realmId (-1 = all realms).	3b596777d595	Syntaxe : .rbac account revoke $account $permissionId [$realmId]\nRévoque une permission accordée ou refusée. realmId facultatif (-1 = tous les royaumes).	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	87		content_default	UNKNOWN_ERROR	441df26b52f8		a_traduire		
+message_serveur	87		content_default	UNKNOWN_ERROR	441df26b52f8		technique		technique=à garder en anglais (atelier, 0.9.5) : code d'erreur technique
 message_serveur	88		content_default	Two-factor authentication commands are not properly setup.	a49a0b8ffba9	Les commandes d'authentification à deux facteurs ne sont pas correctement configurées.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	89		content_default	Two-factor authentication is already enabled for this account.	9a99768b6725	L'authentification à deux facteurs est déjà activée pour ce compte.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	90		content_default	Invalid two-factor authentication token specified.	7a96c75b00e3	Jeton d'authentification à deux facteurs non valide.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
@@ -99,7 +99,7 @@ message_serveur	97		content_default	Changed guild name '{}' to '{}'	d293b0da2e4f
 message_serveur	98		content_default	'{}' already exists as character name, choose another one	81a8638c570c	'{}' existe déjà comme nom de personnage, choisissez-en un autre	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	99		content_default	Player '{}' forced rename to '{}'	8736af3cdbbe	Le personnage '{}' a été renommé de force en '{}'	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	100		content_default	Global notify: 	6286b7f24be0	Annonce globale : 	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	101		content_default	Map: {} ({}) Zone: {} ({}) Area: {} ({}) Phase: {}\nX: {} Y: {} Z: {} Orientation: {}\ngrid[{},{}]cell[{},{}] InstanceID: {}\n ZoneX: {} ZoneY: {}\nGroundZ: {} FloorZ: {} Have height data (Map: {} VMap: {} MMap: {})	22fb22e5f75d		a_traduire		
+message_serveur	101		content_default	Map: {} ({}) Zone: {} ({}) Area: {} ({}) Phase: {}\nX: {} Y: {} Z: {} Orientation: {}\ngrid[{},{}]cell[{},{}] InstanceID: {}\n ZoneX: {} ZoneY: {}\nGroundZ: {} FloorZ: {} Have height data (Map: {} VMap: {} MMap: {})	22fb22e5f75d		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique MJ
 message_serveur	102		content_default	{} is already being teleported.	8fc2f16d2769	{} est déjà en cours de téléportation.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	103		content_default	You can summon a player to your instance only if he is in your party with you as leader.	753fa60f808c	Vous ne pouvez invoquer un joueur dans votre instance que s'il est dans votre groupe et que vous en êtes le chef.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	104		content_default	You cannot go to the player's instance because you are in a party now.	dbc97b8d99cd	Vous ne pouvez pas aller dans l'instance du joueur, car vous êtes actuellement dans un groupe.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
@@ -150,7 +150,7 @@ message_serveur	148		content_default	{} set your size to {}.	fec1e6f2609d	{} a r
 message_serveur	149		content_default	There is no such mount.	3bb6f7592946	Cette monture n'existe pas.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	150		content_default	You give a mount to {}.	9cade5c159ca	Vous donnez une monture à {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	151		content_default	{} gave you a mount.	4dea9386a903	{} vous a donné une monture.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	152		content_default	USER1: {}, ADD: {}, DIF: {}\n	a1d2caf1b20e		a_traduire		
+message_serveur	152		content_default	USER1: {}, ADD: {}, DIF: {}\n	a1d2caf1b20e		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage
 message_serveur	153		content_default	You take all copper of {}.	b66e543ea3a0	Vous prenez tout le cuivre de {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	154		content_default	{} took you all of your copper.	66f8b14b1fbb	{} vous a pris tout votre cuivre.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	155		content_default	You take {} copper from {}.	3c77a08dda22	Vous prenez {} pièces de cuivre à {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
@@ -158,7 +158,7 @@ message_serveur	156		content_default	{} took {} copper from you.	8c16aa6d3273	{}
 message_serveur	157		content_default	You give {} copper to {}.	4f43cf4583cd	Vous donnez {} pièces de cuivre à {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	158		content_default	{} gave you {} copper.	3abf53282f3e	{} vous a donné {} pièces de cuivre.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	159		content_default	You hear sound {}.	a6df226590ad	Vous entendez le son {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	160		content_default	USER2: {}, ADD: {}, RESULT: {}\n	f5840403b217		a_traduire		
+message_serveur	160		content_default	USER2: {}, ADD: {}, RESULT: {}\n	f5840403b217		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage
 message_serveur	161		content_default	Removed bit {} in field {}.	6722743b91de	Bit {} retiré du champ {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	162		content_default	Set bit {} in field {}.	cca9c8801370	Bit {} activé dans le champ {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	163		content_default	Teleport location table is empty!	253f7240dce8	La table des lieux de téléportation est vide !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
@@ -176,9 +176,9 @@ message_serveur	174		content_default	{} changed your runic power to {}/{}.	c8b6e
 message_serveur	175		content_default	Liquid level: {}, ground: {}, type: {}, flags {}, status: {}.	9c5dfd7184cf	Niveau du liquide : {}, sol : {}, type : {}, indicateurs {}, état : {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	176		content_default	Invalid gameobject type, must be a destructible building.	7150fedc79eb	Type d'objet de jeu non valide, il doit s'agir d'un bâtiment destructible.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	177		content_default	Gameobject {} (GUID: {}) damaged {} (actual health: {}).	c48efb15b89c	L'objet de jeu {} (GUID : {}) a subi {} points de dégâts (santé actuelle : {}).	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
-message_serveur	178		content_default	grid[{},{}]cell[{},{}] InstanceID: {}\n ZoneX: {} ZoneY: {}\nGroundZ: {} FloorZ: {} Have height data (Map: {} VMap: {} MMap: {})	771c258d06c8		a_traduire		
-message_serveur	179		content_default	| AccountFlags:	1c80ab8b55b3		a_traduire		
-message_serveur	186		content_default	TransMapID: {} TransOffsetX: {} TransOffsetY: {} TransOffsetZ: {} TransOffsetO: {} (Transport ID: {} {})	833f2e9f74e1		a_traduire		
+message_serveur	178		content_default	grid[{},{}]cell[{},{}] InstanceID: {}\n ZoneX: {} ZoneY: {}\nGroundZ: {} FloorZ: {} Have height data (Map: {} VMap: {} MMap: {})	771c258d06c8		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique MJ
+message_serveur	179		content_default	| AccountFlags:	1c80ab8b55b3		technique		technique=à garder en anglais (atelier, 0.9.5) : libellé technique MJ
+message_serveur	186		content_default	TransMapID: {} TransOffsetX: {} TransOffsetY: {} TransOffsetZ: {} TransOffsetO: {} (Transport ID: {} {})	833f2e9f74e1		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage
 message_serveur	187		content_default	This name is profane, choose another one	7402a159d829	Ce nom est grossier, choisissez-en un autre	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	188		content_default	The provided two-factor authentication secret is too long.	f200c5565782	Le secret d'authentification à deux facteurs fourni est trop long.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	189		content_default	The provided two-factor authentication secret is not valid.	519a4d8caf8f	Le secret d'authentification à deux facteurs fourni n'est pas valide.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
@@ -304,14 +304,14 @@ message_serveur	308		content_default	Faction {} unknown!	b31de1236acc	Faction {}
 message_serveur	309		content_default	Invalid parameter {}	50c7bf392459	Paramètre {} non valide	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	310		content_default	delta must be between 0 and {} (inclusive)	95bf232a3730	delta doit être compris entre 0 et {} (inclus)	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	311		content_default	{} - |cffffffff|Hfaction:{}|h[{}]|h|r	9ea1b4a63080		technique		technique=marqueurs_ou_variables_seuls
-message_serveur	312		content_default	 [visible]	93f338126981		a_traduire		
+message_serveur	312		content_default	 [visible]	93f338126981		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
 message_serveur	313		content_default	 [at war]	b3dcb11e079d	 [en guerre]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	314		content_default	 [peace forced]	d851902dd28c	 [paix forcée]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	315		content_default	 [hidden]	78bc8b904186	 [caché]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	316		content_default	 [invisible forced]	c7f0f892a148	 [invisible forcé]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	317		content_default	 [inactive]	ab355c7fb822	 [inactif]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	318		content_default	Hated	a255e3e11711	Détesté	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	319		content_default	Hostile	49ce5de18c09		a_traduire		
+message_serveur	319		content_default	Hostile	49ce5de18c09		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
 message_serveur	320		content_default	Unfriendly	c65cdef3def4	Inamical	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	321		content_default	Neutral	4bd291394543	Neutre	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	322		content_default	Friendly	bf567dc78702	Amical.	officiel	blizzard_frFR	niveau=meme_groupe
@@ -321,7 +321,7 @@ message_serveur	325		content_default	Exalted	6b862bb20a4a	Exalté.	officiel	bliz
 message_serveur	326		content_default	Faction {} ({}) can't have reputation.	860cd8b1fc3b	La faction {} ({}) ne peut pas avoir de réputation.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	327		content_default	 [no reputation]	9f705bf42f46	 [aucune réputation]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	328		content_default	Characters at account {} (Id: {})	0b163b5f2a06	Personnages du compte {} (Id : {})	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	329		content_default	  {} (GUID {})	b380fee3f801		a_traduire		
+message_serveur	329		content_default	  {} (GUID {})	b380fee3f801		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique sans texte
 message_serveur	330		content_default	No players found!	82870b3a58e3	Aucun joueur trouvé !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	331		content_default	Extended item cost {} not exist	8c7f4d72bf72	Le coût étendu d'objet {} n'existe pas	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	332		content_default	GM mode is ON	02773bfe27b4	Mode MJ ACTIVÉ	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
@@ -341,8 +341,8 @@ message_serveur	345		content_default	Forced customize for player {} will be requ
 message_serveur	346		content_default	Forced customize for player {} (GUID #{}) will be requested at next login.	b6324cea7b70	La personnalisation forcée du personnage {} (GUID #{}) sera demandée à la prochaine connexion.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	347		content_default	TaxiNode ID {} not found!	5da5ec30e421	Point de vol {} introuvable !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	348		content_default	Game Object (Entry: {}) have invalid data and can't be spawned	eb7cfb9c53d6	L'objet de jeu (Entry : {}) a des données non valides et ne peut pas apparaître	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	349		content_default	{} (idx:{}) - |cffffffff|Htitle:{}|h[{} {}]|h|r {} {} 	44f586e82ee5		a_traduire		
-message_serveur	350		content_default	{} (idx:{}) - [{} {}] {} {} 	8becc1747a39		a_traduire		
+message_serveur	349		content_default	{} (idx:{}) - |cffffffff|Htitle:{}|h[{} {}]|h|r {} {} 	44f586e82ee5		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique MJ
+message_serveur	350		content_default	{} (idx:{}) - [{} {}] {} {} 	8becc1747a39		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique MJ
 message_serveur	351		content_default	No titles found!	bcbb2954aec1	Aucun titre trouvé !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	352		content_default	Invalid title id: {}	b907245cd1e9	ID de titre non valide : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	353		content_default	Title {} ({}) added to known titles list for player {}.	1be1bac6c4a5	Titre {} ({}) ajouté à la liste des titres connus du joueur {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
@@ -425,8 +425,8 @@ message_serveur	453		content_default	Ban time remaining: {}, Banned by: {}, Reas
 message_serveur	454		content_default	No faction in Graveyard with id= #{} , fix your DB	af3a120cc7eb	Aucune faction dans le cimetière avec id= #{} , corrigez votre base de données	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	455		content_default	invalid team, please fix database	0b5d6a1e4a36	équipe non valide, veuillez corriger la base de données	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	456		content_default	any	c5fe0200d1c7	toutes	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	457		content_default	alliance	b73730cf341c		a_traduire		
-message_serveur	458		content_default	horde	7be4ccb0a4ee		a_traduire		
+message_serveur	457		content_default	alliance	b73730cf341c		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
+message_serveur	458		content_default	horde	7be4ccb0a4ee		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français
 message_serveur	459		content_default	Graveyard #{} (faction: {}) is nearest from linked to zone #{}.	810f2d4b7169	Le cimetière #{} (faction : {}) est le plus proche parmi ceux liés à la zone #{}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	460		content_default	Zone #{} doesn't have linked graveyards.	5425b9f1d548	La zone #{} n'a aucun cimetière lié.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	461		content_default	Zone #{} doesn't have linked graveyards for faction: {}.	39670677062e	La zone #{} n'a aucun cimetière lié pour la faction : {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
@@ -436,9 +436,9 @@ message_serveur	464		content_default	Teleport location NOT added: database error
 message_serveur	465		content_default	Teleport location deleted.	1fa1d585b14e	Lieu de téléportation supprimé.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	466		content_default	No taxinodes found!	35d55d03418e	Aucun point de vol trouvé !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	467		content_default	Target unit has {} auras:	2b974679fece	L'unité ciblée a {} auras :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	468		content_default	id: {} {} effmask: {} charges: {} stack: {} slot {} duration: {} maxduration: {} {} {} caster: {} guid: {}	1d1f661369b1		a_traduire		
+message_serveur	468		content_default	id: {} {} effmask: {} charges: {} stack: {} slot {} duration: {} maxduration: {} {} {} caster: {} guid: {}	1d1f661369b1		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage
 message_serveur	469		content_default	Target unit has {} auras of type {}:	b53c12b4b0ff	L'unité ciblée a {} auras de type {} :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	470		content_default	id: {} eff: {} amount: {}	6107b10af614		a_traduire		
+message_serveur	470		content_default	id: {} eff: {} amount: {}	6107b10af614		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage
 message_serveur	471		content_default	Quest {} not found.	0c6dddeaa7ea	Quête {} introuvable.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	472		content_default	Quest {} started from item. For correct work, please, add item to inventory and start quest in normal way: .additem {}	8f078c064c2a	La quête {} commence par un objet. Pour un fonctionnement correct, ajoutez l'objet à l'inventaire et commencez la quête normalement : .additem {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	473		content_default	Quest {} ({}) removed.	6d0e6b1e11b4	Quête {} ({}) retirée.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
@@ -483,9 +483,9 @@ message_serveur	511		content_default	Wrong link type!	6a7377852ba1	Mauvais type 
 message_serveur	512		content_default	{} - |c{}|Hitem:{}:0:0:0:0:0:0:0:0|h[{}]|h|r 	2b7ba9243029		a_traduire		
 message_serveur	513		content_default	{} - |cffffffff|Hquest:{}:{}|h[{}]|h|r {}	1884ebc22511		technique		technique=marqueurs_ou_variables_seuls
 message_serveur	514		content_default	{} - |cffffffff|Hcreature_entry:{}|h[{}]|h|r 	5566dfcbda68		technique		technique=marqueurs_ou_variables_seuls
-message_serveur	515		content_default	{} - (entry: {}) |cffffffff|Hcreature:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r	b181fb9aa86c		a_traduire		
+message_serveur	515		content_default	{} - (entry: {}) |cffffffff|Hcreature:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r	b181fb9aa86c		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique de lien (MJ), aucun texte à traduire
 message_serveur	516		content_default	{} - |cffffffff|Hgameobject_entry:{}|h[{}]|h|r 	61e607eee577		technique		technique=marqueurs_ou_variables_seuls
-message_serveur	517		content_default	{} (Entry: {}) - |cffffffff|Hgameobject:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r 	0c4daf08fad3		a_traduire		
+message_serveur	517		content_default	{} (Entry: {}) - |cffffffff|Hgameobject:{}|h[{} X:{} Y:{} Z:{} MapId:{}]|h|r 	0c4daf08fad3		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique de lien (MJ), aucun texte à traduire
 message_serveur	518		content_default	{} - |cffffffff|Hitemset:{}|h[{} {}]|h|r 	418fb5cdd135		technique		technique=marqueurs_ou_variables_seuls
 message_serveur	519		content_default	|cffffffff|Htele:{}|h[{}]|h|r 	db79a92275fd		technique		technique=marqueurs_ou_variables_seuls
 message_serveur	520		content_default	{} - |cffffffff|Hspell:{}|h[{}]|h|r 	0752c097c26f		technique		technique=marqueurs_ou_variables_seuls
@@ -523,28 +523,28 @@ message_serveur	551		content_default	{} has explored all zones now.	eae6d784f2b7
 message_serveur	552		content_default	{} has no more explored zones.	7ebae365e73b	{} n'a plus aucune zone explorée.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	553		content_default	{} has explored all zones for you.	98fe2ace2fa4	{} a exploré toutes les zones pour vous.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	554		content_default	{} has hidden all zones from you.	e3ec698c687e	{} vous a masqué toutes les zones.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	555		content_default	SetData performed on [GUID: {}, entry: {}, name: {}] Field: {}, Data: {}, with {}	8b41852f30e5		a_traduire		
+message_serveur	555		content_default	SetData performed on [GUID: {}, entry: {}, name: {}] Field: {}, Data: {}, with {}	8b41852f30e5		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	556		content_default	Found near creatures (distance {}): {} 	1a2748b9ee4d	Créatures proches trouvées (distance {}) : {} 	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	557		content_default	{} level up you to ({})	0a36ad87c53b	{} vous a fait monter au niveau ({})	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	558		content_default	{} level down you to ({})	f2826f363451	{} vous a fait descendre au niveau ({})	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	559		content_default	{} reset your level progress.	aa79b8ba4722	{} a réinitialisé votre progression de niveau.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	560		content_default	The area has been set as explored.	39372d79e90a	La zone a été marquée comme explorée.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	561		content_default	The area has been set as not explored.	c1e1706cbd5b	La zone a été marquée comme non explorée.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	562		content_default	GUID={} 's updateIndex: {}, value:  {}.	bccd27f664ac		a_traduire		
-message_serveur	563		content_default	You change GUID={} 's UpdateIndex: {} value to {}.	606a47cf4be7		a_traduire		
-message_serveur	564		content_default	The value index {} is too big to {}(count: {}).	25e29c043ae3		a_traduire		
-message_serveur	565		content_default	Set {} uint32 Value:[OPCODE]:{} [VALUE]:{}	4c8c61774585		a_traduire		
-message_serveur	566		content_default	You Set {} Field:{} to uint32 Value: {}	51b220917500		a_traduire		
-message_serveur	567		content_default	Set {} float Value:[OPCODE]:{} [VALUE]:{}	71597a00e885		a_traduire		
-message_serveur	568		content_default	You Set {} Field:{} to float Value: {}	18c026ee9b26		a_traduire		
-message_serveur	569		content_default	Get {} uint32 Value:[OPCODE]:{} [VALUE]:{}	3eb930f1f33c		a_traduire		
-message_serveur	570		content_default	The uint32 value of {} in {} is: {}	3141db48d6b0		a_traduire		
-message_serveur	571		content_default	Get {} float Value:[OPCODE]:{} [VALUE]:{}	8f3b8d15b8c3		a_traduire		
-message_serveur	572		content_default	The float of {} value in {} is: {}	0a6af64f8546		a_traduire		
-message_serveur	573		content_default	.Set32Bit:[OPCODE]:{} [VALUE]:{}	a65815a16a25		a_traduire		
-message_serveur	574		content_default	You set Bit of Field:{} to Value: {}	cd5bc90f87ed		a_traduire		
-message_serveur	575		content_default	.Mod32Value:[OPCODE]:{} [VALUE]:{}	3f860cd88449		a_traduire		
-message_serveur	576		content_default	You modified the value of Field:{} to Value: {}	5cabfdb509c9		a_traduire		
+message_serveur	562		content_default	GUID={} 's updateIndex: {}, value:  {}.	bccd27f664ac		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	563		content_default	You change GUID={} 's UpdateIndex: {} value to {}.	606a47cf4be7		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	564		content_default	The value index {} is too big to {}(count: {}).	25e29c043ae3		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	565		content_default	Set {} uint32 Value:[OPCODE]:{} [VALUE]:{}	4c8c61774585		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	566		content_default	You Set {} Field:{} to uint32 Value: {}	51b220917500		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	567		content_default	Set {} float Value:[OPCODE]:{} [VALUE]:{}	71597a00e885		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	568		content_default	You Set {} Field:{} to float Value: {}	18c026ee9b26		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	569		content_default	Get {} uint32 Value:[OPCODE]:{} [VALUE]:{}	3eb930f1f33c		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	570		content_default	The uint32 value of {} in {} is: {}	3141db48d6b0		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	571		content_default	Get {} float Value:[OPCODE]:{} [VALUE]:{}	8f3b8d15b8c3		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	572		content_default	The float of {} value in {} is: {}	0a6af64f8546		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	573		content_default	.Set32Bit:[OPCODE]:{} [VALUE]:{}	a65815a16a25		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	574		content_default	You set Bit of Field:{} to Value: {}	cd5bc90f87ed		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	575		content_default	.Mod32Value:[OPCODE]:{} [VALUE]:{}	3f860cd88449		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	576		content_default	You modified the value of Field:{} to Value: {}	5cabfdb509c9		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	577		content_default	You are now invisible.	ac7bbf3d2672	Vous êtes maintenant invisible.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	578		content_default	You are now visible.	806558a6219f	Vous êtes maintenant visible.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	579		content_default	Selected player or creature not have victim.	9fc2c23b6f04	Le joueur ou la créature sélectionné n'a pas de victime.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
@@ -562,16 +562,16 @@ message_serveur	590		content_default	   Fear movement	f5850a6b60ba	   Déplaceme
 message_serveur	591		content_default	   Distract movement	fb15071b2c44	   Déplacement de distraction	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	592		content_default	You have learned all spells in craft: {}	22229c0822d4	Vous avez appris tous les sorts du métier : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	593		content_default	Currently Banned Accounts:	bbc2c627c502	Comptes actuellement bannis :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	594		content_default	|    Account    |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	f2dfe427e5b7		a_traduire		
+message_serveur	594		content_default	|    Account    |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	f2dfe427e5b7		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	595		content_default	Currently Banned IPs:	bee017776dee	IP actuellement bannies :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	596		content_default	|      IP       |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	0dbdbf98c0f2		a_traduire		
+message_serveur	596		content_default	|      IP       |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	0dbdbf98c0f2		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	597		content_default	Current gamemasters:	b74b7dc44e5a	Maîtres de jeu actuels :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	598		content_default	|    Account    |  GM  |	cf42d1d14622		a_traduire		
+message_serveur	598		content_default	|    Account    |  GM  |	cf42d1d14622		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	599		content_default	No gamemasters.	3f0f0cb7ddc6	Aucun maître de jeu.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	600		content_default	Event {} ({}) is started	22e7d6354257	L'événement {} ({}) a commencé	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	601		content_default	Event {} ({}) is stopped	72001cf8b58d	L'événement {} ({}) est arrêté	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	602		content_default	 [rewarded]	9495a97c5521	 [récompensée]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
-message_serveur	603		content_default	Do Action performed on [GUID: {}, entry: {}, name: {}] Action: {}	cfabaa0d5859		a_traduire		
+message_serveur	603		content_default	Do Action performed on [GUID: {}, entry: {}, name: {}] Action: {}	cfabaa0d5859		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	705		content_default	You must wait {} before speaking again.	809d67899b71	Vous devez attendre {} avant de parler à nouveau.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	706		content_default	This item(s) have problems with equipping/storing in inventory.	bba150b415ed	Cet ou ces objets posent problème pour être équipés ou rangés dans l'inventaire.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
 message_serveur	707		content_default	{} does not wish to be disturbed: {}	c51ae1578912	{} ne veut pas être dérangé : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_002.tsv) | lot messages_serveur_002
@@ -696,7 +696,7 @@ message_serveur	866		content_default	Arena team [Id: {}] change from "{}" to "{}
 message_serveur	867		content_default	Arena team Name: "{}"[Id: {}] change capitan from[{}] to [{}]	69dbfee9095f	Équipe d'arène Nom : "{}"[Id : {}] : capitaine changé de [{}] à [{}]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	868		content_default	Arena team: "{}"[{}] - Rating: {} - Type: {}x{}	c6803bcf0571	Équipe d'arène : "{}"[{}] - Cote : {} - Type : {}x{}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	869		content_default	Name:"{}"[guid:{}] - PR: {} - {}	672e34ba446d	Nom :"{}"[guid:{}] - Cote perso : {} - {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	870		content_default	|"{}"[ID:{}]({}x{})|	9b1f6b6f88fd		a_traduire		
+message_serveur	870		content_default	|"{}"[ID:{}]({}x{})|	9b1f6b6f88fd		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique sans texte
 message_serveur	871		content_default	| Level: {}	f4143dc6006f	| Niveau : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	872		content_default	Entered email is not equal to registration email, check input	eaa3215a2a5a	L'e-mail saisi ne correspond pas à l'e-mail d'inscription, vérifiez votre saisie	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	873		content_default	The new emails do not match	4477dff140b7	Les nouveaux e-mails ne correspondent pas	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -728,13 +728,13 @@ message_serveur	1006		content_default	Account with this name already exist!	6578
 message_serveur	1007		content_default	Account {} NOT created (probably sql file format was updated)	3b643e3d219a	Compte {} NON créé (le format du fichier sql a probablement été mis à jour)	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1008		content_default	Account {} NOT created (unknown error)	99138abf35ee	Compte {} NON créé (erreur inconnue)	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1009		content_default	Player {} (Guid: {}) Account {} (Id: {}) deleted.	90f728680155	Personnage {} (Guid : {}) du compte {} (Id : {}) supprimé.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1010		content_default	-[         Account][   Character][             IP][Map][Zone][Exp][GMLev]-	5077c911e6f6		a_traduire		
-message_serveur	1011		content_default	|<Error>        | {} |<Error>          |<Er>| <Error>   |	d7c8ba5675b7		a_traduire		
+message_serveur	1010		content_default	-[         Account][   Character][             IP][Map][Zone][Exp][GMLev]-	5077c911e6f6		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
+message_serveur	1011		content_default	|<Error>        | {} |<Error>          |<Er>| <Error>   |	d7c8ba5675b7		technique		technique=à garder en anglais (atelier, 0.9.5) : ligne de tableau alignée (MJ)
 message_serveur	1012		content_default	-==================================================================-	924d796e9ae5		technique		technique=sans_lettre
 message_serveur	1013		content_default	-[{}][{}][{}][{}][{}][{}][{}]-	c87de7ca1533		technique		technique=sans_lettre
 message_serveur	1014		content_default	No online players.	16d00a499aca	Aucun joueur en ligne.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1015		content_default	-======================== Characters Online =======================-	d19ca235ef0c	-======================== Personnages en ligne =======================-	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1016		content_default	| GUID       | Name                 | Level | Account                      | Delete Date         |	852e8563ab04		a_traduire		
+message_serveur	1016		content_default	| GUID       | Name                 | Level | Account                      | Delete Date         |	852e8563ab04		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	1017		content_default	| {} | {} | {} | {} ({}) | {} |	7c28a3902d88		technique		technique=sans_lettre
 message_serveur	1018		content_default	==================================================================================================	41abb2b12fa3		technique		technique=sans_lettre
 message_serveur	1019		content_default	No characters found.	9fb1c35c5107	Aucun personnage trouvé.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -758,8 +758,8 @@ message_serveur	1106		content_default	{} - {} {}	19551a25914a		technique		techni
 message_serveur	1107		content_default	{} - {}	a51612746da6		technique		technique=sans_lettre
 message_serveur	1108		content_default	{} - {} {}	19551a25914a		technique		technique=sans_lettre
 message_serveur	1109		content_default	{} - {} {} {} {}	def9eab5116c		technique		technique=sans_lettre
-message_serveur	1110		content_default	{} - {} X:{} Y:{} Z:{} MapId:{}	bdd8101fdb7f		a_traduire		
-message_serveur	1111		content_default	{} - {} X:{} Y:{} Z:{} MapId:{}	bdd8101fdb7f		a_traduire		
+message_serveur	1110		content_default	{} - {} X:{} Y:{} Z:{} MapId:{}	bdd8101fdb7f		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique sans texte
+message_serveur	1111		content_default	{} - {} X:{} Y:{} Z:{} MapId:{}	bdd8101fdb7f		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique sans texte
 message_serveur	1112		content_default	Failed to open file: {}	546d88eb19f6	Impossible d'ouvrir le fichier : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1113		content_default	Account {} ({}) have max amount allowed characters (client limit)	ec31130532d3	Le compte {} ({}) a atteint le nombre maximal de personnages autorisés (limite du client)	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1114		content_default	Dump file have broken data!	505b218f2a1d	Le fichier d'export contient des données corrompues !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -770,18 +770,18 @@ message_serveur	1118		content_default	{} - guild: {} (guid: {}) {}	53dab685694c	
 message_serveur	1119		content_default	You must use male or female as gender.	4338ff0bfc86	Vous devez indiquer male ou female comme sexe.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1120		content_default	You change gender of {} to {}.	d663ca0336c1	Vous changez le sexe de {} en {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1121		content_default	Your gender changed to {} by {}.	548d967ebf0a	Votre sexe a été changé en {} par {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1122		content_default	({}/{} +perm {} +temp {})	e59d67b6162c		a_traduire		
+message_serveur	1122		content_default	({}/{} +perm {} +temp {})	e59d67b6162c		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique sans texte
 message_serveur	1123		content_default	Not pet found	c4a720ad12a7	Aucun familier trouvé	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1124		content_default	Wrong pet type	56e6a15f80d1	Mauvais type de familier	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1125		content_default	Your pet learned all talents	e844b5fcd5d9	Votre familier a appris tous les talents	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1126		content_default	Your pet talents have been reset.	decf5f25fb03	Les talents de votre familier ont été réinitialisés.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1127		content_default	Talents of {}'s pet reset.	6e08087e21a5	Talents du familier de {} réinitialisés.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1128		content_default	{} - |cffffffff|Htaxinode:{}|h[{} {}]|h|r (Map:{} X:{} Y:{} Z:{})	70a51b6af6e5		a_traduire		
-message_serveur	1129		content_default	{} - {} {} (Map:{} X:{} Y:{} Z:{})	ff5ed9c2d528		a_traduire		
+message_serveur	1128		content_default	{} - |cffffffff|Htaxinode:{}|h[{} {}]|h|r (Map:{} X:{} Y:{} Z:{})	70a51b6af6e5		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique de lien (MJ)
+message_serveur	1129		content_default	{} - {} {} (Map:{} X:{} Y:{} Z:{})	ff5ed9c2d528		technique		technique=à garder en anglais (atelier, 0.9.5) : format technique sans texte
 message_serveur	1130		content_default	Can't dump deleted characters,aborting.	908e479fa4f1	Impossible d'exporter des personnages supprimés, abandon.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1131		content_default	The following characters match your query:	3e360075a6ed	Les personnages suivants correspondent à votre recherche :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1132		content_default	Currently Banned Characters:	18e2dc8ecc90	Personnages actuellement bannis :	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1133		content_default	|   Character   |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	69dea1742d69		a_traduire		
+message_serveur	1133		content_default	|   Character   |   BanDate    |   UnbanDate  |  Banned By    |   Ban Reason  |	69dea1742d69		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	1134		content_default	Sending tickets is allowed.	7ddc2039e2e7	L'envoi de tickets est autorisé.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1135		content_default	Sending tickets is not allowed.	12bf68e9a5f1	L'envoi de tickets n'est pas autorisé.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1136		content_default	Character {} has never been banned!	80b4016fb2e0	Le personnage {} n'a jamais été banni !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -791,8 +791,8 @@ message_serveur	1139		content_default	   Follow player {} (lowguid {})	80fa7bc39
 message_serveur	1140		content_default	   Follow creature {} (lowguid {})	164b6c6a6563	   Suit la créature {} (lowguid {})	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1141		content_default	   Follow <NULL>	5cfb6698abf6	   Suit <NULL>	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1142		content_default	   Effect movement	abf0e22d161f	   Déplacement par effet	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1143		content_default	Target's moveFlags: {}, moveFlagsExtra: {}.	697cb2b09035		a_traduire		
-message_serveur	1144		content_default	Target's moveFlags set to: {}, moveFlagsExtra to: {}	1fc5520aab6b		a_traduire		
+message_serveur	1143		content_default	Target's moveFlags: {}, moveFlagsExtra: {}.	697cb2b09035		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	1144		content_default	Target's moveFlags set to: {}, moveFlagsExtra to: {}	1fc5520aab6b		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	1145		content_default	{} is already in a group!	5cb7cf7a405c	{} est déjà dans un groupe !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1146		content_default	{} joined {}'s group.	d1a42e72b1f4	{} a rejoint le groupe de {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1147		content_default	{} is not in a group!	803136e79950	{} n'est pas dans un groupe !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -808,20 +808,20 @@ message_serveur	1156		content_default	Mail List Info: No mail found for this cha
 message_serveur	1157		content_default	All configs are reloaded from the configuration file(s).	884d027367a3	Toutes les configurations ont été rechargées depuis le ou les fichiers de configuration.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1158		content_default	==========================================================	50ee4fba30df		technique		technique=sans_lettre
 message_serveur	1159		content_default	|--------------------------------------------------------|	12b2e8e57a8f		technique		technique=sans_lettre
-message_serveur	1160		content_default	|            | Alliance |  Horde   | Neutral  |  Total   |	361a2d559e8c		a_traduire		
-message_serveur	1161		content_default	          Alliance/Horde/Neutral/Total	8a522b6f1cfe		a_traduire		
+message_serveur	1160		content_default	|            | Alliance |  Horde   | Neutral  |  Total   |	361a2d559e8c		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
+message_serveur	1161		content_default	          Alliance/Horde/Neutral/Total	8a522b6f1cfe		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	1162		content_default	| {} | {} | {} | {} | {} |	6a67540505b0		technique		technique=sans_lettre
 message_serveur	1163		content_default	{} = {} / {} / {} / {}	a7459552c147		technique		technique=sans_lettre
 message_serveur	1164		content_default	Count	66e12969c225	Nombre	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1165		content_default	Item Ratio	1fec7666a616	Ratio d'objets	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	1166		content_default	|            | Alliance |   Horde  | Neutral  |  Amount  |	ce8fb281f6fc		a_traduire		
-message_serveur	1167		content_default	          Alliance/Horde/Neutral/Amount	4d630cbe94c7		a_traduire		
+message_serveur	1166		content_default	|            | Alliance |   Horde  | Neutral  |  Amount  |	ce8fb281f6fc		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
+message_serveur	1167		content_default	          Alliance/Horde/Neutral/Amount	4d630cbe94c7		technique		technique=à garder en anglais (atelier, 0.9.5) : en-tête de tableau aligné (MJ), alignement à conserver
 message_serveur	1168		content_default	Gray	4f9beff18cc6	Gris	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1169		content_default	White	37619fc13053	Blanc	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1170		content_default	Green	933bf21afdd5	Verte	machine	archive_ascensionfr	fichier=libelles.json;famille=interface
 message_serveur	1171		content_default	Blue	7d44bc449c2a	Bleue	machine	archive_ascensionfr	fichier=libelles.json;famille=interface;variantes_fr=2
 message_serveur	1172		content_default	Purple	32576f4fedc0	Violette	machine	archive_ascensionfr	fichier=libelles.json;famille=interface
-message_serveur	1173		content_default	Orange	09fb6aaba794		a_traduire		
+message_serveur	1173		content_default	Orange	09fb6aaba794		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français (Orange)
 message_serveur	1174		content_default	Yellow	3526f607bcd4	Jaune	machine	archive_ascensionfr	fichier=libelles.json;famille=interface
 message_serveur	1175		content_default	Amount of {} items is set to {}.	4d5f4b245016	La quantité d'objets {} est réglée sur {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	1176		content_default	Items ratio for {} is set to {}.	7b193aa45871	Le ratio d'objets {} est réglé sur {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -903,14 +903,14 @@ message_serveur	5006		content_default	- {}	70f4af4c5597		technique		technique=sa
 message_serveur	5007		content_default	You must be in a raid group to enter this instance.	8891b2f907fd	Vous devez être dans un groupe de raid pour entrer dans cette instance.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5008		content_default	This instance is closed.	6ff3b276e93d	Cette instance est fermée.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5009		content_default	Sound {} Played to server	d9aa5a8f55f6	Son {} joué pour tout le serveur	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5010		content_default	linkGUID: {}, Entry: {} ({})	971cd8813fe3		a_traduire		
+message_serveur	5010		content_default	linkGUID: {}, Entry: {} ({})	971cd8813fe3		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	5011		content_default	You can't teleport self to self!	e648d3a247a2	Vous ne pouvez pas vous téléporter sur vous-même !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_001.tsv) | lot messages_serveur_001
 message_serveur	5012		content_default	No maps found!	11ab92ae5f6d	Aucune carte trouvée !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5013		content_default	[Continent]	fdca220c1564		a_traduire		
-message_serveur	5014		content_default	[Instance]	f37c40dee844		a_traduire		
+message_serveur	5013		content_default	[Continent]	fdca220c1564		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français ([Continent])
+message_serveur	5014		content_default	[Instance]	f37c40dee844	[Instance]	machine	claude	traduction de Claude (traductions/messages_serveur/doutes_resolus_095.tsv) | doute résolu (0.9.5, audit des sorts)
 message_serveur	5015		content_default	[Battleground]	910e1e857a5c	[Champ de bataille]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5016		content_default	[Arena]	d0073661fde5	[Arène]	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5017		content_default	[Raid]	b48add9e150d		a_traduire		
+message_serveur	5017		content_default	[Raid]	b48add9e150d		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français ([Raid])
 message_serveur	5020		content_default	Phasemask: {}	b9178f2b41fc	Masque de phase : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5021		content_default	Armor: {}	280d02eca098	Armure : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5022		content_default	Granting ownership to first person that joins the channel "{}": Enabled.	342790b903ef	Attribution de la propriété à la première personne qui rejoint le canal "{}" : activée.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -921,23 +921,23 @@ message_serveur	5026		content_default	DisplayID: {}	b02d4d59f0af	ID d'affichage�
 message_serveur	5027		content_default	Name: {}	22b443a075db	Nom : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5028		content_default	Lootid: {}	6bebe523c527	ID de butin : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5029		content_default	Result limit reached (max results: {})	aa1be40ccf65	Limite de résultats atteinte (max : {})	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5031		content_default	AIName: {} ScriptName: {}	646290e2d37c		a_traduire		
+message_serveur	5031		content_default	AIName: {} ScriptName: {}	646290e2d37c		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	5032		content_default	No battleground found!	5c49503a58b7	Aucun champ de bataille trouvé !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5033		content_default	No achievement criteria found!	8f641c804031	Aucun critère de haut fait trouvé !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5034		content_default	No outdoor PvP found!	de09dfbb2569	Aucun PvP extérieur trouvé !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5036		content_default	EquipmentId: {} (Original: {}).	a2f01e392076		a_traduire		
-message_serveur	5037		content_default	MechanicImmuneMask: {}	5e9a98a96ebf		a_traduire		
+message_serveur	5036		content_default	EquipmentId: {} (Original: {}).	a2f01e392076		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
+message_serveur	5037		content_default	MechanicImmuneMask: {}	5e9a98a96ebf		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	5038		content_default	Unit Flags: {}	4a7a8e17413d	Indicateurs d'unité : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5039		content_default	Console	9f3341d3710b		a_traduire		
+message_serveur	5039		content_default	Console	9f3341d3710b		technique		technique=à garder en anglais (atelier, 0.9.5) : identique en français (Console)
 message_serveur	5040		content_default	Character	ee9946c82d4a	Personnage	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5041		content_default	Permanently	667103f5ba81	Définitivement	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5042		content_default	You are outdoors.	71d6cf8d0acf	Vous êtes à l'extérieur.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5043		content_default	You are indoors.	24dba42a9f40	Vous êtes à l'intérieur.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5044		content_default	no VMAP available for area info	1447db731d87	aucune VMAP disponible pour les infos de zone	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5045		content_default	Map: {} | ID: {} | perm: {} | extended: {} | diff: {} | canReset: {} | TTR: {}	3bd5faeea8ea		a_traduire		
+message_serveur	5045		content_default	Map: {} | ID: {} | perm: {} | extended: {} | diff: {} | canReset: {} | TTR: {}	3bd5faeea8ea		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	5046		content_default	Player binds: {}	920459116cd3	Liaisons du joueur : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5047		content_default	Group binds: {}	d41411d266fa	Liaisons du groupe : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5048		content_default	Unbinding map: {} inst: {} perm: {} diff: {} canReset: {} TTR: {}	0c45a52859bc		a_traduire		
+message_serveur	5048		content_default	Unbinding map: {} inst: {} perm: {} diff: {} canReset: {} TTR: {}	0c45a52859bc		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	5049		content_default	Instances unbound: {}	e0c12c935652	Instances déliées : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5050		content_default	Instances loaded: {}	c2e64475cace	Instances chargées : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5051		content_default	Players in instances: {}	ba7419d7dcbc	Joueurs dans des instances : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -951,7 +951,7 @@ message_serveur	5058		content_default	Boss id {} ({}) state is {} ({}).	b154c5bd
 message_serveur	5059		content_default	Mutes for account: {}	8559b1e2b540	Silences du compte : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5060		content_default	No mutes for account: {}	434a778f6e30	Aucun silence pour le compte : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5061		content_default	Mute Date: {} Mutetime: {} mins. Reason: {} Set by: {}	8131943dd2ae	Date du silence : {} Durée : {} min. Raison : {} Posé par : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
-message_serveur	5062		content_default	SpellSchoolImmuneMask: {}	862acca441a3		a_traduire		
+message_serveur	5062		content_default	SpellSchoolImmuneMask: {}	862acca441a3		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ)
 message_serveur	5063		content_default	Displaying cached info for character: \n|- Name: {} (Guid: {}) \n|- Account: {} \n|- Class: {} \n|- Race: {} \n|- Gender: {} \n|- Level: {} \n|- Mail Count: {} \n|- Guild: {} \n|- Group ID: {} \n|- ArenaTeam 2x2: {} \n|- ArenaTeam 3x3: {} \n|- ArenaTeam 5x5: {}	db1666a0b7c3	Infos en cache du personnage : \n|- Nom : {} (Guid : {}) \n|- Compte : {} \n|- Classe : {} \n|- Race : {} \n|- Sexe : {} \n|- Niveau : {} \n|- Nombre de courriers : {} \n|- Guilde : {} \n|- ID du groupe : {} \n|- Équipe d'arène 2c2 : {} \n|- Équipe d'arène 3c3 : {} \n|- Équipe d'arène 5c5 : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5064		content_default	Cached data for character {} ({}) has been cleared.	27f4d4b0fb17	Les données en cache du personnage {} ({}) ont été effacées.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
 message_serveur	5065		content_default	Cached data for character {} ({}) has been refreshed.	9feb6f71f004	Les données en cache du personnage {} ({}) ont été actualisées.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_003.tsv) | lot messages_serveur_003
@@ -1156,7 +1156,7 @@ message_serveur	11005		content_default	Server: {} has banned character {} perman
 message_serveur	11006		content_default	Server: {} has banned account {} for {}, reason: {}	589671b993d4	Serveur : {} a banni le compte {} pour {}, raison : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
 message_serveur	11007		content_default	Server: {} has banned account {} permanetly, reason: {}	f17e1d6f4e0a	Serveur : {} a banni le compte {} définitivement, raison : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
 message_serveur	11008		content_default	Movement type: {}	714c3581cdf5	Type de déplacement : {}	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
-message_serveur	11009		content_default	Flags Extra: {}	01a8807662f7		a_traduire		
+message_serveur	11009		content_default	Flags Extra: {}	01a8807662f7		technique		technique=à garder en anglais (atelier, 0.9.5) : sortie technique de débogage (MJ), nom de champ
 message_serveur	11010		content_default	You didn't get kicked out of the instance even if Player::CheckInstanceLoginValid() returned false and without .gm on flag	93908cdb9057	Vous n'avez pas été expulsé de l'instance, alors que Player::CheckInstanceLoginValid() a renvoyé false et que .gm on n'est pas activé	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
 message_serveur	11011		content_default	VisualizeBoundary warning: No interior point of the creature's boundary could be found - check if you have mutually exclusive boundaries!	466eb2e283ff	Avertissement VisualizeBoundary : aucun point intérieur de la limite de la créature n'a été trouvé - vérifiez si vous avez des limites mutuellement exclusives !	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
 message_serveur	11012		content_default	VisualizeBoundary error: Creature movement is unbounded	b0cf7a6c5057	Erreur VisualizeBoundary : le déplacement de la créature n'est pas limité	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
@@ -1326,4 +1326,4 @@ message_serveur	35477		content_default	| No characters on this realm.	408c6484c7
 message_serveur	35478		content_default	| Current IP: {}	7c1d93fa8b8f	| IP actuelle: {}	officiel	blizzard_frFR	acore_string.locale_frFR
 message_serveur	35479		content_default	 (offline)	42b0c4734b53	 (hors ligne)	officiel	blizzard_frFR	acore_string.locale_frFR
 message_serveur	35480		content_default	Spell charges: {}.	a6d061c28a91	Charges du sort : {}.	machine	claude	traduction de Claude (traductions/messages_serveur/messages_serveur_004.tsv) | lot messages_serveur_004
-message_serveur	991475		content_default	JASPERRRRR!!!	6df1af582843		a_traduire		
+message_serveur	991475		content_default	JASPERRRRR!!!	6df1af582843		technique		technique=à garder en anglais (atelier, 0.9.5) : cri d'un nom propre, rien à traduire

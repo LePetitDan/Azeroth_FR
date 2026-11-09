@@ -124,6 +124,9 @@
    "lots": [
     "creatures_001",
     "creatures_002",
+    "creatures_004",
+    "creatures_005",
+    "creatures_006",
     "creatures_003"
    ],
    "techniques_probables": 23,
@@ -192,14 +195,17 @@
     "objets_056",
     "objets_057",
     "objets_058",
+    "objets_067",
     "objets_059",
     "objets_060",
     "objets_061",
     "objets_062",
+    "objets_068",
     "objets_063",
     "objets_064",
     "objets_065",
-    "objets_066"
+    "objets_066",
+    "objets_069"
    ],
    "techniques_probables": 3,
    "bloque": ""
@@ -583,7 +589,8 @@
    "lots": [
     "zones_001",
     "zones_002",
-    "zones_003"
+    "zones_003",
+    "zones_004"
    ],
    "techniques_probables": 0,
    "bloque": ""
@@ -1059,17 +1066,21 @@
     "hauts_faits_criteres_001",
     "hauts_faits_criteres_002",
     "hauts_faits_criteres_003",
+    "hauts_faits_criteres_029",
     "hauts_faits_criteres_004",
     "hauts_faits_criteres_005",
     "hauts_faits_criteres_006",
     "hauts_faits_criteres_007",
+    "hauts_faits_criteres_030",
     "hauts_faits_criteres_008",
+    "hauts_faits_criteres_031",
     "hauts_faits_criteres_009",
     "hauts_faits_criteres_010",
     "hauts_faits_criteres_011",
     "hauts_faits_criteres_012",
     "hauts_faits_criteres_013",
     "hauts_faits_criteres_014",
+    "hauts_faits_criteres_032",
     "hauts_faits_criteres_015",
     "hauts_faits_criteres_016",
     "hauts_faits_criteres_017",
@@ -1077,12 +1088,18 @@
     "hauts_faits_criteres_019",
     "hauts_faits_criteres_020",
     "hauts_faits_criteres_021",
+    "hauts_faits_criteres_033",
     "hauts_faits_criteres_022",
+    "hauts_faits_criteres_034",
     "hauts_faits_criteres_023",
+    "hauts_faits_criteres_035",
     "hauts_faits_criteres_024",
+    "hauts_faits_criteres_036",
     "hauts_faits_criteres_025",
+    "hauts_faits_criteres_037",
     "hauts_faits_criteres_026",
     "hauts_faits_criteres_027",
+    "hauts_faits_criteres_038",
     "hauts_faits_criteres_028"
    ],
    "techniques_probables": 723,
@@ -12393,6 +12410,278 @@
    "chantier": "N",
    "bloque": "",
    "ajoute": "2026-11-09 07:47"
+  },
+  "creatures_004": {
+   "famille": "creatures",
+   "debut": [
+    "creature",
+    "81232",
+    "",
+    "name"
+   ],
+   "textes": 300,
+   "lignes": 310,
+   "mots": 702,
+   "plage": "creature 81232 à 146507",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "creatures_005": {
+   "famille": "creatures",
+   "debut": [
+    "creature",
+    "148025",
+    "",
+    "name"
+   ],
+   "textes": 300,
+   "lignes": 303,
+   "mots": 653,
+   "plage": "creature 148025 à 347310",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "creatures_006": {
+   "famille": "creatures",
+   "debut": [
+    "creature",
+    "379386",
+    "",
+    "name"
+   ],
+   "textes": 121,
+   "lignes": 164,
+   "mots": 235,
+   "plage": "creature 379386 à 5011007",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_029": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "15079",
+    "",
+    "description"
+   ],
+   "textes": 2,
+   "lignes": 17,
+   "mots": 10,
+   "plage": "haut_fait_critere 15079 à 15102",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_030": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "20107",
+    "",
+    "description"
+   ],
+   "textes": 5,
+   "lignes": 5,
+   "mots": 18,
+   "plage": "haut_fait_critere 20107 à 20161",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_031": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "23495",
+    "",
+    "description"
+   ],
+   "textes": 3,
+   "lignes": 3,
+   "mots": 6,
+   "plage": "haut_fait_critere 23495 à 23615",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_032": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "34236",
+    "",
+    "description"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 1,
+   "plage": "haut_fait_critere 34236 à 34236",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_033": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "42038",
+    "",
+    "description"
+   ],
+   "textes": 10,
+   "lignes": 44,
+   "mots": 23,
+   "plage": "haut_fait_critere 42038 à 42111",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_034": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "42115",
+    "",
+    "description"
+   ],
+   "textes": 281,
+   "lignes": 808,
+   "mots": 915,
+   "plage": "haut_fait_critere 42115 à 53249",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_035": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "60341",
+    "",
+    "description"
+   ],
+   "textes": 6,
+   "lignes": 21,
+   "mots": 18,
+   "plage": "haut_fait_critere 60341 à 70549",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_036": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "90003",
+    "",
+    "description"
+   ],
+   "textes": 2,
+   "lignes": 6,
+   "mots": 7,
+   "plage": "haut_fait_critere 90003 à 90021",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_037": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "143050",
+    "",
+    "description"
+   ],
+   "textes": 238,
+   "lignes": 238,
+   "mots": 898,
+   "plage": "haut_fait_critere 143050 à 143876",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "hauts_faits_criteres_038": {
+   "famille": "hauts_faits_criteres",
+   "debut": [
+    "haut_fait_critere",
+    "152232",
+    "",
+    "description"
+   ],
+   "textes": 11,
+   "lignes": 19,
+   "mots": 27,
+   "plage": "haut_fait_critere 152232 à 154075",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "objets_067": {
+   "famille": "objets",
+   "debut": [
+    "objet",
+    "2000150",
+    "",
+    "name"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 1,
+   "plage": "objet 2000150 à 2000150",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "objets_068": {
+   "famille": "objets",
+   "debut": [
+    "objet",
+    "4050846",
+    "",
+    "name"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 3,
+   "plage": "objet 4050846 à 4050846",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "objets_069": {
+   "famille": "objets",
+   "debut": [
+    "objet",
+    "9707100",
+    "",
+    "name"
+   ],
+   "textes": 1,
+   "lignes": 1,
+   "mots": 4,
+   "plage": "objet 9707100 à 9707100",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
+  },
+  "zones_004": {
+   "famille": "zones",
+   "debut": [
+    "canal",
+    "1",
+    "",
+    "name"
+   ],
+   "textes": 1,
+   "lignes": 2,
+   "mots": 1,
+   "plage": "canal 1 à 1",
+   "chantier": "O",
+   "bloque": "",
+   "ajoute": "2026-11-09 18:14"
   }
  },
  "chantiers": [
@@ -13338,6 +13627,39 @@
    ],
    "textes": 2173,
    "mots": 28050,
+   "mots_bloques": 0
+  },
+  {
+   "id": "O",
+   "nom": "Restes avant la version publique (0.9.5)",
+   "priorite": 1,
+   "familles": [
+    "creatures",
+    "hauts_faits_criteres",
+    "objets",
+    "zones"
+   ],
+   "lots": [
+    "creatures_004",
+    "creatures_005",
+    "creatures_006",
+    "hauts_faits_criteres_029",
+    "hauts_faits_criteres_030",
+    "hauts_faits_criteres_031",
+    "hauts_faits_criteres_032",
+    "hauts_faits_criteres_033",
+    "hauts_faits_criteres_034",
+    "hauts_faits_criteres_035",
+    "hauts_faits_criteres_036",
+    "hauts_faits_criteres_037",
+    "hauts_faits_criteres_038",
+    "objets_067",
+    "objets_068",
+    "objets_069",
+    "zones_004"
+   ],
+   "textes": 1284,
+   "mots": 3522,
    "mots_bloques": 0
   }
  ]

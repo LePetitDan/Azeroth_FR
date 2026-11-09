@@ -14,7 +14,7 @@ sort	801002		Description	59f5c14ebf1b	Pousse un hurlement terrifiant et déchaî
 sort	801002		Name	90cea3c6b836	Déchaînement : Pestilence	lot sorts_classes_016
 sort	801036		Description	b31262ba0871	Réduit de $s1% les dégâts de Feu que vous subissez.	lot sorts_classes_016
 sort	801036		Name	e00bfc657106	Inspiration agonisante	lot sorts_classes_016
-sort	801040		Description	c2bcc6bb61af	Inflige les dégâts de l'arme plus $s2 points de dégâts physiques à un ennemi, en fonction de sa santé manquante.\r\n\r\nGénère 2 charges de |cffff9933Feu démoniaque|r.	lot sorts_classes_016
+sort	801040		Description	c2bcc6bb61af	Inflige les dégâts de l'arme plus $s2 points de dégâts physiques à un ennemi, ces dégâts augmentant en fonction des points de vie qui lui manquent.\r\n\r\nGénère 2 charges de |cffff9933Feu démoniaque|r.	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : Sens incomplet : c'est l'augmentation des dégâts qui dépend de la santé manquante.
 sort	801040		Rank	bb2d06e28ceb	DÉSACTIVÉ	lot sorts_classes_016
 sort	801042		Description	f945570403a8	Consomme le cadavre ciblé, générant 20 points de Rage, puis vous rend, ainsi qu'à vos invocations, $s2% des points de vie maximum toutes les $t2 sec pendant $d.\r\n\nUn cadavre écorché ne peut plus l'être. \r\n\r\nNe peut pas être utilisé en combat. Utilisable uniquement sur les humanoïdes, les bêtes et les démons.	lot sorts_classes_016
 sort	801042		Name	5cfa6c264d10	Écorcher le cadavre	lot sorts_classes_016
@@ -28,9 +28,9 @@ sort	801067		ToolTip	bac7df1921ef	Banni.	lot sorts_classes_016
 sort	801069		Description	751a90d015a3	Augmente vos dégâts physiques et vos dégâts critiques de $s2%.\r\n\r\nUn seul |cffffffffCarquois|r (1) peut être actif à la fois.\r\n\r\n@ext:Shares a cooldown with other |cffffffffQuivers|r.:ext@	lot sorts_classes_016
 sort	801069		Name	25ad7d7bb321	Carquois d'escarmoucheur	lot sorts_classes_016
 sort	801069		ToolTip	696597f548a3	Augmente vos dégâts physiques de ${$w1}%. Dégâts critiques augmentés de ${$w2}%.	lot sorts_classes_016
-sort	801075		Description	d90b6486bb52	Enseigne |cffffffffEtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076:0@	lot sorts_classes_016
+sort	801075		Description	d90b6486bb52	Enseigne |cffffffffÉtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076:0@	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : Majuscule accentuée : Étreinte (nom officiel du sort sinon identique).
 sort	801075		Name	b37daaad6927	Vampirisme	lot sorts_classes_016
-sort	801075		ToolTip	3e89e2901ca9	Vous enseigne |cffffffffEtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076@	lot sorts_classes_016
+sort	801075		ToolTip	3e89e2901ca9	Vous enseigne |cffffffffÉtreinte du vampire|r, mais désactive l'utilisation de |cffffffffMalédiction du worgen|r.@s:801076@	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : Majuscule accentuée : Étreinte.
 sort	801081		Description	3d1894db9bbe	Lance un javelot qui inflige $s1 points de dégâts physiques à un ennemi et le fait saigner pour $s2 points de dégâts supplémentaires toutes les $t2 sec pendant $d. Cumulable 3 fois.\r\n\r\nLes dégâts directs sont augmentés de $801700s2% pour chaque charge d'|cff8fff7aAvantage|r.	lot sorts_classes_016
 sort	801081		ToolTip	aa01aede3996	Saigne pour ${$w2} points de dégâts toutes les $t2 sec.	lot sorts_classes_016
 sort	801084		Description	303c0694b8c6	Porte 8 frappes rapides à une cible ennemie en $d, chacune infligeant les dégâts de l'arme sous forme de dégâts des Arcanes, plus $801079s1.	lot sorts_classes_016
@@ -48,7 +48,7 @@ sort	801127		Name	3e657b8181a2	Fracture stellaire	lot sorts_classes_016
 sort	801128		Description	35d18336de33	Les attaques automatiques de mêlée et à distance ont $h% de chances de frapper 3 fois de plus pour $s1% des dégâts sous forme de dégâts des Arcanes et d'appliquer des |cff66ccffÉtoiles éparpillées|r.@s:804378:0@\r\n\r\n@ext:Shares a cooldown with other |cffffffffAspects|r.\r\n\r\nThis damage cannot critically strike.:ext@	lot sorts_classes_016
 sort	801128		Name	5bc77a81c9f2	Aspect du gardien	lot sorts_classes_016
 sort	801128		ToolTip	036cc4b5eed3	Les attaques automatiques de mêlée et à distance ont $h% de chances de frapper 3 fois de plus pour ${$w1}% des dégâts infligés sous forme de dégâts des Arcanes et d'appliquer des |cff66ccffÉtoiles éparpillées|r.	lot sorts_classes_016
-sort	801130		Description	b3a1775f1d2e	|cffffffffDrain de $801138s1% du mana maximum|r\nÉmane une aura pendant $537250d : les joueurs alliés infligent ${$spa*.7} points de dégâts supplémentaires sous forme de dégâts des Arcanes lorsqu'ils infligent des dégâts directs.\r\n\r\nApplique |cFFFFFFFFÉpuisement|r, ce qui vous empêche de bénéficier d'effets similaires pendant $573255d.	lot sorts_classes_016
+sort	801130		Description	b3a1775f1d2e	|cffffffffDrain de $801138s1% du mana maximum|r\nÉmane une aura pendant $537250d : les joueurs alliés infligent ${$spa*.7} points de dégâts supplémentaires sous forme de dégâts des Arcanes lorsqu'ils infligent des dégâts directs.\r\n\r\nApplique |cFFFFFFFFÉpuisement|r, ce qui vous empêche de bénéficier d'effets similaires pendant $573255d.	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : « Epuisement » sans accent : majuscule accentuée requise (Épuisement).
 sort	801130		Name	d38e7db8366f	Résonance céleste	lot sorts_classes_016
 sort	801130		ToolTip	c147116dc1b9	Les dégâts directs infligés infligent des dégâts d'Ombre supplémentaires.	lot sorts_classes_016
 sort	801131		Description	382fadf8f710	Invoque pendant $d un faisceau de lumière stellaire sur votre cible, infligeant ${$800854m1+($pl*0.6)} points de dégâts des Arcanes aux ennemis toutes les $801131t3 sec et ralentissant de $573258s1% la vitesse de déplacement des ennemis qui le traversent.	lot sorts_classes_016
@@ -60,10 +60,10 @@ sort	801141		Description	b900b8dffb60	Augmente votre |cffff8100puissance d'attaq
 sort	801141		ToolTip	e3c9f5e42162	Augmente votre puissance d'attaque de ${$w2}% de votre Agilité.	lot sorts_classes_016
 sort	801142		Description	77e1ddbbb3ad	|cFF66DDFFPassif de niveau 20|r\r\nConsommer une |cff66ccffÉtoile éparpillée|r augmente de $803518s1% vos chances de bloquer pendant $803518d, cumulable jusqu'à $803518u fois.	lot sorts_classes_016
 sort	801142		Name	8d8305679d14	Gardé par la lune	lot sorts_classes_016
-sort	801153		Description	76a12b23d60f	Invoque près de vous un |cffffffffTentacule des Dieux très anciens|r pendant $d.\r\n\r\nIl cherche un ennemi et lui inflige ${$804999m1*$<scalingbp>+$sps*0.08+$AP*0.03} points de dégâts d'Ombre toutes les $801151t1 sec, en fonction de la puissance des sorts et de la puissance d'attaque.\r\n\r\nAu-dessus de 60 |cffcfa6ffFolie|r, le coût en mana de ce sort est supprimé.\r\n\r\n@ext:You may only have 1 |cFFFFFFFFOld God Tentacle|r active at a time.:ext@	lot sorts_classes_016
+sort	801153		Description	76a12b23d60f	Invoque près de vous un |cffffffffTentacule des Dieux très anciens|r pendant $d.\r\n\r\nIl cherche un ennemi et lui inflige ${$804999m1*$<scalingbp>+$sps*0.08+$AP*0.03} points de dégâts d'Ombre toutes les $801151t1 sec, en fonction de la puissance des sorts et de la puissance d'attaque.\r\n\r\nAu-dessus de 60 |cffcfa6ffFolie|r, le coût en mana de ce sort est supprimé.\r\n\r\n@ext:Vous ne pouvez avoir qu'1 |cFFFFFFFFOld God Tentacle|r actif à la fois.:ext@	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : Folie est la ressource (décision 20). Le nom cité « Old God Tentacle » reste tel quel dans les noms de sorts cités, donc à garder dans l'étiquette.
 sort	801153		Name	a9b43f1e88ca	Tentacule de C'Thun	lot sorts_classes_016
 sort	801153		ToolTip	4c82b40d3e9e	Un Tentacule des Dieux très anciens est actif.	lot sorts_classes_016
-sort	801157		Description	482b6da00c67	Retire de vous ou d'un cultiste allié l'affaiblissement |cffffffffDémence|r et réinitialise la |cffcfa6ffFolie|r de la cible à 0.	lot sorts_classes_016
+sort	801157		Description	482b6da00c67	Retire de vous ou d'un cultiste allié l'affaiblissement |cffffffffDémence|r et réinitialise la |cffcfa6ffFolie|r de la cible à 0.	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : Noms cités : Madness = Démence, Insanity = Folie (décision 20).
 sort	801157		Name	c89587b02587	Restaurer la santé mentale	lot sorts_classes_016
 sort	801165		Description	06e65d7bdbfd	|cffffffff3 charges, recharge de 35 sec|r \r\nCharge vers un allié et vous rend, à lui et à vous, ${$m2+0+$AP*0.805+$sph*0.85} points de vie.	lot sorts_classes_016
 sort	801165		Name	58bcb41971e4	Gardien du temple	lot sorts_classes_016
@@ -95,7 +95,7 @@ sort	801283		ToolTip	51ecd3d5142a	|cFFFFFFFFChronurgie|r propage la |cffffffffD�
 sort	801288		Description	49f2a9effb39	Vous commencez à consigner par magie les actions d'un allié pendant $d.\n\nÀ la fin de la durée, il relance sur sa cible actuelle tous les sorts et aptitudes qu'il a lancés pendant la période de consignation.	lot sorts_classes_016
 sort	801288		Name	942477d438b3	Chroniques de l'histoire	lot sorts_classes_016
 sort	801288		ToolTip	8b65aaf8f0ab	Consigne les événements de l'histoire.	lot sorts_classes_016
-sort	801290		Description	f516456cbc95	Lance une masse de magie chaotique sur une cible ennemie et inflige |cff01cdfe$s1 points de dégâts temporels|r. Les dégâts temporels sont un mélange de Givre et d'Arcanes.\n\nConfère 1 |cfffeff9eChromatique|r.\n\nTant que Chromatic Incarnate est actif, cette aptitude inflige $804483s2% de dégâts supplémentaires.	lot sorts_classes_016
+sort	801290		Description	f516456cbc95	Lance une masse de magie chaotique sur une cible ennemie et inflige |cff01cdfe$s1 points de dégâts temporels|r. Les dégâts temporels sont un mélange de Givre et d'Arcanes.\n\nConfère 1 |cfffeff9eChromatique|r.\n\nTant que Incarnation chromatique est actif, cette aptitude inflige $804483s2% de dégâts supplémentaires.	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : Chromatic Incarnate est un nom de sort resté en anglais ; le français existe (Chromatique + Incarnation). Proposition : « Incarnation chromatique ».
 sort	801290		Name	583efa56e492	Explosion discordante	lot sorts_classes_016
 sort	801291		Description	3ebc4ed29b68	Déchire la trame du temps et inflige $o1 points de dégâts chromatiques en $d.\r\n\r\n@ext:La hâte ne réduit pas la durée mais augmente le nombre total d'instances de dégâts.:ext@	lot sorts_classes_016
 sort	801291		Name	c91255d3db35	Déchire-temps	lot sorts_classes_016
@@ -158,7 +158,7 @@ sort	801440		ToolTip	62b23937cfc2	Renvoie le prochain sort lancé sur vous.	lot 
 sort	801441		Description	aee46597d1df	Lit votre |cffffffffLibram de consécration|r : vos aptitudes de dégâts infligent ${$804148m1+$804148ppl1} points de dégâts du Sacré supplémentaires à votre cible pendant $d.\r\n\r\n@ext:Only 1 |cffffffffLibram|r spell can be active at a time.:ext@	lot sorts_classes_016
 sort	801441		Name	f38cf8f1e73a	Libram de consécration	lot sorts_classes_016
 sort	801441		ToolTip	8cc7e7f500ad	Les attaques physiques infligent des dégâts du Sacré supplémentaires.	lot sorts_classes_016
-sort	801443		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0} et confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points de vie en plus.	lot sorts_classes_016
+sort	801443		Description	aa5dcaa9888b	Poignarde un ennemi avec une ferveur sacrée, ce qui inflige $s2% des dégâts de l'arme plus ${$m1+0} et confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes infligent ou rendent $804904s2% de points de dégâts ou de soins en plus.	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : « rendent X% de points de vie en plus » est un contresens : il s'agit de +X% de dégâts ou de soins.
 sort	801443		Name	8251328f658e	Fente vertueuse	lot sorts_classes_016
 sort	801445		Description	061ce6b52f8d	Fend les ennemis, ce qui inflige $s2% des dégâts de l'arme plus $s1 à votre cible et à un ennemi proche supplémentaire, et confère un |cffffffffSerment|r.\r\n\r\n|cffffffffSerment :|r vos aptitudes frappent $804903s1 cible proche supplémentaire.	lot sorts_classes_016
 sort	801445		Name	6602e3ae4680	Enchaînement sacré	lot sorts_classes_016
@@ -185,7 +185,7 @@ sort	801479		ToolTip	4b2104e12a3d	Donne aux attaques automatiques une chance de 
 sort	801487		Description	477899538123	Invoque 3 |cffffffffSphères ardentes|r autour de vous pendant 20 sec maximum.\r\n\r\nUtiliser |cffffffffEnflammer|r sur un ennemi fait se verrouiller vos sphères sur lui : elles lui infligent des dégâts de Feu avec le temps et réduisent sa vitesse de déplacement de 25%.	lot sorts_classes_016
 sort	801487		Name	7394e39cfa34	Sphères ardentes	lot sorts_classes_016
 sort	801487		ToolTip	fed296ae0028	Les sphères ardentes sont actives.	lot sorts_classes_016
-sort	801517		Description	31b1c3b5ca01	Tente de concevoir un nouveau gadget GÉNIAL et vous donne $s2 en Ingénierie pendant $d !	lot sorts_classes_016
+sort	801517		Description	31b1c3b5ca01	Tente de concevoir un nouveau gadget GÉNIAL et vous confère $s2 en Ingénierie pendant $d !	lot sorts_classes_016 | relu par l'API (relecture 0.9.5) : « vous donne $s2 en Ingénierie » est maladroit ; « confère » est plus clair (sens inchangé, correction mineure).
 sort	801517		Name	35481d4d3f69	Outils de bricolage	lot sorts_classes_016
 sort	801517		ToolTip	69cfffb384c0	Compétence en Ingénierie augmentée de ${$w2}.	lot sorts_classes_016
 sort	801523		Description	e81550eebb27	Partage la sagesse de Chromie avec un joueur allié et augmente son Esprit de $s1. Dure $d.\r\n\r\nUne seule |cffffffffSagesse|r par chronomancien peut être active.	lot sorts_classes_016

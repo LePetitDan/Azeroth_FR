@@ -1,0 +1,207 @@
+# Fiche de test : Pyromancien
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Destruction
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Esprit du phénix** (Spécialisation) — capacité, sort n° 92126
+- [ ] **Oeuf de phénix OBSOLÈTE** — capacité, sort n° 500134
+- [ ] **Météore** (Rang 1) — capacité, sort n° 500135
+- [ ] **Toucher délicat** (Rang 1) — capacité, sort n° 704273
+- [ ] **Protégé par les flammes** (Passif) — capacité, sort n° 704275
+- [ ] **Bûcher rugissant** — capacité, sort n° 704278
+- [ ] **Archonte des flammes** (Passif) — capacité, sort n° 704282
+- [ ] **Oeuf de phénix** — capacité, sort n° 800796
+- [ ] **Cœur de cendres** (Rang 1) — capacité, sort n° 800806
+- [ ] **Cercle de feu** — capacité, sort n° 800807 🔍 MAJ
+- [ ] **Ordre de Kael** — capacité, sort n° 800816
+- [ ] **Sphères ardentes** — capacité, sort n° 801487
+- [ ] **Essence de Malygos** — capacité, sort n° 802120
+- [ ] **Soufflets à scories** — capacité, sort n° 803215
+- [ ] **Esprit du phénix** (Passif de spécialisation) — capacité, sort n° 803955
+- [ ] **Renaître des cendres** (Rang 1) — capacité, sort n° 804231
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Vengeance cataclysmique** — capacité, sort n° 804693
+- [ ] **Fusion des entraves** — capacité, sort n° 804727
+- [ ] **Chercheur de flammes** — capacité, sort n° 804868
+- [ ] **Crescendo ardent** (Passif) — capacité, sort n° 805378
+- [ ] **Rallumer** (Passif) — capacité, sort n° 805448
+- [ ] **Passif d'Explosion de magma** — capacité, sort n° 805461
+- [ ] **Cimetière** (Plus mort2) — capacité, sort n° 805465
+- [ ] **Verse-flammes** (Passif) — capacité, sort n° 805468
+- [ ] **Courant de fissure** — capacité, sort n° 805472
+- [ ] **Flamme éternelle** — capacité, sort n° 805475
+- [ ] **Poigne de cendres** (Rang 1) — capacité, sort n° 805476
+- [ ] **Carapace volcanique** (Rang 1) — capacité, sort n° 805477
+- [ ] **Suppression de Destination finale** — capacité, sort n° 805478
+- [ ] **Armure ardente** (Passif) — capacité, sort n° 805479
+- [ ] **Geyser pulvérisateur** — capacité, sort n° 805480
+- [ ] **Puissance du feu** — capacité, sort n° 805487
+- [ ] **Bouclier sacré** (Bouclier) — capacité, sort n° 805489
+- [ ] **Forme du Sacré** (SLS2) — capacité, sort n° 805491 🔍 MAJ
+- [ ] **Renaître de ses cendres** (Déclenchement) — capacité, sort n° 805492
+- [ ] **Esprit brûlant** (Rang 1) — capacité, sort n° 805552
+- [ ] **Courroux du lanceur de flammes caché** — capacité, sort n° 805650
+- [ ] **Regard d'Ysera** — capacité, sort n° 806148
+- [ ] **Grand final** — talent, sort n° 300920
+- [ ] **Al dente** (Passif) — talent, sort n° 300921
+- [ ] **Armure forgée de scories** — talent, sort n° 300931
+- [ ] **Rage de Lucifron** (Passif) — talent, sort n° 300932
+- [ ] **Touché par le feu** (Rang 1) — talent, sort n° 704848
+- [ ] **Flamme vivante** — talent, sort n° 704851
+- [ ] **Infernité** (Passif) — talent, sort n° 704852
+- [ ] **Touché par le feu** (Rang 2) — talent, sort n° 704853
+- [ ] **Cataclysme** (Obsolète) — talent, sort n° 704854
+- [ ] **Flammes apaisantes** (Passif) — talent, sort n° 704855
+- [ ] **Tisonner** (Passif) — talent, sort n° 704856
+- [ ] **Sermon brûlant** (Rang 2) — talent, sort n° 704858
+- [ ] **Brûlant et dangereux** (Passif) — talent, sort n° 704859
+- [ ] **Chaîne nécrotique** (Immobilisation) — talent, sort n° 704860
+- [ ] **Charme de braise** (Passif) — talent, sort n° 704861
+- [ ] **Feu de la Lieuse-de-vie** (Passif) — talent, sort n° 704862
+- [ ] **Revigoration** (Passif) — talent, sort n° 704863
+- [ ] **Feu concentré** (Passif) — talent, sort n° 704864
+- [ ] **Maître du phénix** (Rang 2) — talent, sort n° 704866
+
+## Draconique
+
+- [ ] **Aspect draconique** (Spécialisation) — capacité, sort n° 92128
+- [ ] **Feu du dragon** (Rang 1) — capacité, sort n° 500129 🔀 talents
+- [ ] **Pyromane** (Passif) — capacité, sort n° 500166
+- [ ] **Aspect du temps** (Passif de spécialisation) — capacité, sort n° 500173
+- [ ] **Éruption** — capacité, sort n° 800103
+- [ ] **Dormant** — capacité, sort n° 800128
+- [ ] **Retardateur de surchauffe** — capacité, sort n° 800408
+- [ ] **Flétrissure ardente** (Rang 1) — capacité, sort n° 800809
+- [ ] **Éruption ardente** (Passif) — capacité, sort n° 800813
+- [ ] **Toucher de braise** (Rang 1) — capacité, sort n° 800818
+- [ ] **Visage pétrifiant** (Rang 1) — capacité, sort n° 801908
+- [ ] **Pas de flamme** — capacité, sort n° 801911
+- [ ] **Frappe annihilane** (Dégâts) — capacité, sort n° 801913
+- [ ] **Frappe annihilante (main gauche)** (Dégâts main gauche) — capacité, sort n° 801914
+- [ ] **Flammes de Neltharion** (Rang 1) — capacité, sort n° 801915
+- [ ] **Gueule du Destructeur** (Rang 1) — capacité, sort n° 802107
+- [ ] **Souffle de Malygos** (OBSOLÈTE) — capacité, sort n° 802109
+- [ ] **Force du seigneur des abîmes** (Rang 2) — capacité, sort n° 802110
+- [ ] **Feu de brousse** (Passif) — capacité, sort n° 802113
+- [ ] **Buveur de vie** (Drain) — capacité, sort n° 802114
+- [ ] **Aspect draconique** — capacité, sort n° 802117
+- [ ] **Invocation draconique** — capacité, sort n° 802119
+- [ ] **Sang de dragon** (Rang 1) — capacité, sort n° 802162
+- [ ] **Rage draconique** (Passif) — capacité, sort n° 802164
+- [ ] **Couvée du gardeterre** (Passif) — capacité, sort n° 802165
+- [ ] **Souffles profonds** (Passif) — capacité, sort n° 802166
+- [ ] **Grâce d'Alexstrasza** — capacité, sort n° 802167
+- [ ] **Bénédiction de l'aspect** — capacité, sort n° 802168
+- [ ] **Incantation hâtive** (Passif) — capacité, sort n° 802169
+- [ ] **Tempête draconique** (Passif) — capacité, sort n° 802170
+- [ ] **Courroux du dragon** — capacité, sort n° 802171
+- [ ] **Écho de Nozdormu** (Rang 1) — capacité, sort n° 802174
+- [ ] **Résurgence du Vol noir** (Spécialisation) — capacité, sort n° 805587
+- [ ] **Décimation** — capacité, sort n° 806238
+- [ ] **Bond du dragon** (Rang 1) — capacité, sort n° 806611
+- [ ] **Puissance résiduelle** (Passif) — talent, sort n° 300751
+- [ ] **Cadeau d'Alexstrasza** (Passif) — talent, sort n° 300956
+- [ ] **Pression critique** (Rang 1) — talent, sort n° 704804
+- [ ] **Sang de dragon** (Passif) — talent, sort n° 704805
+- [ ] **Magmatique** (Passif) — talent, sort n° 704807
+- [ ] **Visage pétrifiant amélioré** (Rang 2) — talent, sort n° 704808
+- [ ] **Invocation des flammes** (Passif) — talent, sort n° 704809
+- [ ] **Héritage draconique** (Rang 1) — talent, sort n° 704810 🔀 talents
+- [ ] **Souffles de dragon améliorés** (Rang 2) — talent, sort n° 704811
+- [ ] **Attaques chronométrées** (Rang 1) — talent, sort n° 704812
+- [ ] **Flammes accablantes** (Passif) — talent, sort n° 704813
+- [ ] **Puissance expéditive** (Passif) — talent, sort n° 704814
+- [ ] **Héritage du Destructeur** (Passif) — talent, sort n° 704815
+- [ ] **Âme du dragon** (Passif) — talent, sort n° 704816
+- [ ] **Fureur de lave** (Passif) — talent, sort n° 704818
+- [ ] **Bénédiction d'Ysera** (Passif) — talent, sort n° 704820
+- [ ] **Regard de Ysera instantané** (Obsolète) — talent, sort n° 704821
+- [ ] **Suppresseur de chaîne de serment** (2) — talent, sort n° 704822
+
+## Incinération
+
+- [ ] **Infernus** (Spécialisation) — capacité, sort n° 92124
+- [ ] **Esprit de feu** (Rang 1) — capacité, sort n° 500167
+- [ ] **Sceau d'Alysrazor** (Rang 1) — capacité, sort n° 800196
+- [ ] **Trait de fusée** (Rang 1) — capacité, sort n° 800790
+- [ ] **Enflammer** (Rang 1) — capacité, sort n° 800791
+- [ ] **Exploser** (Rang 1) — capacité, sort n° 800792
+- [ ] **Barrage de scories** — capacité, sort n° 800794
+- [ ] **Déferlante de flammes** (Déclenchement) — capacité, sort n° 800805
+- [ ] **Brûlure de sort** — capacité, sort n° 800808
+- [ ] **Grésillement** (Passif) — capacité, sort n° 800811
+- [ ] **Flammes du Seigneur du feu** — capacité, sort n° 800819
+- [ ] **Explosion de Sulfuron** — capacité, sort n° 801687
+- [ ] **Chute de flammes** (Rang 1) — capacité, sort n° 801905
+- [ ] **Couronne de flammes** — capacité, sort n° 802068
+- [ ] **Bombe incendiaire** (OBSOLÈTE) — capacité, sort n° 803949
+- [ ] **Éclat de lave** (Rang 1) — capacité, sort n° 803950
+- [ ] **Ruée de cendres** (Passif) — capacité, sort n° 803953
+- [ ] **Pyromancien d'incinération** (Obsolète (stank)) — capacité, sort n° 803954
+- [ ] **Réseau haut-soleil** — capacité, sort n° 804230
+- [ ] **Incantation de flammes** (Passif) — capacité, sort n° 804300
+- [ ] **Chauffé à blanc** (Passif) — capacité, sort n° 804606
+- [ ] **Flammes volcaniques** — capacité, sort n° 804607
+- [ ] **Brûlures au troisième degré** — capacité, sort n° 804616
+- [ ] **Puissance cataclysmique** (Rang 1) — capacité, sort n° 804617
+- [ ] **Fusion de serrure** — capacité, sort n° 804662
+- [ ] **Dévastation** — capacité, sort n° 804814
+- [ ] **Appel de l'ancêtre** (Nain) — capacité, sort n° 804869 🔍 MAJ
+- [ ] **Explosion de force** — capacité, sort n° 804870
+- [ ] **Apocalypse** (Passif) — capacité, sort n° 805376
+- [ ] **Feu de brousse** — capacité, sort n° 805449
+- [ ] **Flammes dansantes** — capacité, sort n° 805451
+- [ ] **Forme du Sacré** (SLS) — capacité, sort n° 805481 🔍 MAJ
+- [ ] **Tempête en fusion** (Passif) — capacité, sort n° 805483
+- [ ] **Pilier de flammes** (Rang 1) — capacité, sort n° 805496
+- [ ] **Brasier** (Rang 1) — capacité, sort n° 805500 🔀 talents
+- [ ] **Marque brûlante** — capacité, sort n° 805502
+- [ ] **Braises ardentes** — capacité, sort n° 805624
+- [ ] **Canon volcanique** (Passif) — capacité, sort n° 806501
+- [ ] **Fonderie de scories** — talent, sort n° 300922
+- [ ] **Démolisseur** (Rang 1) — talent, sort n° 300930
+- [ ] **Sécurité incendie** (Rang 1) — talent, sort n° 300970
+- [ ] **En cendres** (Passif) — talent, sort n° 300975
+- [ ] **Flammes de focalisation** — talent, sort n° 704799
+- [ ] **Vitesse ardente** (Passif) — talent, sort n° 704800
+- [ ] **Vitesse ardente** (Obsolète) — talent, sort n° 704802
+- [ ] **Vitesse ardente** (Obsolète) — talent, sort n° 704803
+- [ ] **Survolté !** — talent, sort n° 704823
+- [ ] **Héritage de Ragnaros** (Passif) — talent, sort n° 704824
+- [ ] **Brûlure rapide** (Rang 2) — talent, sort n° 704826
+- [ ] **Brûlure rapide** (Obsolète) — talent, sort n° 704827
+
+## Classe
+
+- [ ] **Tranchant du dragon** (Spécialisation) — capacité, sort n° 300755
+- [ ] **Point de fusion** (Passif) — capacité, sort n° 300757
+- [ ] **Élève de la flamme** (Passif) — capacité, sort n° 300758
+- [ ] **Flammes vives** (Rang 1) — capacité, sort n° 300759
+- [ ] **Roussi** (Spécialisation) — capacité, sort n° 704801
+- [ ] **Piste brûlante** (Passif) — capacité, sort n° 704825
+- [ ] **Pyromancie** (Passif) — capacité, sort n° 704831
+- [ ] **Esprit ardent** — capacité, sort n° 704840
+- [ ] **Bandages brûlants** — capacité, sort n° 704841
+- [ ] **Peau de magma** — capacité, sort n° 704844
+- [ ] **Explosif** (Rang 1) — capacité, sort n° 704845
+- [ ] **Marque de gril** — capacité, sort n° 704846
+- [ ] **Feu et soufre** (Passif) — capacité, sort n° 704849
+- [ ] **Inextinguible** — capacité, sort n° 704850
+- [ ] **Maîtrise des flammes** (Obsolète) — capacité de talent, sort n° 300750
+- [ ] **Maîtrise des flammes** (Passif) — capacité de talent, sort n° 704828
+- [ ] **Désastre** (Passif) — capacité de talent, sort n° 704829
+- [ ] **Désastre** — capacité de talent, sort n° 704830
+- [ ] **Explosif** (Passif) — capacité de talent, sort n° 704833
+- [ ] **Explosif** (Obsolète) — capacité de talent, sort n° 704834
+- [ ] **Explosif** (Obsolète) — capacité de talent, sort n° 704835
+- [ ] **Royaume du feu** (Passif) — capacité de talent, sort n° 704837
+- [ ] **Royaume du feu** (Rang 2) — capacité de talent, sort n° 704838
+- [ ] **Rapacité en fusion** (Passif) — capacité de talent, sort n° 704842
+- [ ] **Rapacité en fusion** (Rang 2) — capacité de talent, sort n° 704843
+- [ ] **Flammes d'exécution** (Passif) — capacité de talent, sort n° 706238
+- [ ] **Gardeterre** (Passif) — capacité de talent, sort n° 706239

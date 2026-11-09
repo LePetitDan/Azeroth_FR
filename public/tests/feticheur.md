@@ -1,0 +1,220 @@
+# Fiche de test : Féticheur
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Brassage
+
+- [ ] **Brasseur au chaudron** (Spécialisation) — capacité, sort n° 92085 🔀 talents
+- [ ] **Écrits d'Aurat** (Surcharge de bourrasque) — capacité, sort n° 500019
+- [ ] **Rayon de mojo** (Rang 1) — capacité, sort n° 500950 🔍 MAJ
+- [ ] **Amphibimorphose** — capacité, sort n° 500952
+- [ ] **Base : Eau cristalline** — capacité, sort n° 500962
+- [ ] **Barrière drakkari** (Rang 1) — capacité, sort n° 500963
+- [ ] **Maître brasseur** (Rang 1) — capacité, sort n° 704512
+- [ ] **Wuju ingénieux supérieur** — capacité, sort n° 800195 🔍 MAJ
+- [ ] **Ingrédient : champignons de la jungle** — capacité, sort n° 801660 🔀 talents
+- [ ] **Lancer de potion** (Rang 1) — capacité, sort n° 801661
+- [ ] **Ingrédient : huile de poisson** — capacité, sort n° 801662
+- [ ] **Ingrédient : os de grenouille** — capacité, sort n° 801663
+- [ ] **Ingrédient : chardon sanglant** — capacité, sort n° 801664
+- [ ] **Revitaliser** (Rank 1 DEPRECATED) — capacité, sort n° 801667 🔀 talents
+- [ ] **Breuvage du loa** (Rang 1) — capacité, sort n° 801670 🔍 MAJ 🔀 talents
+- [ ] **Breuvage des Arcanes** — capacité, sort n° 801689
+- [ ] **Maître des concoctions** (Passif) — capacité, sort n° 801690
+- [ ] **Esprit en bouteille** (Rang 1) — capacité, sort n° 801696
+- [ ] **Danse des loas** — capacité, sort n° 801697
+- [ ] **Maître brasseur** (Passif) — capacité, sort n° 802218
+- [ ] **Éclaboussez-les** (Passif) — capacité, sort n° 802219
+- [ ] **Élixir panacée** — capacité, sort n° 804049
+- [ ] **Idole de célérité** — capacité, sort n° 804226
+- [ ] **Chaudron vaudou** — capacité, sort n° 804684
+- [ ] **Fièvre de la jungle** — capacité, sort n° 804767
+- [ ] **Juju apaisant** (Rang 1) — capacité, sort n° 806130
+- [ ] **Rupture de sort** — capacité, sort n° 806240 🔀 talents
+- [ ] **Huile de serpent** (Passif) — capacité, sort n° 806271
+- [ ] **Rétrécir un allié** — capacité, sort n° 806282
+- [ ] **Disciple de Sseratus** (Passif) — talent, sort n° 300660
+- [ ] **Éclaboussure de breuvage** (Passif) — talent, sort n° 300661
+- [ ] **Bénédiction du loa** (Spécialisation) — talent, sort n° 705848 🔍 MAJ
+- [ ] **Héritage de Zandalar** (Rang 2) — talent, sort n° 705849
+- [ ] **Mojo : Arêtes de poisson** — talent, sort n° 705850 🔍 MAJ
+- [ ] **Mojo : Champignons-grenouilles** — talent, sort n° 705851 🔍 MAJ
+- [ ] **Revitalisation améliorée** (Rang 2) — talent, sort n° 705852
+- [ ] **La vraie danse vaudou** (Passif) — talent, sort n° 705853
+- [ ] **Vaudou rapide** (Passif) — talent, sort n° 705854
+- [ ] **Ingrédients frais** (Rang 1) — talent, sort n° 705855
+- [ ] **Ingrédients frais** (Rang 1) — talent, sort n° 705856
+- [ ] **Ingrédients frais** (Deprecated) — talent, sort n° 705857
+- [ ] **Explosions de la jungle** (Passif) — talent, sort n° 705859
+- [ ] **Guérisseur** (Passif) — talent, sort n° 705860
+- [ ] **Guérisseur** (Rang 2) — talent, sort n° 705861
+- [ ] **Lanceur de potions** (Passif) — talent, sort n° 705862
+- [ ] **Disciple de Sen'jin** (Passif) — talent, sort n° 705863
+- [ ] **Maître mixologue** — talent, sort n° 705864
+- [ ] **Régénérateur** (Passif) — talent, sort n° 705865
+- [ ] **Lanceur de breuvages** (Passif) — talent, sort n° 705868
+- [ ] **Véritable breuvage** (Passif) — talent, sort n° 705869
+- [ ] **Base : Sang de bête** — talent, sort n° 705870
+
+## Chasse des ombres
+
+- [ ] **Baguettes** — capacité, sort n° 5009
+- [ ] **Armes de pugilat** — capacité, sort n° 15590
+- [ ] **Chasseur des ombres** (Spécialisation) — capacité, sort n° 92086
+- [ ] **Fils du marionnettiste** (Passif de spécialisation) — capacité, sort n° 500052
+- [ ] **Éclaboussure tiki** (Passif) — capacité, sort n° 500053
+- [ ] **Docteur des maléfices** (Passif de spécialisation) — capacité, sort n° 500054
+- [ ] **Gardien guérisseur** — capacité, sort n° 500957 🔍 MAJ
+- [ ] **Garde serpent** — capacité, sort n° 500960 🔍 MAJ
+- [ ] **Idole spirituelle** — capacité, sort n° 500961
+- [ ] **Censure** — capacité, sort n° 801581
+- [ ] **Censure** (Propagateur) — capacité, sort n° 801582
+- [ ] **Lier l'avatar** — capacité, sort n° 801583
+- [ ] **Appel d'avatar : stégodon** — capacité, sort n° 801584
+- [ ] **Appel d'avatar : diablosaure** — capacité, sort n° 801585
+- [ ] **Incantation de la Main d'argent** (Retrait des entraves) — capacité, sort n° 801586
+- [ ] **Éclipse spirituelle** (Rang 1) — capacité, sort n° 801607
+- [ ] **Appel d'avatar : pterreurdactyle** — capacité, sort n° 801609
+- [ ] **Frappe maléficieuse** — capacité, sort n° 801668
+- [ ] **Rage de Bethekk** (Rang 1) — capacité, sort n° 801672
+- [ ] **Flèche maléfique** (Rang 1) — capacité, sort n° 801674
+- [ ] **Gardien de stase** — capacité, sort n° 801678 🔍 MAJ
+- [ ] **Pas de la panthère** — capacité, sort n° 801680
+- [ ] **Dévotion de Bwonsamdi** — capacité, sort n° 801685 🔍 MAJ
+- [ ] **Maléfice de léthargie** — capacité, sort n° 802065 🔀 talents
+- [ ] **Lame maléfique** — capacité, sort n° 802093
+- [ ] **Feu vaudou** (Rang 1) — capacité, sort n° 802262
+- [ ] **Élu de Hakkar** (Passif) — capacité, sort n° 802263
+- [ ] **Rage de Dambala** — capacité, sort n° 802264
+- [ ] **Le véritable esprit** (Passif) — capacité, sort n° 802268
+- [ ] **Score de toucher (Alpha)** — capacité, sort n° 804280
+- [ ] **Chasse des ombres** — capacité, sort n° 804579
+- [ ] **Esprits loas** (Rang 1) — capacité, sort n° 804620
+- [ ] **Fureur de Bethekk** — capacité, sort n° 804621
+- [ ] **Frappeur spirituel** (Passif) — capacité, sort n° 806286
+- [ ] **Récupération** (Rang 1) — capacité, sort n° 806288
+- [ ] **Glaive spirituel** (Rang 1) — capacité, sort n° 806289 🔀 talents
+- [ ] **Choc spirituel** (Obsolète) — capacité, sort n° 806294
+- [ ] **Bénédiction de Gonk** (Passif) — capacité, sort n° 806469
+- [ ] **Conclure un marché** — capacité, sort n° 806474
+- [ ] **Enchantements d'ombre** (Rang 1) — talent, sort n° 300662
+- [ ] **Volonté du serpent** (Passif) — talent, sort n° 300663
+- [ ] **Héritage de Vol'jin** (Passif) — talent, sort n° 705924
+- [ ] **Berserker** (Passif) — talent, sort n° 705925
+- [ ] **Poison des Dardelance** — talent, sort n° 705927
+- [ ] **Ruse du serpent** (Passif) — talent, sort n° 705928
+- [ ] **Ruse du serpent** (Dégâts) — talent, sort n° 705929
+- [ ] **Enclos à raptors** (Passif) — talent, sort n° 705930
+- [ ] **Enclos à raptors** (Obsolète) — talent, sort n° 705931
+- [ ] **Enclos à raptors** (Deprecated) — talent, sort n° 705932
+- [ ] **Maîtrise du raptor** (Passif) — talent, sort n° 705933
+- [ ] **Faveur de Gonk** (Passif) — talent, sort n° 705934
+- [ ] **Force du loa** (Rang 1) — talent, sort n° 705936
+- [ ] **Force du loa** (Rang 2) — talent, sort n° 705937
+- [ ] **Dresseur de serpents** (Passif) — talent, sort n° 705939
+- [ ] **Armes maudites** (Passif) — talent, sort n° 705940
+- [ ] **Fidèle des esprits** — talent, sort n° 705941
+- [ ] **Faim vaudoue** (Passif) — talent, sort n° 705942
+- [ ] **Avatar de l'ombre** — talent, sort n° 705943 🔀 talents
+- [ ] **Serres de panthère** (Passif) — talent, sort n° 705944
+- [ ] **Synergie primordiale** (Passif) — talent, sort n° 705946
+- [ ] **Un prix à payer** (Passif) — talent, sort n° 705948
+
+## Vaudou
+
+- [ ] **Fils du marionnettiste** (Spécialisation) — capacité, sort n° 92084
+- [ ] **Protection vaudou** — capacité, sort n° 500013 🔍 MAJ
+- [ ] **Combattant sacré** (Déclencheur) — capacité, sort n° 500014
+- [ ] **Marionnettes d'ombre** (Rang 1) — capacité, sort n° 500015 🔍 MAJ
+- [ ] **Templier** (Passif caché) — capacité, sort n° 500016
+- [ ] **Reptation** — capacité, sort n° 500947
+- [ ] **Maléfice de léthargie** (OBSOLÈTE) — capacité, sort n° 500953
+- [ ] **Maléfiplosion** (Passif) — capacité, sort n° 704495
+- [ ] **Marionnette d'âme** — capacité, sort n° 704497
+- [ ] **Nuit envahissante** (Passif) — capacité, sort n° 704498
+- [ ] **Adepte du feu maléfique** (Spécialisation) — capacité, sort n° 704500
+- [ ] **Vaudou rampant** (Passif) — capacité, sort n° 704501
+- [ ] **Malfaisant** (Passif) — capacité, sort n° 704503
+- [ ] **Malveillance prolongée** (Passif) — capacité, sort n° 704505
+- [ ] **Visions vaudoues** (Spécialisation) — capacité, sort n° 704509
+- [ ] **Puissance de Quetz'lun** — capacité, sort n° 704510
+- [ ] **Esprits vaudous** (Passif) — capacité, sort n° 704511
+- [ ] **Golem de guerre** — capacité, sort n° 800330
+- [ ] **Grand méchant vaudou** — capacité, sort n° 801665
+- [ ] **Éruption d'ombre** (Rang 1) — capacité, sort n° 801669
+- [ ] **Maléfice de la nuit** (Rang 1 OBSOLÈTE) — capacité, sort n° 801691
+- [ ] **Maléfice de malveillance** (Rang 1) — capacité, sort n° 801693 🔍 MAJ 🔀 talents
+- [ ] **Breuvage de mort** (UNUSED) — capacité, sort n° 801695
+- [ ] **Voix de Bwonsamdi** — capacité, sort n° 801716 🔀 talents
+- [ ] **Récupération d'âme** (Rang 1) — capacité, sort n° 801796
+- [ ] **Maléfice de mana** — capacité, sort n° 801925
+- [ ] **Mauvais juju** (Rang 1) — capacité, sort n° 802087
+- [ ] **Marché de Bwonsamdi** (Rank 1 DEPRECATED) — capacité, sort n° 802089
+- [ ] **L'Autre Côté** (Passif) — capacité, sort n° 802092
+- [ ] **Voile des ténèbres** — capacité, sort n° 802100
+- [ ] **Mes dieux sont éternels** (Passif) — capacité, sort n° 802267
+- [ ] **Guignes améliorées** (Rang 1) — capacité, sort n° 804719
+- [ ] **Effigie sombre** — capacité, sort n° 805361
+- [ ] **Malédiction latente** (Passif) — capacité, sort n° 806283
+- [ ] **Mauvais sort rétrécissant** (Rang 1) — capacité, sort n° 806285 🔀 talents
+- [ ] **Bâton du sabbat** (Rang 1) — capacité, sort n° 806563
+- [ ] **Maléfices rituels** (Rang 1) — talent, sort n° 705840
+- [ ] **Maléfices rituels** (Rang 2) — talent, sort n° 705841
+- [ ] **Guignes améliorées** (Rang 2) — talent, sort n° 705842
+- [ ] **Esprits loas** (Spécialisation) — talent, sort n° 705843
+- [ ] **Juju débordant** (Spécialisation) — talent, sort n° 705844
+- [ ] **Juju débordant** — talent, sort n° 705845
+- [ ] **Golems malveillants** (Passif) — talent, sort n° 705912
+- [ ] **Bannières de l'empire** (Passif) — talent, sort n° 705914
+- [ ] **Esprits rebelles** (Passif) — talent, sort n° 705915
+- [ ] **Le prix du pouvoir** (Passif) — talent, sort n° 705916
+- [ ] **Esprit creux** (Passif) — talent, sort n° 705917
+- [ ] **Maléfices puissants** (Obsolète) — talent, sort n° 705918
+- [ ] **Agonie** (Passif) — talent, sort n° 705919
+- [ ] **Malédictions accélérées** (Passif) — talent, sort n° 705920
+- [ ] **Renforcement alchimique** (Passif) — talent, sort n° 705921
+- [ ] **Magie noire** (Passif) — talent, sort n° 705922
+- [ ] **Magie noire** (Rang 2) — talent, sort n° 705923
+
+## Classe
+
+- [ ] **Choc spirituel amélioré** (Passif) — capacité, sort n° 705874
+- [ ] **Lie-mort** (Passif) — capacité, sort n° 705881
+- [ ] **Fantôme de Bwonsamdi** (Passif) — capacité, sort n° 705886
+- [ ] **Frappé depuis les ombres** (Passif) — capacité, sort n° 705891
+- [ ] **Bourse d'herbes** (Rang 1) — capacité, sort n° 705893
+- [ ] **Dévoreur d'âmes** (Passif) — capacité, sort n° 705894
+- [ ] **Guidance de Lukou** (Passif) — capacité, sort n° 705896 🔍 MAJ
+- [ ] **Esprits piégés** (Passif) — capacité, sort n° 705897
+- [ ] **Vaudou déchaîné** (Passif) — capacité, sort n° 705901
+- [ ] **Malveillance de Zalazane** (Passif) — capacité, sort n° 705902
+- [ ] **Entièrement dévoué** (Passif) — capacité, sort n° 705905
+- [ ] **Pour les loas !** (Passif) — capacité, sort n° 705906
+- [ ] **Communion avec les loas** (Passif) — capacité, sort n° 705907
+- [ ] **Mouvements améliorés** (Passif) — capacité, sort n° 705908
+- [ ] **Valse manchote** (Passif) — capacité, sort n° 705909
+- [ ] **Fils vaudous** (Passif) — capacité, sort n° 705910
+- [ ] **Traditions spirituelles** (Passif) — capacité, sort n° 705911
+- [ ] **Breuvages vivifiants** (Rang 1) — capacité, sort n° 706248
+- [ ] **Folie mojo** (Passif) — capacité de talent, sort n° 705871
+- [ ] **Bénédiction de Vol'jin** (Obsolète) — capacité de talent, sort n° 705872
+- [ ] **Juju** (Rang 3) — capacité de talent, sort n° 705873
+- [ ] **Mauvais mojo** (Passif) — capacité de talent, sort n° 705875
+- [ ] **Poison de scarabée** (Passif) — capacité de talent, sort n° 705876
+- [ ] **Style de Strangleronce** (Passif) — capacité de talent, sort n° 705877
+- [ ] **Style de Strangleronce** (Rang 2) — capacité de talent, sort n° 705878
+- [ ] **Garde-serpent améliorée** (Obsolète) — capacité de talent, sort n° 705879
+- [ ] **Chercheur** (Passif) — capacité de talent, sort n° 705880
+- [ ] **Tranchant de Bwonsamdi** (Passif) — capacité de talent, sort n° 705884
+- [ ] **Reprise de vie améliorée** (Obsolète) — capacité de talent, sort n° 705885
+- [ ] **Tazdingo, mon !** (Obsolète) — capacité de talent, sort n° 705887
+- [ ] **Éclat de juju amélioré** (Rang 2) — capacité de talent, sort n° 705888
+- [ ] **Tisseur de sorts** (Rang 1) — capacité de talent, sort n° 705889
+- [ ] **Tisseur de sorts** (Rang 2) — capacité de talent, sort n° 705890
+- [ ] **Hâté** (Passif) — capacité de talent, sort n° 705899
+- [ ] **Gardes accélérées** (obsolète) — capacité de talent, sort n° 705900
+- [ ] **Ratatiné** (Rang 1) — capacité de talent, sort n° 705903
+- [ ] **Ratatiné** (Rang 2) — capacité de talent, sort n° 705904

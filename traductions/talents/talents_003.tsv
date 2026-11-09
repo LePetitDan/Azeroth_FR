@@ -29,7 +29,7 @@ sort	300581		Description	b84569b2b997	Vos attaques automatiques en mêlée ont d
 sort	300581		Name	29e6cbcd52b8	Sources de tellurium	lot talents_003
 sort	300582		Description	8124db86c5c5	Infliger des dégâts avec |cffffffffDéflagration primordiale|r réduit désormais l'armure de la cible touchée de $520555s1% pendant $520555d. Cumulable $520555u fois.	lot talents_003
 sort	300582		Name	41da93251dc1	Gravures magiques	lot talents_003
-sort	300584		Description	6781eb4fa0ef	Chaque arme enchantée par |cffffffffGravure d'arme : Terre|r réduit désormais le temps de recharge de |cffffffffPulsation primordiale|r de $/1000;s1 sec. et augmente ses dégâts de $s2%.	lot talents_003
+sort	300584		Description	6781eb4fa0ef	Chaque arme enchantée par |cffffffffGravure d'arme : Terre|r réduit désormais le temps de recharge de |cffffffffPulsation primordiale|r de $/1000;s1 sec. et augmente ses dégâts de $s2%.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Terre » avec majuscule, comme le nom français fourni (Gravure d'arme : Terre).
 sort	300584		Name	133fa777fe71	Pulsations explosives	lot talents_003
 sort	300585		Description	d253d3212eff	Augmente de $s2% les dégâts d'|cffffffffÉclair de sang|r, plus $s2% supplémentaires tant que vous avez moins de 35% de vos points de vie.	lot talents_003
 sort	300585		Name	0a717710a59c	Endurant	lot talents_003
@@ -45,17 +45,17 @@ sort	300597		Description	3c6b10384383	Votre |cffffffffFourche d'éclairs|r affec
 sort	300597		Name	997b47dee59e	Fourche d'éclairs améliorée	lot talents_003
 sort	300606		Description	cfd4b1e12362	Augmente vos chances de coup critique de $s2% et réduit de $s1% la durée des effets d'interruption et de silence qui vous affectent.	lot talents_003
 sort	300606		Name	eec5bc78753b	Tome de la foudre	lot talents_003
-sort	300607		Description	4c3917a23cac	Votre |cffffffffFrappe titanesque|r vous rend désormais deux fois les dégâts infligés en points de vie.	lot talents_003
+sort	300607		Description	4c3917a23cac	Votre |cffffffffFrappe titanesque|r vous rend désormais deux fois les dégâts infligés en points de vie.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (Frappe titanesque).
 sort	300607		Name	4ac46c1c5163	Chute des titans	lot talents_003
 sort	300609		Description	ef13daca17d0	Les dégâts infligés par |cffffffffFourche d'éclairs|r ont désormais $h% de chances de propager un |cffffffffVolt|r actif de votre cible à chaque ennemi touché.\r\n\r\nLes chances augmentent selon votre niveau de |cffcc99ffStatique|r.	lot talents_003
 sort	300609		Name	4377d6d230bb	Paratonnerre	lot talents_003
-sort	300610		Description	f94762856e7f	Tant qu'ils sont immobilisés par |cffffffffŒil du cyclone|r, les ennemis affectés subissent désormais $s1% de dégâts supplémentaires de votre part.	lot talents_003
+sort	300610		Description	f94762856e7f	Tant qu'ils sont immobilisés par |cffffffffL'Œil du cyclone|r, les ennemis affectés subissent désormais $s1% de dégâts supplémentaires de votre part.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom officiel/de sort cité : « L'Œil du cyclone ».
 sort	300610		Name	63874bd965fd	Foudroyeur	lot talents_003
-sort	300611		Description	d45ba3880e1f	Réduit de $s1% le temps de recharge et le coût en mana d'|cffffffffŒil du cyclone|r.	lot talents_003
+sort	300611		Description	d45ba3880e1f	Réduit de $s1% le temps de recharge et le coût en mana de |cffffffffL'Œil du cyclone|r.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort fourni « L'Œil du cyclone » ; « d'|cff…Oeil » était mal formé et sans ligature.
 sort	300611		Name	4a03cdd7214e	Mande-tempête	lot talents_003
-sort	300612		Description	26f8c4219123	Infliger des dégâts directs avec un sort a désormais $h% de chances de réduire de $300915s1% le temps d'incantation de votre prochain sort $?s707615|s560020[][|cFFFFFFFFAppel d'éclair|r]$?s707615[|cFFFFFFFFDéflagration aérienne|r][]$?s560020[|cFFFFFFFFCourroux torrentiel|r][] pendant $300915d. Cumulable $300915u fois.	lot talents_003
+sort	300612		Description	26f8c4219123	Infliger des dégâts directs avec un sort a désormais $h% de chances de réduire de $300915s1% le temps d'incantation de votre prochain sort $?s707615|s560020[][|cFFFFFFFFAppel de la foudre|r]$?s707615[|cFFFFFFFFAéroblast|r][]$?s560020[|cFFFFFFFFCourroux torrentiel|r][] pendant $300915d. Cumulable $300915u fois.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Appel de la foudre » et non « Appel d'éclair ».
 sort	300612		Name	b90755e601ef	Chasseur de tempêtes	lot talents_003
-sort	300615		Description	d45ba3880e1f	Réduit de $s1% le temps de recharge et le coût en mana d'|cffffffffŒil du cyclone|r.	lot talents_003
+sort	300615		Description	d45ba3880e1f	Réduit de $s1% le temps de recharge et le coût en mana de |cffffffffL'Œil du cyclone|r.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni (« L'Œil du cyclone »).
 sort	300615		Name	4a03cdd7214e	Mande-tempête	lot talents_003
 sort	300616		Description	f981e861924c	Augmente les dégâts critiques de vos sorts de $s1%.	lot talents_003
 sort	300616		Name	fbf25635ddf4	Force hydraulique	lot talents_003
@@ -67,17 +67,17 @@ sort	300636		Description	5f4fbe2b0f48	|cffffffffUsine à bombes araignées|r inv
 sort	300636		Name	86ec06bcec6f	Inventeur explosif	lot talents_003
 sort	300653		Description	6983bd7b26d3	Réduit le temps de recharge de |cffffffffZap !|r de $/1000;s1 sec.	lot talents_003
 sort	300653		Name	51a58b424660	Faites confiance à la science !	lot talents_003
-sort	300660		Description	c4e0cc7bdd07	Augmente de $s1% le bonus de soins appliqué à |cffffffffBreuvage du loa|r et à |cFFFFFFFFEsprit en bouteille|r. \r\n\r\nDe plus, votre |cFFFFFFFFBrise-maléfice|r affecte un allié proche supplémentaire et son temps de recharge global est réduit de 0,5 s.	lot talents_003
+sort	300660		Description	c4e0cc7bdd07	Augmente de $s1% le bonus de soins appliqué à |cffffffffBreuvage du loa|r et à |cFFFFFFFFEsprit en bouteille|r. \r\n\r\nDe plus, votre |cFFFFFFFFBrise-maléfice|r affecte un allié proche supplémentaire et son temps de recharge global est réduit de 0,5 s.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni : « Rupture de sort » au lieu de « Brise-maléfice ».
 sort	300660		Name	c77319e5ccbb	Disciple de Sseratus	lot talents_003
 sort	300662		Description	673cd0e21359	Augmente de $s1% la durée et l'efficacité de vos |cffffffffGuignes|r.	lot talents_003
 sort	300662		Name	1d66d3e28f00	Enchantements d'ombre	lot talents_003
-sort	300663		Description	141b352058a1	Votre |cffffffffGuigne de léthargie|r augmente désormais de $s1% vos chances de coup critique contre la cible.	lot talents_003
+sort	300663		Description	141b352058a1	Votre |cffffffffMaléfice de léthargie|r augmente désormais de $s1% vos chances de coup critique contre la cible.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité différent du nom français fourni : « Guigne de léthargie » au lieu de « Maléfice de léthargie ».
 sort	300663		Name	c879ee9b3439	Volonté du serpent	lot talents_003
 sort	300664		Description	b4e594ea6cdd	Augmente votre Intelligence et votre Agilité de $s1%.	lot talents_003
 sort	300664		Name	19bf1580baad	Sens aiguisés	lot talents_003
 sort	300665		Description	b4e594ea6cdd	Augmente votre Intelligence et votre Agilité de $s1%.	lot talents_003
 sort	300665		Name	19bf1580baad	Sens aiguisés	lot talents_003
-sort	300678		Description	f9ff42d91dc3	Les effets périodiques de |cffffffffFond-visage|r sont désormais $s2% plus rapides et sa durée est augmentée de $/1000;s1 sec.	lot talents_003
+sort	300678		Description	f9ff42d91dc3	|cffffffffFond-visage|r pulse désormais $s2% plus vite et sa durée est augmentée de $/1000;s1 sec.	lot talents_003 | relu par l'API (relecture 0.9.5) : Formulation plus claire et plus directe : « les effets périodiques ... sont plus rapides » est lourd et ambigu ; « pulse plus vite » rend fidèlement « ticks faster » et reste cohérent avec le n° 16.
 sort	300678		Name	5260a901b653	Séance de Shadra	lot talents_003
 sort	300680		Description	d95d387e2e71	Lancer |cFFFFFFFFEndurcissement|r supprime désormais |cff66ff66Chair à vif|r. 	lot talents_003
 sort	300682		Description	965f570b68ae	Augmente de $s1% les dégâts de |cffffffffVenin de flétrissure|r.	lot talents_003
@@ -101,7 +101,7 @@ sort	300697		Name	97540eeaa3c5	Écraser la terre	lot talents_003
 sort	300698		Description	62169349c97d	Augmente de $s2% les dégâts infligés par les techniques |cffffffffsismiques|r et permet à leurs dégâts périodiques d'être critiques.	lot talents_003
 sort	300698		Name	7264ddcbade0	Trembleterre	lot talents_003
 sort	300700		Description	8a537a5b6cc5	Augmente de $s1 mètres la portée de vos techniques à distance et de |cffffffffTir automatique|r.	lot talents_003
-sort	300706		Description	d9f6d6b0a4a7	Augmente de $s1% les dégâts d'arme à distance infligés par |cffffffffTir réflexe|r.	lot talents_003
+sort	300706		Description	d9f6d6b0a4a7	Augmente de $s1% les dégâts d'arme à distance infligés par |cffffffffTir rapide|r.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Tir rapide » et non « Tir réflexe ».
 sort	300706		Name	3f371aff969b	Flèches cloutées	lot talents_003
 sort	300706		ToolTip	ae8c2b656463	Les dégâts physiques directs de vos techniques ont désormais $h% de chances de permettre d'utiliser |cffffffffAttaque de flanc|r hors de |cffffffffDérobade|r, et lui font frapper jusqu'à $524660s1 cibles.	lot talents_003
 sort	300723		Description	848b1a7591b4	|cFF66DDFFPassif de niveau 30|r\r\nAugmente de $s3% les dégâts de vos sorts du Sacré et de Feu, et augmente votre score de toucher des sorts d'un montant égal à $s1% de votre Intelligence.	lot talents_003
@@ -127,7 +127,7 @@ sort	300744		Description	7fb883442d24	Traverser des alliés avec |cffffffffRuée
 sort	300744		Name	6fe3b8a80040	Course instinctive	lot talents_003
 sort	300748		Description	4c3f8e785168	Augmente de $s1% votre maximum de points de vie et celui de vos invocations.	lot talents_003
 sort	300748		Name	24149ff14398	Hordes massives	lot talents_003
-sort	300751		Description	802a291a82db	Chaque |cffff7f7fBraise|r active réduit désormais de $s1% le temps d'incantation de |cffffffffExploser|r.	lot talents_003
+sort	300751		Description	802a291a82db	Chaque |cffff7f7fBraise|r active réduit désormais de $s1% le temps d'incantation de |cffffffffExplosion|r.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Explosion », pas « Exploser ».
 sort	300751		Name	4bc7268c5cf2	Puissance résiduelle	lot talents_003
 sort	300751		ToolTip	42d766fe84ad	|cffffffffSouffle d'Ysera|r augmente désormais de $504487s1% tous les dégâts de Feu subis par la cible pendant $504487d.	lot talents_003
 sort	300753		Description	e27084a6e132	Tant que |cffffffffHéraut des profondeurs|r est actif, le temps de recharge de votre |cffffffffRituel interdit|r s'écoule plus vite.	lot talents_003
@@ -201,7 +201,7 @@ sort	300932		Description	bf9a3840de00	Les soins effectifs prodigués par votre |
 sort	300932		Name	245ef6fab6c4	Rage de Lucifron	lot talents_003
 sort	300940		Description	c6e669fc076e	Lancer des sorts de |cff90ee90Commandement|r a désormais $h% de chances de réinitialiser le temps de recharge de |cffffffffBarrage de glace|r et de rendre instantané votre prochain sort lancé dans les $800979d.	lot talents_003
 sort	300940		Name	b0c9daefa25b	Froid revigorant	lot talents_003
-sort	300941		Description	47531b61b654	Augmente de $/1000;s1 sec. la durée de |cffffffffFrénésie impie|r, et lancer des sorts de |cff90ee90Commandement|r réduit désormais son temps de recharge de $/1000;301238s1 sec.	lot talents_003
+sort	300941		Description	47531b61b654	Augmente de $/1000;s1 sec la durée de |cffffffffFrénésie impie|r, et lancer des sorts de |cff90ee90Commandement|r réduit désormais son temps de recharge de $/1000;301238s1 sec.	lot talents_003 | relu par l'API (relecture 0.9.5) : « sec. » avec point en trop devant la virgule ; forme officielle « sec ».
 sort	300941		Name	8307524e48fa	Façonnage de chair	lot talents_003
 sort	300943		Description	8623869952dc	|cFF66DDFFPassif de niveau 40|r\r\nAugmente de $s2% vos dégâts critiques infligés, et vos coups critiques confèrent |cffffffffRequinquage|r aux alliés.@s:1257670:0@	lot talents_003
 sort	300943		Name	41e9f9865a1e	Pieux	lot talents_003
@@ -262,7 +262,7 @@ sort	300992		Name	a796e9cb0c48	Nébuleuse	lot talents_003
 sort	300994		Description	73b0858335dc	Réduit de $s1 le coût en énergie de |cffffffffFrappe céleste|r et de |cffffffffFlèche lunaire|r.	lot talents_003
 sort	300994		Name	a64357b34557	Projection astrale	lot talents_003
 sort	300994		ToolTip	3b2105a1b8de	Confère à vos attaques automatiques en mêlée et à distance $h% de chances d'appliquer des |cff66ccffÉtoiles éparpillées|r.@s:804378@	lot talents_003
-sort	300995		Description	0353e308f3ce	Augmente de $s1% le bonus de soins appliqué à |cFFFFFFFFÉclaboussure de puits de lune|r et à |cFFFFFFFFFlot d'argent|r, ainsi que les soins prodigués par |cFFFFFFFFAspect de la déesse|r.	lot talents_003
+sort	300995		Description	0353e308f3ce	Augmente de $s1% le bonus de soins appliqué à |cFFFFFFFFÉclaboussure de puits de lune|r et à |cFFFFFFFFFlot d'argent|r, ainsi que les soins prodigués par |cFFFFFFFFAspect de la déesse|r.	lot talents_003 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Silverstream = Flot d'argent, et non « Ruisseau d'argent ».
 sort	300995		Name	b84eb7387b92	Guide des phases	lot talents_003
 sort	301008		Description	02893cbed5f5	Augmente la durée de |cffffffffSuppression psychique|r de $/1000;s1 sec. et celle de |cffffffffDévastation surnaturelle|r de $/1000;s2 sec.	lot talents_003
 sort	301008		Name	a2654d6b3c61	Canalisateur ténébreux	lot talents_003

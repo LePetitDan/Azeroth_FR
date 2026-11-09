@@ -144,7 +144,7 @@ sort	29609		Description	8165fc7c5d1c	Donne $s2 points de mana à la cible mais l
 sort	29609		ToolTip	70845194859c	Dégâts égaux à $s1% des points de vie maximum infligés toutes les $t1 sec.	lot sorts_standard_019
 sort	29612		Description	05881f8c9b93	Augmente de $s1% la vitesse d'attaque d'un allié proche pendant $d. La cible est épuisée à la fin de l'effet.	lot sorts_standard_019
 sort	29618		Description	333f632c768f	Inflige $s1 points de dégâts de Feu à un ennemi et augmente de $s2% les dégâts de Feu qu'il subit pendant $d. Cumulable jusqu'à 10 fois.	lot sorts_standard_019
-sort	29623		Description	547c80d799b9	Vous générez $829623s1% de rage supplémentaires lorsque vous infligez des dégâts.\n\nCet effet n'est actif que lorsque vous maniez une seule arme à deux mains. @ext:(Does not work with Titan's Grip.):ext@	lot sorts_standard_019
+sort	29623		Description	547c80d799b9	Vous générez $829623s1% de rage supplémentaire lorsque vous infligez des dégâts.\n\nCet effet n'est actif que lorsque vous maniez une seule arme à deux mains. @ext:(Ne fonctionne pas avec Poigne des titans.):ext@	lot sorts_standard_019 | relu par l'API (relecture 0.9.5) : Accord : « de rage supplémentaire » (rage est un nom non dénombrable ici).
 sort	29623		Name	d80081806da4	Maîtrise des armes à deux mains	lot sorts_standard_019
 sort	29650		Description	c044a220e8a5	La cible est épuisée, ce qui réduit sa vitesse d'attaque de $s1% pendant $d.	lot sorts_standard_019
 sort	29650		ToolTip	8173ba4439f2	Vitesse d'attaque réduite de $s1%.	lot sorts_standard_019

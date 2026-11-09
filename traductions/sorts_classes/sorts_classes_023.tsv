@@ -1,5 +1,5 @@
 type	id	sous_id	champ	en_empreinte	fr	note
-sort	805802		Description	cb966d07c4c6	Votre prochaine occurrence de dégâts directs infligés à une cible lui inflige |cfffffffFCarnage|r pendant $806950d.\r\n@s:806950:0@	lot sorts_classes_023
+sort	805802		Description	cb966d07c4c6	Les prochains dégâts directs que vous infligez à une cible lui infligent |cfffffffFCarnage|r pendant $806950d.\r\n@s:806950:0@	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : « occurrence de dégâts... lui inflige » est maladroit et ambigu : la cible reçoit Carnage.
 sort	805802		Name	514594934b5a	Carnage	lot sorts_classes_023
 sort	805802		ToolTip	300a1e28e4c7	Inflige Carnage au prochain ennemi à qui vous infligez des dégâts directs.	lot sorts_classes_023
 sort	805803		Description	cd39b58b33b9	|cffffffffBalayage brutal|r et |cffffffffSavage Smash|r augmentent de $560443s1% les dégâts de votre prochain |cffffffffDestructeur|r pendant $560443d.	lot sorts_classes_023
@@ -54,7 +54,7 @@ sort	806082		Name	7e6f498ee12c	Expériences parasitaires	lot sorts_classes_023
 sort	806082		ToolTip	8c4e10a0cf7f	Les dégâts périodiques infligés ont $h% de chances d'affliger la cible de |cffffffffParasites|r pendant $806083d, ce qui augmente de $806083s3% la cadence de vos maladies de nécromancien, cumulable jusqu'à $806083u fois.\n\n|cffffffffExpurgation|r consomme |cffffffffParasites|r pour infliger $806083s2% de dégâts supplémentaires par charge.	lot sorts_classes_023
 sort	806090		Description	0f8c590ce624	Ajoute 2 charges de Peste de la crypte.	lot sorts_classes_023
 sort	806090		Name	a7c63e889577	Vers fouisseurs	lot sorts_classes_023
-sort	806114		Description	b89df1f3c83b	Réduit de 0,25 sec le temps d'incantation de |cffffffffFlamboiement solaire|r$?s500207[ et de |cffffffffBrûlure de l'aube|r][] et augmente$?s500207[ leurs][ ses] dégâts de $s2%.	lot sorts_classes_023
+sort	806114		Description	b89df1f3c83b	Réduit de 0,25 sec le temps d'incantation de |cffffffffFlamboiement solaire|r$?s500207[ et de |cffffffffBrûlure de l'aube|r][] et augmente$?s500207[ leurs][ ses] dégâts de $s2%.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Sunflare = Flamboiement solaire, et non Éclat solaire.
 sort	806114		Name	e11165e74a08	Délivrance	lot sorts_classes_023
 sort	806114		ToolTip	90da61313166	Réduit de 0,5 sec le temps d'incantation de Flamboiement solaire et de Flamme radieuse.	lot sorts_classes_023
 sort	806118		Name	28a0e6416d12	Chute de l'aube	lot sorts_classes_023
@@ -79,9 +79,9 @@ sort	806136		ToolTip	f6908373ec26	Endurance, points de vie maximum et Armure aug
 sort	806138		Description	182ec9fab804	Renforce un allié pendant $d : sa hâte des sorts est augmentée de $s1% et le coût de ses sorts et aptitudes est réduit de $s2%. Accorde |cffffffffInspiration|r à tous les alliés proches.\r\n\r\nApplique |cffffffffConfiance|r à la cible pendant $806137d.@s:806137:0@	lot sorts_classes_023
 sort	806138		Name	768159bbfe1a	Décret du lanceur de sorts	lot sorts_classes_023
 sort	806138		ToolTip	fe6310c7bd34	Hâte des sorts augmentée de ${$w1}%. Coût des sorts et aptitudes réduit de ${$w2}%.	lot sorts_classes_023
-sort	806150		Description	e98b9a57533f	Augmente de $s1% l'efficacité des sorts |cffffffffMalady|r.	lot sorts_classes_023
+sort	806150		Description	e98b9a57533f	Augmente de $s1% l'efficacité des sorts |cffffffffMaladie|r.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Le nom de sort cité « Malady » a un français (Maladie), cohérent avec « Semeur de maladie ». Le nom fourni reste anglais, mais un français existe.
 sort	806150		Name	6b1ca425c35e	Semeur de maladie	lot sorts_classes_023
-sort	806150		ToolTip	bb2e0aeb2723	Augmente de ${$w1}% l'efficacité des sorts |cffffffffMalady|r.	lot sorts_classes_023
+sort	806150		ToolTip	bb2e0aeb2723	Augmente de ${$w1}% l'efficacité des sorts |cffffffffMaladie|r.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Même correction que pour le n° 7 : le nom cité « Malady » doit être en français.
 sort	806151		Description	6c638402573a	Augmente la hâte des sorts de $s1% de votre Intelligence.	lot sorts_classes_023
 sort	806151		Name	594e2101682c	Mort - Passif de niveau 15	lot sorts_classes_023
 sort	806156		Description	2850b773828d	Inflige des dégâts des Arcanes et réduit au silence.	lot sorts_classes_023
@@ -117,10 +117,10 @@ sort	806180		ToolTip	a55b993bb663	Vitesse de déplacement augmentée de ${$w3}%.
 sort	806182		Description	ee4b3d2eab83	Enveloppe un allié de ténèbres, réduisant temporairement toute sa menace pendant $d.\r\n\r\nTant que l'effet est actif, la détection de la furtivité par la cible est considérablement accrue.	lot sorts_classes_023
 sort	806182		Name	45ff77e9d78e	Veille de l'Ombre	lot sorts_classes_023
 sort	806182		ToolTip	f475b08bcf01	Détection de la furtivité considérablement accrue. Menace temporairement réduite.	lot sorts_classes_023
-sort	806207		Description	26835ca14e96	Augmente de $s2% les dégâts de votre |cFFFFFFFFPendentif du temps|r et de votre |cFFFFFFFFBombe gravitationnelle|r, et leur permet de vous octroyer un |cFFFFFFFFOrbe du Destin|r.	lot sorts_classes_023
+sort	806207		Description	26835ca14e96	Augmente de $s2% les dégâts de votre |cFFFFFFFFPendentif du temps|r et de votre |cFFFFFFFFBombe gravitationnelle|r, et leur permet de vous octroyer un |cFFFFFFFFOrbe du Destin|r.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Bombe gravitationnelle » est le nom français fourni.
 sort	806208		Description	07169618f22b	Réduit de $/1000;S2 sec le temps de recharge de |cffffffffFray Magic|r et lui permet aussi de désarmer la cible pendant $704480d.	lot sorts_classes_023
 sort	806208		Name	b272741c1614	Désenchantement d'arme	lot sorts_classes_023
-sort	806208		ToolTip	1025fd6d729a	Réduit de $/1000;s2 sec le temps de recharge de Fray Magic et lui permet aussi de désarmer la cible pendant $704480d.	lot sorts_classes_023
+sort	806208		ToolTip	1025fd6d729a	Réduit de $/1000;s2 sec le temps de recharge de Magie effilochée et lui permet aussi de désarmer la cible pendant $704480d.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort resté en anglais ; cohérence avec la description (Magie effilochée).
 sort	806211		Description	8521940de6be	|cFF66DDFFPassif de niveau 30|r\r\nInfliger des dégâts dans le dos de votre cible sous |cffffffffForme d'araignée|r augmente de $806202s2% votre hâte en mêlée pendant $/1000;s1 sec, cumulable $806202u fois.	lot sorts_classes_023
 sort	806211		Name	0fb9968b1a50	Claque trottinante	lot sorts_classes_023
 sort	806220		Name	cb4a4e91da81	Brise-lignes	lot sorts_classes_023
@@ -154,15 +154,15 @@ sort	806282		Name	fa0a6c5430d8	Rétrécir un allié	lot sorts_classes_023
 sort	806285		Description	7e7ec8a11481	Maudit un ennemi pendant $d, réduisant sa taille, sa puissance d'attaque de ${($m1+0)*-1} et sa puissance des sorts de ${-($m3+0)}.$?s806283[\r\n\r\nSi cet effet est dissipé, applique |cffffffffMisère|r à celui qui l'a dissipé.@s:806346:0@][]\r\n\r\nUne cible ne peut avoir que 1 |cffffffffMauvais sort|r actif à la fois.	lot sorts_classes_023
 sort	806285		Name	1d1ebbdb99c0	Mauvais sort rétrécissant	lot sorts_classes_023
 sort	806285		ToolTip	9180232d9e0a	Puissance d'attaque réduite de ${$abs($m1+$ppl1)}. Puissance des sorts réduite de ${$abs($m3+$ppl3)}.	lot sorts_classes_023
-sort	806291		Description	9f4d8a571e50	Réduit de $s2% le temps d'incantation d'|cffffffffÉpoque|r et de $s3% son coût en mana, et |cffffffffÉpoque|r fait rebondir sur un autre allié proche une |cffffffffRécupération accélérée|r active sur la cible.\r\n\r\n@ext:Shares a cooldown with other |cffffffffAeon|r spells.:ext@	lot sorts_classes_023
+sort	806291		Description	9f4d8a571e50	Réduit de $s2% le temps d'incantation d'|cffffffffÉpoque|r et de $s3% son coût en mana, et |cffffffffÉpoque|r fait rebondir sur un autre allié proche une |cffffffffRécupération accélérée|r active sur la cible.\r\n\r\n@ext:Partage un temps de recharge avec les autres sorts d'|cffffffffÉon|r.:ext@	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Le nom cité « Aeon » doit être « Éon », pas « Temps infini » ; « d'Éon » reste correct.
 sort	806291		Name	85621bf066da	Éon de résilience	lot sorts_classes_023
 sort	806291		ToolTip	6d4da95370ec	Le temps d'incantation d'|cffffffffÉpoque|r est réduit de ${$w2}% et son coût en mana de ${$w3}%, et Époque fait désormais rebondir votre prochaine Récupération accélérée sur un autre allié proche.	lot sorts_classes_023
 sort	806316		Description	335215a68a75	Rend instantanément $s1 points de vie à un allié et augmente de $s2% sa hâte des sorts pendant $d.\r\n\r\nAccorde 1 |cffffffffChromatique|r.	lot sorts_classes_023
 sort	806316		Name	ecc45cc4bd0c	Gueule du chaos	lot sorts_classes_023
 sort	806316		ToolTip	b4303811756f	Hâte des sorts augmentée de ${$w2}%.	lot sorts_classes_023
-sort	806320		Description	c27c05a92539	Augmente de $s1 mètre la portée de vos maladies de nécromancien et de $s2% leur durée.	lot sorts_classes_023
+sort	806320		Description	c27c05a92539	Augmente de $s1 mètres la portée de vos maladies de nécromancien et de $s2% leur durée.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Pluriel : « $s1 mètres » (la valeur est plurielle en pratique, comme l'officiel « mètres »).
 sort	806320		Name	d7f92e018c53	Allonge de la peste	lot sorts_classes_023
-sort	806320		ToolTip	eb72293781cc	Augmente de ${$w1} mètre la portée de vos maladies de nécromancien et de ${$w2}% leur durée.	lot sorts_classes_023
+sort	806320		ToolTip	eb72293781cc	Augmente de ${$w1} mètres la portée de vos maladies de nécromancien et de ${$w2}% leur durée.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Pluriel « mètres » comme l'officiel.
 sort	806327		Description	2e352b31f169	Consomme toutes les charges de |cffffffffPeste de la crypte|r, provoquant instantanément une explosion comme si elle avait expiré naturellement.\r\n\r\nPropage |cffffffffChair aux vers|r, |cffffffffRécolte de peste|r et |cffffffffDégradation spectrale|r à tous les ennemis se trouvant à moins de $680948a1 mètres de la cible.	lot sorts_classes_023
 sort	806327		Name	b0f161e48014	Expédition fétide	lot sorts_classes_023
 sort	806329		Description	8490086b5fef	Quand |cffffffffPeste de la crypte|r expire, votre hâte des sorts est augmentée de $570135s1% pendant $570135d.	lot sorts_classes_023
@@ -177,7 +177,7 @@ sort	806341		Description	5c8ad8653e88	Appelle 2 |cffffffffFaucons de guerre|r qu
 sort	806341		Name	c8cecbba15ad	Piqué du faucon	lot sorts_classes_023
 sort	806345		Name	62a123dd2ca0	Frappe du faucon	lot sorts_classes_023
 sort	806345		Rank	dea51bb13a44	Transformation	lot sorts_classes_023
-sort	806359		Description	5a6e93fd0f5f	|cff8fff7aGénère 1 point d'Avantage|r\r\nÉmet une aura pendant $d qui donne aux membres du groupe et du raid $560809h% de chances, quand ils lancent un sort ou une aptitude, de se rendre ${$560808m1+$560808ppl1+$AP*0.1295} points de vie.\r\n\r\nTant que l'aura est active, vous générez 3 points de Focalisation toutes les $t3 sec.\r\n\r\n@ext:All |cffffffffRanger's Horn|r spells share a cooldown.:ext@	lot sorts_classes_023
+sort	806359		Description	5a6e93fd0f5f	|cff8fff7aGénère 1 point d'Avantage|r\r\nÉmet une aura pendant $d qui donne aux membres du groupe et du raid $560809h% de chances, quand ils lancent un sort ou une aptitude, de se rendre ${$560808m1+$560808ppl1+$AP*0.1295} points de vie.\r\n\r\nTant que l'aura est active, vous générez 3 points de Focalisation toutes les $t3 sec.\r\n\r\n@ext:Tous les sorts de |cffffffffCorne du rôdeur|r partagent un temps de recharge.:ext@	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Corne du rôdeur ».
 sort	806359		Name	e9a25db30594	Cor d'endurance	lot sorts_classes_023
 sort	806359		ToolTip	6d770b2312fc	Tant que l'aura est active, vous générez 3 points de Focalisation toutes les $t3 sec.	lot sorts_classes_023
 sort	806371		Description	9c260b937523	Fait en sorte qu'|cFFFFFFFFExpulsion|r repousse les ennemis proches à l'utilisation. \r\n\r\nCet effet ne peut se produire plus d'une fois toutes les 10 sec.	lot sorts_classes_023
@@ -210,10 +210,10 @@ sort	806474		Name	92a1a701ca58	Conclure un marché	lot sorts_classes_023
 sort	806475		Description	37a7e4c8fb43	Réduit de $s1% le temps de recharge de |cFFFFFFFFMaillet de Lumière|r et de |cFFFFFFFFDéflagration d'Horusath|r.	lot sorts_classes_023
 sort	806475		Name	4115dc9daac6	Furie solaire	lot sorts_classes_023
 sort	806496		Description	f99e28787109	Renforce votre prochain sort et active son effet |cffffffffSuralimenté|r.\r\n\r\nLe temps de recharge de ce sort est réduit de $800982s1% dans |cffffffffAmusement de Thorim|r, de $800984s1% dans |cffffffffRespect de Thorim|r et de $806497s1% dans |cffffffffFaveur de Thorim|r.	lot sorts_classes_023
-sort	806496		ToolTip	e7888dc2c87e	Votre prochain sort doté d'un effet Suralimenté consomme cet effet pour l'activer.	lot sorts_classes_023
-sort	806501		Description	ce4d59e4ca4d	Les dégâts infligés par |cffffffffTrait flamboyant|r réduisent désormais de $/1000;807148s1 sec le temps de recharge d'|cffffffffExploser|r.	lot sorts_classes_023
+sort	806496		ToolTip	e7888dc2c87e	Votre prochain sort doté d'un effet Etat de supercharge consomme cet effet pour l'activer.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Supercharged » doit rester « Etat de supercharge » comme dans le n° 41.
+sort	806501		Description	ce4d59e4ca4d	Les dégâts infligés par |cffffffffTrait de fusée|r réduisent désormais de $/1000;807148s1 sec le temps de recharge d'|cffffffffExplosion|r.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Explode » doit être « Explosion » (nom fourni).
 sort	806501		Name	92d827cf996d	Canon volcanique	lot sorts_classes_023
-sort	806501		ToolTip	94a04e4d2145	Les dégâts infligés par |cffffffffExploser|r réduisent désormais de $/1000;807148s1 sec le temps de recharge de |cffffffffPilier de flammes|r.	lot sorts_classes_023
+sort	806501		ToolTip	94a04e4d2145	Les dégâts infligés par |cffffffffExplosion|r réduisent désormais de $/1000;807148s1 sec le temps de recharge de |cffffffffPilier de flammes|r.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Explode » doit être « Explosion » (nom fourni).
 sort	806518		Description	e9103e70ed22	Augmente de $s2% les dégâts de |cffffffffTyr's Strike|r.	lot sorts_classes_023
 sort	806518		Name	3f1318e1a116	Main de Tyr	lot sorts_classes_023
 sort	806518		ToolTip	f9d7a22d970f	Augmente de ${$w2}% les dégâts de |cffffffffTyr's Strike|r.	lot sorts_classes_023
@@ -224,9 +224,9 @@ sort	806551		Name	6182c47b0bca	Hache sauvage	lot sorts_classes_023
 sort	806556		Description	3b6b7a5f1b5b	Infliger des dégâts physiques directs réduit de $/1000;806557s1 sec le temps de recharge restant de votre aptitude Hache sauvage.	lot sorts_classes_023
 sort	806556		Name	6f476366d985	Seigneur de la fierté	lot sorts_classes_023
 sort	806556		ToolTip	5a1631cca472	Infliger des dégâts physiques réduit de $/1000;806557s1 sec le temps de recharge restant de votre aptitude Hache sauvage.	lot sorts_classes_023
-sort	806604		Description	cf559cf97c86	Infliger un coup critique de Nature vous confère une charge de Croc acide, ce qui augmente de $806602s1% la rapidité de votre prochain Facemelter.	lot sorts_classes_023
+sort	806604		Description	cf559cf97c86	Infliger un coup critique de Nature vous confère une charge de Croc-acide, ce qui augmente de $806602s1% la rapidité de votre prochain Facemelter.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom du sort cité : « Croc-acide » avec trait d'union, comme le nom français du sort.
 sort	806604		Name	d430dc1aa523	Brûlures d'acide	lot sorts_classes_023
-sort	806604		ToolTip	cf559cf97c86	Infliger un coup critique de Nature vous confère une charge de Croc acide, ce qui augmente de $806602s1% la rapidité de votre prochain Facemelter.	lot sorts_classes_023
+sort	806604		ToolTip	cf559cf97c86	Infliger un coup critique de Nature vous confère une charge de Croc-acide, ce qui augmente de $806602s1% la rapidité de votre prochain Facemelter.	lot sorts_classes_023 | relu par l'API (relecture 0.9.5) : Nom du sort cité : « Croc-acide » avec trait d'union, comme le nom français du sort.
 sort	806781		Name	419288fd733e	Uppercut câblé	lot sorts_classes_023
 sort	806781		ToolTip	32bab133b933	Inflige ${$w1} points de dégâts de Feu.	lot sorts_classes_023
 sort	806782		Name	8d435a31d041	Fracas survolté	lot sorts_classes_023

@@ -1,0 +1,280 @@
+# Fiche de test : Prêtre
+
+Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis **tenez MAJ** enfoncée. Tout doit être en français : nom, rang, description, et le texte détaillé avec MAJ. Un mot anglais, un nombre bizarre (« $s1 »), une phrase coupée : cochez « ✗ » et faites une capture avec `/azfr bulle`.
+
+- 🔍 **MAJ** : le sort a un texte détaillé, à regarder avec et sans MAJ.
+- 🔀 **talents** : la description change selon les talents appris, à revoir après en avoir pris.
+
+## Discipline
+
+- [ ] **Mot de pouvoir : Bouclier** (Rang 1) — capacité, sort n° 17
+- [ ] **Dissipation de la magie** (Rang 1) — capacité, sort n° 527
+- [ ] **Feu intérieur** (Rang 1) — capacité, sort n° 588
+- [ ] **Mot de pouvoir : Robustesse** (Rang 1) — capacité, sort n° 1243 🔍 MAJ
+- [ ] **Lévitation** — capacité, sort n° 1706 🔍 MAJ
+- [ ] **Gardien de peur** — capacité, sort n° 6346
+- [ ] **Brûlure de mana** — capacité, sort n° 8129
+- [ ] **Entraves des morts-vivants** (Rang 1) — capacité, sort n° 9484 🔍 MAJ
+- [ ] **Esprit divin** (Rang 1) — capacité, sort n° 14752 🔍 MAJ
+- [ ] **Dissipation de masse** — capacité, sort n° 32374 🔍 MAJ
+- [ ] **Plume angélique** — capacité, sort n° 760053
+- [ ] **Sagacité** (Rang 1) — talent, sort n° 14520
+- [ ] **Méditation** (Rang 1) — talent, sort n° 14521
+- [ ] **Volonté inflexible** (Rang 1) — talent, sort n° 14522 🔍 MAJ
+- [ ] **Résolution silencieuse** (Rang 1) — talent, sort n° 14523
+- [ ] **Martyre** (Rang 1) — talent, sort n° 14531
+- [ ] **Feu intérieur amélioré** (Rang 1) — talent, sort n° 14747
+- [ ] **Mot de pouvoir : Bouclier amélioré** (Rang 1) — talent, sort n° 14748
+- [ ] **Mot de pouvoir : Robustesse amélioré** (Rang 1) — talent, sort n° 14749
+- [ ] **Brûlure de mana améliorée** (Rang 1) — talent, sort n° 14750
+- [ ] **Mot de pouvoir : Robustesse amélioré** (Rang 2) — talent, sort n° 14767
+- [ ] **Mot de pouvoir : Bouclier amélioré** (Rang 2) — talent, sort n° 14768
+- [ ] **Mot de pouvoir : Bouclier amélioré** (Rang 3) — talent, sort n° 14769
+- [ ] **Feu intérieur amélioré** (Rang 2) — talent, sort n° 14770
+- [ ] **Feu intérieur amélioré** (Rang 3) — talent, sort n° 14771
+- [ ] **Brûlure de mana améliorée** (Rang 2) — talent, sort n° 14772
+- [ ] **Martyre** (Rang 2) — talent, sort n° 14774
+- [ ] **Méditation** (Rang 2) — talent, sort n° 14776
+- [ ] **Méditation** (Rang 3) — talent, sort n° 14777
+- [ ] **Sagacité** (Rang 2) — talent, sort n° 14780
+- [ ] **Sagacité** (Rang 3) — talent, sort n° 14781
+- [ ] **Résolution silencieuse** (Rang 2) — talent, sort n° 14784
+- [ ] **Résolution silencieuse** (Rang 3) — talent, sort n° 14785
+- [ ] **Volonté inflexible** (Rang 2) — talent, sort n° 14788 🔍 MAJ
+- [ ] **Volonté inflexible** (Rang 3) — talent, sort n° 14789 🔍 MAJ
+- [ ] **Volonté inflexible** (Rang 4) — talent, sort n° 14790 🔍 MAJ
+- [ ] **Volonté inflexible** (Rang 5) — talent, sort n° 14791 🔍 MAJ
+- [ ] **Force mentale** (Rang 1) — talent, sort n° 18551
+- [ ] **Force mentale** (Rang 2) — talent, sort n° 18552
+- [ ] **Force mentale** (Rang 3) — talent, sort n° 18553
+- [ ] **Absolution** (Rang 1) — talent, sort n° 33167
+- [ ] **Absolution** (Rang 2) — talent, sort n° 33171
+- [ ] **Absolution** (Rang 3) — talent, sort n° 33172
+- [ ] **Puissance focalisée** (Rang 1) — talent, sort n° 33186
+- [ ] **Puissance focalisée** (Rang 2) — talent, sort n° 33190
+- [ ] **Bouclier réflecteur** (Rang 1) — talent, sort n° 33201
+- [ ] **Bouclier réflecteur** (Rang 2) — talent, sort n° 33202
+- [ ] **Illumination** (Rang 1) — talent, sort n° 34908
+- [ ] **Illumination** (Rang 2) — talent, sort n° 34909
+- [ ] **Illumination** (Rang 3) — talent, sort n° 34910
+- [ ] **Volonté focalisée** (Rang 1) — talent, sort n° 45234
+- [ ] **Volonté focalisée** (Rang 2) — talent, sort n° 45243
+- [ ] **Volonté focalisée** (Rang 3) — talent, sort n° 45244
+- [ ] **Aspiration** (Rang 1) — talent, sort n° 47507
+- [ ] **Aspiration** (Rang 2) — talent, sort n° 47508
+- [ ] **Egide divine** (Rang 1) — talent, sort n° 47509 🔍 MAJ
+- [ ] **Egide divine** (Rang 2) — talent, sort n° 47511 🔍 MAJ
+- [ ] **Egide divine** (Rang 3) — talent, sort n° 47515 🔍 MAJ
+- [ ] **Grâce** (Rang 1) — talent, sort n° 47516
+- [ ] **Grâce** (Rang 2) — talent, sort n° 47517
+- [ ] **Extase** (Rang 1) — talent, sort n° 47535 🔍 MAJ
+- [ ] **Extase** (Rang 2) — talent, sort n° 47536 🔍 MAJ
+- [ ] **Extase** (Rang 3) — talent, sort n° 47537 🔍 MAJ
+- [ ] **Disciplines jumelles** (Rang 1) — talent, sort n° 47586
+- [ ] **Disciplines jumelles** (Rang 2) — talent, sort n° 47587
+- [ ] **Disciplines jumelles** (Rang 3) — talent, sort n° 47588
+- [ ] **Sursis** (Rang 1) — talent, sort n° 52795
+- [ ] **Sursis** (Rang 2) — talent, sort n° 52797
+- [ ] **Sursis** (Rang 3) — talent, sort n° 52798
+- [ ] **Sursis** (Rang 4) — talent, sort n° 52799
+- [ ] **Sursis** (Rang 5) — talent, sort n° 52800
+- [ ] **Disciplines jumelles** (Rang 4) — talent, sort n° 52802
+- [ ] **Disciplines jumelles** (Rang 5) — talent, sort n° 52803
+- [ ] **Regain d'espoir** (Rang 1) — talent, sort n° 57470
+- [ ] **Regain d'espoir** (Rang 2) — talent, sort n° 57472
+- [ ] **Soins rapides améliorés** (Rang 1) — talent, sort n° 63504
+- [ ] **Soins rapides améliorés** (Rang 2) — talent, sort n° 63505
+- [ ] **Soins rapides améliorés** (Rang 3) — talent, sort n° 63506
+- [ ] **Protection de l'âme** (Rang 1) — talent, sort n° 63574
+- [ ] **Protection de l'âme** (Rang 2) — talent, sort n° 863574
+- [ ] **Infusion de puissance** — capacité de talent, sort n° 10060
+- [ ] **Focalisation améliorée** — capacité de talent, sort n° 14751
+- [ ] **Suppression de la douleur** — capacité de talent, sort n° 33206
+- [ ] **Pénitence** (Rang 1) — capacité de talent, sort n° 47540
+
+## Sacré
+
+- [ ] **Rénovation** (Rang 1) — capacité, sort n° 139
+- [ ] **Guérison des maladies** — capacité, sort n° 528
+- [ ] **Abolir maladie** — capacité, sort n° 552
+- [ ] **Châtiment** (Rang 1) — capacité, sort n° 585
+- [ ] **Prière de soins** (Rang 1) — capacité, sort n° 596
+- [ ] **Résurrection** (Rang 1) — capacité, sort n° 2006
+- [ ] **Soins supérieurs** (Rang 1) — capacité, sort n° 2050
+- [ ] **Soins rapides** (Rang 1) — capacité, sort n° 2061
+- [ ] **Flammes sacrées** (Rang 1) — capacité, sort n° 14914
+- [ ] **Nova sacrée** (Rang 1) — capacité, sort n° 15237
+- [ ] **Soins de lien** (Rang 1) — capacité, sort n° 32546
+- [ ] **Prière de guérison** (Rang 1) — capacité, sort n° 33076 🔍 MAJ
+- [ ] **Hymne divin** (Rang 1) — capacité, sort n° 64843
+- [ ] **Hymne à l'espoir** — capacité, sort n° 64901
+- [ ] **Saut de la foi** — capacité, sort n° 86381
+- [ ] **Étoile divine** (Rang 1) — capacité, sort n° 760060 🔀 talents
+- [ ] **Halo** (Rang 1) — capacité, sort n° 954803
+- [ ] **Focalisation sacrée** (Rang 1) — talent, sort n° 14889 🔍 MAJ
+- [ ] **Inspiration** (Rang 1) — talent, sort n° 14892 🔍 MAJ
+- [ ] **Soins spirituels** (Rang 1) — talent, sort n° 14898 🔍 MAJ 🔀 talents
+- [ ] **Direction spirituelle** (Rang 1) — talent, sort n° 14901
+- [ ] **Rénovation améliorée** (Rang 1) — talent, sort n° 14908
+- [ ] **Lumière incendiaire** (Rang 1) — talent, sort n° 14909
+- [ ] **Prières guérisseuses** (Rang 1) — talent, sort n° 14911
+- [ ] **Soin amélioré** (Rang 1) — talent, sort n° 14912
+- [ ] **Focalisation des soins** (Rang 1) — talent, sort n° 14913
+- [ ] **Focalisation sacrée** (Rang 2) — talent, sort n° 15008 🔍 MAJ
+- [ ] **Focalisation sacrée** (Rang 3) — talent, sort n° 15009 🔍 MAJ
+- [ ] **Focalisation sacrée** (Rang 4) — talent, sort n° 15010 🔍 MAJ
+- [ ] **Focalisation sacrée** (Rang 5) — talent, sort n° 15011 🔍 MAJ
+- [ ] **Focalisation des soins** (Rang 2) — talent, sort n° 15012
+- [ ] **Soin amélioré** (Rang 2) — talent, sort n° 15013
+- [ ] **Soin amélioré** (Rang 3) — talent, sort n° 15014
+- [ ] **Lumière incendiaire** (Rang 2) — talent, sort n° 15017
+- [ ] **Prières guérisseuses** (Rang 2) — talent, sort n° 15018
+- [ ] **Rénovation améliorée** (Rang 2) — talent, sort n° 15020
+- [ ] **Direction spirituelle** (Rang 2) — talent, sort n° 15028
+- [ ] **Direction spirituelle** (Rang 3) — talent, sort n° 15029
+- [ ] **Direction spirituelle** (Rang 4) — talent, sort n° 15030
+- [ ] **Direction spirituelle** (Rang 5) — talent, sort n° 15031
+- [ ] **Soins spirituels** (Rang 2) — talent, sort n° 15349 🔍 MAJ 🔀 talents
+- [ ] **Soins spirituels** (Rang 3) — talent, sort n° 15354 🔍 MAJ 🔀 talents
+- [ ] **Soins spirituels** (Rang 4) — talent, sort n° 15355 🔍 MAJ 🔀 talents
+- [ ] **Soins spirituels** (Rang 5) — talent, sort n° 15356 🔍 MAJ 🔀 talents
+- [ ] **Inspiration** (Rang 2) — talent, sort n° 15362 🔍 MAJ
+- [ ] **Inspiration** (Rang 3) — talent, sort n° 15363 🔍 MAJ
+- [ ] **Rénovation améliorée** (Rang 3) — talent, sort n° 17191
+- [ ] **Fureur divine** (Rang 1) — talent, sort n° 18530
+- [ ] **Fureur divine** (Rang 2) — talent, sort n° 18531
+- [ ] **Fureur divine** (Rang 3) — talent, sort n° 18533
+- [ ] **Esprit de rédemption** — talent, sort n° 20711
+- [ ] **Allonge du Sacré** (Rang 1) — talent, sort n° 27789 🔍 MAJ
+- [ ] **Allonge du Sacré** (Rang 2) — talent, sort n° 27790 🔍 MAJ
+- [ ] **Rétablissement béni** (Rang 1) — talent, sort n° 27811
+- [ ] **Rétablissement béni** (Rang 2) — talent, sort n° 27815
+- [ ] **Rétablissement béni** (Rang 3) — talent, sort n° 27816
+- [ ] **Protection contre les sorts** (Rang 1) — talent, sort n° 27900
+- [ ] **Protection contre les sorts** (Rang 2) — talent, sort n° 27901
+- [ ] **Protection contre les sorts** (Rang 3) — talent, sort n° 27902
+- [ ] **Résilience bénie** (Rang 1) — talent, sort n° 33142 🔍 MAJ 🔀 talents
+- [ ] **Résilience bénie** (Rang 2) — talent, sort n° 33145 🔍 MAJ 🔀 talents
+- [ ] **Résilience bénie** (Rang 3) — talent, sort n° 33146 🔍 MAJ 🔀 talents
+- [ ] **Vague de Lumière** (Rang 1) — talent, sort n° 33150
+- [ ] **Vague de Lumière** (Rang 2) — talent, sort n° 33154
+- [ ] **Soins surpuissants** (Rang 1) — talent, sort n° 33158
+- [ ] **Soins surpuissants** (Rang 2) — talent, sort n° 33159
+- [ ] **Soins surpuissants** (Rang 3) — talent, sort n° 33160
+- [ ] **Concentration sacrée** (Rang 1) — talent, sort n° 34753 🔍 MAJ
+- [ ] **Concentration sacrée** (Rang 2) — talent, sort n° 34859 🔍 MAJ
+- [ ] **Concentration sacrée** (Rang 3) — talent, sort n° 34860 🔍 MAJ
+- [ ] **Epreuve de la Foi** (Rang 1) — talent, sort n° 47558
+- [ ] **Epreuve de la Foi** (Rang 2) — talent, sort n° 47559
+- [ ] **Epreuve de la Foi** (Rang 3) — talent, sort n° 47560
+- [ ] **Providence divine** (Rang 1) — talent, sort n° 47562
+- [ ] **Providence divine** (Rang 2) — talent, sort n° 47564
+- [ ] **Providence divine** (Rang 3) — talent, sort n° 47565
+- [ ] **Rénovation surpuissante** (Rang 1) — talent, sort n° 63534
+- [ ] **Rénovation surpuissante** (Rang 2) — talent, sort n° 63542
+- [ ] **Rénovation surpuissante** (Rang 3) — talent, sort n° 63543
+- [ ] **Heureux hasard** (Rang 1) — talent, sort n° 63730
+- [ ] **Heureux hasard** (Rang 2) — talent, sort n° 63733
+- [ ] **Heureux hasard** (Rang 3) — talent, sort n° 63737
+- [ ] **Corps et âme** (Rang 1) — talent, sort n° 64127
+- [ ] **Corps et âme** (Rang 2) — talent, sort n° 64129
+- [ ] **Lumière incendiaire** (Rang 3) — talent, sort n° 150171
+- [ ] **Lumière incendiaire** (Rang 4) — talent, sort n° 150172
+- [ ] **Lumière incendiaire** (Rang 5) — talent, sort n° 150173
+- [ ] **Focalisation des soins** (Rang 3) — talent, sort n° 215012
+- [ ] **Étoile divine améliorée** (Rang 1) — talent, sort n° 760194
+- [ ] **Étoile divine améliorée** (Rang 2) — talent, sort n° 760195
+- [ ] **Étoile divine améliorée** (Rang 3) — talent, sort n° 760196
+- [ ] **Esprit de rédemption** (Rang 2) — talent, sort n° 820711
+- [ ] **Esprit de rédemption** (Rang 1) — talent, sort n° 820712
+- [ ] **Allonge du Sacré** (Rang 3) — talent, sort n° 827790 🔍 MAJ
+- [ ] **Puits de lumière** (Rang 1) — capacité de talent, sort n° 724
+- [ ] **Prière du désespoir** (Rang 1) — capacité de talent, sort n° 19236
+- [ ] **Cercle de soins** (Rang 1) — capacité de talent, sort n° 34861 🔀 talents
+- [ ] **Esprit gardien** — capacité de talent, sort n° 47788
+
+## Ombre
+
+- [ ] **Apaisement** — capacité, sort n° 453
+- [ ] **Oubli** — capacité, sort n° 586 🔍 MAJ
+- [ ] **Mot de l'ombre : Douleur** (Rang 1) — capacité, sort n° 589
+- [ ] **Contrôle mental** — capacité, sort n° 605
+- [ ] **Protection contre l'Ombre** (Rang 1) — capacité, sort n° 976
+- [ ] **Vision télépathique** (Rang 1) — capacité, sort n° 2096 🔍 MAJ
+- [ ] **Peste dévorante** (Rang 1) — capacité, sort n° 2944
+- [ ] **Attaque mentale** (Rang 1) — capacité, sort n° 8092
+- [ ] **Cri psychique** (Rang 1) — capacité, sort n° 8122
+- [ ] **Mot de l'ombre : Mort** (Rang 1) — capacité, sort n° 32379
+- [ ] **Ombrefiel** — capacité, sort n° 34433
+- [ ] **Incandescence mentale** (Rang 1) — capacité, sort n° 48045
+- [ ] **Éruption du Vide** (Rang 1) — capacité, sort n° 760122
+- [ ] **Passage dans le Vide** — capacité, sort n° 954522
+- [ ] **Fonte de l'esprit** (Rang 1) — talent, sort n° 14910
+- [ ] **Tissage de l'ombre** (Rang 1) — talent, sort n° 15257
+- [ ] **Ténèbres** (Rang 1) — talent, sort n° 15259
+- [ ] **Focalisation de l'ombre** (Rang 1) — talent, sort n° 15260
+- [ ] **Connexion spirituelle** (Rang 1) — talent, sort n° 15270 🔍 MAJ
+- [ ] **Affinité avec l'Ombre** (Rang 2) — talent, sort n° 15272
+- [ ] **Attaque mentale améliorée** (Rang 1) — talent, sort n° 15273
+- [ ] **Ombres voilées** (Rang 1) — talent, sort n° 15274
+- [ ] **Mot de l'ombre : Douleur amélioré** (Rang 1) — talent, sort n° 15275
+- [ ] **Ténèbres** (Rang 2) — talent, sort n° 15307
+- [ ] **Ténèbres** (Rang 3) — talent, sort n° 15308
+- [ ] **Ombres voilées** (Rang 2) — talent, sort n° 15311
+- [ ] **Attaque mentale améliorée** (Rang 2) — talent, sort n° 15312
+- [ ] **Attaque mentale améliorée** (Rang 3) — talent, sort n° 15313
+- [ ] **Mot de l'ombre : Douleur amélioré** (Rang 2) — talent, sort n° 15317
+- [ ] **Affinité avec l'Ombre** (Rang 1) — talent, sort n° 15318
+- [ ] **Affinité avec l'Ombre** (Rang 3) — talent, sort n° 15320
+- [ ] **Focalisation de l'ombre** (Rang 2) — talent, sort n° 15327
+- [ ] **Focalisation de l'ombre** (Rang 3) — talent, sort n° 15328
+- [ ] **Tissage de l'ombre** (Rang 2) — talent, sort n° 15331
+- [ ] **Tissage de l'ombre** (Rang 3) — talent, sort n° 15332
+- [ ] **Connexion spirituelle** (Rang 2) — talent, sort n° 15335 🔍 MAJ
+- [ ] **Connexion spirituelle** (Rang 3) — talent, sort n° 15336 🔍 MAJ
+- [ ] **Connexion spirituelle améliorée** (Rang 1) — talent, sort n° 15337
+- [ ] **Connexion spirituelle améliorée** (Rang 2) — talent, sort n° 15338
+- [ ] **Cri psychique amélioré** (Rang 1) — talent, sort n° 15392
+- [ ] **Cri psychique amélioré** (Rang 2) — talent, sort n° 15448
+- [ ] **Allonge de l'Ombre** (Rang 1) — talent, sort n° 17322 🔍 MAJ
+- [ ] **Allonge de l'Ombre** (Rang 2) — talent, sort n° 17323 🔍 MAJ
+- [ ] **Etreinte vampirique améliorée** (Rang 1) — talent, sort n° 27839
+- [ ] **Etreinte vampirique améliorée** (Rang 2) — talent, sort n° 27840
+- [ ] **Emprise de l'horreur** (Rang 1) — talent, sort n° 32516
+- [ ] **Emprise de l'horreur** (Rang 2) — talent, sort n° 32517
+- [ ] **Emprise de l'horreur** (Rang 3) — talent, sort n° 32518
+- [ ] **Ombres dissolvantes** (Rang 1) — talent, sort n° 32523
+- [ ] **Ombres dissolvantes** (Rang 2) — talent, sort n° 32524
+- [ ] **Ombres dissolvantes** (Rang 3) — talent, sort n° 32525
+- [ ] **Misère** (Rang 1) — talent, sort n° 33191
+- [ ] **Misère** (Rang 2) — talent, sort n° 33192
+- [ ] **Misère** (Rang 3) — talent, sort n° 33193
+- [ ] **Esprit touché par le Vide** (Rang 1) — talent, sort n° 33213
+- [ ] **Esprit touché par le Vide** (Rang 2) — talent, sort n° 33214
+- [ ] **Esprit touché par le Vide** (Rang 3) — talent, sort n° 33215
+- [ ] **Puissance de l'ombre** (Rang 1) — talent, sort n° 33221 🔍 MAJ
+- [ ] **Puissance de l'ombre** (Rang 2) — talent, sort n° 33222 🔍 MAJ
+- [ ] **Puissance de l'ombre** (Rang 3) — talent, sort n° 33223 🔍 MAJ
+- [ ] **Puissance de l'ombre** (Rang 4) — talent, sort n° 33224 🔍 MAJ
+- [ ] **Puissance de l'ombre** (Rang 5) — talent, sort n° 33225 🔍 MAJ
+- [ ] **Fonte de l'esprit** (Rang 2) — talent, sort n° 33371
+- [ ] **Forme d'Ombre améliorée** (Rang 1) — talent, sort n° 47569
+- [ ] **Forme d'Ombre améliorée** (Rang 2) — talent, sort n° 47570
+- [ ] **Foi distordue** (Rang 1) — talent, sort n° 47573
+- [ ] **Foi distordue** (Rang 2) — talent, sort n° 47577
+- [ ] **Foi distordue** (Rang 3) — talent, sort n° 47578
+- [ ] **Douleur et souffrance** (Rang 1) — talent, sort n° 47580
+- [ ] **Douleur et souffrance** (Rang 2) — talent, sort n° 47581
+- [ ] **Douleur et souffrance** (Rang 3) — talent, sort n° 47582
+- [ ] **Peste dévorante améliorée** (Rang 1) — talent, sort n° 63625
+- [ ] **Peste dévorante améliorée** (Rang 2) — talent, sort n° 63626
+- [ ] **Peste dévorante améliorée** (Rang 3) — talent, sort n° 63627
+- [ ] **Allonge de l'Ombre** (Rang 3) — talent, sort n° 817323 🔍 MAJ
+- [ ] **Forme d'Ombre améliorée** (Rang 3) — talent, sort n° 847570
+- [ ] **Etreinte vampirique** — capacité de talent, sort n° 15286 🔍 MAJ
+- [ ] **Fouet mental** (Rang 1) — capacité de talent, sort n° 15407
+- [ ] **Forme d'Ombre** — capacité de talent, sort n° 15473 🔀 talents
+- [ ] **Silence** — capacité de talent, sort n° 15487
+- [ ] **Toucher vampirique** (Rang 1) — capacité de talent, sort n° 34914
+- [ ] **Dispersion** — capacité de talent, sort n° 47585
+- [ ] **Horreur psychique** — capacité de talent, sort n° 64044

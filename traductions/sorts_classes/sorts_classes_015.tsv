@@ -73,10 +73,10 @@ sort	800365		ToolTip	20d94bcc54c4	Réduit le temps de recharge de Voie du Naga d
 sort	800366		Description	ec05149a4fce	Vous liquéfiez votre forme physique en une mare d'eau curative pendant $d : vous ne pouvez plus agir, mais vous rendez ${$m2+($PL*0.35-1*0.35)} points de vie aux alliés proches toutes les $t2 sec.\r\n\r\nChaque pulsation consomme 1 charge de |cffffffffBaigner|r sur les alliés affectés pour accroître les soins pour chaque charge.\r\n\r\nCet effet augmente aussi votre vitesse de déplacement de $803052s1% et réduit vos dégâts subis de $803052s3%.	lot sorts_classes_015
 sort	800366		Name	f9fa5592c157	Sillage	lot sorts_classes_015
 sort	800366		ToolTip	e5788d57bc88	Rend ${$w2} points de vie aux alliés proches toutes les $t2 sec.\n\nVitesse de déplacement augmentée de 803052s1%. Dégâts subis réduits de $803052s3%.	lot sorts_classes_015
-sort	800367		Description	b8b1ff07f5e0	|cffcfa6ffConsomme 60 points de Folie|r\r\nÉmet une aura pendant $d maximum qui rend ${($d*1000/$t1)*($m1+0+$SP*0.11467)} points de vie en $d à $i alliés maximum dans un rayon de $a1 mètres et applique |CffffffffVoid-Touched|r à chaque pulsation.@s:301982:0@	lot sorts_classes_015
+sort	800367		Description	b8b1ff07f5e0	|cffcfa6ffConsomme 60 points de Folie|r\r\nÉmet une aura pendant $d maximum qui rend ${($d*1000/$t1)*($m1+0+$SP*0.11467)} points de vie en $d à $i alliés maximum dans un rayon de $a1 mètres et applique |CffffffffTouché par le Vide|r à chaque pulsation.@s:301982:0@	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : « Void-Touched » est un nom de sort cité en couleur, resté en anglais alors qu'un français existe. « Touché par le Vide » est une proposition de traduction directe.
 sort	800367		Name	cf99d3d96d22	Étreinte du Vide	lot sorts_classes_015
 sort	800367		ToolTip	87fc932ffd3a	Rend ${$w1} points de vie toutes les $t1 sec.	lot sorts_classes_015
-sort	800368		Description	4886a2986368	Vous isole ou isole un allié, ce qui réduit toute la menace générée de $s2% pendant $d.	lot sorts_classes_015
+sort	800368		Description	4886a2986368	Vous isolez ou isolez un allié, ce qui réduit toute la menace générée de $s2% pendant $d.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : « Vous isole » est agrammatical. Formulation plus sûre : « Isole vous-même ou un allié » étant lourd, on conserve la structure à l'indicatif au vouvoiement.
 sort	800368		Name	28d67e9b9c3e	Isoler	lot sorts_classes_015
 sort	800368		ToolTip	078b8691e711	Isolé.	lot sorts_classes_015
 sort	800370		Description	e4e171921488	Enveloppe un allié dans les eaux d'un puits de lune et lui rend ${($m1+0+$SP*0.9)*((100+$887014ppl3)/100)} points de vie.\r\n\r\n|cffffffffÉclipse lunaire|r : ce sort est instantané et rend à l'allié $800398s2% de ses points de vie maximum supplémentaires.	lot sorts_classes_015
@@ -101,7 +101,7 @@ sort	800403		Description	014d0b774a1c	Applique l'effet |cFFFFFFFFGlyphe explosif
 sort	800403		Name	83a16725e32a	Rune-piège : glyphe explosif	lot sorts_classes_015
 sort	800403		ToolTip	722e9afe632a	Marcher sur la Rune-piège projette l'ennemi au loin et lui inflige des dégâts des Arcanes.	lot sorts_classes_015
 sort	800416		Description	02ce9d78f8f6	|cffcfa6ffGénère 10 points de Folie|r\r\nInflige ${$m1+0+$sps*0.71} points de dégâts d'Ombre à un ennemi.	lot sorts_classes_015
-sort	800452		Description	b6fd82001fe4	|cff93cceaConsomme 2 Runes du Vide|r\r\nApplique une malédiction sombre à un ennemi, qui subit ${$m3+0+$SP*.5} points de dégâts surnaturels, plus ${$m1+0+$SP*.285} points de dégâts surnaturels supplémentaires toutes les $t1 sec pendant $d, et vous drainez 30% des dégâts infligés.	lot sorts_classes_015
+sort	800452		Description	b6fd82001fe4	|cff93cceaConsomme 2 Runes du Vide|r\r\nApplique une malédiction sombre à un ennemi, lui infligeant ${$m3+0+$SP*.5} points de dégâts surnaturels, plus ${$m1+0+$SP*.285} points de dégâts surnaturels supplémentaires toutes les $t1 sec pendant $d, et vous drainez 30% des dégâts infligés.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Le « qui subit » rendait la phrase bancale ; sens identique, tournure corrigée.
 sort	800452		Name	0d689426bde4	Sangsue psychique	lot sorts_classes_015
 sort	800452		ToolTip	07c3602990ed	Draine ${$w1} points de vie au lanceur toutes les $t1 sec.	lot sorts_classes_015
 sort	800457		Name	c6634be81350	Vexmar, le Rancunier	lot sorts_classes_015
@@ -110,7 +110,7 @@ sort	800468		Name	e7df64d94227	Épreuve d'orgueil	lot sorts_classes_015
 sort	800495		Description	b3b0c5403b3f	Augmente le mana maximum de $s3%.	lot sorts_classes_015
 sort	800495		Name	5f927f7182ec	Bien instruit	lot sorts_classes_015
 sort	800495		ToolTip	66fd670b0eb1	Augmente le mana maximum de ${$w3}%.	lot sorts_classes_015
-sort	800496		Description	df878d72ce71	Frappe un ennemi pour $s1% des dégâts de l'arme plus ${($m2+0)/($m1/100)} et vous régénérez $562714s1% de votre mana maximum plus $562714m2.	lot sorts_classes_015
+sort	800496		Description	df878d72ce71	Frappe un ennemi pour $s1% des dégâts de l'arme plus ${($m2+0)/($m1/100)} et vous rend $562714s1% de votre mana maximum plus $562714m2.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Le sort régénère le mana du lanceur : « vous régénérez » n'a pas de sujet cohérent après « Frappe » (le verbe devait rester à la 3e personne).
 sort	800496		Name	dd61fede72a7	Frappe céleste	lot sorts_classes_015
 sort	800499		Description	d80f38cd65b5	Vous faites tomber un Embrasement astral du ciel, qui inflige $800507s1 points de dégâts des Arcanes à un ennemi et vous régénère $s2% de votre |cff01cdfemana|r maximum.	lot sorts_classes_015
 sort	800499		Name	5e96843666e9	Embrasement astral	lot sorts_classes_015
@@ -154,7 +154,7 @@ sort	800596		Name	20489f98e7f3	Raptor ivoire rapide	lot sorts_classes_015
 sort	800597		Name	75cb2700af2d	Raptor tacheté rapide	lot sorts_classes_015
 sort	800606		Description	bfc6192d854b	Accroche l'orbe de |cff38ec38Feu démoniaque|r le plus proche et l'amène jusqu'à vous.	lot sorts_classes_015
 sort	800606		Name	dcdb8d2c0d6f	Saisie enchaînée	lot sorts_classes_015
-sort	800610		Description	6760e4890795	Augmente de $s1% les dégâts infligés par |cFFFFFFFFFlamboiement solaire|r et |cFFFFFFFFJustice|r.	lot sorts_classes_015
+sort	800610		Description	6760e4890795	Augmente de $s1% les dégâts infligés par |cFFFFFFFFFlamboiement solaire|r et |cFFFFFFFFJustice|r.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Sunflare = Flamboiement solaire, et non Éclat solaire.
 sort	800610		Name	d75fd31c44df	Lumière du guerrier	lot sorts_classes_015
 sort	800614		Description	285572411ebb	Écrase un ennemi pour $s2% des dégâts de l'arme plus ${$m1+0)} et rend ${$m3} points de mana.\r\n\r\n@ext:Shares a cooldown with other |cffffffffGavels|r.:ext@	lot sorts_classes_015
 sort	800614		Name	173a0324fbbf	Maillet de grâce	lot sorts_classes_015
@@ -162,7 +162,7 @@ sort	800617		Description	d645c8e7f16a	Écrase un ennemi pour $s2% des dégâts d
 sort	800617		Name	f241274f750e	Maillet de courroux	lot sorts_classes_015
 sort	800622		Description	5ad81065265d	Devenez l'élu d'An'she : vos dégâts subis sont réduits de $s1% pendant $d.\r\n\r\nSubir des dégâts en dessous de 50% de points de vie vous rend instantanément $706442s1% de vos points de vie maximum. Ne peut se produire qu'une fois.	lot sorts_classes_015
 sort	800622		Name	09ca18a9eacd	Élu de la Lumière	lot sorts_classes_015
-sort	800622		ToolTip	b083df30c025	Dégâts subis réduits de ${$w1}%.\r\n\r\nSubir des dégâts en dessous de 50% de points de vie pendant que cet effet est actif rend instantanément 15% des points de vie maximum.	lot sorts_classes_015
+sort	800622		ToolTip	b083df30c025	Dégâts subis réduits de ${$w1}%.\r\n\r\nSubir des dégâts en dessous de 50% de points de vie pendant que cet effet est actif rend instantanément au porteur 15% de ses points de vie maximum.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Sens incomplet : il faut préciser qui est soigné (« les »/« ils » dans l'anglais).
 sort	800624		Description	ab72e14ece14	Provoque une cible ennemie pendant $d.	lot sorts_classes_015
 sort	800624		Name	37f55f1bcfc0	Injonction	lot sorts_classes_015
 sort	800649		Name	08e9b8e2a82e	Corne-ancienne corrompue	lot sorts_classes_015
@@ -188,7 +188,7 @@ sort	800732		Description	b9fcb8220a95	Lance un projectile primordial sur un enne
 sort	800732		Name	5960c2d72300	Déflagration primordiale	lot sorts_classes_015
 sort	800733		Description	608bef394676	Ce sort n'est plus utilisable. Il a été fusionné avec Surcharge glyphique.	lot sorts_classes_015
 sort	800733		Name	172623c4e9f7	Infusion glyphique	lot sorts_classes_015
-sort	800733		ToolTip	5112e8ca337b	Vous confère instantanément |cffffffffGlyphe de givre|r, |cffffffffGlyphe de flammes|r et |cffffffffGlyphe arcanique|r.\r\n\r\nUtilisable en restant furtif.	lot sorts_classes_015
+sort	800733		ToolTip	5112e8ca337b	Vous confère instantanément |cffffffffGlyphe de givre|r, |cffffffffGlyphe de flammes|r et |cffffffffGlyphe arcanique|r.\r\n\r\nUtilisable en restant furtif.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Nom de sort cité : le français fourni est « Glyphe de flammes » (pluriel), pas « Glyphe de flamme ».
 sort	800735		Description	e8fc9d537e65	Augmente vos dégâts des sorts de $s1% de votre Intelligence et de $s3% de votre Esprit, et vos chances de coup critique des sorts de $s2% de votre Esprit.	lot sorts_classes_015
 sort	800735		Name	eba5067d893d	Gravure du chaos	lot sorts_classes_015
 sort	800735		Rank	23cc17fe58aa	Gravure	lot sorts_classes_015
@@ -212,7 +212,7 @@ sort	800808		Name	940d83560a62	Brûlure de sort	lot sorts_classes_015
 sort	800809		Description	93d6baff352b	Marque un ennemi pendant $d. À l'expiration, il explose et lui inflige ainsi qu'à $800810i ennemis proches ${$m1+0} points de dégâts de Feu, plus des dégâts de Feu supplémentaires en $800810d.\r\n\r\n|cffffffffSurchauffe :|r lancement instantané.	lot sorts_classes_015
 sort	800809		Name	ef8a5342a427	Marque ardente	lot sorts_classes_015
 sort	800809		ToolTip	654881dfbbad	Cette unité explosera après $d.	lot sorts_classes_015
-sort	800813		Description	92f6dbda2b23	Augmente de $s1% les dégâts de |cfffffffFChute de flammes|r et de |cffffffffBrasier|r.	lot sorts_classes_015
+sort	800813		Description	92f6dbda2b23	Augmente de $s1% les dégâts de |cfffffffFPluie de feu|r et de |cffffffffBrasier|r.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Firefall = Pluie de feu (noms_de_sorts_cites), pas « Chute de flammes ».
 sort	800813		Name	9c5c8a0079d1	Éruption ardente	lot sorts_classes_015
 sort	800819		Description	fcb2347f408b	Vous place dans un état d'incantation suprême pendant $d : vous êtes immobilisé, les dégâts de vos dépenses de |cffff7f7fBraise|r sont augmentés de $s1% et elles touchent jusqu'à $706897s3 ennemis supplémentaires.	lot sorts_classes_015
 sort	800819		Name	448bac576c13	Flammes du Seigneur du feu	lot sorts_classes_015
@@ -226,7 +226,7 @@ sort	800841		Name	f3142d8270b8	Forme d'araignée	lot sorts_classes_015
 sort	800848		Description	da1c4c661438	Vous élance en avant sur une longue distance.\r\n\r\nUtilisable 3 fois en $d avant de déclencher un temps de recharge.\r\n\r\nUtilisable pendant |cffffffffFurtivité prolongée|r.	lot sorts_classes_015
 sort	800848		Name	0e2d72d79892	Cavalcade	lot sorts_classes_015
 sort	800848		ToolTip	0ad900fcfed3	À 3 charges, Cavalcade déclenche un temps de recharge.	lot sorts_classes_015
-sort	800863		Description	120ff7756f7a	Changer d'|cFFFFFFFFÉon|r prolonge désormais de $/1000;704486s1 sec. la durée des bienfaits actifs appliqués par les |cFFFFFFFFÉons|r. \n\r\nLes bienfaits d'|cFFFFFFFFÉon|r ne peuvent pas dépasser leur durée maximale.	lot sorts_classes_015
+sort	800863		Description	120ff7756f7a	Changer d'|cFFFFFFFFÉon|r prolonge désormais de $/1000;704486s1 sec. la durée des bienfaits actifs appliqués par les |cFFFFFFFFÉons|r. \n\r\nLes bienfaits d'|cFFFFFFFFÉon|r ne peuvent pas dépasser leur durée maximale.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : « Temps infini » est une invention : l'anglais dit Aeon, donc Éon.
 sort	800863		Name	29180a128eb3	Étirement temporel	lot sorts_classes_015
 sort	800864		Description	f7a851871e01	Toutes les $t1 sec, vous laissez derrière vous un |cffffffffClone infini|r qui enregistre vos points de vie, votre mana et votre position à cet instant.\r\n\r\nVous pouvez revenir à vos clones grâce à l'aptitude |cffffffffRembobinage|r.	lot sorts_classes_015
 sort	800864		Name	772788131abb	Marche temporelle	lot sorts_classes_015
@@ -247,13 +247,13 @@ sort	800892		Name	5ea17acb7251	Durcir	lot sorts_classes_015
 sort	800905		Description	5b9e790e55a5	Guérit $803680s1 effet de poison de la cible, toutes les $t1 sec pendant $d.	lot sorts_classes_015
 sort	800905		Name	420e0c899e70	Antivenin	lot sorts_classes_015
 sort	800905		ToolTip	75bd36c96bc2	Guérit $803680s1 effet de poison toutes les $t1 sec.	lot sorts_classes_015
-sort	800912		Description	459e8daf6b79	Vous transforme en |cffffffffForme de vizir|r : vous pouvez lancer |cffffffffPrière de Shadra|r en vous déplaçant et vos soins périodiques ont $560281h% de chances de conférer |cffffffffRequinquage|r à vos alliés. \r\n\r\nVos soins sur la durée peuvent infliger des coups critiques et vous devenez insensible aux effets de métamorphose.\r\n@s:1257670:0@	lot sorts_classes_015
+sort	800912		Description	459e8daf6b79	Vous transforme en |cffffffffForme de vizir|r : vous pouvez lancer |cffffffffPrière de Shadra|r en vous déplaçant et vos soins périodiques ont $560281h% de chances de conférer |cffffffffReconstitution|r à vos alliés. \r\n\r\nVos soins sur la durée peuvent infliger des coups critiques et vous devenez insensible aux effets de métamorphose.\r\n@s:1257670:0@	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Replenishment = Reconstitution (nom fourni), et non « Requinquage ».
 sort	800912		Name	c87e5b3c9c1a	Forme de vizir	lot sorts_classes_015
-sort	800912		ToolTip	4c80e3128a19	Les soins sur la durée peuvent infliger des coups critiques et ont une chance de déclencher Requinquage.	lot sorts_classes_015
+sort	800912		ToolTip	4c80e3128a19	Les soins sur la durée peuvent infliger des coups critiques et ont une chance de déclencher Reconstitution.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Replenishment = Reconstitution (nom fourni), et non « Requinquage ».
 sort	800938		Description	f084fc4198c9	Écorche l'âme d'un ennemi avec un rayon de magie noire qui inflige $s1 points de dégâts d'ombre-sort toutes les $t1 sec pendant $d.\r\n\r\n|cff5ee2ffInfusion d'âme|r : se propage à $805090s2 ennemis maximum et pulse $560062s1% plus vite.	lot sorts_classes_015
 sort	800938		Name	a711e2778f60	Écorchement corporel	lot sorts_classes_015
 sort	800938		ToolTip	cef0efde7df3	${$w1} points de dégâts spectraux infligés toutes les $t1 sec.	lot sorts_classes_015
-sort	800940		Description	12af92a23b77	Bondit dans les airs en balayant votre faux en arc de cercle. \n\nAprès $d, ou à l'atterrissage, déchaîne une attaque tourbillonnante qui inflige $800931s1% des dégâts de l'arme aux ennemis proches et génère 1 |cffffffffFragment d'âme|r pour chaque cible touchée.	lot sorts_classes_015
+sort	800940		Description	12af92a23b77	Bondit dans les airs en balayant de votre faux en arc de cercle. \n\nAprès $d, ou à l'atterrissage, déchaîne une attaque tourbillonnante qui inflige $800931s1% des dégâts de l'arme aux ennemis proches et génère 1 |cffffffffFragment d'âme|r pour chaque cible touchée.	lot sorts_classes_015 | relu par l'API (relecture 0.9.5) : « balayant votre faux » : faux est féminin, et « en balayant de votre faux » est plus correct ; sinon sens inchangé (correction mineure de tournure).
 sort	800940		Name	0094b5c2829e	Abattage	lot sorts_classes_015
 sort	800940		ToolTip	ce63d7fd999f	Bondit.	lot sorts_classes_015
 sort	800946		Description	bf51afd50af1	Lance un poison abject sur un ennemi, lui infligeant ${$m1+0+$spn*1.3} points de dégâts de Nature et rendant ${$560202m1+$560202ppl1+$bh*0.42} points de vie à $?s706477[${$560202i+$706477m1}][$560202i] alliés proches de lui au maximum.	lot sorts_classes_015

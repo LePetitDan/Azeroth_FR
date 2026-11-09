@@ -621,7 +621,7 @@ sort	500018		Name	af91c0f17bf8	Zone vaudou supérieure	lot sorts_classes_005
 sort	500018		ToolTip	cdf920811108	Dégâts de Nature infligés toutes les $t1 sec.\n\nVitesse de déplacement réduite de %.	lot sorts_classes_005
 sort	500020		Description	28608f7192a6	Harponne un ennemi et l'attire vers vous, lui infligeant ${$m1+0+$AP*0.37125} points de dégâts physiques et générant $/10;800605s3 points de rage.	lot sorts_classes_005
 sort	500020		Name	8b535260c07d	Crochet de chair	lot sorts_classes_005
-sort	500022		Description	bf5bf30db865	Augmente de $500022s1% les dégâts et la fréquence des impacts de |cffffffffDard toxique|r.\r\n\r\nVos aptitudes à distance contre les cibles |cff00ff00empoisonnées|r ignorent désormais $s3% de l'armure ennemie.	lot sorts_classes_005
+sort	500022		Description	bf5bf30db865	Augmente de $500022s1% les dégâts et la fréquence des impacts de |cffffffffDard toxique|r.\r\n\r\nVos aptitudes à distance contre les cibles |cff00ff00empoisonnées|r ignorent désormais $s3% de l'armure ennemie.	lot sorts_classes_005 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Toxic Dart » doit être « Dard toxique », pas « Fléchette toxique ».
 sort	500022		Name	9e1f39d4ae8a	Escarmoucheur	lot sorts_classes_005
 sort	500022		Rank	56c79e69991c	Passif de spécialisation	lot sorts_classes_005
 sort	500024		Description	6dbc134870df	Votre |cffffffffFrappe sauvage|r génère désormais 1 |cff8fff7aAvantage|r supplémentaire.\r\n\r\nSupprime la portée minimale de vos aptitudes à distance.	lot sorts_classes_005
@@ -631,7 +631,7 @@ sort	500028		Description	b876145eab56	|cffffffff3 charges, recharge de 10 sec.|r
 sort	500028		Name	ae97c2ad4876	Ruée chaotique	lot sorts_classes_005
 sort	500040		Description	647e8a41785c	|cffcc99ffÉpuise 50 points de Statique|r\r\nFait tomber un énorme éclair qui inflige ${$m1+0+$spn*1} points de dégâts de Nature.	lot sorts_classes_005
 sort	500040		Name	4c3b96e93ba1	Appel de la foudre	lot sorts_classes_005
-sort	500045		Description	1ec9c8d50ad0	Inflige ${$m1+0} points de dégâts de Nature à une cible ennemie, consomme les charges d'|cffffffffOrbe de choc|r pour infliger $801868s3% de dégâts supplémentaires par charge et génère 20 |cffcc99ffStatique|r.\r\n\r\n|cffffffffSurchargé :|r temps d'incantation supprimé.	lot sorts_classes_005
+sort	500045		Description	1ec9c8d50ad0	Inflige ${$m1+0} points de dégâts de Nature à une cible ennemie, consomme les charges d'|cffffffffOrbe de choc|r pour infliger $801868s3% de dégâts supplémentaires par charge et génère 20 |cffcc99ffStatique|r.\r\n\r\n|cffffffffSurchargé :|r temps d'incantation supprimé.	lot sorts_classes_005 | relu par l'API (relecture 0.9.5) : Nom de sort cité : « Orb Shock » = « Orbe de choc » ; « d'Choc d'orbe » était incorrect (élision et nom).
 sort	500045		Name	464a67463f7c	Missile mégawatt	lot sorts_classes_005
 sort	500049		Description	af4a232db18c	Les dégâts que vous subissez sont réduits de $807728s1% tant que |cffffffffFormation en tour|r ou |cffffffffFormation en ligne|r est active.\r\n\r\nDe plus, la menace que vous générez avec les dégâts physiques infligés est considérablement accrue tant que |cffffffffFormation en tour|r ou |cffffffffFormation en ligne|r est active.	lot sorts_classes_005
 sort	500049		Name	68aac3d255c3	Vocation du fantassin	lot sorts_classes_005

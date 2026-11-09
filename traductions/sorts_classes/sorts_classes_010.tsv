@@ -22,12 +22,12 @@ sort	704110		ToolTip	58cdc1118bf8	Votre capacité Bombe collante a désormais un
 sort	704137		Description	063fef34e90e	Pendant $d, $s1% de tous les dégâts magiques subis par le chasseur de sorcières sont partagés avec la Bête sorcière.	lot sorts_classes_010
 sort	704137		Name	ba2c8ee0a38e	Garde-malédiction	lot sorts_classes_010
 sort	704137		ToolTip	fed567d2bd19	$s1% des dégâts magiques subis sont redirigés vers la Bête sorcière.	lot sorts_classes_010
-sort	704141		Description	ad274c2ca3b0	Génère instantanément 1 |cffffffffCachet|r correspondant à votre |cffffffffAffinité|r actuelle.\r\n\r\nCette capacité n'interrompt pas |cffffffffVoile runique|r.	lot sorts_classes_010
+sort	704141		Description	ad274c2ca3b0	Génère instantanément 1 |cffffffffCachet|r correspondant à votre |cffffffffAffinité|r actuelle.\r\n\r\nCette capacité n'interrompt pas le |cffffffffVoile runique|r.	lot sorts_classes_010 | relu par l'API (relecture 0.9.5) : Accord : « le Voile runique ».
 sort	704141		Name	995e54916112	Invocation glyphique	lot sorts_classes_010
 sort	704153		Description	b526b8571afd	Affiche sur la mini-carte l'emplacement de tous les humanoïdes proches.	lot sorts_classes_010
 sort	704153		Name	3117f876816e	Odeur de l'homme	lot sorts_classes_010
 sort	704153		ToolTip	9459494d0cdd	Pistage des humanoïdes.	lot sorts_classes_010
-sort	704159		Description	95a3bbf839e6	Lance un bouclier sur un ennemi, qui rebondit sur 2 autres ennemis proches, leur inflige ${$m2+0+$AP*.33} points de dégâts physiques et interrompt leur incantation, empêchant de lancer tout sort de cette école de magie pendant $d.	lot sorts_classes_010
+sort	704159		Description	95a3bbf839e6	Lance un bouclier sur un ennemi, qui rebondit sur 2 autres ennemis proches au maximum, leur inflige ${$m2+0+$AP*.33} points de dégâts physiques et interrompt leur incantation, empêchant de lancer tout sort de cette école de magie pendant $d.	lot sorts_classes_010 | relu par l'API (relecture 0.9.5) : « up to 2 » : au maximum 2 ennemis, pas exactement 2.
 sort	704159		Name	a3f8ea89a7b1	Bouclier du déni	lot sorts_classes_010
 sort	704201		Description	4ee0768b97a9	|cffffffff3 charges, 35 sec de recharge|r\r\nInvoque un |cFFFFFFFFZéphyr déchaîné|r à l'endroit ciblé pendant $d.\r\n\r\nToutes les $725390t1 sec, il attire à l'intérieur de lui tous les ennemis situés à moins de $704210a1 mètres.	lot sorts_classes_010
 sort	704201		Name	3660d61ccbd8	Zéphyr déchaîné	lot sorts_classes_010
@@ -40,7 +40,7 @@ sort	704280		ToolTip	85a62bc03fa6	Hâte des sorts augmentée de $s2%.	lot sorts_
 sort	704282		Description	aeb1d8b3021c	Réduit le temps de recharge de |cffffffffGrâce d'Alexstrasza|r de $/1000;s1 sec.	lot sorts_classes_010
 sort	704282		Name	bfa726e839bd	Archonte des flammes	lot sorts_classes_010
 sort	704282		ToolTip	46aa94ef1240	Réduit le temps de recharge de |cffffffffPurge ardente|r de $/1000;s1 sec.	lot sorts_classes_010
-sort	704307		Description	6ab353ab6629	Réduit le temps de recharge de |cffffffffPelage de fer|r de $s1%, mais son coût passe à $/10;S2 points de Rage et son effet de réduction des dégâts est diminué de $s3%.	lot sorts_classes_010
+sort	704307		Description	6ab353ab6629	Réduit le temps de recharge de |cffffffffPelage de fer|r de $s1%, mais son coût passe à $/10;S2 points de Rage et son effet de réduction des dégâts est diminué de $s3%.	lot sorts_classes_010 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Pelage de fer, comme dans le n° 26.
 sort	704307		Name	8315cd10e45f	Furieux	lot sorts_classes_010
 sort	704307		ToolTip	979f34de7bdf	Réduit le temps de recharge de Pelage de fer de ${$w1}%, mais son coût passe à $/10;s2 points de Rage et son effet de réduction des dégâts est diminué de ${$w3}%.	lot sorts_classes_010
 sort	704308		Description	6b829d2c65c9	Réduit le coût en Rage de |cffffffffBalayage de griffes|r de $/10;s2.	lot sorts_classes_010
@@ -171,9 +171,9 @@ sort	704683		ToolTip	b2f56efa106c	Les dégâts infligés avec |cffffffffChair au
 sort	704684		Description	f2853941c825	|cffffffffSacrifier les morts-vivants|r vous rend désormais $s1% de vos points de vie maximum pour chaque serviteur mort-vivant détruit, mais son temps de recharge est désormais de 45 sec.	lot sorts_classes_010
 sort	704684		Name	a9898d5dba47	Sacrifier les morts-vivants	lot sorts_classes_010
 sort	704684		ToolTip	98d1f2ca38e8	|cffffffffSacrifier les morts-vivants|r vous rend désormais ${$w1}% de vos points de vie maximum pour chaque serviteur mort-vivant détruit, mais son temps de recharge est désormais de 45 sec.	lot sorts_classes_010
-sort	704685		Description	2ad4b02d2c90	Lorsque |cffffffffFlétrisseuse|r prend fin, les ennemis présents dans la zone sont immobilisés pendant $806094d.$?s500117[\r\n\r\n|cffffffffRayon de Rot|r inflige $806094s3% de dégâts supplémentaires aux cibles immobilisées par |cffffffffFlétrisseuse|r.][]	lot sorts_classes_010
+sort	704685		Description	2ad4b02d2c90	Lorsque |cffffffffFlétrissure|r prend fin, les ennemis présents dans la zone sont immobilisés pendant $806094d.$?s500117[\r\n\r\n|cffffffffRayon de putréfaction|r inflige $806094s3% de dégâts supplémentaires aux cibles immobilisées par |cffffffffFlétrissure|r.][]	lot sorts_classes_010 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Blight = Flétrissure, pas Chancre.
 sort	704685		Name	8777561acd7d	Flétrissure persistante	lot sorts_classes_010
-sort	704685		ToolTip	355c6956b327	Fait en sorte que |cffffffffFlétrisseuse|r immobilise les ennemis affectés pendant $806094d à la fin de son effet$?s500117[, et que |cffffffffRayon de Rot|r inflige $806094s3% de dégâts supplémentaires aux cibles ainsi immobilisées.][]	lot sorts_classes_010
+sort	704685		ToolTip	355c6956b327	Fait en sorte que |cffffffffFlétrissure|r immobilise les ennemis affectés pendant $806094d à la fin de son effet$?s500117[, et que |cffffffffRayon de putréfaction|r inflige $806094s3% de dégâts supplémentaires aux cibles ainsi immobilisées.][]	lot sorts_classes_010 | relu par l'API (relecture 0.9.5) : Nom de sort cité : Blight = Flétrissure, pas Chancre.
 sort	704686		Description	4c42e2d967ce	Augmente le score de toucher des sorts de $s1% de votre Esprit et le score de coup critique des sorts de $s2% de votre Esprit.	lot sorts_classes_010
 sort	704686		Name	f036e27c5abe	Enseignements de Lana'thel	lot sorts_classes_010
 sort	704686		ToolTip	e4da28d4fc5a	Réduit de ${$w1}% le coût en points de vie de |cffffffffAngoisse d'Atherann|r et de |cffffffffCalamité de Keleseth|r.	lot sorts_classes_010

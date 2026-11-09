@@ -38,7 +38,7 @@ sort	801669		Name	9b96d9c18ef7	Éruption d'ombre	lot sorts_classes_017
 sort	801669		ToolTip	635100bcd12f	Bombardé d'énergie sombre.	lot sorts_classes_017
 sort	801672		Description	a517fc210a83	|cffffffffConsomme des marques d'ombre|r\r\n|cffffffffInvoque Bethekk|r\r\nTaillade un ennemi et lui inflige $s2% des dégâts de l'arme plus $s1 points de dégâts physiques, augmentés de $804619s3% pour chaque |cffffffffMarque de l'ombre|r consommée.	lot sorts_classes_017
 sort	801672		Name	67e1f4627f64	Rage de Bethekk	lot sorts_classes_017
-sort	801678		Description	017d07cc02ec	Dépose un |cffffffffGardien de stase|r près de vous.\r\n\r\nAprès $/1000;801677t2 sec, le gardien libère des éclairs qui étourdissent les ennemis proches pendant $801677d et infligent ${$801677m3+$801677ppl3+$spn*.25} points de dégâts de Nature.\r\n\r\n@ext:Can only have 1 |cffffffffWard|r active at a time.:ext@	lot sorts_classes_017
+sort	801678		Description	017d07cc02ec	Dépose un |cffffffffGardien de stase|r près de vous.\r\n\r\nAprès $/1000;801677t2 sec, le gardien libère des éclairs qui étourdissent les ennemis proches pendant $801677d et infligent ${$801677m3+$801677ppl3+$spn*.25} points de dégâts de Nature.\r\n\r\n@ext:1 seul |cffffffffWard|r peut être actif à la fois.:ext@	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Le nom cité « Ward » est déjà employé en anglais ; « Protection » ne correspond pas
 sort	801678		Name	49fb91d48fe3	Gardien de stase	lot sorts_classes_017
 sort	801680		Description	a6b1b4c4479f	|cffffffffInvoque Bethekk|r\nVous vous transformez en panthère, ce qui augmente votre vitesse de déplacement de $s1% pendant $d, supprime tous les effets d'enracinement et vous en rend insensible.\n\nPendant les $801679d premières de cet effet, aucune attaque ni aucun sort ne peut vous toucher, mais infliger des dégâts directs ou prodiguer des soins directs met fin à l'effet.	lot sorts_classes_017
 sort	801680		Name	4843ef178efe	Pas de la panthère	lot sorts_classes_017
@@ -62,7 +62,7 @@ sort	801718		Name	5222c792f95d	Déployer une mine explosive	lot sorts_classes_01
 sort	801722		Description	00f8272cb58b	Déchaîne un éclat de putréfaction gelée sur un ennemi, lui infligeant ${$m1+0+$spfr*.86989416} points de dégâts de Givre, réduisant sa vitesse de déplacement de $s3% pendant $d et générant de la Puissance runique.	lot sorts_classes_017
 sort	801722		Name	9acf71f34bf3	Givre-liche	lot sorts_classes_017
 sort	801722		ToolTip	6c9d0b63c6db	Vitesse de déplacement réduite de ${$w3}%.	lot sorts_classes_017
-sort	801732		Description	0d0f9a7ad65b	Augmente de $s1% les chances de coup critique de |cffffffffBarrage de glace|r contre les cibles |cff3399ffGelées|r.	lot sorts_classes_017
+sort	801732		Description	0d0f9a7ad65b	Augmente de $s1% les chances de coup critique de |cffffffffBarrage de glace|r contre les cibles |cff3399ffGelées|r.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Accord : « cibles gelées » (pluriel féminin).
 sort	801732		Name	047202e66df6	Goule de givre	lot sorts_classes_017
 sort	801735		Description	25a6047e5c8f	Protège un allié par une protection glaciale qui absorbe ${$m1+0+$SP*0.33} points de dégâts pendant $d maximum.\r\n\r\nLes dégâts subis appliquent |cffffffffFroid de la mort|r aux attaquants et réduisent leur vitesse de déplacement de $560624s1% pendant $560624d.	lot sorts_classes_017
 sort	801735		Name	32f195fd39ee	Protection glaciale	lot sorts_classes_017
@@ -70,7 +70,7 @@ sort	801735		ToolTip	7f8cb9a0e344	Absorbe ${$m1+$ppl1+$SP*0.33} points de dégâ
 sort	801736		Description	e38f0b8db28a	|cffffffffContact glacial|r réduit désormais de $801722s3% la vitesse d'attaque en mêlée et à distance de la cible pendant $/1000;s1 sec, cumulable $801722u fois.	lot sorts_classes_017
 sort	801736		Name	ccd87089bcd8	Froid mordant	lot sorts_classes_017
 sort	801736		ToolTip	2d0f5553386c	|cffffffffContact glacial|r réduit désormais de $801722s3% la vitesse d'attaque en mêlée et à distance de la cible pendant $/1000;s1 sec, cumulable $801722u fois.	lot sorts_classes_017
-sort	801746		Description	536c7b0484d8	Un anneau de glace jaillit de la cible et emprisonne les ennemis qui l'entourent dans la glace pendant $d, en appliquant |cffffffffFroid de la mort|r. Les dégâts subis peuvent interrompre l'effet.	lot sorts_classes_017
+sort	801746		Description	536c7b0484d8	Un anneau de glace jaillit de la cible et immobilise les ennemis qui l'entourent dans la glace pendant $d, en appliquant |cffffffffFroid de la mort|r. Les dégâts infligés peuvent interrompre l'effet.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : « rooting » = immobiliser (« emprisonner » est inexact) ; « Damage caused » = dégâts infligés, pas subis.
 sort	801746		Name	07f8d1bac3f8	Glace noire	lot sorts_classes_017
 sort	801746		ToolTip	52d4b534cce1	Gelé sur place.	lot sorts_classes_017
 sort	801755		Description	dcd87e68afc3	|cffffffffNécessite d'être $genragé:enragée;|r\r\nFracasse un ennemi avec les deux armes pour $s3% des dégâts de l'arme plus ${$m1+0}.	lot sorts_classes_017
@@ -88,7 +88,7 @@ sort	801766		ToolTip	d1066737f260	Les attaques automatiques en mêlée ont déso
 sort	801768		Description	fd0bd4969af6	|cffec8201Effet d'enragement|r\r\nVous entrez en rage pendant $d et gagnez $s3% de points de vie maximum supplémentaires. Quand l'effet se termine, ces points de vie sont perdus.	lot sorts_classes_017
 sort	801768		Name	770ae8ec4e63	Vigueur de combat	lot sorts_classes_017
 sort	801768		ToolTip	21be7fcd5ef6	Enragé. Maximum de points de vie augmenté de ${$w3}%.	lot sorts_classes_017
-sort	801770		Description	c514791c5bbe	Subir des dégâts alors que vos points de vie sont à 35% ou moins de votre maximum vous rend désormais $801771s3% de vos points de vie maximum toutes les $801771T3 sec, réduit de $801771s1% vos coûts en Énergie et augmente les dégâts que vous infligez pendant $801771d.\r\n\r\nNe peut se produire qu'une fois toutes les 2 min.	lot sorts_classes_017
+sort	801770		Description	c514791c5bbe	Subir des dégâts alors que vos points de vie sont à 35% ou moins de votre maximum vous rend désormais $801771s3% de vos points de vie maximum toutes les $801771T3 sec, réduit de $801771s1% vos coûts en Énergie et augmente les dégâts que vous infligez de la même manière pendant $801771d.\r\n\r\nNe peut se produire qu'une fois toutes les 2 min.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : L'anglais est tronqué (« increases your damage dealt by for »), pas de nombre à reprendre ; la traduction reste fidèle, ajout non justifié : je préfère garder l'original.
 sort	801770		Name	ab747b45edea	Jusqu'au bout	lot sorts_classes_017
 sort	801772		Description	045cdbd6f294	Jouez la |cffffffffBallade du tueur de dragons|r : inflige instantanément ${$m1+0+$AP*0.179928} points de dégâts magiques à tous les ennemis proches, en ignorant les résistances, et réduit leur puissance d'attaque de ${-($m2)} pendant $d.	lot sorts_classes_017
 sort	801772		Name	05e757b95ef6	Ballade du tueur de dragons	lot sorts_classes_017
@@ -119,7 +119,7 @@ sort	801795		Name	c7594deaadb4	Éveil céleste	lot sorts_classes_017
 sort	801795		ToolTip	4a770bdc4985	Régénération de mana augmentée de ${$w2}%.	lot sorts_classes_017
 sort	801798		Description	f313c2b9aaaa	Fait détonner toutes les |cffffffffMines explosives|r$?s706647[ et toutes les |cffffffffMines à shrapnel|r][] que vous avez posées à moins de 60 mètres.\r\n\r\nUtilisable pendant une incantation ou une canalisation.	lot sorts_classes_017
 sort	801798		Name	0c8156657d23	Détonation à distance	lot sorts_classes_017
-sort	801799		Description	db61db6771fb	|cffffffff3 charges, recharge de 15 sec.|r\r\nLance une balise de bouclier pendant $d, qui projette un champ de force de $706829a mètres de rayon et augmente l'Armure des alliés proches de ${$801256m1+$801256ppl1}.$?s524834[\r\n\r\n|cffffffffSurcharge|r : applique un bouclier aux alliés situés à moins de $706829a mètres, qui absorbe ${$560709m1*$<scalingbp>+$STA*1+$bh*1.5} points de dégâts, selon l'Endurance de l'allié.][]\r\n\r\n@ext:Shares a cooldown with other |cffffffffBeacons|r:ext@	lot sorts_classes_017
+sort	801799		Description	db61db6771fb	|cffffffff3 charges, recharge de 15 sec.|r\r\nLance une balise de bouclier pendant $d, qui projette un champ de force de $706829a mètres de rayon et augmente l'Armure des alliés proches de ${$801256m1+$801256ppl1}.$?s524834[\r\n\r\n|cffffffffSurcharge|r : applique un bouclier aux alliés situés à moins de $706829a mètres, qui absorbe ${$560709m1*$<scalingbp>+$STA*1+$bh*1.5} points de dégâts, selon l'Endurance de l'allié.][]\r\n\r\n@ext:Partage un temps de recharge avec les autres |cffffffffBalises|r:ext@	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Le nom de sort cité « Overcharge » doit être « Surcharge » (nom fourni), pas l'infinitif « Surcharger ».
 sort	801799		Name	b09c9a821b30	Construire : balise de bouclier	lot sorts_classes_017
 sort	801800		Description	5418b320c045	Ciblez une zone au sol et transportez tous les orbes de foudre proches vers l'endroit ciblé.	lot sorts_classes_017
 sort	801800		Name	3daf14ad83b7	Lancer les orbes	lot sorts_classes_017
@@ -159,7 +159,7 @@ sort	801884		ToolTip	3723e1368803	|cffffffffTir de ferraille|r a $h% de chances 
 sort	801901		Description	af4d1e153a90	|cff32cd32Génère 1 point de Gangrefurie|r\r\nFrappe avec les deux armes pour $808303s2% des dégâts de l'arme plus $s1 à chaque coup.	lot sorts_classes_017
 sort	801908		Description	24d866b813ab	Vous produisez l'image terrifiante d'une gueule de dragon, qui inflige ${$m2+($pl*0.8)} points de dégâts de Feu à un ennemi et le fait trembler d'horreur pendant $d. 	lot sorts_classes_017
 sort	801908		Name	495b4f808791	Visage pétrifiant	lot sorts_classes_017
-sort	801911		Description	ee6894a8d17d	Vous élance de $801929a1 mètres dans la direction de votre déplacement et inflige ${$801929m2+$801929ppl2+$spfi*.4} points de dégâts de Feu aux ennemis sur votre trajet, libérant le lanceur des étourdissements et des entraves.	lot sorts_classes_017
+sort	801911		Description	ee6894a8d17d	S'élance de $801929a1 mètres dans la direction de votre déplacement et inflige ${$801929m2+$801929ppl2+$spfi*.4} points de dégâts de Feu aux ennemis sur sa trajectoire, libérant le lanceur des étourdissements et des entraves.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : « Vous élance » est agrammatical ; la description à la 3e personne s'accorde avec « le lanceur ».
 sort	801911		Name	e3021a1d029d	Pas de flamme	lot sorts_classes_017
 sort	801925		Description	17bb24142282	Maudit un ennemi pendant $d : il perd ${$630879m1} points de mana toutes les $t1 sec et ne peut plus régénérer son mana.\r\n\r\nNe peut avoir que 1 |cffffffffJinx|r actif sur une cible à la fois.	lot sorts_classes_017
 sort	801925		Name	e1f300b57d09	Maléfice de mana	lot sorts_classes_017
@@ -172,8 +172,8 @@ sort	801941		Rank	e733b21f99f7	Animation	lot sorts_classes_017
 sort	801942		Description	96e8816dcfd8	Lance un |cffffffffÉclair de liche|r sur un ennemi et lui inflige ${$m1+0+$sps*.785} points de dégâts d'Ombre, avec $500968s2% de dégâts supplémentaires et application de |cFFFFFFFFPeste de la crypte|r pour chaque maladie active sur lui.	lot sorts_classes_017
 sort	801942		Name	40c66ad93f53	Éclair de liche	lot sorts_classes_017
 sort	801948		Description	ee5c6b338537	Augmente de $s1% les dégâts de |cffffffffPlaguewither|r.	lot sorts_classes_017
-sort	801948		Name	60245c55e783	Plaguewither amélioré	lot sorts_classes_017
-sort	801948		ToolTip	8f6cae896a51	Augmente de |cfffeff9e${$w1}%|r les dégâts de |cffffffffPlaguewither|r.	lot sorts_classes_017
+sort	801948		Name	60245c55e783	Flétrissure pestilentielle améliorée	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Le nom du sort Plaguewither est traduit (n°31) ; l'anglais est resté.
+sort	801948		ToolTip	8f6cae896a51	Augmente de |cfffeff9e${$w1}%|r les dégâts de |cffffffffFlétrissure pestilentielle|r.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Nom de sort cité à aligner sur le nom français du sort.
 sort	801956		Description	6a8984adfe32	Réduit tous les dégâts subis de $s1% pendant $d. \r\n\r\nUtilisable en étant étourdi.	lot sorts_classes_017
 sort	801956		Name	cbc6d8210895	Peau de fer	lot sorts_classes_017
 sort	801956		ToolTip	04f9a572adc3	Dégâts subis réduits de ${$w1}%.	lot sorts_classes_017
@@ -184,7 +184,7 @@ sort	801967		Name	74c508165baa	Protection abyssale	lot sorts_classes_017
 sort	801967		ToolTip	b3cbdd03054c	Augmente votre |cfffeff9eEndurance|r totale de |cfffeff9e${$w1}%|r et réduit de ${$w3}% tous les dégâts magiques subis.\n\nSubir des dégâts en mêlée a $h% de chances de rendre $801936s1 points de vie aux alliés situés à moins de $801936a1 mètres de vous, selon l'Intelligence et la puissance des sorts. \n\nCet effet ne peut se produire plus d'une fois toutes les 10 sec.	lot sorts_classes_017
 sort	801969		Description	c3128a51a7f0	Inflige $s1 points de dégâts des Arcanes à un maximum de $i ennemis situés à moins de $a1 mètres de la cible, selon la puissance d'attaque et l'Intelligence.\n\nNe peut être utilisé qu'après avoir paré une attaque. Cette attaque ne peut pas être évitée.	lot sorts_classes_017
 sort	801969		Name	092f1fc0260d	Vengeance d'Élune	lot sorts_classes_017
-sort	801969		ToolTip	cef35402c7e9	Subit ${$w2}% de dégâts supplémentaires de la Entaille céleste du lanceur.	lot sorts_classes_017
+sort	801969		ToolTip	cef35402c7e9	Subit ${$w2}% de dégâts supplémentaires de l'Entaille céleste du lanceur.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Faute de grammaire : « de la Entaille » est incorrect, il faut l'élision « de l'Entaille ».
 sort	801970		Description	84246bd59c1f	Chaque fois que vous êtes |cffb0f67a|cffb0f67aSoigné|r|r, vous avez 10% de chances de pouvoir utiliser votre aptitude Vengeance d'Élune pendant 10 sec.\n\nCet effet ne se déclenche que lorsqu'un effet de soins rend effectivement des points de vie manquants.	lot sorts_classes_017
 sort	801970		Name	f8725a107e1c	Chevalier céleste (soins)	lot sorts_classes_017
 sort	801970		ToolTip	bc9ff87d542e	Chaque fois que vous êtes |cffb0f67a|cffb0f67aSoigné|r|r, vous avez 10% de chances d'activer votre aptitude Vengeance d'Élune pendant 10 sec.\n\nCet effet ne se déclenche que lorsqu'un effet de soins rend effectivement des points de vie manquants.	lot sorts_classes_017
@@ -197,16 +197,16 @@ sort	801985		Description	5a09d700cf1c	Lance une |cffffffffChasse aux sorcières|
 sort	801985		Name	4b4ed176fc15	Chasse aux sorcières	lot sorts_classes_017
 sort	801985		ToolTip	785ec8436179	Élan se cumule ${$w2} fois de plus. Chances de coup critique augmentées de ${$w3}%. Vitesse de déplacement augmentée de $801904s1%. Vous voyez à travers les effets de furtivité et d'invisibilité.	lot sorts_classes_017
 sort	801990		Description	58489c4025dd	|cffffffffDrain de $704518s1% du mana maximum|r\nEnveloppe un allié de la grâce d'Élune et lui rend des points de vie$?s704518[ à hauteur de ${($m1*$<scalingbp>+$POWER1*0.15+$SP*0.476)*((100+$887014ppl3)/100)}][], selon le mana maximum.\r\n\r\nUtilisable en mouvement.	lot sorts_classes_017
-sort	801990		Name	da7e687d4c78	Main d'Élune	lot sorts_classes_017
+sort	801990		Name	da7e687d4c78	Main d'Elune	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Nom officiel d'Elune sans accent majuscule ; cohérence avec « Prière d'Elune ».
 sort	801991		Description	e346e48e7a2e	|cffffffffFlèche lunaire|r rend |cfffeff9e$s1%|r de votre |cff01cdfeMana|r maximum et augmente de $/1000;802984s1 sec la durée de |cffffffffSplendeur lunaire|r.	lot sorts_classes_017
 sort	801991		Name	390307d7ecb4	Flèches trempées au puits de lune	lot sorts_classes_017
 sort	801991		ToolTip	5302233cd463	|cffffffffFlèche lunaire|r rend |cfffeff9e${$w1}%|r de votre |cff01cdfeMana|r maximum et augmente de $/1000;802984s1 sec la durée de |cffffffffSplendeur lunaire|r.	lot sorts_classes_017
-sort	801997		Description	d0d4eabbd952	L'aptitude Vengeance d'Élune devient disponible aussi après avoir bloqué ou esquivé une attaque, et pas seulement après l'avoir parée. Cet effet ne peut pas se produire plus d'une fois toutes les 3 sec.	lot sorts_classes_017
+sort	801997		Description	d0d4eabbd952	L'aptitude Vengeance d'Elune devient disponible aussi après avoir bloqué ou esquivé une attaque, et pas seulement après l'avoir parée. Cet effet ne peut pas se produire plus d'une fois toutes les 3 sec.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Graphie officielle « Elune » comme dans « Prière d'Elune ».
 sort	801997		Name	46093d731080	Lames lunaires	lot sorts_classes_017
-sort	801997		ToolTip	d0d4eabbd952	L'aptitude Vengeance d'Élune devient disponible aussi après avoir bloqué ou esquivé une attaque, et pas seulement après l'avoir parée. Cet effet ne peut pas se produire plus d'une fois toutes les 3 sec.	lot sorts_classes_017
+sort	801997		ToolTip	d0d4eabbd952	L'aptitude Vengeance d'Elune devient disponible aussi après avoir bloqué ou esquivé une attaque, et pas seulement après l'avoir parée. Cet effet ne peut pas se produire plus d'une fois toutes les 3 sec.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Graphie officielle « Elune ».
 sort	801998		Description	71be1d2e05b7	|cffffffffRenouveau lunaire|r augmente de $801999s1% les dégâts de votre prochain |cffffffffTir d'étoile de feu|r.\r\n\r\nInversement, votre aptitude |cffffffffTir d'étoile de feu|r réduit de $802000s1% le mana consommé par votre prochain |cffffffffRenouveau lunaire|r, sans affecter son montant de soins.	lot sorts_classes_017
 sort	801998		Name	7926ae7f3a53	Dualité cosmique	lot sorts_classes_017
-sort	801998		ToolTip	5d223601f935	Votre aptitude Renouveau lunaire augmente de $801999s1% les dégâts de votre prochain Tir d'étoile de feu.\n\nInversement, votre aptitude Tir d'étoile de feu réduit de $802000s1% le mana consommé par votre prochain Renouveau lunaire, sans affecter son montant de soins.	lot sorts_classes_017
+sort	801998		ToolTip	5d223601f935	Votre aptitude Renouveau lunaire augmente de $801999s1% les dégâts de votre prochain Tir de feu stellaire.\n\nInversement, votre aptitude Tir de feu stellaire réduit de $802000s1% le mana consommé par votre prochain Renouveau lunaire, sans affecter son montant de soins.	lot sorts_classes_017 | relu par l'API (relecture 0.9.5) : Nom du sort cité : Tir de feu stellaire, pas « Tir d'étoile de feu ».
 sort	802001		Description	1ff2eaddef70	Vous permet de passer d'un type d'arme à l'autre parmi 3 types différents, chacun soutenant une spécialisation du chasseur de sorcières.	lot sorts_classes_017
 sort	802001		Name	14700611bfec	Changement d'arme	lot sorts_classes_017
 sort	802422		Description	23d54271c5e7	Réapparaissez derrière votre cible et prenez-la en embuscade : elle subit ${$m1+0+$AP*0.5} points de dégâts d'Ombre et est enracinée pendant $803942d.\r\n\r\nGénère $/10;359504s1 points de Puissance runique.	lot sorts_classes_017

@@ -1,5 +1,5 @@
 type	id	sous_id	champ	en_empreinte	fr	note
-sort	806293		Description	352c176411f0	Réduit le coût en mana d'|cffffffffÉpoque|r de $s1% et augmente son taux de coup critique de $s2%. De plus, |cffffffffÉpoque|r inflige désormais à un ennemi proche des dégâts égaux à 100% des soins prodigués.\r\n\r\n@ext:Shares a cooldown with other |cffffffffAeon|r spells.:ext@	lot talents_033
+sort	806293		Description	352c176411f0	Réduit le coût en mana d'|cffffffffÉpoque|r de $s1% et augmente son taux de coup critique de $s2%. De plus, |cffffffffÉpoque|r inflige désormais à un ennemi proche des dégâts égaux à 100% des soins prodigués.\r\n\r\n@ext:Partage un temps de recharge avec les autres sorts d'|cffffffffÉon|r.:ext@	lot talents_033 | relu par l'API (relecture 0.9.5) : Le nom cité « Aeon » doit être « Éon », pas « Temps infini ».
 sort	806293		Name	1ac81e47b6d3	Éon de l'oubli	lot talents_033
 sort	806293		ToolTip	5f1c5205f13e	Augmente le coût en mana d'|cffffffffÉpoque|r de $s1%, réduit son taux de coup critique de $s2%. De plus, |cffffffffÉpoque|r inflige désormais à un ennemi proche des dégâts égaux à 100% des soins prodigués.	lot talents_033
 sort	806296		Description	30f28c49a708	Canalisation jusqu'à $d. Quand la canalisation prend fin, si vous avez canalisé au moins 1,5 sec, les alliés situés à moins de $806298a1 mètres sont soignés selon la durée de la canalisation.\r\n\r\nPendant la canalisation, vous êtes immunisé contre les effets d'étourdissement.	lot talents_033
@@ -8,14 +8,14 @@ sort	806296		ToolTip	98861fbd664f	Interrompre la canalisation de ce sort soigne 
 sort	806300		Description	306898e39f61	Augmente votre Esprit de $s2%.	lot talents_033
 sort	806300		Name	bda233a65aec	Puissance ondulante	lot talents_033
 sort	806300		ToolTip	4f6304ff8903	Tant que votre mana est inférieur à 50%, vos soins prodigués sont augmentés de $560401s1%. \r\n\r\nTant que votre mana est supérieur à 50%, votre taux de coup critique est augmenté de $560402s1%.	lot talents_033
-sort	806301		Description	c76763a681eb	|cFF66DDFFPassif de niveau 50|r\r\nVotre canalisation d'|cFFFFFFFFOndulation|r produit un effet unique selon votre |cFFFFFFFFÉon|r actif :\r\n@s:560382:0@\r\n@s:560386:1@\r\n@s:560393:2@\r\n@s:560395:3@	lot talents_033
+sort	806301		Description	c76763a681eb	|cFF66DDFFPassif de niveau 50|r\r\nVotre canalisation d'|cFFFFFFFFOndulation|r produit un effet unique selon votre |cFFFFFFFFÉon|r actif :\r\n@s:560382:0@\r\n@s:560386:1@\r\n@s:560393:2@\r\n@s:560395:3@	lot talents_033 | relu par l'API (relecture 0.9.5) : Le nom cité « Aeon » doit être « Éon », pas « Temps infini ».
 sort	806301		Name	5dadec6c9ded	Distordeur d'éternité	lot talents_033
-sort	806301		ToolTip	03ba87917f0b	Fait produire à votre |cFFFFFFFFOndulation|r un effet unique selon votre |cFFFFFFFFÉon|r actif :	lot talents_033
-sort	806302		Description	50b8009f8415	Activer des sorts |cffffffffÉon|r vous accorde désormais $806303s1% de dégâts et de soins supplémentaires pendant $806303d, cumulable $806303u fois.	lot talents_033
+sort	806301		ToolTip	03ba87917f0b	Fait produire à votre |cFFFFFFFFOndulation|r un effet unique selon votre |cFFFFFFFFÉon|r actif :	lot talents_033 | relu par l'API (relecture 0.9.5) : Le nom cité « Aeon » doit être « Éon », pas « Temps infini ».
+sort	806302		Description	50b8009f8415	Activer des sorts d'|cffffffffÉon|r vous accorde désormais $806303s1% de dégâts et de soins supplémentaires pendant $806303d, cumulable $806303u fois.	lot talents_033 | relu par l'API (relecture 0.9.5) : Le nom cité « Aeon » doit être « Éon », pas « Temps infini ».
 sort	806302		Name	099b61326344	Éclat scintillant	lot talents_033
-sort	806302		ToolTip	6022a9aa7e69	Les sorts |cffffffffÉon|r vous accordent $806303s1% de dégâts et de soins supplémentaires pendant $806303d, cumulable $806303u fois.	lot talents_033
+sort	806302		ToolTip	6022a9aa7e69	Les sorts d'|cffffffffÉon|r vous accordent $806303s1% de dégâts et de soins supplémentaires pendant $806303d, cumulable $806303u fois.	lot talents_033 | relu par l'API (relecture 0.9.5) : Le nom cité « Aeon » doit être « Éon », pas « Temps infini ».
 sort	806307		Description	1f8c356617d0	Marque un ennemi pendant $d. Toutes les $t2 sec, les ennemis proches de lui subissent ${$cond($gt($spfr, $spn), $m2+0+$spfr*0.42, $m2+0+$spn*0.42)} points de dégâts de Nature.\r\n\r\nÀ la fin de la durée, les ennemis proches de lui subissent également ${$cond($gt($spfr, $spn), $m1+0+$spfr*0.64, $m1+0+$spn*0.64)} points de dégâts de Nature et sont immobilisés pendant $d.	lot talents_033
-sort	806307		Name	15a1b237474a	L'Œil du cyclone	lot talents_033
+sort	806307		Name	15a1b237474a	Œil du cyclone	lot talents_033 | relu par l'API (relecture 0.9.5) : Le nom officiel est « Œil du cyclone » avec la ligature œ ; « Oeil » est incorrect.
 sort	806307		ToolTip	1a9fa8d891f0	Vitesse de déplacement réduite de $807658s1%. Après $d, les ennemis qui se trouvent dans la zone subissent $806308s1 points de dégâts de Nature et sont immobilisés pendant $d.	lot talents_033
 sort	806310		Description	7787432bdaae	$?a524861[|cffff3232][|cffffffff]Nécessite Forme mortelle|r\r\nVous vous dissipez en une flaque de sang : vous êtes immunisé contre les dégâts des sorts et des attaques, mais ne pouvez ni attaquer ni lancer de sorts, et votre vitesse de déplacement est réduite de $s3% pendant $d.$?s504088[\r\n\r\nQuand |cffffffffLiquéfaction|r prend fin, vous drainez ${$806311m1+$806311ppl1+$SP*1} points de vie aux ennemis proches et les apeurez pendant $806311d.][]\r\n\r\nUtilisable en étant étourdi, apeuré ou confus.	lot talents_033
 sort	806310		Name	bbf847a2517d	Liquéfaction	lot talents_033
@@ -32,12 +32,12 @@ sort	806324		Name	29fb8dc42427	Pourriture purulente	lot talents_033
 sort	806328		Description	7ed2f3aa2124	Lancer des sorts |cff90ee90Commandement|r sur un ennemi lui applique désormais |cffffffffPeste de la crypte|r.	lot talents_033
 sort	806328		Name	dfaca3edd53f	Maître de la mort	lot talents_033
 sort	806337		Description	4a866b5c3e5d	Les dégâts périodiques infligés ont désormais $h% de chances de vous accorder $504726s1% de hâte supplémentaire pendant $504726d.	lot talents_033
-sort	806337		Name	30f0efae6dbb	Sablier de l'Éternité	lot talents_033
+sort	806337		Name	30f0efae6dbb	Sablier de l'Éternité	lot talents_033 | relu par l'API (relecture 0.9.5) : Nom officiel : « Éternité » prend une majuscule.
 sort	806338		Description	bf4ba99235a8	Lancer |cFFFFFFFFÉpoque|r vous accorde désormais |cffffffffSables infinis|r.@s:806728:0@	lot talents_033
 sort	806338		Name	7ae23005fff3	Sables infinis	lot talents_033
 sort	806342		Description	93e66cf8bee9	Lance sur votre cible une flèche à laquelle sont attachées des vignes magiques, qui inflige ${$m2+0+$RAP*.33} points de dégâts de Nature et l'enracine pendant $d (8 sec contre les joueurs). Les dégâts subis peuvent interrompre l'effet.\r\n\r\nTouche $/1000;704337S1 cible proche supplémentaire par charge d'|cff8fff7aAvantage|r.	lot talents_033
 sort	806342		Name	cf26b15d5c45	Flèche de vigne-fouet	lot talents_033
-sort	806360		Description	fe2051b13725	|cff8fff7aGénère 1 Avantage|r\r\nÉmet une aura pendant $d qui accorde $s1% de hâte supplémentaire aux membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nTant qu'elle est active, vous générez $806360s3 Focalisation toutes les $t3 sec.\r\n\r\n@ext:All |cffffffffRanger's Horn|r spells share a cooldown.\r\n:ext@	lot talents_033
+sort	806360		Description	fe2051b13725	|cff8fff7aGénère 1 point d'Avantage|r\r\nÉmet une aura pendant $d qui accorde $s1% de hâte supplémentaire aux membres du groupe et du raid. Ne se cumule pas avec des effets similaires.\r\n\r\nTant que l'aura est active, vous générez $806360s3 points de Focalisation toutes les $t3 sec.\r\n\r\n@ext:Tous les sorts de |cffffffffCorne du rôdeur|r partagent un temps de recharge.\r\n:ext@	lot talents_033 | relu par l'API (relecture 0.9.5) : Nom de sort cité « Corne du rôdeur » ; « Génère 1 point d'Avantage » ; « points de Focalisation ».
 sort	806360		Name	1d534af6e37d	Cor d'alacrité	lot talents_033
 sort	806374		Description	a41e9b606653	Infliger des dégâts de Givre a désormais $h% de chances d'augmenter de $806393s1% les dégâts que la cible subit de |cffffffffÉlectrocution|r pendant $806393d, cumulable jusqu'à $806393u fois.	lot talents_033
 sort	806374		Name	2c3d680a580b	Conduit	lot talents_033
@@ -65,7 +65,7 @@ sort	806421		Description	a8a8b622ab33	Être frappé par un ennemi alors que vos 
 sort	806421		Name	c96470cf9969	Moissonneur d'essence	lot talents_033
 sort	806423		Description	71823a7f7923	Réduit de $/1000;s1 sec le temps de recharge de votre |cffffffffFente|r.	lot talents_033
 sort	806423		Name	1903c62b2dc8	Bondisseur de sang	lot talents_033
-sort	806424		Description	2974ac438b06	Les dégâts directs infligés ont désormais $h% de chances de rendre votre prochaine |cffffffffGuérison sanguine|r à incantation instantanée dans les $806425d.	lot talents_033
+sort	806424		Description	2974ac438b06	Les dégâts directs infligés ont désormais $h% de chances de rendre votre prochain |cffffffffSoin sanguin|r instantané pendant $806425d.	lot talents_033 | relu par l'API (relecture 0.9.5) : Accord : « Soin » est masculin (« prochaine » était fautif) ; « dans les $806425d » est un contresens : le sort reste instantané pendant la durée, il ne se lance pas « dans » ce délai.
 sort	806424		Name	86b176bec8da	Rejeton cramoisi	lot talents_033
 sort	806428		Description	2cd036f4589d	Lancer |cffffffffImprégnation|r ou |cffffffffBaiser du vampyr|r augmente désormais de $704238s1% les soins reçus par tous les alliés pendant $704238d.	lot talents_033
 sort	806428		Name	b240b63306d4	Donneur universel	lot talents_033
