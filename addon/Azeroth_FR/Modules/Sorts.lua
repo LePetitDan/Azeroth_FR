@@ -461,7 +461,10 @@ TexteSortSimple = function(fr, en, affiche)
     local _, vars_en = Decouper(en_nu)
     if #vars_en == 0 then
         local _, vars_fr = Decouper(fr)
-        if #vars_fr > 0 or find(fr, "%$") then return nil end
+        -- (0.9.5 : un « $ » seul, sans variable, que l'anglais affiche aussi : texte coupé par CoA lui-même, « up to $ »)
+        local _, d_fr = gsub(fr, "%$", "")
+        local _, d_en = gsub(en_nu, "%$", "")
+        if #vars_fr > 0 or d_fr > d_en then return nil end
         if A.Plat(en_nu) == A.Plat(aff_nu) then return fr .. indice end
         local r = AlignerNombres(fr, A.Plat(en_nu), A.Plat(aff_nu))
         return r and (r .. indice) or nil

@@ -66,7 +66,7 @@ Pas encore : le **suivi des hauts faits** à droite de l'écran ; l'écran des p
 
 *Même installation, zip `Azeroth_FR-0.9.5.zip` (25,9 Mo, 83 fichiers), avec ton accord, jeu fermé.*
 
-- **tous les sorts des 32 classes** (capacités, talents, passifs) vérifiés un à un hors jeu : 6 925 sorts, 1 seul défaut restant (un texte coupé par CoA lui-même) ; rapport `docs/2026-11-09_Rapport_Audit-sorts.md` ;
+- **tous les sorts des 32 classes** (capacités, talents, passifs) vérifiés un à un hors jeu : 6 925 sorts, aucun défaut restant ; rapport `docs/2026-11-09_Rapport_Audit-sorts.md` ;
 - **texte détaillé** (MAJ enfoncée) en français, et « Maintenez MAJ pour plus d'informations » ;
 - sorts des autres classes (« Breuvage du loa ») ; hauts faits repassés en anglais (« Runes of Ascension ») retraduits ;
 - écran de sélection : « Courrier non lu » ; message d'ajustement du niveau des créatures ; description du point « Sawmill ».
@@ -112,4 +112,4 @@ Si quelque chose ne va pas : `/azfr off` coupe tout.
 - **0.9.2** : source 1 553 893 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 142 exemples, 298 vérifications (fenêtre des hauts faits, capitales de la fenêtre des talents, libellés de CoA) ; zip 25,3 Mo.
 - **0.9.3** : source 1 571 714 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; banc **conforme**, 142 exemples, 298 vérifications ; zip 25,6 Mo.
 - **0.9.4** : source 1 574 092 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 63 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 150 exemples, 308 vérifications, plus l'écran de sélection joué avec le vrai fichier d'avant-jeu ; zip 25,7 Mo.
-- **0.9.5** : source 1 578 201 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 62 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 154 exemples, 323 vérifications (Breuvage du loa, texte détaillé avec et sans MAJ, ajustement des créatures, « Unread Mail ») ; **audit des sorts** : 6 925 sorts des classes, 16 960 affichages, 1 défaut ; zip 25,9 Mo, 83 fichiers.
+- **0.9.5** : source 1 578 201 lignes, 0 bloquant, faux cas 57/57, vrais cas 33/33 ; 62 fichiers Lua vérifiés avec Lua 5.1 ; banc **conforme**, 154 exemples, 323 vérifications (Breuvage du loa, texte détaillé avec et sans MAJ, ajustement des créatures, « Unread Mail ») ; **audit des sorts** : 6 925 sorts des classes, 16 960 affichages, 0 défaut ; zip 25,9 Mo, 83 fichiers.

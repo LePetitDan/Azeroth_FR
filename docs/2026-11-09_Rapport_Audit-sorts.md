@@ -5,7 +5,7 @@
 ## En bref
 
 - **6,925 sorts** des 32 classes de CoA (capacités, talents, capacités de talents, passifs), tels que le client les liste dans l'avancement du personnage.
-- Au départ de l'audit : **1 478 sorts en défaut**, dont 86 mal affichés. Aujourd'hui : **1 sort**, un texte d'aura que CoA a lui-même coupé (« Destroyer's Maw now blasts up to $ », talent du Pyromancien).
+- Au départ de l'audit : **1 478 sorts en défaut**, dont 86 mal affichés. Aujourd'hui : **0**. Le dernier était le talent « Héritage du Destructeur » du Pyromancien (n° 704815). CoA a coupé lui-même son texte d'aura (« Destroyer's Maw now blasts up to $ ») : l'add-on accepte maintenant ce « $ » seul, et les deux textes du talent sont relus à la main.
 - Tout est vérifié hors jeu, sur le vrai add-on. **Reste à confirmer en jeu**, classe par classe : l'audit imite l'affichage du client sans le reproduire à l'octet près.
 
 ## Ce que l'audit vérifie
@@ -51,7 +51,7 @@ Outil : `python3 -I outils/audit_sorts.py`, après `fabriquer.py`. Résultats : 
 | Porte-tempête | 199 | 0 |
 | Primaliste | 206 | 0 |
 | Prêtre | 265 | 0 |
-| Pyromancien | 187 | 1 |
+| Pyromancien | 187 | 0 |
 | Rôdeur | 198 | 0 |
 | Voleur | 259 | 0 |
 | Vénomancien | 211 | 0 |
@@ -77,7 +77,8 @@ L'add-on retrouve les nombres dans l'anglais affiché, puis les replace dans le 
 - « $l » et « $g » appariés par sorte (« Invocation d'eau ») ; un « $l » propre au français suit le nombre qui le précède ;
 - blocs « @ifknown » traduits ;
 - deux variantes qui ne diffèrent que par la couleur (« Nécessite Forme mortelle » en rouge ou en blanc) : on garde celle qui a les couleurs affichées ;
-- « $z » (lieu de la pierre de foyer) est un texte, pas un nombre.
+- « $z » (lieu de la pierre de foyer) est un texte, pas un nombre ;
+- un « $ » seul, sans variable, que l'anglais affiche aussi (texte coupé par CoA) est accepté.
 
 ### Fabrication
 
@@ -88,7 +89,7 @@ Sorts officiels de Blizzard dont le français n'a pas les « $g » ou « $l » d
 - **Imitation du client.** L'affichage est imité, pas reproduit : les nombres valent 15, les durées « 10 sec ». Un défaut d'affichage est une piste, un succès reste à confirmer en jeu.
 - **Maîtrises.** Pour les sorts de « maîtrise » (Mage, Paladin, Chaman, Démoniste), le texte détaillé contient des balises séparées par « ~ ». On ne sait pas encore ce que le client en montre. À regarder en jeu, MAJ enfoncée.
 - **Hors audit.** Les sorts hors de l'avancement du personnage ne sont pas dans cet audit : objets, familiers, montures, sorts du serveur. Ils profitent des mêmes corrections, mais sans vérification une à une.
-- **Reste à faire.** Un seul défaut : le texte d'aura du talent 704815, coupé par CoA lui-même.
+- **Texte coupé par CoA.** Le texte d'aura du talent 704815 reste coupé en français comme en anglais (« … frappe désormais jusqu'à $ ») : le nombre manque dans les fichiers du jeu. Il est relu à la main (`relu`), ainsi que la description du talent (« Éclat de lave »).
 
 ## Coût
 

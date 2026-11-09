@@ -205,7 +205,7 @@ Aussi : description du point « Sawmill » de la carte (point 26) et « Maintene
 ### L'audit des sorts
 
 - **Périmètre** : 6 925 sorts des 32 classes de CoA (avancement du personnage du client), chacun vérifié dans la source puis à l'affichage, passé au vrai add-on hors jeu (16 960 affichages : conditions à « oui » et à « non », avec et sans MAJ).
-- **Résultat** : 1 478 sorts en défaut au départ ; **1** à la fin (un texte d'aura coupé par CoA lui-même).
+- **Résultat** : 1 478 sorts en défaut au départ ; **0** à la fin. Le dernier, le talent « Héritage du Destructeur » du Pyromancien, avait un texte d'aura coupé par CoA lui-même (« … up to $ ») : l'add-on accepte ce « $ » seul, et le talent est relu à la main.
 - **Traductions** : 1 218 sorts de l'avancement ajoutés à la source (chantier N, 39 lots) ; 2 376 doutes renvoyés à l'API avec leur raison ; 477 traduits ; 1 754 gardés en anglais à dessein, état `technique`, avec leur raison (`glossaire/sorts_garder.tsv`). « Ascended » reste une question ouverte.
 - **Add-on** : dix corrections de l'alignement des nombres, listées dans le rapport de l'audit (balises du client, conditions collées, couleurs, « $l » et « $g », « @ifknown »…).
 - **Fabrication** : les sorts officiels sans les « $g » et « $l » de l'anglais sont embarqués.
@@ -221,5 +221,5 @@ Vagues 14 à 18 : environ **5,69 $** ; dépense estimée totale **121,03 $** (ga
 - Faux cas refusés 57/57, vrais cas acceptés 33/33.
 - 62 fichiers Lua vérifiés avec Lua 5.1.
 - Banc hors jeu **conforme** : 154 exemples, 323 vérifications. Nouveaux cas : « Breuvage du loa », texte détaillé avec et sans MAJ, message d'ajustement des créatures, « Unread Mail » sur l'écran de sélection joué avec le vrai fichier d'avant-jeu.
-- Audit des sorts : 1 défaut sur 6 925 sorts.
+- Audit des sorts : **0 défaut** sur 6 925 sorts.
 - Zip `Azeroth_FR-0.9.5.zip` : 25,9 Mo, 83 fichiers. Les données des sorts sont redécoupées : `Azeroth_FR_Sorts02` et `Azeroth_FR_Sorts03` comptent un fichier de moins chacun, `Azeroth_FR_Sorts04` un de plus (84 fichiers dans la 0.9.4).
