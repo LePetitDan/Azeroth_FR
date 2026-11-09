@@ -12,16 +12,16 @@ use std::path::PathBuf;
 use std::sync::{Arc, Mutex};
 use std::time::{Duration, Instant};
 
-// couleurs du logo du Discord Azeroth_FR : brume vert-de-gris, or de la fleur de lys, cristal bleu-blanc-rouge
-const NUIT: Color32 = Color32::from_rgb(18, 41, 47);
-const CARTE: Color32 = Color32::from_rgb(28, 58, 65);
-const BORD: Color32 = Color32::from_rgb(62, 112, 123);
-const TEXTE: Color32 = Color32::from_rgb(233, 243, 242);
-const DOUX: Color32 = Color32::from_rgb(143, 179, 180);
-const OR: Color32 = Color32::from_rgb(222, 178, 74);
-const CRISTAL: Color32 = Color32::from_rgb(161, 229, 240);
+// couleurs du logo du Discord Azeroth_FR : bleu nuit, or du livre et de l'étoile, ruban bleu-blanc-rouge
+const NUIT: Color32 = Color32::from_rgb(4, 16, 46);
+const CARTE: Color32 = Color32::from_rgb(12, 31, 74);
+const BORD: Color32 = Color32::from_rgb(44, 72, 132);
+const TEXTE: Color32 = Color32::from_rgb(238, 242, 251);
+const DOUX: Color32 = Color32::from_rgb(160, 176, 214);
+const OR: Color32 = Color32::from_rgb(233, 182, 94);
+const CRISTAL: Color32 = Color32::from_rgb(250, 232, 175);
 const VERT: Color32 = Color32::from_rgb(132, 222, 168);
-const ROUGE: Color32 = Color32::from_rgb(238, 148, 160);
+const ROUGE: Color32 = Color32::from_rgb(244, 120, 120);
 
 #[derive(Clone, PartialEq)]
 enum Etat {
@@ -305,8 +305,8 @@ fn apparence(ctx: &egui::Context) {
     v.window_fill = NUIT;
     v.override_text_color = None;
     v.selection.bg_fill = OR;
-    v.widgets.hovered.weak_bg_fill = Color32::from_rgb(40, 78, 87);
-    v.widgets.active.weak_bg_fill = Color32::from_rgb(52, 96, 106);
+    v.widgets.hovered.weak_bg_fill = Color32::from_rgb(24, 48, 104);
+    v.widgets.active.weak_bg_fill = Color32::from_rgb(34, 62, 126);
     for w in [&mut v.widgets.inactive, &mut v.widgets.hovered, &mut v.widgets.active, &mut v.widgets.noninteractive] {
         w.corner_radius = egui::CornerRadius::same(6);
     }
