@@ -1,4 +1,8 @@
+<img src="public/images/logo.png" width="96" align="right" alt="Logo d'Azeroth_FR">
+
 # Azeroth_FR : Conquest of Azeroth en français
+
+**[Télécharger la dernière version](https://github.com/LePetitDan/Azeroth_FR/releases/latest)** : l'installateur (le plus simple) ou le zip (installation à la main).
 
 Azeroth_FR est un add-on de traduction française pour le serveur **Conquest of Azeroth Core** (client World of Warcraft 3.3.5a). Il met le jeu en français pendant que vous jouez. Les fichiers du jeu ne sont pas modifiés, et les autres joueurs ne voient aucune différence.
 
@@ -16,6 +20,8 @@ Azeroth_FR est un add-on de traduction française pour le serveur **Conquest of 
 Les noms officiels viennent du client français de Blizzard (« Éclair de givre », « Hurlevent »…). Les textes propres à Conquest of Azeroth sont traduits par le projet, avec le même vocabulaire.
 
 ## Installer avec l'installateur (le plus simple)
+
+<p><img src="public/images/installateur-bienvenue.png" width="380" alt="L'installateur : écran de bienvenue"> <img src="public/images/installateur-pret.png" width="380" alt="L'installateur : c'est prêt"></p>
 
 1. Téléchargez `Azeroth_FR-Installateur-<version>.exe` (Windows) ou `Azeroth_FR-Installateur-<version>-linux` (Linux) sur la [page des versions](https://github.com/LePetitDan/Azeroth_FR/releases/latest).
 2. Lancez-le et suivez l'assistant : **Commencer**, puis **Installer**.
