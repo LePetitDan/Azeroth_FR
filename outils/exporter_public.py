@@ -85,6 +85,8 @@ def main():
                     ignore=shutil.ignore_patterns('target', 'source'))
     shutil.copytree(os.path.join(RACINE, 'public'), os.path.join(dep, 'public'))
     shutil.copy2(os.path.join(RACINE, 'public', 'LISEZMOI.md'), os.path.join(dep, 'README.md'))
+    shutil.copy2(os.path.join(RACINE, 'LICENSE'), os.path.join(dep, 'LICENSE'))
+    shutil.copy2(os.path.join(RACINE, 'LICENSE'), pub)
     with open(os.path.join(dep, '.gitignore'), 'w', encoding='utf-8', newline='\n') as h:
         h.write('*.zip\n')
     fautes = balayer(pub) + balayer(dep)

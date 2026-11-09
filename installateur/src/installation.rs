@@ -107,6 +107,115 @@ pub fn jeu_ouvert() -> bool {
     })
 }
 
+/// Une erreur du disque, dite simplement, avec ce qu'il faut faire.
+fn expliquer(quoi: &str, e: &std::io::Error) -> String {
+    let brut = e.raw_os_error();
+    let conseil = if e.kind() == std::io::ErrorKind::PermissionDenied {
+        if cfg!(windows) {
+            "Windows refuse d'écrire dans ce dossier. Fermez le jeu et le lanceur, puis réessayez. Si cela ne suffit pas : fermez cet installateur, faites un clic droit dessus et choisissez « Exécuter en tant qu'administrateur »."
+        } else {
+            "Vous n'avez pas le droit d'écrire dans ce dossier : vérifiez ses permissions, puis réessayez."
+        }
+    } else if cfg!(windows) && brut == Some(32) {
+        "Un fichier est utilisé par un autre programme : fermez le jeu et le lanceur, puis réessayez."
+    } else if (cfg!(windows) && brut == Some(112)) || (!cfg!(windows) && brut == Some(28)) {
+        "Le disque est plein : libérez de la place (environ 200 Mo), puis réessayez."
+    } else {
+        "Réessayez ; si l'erreur revient, signalez-la sur le Discord Azeroth_FR avec ce message."
+    };
+    format!("{}.\n{}\n(détail : {})", quoi, conseil, e)
+}
+
+/// Le joueur a choisi un dossier voisin du bon (un sous-dossier comme `Interface\AddOns`, ou le dossier qui contient
+/// celui du jeu) : on retrouve le dossier du jeu en remontant, puis en descendant de deux niveaux.
+pub fn corriger(p: &Path) -> Option<PathBuf> {
+    if dossier_valide(p) {
+        return Some(p.to_path_buf());
+    }
+    let mut haut = p.parent();
+    for _ in 0..5 {
+        match haut {
+            Some(h) if dossier_valide(h) => return Some(h.to_path_buf()),
+            Some(h) => haut = h.parent(),
+            None => break,
+        }
+    }
+    let mut trouves = Vec::new();
+    explorer(p, 2, &std::sync::atomic::AtomicBool::new(false), &|_| {}, &mut trouves);
+    if trouves.len() == 1 { trouves.pop() } else { None }
+}
+
+const A_SAUTER: [&str; 14] = [
+    "windows", "$recycle.bin", "system volume information", "programdata", "appdata", "node_modules", ".git",
+    "proc", "sys", "dev", "snap", ".cache", ".cargo", ".npm",
+];
+
+fn explorer(d: &Path, profondeur: usize, arret: &std::sync::atomic::AtomicBool, vu: &dyn Fn(&Path), trouves: &mut Vec<PathBuf>) {
+    if arret.load(std::sync::atomic::Ordering::Relaxed) {
+        return;
+    }
+    if dossier_valide(d) {
+        // la recherche ne retient que le client d'Ascension (pas un autre World of Warcraft de l'ordinateur)
+        if d.join("Ascension.exe").is_file() && !trouves.iter().any(|t| t == d) {
+            trouves.push(d.to_path_buf());
+        }
+        return; // on ne cherche pas un jeu dans un jeu
+    }
+    if profondeur == 0 {
+        return;
+    }
+    let Ok(it) = fs::read_dir(d) else { return };
+    for e in it.flatten() {
+        // file_type ne suit pas les liens : pas de boucle
+        if !e.file_type().map(|t| t.is_dir()).unwrap_or(false) {
+            continue;
+        }
+        let nom = e.file_name().to_string_lossy().to_lowercase();
+        if A_SAUTER.contains(&nom.as_str()) {
+            continue;
+        }
+        let p = e.path();
+        vu(&p);
+        explorer(&p, profondeur - 1, arret, vu, trouves);
+    }
+}
+
+/// Cherche le jeu sur les disques de l'ordinateur (Windows : toutes les lettres ; Linux : dossier personnel, disques
+/// montés). `vu` reçoit les dossiers parcourus, pour montrer que la recherche avance ; `arret` l'interrompt.
+pub fn chercher(arret: &std::sync::atomic::AtomicBool, vu: &dyn Fn(&Path)) -> Vec<PathBuf> {
+    let mut racines: Vec<(PathBuf, usize)> = Vec::new();
+    if cfg!(windows) {
+        for l in b'C'..=b'Z' {
+            let r = PathBuf::from(format!("{}:\\", l as char));
+            if r.is_dir() {
+                racines.push((r, 5));
+            }
+        }
+    } else {
+        if let Ok(h) = std::env::var("HOME") {
+            racines.push((PathBuf::from(h), 8));
+        }
+        for r in ["/mnt", "/media", "/run/media", "/opt"] {
+            if Path::new(r).is_dir() {
+                racines.push((PathBuf::from(r), 6));
+            }
+        }
+    }
+    let mut trouves = Vec::new();
+    for (r, prof) in racines {
+        explorer(&r, prof, arret, vu, &mut trouves);
+    }
+    // plusieurs clients d'Ascension (d'autres serveurs) : ceux installés par le lanceur de CoA d'abord, et seuls
+    // s'il y en a
+    let coa: Vec<PathBuf> = trouves.iter().filter(|p| est_coa(p)).cloned().collect();
+    if coa.is_empty() { trouves } else { coa }
+}
+
+/// Le dossier porte-t-il la marque du lanceur de Conquest of Azeroth ?
+pub fn est_coa(p: &Path) -> bool {
+    p.join(".coa-launcher").is_dir() || p.join("CLIENT-RELEASE.json").is_file()
+}
+
 pub struct Rapport {
     pub fichiers: usize,
     pub octets: u64,
@@ -142,16 +251,16 @@ pub fn installer(dossier: &Path, progres: &dyn Fn(f32, &str), retenir: bool) -> 
     }
     progres(0.0, "Retrait de l'ancienne version…");
     for d in nos_dossiers(dossier) {
-        fs::remove_dir_all(&d).map_err(|e| format!("Impossible de retirer {} : {}", d.display(), e))?;
+        fs::remove_dir_all(&d).map_err(|e| expliquer(&format!("Impossible de retirer {}", d.display()), &e))?;
     }
     let ptrxml = dossier.join("Interface").join("PTRXML");
-    fs::create_dir_all(&ptrxml).map_err(|e| format!("Impossible de créer {} : {}", ptrxml.display(), e))?;
+    fs::create_dir_all(&ptrxml).map_err(|e| expliquer(&format!("Impossible de créer {}", ptrxml.display()), &e))?;
     let ptr = ptrxml.join("PTR.xml");
     let mut mis_de_cote = false;
     if ptr.is_file() && !ptr_est_le_notre(&ptr) {
         let sauvegarde = ptrxml.join(PTR_SAUVEGARDE);
         if !sauvegarde.exists() {
-            fs::rename(&ptr, &sauvegarde).map_err(|e| format!("Impossible de mettre de côté PTR.xml : {}", e))?;
+            fs::rename(&ptr, &sauvegarde).map_err(|e| expliquer("Impossible de mettre de côté PTR.xml", &e))?;
             mis_de_cote = true;
         }
     }
@@ -166,15 +275,15 @@ pub fn installer(dossier: &Path, progres: &dyn Fn(f32, &str), retenir: bool) -> 
         };
         let cible = dossier.join(&relatif);
         if entree.is_dir() {
-            fs::create_dir_all(&cible).map_err(|e| format!("{} : {}", cible.display(), e))?;
+            fs::create_dir_all(&cible).map_err(|e| expliquer(&format!("Impossible de créer {}", cible.display()), &e))?;
             continue;
         }
         if let Some(p) = cible.parent() {
-            fs::create_dir_all(p).map_err(|e| format!("{} : {}", p.display(), e))?;
+            fs::create_dir_all(p).map_err(|e| expliquer(&format!("Impossible de créer {}", p.display()), &e))?;
         }
         let mut contenu = Vec::with_capacity(entree.size() as usize);
         entree.read_to_end(&mut contenu).map_err(|e| format!("Archive illisible : {}", e))?;
-        fs::write(&cible, &contenu).map_err(|e| format!("Impossible d'écrire {} : {}", cible.display(), e))?;
+        fs::write(&cible, &contenu).map_err(|e| expliquer(&format!("Impossible d'écrire {}", cible.display()), &e))?;
         let ecrit = fs::metadata(&cible).map(|m| m.len()).unwrap_or(0);
         if ecrit != contenu.len() as u64 {
             return Err(format!("Fichier incomplet : {}", cible.display()));
@@ -201,23 +310,23 @@ pub fn desinstaller(dossier: &Path) -> Result<usize, String> {
     }
     let mut n = 0;
     for d in nos_dossiers(dossier) {
-        fs::remove_dir_all(&d).map_err(|e| format!("Impossible de retirer {} : {}", d.display(), e))?;
+        fs::remove_dir_all(&d).map_err(|e| expliquer(&format!("Impossible de retirer {}", d.display()), &e))?;
         n += 1;
     }
     let ptrxml = dossier.join("Interface").join("PTRXML");
     let lua = ptrxml.join("AzerothFR_Interface.lua");
     if lua.is_file() {
-        fs::remove_file(&lua).map_err(|e| e.to_string())?;
+        fs::remove_file(&lua).map_err(|e| expliquer("Impossible de retirer AzerothFR_Interface.lua", &e))?;
         n += 1;
     }
     let ptr = ptrxml.join("PTR.xml");
     if ptr.is_file() && ptr_est_le_notre(&ptr) {
-        fs::remove_file(&ptr).map_err(|e| e.to_string())?;
+        fs::remove_file(&ptr).map_err(|e| expliquer("Impossible de retirer PTR.xml", &e))?;
         n += 1;
     }
     let sauvegarde = ptrxml.join(PTR_SAUVEGARDE);
     if sauvegarde.is_file() && !ptr.exists() {
-        fs::rename(&sauvegarde, &ptr).map_err(|e| e.to_string())?;
+        fs::rename(&sauvegarde, &ptr).map_err(|e| expliquer("Impossible de remettre l'ancien PTR.xml", &e))?;
     }
     Ok(n)
 }

@@ -2,6 +2,15 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
+## 1.0.0 (2026-11-09) : première version publique
+
+- **Installateur guidé**, étape par étape : Bienvenue, Dossier du jeu, Installation, C'est prêt.
+  - Il trouve le jeu tout seul ; sinon il le cherche sur vos disques, ou vous le choisissez. Un dossier voisin du bon est corrigé.
+  - Si le jeu est ouvert, il attend que vous le fermiez, puis installe.
+  - En cas d'erreur, il dit quoi faire.
+  - À la fin, il indique la suite : lancer le jeu, vérifier le bouton AddOns, `/azfr`.
+- Code publié sous licence MIT (les textes du jeu ne sont pas couverts).
+
 ## 0.9.6 (2026-11-09)
 
 - **Installateur** pour Windows et Linux : il trouve le dossier du jeu, installe, met à jour ou désinstalle en un clic, sans internet.

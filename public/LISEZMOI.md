@@ -17,12 +17,14 @@ Les noms officiels viennent du client français de Blizzard (« Éclair de givre
 
 ## Installer avec l'installateur (le plus simple)
 
-1. **Fermez le jeu.**
-2. Téléchargez `Azeroth_FR-Installateur-<version>.exe` (Windows) ou `Azeroth_FR-Installateur-<version>-linux` (Linux).
-3. Lancez-le. Il trouve tout seul le dossier du jeu grâce au lanceur de Conquest of Azeroth ; sinon, choisissez le dossier qui contient `Ascension.exe`.
-4. Cliquez sur **Installer** (ou **Mettre à jour**). C'est prêt : lancez le jeu.
+1. Téléchargez `Azeroth_FR-Installateur-<version>.exe` (Windows) ou `Azeroth_FR-Installateur-<version>-linux` (Linux) sur la [page des versions](https://github.com/LePetitDan/Azeroth_FR/releases/latest).
+2. Lancez-le et suivez l'assistant : **Commencer**, puis **Installer**.
+   - Il trouve le dossier du jeu tout seul. Sinon, cliquez sur **Chercher automatiquement**, ou choisissez le dossier où le lanceur a installé le jeu (il contient `Ascension.exe` et un dossier `Interface`).
+   - Si le jeu est ouvert, fermez-le : l'installation démarre toute seule.
+3. Lancez le jeu avec le lanceur. S'il propose un **« nettoyage des add-ons »**, laissez-le **décoché** : sinon il retire la traduction.
+4. À l'écran des personnages, le bouton **AddOns** doit montrer **Azeroth_FR** coché.
 
-Windows peut afficher « Windows a protégé votre ordinateur », car l'installateur n'est pas signé (un certificat coûte cher pour un projet de joueurs). Cliquez sur « Informations complémentaires », puis « Exécuter quand même ». L'installateur ne touche qu'aux dossiers d'Azeroth_FR et n'a besoin ni d'internet ni des droits d'administrateur.
+**Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal : l'installateur n'est pas signé (un certificat coûte cher pour un projet de joueurs). Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. L'installateur ne touche qu'aux dossiers d'Azeroth_FR et n'a pas besoin d'internet.
 
 Sous Linux, rendez le fichier exécutable (clic droit, Propriétés, « Autoriser l'exécution ») avant de le lancer.
 
@@ -32,7 +34,7 @@ Sous Linux, rendez le fichier exécutable (clic droit, Propriétés, « Autorise
 2. Téléchargez `Azeroth_FR-<version>.zip`.
 3. Faites un clic droit sur le zip, puis « Extraire tout… ». Choisissez **le dossier du jeu**, celui qui contient le dossier `Interface`.
 4. Si Windows propose de remplacer des fichiers, répondez **Oui**.
-5. Lancez le jeu. À l'écran des personnages, ouvrez le bouton **AddOns** et vérifiez qu'**Azeroth_FR** et ses modules (`Azeroth_FR_Sorts01`, `Azeroth_FR_Objets01`…) sont cochés.
+5. Lancez le jeu (dans le lanceur, « nettoyage des add-ons » décoché). À l'écran des personnages, ouvrez le bouton **AddOns** et vérifiez qu'**Azeroth_FR** et ses modules (`Azeroth_FR_Sorts01`, `Azeroth_FR_Objets01`…) sont cochés.
 
 Le zip installe deux choses :
 - `Interface\AddOns\Azeroth_FR…` : l'add-on et ses données (une vingtaine de dossiers) ;
@@ -46,7 +48,7 @@ Avec l'installateur : lancez la nouvelle version et cliquez sur **Mettre à jour
 
 ## Désinstaller
 
-Avec l'installateur : **Désinstaller**, en bas de la fenêtre.
+Avec l'installateur : à l'étape « Dossier du jeu », **Désinstaller la traduction**.
 
 À la main : supprimez les dossiers `Interface\AddOns\Azeroth_FR…`, ainsi que `Interface\PTRXML\AzerothFR_Interface.lua` et `Interface\PTRXML\PTR.xml`.
 
@@ -82,6 +84,10 @@ Ne partagez jamais votre identifiant ni votre mot de passe. Évitez aussi de mon
 - **Les mises à jour de Conquest of Azeroth** ajoutent des textes : ils restent en anglais jusqu'à la version suivante d'Azeroth_FR.
 - **Les messages des joueurs** ne sont pas traduits.
 - **Le nom de vos ennemis dans le journal de combat** peut rester en anglais.
+
+## Licence
+
+Le code de l'add-on et de l'installateur est sous licence MIT (fichier `LICENSE`). Les textes du jeu ne sont pas couverts : ils appartiennent à Blizzard Entertainment et aux auteurs de Conquest of Azeroth.
 
 ## Remerciements
 
