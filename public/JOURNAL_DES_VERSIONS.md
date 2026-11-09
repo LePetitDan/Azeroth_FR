@@ -2,6 +2,12 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
+## 0.9.6 (2026-11-09)
+
+- **Installateur** pour Windows et Linux : il trouve le dossier du jeu, installe, met à jour ou désinstalle en un clic, sans internet.
+- **Panneau d'options dans le jeu** (Interface, AddOns, Azeroth_FR, ou `/azfr`) : couper la traduction, ou seulement les bulles des PNJ, les messages au centre de l'écran, les plaques de nom.
+- Le logo d'Azeroth_FR dans le panneau et l'installateur.
+
 ## 0.9.5 (2026-11-09)
 
 - **Tous les sorts des 32 classes vérifiés.** Les 6 925 capacités, talents et passifs ont été contrôlés un à un, puis relus.

@@ -15,7 +15,18 @@ Azeroth_FR est un add-on de traduction française pour le serveur **Conquest of 
 
 Les noms officiels viennent du client français de Blizzard (« Éclair de givre », « Hurlevent »…). Les textes propres à Conquest of Azeroth sont traduits par le projet, avec le même vocabulaire.
 
-## Installer (Windows)
+## Installer avec l'installateur (le plus simple)
+
+1. **Fermez le jeu.**
+2. Téléchargez `Azeroth_FR-Installateur-<version>.exe` (Windows) ou `Azeroth_FR-Installateur-<version>-linux` (Linux).
+3. Lancez-le. Il trouve tout seul le dossier du jeu grâce au lanceur de Conquest of Azeroth ; sinon, choisissez le dossier qui contient `Ascension.exe`.
+4. Cliquez sur **Installer** (ou **Mettre à jour**). C'est prêt : lancez le jeu.
+
+Windows peut afficher « Windows a protégé votre ordinateur », car l'installateur n'est pas signé (un certificat coûte cher pour un projet de joueurs). Cliquez sur « Informations complémentaires », puis « Exécuter quand même ». L'installateur ne touche qu'aux dossiers d'Azeroth_FR et n'a besoin ni d'internet ni des droits d'administrateur.
+
+Sous Linux, rendez le fichier exécutable (clic droit, Propriétés, « Autoriser l'exécution ») avant de le lancer.
+
+## Installer à la main (Windows)
 
 1. **Fermez le jeu.**
 2. Téléchargez `Azeroth_FR-<version>.zip`.
@@ -29,16 +40,25 @@ Le zip installe deux choses :
 
 ## Mettre à jour
 
-Fermez le jeu. Supprimez les dossiers `Azeroth_FR…` de `Interface\AddOns`, puis extrayez le nouveau zip comme à l'installation. Le découpage des données change d'une version à l'autre : sans cette suppression, de vieux fichiers resteraient.
+Avec l'installateur : lancez la nouvelle version et cliquez sur **Mettre à jour**.
+
+À la main : fermez le jeu, supprimez les dossiers `Azeroth_FR…` de `Interface\AddOns`, puis extrayez le nouveau zip comme à l'installation. Le découpage des données change d'une version à l'autre : sans cette suppression, de vieux fichiers resteraient.
 
 ## Désinstaller
 
-Supprimez les dossiers `Interface\AddOns\Azeroth_FR…`, ainsi que `Interface\PTRXML\AzerothFR_Interface.lua` et `Interface\PTRXML\PTR.xml`.
+Avec l'installateur : **Désinstaller**, en bas de la fenêtre.
+
+À la main : supprimez les dossiers `Interface\AddOns\Azeroth_FR…`, ainsi que `Interface\PTRXML\AzerothFR_Interface.lua` et `Interface\PTRXML\PTR.xml`.
+
+## Le panneau d'options
+
+Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez simplement `/azfr`. Vous pouvez y couper toute la traduction (« Jeu en français »), ou une partie seulement : les bulles des PNJ, les messages au centre de l'écran, les plaques de nom.
 
 ## Commandes
 
 | Commande | Effet |
 |---|---|
+| `/azfr` | Ouvre le panneau d'options |
 | `/azfr off` / `/azfr on` | Coupe ou remet la traduction (le choix est gardé d'une session à l'autre) |
 | `/azfr version` | Version installée |
 | `/azfr bulles off` / `on` | Coupe ou remet la traduction des bulles des PNJ |

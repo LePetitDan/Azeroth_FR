@@ -289,8 +289,10 @@ local function Commande(msg)
             end
         elseif msg == "etiquettes" or msg == "étiquettes" then
             AfficherEtiquettes(false)
+        elseif msg == "" and A.OuvrirOptions and A.OuvrirOptions() then
+            -- 0.9.6 : /azfr tout seul ouvre le panneau d'options (Modules/Options.lua)
         else
-            A.Message("commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulle, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
+            A.Message("commandes : /azfr (panneau d'options), /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulle, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
         end
     end)
     if not ok then A.NoterErreur("/azfr", err) end

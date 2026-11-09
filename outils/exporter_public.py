@@ -34,7 +34,7 @@ def balayer(dossier):
     for base, _, fichiers in os.walk(dossier):
         for nom in fichiers:
             p = os.path.join(base, nom)
-            if nom.endswith('.zip'):
+            if nom.endswith(('.zip', '.exe', '-linux', '.ttf', '.ico', '.png', '.tga')):
                 continue
             try:
                 t = open(p, encoding='utf-8').read()
@@ -67,12 +67,22 @@ def main():
     for nom in ('LISEZMOI.md', 'JOURNAL_DES_VERSIONS.md'):
         shutil.copy2(os.path.join(RACINE, 'public', nom), pub)
     shutil.copytree(os.path.join(RACINE, 'public', 'tests'), os.path.join(pub, 'tests'))
+    # installateurs (outils : installateur/, cargo), s'ils sont fabriqués pour cette version
+    fichiers = [zip_]
+    for nom in ('Azeroth_FR-Installateur-%s.exe' % version, 'Azeroth_FR-Installateur-%s-linux' % version):
+        p = os.path.join(DIST, 'installateur', nom)
+        if os.path.exists(p):
+            shutil.copy2(p, pub)
+            fichiers.append(p)
     with open(os.path.join(pub, 'SHA256SUMS.txt'), 'w', encoding='utf-8', newline='\n') as h:
-        h.write('%s  %s\n' % (sha256(zip_), os.path.basename(zip_)))
+        for p in fichiers:
+            h.write('%s  %s\n' % (sha256(p), os.path.basename(p)))
 
     dep = os.path.join(DIST, 'depot_public')
     shutil.rmtree(dep, ignore_errors=True)
     shutil.copytree(os.path.join(RACINE, 'addon'), os.path.join(dep, 'addon'))
+    shutil.copytree(os.path.join(RACINE, 'installateur'), os.path.join(dep, 'installateur'),
+                    ignore=shutil.ignore_patterns('target', 'source'))
     shutil.copytree(os.path.join(RACINE, 'public'), os.path.join(dep, 'public'))
     shutil.copy2(os.path.join(RACINE, 'public', 'LISEZMOI.md'), os.path.join(dep, 'README.md'))
     with open(os.path.join(dep, '.gitignore'), 'w', encoding='utf-8', newline='\n') as h:

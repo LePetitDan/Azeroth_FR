@@ -149,9 +149,42 @@ local function NouveauCadre(nom)
     function c:ClearAllPoints() end
     function c:SetOwner(o) self.proprio = o end
     function c:IsOwned(o) return self.proprio == o end
+    -- 0.9.6 : panneau d'options (cases a cocher, textes, logo)
+    if not c.SetWidth then function c:SetWidth(w) self.largeur = w end end
+    function c:CreateFontString()
+        local z = NouvelleZone(nil)
+        if not z.SetJustifyH then function z:SetJustifyH() end end
+        return z
+    end
+    function c:CreateTexture()
+        local t = {}
+        function t:SetTexture(x) self.chemin = x end
+        function t:SetWidth() end
+        function t:SetHeight() end
+        function t:SetPoint() end
+        return t
+    end
+    function c:SetNormalTexture() end
+    function c:SetPushedTexture() end
+    function c:SetHighlightTexture() end
+    function c:SetCheckedTexture() end
+    function c:SetDisabledCheckedTexture() end
+    function c:SetChecked(v) self.coche = (v and v ~= 0) and true or false end
+    function c:GetChecked() return self.coche and 1 or nil end
+    function c:Enable() self.desactive = false end
+    function c:Disable() self.desactive = true end
+    function c:Click()
+        if self.desactive then return end
+        self.coche = not self.coche
+        if self.scripts.OnClick then self.scripts.OnClick(self) end
+    end
     if nom then _G[nom] = c end
     return c
 end
+-- 0.9.6 : menu Interface du jeu (onglet AddOns)
+PANNEAUX_OPTIONS = {}
+function InterfaceOptions_AddCategory(p) table.insert(PANNEAUX_OPTIONS, p) end
+function InterfaceOptionsFrame_OpenToCategory(p) PANNEAU_OUVERT = p end
 
 -- Infobulles
 local function NouvelleBulle(nom)
@@ -1359,6 +1392,24 @@ SlashCmdList.AZFR("version")
 SlashCmdList.AZFR("stats")
 SlashCmdList.AZFR("n'importe quoi")
 noter(A.Erreurs == 0, "aucune erreur evitee pendant les cas", A.DerniereErreur)
+
+-- 0.9.6 : panneau d'options (menu Interface > AddOns > Azeroth_FR), memes reglages que les commandes
+local P = A.Options and A.Options()
+noter(P ~= nil and PANNEAUX_OPTIONS[1] == P and P.name == "Azeroth_FR", "panneau d'options inscrit dans le menu Interface")
+if P then
+    SlashCmdList.AZFR("")
+    noter(PANNEAU_OUVERT == P, "/azfr tout seul ouvre le panneau d'options")
+    P.refresh()
+    noter(P.francais:GetChecked() == 1 and P.cases.bulles:GetChecked() == 1, "panneau : cases cochées au départ")
+    P.francais:Click()
+    noter(A.Actif() == false and P.cases.bulles.desactive == true, "panneau : décocher « Jeu en français » coupe la traduction et grise les parties")
+    P.francais:Click()
+    noter(A.Actif() == true and P.cases.bulles.desactive == false, "panneau : recocher la remet")
+    P.cases.plaques:Click()
+    noter(A.ModuleActif("plaques") == false and A.ModuleActif("bulles") == true, "panneau : case « Plaques de nom » coupe ce module seul")
+    P.cases.plaques:Click()
+    noter(A.ModuleActif("plaques") == true, "panneau : case « Plaques de nom » le remet")
+end
 
 -- Aucune variable globale du jeu ecrite : seules les globales de l'add-on sont nouvelles.
 local permises = { AzerothFR = true, AzerothFR_Reglages = true, SLASH_AZFR1 = true, AzerothFR_Interface = true,

@@ -15,3 +15,6 @@ Thumbs.db
 
 # Fichiers temporaires en cours d'écriture
 *.tmp
+
+# Installateur (Rust) : compilation
+installateur/target/
