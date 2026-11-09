@@ -178,6 +178,18 @@ local function NouveauCadre(nom)
         self.coche = not self.coche
         if self.scripts.OnClick then self.scripts.OnClick(self) end
     end
+    -- 1.0.1 : zone de saisie (lien « Soutenir le createur ») ; on ne remplace pas une methode deja simulee
+    for _, m in ipairs({ "SetAutoFocus", "SetFontObject", "SetBackdrop", "SetBackdropColor", "SetBackdropBorderColor",
+                         "SetTextInsets", "HighlightText", "ClearFocus" }) do
+        if not c[m] then c[m] = function() end end
+    end
+    if not c.SetText then
+        function c:SetText(v)
+            self.texte = v
+            if self.scripts and self.scripts.OnTextChanged then self.scripts.OnTextChanged(self) end
+        end
+        function c:GetText() return self.texte end
+    end
     if nom then _G[nom] = c end
     return c
 end
@@ -1409,6 +1421,35 @@ if P then
     noter(A.ModuleActif("plaques") == false and A.ModuleActif("bulles") == true, "panneau : case « Plaques de nom » coupe ce module seul")
     P.cases.plaques:Click()
     noter(A.ModuleActif("plaques") == true, "panneau : case « Plaques de nom » le remet")
+    -- 1.0.1 : encart « Soutenir le createur »
+    noter(P.lien ~= nil and P.lien:GetText() == A.LIEN_SOUTIEN and A.LIEN_SOUTIEN == "buymeacoffee.com/LePetitDan", "panneau : adresse de soutien affichée")
+    if P.lien then
+        P.lien:SetText("autre chose")
+        noter(P.lien:GetText() == A.LIEN_SOUTIEN, "panneau : l'adresse de soutien ne peut pas être modifiée")
+    end
+end
+-- 1.0.1 : carte du monde, zone survolee avec ses niveaux (ajout du client CoA) et listes deroulantes
+do
+    local fr = A.NomZone("Western Plaguelands")
+    noter(fr ~= nil and fr ~= "Western Plaguelands", "carte : « Western Plaguelands » a un nom français (" .. tostring(fr) .. ")")
+    if fr then
+        egal("carte : zone survolée avec niveaux colorés", A.NomZoneAvecNiveaux("Western Plaguelands |cffff2020(51-60)|r"), fr .. " |cffff2020(51-60)|r")
+        egal("carte : zone survolée avec niveaux sans couleur", A.NomZoneAvecNiveaux("Western Plaguelands (51-60)"), fr .. " (51-60)")
+        egal("carte : nom inconnu avec niveaux, laissé", A.NomZoneAvecNiveaux("Zzz Inconnue (1-5)"), nil)
+        local avant = { UIDROPDOWNMENU_OPEN_MENU, DropDownList1, DropDownList1Button1, DropDownList1Button2 }
+        DropDownList1 = NouveauCadre(nil); DropDownList1.visible = true
+        if not DropDownList1.IsShown then function DropDownList1:IsShown() return true end end
+        local b1, b2 = NouvelleZone("Western Plaguelands"), NouvelleZone("Zzz Inconnue")
+        DropDownList1Button1, DropDownList1Button2 = b1, b2
+        UIDROPDOWNMENU_OPEN_MENU = "AutreListe"
+        A.TraduireListeCarte()
+        egal("carte : une autre liste déroulante n'est pas touchée", b1:GetText(), "Western Plaguelands")
+        UIDROPDOWNMENU_OPEN_MENU = "WorldMapZoneDropDown"
+        A.TraduireListeCarte()
+        egal("carte : ligne de la liste « Zone » en français", b1:GetText(), fr)
+        egal("carte : ligne inconnue de la liste laissée", b2:GetText(), "Zzz Inconnue")
+        UIDROPDOWNMENU_OPEN_MENU, DropDownList1, DropDownList1Button1, DropDownList1Button2 = avant[1], avant[2], avant[3], avant[4]
+    end
 end
 
 -- Aucune variable globale du jeu ecrite : seules les globales de l'add-on sont nouvelles.
