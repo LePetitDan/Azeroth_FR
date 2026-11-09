@@ -4,6 +4,7 @@ Une ligne par décision : date, décision, raison. Le plus récent en haut.
 
 | Date | Décision | Pourquoi / précision |
 |---|---|---|
+| 09/11/2026 | Add-on 0.9.5 installé dans `D:\Wow_Core` : dossiers `Azeroth_FR…` et `Interface\PTRXML` remplacés par ceux du zip ; 83 fichiers, 95 227 869 octets, comme la fabrication ; version 0.9.5 dans le TOC ; zip gardé dans `D:\Azeroth_FR_API` | Dan |
 | 09/11/2026 | Dernier défaut de l'audit corrigé à la demande de Dan (« il faut le corriger ») : talent « Héritage du Destructeur » (Pyromancien, n° 704815), texte d'aura coupé par CoA (« … up to $ ») accepté par l'add-on et relu ; description relue (« Éclat de lave »). Audit : 0 défaut sur 6 925 sorts | Dan |
 | 09/11/2026 | **Exigence de Dan avant la première version publique** : « Un joueur doit comprendre totalement l'intégralité de ses sorts » : tous les sorts de toutes les classes, les talents, les passifs, etc., en français. Mise en œuvre : audit des sorts des classes à chaque fabrication (`outils/audit_sorts.py`, rapport `docs/2026-11-09_Rapport_Audit-sorts.md`) ; la version publique attend un audit à zéro défaut, confirmé en jeu | Dan |
 | 09/11/2026 | Texte détaillé des sorts de CoA (« @ext:…:ext@ », montré quand on tient MAJ) : traduit entre ses bornes ; la phrase du client « Hold SHIFT for more information » devient « Maintenez MAJ pour plus d'informations » (« MAJ » comme `SHIFT_KEY` officiel, « Touche MAJ ») | Claude, captures du 09/11 |
