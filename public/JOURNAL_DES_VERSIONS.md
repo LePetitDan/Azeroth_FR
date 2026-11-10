@@ -2,9 +2,9 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
-## 1.2.0 (2026-11-10)
+## 1.2.0 (en préparation)
 
-- **Signaler une erreur en deux gestes** : survolez le texte en cause, tapez `/azfr signaler`, copiez (Ctrl+C) le compte rendu qui s'affiche et collez-le sur le Discord. Il contient déjà la version, la zone, le numéro de l'objet ou du sort et le texte affiché.
+- **Une fenêtre pour signaler une erreur** : cliquez sur le nouveau bouton Azeroth_FR de la minicarte, visez le texte en cause (objet, sort, bouton, menu, texte de fenêtre), cochez ce qui ne va pas, copiez et collez sur le Discord. Clic droit sur le bouton : les options.
 - **La difficulté « Ascended » s'appelle « transcendé »** partout : « Raid transcendé », « en mode transcendé », « Transcendé : Hakkar ».
 - **Étiquettes des objets en français** : classes (« Guerrier »), couleurs (« Vert »), créatures et apparences (« Loup », « Drake noir », « Élémentaire d'eau »), lieux et modes (« Temple d'Ahn'Qiraj héroïque », « Donjon : Le Nexus », « Raid : Le sanctum Obsidien - 10 joueurs »). Environ 7 000 lignes de plus en français.
 

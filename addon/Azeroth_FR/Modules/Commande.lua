@@ -295,7 +295,7 @@ local function Commande(msg)
         elseif msg == "" and A.OuvrirOptions and A.OuvrirOptions() then
             -- 0.9.6 : /azfr tout seul ouvre le panneau d'options (Modules/Options.lua)
         else
-            A.Message("commandes : /azfr (panneau d'options), /azfr signaler (survolez le texte en cause), /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulle, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
+            A.Message("commandes : /azfr (panneau d'options), /azfr signaler (fenêtre de signalement), /azfr on, /azfr off, /azfr version, /azfr stats, /azfr erreurs, /azfr etiquettes, /azfr bulle, /azfr bulles on|off, /azfr centre on|off, /azfr plaques on|off")
         end
     end)
     if not ok then A.NoterErreur("/azfr", err) end

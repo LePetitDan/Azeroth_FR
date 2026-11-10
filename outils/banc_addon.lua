@@ -181,7 +181,8 @@ local function NouveauCadre(nom)
     -- 1.0.1 : zone de saisie (lien « Soutenir le createur ») ; on ne remplace pas une methode deja simulee
     for _, m in ipairs({ "SetAutoFocus", "SetFontObject", "SetBackdrop", "SetBackdropColor", "SetBackdropBorderColor",
                          "SetTextInsets", "HighlightText", "ClearFocus", "SetMultiLine", "SetFocus", "SetFrameStrata",
-                         "EnableMouse", "SetNormalFontObject", "SetHighlightFontObject", "SetJustifyH" }) do
+                         "EnableMouse", "SetNormalFontObject", "SetHighlightFontObject", "SetJustifyH", "RegisterForClicks",
+                         "SetFrameLevel", "SetHighlightTexture" }) do
         if not c[m] then c[m] = function() end end
     end
     if not c.SetText then
@@ -1431,30 +1432,67 @@ if P then
         noter(P.lien:GetText() == A.LIEN_SOUTIEN, "panneau : l'adresse de soutien ne peut pas être modifiée")
     end
 end
--- 1.2.0 : /azfr signaler, compte rendu prêt à copier
+-- 1.2.0 : fenêtre de signalement (viser, cocher, copier) et bouton de la minicarte
 do
-    local avant = { GetRealZoneText, GetSubZoneText, GetMouseFocus, A.VERSION }
+    local avant = { GetRealZoneText, GetSubZoneText, GetMouseFocus, GetCursorPosition, A.VERSION }
     GetRealZoneText = function() return "Forêt d'Elwynn" end
     GetSubZoneText = function() return "Comté-de-l'Or" end
     GetMouseFocus = function() return nil end
+    GetCursorPosition = function() return 150, 150 end
     A.VERSION = "1.2.0"
+    -- a) une infobulle affichée
     GameTooltip:Effacer({ "|cffffffffNom affiché|r", "Deuxième `ligne`" }, nil, nil, nil, nil)
     GameTooltip.visible = true
-    if not GameTooltip.IsShown or not GameTooltip:IsShown() then function GameTooltip:IsShown() return true end end
-    local t = A.TexteSignalement()
+    local montree = GameTooltip.IsShown
+    function GameTooltip:IsShown() return true end
+    local t = A.TexteSignalement("anglais")
     noter(string.find(t, "[Azeroth_FR 1.2.0] Signalement", 1, true) ~= nil, "signaler : la version est dans le compte rendu")
+    noter(string.find(t, "Problème : Le texte est resté en anglais", 1, true) ~= nil, "signaler : le problème coché est dans le compte rendu")
     noter(string.find(t, "Zone : Forêt d'Elwynn / Comté-de-l'Or", 1, true) ~= nil, "signaler : la zone est dans le compte rendu")
     noter(string.find(t, "  Nom affiché", 1, true) ~= nil and string.find(t, "|c", 1, true) == nil, "signaler : texte de l'infobulle, sans codes de couleur")
     noter(string.find(t, "`", 1, true) == nil, "signaler : pas d'accent grave (il casserait le bloc Discord)")
-    noter(string.find(t, "Ce qui ne va pas", 1, true) ~= nil, "signaler : une ligne à compléter")
     SlashCmdList["AZFR"]("signaler")
     local f = A.FenetreSignalement()
-    noter(f ~= nil and f.zone ~= nil and string.sub(f.zone:GetText() or "", 1, 4) == "```\n", "signaler : /azfr signaler ouvre la fenêtre avec le bloc à copier")
+    noter(f ~= nil and f.zone ~= nil and string.sub(f.zone:GetText() or "", 1, 4) == "```\n", "signaler : /azfr signaler, la souris sur un objet, ouvre la fenêtre avec le bloc à copier")
     if f then
         f.zone:SetText("autre chose")
         noter(f.zone:GetText() == f.texte, "signaler : le compte rendu ne se modifie pas dans la fenêtre")
+        f.cases.faux:Click()
+        noter(string.find(f.texte, "Problème : La traduction est fausse ou maladroite", 1, true) ~= nil and f.cases.faux:GetChecked() and not f.cases.anglais:GetChecked(), "signaler : cocher un problème met le compte rendu à jour (un seul coché)")
     end
-    GetRealZoneText, GetSubZoneText, GetMouseFocus, A.VERSION = avant[1], avant[2], avant[3], avant[4]
+    -- b) un texte d'interface : pas d'infobulle, un cadre sous la souris avec un texte sous le curseur
+    function GameTooltip:IsShown() return false end
+    local function Region(texte, g, d, b, h)
+        return { GetObjectType = function() return "FontString" end, IsVisible = function() return true end,
+                 GetText = function() return texte end, GetLeft = function() return g end, GetRight = function() return d end,
+                 GetBottom = function() return b end, GetTop = function() return h end }
+    end
+    local fen = { GetName = function() return "FenetreDeTest" end, GetParent = function() return UIParent end }
+    local bouton = { GetName = function() return "FenetreDeTestBouton3" end, GetParent = function() return fen end,
+                     IsVisible = function() return true end, GetEffectiveScale = function() return 1 end,
+                     GetRegions = function() return Region("Ailleurs", 300, 400, 300, 320), Region("Start Trial", 100, 200, 140, 160) end,
+                     GetChildren = function() end }
+    GetMouseFocus = function() return bouton end
+    t = A.TexteSignalement("anglais")
+    noter(string.find(t, "Fenêtre : FenetreDeTest", 1, true) ~= nil and string.find(t, "Élément : FenetreDeTestBouton3", 1, true) ~= nil, "signaler : un élément d'interface donne sa fenêtre et son nom")
+    noter(string.find(t, "  Start Trial", 1, true) ~= nil and string.find(t, "Ailleurs", 1, true) == nil, "signaler : seul le texte sous le curseur est relevé")
+    -- c) la visée : la fenêtre se retire, le compte à rebours relève ce qui est sous la souris
+    if f then
+        A.ViserSignalement()
+        local _, b = A.FenetreSignalement()
+        noter(b ~= nil and b.actif == true and not f:IsShown(), "signaler : « Viser un texte » retire la fenêtre et lance le compte à rebours")
+        A.TicVisee(1.5)
+        noter(b.actif == true and string.find(b.apercu:GetText() or "", "Start Trial", 1, true) ~= nil, "signaler : le bandeau montre ce qui est sous la souris")
+        A.TicVisee(3)
+        noter(b.actif == false and f:IsShown() and string.find(f.texte, "Start Trial", 1, true) ~= nil and string.find(f.vise:GetText() or "", "Texte d'interface", 1, true) ~= nil, "signaler : à la fin du compte à rebours, le texte visé est dans la fenêtre")
+        f:Hide()
+    end
+    -- d) rien sous la souris : le compte rendu le dit
+    GetMouseFocus = function() return nil end
+    t = A.TexteSignalement("autre")
+    noter(string.find(t, "rien de relevé", 1, true) ~= nil, "signaler : rien sous la souris, le compte rendu demande une description")
+    GameTooltip.IsShown = montree
+    GetRealZoneText, GetSubZoneText, GetMouseFocus, GetCursorPosition, A.VERSION = avant[1], avant[2], avant[3], avant[4], avant[5]
 end
 -- 1.1.0 : « une nouvelle version est disponible » (messages entre add-ons : guilde, groupe)
 do

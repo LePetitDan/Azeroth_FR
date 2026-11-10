@@ -66,7 +66,7 @@ Avec l'installateur : à l'étape « Dossier du jeu », **Désinstaller la tradu
 
 ## Le panneau d'options
 
-Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez simplement `/azfr`. Vous pouvez y couper toute la traduction (« Jeu en français »), ou une partie seulement : les bulles des PNJ, les messages au centre de l'écran, les plaques de nom.
+Dans le jeu : **clic droit sur le bouton Azeroth_FR de la minicarte**, ou **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez simplement `/azfr`. Vous pouvez y couper toute la traduction (« Jeu en français »), ou une partie seulement : les bulles des PNJ, les messages au centre de l'écran, les plaques de nom.
 
 ## Commandes
 
@@ -78,21 +78,22 @@ Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez si
 | `/azfr bulles off` / `on` | Coupe ou remet la traduction des bulles des PNJ |
 | `/azfr centre off` / `on` | Coupe ou remet la traduction des messages du centre de l'écran |
 | `/azfr plaques off` / `on` | Coupe ou remet la traduction des plaques de nom |
-| `/azfr signaler` | Ouvre un compte rendu prêt à copier de ce que vous survolez, à coller sur le Discord |
+| `/azfr signaler` | Ouvre la fenêtre de signalement |
 | `/azfr bulle` | Écrit dans la discussion le texte de l'infobulle affichée, tel que l'add-on le voit (diagnostic détaillé) |
 | `/azfr stats` / `/azfr erreurs` | Diagnostic (actions bloquées, erreurs de l'add-on) |
 
 ## Signaler une erreur
 
-Le plus simple, en jeu :
+Tout se fait dans une petite fenêtre du jeu :
 
-1. **Survolez** le texte en cause (un objet, un sort, un bouton).
-2. Tapez **`/azfr signaler`**. Une petite fenêtre s'ouvre avec un compte rendu tout prêt, déjà sélectionné.
-3. Appuyez sur **Ctrl+C**, puis collez (Ctrl+V) dans le salon des signalements du [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay), en ajoutant un mot sur ce qui ne va pas.
+1. Cliquez sur le **bouton Azeroth_FR de la minicarte** (ou sur « Signaler une erreur… » dans les options, ou tapez `/azfr signaler`).
+2. Cliquez sur **Viser un texte**, puis posez la souris sur le texte en cause : un objet, un sort, un bouton, une ligne de menu, un texte de fenêtre. Il est relevé au bout de 4 secondes.
+3. **Cochez** ce qui ne va pas (resté en anglais, traduction fausse, texte coupé…).
+4. Appuyez sur **Ctrl+C**, puis collez (Ctrl+V) dans le salon des signalements du [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay).
 
-Le compte rendu contient la version de l'add-on, la zone, le numéro de l'objet ou du sort et le texte affiché. Il ne contient ni le nom de votre personnage ni rien sur votre compte.
+Le compte rendu contient la version de l'add-on, la zone, le numéro de l'objet ou du sort, le nom de la fenêtre et le texte affiché. Il ne contient ni le nom de votre personnage ni rien sur votre compte.
 
-Une capture d'écran reste la bienvenue pour ce qui ne s'explique pas en texte (une fenêtre mal disposée, un texte coupé).
+Ce que la visée ne peut pas relever : les textes dans le décor (bulles des PNJ, noms au-dessus des têtes) et les écrans d'avant-jeu. Pour ceux-là, cochez « Autre chose » et joignez une capture d'écran.
 
 Ne partagez jamais votre identifiant ni votre mot de passe. Évitez aussi de montrer le nom de votre personnage si vous ne le souhaitez pas.
 

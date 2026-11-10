@@ -63,6 +63,27 @@ local function Adresse(parent, adresse)
     return z
 end
 
+-- bouton simple sans modele XML
+local function Bouton(parent, libelle, largeur)
+    local b = CreateFrame("Button", nil, parent)
+    b:SetWidth(largeur or 150)
+    b:SetHeight(22)
+    b:SetBackdrop({
+        bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 10,
+        insets = { left = 2, right = 2, top = 2, bottom = 2 },
+    })
+    b:SetBackdropColor(0.25, 0.18, 0.05, 0.9)
+    b:SetBackdropBorderColor(0.91, 0.71, 0.37, 1)
+    b:SetNormalFontObject(GameFontNormal)
+    b:SetHighlightFontObject(GameFontHighlight)
+    b:SetText(libelle)
+    return b
+end
+
+-- les briques des fenetres d'Azeroth_FR (Signaler.lua s'en sert)
+A.UI = { Texte = Texte, Case = Case, Adresse = Adresse, Bouton = Bouton }
+
 local function Coupe(module)
     local r = AzerothFR_Reglages
     return type(r) == "table" and type(r.coupes) == "table" and r.coupes[module] and true or false
@@ -70,6 +91,10 @@ end
 
 local function Rafraichir()
     if not panneau then return end
+    if panneau.bouton then
+        local r = AzerothFR_Reglages
+        panneau.bouton:SetChecked(not (type(r) == "table" and r.sans_bouton))
+    end
     -- (1.1.0) une version plus recente a ete vue chez un autre joueur
     local nouvelle = A.NouvelleVersion and A.NouvelleVersion()
     if panneau.maj then
@@ -146,12 +171,24 @@ local function Construire()
         precedent = c
     end
 
+    -- (1.2.0) le bouton de la minicarte (Signaler.lua)
+    p.bouton = Case(p, "Bouton Azeroth_FR sur la minicarte")
+    p.bouton:SetPoint("TOPLEFT", precedent, "BOTTOMLEFT", 0, -2)
+    p.bouton:SetScript("OnClick", function(self)
+        if A.MontrerBoutonMinicarte then A.MontrerBoutonMinicarte(self:GetChecked() and true or false) end
+    end)
+    precedent = p.bouton
+
     -- (1.1.1) le Discord : nouvelles, aide, signalements
-    local signaler = Texte(p, "GameFontHighlightSmall", "Nouvelles versions, aide, erreur de traduction : tout se passe sur le Discord Azeroth_FR. Pour signaler un texte : survolez-le, tapez /azfr signaler, copiez (Ctrl+C) et collez sur le Discord.")
+    local signaler = Texte(p, "GameFontHighlightSmall", "Nouvelles versions, aide, erreur de traduction : tout se passe sur le Discord Azeroth_FR. Pour signaler un texte, cliquez sur « Signaler une erreur… » ou sur le bouton Azeroth_FR de la minicarte.")
     signaler:SetPoint("TOPLEFT", precedent, "BOTTOMLEFT", 2, -16)
     signaler:SetWidth(520)
     p.discord = Adresse(p, A.LIEN_DISCORD)
     p.discord:SetPoint("TOPLEFT", signaler, "BOTTOMLEFT", 6, -6)
+    -- (1.2.0) la fenetre de signalement, sans commande a retenir
+    p.signaler = Bouton(p, "Signaler une erreur…", 170)
+    p.signaler:SetPoint("LEFT", p.discord, "RIGHT", 12, 0)
+    p.signaler:SetScript("OnClick", function() if A.OuvrirSignalement then A.OuvrirSignalement() end end)
     local commandes = Texte(p, "GameFontDisableSmall", "Commandes : /azfr on, /azfr off, /azfr version, /azfr stats, /azfr bulle, /azfr aide.")
     commandes:SetPoint("TOPLEFT", p.discord, "BOTTOMLEFT", -6, -8)
     commandes:SetWidth(520)
