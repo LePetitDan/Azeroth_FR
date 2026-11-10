@@ -105,7 +105,7 @@ Pour chaque sort : survolez-le dans le grimoire ou la fenêtre des talents, puis
 - [ ] **Lumière concentrée** (Passif) — talent, sort n° 300326
 - [ ] **Justice prompte** (Rang 2) — talent, sort n° 300327
 - [ ] **Lueur guide** (Rang 2) — talent, sort n° 300329
-- [ ] **Barrage Ascended** (Passif) — talent, sort n° 300359
+- [ ] **Barrage transcendé** (Passif) — talent, sort n° 300359
 - [ ] **Lumière instructive** (Passif) — talent, sort n° 300360
 - [ ] **Cycles du jour** (Spécialisation) — talent, sort n° 300361
 - [ ] **Piety Sun Cleric Passive Hidden2** (Passif) — talent, sort n° 300362

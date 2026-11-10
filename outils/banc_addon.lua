@@ -180,7 +180,8 @@ local function NouveauCadre(nom)
     end
     -- 1.0.1 : zone de saisie (lien « Soutenir le createur ») ; on ne remplace pas une methode deja simulee
     for _, m in ipairs({ "SetAutoFocus", "SetFontObject", "SetBackdrop", "SetBackdropColor", "SetBackdropBorderColor",
-                         "SetTextInsets", "HighlightText", "ClearFocus" }) do
+                         "SetTextInsets", "HighlightText", "ClearFocus", "SetMultiLine", "SetFocus", "SetFrameStrata",
+                         "EnableMouse", "SetNormalFontObject", "SetHighlightFontObject", "SetJustifyH" }) do
         if not c[m] then c[m] = function() end end
     end
     if not c.SetText then
@@ -1429,6 +1430,31 @@ if P then
         P.lien:SetText("autre chose")
         noter(P.lien:GetText() == A.LIEN_SOUTIEN, "panneau : l'adresse de soutien ne peut pas être modifiée")
     end
+end
+-- 1.2.0 : /azfr signaler, compte rendu prêt à copier
+do
+    local avant = { GetRealZoneText, GetSubZoneText, GetMouseFocus, A.VERSION }
+    GetRealZoneText = function() return "Forêt d'Elwynn" end
+    GetSubZoneText = function() return "Comté-de-l'Or" end
+    GetMouseFocus = function() return nil end
+    A.VERSION = "1.2.0"
+    GameTooltip:Effacer({ "|cffffffffNom affiché|r", "Deuxième `ligne`" }, nil, nil, nil, nil)
+    GameTooltip.visible = true
+    if not GameTooltip.IsShown or not GameTooltip:IsShown() then function GameTooltip:IsShown() return true end end
+    local t = A.TexteSignalement()
+    noter(string.find(t, "[Azeroth_FR 1.2.0] Signalement", 1, true) ~= nil, "signaler : la version est dans le compte rendu")
+    noter(string.find(t, "Zone : Forêt d'Elwynn / Comté-de-l'Or", 1, true) ~= nil, "signaler : la zone est dans le compte rendu")
+    noter(string.find(t, "  Nom affiché", 1, true) ~= nil and string.find(t, "|c", 1, true) == nil, "signaler : texte de l'infobulle, sans codes de couleur")
+    noter(string.find(t, "`", 1, true) == nil, "signaler : pas d'accent grave (il casserait le bloc Discord)")
+    noter(string.find(t, "Ce qui ne va pas", 1, true) ~= nil, "signaler : une ligne à compléter")
+    SlashCmdList["AZFR"]("signaler")
+    local f = A.FenetreSignalement()
+    noter(f ~= nil and f.zone ~= nil and string.sub(f.zone:GetText() or "", 1, 4) == "```\n", "signaler : /azfr signaler ouvre la fenêtre avec le bloc à copier")
+    if f then
+        f.zone:SetText("autre chose")
+        noter(f.zone:GetText() == f.texte, "signaler : le compte rendu ne se modifie pas dans la fenêtre")
+    end
+    GetRealZoneText, GetSubZoneText, GetMouseFocus, A.VERSION = avant[1], avant[2], avant[3], avant[4]
 end
 -- 1.1.0 : « une nouvelle version est disponible » (messages entre add-ons : guilde, groupe)
 do

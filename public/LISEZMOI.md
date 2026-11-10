@@ -78,22 +78,28 @@ Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez si
 | `/azfr bulles off` / `on` | Coupe ou remet la traduction des bulles des PNJ |
 | `/azfr centre off` / `on` | Coupe ou remet la traduction des messages du centre de l'écran |
 | `/azfr plaques off` / `on` | Coupe ou remet la traduction des plaques de nom |
-| `/azfr bulle` | Écrit dans la discussion le texte de l'infobulle affichée, tel que l'add-on le voit : utile pour signaler une erreur |
+| `/azfr signaler` | Ouvre un compte rendu prêt à copier de ce que vous survolez, à coller sur le Discord |
+| `/azfr bulle` | Écrit dans la discussion le texte de l'infobulle affichée, tel que l'add-on le voit (diagnostic détaillé) |
 | `/azfr stats` / `/azfr erreurs` | Diagnostic (actions bloquées, erreurs de l'add-on) |
 
 ## Signaler une erreur
 
-Sur le [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay), envoyez :
-- une capture d'écran ;
-- l'endroit du jeu (fenêtre, PNJ, sort, objet) ;
-- pour une infobulle, ce qu'écrit `/azfr bulle` pendant qu'elle est affichée.
+Le plus simple, en jeu :
+
+1. **Survolez** le texte en cause (un objet, un sort, un bouton).
+2. Tapez **`/azfr signaler`**. Une petite fenêtre s'ouvre avec un compte rendu tout prêt, déjà sélectionné.
+3. Appuyez sur **Ctrl+C**, puis collez (Ctrl+V) dans le salon des signalements du [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay), en ajoutant un mot sur ce qui ne va pas.
+
+Le compte rendu contient la version de l'add-on, la zone, le numéro de l'objet ou du sort et le texte affiché. Il ne contient ni le nom de votre personnage ni rien sur votre compte.
+
+Une capture d'écran reste la bienvenue pour ce qui ne s'explique pas en texte (une fenêtre mal disposée, un texte coupé).
 
 Ne partagez jamais votre identifiant ni votre mot de passe. Évitez aussi de montrer le nom de votre personnage si vous ne le souhaitez pas.
 
 ## Limites connues
 
 - **La carte du monde** : les grands noms peints sur la carte (« Eastern Kingdoms », « The Great Sea ») sont des images du jeu, un add-on ne peut pas les changer.
-- **Ce qui reste en anglais.** Quelques termes propres à Conquest of Azeroth gardent leur nom anglais, comme la difficulté *Ascended* ou *Worldforged*. Les noms propres inventés par CoA (personnages, la plupart des lieux) restent tels quels, comme dans le jeu français de Blizzard pour ses propres noms. Quelques textes encore récents (boutique, enchantements mystiques) attendent leur traduction.
+- **Ce qui reste en anglais.** Quelques termes propres à Conquest of Azeroth gardent leur nom anglais, comme *Worldforged* ou *Hardcore*. Les noms propres inventés par CoA (personnages, la plupart des lieux) restent tels quels, comme dans le jeu français de Blizzard pour ses propres noms. Quelques textes encore récents (boutique, enchantements mystiques) attendent leur traduction.
 - **Les mises à jour de Conquest of Azeroth** ajoutent des textes : ils restent en anglais jusqu'à la version suivante d'Azeroth_FR.
 - **Les messages des joueurs** ne sont pas traduits.
 - **Le nom de vos ennemis dans le journal de combat** peut rester en anglais.

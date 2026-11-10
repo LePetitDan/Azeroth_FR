@@ -147,7 +147,7 @@ local function Construire()
     end
 
     -- (1.1.1) le Discord : nouvelles, aide, signalements
-    local signaler = Texte(p, "GameFontHighlightSmall", "Nouvelles versions, aide, erreur de traduction : tout se passe sur le Discord Azeroth_FR. Pour signaler un texte, survolez-le, tapez /azfr bulle et envoyez une capture d'écran.")
+    local signaler = Texte(p, "GameFontHighlightSmall", "Nouvelles versions, aide, erreur de traduction : tout se passe sur le Discord Azeroth_FR. Pour signaler un texte : survolez-le, tapez /azfr signaler, copiez (Ctrl+C) et collez sur le Discord.")
     signaler:SetPoint("TOPLEFT", precedent, "BOTTOMLEFT", 2, -16)
     signaler:SetWidth(520)
     p.discord = Adresse(p, A.LIEN_DISCORD)

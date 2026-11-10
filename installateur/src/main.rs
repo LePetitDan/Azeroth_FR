@@ -607,7 +607,7 @@ impl App {
             for (n, l) in [
                 "Lancez le jeu avec le lanceur, comme d'habitude. Si le lanceur propose un « nettoyage des add-ons », laissez-le décoché : sinon il retire la traduction.",
                 "À l'écran des personnages, cliquez sur le bouton AddOns : Azeroth_FR et ses modules doivent être cochés.",
-                "En jeu, tapez /azfr dans la discussion pour ouvrir les options (couper la traduction, les bulles, les plaques de nom…).",
+                "En jeu, tapez /azfr pour les options. Un texte faux ou resté en anglais ? Survolez-le et tapez /azfr signaler.",
             ].iter().enumerate() {
                 ui.horizontal_top(|ui| {
                     ui.label(RichText::new(format!("{}.", n + 1)).size(17.0).strong().color(OR));

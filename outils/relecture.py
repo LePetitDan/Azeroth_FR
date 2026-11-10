@@ -33,9 +33,8 @@ CONSIGNE = (
     "noms_officiels et termes fournis), nom de sort cité différent du nom français fourni (noms_de_sorts_cites), "
     "anglais resté dans la phrase alors qu'un français existe, faute d'orthographe, d'accord ou de grammaire, tournure "
     "assez maladroite pour gêner la compréhension. Ne réécris PAS pour le style. Garde exactement les variables "
-    "($s1, $d, ${…}, $?s…[…][…], @…@), les nombres, les codes |c…|r et les retours à la ligne. Un terme encore anglais "
-    "qui dépend d'une question ouverte de Dan (ressources des classes : Heat, Insanity, Ember, Reaped Souls… ; "
-    "« Ascended ») reste en anglais : ce n'est pas une erreur.")
+    "($s1, $d, ${…}, $?s…[…][…], @…@), les nombres, les codes |c…|r et les retours à la ligne. La difficulté "
+    "« Ascended » de CoA se dit « transcendé », accordé (décision 35).")
 
 
 def ids_avancement():

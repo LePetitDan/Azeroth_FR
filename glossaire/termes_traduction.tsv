@@ -102,7 +102,7 @@ Aeon	(?i)\baeons?\b	éon	glossaire 3 (registre)
 Rush	(?i)\brush\b	ruée (mouvement) ; afflux (de sang)	glossaire 3 (registre)
 Bloodforged		forgé par le sang (accordé : forgée, forgés, forgées)	décision 1	Dans une étiquette @…@ : ne rien toucher (table des étiquettes)
 Worldforged		Worldforged (reste en anglais, invariable)	décision 2	« Parchemin Worldforged : X »
-Ascended		Ascended (reste en anglais, invariable)	décision 3	« Raid Ascended » : place à vérifier au cas par cas
+Ascended		transcendé (accordé : transcendée, transcendés ; « Raid transcendé », « difficulté transcendée »)	décision 35	Dans une étiquette @…@ : ne rien toucher (table des étiquettes)
 Keystone	\bKeystones?\b	Clé (Mythique+)	décision 4	« Clé : donjon (N) » ; les clés d'archéologie et de Karazhan ne sont pas concernées
 Elemental Lodestone		Magnétite élémentaire	décision 5
 Call Board	(?i)\bcall ?boards?\b	tableau d'appel (« Tableau d'appel » en début de phrase)	décision 6	[KEYWORD:Call Board] reste tel quel
@@ -122,7 +122,7 @@ Bushcraft	(?i)\bbushcraft\b	Survie	décision 18
 @étiquette@	@(?![a-z]{1,4}:[\d:-]+@)[^@\n]{1,80}@	(ne rien changer entre les @)	décisions 9, 12, 13	Les étiquettes sont traduites par glossaire/etiquettes.tsv, pas dans le texte : recopier l'étiquette telle quelle
 Temple of Ahn'Qiraj	\bTemple of Ahn'Qiraj\b	(anglais : question ouverte 11h)	A_TRANCHER 11h	Dans une étiquette : garder l'anglais tant que Dan n'a pas tranché
 Ahn'kahet, the Old Kingdom		(anglais : question ouverte 11j)	A_TRANCHER 11j	Garder l'anglais tant que Dan n'a pas tranché
-Raid: The Obsidian Sanctum	\b(?:Raid: The Obsidian Sanctum|Raid: Eye of Eternity|(?:Heroic|Mythic|Ascended) Raid: Naxxramas)\b	(anglais : question ouverte 11m)	A_TRANCHER 11m	Format d'étiquette « Raid: X - N Player » : garder l'anglais
+Raid: The Obsidian Sanctum	\b(?:Raid: The Obsidian Sanctum|Raid: Eye of Eternity|(?:Heroic|Mythic|Ascended) Raid: Naxxramas)\b	Raid : Le sanctum Obsidien ; Raid : L'Œil de l'éternité ; Raid héroïque : Naxxramas	décision 38	Format d'étiquette : la table des étiquettes s'en charge
 Hit Rating (enchantement)	^\+\d+ (?:Hit Rating|Mana|Health|to All Stats)$	forme majoritaire de Blizzard : « +N au score de toucher », « +N points de mana », « +N points de vie », « +N à toutes les caractéristiques »	décision 26	Nom d'enchantement CoA
 per 5 sec (enchantement)	^\+\d+ (?:Mana per 5 sec|Health per 5 sec|Spell Damage|Spell Healing|Shield Block Value)\b|^Increases \w+ spell power by \d+\.$	à traduire au plus près des formes officielles voisines (« N points de mana toutes les 5 sec. »)	décision 27	Nom d'enchantement CoA sans modèle officiel
 Reaped Soul	\bReaped Souls?\b	Âme moissonnée (pluriel : Âmes moissonnées)	décision 20	Ressource ou mécanique de classe CoA (décision de Dan du 05/11) ; vérifier que ce n'est pas un nom de sort, de PNJ ou de lieu
@@ -148,4 +148,4 @@ Nightmare Mode	\bNightmare Mode\b	Mode Cauchemar	usage établi	Catégorie des ha
 Hardcore	\bHardcore\b	Hardcore (invariable)	usage établi	Nom de mode de CoA, gardé dans la fenêtre des Épreuves : « Duo Hardcore », « Hardcore - Champion du peuple »
 Ironman	\bIronman\b	Ironman (invariable)	usage établi	Nom de mode de CoA, gardé dans la fenêtre des Épreuves : « Ironman - Hogger doit mourir »
 High Risk	(?i)\bHigh[- ]Risk\b	Haut risque	usage établi	Mode PvP de CoA (« Ironman - Haut risque », HIGH_RISK_PVP_TITLE)
-Ascended	\bAscended\b	Ascended (garder l'anglais)	question ouverte	Difficulté de raid de CoA (« Ascended (10-25 joueurs) ») : en attente d'une décision de Dan, garder l'anglais
+Ascended	\bAscended\b	transcendé (accordé)	décision 35	Difficulté de raid de CoA : « Transcendé (10-25 joueurs) », « en mode transcendé », « Transcendé : Hakkar »

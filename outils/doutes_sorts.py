@@ -24,12 +24,8 @@ import controle as C  # noqa: E402
 RACINE = os.path.dirname(ICI)
 NOM_LOT = 'doutes_resolus_095'
 # questions de A_TRANCHER.md encore sans réponse de Dan (09/11/2026) : l'agent n'y applique aucune décision
-OUVERTES = ["11h Temple of Ahn'Qiraj (nom du raid)", "11j Ahn'kahet, the Old Kingdom (nom du donjon)",
-            "11l étiquettes rares des objets", "11m raids au format « Raid: X - N Player »",
-            "12a/12b noms des enchantements",
-            "20 ressources et mécaniques des classes CoA sans nom français (Heat, Insanity, Ember, Reaped Souls…)",
-            "21 difficulté de raid « Ascended »"]
-QUESTIONS_OUVERTES = {'Ascended'}           # A_TRANCHER.md, question 21 : pas de décision à la place de Dan
+OUVERTES = ["11l étiquettes rares des objets"]
+QUESTIONS_OUVERTES = set()           # 10/11/2026 : « Ascended » est tranché (décision 35, « transcendé »)
 
 
 TYPES = {'sort'}

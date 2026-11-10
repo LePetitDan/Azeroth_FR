@@ -1916,6 +1916,113 @@ def _voie_ascension(self):
 
 Importeur.voie_ascension = _voie_ascension
 
+
+# ---------------------------------------------------------------------------------------------------------------
+# Décision 35 (Dan, 10/11/2026) : la difficulté « Ascended » de CoA se dit « transcendé », accordé.
+# ---------------------------------------------------------------------------------------------------------------
+_ESP = '[   ]'
+RE_ASC_EN = re.compile(r'(?i)ascen[ns]*ded')   # aussi après un code couleur, en minuscules, ou avec la coquille (« Ascennded », « Ascensded »)
+# têtes au féminin ou au pluriel, juste avant le mot ou plus haut dans le même groupe de mots
+_DEB = r"(?<![A-Za-zÀ-ÿ])"
+_GROUPE = r"(?:(?!" + _ESP + r"[-–—]" + _ESP + r")[^.,;:()@|<>\n])*?"
+RE_ASC_ACCORDS = [
+    (re.compile(_DEB + r"[Dd]e" + _ESP + r"l'Ascended\b"), lambda m: m.group(0)[0] + 'u Transcendé'),
+    (re.compile(_DEB + r"l'Ascended\b"), 'le Transcendé'),
+    (re.compile(_DEB + r"L'Ascended\b"), 'Le Transcendé'),
+    (re.compile(_DEB + r"([Dd]es)(" + _ESP + r")Ascended\b"), r'\1\2Transcendés'),
+    (re.compile(_DEB + r"(en)(" + _ESP + r")Ascended\b"), r'\1\2mode transcendé'),
+    (re.compile(_DEB + r"((?:[Mm]ode|Cauchemar|royaume|raid|Raid|butin|Butin)" + _ESP + r")Ascended\b"), r'\1transcendé'),
+    (re.compile(_DEB + r"(Vaincre|Battez|Vainquez)(" + _ESP + r")Ascended\b"), r'\1\2Transcendé'),
+    (re.compile(_DEB + r"([Dd]ifficulté" + _ESP + r"[Mm]ythique" + _ESP + r"et" + _ESP + r")Ascended\b"), r'\1transcendée'),
+    (re.compile(_DEB + r"((?:[Dd]ifficulté|Montre|Crinière-céleste|Protection|Bénédiction|l'Horreur|l'Abomination)"
+                + _ESP + r")Ascended\b"), r'\1transcendée'),
+    (re.compile(_DEB + r"((?:Caverne|[Bb]ataille)" + _GROUPE + _ESP + r")Ascended\b"), r'\1transcendée'),
+    (re.compile(_DEB + r"((?:Ruines)" + _GROUPE + _ESP + r")Ascended\b"), r'\1transcendées'),
+    (re.compile(_DEB + r"(Mécaniques" + _ESP + r")Ascended\b"), r'\1transcendées'),
+    (re.compile(_DEB + r"((?:[Rr]aids|Pantalons|Anciens|[ÉE]clats|[Bb]oss)" + _ESP + r")Ascended\b"), r'\1transcendés'),
+]
+# une majuscule en tête de texte, d'étiquette, de titre ou après une ponctuation forte
+RE_ASC_MAJ = re.compile(r"(^|[@>/]|[:!\-–—]" + _ESP + r"|\|c[0-9a-fA-F]{8})Ascended\b")
+RE_ASC_VAINCRE = re.compile(r"^(Vaincre|Battez|Vainquez)" + _ESP + r"Transcendé" + _ESP + r":" + _ESP
+                            + r"(.+?)" + _ESP + r"(dans|à|au|sur)" + _ESP + r"([^.]+)\.$")
+RE_ASC_RESTE = re.compile(r"\bAscended\b")
+RE_ASC_ELEVE = re.compile(r"\bélevé(e?s?)\b")
+
+
+def transcende_fr(fr):
+    """Remplace « Ascended » resté dans le français par « transcendé », accordé quand la tête est connue."""
+    fr = fr.replace('@Ascended Raid@', '@Raid transcendé@')
+    for motif, rempl in RE_ASC_ACCORDS:
+        fr = motif.sub(rempl, fr)
+    fr = RE_ASC_MAJ.sub(lambda m: m.group(1) + 'Transcendé', fr)
+    fr = RE_ASC_RESTE.sub('transcendé', fr)
+    # « Vaincre Transcendé : X dans Y. » (calque de « Defeat Ascended: X in Y. ») -> « Vaincre X dans Y (transcendé). »
+    return RE_ASC_VAINCRE.sub(r'\1 \2 \3 \4 (transcendé).', fr)
+
+
+def _transcende(self):
+    """10/11/2026 : décision 35 (remplace la décision 3). Toute ligne non officielle dont l'anglais dit « Ascended »
+    et dont le français porte encore « Ascended » (ou « élevé », traduction machine du même mot) prend
+    « transcendé ». Les cas que la règle ne sait pas accorder sont dans glossaire/transcende.tsv (anglais exact →
+    français, appliqué à chaque import). Les textes officiels de Blizzard ne sont pas touchés (« Alumeth le Sublimé »). Contrôle d'entrée
+    refait ; refus : ligne inchangée (le contrôle final la signalera)."""
+    manuel = {}
+    chemin = os.path.join(K.GLOSSAIRE, 'transcende.tsv')
+    if os.path.exists(chemin):
+        with open(chemin, encoding='utf-8', newline='') as h:
+            for ligne in h:
+                ligne = ligne.rstrip('\r\n')
+                if not ligne or ligne.startswith('#'):
+                    continue
+                c = ligne.split('\t')
+                if c[0] == 'en':
+                    continue
+                manuel[c[0]] = c[1]
+    n = Counter()
+    for l in self.lignes.values():
+        en = l[K.I_EN]
+        if not RE_ASC_EN.search(en):
+            continue
+        if l[K.I_ETAT] in ('officiel', 'technique'):
+            continue
+        fr = l[K.I_FR]
+        if en in manuel:
+            nouv = manuel[en]
+        elif not fr:
+            continue
+        elif 'Ascended' in fr:
+            nouv = transcende_fr(fr)
+        elif RE_ASC_ELEVE.search(fr):
+            nouv = RE_ASC_ELEVE.sub(r'transcendé\1', fr)
+        else:
+            continue
+        if nouv == fr:
+            n['deja'] += 1
+            continue
+        # une ligne déjà « à revoir » le reste (elle a d'autres défauts) : on y écrit quand même le bon mot
+        if l[K.I_ETAT] != 'a_revoir' and self.controle(en, nouv, 'relu' if l[K.I_ETAT] == 'relu' else 'machine',
+                                                        l[K.I_TYPE]):
+            n['refus_controle'] += 1
+            continue
+        n[('manuel_' if en in manuel else 'regle_') + (l[K.I_ETAT] or 'vide')] += 1
+        l[K.I_FR] = nouv
+        # la table est rejouée à chaque import : pas d'état « relu » (une ligne dérivée, créée par une passe
+        # tardive, deviendrait orpheline à l'import suivant)
+        if en in manuel and l[K.I_ETAT] in ('a_traduire', 'a_revoir', ''):
+            l[K.I_ETAT] = 'machine'
+        l[K.I_NOTE] = joindre(l[K.I_NOTE], 'décision 35 : « transcendé »')
+    # ce qui reste : « Ascended » encore dans un français non officiel (à corriger à la main dans transcende.tsv)
+    reste = [l for l in self.lignes.values()
+             if 'Ascended' in l[K.I_FR] and l[K.I_ETAT] not in ('officiel', 'technique')]
+    n['reste_ascended_dans_le_francais'] = len(reste)
+    for l in reste[:40]:
+        K.journal('import : décision 35, reste : %s %s | %s | %s' % (l[K.I_TYPE], l[K.I_ID], l[K.I_EN][:90], l[K.I_FR][:90]))
+    self.cr.update({'transcende:' + a: b for a, b in n.items()})
+    K.journal('import : décision 35, « transcendé » : %s' % dict(n))
+
+
+Importeur.transcende = _transcende
+
 RE_PREMS_EN = re.compile(r"^Realm First! (?:.+?: )?Level (\d+)(?: .+)?$")
 _E = '[ \u00a0\u202f]'
 RE_PREMS_FR = [re.compile(r"^(?P<pre>.+?" + _E + r":" + _E + r")?[Nn]iveau" + _E + r"(?P<n>\d+)" + _E + r"(?P<g>«.*?»)"
@@ -2309,6 +2416,7 @@ def main():
     imp.noms_vanite()                 # essai 8
     imp.criteres_par_nom()            # 0.9.2
     imp.voie_ascension()              # 0.9.4 : décision 34
+    imp.transcende()                  # 1.2.0 : décision 35
     imp.prems_niveau()                # 0.9.4 : décision 24 (modèle de niveau)
     imp.harmoniser_statique()         # 0.9.4
     imp.textes_ext()                  # 0.9.5
