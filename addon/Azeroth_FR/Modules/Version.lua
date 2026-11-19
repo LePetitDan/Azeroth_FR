@@ -97,3 +97,28 @@ table.insert(A.AEntreeEnJeu, function()
     Annoncer()
     Saluer()
 end)
+
+-- ----------------------------------------------------------------------------
+-- (1.2.0) Nouveautes dites UNE SEULE FOIS (gardees dans AzerothFR_Reglages.nouveautes_dites).
+-- Un installateur d'avant la 1.2 met l'add-on a jour mais ne se met pas a jour lui-meme : sans ce message, ses
+-- joueurs ne sauraient pas que les voix francaises existent. Dit quelques secondes apres l'entree en jeu.
+-- ----------------------------------------------------------------------------
+local NOUVEAUTES = {
+    { "voix_1_2", "nouveau : les voix françaises des personnages sont disponibles, en option. Relancez l'installateur d'Azeroth_FR et cochez « voix françaises ». S'il ne propose pas cette case, téléchargez le nouvel installateur sur github.com/LePetitDan/Azeroth_FR : c'est la dernière fois, il se met désormais à jour tout seul." },
+}
+A.NOUVEAUTES = NOUVEAUTES
+function A.DireNouveautes()
+    local r = AzerothFR_Reglages
+    if type(r) ~= "table" or not A.Actif() then return end
+    if type(r.nouveautes_dites) ~= "table" then r.nouveautes_dites = {} end
+    for _, n in ipairs(NOUVEAUTES) do
+        if not r.nouveautes_dites[n[1]] then
+            r.nouveautes_dites[n[1]] = true
+            A.Message(n[2])
+        end
+    end
+end
+A.DireNouveautes = P("Version.nouveautes", A.DireNouveautes)
+table.insert(A.AEntreeEnJeu, function()
+    if A.PlusTard then A.PlusTard(10, A.DireNouveautes) else A.DireNouveautes() end
+end)

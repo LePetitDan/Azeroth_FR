@@ -27,6 +27,18 @@ local function TraduireBouton(bouton)
         end
     end
     if not fr and A.TitreQuete then fr = A.TitreQuete(texte) end
+    -- (1.2, signalement de Dan du 18/11 : le Gardien du temps) Des modules du serveur mettent une icone devant
+    -- l'option : « |TInterface/ICONS/nom:30:30:-18:0|t|r » puis le texte (mod-worldforged-upgrades, IconText).
+    -- On traduit le texte qui suit et on garde l'icone telle quelle.
+    if not fr then
+        local icone, suite = match(texte, "^(|T.-|t)(.+)$")
+        if icone then
+            if string.sub(suite, 1, 2) == "|r" then icone, suite = icone .. "|r", string.sub(suite, 3) end
+            local espaces, nu = match(suite, "^(%s*)(.+)$")
+            local fr2 = nu and (A.TexteDialogue(nu) or (A.TitreQuete and A.TitreQuete(nu)))
+            if fr2 then fr = icone .. espaces .. fr2 end
+        end
+    end
     if fr and fr ~= texte then
         A.Ecrire(bouton, fr)
         -- meme mise en page que le jeu (hauteur selon le texte). 0.4 : on n'appelle plus GossipResize du jeu

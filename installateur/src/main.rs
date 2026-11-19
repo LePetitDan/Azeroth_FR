@@ -5,11 +5,14 @@
 //! Modes sans fenêtre, pour les essais : `--test-installer <dossier> <rapport>`, `--test-desinstaller <dossier>
 //! <rapport>`, `--test-corriger <dossier> <rapport>`, `--test-chercher <rapport>`, `--test-maj <rapport> [<dossier>]` ; `--capture <png> [<dossier>
 //! [<étape>]]` enregistre une image de la fenêtre puis la ferme (étapes : bienvenue, dossier, maj, introuvable, attente,
-//! installation, erreur, fini).
+//! installation, voix, majinstallateur, erreur, fini). `--test-maj-installateur <rapport> <fichier>` : mise à jour de
+//! l'installateur lui-même, sur une copie. Voix françaises (voix.rs) : `--test-voix <dossier> <rapport> [<pack.zip>]` (sans pack :
+//! téléchargement réel) et `--test-voix-retirer <dossier> <rapport>`.
 #![windows_subsystem = "windows"]
 
 mod installation;
 mod maj;
+mod voix;
 
 use eframe::egui::{self, Color32, RichText};
 use std::path::PathBuf;
@@ -55,6 +58,8 @@ enum Maj {
     EnCours,
     Aucune,
     Disponible(maj::Disponible),
+    /// l'installateur se met à jour lui-même : avancement, message
+    Installateur(f32, String),
     Injoignable,
 }
 
@@ -83,15 +88,21 @@ struct App {
     dernier_controle: Instant,
     partage: Arc<Mutex<Partage>>,
     arret_recherche: Arc<AtomicBool>,
+    /// le joueur a quitté l'écran de bienvenue : l'installateur ne se remplace plus sous ses pieds
+    commence: Arc<AtomicBool>,
     confirmer_desinstallation: bool,
     erreur_desinstallation: Option<String>,
+    /// le joueur veut aussi les voix françaises
+    voix_demandees: bool,
+    voix_installees: Option<String>,
+    confirmer_retrait_voix: bool,
     capture: Option<(PathBuf, u32)>,
     figer: bool,
     logo: Option<egui::TextureHandle>,
 }
 
 impl App {
-    fn new(cc: &eframe::CreationContext<'_>, dossier: Option<PathBuf>, capture: Option<PathBuf>, etape: Option<String>) -> Self {
+    fn new(cc: &eframe::CreationContext<'_>, dossier: Option<PathBuf>, capture: Option<PathBuf>, etape: Option<String>, apres_maj: bool) -> Self {
         polices(&cc.egui_ctx);
         apparence(&cc.egui_ctx);
         let essai = capture.is_some();
@@ -110,19 +121,31 @@ impl App {
             dernier_controle: Instant::now(),
             partage: Arc::new(Mutex::new(Partage { etat: Etat::Attente, fraction: 0.0, message: String::new(), recherche: Recherche::Non, maj: Maj::Aucune })),
             arret_recherche: Arc::new(AtomicBool::new(false)),
+            commence: Arc::new(AtomicBool::new(false)),
             confirmer_desinstallation: false,
             erreur_desinstallation: None,
+            voix_demandees: false,
+            voix_installees: None,
+            confirmer_retrait_voix: false,
             capture: capture.map(|p| (p, 0)),
             figer: false,
             logo: decoder_png(include_bytes!("../assets/logo192.png"))
                 .map(|(rgba, l, h)| cc.egui_ctx.load_texture("logo", egui::ColorImage::from_rgba_unmultiplied([l as usize, h as usize], &rgba), Default::default())),
         };
+        app.voix_installees = app.dossier.as_deref().and_then(voix::installees);
         if !essai {
             app.partage.lock().unwrap().maj = Maj::EnCours;
-            let (partage, ctx) = (app.partage.clone(), cc.egui_ctx.clone());
+            let (partage, ctx, commence) = (app.partage.clone(), cc.egui_ctx.clone(), app.commence.clone());
             std::thread::spawn(move || {
                 let r = match maj::verifier(installation::VERSION) {
-                    Ok(Some(d)) => Maj::Disponible(d),
+                    Ok(Some(d)) => {
+                        // une version plus récente a son installateur : celui-ci se remplace et se relance, tant que
+                        // le joueur est encore sur l'écran de bienvenue ; au moindre échec, on continue comme avant
+                        if d.installateur.is_some() && !apres_maj && !commence.load(Ordering::Relaxed) {
+                            se_mettre_a_jour(&d, &partage, &ctx);
+                        }
+                        Maj::Disponible(d)
+                    }
                     Ok(None) => Maj::Aucune,
                     Err(_) => Maj::Injoignable,
                 };
@@ -139,7 +162,10 @@ impl App {
                 "maj" => {
                     app.etape = Etape::Dossier;
                     app.installee = Some(installation::VERSION.to_string());
-                    p.maj = Maj::Disponible(maj::Disponible { version: "9.9.9".into(), url_zip: String::new(), taille: 27 * 1024 * 1024, url_sommes: None });
+                    p.maj = Maj::Disponible(maj::Disponible { version: "9.9.9".into(), url_zip: String::new(), taille: 27 * 1024 * 1024, url_sommes: None, installateur: None });
+                }
+                "majinstallateur" => {
+                    p.maj = Maj::Installateur(0.55, "Téléchargement de l'installateur 9.9.9 : 17 Mo sur 31".into());
                 }
                 "introuvable" => {
                     app.etape = Etape::Dossier;
@@ -156,6 +182,18 @@ impl App {
                     p.etat = Etat::EnCours;
                     p.fraction = 0.62;
                     p.message = "Copie : Azeroth_FR_Sorts03".into();
+                }
+                "voixcochee" => {
+                    app.etape = Etape::Dossier;
+                    app.voix_demandees = true;
+                }
+                "voix" => {
+                    app.etape = Etape::Installation;
+                    app.jeu_ouvert = false;
+                    app.voix_demandees = true;
+                    p.etat = Etat::EnCours;
+                    p.fraction = 0.41;
+                    p.message = "Téléchargement des voix françaises : 0,58 Go sur 1,40".into();
                 }
                 "erreur" => {
                     app.etape = Etape::Installation;
@@ -192,6 +230,7 @@ impl App {
                     None
                 };
                 self.installee = installation::version_installee(&c);
+                self.voix_installees = voix::installees(&c);
                 self.dossier = Some(c);
             }
             None => {
@@ -245,6 +284,7 @@ impl App {
     fn lancer_installation(&mut self, ctx: &egui::Context) {
         let Some(dossier) = self.dossier.clone() else { return };
         let partage = self.partage.clone();
+        let avec_voix = self.voix_demandees;
         {
             let mut p = partage.lock().unwrap();
             p.etat = Etat::EnCours;
@@ -279,30 +319,45 @@ impl App {
                     )),
                 }
             }
+            // avec les voix, la traduction occupe le début de la barre et les voix tout le reste
+            let part = if avec_voix { 0.05 } else { 1.0 };
             let r = match &archive {
                 Some(z) => {
-                    let suite = |f: f32, m: &str| progres(0.6 + f * 0.4, m);
+                    let suite = |f: f32, m: &str| progres((0.6 + f * 0.4) * part, m);
                     installation::installer_archive(&dossier, z, &suite, true)
                 }
-                None => installation::installer(&dossier, &progres, true),
+                None => installation::installer(&dossier, &|f: f32, m: &str| progres(f * part, m), true),
             };
-            let mut p = partage.lock().unwrap();
-            p.etat = match r {
+            let etat = match r {
                 Ok(r) => {
                     if r.ptr_mis_de_cote {
                         notes.push("Un ancien fichier PTR.xml a été mis de côté ; la désinstallation le remettra en place.".to_string());
+                    }
+                    if avec_voix {
+                        // la traduction est en place : un échec des voix ne la remet pas en cause
+                        match voix::installer(&dossier, &|f: f32, m: &str| progres(part + f * (1.0 - part), m)) {
+                            Ok(n) => notes.push(format!("Les voix françaises sont installées ({} fichiers).", n)),
+                            Err(e) => notes.push(format!(
+                                "La traduction est installée, mais pas les voix françaises : {} Relancez cet assistant pour réessayer : le téléchargement reprendra où il s'est arrêté.",
+                                e.lines().next().unwrap_or("").trim_end_matches('.').to_string() + "."
+                            )),
+                        }
                     }
                     Etat::Fini(notes.join(" "))
                 }
                 Err(e) => Etat::Erreur(e),
             };
+            let mut p = partage.lock().unwrap();
+            p.etat = etat;
             ctx.request_repaint();
         });
     }
 
     fn lancer_desinstallation(&mut self) {
         let Some(dossier) = self.dossier.clone() else { return };
-        match installation::desinstaller(&dossier) {
+        let r = installation::desinstaller(&dossier).and_then(|n| voix::retirer(&dossier).map(|v| n + v));
+        self.voix_installees = voix::installees(&dossier);
+        match r {
             Ok(_) => {
                 self.etape = Etape::Desinstalle;
                 self.erreur_desinstallation = None;
@@ -311,6 +366,16 @@ impl App {
         }
         self.installee = installation::version_installee(&dossier);
         self.confirmer_desinstallation = false;
+    }
+
+    fn retirer_voix(&mut self) {
+        let Some(dossier) = self.dossier.clone() else { return };
+        self.note_dossier = Some(match voix::retirer(&dossier) {
+            Ok(n) => (format!("Les voix françaises sont retirées ({} fichiers) : les personnages parlent de nouveau en anglais.", n), true),
+            Err(e) => (e, false),
+        });
+        self.voix_installees = voix::installees(&dossier);
+        self.confirmer_retrait_voix = false;
     }
 
     fn entete(&self, ui: &mut egui::Ui) {
@@ -382,8 +447,21 @@ impl App {
                 ui.label(RichText::new("Fermez le jeu s'il est ouvert. C'est tout.").color(TEXTE));
             }
         });
+        let en_maj = match &self.partage.lock().unwrap().maj {
+            Maj::Installateur(f, m) => Some((*f, m.clone())),
+            _ => None,
+        };
+        if let Some((f, m)) = &en_maj {
+            carte(ui, |ui| {
+                ui.label(RichText::new("MISE À JOUR DE L'ASSISTANT").size(12.0).color(OR).strong());
+                ui.add(egui::Label::new(RichText::new("Une version plus récente de cet assistant existe : il se met à jour et se relance tout seul.").color(TEXTE)).wrap());
+                ui.add(egui::ProgressBar::new(*f).desired_height(12.0).fill(OR));
+                ui.label(RichText::new(m).size(13.0).color(DOUX));
+            });
+        }
         ui.add_space(4.0);
-        if bouton_principal(ui, "Commencer", true) {
+        if bouton_principal(ui, "Commencer", en_maj.is_none()) {
+            self.commence.store(true, Ordering::Relaxed);
             self.etape = Etape::Dossier;
         }
     }
@@ -479,7 +557,7 @@ impl App {
                     d.version, d.taille as f32 / 1_048_576.0
                 )).color(TEXTE)).wrap());
             }),
-            Maj::EnCours => {
+            Maj::EnCours | Maj::Installateur(..) => {
                 ui.label(RichText::new("Recherche d'une version plus récente…").size(13.0).color(DOUX));
             }
             Maj::Injoignable => {
@@ -489,8 +567,50 @@ impl App {
             }
             Maj::Aucune => {}
         }
+        if let Some(d) = self.dossier.clone() {
+            carte(ui, |ui| {
+                ui.label(RichText::new("VOIX FRANÇAISES (EN OPTION)").size(12.0).color(DOUX).strong());
+                if self.voix_installees.is_some() {
+                    ui.horizontal(|ui| {
+                        ui.label(RichText::new("✔ Les voix françaises sont installées.").color(VERT));
+                        if self.confirmer_retrait_voix {
+                            if ui.add_enabled(!self.jeu_ouvert, bouton_secondaire("Oui, les retirer")).clicked() {
+                                self.retirer_voix();
+                            }
+                            if ui.add(bouton_secondaire("Annuler")).clicked() {
+                                self.confirmer_retrait_voix = false;
+                            }
+                        } else if ui.add(egui::Button::new(RichText::new("Les retirer").color(DOUX)).frame(false)).clicked() {
+                            self.confirmer_retrait_voix = true;
+                        }
+                    });
+                } else {
+                    // une case bien visible sur le fond bleu nuit
+                    ui.visuals_mut().widgets.inactive.bg_fill = NUIT;
+                    ui.visuals_mut().widgets.inactive.bg_stroke = egui::Stroke::new(1.5_f32, OR);
+                    ui.visuals_mut().widgets.hovered.bg_fill = NUIT;
+                    ui.visuals_mut().widgets.hovered.bg_stroke = egui::Stroke::new(2.0_f32, CRISTAL);
+                    ui.visuals_mut().widgets.inactive.fg_stroke = egui::Stroke::new(2.0_f32, OR);
+                    ui.visuals_mut().widgets.hovered.fg_stroke = egui::Stroke::new(2.0_f32, CRISTAL);
+                    ui.visuals_mut().widgets.active.fg_stroke = egui::Stroke::new(2.0_f32, CRISTAL);
+                    ui.checkbox(&mut self.voix_demandees, RichText::new("Installer aussi les voix françaises des personnages").color(TEXTE));
+                    let reprise = if voix::presentes(&d) || d.join("Azeroth_FR_voix.telechargement").is_file() {
+                        " Une installation des voix a été interrompue : elle reprendra où elle s'était arrêtée."
+                    } else {
+                        ""
+                    };
+                    ui.add(egui::Label::new(RichText::new(format!(
+                        "Le doublage français d'origine du jeu, pour les personnages qui parlent. C'est un gros téléchargement : {} Go, soit plusieurs minutes, et il faut {} Go libres sur le disque du jeu.{}",
+                        voix::go(voix::TAILLE, 1),
+                        voix::go(voix::TAILLE + voix::SUR_LE_DISQUE, 1),
+                        reprise
+                    )).size(14.0).color(DOUX)).wrap());
+                }
+            });
+        }
         ui.add_space(4.0);
         let libelle = match &self.installee {
+            Some(v) if *v == cible && self.voix_demandees && self.voix_installees.is_none() => "Installer les voix",
             Some(v) if *v == cible => "Réinstaller",
             Some(_) => "Mettre à jour",
             None => "Installer",
@@ -509,7 +629,8 @@ impl App {
             ui.add_space(2.0);
             ui.horizontal(|ui| {
                 if self.confirmer_desinstallation {
-                    ui.label(RichText::new("Retirer la traduction du jeu ?").color(TEXTE));
+                    let question = if voix::presentes(self.dossier.as_ref().unwrap()) { "Retirer la traduction et les voix françaises ?" } else { "Retirer la traduction du jeu ?" };
+                    ui.label(RichText::new(question).color(TEXTE));
                     if ui.add_enabled(!self.jeu_ouvert, bouton_secondaire("Oui, désinstaller")).clicked() {
                         self.lancer_desinstallation();
                     }
@@ -556,7 +677,8 @@ impl App {
             Etat::EnCours => {
                 carte(ui, |ui| {
                     ui.label(RichText::new("INSTALLATION EN COURS").size(12.0).color(DOUX).strong());
-                    ui.label(RichText::new("Encore quelques secondes…").size(20.0).color(TEXTE));
+                    let attente = if self.voix_demandees { "Les voix sont longues à télécharger : plusieurs minutes" } else { "Encore quelques secondes…" };
+                    ui.label(RichText::new(attente).size(20.0).color(TEXTE));
                     ui.add_space(4.0);
                     ui.add(egui::ProgressBar::new(fraction).desired_height(14.0).fill(OR));
                     ui.label(RichText::new(message).color(DOUX));
@@ -592,7 +714,9 @@ impl App {
             Etat::Fini(_) => {
                 if let Some(d) = &self.dossier {
                     self.installee = installation::version_installee(d);
+                    self.voix_installees = voix::installees(d);
                 }
+                self.voix_demandees = false;
                 self.etape = Etape::Fini
             }
         }
@@ -607,7 +731,7 @@ impl App {
             for (n, l) in [
                 "Lancez le jeu avec le lanceur, comme d'habitude. Si le lanceur propose un « nettoyage des add-ons », laissez-le décoché : sinon il retire la traduction.",
                 "À l'écran des personnages, cliquez sur le bouton AddOns : Azeroth_FR et ses modules doivent être cochés.",
-                "En jeu, tapez /azfr dans la discussion pour ouvrir les options (couper la traduction, les bulles, les plaques de nom…).",
+                "En jeu, le bouton Azeroth_FR de la minicarte sert à signaler un texte faux ou resté en anglais (clic gauche) et à ouvrir les options (clic droit).",
             ].iter().enumerate() {
                 ui.horizontal_top(|ui| {
                     ui.label(RichText::new(format!("{}.", n + 1)).size(17.0).strong().color(OR));
@@ -731,6 +855,25 @@ impl eframe::App for App {
             }
             ctx.request_repaint();
         }
+    }
+}
+
+/// L'installateur prend la place de lui-même par sa version la plus récente, puis se relance. Ne revient que si
+/// quelque chose a échoué (le joueur continue alors avec l'installateur qu'il a).
+fn se_mettre_a_jour(d: &maj::Disponible, partage: &Arc<Mutex<Partage>>, ctx: &egui::Context) {
+    let Ok(moi) = std::env::current_exe() else { return };
+    let dire = |f: f32, m: &str| {
+        partage.lock().unwrap().maj = Maj::Installateur(f, m.to_string());
+        ctx.request_repaint();
+    };
+    dire(0.0, "Préparation…");
+    let Ok(octets) = maj::telecharger_installateur(d, &dire) else { return };
+    if maj::remplacer(&octets, &moi).is_err() {
+        return;
+    }
+    dire(1.0, "Relance de l'assistant…");
+    if std::process::Command::new(&moi).arg(maj::APRES_MAJ).spawn().is_ok() {
+        std::process::exit(0);
     }
 }
 
@@ -872,6 +1015,42 @@ fn essai(args: &[String]) -> bool {
             };
             (t, PathBuf::from(r))
         }
+        [m, d, r, reste @ ..] if m == "--test-voix" => {
+            let debut = Instant::now();
+            let dossier = PathBuf::from(d);
+            let res = match reste.first() {
+                Some(zip) => voix::poser(&dossier, &PathBuf::from(zip), &|_, _| {}),
+                None => voix::installer(&dossier, &|_, _| {}),
+            };
+            let t = match res {
+                Ok(n) => format!("OK voix {:?} : {} fichiers en {:.0} s\n", voix::installees(&dossier), n, debut.elapsed().as_secs_f32()),
+                Err(e) => format!("ERREUR {}\n", e),
+            };
+            (t, PathBuf::from(r))
+        }
+        [m, d, r, ..] if m == "--test-voix-retirer" => {
+            let t = match voix::retirer(&PathBuf::from(d)) {
+                Ok(n) => format!("OK voix retirées : {} fichiers ; restent : {:?}\n", n, voix::installees(&PathBuf::from(d))),
+                Err(e) => format!("ERREUR {}\n", e),
+            };
+            (t, PathBuf::from(r))
+        }
+        [m, r, cible, ..] if m == "--test-maj-installateur" => {
+            // l'installateur de la dernière version publiée, pour un installateur qui serait en 0.0.1 : téléchargé,
+            // vérifié, puis mis à la place du fichier `cible` (une copie d'essai, jamais cet exécutable)
+            let t = match maj::verifier("0.0.1") {
+                Ok(Some(d)) => match maj::telecharger_installateur(&d, &|_, _| {}) {
+                    Ok(o) => match maj::remplacer(&o, &PathBuf::from(cible)) {
+                        Ok(()) => format!("OK installateur {} : {} octets, empreinte vérifiée, mis en place\n", d.version, o.len()),
+                        Err(e) => format!("ERREUR remplacement : {}\n", e),
+                    },
+                    Err(e) => format!("ERREUR téléchargement de l'installateur {} : {}\n", d.version, e),
+                },
+                Ok(None) => "RIEN\n".to_string(),
+                Err(e) => format!("INJOIGNABLE {}\n", e),
+            };
+            (t, PathBuf::from(r))
+        }
         [m, r, ..] if m == "--test-chercher" => {
             let debut = Instant::now();
             let v = installation::chercher(&AtomicBool::new(false), &|_| {});
@@ -892,6 +1071,11 @@ fn main() -> eframe::Result<()> {
     if essai(&args) {
         return Ok(());
     }
+    // après une mise à jour de l'installateur : l'ancien fichier est effacé, et on ne recommence pas
+    let apres_maj = args.iter().any(|a| a == maj::APRES_MAJ);
+    if let Ok(moi) = std::env::current_exe() {
+        maj::nettoyer(&moi);
+    }
     let (capture, dossier, etape) = match args.as_slice() {
         [c, png, rest @ ..] if c == "--capture" => (Some(PathBuf::from(png)), rest.first().map(PathBuf::from), rest.get(1).cloned()),
         _ => (None, None, None),
@@ -907,6 +1091,6 @@ fn main() -> eframe::Result<()> {
     eframe::run_native(
         "Azeroth_FR",
         options,
-        Box::new(move |cc| Ok(Box::new(App::new(cc, dossier, capture, etape)))),
+        Box::new(move |cc| Ok(Box::new(App::new(cc, dossier, capture, etape, apres_maj)))),
     )
 }

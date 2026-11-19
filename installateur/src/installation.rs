@@ -108,7 +108,7 @@ pub fn jeu_ouvert() -> bool {
 }
 
 /// Une erreur du disque, dite simplement, avec ce qu'il faut faire.
-fn expliquer(quoi: &str, e: &std::io::Error) -> String {
+pub(crate) fn expliquer(quoi: &str, e: &std::io::Error) -> String {
     let brut = e.raw_os_error();
     let conseil = if e.kind() == std::io::ErrorKind::PermissionDenied {
         if cfg!(windows) {
@@ -119,7 +119,7 @@ fn expliquer(quoi: &str, e: &std::io::Error) -> String {
     } else if cfg!(windows) && brut == Some(32) {
         "Un fichier est utilisé par un autre programme : fermez le jeu et le lanceur, puis réessayez."
     } else if (cfg!(windows) && brut == Some(112)) || (!cfg!(windows) && brut == Some(28)) {
-        "Le disque est plein : libérez de la place (environ 200 Mo), puis réessayez."
+        "Le disque est plein : libérez de la place, puis réessayez."
     } else {
         "Réessayez ; si l'erreur revient, signalez-la sur le Discord Azeroth_FR avec ce message."
     };

@@ -36,6 +36,15 @@ Les noms officiels viennent du client français de Blizzard (« Éclair de givre
 
 Sous Linux, rendez le fichier exécutable (clic droit, Propriétés, « Autoriser l'exécution ») avant de le lancer.
 
+## Les voix françaises (en option)
+
+Les personnages du jeu peuvent parler français : c'est le doublage français d'origine de World of Warcraft. À l'étape « Dossier du jeu » de l'installateur, cochez **Installer aussi les voix françaises des personnages**.
+
+- C'est un gros téléchargement : 1,4 Go, soit plusieurs minutes. Il faut 3 Go libres sur le disque du jeu pendant l'installation ; les voix en occupent ensuite 1,6.
+- Si le téléchargement est interrompu, relancez l'installateur : il reprend où il s'était arrêté.
+- Les voix sont posées dans le dossier `Sound` du jeu, sans modifier ses fichiers. Pour les enlever : relancez l'installateur, étape « Dossier du jeu », **Les retirer**.
+- Toutes les répliques ne sont pas doublées : les personnages et les contenus inventés par Conquest of Azeroth gardent leur voix d'origine.
+
 ## Installer à la main (Windows)
 
 1. **Fermez le jeu.**
@@ -52,21 +61,23 @@ Le zip installe deux choses :
 
 **Relancez l'installateur que vous avez déjà** : il regarde sur GitHub s'il existe une version plus récente, la télécharge et l'installe quand vous cliquez sur **Mettre à jour**. Inutile de le retélécharger.
 
+Depuis la version 1.2, **l'installateur se met aussi à jour lui-même** : à son lancement, s'il existe un installateur plus récent, il le télécharge, vérifie le fichier, prend sa place et se relance. Si votre installateur date d'avant la 1.2 (il ne propose pas la case « voix françaises »), téléchargez le nouveau une dernière fois.
+
 **Comment savoir qu'une version est sortie ?** En jeu, si un joueur de votre guilde ou de votre groupe a une version plus récente, Azeroth_FR vous l'écrit dans la discussion et dans son panneau d'options. Les annonces sont aussi faites sur le [Discord Azeroth_FR](https://discord.gg/kFJGDJbeay).
 
 À la main : fermez le jeu, supprimez les dossiers `Azeroth_FR…` de `Interface\AddOns`, puis extrayez le nouveau zip comme à l'installation. Le découpage des données change d'une version à l'autre : sans cette suppression, de vieux fichiers resteraient.
 
-**Ce qui passe par internet.** L'installateur ne contacte que GitHub, pour connaître la dernière version et la télécharger ; il n'envoie rien sur vous. En jeu, l'add-on échange avec les autres joueurs d'Azeroth_FR de votre guilde ou de votre groupe un message invisible qui ne contient que son numéro de version.
+**Ce qui passe par internet.** L'installateur ne contacte que GitHub, pour connaître la dernière version et la télécharger, pour se mettre à jour lui-même, et pour télécharger les voix françaises si vous les demandez ; il n'envoie rien sur vous. En jeu, l'add-on échange avec les autres joueurs d'Azeroth_FR de votre guilde ou de votre groupe un message invisible qui ne contient que son numéro de version.
 
 ## Désinstaller
 
-Avec l'installateur : à l'étape « Dossier du jeu », **Désinstaller la traduction**.
+Avec l'installateur : à l'étape « Dossier du jeu », **Désinstaller la traduction**. Les voix françaises installées par l'installateur sont retirées en même temps.
 
-À la main : supprimez les dossiers `Interface\AddOns\Azeroth_FR…`, ainsi que `Interface\PTRXML\AzerothFR_Interface.lua` et `Interface\PTRXML\PTR.xml`.
+À la main : supprimez les dossiers `Interface\AddOns\Azeroth_FR…`, ainsi que `Interface\PTRXML\AzerothFR_Interface.lua` et `Interface\PTRXML\PTR.xml`. Pour les voix : le fichier `Sound\Azeroth_FR_voix.txt` donne la liste des fichiers posés.
 
 ## Le panneau d'options
 
-Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez simplement `/azfr`. Vous pouvez y couper toute la traduction (« Jeu en français »), ou une partie seulement : les bulles des PNJ, les messages au centre de l'écran, les plaques de nom.
+Dans le jeu : **clic droit sur le bouton Azeroth_FR de la minicarte**, ou **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez simplement `/azfr`. Vous pouvez y couper toute la traduction (« Jeu en français »), ou une partie seulement : les bulles des PNJ, les messages au centre de l'écran, les plaques de nom.
 
 ## Commandes
 
@@ -78,22 +89,29 @@ Dans le jeu : **Menu du jeu, Interface, onglet AddOns, Azeroth_FR**, ou tapez si
 | `/azfr bulles off` / `on` | Coupe ou remet la traduction des bulles des PNJ |
 | `/azfr centre off` / `on` | Coupe ou remet la traduction des messages du centre de l'écran |
 | `/azfr plaques off` / `on` | Coupe ou remet la traduction des plaques de nom |
-| `/azfr bulle` | Écrit dans la discussion le texte de l'infobulle affichée, tel que l'add-on le voit : utile pour signaler une erreur |
+| `/azfr signaler` | Ouvre la fenêtre de signalement |
+| `/azfr bulle` | Écrit dans la discussion le texte de l'infobulle affichée, tel que l'add-on le voit (diagnostic détaillé) |
 | `/azfr stats` / `/azfr erreurs` | Diagnostic (actions bloquées, erreurs de l'add-on) |
 
 ## Signaler une erreur
 
-Sur le [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay), envoyez :
-- une capture d'écran ;
-- l'endroit du jeu (fenêtre, PNJ, sort, objet) ;
-- pour une infobulle, ce qu'écrit `/azfr bulle` pendant qu'elle est affichée.
+Tout se fait dans une petite fenêtre du jeu :
+
+1. Cliquez sur le **bouton Azeroth_FR de la minicarte** (ou sur « Signaler une erreur… » dans les options, ou tapez `/azfr signaler`).
+2. Cliquez sur **Viser un texte**, puis posez la souris sur le texte en cause : un objet, un sort, un bouton, une ligne de menu, un texte de fenêtre. Il est relevé au bout de 4 secondes.
+3. **Cochez** ce qui ne va pas (resté en anglais, traduction fausse, texte coupé…).
+4. Appuyez sur **Ctrl+C**, puis collez (Ctrl+V) dans le salon des signalements du [Discord **Azeroth_FR**](https://discord.gg/kFJGDJbeay).
+
+Le compte rendu contient la version de l'add-on, la zone, le numéro de l'objet ou du sort, le nom de la fenêtre et le texte affiché. Il ne contient ni le nom de votre personnage ni rien sur votre compte.
+
+Ce que la visée ne peut pas relever : les textes dans le décor (bulles des PNJ, noms au-dessus des têtes) et les écrans d'avant-jeu. Pour ceux-là, cochez « Autre chose » et joignez une capture d'écran.
 
 Ne partagez jamais votre identifiant ni votre mot de passe. Évitez aussi de montrer le nom de votre personnage si vous ne le souhaitez pas.
 
 ## Limites connues
 
 - **La carte du monde** : les grands noms peints sur la carte (« Eastern Kingdoms », « The Great Sea ») sont des images du jeu, un add-on ne peut pas les changer.
-- **Ce qui reste en anglais.** Quelques termes propres à Conquest of Azeroth gardent leur nom anglais, comme la difficulté *Ascended* ou *Worldforged*. Les noms propres inventés par CoA (personnages, la plupart des lieux) restent tels quels, comme dans le jeu français de Blizzard pour ses propres noms. Quelques textes encore récents (boutique, enchantements mystiques) attendent leur traduction.
+- **Ce qui reste en anglais.** Quelques termes propres à Conquest of Azeroth gardent leur nom anglais, comme *Worldforged* ou *Hardcore*. Les noms propres inventés par CoA (personnages, la plupart des lieux) restent tels quels, comme dans le jeu français de Blizzard pour ses propres noms. Quelques textes encore récents (boutique, enchantements mystiques) attendent leur traduction.
 - **Les mises à jour de Conquest of Azeroth** ajoutent des textes : ils restent en anglais jusqu'à la version suivante d'Azeroth_FR.
 - **Les messages des joueurs** ne sont pas traduits.
 - **Le nom de vos ennemis dans le journal de combat** peut rester en anglais.

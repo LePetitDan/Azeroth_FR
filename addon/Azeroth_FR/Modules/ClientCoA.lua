@@ -229,6 +229,9 @@ local RACINES = {
     { "AscensionPetPaperDollPanel", { "type_creature" } },
     -- essai 8 : barres d'incantation (« Looting »), en secours du crochet plus bas
     { "CastingBarFrame", { "sort" } }, { "TargetFrameSpellBar", { "sort" } }, { "FocusFrameSpellBar", { "sort" } },
+    -- 1.2 (signalement de Dan du 18/11) : le tableau d'appel (AscensionUI/Gossips/CallBoard*.lua). Son titre est le
+    -- nom de l'objet du monde, et il affiche des objets par leur nom (« Adventurer's Cache », « Bazaar Token »)
+    { "CallBoardUI", { "objet_quete", "objet_monde" } },
 }
 local LIMITE = 4000           -- zones de texte lues au plus par passe et par fenetre
 
