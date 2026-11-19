@@ -1,5 +1,18 @@
 **Conquest of Azeroth en français.** Version 1.2.0.
 
+## Nouveautés de la 1.2.0
+
+- **Les voix françaises, en option** : l'installateur peut télécharger et installer le doublage français d'origine des personnages (1,4 Go). Une case à cocher à l'étape « Dossier du jeu » ; le téléchargement reprend s'il est interrompu ; les voix se retirent avec le même installateur.
+- **L'installateur se met à jour lui-même** : à partir de cette version, vous n'aurez plus jamais à le retélécharger. S'il existe un installateur plus récent, il le télécharge, le vérifie, prend sa place et se relance. Ceux qui ont un installateur plus ancien le téléchargent une dernière fois ; l'add-on le leur dit en jeu.
+- **Les nouveautés de Conquest of Azeroth jusqu'au 17/11** sont traduites : nouvelles quêtes, cartes de compétence et objets, créatures, répliques.
+- **Hôtel des ventes, échange entre joueurs, jets de butin, montures et familiers** : les noms y sont en français, ainsi que les catégories de l'hôtel des ventes.
+- **Options de dialogue de certains PNJ** (le Gardien du temps, par exemple) et **tableau d'appel aux héros** : en français. Merci pour les signalements.
+- **Une fenêtre pour signaler une erreur** : cliquez sur le nouveau bouton Azeroth_FR de la minicarte, visez le texte en cause (objet, sort, bouton, menu, texte de fenêtre), cochez ce qui ne va pas, copiez et collez sur le Discord. Clic droit sur le bouton : les options.
+- **La difficulté « Ascended » s'appelle « transcendé »** partout : « Raid transcendé », « en mode transcendé », « Transcendé : Hakkar ».
+- **Étiquettes des objets en français** : classes (« Guerrier »), couleurs (« Vert »), créatures et apparences (« Loup », « Drake noir », « Élémentaire d'eau »), lieux et modes (« Temple d'Ahn'Qiraj héroïque », « Donjon : Le Nexus », « Raid : Le sanctum Obsidien - 10 joueurs »). Environ 7 000 lignes de plus en français.
+
+**Vous avez déjà Azeroth_FR ?** Relancez votre installateur : il installe la 1.2.0. Pour les voix françaises, téléchargez une dernière fois le nouvel installateur ci-dessous ; il se mettra ensuite à jour tout seul.
+
 ## Quel fichier télécharger ?
 
 | Vous voulez… | Fichier |

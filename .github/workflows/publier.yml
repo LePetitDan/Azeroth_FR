@@ -17,6 +17,9 @@ jobs:
           sha256sum -c SHA256SUMS.txt
           if [ -f PUBLIER ]; then
             # deuxième temps : la préversion, essayée par Dan, devient la dernière version
+            # les fichiers de la préversion sont remplacés par ceux de cette branche, puis la version devient publique
+            gh release upload "v$v" --clobber \
+              "Azeroth_FR-Installateur-$v.exe" "Azeroth_FR-Installateur-$v-linux" "Azeroth_FR-$v.zip" SHA256SUMS.txt
             gh release edit "v$v" --prerelease=false --latest --notes-file NOTES.md
           else
             # premier temps : préversion (les installateurs en circulation ne la voient pas)
