@@ -2,6 +2,15 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
+## 1.2.1 (en préparation)
+
+Corrections à la suite de vos signalements :
+
+- **Plaques de nom** (les noms au-dessus des créatures) : de nouveau en français avec les plaques de Conquest of Azeroth, y compris après un survol ou un changement de cible.
+- **Loterie de Gallywix** : les dialogues de Gallywix et de Boucles d'Or sont en français, ainsi que l'achat des tickets d'or.
+- **Fenêtre de métier** : les noms des composants et de l'objet fabriqué sont en français.
+- **Les nouveautés de Conquest of Azeroth jusqu'au 26/11** sont traduites : nouvelles quêtes (dont celles de Khadgar au Cratère de Dalaran), objets, créatures et répliques.
+
 ## 1.2.0 (2026-11-18)
 
 - **Les voix françaises, en option** : l'installateur peut télécharger et installer le doublage français d'origine des personnages (1,4 Go). Une case à cocher à l'étape « Dossier du jeu » ; le téléchargement reprend s'il est interrompu ; les voix se retirent avec le même installateur.

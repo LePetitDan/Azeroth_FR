@@ -259,14 +259,43 @@ veille:SetScript("OnUpdate", P("Echanges.veille", function(_, dt)
 end, true))
 
 -- ----------------------------------------------------------------------------
+-- Fenetre de metier (1.2.1, signalement d'un joueur du 26/11 : composants restes en anglais). Blizzard_TradeSkillUI
+-- (charge a la demande) : TradeSkillFrame_SetSelection(id) pose TradeSkillReagentNName (l. 313-315, nom tire de
+-- GetTradeSkillReagentInfo) et TradeSkillSkillName (l. 283). Nom par le lien (GetTradeSkillReagentItemLink,
+-- GetTradeSkillItemLink) : pose seulement si l'anglais affiche est celui qu'on a traduit.
+-- ----------------------------------------------------------------------------
+local function Metier(id)
+    if not A.Actif() or type(id) ~= "number" then return end
+    if type(GetTradeSkillReagentItemLink) == "function" then
+        for i = 1, (MAX_TRADE_SKILL_REAGENTS or 8) do
+            local zone = _G["TradeSkillReagent" .. i .. "Name"]
+            local lien = zone and GetTradeSkillReagentItemLink(id, i)
+            if lien then A.NomObjetZone(zone, lien) end
+        end
+    end
+    if TradeSkillSkillName and type(GetTradeSkillItemLink) == "function" then
+        local lien = GetTradeSkillItemLink(id)
+        if lien and string.find(lien, "|Hitem:", 1, true) then A.NomObjetZone(TradeSkillSkillName, lien) end
+    end
+end
+A.TraduireMetier = Metier
+
+local metier_branche = false
+local function BrancherMetier()
+    if metier_branche or type(TradeSkillFrame_SetSelection) ~= "function" then return end
+    metier_branche = true
+    hooksecurefunc("TradeSkillFrame_SetSelection", P("TradeSkillFrame_SetSelection", Metier))
+end
+
+-- ----------------------------------------------------------------------------
 -- Branchements des fenetres chargees a la demande
 -- ----------------------------------------------------------------------------
 BrancherEncheres()
+BrancherMetier()
 local guetteur = CreateFrame("Frame")
 guetteur:RegisterEvent("ADDON_LOADED")
 guetteur:SetScript("OnEvent", P("Echanges.ADDON_LOADED", function(self, _, nom)
-    if nom == "Blizzard_AuctionUI" then
-        BrancherEncheres()
-        self:UnregisterEvent("ADDON_LOADED")
-    end
+    if nom == "Blizzard_AuctionUI" then BrancherEncheres() end
+    if nom == "Blizzard_TradeSkillUI" then BrancherMetier() end
+    if encheres_branchees and metier_branche then self:UnregisterEvent("ADDON_LOADED") end
 end))

@@ -34,6 +34,11 @@ local function Zones(plaque)
     local out = {}
     local uf = type(plaque.UnitFrame) == "table" and plaque.UnitFrame or nil
     if uf and type(uf.name) == "table" and type(uf.name.GetText) == "function" then out[#out + 1] = uf.name end
+    -- 1.2.1 (signalements des joueurs du 20 et 21/11 : plaques restées en anglais) : les plaques d'Ascension
+    -- actuelles (FrameXML/CompactUnitFrame.lua, CompactUnitMixin:UpdateName) écrivent le nom dans
+    -- UnitFrame.Elements.name, et non plus dans UnitFrame.name
+    local el = uf and type(uf.Elements) == "table" and uf.Elements or nil
+    if el and type(el.name) == "table" and type(el.name.GetText) == "function" then out[#out + 1] = el.name end
     if type(plaque.GetRegions) == "function" then
         local regions = { plaque:GetRegions() }
         for i = 1, #regions do
@@ -49,11 +54,24 @@ local function ZoneTouchable(z)
     return not (parent and A.EstProtege(parent))
 end
 
+-- 1.2.1 : le client remet le nom anglais a chaque UpdateName (survol, changement de cible) ; on repasse juste apres
+-- (crochet pose une fois par cadre de plaque, hooksecurefunc : rien n'est remplace).
+local crochets = setmetatable({}, { __mode = "k" })
+local TraduireUnite
+local function Accrocher(uf)
+    if not uf or crochets[uf] or type(uf.UpdateName) ~= "function" then return end
+    crochets[uf] = true
+    hooksecurefunc(uf, "UpdateName", P("Plaques.UpdateName", function(self)
+        if Actif() and type(self.unit) == "string" then TraduireUnite(self.unit) end
+    end))
+end
+
 -- Traduit la plaque d'une unite ; renvoie true si un nom francais est en place.
-local function TraduireUnite(unite)
+function TraduireUnite(unite)
     if type(GetNamePlateForUnit) ~= "function" then return false end
     local ok, plaque = pcall(GetNamePlateForUnit, unite)
     if not ok or type(plaque) ~= "table" then return false end
+    if type(plaque.UnitFrame) == "table" then pcall(Accrocher, plaque.UnitFrame) end
     local fr, en = A.NomUnite(unite)
     if not fr or not en or fr == en then return false end
     for _, z in ipairs(Zones(plaque)) do

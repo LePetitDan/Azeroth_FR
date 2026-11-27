@@ -58,6 +58,8 @@ local function TraduireGossip()
     local texte = zone and zone:GetText()
     if texte and texte ~= "" and not A.DejaEcrit(zone, texte) then
         local fr = A.TexteDialogue(texte)
+        -- 1.2.1 : texte composé par le serveur avec des nombres variables (loterie de Gallywix) : gabarit à nombres
+        if not fr and A.TexteClient then fr = A.TexteClient(texte) end
         if fr then A.Ecrire(zone, fr) end
     end
     for i = 1, 32 do
