@@ -2,7 +2,7 @@
 
 Les versions 0.x ont été testées en jeu par Dan seul, de 2026-11-03 à 2026-11-09 ; la première version publique les réunit.
 
-## 1.2.1 (en préparation)
+## 1.2.1 (2026-11-27)
 
 Corrections à la suite de vos signalements :
 
